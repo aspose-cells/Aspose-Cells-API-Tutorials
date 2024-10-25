@@ -77,7 +77,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 worksheet.PageSetup.PrintQuality = 180;
 ```
 
-설명:`PrintQuality` 속성은 일반적으로 75~600dpi(인치당 도트 수) 사이의 값으로 설정할 수 있습니다. 이 경우 180dpi로 설정하는데, 이는 품질과 파일 크기 간의 적절한 균형을 맞추기에 좋습니다.
+ 설명:`PrintQuality` 속성은 일반적으로 75~600dpi(인치당 도트 수) 사이의 값으로 설정할 수 있습니다. 이 경우 180dpi로 설정하는데, 이는 품질과 파일 크기 간의 적절한 균형을 맞추기에 좋습니다.
 
 ## 5단계: 통합 문서 저장
 

@@ -91,9 +91,9 @@ A csatlakozási pont egy adott pont az alakzaton, ahol csatlakozókat csatlakozt
 ### Lekérhetem a kapcsolódási pontokat egy munkalapon lévő összes alakzathoz?
 Igen, az Aspose.Cells lehetővé teszi bármely olyan alakzat csatlakozási pontjainak lekérését, amely támogatja azokat. Egyszerűen lapozzon át az alakzatgyűjteményben a munkalapon.
 ### Szükségem van engedélyre az Aspose.Cells használatához?
-Igen, bár ingyenesen kipróbálhatja, a teljes szolgáltatáshoz licenc szükséges. Megteheti[vásároljon itt licencet](https://purchase.aspose.com/buy) vagy kap a[ideiglenes engedély](https://purchase.aspose.com/temporary-license/).
+Igen, bár ingyenesen kipróbálhatja, a teljes szolgáltatáshoz licenc szükséges. Tudod[vásároljon itt licencet](https://purchase.aspose.com/buy)vagy kap a[ideiglenes engedély](https://purchase.aspose.com/temporary-license/).
 ### Hogyan adhatok hozzá különböző típusú alakzatokat az Aspose.Cells-hez?
- Használhatja a`Add` módszer alakzatokhoz, például téglalapokhoz, ellipszisekhez stb. Minden alakzatnak sajátos paraméterei vannak, amelyeket személyre szabhat.
+Használhatja a`Add` módszer alakzatokhoz, például téglalapokhoz, ellipszisekhez stb. Minden alakzatnak sajátos paraméterei vannak, amelyeket személyre szabhat.
 ### Hogyan tölthetek be egy meglévő Excel-fájlt egy új létrehozása helyett?
  Meglévő fájl betöltéséhez adja át a fájl elérési útját a`Workbook` konstruktor, így:  
 ```csharp

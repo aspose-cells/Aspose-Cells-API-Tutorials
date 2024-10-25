@@ -40,7 +40,7 @@ Sekarang, mari kita uraikan ini ke dalam langkah-langkah terperinci untuk berhas
 Pertama-tama, pastikan Anda memiliki folder khusus untuk dokumen Anda. Berikut cara membuat direktori jika belum ada:
 ```csharp
 string dataDir = "Your Document Directory";
-//Buat direktori jika belum ada.
+// Buat direktori jika belum ada.
 bool isExists = System.IO.Directory.Exists(dataDir);
 if (!isExists)
     System.IO.Directory.CreateDirectory(dataDir);

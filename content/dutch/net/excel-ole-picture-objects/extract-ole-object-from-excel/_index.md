@@ -12,7 +12,7 @@ In de huidige tech-savvy wereld is het werken met Excel-bestanden een veelvoorko
 ## Vereisten
 Voordat we dieper ingaan op de details van het extraheren van OLE-objecten, zijn er een paar dingen die u moet regelen:
 1. Basiskennis van C#: Als u bekend bent met C#, bent u al op de goede weg. Zo niet, maak u dan geen zorgen! We houden het simpel.
-2.  Aspose.Cells Geïnstalleerd: U hebt de Aspose.Cells-bibliotheek nodig. U kunt deze downloaden van de site[hier](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells Geïnstalleerd: U hebt de Aspose.Cells-bibliotheek nodig. U kunt deze downloaden van de site[hier](https://releases.aspose.com/cells/net/).
 3. Een compatibele ontwikkelomgeving: zorg ervoor dat u een .NET-ontwikkelomgeving hebt ingesteld, zoals Visual Studio, die klaar is voor gebruik.
 4. Een voorbeeld van een Excel-bestand: u hebt een Excel-bestand met ingesloten OLE-objecten nodig om te kunnen testen. 
 Zodra u aan deze vereisten voldoet, kunnen we beginnen met onze reis in de wereld van OLE-objectextractie.
@@ -44,7 +44,7 @@ Nu komt het leuke gedeelte: alle OLE-objecten in onze collectie doorlopen. Deze 
 for (int i = 0; i < oles.Count; i++)
 {
     Aspose.Cells.Drawing.OleObject ole = oles[i];
-    //Verdere logica om elk object te verwerken
+    // Verdere logica om elk object te verwerken
 }
 ```
 ## Stap 5: Geef de uitvoerbestandsnaam op

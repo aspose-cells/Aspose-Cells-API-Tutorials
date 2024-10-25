@@ -29,7 +29,7 @@ Bevor Sie mit dem Codieren beginnen, sollten Sie Ihre Dateien organisieren. Lass
 ```csharp
 // Der Pfad zum Dokumentverzeichnis.
 string dataDir = "Your Document Directory";
-//Erstellen Sie ein Verzeichnis, falls es noch nicht vorhanden ist.
+// Erstellen Sie ein Verzeichnis, falls es noch nicht vorhanden ist.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -41,7 +41,7 @@ Jetzt ist es an der Zeit, eine Excel-Arbeitsmappe zu erstellen, in die wir unser
 // Instanziieren Sie eine neue Arbeitsmappe.
 Workbook excelbook = new Workbook();
 ```
- Der`Workbook`Klasse stellt eine Excel-Datei dar. Indem wir sie instanziieren, erstellen wir eine neue Arbeitsmappe, die für Änderungen bereit ist.
+ Der`Workbook` Klasse stellt eine Excel-Datei dar. Indem wir sie instanziieren, erstellen wir eine neue Arbeitsmappe, die für Änderungen bereit ist.
 ## Schritt 3: Zugriff auf das erste Arbeitsblatt
 Wir fügen unseren Spinner zum ersten Arbeitsblatt in der Arbeitsmappe hinzu.
 ```csharp
@@ -117,6 +117,6 @@ Ja, Sie können die Größe, Position und sogar die 3D-Schattierung für ein ele
 ### Benötige ich eine Lizenz, um Aspose.Cells zu verwenden?
  Aspose.Cells bietet eine kostenlose Testversion an, für den produktiven Einsatz ist jedoch eine kostenpflichtige Lizenz erforderlich. Schauen Sie sich die[Kaufoptionen](https://purchase.aspose.com/buy).
 ### Wie kann ich Hilfe zu Aspose.Cells erhalten?
- Für Unterstützung besuchen Sie die[Aspose-Forum](https://forum.aspose.com/c/cells/9)wo Sie Fragen stellen und Antworten finden können.
+ Für Unterstützung besuchen Sie die[Aspose-Forum](https://forum.aspose.com/c/cells/9) wo Sie Fragen stellen und Antworten finden können.
 ### Ist es möglich, demselben Arbeitsblatt mehrere Spinner hinzuzufügen?
 Auf jeden Fall! Sie können so viele Spinner hinzufügen wie nötig, indem Sie für jedes Steuerelement die gleichen Schritte ausführen.

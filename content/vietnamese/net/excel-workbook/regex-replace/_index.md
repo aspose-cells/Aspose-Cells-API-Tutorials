@@ -16,7 +16,7 @@ Bạn có thấy mệt mỏi khi phải dành hàng giờ để thực hiện nh
 Trước khi đi sâu vào phần lập trình, hãy đảm bảo rằng bạn đã được trang bị đầy đủ cho hành trình phía trước.
 
 1. .NET Framework: Đảm bảo bạn đã thiết lập môi trường .NET. Cho dù là .NET Core hay .NET Framework, bạn đều có thể sử dụng.
-2.  Thư viện Aspose.Cells: Thư viện này là chìa khóa để bạn mở khóa các thao tác bảng tính mạnh mẽ. Bạn có thể[tải xuống ở đây](https://releases.aspose.com/cells/net/).
+2. Thư viện Aspose.Cells: Thư viện này là chìa khóa để bạn mở khóa các thao tác bảng tính mạnh mẽ. Bạn có thể[tải xuống ở đây](https://releases.aspose.com/cells/net/).
 3. IDE: Sử dụng Môi trường phát triển tích hợp (IDE) yêu thích của bạn như Visual Studio, giúp trải nghiệm viết mã của bạn mượt mà hơn nhiều.
 4. Kiến thức lập trình cơ bản: Sự quen thuộc với C# và các khái niệm về biểu thức chính quy sẽ có lợi.
 
@@ -77,7 +77,7 @@ replace.RegexKey = true; // Chỉ rõ rằng chúng tôi đang sử dụng regex
 ```
 
 Trong cấu hình này:
-- `CaseSensitive` được thiết lập để`false`nghĩa là tìm kiếm "KIM" của chúng ta sẽ bỏ qua chữ hoa hay chữ thường.
+- `CaseSensitive` được thiết lập để`false`, nghĩa là tìm kiếm "KIM" của chúng ta sẽ bỏ qua chữ hoa hay chữ thường.
 - `MatchEntireCellContents` được thiết lập để`false` vì vậy chúng ta có thể thay thế một phần nội dung của tế bào.
 - `RegexKey` được thiết lập để`true` để chỉ ra rằng chúng tôi sẽ sử dụng biểu thức chính quy cho tìm kiếm của mình.
 
@@ -132,4 +132,4 @@ Có, nó hỗ trợ nhiều định dạng khác nhau bao gồm XLS, XLSX, CSV, 
 Có, bạn có thể tạo các mẫu biểu thức chính quy phức tạp hơn để khớp nhiều thuật ngữ cùng lúc.
 
 ### Tôi có thể tìm thêm ví dụ và tài liệu về Aspose.Cells ở đâu?  
- Bạn có thể tìm thấy tài liệu toàn diện[đây](https://reference.aspose.com/cells/net/).
+Bạn có thể tìm thấy tài liệu toàn diện[đây](https://reference.aspose.com/cells/net/).

@@ -16,7 +16,7 @@ Sei stanco di passare ore a fare manualmente modifiche meticolose ai tuoi fogli 
 Prima di addentrarci nei dettagli della programmazione, assicuriamoci che tu sia ben equipaggiato per il viaggio che ti aspetta.
 
 1. .NET Framework: assicurati di avere un ambiente .NET configurato. Che si tratti di .NET Core o .NET Framework, dovresti essere a posto.
-2.  Libreria Aspose.Cells: questa libreria è la chiave per sbloccare potenti manipolazioni di fogli di calcolo. Puoi[scaricalo qui](https://releases.aspose.com/cells/net/).
+2. Libreria Aspose.Cells: questa libreria è la chiave per sbloccare potenti manipolazioni di fogli di calcolo. Puoi[scaricalo qui](https://releases.aspose.com/cells/net/).
 3. Un IDE: utilizza il tuo ambiente di sviluppo integrato (IDE) preferito, come Visual Studio, che renderà la tua esperienza di programmazione molto più fluida.
 4. Conoscenze di base di programmazione: sarà utile avere familiarità con C# e con i concetti di espressioni regolari.
 
@@ -77,7 +77,7 @@ replace.RegexKey = true; // Specificare che stiamo utilizzando regex
 ```
 
 In questa configurazione:
-- `CaseSensitive` è impostato su`false`il che significa che la nostra ricerca di "KIM" ignorerà se è in maiuscolo o minuscolo.
+- `CaseSensitive` è impostato su`false`, il che significa che la nostra ricerca di "KIM" ignorerà se è in maiuscolo o minuscolo.
 - `MatchEntireCellContents` è impostato su`false` così possiamo sostituire parti del contenuto della cella.
 - `RegexKey` è impostato su`true` per indicare che utilizzeremo un'espressione regolare per la nostra ricerca.
 
@@ -132,4 +132,4 @@ Sì, supporta diversi formati, tra cui XLS, XLSX, CSV e altri.
 Sì, è possibile creare modelli di espressioni regolari più complessi per abbinare più termini contemporaneamente.
 
 ### Dove posso trovare altri esempi e documentazione per Aspose.Cells?  
- Puoi trovare una documentazione completa[Qui](https://reference.aspose.com/cells/net/).
+Puoi trovare una documentazione completa[Qui](https://reference.aspose.com/cells/net/).

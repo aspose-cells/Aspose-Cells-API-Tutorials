@@ -12,7 +12,7 @@ Você já se perguntou como salvar facilmente arquivos de planilhas em diferente
 ## Pré-requisitos
 Antes de começarmos, vamos garantir que você tenha tudo configurado corretamente:
 - .NET Framework: Certifique-se de ter o .NET Framework instalado em sua máquina. Você pode usar qualquer versão compatível com Aspose.Cells para .NET.
-- Biblioteca Aspose.Cells: Você precisará baixar a biblioteca Aspose.Cells. É uma ferramenta poderosa que permite gerenciar arquivos do Excel e muito mais. Você pode obtê-la no[link para download](https://releases.aspose.com/cells/net/).
+-  Biblioteca Aspose.Cells: Você precisará baixar a biblioteca Aspose.Cells. É uma ferramenta poderosa que permite gerenciar arquivos do Excel e muito mais. Você pode obtê-la no[link para download](https://releases.aspose.com/cells/net/).
 - Ambiente de desenvolvimento: Um ambiente de desenvolvimento adequado é essencial, como o Visual Studio, onde você pode escrever e executar seu código .NET.
 Agora que cobrimos nossos pré-requisitos, vamos importar os pacotes necessários.
 ## Pacotes de importação

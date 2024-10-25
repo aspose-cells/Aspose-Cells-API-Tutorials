@@ -33,7 +33,7 @@ Você pode baixar a biblioteca Aspose.Cells for Java do site. Após o download, 
 Para usar o Aspose.Cells para Java, você precisará inicializar sua licença. Esta etapa é essencial para remover quaisquer limitações de avaliação e desbloquear todo o potencial da biblioteca.
 
 ```java
-// Inicializar licença Aspose.Cells
+//Inicializar licença Aspose.Cells
 License license = new License();
 license.setLicense("path_to_license_file.xml");
 ```
@@ -88,7 +88,7 @@ Chart chart = worksheet.getCharts().get(chartIndex);
 // Definindo o intervalo de dados para o gráfico
 chart.getNSeries().add("A2:B4", true);
 
-//Personalizando atributos de gráfico
+// Personalizando atributos de gráfico
 chart.getChartArea().getBorder().setVisible(false);
 chart.getChartTitle().setText("3D Bar Chart");
 ```
@@ -152,7 +152,7 @@ Sim, você pode exportar gráficos 3D criados com Aspose.Cells para Java para v�
 
 ### É possível criar gráficos 3D interativos com o Aspose.Cells para Java?
 
-O Aspose.Cells para Java foca principalmente na criação de gráficos 3D estáticos para arquivos Excel. Para gráficos interativos com interatividade avançada, você pode considerar usar outras bibliotecas ou ferramentas de visualização em combinação com seus arquivos Excel.
+Aspose.Cells para Java foca principalmente na criação de gráficos 3D estáticos para arquivos Excel. Para gráficos interativos com interatividade avançada, você pode considerar usar outras bibliotecas ou ferramentas de visualização em combinação com seus arquivos Excel.
 
 ### Posso automatizar o processo de atualização de dados nos meus gráficos 3D?
 

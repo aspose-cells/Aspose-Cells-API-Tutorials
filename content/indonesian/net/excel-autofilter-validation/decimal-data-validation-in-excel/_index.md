@@ -192,7 +192,7 @@ Nah, itu dia! Anda telah berhasil membuat buku kerja dengan validasi data desima
 ## Kesimpulan
 
 Menerapkan validasi data desimal di Excel menggunakan Aspose.Cells for .NET mudah dilakukan jika Anda mengikuti langkah-langkah mudah berikut. Anda tidak hanya memastikan bahwa data tetap bersih dan terstruktur, tetapi juga meningkatkan integritas data secara keseluruhan di lembar kerja Anda, sehingga lembar kerja tersebut andal dan mudah digunakan.
-Baik Anda berkecimpung di bidang keuangan, manajemen proyek, atau bidang apa pun yang memanfaatkan pelaporan data, menguasai keterampilan ini akan meningkatkan produktivitas Anda secara signifikan. Jadi, cobalah! Lembar kerja Anda akan berterima kasih karenanya.
+Baik Anda berkecimpung di bidang keuangan, manajemen proyek, atau bidang apa pun yang menggunakan pelaporan data, menguasai keterampilan ini akan meningkatkan produktivitas Anda secara signifikan. Jadi, cobalah! Lembar kerja Anda akan berterima kasih karenanya.
 
 ## Pertanyaan yang Sering Diajukan
 
@@ -203,7 +203,7 @@ Validasi data di Excel adalah fitur yang membatasi jenis data yang dapat dimasuk
 Ya! Anda dapat memberikan pesan kesalahan khusus untuk memandu pengguna saat entri data yang salah dibuat.
 
 ### Apakah Aspose.Cells gratis untuk digunakan?
-Aspose.Cells menawarkan uji coba gratis, tetapi Anda memerlukan lisensi untuk penggunaan jangka panjang. Anda dapat menemukan informasi lebih lanjut tentang cara memperoleh lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
+ Aspose.Cells menawarkan uji coba gratis, tetapi Anda memerlukan lisensi untuk penggunaan jangka panjang. Anda dapat menemukan informasi lebih lanjut tentang cara memperoleh lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
 
 ### Tipe data apa yang dapat saya validasi di Excel?
 Dengan Aspose.Cells, Anda dapat memvalidasi berbagai tipe data termasuk bilangan bulat, desimal, tanggal, daftar, dan rumus khusus.

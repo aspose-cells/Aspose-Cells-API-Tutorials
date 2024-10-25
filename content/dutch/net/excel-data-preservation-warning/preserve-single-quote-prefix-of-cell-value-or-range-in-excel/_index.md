@@ -161,7 +161,7 @@ flag.QuotePrefix = true;
 rng.ApplyStyle(st, flag);
 ```
 
- In deze ronde stellen we in`flag.QuotePrefix = true`, wat betekent dat we het aanhalingsteken-voorvoegsel van de cel willen bijwerken.
+In deze ronde stellen we in`flag.QuotePrefix = true`, wat betekent dat we het aanhalingsteken-voorvoegsel van de cel willen bijwerken.
 
 ## Stap 9: Laatste controle van het voorvoegsel van de offerte
 

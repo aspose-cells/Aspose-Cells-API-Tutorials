@@ -37,12 +37,12 @@ Sau khi đã cài đặt thư viện, bạn có thể bắt đầu viết mã. S
 ```csharp
 // Đường dẫn đến thư mục tài liệu.
 string dataDir = "Your Document Directory";
-//Tạo thư mục nếu thư mục đó chưa có.
+// Tạo thư mục nếu thư mục đó chưa có.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
--  dataDir: Biến này giữ đường dẫn đến thư mục tài liệu của bạn. Thay thế`"Your Document Directory"` bằng đường dẫn thực tế mà bạn muốn lưu tệp Excel của mình.
+- dataDir: Biến này giữ đường dẫn đến thư mục tài liệu của bạn. Thay thế`"Your Document Directory"` bằng đường dẫn thực tế mà bạn muốn lưu tệp Excel của mình.
 - Directory.Exists: Kiểm tra xem thư mục đã tồn tại hay chưa.
 - Directory.CreateDirectory: Nếu thư mục không tồn tại, lệnh này sẽ tạo thư mục.
 ## Bước 2: Khởi tạo một Workbook
@@ -89,7 +89,7 @@ Bây giờ chúng ta cần thiết lập dữ liệu hình ảnh theo hình dạ
 // Đặt dữ liệu hình ảnh thành hình dạng liên quan đến bình luận
 comment.CommentShape.Fill.ImageData = ms.ToArray();
 ```
--  comment.CommentShape.Fill.ImageData: Thuộc tính này cho phép bạn thiết lập hình ảnh cho hình dạng bình luận. Chúng tôi chuyển đổi`MemoryStream` đến một mảng byte sử dụng`ms.ToArray()`.
+- comment.CommentShape.Fill.ImageData: Thuộc tính này cho phép bạn thiết lập hình ảnh cho hình dạng bình luận. Chúng tôi chuyển đổi`MemoryStream` đến một mảng byte sử dụng`ms.ToArray()`.
 ## Bước 7: Lưu sổ làm việc
 Cuối cùng, hãy lưu bảng tính của chúng ta cùng với bình luận và hình ảnh.
 ```csharp

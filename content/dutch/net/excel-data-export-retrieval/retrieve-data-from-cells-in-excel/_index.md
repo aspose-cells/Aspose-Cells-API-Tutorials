@@ -18,7 +18,7 @@ Voordat we met de code aan de slag gaan, zijn er een paar vereisten die je moet 
 1. Visual Studio: Zorg ervoor dat Visual Studio op uw machine is geïnstalleerd. Het is de IDE die we gaan gebruiken om onze code te schrijven en uit te voeren.
 2.  Aspose.Cells voor .NET: U hebt de Aspose.Cells-bibliotheek nodig. U kunt deze downloaden van de[Aspose-website](https://releases.aspose.com/cells/net/).
 3. Basiskennis van C#: Kennis van C#-programmering helpt u de voorbeelden beter te begrijpen.
-4.  Excel-bestand: Zorg dat u een Excel-bestand bij de hand hebt (bijvoorbeeld`book1.xls`) die u voor deze tutorial zult gebruiken.
+4. Excel-bestand: Zorg dat u een Excel-bestand bij de hand hebt (bijvoorbeeld`book1.xls`) die u voor deze tutorial zult gebruiken.
 
 Zodra u aan deze vereisten hebt voldaan, kunnen we beginnen met het ophalen van gegevens uit Excel-cellen.
 
@@ -52,7 +52,7 @@ Nu u de documentenmap hebt ingesteld, opent u de werkmap (Excel-bestand) waarmee
 
 
 ```csharp
-// Een bestaande werkmap openen
+//Een bestaande werkmap openen
 Workbook workbook = new Workbook(dataDir + "book1.xls");
 ```
 
@@ -68,7 +68,7 @@ Nadat u de werkmap hebt geopend, wilt u toegang tot het specifieke werkblad waar
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
- De`Worksheets` collectie geeft u toegang tot verschillende bladen in de werkmap. De index`[0]`verwijst naar het eerste werkblad. Als u toegang wilt tot volgende werkbladen, kunt u de index dienovereenkomstig wijzigen.
+ De`Worksheets` collectie geeft u toegang tot verschillende bladen in de werkmap. De index`[0]` verwijst naar het eerste werkblad. Als u toegang wilt tot volgende werkbladen, kunt u de index dienovereenkomstig wijzigen.
 
 ## Stap 4: Loop door cellen
 
@@ -99,7 +99,7 @@ foreach (Cell cell1 in worksheet.Cells)
             Console.WriteLine("Double Value: " + doubleValue);
             break;
 
-        // Het gegevenstype van de celgegevens voor de Booleaanse waarde evalueren
+        //Het gegevenstype van de celgegevens voor de Booleaanse waarde evalueren
         case CellValueType.IsBool:
             boolValue = cell1.BoolValue;
             Console.WriteLine("Bool Value: " + boolValue);
@@ -124,7 +124,7 @@ foreach (Cell cell1 in worksheet.Cells)
 }
 ```
 
- In deze stap doorlopen we elke cel in het werkblad. Voor elke cel controleren we het gegevenstype met behulp van een`switch`statement. Afhankelijk van het type halen we de waarde op en printen deze naar de console. Hier is een overzicht van de gevallen:
+ In deze stap doorlopen we elke cel in het werkblad. Voor elke cel controleren we het gegevenstype met behulp van een`switch` statement. Afhankelijk van het type halen we de waarde op en printen deze naar de console. Hier is een overzicht van de gevallen:
 
 -  IsString: Als de cel een string bevat, halen we deze op met behulp van`StringValue`.
 -  IsNumeric: Voor numerieke waarden gebruiken we`DoubleValue`.
@@ -143,7 +143,7 @@ Gegevens ophalen uit Excel-cellen met Aspose.Cells voor .NET is een eenvoudig pr
 Aspose.Cells is een .NET-bibliotheek waarmee ontwikkelaars Excel-bestanden kunnen maken, bewerken en converteren zonder dat Microsoft Excel geïnstalleerd hoeft te zijn.
 
 ### Kan ik Aspose.Cells gratis gebruiken?  
-Ja, Aspose.Cells biedt een gratis proefversie die u kunt gebruiken om de functies te testen. U kunt het downloaden[hier](https://releases.aspose.com/).
+ Ja, Aspose.Cells biedt een gratis proefversie die u kunt gebruiken om de functies te testen. U kunt het downloaden[hier](https://releases.aspose.com/).
 
 ### Welke soorten gegevens kan ik uit Excel-cellen ophalen?  
 U kunt verschillende gegevenstypen ophalen, waaronder tekenreeksen, getallen, Booleaanse waarden en datum-/tijdwaarden.

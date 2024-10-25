@@ -56,7 +56,7 @@ Burada Excel dosyasını okumak için bir dosya akışı oluşturuyorsunuz.
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
   
- The`FileStream` sınıfı, dosyalardan okumanızı ve dosyalara yazmanızı sağlar. Bu durumda, Excel dosyamızı okuma modunda açıyoruz.
+ The`FileStream`sınıfı, dosyalardan okumanızı ve dosyalara yazmanızı sağlar. Bu durumda, Excel dosyamızı okuma modunda açıyoruz.
 
 ## Adım 3: Bir Çalışma Kitabı Nesnesi Oluşturun
 
@@ -67,7 +67,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 Workbook workbook = new Workbook(fstream);
 ```
   
- Bu`Workbook`nesne artık Excel dosyanızdaki tüm verileri ve ayarları tutar ve bu sayede işlem sırasında daha sonra düzenleme yapmanıza olanak sağlar.
+ Bu`Workbook` nesne artık Excel dosyanızdaki tüm verileri ve ayarları tutar ve bu sayede işlem sırasında daha sonra düzenleme yapmanıza olanak sağlar.
 
 ## Adım 4: Dikey Kaydırma Çubuğunu Gizle
 
@@ -132,4 +132,4 @@ Bu basit adımları izleyerek, Aspose.Cells for .NET kullanarak bir çalışma s
  Kontrol et[Aspose.Cells belgeleri](https://reference.aspose.com/cells/net/) Ek örnekler ve eğitimler için.
 
 ### Aspose.Cells kullanırken sorunlarla karşılaşırsam ne olur?  
- Aspose destek forumunda yardım arayabilir veya sorunları bildirebilirsiniz[Burada](https://forum.aspose.com/c/cells/9).
+Aspose destek forumunda yardım arayabilir veya sorunları bildirebilirsiniz[Burada](https://forum.aspose.com/c/cells/9).

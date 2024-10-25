@@ -56,7 +56,7 @@ Hier erstellen Sie einen Dateistream zum Lesen der Excel-Datei.
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
   
- Der`FileStream` Mit der Klasse können Sie Dateien lesen und in sie schreiben. In diesem Fall öffnen wir unsere Excel-Datei im Lesemodus.
+ Der`FileStream`Mit der Klasse können Sie Dateien lesen und in sie schreiben. In diesem Fall öffnen wir unsere Excel-Datei im Lesemodus.
 
 ## Schritt 3: Instanziieren eines Arbeitsmappenobjekts
 
@@ -67,7 +67,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 Workbook workbook = new Workbook(fstream);
 ```
   
- Das`Workbook`Das Objekt enthält jetzt alle Daten und Einstellungen Ihrer Excel-Datei und ermöglicht so eine spätere Bearbeitung im Prozess.
+ Das`Workbook` Das Objekt enthält jetzt alle Daten und Einstellungen Ihrer Excel-Datei und ermöglicht so eine spätere Bearbeitung im Prozess.
 
 ## Schritt 4: Vertikale Bildlaufleiste ausblenden
 
@@ -132,4 +132,4 @@ Sie können mit verschiedenen Excel-Formaten arbeiten, darunter .xls, .xlsx, .xl
  Überprüfen Sie die[Aspose.Cells-Dokumentation](https://reference.aspose.com/cells/net/) für zusätzliche Beispiele und Tutorials.
 
 ### Was ist, wenn bei der Verwendung von Aspose.Cells Probleme auftreten?  
- Sie können im Aspose-Supportforum Hilfe suchen oder Probleme melden[Hier](https://forum.aspose.com/c/cells/9).
+Sie können im Aspose-Supportforum Hilfe suchen oder Probleme melden[Hier](https://forum.aspose.com/c/cells/9).

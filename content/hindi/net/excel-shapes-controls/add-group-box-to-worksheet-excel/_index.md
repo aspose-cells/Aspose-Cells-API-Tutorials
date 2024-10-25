@@ -37,7 +37,7 @@ using System.Drawing;
 ```csharp
 // दस्तावेज़ निर्देशिका का पथ
 string dataDir = "Your Document Directory"; // अपना इच्छित पथ निर्दिष्ट करें
-//यदि निर्देशिका पहले से मौजूद नहीं है तो उसे बनाएं।
+// यदि निर्देशिका पहले से मौजूद नहीं है तो उसे बनाएं।
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);

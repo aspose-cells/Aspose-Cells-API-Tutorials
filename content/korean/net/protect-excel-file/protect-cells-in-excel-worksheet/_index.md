@@ -16,7 +16,7 @@ url: /ko/net/protect-excel-file/protect-cells-in-excel-worksheet/
 세포 보호의 핵심에 들어가기 전에 꼭 갖춰야 할 몇 가지 전제 조건이 있습니다.
 
 1. Visual Studio: 컴퓨터에 Visual Studio가 설치되어 있는지 확인하세요. .NET 개발을 위한 기본 IDE입니다.
-2.  Aspose.Cells 라이브러리: 프로젝트에서 Aspose.Cells 라이브러리를 사용할 수 있어야 합니다. NuGet 패키지 관리자를 통해 쉽게 설치하거나 다음에서 직접 다운로드할 수 있습니다.[Aspose.Cells 사이트](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells 라이브러리: 프로젝트에서 Aspose.Cells 라이브러리를 사용할 수 있어야 합니다. NuGet 패키지 관리자를 통해 쉽게 설치하거나 다음에서 직접 다운로드할 수 있습니다.[Aspose.Cells 사이트](https://releases.aspose.com/cells/net/).
 3. 기본 C# 지식: C# 프로그래밍에 대한 약간의 지식이 있으면 원활하게 따라갈 수 있습니다.
 
 ## 패키지 가져오기
@@ -52,7 +52,7 @@ Excel 워크시트에서 특정 셀을 보호하는 방법을 보여주는 코�
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // 여기에 디렉토리 경로를 지정하세요
-//디렉토리가 없으면 디렉토리를 생성합니다.
+// 디렉토리가 없으면 디렉토리를 생성합니다.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -88,7 +88,7 @@ Worksheet sheet = wb.Worksheets[0]; // 첫 번째 워크시트에 접근하기
 for (int i = 0; i <= 255; i++)
 {
     Style style = sheet.Cells.Columns[(byte)i].Style;
-    style.IsLocked = false; // 열 잠금 해제
+    style.IsLocked = false; //열 잠금 해제
     StyleFlag styleflag = new StyleFlag();
     styleflag.Locked = true; // 이 스타일을 잠그고 싶다는 것을 나타냅니다.
     sheet.Cells.Columns[(byte)i].ApplyStyle(style, styleflag);

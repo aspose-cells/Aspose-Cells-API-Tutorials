@@ -17,7 +17,7 @@ url: /zh/net/setting-chart-appearance/set-chart-area/
 
 1. Visual Studio：确保您的计算机上安装了 Visual Studio。它对于编写和执行 .NET 代码至关重要。
 2. .NET Framework：本指南最适合使用 .NET Framework 或 .NET Core。确保您已安装所需的版本（4.5 或更高版本）。
-3.  Aspose.Cells：您需要 Aspose.Cells 库。您可以从以下网址下载[这里](https://releases.aspose.com/cells/net/).
+3. Aspose.Cells：您需要 Aspose.Cells 库。您可以从以下网址下载[这里](https://releases.aspose.com/cells/net/).
 4. 基本 C# 知识：对 C# 编程的基本了解将帮助您更好地掌握这些步骤。如果您不是专业人士，请不要担心——我会解释一切！
 
 ## 导入包

@@ -135,4 +135,4 @@ workbook.Save(dataDir + "book1.out.xml");
 Υποστηρίζει διάφορες μορφές όπως XLS, XLSX, XLSB, ODS, PDF και άλλα.
 
 ### Πού μπορώ να βρω υποστήριξη για το Aspose.Cells;  
-Μπορείτε να λάβετε βοήθεια για το[Aspose Forum](https://forum.aspose.com/c/cells/9).
+ Μπορείτε να λάβετε βοήθεια για το[Aspose Forum](https://forum.aspose.com/c/cells/9).

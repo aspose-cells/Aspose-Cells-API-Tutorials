@@ -63,7 +63,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Шаг 2: Создание экземпляра объекта Workbook
 
- Далее мы создаем экземпляр`Workbook`класс, представляющий файл Excel.
+ Далее мы создаем экземпляр`Workbook` класс, представляющий файл Excel.
 
 ```csharp
 Workbook workbook = new Workbook();

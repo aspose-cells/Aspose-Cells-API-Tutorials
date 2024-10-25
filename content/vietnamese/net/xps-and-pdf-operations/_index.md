@@ -13,7 +13,7 @@ Khi nói đến việc làm việc với các tệp Excel, Aspose.Cells for .NET
 
 ## Chuyển đổi tệp Excel sang XPS
 
-Trước tiên, chúng ta hãy nói về việc chuyển đổi các tệp Excel sang định dạng XPS. Bạn có thể tự hỏi, "Tại sao tôi lại muốn chuyển đổi sang XPS?" Vâng, XPS (XML Paper Specification) là một định dạng tài liệu cố định giúp giữ nguyên giao diện của các bảng tính Excel của bạn, giúp bạn dễ dàng chia sẻ hơn mà không bị mất định dạng. Bạn muốn thử không? Hãy xem hướng dẫn của chúng tôi về[Chuyển đổi sang XPS trong .NET](./converting-to-xps/). Nó hướng dẫn bạn từng bước trong quy trình, được trang bị các ví dụ mã thực tế. Bạn sẽ thấy nó không chỉ đơn giản mà còn cực kỳ hiệu quả trong việc duy trì tính trung thực của tài liệu.
+ Trước tiên, chúng ta hãy nói về việc chuyển đổi các tệp Excel sang định dạng XPS. Bạn có thể tự hỏi, "Tại sao tôi lại muốn chuyển đổi sang XPS?" Vâng, XPS (XML Paper Specification) là một định dạng tài liệu cố định giúp giữ nguyên giao diện của các bảng tính Excel của bạn, giúp bạn dễ dàng chia sẻ hơn mà không bị mất định dạng. Bạn muốn thử không? Hãy xem hướng dẫn của chúng tôi về[Chuyển đổi sang XPS trong .NET](./converting-to-xps/)Nó hướng dẫn bạn từng bước trong quy trình, được trang bị các ví dụ mã thực tế. Bạn sẽ thấy nó không chỉ đơn giản mà còn cực kỳ hiệu quả trong việc duy trì tính trung thực của tài liệu.
 
 ## Thiết lập thời gian tạo PDF để quản lý tốt hơn
 

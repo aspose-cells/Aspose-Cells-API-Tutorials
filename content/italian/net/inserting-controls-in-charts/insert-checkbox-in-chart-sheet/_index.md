@@ -70,7 +70,7 @@ string outputDir = "C:\\YourOutputDirectory\\"; // Passa alla directory specific
 
 ## Passaggio 2: creazione di un'istanza di un oggetto cartella di lavoro
 
-Successivamente, creiamo un'istanza di`Workbook` classe. È qui che si svolgerà tutto il nostro lavoro.
+ Successivamente, creiamo un'istanza di`Workbook` classe. È qui che si svolgerà tutto il nostro lavoro.
 ```csharp
 Workbook workbook = new Workbook();
 ```

@@ -13,7 +13,7 @@ Jeśli chodzi o tworzenie efektownych wykresów w programie Excel, dostosowywani
 
 ## Obsługa automatycznych jednostek osi wykresu
 
-Czy kiedykolwiek czułeś frustrację z powodu domyślnych ustawień osi w programie Excel? Nie jesteś sam! Może to być ból głowy, gdy automatyczne jednostki nie pasują do prezentowanych danych. Ale nie obawiaj się! Aspose.Cells dla .NET ma to, czego potrzebujesz. W naszym samouczku na temat[Obsługa automatycznych jednostek osi wykresu, jak w programie Microsoft Excel](./handle-automatic-units-of-chart-axis-like-microsoft-excel/), poprowadzimy Cię krok po kroku przez proces dostosowywania osi wykresu. Wyobraź sobie, że możesz dostosować skalę i jednostki, aby idealnie pasowały do Twoich danych — jakbyś szył garnitur, który idealnie do Ciebie pasuje. Dowiesz się, jak kontrolować ustawienia osi, zapewniając, że Twoje wykresy komunikują Twoje dane w sposób jasny i skuteczny.
+Czy kiedykolwiek czułeś frustrację z powodu domyślnych ustawień osi w programie Excel? Nie jesteś sam! To może być ból głowy, gdy automatyczne jednostki nie pasują do prezentowanych danych. Ale nie obawiaj się! Aspose.Cells dla .NET ma to, czego potrzebujesz. W naszym samouczku na temat[Obsługa automatycznych jednostek osi wykresu, jak w programie Microsoft Excel](./handle-automatic-units-of-chart-axis-like-microsoft-excel/), poprowadzimy Cię krok po kroku przez proces dostosowywania osi wykresu. Wyobraź sobie, że możesz dostosować skalę i jednostki, aby idealnie pasowały do Twoich danych — jakbyś szył garnitur, który idealnie do Ciebie pasuje. Dowiesz się, jak kontrolować ustawienia osi, zapewniając, że Twoje wykresy komunikują Twoje dane w sposób jasny i skuteczny.
 
 ## Odczytywanie etykiet osi po obliczeniu wykresów
 

@@ -39,7 +39,7 @@ string dataDir = "Your Document Directory";
 ```
  Substituir`"Your Document Directory"` com o caminho real onde seu arquivo Excel reside. Por exemplo, se ele estiver armazenado em`C:\Documents` , você escreveria`string dataDir = "C:\\Documents";`. As barras invertidas duplas são necessárias em C# para escapar do caractere de barra invertida.
 ## Etapa 2: Instanciar LoadOptions
- Em seguida, você precisa criar uma instância do`LoadOptions`classe. Esta classe nos ajuda a especificar várias opções de carregamento, incluindo a senha necessária para abrir um arquivo criptografado.
+ Em seguida, você precisa criar uma instância do`LoadOptions` classe. Esta classe nos ajuda a especificar várias opções de carregamento, incluindo a senha necessária para abrir um arquivo criptografado.
 ```csharp
 // Instanciar LoadOptions
 LoadOptions loadOptions = new LoadOptions();
@@ -58,7 +58,7 @@ loadOptions.Password = "1234"; // Substitua "1234" pela sua senha real
 // Crie um objeto Workbook e abra o arquivo a partir do seu caminho
 Workbook wbEncrypted = new Workbook(dataDir + "encryptedBook.xls", loadOptions);
 ```
- Aqui, você está construindo um novo`Workbook` objeto e passando o caminho para o seu arquivo criptografado e o`loadOptions`que incluem sua senha. Se tudo correr bem, esta linha deve abrir com sucesso seu arquivo criptografado.
+ Aqui, você está construindo um novo`Workbook` objeto e passando o caminho para o seu arquivo criptografado e o`loadOptions` que incluem sua senha. Se tudo correr bem, esta linha deve abrir com sucesso seu arquivo criptografado.
 ## Etapa 5: Confirme o acesso bem-sucedido ao arquivo
 Por fim, é uma boa prática confirmar se você abriu o arquivo com sucesso. 
 ```csharp
@@ -70,11 +70,11 @@ Parabéns! Você aprendeu com sucesso como abrir arquivos criptografados do Exce
  Lembre-se, trabalhar com arquivos criptografados pode ser complicado, mas com ferramentas como Aspose.Cells, isso se torna moleza. Se você estiver interessado em cavar mais fundo, confira o[documentação](https://reference.aspose.com/cells/net/) para recursos mais avançados.
 ## Perguntas frequentes
 ### Posso abrir arquivos do Excel criptografados com senhas diferentes?
- Sim, basta atualizar o`Password` campo no`LoadOptions`para corresponder à senha do arquivo Excel que você deseja abrir.
+ Sim, basta atualizar o`Password` campo no`LoadOptions` para corresponder à senha do arquivo Excel que você deseja abrir.
 ### O Aspose.Cells é gratuito?
  Aspose.Cells não é gratuito; no entanto, você pode começar com um[teste gratuito](https://releases.aspose.com/) para explorar suas características.
 ### Que tipos de arquivos do Excel o Aspose.Cells pode manipular?
-O Aspose.Cells suporta vários formatos, incluindo .xls, .xlsx, .xlsm e muito mais.
+Aspose.Cells suporta vários formatos, incluindo .xls, .xlsx, .xlsm e muito mais.
 ### O Aspose.Cells funciona com o .NET Core?
 Sim, o Aspose.Cells é compatível com .NET Core e .NET Framework.
 ### Onde posso obter suporte se tiver problemas?

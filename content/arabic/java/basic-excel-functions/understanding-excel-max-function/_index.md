@@ -66,7 +66,7 @@ Worksheet worksheet = workbook.getWorksheets().get(0);
 // تحديد نطاق الخلايا التي تحتوي على بيانات المبيعات
 CellArea salesRange = new CellArea();
 salesRange.StartRow = 1; // بافتراض أن البيانات تبدأ من الصف 2
-salesRange.StartColumn = 1; // على افتراض أن البيانات موجودة في العمود الثاني
+salesRange.StartColumn = 1; // بافتراض أن البيانات موجودة في العمود الثاني
 salesRange.EndRow = 13; // على افتراض أن لدينا بيانات لمدة 12 شهرًا
 salesRange.EndColumn = 1; // نحن مهتمون بعمود المبيعات
 

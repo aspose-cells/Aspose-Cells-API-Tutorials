@@ -31,7 +31,7 @@ Varje bra projekt börjar med ordentlig organisation! Först måste du definiera
 ```csharp
 // Sökvägen till dokumentkatalogen.
 string dataDir = "Your Document Directory";
-//Skapa katalog om den inte redan finns.
+// Skapa katalog om den inte redan finns.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -54,7 +54,7 @@ Tänk på kalkylbladet som ett rum i ditt hus, där alla dina dekorationer (elle
 ## Steg 4: Gör rutnätet osynliga
 För att ge ditt kalkylblad ett rent utseende, låt oss dölja standardrutnätslinjerna. Detta kommer att hjälpa till att betona de element du lägger till senare.
 ```csharp
-// Osynliga rutnätslinjerna i kalkylbladet.
+// Osynliga rutnätet i kalkylbladet.
 worksheet.IsGridlinesVisible = false;
 ```
 Detta steg handlar om estetik. Ett rent kalkylblad kan få din rullningslist att sticka ut.
@@ -132,7 +132,7 @@ Och där har du det - din guide för att lägga till en rullningslist till ett k
 ### Vad är Aspose.Cells?
 Aspose.Cells är ett kraftfullt .NET-bibliotek som låter utvecklare skapa, manipulera och konvertera Excel-filer programmatiskt.
 ### Kan jag använda Aspose.Cells gratis?
-Ja, Aspose.Cells erbjuder en gratis provperiod som du kan hitta[här](https://releases.aspose.com/).
+ Ja, Aspose.Cells erbjuder en gratis provperiod som du kan hitta[här](https://releases.aspose.com/).
 ### Hur lägger jag till andra kontroller i mitt Excel-ark?
 Du kan använda liknande metoder som visas för rullningslisten. Kontrollera bara dokumentationen för fler kontroller!
 ### Vilka programmeringsspråk kan jag använda med Aspose.Cells?

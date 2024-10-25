@@ -20,7 +20,7 @@ Mielőtt belemerülnénk az adatok rendezése zűrzavarába, meg kell felelnie n
 3. C# alapjai: Ha egy kicsit ismerjük a C#-ot, az sokat segít. Ha már belekóstoltál a C#-ba, akkor jó!
 4.  Minta Excel fájl: Létrehozhat egy minta Excel fájlt, melynek neve`sampleSortAsNumber.xlsx` az A oszlopban lévő adatokkal, amelyeket rendezni szeretne.
 
-Ha ezeket az előfeltételeket kiegyenlítette, azonnal belevághatunk a kódba!
+Ha ezeket az előfeltételeket kiegyenlítette, azonnal beleugorhatunk a kódba!
 
 ## Csomagok importálása
 

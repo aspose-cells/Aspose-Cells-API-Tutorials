@@ -12,7 +12,7 @@ Az Excel egy hatékony eszköz, amelyet világszerte milliók használnak adatre
 ## Előfeltételek
 Mielőtt belemerülne az elnevezett tartományok másolásának aprólékos dolgaiba, meg kell győződnie néhány dologról. Íme, amire szüksége van:
 1. .NET-környezet: Győződjön meg arról, hogy be van állítva egy .NET-fejlesztői környezet. Használhatja a Visual Studio-t vagy bármely más választott IDE-t.
-2.  Aspose.Cells for .NET Library: Ez a sorozat sztárja! Töltse le a könyvtárat a[Aspose honlapja](https://releases.aspose.com/cells/net/) ha még nem tetted meg.
+2. Aspose.Cells for .NET Library: Ez a sorozat sztárja! Töltse le a könyvtárat a[Aspose honlapja](https://releases.aspose.com/cells/net/) ha még nem tetted meg.
 3. Alapvető C# ismerete: A C# programozás ismerete hasznos lesz, mivel ezen a nyelven fogunk kódolni az oktatóprogram során.
 4. Excel telepítve: Noha nem feltétlenül szükséges az Excel a kód írásához, a telepítése hasznos a kimeneti fájlok teszteléséhez.
 5.  Hozzáférés a dokumentációhoz: Vegye fel a könyvjelzők közé a[Aspose.Cells Documentation](https://reference.aspose.com/cells/net/) referenciaként. Remek forrás a módszerek és funkciók megértéséhez.
@@ -27,7 +27,7 @@ using System.IO;
 using Aspose.Cells;
 using System.Drawing;
 ```
-Ez a kód hozzáférést biztosít az alapvető osztályokhoz, mint pl`Workbook`, `Worksheet` és`Range`, amelyre szüksége lesz az Excel fájlok kezeléséhez.
+ Ez a kód hozzáférést biztosít az alapvető osztályokhoz, mint pl`Workbook`, `Worksheet` , és`Range`, amelyre szüksége lesz az Excel fájlok kezeléséhez.
 
 Most, hogy az előfeltételeinket rendeztük, bontsuk le a folyamatot könnyen követhető lépésekre.
 ## 1. lépés: Állítsa be a kimeneti könyvtárat

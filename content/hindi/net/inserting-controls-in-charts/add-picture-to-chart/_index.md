@@ -16,7 +16,7 @@ url: /hi/net/inserting-controls-in-charts/add-picture-to-chart/
 इससे पहले कि हम कोडिंग की बारीकियों में उतरें, कुछ पूर्व-आवश्यकताएं हैं जिनका आपको सुचारू रूप से पालन करने की आवश्यकता है:
 
 - विज़ुअल स्टूडियो: यह वह जगह है जहाँ आप अपना .NET कोड लिखेंगे और चलाएँगे। सुनिश्चित करें कि आपने इसे इंस्टॉल किया हुआ है।
-- .NET के लिए Aspose.Cells: Excel फ़ाइलों के साथ काम करने के लिए आपको इस लाइब्रेरी की ज़रूरत होगी। आप ऐसा कर सकते हैं[यहाँ पर डाउनलोड करो](https://releases.aspose.com/cells/net/).
+-  .NET के लिए Aspose.Cells: Excel फ़ाइलों के साथ काम करने के लिए आपको इस लाइब्रेरी की ज़रूरत होगी। आप ऐसा कर सकते हैं[यहाँ पर डाउनलोड करो](https://releases.aspose.com/cells/net/).
 - C# की बुनियादी समझ: यद्यपि मैं आपको कोड के माध्यम से मार्गदर्शन करूंगा, लेकिन C# की बुनियादी बातों की जानकारी होने से चीजें स्पष्ट हो जाएंगी।
 
 ### स्थापना चरण
@@ -55,7 +55,7 @@ string sourceDir = "Your Document Directory/";
 string outputDir = "Your Output Directory/";
 ```
 
- प्रतिस्थापित करें`Your Document Directory` और`Your Output Directory` आपके कंप्यूटर पर वास्तविक पथ के साथ. 
+ प्रतिस्थापित करें`Your Document Directory` और`Your Output Directory`आपके कंप्यूटर पर वास्तविक पथ के साथ. 
 
 ## चरण 2: मौजूदा कार्यपुस्तिका लोड करें
 
@@ -84,7 +84,7 @@ FileStream stream = new FileStream(sourceDir + "sampleAddingPictureInChart.png",
 अब, आइए निर्दिष्ट करें कि हम किस चार्ट में अपना चित्र जोड़ने जा रहे हैं। इस उदाहरण में, हम पहले वर्कशीट पर पहले चार्ट को लक्षित करेंगे।
 
 ```csharp
-//दूसरी शीट में डिज़ाइनर चार्ट प्राप्त करें।
+// दूसरी शीट में डिज़ाइनर चार्ट प्राप्त करें।
 Worksheet sheet = workbook.Worksheets[0];
 Aspose.Cells.Charts.Chart chart = sheet.Charts[0];
 ```
@@ -100,7 +100,7 @@ Aspose.Cells.Charts.Chart chart = sheet.Charts[0];
 Aspose.Cells.Drawing.Picture pic0 = chart.Shapes.AddPictureInChart(50, 50, stream, 200, 200);
 ```
 
- यहाँ,`50` और`50` वे X और Y निर्देशांक हैं जहां छवि रखी जाएगी, और`200` छवि की चौड़ाई और ऊंचाई है.
+ यहाँ,`50` और`50` वे X और Y निर्देशांक हैं जहां छवि रखी जाएगी, और`200`छवि की चौड़ाई और ऊंचाई है.
 
 ## चरण 6: चित्र का लाइन प्रारूप अनुकूलित करें
 

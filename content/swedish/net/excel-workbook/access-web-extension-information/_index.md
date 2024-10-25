@@ -2,7 +2,7 @@
 title: Få tillgång till information om webbtillägg
 linktitle: Få tillgång till information om webbtillägg
 second_title: Aspose.Cells för .NET API-referens
-description: Lär dig hur du kommer åt webbtilläggsinformation i Excel-filer med Aspose.Cells för .NET med vår steg-för-steg-guide.
+description: Lär dig hur du får åtkomst till webbtilläggsinformation i Excel-filer med Aspose.Cells för .NET med vår steg-för-steg-guide.
 type: docs
 weight: 10
 url: /sv/net/excel-workbook/access-web-extension-information/
@@ -16,7 +16,7 @@ Välkommen till vår djupdykning i att använda Aspose.Cells för .NET! I den h�
 Innan vi kavlar upp ärmarna och sätter igång är det några saker du behöver ställa in. Här är en checklista för att säkerställa att allt fungerar smidigt:
 
 1. .NET-miljö: Se till att du har en .NET-miljö inställd på din maskin. Detta innebär vanligtvis att ha Visual Studio eller annan kompatibel IDE installerad.
-2. Aspose.Cells för .NET: Du måste ha Aspose.Cells-biblioteket. Svettas inte; du kan enkelt[ladda ner den senaste versionen här](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells för .NET: Du måste ha Aspose.Cells-biblioteket. Svettas inte; du kan enkelt[ladda ner den senaste versionen här](https://releases.aspose.com/cells/net/).
 3.  Exempel på Excel-fil: För denna handledning, se till att du har ett exempel på Excel-fil (som`WebExtensionsSample.xlsx`) tillgänglig. Du kan skapa en med webbtillägg i den eller ladda ner en om det behövs. 
 4. Grundläggande C#-kunskap: En grundläggande förståelse för C#-programmering kommer att göra det mycket lättare att navigera i denna handledning.
 5. NuGet Package Manager: Bekantskap med NuGet kan hjälpa dig att hantera Aspose.Cells i ditt projekt sömlöst.
@@ -62,12 +62,12 @@ Här tar vi tag i alla uppgiftsrutor som är associerade med webbtilläggen i ar
 
 ## Steg 4: Iterera genom uppgiftsrutor
 
- När du väl har samlingen är nästa logiska steg att gå igenom varje aktivitetsfönster och få dess egenskaper. Att använda en`foreach` loop är ett utmärkt sätt att navigera genom varje uppgiftsfönster sömlöst.
+När du väl har samlingen är nästa logiska steg att gå igenom varje aktivitetsfönster och få dess egenskaper. Att använda en`foreach` loop är ett utmärkt sätt att navigera genom varje uppgiftsfönster sömlöst.
 
 ```csharp
 foreach (WebExtensionTaskPane taskPane in taskPanes)
 {
-    //Inuti den här slingan extraherar vi egenskaper
+    // Inuti den här slingan extraherar vi egenskaper
 }
 ```
 

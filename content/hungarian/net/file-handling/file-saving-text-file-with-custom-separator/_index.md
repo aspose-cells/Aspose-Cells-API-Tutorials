@@ -12,7 +12,7 @@ Ha a táblázatkezelésről van szó, kevés eszköz olyan erős és sokoldalú,
 ## Előfeltételek
 Mielőtt belevágnánk a kódba, néhány dolgot ellenőriznie kell a listán. Győződjön meg arról, hogy minden a helyén van, segít a folyamat zökkenőmentességében.
 ### Visual Studio telepítve
-A .NET-alkalmazások fejlesztéséhez a Visual Studio működőképes telepítésére lesz szüksége. Győződjön meg arról, hogy a legjobb kompatibilitás érdekében frissítette a legújabb verzióra.
+A .NET-alkalmazások fejlesztéséhez a Visual Studio működőképes telepítésére lesz szüksége. A legjobb kompatibilitás érdekében frissítse a legújabb verzióra.
 ### Aspose.Cells for .NET
  Le kell töltenie az Aspose.Cells könyvtárat. Megfoghatod[itt](https://releases.aspose.com/cells/net/). Az új funkciók és javítások kihasználásához elengedhetetlen a legújabb verzió használata.
 ### C# alapismeretek
@@ -41,7 +41,7 @@ string filePath = dataDir + "Book1.xlsx";
 ## 2. lépés: Hozzon létre egy munkafüzet-objektumot
  Ezután létrehozunk egy`Workbook` objektum, amely az Excel fájlunk képviselőjeként működik. 
 ```csharp
-// Hozzon létre egy munkafüzet objektumot, és nyissa meg a fájlt az elérési útjából
+//Hozzon létre egy munkafüzet objektumot, és nyissa meg a fájlt az elérési útjából
 Workbook wb = new Workbook(filePath);
 ```
  Itt egy újat készítünk`Workbook` a korábban beállított fájl elérési útját használva. Ez az objektum most lehetővé teszi számunkra, hogy kölcsönhatásba lépjünk az Excel fájl tartalmával. Ha a fájl`Book1.xlsx` nem létezik a megadott könyvtárban, akkor hibát fog találni.

@@ -15,11 +15,11 @@ Dans ce didacticiel, nous allons vous expliquer comment configurer un lien vers 
 
 Avant de commencer, assurez-vous que vous disposez de tout ce dont vous avez besoin. Sans les prérequis suivants, le processus ne se déroulera pas sans problème :
 
-1.  Bibliothèque Aspose.Cells pour .NET : vous devez avoir installé Aspose.Cells pour .NET sur votre ordinateur. Si vous ne l'avez pas encore téléchargé, récupérez-le à partir de[Page de téléchargement d'Aspose.Cells pour .NET](https://releases.aspose.com/cells/net/).
+1. Bibliothèque Aspose.Cells pour .NET : vous devez avoir installé Aspose.Cells pour .NET sur votre ordinateur. Si vous ne l'avez pas encore téléchargé, récupérez-le à partir de[Page de téléchargement d'Aspose.Cells pour .NET](https://releases.aspose.com/cells/net/).
 2. Environnement de développement : utilisez n’importe quel environnement de développement pris en charge par .NET tel que Visual Studio.
 3. Connaissances de base de C# : ce guide suppose que vous avez une certaine familiarité avec C# et .NET.
 4. Fichier Excel : vous disposez déjà d'un fichier Excel sur lequel travailler. Dans notre exemple, nous utiliserons un fichier appelé « sample-document-properties.xlsx ».
-5. Permis temporaire : Si vous n'avez pas de permis complet, vous pouvez obtenir un[licence temporaire ici](https://purchase.aspose.com/temporary-license/) pour éviter les limitations sur les manipulations de fichiers.
+5.  Permis temporaire : Si vous n'avez pas de permis complet, vous pouvez obtenir un[licence temporaire ici](https://purchase.aspose.com/temporary-license/) pour éviter les limitations sur les manipulations de fichiers.
 
 ## Paquets d'importation
 
@@ -49,7 +49,7 @@ string dataDir = "Your Document Directory";
 Workbook workbook = new Workbook(dataDir + "sample-document-properties.xlsx");
 ```
 
--  Classeur classeur = nouveau classeur() : Cette ligne crée un nouveau`Workbook`objet, qui est la classe principale utilisée pour travailler avec des fichiers Excel dans Aspose.Cells.
+-  Classeur classeur = nouveau classeur() : Cette ligne crée un nouveau`Workbook` objet, qui est la classe principale utilisée pour travailler avec des fichiers Excel dans Aspose.Cells.
 - dataDir : c'est ici que vous spécifiez le chemin d'accès à votre fichier Excel. Remplacez « Votre répertoire de documents » par le chemin d'accès réel sur votre ordinateur.
 
 Considérez cette étape comme l’ouverture d’une porte : vous accédez au fichier afin de pouvoir apporter les modifications dont vous avez besoin !
@@ -59,7 +59,7 @@ Considérez cette étape comme l’ouverture d’une porte : vous accédez au fi
 Une fois le fichier chargé, nous devons accéder à ses propriétés de document personnalisées. Ces propriétés sont stockées dans une collection que vous pouvez récupérer et manipuler.
 
 ```csharp
-// Récupérer une liste de toutes les propriétés de document personnalisées du fichier Excel
+//Récupérer une liste de toutes les propriétés de document personnalisées du fichier Excel
 Aspose.Cells.Properties.CustomDocumentPropertyCollection customProperties = workbook.Worksheets.CustomDocumentProperties;
 ```
 
@@ -93,7 +93,7 @@ bool islinkedtocontent = customProperty1.IsLinkedToContent;
 ```
 
 - propriétés personnalisées[[« Propriétaire » : nous récupérons la propriété « Propriétaire » par son nom pour inspecter ses détails.
-- IsLinkedToContent : cette valeur booléenne renvoie`true` si la propriété est correctement liée au contenu.
+-  IsLinkedToContent : cette valeur booléenne renvoie`true` si la propriété est correctement liée au contenu.
 
 À ce stade, il s'agit de vérifier si l'étiquette (propriété) est correctement attachée au contenu. Vous vous assurez que votre code a fait ce que vous attendiez.
 

@@ -106,4 +106,4 @@ Filtrering av definierade namn kan leda till trasiga formler om de refererar til
  Ja, du kan få en gratis testversion av Aspose.Cells för att testa dess kapacitet innan du köper. Kolla in det[här](https://releases.aspose.com/).
 
 ### Var kan jag hitta fler exempel och dokumentation?
-Du kan hitta omfattande dokumentation och fler exempel på Aspose.Cells referenssida[här](https://reference.aspose.com/cells/net/).
+ Du kan hitta omfattande dokumentation och fler exempel på Aspose.Cells referenssida[här](https://reference.aspose.com/cells/net/).

@@ -25,7 +25,7 @@ url: /hi/net/excel-page-setup/determine-if-paper-size-of-worksheet-is-automatic/
 आपके पास Visual Studio जैसा IDE होना चाहिए। यह आपको अपने कोड को प्रभावी ढंग से संभालने और परीक्षण करने में मार्गदर्शन करता है।
 
 ### नमूना एक्सेल फ़ाइलें
-आपको नमूना फ़ाइलों की आवश्यकता होगी (`samplePageSetupIsAutomaticPaperSize-False.xlsx` और`samplePageSetupIsAutomaticPaperSize-True.xlsx`) को परीक्षण के उद्देश्य से उपयोग करें। सुनिश्चित करें कि ये फ़ाइलें आपकी स्रोत निर्देशिका में हैं।
+आपको नमूना फ़ाइलों की आवश्यकता होगी (`samplePageSetupIsAutomaticPaperSize-False.xlsx` और`samplePageSetupIsAutomaticPaperSize-True.xlsx`को परीक्षण के उद्देश्य से उपयोग करें। सुनिश्चित करें कि ये फ़ाइलें आपकी स्रोत निर्देशिका में हैं।
 
 ## पैकेज आयात करें
 

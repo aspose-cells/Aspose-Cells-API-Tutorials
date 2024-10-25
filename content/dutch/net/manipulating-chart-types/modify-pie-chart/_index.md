@@ -96,11 +96,11 @@ Workbook workbook = new Workbook(sourceDir + "sampleModifyPieChart.xlsx");
 Laten we nu eens duiken in het specifieke blad dat het cirkeldiagram bevat. We gaan ervan uit dat het cirkeldiagram op het tweede werkblad staat (index 1):
 
 ```csharp
-//Haal het ontwerpersdiagram op het tweede blad.
+// Haal het ontwerpersdiagram op het tweede blad.
 Worksheet sheet = workbook.Worksheets[1];
 ```
 
- Door toegang te krijgen tot de`Worksheets` verzameling, kunnen we naar het specifieke blad gaan dat we nodig hebben.
+ Door toegang te krijgen tot de`Worksheets`verzameling, kunnen we naar het specifieke blad gaan dat we nodig hebben.
 
 ## Stap 4: Haal de grafiek op
 

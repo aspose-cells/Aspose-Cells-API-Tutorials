@@ -13,7 +13,7 @@ Si vous avez déjà ressenti de la frustration en essayant d'accéder à des don
 
 ## Ouverture de fichiers Excel cryptés
 
- Tout d’abord, nous avons un tutoriel sur[ouverture de fichiers Excel cryptés](./opening-encrypted-excel-files/). Il peut être très compliqué de verrouiller des données sensibles dans un fichier protégé par un mot de passe. Ce guide étape par étape vous guide tout au long du processus de déverrouillage de ces fichiers à l'aide d'Aspose.Cells. Vous apprendrez à gérer les mots de passe et à accéder sans effort à vos données sans compromettre la sécurité. Grâce à ces techniques, vous pouvez garantir que vos applications restent robustes et conviviales.
+ Tout d’abord, nous avons un tutoriel sur[ouverture de fichiers Excel cryptés](./opening-encrypted-excel-files/). Il peut être très compliqué de verrouiller des données sensibles dans un fichier protégé par mot de passe. Ce guide étape par étape vous guide tout au long du processus de déverrouillage de ces fichiers à l'aide d'Aspose.Cells. Vous apprendrez à gérer les mots de passe et à accéder sans effort à vos données sans compromettre la sécurité. Grâce à ces techniques, vous pouvez garantir que vos applications restent robustes tout en restant conviviales.
 
 ## Rationalisation de l'accès aux données grâce aux fichiers de données uniquement
 

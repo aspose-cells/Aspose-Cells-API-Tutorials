@@ -93,7 +93,7 @@ encryptedWorkbook.Save(dataDir + "DencryptedBook1.out.ods");
 ```
 Ezen lépések végrehajtásával sikeresen visszafejtette az ODS fájlt!
 ## Következtetés
-Ebben az oktatóanyagban megvizsgáltuk, hogyan használható az Aspose.Cells for .NET az ODS-fájlok hatékony titkosításához és visszafejtéséhez. Néhány sornyi kóddal biztosíthatja, hogy bizalmas adatai továbbra is védettek maradjanak. Ne feledje, hogy az adatbiztonság nem csak egy jelölőnégyzet – adatvezérelt világunkban elengedhetetlen.
+Ebben az oktatóanyagban megvizsgáltuk, hogyan használható az Aspose.Cells for .NET az ODS-fájlok hatékony titkosításához és visszafejtéséhez. Csak néhány sornyi kóddal biztosíthatja, hogy bizalmas adatai továbbra is védettek maradjanak. Ne feledje, hogy az adatbiztonság nem csak egy jelölőnégyzet – adatvezérelt világunkban elengedhetetlen.
 A lépések követésével felhatalmazta magát arra, hogy átvegye az irányítást adatai felett, és megóvja azokat a jogosulatlan hozzáféréstől. Boldog kódolást!
 ## GYIK
 ### Használhatom az Aspose.Cells-t más fájlformátumokhoz?

@@ -26,7 +26,7 @@ Workbook workbook = new Workbook("example.xlsx");
 ```
 
 ## Třídění dat
-Třídění dat v Excelu je běžným úkolem. Aspose.Cells umožňuje řadit data ve vzestupném nebo sestupném pořadí na základě jednoho nebo více sloupců. Postup řazení dat:
+Třídění dat v Excelu je běžný úkol. Aspose.Cells umožňuje řadit data ve vzestupném nebo sestupném pořadí na základě jednoho nebo více sloupců. Postup řazení dat:
 
 ```java
 // Získejte pracovní list, kde jsou vaše data

@@ -13,7 +13,7 @@ url: /zh-hant/net/excel-page-setup/set-excel-margins/
 
 ## 先決條件
 
-在我們深入了解在 Excel 工作表中設定邊距的具體細節之前，您需要先滿足一些先決條件：
+在我們深入了解在 Excel 工作表中設定邊距的細節之前，您需要滿足一些先決條件：
 
 1. 對 C# 的基本了解：熟悉 C# 將幫助您有效地理解和實現程式碼片段。
 2. Aspose.Cells for .NET 函式庫：您需要擁有 Aspose.Cells 函式庫。如果您還沒有這樣做，您可以從[Aspose.Cells 下載頁面](https://releases.aspose.com/cells/net/).

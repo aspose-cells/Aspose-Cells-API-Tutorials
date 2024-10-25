@@ -33,7 +33,7 @@ Aspose.Cells for Java kütüphanesini web sitesinden indirebilirsiniz. İndirdik
 Java için Aspose.Cells'i kullanmak için lisansınızı başlatmanız gerekir. Bu adım, herhangi bir değerlendirme sınırlamasını kaldırmak ve kütüphanenin tüm potansiyelini ortaya çıkarmak için önemlidir.
 
 ```java
-// Aspose.Cells lisansını başlatın
+//Aspose.Cells lisansını başlatın
 License license = new License();
 license.setLicense("path_to_license_file.xml");
 ```
@@ -88,7 +88,7 @@ Chart chart = worksheet.getCharts().get(chartIndex);
 // Grafik için veri aralığını ayarlama
 chart.getNSeries().add("A2:B4", true);
 
-//Grafik niteliklerini özelleştirme
+// Grafik niteliklerini özelleştirme
 chart.getChartArea().getBorder().setVisible(false);
 chart.getChartTitle().setText("3D Bar Chart");
 ```

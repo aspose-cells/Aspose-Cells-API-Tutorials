@@ -59,7 +59,7 @@ In deze stap laadt u het Excel-bestand dat de grafieken bevat. Aspose.Cells maak
 Workbook wb = new Workbook(sourceDir + "sampleReadManipulateExcel2016Charts.xlsx");
 ```
 
-Controleer of het Excel-bestand waarnaar u verwijst, bestaat in het opgegeven pad. Anders loopt u mogelijk tegen een foutmelding aan dat het bestand niet is gevonden.
+Zorg ervoor dat het Excel-bestand waarnaar u verwijst, bestaat in het opgegeven pad. Anders loopt u mogelijk tegen een foutmelding aan dat het bestand niet is gevonden.
 
 ## Stap 3: Toegang tot het werkblad
 
@@ -72,7 +72,7 @@ Worksheet ws = wb.Worksheets[0];
 
 ## Stap 4: Loop door de grafieken
 
- Nu moet u over alle grafieken in het werkblad itereren. Met Aspose.Cells kunt u eenvoudig toegang krijgen tot grafieken met behulp van de`Charts` eigendom van de`Worksheet` klas.
+ Nu moet u over alle grafieken in het werkblad itereren. Met Aspose.Cells kunt u eenvoudig grafieken openen met behulp van de`Charts` eigendom van de`Worksheet` klas.
 
 ```csharp
 // Krijg toegang tot alle grafieken één voor één en lees hun typen

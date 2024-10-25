@@ -14,7 +14,7 @@ Voordat we in de details duiken, moet u een aantal dingen instellen voordat u aa
 ### .NET Framework of .NET Core
 Zorg ervoor dat u .NET Framework of .NET Core op uw machine hebt geïnstalleerd. Deze bibliotheek werkt goed met beide.
 ### Installatie van Aspose.Cells
-Je moet de Aspose.Cells-bibliotheek downloaden. Je kunt[download het hier](https://releases.aspose.com/cells/net/) Als u niet bekend bent met het installeren van NuGet-pakketten, volg dan[deze gids](https://www.nuget.org/).
+ Je moet de Aspose.Cells-bibliotheek downloaden. Je kunt[download het hier](https://releases.aspose.com/cells/net/) Als u niet bekend bent met het installeren van NuGet-pakketten, volg dan[deze gids](https://www.nuget.org/).
 ### Geïntegreerde ontwikkelomgeving (IDE)
 Met een IDE zoals Visual Studio of JetBrains Rider kunt u het coderen, debuggen en uitvoeren van uw project vereenvoudigen.
 ### Basiskennis van C#

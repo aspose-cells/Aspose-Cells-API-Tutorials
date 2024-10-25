@@ -177,5 +177,5 @@ Aspose.Cells عبارة عن مكتبة .NET مصممة لإنشاء ملفات 
  يمكن العثور على أمثلة ووثائق إضافية في[صفحة توثيق Aspose](https://reference.aspose.com/cells/net/).
 
 ### ماذا لو واجهت مشاكل أثناء استخدام Aspose؟
-يمكنك طلب المساعدة من منتدى دعم Aspose[هنا](https://forum.aspose.com/c/cells/9).
+ يمكنك طلب المساعدة من منتدى دعم Aspose[هنا](https://forum.aspose.com/c/cells/9).
  

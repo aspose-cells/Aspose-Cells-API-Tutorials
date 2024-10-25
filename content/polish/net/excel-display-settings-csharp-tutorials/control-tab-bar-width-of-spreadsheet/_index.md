@@ -25,7 +25,7 @@ Zanim zaczniesz, musisz zadbać o kilka rzeczy:
 
 ## Importuj pakiety
 
-Przed napisaniem jakiegokolwiek kodu musisz się upewnić, że wszystkie właściwe przestrzenie nazw i biblioteki zostały zaimportowane do projektu. Ten krok jest kluczowy, aby zapewnić, że wszystko będzie działać płynnie.
+Przed napisaniem jakiegokolwiek kodu musisz się upewnić, że wszystkie właściwe przestrzenie nazw i biblioteki zostały zaimportowane do projektu. Ten krok jest kluczowy, aby wszystko działało płynnie.
 
 ```csharp
 using System.IO;

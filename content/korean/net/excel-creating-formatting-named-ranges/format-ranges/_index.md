@@ -53,7 +53,7 @@ string dataDir = "Your Document Directory"; // 여기에 디렉토리를 지정�
 Workbook workbook = new Workbook();
 ```
 
-설명:`Workbook` 클래스는 Excel 파일을 나타냅니다. 인스턴스화하면 기본적으로 조작할 수 있는 새 Excel 문서를 만드는 것입니다.
+ 설명:`Workbook` 클래스는 Excel 파일을 나타냅니다. 인스턴스화하면 기본적으로 조작할 수 있는 새 Excel 문서를 만드는 것입니다.
 
 ## 3단계: 첫 번째 워크시트에 액세스
 
@@ -138,7 +138,7 @@ flg.Font = true; // 글꼴 속성 활성화
 flg.CellShading = true; // 셀 음영 처리 활성화
 ```
 
-설명:`StyleFlag` 객체는 라이브러리에 우리가 적용하고자 하는 스타일 속성을 알려줍니다. 마치 할 일 목록에서 상자를 체크하는 것과 같습니다!
+ 설명:`StyleFlag` 객체는 라이브러리에 우리가 적용하고자 하는 스타일 속성을 알려줍니다. 마치 할 일 목록에서 상자를 체크하는 것과 같습니다!
 
 ## 11단계: 범위에 스타일 적용
 

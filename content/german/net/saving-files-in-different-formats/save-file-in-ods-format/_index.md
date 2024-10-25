@@ -12,7 +12,7 @@ Haben Sie sich schon einmal gefragt, wie Sie mit Ihren .NET-Anwendungen mühelos
 ## Voraussetzungen
 Bevor wir ins Detail gehen, stellen wir sicher, dass Sie alles richtig eingerichtet haben:
 - .NET Framework: Stellen Sie sicher, dass das .NET Framework auf Ihrem Computer installiert ist. Sie können jede Version verwenden, die mit Aspose.Cells für .NET kompatibel ist.
-- Aspose.Cells-Bibliothek: Sie müssen die Aspose.Cells-Bibliothek herunterladen. Es ist ein leistungsstarkes Tool, mit dem Sie Excel-Dateien und mehr verwalten können. Sie erhalten es von[Downloadlink](https://releases.aspose.com/cells/net/).
+-  Aspose.Cells-Bibliothek: Sie müssen die Aspose.Cells-Bibliothek herunterladen. Es ist ein leistungsstarkes Tool, mit dem Sie Excel-Dateien und mehr verwalten können. Sie erhalten es von[Downloadlink](https://releases.aspose.com/cells/net/).
 - Entwicklungsumgebung: Unverzichtbar ist eine geeignete Entwicklungsumgebung, beispielsweise Visual Studio, in der Sie Ihren .NET-Code schreiben und ausführen können.
 Nachdem wir nun unsere Voraussetzungen abgedeckt haben, importieren wir die erforderlichen Pakete.
 ## Pakete importieren

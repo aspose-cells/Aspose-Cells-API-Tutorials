@@ -15,7 +15,7 @@ La creación de páginas web visualmente atractivas a partir de hojas de cálcul
 Antes de pasar al código, asegúrese de tener lo siguiente:
 
 1. Visual Studio instalado: necesitará un entorno de desarrollo como Visual Studio para ejecutar y probar sus aplicaciones .NET.
-2. Aspose.Cells para .NET: Descargue e instale Aspose.Cells. Puede obtener la última versión desde[Sitio web de Aspose](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells para .NET: Descargue e instale Aspose.Cells. Puede obtener la última versión desde[Sitio web de Aspose](https://releases.aspose.com/cells/net/).
 3. Conocimientos básicos de C#: La familiaridad con la programación en C# le ayudará a comprender mejor los ejemplos.
 4. Un archivo de Excel de muestra: Prepare un archivo de Excel llamado "Book1.xlsx" con el que trabajar. Colóquelo en una carpeta designada a la que hará referencia en su código.
 

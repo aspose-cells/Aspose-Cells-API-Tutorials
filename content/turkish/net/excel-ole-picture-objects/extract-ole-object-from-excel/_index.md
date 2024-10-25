@@ -12,7 +12,7 @@ Günümüzün teknoloji meraklısı dünyasında, Excel dosyalarıyla uğraşmak
 ## Ön koşullar
 OLE nesnelerini çıkarma işleminin ince ayrıntılarına dalmadan önce, yerinde olması gereken birkaç şey vardır:
 1. C# Temel Bilgisi: C#'a aşinaysanız, doğru yoldasınız demektir. Değilseniz, endişelenmeyin! İşleri basit tutacağız.
-2.  Aspose.Cells Kurulu: Aspose.Cells kütüphanesine ihtiyacınız olacak. Bunu siteden indirebilirsiniz[Burada](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells Kurulu: Aspose.Cells kütüphanesine ihtiyacınız olacak. Bunu siteden indirebilirsiniz[Burada](https://releases.aspose.com/cells/net/).
 3. Uyumlu Bir Geliştirme Ortamı: Visual Studio gibi bir .NET geliştirme ortamının hazır olduğundan emin olun.
 4. Örnek Excel Dosyası: Test için OLE nesnelerinin gömülü olduğu bir Excel dosyasına ihtiyacınız olacak. 
 Bu ön koşullar sağlandıktan sonra, OLE nesne çıkarma dünyasına yolculuğumuza başlayabiliriz.
@@ -44,7 +44,7 @@ Aspose.Cells.Drawing.OleObjectCollection oles = workbook.Worksheets[0].OleObject
 for (int i = 0; i < oles.Count; i++)
 {
     Aspose.Cells.Drawing.OleObject ole = oles[i];
-    //Her nesneyi işlemek için daha fazla mantık
+    // Her nesneyi işlemek için daha fazla mantık
 }
 ```
 ## Adım 5: Çıktı Dosya Adını Belirleyin

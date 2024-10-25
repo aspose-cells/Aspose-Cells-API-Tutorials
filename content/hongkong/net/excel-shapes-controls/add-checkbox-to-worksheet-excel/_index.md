@@ -12,7 +12,7 @@ url: /zh-hant/net/excel-shapes-controls/add-checkbox-to-worksheet-excel/
 ## 先決條件
 在我們深入研究編碼的細節之前，讓我們確保您擁有開始使用所需的一切。以下是先決條件：
 - 視覺工作室：我們假設您已經使用 Visual Studio 設定了工作環境。如果沒有，您可以輕鬆地從以下位置下載[Visual Studio](https://visualstudio.microsoft.com/vs/).
-- .NET Framework：請確定您的系統上安裝了 .NET Framework。檢查 Aspose.Cells 與您的 .NET 版本的相容性。
+- .NET Framework：確保您的系統上安裝了 .NET Framework。檢查 Aspose.Cells 與您的 .NET 版本的相容性。
 -  Aspose.Cells for .NET：您需要下載 Aspose.Cells 函式庫並在專案中引用。您可以從以下位置下載：[這裡](https://releases.aspose.com/cells/net/).
 - 對 C# 的基本了解：對 C# 程式設計的基本掌握將幫助您更輕鬆地理解範例。
 在核對清單中的這些先決條件後，讓我們開始吧！

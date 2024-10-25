@@ -36,7 +36,7 @@ Začneme tím, že definujeme cestu pro náš adresář dokumentů a zajistíme,
 ```csharp
 // Definujte adresář pro ukládání obrázků
 string dataDir = "Your Document Directory";
-// Zkontrolujte, zda adresář existuje
+//Zkontrolujte, zda adresář existuje
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -51,7 +51,7 @@ Sešit je jako soubor aplikace Excel, který obsahuje listy. Vytvořením novéh
 Workbook workbook = new Workbook();
 ```
 ## Krok 3: Přidejte nový list
-Každý soubor aplikace Excel má listy (nebo karty). Přidejme jeden do našeho sešitu.
+Každý soubor aplikace Excel má listy (nebo karty). Pojďme přidat jeden do našeho sešitu.
 
 Přidání nového listu je nezbytné, protože do tohoto listu vložíme naše data a grafy. Jakmile je list přidán, získáme jeho referenci.
 ```csharp
@@ -93,7 +93,7 @@ chart.NSeries.Add("A1:B3", true);
 ## Krok 7: Převeďte graf na obrázek
 Okamžik pravdy: převedeme tento graf na obrázkový soubor!
 
- Zde používáme`ToImage`způsob převodu grafu do formátu obrázku podle vašeho výběru. V tomto případě jej převádíme do formátu EMF (Enhanced Metafile).
+ Zde používáme`ToImage` způsob převodu grafu do formátu obrázku podle vašeho výběru. V tomto případě jej převádíme do formátu EMF (Enhanced Metafile).
 ```csharp
 // Převeďte graf na obrázek a uložte jej do adresáře
 chart.ToImage(dataDir + "Chart.emf", ImageFormat.Emf);

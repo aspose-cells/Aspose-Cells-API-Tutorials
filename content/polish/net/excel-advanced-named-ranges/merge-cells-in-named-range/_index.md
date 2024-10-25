@@ -9,7 +9,7 @@ url: /pl/net/excel-advanced-named-ranges/merge-cells-in-named-range/
 ---
 ## Wstęp
 
-Podczas pracy z plikami Excela programowo, jednym z typowych zadań, na jakie możesz się natknąć, jest scalanie komórek w obrębie nazwanego zakresu. Niezależnie od tego, czy automatyzujesz generowanie raportów, tworzysz pulpity nawigacyjne, czy po prostu zarządzasz dużymi zestawami danych, scalanie komórek jest niezbędną techniką. W tym samouczku przyjrzymy się, jak scalać komórki w obrębie nazwanego zakresu przy użyciu Aspose.Cells dla .NET — potężnej biblioteki, która umożliwia programistom manipulowanie plikami Excela bez konieczności instalowania programu Microsoft Excel.
+Podczas pracy z plikami Excela programowo, jednym z typowych zadań, na jakie możesz się natknąć, jest scalanie komórek w obrębie nazwanego zakresu. Niezależnie od tego, czy automatyzujesz generowanie raportów, tworzysz pulpity nawigacyjne, czy po prostu zarządzasz dużymi zestawami danych, scalanie komórek jest niezbędną techniką. W tym samouczku zbadamy, jak scalać komórki w obrębie nazwanego zakresu przy użyciu Aspose.Cells dla .NET — potężnej biblioteki, która umożliwia programistom manipulowanie plikami Excela bez konieczności instalowania programu Microsoft Excel.
 
 ## Wymagania wstępne
 
@@ -60,7 +60,7 @@ Pomyśl o arkuszu kalkulacyjnym jako o poszczególnych kartach w pliku Excel, gd
 Teraz, gdy mamy nasz arkusz kalkulacyjny, czas utworzyć zakres. Zakres odnosi się do bloku komórek, który może obejmować wiele wierszy i kolumn.
 
 ```csharp
-// Utwórz zakres.
+//Utwórz zakres.
 Range mrange = worksheet1.Cells.CreateRange("D6", "I12");
 ```
 
@@ -133,7 +133,7 @@ flag.CellShading = true;
 range1.ApplyStyle(style, flag);
 ```
 
- Ten`StyleFlag`informuje Aspose.Cells, jakie właściwości stylu zastosować — wyrównanie, cieniowanie itd. Dzięki temu masz szczegółową kontrolę nad sposobem stosowania stylu.
+ Ten`StyleFlag` informuje Aspose.Cells, jakie właściwości stylu zastosować — wyrównanie, cieniowanie itd. Dzięki temu masz szczegółową kontrolę nad sposobem stosowania stylu.
 
 ## Krok 9: Wprowadź dane do scalonego zakresu
 
@@ -159,7 +159,7 @@ Tutaj skoroszyt zostanie zapisany pod nazwą „outputMergeCellsInNamedRange.xls
 
 ## Wniosek
 
-masz to! Udało Ci się połączyć komórki w nazwanym zakresie, zastosować piękne formatowanie, a nawet wprowadzić dane — wszystko za pomocą Aspose.Cells dla .NET. Niezależnie od tego, czy pracujesz nad automatyzacją raportów, manipulujesz plikami Excela, czy po prostu uczysz się nowych technik, ten przewodnik krok po kroku powinien dać Ci potrzebne podstawy.
+I masz to! Udało Ci się połączyć komórki w nazwanym zakresie, zastosować piękne formatowanie, a nawet wprowadzić dane — wszystko za pomocą Aspose.Cells dla .NET. Niezależnie od tego, czy pracujesz nad automatyzacją raportów, manipulujesz plikami Excela, czy po prostu uczysz się nowych technik, ten przewodnik krok po kroku powinien dać Ci potrzebne podstawy.
 
 ## Najczęściej zadawane pytania
 

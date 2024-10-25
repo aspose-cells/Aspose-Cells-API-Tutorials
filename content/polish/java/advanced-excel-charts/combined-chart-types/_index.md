@@ -10,7 +10,7 @@ url: /pl/java/advanced-excel-charts/combined-chart-types/
 
 ## Wprowadzenie do połączonych typów wykresów przy użyciu Aspose.Cells dla języka Java
 
-W świecie wizualizacji danych wykresy odgrywają kluczową rolę w pomaganiu nam zrozumieć złożone zestawy danych. Aspose.Cells for Java to potężne API Java, które umożliwia tworzenie, manipulowanie i dostosowywanie różnych typów wykresów, w tym typów wykresów łączonych. W tym artykule przyjrzymy się, jak tworzyć typy wykresów łączonych przy użyciu Aspose.Cells for Java.
+świecie wizualizacji danych wykresy odgrywają kluczową rolę w pomaganiu nam zrozumieć złożone zestawy danych. Aspose.Cells for Java to potężne API Java, które umożliwia tworzenie, manipulowanie i dostosowywanie różnych typów wykresów, w tym typów wykresów łączonych. W tym artykule przyjrzymy się, jak tworzyć typy wykresów łączonych przy użyciu Aspose.Cells for Java.
 
 ## Zrozumienie Aspose.Cells dla Java
 
@@ -104,7 +104,7 @@ chart.toImage("CombinedChart.png", ImageFormat.getPng());
 
 ## Wniosek
 
-tym artykule przyjrzeliśmy się sposobom tworzenia połączonych typów wykresów przy użyciu Aspose.Cells for Java. Zaczęliśmy od zrozumienia, czym jest Aspose.Cells for Java, a następnie przeszliśmy do instrukcji krok po kroku dotyczących tworzenia połączonego wykresu, dodawania do niego danych, dostosowywania jego wyglądu oraz zapisywania/eksportowania go. Dzięki Aspose.Cells for Java możesz uwolnić moc wizualizacji danych w swoich aplikacjach Java.
+W tym artykule przyjrzeliśmy się sposobom tworzenia połączonych typów wykresów przy użyciu Aspose.Cells for Java. Zaczęliśmy od zrozumienia, czym jest Aspose.Cells for Java, a następnie przeszliśmy do instrukcji krok po kroku dotyczących tworzenia połączonego wykresu, dodawania do niego danych, dostosowywania jego wyglądu oraz zapisywania/eksportowania go. Dzięki Aspose.Cells for Java możesz uwolnić moc wizualizacji danych w swoich aplikacjach Java.
 
 ## Najczęściej zadawane pytania
 

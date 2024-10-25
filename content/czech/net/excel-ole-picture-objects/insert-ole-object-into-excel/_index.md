@@ -35,7 +35,7 @@ string dataDir = "Your Document Directory";
 ## Krok 2: Vytvořte adresář, pokud neexistuje
 Dále se chceme ujistit, že tento adresář existuje. Pokud ne, musíme ji vytvořit.
 ```csharp
-//Vytvořte adresář, pokud ještě není přítomen.
+// Vytvořte adresář, pokud ještě není přítomen.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -58,7 +58,7 @@ Pěkné a jednoduché! Jsme připraveni začít přidávat obsah do tohoto listu
 ## Krok 5: Definujte cestu k obrázku
 Nyní nastavíme cestu pro obrázek, který chcete vložit do souboru Excel.
 ```csharp
-// Definujte řetězcovou proměnnou pro uložení cesty obrázku.
+//Definujte řetězcovou proměnnou pro uložení cesty obrázku.
 string ImageUrl = dataDir + "logo.jpg";
 ```
  Ujistěte se, že tato cesta správně odráží vaše`logo.jpg` soubor je uložen.
@@ -87,7 +87,7 @@ Stejně jako jsme to udělali s obrázkem, musíme načíst samotný soubor Exce
 ```csharp
 // Získejte soubor do streamů.
 fs = File.OpenRead(path);
-// Definujte pole bajtů.
+//Definujte pole bajtů.
 byte[] objectData = new Byte[fs.Length];
 // Uložte soubor ze streamů.
 fs.Read(objectData, 0, objectData.Length);

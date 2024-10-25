@@ -18,7 +18,7 @@ Bevor wir beginnen, sind hier ein paar Dinge, die Sie haben sollten, um einen re
 1. Grundkenntnisse in C#: Da wir unseren Code in C# schreiben werden, hilft Ihnen ein grundlegendes Verständnis der Sprache dabei, die Konzepte schnell zu erfassen.
 2.  Aspose.Cells für .NET-Bibliothek: Sie müssen die Aspose.Cells für .NET-Bibliothek herunterladen. Sie erhalten sie von[Download-Link](https://releases.aspose.com/cells/net/).
 3. Visual Studio: Es ist eine fantastische Umgebung zum Schreiben und Testen Ihres .NET-Codes. Stellen Sie sicher, dass es ordnungsgemäß auf Ihrem Computer installiert ist. 
-4. Eine Excel-Datei: Sie benötigen eine Excel-Datei, die einige Formeln enthält, mit denen Sie arbeiten können. Wir verwenden eine Datei namens`Book1.xlsx`, aber Sie können gerne Ihre eigenen verwenden!
+4.  Eine Excel-Datei: Sie benötigen eine Excel-Datei, die einige Formeln enthält, mit denen Sie arbeiten können. Wir verwenden eine Datei namens`Book1.xlsx`aber Sie können gerne Ihre eigenen verwenden!
 
 Bereit, sich anzuschnallen und mit der Verfolgung dieser Zellen zu beginnen? Lassen Sie uns ins Detail gehen!
 
@@ -84,11 +84,11 @@ Nachdem wir nun die Arbeitsmappe geöffnet haben, ist es an der Zeit, die einzel
 Cells cells = workbook.Worksheets[0].Cells;
 ```
 
-Erklärung: Der obige Code zielt auf das erste Arbeitsblatt (Index 0) in unserer Arbeitsmappe und ruft die`Cells` Sammlung, mit der wir zur Suche nach Angehörigen arbeiten.
+ Erklärung: Der obige Code zielt auf das erste Arbeitsblatt (Index 0) in unserer Arbeitsmappe und ruft die`Cells` Sammlung, mit der wir zur Suche nach Angehörigen arbeiten.
 
 ## Schritt 4: Zelle auswählen
 
- Zu Demonstrationszwecken möchten wir die abhängigen Elemente einer bestimmten Zelle verfolgen. In diesem Fall`B2`Lassen Sie uns das codieren:
+Zu Demonstrationszwecken möchten wir die abhängigen Elemente einer bestimmten Zelle verfolgen. In diesem Fall`B2`Lassen Sie uns das codieren:
 
 ```csharp
 Cell cell = cells["B2"];
@@ -118,7 +118,7 @@ foreach (Cell c in cell.GetDependents(true))
 Console.ReadKey();
 ```
 
-Erklärung: Diese Schleife durchläuft jede abhängige Zelle in unserem Array und gibt ihren Namen aus – ziemlich unkompliziert! Die`Console.ReadKey()` stellt sicher, dass das Konsolenfenster geöffnet bleibt, bis Sie eine Taste drücken, sodass Sie Zeit haben, die Ausgabe zu lesen.
+ Erklärung: Diese Schleife durchläuft jede abhängige Zelle in unserem Array und gibt ihren Namen aus – ziemlich unkompliziert! Die`Console.ReadKey()` stellt sicher, dass das Konsolenfenster geöffnet bleibt, bis Sie eine Taste drücken, sodass Sie Zeit haben, die Ausgabe zu lesen.
 
 ## Abschluss
 

@@ -8,7 +8,7 @@ weight: 11
 url: /sv/net/excel-hidden-rows-data-duplication-management/rename-duplicate-columns-automatically-while-exporting-worksheet-data-in-excel/
 ---
 ## Introduktion
-När man arbetar med Excel-data är en av de vanligaste huvudvärk som utvecklare möter att hantera dubbletter av kolumnnamn. Föreställ dig att du exporterar data och upptäcker att dina kolumner märkta "Personer" är duplicerade. Du kanske frågar dig själv, "Hur kan jag automatiskt hantera dessa dubbletter utan manuellt ingripande?" Nåväl, oroa dig inte längre! I den här handledningen går vi djupt in på att använda Aspose.Cells för .NET för att automatiskt byta namn på dessa irriterande dubbletter av kolumner vid export av Excel-data, vilket säkerställer ett smidigare arbetsflöde och en mer organiserad datastruktur. Låt oss komma igång!
+När man arbetar med Excel-data är en av de vanligaste huvudvärk som utvecklare möter att hantera dubbletter av kolumnnamn. Föreställ dig att du exporterar data och upptäcker att dina kolumner märkta "Personer" är duplicerade. Du kanske frågar dig själv, "Hur kan jag automatiskt hantera dessa dubbletter utan manuellt ingripande?" Nåväl, oroa dig inte mer! I den här handledningen går vi djupt in på att använda Aspose.Cells för .NET för att automatiskt byta namn på dessa irriterande dubbletter av kolumner vid export av Excel-data, vilket säkerställer ett smidigare arbetsflöde och en mer organiserad datastruktur. Låt oss komma igång!
 ## Förutsättningar
 Innan vi går in i de tekniska detaljerna, låt oss se till att du har allt du behöver för att följa med:
 1. Visual Studio: Se till att du har Visual Studio installerat. Det är den bästa IDE för .NET-utveckling.
@@ -96,4 +96,4 @@ Aspose.Cells är ett kraftfullt bibliotek för .NET som låter utvecklare skapa,
 ### Var kan jag få hjälp om jag stöter på problem?
  Aspose-gemenskapsforumet är en utmärkt resurs för felsökning och råd:[Aspose Support](https://forum.aspose.com/c/cells/9).
 ### Finns det en tillfällig licens tillgänglig för Aspose.Cells?
- Ja! Du kan ansöka om en tillfällig licens[här](https://purchase.aspose.com/temporary-license/) att prova alla funktioner utan begränsningar.
+Ja! Du kan ansöka om en tillfällig licens[här](https://purchase.aspose.com/temporary-license/) att prova alla funktioner utan begränsningar.

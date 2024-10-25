@@ -15,7 +15,7 @@ Excel elektronik tablolarından görsel olarak çekici web sayfaları oluşturma
 Koda geçmeden önce aşağıdakilerin mevcut olduğundan emin olun:
 
 1. Visual Studio Kurulu: .NET uygulamalarınızı çalıştırmak ve test etmek için Visual Studio gibi bir geliştirme ortamına ihtiyacınız olacak.
-2. Aspose.Cells for .NET: Aspose.Cells'i indirin ve kurun. En son sürümü şu adresten alabilirsiniz:[Aspose web sitesi](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells for .NET: Aspose.Cells'i indirin ve kurun. En son sürümü şu adresten alabilirsiniz:[Aspose web sitesi](https://releases.aspose.com/cells/net/).
 3. Temel C# bilgisi: C# programlamaya aşina olmak örnekleri daha iyi anlamanıza yardımcı olacaktır.
 4. Örnek bir Excel dosyası: Çalışmak için "Book1.xlsx" adlı bir Excel dosyası hazırlayın. Bunu, kodunuzda referans vereceğiniz belirlenmiş bir klasöre yerleştirin.
 

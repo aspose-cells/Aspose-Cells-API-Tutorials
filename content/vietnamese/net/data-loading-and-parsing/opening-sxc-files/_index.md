@@ -32,7 +32,7 @@ Trước tiên, chúng ta cần tạo một dự án mới trong Visual Studio c
 2. Chọn Ứng dụng web ASP.NET Core hoặc Ứng dụng bảng điều khiển theo sở thích của bạn.
 3.  Đặt tên cho dự án của bạn (một cái gì đó như`SXCFileOpener`) và nhấp vào Tạo.
 4. Đảm bảo bạn đã chọn .NET framework trong quá trình thiết lập này.
-5.  Sau khi dự án tải, bạn sẽ thấy một mặc định`.cs` tệp nơi chúng ta có thể thêm mã của mình.
+5. Sau khi dự án tải, bạn sẽ thấy một mặc định`.cs` tệp nơi chúng ta có thể thêm mã của mình.
 ## Bước 2: Thêm Thư viện Aspose.Cells
 Tiếp theo, chúng ta sẽ thêm thư viện Aspose.Cells vào dự án của mình. Thực hiện như sau:
 1. Mở Trình quản lý gói NuGet bằng cách nhấp chuột phải vào dự án của bạn trong Solution Explorer và chọn Quản lý gói NuGet.
@@ -48,7 +48,7 @@ string sourceDir = "Your Document Directory";
 ```
 2.  Trong thư mục này, hãy thêm tệp mẫu SXC của bạn (ví dụ:`SampleSXC.sxc`) để thử nghiệm.
 ## Bước 4: Tạo đối tượng Workbook
- Với thư mục nguồn được thiết lập, đã đến lúc tạo một`Workbook` đối tượng để tải tệp SXC của chúng tôi:
+ Với thư mục nguồn được thiết lập, đã đến lúc tạo một`Workbook`đối tượng để tải tệp SXC của chúng tôi:
 ```csharp
 Workbook workbook = new Workbook(sourceDir + "SampleSXC.sxc");
 ```

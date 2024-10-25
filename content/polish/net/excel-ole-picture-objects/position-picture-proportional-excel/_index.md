@@ -24,7 +24,7 @@ W programie Visual Studio utwórz nowy projekt:
 - Kliknij „Utwórz nowy projekt”.
 - Wybierz „Biblioteka klas (.NET Framework)” lub „Aplikacja konsolowa” w zależności od preferencji.
 ### Zainstaluj Aspose.Cells
-Możesz dodać pakiet Aspose.Cells do swojego projektu za pomocą NuGet. Oto jak to zrobić:
+Możesz dodać pakiet Aspose.Cells do swojego projektu za pomocą NuGet. Oto jak:
 - Kliknij prawym przyciskiem myszy swój projekt w Eksploratorze rozwiązań.
 - Wybierz „Zarządzaj pakietami NuGet”.
 - Wyszukaj „Aspose.Cells” i kliknij „Zainstaluj”.
@@ -40,7 +40,7 @@ Teraz omówimy szczegółowo kroki, które pozwolą prawidłowo ustawić obraz w
 Po pierwsze, upewnij się, że masz wyznaczony folder na swoje dokumenty. Oto jak utworzyć katalog, jeśli nie istnieje:
 ```csharp
 string dataDir = "Your Document Directory";
-//Utwórz katalog, jeśli jeszcze go nie ma.
+// Utwórz katalog, jeśli jeszcze go nie ma.
 bool isExists = System.IO.Directory.Exists(dataDir);
 if (!isExists)
     System.IO.Directory.CreateDirectory(dataDir);

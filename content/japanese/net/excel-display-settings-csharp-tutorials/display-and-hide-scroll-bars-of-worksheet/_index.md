@@ -100,7 +100,7 @@ workbook.Settings.IsHScrollBarVisible = false;
 workbook.Save(dataDir + "output.xls");
 ```
   
-このコードは、変更されたワークブックを新しい名前で保存します（`output.xls`) 元のファイルの上書きを防ぎ、バックアップを維持できるようにします。
+このコードは、変更されたワークブックを新しい名前で保存します（`output.xls`元のファイルの上書きを防ぎ、バックアップを維持できるようにします。
 
 ## ステップ7: ファイルストリームを閉じる
 
@@ -132,4 +132,4 @@ Aspose.Cellsは完全に無料ではありませんが、期間限定で無料�
 チェックしてください[Aspose.Cells ドキュメント](https://reference.aspose.com/cells/net/)追加の例とチュートリアルについては、こちらをご覧ください。
 
 ### Aspose.Cells の使用中に問題が発生した場合はどうすればよいですか?  
- Asposeサポートフォーラムでヘルプを求めたり、問題を報告したりできます。[ここ](https://forum.aspose.com/c/cells/9).
+Asposeサポートフォーラムでヘルプを求めたり、問題を報告したりできます。[ここ](https://forum.aspose.com/c/cells/9).

@@ -1,6 +1,6 @@
 ---
-title: Προσθήκη ελέγχου πλαισίου κειμένου στο γράφημα
-linktitle: Προσθήκη ελέγχου πλαισίου κειμένου στο γράφημα
+title: Προσθήκη στοιχείου ελέγχου πλαισίου κειμένου στο γράφημα
+linktitle: Προσθήκη στοιχείου ελέγχου πλαισίου κειμένου στο γράφημα
 second_title: Aspose.Cells .NET Excel Processing API
 description: Μάθετε πώς μπορείτε να προσθέσετε ένα TextBox σε γραφήματα στο Excel χρησιμοποιώντας το Aspose.Cells για .NET. Βελτιώστε την οπτικοποίηση των δεδομένων σας χωρίς κόπο.
 type: docs
@@ -16,7 +16,7 @@ url: /el/net/inserting-controls-in-charts/add-textbox-control-to-chart/
 Πριν προχωρήσουμε στην κωδικοποίηση, υπάρχουν μερικά πράγματα που πρέπει να έχετε στη θέση του:
 
 - Βασική κατανόηση της C#: Η βασική κατανόηση του προγραμματισμού C# θα είναι χρήσιμη. Μην ανησυχείς. δεν χρειάζεται να είστε ειδικός, απλά να πλοηγείστε άνετα στη σύνταξη.
-- Εγκατεστημένη βιβλιοθήκη Aspose.Cells: Βεβαιωθείτε ότι έχετε εγκαταστήσει τη βιβλιοθήκη Aspose.Cells για .NET. Μπορείτε να το κατεβάσετε από[εδώ](https://releases.aspose.com/cells/net/) αν δεν το έχεις κάνει ήδη.
+-  Εγκατεστημένη βιβλιοθήκη Aspose.Cells: Βεβαιωθείτε ότι έχετε εγκαταστήσει τη βιβλιοθήκη Aspose.Cells για .NET. Μπορείτε να το κατεβάσετε από[εδώ](https://releases.aspose.com/cells/net/)αν δεν το έχεις κάνει ήδη.
 - Visual Studio: Είναι απαραίτητη η εξοικείωση με το Visual Studio ή οποιοδήποτε IDE που προτιμάτε να χρησιμοποιείτε για το πλαίσιο .NET.
 - Ένα υπάρχον αρχείο Excel: Για αυτό το παράδειγμα, θα εργαστούμε με ένα υπάρχον αρχείο Excel που ονομάζεται "sampleAddingTextBoxControlInChart.xls". Μπορείτε να δημιουργήσετε ένα ή να κατεβάσετε ένα δείγμα.
 
@@ -136,7 +136,7 @@ lineformat.DashStyle = Aspose.Cells.Drawing.MsoLineDashStyle.Solid;
 // Αποθηκεύστε το αρχείο excel.
 workbook.Save(outputDir + "outputAddingTextBoxControlInChart.xls");
 ```
- Αντικαθιστώ`"outputAddingTextBoxControlInChart.xls"`με όποιο όνομα αρχείου προτιμάτε.
+ Αντικαθιστώ`"outputAddingTextBoxControlInChart.xls"` με όποιο όνομα αρχείου προτιμάτε.
 
 ## Σύναψη
 

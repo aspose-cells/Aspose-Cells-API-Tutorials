@@ -13,11 +13,11 @@ url: /es/net/excel-workbook/
 
 ## Acceder a la información de la extensión web
 
-Comprender cómo acceder a la información de las extensiones web puede abrir nuevas posibilidades en sus hojas de cálculo de Excel. Permite una mayor interactividad dentro de sus archivos. Nuestro tutorial sobre[Acceder a la información de la extensión web](./access-web-extension-information/) Proporciona una guía paso a paso para que este proceso sea fácil, incluso para aquellos que son nuevos en Aspose.Cells.
+ Comprender cómo acceder a la información de las extensiones web puede abrir nuevas posibilidades en sus hojas de cálculo de Excel. Permite una mayor interactividad dentro de sus archivos. Nuestro tutorial sobre[Acceder a la información de la extensión web](./access-web-extension-information/) Proporciona una guía paso a paso para que este proceso sea fácil, incluso para aquellos que son nuevos en Aspose.Cells.
 
 ## Agregar firmas digitales
 
- ¿Alguna vez ha necesitado agregar una firma digital a un archivo de Excel firmado? Descubra cómo hacerlo con nuestra guía sobre[Agregar firma digital a un archivo Excel ya firmado](./add-digital-signature-to-an-already-signed-excel-file/)Las firmas digitales garantizan la autenticidad e integridad, haciendo que sus archivos de Excel no solo sean funcionales sino también seguros.
+¿Alguna vez ha necesitado agregar una firma digital a un archivo de Excel firmado? Descubra cómo hacerlo con nuestra guía sobre[Agregar firma digital a un archivo Excel ya firmado](./add-digital-signature-to-an-already-signed-excel-file/)Las firmas digitales garantizan la autenticidad e integridad, haciendo que sus archivos de Excel no solo sean funcionales sino también seguros.
 
 ## Creación de libros de trabajo compartidos
 
@@ -25,7 +25,7 @@ Comprender cómo acceder a la información de las extensiones web puede abrir nu
 
 ## Extraer archivos incrustados
 
-¿Sabías que Excel puede contener archivos incrustados? Si alguna vez has tenido que analizar más a fondo tus hojas de cálculo para extraer un archivo MOL incrustado, te recomendamos que consultes nuestro tutorial sobre[Extraer archivo MOL incrustado](./extract-embedded-mol-file/)Esta guía lo guiará a través del sencillo proceso de recuperación de estos archivos, lo que le garantizará que nunca perderá datos importantes ocultos en sus libros de Excel.
+ ¿Sabías que Excel puede contener archivos incrustados? Si alguna vez has tenido que analizar más a fondo tus hojas de cálculo para extraer un archivo MOL incrustado, te recomendamos que consultes nuestro tutorial sobre[Extraer archivo MOL incrustado](./extract-embedded-mol-file/)Esta guía lo guiará a través del sencillo proceso de recuperación de estos archivos, lo que le garantizará que nunca perderá datos importantes ocultos en sus libros de Excel.
 
 ## Manejo de conexiones externas en archivos XLSB
 
@@ -33,23 +33,23 @@ Comprender cómo acceder a la información de las extensiones web puede abrir nu
 
 ## Mejorar la seguridad con protección por contraseña
 
- La seguridad es fundamental, en particular para los libros de trabajo compartidos que contienen información confidencial. Nuestro tutorial sobre[Proteger o desproteger con contraseña un libro de trabajo compartido](./password-protect-or-unprotect-shared-workbook/)Se detallan los pasos para bloquear sus libros de trabajo de modo que solo las personas adecuadas puedan acceder a ellos. Se sentirá más seguro al compartir archivos cuando sepa que están protegidos.
+ La seguridad es fundamental, en particular para los libros de trabajo compartidos que contienen información confidencial. Nuestro tutorial sobre[Proteger o desproteger con contraseña un libro de trabajo compartido](./password-protect-or-unprotect-shared-workbook/) Se detallan los pasos para bloquear sus libros de trabajo de modo que solo las personas adecuadas puedan acceder a ellos. Se sentirá más seguro al compartir archivos cuando sepa que están protegidos.
 
 ## Aumentar la productividad con expresiones regulares
 
- ¿Eres fanático de las expresiones regulares? Si no, ¡quizás quieras convertirte en uno! Las expresiones regulares pueden agilizar significativamente tus tareas, especialmente cuando trabajas con grandes conjuntos de datos en Excel. Nuestro tutorial sobre[Reemplazar expresiones regulares](./regex-replace/) Le enseña a implementar funciones de reemplazo de expresiones regulares en sus hojas de cálculo, lo que le permite aumentar tanto la productividad como la precisión.
+¿Eres fanático de las expresiones regulares? Si no, ¡quizás quieras convertirte en uno! Las expresiones regulares pueden agilizar significativamente tus tareas, especialmente cuando trabajas con grandes conjuntos de datos en Excel. Nuestro tutorial sobre[Reemplazar expresiones regulares](./regex-replace/) Le enseña a implementar funciones de reemplazo de expresiones regulares en sus hojas de cálculo, lo que le permite aumentar tanto la productividad como la precisión.
 
 ## Actualización de elementos de Power Query
 
- Power Queries puede ser un verdadero punto de inflexión en la manipulación de datos, ya que le permite optimizar la forma en que se importa la información a sus archivos de Excel. Si se pregunta cómo actualizar los elementos de fórmula de Power Query en Excel con Aspose.Cells para .NET, nuestro tutorial sobre[Actualizar elemento de fórmula de Power Query](./update-power-query-formula-item/)es justo lo que necesita. Proporciona un enfoque simple, paso a paso, para modificar estos elementos de fórmula, lo que le permite mantener sus datos actualizados y reflejados con precisión en sus libros de trabajo.
+ Power Queries puede ser un verdadero punto de inflexión en la manipulación de datos, ya que le permite optimizar la forma en que se importa la información a sus archivos de Excel. Si se pregunta cómo actualizar los elementos de fórmula de Power Query en Excel con Aspose.Cells para .NET, nuestro tutorial sobre[Actualizar elemento de fórmula de Power Query](./update-power-query-formula-item/) es justo lo que necesita. Proporciona un enfoque simple, paso a paso, para modificar estos elementos de fórmula, lo que le permite mantener sus datos actualizados y reflejados con precisión en sus libros de trabajo.
 
 ## Administrar vistas previas de impresión
 
- De vez en cuando, es necesario presentar los datos de la forma más profesional posible. Aprender a crear vistas previas de impresión puede ser una habilidad fundamental. En nuestro tutorial sobre[Vista previa de impresión del libro de trabajo](./workbook-print-preview/)Descubrirás cómo formatear tus datos correctamente antes de imprimirlos. Este proceso puede evitarte errores embarazosos y garantizar que tus informes se vean tan bien en papel como en la pantalla.
+De vez en cuando, es necesario presentar los datos de la forma más profesional posible. Aprender a crear vistas previas de impresión puede ser una habilidad fundamental. En nuestro tutorial sobre[Vista previa de impresión del libro de trabajo](./workbook-print-preview/)Descubrirás cómo formatear tus datos correctamente antes de imprimirlos. Este proceso puede evitarte errores embarazosos y garantizar que tus informes se vean tan bien en papel como en la pantalla.
 
 ## Trabajar con nombres definidos
 
- Los nombres definidos dentro de las hojas de Excel pueden ser una forma práctica de administrar los datos. Hacen que las fórmulas sean más breves y comprensibles. Si desea filtrar nombres definidos al cargar un libro de trabajo, consulte nuestro tutorial sobre[Filtrar nombres definidos al cargar un libro de trabajo](./filter-defined-names-while-loading-workbook/)Proporciona todos los pasos necesarios para hacer exactamente eso. Esta función le permite personalizar la forma en que se carga su libro de trabajo, mejorando la eficiencia y la organización.
+ Los nombres definidos dentro de las hojas de Excel pueden ser una forma práctica de administrar los datos. Hacen que las fórmulas sean más breves y comprensibles. Si desea filtrar nombres definidos al cargar un libro de trabajo, consulte nuestro tutorial sobre[Filtrar nombres definidos al cargar un libro de trabajo](./filter-defined-names-while-loading-workbook/) Proporciona todos los pasos necesarios para hacer exactamente eso. Esta función le permite personalizar la forma en que se carga su libro de trabajo, mejorando la eficiencia y la organización.
 
 ## Conclusión
 

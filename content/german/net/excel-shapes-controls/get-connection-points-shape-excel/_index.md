@@ -8,7 +8,7 @@ weight: 11
 url: /de/net/excel-shapes-controls/get-connection-points-shape-excel/
 ---
 ## Einführung
-Wenn wir programmgesteuert mit Excel-Dateien arbeiten, müssen wir häufig mit in die Blätter eingebetteten Formen interagieren. Eine der fortgeschritteneren Aufgaben, die Sie ausführen können, ist das Extrahieren von Verbindungspunkten aus einer Form. Verbindungspunkte werden verwendet, um Formen mit Verbindern zu verbinden und ihr Layout präziser zu verwalten. Wenn Sie die Verbindungspunkte einer Form in Excel abrufen möchten, ist Aspose.Cells für .NET das richtige Tool für Sie. In diesem Tutorial führen wir Sie Schritt für Schritt durch den Prozess, um dies zu erreichen.
+Wenn wir programmgesteuert mit Excel-Dateien arbeiten, müssen wir häufig mit in die Blätter eingebetteten Formen interagieren. Eine der fortgeschritteneren Aufgaben, die Sie ausführen können, ist das Extrahieren von Verbindungspunkten aus einer Form. Verbindungspunkte werden verwendet, um Formen mit Verbindungsstücken zu verbinden und ihr Layout präziser zu verwalten. Wenn Sie die Verbindungspunkte einer Form in Excel abrufen möchten, ist Aspose.Cells für .NET das richtige Tool für Sie. In diesem Tutorial führen wir Sie Schritt für Schritt durch den Prozess, um dies zu erreichen.
 ## Voraussetzungen
 Bevor Sie in den Code eintauchen, stellen Sie sicher, dass Sie die folgenden Voraussetzungen erfüllen:
 - Aspose.Cells für .NET: Sie müssen Aspose.Cells in Ihrer Entwicklungsumgebung installiert haben. Wenn Sie es noch nicht haben, können Sie[Laden Sie hier die neueste Version herunter](https://releases.aspose.com/cells/net/).
@@ -91,9 +91,9 @@ Ein Verbindungspunkt ist ein bestimmter Punkt auf einer Form, an dem Sie Verbind
 ### Kann ich Verbindungspunkte für alle Formen in einem Arbeitsblatt abrufen?
 Ja, mit Aspose.Cells können Sie Verbindungspunkte für jede Form abrufen, die diese unterstützt. Durchlaufen Sie einfach die Formensammlung im Arbeitsblatt.
 ### Benötige ich eine Lizenz, um Aspose.Cells zu verwenden?
-Ja, Sie können es zwar kostenlos testen, für den vollen Funktionsumfang ist jedoch eine Lizenz erforderlich. Sie können[Kaufen Sie hier eine Lizenz](https://purchase.aspose.com/buy) oder erhalten Sie eine[vorläufige Lizenz](https://purchase.aspose.com/temporary-license/).
+Ja, Sie können es zwar kostenlos testen, für den vollen Funktionsumfang ist jedoch eine Lizenz erforderlich. Sie können[Kaufen Sie hier eine Lizenz](https://purchase.aspose.com/buy)oder erhalten Sie eine[vorläufige Lizenz](https://purchase.aspose.com/temporary-license/).
 ### Wie kann ich in Aspose.Cells verschiedene Arten von Formen hinzufügen?
- Sie können die`Add` Methode für Formen wie Rechtecke, Ellipsen usw. Jede Form hat spezifische Parameter, die Sie anpassen können.
+Sie können die`Add` Methode für Formen wie Rechtecke, Ellipsen usw. Jede Form hat spezifische Parameter, die Sie anpassen können.
 ### Wie lade ich eine vorhandene Excel-Datei, anstatt eine neue zu erstellen?
  Um eine vorhandene Datei zu laden, übergeben Sie den Dateipfad an die`Workbook` Konstruktor, wie folgt:  
 ```csharp

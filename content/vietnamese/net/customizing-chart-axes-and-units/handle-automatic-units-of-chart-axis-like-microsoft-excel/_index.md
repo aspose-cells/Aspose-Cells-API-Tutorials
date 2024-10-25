@@ -108,7 +108,7 @@ Trong Excel, một trong những tính năng chính trong biểu đồ là xử 
 
 ```csharp
 // Đặt đơn vị chính cho trục Y
-ch.AxisY.MajorUnit = 10; //Bạn có thể thiết lập theo yêu cầu của bạn
+ch.AxisY.MajorUnit = 10; // Bạn có thể thiết lập theo yêu cầu của bạn
 ```
 
 Hãy cùng cập nhật các đơn vị tự động ngay bây giờ!
@@ -142,7 +142,7 @@ Làm việc với Aspose.Cells cho .NET không chỉ hiệu quả mà còn vô c
 Aspose.Cells là một thư viện .NET mạnh mẽ để tạo, thao tác và chuyển đổi các tệp Excel.
 
 ### Tôi có thể sử dụng Aspose.Cells miễn phí không?
- Có! Bạn có thể bắt đầu với bản dùng thử miễn phí có sẵn[đây](https://releases.aspose.com/).
+Có! Bạn có thể bắt đầu với bản dùng thử miễn phí có sẵn[đây](https://releases.aspose.com/).
 
 ### Tôi có cần cài đặt gì để bắt đầu không?
 Chỉ cần thư viện Aspose.Cells và .NET Framework được cài đặt trên máy của bạn.

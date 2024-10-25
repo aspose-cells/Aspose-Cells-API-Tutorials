@@ -9,7 +9,7 @@ url: /de/net/advanced-chart-operations/setting-category-data/
 ---
 ## Einführung
 
-Wenn es um die programmgesteuerte Verwaltung und Bearbeitung von Excel-Dateien geht, können die richtigen Tools den entscheidenden Unterschied ausmachen. Aspose.Cells für .NET ist ein solches Tool, mit dem Entwickler mühelos Excel-Dateien erstellen, bearbeiten und konvertieren können. Egal, ob Sie eine komplexe Datenanalyseanwendung erstellen oder einfach nur die Berichterstellung automatisieren müssen, Aspose.Cells bietet Ihnen alles. 
+Wenn es um die programmgesteuerte Verwaltung und Bearbeitung von Excel-Dateien geht, können die richtigen Tools den entscheidenden Unterschied ausmachen. Aspose.Cells für .NET ist ein solches Tool, mit dem Entwickler mühelos Excel-Dateien erstellen, bearbeiten und konvertieren können. Egal, ob Sie eine komplexe Datenanalyseanwendung erstellen oder einfach nur die Berichterstellung automatisieren müssen, Aspose.Cells bietet Ihnen die Lösung. 
 
 ## Voraussetzungen 
 

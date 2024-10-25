@@ -109,7 +109,7 @@ Ennyi! Sikeresen összefűzte a szöveget az Excelben az Aspose.Cells for Java h
 
 Igen, háromnál több szöveges karakterláncot is összefűzhet a CONCATENATE segítségével az Excelben és az Aspose.Cells for Java használatával. Egyszerűen bővítse ki a képletet, hogy szükség szerint további cellahivatkozásokat is tartalmazzon.
 
-### Van alternatívája a CONCATENATE-nek az Aspose.Cells for Java-ban?
+### Van alternatíva a CONCATENATE-re az Aspose.Cells for Java-ban?
 
  Igen, az Aspose.Cells for Java alternatív módot kínál a szöveg összefűzésére a`Cell.putValue` módszer. Összefűzhet szöveget több cellából, és az eredményt egy másik cellába állíthatja be képletek használata nélkül.
 

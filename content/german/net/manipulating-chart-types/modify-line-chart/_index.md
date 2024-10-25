@@ -151,7 +151,7 @@ Ja, Sie können verschiedene Diagrammtypen (z. B. Balken-, Kreisdiagramme usw.) 
  Auf jeden Fall! Sie können es kostenlos ausprobieren[Hier](https://releases.aspose.com/).
 
 ### Wie kann ich den Diagrammtyp nach dem Hinzufügen von Reihen ändern?
- Sie können die`ChartType` -Eigenschaft, um einen neuen Diagrammtyp für Ihr Diagramm festzulegen.
+Sie können die`ChartType` -Eigenschaft, um einen neuen Diagrammtyp für Ihr Diagramm festzulegen.
 
 ### Wo finde ich ausführlichere Dokumentation?
  Schauen Sie sich die Dokumentation an[Hier](https://reference.aspose.com/cells/net/).

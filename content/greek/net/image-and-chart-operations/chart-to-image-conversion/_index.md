@@ -36,7 +36,7 @@ using Aspose.Cells;
 ```csharp
 // Καθορίστε τον κατάλογο για την αποθήκευση εικόνων
 string dataDir = "Your Document Directory";
-// Ελέγξτε εάν υπάρχει ο κατάλογος
+//Ελέγξτε εάν υπάρχει ο κατάλογος
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -93,7 +93,7 @@ chart.NSeries.Add("A1:B3", true);
 ## Βήμα 7: Μετατρέψτε το γράφημα σε εικόνα
 Η στιγμή της αλήθειας: πρόκειται να μετατρέψουμε αυτό το γράφημα σε αρχείο εικόνας!
 
- Εδώ, χρησιμοποιούμε το`ToImage`μέθοδο μετατροπής του γραφήματος σε μορφή εικόνας της επιλογής σας. Σε αυτήν την περίπτωση, το μετατρέπουμε σε μορφή EMF (Enhanced Metafile).
+ Εδώ, χρησιμοποιούμε το`ToImage` μέθοδο μετατροπής του γραφήματος σε μορφή εικόνας της επιλογής σας. Σε αυτήν την περίπτωση, το μετατρέπουμε σε μορφή EMF (Enhanced Metafile).
 ```csharp
 // Μετατρέψτε το γράφημα σε εικόνα και αποθηκεύστε το στον κατάλογο
 chart.ToImage(dataDir + "Chart.emf", ImageFormat.Emf);

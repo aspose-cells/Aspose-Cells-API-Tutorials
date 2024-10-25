@@ -56,7 +56,7 @@ Aqui, você cria um fluxo de arquivos para ler o arquivo Excel.
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
   
- O`FileStream` class permite que você leia e grave em arquivos. Neste caso, estamos abrindo nosso arquivo Excel no modo de leitura.
+ O`FileStream`class permite que você leia e grave em arquivos. Neste caso, estamos abrindo nosso arquivo Excel no modo de leitura.
 
 ## Etapa 3: Instanciar um objeto de pasta de trabalho
 
@@ -67,7 +67,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 Workbook workbook = new Workbook(fstream);
 ```
   
- Esse`Workbook` objeto agora contém todos os dados e configurações do seu arquivo Excel, permitindo manipulação posterior no processo.
+ Esse`Workbook` O objeto agora contém todos os dados e configurações do seu arquivo Excel, permitindo manipulação posterior no processo.
 
 ## Etapa 4: Ocultar a barra de rolagem vertical
 
@@ -132,4 +132,4 @@ Você pode trabalhar com vários formatos do Excel, incluindo .xls, .xlsx, .xlsm
  Verifique o[Documentação do Aspose.Cells](https://reference.aspose.com/cells/net/) para exemplos e tutoriais adicionais.
 
 ### E se eu tiver problemas ao usar o Aspose.Cells?  
- Você pode procurar ajuda ou relatar problemas no fórum de suporte do Aspose[aqui](https://forum.aspose.com/c/cells/9).
+Você pode procurar ajuda ou relatar problemas no fórum de suporte do Aspose[aqui](https://forum.aspose.com/c/cells/9).

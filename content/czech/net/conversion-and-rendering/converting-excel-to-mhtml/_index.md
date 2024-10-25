@@ -26,7 +26,7 @@ Jakmile máte připraveny všechny předpoklady, dalším krokem je import potř
 
 1. Otevřete svůj projekt: Spusťte Visual Studio a otevřete svůj stávající projekt nebo vytvořte nový.
 2. Správa balíčků NuGet: Klikněte pravým tlačítkem myši na svůj projekt v Průzkumníku řešení a poté vyberte „Spravovat balíčky NuGet“.
-3.  Hledat a nainstalovat Aspose.Cells: Do pole Hledat zadejte`Aspose.Cells` a nainstalujte balíček. To zajišťuje, že máte nejnovější verzi integrovanou do vašeho projektu.
+3.  Hledat a nainstalovat Aspose.Cells: Do pole Hledat zadejte`Aspose.Cells` nainstalujte balíček. To zajišťuje, že máte nejnovější verzi integrovanou do vašeho projektu.
 4. Add Using Direktiva: Do souboru kódu přidejte následující direktivu, abyste využili jmenný prostor Aspose.Cells:
 
 ```csharp

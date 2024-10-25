@@ -108,7 +108,7 @@ No Excel, um dos principais recursos em gráficos é o tratamento de unidades au
 
 ```csharp
 // Definir unidade principal para o eixo Y
-ch.AxisY.MajorUnit = 10; //Você pode definir de acordo com sua necessidade
+ch.AxisY.MajorUnit = 10; // Você pode definir de acordo com sua necessidade
 ```
 
 Vamos atualizar as unidades automáticas agora!
@@ -142,7 +142,7 @@ Trabalhar com o Aspose.Cells para .NET não é apenas eficiente, mas também inc
 Aspose.Cells é uma poderosa biblioteca .NET para criar, manipular e converter arquivos do Excel.
 
 ### Posso usar o Aspose.Cells gratuitamente?
- Sim! Você pode começar com um teste gratuito disponível[aqui](https://releases.aspose.com/).
+Sim! Você pode começar com um teste gratuito disponível[aqui](https://releases.aspose.com/).
 
 ### Preciso instalar alguma coisa para começar?
 Apenas a biblioteca Aspose.Cells e um .NET Framework instalado na sua máquina.

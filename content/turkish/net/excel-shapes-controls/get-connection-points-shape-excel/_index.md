@@ -91,9 +91,9 @@ Bağlantı noktası, bir şeklin üzerinde bağlayıcılar takabileceğiniz veya
 ### Bir çalışma sayfasındaki tüm şekillerin bağlantı noktalarını alabilir miyim?
 Evet, Aspose.Cells, bunları destekleyen herhangi bir şekil için bağlantı noktalarını almanıza olanak tanır. Çalışma sayfasındaki şekiller koleksiyonunda basitçe döngü yapın.
 ### Aspose.Cells'i kullanmak için lisansa ihtiyacım var mı?
-Evet, ücretsiz deneyebilirsiniz ancak tüm özellikler için lisans gereklidir.[buradan lisans satın alın](https://purchase.aspose.com/buy) veya bir tane al[geçici lisans](https://purchase.aspose.com/temporary-license/).
+Evet, ücretsiz deneyebilirsiniz ancak tüm özellikler için lisans gereklidir.[buradan lisans satın alın](https://purchase.aspose.com/buy)veya bir tane al[geçici lisans](https://purchase.aspose.com/temporary-license/).
 ### Aspose.Cells'e farklı şekil türlerini nasıl ekleyebilirim?
- Kullanabilirsiniz`Add` dikdörtgenler, elipsler ve daha fazlası gibi şekiller için yöntem. Her şeklin özelleştirebileceğiniz belirli parametreleri vardır.
+Kullanabilirsiniz`Add` dikdörtgenler, elipsler ve daha fazlası gibi şekiller için yöntem. Her şeklin özelleştirebileceğiniz belirli parametreleri vardır.
 ### Yeni bir Excel dosyası oluşturmak yerine mevcut bir Excel dosyasını nasıl yüklerim?
  Mevcut bir dosyayı yüklemek için dosya yolunu şuraya iletin:`Workbook` yapıcı, şu şekilde:  
 ```csharp

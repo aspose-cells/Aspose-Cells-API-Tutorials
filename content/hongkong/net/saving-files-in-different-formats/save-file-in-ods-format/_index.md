@@ -12,7 +12,7 @@ url: /zh-hant/net/saving-files-in-different-formats/save-file-in-ods-format/
 ## 先決條件
 在我們深入討論細節之前，讓我們確保您已正確設定所有內容：
 - .NET Framework：請確定您的電腦上安裝了 .NET Framework。您可以使用與 Aspose.Cells for .NET 相容的任何版本。
-- Aspose.Cells 庫：您需要下載 Aspose.Cells 庫。它是一個功能強大的工具，可讓您管理 Excel 文件等。您可以從[下載連結](https://releases.aspose.com/cells/net/).
+-  Aspose.Cells 庫：您需要下載 Aspose.Cells 庫。它是一個功能強大的工具，可讓您管理 Excel 文件等。您可以從[下載連結](https://releases.aspose.com/cells/net/).
 - 開發環境：合適的開發環境至關重要，例如 Visual Studio，您可以在其中編寫和執行 .NET 程式碼。
 現在我們已經滿足了先決條件，讓我們導入必要的套件。
 ## 導入包

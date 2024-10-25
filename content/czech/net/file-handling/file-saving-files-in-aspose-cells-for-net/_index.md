@@ -38,7 +38,7 @@ Než začnete pracovat s Aspose.Cells, musíte do vašeho prostředí C# naimpor
 2. Klepněte pravým tlačítkem myši na svůj projekt v Průzkumníku řešení.
 3. Vyberte "Přidat" > "Nová položka" > vyberte třídu C#.
 
-### Add Using Direktiva
+### Přidat Směrnici použití
 V horní části souboru C# musíte pomocí direktivy přidat následující:
 ```csharp
 using System.IO;
@@ -135,4 +135,4 @@ Absolutně! Aspose.Cells může také číst a upravovat existující soubory ap
 Podporuje různé formáty jako XLS, XLSX, XLSB, ODS, PDF a další.
 
 ### Kde najdu podporu pro Aspose.Cells?  
-Pomoc můžete získat na[Fórum Aspose](https://forum.aspose.com/c/cells/9).
+ Pomoc můžete získat na[Fórum Aspose](https://forum.aspose.com/c/cells/9).

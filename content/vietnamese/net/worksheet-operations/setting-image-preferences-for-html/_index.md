@@ -15,7 +15,7 @@ Tạo các trang web hấp dẫn về mặt hình ảnh từ bảng tính Excel 
 Trước khi tìm hiểu mã, hãy đảm bảo bạn có những thông tin sau:
 
 1. Đã cài đặt Visual Studio: Bạn sẽ cần một môi trường phát triển như Visual Studio để chạy và thử nghiệm các ứng dụng .NET của mình.
-2. Aspose.Cells cho .NET: Tải xuống và cài đặt Aspose.Cells. Bạn có thể lấy phiên bản mới nhất từ[Trang web Aspose](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells cho .NET: Tải xuống và cài đặt Aspose.Cells. Bạn có thể lấy phiên bản mới nhất từ[Trang web Aspose](https://releases.aspose.com/cells/net/).
 3. Kiến thức cơ bản về C#: Sự quen thuộc với lập trình C# sẽ giúp bạn hiểu các ví dụ tốt hơn.
 4. Một tệp Excel mẫu: Chuẩn bị một tệp Excel có tên "Book1.xlsx" để làm việc. Đặt nó vào một thư mục được chỉ định mà bạn sẽ tham chiếu trong mã của mình.
 

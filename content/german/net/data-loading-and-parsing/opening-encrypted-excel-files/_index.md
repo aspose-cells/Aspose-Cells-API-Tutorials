@@ -39,7 +39,7 @@ string dataDir = "Your Document Directory";
 ```
  Ersetzen`"Your Document Directory"` mit dem tatsächlichen Pfad, in dem sich Ihre Excel-Datei befindet. Wenn sie beispielsweise in`C:\Documents` würden Sie schreiben`string dataDir = "C:\\Documents";`. Die doppelten Backslashes sind in C# notwendig, um das Backslash-Zeichen zu maskieren.
 ## Schritt 2: LoadOptions instanziieren
- Als nächstes müssen Sie eine Instanz des`LoadOptions`Klasse. Mit dieser Klasse können wir verschiedene Ladeoptionen festlegen, einschließlich des zum Öffnen einer verschlüsselten Datei erforderlichen Kennworts.
+ Als nächstes müssen Sie eine Instanz des`LoadOptions` Klasse. Mit dieser Klasse können wir verschiedene Ladeoptionen festlegen, einschließlich des zum Öffnen einer verschlüsselten Datei erforderlichen Kennworts.
 ```csharp
 // LoadOptions instanziieren
 LoadOptions loadOptions = new LoadOptions();
@@ -58,7 +58,7 @@ loadOptions.Password = "1234"; // Ersetzen Sie "1234" durch Ihr tatsächliches P
 // Erstellen Sie ein Workbook-Objekt und öffnen Sie die Datei über seinen Pfad
 Workbook wbEncrypted = new Workbook(dataDir + "encryptedBook.xls", loadOptions);
 ```
- Hier konstruieren Sie ein neues`Workbook` Objekt und geben Sie den Pfad zu Ihrer verschlüsselten Datei und dem`loadOptions`die Ihr Passwort enthalten. Wenn alles gut geht, sollte diese Zeile Ihre verschlüsselte Datei erfolgreich öffnen.
+ Hier konstruieren Sie ein neues`Workbook` Objekt und geben Sie den Pfad zu Ihrer verschlüsselten Datei und dem`loadOptions` die Ihr Passwort enthalten. Wenn alles gut geht, sollte diese Zeile Ihre verschlüsselte Datei erfolgreich öffnen.
 ## Schritt 5: Erfolgreichen Zugriff auf die Datei bestätigen
 Abschließend empfiehlt es sich, zu bestätigen, dass Sie die Datei erfolgreich geöffnet haben. 
 ```csharp
@@ -70,7 +70,7 @@ Herzlichen Glückwunsch! Sie haben erfolgreich gelernt, wie Sie verschlüsselte 
  Denken Sie daran, dass die Arbeit mit verschlüsselten Dateien schwierig sein kann, aber mit Tools wie Aspose.Cells wird es zum Kinderspiel. Wenn Sie tiefer graben möchten, überprüfen Sie die[Dokumentation](https://reference.aspose.com/cells/net/) für erweiterte Funktionen.
 ## Häufig gestellte Fragen
 ### Kann ich mit unterschiedlichen Passwörtern verschlüsselte Excel-Dateien öffnen?
- Ja, aktualisieren Sie einfach die`Password` im Feld`LoadOptions`muss mit dem Kennwort der Excel-Datei übereinstimmen, die Sie öffnen möchten.
+ Ja, aktualisieren Sie einfach die`Password` im Feld`LoadOptions` muss mit dem Kennwort der Excel-Datei übereinstimmen, die Sie öffnen möchten.
 ### Ist die Nutzung von Aspose.Cells kostenlos?
  Aspose.Cells ist nicht kostenlos; Sie können jedoch mit einem[Kostenlose Testversion](https://releases.aspose.com/) um seine Funktionen zu erkunden.
 ### Welche Arten von Excel-Dateien kann Aspose.Cells verarbeiten?

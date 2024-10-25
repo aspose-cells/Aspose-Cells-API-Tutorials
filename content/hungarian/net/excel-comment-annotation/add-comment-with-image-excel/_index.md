@@ -37,12 +37,12 @@ Kezdésként be kell állítanunk egy könyvtárat, ahová elmenthetjük Excel f
 ```csharp
 // A dokumentumok könyvtárának elérési útja.
 string dataDir = "Your Document Directory";
-//Hozzon létre könyvtárat, ha még nincs jelen.
+// Hozzon létre könyvtárat, ha még nincs jelen.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
--  dataDir: Ez a változó tartalmazza a dokumentumkönyvtár elérési útját. Cserélje ki`"Your Document Directory"` azzal a tényleges elérési úttal, ahová menteni szeretné az Excel-fájlt.
+- dataDir: Ez a változó tartalmazza a dokumentumkönyvtár elérési útját. Cserélje ki`"Your Document Directory"` azzal a tényleges elérési úttal, ahová menteni szeretné az Excel-fájlt.
 - Directory.Exists: Ez ellenőrzi, hogy a könyvtár létezik-e már.
 - Directory.CreateDirectory: Ha a könyvtár nem létezik, akkor ez létrehozza.
 ## 2. lépés: Példányosítson munkafüzetet
@@ -89,7 +89,7 @@ Most be kell állítanunk a képadatokat a korábban létrehozott megjegyzéshez
 // Állítsa be a képadatokat a megjegyzéshez társított alakzatra
 comment.CommentShape.Fill.ImageData = ms.ToArray();
 ```
--  comment.CommentShape.Fill.ImageData: Ezzel a tulajdonsággal beállíthatja a képet a megjegyzés alakzathoz. Átalakítjuk a`MemoryStream` segítségével egy bájttömbhöz`ms.ToArray()`.
+- comment.CommentShape.Fill.ImageData: Ezzel a tulajdonsággal beállíthatja a képet a megjegyzés alakzathoz. Átalakítjuk a`MemoryStream` segítségével egy bájttömbhöz`ms.ToArray()`.
 ## 7. lépés: Mentse el a munkafüzetet
 Végül mentsük el a munkafüzetünket a megjegyzéssel és a képpel.
 ```csharp

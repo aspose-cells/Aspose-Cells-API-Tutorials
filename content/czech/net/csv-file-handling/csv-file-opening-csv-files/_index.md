@@ -14,7 +14,7 @@ Než začneme otevírat soubory CSV a protahovat své programátorské svaly, uj
 ### Základní porozumění C# a .NET Framework
 Chcete-li začít, měli byste dobře ovládat C# a framework .NET. Je nezbytné porozumět základům objektově orientovaného programování, protože budeme ve velké míře používat třídy a metody.
 ### Knihovna Aspose.Cells
- V první řadě budete potřebovat knihovnu Aspose.Cells. Je to .NET API pro manipulaci s excelovými soubory a bezproblémovou práci s různými datovými formáty. Můžete buď[stáhnout knihovnu](https://releases.aspose.com/cells/net/) nebo jej nastavte pomocí NuGet ve vašem projektu.
+ první řadě budete potřebovat knihovnu Aspose.Cells. Je to .NET API pro manipulaci s excelovými soubory a bezproblémovou práci s různými datovými formáty. Můžete buď[stáhnout knihovnu](https://releases.aspose.com/cells/net/) nebo jej nastavte pomocí NuGet ve vašem projektu.
 ### Nastavení IDE
 Budete také potřebovat správné vývojové prostředí. Visual Studio je skvělá volba, protože poskytuje uživatelsky přívětivé rozhraní pro kódování, ladění a nasazování vašich aplikací .NET.
 ### Soubor CSV pro praxi
@@ -42,9 +42,9 @@ LoadOptions loadOptions4 = new LoadOptions(LoadFormat.Csv);
 ```
  Zde,`LoadFormat.Csv` říká Aspose, že máme co do činění se souborem CSV. Berte to jako výběr správného jazyka pro konverzaci; zajišťuje, že si obě strany dokonale rozumí.
 ## Krok 3: Vytvořte objekt sešitu
-Teď valíme! Je čas vytvořit a`Workbook` objekt, který bude sloužit jako váš hlavní pracovní prostor, kde budete provádět všechny operace související s vaším souborem CSV.
+ Teď valíme! Je čas vytvořit a`Workbook` objekt, který bude sloužit jako váš hlavní pracovní prostor, kde budete provádět všechny operace související s vaším souborem CSV.
 ```csharp
-// Vytvořte objekt sešitu a otevřete soubor z jeho cesty
+//Vytvořte objekt sešitu a otevřete soubor z jeho cesty
 Workbook wbCSV = new Workbook(dataDir + "Book_CSV.csv", loadOptions4);
 ```
  Tato linka je jako odemykání dveří k vašim datům. S tvým`Workbook` objekt připraven, máte plný přístup k manipulaci s daty v souboru CSV. Je to jako předat klíče od pokladnice s informacemi!

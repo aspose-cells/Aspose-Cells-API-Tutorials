@@ -42,7 +42,7 @@ string dataDir = "Your Document Directory";
 ## Bước 2: Tạo thư mục
 Đây là một cách làm tốt để đảm bảo thư mục tồn tại. Nếu không, bạn có thể tạo thư mục bằng mã sau:
 ```csharp
-//Tạo thư mục nếu thư mục đó chưa có.
+// Tạo thư mục nếu thư mục đó chưa có.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);

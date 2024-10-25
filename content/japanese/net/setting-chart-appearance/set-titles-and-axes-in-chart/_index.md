@@ -100,11 +100,11 @@ int chartIndex = worksheet.Charts.Add(Aspose.Cells.Charts.ChartType.Column, 5, 0
 Aspose.Cells.Charts.Chart chart = worksheet.Charts[chartIndex];
 ```
 
-ここで、新しく作成したチャートを取得し、変更できるようにします。まるでブラシを手に取って絵を描き始めるようなものです。
+ここで、新しく作成したチャートを取得し、変更する準備をします。まるで絵筆を手に取って絵を描き始めるようなものです。
 
 ## ステップ6: チャートデータソースを定義する
 
-次に、どのデータ ソースを使用するかをチャートに指示する必要があります。
+次に、チャートで使用するデータ ソースを指定する必要があります。
 
 ```csharp
 // 「A1」セルから「B3」セルまでの範囲のチャートに SeriesCollection (チャート データ ソース) を追加します。
@@ -152,7 +152,7 @@ chart.Title.Text = "Sales Performance";
 タイトルが目立つように、フォントの色を調整しましょう。
 
 ```csharp
-//チャートタイトルのフォント色を青に設定する
+//グラフタイトルのフォント色を青に設定する
 chart.Title.Font.Color = Color.Blue;
 ```
 
@@ -160,7 +160,7 @@ chart.Title.Font.Color = Color.Blue;
 
 ## ステップ10: カテゴリ軸と値軸のタイトルを設定する
 
-また、データの表示を明確にするために軸にラベルを付ける必要もあります。
+また、データの表示を明確にするために、軸にラベルを付ける必要もあります。
 
 ```csharp
 //グラフのカテゴリ軸のタイトルを設定する

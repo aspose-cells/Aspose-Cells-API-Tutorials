@@ -15,7 +15,7 @@ url: /zh-hant/net/xps-and-pdf-operations/setting-pdf-creation-time/
 1. Visual Studio：確保您的電腦上安裝了 Visual Studio。這將是您的開發環境。
 2.  Aspose.Cells for .NET：從下列位置下載 Aspose.Cells 函式庫：[網站](https://releases.aspose.com/cells/net/)。您也可以從免費試用開始測試其功能。
 3. C# 基礎知識：熟悉 C# 程式設計將有助於您更好地理解程式碼片段。
-4.  Excel 檔案：準備好轉換的 Excel 檔案。對於本例，我們將使用一個名為`Book1.xlsx`.
+4. Excel 檔案：準備好轉換的 Excel 檔案。對於本例，我們將使用一個名為`Book1.xlsx`.
 現在您已經滿足了先決條件，讓我們進入有趣的部分 - 匯入必要的套件並編寫程式碼！
 ## 導入包
 首先，您需要在 C# 檔案中匯入所需的命名空間。這很重要，因為它允許您存取 Aspose.Cells 庫提供的類別和方法。

@@ -35,7 +35,7 @@ string dataDir = "Your Document Directory";
 ```csharp
 Workbook workbook = new Workbook(dataDir + "sample-document-properties.xlsx");
 ```
- Ở đây, chúng tôi đang tải tệp Excel cụ thể của mình,`"sample-document-properties.xlsx"`Điều quan trọng là tệp này phải nằm trong thư mục được chỉ định, nếu không bạn sẽ gặp lỗi.
+ Ở đây, chúng tôi đang tải tệp Excel cụ thể của mình,`"sample-document-properties.xlsx"`. Điều quan trọng là tệp này phải nằm trong thư mục được chỉ định, nếu không bạn sẽ gặp lỗi.
 ## Bước 3: Lấy Thuộc tính Tài liệu Tùy chỉnh
 Sau khi workbook được tải, chúng ta có thể khai thác kho tàng thuộc tính của nó. Hãy cùng tìm hiểu cách bạn có thể truy cập các thuộc tính này:
 ```csharp
@@ -69,4 +69,4 @@ Chắc chắn rồi! Bạn có thể đọc, viết và sửa đổi các tệp 
 ### Người dùng Aspose.Cells có được hỗ trợ không?
  Có, bạn có thể truy cập các nguồn hỗ trợ mở rộng, bao gồm diễn đàn và tài liệu, có sẵn[đây](https://forum.aspose.com/c/cells/9).
 ### Làm thế nào tôi có thể nhận được giấy phép tạm thời cho Aspose.Cells?
- Bạn có thể nộp đơn xin giấy phép tạm thời để đánh giá sản phẩm bằng cách truy cập[liên kết này](https://purchase.aspose.com/temporary-license/).
+Bạn có thể nộp đơn xin giấy phép tạm thời để đánh giá sản phẩm bằng cách truy cập[liên kết này](https://purchase.aspose.com/temporary-license/).

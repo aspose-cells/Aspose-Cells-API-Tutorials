@@ -1,6 +1,6 @@
 ---
-title: Pokročilá konverze do PDF v .NET
-linktitle: Pokročilá konverze do PDF v .NET
+title: Pokročilý převod do PDF v .NET
+linktitle: Pokročilý převod do PDF v .NET
 second_title: Aspose.Cells .NET Excel Processing API
 description: Naučte se pokročilý převod Excelu do PDF hladce pomocí Aspose.Cells v .NET. Postupujte podle našeho podrobného průvodce.
 type: docs
@@ -60,7 +60,7 @@ Nejdříve: musíme určit, kde budou naše dokumenty sídlit. Zde uložíme vý
 
 ```csharp
 // Cesta k adresáři dokumentů.
-string dataDir = "Your Document Directory";  //Aktualizujte tuto cestu do vašeho konkrétního adresáře
+string dataDir = "Your Document Directory";  // Aktualizujte tuto cestu do vašeho konkrétního adresáře
 ```
 
  Nezapomeňte vyměnit`"Your Document Directory"` se skutečnou cestou. Je to jako najít nový domov pro svou tvrdou práci!
@@ -70,7 +70,7 @@ string dataDir = "Your Document Directory";  //Aktualizujte tuto cestu do vašeh
 Vytvoříme instanci nového sešitu. Berte to jako otevření nového prázdného plátna, na kterém můžeme vytvořit naše mistrovské dílo.
 
 ```csharp
-// Instantovat nový sešit
+// Vytvořte nový sešit
 Workbook workbook = new Workbook();
 ```
 
@@ -112,7 +112,7 @@ Tento krok je místem, kde se všechna naše tvrdá práce vyplatí. V podstatě
 
 ## Závěr
 
-A tady to máte! Pokud jste postupovali podle toho, právě jste úspěšně převedli excelový sešit do PDF pomocí Aspose.Cells v .NET. Tento nástroj nejen zjednodušuje proces převodu, ale také zachovává integritu a formátování vašeho původního dokumentu.
+tady to máte! Pokud jste postupovali podle toho, právě jste úspěšně převedli excelový sešit do PDF pomocí Aspose.Cells v .NET. Tento nástroj nejen zjednodušuje proces převodu, ale také zachovává integritu a formátování vašeho původního dokumentu.
 
 ## FAQ
 
@@ -129,4 +129,4 @@ Ne, musíte si nainstalovat knihovnu Aspose.Cells, abyste získali přístup k j
 Kromě PDF podporuje Aspose.Cells také formáty jako XLSX, CSV, HTML a další.
 
 ### Existuje bezplatná verze Aspose.Cells?
- Ano, můžete začít s bezplatnou zkušební verzí a prozkoumat funkce[zde](https://releases.aspose.com/).
+Ano, můžete začít s bezplatnou zkušební verzí a prozkoumat funkce[zde](https://releases.aspose.com/).

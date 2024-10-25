@@ -95,7 +95,7 @@ In deze code specificeren we het type grafiek (in dit geval een kolomdiagram) en
 
 ## Stap 6: Toegang tot het grafiekexemplaar
 
-Zodra we de grafiek hebben gemaakt, moeten we toegang krijgen tot de instantie om de eigenschappen ervan te wijzigen. Dit doen we door deze op te halen via de`Charts`verzameling.
+ Zodra we de grafiek hebben gemaakt, moeten we toegang krijgen tot de instantie om de eigenschappen ervan te wijzigen. Dit doen we door deze op te halen via de`Charts`verzameling.
 
 ```csharp
 // Toegang krijgen tot het exemplaar van de nieuw toegevoegde grafiek

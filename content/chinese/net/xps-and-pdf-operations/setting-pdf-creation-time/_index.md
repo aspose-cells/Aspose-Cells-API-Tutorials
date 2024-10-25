@@ -15,7 +15,7 @@ url: /zh/net/xps-and-pdf-operations/setting-pdf-creation-time/
 1. Visual Studio：确保您的机器上安装了 Visual Studio。这将是您的开发环境。
 2.  Aspose.Cells for .NET：从以下位置下载 Aspose.Cells 库[网站](https://releases.aspose.com/cells/net/)。您还可以先免费试用，以测试其功能。
 3. C# 基础知识：熟悉 C# 编程将帮助您更好地理解代码片段。
-4.  Excel 文件：准备好要转换的 Excel 文件。在本例中，我们将使用名为`Book1.xlsx`.
+4. Excel 文件：准备好要转换的 Excel 文件。在本例中，我们将使用名为`Book1.xlsx`.
 现在您已经满足了先决条件，让我们进入有趣的部分 - 导入必要的包并编写代码！
 ## 导入包
 首先，您需要在 C# 文件中导入所需的命名空间。这很重要，因为它允许您访问 Aspose.Cells 库提供的类和方法。
@@ -69,7 +69,7 @@ Aspose.Cells 是一个强大的.NET 库，允许开发人员创建、操作和�
 ### 我可以免费使用 Aspose.Cells 吗？
 是的，你可以先免费试用一下[Aspose 网站](https://releases.aspose.com/).
 ### 如何设置其他 PDF 属性？
-您可以使用以下方式设置各种 PDF 属性`PdfSaveOptions`类，例如页面大小、压缩等等。
+您可以使用`PdfSaveOptions`类，例如页面大小、压缩等等。
 ### 是否可以一次转换多个 Excel 文件？
 是的，您可以循环遍历文件列表并对每个文件应用相同的转换过程。
 ### 我可以在哪里获得 Aspose.Cells 的支持？

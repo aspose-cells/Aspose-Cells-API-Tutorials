@@ -12,7 +12,7 @@ Excel est un outil puissant utilisé par des millions de personnes dans le monde
 ## Prérequis
 Avant de plonger dans le vif du sujet de la copie de plages nommées, vous devez vous assurer que vous disposez de quelques éléments. Voici ce dont vous avez besoin :
 1. Environnement .NET : assurez-vous de disposer d'un environnement de développement .NET configuré. Vous pouvez utiliser Visual Studio ou tout autre IDE de votre choix.
-2.  Bibliothèque Aspose.Cells pour .NET : c'est la star du spectacle ! Téléchargez la bibliothèque à partir du[Site Web d'Aspose](https://releases.aspose.com/cells/net/) si vous ne l'avez pas déjà fait.
+2. Bibliothèque Aspose.Cells pour .NET : c'est la star du spectacle ! Téléchargez la bibliothèque à partir du[Site Web d'Aspose](https://releases.aspose.com/cells/net/) si vous ne l'avez pas déjà fait.
 3. Connaissances de base de C# : une familiarité avec la programmation C# sera bénéfique car nous coderons dans ce langage tout au long du didacticiel.
 4. Excel installé : bien que vous n’ayez pas nécessairement besoin d’Excel pour écrire du code, son installation est utile pour tester vos fichiers de sortie.
 5.  Accès à la documentation : Ajoutez le[Documentation sur Aspose.Cells](https://reference.aspose.com/cells/net/) pour référence. C'est une excellente ressource pour comprendre les méthodes et les fonctionnalités.
@@ -27,7 +27,7 @@ using System.IO;
 using Aspose.Cells;
 using System.Drawing;
 ```
-Ce code vous donnera accès à des cours essentiels tels que`Workbook`, `Worksheet` et`Range`, dont vous aurez besoin pour manipuler des fichiers Excel.
+ Ce code vous donnera accès à des cours essentiels tels que`Workbook`, `Worksheet` , et`Range`, dont vous aurez besoin pour manipuler des fichiers Excel.
 
 Maintenant que nous avons trié nos prérequis, décomposons le processus en étapes faciles à suivre.
 ## Étape 1 : Configurez votre répertoire de sortie

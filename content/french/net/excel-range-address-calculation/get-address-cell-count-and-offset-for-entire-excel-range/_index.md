@@ -24,7 +24,7 @@ Pour commencer, nous devons importer quelques packages essentiels. Il s'agit des
 Ouvrez Visual Studio et créez un nouveau projet C#. Choisissez une application console, car nous exécuterons notre code à partir de la console.
 ### Ajouter un package NuGet
 Avant de commencer à coder, ajoutons le package Aspose.Cells. Voici comment procéder :
-1. Faites un clic droit sur votre projet dans l’Explorateur de solutions.
+1. Cliquez avec le bouton droit sur votre projet dans l’Explorateur de solutions.
 2. Sélectionnez « Gérer les packages NuGet ».
 3. Dans le gestionnaire de packages NuGet, recherchez « Aspose.Cells ».
 4. Cliquez sur « Installer » pour ajouter le package à votre projet.
@@ -121,4 +121,4 @@ Oui, il existe des bibliothèques alternatives, telles que EPPlus et ClosedXML, 
 ### Où puis-je trouver plus de documentation sur Aspose.Cells ?  
  Vous pouvez vérifier le[Documentation d'Aspose.Cells](https://reference.aspose.com/cells/net/) pour des guides détaillés et des références API.
 ### Comment puis-je obtenir de l'aide pour Aspose.Cells ?  
- Pour obtenir de l'aide et des questions, visitez le[Forum Aspose](https://forum.aspose.com/c/cells/9)où vous pouvez trouver de l'aide de la communauté et de l'équipe de support.
+ Pour obtenir de l'aide et des questions, visitez le[Forum Aspose](https://forum.aspose.com/c/cells/9) où vous pouvez trouver de l'aide de la communauté et de l'équipe de support.

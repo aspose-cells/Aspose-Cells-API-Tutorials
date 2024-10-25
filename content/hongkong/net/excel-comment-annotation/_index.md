@@ -2,7 +2,7 @@
 title: Excel 註解與註釋
 linktitle: Excel 註解與註釋
 second_title: Aspose.Cells .NET Excel 處理 API
-description: 透過註解和註解的 Aspose.Cells for .NET 教學增強您的 Excel 技能，其中包含可豐富您的電子表格的逐步指南。
+description: 透過 Aspose.Cells for .NET 關於註解和註解的教學增強您的 Excel 技能，其中包含可豐富您的電子表格的逐步指南。
 type: docs
 weight: 20
 url: /zh-hant/net/excel-comment-annotation/

@@ -33,7 +33,7 @@ Trước tiên, hãy thiết lập thư mục nơi lưu trữ tất cả các t�
 ```csharp
 // Đường dẫn đến thư mục tài liệu.
 string dataDir = "Your Document Directory"; 
-//Tạo thư mục nếu thư mục đó chưa có.
+// Tạo thư mục nếu thư mục đó chưa có.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists) 
     System.IO.Directory.CreateDirectory(dataDir);

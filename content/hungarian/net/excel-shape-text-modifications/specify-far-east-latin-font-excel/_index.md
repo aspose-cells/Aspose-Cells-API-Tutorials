@@ -14,7 +14,7 @@ Mielőtt belevágnánk az apróságokba, néhány dolgot be kell állítania az 
 ### .NET Framework vagy .NET Core
 Győződjön meg arról, hogy a .NET-keretrendszer vagy a .NET Core telepítve van a gépen. Ez a könyvtár mindkettővel jól működik.
 ### Az Aspose.Cells telepítése
-Le kell töltenie az Aspose.Cells könyvtárat. Megteheti[töltsd le innen](https://releases.aspose.com/cells/net/) . Ha nem ismeri a NuGet-csomagok telepítését, kövesse az alábbi lépéseket[ezt az útmutatót](https://www.nuget.org/).
+ Le kell töltenie az Aspose.Cells könyvtárat. Tudod[töltsd le innen](https://releases.aspose.com/cells/net/) . Ha nem ismeri a NuGet-csomagok telepítését, kövesse az alábbi lépéseket[ezt az útmutatót](https://www.nuget.org/).
 ### Integrált fejlesztési környezet (IDE)
 Egy IDE, például a Visual Studio vagy a JetBrains Rider használata leegyszerűsítheti a kódolást, a hibakeresést és a projekt futtatását.
 ### C# alapismeretek
@@ -94,7 +94,7 @@ Az Aspose.Cells egy .NET-könyvtár, amellyel Excel-táblázatokat hozhat létre
 ### Használhatom az Aspose.Cells-t webes alkalmazásokhoz?
 Igen! Az Aspose.Cells asztali alkalmazásokhoz és .NET-tel épített webalkalmazásokhoz egyaránt használható.
 ### Létezik az Aspose.Cells ingyenes verziója?
- Igen, az Aspose ingyenes próbaverziót kínál. Megteheti[töltse le itt](https://releases.aspose.com/).
+ Igen, az Aspose ingyenes próbaverziót kínál. Tudod[töltse le itt](https://releases.aspose.com/).
 ### Hogyan kaphatok támogatást az Aspose.Cells-hez?
  Kérhet támogatást és találhat értékes forrásokat a webhelyen[Aspose fórumok](https://forum.aspose.com/c/cells/9).
 ### Hol vásárolhatok Aspose.Cells-t?

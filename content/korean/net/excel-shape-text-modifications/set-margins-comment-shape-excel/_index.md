@@ -16,7 +16,7 @@ C#과 .NET에 대한 기본적인 이해가 있어야 합니다. 이 튜토리�
 ### 환경 설정
 1. Visual Studio: Visual Studio가 설치되어 있는지 확인하세요. 코딩을 간소화하는 개발 환경입니다.
 2.  Aspose.Cells 라이브러리: Aspose.Cells 라이브러리가 필요합니다. 아직 다운로드하지 않았다면 다운로드할 수 있습니다.[여기](https://releases.aspose.com/cells/net/).
-3.  샘플 Excel 파일: 샘플 Excel 파일을 만들거나 다운로드합니다. 이 튜토리얼에서는 다음 이름의 파일을 사용합니다.`sampleSetMarginsOfCommentOrShapeInsideTheWorksheet.xlsx`.
+3. 샘플 Excel 파일: 샘플 Excel 파일을 만들거나 다운로드합니다. 이 튜토리얼에서는 다음 이름의 파일을 사용합니다.`sampleSetMarginsOfCommentOrShapeInsideTheWorksheet.xlsx`.
 ## 패키지 가져오기
 여정의 첫 번째 단계는 필요한 패키지를 가져오는 것입니다. 프로젝트에 Aspose.Cells 네임스페이스를 포함해야 합니다. 이렇게 하면 Aspose.Cells가 제공하는 모든 기능에 액세스할 수 있습니다.
 ### 프로젝트 열기
@@ -72,7 +72,7 @@ foreach (Shape sh in ws.Shapes)
 Aspose.Cells.Drawing.Texts.ShapeTextAlignment txtAlign = sh.TextBody.TextAlignment;
 txtAlign.IsAutoMargin = false;
 ```
- 설정하여`IsAutoMargin` 거짓으로 변경하면 이제 여백을 제어할 수 있습니다.
+ 설정하여`IsAutoMargin`거짓으로 변경하면 이제 여백을 제어할 수 있습니다.
 ## 6단계: 여백 설정
 이것은 우리가 여백을 정의하는 중요한 단계입니다. 귀하의 필요에 따라 이러한 값을 사용자 정의할 수 있습니다.
 ```csharp
@@ -105,4 +105,4 @@ Aspose.Cells는 Microsoft Excel을 설치하지 않고도 Excel 파일을 만들
 ### 라이브러리를 기존 프로젝트에 쉽게 통합할 수 있나요?
 물론입니다! Aspose.Cells는 .NET 프로젝트에 쉽게 통합되며 API는 간단합니다.
 ### Aspose.Cells에 대한 지원은 어디에서 찾을 수 있나요?
-Aspose를 통해 지원을 받을 수 있습니다.[법정](https://forum.aspose.com/c/cells/9).
+ Aspose를 통해 지원을 받을 수 있습니다.[법정](https://forum.aspose.com/c/cells/9).

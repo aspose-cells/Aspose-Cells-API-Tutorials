@@ -38,7 +38,7 @@ Här är en steg-för-steg-uppdelning av koden som visar hur man lägger till b�
 Det första steget är att skapa en katalog där du ska spara din Excel-fil. Detta hjälper till att hantera dina utdatafiler enkelt.
 ```csharp
 string dataDir = "Your Document Directory";
-//Skapa katalog om den inte redan finns.
+// Skapa katalog om den inte redan finns.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);

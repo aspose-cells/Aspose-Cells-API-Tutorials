@@ -106,4 +106,4 @@ Das Filtern definierter Namen kann zu fehlerhaften Formeln führen, wenn auf die
  Ja, Sie können eine kostenlose Testversion von Aspose.Cells erhalten, um die Funktionen vor dem Kauf zu testen. Probieren Sie es aus[Hier](https://releases.aspose.com/).
 
 ### Wo finde ich weitere Beispiele und Dokumentation?
-Ausführliche Dokumentation und weitere Beispiele finden Sie auf der Aspose.Cells-Referenzseite[Hier](https://reference.aspose.com/cells/net/).
+ Ausführliche Dokumentation und weitere Beispiele finden Sie auf der Aspose.Cells-Referenzseite[Hier](https://reference.aspose.com/cells/net/).

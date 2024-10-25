@@ -116,7 +116,7 @@ Ahora tenemos un objeto de validación que vamos a configurar para aplicar nuest
 
 ## Paso 8: Establezca el tipo de validación
 
-A continuación, especificaremos el tipo de validación que queremos:
+continuación, especificaremos el tipo de validación que queremos:
 
 ```csharp
 validation.Type = ValidationType.Decimal;
@@ -203,7 +203,7 @@ La validación de datos en Excel es una función que restringe el tipo de datos 
 ¡Sí! Puedes proporcionar mensajes de error personalizados para orientar a los usuarios cuando se introducen datos incorrectos.
 
 ### ¿Aspose.Cells es de uso gratuito?
-Aspose.Cells ofrece una prueba gratuita, pero necesitará una licencia para un uso a largo plazo. Puede encontrar más información sobre cómo adquirir una licencia temporal[aquí](https://purchase.aspose.com/temporary-license/).
+ Aspose.Cells ofrece una prueba gratuita, pero necesitará una licencia para un uso a largo plazo. Puede encontrar más información sobre cómo adquirir una licencia temporal[aquí](https://purchase.aspose.com/temporary-license/).
 
 ### ¿Qué tipos de datos puedo validar en Excel?
 Con Aspose.Cells, puede validar varios tipos de datos, incluidos números enteros, decimales, fechas, listas y fórmulas personalizadas.

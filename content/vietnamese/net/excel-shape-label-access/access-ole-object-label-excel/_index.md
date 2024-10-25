@@ -27,7 +27,7 @@ Sau khi đã hiểu rõ vấn đề đó, chúng ta hãy cùng tìm hiểu sâu 
 - Chọn "Quản lý gói NuGet".
 - Tìm kiếm "Aspose.Cells" và cài đặt thư viện.
 ### Nhập không gian tên
-Ở đầu tệp chương trình của bạn (ví dụ:`Program.cs`), bạn cần nhập các không gian tên cần thiết:
+ Ở đầu tệp chương trình của bạn (ví dụ:`Program.cs`), bạn cần nhập các không gian tên cần thiết:
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -118,7 +118,7 @@ Cho dù bạn đang phát triển một ứng dụng thú vị hay chỉ làm đ
 ### Aspose.Cells có thể hoạt động với các định dạng tệp khác không?  
 Có! Aspose.Cells hỗ trợ nhiều định dạng khác nhau, bao gồm XLS, XLSX, CSV, v.v.
 ### Có bản dùng thử miễn phí cho Aspose.Cells không?  
- Vâng! Bạn có thể thử nó[đây](https://releases.aspose.com/).
+Vâng! Bạn có thể thử nó[đây](https://releases.aspose.com/).
 ### Tôi có thể truy cập nhiều đối tượng OLE trong một bảng tính không?  
  Chắc chắn rồi! Bạn có thể lặp lại`ws.OleObjects` để truy cập tất cả các đối tượng OLE nhúng trong một bảng tính.
 ### Làm thế nào để mua giấy phép sử dụng Aspose.Cells?  

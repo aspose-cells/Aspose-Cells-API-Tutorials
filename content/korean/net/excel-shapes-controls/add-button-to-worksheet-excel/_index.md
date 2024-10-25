@@ -31,7 +31,7 @@ using System.Drawing;
 ```csharp
 // 문서 디렉토리의 경로를 정의합니다.
 string dataDir = "Your Document Directory";
-//디렉토리가 없으면 디렉토리를 생성합니다.
+// 디렉토리가 없으면 디렉토리를 생성합니다.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
 	System.IO.Directory.CreateDirectory(dataDir);

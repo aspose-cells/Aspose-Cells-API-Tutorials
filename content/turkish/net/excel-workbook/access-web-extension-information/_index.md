@@ -16,7 +16,7 @@ url: /tr/net/excel-workbook/access-web-extension-information/
 Kolları sıvayıp başlamadan önce, ayarlamanız gereken birkaç şey var. Her şeyin sorunsuz bir şekilde yürümesini sağlamak için bir kontrol listesi:
 
 1. .NET Ortamı: Makinenizde bir .NET ortamının kurulu olduğundan emin olun. Bu genellikle Visual Studio veya başka bir uyumlu IDE'nin kurulu olması anlamına gelir.
-2. .NET için Aspose.Cells: Aspose.Cells kütüphanesine sahip olmanız gerekir. Bunu dert etmeyin; kolayca yapabilirsiniz[en son sürümü buradan indirin](https://releases.aspose.com/cells/net/).
+2.  .NET için Aspose.Cells: Aspose.Cells kütüphanesine sahip olmanız gerekir. Bunu dert etmeyin; kolayca yapabilirsiniz[en son sürümü buradan indirin](https://releases.aspose.com/cells/net/).
 3.  Örnek Excel Dosyası: Bu eğitim için, bir örnek Excel dosyanız olduğundan emin olun (örneğin`WebExtensionsSample.xlsx`) erişilebilir. İçerisinde web uzantıları olan bir tane oluşturabilir veya gerekirse bir tane indirebilirsiniz. 
 4. Temel C# Bilgisi: C# programlamanın temellerini anlamak bu eğitimde gezinmeyi çok daha kolay hale getirecektir.
 5. NuGet Paket Yöneticisi: NuGet'e aşinalık, projeniz içerisinde Aspose.Cells'i sorunsuz bir şekilde yönetmenize yardımcı olabilir.
@@ -62,12 +62,12 @@ Burada, çalışma kitabındaki web uzantılarıyla ilişkili tüm görev bölme
 
 ## Adım 4: Görev Bölmelerinde Yineleme Yapın
 
- Koleksiyona sahip olduğunuzda, bir sonraki mantıksal adım her görev bölmesinde döngüye girmek ve özelliklerini almaktır.`foreach` döngü, her görev bölmesinde sorunsuz bir şekilde gezinmenin mükemmel bir yoludur.
+Koleksiyona sahip olduğunuzda, bir sonraki mantıksal adım her görev bölmesinde döngüye girmek ve özelliklerini almaktır.`foreach` döngü, her görev bölmesinde sorunsuz bir şekilde gezinmenin mükemmel bir yoludur.
 
 ```csharp
 foreach (WebExtensionTaskPane taskPane in taskPanes)
 {
-    //Bu döngünün içinde özellikleri çıkaracağız
+    // Bu döngünün içinde özellikleri çıkaracağız
 }
 ```
 

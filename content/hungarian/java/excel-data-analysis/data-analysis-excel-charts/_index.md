@@ -108,7 +108,7 @@ Igen, az Aspose.Cells for Java kereskedelmi használatra érvényes licenc szük
 
 ### Milyen típusú Excel-diagramokat hozhatok létre az Aspose.Cells for Java programmal?
 
-Az Aspose.Cells for Java diagramtípusok széles skáláját támogatja, beleértve az oszlopdiagramokat, vonaldiagramokat, kördiagramokat és még sok mást. A támogatott diagramtípusok és testreszabási lehetőségek teljes listáját a dokumentációban találja.
+Az Aspose.Cells for Java a diagramtípusok széles skáláját támogatja, beleértve a sávdiagramokat, vonaldiagramokat, kördiagramokat és egyebeket. A támogatott diagramtípusok és testreszabási lehetőségek teljes listáját a dokumentációban találja.
 
 ### Hol találok további forrásokat és oktatóanyagokat az Aspose.Cells for Java webhelyen?
 

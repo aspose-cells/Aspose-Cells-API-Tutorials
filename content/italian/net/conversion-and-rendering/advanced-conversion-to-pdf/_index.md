@@ -60,7 +60,7 @@ Prima di tutto: dobbiamo specificare dove saranno salvati i nostri documenti. È
 
 ```csharp
 // Percorso verso la directory dei documenti.
-string dataDir = "Your Document Directory";  //Aggiorna questo percorso alla tua directory specifica
+string dataDir = "Your Document Directory";  // Aggiorna questo percorso alla tua directory specifica
 ```
 
  Assicurati di sostituire`"Your Document Directory"` con il percorso effettivo. È come trovare una nuova casa per il tuo duro lavoro!
@@ -129,4 +129,4 @@ No, è necessario installare la libreria Aspose.Cells per accedere alle sue funz
 Oltre al PDF, Aspose.Cells supporta anche formati come XLSX, CSV, HTML e altri.
 
 ### Esiste una versione gratuita di Aspose.Cells?
- Sì, puoi iniziare con una versione di prova gratuita per esplorare le funzionalità[Qui](https://releases.aspose.com/).
+Sì, puoi iniziare con una versione di prova gratuita per esplorare le funzionalità[Qui](https://releases.aspose.com/).

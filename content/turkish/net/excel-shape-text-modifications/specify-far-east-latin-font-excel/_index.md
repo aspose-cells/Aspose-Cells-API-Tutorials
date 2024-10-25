@@ -14,7 +14,7 @@ Ayrıntılara girmeden önce, Aspose.Cells'i kullanmaya başlamadan önce ayarla
 ### .NET Framework veya .NET Core
 Makinenizde .NET Framework veya .NET Core'un yüklü olduğundan emin olun. Bu kütüphane her ikisiyle de iyi çalışır.
 ### Aspose.Cells Kurulumu
-Aspose.Cells kütüphanesini indirmeniz gerekecek.[buradan indirin](https://releases.aspose.com/cells/net/) . NuGet paketlerini yükleme konusunda bilginiz yoksa, aşağıdaki adımları izleyin:[bu rehber](https://www.nuget.org/).
+ Aspose.Cells kütüphanesini indirmeniz gerekecek.[buradan indirin](https://releases.aspose.com/cells/net/) . NuGet paketlerini yükleme konusunda bilginiz yoksa, aşağıdaki adımları izleyin:[bu rehber](https://www.nuget.org/).
 ### Entegre Geliştirme Ortamı (IDE)
 Visual Studio veya JetBrains Rider gibi bir IDE'ye sahip olmak, projenizi kodlamayı, hata ayıklamayı ve çalıştırmayı basitleştirebilir.
 ### C# Temel Bilgisi

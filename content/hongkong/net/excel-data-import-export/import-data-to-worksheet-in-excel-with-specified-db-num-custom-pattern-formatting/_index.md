@@ -16,7 +16,7 @@ url: /zh-hant/net/excel-data-import-export/import-data-to-worksheet-in-excel-wit
 在我們深入討論細節之前，讓我們確保您擁有所需的一切。以下是幫助您取得成功的先決條件快速清單：
 
 1. .NET Framework：請確定您的電腦上安裝了 .NET Framework。 Aspose.Cells 與各種 .NET 版本無縫合作。
-2. Aspose.Cells for .NET：您需要下載並安裝 Aspose.Cells 函式庫。您可以從[下載連結](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells for .NET：您需要下載並安裝 Aspose.Cells 函式庫。您可以從[下載連結](https://releases.aspose.com/cells/net/).
 3. 整合開發環境 (IDE)：使用 Visual Studio 等 IDE，您可以在其中編寫和執行 C# 程式碼。
 4. C# 的基本知識：對 C# 有基本的了解將有助於您遵循我們將在本指南中使用的編碼實踐。
 

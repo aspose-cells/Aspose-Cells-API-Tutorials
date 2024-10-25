@@ -49,7 +49,7 @@ Primeiro, precisamos definir um diretório onde armazenaremos nosso arquivo Exce
 // O caminho para o diretório de documentos.
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // mude para o caminho desejado.
 
-//Crie um diretório se ele ainda não estiver presente.
+// Crie um diretório se ele ainda não estiver presente.
 bool isExists = System.IO.Directory.Exists(dataDir);
 if (!isExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -88,7 +88,7 @@ StyleFlag flag;
 for (int i = 0; i <= 255; i++)
 {
     style = sheet.Cells.Columns[(byte)i].Style;
-    style.IsLocked = false; // Desbloquear coluna
+    style.IsLocked = false; //Desbloquear coluna
     flag = new StyleFlag();
     flag.Locked = true; // Defina o sinalizador como verdadeiro para bloqueio
     sheet.Cells.Columns[(byte)i].ApplyStyle(style, flag); // Aplicar o estilo

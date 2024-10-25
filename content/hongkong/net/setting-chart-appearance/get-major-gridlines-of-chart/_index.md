@@ -9,13 +9,13 @@ url: /zh-hant/net/setting-chart-appearance/get-major-gridlines-of-chart/
 ---
 ## 介紹
 
-創建具有視覺吸引力且資訊豐富的圖表對於有效的數據呈現至關重要。圖表有助於直觀地傳達訊息，使數據消化更容易。如果您希望微調圖表的外觀，特別是當涉及到主要網格線時，那麼您來對地方了！在本教程中，我們將探討如何使用 Aspose.Cells for .NET 來取得圖表上的主要網格線。我們將逐步對其進行分解，以便即使您是 Aspose.Cells 庫的新手，您也可以遵循。
+創建具有視覺吸引力且資訊豐富的圖表對於有效的數據呈現至關重要。圖表有助於直觀地傳達訊息，使數據消化更容易。如果您希望微調圖表的外觀，特別是當涉及到主要網格線時，那麼您來對地方了！在本教學中，我們將探討如何使用 Aspose.Cells for .NET 取得圖表上的主要網格線。我們將逐步對其進行分解，以便即使您是 Aspose.Cells 庫的新手，您也可以遵循。
 
 ## 先決條件
 
 在我們深入學習本教學之前，請確保您已準備好一切：
 
-- Aspose.Cells for .NET：確保您已下載 Aspose.Cells 庫並在專案中引用。你可以得到它[這裡](https://releases.aspose.com/cells/net/).
+-  Aspose.Cells for .NET：確保您已下載 Aspose.Cells 庫並在專案中引用。你可以得到它[這裡](https://releases.aspose.com/cells/net/).
 - 開發環境：任何 .NET 開發環境都可以使用，但強烈建議使用 Visual Studio，因為它具有強大的支援和工具。
 - 對 C# 的基本了解：熟悉 C# 程式設計基礎知識將會很有幫助，因為我們將編寫一些程式碼。
 

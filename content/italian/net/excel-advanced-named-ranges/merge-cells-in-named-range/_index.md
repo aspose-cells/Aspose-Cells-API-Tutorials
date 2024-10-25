@@ -60,7 +60,7 @@ Pensate al foglio di lavoro come alle singole schede in un file Excel in cui ris
 Ora che abbiamo il nostro foglio di lavoro, è il momento di creare un intervallo. Un intervallo si riferisce a un blocco di celle, che può estendersi su più righe e colonne.
 
 ```csharp
-// Crea un intervallo.
+//Crea un intervallo.
 Range mrange = worksheet1.Cells.CreateRange("D6", "I12");
 ```
 
@@ -133,7 +133,7 @@ flag.CellShading = true;
 range1.ApplyStyle(style, flag);
 ```
 
- IL`StyleFlag`indica ad Aspose.Cells quali proprietà di stile applicare: allineamento, ombreggiatura, ecc. Ciò fornisce un controllo granulare su come viene applicato lo stile.
+ IL`StyleFlag` indica ad Aspose.Cells quali proprietà di stile applicare: allineamento, ombreggiatura, ecc. Ciò fornisce un controllo granulare su come viene applicato lo stile.
 
 ## Passaggio 9: immettere i dati nell'intervallo unito
 

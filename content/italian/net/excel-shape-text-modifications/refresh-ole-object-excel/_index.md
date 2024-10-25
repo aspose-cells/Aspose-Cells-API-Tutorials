@@ -61,7 +61,7 @@ Ed ecco fatto! Hai districato il processo di aggiornamento degli oggetti OLE in 
 ### Cosa sono gli oggetti OLE?
 Gli oggetti OLE consentono di incorporare diversi tipi di file (come immagini, documenti Word) in un foglio Excel per aumentarne la multifunzionalità.
 ### Ho bisogno di una versione specifica di Aspose.Cells?
-È meglio utilizzare la versione più recente disponibile per garantire la compatibilità e ricevere le ultime funzionalità e gli ultimi aggiornamenti.
+È meglio utilizzare la versione più recente disponibile per garantire la compatibilità e ricevere le funzionalità e gli aggiornamenti più recenti.
 ### Posso usare Aspose.Cells senza Visual Studio?
 Sì, qualsiasi IDE che supporti i framework C# e .NET funzionerà bene, ma Visual Studio è piuttosto intuitivo!
 ### Aspose.Cells è gratuito?

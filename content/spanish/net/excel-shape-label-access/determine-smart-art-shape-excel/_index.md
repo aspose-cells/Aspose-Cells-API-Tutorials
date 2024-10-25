@@ -13,7 +13,7 @@ En este tutorial, le explicaremos los pasos necesarios para determinar si una fo
 ## Prerrequisitos
 Antes de profundizar en los detalles técnicos, cubramos lo que debes tener en cuenta para seguir este tutorial:
 1. Visual Studio: aquí es donde escribiremos nuestro código. Asegúrate de tener una versión compatible con .NET Framework o .NET Core.
-2. Aspose.Cells para .NET: Necesita tener instalada esta biblioteca. Puede descargarla desde el sitio web[Sitio web de Aspose](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells para .NET: Necesita tener instalada esta biblioteca. Puede descargarla desde el sitio web[Sitio web de Aspose](https://releases.aspose.com/cells/net/).
 3. Conocimientos básicos de programación: la familiaridad con C# y la comprensión de conceptos como clases y métodos harán que este proceso sea más sencillo.
 4. Archivo de Excel de muestra: también necesitará un archivo de Excel de muestra que contenga formas y Smart Art para realizar pruebas.
 ¡Una vez cumplidos estos requisitos previos, ya estás listo para comenzar a codificar!
@@ -46,7 +46,7 @@ Lo primero es lo primero: deberás especificar la ubicación de tu archivo de Ex
 // Directorio de fuentes
 string sourceDir = "Your Document Directory";
 ```
- Reemplazar`"Your Document Directory"` con el camino donde tu`sampleSmartArtShape.xlsx` Se encuentra el archivo. Aquí es donde la aplicación buscará el archivo de Excel que contiene las formas que desea inspeccionar.
+ Reemplazar`"Your Document Directory"` con el camino donde tu`sampleSmartArtShape.xlsx`Se encuentra el archivo. Aquí es donde la aplicación buscará el archivo de Excel que contiene las formas que desea inspeccionar.
 ## Paso 2: Cargue el libro de trabajo de Excel
  A continuación, cargaremos el archivo Excel en Aspose.Cells`Workbook` clase.
 ```csharp
@@ -83,7 +83,7 @@ Smart Art es una función de Excel que permite a los usuarios crear gráficos vi
 ### ¿Puedo modificar formas de Smart Art usando Aspose.Cells?
 Sí, puedes manipular formas de Smart Art mediante programación, incluso cambiando estilos y detalles.
 ### ¿Aspose.Cells es de uso gratuito?
- Si bien hay una versión de prueba disponible, Aspose.Cells es una biblioteca paga. Puedes comprar la versión completa[aquí](https://purchase.aspose.com/buy).
+Si bien hay una versión de prueba disponible, Aspose.Cells es una biblioteca paga. Puedes comprar la versión completa[aquí](https://purchase.aspose.com/buy).
 ### ¿Cómo puedo obtener ayuda si tengo problemas?
  Puede solicitar ayuda en el[Foro de soporte de Aspose](https://forum.aspose.com/c/cells/9).
 ### ¿Dónde puedo encontrar más documentación sobre Aspose.Cells?

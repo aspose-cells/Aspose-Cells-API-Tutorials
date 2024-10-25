@@ -40,7 +40,7 @@ Agora, vamos dividir isso em etapas detalhadas para posicionar uma imagem propor
 Primeiro, certifique-se de que você tenha uma pasta designada para seus documentos. Veja como criar um diretório se ele não existir:
 ```csharp
 string dataDir = "Your Document Directory";
-//Crie um diretório se ele ainda não estiver presente.
+// Crie um diretório se ele ainda não estiver presente.
 bool isExists = System.IO.Directory.Exists(dataDir);
 if (!isExists)
     System.IO.Directory.CreateDirectory(dataDir);

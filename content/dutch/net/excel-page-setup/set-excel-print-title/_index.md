@@ -63,7 +63,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Stap 2: Een werkmapobject instantiëren
 
- Vervolgens maken we een instantie van de`Workbook`klasse, die een Excel-bestand vertegenwoordigt.
+ Vervolgens maken we een instantie van de`Workbook` klasse, die een Excel-bestand vertegenwoordigt.
 
 ```csharp
 Workbook workbook = new Workbook();

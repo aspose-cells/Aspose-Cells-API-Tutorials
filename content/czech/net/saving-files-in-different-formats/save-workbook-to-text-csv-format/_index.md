@@ -40,7 +40,7 @@ Workbook workbook = new Workbook(dataDir + "book1.xls");
 ## Krok 3: Inicializujte bajtové pole pro data sešitu
 Než začneme převádět sešit do CSV, musíme inicializovat prázdné pole bajtů, které nakonec pojme všechna data listu.
 ```csharp
-// 0-bajtové pole
+// Pole 0 bajtů
 byte[] workbookData = new byte[0];
 ```
 Toto bajtové pole spojí data z každého listu do jediné struktury, kterou můžeme později zapsat do souboru.
@@ -51,7 +51,7 @@ Nyní nastavíme možnosti, jak chceme uložit formát textu. Můžete si vybrat
 TxtSaveOptions opts = new TxtSaveOptions();
 opts.Separator = '\t'; // Karta nastavení jako oddělovač
 ```
- V tomto příkladu používáme jako oddělovač znak tabulátoru. Můžete vyměnit`'\t'` s jakoukoli postavou, kterou si přejete, jako je čárka (`,`), v závislosti na tom, jak chcete formát CSV.
+ V tomto příkladu používáme jako oddělovač znak tabulátoru. Můžete vyměnit`'\t'` s libovolným znakem, jako je čárka (`,`), v závislosti na tom, jak chcete formát CSV.
 ## Krok 5: Iterujte každý list
  Dále projdeme všechny listy v sešitu a každý si uložíme do svého`workbookData` pole, ale nejprve musíte vybrat, se kterým listem chcete pracovat.
 ```csharp

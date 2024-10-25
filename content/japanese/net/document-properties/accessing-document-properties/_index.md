@@ -49,7 +49,7 @@ Aspose.Cells.Properties.DocumentProperty customProperty1 = customProperties["Con
 Console.WriteLine(customProperty1.Name + " " + customProperty1.Value);
 ```
 この例では、次のプロパティにアクセスしようとしています。`"ContentTypeId"`コンソールには、このプロパティの名前と値の両方が出力されます。これは、すべてのプロパティを調べなくても必要なものを正確に取得できる便利な方法です。
-## ステップ 5: インデックスでカスタム ドキュメント プロパティにアクセスする
+## ステップ5: インデックスでカスタムドキュメントプロパティにアクセスする
 事前に名前を知らずに物件を閲覧して選びたい場合はどうすればよいでしょうか? 物件インデックスが役に立ちます:
 ```csharp
 Aspose.Cells.Properties.DocumentProperty customProperty2 = customProperties[0];

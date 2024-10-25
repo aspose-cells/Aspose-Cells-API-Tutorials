@@ -108,7 +108,7 @@ V Excelu je jednou z klíčových funkcí grafů zpracování automatických jed
 
 ```csharp
 // Nastavte hlavní jednotku pro osu Y
-ch.AxisY.MajorUnit = 10; //Můžete nastavit podle vašeho požadavku
+ch.AxisY.MajorUnit = 10; // Můžete nastavit podle vašeho požadavku
 ```
 
 Pojďme nyní aktualizovat automatické jednotky!
@@ -142,7 +142,7 @@ Práce s Aspose.Cells pro .NET je nejen efektivní, ale také neuvěřitelně ob
 Aspose.Cells je výkonná knihovna .NET pro vytváření, manipulaci a konverzi souborů aplikace Excel.
 
 ### Mohu používat Aspose.Cells zdarma?
- Ano! Můžete začít s bezplatnou zkušební verzí[zde](https://releases.aspose.com/).
+Ano! Můžete začít s bezplatnou zkušební verzí[zde](https://releases.aspose.com/).
 
 ### Musím něco nainstalovat, abych mohl začít?
 Jen knihovna Aspose.Cells a .NET Framework nainstalované na vašem počítači.

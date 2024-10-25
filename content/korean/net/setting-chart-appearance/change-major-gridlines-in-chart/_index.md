@@ -95,7 +95,7 @@ int chartIndex = worksheet.Charts.Add(Aspose.Cells.Charts.ChartType.Column, 5, 0
 
 ## 6단계: 차트 인스턴스에 액세스
 
-차트를 만든 후에는 해당 속성을 수정하기 위해 해당 인스턴스에 액세스해야 합니다. 이는 다음을 통해 검색하여 수행됩니다.`Charts`수집.
+ 차트를 만든 후에는 해당 속성을 수정하기 위해 해당 인스턴스에 액세스해야 합니다. 이는 다음을 통해 검색하여 수행됩니다.`Charts`수집.
 
 ```csharp
 // 새로 추가된 차트의 인스턴스에 액세스하기

@@ -8,16 +8,16 @@ weight: 11
 url: /hu/net/worksheet-operations/setting-image-preferences-for-html/
 ---
 ## Bevezetés
-Az Excel-táblázatokból tetszetős weboldalak létrehozása javíthatja az adatok online megjelenítését. Az Aspose.Cells for .NET segítségével nem csak a táblázatokat konvertálhatja HTML-be, hanem különféle beállításokat is megadhat a képek webre való optimalizálása érdekében. Ebben az útmutatóban megvizsgáljuk, hogyan állíthat be képbeállításokat Excel-fájl HTML-formátumba konvertálásakor. Készen állsz a merülésre? Kezdjük is!
+Az Excel-táblázatokból tetszetős weboldalak létrehozása javíthatja az adatok online megjelenítését. Az Aspose.Cells for .NET segítségével nem csak a táblázatokat konvertálhatja HTML-formátumba, hanem különféle beállításokat is megadhat a képek webre való optimalizálása érdekében. Ebben az útmutatóban megvizsgáljuk, hogyan állíthat be képbeállításokat Excel-fájl HTML-formátumba konvertálásakor. Készen állsz a merülésre? Kezdjük is!
 
 ## Előfeltételek
 
 Mielőtt belevágnánk a kódba, győződjön meg arról, hogy rendelkezik a következőkkel:
 
 1. A Visual Studio telepítve: A .NET-alkalmazások futtatásához és teszteléséhez olyan fejlesztői környezetre lesz szüksége, mint a Visual Studio.
-2. Aspose.Cells for .NET: Töltse le és telepítse az Aspose.Cells programot. A legújabb verziót letöltheti a[Aspose honlapja](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells for .NET: Töltse le és telepítse az Aspose.Cells programot. A legújabb verziót letöltheti a[Aspose honlapja](https://releases.aspose.com/cells/net/).
 3. A C# alapismeretei: A C# programozás ismerete segít a példák jobb megértésében.
-4. Egy példa Excel-fájl: Készítsen egy „Book1.xlsx” nevű Excel-fájlt a munkavégzéshez. Helyezze egy kijelölt mappába, amelyre hivatkozni fog a kódban.
+4. Egy minta Excel-fájl: készítsen elő egy „Book1.xlsx” nevű Excel-fájlt a munkához. Helyezze egy kijelölt mappába, amelyre hivatkozni fog a kódban.
 
 ## Csomagok importálása
 
@@ -84,7 +84,7 @@ Ezzel a sorral az Aspose.Cells beolvassa az Excel-fájlt, és előkészíti a ma
 HtmlSaveOptions saveOptions = new HtmlSaveOptions(SaveFormat.Html);
 ```
 
- Beállítás által`SaveFormat.Html`, jelzi, hogy a kimeneti formátum HTML lesz.
+ Beállítással`SaveFormat.Html`, jelzi, hogy a kimeneti formátum HTML lesz.
 
 ## 5. lépés: Állítsa a képformátumot PNG-re
 
@@ -108,7 +108,7 @@ saveOptions.ImageOptions.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.
 
 ## 7. lépés: A szövegmegjelenítés optimalizálása
 
-A szövegmegjelenítés is optimalizálható a jobb vizuális élmény érdekében. A simább szövegmegjelenítés érdekében állítsa a szövegmegjelenítési tippet AntiAlias értékre.
+szövegmegjelenítés is optimalizálható a jobb vizuális élmény érdekében. A simább szövegmegjelenítés érdekében állítsa a szövegmegjelenítési tippet AntiAlias értékre.
 
 ```csharp
 saveOptions.ImageOptions.TextRenderingHint = System.Drawing.Text.TextRenderingHint.AntiAlias;
@@ -128,7 +128,7 @@ book.Save(dataDir + "output.html", saveOptions);
 
 ## Következtetés
 
-Ennek a lépésenkénti útmutatónak a követésével megtanulta, hogyan állíthat be képbeállításokat a HTML-exportáláshoz az Aspose.Cells for .NET használatával. Ez a megközelítés nemcsak az Excel-adatok vizuálisan tetszetős megjelenítését segíti elő, hanem a webhasználathoz is optimalizálja azokat. Akár jelentéseket, irányítópultokat hoz létre, akár egyszerűen csak megjeleníti az adatokat, ezek a praktikus konfigurációk jelentős változást hozhatnak!
+Ennek a lépésenkénti útmutatónak a követésével megtanulta, hogyan állíthat be képbeállításokat a HTML-exportáláshoz az Aspose.Cells for .NET használatával. Ez a megközelítés nemcsak az Excel-adatok vizuálisan tetszetős megjelenítését segíti elő, hanem a webhasználathoz is optimalizálja azokat. Akár jelentéseket, irányítópultokat hoz létre, akár egyszerűen csak adatokat jelenít meg, ezek a praktikus konfigurációk jelentős változást hozhatnak!
 
 ## GYIK
 

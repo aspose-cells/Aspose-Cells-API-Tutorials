@@ -35,7 +35,7 @@ string dataDir = "Your Document Directory";
 ## Étape 2 : créer le répertoire s’il n’existe pas
 Ensuite, nous voulons nous assurer que ce répertoire existe. Si ce n'est pas le cas, nous devons le créer.
 ```csharp
-//Créez un répertoire s'il n'est pas déjà présent.
+// Créez un répertoire s'il n'est pas déjà présent.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -58,11 +58,11 @@ Sympa et simple ! Nous sommes prêts à commencer à ajouter du contenu à cette
 ## Étape 5 : Définir le chemin de l’image
 Maintenant, définissons un chemin pour l’image que vous souhaitez intégrer dans votre fichier Excel.
 ```csharp
-// Définissez une variable de chaîne pour stocker le chemin de l'image.
+//Définissez une variable de chaîne pour stocker le chemin de l'image.
 string ImageUrl = dataDir + "logo.jpg";
 ```
  Assurez-vous que ce chemin reflète correctement l'endroit où votre`logo.jpg` le fichier est stocké.
-## Étape 6 : charger l’image dans un tableau d’octets
+## Étape 6 : charger l'image dans un tableau d'octets
 Nous devons lire l'image dans un format avec lequel nous pouvons travailler. Pour ce faire, nous ouvrons le flux de fichiers et lisons ses données dans un tableau d'octets.
 ```csharp
 // Mettez l'image dans les flux.
@@ -87,7 +87,7 @@ Tout comme nous l’avons fait avec l’image, nous devons charger le fichier Ex
 ```csharp
 // Mettez le fichier dans les flux.
 fs = File.OpenRead(path);
-// Définir un tableau d'octets.
+//Définir un tableau d'octets.
 byte[] objectData = new Byte[fs.Length];
 // Stocker le fichier à partir des flux.
 fs.Read(objectData, 0, objectData.Length);

@@ -58,7 +58,7 @@ C'est le moment vers lequel nous avons travaillé ! Nous allons maintenant enreg
 ```csharp
 if (Respose != null)
 {
-    //Enregistrer au format PDF
+    // Enregistrer au format PDF
     workbook.Save(Respose, dataDir + "output.pdf", ContentDisposition.Attachment, new PdfSaveOptions());
     Respose.End();
 }

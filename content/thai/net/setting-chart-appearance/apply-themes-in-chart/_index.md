@@ -59,7 +59,7 @@ string sourceDir = "Your Document Directory";
 Workbook workbook = new Workbook(sourceDir + "sampleApplyingThemesInChart.xlsx");
 ```
 
- ให้แน่ใจว่า`sampleApplyingThemesInChart.xlsx`มีอยู่ในไดเร็กทอรีต้นทางของคุณ
+ ให้แน่ใจว่า`sampleApplyingThemesInChart.xlsx` มีอยู่ในไดเร็กทอรีต้นทางของคุณ
 
 ## ขั้นตอนที่ 3: เข้าถึงแผ่นงาน
 
@@ -96,7 +96,7 @@ chart.NSeries[0].Area.FillFormat.FillType = Aspose.Cells.Drawing.FillType.Solid;
 
 ## ขั้นตอนที่ 6: กำหนดค่าสี
 
- ตอนนี้ซีรีส์ของเราพร้อมแล้ว เราต้องปรับเปลี่ยนสี ซึ่งเกี่ยวข้องกับการสร้าง`CellsColor`วัตถุและระบุสีธีม เราจะเลือกสไตล์เน้นสำหรับตัวอย่างนี้
+ ตอนนี้ซีรีส์ของเราพร้อมแล้ว เราต้องปรับเปลี่ยนสี ซึ่งเกี่ยวข้องกับการสร้าง`CellsColor` วัตถุและระบุสีธีม เราจะเลือกสไตล์เน้นสำหรับตัวอย่างนี้
 
 ```csharp
 // รับ CellsColor ของ SolidFill

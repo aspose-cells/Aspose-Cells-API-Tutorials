@@ -51,7 +51,7 @@ Pense nisso como se estivesse dando instruções específicas — você está ba
 ## Etapa 4: Criar um objeto de pasta de trabalho
  Tudo bem, estamos quase lá! Agora vamos criar um`Workbook` objeto, que é essencialmente onde o Aspose.Cells carregará o conteúdo do seu arquivo Excel.
 ```csharp
-// Crie um objeto Workbook e abra o arquivo a partir do seu caminho
+//Crie um objeto Workbook e abra o arquivo a partir do seu caminho
 Workbook book = new Workbook(dataDir + "Book1.xlsx", loadOptions);
 ```
  Nesta linha, substitua`"Book1.xlsx"` com o nome do seu arquivo Excel real. Voilà! Sua pasta de trabalho é carregada com todos os dados cruciais.

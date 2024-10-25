@@ -8,14 +8,14 @@ weight: 11
 url: /pl/net/xps-and-pdf-operations/setting-pdf-creation-time/
 ---
 ## Wstęp
-W dzisiejszej erze cyfrowej możliwość konwersji dokumentów do różnych formatów jest kluczowa dla wielu aplikacji. Jedną z powszechnych potrzeb jest konwersja arkuszy kalkulacyjnych Excela do plików PDF. Nie tylko zachowuje to formatowanie, ale także znacznie ułatwia udostępnianie i drukowanie. Jeśli jesteś programistą pracującym z .NET, Aspose.Cells to fantastyczna biblioteka, która upraszcza ten proces. W tym samouczku zagłębimy się w to, jak ustawić czas utworzenia PDF podczas konwersji pliku Excela do PDF za pomocą Aspose.Cells dla .NET.
+dzisiejszej erze cyfrowej możliwość konwersji dokumentów do różnych formatów jest kluczowa dla wielu aplikacji. Jedną z powszechnych potrzeb jest konwersja arkuszy kalkulacyjnych programu Excel do plików PDF. Nie tylko zachowuje to formatowanie, ale także znacznie ułatwia udostępnianie i drukowanie. Jeśli jesteś programistą pracującym z .NET, Aspose.Cells to fantastyczna biblioteka, która upraszcza ten proces. W tym samouczku zagłębimy się w to, jak ustawić czas utworzenia pliku PDF podczas konwersji pliku Excel do PDF za pomocą Aspose.Cells dla .NET.
 ## Wymagania wstępne
 Zanim przejdziemy do szczegółów kodu, upewnijmy się, że masz wszystko, czego potrzebujesz, aby zacząć.
 ### Czego potrzebujesz
 1. Visual Studio: Upewnij się, że masz zainstalowane Visual Studio na swoim komputerze. To będzie Twoje środowisko programistyczne.
 2.  Aspose.Cells dla .NET: Pobierz bibliotekę Aspose.Cells ze strony[strona internetowa](https://releases.aspose.com/cells/net/). Możesz również rozpocząć bezpłatny okres próbny, aby przetestować jego funkcjonalności.
 3. Podstawowa wiedza o języku C#: Znajomość programowania w języku C# pomoże Ci lepiej zrozumieć fragmenty kodu.
-4.  Plik Excel: Przygotuj plik Excel do konwersji. W tym przykładzie użyjemy pliku o nazwie`Book1.xlsx`.
+4. Plik Excel: Przygotuj plik Excel do konwersji. W tym przykładzie użyjemy pliku o nazwie`Book1.xlsx`.
 Teraz, gdy już zadbałeś o wymagania wstępne, możemy zająć się przyjemniejszą częścią — zaimportowaniem niezbędnych pakietów i napisaniem kodu!
 ## Importuj pakiety
 Na początek musisz zaimportować wymagane przestrzenie nazw do pliku C#. Jest to kluczowe, ponieważ umożliwia dostęp do klas i metod udostępnianych przez bibliotekę Aspose.Cells.
@@ -45,7 +45,7 @@ string dataDir = "Your Document Directory"; // Określ katalog dokumentów
 string inputPath = dataDir + "Book1.xlsx"; // Ścieżka do pliku Excel
 Workbook workbook = new Workbook(inputPath); // Załaduj plik Excel
 ```
- Ten`Workbook`Klasa służy do ładowania i manipulowania plikami Excela. Przekazując ścieżkę wejściową, informujesz aplikację, z którym plikiem ma pracować.
+ Ten`Workbook` Klasa służy do ładowania i manipulowania plikami Excela. Przekazując ścieżkę wejściową, informujesz aplikację, z którym plikiem ma pracować.
 ## Krok 3: Utwórz PdfSaveOptions
  Teraz nadszedł czas na utworzenie instancji`PdfSaveOptions`Ta klasa umożliwia określenie różnych opcji zapisywania skoroszytu w formacie PDF, w tym czasu utworzenia.
 ```csharp
@@ -56,12 +56,12 @@ options.CreatedTime = DateTime.Now; // Ustaw czas utworzenia na teraz
 ## Krok 4: Zapisz skoroszyt jako plik PDF
 Na koniec zapiszesz skoroszyt jako plik PDF, korzystając z właśnie zdefiniowanych opcji.
 ```csharp
-workbook.Save(dataDir + "output.pdf", options); // Zapisz jako PDF
+workbook.Save(dataDir + "output.pdf", options); //Zapisz jako PDF
 ```
  Ta linia kodu pobiera skoroszyt i zapisuje go w formacie PDF w określonej lokalizacji.`options` Przekazywany jest parametr, który pozwala uwzględnić czas utworzenia w metadanych PDF.
 
 ## Wniosek
-masz! Udało Ci się przekonwertować plik Excela na PDF przy użyciu Aspose.Cells dla .NET, wraz z sygnaturą czasową utworzenia. Ta funkcja może być niezwykle przydatna, gdy musisz śledzić wersje dokumentu lub gdy chcesz przekazać odbiorcom informacje o tym, kiedy dokument został utworzony.
+I masz! Udało Ci się przekonwertować plik Excela na PDF przy użyciu Aspose.Cells dla .NET, wraz z sygnaturą czasową utworzenia. Ta funkcja może być niezwykle przydatna, gdy musisz śledzić wersje dokumentu lub gdy chcesz przekazać odbiorcom informacje o tym, kiedy dokument został utworzony.
  Jeśli chcesz poznać więcej funkcji Aspose.Cells, nie wahaj się sprawdzić[dokumentacja](https://reference.aspose.com/cells/net/).
 ## Najczęściej zadawane pytania
 ### Czym jest Aspose.Cells?

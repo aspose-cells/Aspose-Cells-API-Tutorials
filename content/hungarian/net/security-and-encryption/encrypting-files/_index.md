@@ -8,13 +8,13 @@ weight: 11
 url: /hu/net/security-and-encryption/encrypting-files/
 ---
 ## Bevezetés
-A mai digitális világban az adatbiztonság a legfontosabb. Legyen szó cégtulajdonosról, könyvelőről vagy adatelemzőről, az Excel-fájlok érzékeny adatainak védelme kulcsfontosságú. Ugye nem szeretne illetéktelen hozzáférést az értékes adataihoz? Szerencsére, ha .NET-tel dolgozik, az Aspose.Cells csodálatos eszközöket kínál az Excel-táblázatok egyszerű titkosításához. Ebben az oktatóanyagban lépésről lépésre végigvesszük az Excel-fájlok titkosításának folyamatát. Az előfeltételektől a tényleges kódig mindent megkapok, amire szüksége van a fájlok biztonságához!
+A mai digitális világban az adatbiztonság a legfontosabb. Legyen szó cégtulajdonosról, könyvelőről vagy adatelemzőről, az Excel-fájlok érzékeny adatainak védelme kulcsfontosságú. Ugye nem szeretne illetéktelen hozzáférést az értékes adataihoz? Szerencsére, ha .NET-tel dolgozik, az Aspose.Cells csodálatos eszközöket kínál az Excel-táblázatok egyszerű titkosításához. Ebben az oktatóanyagban lépésről lépésre végigmegyünk az Excel-fájlok titkosításának folyamatán. Az előfeltételektől a tényleges kódig mindent megkapok, amire szüksége van a fájlok biztonságához!
 ## Előfeltételek
 Mielőtt belemerülnénk a kódba, győződjünk meg arról, hogy mindennel rendelkezünk, ami az induláshoz szükséges. Íme egy ellenőrző lista:
 1. .NET-keretrendszer: Győződjön meg arról, hogy telepítve van a .NET-keretrendszer kompatibilis verziója. Az Aspose.Cells jól működik a .NET-verziókkal, ezért válassza ki a projektjének megfelelőt.
 2.  Aspose.Cells Library: Töltse le az Aspose.Cells könyvtárat a[letöltési oldal](https://releases.aspose.com/cells/net/). Ezzel a hatékony könyvtárral könnyedén kezelheti és titkosíthatja az Excel fájlokat.
 3. Visual Studio: Egy jó IDE megkönnyíti a dolgokat, ezért gondoskodjon a Visual Studio (vagy bármely .NET-kompatibilis IDE) beállításáról a fejlesztési munkához.
-4. A C# alapértelmezése: A süteményt könnyebb sütni, ha tudod, hogyan kell mérni a hozzávalókat, igaz? Hasonlóképpen, egy kis C# ismerete segít megérteni, hogyan kell hatékonyan kódolni ezt a feladatot.
+4. A C# alapvető ismerete: A süteményt könnyebb sütni, ha tudod, hogyan kell mérni a hozzávalókat, igaz? Hasonlóképpen, egy kis C# ismerete segít megérteni, hogyan kell hatékonyan kódolni ezt a feladatot.
 Miután kipipálta ezeket a tételeket, készen áll a továbblépésre!
 ## Csomagok importálása
 A kódolási utunk első lépése a szükséges Aspose.Cells csomag importálása a projektbe. Ezt a következőképpen teheti meg:
@@ -58,7 +58,7 @@ workbook.SetEncryptionOptions(EncryptionType.StrongCryptographicProvider, 128);
 ```
 Gondoljon ezekre a lehetőségekre, mint például a használt zárak típusára – egyesek rövidebbek és könnyebben kiválaszthatók (XOR), míg mások sokkal nagyobb kihívást jelentenek (Strong Cryptographic Provider).
 ## 4. lépés: Védje jelszóval a fájlt
-Most adjunk hozzá egy jelszót a fájlhoz. Ez a titkos kulcs, amely bezárja az ajtót:
+Most adjunk hozzá egy jelszót a fájlhoz. Ez a titkos kulcs, ami bezárja az ajtót:
 ```csharp
 workbook.Settings.Password = "1234";
 ```

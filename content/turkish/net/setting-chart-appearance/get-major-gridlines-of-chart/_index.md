@@ -15,7 +15,7 @@ Görsel olarak çekici ve bilgilendirici grafikler oluşturmak, etkili veri sunu
 
 Eğitime başlamadan önce her şeyin hazır olduğundan emin olun:
 
-- .NET için Aspose.Cells: Projenizde Aspose.Cells kütüphanesinin indirildiğinden ve referans alındığından emin olun. Bunu alabilirsiniz[Burada](https://releases.aspose.com/cells/net/).
+-  .NET için Aspose.Cells: Projenizde Aspose.Cells kütüphanesinin indirildiğinden ve referans alındığından emin olun. Bunu alabilirsiniz[Burada](https://releases.aspose.com/cells/net/).
 - Geliştirme Ortamı: Herhangi bir .NET geliştirme ortamı işe yarar, ancak sağlam desteği ve araçları nedeniyle Visual Studio şiddetle tavsiye edilir.
 - C# Temel Anlayışı: Biraz kod yazacağımız için C# programlamanın temellerine aşina olmak faydalı olacaktır.
 
@@ -76,7 +76,7 @@ worksheet.Cells["B2"].PutValue(32);
 worksheet.Cells["B3"].PutValue(50);
 ```
 
- Burada hücrelere bazı rastgele değerler giriyoruz`A1` ile`B3`Bu veriler grafiğimiz için veri kaynağı görevi görecektir. Görselleştirmek için anlamlı verilere sahip olmak önemlidir; aksi takdirde grafik hiçbir bağlamı olmayan güzel çizgilerden ibaret olurdu!
+ Burada hücrelere bazı rastgele değerler giriyoruz`A1` ile`B3`. Bu veriler grafiğimiz için veri kaynağı görevi görecektir. Görselleştirmek için anlamlı verilere sahip olmak önemlidir; aksi takdirde grafik hiçbir bağlamı olmayan güzel çizgilerden ibaret olurdu!
 
 ## Adım 5: Çalışma Sayfasına Bir Grafik Ekleyin
 
@@ -161,7 +161,7 @@ Aspose.Cells for .NET, Excel elektronik tablolarını düzenlemek için güçlü
 Evet! Aspose.Cells, grafik öğeleri için yazı tipleri, stiller ve biçimler dahil olmak üzere kapsamlı özelleştirmeye olanak tanır.
 
 ### Daha fazla dokümanı nerede bulabilirim?
- Kapsamlı belgeleri şu adreste bulabilirsiniz:[Aspose'un referans sayfası](https://reference.aspose.com/cells/net/).
+Kapsamlı belgeleri şu adreste bulabilirsiniz:[Aspose'un referans sayfası](https://reference.aspose.com/cells/net/).
 
 ### Aspose.Cells için ücretsiz deneme sürümü mevcut mu?
  Evet! Bunu şu adresten indirerek deneyebilirsiniz:[Burada](https://releases.aspose.com/).

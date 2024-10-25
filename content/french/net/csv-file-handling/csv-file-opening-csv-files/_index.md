@@ -14,7 +14,7 @@ Avant de commencer à ouvrir des fichiers CSV et à faire travailler nos muscles
 ### Compréhension de base de C# et .NET Framework
 Pour commencer, vous devez avoir une bonne maîtrise de C# et du framework .NET. Il est essentiel de comprendre les bases de la programmation orientée objet, car nous utiliserons abondamment des classes et des méthodes.
 ### Bibliothèque Aspose.Cells
- Tout d'abord, vous aurez besoin de la bibliothèque Aspose.Cells. Il s'agit d'une API .NET permettant de manipuler des fichiers Excel et de travailler de manière transparente avec divers formats de données. Vous pouvez soit[télécharger la bibliothèque](https://releases.aspose.com/cells/net/) ou configurez-le via NuGet dans votre projet.
+Tout d'abord, vous aurez besoin de la bibliothèque Aspose.Cells. Il s'agit d'une API .NET permettant de manipuler des fichiers Excel et de travailler de manière transparente avec divers formats de données. Vous pouvez soit[télécharger la bibliothèque](https://releases.aspose.com/cells/net/) ou configurez-le via NuGet dans votre projet.
 ### Configuration de l'IDE
 Vous aurez également besoin d'un environnement de développement approprié. Visual Studio est un excellent choix, car il fournit une interface conviviale pour le codage, le débogage et le déploiement de vos applications .NET.
 ### Fichier CSV pour la pratique
@@ -42,9 +42,9 @@ LoadOptions loadOptions4 = new LoadOptions(LoadFormat.Csv);
 ```
  Ici,`LoadFormat.Csv` indique à Aspose que nous avons affaire à un fichier CSV. Considérez cela comme le choix de la langue appropriée pour une conversation ; cela garantit que les deux parties se comprennent parfaitement.
 ## Étape 3 : Créer un objet classeur
-C'est parti ! Il est temps de créer un`Workbook` objet qui servira d'espace de travail principal où vous effectuerez toutes les opérations liées à votre fichier CSV.
+ C'est parti ! Il est temps de créer un`Workbook` objet qui servira d'espace de travail principal où vous effectuerez toutes les opérations liées à votre fichier CSV.
 ```csharp
-// Créer un objet Workbook et ouvrir le fichier à partir de son chemin
+//Créer un objet Workbook et ouvrir le fichier à partir de son chemin
 Workbook wbCSV = new Workbook(dataDir + "Book_CSV.csv", loadOptions4);
 ```
  Cette ligne est comme déverrouiller la porte de vos données. Avec votre`Workbook` Une fois l'objet prêt, vous disposez d'un accès complet pour manipuler les données à l'intérieur de votre fichier CSV. C'est comme si on vous remettait les clés d'un coffre aux trésors d'informations !

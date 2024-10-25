@@ -90,7 +90,7 @@ ProtectedRangeCollection allowRanges = sheet.AllowEditRanges;
 //定義保護範圍
 ProtectedRange proteced_range;
 
-//建立範圍
+//創建範圍
 int idx = allowRanges.Add("r2", 1, 1, 3, 3);
 proteced_range = allowRanges[idx];
 ```

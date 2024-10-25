@@ -12,7 +12,7 @@ Cuando se trata de manipular archivos de Excel en .NET, Aspose.Cells se destaca 
 ## Prerrequisitos
 Antes de comenzar la conversión, es fundamental asegurarse de que todo esté configurado correctamente. Estos son los requisitos previos que necesitará:
 1. Visual Studio: Asegúrate de tener Visual Studio instalado en tu computadora. Es el IDE que te ayudará a ejecutar tus proyectos .NET sin problemas.
-2. Biblioteca Aspose.Cells para .NET: debe adquirir esta biblioteca. Puede[Descárgalo aquí](https://releases.aspose.com/cells/net/) o empezar con un[prueba gratis](https://releases.aspose.com/).
+2.  Biblioteca Aspose.Cells para .NET: debe adquirir esta biblioteca. Puede[Descárgalo aquí](https://releases.aspose.com/cells/net/) o empezar con un[prueba gratis](https://releases.aspose.com/).
 3. Conocimientos básicos de C#: La familiaridad con la programación en C# será beneficiosa, ya que nuestros ejemplos y explicaciones estarán escritos en este lenguaje.
 4.  Un archivo Excel de muestra: para demostrarlo, cree o descargue un archivo Excel. Guárdelo como`MyTestBook1.xls` en el directorio de su proyecto.
 5. Comprensión básica de proyectos .NET: saber cómo crear un proyecto .NET simple hará que esto sea más fácil, pero no se preocupe, lo guiaremos a través de los pasos.
@@ -51,7 +51,7 @@ string dataDir = "Your Document Directory";
 // Abra un archivo de plantilla de Excel.
 Workbook book = new Workbook(dataDir + "MyTestBook1.xls");
 ```
- En este paso, creamos una instancia del`Workbook`Clase y pasamos la ruta a nuestro archivo Excel. Esto nos permite interactuar con el contenido del archivo de manera programática.
+ En este paso, creamos una instancia del`Workbook` Clase y pasamos la ruta a nuestro archivo Excel. Esto nos permite interactuar con el contenido del archivo de manera programática.
 ## Paso 5: Acceder a la hoja de trabajo
 Ahora que tenemos el libro de trabajo abierto, accedamos a la primera hoja de trabajo:
 ```csharp
@@ -78,7 +78,7 @@ SheetRender sr = new SheetRender(sheet, imgOptions);
 // Renderizar la imagen para la hoja
 Bitmap bitmap = sr.ToImage(0);
 ```
- El`SheetRender`La clase ayuda a convertir la hoja de cálculo en una imagen de mapa de bits. Llamamos`ToImage(0)` para convertir la página cero (nuestra primera hoja) en un mapa de bits.
+ El`SheetRender` La clase ayuda a convertir la hoja de cálculo en una imagen de mapa de bits. Llamamos`ToImage(0)` para convertir la página cero (nuestra primera hoja) en un mapa de bits.
 ## Paso 8: Guardar la imagen
 Después de renderizar, necesitamos guardar la imagen en el directorio especificado:
 ```csharp
@@ -99,7 +99,7 @@ Esta línea envía un mensaje de confirmación a la consola para informar al usu
 ### ¿Qué es Aspose.Cells?
 Aspose.Cells es una biblioteca .NET que permite a los desarrolladores crear, manipular, convertir y procesar archivos de Excel mediante programación.
 ### ¿Puedo utilizar Aspose.Cells gratis?
- Sí, puedes comenzar a usar Aspose.Cells descargando una versión de prueba gratuita desde su[sitio web](https://releases.aspose.com/).
+Sí, puedes comenzar a usar Aspose.Cells descargando una versión de prueba gratuita desde su[sitio web](https://releases.aspose.com/).
 ### ¿Qué formatos de imagen admite Aspose.Cells para exportar?
 Aspose.Cells admite varios formatos de imagen, incluidos JPEG, PNG, BMP y GIF.
 ### ¿Dónde puedo encontrar soporte adicional para Aspose.Cells?

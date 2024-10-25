@@ -12,7 +12,7 @@ Jeśli chodzi o pracę z plikami Excel w .NET, jest wiele elastyczności i funkc
 ## Wymagania wstępne
 Zanim zaczniemy, upewnijmy się, że masz wszystko, czego potrzebujesz, aby płynnie podążać. Oto, co powinieneś mieć:
 1. Visual Studio: Upewnij się, że masz zainstalowaną wersję Visual Studio na swoim komputerze. Tutaj będziesz pisać swój kod .NET. 
-2.  Biblioteka Aspose.Cells: Potrzebujesz biblioteki Aspose.Cells dla .NET. Jeśli jeszcze jej nie pobrałeś, przejdź do[Strona pobierania Aspose](https://releases.aspose.com/cells/net/) aby to złapać. 
+2. Biblioteka Aspose.Cells: Potrzebujesz biblioteki Aspose.Cells dla .NET. Jeśli jeszcze jej nie pobrałeś, przejdź do[Strona pobierania Aspose](https://releases.aspose.com/cells/net/) aby to złapać. 
 3. Podstawowa znajomość języka C#: Podstawowa znajomość języka C# i .NET pomoże Ci poruszać się po przykładach kodu bardziej komfortowo.
 4. .NET Framework: Upewnij się, że Twój projekt jest skonfigurowany z wykorzystaniem odpowiedniego środowiska .NET obsługiwanego przez bibliotekę Aspose.Cells.
 5. Dokument programu Excel: Choć utworzenie nowego skoroszytu jest opcją, posiadanie dokumentu początkowego może się przydać, jeśli chcesz edytować istniejący plik.
@@ -45,9 +45,9 @@ Następnie utworzymy nowy skoroszyt korzystając z biblioteki Aspose.Cells.
 ```csharp
 Workbook workbook = new Workbook();
 ```
- Tutaj tworzymy nową instancję`Workbook`klasa. Ten nowo utworzony skoroszyt jest pustym skoroszytem, który możesz zacząć wypełniać danymi, jeśli chcesz.
+ Tutaj tworzymy nową instancję`Workbook` klasa. Ten nowo utworzony skoroszyt jest pustym skoroszytem, który możesz zacząć wypełniać danymi, jeśli chcesz.
 ## Krok 3: Zapisz skoroszyt
-A teraz zaczyna się najlepsza część — zapisywanie skoroszytu w wybranym formacie!
+teraz zaczyna się najlepsza część — zapisywanie skoroszytu w wybranym formacie!
 ```csharp
 // Zapisz w formacie Excel2007 xlsb
 workbook.Save(dataDir + "output.xlsb", SaveFormat.Xlsb);
@@ -60,7 +60,7 @@ I tak po prostu, udało Ci się nauczyć, jak zapisać plik Excel w formacie 200
 ### Czym jest biblioteka Aspose.Cells?
 Aspose.Cells to zaawansowana biblioteka dla platformy .NET, która umożliwia programistom tworzenie, modyfikowanie i manipulowanie plikami programu Excel programowo, bez konieczności instalowania programu Microsoft Excel.
 ### Czy mogę wypróbować Aspose.Cells za darmo?
- Oczywiście! Możesz użyć[bezpłatny okres próbny](https://releases.aspose.com/)aby poznać możliwości biblioteki.
+ Oczywiście! Możesz użyć[bezpłatny okres próbny](https://releases.aspose.com/) aby poznać możliwości biblioteki.
 ### Jaka jest różnica pomiędzy formatami xls i xlsb?
 Format xls jest starszy i opiera się na binarnej strukturze pliku, podczas gdy xlsb to nowszy format, który również wykorzystuje binarną strukturę zapisu, ale umożliwia obsługę większych rozmiarów plików i szybsze przetwarzanie.
 ### Gdzie mogę nabyć licencję na Aspose.Cells?

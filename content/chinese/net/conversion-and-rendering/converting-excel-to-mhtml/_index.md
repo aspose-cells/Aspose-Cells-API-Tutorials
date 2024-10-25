@@ -47,7 +47,7 @@ string dataDir = "Your Document Directory"; //相应地更新此行
 
 代替`"Your Document Directory"`使用包含 Excel 文件的文件夹的实际路径。
 
-## 第 2 步：指定文件路径
+## 步骤 2：指定文件路径
 
 接下来，您需要告诉程序要转换哪个 Excel 文件。设置方法如下：
 

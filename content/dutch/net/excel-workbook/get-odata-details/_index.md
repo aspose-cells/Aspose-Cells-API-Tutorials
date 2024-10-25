@@ -16,7 +16,7 @@ In de steeds veranderende wereld van databeheer is het vermogen om data efficië
 Voordat we diep in de code duiken, zorgen we ervoor dat je alles hebt wat je nodig hebt om deze tutorial te volgen. Dit heb je nodig:
 
 1. Visual Studio: Zorg ervoor dat u Visual Studio hebt geïnstalleerd. Het is de ideale omgeving voor .NET-ontwikkeling.
-2.  Aspose.Cells-bibliotheek: download en installeer de Aspose.Cells-bibliotheek voor .NET van de[Aspose downloadpagina](https://releases.aspose.com/cells/net/) . U kunt ook een gratis proefversie proberen van[hier](https://releases.aspose.com/).
+2. Aspose.Cells-bibliotheek: download en installeer de Aspose.Cells-bibliotheek voor .NET van de[Aspose downloadpagina](https://releases.aspose.com/cells/net/) . U kunt ook een gratis proefversie proberen van[hier](https://releases.aspose.com/).
 3. Basiskennis van C#: Kennis van C#-programmering helpt u de nuances van de code beter te begrijpen.
 4. Een voorbeeld van een Excel-bestand: voor deze tutorial gebruiken we een Excel-bestand met de naam 'ODataSample.xlsx'. Dit bestand moet in uw werkmap worden opgeslagen.
 
@@ -30,7 +30,7 @@ Laten we onze codeerreis beginnen door de benodigde pakketten in ons project te 
 
 1. Open Visual Studio.
 2. Klik op 'Een nieuw project maken'.
-3. Kies 'Console-app (.NET Core)' of 'Console-app (.NET Framework)'. Uw voorkeur is voldoende.
+3. Kies 'Console-app (.NET Core)' of 'Console-app (.NET Framework)'. Uw voorkeur is bepalend.
 4. Geef uw project een naam (bijvoorbeeld ODataDetailsExtractor) en klik op 'Maken'.
 
 ### Installeer Aspose.Cells NuGet-pakket
@@ -99,7 +99,7 @@ In dit blok:
 
 ## Stap 4: Uitvoeren en verifiëren
 
-Ten slotte moet u ervoor zorgen dat de code correct wordt uitgevoerd en de verwachte uitvoer retourneert. Voeg de volgende regel toe aan het einde van uw`Main` methode:
+ Ten slotte moet u ervoor zorgen dat de code correct wordt uitgevoerd en de verwachte uitvoer retourneert. Voeg de volgende regel toe aan het einde van uw`Main` methode:
 
 ```csharp
 Console.WriteLine("GetOdataDetails executed successfully.");

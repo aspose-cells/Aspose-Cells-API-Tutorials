@@ -15,7 +15,7 @@ url: /ja/net/setting-chart-appearance/get-major-gridlines-of-chart/
 
 チュートリアルに進む前に、すべての準備が整っていることを確認してください。
 
-- Aspose.Cells for .NET: Aspose.Cellsライブラリがダウンロードされ、プロジェクトで参照されていることを確認してください。[ここ](https://releases.aspose.com/cells/net/).
+-  Aspose.Cells for .NET: Aspose.Cellsライブラリがダウンロードされ、プロジェクトで参照されていることを確認してください。[ここ](https://releases.aspose.com/cells/net/).
 - 開発環境: どの .NET 開発環境でも動作しますが、強力なサポートとツールを備えているため、Visual Studio を強くお勧めします。
 - C# の基本的な理解: コードを書くことになるので、C# プログラミングの基礎を理解していると役立ちます。
 
@@ -141,7 +141,7 @@ chart.ValueAxis.MajorGridLines.IsVisible = true;
 workbook.Save(outputDir + "outputMajorGridlinesOfChart.xlsx");
 ```
 
-この行は、指定されたディレクトリに作品を Excel ファイルとして保存します。これは、自分の作品に対して「保存」をクリックするのと同じで、他の人が鑑賞できるように (または自分で再度見ることができるように) 保存されます。
+この行は、指定されたディレクトリに作品を Excel ファイルとして保存します。これは、自分の作品に対して「保存」をクリックするのと同じで、他の人が鑑賞できるように (または自分で再度鑑賞できるように) 保存されます。
 
 ## 結論
 

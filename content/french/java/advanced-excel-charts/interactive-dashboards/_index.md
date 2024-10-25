@@ -14,7 +14,7 @@ Dans le monde en constante évolution de la prise de décision basée sur les do
 
 ## Prérequis
 
-Avant de plonger dans les détails, assurez-vous que les conditions préalables suivantes sont remplies :
+Avant de plonger dans les détails, assurez-vous que vous disposez des conditions préalables suivantes :
 
 -  Aspose.Cells pour Java : Téléchargez et installez la bibliothèque Aspose.Cells pour Java à partir de[ici](https://releases.aspose.com/cells/java/).
 

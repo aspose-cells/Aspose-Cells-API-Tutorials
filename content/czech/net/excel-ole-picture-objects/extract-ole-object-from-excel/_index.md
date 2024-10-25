@@ -8,11 +8,11 @@ weight: 10
 url: /cs/net/excel-ole-picture-objects/extract-ole-object-from-excel/
 ---
 ## Zavedení
-V dnešním technicky vyspělém světě je práce s excelovými soubory běžným úkolem, zejména pro ty, kteří se zabývají analýzou dat, financemi a řízením projektů. Jedním z často přehlížených aspektů je manipulace s objekty OLE (propojování a vkládání objektů) v tabulkách aplikace Excel. Mohou to být vložené dokumenty, obrázky nebo dokonce složité datové typy, které hrají klíčovou roli při vylepšování funkčnosti a bohatosti vašich souborů Excel. Pokud jste uživatelem Aspose.Cells a chcete extrahovat tyto objekty OLE programově pomocí .NET, jste na správném místě! Tento průvodce vás provede procesem krok za krokem a zajistí, že pochopíte nejen to, jak to udělat, ale také to, proč je každá část procesu důležitá.
+dnešním technicky vyspělém světě je práce s excelovými soubory běžným úkolem, zejména pro ty, kteří se zabývají analýzou dat, financemi a řízením projektů. Jedním z často přehlížených aspektů je manipulace s objekty OLE (propojování a vkládání objektů) v tabulkách aplikace Excel. Mohou to být vložené dokumenty, obrázky nebo dokonce složité datové typy, které hrají klíčovou roli při vylepšování funkčnosti a bohatosti vašich souborů Excel. Pokud jste uživatelem Aspose.Cells a chcete extrahovat tyto objekty OLE programově pomocí .NET, jste na správném místě! Tento průvodce vás provede procesem krok za krokem a zajistí, že pochopíte nejen to, jak to udělat, ale také to, proč je každá část procesu důležitá.
 ## Předpoklady
 Než se ponoříme do hrubších detailů extrahování OLE objektů, musíte mít připraveno několik věcí:
 1. Základní znalost C#: Pokud jste obeznámeni s C#, jste již na správné cestě. Pokud ne, nebojte se! Uděláme věci přímočaré.
-2.  Instalováno Aspose.Cells: Budete potřebovat knihovnu Aspose.Cells. Můžete si jej stáhnout z webu[zde](https://releases.aspose.com/cells/net/).
+2. Instalováno Aspose.Cells: Budete potřebovat knihovnu Aspose.Cells. Můžete si jej stáhnout z webu[zde](https://releases.aspose.com/cells/net/).
 3. Kompatibilní vývojové prostředí: Ujistěte se, že máte nastavené vývojové prostředí .NET, jako je Visual Studio, připravené k použití.
 4. Ukázkový soubor Excel: Pro testování budete potřebovat soubor Excel s vloženými objekty OLE. 
 Jakmile splníte tyto předpoklady, můžeme začít svou cestu do světa extrakce objektů OLE.
@@ -23,7 +23,7 @@ using System.IO;
 using Aspose.Cells;
 ```
 ## Krok 1: Nastavte adresář dokumentů
-tomto kroku definujeme cestu, kde se nachází náš soubor Excel. Možná se divíte, proč je to důležité. Je to jako připravit scénu pro představení – pomáhá to scénáři vědět, kde herce najít (v našem případě soubor Excel).
+V tomto kroku definujeme cestu, kde se nachází náš soubor Excel. Možná se divíte, proč je to důležité. Je to jako připravit scénu pro představení – pomáhá to scénáři vědět, kde herce najít (v našem případě soubor Excel).
 ```csharp
 string dataDir = "Your Document Directory";
 ```
@@ -44,7 +44,7 @@ Nyní přichází ta zábavná část – procházení všemi OLE objekty v naš
 for (int i = 0; i < oles.Count; i++)
 {
     Aspose.Cells.Drawing.OleObject ole = oles[i];
-    //Další logika pro manipulaci s každým objektem
+    // Další logika pro manipulaci s každým objektem
 }
 ```
 ## Krok 5: Zadejte název výstupního souboru

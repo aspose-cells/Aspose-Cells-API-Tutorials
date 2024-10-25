@@ -45,7 +45,7 @@ Workbook workbook = new Workbook();
 
 Detta initierar en ny Excel-arbetsbok. Men vart tar uppgifterna vägen? Låt oss ta hand om det i nästa steg.
 
-## Steg 2: Lägg till data i arbetsbladet
+## Steg 2: Lägg till data till arbetsbladet
 
 När arbetsboken har skapats måste vi komma åt det första kalkylbladet och ge det ett namn. Det är här vi kommer att mata in de data som krävs för cirkeldiagrammet.
 

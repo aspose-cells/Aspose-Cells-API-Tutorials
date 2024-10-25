@@ -16,7 +16,7 @@ Sei stanco di grafici noiosi che non hanno un tocco personale? Vuoi imparare a r
 Prima di addentrarci nei dettagli della codifica, ecco alcuni prerequisiti che devi soddisfare per seguire il tutorial senza problemi:
 
 - Visual Studio: qui è dove scriverai ed eseguirai il tuo codice .NET. Assicurati di averlo installato.
-- Aspose.Cells per .NET: questa libreria ti servirà per lavorare con i file Excel. Puoi[scaricalo qui](https://releases.aspose.com/cells/net/).
+-  Aspose.Cells per .NET: questa libreria ti servirà per lavorare con i file Excel. Puoi[scaricalo qui](https://releases.aspose.com/cells/net/).
 - Nozioni di base di C#: anche se ti guiderò attraverso il codice, avere una conoscenza delle basi di C# renderà le cose più chiare.
 
 ### Fasi di installazione
@@ -55,7 +55,7 @@ string sourceDir = "Your Document Directory/";
 string outputDir = "Your Output Directory/";
 ```
 
- Sostituire`Your Document Directory` E`Your Output Directory` con percorsi effettivi sul tuo computer. 
+ Sostituire`Your Document Directory` E`Your Output Directory`con percorsi effettivi sul tuo computer. 
 
 ## Passaggio 2: caricare la cartella di lavoro esistente
 
@@ -84,7 +84,7 @@ Assicuratevi di aver salvato l'immagine nella directory specificata.
 Ora, specifichiamo a quale grafico aggiungeremo la nostra immagine. In questo esempio, punteremo al primo grafico del primo foglio di lavoro.
 
 ```csharp
-//Prendi la tabella del designer nel secondo foglio.
+// Prendi la tabella del designer nel secondo foglio.
 Worksheet sheet = workbook.Worksheets[0];
 Aspose.Cells.Charts.Chart chart = sheet.Charts[0];
 ```
@@ -100,7 +100,7 @@ Una volta selezionato il grafico, è il momento di aggiungere l'immagine!
 Aspose.Cells.Drawing.Picture pic0 = chart.Shapes.AddPictureInChart(50, 50, stream, 200, 200);
 ```
 
- Qui,`50` E`50` sono le coordinate X e Y in cui verrà posizionata l'immagine, e`200` è la larghezza e l'altezza dell'immagine.
+ Qui,`50` E`50` sono le coordinate X e Y in cui verrà posizionata l'immagine, e`200`è la larghezza e l'altezza dell'immagine.
 
 ## Passaggio 6: personalizzare il formato della linea dell'immagine
 

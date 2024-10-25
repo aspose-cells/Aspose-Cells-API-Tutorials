@@ -37,7 +37,7 @@ Mielőtt bármilyen Excel-fájlt létrehozna, meg kell határoznia, hová szeret
 ```csharp
 // A dokumentumok könyvtárának elérési útja
 string dataDir = "Your Document Directory"; // Adja meg a kívánt útvonalat
-//Hozzon létre könyvtárat, ha még nincs jelen.
+// Hozzon létre könyvtárat, ha még nincs jelen.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -134,7 +134,7 @@ Ez a kódsor a módosításokat egy új, „book1.out.xls” nevű Excel-fájlba
 És itt van – egy teljes útmutató csoportdoboz és választógombok hozzáadásához egy Excel-munkalaphoz az Aspose.Cells for .NET segítségével! Minden egyes lépés során megtanulta, hogyan kell programozottan kezelni az Excelt, így végtelen lehetőségek nyílnak meg a jelentések, adatvizualizációk és egyebek testreszabására. A programozás szépsége abban rejlik, hogy viszonylag egyszerűen automatizálhatja a feladatokat és létrehozhat felhasználóbarát felületeket – képzelje el a lehetőségeket!
 ## GYIK
 ### Mi az Aspose.Cells?
-Az Aspose.Cells egy .NET-könyvtár az Excel-fájlok kezelésére, lehetővé téve az olyan feladatokat, mint az olvasás, az írás és a táblázatok programozott kezelése.
+Az Aspose.Cells egy .NET-könyvtár az Excel-fájlok kezelésére, lehetővé téve az olyan feladatokat, mint az olvasás, írás és a táblázatok programozott kezelése.
 ### Szükségem van kódolási tapasztalatra az Aspose.Cells használatához?
 Noha bizonyos kódolási ismeretek hasznosak, ez az oktatóanyag végigvezeti az alapokon, így a kezdők számára is elérhetővé válik!
 ### Testreszabhatom a csoportdobozok és gombok megjelenését?

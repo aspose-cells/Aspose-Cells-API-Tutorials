@@ -60,7 +60,7 @@ Piense en la hoja de cálculo como las pestañas individuales de un archivo de E
 Ahora que tenemos nuestra hoja de cálculo, es momento de crear un rango. Un rango se refiere a un bloque de celdas, que puede abarcar varias filas y columnas.
 
 ```csharp
-// Crear un rango.
+//Crear un rango.
 Range mrange = worksheet1.Cells.CreateRange("D6", "I12");
 ```
 
@@ -133,7 +133,7 @@ flag.CellShading = true;
 range1.ApplyStyle(style, flag);
 ```
 
- El`StyleFlag`le dice a Aspose.Cells qué propiedades de estilo aplicar (alineación, sombreado, etc.). Esto le brinda control granular sobre cómo se aplica el estilo.
+ El`StyleFlag` le dice a Aspose.Cells qué propiedades de estilo aplicar (alineación, sombreado, etc.). Esto le brinda control granular sobre cómo se aplica el estilo.
 
 ## Paso 9: Ingrese datos en el rango fusionado
 

@@ -17,7 +17,7 @@ url: /zh/net/advanced-chart-operations/using-sparklines/
 
 1. 熟悉 C#：C# 编程的基本知识将帮助您更好地理解编码部分。
 2. 已安装 .NET Framework：确保您的系统上安装了 .NET 框架。
-3. Aspose.Cells for .NET：您需要在项目中使用 Aspose.Cells 库。您可以从以下网址下载[这里](https://releases.aspose.com/cells/net/).
+3. Aspose.Cells for .NET：您需要在项目中使用 Aspose.Cells 库。您可以从以下位置下载[这里](https://releases.aspose.com/cells/net/).
 4. Excel 模板：我们将使用名为`sampleUsingSparklines.xlsx`将其保存在工作目录中。
 
 现在我们已经完成了必要的设置，让我们分解一下实现迷你图的步骤吧！

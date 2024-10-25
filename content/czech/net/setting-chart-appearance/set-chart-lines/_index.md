@@ -9,7 +9,7 @@ url: /cs/net/setting-chart-appearance/set-chart-lines/
 ---
 ## Zavedení
 
-Vytváření vizuálně přitažlivých a informativních grafů je pro reprezentaci dat zásadní. Ať už jste datový analytik, obchodní manažer nebo jen někdo, kdo miluje organizování dat, grafy mohou výrazně zlepšit způsob, jakým prezentujete své informace. Tento tutoriál vás provede procesem nastavení čar grafu pomocí Aspose.Cells for .NET, výkonné knihovny pro manipulaci se soubory aplikace Excel. Na konci budete vědět, jak vytvořit úžasné grafy plné přizpůsobení, aby vaše data v Excelu vyskočila!
+Vytváření vizuálně přitažlivých a informativních grafů je pro reprezentaci dat zásadní. Ať už jste datový analytik, obchodní manažer nebo jen někdo, kdo miluje organizování dat, grafy mohou výrazně zlepšit způsob, jakým prezentujete své informace. Tento tutoriál vás provede procesem nastavení čar grafu pomocí Aspose.Cells for .NET, výkonné knihovny pro manipulaci se soubory aplikace Excel. Na konci budete vědět, jak vytvořit úžasné grafy plné přizpůsobení, aby se vaše data v Excelu objevila!
 
 ## Předpoklady
 

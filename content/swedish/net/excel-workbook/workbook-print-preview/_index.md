@@ -16,7 +16,7 @@ När det gäller att hantera och manipulera Excel-filer är Aspose.Cells för .N
 Innan vi går in i kodningsåtgärden, låt oss se till att du har allt du behöver för att komma igång. Här är en checklista med förutsättningar:
 
 1. Visual Studio: Du behöver en IDE, och Visual Studio är ett utmärkt val för .NET-projekt.
-2.  Aspose.Cells för .NET: Du kan ladda ner biblioteket eller, om du föredrar det, kan du börja med den kostnadsfria testversionen för att få fötterna blöta. Gå bara till[denna länk](https://releases.aspose.com).
+2. Aspose.Cells för .NET: Du kan ladda ner biblioteket eller, om du föredrar det, kan du börja med den kostnadsfria testversionen för att få fötterna blöta. Gå bara över till[denna länk](https://releases.aspose.com).
 3. Grundläggande kunskaper om C#: Att förstå grunderna i C# kommer att hjälpa dig att följa med utan problem.
 4. .NET Framework: Se till att du har en kompatibel version av .NET Framework installerad på din dator.
 5.  Ett exempel på en Excel-fil: För den här handledningen behöver du en Excel-fil att arbeta med. Du kan använda en exempelfil med namnet`Book1.xlsx`.
@@ -33,7 +33,7 @@ Börja med att öppna ditt befintliga projekt eller skapa ett nytt om du börjar
 
 ### Lägg till referens till Aspose.Cells
 
-I din Solution Explorer, högerklicka på ditt projekt och välj Hantera NuGet-paket. Sök efter Aspose.Cells och installera det. Detta är avgörande eftersom det här biblioteket har alla magiska möjligheter vi behöver för att utföra våra förhandsgranskningar.
+din Solution Explorer, högerklicka på ditt projekt och välj Hantera NuGet-paket. Sök efter Aspose.Cells och installera det. Detta är avgörande eftersom det här biblioteket har alla magiska möjligheter vi behöver för att utföra våra förhandsgranskningar.
 
 ### Inkludera nödvändiga namnutrymmen
 
@@ -58,7 +58,7 @@ För att börja vårt äventyr i förhandsgranskningar av utskrifter måste vi d
 string sourceDir = "Your Document Directory";
 ```
 
-Den här koden hjälper oss att hitta vägen dit`Book1.xlsx` finns, vilket gör framtida referenser mycket enklare.
+ Den här koden hjälper oss att hitta vägen dit`Book1.xlsx` finns, vilket gör framtida referenser mycket enklare.
 
 ## Steg 2: Ladda arbetsboken
 
@@ -131,7 +131,7 @@ Och där har du det! Du har framgångsrikt ställt in en förhandsgranskning av 
 Aspose.Cells är ett kraftfullt bibliotek för att hantera Excel-filformat och tillhandahåller funktioner som datamanipulering, formatering och rendering av förhandsvisningar.
 
 ### Måste jag köpa Aspose.Cells för att använda den?
- Du kan börja med en gratis testversion tillgänglig på[denna länk](https://releases.aspose.com)innan du bestämmer dig för att köpa en licens.
+ Du kan börja med en gratis testversion tillgänglig på[denna länk](https://releases.aspose.com) innan du bestämmer dig för att köpa en licens.
 
 ### Kan jag använda Aspose.Cells i vilken .NET-applikation som helst?
 Ja, Aspose.Cells är designat för att fungera med alla .NET-applikationer, inklusive ASP.NET, WinForms och mer.

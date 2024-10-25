@@ -8,7 +8,7 @@ weight: 12
 url: /hu/net/excel-shapes-controls/add-button-to-worksheet-excel/
 ---
 ## Bevezetés
-Az Excel-táblázatok sokoldalúak, és gyakran használják az adatok kezelésére, de néha további interaktivitást igényelnek. A felhasználói élmény javításának egyik legjobb módja az, ha gombokat ad hozzá egy munkalaphoz. Ezek a gombok makrókat indíthatnak el, vagy hasznos linkekre navigálhatják a felhasználókat. Ha Ön Excel-fájlokkal dolgozó .NET-fejlesztő, az Aspose.Cells for .NET egyszerű módot kínál az Excel-munkafüzetek programozott kezelésére, beleértve a gombok hozzáadását.
+Az Excel-táblázatok sokoldalúak, és gyakran használják az adatok kezelésére, de néha további interaktivitást igényelnek. A felhasználói élmény fokozásának egyik legjobb módja az, ha gombokat ad hozzá egy munkalaphoz. Ezek a gombok makrókat indíthatnak el, vagy hasznos linkekre navigálhatják a felhasználókat. Ha Ön Excel-fájlokkal dolgozó .NET-fejlesztő, az Aspose.Cells for .NET egyszerű módot kínál az Excel-munkafüzetek programozott kezelésére, beleértve a gombok hozzáadását.
 Ebben az oktatóanyagban végigvezetjük a gombok hozzáadásának folyamatán az Excel munkalapjaihoz az Aspose.Cells for .NET segítségével. Minden részletre kiterjedünk, az előfeltételek beállításától a lépésről lépésre szóló utasításokig. Merüljünk el!
 ## Előfeltételek
 Mielőtt folytatná ezt az oktatóanyagot, győződjön meg arról, hogy a következő eszközök és csomagok telepítve vannak:
@@ -31,7 +31,7 @@ Ebben az első lépésben létrehozunk egy új Excel-munkafüzetet, és hivatkoz
 ```csharp
 // Határozza meg a dokumentumkönyvtár elérési útját.
 string dataDir = "Your Document Directory";
-//Hozzon létre könyvtárat, ha még nincs jelen.
+// Hozzon létre könyvtárat, ha még nincs jelen.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
 	System.IO.Directory.CreateDirectory(dataDir);

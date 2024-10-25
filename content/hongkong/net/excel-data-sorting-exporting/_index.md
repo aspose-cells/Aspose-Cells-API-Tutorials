@@ -9,7 +9,7 @@ url: /zh-hant/net/excel-data-sorting-exporting/
 ---
 ## 介紹
 
-您準備好升級您的 Excel 遊戲了嗎？如果您希望使用 Aspose.Cells for .NET 對資料進行排序並無縫匯出 HTML 值，那麼您來對地方了！在本文中，我們將深入研究兩個精彩的教學課程：如何使用 Excel 中的自訂排序清單對資料進行排序以及如何將 HTML 字串值從單元格匯出到 DataTable。讓我們開始吧！
+您準備好升級您的 Excel 遊戲了嗎？如果您希望使用 Aspose.Cells for .NET 對資料進行排序並無縫匯出 HTML 值，那麼您來對地方了！在本文中，我們將深入研究兩個精彩的教學課程：如何在 Excel 中使用自訂排序清單對資料進行排序以及如何將 HTML 字串值從單元格匯出到 DataTable。讓我們開始吧！
 
 ## 在 Excel 中對資料進行排序：自訂排序清單變得簡單
 

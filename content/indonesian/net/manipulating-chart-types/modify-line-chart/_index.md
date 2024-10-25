@@ -151,7 +151,7 @@ Ya, Anda dapat memodifikasi berbagai jenis bagan (seperti batang, pai, dsb.) men
  Tentu saja! Anda dapat mencobanya secara gratis[Di Sini](https://releases.aspose.com/).
 
 ### Bagaimana cara mengubah jenis grafik setelah menambahkan seri?
- Anda dapat menggunakan`ChartType` properti untuk menetapkan jenis bagan baru untuk bagan Anda.
+Anda dapat menggunakan`ChartType` properti untuk menetapkan jenis bagan baru untuk bagan Anda.
 
 ### Di mana saya dapat menemukan dokumentasi yang lebih rinci?
  Lihat dokumentasinya[Di Sini](https://reference.aspose.com/cells/net/).

@@ -29,7 +29,7 @@ Tyto jmenné prostory vám umožní přístup ke všem funkcím kreslení a funk
 Za prvé – založme adresář, kam budete ukládat ty zbrusu nové excelové soubory. Děláme to takto:
 ```csharp
 string dataDir = "Your Document Directory";
-//Vytvořte adresář, pokud ještě není přítomen.
+// Vytvořte adresář, pokud ještě není přítomen.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);

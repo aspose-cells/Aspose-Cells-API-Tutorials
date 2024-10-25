@@ -25,7 +25,7 @@ Trong khi Aspose.Cells đơn giản hóa nhiều tác vụ, thì hiểu biết c
 Bạn nên thiết lập một IDE như Visual Studio. Điều này hướng dẫn bạn xử lý và kiểm tra mã của mình một cách hiệu quả.
 
 ### Các tệp Excel mẫu
-Bạn sẽ cần các tập tin mẫu (`samplePageSetupIsAutomaticPaperSize-False.xlsx` Và`samplePageSetupIsAutomaticPaperSize-True.xlsx`) cho mục đích thử nghiệm. Đảm bảo các tệp này nằm trong thư mục nguồn của bạn.
+Bạn sẽ cần các tập tin mẫu (`samplePageSetupIsAutomaticPaperSize-False.xlsx` Và`samplePageSetupIsAutomaticPaperSize-True.xlsx`cho mục đích thử nghiệm. Đảm bảo các tệp này nằm trong thư mục nguồn của bạn.
 
 ## Nhập gói
 

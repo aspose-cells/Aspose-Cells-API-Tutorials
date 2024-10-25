@@ -47,7 +47,7 @@ string sourceDir = "Your Document Directory"; // अपनी दस्ताव
 //आउटपुट निर्देशिका
 string outputDir = "Your Document Directory"; // अपनी आउटपुट निर्देशिका सेट करें
 ```
- प्रतिस्थापित करें`"Your Document Directory"` वास्तविक पथ के साथ जहाँ आपका`sampleRotateTextWithShapeInsideWorksheet.xlsx`फ़ाइल स्थित है.
+ प्रतिस्थापित करें`"Your Document Directory"` वास्तविक पथ के साथ जहाँ आपका`sampleRotateTextWithShapeInsideWorksheet.xlsx` फ़ाइल स्थित है.
 ## चरण 2: नमूना एक्सेल फ़ाइल लोड करें
 अब, आइए सैंपल एक्सेल फ़ाइल लोड करें। यह महत्वपूर्ण है, क्योंकि हम मौजूदा डेटा में हेरफेर करना चाहते हैं।
 ```csharp
@@ -91,7 +91,7 @@ wb.Save(outputDir + "outputRotateTextWithShapeInsideWorksheet.xlsx");
 ```
 और बस! आपकी आउटपुट फ़ाइल अब सहेज ली गई है, जिसमें सेल B4 का टेक्स्ट और आकृति में किए गए समायोजन शामिल हैं।
 ## चरण 8: कोड निष्पादित करें
- आपके`Main`विधि, ऊपर दिए गए सभी कोड स्निपेट को लपेटें, और अपना प्रोजेक्ट चलाएँ। अपने आउटपुट फ़ाइल में परिवर्तन देखें!
+ आपके`Main` विधि, ऊपर दिए गए सभी कोड स्निपेट को लपेटें, और अपना प्रोजेक्ट चलाएँ। अपने आउटपुट फ़ाइल में परिवर्तन देखें!
 ```csharp
 Console.WriteLine("RotateTextWithShapeInsideWorksheet executed successfully.");
 ```
@@ -105,6 +105,6 @@ Aspose.Cells विभिन्न प्रकार के एक्सेल 
 ### क्या पुराने एक्सेल संस्करणों में आकृतियों के साथ पाठ को घुमाना संभव है?
 हां, यह कार्यक्षमता Aspose.Cells द्वारा समर्थित पुराने प्रारूपों पर लागू की जा सकती है।
 ### मैं Aspose.Cells के बारे में अधिक दस्तावेज़ कहां पा सकता हूं?
- आप व्यापक जानकारी प्राप्त कर सकते हैं[प्रलेखन](https://reference.aspose.com/cells/net/)अधिक जानकारी के लिए.
+ आप व्यापक जानकारी प्राप्त कर सकते हैं[प्रलेखन](https://reference.aspose.com/cells/net/) अधिक जानकारी के लिए.
 ### मैं Aspose.Cells के लिए समर्थन कैसे प्राप्त करूं?
  आप यहां जाकर सहायता मांग सकते हैं[एस्पोज फोरम](https://forum.aspose.com/c/cells/9).

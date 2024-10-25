@@ -14,7 +14,7 @@ Innan du dyker in i kodens snålhet finns det några saker du måste ha till han
 1. Visual Studio: Helst bör du arbeta i en miljö som stöder .NET, som Visual Studio. Denna IDE gör det enkelt att skriva, testa och felsöka dina applikationer.
 2. Aspose.Cells Library: Du måste ha Aspose.Cells-biblioteket installerat. Du kan skaffa den via NuGet-pakethanteraren eller ladda ner den direkt från[Aspose hemsida](https://releases.aspose.com/cells/net/).
 3.  Exempelfiler: För demonstrationsändamål, se till att du har en bild (som`logo.jpg`) och en Excel-fil (`book1.xls`) att arbeta med. Dessa kommer att hänvisas till i koden.
-4. Grundläggande förståelse för C#: Bekantskap med C# hjälper dig att förstå stegen och göra ändringar om det behövs.
+4. Grundläggande förståelse för C#: Bekantskap med C# hjälper dig att förstå stegen och göra ändringar vid behov.
 När du har allt på plats är det dags att kavla upp ärmarna och sätta igång med att infoga OLE-objekt i Excel!
 ## Importera paket
 För att manipulera Excel-filer med Aspose.Cells måste du först importera de nödvändiga paketen. Lägg till följande namnområden överst i din C#-fil:
@@ -35,7 +35,7 @@ string dataDir = "Your Document Directory";
 ## Steg 2: Skapa katalogen om den inte finns
 Därefter vill vi se till att den här katalogen finns. Om det inte gör det måste vi skapa det.
 ```csharp
-//Skapa katalog om den inte redan finns.
+// Skapa katalog om den inte redan finns.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -58,7 +58,7 @@ Snyggt och enkelt! Vi är redo att börja lägga till innehåll i det här arbet
 ## Steg 5: Definiera sökvägen för bilden
 Låt oss nu ange en sökväg för bilden du vill bädda in i din Excel-fil.
 ```csharp
-// Definiera en strängvariabel för att lagra bildsökvägen.
+//Definiera en strängvariabel för att lagra bildsökvägen.
 string ImageUrl = dataDir + "logo.jpg";
 ```
  Se till att den här sökvägen korrekt återspeglar var din`logo.jpg` filen lagras.
@@ -87,7 +87,7 @@ Precis som vi gjorde med bilden måste vi ladda själva Excel-filen i en byte-ar
 ```csharp
 // Hämta filen i strömmarna.
 fs = File.OpenRead(path);
-// Definiera en array av byte.
+//Definiera en array av byte.
 byte[] objectData = new Byte[fs.Length];
 // Lagra filen från strömmar.
 fs.Read(objectData, 0, objectData.Length);

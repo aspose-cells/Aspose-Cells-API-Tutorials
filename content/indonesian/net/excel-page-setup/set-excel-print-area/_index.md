@@ -47,7 +47,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
  Mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur pada komputer tempat Anda ingin menyimpan berkas Excel. Ini seperti menyiapkan base camp sebelum mendaki gunung!
 
-## Langkah 2: Membuat Instansi Objek Buku Kerja
+## Langkah 2: Membuat Instansiasi Objek Buku Kerja
 
 Buat contoh kelas Buku Kerja.
 

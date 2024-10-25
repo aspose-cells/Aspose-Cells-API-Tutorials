@@ -16,7 +16,7 @@ A dinamikus és tetszetős diagramok Excelben készítése fantasztikus módja a
 Mielőtt belevágnánk a kódolásba, van néhány dolog, amit a helyén kell tartani:
 
 - A C# alapvető ismerete: Hasznos lesz a C# programozás alapvető ismerete. Ne aggódj; nem kell szakértőnek lenni, csak kényelmesen eligazodni a szintaxisban.
-- Telepített Aspose.Cells Library: Győződjön meg arról, hogy telepítve van az Aspose.Cells for .NET könyvtár. Letöltheti innen[itt](https://releases.aspose.com/cells/net/) ha még nem tetted meg.
+-  Telepített Aspose.Cells Library: Győződjön meg arról, hogy telepítve van az Aspose.Cells for .NET könyvtár. Letöltheti innen[itt](https://releases.aspose.com/cells/net/)ha még nem tetted meg.
 - Visual Studio: Alapvető fontosságú a Visual Studio vagy bármely olyan IDE ismerete, amelyet a .NET keretrendszerhez szeretne használni.
 - Meglévő Excel-fájl: Ebben a példában egy "sampleAddingTextBoxControlInChart.xls" nevű meglévő Excel-fájllal fogunk dolgozni. Létrehozhat egyet, vagy letölthet egy mintát.
 
@@ -59,7 +59,7 @@ Ez a sor inicializál egy új munkafüzet objektumot a megadott fájlunkkal.
 
 ## 3. lépés: Nyissa meg a diagramot a munkalapon
 
-Mivel az Excelben a diagramok egy munkalapon belül vannak tárolva, először el kell érnünk a munkalapot, majd be kell szereznünk a kívánt diagramot. Ebben a példában az első munkalap első diagramját fogjuk elérni.
+Mivel az Excel diagramjai egy munkalapon belül vannak tárolva, először el kell érnünk a munkalapot, majd be kell szereznünk a kívánt diagramot. Ebben a példában az első munkalap első diagramját fogjuk elérni.
 
 ```csharp
 // Szerezze be a tervezői diagramot az első lapon.
@@ -136,7 +136,7 @@ Az utolsó lépés az elvégzett módosítások mentése egy új Excel-fájlba. 
 // Mentse el az excel fájlt.
 workbook.Save(outputDir + "outputAddingTextBoxControlInChart.xls");
 ```
- Cserélje ki`"outputAddingTextBoxControlInChart.xls"` kívánt fájlnévvel.
+ Cserélje ki`"outputAddingTextBoxControlInChart.xls"` a kívánt fájlnévvel.
 
 ## Következtetés
 

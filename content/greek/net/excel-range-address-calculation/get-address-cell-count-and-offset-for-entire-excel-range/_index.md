@@ -121,4 +121,4 @@ Console.WriteLine("GetAddressCellCountOffsetEntireColumnAndEntireRowOfTheRange e
 ### Πού μπορώ να βρω περισσότερη τεκμηρίωση για το Aspose.Cells;  
  Μπορείτε να ελέγξετε το[Τεκμηρίωση Aspose.Cells](https://reference.aspose.com/cells/net/) για λεπτομερείς οδηγούς και αναφορές API.
 ### Πώς μπορώ να λάβω υποστήριξη για το Aspose.Cells;  
- Για υποστήριξη και απορίες, επισκεφθείτε τη διεύθυνση[Aspose φόρουμ](https://forum.aspose.com/c/cells/9)όπου μπορείτε να βρείτε βοήθεια από την κοινότητα και την ομάδα υποστήριξης.
+ Για υποστήριξη και απορίες, επισκεφθείτε τη διεύθυνση[Aspose φόρουμ](https://forum.aspose.com/c/cells/9) όπου μπορείτε να βρείτε βοήθεια από την κοινότητα και την ομάδα υποστήριξης.

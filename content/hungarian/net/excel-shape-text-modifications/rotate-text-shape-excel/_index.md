@@ -12,7 +12,7 @@ Az Excel világában a vizuális megjelenítés ugyanolyan fontos, mint maga az 
 ## Előfeltételek
 Mielőtt elkezdenénk, győződjünk meg arról, hogy mindennel megvan, amire szüksége van:
 1. Visual Studio: Győződjön meg arról, hogy a Visual Studio telepítve van a gépén, mert ott írjuk majd a kódunkat.
-2.  Aspose.Cells for .NET: Szüksége lesz az Aspose.Cells könyvtárra. Megteheti[töltse le a legújabb verziót innen](https://releases.aspose.com/cells/net/) vagy próbálja ki ingyen a[ingyenes próbaverzió](https://releases.aspose.com/).
+2.  Aspose.Cells for .NET: Szüksége lesz az Aspose.Cells könyvtárra. Tudod[töltse le a legújabb verziót innen](https://releases.aspose.com/cells/net/) vagy próbálja ki ingyen a[ingyenes próbaverzió](https://releases.aspose.com/).
 3. Alapvető C# ismerete: Hasznos lesz a C# és a .NET környezet ismerete, bár mi minden lépésnél eligazodunk.
 4.  Excel fájl: egy példa Excel fájl, nevezzük`sampleRotateTextWithShapeInsideWorksheet.xlsx`, kódunk teszteléséhez szükséges. Ezt a fájlt egy könnyen elérhető könyvtárba kell helyeznie.
 Minden készen van? Fantasztikus! Ugorjunk a szórakoztató részre.
@@ -26,7 +26,7 @@ Az induláshoz importálnunk kell a szükséges csomagokat a projektünkbe. Íme
 Most adjuk hozzá az Aspose.Cells elemet a projekthez. Ezt a NuGet Package Manager segítségével teheti meg:
 1. Nyissa meg az "Eszközök" elemet a felső menüben.
 2. Válassza a „NuGet Package Manager”, majd a „Manage NuGet Packages for Solution” lehetőséget.
-3. Keresse meg az "Aspose.Cells" kifejezést.
+3. Keresse meg az „Aspose.Cells” kifejezést.
 4. Kattintson a "Telepítés" gombra, hogy hozzáadja a projekthez.
 ### Használati irányelv hozzáadása
 fő C# fájl tetején hozzá kell adnia a következő direktívát:
@@ -47,7 +47,7 @@ string sourceDir = "Your Document Directory"; // Állítsa be a dokumentumkönyv
 //Kimeneti könyvtár
 string outputDir = "Your Document Directory"; // Állítsa be a kimeneti könyvtárat
 ```
- Cserélje ki`"Your Document Directory"` a tényleges útvonallal, ahol az Ön`sampleRotateTextWithShapeInsideWorksheet.xlsx`fájl található.
+ Cserélje ki`"Your Document Directory"` a tényleges útvonallal, ahol az Ön`sampleRotateTextWithShapeInsideWorksheet.xlsx` fájl található.
 ## 2. lépés: Töltse be az Excel mintafájlt
 Most töltsük be az Excel mintafájlt. Ez döntő fontosságú, mivel a meglévő adatokat szeretnénk manipulálni.
 ```csharp
@@ -82,7 +82,7 @@ Aspose.Cells.Drawing.Texts.ShapeTextAlignment shapeTextAlignment = sh.TextBody.T
 //Ne forgassa el a szöveget alakzattal a RotateTextWithShape beállításával hamis.
 shapeTextAlignment.RotateTextWithShape = false;
 ```
- Beállítás által`RotateTextWithShape` hamisra, biztosítjuk, hogy a szöveg függőleges maradjon, és ne forogjon az alakzattal együtt, így minden rendben és rendezett marad.
+ Beállítással`RotateTextWithShape` hamisra, biztosítjuk, hogy a szöveg függőleges maradjon, és ne forogjon az alakzattal együtt, így minden rendben és rendezett marad.
 ## 7. lépés: Mentse el a kimeneti Excel fájlt
 Végül mentsük el a változtatásainkat egy új Excel fájlba. Ez biztosítja, hogy ne vesszenek el a szerkesztéseink, és a kimenet rendezett legyen.
 ```csharp
@@ -91,7 +91,7 @@ wb.Save(outputDir + "outputRotateTextWithShapeInsideWorksheet.xlsx");
 ```
 És ennyi! A kimeneti fájl most mentésre került, beleértve a B4 cellában lévő szöveget és az alakzaton végzett módosításokat.
 ## 8. lépés: Hajtsa végre a kódot
- A tiédben`Main`módszert, csomagolja be az összes fenti kódrészletet, és futtassa a projektet. Lásd a változásokat a kimeneti fájlban!
+ A tiédben`Main` módszert, csomagolja be az összes fenti kódrészletet, és futtassa a projektet. Lásd a változásokat a kimeneti fájlban!
 ```csharp
 Console.WriteLine("RotateTextWithShapeInsideWorksheet executed successfully.");
 ```
@@ -105,6 +105,6 @@ Az Aspose.Cells számos Excel-formátumot támogat, beleértve az XLS-t, az XLSX
 ### Lehetséges a szöveg alakzatokkal való elforgatása a régebbi Excel verziókban?
 Igen, a funkció alkalmazható az Aspose.Cells által támogatott régebbi formátumokra.
 ### Hol találok további dokumentációt az Aspose.Cellsről?
- Megtekintheti az átfogó[dokumentáció](https://reference.aspose.com/cells/net/)további betekintésekért.
+ Megtekintheti az átfogó[dokumentáció](https://reference.aspose.com/cells/net/) további betekintésekért.
 ### Hogyan kaphatok támogatást az Aspose.Cells-hez?
  Támogatást kérhet az alábbi címen[Aspose fórum](https://forum.aspose.com/c/cells/9).

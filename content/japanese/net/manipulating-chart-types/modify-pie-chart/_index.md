@@ -18,7 +18,7 @@ Excel シートの円グラフを美しく仕上げる方法を考えたこと�
 - C# の基礎知識: C# プログラミングの基礎を理解しておくと、簡単に理解できるようになります。
 - Aspose.Cells for .NET: Aspose.Cells ライブラリをインストールする必要があります。フル バージョンを使用するか、無料試用版を選択するかにかかわらず、準備が整っていることを確認してください。
 - Visual Studio または任意の C# IDE: C# コードを記述して実行するための環境が必要です。
--  Excelサンプルファイル: このチュートリアルでは、サンプルExcelファイル`sampleModifyPieChart.xlsx`使用されます。
+-  Excelサンプルファイル: このチュートリアルでは、`sampleModifyPieChart.xlsx`使用されます。
 
  Aspose.Cellsライブラリをダウンロードできます[ここ](https://releases.aspose.com/cells/net/).
 
@@ -96,7 +96,7 @@ Workbook workbook = new Workbook(sourceDir + "sampleModifyPieChart.xlsx");
 さて、円グラフが含まれている特定のシートを見てみましょう。円グラフは 2 番目のワークシート (インデックス 1) にあると仮定します。
 
 ```csharp
-// 枚目のシートでデザイナー チャートを取得します。
+// 2 枚目のシートでデザイナー チャートを取得します。
 Worksheet sheet = workbook.Worksheets[1];
 ```
 

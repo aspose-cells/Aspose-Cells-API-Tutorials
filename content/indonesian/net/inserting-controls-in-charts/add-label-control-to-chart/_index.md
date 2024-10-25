@@ -62,7 +62,7 @@ Berikutnya, kita akan memuat berkas Excel berisi bagan yang ingin kita beri labe
 Workbook workbook = new Workbook(sourceDir + "sampleAddingLabelControlInChart.xls");
 ```
 
- Di sini, kami menggunakan`Workbook`kelas dari Aspose.Cells untuk membuka berkas Excel kita. Ini seperti membuka pintu agar kreativitas mengalir!
+ Di sini, kami menggunakan`Workbook` kelas dari Aspose.Cells untuk membuka berkas Excel kita. Ini seperti membuka pintu agar kreativitas mengalir!
 
 ## Langkah 3: Akses Lembar Kerja
 
@@ -94,7 +94,7 @@ Sekarang tibalah bagian yang menarik – menambahkan label ke grafik. Kita akan 
 Aspose.Cells.Drawing.Label label = chart.Shapes.AddLabelInChart(600, 600, 350, 900);
 ```
 
- Di Sini,`AddLabelInChart`menangani pembuatan label berdasarkan koordinat dan dimensi yang Anda tentukan. Mirip seperti memasang bingkai cantik di sekeliling karya seni Anda!
+ Di Sini,`AddLabelInChart` menangani pembuatan label berdasarkan koordinat dan dimensi yang Anda tentukan. Mirip seperti memasang bingkai cantik di sekeliling karya seni Anda!
 
 ## Langkah 6: Mengatur Teks Label
 

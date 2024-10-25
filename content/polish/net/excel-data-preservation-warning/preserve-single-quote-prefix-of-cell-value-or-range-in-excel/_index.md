@@ -63,7 +63,7 @@ Następnie bierzemy w ręce pierwszy arkusz roboczy skoroszytu. To tutaj będzie
 Worksheet ws = wb.Worksheets[0];
 ```
 
-W tym przypadku wybierany jest po prostu pierwszy arkusz kalkulacyjny, co zazwyczaj wystarcza w przypadku większości zadań, chyba że potrzebujesz wielu arkuszy.
+tym przypadku wybierany jest po prostu pierwszy arkusz kalkulacyjny, co zazwyczaj wystarcza w przypadku większości zadań, chyba że potrzebujesz wielu arkuszy.
 
 ## Krok 3: Dostęp i modyfikacja wartości komórki
 
@@ -161,7 +161,7 @@ flag.QuotePrefix = true;
 rng.ApplyStyle(st, flag);
 ```
 
- W tej rundzie ustalamy`flag.QuotePrefix = true`, co oznacza, że chcemy zaktualizować prefiks cudzysłowu komórki.
+ tej rundzie ustalamy`flag.QuotePrefix = true`, co oznacza, że chcemy zaktualizować prefiks cudzysłowu komórki.
 
 ## Krok 9: Ostateczna kontrola prefiksu oferty
 

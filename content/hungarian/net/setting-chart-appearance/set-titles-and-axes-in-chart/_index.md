@@ -13,7 +13,7 @@ A tetszetős és informatív diagramok készítése az adatelemzés és -bemutat
 
 ## Előfeltételek
 
-Mielőtt belemerülnénk a lépésről lépésre bemutatott oktatóanyagba, győződjünk meg arról, hogy mindennel rendelkezünk, ami az induláshoz szükséges. Itt vannak az előfeltételek:
+Mielőtt belemerülnénk a lépésről lépésre bemutatott oktatóanyagba, győződjön meg arról, hogy mindennel rendelkezik, amire szüksége van az induláshoz. Itt vannak az előfeltételek:
 
 1. Visual Studio: Győződjön meg arról, hogy a Visual Studio telepítve van a rendszerére a .NET-alkalmazások fejlesztéséhez.
 2. .NET-keretrendszer: Győződjön meg arról, hogy a .NET-keretrendszer 4.0-s vagy újabb verzióját használja.

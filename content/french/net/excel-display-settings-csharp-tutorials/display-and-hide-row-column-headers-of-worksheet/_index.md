@@ -53,7 +53,7 @@ Ensuite, vous devrez créer un flux de fichiers pour ouvrir votre fichier Excel.
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
 
-Ici, nous précisons que nous voulons ouvrir`book1.xls` situé dans le répertoire spécifié.`FileMode.Open` Le paramètre indique que nous ouvrons un fichier existant. Assurez-vous toujours que le nom du fichier correspond à celui que vous avez.
+ Ici, nous précisons que nous voulons ouvrir`book1.xls` situé dans le répertoire spécifié.`FileMode.Open` Le paramètre indique que nous ouvrons un fichier existant. Assurez-vous toujours que le nom du fichier correspond à celui que vous avez.
 
 ## Étape 3 : instancier un objet classeur
 
@@ -83,7 +83,7 @@ Et maintenant, le moment que nous attendions ! C'est ici que nous masquons les e
 worksheet.IsRowColumnHeadersVisible = false;
 ```
 
- Paramètre`IsRowColumnHeadersVisible` à`false`masquera efficacement les en-têtes des lignes et des colonnes, créant ainsi une apparence plus propre pour la présentation de vos données.
+ Paramètre`IsRowColumnHeadersVisible` à`false` masquera efficacement les en-têtes des lignes et des colonnes, créant ainsi une apparence plus propre pour la présentation de vos données.
 
 ## Étape 6 : Enregistrer le fichier Excel modifié
 

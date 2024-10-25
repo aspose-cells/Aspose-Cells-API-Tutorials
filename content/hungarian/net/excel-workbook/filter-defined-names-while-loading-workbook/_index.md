@@ -106,4 +106,4 @@ A meghatározott nevek szűrése hibás képletekhez vezethet, ha hivatkoznak ez
  Igen, megkaphatja az Aspose.Cells ingyenes próbaverzióját, hogy vásárlás előtt tesztelje a képességeit. Nézd meg[itt](https://releases.aspose.com/).
 
 ### Hol találok további példákat és dokumentációt?
-Az Aspose.Cells hivatkozási oldalon átfogó dokumentációt és további példákat találhat[itt](https://reference.aspose.com/cells/net/).
+ Az Aspose.Cells hivatkozási oldalon átfogó dokumentációt és további példákat találhat[itt](https://reference.aspose.com/cells/net/).

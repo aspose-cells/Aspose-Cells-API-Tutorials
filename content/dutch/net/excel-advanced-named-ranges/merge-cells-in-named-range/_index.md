@@ -46,7 +46,7 @@ Door een nieuwe werkmap te initialiseren, hebben we nu een leeg Excel-bestand da
 
 ## Stap 2: Toegang tot het eerste werkblad
 
-Elke werkmap bevat werkbladen, en in dit geval willen we met de eerste werken. Laten we hem pakken!
+Elke werkmap bevat werkbladen, en in dit geval willen we met de eerste werken. Laten we die pakken!
 
 ```csharp
 // Pak het eerste werkblad uit de werkmap.
@@ -60,7 +60,7 @@ Beschouw het werkblad als de afzonderlijke tabbladen in een Excel-bestand waar d
 Nu we ons werkblad hebben, is het tijd om een bereik te maken. Een bereik verwijst naar een blok cellen, dat meerdere rijen en kolommen kan beslaan.
 
 ```csharp
-// Maak een bereik.
+//Maak een bereik.
 Range mrange = worksheet1.Cells.CreateRange("D6", "I12");
 ```
 
@@ -133,7 +133,7 @@ flag.CellShading = true;
 range1.ApplyStyle(style, flag);
 ```
 
- De`StyleFlag`vertelt Aspose.Cells welke stijleigenschappen moeten worden toegepast: uitlijning, arcering, enz. Dit geeft u gedetailleerde controle over hoe de stijl wordt toegepast.
+ De`StyleFlag` vertelt Aspose.Cells welke stijleigenschappen moeten worden toegepast: uitlijning, arcering, enz. Dit geeft u gedetailleerde controle over hoe de stijl wordt toegepast.
 
 ## Stap 9: Gegevens invoeren in het samengevoegde bereik
 

@@ -9,7 +9,7 @@ url: /pl/net/manipulating-chart-types/modify-line-chart/
 ---
 ## Wstęp
 
-Tworzenie atrakcyjnych wizualnie i informacyjnych wykresów jest niezbędne do skutecznej reprezentacji danych, szczególnie w środowisku biznesowym i akademickim. Ale jak ulepszyć wykresy liniowe, aby przekazać historię stojącą za liczbami? To właśnie tutaj wkracza Aspose.Cells dla .NET. W tym artykule zagłębimy się w używanie Aspose.Cells do bezproblemowej modyfikacji istniejącego wykresu liniowego. Omówimy wszystko, od wymagań wstępnych po instrukcje krok po kroku, pomagając Ci w pełni wykorzystać Twoje wysiłki związane z wizualizacją danych. 
+Tworzenie atrakcyjnych wizualnie i informacyjnych wykresów jest niezbędne do skutecznej reprezentacji danych, szczególnie w środowisku biznesowym i akademickim. Ale jak ulepszyć wykresy liniowe, aby przekazać historię stojącą za liczbami? To właśnie tutaj wkracza Aspose.Cells dla .NET. W tym artykule zagłębimy się w używanie Aspose.Cells do bezproblemowej modyfikacji istniejącego wykresu liniowego. Omówimy wszystko, od warunków wstępnych po instrukcje krok po kroku, pomagając Ci w pełni wykorzystać Twoje wysiłki związane z wizualizacją danych. 
 
 ## Wymagania wstępne 
 
@@ -151,7 +151,7 @@ Tak, możesz modyfikować różne typy wykresów (np. słupkowy, kołowy itp.) z
  Oczywiście! Możesz wypróbować za darmo[Tutaj](https://releases.aspose.com/).
 
 ### Jak mogę zmienić typ wykresu po dodaniu serii?
- Możesz użyć`ChartType` Właściwość umożliwiająca ustawienie nowego typu wykresu dla Twojego wykresu.
+Możesz użyć`ChartType` Właściwość umożliwiająca ustawienie nowego typu wykresu dla Twojego wykresu.
 
 ### Gdzie mogę znaleźć bardziej szczegółową dokumentację?
  Sprawdź dokumentację[Tutaj](https://reference.aspose.com/cells/net/).

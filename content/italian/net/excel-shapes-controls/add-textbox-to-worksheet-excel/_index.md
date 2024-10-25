@@ -29,11 +29,11 @@ Se non lo hai ancora fatto, puoi aggiungere Aspose.Cells tramite NuGet Package M
 3. Cerca “Aspose.Cells” e installalo per il tuo progetto.
 Ora che abbiamo gettato le basi, passiamo alla parte divertente!
 ## Passaggio 1: impostazione della directory dei documenti
-Per prima cosa, impostiamo la directory in cui verranno archiviati tutti i tuoi documenti Excel. È essenziale assicurarsi che questa directory esista prima di iniziare a creare la nostra cartella di lavoro.
+Per prima cosa, impostiamo la directory in cui saranno archiviati tutti i tuoi documenti Excel. È essenziale assicurarsi che questa directory esista prima di iniziare a creare la nostra cartella di lavoro.
 ```csharp
 // Percorso verso la directory dei documenti.
 string dataDir = "Your Document Directory"; 
-//Creare la directory se non è già presente.
+// Creare la directory se non è già presente.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists) 
     System.IO.Directory.CreateDirectory(dataDir);

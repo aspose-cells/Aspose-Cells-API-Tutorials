@@ -48,7 +48,7 @@ Most, hogy a beállításokat rendeztük, bontsuk le egyszerű, világos lépés
 
 ## 1. lépés: Állítsa be a forrás- és kimeneti könyvtárat
 
-Először határozzuk meg a forrás- és kimeneti könyvtárunkat. Ezek a könyvtárak tárolják a bemeneti fájlunkat (ahonnan a diagramot fogjuk kiolvasni) és a kimeneti fájlt (ahová a módosított diagram mentésre kerül).
+Először határozzuk meg a forrás- és kimeneti könyvtárunkat. Ezek a könyvtárak tárolják a bemeneti fájlunkat (ahonnan a diagramot olvassuk) és a kimeneti fájlt (ahová a módosított diagram mentésre kerül).
 
 ```csharp
 // Forrás könyvtár

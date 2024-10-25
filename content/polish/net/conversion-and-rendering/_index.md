@@ -2,7 +2,7 @@
 title: Konwersja i renderowanie
 linktitle: Konwersja i renderowanie
 second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Zapoznaj się z samouczkami Aspose.Cells for .NET, zawierającymi zaawansowane przewodniki na temat płynnej konwersji i renderowania plików Excela do różnych formatów.
+description: Zapoznaj się z samouczkami Aspose.Cells for .NET, w których znajdziesz zaawansowane przewodniki na temat płynnej konwersji i renderowania plików Excela do różnych formatów.
 type: docs
 weight: 31
 url: /pl/net/conversion-and-rendering/

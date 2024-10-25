@@ -60,7 +60,7 @@ Tänk på kalkylbladet som de enskilda flikarna i en Excel-fil där den faktiska
 Nu när vi har vårt arbetsblad är det dags att skapa ett sortiment. Ett intervall hänvisar till ett block av celler som kan sträcka sig över flera rader och kolumner.
 
 ```csharp
-// Skapa ett intervall.
+//Skapa ett intervall.
 Range mrange = worksheet1.Cells.CreateRange("D6", "I12");
 ```
 
@@ -133,7 +133,7 @@ flag.CellShading = true;
 range1.ApplyStyle(style, flag);
 ```
 
- De`StyleFlag`talar om för Aspose.Cells vilka stilegenskaper som ska tillämpas—justering, skuggning, etc. Detta ger dig granulär kontroll över hur stilen appliceras.
+ De`StyleFlag` talar om för Aspose.Cells vilka stilegenskaper som ska tillämpas—justering, skuggning, etc. Detta ger dig granulär kontroll över hur stilen appliceras.
 
 ## Steg 9: Mata in data i det sammanslagna intervallet
 

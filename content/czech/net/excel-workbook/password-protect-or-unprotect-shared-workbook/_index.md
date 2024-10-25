@@ -77,7 +77,7 @@ Pokud si to rozmyslíte nebo potřebujete sešit později upravit, můžete jej 
 
 Až budete připraveni znovu provádět úpravy, jednoduše zavoláte tuto metodu se správným heslem.
 
-## Krok 5: Uložte výstupní soubor Excel
+## Krok 5: Uložte výstupní soubor aplikace Excel
 
 Posledním krokem je uložení sešitu. Zde se vaše tvrdá práce uloží pro budoucí použití – podobně jako ukládání dokumentu do počítače.
 
@@ -100,7 +100,7 @@ Díky tomu budete vědět, že váš kód byl proveden podle očekávání a vá
 
 ## Závěr
 
-tomto tutoriálu jsme prošli, jak chránit a zrušit ochranu sdíleného sešitu pomocí Aspose.Cells for .NET. Dodržováním těchto kroků můžete zajistit, aby vaše soubory Excel zůstaly v bezpečí a zároveň umožňovaly spolupráci. Ať už sdílíte citlivá finanční data nebo klientské informace, ochrana vaší práce je v dnešním prostředí klíčová.
+V tomto tutoriálu jsme prošli, jak chránit a zrušit ochranu sdíleného sešitu pomocí Aspose.Cells for .NET. Dodržováním těchto kroků můžete zajistit, aby vaše soubory Excel zůstaly v bezpečí a zároveň umožňovaly spolupráci. Ať už sdílíte citlivá finanční data nebo klientské informace, ochrana vaší práce je v dnešním prostředí klíčová.
 
 ## FAQ
 
@@ -117,4 +117,4 @@ Bohužel, pokud zapomenete heslo, nebudete moci odemknout sešit bez použití n
 Aspose.Cells primárně podporuje .NET, ale mají knihovny i pro Javu a další jazyky. Podívejte se na jejich stránky pro více informací!
 
 ### Jak získám podporu pro Aspose.Cells?
- pomoc se můžete obrátit prostřednictvím jejich fóra podpory:[Aspose Support](https://forum.aspose.com/c/cells/9).
+ O pomoc se můžete obrátit prostřednictvím jejich fóra podpory:[Aspose Support](https://forum.aspose.com/c/cells/9).

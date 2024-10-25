@@ -56,7 +56,7 @@ Hier maakt u een bestandsstroom om het Excel-bestand te lezen.
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
   
- De`FileStream` class stelt u in staat om bestanden te lezen en ernaar te schrijven. In dit geval openen we ons Excel-bestand in leesmodus.
+ De`FileStream`class stelt u in staat om bestanden te lezen en ernaar te schrijven. In dit geval openen we ons Excel-bestand in leesmodus.
 
 ## Stap 3: Een werkmapobject instantiëren
 
@@ -67,7 +67,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 Workbook workbook = new Workbook(fstream);
 ```
   
- Dit`Workbook`Het object bevat nu alle gegevens en instellingen van uw Excel-bestand, zodat u deze later in het proces kunt bewerken.
+ Dit`Workbook` Het object bevat nu alle gegevens en instellingen van uw Excel-bestand, zodat u deze later in het proces kunt bewerken.
 
 ## Stap 4: Verberg de verticale schuifbalk
 
@@ -100,7 +100,7 @@ Nadat u de zichtbaarheidsinstellingen hebt gewijzigd, moet u uw wijzigingen opsl
 workbook.Save(dataDir + "output.xls");
 ```
   
-Deze code slaat de gewijzigde werkmap op onder een nieuwe naam (`output.xls`). Hiermee wordt voorkomen dat uw oorspronkelijke bestand wordt overschreven, zodat u een back-up kunt maken.
+Deze code slaat de gewijzigde werkmap op onder een nieuwe naam (`output.xls`). Hiermee wordt voorkomen dat uw oorspronkelijke bestand wordt overschreven, zodat u een back-up kunt bewaren.
 
 ## Stap 7: Sluit de bestandsstroom
 
@@ -132,4 +132,4 @@ U kunt met verschillende Excel-formaten werken, waaronder .xls, .xlsx, .xlsm, .x
  Controleer de[Aspose.Cells-documentatie](https://reference.aspose.com/cells/net/) voor aanvullende voorbeelden en tutorials.
 
 ### Wat moet ik doen als ik problemen ondervind bij het gebruik van Aspose.Cells?  
- U kunt hulp zoeken of problemen melden in het Aspose-ondersteuningsforum[hier](https://forum.aspose.com/c/cells/9).
+ kunt hulp zoeken of problemen melden in het Aspose-ondersteuningsforum[hier](https://forum.aspose.com/c/cells/9).

@@ -110,10 +110,10 @@ Aspose.Cells عبارة عن مكتبة .NET مصممة لإنشاء ملفات 
  يمكنك تنزيل Aspose.Cells من[موقع إلكتروني](https://releases.aspose.com/cells/net/).
 
 ### هل هناك نسخة مجانية من Aspose.Cells؟
-نعم! يمكنك تجربة Aspose.Cells مجانًا عن طريق تنزيل نسخة تجريبية[هنا](https://releases.aspose.com/).
+ نعم! يمكنك تجربة Aspose.Cells مجانًا عن طريق تنزيل نسخة تجريبية[هنا](https://releases.aspose.com/).
 
 ### أين يمكنني الحصول على الدعم؟
- لأي أسئلة تتعلق بالدعم، يمكنك زيارة[منتدى اسبوس](https://forum.aspose.com/c/cells/9).
+لأي أسئلة تتعلق بالدعم، يمكنك زيارة[منتدى اسبوس](https://forum.aspose.com/c/cells/9).
 
 ### هل يمكنني استخدام Aspose.Cells في بيئة سحابية؟
 نعم، يمكن دمج Aspose.Cells في أي تطبيق .NET، بما في ذلك الإعدادات المستندة إلى السحابة، طالما يتم دعم وقت تشغيل .NET.

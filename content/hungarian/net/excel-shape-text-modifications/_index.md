@@ -27,11 +27,11 @@ Ami az Excel automatizálását illeti, a megfelelő eszközök megléte mindent
 
 ## Hozzáférés a nem primitív alakzatokhoz
 
- Az alakzatok megértése elengedhetetlen része az Excellel való munkavégzésnek, különösen akkor, ha bonyolult és tetszetős dokumentumokat szeretne létrehozni. Az oktatóanyag a[Hozzáférés a nem primitív alakzathoz az Excelben](./access-non-primitive-shape-excel/) felbecsülhetetlen. Útmutatást ad a szabványos formátumokon túlmutató, összetettebb alakzatok kezeléséhez. Gondoljon rá, mint egy fejlett eszköztár feloldására; hirtelen többé nem kötik az alapvető formák, és kreatívabb terveket és funkciókat építhet be táblázataiba.
+ Az alakzatok megértése elengedhetetlen része az Excellel való munkavégzésnek, különösen akkor, ha bonyolult és tetszetős dokumentumokat szeretne létrehozni. Az oktatóanyag a[Hozzáférés a nem primitív alakzathoz az Excelben](./access-non-primitive-shape-excel/) felbecsülhetetlen. Útmutatást ad a szabványos formátumokon túlmutató, összetettebb alakzatok kezeléséhez. Gondoljon úgy, mint egy fejlett eszköztár feloldására; hirtelen többé nem kötik az alapvető formák, és kreatívabb terveket és funkciókat építhet be táblázataiba.
 
 ## OLE-objektumok frissítése a dinamikus tartalomhoz
 
- Ezen túlmenően, ha OLE-objektumokkal (például beágyazott fájlokkal vagy linkelt diagramokkal) foglalkozik, nem hagyhatja ki a[Az OLE objektum frissítése az Excelben](./refresh-ole-object-excel/) oktatóanyag. A tartalom dinamikus és naprakész tartása elengedhetetlen, különösen a mai rohanó munkakörnyezetben. Ez az útmutató végigvezeti Önt azokon a folyamatokon, amelyek biztosítják, hogy a beágyazott objektumok tükrözzék a legújabb adatokat vagy adathordozó-változásokat. Képzelje el ezt: éppen most frissítette a csatolt diagramot egy külön dokumentumban, és egy egyszerű frissítéssel az Excel-lap azonnal tükrözi ezeket a változásokat. Ez olyan, mintha élő hírfolyamot kapna közvetlenül a jelentésekben!
+ Ezen túlmenően, ha OLE-objektumokkal (például beágyazott fájlokkal vagy linkelt diagramokkal) foglalkozik, nem hagyhatja ki a[Az OLE objektum frissítése az Excelben](./refresh-ole-object-excel/) oktatóanyag. A tartalom dinamikus és naprakész tartása elengedhetetlen, különösen a mai rohanó munkakörnyezetben. Ez az útmutató végigvezeti azokon a folyamatokon, amelyek biztosítják, hogy a beágyazott objektumok tükrözzék a legújabb adatokat vagy adathordozó-változásokat. Képzelje el ezt: éppen most frissítette a csatolt diagramot egy külön dokumentumban, és egy egyszerű frissítéssel az Excel-lap azonnal tükrözi ezeket a változásokat. Ez olyan, mintha élő hírfolyamot kapna közvetlenül a jelentésekben!
 
 ## Margók beállítása professzionális prezentációhoz
 
@@ -44,7 +44,7 @@ Ismerje meg, hogyan bonthat ki szöveget fogaskerék-típusú SmartArtból az Ex
 Az Aspose.Cells for .NET segítségével könnyedén cserélje ki az Excel-lapok szövegmezőiben lévő szöveget. Útmutató lépésről lépésre az Excel automatizálásához.
 ### [Forgassa el a szöveget az alakzattal az Excelben](./rotate-text-shape-excel/)
 Ismerje meg, hogyan forgathat el szöveget alakzatokkal az Excelben az Aspose.Cells for .NET segítségével. Kövesse ezt a lépésről lépésre útmutatót a tökéletes Excel-prezentáció érdekében.
-### [Csempe kép textúra alakban az Excelben](./tile-picture-texture-shape-excel/)
+### [Mozaik kép textúra alakban az Excelben](./tile-picture-texture-shape-excel/)
 Ezzel a könnyen követhető, lépésről lépésre mutató oktatóanyaggal megtudhatja, hogyan csempézhet textúraként egy képet az Excelben az Aspose.Cells for .NET segítségével.
 ### [Olvassa el az Alak ragyogása hatását az Excelben](./read-glow-effect-shape-excel/)
 Könnyen beolvassa az alakzatok fényhatásait az Excelben az Aspose.Cells for .NET segítségével ezzel a fejlesztőknek szóló, lépésenkénti útmutatóval.

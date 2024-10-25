@@ -16,7 +16,7 @@ url: /el/net/excel-shape-text-modifications/set-margins-comment-shape-excel/
 ### Ρύθμιση περιβάλλοντος
 1. Visual Studio: Βεβαιωθείτε ότι έχετε εγκαταστήσει το Visual Studio. Είναι ένα περιβάλλον ανάπτυξης που απλοποιεί την κωδικοποίηση.
 2.  Aspose.Cells Library: Χρειάζεστε τη βιβλιοθήκη Aspose.Cells. Εάν δεν το έχετε κάνει ήδη, μπορείτε να το κατεβάσετε[εδώ](https://releases.aspose.com/cells/net/).
-3.  Δείγμα αρχείου Excel: Δημιουργήστε ή πραγματοποιήστε λήψη ενός δείγματος αρχείου Excel. Για αυτό το σεμινάριο, θα χρησιμοποιήσουμε ένα αρχείο με το όνομα`sampleSetMarginsOfCommentOrShapeInsideTheWorksheet.xlsx`.
+3. Δείγμα αρχείου Excel: Δημιουργήστε ή πραγματοποιήστε λήψη ενός δείγματος αρχείου Excel. Για αυτό το σεμινάριο, θα χρησιμοποιήσουμε ένα αρχείο με το όνομα`sampleSetMarginsOfCommentOrShapeInsideTheWorksheet.xlsx`.
 ## Εισαγωγή πακέτων
 Το πρώτο βήμα στο ταξίδι μας περιλαμβάνει την εισαγωγή των απαραίτητων πακέτων. Θα χρειαστεί να συμπεριλάβετε τους χώρους ονομάτων Aspose.Cells στο έργο σας. Αυτό θα σας δώσει πρόσβαση σε όλες τις λειτουργίες που έχει να προσφέρει το Aspose.Cells.
 ### Ανοίξτε το έργο σας
@@ -72,7 +72,7 @@ foreach (Shape sh in ws.Shapes)
 Aspose.Cells.Drawing.Texts.ShapeTextAlignment txtAlign = sh.TextBody.TextAlignment;
 txtAlign.IsAutoMargin = false;
 ```
- Με ρύθμιση`IsAutoMargin` για ψευδή, τώρα έχουμε τον έλεγχο των περιθωρίων.
+ Με ρύθμιση`IsAutoMargin`για ψευδή, τώρα έχουμε τον έλεγχο των περιθωρίων.
 ## Βήμα 6: Ορίστε τα περιθώρια
 Αυτό είναι το κρίσιμο βήμα όπου ορίζουμε τα περιθώρια. Μπορείτε να προσαρμόσετε αυτές τις τιμές σύμφωνα με τις ανάγκες σας.
 ```csharp
@@ -105,4 +105,4 @@ Console.WriteLine("SetMarginsOfCommentOrShapeInsideTheWorksheet executed success
 ### Είναι εύκολο να ενσωματωθεί η βιβλιοθήκη σε υπάρχοντα έργα;
 Απολύτως! Το Aspose.Cells ενσωματώνεται εύκολα σε έργα .NET και το API του είναι απλό.
 ### Πού μπορώ να βρω υποστήριξη για το Aspose.Cells;
-Μπορείτε να λάβετε υποστήριξη μέσω του Aspose[δικαστήριο](https://forum.aspose.com/c/cells/9).
+ Μπορείτε να λάβετε υποστήριξη μέσω του Aspose[δικαστήριο](https://forum.aspose.com/c/cells/9).

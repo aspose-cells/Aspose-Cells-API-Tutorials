@@ -91,9 +91,9 @@ Bằng cách hiểu cách thao tác các hình dạng theo chương trình, bạ
 ### Tôi có thể lấy điểm kết nối cho tất cả các hình dạng trong một bảng tính không?
 Có, Aspose.Cells cho phép bạn lấy các điểm kết nối cho bất kỳ hình dạng nào hỗ trợ chúng. Chỉ cần lặp qua bộ sưu tập hình dạng trong bảng tính.
 ### Tôi có cần giấy phép để sử dụng Aspose.Cells không?
-Có, mặc dù bạn có thể dùng thử miễn phí, nhưng cần phải có giấy phép để có đầy đủ tính năng. Bạn có thể[mua giấy phép ở đây](https://purchase.aspose.com/buy) hoặc nhận được một[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
+Có, mặc dù bạn có thể dùng thử miễn phí, nhưng cần phải có giấy phép để có đầy đủ tính năng. Bạn có thể[mua giấy phép ở đây](https://purchase.aspose.com/buy)hoặc nhận được một[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
 ### Làm thế nào tôi có thể thêm các loại hình dạng khác nhau vào Aspose.Cells?
- Bạn có thể sử dụng`Add` phương pháp cho các hình dạng như hình chữ nhật, hình elip, v.v. Mỗi hình dạng có các tham số cụ thể mà bạn có thể tùy chỉnh.
+Bạn có thể sử dụng`Add` phương pháp cho các hình dạng như hình chữ nhật, hình elip, v.v. Mỗi hình dạng có các tham số cụ thể mà bạn có thể tùy chỉnh.
 ### Làm thế nào để tải tệp Excel hiện có thay vì tạo tệp mới?
  Để tải một tệp hiện có, hãy chuyển đường dẫn tệp đến`Workbook` constructor, như thế này:  
 ```csharp

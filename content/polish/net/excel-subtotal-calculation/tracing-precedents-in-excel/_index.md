@@ -71,10 +71,10 @@ foreach (ReferredArea area in ret)
     Console.WriteLine(CellsHelper.CellIndexToName(area.EndRow, area.EndColumn));
 }
 ```
- W tym fragmencie kodu wykorzystujemy prosty`foreach` pętla do drukowania nazw arkuszy i odwołań do komórek komórek zasilających B4.`CellsHelper.CellIndexToName`funkcja przekształca indeksy wierszy i kolumn na czytelne odwołania do komórek, takie jak „A1”, „B2” itd. 
+ W tym fragmencie kodu wykorzystujemy prosty`foreach` pętla do drukowania nazw arkuszy i odwołań do komórek komórek zasilających B4.`CellsHelper.CellIndexToName` funkcja przekształca indeksy wierszy i kolumn na czytelne odwołania do komórek, takie jak „A1”, „B2” itd. 
 
 ## Wniosek
-I masz to! Udało Ci się prześledzić precedensy w programie Excel przy użyciu Aspose.Cells dla .NET. Zrozumienie zależności komórek może poprawić Twoje umiejętności zarządzania arkuszem kalkulacyjnym i zapewnić przejrzystość decyzji opartych na danych. To trochę jak rozwiązywanie puzzli, składanie w całość, skąd pochodzą Twoje dane. Teraz spróbuj tego na własnych danych i uwolnij moc Aspose.Cells!
+masz to! Udało Ci się prześledzić precedensy w programie Excel przy użyciu Aspose.Cells dla .NET. Zrozumienie zależności komórek może poprawić Twoje umiejętności zarządzania arkuszem kalkulacyjnym i zapewnić przejrzystość decyzji opartych na danych. To trochę jak rozwiązywanie puzzli, składanie w całość, skąd pochodzą Twoje dane. Teraz spróbuj tego na własnych danych i uwolnij moc Aspose.Cells!
 ## Najczęściej zadawane pytania
 ### Czym jest Aspose.Cells?  
 Aspose.Cells to biblioteka .NET służąca do tworzenia, modyfikowania i konwertowania arkuszy kalkulacyjnych programu Excel bez użycia programu Microsoft Excel.
@@ -85,4 +85,4 @@ Aspose.Cells to biblioteka .NET służąca do tworzenia, modyfikowania i konwert
 ### Czy Aspose.Cells jest kompatybilny z .NET Core?  
 Tak, Aspose.Cells obsługuje platformę .NET Core, co pozwala na używanie go w różnych środowiskach .NET.
 ### Gdzie mogę znaleźć pomoc dotyczącą Aspose.Cells?  
-Możesz uzyskać pomoc na[Forum wsparcia Aspose](https://forum.aspose.com/c/cells/9).
+ Możesz uzyskać pomoc na[Forum wsparcia Aspose](https://forum.aspose.com/c/cells/9).

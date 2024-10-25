@@ -37,7 +37,7 @@ string dataDir = "Your Document Directory";
  Här anger du katalogsökvägen där Excel-filen ska lagras. Du kan byta ut`"Your Document Directory"` med den faktiska sökvägen på din dator, eller skapa en mapp dynamiskt om den inte finns.
 ### Kontrollera och skapa katalogen
 ```csharp
-//Skapa katalog om den inte redan finns.
+// Skapa katalog om den inte redan finns.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -51,7 +51,7 @@ Workbook excelbook = new Workbook();
 ```
  Genom att ringa till`Workbook` konstruktor har du nu en tom Excel-arbetsbok redo för anpassning.
 ## Steg 3: Lägga till en rektangelkontroll
-Det är här magin händer. Du lägger till en rektangel i det första kalkylbladet i din arbetsbok.
+Här händer magin. Du lägger till en rektangel i det första kalkylbladet i din arbetsbok.
 ```csharp
 // Lägg till en rektangelkontroll.
 Aspose.Cells.Drawing.RectangleShape rectangle = excelbook.Worksheets[0].Shapes.AddRectangle(3, 0, 2, 0, 70, 130);

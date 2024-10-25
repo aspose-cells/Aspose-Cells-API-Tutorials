@@ -16,7 +16,7 @@ Dans le monde numérique d'aujourd'hui, la gestion sécurisée des données dans
 Avant de plonger dans le vif du sujet de la protection des cellules, vous devez mettre en place quelques conditions préalables :
 
 1. Visual Studio : assurez-vous que Visual Studio est installé sur votre ordinateur. Il s'agit de l'IDE principal pour le développement .NET.
-2.  Bibliothèque Aspose.Cells : vous devez disposer de la bibliothèque Aspose.Cells dans votre projet. Vous pouvez facilement l'installer via le gestionnaire de packages NuGet ou la télécharger directement depuis le[Site Aspose.Cells](https://releases.aspose.com/cells/net/).
+2. Bibliothèque Aspose.Cells : vous devez disposer de la bibliothèque Aspose.Cells dans votre projet. Vous pouvez facilement l'installer via le gestionnaire de packages NuGet ou la télécharger directement depuis le[Site Aspose.Cells](https://releases.aspose.com/cells/net/).
 3. Connaissances de base en C# : une petite familiarité avec la programmation C# vous aidera à suivre en douceur.
 
 ## Importation de paquets
@@ -52,7 +52,7 @@ Vous devez d'abord déterminer où enregistrer votre fichier Excel. Voici commen
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // Spécifiez ici le chemin de votre répertoire
-//Créez un répertoire s'il n'est pas déjà présent.
+// Créez un répertoire s'il n'est pas déjà présent.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -88,7 +88,7 @@ Pour garantir que seules des cellules spécifiques sont verrouillées, vous deve
 for (int i = 0; i <= 255; i++)
 {
     Style style = sheet.Cells.Columns[(byte)i].Style;
-    style.IsLocked = false; // Déverrouiller la colonne
+    style.IsLocked = false; //Déverrouiller la colonne
     StyleFlag styleflag = new StyleFlag();
     styleflag.Locked = true; // Indiquer que nous voulons verrouiller ce style
     sheet.Cells.Columns[(byte)i].ApplyStyle(style, styleflag);

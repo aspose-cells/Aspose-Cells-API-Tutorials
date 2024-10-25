@@ -51,7 +51,7 @@ Anggap saja ini seperti memberikan instruksi spesifik—pada dasarnya Anda berka
 ## Langkah 4: Buat Objek Buku Kerja
  Baiklah, kita hampir sampai! Sekarang kita akan membuat`Workbook` objek, yang pada dasarnya adalah tempat Aspose.Cells akan memuat konten berkas Excel Anda.
 ```csharp
-// Membuat objek Buku Kerja dan membuka file dari jalurnya
+//Membuat objek Buku Kerja dan membuka file dari jalurnya
 Workbook book = new Workbook(dataDir + "Book1.xlsx", loadOptions);
 ```
  Pada baris ini, ganti`"Book1.xlsx"` dengan nama file Excel Anda yang sebenarnya. Voilà! Buku kerja Anda telah dimuat dengan semua data penting.

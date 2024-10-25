@@ -15,11 +15,11 @@ In questo tutorial, ti mostreremo come configurare un collegamento al contenuto 
 
 Prima di iniziare, assicurati di avere tutto ciò di cui hai bisogno a posto. Senza i seguenti prerequisiti, il processo non funzionerà senza intoppi:
 
-1.  Aspose.Cells per la libreria .NET: devi avere Aspose.Cells per .NET installato sul tuo computer. Se non lo hai ancora scaricato, prendilo da[Pagina di download di Aspose.Cells per .NET](https://releases.aspose.com/cells/net/).
+1. Aspose.Cells per la libreria .NET: devi avere Aspose.Cells per .NET installato sul tuo computer. Se non lo hai ancora scaricato, prendilo da[Pagina di download di Aspose.Cells per .NET](https://releases.aspose.com/cells/net/).
 2. Ambiente di sviluppo: utilizzare qualsiasi ambiente di sviluppo supportato da .NET, ad esempio Visual Studio.
 3. Conoscenza di base di C#: questa guida presuppone una certa familiarità con C# e .NET.
 4. File Excel: avere un file Excel esistente con cui lavorare. Nel nostro esempio, useremo un file chiamato "sample-document-properties.xlsx".
-5. Patente temporanea: se non si dispone di una patente completa, è possibile ottenerne una[licenza temporanea qui](https://purchase.aspose.com/temporary-license/) per evitare limitazioni alla manipolazione dei file.
+5.  Patente temporanea: se non si dispone di una patente completa, è possibile ottenerne una[licenza temporanea qui](https://purchase.aspose.com/temporary-license/) per evitare limitazioni alla manipolazione dei file.
 
 ## Importa pacchetti
 
@@ -49,7 +49,7 @@ string dataDir = "Your Document Directory";
 Workbook workbook = new Workbook(dataDir + "sample-document-properties.xlsx");
 ```
 
--  Cartella di lavoro workbook = new Workbook(): Questa riga crea una nuova cartella di lavoro`Workbook`object, che è la classe principale utilizzata per lavorare con i file Excel in Aspose.Cells.
+-  Cartella di lavoro workbook = new Workbook(): Questa riga crea una nuova cartella di lavoro`Workbook` object, che è la classe principale utilizzata per lavorare con i file Excel in Aspose.Cells.
 - dataDir: Qui puoi specificare il percorso del tuo file Excel. Sostituisci "Your Document Directory" con il percorso effettivo sul tuo computer.
 
 Immagina questo passaggio come se stessi aprendo una porta: stai accedendo al file per apportare le modifiche necessarie!
@@ -59,7 +59,7 @@ Immagina questo passaggio come se stessi aprendo una porta: stai accedendo al fi
 Una volta caricato il file, dobbiamo accedere alle sue proprietà personalizzate del documento. Queste proprietà sono archiviate in una raccolta che puoi recuperare e manipolare.
 
 ```csharp
-// Recupera un elenco di tutte le proprietà personalizzate del documento del file Excel
+//Recupera un elenco di tutte le proprietà personalizzate del documento del file Excel
 Aspose.Cells.Properties.CustomDocumentPropertyCollection customProperties = workbook.Worksheets.CustomDocumentProperties;
 ```
 
@@ -78,7 +78,7 @@ customProperties.AddLinkToContent("Owner", "MyRange");
 
 - AddLinkToContent: questo metodo aggiunge una proprietà personalizzata (in questo caso, "Owner") e la collega a un intervallo specifico o a un'area denominata ("MyRange") all'interno del foglio di lavoro.
 
-Immagina di allegare un'etichetta a una parte specifica del tuo foglio di calcolo e che ora quell'etichetta possa interagire con il contenuto di quella sezione.
+Immagina di allegare un'etichetta a una parte specifica del tuo foglio di calcolo e che quell'etichetta possa ora interagire con il contenuto di quella sezione.
 
 ## Passaggio 4: Recupera e controlla la proprietà collegata
 
@@ -93,7 +93,7 @@ bool islinkedtocontent = customProperty1.IsLinkedToContent;
 ```
 
 - proprietàpersonalizzate["Proprietario"]: Stiamo recuperando la proprietà "Proprietario" in base al nome per esaminarne i dettagli.
-- IsLinkedToContent: questo valore booleano restituisce`true` se la proprietà è collegata correttamente al contenuto.
+-  IsLinkedToContent: questo valore booleano restituisce`true` se la proprietà è collegata correttamente al contenuto.
 
 A questo punto, è come controllare se l'etichetta (proprietà) è correttamente collegata al contenuto. Stai assicurandoti che il tuo codice abbia fatto ciò che ti aspettavi.
 
@@ -121,7 +121,7 @@ workbook.Save(dataDir + "out_sample-document-properties.xlsx");
 
 - workbook.Save(): salva il file Excel con le modifiche applicate. Puoi specificare un nuovo nome file per evitare di sovrascrivere il file originale.
 
-Immagina questo passaggio come se stessi premendo il pulsante "Salva" per bloccare tutte le tue modifiche.
+Immagina che questo passaggio sia come premere il pulsante "Salva" per bloccare tutte le tue modifiche.
 
 ## Conclusione
 

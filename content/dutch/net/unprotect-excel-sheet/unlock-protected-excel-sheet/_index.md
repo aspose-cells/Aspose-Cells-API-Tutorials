@@ -87,7 +87,7 @@ Zodra het werkblad niet meer beschermd is, moet u de wijzigingen die u hebt aang
 ```csharp
 workbook.Save(dataDir + "output.out.xls");
 ```
- Hier sla je de wijzigingen op in een nieuw bestand met de naam "output.out.xls" in dezelfde directory. Je kunt het hernoemen zoals je wilt, maar zorg ervoor dat je de`.xls`extensie zodat het herkenbaar blijft als een Excel-bestand.
+ Hier sla je de wijzigingen op in een nieuw bestand met de naam "output.out.xls" in dezelfde directory. Je kunt het hernoemen zoals je wilt, maar zorg ervoor dat je de`.xls` extensie zodat het herkenbaar blijft als een Excel-bestand.
 
 ## Stap 6: Foutafhandeling
 
@@ -116,7 +116,7 @@ En daar heb je het! Het ontgrendelen van een beschermd Excel-blad met Aspose.Cel
 Jazeker! U kunt elk blad in de werkmap doorlopen en de beveiliging ervan op dezelfde manier opheffen.
 
 ### Is Aspose.Cells gratis te gebruiken?
-Aspose.Cells biedt een gratis proefperiode, maar voor productiegebruik is een licentie vereist. Bekijk hun[aankoop](https://purchase.aspose.com/buy) pagina voor meer informatie.
+ Aspose.Cells biedt een gratis proefperiode, maar voor productiegebruik is een licentie vereist. Bekijk hun[aankoop](https://purchase.aspose.com/buy) pagina voor meer informatie.
 
 ### Wat als ik het wachtwoord niet weet?
 Als een werkblad met een wachtwoord is beveiligd en u beschikt niet over het wachtwoord, kan de bibliotheek u niet helpen de beperkingen te omzeilen, omdat dit in strijd is met het ethische beleid.

@@ -24,7 +24,7 @@ Ora che abbiamo la nostra checklist, passiamo alla parte divertente: la codifica
 
 ## Importa pacchetti
 
-Per dare il via alle cose, dobbiamo importare i pacchetti necessari nel nostro progetto C#. Ecco il pacchetto che dovresti cercare:
+Per dare il via alle cose, dobbiamo importare i pacchetti necessari nel nostro progetto C#. Ecco il pacchetto che dovresti tenere d'occhio:
 
 ```csharp
 using System;
@@ -161,7 +161,7 @@ flag.QuotePrefix = true;
 rng.ApplyStyle(st, flag);
 ```
 
- In questo round, stiamo impostando`flag.QuotePrefix = true`, il che significa che vogliamo aggiornare il prefisso della cella.
+In questo round, stiamo impostando`flag.QuotePrefix = true`, il che significa che vogliamo aggiornare il prefisso della cella.
 
 ## Fase 9: Controllo finale del prefisso del preventivo
 
@@ -183,7 +183,7 @@ Ed ecco fatto! Seguendo questi passaggi, hai imparato come preservare il prefiss
 
 ## Domande frequenti
 
-### Qual è lo scopo del prefisso apice singolo in Excel?  
+### A cosa serve il prefisso apice singolo in Excel?  
 Il prefisso con virgolette singole indica a Excel di trattare il valore come testo, il che garantisce che non venga interpretato come un numero o una formula.
 
 ### Posso usare Aspose.Cells nelle applicazioni web?  

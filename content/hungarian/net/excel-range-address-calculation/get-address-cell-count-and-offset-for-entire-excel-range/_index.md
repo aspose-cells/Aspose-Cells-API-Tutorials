@@ -110,7 +110,7 @@ Console.WriteLine("GetAddressCellCountOffsetEntireColumnAndEntireRowOfTheRange e
 ```
 És ennyi! Létrehozott egy egyszerű, de hatékony eszközt, amellyel az Aspose.Cells for .NET segítségével lekérheti az alapvető információkat az Excel-tartományokból.
 ## Következtetés
-Gratulálunk ennek az oktatóanyagnak a befejezéséhez! Megtanulta, hogyan hozhat létre munkafüzetet, hogyan férhet hozzá tartományokhoz, és hogyan kérhet le értékes információkat az Aspose.Cells for .NET segítségével. Ezekkel az új készségekkel most már profiként kezelheti az Excel fájlokat. Akár jelentéseket készít, akár adatokat elemez, akár csak adatkezeléssel foglalkozik, ez a könyvtár értékes eszköz az Ön arzenáljában.
+Gratulálunk ennek az oktatóanyagnak a befejezéséhez! Megtanulta, hogyan hozhat létre munkafüzetet, hogyan férhet hozzá a tartományokhoz, és hogyan kérhet le értékes információkat az Aspose.Cells for .NET segítségével. Ezekkel az új készségekkel most már profiként kezelheti az Excel fájlokat. Akár jelentéseket készít, akár adatokat elemez, akár csak adatkezeléssel foglalkozik, ez a könyvtár értékes eszköz az Ön arzenáljában.
 ## GYIK
 ### Mi az Aspose.Cells a .NET számára?  
 Az Aspose.Cells for .NET egy hatékony könyvtár az Excel-fájlok kezelésére .NET-alkalmazásokban. Lehetővé teszi a fejlesztők számára az Excel-dokumentumok programozott létrehozását, kezelését és konvertálását.
@@ -121,4 +121,4 @@ Igen, vannak alternatív könyvtárak, például az EPPlus és a ClosedXML, de a
 ### Hol találok további dokumentációt az Aspose.Cells-ről?  
  Ellenőrizheti a[Aspose.Cells dokumentáció](https://reference.aspose.com/cells/net/) részletes útmutatókért és API-referenciákért.
 ### Hogyan kaphatok támogatást az Aspose.Cells-hez?  
- Támogatásért és kérdésért látogassa meg a[Aspose fórum](https://forum.aspose.com/c/cells/9)ahol segítséget kaphat a közösségtől és a támogató csapattól.
+ Támogatásért és kérdésért látogassa meg a[Aspose fórum](https://forum.aspose.com/c/cells/9) ahol segítséget kaphat a közösségtől és a támogató csapattól.

@@ -9,7 +9,7 @@ url: /hu/net/excel-workbook/extract-embedded-mol-file/
 ---
 ## Bevezetés
 
-Előfordult már, hogy beágyazott fájlokat, különösen MOL fájlokat kell kibontania egy Excel-táblázatból? Ez egy trükkös munka, nem? De ne aggódj! A .NET-hez készült Aspose.Cells segítségével ezt a bonyolultnak tűnő feladatot egy sétává varázsolhatjuk a parkban. Ebben az oktatóanyagban lépésről lépésre bemutatjuk, hogyan bontsa ki a MOL fájlokat Excel-fájlból a hatékony Aspose.Cells könyvtár segítségével.
+Előfordult már, hogy beágyazott fájlokat, különösen MOL fájlokat kell kicsomagolnia egy Excel-táblázatból? Ez egy trükkös munka, nem? De ne aggódj! A .NET-hez készült Aspose.Cells segítségével ezt a bonyolultnak tűnő feladatot egy sétává varázsolhatjuk a parkban. Ebben az oktatóanyagban lépésről lépésre bemutatjuk, hogyan bontsa ki a MOL fájlokat Excel-fájlból a hatékony Aspose.Cells könyvtár segítségével.
 
 ## Előfeltételek
 
@@ -132,7 +132,7 @@ Az Aspose.Cells for .NET egy hatékony könyvtár, amelyet a .NET-alkalmazásoko
 Teljesen! Az Aspose.Cells lehetővé teszi a különböző beágyazott fájlformátumok, például PDF-ek, képek és egyebek kibontását, nem csak MOL-fájlokat.
 
 ### Meg kell vásárolnom az Aspose.Cells-t a használatához?  
- Bár ingyenes próbaverzió áll rendelkezésre, a teljes funkciókhoz licencre van szükség. Megteheti[vásárolja meg itt](https://purchase.aspose.com/buy).
+ Bár ingyenes próbaverzió áll rendelkezésre, a teljes funkciókhoz licencre van szükség. Tudod[vásárolja meg itt](https://purchase.aspose.com/buy).
 
 ### Szükséges-e Visual Studio ehhez a folyamathoz?  
 Miközben bemutattuk a Visual Studio használatát, bármilyen C#-kompatibilis IDE-t használhat a projekt futtatásához.

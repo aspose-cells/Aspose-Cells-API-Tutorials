@@ -53,7 +53,7 @@ Em seguida, você precisará criar um fluxo de arquivo para abrir seu arquivo Ex
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
 
-Aqui, especificamos que queremos abrir`book1.xls` localizado no diretório especificado. O`FileMode.Open` parâmetro indica que estamos abrindo um arquivo existente. Sempre garanta que o nome do arquivo corresponda ao que você tem.
+ Aqui, especificamos que queremos abrir`book1.xls` localizado no diretório especificado. O`FileMode.Open` parâmetro indica que estamos abrindo um arquivo existente. Sempre garanta que o nome do arquivo corresponda ao que você tem.
 
 ## Etapa 3: Instanciar um objeto de pasta de trabalho
 
@@ -83,7 +83,7 @@ Agora, o momento que estávamos esperando! É aqui que realmente escondemos os c
 worksheet.IsRowColumnHeadersVisible = false;
 ```
 
- Contexto`IsRowColumnHeadersVisible` para`false`ocultará efetivamente os cabeçalhos em linhas e colunas, criando uma aparência mais limpa para sua apresentação de dados.
+ Contexto`IsRowColumnHeadersVisible` para`false` ocultará efetivamente os cabeçalhos em linhas e colunas, criando uma aparência mais limpa para sua apresentação de dados.
 
 ## Etapa 6: Salve o arquivo Excel modificado
 
@@ -107,7 +107,7 @@ fstream.Close();
 
 ## Conclusão
 
-E aí está! Você aprendeu como ocultar os cabeçalhos de linha e coluna de uma planilha do Excel usando o Aspose.Cells for .NET por meio de uma série de etapas simples. Isso pode melhorar a legibilidade e a apresentação geral de suas planilhas, permitindo que seu público se concentre apenas nos dados que você deseja destacar.
+aí está! Você aprendeu como ocultar os cabeçalhos de linha e coluna de uma planilha do Excel usando o Aspose.Cells for .NET por meio de uma série de etapas simples. Isso pode melhorar a legibilidade e a apresentação geral de suas planilhas, permitindo que seu público se concentre apenas nos dados que você deseja destacar.
 
 ## Perguntas frequentes
 

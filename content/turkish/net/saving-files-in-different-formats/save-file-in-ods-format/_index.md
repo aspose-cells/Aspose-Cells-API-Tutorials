@@ -12,7 +12,7 @@ url: /tr/net/saving-files-in-different-formats/save-file-in-ods-format/
 ## Ön koşullar
 Ayrıntılara girmeden önce, her şeyin doğru şekilde ayarlandığından emin olalım:
 - .NET Framework: Makinenizde .NET Framework'ün yüklü olduğundan emin olun. Aspose.Cells for .NET ile uyumlu herhangi bir sürümü kullanabilirsiniz.
-- Aspose.Cells Kütüphanesi: Aspose.Cells kütüphanesini indirmeniz gerekecek. Excel dosyalarını ve daha fazlasını yönetmenizi sağlayan güçlü bir araçtır. Bunu şuradan edinebilirsiniz:[indirme bağlantısı](https://releases.aspose.com/cells/net/).
+-  Aspose.Cells Kütüphanesi: Aspose.Cells kütüphanesini indirmeniz gerekecek. Excel dosyalarını ve daha fazlasını yönetmenizi sağlayan güçlü bir araçtır. Bunu şuradan edinebilirsiniz:[indirme bağlantısı](https://releases.aspose.com/cells/net/).
 - Geliştirme Ortamı: .NET kodunuzu yazabileceğiniz ve çalıştırabileceğiniz Visual Studio gibi uygun bir geliştirme ortamı şarttır.
 Artık ön koşullarımızı tamamladığımıza göre gerekli paketleri içe aktaralım.
 ## Paketleri İçe Aktar

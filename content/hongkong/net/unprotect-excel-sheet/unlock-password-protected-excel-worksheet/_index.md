@@ -94,7 +94,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 
 ## 步驟 4：取消工作表保護
 
-這就是神奇的部分！ 
+這是神奇的部分！ 
 
 ```csharp
 worksheet.Unprotect("");

@@ -16,7 +16,7 @@ Du bör ha en grundläggande förståelse för C# och .NET. Denna handledning ä
 ### Miljöinställningar
 1. Visual Studio: Se till att du har Visual Studio installerat. Det är en utvecklingsmiljö som förenklar kodning.
 2.  Aspose.Cells Library: Du behöver Aspose.Cells-biblioteket. Om du inte redan har gjort det kan du ladda ner den[här](https://releases.aspose.com/cells/net/).
-3.  Exempel på Excel-fil: Skapa eller ladda ner ett exempel på en Excel-fil. För den här handledningen kommer vi att använda en fil med namnet`sampleSetMarginsOfCommentOrShapeInsideTheWorksheet.xlsx`.
+3. Exempel på Excel-fil: Skapa eller ladda ner ett exempel på en Excel-fil. För den här handledningen kommer vi att använda en fil med namnet`sampleSetMarginsOfCommentOrShapeInsideTheWorksheet.xlsx`.
 ## Importera paket
 Det första steget på vår resa innebär att importera de nödvändiga paketen. Du måste inkludera Aspose.Cells-namnrymden i ditt projekt. Detta ger dig tillgång till alla funktioner som Aspose.Cells har att erbjuda.
 ### Öppna ditt projekt
@@ -72,7 +72,7 @@ Varje form kan redan ha en justeringsinställning som vi behöver ändra. Här k
 Aspose.Cells.Drawing.Texts.ShapeTextAlignment txtAlign = sh.TextBody.TextAlignment;
 txtAlign.IsAutoMargin = false;
 ```
- Genom att ställa in`IsAutoMargin` till falskt, vi har nu kontroll över marginalerna.
+ Genom att ställa in`IsAutoMargin`till falskt, vi har nu kontroll över marginalerna.
 ## Steg 6: Ställ in marginalerna
 Detta är det avgörande steget där vi definierar marginalerna. Du kan anpassa dessa värden efter dina behov.
 ```csharp
@@ -105,4 +105,4 @@ Aspose.Cells är ett .NET-bibliotek utformat för att skapa, manipulera och konv
 ### Är biblioteket lätt att integrera i befintliga projekt?
 Absolut! Aspose.Cells integreras enkelt i .NET-projekt och dess API är enkel.
 ### Var kan jag hitta support för Aspose.Cells?
-Du kan få stöd genom Aspose[forum](https://forum.aspose.com/c/cells/9).
+ Du kan få stöd genom Aspose[forum](https://forum.aspose.com/c/cells/9).

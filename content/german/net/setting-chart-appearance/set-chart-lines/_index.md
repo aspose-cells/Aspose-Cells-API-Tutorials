@@ -30,7 +30,7 @@ using Aspose.Cells.Charts;
 using System.Drawing;
 ```
 
-Lassen Sie uns den Vorgang in überschaubare Schritte unterteilen, damit Sie ihn problemlos nachvollziehen können.
+Lassen Sie uns den Vorgang in überschaubare Schritte aufteilen, damit Sie ihn problemlos nachvollziehen können.
 
 ## Schritt 1: Definieren Sie Ihr Ausgabeverzeichnis
 

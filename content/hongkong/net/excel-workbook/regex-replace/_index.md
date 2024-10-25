@@ -16,7 +16,7 @@ url: /zh-hant/net/excel-workbook/regex-replace/
 在開始討論程式設計細節之前，讓我們確保您為接下來的旅程做好了充分準備。
 
 1. .NET Framework：確保您已設定 .NET 環境。無論是 .NET Core 還是 .NET Framework，您都應該可以輕鬆使用。
-2.  Aspose.Cells 庫：該庫是您解鎖強大的電子表格操作的鑰匙。你可以[在這裡下載](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells 庫：該庫是您解鎖強大的電子表格操作的鑰匙。你可以[在這裡下載](https://releases.aspose.com/cells/net/).
 3. IDE：使用您最喜歡的整合開發環境 (IDE)，例如 Visual Studio，這將使您的程式設計體驗更加流暢。
 4. 基本程式設計知識：熟悉 C# 和正規表示式的概念將會很有幫助。
 

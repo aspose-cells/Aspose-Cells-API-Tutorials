@@ -32,7 +32,7 @@ Po pierwsze, musimy utworzyć nowy projekt w Visual Studio dla naszej aplikacji.
 2. Wybierz Aplikację internetową ASP.NET Core lub Aplikację konsolową zależnie od swoich preferencji.
 3.  Nadaj nazwę swojemu projektowi (coś takiego jak`SXCFileOpener`) i kliknij Utwórz.
 4. Upewnij się, że podczas tej konfiguracji wybrano środowisko .NET Framework.
-5.  Po załadowaniu projektu zobaczysz domyślny`.cs` plik, w którym możemy dodać nasz kod.
+5. Po załadowaniu projektu zobaczysz domyślny`.cs` plik, w którym możemy dodać nasz kod.
 ## Krok 2: Dodawanie biblioteki Aspose.Cells
 Następnie dodamy bibliotekę Aspose.Cells do naszego projektu. Oto jak to zrobić:
 1. Otwórz Menedżera pakietów NuGet, klikając prawym przyciskiem myszy swój projekt w Eksploratorze rozwiązań i wybierając opcję Zarządzaj pakietami NuGet.
@@ -48,7 +48,7 @@ string sourceDir = "Your Document Directory";
 ```
 2.  W tym katalogu dodaj przykładowy plik SXC (np.`SampleSXC.sxc`) w celu przetestowania.
 ## Krok 4: Tworzenie obiektu skoroszytu
- Mając ustawiony katalog źródłowy, czas utworzyć`Workbook` obiekt do załadowania naszego pliku SXC:
+ Mając ustawiony katalog źródłowy, czas utworzyć`Workbook`obiekt do załadowania naszego pliku SXC:
 ```csharp
 Workbook workbook = new Workbook(sourceDir + "SampleSXC.sxc");
 ```
@@ -74,7 +74,7 @@ Console.WriteLine("OpeningSXCFiles executed successfully!");
 Tutaj dzieje się magia! To jak odsłanianie skarbu ukrytego w twojej książce. Zobaczysz dane wyjściowe w konsoli, które wyświetlają nazwę i wartość komórki C3.
 
 ## Wniosek
-I to wszystko! Udało Ci się otworzyć plik SXC za pomocą Aspose.Cells dla .NET i uzyskać dostęp do danych konkretnej komórki. Ten proces sprawia, że praca z plikami Excel i podobnymi staje się prosta, dając Ci możliwość czytania, pisania i manipulowania takimi dokumentami w Twoich aplikacjach. 
+to wszystko! Udało Ci się otworzyć plik SXC za pomocą Aspose.Cells dla .NET i uzyskać dostęp do danych konkretnej komórki. Ten proces sprawia, że praca z plikami Excel i podobnymi staje się prosta, dając Ci możliwość czytania, pisania i manipulowania takimi dokumentami w Twoich aplikacjach. 
 Dzięki Aspose.Cells praca z arkuszami kalkulacyjnymi staje się niezwykle prosta, a Ty możesz skupić się na tworzeniu niezawodnych aplikacji, nie tracąc czasu na skomplikowaną obsługę plików.
 ## Najczęściej zadawane pytania
 ### Czym jest plik SXC?

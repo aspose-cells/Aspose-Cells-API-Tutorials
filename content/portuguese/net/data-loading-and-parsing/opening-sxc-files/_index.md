@@ -32,7 +32,7 @@ Primeiro, precisamos criar um novo projeto no Visual Studio para nossa aplicaç�
 2. Escolha ASP.NET Core Web Application ou Console Application de acordo com sua preferência.
 3.  Dê um nome ao seu projeto (algo como`SXCFileOpener`) e clique em Criar.
 4. Certifique-se de ter selecionado o .NET Framework durante esta configuração.
-5.  Assim que o projeto for carregado, você verá um padrão`.cs` arquivo onde podemos adicionar nosso código.
+5. Assim que o projeto for carregado, você verá um padrão`.cs` arquivo onde podemos adicionar nosso código.
 ## Etapa 2: Adicionando a biblioteca Aspose.Cells
 Em seguida, adicionaremos a biblioteca Aspose.Cells ao nosso projeto. Veja como:
 1. Abra o Gerenciador de Pacotes NuGet clicando com o botão direito do mouse no seu projeto no Solution Explorer e selecionando Gerenciar Pacotes NuGet.
@@ -48,7 +48,7 @@ string sourceDir = "Your Document Directory";
 ```
 2.  Dentro deste diretório, adicione seu arquivo de amostra SXC (por exemplo,`SampleSXC.sxc`) para teste.
 ## Etapa 4: Criando um objeto de pasta de trabalho
- Com o diretório de origem definido, é hora de criar um`Workbook` objeto para carregar nosso arquivo SXC:
+ Com o diretório de origem definido, é hora de criar um`Workbook`objeto para carregar nosso arquivo SXC:
 ```csharp
 Workbook workbook = new Workbook(sourceDir + "SampleSXC.sxc");
 ```
@@ -74,7 +74,7 @@ Console.WriteLine("OpeningSXCFiles executed successfully!");
 É aqui que a mágica acontece! É como revelar o tesouro escondido dentro do seu livro. Você verá a saída no console que exibe o nome e o valor da célula C3.
 
 ## Conclusão
-E é isso! Você abriu com sucesso um arquivo SXC usando Aspose.Cells for .NET e acessou os dados de uma célula específica. Esse processo simplifica o trabalho com o Excel e arquivos similares, dando a você o poder de ler, escrever e manipular tais documentos em seus aplicativos. 
+é isso! Você abriu com sucesso um arquivo SXC usando Aspose.Cells for .NET e acessou os dados de uma célula específica. Esse processo simplifica o trabalho com o Excel e arquivos similares, dando a você o poder de ler, escrever e manipular tais documentos em seus aplicativos. 
 O Aspose.Cells realmente facilita o trabalho com planilhas, permitindo que você se concentre na criação de aplicativos robustos sem se atolar no manuseio complexo de arquivos.
 ## Perguntas frequentes
 ### O que é um arquivo SXC?

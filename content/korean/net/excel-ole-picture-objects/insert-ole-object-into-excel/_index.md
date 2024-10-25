@@ -35,7 +35,7 @@ string dataDir = "Your Document Directory";
 ## 2단계: 디렉토리가 없는 경우 디렉토리를 만듭니다.
 다음으로, 이 디렉토리가 존재하는지 확인하고 싶습니다. 존재하지 않으면 만들어야 합니다.
 ```csharp
-//디렉토리가 없으면 디렉토리를 생성합니다.
+// 디렉토리가 없으면 디렉토리를 생성합니다.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -58,7 +58,7 @@ Worksheet sheet = workbook.Worksheets[0];
 ## 5단계: 이미지 경로 정의
 이제 Excel 파일에 포함하려는 이미지의 경로를 설정해 보겠습니다.
 ```csharp
-// 이미지 경로를 저장할 문자열 변수를 정의합니다.
+//이미지 경로를 저장할 문자열 변수를 정의합니다.
 string ImageUrl = dataDir + "logo.jpg";
 ```
  이 경로가 귀하의 위치를 올바르게 반영하는지 확인하십시오.`logo.jpg` 파일이 저장되었습니다.
@@ -87,7 +87,7 @@ string path = dataDir + "book1.xls";
 ```csharp
 // 파일을 스트림으로 가져옵니다.
 fs = File.OpenRead(path);
-// 바이트 배열을 정의합니다.
+//바이트 배열을 정의합니다.
 byte[] objectData = new Byte[fs.Length];
 // 스트림에서 파일을 저장합니다.
 fs.Read(objectData, 0, objectData.Length);

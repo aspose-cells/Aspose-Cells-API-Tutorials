@@ -67,7 +67,7 @@ Workbook workbook = new Workbook();
 在我們新建立的工作簿中，我們需要取得將輸入資料的工作表的參考。如果工作簿是我們的畫布，那麼工作表就是我們的調色盤。
 
 ```csharp
-//透過傳遞工作表索引來取得新新增工作表的引用
+//透過傳遞工作表索引來取得新新增的工作表的引用
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 在這裡，我們訪問第一個工作表（索引`0`）。

@@ -73,7 +73,7 @@ label.Text = "This is a Label";
 ```csharp
 label.Placement = PlacementType.FreeFloating;
 ```
-透過將放置類型設定為`FreeFloating`，您可以確保標籤的位置獨立於儲存格大小調整或移動。它將保留在您放置的位置。
+透過將放置類型設定為`FreeFloating`，您可以確保標籤的位置獨立於儲存格大小調整或移動。它會留在您放置的位置。
 ## 第 7 步：儲存工作簿
 
 最後，讓我們儲存新增了標籤的工作簿。

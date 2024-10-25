@@ -14,7 +14,7 @@ Ověřování dat je proces definování pravidel a omezení, aby se zabránilo 
 
 ## Nastavení Aspose.Cells pro Java
 
- Než se ponoříme do pokročilých technik, začněme s Aspose.Cells pro Java. Knihovnu si můžete stáhnout z[Odkaz ke stažení Aspose.Cells for Java](https://releases.aspose.com/cells/java/) . Ujistěte se, že dodržujete pokyny k instalaci uvedené v dokumentaci na adrese[Aspose.Cells for Java API Reference](https://reference.aspose.com/cells/java/).
+ Než se ponoříme do pokročilých technik, začněme s Aspose.Cells pro Javu. Knihovnu si můžete stáhnout z[Odkaz ke stažení Aspose.Cells for Java](https://releases.aspose.com/cells/java/) . Ujistěte se, že dodržujete pokyny k instalaci uvedené v dokumentaci na adrese[Aspose.Cells for Java API Reference](https://reference.aspose.com/cells/java/).
 
 ## Základní ověření dat
 

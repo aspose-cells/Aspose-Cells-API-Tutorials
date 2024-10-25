@@ -63,7 +63,7 @@ Net zoals een kunstenaar begint met een leeg canvas, begint u met een lege werkm
 Schrijfbeveiliging is een cruciaal aspect, vooral als u wilt verzekeren dat de integriteit van uw gegevens intact blijft. U kunt dat doen met een wachtwoord.
 
 ```csharp
-// Werkmap beveiligen met wachtwoord.
+//Werkmap beveiligen met wachtwoord.
 wb.Settings.WriteProtection.Password = "YOUR_PASSWORD";
 ```
 
@@ -89,7 +89,7 @@ De laatste stap is om de werkmap op te slaan in het gewenste formaat. In dit gev
 wb.Save(outputDir + "outputSpecifyAuthorWhileWriteProtectingWorkbook.xlsx");
 ```
 
- Hier wordt het uitvoerbestand opgeslagen in de door u opgegeven uitvoermap met de naam`outputSpecifyAuthorWhileWriteProtectingWorkbook.xlsx`Dit is waar uw harde werk eindelijk wordt beloond en u uw werkboek met anderen kunt delen, wetende dat het goed beschermd is!
+ Hier wordt het uitvoerbestand opgeslagen in de door u opgegeven uitvoermap met de naam`outputSpecifyAuthorWhileWriteProtectingWorkbook.xlsx`. Dit is waar uw harde werk eindelijk wordt beloond en u uw werkboek met anderen kunt delen, wetende dat het goed beschermd is!
 
 ## Conclusie
 
@@ -110,4 +110,4 @@ En daar heb je het! Je hebt geleerd hoe je een Excel-werkmap maakt, schrijfbevei
 Absoluut! Aspose.Cells werkt naadloos in zowel desktop- als webapplicaties die .NET gebruiken.
 
 ### Wat moet ik doen als ik ondersteuning nodig heb?  
-Voor vragen en probleemoplossing is de Aspose-community erg behulpzaam. U kunt hun[ondersteuningsforum](https://forum.aspose.com/c/cells/9) voor hulp.
+ Voor vragen en probleemoplossing is de Aspose-community erg behulpzaam. U kunt hun[ondersteuningsforum](https://forum.aspose.com/c/cells/9) voor hulp.

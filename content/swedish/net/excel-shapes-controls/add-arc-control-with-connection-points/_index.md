@@ -29,7 +29,7 @@ Dessa namnutrymmen ger dig tillgång till alla ritfunktioner och cellhanteringsf
 Först till kvarn – låt oss skapa en katalog där du kommer att spara dessa glänsande nya Excel-filer. Så här gör vi:
 ```csharp
 string dataDir = "Your Document Directory";
-//Skapa katalog om den inte redan finns.
+// Skapa katalog om den inte redan finns.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);

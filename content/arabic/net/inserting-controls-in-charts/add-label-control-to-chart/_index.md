@@ -62,7 +62,7 @@ string outputDir = "Your Output Directory";
 Workbook workbook = new Workbook(sourceDir + "sampleAddingLabelControlInChart.xls");
 ```
 
- هنا، نحن نستخدم`Workbook`من Aspose.Cells لفتح ملف Excel الخاص بنا. الأمر أشبه بفتح الباب للسماح للإبداع بالتدفق!
+ هنا، نحن نستخدم`Workbook` من Aspose.Cells لفتح ملف Excel الخاص بنا. الأمر أشبه بفتح الباب للسماح للإبداع بالتدفق!
 
 ## الخطوة 3: الوصول إلى ورقة العمل
 
@@ -94,7 +94,7 @@ Aspose.Cells.Charts.Chart chart = sheet.Charts[0];
 Aspose.Cells.Drawing.Label label = chart.Shapes.AddLabelInChart(600, 600, 350, 900);
 ```
 
- هنا،`AddLabelInChart`يتولى إنشاء ملصق بناءً على الإحداثيات والأبعاد التي تحددها. الأمر أشبه بإلصاق إطار جميل حول عملك الفني!
+ هنا،`AddLabelInChart` يتولى إنشاء ملصق بناءً على الإحداثيات والأبعاد التي تحددها. الأمر أشبه بإلصاق إطار جميل حول عملك الفني!
 
 ## الخطوة 6: تعيين نص الملصق
 

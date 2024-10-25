@@ -45,7 +45,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY"; // Adja meg a dokumentumkönyvtárat
 string InputPath = Path.Combine(dataDir, "book1.xlsx"); // Kombinálja a teljes útvonalat
 ```
 
- Tessék, cserélje ki`"YOUR DOCUMENT DIRECTORY"` rendszer tényleges elérési útjával, ahol`book1.xlsx` tárolva van. Kihasználva`Path.Combine` ügyes, mert biztosítja, hogy az elérési út helyesen legyen megszerkesztve a különböző operációs rendszerek között.
+ Tessék, cserélje ki`"YOUR DOCUMENT DIRECTORY"` a rendszer tényleges elérési útjával, ahol`book1.xlsx` tárolva van. Kihasználva`Path.Combine`ügyes, mert biztosítja, hogy az útvonal helyesen legyen megszerkesztve a különböző operációs rendszereken.
 
 ## 2. lépés: Fájlfolyam létrehozása
 

@@ -10,7 +10,7 @@ url: /nl/net/excel-shapes-controls/manipulate-textbox-controls-excel/
 ## Invoering
 Als u ooit met Excel hebt gewerkt, bent u waarschijnlijk die kleine tekstvakken tegengekomen waarmee u zwevende tekst aan een spreadsheet kunt toevoegen. Maar wat als u die tekstvakken programmatisch wilt manipuleren? Dan komt Aspose.Cells voor .NET goed van pas. Hiermee kunt u eenvoudig tekstvakken openen en wijzigen, waardoor het perfect is voor het automatiseren van taken of het aanpassen van rapporten. In deze tutorial leiden we u door het proces van het manipuleren van tekstvakken in Excel met Aspose.Cells voor .NET.
 ## Vereisten
-Voordat we in de daadwerkelijke code duiken, moeten we ervoor zorgen dat alles goed is ingesteld:
+Voordat we met de daadwerkelijke code beginnen, moeten we ervoor zorgen dat alles goed is ingesteld:
 1.  Aspose.Cells voor .NET: U moet de Aspose.Cells voor .NET-bibliotheek downloaden. U kunt de downloadlink vinden[hier](https://releases.aspose.com/cells/net/).
 2. .NET-ontwikkelomgeving: elke IDE die .NET ondersteunt, zoals Visual Studio, is geschikt.
 3. Basiskennis van C#: in deze zelfstudie wordt ervan uitgegaan dat u bekend bent met de basissyntaxis van C# en de structuur van Excel-werkmappen.
@@ -36,7 +36,7 @@ Vervolgens moet u het bestaande Excel-bestand laden in het Aspose.Cells Workbook
 ```csharp
 Workbook workbook = new Workbook(dataDir + "book1.xls");
 ```
- De`Workbook` class van Aspose.Cells laadt het opgegeven Excel-bestand uit uw directory. Als het bestand niet in de opgegeven directory bestaat, genereert het een uitzondering, dus zorg ervoor dat het pad correct is.
+ De`Workbook` class from Aspose.Cells laadt het opgegeven Excel-bestand uit uw directory. Als het bestand niet in de opgegeven directory bestaat, genereert het een uitzondering, dus zorg ervoor dat het pad correct is.
 ## Stap 3: Toegang tot het eerste werkblad
 Nu u de werkmap hebt geladen, kunt u de werkbladen openen. In dit voorbeeld openen we het eerste werkblad in de werkmap, dat is opgeslagen op index 0.
 ```csharp
@@ -44,7 +44,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 ```
  De`Worksheets` eigenschap geeft u toegang tot alle werkbladen in de werkmap. Hier zijn we alleen geïnteresseerd in het eerste werkblad, maar u kunt met elk werkblad werken door de juiste index op te geven.
 ## Stap 4: Het eerste tekstvakobject ophalen
-Tekstvakken in een Excel-sheet worden beschouwd als tekenobjecten. De klasse Aspose.Cells.Drawing.TextBox biedt eigenschappen en methoden om ze te manipuleren. Om toegang te krijgen tot het eerste tekstvak op het werkblad, verwijst u eenvoudig naar de`TextBoxes` verzameling per index.
+Tekstvakken in een Excel-blad worden beschouwd als tekenobjecten. De klasse Aspose.Cells.Drawing.TextBox biedt eigenschappen en methoden om ze te manipuleren. Om toegang te krijgen tot het eerste tekstvak op het werkblad, verwijst u eenvoudig naar de`TextBoxes` verzameling per index.
 ```csharp
 Aspose.Cells.Drawing.TextBox textbox0 = worksheet.TextBoxes[0];
 ```

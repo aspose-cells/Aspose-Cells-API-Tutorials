@@ -9,7 +9,7 @@ url: /pl/net/excel-workbook/adjust-compression-level/
 ---
 ## Wstęp
 
-Jeśli chodzi o obsługę dużych plików Excel, kluczowa jest wydajna pamięć masowa. Niezależnie od tego, czy jesteś programistą, który chce zoptymalizować rozmiary plików, czy analitykiem danych, który chce przyspieszyć transfery plików, zrozumienie, jak dostosować poziomy kompresji w Aspose.Cells dla .NET, może być przełomem. W tym przewodniku przeprowadzimy Cię przez kroki dostosowywania poziomów kompresji podczas zapisywania plików Excel, zapewniając utrzymanie wydajności bez poświęcania jakości.
+Jeśli chodzi o obsługę dużych plików Excela, kluczowe jest wydajne przechowywanie. Niezależnie od tego, czy jesteś programistą, który chce zoptymalizować rozmiary plików, czy analitykiem danych, który chce przyspieszyć transfery plików, zrozumienie, jak dostosować poziomy kompresji w Aspose.Cells dla .NET, może być przełomem. W tym przewodniku przeprowadzimy Cię przez kroki dostosowywania poziomów kompresji podczas zapisywania plików Excela, zapewniając utrzymanie wydajności bez poświęcania jakości.
 
 ## Wymagania wstępne
 

@@ -8,7 +8,7 @@ weight: 12
 url: /cs/net/security-and-encryption/encrypting-ods-files/
 ---
 ## Zavedení
-dnešním digitálním prostředí je zabezpečení dat důležitější než kdy jindy. Ať už pracujete s citlivými finančními údaji, klientskými informacemi nebo vlastními výsledky výzkumu, je prvořadé zajistit, aby vaše data zůstala chráněna. Jedním z účinných způsobů ochrany dat v tabulkách je šifrování, zejména při práci se soubory ODS (Open Document Spreadsheet). V tomto tutoriálu projdeme procesem šifrování a dešifrování souborů ODS pomocí výkonné knihovny Aspose.Cells for .NET.
+dnešním digitálním prostředí je zabezpečení dat důležitější než kdy jindy. Ať už pracujete s citlivými finančními údaji, klientskými informacemi nebo vlastními výsledky výzkumu, je prvořadé zajistit, aby vaše data zůstala chráněna. Jedním z účinných způsobů ochrany dat v tabulkách je šifrování, zejména při práci se soubory ODS (Open Document Spreadsheet). V tomto tutoriálu si projdeme procesem šifrování a dešifrování souborů ODS pomocí výkonné knihovny Aspose.Cells for .NET.
 Aspose.Cells poskytuje robustní sadu funkcí pro práci s tabulkami v různých formátech. Když se do tohoto tématu ponoříme hlouběji, naučíte se nejen chránit své soubory ODS, ale také jak je v případě potřeby odemknout. Začněme tedy na této cestě k posílení zabezpečení vašich dat!
 ## Předpoklady
 Než se pustíme do kódování, ujistěte se, že máte splněny následující předpoklady:

@@ -116,7 +116,7 @@ Győződjön meg arról, hogy a mentett fájlnév és formátum megfelel a köve
 
 ## Következtetés
 
-És megvan! Sikeresen megtanulta, hogyan védhet meg egy adott sort egy Excel-munkalapon az Aspose.Cells for .NET használatával. Néhány sornyi kóddal nemcsak munkafüzetet hozott létre, hanem bizalmas információkat is sikerült megvédenie, így Excel-fájljai sértetlenek és megbízhatóak maradnak. Legyen szó pénzügyi jelentésről, jelenléti ívről vagy együttműködési projekttervről, a kulcsfontosságú adatok védelme elengedhetetlen. 
+És megvan! Sikeresen megtanulta, hogyan védhet meg egy adott sort egy Excel-munkalapon az Aspose.Cells for .NET segítségével. Néhány sornyi kóddal nemcsak munkafüzetet hozott létre, hanem bizalmas információkat is sikerült megvédenie, így Excel-fájljai sértetlenek és megbízhatóak maradnak. Legyen szó pénzügyi jelentésről, jelenléti ívről vagy együttműködési projekttervről, a kulcsfontosságú adatok védelme elengedhetetlen. 
 
 ## GYIK
 

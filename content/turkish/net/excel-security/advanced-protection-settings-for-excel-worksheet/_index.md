@@ -16,7 +16,7 @@ Dijital çağda, verilerinizi yönetmek ve güvenliğini sağlamak her zamankind
 Koda dalmadan önce ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
 
 1. Geliştirme Ortamı: .NET geliştirme için mükemmel bir IDE sağladığı için makinenizde Visual Studio yüklü olmalıdır.
-2. Aspose.Cells Kütüphanesi: Aspose.Cells kütüphanesini indirin. Bunu şuradan alabilirsiniz:[Aspose İndirmeler sayfası](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells Kütüphanesi: Aspose.Cells kütüphanesini indirin. Bunu şuradan alabilirsiniz:[Aspose İndirmeler sayfası](https://releases.aspose.com/cells/net/).
 3. Temel C# Bilgisi: Kolayca takip edebilmek için C# ve .NET Framework hakkında iyi bir anlayışa sahip olduğunuzdan emin olun.
 4. Proje Oluşturun: Kodlarımızı yazacağımız Visual Studio'da yeni bir Konsol Uygulaması kuralım.
 
@@ -48,12 +48,12 @@ Uygulamayı yönetilebilir adımlara bölelim. Basit bir Excel dosyası oluştur
 
 ## Adım 1: Excel Dosyanız için Bir Dosya Akışı Oluşturun
 
-Öncelikle mevcut bir Excel dosyasını yüklememiz gerekiyor. Bir`FileStream` erişmek için.
+ Öncelikle mevcut bir Excel dosyasını yüklememiz gerekiyor. Bir`FileStream` erişmek için.
 
 ```csharp
 // Belgeler dizinine giden yol.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-// Excel dosyasını açmak için bir dosya akışı oluşturma
+//Excel dosyasını açmak için bir dosya akışı oluşturma
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
  The`FileStream` belirtilen Excel dosyasını okumamızı sağlar. "YOUR DOCUMENT DIRECTORY"yi Excel dosyanızın bulunduğu gerçek yola değiştirdiğinizden emin olun.

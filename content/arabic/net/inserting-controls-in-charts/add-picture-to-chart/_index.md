@@ -16,7 +16,7 @@ url: /ar/net/inserting-controls-in-charts/add-picture-to-chart/
 قبل أن ننتقل إلى التفاصيل الدقيقة للترميز، هناك بعض المتطلبات الأساسية التي يجب أن تتوفر لديك لمتابعتها بسلاسة:
 
 - Visual Studio: هنا يمكنك كتابة وتشغيل كود .NET الخاص بك. تأكد من تثبيته.
-- Aspose.Cells لـ .NET: ستحتاج إلى هذه المكتبة للعمل مع ملفات Excel. يمكنك[تحميله هنا](https://releases.aspose.com/cells/net/).
+-  Aspose.Cells لـ .NET: ستحتاج إلى هذه المكتبة للعمل مع ملفات Excel. يمكنك[تحميله هنا](https://releases.aspose.com/cells/net/).
 - الفهم الأساسي للغة C#: على الرغم من أنني سأرشدك خلال الكود، فإن فهم أساسيات لغة C# سيجعل الأمور أكثر وضوحًا.
 
 ### خطوات التثبيت
@@ -55,7 +55,7 @@ string sourceDir = "Your Document Directory/";
 string outputDir = "Your Output Directory/";
 ```
 
- يستبدل`Your Document Directory` و`Your Output Directory` مع المسارات الفعلية على جهاز الكمبيوتر الخاص بك. 
+ يستبدل`Your Document Directory` و`Your Output Directory`مع المسارات الفعلية على جهاز الكمبيوتر الخاص بك. 
 
 ## الخطوة 2: تحميل المصنف الموجود
 
@@ -84,7 +84,7 @@ FileStream stream = new FileStream(sourceDir + "sampleAddingPictureInChart.png",
 الآن، دعنا نحدد الرسم البياني الذي سنضيف صورتنا إليه. في هذا المثال، سنستهدف الرسم البياني الأول في ورقة العمل الأولى.
 
 ```csharp
-//احصل على مخطط المصمم في الورقة الثانية.
+// احصل على مخطط المصمم في الورقة الثانية.
 Worksheet sheet = workbook.Worksheets[0];
 Aspose.Cells.Charts.Chart chart = sheet.Charts[0];
 ```
@@ -100,7 +100,7 @@ Aspose.Cells.Charts.Chart chart = sheet.Charts[0];
 Aspose.Cells.Drawing.Picture pic0 = chart.Shapes.AddPictureInChart(50, 50, stream, 200, 200);
 ```
 
- هنا،`50` و`50` هي إحداثيات X وY حيث سيتم وضع الصورة، و`200` هو عرض وارتفاع الصورة.
+ هنا،`50` و`50` هي إحداثيات X وY حيث سيتم وضع الصورة، و`200`هو عرض وارتفاع الصورة.
 
 ## الخطوة 6: تخصيص تنسيق خط الصورة
 

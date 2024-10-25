@@ -70,7 +70,7 @@ string outputDir = "C:\\YourOutputDirectory\\"; // Cambie al directorio especifi
 
 ## Paso 2: Crear una instancia de un objeto de libro de trabajo
 
- continuación, crearemos una instancia de`Workbook` Clase. Aquí es donde se llevará a cabo todo nuestro trabajo.
+ A continuación, crearemos una instancia de`Workbook` Clase. Aquí es donde se llevará a cabo todo nuestro trabajo.
 ```csharp
 Workbook workbook = new Workbook();
 ```

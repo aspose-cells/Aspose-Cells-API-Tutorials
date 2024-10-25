@@ -41,7 +41,7 @@ Przedstawmy kod służący do tworzenia katalogu (jeśli jeszcze nie istnieje):
 ```csharp
 // Ścieżka do katalogu dokumentów.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-//Utwórz katalog, jeśli jeszcze go nie ma.
+// Utwórz katalog, jeśli jeszcze go nie ma.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -84,7 +84,7 @@ Ta linia pobiera kolekcję, w której będziesz zarządzać swoimi chronionymi z
 
 ## Krok 5: Zdefiniuj i utwórz zakres chroniony
 
-W tym momencie jesteśmy gotowi zdefiniować zakres, w którym chcesz zezwolić na edycję. Utwórzmy ten zakres.
+tym momencie jesteśmy gotowi zdefiniować zakres, w którym chcesz zezwolić na edycję. Utwórzmy ten zakres.
 
 ```csharp
 // Zdefiniuj ProtectedRange
@@ -121,7 +121,7 @@ Wywołując tę metodę, zasadniczo nakładasz blokadę na cały arkusz kalkulac
 
 ## Krok 8: Zapisz plik Excel
 
-W końcu dotarliśmy do ostatniego kroku naszego samouczka — zapisania skoroszytu w zdefiniowanym katalogu!
+końcu dotarliśmy do ostatniego kroku naszego samouczka — zapisania skoroszytu w zdefiniowanym katalogu!
 
 ```csharp
 // Zapisz plik Excela
@@ -132,7 +132,7 @@ book.Save(dataDir + "protectedrange.out.xls");
 
 ## Wniosek
 
-masz to! Udało Ci się utworzyć arkusz kalkulacyjny programu Excel przy użyciu Aspose.Cells dla .NET, zdefiniować edytowalne zakresy, ustawić hasło i zabezpieczyć arkusz — wszystko w kilku prostych krokach. Teraz możesz udostępnić swój skoroszyt współpracownikom, zwiększając współpracę przy jednoczesnym zachowaniu bezpieczeństwa ważnych danych.
+I masz to! Udało Ci się utworzyć arkusz kalkulacyjny programu Excel przy użyciu Aspose.Cells dla .NET, zdefiniować edytowalne zakresy, ustawić hasło i zabezpieczyć arkusz — wszystko w kilku prostych krokach. Teraz możesz udostępnić swój skoroszyt współpracownikom, zwiększając współpracę przy jednoczesnym zachowaniu bezpieczeństwa ważnych danych.
 
 ## Najczęściej zadawane pytania
 

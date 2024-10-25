@@ -58,7 +58,7 @@ string outputDir = "Your Output Directory";
 ```csharp
 Workbook workbook = new Workbook(SourceDir + "SamplePowerQueryFormula.xlsx");
 ```
-の`Workbook`クラスは Excel ファイルへのエントリ ポイントです。ソース ファイルのパスを渡すことで、それを操作できるインスタンスを作成します。本を開くようなものだと想像してください。つまり、その内容を読む (または編集する) 準備をするのです。
+の`Workbook`クラスは、Excel ファイルへのエントリ ポイントです。ソース ファイルのパスを渡すことで、それを操作できるインスタンスを作成します。本を開くようなものだと想像してください。つまり、その内容を読む (または編集する) 準備をするのです。
 
 ## ステップ3: データマッシュアップにアクセスする
 

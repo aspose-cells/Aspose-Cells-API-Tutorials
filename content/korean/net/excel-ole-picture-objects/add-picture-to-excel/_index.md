@@ -26,7 +26,7 @@ using Aspose.Cells;
 문서 저장을 위한 디렉토리 생성
 워크북을 다루기 전에, 워크북을 저장할 장소가 필요합니다. 이 문서 디렉토리를 지정하겠습니다.
 ```csharp
-string dataDir = "Your Document Directory"; // 원하는 경로를 정의하세요.
+string dataDir = "Your Document Directory"; //원하는 경로를 정의하세요.
 ```
  이 코드 조각에서 다음을 바꾸세요.`"Your Document Directory"` Excel 파일을 저장할 실제 경로와 함께. 이 디렉토리는 이미지를 추가한 후 출력 파일을 보관합니다.
 ## 2단계: 디렉토리가 없는 경우 디렉토리 만들기
@@ -81,7 +81,7 @@ Aspose.Cells for .NET을 사용하여 Excel 워크시트에 그림을 추가하�
 ### Aspose.Cells는 .xls 이외의 Excel 파일 형식을 지원합니까?
 물론입니다! Aspose.Cells는 .xlsx, .xlsm, .xlsb를 포함한 여러 Excel 형식을 지원합니다.
 ### 체험판이 있나요?
- 네! 구매하기 전에 Aspose.Cells를 무료로 사용해 볼 수 있습니다. 확인만 하세요[여기](https://releases.aspose.com/).
+네! 구매하기 전에 Aspose.Cells를 무료로 사용해 볼 수 있습니다. 확인만 하세요[여기](https://releases.aspose.com/).
 ### 내 이미지가 나타나지 않으면 어떻게 해야 하나요?
 이미지 경로가 올바른지, 이미지 파일이 지정된 디렉토리에 있는지 확인하세요.
 ### 여러 셀에 이미지를 배치할 수 있나요?

@@ -15,11 +15,11 @@ En este tutorial, explicaremos cómo configurar un vínculo a contenido para pro
 
 Antes de comenzar, asegúrese de tener todo lo que necesita. Sin los siguientes requisitos previos, el proceso no se desarrollará sin problemas:
 
-1.  Biblioteca Aspose.Cells para .NET: Debe tener Aspose.Cells para .NET instalado en su equipo. Si aún no lo ha descargado, descárguelo desde[Página de descarga de Aspose.Cells para .NET](https://releases.aspose.com/cells/net/).
+1. Biblioteca Aspose.Cells para .NET: Debe tener Aspose.Cells para .NET instalado en su equipo. Si aún no lo ha descargado, descárguelo desde[Página de descarga de Aspose.Cells para .NET](https://releases.aspose.com/cells/net/).
 2. Entorno de desarrollo: utilice cualquier entorno de desarrollo compatible con .NET, como Visual Studio.
 3. Conocimientos básicos de C#: esta guía asume que tiene cierta familiaridad con C# y .NET.
 4. Archivo de Excel: tenga un archivo de Excel existente con el que trabajar. En nuestro ejemplo, utilizaremos un archivo llamado "sample-document-properties.xlsx".
-5. Licencia Temporal: Si no tienes una licencia completa, puedes obtener una[Licencia temporal aquí](https://purchase.aspose.com/temporary-license/) para evitar limitaciones en la manipulación de archivos.
+5.  Licencia Temporal: Si no tienes una licencia completa, puedes obtener una[Licencia temporal aquí](https://purchase.aspose.com/temporary-license/) para evitar limitaciones en la manipulación de archivos.
 
 ## Importar paquetes
 
@@ -49,7 +49,7 @@ string dataDir = "Your Document Directory";
 Workbook workbook = new Workbook(dataDir + "sample-document-properties.xlsx");
 ```
 
--  Libro de trabajo workbook = new Workbook(): Esta línea crea un nuevo`Workbook`objeto, que es la clase principal utilizada para trabajar con archivos Excel en Aspose.Cells.
+-  Libro de trabajo workbook = new Workbook(): Esta línea crea un nuevo`Workbook` objeto, que es la clase principal utilizada para trabajar con archivos Excel en Aspose.Cells.
 - dataDir: aquí se especifica la ruta al archivo de Excel. Reemplace "Directorio de documentos" por la ruta real en su equipo.
 
 Piense en este paso como si estuviera abriendo una puerta: ¡está accediendo al archivo para poder realizar los cambios que necesita!
@@ -59,7 +59,7 @@ Piense en este paso como si estuviera abriendo una puerta: ¡está accediendo al
 Una vez cargado el archivo, necesitamos acceder a sus propiedades de documento personalizadas. Estas propiedades se almacenan en una colección que puedes recuperar y manipular.
 
 ```csharp
-// Recupere una lista de todas las propiedades de documento personalizadas del archivo Excel
+//Recupere una lista de todas las propiedades de documento personalizadas del archivo Excel
 Aspose.Cells.Properties.CustomDocumentPropertyCollection customProperties = workbook.Worksheets.CustomDocumentProperties;
 ```
 
@@ -93,7 +93,7 @@ bool islinkedtocontent = customProperty1.IsLinkedToContent;
 ```
 
 - Propiedades personalizadas["Propietario"]: Estamos obteniendo la propiedad "Propietario" por nombre para inspeccionar sus detalles.
-- IsLinkedToContent: este valor booleano devuelve`true` si la propiedad está vinculada correctamente al contenido.
+-  IsLinkedToContent: este valor booleano devuelve`true` si la propiedad está vinculada correctamente al contenido.
 
 En esta etapa, es como comprobar si la etiqueta (propiedad) está correctamente adjunta al contenido. Te aseguras de que tu código hizo lo que esperabas.
 

@@ -16,7 +16,7 @@ url: /ja/net/protect-excel-file/protect-cells-in-excel-worksheet/
 セルを保護するための詳細な手順に入る前に、いくつかの前提条件を満たす必要があります。
 
 1. Visual Studio: コンピューターに Visual Studio がインストールされていることを確認してください。これは .NET 開発の主要な IDE です。
-2.  Aspose.Cellsライブラリ: プロジェクトでAspose.Cellsライブラリが利用可能である必要があります。NuGetパッケージマネージャーを使用して簡単にインストールするか、直接ダウンロードすることができます。[Aspose.Cells サイト](https://releases.aspose.com/cells/net/).
+2. Aspose.Cellsライブラリ: プロジェクトでAspose.Cellsライブラリが利用可能である必要があります。NuGetパッケージマネージャーを使用して簡単にインストールするか、直接ダウンロードすることができます。[Aspose.Cells サイト](https://releases.aspose.com/cells/net/).
 3. 基本的な C# の知識: C# プログラミングに少し精通していると、スムーズに理解できるようになります。
 
 ## パッケージのインポート

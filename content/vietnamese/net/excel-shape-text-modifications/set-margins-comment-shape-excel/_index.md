@@ -16,7 +16,7 @@ Bạn phải có hiểu biết cơ bản về C# và .NET. Hướng dẫn này d
 ### Thiết lập môi trường
 1. Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio. Đây là môi trường phát triển giúp đơn giản hóa việc mã hóa.
 2.  Thư viện Aspose.Cells: Bạn cần thư viện Aspose.Cells. Nếu bạn chưa có, bạn có thể tải xuống[đây](https://releases.aspose.com/cells/net/).
-3.  Tệp Excel mẫu: Tạo hoặc tải xuống tệp Excel mẫu. Đối với hướng dẫn này, chúng tôi sẽ sử dụng tệp có tên`sampleSetMarginsOfCommentOrShapeInsideTheWorksheet.xlsx`.
+3. Tệp Excel mẫu: Tạo hoặc tải xuống tệp Excel mẫu. Đối với hướng dẫn này, chúng tôi sẽ sử dụng tệp có tên`sampleSetMarginsOfCommentOrShapeInsideTheWorksheet.xlsx`.
 ## Nhập gói
 Bước đầu tiên trong hành trình của chúng ta bao gồm việc nhập các gói cần thiết. Bạn sẽ cần phải bao gồm các không gian tên Aspose.Cells trong dự án của mình. Điều này sẽ cấp cho bạn quyền truy cập vào tất cả các chức năng mà Aspose.Cells cung cấp.
 ### Mở dự án của bạn
@@ -72,7 +72,7 @@ Mỗi hình dạng có thể đã có một thiết lập căn chỉnh mà chún
 Aspose.Cells.Drawing.Texts.ShapeTextAlignment txtAlign = sh.TextBody.TextAlignment;
 txtAlign.IsAutoMargin = false;
 ```
- Bằng cách thiết lập`IsAutoMargin` thành sai, bây giờ chúng ta có thể kiểm soát được lề.
+ Bằng cách thiết lập`IsAutoMargin`thành sai, bây giờ chúng ta có thể kiểm soát được lề.
 ## Bước 6: Thiết lập lề
 Đây là bước quan trọng để chúng ta xác định biên độ. Bạn có thể tùy chỉnh các giá trị này theo nhu cầu của mình.
 ```csharp
@@ -105,4 +105,4 @@ Aspose.Cells là thư viện .NET được thiết kế để tạo, thao tác v
 ### Thư viện có dễ tích hợp vào các dự án hiện có không?
 Chắc chắn rồi! Aspose.Cells tích hợp dễ dàng vào các dự án .NET và API của nó rất đơn giản.
 ### Tôi có thể tìm thấy hỗ trợ cho Aspose.Cells ở đâu?
-Bạn có thể nhận được hỗ trợ thông qua Aspose[diễn đàn](https://forum.aspose.com/c/cells/9).
+ Bạn có thể nhận được hỗ trợ thông qua Aspose[diễn đàn](https://forum.aspose.com/c/cells/9).

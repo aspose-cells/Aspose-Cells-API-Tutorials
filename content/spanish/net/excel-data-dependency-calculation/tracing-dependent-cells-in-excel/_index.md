@@ -18,7 +18,7 @@ Antes de comenzar, aquí hay algunas cosas que debes tener para garantizar un vi
 1. Conocimientos básicos de C#: dado que escribiremos nuestro código en C#, tener una comprensión fundamental del lenguaje le ayudará a comprender los conceptos rápidamente.
 2.  Biblioteca Aspose.Cells para .NET: deberá descargar la biblioteca Aspose.Cells para .NET. Puede obtenerla en[Enlace de descarga](https://releases.aspose.com/cells/net/).
 3. Visual Studio: es un entorno fantástico para escribir y probar código .NET. Asegúrate de tenerlo instalado correctamente en tu equipo. 
-4. Un archivo de Excel: necesitarás un archivo de Excel que contenga algunas fórmulas con las que trabajar. Usaremos un archivo llamado`Book1.xlsx`¡Pero siéntete libre de usar el tuyo!
+4.  Un archivo de Excel: necesitarás un archivo de Excel que contenga algunas fórmulas con las que trabajar. Usaremos un archivo llamado`Book1.xlsx`¡Pero siéntete libre de usar el tuyo!
 
 ¿Estás listo para abrocharte el cinturón y comenzar a rastrear esas células? ¡Vayamos al meollo del asunto!
 
@@ -84,11 +84,11 @@ Ahora que tenemos el libro de trabajo abierto, es hora de acceder a las celdas i
 Cells cells = workbook.Worksheets[0].Cells;
 ```
 
-Explicación: El código anterior apunta a la primera hoja de trabajo (índice 0) en nuestro libro de trabajo y recupera el`Cells` colección, con la que trabajaremos para rastrear dependientes.
+ Explicación: El código anterior apunta a la primera hoja de trabajo (índice 0) en nuestro libro de trabajo y recupera el`Cells` colección, con la que trabajaremos para rastrear dependientes.
 
 ## Paso 4: Seleccione la celda
 
- Para fines de demostración, queremos rastrear las dependencias de una célula específica; en este caso,`B2`Vamos a codificar esto:
+Para fines de demostración, queremos rastrear las dependencias de una célula específica; en este caso,`B2`Vamos a codificar esto:
 
 ```csharp
 Cell cell = cells["B2"];
@@ -118,7 +118,7 @@ foreach (Cell c in cell.GetDependents(true))
 Console.ReadKey();
 ```
 
-Explicación: Este bucle recorre cada celda dependiente de nuestra matriz e imprime su nombre, ¡bastante sencillo!`Console.ReadKey()` garantiza que la ventana de la consola permanezca abierta hasta que presione una tecla, lo que le da tiempo para leer la salida.
+ Explicación: Este bucle recorre cada celda dependiente de nuestra matriz e imprime su nombre, ¡bastante sencillo!`Console.ReadKey()` garantiza que la ventana de la consola permanezca abierta hasta que presione una tecla, lo que le da tiempo para leer la salida.
 
 ## Conclusión
 

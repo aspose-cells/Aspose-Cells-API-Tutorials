@@ -53,7 +53,7 @@ Als Nächstes müssen Sie einen Dateistream erstellen, um Ihre Excel-Datei zu ö
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
 
-Hier geben wir an, dass wir öffnen möchten`book1.xls` befindet sich im angegebenen Verzeichnis. Die`FileMode.Open` Parameter gibt an, dass wir eine vorhandene Datei öffnen. Stellen Sie immer sicher, dass der Dateiname mit dem übereinstimmt, den Sie haben.
+ Hier geben wir an, dass wir öffnen möchten`book1.xls` befindet sich im angegebenen Verzeichnis. Die`FileMode.Open` Parameter gibt an, dass wir eine vorhandene Datei öffnen. Stellen Sie immer sicher, dass der Dateiname mit dem übereinstimmt, den Sie haben.
 
 ## Schritt 3: Instanziieren eines Arbeitsmappenobjekts
 
@@ -83,7 +83,7 @@ Jetzt kommt der Moment, auf den wir gewartet haben! Hier verbergen wir tatsächl
 worksheet.IsRowColumnHeadersVisible = false;
 ```
 
- Einstellung`IsRowColumnHeadersVisible` Zu`false`blendet die Überschriften in Zeilen und Spalten effektiv aus und verleiht Ihrer Datenpräsentation so ein übersichtlicheres Erscheinungsbild.
+ Einstellung`IsRowColumnHeadersVisible` Zu`false` blendet die Überschriften in Zeilen und Spalten effektiv aus und verleiht Ihrer Datenpräsentation so ein übersichtlicheres Erscheinungsbild.
 
 ## Schritt 6: Speichern Sie die geänderte Excel-Datei
 

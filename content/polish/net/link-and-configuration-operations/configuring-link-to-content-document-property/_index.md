@@ -9,17 +9,17 @@ url: /pl/net/link-and-configuration-operations/configuring-link-to-content-docum
 ---
 ## Wstęp
 
-tym samouczku pokażemy, jak skonfigurować łącze do zawartości dla niestandardowych właściwości dokumentu w plikach programu Excel przy użyciu Aspose.Cells dla .NET. Podzielę każdą część procesu, aby ułatwić Ci śledzenie, więc zapnij pasy i zanurzmy się w świecie łączenia niestandardowych właściwości dokumentu z zawartością w skoroszytach programu Excel.
+W tym samouczku pokażemy, jak skonfigurować łącze do zawartości dla niestandardowych właściwości dokumentu w plikach programu Excel przy użyciu Aspose.Cells dla .NET. Podzielę każdą część procesu, aby ułatwić Ci śledzenie, więc zapnij pasy i zanurzmy się w świecie łączenia niestandardowych właściwości dokumentu z zawartością w skoroszytach programu Excel.
 
 ## Wymagania wstępne
 
 Zanim zaczniemy, upewnij się, że masz wszystko, czego potrzebujesz. Bez następujących warunków wstępnych proces nie przebiegnie sprawnie:
 
-1.  Biblioteka Aspose.Cells dla .NET: Musisz mieć zainstalowaną bibliotekę Aspose.Cells dla .NET na swoim komputerze. Jeśli jeszcze jej nie pobrałeś, pobierz ją z[Strona pobierania Aspose.Cells dla .NET](https://releases.aspose.com/cells/net/).
+1. Biblioteka Aspose.Cells dla .NET: Musisz mieć zainstalowaną bibliotekę Aspose.Cells dla .NET na swoim komputerze. Jeśli jeszcze jej nie pobrałeś, pobierz ją z[Strona pobierania Aspose.Cells dla .NET](https://releases.aspose.com/cells/net/).
 2. Środowisko programistyczne: Użyj dowolnego środowiska programistycznego obsługującego platformę .NET, takiego jak Visual Studio.
 3. Podstawowa wiedza o języku C#: W tym przewodniku założono, że posiadasz pewną znajomość języka C# i platformy .NET.
 4. Plik Excel: Posiadasz istniejący plik Excel, z którym możesz pracować. W naszym przykładzie użyjemy pliku o nazwie „sample-document-properties.xlsx”.
-5. Licencja tymczasowa: Jeśli nie posiadasz pełnej licencji, możesz uzyskać[tymczasowa licencja tutaj](https://purchase.aspose.com/temporary-license/) aby uniknąć ograniczeń dotyczących manipulacji plikami.
+5.  Licencja tymczasowa: Jeśli nie posiadasz pełnej licencji, możesz uzyskać[tymczasowa licencja tutaj](https://purchase.aspose.com/temporary-license/) aby uniknąć ograniczeń dotyczących manipulacji plikami.
 
 ## Importuj pakiety
 
@@ -49,7 +49,7 @@ string dataDir = "Your Document Directory";
 Workbook workbook = new Workbook(dataDir + "sample-document-properties.xlsx");
 ```
 
--  Skoroszyt skoroszyt = nowy skoroszyt(): Ten wiersz tworzy nowy`Workbook`obiekt, który jest główną klasą używaną do pracy z plikami Excel w Aspose.Cells.
+-  Skoroszyt skoroszyt = nowy skoroszyt(): Ten wiersz tworzy nowy`Workbook` obiekt, który jest główną klasą używaną do pracy z plikami Excel w Aspose.Cells.
 - dataDir: Tutaj określasz ścieżkę do pliku Excel. Zastąp „Twój katalog dokumentów” rzeczywistą ścieżką na swoim komputerze.
 
 Wyobraź sobie ten krok jako otwieranie drzwi — uzyskujesz dostęp do pliku, aby móc wprowadzić potrzebne zmiany!
@@ -59,7 +59,7 @@ Wyobraź sobie ten krok jako otwieranie drzwi — uzyskujesz dostęp do pliku, a
 Po załadowaniu pliku musimy uzyskać dostęp do jego niestandardowych właściwości dokumentu. Właściwości te są przechowywane w kolekcji, którą można pobrać i manipulować.
 
 ```csharp
-// Pobierz listę wszystkich niestandardowych właściwości dokumentu pliku Excel
+//Pobierz listę wszystkich niestandardowych właściwości dokumentu pliku Excel
 Aspose.Cells.Properties.CustomDocumentPropertyCollection customProperties = workbook.Worksheets.CustomDocumentProperties;
 ```
 
@@ -93,7 +93,7 @@ bool islinkedtocontent = customProperty1.IsLinkedToContent;
 ```
 
 - Właściwości niestandardowe[„Właściciel”: Pobieramy właściwość „Właściciel” według nazwy, aby sprawdzić jej szczegóły.
-- IsLinkedToContent: Ta wartość logiczna zwraca`true` jeśli właściwość zostanie pomyślnie powiązana z treścią.
+-  IsLinkedToContent: Ta wartość logiczna zwraca`true` jeśli właściwość zostanie pomyślnie powiązana z treścią.
 
 Na tym etapie jest to jak sprawdzanie, czy etykieta (właściwość) jest prawidłowo dołączona do treści. Upewniasz się, że Twój kod zrobił to, czego oczekiwałeś.
 
@@ -126,7 +126,7 @@ Potraktuj ten krok jak naciśnięcie przycisku „Zapisz” w celu zapisania wsz
 ## Wniosek
 
 I masz to! Łączenie niestandardowej właściwości dokumentu z zawartością pliku Excel za pomocą Aspose.Cells dla .NET to prosta, ale niezwykle przydatna funkcja. Niezależnie od tego, czy automatyzujesz generowanie raportów, czy zarządzasz dużymi zestawami plików Excel, ta funkcjonalność pomaga dynamicznie łączyć metadane z rzeczywistą zawartością w dokumentach.
-W tym samouczku przeprowadziliśmy cały proces krok po kroku, od załadowania skoroszytu do zapisania zaktualizowanego pliku. Postępując zgodnie z tymi krokami, masz teraz narzędzia do automatyzacji tego procesu w ramach własnych projektów.
+tym samouczku przeprowadziliśmy cały proces krok po kroku, od załadowania skoroszytu do zapisania zaktualizowanego pliku. Postępując zgodnie z tymi krokami, masz teraz narzędzia do automatyzacji tego procesu w ramach własnych projektów.
 
 ## Najczęściej zadawane pytania
 

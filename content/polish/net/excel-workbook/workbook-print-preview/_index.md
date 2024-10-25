@@ -16,7 +16,7 @@ Jeśli chodzi o zarządzanie plikami Excela i manipulowanie nimi, Aspose.Cells f
 Zanim przejdziemy do kodowania, upewnijmy się, że masz wszystko, czego potrzebujesz, aby zacząć. Oto lista kontrolna wymagań wstępnych:
 
 1. Visual Studio: Będziesz potrzebować środowiska IDE, a Visual Studio jest doskonałym wyborem w przypadku projektów .NET.
-2.  Aspose.Cells dla .NET: Możesz pobrać bibliotekę lub, jeśli wolisz, możesz zacząć od bezpłatnej wersji próbnej, aby nabrać wprawy. Po prostu przejdź do[ten link](https://releases.aspose.com).
+2. Aspose.Cells dla .NET: Możesz pobrać bibliotekę lub, jeśli wolisz, możesz zacząć od bezpłatnej wersji próbnej, aby nabrać wprawy. Po prostu przejdź do[ten link](https://releases.aspose.com).
 3. Podstawowa wiedza o języku C#: Zrozumienie podstaw języka C# pomoże Ci bez problemu nadążać za nauką.
 4. .NET Framework: Upewnij się, że na Twoim komputerze jest zainstalowana zgodna wersja środowiska .NET Framework.
 5.  Przykładowy plik Excela: Do tego samouczka będziesz potrzebować pliku Excela, z którym będziesz pracować. Możesz użyć przykładowego pliku o nazwie`Book1.xlsx`.
@@ -33,7 +33,7 @@ Zacznij od otwarcia istniejącego projektu lub utwórz nowy, jeśli zaczynasz od
 
 ### Dodaj odniesienie do Aspose.Cells
 
-W Solution Explorer kliknij prawym przyciskiem myszy na swój projekt i wybierz Manage NuGet Packages. Wyszukaj Aspose.Cells i zainstaluj go. Jest to kluczowe, ponieważ ta biblioteka ma wszystkie magiczne możliwości, których potrzebujemy do wykonania podglądu wydruku.
+Solution Explorer kliknij prawym przyciskiem myszy na swój projekt i wybierz Manage NuGet Packages. Wyszukaj Aspose.Cells i zainstaluj go. Jest to kluczowe, ponieważ ta biblioteka ma wszystkie magiczne możliwości, których potrzebujemy do wykonania podglądu wydruku.
 
 ### Uwzględnij niezbędne przestrzenie nazw
 
@@ -58,7 +58,7 @@ Aby rozpocząć naszą przygodę z podglądami wydruku, musimy zdefiniować, gdz
 string sourceDir = "Your Document Directory";
 ```
 
-Ten kod pomaga nam znaleźć ścieżkę, gdzie`Book1.xlsx` rezyduje, co znacznie ułatwia późniejsze odwoływanie się do niego.
+ Ten kod pomaga nam znaleźć ścieżkę, gdzie`Book1.xlsx` rezyduje, co znacznie ułatwia późniejsze odwoływanie się do niego.
 
 ## Krok 2: Załaduj skoroszyt
 
@@ -88,7 +88,7 @@ Teraz czas na prawdziwą magię! Wygenerujemy podgląd wydruku skoroszytu. Oto j
 WorkbookPrintingPreview preview = new WorkbookPrintingPreview(workbook, imgOptions);
 ```
 
-tej chwili tworzymy podgląd całego naszego skoroszytu. Pomyśl o tym jak o zerkaniu na strony swojej książki przed rozpoczęciem czytania; otrzymujesz przegląd tego, co cię czeka.
+W tej chwili tworzymy podgląd całego naszego skoroszytu. Pomyśl o tym jak o zerkaniu na strony swojej książki przed rozpoczęciem czytania; otrzymujesz przegląd tego, co cię czeka.
 
 ## Krok 5: Oceń liczbę stron
 
@@ -123,7 +123,7 @@ Ta linia jest jak ostatni szlif na zakończenie projektu — zawsze dobrze jest 
 
 ## Wniosek
 
-I masz to! Udało Ci się skonfigurować podgląd wydruku dla skoroszytu programu Excel przy użyciu Aspose.Cells dla .NET. Omówiliśmy wszystko, od importowania pakietów po ocenę liczby stron dla całego skoroszytu i poszczególnych arkuszy. Niesamowite, jak łatwo można zwizualizować wygląd skoroszytu po wydrukowaniu, prawda? Korzystając z Aspose.Cells, zyskujesz potężne narzędzia do swojej dyspozycji. Niezależnie od tego, czy jesteś doświadczonym programistą, czy osobą, która dopiero zaczyna, ta biblioteka oferuje elastyczność i funkcjonalność, których potrzebujesz, aby przenieść zarządzanie plikami programu Excel na wyższy poziom.
+masz to! Udało Ci się skonfigurować podgląd wydruku dla skoroszytu programu Excel przy użyciu Aspose.Cells dla .NET. Omówiliśmy wszystko, od importowania pakietów po ocenę liczby stron dla całego skoroszytu i poszczególnych arkuszy. Niesamowite, jak łatwo można zwizualizować wygląd skoroszytu po wydrukowaniu, prawda? Korzystając z Aspose.Cells, zyskujesz potężne narzędzia do swojej dyspozycji. Niezależnie od tego, czy jesteś doświadczonym programistą, czy osobą, która dopiero zaczyna, ta biblioteka oferuje elastyczność i funkcjonalność, których potrzebujesz, aby przenieść zarządzanie plikami programu Excel na wyższy poziom.
 
 ## Najczęściej zadawane pytania
 
@@ -131,7 +131,7 @@ I masz to! Udało Ci się skonfigurować podgląd wydruku dla skoroszytu program
 Aspose.Cells to potężna biblioteka do obsługi formatów plików Excel, która oferuje takie funkcje, jak manipulowanie danymi, formatowanie i renderowanie podglądu wydruku.
 
 ### Czy muszę kupić Aspose.Cells, aby z niego korzystać?
- Możesz zacząć od bezpłatnej wersji próbnej dostępnej pod adresem[ten link](https://releases.aspose.com)przed podjęciem decyzji o zakupie licencji.
+ Możesz zacząć od bezpłatnej wersji próbnej dostępnej pod adresem[ten link](https://releases.aspose.com) przed podjęciem decyzji o zakupie licencji.
 
 ### Czy mogę używać Aspose.Cells w dowolnej aplikacji .NET?
 Tak, Aspose.Cells jest przeznaczony do współpracy z dowolną aplikacją .NET, w tym ASP.NET, WinForms i innymi.

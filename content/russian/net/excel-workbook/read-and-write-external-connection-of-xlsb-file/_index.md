@@ -68,7 +68,7 @@ Workbook wb = new Workbook(sourceDir + "sampleExternalConnection_XLSB.xlsb");
 Aspose.Cells.ExternalConnections.DBConnection dbCon = wb.DataConnections[0] as Aspose.Cells.ExternalConnections.DBConnection;
 ```
 
- Здесь,`DataConnections[0]`относится к первому соединению в рабочей книге. Мы приводим его как`DBConnection` тип для дальнейших манипуляций.
+ Здесь,`DataConnections[0]` относится к первому соединению в рабочей книге. Мы приводим его как`DBConnection` тип для дальнейших манипуляций.
 
 ## Шаг 4: Извлечение информации о подключении
 

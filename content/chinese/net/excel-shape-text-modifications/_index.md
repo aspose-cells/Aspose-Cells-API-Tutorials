@@ -2,7 +2,7 @@
 title: Excel 形状和文本修改
 linktitle: Excel 形状和文本修改
 second_title: Aspose.Cells .NET Excel 处理 API
-description: 通过易于遵循的教程和实用的代码示例学习使用 Aspose.Cells for .NET 操作 Excel 形状和文本。
+description: 通过易于理解的教程和实用的代码示例学习使用 Aspose.Cells for .NET 操作 Excel 形状和文本。
 type: docs
 weight: 24
 url: /zh/net/excel-shape-text-modifications/
@@ -13,7 +13,7 @@ url: /zh/net/excel-shape-text-modifications/
 
 ## 从 SmartArt 中提取文本
 
-您是否曾努力从 Excel 中的 SmartArt 图形中提取文本？使用本教程[从 Excel 中的齿轮类型 Smart Art 中提取文本](./extract-text-gear-smart-art-excel/)，您将找到一种简单的方法将这些信息直接引入您的应用程序。这就像拥有一把神奇的钥匙，可以解锁隐藏在这些艺术元素中的宝贵见解。您将学习如何一步一步地做到这一点，使用代码片段使学习过程愉快而有效。既然您可以快速掌握这些技巧，为什么要花几个小时独自弄清楚呢？ 
+您是否曾为从 Excel 中的 SmartArt 图形中提取文本而苦恼？通过本教程[从 Excel 中的齿轮类型 Smart Art 中提取文本](./extract-text-gear-smart-art-excel/)，您将找到一种简单的方法将这些信息直接引入您的应用程序。这就像拥有一把神奇的钥匙，可以解锁隐藏在这些艺术元素中的宝贵见解。您将学习如何一步一步地做到这一点，使用代码片段使学习过程愉快而有效。既然您可以快速掌握这些技巧，为什么要花几个小时独自弄清楚呢？ 
 
 ## 使用高级技术修改形状
 

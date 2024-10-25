@@ -16,7 +16,7 @@ Você está cansado de passar horas fazendo alterações meticulosas em suas pla
 Antes de entrarmos nos detalhes da codificação, vamos garantir que você esteja bem equipado para a jornada que tem pela frente.
 
 1. .NET Framework: Certifique-se de ter um ambiente .NET configurado. Seja .NET Core ou .NET Framework, você deve estar pronto para começar.
-2.  Biblioteca Aspose.Cells: Esta biblioteca é sua chave para desbloquear manipulações poderosas de planilhas. Você pode[baixe aqui](https://releases.aspose.com/cells/net/).
+2. Biblioteca Aspose.Cells: Esta biblioteca é sua chave para desbloquear manipulações poderosas de planilhas. Você pode[baixe aqui](https://releases.aspose.com/cells/net/).
 3. Um IDE: use seu Ambiente de Desenvolvimento Integrado (IDE) favorito, como o Visual Studio, que tornará sua experiência de codificação muito mais suave.
 4. Conhecimento básico de programação: familiaridade com C# e conceitos de expressões regulares será benéfica.
 
@@ -77,7 +77,7 @@ replace.RegexKey = true; // Especifique que estamos usando regex
 ```
 
 Nesta configuração:
-- `CaseSensitive` está definido para`false`o que significa que nossa busca por "KIM" ignorará se é maiúscula ou minúscula.
+- `CaseSensitive` está definido para`false`, o que significa que nossa busca por "KIM" ignorará se é maiúscula ou minúscula.
 - `MatchEntireCellContents` está definido para`false` para que possamos substituir partes do conteúdo da célula.
 - `RegexKey` está definido para`true` para indicar que usaremos uma expressão regular para nossa pesquisa.
 
@@ -132,4 +132,4 @@ Sim, ele suporta uma variedade de formatos, incluindo XLS, XLSX, CSV e muito mai
 Sim, você pode criar padrões regex mais complexos para corresponder a vários termos simultaneamente.
 
 ### Onde posso encontrar mais exemplos e documentação para Aspose.Cells?  
- Você pode encontrar documentação abrangente[aqui](https://reference.aspose.com/cells/net/).
+Você pode encontrar documentação abrangente[aqui](https://reference.aspose.com/cells/net/).

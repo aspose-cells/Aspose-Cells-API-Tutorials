@@ -70,7 +70,7 @@ string outputDir = "C:\\YourOutputDirectory\\"; // Belirtilen dizine geçin
 
 ## Adım 2: Bir Çalışma Kitabı Nesnesi Oluşturma
 
-Sonra, bir örnek oluşturuyoruz`Workbook` sınıf. Bütün çalışmalarımız burada gerçekleşecek.
+ Sonra, bir örnek oluşturuyoruz`Workbook` sınıf. Bütün çalışmalarımız burada gerçekleşecek.
 ```csharp
 Workbook workbook = new Workbook();
 ```

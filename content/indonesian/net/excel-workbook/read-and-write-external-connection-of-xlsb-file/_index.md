@@ -68,7 +68,7 @@ Dengan buku kerja yang dimuat, Anda dapat mengakses koneksi eksternalnya. Dalam 
 Aspose.Cells.ExternalConnections.DBConnection dbCon = wb.DataConnections[0] as Aspose.Cells.ExternalConnections.DBConnection;
 ```
 
- Di Sini,`DataConnections[0]`mengacu pada koneksi pertama di buku kerja. Kami mentransmisikannya sebagai`DBConnection` ketik untuk manipulasi lebih lanjut.
+ Di Sini,`DataConnections[0]` mengacu pada koneksi pertama di buku kerja. Kami mentransmisikannya sebagai`DBConnection` ketik untuk manipulasi lebih lanjut.
 
 ## Langkah 4: Ekstrak Informasi Koneksi
 

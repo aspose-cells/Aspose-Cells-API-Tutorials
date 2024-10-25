@@ -35,7 +35,7 @@ Let’s start by defining the path of your documents. You want to set the source
 // The path to the documents directory.
 string sourceDir = "Your Document Directory"; // Change this to the path of your Excel file
 // Output directory
-string outputDir = RunExamples.Get_OutputDirectory(); // Ensure this method provides a valid output path
+string outputDir = "Your Document Directory"; // Ensure this method provides a valid output path
 ```
 In this snippet, replace `"Your Document Directory"` with the actual path to your directory containing the Excel file. This is like setting up the stage before your performance—it’s crucial to know where your materials are.
 ## Step 2: Instantiate the Workbook Object

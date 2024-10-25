@@ -16,7 +16,7 @@ url: /zh-hant/net/excel-display-settings-csharp-tutorials/display-tab-of-spreads
 在我們進入實際程式碼之前，讓我們確保您已將所有內容排列好。這是您需要的：
 
 1.  Aspose.Cells for .NET Library – 確保您已安裝它。你可以[在這裡下載庫](https://releases.aspose.com/cells/net/).
-2. .NET Framework – 確保您執行的是相容版本的 .NET Framework。 Aspose.Cells for .NET 支援 .NET Framework 2.0 版本。
+2. .NET Framework – 確保您執行的是相容版本的 .NET Framework。 Aspose.Cells for .NET 支援從 2.0 開始的 .NET Framework 版本。
 3. 開發環境 – Visual Studio 或任何其他 C# IDE 非常適合此任務。
 4. C# 基礎 – 您不需要成為嚮導，但了解基本語法會有所幫助。
 

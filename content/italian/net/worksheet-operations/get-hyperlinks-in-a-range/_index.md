@@ -35,13 +35,13 @@ Iniziamo definendo il percorso dei tuoi documenti. Vuoi impostare la directory d
 // Percorso verso la directory dei documenti.
 string sourceDir = "Your Document Directory"; // Sostituiscilo con il percorso del tuo file Excel
 // Directory di uscita
-string outputDir = RunExamples.Get_OutputDirectory(); // Assicurati che questo metodo fornisca un percorso di output valido
+string outputDir = "Your Document Directory"; // Assicurati che questo metodo fornisca un percorso di output valido
 ```
- In questo frammento, sostituisci`"Your Document Directory"` con il percorso effettivo della tua directory contenente il file Excel. È come allestire il palco prima della tua esibizione: è fondamentale sapere dove si trovano i tuoi materiali.
+ In questo frammento, sostituisci`"Your Document Directory"`con il percorso effettivo della tua directory contenente il file Excel. È come allestire il palco prima della tua esibizione: è fondamentale sapere dove si trovano i tuoi materiali.
 ## Passaggio 2: creare un'istanza dell'oggetto Workbook
  Successivamente, creeremo un`Workbook` oggetto per aprire il file Excel con cui stiamo lavorando.
 ```csharp
-//Crea un'istanza di un oggetto Workbook
+// Crea un'istanza di un oggetto Workbook
 // Aprire un file Excel
 Workbook workbook = new Workbook(sourceDir + "HyperlinksSample.xlsx");
 ```
@@ -59,14 +59,14 @@ Ora è il momento di definire un intervallo in cui vogliamo cercare gli hyperlin
 // Crea un intervallo A2:B3
 Range range = worksheet.Cells.CreateRange("A2", "B3");
 ```
- Chiamando`CreateRange`, specifichiamo le celle di inizio e fine. È qui che avviene la magia: in seguito controlleremo gli hyperlink che si trovano in questo intervallo specificato.
+ Chiamando`CreateRange`specifichiamo le celle di inizio e fine. È qui che avviene la magia: in seguito controlleremo gli hyperlink che si trovano in questo intervallo specificato.
 ## Passaggio 5: recuperare i collegamenti ipertestuali dall'intervallo
 Questo è il passaggio in cui effettivamente accediamo ai collegamenti ipertestuali nell'intervallo definito.
 ```csharp
 //Ottieni collegamenti ipertestuali nell'intervallo
 Hyperlink[] hyperlinks = range.Hyperlinks;
 ```
- IL`Hyperlinks` proprietà di un`Range`l'oggetto restituisce un array di`Hyperlink` oggetti trovati in quell'intervallo. È come prendere tutte le note importanti dalla tua pagina in una volta sola!
+ IL`Hyperlinks` proprietà di un`Range` l'oggetto restituisce un array di`Hyperlink` oggetti trovati in quell'intervallo. È come prendere tutte le note importanti dalla tua pagina in una volta sola!
 ## Passaggio 6: scorrere e visualizzare i collegamenti
 Ora, andiamo a scorrere gli hyperlink recuperati. Per ora, ne stamperemo gli indirizzi e le aree nella console.
 ```csharp
@@ -85,7 +85,7 @@ foreach (Hyperlink link in hyperlinks)
     link.Delete();
 }
 ```
- Utilizzando il`Delete()` metodo su ogni collegamento ipertestuale ti consente di rimuovere i collegamenti ipertestuali di cui potresti non aver più bisogno. È come cancellare uno scarabocchio che non ti serve più dalla tua pagina.
+ Utilizzando il`Delete()`metodo su ogni collegamento ipertestuale ti consente di rimuovere i collegamenti ipertestuali di cui potresti non aver più bisogno. È come cancellare uno scarabocchio che non ti serve più dalla tua pagina.
 ## Passaggio 8: salva le modifiche
 Infine, salviamo la cartella di lavoro con tutte le modifiche apportate.
 ```csharp

@@ -9,7 +9,7 @@ url: /de/net/excel-page-setup/
 ---
 ## Einführung
 
-Aspose.Cells für .NET ist ein leistungsstarkes Tool für Entwickler, die mit Excel-Dateien arbeiten. Die bereitgestellte Funktionalität kann die Art und Weise verändern, wie Sie Daten in Tabellenkalkulationen verwalten und präsentieren. Aber wo fangen Sie an? Wir haben eine Sammlung von Tutorials erstellt, die ein breites Spektrum an Funktionen abdecken und es Ihnen ermöglichen, tief in bestimmte Interessensgebiete einzutauchen.
+Aspose.Cells für .NET ist ein leistungsstarkes Tool für Entwickler, die mit Excel-Dateien arbeiten. Die bereitgestellte Funktionalität kann die Verwaltung und Präsentation von Daten in Tabellenkalkulationen grundlegend verändern. Aber wo soll man anfangen? Wir haben eine Sammlung von Tutorials erstellt, die eine breite Palette von Funktionen abdecken und es Ihnen ermöglichen, tief in bestimmte Interessensgebiete einzutauchen.
 
 ## Kopieren und Verwalten der Seiteneinrichtung  
  Mussten Sie schon einmal Seiteneinstellungen von einem Arbeitsblatt auf ein anderes übertragen? Unser Tutorial zu[Seiteneinrichtungseinstellungen aus einem anderen Arbeitsblatt kopieren](./copy-page-setup-settings-from-other-worksheet/)führt Sie nahtlos durch diesen Prozess. Mit klaren, einfachen Schritten lernen Sie, wie Sie Ihre Tabellenkalkulationsverwaltung verbessern, ohne etwas zu verpassen. Außerdem zeigen wir Ihnen, wie Sie automatische Papiergrößen in Ihren Arbeitsblättern bestimmen. Diese Einblicke können Ihnen Zeit sparen und dazu beitragen, dass Ihre Druckergebnisse genau Ihren Vorstellungen entsprechen.
@@ -46,7 +46,7 @@ Manchmal reichen Standardpapierformate einfach nicht aus. Vielleicht arbeiten Si
 
 ## Effiziente Techniken zur Dokumentformatierung
 
- Die korrekte Formatierung Ihrer Excel-Dokumente kann oft den Unterschied zwischen einer professionellen Präsentation und einem überladenen, verwirrenden Layout ausmachen. Eine effektive Möglichkeit, Ihre Dokumente zu verbessern, sind richtige Formatierungstechniken. Unser umfassender Leitfaden zu[Excel-Drucktitel festlegen](./set-excel-print-title/) zeigt Ihnen, wie Sie Titel definieren, die auch auf gedruckten Seiten sichtbar bleiben und so die Navigation in Ihren Dokumenten erleichtern. Dies ist besonders nützlich für Berichte, die sich über mehrere Seiten erstrecken, da dadurch sichergestellt wird, dass der Kontext für die Leser klar bleibt.
+ Die korrekte Formatierung Ihrer Excel-Dokumente kann oft den Unterschied zwischen einer professionellen Präsentation und einem überladenen, verwirrenden Layout ausmachen. Eine effektive Möglichkeit, Ihre Dokumente zu verbessern, sind richtige Formatierungstechniken. Unser umfassender Leitfaden zu[Excel-Drucktitel festlegen](./set-excel-print-title/) zeigt Ihnen, wie Sie Titel definieren, die auch auf gedruckten Seiten sichtbar bleiben und so die Navigation in Ihren Dokumenten erleichtern. Dies ist insbesondere bei Berichten nützlich, die sich über mehrere Seiten erstrecken, da dadurch sichergestellt wird, dass der Kontext für die Leser klar bleibt.
 
 ## Abschluss 
 

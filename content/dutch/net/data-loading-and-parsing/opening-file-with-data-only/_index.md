@@ -51,7 +51,7 @@ Beschouw dit als het geven van specifieke instructies. Je zegt in feite: "Hé, i
 ## Stap 4: Een werkmapobject maken
  Oké, we zijn er bijna! Nu gaan we een`Workbook` object, waar Aspose.Cells in feite de inhoud van uw Excel-bestand laadt.
 ```csharp
-// Een werkmapobject maken en het bestand openen via het pad
+//Een werkmapobject maken en het bestand openen via het pad
 Workbook book = new Workbook(dataDir + "Book1.xlsx", loadOptions);
 ```
  Vervang in deze regel`"Book1.xlsx"` met de naam van uw eigenlijke Excel-bestand. Voilà! Uw werkmap is geladen met alle cruciale gegevens.

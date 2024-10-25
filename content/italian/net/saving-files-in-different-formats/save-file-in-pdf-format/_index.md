@@ -58,7 +58,7 @@ Questo è il momento per cui abbiamo lavorato! Ora salveremo la cartella di lavo
 ```csharp
 if (Respose != null)
 {
-    //Salva in formato Pdf
+    // Salva in formato Pdf
     workbook.Save(Respose, dataDir + "output.pdf", ContentDisposition.Attachment, new PdfSaveOptions());
     Respose.End();
 }

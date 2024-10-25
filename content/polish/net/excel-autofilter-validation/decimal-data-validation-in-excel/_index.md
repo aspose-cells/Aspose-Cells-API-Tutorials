@@ -136,7 +136,7 @@ Pomyśl o tym jak o narysowaniu linii granicznej. Każda liczba poza tym zakrese
 
 ## Krok 10: Ustal limity dla walidacji
 
-Następnie ustalimy dolny i górny limit naszej walidacji:
+Następnie ustalimy dolny i górny limit dla naszej walidacji:
 
 ```csharp
 validation.Formula1 = Decimal.MinValue.ToString();
@@ -167,7 +167,7 @@ area.StartColumn = 0;
 area.EndColumn = 0;
 ```
 
-W tej konfiguracji zakładamy, że walidacja dotyczy komórek od A1 do A10.
+tej konfiguracji zakładamy, że walidacja dotyczy komórek od A1 do A10.
 
 ## Krok 13: Dodaj obszar walidacji
 
@@ -203,7 +203,7 @@ Sprawdzanie poprawności danych w programie Excel to funkcja ograniczająca typ 
 Tak! Możesz zapewnić niestandardowe komunikaty o błędach, aby pomóc użytkownikom, gdy zostaną wprowadzone nieprawidłowe dane.
 
 ### Czy korzystanie z Aspose.Cells jest bezpłatne?
-Aspose.Cells oferuje bezpłatną wersję próbną, ale do długoterminowego użytkowania potrzebna będzie licencja. Więcej informacji na temat uzyskania tymczasowej licencji można znaleźć[Tutaj](https://purchase.aspose.com/temporary-license/).
+ Aspose.Cells oferuje bezpłatną wersję próbną, ale do długoterminowego użytkowania potrzebna będzie licencja. Więcej informacji na temat uzyskania tymczasowej licencji można znaleźć[Tutaj](https://purchase.aspose.com/temporary-license/).
 
 ### Jakie typy danych mogę sprawdzać w programie Excel?
 Za pomocą Aspose.Cells można sprawdzać poprawność różnych typów danych, w tym liczb całkowitych, liczb dziesiętnych, dat, list i formuł niestandardowych.

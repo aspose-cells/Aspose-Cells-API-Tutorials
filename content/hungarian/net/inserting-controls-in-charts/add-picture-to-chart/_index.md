@@ -16,7 +16,7 @@ Eleged van az unalmas grafikonokból, amelyekből hiányzik a személyes érint�
 Mielőtt belevágnánk a kódolás finomságába, van néhány előfeltétel, amelyeket simán be kell tartania:
 
 - Visual Studio: Itt írhatja és futtathatja a .NET kódot. Győződjön meg arról, hogy telepítve van.
-- Aspose.Cells for .NET: Erre a könyvtárra lesz szüksége az Excel fájlokkal való munkavégzéshez. Megteheti[töltse le itt](https://releases.aspose.com/cells/net/).
+-  Aspose.Cells for .NET: Erre a könyvtárra lesz szüksége az Excel fájlokkal való munkavégzéshez. Tudod[töltse le itt](https://releases.aspose.com/cells/net/).
 - A C# alapismeretei: Miközben végigvezetem a kódon, a C# alapjaival kapcsolatos fogantyú tisztább lesz a dolgokon.
 
 ### Telepítési lépések
@@ -45,7 +45,7 @@ Most, hogy megvannak az előfeltételeink, bontsuk le a folyamatot falatnyi lép
 
 ## 1. lépés: Határozza meg a könyvtárait
 
-Először is be kell állítanunk a bemeneti és kimeneti fájljaink elérési útját. Ez a lépés kulcsfontosságú, mert tudnunk kell, hol találjuk a meglévő Excel fájlunkat, és hova mentsük a módosított fájlt.
+Először is be kell állítanunk a bemeneti és kimeneti fájljaink elérési útját. Ez a lépés döntő fontosságú, mert tudnunk kell, hol találjuk a meglévő Excel fájlunkat, és hova mentsük a módosított fájlt.
 
 ```csharp
 //Forrás könyvtár
@@ -55,7 +55,7 @@ string sourceDir = "Your Document Directory/";
 string outputDir = "Your Output Directory/";
 ```
 
- Cserélje ki`Your Document Directory` és`Your Output Directory` tényleges elérési utakkal a számítógépén. 
+ Cserélje ki`Your Document Directory` és`Your Output Directory`tényleges elérési utakkal a számítógépén. 
 
 ## 2. lépés: Töltse be a meglévő munkafüzetet
 
@@ -84,7 +84,7 @@ Győződjön meg arról, hogy a képet a megadott könyvtárba mentette.
 Most pedig határozzuk meg, hogy melyik diagramhoz adjuk hozzá a képünket. Ebben a példában az első munkalap első diagramját célozzuk meg.
 
 ```csharp
-//Szerezze be a tervezői diagramot a második lapon.
+// Szerezze be a tervezői diagramot a második lapon.
 Worksheet sheet = workbook.Worksheets[0];
 Aspose.Cells.Charts.Chart chart = sheet.Charts[0];
 ```
@@ -100,7 +100,7 @@ Miután kiválasztotta a diagramot, ideje hozzáadni a képet!
 Aspose.Cells.Drawing.Picture pic0 = chart.Shapes.AddPictureInChart(50, 50, stream, 200, 200);
 ```
 
- Itt,`50` és`50` azok az X és Y koordináták, ahová a kép kerül, és`200` a kép szélessége és magassága.
+ Itt,`50` és`50` azok az X és Y koordináták, ahová a kép kerül, és`200` kép szélessége és magassága.
 
 ## 6. lépés: A kép vonalformátumának testreszabása
 

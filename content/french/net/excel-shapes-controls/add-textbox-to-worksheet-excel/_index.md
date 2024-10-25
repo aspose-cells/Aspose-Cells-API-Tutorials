@@ -33,7 +33,7 @@ Tout d'abord, configurons le répertoire dans lequel seront stockés tous vos do
 ```csharp
 // Le chemin vers le répertoire des documents.
 string dataDir = "Your Document Directory"; 
-//Créez un répertoire s'il n'est pas déjà présent.
+// Créez un répertoire s'il n'est pas déjà présent.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists) 
     System.IO.Directory.CreateDirectory(dataDir);

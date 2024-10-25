@@ -29,7 +29,7 @@ Langkah pertama adalah membuat direktori tempat file Excel Anda akan disimpan. A
 ```csharp
 // Jalur ke direktori dokumen.
 string dataDir = "Your Document Directory";
-//Buat direktori jika belum ada.
+// Buat direktori jika belum ada.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);

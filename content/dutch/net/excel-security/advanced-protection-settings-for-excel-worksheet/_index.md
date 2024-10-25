@@ -16,7 +16,7 @@ In het digitale tijdperk is het beheren en beveiligen van uw gegevens belangrijk
 Voordat we in de code duiken, controleren we of je alles hebt wat je nodig hebt:
 
 1. Ontwikkelomgeving: Visual Studio moet op uw computer geïnstalleerd zijn, omdat het een uitstekende IDE voor .NET-ontwikkeling biedt.
-2. Aspose.Cells Library: Download de Aspose.Cells-bibliotheek. U kunt deze verkrijgen via de[Aspose Downloads-pagina](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells Library: Download de Aspose.Cells-bibliotheek. U kunt deze verkrijgen via de[Aspose Downloads-pagina](https://releases.aspose.com/cells/net/).
 3. Basiskennis van C#: Zorg dat u een goed begrip hebt van C# en .NET Framework, zodat u de cursus gemakkelijk kunt volgen.
 4. Een project maken: Stel een nieuwe consoletoepassing in in Visual Studio waarin we de code gaan schrijven.
 
@@ -48,12 +48,12 @@ Laten we de implementatie opsplitsen in beheersbare stappen. We maken een eenvou
 
 ## Stap 1: Maak een bestandsstroom voor uw Excel-bestand
 
-Ten eerste moeten we een bestaand Excel-bestand laden. We gebruiken een`FileStream` om er toegang toe te krijgen.
+ Ten eerste moeten we een bestaand Excel-bestand laden. We gebruiken een`FileStream` om er toegang toe te krijgen.
 
 ```csharp
 // Het pad naar de documentenmap.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-// Een bestandsstroom maken om het Excel-bestand te openen
+//Een bestandsstroom maken om het Excel-bestand te openen
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
  De`FileStream` stelt ons in staat om het opgegeven Excel-bestand te lezen. Zorg ervoor dat u "UW DOCUMENTENMAP" wijzigt in het werkelijke pad waar uw Excel-bestand zich bevindt.

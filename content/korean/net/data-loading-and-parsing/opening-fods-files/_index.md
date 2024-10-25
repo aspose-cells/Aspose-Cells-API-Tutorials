@@ -46,7 +46,7 @@ string sourceDir = "Your Document Directory";
 ```
  반드시 교체하세요`"YourFilePath\\"` FODS 파일이 저장된 경로로 변경합니다.
 ## 2단계: 통합 문서 개체 만들기
- 이제 다음을 생성합니다.`Workbook` FODS 파일을 사용하는 데 도움이 되는 개체입니다. 다음 코드를 추가하세요.`Main` 방법:
+ 이제 다음을 생성합니다.`Workbook`FODS 파일을 사용하는 데 도움이 되는 개체입니다. 다음 코드를 추가하세요.`Main` 방법:
 ```csharp
 Workbook workbook = new Workbook(sourceDir + "SampleFods.fods");
 ```

@@ -32,7 +32,7 @@ Pertama-tama, kita perlu membuat proyek baru di Visual Studio untuk aplikasi kit
 2. Pilih Aplikasi Web ASP.NET Core atau Aplikasi Konsol berdasarkan preferensi Anda.
 3.  Beri nama proyek Anda (misalnya`SXCFileOpener`) dan klik Buat.
 4. Pastikan Anda telah memilih kerangka .NET selama pengaturan ini.
-5.  Setelah proyek dimuat, Anda akan melihat tampilan default`.cs` tempat kita dapat menambahkan kode kita.
+5. Setelah proyek dimuat, Anda akan melihat tampilan default`.cs` tempat kita dapat menambahkan kode kita.
 ## Langkah 2: Menambahkan Pustaka Aspose.Cells
 Selanjutnya, kita akan menambahkan pustaka Aspose.Cells ke proyek kita. Berikut caranya:
 1. Buka NuGet Package Manager dengan mengklik kanan proyek Anda di Solution Explorer dan pilih Kelola Paket NuGet.
@@ -48,7 +48,7 @@ string sourceDir = "Your Document Directory";
 ```
 2.  Di dalam direktori ini, tambahkan file sampel SXC Anda (misalnya,`SampleSXC.sxc`) untuk pengujian.
 ## Langkah 4: Membuat Objek Buku Kerja
- Dengan direktori sumber yang sudah ditetapkan, saatnya untuk membuat`Workbook` objek untuk memuat file SXC kami:
+ Dengan direktori sumber yang sudah ditetapkan, saatnya untuk membuat`Workbook`objek untuk memuat file SXC kami:
 ```csharp
 Workbook workbook = new Workbook(sourceDir + "SampleSXC.sxc");
 ```

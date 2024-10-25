@@ -58,7 +58,7 @@ Workbook workbook = new Workbook();
 接下來，我們需要訪問工作表，在其中輸入資料並建立圖表。
 
 ```csharp
-//透過傳遞工作表索引來取得新新增工作表的引用
+//透過傳遞工作表索引來取得新新增的工作表的引用
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
@@ -134,7 +134,7 @@ chart.NSeries[0].Points[0].Area.ForegroundColor = Color.Cyan;
 chart.NSeries[1].Area.FillFormat.SetOneColorGradient(Color.Lime, 1, Aspose.Cells.Drawing.GradientStyleType.Horizontal, 1);
 ```
 
-透過自訂繪圖區域和系列顏色，我們增強了圖表的美感，使其引人注目且資訊更豐富。顏色讓數據變得栩栩如生——您難道不喜歡充滿活力的視覺效果嗎？
+透過自訂繪圖區域和系列顏色，我們增強了圖表的美感，使其引人注目且資訊更豐富。顏色讓數據栩栩如生——您不喜歡充滿活力的視覺效果嗎？
 
 ## 第8步：設定圖表標題
 
@@ -209,7 +209,7 @@ Aspose.Cells 是一個功能強大的程式庫，可讓您在.NET 應用程式�
 是的，您可以透過以下方式免費試用 Aspose.Cells[試用連結](https://releases.aspose.com/).
 
 ### 在哪裡可以找到 Aspose.Cells 文件？
-您可以在以下位置找到全面的文件：[Aspose.Cells 參考頁面](https://reference.aspose.com/cells/net/).
+您可以在以下位置找到全面的文檔[Aspose.Cells 參考頁面](https://reference.aspose.com/cells/net/).
 
 ### 我如何獲得 Aspose.Cells 的支援？
 您可以在以下位置獲得社區支持[Aspose論壇](https://forum.aspose.com/c/cells/9).

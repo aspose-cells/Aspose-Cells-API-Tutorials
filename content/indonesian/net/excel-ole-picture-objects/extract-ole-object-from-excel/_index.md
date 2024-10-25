@@ -12,7 +12,7 @@ Di dunia yang paham teknologi saat ini, menangani file Excel merupakan tugas umu
 ## Prasyarat
 Sebelum kita menyelami detail penting dalam mengekstraksi objek OLE, ada beberapa hal yang mesti Anda siapkan:
 1. Pengetahuan Dasar tentang C#: Jika Anda familier dengan C#, berarti Anda sudah berada di jalur yang benar. Jika belum, jangan khawatir! Kami akan menjelaskannya secara sederhana.
-2.  Aspose.Cells Terpasang: Anda memerlukan pustaka Aspose.Cells. Anda dapat mengunduhnya dari situs tersebut[Di Sini](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells Terpasang: Anda memerlukan pustaka Aspose.Cells. Anda dapat mengunduhnya dari situs tersebut[Di Sini](https://releases.aspose.com/cells/net/).
 3. Lingkungan Pengembangan yang Kompatibel: Pastikan Anda telah menyiapkan lingkungan pengembangan .NET, seperti Visual Studio, yang siap digunakan.
 4. Contoh File Excel: Anda memerlukan file Excel dengan objek OLE yang tertanam untuk pengujian. 
 Setelah Anda memiliki prasyarat ini, kita dapat memulai perjalanan kita ke dunia ekstraksi objek OLE.
@@ -44,7 +44,7 @@ Sekarang tibalah bagian yang menyenangkan—menelusuri semua objek OLE dalam kol
 for (int i = 0; i < oles.Count; i++)
 {
     Aspose.Cells.Drawing.OleObject ole = oles[i];
-    //Logika lebih lanjut untuk menangani setiap objek
+    // Logika lebih lanjut untuk menangani setiap objek
 }
 ```
 ## Langkah 5: Tentukan Nama File Output

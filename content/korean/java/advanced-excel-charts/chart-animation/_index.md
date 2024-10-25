@@ -16,7 +16,7 @@ url: /ko/java/advanced-excel-charts/chart-animation/
 
 차트 애니메이션을 만들기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 
-1. Java용 Aspose.Cells: Java용 Aspose.Cells 라이브러리가 설치되어 있는지 확인하세요. 여기에서 다운로드할 수 있습니다.[여기](https://releases.aspose.com/cells/java/).
+1.  Java용 Aspose.Cells: Java용 Aspose.Cells 라이브러리가 설치되어 있는지 확인하세요. 여기에서 다운로드할 수 있습니다.[여기](https://releases.aspose.com/cells/java/).
 
 2. Java 개발 환경: 시스템에 Java 개발 환경을 설정해야 합니다.
 
@@ -82,7 +82,7 @@ workbook.save("output.xlsx");
 
 ### 애니메이션 유형을 어떻게 변경할 수 있나요?
 
- 애니메이션 유형을 변경하려면 다음을 사용하세요.`setAnimationType` 차트 객체에 대한 메서드입니다. 다음과 같은 다양한 유형 중에서 선택할 수 있습니다.`SLIDE`, `FADE` 그리고`GROW_SHRINK`.
+ 애니메이션 유형을 변경하려면 다음을 사용하세요.`setAnimationType` 차트 객체에 대한 메서드입니다. 다음과 같은 다양한 유형 중에서 선택할 수 있습니다.`SLIDE`, `FADE` , 그리고`GROW_SHRINK`.
 
 ### 애니메이션 기간을 사용자 지정할 수 있나요?
 
@@ -90,4 +90,4 @@ workbook.save("output.xlsx");
 
 ### 애니메이션 지연의 목적은 무엇입니까?
 
- 애니메이션 지연은 차트 애니메이션이 시작되기 전의 시간 간격을 결정합니다.`setAnimationDelay` 지연 시간을 밀리초 단위로 설정하는 방법입니다.
+ 애니메이션 지연은 차트 애니메이션이 시작되기 전의 시간 간격을 결정합니다.`setAnimationDelay`지연 시간을 밀리초 단위로 설정하는 방법입니다.

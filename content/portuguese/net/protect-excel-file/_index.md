@@ -15,11 +15,11 @@ Se você está se aprofundando na automação e manipulação do Excel usando .N
 
 Imagine precisar manipular grandes quantidades de dados no Excel. Você pode pensar: "Isso não vai levar uma eternidade?" Digite Aspose.Cells: é como ter um superpoder para manipulação de dados. Esta biblioteca não permite apenas que você edite planilhas; ela permite que você proteja dados, garantindo que informações cruciais permaneçam intactas. Quando você protege linhas ou colunas específicas, é como montar uma fortaleza em torno de suas figuras importantes, permitindo apenas a entrada das pessoas certas. 
 
- Simplificamos esse processo para você com vários tutoriais passo a passo. Por exemplo, confira nosso guia sobre como[Permitir que usuários editem intervalos na planilha do Excel](./allow-user-to-edit-ranges-in-excel-worksheet/). Você aprenderá como permitir que os usuários modifiquem seções específicas de uma planilha sem comprometer todo o documento. 
+Simplificamos esse processo para você com vários tutoriais passo a passo. Por exemplo, confira nosso guia sobre como[Permitir que usuários editem intervalos na planilha do Excel](./allow-user-to-edit-ranges-in-excel-worksheet/). Você aprenderá como permitir que os usuários modifiquem seções específicas de uma planilha sem comprometer todo o documento. 
 
 ## Tutoriais personalizados para você
 
-Mas isso não é tudo! Proteger seus dados é igualmente essencial. Você não deixaria sua porta da frente escancarada, certo? Da mesma forma, nossos guias oferecem as ferramentas para bloquear qualquer parte de sua planilha do Excel. Confira o tutorial em[Protegendo células específicas](./protect-specific-cells-in-a-excel-worksheet/) para aprender como proteger seus dados efetivamente. Nós o guiamos por cada passo do caminho, tornando-o direto até mesmo para aqueles que são novatos em programação.
+ Mas isso não é tudo! Proteger seus dados é igualmente essencial. Você não deixaria sua porta da frente escancarada, certo? Da mesma forma, nossos guias oferecem as ferramentas para bloquear qualquer parte de sua planilha do Excel. Confira o tutorial em[Protegendo células específicas](./protect-specific-cells-in-a-excel-worksheet/) para aprender como proteger seus dados efetivamente. Nós o guiamos por cada passo do caminho, tornando-o direto até mesmo para aqueles que são novatos em programação.
 
 Certamente! Vamos expandir a importância desses tutoriais em sua busca pela maestria do Excel e como eles podem se encaixar em seu fluxo de trabalho de desenvolvimento.
 

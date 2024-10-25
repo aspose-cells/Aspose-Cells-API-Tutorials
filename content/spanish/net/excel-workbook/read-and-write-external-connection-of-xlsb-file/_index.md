@@ -68,7 +68,7 @@ Con el libro de trabajo cargado, puedes acceder a sus conexiones externas. En nu
 Aspose.Cells.ExternalConnections.DBConnection dbCon = wb.DataConnections[0] as Aspose.Cells.ExternalConnections.DBConnection;
 ```
 
- Aquí,`DataConnections[0]`Se refiere a la primera conexión en el libro de trabajo. Lo estamos convirtiendo en un`DBConnection` tipo para una mayor manipulación.
+ Aquí,`DataConnections[0]` Se refiere a la primera conexión en el libro de trabajo. Lo estamos convirtiendo en un`DBConnection` tipo para una mayor manipulación.
 
 ## Paso 4: Extraer información de conexión
 

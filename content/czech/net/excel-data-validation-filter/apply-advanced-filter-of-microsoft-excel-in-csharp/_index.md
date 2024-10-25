@@ -50,7 +50,7 @@ Workbook wb = new Workbook(sourceDir + "sampleAdvancedFilter.xlsx");
 
  V tomto kroku deklarujeme proměnnou`sourceDir` který ukazuje na umístění vašeho souboru Excel. Poté vytvoříme novou instanci`Workbook` třídy k načtení tohoto souboru. Je to jako otevřít knihu, kterou si chceme přečíst!
 
-## Krok 2: Otevřete první list
+## Krok 2: Otevřete první pracovní list
 
 S načteným sešitem je dalším krokem přístup k prvnímu listu.
 

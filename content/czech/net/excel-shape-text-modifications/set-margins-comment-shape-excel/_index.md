@@ -16,7 +16,7 @@ Měli byste mít základní znalosti C# a .NET. Tento tutoriál je určen pro ty
 ### Nastavení prostředí
 1. Visual Studio: Ujistěte se, že máte nainstalované Visual Studio. Je to vývojové prostředí, které zjednodušuje kódování.
 2.  Aspose.Cells Library: Potřebujete knihovnu Aspose.Cells. Pokud jste to ještě neudělali, můžete si ji stáhnout[zde](https://releases.aspose.com/cells/net/).
-3.  Vzorový soubor Excel: Vytvořte nebo stáhněte vzorový soubor Excel. V tomto tutoriálu budeme používat soubor s názvem`sampleSetMarginsOfCommentOrShapeInsideTheWorksheet.xlsx`.
+3. Vzorový soubor Excel: Vytvořte nebo stáhněte vzorový soubor Excel. V tomto tutoriálu budeme používat soubor s názvem`sampleSetMarginsOfCommentOrShapeInsideTheWorksheet.xlsx`.
 ## Import balíčků
 Prvním krokem na naší cestě je import potřebných balíků. Do projektu budete muset zahrnout jmenné prostory Aspose.Cells. To vám umožní přístup ke všem funkcím, které Aspose.Cells nabízí.
 ### Otevřete svůj projekt
@@ -65,14 +65,14 @@ Nyní musíme iterovat všechny tvary v listu. To nám umožní použít nastave
 ```csharp
 foreach (Shape sh in ws.Shapes)
 ```
-Zde používáme smyčku foreach. Je to jednoduchý způsob, jak zpracovat každý tvar jeden po druhém.
+Zde používáme foreach smyčku. Je to jednoduchý způsob, jak zpracovat každý tvar jeden po druhém.
 ## Krok 5: Upravte zarovnání textu
 Každý tvar již může mít nastavení zarovnání, které musíme upravit. Zde přistoupíme k zarovnání textu tvaru a určíme, že okraje nastavíme ručně.
 ```csharp
 Aspose.Cells.Drawing.Texts.ShapeTextAlignment txtAlign = sh.TextBody.TextAlignment;
 txtAlign.IsAutoMargin = false;
 ```
- Nastavením`IsAutoMargin` na false, nyní máme kontrolu nad okraji.
+ Nastavením`IsAutoMargin`na false, nyní máme kontrolu nad okraji.
 ## Krok 6: Nastavte okraje
 Toto je zásadní krok, kde definujeme okraje. Tyto hodnoty můžete upravit podle svých potřeb.
 ```csharp
@@ -105,4 +105,4 @@ Aspose.Cells je .NET knihovna určená k vytváření, manipulaci a převodu sou
 ### Lze knihovnu snadno integrovat do stávajících projektů?
 Absolutně! Aspose.Cells se snadno integruje do projektů .NET a jeho API je přímočaré.
 ### Kde najdu podporu pro Aspose.Cells?
-Podporu můžete získat prostřednictvím Aspose[forum](https://forum.aspose.com/c/cells/9).
+ Podporu můžete získat prostřednictvím Aspose[forum](https://forum.aspose.com/c/cells/9).

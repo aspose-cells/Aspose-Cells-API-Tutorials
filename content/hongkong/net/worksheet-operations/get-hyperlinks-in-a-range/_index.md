@@ -35,7 +35,7 @@ using Aspose.Cells;
 //文檔目錄的路徑。
 string sourceDir = "Your Document Directory"; //將其變更為 Excel 檔案的路徑
 //輸出目錄
-string outputDir = RunExamples.Get_OutputDirectory(); //確保此方法提供有效的輸出路徑
+string outputDir = "Your Document Directory"; //確保此方法提供有效的輸出路徑
 ```
 在此程式碼片段中，替換`"Your Document Directory"`包含 Excel 檔案的目錄的實際路徑。這就像在表演前搭建舞台一樣，了解材料在哪裡至關重要。
 ## 第 2 步：實例化工作簿對象
@@ -54,7 +54,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 ```
 透過訪問`Worksheets[0]`，我們選擇第一個工作表。工作表的索引從零開始，因此請確保您選擇正確的工作表。
 ## 第 4 步：建立範圍
-現在是時候定義我們要搜尋超連結的範圍了。在我們的例子中，假設我們想要查看單元格 A2 到 B3。
+現在是時候定義我們要搜尋超連結的範圍了。在我們的例子中，假設我們要查看單元格 A2 到 B3。
 ```csharp
 //建立範圍 A2:B3
 Range range = worksheet.Cells.CreateRange("A2", "B3");

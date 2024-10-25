@@ -37,7 +37,7 @@ string dataDir = "Your Document Directory";
  Tutaj określasz ścieżkę katalogu, w którym będzie przechowywany plik Excel. Możesz zastąpić`"Your Document Directory"` ze ścieżką, która faktycznie znajduje się na Twoim komputerze, lub dynamicznie utwórz folder, jeśli on nie istnieje.
 ### Sprawdzanie i tworzenie katalogu
 ```csharp
-//Utwórz katalog, jeśli jeszcze go nie ma.
+// Utwórz katalog, jeśli jeszcze go nie ma.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);

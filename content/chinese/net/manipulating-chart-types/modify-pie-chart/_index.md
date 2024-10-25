@@ -28,7 +28,7 @@ url: /zh/net/manipulating-chart-types/modify-pie-chart/
 
 ## 设置你的项目
 
-首先，打开 C# IDE（强烈推荐 Visual Studio）并创建一个新项目：
+首先，打开你的 C# IDE（强烈推荐 Visual Studio）并创建一个新项目：
 
 1. 打开 Visual Studio。
 2. 选择“创建新项目”。

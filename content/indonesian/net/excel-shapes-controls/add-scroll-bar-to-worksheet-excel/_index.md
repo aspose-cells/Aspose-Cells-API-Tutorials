@@ -31,7 +31,7 @@ Setiap proyek yang baik dimulai dengan pengaturan yang tepat! Pertama, Anda perl
 ```csharp
 // Jalur ke direktori dokumen.
 string dataDir = "Your Document Directory";
-//Buat direktori jika belum ada.
+// Buat direktori jika belum ada.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -132,7 +132,7 @@ Nah, itu dia panduan untuk menambahkan bilah gulir ke lembar kerja di Excel meng
 ### Apa itu Aspose.Cells?
 Aspose.Cells adalah pustaka .NET canggih yang memungkinkan pengembang untuk membuat, memanipulasi, dan mengonversi file Excel secara terprogram.
 ### Bisakah saya menggunakan Aspose.Cells secara gratis?
-Ya, Aspose.Cells menawarkan uji coba gratis, yang dapat Anda temukan[Di Sini](https://releases.aspose.com/).
+ Ya, Aspose.Cells menawarkan uji coba gratis, yang dapat Anda temukan[Di Sini](https://releases.aspose.com/).
 ### Bagaimana cara menambahkan kontrol lain ke lembar Excel saya?
 Anda dapat menggunakan metode serupa seperti yang ditunjukkan untuk bilah gulir. Cukup periksa dokumentasi untuk kontrol lebih lanjut!
 ### Bahasa pemrograman apa yang dapat saya gunakan dengan Aspose.Cells?

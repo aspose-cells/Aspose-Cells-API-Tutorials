@@ -16,7 +16,7 @@ Napjaink digitális munkaterületén a dokumentumok megosztása gyakori forgató
 Mielőtt belemerülnénk a kódba, győződjön meg arról, hogy készen áll a következőkre:
 
 - Alapvető C# ismerete: Nem kell kódolási szakértőnek lenned, de a C# szintaxisával és fogalmaival jól kell értened.
--  Aspose.Cells for .NET: Győződjön meg arról, hogy a könyvtár telepítve van a projektben. Megteheti[töltse le itt](https://releases.aspose.com/cells/net/).
+-  Aspose.Cells for .NET: Győződjön meg arról, hogy a könyvtár telepítve van a projektben. Tudod[töltse le itt](https://releases.aspose.com/cells/net/).
 - .NET SDK: Győződjön meg arról, hogy telepítve van a .NET SDK az alkalmazás futtatásához.
 - Visual Studio vagy bármely IDE: Állítsa be a kívánt kódolási környezetet a kód írásához és végrehajtásához.
 
@@ -117,4 +117,4 @@ Sajnos, ha elfelejti a jelszót, nem tudja feloldani a munkafüzet védelmét k�
 Az Aspose.Cells elsősorban a .NET-et támogatja, de vannak Java- és más nyelvek könyvtárai is. További információkért keresse fel oldalukat!
 
 ### Hogyan kaphatok támogatást az Aspose.Cells-hez?
- támogatási fórumon keresztül kérhet segítséget:[Aspose támogatás](https://forum.aspose.com/c/cells/9).
+ A támogatási fórumon keresztül kérhet segítséget:[Aspose támogatás](https://forum.aspose.com/c/cells/9).

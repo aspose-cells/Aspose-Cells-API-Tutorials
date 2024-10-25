@@ -79,6 +79,6 @@ Az Aspose.Cells for .NET egy hatékony könyvtár, amely lehetővé teszi a fejl
 ### Lehetséges más típusú Excel-szolgáltatások létrehozása az Aspose.Cells használatával?
 Teljesen! Az Aspose.Cells lehetővé teszi különféle Excel-műveletek végrehajtását, például diagramok létrehozását, munkalapok kezelését és cellaformátumok módosítását.
 ### Használhatom ingyenesen az Aspose.Cells-t?
- Megteheti[próbáljon ki egy ingyenes próbaverziót](https://releases.aspose.com/) Az Aspose.Cells szolgáltatást, hogy a vásárlás előtt fedezze fel a funkcióit.
+ Tudod[próbáljon ki egy ingyenes próbaverziót](https://releases.aspose.com/) Az Aspose.Cells szolgáltatást, hogy a vásárlás előtt fedezze fel a funkcióit.
 ### Milyen támogatási lehetőségek állnak rendelkezésre?
  Bármilyen probléma esetén keresse fel a[Aspose támogatási fórum](https://forum.aspose.com/c/cells/9) segítséget kapni, és megosztani betekintést a felhasználók és fejlesztők közösségével.

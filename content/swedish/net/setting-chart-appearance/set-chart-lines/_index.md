@@ -135,7 +135,7 @@ chart.NSeries[0].Points[0].Area.ForegroundColor = Color.Cyan;
 chart.NSeries[1].Area.FillFormat.SetOneColorGradient(Color.Lime, 1, Aspose.Cells.Drawing.GradientStyleType.Horizontal, 1);
 ```
 
-Förklaring: Här anpassar du färgerna på olika komponenter i diagrammet för att göra det visuellt slående. Varje linje riktar sig mot olika områden i diagrammet.
+Förklaring: Här anpassar du färgerna på olika komponenter i diagrammet för att göra det visuellt slående. Varje linje är inriktad på olika områden i diagrammet.
 
 ## Steg 9: Använd linjestilar
 
@@ -152,7 +152,7 @@ chart.NSeries[0].Marker.MarkerStyle = Aspose.Cells.Charts.ChartMarkerType.Triang
 chart.NSeries[1].Border.Weight = Aspose.Cells.Drawing.WeightType.MediumLine;
 ```
 
-Förklaring: Ovanstående kod anpassar gränserna för diagrammets serier, ger det en prickad linje och ändrar till och med datapunktsmarkörerna till trianglar. Allt handlar om den personliga touchen!
+Förklaring: Ovanstående kod anpassar gränserna för diagrammets serier, ger det en prickad linje och ändrar till och med datapunktsmarkörerna till trianglar. Allt handlar om den där personliga touchen!
 
 ## Steg 10: Spara din arbetsbok
 

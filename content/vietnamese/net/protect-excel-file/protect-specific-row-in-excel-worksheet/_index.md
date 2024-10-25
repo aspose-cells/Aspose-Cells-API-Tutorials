@@ -49,7 +49,7 @@ Bây giờ chúng ta đã thiết lập mọi thứ, hãy bảo vệ một hàng
 // Đường dẫn đến thư mục tài liệu.
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // thay đổi theo con đường bạn mong muốn.
 
-//Tạo thư mục nếu thư mục đó chưa có.
+// Tạo thư mục nếu thư mục đó chưa có.
 bool isExists = System.IO.Directory.Exists(dataDir);
 if (!isExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -88,7 +88,7 @@ StyleFlag flag;
 for (int i = 0; i <= 255; i++)
 {
     style = sheet.Cells.Columns[(byte)i].Style;
-    style.IsLocked = false; // Mở khóa cột
+    style.IsLocked = false; //Mở khóa cột
     flag = new StyleFlag();
     flag.Locked = true; // Đặt cờ thành true để khóa
     sheet.Cells.Columns[(byte)i].ApplyStyle(style, flag); // Áp dụng phong cách

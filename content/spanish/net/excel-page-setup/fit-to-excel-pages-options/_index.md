@@ -74,7 +74,7 @@ worksheet.PageSetup.FitToPagesWide = 1;
 ```
 
 - `FitToPagesTall` determina cuántas páginas ocupará verticalmente su hoja de cálculo.
-- `FitToPagesWide` define la configuración de página horizontal. Configurar ambos en`1`significa que su contenido encajará perfectamente en una página, transformando su documento en una obra maestra optimizada.
+- `FitToPagesWide` define la configuración de página horizontal. Configurar ambos en`1` significa que su contenido encajará perfectamente en una página, transformando su documento en una obra maestra optimizada.
 
 ## Paso 3: Guarda tu libro de trabajo
 
@@ -97,7 +97,7 @@ workbook.Save(dataDir + "FitToPagesOptions_out.xls");
 Aspose.Cells es una sólida biblioteca .NET para administrar archivos de Excel mediante programación, que permite a los desarrolladores crear y manipular hojas de cálculo con facilidad.
 
 ### ¿Puedo probar Aspose.Cells gratis?
-¡Sí! Puedes registrarte para una prueba gratuita[aquí](https://releases.aspose.com/).
+ ¡Sí! Puedes registrarte para una prueba gratuita[aquí](https://releases.aspose.com/).
 
 ### ¿Cómo compro Aspose.Cells?
  Puedes realizar tu compra[aquí](https://purchase.aspose.com/buy).

@@ -97,7 +97,7 @@ Chart chart = worksheet.Charts[0];
 
 從圖表中提取副標題
 
-最後，這一步是神奇發生的地方——您將從圖表物件中獲取副標題並顯示它。透過將字幕文字轉換為字串，您可以根據需要輕鬆閱讀或進一步操作它。
+最後，這一步是奇蹟發生的地方——您將從圖表物件中獲取副標題並顯示它。透過將字幕文字轉換為字串，您可以根據需要輕鬆閱讀或進一步操作它。
 
 ```csharp
 Console.WriteLine("Chart Subtitle: " + chart.SubTitle.Text);

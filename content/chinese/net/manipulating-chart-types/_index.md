@@ -2,7 +2,7 @@
 title: 操作图表类型
 linktitle: 操作图表类型
 second_title: Aspose.Cells .NET Excel 处理 API
-description: 了解 Aspose.Cells for .NET 图表操作的基本教程，包括创建自定义图表、折线图和饼图。学习修改图表和应用 Microsoft 主题颜色。
+description: 了解 Aspose.Cells for .NET 图表操作的基本教程，包括创建自定义、折线和饼图。学习修改图表和应用 Microsoft 主题颜色。
 type: docs
 weight: 21
 url: /zh/net/manipulating-chart-types/

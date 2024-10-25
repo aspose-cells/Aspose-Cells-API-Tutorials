@@ -82,6 +82,6 @@ Aspose.Cells för .NET är ett kraftfullt bibliotek som låter utvecklare skapa,
 ### Kan jag använda Aspose.Cells utan licens?
  Ja, du kan använda det med begränsningar genom att registrera dig för en[gratis provperiod](https://releases.aspose.com/). 
 ### Var kan jag be om support angående Aspose.Cells?
- Du kan söka hjälp från[Aspose Support Forum](https://forum.aspose.com/c/cells/9).
+ Du kan söka hjälp hos[Aspose Support Forum](https://forum.aspose.com/c/cells/9).
 ### Hur kan jag få en tillfällig licens för Aspose.Cells?
- Du kan ansöka om en[tillfällig licens](https://purchase.aspose.com/temporary-license/)om du behöver det för utvärderingsändamål.
+ Du kan ansöka om en[tillfällig licens](https://purchase.aspose.com/temporary-license/) om du behöver det för utvärderingsändamål.

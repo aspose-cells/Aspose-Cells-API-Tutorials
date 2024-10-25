@@ -42,7 +42,7 @@ using Aspose.Cells;
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY"; //指定您的文件目錄
-string InputPath = Path.Combine(dataDir, "book1.xlsx"); //組合形成完整路徑
+string InputPath = Path.Combine(dataDir, "book1.xlsx"); //組合起來形成完整路徑
 ```
 
 在這裡，替換`"YOUR DOCUMENT DIRECTORY"`與系統上的實際路徑一起`book1.xlsx`被儲存。利用`Path.Combine`很簡潔，因為它確保在不同作業系統上正確建立路徑。

@@ -95,4 +95,4 @@ Az Aspose.Cells egy hatékony .NET-könyvtár, amely lehetővé teszi a fejleszt
 ### Az Aspose.Cells támogat más dokumentumformátumokat?
 Igen, az XLS/XLSX mellett az Aspose.Cells számos formátumot támogat, beleértve a CSV-t, PDF-t, HTML-t és még sok mást.
 ### Vásárolhatok licencet az Aspose.Cellshez?
- Teljesen! Megteheti[licencet vásárolni](https://purchase.aspose.com/buy) az Aspose webhelyén a teljes verzió előnyeiért.
+ Teljesen! Tudod[licencet vásárolni](https://purchase.aspose.com/buy) az Aspose webhelyén a teljes verzió előnyeiért.

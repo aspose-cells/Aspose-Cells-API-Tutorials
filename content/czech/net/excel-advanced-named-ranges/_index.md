@@ -19,7 +19,7 @@ Začněme tím, jak snadno identifikovat buňky v pojmenovaném rozsahu pomocí 
 
 ## Sloučit buňky v pojmenovaném rozsahu v Excelu
 
-Další na řadě je jedna z vizuálně nejatraktivnějších, ale praktických operací – slučování buněk v pojmenovaném rozsahu. Chcete, aby byly vaše tabulky přehlednější? Sloučení buněk vám může pomoci vytvořit záhlaví, která zahrnují více sloupců nebo řádků, a dát tak vaší sestavě čistý a profesionální vzhled. Pomocí Aspose.Cells pro .NET nemůže být sloučení buněk jednodušší. 
+Další na řadě je jedna z vizuálně nejatraktivnějších a zároveň praktických operací – slučování buněk v pojmenovaném rozsahu. Chcete, aby byly vaše tabulky přehlednější? Sloučení buněk vám může pomoci vytvořit záhlaví, která zahrnují více sloupců nebo řádků, a dát tak vaší sestavě čistý a profesionální vzhled. Pomocí Aspose.Cells pro .NET nemůže být sloučení buněk jednodušší. 
 
  Krása této funkce spočívá v jejím snadném použití. Buňky můžete sloučit programově, což znamená, že vaše formátování může být automatizováno. Představte si, že vytváříte týdenní přehledy, kde se záhlaví pokaždé automaticky sloučí. S Aspose tento úkol trvá jen několik kliknutí a řádků kódu. Jste zvědaví, jak na to? Přejděte na našeho průvodce[Sloučení buněk v pojmenovaném rozsahu](./merge-cells-in-named-range/).
 

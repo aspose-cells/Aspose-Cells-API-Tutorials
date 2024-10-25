@@ -114,7 +114,7 @@ for (int i = 0; i < lstLabels.Count; i++)
     Console.WriteLine(lstLabels[i]);
 }
 ```
-Ten fragment kodu najpierw wyprowadza tytuł i linię separatora. Następnie przechodzimy przez każdą etykietę w`lstLabels` ArrayList i wydrukuj to na konsoli. Jeśli jest dziesięć etykiet, zobaczysz każdą z nich tutaj!
+ Ten fragment kodu najpierw wyprowadza tytuł i linię separatora. Następnie przechodzimy przez każdą etykietę w`lstLabels`ArrayList i wydrukuj to na konsoli. Jeśli jest dziesięć etykiet, zobaczysz każdą z nich tutaj!
 
 ## Krok 8: Ostatnia wiadomość
 
@@ -141,7 +141,7 @@ Aspose.Cells to potężna biblioteka do manipulowania plikami Excel w .NET. Zape
  Licencję na Aspose.Cells można nabyć za pośrednictwem ich[strona zakupu](https://purchase.aspose.com/buy).
 
 ### Gdzie mogę znaleźć pomoc dotyczącą Aspose.Cells?
- celu uzyskania pomocy możesz odwiedzić forum Aspose[Tutaj](https://forum.aspose.com/c/cells/9).
+ W celu uzyskania pomocy możesz odwiedzić forum Aspose[Tutaj](https://forum.aspose.com/c/cells/9).
 
 ### Czy mogę otrzymać tymczasową licencję?
- Tak! Aspose oferuje tymczasową licencję, o którą możesz poprosić[ten link](https://purchase.aspose.com/temporary-license/).
+Tak! Aspose oferuje tymczasową licencję, o którą możesz poprosić[ten link](https://purchase.aspose.com/temporary-license/).

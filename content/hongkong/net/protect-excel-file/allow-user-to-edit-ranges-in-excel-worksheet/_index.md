@@ -90,7 +90,7 @@ ProtectedRangeCollection allowRanges = sheet.AllowEditRanges;
 //定義保護範圍
 ProtectedRange proteced_range;
 
-//建立範圍
+//創建範圍
 int idx = allowRanges.Add("r2", 1, 1, 3, 3);
 proteced_range = allowRanges[idx];
 
@@ -98,7 +98,7 @@ proteced_range = allowRanges[idx];
 proteced_range.Password = "123";
 ```
 
-在此步驟中，我們新增一個名為「r2」的新可編輯範圍，允許在從第1 行第1 列到第3 行第3 列的儲存格中進行編輯。範圍，確保只有授權使用者才能編輯修改它。
+在此步驟中，我們將新增一個名為「r2」的新可編輯範圍，允許在從第1 行第1 列到第3 行第3 列的儲存格中進行編輯。保護此範圍，確保只有授權使用者才能編輯修改它。
 
 ## 步驟 6：保護工作表
 

@@ -49,7 +49,7 @@ string dataDir = "Your Document Directory";
 
 ## Schritt 2: Überprüfen Sie, ob ein Verzeichnis vorhanden ist
 
-Dieses Snippet überprüft, ob das Verzeichnis existiert und erstellt es, wenn nicht:
+Dieses Snippet prüft, ob das Verzeichnis existiert und erstellt es, wenn nicht:
 
 ```csharp
 bool IsExists = System.IO.Directory.Exists(dataDir);
@@ -203,7 +203,7 @@ Die Datenüberprüfung in Excel ist eine Funktion, die den Datentyp einschränkt
 Ja! Sie können benutzerdefinierte Fehlermeldungen bereitstellen, um Benutzer bei falschen Dateneingaben zu unterstützen.
 
 ### Ist die Nutzung von Aspose.Cells kostenlos?
-Aspose.Cells bietet eine kostenlose Testversion an, für die langfristige Nutzung benötigen Sie jedoch eine Lizenz. Weitere Informationen zum Erwerb einer temporären Lizenz finden Sie hier[Hier](https://purchase.aspose.com/temporary-license/).
+ Aspose.Cells bietet eine kostenlose Testversion an, für die langfristige Nutzung benötigen Sie jedoch eine Lizenz. Weitere Informationen zum Erwerb einer temporären Lizenz finden Sie hier[Hier](https://purchase.aspose.com/temporary-license/).
 
 ### Welche Datentypen kann ich in Excel validieren?
 Mit Aspose.Cells können Sie verschiedene Datentypen validieren, darunter ganze Zahlen, Dezimalzahlen, Daten, Listen und benutzerdefinierte Formeln.

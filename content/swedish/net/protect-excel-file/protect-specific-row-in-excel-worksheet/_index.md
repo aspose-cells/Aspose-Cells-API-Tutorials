@@ -49,7 +49,7 @@ Först måste vi definiera en katalog där vi ska lagra vår Excel-fil. Så här
 // Sökvägen till dokumentkatalogen.
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // ändra till önskad väg.
 
-//Skapa katalog om den inte redan finns.
+// Skapa katalog om den inte redan finns.
 bool isExists = System.IO.Directory.Exists(dataDir);
 if (!isExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -88,7 +88,7 @@ StyleFlag flag;
 for (int i = 0; i <= 255; i++)
 {
     style = sheet.Cells.Columns[(byte)i].Style;
-    style.IsLocked = false; // Lås upp kolumn
+    style.IsLocked = false; //Lås upp kolumn
     flag = new StyleFlag();
     flag.Locked = true; // Ställ in flaggan på sant för låsning
     sheet.Cells.Columns[(byte)i].ApplyStyle(style, flag); // Applicera stilen

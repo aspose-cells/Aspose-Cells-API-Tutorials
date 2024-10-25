@@ -18,7 +18,7 @@ Než se pustíme do kódu, je potřeba splnit několik předpokladů:
 1. Visual Studio: Ujistěte se, že máte na svém počítači nainstalované Visual Studio. Je to IDE, které budeme používat k psaní a provádění našeho kódu.
 2.  Aspose.Cells for .NET: Musíte mít knihovnu Aspose.Cells. Můžete si jej stáhnout z[Aspose webové stránky](https://releases.aspose.com/cells/net/).
 3. Základní znalost C#: Znalost programování v C# vám pomůže lépe porozumět příkladům.
-4.  Soubor Excel: Připravte si soubor Excel (např.`book1.xls`), který budete používat pro tento tutoriál.
+4. Soubor Excel: Připravte si soubor Excel (např.`book1.xls`), který budete používat pro tento tutoriál.
 
 Jakmile máte tyto předpoklady seřazeny, můžeme začít zkoumat, jak načíst data z buněk Excelu.
 
@@ -52,7 +52,7 @@ Nyní, když máte nastavený adresář dokumentů, je dalším krokem otevřen�
 
 
 ```csharp
-// Otevření existujícího sešitu
+//Otevření existujícího sešitu
 Workbook workbook = new Workbook(dataDir + "book1.xls");
 ```
 
@@ -68,7 +68,7 @@ Po otevření sešitu budete chtít získat přístup ke konkrétnímu listu, ze
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
- The`Worksheets` kolekce umožňuje přístup k různým listům v sešitu. Index`[0]`odkazuje na první pracovní list. Chcete-li získat přístup k dalším listům, můžete odpovídajícím způsobem změnit index.
+ The`Worksheets` kolekce umožňuje přístup k různým listům v sešitu. Index`[0]` odkazuje na první pracovní list. Chcete-li získat přístup k dalším listům, můžete odpovídajícím způsobem změnit index.
 
 ## Krok 4: Smyčka přes buňky
 
@@ -99,7 +99,7 @@ foreach (Cell cell1 in worksheet.Cells)
             Console.WriteLine("Double Value: " + doubleValue);
             break;
 
-        // Vyhodnocení datového typu dat buňky na booleovskou hodnotu
+        //Vyhodnocení datového typu dat buňky na booleovskou hodnotu
         case CellValueType.IsBool:
             boolValue = cell1.BoolValue;
             Console.WriteLine("Bool Value: " + boolValue);
@@ -124,7 +124,7 @@ foreach (Cell cell1 in worksheet.Cells)
 }
 ```
 
- V tomto kroku procházíme každou buňku v listu. U každé buňky zkontrolujeme její datový typ pomocí a`switch`prohlášení. V závislosti na typu načteme hodnotu a vytiskneme ji do konzole. Zde je rozpis případů:
+ V tomto kroku procházíme každou buňku v listu. U každé buňky zkontrolujeme její datový typ pomocí a`switch` prohlášení. V závislosti na typu načteme hodnotu a vytiskneme ji do konzole. Zde je rozpis případů:
 
 -  IsString: Pokud buňka obsahuje řetězec, načteme jej pomocí`StringValue`.
 -  IsNumeric: Pro číselné hodnoty používáme`DoubleValue`.
@@ -143,7 +143,7 @@ Načítání dat z buněk aplikace Excel pomocí Aspose.Cells for .NET je jednod
 Aspose.Cells je knihovna .NET, která umožňuje vývojářům vytvářet, manipulovat a převádět soubory aplikace Excel bez nutnosti instalace aplikace Microsoft Excel.
 
 ### Mohu používat Aspose.Cells zdarma?  
-Ano, Aspose.Cells nabízí bezplatnou zkušební verzi, kterou můžete použít k otestování jejích funkcí. Můžete si jej stáhnout[zde](https://releases.aspose.com/).
+ Ano, Aspose.Cells nabízí bezplatnou zkušební verzi, kterou můžete použít k otestování jejích funkcí. Můžete si jej stáhnout[zde](https://releases.aspose.com/).
 
 ### Jaké typy dat mohu načíst z buněk aplikace Excel?  
 Můžete načíst různé typy dat, včetně řetězců, čísel, booleanů a hodnot data/času.

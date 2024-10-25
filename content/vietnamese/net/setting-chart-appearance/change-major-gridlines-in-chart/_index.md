@@ -95,7 +95,7 @@ Trong đoạn mã này, chúng ta chỉ định loại biểu đồ (trong trư�
 
 ## Bước 6: Truy cập vào Chart Instance
 
-Sau khi tạo biểu đồ, chúng ta cần truy cập vào phiên bản của nó để sửa đổi các thuộc tính của nó. Điều này được thực hiện bằng cách truy xuất nó thông qua`Charts`bộ sưu tập.
+ Sau khi tạo biểu đồ, chúng ta cần truy cập vào phiên bản của nó để sửa đổi các thuộc tính của nó. Điều này được thực hiện bằng cách truy xuất nó thông qua`Charts`bộ sưu tập.
 
 ```csharp
 // Truy cập vào phiên bản biểu đồ mới được thêm vào

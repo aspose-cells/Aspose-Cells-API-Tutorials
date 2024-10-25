@@ -25,7 +25,7 @@ Medan Aspose.Cells förenklar många uppgifter, är en grundläggande förståel
 Du bör ha en IDE som Visual Studio inställd. Detta guidar dig genom att hantera och testa din kod effektivt.
 
 ### Exempel på Excel-filer
-Du behöver exempelfiler (`samplePageSetupIsAutomaticPaperSize-False.xlsx` och`samplePageSetupIsAutomaticPaperSize-True.xlsx`) för teständamål. Se till att dessa filer finns i din källkatalog.
+Du behöver exempelfiler (`samplePageSetupIsAutomaticPaperSize-False.xlsx` och`samplePageSetupIsAutomaticPaperSize-True.xlsx`för teständamål. Se till att dessa filer finns i din källkatalog.
 
 ## Importera paket
 

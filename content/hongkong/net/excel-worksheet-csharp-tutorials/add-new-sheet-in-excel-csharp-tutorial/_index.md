@@ -84,7 +84,7 @@ int i = workbook.Worksheets.Add();
 沒有名字的表是什麼？讓我們為新建立的工作表命名，以便於識別。
 
 ```csharp
-//透過傳遞工作表索引來取得新新增工作表的引用
+//透過傳遞工作表索引來取得新新增的工作表的引用
 Worksheet worksheet = workbook.Worksheets[i];
 
 //設定新新增的工作表名稱

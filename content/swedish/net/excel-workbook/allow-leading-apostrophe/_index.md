@@ -16,7 +16,7 @@ Välkommen till den här steg-för-steg-guiden om hur du använder Aspose.Cells 
 Innan du dyker in i koden, här är några förutsättningar du måste uppfylla:
 
 1. Grundläggande kunskaper om .NET: Bekantskap med .NET-ramverket är viktigt. Om du redan pysslar med C# eller VB.NET, se dig själv redo.
-2. Aspose.Cells för .NET Library: Du måste ha Aspose.Cells installerat. Du kan enkelt göra detta via NuGet-pakethanteraren eller ladda ner det från[Aspose webbplats](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells för .NET Library: Du måste ha Aspose.Cells installerat. Du kan enkelt göra detta via NuGet-pakethanteraren eller ladda ner det från[Aspose webbplats](https://releases.aspose.com/cells/net/).
 3. IDE-installation: Se till att du har en integrerad utvecklingsmiljö (IDE) som Visual Studio redo för kodning.
 4. Exempel på Excel-fil: Du kan använda exempelfilen ("AllowLeadingApostropheSample.xlsx") som vi kommer att arbeta med i koden.
 
@@ -39,7 +39,7 @@ Vi kommer att dela upp våra uppgifter i hanterbara steg för att säkerställa 
 
 ## Steg 1: Ställa in käll- och utdatakataloger
 
-det här steget måste vi definiera var våra in- och utdatafiler kommer att finnas.
+I det här steget måste vi definiera var våra in- och utdatafiler kommer att finnas.
 
 ```csharp
 // Källkatalog
@@ -56,7 +56,7 @@ Nu kommer vi att instansiera WorkbookDesigner, som är avgörande för att arbet
 WorkbookDesigner designer = new WorkbookDesigner();
 ```
 
- De`WorkbookDesigner` hanterar designen och databindningen av vår arbetsbok, vilket gör vårt liv enklare när vi konverterar data till ett visuellt format.
+ De`WorkbookDesigner`hanterar designen och databindningen av vår arbetsbok, vilket gör vårt liv enklare när vi konverterar data till ett visuellt format.
 
 ## Steg 3: Ladda den befintliga arbetsboken
 
@@ -90,7 +90,7 @@ List<DataObject> list = new List<DataObject>
 };
 ```
 
- Vi skapar en lista över`DataObject`, där ett av namnen avsiktligt innehåller en ledande apostrof. Detta kommer att hjälpa till att illustrera hur Aspose.Cells hanterar sådana scenarier.
+ Vi skapar en lista över`DataObject`där ett av namnen avsiktligt innehåller en ledande apostrof. Detta kommer att hjälpa till att illustrera hur Aspose.Cells hanterar sådana scenarier.
 
 ## Steg 6: Bind datakällan till designern
 
@@ -144,7 +144,7 @@ Nu, oavsett om du genererar rapporter, skapar funktioner för dataanalys eller h
 Aspose.Cells är ett kraftfullt .NET-bibliotek för att skapa, manipulera och konvertera Excel-filer i flera format programmatiskt.
 
 ### Kan jag använda Aspose.Cells gratis?
-Ja, du kan använda Aspose.Cells genom att registrera dig för en gratis provperiod[här](https://releases.aspose.com/).
+ Ja, du kan använda Aspose.Cells genom att registrera dig för en gratis provperiod[här](https://releases.aspose.com/).
 
 ### Hur kan jag få support för Aspose.Cells?
  Du kan få hjälp och ställa frågor på[Aspose Support Forum](https://forum.aspose.com/c/cells/9).

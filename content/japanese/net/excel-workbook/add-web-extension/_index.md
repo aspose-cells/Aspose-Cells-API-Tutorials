@@ -92,7 +92,7 @@ extension.Reference.StoreType = WebExtensionStoreType.OMEX;
 
 ## ステップ 6: タスク ペインを追加して構成する
 
-ここで、タスク ウィンドウを追加して、Web 拡張機能をインタラクティブにし、Excel UI で表示できるようにします。
+次に、タスク ウィンドウを追加して、Web 拡張機能をインタラクティブにし、Excel UI で表示できるようにします。
 
 ```csharp
 int taskPaneIndex = taskPanes.Add();

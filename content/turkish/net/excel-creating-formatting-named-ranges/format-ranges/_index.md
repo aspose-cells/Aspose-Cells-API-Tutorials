@@ -53,7 +53,7 @@ Sırada, çalışma kitabının bir örneğini oluşturacağız. Bu, üzerinde �
 Workbook workbook = new Workbook();
 ```
 
-Açıklama:`Workbook` sınıf bir Excel dosyasını temsil eder. Bunu örnekleyerek, esasen üzerinde değişiklik yapabileceğiniz yeni bir Excel belgesi oluşturuyorsunuz.
+ Açıklama:`Workbook` sınıf bir Excel dosyasını temsil eder. Bunu örnekleyerek, esasen üzerinde değişiklik yapabileceğiniz yeni bir Excel belgesi oluşturuyorsunuz.
 
 ## Adım 3: İlk Çalışma Sayfasına Erişim
 
@@ -138,7 +138,7 @@ flg.Font = true; // Yazı tipi özniteliklerini etkinleştir
 flg.CellShading = true; // Hücre gölgelendirmesini etkinleştir
 ```
 
-Açıklama:`StyleFlag` nesnesi, kütüphaneye hangi stil özelliklerini uygulamak istediğimizi söyler; bir yapılacaklar listesindeki kutuları işaretlemek gibi!
+ Açıklama:`StyleFlag` nesnesi, kütüphaneye hangi stil özelliklerini uygulamak istediğimizi söyler; bir yapılacaklar listesindeki kutuları işaretlemek gibi!
 
 ## Adım 11: Stili Aralığa Uygulayın
 

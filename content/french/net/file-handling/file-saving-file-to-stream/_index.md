@@ -45,7 +45,7 @@ Après avoir spécifié le répertoire du document, définissez les chemins d'ac
 string filePath = dataDir + "Book1.xlsx";
 ```
 Cette ligne concatène votre répertoire avec le nom du fichier. Vérifiez toujours les chemins d'accès à vos fichiers pour détecter d'éventuelles fautes d'orthographe ; c'est comme s'assurer que vous avez le bon assaisonnement dans votre plat !
-## Étape 3 : chargez votre classeur source
+## Étape 3 : Chargez votre classeur source
 Maintenant, chargeons le classeur pour être prêt à jouer avec son contenu. Pour cela, utilisez :
 ```csharp
 Workbook workbook = new Workbook(filePath);
@@ -84,4 +84,4 @@ Aspose.Cells pour .NET est une bibliothèque puissante qui permet aux développe
 ### Où puis-je demander de l'aide concernant Aspose.Cells ?
  Vous pouvez demander de l'aide auprès du[Forum d'assistance Aspose](https://forum.aspose.com/c/cells/9).
 ### Comment puis-je obtenir une licence temporaire pour Aspose.Cells ?
- Vous pouvez postuler pour un[permis temporaire](https://purchase.aspose.com/temporary-license/)si vous en avez besoin à des fins d'évaluation.
+ Vous pouvez postuler pour un[permis temporaire](https://purchase.aspose.com/temporary-license/) si vous en avez besoin à des fins d'évaluation.

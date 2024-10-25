@@ -39,7 +39,7 @@ string dataDir = "Your Document Directory";
 ```
  Ersätta`"Your Document Directory"` med den faktiska sökvägen där din Excel-fil finns. Till exempel om den lagras i`C:\Documents` , skulle du skriva`string dataDir = "C:\\Documents";`. De dubbla snedstreck är nödvändiga i C# för att undkomma omvänt snedstreck.
 ## Steg 2: Instantiera LoadOptions
- Därefter måste du skapa en instans av`LoadOptions`klass. Den här klassen hjälper oss att specificera olika laddningsalternativ, inklusive lösenordet som krävs för att öppna en krypterad fil.
+ Därefter måste du skapa en instans av`LoadOptions` klass. Den här klassen hjälper oss att specificera olika laddningsalternativ, inklusive lösenordet som krävs för att öppna en krypterad fil.
 ```csharp
 // Instantiera LoadOptions
 LoadOptions loadOptions = new LoadOptions();
@@ -58,7 +58,7 @@ loadOptions.Password = "1234"; // Ersätt "1234" med ditt faktiska lösenord
 // Skapa ett arbetsboksobjekt och öppna filen från dess sökväg
 Workbook wbEncrypted = new Workbook(dataDir + "encryptedBook.xls", loadOptions);
 ```
- Här bygger du en ny`Workbook` objekt och passerar i sökvägen till din krypterade fil och`loadOptions`som inkluderar ditt lösenord. Om allt går bra bör den här raden öppna din krypterade fil.
+ Här bygger du en ny`Workbook` objekt och passerar i sökvägen till din krypterade fil och`loadOptions` som innehåller ditt lösenord. Om allt går bra bör den här raden öppna din krypterade fil.
 ## Steg 5: Bekräfta framgångsrik åtkomst till filen
 Slutligen är det bra att bekräfta att du har öppnat filen. 
 ```csharp
@@ -70,7 +70,7 @@ Grattis! Du har framgångsrikt lärt dig hur du öppnar krypterade Excel-filer m
  Kom ihåg att det kan vara svårt att arbeta med krypterade filer, men med verktyg som Aspose.Cells blir det enkelt. Om du är sugen på att gräva djupare, kolla[dokumentation](https://reference.aspose.com/cells/net/) för mer avancerade funktioner.
 ## FAQ's
 ### Kan jag öppna Excel-filer krypterade med olika lösenord?
- Ja, uppdatera helt enkelt`Password` fältet i`LoadOptions`för att matcha lösenordet för Excel-filen du vill öppna.
+ Ja, uppdatera helt enkelt`Password` fältet i`LoadOptions` för att matcha lösenordet för Excel-filen du vill öppna.
 ### Är Aspose.Cells gratis att använda?
  Aspose.Cells är inte gratis; du kan dock börja med en[gratis provperiod](https://releases.aspose.com/) att utforska dess funktioner.
 ### Vilka typer av Excel-filer kan Aspose.Cells hantera?

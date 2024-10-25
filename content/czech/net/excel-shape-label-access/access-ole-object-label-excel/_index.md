@@ -27,7 +27,7 @@ Abychom mohli začít, musíme do našeho projektu importovat potřebné balíč
 - Vyberte „Spravovat balíčky NuGet“.
 - Vyhledejte "Aspose.Cells" a nainstalujte knihovnu.
 ### Importovat jmenné prostory
- horní části souboru programu (např.`Program.cs`), musíte importovat potřebné jmenné prostory:
+ V horní části souboru programu (např.`Program.cs`), musíte importovat potřebné jmenné prostory:
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -118,7 +118,7 @@ Objekty OLE jsou vložené soubory, které umožňují integrovat dokumenty z ji
 ### Může Aspose.Cells pracovat s jinými formáty souborů?  
 Ano! Aspose.Cells podporuje různé formáty, včetně XLS, XLSX, CSV a dalších.
 ### Je k dispozici bezplatná zkušební verze pro Aspose.Cells?  
- Ano! Můžete si to vyzkoušet[zde](https://releases.aspose.com/).
+Ano! Můžete si to vyzkoušet[zde](https://releases.aspose.com/).
 ### Mohu přistupovat k více objektům OLE v listu?  
  Absolutně! Můžete procházet`ws.OleObjects` pro přístup ke všem vloženým objektům OLE v listu.
 ### Jak si koupím licenci pro Aspose.Cells?  

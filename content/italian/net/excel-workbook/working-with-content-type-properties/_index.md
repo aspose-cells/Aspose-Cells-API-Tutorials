@@ -60,7 +60,7 @@ Con la nostra cartella di lavoro pronta, è il momento di aggiungere alcune prop
 int index = workbook.ContentTypeProperties.Add("MK31", "Simple Data");
 ```
 
- In questo passaggio, abbiamo aggiunto una proprietà denominata "MK31" con il valore "Dati semplici".`Add` restituisce l'indice della proprietà appena aggiunta, che potremo utilizzare in seguito.
+ In questo passaggio, abbiamo aggiunto una proprietà denominata "MK31" con il valore "Dati semplici".`Add`restituisce l'indice della proprietà appena aggiunta, che potremo utilizzare in seguito.
 
 ### Imposta proprietà nillable
 
@@ -79,7 +79,7 @@ index = workbook.ContentTypeProperties.Add("MK32", DateTime.Now.ToString("yyyy-M
 workbook.ContentTypeProperties[index].IsNillable = true;
 ```
 
-In questo frammento, creiamo una proprietà denominata "MK32" con la data e l'ora correnti formattate secondo ISO 8601. Abbiamo reso questa proprietà nullable impostando`IsNillable` A`true`.
+ In questo frammento, creiamo una proprietà denominata "MK32" con la data e l'ora correnti formattate secondo ISO 8601. Abbiamo reso questa proprietà nullable impostando`IsNillable` A`true`.
 
 ## Passaggio 4: salvare la cartella di lavoro
 
@@ -120,4 +120,4 @@ Sì! Aspose.Cells supporta vari formati, tra cui XLS, XLSX, CSV e altri.
 Assolutamente! Puoi aggiungere oggetti complessi alle proprietà del tipo di contenuto, purché possano essere serializzati correttamente.
 
 ### Dove posso trovare ulteriore documentazione?
- Per indicazioni più dettagliate, fare riferimento a[Documentazione Aspose.Cells](https://reference.aspose.com/cells/net/).
+Per indicazioni più dettagliate, fare riferimento a[Documentazione Aspose.Cells](https://reference.aspose.com/cells/net/).

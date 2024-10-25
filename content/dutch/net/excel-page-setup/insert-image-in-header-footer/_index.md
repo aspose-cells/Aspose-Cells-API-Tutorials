@@ -55,7 +55,7 @@ Workbook workbook = new Workbook();
 
 ## Stap 3: Het pad van de afbeelding definiëren
 
- Het is tijd om een stringvariabele te maken om het pad naar de afbeelding die u wilt gebruiken vast te leggen. In ons geval gebruiken we`aspose-logo.jpg`.
+Het is tijd om een stringvariabele te maken om het pad naar de afbeelding die u wilt gebruiken vast te leggen. In ons geval gebruiken we`aspose-logo.jpg`.
 
 ```csharp
 string logo_url = dataDir + "aspose-logo.jpg";

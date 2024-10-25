@@ -53,7 +53,7 @@ Vervolgens moet u een bestandsstroom maken om uw Excel-bestand te openen. Met de
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
 
-Hier geven we aan dat we willen openen`book1.xls` zich in de opgegeven directory bevindt. De`FileMode.Open` parameter geeft aan dat we een bestaand bestand openen. Zorg er altijd voor dat de bestandsnaam overeenkomt met wat u hebt.
+ Hier geven we aan dat we willen openen`book1.xls` zich in de opgegeven directory bevindt. De`FileMode.Open` parameter geeft aan dat we een bestaand bestand openen. Zorg er altijd voor dat de bestandsnaam overeenkomt met wat u hebt.
 
 ## Stap 3: Een werkmapobject instantiëren
 
@@ -83,7 +83,7 @@ En nu het moment waar we op hebben gewacht! Dit is waar we daadwerkelijk de rij-
 worksheet.IsRowColumnHeadersVisible = false;
 ```
 
- Instelling`IsRowColumnHeadersVisible` naar`false`verbergt effectief de kopteksten in zowel rijen als kolommen, waardoor uw gegevenspresentatie er overzichtelijker uitziet.
+ Instelling`IsRowColumnHeadersVisible` naar`false` verbergt effectief de kopteksten in zowel rijen als kolommen, waardoor uw gegevenspresentatie er overzichtelijker uitziet.
 
 ## Stap 6: Sla het gewijzigde Excel-bestand op
 

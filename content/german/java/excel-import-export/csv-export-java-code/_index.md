@@ -58,11 +58,11 @@ public class CsvExportExample {
 }
 ```
 
-In diesem Code laden wir eine Excel-Arbeitsmappe, geben die CSV-Optionen (wie das Trennzeichen) an und speichern das Arbeitsblatt dann als CSV-Datei.
+In diesem Code laden wir eine Excel-Arbeitsmappe, geben die CSV-Optionen an (wie das Trennzeichen) und speichern das Arbeitsblatt dann als CSV-Datei.
 
 ## Ausführen des Codes
 
-Kompilieren und führen Sie den Java-Code in Ihrer IDE aus. Stellen Sie sicher, dass Sie in Ihrem Projektverzeichnis eine Excel-Datei mit dem Namen „input.xlsx“ haben. Nach dem Ausführen des Codes finden Sie die exportierte CSV-Datei als „output.csv“ im selben Verzeichnis.
+Kompilieren Sie den Java-Code und führen Sie ihn in Ihrer IDE aus. Stellen Sie sicher, dass Sie eine Excel-Datei mit dem Namen „input.xlsx“ in Ihrem Projektverzeichnis haben. Nach dem Ausführen des Codes finden Sie die exportierte CSV-Datei als „output.csv“ im selben Verzeichnis.
 
 ## Abschluss
 

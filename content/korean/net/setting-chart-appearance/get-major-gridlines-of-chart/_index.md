@@ -15,7 +15,7 @@ url: /ko/net/setting-chart-appearance/get-major-gridlines-of-chart/
 
 튜토리얼을 시작하기 전에 모든 것을 준비했는지 확인하세요.
 
-- .NET용 Aspose.Cells: Aspose.Cells 라이브러리를 다운로드하여 프로젝트에서 참조했는지 확인하세요. 가져올 수 있습니다.[여기](https://releases.aspose.com/cells/net/).
+-  .NET용 Aspose.Cells: Aspose.Cells 라이브러리를 다운로드하여 프로젝트에서 참조했는지 확인하세요. 가져올 수 있습니다.[여기](https://releases.aspose.com/cells/net/).
 - 개발 환경: 모든 .NET 개발 환경이 가능하지만, 강력한 지원과 도구를 제공하는 Visual Studio를 적극 권장합니다.
 - C#에 대한 기본적인 이해: C# 프로그래밍의 기본에 대해 잘 알고 있으면 일부 코드를 작성할 때 도움이 됩니다.
 
@@ -76,7 +76,7 @@ worksheet.Cells["B2"].PutValue(32);
 worksheet.Cells["B3"].PutValue(50);
 ```
 
- 여기서 우리는 셀에 임의의 값을 입력합니다.`A1` 에게`B3`이 데이터는 차트의 데이터 소스 역할을 합니다. 시각화할 의미 있는 데이터가 있어야 합니다. 그렇지 않으면 차트는 맥락이 없는 예쁜 선일 뿐입니다!
+ 여기서 우리는 셀에 임의의 값을 입력합니다.`A1` 에게`B3`. 이 데이터는 차트의 데이터 소스 역할을 합니다. 시각화할 의미 있는 데이터가 있어야 합니다. 그렇지 않으면 차트는 맥락이 없는 예쁜 선일 뿐입니다!
 
 ## 5단계: 워크시트에 차트 추가
 
@@ -161,7 +161,7 @@ workbook.Save(outputDir + "outputMajorGridlinesOfChart.xlsx");
 네! Aspose.Cells는 차트 요소에 대한 글꼴, 스타일 및 형식을 포함하여 광범위한 사용자 정의를 허용합니다.
 
 ### 더 많은 문서는 어디에서 찾을 수 있나요?
- 포괄적인 문서는 다음에서 찾을 수 있습니다.[Aspose의 참조 페이지](https://reference.aspose.com/cells/net/).
+포괄적인 문서는 다음에서 찾을 수 있습니다.[Aspose의 참조 페이지](https://reference.aspose.com/cells/net/).
 
 ### Aspose.Cells의 무료 평가판이 있나요?
  네! 여기에서 다운로드하여 시도해 볼 수 있습니다.[여기](https://releases.aspose.com/).

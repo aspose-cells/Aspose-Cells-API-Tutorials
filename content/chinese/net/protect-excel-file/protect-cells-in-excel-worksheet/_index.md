@@ -16,7 +16,7 @@ url: /zh/net/protect-excel-file/protect-cells-in-excel-worksheet/
 在深入研究保护细胞的具体细节之前，您应该满足一些先决条件：
 
 1. Visual Studio：确保您的计算机上安装了 Visual Studio。它是 .NET 开发的主要 IDE。
-2.  Aspose.Cells 库：您需要在项目中使用 Aspose.Cells 库。您可以通过 NuGet 包管理器轻松安装它，也可以直接从[Aspose.Cells 网站](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells 库：您需要在项目中使用 Aspose.Cells 库。您可以通过 NuGet 包管理器轻松安装它，也可以直接从[Aspose.Cells 网站](https://releases.aspose.com/cells/net/).
 3. 基本 C# 知识：对 C# 编程有一点熟悉将有助于您顺利跟上。
 
 ## 导入包
@@ -139,7 +139,7 @@ wb.Save(dataDir + "output.xls", SaveFormat.Excel97To2003);
 
 ## 结论
 
-就这样！您已成功学会使用 Aspose.Cells for .NET 保护 Excel 工作表中的特定单元格。只需几行代码，您就可以保护数据，确保只有合适的人才有权编辑关键信息。请记住，单元格保护只是 Aspose.Cells 提供的众多功能之一，可帮助高效管理和操作 Excel 文件。
+就这样！您已成功学会使用 Aspose.Cells for .NET 保护 Excel 工作表中的特定单元格。只需几行代码，您就可以保护您的数据，确保只有合适的人才有权编辑关键信息。请记住，单元格保护只是 Aspose.Cells 提供的众多功能之一，可帮助高效管理和操作 Excel 文件。
 
 ## 常见问题解答
 

@@ -75,7 +75,7 @@ PageSetup pageSetup = workbook.Worksheets[0].PageSetup;
 
  Ici,`workbook.Worksheets[0]` fait référence à la première feuille de calcul de votre classeur.`PageSetup` La propriété vous donnera le contrôle sur les paramètres de pagination de votre feuille.
 
-## Étape 4 : Définir l'ordre d'impression
+## Étape 4 : Définir l’ordre d’impression
 
 
  Avec le`PageSetup`objet, il est temps d'indiquer à Excel comment vous souhaitez que les pages soient imprimées. Vous avez la possibilité de définir l'ordre comme « Au-dessus puis en bas » ou « En bas puis au-dessus ».

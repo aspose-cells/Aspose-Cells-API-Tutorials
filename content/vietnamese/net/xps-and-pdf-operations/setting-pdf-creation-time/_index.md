@@ -15,7 +15,7 @@ Trước khi đi sâu vào chi tiết của mã, hãy đảm bảo rằng bạn 
 1. Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio trên máy của mình. Đây sẽ là môi trường phát triển của bạn.
 2.  Aspose.Cells cho .NET: Tải xuống thư viện Aspose.Cells từ[trang web](https://releases.aspose.com/cells/net/). Bạn cũng có thể bắt đầu bằng bản dùng thử miễn phí để kiểm tra các chức năng của nó.
 3. Kiến thức cơ bản về C#: Sự quen thuộc với lập trình C# sẽ giúp bạn hiểu các đoạn mã tốt hơn.
-4.  Tệp Excel: Chuẩn bị tệp Excel để chuyển đổi. Đối với ví dụ này, chúng tôi sẽ sử dụng tệp có tên`Book1.xlsx`.
+4. Tệp Excel: Chuẩn bị tệp Excel để chuyển đổi. Đối với ví dụ này, chúng tôi sẽ sử dụng tệp có tên`Book1.xlsx`.
 Bây giờ bạn đã sắp xếp xong các điều kiện tiên quyết, chúng ta hãy bắt đầu phần thú vị—nhập các gói cần thiết và viết mã!
 ## Nhập gói
 Để bắt đầu, bạn cần nhập các không gian tên cần thiết vào tệp C# của mình. Điều này rất quan trọng vì nó cho phép bạn truy cập các lớp và phương thức do thư viện Aspose.Cells cung cấp.
@@ -45,7 +45,7 @@ string dataDir = "Your Document Directory"; // Chỉ định thư mục tài li�
 string inputPath = dataDir + "Book1.xlsx"; // Đường dẫn đến tệp Excel của bạn
 Workbook workbook = new Workbook(inputPath); // Tải tệp Excel
 ```
- Các`Workbook`lớp được sử dụng để tải và thao tác các tệp Excel. Bằng cách truyền đường dẫn đầu vào, bạn đang cho ứng dụng biết tệp nào cần làm việc.
+ Các`Workbook` lớp được sử dụng để tải và thao tác các tệp Excel. Bằng cách truyền đường dẫn đầu vào, bạn đang cho ứng dụng biết tệp nào cần làm việc.
 ## Bước 3: Tạo PdfSaveOptions
  Bây giờ, đã đến lúc tạo một phiên bản của`PdfSaveOptions`. Lớp này cho phép bạn chỉ định nhiều tùy chọn khác nhau để lưu sổ làm việc dưới dạng PDF, bao gồm cả thời gian tạo.
 ```csharp
@@ -56,7 +56,7 @@ options.CreatedTime = DateTime.Now; // Đặt thời gian tạo thành bây gi�
 ## Bước 4: Lưu Workbook dưới dạng PDF
 Cuối cùng, bạn sẽ lưu bảng tính dưới dạng tệp PDF bằng các tùy chọn vừa xác định.
 ```csharp
-workbook.Save(dataDir + "output.pdf", options); // Lưu dưới dạng PDF
+workbook.Save(dataDir + "output.pdf", options); //Lưu dưới dạng PDF
 ```
  Dòng mã này lấy sổ làm việc và lưu nó ở định dạng PDF tại vị trí đã chỉ định.`options` tham số được truyền để bao gồm thời gian tạo trong siêu dữ liệu PDF.
 

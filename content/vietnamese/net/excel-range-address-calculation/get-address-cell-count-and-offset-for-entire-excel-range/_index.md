@@ -121,4 +121,4 @@ Có, có những thư viện thay thế như EPPlus và ClosedXML, nhưng Aspose
 ### Tôi có thể tìm thêm tài liệu về Aspose.Cells ở đâu?  
  Bạn có thể kiểm tra[Tài liệu Aspose.Cells](https://reference.aspose.com/cells/net/) để biết hướng dẫn chi tiết và tài liệu tham khảo API.
 ### Tôi có thể nhận được hỗ trợ cho Aspose.Cells như thế nào?  
- Để được hỗ trợ và giải đáp thắc mắc, hãy truy cập[Diễn đàn Aspose](https://forum.aspose.com/c/cells/9)nơi bạn có thể tìm thấy sự trợ giúp từ cộng đồng và nhóm hỗ trợ.
+ Để được hỗ trợ và giải đáp thắc mắc, hãy truy cập[Diễn đàn Aspose](https://forum.aspose.com/c/cells/9) nơi bạn có thể tìm thấy sự trợ giúp từ cộng đồng và nhóm hỗ trợ.

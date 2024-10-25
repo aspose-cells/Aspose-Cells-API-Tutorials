@@ -18,7 +18,7 @@ Zanim przejdziemy do konkretów, upewnijmy się, że masz do dyspozycji wszystki
 - Podstawowa znajomość programowania w języku C#: Powinieneś znać składnię i koncepcje programowania.
 -  Biblioteka Aspose.Cells dla .NET: Upewnij się, że jest zainstalowana i gotowa do użycia. Możesz pobrać bibliotekę z tego[połączyć](https://releases.aspose.com/cells/net/).
 - Visual Studio lub dowolne środowisko IDE języka C#: Środowisko programistyczne jest niezbędne do pisania i testowania kodu.
--  Przykładowy plik Excela: Użyjemy pliku Excela o nazwie`sampleFilterDefinedNamesWhileLoadingWorkbook.xlsx`Możesz utworzyć ten plik ręcznie lub pobrać go w razie potrzeby.
+-  Przykładowy plik Excela: Użyjemy pliku Excela o nazwie`sampleFilterDefinedNamesWhileLoadingWorkbook.xlsx`. Możesz utworzyć ten plik ręcznie lub pobrać go w razie potrzeby.
 
 ## Importuj pakiety
 
@@ -106,4 +106,4 @@ Filtrowanie zdefiniowanych nazw może prowadzić do zepsutych formuł, jeśli od
  Tak, możesz otrzymać bezpłatną wersję próbną Aspose.Cells, aby przetestować jej możliwości przed zakupem. Sprawdź to[Tutaj](https://releases.aspose.com/).
 
 ### Gdzie mogę znaleźć więcej przykładów i dokumentacji?
-Pełną dokumentację i więcej przykładów znajdziesz na stronie referencyjnej Aspose.Cells[Tutaj](https://reference.aspose.com/cells/net/).
+ Pełną dokumentację i więcej przykładów znajdziesz na stronie referencyjnej Aspose.Cells[Tutaj](https://reference.aspose.com/cells/net/).

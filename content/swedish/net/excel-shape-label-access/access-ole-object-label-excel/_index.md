@@ -27,7 +27,7 @@ För att börja måste vi importera de nödvändiga paketen till vårt projekt. 
 - Välj "Hantera NuGet-paket".
 - Sök efter "Aspose.Cells" och installera biblioteket.
 ### Importera namnområden
-Överst i din programfil (t.ex.`Program.cs`), måste du importera de nödvändiga namnrymden:
+ Överst i din programfil (t.ex.`Program.cs`), måste du importera de nödvändiga namnrymden:
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -43,7 +43,7 @@ Nu när allt är på plats, låt oss komma åt och ändra etiketten för ett OLE
 string sourceDir = "Your Document Directory";
 ```
 ## Steg 2: Ladda Excel-exempelfilen 
-Därefter laddar vi .xlsx Excel-filen som innehåller vårt OLE-objekt:
+Därefter laddar vi in .xlsx Excel-filen som innehåller vårt OLE-objekt:
 ```csharp
 Workbook wb = new Workbook(sourceDir + "sampleAccessAndModifyLabelOfOleObject.xlsx");
 ```
@@ -54,7 +54,7 @@ Låt oss nu komma åt det första kalkylbladet i vår arbetsbok:
 Worksheet ws = wb.Worksheets[0];
 ```
  Här,`Worksheets[0]` är det första arbetsbladet i samlingen.
-## Steg 4: Gå till det första OLE-objektet 
+## Steg 4: Öppna det första OLE-objektet 
 Därefter hämtar vi det första OLE-objektet:
 ```csharp
 Aspose.Cells.Drawing.OleObject oleObject = ws.OleObjects[0];
@@ -118,7 +118,7 @@ OLE-objekt är inbäddade filer som låter dig integrera dokument från andra Mi
 ### Kan Aspose.Cells fungera med andra filformat?  
 Ja! Aspose.Cells stöder en mängd olika format, inklusive XLS, XLSX, CSV och mer.
 ### Finns det en gratis testversion tillgänglig för Aspose.Cells?  
- Ja! Du kan prova det[här](https://releases.aspose.com/).
+Ja! Du kan prova det[här](https://releases.aspose.com/).
 ### Kan jag komma åt flera OLE-objekt i ett kalkylblad?  
  Absolut! Du kan gå igenom`ws.OleObjects` för att komma åt alla inbäddade OLE-objekt i ett kalkylblad.
 ### Hur köper jag en licens för Aspose.Cells?  

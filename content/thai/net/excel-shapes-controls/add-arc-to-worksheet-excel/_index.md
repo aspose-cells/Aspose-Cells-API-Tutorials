@@ -38,7 +38,7 @@ using System.Drawing;
 ขั้นตอนแรกคือการตั้งค่าไดเรกทอรีที่คุณจะบันทึกไฟล์ Excel ของคุณ ซึ่งจะช่วยให้คุณจัดการไฟล์เอาต์พุตได้อย่างง่ายดาย
 ```csharp
 string dataDir = "Your Document Directory";
-//สร้างไดเร็กทอรีหากยังไม่มีอยู่
+// สร้างไดเร็กทอรีหากยังไม่มีอยู่
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);

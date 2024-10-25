@@ -117,4 +117,4 @@ Ne yazık ki, şifrenizi unutursanız, üçüncü taraf araçlara veya uzmanlara
 Aspose.Cells öncelikle .NET'i destekler, ancak Java ve diğer diller için de kütüphaneleri vardır. Daha fazla bilgi için sitelerini kontrol edin!
 
 ### Aspose.Cells için desteği nasıl alabilirim?
-Destek forumları aracılığıyla yardım alabilirsiniz:[Aspose Desteği](https://forum.aspose.com/c/cells/9).
+ Destek forumları aracılığıyla yardım alabilirsiniz:[Aspose Desteği](https://forum.aspose.com/c/cells/9).

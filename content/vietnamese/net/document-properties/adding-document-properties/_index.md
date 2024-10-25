@@ -68,6 +68,6 @@ Bạn có thể lưu trữ chuỗi, số và thậm chí cả ngày tháng trong
 ### Aspose.Cells có miễn phí sử dụng không?
  Aspose.Cells cung cấp bản dùng thử miễn phí. Để có đầy đủ tính năng, bạn cần phải mua. Hãy xem[tùy chọn giá ở đây](https://purchase.aspose.com/buy).
 ### Tôi có thể tìm tài liệu về Aspose.Cells ở đâu?
- Bạn có thể tìm thấy tài liệu toàn diện[đây](https://reference.aspose.com/cells/net/).
+Bạn có thể tìm thấy tài liệu toàn diện[đây](https://reference.aspose.com/cells/net/).
 ### Tôi phải làm sao nếu cần trợ giúp khi sử dụng Aspose.Cells?
  Bạn có thể ghé thăm[Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/cells/9) để được cộng đồng và đội ngũ hỗ trợ hỗ trợ.

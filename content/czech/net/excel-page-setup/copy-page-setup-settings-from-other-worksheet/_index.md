@@ -92,7 +92,7 @@ Console.WriteLine("Before Paper Size: " + TestSheet1.PageSetup.PaperSize);
 Console.WriteLine("Before Paper Size: " + TestSheet2.PageSetup.PaperSize);
 ```
 
-Tím se do konzole vytiskne aktuální nastavení stránky pro oba listy. Před provedením změn je vždy dobré ověřit, co máte, že?
+Tím se do konzole vypíše aktuální nastavení stránky pro oba listy. Před provedením změn je vždy dobré ověřit, co máte, že?
 
 ## Krok 6: Zkopírujte nastavení stránky z TestSheet1 do TestSheet2
 

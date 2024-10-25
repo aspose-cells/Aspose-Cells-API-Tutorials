@@ -2,7 +2,7 @@
 title: Расширенные методы проверки данных
 linktitle: Расширенные методы проверки данных
 second_title: API обработки Java Excel Aspose.Cells
-description: Откройте передовые методы проверки данных в Excel с Aspose.Cells для Java. Научитесь создавать пользовательские правила, раскрывающиеся списки и многое другое для точного управления данными.
+description: Откройте передовые методы проверки данных в Excel с помощью Aspose.Cells для Java. Научитесь создавать пользовательские правила, раскрывающиеся списки и многое другое для точного управления данными.
 type: docs
 weight: 19
 url: /ru/java/data-validation-rules/advanced-data-validation-techniques/

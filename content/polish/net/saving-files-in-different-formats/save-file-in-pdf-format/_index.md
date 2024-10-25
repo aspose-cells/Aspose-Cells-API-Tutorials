@@ -58,7 +58,7 @@ To jest moment, do którego dążyliśmy! Teraz zapiszemy skoroszyt jako plik PD
 ```csharp
 if (Respose != null)
 {
-    //Zapisz w formacie PDF
+    // Zapisz w formacie PDF
     workbook.Save(Respose, dataDir + "output.pdf", ContentDisposition.Attachment, new PdfSaveOptions());
     Respose.End();
 }

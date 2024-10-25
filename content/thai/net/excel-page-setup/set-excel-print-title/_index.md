@@ -63,7 +63,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## ขั้นตอนที่ 2: สร้างอินสแตนซ์ของวัตถุเวิร์กบุ๊ก
 
- ถัดไปเราจะสร้างอินสแตนซ์ของ`Workbook`คลาสซึ่งแสดงถึงไฟล์ Excel
+ ถัดไปเราจะสร้างอินสแตนซ์ของ`Workbook` คลาสซึ่งแสดงถึงไฟล์ Excel
 
 ```csharp
 Workbook workbook = new Workbook();

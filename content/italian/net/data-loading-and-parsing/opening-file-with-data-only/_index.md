@@ -41,7 +41,7 @@ string dataDir = "Your Document Directory";
 LoadOptions loadOptions = new LoadOptions(LoadFormat.Xlsx);
 ```
 Qui, stiamo dicendo che vogliamo caricare un formato di file XLSX. Ma aspetta, abbiamo bisogno di più dettagli!
-## Passaggio 3: imposta LoadFilter
+## Passaggio 3: impostare LoadFilter
  Ora stiamo entrando nella parte succosa!`LoadFilter` property indica ad Aspose.Cells cosa includere dal file. Poiché vogliamo solo i dati e la formattazione delle celle, dobbiamo specificare anche questo:
 ```csharp
 // Imposta la proprietà LoadFilter per caricare solo i dati e la formattazione delle celle
@@ -51,7 +51,7 @@ Consideralo come un modo per dare istruzioni specifiche: sostanzialmente stai di
 ## Passaggio 4: creare un oggetto cartella di lavoro
  Bene, ci siamo quasi! Ora creeremo un`Workbook` oggetto, che è essenzialmente il punto in cui Aspose.Cells caricherà il contenuto del file Excel.
 ```csharp
-// Crea un oggetto Workbook e apri il file dal suo percorso
+//Crea un oggetto Workbook e apri il file dal suo percorso
 Workbook book = new Workbook(dataDir + "Book1.xlsx", loadOptions);
 ```
  In questa riga, sostituisci`"Book1.xlsx"` con il nome del tuo file Excel effettivo. Voilà! La tua cartella di lavoro è caricata con tutti i dati cruciali.

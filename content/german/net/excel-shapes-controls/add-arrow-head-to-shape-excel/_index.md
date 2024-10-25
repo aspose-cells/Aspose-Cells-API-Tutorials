@@ -39,7 +39,7 @@ Jetzt müssen Sie festlegen, wo Ihre Dokumente gespeichert werden. Sie sollten e
 ```csharp
 // Der Pfad zum Dokumentverzeichnis.
 string dataDir = "Your Document Directory";
-//Erstellen Sie ein Verzeichnis, falls es noch nicht vorhanden ist.
+// Erstellen Sie ein Verzeichnis, falls es noch nicht vorhanden ist.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
 	System.IO.Directory.CreateDirectory(dataDir);

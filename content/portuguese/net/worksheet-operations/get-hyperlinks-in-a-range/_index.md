@@ -35,13 +35,13 @@ Vamos começar definindo o caminho dos seus documentos. Você quer definir o dir
 // O caminho para o diretório de documentos.
 string sourceDir = "Your Document Directory"; // Altere isso para o caminho do seu arquivo Excel
 // Diretório de saída
-string outputDir = RunExamples.Get_OutputDirectory(); // Garanta que este método forneça um caminho de saída válido
+string outputDir = "Your Document Directory"; // Garanta que este método forneça um caminho de saída válido
 ```
- Neste trecho, substitua`"Your Document Directory"` com o caminho real para seu diretório contendo o arquivo Excel. Isso é como montar o palco antes de sua apresentação — é crucial saber onde seus materiais estão.
+ Neste trecho, substitua`"Your Document Directory"`com o caminho real para seu diretório contendo o arquivo Excel. Isso é como montar o palco antes de sua apresentação — é crucial saber onde seus materiais estão.
 ## Etapa 2: Instanciar o objeto Workbook
  Em seguida, criaremos um`Workbook` objeto para abrir o arquivo Excel com o qual estamos trabalhando.
 ```csharp
-//Instanciar um objeto Workbook
+// Instanciar um objeto Workbook
 // Abra um arquivo Excel
 Workbook workbook = new Workbook(sourceDir + "HyperlinksSample.xlsx");
 ```
@@ -59,14 +59,14 @@ Agora é hora de definir um intervalo no qual queremos procurar por hyperlinks. 
 // Crie um intervalo A2:B3
 Range range = worksheet.Cells.CreateRange("A2", "B3");
 ```
- Ao ligar`CreateRange`, especificamos as células inicial e final. É aqui que a mágica acontece — depois verificaremos os hyperlinks localizados neste intervalo especificado.
+ Ao ligar`CreateRange`especificamos as células inicial e final. É aqui que a mágica acontece — depois verificaremos os hyperlinks localizados neste intervalo especificado.
 ## Etapa 5: recuperar hiperlinks do intervalo
 Esta etapa é onde realmente acessamos os hiperlinks em nosso intervalo definido.
 ```csharp
 //Obtenha hiperlinks dentro do alcance
 Hyperlink[] hyperlinks = range.Hyperlinks;
 ```
- O`Hyperlinks` propriedade de um`Range`objeto retorna uma matriz de`Hyperlink` objetos encontrados nesse intervalo. É como pegar todas as notas importantes da sua página de uma só vez!
+ O`Hyperlinks` propriedade de um`Range` objeto retorna uma matriz de`Hyperlink` objetos encontrados nesse intervalo. É como pegar todas as notas importantes da sua página de uma só vez!
 ## Etapa 6: Loop Through e Exibir Links
 Agora, vamos iterar pelos hyperlinks recuperados. Vamos imprimir seus endereços e áreas no console por enquanto.
 ```csharp
@@ -85,7 +85,7 @@ foreach (Hyperlink link in hyperlinks)
     link.Delete();
 }
 ```
- Usando o`Delete()` método em cada hiperlink permite que você remova hiperlinks que você pode não precisar mais. É como apagar um rabisco que não é mais necessário da sua página.
+ Usando o`Delete()`método em cada hiperlink permite que você remova hiperlinks que você pode não precisar mais. É como apagar um rabisco que não é mais necessário da sua página.
 ## Etapa 8: Salve suas alterações
 Por fim, vamos salvar a pasta de trabalho com todos os ajustes que fizemos.
 ```csharp

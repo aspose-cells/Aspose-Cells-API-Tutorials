@@ -18,7 +18,7 @@ Sebelum kita mulai, berikut adalah beberapa hal yang harus Anda miliki untuk mem
 1. Pengetahuan Dasar C#: Karena kita akan menulis kode dalam C#, memiliki pemahaman dasar tentang bahasa tersebut akan membantu Anda memahami konsep dengan cepat.
 2.  Pustaka Aspose.Cells untuk .NET: Anda perlu mengunduh pustaka Aspose.Cells untuk .NET. Anda bisa mendapatkannya dari[Tautan unduhan](https://releases.aspose.com/cells/net/).
 3. Visual Studio: Ini adalah lingkungan yang fantastis untuk menulis dan menguji kode .NET Anda. Pastikan Anda telah menginstalnya dengan benar di komputer Anda. 
-4. File Excel: Anda memerlukan file Excel yang berisi beberapa rumus untuk digunakan. Kami akan menggunakan file bernama`Book1.xlsx`, tapi jangan ragu untuk menggunakan milik Anda sendiri!
+4.  File Excel: Anda memerlukan file Excel yang berisi beberapa rumus untuk digunakan. Kami akan menggunakan file bernama`Book1.xlsx`tapi jangan ragu untuk menggunakan milik Anda sendiri!
 
 Siap untuk mengencangkan sabuk pengaman dan mulai melacak sel-sel tersebut? Mari kita bahas intinya!
 
@@ -84,11 +84,11 @@ Sekarang setelah kita membuka buku kerja, saatnya untuk mengakses sel-sel indivi
 Cells cells = workbook.Worksheets[0].Cells;
 ```
 
-Penjelasan: Kode di atas menargetkan lembar kerja pertama (indeks 0) di buku kerja kita dan mengambil`Cells` koleksi, yang akan kita gunakan untuk melacak tanggungan.
+ Penjelasan: Kode di atas menargetkan lembar kerja pertama (indeks 0) di buku kerja kita dan mengambil`Cells` koleksi, yang akan kita gunakan untuk melacak tanggungan.
 
 ## Langkah 4: Pilih Sel
 
- Untuk tujuan demonstrasi, kami ingin melacak dependen dari sel tertentu—dalam kasus ini,`B2`Mari kita buat kodenya:
+Untuk tujuan demonstrasi, kami ingin melacak dependen dari sel tertentu—dalam kasus ini,`B2`Mari kita buat kodenya:
 
 ```csharp
 Cell cell = cells["B2"];
@@ -118,7 +118,7 @@ foreach (Cell c in cell.GetDependents(true))
 Console.ReadKey();
 ```
 
-Penjelasan: Loop ini melewati setiap sel dependen dalam array kita dan mencetak namanya—cukup mudah!`Console.ReadKey()` memastikan bahwa jendela konsol tetap terbuka sampai Anda menekan tombol, memberi Anda waktu untuk membaca output.
+ Penjelasan: Loop ini melewati setiap sel dependen dalam array kita dan mencetak namanya—cukup mudah!`Console.ReadKey()` memastikan bahwa jendela konsol tetap terbuka sampai Anda menekan tombol, memberi Anda waktu untuk membaca output.
 
 ## Kesimpulan
 

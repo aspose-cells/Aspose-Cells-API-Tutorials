@@ -79,9 +79,9 @@ Qui creiamo la prima cartella di lavoro e popoliamo il primo foglio di lavoro (`
 Configuriamo l'impostazione di pagina in modo che le righe di intestazione vengano ripetute durante la stampa, così possiamo vedere questa funzionalità in azione:
 
 ```csharp
-//Definire un oggetto pagesetup basato sul primo foglio di lavoro
+// Definire un oggetto pagesetup basato sul primo foglio di lavoro
 PageSetup pagesetup = ws0.PageSetup;
-// Le prime cinque righe vengono ripetute in ogni pagina
+//Le prime cinque righe vengono ripetute in ogni pagina
 pagesetup.PrintTitleRows = "$1:$5";
 ```
  Questa parte definisce come verrà stampato il tuo documento. Impostando`PrintTitleRows`, garantiamo che le prime cinque righe appariranno su ogni pagina stampata, il che è molto utile per la leggibilità.
@@ -109,7 +109,7 @@ Copiamo il contenuto dal foglio di lavoro della prima cartella di lavoro alla se
 // primo foglio di lavoro del secondo quaderno di lavoro
 ws1.Copy(ws0);
 ```
- IL`Copy` il metodo prende tutto il contenuto dal foglio di lavoro di origine (`ws0`e lo duplica nel foglio di lavoro di destinazione (`ws1`). Semplice, vero?
+ IL`Copy` il metodo prende tutto il contenuto dal foglio di lavoro di origine (`ws0`) e lo duplica nel foglio di lavoro di destinazione (`ws1`). Semplice, vero?
 
 ## Passaggio 6: Salvare la nuova cartella di lavoro
 

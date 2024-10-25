@@ -37,7 +37,7 @@ string dataDir = "Your Document Directory";
  Burada, Excel dosyasının depolanacağı dizin yolunu belirtirsiniz. Değiştirebilirsiniz`"Your Document Directory"` Bilgisayarınızdaki gerçek yolu kullanarak veya eğer yoksa dinamik olarak bir klasör oluşturarak.
 ### Dizin Kontrolü ve Oluşturulması
 ```csharp
-//Eğer mevcut değilse dizin oluşturun.
+// Eğer mevcut değilse dizin oluşturun.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);

@@ -16,7 +16,7 @@ Trong thời đại kỹ thuật số, việc quản lý và bảo mật dữ li
 Trước khi tìm hiểu mã, hãy đảm bảo bạn có mọi thứ cần thiết:
 
 1. Môi trường phát triển: Bạn nên cài đặt Visual Studio trên máy của mình vì nó cung cấp IDE tuyệt vời cho việc phát triển .NET.
-2. Thư viện Aspose.Cells: Tải xuống thư viện Aspose.Cells. Bạn có thể lấy nó từ[Trang Tải xuống Aspose](https://releases.aspose.com/cells/net/).
+2.  Thư viện Aspose.Cells: Tải xuống thư viện Aspose.Cells. Bạn có thể lấy nó từ[Trang Tải xuống Aspose](https://releases.aspose.com/cells/net/).
 3. Kiến thức cơ bản về C#: Đảm bảo bạn hiểu rõ về C# và .NET Framework để dễ dàng theo dõi.
 4. Tạo một dự án: Thiết lập một ứng dụng Console mới trong Visual Studio nơi chúng ta sẽ viết mã.
 
@@ -48,12 +48,12 @@ Hãy chia nhỏ quá trình triển khai thành các bước dễ quản lý. Ch
 
 ## Bước 1: Tạo luồng tệp cho tệp Excel của bạn
 
-Đầu tiên, chúng ta cần tải một tệp Excel hiện có. Chúng ta sẽ sử dụng`FileStream` để truy cập vào nó.
+ Đầu tiên, chúng ta cần tải một tệp Excel hiện có. Chúng ta sẽ sử dụng`FileStream` để truy cập vào nó.
 
 ```csharp
 // Đường dẫn đến thư mục tài liệu.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-// Tạo luồng tệp để mở tệp Excel
+//Tạo luồng tệp để mở tệp Excel
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
  Các`FileStream` cho phép chúng ta đọc tệp Excel đã chỉ định. Đảm bảo thay đổi "YOUR DOCUMENT DIRECTORY" thành đường dẫn thực tế nơi tệp Excel của bạn nằm.

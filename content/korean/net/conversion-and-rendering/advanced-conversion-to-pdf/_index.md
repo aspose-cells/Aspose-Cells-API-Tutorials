@@ -60,7 +60,7 @@ using Aspose.Cells.Rendering;
 
 ```csharp
 // 문서 디렉토리의 경로입니다.
-string dataDir = "Your Document Directory";  //이 경로를 특정 디렉토리로 업데이트하세요.
+string dataDir = "Your Document Directory";  // 이 경로를 특정 디렉토리로 업데이트하세요.
 ```
 
  교체를 꼭 해주세요`"Your Document Directory"` 실제 경로와 함께. 이것은 당신의 노고에 대한 새로운 집을 찾는 것과 같습니다!
@@ -129,4 +129,4 @@ Visual Studio에서 NuGet 패키지 관리자를 통해 "Aspose.Cells"를 검색
 PDF 외에도 Aspose.Cells는 XLSX, CSV, HTML 등의 형식도 지원합니다.
 
 ### Aspose.Cells의 무료 버전이 있나요?
- 네, 무료 체험판으로 시작하여 기능을 탐색할 수 있습니다.[여기](https://releases.aspose.com/).
+네, 무료 체험판으로 시작하여 기능을 탐색할 수 있습니다.[여기](https://releases.aspose.com/).

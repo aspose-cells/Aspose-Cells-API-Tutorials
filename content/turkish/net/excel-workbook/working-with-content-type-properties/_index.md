@@ -60,7 +60,7 @@ Bu satır XLSX biçiminde yeni bir çalışma kitabı başlatır. Başka biçiml
 int index = workbook.ContentTypeProperties.Add("MK31", "Simple Data");
 ```
 
- Bu adımda, "Simple Data" değerine sahip "MK31" adlı bir özellik ekledik.`Add` metodu daha sonra kullanabileceğimiz yeni eklenen özelliğin indeksini döndürür.
+ Bu adımda, "Simple Data" değerine sahip "MK31" adlı bir özellik ekledik.`Add`metodu daha sonra kullanabileceğimiz yeni eklenen özelliğin indeksini döndürür.
 
 ### Boş Özelliği Ayarla
 
@@ -79,7 +79,7 @@ index = workbook.ContentTypeProperties.Add("MK32", DateTime.Now.ToString("yyyy-M
 workbook.ContentTypeProperties[index].IsNillable = true;
 ```
 
-Bu kod parçacığında, ISO 8601'e göre biçimlendirilmiş geçerli tarih ve saate sahip "MK32" adlı bir özellik oluşturuyoruz. Bu özelliği, şu şekilde ayarlayarak geçersiz kıldık:`IsNillable` ile`true`.
+ Bu kod parçacığında, ISO 8601'e göre biçimlendirilmiş geçerli tarih ve saate sahip "MK32" adlı bir özellik oluşturuyoruz. Bu özelliği, şu şekilde ayarlayarak geçersiz kıldık:`IsNillable` ile`true`.
 
 ## Adım 4: Çalışma Kitabını Kaydedin
 
@@ -120,4 +120,4 @@ Evet! Aspose.Cells, XLS, XLSX, CSV ve diğerleri dahil olmak üzere çeşitli fo
 Kesinlikle! İçerik türü özelliklerine, düzgün bir şekilde serileştirilebildikleri sürece karmaşık nesneler ekleyebilirsiniz.
 
 ### Daha fazla dokümanı nerede bulabilirim?
- Daha ayrıntılı rehberlik için şuraya bakın:[Aspose.Cells Belgeleri](https://reference.aspose.com/cells/net/).
+Daha ayrıntılı rehberlik için şuraya bakın:[Aspose.Cells Belgeleri](https://reference.aspose.com/cells/net/).

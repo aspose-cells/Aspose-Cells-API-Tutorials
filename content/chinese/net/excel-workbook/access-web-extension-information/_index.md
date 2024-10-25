@@ -16,7 +16,7 @@ url: /zh/net/excel-workbook/access-web-extension-information/
 在我们撸起袖子开始工作之前，您需要设置一些事项。以下是一份检查清单，可确保一切顺利进行：
 
 1. .NET 环境：确保您的机器上已设置 .NET 环境。这通常意味着已安装 Visual Studio 或其他兼容 IDE。
-2. Aspose.Cells for .NET：您需要有 Aspose.Cells 库。别担心；您可以轻松[点击这里下载最新版本](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells for .NET：您需要有 Aspose.Cells 库。别担心；您可以轻松[点击这里下载最新版本](https://releases.aspose.com/cells/net/).
 3. 示例 Excel 文件：对于本教程，请确保您有一个示例 Excel 文件（例如`WebExtensionsSample.xlsx`可访问。您可以创建一个包含 Web 扩展的版本，或者在必要时下载一个。 
 4. 基本 C# 知识：对 C# 编程的基本了解将使浏览本教程变得更加容易。
 5. NuGet 包管理器：熟悉 NuGet 可以帮助您无缝管理项目内的 Aspose.Cells。

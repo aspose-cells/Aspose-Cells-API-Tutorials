@@ -62,7 +62,7 @@ Nyní, když jsme vše nastavili, pojďme se ponořit do části kódování! Zd
 
 ## Krok 1: Definujte svůj výstupní adresář
 
-Než se dostaneme k tomu zajímavému, musíme definovat, kam chceme náš soubor uložit. Budete chtít poskytnout cestu k výstupnímu adresáři.
+Než se dostaneme k tomu zajímavému, musíme definovat, kam chceme, aby byl náš soubor uložen. Budete chtít poskytnout cestu k výstupnímu adresáři.
 ```csharp
 string outputDir = "C:\\YourOutputDirectory\\"; // Přejděte do určeného adresáře
 ```
@@ -70,7 +70,7 @@ string outputDir = "C:\\YourOutputDirectory\\"; // Přejděte do určeného adre
 
 ## Krok 2: Vytvoření instance objektu sešitu
 
-Dále vytváříme instanci`Workbook` třída. Zde se bude odehrávat veškerá naše práce.
+ Dále vytváříme instanci`Workbook` třída. Zde se bude odehrávat veškerá naše práce.
 ```csharp
 Workbook workbook = new Workbook();
 ```
@@ -91,7 +91,7 @@ V tomto kódu jste:
 
 Považujte tento krok za výběr typu rámečku obrazu, který chcete, než do něj umístíte kresbu.
 
-## Krok 4: Přidání datových řad do vašeho grafu
+## Krok 4: Přidání datových řad do grafu
 
 V tomto okamžiku naplníme graf nějakými datovými řadami. Chcete-li přidat ukázková data:
 ```csharp
@@ -111,7 +111,7 @@ V tomto kódu:
 - `PlacementType.Move` znamená, že pokud se graf pohne, pohne se i zaškrtávací políčko.
 - Nastavíme také polohu a velikost zaškrtávacího políčka v oblasti grafu a nakonec nastavíme textový popisek zaškrtávacího políčka.
 
-Přidání zaškrtávacího políčka je jako umístění třešničky na vrchol poháru; vylepšuje to celou prezentaci!
+Přidání zaškrtávacího políčka je jako umístění třešničky na vršek poháru; vylepšuje to celou prezentaci!
 
 ## Krok 6: Uložení souboru Excel
 

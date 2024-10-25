@@ -151,7 +151,7 @@ Console.WriteLine("ModifyLineChart executed successfully.");
  بالتأكيد! يمكنك تجربته مجانًا[هنا](https://releases.aspose.com/).
 
 ### كيف يمكنني تغيير نوع الرسم البياني بعد إضافة السلسلة؟
- يمكنك استخدام`ChartType` الخاصية لتعيين نوع مخطط جديد لمخططك.
+يمكنك استخدام`ChartType` الخاصية لتعيين نوع مخطط جديد لمخططك.
 
 ### أين يمكنني العثور على المزيد من الوثائق التفصيلية؟
  تحقق من الوثائق[هنا](https://reference.aspose.com/cells/net/).

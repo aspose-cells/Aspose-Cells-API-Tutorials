@@ -16,7 +16,7 @@ Bem-vindo a este guia passo a passo sobre como usar o Aspose.Cells para .NET par
 Antes de mergulhar no código, aqui estão alguns pré-requisitos que você precisa atender:
 
 1. Conhecimento básico de .NET: Familiaridade com o framework .NET é essencial. Se você já se envolve com C# ou VB.NET, considere-se pronto.
-2. Biblioteca Aspose.Cells para .NET: Você precisará ter o Aspose.Cells instalado. Você pode fazer isso facilmente por meio do gerenciador de pacotes NuGet ou baixá-lo do[Site de Aspose](https://releases.aspose.com/cells/net/).
+2.  Biblioteca Aspose.Cells para .NET: Você precisará ter o Aspose.Cells instalado. Você pode fazer isso facilmente por meio do gerenciador de pacotes NuGet ou baixá-lo do[Site de Aspose](https://releases.aspose.com/cells/net/).
 3. Configuração do IDE: certifique-se de ter um Ambiente de Desenvolvimento Integrado (IDE), como o Visual Studio, pronto para codificação.
 4. Arquivo de exemplo do Excel: você pode usar o arquivo de exemplo ("AllowLeadingApostropheSample.xlsx") com o qual trabalharemos no código.
 
@@ -56,7 +56,7 @@ Agora, vamos instanciar o WorkbookDesigner, que é crucial para trabalhar com ma
 WorkbookDesigner designer = new WorkbookDesigner();
 ```
 
- O`WorkbookDesigner` gerencia o design e a vinculação de dados da nossa pasta de trabalho, facilitando nossa vida ao converter dados em um formato visual.
+ O`WorkbookDesigner`gerencia o design e a vinculação de dados da nossa pasta de trabalho, facilitando nossa vida ao converter dados em um formato visual.
 
 ## Etapa 3: Carregue a pasta de trabalho existente
 
@@ -90,7 +90,7 @@ List<DataObject> list = new List<DataObject>
 };
 ```
 
- Estamos criando uma lista de`DataObject`, onde um dos nomes inclui intencionalmente um apóstrofo inicial. Isso ajudará a ilustrar como o Aspose.Cells lida com tais cenários.
+ Estamos criando uma lista de`DataObject`onde um dos nomes inclui intencionalmente um apóstrofo inicial. Isso ajudará a ilustrar como o Aspose.Cells lida com tais cenários.
 
 ## Etapa 6: vincular a fonte de dados ao designer
 
@@ -144,13 +144,13 @@ Agora, quer você esteja gerando relatórios, criando funcionalidades para anál
 Aspose.Cells é uma poderosa biblioteca .NET para criar, manipular e converter arquivos do Excel em vários formatos programaticamente.
 
 ### Posso usar o Aspose.Cells gratuitamente?
-Sim, você pode usar o Aspose.Cells inscrevendo-se para um teste gratuito[aqui](https://releases.aspose.com/).
+ Sim, você pode usar o Aspose.Cells inscrevendo-se para um teste gratuito[aqui](https://releases.aspose.com/).
 
 ### Como posso obter suporte para o Aspose.Cells?
  Você pode encontrar assistência e fazer perguntas no[Fórum de suporte Aspose](https://forum.aspose.com/c/cells/9).
 
 ### Que tipos de arquivos o Aspose.Cells suporta?
-O Aspose.Cells suporta uma variedade de formatos, como XLS, XLSX, CSV e muitos outros.
+Aspose.Cells suporta uma variedade de formatos, como XLS, XLSX, CSV e muitos outros.
 
 ### Como faço para comprar uma licença para o Aspose.Cells?
  Você pode comprar uma licença para Aspose.Cells diretamente na página de compra[aqui](https://purchase.aspose.com/buy).

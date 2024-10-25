@@ -9,7 +9,7 @@ url: /pl/net/setting-chart-appearance/set-chart-area/
 ---
 ## Wstęp
 
-Witamy w świecie manipulacji danymi z Aspose.Cells dla .NET! Jeśli kiedykolwiek chciałeś, aby Twoje arkusze kalkulacyjne były nie tylko funkcjonalne, ale i wizualnie efektowne, jesteś we właściwym miejscu. W tym samouczku zagłębimy się w to, jak ustawiać obszary wykresów w programie Excel za pomocą biblioteki Aspose.Cells — potężnego narzędzia dla programistów, którzy chcą ulepszyć swoje aplikacje o solidne możliwości arkusza kalkulacyjnego. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zaczynasz, ten przewodnik podzieli wszystko na łatwe do opanowania kroki. Zaczynajmy!
+Witamy w świecie manipulacji danymi z Aspose.Cells dla .NET! Jeśli kiedykolwiek chciałeś, aby Twoje arkusze kalkulacyjne były nie tylko funkcjonalne, ale i wizualnie efektowne, jesteś we właściwym miejscu. W tym samouczku zagłębimy się w to, jak ustawiać obszary wykresów w programie Excel przy użyciu biblioteki Aspose.Cells — potężnego narzędzia dla programistów, którzy chcą ulepszyć swoje aplikacje o solidne możliwości arkusza kalkulacyjnego. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zaczynasz, ten przewodnik podzieli wszystko na łatwe do opanowania kroki. Zaczynajmy!
 
 ## Wymagania wstępne
 
@@ -17,7 +17,7 @@ Zanim zagłębimy się w szczegóły tworzenia wykresów, upewnijmy się, że ma
 
 1. Visual Studio: Upewnij się, że masz zainstalowany Visual Studio na swoim komputerze. Jest on niezbędny do pisania i wykonywania kodu .NET.
 2. .NET Framework: Ten przewodnik działa najlepiej z .NET Framework lub .NET Core. Upewnij się, że masz zainstalowaną wymaganą wersję (4.5 lub nowszą).
-3.  Aspose.Cells: Będziesz potrzebować biblioteki Aspose.Cells. Możesz ją pobrać z[Tutaj](https://releases.aspose.com/cells/net/).
+3. Aspose.Cells: Będziesz potrzebować biblioteki Aspose.Cells. Możesz ją pobrać z[Tutaj](https://releases.aspose.com/cells/net/).
 4. Podstawowa wiedza o C#: Podstawowe zrozumienie programowania w C# pomoże Ci lepiej zrozumieć kroki. Nie martw się, jeśli nie jesteś profesjonalistą — wszystko Ci wyjaśnię!
 
 ## Importuj pakiety
@@ -174,4 +174,4 @@ Tak! Aspose.Cells ma biblioteki dla różnych platform, w tym Java, Python i Clo
  Możesz szukać pomocy i wsparcia w społeczności Aspose.Cells i na dostępnych forach[Tutaj](https://forum.aspose.com/c/cells/9).
 
 ### Jak mogę zakupić licencję?
- Licencję można zakupić bezpośrednio na stronie internetowej Aspose[Tutaj](https://purchase.aspose.com/buy).
+Licencję można zakupić bezpośrednio na stronie internetowej Aspose[Tutaj](https://purchase.aspose.com/buy).

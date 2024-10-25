@@ -135,4 +135,4 @@ Aspose.Cells는 Excel 파일을 프로그래밍 방식으로 조작하는 데 �
 XLS, XLSX, XLSB, ODS, PDF 등 다양한 형식을 지원합니다.
 
 ### Aspose.Cells에 대한 지원은 어디에서 찾을 수 있나요?  
-당신은에 대한 도움을 얻을 수 있습니다[Aspose 포럼](https://forum.aspose.com/c/cells/9).
+ 당신은에 대한 도움을 얻을 수 있습니다[Aspose 포럼](https://forum.aspose.com/c/cells/9).

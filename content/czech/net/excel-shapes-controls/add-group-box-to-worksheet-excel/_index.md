@@ -31,13 +31,13 @@ using Aspose.Cells.Drawing;
 using System.Drawing;
 ```
 Získáte tak přístup ke třídám nezbytným pro práci se soubory aplikace Excel.
-Nyní, když jsme nastavili, pojďme se ponořit do jádra výukového programu – přidání skupinového pole s přepínači do listu aplikace Excel. Pro přehlednost tento proces rozdělíme do několika kroků.
+Nyní, když jsme nastavili, pojďme se ponořit do srdce výukového programu – přidání skupinového pole s přepínači do listu aplikace Excel. Pro přehlednost tento proces rozdělíme do několika kroků.
 ## Krok 1: Nastavte adresář dokumentů
 Před vytvořením jakéhokoli souboru aplikace Excel se musíte rozhodnout, kam jej chcete uložit. Vytvořme adresář, pokud ještě neexistuje.
 ```csharp
 // Cesta k adresáři dokumentů
 string dataDir = "Your Document Directory"; // Zadejte požadovanou cestu
-//Vytvořte adresář, pokud ještě není přítomen.
+// Vytvořte adresář, pokud ještě není přítomen.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);

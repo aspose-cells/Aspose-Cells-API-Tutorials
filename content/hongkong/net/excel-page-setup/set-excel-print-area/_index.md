@@ -63,7 +63,7 @@ Workbook workbook = new Workbook();
 
 取得第一個工作表的 PageSetup 物件。
 
-工作簿中的每個工作表都有其設定屬性，例如列印區域、頁面方向和邊距。您將使用下列方法存取這些屬性`PageSetup`班級。這是取得第一張紙的方法`PageSetup`：
+工作簿中的每個工作表都有其設定屬性，例如列印區域、頁面方向和邊距。您將使用下列方法存取這些屬性`PageSetup`班級。這是取得第一張紙的方法`PageSetup`:
 
 ```csharp
 PageSetup pageSetup = workbook.Worksheets[0].PageSetup;

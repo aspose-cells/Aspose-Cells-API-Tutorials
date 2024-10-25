@@ -114,7 +114,7 @@ for (int i = 0; i < lstLabels.Count; i++)
     Console.WriteLine(lstLabels[i]);
 }
 ```
-يقوم هذا المقطع أولاً بإخراج عنوان وسطر فاصل. ثم ننتقل عبر كل تسمية في`lstLabels` ArrayList وطباعته في وحدة التحكم. إذا كان هناك عشرة تسميات، فسترى كل واحدة منها هناك!
+ يقوم هذا المقطع أولاً بإخراج عنوان وسطر فاصل. ثم ننتقل عبر كل تسمية في`lstLabels`ArrayList وطباعته في وحدة التحكم. إذا كان هناك عشرة تسميات، فسترى كل واحدة منها هناك!
 
 ## الخطوة 8: الرسالة النهائية
 
@@ -141,7 +141,7 @@ Aspose.Cells هي مكتبة قوية للتعامل مع ملفات Excel في 
  يمكنك شراء ترخيص لـ Aspose.Cells من خلال[صفحة الشراء](https://purchase.aspose.com/buy).
 
 ### أين يمكنني العثور على الدعم لـ Aspose.Cells؟
-يمكنك زيارة منتدى Aspose للحصول على الدعم[هنا](https://forum.aspose.com/c/cells/9).
+ يمكنك زيارة منتدى Aspose للحصول على الدعم[هنا](https://forum.aspose.com/c/cells/9).
 
 ### هل يمكنني الحصول على رخصة مؤقتة؟
- نعم! تقدم Aspose ترخيصًا مؤقتًا يمكنك طلبه من[هذا الرابط](https://purchase.aspose.com/temporary-license/).
+نعم! تقدم Aspose ترخيصًا مؤقتًا يمكنك طلبه من[هذا الرابط](https://purchase.aspose.com/temporary-license/).

@@ -18,7 +18,7 @@ Než se po hlavě ponoříme do našeho dobrodružství s kódováním, věnujte
 1. Visual Studio: Ujistěte se, že máte nainstalované Visual Studio, protože je to vývojové prostředí, které budeme používat.
 2. .NET Framework: Ujistěte se, že váš projekt je nastaven s rozhraním .NET, které je kompatibilní s Aspose.Cells. Obecně bude fungovat .NET Core nebo .NET Framework 4.5 a vyšší.
 3.  Aspose.Cells Library: Budete potřebovat Aspose.Cells for .NET. Můžete[stáhněte si jej zde](https://releases.aspose.com/cells/net/).
-4. Základní znalost C#: Znalost syntaxe a struktury C# je nezbytná, protože v této příručce budeme psát segmenty kódu.
+4. Základní znalost C#: Znalost syntaxe a struktury C# je zásadní, protože v této příručce budeme psát segmenty kódu.
 
 Jakmile splníte tyto předpoklady, jste připraveni skočit do světa manipulace s Excelem!
 

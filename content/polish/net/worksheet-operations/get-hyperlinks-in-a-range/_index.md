@@ -8,7 +8,7 @@ weight: 10
 url: /pl/net/worksheet-operations/get-hyperlinks-in-a-range/
 ---
 ## Wstęp
-Czy kiedykolwiek zdarzyło Ci się tonąć w arkuszach kalkulacyjnych, zastanawiając się, jak skutecznie wyodrębnić hiperłącza? Jeśli tak, to jesteś we właściwym miejscu! W tym przewodniku przeprowadzimy Cię przez proces uzyskiwania hiperłączy w określonym zakresie przy użyciu Aspose.Cells dla .NET. Ta potężna biblioteka usuwa żmudne zadanie pracy z plikami Excel, ułatwiając Ci pobieranie, a nawet usuwanie hiperłączy. Więc weź filiżankę kawy i zanurzmy się w świecie Aspose.Cells!
+Czy kiedykolwiek zdarzyło Ci się tonąć w arkuszach kalkulacyjnych, zastanawiając się, jak skutecznie wyodrębnić hiperłącza? Jeśli tak, to jesteś we właściwym miejscu! W tym przewodniku przeprowadzimy Cię przez proces uzyskiwania hiperłączy w określonym zakresie przy użyciu Aspose.Cells dla .NET. Ta potężna biblioteka eliminuje żmudne zadanie pracy z plikami Excel, ułatwiając Ci pobieranie, a nawet usuwanie hiperłączy. Więc weź filiżankę kawy i zanurzmy się w świecie Aspose.Cells!
 ## Wymagania wstępne
 Zanim przejdziemy do szczegółów kodowania, musisz spełnić kilka warunków wstępnych. Nie martw się, to nie jest długa lista!
 ### Przygotuj swoje środowisko programistyczne
@@ -35,13 +35,13 @@ Zacznijmy od zdefiniowania ścieżki Twoich dokumentów. Chcesz ustawić katalog
 // Ścieżka do katalogu dokumentów.
 string sourceDir = "Your Document Directory"; // Zmień to na ścieżkę do pliku Excel
 // Katalog wyjściowy
-string outputDir = RunExamples.Get_OutputDirectory(); // Upewnij się, że ta metoda zapewnia prawidłową ścieżkę wyjściową
+string outputDir = "Your Document Directory"; // Upewnij się, że ta metoda zapewnia prawidłową ścieżkę wyjściową
 ```
- W tym fragmencie kodu zamień`"Your Document Directory"` z rzeczywistą ścieżką do katalogu zawierającego plik Excel. To jak ustawianie sceny przed występem — kluczowe jest, aby wiedzieć, gdzie znajdują się materiały.
+ W tym fragmencie kodu zamień`"Your Document Directory"` rzeczywistą ścieżką do katalogu zawierającego plik Excel. To jak ustawianie sceny przed występem — kluczowe jest, aby wiedzieć, gdzie znajdują się materiały.
 ## Krok 2: Utwórz obiekt skoroszytu
  Następnie utworzymy`Workbook` obiekt, aby otworzyć plik Excela, z którym pracujemy.
 ```csharp
-//Utwórz obiekt skoroszytu
+// Utwórz obiekt skoroszytu
 // Otwórz plik Excel
 Workbook workbook = new Workbook(sourceDir + "HyperlinksSample.xlsx");
 ```
@@ -59,14 +59,14 @@ Teraz czas zdefiniować zakres, w którym chcemy szukać hiperłączy. W naszym 
 // Utwórz zakres A2:B3
 Range range = worksheet.Cells.CreateRange("A2", "B3");
 ```
- Dzwoniąc`CreateRange`, określamy komórki początkowe i końcowe. To tutaj dzieje się magia — później sprawdzimy hiperłącza znajdujące się w tym określonym zakresie.
+ Dzwoniąc`CreateRange`określamy komórki początkowe i końcowe. To tutaj dzieje się magia — później sprawdzimy hiperłącza znajdujące się w tym określonym zakresie.
 ## Krok 5: Pobierz hiperłącza z zakresu
 Na tym etapie uzyskujemy faktyczny dostęp do hiperłączy w zdefiniowanym przez nas zakresie.
 ```csharp
 //Uzyskaj hiperłącza w zasięgu
 Hyperlink[] hyperlinks = range.Hyperlinks;
 ```
- Ten`Hyperlinks` własność`Range`obiekt zwraca tablicę`Hyperlink` obiektów znalezionych w tym zakresie. To tak, jakby pobrać wszystkie ważne notatki ze swojej strony na raz!
+ Ten`Hyperlinks` własność`Range` obiekt zwraca tablicę`Hyperlink` obiektów znalezionych w tym zakresie. To tak, jakby pobrać wszystkie ważne notatki ze swojej strony na raz!
 ## Krok 6: Przejrzyj i wyświetl łącza
 Teraz przejrzyjmy pobrane hiperłącza. Na razie wydrukujemy ich adresy i obszary w konsoli.
 ```csharp
@@ -85,7 +85,7 @@ foreach (Hyperlink link in hyperlinks)
     link.Delete();
 }
 ```
- Korzystanie z`Delete()` Metoda na każdym hiperłączu pozwala usunąć hiperłącza, których możesz już nie potrzebować. To jak wymazywanie niepotrzebnego już bazgrołu ze strony.
+ Korzystanie z`Delete()`Metoda na każdym hiperłączu pozwala usunąć hiperłącza, których możesz już nie potrzebować. To jak wymazywanie niepotrzebnego już bazgrołu ze strony.
 ## Krok 8: Zapisz zmiany
 Na koniec zapiszemy skoroszyt ze wszystkimi wprowadzonymi zmianami.
 ```csharp
@@ -98,10 +98,10 @@ I oto masz — kompleksowy przewodnik krok po kroku, jak wyodrębnić hiperłąc
 ### Czym jest Aspose.Cells?
 Aspose.Cells to biblioteka .NET umożliwiająca przetwarzanie plików programu Excel bez konieczności instalowania programu Microsoft Excel na komputerze.
 ### Czy mogę używać Aspose.Cells za darmo?
-Tak, dostępna jest bezpłatna wersja próbna, dzięki której możesz zapoznać się z funkcjami aplikacji przed zakupem.
+Tak, dostępna jest bezpłatna wersja próbna, dzięki której możesz zapoznać się z funkcjami aplikacji przed dokonaniem zakupu.
 ### Czy wersja próbna ma jakieś ograniczenia?
 Wersja próbna może mieć pewne ograniczenia funkcjonalne, takie jak znaki wodne na zapisanych plikach.
 ### Czy muszę znać programowanie, aby używać Aspose.Cells?
-Aby efektywnie wykorzystać tę bibliotekę, zalecana jest podstawowa znajomość programowania w języku C# lub .NET.
+Aby efektywnie korzystać z biblioteki, zalecana jest podstawowa znajomość programowania w języku C# lub .NET.
 ### Gdzie mogę uzyskać pomoc, jeśli mam problemy z Aspose.Cells?
  Możesz uzyskać dostęp do forum wsparcia[Tutaj](https://forum.aspose.com/c/cells/9).

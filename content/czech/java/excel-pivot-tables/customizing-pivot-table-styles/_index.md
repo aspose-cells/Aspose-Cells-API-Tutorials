@@ -8,7 +8,7 @@ weight: 18
 url: /cs/java/excel-pivot-tables/customizing-pivot-table-styles/
 ---
 
-Kontingenční tabulky jsou výkonné nástroje pro sumarizaci a analýzu dat v tabulkovém procesoru. S Aspose.Cells for Java API můžete nejen vytvářet kontingenční tabulky, ale také přizpůsobovat jejich styly, aby byla vaše prezentace dat vizuálně přitažlivá. V tomto podrobném průvodci vám na příkladech zdrojového kódu ukážeme, jak toho dosáhnout.
+Kontingenční tabulky jsou výkonné nástroje pro sumarizaci a analýzu dat v tabulkovém procesoru. S Aspose.Cells for Java API můžete nejen vytvářet kontingenční tabulky, ale také upravovat jejich styly, aby byla vaše prezentace dat vizuálně přitažlivá. V tomto podrobném průvodci vám na příkladech zdrojového kódu ukážeme, jak toho dosáhnout.
 
 ## Začínáme
 

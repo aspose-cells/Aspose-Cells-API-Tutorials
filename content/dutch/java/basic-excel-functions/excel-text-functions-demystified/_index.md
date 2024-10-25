@@ -14,7 +14,7 @@ In deze tutorial duiken we in de wereld van tekstmanipulatie in Excel met behulp
 
 ## Aan de slag
 
- Voordat we beginnen, zorg ervoor dat je Aspose.Cells voor Java hebt geïnstalleerd. Je kunt het downloaden[hier](https://releases.aspose.com/cells/java/)Zodra u het hebt ingesteld, duiken we in de fascinerende wereld van Excel-tekstfuncties.
+ Voordat we beginnen, zorg ervoor dat je Aspose.Cells voor Java hebt geïnstalleerd. Je kunt het downloaden[hier](https://releases.aspose.com/cells/java/)Zodra u alles hebt ingesteld, duiken we in de fascinerende wereld van Excel-tekstfuncties.
 
 ## CONCATENATE - Tekst combineren
 

@@ -2,7 +2,7 @@
 title: Rechthoekbesturingselement toevoegen aan werkblad in Excel
 linktitle: Rechthoekbesturingselement toevoegen aan werkblad in Excel
 second_title: Aspose.Cells .NET Excel-verwerkings-API
-description: Ontdek hoe u een rechthoekbesturingselement toevoegt aan een Excel-werkblad met Aspose.Cells voor .NET, met behulp van een gedetailleerde, stapsgewijze handleiding.
+description: Ontdek hoe u een rechthoekbesturingselement toevoegt aan een Excel-werkblad met Aspose.Cells voor .NET met een gedetailleerde, stapsgewijze handleiding.
 type: docs
 weight: 25
 url: /nl/net/excel-shapes-controls/add-rectangle-control-to-worksheet-excel/
@@ -37,7 +37,7 @@ string dataDir = "Your Document Directory";
  Hier geeft u het directorypad op waar het Excel-bestand wordt opgeslagen. U kunt vervangen`"Your Document Directory"` met het werkelijke pad op uw computer, of maak dynamisch een map aan als deze nog niet bestaat.
 ### De directory controleren en aanmaken
 ```csharp
-//Maak een map aan als deze nog niet bestaat.
+// Maak een map aan als deze nog niet bestaat.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);

@@ -76,7 +76,7 @@ WorksheetCollection sheets = wb.Worksheets;
 
 解釋：  
 
-在此步驟中，我們收集了所有工作表`Workbook`進入一個`WorksheetCollection`被稱為`sheets`。這就像翻到書中的目錄一樣，您可以在其中看到所有章節，以便於訪問。
+在此步驟中，我們收集了所有工作表`Workbook`變成一個`WorksheetCollection`被稱為`sheets`。這就像翻到書中的目錄一樣，您可以在其中看到所有章節，以便於訪問。
 
 ## 第 4 步：取得第一個工作表
 

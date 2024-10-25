@@ -107,7 +107,7 @@ OLE 物件是允許在 Excel 工作表中嵌入和連結到其他應用程式中
 ### 為什麼我需要提取 OLE 物件？
 提取 OLE 物件可讓您獨立於原始 Excel 文件存取和操作嵌入文件或映像。
 ### Aspose.Cells 可以處理所有類型的嵌入檔案嗎？
-是的，Aspose.Cells 可以管理各種 OLE 對象，包括 Word 文件、Excel 工作表、PowerPoint 簡報和圖像。
+是的，Aspose.Cells 可以管理各種 OLE 對象，包括 Word 文件、Excel 工作表、PowerPoint 簡報和圖片。
 ### 如何安裝 Aspose.Cells for .NET？
 您可以透過從他們的網站下載安裝 Aspose.Cells[發布頁面](https://releases.aspose.com/cells/net/).
 ### 在哪裡可以找到對 Aspose.Cells 的支援？

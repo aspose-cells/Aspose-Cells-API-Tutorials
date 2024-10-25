@@ -38,7 +38,7 @@ using System.Drawing;
 첫 번째 단계는 Excel 파일을 저장할 디렉토리를 설정하는 것입니다. 이렇게 하면 출력 파일을 쉽게 관리하는 데 도움이 됩니다.
 ```csharp
 string dataDir = "Your Document Directory";
-//디렉토리가 없으면 디렉토리를 생성합니다.
+// 디렉토리가 없으면 디렉토리를 생성합니다.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);

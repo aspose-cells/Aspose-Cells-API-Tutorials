@@ -71,10 +71,10 @@ foreach (ReferredArea area in ret)
     Console.WriteLine(CellsHelper.CellIndexToName(area.EndRow, area.EndColumn));
 }
 ```
- Neste snippet, estamos utilizando um simples`foreach` loop para imprimir os nomes das planilhas e referências de células das células que alimentam o B4. O`CellsHelper.CellIndexToName` função transforma índices de linha e coluna em referências de células legíveis como "A1", "B2", etc. 
+ Neste snippet, estamos utilizando um simples`foreach` loop para imprimir os nomes das planilhas e referências de células das células que alimentam o B4. O`CellsHelper.CellIndexToName` A função transforma índices de linha e coluna em referências de células legíveis como "A1", "B2", etc. 
 
 ## Conclusão
-E aí está! Você rastreou precedentes com sucesso no Excel usando o Aspose.Cells para .NET. Entender as dependências de células pode aprimorar suas habilidades de gerenciamento de planilhas e fornecer clareza em suas decisões baseadas em dados. É como resolver um quebra-cabeça, juntando as peças de onde seus dados estão vindo. Agora vá em frente, experimente isso em seus próprios dados e libere o poder do Aspose.Cells!
+aí está! Você rastreou precedentes com sucesso no Excel usando o Aspose.Cells para .NET. Entender as dependências de células pode aprimorar suas habilidades de gerenciamento de planilhas e fornecer clareza em suas decisões baseadas em dados. É como resolver um quebra-cabeça, juntando as peças de onde seus dados estão vindo. Agora vá em frente, experimente isso em seus próprios dados e libere o poder do Aspose.Cells!
 ## Perguntas frequentes
 ### O que é Aspose.Cells?  
 Aspose.Cells é uma biblioteca .NET usada para criar, manipular e converter planilhas do Excel sem o Microsoft Excel.
@@ -85,4 +85,4 @@ Aspose.Cells é uma biblioteca .NET usada para criar, manipular e converter plan
 ### O Aspose.Cells é compatível com o .NET Core?  
 Sim, o Aspose.Cells oferece suporte ao .NET Core, então você pode usá-lo em várias estruturas .NET.
 ### Onde posso encontrar suporte para o Aspose.Cells?  
-Você pode obter ajuda no[Fórum de suporte Aspose](https://forum.aspose.com/c/cells/9).
+ Você pode obter ajuda no[Fórum de suporte Aspose](https://forum.aspose.com/c/cells/9).

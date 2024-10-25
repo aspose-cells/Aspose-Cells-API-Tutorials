@@ -9,7 +9,7 @@ url: /hu/net/excel-page-breaks/excel-clear-all-page-breaks/
 ---
 ## Bevezetés
 
-Ha már babrált az Excellel, tudja, hogy az oldaltörések áldás és átok is lehet. Segítenek megszervezni a táblázat elrendezését a nyomtatáshoz, de néha zsúfolttá válhatnak vagy rossz helyre kerülhetnek. Függetlenül attól, hogy jelentést, pénzügyi kimutatást vagy egyszerű háztartási költségvetést készít, az lehet, hogy az Excel-fájlban lévő összes oldaltörést ki kell találnia. Írja be az Aspose.Cells for .NET-et – egy robusztus könyvtárat, amellyel az Excel-fájlok kezelése gyerekjáték. Ebben a cikkben megnézzük, hogyan lehet lépésről lépésre eltávolítani az összes oldaltörést egy Excel-munkalapon, így Ön kezében van az irányítás és az egyértelműség, anélkül, hogy megizzadna. Becsatol; kezdjük!
+Ha már babrált az Excellel, tudja, hogy az oldaltörések áldás és átok is lehet. Segítenek megszervezni a táblázat elrendezését a nyomtatáshoz, de néha zsúfolttá válhatnak vagy rossz helyre kerülhetnek. Függetlenül attól, hogy jelentést, pénzügyi kimutatást vagy egyszerű háztartási költségvetést készít, az lehet, hogy az Excel-fájlban lévő összes oldaltörést ki kell találnia. Írja be az Aspose.Cells for .NET-et – egy robusztus könyvtár, amellyel az Excel-fájlok kezelése gyerekjáték. Ebben a cikkben megnézzük, hogyan lehet lépésről lépésre eltávolítani az összes oldaltörést egy Excel-munkalapon, így Ön kezében van az irányítás és az egyértelműség, anélkül, hogy megizzadna. Becsatol; kezdjük!
 
 ## Előfeltételek
 
@@ -78,7 +78,7 @@ Ezzel a sorral biztosíthatja, hogy a függőleges oldaltörések is eltűnjenek
 
 ## 5. lépés: Mentse el a változtatásokat
 
-Végül, nem akarod elveszíteni ezt a kemény munkát, igaz? Ideje menteni az újonnan módosított munkafüzetet.
+Végül, nem akarod elveszíteni ezt a kemény munkát, igaz? Ideje elmenteni az újonnan módosított munkafüzetet.
 
 ```csharp
 workbook.Save(dataDir + "ClearAllPageBreaks_out.xls");

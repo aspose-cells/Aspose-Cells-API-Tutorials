@@ -12,7 +12,7 @@ url: /nl/java/basic-excel-functions/excel-date-functions-tutorial/
 
 In deze uitgebreide tutorial verkennen we Excel-datumfuncties en hoe u de kracht van Aspose.Cells voor Java kunt benutten om met datumgerelateerde gegevens te werken. Of u nu een doorgewinterde ontwikkelaar bent of net begint met Aspose.Cells, deze gids helpt u het potentieel van datumfuncties in Excel te benutten. Dus, laten we erin duiken!
 
-## Begrijp datumfuncties in Excel
+## Begrijpen van datumfuncties in Excel
 
 Excel heeft een breed scala aan datumfuncties die complexe datumgerelateerde berekeningen vereenvoudigen. Deze functies zijn ongelooflijk handig voor taken zoals datumrekenkunde, het vinden van het verschil tussen datums en meer. Laten we eens kijken naar enkele veelvoorkomende datumfuncties:
 

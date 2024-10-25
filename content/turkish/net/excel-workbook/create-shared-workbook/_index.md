@@ -76,7 +76,7 @@ Workbook wb = new Workbook();
 //Çalışma Kitabını Paylaş
 wb.Settings.Shared = true;
 ```
- Ayar`wb.Settings.Shared` ile`true`bu çalışma kitabına aynı anda birden fazla kullanıcı tarafından erişilebileceğini gösterir. Bu, evinizin anahtarlarını arkadaşlarınıza vermek gibidir — istedikleri zaman gelip gidebilirler!
+ Ayar`wb.Settings.Shared` ile`true` bu çalışma kitabına aynı anda birden fazla kullanıcı tarafından erişilebileceğini gösterir. Bu, evinizin anahtarlarını arkadaşlarınıza vermek gibidir — istedikleri zaman gelip gidebilirler!
 
 ## Adım 4: Paylaşılan Çalışma Kitabını Kaydedin
 

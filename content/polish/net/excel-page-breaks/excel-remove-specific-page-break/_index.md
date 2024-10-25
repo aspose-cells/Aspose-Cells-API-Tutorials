@@ -2,14 +2,14 @@
 title: Excel Usuń określony podział strony
 linktitle: Excel Usuń określony podział strony
 second_title: Aspose.Cells dla .NET API Reference
-description: W tym kompleksowym przewodniku krok po kroku nauczysz się, jak usuwać określone podziały stron z plików programu Excel za pomocą narzędzia Aspose.Cells dla platformy .NET.
+description: tym kompleksowym przewodniku krok po kroku nauczysz się, jak usuwać określone podziały stron z plików programu Excel za pomocą narzędzia Aspose.Cells dla platformy .NET.
 type: docs
 weight: 30
 url: /pl/net/excel-page-breaks/excel-remove-specific-page-break/
 ---
 ## Wstęp
 
-Jeśli chodzi o pracę z plikami Excela, zarządzanie podziałami stron może być nieco trudne, szczególnie jeśli zależy Ci na zachowaniu idealnego układu do druku. Czy kiedykolwiek znalazłeś się w sytuacji, w której musisz usunąć te irytujące podziały stron ze swojego dokumentu? Jeśli tak, masz szczęście! W tym przewodniku pokażemy, jak usunąć określone podziały stron w programie Excel przy użyciu biblioteki Aspose.Cells dla .NET. 
+Jeśli chodzi o pracę z plikami Excela, zarządzanie podziałami stron może być nieco trudne, zwłaszcza jeśli zależy Ci na zachowaniu idealnego układu do druku. Czy kiedykolwiek znalazłeś się w sytuacji, w której musisz usunąć te irytujące podziały stron ze swojego dokumentu? Jeśli tak, masz szczęście! W tym przewodniku pokażemy, jak usunąć określone podziały stron w programie Excel przy użyciu biblioteki Aspose.Cells dla .NET. 
 
 ## Wymagania wstępne 
 

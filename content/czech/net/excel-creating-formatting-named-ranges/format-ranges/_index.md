@@ -53,7 +53,7 @@ Dále vytvoříme instanci sešitu. Je to jako otevřít nové prázdné plátno
 Workbook workbook = new Workbook();
 ```
 
-Vysvětlení: The`Workbook` třída představuje soubor Excel. Jeho vytvořením v podstatě vytváříte nový dokument Excel, se kterým můžete manipulovat.
+ Vysvětlení: The`Workbook` třída představuje soubor Excel. Jeho vytvořením v podstatě vytváříte nový dokument Excel, se kterým můžete manipulovat.
 
 ## Krok 3: Otevřete první pracovní list
 
@@ -138,7 +138,7 @@ flg.Font = true; // Povolit atributy písma
 flg.CellShading = true; // Povolit stínování buněk
 ```
 
-Vysvětlení: The`StyleFlag` objekt říká knihovně, které vlastnosti stylu chceme použít – něco jako zaškrtávání políček v seznamu úkolů!
+ Vysvětlení: The`StyleFlag` objekt říká knihovně, které vlastnosti stylu chceme použít – něco jako zaškrtávání políček v seznamu úkolů!
 
 ## Krok 11: Použijte styl na rozsah
 

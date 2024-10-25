@@ -19,7 +19,7 @@ Mielőtt nekivágnánk a titkosított Excel-fájlok megnyitásának, néhány el
 ## Csomagok importálása
 A programozási feladatunk megkezdéséhez importálnunk kell a szükséges csomagokat. A C#-ban ez jellemzően olyan névtereket foglal magában, amelyek hozzáférést biztosítanak a könyvtár funkcióihoz.
 ### Hozzon létre egy új projektet
-- Visual Studio megnyitása: Indítsa el a Visual Studio programot, és hozzon létre egy új C#-projektet (válassza a Konzolalkalmazást).
+- A Visual Studio megnyitása: Indítsa el a Visual Studio programot, és hozzon létre egy új C#-projektet (válassza a Konzolalkalmazást).
 - Nevezze el projektjét: adjon neki értelmes nevet, például "OpenEncryptedExcel".
 ### Adja hozzá az Aspose.Cells Reference hivatkozást
 - Az Aspose.Cells telepítése: A legegyszerűbb módja a NuGet használata. Kattintson a jobb gombbal a projektre a Solution Explorerben, és válassza a „NuGet-csomagok kezelése” lehetőséget. Keresse meg az "Aspose.Cells" kifejezést, és telepítse a legújabb verziót.
@@ -39,7 +39,7 @@ string dataDir = "Your Document Directory";
 ```
  Cserélje ki`"Your Document Directory"` az Excel-fájl tényleges elérési útjával. Például, ha tárolva van`C:\Documents` , írnád`string dataDir = "C:\\Documents";`. A kettős fordított perjel szükséges a C#-ban, hogy elkerülje a fordított perjel karaktert.
 ## 2. lépés: A LoadOptions példányosítása
- Ezután létre kell hoznia egy példányt a`LoadOptions`osztály. Ez az osztály segít különböző betöltési beállítások megadásában, beleértve a titkosított fájl megnyitásához szükséges jelszót.
+ Ezután létre kell hoznia egy példányt a`LoadOptions` osztály. Ez az osztály segít különböző betöltési beállítások megadásában, beleértve a titkosított fájl megnyitásához szükséges jelszót.
 ```csharp
 // A LoadOptions példányosítása
 LoadOptions loadOptions = new LoadOptions();
@@ -58,7 +58,7 @@ loadOptions.Password = "1234"; // Cserélje ki az „1234”-et a tényleges jel
 // Hozzon létre egy munkafüzet objektumot, és nyissa meg a fájlt az elérési útjából
 Workbook wbEncrypted = new Workbook(dataDir + "encryptedBook.xls", loadOptions);
 ```
- Itt egy újat építesz`Workbook` objektumot és átadja a titkosított fájl elérési útját, és a`loadOptions`amely tartalmazza a jelszavát. Ha minden jól megy, ez a sor sikeresen megnyitja a titkosított fájlt.
+ Itt egy újat építesz`Workbook` objektumot és átadja a titkosított fájl elérési útját, és a`loadOptions` amely tartalmazza a jelszavát. Ha minden jól megy, ez a sor sikeresen megnyitja a titkosított fájlt.
 ## 5. lépés: Erősítse meg a fájlhoz való sikeres hozzáférést
 Végül célszerű megerősíteni, hogy sikeresen megnyitotta a fájlt. 
 ```csharp
@@ -70,7 +70,7 @@ Gratulálok! Sikeresen megtanulta, hogyan lehet titkosított Excel-fájlokat meg
  Ne feledje, hogy a titkosított fájlokkal való munka bonyolult lehet, de az olyan eszközökkel, mint az Aspose.Cells, gyerekjáték lesz. Ha szeretne mélyebbre ásni, ellenőrizze a[dokumentáció](https://reference.aspose.com/cells/net/) a fejlettebb funkciókért.
 ## GYIK
 ### Meg tudom nyitni a különböző jelszavakkal titkosított Excel fájlokat?
- Igen, egyszerűen frissítse a`Password` mezőben a`LoadOptions`hogy megfeleljen a megnyitni kívánt Excel-fájl jelszavának.
+ Igen, egyszerűen frissítse a`Password` mezőben a`LoadOptions` hogy megfeleljen a megnyitni kívánt Excel-fájl jelszavának.
 ### Az Aspose.Cells ingyenesen használható?
  Az Aspose.Cells nem ingyenes; kezdheti azonban a[ingyenes próbaverzió](https://releases.aspose.com/) jellemzőinek feltárására.
 ### Milyen típusú Excel-fájlokat tud kezelni az Aspose.Cells?

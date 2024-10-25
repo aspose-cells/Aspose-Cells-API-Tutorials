@@ -68,7 +68,7 @@ Khi sổ làm việc được tải, bạn có thể truy cập các kết nối
 Aspose.Cells.ExternalConnections.DBConnection dbCon = wb.DataConnections[0] as Aspose.Cells.ExternalConnections.DBConnection;
 ```
 
- Đây,`DataConnections[0]`đề cập đến kết nối đầu tiên trong sổ làm việc. Chúng tôi đang đúc nó như một`DBConnection` nhập để thao tác thêm.
+ Đây,`DataConnections[0]` đề cập đến kết nối đầu tiên trong sổ làm việc. Chúng tôi đang đúc nó như một`DBConnection` nhập để thao tác thêm.
 
 ## Bước 4: Trích xuất thông tin kết nối
 

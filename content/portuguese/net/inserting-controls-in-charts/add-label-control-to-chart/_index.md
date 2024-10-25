@@ -62,7 +62,7 @@ Em seguida, carregaremos o arquivo Excel que contém o gráfico ao qual queremos
 Workbook workbook = new Workbook(sourceDir + "sampleAddingLabelControlInChart.xls");
 ```
 
- Aqui, estamos usando o`Workbook`class do Aspose.Cells para abrir nosso arquivo Excel. É como destrancar a porta para deixar a criatividade fluir!
+ Aqui, estamos usando o`Workbook` class do Aspose.Cells para abrir nosso arquivo Excel. É como destrancar a porta para deixar a criatividade fluir!
 
 ## Etapa 3: Acesse a planilha
 
@@ -94,7 +94,7 @@ Agora vem a parte emocionante – adicionar o rótulo ao gráfico. Definiremos a
 Aspose.Cells.Drawing.Label label = chart.Shapes.AddLabelInChart(600, 600, 350, 900);
 ```
 
- Aqui,`AddLabelInChart`cuida de criar um rótulo com base nas coordenadas e dimensões que você especificar. É como afixar uma linda moldura ao redor da sua arte!
+ Aqui,`AddLabelInChart` cuida de criar um rótulo com base nas coordenadas e dimensões que você especificar. É como afixar uma linda moldura ao redor da sua arte!
 
 ## Etapa 6: Defina o texto do rótulo
 
@@ -141,7 +141,7 @@ Console.WriteLine("AddingLabelControlInChart executed successfully.");
 
 ## Conclusão
 
-E aí está! Você adicionou com sucesso um controle de rótulo a um gráfico usando Aspose.Cells para .NET. Com apenas algumas linhas de código, você aprimorou a clareza da sua representação visual de dados, tornando-a muito mais informativa. Lembre-se, não importa se você está montando uma apresentação ou mergulhando na análise de dados, esses rótulos podem ser ferramentas inestimáveis.
+aí está! Você adicionou com sucesso um controle de rótulo a um gráfico usando Aspose.Cells para .NET. Com apenas algumas linhas de código, você aprimorou a clareza da sua representação visual de dados, tornando-a muito mais informativa. Lembre-se, não importa se você está montando uma apresentação ou mergulhando na análise de dados, esses rótulos podem ser ferramentas inestimáveis.
 
 ## Perguntas frequentes
 

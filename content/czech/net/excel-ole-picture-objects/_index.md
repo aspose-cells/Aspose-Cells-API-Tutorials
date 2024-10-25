@@ -33,7 +33,7 @@ Naučte se vkládat objekty OLE do souborů aplikace Excel pomocí Aspose.Cells 
 ### [Přidat obrázek do listu aplikace Excel](./add-picture-to-excel/)
 Naučte se, jak snadno přidávat obrázky do listů aplikace Excel pomocí Aspose.Cells for .NET v tomto komplexním podrobném průvodci. Vylepšete své tabulky.
 ### [Umístěte obrázek (absolutně) v aplikaci Excel](./position-picture-absolute-excel/)
-Naučte se, jak absolutně umístit obrázky v Excelu pomocí Aspose.Cells for .NET s tímto komplexním výukovým programem krok za krokem.
+Naučte se, jak absolutně umístit obrázky v Excelu pomocí Aspose.Cells for .NET pomocí tohoto komplexního podrobného tutoriálu.
 ### [Umístěte obrázek (proporcionálně) v aplikaci Excel](./position-picture-proportional-excel/)
 Naučte se, jak umístit obrázky proporcionálně v Excelu pomocí Aspose.Cells pro .NET. Udělejte ze svých tabulek vizuálně přitažlivější.
 ### [Referenční obrázková buňka v Excelu](./reference-picture-cell-excel/)

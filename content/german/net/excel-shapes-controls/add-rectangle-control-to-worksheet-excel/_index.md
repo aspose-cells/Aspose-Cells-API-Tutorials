@@ -37,7 +37,7 @@ string dataDir = "Your Document Directory";
  Hier geben Sie den Verzeichnispfad an, in dem die Excel-Datei gespeichert wird. Sie können ersetzen`"Your Document Directory"` durch den tatsächlichen Pfad auf Ihrem Computer oder erstellen Sie dynamisch einen Ordner, falls dieser nicht vorhanden ist.
 ### Überprüfen und Erstellen des Verzeichnisses
 ```csharp
-//Erstellen Sie ein Verzeichnis, falls es noch nicht vorhanden ist.
+// Erstellen Sie ein Verzeichnis, falls es noch nicht vorhanden ist.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);

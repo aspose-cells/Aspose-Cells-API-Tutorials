@@ -36,7 +36,7 @@ Belge dizinimiz için yolu tanımlayarak ve klasörün var olduğundan emin olar
 ```csharp
 // Resimlerin kaydedileceği dizini tanımlayın
 string dataDir = "Your Document Directory";
-// Dizinin var olup olmadığını kontrol edin
+//Dizinin var olup olmadığını kontrol edin
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -93,7 +93,7 @@ chart.NSeries.Add("A1:B3", true);
 ## Adım 7: Grafiği Görüntüye Dönüştürün
 Gerçek an: Bu grafiği bir görüntü dosyasına dönüştüreceğiz!
 
- Burada şunu kullanıyoruz:`ToImage`grafiği istediğiniz bir görüntü biçimine dönüştürme yöntemi. Bu durumda, onu bir EMF (Gelişmiş Meta Dosyası) biçimine dönüştürüyoruz.
+ Burada şunu kullanıyoruz:`ToImage` grafiği istediğiniz bir görüntü biçimine dönüştürme yöntemi. Bu durumda, onu bir EMF (Gelişmiş Meta Dosyası) biçimine dönüştürüyoruz.
 ```csharp
 // Tabloyu bir görüntüye dönüştürün ve dizine kaydedin
 chart.ToImage(dataDir + "Chart.emf", ImageFormat.Emf);

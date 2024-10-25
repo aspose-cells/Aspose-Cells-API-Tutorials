@@ -25,7 +25,7 @@ Zatímco Aspose.Cells zjednodušuje mnoho úkolů, základní znalost C# je zás
 Měli byste mít nastavené IDE jako Visual Studio. To vás provede efektivním zpracováním a testováním kódu.
 
 ### Ukázkové soubory Excel
-Budete potřebovat ukázkové soubory (`samplePageSetupIsAutomaticPaperSize-False.xlsx` a`samplePageSetupIsAutomaticPaperSize-True.xlsx`) pro testovací účely. Ujistěte se, že tyto soubory jsou ve vašem zdrojovém adresáři.
+Budete potřebovat ukázkové soubory (`samplePageSetupIsAutomaticPaperSize-False.xlsx` a`samplePageSetupIsAutomaticPaperSize-True.xlsx`pro testovací účely. Ujistěte se, že tyto soubory jsou ve vašem zdrojovém adresáři.
 
 ## Importujte balíčky
 

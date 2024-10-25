@@ -69,4 +69,4 @@ Absoluut! U kunt Excel-bestanden lezen, schrijven en wijzigen met behulp van de 
 ### Is er ondersteuning beschikbaar voor Aspose.Cells-gebruikers?
  Ja, u kunt toegang krijgen tot uitgebreide ondersteuningsbronnen, waaronder forums en documentatie, die beschikbaar zijn[hier](https://forum.aspose.com/c/cells/9).
 ### Hoe kan ik een tijdelijke licentie voor Aspose.Cells krijgen?
- U kunt een tijdelijke vergunning aanvragen om het product te evalueren door naar[deze link](https://purchase.aspose.com/temporary-license/).
+ kunt een tijdelijke vergunning aanvragen om het product te evalueren door naar[deze link](https://purchase.aspose.com/temporary-license/).

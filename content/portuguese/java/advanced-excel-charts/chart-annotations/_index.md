@@ -110,7 +110,7 @@ Sim, você pode personalizar a fonte, a cor, o tamanho e outras propriedades das
 
 Sim, o Aspose.Cells para Java oferece suporte a uma ampla variedade de tipos de gráficos, incluindo gráficos de barras, gráficos de linhas e gráficos de pizza.
 
-### O Aspose.Cells para Java é adequado para visualização de dados profissional?
+### Aspose.Cells para Java é adequado para visualização de dados profissional?
 
 Absolutamente! O Aspose.Cells para Java fornece um conjunto robusto de ferramentas e recursos para criar visualizações de dados com base em Excel de nível profissional.
 

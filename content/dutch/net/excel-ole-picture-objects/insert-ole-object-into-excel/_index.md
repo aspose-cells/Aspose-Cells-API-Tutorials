@@ -35,7 +35,7 @@ string dataDir = "Your Document Directory";
 ## Stap 2: Maak de directory aan als deze nog niet bestaat
 Vervolgens willen we ervoor zorgen dat deze directory bestaat. Als dat niet zo is, moeten we hem aanmaken.
 ```csharp
-//Maak een map aan als deze nog niet bestaat.
+// Maak een map aan als deze nog niet bestaat.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -58,7 +58,7 @@ Mooi en simpel! We zijn klaar om inhoud toe te voegen aan dit werkblad.
 ## Stap 5: Definieer het pad voor de afbeelding
 Nu gaan we een pad instellen voor de afbeelding die u in uw Excel-bestand wilt insluiten.
 ```csharp
-// Definieer een tekenreeksvariabele om het afbeeldingspad op te slaan.
+//Definieer een tekenreeksvariabele om het afbeeldingspad op te slaan.
 string ImageUrl = dataDir + "logo.jpg";
 ```
  Zorg ervoor dat dit pad correct weergeeft waar uw`logo.jpg` bestand is opgeslagen.
@@ -87,7 +87,7 @@ Net zoals we met de afbeelding hebben gedaan, moeten we het Excel-bestand zelf i
 ```csharp
 // Plaats het bestand in de streams.
 fs = File.OpenRead(path);
-// Definieer een byte-array.
+//Definieer een byte-array.
 byte[] objectData = new Byte[fs.Length];
 // Sla het bestand op vanuit streams.
 fs.Read(objectData, 0, objectData.Length);

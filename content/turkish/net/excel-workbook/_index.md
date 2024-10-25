@@ -13,11 +13,11 @@ Excel dosya yönetimiyle uğraşmaktan yoruldunuz mu? İmza ekleme veya karmaş�
 
 ## Web Uzantısı Bilgilerine Erişim
 
-Web uzantısı bilgilerine nasıl erişileceğini anlamak, Excel elektronik tablolarınızda yeni olasılıklar açabilir. Dosyalarınız içinde gelişmiş etkileşime olanak tanır. Eğitimimiz[Web Uzantısı Bilgilerine Erişim](./access-web-extension-information/) Aspose.Cells'e yeni başlayanlar için bile bu süreci kolaylaştırmak amacıyla adım adım bir yol gösterici kılavuz sağlar.
+ Web uzantısı bilgilerine nasıl erişileceğini anlamak, Excel elektronik tablolarınızda yeni olasılıklar açabilir. Dosyalarınız içinde gelişmiş etkileşime olanak tanır. Eğitimimiz[Web Uzantısı Bilgilerine Erişim](./access-web-extension-information/) Aspose.Cells'e yeni başlayanlar için bile bu süreci kolaylaştırmak amacıyla adım adım bir yol gösterici kılavuz sağlar.
 
 ## Dijital İmzaların Eklenmesi
 
- İmzalanmış bir Excel dosyasına dijital imza eklemeniz hiç gerekti mi? Bunu nasıl yapacağınızı rehberimizle öğrenin[Zaten İmzalanmış Bir Excel Dosyasına Dijital İmza Ekleme](./add-digital-signature-to-an-already-signed-excel-file/)Dijital imzalar, Excel dosyalarınızın yalnızca işlevsel değil aynı zamanda güvenli olmasını sağlayarak, özgünlüğü ve bütünlüğü garanti eder.
+İmzalanmış bir Excel dosyasına dijital imza eklemeniz hiç gerekti mi? Bunu nasıl yapacağınızı rehberimizle öğrenin[Zaten İmzalanmış Bir Excel Dosyasına Dijital İmza Ekleme](./add-digital-signature-to-an-already-signed-excel-file/)Dijital imzalar, Excel dosyalarınızın yalnızca işlevsel değil aynı zamanda güvenli olmasını sağlayarak, özgünlüğü ve bütünlüğü garanti eder.
 
 ## Paylaşılan Çalışma Kitapları Oluşturma
 
@@ -25,7 +25,7 @@ Web uzantısı bilgilerine nasıl erişileceğini anlamak, Excel elektronik tabl
 
 ## Gömülü Dosyaları Çıkarma
 
-Excel'in gömülü dosyalar içerebileceğini biliyor muydunuz? Gömülü bir MOL dosyasını çıkarmak için elektronik tablolarınızda daha derinlere inmeniz gerektiyse, şu eğitimimize göz atmak isteyebilirsiniz:[Gömülü MOL Dosyasını Çıkar](./extract-embedded-mol-file/)Bu kılavuz, Excel çalışma kitaplarınızda gizli olan önemli verilerinizi asla kaybetmemenizi sağlayarak, bu dosyaları almanın basit sürecini adım adım açıklar.
+ Excel'in gömülü dosyalar içerebileceğini biliyor muydunuz? Gömülü bir MOL dosyasını çıkarmak için elektronik tablolarınızda daha derinlere inmeniz gerektiyse, şu eğitimimize göz atmak isteyebilirsiniz:[Gömülü MOL Dosyasını Çıkar](./extract-embedded-mol-file/)Bu kılavuz, Excel çalışma kitaplarınızda gizli olan önemli verilerinizi asla kaybetmemenizi sağlayarak, bu dosyaları almanın basit sürecini adım adım açıklar.
 
 ## XLSB Dosyalarında Harici Bağlantıların İşlenmesi
 
@@ -33,23 +33,23 @@ Excel'in gömülü dosyalar içerebileceğini biliyor muydunuz? Gömülü bir MO
 
 ## Şifre Korumasıyla Güvenliği Artırma
 
- Güvenlik, özellikle hassas bilgiler içeren paylaşılan çalışma kitapları için önemlidir. Eğitimimiz[Paylaşılan Çalışma Kitabını Parolayla Koru veya Korumasını Kaldır](./password-protect-or-unprotect-shared-workbook/)çalışma kitaplarınızı yalnızca doğru kişilerin erişebileceği şekilde kilitleme adımlarını ayrıntılı olarak açıklar. Güvenli olduklarını bildiğinizde dosyaları paylaşırken kendinizi daha güvende hissedersiniz.
+ Güvenlik, özellikle hassas bilgiler içeren paylaşılan çalışma kitapları için önemlidir. Eğitimimiz[Paylaşılan Çalışma Kitabını Parolayla Koru veya Korumasını Kaldır](./password-protect-or-unprotect-shared-workbook/) çalışma kitaplarınızı yalnızca doğru kişilerin erişebileceği şekilde kilitleme adımlarını ayrıntılı olarak açıklar. Güvenli olduklarını bildiğinizde dosyaları paylaşırken kendinizi daha güvende hissedersiniz.
 
 ## Regex ile Üretkenliği Artırma
 
- Regex hayranı mısınız? Değilseniz, bir tanesi olmak isteyebilirsiniz! Düzenli ifadeler, özellikle Excel'de büyük veri kümeleriyle çalışırken görevlerinizi önemli ölçüde kolaylaştırabilir.[Regex Değiştir](./regex-replace/) elektronik tablolarınızda regex değiştirme işlevlerini nasıl uygulayacağınızı öğreterek, hem üretkenliğinizi hem de doğruluğunuzu artırmanızı sağlar.
+Regex hayranı mısınız? Değilseniz, bir tanesi olmak isteyebilirsiniz! Düzenli ifadeler, özellikle Excel'de büyük veri kümeleriyle çalışırken görevlerinizi önemli ölçüde kolaylaştırabilir.[Regex Değiştir](./regex-replace/) elektronik tablolarınızda regex değiştirme işlevlerini nasıl uygulayacağınızı öğreterek, hem üretkenliğinizi hem de doğruluğunuzu artırmanızı sağlar.
 
 ## Power Sorgu Öğelerini Güncelleme
 
- Power Query'ler, veri manipülasyonunda gerçek bir oyun değiştirici olabilir ve bilgilerin Excel dosyalarınıza nasıl aktarılacağını kolaylaştırmanızı sağlar. Aspose.Cells for .NET kullanarak Excel'deki Power Query formül öğelerini nasıl güncelleyeceğinizi merak ediyorsanız,[Power Query Formül Öğesini Güncelle](./update-power-query-formula-item/)tam da aradığınız şey. Bu formül öğelerini değiştirmek için basit, adım adım bir yaklaşım sunar ve verilerinizi güncel tutmanıza ve çalışma kitaplarınızda doğru bir şekilde yansıtılmasına olanak tanır.
+ Power Query'ler, veri manipülasyonunda gerçek bir oyun değiştirici olabilir ve bilgilerin Excel dosyalarınıza nasıl aktarılacağını kolaylaştırmanızı sağlar. Aspose.Cells for .NET kullanarak Excel'deki Power Query formül öğelerini nasıl güncelleyeceğinizi merak ediyorsanız,[Power Query Formül Öğesini Güncelle](./update-power-query-formula-item/) tam da aradığınız şey. Bu formül öğelerini değiştirmek için basit, adım adım bir yaklaşım sunar ve verilerinizi güncel tutmanıza ve çalışma kitaplarınızda doğru bir şekilde yansıtılmasına olanak tanır.
 
 ## Baskı Önizlemelerini Yönetme
 
- Ara sıra verilerinizi mümkün olan en profesyonel şekilde sunmanız gerekir. Baskı önizlemelerinin nasıl oluşturulacağını öğrenmek hayati bir beceri olabilir. Eğitimimizde[Çalışma Kitabı Baskı Önizleme](./workbook-print-preview/), yazdırmaya basmadan önce verilerinizi doğru şekilde nasıl biçimlendireceğinizi keşfedeceksiniz. Bu işlem sizi utanç verici hatalardan kurtarabilir ve raporlarınızın ekranda olduğu kadar kağıt üzerinde de iyi görünmesini sağlayabilir.
+Ara sıra verilerinizi mümkün olan en profesyonel şekilde sunmanız gerekir. Baskı önizlemelerinin nasıl oluşturulacağını öğrenmek hayati bir beceri olabilir. Eğitimimizde[Çalışma Kitabı Baskı Önizleme](./workbook-print-preview/), yazdırmaya basmadan önce verilerinizi doğru şekilde nasıl biçimlendireceğinizi keşfedeceksiniz. Bu işlem sizi utanç verici hatalardan kurtarabilir ve raporlarınızın ekranda olduğu kadar kağıt üzerinde de iyi görünmesini sağlayabilir.
 
 ## Tanımlı İsimlerle Çalışma
 
- Excel sayfalarınızdaki tanımlı adlar, verilerinizi yönetmenin kullanışlı bir yolu olabilir. Formülleri daha kısa ve daha anlaşılır hale getirirler. Bir çalışma kitabını yüklerken tanımlı adları filtrelemek istiyorsanız,[Çalışma Kitabını Yüklerken Tanımlı İsimleri Filtrele](./filter-defined-names-while-loading-workbook/)tam da bunu yapmak için gereken tüm adımları sağlar. Bu özellik, çalışma kitabınızın nasıl yükleneceğini özelleştirmenize olanak tanır, verimliliği ve organizasyonu iyileştirir.
+ Excel sayfalarınızdaki tanımlı adlar, verilerinizi yönetmenin kullanışlı bir yolu olabilir. Formülleri daha kısa ve daha anlaşılır hale getirirler. Bir çalışma kitabını yüklerken tanımlı adları filtrelemek istiyorsanız,[Çalışma Kitabını Yüklerken Tanımlı İsimleri Filtrele](./filter-defined-names-while-loading-workbook/) tam da bunu yapmak için gereken tüm adımları sağlar. Bu özellik, çalışma kitabınızın nasıl yükleneceğini özelleştirmenize olanak tanır, verimliliği ve organizasyonu iyileştirir.
 
 ## Çözüm
 

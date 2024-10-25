@@ -58,7 +58,7 @@ Toto je okamžik, na kterém jsme pracovali! Nyní sešit uložíme jako soubor 
 ```csharp
 if (Respose != null)
 {
-    //Uložit ve formátu Pdf
+    // Uložit ve formátu Pdf
     workbook.Save(Respose, dataDir + "output.pdf", ContentDisposition.Attachment, new PdfSaveOptions());
     Respose.End();
 }

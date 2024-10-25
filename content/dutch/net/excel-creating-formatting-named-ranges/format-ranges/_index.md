@@ -53,7 +53,7 @@ Vervolgens maken we een instantie van de werkmap. Dit is alsof je een nieuw leeg
 Workbook workbook = new Workbook();
 ```
 
-Uitleg: De`Workbook` class vertegenwoordigt een Excel-bestand. Door het te instantiëren, maakt u in feite een nieuw Excel-document dat u kunt bewerken.
+ Uitleg: De`Workbook` class vertegenwoordigt een Excel-bestand. Door het te instantiëren, maakt u in feite een nieuw Excel-document dat u kunt bewerken.
 
 ## Stap 3: Toegang tot het eerste werkblad
 
@@ -138,7 +138,7 @@ flg.Font = true; // Lettertypekenmerken inschakelen
 flg.CellShading = true; // Celschaduw inschakelen
 ```
 
-Uitleg: De`StyleFlag` object vertelt de bibliotheek welke stijlkenmerken we willen toepassen, net als het afvinken van vakjes op een takenlijst!
+ Uitleg: De`StyleFlag` object vertelt de bibliotheek welke stijlkenmerken we willen toepassen, net als het afvinken van vakjes op een takenlijst!
 
 ## Stap 11: Pas de stijl toe op het bereik
 

@@ -16,7 +16,7 @@ Amikor a táblázatkezelésről van szó, az adatok Excelbe történő importál
 Mielőtt belevágnánk a finomságokba, győződjünk meg arról, hogy mindennel rendelkezünk, amire szükségünk van. Íme egy gyors ellenőrző lista a sikerhez szükséges előfeltételekről:
 
 1. .NET-keretrendszer: Győződjön meg arról, hogy a .NET-keretrendszer telepítve van a számítógépére. Az Aspose.Cells zökkenőmentesen működik a különböző .NET-verziókkal.
-2. Aspose.Cells for .NET: Le kell töltenie és telepítenie kell az Aspose.Cells könyvtárat. Megragadhatja a[letöltési link](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells for .NET: Le kell töltenie és telepítenie kell az Aspose.Cells könyvtárat. Megragadhatja a[letöltési link](https://releases.aspose.com/cells/net/).
 3. Integrált fejlesztői környezet (IDE): Használjon olyan IDE-t, mint a Visual Studio, ahol írhatja és végrehajthatja C# kódját.
 4. Alapvető C# ismerete: A C# alapjainak ismerete segít követni az ebben az útmutatóban használt kódolási gyakorlatokat.
 
@@ -36,7 +36,7 @@ Az Aspose.Cells könyvtárat bele kell foglalnia a projektbe. Kattintson a jobb 
 
 ### Importálja a szükséges névtereket
 
-C# fájl tetején importálja a következő névtereket:
+A C# fájl tetején importálja a következő névtereket:
 
 ```csharp
 using System;
@@ -57,7 +57,7 @@ Először is meg kell adnia a dokumentumkönyvtár elérési útját, ahová a k
 string dataDir = "Your Document Directory";
 ```
 
- Ebben a példában cserélje ki`Your Document Directory` a tényleges utaddal, pl`C:\\Users\\YourName\\Documents\\`.
+ Ebben a példában cserélje ki`Your Document Directory` a valódi utaddal, pl`C:\\Users\\YourName\\Documents\\`.
 
 ## 2. lépés: Hozzon létre egy munkafüzetet
 
@@ -108,7 +108,7 @@ Itt történik a varázslat. Egyéni formátummintát adhat meg a DBNum formáz�
 st.Custom = "[DBNum2][$-804]General";
 ```
 
- Ez a sor utasítja az Excelt a szám formázására`123` a kínai nyelvnek megfelelő DBNum minta szerint. Elég ügyes, igaz?
+ Ez a sor utasítja az Excelt a szám formázására`123` kínai nyelvnek megfelelő DBNum minta szerint. Elég ügyes, igaz?
 
 ## 7. lépés: Állítsa be a frissített cella stílusát
 

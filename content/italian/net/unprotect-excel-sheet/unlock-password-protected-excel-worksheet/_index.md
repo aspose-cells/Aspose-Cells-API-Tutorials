@@ -64,7 +64,7 @@ Ora, entriamo nel vivo di questo tutorial. Utilizzeremo un semplice pezzo di cod
 
 ## Passaggio 1: definire il percorso del documento
 
-Per prima cosa, dobbiamo impostare il percorso del nostro documento Excel. Qui è dove specificherai dove si trova il tuo file Excel. 
+Per prima cosa, dobbiamo impostare il percorso del nostro documento Excel. Qui specificherai dove si trova il tuo file Excel. 
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";

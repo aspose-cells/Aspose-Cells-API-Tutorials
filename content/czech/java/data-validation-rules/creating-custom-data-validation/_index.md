@@ -1,6 +1,6 @@
 ---
-title: Vytváření vlastních ověřování dat
-linktitle: Vytváření vlastních ověřování dat
+title: Vytváření ověřování vlastních dat
+linktitle: Vytváření ověřování vlastních dat
 second_title: Aspose.Cells Java Excel Processing API
 description: Naučte se vytvářet vlastní ověřování dat pomocí Aspose.Cells for Java. Průvodce krok za krokem se zdrojovým kódem.
 type: docs
@@ -33,7 +33,7 @@ Workbook workbook = new Workbook();
 
 ## Krok 3: Přidání listu
 
-Nyní přidáme do sešitu list, kde použijeme vlastní ověření dat.
+Nyní přidejte do sešitu list, kde použijeme vlastní ověření dat.
 
 ```java
 // Java kód pro přidání listu
@@ -101,7 +101,7 @@ Ano, Aspose.Cells for Java podporuje různé typy ověřování dat, včetně ce
 
 ### Jak mohu přizpůsobit chybovou zprávu zobrazenou při selhání ověření dat?
 
- Chybovou zprávu můžete upravit úpravou souboru`setErrorMessage` metodou v kroku 4, kde definujete ověřovací kritéria.
+ Chybovou zprávu můžete upravit úpravou souboru`setErrorMessage` metoda v kroku 4, kde definujete ověřovací kritéria.
 
 ### Funguje Aspose.Cells for Java se soubory aplikace Excel v různých formátech?
 

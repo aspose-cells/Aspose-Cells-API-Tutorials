@@ -37,7 +37,7 @@ string dataDir = "Your Document Directory";
  여기서 Excel 파일이 저장될 디렉토리 경로를 지정합니다. 다음을 바꿀 수 있습니다.`"Your Document Directory"` 컴퓨터의 실제 경로를 사용하거나, 폴더가 없으면 동적으로 만듭니다.
 ### 디렉토리 확인 및 생성
 ```csharp
-//디렉토리가 없으면 디렉토리를 생성합니다.
+// 디렉토리가 없으면 디렉토리를 생성합니다.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);

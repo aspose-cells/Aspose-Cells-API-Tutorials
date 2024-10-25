@@ -45,7 +45,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY"; // Geef uw documentdirectory op
 string InputPath = Path.Combine(dataDir, "book1.xlsx"); // Combineer om het volledige pad te vormen
 ```
 
- Hier, vervang`"YOUR DOCUMENT DIRECTORY"`met het werkelijke pad op uw systeem waar`book1.xlsx` is opgeslagen. Gebruikmakend van`Path.Combine` is handig omdat het ervoor zorgt dat het pad correct wordt samengesteld over verschillende besturingssystemen.
+ Hier, vervang`"YOUR DOCUMENT DIRECTORY"` met het werkelijke pad op uw systeem waar`book1.xlsx` is opgeslagen. Gebruikmakend van`Path.Combine`is handig omdat het ervoor zorgt dat het pad correct wordt samengesteld over verschillende besturingssystemen.
 
 ## Stap 2: Een bestandsstroom maken
 

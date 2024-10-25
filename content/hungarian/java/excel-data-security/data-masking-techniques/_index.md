@@ -18,7 +18,7 @@ Mielőtt belemerülnénk az Aspose.Cells for Java segítségével történő ada
 
 - Java Development Kit (JDK) telepítve
 - Aspose.Cells for Java API könyvtár
-- A Java programozás alapvető ismerete
+- Java programozás alapvető ismerete
 
 ## Az adatmaszkolás megértése
 
@@ -32,7 +32,7 @@ Az adatok maszkolása számos okból elengedhetetlen:
 
 - Biztonság: Segít megelőzni az érzékeny adatokhoz való jogosulatlan hozzáférést, csökkentve az adatszivárgás kockázatát.
 - Megfelelés: Számos szabályozás, például a GDPR és a HIPAA megköveteli a személyes és bizalmas adatok védelmét.
-- Tesztelés és fejlesztés: A maszkolt adatok lehetővé teszik a fejlesztők és tesztelők számára, hogy valósághű adatkészletekkel dolgozzanak a biztonság veszélyeztetése nélkül.
+- Tesztelés és fejlesztés: A maszkolt adatok lehetővé teszik a fejlesztők és a tesztelők számára, hogy valósághű adatkészletekkel dolgozzanak a biztonság veszélyeztetése nélkül.
 
 ## Az Aspose.Cells for Java használatának első lépései
 

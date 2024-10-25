@@ -41,7 +41,7 @@ string filePath = dataDir + "Book1.xlsx";
 ## Adım 2: Bir Çalışma Kitabı Nesnesi Oluşturun
  Daha sonra bir tane oluşturacağız`Workbook` Excel dosyamızın temsilcisi olarak görev yapan nesne. 
 ```csharp
-// Bir Çalışma Kitabı nesnesi oluşturun ve dosyayı yolundan açın
+//Bir Çalışma Kitabı nesnesi oluşturun ve dosyayı yolundan açın
 Workbook wb = new Workbook(filePath);
 ```
  Burada yeni bir örnek oluşturuyoruz`Workbook` daha önce kurduğumuz dosya yolunu kullanarak. Bu nesne artık Excel dosya içerikleriyle etkileşime girmemize izin verecek. Dosya`Book1.xlsx` Belirtilen dizinde bulunmuyorsa bir hatayla karşılaşacaksınız.

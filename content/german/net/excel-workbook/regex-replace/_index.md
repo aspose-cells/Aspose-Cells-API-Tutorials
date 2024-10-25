@@ -2,7 +2,7 @@
 title: Regex-Ersetzung
 linktitle: Regex-Ersetzung
 second_title: Aspose.Cells für .NET API-Referenz
-description: Erfahren Sie, wie Sie mit Aspose.Cells für .NET Regex-Ersetzungen in Excel effizient nutzen. Steigern Sie die Produktivität und Genauigkeit Ihrer Tabellenkalkulationsaufgaben.
+description: Erfahren Sie, wie Sie Regex-Ersetzungen in Excel mit Aspose.Cells für .NET effizient nutzen. Steigern Sie die Produktivität und Genauigkeit Ihrer Tabellenkalkulationsaufgaben.
 type: docs
 weight: 140
 url: /de/net/excel-workbook/regex-replace/
@@ -16,13 +16,13 @@ Sind Sie es leid, stundenlang akribische Änderungen an Ihren Excel-Tabellen man
 Bevor wir uns in die Details der Codierung stürzen, stellen wir sicher, dass Sie für die bevorstehende Reise gut gerüstet sind.
 
 1. .NET Framework: Stellen Sie sicher, dass Sie eine .NET-Umgebung eingerichtet haben. Egal, ob .NET Core oder .NET Framework, Sie können loslegen.
-2.  Aspose.Cells-Bibliothek: Diese Bibliothek ist Ihr Schlüssel zur Freischaltung leistungsstarker Tabellenkalkulationsmanipulationen. Sie können[Laden Sie es hier herunter](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells-Bibliothek: Diese Bibliothek ist Ihr Schlüssel zur Freischaltung leistungsstarker Tabellenkalkulationsmanipulationen. Sie können[Laden Sie es hier herunter](https://releases.aspose.com/cells/net/).
 3. Eine IDE: Verwenden Sie Ihre bevorzugte integrierte Entwicklungsumgebung (IDE) wie Visual Studio, wodurch das Codieren wesentlich reibungsloser abläuft.
 4. Grundlegende Programmierkenntnisse: Vertrautheit mit C# und den Konzepten regulärer Ausdrücke ist von Vorteil.
 
 ## Einrichten der Umgebung
 
-Stellen Sie zunächst sicher, dass Sie Ihr Projekt eingerichtet haben, indem Sie die Aspose.Cells-Bibliothek hinzufügen. Dies können Sie über den NuGet Package Manager in Visual Studio tun.
+Stellen Sie zunächst sicher, dass Sie Ihr Projekt eingerichtet haben, indem Sie die Aspose.Cells-Bibliothek hinzufügen. Dies können Sie über den NuGet-Paket-Manager in Visual Studio tun.
 
 1. Öffnen Sie Ihr Projekt und navigieren Sie zu Tools > NuGet-Paket-Manager > NuGet-Pakete für Lösung verwalten.
 2.  Suchen nach`Aspose.Cells` und installieren Sie es.
@@ -77,7 +77,7 @@ replace.RegexKey = true; // Geben Sie an, dass wir reguläre Ausdrücke verwende
 ```
 
 In dieser Konfiguration:
-- `CaseSensitive` ist eingestellt auf`false`d. h. unsere Suche nach „KIM“ ignoriert Groß- und Kleinschreibung.
+- `CaseSensitive` ist eingestellt auf`false`, d. h. unsere Suche nach „KIM“ ignoriert Groß- und Kleinschreibung.
 - `MatchEntireCellContents` ist eingestellt auf`false` so können wir Teile des Zellinhalts ersetzen.
 - `RegexKey` ist eingestellt auf`true` um anzugeben, dass wir für unsere Suche einen regulären Ausdruck verwenden werden.
 
@@ -132,4 +132,4 @@ Ja, es unterstützt eine Vielzahl von Formaten, darunter XLS, XLSX, CSV und mehr
 Ja, Sie können komplexere Regex-Muster erstellen, um mehrere Begriffe gleichzeitig abzugleichen.
 
 ### Wo finde ich weitere Beispiele und Dokumentation für Aspose.Cells?  
- Eine ausführliche Dokumentation finden Sie[Hier](https://reference.aspose.com/cells/net/).
+Eine ausführliche Dokumentation finden Sie[Hier](https://reference.aspose.com/cells/net/).

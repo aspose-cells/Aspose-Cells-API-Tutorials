@@ -114,7 +114,7 @@ for (int i = 0; i < lstLabels.Count; i++)
     Console.WriteLine(lstLabels[i]);
 }
 ```
-Detta utdrag matar först ut en titel och en separatorrad. Sedan går vi igenom varje etikett i`lstLabels` ArrayList och skriv ut den till konsolen. Om det finns tio etiketter ser du var och en av dem där!
+ Detta utdrag matar först ut en titel och en separatorrad. Sedan går vi igenom varje etikett i`lstLabels`ArrayList och skriv ut den till konsolen. Om det finns tio etiketter ser du var och en av dem där!
 
 ## Steg 8: Slutmeddelande
 
@@ -141,7 +141,7 @@ Aspose.Cells är ett kraftfullt bibliotek för att manipulera Excel-filer i .NET
  Du kan köpa en licens för Aspose.Cells genom deras[köpsidan](https://purchase.aspose.com/buy).
 
 ### Var kan jag hitta support för Aspose.Cells?
-Du kan besöka Aspose-forumet för support[här](https://forum.aspose.com/c/cells/9).
+ Du kan besöka Aspose-forumet för support[här](https://forum.aspose.com/c/cells/9).
 
 ### Kan jag få en tillfällig licens?
- Ja! Aspose erbjuder en tillfällig licens som du kan begära från[denna länk](https://purchase.aspose.com/temporary-license/).
+Ja! Aspose erbjuder en tillfällig licens som du kan begära från[denna länk](https://purchase.aspose.com/temporary-license/).

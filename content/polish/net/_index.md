@@ -63,7 +63,7 @@ Przeglądaj kompleksowe samouczki dotyczące zarządzania nazwanymi zakresami w 
 ### [Eksport i pobieranie danych z programu Excel](./excel-data-export-retrieval/)
 Zapoznaj się z samouczkami krok po kroku dotyczącymi eksportowania i pobierania danych z programu Excel przy użyciu Aspose.Cells dla platformy .NET, idealnymi dla programistów o dowolnym poziomie umiejętności.
 ### [Autofiltr i walidacja programu Excel](./excel-autofilter-validation/)
-Odblokuj zarządzanie danymi Excela dzięki samouczkom Aspose.Cells dla .NET. Poznaj autofiltrowanie i walidację dziesiętną, aby ulepszyć swoje arkusze kalkulacyjne.
+Odblokuj zarządzanie danymi w programie Excel dzięki samouczkom Aspose.Cells dla .NET. Poznaj autofiltrowanie i walidację dziesiętną, aby ulepszyć swoje arkusze kalkulacyjne.
 ### [Suma częściowa i obliczenia w programie Excel](./excel-subtotal-calculation/)
 Dowiedz się, jak tworzyć sumy częściowe w programie Excel i śledzić precedensy za pomocą Aspose.Cells dla .NET. Skorzystaj z tych samouczków, aby bez wysiłku udoskonalić swoje umiejętności arkusza kalkulacyjnego.
 ### [Zależności i obliczenia danych w programie Excel](./excel-data-dependency-calculation/)
@@ -107,16 +107,48 @@ Odkryj szczegółowe samouczki dotyczące obsługi plików w Aspose.Cells dla .N
 ### [Właściwości dokumentu](./document-properties/)
 Odkryj możliwości pakietu Aspose.Cells dla platformy .NET dzięki naszym kompleksowym samouczkom dotyczącym właściwości dokumentów, które pomogą Ci udoskonalić umiejętności zarządzania plikami w programie Excel.
 ### [Konwersja i renderowanie](./conversion-and-rendering/)
-Zapoznaj się z samouczkami Aspose.Cells for .NET, w których znajdziesz zaawansowane przewodniki na temat płynnej konwersji i renderowania plików Excela do różnych formatów.
+Zapoznaj się z samouczkami Aspose.Cells for .NET, zawierającymi zaawansowane przewodniki na temat płynnej konwersji i renderowania plików Excela do różnych formatów.
 ### [Bezpieczeństwo i szyfrowanie](./security-and-encryption/)
 Odblokuj moc Aspose.Cells dla .NET dzięki naszym samouczkom na temat bezpieczeństwa i szyfrowania. Naucz się bez wysiłku wykrywać i szyfrować pliki.
 ### [Operacje arkusza kalkulacyjnego](./worksheet-operations/)
 Odkryj pełen potencjał pakietu Aspose.Cells dla platformy .NET dzięki praktycznym samouczkom, które obejmują operacje na arkuszach kalkulacyjnych i ulepszanie plików programu Excel.
 ### [Konwersja do PDF](./conversion-to-pdf/)
-Przekształć swoje pliki i wykresy programu Excel w płynne pliki PDF dzięki naszym łatwym w użyciu samouczkom Aspose.Cells dla .NET.
+Przekształć swoje pliki i wykresy programu Excel w płynne pliki PDF dzięki naszym łatwym w użyciu samouczkom Aspose.Cells dla platformy .NET.
 ### [Operacje na obrazach i wykresach](./image-and-chart-operations/)
 Zapoznaj się z kompleksowym przewodnikiem po samouczkach Aspose.Cells dla .NET. Dowiedz się więcej o operacjach na obrazach i wykresach, aby zwiększyć swoją produktywność.
 ### [Operacje XPS i PDF](./xps-and-pdf-operations/)
 Odkryj kompleksowe samouczki dotyczące Aspose.Cells for .NET dotyczące operacji na plikach XPS i PDF, które usprawnią konwersję plików.
 ### [Operacje łączenia i konfiguracji](./link-and-configuration-operations/)
 Odkryj kompleksowe samouczki dotyczące Aspose.Cells dla .NET, w tym konfigurację linków i wiele więcej. Idealne dla programistów, którzy chcą udoskonalić swoje aplikacje Excel.
+### [Praca z czcionkami w arkuszach kalkulacyjnych](./working-with-fonts-in-spreadsheets/)
+Zapoznaj się z podstawowymi samouczkami dotyczącymi korzystania z Aspose.Cells dla .NET, ze szczególnym uwzględnieniem zarządzania czcionkami w arkuszach kalkulacyjnych i zapewniania optymalnej prezentacji dokumentów.
+### [Formatowanie i stylizowanie w programie Excel](./excel-formatting-and-styling/)
+Odkryj niezbędne samouczki Aspose.Cells for .NET dotyczące formatowania i stylizacji w programie Excel. Ulepsz swoje arkusze kalkulacyjne dzięki praktycznym przewodnikom krok po kroku.
+### [Praca z czcionkami w programie Excel](./working-with-fonts-in-excel/)
+Odkryj możliwości pakietu Aspose.Cells dla platformy .NET dzięki samouczkom dotyczącym pracy z czcionkami w programie Excel — od ustawiania kolorów po stosowanie stylów w celu tworzenia efektownych arkuszy kalkulacyjnych.
+### [Motywy i formatowanie programu Excel](./excel-themes-and-formatting/)
+Poznaj samouczki Aspose.Cells for .NET dotyczące dostosowywania motywów programu Excel, ustawiania kolorów motywu i programowego wykorzystywania kolorów motywu. Udoskonal swoje umiejętności w zakresie programu Excel.
+### [Formatowanie wierszy i kolumn w programie Excel](./formatting-rows-and-columns-in-excel/)
+Odkryj możliwości pakietu Aspose.Cells dla platformy .NET dzięki naszym szczegółowym samouczkom dotyczącym formatowania wierszy i kolumn w programie Excel, idealnym dla programistów.
+### [Formaty liczb i wyświetlania w programie Excel](./number-and-display-formats-in-excel/)
+Zapoznaj się z samouczkami Aspose.Cells for .NET dotyczącymi formatów liczb i wyświetlania, obejmującymi wbudowane i niestandardowe opcje formatowania do automatyzacji zadań w programie Excel.
+### [Ustawienia kolorów i tła w programie Excel](./excel-colors-and-background-settings/)
+Zapoznaj się z podstawowymi samouczkami dotyczącymi pakietu Aspose.Cells for .NET dotyczącymi ustawień kolorów i tła w programie Excel, aby zoptymalizować prezentację danych i zwiększyć atrakcyjność wizualną.
+### [Ustawienia i dostosowywanie kolorów w programie Excel](./color-settings-and-customization-in-excel/)
+Opanuj ustawienia kolorów i dostosowywanie w programie Excel za pomocą Aspose.Cells dla .NET. Dowiedz się, jak programowo obliczyć wybrany kolor programu Excel w tym samouczku krok po kroku.
+### [Formatowanie warunkowe w programie Excel](./excel-conditional-formatting/)
+Dowiedz się, jak stosować formatowanie warunkowe w czasie wykonywania w programie Excel przy użyciu Aspose.Cells dla .NET. Ten przewodnik krok po kroku pomaga programistom automatyzować formatowanie w programie Excel.
+### [Formatowanie znaków i komórek w programie Excel](./excel-character-and-cell-formatting/)
+Poznaj formatowanie znaków i programowe ustawianie aktywnych komórek w programie Excel przy użyciu Aspose.Cells dla .NET. Zapoznaj się z kompleksowymi przewodnikami, aby uprościć zadania programistyczne.
+### [Opcje obramowania i formatowania w programie Excel](./excel-borders-and-formatting-options/)
+Odkryj samouczki Aspose.Cells for .NET, które nauczą Cię, jak programowo ustawiać obramowania, czcionki i wzory w programie Excel, oszczędzając czas i udoskonalając arkusze kalkulacyjne.
+### [Metody i opcje formatowania w programie Excel](./excel-formatting-methods-and-options/)
+Odkryj metody i opcje formatowania programu Excel w samouczkach Aspose.Cells dla platformy .NET, obejmujących wydajne techniki, takie jak metoda kopiowania, zwiększająca produktywność.
+### [Ładowanie i zapisywanie plików Excel z opcjami](./loading-and-saving-excel-files-with-options/)
+Zapoznaj się z samouczkami Aspose.Cells dla platformy .NET, w których znajdziesz wskazówki dotyczące ładowania i zapisywania plików programu Excel z takimi opcjami, jak automatyczne dopasowywanie i wyłączanie komentarzy.
+### [Konwersja plików Excel do innych formatów](./converting-excel-files-to-other-formats/)
+Zapoznaj się z kompleksową listą samouczków dotyczących narzędzia Aspose.Cells for .NET, aby dowiedzieć się, jak konwertować pliki programu Excel do formatów takich jak JSON, DOCX, HTML, PDF, Markdown i innych.
+### [Zapisywanie i eksportowanie plików Excel z opcjami](./saving-and-exporting-excel-files-with-options/)
+Poznaj szczegółowe samouczki Aspose.Cells for .NET dotyczące zapisywania i eksportowania plików Excel. Dowiedz się, jak obsługiwać komentarze, właściwości dokumentu, ostrzeżenia i przycinanie danych.
+### [Tworzenie i konfigurowanie tabel przestawnych](./creating-and-configuring-pivot-tables/)
+Odkryj kompleksowe samouczki dotyczące Aspose.Cells dla .NET. Opanuj tabele przestawne w programie Excel programowo dzięki szczegółowym przewodnikom krok po kroku dla każdej funkcjonalności.

@@ -45,7 +45,7 @@ Successivamente, creeremo un oggetto Workbook per aprire il tuo file Excel. Ques
 Workbook workbook = new Workbook(dataDir + "sample-document-properties.xlsx");
 ```
  Sostituire`"sample-document-properties.xlsx"` con il nome del tuo file Excel. Ora hai la nostra cartella di lavoro caricata e pronta per l'azione!
-## Passaggio 3: Recupera le proprietà del documento personalizzato
+## Passaggio 3: Recupera le proprietà personalizzate del documento
 Per accedere alle proprietà personalizzate del documento, è necessario ottenere la raccolta di proprietà dai fogli di lavoro della cartella di lavoro.
 ```csharp
 Aspose.Cells.Properties.DocumentPropertyCollection customProperties = workbook.Worksheets.CustomDocumentProperties;

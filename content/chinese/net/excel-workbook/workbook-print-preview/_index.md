@@ -16,16 +16,16 @@ url: /zh/net/excel-workbook/workbook-print-preview/
 在开始编码操作之前，让我们确保您已准备好开始所需的一切。以下是先决条件清单：
 
 1. Visual Studio：您需要一个 IDE，Visual Studio 是 .NET 项目的绝佳选择。
-2.  Aspose.Cells for .NET：您可以下载该库，或者，如果您愿意，也可以先免费试用一下。只需前往[此链接](https://releases.aspose.com).
+2. Aspose.Cells for .NET：您可以下载该库，或者，如果您愿意，也可以先免费试用一下。只需前往[此链接](https://releases.aspose.com).
 3. C# 基础知识：了解 C# 的基础知识将帮助您顺利完成学习。
 4. .NET Framework：确保您的机器上安装了兼容版本的.NET 框架。
-5. 示例 Excel 文件：在本教程中，您需要一个 Excel 文件。您可以使用名为的示例文件`Book1.xlsx`.
+5. 示例 Excel 文件：在本教程中，您需要一个 Excel 文件。您可以使用名为`Book1.xlsx`.
 
 现在我们的引擎已经启动，让我们导入必要的软件包并开始行动吧！
 
 ## 导入包
 
-首先，让我们导入任务所需的包。以下是一个简单的方法：
+首先，让我们导入任务所需的包。以下是简单的操作方法：
 
 ### 打开 Visual Studio 项目
 

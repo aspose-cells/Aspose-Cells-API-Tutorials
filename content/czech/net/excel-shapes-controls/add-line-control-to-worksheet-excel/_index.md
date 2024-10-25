@@ -42,7 +42,7 @@ string dataDir = "Your Document Directory";
 ## Krok 2: Vytvořte adresář
 Je dobrým zvykem zajistit, aby adresář existoval. Pokud tomu tak není, můžete jej vytvořit pomocí následujícího kódu:
 ```csharp
-//Vytvořte adresář, pokud ještě není přítomen.
+// Vytvořte adresář, pokud ještě není přítomen.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);

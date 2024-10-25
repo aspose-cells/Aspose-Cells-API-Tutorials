@@ -61,7 +61,7 @@ Pokročilejší funkce a možnosti přizpůsobení naleznete v dokumentaci Aspos
 ## Nejčastější dotazy
 
 ###	Otázka: Mohu exportovat soubory Excel se složitým formátováním do HTML?
-   - Odpověď: Ano, Aspose.Cells for Java podporuje export souborů Excelu se složitým formátováním do HTML při zachování co nejpřesnějšího formátování.
+   - Odpověď: Ano, Aspose.Cells for Java podporuje export souborů aplikace Excel s komplexním formátováním do HTML při zachování co nejpřesnějšího formátování.
 
 ### Otázka: Je Aspose.Cells vhodný pro dávkové zpracování souborů Excel?
    - A: Rozhodně! Aspose.Cells je vhodný pro dávkové zpracování, což usnadňuje automatizaci úloh zahrnujících více souborů aplikace Excel.

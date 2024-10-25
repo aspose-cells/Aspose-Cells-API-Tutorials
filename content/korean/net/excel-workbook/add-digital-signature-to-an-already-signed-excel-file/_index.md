@@ -16,7 +16,7 @@ url: /ko/net/excel-workbook/add-digital-signature-to-an-already-signed-excel-fil
 코딩의 핵심에 들어가기 전에 몇 가지 준비해야 할 사항이 있습니다.
 
 1.  .NET용 Aspose.Cells: .NET 프로젝트에 Aspose.Cells 라이브러리가 설치되어 있는지 확인하세요. 다음에서 다운로드할 수 있습니다.[대지](https://releases.aspose.com/cells/net/).
-2.  인증서 파일: 유효한 인증서 파일(일반적으로`.pfx` 디지털 인증서가 포함된 파일)입니다. 이 파일의 비밀번호를 알고 있는지 확인하세요.
+2.  인증서 파일: 유효한 인증서 파일(일반적으로`.pfx`디지털 인증서가 포함된 파일)입니다. 이 파일의 비밀번호를 알고 있는지 확인하세요.
 3. 개발 환경: Visual Studio나 .NET을 지원하는 다른 IDE로 개발 환경을 설정합니다.
 4. C#에 대한 기본 지식: C# 프로그래밍에 익숙하면 원활하게 따라갈 수 있습니다.
 5. 샘플 파일: 이미 디지털 서명된 샘플 Excel 파일이 있습니다. 이 파일에 새 서명을 추가할 것입니다.
@@ -51,7 +51,7 @@ string outputDir = "Your Document Directory";
 
 ## 2단계: 이미 서명된 통합 문서 로드
 
-다음으로 수정하려는 Excel 통합 문서를 로드해야 합니다. 이는 인스턴스를 생성하여 수행됩니다.`Workbook` 클래스를 사용하고 서명된 파일의 경로를 전달합니다.
+ 다음으로 수정하려는 Excel 통합 문서를 로드해야 합니다. 이는 인스턴스를 생성하여 수행됩니다.`Workbook` 클래스를 사용하고 서명된 파일의 경로를 전달합니다.
 
 ```csharp
 // 이미 디지털 서명된 통합 문서를 로드합니다.
@@ -84,7 +84,7 @@ string password = "aspose";
 System.Security.Cryptography.X509Certificates.X509Certificate2 certificate = new System.Security.Cryptography.X509Certificates.X509Certificate2(certFileName, password);
 ```
 
- 교체를 꼭 해주세요`AsposeDemo.pfx` 비밀번호는 실제 인증서 파일 이름과 비밀번호를 입력하세요.
+ 교체를 꼭 해주세요`AsposeDemo.pfx`비밀번호는 실제 인증서 파일 이름과 비밀번호를 입력하세요.
 
 ## 5단계: 디지털 서명 만들기
 
@@ -95,7 +95,7 @@ System.Security.Cryptography.X509Certificates.X509Certificate2 certificate = new
 Aspose.Cells.DigitalSignatures.DigitalSignature signature = new Aspose.Cells.DigitalSignatures.DigitalSignature(certificate, "Aspose.Cells added new digital signature in existing digitally signed workbook.", DateTime.Now);
 ```
 
-이 단계에서는 컬렉션에 새 서명을 추가하고, 나중에 통합 문서에 적용할 수 있습니다.
+이 단계에서는 컬렉션에 새 서명이 추가되고, 나중에 통합 문서에 적용할 수 있습니다.
 
 ## 6단계: 통합 문서에 디지털 서명 컬렉션 추가
 
@@ -113,7 +113,7 @@ workbook.AddDigitalSignature(dsCollection);
 마지막으로, 수정된 통합 문서를 출력 디렉터리에 저장하고 사용 중인 모든 리소스를 해제합니다.
 
 ```csharp
-// 통합 문서를 저장하고 폐기하세요.
+//통합 문서를 저장하고 폐기하세요.
 workbook.Save(outputDir + "outputDigitallySignedByCells.xlsx");
 workbook.Dispose();
 ```

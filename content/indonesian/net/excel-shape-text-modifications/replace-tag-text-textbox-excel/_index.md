@@ -16,7 +16,7 @@ Sebelum Anda dapat memulai, Anda perlu menyiapkan beberapa hal:
 3. Pengetahuan Dasar C#: Pemahaman dasar tentang pemrograman C# akan sangat membantu Anda mengikuti panduan ini dengan mudah.
 Sekarang Anda sudah siap, mari beralih ke bagian yang menyenangkan—menulis kode!
 ## Paket Impor
-Hal pertama yang harus dilakukan—mari impor paket yang diperlukan. Ini penting karena tanpa impor yang tepat, kode Anda tidak akan mengenali kelas dan metode yang akan kita gunakan.
+Hal pertama yang harus dilakukan—mari impor paket-paket yang diperlukan. Ini penting karena tanpa impor yang tepat, kode Anda tidak akan mengenali kelas dan metode yang akan kita gunakan.
 ## Mulai Proyek C# Anda
 Buka Visual Studio dan buat proyek C# baru, sebaiknya Aplikasi Konsol, karena ini akan memudahkan Anda melihat hasilnya.
 ## Tambahkan Referensi Aspose.Cells

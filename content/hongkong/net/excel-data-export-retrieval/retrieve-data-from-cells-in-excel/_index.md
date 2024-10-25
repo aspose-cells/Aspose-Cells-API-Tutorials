@@ -9,7 +9,7 @@ url: /zh-hant/net/excel-data-export-retrieval/retrieve-data-from-cells-in-excel/
 ---
 ## 介紹
 
-當涉及在 Excel 中管理資料時，從單元格中讀取和檢索資訊的能力至關重要。 Aspose.Cells for .NET 是一個功能強大的程式庫，可讓開發人員無縫操作 Excel 檔案。在本教學中，我們將深入研究如何使用 Aspose.Cells 從 Excel 工作簿中的儲存格擷取資料。無論您是經驗豐富的開發人員還是剛入門，本指南都將逐步引導您完成整個過程。
+當涉及在 Excel 中管理資料時，從單元格中讀取和檢索資訊的能力至關重要。 Aspose.Cells for .NET 是一個功能強大的程式庫，可讓開發人員無縫地操作 Excel 檔案。在本教學中，我們將深入研究如何使用 Aspose.Cells 從 Excel 工作簿中的儲存格擷取資料。無論您是經驗豐富的開發人員還是剛入門，本指南都將逐步引導您完成整個過程。
 
 ## 先決條件
 
@@ -18,7 +18,7 @@ url: /zh-hant/net/excel-data-export-retrieval/retrieve-data-from-cells-in-excel/
 1. Visual Studio：確保您的電腦上安裝了 Visual Studio。這是我們將用來編寫和執行程式碼的 IDE。
 2.  Aspose.Cells for .NET：您需要擁有 Aspose.Cells 函式庫。您可以從[阿斯普斯網站](https://releases.aspose.com/cells/net/).
 3. C#基礎知識：熟悉C#程式設計將有助於您更好地理解範例。
-4.  Excel 檔案：準備一個 Excel 檔案（例如，`book1.xls`）您將在本教程中使用它。
+4. Excel 檔案：準備一個 Excel 檔案（例如，`book1.xls`）您將在本教程中使用它。
 
 一旦滿足了這些先決條件，我們就可以開始探索如何從 Excel 儲存格中擷取資料。
 

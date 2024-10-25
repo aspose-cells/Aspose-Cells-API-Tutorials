@@ -44,7 +44,7 @@ string sourceDir = "Your Document Directory";
 // Utdatakatalog
 string outputDir = "Your Document Directory";
 ```
- I det här kodavsnittet, ersätt`"Your Document Directory"` med den faktiska sökvägen där dina filer finns eller var du vill spara dem.
+ Ersätt i det här kodavsnittet`"Your Document Directory"` med den faktiska sökvägen där dina filer finns eller var du vill spara dem.
 ## Steg 2: Ladda Excel-filen
  Därefter måste du ladda Excel-filen som innehåller de anpassade egenskaperna. Detta görs med hjälp av`Workbook` klass i Aspose.Cells.
 ```csharp
@@ -59,7 +59,7 @@ Workbook workbook = new Workbook(sourceDir + "sampleWithCustProps.xlsx");
 Aspose.Cells.PdfSaveOptions pdfSaveOpt = new Aspose.Cells.PdfSaveOptions();
 ```
 Den här raden initierar PDF-sparalternativen som du kommer att anpassa inom kort.
-## Steg 4: Konfigurera Custom Properties Export
+## Steg 4: Konfigurera exporten av anpassade egenskaper
 Du vill ange hur de anpassade egenskaperna ska exporteras. I det här fallet kommer vi att använda`Standard` alternativ för export.
 ```csharp
 // Ställ in egenskapen CustomPropertiesExport till PdfCustomPropertiesExport.Standard

@@ -1,6 +1,6 @@
 ---
-title: Excel Verborgen rijen en gegevensduplicatiebeheer
-linktitle: Excel Verborgen rijen en gegevensduplicatiebeheer
+title: Beheer van verborgen rijen en gegevensduplicaties in Excel
+linktitle: Beheer van verborgen rijen en gegevensduplicaties in Excel
 second_title: Aspose.Cells .NET Excel-verwerkings-API
 description: Benut het potentieel van Excel met Aspose.Cells voor .NET-zelfstudies, die inzicht bieden in het beheren van verborgen rijen en het moeiteloos dupliceren van gegevens.
 type: docs

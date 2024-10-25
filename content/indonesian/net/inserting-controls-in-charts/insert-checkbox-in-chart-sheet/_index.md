@@ -70,7 +70,7 @@ string outputDir = "C:\\YourOutputDirectory\\"; // Beralih ke direktori yang And
 
 ## Langkah 2: Membuat Instansiasi Objek Buku Kerja
 
-Berikutnya, kita membuat sebuah instance dari`Workbook` kelas. Di sinilah semua pekerjaan kita akan dilakukan.
+ Berikutnya, kita membuat sebuah instance dari`Workbook` kelas. Di sinilah semua pekerjaan kita akan dilakukan.
 ```csharp
 Workbook workbook = new Workbook();
 ```

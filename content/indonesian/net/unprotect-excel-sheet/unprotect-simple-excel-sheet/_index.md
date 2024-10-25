@@ -62,7 +62,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY"; // Ubah ini ke jalur Anda yang seben
 
 ## Langkah 2: Membuat Instansiasi Objek Buku Kerja
 
- Selanjutnya, Anda perlu membuat instance dari`Workbook` kelas untuk membuka berkas Excel Anda.
+ Selanjutnya, Anda perlu membuat instance dari`Workbook`kelas untuk membuka berkas Excel Anda.
 
 ```csharp
 Workbook workbook = new Workbook(dataDir + "book1.xls");

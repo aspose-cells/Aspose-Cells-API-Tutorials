@@ -68,6 +68,6 @@ Puede almacenar cadenas, números e incluso fechas en sus propiedades personaliz
 ### ¿Aspose.Cells es de uso gratuito?
  Aspose.Cells ofrece una prueba gratuita. Para obtener todas las funciones, es necesario realizar una compra. Eche un vistazo a la[Opciones de precios aquí](https://purchase.aspose.com/buy).
 ### ¿Dónde puedo encontrar la documentación de Aspose.Cells?
- Puede encontrar documentación completa[aquí](https://reference.aspose.com/cells/net/).
+Puede encontrar documentación completa[aquí](https://reference.aspose.com/cells/net/).
 ### ¿Qué pasa si necesito ayuda mientras uso Aspose.Cells?
  Puedes visitar el[Foro de soporte de Aspose](https://forum.aspose.com/c/cells/9) para recibir ayuda de su comunidad y equipo de apoyo.

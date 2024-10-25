@@ -31,7 +31,7 @@ Jedes gute Projekt beginnt mit der richtigen Organisation! Zuerst müssen Sie da
 ```csharp
 // Der Pfad zum Dokumentverzeichnis.
 string dataDir = "Your Document Directory";
-//Erstellen Sie ein Verzeichnis, falls es noch nicht vorhanden ist.
+// Erstellen Sie ein Verzeichnis, falls es noch nicht vorhanden ist.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -132,7 +132,7 @@ Und da haben Sie es – Ihre Anleitung zum Hinzufügen einer Bildlaufleiste zu e
 ### Was ist Aspose.Cells?
 Aspose.Cells ist eine leistungsstarke .NET-Bibliothek, mit der Entwickler Excel-Dateien programmgesteuert erstellen, bearbeiten und konvertieren können.
 ### Kann ich Aspose.Cells kostenlos nutzen?
-Ja, Aspose.Cells bietet eine kostenlose Testversion an, die Sie finden können[Hier](https://releases.aspose.com/).
+ Ja, Aspose.Cells bietet eine kostenlose Testversion an, die Sie finden können[Hier](https://releases.aspose.com/).
 ### Wie füge ich meiner Excel-Tabelle weitere Steuerelemente hinzu?
 Sie können ähnliche Methoden wie für die Bildlaufleiste verwenden. Weitere Steuerelemente finden Sie in der Dokumentation.
 ### Welche Programmiersprachen kann ich mit Aspose.Cells verwenden?

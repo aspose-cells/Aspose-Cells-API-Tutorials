@@ -16,7 +16,7 @@ url: /ja/java/advanced-excel-charts/chart-interactivity/
 
 始める前に、次の前提条件を満たしていることを確認してください。
 - Java開発環境
--  Aspose.Cells for Java ライブラリ (ダウンロード先:[ここ](https://releases.aspose.com/cells/java/)
+- Aspose.Cells for Java ライブラリ (ダウンロード先:[ここ](https://releases.aspose.com/cells/java/)
 
 ## ステップ1: Javaプロジェクトの設定
 

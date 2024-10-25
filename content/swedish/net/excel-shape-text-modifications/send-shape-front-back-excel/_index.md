@@ -39,7 +39,7 @@ Nu när vi har våra kataloger inställda, låt oss ladda arbetsboken (Excel-fil
 //Ladda källfilen i Excel
 Workbook wb = new Workbook(sourceDir + "sampleToFrontOrBack.xlsx");
 ```
- Denna kodrad initierar en ny`Workbook`objekt, laddar den angivna Excel-filen i minnet så att vi kan arbeta med den.
+ Denna kodrad initierar en ny`Workbook` objekt, laddar den angivna Excel-filen i minnet så att vi kan arbeta med den.
 ## Steg 3: Öppna arbetsbladet 
 Därefter måste vi komma åt det specifika kalkylbladet där våra former finns. För det här exemplet använder vi det första kalkylbladet.
 ```csharp

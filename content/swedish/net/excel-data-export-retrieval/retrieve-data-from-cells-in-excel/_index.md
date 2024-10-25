@@ -18,7 +18,7 @@ Innan vi hoppar in i koden finns det några förutsättningar du måste ha på p
 1. Visual Studio: Se till att du har Visual Studio installerat på din dator. Det är IDE vi kommer att använda för att skriva och exekvera vår kod.
 2.  Aspose.Cells för .NET: Du måste ha Aspose.Cells-biblioteket. Du kan ladda ner den från[Aspose hemsida](https://releases.aspose.com/cells/net/).
 3. Grundläggande kunskaper i C#: Bekantskap med C#-programmering hjälper dig att förstå exemplen bättre.
-4.  Excel-fil: Ha en Excel-fil redo (t.ex.`book1.xls`) som du kommer att använda för den här handledningen.
+4. Excel-fil: Ha en Excel-fil redo (t.ex.`book1.xls`) som du kommer att använda för den här handledningen.
 
 När du har sorterat dessa förutsättningar kan vi börja utforska hur man hämtar data från Excel-celler.
 
@@ -52,7 +52,7 @@ Nu när du har konfigurerat dokumentkatalogen är nästa steg att öppna arbetsb
 
 
 ```csharp
-// Öppna en befintlig arbetsbok
+//Öppna en befintlig arbetsbok
 Workbook workbook = new Workbook(dataDir + "book1.xls");
 ```
 
@@ -68,7 +68,7 @@ När du har öppnat arbetsboken vill du komma åt det specifika kalkylblad som d
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
- De`Worksheets` samling låter dig komma åt olika ark i arbetsboken. Indexet`[0]`hänvisar till det första arbetsbladet. Om du vill komma åt efterföljande blad kan du ändra indexet i enlighet med detta.
+ De`Worksheets` samling låter dig komma åt olika ark i arbetsboken. Indexet`[0]` hänvisar till det första arbetsbladet. Om du vill komma åt efterföljande blad kan du ändra indexet i enlighet med detta.
 
 ## Steg 4: Slinga genom celler
 
@@ -87,7 +87,7 @@ foreach (Cell cell1 in worksheet.Cells)
     // Skickar typen av data som finns i cellen för utvärdering
     switch (cell1.Type)
     {
-        // Utvärdera datatypen för celldata för strängvärde
+        // Utvärderar datatypen för celldata för strängvärde
         case CellValueType.IsString:
             stringValue = cell1.StringValue;
             Console.WriteLine("String Value: " + stringValue);
@@ -99,7 +99,7 @@ foreach (Cell cell1 in worksheet.Cells)
             Console.WriteLine("Double Value: " + doubleValue);
             break;
 
-        // Utvärderar datatypen för celldata för booleskt värde
+        //Utvärderar datatypen för celldata för booleskt värde
         case CellValueType.IsBool:
             boolValue = cell1.BoolValue;
             Console.WriteLine("Bool Value: " + boolValue);
@@ -124,7 +124,7 @@ foreach (Cell cell1 in worksheet.Cells)
 }
 ```
 
- I det här steget går vi igenom varje cell i kalkylbladet. För varje cell kontrollerar vi dess datatyp med hjälp av a`switch`påstående. Beroende på typ hämtar vi värdet och skriver ut det till konsolen. Här är en uppdelning av fallen:
+ I det här steget går vi igenom varje cell i kalkylbladet. För varje cell kontrollerar vi dess datatyp med hjälp av a`switch` påstående. Beroende på typ hämtar vi värdet och skriver ut det till konsolen. Här är en uppdelning av fallen:
 
 -  IsString: Om cellen innehåller en sträng, hämtar vi den med hjälp av`StringValue`.
 -  IsNumeric: För numeriska värden använder vi`DoubleValue`.
@@ -143,7 +143,7 @@ Att hämta data från Excel-celler med Aspose.Cells för .NET är en enkel proce
 Aspose.Cells är ett .NET-bibliotek som låter utvecklare skapa, manipulera och konvertera Excel-filer utan att behöva installera Microsoft Excel.
 
 ### Kan jag använda Aspose.Cells gratis?  
-Ja, Aspose.Cells erbjuder en gratis provperiod som du kan använda för att testa dess funktioner. Du kan ladda ner den[här](https://releases.aspose.com/).
+ Ja, Aspose.Cells erbjuder en gratis provperiod som du kan använda för att testa dess funktioner. Du kan ladda ner den[här](https://releases.aspose.com/).
 
 ### Vilka typer av data kan jag hämta från Excel-celler?  
 Du kan hämta olika datatyper, inklusive strängar, siffror, booleaner och datum/tidsvärden.

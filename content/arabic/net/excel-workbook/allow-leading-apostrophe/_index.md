@@ -16,7 +16,7 @@ url: /ar/net/excel-workbook/allow-leading-apostrophe/
 قبل الغوص في الكود، إليك بعض المتطلبات الأساسية التي يجب عليك تلبيتها:
 
 1. المعرفة الأساسية بـ .NET: تعد المعرفة بإطار عمل .NET أمرًا ضروريًا. إذا كنت بالفعل تتقن لغة C# أو VB.NET، فاعتبر نفسك مستعدًا.
-2. Aspose.Cells for .NET Library: ستحتاج إلى تثبيت Aspose.Cells. يمكنك القيام بذلك بسهولة عبر مدير الحزم NuGet أو تنزيله من[موقع اسبوس](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells for .NET Library: ستحتاج إلى تثبيت Aspose.Cells. يمكنك القيام بذلك بسهولة عبر مدير الحزم NuGet أو تنزيله من[موقع اسبوس](https://releases.aspose.com/cells/net/).
 3. إعداد IDE: تأكد من أن لديك بيئة تطوير متكاملة (IDE) مثل Visual Studio جاهزة للترميز.
 4. ملف Excel النموذجي: يمكنك استخدام ملف العينة ("AllowLeadingApostropheSample.xlsx") الذي سنعمل معه في الكود.
 
@@ -56,7 +56,7 @@ string outputDir = "Your Output Directory";
 WorkbookDesigner designer = new WorkbookDesigner();
 ```
 
- ال`WorkbookDesigner` يدير تصميم وربط البيانات في مصنفنا، مما يجعل حياتنا أسهل عند تحويل البيانات إلى تنسيق مرئي.
+ ال`WorkbookDesigner`يدير تصميم وربط البيانات في مصنفنا، مما يجعل حياتنا أسهل عند تحويل البيانات إلى تنسيق مرئي.
 
 ## الخطوة 3: تحميل المصنف الموجود
 
@@ -144,7 +144,7 @@ Console.WriteLine("AllowLeadingApostrophe executed successfully.");
 Aspose.Cells عبارة عن مكتبة .NET قوية لإنشاء ملفات Excel ومعالجتها وتحويلها بتنسيقات متعددة برمجيًا.
 
 ### هل يمكنني استخدام Aspose.Cells مجانًا؟
-نعم، يمكنك استخدام Aspose.Cells عن طريق التسجيل للحصول على نسخة تجريبية مجانية[هنا](https://releases.aspose.com/).
+ نعم، يمكنك استخدام Aspose.Cells عن طريق التسجيل للحصول على نسخة تجريبية مجانية[هنا](https://releases.aspose.com/).
 
 ### كيف يمكنني الحصول على الدعم لـ Aspose.Cells؟
  يمكنك العثور على المساعدة وطرح الأسئلة على[منتدى دعم Aspose](https://forum.aspose.com/c/cells/9).

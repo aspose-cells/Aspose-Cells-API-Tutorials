@@ -16,7 +16,7 @@ url: /ar/net/excel-workbook/get-odata-details/
 قبل أن نتعمق في الكود، دعنا نتأكد من أنك تمتلك كل ما تحتاجه لمتابعة هذا البرنامج التعليمي. إليك ما ستحتاج إليه:
 
 1. Visual Studio: تأكد من تثبيت Visual Studio، فهو البيئة المثالية لتطوير .NET.
-2.  مكتبة Aspose.Cells: قم بتنزيل مكتبة Aspose.Cells لـ .NET وتثبيتها من[صفحة تنزيلات Aspose](https://releases.aspose.com/cells/net/) يمكنك أيضًا تجربة إصدار تجريبي مجاني من[هنا](https://releases.aspose.com/).
+2. مكتبة Aspose.Cells: قم بتنزيل مكتبة Aspose.Cells لـ .NET وتثبيتها من[صفحة تنزيلات Aspose](https://releases.aspose.com/cells/net/) يمكنك أيضًا تجربة إصدار تجريبي مجاني من[هنا](https://releases.aspose.com/).
 3. المعرفة الأساسية بلغة C#: ستساعدك المعرفة ببرمجة C# على فهم الفروق الدقيقة في الكود بشكل أفضل.
 4. ملف Excel نموذجي: في هذا البرنامج التعليمي، سنستخدم ملف Excel باسم "ODataSample.xlsx"، والذي يجب تخزينه في دليل العمل الخاص بك.
 
@@ -99,7 +99,7 @@ foreach (PowerQueryFormula PQF in PQFcoll)
 
 ## الخطوة 4: التنفيذ والتحقق
 
-أخيرًا، عليك التأكد من تشغيل الكود بشكل صحيح وإرجاع الناتج المتوقع. أضف السطر التالي في نهاية سطر التعليمات البرمجية الخاص بك`Main` طريقة:
+ أخيرًا، عليك التأكد من تشغيل الكود بشكل صحيح وإرجاع الناتج المتوقع. أضف السطر التالي في نهاية سطر التعليمات البرمجية الخاص بك`Main` طريقة:
 
 ```csharp
 Console.WriteLine("GetOdataDetails executed successfully.");

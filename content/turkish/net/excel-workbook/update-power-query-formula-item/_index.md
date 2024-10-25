@@ -87,7 +87,7 @@ foreach (PowerQueryFormula formula in mashupData.PowerQueryFormulas)
 ```
 
 -  Her bir döngüde`PowerQueryFormula` içinde`mashupData`.
--  Bu döngü içerisinde her birimizin içine dalıyoruz`PowerQueryFormulaItem`.
+- Bu döngü içerisinde her birimizin içine dalıyoruz`PowerQueryFormulaItem`.
 - Öğenin adının "Kaynak" ile eşleşip eşleşmediğini kontrol ediyoruz. Eşleşiyorsa, değerini yeni kaynak dosyamıza bağlayacak şekilde güncelliyoruz.
 
 Bu, bir kılavuzda doğru sayfayı bulup ardından gerekli güncellemeleri yapmaya benzer; basit ve titiz bir süreçtir.
@@ -101,7 +101,7 @@ Güncellemeleri yaptıktan sonra değişikliklerimizi kaydetmenin zamanı geldi.
 workbook.Save(outputDir + "SamplePowerQueryFormula_out.xlsx");
 Console.WriteLine("UpdatePowerQueryFormulaItem executed successfully.");
 ```
- The`Save`method güncellenen çalışma kitabını belirtilen çıktı dizinine yazar. Bu, düzenlemelerinizi kılavuzun yeni bir sürümünde mühürlemek ve başkalarının kullanımına hazır hale getirmek gibidir!
+ The`Save` method güncellenen çalışma kitabını belirtilen çıktı dizinine yazar. Bu, düzenlemelerinizi kılavuzun yeni bir sürümünde mühürlemek ve başkalarının kullanımına hazır hale getirmek gibidir!
 
 ## Çözüm
 

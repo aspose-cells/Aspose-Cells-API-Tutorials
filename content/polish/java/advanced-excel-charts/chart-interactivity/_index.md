@@ -16,7 +16,7 @@ Interaktywne wykresy dodają nowy wymiar do wizualizacji danych, pozwalając uż
 
 Zanim zaczniemy, upewnij się, że spełniasz następujące wymagania wstępne:
 - Środowisko programistyczne Java
--  Biblioteka Aspose.Cells dla Java (do pobrania z[Tutaj](https://releases.aspose.com/cells/java/)
+- Biblioteka Aspose.Cells dla Java (do pobrania z[Tutaj](https://releases.aspose.com/cells/java/)
 
 ## Krok 1: Konfigurowanie projektu Java
 

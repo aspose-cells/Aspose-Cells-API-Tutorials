@@ -82,9 +82,9 @@ Artık bu çalışma sayfasını düzenlemeye hazırsınız!
 
 ## Adım 4: Sayfa Kurulumu Nesnesine Erişim
 
- Kenar boşluklarını değiştirmek için,`PageSetup`nesne. Bu nesne, kenar boşlukları da dahil olmak üzere sayfanın düzenini kontrol eden özellikler sağlar.
+ Kenar boşluklarını değiştirmek için,`PageSetup` nesne. Bu nesne, kenar boşlukları da dahil olmak üzere sayfanın düzenini kontrol eden özellikler sağlar.
 
- Al`PageSetup` çalışma sayfasından özellik:
+Al`PageSetup` çalışma sayfasından özellik:
 
 ```csharp
 PageSetup pageSetup = worksheet.PageSetup;

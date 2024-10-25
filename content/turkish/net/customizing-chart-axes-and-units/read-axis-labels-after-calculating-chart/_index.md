@@ -114,7 +114,7 @@ for (int i = 0; i < lstLabels.Count; i++)
     Console.WriteLine(lstLabels[i]);
 }
 ```
-Bu kod parçacığı önce bir başlık ve bir ayırıcı çizgi çıkarır. Sonra, her etikette döngü yaparız`lstLabels` ArrayList'i seçin ve konsola yazdırın. Eğer on etiket varsa, her birini orada göreceksiniz!
+ Bu kod parçacığı önce bir başlık ve bir ayırıcı çizgi çıkarır. Sonra, her etikette döngü yaparız`lstLabels`ArrayList'i seçin ve konsola yazdırın. Eğer on etiket varsa, her birini orada göreceksiniz!
 
 ## Adım 8: Son Mesaj
 
@@ -141,7 +141,7 @@ Aspose.Cells, .NET'te Excel dosyalarını düzenlemek için güçlü bir kütüp
  Aspose.Cells için bir lisansı şu adresten satın alabilirsiniz:[satın alma sayfası](https://purchase.aspose.com/buy).
 
 ### Aspose.Cells için desteği nerede bulabilirim?
-Destek için Aspose forumunu ziyaret edebilirsiniz[Burada](https://forum.aspose.com/c/cells/9).
+ Destek için Aspose forumunu ziyaret edebilirsiniz[Burada](https://forum.aspose.com/c/cells/9).
 
 ### Geçici ehliyet alabilir miyim?
- Evet! Aspose, talep edebileceğiniz geçici bir lisans sunuyor[bu bağlantı](https://purchase.aspose.com/temporary-license/).
+Evet! Aspose, talep edebileceğiniz geçici bir lisans sunuyor[bu bağlantı](https://purchase.aspose.com/temporary-license/).

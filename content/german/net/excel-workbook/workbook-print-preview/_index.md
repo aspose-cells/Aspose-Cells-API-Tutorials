@@ -16,7 +16,7 @@ Wenn es um die Verwaltung und Bearbeitung von Excel-Dateien geht, ist Aspose.Cel
 Bevor wir uns an die Programmierung machen, sollten wir sicherstellen, dass Sie alles haben, was Sie für den Anfang brauchen. Hier ist eine Checkliste der Voraussetzungen:
 
 1. Visual Studio: Sie benötigen eine IDE und Visual Studio ist eine gute Wahl für .NET-Projekte.
-2.  Aspose.Cells für .NET: Sie können die Bibliothek herunterladen oder, wenn Sie es vorziehen, mit der kostenlosen Testversion beginnen, um sich mit der Bibliothek vertraut zu machen. Gehen Sie einfach zu[dieser Link](https://releases.aspose.com).
+2. Aspose.Cells für .NET: Sie können die Bibliothek herunterladen oder, wenn Sie es vorziehen, mit der kostenlosen Testversion beginnen, um sich mit der Bibliothek vertraut zu machen. Gehen Sie einfach zu[dieser Link](https://releases.aspose.com).
 3. Grundkenntnisse in C#: Wenn Sie die Grundlagen von C# verstehen, können Sie problemlos folgen.
 4. .NET Framework: Stellen Sie sicher, dass auf Ihrem Computer eine kompatible Version des .NET Frameworks installiert ist.
 5.  Eine Excel-Beispieldatei: Für dieses Tutorial benötigen Sie eine Excel-Datei zum Arbeiten. Sie können eine Beispieldatei mit dem Namen`Book1.xlsx`.
@@ -58,7 +58,7 @@ Um unser Abenteuer mit der Druckvorschau zu beginnen, müssen wir definieren, wo
 string sourceDir = "Your Document Directory";
 ```
 
-Dieser Code hilft uns, den Weg zu finden, wo`Book1.xlsx` befindet, was zukünftige Referenzen wesentlich einfacher macht.
+ Dieser Code hilft uns, den Weg zu finden, wo`Book1.xlsx` befindet, was zukünftige Referenzen wesentlich einfacher macht.
 
 ## Schritt 2: Laden Sie die Arbeitsmappe
 
@@ -131,7 +131,7 @@ Und da haben Sie es! Sie haben erfolgreich eine Druckvorschau für Ihre Excel-Ar
 Aspose.Cells ist eine leistungsstarke Bibliothek zur Handhabung von Excel-Dateiformaten und bietet Funktionen wie Datenmanipulation, Formatierung und Darstellung von Druckvorschauen.
 
 ### Muss ich Aspose.Cells kaufen, um es zu verwenden?
- Sie können mit einer kostenlosen Testversion beginnen, die unter verfügbar ist[dieser Link](https://releases.aspose.com)bevor Sie sich für den Kauf einer Lizenz entscheiden.
+ Sie können mit einer kostenlosen Testversion beginnen, die unter verfügbar ist[dieser Link](https://releases.aspose.com) bevor Sie sich für den Kauf einer Lizenz entscheiden.
 
 ### Kann ich Aspose.Cells in jeder .NET-Anwendung verwenden?
 Ja, Aspose.Cells ist für die Verwendung mit jeder .NET-Anwendung konzipiert, einschließlich ASP.NET, WinForms und mehr.

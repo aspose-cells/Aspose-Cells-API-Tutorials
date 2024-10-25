@@ -35,13 +35,13 @@ using Aspose.Cells;
 // 문서 디렉토리의 경로입니다.
 string sourceDir = "Your Document Directory"; // 이것을 Excel 파일 경로로 변경하세요.
 // 출력 디렉토리
-string outputDir = RunExamples.Get_OutputDirectory(); // 이 방법이 유효한 출력 경로를 제공하는지 확인하세요.
+string outputDir = "Your Document Directory"; // 이 방법이 유효한 출력 경로를 제공하는지 확인하세요.
 ```
- 이 스니펫에서 다음을 교체합니다.`"Your Document Directory"` Excel 파일이 들어 있는 디렉토리의 실제 경로와 함께. 이는 공연 전에 무대를 준비하는 것과 같습니다. 자료가 어디에 있는지 아는 것이 중요합니다.
+ 이 스니펫에서 다음을 교체합니다.`"Your Document Directory"`Excel 파일이 들어 있는 디렉토리의 실제 경로와 함께. 이는 공연 전에 무대를 준비하는 것과 같습니다. 자료가 어디에 있는지 아는 것이 중요합니다.
 ## 2단계: 통합 문서 개체 인스턴스화
  다음으로, 우리는 다음을 만들 것입니다.`Workbook` Excel 파일을 열려면 개체를 클릭합니다.
 ```csharp
-//Workbook 개체 인스턴스화
+// Workbook 개체 인스턴스화
 // Excel 파일을 엽니다
 Workbook workbook = new Workbook(sourceDir + "HyperlinksSample.xlsx");
 ```
@@ -59,14 +59,14 @@ Worksheet worksheet = workbook.Worksheets[0];
 // A2:B3 범위를 생성하세요
 Range range = worksheet.Cells.CreateRange("A2", "B3");
 ```
- 전화로`CreateRange`, 시작 셀과 끝 셀을 지정합니다. 여기서 마법이 일어납니다. 나중에 이 지정된 범위에 있는 하이퍼링크를 확인합니다.
+ 전화로`CreateRange`시작 셀과 끝 셀을 지정합니다. 여기서 마법이 일어납니다. 나중에 이 지정된 범위에 있는 하이퍼링크를 확인합니다.
 ## 5단계: 범위에서 하이퍼링크 검색
 이 단계에서는 정의된 범위 내의 하이퍼링크에 실제로 액세스합니다.
 ```csharp
 //범위 내 하이퍼링크 가져오기
 Hyperlink[] hyperlinks = range.Hyperlinks;
 ```
- 그만큼`Hyperlinks` 의 속성`Range`객체는 배열을 반환합니다.`Hyperlink` 해당 범위에서 발견된 개체입니다. 한 번에 페이지에서 모든 중요한 메모를 가져오는 것과 같습니다!
+ 그만큼`Hyperlinks` 의 속성`Range` 객체는 배열을 반환합니다.`Hyperlink` 해당 범위에서 발견된 개체입니다. 한 번에 페이지에서 모든 중요한 메모를 가져오는 것과 같습니다!
 ## 6단계: 루프 스루 및 링크 표시
 이제 검색된 하이퍼링크를 반복해 보겠습니다. 지금은 콘솔에 주소와 영역을 인쇄하겠습니다.
 ```csharp
@@ -85,7 +85,7 @@ foreach (Hyperlink link in hyperlinks)
     link.Delete();
 }
 ```
- 사용하여`Delete()` 각 하이퍼링크에 대한 방법을 사용하면 더 이상 필요하지 않은 하이퍼링크를 제거할 수 있습니다. 페이지에서 더 이상 필요하지 않은 낙서를 지우는 것과 같습니다.
+ 사용하여`Delete()`각 하이퍼링크에 대한 방법을 사용하면 더 이상 필요하지 않은 하이퍼링크를 제거할 수 있습니다. 페이지에서 더 이상 필요하지 않은 낙서를 지우는 것과 같습니다.
 ## 8단계: 변경 사항 저장
 마지막으로, 우리가 조정한 모든 내용이 담긴 통합 문서를 저장해 보겠습니다.
 ```csharp

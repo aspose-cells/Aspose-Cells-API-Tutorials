@@ -39,7 +39,7 @@ Sekarang setelah kita menetapkan direktori, mari muat buku kerja (file Excel) ya
 //Muat file Excel sumber
 Workbook wb = new Workbook(sourceDir + "sampleToFrontOrBack.xlsx");
 ```
- Baris kode ini menginisialisasi yang baru`Workbook`objek, memuat file Excel yang ditentukan ke dalam memori sehingga kita dapat bekerja dengannya.
+ Baris kode ini menginisialisasi yang baru`Workbook` objek, memuat file Excel yang ditentukan ke dalam memori sehingga kita dapat bekerja dengannya.
 ## Langkah 3: Akses Lembar Kerja 
 Selanjutnya, kita perlu mengakses lembar kerja tertentu tempat bentuk kita berada. Untuk contoh ini, kita akan menggunakan lembar kerja pertama.
 ```csharp

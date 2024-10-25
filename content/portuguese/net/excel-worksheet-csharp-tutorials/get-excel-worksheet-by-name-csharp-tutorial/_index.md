@@ -45,7 +45,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY"; // Especifique seu diretório de doc
 string InputPath = Path.Combine(dataDir, "book1.xlsx"); // Combine para formar o caminho completo
 ```
 
- Aqui, substitua`"YOUR DOCUMENT DIRECTORY"`com o caminho real em seu sistema onde`book1.xlsx` é armazenado. Utilizando`Path.Combine` é interessante porque garante que o caminho seja construído corretamente em diferentes sistemas operacionais.
+ Aqui, substitua`"YOUR DOCUMENT DIRECTORY"` com o caminho real em seu sistema onde`book1.xlsx` é armazenado. Utilizando`Path.Combine`é interessante porque garante que o caminho seja construído corretamente em diferentes sistemas operacionais.
 
 ## Etapa 2: Crie um fluxo de arquivos
 

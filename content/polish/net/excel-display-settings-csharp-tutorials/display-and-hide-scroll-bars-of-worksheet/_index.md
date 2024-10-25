@@ -56,7 +56,7 @@ Tutaj tworzysz strumień plików w celu odczytania pliku Excel.
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
   
- Ten`FileStream` Klasa umożliwia odczytywanie i zapisywanie plików. W tym przypadku otwieramy nasz plik Excel w trybie odczytu.
+ Ten`FileStream`Klasa umożliwia odczytywanie i zapisywanie plików. W tym przypadku otwieramy nasz plik Excel w trybie odczytu.
 
 ## Krok 3: Utwórz obiekt skoroszytu
 
@@ -67,7 +67,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 Workbook workbook = new Workbook(fstream);
 ```
   
- Ten`Workbook`Obiekt przechowuje teraz wszystkie dane i ustawienia pliku Excel, umożliwiając późniejszą modyfikację.
+ Ten`Workbook` Obiekt przechowuje teraz wszystkie dane i ustawienia pliku Excel, umożliwiając późniejszą modyfikację.
 
 ## Krok 4: Ukryj pionowy pasek przewijania
 
@@ -132,4 +132,4 @@ Możesz pracować z różnymi formatami plików Excel, w tym .xls, .xlsx, .xlsm,
  Sprawdź[Dokumentacja Aspose.Cells](https://reference.aspose.com/cells/net/) aby zobaczyć dodatkowe przykłady i samouczki.
 
 ### Co zrobić, jeśli napotkam problemy podczas korzystania z Aspose.Cells?  
- Możesz szukać pomocy lub zgłaszać problemy na forum pomocy technicznej Aspose[Tutaj](https://forum.aspose.com/c/cells/9).
+Możesz szukać pomocy lub zgłaszać problemy na forum pomocy technicznej Aspose[Tutaj](https://forum.aspose.com/c/cells/9).

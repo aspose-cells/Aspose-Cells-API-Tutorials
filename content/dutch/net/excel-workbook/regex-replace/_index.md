@@ -16,7 +16,7 @@ Bent u het zat om urenlang handmatig nauwkeurige wijzigingen aan te brengen in u
 Voordat we in de details van het coderen duiken, willen we er eerst voor zorgen dat je goed bent voorbereid op de reis die voor je ligt.
 
 1. .NET Framework: Zorg dat u een .NET-omgeving hebt ingesteld. Of het nu .NET Core of .NET Framework is, u zou goed moeten zitten.
-2.  Aspose.Cells Library: Deze bibliotheek is uw sleutel tot het ontgrendelen van krachtige spreadsheetmanipulaties. U kunt[download het hier](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells Library: Deze bibliotheek is uw sleutel tot het ontgrendelen van krachtige spreadsheetmanipulaties. U kunt[download het hier](https://releases.aspose.com/cells/net/).
 3. Een IDE: Gebruik uw favoriete Integrated Development Environment (IDE) zoals Visual Studio, waarmee u veel soepeler kunt coderen.
 4. Basiskennis programmeren: Kennis van C# en concepten van reguliere expressies is een pré.
 
@@ -71,13 +71,13 @@ Voordat we de tekst kunnen vervangen, moeten we een aantal vervangingsopties ins
 
 ```csharp
 ReplaceOptions replace = new ReplaceOptions();
-replace.CaseSensitive = false; // Maak de zoekopdracht hoofdletterongevoelig
+replace.CaseSensitive = false; // Maak de zoekopdracht hoofdlettergevoelig
 replace.MatchEntireCellContents = false; // Gedeeltelijke overeenkomsten toestaan
 replace.RegexKey = true; // Geef aan dat we regex gebruiken
 ```
 
 In deze configuratie:
-- `CaseSensitive` is ingesteld op`false`wat betekent dat bij onze zoekopdracht naar "KIM" geen rekening wordt gehouden met de vraag of het om hoofdletters of kleine letters gaat.
+- `CaseSensitive` is ingesteld op`false`, wat betekent dat bij onze zoekopdracht naar "KIM" geen rekening wordt gehouden met de vraag of het om hoofdletters of kleine letters gaat.
 - `MatchEntireCellContents` is ingesteld op`false` zodat we delen van de celinhoud kunnen vervangen.
 - `RegexKey` is ingesteld op`true` om aan te geven dat we een reguliere expressie voor onze zoekopdracht zullen gebruiken.
 
@@ -132,4 +132,4 @@ Ja, het ondersteunt verschillende formaten, waaronder XLS, XLSX, CSV en meer.
 Ja, u kunt complexere regex-patronen maken om meerdere termen tegelijkertijd te matchen.
 
 ### Waar kan ik meer voorbeelden en documentatie voor Aspose.Cells vinden?  
- U kunt uitgebreide documentatie vinden[hier](https://reference.aspose.com/cells/net/).
+ kunt uitgebreide documentatie vinden[hier](https://reference.aspose.com/cells/net/).

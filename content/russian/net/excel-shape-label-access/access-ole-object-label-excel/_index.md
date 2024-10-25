@@ -27,7 +27,7 @@ url: /ru/net/excel-shape-label-access/access-ole-object-label-excel/
 - Выберите «Управление пакетами NuGet».
 - Найдите «Aspose.Cells» и установите библиотеку.
 ### Импорт пространств имен
-В верхней части файла вашей программы (например,`Program.cs`), вам необходимо импортировать необходимые пространства имен:
+ В верхней части файла вашей программы (например,`Program.cs`), вам необходимо импортировать необходимые пространства имен:
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -118,7 +118,7 @@ Console.WriteLine("AccessAndModifyLabelOfOleObject executed successfully.");
 ### Может ли Aspose.Cells работать с другими форматами файлов?  
 Да! Aspose.Cells поддерживает множество форматов, включая XLS, XLSX, CSV и другие.
 ### Существует ли бесплатная пробная версия Aspose.Cells?  
- Да! Вы можете попробовать.[здесь](https://releases.aspose.com/).
+Да! Вы можете попробовать.[здесь](https://releases.aspose.com/).
 ### Могу ли я получить доступ к нескольким объектам OLE на рабочем листе?  
  Конечно! Вы можете пройти по циклу`ws.OleObjects` для доступа ко всем встроенным объектам OLE на рабочем листе.
 ### Как приобрести лицензию на Aspose.Cells?  

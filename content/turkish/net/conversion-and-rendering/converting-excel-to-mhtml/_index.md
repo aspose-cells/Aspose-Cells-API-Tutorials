@@ -26,7 +26,7 @@ Tüm ön koşullar hazır olduğunda, bir sonraki adım gerekli paketleri içe a
 
 1. Projenizi Açın: Visual Studio'yu başlatın ve mevcut projenizi açın veya yeni bir proje oluşturun.
 2. NuGet Paketlerini Yönetin: Çözüm Gezgini'nde projenize sağ tıklayın ve ardından "NuGet Paketlerini Yönet" seçeneğini seçin.
-3.  Aspose.Cells'i arayın ve yükleyin: Arama kutusuna şunu yazın:`Aspose.Cells` ve paketi yükleyin. Bu, projenize en son sürümün entegre edilmesini sağlar.
+3.  Aspose.Cells'i arayın ve yükleyin: Arama kutusuna şunu yazın:`Aspose.Cells`ve paketi yükleyin. Bu, projenize en son sürümün entegre edilmesini sağlar.
 4. Using Yönergesini Ekle: Kod dosyanıza, Aspose.Cells ad alanını kullanmak için aşağıdaki yönergeyi ekleyin:
 
 ```csharp

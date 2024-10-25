@@ -77,7 +77,7 @@ Beginnen wir nun mit der Einrichtung der Kopfzeile. Wir beginnen mit dem linken 
 pageSetup.SetHeader(0, "&A");
 ```
 
-Erläuterung: Die`SetHeader` Methode können wir den Inhalt des Headers definieren. Hier`&A` bezeichnet den Namen des Arbeitsblatts, der auf der linken Seite der Kopfzeile angezeigt wird.
+ Erläuterung: Die`SetHeader` Methode können wir den Inhalt des Headers definieren. Hier`&A` bezeichnet den Namen des Arbeitsblatts, der auf der linken Seite der Kopfzeile angezeigt wird.
 
 ## Schritt 4: Anpassen der zentralen Kopfzeile
 
@@ -87,7 +87,7 @@ Als Nächstes passen wir die zentrale Kopfzeile an, um das aktuelle Datum und di
 pageSetup.SetHeader(1, "&\"Times New Roman,Bold\"&D-&T");
 ```
 
-Erläuterung: Die`&D` Und`&T` Codes werden automatisch durch das aktuelle Datum bzw. die aktuelle Uhrzeit ersetzt. Wir legen außerdem fest, dass die Schriftart für diese Kopfzeile „Times New Roman“ und fett sein soll.
+ Erläuterung: Die`&D` Und`&T` Codes werden automatisch durch das aktuelle Datum bzw. die aktuelle Uhrzeit ersetzt. Wir legen außerdem fest, dass die Schriftart für diese Kopfzeile „Times New Roman“ und fett sein soll.
 
 ## Schritt 5: Den richtigen Header festlegen
 
@@ -117,7 +117,7 @@ Als nächstes stellen wir die mittlere Fußzeile so ein, dass die aktuelle Seite
 pageSetup.SetFooter(1, "&P");
 ```
 
-Erläuterung: Die`&P` Der Code fügt die Seitenzahl automatisch in der Mitte der Fußzeile ein – eine praktische Möglichkeit, den Überblick über die Seiten zu behalten.
+ Erläuterung: Die`&P` Der Code fügt die Seitenzahl automatisch in der Mitte der Fußzeile ein – eine praktische Möglichkeit, den Überblick über die Seiten zu behalten.
 
 ## Schritt 8: Konfiguration der rechten Fußzeile
 

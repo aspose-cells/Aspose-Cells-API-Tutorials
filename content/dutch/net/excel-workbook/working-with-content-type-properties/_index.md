@@ -60,7 +60,7 @@ Nu onze werkmap klaar is, is het tijd om wat aangepaste eigenschappen van het in
 int index = workbook.ContentTypeProperties.Add("MK31", "Simple Data");
 ```
 
- In deze stap hebben we een eigenschap toegevoegd met de naam "MK31" met de waarde "Eenvoudige gegevens".`Add` methode retourneert de index van de nieuw toegevoegde eigenschap, die we later kunnen gebruiken.
+ In deze stap hebben we een eigenschap toegevoegd met de naam "MK31" met de waarde "Eenvoudige gegevens".`Add`methode retourneert de index van de nieuw toegevoegde eigenschap, die we later kunnen gebruiken.
 
 ### Stel Nillable-eigenschap in
 
@@ -79,7 +79,7 @@ index = workbook.ContentTypeProperties.Add("MK32", DateTime.Now.ToString("yyyy-M
 workbook.ContentTypeProperties[index].IsNillable = true;
 ```
 
-In dit fragment maken we een eigenschap met de naam "MK32" met de huidige datum en tijd, geformatteerd volgens ISO 8601. We hebben deze eigenschap nullable gemaakt door in te stellen`IsNillable` naar`true`.
+ In dit fragment maken we een eigenschap met de naam "MK32" met de huidige datum en tijd, geformatteerd volgens ISO 8601. We hebben deze eigenschap nullable gemaakt door in te stellen`IsNillable` naar`true`.
 
 ## Stap 4: Sla de werkmap op
 
@@ -120,4 +120,4 @@ Ja! Aspose.Cells ondersteunt verschillende formaten, waaronder XLS, XLSX, CSV en
 Absoluut! Je kunt complexe objecten toevoegen aan eigenschappen van contenttypen, zolang ze maar op de juiste manier geserialiseerd kunnen worden.
 
 ### Waar kan ik meer documentatie vinden?
- Voor meer gedetailleerde richtlijnen, zie de[Aspose.Cells-documentatie](https://reference.aspose.com/cells/net/).
+Voor meer gedetailleerde richtlijnen, zie de[Aspose.Cells-documentatie](https://reference.aspose.com/cells/net/).

@@ -117,4 +117,4 @@ Lamentablemente, si olvida la contraseña, no podrá desproteger el libro de tra
 Aspose.Cells es compatible principalmente con .NET, pero también tiene bibliotecas para Java y otros lenguajes. ¡Visite su sitio para obtener más información!
 
 ### ¿Cómo puedo obtener soporte para Aspose.Cells?
-Puede solicitar ayuda a través de su foro de soporte:[Soporte de Aspose](https://forum.aspose.com/c/cells/9).
+ Puede solicitar ayuda a través de su foro de soporte:[Soporte de Aspose](https://forum.aspose.com/c/cells/9).

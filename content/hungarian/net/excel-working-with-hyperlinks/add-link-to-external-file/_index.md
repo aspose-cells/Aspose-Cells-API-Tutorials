@@ -38,7 +38,7 @@ Ezután létrehozunk egy új Excel-munkafüzetet. Ez az üres vászon, ahol megk
 // Munkafüzet objektum példányosítása
 Workbook workbook = new Workbook();
 ```
- Gondolj a`Workbook` mint egy új jegyzetfüzet, ahová mindent leírhat, amire szüksége van. Jelenleg üres, készen áll a bevitelre!
+ Gondolj a`Workbook` mint egy új jegyzetfüzet, ahová mindent felírhat, amire szüksége van. Jelenleg üres, készen áll a bevitelre!
 ## 3. lépés: Nyissa meg a kívánt munkalapot
 Minden munkafüzet több munkalapot is tartalmazhat. Itt érjük el az első munkalapot, amelyhez hozzáadjuk a hiperhivatkozásunkat.
 ```csharp

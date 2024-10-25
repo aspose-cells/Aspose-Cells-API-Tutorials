@@ -62,7 +62,7 @@ Dále načteme soubor Excel, který obsahuje graf, ke kterému chceme přidat po
 Workbook workbook = new Workbook(sourceDir + "sampleAddingLabelControlInChart.xls");
 ```
 
- Zde používáme`Workbook`třídy z Aspose.Cells a otevřete náš soubor Excel. Je to jako odemknout dveře a nechat kreativitu proudit!
+ Zde používáme`Workbook` třídy z Aspose.Cells a otevřete náš soubor Excel. Je to jako odemknout dveře a nechat kreativitu proudit!
 
 ## Krok 3: Otevřete sešit
 
@@ -73,7 +73,7 @@ Nyní, když máme náš sešit, přistupme k listu obsahujícímu graf. Budeme 
 Worksheet sheet = workbook.Worksheets[0];
 ```
 
-Tento krok je celý o navigaci v budově. Máte klíč (sešit), ale nyní musíte najít svůj pokoj (pracovní list).
+Tento krok je o navigaci v budově. Máte klíč (sešit), ale nyní musíte najít svůj pokoj (pracovní list).
 
 ## Krok 4: Získejte graf
 
@@ -94,7 +94,7 @@ Nyní přichází ta vzrušující část – přidání štítku do grafu. Defi
 Aspose.Cells.Drawing.Label label = chart.Shapes.AddLabelInChart(600, 600, 350, 900);
 ```
 
- Zde,`AddLabelInChart`se postará o vytvoření štítku na základě vámi zadaných souřadnic a rozměrů. Je to jako připevnit krásný rám kolem vašeho uměleckého díla!
+ Zde,`AddLabelInChart` se postará o vytvoření štítku na základě vámi zadaných souřadnic a rozměrů. Je to jako připevnit krásný rám kolem vašeho uměleckého díla!
 
 ## Krok 6: Nastavte text štítku
 
@@ -141,7 +141,7 @@ Je to jako odhalit svůj hotový produkt světu, připravený k potlesku!
 
 ## Závěr
 
-A tady to máte! Úspěšně jste přidali ovládací prvek štítku do grafu pomocí Aspose.Cells pro .NET. Pomocí pouhých několika řádků kódu jste zlepšili jasnost reprezentace vizuálních dat, takže je mnohem informativnější. Pamatujte, že ať už připravujete prezentaci nebo se ponoříte do analýzy dat, tyto štítky mohou být neocenitelnými nástroji.
+tady to máte! Úspěšně jste přidali ovládací prvek štítku do grafu pomocí Aspose.Cells pro .NET. Pomocí pouhých několika řádků kódu jste zlepšili jasnost reprezentace vizuálních dat, takže je mnohem informativnější. Pamatujte, že ať už připravujete prezentaci nebo se ponoříte do analýzy dat, tyto štítky mohou být neocenitelnými nástroji.
 
 ## FAQ
 

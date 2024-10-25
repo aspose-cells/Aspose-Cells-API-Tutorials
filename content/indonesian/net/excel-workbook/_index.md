@@ -13,11 +13,11 @@ Apakah Anda lelah berjuang dengan manajemen berkas Excel? Jika Anda pernah mengh
 
 ## Mengakses Informasi Ekstensi Web
 
-Memahami cara mengakses informasi ekstensi web dapat membuka kemungkinan baru dalam lembar kerja Excel Anda. Hal ini memungkinkan interaktivitas yang lebih baik dalam berkas Anda. Tutorial kami tentang[Akses Informasi Ekstensi Web](./access-web-extension-information/) menyediakan panduan langkah demi langkah untuk memudahkan proses ini, bahkan bagi mereka yang baru mengenal Aspose.Cells.
+ Memahami cara mengakses informasi ekstensi web dapat membuka kemungkinan baru dalam lembar kerja Excel Anda. Hal ini memungkinkan interaktivitas yang lebih baik dalam berkas Anda. Tutorial kami tentang[Akses Informasi Ekstensi Web](./access-web-extension-information/) menyediakan panduan langkah demi langkah untuk memudahkan proses ini, bahkan bagi mereka yang baru mengenal Aspose.Cells.
 
 ## Menambahkan Tanda Tangan Digital
 
- Pernahkah Anda perlu menambahkan tanda tangan digital ke file Excel yang sudah ditandatangani? Temukan cara melakukannya dengan panduan kami di[Tambahkan Tanda Tangan Digital ke File Excel yang Sudah Ditandatangani](./add-digital-signature-to-an-already-signed-excel-file/)Tanda tangan digital memastikan keaslian dan integritas, membuat file Excel Anda tidak hanya berfungsi tetapi juga aman.
+Pernahkah Anda perlu menambahkan tanda tangan digital ke file Excel yang sudah ditandatangani? Temukan cara melakukannya dengan panduan kami di[Tambahkan Tanda Tangan Digital ke File Excel yang Sudah Ditandatangani](./add-digital-signature-to-an-already-signed-excel-file/)Tanda tangan digital memastikan keaslian dan integritas, membuat file Excel Anda tidak hanya berfungsi tetapi juga aman.
 
 ## Membuat Buku Kerja Bersama
 
@@ -25,7 +25,7 @@ Memahami cara mengakses informasi ekstensi web dapat membuka kemungkinan baru da
 
 ## Mengekstrak File Tertanam
 
-Tahukah Anda bahwa Excel dapat berisi file tertanam? Jika Anda pernah perlu menggali lebih dalam ke dalam spreadsheet Anda untuk mengekstrak file MOL tertanam, Anda akan ingin memeriksa tutorial kami di[Ekstrak File MOL Tertanam](./extract-embedded-mol-file/)Panduan ini memandu Anda melalui proses mudah untuk mengambil kembali file-file ini, memastikan Anda tidak akan pernah kehilangan data penting yang tersembunyi dalam buku kerja Excel Anda.
+ Tahukah Anda bahwa Excel dapat berisi file tertanam? Jika Anda pernah perlu menggali lebih dalam ke dalam spreadsheet Anda untuk mengekstrak file MOL tertanam, Anda akan ingin memeriksa tutorial kami di[Ekstrak File MOL Tertanam](./extract-embedded-mol-file/)Panduan ini memandu Anda melalui proses mudah untuk mengambil kembali file-file ini, memastikan Anda tidak akan pernah kehilangan data penting yang tersembunyi dalam buku kerja Excel Anda.
 
 ## Menangani Koneksi Eksternal dalam File XLSB
 
@@ -33,23 +33,23 @@ Tahukah Anda bahwa Excel dapat berisi file tertanam? Jika Anda pernah perlu meng
 
 ## Meningkatkan Keamanan dengan Perlindungan Kata Sandi
 
- Keamanan sangat penting, terutama untuk buku kerja bersama yang berisi informasi sensitif. Tutorial kami tentang[Melindungi atau Membuka Proteksi Buku Kerja Bersama dengan Kata Sandi](./password-protect-or-unprotect-shared-workbook/)merinci langkah-langkah untuk mengunci buku kerja Anda sehingga hanya orang yang tepat yang dapat mengaksesnya. Anda akan merasa lebih yakin saat berbagi file jika Anda tahu file tersebut aman.
+ Keamanan sangat penting, terutama untuk buku kerja bersama yang berisi informasi sensitif. Tutorial kami tentang[Melindungi atau Membuka Proteksi Buku Kerja Bersama dengan Kata Sandi](./password-protect-or-unprotect-shared-workbook/) merinci langkah-langkah untuk mengunci buku kerja Anda sehingga hanya orang yang tepat yang dapat mengaksesnya. Anda akan merasa lebih yakin saat berbagi file jika Anda tahu file tersebut aman.
 
 ## Meningkatkan Produktivitas dengan Regex
 
- Apakah Anda penggemar regex? Jika tidak, Anda mungkin ingin menjadi salah satunya! Ekspresi reguler dapat secara signifikan menyederhanakan tugas Anda, terutama saat bekerja dengan kumpulan data besar di Excel. Tutorial kami tentang[Ganti Regex](./regex-replace/) mengajarkan Anda cara mengimplementasikan fungsi penggantian regex di lembar kerja Anda, sehingga Anda dapat meningkatkan produktivitas dan akurasi.
+Apakah Anda penggemar regex? Jika tidak, Anda mungkin ingin menjadi salah satunya! Ekspresi reguler dapat secara signifikan menyederhanakan tugas Anda, terutama saat bekerja dengan kumpulan data besar di Excel. Tutorial kami tentang[Ganti Regex](./regex-replace/) mengajarkan Anda cara mengimplementasikan fungsi penggantian regex di lembar kerja Anda, sehingga Anda dapat meningkatkan produktivitas dan akurasi.
 
 ## Memperbarui Item Power Query
 
- Power Query dapat menjadi pengubah permainan yang nyata dalam manipulasi data, memungkinkan Anda untuk menyederhanakan cara informasi diimpor ke dalam file Excel Anda. Jika Anda bertanya-tanya bagaimana cara memperbarui item rumus Power Query di Excel menggunakan Aspose.Cells untuk .NET, tutorial kami tentang[Memperbarui Item Rumus Power Query](./update-power-query-formula-item/)adalah solusinya. Aplikasi ini menyediakan pendekatan sederhana, langkah demi langkah untuk memodifikasi item rumus ini, yang memungkinkan Anda menjaga data Anda tetap baru dan tercermin secara akurat dalam buku kerja Anda.
+ Power Query dapat menjadi pengubah permainan yang nyata dalam manipulasi data, memungkinkan Anda untuk menyederhanakan cara informasi diimpor ke dalam file Excel Anda. Jika Anda bertanya-tanya bagaimana cara memperbarui item rumus Power Query di Excel menggunakan Aspose.Cells untuk .NET, tutorial kami tentang[Memperbarui Item Rumus Power Query](./update-power-query-formula-item/) adalah solusinya. Aplikasi ini menyediakan pendekatan sederhana, langkah demi langkah untuk memodifikasi item rumus ini, yang memungkinkan Anda menjaga data Anda tetap baru dan tercermin secara akurat dalam buku kerja Anda.
 
 ## Mengelola Pratinjau Cetak
 
- Sesekali, Anda perlu menyajikan data Anda dengan cara yang paling profesional. Mempelajari cara membuat pratinjau cetak dapat menjadi keterampilan yang penting. Dalam tutorial kami tentang[Pratinjau Cetak Buku Kerja](./workbook-print-preview/), Anda akan menemukan cara memformat data dengan benar sebelum menekan tombol cetak. Proses ini dapat menyelamatkan Anda dari kesalahan yang memalukan dan memastikan bahwa laporan Anda terlihat bagus di atas kertas seperti di layar.
+Sesekali, Anda perlu menyajikan data Anda dengan cara yang paling profesional. Mempelajari cara membuat pratinjau cetak dapat menjadi keterampilan yang penting. Dalam tutorial kami tentang[Pratinjau Cetak Buku Kerja](./workbook-print-preview/), Anda akan menemukan cara memformat data dengan benar sebelum menekan tombol cetak. Proses ini dapat menyelamatkan Anda dari kesalahan yang memalukan dan memastikan bahwa laporan Anda terlihat bagus di atas kertas seperti di layar.
 
 ## Bekerja dengan Nama yang Ditentukan
 
- Nama yang ditetapkan dalam lembar Excel Anda dapat menjadi cara praktis untuk mengelola data Anda. Nama tersebut membuat rumus lebih pendek dan lebih mudah dipahami. Jika Anda ingin memfilter nama yang ditetapkan saat memuat buku kerja, tutorial kami tentang[Filter Nama yang Ditentukan Saat Memuat Buku Kerja](./filter-defined-names-while-loading-workbook/)menyediakan semua langkah yang diperlukan untuk melakukan hal tersebut. Fitur ini memungkinkan Anda untuk menyesuaikan cara memuat buku kerja, sehingga meningkatkan efisiensi dan pengaturan.
+ Nama yang ditetapkan dalam lembar Excel Anda dapat menjadi cara praktis untuk mengelola data Anda. Nama tersebut membuat rumus lebih pendek dan lebih mudah dipahami. Jika Anda ingin memfilter nama yang ditetapkan saat memuat buku kerja, tutorial kami tentang[Filter Nama yang Ditentukan Saat Memuat Buku Kerja](./filter-defined-names-while-loading-workbook/) menyediakan semua langkah yang diperlukan untuk melakukan hal tersebut. Fitur ini memungkinkan Anda untuk menyesuaikan cara memuat buku kerja, sehingga meningkatkan efisiensi dan pengaturan.
 
 ## Kesimpulan
 

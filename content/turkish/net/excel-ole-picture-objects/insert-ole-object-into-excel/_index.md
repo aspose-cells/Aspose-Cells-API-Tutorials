@@ -35,7 +35,7 @@ string dataDir = "Your Document Directory";
 ## Adım 2: Dizin Yoksa Oluşturun
 Sonra, bu dizinin var olduğundan emin olmak istiyoruz. Eğer yoksa, onu oluşturmamız gerekiyor.
 ```csharp
-//Eğer mevcut değilse dizin oluşturun.
+// Eğer mevcut değilse dizin oluşturun.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -58,7 +58,7 @@ Güzel ve basit! Bu çalışma sayfasına içerik eklemeye başlamaya hazırız.
 ## Adım 5: Görüntü için Yolu Tanımlayın
 Şimdi Excel dosyanıza yerleştirmek istediğiniz resim için bir yol belirleyelim.
 ```csharp
-// Görüntü yolunu saklamak için bir dize değişkeni tanımlayın.
+//Görüntü yolunu saklamak için bir dize değişkeni tanımlayın.
 string ImageUrl = dataDir + "logo.jpg";
 ```
  Bu yolun, bulunduğunuz yeri doğru şekilde yansıttığından emin olun.`logo.jpg` dosya saklandı.
@@ -87,7 +87,7 @@ Tıpkı resimde yaptığımız gibi Excel dosyasını da bir bayt dizisine yükl
 ```csharp
 // Dosyayı akışlara alın.
 fs = File.OpenRead(path);
-// Bir bayt dizisi tanımlayın.
+//Bir bayt dizisi tanımlayın.
 byte[] objectData = new Byte[fs.Length];
 // Akışlardan gelen dosyayı depola.
 fs.Read(objectData, 0, objectData.Length);

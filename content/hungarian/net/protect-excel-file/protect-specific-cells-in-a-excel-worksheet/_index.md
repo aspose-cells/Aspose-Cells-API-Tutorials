@@ -30,7 +30,7 @@ using System.IO;
 using Aspose.Cells;
 ```
 
-Ez a névtér tartalmazza az összes osztályt és metódust, amely az Excel fájlokkal való munkához és a szükséges funkciók megvalósításához szükséges.
+Ez a névtér tartalmazza az összes osztályt és metódust, amely az Excel-fájlokkal való munkavégzéshez és a szükséges funkciók megvalósításához szükséges.
 
 Fejtsük fel az egyes cellák védelmének folyamatát egy Excel-munkalapon az Aspose.Cells for .NET segítségével. A kódot több emészthető lépésre bontjuk:
 
@@ -41,12 +41,12 @@ Az első dolog, amit meg akarunk tenni, az az, hogy meghatározzuk, hová kerül
 ```csharp
 // A dokumentumok könyvtárának elérési útja.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-//Hozzon létre könyvtárat, ha még nincs jelen.
+// Hozzon létre könyvtárat, ha még nincs jelen.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
- Itt definiálunk egy karakterlánc-változót`dataDir` amely a kívánt dokumentumkönyvtárra mutat. Ellenőrizzük, hogy létezik-e ez a könyvtár. Ha nem, akkor létrehozzuk. Ez biztosítja, hogy az Excel-fájl későbbi mentése során semmilyen problémába ne ütközzen.
+ Itt definiálunk egy karakterlánc-változót`dataDir` amely a kívánt dokumentumkönyvtárra mutat. Ellenőrizzük, hogy létezik-e ez a könyvtár. Ha nem, akkor létrehozzuk. Ez biztosítja, hogy az Excel-fájl későbbi mentése során ne ütközzenek problémákba.
 
 ## 2. lépés: Hozzon létre egy új munkafüzetet
 
@@ -60,7 +60,7 @@ Workbook wb = new Workbook();
 
 ## 3. lépés: Nyissa meg a munkalapot
 
-Most, hogy van munkafüzetünk, nyissuk meg az első munkalapot, ahol alkalmazni fogjuk a védelmi beállításainkat.
+Most, hogy van egy munkafüzetünk, nyissa meg az első munkalapot, ahol alkalmazni fogjuk a védelmi beállításainkat.
 
 ```csharp
 // Hozzon létre egy munkalap objektumot, és szerezze be az első lapot.
@@ -78,7 +78,7 @@ Style style;
 // Határozza meg a styleflag objektumot.
 StyleFlag styleflag;
 
-// Lapozzon végig a munkalap összes oszlopán, és oldja fel a zárolást.
+// Lapozzon át a munkalap összes oszlopán, és oldja fel őket.
 for (int i = 0; i <= 255; i++)
 {
     style = sheet.Cells.Columns[(byte)i].Style;

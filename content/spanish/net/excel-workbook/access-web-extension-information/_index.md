@@ -16,7 +16,7 @@ url: /es/net/excel-workbook/access-web-extension-information/
 Antes de ponernos manos a la obra y empezar, hay algunas cosas que debes tener en cuenta. A continuación, te presentamos una lista de verificación para asegurarte de que todo transcurra sin problemas:
 
 1. Entorno .NET: asegúrese de tener un entorno .NET configurado en su máquina. Esto suele significar tener instalado Visual Studio u otro IDE compatible.
-2. Aspose.Cells para .NET: Necesitas tener la biblioteca Aspose.Cells. No te preocupes, puedes hacerlo fácilmente.[Descargue la última versión aquí](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells para .NET: Necesitas tener la biblioteca Aspose.Cells. No te preocupes, puedes hacerlo fácilmente.[Descargue la última versión aquí](https://releases.aspose.com/cells/net/).
 3.  Archivo de Excel de muestra: para este tutorial, asegúrese de tener un archivo de Excel de muestra (como`WebExtensionsSample.xlsx`) accesible. Puedes crear uno con extensiones web o descargar uno si es necesario. 
 4. Conocimientos básicos de C#: una comprensión fundamental de la programación en C# hará que navegar por este tutorial sea mucho más fácil.
 5. Administrador de paquetes NuGet: la familiaridad con NuGet puede ayudarle a administrar Aspose.Cells dentro de su proyecto sin problemas.
@@ -62,12 +62,12 @@ Aquí, capturamos todos los paneles de tareas asociados con las extensiones web 
 
 ## Paso 4: Iterar a través de los paneles de tareas
 
- Una vez que tenga la colección, el siguiente paso lógico es recorrer cada panel de tareas y obtener sus propiedades.`foreach` El bucle es una excelente manera de navegar a través de cada panel de tareas sin problemas.
+Una vez que tenga la colección, el siguiente paso lógico es recorrer cada panel de tareas y obtener sus propiedades.`foreach` El bucle es una excelente manera de navegar a través de cada panel de tareas sin problemas.
 
 ```csharp
 foreach (WebExtensionTaskPane taskPane in taskPanes)
 {
-    //Dentro de este bucle, extraeremos propiedades.
+    // Dentro de este bucle, extraeremos propiedades.
 }
 ```
 

@@ -16,7 +16,7 @@ url: /ar/java/advanced-excel-charts/chart-interactivity/
 
 قبل أن نبدأ، تأكد من أن لديك المتطلبات الأساسية التالية:
 - بيئة تطوير جافا
--  مكتبة Aspose.Cells لـ Java (التنزيل من[هنا](https://releases.aspose.com/cells/java/)
+- مكتبة Aspose.Cells لـ Java (التنزيل من[هنا](https://releases.aspose.com/cells/java/)
 
 ## الخطوة 1: إعداد مشروع Java الخاص بك
 

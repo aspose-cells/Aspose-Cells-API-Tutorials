@@ -16,7 +16,7 @@ url: /zh-hant/net/excel-workbook/access-web-extension-information/
 在我們捲起袖子開始之前，您需要設置一些東西。這是確保一切順利進行的清單：
 
 1. .NET 環境：確保您的電腦上設定了 .NET 環境。這通常意味著安裝了 Visual Studio 或其他相容的 IDE。
-2. Aspose.Cells for .NET：您需要擁有 Aspose.Cells 函式庫。別擔心；你可以輕鬆地[在這裡下載最新版本](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells for .NET：您需要擁有 Aspose.Cells 函式庫。別擔心；你可以輕鬆地[在這裡下載最新版本](https://releases.aspose.com/cells/net/).
 3. 範例 Excel 檔案：對於本教學課程，請確保您有一個範例 Excel 檔案（例如`WebExtensionsSample.xlsx`）可訪問。您可以建立一個包含 Web 擴充功能的插件，或根據需要下載一個。 
 4. 基本 C# 知識：對 C# 程式設計的基本了解將使瀏覽本教學變得更加容易。
 5. NuGet 套件管理器：熟悉 NuGet 可以協助您無縫管理專案中的 Aspose.Cells。

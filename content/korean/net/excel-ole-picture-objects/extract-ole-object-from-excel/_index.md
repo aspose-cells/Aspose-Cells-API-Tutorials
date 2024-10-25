@@ -12,7 +12,7 @@ url: /ko/net/excel-ole-picture-objects/extract-ole-object-from-excel/
 ## 필수 조건
 OLE 개체 추출의 세부 사항을 자세히 살펴보기 전에 꼭 준비해야 할 몇 가지 사항이 있습니다.
 1. C#에 대한 기본 지식: C#에 익숙하다면 이미 올바른 길에 들어선 것입니다. 그렇지 않더라도 걱정하지 마세요! 간단하게 설명드리겠습니다.
-2.  Aspose.Cells 설치: Aspose.Cells 라이브러리가 필요합니다. 사이트에서 다운로드할 수 있습니다.[여기](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells 설치: Aspose.Cells 라이브러리가 필요합니다. 사이트에서 다운로드할 수 있습니다.[여기](https://releases.aspose.com/cells/net/).
 3. 호환 가능한 개발 환경: Visual Studio 등의 .NET 개발 환경이 설정되어 있는지 확인하세요.
 4. 샘플 Excel 파일: 테스트를 위해 OLE 개체가 포함된 Excel 파일이 필요합니다. 
 이러한 전제 조건을 갖추면 OLE 개체 추출의 세계로의 여행을 시작할 수 있습니다.
@@ -44,7 +44,7 @@ Aspose.Cells.Drawing.OleObjectCollection oles = workbook.Worksheets[0].OleObject
 for (int i = 0; i < oles.Count; i++)
 {
     Aspose.Cells.Drawing.OleObject ole = oles[i];
-    //각 객체를 처리하기 위한 추가 논리
+    // 각 객체를 처리하기 위한 추가 논리
 }
 ```
 ## 5단계: 출력 파일 이름 지정

@@ -15,7 +15,7 @@ Avant de passer au vif du sujet, assurons-nous que vous disposez de tout ce dont
 1. Visual Studio : assurez-vous que Visual Studio est installé sur votre ordinateur. Il s'agira de votre environnement de développement.
 2.  Aspose.Cells pour .NET : téléchargez la bibliothèque Aspose.Cells à partir du[site web](https://releases.aspose.com/cells/net/). Vous pouvez également commencer par un essai gratuit pour tester ses fonctionnalités.
 3. Connaissances de base de C# : la familiarité avec la programmation C# vous aidera à mieux comprendre les extraits de code.
-4.  Fichier Excel : préparez un fichier Excel pour la conversion. Pour cet exemple, nous utiliserons un fichier nommé`Book1.xlsx`.
+4. Fichier Excel : préparez un fichier Excel pour la conversion. Pour cet exemple, nous utiliserons un fichier nommé`Book1.xlsx`.
 Maintenant que vous avez trié les prérequis, passons à la partie amusante : importer les packages nécessaires et écrire le code !
 ## Paquets d'importation
 Pour commencer, vous devez importer les espaces de noms requis dans votre fichier C#. Cela est essentiel car cela vous permet d'accéder aux classes et méthodes fournies par la bibliothèque Aspose.Cells.
@@ -45,7 +45,7 @@ string dataDir = "Your Document Directory"; // Spécifiez votre répertoire de d
 string inputPath = dataDir + "Book1.xlsx"; // Chemin vers votre fichier Excel
 Workbook workbook = new Workbook(inputPath); // Charger le fichier Excel
 ```
- Le`Workbook`La classe est utilisée pour charger et manipuler des fichiers Excel. En transmettant le chemin d'entrée, vous indiquez à l'application avec quel fichier travailler.
+ Le`Workbook` La classe est utilisée pour charger et manipuler des fichiers Excel. En transmettant le chemin d'entrée, vous indiquez à l'application avec quel fichier travailler.
 ## Étape 3 : Créer PdfSaveOptions
  Maintenant, il est temps de créer une instance de`PdfSaveOptions`Cette classe vous permet de spécifier différentes options pour enregistrer votre classeur au format PDF, y compris l'heure de création.
 ```csharp
@@ -56,7 +56,7 @@ options.CreatedTime = DateTime.Now; // Définir l'heure de création sur mainten
 ## Étape 4 : Enregistrer le classeur au format PDF
 Enfin, vous enregistrerez le classeur sous forme de fichier PDF en utilisant les options que vous venez de définir.
 ```csharp
-workbook.Save(dataDir + "output.pdf", options); // Enregistrer au format PDF
+workbook.Save(dataDir + "output.pdf", options); //Enregistrer au format PDF
 ```
  Cette ligne de code prend le classeur et l'enregistre au format PDF à l'emplacement spécifié.`options` le paramètre est passé pour inclure l'heure de création dans les métadonnées PDF.
 

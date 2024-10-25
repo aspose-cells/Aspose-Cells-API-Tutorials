@@ -37,7 +37,7 @@ string dataDir = "Your Document Directory";
  Εδώ, καθορίζετε τη διαδρομή καταλόγου όπου θα αποθηκευτεί το αρχείο Excel. Μπορείτε να αντικαταστήσετε`"Your Document Directory"` με την πραγματική διαδρομή στο μηχάνημά σας ή δημιουργήστε δυναμικά έναν φάκελο εάν δεν υπάρχει.
 ### Έλεγχος και δημιουργία του καταλόγου
 ```csharp
-//Δημιουργήστε κατάλογο εάν δεν υπάρχει ήδη.
+// Δημιουργήστε κατάλογο εάν δεν υπάρχει ήδη.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);

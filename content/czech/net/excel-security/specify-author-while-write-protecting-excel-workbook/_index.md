@@ -63,7 +63,7 @@ Stejně jako umělec začíná s prázdným plátnem, vy začínáte s prázdný
 Ochrana proti zápisu je zásadním aspektem, zejména pokud chcete zajistit, aby integrita vašich dat zůstala nedotčena. Můžete to udělat pomocí hesla.
 
 ```csharp
-// Zápis chránit sešit s heslem.
+//Zápis chránit sešit s heslem.
 wb.Settings.WriteProtection.Password = "YOUR_PASSWORD";
 ```
 
@@ -89,11 +89,11 @@ Posledním krokem je uložení sešitu v požadovaném formátu. V tomto přípa
 wb.Save(outputDir + "outputSpecifyAuthorWhileWriteProtectingWorkbook.xlsx");
 ```
 
- Zde se výstupní soubor uloží do vámi zadaného výstupního adresáře s názvem`outputSpecifyAuthorWhileWriteProtectingWorkbook.xlsx`Tady se vaše tvrdá práce konečně vyplatí a svůj sešit můžete sdílet s ostatními s vědomím, že je dobře chráněn!
+ Zde se výstupní soubor uloží do vámi zadaného výstupního adresáře s názvem`outputSpecifyAuthorWhileWriteProtectingWorkbook.xlsx`. Tady se vaše tvrdá práce konečně vyplatí a svůj sešit můžete sdílet s ostatními s vědomím, že je dobře chráněn!
 
 ## Závěr
 
-A tady to máte! Naučili jste se vytvořit excelový sešit, nastavit ochranu proti zápisu heslem, určit autora a bezproblémově jej uložit pomocí Aspose.Cells for .NET. Tato kombinace funkcí nejen zabezpečí vaše data, ale také zachová jejich integritu a zajistí správné přiřazení.
+tady to máte! Naučili jste se vytvořit excelový sešit, nastavit ochranu proti zápisu heslem, určit autora a bezproblémově jej uložit pomocí Aspose.Cells for .NET. Tato kombinace funkcí nejen zabezpečí vaše data, ale také zachová jejich integritu a zajistí správné přiřazení.
 
 ## FAQ
 
@@ -110,4 +110,4 @@ A tady to máte! Naučili jste se vytvořit excelový sešit, nastavit ochranu p
 Absolutně! Aspose.Cells bezproblémově funguje v desktopových i webových aplikacích využívajících .NET.
 
 ### Co mám dělat, když potřebuji podporu?  
- případě dotazů a řešení problémů je komunita Aspose velmi užitečná. Můžete navštívit jejich[fórum podpory](https://forum.aspose.com/c/cells/9) o pomoc.
+ V případě dotazů a řešení problémů je komunita Aspose velmi užitečná. Můžete navštívit jejich[fórum podpory](https://forum.aspose.com/c/cells/9) o pomoc.

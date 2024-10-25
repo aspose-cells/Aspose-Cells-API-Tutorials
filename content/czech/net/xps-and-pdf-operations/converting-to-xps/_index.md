@@ -50,14 +50,14 @@ Worksheet sheet = workbook.Worksheets[0]; // Přístup k prvnímu pracovnímu li
 ```
 Tento řádek kódu umožňuje přístup k prvnímu listu pro další příkazy.
 ## Krok 4: Nakonfigurujte možnosti obrázku a tisku
-Nyní musíme definovat, jak chceme vykreslit náš výstup. To zahrnuje vytvoření instance`ImageOrPrintOptions` a nastavení požadovaného výstupního formátu.
+ Nyní musíme definovat, jak chceme vykreslit náš výstup. To zahrnuje vytvoření instance`ImageOrPrintOptions` a nastavení požadovaného výstupního formátu.
 ```csharp
 Aspose.Cells.Rendering.ImageOrPrintOptions options = new Aspose.Cells.Rendering.ImageOrPrintOptions();
 options.SaveFormat = SaveFormat.Xps; // Nastavení výstupního formátu na XPS
 ```
 Tento krok říká Aspose, že chceme převést obsah aplikace Excel do formátu XPS.
 ## Krok 5: Vykreslete list
-S nastavenými možnostmi je čas vykreslit konkrétní list:
+nastavenými možnostmi je čas vykreslit konkrétní list:
 ```csharp
 Aspose.Cells.Rendering.SheetRender sr = new Aspose.Cells.Rendering.SheetRender(sheet, options);
 sr.ToImage(0, dataDir + "out_printingxps.out.xps");
@@ -74,7 +74,7 @@ Tento fragment kódu umožňuje exportovat celý sešit najednou, což je efekti
 Gratuluji! Úspěšně jste převedli soubor aplikace Excel do formátu XPS pomocí knihovny Aspose.Cells v .NET. Může se to zdát jako mnoho kroků, ale každý z nich hraje v tomto procesu zásadní roli. S těmito znalostmi jste dobře vybaveni pro práci se soubory Excel ve vašich aplikacích a jejich optimalizaci pro různé formáty. Takže až se vás příště někdo zeptá, jak převést ty otravné tabulky, budete přesně vědět, co máte dělat!
 ## FAQ
 ### Co je formát XPS?
-XPS (XML Paper Specification) je formát pevných dokumentů, který zachovává rozložení a vzhled dokumentů.
+XPS (XML Paper Specification) je pevný formát dokumentu, který zachovává rozložení a vzhled dokumentů.
 ### Musím si koupit Aspose.Cells, abych je mohl používat?
  Můžete vyzkoušet bezplatnou zkušební verzi Aspose.Cells k dispozici[zde](https://releases.aspose.com/). Poté budete možná muset zakoupit licenci pro plnou funkčnost.
 ### Mohu převést více souborů aplikace Excel najednou?
@@ -82,4 +82,4 @@ Ano, kód můžete přizpůsobit tak, aby procházel více soubory v adresáři 
 ### Co když potřebuji převést pouze konkrétní listy?
  Můžete zadat index listu, který chcete v`SheetRender` objekt, jak je znázorněno v našich krocích.
 ### Kde najdu více informací o Aspose.Cells?
- Můžete prozkoumat[dokumentace](https://reference.aspose.com/cells/net/)pro pokročilejší funkce a možnosti dostupné s knihovnou.
+ Můžete prozkoumat[dokumentace](https://reference.aspose.com/cells/net/) pro pokročilejší funkce a možnosti dostupné s knihovnou.

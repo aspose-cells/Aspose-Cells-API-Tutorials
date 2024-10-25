@@ -74,7 +74,7 @@ string sourceDir = "Your Document Directory"; // ange din källkatalog här
 Att använda Aspose.Cells är att ladda en Excel-fil enkelt. Så här gör du:
 
 ```csharp
-// Ladda Excel-exempelfilen
+// Ladda exemplet på Excel-filen
 Workbook wb = new Workbook(sourceDir + "sampleHandleAutomaticUnitsOfChartAxisLikeMicrosoftExcel.xlsx");
 ```
 
@@ -108,7 +108,7 @@ I Excel är en av nyckelfunktionerna i diagram hantering av automatiska enheter 
 
 ```csharp
 // Ställ in huvudenhet för Y-axeln
-ch.AxisY.MajorUnit = 10; //Du kan ställa in enligt dina krav
+ch.AxisY.MajorUnit = 10; // Du kan ställa in enligt dina krav
 ```
 
 Låt oss uppdatera de automatiska enheterna nu!
@@ -142,7 +142,7 @@ Att arbeta med Aspose.Cells för .NET är inte bara effektivt utan också otroli
 Aspose.Cells är ett kraftfullt .NET-bibliotek för att skapa, manipulera och konvertera Excel-filer.
 
 ### Kan jag använda Aspose.Cells gratis?
- Ja! Du kan börja med en gratis provperiod tillgänglig[här](https://releases.aspose.com/).
+Ja! Du kan börja med en gratis provperiod tillgänglig[här](https://releases.aspose.com/).
 
 ### Behöver jag installera något för att komma igång?
 Bara Aspose.Cells-biblioteket och ett .NET Framework installerat på din maskin.

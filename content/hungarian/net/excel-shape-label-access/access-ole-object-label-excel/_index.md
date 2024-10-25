@@ -12,7 +12,7 @@ Ha valaha is belekóstolt az Excelbe, tudja, milyen erős és bonyolult lehet. N
 ## Előfeltételek
  
 Mielőtt belevágnánk az Aspose.Cells for .NET akciódús világába, a következőket kell tartalmaznia az eszköztárban:
-1. Visual Studio telepítve: Ez lesz az Ön játszótere, ahol kódolni és tesztelni fogja a C# alkalmazást.
+1. Visual Studio telepítve: Ez lesz az Ön játszótere, ahol kódolni és tesztelni fogja C#-alkalmazását.
 2. .NET-keretrendszer: Győződjön meg arról, hogy legalább .NET-keretrendszer 4.0 vagy újabb verzióval dolgozik. Ez megadja programunknak a zökkenőmentes működéshez szükséges alapot.
 3.  Aspose.Cells Library: Szüksége lesz az Aspose.Cells könyvtár egy példányára. Letöltheti innen[itt](https://releases.aspose.com/cells/net/) . Ha vásárlás előtt szeretné kipróbálni, nézze meg a[ingyenes próbaverzió](https://releases.aspose.com/).
 4. A C# alapvető ismerete: A C# ismerete segít a kód átfutásában.
@@ -27,7 +27,7 @@ A kezdéshez importálnunk kell a szükséges csomagokat a projektünkbe. Ez meg
 - Válassza a "NuGet-csomagok kezelése" lehetőséget.
 - Keresse meg az "Aspose.Cells" kifejezést, és telepítse a könyvtárat.
 ### Névterek importálása
- programfájl tetején (pl.`Program.cs`), importálnia kell a szükséges névtereket:
+ A programfájl tetején (pl.`Program.cs`), importálnia kell a szükséges névtereket:
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -78,7 +78,7 @@ Ezután a munkafüzet újratöltése előtt elmentjük a változtatásokat egy m
 MemoryStream ms = new MemoryStream();
 wb.Save(ms, SaveFormat.Xlsx);
 ```
-Ez menti a módosított munkafüzetünket a memóriába, így később könnyen elérhetővé válik.
+Ezzel elmentjük a módosított munkafüzetünket a memóriába, így később könnyen elérhetővé válik.
 ## 8. lépés: Állítsa a munkafüzet hivatkozását Null értékre 
 A memória felszabadításához nullára kell állítani a munkafüzet hivatkozását:
 ```csharp
@@ -118,7 +118,7 @@ Az OLE-objektumok olyan beágyazott fájlok, amelyek lehetővé teszik más Micr
 ### Működik az Aspose.Cells más fájlformátumokkal?  
 Igen! Az Aspose.Cells számos formátumot támogat, beleértve az XLS-t, XLSX-et, CSV-t és még sok mást.
 ### Létezik ingyenes próbaverzió az Aspose.Cells számára?  
- Igen! Ki lehet próbálni[itt](https://releases.aspose.com/).
+Igen! Ki lehet próbálni[itt](https://releases.aspose.com/).
 ### Hozzáférhetek több OLE objektumhoz egy munkalapon?  
  Teljesen! Át lehet hurkolni`ws.OleObjects` a munkalapon lévő összes beágyazott OLE objektum eléréséhez.
 ### Hogyan vásárolhatok licencet az Aspose.Cells-hez?  

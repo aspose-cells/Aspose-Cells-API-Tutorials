@@ -37,12 +37,12 @@ using System.Drawing;
 ```csharp
 // 문서 디렉토리의 경로입니다.
 string dataDir = "Your Document Directory";
-//디렉토리가 없으면 디렉토리를 생성합니다.
+// 디렉토리가 없으면 디렉토리를 생성합니다.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
--  dataDir: 이 변수는 문서 디렉토리 경로를 보관합니다. 바꾸기`"Your Document Directory"` Excel 파일을 저장하려는 실제 경로를 입력합니다.
+- dataDir: 이 변수는 문서 디렉토리 경로를 보관합니다. 바꾸기`"Your Document Directory"` Excel 파일을 저장하려는 실제 경로를 입력합니다.
 - Directory.Exists: 디렉토리가 이미 존재하는지 확인합니다.
 - Directory.CreateDirectory: 디렉토리가 존재하지 않으면 생성합니다.
 ## 2단계: 통합 문서 인스턴스화
@@ -89,7 +89,7 @@ bmp.Save(ms, System.Drawing.Imaging.ImageFormat.Png);
 // 주석과 연관된 모양으로 이미지 데이터를 설정합니다.
 comment.CommentShape.Fill.ImageData = ms.ToArray();
 ```
--  comment.CommentShape.Fill.ImageData: 이 속성을 사용하면 주석 모양에 대한 이미지를 설정할 수 있습니다.`MemoryStream` 바이트 배열을 사용하여`ms.ToArray()`.
+- comment.CommentShape.Fill.ImageData: 이 속성을 사용하면 주석 모양에 대한 이미지를 설정할 수 있습니다.`MemoryStream` 바이트 배열을 사용하여`ms.ToArray()`.
 ## 7단계: 통합 문서 저장
 마지막으로, 주석과 이미지를 포함하여 통합 문서를 저장해 보겠습니다.
 ```csharp

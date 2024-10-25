@@ -53,7 +53,7 @@ Dále budete muset vytvořit souborový stream, abyste mohli otevřít soubor Ex
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
 
-Zde určíme, že chceme otevřít`book1.xls` umístěný v určeném adresáři. The`FileMode.Open` Parametr označuje, že otevíráme existující soubor. Vždy se ujistěte, že název souboru odpovídá tomu, co máte.
+ Zde určíme, že chceme otevřít`book1.xls` umístěný v určeném adresáři. The`FileMode.Open` Parametr označuje, že otevíráme existující soubor. Vždy se ujistěte, že název souboru odpovídá tomu, co máte.
 
 ## Krok 3: Vytvořte instanci objektu sešitu
 
@@ -73,7 +73,7 @@ Po načtení sešitu je dalším krokem přístup ke konkrétnímu listu, který
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
-V tomto fragmentu kódu přistupujeme k prvnímu listu ze sešitu. Pokud máte více listů a chcete získat přístup k dalšímu, změňte odpovídajícím způsobem index.
+tomto fragmentu kódu přistupujeme k prvnímu listu ze sešitu. Pokud máte více listů a chcete získat přístup k dalšímu, změňte odpovídajícím způsobem index.
 
 ## Krok 5: Skryjte záhlaví řádků a sloupců
 
@@ -83,7 +83,7 @@ Nyní pro okamžik, na který jsme čekali! Zde ve skutečnosti skryjeme záhlav
 worksheet.IsRowColumnHeadersVisible = false;
 ```
 
- Nastavení`IsRowColumnHeadersVisible` na`false`efektivně skryje záhlaví v řádcích i sloupcích a vytvoří čistší vzhled vaší prezentace dat.
+ Nastavení`IsRowColumnHeadersVisible` na`false` efektivně skryje záhlaví v řádcích i sloupcích a vytvoří čistší vzhled vaší prezentace dat.
 
 ## Krok 6: Uložte upravený soubor Excel
 
@@ -107,7 +107,7 @@ fstream.Close();
 
 ## Závěr
 
-A tady to máte! Naučili jste se skrýt záhlaví řádků a sloupců listu aplikace Excel pomocí Aspose.Cells for .NET prostřednictvím řady jednoduchých kroků. To může zlepšit čitelnost a celkovou prezentaci vašich tabulek, což vašemu publiku umožní soustředit se pouze na data, která chcete zvýraznit.
+tady to máte! Naučili jste se skrýt záhlaví řádků a sloupců listu aplikace Excel pomocí Aspose.Cells for .NET prostřednictvím řady jednoduchých kroků. To může zlepšit čitelnost a celkovou prezentaci vašich tabulek, což vašemu publiku umožní soustředit se pouze na data, která chcete zvýraznit.
 
 ## FAQ
 
@@ -118,7 +118,7 @@ Aspose.Cells je výkonná knihovna .NET pro správu tabulek aplikace Excel, kter
  Ano, můžete procházet každý list v sešitu a nastavit`IsRowColumnHeadersVisible` na`false` pro každého.
 
 ### Musím si zakoupit licenci pro Aspose.Cells?  
- I když můžete použít bezplatnou zkušební verzi, pro trvalé komerční použití je vyžadována licence. Možnosti nákupu najdete[zde](https://purchase.aspose.com/buy).
+ I když můžete použít bezplatnou zkušební verzi, pro trvalé komerční použití je vyžadována licence. Můžete najít možnosti nákupu[zde](https://purchase.aspose.com/buy).
 
 ### Je k dispozici podpora pro Aspose.Cells?  
  Ano, Aspose poskytuje podporu prostřednictvím svých fór, ke kterým máte přístup[zde](https://forum.aspose.com/c/cells/9).

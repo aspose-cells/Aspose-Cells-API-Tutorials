@@ -114,7 +114,7 @@ for (int i = 0; i < lstLabels.Count; i++)
     Console.WriteLine(lstLabels[i]);
 }
 ```
-Este snippet primeiro gera um título e uma linha separadora. Então, fazemos um loop por cada rótulo no`lstLabels` ArrayList e imprima-o no console. Se houver dez rótulos, você verá cada um deles ali!
+ Este snippet primeiro gera um título e uma linha separadora. Então, fazemos um loop por cada rótulo no`lstLabels`ArrayList e imprima-o no console. Se houver dez rótulos, você verá cada um deles ali!
 
 ## Etapa 8: Mensagem final
 
@@ -141,7 +141,7 @@ Aspose.Cells é uma biblioteca poderosa para manipular arquivos Excel em .NET. E
  Você pode comprar uma licença para Aspose.Cells através de seu[página de compra](https://purchase.aspose.com/buy).
 
 ### Onde posso encontrar suporte para o Aspose.Cells?
-Você pode visitar o fórum Aspose para obter suporte[aqui](https://forum.aspose.com/c/cells/9).
+ Você pode visitar o fórum Aspose para obter suporte[aqui](https://forum.aspose.com/c/cells/9).
 
 ### Posso obter uma licença temporária?
- Sim! A Aspose oferece uma licença temporária que você pode solicitar de[este link](https://purchase.aspose.com/temporary-license/).
+Sim! A Aspose oferece uma licença temporária que você pode solicitar de[este link](https://purchase.aspose.com/temporary-license/).

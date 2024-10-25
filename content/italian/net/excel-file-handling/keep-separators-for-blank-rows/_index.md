@@ -45,7 +45,7 @@ TxtSaveOptions options = new TxtSaveOptions();
 ```
 È qui che inizia il divertimento: personalizzare il modo in cui salviamo i nostri dati ci consentirà di mantenere quei separatori di riga vuoti.
 ## Passaggio 4: impostare KeepSeparatorsForBlankRow su True
-Per garantire che quelle righe vuote vengano visualizzate con i separatori, dobbiamo impostare una proprietà specifica su true. Questo è un passaggio cruciale, poiché influisce sul modo in cui i dati verranno emessi.
+Per garantire che quelle righe vuote vengano visualizzate con separatori, dobbiamo impostare una proprietà specifica su true. Questo è un passaggio cruciale, poiché influisce sul modo in cui i dati verranno emessi.
 ```csharp
 options.KeepSeparatorsForBlankRow = true;
 ```

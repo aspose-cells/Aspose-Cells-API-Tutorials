@@ -53,7 +53,7 @@ Berikutnya, kita akan membuat contoh buku kerja. Ini seperti membuka kanvas koso
 Workbook workbook = new Workbook();
 ```
 
-Penjelasan:`Workbook` class merupakan file Excel. Dengan membuat instance-nya, pada dasarnya Anda membuat dokumen Excel baru yang dapat Anda manipulasi.
+ Penjelasan:`Workbook` class merupakan file Excel. Dengan membuat instance-nya, pada dasarnya Anda membuat dokumen Excel baru yang dapat Anda manipulasi.
 
 ## Langkah 3: Akses Lembar Kerja Pertama
 
@@ -138,7 +138,7 @@ flg.Font = true; // Aktifkan atribut font
 flg.CellShading = true; // Aktifkan pewarnaan sel
 ```
 
-Penjelasan:`StyleFlag` objek memberi tahu pustaka properti gaya mana yang ingin kita terapkan—seperti mencentang kotak pada daftar tugas!
+ Penjelasan:`StyleFlag` objek memberi tahu pustaka properti gaya mana yang ingin kita terapkan—seperti mencentang kotak pada daftar tugas!
 
 ## Langkah 11: Terapkan Gaya ke Rentang
 

@@ -68,7 +68,7 @@ Une fois le classeur chargé, vous pouvez accéder à ses connexions externes. D
 Aspose.Cells.ExternalConnections.DBConnection dbCon = wb.DataConnections[0] as Aspose.Cells.ExternalConnections.DBConnection;
 ```
 
- Ici,`DataConnections[0]`fait référence à la première connexion dans le classeur. Nous la présentons comme une`DBConnection` type pour une manipulation ultérieure.
+ Ici,`DataConnections[0]` fait référence à la première connexion dans le classeur. Nous la présentons comme une`DBConnection` type pour une manipulation ultérieure.
 
 ## Étape 4 : Extraire les informations de connexion
 

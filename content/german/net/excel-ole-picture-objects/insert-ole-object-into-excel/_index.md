@@ -35,7 +35,7 @@ string dataDir = "Your Document Directory";
 ## Schritt 2: Erstellen Sie das Verzeichnis, falls es nicht existiert
 Als nächstes wollen wir sicherstellen, dass dieses Verzeichnis existiert. Wenn nicht, müssen wir es erstellen.
 ```csharp
-//Erstellen Sie ein Verzeichnis, falls es noch nicht vorhanden ist.
+// Erstellen Sie ein Verzeichnis, falls es noch nicht vorhanden ist.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -58,7 +58,7 @@ Schön und einfach! Wir können nun damit beginnen, diesem Arbeitsblatt Inhalt h
 ## Schritt 5: Definieren Sie den Pfad für das Bild
 Legen wir nun einen Pfad für das Bild fest, das Sie in Ihre Excel-Datei einbetten möchten.
 ```csharp
-// Definieren Sie eine Zeichenfolgevariable zum Speichern des Bildpfads.
+//Definieren Sie eine Zeichenfolgevariable zum Speichern des Bildpfads.
 string ImageUrl = dataDir + "logo.jpg";
 ```
  Stellen Sie sicher, dass dieser Pfad den Standort Ihres`logo.jpg` Datei wird gespeichert.
@@ -87,7 +87,7 @@ Genau wie beim Bild müssen wir die Excel-Datei selbst in ein Byte-Array laden.
 ```csharp
 // Bringen Sie die Datei in die Streams.
 fs = File.OpenRead(path);
-// Definieren Sie ein Byte-Array.
+//Definieren Sie ein Byte-Array.
 byte[] objectData = new Byte[fs.Length];
 // Speichern Sie die Datei aus Streams.
 fs.Read(objectData, 0, objectData.Length);

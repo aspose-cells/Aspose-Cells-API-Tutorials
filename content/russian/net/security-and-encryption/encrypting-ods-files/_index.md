@@ -40,7 +40,7 @@ Install-Package Aspose.Cells
 ```csharp
 // Путь к каталогу документов.
 string dataDir = "Your Document Directory";
-// Создайте объект Workbook.
+// Создайте экземпляр объекта Workbook.
 // Откройте файл ods.
 Workbook workbook = new Workbook(dataDir + "Book1.ods");
 ```

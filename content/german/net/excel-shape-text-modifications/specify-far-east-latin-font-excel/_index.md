@@ -8,13 +8,13 @@ weight: 17
 url: /de/net/excel-shape-text-modifications/specify-far-east-latin-font-excel/
 ---
 ## Einführung
-Möchten Sie Ihre Excel-Berichte oder -Dokumente mit bestimmten Schriftartanforderungen verbessern? Egal, ob Sie mit mehreren Sprachen arbeiten oder einfach nur eine einzigartige Ästhetik in Ihren Tabellenkalkulationen anstreben, das Verständnis, wie fernöstliche und lateinische Schriftarten in Excel angegeben werden, ist eine wichtige Fähigkeit. Zum Glück haben wir eine Lösung! In diesem Tutorial untersuchen wir, wie Sie Aspose.Cells für .NET verwenden, um diese Funktion nahtlos zu implementieren. Tauchen wir ein!
+Möchten Sie Ihre Excel-Berichte oder -Dokumente mit bestimmten Schriftartanforderungen verbessern? Egal, ob Sie mit mehreren Sprachen arbeiten oder einfach nur eine einzigartige Ästhetik in Ihren Tabellenkalkulationen anstreben, das Verständnis, wie fernöstliche und lateinische Schriftarten in Excel angegeben werden, ist eine wichtige Fähigkeit. Zum Glück haben wir eine Lösung für Sie! In diesem Tutorial untersuchen wir, wie Sie Aspose.Cells für .NET verwenden, um diese Funktion nahtlos zu implementieren. Tauchen wir ein!
 ## Voraussetzungen
 Bevor wir ins Detail gehen, müssen Sie einige Dinge einrichten, bevor Sie mit Aspose.Cells beginnen können:
 ### .NET Framework oder .NET Core
 Stellen Sie sicher, dass auf Ihrem Computer .NET Framework oder .NET Core installiert ist. Diese Bibliothek funktioniert mit beiden problemlos.
 ### Installation von Aspose.Cells
-Sie müssen die Aspose.Cells-Bibliothek herunterladen. Sie können[Laden Sie es hier herunter](https://releases.aspose.com/cells/net/) Wenn Sie mit der Installation von NuGet-Paketen nicht vertraut sind, folgen Sie[dieser Leitfaden](https://www.nuget.org/).
+ Sie müssen die Aspose.Cells-Bibliothek herunterladen. Sie können[Laden Sie es hier herunter](https://releases.aspose.com/cells/net/) Wenn Sie mit der Installation von NuGet-Paketen nicht vertraut sind, folgen Sie[dieser Leitfaden](https://www.nuget.org/).
 ### Integrierte Entwicklungsumgebung (IDE)
 Eine IDE wie Visual Studio oder JetBrains Rider kann die Codierung, das Debuggen und die Ausführung Ihres Projekts vereinfachen.
 ### Grundkenntnisse in C#

@@ -149,7 +149,7 @@ Console.WriteLine("ChartToPdf executed successfully.");
 
 ## Következtetés
 
-És megvan! Az Aspose.Cells for .NET használatával az Excel-diagramok PDF-formátumba konvertálása séta a parkban. Akár fájlba, akár memóriafolyamba menti, a könyvtár rugalmasságot és könnyű használatot ígér. Szóval miért ne próbálnád ki? Jelentései sokkal élesebben fognak kinézni a professzionálisan formázott PDF-diagramokkal!
+És megvan! Az Aspose.Cells for .NET használatával az Excel-diagramok PDF-formátumba konvertálása séta a parkban. Függetlenül attól, hogy fájlba vagy memóriafolyamba menti, a könyvtár rugalmasságot és egyszerű használatot ígér. Szóval miért ne próbálnád ki? Jelentései sokkal élesebben fognak kinézni a professzionálisan formázott PDF-diagramokkal!
 
 ## GYIK
 

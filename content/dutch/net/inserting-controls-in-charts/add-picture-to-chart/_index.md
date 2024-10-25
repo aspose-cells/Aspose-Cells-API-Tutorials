@@ -16,7 +16,7 @@ Bent u saaie grafieken die een persoonlijke touch missen zat? Wilt u leren hoe u
 Voordat we in de details van het coderen duiken, zijn er een paar voorwaarden waaraan je moet voldoen om het proces soepel te kunnen volgen:
 
 - Visual Studio: Dit is waar u uw .NET-code schrijft en uitvoert. Zorg ervoor dat u het hebt geïnstalleerd.
-- Aspose.Cells voor .NET: U hebt deze bibliotheek nodig om met Excel-bestanden te werken. U kunt[download het hier](https://releases.aspose.com/cells/net/).
+-  Aspose.Cells voor .NET: U hebt deze bibliotheek nodig om met Excel-bestanden te werken. U kunt[download het hier](https://releases.aspose.com/cells/net/).
 - Basiskennis van C#: Ik leid je door de code, maar als je de basisbeginselen van C# kent, wordt alles duidelijker.
 
 ### Installatiestappen
@@ -55,7 +55,7 @@ string sourceDir = "Your Document Directory/";
 string outputDir = "Your Output Directory/";
 ```
 
- Vervangen`Your Document Directory` En`Your Output Directory` met echte paden op uw computer. 
+ Vervangen`Your Document Directory` En`Your Output Directory`met echte paden op uw computer. 
 
 ## Stap 2: Laad de bestaande werkmap
 
@@ -84,7 +84,7 @@ Zorg ervoor dat de afbeelding in de opgegeven map is opgeslagen.
 Laten we nu specificeren aan welke grafiek we onze afbeelding gaan toevoegen. In dit voorbeeld richten we ons op de eerste grafiek op het eerste werkblad.
 
 ```csharp
-//Haal het ontwerpersdiagram op het tweede blad.
+// Haal het ontwerpersdiagram op het tweede blad.
 Worksheet sheet = workbook.Worksheets[0];
 Aspose.Cells.Charts.Chart chart = sheet.Charts[0];
 ```
@@ -100,7 +100,7 @@ Nu u de grafiek hebt geselecteerd, kunt u de afbeelding toevoegen!
 Aspose.Cells.Drawing.Picture pic0 = chart.Shapes.AddPictureInChart(50, 50, stream, 200, 200);
 ```
 
- Hier,`50` En`50` zijn de X- en Y-coördinaten waar de afbeelding wordt geplaatst, en`200` is de breedte en hoogte van de afbeelding.
+ Hier,`50` En`50` zijn de X- en Y-coördinaten waar de afbeelding wordt geplaatst, en`200`is de breedte en hoogte van de afbeelding.
 
 ## Stap 6: Pas de lijnopmaak van de afbeelding aan
 

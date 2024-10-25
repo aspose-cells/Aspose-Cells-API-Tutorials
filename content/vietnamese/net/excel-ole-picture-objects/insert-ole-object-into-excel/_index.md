@@ -35,7 +35,7 @@ string dataDir = "Your Document Directory";
 ## Bước 2: Tạo thư mục nếu nó không tồn tại
 Tiếp theo, chúng ta muốn đảm bảo rằng thư mục này tồn tại. Nếu không, chúng ta cần tạo nó.
 ```csharp
-//Tạo thư mục nếu thư mục đó chưa có.
+// Tạo thư mục nếu thư mục đó chưa có.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -58,7 +58,7 @@ Thật tuyệt và đơn giản! Chúng ta đã sẵn sàng để bắt đầu t
 ## Bước 5: Xác định đường dẫn cho hình ảnh
 Bây giờ, hãy thiết lập đường dẫn cho hình ảnh bạn muốn nhúng vào tệp Excel.
 ```csharp
-// Xác định biến chuỗi để lưu trữ đường dẫn hình ảnh.
+//Xác định biến chuỗi để lưu trữ đường dẫn hình ảnh.
 string ImageUrl = dataDir + "logo.jpg";
 ```
  Hãy đảm bảo đường dẫn này phản ánh chính xác vị trí của bạn`logo.jpg` tập tin được lưu trữ.
@@ -87,7 +87,7 @@ Giống như cách chúng ta đã làm với hình ảnh, chúng ta cần tải 
 ```csharp
 // Đưa tập tin vào luồng.
 fs = File.OpenRead(path);
-// Định nghĩa một mảng byte.
+//Định nghĩa một mảng byte.
 byte[] objectData = new Byte[fs.Length];
 // Lưu trữ tệp từ các luồng.
 fs.Read(objectData, 0, objectData.Length);

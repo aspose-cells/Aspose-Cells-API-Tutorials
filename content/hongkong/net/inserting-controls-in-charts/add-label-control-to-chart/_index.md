@@ -62,7 +62,7 @@ string outputDir = "Your Output Directory";
 Workbook workbook = new Workbook(sourceDir + "sampleAddingLabelControlInChart.xls");
 ```
 
-在這裡，我們使用的是`Workbook`Aspose.Cells 中的類別來開啟我們的 Excel 檔案。就像打開大門一樣，讓創意盡情流動！
+在這裡，我們使用的是`Workbook` Aspose.Cells 中的類別來開啟我們的 Excel 檔案。就像打開大門一樣，讓創意盡情流動！
 
 ## 第 3 步：訪問工作表
 

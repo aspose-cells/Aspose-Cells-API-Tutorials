@@ -50,7 +50,7 @@ Worksheet sheet = workbook.Worksheets[0]; // Mengakses lembar kerja pertama
 ```
 Baris kode ini memungkinkan Anda mengakses lembar kerja pertama untuk perintah selanjutnya.
 ## Langkah 4: Konfigurasikan Opsi Gambar dan Cetak
-Sekarang kita perlu menentukan bagaimana kita ingin menampilkan output kita. Ini melibatkan pembuatan instance dari`ImageOrPrintOptions` dan mengatur format keluaran yang diinginkan.
+ Sekarang kita perlu menentukan bagaimana kita ingin menampilkan output kita. Ini melibatkan pembuatan instance dari`ImageOrPrintOptions` dan mengatur format keluaran yang diinginkan.
 ```csharp
 Aspose.Cells.Rendering.ImageOrPrintOptions options = new Aspose.Cells.Rendering.ImageOrPrintOptions();
 options.SaveFormat = SaveFormat.Xps; // Mengatur format keluaran ke XPS
@@ -82,4 +82,4 @@ Ya, Anda dapat mengadaptasi kode untuk mengulang beberapa file dalam direktori d
 ### Bagaimana jika saya hanya perlu mengonversi lembar tertentu?
  Anda dapat menentukan indeks lembar yang Anda inginkan di`SheetRender` objek seperti yang ditunjukkan dalam langkah kita.
 ### Di mana saya dapat menemukan informasi lebih lanjut tentang Aspose.Cells?
- Anda dapat menjelajahi[dokumentasi](https://reference.aspose.com/cells/net/)untuk fitur dan pilihan lebih lanjut yang tersedia di perpustakaan.
+ Anda dapat menjelajahi[dokumentasi](https://reference.aspose.com/cells/net/) untuk fitur dan pilihan lebih lanjut yang tersedia di perpustakaan.

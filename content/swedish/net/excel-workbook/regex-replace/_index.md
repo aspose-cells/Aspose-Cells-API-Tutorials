@@ -16,7 +16,7 @@ url: /sv/net/excel-workbook/regex-replace/
 Innan vi hoppar in i kodningen, låt oss se till att du är välutrustad för resan framåt.
 
 1. .NET Framework: Se till att du har en .NET-miljö inställd. Oavsett om det är .NET Core eller .NET Framework bör du vara igång.
-2.  Aspose.Cells Library: Detta bibliotek är din nyckel till att låsa upp kraftfulla kalkylarksmanipulationer. Du kan[ladda ner den här](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells Library: Detta bibliotek är din nyckel till att låsa upp kraftfulla kalkylarksmanipulationer. Du kan[ladda ner den här](https://releases.aspose.com/cells/net/).
 3. En IDE: Använd din favorit Integrated Development Environment (IDE) som Visual Studio, vilket kommer att göra din kodningsupplevelse mycket smidigare.
 4. Grundläggande programmeringskunskaper: Bekantskap med C# och begreppen reguljära uttryck kommer att vara fördelaktigt.
 
@@ -77,8 +77,8 @@ replace.RegexKey = true; // Ange att vi använder regex
 ```
 
 I den här konfigurationen:
-- `CaseSensitive` är inställd på`false`vilket betyder att vår sökning efter "KIM" ignorerar om det är versaler eller gemener.
-- `MatchEntireCellContents` är inställd på`false` så vi kan ersätta delar av cellinnehållet.
+- `CaseSensitive` är inställd på`false`, vilket betyder att vår sökning efter "KIM" ignorerar om det är versaler eller gemener.
+- `MatchEntireCellContents` är inställd på`false` så att vi kan ersätta delar av cellinnehållet.
 - `RegexKey` är inställd på`true` för att indikera att vi kommer att använda ett reguljärt uttryck för vår sökning.
 
 ## Steg 4: Utföra bytet
@@ -132,4 +132,4 @@ Ja, den stöder en mängd olika format inklusive XLS, XLSX, CSV och mer.
 Ja, du kan skapa mer komplexa regexmönster för att matcha flera termer samtidigt.
 
 ### Var kan jag hitta fler exempel och dokumentation för Aspose.Cells?  
- Du kan hitta omfattande dokumentation[här](https://reference.aspose.com/cells/net/).
+Du kan hitta omfattande dokumentation[här](https://reference.aspose.com/cells/net/).

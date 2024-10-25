@@ -15,11 +15,11 @@ Jeśli zagłębiasz się w automatyzację i manipulację Excelem przy użyciu .N
 
 Wyobraź sobie, że musisz obsługiwać ogromne ilości danych w programie Excel. Możesz pomyśleć: „Czy to nie zajmie wieczności?”. Wprowadź Aspose.Cells: to tak, jakbyś miał supermoc do manipulowania danymi. Ta biblioteka nie tylko pozwala edytować arkusze kalkulacyjne; daje Ci możliwość ochrony danych, zapewniając, że kluczowe informacje pozostaną nienaruszone. Kiedy chronisz określone wiersze lub kolumny, to tak, jakbyś ustawiał fortecę wokół ważnych postaci, pozwalając wejść tylko właściwym osobom. 
 
- Uprościliśmy ten proces dla Ciebie za pomocą różnych samouczków krok po kroku. Na przykład sprawdź nasz przewodnik, jak[Zezwalaj użytkownikom na edycję zakresów w arkuszu kalkulacyjnym programu Excel](./allow-user-to-edit-ranges-in-excel-worksheet/). Dowiesz się, jak bezproblemowo umożliwić użytkownikom modyfikowanie określonych sekcji arkusza kalkulacyjnego bez narażania całego dokumentu. 
+Uprościliśmy ten proces dla Ciebie za pomocą różnych samouczków krok po kroku. Na przykład sprawdź nasz przewodnik, jak[Zezwalaj użytkownikom na edycję zakresów w arkuszu kalkulacyjnym programu Excel](./allow-user-to-edit-ranges-in-excel-worksheet/). Dowiesz się, jak bezproblemowo umożliwić użytkownikom modyfikowanie określonych sekcji arkusza kalkulacyjnego bez narażania całego dokumentu. 
 
 ## Samouczki dostosowane do Ciebie
 
-Ale to nie wszystko! Ochrona danych jest równie istotna. Nie zostawiłbyś przecież drzwi wejściowych szeroko otwartych, prawda? Podobnie, nasze przewodniki oferują narzędzia do zablokowania dowolnej części arkusza Excel. Sprawdź samouczek na[Ochrona określonych komórek](./protect-specific-cells-in-a-excel-worksheet/) aby dowiedzieć się, jak skutecznie chronić swoje dane. Przeprowadzimy Cię przez każdy krok, czyniąc to prostym nawet dla tych, którzy są nowicjuszami w programowaniu.
+ Ale to nie wszystko! Ochrona danych jest równie istotna. Nie zostawiłbyś przecież drzwi wejściowych szeroko otwartych, prawda? Podobnie, nasze przewodniki oferują narzędzia do zablokowania dowolnej części arkusza Excel. Sprawdź samouczek na[Ochrona określonych komórek](./protect-specific-cells-in-a-excel-worksheet/) aby dowiedzieć się, jak skutecznie chronić swoje dane. Przeprowadzimy Cię przez każdy krok, czyniąc to prostym nawet dla tych, którzy są nowicjuszami w programowaniu.
 
 Oczywiście! Rozwińmy znaczenie tych samouczków w dążeniu do opanowania Excela i dowiedzmy się, jak mogą one pasować do Twojego przepływu pracy programistycznej.
 

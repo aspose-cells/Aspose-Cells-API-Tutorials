@@ -23,7 +23,7 @@ Excel 파일에 새 시트를 프로그래밍 방식으로 추가해야 하는 �
 
 ## 패키지 가져오기
 
-코드 작성을 시작하기 전에 필요한 패키지를 프로젝트에 가져와야 합니다. 다음은 그 방법입니다.
+코드 작성을 시작하기 전에 필요한 패키지를 프로젝트에 가져와야 합니다. 이를 수행하는 방법은 다음과 같습니다.
 
 ```csharp
 using System.IO;
@@ -49,7 +49,7 @@ using Aspose.Cells;
 ```csharp
 // 문서 디렉토리의 경로입니다.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-//디렉토리가 없으면 디렉토리를 생성합니다.
+// 디렉토리가 없으면 디렉토리를 생성합니다.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);

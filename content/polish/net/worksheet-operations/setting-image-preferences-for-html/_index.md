@@ -15,7 +15,7 @@ Tworzenie atrakcyjnych wizualnie stron internetowych z arkuszy kalkulacyjnych pr
 Zanim przejdziemy do kodu, upewnij się, że masz następujące elementy:
 
 1. Zainstalowane środowisko Visual Studio: Będziesz potrzebować środowiska programistycznego, takiego jak Visual Studio, aby uruchamiać i testować aplikacje .NET.
-2. Aspose.Cells dla .NET: Pobierz i zainstaluj Aspose.Cells. Możesz pobrać najnowszą wersję z[Strona internetowa Aspose](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells dla .NET: Pobierz i zainstaluj Aspose.Cells. Możesz pobrać najnowszą wersję z[Strona internetowa Aspose](https://releases.aspose.com/cells/net/).
 3. Podstawowa znajomość języka C#: Znajomość programowania w języku C# pomoże Ci lepiej zrozumieć przykłady.
 4. Przykładowy plik Excel: Przygotuj plik Excel o nazwie „Book1.xlsx” do pracy. Umieść go w wyznaczonym folderze, do którego będziesz się odwoływać w swoim kodzie.
 

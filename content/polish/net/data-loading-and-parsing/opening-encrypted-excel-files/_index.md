@@ -39,7 +39,7 @@ string dataDir = "Your Document Directory";
 ```
  Zastępować`"Your Document Directory"` z rzeczywistą ścieżką, w której znajduje się Twój plik Excel. Na przykład, jeśli jest przechowywany w`C:\Documents` , napisałbyś`string dataDir = "C:\\Documents";`Podwójne ukośniki odwrotne są konieczne w języku C#, aby uniknąć znaku ukośnika odwrotnego.
 ## Krok 2: Utwórz instancję LoadOptions
- Następnie musisz utworzyć instancję`LoadOptions`Klasa. Ta klasa pomaga nam określić różne opcje ładowania, w tym hasło wymagane do otwarcia zaszyfrowanego pliku.
+ Następnie musisz utworzyć instancję`LoadOptions` Klasa. Ta klasa pomaga nam określić różne opcje ładowania, w tym hasło wymagane do otwarcia zaszyfrowanego pliku.
 ```csharp
 // Utwórz opcję LoadOptions
 LoadOptions loadOptions = new LoadOptions();
@@ -58,7 +58,7 @@ loadOptions.Password = "1234"; // Zastąp „1234” swoim prawdziwym hasłem
 // Utwórz obiekt skoroszytu i otwórz plik z jego ścieżki
 Workbook wbEncrypted = new Workbook(dataDir + "encryptedBook.xls", loadOptions);
 ```
- Tutaj budujesz nowy`Workbook` obiekt i przekazując ścieżkę do zaszyfrowanego pliku i`loadOptions`które zawierają Twoje hasło. Jeśli wszystko pójdzie dobrze, ta linia powinna pomyślnie otworzyć Twój zaszyfrowany plik.
+ Tutaj budujesz nowy`Workbook` obiekt i przekazując ścieżkę do zaszyfrowanego pliku i`loadOptions` które zawierają Twoje hasło. Jeśli wszystko pójdzie dobrze, ta linia powinna pomyślnie otworzyć Twój zaszyfrowany plik.
 ## Krok 5: Potwierdź pomyślny dostęp do pliku
 Na koniec warto sprawdzić, czy plik został pomyślnie otwarty. 
 ```csharp
@@ -70,7 +70,7 @@ Gratulacje! Udało Ci się nauczyć otwierania zaszyfrowanych plików Excela za 
  Pamiętaj, że praca z zaszyfrowanymi plikami może być trudna, ale z narzędziami takimi jak Aspose.Cells staje się to bułką z masłem. Jeśli chcesz kopać głębiej, sprawdź[dokumentacja](https://reference.aspose.com/cells/net/) aby uzyskać dostęp do bardziej zaawansowanych funkcji.
 ## Najczęściej zadawane pytania
 ### Czy mogę otwierać pliki Excela zaszyfrowane różnymi hasłami?
- Tak, wystarczy zaktualizować`Password` pole w`LoadOptions`aby dopasować hasło do pliku Excel, który chcesz otworzyć.
+ Tak, wystarczy zaktualizować`Password` pole w`LoadOptions` aby dopasować hasło do pliku Excel, który chcesz otworzyć.
 ### Czy korzystanie z Aspose.Cells jest bezpłatne?
  Aspose.Cells nie jest darmowy, ale możesz zacząć od[bezpłatny okres próbny](https://releases.aspose.com/) aby poznać jego funkcje.
 ### Jakie typy plików Excel obsługuje Aspose.Cells?

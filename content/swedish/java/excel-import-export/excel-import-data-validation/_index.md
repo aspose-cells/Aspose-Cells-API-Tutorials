@@ -19,7 +19,7 @@ För att börja vår resa måste vi först ställa in utvecklingsmiljön. Följ 
 
 1. Installera Java Development Kit (JDK): Se till att du har JDK installerat på ditt system. Du kan ladda ner den från Oracles webbplats.
 
-2.  Ladda ner Aspose.Cells: Besök[Aspose.Cells för Java nedladdningssida](https://releases.aspose.com/cells/java/) för att få biblioteket. Följ installationsanvisningarna.
+2.  Ladda ner Aspose.Cells: Besök[Aspose.Cells för Java nedladdningssida](https://releases.aspose.com/cells/java/) för att få biblioteket. Följ installationsinstruktionerna som tillhandahålls.
 
 3. Skapa ett Java-projekt: Skapa ett nytt Java-projekt i din föredragna Integrated Development Environment (IDE).
 
@@ -61,7 +61,7 @@ Datavalidering är processen att kontrollera noggrannheten, integriteten och ful
 ### Varför är datavalidering viktigt?
 Datavalidering är viktigt eftersom det hjälper till att upprätthålla data noggrannhet och konsistens. Det förhindrar inmatning av felaktiga eller ofullständiga data, vilket leder till bättre beslutsfattande och datakvalitet.
 
-### Kan jag anpassa datavalideringsregler?
+### Kan jag anpassa regler för datavalidering?
 Ja, du kan anpassa reglerna för datavalidering för att matcha de specifika kraven för din applikation. Aspose.Cells för Java erbjuder flexibilitet när det gäller att definiera regler.
 
 ### Vilka typer av datavalidering stöds?

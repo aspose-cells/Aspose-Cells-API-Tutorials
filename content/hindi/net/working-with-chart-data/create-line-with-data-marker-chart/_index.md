@@ -18,7 +18,7 @@ url: /hi/net/working-with-chart-data/create-line-with-data-marker-chart/
 1.  Aspose.Cells for .NET Library – आपको इसे इंस्टॉल करना होगा। आप इसे प्राप्त कर सकते हैं[यहाँ](https://releases.aspose.com/cells/net/).
 2. .NET फ्रेमवर्क - सुनिश्चित करें कि आपका विकास वातावरण .NET के नवीनतम संस्करण के साथ स्थापित है।
 3. आईडीई (एकीकृत विकास पर्यावरण) - विजुअल स्टूडियो अनुशंसित है।
-4.  एक वैध Aspose.Cells लाइसेंस - यदि आपके पास नहीं है, तो आप अनुरोध कर सकते हैं[अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/)या उनकी जाँच करें[मुफ्त परीक्षण](https://releases.aspose.com/).
+4.  एक वैध Aspose.Cells लाइसेंस - यदि आपके पास नहीं है, तो आप अनुरोध कर सकते हैं[अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/) या उनकी जाँच करें[मुफ्त परीक्षण](https://releases.aspose.com/).
 
 क्या आप जाने के लिए तैयार हैं? चलिए इसे विस्तार से समझते हैं!
 

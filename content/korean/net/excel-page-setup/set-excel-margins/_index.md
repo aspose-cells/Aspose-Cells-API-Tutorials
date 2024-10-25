@@ -82,9 +82,9 @@ Worksheet worksheet = worksheets[0];
 
 ## 4단계: 페이지 설정 개체에 액세스
 
- 여백을 변경하려면 다음과 같이 작업해야 합니다.`PageSetup`객체. 이 객체는 여백을 포함하여 페이지 레이아웃을 제어하는 속성을 제공합니다.
+ 여백을 변경하려면 다음과 같이 작업해야 합니다.`PageSetup` 객체. 이 객체는 여백을 포함하여 페이지 레이아웃을 제어하는 속성을 제공합니다.
 
- 을 얻으십시오`PageSetup` 워크시트의 속성:
+을 얻으십시오`PageSetup` 워크시트의 속성:
 
 ```csharp
 PageSetup pageSetup = worksheet.PageSetup;

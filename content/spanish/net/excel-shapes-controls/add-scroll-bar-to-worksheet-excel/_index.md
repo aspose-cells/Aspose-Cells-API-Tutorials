@@ -31,7 +31,7 @@ Asegúrese de incluir estos espacios de nombres en la parte superior del archivo
 ```csharp
 // La ruta al directorio de documentos.
 string dataDir = "Your Document Directory";
-//Crear directorio si aún no está presente.
+// Crear directorio si aún no está presente.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -132,7 +132,7 @@ Y ahí lo tienes: ¡tu guía para agregar una barra de desplazamiento a una hoja
 ### ¿Qué es Aspose.Cells?
 Aspose.Cells es una potente biblioteca .NET que permite a los desarrolladores crear, manipular y convertir archivos Excel mediante programación.
 ### ¿Puedo utilizar Aspose.Cells gratis?
-Sí, Aspose.Cells ofrece una prueba gratuita, que puedes encontrar[aquí](https://releases.aspose.com/).
+ Sí, Aspose.Cells ofrece una prueba gratuita, que puedes encontrar[aquí](https://releases.aspose.com/).
 ### ¿Cómo agrego otros controles a mi hoja de Excel?
 Puedes utilizar métodos similares a los que se muestran para la barra de desplazamiento. ¡Consulta la documentación para obtener más controles!
 ### ¿Qué lenguajes de programación puedo utilizar con Aspose.Cells?

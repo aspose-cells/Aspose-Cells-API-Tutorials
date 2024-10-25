@@ -65,7 +65,7 @@ Aspose.Cells är ett .NET-bibliotek som låter utvecklare läsa, skriva och änd
 ### Kan jag använda Aspose.Cells med någon version av .NET?
 Ja, Aspose.Cells stöder flera versioner av .NET, men du bör kontrollera kompatibiliteten baserat på din utvecklingsmiljö.
 ### Var kan jag få support för Aspose.Cells?
- Du kan hitta stöd och samhällshjälp på[Aspose Forum](https://forum.aspose.com/c/cells/9).
+ Du kan hitta stöd och gemenskapshjälp på[Aspose Forum](https://forum.aspose.com/c/cells/9).
 ### Finns det en gratis testversion tillgänglig för Aspose.Cells?
  Absolut! Du kan kolla in[gratis provperiod](https://releases.aspose.com/) för att se om det uppfyller dina behov.
 ### Hur kan jag köpa Aspose.Cells?

@@ -77,7 +77,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 worksheet.PageSetup.PrintQuality = 180;
 ```
 
-Açıklama:`PrintQuality` özellik herhangi bir değere ayarlanabilir, genellikle 75 ile 600 dpi (inç başına nokta) arasında. Bu durumda, kalite ve dosya boyutu arasında iyi bir denge için harika olan 180 dpi'ye ayarlıyoruz.
+ Açıklama:`PrintQuality` özellik herhangi bir değere ayarlanabilir, genellikle 75 ile 600 dpi (inç başına nokta) arasında. Bu durumda, kalite ve dosya boyutu arasında iyi bir denge için harika olan 180 dpi'ye ayarlıyoruz.
 
 ## Adım 5: Çalışma Kitabını Kaydetme
 

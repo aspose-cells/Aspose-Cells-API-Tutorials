@@ -9,7 +9,7 @@ url: /sv/net/protect-excel-file/edit-ranges-in-excel-worksheet/
 ---
 ## Introduktion
 
-När det gäller redigering av Excel-kalkylblad är en av de mest kraftfulla funktionerna som kommer väl till pass möjligheten att skydda vissa områden samtidigt som det tillåter redigeringar i andra. Detta kan vara oerhört användbart i samarbetsmiljöer där flera användare behöver åtkomst men endast bör modifiera angivna celler. Idag ska vi dyka in i hur man använder Aspose.Cells för .NET för att hantera redigerbara intervall i ett Excel-kalkylblad. Så, ta din favoritkodande dryck och låt oss komma igång!
+När det gäller redigering av Excel-kalkylblad är en av de mest kraftfulla funktionerna som kommer väl till pass möjligheten att skydda vissa områden samtidigt som det tillåter redigeringar i andra. Detta kan vara oerhört användbart i samarbetsmiljöer där flera användare behöver åtkomst men endast bör modifiera angivna celler. Idag ska vi dyka in i hur man kan utnyttja Aspose.Cells för .NET för att hantera redigerbara intervall i ett Excel-kalkylblad. Så, ta din favoritkodande dryck och låt oss komma igång!
 
 ## Förutsättningar
 
@@ -41,7 +41,7 @@ Låt oss lägga ut koden för att skapa en katalog (om den inte redan finns):
 ```csharp
 // Sökvägen till dokumentkatalogen.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-//Skapa katalog om den inte redan finns.
+// Skapa katalog om den inte redan finns.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);

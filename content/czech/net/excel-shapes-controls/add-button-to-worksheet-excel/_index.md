@@ -31,7 +31,7 @@ V tomto prvním kroku vytvoříme nový excelový sešit a získáme odkaz na pr
 ```csharp
 // Definujte cestu k adresáři dokumentů.
 string dataDir = "Your Document Directory";
-//Vytvořte adresář, pokud ještě není přítomen.
+// Vytvořte adresář, pokud ještě není přítomen.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
 	System.IO.Directory.CreateDirectory(dataDir);

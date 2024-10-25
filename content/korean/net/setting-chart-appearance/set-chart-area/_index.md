@@ -17,7 +17,7 @@ Aspose.Cells for .NET으로 데이터 조작의 세계에 오신 것을 환영�
 
 1. Visual Studio: 컴퓨터에 Visual Studio가 설치되어 있는지 확인하세요. .NET 코드를 작성하고 실행하는 데 필수적입니다.
 2. .NET Framework: 이 가이드는 .NET Framework 또는 .NET Core에서 가장 잘 작동합니다. 필요한 버전(4.5 이상)이 설치되어 있는지 확인하세요.
-3.  Aspose.Cells: Aspose.Cells 라이브러리가 필요합니다. 여기에서 다운로드할 수 있습니다.[여기](https://releases.aspose.com/cells/net/).
+3. Aspose.Cells: Aspose.Cells 라이브러리가 필요합니다. 여기에서 다운로드할 수 있습니다.[여기](https://releases.aspose.com/cells/net/).
 4. 기본 C# 지식: C# 프로그래밍에 대한 기초적인 이해는 단계를 더 잘 이해하는 데 도움이 될 것입니다. 전문가가 아니더라도 걱정하지 마세요. 모든 것을 설명해 드리겠습니다!
 
 ## 패키지 가져오기
@@ -174,4 +174,4 @@ Aspose.Cells는 Excel 파일을 프로그래밍 방식으로 관리하기 위한
  Aspose.Cells 커뮤니티와 포럼에서 도움과 지원을 받을 수 있습니다.[여기](https://forum.aspose.com/c/cells/9).
 
 ### 라이센스는 어떻게 구매할 수 있나요?
- Aspose 웹사이트에서 직접 라이센스를 구매할 수 있습니다.[여기](https://purchase.aspose.com/buy).
+Aspose 웹사이트에서 직접 라이센스를 구매할 수 있습니다.[여기](https://purchase.aspose.com/buy).

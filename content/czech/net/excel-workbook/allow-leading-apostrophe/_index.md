@@ -16,7 +16,7 @@ Vítejte v tomto podrobném průvodci, jak používat Aspose.Cells pro .NET k be
 Než se ponoříte do kódu, zde je několik předpokladů, které musíte splnit:
 
 1. Základní znalost .NET: Znalost .NET frameworku je nezbytná. Pokud již fušujete do C# nebo VB.NET, považujte se za připraveného.
-2. Aspose.Cells for .NET Library: Musíte mít nainstalovaný Aspose.Cells. Můžete to snadno provést prostřednictvím správce balíčků NuGet nebo si jej stáhnout z[Aspose stránky](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells for .NET Library: Musíte mít nainstalovaný Aspose.Cells. Můžete to snadno provést prostřednictvím správce balíčků NuGet nebo si jej stáhnout z[Aspose stránky](https://releases.aspose.com/cells/net/).
 3. Nastavení IDE: Ujistěte se, že máte integrované vývojové prostředí (IDE), jako je Visual Studio, připravené pro kódování.
 4. Ukázkový soubor Excel: Můžete použít ukázkový soubor ("AllowLeadingApostropheSample.xlsx"), se kterým budeme v kódu pracovat.
 
@@ -39,7 +39,7 @@ Naše úkoly rozdělíme do zvládnutelných kroků, abychom zajistili přehledn
 
 ## Krok 1: Nastavení zdrojových a výstupních adresářů
 
-tomto kroku musíme definovat, kde budou umístěny naše vstupní a výstupní soubory.
+V tomto kroku musíme definovat, kde budou umístěny naše vstupní a výstupní soubory.
 
 ```csharp
 // Zdrojový adresář
@@ -56,7 +56,7 @@ Nyní vytvoříme instanci WorkbookDesigneru, který je zásadní pro práci s c
 WorkbookDesigner designer = new WorkbookDesigner();
 ```
 
- The`WorkbookDesigner` spravuje návrh a datovou vazbu našeho sešitu, což nám usnadňuje život při převodu dat do vizuálního formátu.
+ The`WorkbookDesigner`spravuje návrh a datovou vazbu našeho sešitu, což nám usnadňuje život při převodu dat do vizuálního formátu.
 
 ## Krok 3: Načtěte existující sešit
 
@@ -90,7 +90,7 @@ List<DataObject> list = new List<DataObject>
 };
 ```
 
- Vytváříme seznam`DataObject`, kde jeden z názvů záměrně obsahuje úvodní apostrof. To pomůže ilustrovat, jak Aspose.Cells řeší takové scénáře.
+ Vytváříme seznam`DataObject`kde jeden z názvů záměrně obsahuje úvodní apostrof. To pomůže ilustrovat, jak Aspose.Cells řeší takové scénáře.
 
 ## Krok 6: Svažte zdroj dat s návrhářem
 
@@ -134,7 +134,7 @@ Tento jednoduchý výstup z konzoly vás může ujistit, že všechny kroky byly
 
 ## Závěr
 
-V této příručce jsme prošli složitostí manipulace s úvodními apostrofy v Excelu pomocí Aspose.Cells pro .NET. Od nastavení prostředí až po efektivní manipulaci se soubory aplikace Excel jste se naučili eliminovat potenciální úskalí, se kterými se často setkáváte při práci s číselnými řetězci a automatickým formátováním.
+V této příručce jsme prošli složitostmi zacházení s úvodními apostrofy v Excelu pomocí Aspose.Cells pro .NET. Od nastavení prostředí až po efektivní manipulaci se soubory aplikace Excel jste se naučili eliminovat potenciální úskalí, se kterými se často setkáváte při práci s číselnými řetězci a automatickým formátováním.
 
 Nyní, ať už generujete sestavy, vytváříte funkce pro analýzu dat nebo spravujete importy a exporty dat, máte nástroje, jak se s těmito scénáři s jistotou vypořádat!
 
@@ -144,7 +144,7 @@ Nyní, ať už generujete sestavy, vytváříte funkce pro analýzu dat nebo spr
 Aspose.Cells je výkonná knihovna .NET pro vytváření, manipulaci a převod souborů aplikace Excel v různých formátech programově.
 
 ### Mohu používat Aspose.Cells zdarma?
-Ano, Aspose.Cells můžete používat po přihlášení k bezplatné zkušební verzi[zde](https://releases.aspose.com/).
+ Ano, Aspose.Cells můžete používat po přihlášení k bezplatné zkušební verzi[zde](https://releases.aspose.com/).
 
 ### Jak mohu získat podporu pro Aspose.Cells?
  Pomoc a dotazy můžete najít na[Aspose Support Forum](https://forum.aspose.com/c/cells/9).

@@ -69,4 +69,4 @@ Absolument ! Vous pouvez lire, écrire et modifier des fichiers Excel à l'aide 
 ### Le support est-il disponible pour les utilisateurs d'Aspose.Cells ?
  Oui, vous pouvez accéder à de vastes ressources d'assistance, notamment des forums et de la documentation, disponibles[ici](https://forum.aspose.com/c/cells/9).
 ### Comment puis-je obtenir une licence temporaire pour Aspose.Cells ?
- Vous pouvez demander une licence temporaire pour évaluer le produit en visitant[ce lien](https://purchase.aspose.com/temporary-license/).
+Vous pouvez demander une licence temporaire pour évaluer le produit en visitant[ce lien](https://purchase.aspose.com/temporary-license/).

@@ -12,7 +12,7 @@ Pernahkah Anda bertanya-tanya bagaimana cara menyimpan file spreadsheet dalam be
 ## Prasyarat
 Sebelum kita masuk ke inti permasalahan, mari pastikan Anda telah menyiapkan semuanya dengan benar:
 - .NET Framework: Pastikan Anda telah menginstal .NET Framework di komputer Anda. Anda dapat menggunakan versi apa pun yang kompatibel dengan Aspose.Cells for .NET.
-- Pustaka Aspose.Cells: Anda perlu mengunduh pustaka Aspose.Cells. Ini adalah alat hebat yang memungkinkan Anda mengelola berkas Excel dan banyak lagi. Anda bisa mendapatkannya dari[tautan unduhan](https://releases.aspose.com/cells/net/).
+-  Pustaka Aspose.Cells: Anda perlu mengunduh pustaka Aspose.Cells. Ini adalah alat hebat yang memungkinkan Anda mengelola berkas Excel dan banyak lagi. Anda bisa mendapatkannya dari[tautan unduhan](https://releases.aspose.com/cells/net/).
 - Lingkungan Pengembangan: Lingkungan pengembangan yang sesuai sangatlah penting, seperti Visual Studio, tempat Anda dapat menulis dan mengeksekusi kode .NET Anda.
 Sekarang setelah prasyarat kita terpenuhi, mari impor paket yang diperlukan.
 ## Paket Impor

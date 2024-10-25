@@ -26,7 +26,7 @@ Ahora, desglosemos el proceso de agregar una imagen a una hoja de cálculo de Ex
 Crear directorio para almacenamiento de documentos
 Antes de hacer nada con el libro de trabajo, necesitamos un lugar donde guardarlo. Especificaremos este directorio de documentos:
 ```csharp
-string dataDir = "Your Document Directory"; // Define tu camino deseado.
+string dataDir = "Your Document Directory"; //Define tu camino deseado.
 ```
  En este fragmento de código, reemplace`"Your Document Directory"` con la ruta real donde desea almacenar sus archivos de Excel. Este directorio contendrá el archivo de salida después de agregar la imagen.
 ## Paso 2: Crear directorio si no existe
@@ -81,7 +81,7 @@ Sí, puedes agregar varios formatos de imagen como PNG, JPEG y BMP a tus hojas d
 ### ¿Aspose.Cells admite formatos de archivos de Excel distintos de .xls?
 ¡Por supuesto! Aspose.Cells admite varios formatos de Excel, incluidos .xlsx, .xlsm y .xlsb.
 ### ¿Hay una versión de prueba disponible?
- ¡Sí! Puedes probar Aspose.Cells gratis antes de realizar una compra. Solo tienes que comprobarlo[aquí](https://releases.aspose.com/).
+¡Sí! Puedes probar Aspose.Cells gratis antes de realizar una compra. Solo tienes que comprobarlo[aquí](https://releases.aspose.com/).
 ### ¿Qué debo hacer si mi imagen no aparece?
 Asegúrese de que la ruta de la imagen sea correcta y que el archivo de imagen esté ubicado en el directorio especificado.
 ### ¿Puedo colocar imágenes sobre varias celdas?

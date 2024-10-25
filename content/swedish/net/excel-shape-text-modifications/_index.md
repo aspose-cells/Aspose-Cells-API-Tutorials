@@ -37,7 +37,7 @@ När det gäller Excel-automatisering gör det hela skillnaden att ha rätt verk
 
  Till sist, låt oss prata om presentation. Det handlar inte bara om data; det handlar om hur du presenterar det. De[Ställ in marginaler för kommentar eller form i Excel](./set-margins-comment-shape-excel/)tutorial lär dig hur du konfigurerar dina marginaler för kommentarer och former, vilket säkerställer att dina insikter har det utrymme de behöver för att lysa utan att belamra sidan. Har du någonsin haft en kommentarsruta så klämd att den såg förlorad ut? Säg adjö till det! Med dessa färdigheter kommer dina dokument att se polerade och professionella ut.
 
-## Självstudier för form- och textändringar i Excel
+## Självstudier för Excel-form och textändringar
 ### [Extrahera text från Gear Type Smart Art i Excel](./extract-text-gear-smart-art-excel/)
 Lär dig hur du extraherar text från SmartArt av kugghjulstyp i Excel med Aspose.Cells för .NET. Steg-för-steg-guide och kodexempel ingår.
 ### [Ersätt tagg med text i TextBox i Excel](./replace-tag-text-textbox-excel/)

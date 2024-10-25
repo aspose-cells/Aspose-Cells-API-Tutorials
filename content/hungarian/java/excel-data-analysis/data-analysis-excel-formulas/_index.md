@@ -86,7 +86,7 @@ pivotTable.calculateData();
 
 ## Következtetés
 
-Ebben a cikkben az Aspose.Cells for Java használatával végzett adatelemzést vizsgáltuk meg Excelben. Kezdtük a könyvtár bemutatásával és a Java környezet beállításával. Ezután az adatelemzés alapvető Excel képleteivel foglalkoztunk, például a SUM és AVERAGE. Végül a fejlett technikákat, például a pivot táblákat érintettük.
+Ebben a cikkben az Aspose.Cells for Java használatával végzett adatelemzést vizsgáltuk meg Excelben. Kezdtük a könyvtár bemutatásával és a Java környezet beállításával. Ezután az alapvető Excel képletekkel foglalkoztunk, például a SUM és AVERAGE adatelemzéshez. Végül a fejlett technikákat, például a pivot táblákat érintettük.
 
 ## GYIK
 

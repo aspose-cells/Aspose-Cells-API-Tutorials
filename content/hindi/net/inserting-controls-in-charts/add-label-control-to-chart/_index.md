@@ -62,7 +62,7 @@ string outputDir = "Your Output Directory";
 Workbook workbook = new Workbook(sourceDir + "sampleAddingLabelControlInChart.xls");
 ```
 
- यहाँ, हम उपयोग कर रहे हैं`Workbook`Aspose.Cells से क्लास डाउनलोड करें और अपनी एक्सेल फ़ाइल खोलें। यह रचनात्मकता को प्रवाहित करने के लिए दरवाज़ा खोलने जैसा है!
+ यहाँ, हम उपयोग कर रहे हैं`Workbook` Aspose.Cells से क्लास डाउनलोड करें और अपनी एक्सेल फ़ाइल खोलें। यह रचनात्मकता को प्रवाहित करने के लिए दरवाज़ा खोलने जैसा है!
 
 ## चरण 3: वर्कशीट तक पहुंचें
 
@@ -94,7 +94,7 @@ Aspose.Cells.Charts.Chart chart = sheet.Charts[0];
 Aspose.Cells.Drawing.Label label = chart.Shapes.AddLabelInChart(600, 600, 350, 900);
 ```
 
- यहाँ,`AddLabelInChart`आपके द्वारा निर्दिष्ट निर्देशांक और आयामों के आधार पर एक लेबल बनाने का ध्यान रखता है। यह आपकी कलाकृति के चारों ओर एक सुंदर फ्रेम चिपकाने जैसा है!
+ यहाँ,`AddLabelInChart` आपके द्वारा निर्दिष्ट निर्देशांक और आयामों के आधार पर एक लेबल बनाने का ध्यान रखता है। यह आपकी कलाकृति के चारों ओर एक सुंदर फ्रेम चिपकाने जैसा है!
 
 ## चरण 6: लेबल टेक्स्ट सेट करें
 

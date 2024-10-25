@@ -135,11 +135,11 @@ chart.NSeries[0].Points[0].Area.ForegroundColor = Color.Cyan;
 chart.NSeries[1].Area.FillFormat.SetOneColorGradient(Color.Lime, 1, Aspose.Cells.Drawing.GradientStyleType.Horizontal, 1);
 ```
 
-Wyjaśnienie: Tutaj dostosowujesz kolory różnych komponentów wykresu, aby był wizualnie uderzający. Każda linia dotyczy różnych obszarów wykresu.
+Wyjaśnienie: Tutaj dostosowujesz kolory różnych komponentów wykresu, aby uczynić go wizualnie uderzającym. Każda linia dotyczy różnych obszarów wykresu.
 
 ## Krok 9: Zastosuj style linii
 
-Następnie możesz zmienić style linii dla serii danych, aby Twój wykres był nie tylko ładny, ale i profesjonalny.
+Następnie możesz zmodyfikować style linii dla serii danych, aby Twój wykres był nie tylko ładny, ale i profesjonalny.
 
 ```csharp
 // Stosowanie stylu linii przerywanej do linii SeriesCollection

@@ -41,7 +41,7 @@ string filePath = dataDir + "Book1.xlsx";
 ## Etapa 2: Criar um objeto de pasta de trabalho
  Em seguida, criaremos um`Workbook` objeto, que atua como um representante do nosso arquivo Excel. 
 ```csharp
-// Crie um objeto Workbook e abra o arquivo a partir do seu caminho
+//Crie um objeto Workbook e abra o arquivo a partir do seu caminho
 Workbook wb = new Workbook(filePath);
 ```
  Aqui, estamos instanciando um novo`Workbook` usando o caminho do arquivo que configuramos anteriormente. Este objeto agora nos permitirá interagir com o conteúdo do arquivo Excel. Se o arquivo`Book1.xlsx` não existir no diretório especificado, você encontrará um erro.

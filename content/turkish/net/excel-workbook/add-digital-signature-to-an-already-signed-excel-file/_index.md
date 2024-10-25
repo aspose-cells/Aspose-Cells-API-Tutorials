@@ -16,7 +16,7 @@ Günümüzün dijital dünyasında, belgeleri güvence altına almak her zamanki
 Kodlamanın inceliklerine dalmadan önce, yerinde olması gereken birkaç şey var:
 
 1.  .NET için Aspose.Cells: .NET projenizde Aspose.Cells kütüphanesinin yüklü olduğundan emin olun. Bunu şuradan indirebilirsiniz:[alan](https://releases.aspose.com/cells/net/).
-2.  Sertifika Dosyası: Geçerli bir sertifika dosyasına (genellikle bir sertifika) ihtiyacınız olacak.`.pfx` Dijital sertifikanızı içeren dosya). Bu dosyanın şifresini bildiğinizden emin olun.
+2.  Sertifika Dosyası: Geçerli bir sertifika dosyasına (genellikle bir sertifika) ihtiyacınız olacak.`.pfx`Dijital sertifikanızı içeren dosya). Bu dosyanın şifresini bildiğinizden emin olun.
 3. Geliştirme Ortamı: Geliştirme ortamınızı Visual Studio veya .NET'i destekleyen herhangi bir IDE ile kurun.
 4. Temel C# Bilgisi: C# programlamaya aşinalık, akıcı bir şekilde takip etmenize yardımcı olacaktır.
 5. Örnek Dosyalar: Dijital olarak imzalanmış bir örnek Excel dosyanız olsun. Bu, yeni bir imza ekleyeceğiniz dosya olacaktır.
@@ -51,7 +51,7 @@ Bu adımda, kaynak ve çıktı dizinleri için yolları almak için bir yöntem 
 
 ## Adım 2: Zaten İmzalanmış Çalışma Kitabını Yükleyin
 
-Sonra, değiştirmek istediğiniz Excel çalışma kitabını yüklemeniz gerekir. Bu, bir örneğinin oluşturulmasıyla yapılır`Workbook` sınıf ve imzalanmış dosyanın yolunun geçirilmesi.
+ Sonra, değiştirmek istediğiniz Excel çalışma kitabını yüklemeniz gerekir. Bu, bir örneğinin oluşturulmasıyla yapılır`Workbook` sınıf ve imzalanmış dosyanın yolunun geçirilmesi.
 
 ```csharp
 // Zaten dijital olarak imzalanmış olan çalışma kitabını yükleyin
@@ -84,7 +84,7 @@ string password = "aspose";
 System.Security.Cryptography.X509Certificates.X509Certificate2 certificate = new System.Security.Cryptography.X509Certificates.X509Certificate2(certFileName, password);
 ```
 
- Değiştirdiğinizden emin olun`AsposeDemo.pfx` ve şifrenizi gerçek sertifika dosya adınız ve şifrenizle girin.
+ Değiştirdiğinizden emin olun`AsposeDemo.pfx`ve şifrenizi gerçek sertifika dosya adınız ve şifrenizle girin.
 
 ## Adım 5: Dijital İmzayı Oluşturun
 
@@ -113,7 +113,7 @@ Bu satırı çalıştırarak, yeni dijital imzayı halihazırda imzalanmış ça
 Son olarak, değiştirilen çalışma kitabını çıktı dizininize kaydetmek ve kullanılan kaynakları serbest bırakmak isteyeceksiniz.
 
 ```csharp
-// Çalışma kitabını kaydedin ve imha edin.
+//Çalışma kitabını kaydedin ve imha edin.
 workbook.Save(outputDir + "outputDigitallySignedByCells.xlsx");
 workbook.Dispose();
 ```

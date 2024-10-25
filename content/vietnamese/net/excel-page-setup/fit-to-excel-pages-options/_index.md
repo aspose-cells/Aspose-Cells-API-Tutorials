@@ -74,7 +74,7 @@ worksheet.PageSetup.FitToPagesWide = 1;
 ```
 
 - `FitToPagesTall` xác định số trang mà bảng tính của bạn sẽ trải dài theo chiều dọc.
-- `FitToPagesWide` xác định thiết lập trang ngang. Thiết lập cả hai thành`1`có nghĩa là nội dung của bạn sẽ vừa vặn trên một trang, biến tài liệu của bạn thành một kiệt tác hợp lý.
+- `FitToPagesWide` xác định thiết lập trang ngang. Thiết lập cả hai thành`1` có nghĩa là nội dung của bạn sẽ vừa vặn trên một trang, biến tài liệu của bạn thành một kiệt tác hợp lý.
 
 ## Bước 3: Lưu sổ làm việc của bạn
 
@@ -97,7 +97,7 @@ Và bạn đã có nó! Bạn đã học cách sử dụng Tùy chọn Fit to Ex
 Aspose.Cells là một thư viện .NET mạnh mẽ để quản lý các tệp Excel theo chương trình, cho phép các nhà phát triển tạo và thao tác bảng tính một cách dễ dàng.
 
 ### Tôi có thể dùng thử Aspose.Cells miễn phí không?
-Có! Bạn có thể đăng ký dùng thử miễn phí[đây](https://releases.aspose.com/).
+ Có! Bạn có thể đăng ký dùng thử miễn phí[đây](https://releases.aspose.com/).
 
 ### Làm thế nào để tôi mua Aspose.Cells?
  Bạn có thể thực hiện mua hàng của bạn[đây](https://purchase.aspose.com/buy).

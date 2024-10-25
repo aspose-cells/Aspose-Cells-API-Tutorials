@@ -83,7 +83,7 @@ dataSheet.Cells["A2"].PutValue("B");
 dataSheet.Cells["A3"].PutValue("C");
 ```
 
-So wie ein Rezept von seinen Zutaten abhängt, beruht die Wirksamkeit Ihres Diagramms auf der Qualität und Organisation Ihrer Eingabedaten.
+So wie ein Rezept von seinen Zutaten abhängt, ist die Wirksamkeit Ihres Diagramms von der Qualität und Organisation Ihrer Eingabedaten abhängig.
 
 ## Schritt 4: Einrichten eines neuen Diagramm-Arbeitsblatts
 

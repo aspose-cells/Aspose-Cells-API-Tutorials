@@ -49,7 +49,7 @@ Eerst moeten we een directory definiëren waar we ons Excel-bestand opslaan. Dit
 // Het pad naar de documentenmap.
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // Ga naar het gewenste pad.
 
-//Maak een map aan als deze nog niet bestaat.
+// Maak een map aan als deze nog niet bestaat.
 bool isExists = System.IO.Directory.Exists(dataDir);
 if (!isExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -88,7 +88,7 @@ StyleFlag flag;
 for (int i = 0; i <= 255; i++)
 {
     style = sheet.Cells.Columns[(byte)i].Style;
-    style.IsLocked = false; // Kolom ontgrendelen
+    style.IsLocked = false; //Kolom ontgrendelen
     flag = new StyleFlag();
     flag.Locked = true; // Zet de vlag op waar voor vergrendeling
     sheet.Cells.Columns[(byte)i].ApplyStyle(style, flag); // Pas de stijl toe

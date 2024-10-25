@@ -10,7 +10,7 @@ url: /fr/net/excel-comment-annotation/format-comments-font-color-alignment/
 ## Introduction
 Si vous avez déjà pensé que vos feuilles Excel pourraient bénéficier d'un peu plus de style ou d'un coup de main, vous n'êtes certainement pas le seul. Les commentaires dans Excel peuvent être de superbes outils de collaboration, fournissant du contexte et des éclaircissements à vos feuilles de calcul sans encombrer la vue. Si vous souhaitez égayer vos commentaires Excel en personnalisant leur police, leur couleur et leur alignement à l'aide d'Aspose.Cells pour .NET, vous êtes au bon endroit ! Ce tutoriel regorge d'idées pratiques qui vous permettront de passer de la question « Que dois-je faire ? » à celle de fier créateur de commentaires Excel élégants et informatifs.
 ## Prérequis
-Avant de passer aux choses sérieuses concernant le formatage de vos commentaires, vous aurez besoin de quelques éléments :
+Avant de passer aux détails du formatage de vos commentaires, vous aurez besoin de quelques éléments :
 1. Configuration de l’environnement : assurez-vous d’avoir un environnement de développement .NET installé, de préférence Visual Studio.
 2.  Aspose.Cells : Téléchargez et installez Aspose.Cells depuis[ici](https://releases.aspose.com/cells/net/). Cette bibliothèque vous permettra d'interagir avec les fichiers Excel sans effort.
 3. Connaissances de base de C# : Bien que nous vous guiderons à travers le code, une compréhension fondamentale de C# vous aidera à peaufiner les choses si nécessaire.
@@ -37,7 +37,7 @@ Avant de commencer à créer votre classeur, vous devez définir l'emplacement d
 ```csharp
 // Le chemin vers le répertoire des documents.
 string dataDir = "Your Document Directory";
-//Créez un répertoire s'il n'est pas déjà présent.
+// Créez un répertoire s'il n'est pas déjà présent.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);

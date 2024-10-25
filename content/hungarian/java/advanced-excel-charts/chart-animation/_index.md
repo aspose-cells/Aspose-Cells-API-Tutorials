@@ -16,7 +16,7 @@ Ebben az oktatóanyagban megvizsgáljuk, hogyan hozhat létre dinamikus diagrama
 
 Mielőtt belevágnánk a diagramanimációk létrehozásába, győződjön meg arról, hogy a következő előfeltételek teljesülnek:
 
-1. Aspose.Cells for Java: Győződjön meg arról, hogy telepítve van az Aspose.Cells for Java könyvtár. Letöltheti innen[itt](https://releases.aspose.com/cells/java/).
+1.  Aspose.Cells for Java: Győződjön meg arról, hogy telepítve van az Aspose.Cells for Java könyvtár. Letöltheti innen[itt](https://releases.aspose.com/cells/java/).
 
 2. Java fejlesztői környezet: Java fejlesztői környezetet kell beállítani a rendszerén.
 
@@ -82,7 +82,7 @@ Ebben az oktatóanyagban megtanultuk, hogyan lehet diagramanimációkat létreho
 
 ### Hogyan tudom megváltoztatni az animáció típusát?
 
- Az animáció típusának megváltoztatásához használja a`setAnimationType` metódus a diagram objektumon. Különféle típusok közül választhat, mint pl`SLIDE`, `FADE` és`GROW_SHRINK`.
+ Az animáció típusának megváltoztatásához használja a`setAnimationType` metódus a diagram objektumon. Különféle típusok közül választhat, mint pl`SLIDE`, `FADE` , és`GROW_SHRINK`.
 
 ### Testreszabhatom az animáció időtartamát?
 
@@ -90,4 +90,4 @@ Ebben az oktatóanyagban megtanultuk, hogyan lehet diagramanimációkat létreho
 
 ### Mi a célja az animáció késleltetésének?
 
- Az animáció késleltetése határozza meg a diagram animációjának megkezdése előtti időközt. Használja a`setAnimationDelay` módszer a késleltetés ezredmásodpercben történő beállítására.
+ Az animáció késleltetése határozza meg a diagram animációjának megkezdése előtti időközt. Használja a`setAnimationDelay`módszer a késleltetés ezredmásodpercben történő beállítására.

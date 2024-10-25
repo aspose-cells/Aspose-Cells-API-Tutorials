@@ -40,7 +40,7 @@ using Aspose.Cells;
 Πρώτα πρώτα, βεβαιωθείτε ότι έχετε έναν καθορισμένο φάκελο για τα έγγραφά σας. Δείτε πώς μπορείτε να δημιουργήσετε έναν κατάλογο εάν δεν υπάρχει:
 ```csharp
 string dataDir = "Your Document Directory";
-//Δημιουργήστε κατάλογο εάν δεν υπάρχει ήδη.
+// Δημιουργήστε κατάλογο εάν δεν υπάρχει ήδη.
 bool isExists = System.IO.Directory.Exists(dataDir);
 if (!isExists)
     System.IO.Directory.CreateDirectory(dataDir);

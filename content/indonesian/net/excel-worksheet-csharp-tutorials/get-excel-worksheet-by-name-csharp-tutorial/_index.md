@@ -45,7 +45,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY"; // Tentukan direktori dokumen Anda
 string InputPath = Path.Combine(dataDir, "book1.xlsx"); // Gabungkan untuk membentuk jalur penuh
 ```
 
- Di sini, ganti`"YOUR DOCUMENT DIRECTORY"`dengan jalur sebenarnya di sistem Anda di mana`book1.xlsx` disimpan. Memanfaatkan`Path.Combine` rapi karena memastikan jalur dibangun dengan benar di seluruh sistem operasi yang berbeda.
+ Di sini, ganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya di sistem Anda di mana`book1.xlsx` disimpan. Memanfaatkan`Path.Combine`rapi karena memastikan jalur dibangun dengan benar di seluruh sistem operasi yang berbeda.
 
 ## Langkah 2: Buat Aliran File
 

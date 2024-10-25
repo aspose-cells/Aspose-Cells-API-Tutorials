@@ -8,7 +8,7 @@ weight: 11
 url: /cs/net/excel-comment-annotation/add-comments-to-cells-or-shapes-excel/
 ---
 ## Zavedení
-Chcete vylepšit své dokumenty Excel přidáním komentářů k buňkám nebo tvarům? Tak to jste na správném místě! Tento článek vás provede používáním Aspose.Cells for .NET k efektivnímu přidávání komentářů do souborů aplikace Excel. Ať už chcete poskytnout zpětnou vazbu, poznámky nebo jen přátelskou poznámku, rozebereme to krok za krokem, abyste mohli plynule sledovat. Takže popadněte virtuální sadu nástrojů a pojďme se ponořit!
+Chcete vylepšit své dokumenty Excel přidáním komentářů k buňkám nebo tvarům? Tak to jste na správném místě! Tento článek vás provede používáním Aspose.Cells pro .NET k efektivnímu přidávání komentářů do souborů aplikace Excel. Ať už chcete poskytnout zpětnou vazbu, poznámky nebo jen přátelskou poznámku, rozebereme to krok za krokem, abyste mohli plynule sledovat. Takže popadněte virtuální sadu nástrojů a pojďme se ponořit!
 ## Předpoklady
 Než se pustíme do přidávání komentářů do listů Excelu, ujistěte se, že máte vše, co potřebujete. Zde je to, co byste měli mít na svém místě:
 - Visual Studio nainstalované: Budete potřebovat IDE, kde můžete psát a kompilovat své aplikace .NET. Visual Studio je oblíbenou volbou mnoha vývojářů.
@@ -32,13 +32,13 @@ using Aspose.Cells;
 ```
 Nyní jste připraveni manipulovat se soubory aplikace Excel pomocí Aspose.Cells. 
 
-vyřešenými předpoklady se vrhneme na podstatu průvodce: přidávání komentářů k buňkám nebo tvarům v souboru aplikace Excel. Vezmeme to krok za krokem.
+S vyřešenými předpoklady se vrhneme na podstatu průvodce: přidávání komentářů k buňkám nebo tvarům v souboru aplikace Excel. Vezmeme to krok za krokem.
 ## Krok 1: Nastavení adresáře dokumentů
 Než začneme se sešitem manipulovat, musíme definovat, kde bude náš dokument uložen. Zde je návod, jak nastavit adresář dokumentů.
 ```csharp
 // Cesta k adresáři dokumentů.
 string dataDir = "Your Document Directory";
-//Vytvořte adresář, pokud ještě není přítomen.
+// Vytvořte adresář, pokud ještě není přítomen.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -94,7 +94,7 @@ workbook.Save(dataDir + "book1.out.xls");
 ```
 Tento krok je jako zavření knihy po napsání fantastického příběhu – chcete mít jistotu, že se uloží!
 ## Závěr
-A tady to máte! Úspěšně jste přidali komentáře do buněk v souboru aplikace Excel pomocí Aspose.Cells for .NET. Komentáře mohou být užitečné pro společné projekty nebo jednoduše pro zanechání připomenutí pro sebe. Nyní, když jste prošli celým procesem, jste připraveni posunout své znalosti Excelu na další úroveň.
+tady to máte! Úspěšně jste přidali komentáře do buněk v souboru aplikace Excel pomocí Aspose.Cells for .NET. Komentáře mohou být užitečné pro společné projekty nebo jednoduše pro zanechání připomenutí pro sebe. Nyní, když jste prošli celým procesem, jste připraveni posunout své znalosti Excelu na další úroveň.
 ## FAQ
 ### Mohu přidávat komentáře k tvarům pomocí Aspose.Cells?
 Ano! Ke tvarům můžete přidávat komentáře podobným způsobem jako k buňkám.

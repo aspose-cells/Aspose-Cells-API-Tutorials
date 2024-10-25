@@ -9,7 +9,7 @@ url: /hu/net/excel-workbook/create-shared-workbook/
 ---
 ## Bevezetés
 
-megosztott munkafüzet létrehozása megváltoztathatja az együttműködést, különösen akkor, ha különböző csapatok vagy részlegek adataival zsonglőrködik. Az Aspose.Cells for .NET segítségével egy robusztus eszköz áll rendelkezésére az Excel-fájlok programozott kezeléséhez. Ez az útmutató végigvezeti Önt a megosztott munkafüzet létrehozásának lépésein, így az együttműködés egyszerűbbé és hatékonyabbá válik. Legyen szó kezdő vagy tapasztalt fejlesztőről, ezzel az egyszerű, de hatékony oktatóanyaggal egy kis élvezet vár rád!
+A megosztott munkafüzet létrehozása megváltoztathatja az együttműködést, különösen akkor, ha különböző csapatok vagy részlegek adataival zsonglőrködik. Az Aspose.Cells for .NET segítségével egy robusztus eszköz áll rendelkezésére az Excel-fájlok programozott kezeléséhez. Ez az útmutató végigvezeti Önt a megosztott munkafüzet létrehozásának lépésein, így az együttműködés egyszerűbbé és hatékonyabbá válik. Legyen szó kezdő vagy tapasztalt fejlesztőről, ezzel az egyszerű, de hatékony oktatóanyaggal egy kis élvezet vár rád!
 
 ## Előfeltételek
 
@@ -76,7 +76,7 @@ Itt az ideje, hogy munkafüzetét együttműködési remekművé tegye! Megoszt�
 //Oszd meg a munkafüzetet
 wb.Settings.Shared = true;
 ```
- Beállítás`wb.Settings.Shared` hogy`true`azt jelzi, hogy ezt a munkafüzetet egyszerre több felhasználó is elérheti. Ez olyan, mintha kiosztaná a háza kulcsait a barátoknak – tetszés szerint jöhetnek-mennek!
+ Beállítás`wb.Settings.Shared` hogy`true` azt jelzi, hogy ezt a munkafüzetet egyszerre több felhasználó is elérheti. Ez olyan, mintha kiosztaná a háza kulcsait a barátoknak – tetszés szerint jöhetnek-mennek!
 
 ## 4. lépés: Mentse el a megosztott munkafüzetet
 
@@ -99,7 +99,7 @@ Ez az egyszerű kódsor egy üzenetet küld a konzolnak, jelezve, hogy a feladat
 
 ## Következtetés 
 
-megosztott munkafüzet létrehozása nem csupán egy Excel-fájl létrehozását jelenti; a csapatok közötti együttműködés és hatékonyság fokozásáról szól. Az Aspose.Cells for .NET segítségével a folyamat egyszerű és felhasználóbarát. Az itt leírt lépéseket követve könnyedén létrehozhat egy munkafüzetet, amely lehetővé teszi több felhasználó számára, hogy egyidejűleg kommunikáljon vele. Akkor minek várni? Merüljön el, és kezdjen el olyan megosztott munkafüzeteket építeni, amelyek lehetővé teszik csapatai számára az együttműködést, mint még soha!
+megosztott munkafüzet létrehozása nem csupán egy Excel-fájl létrehozását jelenti; a csapatok közötti együttműködés és hatékonyság fokozásáról szól. Az Aspose.Cells for .NET segítségével a folyamat egyszerű és felhasználóbarát. Az itt vázolt lépéseket követve könnyedén létrehozhat egy munkafüzetet, amely lehetővé teszi több felhasználó számára, hogy egyidejűleg kommunikáljon vele. Akkor minek várni? Merüljön el, és kezdjen el olyan megosztott munkafüzeteket építeni, amelyek lehetővé teszik csapatai számára az együttműködést, mint még soha!
 
 ## GYIK
 

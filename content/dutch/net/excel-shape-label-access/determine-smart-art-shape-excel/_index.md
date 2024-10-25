@@ -13,7 +13,7 @@ In deze tutorial leiden we u door de stappen die nodig zijn om te bepalen of een
 ## Vereisten
 Voordat we ingaan op de technische details, bespreken we eerst wat u moet hebben om deze tutorial te kunnen volgen:
 1. Visual Studio: Dit is waar we onze code gaan schrijven. Zorg ervoor dat je een versie hebt die compatibel is met .NET Framework of .NET Core.
-2. Aspose.Cells voor .NET: Deze bibliotheek moet geïnstalleerd zijn. U kunt deze downloaden van de[Aspose-website](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells voor .NET: Deze bibliotheek moet geïnstalleerd zijn. U kunt deze downloaden van de[Aspose-website](https://releases.aspose.com/cells/net/).
 3. Basiskennis programmeren: Kennis van C# en begrip van concepten zoals klassen en methoden zorgen ervoor dat dit proces soepeler verloopt.
 4. Voorbeeld Excel-bestand: U hebt ook een voorbeeld Excel-bestand met vormen en Smart Art nodig om te testen.
 Als u aan deze vereisten hebt voldaan, bent u klaar om aan de slag te gaan met coderen!
@@ -46,7 +46,7 @@ Allereerst moet u de locatie van uw Excel-bestand opgeven.
 // Bron directory
 string sourceDir = "Your Document Directory";
 ```
- Vervangen`"Your Document Directory"` met het pad waar je`sampleSmartArtShape.xlsx` bestand zich bevindt. Hier zal de applicatie zoeken naar het Excel-bestand dat de vormen bevat die u wilt inspecteren.
+ Vervangen`"Your Document Directory"` met het pad waar je`sampleSmartArtShape.xlsx`bestand zich bevindt. Hier zal de applicatie zoeken naar het Excel-bestand dat de vormen bevat die u wilt inspecteren.
 ## Stap 2: Laad de Excel-werkmap
  Vervolgens laden we het Excel-bestand in Aspose.Cells`Workbook` klas.
 ```csharp
@@ -60,7 +60,7 @@ Nadat u de werkmap hebt geladen, moet u het specifieke werkblad openen dat de vo
 // Toegang tot eerste werkblad
 Worksheet ws = wb.Worksheets[0];
 ```
- Excel-bestanden kunnen meerdere werkbladen bevatten. Door indexering met`[0]`we openen het eerste werkblad in onze werkmap. 
+ Excel-bestanden kunnen meerdere werkbladen bevatten. Door indexering met`[0]`, we openen het eerste werkblad in onze werkmap. 
 ## Stap 4: Toegang tot de vorm
 Nu gaan we de specifieke vorm ophalen die we willen controleren.
 ```csharp
@@ -83,7 +83,7 @@ Smart Art is een functie in Excel waarmee gebruikers visueel aantrekkelijke afbe
 ### Kan ik Smart Art-vormen aanpassen met Aspose.Cells?
 Ja, u kunt Smart Art-vormen programmatisch bewerken, inclusief het wijzigen van stijlen en details.
 ### Is Aspose.Cells gratis te gebruiken?
- Hoewel er een proefversie beschikbaar is, is Aspose.Cells een betaalde bibliotheek. U kunt de volledige versie kopen[hier](https://purchase.aspose.com/buy).
+Hoewel er een proefversie beschikbaar is, is Aspose.Cells een betaalde bibliotheek. U kunt de volledige versie kopen[hier](https://purchase.aspose.com/buy).
 ### Hoe kan ik ondersteuning krijgen als ik problemen ondervind?
  U kunt contact opnemen voor hulp op de[Aspose Ondersteuningsforum](https://forum.aspose.com/c/cells/9).
 ### Waar kan ik meer documentatie voor Aspose.Cells vinden?

@@ -16,7 +16,7 @@ url: /fr/net/excel-security/advanced-protection-settings-for-excel-worksheet/
 Avant de plonger dans le code, assurons-nous que vous disposez de tout ce dont vous avez besoin :
 
 1. Environnement de développement : Visual Studio doit être installé sur votre machine, car il fournit un excellent IDE pour le développement .NET.
-2. Bibliothèque Aspose.Cells : Téléchargez la bibliothèque Aspose.Cells. Vous pouvez l'obtenir à partir du[Page de téléchargement d'Aspose](https://releases.aspose.com/cells/net/).
+2.  Bibliothèque Aspose.Cells : Téléchargez la bibliothèque Aspose.Cells. Vous pouvez l'obtenir à partir du[Page de téléchargement d'Aspose](https://releases.aspose.com/cells/net/).
 3. Connaissances de base en C# : assurez-vous d'avoir une bonne compréhension de C# et de .NET Framework pour suivre facilement.
 4. Créer un projet : configurez une nouvelle application console dans Visual Studio où nous écrirons le code.
 
@@ -48,12 +48,12 @@ Décomposons l'implémentation en étapes faciles à gérer. Nous allons créer 
 
 ## Étape 1 : Créez un flux de fichiers pour votre fichier Excel
 
-Tout d'abord, nous devons charger un fichier Excel existant. Nous utiliserons un`FileStream` pour y accéder.
+ Tout d'abord, nous devons charger un fichier Excel existant. Nous utiliserons un`FileStream` pour y accéder.
 
 ```csharp
 // Le chemin vers le répertoire des documents.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-// Créer un flux de fichiers pour ouvrir le fichier Excel
+//Créer un flux de fichiers pour ouvrir le fichier Excel
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
  Le`FileStream` permet de lire le fichier Excel spécifié. Assurez-vous de remplacer « VOTRE RÉPERTOIRE DE DOCUMENTS » par le chemin réel où se trouve votre fichier Excel.
@@ -140,7 +140,7 @@ Cette étape est cruciale pour gérer efficacement les ressources. Ne pas fermer
 
 ## Conclusion
 
-Et voilà ! Vous avez implémenté avec succès des paramètres de protection avancés pour une feuille de calcul Excel à l'aide d'Aspose.Cells pour .NET. En contrôlant les autorisations des utilisateurs, vous pouvez préserver l'intégrité de vos données tout en offrant la flexibilité nécessaire. Ce processus sécurise non seulement vos informations, mais permet également de collaborer sans risquer de perdre des données. 
+Et voilà ! Vous avez implémenté avec succès des paramètres de protection avancés pour une feuille de calcul Excel à l'aide d'Aspose.Cells pour .NET. En contrôlant les autorisations des utilisateurs, vous pouvez préserver l'intégrité de vos données tout en permettant la flexibilité nécessaire. Ce processus sécurise non seulement vos informations, mais permet également de collaborer sans risquer de perdre des données. 
 
 ## FAQ
 

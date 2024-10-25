@@ -71,10 +71,10 @@ foreach (ReferredArea area in ret)
     Console.WriteLine(CellsHelper.CellIndexToName(area.EndRow, area.EndColumn));
 }
 ```
- Ebben a részletben egy egyszerűt használunk`foreach` hurkot a B4-be betáplált cellák lapneveinek és cellahivatkozásainak kinyomtatásához. A`CellsHelper.CellIndexToName` függvény a sor- és oszlopindexeket olvasható cellahivatkozásokká alakítja át, például "A1", "B2" stb. 
+ Ebben a részletben egy egyszerűt használunk`foreach` hurkot a B4-be betáplált cellák lapneveinek és cellahivatkozásainak kinyomtatásához. A`CellsHelper.CellIndexToName` A függvény a sor- és oszlopindexeket olvasható cellahivatkozásokká alakítja át, például "A1", "B2" stb. 
 
 ## Következtetés
-És megvan! Sikeresen nyomon követte a precedenseket az Excelben az Aspose.Cells for .NET használatával. A cellafüggőségek megértése javíthatja táblázatkezelési készségeit, és egyértelműbbé teheti adatvezérelt döntéseit. Olyan ez, mint egy rejtvény megoldása, összerakni, honnan származnak az adatok. Most pedig próbálja ki ezt saját adatain, és engedje szabadjára az Aspose.Cells erejét!
+És megvan! Sikeresen nyomon követte a precedenseket az Excelben az Aspose.Cells for .NET használatával. A cellafüggőségek megértése javíthatja táblázatkezelési készségeit, és egyértelműbbé teheti adatvezérelt döntéseit. Olyan ez, mint egy rejtvény megoldása, összerakni, honnan származnak az adatok. Most menjen tovább, próbálja ki ezt saját adatain, és engedje szabadjára az Aspose.Cells erejét!
 ## GYIK
 ### Mi az Aspose.Cells?  
 Az Aspose.Cells egy .NET-könyvtár, amely Excel-táblázatok létrehozására, kezelésére és konvertálására szolgál Microsoft Excel nélkül.
@@ -85,4 +85,4 @@ Az Aspose.Cells egy .NET-könyvtár, amely Excel-táblázatok létrehozására, 
 ### Az Aspose.Cells kompatibilis a .NET Core-al?  
 Igen, az Aspose.Cells támogatja a .NET Core-t, így különféle .NET-keretrendszereken használható.
 ### Hol találok támogatást az Aspose.Cells számára?  
-Segítséget kaphat a[Aspose támogatási fórum](https://forum.aspose.com/c/cells/9).
+ Segítséget kaphat a[Aspose támogatási fórum](https://forum.aspose.com/c/cells/9).

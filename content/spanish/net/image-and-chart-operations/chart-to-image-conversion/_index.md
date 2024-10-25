@@ -36,7 +36,7 @@ Comenzamos definiendo la ruta del directorio de nuestro documento y asegurándon
 ```csharp
 // Define el directorio para guardar las imágenes
 string dataDir = "Your Document Directory";
-// Comprueba si el directorio existe
+//Comprueba si el directorio existe
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -93,7 +93,7 @@ chart.NSeries.Add("A1:B3", true);
 ## Paso 7: Convertir el gráfico en una imagen
 El momento de la verdad: ¡vamos a convertir este gráfico en un archivo de imagen!
 
- Aquí usamos el`ToImage`Método para convertir el gráfico en un formato de imagen de su elección. En este caso, lo convertiremos a un formato EMF (metarchivo mejorado).
+ Aquí usamos el`ToImage` Método para convertir el gráfico en un formato de imagen de su elección. En este caso, lo convertiremos a un formato EMF (metarchivo mejorado).
 ```csharp
 // Convierte el gráfico en una imagen y guárdalo en el directorio
 chart.ToImage(dataDir + "Chart.emf", ImageFormat.Emf);

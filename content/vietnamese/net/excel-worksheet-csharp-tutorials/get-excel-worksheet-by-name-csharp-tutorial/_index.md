@@ -45,7 +45,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY"; // Chỉ định thư mục tài li�
 string InputPath = Path.Combine(dataDir, "book1.xlsx"); // Kết hợp để tạo thành đường dẫn đầy đủ
 ```
 
- Ở đây, thay thế`"YOUR DOCUMENT DIRECTORY"`với đường dẫn thực tế trên hệ thống của bạn nơi`book1.xlsx` được lưu trữ. Sử dụng`Path.Combine` rất gọn gàng vì nó đảm bảo đường dẫn được xây dựng chính xác trên các hệ điều hành khác nhau.
+ Ở đây, thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế trên hệ thống của bạn nơi`book1.xlsx` được lưu trữ. Sử dụng`Path.Combine`rất gọn gàng vì nó đảm bảo đường dẫn được xây dựng chính xác trên các hệ điều hành khác nhau.
 
 ## Bước 2: Tạo luồng tệp
 

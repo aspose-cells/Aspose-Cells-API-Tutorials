@@ -16,7 +16,7 @@ Het beheren van Excel-bestanden kan soms aanvoelen als het navigeren door een do
 Voordat we in de daadwerkelijke codering duiken, is het essentieel om ervoor te zorgen dat je alles correct hebt ingesteld. Dit is wat je nodig hebt:
 
 1. Visual Studio: Zorg ervoor dat Visual Studio (een versie die .NET ondersteunt) op uw computer is geïnstalleerd.
-2.  Aspose.Cells voor .NET: Download en installeer de Aspose.Cells-bibliotheek van[De site van Aspose](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells voor .NET: Download en installeer de Aspose.Cells-bibliotheek van[De site van Aspose](https://releases.aspose.com/cells/net/).
 3. Basiskennis van C#: Een beetje kennis van C#-programmering is handig, omdat we in een C#-context werken.
 4.  Voorbeeld Excel-bestand: Voor demonstratie kunt u een voorbeeld Excel-bestand voorbereiden (bijv.`sampleChangeCellsAlignmentAndKeepExistingFormatting.xlsx`) dat een eerste celopmaak bevat.
 
@@ -44,7 +44,7 @@ using Aspose.Cells.Drawing;
 using Aspose.Cells.Tables;
 ```
 
-Hiermee kunt u de klassen en methoden van de Aspose.Cells-bibliotheek naadloos gebruiken.
+Hierdoor kunt u de klassen en methoden van de Aspose.Cells-bibliotheek naadloos gebruiken.
 
 Nu we de vereisten op orde hebben en de pakketten hebben geïmporteerd, gaan we het proces voor het wijzigen van de uitlijning van cellen stap voor stap uitleggen.
 
@@ -89,7 +89,7 @@ Dit voorbeeld opent het eerste werkblad. Als uw gegevens op een ander werkblad s
 Bepaal welke cellen u wilt wijzigen door een bereik te maken. Deze selectie richt zich op een bepaald bereik, zoals "B2:D7".
 
 ```csharp
-// Maak een cellenbereik.
+//Maak een cellenbereik.
 Range rng = ws.Cells.CreateRange("B2:D7");
 ```
 
@@ -122,14 +122,14 @@ StyleFlag flag = new StyleFlag();
 flag.Alignments = true;
 ```
 
- Door de`Alignments`eigendom van de StyleFlag naar`true`, vertelt u Aspose.Cells om de uitlijningsstijlen correct toe te passen.
+ Door de`Alignments` eigendom van de StyleFlag naar`true`, vertelt u Aspose.Cells om de uitlijningsstijlen correct toe te passen.
 
 ## Stap 7: Pas de stijl toe op het celbereik
 
 Nu u uw stijlen en vlaggen op de juiste plaats hebt gezet, is het tijd om deze stijlen toe te passen op het cellenbereik:
 
 ```csharp
-// Stijl toepassen op een cellenbereik.
+//Stijl toepassen op een cellenbereik.
 rng.ApplyStyle(st, flag);
 ```
 

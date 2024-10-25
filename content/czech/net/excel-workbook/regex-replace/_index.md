@@ -16,7 +16,7 @@ Už vás nebaví trávit hodiny ručním prováděním pečlivých změn v excel
 Než se pustíme do programování, ujistíme se, že jste dobře vybaveni na cestu, která vás čeká.
 
 1. .NET Framework: Ujistěte se, že máte nastavené prostředí .NET. Ať už je to .NET Core nebo .NET Framework, měli byste být připraveni.
-2.  Aspose.Cells Library: Tato knihovna je vaším klíčem k odemykání výkonných tabulkových manipulací. Můžete[stáhněte si jej zde](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells Library: Tato knihovna je vaším klíčem k odemykání výkonných tabulkových manipulací. Můžete[stáhněte si jej zde](https://releases.aspose.com/cells/net/).
 3. IDE: Použijte své oblíbené integrované vývojové prostředí (IDE), jako je Visual Studio, díky kterému bude vaše kódování mnohem plynulejší.
 4. Základní znalosti programování: Výhodou bude znalost C# a konceptů regulárních výrazů.
 
@@ -77,7 +77,7 @@ replace.RegexKey = true; // Uveďte, že používáme regulární výraz
 ```
 
 V této konfiguraci:
-- `CaseSensitive` je nastaveno na`false`což znamená, že naše hledání „KIM“ bude ignorovat, zda se jedná o velká nebo malá písmena.
+- `CaseSensitive` je nastaveno na`false`, což znamená, že naše hledání „KIM“ bude ignorovat, zda se jedná o velká nebo malá písmena.
 - `MatchEntireCellContents` je nastaveno na`false` takže můžeme nahradit části obsahu buňky.
 - `RegexKey` je nastaveno na`true` abychom naznačili, že pro naše vyhledávání použijeme regulární výraz.
 
@@ -111,7 +111,7 @@ Nakonec vytiskněme zprávu o úspěchu, abychom potvrdili, že naše operace by
 Console.WriteLine("RegexReplace executed successfully.");
 ```
 
-tímto posledním řádkem získáte potvrzení na konzoli. Vždy je dobré vědět, že vše proběhlo podle plánu!
+S tímto posledním řádkem získáte potvrzení na konzoli. Vždy je dobré vědět, že vše proběhlo podle plánu!
 
 ## Závěr
 
@@ -132,4 +132,4 @@ Ano, podporuje různé formáty včetně XLS, XLSX, CSV a dalších.
 Ano, můžete vytvořit složitější vzory regulárních výrazů, aby odpovídaly více výrazům současně.
 
 ### Kde najdu další příklady a dokumentaci pro Aspose.Cells?  
- Můžete najít komplexní dokumentaci[zde](https://reference.aspose.com/cells/net/).
+Můžete najít komplexní dokumentaci[zde](https://reference.aspose.com/cells/net/).

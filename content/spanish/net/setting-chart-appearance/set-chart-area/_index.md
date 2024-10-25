@@ -17,7 +17,7 @@ Antes de sumergirnos en los detalles de la creación de gráficos, asegurémonos
 
 1. Visual Studio: Asegúrate de tener Visual Studio instalado en tu equipo. Es fundamental para escribir y ejecutar código .NET.
 2. .NET Framework: esta guía funciona mejor con .NET Framework o .NET Core. Asegúrese de tener instalada la versión requerida (4.5 o posterior).
-3.  Aspose.Cells: Necesitará la biblioteca Aspose.Cells. Puede descargarla desde[aquí](https://releases.aspose.com/cells/net/).
+3. Aspose.Cells: Necesitará la biblioteca Aspose.Cells. Puede descargarla desde[aquí](https://releases.aspose.com/cells/net/).
 4. Conocimientos básicos de C#: una comprensión básica de la programación en C# te ayudará a comprender mejor los pasos. No te preocupes si no eres un profesional: ¡te lo explicaré todo!
 
 ## Importar paquetes
@@ -109,7 +109,7 @@ Aspose.Cells.Charts.Chart chart = worksheet.Charts[chartIndex];
 
 Tu gráfico necesita saber qué datos visualizar. Vinculamos los datos ingresados previamente al gráfico.
 
-continuación se explica cómo podemos agregar una serie a nuestro gráfico utilizando los datos que acabamos de ingresar:
+A continuación se explica cómo podemos agregar una serie a nuestro gráfico utilizando los datos que acabamos de ingresar:
 
 ```csharp
 chart.NSeries.Add("A1:B3", true);
@@ -174,4 +174,4 @@ Aspose.Cells es una biblioteca .NET para gestionar archivos de Excel mediante pr
  Puede buscar ayuda y soporte en la comunidad y los foros de Aspose.Cells disponibles.[aquí](https://forum.aspose.com/c/cells/9).
 
 ### ¿Cómo puedo comprar una licencia?
- Puede comprar una licencia directamente desde el sitio web de Aspose[aquí](https://purchase.aspose.com/buy).
+Puede comprar una licencia directamente desde el sitio web de Aspose[aquí](https://purchase.aspose.com/buy).

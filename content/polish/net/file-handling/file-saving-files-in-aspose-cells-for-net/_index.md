@@ -46,7 +46,7 @@ using Aspose.Cells;
 ```
 Informuje to Twoją aplikację, że będziesz korzystać z funkcjonalności biblioteki Aspose.Cells.
 
-Teraz, gdy skonfigurowałeś środowisko i zaimportowałeś niezbędne pakiety, przejdźmy do soczystej części — zapisywania skoroszytów programu Excel w różnych formatach. Podzielimy ten proces na łatwe do wykonania kroki, aby zwiększyć przejrzystość.
+Teraz, gdy skonfigurowałeś środowisko i zaimportowałeś niezbędne pakiety, przejdźmy do soczystej części — zapisywania skoroszytów programu Excel w różnych formatach. Podzielimy ten proces na łatwe do wykonania kroki, aby było jaśniej.
 
 ## Krok 1: Określ katalog dokumentów
 
@@ -135,4 +135,4 @@ Oczywiście! Aspose.Cells może również czytać i modyfikować istniejące pli
 Obsługuje różne formaty, takie jak XLS, XLSX, XLSB, ODS, PDF i inne.
 
 ### Gdzie mogę znaleźć pomoc dotyczącą Aspose.Cells?  
-Możesz uzyskać pomoc na[Forum Aspose](https://forum.aspose.com/c/cells/9).
+ Możesz uzyskać pomoc na[Forum Aspose](https://forum.aspose.com/c/cells/9).

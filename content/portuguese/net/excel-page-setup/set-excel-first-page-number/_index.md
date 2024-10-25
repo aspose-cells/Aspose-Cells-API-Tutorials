@@ -110,10 +110,10 @@ Aspose.Cells é uma biblioteca .NET projetada para criar, manipular e converter 
  Você pode baixar o Aspose.Cells do[site](https://releases.aspose.com/cells/net/).
 
 ### Existe uma versão gratuita do Aspose.Cells?
-Sim! Você pode experimentar o Aspose.Cells gratuitamente baixando uma versão de teste[aqui](https://releases.aspose.com/).
+ Sim! Você pode experimentar o Aspose.Cells gratuitamente baixando uma versão de teste[aqui](https://releases.aspose.com/).
 
 ### Onde posso obter suporte?
- Para quaisquer questões relacionadas com suporte, você pode visitar o[Fórum Aspose](https://forum.aspose.com/c/cells/9).
+Para quaisquer questões relacionadas com suporte, você pode visitar o[Fórum Aspose](https://forum.aspose.com/c/cells/9).
 
 ### Posso usar o Aspose.Cells em um ambiente de nuvem?
 Sim, o Aspose.Cells pode ser integrado a qualquer aplicativo .NET, incluindo configurações baseadas em nuvem, desde que o tempo de execução do .NET seja compatível.

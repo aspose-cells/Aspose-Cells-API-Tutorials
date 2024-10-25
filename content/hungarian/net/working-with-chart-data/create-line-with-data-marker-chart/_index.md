@@ -18,7 +18,7 @@ Mielőtt elkezdené, győződjön meg arról, hogy minden a helyén van, hogy z�
 1.  Aspose.Cells for .NET Library – Ezt telepítenie kell. Megfoghatod[itt](https://releases.aspose.com/cells/net/).
 2. .NET-keretrendszer – Győződjön meg arról, hogy a fejlesztői környezet a .NET legújabb verziójával van beállítva.
 3. IDE (Integrated Development Environment) – a Visual Studio ajánlott.
-4.  Érvényes Aspose.Cells licenc – Ha nem rendelkezik ilyennel, kérhet a[ideiglenes engedély](https://purchase.aspose.com/temporary-license/)vagy nézze meg őket[ingyenes próbaverzió](https://releases.aspose.com/).
+4.  Érvényes Aspose.Cells licenc – Ha nem rendelkezik ilyennel, kérhet a[ideiglenes engedély](https://purchase.aspose.com/temporary-license/) vagy nézze meg őket[ingyenes próbaverzió](https://releases.aspose.com/).
 
 Készen állsz? Bontsuk szét!
 
@@ -183,7 +183,7 @@ diagramok programozott létrehozása az Excelben ijesztőnek tűnhet, de az Aspo
 ## GYIK
 
 ### Testreszabhatom a diagramot tovább?  
-Teljesen! Az Aspose.Cells rengeteg testreszabási lehetőséget kínál, a betűtípusoktól a rácsvonalakig és egyebekig.
+Teljesen! Az Aspose.Cells rengeteg testreszabási lehetőséget kínál, a betűtípusoktól a rácsvonalakig és így tovább.
 
 ### Szükségem van engedélyre az Aspose.Cells használatához?  
  Igen, a teljes funkcionalitáshoz licenc szükséges. Kaphatsz a[ideiglenes engedély](https://purchase.aspose.com/temporary-license/) vagy kezdje a-val[ingyenes próbaverzió](https://releases.aspose.com/).

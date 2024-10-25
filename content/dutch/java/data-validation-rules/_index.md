@@ -2,7 +2,7 @@
 title: Gegevensvalidatieregels
 linktitle: Gegevensvalidatieregels
 second_title: Aspose.Cells Java Excel-verwerkings-API
-description: Master Data Validation Rules met Aspose.Cells voor Java. Maak foutloze Excel-sheets. Ontdek nu uitgebreide tutorials!
+description: Master Data Validation Rules met Aspose.Cells voor Java. Maak foutloze Excel-sheets. Bekijk nu uitgebreide tutorials!
 type: docs
 weight: 11
 url: /nl/java/data-validation-rules/

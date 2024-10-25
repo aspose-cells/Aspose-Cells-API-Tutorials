@@ -16,7 +16,7 @@ C# ve .NET hakkında temel bir anlayışa sahip olmalısınız. Bu eğitim, prog
 ### Çevre Kurulumu
 1. Visual Studio: Visual Studio'nun yüklü olduğundan emin olun. Kodlamayı basitleştiren bir geliştirme ortamıdır.
 2.  Aspose.Cells Kütüphanesi: Aspose.Cells kütüphanesine ihtiyacınız var. Henüz indirmediyseniz, indirebilirsiniz[Burada](https://releases.aspose.com/cells/net/).
-3.  Örnek Excel Dosyası: Bir örnek Excel dosyası oluşturun veya indirin. Bu eğitim için, adlı bir dosya kullanacağız`sampleSetMarginsOfCommentOrShapeInsideTheWorksheet.xlsx`.
+3. Örnek Excel Dosyası: Bir örnek Excel dosyası oluşturun veya indirin. Bu eğitim için, adlı bir dosya kullanacağız`sampleSetMarginsOfCommentOrShapeInsideTheWorksheet.xlsx`.
 ## Paketleri İçe Aktarma
 Yolculuğumuzun ilk adımı gerekli paketleri içe aktarmaktır. Projenize Aspose.Cells ad alanlarını eklemeniz gerekecektir. Bu, Aspose.Cells'in sunduğu tüm işlevlere erişmenizi sağlayacaktır.
 ### Projenizi Açın
@@ -72,7 +72,7 @@ Her şeklin, değiştirmemiz gereken bir hizalama ayarı zaten olabilir. Burada,
 Aspose.Cells.Drawing.Texts.ShapeTextAlignment txtAlign = sh.TextBody.TextAlignment;
 txtAlign.IsAutoMargin = false;
 ```
- Ayarlayarak`IsAutoMargin` false'a çevirirsek, artık kenar boşlukları üzerinde kontrole sahibiz.
+ Ayarlayarak`IsAutoMargin`false'a çevirirsek, artık kenar boşlukları üzerinde kontrole sahibiz.
 ## Adım 6: Kenar Boşluklarını Ayarlayın
 Bu, kenar boşluklarını tanımladığımız kritik adımdır. Bu değerleri ihtiyaçlarınıza göre özelleştirebilirsiniz.
 ```csharp
@@ -105,4 +105,4 @@ Aspose.Cells, Microsoft Excel'in kurulu olmasına gerek kalmadan Excel dosyalar�
 ### Kütüphanenin mevcut projelere entegrasyonu kolay mı?
 Kesinlikle! Aspose.Cells .NET projelerine kolayca entegre olur ve API'si basittir.
 ### Aspose.Cells için desteği nerede bulabilirim?
-Aspose aracılığıyla destek alabilirsiniz[forum](https://forum.aspose.com/c/cells/9).
+ Aspose aracılığıyla destek alabilirsiniz[forum](https://forum.aspose.com/c/cells/9).

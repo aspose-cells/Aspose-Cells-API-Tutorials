@@ -70,7 +70,7 @@ string outputDir = "C:\\YourOutputDirectory\\"; // Byt till din angivna katalog
 
 ## Steg 2: Instantiera ett arbetsboksobjekt
 
-Därefter skapar vi en instans av`Workbook` klass. Det är här allt vårt arbete kommer att ske.
+ Därefter skapar vi en instans av`Workbook` klass. Det är här allt vårt arbete kommer att ske.
 ```csharp
 Workbook workbook = new Workbook();
 ```

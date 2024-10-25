@@ -15,7 +15,7 @@ Het maken van visueel aantrekkelijke en informatieve grafieken is essentieel voo
 
 Voordat we met de tutorial beginnen, zorg ervoor dat je alles bij de hand hebt:
 
-- Aspose.Cells voor .NET: Zorg ervoor dat u de Aspose.Cells-bibliotheek hebt gedownload en in uw project hebt gerefereerd. U kunt het krijgen[hier](https://releases.aspose.com/cells/net/).
+-  Aspose.Cells voor .NET: Zorg ervoor dat u de Aspose.Cells-bibliotheek hebt gedownload en in uw project hebt gerefereerd. U kunt het krijgen[hier](https://releases.aspose.com/cells/net/).
 - Ontwikkelomgeving: Elke .NET-ontwikkelomgeving is geschikt, maar Visual Studio wordt sterk aanbevolen vanwege de robuuste ondersteuning en hulpmiddelen.
 - Basiskennis van C#: Kennis van de basisbeginselen van C#-programmeren is nuttig omdat we code gaan schrijven.
 
@@ -76,7 +76,7 @@ worksheet.Cells["B2"].PutValue(32);
 worksheet.Cells["B3"].PutValue(50);
 ```
 
- Hier voeren we willekeurige waarden in cellen in`A1` naar`B3`Deze data zal dienen als de databron voor onze grafiek. Het is essentieel om zinvolle data te hebben om te visualiseren; anders zou de grafiek alleen maar bestaan uit mooie lijnen zonder context!
+ Hier voeren we willekeurige waarden in cellen in`A1` naar`B3`. Deze data zal dienen als de databron voor onze grafiek. Het is essentieel om zinvolle data te hebben om te visualiseren; anders zou de grafiek alleen maar bestaan uit mooie lijnen zonder context!
 
 ## Stap 5: Voeg een grafiek toe aan het werkblad
 
@@ -161,7 +161,7 @@ Aspose.Cells voor .NET is een krachtige API voor het bewerken van Excel-spreadsh
 Ja! Aspose.Cells biedt uitgebreide aanpassingsmogelijkheden, waaronder lettertypen, stijlen en opmaak voor grafiekelementen.
 
 ### Waar kan ik meer documentatie vinden?
- Uitgebreide documentatie vindt u op[Referentiepagina van Aspose](https://reference.aspose.com/cells/net/).
+Uitgebreide documentatie vindt u op[Referentiepagina van Aspose](https://reference.aspose.com/cells/net/).
 
 ### Is er een gratis proefversie beschikbaar voor Aspose.Cells?
  Ja! Je kunt het uitproberen door het te downloaden van[hier](https://releases.aspose.com/).

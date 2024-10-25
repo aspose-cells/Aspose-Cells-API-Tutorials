@@ -79,9 +79,9 @@ Hier erstellen wir die erste Arbeitsmappe und füllen das erste Arbeitsblatt (`w
 Lassen Sie uns die Seiteneinrichtung so konfigurieren, dass Kopfzeilen beim Drucken wiederholt werden, damit wir diese Funktion in Aktion sehen können:
 
 ```csharp
-//Definieren Sie ein Pagesetup-Objekt basierend auf dem ersten Arbeitsblatt
+// Definieren Sie ein Pagesetup-Objekt basierend auf dem ersten Arbeitsblatt
 PageSetup pagesetup = ws0.PageSetup;
-// Die ersten fünf Zeilen werden auf jeder Seite wiederholt
+//Die ersten fünf Zeilen werden auf jeder Seite wiederholt
 pagesetup.PrintTitleRows = "$1:$5";
 ```
  Dieser Teil definiert, wie Ihr Dokument gedruckt wird. Durch die Einstellung`PrintTitleRows`stellen wir sicher, dass die ersten fünf Zeilen auf jeder gedruckten Seite erscheinen, was für die Lesbarkeit äußerst nützlich ist.
@@ -109,7 +109,7 @@ Kopieren wir den Inhalt des Arbeitsblatts der ersten Arbeitsmappe in die zweite 
 // erstes Arbeitsblatt des zweiten Arbeitsbuches
 ws1.Copy(ws0);
 ```
- Der`Copy` Methode übernimmt den gesamten Inhalt aus dem Quellarbeitsblatt (`ws0`und dupliziert es in das Zielarbeitsblatt (`ws1`). So einfach, oder?
+ Der`Copy` Methode übernimmt den gesamten Inhalt aus dem Quellarbeitsblatt (`ws0`) und dupliziert es in das Zielarbeitsblatt (`ws1`). So einfach, oder?
 
 ## Schritt 6: Speichern der neuen Arbeitsmappe
 

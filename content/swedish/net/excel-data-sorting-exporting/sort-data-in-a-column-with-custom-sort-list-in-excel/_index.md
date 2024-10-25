@@ -35,7 +35,7 @@ Så här gör du:
 
 ### Grundläggande Excel-fil för testning
 
-Du behöver ett exempel på en Excel-fil att arbeta med. Du kan skapa en enkel Excel-fil med slumpmässiga landsnamn och deras koder.
+Du behöver ett exempel på Excel-fil att arbeta med. Du kan skapa en enkel Excel-fil med slumpmässiga landsnamn och deras koder.
 
 ## Importera paket
 
@@ -100,7 +100,7 @@ wb.DataSorter.AddKey(0, SortOrder.Ascending, customSortList);
 wb.DataSorter.Sort(ws.Cells, ca);
 ```
 
-## Steg 7: Spara Excel-filen
+## Steg 7: Spara utdata Excel-filen
 
 När sorteringen är klar är det sista steget att spara ändringarna i en ny Excel-fil. Ange utdatafilens namn och spara arbetsboken.
 

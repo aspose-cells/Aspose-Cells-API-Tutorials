@@ -68,7 +68,7 @@ S načteným sešitem máte přístup k jeho externím připojením. V našem p�
 Aspose.Cells.ExternalConnections.DBConnection dbCon = wb.DataConnections[0] as Aspose.Cells.ExternalConnections.DBConnection;
 ```
 
- Zde,`DataConnections[0]`odkazuje na první připojení v sešitu. Odléváme to jako a`DBConnection` typ pro další manipulaci.
+ Zde,`DataConnections[0]` odkazuje na první připojení v sešitu. Odléváme to jako a`DBConnection` typ pro další manipulaci.
 
 ## Krok 4: Extrahujte informace o připojení
 

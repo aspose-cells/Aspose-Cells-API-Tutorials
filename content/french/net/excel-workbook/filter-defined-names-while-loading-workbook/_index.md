@@ -106,4 +106,4 @@ Le filtrage des noms définis peut conduire à des formules erronées si elles f
  Oui, vous pouvez obtenir un essai gratuit d'Aspose.Cells pour tester ses capacités avant de l'acheter. Découvrez-le[ici](https://releases.aspose.com/).
 
 ### Où puis-je trouver plus d’exemples et de documentation ?
-Vous pouvez trouver une documentation complète et plus d'exemples sur la page de référence Aspose.Cells[ici](https://reference.aspose.com/cells/net/).
+ Vous pouvez trouver une documentation complète et plus d'exemples sur la page de référence Aspose.Cells[ici](https://reference.aspose.com/cells/net/).

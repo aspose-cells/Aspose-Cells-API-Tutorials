@@ -15,7 +15,7 @@ Excel ブック間でワークシートを手動でコピーしたことがあ�
 
 コードに進む前に、開始するための適切なツールが揃っていることを確認しましょう。
 
-- Aspose.Cells for .NET: ダウンロードできます[ここ](https://releases.aspose.com/cells/net/).
+-  Aspose.Cells for .NET: ダウンロードできます[ここ](https://releases.aspose.com/cells/net/).
 - Visual Studio または .NET フレームワークをサポートする任意の IDE。
 - 有効な免許証または[一時ライセンス](https://purchase.aspose.com/temporary-license/)Aspose.Cells の全機能をテストしたい場合。
 - C# と .NET フレームワークの基本的な理解。
@@ -44,7 +44,7 @@ using Aspose.Cells;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
-この行では、`"YOUR DOCUMENT DIRECTORY"` Excel ファイルへの実際のパスを入力します。ここからワークブックが読み込まれ、保存されます。
+この行では、`"YOUR DOCUMENT DIRECTORY"`Excel ファイルへの実際のパスを入力します。ここからワークブックが読み込まれ、保存されます。
 
 ## ステップ2: 最初のワークブックを開く
 
@@ -68,7 +68,7 @@ Workbook excelWorkbook0 = new Workbook(InputPath);
 Workbook excelWorkbook1 = new Workbook();
 ```
 
-この行は、次の名前の空のワークブックを作成します。`excelWorkbook1`最初のブックから移動した後、コピーしたワークシートはここに保存されます。
+この行は、次の名前の空のワークブックを作成します。`excelWorkbook1`最初のブックから移動した後、コピーされたワークシートはここに保存されます。
 
 ## ステップ4: ワークシートをコピーする
 

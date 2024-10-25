@@ -35,13 +35,13 @@ Låt oss börja med att definiera sökvägen för dina dokument. Du vill ställa
 // Sökvägen till dokumentkatalogen.
 string sourceDir = "Your Document Directory"; // Ändra detta till sökvägen till din Excel-fil
 // Utdatakatalog
-string outputDir = RunExamples.Get_OutputDirectory(); // Se till att den här metoden tillhandahåller en giltig utdatasökväg
+string outputDir = "Your Document Directory"; // Se till att den här metoden ger en giltig utmatningsväg
 ```
- I det här utdraget, ersätt`"Your Document Directory"` med den faktiska sökvägen till din katalog som innehåller Excel-filen. Det här är som att ställa upp scenen innan ditt framträdande – det är avgörande att veta var ditt material finns.
+ I det här utdraget, ersätt`"Your Document Directory"`med den faktiska sökvägen till din katalog som innehåller Excel-filen. Det här är som att ställa upp scenen innan ditt framträdande – det är avgörande att veta var ditt material finns.
 ## Steg 2: Instantiera arbetsboksobjektet
  Därefter skapar vi en`Workbook` objekt för att öppna Excel-filen vi arbetar med.
 ```csharp
-//Instantiera ett arbetsboksobjekt
+// Instantiera ett arbetsboksobjekt
 // Öppna en Excel-fil
 Workbook workbook = new Workbook(sourceDir + "HyperlinksSample.xlsx");
 ```
@@ -59,14 +59,14 @@ Nu är det dags att definiera ett intervall inom vilket vi vill söka efter hype
 // Skapa ett intervall A2:B3
 Range range = worksheet.Cells.CreateRange("A2", "B3");
 ```
- Genom att ringa`CreateRange`, specificerar vi start- och slutcellerna. Det är här magin händer – vi kommer senare att kontrollera hyperlänkarna som finns inom detta specificerade intervall.
+ Genom att ringa`CreateRange`specificerar vi start- och slutcellerna. Det är här magin händer – vi kommer senare att kontrollera hyperlänkarna som finns inom detta specificerade intervall.
 ## Steg 5: Hämta hyperlänkar från intervallet
 Det här steget är där vi faktiskt kommer åt hyperlänkarna i vårt definierade sortiment.
 ```csharp
 //Få hyperlänkar inom räckhåll
 Hyperlink[] hyperlinks = range.Hyperlinks;
 ```
- De`Hyperlinks` egendom hos en`Range`objekt returnerar en array av`Hyperlink` föremål som hittats i det området. Det är som att ta tag i alla viktiga anteckningar från din sida på en gång!
+ De`Hyperlinks` egendom hos en`Range` objekt returnerar en array av`Hyperlink` föremål som hittats i det området. Det är som att ta tag i alla viktiga anteckningar från din sida på en gång!
 ## Steg 6: Gå igenom och visa länkar
 Låt oss nu iterera genom de hämtade hyperlänkarna. Vi kommer att skriva ut deras adresser och områden i konsolen tills vidare.
 ```csharp
@@ -85,7 +85,7 @@ foreach (Hyperlink link in hyperlinks)
     link.Delete();
 }
 ```
- Med hjälp av`Delete()` metod på varje hyperlänk låter dig ta bort hyperlänkar som du kanske inte behöver längre. Det är som att radera en klotter som inte längre behövs från din sida.
+ Med hjälp av`Delete()`metod på varje hyperlänk låter dig ta bort hyperlänkar som du kanske inte behöver längre. Det är som att radera en klotter som inte längre behövs från din sida.
 ## Steg 8: Spara dina ändringar
 Slutligen, låt oss spara arbetsboken med alla justeringar vi har gjort.
 ```csharp

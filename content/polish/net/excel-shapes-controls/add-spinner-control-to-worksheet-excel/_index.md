@@ -29,7 +29,7 @@ Zanim zaczniesz kodować, dobrze jest uporządkować pliki. Utwórzmy katalog dl
 ```csharp
 // Ścieżka do katalogu dokumentów.
 string dataDir = "Your Document Directory";
-//Utwórz katalog, jeśli jeszcze go nie ma.
+// Utwórz katalog, jeśli jeszcze go nie ma.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -41,7 +41,7 @@ Teraz czas utworzyć skoroszyt programu Excel, do którego dodamy kontrolkę Spi
 // Utwórz nowy skoroszyt.
 Workbook excelbook = new Workbook();
 ```
- Ten`Workbook`Klasa reprezentuje plik Excel. Tworząc jego instancję, tworzymy nowy skoroszyt gotowy do modyfikacji.
+ Ten`Workbook` Klasa reprezentuje plik Excel. Tworząc jego instancję, tworzymy nowy skoroszyt gotowy do modyfikacji.
 ## Krok 3: Uzyskaj dostęp do pierwszego arkusza kalkulacyjnego
 Dodamy nasz Spinner do pierwszego arkusza w skoroszycie.
 ```csharp
@@ -108,7 +108,7 @@ excelbook.Save(dataDir + "book1.out.xls");
 ```
 To polecenie zapisuje skoroszyt do określonego katalogu. Możesz zmienić nazwę pliku, jeśli to konieczne.
 ## Wniosek
-I masz! Udało Ci się dodać kontrolkę Spinner do arkusza kalkulacyjnego Excel przy użyciu Aspose.Cells dla .NET. Ten interaktywny element poprawia wrażenia użytkownika, umożliwiając szybkie dostosowywanie wartości. Niezależnie od tego, czy tworzysz dynamiczne narzędzie do raportowania, czy formularz wprowadzania danych, kontrolka Spinner może być cennym dodatkiem. 
+masz! Udało Ci się dodać kontrolkę Spinner do arkusza kalkulacyjnego Excel przy użyciu Aspose.Cells dla .NET. Ten interaktywny element poprawia wrażenia użytkownika, umożliwiając szybkie dostosowywanie wartości. Niezależnie od tego, czy tworzysz dynamiczne narzędzie do raportowania, czy formularz wprowadzania danych, kontrolka Spinner może być cennym dodatkiem. 
 ## Najczęściej zadawane pytania
 ### Czym jest kontrolka Spinner w programie Excel?
 Kontrolka Spinner umożliwia użytkownikom łatwe zwiększanie lub zmniejszanie wartości liczbowych, zapewniając intuicyjny sposób dokonywania wyboru.
@@ -117,6 +117,6 @@ Tak, możesz modyfikować jego rozmiar, położenie, a nawet cieniowanie 3D, aby
 ### Czy potrzebuję licencji, aby korzystać z Aspose.Cells?
  Aspose.Cells oferuje bezpłatną wersję próbną, ale do użytku produkcyjnego wymagana jest płatna licencja. Sprawdź[kup opcje](https://purchase.aspose.com/buy).
 ### Gdzie mogę uzyskać pomoc dotyczącą Aspose.Cells?
- Aby uzyskać pomoc, odwiedź stronę[Forum Aspose](https://forum.aspose.com/c/cells/9)gdzie możesz zadać pytania i znaleźć odpowiedzi.
+ Aby uzyskać pomoc, odwiedź stronę[Forum Aspose](https://forum.aspose.com/c/cells/9) gdzie możesz zadać pytania i znaleźć odpowiedzi.
 ### Czy można dodać wiele Spinnerów do tego samego arkusza kalkulacyjnego?
 Oczywiście! Możesz dodać tyle Spinnerów, ile potrzebujesz, wykonując te same kroki dla każdego elementu sterującego.

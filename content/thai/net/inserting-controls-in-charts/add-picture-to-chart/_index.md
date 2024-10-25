@@ -16,7 +16,7 @@ url: /th/net/inserting-controls-in-charts/add-picture-to-chart/
 ก่อนที่เราจะเริ่มต้นเขียนโค้ดอย่างเจาะลึก มีข้อกำหนดเบื้องต้นบางประการที่คุณต้องมีเพื่อให้ปฏิบัติตามได้อย่างราบรื่น:
 
 - Visual Studio: นี่คือที่ที่คุณจะเขียนและรันโค้ด .NET ของคุณ ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งไว้แล้ว
-- Aspose.Cells สำหรับ .NET: คุณจะต้องมีไลบรารีนี้เพื่อทำงานกับไฟล์ Excel คุณสามารถ[ดาวน์โหลดได้ที่นี่](https://releases.aspose.com/cells/net/).
+-  Aspose.Cells สำหรับ .NET: คุณจะต้องมีไลบรารีนี้เพื่อทำงานกับไฟล์ Excel คุณสามารถ[ดาวน์โหลดได้ที่นี่](https://releases.aspose.com/cells/net/).
 - ความเข้าใจพื้นฐานเกี่ยวกับ C#: ในขณะที่ฉันจะแนะนำคุณเกี่ยวกับโค้ด ความเข้าใจพื้นฐานเกี่ยวกับ C# จะทำให้สิ่งต่างๆ ชัดเจนยิ่งขึ้น
 
 ### ขั้นตอนการติดตั้ง
@@ -55,7 +55,7 @@ string sourceDir = "Your Document Directory/";
 string outputDir = "Your Output Directory/";
 ```
 
- แทนที่`Your Document Directory` และ`Your Output Directory` ด้วยเส้นทางจริงบนคอมพิวเตอร์ของคุณ 
+ แทนที่`Your Document Directory` และ`Your Output Directory`ด้วยเส้นทางจริงบนคอมพิวเตอร์ของคุณ 
 
 ## ขั้นตอนที่ 2: โหลดสมุดงานที่มีอยู่
 
@@ -84,7 +84,7 @@ FileStream stream = new FileStream(sourceDir + "sampleAddingPictureInChart.png",
 ตอนนี้เรามาระบุกันว่าเราจะเพิ่มรูปภาพลงในแผนภูมิใด ในตัวอย่างนี้ เราจะกำหนดเป้าหมายที่แผนภูมิแรกในเวิร์กชีตแรก
 
 ```csharp
-//รับแผนภูมิของผู้ออกแบบในแผ่นงานที่สอง
+// รับแผนภูมิของผู้ออกแบบในแผ่นงานที่สอง
 Worksheet sheet = workbook.Worksheets[0];
 Aspose.Cells.Charts.Chart chart = sheet.Charts[0];
 ```
@@ -100,7 +100,7 @@ Aspose.Cells.Charts.Chart chart = sheet.Charts[0];
 Aspose.Cells.Drawing.Picture pic0 = chart.Shapes.AddPictureInChart(50, 50, stream, 200, 200);
 ```
 
- ที่นี่,`50` และ`50` คือพิกัด X และ Y ที่จะวางภาพ และ`200` คือความกว้างและความสูงของรูปภาพ
+ ที่นี่,`50` และ`50` คือพิกัด X และ Y ที่จะวางภาพ และ`200`คือความกว้างและความสูงของรูปภาพ
 
 ## ขั้นตอนที่ 6: ปรับแต่งรูปแบบเส้นของรูปภาพ
 

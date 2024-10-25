@@ -16,7 +16,7 @@ V tomto tutoriálu prozkoumáme, jak vytvořit dynamické animace grafů pomocí
 
 Než se pustíme do vytváření animací grafu, ujistěte se, že máte splněny následující předpoklady:
 
-1. Aspose.Cells for Java: Ujistěte se, že máte nainstalovanou knihovnu Aspose.Cells for Java. Můžete si jej stáhnout z[zde](https://releases.aspose.com/cells/java/).
+1.  Aspose.Cells for Java: Ujistěte se, že máte nainstalovanou knihovnu Aspose.Cells for Java. Můžete si jej stáhnout z[zde](https://releases.aspose.com/cells/java/).
 
 2. Vývojové prostředí Java: Ve vašem systému byste měli mít nastavené vývojové prostředí Java.
 
@@ -82,7 +82,7 @@ V tomto tutoriálu jsme se naučili vytvářet animace grafů pomocí Aspose.Cel
 
 ### Jak mohu změnit typ animace?
 
- Chcete-li změnit typ animace, použijte`setAnimationType` metoda na objektu grafu. Vybrat si můžete z různých druhů jako např`SLIDE`, `FADE`a`GROW_SHRINK`.
+ Chcete-li změnit typ animace, použijte`setAnimationType` metoda na objektu grafu. Vybírat můžete z různých typů jako např`SLIDE`, `FADE` a`GROW_SHRINK`.
 
 ### Mohu upravit dobu trvání animace?
 
@@ -90,4 +90,4 @@ V tomto tutoriálu jsme se naučili vytvářet animace grafů pomocí Aspose.Cel
 
 ### Jaký je účel zpoždění animace?
 
- Zpoždění animace určuje časovou mezeru před zahájením animace grafu. Použijte`setAnimationDelay` metoda pro nastavení zpoždění v milisekundách.
+ Zpoždění animace určuje časovou mezeru před zahájením animace grafu. Použijte`setAnimationDelay`metoda pro nastavení zpoždění v milisekundách.

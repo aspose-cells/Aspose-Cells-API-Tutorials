@@ -139,7 +139,7 @@ Sim, você pode tentar desbloquear uma planilha protegida sem saber a senha, dei
  Aspose.Cells oferece um teste gratuito, mas para uso prolongado, você precisará comprar uma licença. Verifique seus[Comprar página](https://purchase.aspose.com/buy).
 
 ### Quais formatos o Aspose.Cells suporta?  
-O Aspose.Cells suporta vários formatos do Excel, incluindo XLS, XLSX, CSV e muito mais.
+Aspose.Cells suporta vários formatos do Excel, incluindo XLS, XLSX, CSV e muito mais.
 
 ### Como instalo o Aspose.Cells?  
  Você pode instalá-lo via NuGet ou baixá-lo diretamente de[aqui](https://releases.aspose.com/cells/net/).

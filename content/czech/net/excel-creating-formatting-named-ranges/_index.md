@@ -21,7 +21,7 @@ Jste připraveni začít? Nejprve budete muset integrovat Aspose.Cells do svého
 
 ## Formátování rozsahů v Excelu
 
-Nyní, když máte své pojmenované rozsahy dolů, pojďme mluvit o formátování. Možná si říkáte: "Nejsou data jen o číslech?" Ale tady je to hlavní: způsob, jakým prezentujete svá data, může způsobit nebo narušit jejich jasnost a dopad. Formátování rozsahů v Excelu pomocí Aspose.Cells pro .NET není jen o tom, aby věci vypadaly pěkně; jde o to, aby byla vaše data snáze stravitelná. 
+Nyní, když máte své pojmenované rozsahy dolů, pojďme mluvit o formátování. Možná si říkáte: "Nejsou data jen o číslech?" Ale tady je to hlavní: způsob, jakým svá data prezentujete, může způsobit nebo narušit jejich jasnost a dopad. Formátování rozsahů v Excelu pomocí Aspose.Cells pro .NET není jen o tom, aby věci vypadaly pěkně; jde o to, aby byla vaše data snáze stravitelná. 
 
 Představte si, že sedíte na schůzce, kde na vás vyskočí tabulky a grafy a upoutají vaši pozornost. To je to, co dělá dobré formátování! Můžete změnit styly písma, přidat barvy a dokonce nastavit okraje, aby byla data vizuálně přitažlivější. Je to podobné jako oblékání pro zvláštní příležitost – na prvním dojmu záleží! 
 

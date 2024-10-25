@@ -15,11 +15,11 @@ Jika Anda mempelajari otomatisasi dan manipulasi Excel menggunakan .NET, Anda mu
 
 Bayangkan harus menangani sejumlah besar data di Excel. Anda mungkin berpikir, "Bukankah itu akan memakan waktu lama?" Gunakan Aspose.Cells: seperti memiliki kekuatan super untuk memanipulasi data. Pustaka ini tidak hanya memungkinkan Anda mengedit lembar kerja; tetapi juga memberdayakan Anda untuk melindungi data, memastikan informasi penting tetap utuh. Saat Anda melindungi baris atau kolom tertentu, itu seperti membangun benteng di sekeliling gambar penting Anda, hanya mengizinkan orang yang tepat untuk masuk. 
 
- Kami telah menyederhanakan proses ini untuk Anda dengan berbagai tutorial langkah demi langkah. Misalnya, lihat panduan kami tentang cara[Izinkan Pengguna Mengedit Rentang di Lembar Kerja Excel](./allow-user-to-edit-ranges-in-excel-worksheet/)Anda akan mempelajari cara agar pengguna dapat memodifikasi bagian tertentu dari spreadsheet dengan mudah tanpa mengorbankan keseluruhan dokumen. 
+Kami telah menyederhanakan proses ini untuk Anda dengan berbagai tutorial langkah demi langkah. Misalnya, lihat panduan kami tentang cara[Izinkan Pengguna Mengedit Rentang di Lembar Kerja Excel](./allow-user-to-edit-ranges-in-excel-worksheet/)Anda akan mempelajari cara agar pengguna dapat memodifikasi bagian tertentu dari spreadsheet dengan mudah tanpa mengorbankan keseluruhan dokumen. 
 
 ## Tutorial yang Disesuaikan untuk Anda
 
-Namun, itu belum semuanya! Melindungi data Anda juga penting. Anda tidak akan membiarkan pintu depan Anda terbuka lebar, bukan? Demikian pula, panduan kami menawarkan Anda alat untuk mengunci bagian mana pun dari lembar Excel Anda. Lihat tutorialnya di[Melindungi Sel Tertentu](./protect-specific-cells-in-a-excel-worksheet/) untuk mempelajari cara melindungi data Anda secara efektif. Kami memandu Anda melalui setiap langkah, membuatnya mudah bahkan bagi mereka yang baru mengenal pemrograman.
+ Namun, itu belum semuanya! Melindungi data Anda juga penting. Anda tidak akan membiarkan pintu depan Anda terbuka lebar, bukan? Demikian pula, panduan kami menawarkan Anda alat untuk mengunci bagian mana pun dari lembar Excel Anda. Lihat tutorialnya di[Melindungi Sel Tertentu](./protect-specific-cells-in-a-excel-worksheet/) untuk mempelajari cara melindungi data Anda secara efektif. Kami memandu Anda melalui setiap langkah, membuatnya mudah bahkan bagi mereka yang baru mengenal pemrograman.
 
 Tentu saja! Mari kita bahas lebih lanjut tentang pentingnya tutorial ini dalam upaya Anda untuk menguasai Excel, dan bagaimana tutorial ini dapat disesuaikan dengan alur kerja pengembangan Anda.
 

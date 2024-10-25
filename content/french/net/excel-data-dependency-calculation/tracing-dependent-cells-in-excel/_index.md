@@ -18,7 +18,7 @@ Avant de commencer, voici quelques éléments que vous devez avoir pour assurer 
 1. Connaissances de base de C# : Étant donné que nous allons écrire notre code en C#, une compréhension fondamentale du langage vous aidera à saisir rapidement les concepts.
 2.  Bibliothèque Aspose.Cells pour .NET : vous devrez télécharger la bibliothèque Aspose.Cells pour .NET. Vous pouvez l'obtenir à partir du[Lien de téléchargement](https://releases.aspose.com/cells/net/).
 3. Visual Studio : c'est un environnement fantastique pour écrire et tester votre code .NET. Assurez-vous qu'il est correctement installé sur votre machine. 
-4. Un fichier Excel : vous aurez besoin d'un fichier Excel contenant des formules avec lesquelles travailler. Nous utiliserons un fichier nommé`Book1.xlsx`, mais n'hésitez pas à utiliser le vôtre !
+4.  Un fichier Excel : vous aurez besoin d'un fichier Excel contenant des formules avec lesquelles travailler. Nous utiliserons un fichier nommé`Book1.xlsx`mais n'hésitez pas à utiliser le vôtre !
 
 Prêt à vous mettre au travail et à commencer à suivre ces cellules ? Passons aux choses sérieuses !
 
@@ -84,11 +84,11 @@ Maintenant que le classeur est ouvert, il est temps de mettre la main sur les ce
 Cells cells = workbook.Worksheets[0].Cells;
 ```
 
-Explication : Le code ci-dessus cible la première feuille de calcul (index 0) de notre classeur et récupère le`Cells` collection avec laquelle nous travaillerons pour retracer les personnes à charge.
+ Explication : Le code ci-dessus cible la première feuille de calcul (index 0) de notre classeur et récupère le`Cells` collection avec laquelle nous travaillerons pour retracer les personnes à charge.
 
 ## Étape 4 : Sélectionnez la cellule
 
- À des fins de démonstration, nous souhaitons tracer les personnes dépendantes d’une cellule spécifique. Dans ce cas,`B2`. Codons cela :
+À des fins de démonstration, nous souhaitons tracer les personnes dépendantes d’une cellule spécifique. Dans ce cas,`B2`. Codons cela :
 
 ```csharp
 Cell cell = cells["B2"];
@@ -118,7 +118,7 @@ foreach (Cell c in cell.GetDependents(true))
 Console.ReadKey();
 ```
 
-Explication : Cette boucle parcourt chaque cellule dépendante de notre tableau et imprime son nom, ce qui est assez simple !`Console.ReadKey()` garantit que la fenêtre de la console reste ouverte jusqu'à ce que vous appuyiez sur une touche, vous donnant ainsi le temps de lire la sortie.
+ Explication : Cette boucle parcourt chaque cellule dépendante de notre tableau et imprime son nom, ce qui est assez simple !`Console.ReadKey()` garantit que la fenêtre de la console reste ouverte jusqu'à ce que vous appuyiez sur une touche, vous donnant ainsi le temps de lire la sortie.
 
 ## Conclusion
 

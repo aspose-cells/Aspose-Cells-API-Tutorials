@@ -108,11 +108,11 @@ Most jön a varázslat! A munkalap nagyítási szintjét a következő sor segí
 worksheet.Zoom = 75;
 ```
 
-nagyítási tényező 10 és 400 között bárhol állítható, lehetővé téve a nagyítást vagy kicsinyítést igényei szerint. A 75-ös nagyítási tényező azt jelenti, hogy a felhasználók az eredeti méret 75%-át látják, így könnyebben tekinthetik meg az adatokat túlzott görgetés nélkül.
+A nagyítási tényező 10 és 400 között bárhol állítható, lehetővé téve a nagyítást vagy kicsinyítést igényei szerint. A 75-ös nagyítási tényező azt jelenti, hogy a felhasználók az eredeti méret 75%-át látják, így könnyebben tekinthetik meg az adatokat, túlzott görgetés nélkül.
 
 ## 6. lépés: Mentse el a módosított Excel-fájlt
 
-A módosítások elvégzése után ne felejtse el menteni a munkáját. Ez ugyanolyan fontos, mint a dokumentum mentése a bezárás előtt!
+módosítások elvégzése után ne felejtse el menteni a munkáját. Ez ugyanolyan fontos, mint a dokumentum mentése a bezárás előtt!
 
 ```csharp
 // A módosított Excel fájl mentése
@@ -134,7 +134,7 @@ fstream.Close();
 
 ## Következtetés
 
-nagyítási tényező szabályozása az Excel munkalapokon apró részletnek tűnhet, de jelentősen javíthatja az olvashatóságot és a felhasználói élményt. Az Aspose.Cells for .NET segítségével ez a feladat egyszerű és hatékony. Több áttekinthetőségre és kényelemre számíthat a táblázatokban való navigálás során.
+A nagyítási tényező szabályozása az Excel munkalapokon apró részletnek tűnhet, de jelentősen javíthatja az olvashatóságot és a felhasználói élményt. Az Aspose.Cells for .NET segítségével ez a feladat egyszerű és hatékony. Több áttekinthetőségre és kényelemre számíthat a táblázatokban való navigálás során.
 
 ## GYIK
 

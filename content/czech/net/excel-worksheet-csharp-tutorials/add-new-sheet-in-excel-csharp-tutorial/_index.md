@@ -49,7 +49,7 @@ Nejprve se musíte ujistit, že máte bezpečné místo pro ukládání souborů
 ```csharp
 // Cesta k adresáři dokumentů.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-//Vytvořte adresář, pokud ještě není přítomen.
+// Vytvořte adresář, pokud ještě není přítomen.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -95,7 +95,7 @@ worksheet.Name = "My Worksheet";
 
 ## Krok 5: Uložení souboru Excel
 
-Teď jsme v domácím prostředí! Je čas zachránit své mistrovské dílo.
+Teď jsme v domácím pásmu! Je čas zachránit své mistrovské dílo.
 
 ```csharp
 // Uložení souboru Excel

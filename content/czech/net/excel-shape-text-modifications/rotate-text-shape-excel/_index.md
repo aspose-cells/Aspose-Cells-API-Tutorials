@@ -28,7 +28,7 @@ Nyní přidejte Aspose.Cells do vašeho projektu. Můžete to udělat pomocí Nu
 2. Vyberte „Správce balíčků NuGet“ a poté „Spravovat balíčky NuGet pro řešení“.
 3. Vyhledejte "Aspose.Cells."
 4. Kliknutím na „Instalovat“ jej přidáte do svého projektu.
-### Add Using Direktiva
+### Přidat Směrnici použití
 Na začátek hlavního souboru C# musíte přidat následující direktivu:
 ```csharp
 using System;
@@ -47,7 +47,7 @@ string sourceDir = "Your Document Directory"; // Nastavte adresář dokumentů
 //Výstupní adresář
 string outputDir = "Your Document Directory"; // Nastavte výstupní adresář
 ```
- Nahradit`"Your Document Directory"` se skutečnou cestou, kde jste`sampleRotateTextWithShapeInsideWorksheet.xlsx`soubor se nachází.
+ Nahradit`"Your Document Directory"` se skutečnou cestou, kde jste`sampleRotateTextWithShapeInsideWorksheet.xlsx` soubor se nachází.
 ## Krok 2: Načtěte ukázkový soubor Excel
 Nyní načteme ukázkový soubor Excel. To je zásadní, protože chceme manipulovat se stávajícími daty.
 ```csharp
@@ -91,7 +91,7 @@ wb.Save(outputDir + "outputRotateTextWithShapeInsideWorksheet.xlsx");
 ```
 A je to! Váš výstupní soubor je nyní uložen, včetně textu v buňce B4 a úprav tvaru.
 ## Krok 8: Spusťte kód
- Ve vašem`Main`zabalte všechny výše uvedené fragmenty kódu a spusťte svůj projekt. Podívejte se, jak se změny projeví ve vašem výstupním souboru!
+ Ve vašem`Main` zabalte všechny výše uvedené fragmenty kódu a spusťte svůj projekt. Podívejte se, jak se změny projeví ve vašem výstupním souboru!
 ```csharp
 Console.WriteLine("RotateTextWithShapeInsideWorksheet executed successfully.");
 ```
@@ -105,6 +105,6 @@ Aspose.Cells podporuje různé formáty aplikace Excel, včetně XLS, XLSX, CSV 
 ### Je možné otáčet text s tvary ve starších verzích Excelu?
 Ano, funkci lze aplikovat na starší formáty podporované Aspose.Cells.
 ### Kde najdu další dokumentaci o Aspose.Cells?
- Můžete prozkoumat komplexní[dokumentace](https://reference.aspose.com/cells/net/)pro více poznatků.
+ Můžete prozkoumat komplexní[dokumentace](https://reference.aspose.com/cells/net/) pro více poznatků.
 ### Jak získám podporu pro Aspose.Cells?
- Můžete požádat o podporu návštěvou[Aspose fórum](https://forum.aspose.com/c/cells/9).
+ Můžete požádat o podporu návštěvou stránky[Aspose fórum](https://forum.aspose.com/c/cells/9).

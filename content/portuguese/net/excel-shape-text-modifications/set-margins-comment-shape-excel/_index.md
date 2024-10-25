@@ -16,7 +16,7 @@ Você deve ter um entendimento fundamental de C# e .NET. Este tutorial é person
 ### Configuração do ambiente
 1. Visual Studio: Certifique-se de ter o Visual Studio instalado. É um ambiente de desenvolvimento que simplifica a codificação.
 2.  Biblioteca Aspose.Cells: Você precisa da biblioteca Aspose.Cells. Se você ainda não fez isso, você pode baixá-la[aqui](https://releases.aspose.com/cells/net/).
-3.  Arquivo Excel de Exemplo: Crie ou baixe um arquivo Excel de exemplo. Para este tutorial, usaremos um arquivo chamado`sampleSetMarginsOfCommentOrShapeInsideTheWorksheet.xlsx`.
+3. Arquivo Excel de Exemplo: Crie ou baixe um arquivo Excel de exemplo. Para este tutorial, usaremos um arquivo chamado`sampleSetMarginsOfCommentOrShapeInsideTheWorksheet.xlsx`.
 ## Importando Pacotes
 O primeiro passo em nossa jornada envolve importar os pacotes necessários. Você precisará incluir os namespaces Aspose.Cells em seu projeto. Isso lhe dará acesso a todas as funcionalidades que o Aspose.Cells tem a oferecer.
 ### Abra seu projeto
@@ -72,7 +72,7 @@ Cada forma pode já ter uma configuração de alinhamento que precisamos modific
 Aspose.Cells.Drawing.Texts.ShapeTextAlignment txtAlign = sh.TextBody.TextAlignment;
 txtAlign.IsAutoMargin = false;
 ```
- Ao definir`IsAutoMargin` para falso, agora temos controle sobre as margens.
+ Ao definir`IsAutoMargin`para falso, agora temos controle sobre as margens.
 ## Etapa 6: Defina as margens
 Este é o passo crucial onde definimos as margens. Você pode personalizar esses valores de acordo com suas necessidades.
 ```csharp
@@ -105,4 +105,4 @@ Aspose.Cells é uma biblioteca .NET projetada para criar, manipular e converter 
 ### A biblioteca é fácil de integrar em projetos existentes?
 Absolutamente! Aspose.Cells integra-se facilmente em projetos .NET, e sua API é direta.
 ### Onde posso encontrar suporte para o Aspose.Cells?
-Você pode obter suporte através do Aspose[fórum](https://forum.aspose.com/c/cells/9).
+ Você pode obter suporte através do Aspose[fórum](https://forum.aspose.com/c/cells/9).

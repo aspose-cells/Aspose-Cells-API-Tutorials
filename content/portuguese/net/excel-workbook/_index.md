@@ -13,11 +13,11 @@ Você está cansado de lutar com o gerenciamento de arquivos do Excel? Se você 
 
 ## Acessando informações de extensão da Web
 
-Entender como acessar informações de extensão da web pode abrir novas possibilidades em suas planilhas do Excel. Isso permite maior interatividade dentro de seus arquivos. Nosso tutorial sobre[Acessar informações de extensão da Web](./access-web-extension-information/) fornece um passo a passo para facilitar esse processo, mesmo para aqueles que são novos no Aspose.Cells.
+ Entender como acessar informações de extensão da web pode abrir novas possibilidades em suas planilhas do Excel. Isso permite maior interatividade dentro de seus arquivos. Nosso tutorial sobre[Acessar informações de extensão da Web](./access-web-extension-information/) fornece um passo a passo para facilitar esse processo, mesmo para aqueles que são novos no Aspose.Cells.
 
 ## Adicionando assinaturas digitais
 
- Você já precisou adicionar uma assinatura digital a um arquivo Excel assinado? Descubra como fazer isso com nosso guia sobre[Adicionar assinatura digital a um arquivo Excel já assinado](./add-digital-signature-to-an-already-signed-excel-file/). Assinaturas digitais garantem autenticidade e integridade, tornando seus arquivos do Excel não apenas funcionais, mas também seguros.
+Você já precisou adicionar uma assinatura digital a um arquivo Excel assinado? Descubra como fazer isso com nosso guia sobre[Adicionar assinatura digital a um arquivo Excel já assinado](./add-digital-signature-to-an-already-signed-excel-file/). Assinaturas digitais garantem autenticidade e integridade, tornando seus arquivos do Excel não apenas funcionais, mas também seguros.
 
 ## Criando pastas de trabalho compartilhadas
 
@@ -25,7 +25,7 @@ Entender como acessar informações de extensão da web pode abrir novas possibi
 
 ## Extraindo arquivos incorporados
 
-Você sabia que o Excel pode conter arquivos incorporados? Se você já precisou se aprofundar em suas planilhas para extrair um arquivo MOL incorporado, você vai querer conferir nosso tutorial sobre[Extrair arquivo MOL incorporado](./extract-embedded-mol-file/). Este guia explica o processo simples de recuperação desses arquivos, garantindo que você nunca perca dados importantes ocultos em suas pastas de trabalho do Excel.
+ Você sabia que o Excel pode conter arquivos incorporados? Se você já precisou se aprofundar em suas planilhas para extrair um arquivo MOL incorporado, você vai querer conferir nosso tutorial sobre[Extrair arquivo MOL incorporado](./extract-embedded-mol-file/). Este guia explica o processo simples de recuperação desses arquivos, garantindo que você nunca perca dados importantes ocultos em suas pastas de trabalho do Excel.
 
 ## Manipulando conexões externas em arquivos XLSB
 
@@ -33,23 +33,23 @@ Você sabia que o Excel pode conter arquivos incorporados? Se você já precisou
 
 ## Melhorando a segurança com proteção por senha
 
- A segurança é essencial, especialmente para pastas de trabalho compartilhadas que contêm informações confidenciais. Nosso tutorial sobre[Proteger com senha ou desproteger pasta de trabalho compartilhada](./password-protect-or-unprotect-shared-workbook/)detalha os passos para bloquear suas pastas de trabalho para que somente as pessoas certas possam acessá-las. Você se sentirá mais confiante ao compartilhar arquivos quando souber que eles estão seguros.
+ A segurança é essencial, especialmente para pastas de trabalho compartilhadas que contêm informações confidenciais. Nosso tutorial sobre[Proteger com senha ou desproteger pasta de trabalho compartilhada](./password-protect-or-unprotect-shared-workbook/) detalha os passos para bloquear suas pastas de trabalho para que somente as pessoas certas possam acessá-las. Você se sentirá mais confiante ao compartilhar arquivos quando souber que eles estão seguros.
 
 ## Aumentando a produtividade com Regex
 
- Você é fã de regex? Se não, você pode querer se tornar um! Expressões regulares podem simplificar significativamente suas tarefas, especialmente ao trabalhar com grandes conjuntos de dados no Excel. Nosso tutorial sobre[Substituição de Regex](./regex-replace/) ensina você a implementar funções de substituição de expressões regulares em suas planilhas, permitindo que você aumente tanto a produtividade quanto a precisão.
+Você é fã de regex? Se não, você pode querer se tornar um! Expressões regulares podem simplificar significativamente suas tarefas, especialmente ao trabalhar com grandes conjuntos de dados no Excel. Nosso tutorial sobre[Substituição de Regex](./regex-replace/) ensina você a implementar funções de substituição de expressões regulares em suas planilhas, permitindo que você aumente tanto a produtividade quanto a precisão.
 
 ## Atualizando itens do Power Query
 
- O Power Queries pode ser um verdadeiro divisor de águas na manipulação de dados, permitindo que você agilize a forma como as informações são importadas para seus arquivos do Excel. Se você está se perguntando como atualizar itens de fórmula do Power Query no Excel usando o Aspose.Cells para .NET, nosso tutorial sobre[Atualizar item de fórmula do Power Query](./update-power-query-formula-item/)é a solução. Ele fornece uma abordagem simples, passo a passo, para modificar esses itens de fórmula, permitindo que você mantenha seus dados atualizados e refletidos com precisão em suas pastas de trabalho.
+ O Power Queries pode ser um verdadeiro divisor de águas na manipulação de dados, permitindo que você agilize a forma como as informações são importadas para seus arquivos do Excel. Se você está se perguntando como atualizar itens de fórmula do Power Query no Excel usando o Aspose.Cells para .NET, nosso tutorial sobre[Atualizar item de fórmula do Power Query](./update-power-query-formula-item/) é a solução. Ele fornece uma abordagem simples, passo a passo, para modificar esses itens de fórmula, permitindo que você mantenha seus dados atualizados e refletidos com precisão em suas pastas de trabalho.
 
 ## Gerenciando visualizações de impressão
 
- De vez em quando, você precisa apresentar seus dados da forma mais profissional possível. Aprender a criar visualizações de impressão pode ser uma habilidade vital. Em nosso tutorial sobre[Visualização de impressão da pasta de trabalho](./workbook-print-preview/), você descobrirá como formatar seus dados corretamente antes de clicar em imprimir. Esse processo pode evitar erros embaraçosos e garantir que seus relatórios tenham a mesma aparência no papel quanto na tela.
+De vez em quando, você precisa apresentar seus dados da forma mais profissional possível. Aprender a criar visualizações de impressão pode ser uma habilidade vital. Em nosso tutorial sobre[Visualização de impressão da pasta de trabalho](./workbook-print-preview/), você descobrirá como formatar seus dados corretamente antes de clicar em imprimir. Esse processo pode evitar erros embaraçosos e garantir que seus relatórios tenham a mesma aparência no papel quanto na tela.
 
 ## Trabalhando com nomes definidos
 
- Nomes definidos dentro de suas planilhas do Excel podem ser uma maneira útil de gerenciar seus dados. Eles tornam as fórmulas mais curtas e compreensíveis. Se você estiver procurando filtrar nomes definidos ao carregar uma pasta de trabalho, nosso tutorial sobre[Filtrar nomes definidos ao carregar a pasta de trabalho](./filter-defined-names-while-loading-workbook/)fornece todos os passos necessários para fazer exatamente isso. Este recurso permite que você personalize como sua pasta de trabalho carrega, melhorando a eficiência e a organização.
+ Nomes definidos dentro de suas planilhas do Excel podem ser uma maneira útil de gerenciar seus dados. Eles tornam as fórmulas mais curtas e compreensíveis. Se você estiver procurando filtrar nomes definidos ao carregar uma pasta de trabalho, nosso tutorial sobre[Filtrar nomes definidos ao carregar a pasta de trabalho](./filter-defined-names-while-loading-workbook/) fornece todos os passos necessários para fazer exatamente isso. Este recurso permite que você personalize como sua pasta de trabalho carrega, melhorando a eficiência e a organização.
 
 ## Conclusão
 

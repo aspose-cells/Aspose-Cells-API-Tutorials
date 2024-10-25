@@ -16,7 +16,7 @@ Les graphiques interactifs ajoutent une nouvelle dimension à la visualisation d
 
 Avant de commencer, assurez-vous que vous disposez des prérequis suivants :
 - Environnement de développement Java
--  Bibliothèque Aspose.Cells pour Java (téléchargement depuis[ici](https://releases.aspose.com/cells/java/)
+- Bibliothèque Aspose.Cells pour Java (téléchargement depuis[ici](https://releases.aspose.com/cells/java/)
 
 ## Étape 1 : Configuration de votre projet Java
 

@@ -2,7 +2,7 @@
 title: Távolítsa el az elnevezett tartományt az Excelben
 linktitle: Távolítsa el az elnevezett tartományt az Excelben
 second_title: Aspose.Cells .NET Excel Processing API
-description: Ismerje meg, hogyan távolíthat el elnevezett tartományokat az Excelben az Aspose.Cells for .NET használatával, részletes, lépésenkénti utasításokkal.
+description: Ismerje meg, hogyan távolíthat el elnevezett tartományokat az Excelben az Aspose.Cells for .NET használatával részletes, lépésenkénti utasításokkal.
 type: docs
 weight: 11
 url: /hu/net/excel-managing-named-ranges/remove-named-range/
@@ -70,7 +70,7 @@ Ez a kódsor egy új munkafüzetet hoz létre, amelyet kezelhetünk.
 Minden munkafüzet egy vagy több munkalapból áll. Egy adott munkalapon való munkához hozzáférésre van szükségünk ehhez a gyűjteményhez.
 
 ```csharp
-// Szerezd meg a könyvben található összes feladatlapot.
+// Szerezd meg az összes feladatlapot a könyvben.
 WorksheetCollection worksheets = workbook.Worksheets;
 ```
 

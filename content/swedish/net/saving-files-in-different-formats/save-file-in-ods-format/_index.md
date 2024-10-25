@@ -12,7 +12,7 @@ Har du någonsin undrat hur du enkelt sparar kalkylarksfiler i olika format med 
 ## Förutsättningar
 Innan vi går in i det snälla, låt oss se till att du har allt rätt inställt:
 - .NET Framework: Se till att du har .NET Framework installerat på din dator. Du kan använda vilken version som helst som är kompatibel med Aspose.Cells för .NET.
-- Aspose.Cells Library: Du måste ladda ner Aspose.Cells-biblioteket. Det är ett kraftfullt verktyg som låter dig hantera Excel-filer och mer. Du kan få det från[nedladdningslänk](https://releases.aspose.com/cells/net/).
+-  Aspose.Cells Library: Du måste ladda ner Aspose.Cells-biblioteket. Det är ett kraftfullt verktyg som låter dig hantera Excel-filer och mer. Du kan få det från[nedladdningslänk](https://releases.aspose.com/cells/net/).
 - Utvecklingsmiljö: En lämplig utvecklingsmiljö är väsentlig, som Visual Studio, där du kan skriva och köra din .NET-kod.
 Nu när vi har täckt våra förutsättningar, låt oss importera de nödvändiga paketen.
 ## Importera paket
@@ -20,7 +20,7 @@ För att arbeta med Aspose.Cells måste du importera det relevanta namnområdet.
 ### Öppna din utvecklingsmiljö
 Öppna Visual Studio eller din föredragna IDE där du vill skriva din .NET-kod.
 ### Skapa ett nytt projekt
-Skapa ett nytt projekt genom att välja "Nytt projekt" från Arkiv-menyn och välja en konfiguration för konsolapplikation. Döp det till något som "SaveODSTutorial".
+Skapa ett nytt projekt genom att välja "Nytt projekt" från Arkiv-menyn och välja en konfiguration för konsolapplikation. Döp det till något i stil med "SaveODSTutorial".
 ### Importera Aspose.Cells namnområde
 Överst i din kodfil måste du importera Aspose.Cells-namnrymden. Detta är avgörande för att komma åt de klasser och metoder som låter dig manipulera Excel-filer.
 ```csharp

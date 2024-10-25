@@ -75,7 +75,7 @@ Nu måste vi gå igenom alla kalkylblad i Excel-filen. Varje arbetsblad kommer a
 ```csharp
 foreach (Worksheet sheet in book.Worksheets)
 {
-    // Vi kommer att bearbeta varje arbetsblad en efter en
+    // Vi kommer att bearbeta varje arbetsblad ett efter ett
 }
 ```
 

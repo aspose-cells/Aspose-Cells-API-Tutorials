@@ -176,6 +176,6 @@ Aspose.Cells is een .NET-bibliotheek die is ontworpen voor het programmatisch ma
 ### Waar kan ik meer voorbeelden vinden?
  Aanvullende voorbeelden en documentatie vindt u op de[Aspose documentatiepagina](https://reference.aspose.com/cells/net/).
 
-### Wat moet ik doen als ik problemen ondervind tijdens het gebruik van Aspose?
- kunt hulp zoeken via het Aspose-ondersteuningsforum[hier](https://forum.aspose.com/c/cells/9).
+### Wat moet ik doen als ik problemen ondervind bij het gebruik van Aspose?
+ U kunt hulp zoeken via het Aspose-ondersteuningsforum[hier](https://forum.aspose.com/c/cells/9).
  

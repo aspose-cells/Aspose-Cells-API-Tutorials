@@ -39,7 +39,7 @@ string dataDir = "Your Document Directory";
 ```
  Thay thế`"Your Document Directory"` với đường dẫn thực tế nơi tệp Excel của bạn nằm. Ví dụ, nếu nó được lưu trữ trong`C:\Documents` , bạn sẽ viết`string dataDir = "C:\\Documents";`. Dấu gạch chéo ngược kép là cần thiết trong C# để thoát khỏi ký tự gạch chéo ngược.
 ## Bước 2: Khởi tạo LoadOptions
- Tiếp theo, bạn cần tạo một phiên bản của`LoadOptions`lớp. Lớp này giúp chúng ta chỉ định nhiều tùy chọn tải khác nhau, bao gồm cả mật khẩu cần thiết để mở tệp được mã hóa.
+ Tiếp theo, bạn cần tạo một phiên bản của`LoadOptions` lớp. Lớp này giúp chúng ta chỉ định nhiều tùy chọn tải khác nhau, bao gồm cả mật khẩu cần thiết để mở tệp được mã hóa.
 ```csharp
 // Khởi tạo LoadOptions
 LoadOptions loadOptions = new LoadOptions();
@@ -58,7 +58,7 @@ loadOptions.Password = "1234"; // Thay thế "1234" bằng mật khẩu thực t
 // Tạo một đối tượng Workbook và mở tệp từ đường dẫn của nó
 Workbook wbEncrypted = new Workbook(dataDir + "encryptedBook.xls", loadOptions);
 ```
- Ở đây, bạn đang xây dựng một cái mới`Workbook` đối tượng và truyền vào đường dẫn đến tệp được mã hóa của bạn và`loadOptions`bao gồm mật khẩu của bạn. Nếu mọi việc diễn ra tốt đẹp, dòng này sẽ mở thành công tệp được mã hóa của bạn.
+ Ở đây, bạn đang xây dựng một cái mới`Workbook` đối tượng và truyền vào đường dẫn đến tệp được mã hóa của bạn và`loadOptions` bao gồm mật khẩu của bạn. Nếu mọi việc diễn ra tốt đẹp, dòng này sẽ mở thành công tệp được mã hóa của bạn.
 ## Bước 5: Xác nhận truy cập thành công vào tệp
 Cuối cùng, bạn nên xác nhận rằng mình đã mở tệp thành công. 
 ```csharp
@@ -70,7 +70,7 @@ Xin chúc mừng! Bạn đã học thành công cách mở các tệp Excel đư
  Hãy nhớ rằng, làm việc với các tệp được mã hóa có thể rất khó khăn, nhưng với các công cụ như Aspose.Cells, nó trở nên dễ dàng. Nếu bạn muốn tìm hiểu sâu hơn, hãy kiểm tra[tài liệu](https://reference.aspose.com/cells/net/) để có nhiều tính năng nâng cao hơn.
 ## Câu hỏi thường gặp
 ### Tôi có thể mở các tệp Excel được mã hóa bằng nhiều mật khẩu khác nhau không?
- Vâng, chỉ cần cập nhật`Password` lĩnh vực trong`LoadOptions`để khớp với mật khẩu của tệp Excel mà bạn muốn mở.
+ Vâng, chỉ cần cập nhật`Password` lĩnh vực trong`LoadOptions` để khớp với mật khẩu của tệp Excel mà bạn muốn mở.
 ### Aspose.Cells có miễn phí sử dụng không?
  Aspose.Cells không miễn phí; tuy nhiên, bạn có thể bắt đầu bằng[dùng thử miễn phí](https://releases.aspose.com/) để khám phá các tính năng của nó.
 ### Aspose.Cells có thể xử lý những loại tệp Excel nào?

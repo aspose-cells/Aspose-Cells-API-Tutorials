@@ -51,7 +51,7 @@ loadOptions.LoadFilter = new LoadFilter(LoadDataFilterOptions.CellData);
 ## 4단계: 통합 문서 개체 만들기
  좋습니다. 거의 다 왔어요! 이제 만들게요.`Workbook` 객체는 기본적으로 Aspose.Cells가 Excel 파일의 내용을 로드하는 위치입니다.
 ```csharp
-// Workbook 개체를 만들고 해당 경로에서 파일을 엽니다.
+//Workbook 개체를 만들고 해당 경로에서 파일을 엽니다.
 Workbook book = new Workbook(dataDir + "Book1.xlsx", loadOptions);
 ```
  이 줄에서 다음을 바꾸세요.`"Book1.xlsx"` 실제 Excel 파일의 이름으로. 보세요! 통합 문서에 모든 중요한 데이터가 로드되었습니다.

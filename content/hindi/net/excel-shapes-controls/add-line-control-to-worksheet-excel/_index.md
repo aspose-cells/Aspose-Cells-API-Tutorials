@@ -42,7 +42,7 @@ string dataDir = "Your Document Directory";
 ## चरण 2: निर्देशिका बनाएँ
 यह सुनिश्चित करना एक अच्छा अभ्यास है कि निर्देशिका मौजूद है। यदि ऐसा नहीं है, तो आप इसे निम्न कोड के साथ बना सकते हैं:
 ```csharp
-//यदि निर्देशिका पहले से मौजूद नहीं है तो उसे बनाएं।
+// यदि निर्देशिका पहले से मौजूद नहीं है तो उसे बनाएं।
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);

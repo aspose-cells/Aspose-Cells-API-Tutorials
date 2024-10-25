@@ -12,7 +12,7 @@ Excel là một công cụ mạnh mẽ được hàng triệu người trên to�
 ## Điều kiện tiên quyết
 Trước khi đi sâu vào việc sao chép các phạm vi được đặt tên, bạn sẽ cần đảm bảo rằng bạn đã sắp xếp một vài thứ. Sau đây là những gì bạn cần:
 1. Môi trường .NET: Đảm bảo bạn đã thiết lập môi trường phát triển .NET. Bạn có thể sử dụng Visual Studio hoặc bất kỳ IDE nào khác mà bạn chọn.
-2.  Aspose.Cells cho Thư viện .NET: Đây là ngôi sao của chương trình! Tải xuống thư viện từ[Trang web Aspose](https://releases.aspose.com/cells/net/) nếu bạn chưa làm như vậy.
+2. Aspose.Cells cho Thư viện .NET: Đây là ngôi sao của chương trình! Tải xuống thư viện từ[Trang web Aspose](https://releases.aspose.com/cells/net/) nếu bạn chưa làm như vậy.
 3. Kiến thức cơ bản về C#: Sự quen thuộc với lập trình C# sẽ có lợi vì chúng ta sẽ mã hóa bằng ngôn ngữ này trong suốt hướng dẫn.
 4. Đã cài đặt Excel: Mặc dù bạn không nhất thiết phải sử dụng Excel để viết mã, nhưng việc cài đặt Excel sẽ hữu ích cho việc kiểm tra các tệp đầu ra của bạn.
 5.  Truy cập vào Tài liệu: Đánh dấu[Tài liệu Aspose.Cells](https://reference.aspose.com/cells/net/) để tham khảo. Đây là nguồn tài nguyên tuyệt vời để hiểu các phương pháp và tính năng.
@@ -27,7 +27,7 @@ using System.IO;
 using Aspose.Cells;
 using System.Drawing;
 ```
-Mã này sẽ cho bạn quyền truy cập vào các lớp học thiết yếu như`Workbook`, `Worksheet` Và`Range`, mà bạn sẽ cần để thao tác với các tệp Excel.
+ Mã này sẽ cho bạn quyền truy cập vào các lớp học thiết yếu như`Workbook`, `Worksheet` , Và`Range`, mà bạn sẽ cần để thao tác với các tệp Excel.
 
 Bây giờ chúng ta đã sắp xếp xong các điều kiện tiên quyết, hãy chia nhỏ quy trình thành các bước dễ thực hiện.
 ## Bước 1: Thiết lập thư mục đầu ra của bạn

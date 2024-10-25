@@ -16,7 +16,7 @@ In de digitale wereld van vandaag is het beheren van gegevens in spreadsheets be
 Voordat we ingaan op de details van het beschermen van cellen, zijn er een paar voorwaarden waaraan u moet voldoen:
 
 1. Visual Studio: Zorg ervoor dat Visual Studio op uw computer is geïnstalleerd. Het is de primaire IDE voor .NET-ontwikkeling.
-2.  Aspose.Cells Library: U moet de Aspose.Cells-bibliotheek beschikbaar hebben in uw project. U kunt deze eenvoudig installeren via NuGet Package Manager of rechtstreeks downloaden van de[Aspose.Cellen site](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells Library: U moet de Aspose.Cells-bibliotheek beschikbaar hebben in uw project. U kunt deze eenvoudig installeren via NuGet Package Manager of rechtstreeks downloaden van de[Aspose.Cellen site](https://releases.aspose.com/cells/net/).
 3. Basiskennis van C#: Een beetje vertrouwdheid met C#-programmering helpt u om de cursus soepel te volgen.
 
 ## Pakketten importeren
@@ -48,11 +48,11 @@ Laten we het codevoorbeeld eens nader bekijken dat laat zien hoe u specifieke ce
 
 ## Stap 1: De gegevensdirectory instellen
 
-moet eerst bepalen waar u uw Excel-bestand wilt opslaan. Zo kunt u dat opgeven:
+U moet eerst bepalen waar u uw Excel-bestand wilt opslaan. Zo kunt u dat opgeven:
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // Geef hier uw directorypad op
-//Maak een map aan als deze nog niet bestaat.
+// Maak een map aan als deze nog niet bestaat.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -88,7 +88,7 @@ Om er zeker van te zijn dat alleen specifieke cellen zijn vergrendeld, moet u be
 for (int i = 0; i <= 255; i++)
 {
     Style style = sheet.Cells.Columns[(byte)i].Style;
-    style.IsLocked = false; // Kolom ontgrendelen
+    style.IsLocked = false; //Kolom ontgrendelen
     StyleFlag styleflag = new StyleFlag();
     styleflag.Locked = true; // Geef aan dat we deze stijl willen vergrendelen
     sheet.Cells.Columns[(byte)i].ApplyStyle(style, styleflag);

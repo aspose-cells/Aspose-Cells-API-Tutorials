@@ -13,7 +13,7 @@ Ebben az oktatóanyagban végigvezetjük azokon a lépéseken, amelyek szükség
 ## Előfeltételek
 Mielőtt belemerülnénk a technikai részletekbe, nézzük meg, mit kell tennie, hogy kövesse ezt az oktatóanyagot:
 1. Visual Studio: Itt írjuk a kódunkat. Győződjön meg arról, hogy a .NET-keretrendszerrel vagy a .NET Core-al kompatibilis verzióval rendelkezik.
-2. Aspose.Cells for .NET: Telepíteni kell ezt a könyvtárat. Letöltheti a[Aspose honlapja](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells for .NET: Telepíteni kell ezt a könyvtárat. Letöltheti a[Aspose honlapja](https://releases.aspose.com/cells/net/).
 3. Alapvető programozási ismeretek: A C# ismerete és az olyan fogalmak megértése, mint az osztályok és módszerek, simábbá teszi ezt a folyamatot.
 4. Minta Excel-fájl: Szüksége lesz egy minta Excel-fájlra is, amely alakzatokat és Smart Art-ot tartalmaz a teszteléshez.
 Ha ezeket az előfeltételeket bejelöli, készen áll, hogy belevágjon a kódba!
@@ -31,7 +31,7 @@ Az Aspose.Cells használatához hozzá kell adni a projekthez. Íme, hogyan:
    -  Válassza ki`Manage NuGet Packages`.
    - Keresse meg az "Aspose.Cells" kifejezést, és telepítse a csomagot.
 2. Telepítés ellenőrzése:
-   Lépjen a Projektreferenciák oldalra, hogy megbizonyosodjon arról, hogy az Aspose.Cells megjelenik a listában. 
+   Nyissa meg a Projektreferenciákat, és győződjön meg arról, hogy az Aspose.Cells megjelenik a listában. 
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -46,7 +46,7 @@ Először is meg kell adnia az Excel-fájl helyét.
 // Forrás könyvtár
 string sourceDir = "Your Document Directory";
 ```
- Cserélje ki`"Your Document Directory"` azzal az úttal, ahol a tiéd`sampleSmartArtShape.xlsx` fájl található. Itt az alkalmazás megkeresi azt az Excel-fájlt, amely a vizsgálni kívánt alakzatokat tartalmazza.
+ Cserélje ki`"Your Document Directory"` azzal az úttal, ahol a tiéd`sampleSmartArtShape.xlsx`fájl található. Itt az alkalmazás megkeresi azt az Excel-fájlt, amely a vizsgálni kívánt alakzatokat tartalmazza.
 ## 2. lépés: Töltse be az Excel-munkafüzetet
  Ezután betöltjük az Excel fájlt az Aspose.Cells mappába`Workbook` osztály.
 ```csharp
@@ -60,7 +60,7 @@ A munkafüzet betöltése után el kell érnünk az alakzatot tartalmazó konkr�
 // Az első munkalap elérése
 Worksheet ws = wb.Worksheets[0];
 ```
- Az Excel fájlok több munkalapot is tartalmazhatnak. -val indexelve`[0]`elérjük munkafüzetünk első munkalapját. 
+ Az Excel fájlok több munkalapot is tartalmazhatnak. -val indexelve`[0]`, elérjük munkafüzetünk első munkalapját. 
 ## 4. lépés: Nyissa meg az Alakzatot
 Most lekérjük az ellenőrizni kívánt konkrét alakzatot.
 ```csharp
@@ -79,11 +79,11 @@ Console.WriteLine("Is Smart Art Shape: " + sh.IsSmartArt);
 Ebből az oktatóanyagból megtanulta, hogyan állapíthatja meg, hogy egy Excel-munkalapon lévő alakzat Smart Art grafika-e az Aspose.Cells for .NET segítségével. Ezzel a tudással javíthatja az adatok megjelenítését és egyszerűsítheti a munkafolyamatot. Legyen szó tapasztalt Excel-felhasználóról vagy kezdőről, az ehhez hasonló intelligens funkciók integrálása világot hozhat. 
 ## GYIK
 ### Mi az a Smart Art az Excelben?
-Smart Art az Excel olyan funkciója, amely lehetővé teszi a felhasználók számára, hogy tetszetős grafikákat készítsenek az információk illusztrálására.
+A Smart Art az Excel olyan funkciója, amely lehetővé teszi a felhasználók számára, hogy tetszetős grafikákat készítsenek az információk illusztrálására.
 ### Módosíthatom a Smart Art alakzatokat az Aspose.Cells használatával?
 Igen, a Smart Art alakzatokat programozottan kezelheti, beleértve a stílusok és részletek megváltoztatását.
 ### Az Aspose.Cells ingyenesen használható?
- Bár létezik próbaverzió, az Aspose.Cells egy fizetős könyvtár. Megvásárolhatja a teljes verziót[itt](https://purchase.aspose.com/buy).
+Bár létezik próbaverzió, az Aspose.Cells egy fizetős könyvtár. Megvásárolhatja a teljes verziót[itt](https://purchase.aspose.com/buy).
 ### Hogyan kaphatok támogatást, ha problémákba ütközöm?
  Segítséget kérhetsz a[Aspose támogatási fórum](https://forum.aspose.com/c/cells/9).
 ### Hol találok további dokumentációt az Aspose.Cells-hez?

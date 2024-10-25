@@ -8,7 +8,7 @@ weight: 11
 url: /zh/net/excel-hidden-rows-data-duplication-management/rename-duplicate-columns-automatically-while-exporting-worksheet-data-in-excel/
 ---
 ## 介绍
-处理 Excel 数据时，开发人员面临的最常见问题之一就是处理重复的列名。想象一下，您正在导出数据并发现标有“人员”的列是重复的。您可能会问自己，“如何在没有人工干预的情况下自动处理这些重复项？”好吧，不用再担心了！在本教程中，我们将深入研究如何使用 Aspose.Cells for .NET 在导出 Excel 数据时自动重命名那些令人讨厌的重复列，确保工作流程更顺畅，数据结构更有条理。让我们开始吧！
+处理 Excel 数据时，开发人员面临的最常见问题之一就是处理重复的列名。想象一下，您正在导出数据并发现标有“人员”的列是重复的。您可能会问自己：“如何在没有人工干预的情况下自动处理这些重复项？”好吧，不用再担心了！在本教程中，我们将深入研究如何使用 Aspose.Cells for .NET 在导出 Excel 数据时自动重命名那些令人讨厌的重复列，从而确保更顺畅的工作流程和更有条理的数据结构。让我们开始吧！
 ## 先决条件
 在讨论技术细节之前，让我们先确保您已准备好接下来需要做的一切：
 1. Visual Studio：确保已安装 Visual Studio。它是 .NET 开发的首选 IDE。

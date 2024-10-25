@@ -51,7 +51,7 @@ Stellen Sie sich das so vor, als würden Sie spezifische Anweisungen geben. Im G
 ## Schritt 4: Erstellen Sie ein Arbeitsmappenobjekt
  Okay, wir sind fast da! Jetzt erstellen wir eine`Workbook` Objekt, wo Aspose.Cells im Wesentlichen den Inhalt Ihrer Excel-Datei lädt.
 ```csharp
-// Erstellen Sie ein Arbeitsmappenobjekt und öffnen Sie die Datei über seinen Pfad
+//Erstellen Sie ein Arbeitsmappenobjekt und öffnen Sie die Datei über seinen Pfad
 Workbook book = new Workbook(dataDir + "Book1.xlsx", loadOptions);
 ```
  Ersetzen Sie in dieser Zeile`"Book1.xlsx"` durch den Namen Ihrer aktuellen Excel-Datei. Voilà! Ihre Arbeitsmappe wird mit allen wichtigen Daten geladen.

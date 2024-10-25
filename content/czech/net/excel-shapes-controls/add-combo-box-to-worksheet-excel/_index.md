@@ -8,7 +8,7 @@ weight: 21
 url: /cs/net/excel-shapes-controls/add-combo-box-to-worksheet-excel/
 ---
 ## Zavedení
-Vytváření interaktivních tabulek Excelu může výrazně zlepšit uživatelské prostředí, zvláště když přidáte prvky formuláře, jako jsou pole se seznamem. Rozbalovací seznamy umožňují uživatelům vybrat si možnosti z předdefinovaného seznamu, což usnadňuje a zefektivňuje zadávání dat. S Aspose.Cells for .NET můžete programově vytvářet pole se seznamem v listech aplikace Excel bez přímého použití aplikace Excel. Tato výkonná knihovna umožňuje vývojářům manipulovat se soubory aplikace Excel různými způsoby, včetně schopnosti automatizovat ovládací prvky formulářů.
+Vytváření interaktivních tabulek Excelu může výrazně zlepšit uživatelské prostředí, zvláště když přidáte prvky formuláře, jako jsou pole se seznamem. Rozbalovací seznamy umožňují uživatelům vybrat si možnosti z předdefinovaného seznamu, což usnadňuje a zefektivňuje zadávání dat. S Aspose.Cells for .NET můžete programově vytvářet pole se seznamem v listech aplikace Excel bez přímého použití aplikace Excel. Tato výkonná knihovna umožňuje vývojářům manipulovat se soubory Excel různými způsoby, včetně schopnosti automatizovat ovládací prvky formulářů.
 V tomto tutoriálu vás provedeme procesem přidání pole se seznamem do listu v aplikaci Excel pomocí Aspose.Cells pro .NET. Pokud chcete vytvářet dynamické a uživatelsky přívětivé tabulky, tato příručka vám pomůže začít.
 ## Předpoklady
 Než se ponoříme do kódu, ujistěte se, že máte vše, co potřebujete:
@@ -29,7 +29,7 @@ Prvním krokem je vytvoření adresáře, kam se budou ukládat vaše excelové 
 ```csharp
 // Cesta k adresáři dokumentů.
 string dataDir = "Your Document Directory";
-//Vytvořte adresář, pokud ještě není přítomen.
+// Vytvořte adresář, pokud ještě není přítomen.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);

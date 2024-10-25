@@ -71,7 +71,7 @@ Jetzt müssen wir auf das spezifische Arbeitsblatt zugreifen, mit dem wir arbeit
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
-Erläuterung: Die`Worksheets` Sammlung ermöglicht uns den Zugriff auf einzelne Blätter.`[0]` verweist auf das erste Arbeitsblatt in Ihrer Excel-Datei, was im Allgemeinen eine gängige Vorgehensweise ist, wenn Sie mit einer Einzelblattdatei arbeiten.
+ Erläuterung: Die`Worksheets` Sammlung ermöglicht uns den Zugriff auf einzelne Blätter.`[0]` verweist auf das erste Arbeitsblatt in Ihrer Excel-Datei, was im Allgemeinen eine gängige Vorgehensweise ist, wenn Sie mit einer Einzelblattdatei arbeiten.
 
 ## Schritt 4: Einrichten des AutoFilters
 
@@ -82,7 +82,7 @@ Und hier beginnt die Magie! Wir erstellen einen AutoFilter-Bereich für unsere D
 worksheet.AutoFilter.Range = "A1:A18";
 ```
 
-Erläuterung: Die`AutoFilter.Range` Mit der Eigenschaft können Sie angeben, welche Zeilen gefiltert werden sollen. In diesem Fall filtern wir Zeilen im Bereich A1 bis A18, in denen unsere Daten enthalten sein sollen.
+ Erläuterung: Die`AutoFilter.Range` Mit der Eigenschaft können Sie angeben, welche Zeilen gefiltert werden sollen. In diesem Fall filtern wir Zeilen im Bereich A1 bis A18, in denen unsere Daten enthalten sein sollen.
 
 ## Schritt 5: Filterbedingung anwenden
 
@@ -93,7 +93,7 @@ Im nächsten Schritt definieren wir die Filterbedingung. Wir möchten nur die Ze
 worksheet.AutoFilter.Custom(0, FilterOperatorType.BeginsWith, "Ba");
 ```
 
-Erläuterung: Die`Custom` Methode definiert unsere Filterlogik. Das erste Argument (`0` ) gibt an, dass wir basierend auf der ersten Spalte (A) filtern, und die`FilterOperatorType.BeginsWith`gibt unsere Bedingung an, nach Zeilen zu suchen, die mit „Ba“ beginnen.
+ Erläuterung: Die`Custom` Methode definiert unsere Filterlogik. Das erste Argument (`0` ) gibt an, dass wir basierend auf der ersten Spalte (A) filtern, und die`FilterOperatorType.BeginsWith` gibt unsere Bedingung an, nach Zeilen zu suchen, die mit „Ba“ beginnen.
 
 ## Schritt 6: Filter aktualisieren
 
@@ -115,7 +115,7 @@ Jetzt ist es Zeit, die vorgenommenen Änderungen zu speichern:
 workbook.Save(outputDir + "outSourseSampleCountryNames.xlsx");
 ```
 
-Erläuterung: Die`Save` Die Methode schreibt die geänderte Arbeitsmappe zurück in den angegebenen Ausgabepfad. Dabei werden Ihre definierten Filter in eine neue Datei geschrieben, sodass Ihre ursprünglichen Daten erhalten bleiben.
+ Erläuterung: Die`Save` Die Methode schreibt die geänderte Arbeitsmappe zurück in den angegebenen Ausgabepfad. Dabei werden Ihre definierten Filter in eine neue Datei geschrieben, sodass Ihre ursprünglichen Daten erhalten bleiben.
 
 ## Schritt 8: Ausgabebestätigung
 

@@ -87,7 +87,7 @@ Una volta che il foglio di lavoro è non protetto, devi salvare le modifiche app
 ```csharp
 workbook.Save(dataDir + "output.out.xls");
 ```
- Qui stai salvando le modifiche in un nuovo file denominato "output.out.xls" nella stessa directory. Puoi rinominarlo come preferisci, ma assicurati di mantenere il`.xls`estensione per mantenerlo riconoscibile come file Excel.
+ Qui stai salvando le modifiche in un nuovo file denominato "output.out.xls" nella stessa directory. Puoi rinominarlo come preferisci, ma assicurati di mantenere il`.xls` estensione per mantenerlo riconoscibile come file Excel.
 
 ## Fase 6: Gestione degli errori
 
@@ -116,7 +116,7 @@ Ed ecco fatto! Sbloccare un foglio Excel protetto usando Aspose.Cells per .NET �
 Sì! Puoi scorrere ogni foglio della cartella di lavoro e rimuovere la protezione in modo simile.
 
 ### Aspose.Cells è gratuito?
-Aspose.Cells offre una prova gratuita, ma è richiesta una licenza per l'uso in produzione. Controlla il loro[acquistare](https://purchase.aspose.com/buy) pagina per maggiori informazioni.
+ Aspose.Cells offre una prova gratuita, ma è richiesta una licenza per l'uso in produzione. Controlla il loro[acquistare](https://purchase.aspose.com/buy) pagina per maggiori informazioni.
 
 ### Cosa succede se non conosco la password?
 Se un foglio è protetto da password e non si è in possesso di tale password, la biblioteca non aiuterà ad aggirare le restrizioni, poiché ciò viola le norme etiche.

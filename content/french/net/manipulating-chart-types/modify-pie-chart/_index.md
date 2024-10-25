@@ -96,11 +96,11 @@ Workbook workbook = new Workbook(sourceDir + "sampleModifyPieChart.xlsx");
 Maintenant, examinons la feuille particulière qui contient le graphique à secteurs. Nous allons supposer que le graphique à secteurs se trouve sur la deuxième feuille de calcul (index 1) :
 
 ```csharp
-//Obtenez le tableau du concepteur dans la deuxième feuille.
+// Obtenez le tableau du concepteur dans la deuxième feuille.
 Worksheet sheet = workbook.Worksheets[1];
 ```
 
- En accédant au`Worksheets` collection, nous pouvons accéder à la feuille spécifique dont nous avons besoin.
+ En accédant au`Worksheets`collection, nous pouvons accéder à la feuille spécifique dont nous avons besoin.
 
 ## Étape 4 : Obtenir le graphique
 

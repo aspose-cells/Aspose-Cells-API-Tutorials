@@ -62,13 +62,13 @@ string dataDir = "YOUR DOCUMENT DIRECTORY"; // Změňte to na svou skutečnou ce
 
 ## Krok 2: Vytvoření instance objektu sešitu
 
- Dále musíte vytvořit instanci souboru`Workbook` třídy a otevřete soubor Excel.
+ Dále musíte vytvořit instanci souboru`Workbook`třídy a otevřete soubor Excel.
 
 ```csharp
 Workbook workbook = new Workbook(dataDir + "book1.xls");
 ```
 
-Poskytnutím cesty k souboru Excel (`book1.xls`), načítáte dokument do paměti, abyste s ním mohli manipulovat.
+Zadáním cesty k souboru Excel (`book1.xls`), načítáte dokument do paměti, abyste s ním mohli manipulovat.
 
 ## Krok 3: Přístup k listu
 

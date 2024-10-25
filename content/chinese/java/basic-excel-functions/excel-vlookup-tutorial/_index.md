@@ -79,7 +79,7 @@ if (cell != null) {
 
 恭喜！您已成功学会如何使用 Aspose.Cells for Java 执行 VLOOKUP 操作。这个强大的 API 简化了复杂的 Excel 任务，让您的开发之旅更加顺畅。
 
-现在，继续在您的 Excel 项目中探索 Aspose.Cells for Java 的无限可能性！
+现在，继续探索 Aspose.Cells for Java 在您的 Excel 项目中的无限可能性！
 
 ## 常见问题解答
 

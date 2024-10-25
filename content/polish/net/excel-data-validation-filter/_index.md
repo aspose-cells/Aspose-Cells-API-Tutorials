@@ -17,7 +17,7 @@ Excel to potęga, jeśli chodzi o zarządzanie danymi, ale czasami potrzebuje ty
 
 ## Dodaj obszar walidacji do komórek w programie Excel
 
- Teraz zagłębmy się w walidację danych. Jeśli kiedykolwiek miałeś problem z niepoprawnym wprowadzaniem danych, wiesz, że może to zepsuć najlepsze arkusze kalkulacyjne. Ale nie martw się — mamy dla Ciebie rozwiązanie! W naszym przewodniku[Dodaj obszar walidacji do komórek w programie Excel]()pokażemy Ci, jak wdrożyć obszary walidacji za pomocą Aspose.Cells dla .NET. Ustaw limity danych, które można wprowadzić do komórek za pomocą zaledwie kilku linijek kodu. To tak, jakby mieć przyjaznego ochroniarza przy drzwiach danych — dozwolone są tylko właściwe wpisy! Dzięki temu Twoje dane pozostaną dokładne i niezawodne, co jest kluczowe dla każdego projektu lub analizy.
+ Teraz zagłębmy się w walidację danych. Jeśli kiedykolwiek miałeś problem z niepoprawnym wprowadzaniem danych, wiesz, że może to zepsuć najlepsze arkusze kalkulacyjne. Ale nie martw się — mamy dla Ciebie rozwiązanie! W naszym przewodniku na temat[Dodaj obszar walidacji do komórek w programie Excel]()pokażemy Ci, jak wdrożyć obszary walidacji za pomocą Aspose.Cells dla .NET. Ustaw limity danych, które można wprowadzić do komórek za pomocą zaledwie kilku linijek kodu. To tak, jakby mieć przyjaznego ochroniarza przy drzwiach danych — dozwolone są tylko właściwe wpisy! Dzięki temu Twoje dane pozostaną dokładne i niezawodne, co jest kluczowe dla każdego projektu lub analizy.
 
 ## Samouczki dotyczące walidacji danych i filtrowania w programie Excel
 ### [Zastosuj zaawansowany filtr programu Microsoft Excel w języku C#](./apply-advanced-filter-of-microsoft-excel-in-csharp/)

@@ -68,7 +68,7 @@ Con la cartella di lavoro caricata, puoi accedere alle sue connessioni esterne. 
 Aspose.Cells.ExternalConnections.DBConnection dbCon = wb.DataConnections[0] as Aspose.Cells.ExternalConnections.DBConnection;
 ```
 
- Qui,`DataConnections[0]`si riferisce alla prima connessione nella cartella di lavoro. La stiamo convertendo in un`DBConnection` digitare per ulteriori manipolazioni.
+ Qui,`DataConnections[0]` si riferisce alla prima connessione nella cartella di lavoro. La stiamo convertendo in un`DBConnection` digitare per ulteriori manipolazioni.
 
 ## Passaggio 4: estrarre le informazioni di connessione
 
@@ -134,4 +134,4 @@ Un file XLSB è un formato di file binario di Excel che memorizza i dati del fog
 Assolutamente! Aspose.Cells supporta una varietà di formati di file, tra cui XLSX, CSV e altri.
 
 ### Dove posso cercare aiuto se riscontro dei problemi?  
- Puoi ottenere supporto dai forum Aspose[Qui](https://forum.aspose.com/c/cells/9).
+ Puoi ottenere supporto dai forum di Aspose[Qui](https://forum.aspose.com/c/cells/9).

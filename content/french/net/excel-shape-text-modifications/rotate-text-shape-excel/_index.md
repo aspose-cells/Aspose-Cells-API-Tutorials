@@ -47,7 +47,7 @@ string sourceDir = "Your Document Directory"; // Définissez votre répertoire d
 //Répertoire de sortie
 string outputDir = "Your Document Directory"; // Définissez votre répertoire de sortie
 ```
- Remplacer`"Your Document Directory"` avec le chemin réel où votre`sampleRotateTextWithShapeInsideWorksheet.xlsx`le fichier est localisé.
+ Remplacer`"Your Document Directory"` avec le chemin réel où votre`sampleRotateTextWithShapeInsideWorksheet.xlsx` le fichier est localisé.
 ## Étape 2 : charger l’exemple de fichier Excel
 Chargeons maintenant le fichier Excel d'exemple. Cette étape est cruciale, car nous souhaitons manipuler les données existantes.
 ```csharp
@@ -82,7 +82,7 @@ Aspose.Cells.Drawing.Texts.ShapeTextAlignment shapeTextAlignment = sh.TextBody.T
 //Ne faites pas pivoter le texte avec la forme en définissant RotateTextWithShape sur false.
 shapeTextAlignment.RotateTextWithShape = false;
 ```
- En définissant`RotateTextWithShape` pour que le texte reste droit et ne tourne pas avec la forme, gardant ainsi tout propre et organisé.
+ En définissant`RotateTextWithShape` pour que ce soit faux, nous veillons à ce que le texte reste droit et ne tourne pas avec la forme, gardant ainsi tout propre et organisé.
 ## Étape 7 : Enregistrer le fichier Excel de sortie
 Enfin, enregistrons nos modifications dans un nouveau fichier Excel. Cela nous permet de ne pas perdre nos modifications et d'obtenir un résultat net.
 ```csharp
@@ -91,7 +91,7 @@ wb.Save(outputDir + "outputRotateTextWithShapeInsideWorksheet.xlsx");
 ```
 Et voilà ! Votre fichier de sortie est maintenant enregistré, y compris le texte de la cellule B4 et les ajustements apportés à la forme.
 ## Étape 8 : Exécuter le code
- Dans votre`Main`méthode, encapsulez tous les extraits de code ci-dessus et exécutez votre projet. Observez les modifications reflétées dans votre fichier de sortie !
+ Dans votre`Main` méthode, encapsulez tous les extraits de code ci-dessus et exécutez votre projet. Observez les modifications reflétées dans votre fichier de sortie !
 ```csharp
 Console.WriteLine("RotateTextWithShapeInsideWorksheet executed successfully.");
 ```
@@ -105,6 +105,6 @@ Aspose.Cells prend en charge une variété de formats Excel, notamment XLS, XLSX
 ### Est-il possible de faire pivoter du texte avec des formes dans les anciennes versions d'Excel ?
 Oui, la fonctionnalité peut être appliquée aux anciens formats pris en charge par Aspose.Cells.
 ### Où puis-je trouver plus de documentation sur Aspose.Cells ?
- Vous pouvez explorer le vaste[documentation](https://reference.aspose.com/cells/net/)pour plus d'informations.
+ Vous pouvez explorer le vaste[documentation](https://reference.aspose.com/cells/net/) pour plus d'informations.
 ### Comment obtenir de l'aide pour Aspose.Cells ?
  Vous pouvez demander de l'aide en visitant le[Forum Aspose](https://forum.aspose.com/c/cells/9).

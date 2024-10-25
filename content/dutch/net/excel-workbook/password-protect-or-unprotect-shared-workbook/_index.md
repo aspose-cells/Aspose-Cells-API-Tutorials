@@ -22,7 +22,7 @@ Voordat we in de code duiken, zorg ervoor dat u het volgende bij de hand hebt:
 
 ## Pakketten importeren
 
-Om te beginnen moet u de benodigde pakketten importeren. Neem de Aspose.Cells-bibliotheek op in uw C#-project. Dit is hoe u dat kunt doen:
+Om te beginnen moet u de benodigde pakketten importeren. Neem de Aspose.Cells-bibliotheek op in uw C#-project. Zo doet u dat:
 
 ```csharp
 using System;
@@ -117,4 +117,4 @@ Als u het wachtwoord vergeet, kunt u de beveiliging van de werkmap helaas niet o
 Aspose.Cells ondersteunt voornamelijk .NET, maar ze hebben ook bibliotheken voor Java en andere talen. Bekijk hun site voor meer info!
 
 ### Hoe krijg ik ondersteuning voor Aspose.Cells?
- kunt contact met ons opnemen via hun ondersteuningsforum:[Aspose-ondersteuning](https://forum.aspose.com/c/cells/9).
+ U kunt contact met ons opnemen via hun ondersteuningsforum:[Aspose-ondersteuning](https://forum.aspose.com/c/cells/9).

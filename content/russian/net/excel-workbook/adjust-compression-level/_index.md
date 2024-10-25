@@ -134,7 +134,7 @@ Console.WriteLine("AdjustCompressionLevel executed successfully.");
 ## Часто задаваемые вопросы
 
 ### Что такое Aspose.Cells?
-Aspose.Cells — это библиотека .NET, которая позволяет разработчикам программно создавать, изменять и преобразовывать файлы Excel.
+Aspose.Cells — это библиотека .NET, которая позволяет разработчикам программно создавать, изменять и конвертировать файлы Excel.
 
 ### Как загрузить Aspose.Cells?
  Вы можете загрузить библиотеку Aspose.Cells с сайта[веб-сайт](https://releases.aspose.com/cells/net/).

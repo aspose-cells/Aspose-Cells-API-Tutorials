@@ -37,12 +37,12 @@ using System.Drawing;
 ```csharp
 // Путь к каталогу документов.
 string dataDir = "Your Document Directory";
-//Создайте каталог, если его еще нет.
+// Создайте каталог, если его еще нет.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
--  dataDir: Эта переменная хранит путь к каталогу ваших документов. Заменить`"Your Document Directory"` на фактический путь, по которому вы хотите сохранить файл Excel.
+- dataDir: Эта переменная хранит путь к каталогу ваших документов. Заменить`"Your Document Directory"` на фактический путь, по которому вы хотите сохранить файл Excel.
 - Directory.Exists: проверяет, существует ли уже каталог.
 - Directory.CreateDirectory: если каталог не существует, он создается.
 ## Шаг 2: Создание рабочей книги
@@ -89,7 +89,7 @@ bmp.Save(ms, System.Drawing.Imaging.ImageFormat.Png);
 // Установить данные изображения в форму, связанную с комментарием
 comment.CommentShape.Fill.ImageData = ms.ToArray();
 ```
--  comment.CommentShape.Fill.ImageData: Это свойство позволяет задать изображение для формы комментария. Мы преобразуем`MemoryStream` в массив байтов с помощью`ms.ToArray()`.
+- comment.CommentShape.Fill.ImageData: Это свойство позволяет задать изображение для формы комментария. Мы преобразуем`MemoryStream` в массив байтов с помощью`ms.ToArray()`.
 ## Шаг 7: Сохраните рабочую книгу
 Наконец, давайте сохраним нашу рабочую книгу вместе с комментарием и изображением.
 ```csharp

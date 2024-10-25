@@ -2,7 +2,7 @@
 title: Převést graf do PDF v .NET
 linktitle: Převést graf do PDF v .NET
 second_title: Aspose.Cells .NET Excel Processing API
-description: Naučte se, jak převést grafy Excel do PDF v .NET pomocí Aspose.Cells pomocí tohoto podrobného průvodce! Ideální pro programátory všech úrovní.
+description: Naučte se, jak převést grafy Excel do PDF v .NET pomocí Aspose.Cells s tímto podrobným průvodcem! Ideální pro programátory všech úrovní.
 type: docs
 weight: 11
 url: /cs/net/conversion-to-pdf/convert-chart-to-pdf/

@@ -22,7 +22,7 @@ Genom att följa våra omfattande handledningar om regler för datavalidering me
 Lär dig hur du skapar anpassad datavalidering med Aspose.Cells för Java. Steg-för-steg guide med källkod.
 ### [Dynamiska rullgardinslistor i Excel](./dynamic-dropdown-lists-in-excel/)
 Upptäck kraften med dynamiska rullgardinslistor i Excel. Steg-för-steg-guide med Aspose.Cells för Java. Förbättra dina kalkylblad med interaktivt dataurval.
-### [Datavalideringsfelmeddelanden](./data-validation-error-messages/)
+### [Felmeddelanden för datavalidering](./data-validation-error-messages/)
 Optimera dina datavalideringsfelmeddelanden med Aspose.Cells för Java. Lär dig att skapa, anpassa och förbättra användarupplevelsen.
 ### [Cascading dropdowns i Excel](./cascading-dropdowns-in-excel/)
 Lär dig hur du skapar överlappande rullgardinsmenyer i Excel med Aspose.Cells för Java. Den här steg-för-steg-guiden ger källkod och experttips för effektiv hantering av Excel-kalkylblad.

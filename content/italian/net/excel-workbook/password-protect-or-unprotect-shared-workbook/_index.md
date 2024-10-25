@@ -64,7 +64,7 @@ Ora arriva la parte interessante: proteggere la nostra cartella di lavoro. Appli
 wb.ProtectSharedWorkbook("1234");
 ```
 
-In questo caso, "1234" è la nostra password. Puoi cambiarla con quella che preferisci. Questo comando blocca la cartella di lavoro, impedendo modifiche non autorizzate.
+In questo caso, "1234" è la nostra password. Puoi cambiarla come preferisci. Questo comando blocca la cartella di lavoro, impedendo modifiche non autorizzate.
 
 ## Passaggio 4: (facoltativo) rimuovere la protezione dalla cartella di lavoro
 
@@ -117,4 +117,4 @@ Purtroppo, se dimentichi la password, non potrai più rimuovere la protezione da
 Aspose.Cells supporta principalmente .NET, ma ha anche librerie per Java e altri linguaggi. Controlla il loro sito per maggiori informazioni!
 
 ### Come posso ottenere supporto per Aspose.Cells?
-Puoi chiedere aiuto tramite il loro forum di supporto:[Supporto Aspose](https://forum.aspose.com/c/cells/9).
+ Puoi chiedere aiuto tramite il loro forum di supporto:[Supporto Aspose](https://forum.aspose.com/c/cells/9).

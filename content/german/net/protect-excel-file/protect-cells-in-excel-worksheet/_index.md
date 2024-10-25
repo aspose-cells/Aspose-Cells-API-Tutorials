@@ -16,7 +16,7 @@ In der heutigen digitalen Welt ist die sichere Verwaltung von Daten in Tabellenk
 Bevor Sie sich in die Einzelheiten des Zellschutzes stürzen, sollten Sie einige Voraussetzungen erfüllen:
 
 1. Visual Studio: Stellen Sie sicher, dass Visual Studio auf Ihrem Computer installiert ist. Es ist die primäre IDE für die .NET-Entwicklung.
-2.  Aspose.Cells-Bibliothek: Sie müssen die Aspose.Cells-Bibliothek in Ihrem Projekt verfügbar haben. Sie können sie einfach über den NuGet-Paketmanager installieren oder direkt von der[Aspose.Cells-Website](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells-Bibliothek: Sie müssen die Aspose.Cells-Bibliothek in Ihrem Projekt verfügbar haben. Sie können sie einfach über den NuGet-Paketmanager installieren oder direkt von der[Aspose.Cells-Website](https://releases.aspose.com/cells/net/).
 3. Grundlegende C#-Kenntnisse: Ein wenig Vertrautheit mit der C#-Programmierung wird Ihnen helfen, problemlos zurechtzukommen.
 
 ## Pakete importieren
@@ -52,7 +52,7 @@ Sie müssen zunächst festlegen, wo Ihre Excel-Datei gespeichert werden soll. So
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // Geben Sie hier Ihren Verzeichnispfad an
-//Erstellen Sie ein Verzeichnis, falls es noch nicht vorhanden ist.
+// Erstellen Sie ein Verzeichnis, falls es noch nicht vorhanden ist.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -88,7 +88,7 @@ Um sicherzustellen, dass nur bestimmte Zellen gesperrt sind, müssen Sie zunäch
 for (int i = 0; i <= 255; i++)
 {
     Style style = sheet.Cells.Columns[(byte)i].Style;
-    style.IsLocked = false; // Spalte „Entsperren“
+    style.IsLocked = false; //Spalte „Entsperren“
     StyleFlag styleflag = new StyleFlag();
     styleflag.Locked = true; // Geben Sie an, dass wir diesen Stil sperren möchten
     sheet.Cells.Columns[(byte)i].ApplyStyle(style, styleflag);

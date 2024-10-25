@@ -38,7 +38,7 @@ Tout d’abord, nous devons nous assurer que le répertoire dans lequel enregist
 ```csharp
 // Le chemin vers le répertoire des documents.
 string dataDir = "Your Document Directory";
-//Créez un répertoire s'il n'est pas déjà présent.
+// Créez un répertoire s'il n'est pas déjà présent.
 bool isExists = System.IO.Directory.Exists(dataDir);
 if (!isExists)
     System.IO.Directory.CreateDirectory(dataDir);

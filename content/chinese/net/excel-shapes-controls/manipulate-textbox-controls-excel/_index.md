@@ -80,7 +80,7 @@ workbook.Save(dataDir + "output.out.xls");
 ```
 这会将修改后的 Excel 文件保存到您指定的输出路径。现在，当您打开 Excel 文件时，您将看到对文本框所做的更改。
 ## 结论
-就这样！您刚刚学会了如何使用 Aspose.Cells for .NET 操作 Excel 中的文本框。无论您是自动生成报告、自定义 Excel 工作表还是构建动态内容，Aspose.Cells 都可以轻松地以编程方式控制 Excel 文件的各个方面。从提取和修改文本到保存更新的文件，这个库对于在 .NET 环境中使用 Excel 的开发人员来说是一个强大的工具。
+就这样！您刚刚学会了如何使用 Aspose.Cells for .NET 操作 Excel 中的文本框。无论您是自动生成报告、自定义 Excel 工作表还是构建动态内容，Aspose.Cells 都可以轻松以编程方式控制 Excel 文件的各个方面。从提取和修改文本到保存更新的文件，这个库对于在 .NET 环境中使用 Excel 的开发人员来说是一个强大的工具。
 ## 常见问题解答
 ### 除了文本框之外，我还可以使用 Aspose.Cells 操作其他绘图对象吗？
 是的，Aspose.Cells 允许您操作其他绘图对象，如形状、图表和图片。

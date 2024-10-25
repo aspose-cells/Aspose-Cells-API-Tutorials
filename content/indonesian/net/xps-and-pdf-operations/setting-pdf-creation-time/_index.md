@@ -15,7 +15,7 @@ Sebelum kita masuk ke inti kode, mari pastikan Anda memiliki semua yang dibutuhk
 1. Visual Studio: Pastikan Anda telah menginstal Visual Studio di komputer Anda. Ini akan menjadi lingkungan pengembangan Anda.
 2.  Aspose.Cells untuk .NET: Unduh pustaka Aspose.Cells dari[situs web](https://releases.aspose.com/cells/net/)Anda juga dapat memulai dengan uji coba gratis untuk menguji fungsinya.
 3. Pengetahuan Dasar C#: Keakraban dengan pemrograman C# akan membantu Anda memahami potongan kode dengan lebih baik.
-4.  File Excel: Siapkan file Excel untuk konversi. Untuk contoh ini, kami akan menggunakan file bernama`Book1.xlsx`.
+4. File Excel: Siapkan file Excel untuk konversi. Untuk contoh ini, kami akan menggunakan file bernama`Book1.xlsx`.
 Sekarang setelah Anda menyiapkan prasyaratnya, mari masuk ke bagian yang menyenangkan—mengimpor paket yang diperlukan dan menulis kode!
 ## Paket Impor
 Untuk memulai, Anda perlu mengimpor namespace yang diperlukan dalam berkas C# Anda. Hal ini penting karena memungkinkan Anda mengakses kelas dan metode yang disediakan oleh pustaka Aspose.Cells.
@@ -45,7 +45,7 @@ string dataDir = "Your Document Directory"; // Tentukan direktori dokumen Anda
 string inputPath = dataDir + "Book1.xlsx"; // Jalur ke file Excel Anda
 Workbook workbook = new Workbook(inputPath); // Memuat file Excel
 ```
- Itu`Workbook`class digunakan untuk memuat dan memanipulasi file Excel. Dengan meneruskan jalur input, Anda memberi tahu aplikasi file mana yang akan digunakan.
+ Itu`Workbook` class digunakan untuk memuat dan memanipulasi file Excel. Dengan meneruskan jalur input, Anda memberi tahu aplikasi file mana yang akan digunakan.
 ## Langkah 3: Buat PdfSaveOptions
  Sekarang saatnya membuat contoh`PdfSaveOptions`Kelas ini memungkinkan Anda menentukan berbagai opsi untuk menyimpan buku kerja Anda sebagai PDF, termasuk waktu pembuatannya.
 ```csharp
@@ -56,7 +56,7 @@ options.CreatedTime = DateTime.Now; // Atur waktu pembuatan ke sekarang
 ## Langkah 4: Simpan Buku Kerja sebagai PDF
 Terakhir, Anda akan menyimpan buku kerja sebagai berkas PDF menggunakan opsi yang baru saja Anda tentukan.
 ```csharp
-workbook.Save(dataDir + "output.pdf", options); // Simpan sebagai PDF
+workbook.Save(dataDir + "output.pdf", options); //Simpan sebagai PDF
 ```
  Baris kode ini mengambil buku kerja dan menyimpannya dalam format PDF di lokasi yang ditentukan.`options` parameter dilewatkan untuk menyertakan waktu pembuatan dalam metadata PDF.
 

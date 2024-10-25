@@ -37,7 +37,7 @@ using System.Drawing;
 ```csharp
 // เส้นทางไปยังไดเร็กทอรีเอกสาร
 string dataDir = "Your Document Directory"; // ระบุเส้นทางที่คุณต้องการ
-//สร้างไดเร็กทอรีหากยังไม่มีอยู่
+// สร้างไดเร็กทอรีหากยังไม่มีอยู่
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);

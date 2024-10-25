@@ -56,7 +56,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
   
- 그만큼`FileStream` 클래스를 사용하면 파일을 읽고 쓸 수 있습니다. 이 경우 Excel 파일을 읽기 모드로 엽니다.
+ 그만큼`FileStream`클래스를 사용하면 파일을 읽고 쓸 수 있습니다. 이 경우 Excel 파일을 읽기 모드로 엽니다.
 
 ## 3단계: 통합 문서 개체 인스턴스화
 
@@ -67,7 +67,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 Workbook workbook = new Workbook(fstream);
 ```
   
- 이것`Workbook`이제 객체는 Excel 파일의 모든 데이터와 설정을 보관하므로 나중에 프로세스에서 조작이 가능합니다.
+ 이것`Workbook` 이제 객체는 Excel 파일의 모든 데이터와 설정을 보관하므로 나중에 프로세스에서 조작이 가능합니다.
 
 ## 4단계: 수직 스크롤 막대 숨기기
 
@@ -132,4 +132,4 @@ fstream.Close();
  확인하세요[Aspose.Cells 설명서](https://reference.aspose.com/cells/net/) 추가 예제와 튜토리얼을 보려면 여기를 클릭하세요.
 
 ### Aspose.Cells를 사용하는 동안 문제가 발생하면 어떻게 해야 하나요?  
- Aspose 지원 포럼에서 도움을 요청하거나 문제를 보고할 수 있습니다.[여기](https://forum.aspose.com/c/cells/9).
+Aspose 지원 포럼에서 도움을 요청하거나 문제를 보고할 수 있습니다.[여기](https://forum.aspose.com/c/cells/9).

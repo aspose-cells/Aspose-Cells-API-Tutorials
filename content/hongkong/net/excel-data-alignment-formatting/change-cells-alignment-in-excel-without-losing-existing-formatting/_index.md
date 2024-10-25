@@ -16,7 +16,7 @@ url: /zh-hant/net/excel-data-alignment-formatting/change-cells-alignment-in-exce
 在我們深入實際編碼之前，必須確保所有內容都設定正確。這是您需要的：
 
 1. Visual Studio：確保您的電腦上安裝了 Visual Studio（任何支援 .NET 的版本）。
-2.  Aspose.Cells for .NET：從下列位置下載並安裝 Aspose.Cells 函式庫：[Aspose 的網站](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells for .NET：從下列位置下載並安裝 Aspose.Cells 函式庫：[Aspose 的網站](https://releases.aspose.com/cells/net/).
 3. C# 基本知識：稍微熟悉一下 C# 程式設計將會派上用場，因為我們將在 C# 上下文中運作。
 4. 範例 Excel 檔案：為了演示，請準備一個範例 Excel 檔案（例如，`sampleChangeCellsAlignmentAndKeepExistingFormatting.xlsx`）包含一些初始儲存格格式。
 
@@ -122,7 +122,7 @@ StyleFlag flag = new StyleFlag();
 flag.Alignments = true;
 ```
 
-透過設定`Alignments`StyleFlag 的屬性為`true`，您告訴 Aspose.Cells 正確套用對齊樣式。
+透過設定`Alignments` StyleFlag 的屬性為`true`，您告訴 Aspose.Cells 正確套用對齊樣式。
 
 ## 第 7 步：將樣式套用到儲存格範圍
 

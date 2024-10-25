@@ -35,7 +35,7 @@ string dataDir = "Your Document Directory";
 ## Шаг 2: Создайте каталог, если его не существует
 Далее мы хотим убедиться, что этот каталог существует. Если его нет, нам нужно его создать.
 ```csharp
-//Создайте каталог, если его еще нет.
+// Создайте каталог, если его еще нет.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -58,7 +58,7 @@ Worksheet sheet = workbook.Worksheets[0];
 ## Шаг 5: Определите путь для изображения
 Теперь давайте зададим путь к изображению, которое вы хотите встроить в файл Excel.
 ```csharp
-// Определите строковую переменную для хранения пути к изображению.
+//Определите строковую переменную для хранения пути к изображению.
 string ImageUrl = dataDir + "logo.jpg";
 ```
  Убедитесь, что этот путь правильно отражает, где находится ваш`logo.jpg` файл сохранен.
@@ -87,7 +87,7 @@ string path = dataDir + "book1.xls";
 ```csharp
 // Добавьте файл в потоки.
 fs = File.OpenRead(path);
-// Определить массив байтов.
+//Определить массив байтов.
 byte[] objectData = new Byte[fs.Length];
 // Сохраните файл из потоков.
 fs.Read(objectData, 0, objectData.Length);

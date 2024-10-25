@@ -71,7 +71,7 @@ Workbook wb = new Workbook(sourceDir + "sampleRemoveExistingPrinterSettingsOfWor
 
 Tento řádek otevře soubor Excel a připraví jej na úpravy.
 
-## Krok 3: Získejte počet listů
+## Krok 3: Získejte počet pracovních listů
 
 Nyní, když máme náš sešit, pojďme zjistit, kolik listů obsahuje:
 
@@ -80,7 +80,7 @@ Nyní, když máme náš sešit, pojďme zjistit, kolik listů obsahuje:
 int sheetCount = wb.Worksheets.Count;
 ```
 
-To nám pomůže efektivně procházet každým pracovním listem.
+To nám pomůže efektivně iterovat každý pracovní list.
 
 ## Krok 4: Iterujte každý list
 

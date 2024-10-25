@@ -96,11 +96,11 @@ Workbook workbook = new Workbook(sourceDir + "sampleModifyPieChart.xlsx");
 Ahora, analicemos la hoja en particular que contiene el gráfico circular. Supongamos que el gráfico circular está en la segunda hoja de cálculo (índice 1):
 
 ```csharp
-//Obtén el cuadro de diseño en la segunda hoja.
+// Obtén el cuadro de diseño en la segunda hoja.
 Worksheet sheet = workbook.Worksheets[1];
 ```
 
- Accediendo a la`Worksheets` colección, podemos llegar a la hoja específica que necesitamos.
+ Accediendo a la`Worksheets`colección, podemos llegar a la hoja específica que necesitamos.
 
 ## Paso 4: Obtenga el gráfico
 

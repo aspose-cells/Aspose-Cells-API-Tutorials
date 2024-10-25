@@ -45,7 +45,7 @@ Workbook wb = new Workbook();
 
 Tento řádek vytváří instanci nového objektu sešitu, který je pro nás připraven k manipulaci. Zatím nic neuvidíte, ale naše plátno je hotové!
 
-## Krok 2: Otevřete první list
+## Krok 2: Otevřete první pracovní list
 
 Nyní, když máme náš sešit, potřebujeme v něm získat přístup ke konkrétnímu listu. List je jako jedna stránka v sešitu a je to místo, kde se odehrává veškerá akce.
 

@@ -108,7 +108,7 @@ In Excel is een van de belangrijkste functies in grafieken het verwerken van aut
 
 ```csharp
 // Stel de hoofdeenheid voor de Y-as in
-ch.AxisY.MajorUnit = 10; // kunt instellen volgens uw vereisten
+ch.AxisY.MajorUnit = 10; // U kunt instellen volgens uw vereisten
 ```
 
 Laten we nu de automatische eenheden updaten!
@@ -142,7 +142,7 @@ Werken met Aspose.Cells voor .NET is niet alleen efficiënt, maar ook ongeloofli
 Aspose.Cells is een krachtige .NET-bibliotheek voor het maken, bewerken en converteren van Excel-bestanden.
 
 ### Kan ik Aspose.Cells gratis gebruiken?
- Ja! U kunt beginnen met een gratis proefperiode die beschikbaar is[hier](https://releases.aspose.com/).
+Ja! U kunt beginnen met een gratis proefperiode die beschikbaar is[hier](https://releases.aspose.com/).
 
 ### Moet ik iets installeren om te kunnen beginnen?
 Alleen de Aspose.Cells-bibliotheek en een .NET Framework geïnstalleerd op uw computer.

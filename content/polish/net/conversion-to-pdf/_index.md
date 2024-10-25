@@ -2,7 +2,7 @@
 title: Konwersja do PDF
 linktitle: Konwersja do PDF
 second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Przekształć swoje pliki i wykresy programu Excel w płynne pliki PDF dzięki naszym łatwym w użyciu samouczkom Aspose.Cells dla .NET.
+description: Przekształć swoje pliki i wykresy programu Excel w płynne pliki PDF dzięki naszym łatwym w użyciu samouczkom Aspose.Cells dla platformy .NET.
 type: docs
 weight: 34
 url: /pl/net/conversion-to-pdf/

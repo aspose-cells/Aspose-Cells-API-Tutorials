@@ -32,7 +32,7 @@ Allereerst moeten we een nieuw project in Visual Studio maken voor onze applicat
 2. Kies ASP.NET Core Web Application of Console Application op basis van uw voorkeur.
 3.  Geef je project een naam (iets als`SXCFileOpener`) en klik op Maken.
 4. Zorg ervoor dat u tijdens deze installatie het .NET Framework selecteert.
-5.  Zodra het project is geladen, ziet u een standaard`.cs` bestand waar we onze code aan kunnen toevoegen.
+5. Zodra het project is geladen, ziet u een standaard`.cs` bestand waar we onze code aan kunnen toevoegen.
 ## Stap 2: De Aspose.Cells-bibliotheek toevoegen
 Vervolgens voegen we de Aspose.Cells-bibliotheek toe aan ons project. Dit is hoe:
 1. Open de NuGet Package Manager door met de rechtermuisknop op uw project in Solution Explorer te klikken en NuGet-pakketten beheren te selecteren.
@@ -48,7 +48,7 @@ string sourceDir = "Your Document Directory";
 ```
 2.  Voeg in deze map uw SXC-voorbeeldbestand toe (bijv.`SampleSXC.sxc`) voor testen.
 ## Stap 4: Een werkmapobject maken
- Nu de bronmap is ingesteld, is het tijd om een`Workbook` object om ons SXC-bestand te laden:
+ Nu de bronmap is ingesteld, is het tijd om een`Workbook`object om ons SXC-bestand te laden:
 ```csharp
 Workbook workbook = new Workbook(sourceDir + "SampleSXC.sxc");
 ```

@@ -60,7 +60,7 @@ Pense na planilha como as abas individuais em um arquivo Excel onde os dados rea
 Agora que temos nossa planilha, é hora de criar um intervalo. Um intervalo se refere a um bloco de células, que pode abranger várias linhas e colunas.
 
 ```csharp
-// Crie um intervalo.
+//Crie um intervalo.
 Range mrange = worksheet1.Cells.CreateRange("D6", "I12");
 ```
 
@@ -133,7 +133,7 @@ flag.CellShading = true;
 range1.ApplyStyle(style, flag);
 ```
 
- O`StyleFlag`informa ao Aspose.Cells quais propriedades de estilo aplicar — alinhamento, sombreamento, etc. Isso lhe dá controle granular sobre como o estilo é aplicado.
+ O`StyleFlag` informa ao Aspose.Cells quais propriedades de estilo aplicar — alinhamento, sombreamento, etc. Isso lhe dá controle granular sobre como o estilo é aplicado.
 
 ## Etapa 9: Insira dados no intervalo mesclado
 
@@ -159,7 +159,7 @@ Aqui, a pasta de trabalho é salva com o nome "outputMergeCellsInNamedRange.xlsx
 
 ## Conclusão
 
-aí está! Você mesclou células com sucesso em um intervalo nomeado, aplicou uma formatação bonita e até mesmo inseriu alguns dados — tudo com o Aspose.Cells para .NET. Quer você esteja trabalhando na automação de relatórios, manipulando arquivos do Excel ou apenas aprendendo novas técnicas, este guia passo a passo deve lhe dar a base necessária.
+E aí está! Você mesclou células com sucesso em um intervalo nomeado, aplicou uma formatação bonita e até mesmo inseriu alguns dados — tudo com o Aspose.Cells para .NET. Quer você esteja trabalhando na automação de relatórios, manipulando arquivos do Excel ou apenas aprendendo novas técnicas, este guia passo a passo deve lhe dar a base necessária.
 
 ## Perguntas frequentes
 

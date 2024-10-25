@@ -71,7 +71,7 @@ Most el kell érnünk azt a konkrét munkalapot, amellyel dolgozni szeretnénk:
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
-Magyarázat: A`Worksheets` gyűjtemény lehetővé teszi az egyes lapokhoz való hozzáférést. Használata`[0]` az Excel-fájl első munkalapjára hivatkozik, ami általában bevett gyakorlat az egylapos fájlokkal végzett munka során.
+ Magyarázat: A`Worksheets` gyűjtemény lehetővé teszi az egyes lapokhoz való hozzáférést. Használata`[0]` az Excel-fájl első munkalapjára hivatkozik, ami általában bevett gyakorlat az egylapos fájlokkal végzett munka során.
 
 ## 4. lépés: Az automatikus szűrő beállítása
 
@@ -82,7 +82,7 @@ Itt kezdődik a varázslat! Adatainkhoz létrehozunk egy AutoFilter tartományt:
 worksheet.AutoFilter.Range = "A1:A18";
 ```
 
-Magyarázat: A`AutoFilter.Range` tulajdonság lehetővé teszi annak megadását, hogy mely sorokat szűrje. Ebben az esetben az A1–A18 tartományba eső sorokat szűrjük, amelyekről feltételezzük, hogy az adatainkat tárolják.
+ Magyarázat: A`AutoFilter.Range` tulajdonság lehetővé teszi annak megadását, hogy mely sorokat szűrje. Ebben az esetben az A1–A18 tartományba eső sorokat szűrjük, amelyekről feltételezzük, hogy az adatainkat tárolják.
 
 ## 5. lépés: Alkalmazza a szűrőfeltételt
 
@@ -93,7 +93,7 @@ A következő lépés a szűrőfeltétel meghatározása. Csak azokat a sorokat 
 worksheet.AutoFilter.Custom(0, FilterOperatorType.BeginsWith, "Ba");
 ```
 
-Magyarázat: A`Custom` metódus határozza meg a szűrési logikánkat. Az első érv (`0` ) azt jelzi, hogy az első oszlop (A) alapján szűrünk, és a`FilterOperatorType.BeginsWith`megadja azt a feltételt, hogy a „Ba” betűvel kezdődő sorokat keressük.
+ Magyarázat: A`Custom` metódus határozza meg a szűrési logikánkat. Az első érv (`0` ) azt jelzi, hogy az első oszlop (A) alapján szűrünk, és a`FilterOperatorType.BeginsWith` megadja azt a feltételt, hogy a „Ba” betűvel kezdődő sorokat keressük.
 
 ## 6. lépés: Frissítse a szűrőt
 
@@ -115,7 +115,7 @@ Itt az ideje, hogy mentsük az általunk végzett változtatásokat:
 workbook.Save(outputDir + "outSourseSampleCountryNames.xlsx");
 ```
 
-Magyarázat: A`Save` metódus visszaírja a módosított munkafüzetet a megadott kimeneti útvonalra. Ez a meghatározott szűrők új fájlba írása alá esik, így az eredeti adatok érintetlenek maradnak.
+ Magyarázat: A`Save` metódus visszaírja a módosított munkafüzetet a megadott kimeneti útvonalra. Ez a meghatározott szűrők új fájlba írása alá esik, így az eredeti adatok érintetlenek maradnak.
 
 ## 8. lépés: Kimenet megerősítése
 

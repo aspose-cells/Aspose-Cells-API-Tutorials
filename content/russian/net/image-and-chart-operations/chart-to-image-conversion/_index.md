@@ -36,7 +36,7 @@ using Aspose.Cells;
 ```csharp
 // Определите каталог для сохранения изображений
 string dataDir = "Your Document Directory";
-// Проверьте, существует ли каталог
+//Проверьте, существует ли каталог
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -93,7 +93,7 @@ chart.NSeries.Add("A1:B3", true);
 ## Шаг 7: Преобразуйте диаграмму в изображение
 Момент истины: мы собираемся конвертировать эту диаграмму в файл изображения!
 
- Здесь мы используем`ToImage`метод конвертации диаграммы в формат изображения по вашему выбору. В этом случае мы конвертируем ее в формат EMF (Enhanced Metafile).
+ Здесь мы используем`ToImage` метод конвертации диаграммы в формат изображения по вашему выбору. В этом случае мы конвертируем ее в формат EMF (Enhanced Metafile).
 ```csharp
 // Преобразуйте диаграмму в изображение и сохраните его в каталоге.
 chart.ToImage(dataDir + "Chart.emf", ImageFormat.Emf);

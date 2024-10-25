@@ -12,7 +12,7 @@ V dnešním světě založeném na datech je zvládnutí metod exportu dat Excel
 
 ## Zavedení
 
-Excel je výkonný nástroj pro správu dat a Aspose.Cells for Java vylepšuje jeho možnosti tím, že umožňuje programovou manipulaci. Tato příručka nejen vysvětluje pojmy, ale poskytuje také praktické příklady zdrojového kódu.
+Excel je výkonný nástroj pro správu dat a Aspose.Cells for Java vylepšuje jeho možnosti tím, že umožňuje programovou manipulaci. Tato příručka nejen vysvětluje pojmy, ale také poskytuje praktické příklady zdrojového kódu.
 
 ## Síla Aspose.Cells pro Javu
 

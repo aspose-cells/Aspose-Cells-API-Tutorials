@@ -79,9 +79,9 @@ Aqui, criamos a primeira pasta de trabalho e preenchemos a primeira planilha (`w
 Vamos configurar a página para repetir linhas de cabeçalho ao imprimir, só para que possamos ver esse recurso em ação:
 
 ```csharp
-//Defina um objeto de configuração de página com base na primeira planilha
+// Defina um objeto de configuração de página com base na primeira planilha
 PageSetup pagesetup = ws0.PageSetup;
-// As cinco primeiras linhas são repetidas em cada página
+//As cinco primeiras linhas são repetidas em cada página
 pagesetup.PrintTitleRows = "$1:$5";
 ```
  Esta parte define como seu documento será impresso. Ao definir`PrintTitleRows`, garantimos que as cinco primeiras linhas aparecerão em todas as páginas impressas, o que é muito útil para a legibilidade.
@@ -109,7 +109,7 @@ Vamos copiar o conteúdo da planilha da primeira pasta de trabalho para a segund
 // primeira planilha da segunda pasta de trabalho
 ws1.Copy(ws0);
 ```
- O`Copy` O método pega todo o conteúdo da planilha de origem (`ws0`e duplica-o na planilha de destino (`ws1`). Tão simples, certo?
+ O`Copy` O método pega todo o conteúdo da planilha de origem (`ws0`) e duplica-o na planilha de destino (`ws1`). Tão simples, certo?
 
 ## Etapa 6: Salve a nova pasta de trabalho
 

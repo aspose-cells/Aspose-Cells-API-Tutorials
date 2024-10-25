@@ -12,8 +12,8 @@ Ha az Excel-fájlok .NET-ben történő kezeléséről van szó, az Aspose.Cells
 ## Előfeltételek
 Mielőtt elkezdené az átalakítást, elengedhetetlen, hogy minden megfelelően be legyen állítva. Íme az előfeltételek, amelyekre szüksége lesz:
 1. Visual Studio: Győződjön meg arról, hogy a Visual Studio telepítve van a számítógépére. Ez az IDE, amely segít a .NET-projektek zökkenőmentes futtatásában.
-2. Aspose.Cells for .NET Library: be kell szereznie ezt a könyvtárat. Megteheti[töltse le itt](https://releases.aspose.com/cells/net/) vagy kezdje a-val[ingyenes próbaverzió](https://releases.aspose.com/).
-3. Alapvető C# ismeretek: A C# programozás ismerete előnyt jelent, mivel példáink és magyarázataink ezen a nyelven készülnek.
+2.  Aspose.Cells for .NET Library: be kell szereznie ezt a könyvtárat. Tudod[töltse le itt](https://releases.aspose.com/cells/net/) vagy kezdje a-val[ingyenes próbaverzió](https://releases.aspose.com/).
+3. Alapvető C# ismerete: A C# programozás ismerete előnyt jelent, mivel példáink és magyarázataink ezen a nyelven készülnek.
 4.  Minta Excel-fájl: A bemutatóhoz hozzon létre vagy töltsön le egy Excel-fájlt. Mentse el másként`MyTestBook1.xls` projektkönyvtárában.
 5. A .NET-projektek alapvető ismerete: Az egyszerű .NET-projektek létrehozásának ismerete megkönnyíti ezt, de ne aggódjon – végigvezetjük a lépéseken.
 ## Csomagok importálása
@@ -51,7 +51,7 @@ string dataDir = "Your Document Directory";
 // Nyisson meg egy Excel-sablonfájlt.
 Workbook book = new Workbook(dataDir + "MyTestBook1.xls");
 ```
- Ebben a lépésben létrehozzuk a`Workbook`osztályt, és adja át az Excel fájlunk elérési útját. Ez lehetővé teszi számunkra, hogy programozottan kommunikáljunk a fájl tartalmával.
+ Ebben a lépésben létrehozzuk a`Workbook` osztályt, és adja át az Excel fájlunk elérési útját. Ez lehetővé teszi számunkra, hogy programozottan kommunikáljunk a fájl tartalmával.
 ## 5. lépés: A munkalap elérése
 Most, hogy a munkafüzet nyitva van, nyissuk meg az első munkalapot:
 ```csharp
@@ -78,7 +78,7 @@ SheetRender sr = new SheetRender(sheet, imgOptions);
 // Renderelje le a képet a laphoz
 Bitmap bitmap = sr.ToImage(0);
 ```
- A`SheetRender`osztály segít a munkalapot bittérképes képpé renderelni. hívjuk`ToImage(0)` hogy a nulladik oldalt (az első lapunkat) bittérképpé tegyük.
+ A`SheetRender` osztály segít a munkalapot bittérképes képpé renderelni. hívjuk`ToImage(0)` hogy a nulladik oldalt (az első lapunkat) bittérképpé tegyük.
 ## 8. lépés: A kép mentése
 A renderelés után el kell mentenünk a képet a megadott könyvtárba:
 ```csharp
@@ -99,7 +99,7 @@ Ez a sor egy megerősítő üzenetet küld a konzolnak, amely tudatja a felhaszn
 ### Mi az Aspose.Cells?
 Az Aspose.Cells egy .NET-könyvtár, amely lehetővé teszi a fejlesztők számára Excel-fájlok programozott létrehozását, kezelését, konvertálását és feldolgozását.
 ### Használhatom ingyenesen az Aspose.Cells-t?
- Igen, megkezdheti az Aspose.Cells használatát, ha ingyenes próbaverziót tölt le tőlük[weboldal](https://releases.aspose.com/).
+Igen, megkezdheti az Aspose.Cells használatát, ha ingyenes próbaverziót tölt le tőlük[weboldal](https://releases.aspose.com/).
 ### Milyen képformátumokat támogat az Aspose.Cells az exportáláshoz?
 Az Aspose.Cells különféle képformátumokat támogat, beleértve a JPEG-et, PNG-t, BMP-t és GIF-et.
 ### Hol találok további támogatást az Aspose.Cells számára?

@@ -16,7 +16,7 @@ url: /ja/net/inserting-controls-in-charts/add-picture-to-chart/
 コーディングの詳細に入る前に、スムーズに進めるために必要な前提条件がいくつかあります。
 
 - Visual Studio: ここで .NET コードを記述して実行します。インストールされていることを確認してください。
-- Aspose.Cells for .NET: Excelファイルを操作するにはこのライブラリが必要です。[ここからダウンロード](https://releases.aspose.com/cells/net/).
+-  Aspose.Cells for .NET: Excelファイルを操作するにはこのライブラリが必要です。[ここからダウンロード](https://releases.aspose.com/cells/net/).
 - C# の基本的な理解: コードの説明をしますが、C# の基本を理解しておくと、よりわかりやすくなります。
 
 ### インストール手順
@@ -84,7 +84,7 @@ FileStream stream = new FileStream(sourceDir + "sampleAddingPictureInChart.png",
 次に、画像を追加するグラフを指定しましょう。この例では、最初のワークシートの最初のグラフを対象とします。
 
 ```csharp
-// 枚目のシートでデザイナー チャートを取得します。
+// 2 枚目のシートでデザイナー チャートを取得します。
 Worksheet sheet = workbook.Worksheets[0];
 Aspose.Cells.Charts.Chart chart = sheet.Charts[0];
 ```

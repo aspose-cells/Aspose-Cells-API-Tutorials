@@ -35,13 +35,13 @@ Beginnen wir mit der Definition des Pfads Ihrer Dokumente. Sie möchten das Quel
 // Der Pfad zum Dokumentverzeichnis.
 string sourceDir = "Your Document Directory"; // Ändern Sie dies in den Pfad Ihrer Excel-Datei
 // Ausgabeverzeichnis
-string outputDir = RunExamples.Get_OutputDirectory(); // Stellen Sie sicher, dass diese Methode einen gültigen Ausgabepfad bereitstellt
+string outputDir = "Your Document Directory"; // Stellen Sie sicher, dass diese Methode einen gültigen Ausgabepfad bereitstellt
 ```
- Ersetzen Sie in diesem Snippet`"Your Document Directory"` mit dem tatsächlichen Pfad zu Ihrem Verzeichnis, das die Excel-Datei enthält. Das ist wie das Aufbauen der Bühne vor Ihrem Auftritt – es ist entscheidend zu wissen, wo sich Ihre Materialien befinden.
+ Ersetzen Sie in diesem Snippet`"Your Document Directory"`mit dem tatsächlichen Pfad zu Ihrem Verzeichnis, das die Excel-Datei enthält. Das ist wie das Aufbauen der Bühne vor Ihrem Auftritt – es ist entscheidend zu wissen, wo sich Ihre Materialien befinden.
 ## Schritt 2: Instanziieren des Arbeitsmappenobjekts
  Als nächstes erstellen wir eine`Workbook` Objekt, um die Excel-Datei zu öffnen, mit der wir arbeiten.
 ```csharp
-//Instanziieren eines Workbook-Objekts
+// Instanziieren eines Workbook-Objekts
 // Öffnen einer Excel-Datei
 Workbook workbook = new Workbook(sourceDir + "HyperlinksSample.xlsx");
 ```
@@ -66,7 +66,7 @@ In diesem Schritt greifen wir tatsächlich auf die Hyperlinks in unserem definie
 //Holen Sie sich Hyperlinks in Reichweite
 Hyperlink[] hyperlinks = range.Hyperlinks;
 ```
- Der`Hyperlinks` Eigentum eines`Range`Objekt gibt ein Array von`Hyperlink` Objekte, die in diesem Bereich gefunden wurden. Es ist, als würden Sie alle wichtigen Notizen auf einmal von Ihrer Seite erfassen!
+ Der`Hyperlinks` Eigentum eines`Range` Objekt gibt ein Array von`Hyperlink` Objekte, die in diesem Bereich gefunden wurden. Es ist, als würden Sie alle wichtigen Notizen auf einmal von Ihrer Seite erfassen!
 ## Schritt 6: Durchschleifen und Links anzeigen
 Lassen Sie uns nun die abgerufenen Hyperlinks durchgehen. Wir drucken ihre Adressen und Bereiche zunächst in der Konsole aus.
 ```csharp
@@ -85,7 +85,7 @@ foreach (Hyperlink link in hyperlinks)
     link.Delete();
 }
 ```
- Mit dem`Delete()` Mit der Methode „Hyperlink löschen“ können Sie Hyperlinks entfernen, die Sie möglicherweise nicht mehr benötigen. Das ist, als würden Sie eine nicht mehr benötigte Kritzelei von Ihrer Seite löschen.
+ Mit dem`Delete()`Mit der Methode „Hyperlink löschen“ können Sie Hyperlinks entfernen, die Sie möglicherweise nicht mehr benötigen. Das ist, als würden Sie eine nicht mehr benötigte Kritzelei von Ihrer Seite löschen.
 ## Schritt 8: Speichern Sie Ihre Änderungen
 Zum Schluss speichern wir die Arbeitsmappe mit allen vorgenommenen Anpassungen.
 ```csharp

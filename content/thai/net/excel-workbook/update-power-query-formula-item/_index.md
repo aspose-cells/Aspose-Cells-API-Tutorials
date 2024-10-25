@@ -87,7 +87,7 @@ foreach (PowerQueryFormula formula in mashupData.PowerQueryFormulas)
 ```
 
 -  เราวนผ่านแต่ละ`PowerQueryFormula` ใน`mashupData`.
--  ภายในลูปนั้น เราจะเจาะลึกแต่ละอย่าง`PowerQueryFormulaItem`.
+- ภายในลูปนั้น เราจะเจาะลึกแต่ละอย่าง`PowerQueryFormulaItem`.
 - เราตรวจสอบว่าชื่อรายการตรงกับ "แหล่งที่มา" หรือไม่ หากตรงกัน เราจะอัปเดตค่าเพื่อลิงก์ไปยังไฟล์แหล่งที่มาใหม่ของเรา
 
 คล้ายกับการค้นหาหน้าที่ถูกต้องในคู่มือ จากนั้นทำการอัปเดตตามที่จำเป็น ซึ่งเป็นกระบวนการตรงไปตรงมาและพิถีพิถัน
@@ -101,7 +101,7 @@ foreach (PowerQueryFormula formula in mashupData.PowerQueryFormulas)
 workbook.Save(outputDir + "SamplePowerQueryFormula_out.xlsx");
 Console.WriteLine("UpdatePowerQueryFormulaItem executed successfully.");
 ```
- การ`Save`วิธีการนี้จะเขียนเวิร์กบุ๊กที่อัปเดตไปยังไดเร็กทอรีเอาต์พุตที่ระบุ เหมือนกับการปิดผนึกการแก้ไขของคุณในคู่มือเวอร์ชันใหม่ที่พร้อมให้ผู้อื่นนำไปใช้!
+ การ`Save` วิธีการนี้จะเขียนเวิร์กบุ๊กที่อัปเดตไปยังไดเร็กทอรีเอาต์พุตที่ระบุ เหมือนกับการปิดผนึกการแก้ไขของคุณในคู่มือเวอร์ชันใหม่ที่พร้อมให้ผู้อื่นนำไปใช้!
 
 ## บทสรุป
 

@@ -31,7 +31,7 @@ using System.Drawing;
 ```csharp
 // قم بتحديد المسار إلى دليل المستندات الخاص بك.
 string dataDir = "Your Document Directory";
-//إنشاء الدليل إذا لم يكن موجودًا بالفعل.
+// إنشاء الدليل إذا لم يكن موجودًا بالفعل.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
 	System.IO.Directory.CreateDirectory(dataDir);

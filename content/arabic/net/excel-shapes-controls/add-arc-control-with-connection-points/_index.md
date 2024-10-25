@@ -29,7 +29,7 @@ using System.Drawing;
 أولاً وقبل كل شيء، دعنا نضع دليلاً حيث ستحفظ ملفات Excel الجديدة اللامعة. وإليك كيفية القيام بذلك:
 ```csharp
 string dataDir = "Your Document Directory";
-//إنشاء الدليل إذا لم يكن موجودًا بالفعل.
+// إنشاء الدليل إذا لم يكن موجودًا بالفعل.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);

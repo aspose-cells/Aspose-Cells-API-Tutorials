@@ -37,7 +37,7 @@ using System.Drawing;
 
 Dit is alsof je de gereedschapskist opent voordat je de kraan gaat repareren: je moet je gereedschap bij de hand hebben!
 
-Nu u bent voorbereid, gaan we de mouwen opstropen en aan de slag met het goede werk. We doorlopen alle stappen die nodig zijn om een label aan uw grafiek toe te voegen.
+Nu u bent voorbereid, laten we de mouwen opstropen en aan de slag gaan. We doorlopen alle stappen die nodig zijn om een label aan uw grafiek toe te voegen.
 
 ## Stap 1: Definieer mappen
 
@@ -51,7 +51,7 @@ string sourceDir = "Your Document Directory";
 string outputDir = "Your Output Directory";
 ```
 
-Zie dit als het opzetten van het toneel voor een toneelstuk. Je moet weten waar je acteurs (bestanden) zijn!
+Zie dit als het opzetten van een toneel voor een toneelstuk. Je moet weten waar je acteurs (bestanden) zijn!
 
 ## Stap 2: Open het bestaande bestand
 
@@ -62,7 +62,7 @@ Vervolgens laden we het Excel-bestand met de grafiek waaraan we een label willen
 Workbook workbook = new Workbook(sourceDir + "sampleAddingLabelControlInChart.xls");
 ```
 
- Hier gebruiken we de`Workbook`klasse van Aspose.Cells om ons Excel-bestand te openen. Het is alsof je de deur ontgrendelt om de creativiteit te laten stromen!
+ Hier gebruiken we de`Workbook` klasse van Aspose.Cells om ons Excel-bestand te openen. Het is alsof je de deur ontgrendelt om de creativiteit te laten stromen!
 
 ## Stap 3: Toegang tot het werkblad
 
@@ -94,7 +94,7 @@ Nu komt het spannende gedeelte: het label toevoegen aan de grafiek. We definiër
 Aspose.Cells.Drawing.Label label = chart.Shapes.AddLabelInChart(600, 600, 350, 900);
 ```
 
- Hier,`AddLabelInChart`zorgt ervoor dat er een label wordt gemaakt op basis van de coördinaten en afmetingen die u opgeeft. Het is alsof u een mooi kader om uw kunstwerk plakt!
+ Hier,`AddLabelInChart` zorgt ervoor dat er een label wordt gemaakt op basis van de coördinaten en afmetingen die u opgeeft. Het is alsof u een mooi kader om uw kunstwerk plakt!
 
 ## Stap 6: Stel de labeltekst in
 

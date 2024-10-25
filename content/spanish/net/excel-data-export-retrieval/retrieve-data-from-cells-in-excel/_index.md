@@ -18,7 +18,7 @@ Antes de pasar al código, hay algunos requisitos previos que debes tener en cue
 1. Visual Studio: Asegúrate de tener Visual Studio instalado en tu equipo. Es el IDE que usaremos para escribir y ejecutar nuestro código.
 2.  Aspose.Cells para .NET: Necesita tener la biblioteca Aspose.Cells. Puede descargarla desde el sitio web[Sitio web de Aspose](https://releases.aspose.com/cells/net/).
 3. Conocimientos básicos de C#: La familiaridad con la programación en C# le ayudará a comprender mejor los ejemplos.
-4.  Archivo Excel: Tenga listo un archivo Excel (por ejemplo,`book1.xls`) que utilizarás para este tutorial.
+4. Archivo Excel: Tenga listo un archivo Excel (por ejemplo,`book1.xls`) que utilizarás para este tutorial.
 
 Una vez que haya resuelto estos requisitos previos, podemos comenzar a explorar cómo recuperar datos de las celdas de Excel.
 
@@ -52,7 +52,7 @@ Ahora que tiene configurado el directorio de documentos, el siguiente paso es ab
 
 
 ```csharp
-// Abrir un libro de trabajo existente
+//Abrir un libro de trabajo existente
 Workbook workbook = new Workbook(dataDir + "book1.xls");
 ```
 
@@ -68,7 +68,7 @@ Después de abrir el libro de trabajo, deberá acceder a la hoja de trabajo espe
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
- El`Worksheets` La colección le permite acceder a diferentes hojas del libro de trabajo. El índice`[0]`Se refiere a la primera hoja de cálculo. Si desea acceder a las hojas subsiguientes, puede cambiar el índice en consecuencia.
+ El`Worksheets` La colección le permite acceder a diferentes hojas del libro de trabajo. El índice`[0]` Se refiere a la primera hoja de cálculo. Si desea acceder a las hojas subsiguientes, puede cambiar el índice en consecuencia.
 
 ## Paso 4: Recorrer las celdas
 
@@ -99,7 +99,7 @@ foreach (Cell cell1 in worksheet.Cells)
             Console.WriteLine("Double Value: " + doubleValue);
             break;
 
-        // Evaluación del tipo de datos de la celda para el valor booleano
+        //Evaluación del tipo de datos de la celda para el valor booleano
         case CellValueType.IsBool:
             boolValue = cell1.BoolValue;
             Console.WriteLine("Bool Value: " + boolValue);
@@ -124,7 +124,7 @@ foreach (Cell cell1 in worksheet.Cells)
 }
 ```
 
- En este paso, recorremos cada celda de la hoja de cálculo. Para cada celda, verificamos su tipo de datos utilizando un`switch`Declaración. Según el tipo, recuperamos el valor y lo imprimimos en la consola. A continuación, se muestra un desglose de los casos:
+ En este paso, recorremos cada celda de la hoja de cálculo. Para cada celda, verificamos su tipo de datos utilizando un`switch` Declaración. Según el tipo, recuperamos el valor y lo imprimimos en la consola. A continuación, se muestra un desglose de los casos:
 
 -  IsString: Si la celda contiene una cadena, la recuperamos usando`StringValue`.
 -  IsNumeric: Para valores numéricos, utilizamos`DoubleValue`.
@@ -143,7 +143,7 @@ Recuperar datos de celdas de Excel con Aspose.Cells para .NET es un proceso senc
 Aspose.Cells es una biblioteca .NET que permite a los desarrolladores crear, manipular y convertir archivos de Excel sin necesidad de tener instalado Microsoft Excel.
 
 ### ¿Puedo utilizar Aspose.Cells gratis?  
-Sí, Aspose.Cells ofrece una versión de prueba gratuita que puedes usar para probar sus funciones. Puedes descargarla[aquí](https://releases.aspose.com/).
+ Sí, Aspose.Cells ofrece una versión de prueba gratuita que puedes usar para probar sus funciones. Puedes descargarla[aquí](https://releases.aspose.com/).
 
 ### ¿Qué tipos de datos puedo recuperar de las celdas de Excel?  
 Puede recuperar varios tipos de datos, incluidas cadenas, números, valores booleanos y valores de fecha y hora.

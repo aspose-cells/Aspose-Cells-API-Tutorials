@@ -63,7 +63,7 @@ Sama seperti seorang seniman yang memulai dengan kanvas kosong, Anda memulai den
 Perlindungan penulisan merupakan aspek penting, terutama jika Anda ingin memastikan integritas data Anda tetap utuh. Anda dapat melakukannya dengan kata sandi.
 
 ```csharp
-// Lindungi buku kerja dari penulisan dengan kata sandi.
+//Lindungi buku kerja dari penulisan dengan kata sandi.
 wb.Settings.WriteProtection.Password = "YOUR_PASSWORD";
 ```
 
@@ -110,4 +110,4 @@ Nah, itu dia! Anda telah mempelajari cara membuat buku kerja Excel, mengatur pro
 Tentu saja! Aspose.Cells bekerja dengan lancar di aplikasi desktop dan web menggunakan .NET.
 
 ### Apa yang harus saya lakukan jika saya memerlukan dukungan?  
-Untuk pertanyaan dan pemecahan masalah, komunitas Aspose sangat membantu. Anda dapat mengunjungi[forum dukungan](https://forum.aspose.com/c/cells/9) untuk bantuan.
+ Untuk pertanyaan dan pemecahan masalah, komunitas Aspose sangat membantu. Anda dapat mengunjungi[forum dukungan](https://forum.aspose.com/c/cells/9) untuk bantuan.

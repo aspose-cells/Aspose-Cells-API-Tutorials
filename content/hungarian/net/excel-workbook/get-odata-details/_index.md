@@ -16,7 +16,7 @@ Az adatkezelés folyamatosan fejlődő világában az adatok hatékony összekap
 Mielőtt mélyen belemerülnénk a kódba, győződjünk meg arról, hogy minden megvan, ami az oktatóanyag követéséhez szükséges. Íme, mire lesz szüksége:
 
 1. Visual Studio: Győződjön meg arról, hogy telepítve van a Visual Studio. Ideális környezet a .NET fejlesztéshez.
-2.  Aspose.Cells Library: Töltse le és telepítse a .NET Aspose.Cells könyvtárát a webhelyről[Aspose letöltési oldal](https://releases.aspose.com/cells/net/) . Kipróbálhatja az ingyenes próbaverziót is[itt](https://releases.aspose.com/).
+2. Aspose.Cells Library: Töltse le és telepítse a .NET Aspose.Cells könyvtárát a webhelyről[Aspose letöltési oldal](https://releases.aspose.com/cells/net/) . Kipróbálhatja az ingyenes próbaverziót is[itt](https://releases.aspose.com/).
 3. Alapvető C# ismerete: A C# programozás ismerete segít jobban megérteni a kód árnyalatait.
 4. Minta Excel-fájl: Ehhez az oktatóanyaghoz egy „ODataSample.xlsx” nevű Excel-fájlt fogunk használni, amelyet a munkakönyvtárában kell tárolni.
 
@@ -99,7 +99,7 @@ Ebben a blokkban mi:
 
 ## 4. lépés: Végrehajtás és ellenőrzés
 
-Végül meg kell győződnie arról, hogy a kód megfelelően fut, és a várt kimenetet adja vissza. Adja hozzá a következő sort a végére`Main` módszer:
+ Végül meg kell győződnie arról, hogy a kód megfelelően fut, és a várt kimenetet adja vissza. Adja hozzá a következő sort a végére`Main` módszer:
 
 ```csharp
 Console.WriteLine("GetOdataDetails executed successfully.");

@@ -29,7 +29,7 @@ Ruang nama ini akan memberi Anda akses ke semua fitur gambar dan fungsi manajeme
 Hal pertama yang harus dilakukan—mari kita buat direktori tempat Anda akan menyimpan file Excel baru yang keren tersebut. Berikut cara melakukannya:
 ```csharp
 string dataDir = "Your Document Directory";
-//Buat direktori jika belum ada.
+// Buat direktori jika belum ada.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);

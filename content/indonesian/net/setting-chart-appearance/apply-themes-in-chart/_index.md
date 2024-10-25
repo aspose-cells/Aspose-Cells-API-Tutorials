@@ -59,7 +59,7 @@ string sourceDir = "Your Document Directory";
 Workbook workbook = new Workbook(sourceDir + "sampleApplyingThemesInChart.xlsx");
 ```
 
- Pastikan bahwa`sampleApplyingThemesInChart.xlsx`ada di direktori sumber Anda.
+ Pastikan bahwa`sampleApplyingThemesInChart.xlsx` ada di direktori sumber Anda.
 
 ## Langkah 3: Akses Lembar Kerja
 
@@ -96,7 +96,7 @@ Baris kode ini memastikan bahwa seri pertama pada bagan diatur untuk menggunakan
 
 ## Langkah 6: Konfigurasikan Warna
 
- Sekarang seri kita sudah siap, kita perlu mengubah warnanya. Ini melibatkan pembuatan`CellsColor`objek dan menentukan warna tema. Kita akan memilih gaya aksen untuk contoh ini.
+ Sekarang seri kita sudah siap, kita perlu mengubah warnanya. Ini melibatkan pembuatan`CellsColor` objek dan menentukan warna tema. Kita akan memilih gaya aksen untuk contoh ini.
 
 ```csharp
 // Dapatkan CellsColor dari SolidFill

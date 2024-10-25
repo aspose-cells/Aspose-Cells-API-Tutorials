@@ -10,7 +10,7 @@ url: /nl/java/basic-excel-functions/understanding-excel-max-function/
 
 ## Invoering
 
-De MAX-functie in Excel is een waardevolle tool voor data-analyse. Hiermee kunt u snel de grootste waarde binnen een bepaald celbereik vinden. Of u nu werkt met financiële gegevens, verkoopcijfers of een ander type numerieke gegevens, de MAX-functie kan u helpen de hoogste waarde eenvoudig te identificeren.
+De MAX-functie in Excel is een waardevol hulpmiddel voor gegevensanalyse. Hiermee kunt u snel de grootste waarde binnen een bepaald celbereik vinden. Of u nu werkt met financiële gegevens, verkoopcijfers of een ander type numerieke gegevens, de MAX-functie kan u helpen de hoogste waarde eenvoudig te identificeren.
 
 ## Vereisten
 

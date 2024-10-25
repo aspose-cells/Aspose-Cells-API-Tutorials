@@ -29,7 +29,7 @@ Sebelum Anda menulis kode apa pun, Anda perlu menambahkan referensi ke pustaka A
 ### Unduh DLL
 
 1.  Pergi ke[Halaman Unduhan Aspose](https://releases.aspose.com/cells/net/) dan unduh paket yang sesuai untuk versi .NET Anda.
-2. Ekstrak file yang diunduh dan temukan`Aspose.Cells.dll` mengajukan.
+2.  Ekstrak file yang diunduh dan temukan`Aspose.Cells.dll` mengajukan.
 
 ### Tambahkan Referensi di Visual Studio
 

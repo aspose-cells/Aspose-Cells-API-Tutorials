@@ -40,7 +40,7 @@ Lassen Sie uns dies nun in detaillierte Schritte aufschlüsseln, um ein Bild in 
 Stellen Sie zunächst sicher, dass Sie einen bestimmten Ordner für Ihre Dokumente haben. So erstellen Sie ein Verzeichnis, falls es noch nicht existiert:
 ```csharp
 string dataDir = "Your Document Directory";
-//Erstellen Sie ein Verzeichnis, falls es noch nicht vorhanden ist.
+// Erstellen Sie ein Verzeichnis, falls es noch nicht vorhanden ist.
 bool isExists = System.IO.Directory.Exists(dataDir);
 if (!isExists)
     System.IO.Directory.CreateDirectory(dataDir);

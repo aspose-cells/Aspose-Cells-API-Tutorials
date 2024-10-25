@@ -31,7 +31,7 @@ Elk goed project begint met een goede organisatie! Eerst moet u de directory def
 ```csharp
 // Het pad naar de documentenmap.
 string dataDir = "Your Document Directory";
-//Maak een map aan als deze nog niet bestaat.
+// Maak een map aan als deze nog niet bestaat.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -132,9 +132,9 @@ En daar heb je het: je gids voor het toevoegen van een schuifbalk aan een werkbl
 ### Wat is Aspose.Cells?
 Aspose.Cells is een krachtige .NET-bibliotheek waarmee ontwikkelaars programmatisch Excel-bestanden kunnen maken, bewerken en converteren.
 ### Kan ik Aspose.Cells gratis gebruiken?
-Ja, Aspose.Cells biedt een gratis proefperiode aan, die u hier kunt vinden[hier](https://releases.aspose.com/).
+ Ja, Aspose.Cells biedt een gratis proefperiode aan, die u hier kunt vinden[hier](https://releases.aspose.com/).
 ### Hoe voeg ik andere besturingselementen toe aan mijn Excel-werkblad?
-U kunt vergelijkbare methoden gebruiken zoals getoond voor de schuifbalk. Controleer de documentatie voor meer bedieningselementen!
+kunt vergelijkbare methoden gebruiken zoals getoond voor de schuifbalk. Controleer de documentatie voor meer bedieningselementen!
 ### Welke programmeertalen kan ik gebruiken met Aspose.Cells?
 Aspose.Cells ondersteunt voornamelijk .NET-talen, waaronder C# en VB.NET.
 ### Waar kan ik hulp vinden als ik problemen heb?

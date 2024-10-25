@@ -117,4 +117,4 @@ Malheureusement, si vous oubliez le mot de passe, vous ne pourrez pas déprotég
 Aspose.Cells prend principalement en charge .NET, mais ils disposent également de bibliothèques pour Java et d'autres langages. Consultez leur site pour plus d'informations !
 
 ### Comment obtenir de l'aide pour Aspose.Cells ?
-Vous pouvez demander de l'aide via leur forum d'assistance :[Assistance Aspose](https://forum.aspose.com/c/cells/9).
+ Vous pouvez demander de l'aide via leur forum d'assistance :[Assistance Aspose](https://forum.aspose.com/c/cells/9).

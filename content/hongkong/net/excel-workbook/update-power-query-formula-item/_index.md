@@ -18,7 +18,7 @@ url: /zh-hant/net/excel-workbook/update-power-query-formula-item/
 1. Visual Studio：您需要一個整合開發環境 (IDE) 來編寫和執行 .NET 程式碼。 Visual Studio 是首選。
 2.  Aspose.Cells 庫：確保您的專案中有可用的 Aspose.Cells 庫。您可以從[地點](https://releases.aspose.com/cells/net/).
 3. C# 的基本知識：雖然我們將一起完成這個過程，但對 C# 有一些基本的了解肯定會有所幫助，特別是在瀏覽不同的類別和方法時。
-4. 範例 Excel 檔案：您將需要程式碼片段中提到的 Excel 檔案。確保您擁有：
+4. 範例 Excel 檔案：您將需要程式碼片段中提到的 Excel 檔案。確保您有：
    - `SamplePowerQueryFormula.xlsx`
    - `SamplePowerQueryFormulaSource.xlsx`
 

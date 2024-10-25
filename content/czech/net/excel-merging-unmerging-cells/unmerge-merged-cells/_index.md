@@ -121,7 +121,7 @@ Nakonec je dobré potvrdit, že vše proběhlo hladce. Můžete vytisknout zprá
 Console.WriteLine("UnMerging the Cells executed successfully.");
 ```
 
-A tady to máte! Úspěšně jste zrušili sloučení buněk v souboru aplikace Excel pomocí Aspose.Cells for .NET.
+tady to máte! Úspěšně jste zrušili sloučení buněk v souboru aplikace Excel pomocí Aspose.Cells for .NET.
 
 ## Závěr
 
@@ -141,5 +141,5 @@ Ano, můžete procházet více listy v sešitu a podle potřeby zrušit sloučen
 ### Je Aspose.Cells kompatibilní s .NET Core?  
 Ano, Aspose.Cells je kompatibilní s .NET Core, takže je univerzální pro různé aplikace .NET.
 
-### Kde najdu další dokumentaci na Aspose.Cells?  
+### Kde najdu další dokumentaci k Aspose.Cells?  
  Kompletní dokumentaci si můžete prohlédnout na[Referenční stránka Aspose.Cells](https://reference.aspose.com/cells/net/).

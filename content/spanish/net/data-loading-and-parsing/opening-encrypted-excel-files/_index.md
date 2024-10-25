@@ -39,7 +39,7 @@ string dataDir = "Your Document Directory";
 ```
  Reemplazar`"Your Document Directory"` con la ruta real donde se encuentra su archivo de Excel. Por ejemplo, si está almacenado en`C:\Documents` , escribirías`string dataDir = "C:\\Documents";`Las barras invertidas dobles son necesarias en C# para escapar el carácter de barra invertida.
 ## Paso 2: Crear una instancia de LoadOptions
- A continuación, debe crear una instancia del`LoadOptions`Clase. Esta clase nos ayuda a especificar varias opciones de carga, incluida la contraseña necesaria para abrir un archivo cifrado.
+ A continuación, debe crear una instancia del`LoadOptions` Clase. Esta clase nos ayuda a especificar varias opciones de carga, incluida la contraseña necesaria para abrir un archivo cifrado.
 ```csharp
 // Crear una instancia de LoadOptions
 LoadOptions loadOptions = new LoadOptions();
@@ -58,7 +58,7 @@ loadOptions.Password = "1234"; // Reemplace "1234" con su contraseña actual
 // Cree un objeto Workbook y abra el archivo desde su ruta
 Workbook wbEncrypted = new Workbook(dataDir + "encryptedBook.xls", loadOptions);
 ```
- Aquí estás construyendo un nuevo`Workbook` objeto y pasar la ruta a su archivo cifrado y el`loadOptions`que incluya su contraseña. Si todo va bien, esta línea debería abrir correctamente su archivo cifrado.
+ Aquí estás construyendo un nuevo`Workbook` objeto y pasar la ruta a su archivo cifrado y el`loadOptions` que incluya su contraseña. Si todo va bien, esta línea debería abrir correctamente su archivo cifrado.
 ## Paso 5: Confirmar el acceso exitoso al archivo
 Por último, es una buena práctica confirmar que has abierto el archivo correctamente. 
 ```csharp
@@ -70,7 +70,7 @@ Esta simple línea imprime un mensaje en la consola. Si ves este mensaje, signif
  Recuerde que trabajar con archivos cifrados puede ser complicado, pero con herramientas como Aspose.Cells, se vuelve muy fácil. Si desea investigar más a fondo, consulte la[documentación](https://reference.aspose.com/cells/net/) para funciones más avanzadas.
 ## Preguntas frecuentes
 ### ¿Puedo abrir archivos de Excel cifrados con contraseñas diferentes?
- Sí, simplemente actualice el`Password` campo en el`LoadOptions`para que coincida con la contraseña del archivo de Excel que desea abrir.
+ Sí, simplemente actualice el`Password` campo en el`LoadOptions` para que coincida con la contraseña del archivo de Excel que desea abrir.
 ### ¿Aspose.Cells es de uso gratuito?
  Aspose.Cells no es gratuito; sin embargo, puedes comenzar con un[prueba gratis](https://releases.aspose.com/) para explorar sus características.
 ### ¿Qué tipos de archivos Excel puede manejar Aspose.Cells?

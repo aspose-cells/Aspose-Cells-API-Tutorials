@@ -9,14 +9,14 @@ url: /sv/net/protect-excel-file/protect-cells-in-excel-worksheet/
 ---
 ## Introduktion
 
-dagens digitala värld är det viktigare än någonsin att hantera data säkert i kalkylblad. Oavsett om du hanterar känslig information eller helt enkelt vill se till att din formatering förblir intakt, kan skydd av specifika celler i ett Excel-kalkylblad vara en förändring. Lyckligtvis, om du använder .NET, gör Aspose.Cells denna process enkel. I den här artikeln kommer vi att utforska en enkel steg-för-steg-guide för att skydda celler i ett Excel-kalkylblad, för att säkerställa att dina data förblir säkra och sunda.
+I dagens digitala värld är det viktigare än någonsin att hantera data säkert i kalkylblad. Oavsett om du hanterar känslig information eller helt enkelt vill se till att din formatering förblir intakt, kan skydd av specifika celler i ett Excel-kalkylblad vara en förändring. Lyckligtvis, om du använder .NET, gör Aspose.Cells denna process enkel. I den här artikeln kommer vi att utforska en enkel steg-för-steg-guide för att skydda celler i ett Excel-kalkylblad, för att säkerställa att dina data förblir säkra och sunda.
 
 ## Förutsättningar
 
 Innan du dyker in i det grova av att skydda celler, finns det några förutsättningar du bör ha på plats:
 
 1. Visual Studio: Se till att du har Visual Studio installerat på din dator. Det är den primära IDE för .NET-utveckling.
-2.  Aspose.Cells Library: Du måste ha Aspose.Cells-biblioteket tillgängligt i ditt projekt. Du kan enkelt installera den via NuGet Package Manager eller ladda ner den direkt från[Aspose.Cells webbplats](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells Library: Du måste ha Aspose.Cells-biblioteket tillgängligt i ditt projekt. Du kan enkelt installera den via NuGet Package Manager eller ladda ner den direkt från[Aspose.Cells webbplats](https://releases.aspose.com/cells/net/).
 3. Grundläggande C#-kunskap: Lite förtrogenhet med C#-programmering hjälper dig att följa med smidigt.
 
 ## Importera paket
@@ -52,7 +52,7 @@ Du måste först bestämma var du ska spara din Excel-fil. Så här kan du speci
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // Ange din katalogsökväg här
-//Skapa katalog om den inte redan finns.
+// Skapa katalog om den inte redan finns.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -88,7 +88,7 @@ För att säkerställa att endast specifika celler är låsta måste du börja m
 for (int i = 0; i <= 255; i++)
 {
     Style style = sheet.Cells.Columns[(byte)i].Style;
-    style.IsLocked = false; // Lås upp kolumn
+    style.IsLocked = false; //Lås upp kolumn
     StyleFlag styleflag = new StyleFlag();
     styleflag.Locked = true; // Ange att vi vill låsa denna stil
     sheet.Cells.Columns[(byte)i].ApplyStyle(style, styleflag);

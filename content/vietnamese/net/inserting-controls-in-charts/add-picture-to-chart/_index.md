@@ -16,7 +16,7 @@ Bạn có thấy chán những biểu đồ nhàm chán thiếu nét cá nhân k
 Trước khi đi sâu vào phần cốt lõi của việc viết mã, bạn cần có một số điều kiện tiên quyết để có thể thực hiện suôn sẻ:
 
 - Visual Studio: Đây là nơi bạn sẽ viết và chạy mã .NET của mình. Hãy đảm bảo rằng bạn đã cài đặt nó.
-- Aspose.Cells cho .NET: Bạn sẽ cần thư viện này để làm việc với các tệp Excel. Bạn có thể[tải xuống ở đây](https://releases.aspose.com/cells/net/).
+-  Aspose.Cells cho .NET: Bạn sẽ cần thư viện này để làm việc với các tệp Excel. Bạn có thể[tải xuống ở đây](https://releases.aspose.com/cells/net/).
 - Hiểu biết cơ bản về C#: Mặc dù tôi sẽ hướng dẫn bạn viết mã, nhưng việc nắm được những kiến thức cơ bản về C# sẽ giúp bạn hiểu rõ hơn.
 
 ### Các bước cài đặt
@@ -55,7 +55,7 @@ string sourceDir = "Your Document Directory/";
 string outputDir = "Your Output Directory/";
 ```
 
- Thay thế`Your Document Directory` Và`Your Output Directory` với đường dẫn thực tế trên máy tính của bạn. 
+ Thay thế`Your Document Directory` Và`Your Output Directory`với đường dẫn thực tế trên máy tính của bạn. 
 
 ## Bước 2: Tải Workbook hiện có
 
@@ -84,7 +84,7 @@ Hãy đảm bảo rằng bạn đã lưu ảnh vào thư mục đã chỉ địn
 Bây giờ, hãy chỉ định biểu đồ nào chúng ta sẽ thêm hình ảnh vào. Trong ví dụ này, chúng ta sẽ nhắm mục tiêu vào biểu đồ đầu tiên trên bảng tính đầu tiên.
 
 ```csharp
-//Lấy biểu đồ thiết kế ở trang thứ hai.
+// Lấy biểu đồ thiết kế ở trang thứ hai.
 Worksheet sheet = workbook.Worksheets[0];
 Aspose.Cells.Charts.Chart chart = sheet.Charts[0];
 ```
@@ -100,7 +100,7 @@ Sau khi đã chọn biểu đồ, đã đến lúc thêm hình ảnh!
 Aspose.Cells.Drawing.Picture pic0 = chart.Shapes.AddPictureInChart(50, 50, stream, 200, 200);
 ```
 
- Đây,`50` Và`50` là tọa độ X và Y nơi hình ảnh sẽ được đặt và`200` là chiều rộng và chiều cao của hình ảnh.
+ Đây,`50` Và`50` là tọa độ X và Y nơi hình ảnh sẽ được đặt và`200`là chiều rộng và chiều cao của hình ảnh.
 
 ## Bước 6: Tùy chỉnh Định dạng Dòng của Hình ảnh
 

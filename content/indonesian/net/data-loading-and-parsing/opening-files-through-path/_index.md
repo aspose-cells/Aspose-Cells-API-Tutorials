@@ -44,7 +44,7 @@ using System;
 
 Di sini, "Direktori Dokumen Anda" adalah tempat penampung untuk jalur sebenarnya tempat file Excel Anda disimpan. Pastikan untuk menggantinya dengan jalur yang benar pada sistem Anda. 
 ## Langkah 1: Buat Objek Buku Kerja 
-Sekarang setelah Anda telah menyiapkan direktori dokumen, langkah selanjutnya adalah membuat contoh`Workbook` kelas untuk membuka berkas Excel Anda.
+ Sekarang setelah Anda telah menyiapkan direktori dokumen, langkah selanjutnya adalah membuat contoh`Workbook`kelas untuk membuka berkas Excel Anda.
 
 ```csharp
 // Jalur ke direktori dokumen.
@@ -64,17 +64,17 @@ Console.WriteLine("Workbook opened using path successfully!");
 
 Baris sederhana ini akan mencetak pesan di konsol Anda yang mengonfirmasi bahwa buku kerja telah dibuka. Pesan ini memberi Anda umpan balik dan memastikan program Anda berfungsi sebagaimana mestinya.
 
- Di sini, kami telah membungkus kode kami dalam`try-catch`blok. Ini berarti bahwa jika terjadi kesalahan saat membuka buku kerja, alih-alih mengamuk, program Anda akan menanganinya dengan baik dengan memberi tahu Anda apa yang terjadi.
+ Di sini, kami telah membungkus kode kami dalam`try-catch` blok. Ini berarti bahwa jika terjadi kesalahan saat membuka buku kerja, alih-alih mengamuk, program Anda akan menanganinya dengan baik dengan memberi tahu Anda apa yang terjadi.
 ## Kesimpulan
- Membuka file Excel menggunakan Aspose.Cells untuk .NET sangat mudah setelah Anda tahu apa yang Anda lakukan! Seperti yang telah Anda lihat, proses ini melibatkan pengaturan direktori dokumen Anda, membuat`Workbook` objek, dan memeriksa apakah semuanya berfungsi dengan pernyataan cetak. Dengan kekuatan Aspose.Cells di gudang senjata Anda, Anda siap untuk membawa keterampilan penanganan Excel Anda ke tingkat berikutnya—mengotomatiskan tugas-tugas rutin dan memfasilitasi manajemen data yang lancar.
+Membuka file Excel menggunakan Aspose.Cells untuk .NET sangat mudah setelah Anda tahu apa yang Anda lakukan! Seperti yang telah Anda lihat, proses ini melibatkan pengaturan direktori dokumen Anda, membuat`Workbook` objek, dan memeriksa apakah semuanya berfungsi dengan pernyataan cetak. Dengan kekuatan Aspose.Cells di gudang senjata Anda, Anda siap untuk membawa keterampilan penanganan Excel Anda ke tingkat berikutnya—mengotomatiskan tugas-tugas rutin dan memfasilitasi manajemen data yang lancar.
 ## Pertanyaan yang Sering Diajukan
 ### Apa itu Aspose.Cells untuk .NET?
 Aspose.Cells untuk .NET adalah pustaka .NET yang memungkinkan pengembang untuk membuat, memanipulasi, dan mengonversi file Excel tanpa memerlukan Microsoft Excel.
 ### Apakah saya perlu menginstal Microsoft Excel untuk menggunakan Aspose.Cells?
 Tidak! Aspose.Cells beroperasi secara independen dari Microsoft Excel dan tidak memerlukan penginstalan.
 ### Bisakah saya membuka beberapa file Excel sekaligus?
-Tentu saja! Anda dapat membuat beberapa`Workbook` objek untuk file yang berbeda secara serupa.
+ Tentu saja! Anda dapat membuat beberapa`Workbook` objek untuk file yang berbeda secara serupa.
 ### Jenis file apa yang dapat dibuka Aspose.Cells?
 Aspose.Cells dapat membuka .xls, .xlsx, .csv, dan format Excel lainnya.
 ### Di mana saya dapat menemukan dokumentasi Aspose.Cells?
- Anda dapat menemukan dokumentasi yang lengkap[Di Sini](https://reference.aspose.com/cells/net/).
+Anda dapat menemukan dokumentasi yang lengkap[Di Sini](https://reference.aspose.com/cells/net/).

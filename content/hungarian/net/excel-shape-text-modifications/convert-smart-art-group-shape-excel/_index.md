@@ -8,7 +8,7 @@ weight: 15
 url: /hu/net/excel-shape-text-modifications/convert-smart-art-group-shape-excel/
 ---
 ## Bevezetés
-Az Excel egy sokoldalú eszköz, amely számos funkciót kínál, így ideális az adatok megjelenítéséhez és elemzéséhez. De próbálta már manipulálni a Smart Artot az Excelben? A Smart Art átalakítása csoportos alakzattá kissé bonyolult lehet, különösen, ha nem ismeri a .NET kódolásának árnyalatait. Szerencsére az Aspose.Cells for .NET ezt a folyamatot egy séta a parkban. Ebben az oktatóanyagban belemerülünk abba, hogyan alakíthatja át a Smart Artot csoportalakzattá az Excelben az Aspose.Cells használatával. Szóval, fogd a kódoló kalapod, és ugorjunk azonnal!
+Az Excel egy sokoldalú eszköz, amely számos funkciót kínál, így ideális az adatok megjelenítéséhez és elemzéséhez. De próbálta már manipulálni a Smart Artot az Excelben? A Smart Art átalakítása csoportos alakzattá kissé bonyolult lehet, különösen, ha nem ismeri a .NET kódolásának árnyalatait. Szerencsére az Aspose.Cells for .NET ezt a folyamatot egy séta a parkban. Ebben az oktatóanyagban belemerülünk abba, hogyan alakíthatja át a Smart Art-ot csoportalakzattá az Excelben az Aspose.Cells használatával. Szóval, fogd a kódoló kalapod, és ugorjunk azonnal!
 ## Előfeltételek
 Mielőtt feltűrjük az ingujjunkat és elkezdjük a kódolást, győződjünk meg arról, hogy mindennel rendelkezünk, ami az induláshoz szükséges. Íme, amit kellene:
 1. Visual Studio: Győződjön meg arról, hogy a Visual Studio telepítve van a gépen. Ez az integrált fejlesztői környezet (IDE) a .NET-fejlesztéshez.

@@ -37,12 +37,12 @@ Om te beginnen moeten we een directory instellen waar we onze Excel-bestanden ku
 ```csharp
 // Het pad naar de documentenmap.
 string dataDir = "Your Document Directory";
-//Maak een map aan als deze nog niet bestaat.
+// Maak een map aan als deze nog niet bestaat.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
--  dataDir: Deze variabele bevat het pad naar uw documentenmap. Vervangen`"Your Document Directory"` met het daadwerkelijke pad waar u uw Excel-bestand wilt opslaan.
+- dataDir: Deze variabele bevat het pad naar uw documentenmap. Vervangen`"Your Document Directory"` met het daadwerkelijke pad waar u uw Excel-bestand wilt opslaan.
 - Directory.Exists: Hiermee wordt gecontroleerd of de directory al bestaat.
 - Directory.CreateDirectory: Als de directory niet bestaat, wordt deze hiermee aangemaakt.
 ## Stap 2: Een werkmap instantiëren
@@ -89,7 +89,7 @@ Nu moeten we de afbeeldingsgegevens instellen op de vorm die is gekoppeld aan de
 // Stel afbeeldingsgegevens in op de vorm die aan de opmerking is gekoppeld
 comment.CommentShape.Fill.ImageData = ms.ToArray();
 ```
--  comment.CommentShape.Fill.ImageData: Met deze eigenschap kunt u de afbeelding voor de opmerkingenvorm instellen. We converteren de`MemoryStream` naar een byte-array met behulp van`ms.ToArray()`.
+- comment.CommentShape.Fill.ImageData: Met deze eigenschap kunt u de afbeelding voor de opmerkingenvorm instellen. We converteren de`MemoryStream` naar een byte-array met behulp van`ms.ToArray()`.
 ## Stap 7: Sla de werkmap op
 Laten we tot slot ons werkboek opslaan, inclusief de opmerkingen en de afbeelding.
 ```csharp

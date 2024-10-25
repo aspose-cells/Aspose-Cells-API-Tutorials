@@ -76,7 +76,7 @@ Workbook wb = new Workbook();
 //Compartilhe a pasta de trabalho
 wb.Settings.Shared = true;
 ```
- Contexto`wb.Settings.Shared` para`true`indica que esta pasta de trabalho pode ser acessada por vários usuários ao mesmo tempo. É como entregar as chaves da sua casa para amigos — eles podem entrar e sair quando quiserem!
+ Contexto`wb.Settings.Shared` para`true` indica que esta pasta de trabalho pode ser acessada por vários usuários ao mesmo tempo. É como entregar as chaves da sua casa para amigos — eles podem entrar e sair quando quiserem!
 
 ## Etapa 4: Salve a pasta de trabalho compartilhada
 

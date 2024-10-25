@@ -82,9 +82,9 @@ Nu bent u helemaal klaar om dit werkblad aan te passen!
 
 ## Stap 4: Toegang tot het pagina-instellingsobject
 
- Om de marges te veranderen, moeten we werken met de`PageSetup`object. Dit object biedt eigenschappen die de lay-out van de pagina bepalen, inclusief marges.
+ Om de marges te veranderen, moeten we werken met de`PageSetup` object. Dit object biedt eigenschappen die de lay-out van de pagina bepalen, inclusief marges.
 
- Krijg de`PageSetup` eigenschap uit het werkblad:
+Krijg de`PageSetup` eigenschap uit het werkblad:
 
 ```csharp
 PageSetup pageSetup = worksheet.PageSetup;

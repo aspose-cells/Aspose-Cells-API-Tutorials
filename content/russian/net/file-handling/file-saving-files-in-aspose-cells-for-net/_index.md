@@ -135,4 +135,4 @@ Aspose.Cells — это библиотека .NET, используемая дл
 Поддерживает различные форматы, такие как XLS, XLSX, XLSB, ODS, PDF и другие.
 
 ### Где я могу найти поддержку Aspose.Cells?  
-Вы можете получить помощь по[Форум Aspose](https://forum.aspose.com/c/cells/9).
+ Вы можете получить помощь по[Форум Aspose](https://forum.aspose.com/c/cells/9).

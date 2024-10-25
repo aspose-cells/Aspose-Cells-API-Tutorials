@@ -16,7 +16,7 @@ Gráficos interativos adicionam uma nova dimensão à visualização de dados, p
 
 Antes de começar, certifique-se de ter os seguintes pré-requisitos:
 - Ambiente de desenvolvimento Java
--  Biblioteca Aspose.Cells para Java (Baixar de[aqui](https://releases.aspose.com/cells/java/)
+- Biblioteca Aspose.Cells para Java (Baixar de[aqui](https://releases.aspose.com/cells/java/)
 
 ## Etapa 1: Configurando seu projeto Java
 

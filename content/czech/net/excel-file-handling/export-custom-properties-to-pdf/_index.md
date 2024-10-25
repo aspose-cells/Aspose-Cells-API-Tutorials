@@ -44,7 +44,7 @@ string sourceDir = "Your Document Directory";
 // Výstupní adresář
 string outputDir = "Your Document Directory";
 ```
- V tomto fragmentu kódu nahraďte`"Your Document Directory"` se skutečnou cestou, kde jsou soubory umístěny nebo kam je chcete uložit.
+ V tomto fragmentu kódu nahraďte`"Your Document Directory"` se skutečnou cestou, kde jsou vaše soubory umístěny nebo kam je chcete uložit.
 ## Krok 2: Načtěte soubor Excel
  Dále budete muset načíst soubor aplikace Excel, který obsahuje uživatelské vlastnosti. To se provádí pomocí`Workbook` třídy v Aspose.Cells.
 ```csharp

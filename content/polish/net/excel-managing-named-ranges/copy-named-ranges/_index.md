@@ -12,7 +12,7 @@ Excel to potężne narzędzie używane przez miliony ludzi na całym świecie do
 ## Wymagania wstępne
 Zanim zagłębisz się w szczegóły kopiowania nazwanych zakresów, musisz upewnić się, że masz kilka rzeczy przygotowanych. Oto, czego potrzebujesz:
 1. Środowisko .NET: Upewnij się, że masz skonfigurowane środowisko programistyczne .NET. Możesz użyć Visual Studio lub dowolnego innego IDE według własnego wyboru.
-2.  Biblioteka Aspose.Cells dla .NET: To jest gwiazda pokazu! Pobierz bibliotekę z[Strona internetowa Aspose](https://releases.aspose.com/cells/net/) jeśli jeszcze tego nie zrobiłeś.
+2. Biblioteka Aspose.Cells dla .NET: To jest gwiazda pokazu! Pobierz bibliotekę z[Strona internetowa Aspose](https://releases.aspose.com/cells/net/) jeśli jeszcze tego nie zrobiłeś.
 3. Podstawowa znajomość języka C#: Znajomość programowania w języku C# okaże się pomocna, ponieważ w trakcie całego kursu będziemy kodować w tym języku.
 4. Zainstalowany program Excel: Chociaż program Excel nie jest koniecznie potrzebny do pisania kodu, jego zainstalowanie może się przydać do testowania plików wyjściowych.
 5.  Dostęp do dokumentacji: Dodaj zakładkę[Dokumentacja Aspose.Cells](https://reference.aspose.com/cells/net/) w celach informacyjnych. To świetne źródło do zrozumienia metod i funkcji.
@@ -27,7 +27,7 @@ using System.IO;
 using Aspose.Cells;
 using System.Drawing;
 ```
-Ten kod zapewni Ci dostęp do niezbędnych zajęć, takich jak:`Workbook`, `Worksheet` I`Range`, który będzie potrzebny do obsługi plików Excel.
+ Ten kod zapewni Ci dostęp do niezbędnych zajęć, takich jak:`Workbook`, `Worksheet` , I`Range`, który będzie potrzebny do obsługi plików Excel.
 
 Teraz, gdy już zadbaliśmy o nasze wymagania wstępne, podzielmy proces na łatwe do wykonania kroki.
 ## Krok 1: Skonfiguruj swój katalog wyjściowy
@@ -101,7 +101,7 @@ Console.WriteLine("CopyNamedRanges executed successfully.");
 ```
 Uruchomienie tej linii będzie oznaczać, że kod wykonał się bez żadnych zakłóceń.
 ## Wniosek
-I masz! Udało Ci się skopiować nazwane zakresy w programie Excel za pomocą Aspose.Cells dla .NET, krok po kroku. Ten proces pozwala Ci zautomatyzować zadania w programie Excel i skuteczniej zarządzać danymi. Przy odrobinie praktyki będziesz w stanie uruchomić bardziej zaawansowane zadania automatyzacji w programie Excel w mgnieniu oka.
+masz! Udało Ci się skopiować nazwane zakresy w programie Excel za pomocą Aspose.Cells dla .NET, krok po kroku. Ten proces pozwala Ci zautomatyzować zadania w programie Excel i skuteczniej zarządzać danymi. Przy odrobinie praktyki będziesz w stanie uruchomić bardziej zaawansowane zadania automatyzacji w programie Excel w mgnieniu oka.
 ## Najczęściej zadawane pytania
 ### Czym jest Aspose.Cells dla .NET?
 Aspose.Cells to biblioteka .NET umożliwiająca programistom programowe tworzenie, edytowanie i konwertowanie plików Excel.

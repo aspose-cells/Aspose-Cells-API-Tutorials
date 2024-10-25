@@ -16,7 +16,7 @@ Cuando se trata de manipular hojas de cálculo, importar datos a Excel y formate
 Antes de entrar en materia, asegurémonos de que tienes todo lo que necesitas. Aquí tienes una lista rápida de requisitos previos para prepararte para el éxito:
 
 1. .NET Framework: asegúrese de tener instalado .NET Framework en su equipo. Aspose.Cells funciona sin problemas con varias versiones de .NET.
-2. Aspose.Cells para .NET: deberá descargar e instalar la biblioteca Aspose.Cells. Puede descargarla desde el sitio web[enlace de descarga](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells para .NET: deberá descargar e instalar la biblioteca Aspose.Cells. Puede descargarla desde el sitio web[enlace de descarga](https://releases.aspose.com/cells/net/).
 3. Entorno de desarrollo integrado (IDE): utilice un IDE como Visual Studio donde pueda escribir y ejecutar su código C#.
 4. Conocimientos básicos de C#: tener un conocimiento básico de C# le ayudará a seguir las prácticas de codificación que usaremos en esta guía.
 
@@ -108,7 +108,7 @@ Aquí es donde ocurre la magia. Puedes especificar un patrón de formato persona
 st.Custom = "[DBNum2][$-804]General";
 ```
 
- Esta línea le dice a Excel que formatee el número`123` según el patrón DBNum correspondiente al idioma chino. Bastante interesante, ¿verdad?
+ Esta línea le dice a Excel que formatee el número`123`según el patrón DBNum correspondiente al idioma chino. Bastante interesante, ¿verdad?
 
 ## Paso 7: Establezca el estilo de celda actualizado
 

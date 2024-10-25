@@ -134,7 +134,7 @@ Aspose.Cells pour .NET est utilisé pour créer, éditer et convertir des docume
 ### Existe-t-il un moyen de prolonger mon essai au-delà de la période initiale ?  
  Vous pouvez postuler pour un[permis temporaire](https://purchase.aspose.com/temporary-license/) pour des tests prolongés.
 
-### Que faire si je rencontre des problèmes ou si j'ai des questions ?  
+### Que faire si je rencontre des problèmes ou si j’ai des questions ?  
  Vous pouvez demander de l'aide à la communauté Aspose sur leur[Forum de soutien](https://forum.aspose.com/c/cells/9).
 
 ### Comment puis-je acheter Aspose.Cells ?  

@@ -14,7 +14,7 @@ Prima di iniziare ad aprire i file CSV e a mettere alla prova i nostri muscoli d
 ### Nozioni di base su C# e .NET Framework
 Per iniziare, dovresti avere una buona conoscenza di C# e del framework .NET. È essenziale comprendere le basi della programmazione orientata agli oggetti, poiché utilizzeremo ampiamente classi e metodi.
 ### Libreria Aspose.Cells
- Innanzitutto, avrai bisogno della libreria Aspose.Cells. È un'API .NET per manipolare file Excel e lavorare con vari formati di dati senza problemi. Puoi[Scarica la libreria](https://releases.aspose.com/cells/net/) oppure configurarlo tramite NuGet nel tuo progetto.
+Innanzitutto, avrai bisogno della libreria Aspose.Cells. È un'API .NET per manipolare file Excel e lavorare con vari formati di dati senza problemi. Puoi[Scarica la libreria](https://releases.aspose.com/cells/net/) oppure configurarlo tramite NuGet nel tuo progetto.
 ### Configurazione IDE
 Avrai anche bisogno di un ambiente di sviluppo appropriato. Visual Studio è un'ottima scelta, in quanto fornisce un'interfaccia user-friendly per la codifica, il debug e la distribuzione delle tue applicazioni .NET.
 ### File CSV per la pratica
@@ -42,9 +42,9 @@ LoadOptions loadOptions4 = new LoadOptions(LoadFormat.Csv);
 ```
  Qui,`LoadFormat.Csv` dice ad Aspose che stiamo trattando un file CSV. Immagina di scegliere la lingua corretta per una conversazione; assicura che entrambe le parti si capiscano perfettamente.
 ## Passaggio 3: creare un oggetto cartella di lavoro
-Ora siamo in movimento! È il momento di creare un`Workbook` oggetto che fungerà da area di lavoro principale in cui eseguirai tutte le operazioni relative al tuo file CSV.
+ Ora siamo in movimento! È il momento di creare un`Workbook` oggetto che fungerà da area di lavoro principale in cui eseguirai tutte le operazioni relative al tuo file CSV.
 ```csharp
-// Crea un oggetto Workbook e apri il file dal suo percorso
+//Crea un oggetto Workbook e apri il file dal suo percorso
 Workbook wbCSV = new Workbook(dataDir + "Book_CSV.csv", loadOptions4);
 ```
  Questa linea è come sbloccare la porta dei tuoi dati. Con il tuo`Workbook` object ready, hai pieno accesso per manipolare i dati all'interno del tuo file CSV. È come ricevere le chiavi di uno scrigno di informazioni!

@@ -35,7 +35,7 @@ string dataDir = "Your Document Directory";
 ## Langkah 2: Buat Direktori jika Tidak Ada
 Berikutnya, kita ingin memastikan bahwa direktori ini ada. Jika tidak ada, kita perlu membuatnya.
 ```csharp
-//Buat direktori jika belum ada.
+// Buat direktori jika belum ada.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -58,7 +58,7 @@ Bagus dan sederhana! Kita siap untuk mulai menambahkan konten ke lembar kerja in
 ## Langkah 5: Tentukan Jalur untuk Gambar
 Sekarang, mari tetapkan jalur untuk gambar yang ingin Anda sematkan ke dalam berkas Excel Anda.
 ```csharp
-// Tentukan variabel string untuk menyimpan jalur gambar.
+//Tentukan variabel string untuk menyimpan jalur gambar.
 string ImageUrl = dataDir + "logo.jpg";
 ```
  Pastikan jalur ini mencerminkan lokasi Anda dengan benar`logo.jpg` berkas disimpan.
@@ -87,7 +87,7 @@ Sama seperti yang kita lakukan dengan gambar, kita perlu memuat berkas Excel itu
 ```csharp
 // Masukkan berkas ke dalam aliran.
 fs = File.OpenRead(path);
-// Tentukan array byte.
+//Tentukan array byte.
 byte[] objectData = new Byte[fs.Length];
 // Simpan berkas dari aliran.
 fs.Read(objectData, 0, objectData.Length);

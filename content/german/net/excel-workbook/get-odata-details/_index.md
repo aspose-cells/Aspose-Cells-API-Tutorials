@@ -16,7 +16,7 @@ In der sich ständig weiterentwickelnden Welt des Datenmanagements ist die Fähi
 Bevor wir uns näher mit dem Code befassen, stellen wir sicher, dass Sie alles haben, was Sie brauchen, um diesem Tutorial zu folgen. Folgendes benötigen Sie:
 
 1. Visual Studio: Stellen Sie sicher, dass Sie Visual Studio installiert haben. Es ist die ideale Umgebung für die .NET-Entwicklung.
-2.  Aspose.Cells-Bibliothek: Laden Sie die Aspose.Cells-Bibliothek für .NET herunter und installieren Sie sie von[Aspose-Downloadseite](https://releases.aspose.com/cells/net/) . Sie können auch eine kostenlose Testversion von[Hier](https://releases.aspose.com/).
+2. Aspose.Cells-Bibliothek: Laden Sie die Aspose.Cells-Bibliothek für .NET herunter und installieren Sie sie von[Aspose-Downloadseite](https://releases.aspose.com/cells/net/) . Sie können auch eine kostenlose Testversion von[Hier](https://releases.aspose.com/).
 3. Grundkenntnisse in C#: Wenn Sie mit der C#-Programmierung vertraut sind, verstehen Sie die Nuancen des Codes besser.
 4. Eine Beispiel-Excel-Datei: Für dieses Tutorial verwenden wir eine Excel-Datei namens „ODataSample.xlsx“, die in Ihrem Arbeitsverzeichnis gespeichert sein sollte.
 
@@ -99,7 +99,7 @@ In diesem Block:
 
 ## Schritt 4: Ausführen und Überprüfen
 
-Schließlich müssen Sie sicherstellen, dass der Code korrekt ausgeführt wird und die erwartete Ausgabe zurückgibt. Fügen Sie am Ende Ihrer`Main` Verfahren:
+ Schließlich müssen Sie sicherstellen, dass der Code korrekt ausgeführt wird und die erwartete Ausgabe zurückgibt. Fügen Sie am Ende Ihrer`Main` Verfahren:
 
 ```csharp
 Console.WriteLine("GetOdataDetails executed successfully.");

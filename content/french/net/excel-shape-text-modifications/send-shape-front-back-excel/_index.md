@@ -39,7 +39,7 @@ Maintenant que nos répertoires sont définis, chargeons le classeur (le fichier
 //Charger le fichier source Excel
 Workbook wb = new Workbook(sourceDir + "sampleToFrontOrBack.xlsx");
 ```
- Cette ligne de code initialise une nouvelle`Workbook`objet, chargeant le fichier Excel spécifié en mémoire afin que nous puissions travailler avec lui.
+ Cette ligne de code initialise une nouvelle`Workbook` objet, chargeant le fichier Excel spécifié en mémoire afin que nous puissions travailler avec lui.
 ## Étape 3 : Accéder à la feuille de travail 
 Ensuite, nous devons accéder à la feuille de calcul spécifique où se trouvent nos formes. Pour cet exemple, nous utiliserons la première feuille de calcul.
 ```csharp

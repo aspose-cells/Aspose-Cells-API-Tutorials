@@ -26,7 +26,7 @@ Sau khi bạn đã chuẩn bị xong tất cả các điều kiện tiên quyế
 
 1. Mở dự án của bạn: Khởi chạy Visual Studio và mở dự án hiện có hoặc tạo dự án mới.
 2. Quản lý các gói NuGet: Nhấp chuột phải vào dự án của bạn trong Solution Explorer, sau đó chọn "Quản lý các gói NuGet".
-3.  Tìm kiếm và cài đặt Aspose.Cells: Trong hộp Tìm kiếm, nhập`Aspose.Cells` và cài đặt gói. Điều này đảm bảo bạn có phiên bản mới nhất được tích hợp vào dự án của mình.
+3.  Tìm kiếm và cài đặt Aspose.Cells: Trong hộp Tìm kiếm, nhập`Aspose.Cells`và cài đặt gói. Điều này đảm bảo bạn có phiên bản mới nhất được tích hợp vào dự án của mình.
 4. Thêm Chỉ thị sử dụng: Trong tệp mã của bạn, thêm chỉ thị sau để sử dụng không gian tên Aspose.Cells:
 
 ```csharp

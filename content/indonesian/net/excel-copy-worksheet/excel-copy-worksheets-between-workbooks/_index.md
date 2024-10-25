@@ -15,9 +15,9 @@ Pernahkah Anda menyalin lembar kerja antar-buku kerja Excel secara manual? Ini s
 
 Sebelum kita menyelami kodenya, mari pastikan Anda dilengkapi dengan alat yang tepat untuk memulai:
 
-- Aspose.Cells untuk .NET: Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/cells/net/).
+-  Aspose.Cells untuk .NET: Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/cells/net/).
 - Visual Studio atau IDE apa pun yang mendukung kerangka kerja .NET.
--  Lisensi yang valid atau[lisensi sementara](https://purchase.aspose.com/temporary-license/) jika Anda ingin menguji fungsionalitas penuh Aspose.Cells.
+-  Lisensi yang valid atau[lisensi sementara](https://purchase.aspose.com/temporary-license/)jika Anda ingin menguji fungsionalitas penuh Aspose.Cells.
 - Pemahaman dasar tentang C# dan kerangka kerja .NET.
 
  Anda juga dapat memeriksa[Dokumentasi Aspose.Cells](https://reference.aspose.com/cells/net/) untuk rincian lebih lanjut.
@@ -44,7 +44,7 @@ Pertama, Anda perlu menentukan lokasi file Anda. Anggap langkah ini seperti memi
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Pada baris ini, ganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya ke berkas Excel Anda. Di sinilah buku kerja Anda akan dimuat dan disimpan.
+ Pada baris ini, ganti`"YOUR DOCUMENT DIRECTORY"`dengan jalur sebenarnya ke berkas Excel Anda. Di sinilah buku kerja Anda akan dimuat dan disimpan.
 
 ## Langkah 2: Buka Buku Kerja Pertama
 
@@ -64,7 +64,7 @@ Workbook excelWorkbook0 = new Workbook(InputPath);
 Sekarang setelah Anda membuka buku kerja pertama, saatnya membuat buku kerja kosong lain tempat Anda akan menempelkan lembar kerja yang disalin. Anggap saja ini seperti membuka buku catatan kosong baru tempat Anda akan mentransfer data.
 
 ```csharp
-//Buat Buku Kerja lainnya.
+// Buat Buku Kerja lainnya.
 Workbook excelWorkbook1 = new Workbook();
 ```
 

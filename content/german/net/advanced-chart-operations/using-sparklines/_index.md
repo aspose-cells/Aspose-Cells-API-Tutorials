@@ -75,7 +75,7 @@ Indem wir auf das erste Arbeitsblatt zugreifen, können wir mit der Bearbeitung 
 
 ## Schritt 4: Vorhandene Sparklines lesen (sofern vorhanden)
 
-Wenn Sie in Ihrem Blatt nach vorhandenen Sparklines suchen möchten, können Sie dies mit dem folgenden Code tun:
+Wenn Sie in Ihrem Blatt prüfen möchten, ob Sparklines vorhanden sind, können Sie dies mit dem folgenden Code tun:
 
 ```csharp
 // Lesen Sie die Sparklines aus der Vorlagendatei (sofern vorhanden).

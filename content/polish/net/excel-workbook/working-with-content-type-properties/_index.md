@@ -16,7 +16,7 @@ Jeśli zagłębiasz się w świat manipulacji plikami Excela przy użyciu Aspose
 Zanim zagłębisz się w kod, upewnijmy się, że masz wszystko, czego potrzebujesz, aby zacząć. Oto kilka wymagań wstępnych:
 
 1. .NET Framework: Upewnij się, że masz zainstalowany .NET na swoim komputerze. Aspose.Cells działa najlepiej z .NET Standard lub .NET Core.
-2.  Biblioteka Aspose.Cells: Najnowszą wersję można pobrać ze strony[Strona pobierania Aspose.Cells](https://releases.aspose.com/cells/net/)Zainstaluj go za pomocą NuGet lub ręcznie dodaj odwołanie do swojego projektu.
+2.  Biblioteka Aspose.Cells: Najnowszą wersję można pobrać ze strony[Strona pobierania Aspose.Cells](https://releases.aspose.com/cells/net/)Zainstaluj go za pomocą NuGet lub ręcznie dodaj odniesienie do swojego projektu.
 3. Visual Studio: Solidne IDE ułatwi ci życie. Upewnij się, że masz je skonfigurowane na swoim komputerze.
 4. Podstawowa wiedza o języku C#: Znajomość programowania w języku C# jest niezbędna, ponieważ będziemy pisać fragmenty kodu w tym języku.
 5. Znajomość programu Excel: Podstawowa znajomość programu Excel i jego składników pomoże Ci zrozumieć, co tu robimy.
@@ -60,7 +60,7 @@ Mając gotowy skoroszyt, czas dodać kilka niestandardowych właściwości typu 
 int index = workbook.ContentTypeProperties.Add("MK31", "Simple Data");
 ```
 
- W tym kroku dodaliśmy właściwość o nazwie „MK31” z wartością „Proste dane”.`Add` Metoda zwraca indeks nowo dodanej właściwości, którego możemy użyć później.
+ W tym kroku dodaliśmy właściwość o nazwie „MK31” z wartością „Proste dane”.`Add`Metoda zwraca indeks nowo dodanej właściwości, którego możemy użyć później.
 
 ### Ustaw właściwość Nillable
 
@@ -79,7 +79,7 @@ index = workbook.ContentTypeProperties.Add("MK32", DateTime.Now.ToString("yyyy-M
 workbook.ContentTypeProperties[index].IsNillable = true;
 ```
 
- tym fragmencie kodu tworzymy właściwość o nazwie „MK32” z bieżącą datą i godziną sformatowaną zgodnie z normą ISO 8601. Uczyniliśmy tę właściwość możliwą do wartości null, ustawiając`IsNillable` Do`true`.
+ W tym fragmencie kodu tworzymy właściwość o nazwie „MK32” z bieżącą datą i godziną sformatowaną zgodnie z normą ISO 8601. Uczyniliśmy tę właściwość możliwą do wartości null, ustawiając`IsNillable` Do`true`.
 
 ## Krok 4: Zapisz skoroszyt
 
@@ -103,7 +103,7 @@ Ten komunikat pojawi się na konsoli po pomyślnym wykonaniu wszystkich poprzedn
 
 ## Wniosek
 
-masz to! Udało Ci się dodać niestandardowe właściwości typu zawartości do skoroszytu programu Excel przy użyciu Aspose.Cells dla .NET. Postępując zgodnie z tym przewodnikiem krok po kroku, nie tylko nauczyłeś się manipulować plikami programu Excel, ale także rozszerzył możliwości ich metadanych. Ta umiejętność jest szczególnie przydatna w przypadku aplikacji, które muszą przechowywać dodatkowy kontekst lub informacje obok swoich danych, dzięki czemu Twoje skoroszyty są bardziej funkcjonalne i informacyjne.
+I masz to! Udało Ci się dodać niestandardowe właściwości typu zawartości do skoroszytu programu Excel przy użyciu Aspose.Cells dla .NET. Postępując zgodnie z tym przewodnikiem krok po kroku, nie tylko nauczyłeś się manipulować plikami programu Excel, ale także rozszerzył możliwości ich metadanych. Ta umiejętność jest szczególnie przydatna w przypadku aplikacji, które muszą przechowywać dodatkowy kontekst lub informacje obok swoich danych, dzięki czemu Twoje skoroszyty są bardziej funkcjonalne i informacyjne.
 
 ## Najczęściej zadawane pytania
 
@@ -120,4 +120,4 @@ Tak! Aspose.Cells obsługuje różne formaty, w tym XLS, XLSX, CSV i inne.
 Oczywiście! Możesz dodawać złożone obiekty do właściwości typu zawartości, o ile można je poprawnie serializować.
 
 ### Gdzie mogę znaleźć więcej dokumentacji?
- Aby uzyskać bardziej szczegółowe wskazówki, zapoznaj się z[Dokumentacja Aspose.Cells](https://reference.aspose.com/cells/net/).
+Aby uzyskać bardziej szczegółowe wskazówki, zapoznaj się z[Dokumentacja Aspose.Cells](https://reference.aspose.com/cells/net/).

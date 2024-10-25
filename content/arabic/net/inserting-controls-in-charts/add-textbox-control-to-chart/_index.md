@@ -16,7 +16,7 @@ url: /ar/net/inserting-controls-in-charts/add-textbox-control-to-chart/
 قبل أن ننتقل إلى البرمجة، هناك بعض الأشياء التي يجب أن تكون موجودة لديك:
 
 - الفهم الأساسي للغة C#: سيكون من المفيد أن يكون لديك فهم أساسي لبرمجة C#. لا تقلق؛ لست بحاجة إلى أن تكون خبيرًا، بل تحتاج فقط إلى أن تكون مرتاحًا في التعامل مع قواعد اللغة.
-- تم تثبيت مكتبة Aspose.Cells: تأكد من تثبيت مكتبة Aspose.Cells لـ .NET. يمكنك تنزيلها من[هنا](https://releases.aspose.com/cells/net/) إذا لم تكن قد فعلت ذلك بالفعل.
+-  تم تثبيت مكتبة Aspose.Cells: تأكد من تثبيت مكتبة Aspose.Cells لـ .NET. يمكنك تنزيلها من[هنا](https://releases.aspose.com/cells/net/)إذا لم تكن قد فعلت ذلك بالفعل.
 - Visual Studio: من الضروري أن تكون على دراية بـ Visual Studio أو أي بيئة تطوير متكاملة تفضل استخدامها لإطار عمل .NET.
 - ملف Excel موجود: في هذا المثال، سنعمل مع ملف Excel موجود باسم "sampleAddingTextBoxControlInChart.xls". يمكنك إنشاء ملف أو تنزيل عينة.
 
@@ -136,7 +136,7 @@ lineformat.DashStyle = Aspose.Cells.Drawing.MsoLineDashStyle.Solid;
 // احفظ ملف Excel.
 workbook.Save(outputDir + "outputAddingTextBoxControlInChart.xls");
 ```
- يستبدل`"outputAddingTextBoxControlInChart.xls"`مع أي اسم ملف تفضله.
+ يستبدل`"outputAddingTextBoxControlInChart.xls"` مع أي اسم ملف تفضله.
 
 ## خاتمة
 

@@ -16,7 +16,7 @@ url: /hu/net/excel-workbook/access-web-extension-information/
 Mielőtt feltűrjük az ingujjunkat és elkezdjük, be kell állítanod néhány dolgot. Íme egy ellenőrző lista, amely biztosítja, hogy minden zökkenőmentesen menjen:
 
 1. .NET-környezet: Győződjön meg arról, hogy a gépen be van állítva .NET-környezet. Ez általában azt jelenti, hogy a Visual Studio vagy más kompatibilis IDE telepítve van.
-2. Aspose.Cells for .NET: rendelkeznie kell az Aspose.Cells könyvtárral. Ne izzad meg; könnyen lehet[töltse le a legújabb verziót innen](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells for .NET: rendelkeznie kell az Aspose.Cells könyvtárral. Ne izzad meg; könnyen lehet[töltse le a legújabb verziót innen](https://releases.aspose.com/cells/net/).
 3.  Minta Excel-fájl: Ehhez az oktatóanyaghoz győződjön meg arról, hogy rendelkezik egy Excel-mintafájllal (pl`WebExtensionsSample.xlsx`) elérhető. Létrehozhat egyet webbővítményekkel, vagy letölthet egyet, ha szükséges. 
 4. Alapvető C# ismeretek: A C# programozás alapvető ismerete sokkal könnyebbé teszi az oktatóanyagban való navigálást.
 5. NuGet Package Manager: A NuGet ismerete segíthet az Aspose.Cells zökkenőmentes kezelésében a projekten belül.
@@ -62,12 +62,12 @@ Itt megragadjuk a munkafüzet webbővítményeihez társított összes munkaabla
 
 ## 4. lépés: Ismétlés a munkaablakokon keresztül
 
- Miután megvan a gyűjtemény, a következő logikus lépés az egyes munkaablakok áttekintése, és a tulajdonságaik lekérése. Segítségével a`foreach` A loop kiváló módja annak, hogy zökkenőmentesen navigáljon az egyes munkaablakok között.
+Ha megvan a gyűjtemény, a következő logikus lépés az egyes munkaablakok áttekintése, és a tulajdonságaik lekérése. Segítségével a`foreach` A loop kiváló módja annak, hogy zökkenőmentesen navigáljon az egyes munkaablakok között.
 
 ```csharp
 foreach (WebExtensionTaskPane taskPane in taskPanes)
 {
-    //Ezen a hurkon belül kivonjuk a tulajdonságokat
+    // Ezen a hurkon belül kivonjuk a tulajdonságokat
 }
 ```
 
@@ -91,7 +91,7 @@ Console.WriteLine("StoreName: " + taskPane.WebExtension.Reference.StoreName);
 Console.WriteLine("StoreType: " + taskPane.WebExtension.Reference.StoreType);
 Console.WriteLine("WebExtension.Id: " + taskPane.WebExtension.Id);
 ```
-Ezen tulajdonságok mindegyike betekintést nyújt abba, hogyan viselkedik a munkaablak az Excel-munkafüzet kontextusában.
+Ezen tulajdonságok mindegyike betekintést nyújt abba, hogy a munkaablak hogyan viselkedik az Excel-munkafüzet kontextusában.
 
 ## 6. lépés: Csomagolja be
 

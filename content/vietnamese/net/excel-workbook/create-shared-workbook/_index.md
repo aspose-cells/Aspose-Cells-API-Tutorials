@@ -76,7 +76,7 @@ Workbook wb = new Workbook();
 //Chia sẻ Sổ làm việc
 wb.Settings.Shared = true;
 ```
- Cài đặt`wb.Settings.Shared` ĐẾN`true`cho biết sổ làm việc này có thể được nhiều người dùng truy cập cùng lúc. Giống như trao chìa khóa nhà cho bạn bè — họ có thể đến và đi tùy ý!
+ Cài đặt`wb.Settings.Shared` ĐẾN`true` cho biết sổ làm việc này có thể được nhiều người dùng truy cập cùng lúc. Giống như trao chìa khóa nhà cho bạn bè — họ có thể đến và đi tùy ý!
 
 ## Bước 4: Lưu sổ làm việc được chia sẻ
 

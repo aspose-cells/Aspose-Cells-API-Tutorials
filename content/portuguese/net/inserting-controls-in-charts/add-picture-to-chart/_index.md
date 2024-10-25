@@ -16,7 +16,7 @@ Você está cansado de gráficos chatos que não têm um toque pessoal? Quer apr
 Antes de começarmos a trabalhar nos detalhes da codificação, existem alguns pré-requisitos que você precisa ter para seguir adiante sem problemas:
 
 - Visual Studio: É aqui que você vai escrever e executar seu código .NET. Certifique-se de tê-lo instalado.
-- Aspose.Cells para .NET: Você precisará desta biblioteca para trabalhar com arquivos Excel. Você pode[baixe aqui](https://releases.aspose.com/cells/net/).
+-  Aspose.Cells para .NET: Você precisará desta biblioteca para trabalhar com arquivos Excel. Você pode[baixe aqui](https://releases.aspose.com/cells/net/).
 - Noções básicas de C#: embora eu o oriente pelo código, entender os conceitos básicos de C# deixará as coisas mais claras.
 
 ### Etapas de instalação
@@ -55,7 +55,7 @@ string sourceDir = "Your Document Directory/";
 string outputDir = "Your Output Directory/";
 ```
 
- Substituir`Your Document Directory` e`Your Output Directory` com caminhos reais no seu computador. 
+ Substituir`Your Document Directory` e`Your Output Directory`com caminhos reais no seu computador. 
 
 ## Etapa 2: Carregue a pasta de trabalho existente
 
@@ -84,7 +84,7 @@ Certifique-se de que a imagem foi salva no diretório especificado.
 Agora, vamos especificar a qual gráfico adicionaremos nossa imagem. Neste exemplo, miraremos no primeiro gráfico da primeira planilha.
 
 ```csharp
-//Pegue o gráfico do designer na segunda folha.
+// Pegue o gráfico do designer na segunda folha.
 Worksheet sheet = workbook.Worksheets[0];
 Aspose.Cells.Charts.Chart chart = sheet.Charts[0];
 ```
@@ -100,7 +100,7 @@ Com o gráfico selecionado, é hora de adicionar a imagem!
 Aspose.Cells.Drawing.Picture pic0 = chart.Shapes.AddPictureInChart(50, 50, stream, 200, 200);
 ```
 
- Aqui,`50` e`50` são as coordenadas X e Y onde a imagem será colocada e`200` é a largura e a altura da imagem.
+ Aqui,`50` e`50` são as coordenadas X e Y onde a imagem será colocada e`200`é a largura e a altura da imagem.
 
 ## Etapa 6: personalize o formato da linha da imagem
 

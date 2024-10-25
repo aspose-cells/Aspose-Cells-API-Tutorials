@@ -2,7 +2,7 @@
 title: Nevesített tartományok használata Excelben
 linktitle: Nevesített tartományok használata Excelben
 second_title: Aspose.Cells .NET Excel Processing API
-description: Fedezze fel az Aspose.Cells for .NET oktatóanyagokat az Excel elnevezett tartományaival való munkavégzéshez. Ismerje meg, hogyan érheti el az összes vagy bizonyos elnevezett tartományokat a lépésenkénti útmutatók segítségével.
+description: Fedezze fel az Aspose.Cells for .NET oktatóanyagait az Excel elnevezett tartományaival való munkavégzéshez. Ismerje meg, hogyan érheti el az összes vagy bizonyos elnevezett tartományokat a lépésenkénti útmutatók segítségével.
 type: docs
 weight: 21
 url: /hu/net/excel-working-with-named-ranges/

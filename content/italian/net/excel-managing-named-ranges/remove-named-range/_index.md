@@ -113,7 +113,7 @@ range1.SetOutlineBorder(BorderType.LeftBorder, CellBorderType.Medium, Color.From
 range1.SetOutlineBorder(BorderType.RightBorder, CellBorderType.Medium, Color.FromArgb(0, 0, 128));
 ```
 
-Stiamo aggiungendo un bordo blu navy di medie dimensioni attorno alla nostra gamma per renderla visivamente accattivante.
+Stiamo aggiungendo un bordo medio blu navy attorno alla nostra gamma per renderla visivamente accattivante.
 
 ## Passaggio 7: inserimento dei dati nell'intervallo
 

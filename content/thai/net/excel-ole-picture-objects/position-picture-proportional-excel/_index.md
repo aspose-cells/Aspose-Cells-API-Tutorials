@@ -40,7 +40,7 @@ using Aspose.Cells;
 ขั้นแรก ให้แน่ใจว่าคุณมีโฟลเดอร์ที่กำหนดไว้สำหรับเอกสารของคุณ นี่คือวิธีสร้างไดเร็กทอรีหากไม่มี:
 ```csharp
 string dataDir = "Your Document Directory";
-//สร้างไดเร็กทอรีหากยังไม่มีอยู่
+// สร้างไดเร็กทอรีหากยังไม่มีอยู่
 bool isExists = System.IO.Directory.Exists(dataDir);
 if (!isExists)
     System.IO.Directory.CreateDirectory(dataDir);

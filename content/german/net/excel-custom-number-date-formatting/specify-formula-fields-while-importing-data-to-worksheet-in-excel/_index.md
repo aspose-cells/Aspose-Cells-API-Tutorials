@@ -177,5 +177,5 @@ Aspose.Cells ist eine .NET-Bibliothek zum programmgesteuerten Erstellen, Bearbei
  Weitere Beispiele und Dokumentation finden Sie unter[Aspose-Dokumentationsseite](https://reference.aspose.com/cells/net/).
 
 ### Was ist, wenn bei der Verwendung von Aspose Probleme auftreten?
-Sie können im Aspose-Supportforum Hilfe suchen[Hier](https://forum.aspose.com/c/cells/9).
+ Sie können im Aspose-Supportforum Hilfe suchen[Hier](https://forum.aspose.com/c/cells/9).
  

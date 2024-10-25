@@ -17,7 +17,7 @@ url: /ar/net/setting-chart-appearance/set-chart-area/
 
 1. Visual Studio: تأكد من تثبيت Visual Studio على جهازك. فهو ضروري لكتابة وتنفيذ أكواد .NET.
 2. .NET Framework: يعمل هذا الدليل بشكل أفضل مع .NET Framework أو .NET Core. تأكد من تثبيت الإصدار المطلوب (4.5 أو أحدث).
-3.  Aspose.Cells: ستحتاج إلى مكتبة Aspose.Cells. يمكنك تنزيلها من[هنا](https://releases.aspose.com/cells/net/).
+3. Aspose.Cells: ستحتاج إلى مكتبة Aspose.Cells. يمكنك تنزيلها من[هنا](https://releases.aspose.com/cells/net/).
 4. المعرفة الأساسية بلغة C#: سيساعدك الفهم الأساسي لبرمجة C# على فهم الخطوات بشكل أفضل. لا تقلق إذا لم تكن محترفًا، فسأشرح لك كل شيء!
 
 ## استيراد الحزم
@@ -174,4 +174,4 @@ Aspose.Cells هي مكتبة .NET لإدارة ملفات Excel برمجيًا. 
  يمكنك طلب المساعدة والدعم من مجتمع Aspose.Cells والمنتديات المتاحة[هنا](https://forum.aspose.com/c/cells/9).
 
 ### كيف يمكنني شراء ترخيص؟
- يمكنك شراء الترخيص مباشرة من موقع Aspose[هنا](https://purchase.aspose.com/buy).
+يمكنك شراء الترخيص مباشرة من موقع Aspose[هنا](https://purchase.aspose.com/buy).

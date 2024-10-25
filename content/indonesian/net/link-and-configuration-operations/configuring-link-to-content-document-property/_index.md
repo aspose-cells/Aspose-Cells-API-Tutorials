@@ -15,11 +15,11 @@ Dalam tutorial ini, kita akan membahas cara mengonfigurasi tautan ke konten untu
 
 Sebelum kita mulai, pastikan Anda telah menyiapkan semua yang dibutuhkan. Tanpa prasyarat berikut, proses ini tidak akan berjalan lancar:
 
-1.  Pustaka Aspose.Cells untuk .NET: Anda perlu menginstal Aspose.Cells untuk .NET di komputer Anda. Jika Anda belum mengunduhnya, ambil dari[Halaman unduhan Aspose.Cells untuk .NET](https://releases.aspose.com/cells/net/).
+1. Pustaka Aspose.Cells untuk .NET: Anda perlu menginstal Aspose.Cells untuk .NET di komputer Anda. Jika Anda belum mengunduhnya, ambil dari[Halaman unduhan Aspose.Cells untuk .NET](https://releases.aspose.com/cells/net/).
 2. Lingkungan Pengembangan: Gunakan lingkungan pengembangan yang mendukung .NET seperti Visual Studio.
 3. Pengetahuan Dasar C#: Panduan ini mengasumsikan Anda memiliki pengetahuan tentang C# dan .NET.
 4. Berkas Excel: Miliki berkas Excel yang sudah ada untuk digunakan. Dalam contoh kita, kita akan menggunakan berkas yang disebut "sample-document-properties.xlsx".
-5. Lisensi Sementara: Jika Anda tidak memiliki lisensi lengkap, Anda dapat memperolehnya[lisensi sementara di sini](https://purchase.aspose.com/temporary-license/) untuk menghindari keterbatasan pada manipulasi berkas.
+5.  Lisensi Sementara: Jika Anda tidak memiliki lisensi lengkap, Anda dapat memperolehnya[lisensi sementara di sini](https://purchase.aspose.com/temporary-license/) untuk menghindari keterbatasan pada manipulasi berkas.
 
 ## Paket Impor
 
@@ -49,7 +49,7 @@ string dataDir = "Your Document Directory";
 Workbook workbook = new Workbook(dataDir + "sample-document-properties.xlsx");
 ```
 
--  Buku kerja workbook = new Workbook(): Baris ini membuat buku kerja baru`Workbook`objek, yang merupakan kelas utama yang digunakan untuk bekerja dengan file Excel di Aspose.Cells.
+-  Buku kerja workbook = new Workbook(): Baris ini membuat buku kerja baru`Workbook` objek, yang merupakan kelas utama yang digunakan untuk bekerja dengan file Excel di Aspose.Cells.
 - dataDir: Di sinilah Anda menentukan jalur ke berkas Excel Anda. Ganti "Direktori Dokumen Anda" dengan jalur sebenarnya di komputer Anda.
 
 Anggaplah langkah ini sebagai membuka pintu—Anda mengakses berkas tersebut sehingga Anda dapat membuat perubahan yang Anda perlukan!
@@ -59,7 +59,7 @@ Anggaplah langkah ini sebagai membuka pintu—Anda mengakses berkas tersebut seh
 Setelah berkas dimuat, kita perlu mengakses properti dokumen kustomnya. Properti ini disimpan dalam koleksi yang dapat Anda ambil dan manipulasi.
 
 ```csharp
-// Ambil daftar semua properti dokumen kustom dari file Excel
+//Ambil daftar semua properti dokumen kustom dari file Excel
 Aspose.Cells.Properties.CustomDocumentPropertyCollection customProperties = workbook.Worksheets.CustomDocumentProperties;
 ```
 
@@ -93,7 +93,7 @@ bool islinkedtocontent = customProperty1.IsLinkedToContent;
 ```
 
 - properti kustom["Pemilik"]: Kami mengambil properti "Pemilik" berdasarkan nama untuk memeriksa detailnya.
-- IsLinkedToContent: Nilai boolean ini mengembalikan`true` jika properti berhasil ditautkan ke konten.
+-  IsLinkedToContent: Nilai boolean ini mengembalikan`true` jika properti berhasil ditautkan ke konten.
 
 Pada tahap ini, ini seperti memeriksa apakah label (properti) terpasang dengan benar pada konten. Anda memastikan bahwa kode Anda berfungsi seperti yang diharapkan.
 

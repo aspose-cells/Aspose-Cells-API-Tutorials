@@ -33,6 +33,6 @@ url: /ja/net/excel-creating-formatting-named-ranges/
 
 ## Excel チュートリアルで名前付き範囲を作成して書式設定する
 ### [Excel で名前付きセル範囲を作成する](./create-named-range-of-cells/)
-このステップバイステップ ガイドでは、Aspose.Cells for .NET を使用して Excel で名前付きセル範囲を簡単に作成する方法を学習します。データ管理を効率化します。
+このステップバイステップ ガイドでは、Aspose.Cells for .NET を使用して Excel で名前付きセル範囲を簡単に作成する方法を説明します。データ管理を効率化します。
 ### [Excel で範囲を書式設定する](./format-ranges/)
 包括的なステップバイステップ ガイドを使用して、Aspose.Cells for .NET を使用して Excel の範囲を書式設定する技術を習得します。データのプレゼンテーションを向上させます。

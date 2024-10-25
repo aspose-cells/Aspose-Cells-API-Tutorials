@@ -15,9 +15,9 @@ url: /ru/net/excel-copy-worksheet/excel-copy-worksheets-between-workbooks/
 
 Прежде чем погрузиться в код, давайте убедимся, что у вас есть все необходимые инструменты для начала работы:
 
-- Aspose.Cells для .NET: Вы можете загрузить его[здесь](https://releases.aspose.com/cells/net/).
+-  Aspose.Cells для .NET: Вы можете загрузить его[здесь](https://releases.aspose.com/cells/net/).
 - Visual Studio или любая IDE, поддерживающая .NET Framework.
--  Действующая лицензия или[временная лицензия](https://purchase.aspose.com/temporary-license/) если вы хотите протестировать полную функциональность Aspose.Cells.
+-  Действующая лицензия или[временная лицензия](https://purchase.aspose.com/temporary-license/)если вы хотите протестировать полную функциональность Aspose.Cells.
 - Базовые знания C# и фреймворка .NET.
 
  Вы также можете проверить[Документация Aspose.Cells](https://reference.aspose.com/cells/net/) для получения более подробной информации.
@@ -44,7 +44,7 @@ using Aspose.Cells;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- В этой строке замените`"YOUR DOCUMENT DIRECTORY"` с фактическим путем к вашим файлам Excel. Это то, откуда будут загружаться и куда будут сохраняться ваши рабочие книги.
+ В этой строке замените`"YOUR DOCUMENT DIRECTORY"`с фактическим путем к вашим файлам Excel. Это то, откуда будут загружаться и куда будут сохраняться ваши рабочие книги.
 
 ## Шаг 2: Откройте первую рабочую книгу.
 
@@ -64,7 +64,7 @@ Workbook excelWorkbook0 = new Workbook(InputPath);
 Теперь, когда у вас открыта первая рабочая книга, пришло время создать еще одну пустую рабочую книгу, куда вы вставите скопированный рабочий лист. Думайте об этом как об открытии нового пустого блокнота, куда вы перенесете данные.
 
 ```csharp
-//Создайте еще одну рабочую книгу.
+// Создайте еще одну рабочую книгу.
 Workbook excelWorkbook1 = new Workbook();
 ```
 

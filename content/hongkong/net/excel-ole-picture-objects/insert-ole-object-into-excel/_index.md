@@ -83,7 +83,7 @@ string path = dataDir + "book1.xls";
 ```
 再次確保該路徑正確並指向正確的檔案。
 ## 步驟 8：將 Excel 檔案載入到位元組數組中
-就像我們處理圖像的方式一樣，我們需要將 Excel 檔案本身載入到位元組數組中。
+就像我們對圖像所做的那樣，我們需要將 Excel 檔案本身載入到位元組數組中。
 ```csharp
 //將文件放入流中。
 fs = File.OpenRead(path);

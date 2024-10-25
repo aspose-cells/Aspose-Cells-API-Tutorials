@@ -76,7 +76,7 @@ Czas, aby Twój skoroszyt stał się wspólnym arcydziełem! Udostępnienie go p
 //Udostępnij skoroszyt
 wb.Settings.Shared = true;
 ```
- Ustawienie`wb.Settings.Shared` Do`true`oznacza, że do tego skoroszytu może uzyskać dostęp wielu użytkowników jednocześnie. To tak, jakby rozdawać klucze do domu znajomym — mogą przychodzić i wychodzić, kiedy chcą!
+ Ustawienie`wb.Settings.Shared` Do`true` oznacza, że do tego skoroszytu może uzyskać dostęp wielu użytkowników jednocześnie. To tak, jakby rozdawać klucze do domu znajomym — mogą przychodzić i wychodzić, kiedy chcą!
 
 ## Krok 4: Zapisz udostępniony skoroszyt
 

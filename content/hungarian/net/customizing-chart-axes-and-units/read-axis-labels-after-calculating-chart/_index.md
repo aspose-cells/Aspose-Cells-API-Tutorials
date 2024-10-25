@@ -9,7 +9,7 @@ url: /hu/net/customizing-chart-axes-and-units/read-axis-labels-after-calculating
 ---
 ## Bevezetés
 
-Amikor Excel fájlokkal dolgozik .NET-ben, az egyik leghatékonyabb könyvtár az Aspose.Cells. Segítségével könnyedén kezelheti a táblázatokat, akár adatokat olvas, akár diagramokat hoz létre, akár bonyolult számításokat végez. Ebben az oktatóanyagban egy speciális funkcióba merülünk bele: a tengelycímkék beolvasása a diagramból a számítás után. Ha valaha is azon töprengett, hogyan bontsa ki ezeket a címkéket programozottan, akkor jó helyen jár! Lépésről lépésre bontjuk le, minden szükséges részletet megadva az út során.
+Amikor Excel-fájlokkal dolgozik .NET-ben, az egyik leghatékonyabb könyvtár az Aspose.Cells. Segítségével könnyedén kezelheti a táblázatokat, akár adatokat olvas, akár diagramokat hoz létre, akár bonyolult számításokat végez. Ebben az oktatóanyagban egy speciális funkcióba merülünk bele: a tengelycímkék beolvasása a diagramból a számítás után. Ha valaha is azon töprengett, hogyan bontsa ki ezeket a címkéket programozottan, akkor jó helyen jár! Lépésről lépésre bontjuk le, minden szükséges részletet megadva az út során.
 
 ## Előfeltételek
 
@@ -114,7 +114,7 @@ for (int i = 0; i < lstLabels.Count; i++)
     Console.WriteLine(lstLabels[i]);
 }
 ```
-Ez a részlet először egy címet és egy elválasztó sort ad ki. Ezután végigfutjuk az egyes címkéket a`lstLabels` ArrayList és nyomtassa ki a konzolra. Ha tíz címke van, mindegyiket ott fogja látni!
+ Ez a részlet először egy címet és egy elválasztó sort ad ki. Ezután végigfutjuk az egyes címkéket a`lstLabels`ArrayList és nyomtassa ki a konzolra. Ha tíz címke van, mindegyiket ott fogja látni!
 
 ## 8. lépés: Utolsó üzenet
 
@@ -141,7 +141,7 @@ Az Aspose.Cells egy hatékony könyvtár az Excel-fájlok kezeléséhez .NET-ben
  Az Aspose.Cellshez licencet vásárolhat a rajtuk keresztül[vásárlási oldal](https://purchase.aspose.com/buy).
 
 ### Hol találok támogatást az Aspose.Cells számára?
-Támogatásért keresse fel az Aspose fórumot[itt](https://forum.aspose.com/c/cells/9).
+ Támogatásért keresse fel az Aspose fórumot[itt](https://forum.aspose.com/c/cells/9).
 
 ### Kaphatok ideiglenes jogosítványt?
- Igen! Az Aspose ideiglenes licencet kínál, amelyet kérhet[ezt a linket](https://purchase.aspose.com/temporary-license/).
+Igen! Az Aspose ideiglenes licencet kínál, amelyet kérhet[ezt a linket](https://purchase.aspose.com/temporary-license/).

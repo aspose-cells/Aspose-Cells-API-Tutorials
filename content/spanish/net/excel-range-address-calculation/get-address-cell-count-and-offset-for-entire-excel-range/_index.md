@@ -121,4 +121,4 @@ Sí, existen bibliotecas alternativas, como EPPlus y ClosedXML, pero Aspose.Cell
 ### ¿Dónde puedo encontrar más documentación sobre Aspose.Cells?  
  Puedes comprobarlo[Documentación de Aspose.Cells](https://reference.aspose.com/cells/net/) para guías detalladas y referencias API.
 ### ¿Cómo puedo obtener soporte para Aspose.Cells?  
- Para soporte y consultas, visite el[Foro de Aspose](https://forum.aspose.com/c/cells/9)donde podrás encontrar ayuda de la comunidad y del equipo de soporte.
+ Para soporte y consultas, visite el[Foro de Aspose](https://forum.aspose.com/c/cells/9) donde podrás encontrar ayuda de la comunidad y del equipo de soporte.

@@ -16,7 +16,7 @@ Czy masz dość nudnych wykresów, którym brakuje osobistego akcentu? Chcesz do
 Zanim przejdziemy do szczegółów kodowania, istnieje kilka warunków wstępnych, które musisz spełnić, aby wszystko poszło gładko:
 
 - Visual Studio: Tutaj będziesz pisać i uruchamiać swój kod .NET. Upewnij się, że masz go zainstalowanego.
-- Aspose.Cells dla .NET: Ta biblioteka będzie Ci potrzebna do pracy z plikami Excel. Możesz[pobierz tutaj](https://releases.aspose.com/cells/net/).
+-  Aspose.Cells dla .NET: Ta biblioteka będzie Ci potrzebna do pracy z plikami Excel. Możesz[pobierz tutaj](https://releases.aspose.com/cells/net/).
 - Podstawowa znajomość języka C#: wprawdzie przeprowadzę Cię przez kod, ale znajomość podstaw języka C# sprawi, że wszystko stanie się jaśniejsze.
 
 ### Kroki instalacji
@@ -55,7 +55,7 @@ string sourceDir = "Your Document Directory/";
 string outputDir = "Your Output Directory/";
 ```
 
- Zastępować`Your Document Directory` I`Your Output Directory` z rzeczywistymi ścieżkami na Twoim komputerze. 
+ Zastępować`Your Document Directory` I`Your Output Directory` rzeczywistymi ścieżkami na Twoim komputerze. 
 
 ## Krok 2: Załaduj istniejący skoroszyt
 
@@ -84,7 +84,7 @@ Upewnij się, że zdjęcie zostało zapisane w określonym katalogu.
 Teraz określmy, do którego wykresu dodamy nasz obraz. W tym przykładzie będziemy celować w pierwszy wykres na pierwszym arkuszu.
 
 ```csharp
-// drugim arkuszu znajdziesz wykres projektanta.
+// W drugim arkuszu znajdziesz wykres projektanta.
 Worksheet sheet = workbook.Worksheets[0];
 Aspose.Cells.Charts.Chart chart = sheet.Charts[0];
 ```
@@ -100,7 +100,7 @@ Po wybraniu wykresu czas dodać zdjęcie!
 Aspose.Cells.Drawing.Picture pic0 = chart.Shapes.AddPictureInChart(50, 50, stream, 200, 200);
 ```
 
- Tutaj,`50` I`50` to współrzędne X i Y, pod którymi zostanie umieszczony obraz, oraz`200` jest szerokością i wysokością obrazu.
+ Tutaj,`50` I`50` to współrzędne X i Y, pod którymi zostanie umieszczony obraz, oraz`200`jest szerokością i wysokością obrazu.
 
 ## Krok 6: Dostosuj format linii obrazu
 
@@ -140,7 +140,7 @@ Console.WriteLine("AddingPictureInChart executed successfully.");
 
 ## Wniosek
 
-W tym samouczku sprawdziliśmy, jak dodać odrobinę osobowości do wykresów Excela, dodając obrazy za pomocą Aspose.Cells dla .NET. Za pomocą kilku prostych kroków możesz podnieść poziom swoich prezentacji z nudnych na niezapomniane. Na co więc czekasz? Spróbuj i pozwól swoim wykresom zabłysnąć!
+tym samouczku sprawdziliśmy, jak dodać odrobinę osobowości do wykresów Excela, dodając obrazy za pomocą Aspose.Cells dla .NET. Za pomocą kilku prostych kroków możesz podnieść poziom swoich prezentacji z nudnych na niezapomniane. Na co więc czekasz? Spróbuj i pozwól swoim wykresom zabłysnąć!
 
 ## Najczęściej zadawane pytania
 

@@ -60,7 +60,7 @@ Stellen Sie sich das Arbeitsblatt als die einzelnen Registerkarten in einer Exce
 Jetzt, da wir unser Arbeitsblatt haben, ist es an der Zeit, einen Bereich zu erstellen. Ein Bereich bezieht sich auf einen Zellblock, der sich über mehrere Zeilen und Spalten erstrecken kann.
 
 ```csharp
-// Erstellen Sie einen Bereich.
+//Erstellen Sie einen Bereich.
 Range mrange = worksheet1.Cells.CreateRange("D6", "I12");
 ```
 
@@ -133,7 +133,7 @@ flag.CellShading = true;
 range1.ApplyStyle(style, flag);
 ```
 
- Der`StyleFlag`teilt Aspose.Cells mit, welche Stileigenschaften angewendet werden sollen – Ausrichtung, Schattierung usw. Dies gibt Ihnen eine genaue Kontrolle darüber, wie der Stil angewendet wird.
+ Der`StyleFlag` teilt Aspose.Cells mit, welche Stileigenschaften angewendet werden sollen – Ausrichtung, Schattierung usw. Dies gibt Ihnen eine genaue Kontrolle darüber, wie der Stil angewendet wird.
 
 ## Schritt 9: Daten in den zusammengeführten Bereich eingeben
 

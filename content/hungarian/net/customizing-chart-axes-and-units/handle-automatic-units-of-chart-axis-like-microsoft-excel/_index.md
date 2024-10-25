@@ -108,7 +108,7 @@ Az Excelben a diagramok egyik kulcsfontosságú funkciója a diagramtengelyek au
 
 ```csharp
 // Állítsa be az Y tengely fő mértékegységét
-ch.AxisY.MajorUnit = 10; //Igény szerint beállíthatja
+ch.AxisY.MajorUnit = 10; // Igény szerint beállíthatja
 ```
 
 Frissítsük most az automata egységeket!
@@ -142,7 +142,7 @@ Az Aspose.Cells .NET-hez való használata nemcsak hatékony, hanem hihetetlenü
 Az Aspose.Cells egy hatékony .NET-könyvtár Excel-fájlok létrehozásához, kezeléséhez és konvertálásához.
 
 ### Használhatom ingyenesen az Aspose.Cells-t?
- Igen! Kezdheti egy ingyenes próbaverzióval[itt](https://releases.aspose.com/).
+Igen! Kezdheti egy ingyenes próbaverzióval[itt](https://releases.aspose.com/).
 
 ### Kell valamit telepítenem az induláshoz?
 Csak az Aspose.Cells könyvtár és a gépére telepített .NET-keretrendszer.

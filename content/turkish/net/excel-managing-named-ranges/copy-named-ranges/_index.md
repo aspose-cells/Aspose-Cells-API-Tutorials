@@ -12,7 +12,7 @@ Excel, dünya çapında milyonlarca kişi tarafından veri organizasyonu ve anal
 ## Ön koşullar
 Adlandırılmış aralıkları kopyalamanın inceliklerine dalmadan önce, birkaç şeyin sıraya girdiğinden emin olmanız gerekir. İhtiyacınız olanlar şunlardır:
 1. .NET Ortamı: .NET geliştirme ortamınızın kurulu olduğundan emin olun. Visual Studio veya seçtiğiniz herhangi bir IDE'yi kullanabilirsiniz.
-2.  Aspose.Cells for .NET Kütüphanesi: Gösterinin yıldızı bu! Kütüphaneyi şu adresten indirin:[Aspose web sitesi](https://releases.aspose.com/cells/net/) Eğer daha önce yapmadıysanız.
+2. Aspose.Cells for .NET Kütüphanesi: Gösterinin yıldızı bu! Kütüphaneyi şu adresten indirin:[Aspose web sitesi](https://releases.aspose.com/cells/net/) Eğer daha önce yapmadıysanız.
 3. Temel C# Bilgisi: Eğitim boyunca bu dilde kodlama yapacağımız için C# programlamaya aşina olmanız faydalı olacaktır.
 4. Excel'in Kurulu Olması: Kod yazmak için Excel'e mutlaka ihtiyacınız olmasa da, çıktı dosyalarınızı test etmek için kurulu olması yararlı olacaktır.
 5.  Belgelere Erişim: Yer imlerine ekle[Aspose.Cells Belgeleri](https://reference.aspose.com/cells/net/) referans için. Yöntemleri ve özellikleri anlamak için harika bir kaynak.
@@ -27,7 +27,7 @@ using System.IO;
 using Aspose.Cells;
 using System.Drawing;
 ```
-Bu kod size aşağıdaki gibi temel sınıflara erişim sağlayacaktır:`Workbook`, `Worksheet` Ve`Range`Excel dosyalarını düzenlemek için ihtiyaç duyacağınız.
+ Bu kod size aşağıdaki gibi temel sınıflara erişim sağlayacaktır:`Workbook`, `Worksheet` , Ve`Range`Excel dosyalarını düzenlemek için ihtiyaç duyacağınız.
 
 Artık ön koşullarımızı tamamladığımıza göre, süreci takip etmesi kolay adımlara bölelim.
 ## Adım 1: Çıktı Dizininizi Ayarlayın

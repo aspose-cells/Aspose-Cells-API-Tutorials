@@ -31,7 +31,7 @@ Todo bom projeto começa com uma organização adequada! Primeiro, você precisa
 ```csharp
 // O caminho para o diretório de documentos.
 string dataDir = "Your Document Directory";
-//Crie um diretório se ele ainda não estiver presente.
+// Crie um diretório se ele ainda não estiver presente.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -132,7 +132,7 @@ E aí está — seu guia para adicionar uma barra de rolagem a uma planilha no E
 ### O que é Aspose.Cells?
 Aspose.Cells é uma poderosa biblioteca .NET que permite aos desenvolvedores criar, manipular e converter arquivos do Excel programaticamente.
 ### Posso usar o Aspose.Cells gratuitamente?
-Sim, o Aspose.Cells oferece um teste gratuito, que você pode encontrar[aqui](https://releases.aspose.com/).
+ Sim, o Aspose.Cells oferece um teste gratuito, que você pode encontrar[aqui](https://releases.aspose.com/).
 ### Como adiciono outros controles à minha planilha do Excel?
 Você pode usar métodos similares aos mostrados para a barra de rolagem. Basta verificar a documentação para mais controles!
 ### Quais linguagens de programação posso usar com o Aspose.Cells?

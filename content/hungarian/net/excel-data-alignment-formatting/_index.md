@@ -2,7 +2,7 @@
 title: Excel adatigazítás és formázás
 linktitle: Excel adatigazítás és formázás
 second_title: Aspose.Cells .NET Excel Processing API
-description: Fedezze fel, hogyan módosíthatja az Excel cellák igazítását a formázás elvesztése nélkül az Aspose.Cells for .NET alkalmazásban. Ismerje meg a zökkenőmentes Excel-adatformázás lépésenkénti oktatóanyagát.
+description: Fedezze fel, hogyan módosíthatja az Excel-cellaigazítást a formázás elvesztése nélkül az Aspose.Cells for .NET-ben. Ismerje meg a zökkenőmentes Excel-adatformázás lépésenkénti oktatóanyagát.
 type: docs
 weight: 36
 url: /hu/net/excel-data-alignment-formatting/

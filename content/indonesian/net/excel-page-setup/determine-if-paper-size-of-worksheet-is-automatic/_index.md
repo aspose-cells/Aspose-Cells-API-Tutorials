@@ -25,7 +25,7 @@ Meskipun Aspose.Cells menyederhanakan banyak tugas, pemahaman dasar tentang C# s
 Anda harus menyiapkan IDE seperti Visual Studio. Ini akan memandu Anda dalam menangani dan menguji kode secara efektif.
 
 ### Contoh File Excel
-Anda akan memerlukan file contoh (`samplePageSetupIsAutomaticPaperSize-False.xlsx` Dan`samplePageSetupIsAutomaticPaperSize-True.xlsx`) untuk tujuan pengujian. Pastikan file-file ini ada di direktori sumber Anda.
+Anda akan memerlukan file contoh (`samplePageSetupIsAutomaticPaperSize-False.xlsx` Dan`samplePageSetupIsAutomaticPaperSize-True.xlsx`untuk tujuan pengujian. Pastikan file-file ini ada di direktori sumber Anda.
 
 ## Paket Impor
 

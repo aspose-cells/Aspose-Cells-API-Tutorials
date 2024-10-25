@@ -16,7 +16,7 @@ url: /zh/net/inserting-controls-in-charts/add-picture-to-chart/
 在我们深入编码细节之前，您需要满足一些先决条件才能顺利进行：
 
 - Visual Studio：您将在此编写和运行 .NET 代码。请确保您已安装它。
-- Aspose.Cells for .NET：您需要此库来处理 Excel 文件。您可以[点击下载](https://releases.aspose.com/cells/net/).
+-  Aspose.Cells for .NET：您需要此库来处理 Excel 文件。您可以[点击下载](https://releases.aspose.com/cells/net/).
 - 对 C# 的基本了解：虽然我将指导您完成代码，但掌握 C# 基础知识将使事情变得更加清晰。
 
 ### 安装步骤

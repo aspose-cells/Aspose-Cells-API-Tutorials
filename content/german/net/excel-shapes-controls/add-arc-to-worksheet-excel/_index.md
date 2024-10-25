@@ -38,7 +38,7 @@ Hier ist eine schrittweise Aufschlüsselung des Codes, der zeigt, wie einem Arbe
 Der erste Schritt besteht darin, ein Verzeichnis einzurichten, in dem Sie Ihre Excel-Datei speichern. Dies erleichtert die Verwaltung Ihrer Ausgabedateien.
 ```csharp
 string dataDir = "Your Document Directory";
-//Erstellen Sie ein Verzeichnis, falls es noch nicht vorhanden ist.
+// Erstellen Sie ein Verzeichnis, falls es noch nicht vorhanden ist.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);

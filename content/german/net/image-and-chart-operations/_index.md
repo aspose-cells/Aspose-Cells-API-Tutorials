@@ -9,7 +9,7 @@ url: /de/net/image-and-chart-operations/
 ---
 ## Einführung
 
-Wenn es um die Bearbeitung von Tabellen und grafischen Daten in .NET-Anwendungen geht, ist Aspose.Cells der Star. Es handelt sich um eine leistungsstarke Bibliothek, mit der Entwickler Excel-Dateien mit größter Leichtigkeit erstellen, lesen und ändern können. Wenn Sie Ihre Datenvisualisierung verbessern möchten, sind Sie hier genau richtig! In diesem Artikel werden wir uns mit einigen fantastischen Tutorials befassen, die sich speziell auf die Konvertierung von Diagrammen und Arbeitsblättern in Bilder konzentrieren.
+Wenn es um die Bearbeitung von Tabellen und grafischen Daten in .NET-Anwendungen geht, steht Aspose.Cells im Rampenlicht. Es handelt sich um eine leistungsstarke Bibliothek, mit der Entwickler Excel-Dateien mit größter Leichtigkeit erstellen, lesen und ändern können. Wenn Sie Ihre Datenvisualisierung verbessern möchten, sind Sie auf der richtigen Seite gelandet! In diesem Artikel werden wir uns mit einigen fantastischen Tutorials befassen, die sich speziell auf die Konvertierung von Diagrammen und Arbeitsblättern in Bilder konzentrieren.
 
 ## Konvertierung von Diagrammen in Bilder in .NET 
 

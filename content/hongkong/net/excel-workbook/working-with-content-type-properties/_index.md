@@ -79,7 +79,7 @@ index = workbook.ContentTypeProperties.Add("MK32", DateTime.Now.ToString("yyyy-M
 workbook.ContentTypeProperties[index].IsNillable = true;
 ```
 
-在此程式碼段中，我們建立一個名為「MK32」的屬性，其目前日期和時間的格式根據 ISO 8601。`IsNillable`到`true`.
+在此程式碼片段中，我們建立一個名為「MK32」的屬性，其目前日期和時間的格式根據 ISO 8601。`IsNillable`到`true`.
 
 ## 步驟 4：儲存工作簿
 

@@ -123,7 +123,7 @@ wb.Save(outputDir + "outputSeries_ValuesFormatCode.xlsx");
 
 Na zakończenie możemy wydrukować komunikat o powodzeniu.
 
-Podobnie jak oklaski na zakończenie występu, tak i to potwierdzenie daje ciepłe, przyjemne poczucie spełnienia.
+Podobnie jak oklaski na zakończenie występu, tak i potwierdzenie tego daje ciepłe, przyjemne poczucie spełnienia.
 
 ```csharp
 Console.WriteLine("SetValuesFormatCodeOfChartSeries executed successfully.");

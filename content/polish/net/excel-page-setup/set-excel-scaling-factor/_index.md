@@ -29,7 +29,7 @@ Zanim napiszesz jakikolwiek kod, musisz dodać odwołanie do biblioteki Aspose.C
 ### Pobierz DLL
 
 1.  Idź do[Strona pobierania Aspose](https://releases.aspose.com/cells/net/) i pobierz odpowiedni pakiet dla swojej wersji .NET.
-2. Wypakuj pobrany plik i zlokalizuj go`Aspose.Cells.dll` plik.
+2.  Wypakuj pobrany plik i zlokalizuj go`Aspose.Cells.dll` plik.
 
 ### Dodaj odniesienie w programie Visual Studio
 

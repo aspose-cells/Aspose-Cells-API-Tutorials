@@ -32,7 +32,7 @@ Ontdek de kracht van Excel VLOOKUP met Aspose.Cells voor Java: uw ultieme gids v
 Leer hoe u tekst in Excel kunt samenvoegen met Aspose.Cells voor Java. Deze stapsgewijze handleiding bevat broncodevoorbeelden voor naadloze tekstmanipulatie.
 ### [AANTAL.ALS-functie in Excel](./countif-function-in-excel/)
 Leer hoe u de functie AANTAL.ALS in Excel gebruikt met Aspose.Cells voor Java. Stapsgewijze handleiding en codevoorbeelden voor efficiënte gegevensanalyse.
-### [GEMIDDELDE-functie in Excel](./average-function-in-excel/)
+### [GEMIDDELDE functie in Excel](./average-function-in-excel/)
 Leer hoe u de GEMIDDELDE functie in Excel gebruikt met Aspose.Cells voor Java. Stapsgewijze handleiding, codevoorbeelden en tips voor efficiënte Excel-automatisering.
 ### [Excel MAX-functie begrijpen](./understanding-excel-max-function/)
 Leer hoe u de Excel MAX-functie gebruikt met Aspose.Cells voor Java. Ontdek stapsgewijze begeleiding, codevoorbeelden en veelgestelde vragen in deze uitgebreide tutorial.

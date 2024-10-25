@@ -79,7 +79,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 
 ## 步驟 4：設定首頁頁碼
 
-現在，魔法來了！您可以透過指派一個值來設定工作表列印頁面的首頁頁碼`FirstPageNumber`：
+現在，魔法來了！您可以透過指派一個值來設定工作表列印頁面的首頁頁碼`FirstPageNumber`:
 
 ```csharp
 worksheet.PageSetup.FirstPageNumber = 2;

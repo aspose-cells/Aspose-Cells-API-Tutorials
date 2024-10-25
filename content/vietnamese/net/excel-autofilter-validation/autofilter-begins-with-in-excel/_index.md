@@ -71,7 +71,7 @@ Bây giờ, chúng ta cần truy cập vào bảng tính cụ thể mà chúng t
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
-Giải thích:`Worksheets` bộ sưu tập cho phép chúng ta truy cập vào từng trang tính. Sử dụng`[0]` tham chiếu đến bảng tính đầu tiên trong tệp Excel của bạn, đây thường là thông lệ phổ biến khi làm việc với tệp chỉ có một trang tính.
+ Giải thích:`Worksheets` bộ sưu tập cho phép chúng ta truy cập vào từng trang tính. Sử dụng`[0]` tham chiếu đến bảng tính đầu tiên trong tệp Excel của bạn, đây thường là thông lệ phổ biến khi làm việc với tệp chỉ có một trang tính.
 
 ## Bước 4: Thiết lập Bộ lọc tự động
 
@@ -82,7 +82,7 @@ Giải thích:`Worksheets` bộ sưu tập cho phép chúng ta truy cập vào t
 worksheet.AutoFilter.Range = "A1:A18";
 ```
 
-Giải thích:`AutoFilter.Range` thuộc tính cho phép bạn chỉ định những hàng nào cần lọc. Trong trường hợp này, chúng tôi đang lọc các hàng trong phạm vi A1 đến A18, được cho là chứa dữ liệu của chúng tôi.
+ Giải thích:`AutoFilter.Range` thuộc tính cho phép bạn chỉ định những hàng nào cần lọc. Trong trường hợp này, chúng tôi đang lọc các hàng trong phạm vi A1 đến A18, được cho là chứa dữ liệu của chúng tôi.
 
 ## Bước 5: Áp dụng điều kiện lọc
 
@@ -93,7 +93,7 @@ Bước tiếp theo là xác định điều kiện lọc. Chúng tôi muốn ch
 worksheet.AutoFilter.Custom(0, FilterOperatorType.BeginsWith, "Ba");
 ```
 
-Giải thích:`Custom` phương pháp xác định logic lọc của chúng tôi. Đối số đầu tiên (`0` ) cho biết chúng tôi đang lọc dựa trên cột đầu tiên (A) và`FilterOperatorType.BeginsWith`chỉ rõ điều kiện của chúng tôi là tìm kiếm các hàng bắt đầu bằng "Ba".
+ Giải thích:`Custom` phương pháp xác định logic lọc của chúng tôi. Đối số đầu tiên (`0` ) cho biết chúng tôi đang lọc dựa trên cột đầu tiên (A) và`FilterOperatorType.BeginsWith` chỉ rõ điều kiện của chúng tôi là tìm kiếm các hàng bắt đầu bằng "Ba".
 
 ## Bước 6: Làm mới bộ lọc
 
@@ -115,7 +115,7 @@ Bây giờ là lúc lưu những thay đổi chúng ta đã thực hiện:
 workbook.Save(outputDir + "outSourseSampleCountryNames.xlsx");
 ```
 
-Giải thích:`Save` phương pháp ghi lại Sổ làm việc đã sửa đổi vào đường dẫn đầu ra đã chỉ định. Điều này nằm trong việc ghi các bộ lọc đã xác định của bạn vào một tệp mới để dữ liệu gốc của bạn vẫn còn nguyên vẹn.
+ Giải thích:`Save` phương pháp ghi lại Sổ làm việc đã sửa đổi vào đường dẫn đầu ra đã chỉ định. Điều này nằm trong việc ghi các bộ lọc đã xác định của bạn vào một tệp mới để dữ liệu gốc của bạn vẫn còn nguyên vẹn.
 
 ## Bước 8: Xác nhận đầu ra
 

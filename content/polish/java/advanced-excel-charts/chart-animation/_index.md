@@ -16,7 +16,7 @@ W tym samouczku pokażemy, jak tworzyć dynamiczne animacje wykresów przy użyc
 
 Zanim przejdziemy do tworzenia animacji wykresów, upewnij się, że spełnione są następujące wymagania wstępne:
 
-1. Aspose.Cells dla Java: Upewnij się, że masz zainstalowaną bibliotekę Aspose.Cells dla Java. Możesz ją pobrać z[Tutaj](https://releases.aspose.com/cells/java/).
+1.  Aspose.Cells dla Java: Upewnij się, że masz zainstalowaną bibliotekę Aspose.Cells dla Java. Możesz ją pobrać z[Tutaj](https://releases.aspose.com/cells/java/).
 
 2. Środowisko programistyczne Java: Na swoim systemie powinieneś mieć skonfigurowane środowisko programistyczne Java.
 
@@ -82,7 +82,7 @@ W tym samouczku nauczyliśmy się, jak tworzyć animacje wykresów przy użyciu 
 
 ### Jak mogę zmienić typ animacji?
 
- Aby zmienić typ animacji, użyj`setAnimationType` metoda na obiekcie wykresu. Możesz wybierać spośród różnych typów, takich jak`SLIDE`, `FADE` I`GROW_SHRINK`.
+ Aby zmienić typ animacji, użyj`setAnimationType` metoda na obiekcie wykresu. Możesz wybierać spośród różnych typów, takich jak`SLIDE`, `FADE` , I`GROW_SHRINK`.
 
 ### Czy mogę dostosować czas trwania animacji?
 
@@ -90,4 +90,4 @@ W tym samouczku nauczyliśmy się, jak tworzyć animacje wykresów przy użyciu 
 
 ### Jaki jest cel opóźnienia animacji?
 
- Opóźnienie animacji określa odstęp czasu przed rozpoczęciem animacji wykresu. Użyj`setAnimationDelay` metoda ustawiająca opóźnienie w milisekundach.
+ Opóźnienie animacji określa odstęp czasu przed rozpoczęciem animacji wykresu. Użyj`setAnimationDelay`metoda ustawiająca opóźnienie w milisekundach.

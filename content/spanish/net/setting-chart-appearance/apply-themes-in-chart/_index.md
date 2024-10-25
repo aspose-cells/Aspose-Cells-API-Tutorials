@@ -59,7 +59,7 @@ string sourceDir = "Your Document Directory";
 Workbook workbook = new Workbook(sourceDir + "sampleApplyingThemesInChart.xlsx");
 ```
 
- Asegúrese de que`sampleApplyingThemesInChart.xlsx`existe en su directorio de origen.
+ Asegúrese de que`sampleApplyingThemesInChart.xlsx` existe en su directorio de origen.
 
 ## Paso 3: Acceda a la hoja de trabajo
 
@@ -96,7 +96,7 @@ Esta línea de código garantiza que la primera serie del gráfico esté configu
 
 ## Paso 6: Configurar el color
 
- Ahora que nuestra serie está lista, necesitamos modificar su color. Esto implica crear un`CellsColor`objeto y especificar un color de tema. Elegiremos un estilo de acento para este ejemplo.
+ Ahora que nuestra serie está lista, necesitamos modificar su color. Esto implica crear un`CellsColor` objeto y especificar un color de tema. Elegiremos un estilo de acento para este ejemplo.
 
 ```csharp
 // Obtener el color de celda de SolidFill

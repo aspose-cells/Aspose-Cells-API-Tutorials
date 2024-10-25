@@ -51,7 +51,7 @@ Można to postrzegać jako udzielanie szczegółowych instrukcji – w zasadzie 
 ## Krok 4: Utwórz obiekt skoroszytu
  Dobrze, już prawie skończyliśmy! Teraz utworzymy`Workbook` obiekt, do którego Aspose.Cells wczyta zawartość pliku Excel.
 ```csharp
-// Utwórz obiekt skoroszytu i otwórz plik z jego ścieżki
+//Utwórz obiekt skoroszytu i otwórz plik z jego ścieżki
 Workbook book = new Workbook(dataDir + "Book1.xlsx", loadOptions);
 ```
  W tym wierszu zamień`"Book1.xlsx"` z nazwą twojego rzeczywistego pliku Excel. Voilà! Twój skoroszyt jest załadowany wszystkimi kluczowymi danymi.

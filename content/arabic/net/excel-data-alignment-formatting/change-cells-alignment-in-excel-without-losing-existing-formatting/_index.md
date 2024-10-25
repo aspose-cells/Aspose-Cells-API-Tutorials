@@ -16,7 +16,7 @@ url: /ar/net/excel-data-alignment-formatting/change-cells-alignment-in-excel-wit
 قبل أن نتعمق في الترميز الفعلي، من الضروري التأكد من إعداد كل شيء بشكل صحيح. إليك ما ستحتاج إليه:
 
 1. Visual Studio: تأكد من تثبيت Visual Studio (أي إصدار يدعم .NET) على جهاز الكمبيوتر الخاص بك.
-2.  Aspose.Cells لـ .NET: قم بتنزيل مكتبة Aspose.Cells وتثبيتها من[موقع Aspose](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells لـ .NET: قم بتنزيل مكتبة Aspose.Cells وتثبيتها من[موقع Aspose](https://releases.aspose.com/cells/net/).
 3. المعرفة الأساسية بلغة C#: سيكون من المفيد الحصول على القليل من المعرفة ببرمجة C# لأننا سنعمل ضمن سياق C#.
 4.  ملف Excel نموذجي: للتوضيح، قم بإعداد ملف Excel نموذجي (على سبيل المثال،`sampleChangeCellsAlignmentAndKeepExistingFormatting.xlsx`) الذي يحتوي على بعض تنسيقات الخلايا الأولية.
 
@@ -89,7 +89,7 @@ Worksheet ws = wb.Worksheets[0];
 حدد الخلايا التي تريد تعديلها عن طريق إنشاء نطاق. سيركز هذا التحديد على نطاق محدد، مثل "B2:D7".
 
 ```csharp
-// إنشاء نطاق الخلايا.
+//إنشاء نطاق الخلايا.
 Range rng = ws.Cells.CreateRange("B2:D7");
 ```
 
@@ -122,14 +122,14 @@ StyleFlag flag = new StyleFlag();
 flag.Alignments = true;
 ```
 
- من خلال ضبط`Alignments`خاصية StyleFlag لـ`true`، فأنت تخبر Aspose.Cells بتطبيق أنماط المحاذاة بشكل صحيح.
+ من خلال ضبط`Alignments` خاصية StyleFlag لـ`true`، فأنت تخبر Aspose.Cells بتطبيق أنماط المحاذاة بشكل صحيح.
 
 ## الخطوة 7: تطبيق النمط على نطاق الخلايا
 
 بعد إعداد الأنماط والأعلام، حان الوقت لتطبيق هذه الأنماط على نطاق الخلايا:
 
 ```csharp
-// تطبيق النمط على نطاق من الخلايا.
+//تطبيق النمط على نطاق من الخلايا.
 rng.ApplyStyle(st, flag);
 ```
 

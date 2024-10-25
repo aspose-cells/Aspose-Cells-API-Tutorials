@@ -9,14 +9,14 @@ url: /cs/net/excel-workbook/add-digital-signature-to-an-already-signed-excel-fil
 ---
 ## Zavedení
 
-dnešním digitálním světě je zabezpečení dokumentů důležitější než kdy jindy. Digitální podpisy poskytují způsob, jak zajistit autenticitu a integritu vašich souborů, zejména při práci s citlivými informacemi. Pokud pracujete se soubory aplikace Excel a chcete přidat nový digitální podpis do sešitu, který již byl podepsán, jste na správném místě! V této příručce vás provedeme procesem přidání digitálního podpisu do již podepsaného souboru Excel pomocí Aspose.Cells for .NET. Takže, pojďme se ponořit!
+V dnešním digitálním světě je zabezpečení dokumentů důležitější než kdy jindy. Digitální podpisy poskytují způsob, jak zajistit autenticitu a integritu vašich souborů, zejména při práci s citlivými informacemi. Pokud pracujete se soubory aplikace Excel a chcete přidat nový digitální podpis do sešitu, který již byl podepsán, jste na správném místě! V této příručce vás provedeme procesem přidání digitálního podpisu do již podepsaného souboru Excel pomocí Aspose.Cells for .NET. Takže, pojďme se ponořit!
 
 ## Předpoklady
 
 Než se pustíme do hrubky kódování, je třeba mít na paměti několik věcí:
 
 1.  Aspose.Cells for .NET: Ujistěte se, že máte v projektu .NET nainstalovanou knihovnu Aspose.Cells. Můžete si jej stáhnout z[místo](https://releases.aspose.com/cells/net/).
-2.  Soubor certifikátu: Budete potřebovat platný soubor certifikátu (obvykle a`.pfx` soubor), který obsahuje váš digitální certifikát. Ujistěte se, že znáte heslo pro tento soubor.
+2.  Soubor certifikátu: Budete potřebovat platný soubor certifikátu (obvykle a`.pfx`soubor), který obsahuje váš digitální certifikát. Ujistěte se, že znáte heslo pro tento soubor.
 3. Vývojové prostředí: Nastavte své vývojové prostředí pomocí sady Visual Studio nebo jiného IDE, které podporuje .NET.
 4. Základní znalost C#: Znalost programování v C# vám pomůže hladce pokračovat.
 5. Ukázkové soubory: Mějte ukázkový soubor Excel, který je již digitálně podepsán. Toto bude soubor, do kterého přidáte nový podpis.
@@ -51,7 +51,7 @@ V tomto kroku používáme metodu k získání cest pro zdrojový a výstupní a
 
 ## Krok 2: Načtěte již podepsaný sešit
 
-Dále budete muset načíst sešit aplikace Excel, který chcete upravit. To se provádí vytvořením instance souboru`Workbook` třídy a předání cesty k podepsanému souboru.
+ Dále budete muset načíst sešit aplikace Excel, který chcete upravit. To se provádí vytvořením instance souboru`Workbook` třídy a předání cesty k podepsanému souboru.
 
 ```csharp
 // Načtěte sešit, který je již digitálně podepsán
@@ -84,7 +84,7 @@ string password = "aspose";
 System.Security.Cryptography.X509Certificates.X509Certificate2 certificate = new System.Security.Cryptography.X509Certificates.X509Certificate2(certFileName, password);
 ```
 
- Nezapomeňte vyměnit`AsposeDemo.pfx` a heslo se skutečným názvem souboru certifikátu a heslem.
+ Nezapomeňte vyměnit`AsposeDemo.pfx` heslo se skutečným názvem souboru certifikátu a heslem.
 
 ## Krok 5: Vytvořte digitální podpis
 
@@ -113,7 +113,7 @@ Spuštěním tohoto řádku efektivně připojíte nový digitální podpis k ji
 Nakonec budete chtít uložit upravený sešit do výstupního adresáře a uvolnit všechny používané prostředky.
 
 ```csharp
-// Uložte sešit a zlikvidujte jej.
+//Uložte sešit a zlikvidujte jej.
 workbook.Save(outputDir + "outputDigitallySignedByCells.xlsx");
 workbook.Dispose();
 ```

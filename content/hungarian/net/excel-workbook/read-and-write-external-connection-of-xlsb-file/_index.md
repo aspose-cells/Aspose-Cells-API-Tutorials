@@ -1,6 +1,6 @@
 ---
-title: Az XLSB fájl külső kapcsolatának olvasása és írása
-linktitle: Az XLSB fájl külső kapcsolatának olvasása és írása
+title: XLSB-fájl külső kapcsolatának olvasása és írása
+linktitle: XLSB-fájl külső kapcsolatának olvasása és írása
 second_title: Aspose.Cells for .NET API Reference
 description: Ebből az átfogó oktatóanyagból megtudhatja, hogyan kezelheti a külső kapcsolatokat XLSB-fájlokban az Aspose.Cells for .NET használatával.
 type: docs
@@ -9,7 +9,7 @@ url: /hu/net/excel-workbook/read-and-write-external-connection-of-xlsb-file/
 ---
 ## Bevezetés
 
-Sziasztok, Excel-rajongók! Készen állsz, hogy belemerülj az XLSB fájlok és külső kapcsolatok lenyűgöző világába? Ha valaha is dolgozott Excellel, tudja, milyen hatékony és sokoldalú lehet, de néha megvannak a maga furcsaságai – különösen, ha külső adatbázisokhoz való kapcsolódásról van szó. Itt jön a segítség az Aspose.Cells for .NET! Ez a remek könyvtár lehetővé teszi az Excel-fájlok egyszerű kezelését. Ebben a cikkben lépésről lépésre végigvezetjük Önt egy XLSB-fájlban lévő külső kapcsolatok olvasásához és írásához.
+Sziasztok, Excel rajongók! Készen állsz, hogy belemerülj az XLSB fájlok és külső kapcsolatok lenyűgöző világába? Ha valaha is dolgozott Excellel, tudja, milyen hatékony és sokoldalú lehet, de néha megvannak a maga furcsaságai – különösen, ha külső adatbázisokhoz való kapcsolódásról van szó. Itt jön a segítség az Aspose.Cells for .NET! Ez a remek könyvtár lehetővé teszi az Excel-fájlok egyszerű kezelését. Ebben a cikkben lépésről lépésre végigvezetjük Önt egy XLSB-fájlban lévő külső kapcsolatok olvasásához és írásához.
 
 ## Előfeltételek
 
@@ -24,7 +24,7 @@ Ha mindezen előfeltételek adottak, készen állunk, hogy belevágjunk a kódba
 
 ## Csomagok importálása
 
-Kezdésként importáljuk a szükséges csomagokat a projektünkbe. Győződjön meg arról, hogy hozzáadott egy hivatkozást az Aspose.Cells-re a projektben. Ezt a következőképpen teheti meg C#-ban:
+Először is importáljuk a szükséges csomagokat a projektünkbe. Győződjön meg arról, hogy hozzáadott egy hivatkozást az Aspose.Cells-re a projektben. Ezt a következőképpen teheti meg C#-ban:
 
 ```csharp
 using System;
@@ -68,7 +68,7 @@ A munkafüzet betöltése után hozzáférhet a külső kapcsolataihoz. Esetünk
 Aspose.Cells.ExternalConnections.DBConnection dbCon = wb.DataConnections[0] as Aspose.Cells.ExternalConnections.DBConnection;
 ```
 
- Itt,`DataConnections[0]` munkafüzet első kapcsolatára utal. Úgy öntjük, mint a`DBConnection` írja be a további manipulációhoz.
+ Itt,`DataConnections[0]` a munkafüzet első kapcsolatára utal. Úgy öntjük, mint a`DBConnection` írja be a további manipulációhoz.
 
 ## 4. lépés: A csatlakozási információk kibontása
 
@@ -96,7 +96,7 @@ Ez a kódsor gyakorlatilag átnevezi a kapcsolatot az eredeti nevéről "NewCust
 
 ## 6. lépés: Mentse el a változtatásokat
 
-módosítások elvégzése után a módosításokat vissza kell mentenie az XLSB fájlba. Íme, hogyan kell csinálni:
+A módosítások elvégzése után a módosításokat vissza kell mentenie az XLSB fájlba. Íme, hogyan kell csinálni:
 
 ```csharp
 // Mentse el az Excel Xlsb fájlt

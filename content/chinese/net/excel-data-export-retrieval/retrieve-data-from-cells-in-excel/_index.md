@@ -18,7 +18,7 @@ url: /zh/net/excel-data-export-retrieval/retrieve-data-from-cells-in-excel/
 1. Visual Studio：确保您的机器上安装了 Visual Studio。这是我们用来编写和执行代码的 IDE。
 2.  Aspose.Cells for .NET：您需要有 Aspose.Cells 库。您可以从[Aspose 网站](https://releases.aspose.com/cells/net/).
 3. C# 基础知识：熟悉 C# 编程将帮助您更好地理解示例。
-4.  Excel 文件：准备好 Excel 文件（例如，`book1.xls`) 您将在本教程中使用它。
+4. Excel 文件：准备好 Excel 文件（例如，`book1.xls`) 您将在本教程中使用它。
 
 一旦满足了这些先决条件，我们就可以开始探索如何从 Excel 单元格中检索数据。
 

@@ -35,13 +35,13 @@ Laten we beginnen met het definiëren van het pad van uw documenten. U wilt de b
 // Het pad naar de documentenmap.
 string sourceDir = "Your Document Directory"; // Wijzig dit naar het pad van uw Excel-bestand
 // Uitvoermap
-string outputDir = RunExamples.Get_OutputDirectory(); // Zorg ervoor dat deze methode een geldig uitvoerpad biedt
+string outputDir = "Your Document Directory"; // Zorg ervoor dat deze methode een geldig uitvoerpad biedt
 ```
- Vervang in dit fragment`"Your Document Directory"` met het daadwerkelijke pad naar uw directory met het Excel-bestand. Dit is net als het opzetten van het podium voor uw optreden: het is cruciaal om te weten waar uw materialen zijn.
+ Vervang in dit fragment`"Your Document Directory"`met het daadwerkelijke pad naar uw directory met het Excel-bestand. Dit is net als het opzetten van het podium voor uw optreden: het is cruciaal om te weten waar uw materialen zijn.
 ## Stap 2: Instantieer het werkmapobject
  Vervolgens maken we een`Workbook` object om het Excel-bestand te openen waarmee we werken.
 ```csharp
-//Een werkmapobject instantiëren
+// Een werkmapobject instantiëren
 // Open een Excel-bestand
 Workbook workbook = new Workbook(sourceDir + "HyperlinksSample.xlsx");
 ```
@@ -59,14 +59,14 @@ Nu is het tijd om een bereik te definiëren waarin we willen zoeken naar hyperli
 // Maak een bereik A2:B3
 Range range = worksheet.Cells.CreateRange("A2", "B3");
 ```
- Door te bellen`CreateRange`, specificeren we de begin- en eindcellen. Dit is waar de magie gebeurt: we zullen later de hyperlinks controleren die zich in dit opgegeven bereik bevinden.
+ Door te bellen`CreateRange`specificeren we de begin- en eindcellen. Dit is waar de magie gebeurt: we zullen later de hyperlinks controleren die zich in dit opgegeven bereik bevinden.
 ## Stap 5: Hyperlinks ophalen uit het bereik
 In deze stap krijgen we daadwerkelijk toegang tot de hyperlinks in ons gedefinieerde bereik.
 ```csharp
 //Hyperlinks binnen bereik krijgen
 Hyperlink[] hyperlinks = range.Hyperlinks;
 ```
- De`Hyperlinks` eigendom van een`Range`object retourneert een array van`Hyperlink` objecten die in dat bereik zijn gevonden. Het is alsof je alle belangrijke notities van je pagina in één keer pakt!
+ De`Hyperlinks` eigendom van een`Range` object retourneert een array van`Hyperlink` objecten die in dat bereik zijn gevonden. Het is alsof je alle belangrijke notities van je pagina in één keer pakt!
 ## Stap 6: Loop door en geef links weer
 Laten we nu door de opgehaalde hyperlinks itereren. We zullen hun adressen en gebieden voor nu in de console afdrukken.
 ```csharp
@@ -85,7 +85,7 @@ foreach (Hyperlink link in hyperlinks)
     link.Delete();
 }
 ```
- Met behulp van de`Delete()` methode op elke hyperlink kunt u hyperlinks verwijderen die u mogelijk niet meer nodig hebt. Het is alsof u een krabbeltje verwijdert dat u niet meer nodig hebt van uw pagina.
+ Met behulp van de`Delete()`methode op elke hyperlink kunt u hyperlinks verwijderen die u mogelijk niet meer nodig hebt. Het is alsof u een krabbeltje verwijdert dat u niet meer nodig hebt van uw pagina.
 ## Stap 8: Sla uw wijzigingen op
 Tot slot slaan we de werkmap op met alle aanpassingen die we hebben gemaakt.
 ```csharp

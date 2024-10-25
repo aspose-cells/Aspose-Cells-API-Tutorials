@@ -47,7 +47,7 @@ string sourceDir = "Your Document Directory"; // 문서 디렉토리 설정
 //출력 디렉토리
 string outputDir = "Your Document Directory"; // 출력 디렉토리 설정
 ```
- 바꾸다`"Your Document Directory"` 실제 경로와 함께`sampleRotateTextWithShapeInsideWorksheet.xlsx`파일이 위치했습니다.
+ 바꾸다`"Your Document Directory"` 실제 경로와 함께`sampleRotateTextWithShapeInsideWorksheet.xlsx` 파일이 위치했습니다.
 ## 2단계: 샘플 Excel 파일 로드
 이제 샘플 Excel 파일을 로드해 보겠습니다. 기존 데이터를 조작하려고 하기 때문에 이것은 중요합니다.
 ```csharp
@@ -91,7 +91,7 @@ wb.Save(outputDir + "outputRotateTextWithShapeInsideWorksheet.xlsx");
 ```
 그리고 그게 전부입니다! 이제 셀 B4의 텍스트와 도형에 대한 조정을 포함하여 출력 파일이 저장되었습니다.
 ## 8단계: 코드 실행
- 당신의`Main`메서드, 위의 모든 코드 조각을 래핑하고 프로젝트를 실행합니다. 출력 파일에 변경 사항이 반영되는 것을 확인하세요!
+ 당신의`Main` 메서드, 위의 모든 코드 조각을 래핑하고 프로젝트를 실행합니다. 출력 파일에 변경 사항이 반영되는 것을 확인하세요!
 ```csharp
 Console.WriteLine("RotateTextWithShapeInsideWorksheet executed successfully.");
 ```
@@ -105,6 +105,6 @@ Aspose.Cells는 XLS, XLSX, CSV 등 다양한 Excel 형식을 지원합니다.
 ### 이전 버전의 Excel에서 도형이 있는 텍스트를 회전할 수 있나요?
 네, 이 기능은 Aspose.Cells에서 지원하는 이전 포맷에도 적용할 수 있습니다.
 ### Aspose.Cells에 대한 추가 문서는 어디에서 찾을 수 있나요?
- 포괄적인 내용을 탐색할 수 있습니다.[선적 서류 비치](https://reference.aspose.com/cells/net/)더 자세한 정보를 얻으려면.
+ 포괄적인 내용을 탐색할 수 있습니다.[선적 서류 비치](https://reference.aspose.com/cells/net/) 더 자세한 정보를 얻으려면.
 ### Aspose.Cells에 대한 지원은 어떻게 받을 수 있나요?
  지원을 요청하려면 다음을 방문하세요.[Aspose 포럼](https://forum.aspose.com/c/cells/9).

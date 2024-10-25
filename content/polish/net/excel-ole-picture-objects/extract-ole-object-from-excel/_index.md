@@ -8,11 +8,11 @@ weight: 10
 url: /pl/net/excel-ole-picture-objects/extract-ole-object-from-excel/
 ---
 ## Wstęp
-W dzisiejszym świecie technologii, radzenie sobie z plikami Excela jest powszechnym zadaniem, szczególnie dla osób zajmujących się analizą danych, finansami i zarządzaniem projektami. Często pomijanym aspektem jest obsługa obiektów OLE (Object Linking and Embedding) w arkuszach kalkulacyjnych Excela. Mogą to być osadzone dokumenty, obrazy, a nawet złożone typy danych, które odgrywają kluczową rolę w zwiększaniu funkcjonalności i bogactwa plików Excela. Jeśli jesteś użytkownikiem Aspose.Cells i chcesz wyodrębnić te obiekty OLE programowo przy użyciu .NET, jesteś we właściwym miejscu! Ten przewodnik przeprowadzi Cię przez proces krok po kroku, zapewniając, że zrozumiesz nie tylko, jak to zrobić, ale także dlaczego każda część procesu jest znacząca.
+dzisiejszym świecie technologii, radzenie sobie z plikami Excela jest powszechnym zadaniem, szczególnie dla osób zajmujących się analizą danych, finansami i zarządzaniem projektami. Często pomijanym aspektem jest obsługa obiektów OLE (Object Linking and Embedding) w arkuszach kalkulacyjnych Excela. Mogą to być osadzone dokumenty, obrazy, a nawet złożone typy danych, które odgrywają kluczową rolę w zwiększaniu funkcjonalności i bogactwa plików Excela. Jeśli jesteś użytkownikiem Aspose.Cells i chcesz wyodrębnić te obiekty OLE programowo przy użyciu .NET, jesteś we właściwym miejscu! Ten przewodnik przeprowadzi Cię przez proces krok po kroku, zapewniając, że zrozumiesz nie tylko, jak to zrobić, ale także dlaczego każda część procesu jest znacząca.
 ## Wymagania wstępne
 Zanim zagłębimy się w szczegóły wyodrębniania obiektów OLE, musisz zadbać o kilka rzeczy:
 1. Podstawowa wiedza o C#: Jeśli znasz C#, jesteś już na dobrej drodze. Jeśli nie, nie martw się! Będziemy trzymać się prostoty.
-2.  Aspose.Cells Zainstalowane: Będziesz potrzebować biblioteki Aspose.Cells. Możesz ją pobrać ze strony[Tutaj](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells Zainstalowane: Będziesz potrzebować biblioteki Aspose.Cells. Możesz ją pobrać ze strony[Tutaj](https://releases.aspose.com/cells/net/).
 3. Kompatybilne środowisko programistyczne: upewnij się, że masz przygotowane środowisko programistyczne .NET, np. Visual Studio.
 4. Przykładowy plik programu Excel: Do testów potrzebny będzie plik programu Excel z osadzonymi w nim obiektami OLE. 
 Gdy już spełnisz te wymagania wstępne, możemy rozpocząć podróż do świata wyodrębniania obiektów OLE.
@@ -23,7 +23,7 @@ using System.IO;
 using Aspose.Cells;
 ```
 ## Krok 1: Ustaw katalog dokumentów
-tym kroku zdefiniujemy ścieżkę, w której znajduje się nasz plik Excel. Możesz się zastanawiać, dlaczego to takie ważne. To jak przygotowanie sceny do występu — pomaga to skryptowi wiedzieć, gdzie znaleźć aktorów (w naszym przypadku plik Excel).
+W tym kroku zdefiniujemy ścieżkę, w której znajduje się nasz plik Excel. Możesz się zastanawiać, dlaczego to takie ważne. To jak przygotowanie sceny do występu — pomaga to skryptowi wiedzieć, gdzie znaleźć aktorów (w naszym przypadku plik Excel).
 ```csharp
 string dataDir = "Your Document Directory";
 ```
@@ -44,7 +44,7 @@ Teraz nadchodzi zabawna część — pętlenie przez wszystkie obiekty OLE w nas
 for (int i = 0; i < oles.Count; i++)
 {
     Aspose.Cells.Drawing.OleObject ole = oles[i];
-    //Dalsza logika obsługi każdego obiektu
+    // Dalsza logika obsługi każdego obiektu
 }
 ```
 ## Krok 5: Określ nazwę pliku wyjściowego

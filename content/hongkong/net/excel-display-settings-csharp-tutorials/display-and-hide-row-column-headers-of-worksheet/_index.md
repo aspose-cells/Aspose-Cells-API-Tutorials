@@ -118,7 +118,7 @@ Aspose.Cells 是一個功能強大的 .NET 程式庫，用於管理 Excel 電子
 是的，您可以循環遍歷工作簿中的每個工作表並設置`IsRowColumnHeadersVisible`到`false`對於每個。
 
 ### 我需要購買 Aspose.Cells 許可證嗎？  
-雖然您可以使用免費試用版，但持續的商業用途需要許可證。您可以找到購買選項[這裡](https://purchase.aspose.com/buy).
+雖然您可以使用免費試用版，但持續的商業用途需要授權。您可以找到購買選項[這裡](https://purchase.aspose.com/buy).
 
 ### 是否支援 Aspose.Cells？  
 是的，Aspose 透過他們的論壇提供支持，您可以訪問該論壇[這裡](https://forum.aspose.com/c/cells/9).

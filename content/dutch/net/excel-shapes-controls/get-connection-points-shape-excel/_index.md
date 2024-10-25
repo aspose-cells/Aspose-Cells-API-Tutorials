@@ -91,9 +91,9 @@ Een verbindingspunt is een specifiek punt op een vorm waar u connectoren aan kun
 ### Kan ik verbindingspunten voor alle vormen in een werkblad ophalen?
 Ja, Aspose.Cells stelt u in staat om verbindingspunten op te halen voor elke vorm die deze ondersteunt. Loop gewoon door de vormenverzameling in het werkblad.
 ### Heb ik een licentie nodig om Aspose.Cells te gebruiken?
-Ja, hoewel je het gratis kunt proberen, is er een licentie vereist voor volledige functies. Je kunt[Koop hier een licentie](https://purchase.aspose.com/buy) of krijg een[tijdelijke licentie](https://purchase.aspose.com/temporary-license/).
+Ja, hoewel je het gratis kunt proberen, is er een licentie vereist voor volledige functies. Je kunt[Koop hier een licentie](https://purchase.aspose.com/buy)of krijg een[tijdelijke licentie](https://purchase.aspose.com/temporary-license/).
 ### Hoe kan ik verschillende soorten vormen toevoegen in Aspose.Cells?
- U kunt de`Add` methode voor vormen zoals rechthoeken, ellipsen en meer. Elke vorm heeft specifieke parameters die u kunt aanpassen.
+ kunt de`Add` methode voor vormen zoals rechthoeken, ellipsen en meer. Elke vorm heeft specifieke parameters die u kunt aanpassen.
 ### Hoe laad ik een bestaand Excel-bestand in plaats van een nieuw bestand te maken?
  Om een bestaand bestand te laden, geeft u het bestandspad door aan de`Workbook` constructor, zoals dit:  
 ```csharp

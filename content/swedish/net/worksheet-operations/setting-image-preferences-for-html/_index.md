@@ -15,7 +15,7 @@ Att skapa visuellt tilltalande webbsidor från Excel-kalkylblad kan förbättra 
 Innan vi hoppar in i koden, se till att du har följande:
 
 1. Visual Studio installerad: Du behöver en utvecklingsmiljö som Visual Studio för att köra och testa dina .NET-applikationer.
-2. Aspose.Cells för .NET: Ladda ner och installera Aspose.Cells. Du kan hämta den senaste versionen från[Aspose hemsida](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells för .NET: Ladda ner och installera Aspose.Cells. Du kan hämta den senaste versionen från[Aspose hemsida](https://releases.aspose.com/cells/net/).
 3. Grundläggande kunskaper i C#: Kännedom om C#-programmering hjälper dig att förstå exemplen bättre.
 4. Ett exempel på Excel-fil: Förbered en Excel-fil med namnet "Book1.xlsx" att arbeta med. Placera den i en avsedd mapp som du kommer att referera till i din kod.
 

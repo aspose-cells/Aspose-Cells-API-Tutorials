@@ -16,7 +16,7 @@ Quando si tratta di manipolazione di fogli di calcolo, importare dati in Excel e
 Prima di entrare nel vivo dell'argomento, assicuriamoci di avere tutto ciò di cui hai bisogno. Ecco una rapida lista di controllo dei prerequisiti per prepararti al successo:
 
 1. .NET Framework: assicurati di avere .NET Framework installato sul tuo computer. Aspose.Cells funziona perfettamente con varie versioni di .NET.
-2. Aspose.Cells per .NET: dovrai scaricare e installare la libreria Aspose.Cells. Puoi prenderla da[collegamento per il download](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells per .NET: dovrai scaricare e installare la libreria Aspose.Cells. Puoi prenderla da[collegamento per il download](https://releases.aspose.com/cells/net/).
 3. Ambiente di sviluppo integrato (IDE): utilizza un IDE come Visual Studio in cui puoi scrivere ed eseguire il tuo codice C#.
 4. Conoscenza di base di C#: avere una conoscenza di base di C# ti aiuterà a seguire le pratiche di codifica che utilizzeremo in questa guida.
 
@@ -108,7 +108,7 @@ Ecco dove avviene la magia. Puoi specificare un modello di formato personalizzat
 st.Custom = "[DBNum2][$-804]General";
 ```
 
- Questa riga indica a Excel di formattare il numero`123` secondo il modello DBNum corrispondente alla lingua cinese. Abbastanza carino, vero?
+ Questa riga indica a Excel di formattare il numero`123`secondo il modello DBNum corrispondente alla lingua cinese. Abbastanza carino, vero?
 
 ## Passaggio 7: imposta lo stile della cella aggiornato
 

@@ -63,7 +63,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## 2단계: 통합 문서 개체 인스턴스화
 
- 다음으로, 우리는 인스턴스를 생성합니다.`Workbook`Excel 파일을 나타내는 클래스입니다.
+ 다음으로, 우리는 인스턴스를 생성합니다.`Workbook` Excel 파일을 나타내는 클래스입니다.
 
 ```csharp
 Workbook workbook = new Workbook();

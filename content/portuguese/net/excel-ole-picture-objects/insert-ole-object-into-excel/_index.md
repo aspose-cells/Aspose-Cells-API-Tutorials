@@ -35,7 +35,7 @@ string dataDir = "Your Document Directory";
 ## Etapa 2: Crie o diretório se ele não existir
 Em seguida, queremos garantir que esse diretório exista. Se não existir, precisamos criá-lo.
 ```csharp
-//Crie um diretório se ele ainda não estiver presente.
+// Crie um diretório se ele ainda não estiver presente.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -58,7 +58,7 @@ Legal e simples! Estamos prontos para começar a adicionar conteúdo a esta plan
 ## Etapa 5: Defina o caminho para a imagem
 Agora, vamos definir um caminho para a imagem que você deseja incorporar ao seu arquivo Excel.
 ```csharp
-// Defina uma variável de string para armazenar o caminho da imagem.
+//Defina uma variável de string para armazenar o caminho da imagem.
 string ImageUrl = dataDir + "logo.jpg";
 ```
  Certifique-se de que este caminho reflita corretamente onde seu`logo.jpg` o arquivo é armazenado.
@@ -87,7 +87,7 @@ Assim como fizemos com a imagem, precisamos carregar o arquivo Excel em uma matr
 ```csharp
 // Coloque o arquivo nos fluxos.
 fs = File.OpenRead(path);
-// Defina uma matriz de bytes.
+//Defina uma matriz de bytes.
 byte[] objectData = new Byte[fs.Length];
 // Armazene o arquivo de fluxos.
 fs.Read(objectData, 0, objectData.Length);

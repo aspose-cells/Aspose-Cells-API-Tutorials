@@ -49,7 +49,7 @@ using Aspose.Cells;
 // 문서 디렉토리의 경로입니다.
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // 원하는 경로로 변경하세요.
 
-//디렉토리가 없으면 디렉토리를 생성합니다.
+// 디렉토리가 없으면 디렉토리를 생성합니다.
 bool isExists = System.IO.Directory.Exists(dataDir);
 if (!isExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -88,7 +88,7 @@ StyleFlag flag;
 for (int i = 0; i <= 255; i++)
 {
     style = sheet.Cells.Columns[(byte)i].Style;
-    style.IsLocked = false; // 열 잠금 해제
+    style.IsLocked = false; //열 잠금 해제
     flag = new StyleFlag();
     flag.Locked = true; // 잠금을 위해 플래그를 true로 설정
     sheet.Cells.Columns[(byte)i].ApplyStyle(style, flag); // 스타일을 적용하세요

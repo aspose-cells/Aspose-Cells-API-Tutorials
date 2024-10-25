@@ -15,7 +15,7 @@ url: /zh/net/protect-excel-file/protect-row-in-excel-worksheet/
 
 在开始实际操作之前，请确保您已完成所有设置。以下是一些先决条件：
 
-1.  Aspose.Cells for .NET：从以下网址下载该库[Aspose 网站](https://releases.aspose.com/cells/net/)确保您拥有最新版本以获取所有新功能和错误修复。
+1.  Aspose.Cells for .NET：从以下网址下载该库[Aspose 网站](https://releases.aspose.com/cells/net/). 确保您拥有最新版本以获取所有新功能和错误修复。
 2. Visual Studio：像 Visual Studio（社区版、专业版或企业版）这样的集成开发环境 (IDE) 将帮助您有效地编译和运行 C# 代码。
 3. .NET Framework：您需要兼容的 .NET Framework 版本。Aspose.Cells 支持多个版本，因此请确保您的版本是最新的。 
 4. C# 基础知识：在我们在本指南中编写代码时，对 C# 的基础了解将会很有帮助。

@@ -2,14 +2,14 @@
 title: Seřadit data ve sloupci pomocí vlastního seznamu řazení v Excelu
 linktitle: Seřadit data ve sloupci pomocí vlastního seznamu řazení v Excelu
 second_title: Aspose.Cells .NET Excel Processing API
-description: V tomto komplexním kurzu se dozvíte, jak třídit data v Excelu pomocí vlastního seznamu řazení pomocí Aspose.Cells for .NET.
+description: tomto komplexním kurzu se dozvíte, jak třídit data v Excelu pomocí vlastního seznamu řazení pomocí Aspose.Cells for .NET.
 type: docs
 weight: 10
 url: /cs/net/excel-data-sorting-exporting/sort-data-in-a-column-with-custom-sort-list-in-excel/
 ---
 ## Zavedení
 
-Tento výukový program vás provede procesem nastavení projektu, načtení souboru aplikace Excel a řazení dat v určeném rozsahu pomocí vlastního pořadí řazení. Dodržováním tohoto průvodce získáte praktické zkušenosti, které mohou zlepšit vaše dovednosti v oblasti správy dat a použitelnost knihovny Aspose.Cells.
+Tento výukový program vás provede procesem nastavení projektu, načtení souboru aplikace Excel a třídění dat v určeném rozsahu pomocí vlastního pořadí řazení. Dodržováním tohoto průvodce získáte praktické zkušenosti, které mohou zlepšit vaše dovednosti v oblasti správy dat a použitelnost knihovny Aspose.Cells.
 
 ## Předpoklady
 

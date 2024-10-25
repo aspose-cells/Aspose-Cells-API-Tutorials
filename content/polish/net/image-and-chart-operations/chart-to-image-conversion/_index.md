@@ -36,7 +36,7 @@ Zaczynamy od zdefiniowania ścieżki do naszego katalogu dokumentów i upewnieni
 ```csharp
 // Zdefiniuj katalog, w którym będą zapisywane obrazy
 string dataDir = "Your Document Directory";
-// Sprawdź czy katalog istnieje
+//Sprawdź czy katalog istnieje
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -93,7 +93,7 @@ chart.NSeries.Add("A1:B3", true);
 ## Krok 7: Konwersja wykresu na obraz
 Chwila prawdy: zamierzamy przekonwertować ten wykres na plik graficzny!
 
- Tutaj używamy`ToImage`metoda konwersji wykresu do wybranego formatu obrazu. W tym przypadku konwertujemy go do formatu EMF (Enhanced Metafile).
+ Tutaj używamy`ToImage` metoda konwersji wykresu do wybranego formatu obrazu. W tym przypadku konwertujemy go do formatu EMF (Enhanced Metafile).
 ```csharp
 // Przekonwertuj wykres na obraz i zapisz go w katalogu
 chart.ToImage(dataDir + "Chart.emf", ImageFormat.Emf);

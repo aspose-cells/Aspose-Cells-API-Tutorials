@@ -26,7 +26,7 @@ Agora, vamos dividir o processo de adicionar uma imagem a uma planilha do Excel 
 Criar diretório para armazenamento de documentos
 Antes de fazermos qualquer coisa com a pasta de trabalho, precisamos de um lugar para armazená-la. Especificaremos este diretório de documentos:
 ```csharp
-string dataDir = "Your Document Directory"; // Defina o caminho desejado.
+string dataDir = "Your Document Directory"; //Defina o caminho desejado.
 ```
  Neste trecho de código, substitua`"Your Document Directory"` com o caminho real onde você quer armazenar seus arquivos Excel. Este diretório manterá o arquivo de saída após adicionar a imagem.
 ## Etapa 2: Crie um diretório se ele não existir
@@ -81,7 +81,7 @@ Sim, você pode adicionar vários formatos de imagem, como PNG, JPEG e BMP, às 
 ### O Aspose.Cells suporta formatos de arquivo do Excel diferentes de .xls?
 Absolutamente! O Aspose.Cells suporta vários formatos do Excel, incluindo .xlsx, .xlsm e .xlsb.
 ### Existe uma versão de teste disponível?
- Sim! Você pode experimentar o Aspose.Cells gratuitamente antes de fazer uma compra. Basta verificar[aqui](https://releases.aspose.com/).
+Sim! Você pode experimentar o Aspose.Cells gratuitamente antes de fazer uma compra. Basta verificar[aqui](https://releases.aspose.com/).
 ### O que devo fazer se minha imagem não aparecer?
 Certifique-se de que o caminho da imagem esteja correto e que o arquivo de imagem esteja localizado no diretório especificado.
 ### Posso colocar imagens em várias células?

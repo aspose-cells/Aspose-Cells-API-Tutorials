@@ -114,7 +114,7 @@ for (int i = 0; i < lstLabels.Count; i++)
     Console.WriteLine(lstLabels[i]);
 }
 ```
-Cet extrait génère d'abord un titre et une ligne de séparation. Ensuite, nous parcourons chaque étiquette dans le`lstLabels` ArrayList et l'imprimer sur la console. S'il y a dix étiquettes, vous les verrez toutes là !
+ Cet extrait génère d'abord un titre et une ligne de séparation. Ensuite, nous parcourons chaque étiquette dans le`lstLabels`ArrayList et l'imprimer sur la console. S'il y a dix étiquettes, vous les verrez toutes là !
 
 ## Étape 8 : Message final
 
@@ -141,7 +141,7 @@ Aspose.Cells est une bibliothèque puissante pour manipuler des fichiers Excel d
  Vous pouvez acheter une licence pour Aspose.Cells via leur[page d'achat](https://purchase.aspose.com/buy).
 
 ### Où puis-je trouver du support pour Aspose.Cells ?
-Vous pouvez visiter le forum Aspose pour obtenir de l'aide[ici](https://forum.aspose.com/c/cells/9).
+ Vous pouvez visiter le forum Aspose pour obtenir de l'aide[ici](https://forum.aspose.com/c/cells/9).
 
 ### Puis-je obtenir un permis temporaire ?
- Oui ! Aspose propose une licence temporaire que vous pouvez demander à[ce lien](https://purchase.aspose.com/temporary-license/).
+Oui ! Aspose propose une licence temporaire que vous pouvez demander à[ce lien](https://purchase.aspose.com/temporary-license/).

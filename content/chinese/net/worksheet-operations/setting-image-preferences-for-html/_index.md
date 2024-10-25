@@ -8,14 +8,14 @@ weight: 11
 url: /zh/net/worksheet-operations/setting-image-preferences-for-html/
 ---
 ## 介绍
-从 Excel 电子表格创建具有视觉吸引力的网页可以增强您在线的数据展示。使用 Aspose.Cells for .NET，您不仅可以将电子表格转换为 HTML，还可以指定各种设置来优化 Web 图像。在本指南中，我们将探讨如何在将 Excel 文件转换为 HTML 时设置图像首选项。准备好了吗？让我们开始吧！
+从 Excel 电子表格创建视觉上吸引人的网页可以增强您在线的数据展示。使用 Aspose.Cells for .NET，您不仅可以将电子表格转换为 HTML，还可以指定各种设置来优化 Web 图像。在本指南中，我们将探讨如何在将 Excel 文件转换为 HTML 时设置图像首选项。准备好了吗？让我们开始吧！
 
 ## 先决条件
 
 在我们进入代码之前，请确保您具有以下内容：
 
 1. 已安装 Visual Studio：您需要一个像 Visual Studio 这样的开发环境来运行和测试您的 .NET 应用程序。
-2. Aspose.Cells for .NET：下载并安装 Aspose.Cells。您可以从[Aspose 网站](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells for .NET：下载并安装 Aspose.Cells。您可以从[Aspose 网站](https://releases.aspose.com/cells/net/).
 3. C# 基础知识：熟悉 C# 编程将帮助您更好地理解示例。
 4. 示例 Excel 文件：准备一个名为“Book1.xlsx”的 Excel 文件以供使用。将其放在您将在代码中引用的指定文件夹中。
 
@@ -25,7 +25,7 @@ url: /zh/net/worksheet-operations/setting-image-preferences-for-html/
 
 ### 打开你的项目
 
-启动 Visual Studio 并打开现有的 C# 项目（或创建一个新的项目）。
+启动 Visual Studio 并打开您现有的 C# 项目（或创建一个新的项目）。
 
 ### 添加 Aspose.Cells 引用
 
@@ -128,7 +128,7 @@ book.Save(dataDir + "output.html", saveOptions);
 
 ## 结论
 
-通过遵循本分步指南，您学会了如何使用 Aspose.Cells for .NET 设置 HTML 导出的图像首选项。这种方法不仅有助于创建具有视觉吸引力的 Excel 数据表示，而且还可针对 Web 使用进行优化。无论您是创建报告、仪表板还是简单地可视化数据，这些实用的配置都可以带来显著的不同！
+通过遵循本分步指南，您学会了如何使用 Aspose.Cells for .NET 设置 HTML 导出的图像首选项。这种方法不仅有助于创建具有视觉吸引力的 Excel 数据表示，还可以优化其 Web 使用。无论您是创建报告、仪表板还是简单地可视化数据，这些实用的配置都可以带来显著的不同！
 
 ## 常见问题解答
 

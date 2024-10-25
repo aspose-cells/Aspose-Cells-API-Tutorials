@@ -101,4 +101,4 @@ Kontingenční tabulky v Excelu se používají k shrnutí a analýze velkých d
 
 ### 3. Mohu automatizovat vytváření kontingenčních tabulek pomocí Aspose.Cells for Java?
 
-Ano, vytváření kontingenčních tabulek v Excelu můžete automatizovat pomocí Aspose.Cells for Java, jak je ukázáno v poskytnutých příkladech zdrojového kódu.
+Ano, můžete automatizovat vytváření kontingenčních tabulek v Excelu pomocí Aspose.Cells for Java, jak je ukázáno v poskytnutých příkladech zdrojového kódu.

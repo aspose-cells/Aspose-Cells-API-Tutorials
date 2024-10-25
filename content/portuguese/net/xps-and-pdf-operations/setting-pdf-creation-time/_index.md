@@ -15,7 +15,7 @@ Antes de entrarmos nos detalhes do código, vamos garantir que você tenha tudo 
 1. Visual Studio: Certifique-se de ter o Visual Studio instalado em sua máquina. Este será seu ambiente de desenvolvimento.
 2.  Aspose.Cells para .NET: Baixe a biblioteca Aspose.Cells do[site](https://releases.aspose.com/cells/net/). Você também pode começar com um teste gratuito para testar suas funcionalidades.
 3. Conhecimento básico de C#: A familiaridade com a programação em C# ajudará você a entender melhor os trechos de código.
-4.  Arquivo Excel: Tenha um arquivo Excel pronto para conversão. Para este exemplo, usaremos um arquivo chamado`Book1.xlsx`.
+4. Arquivo Excel: Tenha um arquivo Excel pronto para conversão. Para este exemplo, usaremos um arquivo chamado`Book1.xlsx`.
 Agora que você tem os pré-requisitos resolvidos, vamos para a parte divertida: importar os pacotes necessários e escrever o código!
 ## Pacotes de importação
 Para começar, você precisa importar os namespaces necessários no seu arquivo C#. Isso é crucial, pois permite que você acesse as classes e métodos fornecidos pela biblioteca Aspose.Cells.
@@ -45,7 +45,7 @@ string dataDir = "Your Document Directory"; // Especifique seu diretório de doc
 string inputPath = dataDir + "Book1.xlsx"; // Caminho para o seu arquivo Excel
 Workbook workbook = new Workbook(inputPath); // Carregue o arquivo Excel
 ```
- O`Workbook`class é usada para carregar e manipular arquivos do Excel. Ao passar o caminho de entrada, você está dizendo ao aplicativo com qual arquivo trabalhar.
+ O`Workbook` class é usada para carregar e manipular arquivos do Excel. Ao passar o caminho de entrada, você está dizendo ao aplicativo com qual arquivo trabalhar.
 ## Etapa 3: Criar PdfSaveOptions
  Agora, é hora de criar uma instância de`PdfSaveOptions`. Esta classe permite que você especifique várias opções para salvar sua pasta de trabalho como PDF, incluindo o horário de criação.
 ```csharp
@@ -56,12 +56,12 @@ options.CreatedTime = DateTime.Now; // Defina a hora de criação para agora
 ## Etapa 4: Salve a pasta de trabalho como PDF
 Por fim, você salvará a pasta de trabalho como um arquivo PDF usando as opções que acabou de definir.
 ```csharp
-workbook.Save(dataDir + "output.pdf", options); // Salvar como PDF
+workbook.Save(dataDir + "output.pdf", options); //Salvar como PDF
 ```
  Esta linha de código pega a pasta de trabalho e a salva em formato PDF no local especificado. O`options` O parâmetro é passado para incluir o horário de criação nos metadados do PDF.
 
 ## Conclusão
-aí está! Você converteu com sucesso um arquivo Excel para um PDF usando o Aspose.Cells para .NET, completo com um carimbo de data/hora de criação. Esse recurso pode ser incrivelmente útil quando você precisa manter o controle das versões do documento ou quando deseja fornecer aos destinatários informações sobre quando o documento foi criado.
+E aí está! Você converteu com sucesso um arquivo Excel para um PDF usando o Aspose.Cells para .NET, completo com um carimbo de data/hora de criação. Esse recurso pode ser incrivelmente útil quando você precisa manter o controle das versões do documento ou quando deseja fornecer aos destinatários informações sobre quando o documento foi criado.
  Se você deseja explorar mais recursos do Aspose.Cells, não hesite em conferir o[documentação](https://reference.aspose.com/cells/net/).
 ## Perguntas frequentes
 ### O que é Aspose.Cells?

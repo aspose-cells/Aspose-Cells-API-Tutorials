@@ -96,11 +96,11 @@ Workbook workbook = new Workbook(sourceDir + "sampleModifyPieChart.xlsx");
 Agora, vamos mergulhar na planilha específica que contém o gráfico de pizza. Vamos assumir que o gráfico de pizza está na segunda planilha (índice 1):
 
 ```csharp
-//Pegue o gráfico do designer na segunda folha.
+// Pegue o gráfico do designer na segunda folha.
 Worksheet sheet = workbook.Worksheets[1];
 ```
 
- Ao acessar o`Worksheets` coleção, podemos chegar à planilha específica que precisamos.
+ Ao acessar o`Worksheets`coleção, podemos chegar à planilha específica que precisamos.
 
 ## Etapa 4: Obtenha o gráfico
 
@@ -132,7 +132,7 @@ Em seguida, é hora de mudar o que esse rótulo diz. Para nosso exemplo, vamos a
 datalabels.Text = "United Kingdom, 400K";
 ```
 
-assim, atualizamos o rótulo! 
+E assim, atualizamos o rótulo! 
 
 ## Etapa 7: Salve a pasta de trabalho
 

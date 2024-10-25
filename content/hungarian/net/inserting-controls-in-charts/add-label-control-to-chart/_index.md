@@ -2,14 +2,14 @@
 title: Címkevezérlő hozzáadása a diagramhoz
 linktitle: Címkevezérlő hozzáadása a diagramhoz
 second_title: Aspose.Cells .NET Excel Processing API
-description: Ebből a lépésről lépésre szóló útmutatóból megtudhatja, hogyan adhat hozzá címkevezérlőt a diagramokhoz az Aspose.Cells for .NET alkalmazásban. Javítsa az adatok megjelenítését.
+description: Ebből a lépésenkénti útmutatóból megtudhatja, hogyan adhat hozzá címkevezérlőt a diagramokhoz az Aspose.Cells for .NET alkalmazásban. Javítsa az adatok megjelenítését.
 type: docs
 weight: 10
 url: /hu/net/inserting-controls-in-charts/add-label-control-to-chart/
 ---
 ## Bevezetés
 
-diagramok hatékony módszert jelentenek az adatok megjelenítésére, és néha egy címke hozzáadásával még jobban áttekinthető. Ha az Aspose.Cells for .NET programmal dolgozik, könnyen hozzáadhat egy címkét a diagramokhoz, hogy további kontextust biztosítson. Ebben az oktatóanyagban lépésről lépésre végigvezetjük, hogyan kell ezt megtenni, így biztosítva, hogy megfelelő felkészültséggel rendelkezzen a saját projektekben való megvalósításához.
+A diagramok hatékony módszert jelentenek az adatok megjelenítésére, és néha egy címke hozzáadásával még jobban áttekinthető. Ha az Aspose.Cells for .NET programmal dolgozik, könnyen hozzáadhat egy címkét a diagramokhoz, hogy további kontextust biztosítson. Ebben az oktatóanyagban lépésről lépésre végigvezetjük, hogyan kell ezt megtenni, így biztosítva, hogy megfelelő felkészültséggel rendelkezzen a saját projektekben való megvalósításához.
 
 ## Előfeltételek
 
@@ -62,7 +62,7 @@ Ezután betöltjük azt az Excel fájlt, amely azt a diagramot tartalmazza, amel
 Workbook workbook = new Workbook(sourceDir + "sampleAddingLabelControlInChart.xls");
 ```
 
- Itt a`Workbook`osztályt az Aspose.Cells-ből az Excel fájl megnyitásához. Olyan ez, mint kinyitni az ajtót, hogy a kreativitás áradjon!
+ Itt a`Workbook` osztályt az Aspose.Cells-ből az Excel fájl megnyitásához. Olyan ez, mint kinyitni az ajtót, hogy a kreativitás áradjon!
 
 ## 3. lépés: Nyissa meg a munkalapot
 
@@ -94,7 +94,7 @@ Most jön az izgalmas rész – a címke hozzáadása a diagramhoz. Meghatározz
 Aspose.Cells.Drawing.Label label = chart.Shapes.AddLabelInChart(600, 600, 350, 900);
 ```
 
- Itt,`AddLabelInChart`gondoskodik a címke létrehozásáról az Ön által megadott koordináták és méretek alapján. Ez olyan, mintha egy gyönyörű keretet rögzítene a műalkotásai köré!
+ Itt,`AddLabelInChart` gondoskodik a címke létrehozásáról az Ön által megadott koordináták és méretek alapján. Ez olyan, mintha egy gyönyörű keretet rögzítene a műalkotásai köré!
 
 ## 6. lépés: Állítsa be a címke szövegét
 

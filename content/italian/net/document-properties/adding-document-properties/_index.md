@@ -68,6 +68,6 @@ Puoi memorizzare stringhe, numeri e persino date nelle tue proprietà personaliz
 ### Aspose.Cells è gratuito?
  Aspose.Cells offre una prova gratuita. Per le funzionalità complete, è richiesto un acquisto. Dai un'occhiata a[opzioni di prezzo qui](https://purchase.aspose.com/buy).
 ### Dove posso trovare la documentazione di Aspose.Cells?
- Puoi trovare una documentazione completa[Qui](https://reference.aspose.com/cells/net/).
+Puoi trovare una documentazione completa[Qui](https://reference.aspose.com/cells/net/).
 ### Cosa succede se ho bisogno di aiuto durante l'utilizzo di Aspose.Cells?
  Puoi visitare il[Forum di supporto Aspose](https://forum.aspose.com/c/cells/9) per ricevere assistenza dalla loro comunità e dal team di supporto.

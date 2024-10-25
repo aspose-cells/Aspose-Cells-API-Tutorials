@@ -53,7 +53,7 @@ Därefter måste du skapa en filström för att öppna din Excel-fil. Detta steg
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
 
-Här anger vi att vi vill öppna`book1.xls` finns i den angivna katalogen. De`FileMode.Open` parameter indikerar att vi öppnar en befintlig fil. Se alltid till att filnamnet stämmer överens med det du har.
+ Här anger vi att vi vill öppna`book1.xls` finns i den angivna katalogen. De`FileMode.Open` parameter indikerar att vi öppnar en befintlig fil. Se alltid till att filnamnet stämmer överens med det du har.
 
 ## Steg 3: Instantiera ett arbetsboksobjekt
 
@@ -73,7 +73,7 @@ Efter att ha laddat arbetsboken är nästa steg att komma åt det specifika kalk
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
-I det här kodavsnittet kommer vi åt det första kalkylbladet från arbetsboken. Om du har flera ark och vill komma åt ett annat, ändra indexet därefter.
+det här kodavsnittet kommer vi åt det första kalkylbladet från arbetsboken. Om du har flera ark och vill komma åt ett annat, ändra indexet därefter.
 
 ## Steg 5: Göm rad- och kolumnrubriker
 
@@ -83,7 +83,7 @@ Nu för stunden vi har väntat på! Det är här vi faktiskt döljer rad- och ko
 worksheet.IsRowColumnHeadersVisible = false;
 ```
 
- Miljö`IsRowColumnHeadersVisible` till`false`kommer effektivt att dölja rubrikerna i både rader och kolumner, vilket skapar ett renare utseende för din datapresentation.
+ Miljö`IsRowColumnHeadersVisible` till`false` kommer effektivt att dölja rubrikerna i både rader och kolumner, vilket skapar ett renare utseende för din datapresentation.
 
 ## Steg 6: Spara den modifierade Excel-filen
 
@@ -118,7 +118,7 @@ Aspose.Cells är ett kraftfullt .NET-bibliotek för att hantera Excel-kalkylblad
  Ja, du kan gå igenom varje kalkylblad i din arbetsbok och ställa`IsRowColumnHeadersVisible` till`false` för varje.
 
 ### Behöver jag köpa en licens för Aspose.Cells?  
- Även om du kan använda en gratis testversion, krävs en licens för pågående kommersiell användning. Du hittar köpalternativen[här](https://purchase.aspose.com/buy).
+ Även om du kan använda en gratis testversion, krävs en licens för pågående kommersiell användning. Du kan hitta köpalternativen[här](https://purchase.aspose.com/buy).
 
 ### Finns det stöd tillgängligt för Aspose.Cells?  
  Ja, Aspose ger support genom deras forum, som du kan komma åt[här](https://forum.aspose.com/c/cells/9).

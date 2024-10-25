@@ -37,12 +37,12 @@ using System.Drawing;
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = "Your Document Directory";
-//إنشاء الدليل إذا لم يكن موجودًا بالفعل.
+// إنشاء الدليل إذا لم يكن موجودًا بالفعل.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
--  dataDir: يحتوي هذا المتغير على المسار إلى دليل المستندات الخاص بك. استبدل`"Your Document Directory"` مع المسار الفعلي الذي تريد حفظ ملف Excel فيه.
+- dataDir: يحتوي هذا المتغير على المسار إلى دليل المستندات الخاص بك. استبدل`"Your Document Directory"` مع المسار الفعلي الذي تريد حفظ ملف Excel فيه.
 - Directory.Exists: يتحقق هذا من وجود الدليل بالفعل.
 - Directory.CreateDirectory: إذا لم يكن الدليل موجودًا، فسيتم إنشاءه.
 ## الخطوة 2: إنشاء مصنف
@@ -89,7 +89,7 @@ bmp.Save(ms, System.Drawing.Imaging.ImageFormat.Png);
 // تعيين بيانات الصورة إلى الشكل المرتبط بالتعليق
 comment.CommentShape.Fill.ImageData = ms.ToArray();
 ```
--  comment.CommentShape.Fill.ImageData: تتيح لك هذه الخاصية تعيين الصورة لشكل التعليق. نقوم بتحويل`MemoryStream` إلى مجموعة بايتات باستخدام`ms.ToArray()`.
+- comment.CommentShape.Fill.ImageData: تتيح لك هذه الخاصية تعيين الصورة لشكل التعليق. نقوم بتحويل`MemoryStream` إلى مجموعة بايتات باستخدام`ms.ToArray()`.
 ## الخطوة 7: احفظ المصنف
 وأخيرًا، دعونا نحفظ مصنفنا مع التعليق والصورة المضمنين.
 ```csharp

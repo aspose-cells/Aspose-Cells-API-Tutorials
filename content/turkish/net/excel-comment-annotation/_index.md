@@ -13,11 +13,11 @@ Excel elektronik tablolarınızı biraz daha etkileyici hale getirmek istediniz 
 
 ## Excel'de Resimli Yorum Ekle
 
-Excel hücrelerinize yalnızca metinle değil aynı zamanda resimlerle de açıklama ekleme yeteneğine sahip olduğunuzu hayal edin. Bu, sayfalarınızdaki bilgileri açıklığa kavuşturabilecek ve geliştirebilecek kişisel bir dokunuş ve görsel bir öğe ekler.[Excel'de Resimli Yorum Ekleme](./add-comment-with-image-excel/) sizi adım adım süreçte yönlendirir. Yorumlara doğrudan resim eklemeyi öğreneceksiniz, böylece elektronik tablolarınız yalnızca daha bilgilendirici değil aynı zamanda görsel olarak da çekici hale gelecek. Çalışmanızı başkalarıyla paylaşırken bir ekran görüntüsünün veya bir logonun ne kadar etkili olabileceğini bir düşünün!
+ Excel hücrelerinize yalnızca metinle değil aynı zamanda resimlerle de açıklama ekleme yeteneğine sahip olduğunuzu hayal edin. Bu, sayfalarınızdaki bilgileri açıklığa kavuşturabilecek ve geliştirebilecek kişisel bir dokunuş ve görsel bir öğe ekler.[Excel'de Resimli Yorum Ekleme](./add-comment-with-image-excel/) sizi adım adım süreçte yönlendirir. Yorumlara doğrudan resim eklemeyi öğreneceksiniz, böylece elektronik tablolarınız yalnızca daha bilgilendirici değil aynı zamanda görsel olarak da çekici hale gelecek. Çalışmanızı başkalarıyla paylaşırken bir ekran görüntüsünün veya bir logonun ne kadar etkili olabileceğini bir düşünün!
 
 ## Excel'de Hücrelere veya Şekillere Yorum Ekleme
 
- Eğer açıklamalara başlamak isteyen bir yeni başlayansanız,[Excel'de Hücrelere veya Şekillere Yorum Ekleme](./add-comments-to-cells-or-shapes-excel/)eğitim sizin için mükemmel. Yorum eklemenin temellerinden elektronik tablolarınızın işlevselliğini artırmaya kadar her şeyi kapsıyor. Çeşitli öğelere (hücreler veya şekiller olabilir) yorum eklemeyi ve hatta süreçte bazı en iyi uygulamaları nasıl uygulayacağınızı göreceksiniz. Bu eğitim, elektronik tablolarınızı etkileşimli ve kullanıcı dostu hale getirmek için bir basamak taşıdır!
+ Eğer açıklamalara başlamak isteyen bir yeni başlayansanız,[Excel'de Hücrelere veya Şekillere Yorum Ekleme](./add-comments-to-cells-or-shapes-excel/) eğitim sizin için mükemmel. Yorum eklemenin temellerinden elektronik tablolarınızın işlevselliğini artırmaya kadar her şeyi kapsıyor. Çeşitli öğelere (hücreler veya şekiller olabilir) yorum eklemeyi ve hatta süreçte bazı en iyi uygulamaları nasıl uygulayacağınızı göreceksiniz. Bu eğitim, elektronik tablolarınızı etkileşimli ve kullanıcı dostu hale getirmek için bir basamak taşıdır!
 
 ## Biçim Yorumları - Yazı Tipi, Renk, Hizalama
 

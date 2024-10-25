@@ -33,12 +33,12 @@ using Aspose.Cells;
 using Aspose.Cells.Drawing;
 using System.Drawing;
 ```
-Voici une description étape par étape du code qui montre comment ajouter des arcs à une feuille de calcul dans Excel.
+Voici une analyse étape par étape du code qui montre comment ajouter des arcs à une feuille de calcul dans Excel.
 ## Étape 1 : Configuration du répertoire
 La première étape consiste à configurer un répertoire dans lequel vous enregistrerez votre fichier Excel. Cela vous aidera à gérer facilement vos fichiers de sortie.
 ```csharp
 string dataDir = "Your Document Directory";
-//Créez un répertoire s'il n'est pas déjà présent.
+// Créez un répertoire s'il n'est pas déjà présent.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);

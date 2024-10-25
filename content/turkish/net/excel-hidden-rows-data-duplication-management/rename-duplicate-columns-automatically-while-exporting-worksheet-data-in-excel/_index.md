@@ -96,4 +96,4 @@ Aspose.Cells, geliştiricilerin Excel dosyalarını program aracılığıyla olu
 ### Sorun yaşarsam nereden yardım alabilirim?
  Aspose topluluk forumu sorun giderme ve tavsiyeler için harika bir kaynaktır:[Aspose Desteği](https://forum.aspose.com/c/cells/9).
 ### Aspose.Cells için geçici bir lisans mevcut mu?
- Evet! Geçici lisans için başvuruda bulunabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/) Tüm özellikleri kısıtlama olmaksızın denemek için.
+Evet! Geçici lisans için başvuruda bulunabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/) Tüm özellikleri kısıtlama olmaksızın denemek için.

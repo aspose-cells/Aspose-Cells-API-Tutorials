@@ -29,7 +29,7 @@ Než začnete kódovat, je dobré si soubory uspořádat. Vytvořme adresář pr
 ```csharp
 // Cesta k adresáři dokumentů.
 string dataDir = "Your Document Directory";
-//Vytvořte adresář, pokud ještě není přítomen.
+// Vytvořte adresář, pokud ještě není přítomen.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -41,7 +41,7 @@ Nyní je čas vytvořit sešit aplikace Excel, kam přidáme ovládací prvek Sp
 // Vytvořte nový sešit.
 Workbook excelbook = new Workbook();
 ```
- The`Workbook`třída představuje soubor Excel. Jeho instancí vytvoříme nový sešit připravený k úpravám.
+ The`Workbook` třída představuje soubor Excel. Jeho instancí vytvoříme nový sešit připravený k úpravám.
 ## Krok 3: Otevřete první pracovní list
 Náš Spinner přidáme do prvního listu v sešitu.
 ```csharp
@@ -108,7 +108,7 @@ excelbook.Save(dataDir + "book1.out.xls");
 ```
 Tento příkaz uloží sešit do zadaného adresáře. Název souboru můžete podle potřeby změnit.
 ## Závěr
-A tady to máte! Úspěšně jste přidali ovládací prvek Spinner do listu aplikace Excel pomocí Aspose.Cells pro .NET. Tento interaktivní prvek zlepšuje uživatelskou zkušenost tím, že umožňuje rychlé úpravy hodnot. Ať už vytváříte nástroj pro dynamické vytváření sestav nebo formulář pro zadávání dat, ovládací prvek Spinner může být cenným doplňkem. 
+tady to máte! Úspěšně jste přidali ovládací prvek Spinner do listu aplikace Excel pomocí Aspose.Cells pro .NET. Tento interaktivní prvek zlepšuje uživatelskou zkušenost tím, že umožňuje rychlé úpravy hodnot. Ať už vytváříte nástroj pro dynamické vytváření sestav nebo formulář pro zadávání dat, ovládací prvek Spinner může být cenným doplňkem. 
 ## FAQ
 ### Co je ovládací prvek Spinner v Excelu?
 Ovládací prvek Spinner umožňuje uživatelům snadno zvyšovat nebo snižovat číselnou hodnotu a poskytuje intuitivní způsob výběru.
@@ -117,6 +117,6 @@ Ano, můžete upravit jeho velikost, polohu a dokonce i jeho 3D stínování pro
 ### Potřebuji licenci k používání Aspose.Cells?
  Aspose.Cells nabízí bezplatnou zkušební verzi, ale pro produkční použití je vyžadována placená licence. Podívejte se na[koupit opce](https://purchase.aspose.com/buy).
 ### Jak mohu získat pomoc s Aspose.Cells?
- Pro podporu navštivte[Aspose fórum](https://forum.aspose.com/c/cells/9)kde můžete klást otázky a hledat odpovědi.
+ Pro podporu navštivte[Aspose fórum](https://forum.aspose.com/c/cells/9) kde můžete klást otázky a hledat odpovědi.
 ### Je možné přidat více spinnerů do stejného listu?
 Absolutně! Pomocí stejných kroků pro každý ovládací prvek můžete přidat tolik Spinnerů, kolik potřebujete.

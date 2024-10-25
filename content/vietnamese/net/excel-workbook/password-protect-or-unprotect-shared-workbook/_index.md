@@ -117,4 +117,4 @@ Thật không may, nếu bạn quên mật khẩu, bạn sẽ không thể bỏ 
 Aspose.Cells chủ yếu hỗ trợ .NET, nhưng họ cũng có thư viện cho Java và các ngôn ngữ khác. Hãy kiểm tra trang web của họ để biết thêm thông tin!
 
 ### Làm thế nào để tôi nhận được hỗ trợ cho Aspose.Cells?
-Bạn có thể liên hệ để được trợ giúp thông qua diễn đàn hỗ trợ của họ:[Hỗ trợ Aspose](https://forum.aspose.com/c/cells/9).
+ Bạn có thể liên hệ để được trợ giúp thông qua diễn đàn hỗ trợ của họ:[Hỗ trợ Aspose](https://forum.aspose.com/c/cells/9).

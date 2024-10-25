@@ -1,6 +1,6 @@
 ---
-title: GEMIDDELDE-functie in Excel
-linktitle: GEMIDDELDE-functie in Excel
+title: GEMIDDELDE functie in Excel
+linktitle: GEMIDDELDE functie in Excel
 second_title: Aspose.Cells Java Excel-verwerkings-API
 description: Leer hoe u de GEMIDDELDE functie in Excel gebruikt met Aspose.Cells voor Java. Stapsgewijze handleiding, codevoorbeelden en tips voor efficiënte Excel-automatisering.
 type: docs
@@ -24,7 +24,7 @@ Nadat u Aspose.Cells voor Java hebt geïnstalleerd, kunt u aan de slag met Excel
 
 ## Een nieuwe Excel-werkmap maken
 
-Om de functie GEMIDDELDE te gebruiken, hebben we eerst een Excel-werkmap nodig. Laten we er een programmatisch maken met behulp van Aspose.Cells:
+Om de functie GEMIDDELDE te gebruiken, hebben we eerst een Excel-werkmap nodig. Laten we er een programmatisch maken met Aspose.Cells:
 
 ```java
 // Java-code om een nieuwe Excel-werkmap te maken

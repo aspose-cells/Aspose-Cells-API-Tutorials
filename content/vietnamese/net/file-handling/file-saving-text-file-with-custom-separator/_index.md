@@ -41,7 +41,7 @@ string filePath = dataDir + "Book1.xlsx";
 ## Bước 2: Tạo một đối tượng Workbook
  Tiếp theo, chúng ta sẽ tạo một`Workbook` đối tượng, đóng vai trò là đại diện cho tệp Excel của chúng ta. 
 ```csharp
-// Tạo một đối tượng Workbook và mở tệp từ đường dẫn của nó
+//Tạo một đối tượng Workbook và mở tệp từ đường dẫn của nó
 Workbook wb = new Workbook(filePath);
 ```
  Ở đây, chúng ta đang tạo ra một cái mới`Workbook` sử dụng đường dẫn tệp mà chúng ta đã thiết lập trước đó. Đối tượng này bây giờ sẽ cho phép chúng ta tương tác với nội dung tệp Excel. Nếu tệp`Book1.xlsx` không tồn tại trong thư mục bạn chỉ định, bạn sẽ gặp lỗi.

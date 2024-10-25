@@ -16,7 +16,7 @@ Excel dosyalarını yönetmek bazen bir labirentte gezinmek gibi hissettirebilir
 Gerçek kodlamaya dalmadan önce, her şeyin doğru şekilde ayarlandığından emin olmak önemlidir. İhtiyacınız olanlar şunlardır:
 
 1. Visual Studio: Bilgisayarınızda Visual Studio'nun (.NET'i destekleyen herhangi bir sürüm) yüklü olduğundan emin olun.
-2.  .NET için Aspose.Cells: Aspose.Cells kitaplığını şu adresten indirin ve yükleyin:[Aspose'un sitesi](https://releases.aspose.com/cells/net/).
+2. .NET için Aspose.Cells: Aspose.Cells kitaplığını şu adresten indirin ve yükleyin:[Aspose'un sitesi](https://releases.aspose.com/cells/net/).
 3. Temel C# Bilgisi: C# bağlamında çalışacağımız için C# programlamaya dair biraz bilgi sahibi olmak işimize yarayacaktır.
 4.  Örnek Excel Dosyası: Gösterim için, örnek bir Excel dosyası hazırlayın (örneğin,`sampleChangeCellsAlignmentAndKeepExistingFormatting.xlsx`) bazı başlangıç hücre biçimlendirmeleri içerir.
 
@@ -89,7 +89,7 @@ Bu örnek ilk çalışma sayfasına erişir. Verileriniz farklı bir sayfadaysa,
 Bir aralık oluşturarak hangi hücreleri değiştirmek istediğinizi belirleyin. Bu seçim, “B2:D7” gibi belirli bir aralığa odaklanacaktır.
 
 ```csharp
-// Hücre aralığı oluştur.
+//Hücre aralığı oluştur.
 Range rng = ws.Cells.CreateRange("B2:D7");
 ```
 
@@ -122,14 +122,14 @@ StyleFlag flag = new StyleFlag();
 flag.Alignments = true;
 ```
 
- Ayarlayarak`Alignments`StyleFlag'ın özelliği`true`, Aspose.Cells'e hizalama stillerini düzgün bir şekilde uygulamasını söylersiniz.
+ Ayarlayarak`Alignments` StyleFlag'ın özelliği`true`, Aspose.Cells'e hizalama stillerini düzgün bir şekilde uygulamasını söylersiniz.
 
 ## Adım 7: Stili Hücre Aralığına Uygula
 
 Stilleriniz ve bayraklarınız hazır olduğuna göre, bu stilleri hücre aralığına uygulamanın zamanı geldi:
 
 ```csharp
-// Hücre aralığına stil uygulayın.
+//Hücre aralığına stil uygulayın.
 rng.ApplyStyle(st, flag);
 ```
 

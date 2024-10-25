@@ -9,14 +9,14 @@ url: /hu/net/excel-worksheet-csharp-tutorials/add-new-sheet-in-excel-csharp-tuto
 ---
 ## Bevezetés
 
-Előfordult már, hogy új lapot kell programozottan hozzáadnia egy Excel-fájlhoz? Ha igen, akkor jó helyen jársz! Ebben az útmutatóban az Aspose.Cells for .NET használatának alapjait mutatjuk be. Ez egy hatékony, az Excel-fájlok kezelésére szabott könyvtár. Felvázoljuk az előfeltételeket, a kódot könnyen követhető lépésekre bontjuk, és rövid időn belül elindítjuk.
+Előfordult már, hogy új lapot kell programozottan hozzáadnia egy Excel-fájlhoz? Ha igen, akkor jó helyen jársz! Ebben az útmutatóban az Aspose.Cells for .NET használatának alapjait mutatjuk be. Ez egy hatékony, az Excel-fájlok kezelésére szolgáló könyvtár. Felvázoljuk az előfeltételeket, a kódot könnyen követhető lépésekre bontjuk, és rövid időn belül elindítjuk.
 
 ## Előfeltételek
 
 Mielőtt bármiféle kódolást végzünk, győződjön meg arról, hogy rendelkezik mindennel, amire a projekthez szüksége van:
 
 1.  Visual Studio: Győződjön meg arról, hogy telepítve van a Visual Studio. Ha még nem rendelkezik vele, letöltheti a webhelyről[Microsoft webhely](https://visualstudio.microsoft.com/).
-2.  Aspose.Cells Library: Szüksége lesz az Aspose.Cells for .NET könyvtárra. Megteheti[töltse le itt](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells Library: Szüksége lesz az Aspose.Cells for .NET könyvtárra. Tudod[töltse le itt](https://releases.aspose.com/cells/net/).
 3. .NET-keretrendszer: Győződjön meg arról, hogy projektje a .NET-keretrendszer kompatibilis verziójához van beállítva (általában a .NET-keretrendszer 4.0 vagy újabb jól működik).
 4. Alapvető C# ismeretek: A C# és az objektumorientált programozás ismerete segít a kód jobb megértésében.
 5. Szövegszerkesztő vagy IDE: erre lesz szüksége a C# kód megírásához – a Visual Studio nagyszerű lehetőség.
@@ -49,7 +49,7 @@ Először is gondoskodnia kell arról, hogy biztonságos helyen tárolja Excel f
 ```csharp
 // A dokumentumok könyvtárának elérési útja.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-//Hozzon létre könyvtárat, ha még nincs jelen.
+// Hozzon létre könyvtárat, ha még nincs jelen.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -106,7 +106,7 @@ Egy sor kóddal elmentjük a munkafüzetünket a megadott könyvtárba "output.o
 
 ## Következtetés
 
-És megvan! Néhány egyszerű lépésben bemutattuk, hogyan adhatunk új lapot egy Excel-fájlhoz C# és Aspose.Cells használatával. Akár csak a kódon trükközik, akár egy kiterjedtebb projekten dolgozik, ez a képesség nagyban javíthatja az adatkezelési munkafolyamatot. 
+És megvan! Néhány egyszerű lépésben bemutattuk, hogyan adhatunk új lapot Excel-fájlhoz C# és Aspose.Cells használatával. Akár csak a kódon trükközik, akár egy kiterjedtebb projekten dolgozik, ez a képesség nagyban javíthatja az adatkezelési munkafolyamatot. 
 
 Az Aspose.Cells segítségével a lehetőségek végtelenek. Az adatokat számtalan módon kezelheti – szerkesztéssel, formázással vagy akár képletkészítéssel! Tehát menjen előre, és fedezze fel tovább; Excel-fájljai hálásak lesznek érte.
 

@@ -72,7 +72,7 @@ workbook.save("sample.xlsx");
 
  I det här exemplet har vi använt`setFormula`metod för att tillämpa SUM-formeln på cell B1, summera värdena i cellerna A1 till A10.
 
-## Tillämpa SUM över olika intervall
+## Tillämpa SUMMA över olika intervall
 
 Du kan också tillämpa SUM-formeln på flera intervall i ditt kalkylblad. Om du till exempel har data i olika kolumner eller rader som du vill lägga till separat, kan du göra det så här:
 

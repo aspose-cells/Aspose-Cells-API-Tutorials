@@ -2,7 +2,7 @@
 title: Umístěte obrázek (absolutně) v aplikaci Excel
 linktitle: Umístěte obrázek (absolutně) v aplikaci Excel
 second_title: Aspose.Cells .NET Excel Processing API
-description: Naučte se, jak absolutně umístit obrázky v Excelu pomocí Aspose.Cells for .NET s tímto komplexním výukovým programem krok za krokem.
+description: Naučte se, jak absolutně umístit obrázky v Excelu pomocí Aspose.Cells for .NET pomocí tohoto komplexního podrobného tutoriálu.
 type: docs
 weight: 13
 url: /cs/net/excel-ole-picture-objects/position-picture-absolute-excel/
@@ -29,7 +29,7 @@ tomto úvodním kroku musíte definovat adresář, kde jsou umístěny vaše dok
 ```csharp
 string dataDir = "Your Document Directory";
 ```
- Jednoduše vyměnit`"Your Document Directory"` se skutečnou cestou, kde se nachází váš soubor obrázku. Může to být něco podobného`"C:\\Users\\YourUsername\\Documents\\"`.
+ Jednoduše vyměnit`"Your Document Directory"` se skutečnou cestou, kde se nachází váš soubor obrázku. Tohle může být něco jako`"C:\\Users\\YourUsername\\Documents\\"`.
 ## Krok 2: Vytvoření instance objektu sešitu
  Dále musíte vytvořit novou instanci souboru`Workbook` třída. Tento objekt představuje váš soubor Excel:
 ```csharp

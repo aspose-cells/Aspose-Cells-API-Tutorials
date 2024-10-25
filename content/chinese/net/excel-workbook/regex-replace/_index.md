@@ -16,7 +16,7 @@ url: /zh/net/excel-workbook/regex-replace/
 在深入了解编码细节之前，让我们确保您已经为接下来的旅程做好充分准备。
 
 1. .NET Framework：确保已设置 .NET 环境。无论是 .NET Core 还是 .NET Framework，您都可以顺利使用。
-2.  Aspose.Cells 库：该库是解锁强大电子表格操作的关键。您可以[点击下载](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells 库：该库是解锁强大电子表格操作的关键。您可以[点击下载](https://releases.aspose.com/cells/net/).
 3. IDE：使用您最喜欢的集成开发环境（IDE），如 Visual Studio，这将使您的编码体验更加顺畅。
 4. 基本编程知识：熟悉 C# 和正则表达式的概念将会有所帮助。
 

@@ -33,7 +33,7 @@ Először is állítsuk be azt a könyvtárat, ahol az összes Excel dokumentumo
 ```csharp
 // A dokumentumok könyvtárának elérési útja.
 string dataDir = "Your Document Directory"; 
-//Hozzon létre könyvtárat, ha még nincs jelen.
+// Hozzon létre könyvtárat, ha még nincs jelen.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists) 
     System.IO.Directory.CreateDirectory(dataDir);
@@ -73,7 +73,7 @@ Ezután adjunk meg szöveget a szövegdobozhoz:
 // Töltse ki a szöveget.
 textbox0.Text = "ASPOSE______The .NET & JAVA Component Publisher!";
 ```
-Szöveg beszúrása a szövegmezőbe ilyen egyszerű! 
+Szöveg beszúrása a szövegdobozba ilyen egyszerű! 
 ## 7. lépés: A szövegdoboz megjelenésének testreszabása
 Mit szólnál, ha feldobnánk egy kicsit? Beállíthatja a betűtípusok színét, stílusát és még sok mást!
 ```csharp
@@ -93,7 +93,7 @@ Szeretnéd a szövegmezőt kattintható hivatkozássá alakítani? Tegyük ezt:
 // Adjon hozzá egy hiperhivatkozást a szövegdobozhoz.
 textbox0.AddHyperlink("http://www.aspose.com/");
 ```
-Mostantól bárki, aki a szövegdobozra kattint, az Aspose webhelyére kerül. Olyan, mint a varázslat!
+Mostantól bárki, aki a szövegdobozra kattint, az Aspose webhelyére kerül. Ez olyan, mint a varázslat!
 ## 9. lépés: Szövegmező elhelyezési típusának beállítása
 Különböző választási lehetőségek közül választhat, hogy a szövegdoboz hogyan viselkedjen a munkalappal kapcsolatban. Íme egy példa arra, hogyan állíthatja be szabadon lebegővé:
 ```csharp
@@ -138,7 +138,7 @@ workbook.Save(dataDir + "book1.out.xls");
 Ezzel az egyetlen kódsorral létrehozott és módosított egy Excel-fájlt testreszabható szövegmezőkkel!
 ## Következtetés
 Gratulálok! Sikeresen navigált az Excel szövegdobozainak világában az Aspose.Cells for .NET használatával. Nem csak azt tanulta meg, hogyan kell szövegdobozt hozzáadni, hanem azt is, hogyan szabhatja személyre, hogy vonzóbbá tegye a táblázatokat. A színek és stílusok megváltoztatásától a hiperhivatkozások hozzáadásáig a lehetőségek gyakorlatilag végtelenek! 
-Készen áll az Excel-dokumentumok átalakítására? Engedje meg kreativitását, és kísérletezzen különböző elrendezésekkel!
+Készen áll az Excel-dokumentumok átalakítására? Engedje ki kreativitását, és kísérletezzen különböző elrendezésekkel!
 ## GYIK
 ### Mi az Aspose.Cells a .NET számára?
 Az Aspose.Cells for .NET egy hatékony könyvtár, amellyel a fejlesztők könnyedén hozhatnak létre, kezelhetnek és konvertálhatnak Excel-fájlokat.

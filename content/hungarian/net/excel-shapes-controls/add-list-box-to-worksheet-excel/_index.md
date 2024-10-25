@@ -42,7 +42,7 @@ Workbook workbook = new Workbook();
 // Szerezd meg az első munkalapot.
 Worksheet sheet = workbook.Worksheets[0];
 ```
-A munkafüzet lényegében az Ön Excel-fájlja. Itt egy új munkafüzetet hozunk létre, és elérjük az első munkalapot, ahol elhelyezzük a listamezőnket. Tekintsd ezt úgy, mint egy üres vászon létrehozását, amelyen a vezérlőket lefested.
+A munkafüzet lényegében az Ön Excel-fájlja. Itt egy új munkafüzetet hozunk létre, és elérjük az első munkalapot, ahol elhelyezzük a listamezőnket. Gondoljon erre úgy, mint egy üres vászon létrehozására, amelyen a vezérlőket festeni fogja.
 ## 3. lépés: Adatok bevitele a listadobozhoz
 Mielőtt hozzáadnánk a listamezőt, fel kell töltenünk néhány adatot, amelyekre a listamező hivatkozni fog.
 ```csharp

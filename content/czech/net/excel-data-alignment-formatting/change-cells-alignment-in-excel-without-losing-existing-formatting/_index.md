@@ -16,7 +16,7 @@ Správa souborů aplikace Excel se někdy může zdát jako navigace v labyrintu
 Než se vrhneme na samotné kódování, je nezbytné se ujistit, že máte vše správně nastaveno. Zde je to, co budete potřebovat:
 
 1. Visual Studio: Ujistěte se, že máte v počítači nainstalované Visual Studio (jakákoli verze, která podporuje .NET).
-2.  Aspose.Cells for .NET: Stáhněte si a nainstalujte knihovnu Aspose.Cells z[Asposeho web](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells for .NET: Stáhněte si a nainstalujte knihovnu Aspose.Cells z[Asposeho web](https://releases.aspose.com/cells/net/).
 3. Základní znalost C#: Trocha znalosti programování v C# se bude hodit, protože budeme pracovat v kontextu C#.
 4.  Vzorový soubor Excel: Pro demonstraci si připravte vzorový soubor Excel (např.`sampleChangeCellsAlignmentAndKeepExistingFormatting.xlsx`), který obsahuje nějaké počáteční formátování buněk.
 
@@ -89,7 +89,7 @@ Tento příklad přistupuje k prvnímu listu. Pokud jsou vaše data na jiném li
 Vytvořením rozsahu určete, které buňky chcete změnit. Tento výběr se zaměří na zadaný rozsah, například „B2:D7“.
 
 ```csharp
-// Vytvořte rozsah buněk.
+//Vytvořte rozsah buněk.
 Range rng = ws.Cells.CreateRange("B2:D7");
 ```
 
@@ -122,14 +122,14 @@ StyleFlag flag = new StyleFlag();
 flag.Alignments = true;
 ```
 
- Nastavením`Alignments`vlastnost StyleFlag to`true`, řeknete Aspose.Cells, aby správně použil styly zarovnání.
+ Nastavením`Alignments` vlastnost StyleFlag to`true`, řeknete Aspose.Cells, aby správně použil styly zarovnání.
 
 ## Krok 7: Použijte styl na rozsah buněk
 
 Když máte styly a příznaky na svém místě, je čas použít tyto styly na rozsah buněk:
 
 ```csharp
-// Použít styl na rozsah buněk.
+//Použít styl na rozsah buněk.
 rng.ApplyStyle(st, flag);
 ```
 

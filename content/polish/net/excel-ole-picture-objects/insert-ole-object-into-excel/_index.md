@@ -35,7 +35,7 @@ string dataDir = "Your Document Directory";
 ## Krok 2: Utwórz katalog, jeśli nie istnieje
 Następnie chcemy się upewnić, że ten katalog istnieje. Jeśli nie istnieje, musimy go utworzyć.
 ```csharp
-//Utwórz katalog, jeśli jeszcze go nie ma.
+// Utwórz katalog, jeśli jeszcze go nie ma.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -58,7 +58,7 @@ Worksheet sheet = workbook.Worksheets[0];
 ## Krok 5: Określ ścieżkę dla obrazu
 Teraz ustalmy ścieżkę do obrazu, który chcesz osadzić w pliku Excel.
 ```csharp
-// Zdefiniuj zmienną ciągu, aby zapisać ścieżkę do obrazu.
+//Zdefiniuj zmienną ciągu, aby zapisać ścieżkę do obrazu.
 string ImageUrl = dataDir + "logo.jpg";
 ```
  Upewnij się, że ta ścieżka prawidłowo odzwierciedla miejsce, w którym się znajdujesz.`logo.jpg` plik jest zapisywany.
@@ -87,7 +87,7 @@ Podobnie jak zrobiliśmy to z obrazem, musimy załadować plik Excela do tablicy
 ```csharp
 // Umieść plik w strumieniach.
 fs = File.OpenRead(path);
-// Zdefiniuj tablicę bajtów.
+//Zdefiniuj tablicę bajtów.
 byte[] objectData = new Byte[fs.Length];
 // Przechowuj plik ze strumieni.
 fs.Read(objectData, 0, objectData.Length);

@@ -13,11 +13,11 @@ Bent u het zat om te worstelen met Excel-bestandsbeheer? Als u ooit de uitdaging
 
 ## Toegang tot webextensie-informatie
 
-Begrijpen hoe u toegang krijgt tot webextensie-informatie kan nieuwe mogelijkheden openen in uw Excel-spreadsheets. Het zorgt voor verbeterde interactiviteit binnen uw bestanden. Onze tutorial over[Toegang tot webextensie-informatie](./access-web-extension-information/) biedt een stapsgewijze uitleg om dit proces eenvoudig te maken, zelfs voor mensen die nieuw zijn met Aspose.Cells.
+ Begrijpen hoe u toegang krijgt tot webextensie-informatie kan nieuwe mogelijkheden openen in uw Excel-spreadsheets. Het zorgt voor verbeterde interactiviteit binnen uw bestanden. Onze tutorial over[Toegang tot webextensie-informatie](./access-web-extension-information/) biedt een stapsgewijze uitleg om dit proces eenvoudig te maken, zelfs voor mensen die nieuw zijn met Aspose.Cells.
 
 ## Digitale handtekeningen toevoegen
 
- Heb je ooit een digitale handtekening moeten toevoegen aan een ondertekend Excel-bestand? Ontdek hoe je dit doet met onze gids over[Digitale handtekening toevoegen aan een reeds ondertekend Excel-bestand](./add-digital-signature-to-an-already-signed-excel-file/)Digitale handtekeningen garanderen authenticiteit en integriteit, waardoor uw Excel-bestanden niet alleen functioneel maar ook veilig zijn.
+Heb je ooit een digitale handtekening moeten toevoegen aan een ondertekend Excel-bestand? Ontdek hoe je dit doet met onze gids over[Digitale handtekening toevoegen aan een reeds ondertekend Excel-bestand](./add-digital-signature-to-an-already-signed-excel-file/)Digitale handtekeningen garanderen authenticiteit en integriteit, waardoor uw Excel-bestanden niet alleen functioneel maar ook veilig zijn.
 
 ## Gedeelde werkmappen maken
 
@@ -25,7 +25,7 @@ Begrijpen hoe u toegang krijgt tot webextensie-informatie kan nieuwe mogelijkhed
 
 ## Ingesloten bestanden extraheren
 
-Wist u dat Excel ingebedde bestanden kan bevatten? Als u ooit dieper in uw spreadsheets moest graven om een ingebed MOL-bestand te extraheren, dan wilt u onze tutorial over[Ingesloten MOL-bestand extraheren](./extract-embedded-mol-file/)Deze handleiding begeleidt u door het eenvoudige proces van het ophalen van deze bestanden, zodat u nooit belangrijke gegevens verliest die verborgen zijn in uw Excel-werkmappen.
+ Wist u dat Excel ingebedde bestanden kan bevatten? Als u ooit dieper in uw spreadsheets moest graven om een ingebed MOL-bestand te extraheren, dan wilt u onze tutorial over[Ingesloten MOL-bestand extraheren](./extract-embedded-mol-file/)Deze handleiding begeleidt u door het eenvoudige proces van het ophalen van deze bestanden, zodat u nooit belangrijke gegevens verliest die verborgen zijn in uw Excel-werkmappen.
 
 ## Externe verbindingen in XLSB-bestanden verwerken
 
@@ -33,23 +33,23 @@ Wist u dat Excel ingebedde bestanden kan bevatten? Als u ooit dieper in uw sprea
 
 ## Verbeter de beveiliging met wachtwoordbeveiliging
 
- Beveiliging is essentieel, met name voor gedeelde werkboeken met gevoelige informatie. Onze tutorial over[Wachtwoordbeveiliging of beveiliging opheffen voor gedeelde werkmap](./password-protect-or-unprotect-shared-workbook/)beschrijft de stappen om uw werkboeken te vergrendelen, zodat alleen de juiste mensen er toegang toe hebben. U zult zich zekerder voelen bij het delen van bestanden als u weet dat ze veilig zijn.
+ Beveiliging is essentieel, met name voor gedeelde werkboeken met gevoelige informatie. Onze tutorial over[Wachtwoordbeveiliging of beveiliging opheffen voor gedeelde werkmap](./password-protect-or-unprotect-shared-workbook/) beschrijft de stappen om uw werkboeken te vergrendelen, zodat alleen de juiste mensen er toegang toe hebben. U zult zich zekerder voelen bij het delen van bestanden als u weet dat ze veilig zijn.
 
 ## Productiviteit verhogen met Regex
 
- Bent u een fan van regex? Zo niet, dan wilt u er misschien een worden! Reguliere expressies kunnen uw taken aanzienlijk stroomlijnen, vooral bij het werken met grote datasets in Excel. Onze tutorial over[Regex vervangen](./regex-replace/) leert u hoe u regex-vervangingsfuncties in uw spreadsheets kunt implementeren, waardoor u zowel uw productiviteit als nauwkeurigheid kunt vergroten.
+Bent u een fan van regex? Zo niet, dan wilt u er misschien een worden! Reguliere expressies kunnen uw taken aanzienlijk stroomlijnen, vooral bij het werken met grote datasets in Excel. Onze tutorial over[Regex vervangen](./regex-replace/) leert u hoe u regex-vervangingsfuncties in uw spreadsheets kunt implementeren, waardoor u zowel uw productiviteit als nauwkeurigheid kunt vergroten.
 
 ## Power Query-items bijwerken
 
- Power Queries kunnen een echte game-changer zijn in datamanipulatie, waarmee u kunt stroomlijnen hoe informatie wordt geïmporteerd in uw Excel-bestanden. Als u zich afvraagt hoe u Power Query-formule-items in Excel kunt updaten met Aspose.Cells voor .NET, onze tutorial over[Power Query-formule-item bijwerken](./update-power-query-formula-item/)is precies wat u zoekt. Het biedt een eenvoudige, stapsgewijze aanpak voor het aanpassen van deze formule-items, zodat u uw gegevens actueel en nauwkeurig weergegeven kunt houden in uw werkmappen.
+ Power Queries kunnen een echte game-changer zijn in datamanipulatie, waarmee u kunt stroomlijnen hoe informatie wordt geïmporteerd in uw Excel-bestanden. Als u zich afvraagt hoe u Power Query-formule-items in Excel kunt updaten met Aspose.Cells voor .NET, onze tutorial over[Power Query-formule-item bijwerken](./update-power-query-formula-item/) is precies wat u zoekt. Het biedt een eenvoudige, stapsgewijze aanpak voor het aanpassen van deze formule-items, zodat u uw gegevens actueel en nauwkeurig weergegeven kunt houden in uw werkmappen.
 
 ## Afdrukvoorbeelden beheren
 
- Af en toe moet u uw gegevens op de meest professionele manier presenteren. Leren hoe u afdrukvoorbeelden maakt, kan een essentiële vaardigheid zijn. In onze tutorial over[Werkboek Afdrukvoorbeeld](./workbook-print-preview/), ontdekt u hoe u uw gegevens correct kunt formatteren voordat u op afdrukken drukt. Dit proces kan u behoeden voor gênante fouten en ervoor zorgen dat uw rapporten er op papier net zo goed uitzien als op het scherm.
+Af en toe moet u uw gegevens op de meest professionele manier presenteren. Leren hoe u afdrukvoorbeelden maakt, kan een essentiële vaardigheid zijn. In onze tutorial over[Werkboek Afdrukvoorbeeld](./workbook-print-preview/), ontdekt u hoe u uw gegevens correct kunt formatteren voordat u op afdrukken drukt. Dit proces kan u behoeden voor gênante fouten en ervoor zorgen dat uw rapporten er op papier net zo goed uitzien als op het scherm.
 
 ## Werken met gedefinieerde namen
 
- Gedefinieerde namen in uw Excel-sheets kunnen een handige manier zijn om uw gegevens te beheren. Ze maken formules korter en begrijpelijker. Als u gedefinieerde namen wilt filteren tijdens het laden van een werkmap, vindt u in onze tutorial over[Gedefinieerde namen filteren tijdens het laden van de werkmap](./filter-defined-names-while-loading-workbook/)biedt alle benodigde stappen om dat te doen. Met deze functie kunt u aanpassen hoe uw werkmap laadt, wat de efficiëntie en organisatie verbetert.
+ Gedefinieerde namen in uw Excel-sheets kunnen een handige manier zijn om uw gegevens te beheren. Ze maken formules korter en begrijpelijker. Als u gedefinieerde namen wilt filteren tijdens het laden van een werkmap, vindt u in onze tutorial over[Gedefinieerde namen filteren tijdens het laden van de werkmap](./filter-defined-names-while-loading-workbook/) biedt alle benodigde stappen om dat te doen. Met deze functie kunt u aanpassen hoe uw werkmap laadt, wat de efficiëntie en organisatie verbetert.
 
 ## Conclusie
 

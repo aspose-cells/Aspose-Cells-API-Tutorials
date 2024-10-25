@@ -37,7 +37,7 @@ using System;
 using System.IO;
 ```
 
-névterek hozzáadásával tudatja a fordítóval, hogy az Aspose.Cells könyvtár osztályait és metódusait kívánja használni. Ez a lépés kulcsfontosságú, mivel megalapozza a következő kódot.
+A névterek hozzáadásával tudatja a fordítóval, hogy az Aspose.Cells könyvtár osztályait és metódusait kívánja használni. Ez a lépés kulcsfontosságú, mivel megalapozza a következő kódot.
 
 Bontsuk fel az Ön által megadott kódrészletet. Ez az oktatóanyag végigvezeti Önt az egyes részeken, és biztosítja, hogy megértse, mi történik.
 
@@ -87,7 +87,7 @@ foreach (PowerQueryFormula formula in mashupData.PowerQueryFormulas)
 ```
 
 -  Mindegyiket átkutatjuk`PowerQueryFormula` be`mashupData`.
--  Ezen a hurkon belül mindegyikbe belemerülünk`PowerQueryFormulaItem`.
+- Ezen a hurkon belül mindegyikbe belemerülünk`PowerQueryFormulaItem`.
 - Ellenőrizzük, hogy az elem neve megegyezik-e a „Forrás”-val. Ha igen, frissítjük az értékét, hogy az új forrásfájlunkra hivatkozzon.
 
 Ez olyan, mintha egy kézikönyvben megtalálná a megfelelő oldalt, majd elvégezné a szükséges frissítéseket – ez egy egyszerű és aprólékos folyamat.
@@ -101,7 +101,7 @@ A frissítések elvégzése után ideje elmenteni a módosításainkat.
 workbook.Save(outputDir + "SamplePowerQueryFormula_out.xlsx");
 Console.WriteLine("UpdatePowerQueryFormulaItem executed successfully.");
 ```
- A`Save`metódus a frissített munkafüzetet a megadott kimeneti könyvtárba írja. Ez olyan, mintha a szerkesztéseidet a kézikönyv új verziójába zárnád, amely készen áll mások használatra!
+ A`Save` metódus a frissített munkafüzetet a megadott kimeneti könyvtárba írja. Ez olyan, mintha a szerkesztéseidet a kézikönyv új verziójába zárnád, amely készen áll mások használatra!
 
 ## Következtetés
 
@@ -122,4 +122,4 @@ Az Aspose.Cells használatával dolgozhat .xlsx, .xls, .xlsm és számos más Ex
  Igen, letölthet egy ingyenes próbaverziót a webhelyről[Az Aspose Cells kiadási oldala](https://releases.aspose.com/).
 
 ### Hogyan kaphatok támogatást az Aspose.Cells-hez?
- A támogatást a következőn keresztül érheti el[Aspose fórum](https://forum.aspose.com/c/cells/9)ahol kérdéseket tehet fel, és választ kaphat a közösségtől és az Aspose csapatától.
+ A támogatást a következőn keresztül érheti el[Aspose fórum](https://forum.aspose.com/c/cells/9), ahol kérdéseket tehet fel, és választ kaphat a közösségtől és az Aspose csapatától.

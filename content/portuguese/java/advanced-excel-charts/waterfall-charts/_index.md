@@ -1,6 +1,6 @@
 ---
-title: Gráficos de cascata
-linktitle: Gráficos de cascata
+title: Gráficos de Cachoeira
+linktitle: Gráficos de Cachoeira
 second_title: API de processamento Java Excel Aspose.Cells
 description: Aprenda a criar Gráficos de Cascata impressionantes com Aspose.Cells para Java. Guia passo a passo com código-fonte para visualização de dados eficaz.
 type: docs

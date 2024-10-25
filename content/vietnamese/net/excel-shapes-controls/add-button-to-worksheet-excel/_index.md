@@ -31,7 +31,7 @@ Bây giờ chúng ta đã nhập các gói cần thiết, hãy chia nhỏ ví d�
 ```csharp
 // Xác định đường dẫn đến thư mục tài liệu của bạn.
 string dataDir = "Your Document Directory";
-//Tạo thư mục nếu thư mục đó chưa có.
+// Tạo thư mục nếu thư mục đó chưa có.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
 	System.IO.Directory.CreateDirectory(dataDir);

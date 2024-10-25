@@ -63,7 +63,7 @@ Workbook wb = new Workbook();
 쓰기 보호는 중요한 측면이며, 특히 데이터의 무결성이 그대로 유지되도록 하려는 경우 더욱 그렇습니다. 비밀번호로 이를 수행할 수 있습니다.
 
 ```csharp
-// 비밀번호로 통합 문서를 쓰기 보호합니다.
+//비밀번호로 통합 문서를 쓰기 보호합니다.
 wb.Settings.WriteProtection.Password = "YOUR_PASSWORD";
 ```
 
@@ -89,7 +89,7 @@ wb.Settings.WriteProtection.Author = "YOUR_AUTHOR";
 wb.Save(outputDir + "outputSpecifyAuthorWhileWriteProtectingWorkbook.xlsx");
 ```
 
- 여기에서 출력 파일은 지정된 출력 디렉토리에 이름으로 저장됩니다.`outputSpecifyAuthorWhileWriteProtectingWorkbook.xlsx`이제 여러분의 노고가 마침내 보상을 받고, 여러분의 통합 문서가 잘 보호된다는 사실을 알면서 다른 사람들과 공유할 수 있습니다!
+ 여기에서 출력 파일은 지정된 출력 디렉토리에 이름으로 저장됩니다.`outputSpecifyAuthorWhileWriteProtectingWorkbook.xlsx`. 이제 여러분의 노고가 마침내 보상을 받고, 여러분의 통합 문서가 잘 보호된다는 사실을 알면서 다른 사람들과 공유할 수 있습니다!
 
 ## 결론
 
@@ -110,4 +110,4 @@ wb.Save(outputDir + "outputSpecifyAuthorWhileWriteProtectingWorkbook.xlsx");
 물론입니다! Aspose.Cells는 .NET을 사용하여 데스크톱과 웹 애플리케이션에서 모두 원활하게 작동합니다.
 
 ### 지원이 필요하면 어떻게 해야 하나요?  
-질문과 문제 해결을 위해 Aspose 커뮤니티가 매우 유용합니다.[지원 포럼](https://forum.aspose.com/c/cells/9) 도움이 필요하면.
+ 질문과 문제 해결을 위해 Aspose 커뮤니티가 매우 유용합니다.[지원 포럼](https://forum.aspose.com/c/cells/9) 도움이 필요하면.

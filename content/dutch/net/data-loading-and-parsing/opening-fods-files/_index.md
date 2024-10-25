@@ -46,7 +46,7 @@ string sourceDir = "Your Document Directory";
 ```
  Zorg ervoor dat u deze vervangt`"YourFilePath\\"` met het pad waarin uw FODS-bestand is opgeslagen.
 ## Stap 2: Een werkmapobject maken
- Nu ga je een`Workbook` object dat ons zal helpen met het FODS-bestand. Voeg de volgende code toe aan uw`Main` methode:
+ Nu ga je een`Workbook`object dat ons zal helpen met het FODS-bestand. Voeg de volgende code toe aan uw`Main` methode:
 ```csharp
 Workbook workbook = new Workbook(sourceDir + "SampleFods.fods");
 ```

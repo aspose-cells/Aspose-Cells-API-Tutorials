@@ -52,7 +52,7 @@ När du har skapat arbetsboken och eventuellt lagt till några data till den, ä
 // Spara i SpreadsheetML-format
 workbook.Save(dataDir + "output.xml", SaveFormat.SpreadsheetML);
 ```
- På den här raden säger du till Aspose.Cells att ta din arbetsbok (ditt konstverk) och spara den som en XML-fil med namnet`output.xml` med SpreadsheetML-formatet. De`SaveFormat.SpreadsheetML` är hur Aspose vet vilket format som ska användas för att spara din fil.
+ På den här raden säger du till Aspose.Cells att ta din arbetsbok (ditt konstverk) och spara den som en XML-fil med namnet`output.xml` använder SpreadsheetML-formatet. De`SaveFormat.SpreadsheetML` är hur Aspose vet vilket format som ska användas för att spara din fil.
 ## Slutsats
 Grattis! Du har precis lärt dig hur du sparar en fil i SpreadsheetML-format med Aspose.Cells för .NET. Det är en kraftfull funktion som låter dig arbeta med kalkylblad effektivt samtidigt som du håller din data strukturerad. Kom ihåg att övning ger färdighet. Ju mer du leker med Aspose.Cells, desto bekvämare blir du.
 Oavsett om du utvecklar affärsapplikationer, rapporterar instrumentpaneler eller något däremellan, kommer att behärska Aspose.Cells utan tvekan lägga till ett värdefullt verktyg till din kodningsverktygssats.

@@ -27,7 +27,7 @@ Per iniziare, dobbiamo importare i pacchetti necessari nel nostro progetto. Ques
 - Selezionare "Gestisci pacchetti NuGet".
 - Cerca "Aspose.Cells" e installa la libreria.
 ### Importazione degli spazi dei nomi
-Nella parte superiore del file di programma (ad esempio,`Program.cs`), è necessario importare gli spazi dei nomi necessari:
+ Nella parte superiore del file di programma (ad esempio,`Program.cs`), è necessario importare gli spazi dei nomi necessari:
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -118,7 +118,7 @@ Gli oggetti OLE sono file incorporati che consentono di integrare documenti prov
 ### Aspose.Cells può funzionare con altri formati di file?  
 Sì! Aspose.Cells supporta una varietà di formati, tra cui XLS, XLSX, CSV e altri.
 ### È disponibile una prova gratuita per Aspose.Cells?  
- Sì! Puoi provarlo[Qui](https://releases.aspose.com/).
+Sì! Puoi provarlo[Qui](https://releases.aspose.com/).
 ### Posso accedere a più oggetti OLE in un foglio di lavoro?  
  Assolutamente! Puoi scorrere`ws.OleObjects` per accedere a tutti gli oggetti OLE incorporati in un foglio di lavoro.
 ### Come posso acquistare una licenza per Aspose.Cells?  

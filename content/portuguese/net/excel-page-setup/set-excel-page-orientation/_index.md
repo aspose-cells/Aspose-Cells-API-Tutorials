@@ -105,5 +105,5 @@ Aspose.Cells para .NET é uma biblioteca poderosa para gerenciar arquivos do Exc
 ### Como obtenho uma licença temporária para o Aspose.Cells?
  Você pode solicitar uma licença temporária em[aqui](https://purchase.aspose.com/temporary-license/)que permite que você experimente recursos sem limitações.
 
-### O Aspose.Cells pode manipular arquivos grandes do Excel?
+### Aspose.Cells pode manipular arquivos grandes do Excel?
 Sim, o Aspose.Cells é otimizado para manipular arquivos grandes e pode executar diversas operações com eficiência.

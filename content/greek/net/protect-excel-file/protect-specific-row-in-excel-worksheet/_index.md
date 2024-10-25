@@ -49,7 +49,7 @@ using Aspose.Cells;
 // Η διαδρομή προς τον κατάλογο εγγράφων.
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // αλλάξτε στην επιθυμητή διαδρομή.
 
-//Δημιουργήστε κατάλογο εάν δεν υπάρχει ήδη.
+// Δημιουργήστε κατάλογο εάν δεν υπάρχει ήδη.
 bool isExists = System.IO.Directory.Exists(dataDir);
 if (!isExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -88,7 +88,7 @@ StyleFlag flag;
 for (int i = 0; i <= 255; i++)
 {
     style = sheet.Cells.Columns[(byte)i].Style;
-    style.IsLocked = false; // Ξεκλείδωμα στήλης
+    style.IsLocked = false; //Ξεκλείδωμα στήλης
     flag = new StyleFlag();
     flag.Locked = true; // Ορίστε τη σημαία σε true για κλείδωμα
     sheet.Cells.Columns[(byte)i].ApplyStyle(style, flag); // Εφαρμόστε το στυλ
@@ -100,7 +100,7 @@ for (int i = 0; i <= 255; i++)
 Τώρα, ήρθε η ώρα να κλειδώσετε τη σειρά που θέλετε να προστατέψετε. Σε αυτή την περίπτωση, κλειδώνουμε την πρώτη σειρά.
 
 ```csharp
-//Αποκτήστε το στυλ της πρώτης σειράς.
+//Αποκτήστε το στυλ πρώτης σειράς.
 style = sheet.Cells.Rows[0].Style;
 // Κλειδώστε το.
 style.IsLocked = true;

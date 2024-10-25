@@ -12,7 +12,7 @@ Quando si tratta di lavorare con file Excel in .NET, c'è molta flessibilità e 
 ## Prerequisiti
 Prima di iniziare, assicuriamoci che tu abbia tutto ciò che ti serve per seguire senza problemi. Ecco cosa dovresti avere:
 1. Visual Studio: assicurati di avere una versione di Visual Studio installata sul tuo computer. È qui che scriverai il tuo codice .NET. 
-2.  Libreria Aspose.Cells: hai bisogno della libreria Aspose.Cells per .NET. Se non l'hai ancora scaricata, vai su[Pagina dei download di Aspose](https://releases.aspose.com/cells/net/) per afferrarlo. 
+2. Libreria Aspose.Cells: hai bisogno della libreria Aspose.Cells per .NET. Se non l'hai ancora scaricata, vai su[Pagina dei download di Aspose](https://releases.aspose.com/cells/net/) per afferrarlo. 
 3. Conoscenza di base di C#: una conoscenza di base di C# e .NET ti aiuterà a navigare più agevolmente tra gli esempi di codice.
 4. .NET Framework: assicurati che il tuo progetto sia configurato con il framework .NET appropriato supportato dalla libreria Aspose.Cells.
 5. Un documento Excel: sebbene sia possibile creare una nuova cartella di lavoro, avere un documento di partenza può essere utile se si desidera modificare un file esistente.
@@ -45,7 +45,7 @@ Successivamente creeremo una nuova cartella di lavoro utilizzando la libreria As
 ```csharp
 Workbook workbook = new Workbook();
 ```
- Qui stiamo creando una nuova istanza di`Workbook`classe. Questa cartella di lavoro appena creata è una cartella di lavoro vuota che puoi iniziare a popolare con i dati se lo desideri.
+ Qui stiamo creando una nuova istanza di`Workbook` classe. Questa cartella di lavoro appena creata è una cartella di lavoro vuota che puoi iniziare a popolare con i dati se lo desideri.
 ## Passaggio 3: salvare la cartella di lavoro
 Adesso arriva la parte divertente: salvare la cartella di lavoro nel formato desiderato!
 ```csharp
@@ -60,7 +60,7 @@ E proprio così, hai imparato con successo come salvare un file Excel nel format
 ### Che cos'è la libreria Aspose.Cells?
 Aspose.Cells è una potente libreria per .NET che consente agli sviluppatori di creare, modificare e manipolare file Excel a livello di programmazione, senza dover installare Microsoft Excel.
 ### Posso provare Aspose.Cells gratuitamente?
- Assolutamente! Puoi usare il[prova gratuita](https://releases.aspose.com/)per esplorare le capacità della biblioteca.
+ Assolutamente! Puoi usare il[prova gratuita](https://releases.aspose.com/) per esplorare le capacità della biblioteca.
 ### Qual è la differenza tra i formati xls e xlsb?
 Il formato xls è più vecchio e si basa sulla struttura dei file binari, mentre xlsb è un formato più recente che utilizza anch'esso l'archiviazione binaria ma consente dimensioni di file maggiori e un'elaborazione più rapida.
 ### Dove posso acquistare una licenza per Aspose.Cells?

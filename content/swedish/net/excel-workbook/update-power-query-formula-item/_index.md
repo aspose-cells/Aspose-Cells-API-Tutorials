@@ -43,7 +43,7 @@ Låt oss dela upp kodavsnittet du angav. Den här handledningen går igenom varj
 
 ## Steg 1: Konfigurera arbetskataloger
 
-I det här steget kommer vi att definiera var våra käll- och utdatafiler finns. Detta säkerställer att Aspose vet var du ska leta efter dina Excel-filer.
+det här steget kommer vi att definiera var våra käll- och utdatafiler finns. Detta säkerställer att Aspose vet var du ska leta efter dina Excel-filer.
 
 ```csharp
 // Arbetskataloger
@@ -87,7 +87,7 @@ foreach (PowerQueryFormula formula in mashupData.PowerQueryFormulas)
 ```
 
 -  Vi går igenom var och en`PowerQueryFormula` i`mashupData`.
--  Inom den slingan dyker vi in i var och en`PowerQueryFormulaItem`.
+- Inom den slingan dyker vi in i var och en`PowerQueryFormulaItem`.
 - Vi kontrollerar om objektets namn matchar "Källa". Om det gör det uppdaterar vi dess värde för att länka till vår nya källfil.
 
 Det här liknar att hitta rätt sida i en manual och sedan göra nödvändiga uppdateringar – det är en enkel och noggrann process.
@@ -101,7 +101,7 @@ Efter att ha gjort uppdateringarna är det dags att spara våra ändringar.
 workbook.Save(outputDir + "SamplePowerQueryFormula_out.xlsx");
 Console.WriteLine("UpdatePowerQueryFormulaItem executed successfully.");
 ```
- De`Save`metod skriver den uppdaterade arbetsboken till den angivna utdatakatalogen. Det är som att försegla dina redigeringar i en ny version av manualen, redo för andra att använda!
+ De`Save` metod skriver den uppdaterade arbetsboken till den angivna utdatakatalogen. Det är som att försegla dina redigeringar i en ny version av manualen, redo för andra att använda!
 
 ## Slutsats
 
@@ -122,4 +122,4 @@ Du kan arbeta med .xlsx, .xls, .xlsm och flera andra Excel-format med Aspose.Cel
  Ja, du kan ladda ner en gratis testversion från[Aspose Cells releasesida](https://releases.aspose.com/).
 
 ### Hur kan jag få support för Aspose.Cells?
- Du får tillgång till support via[Aspose forum](https://forum.aspose.com/c/cells/9)där du kan ställa frågor och hitta svar från communityn och Aspose-teamet.
+ Du får tillgång till support via[Aspose forum](https://forum.aspose.com/c/cells/9), där du kan ställa frågor och hitta svar från communityn och Aspose-teamet.

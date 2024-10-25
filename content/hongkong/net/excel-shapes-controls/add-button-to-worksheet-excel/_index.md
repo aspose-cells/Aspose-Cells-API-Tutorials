@@ -102,7 +102,7 @@ workbook.Save(dataDir + "book1.out.xls");
 恭喜！現在您已向 Excel 工作表新增了完全自訂的按鈕。
 ## 結論
 在 Excel 工作表中新增按鈕可以大幅增強電子表格的功能，使其更具互動性和使用者友善性。使用 Aspose.Cells for .NET，您只需幾行程式碼即可實現此目的，如我們在本教程中所示。
-Aspose.Cells for .NET 是一個功能強大的函式庫，為 Excel 操作提供了無限的可能性。無論您是自動化任務還是為電子表格新增功能，此程式庫都是您的首選解決方案。
+Aspose.Cells for .NET 是一個功能強大的函式庫，為 Excel 操作提供了無限的可能性。無論您是自動化任務還是為電子表格添加新功能，該程式庫都是您的首選解決方案。
 如果你還沒有，[下載 Aspose.Cells for .NET 函式庫](https://releases.aspose.com/cells/net/)並開始增強您的 Excel 文件。
 ## 常見問題解答
 ### 除了 Aspose.Cells for .NET 中的按鈕之外，還可以使用其他形狀嗎？

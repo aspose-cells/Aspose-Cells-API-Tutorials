@@ -72,7 +72,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
  Tip: Ganti`"YOUR DOCUMENT DIRECTORY"`dengan jalur sebenarnya tempat file Excel Anda (sebut saja`book1.xls`) berada. 
 
-## Langkah 2: Membuat Instansi Objek Buku Kerja
+## Langkah 2: Membuat Instansiasi Objek Buku Kerja
 
 Selanjutnya, kita perlu membuat contoh kelas Workbook. Objek ini mewakili berkas Excel dalam kode Anda.
 

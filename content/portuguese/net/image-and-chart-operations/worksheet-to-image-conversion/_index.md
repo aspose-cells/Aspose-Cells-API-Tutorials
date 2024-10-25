@@ -12,7 +12,7 @@ Quando se trata de manipular arquivos do Excel no .NET, o Aspose.Cells se destac
 ## Pré-requisitos
 Antes de começarmos a conversão, é essencial garantir que você tenha tudo configurado corretamente. Aqui estão os pré-requisitos que você precisará:
 1. Visual Studio: Certifique-se de ter o Visual Studio instalado no seu computador. É o IDE que ajudará você a executar seus projetos .NET suavemente.
-2. Biblioteca Aspose.Cells para .NET: Você precisa adquirir esta biblioteca. Você pode[baixe aqui](https://releases.aspose.com/cells/net/) ou comece com um[teste gratuito](https://releases.aspose.com/).
+2.  Biblioteca Aspose.Cells para .NET: Você precisa adquirir esta biblioteca. Você pode[baixe aqui](https://releases.aspose.com/cells/net/) ou comece com um[teste gratuito](https://releases.aspose.com/).
 3. Conhecimento básico de C#: Familiaridade com programação em C# será benéfica, pois nossos exemplos e explicações serão escritos nesta linguagem.
 4.  Um arquivo Excel de exemplo: para demonstração, crie ou baixe um arquivo Excel. Salve-o como`MyTestBook1.xls` no diretório do seu projeto.
 5. Noções básicas de projetos .NET: saber como criar um projeto .NET simples tornará isso mais fácil, mas não se preocupe, nós o guiaremos pelas etapas.
@@ -51,7 +51,7 @@ string dataDir = "Your Document Directory";
 // Abra um arquivo de modelo do Excel.
 Workbook book = new Workbook(dataDir + "MyTestBook1.xls");
 ```
- Nesta etapa, criamos uma instância do`Workbook`class e passar o caminho para nosso arquivo Excel. Isso nos permite interagir com o conteúdo do arquivo programaticamente.
+ Nesta etapa, criamos uma instância do`Workbook` class e passar o caminho para nosso arquivo Excel. Isso nos permite interagir com o conteúdo do arquivo programaticamente.
 ## Etapa 5: Acessando a planilha
 Agora que temos a pasta de trabalho aberta, vamos acessar a primeira planilha:
 ```csharp
@@ -78,7 +78,7 @@ SheetRender sr = new SheetRender(sheet, imgOptions);
 // Renderizar a imagem para a planilha
 Bitmap bitmap = sr.ToImage(0);
 ```
- O`SheetRender`classe ajuda a renderizar a planilha em uma imagem de bitmap. Nós chamamos`ToImage(0)` para renderizar a página zero (nossa primeira planilha) em um bitmap.
+ O`SheetRender` classe ajuda a renderizar a planilha em uma imagem de bitmap. Nós chamamos`ToImage(0)` para renderizar a página zero (nossa primeira planilha) em um bitmap.
 ## Etapa 8: Salvando a imagem
 Após a renderização, precisamos salvar a imagem no diretório especificado:
 ```csharp
@@ -99,7 +99,7 @@ E aí está! Em apenas alguns passos simples, você aprendeu como converter uma 
 ### O que é Aspose.Cells?
 Aspose.Cells é uma biblioteca .NET que permite aos desenvolvedores criar, manipular, converter e processar arquivos do Excel programaticamente.
 ### Posso usar o Aspose.Cells gratuitamente?
- Sim, você pode começar a usar o Aspose.Cells baixando uma versão de avaliação gratuita do site deles[site](https://releases.aspose.com/).
+Sim, você pode começar a usar o Aspose.Cells baixando uma versão de avaliação gratuita do site deles[site](https://releases.aspose.com/).
 ### Quais formatos de imagem o Aspose.Cells suporta para exportação?
 O Aspose.Cells suporta vários formatos de imagem, incluindo JPEG, PNG, BMP e GIF.
 ### Onde posso encontrar suporte adicional para o Aspose.Cells?

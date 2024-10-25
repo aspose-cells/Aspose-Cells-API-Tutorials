@@ -29,7 +29,7 @@ Prima di iniziare a programmare, è una buona norma organizzare i file. Creiamo 
 ```csharp
 // Percorso verso la directory dei documenti.
 string dataDir = "Your Document Directory";
-//Creare la directory se non è già presente.
+// Creare la directory se non è già presente.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -41,7 +41,7 @@ Adesso è il momento di creare una cartella di lavoro Excel in cui aggiungeremo 
 // Crea una nuova cartella di lavoro.
 Workbook excelbook = new Workbook();
 ```
- IL`Workbook`class rappresenta un file Excel. Istanziandolo, creiamo una nuova cartella di lavoro pronta per le modifiche.
+ IL`Workbook` class rappresenta un file Excel. Istanziandolo, creiamo una nuova cartella di lavoro pronta per le modifiche.
 ## Passaggio 3: accedi al primo foglio di lavoro
 Aggiungeremo il nostro Spinner al primo foglio di lavoro della cartella di lavoro.
 ```csharp
@@ -117,6 +117,6 @@ Sì, puoi modificarne le dimensioni, la posizione e persino l'ombreggiatura 3D p
 ### Ho bisogno di una licenza per utilizzare Aspose.Cells?
  Aspose.Cells offre una prova gratuita, ma è richiesta una licenza a pagamento per l'uso in produzione. Dai un'occhiata a[acquistare opzioni](https://purchase.aspose.com/buy).
 ### Come posso ottenere assistenza con Aspose.Cells?
- Per supporto, visita il[Forum di Aspose](https://forum.aspose.com/c/cells/9)dove puoi porre domande e trovare risposte.
+ Per supporto, visita il[Forum di Aspose](https://forum.aspose.com/c/cells/9) dove puoi porre domande e trovare risposte.
 ### È possibile aggiungere più Spinner allo stesso foglio di lavoro?
 Assolutamente! Puoi aggiungere tutti gli Spinner che ti servono seguendo gli stessi passaggi per ogni controllo.

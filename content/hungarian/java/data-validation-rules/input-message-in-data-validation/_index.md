@@ -28,7 +28,7 @@ Kezdje új Java-projekt létrehozásával a kiválasztott IDE-ben. Adjon neki é
 
 Az Aspose.Cells for Java használatához a projektben hozzá kell adni az Aspose.Cells könyvtárat. Letöltheti a könyvtárat a webhelyről, és hozzáadhatja a projekt osztályútjához.
 
-## Adatérvényesítés hozzáadása munkalaphoz
+## Adatellenőrzés hozzáadása egy munkalaphoz
 
 Most, hogy beállította a projektet, kezdjük el az adatok érvényesítésének hozzáadását egy munkalaphoz. Először hozzon létre egy új Excel-munkafüzetet és egy munkalapot.
 
@@ -130,7 +130,7 @@ Ebben a cikkben megvizsgáltuk, hogyan adhatunk bemeneti üzeneteket az adatelle
 
 ### Használhatok egyéni képleteket az adatok ellenőrzéséhez?
 
-Igen, használhat egyéni képleteket az adatok ellenőrzéséhez az Aspose.Cells for Java programban. Ez lehetővé teszi összetett érvényesítési szabályok létrehozását az Ön speciális követelményei alapján.
+Igen, használhat egyéni képleteket az adatok ellenőrzéséhez az Aspose.Cells for Java programban. Ez lehetővé teszi összetett érvényesítési szabályok létrehozását sajátos követelményei alapján.
 
 ### Hogyan távolíthatom el az adatellenőrzést egy cellából?
 

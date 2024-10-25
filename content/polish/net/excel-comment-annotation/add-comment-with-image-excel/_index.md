@@ -37,12 +37,12 @@ Na początek musimy utworzyć katalog, w którym będziemy mogli zapisywać nasz
 ```csharp
 // Ścieżka do katalogu dokumentów.
 string dataDir = "Your Document Directory";
-//Utwórz katalog, jeśli jeszcze go nie ma.
+// Utwórz katalog, jeśli jeszcze go nie ma.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
--  dataDir: Ta zmienna przechowuje ścieżkę do katalogu dokumentów. Zastąp`"Your Document Directory"` z rzeczywistą ścieżką, pod którą chcesz zapisać plik Excela.
+- dataDir: Ta zmienna przechowuje ścieżkę do katalogu dokumentów. Zastąp`"Your Document Directory"` z rzeczywistą ścieżką, pod którą chcesz zapisać plik Excela.
 - Directory.Exists: sprawdza, czy katalog już istnieje.
 - Directory.CreateDirectory: Jeżeli katalog nie istnieje, to polecenie go utworzy.
 ## Krok 2: Utwórz skoroszyt
@@ -89,7 +89,7 @@ Teraz musimy ustawić dane obrazu na kształt skojarzony z komentarzem, który u
 // Ustaw dane obrazu na kształt skojarzony z komentarzem
 comment.CommentShape.Fill.ImageData = ms.ToArray();
 ```
--  comment.CommentShape.Fill.ImageData: Ta właściwość pozwala ustawić obraz dla kształtu komentarza. Konwertujemy`MemoryStream` do tablicy bajtów za pomocą`ms.ToArray()`.
+- comment.CommentShape.Fill.ImageData: Ta właściwość pozwala ustawić obraz dla kształtu komentarza. Konwertujemy`MemoryStream` do tablicy bajtów za pomocą`ms.ToArray()`.
 ## Krok 7: Zapisz skoroszyt
 Na koniec zapiszmy nasz skoroszyt z dołączonym komentarzem i obrazkiem.
 ```csharp

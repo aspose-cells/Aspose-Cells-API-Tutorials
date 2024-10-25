@@ -63,7 +63,7 @@ Giống như một nghệ sĩ bắt đầu với một tờ giấy trắng, bạ
 Bảo vệ ghi là một khía cạnh quan trọng, đặc biệt nếu bạn muốn đảm bảo tính toàn vẹn của dữ liệu vẫn còn nguyên vẹn. Bạn có thể làm điều đó bằng mật khẩu.
 
 ```csharp
-// Viết bảo vệ sổ làm việc bằng mật khẩu.
+//Viết bảo vệ sổ làm việc bằng mật khẩu.
 wb.Settings.WriteProtection.Password = "YOUR_PASSWORD";
 ```
 
@@ -89,7 +89,7 @@ Bước cuối cùng là lưu sổ làm việc theo định dạng mong muốn. 
 wb.Save(outputDir + "outputSpecifyAuthorWhileWriteProtectingWorkbook.xlsx");
 ```
 
- Tại đây, tệp đầu ra sẽ được lưu trong thư mục đầu ra được chỉ định của bạn với tên`outputSpecifyAuthorWhileWriteProtectingWorkbook.xlsx`Đây chính là nơi công sức của bạn cuối cùng được đền đáp và bạn có thể chia sẻ sổ làm việc của mình với người khác vì biết rằng nó được bảo vệ tốt!
+ Tại đây, tệp đầu ra sẽ được lưu trong thư mục đầu ra được chỉ định của bạn với tên`outputSpecifyAuthorWhileWriteProtectingWorkbook.xlsx`. Đây chính là nơi công sức của bạn cuối cùng được đền đáp và bạn có thể chia sẻ sổ làm việc của mình với người khác vì biết rằng nó được bảo vệ tốt!
 
 ## Phần kết luận
 
@@ -110,4 +110,4 @@ Và bạn đã có nó! Bạn đã học cách tạo sổ làm việc Excel, thi
 Hoàn toàn có thể! Aspose.Cells hoạt động trơn tru trên cả ứng dụng máy tính để bàn và web bằng .NET.
 
 ### Tôi phải làm gì nếu cần hỗ trợ?  
-Đối với các câu hỏi và khắc phục sự cố, cộng đồng Aspose rất hữu ích. Bạn có thể truy cập[diễn đàn hỗ trợ](https://forum.aspose.com/c/cells/9) để được hỗ trợ.
+ Đối với các câu hỏi và khắc phục sự cố, cộng đồng Aspose rất hữu ích. Bạn có thể truy cập[diễn đàn hỗ trợ](https://forum.aspose.com/c/cells/9) để được hỗ trợ.

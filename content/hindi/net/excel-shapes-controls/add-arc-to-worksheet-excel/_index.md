@@ -38,7 +38,7 @@ using System.Drawing;
 पहला कदम एक डायरेक्टरी सेट करना है जहाँ आप अपनी एक्सेल फ़ाइल को सेव करेंगे। इससे आपकी आउटपुट फ़ाइलों को आसानी से मैनेज करने में मदद मिलती है।
 ```csharp
 string dataDir = "Your Document Directory";
-//यदि निर्देशिका पहले से मौजूद नहीं है तो उसे बनाएं।
+// यदि निर्देशिका पहले से मौजूद नहीं है तो उसे बनाएं।
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);

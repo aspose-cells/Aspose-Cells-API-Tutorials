@@ -161,7 +161,7 @@ flag.QuotePrefix = true;
 rng.ApplyStyle(st, flag);
 ```
 
- 이번 라운드에서는 우리는 다음을 설정합니다.`flag.QuotePrefix = true`즉, 셀의 인용 접두사를 업데이트하고 싶다는 의미입니다.
+이번 라운드에서는 우리는 다음을 설정합니다.`flag.QuotePrefix = true`즉, 셀의 인용 접두사를 업데이트하고 싶다는 의미입니다.
 
 ## 9단계: 견적 접두사 최종 확인
 

@@ -32,7 +32,7 @@ Tout d’abord, nous devons créer un nouveau projet dans Visual Studio pour not
 2. Choisissez l’application Web ASP.NET Core ou l’application console en fonction de vos préférences.
 3.  Nommez votre projet (quelque chose comme`SXCFileOpener`) et cliquez sur Créer.
 4. Assurez-vous que le framework .NET est sélectionné lors de cette configuration.
-5.  Une fois le projet chargé, vous verrez une valeur par défaut`.cs` fichier où nous pouvons ajouter notre code.
+5. Une fois le projet chargé, vous verrez une valeur par défaut`.cs` fichier où nous pouvons ajouter notre code.
 ## Étape 2 : Ajout de la bibliothèque Aspose.Cells
 Ensuite, nous allons ajouter la bibliothèque Aspose.Cells à notre projet. Voici comment procéder :
 1. Ouvrez le gestionnaire de packages NuGet en cliquant avec le bouton droit sur votre projet dans l’Explorateur de solutions et en sélectionnant Gérer les packages NuGet.
@@ -48,7 +48,7 @@ string sourceDir = "Your Document Directory";
 ```
 2.  Dans ce répertoire, ajoutez votre fichier d'exemple SXC (par exemple,`SampleSXC.sxc`) pour les tests.
 ## Étape 4 : Création d'un objet classeur
- Avec le répertoire source défini, il est temps de créer un`Workbook` objet pour charger notre fichier SXC :
+ Avec le répertoire source défini, il est temps de créer un`Workbook`objet pour charger notre fichier SXC :
 ```csharp
 Workbook workbook = new Workbook(sourceDir + "SampleSXC.sxc");
 ```

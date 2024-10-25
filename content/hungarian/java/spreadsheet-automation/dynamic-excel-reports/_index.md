@@ -29,7 +29,7 @@ Workbook workbook = new Workbook();
 
 ## 3. lépés: Adatok hozzáadása a munkafüzethez
 
-Most, hogy van munkafüzetünk, adatokat adhatunk hozzá. Adatokat lekérhet adatbázisból, API-ból vagy bármely más forrásból, és feltöltheti az Excel-munkalapra. Például:
+Most, hogy van egy munkafüzetünk, adatokat adhatunk hozzá. Adatokat lekérhet adatbázisból, API-ból vagy bármilyen más forrásból, és feltöltheti az Excel-munkalapra. Például:
 
 ```java
 // Nyissa meg az első munkalapot

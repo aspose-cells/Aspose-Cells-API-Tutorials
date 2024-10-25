@@ -29,7 +29,7 @@ using System.Drawing;
 ขั้นแรกเลยคือสร้างไดเร็กทอรีที่คุณจะบันทึกไฟล์ Excel ใหม่ล่าสุด โดยทำดังนี้
 ```csharp
 string dataDir = "Your Document Directory";
-//สร้างไดเร็กทอรีหากยังไม่มีอยู่
+// สร้างไดเร็กทอรีหากยังไม่มีอยู่
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);

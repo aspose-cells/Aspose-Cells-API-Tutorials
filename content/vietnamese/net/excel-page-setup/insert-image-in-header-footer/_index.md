@@ -55,7 +55,7 @@ Workbook workbook = new Workbook();
 
 ## Bước 3: Xác định đường dẫn hình ảnh
 
- Đã đến lúc tạo một biến chuỗi để giữ đường dẫn đến hình ảnh bạn muốn sử dụng. Trong trường hợp của chúng tôi, chúng tôi đang sử dụng`aspose-logo.jpg`.
+Đã đến lúc tạo một biến chuỗi để giữ đường dẫn đến hình ảnh bạn muốn sử dụng. Trong trường hợp của chúng tôi, chúng tôi đang sử dụng`aspose-logo.jpg`.
 
 ```csharp
 string logo_url = dataDir + "aspose-logo.jpg";

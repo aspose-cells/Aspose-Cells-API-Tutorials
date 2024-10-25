@@ -31,7 +31,7 @@ Her iyi proje uygun organizasyonla başlar! Öncelikle Excel belgelerinizin kayd
 ```csharp
 // Belgeler dizinine giden yol.
 string dataDir = "Your Document Directory";
-//Eğer mevcut değilse dizin oluşturun.
+// Eğer mevcut değilse dizin oluşturun.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -132,7 +132,7 @@ Ve işte karşınızda—Aspose.Cells for .NET kullanarak Excel'de bir çalışm
 ### Aspose.Cells Nedir?
 Aspose.Cells, geliştiricilerin Excel dosyalarını program aracılığıyla oluşturmalarına, düzenlemelerine ve dönüştürmelerine olanak tanıyan güçlü bir .NET kütüphanesidir.
 ### Aspose.Cells'i ücretsiz kullanabilir miyim?
-Evet, Aspose.Cells ücretsiz deneme sunuyor, bunu bulabilirsiniz[Burada](https://releases.aspose.com/).
+ Evet, Aspose.Cells ücretsiz deneme sunuyor, bunu bulabilirsiniz[Burada](https://releases.aspose.com/).
 ### Excel çalışma sayfamıza başka denetimler nasıl eklerim?
 Kaydırma çubuğu için gösterilenlere benzer yöntemleri kullanabilirsiniz. Daha fazla kontrol için dokümantasyonu kontrol edin!
 ### Aspose.Cells ile hangi programlama dillerini kullanabilirim?

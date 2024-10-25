@@ -56,7 +56,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
   
- The`FileStream` класс позволяет вам читать и писать в файлы. В этом случае мы открываем наш файл Excel в режиме чтения.
+ The`FileStream`класс позволяет вам читать и писать в файлы. В этом случае мы открываем наш файл Excel в режиме чтения.
 
 ## Шаг 3: Создание экземпляра объекта Workbook
 
@@ -67,7 +67,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 Workbook workbook = new Workbook(fstream);
 ```
   
- Этот`Workbook`объект теперь содержит все данные и настройки вашего файла Excel, что позволяет производить манипуляции в дальнейшем.
+ Этот`Workbook` объект теперь содержит все данные и настройки вашего файла Excel, что позволяет производить манипуляции в дальнейшем.
 
 ## Шаг 4: Скройте вертикальную полосу прокрутки
 
@@ -132,4 +132,4 @@ fstream.Close();
  Проверьте[Документация Aspose.Cells](https://reference.aspose.com/cells/net/) для дополнительных примеров и руководств.
 
 ### Что делать, если у меня возникнут проблемы при использовании Aspose.Cells?  
- Вы можете обратиться за помощью или сообщить о проблемах на форуме поддержки Aspose.[здесь](https://forum.aspose.com/c/cells/9).
+Вы можете обратиться за помощью или сообщить о проблемах на форуме поддержки Aspose.[здесь](https://forum.aspose.com/c/cells/9).

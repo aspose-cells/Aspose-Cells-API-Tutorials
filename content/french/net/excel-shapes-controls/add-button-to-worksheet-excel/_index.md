@@ -31,7 +31,7 @@ Dans cette première étape, nous allons créer un nouveau classeur Excel et obt
 ```csharp
 // Définissez le chemin vers votre répertoire de documents.
 string dataDir = "Your Document Directory";
-//Créez un répertoire s'il n'est pas déjà présent.
+// Créez un répertoire s'il n'est pas déjà présent.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
 	System.IO.Directory.CreateDirectory(dataDir);

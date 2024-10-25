@@ -18,7 +18,7 @@ Sebelum kita masuk ke kode, ada beberapa prasyarat yang perlu Anda penuhi:
 1. Visual Studio: Pastikan Anda telah menginstal Visual Studio di komputer Anda. Ini adalah IDE yang akan kita gunakan untuk menulis dan menjalankan kode.
 2.  Aspose.Cells untuk .NET: Anda perlu memiliki pustaka Aspose.Cells. Anda dapat mengunduhnya dari[Situs web Aspose](https://releases.aspose.com/cells/net/).
 3. Pengetahuan Dasar C#: Keakraban dengan pemrograman C# akan membantu Anda memahami contoh-contohnya dengan lebih baik.
-4.  File Excel: Siapkan file Excel (misalnya,`book1.xls`) yang akan Anda gunakan untuk tutorial ini.
+4. File Excel: Siapkan file Excel (misalnya,`book1.xls`) yang akan Anda gunakan untuk tutorial ini.
 
 Setelah Anda menyelesaikan prasyarat ini, kita dapat mulai menjelajahi cara mengambil data dari sel Excel.
 
@@ -52,7 +52,7 @@ Sekarang setelah Anda menyiapkan direktori dokumen, langkah berikutnya adalah me
 
 
 ```csharp
-// Membuka buku kerja yang sudah ada
+//Membuka buku kerja yang sudah ada
 Workbook workbook = new Workbook(dataDir + "book1.xls");
 ```
 
@@ -68,7 +68,7 @@ Setelah membuka buku kerja, Anda akan ingin mengakses lembar kerja tertentu temp
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
- Itu`Worksheets` koleksi memungkinkan Anda mengakses lembar yang berbeda dalam buku kerja. Indeks`[0]`merujuk ke lembar kerja pertama. Jika Anda ingin mengakses lembar kerja berikutnya, Anda dapat mengubah indeksnya.
+ Itu`Worksheets` koleksi memungkinkan Anda mengakses lembar yang berbeda dalam buku kerja. Indeks`[0]` merujuk ke lembar kerja pertama. Jika Anda ingin mengakses lembar kerja berikutnya, Anda dapat mengubah indeksnya.
 
 ## Langkah 4: Melakukan Looping Melalui Sel
 
@@ -99,7 +99,7 @@ foreach (Cell cell1 in worksheet.Cells)
             Console.WriteLine("Double Value: " + doubleValue);
             break;
 
-        // Mengevaluasi tipe data sel data untuk nilai boolean
+        //Mengevaluasi tipe data sel data untuk nilai boolean
         case CellValueType.IsBool:
             boolValue = cell1.BoolValue;
             Console.WriteLine("Bool Value: " + boolValue);
@@ -124,7 +124,7 @@ foreach (Cell cell1 in worksheet.Cells)
 }
 ```
 
- Pada langkah ini, kita melakukan pengulangan pada setiap sel di lembar kerja. Untuk setiap sel, kita memeriksa tipe datanya menggunakan`switch`pernyataan. Bergantung pada jenisnya, kami mengambil nilai dan mencetaknya ke konsol. Berikut ini rincian kasusnya:
+ Pada langkah ini, kita melakukan pengulangan pada setiap sel di lembar kerja. Untuk setiap sel, kita memeriksa tipe datanya menggunakan`switch` pernyataan. Bergantung pada jenisnya, kami mengambil nilai dan mencetaknya ke konsol. Berikut ini rincian kasusnya:
 
 -  IsString: Jika sel berisi string, kami mengambilnya menggunakan`StringValue`.
 -  IsNumeric: Untuk nilai numerik, kami menggunakan`DoubleValue`.
@@ -143,7 +143,7 @@ Mengambil data dari sel Excel menggunakan Aspose.Cells untuk .NET merupakan pros
 Aspose.Cells adalah pustaka .NET yang memungkinkan pengembang untuk membuat, memanipulasi, dan mengonversi file Excel tanpa perlu menginstal Microsoft Excel.
 
 ### Bisakah saya menggunakan Aspose.Cells secara gratis?  
-Ya, Aspose.Cells menawarkan uji coba gratis yang dapat Anda gunakan untuk menguji fitur-fiturnya. Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/).
+ Ya, Aspose.Cells menawarkan uji coba gratis yang dapat Anda gunakan untuk menguji fitur-fiturnya. Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/).
 
 ### Jenis data apa yang dapat saya ambil dari sel Excel?  
 Anda dapat mengambil berbagai tipe data, termasuk string, angka, boolean, dan nilai tanggal/waktu.

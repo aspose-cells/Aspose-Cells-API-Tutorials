@@ -84,4 +84,4 @@ Aspose.Cells for .NET là một thư viện mạnh mẽ cho phép các nhà phá
 ### Tôi có thể yêu cầu hỗ trợ về Aspose.Cells ở đâu?
  Bạn có thể tìm kiếm sự giúp đỡ từ[Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/cells/9).
 ### Làm thế nào tôi có thể xin được giấy phép tạm thời cho Aspose.Cells?
- Bạn có thể nộp đơn xin một[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/)nếu bạn cần nó cho mục đích đánh giá.
+ Bạn có thể nộp đơn xin một[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) nếu bạn cần nó cho mục đích đánh giá.

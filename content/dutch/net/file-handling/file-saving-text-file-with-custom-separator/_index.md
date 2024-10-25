@@ -41,7 +41,7 @@ string filePath = dataDir + "Book1.xlsx";
 ## Stap 2: Een werkmapobject maken
  Vervolgens maken we een`Workbook` object, dat fungeert als representant van ons Excel-bestand. 
 ```csharp
-// Een werkmapobject maken en het bestand openen via het pad
+//Een werkmapobject maken en het bestand openen via het pad
 Workbook wb = new Workbook(filePath);
 ```
  Hier instantiëren we een nieuwe`Workbook` met behulp van het bestandspad dat we eerder hebben ingesteld. Dit object stelt ons nu in staat om te communiceren met de inhoud van het Excel-bestand. Als het bestand`Book1.xlsx` niet in de door u opgegeven directory voorkomt, treedt er een foutmelding op.

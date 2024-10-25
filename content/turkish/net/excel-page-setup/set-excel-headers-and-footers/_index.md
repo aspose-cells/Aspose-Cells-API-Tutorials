@@ -77,7 +77,7 @@ PageSetup pageSetup = excel.Worksheets[0].PageSetup;
 pageSetup.SetHeader(0, "&A");
 ```
 
-Açıklama:`SetHeader` yöntem, başlığın içeriğini tanımlamamıza olanak tanır. Burada,`&A` başlığın sol tarafında görünecek olan çalışma sayfasının adını belirtir.
+ Açıklama:`SetHeader` yöntem, başlığın içeriğini tanımlamamıza olanak tanır. Burada,`&A` başlığın sol tarafında görünecek olan çalışma sayfasının adını belirtir.
 
 ## Adım 4: Merkezi Başlığı Özelleştirin
 
@@ -87,7 +87,7 @@ Daha sonra, merkezi başlığı özelleştirerek geçerli tarih ve saati belirli
 pageSetup.SetHeader(1, "&\"Times New Roman,Bold\"&D-&T");
 ```
 
-Açıklama:`&D` Ve`&T` kodlar otomatik olarak kendilerini sırasıyla geçerli tarih ve saatle değiştirecektir. Ayrıca bu başlığın yazı tipinin "Times New Roman" ve kalın olması gerektiğini belirtiyoruz.
+ Açıklama:`&D` Ve`&T` kodlar otomatik olarak kendilerini sırasıyla geçerli tarih ve saatle değiştirecektir. Ayrıca bu başlığın yazı tipinin "Times New Roman" ve kalın olması gerektiğini belirtiyoruz.
 
 ## Adım 5: Doğru Başlığı Ayarlayın
 
@@ -117,7 +117,7 @@ Daha sonra, ortadaki altbilgiyi geçerli sayfa numarasını gösterecek şekilde
 pageSetup.SetFooter(1, "&P");
 ```
 
-Açıklama:`&P` Kod, sayfa numarasını otomatik olarak altbilginin ortasına ekler; bu, sayfaları takip etmenin kullanışlı bir yoludur.
+ Açıklama:`&P` Kod, sayfa numarasını otomatik olarak altbilginin ortasına ekler; bu, sayfaları takip etmenin kullanışlı bir yoludur.
 
 ## Adım 8: Sağ Alt Bilgi Yapılandırması
 

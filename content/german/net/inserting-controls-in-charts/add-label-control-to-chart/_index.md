@@ -62,7 +62,7 @@ Als Nächstes laden wir die Excel-Datei, die das Diagramm enthält, dem wir eine
 Workbook workbook = new Workbook(sourceDir + "sampleAddingLabelControlInChart.xls");
 ```
 
- Hier verwenden wir die`Workbook`Klasse von Aspose.Cells, um unsere Excel-Datei zu öffnen. Es ist, als würde man eine Tür aufschließen, um der Kreativität freien Lauf zu lassen!
+ Hier verwenden wir die`Workbook` Klasse von Aspose.Cells, um unsere Excel-Datei zu öffnen. Es ist, als würde man eine Tür aufschließen, um der Kreativität freien Lauf zu lassen!
 
 ## Schritt 3: Zugriff auf das Arbeitsblatt
 
@@ -94,7 +94,7 @@ Jetzt kommt der spannende Teil – das Hinzufügen der Beschriftung zum Diagramm
 Aspose.Cells.Drawing.Label label = chart.Shapes.AddLabelInChart(600, 600, 350, 900);
 ```
 
- Hier,`AddLabelInChart`kümmert sich um die Erstellung eines Etiketts basierend auf den von Ihnen angegebenen Koordinaten und Abmessungen. Es ist, als würden Sie einen schönen Rahmen um Ihr Kunstwerk anbringen!
+ Hier,`AddLabelInChart` kümmert sich um die Erstellung eines Etiketts basierend auf den von Ihnen angegebenen Koordinaten und Abmessungen. Es ist, als würden Sie einen schönen Rahmen um Ihr Kunstwerk anbringen!
 
 ## Schritt 6: Legen Sie den Beschriftungstext fest
 

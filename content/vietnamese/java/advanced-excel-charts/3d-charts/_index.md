@@ -33,7 +33,7 @@ Bạn có thể tải xuống thư viện Aspose.Cells for Java từ trang web. 
 Để sử dụng Aspose.Cells cho Java, bạn sẽ cần khởi tạo giấy phép của mình. Bước này rất cần thiết để loại bỏ mọi hạn chế đánh giá và mở khóa toàn bộ tiềm năng của thư viện.
 
 ```java
-// Khởi tạo giấy phép Aspose.Cells
+//Khởi tạo giấy phép Aspose.Cells
 License license = new License();
 license.setLicense("path_to_license_file.xml");
 ```
@@ -88,7 +88,7 @@ Chart chart = worksheet.getCharts().get(chartIndex);
 // Thiết lập phạm vi dữ liệu cho biểu đồ
 chart.getNSeries().add("A2:B4", true);
 
-//Tùy chỉnh thuộc tính biểu đồ
+// Tùy chỉnh thuộc tính biểu đồ
 chart.getChartArea().getBorder().setVisible(false);
 chart.getChartTitle().setText("3D Bar Chart");
 ```

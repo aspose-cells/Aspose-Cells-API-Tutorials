@@ -15,7 +15,7 @@ La création de pages Web visuellement attrayantes à partir de feuilles de calc
 Avant de passer au code, assurez-vous de disposer des éléments suivants :
 
 1. Visual Studio installé : vous aurez besoin d’un environnement de développement comme Visual Studio pour exécuter et tester vos applications .NET.
-2. Aspose.Cells pour .NET : Téléchargez et installez Aspose.Cells. Vous pouvez récupérer la dernière version à partir du[Site Web d'Aspose](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells pour .NET : Téléchargez et installez Aspose.Cells. Vous pouvez récupérer la dernière version à partir du[Site Web d'Aspose](https://releases.aspose.com/cells/net/).
 3. Connaissances de base de C# : une familiarité avec la programmation C# vous aidera à mieux comprendre les exemples.
 4. Exemple de fichier Excel : préparez un fichier Excel nommé « Book1.xlsx » pour travailler dessus. Placez-le dans un dossier désigné auquel vous ferez référence dans votre code.
 
@@ -48,7 +48,7 @@ Décomposons le processus de définition des préférences d’image lors de l�
 
 ## Étape 1 : Spécifier le répertoire du document
 
-Vous devez d'abord définir le chemin d'accès où vos documents sont stockés. Ceci est essentiel pour l'accès et la gestion des fichiers.
+Vous devez d'abord définir le chemin d'accès où vos documents sont stockés. Ceci est essentiel pour l'accès aux fichiers et leur gestion.
 
 ```csharp
 string dataDir = "Your Document Directory";

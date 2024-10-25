@@ -62,7 +62,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY"; // Módosítsa ezt a tényleges útv
 
 ## 2. lépés: A munkafüzet objektum példányosítása
 
- Ezután létre kell hoznia egy példányt a`Workbook` osztályba az Excel fájl megnyitásához.
+ Ezután létre kell hoznia egy példányt a`Workbook`osztályba az Excel fájl megnyitásához.
 
 ```csharp
 Workbook workbook = new Workbook(dataDir + "book1.xls");

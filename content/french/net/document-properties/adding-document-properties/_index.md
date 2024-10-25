@@ -68,6 +68,6 @@ Vous pouvez stocker des chaînes, des nombres et même des dates dans vos propri
 ### L'utilisation d'Aspose.Cells est-elle gratuite ?
  Aspose.Cells propose un essai gratuit. Pour bénéficier de toutes les fonctionnalités, un achat est requis. Découvrez le[options de tarification ici](https://purchase.aspose.com/buy).
 ### Où puis-je trouver la documentation d'Aspose.Cells ?
- Vous trouverez une documentation complète[ici](https://reference.aspose.com/cells/net/).
+Vous trouverez une documentation complète[ici](https://reference.aspose.com/cells/net/).
 ### Que faire si j’ai besoin d’aide lors de l’utilisation d’Aspose.Cells ?
  Vous pouvez visiter le[Forum d'assistance Aspose](https://forum.aspose.com/c/cells/9) pour obtenir l’aide de leur communauté et de leur équipe de soutien.

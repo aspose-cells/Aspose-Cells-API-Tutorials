@@ -8,11 +8,11 @@ weight: 11
 url: /zh-hant/net/image-and-chart-operations/worksheet-to-image-conversion/
 ---
 ## 介紹
-當談到在 .NET 中操作 Excel 檔案時，Aspose.Cells 作為一個可靠且強大的程式庫脫穎而出。您可能遇到的常見任務之一是將 Excel 工作表轉換為影像。無論您是想在網頁上顯示工作表、將其包含在報告中，還是只是以視覺方式共享數據，本逐步指南都將引導您完成整個過程。最後，您將具備將工作表無縫轉換為影像所需的一切。那麼就讓我們深入了解吧！
+當談到在 .NET 中操作 Excel 檔案時，Aspose.Cells 是一個可靠且強大的程式庫。您可能遇到的常見任務之一是將 Excel 工作表轉換為影像。無論您是想在網頁上顯示工作表、將其包含在報告中，還是只是以視覺方式共享數據，本逐步指南都將引導您完成整個過程。最後，您將具備將工作表無縫轉換為影像所需的一切。那麼就讓我們深入了解吧！
 ## 先決條件
 在開始轉換之前，必須確保一切都設定正確。以下是您需要的先決條件：
 1. Visual Studio：確保您的電腦上安裝了 Visual Studio。該 IDE 將協助您順利執行 .NET 專案。
-2. Aspose.Cells for .NET Library：您需要取得此程式庫。你可以[在這裡下載](https://releases.aspose.com/cells/net/)或從一個開始[免費試用](https://releases.aspose.com/).
+2.  Aspose.Cells for .NET Library：您需要取得此程式庫。你可以[在這裡下載](https://releases.aspose.com/cells/net/)或從一個開始[免費試用](https://releases.aspose.com/).
 3. C# 基礎知識：熟悉 C# 程式設計將會很有幫助，因為我們的範例和解釋將用這種語言編寫。
 4.  Excel 檔案範例：為了演示，請建立或下載 Excel 檔案。另存為`MyTestBook1.xls`在你的專案目錄中。
 5. 對 .NET 專案的基本了解：了解如何建立簡單的 .NET 專案將使這變得更容易，但不用擔心 - 我們將引導您完成這些步驟。
@@ -60,7 +60,7 @@ Worksheet sheet = book.Worksheets[0];
 ```
 在這裡，我們檢索第一個工作表（索引`0`）來自工作簿。 Aspose.Cells 陣列是零索引的，這表示第一張紙是`0`.
 ## 第 6 步：定義影像或列印選項
-在渲染圖像之前，我們需要使用以下命令指定我們希望它的外觀`ImageOrPrintOptions`：
+在渲染圖像之前，我們需要使用以下命令指定我們希望它的外觀`ImageOrPrintOptions`:
 ```csharp
 //定義影像或列印選項
 ImageOrPrintOptions imgOptions = new ImageOrPrintOptions();

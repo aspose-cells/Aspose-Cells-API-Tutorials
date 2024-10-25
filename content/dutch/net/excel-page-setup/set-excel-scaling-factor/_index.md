@@ -29,7 +29,7 @@ Voordat u code schrijft, moet u een referentie toevoegen aan de Aspose.Cells-bib
 ### Download de DLL
 
 1.  Ga naar de[Aspose Downloads-pagina](https://releases.aspose.com/cells/net/) en download het juiste pakket voor uw .NET-versie.
-2. Pak het gedownloade bestand uit en zoek de`Aspose.Cells.dll` bestand.
+2.  Pak het gedownloade bestand uit en zoek de`Aspose.Cells.dll` bestand.
 
 ### Referentie toevoegen in Visual Studio
 
@@ -95,7 +95,7 @@ worksheet.PageSetup.Zoom = 100;
 
 ## Stap 5: Sla de werkmap op
 
-U hebt de nodige aanpassingen gemaakt. Het is nu tijd om uw wijzigingen op te slaan.
+U hebt de nodige aanpassingen gemaakt. Nu is het tijd om uw wijzigingen op te slaan.
 
 ```csharp
 // Sla de werkmap op.

@@ -82,9 +82,9 @@ Teraz możesz już zmodyfikować ten arkusz!
 
 ## Krok 4: Uzyskaj dostęp do obiektu ustawień strony
 
- Aby zmienić marginesy, musimy pracować z`PageSetup`obiekt. Ten obiekt udostępnia właściwości kontrolujące układ strony, w tym marginesy.
+ Aby zmienić marginesy, musimy pracować z`PageSetup` obiekt. Ten obiekt udostępnia właściwości kontrolujące układ strony, w tym marginesy.
 
- Zdobądź`PageSetup` właściwość z arkusza kalkulacyjnego:
+Zdobądź`PageSetup` właściwość z arkusza kalkulacyjnego:
 
 ```csharp
 PageSetup pageSetup = worksheet.PageSetup;

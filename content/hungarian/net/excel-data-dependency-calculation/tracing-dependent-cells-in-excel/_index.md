@@ -18,7 +18,7 @@ Mielőtt elkezdenénk, íme néhány dolog, amit meg kell tennie, hogy zökkenő
 1. Alapvető C# ismerete: Mivel a kódunkat C#-ban fogjuk írni, a nyelv alapvető ismerete segít a fogalmak gyors megértésében.
 2.  Aspose.Cells for .NET Library: Le kell töltenie az Aspose.Cells for .NET könyvtárat. Beszerezheti a[Letöltési link](https://releases.aspose.com/cells/net/).
 3. Visual Studio: Ez egy fantasztikus környezet a .NET-kód írásához és teszteléséhez. Győződjön meg arról, hogy megfelelően telepítette a gépére. 
-4. Excel-fájl: Szüksége lesz egy Excel-fájlra, amely néhány képletet tartalmaz a munkához. nevű fájlt fogjuk használni`Book1.xlsx`, de nyugodtan használd a sajátodat!
+4.  Excel-fájl: Szüksége lesz egy Excel-fájlra, amely néhány képletet tartalmaz a munkához. nevű fájlt fogjuk használni`Book1.xlsx`de nyugodtan használd a sajátodat!
 
 Készen áll a becsatolásra, és elkezdi követni ezeket a sejteket? Térjünk bele a bolondozásba!
 
@@ -84,11 +84,11 @@ Most, hogy megnyitottuk a munkafüzetet, itt az ideje, hogy kézbe vegyük az eg
 Cells cells = workbook.Worksheets[0].Cells;
 ```
 
-Magyarázat: A fenti kód a munkafüzetünk első munkalapját (0. index) célozza meg, és lekéri a`Cells` gyűjtemény, amellyel az eltartottak felkutatásán fogunk dolgozni.
+ Magyarázat: A fenti kód a munkafüzetünk első munkalapját (0. index) célozza meg, és lekéri a`Cells` gyűjtemény, amellyel az eltartottak felkutatásán fogunk dolgozni.
 
 ## 4. lépés: Válassza ki a cellát
 
- Demonstrációs célból egy adott sejt eltartottjait szeretnénk nyomon követni – ebben az esetben`B2`. Kódoljuk ezt:
+Demonstrációs célból egy adott sejt eltartottjait szeretnénk nyomon követni – ebben az esetben`B2`. Kódoljuk ezt:
 
 ```csharp
 Cell cell = cells["B2"];
@@ -118,7 +118,7 @@ foreach (Cell c in cell.GetDependents(true))
 Console.ReadKey();
 ```
 
-Magyarázat: Ez a hurok átmegy a tömbünk minden függő celláján, és kiírja a nevét – ez elég egyszerű! A`Console.ReadKey()` biztosítja, hogy a konzolablak nyitva maradjon, amíg meg nem nyom egy billentyűt, így időt ad a kimenet olvasására.
+ Magyarázat: Ez a hurok átmegy a tömbünk minden függő celláján, és kiírja a nevét – ez elég egyszerű! A`Console.ReadKey()` biztosítja, hogy a konzolablak nyitva maradjon, amíg meg nem nyom egy billentyűt, így időt ad a kimenet olvasására.
 
 ## Következtetés
 

@@ -135,4 +135,4 @@ Teljesen! Az Aspose.Cells képes olvasni és módosítani a meglévő Excel fáj
 Különféle formátumokat támogat, például XLS, XLSX, XLSB, ODS, PDF és még sok más.
 
 ### Hol találok támogatást az Aspose.Cells számára?  
-Segítséget kaphat a[Aspose fórum](https://forum.aspose.com/c/cells/9).
+ Segítséget kaphat a[Aspose fórum](https://forum.aspose.com/c/cells/9).

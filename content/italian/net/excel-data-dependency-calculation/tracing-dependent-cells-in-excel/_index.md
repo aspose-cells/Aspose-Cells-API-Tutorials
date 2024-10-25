@@ -9,7 +9,7 @@ url: /it/net/excel-data-dependency-calculation/tracing-dependent-cells-in-excel/
 ---
 ## Introduzione
 
-I fogli di calcolo Excel sono come una rete di dati interconnessi, dove la modifica di una cella può inviare onde su molte altre. Ma come si tiene traccia di queste connessioni? Immergiamoci nel mondo del tracciamento delle celle dipendenti in Excel usando Aspose.Cells per .NET! In questa guida, esploreremo come identificare ed elencare le celle dipendenti. 
+fogli di calcolo Excel sono come una rete di dati interconnessi, dove la modifica di una cella può inviare onde su molte altre. Ma come si tiene traccia di queste connessioni? Immergiamoci nel mondo del tracciamento delle celle dipendenti in Excel usando Aspose.Cells per .NET! In questa guida, esploreremo come identificare ed elencare le celle dipendenti. 
 
 ## Prerequisiti
 
@@ -18,7 +18,7 @@ Prima di iniziare, ecco alcune cose che dovresti avere per garantire un percorso
 1. Conoscenza di base di C#: poiché scriveremo il nostro codice in C#, avere una conoscenza di base del linguaggio ti aiuterà ad afferrare rapidamente i concetti.
 2.  Libreria Aspose.Cells per .NET: dovrai scaricare la libreria Aspose.Cells per .NET. Puoi ottenerla da[Link per scaricare](https://releases.aspose.com/cells/net/).
 3. Visual Studio: è un ambiente fantastico per scrivere e testare il tuo codice .NET. Assicurati di averlo installato correttamente sul tuo computer. 
-4. Un file Excel: avrai bisogno di un file Excel che contenga alcune formule con cui lavorare. Useremo un file denominato`Book1.xlsx`, ma sentiti libero di usare il tuo!
+4.  Un file Excel: avrai bisogno di un file Excel che contenga alcune formule con cui lavorare. Useremo un file denominato`Book1.xlsx`ma sentiti libero di usare il tuo!
 
 Pronti a allacciare le cinture e iniziare a tracciare quelle cellule? Andiamo al nocciolo della questione!
 
@@ -84,11 +84,11 @@ Ora che abbiamo aperto la cartella di lavoro, è il momento di mettere le mani s
 Cells cells = workbook.Worksheets[0].Cells;
 ```
 
-Spiegazione: Il codice sopra riportato punta al primo foglio di lavoro (indice 0) nella nostra cartella di lavoro e recupera il`Cells` raccolta, con cui lavoreremo per rintracciare le persone a carico.
+ Spiegazione: Il codice sopra riportato punta al primo foglio di lavoro (indice 0) nella nostra cartella di lavoro e recupera il`Cells` raccolta, con cui lavoreremo per rintracciare le persone a carico.
 
 ## Passaggio 4: selezionare la cella
 
- A scopo dimostrativo, vogliamo tracciare i dipendenti di una cellula specifica, in questo caso,`B2`. Codifichiamolo:
+ scopo dimostrativo, vogliamo tracciare i dipendenti di una cellula specifica, in questo caso,`B2`. Codifichiamolo:
 
 ```csharp
 Cell cell = cells["B2"];
@@ -118,7 +118,7 @@ foreach (Cell c in cell.GetDependents(true))
 Console.ReadKey();
 ```
 
-Spiegazione: Questo ciclo passa attraverso ogni cella dipendente nel nostro array e ne stampa il nome, piuttosto semplice!`Console.ReadKey()` assicura che la finestra della console rimanga aperta finché non si preme un tasto, dando il tempo di leggere l'output.
+ Spiegazione: Questo ciclo passa attraverso ogni cella dipendente nel nostro array e ne stampa il nome, piuttosto semplice!`Console.ReadKey()` assicura che la finestra della console rimanga aperta finché non si preme un tasto, dando il tempo di leggere l'output.
 
 ## Conclusione
 

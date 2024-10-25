@@ -37,12 +37,12 @@ using System.Drawing;
 ```csharp
 // Η διαδρομή προς τον κατάλογο εγγράφων.
 string dataDir = "Your Document Directory";
-//Δημιουργήστε κατάλογο εάν δεν υπάρχει ήδη.
+// Δημιουργήστε κατάλογο εάν δεν υπάρχει ήδη.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
--  dataDir: Αυτή η μεταβλητή κρατά τη διαδρομή προς τον κατάλογο των εγγράφων σας. Αντικαθιστώ`"Your Document Directory"` με την πραγματική διαδρομή όπου θέλετε να αποθηκεύσετε το αρχείο Excel.
+- dataDir: Αυτή η μεταβλητή κρατά τη διαδρομή προς τον κατάλογο των εγγράφων σας. Αντικαθιστώ`"Your Document Directory"` με την πραγματική διαδρομή όπου θέλετε να αποθηκεύσετε το αρχείο Excel.
 - Directory.Exists: Ελέγχει εάν ο κατάλογος υπάρχει ήδη.
 - Directory.CreateDirectory: Εάν ο κατάλογος δεν υπάρχει, αυτό δημιουργείται.
 ## Βήμα 2: Δημιουργήστε ένα βιβλίο εργασίας
@@ -89,7 +89,7 @@ bmp.Save(ms, System.Drawing.Imaging.ImageFormat.Png);
 // Ορίστε δεδομένα εικόνας στο σχήμα που σχετίζεται με το σχόλιο
 comment.CommentShape.Fill.ImageData = ms.ToArray();
 ```
--  comment.CommentShape.Fill.ImageData: Αυτή η ιδιότητα σάς επιτρέπει να ορίσετε την εικόνα για το σχήμα σχολίου. Μετατρέπουμε το`MemoryStream` σε έναν πίνακα byte χρησιμοποιώντας`ms.ToArray()`.
+- comment.CommentShape.Fill.ImageData: Αυτή η ιδιότητα σάς επιτρέπει να ορίσετε την εικόνα για το σχήμα σχολίου. Μετατρέπουμε το`MemoryStream` σε έναν πίνακα byte χρησιμοποιώντας`ms.ToArray()`.
 ## Βήμα 7: Αποθηκεύστε το βιβλίο εργασίας
 Τέλος, ας αποθηκεύσουμε το βιβλίο εργασίας μας με το σχόλιο και την εικόνα που περιλαμβάνονται.
 ```csharp

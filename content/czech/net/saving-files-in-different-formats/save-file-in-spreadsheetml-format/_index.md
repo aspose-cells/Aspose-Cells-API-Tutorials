@@ -47,7 +47,7 @@ Workbook workbook = new Workbook();
 ```
  Vytvořením instance`Workbook`, v podstatě říkáte: "Chci vytvořit novou tabulku!"
 ## Krok 3: Uložte sešit ve formátu SpreadsheetML
-Jakmile sešit vytvoříte a případně do něj přidáte nějaká data, dalším velkým krokem je jeho uložení. Zde se děje kouzlo:
+Jakmile sešit vytvoříte a případně do něj přidáte nějaká data, dalším velkým krokem je jeho uložení. Tady se kouzlo děje:
 ```csharp
 // Uložit ve formátu SpreadsheetML
 workbook.Save(dataDir + "output.xml", SaveFormat.SpreadsheetML);

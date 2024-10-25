@@ -35,7 +35,7 @@ string dataDir = "Your Document Directory";
 ```csharp
 Workbook workbook = new Workbook(dataDir + "sample-document-properties.xlsx");
 ```
- Här laddar vi vår specifika Excel-fil,`"sample-document-properties.xlsx"`Det är avgörande att den här filen finns i den angivna katalogen, annars kommer du att stöta på fel.
+ Här laddar vi vår specifika Excel-fil,`"sample-document-properties.xlsx"`. Det är avgörande att den här filen finns i den angivna katalogen, annars kommer du att stöta på fel.
 ## Steg 3: Hämta anpassade dokumentegenskaper
 När arbetsboken har laddats kan vi utnyttja dess skattkammare av egenskaper. Låt oss dyka in i hur du kan komma åt dessa egenskaper:
 ```csharp
@@ -48,7 +48,7 @@ Ibland vet du exakt vad du letar efter. Om du behöver komma åt en specifik ege
 Aspose.Cells.Properties.DocumentProperty customProperty1 = customProperties["ContentTypeId"];
 Console.WriteLine(customProperty1.Name + " " + customProperty1.Value);
 ```
- I det här exemplet försöker vi komma åt egenskapen som heter`"ContentTypeId"`. Konsolen kommer att mata ut både namnet och värdet på den här egenskapen. Det är ett snyggt sätt att få exakt vad du behöver utan att sålla igenom alla egenskaper.
+ I det här exemplet försöker vi komma åt egenskapen som heter`"ContentTypeId"`. Konsolen matar ut både namnet och värdet på den här egenskapen. Det är ett snyggt sätt att få exakt vad du behöver utan att sålla igenom alla egenskaper.
 ## Steg 5: Få tillgång till en anpassad dokumentegenskap efter index
 Vad händer om du vill bläddra bland dina fastigheter och välja en utan att veta namnet i förväg? Fastighetsindexet kommer till undsättning:
 ```csharp
@@ -69,4 +69,4 @@ Absolut! Du kan läsa, skriva och ändra Excel-filer med hjälp av biblioteket, 
 ### Är support tillgängligt för Aspose.Cells-användare?
  Ja, du har tillgång till omfattande supportresurser, inklusive forum och dokumentation[här](https://forum.aspose.com/c/cells/9).
 ### Hur kan jag få en tillfällig licens för Aspose.Cells?
- Du kan ansöka om en tillfällig licens för att utvärdera produkten genom att besöka[denna länk](https://purchase.aspose.com/temporary-license/).
+Du kan ansöka om en tillfällig licens för att utvärdera produkten genom att besöka[denna länk](https://purchase.aspose.com/temporary-license/).

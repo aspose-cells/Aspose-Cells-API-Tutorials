@@ -31,7 +31,7 @@ Tout bon projet commence par une bonne organisation ! Tout d'abord, vous devez d
 ```csharp
 // Le chemin vers le répertoire des documents.
 string dataDir = "Your Document Directory";
-//Créez un répertoire s'il n'est pas déjà présent.
+// Créez un répertoire s'il n'est pas déjà présent.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -132,7 +132,7 @@ Et voilà, votre guide pour ajouter une barre de défilement à une feuille de c
 ### Qu'est-ce qu'Aspose.Cells ?
 Aspose.Cells est une puissante bibliothèque .NET qui permet aux développeurs de créer, manipuler et convertir des fichiers Excel par programmation.
 ### Puis-je utiliser Aspose.Cells gratuitement ?
-Oui, Aspose.Cells propose un essai gratuit, que vous pouvez trouver[ici](https://releases.aspose.com/).
+ Oui, Aspose.Cells propose un essai gratuit, que vous pouvez trouver[ici](https://releases.aspose.com/).
 ### Comment ajouter d’autres contrôles à ma feuille Excel ?
 Vous pouvez utiliser des méthodes similaires à celles présentées pour la barre de défilement. Consultez simplement la documentation pour plus de contrôles !
 ### Quels langages de programmation puis-je utiliser avec Aspose.Cells ?

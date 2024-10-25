@@ -13,11 +13,11 @@ Har du någonsin velat göra dina Excel-kalkylblad lite mer uttrycksfulla? Kansk
 
 ## Lägg till en kommentar med bild i Excel
 
-Föreställ dig att ha förmågan att kommentera dina Excel-celler med inte bara text utan även bilder. Detta ger en personlig touch och ett visuellt element som kan förtydliga och förbättra informationen i dina ark. Handledningen på[Lägga till en kommentar med bild i Excel](./add-comment-with-image-excel/) leder dig genom processen steg för steg. Du lär dig att infoga bilder direkt i kommentarer, vilket gör dina kalkylblad inte bara mer informativa utan också visuellt tilltalande. Tänk bara på hur effektiv en skärmdump eller en logotyp kan vara när du delar ditt arbete med andra!
+ Föreställ dig att ha förmågan att kommentera dina Excel-celler med inte bara text utan även bilder. Detta ger en personlig touch och ett visuellt element som kan förtydliga och förbättra informationen i dina ark. Handledningen på[Lägga till en kommentar med bild i Excel](./add-comment-with-image-excel/) leder dig genom processen steg för steg. Du lär dig att infoga bilder direkt i kommentarer, vilket gör dina kalkylblad inte bara mer informativa utan också visuellt tilltalande. Tänk bara på hur effektiv en skärmdump eller en logotyp kan vara när du delar ditt arbete med andra!
 
 ## Lägg till kommentarer till celler eller former i Excel
 
- Om du är nybörjare som vill komma igång med kommentarer,[Lägg till kommentarer till celler eller former i Excel](./add-comments-to-cells-or-shapes-excel/)handledningen är perfekt för dig. Den täcker allt från grunderna för att lägga till kommentarer till att förbättra funktionaliteten i dina kalkylblad. Du kommer att se hur du bifogar kommentarer till olika element – oavsett om det är celler eller former – och till och med går igenom några bästa metoder i processen. Denna handledning är din språngbräda för att göra dina kalkylblad interaktiva och användarvänliga!
+ Om du är nybörjare som vill komma igång med kommentarer,[Lägg till kommentarer till celler eller former i Excel](./add-comments-to-cells-or-shapes-excel/) handledningen är perfekt för dig. Den täcker allt från grunderna för att lägga till kommentarer till att förbättra funktionaliteten i dina kalkylblad. Du kommer att se hur du bifogar kommentarer till olika element – oavsett om det är celler eller former – och till och med går igenom några bästa metoder i processen. Denna handledning är din språngbräda för att göra dina kalkylblad interaktiva och användarvänliga!
 
 ## Formatera kommentarer - teckensnitt, färg, justering
 

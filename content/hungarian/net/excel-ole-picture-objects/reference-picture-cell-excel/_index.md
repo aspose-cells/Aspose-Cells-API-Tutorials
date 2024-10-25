@@ -8,7 +8,7 @@ weight: 15
 url: /hu/net/excel-ole-picture-objects/reference-picture-cell-excel/
 ---
 ## Bevezetés
-Ha Excel-táblázatokkal dolgozik, valószínűleg találkozott már olyan helyzetekkel, amikor a vizualizáció jelentősen javíthatja az adatok megjelenítését. Képzelje el, hogy egy képet szeretne bizonyos cellákhoz kapcsolni az adatok vizuális megjelenítéséhez. Nos, kösse be, mert ma belemerülünk abba, hogy az Aspose.Cells for .NET használatával hivatkozzon egy képcellára az Excelben. Ennek az útmutatónak a végére profi lesz a képek zökkenőmentes beépítésében a táblázatokba. Ne vesztegessük tovább az időt, és azonnal vágjunk bele!
+Ha Excel-táblázatokkal dolgozik, valószínűleg találkozott már olyan helyzetekkel, amikor a vizualizáció jelentősen javíthatja az adatok megjelenítését. Képzelje el, hogy egy képet szeretne bizonyos cellákhoz kapcsolni az adatok vizuális megjelenítéséhez. Nos, kösd be, mert ma belemerülünk abba, hogy az Aspose.Cells for .NET használatával hivatkozzunk egy képcellára az Excelben. Ennek az útmutatónak a végére profi lesz a képek zökkenőmentes beépítésében a táblázatokba. Ne vesztegessük tovább az időt, és azonnal vágjunk bele!
 ## Előfeltételek
 Mielőtt elkezdenénk, győződjünk meg arról, hogy mindennel rendelkezik, amire szüksége van:
 - Visual Studio: Győződjön meg arról, hogy számítógépére telepítve van a Visual Studio kompatibilis verziója a .NET-projekt kezeléséhez.
@@ -18,7 +18,7 @@ Most, hogy készen vagyunk, importáljuk a szükséges csomagokat!
 ## Csomagok importálása
 Az Aspose.Cells erejének kihasználásához importálnia kell a megfelelő névtereket a projektbe. Ezt a következőképpen teheti meg:
 1. Új projekt létrehozása: Nyissa meg a Visual Studio-t, és hozzon létre egy új C# konzolalkalmazást.
-2. Hivatkozások hozzáadása: Ügyeljen arra, hogy adjon hivatkozást az Aspose.Cells könyvtárhoz. Ezt úgy teheti meg, hogy a jobb gombbal rákattint a projektre, kiválasztja a „Hozzáadás”, majd a „Referencia” elemet, és megkeresi azt a helyet, ahonnan az Aspose.Cells DLL-t letöltötte.
+2. Hivatkozások hozzáadása: Ügyeljen arra, hogy hivatkozást adjon hozzá az Aspose.Cells könyvtárhoz. Ezt úgy teheti meg, hogy a jobb gombbal rákattint a projektre, kiválasztja a „Hozzáadás”, majd a „Referencia” elemet, és megkeresi azt a helyet, ahonnan az Aspose.Cells DLL-t letöltötte.
 ```csharp
 using System.IO;
 using System;

@@ -38,7 +38,7 @@ string dataDir = "Your Document Directory";
 string sampleFile = "output.xlsx";
 string samplePath = dataDir + sampleFile;
 ```
- I det här kodavsnittet, ersätt`"Your Document Directory"` med den faktiska sökvägen där du vill spara din arbetsbok. 
+ Ersätt i det här kodavsnittet`"Your Document Directory"` med den faktiska sökvägen där du vill spara din arbetsbok. 
 ## Steg 2: Skapa arbetsboken
 Låt oss sedan skapa arbetsboken och lägga till lite data.
 ```csharp

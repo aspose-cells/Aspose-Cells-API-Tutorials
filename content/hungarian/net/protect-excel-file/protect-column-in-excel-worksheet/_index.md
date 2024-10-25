@@ -51,7 +51,7 @@ Először is – egy helyre kell mentenie az Excel-fájlt. A dokumentumkönyvtá
 ```csharp
 // A dokumentumok könyvtárának elérési útja.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-//Hozzon létre könyvtárat, ha még nincs jelen.
+// Hozzon létre könyvtárat, ha még nincs jelen.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -99,7 +99,7 @@ StyleFlag flag;
 Mielőtt zárolnánk egy adott oszlopot, fel kell oldanunk a munkalap összes oszlopának zárolását. Ez a lépés kulcsfontosságú annak biztosításához, hogy csak a védeni kívánt oszlop maradjon zárva.
 
 ```csharp
-// Lapozzon végig a munkalap összes oszlopán, és oldja fel a zárolást.
+// Lapozzon át a munkalap összes oszlopán, és oldja fel őket.
 for (int i = 0; i <= 255; i++)
 {
     style = sheet.Cells.Columns[(byte)i].Style;

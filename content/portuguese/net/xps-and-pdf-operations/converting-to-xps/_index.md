@@ -50,7 +50,7 @@ Worksheet sheet = workbook.Worksheets[0]; // Acessando a primeira planilha
 ```
 Esta linha de código permite que você acesse a primeira planilha para comandos adicionais.
 ## Etapa 4: Configurar opções de imagem e impressão
-Agora precisamos definir como queremos renderizar nossa saída. Isso envolve criar uma instância de`ImageOrPrintOptions` e definir o formato de saída desejado.
+ Agora precisamos definir como queremos renderizar nossa saída. Isso envolve criar uma instância de`ImageOrPrintOptions` e definir o formato de saída desejado.
 ```csharp
 Aspose.Cells.Rendering.ImageOrPrintOptions options = new Aspose.Cells.Rendering.ImageOrPrintOptions();
 options.SaveFormat = SaveFormat.Xps; // Definir o formato de saída para XPS
@@ -73,7 +73,7 @@ Este trecho de código permite que você exporte a pasta de trabalho inteira de 
 ## Conclusão
 Parabéns! Você converteu com sucesso um arquivo Excel para o formato XPS usando a biblioteca Aspose.Cells no .NET. Pode parecer muitas etapas, mas cada uma desempenha um papel vital no processo. Com esse conhecimento, você está bem equipado para lidar com arquivos Excel em seus aplicativos e otimizá-los para vários formatos. Então, da próxima vez que alguém perguntar como converter aquelas planilhas chatas, você saberá exatamente o que fazer!
 ## Perguntas frequentes
-### O que é o formato XPS?
+### que é o formato XPS?
 XPS (XML Paper Specification) é um formato de documento fixo que mantém o layout e a aparência dos documentos.
 ### Preciso comprar o Aspose.Cells para usá-lo?
  Você pode experimentar uma versão de avaliação gratuita do Aspose.Cells disponível[aqui](https://releases.aspose.com/). Depois, talvez seja necessário comprar uma licença para obter a funcionalidade completa.
@@ -82,4 +82,4 @@ Sim, você pode adaptar o código para percorrer vários arquivos no diretório 
 ### E se eu precisar converter apenas planilhas específicas?
  Você pode especificar o índice da planilha que deseja no`SheetRender` objeto conforme mostrado em nossos passos.
 ### Onde posso encontrar mais informações sobre o Aspose.Cells?
- Você pode explorar o[documentação](https://reference.aspose.com/cells/net/)para recursos e opções mais avançados disponíveis na biblioteca.
+ Você pode explorar o[documentação](https://reference.aspose.com/cells/net/) para recursos e opções mais avançados disponíveis na biblioteca.

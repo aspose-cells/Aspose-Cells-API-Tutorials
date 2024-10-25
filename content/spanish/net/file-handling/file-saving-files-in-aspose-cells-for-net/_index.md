@@ -135,4 +135,4 @@ Aspose.Cells es una biblioteca .NET utilizada para manipular archivos Excel medi
 Admite varios formatos como XLS, XLSX, XLSB, ODS, PDF y más.
 
 ### ¿Dónde puedo encontrar soporte para Aspose.Cells?  
-Puede obtener ayuda en el[Foro de Aspose](https://forum.aspose.com/c/cells/9).
+ Puede obtener ayuda en el[Foro de Aspose](https://forum.aspose.com/c/cells/9).

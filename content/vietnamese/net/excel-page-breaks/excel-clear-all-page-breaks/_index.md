@@ -42,7 +42,7 @@ Hãy chia nhỏ thành các bước dễ quản lý. Chúng ta đã thiết lậ
 
 ## Bước 1: Thiết lập thư mục tài liệu của bạn
 
-Để giải quyết cải tiến này, bạn cần khai báo đường dẫn cho tài liệu của mình. Đây là nơi bạn sẽ lưu tệp Excel đầu vào và cũng lưu đầu ra sau khi bạn xóa ngắt trang.
+Để giải quyết cải tiến này, bạn cần khai báo đường dẫn cho tài liệu của mình. Đây là nơi bạn sẽ lưu tệp Excel đầu vào và cũng lưu đầu ra sau khi xóa ngắt trang.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";

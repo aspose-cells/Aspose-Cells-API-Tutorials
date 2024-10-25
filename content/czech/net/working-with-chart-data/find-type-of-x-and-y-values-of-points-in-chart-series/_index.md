@@ -9,7 +9,7 @@ url: /cs/net/working-with-chart-data/find-type-of-x-and-y-values-of-points-in-ch
 ---
 ## Zavedení
 
-Vytváření smysluplných grafů a vizuálních reprezentací dat je při analýze dat zásadní. S funkcemi dostupnými v knihovnách, jako je Aspose.Cells pro .NET, se můžete ponořit do vlastností sérií grafů, konkrétně do hodnot X a Y datových bodů. V tomto kurzu prozkoumáme, jak určit typy těchto hodnot, což vám umožní lépe porozumět vizualizacím dat a manipulovat s nimi.
+Vytváření smysluplných grafů a vizuálních reprezentací dat je při analýze dat zásadní. S funkcemi dostupnými v knihovnách, jako je Aspose.Cells pro .NET, se můžete ponořit do vlastností sérií grafů, konkrétně do hodnot X a Y datových bodů. V tomto tutoriálu prozkoumáme, jak určit typy těchto hodnot, což vám umožní lépe porozumět vizualizacím dat a manipulovat s nimi.
 
 ## Předpoklady
 

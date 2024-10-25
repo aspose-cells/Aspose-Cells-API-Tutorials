@@ -16,7 +16,7 @@ Willkommen zu dieser Schritt-für-Schritt-Anleitung zur Verwendung von Aspose.Ce
 Bevor Sie sich in den Code vertiefen, müssen Sie einige Voraussetzungen erfüllen:
 
 1. Grundkenntnisse in .NET: Kenntnisse des .NET-Frameworks sind unerlässlich. Wenn Sie bereits mit C# oder VB.NET vertraut sind, sind Sie gut vorbereitet.
-2. Aspose.Cells für .NET-Bibliothek: Sie müssen Aspose.Cells installiert haben. Sie können dies ganz einfach über den NuGet-Paketmanager tun oder es von der[Aspose-Website](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells für .NET-Bibliothek: Sie müssen Aspose.Cells installiert haben. Sie können dies ganz einfach über den NuGet-Paketmanager tun oder es von der[Aspose-Website](https://releases.aspose.com/cells/net/).
 3. IDE-Setup: Stellen Sie sicher, dass Sie eine integrierte Entwicklungsumgebung (IDE) wie Visual Studio zum Codieren bereit haben.
 4. Beispiel-Excel-Datei: Sie können die Beispieldatei („AllowLeadingApostropheSample.xlsx“) verwenden, mit der wir im Code arbeiten werden.
 
@@ -56,7 +56,7 @@ Jetzt instanziieren wir den WorkbookDesigner, der für die Arbeit mit Smart Mark
 WorkbookDesigner designer = new WorkbookDesigner();
 ```
 
- Der`WorkbookDesigner` verwaltet das Design und die Datenbindung unserer Arbeitsmappe und erleichtert uns das Leben bei der Konvertierung von Daten in ein visuelles Format.
+ Der`WorkbookDesigner`verwaltet das Design und die Datenbindung unserer Arbeitsmappe und erleichtert uns das Leben bei der Konvertierung von Daten in ein visuelles Format.
 
 ## Schritt 3: Laden der vorhandenen Arbeitsmappe
 
@@ -90,7 +90,7 @@ List<DataObject> list = new List<DataObject>
 };
 ```
 
- Wir erstellen eine Liste von`DataObject`, wobei einer der Namen absichtlich einen Apostroph vorsieht. Dies soll veranschaulichen, wie Aspose.Cells mit solchen Szenarien umgeht.
+ Wir erstellen eine Liste von`DataObject`wobei einer der Namen absichtlich einen Apostroph vorsieht. Dies soll veranschaulichen, wie Aspose.Cells mit solchen Szenarien umgeht.
 
 ## Schritt 6: Binden der Datenquelle an den Designer
 
@@ -144,7 +144,7 @@ Egal, ob Sie Berichte erstellen, Funktionen zur Datenanalyse erstellen oder Date
 Aspose.Cells ist eine leistungsstarke .NET-Bibliothek zum programmgesteuerten Erstellen, Bearbeiten und Konvertieren von Excel-Dateien in mehreren Formaten.
 
 ### Kann ich Aspose.Cells kostenlos nutzen?
-Ja, Sie können Aspose.Cells verwenden, indem Sie sich für eine kostenlose Testversion anmelden[Hier](https://releases.aspose.com/).
+ Ja, Sie können Aspose.Cells verwenden, indem Sie sich für eine kostenlose Testversion anmelden[Hier](https://releases.aspose.com/).
 
 ### Wie kann ich Support für Aspose.Cells erhalten?
  Hilfe und Fragen finden Sie auf der[Aspose Support Forum](https://forum.aspose.com/c/cells/9).

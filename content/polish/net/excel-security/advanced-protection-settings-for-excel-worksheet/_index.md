@@ -16,7 +16,7 @@ W erze cyfrowej zarządzanie danymi i ich zabezpieczanie jest ważniejsze niż k
 Zanim zagłębisz się w kod, upewnij się, że masz wszystko, czego potrzebujesz:
 
 1. Środowisko programistyczne: Na swoim komputerze powinieneś mieć zainstalowany program Visual Studio, ponieważ stanowi on doskonałe środowisko IDE do programowania w środowisku .NET.
-2. Biblioteka Aspose.Cells: Pobierz bibliotekę Aspose.Cells. Możesz ją pobrać z[Strona pobierania Aspose](https://releases.aspose.com/cells/net/).
+2.  Biblioteka Aspose.Cells: Pobierz bibliotekę Aspose.Cells. Możesz ją pobrać z[Strona pobierania Aspose](https://releases.aspose.com/cells/net/).
 3. Podstawowa wiedza o języku C#: Upewnij się, że dobrze rozumiesz język C# i środowisko .NET Framework, aby móc z łatwością sobie z nim radzić.
 4. Utwórz projekt: Skonfiguruj nową aplikację konsolową w programie Visual Studio, w której napiszemy kod.
 
@@ -48,12 +48,12 @@ Podzielmy implementację na łatwe do opanowania kroki. Utworzymy prosty plik Ex
 
 ## Krok 1: Utwórz strumień plików dla swojego pliku Excel
 
-Najpierw musimy załadować istniejący plik Excela. Użyjemy`FileStream` aby uzyskać do niego dostęp.
+ Najpierw musimy załadować istniejący plik Excela. Użyjemy`FileStream` aby uzyskać do niego dostęp.
 
 ```csharp
 // Ścieżka do katalogu dokumentów.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-// Tworzenie strumienia plików w celu otwarcia pliku Excel
+//Tworzenie strumienia plików w celu otwarcia pliku Excel
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
  Ten`FileStream` pozwala nam odczytać określony plik Excel. Upewnij się, że zmieniłeś „YOUR DOCUMENT DIRECTORY” na rzeczywistą ścieżkę, w której znajduje się plik Excel.

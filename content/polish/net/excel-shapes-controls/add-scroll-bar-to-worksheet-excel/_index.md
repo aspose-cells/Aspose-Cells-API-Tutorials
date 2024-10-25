@@ -31,7 +31,7 @@ Każdy dobry projekt zaczyna się od właściwej organizacji! Najpierw musisz zd
 ```csharp
 // Ścieżka do katalogu dokumentów.
 string dataDir = "Your Document Directory";
-//Utwórz katalog, jeśli jeszcze go nie ma.
+// Utwórz katalog, jeśli jeszcze go nie ma.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -132,7 +132,7 @@ I oto masz — Twój przewodnik po dodawaniu paska przewijania do arkusza kalkul
 ### Czym jest Aspose.Cells?
 Aspose.Cells to zaawansowana biblioteka .NET umożliwiająca programistom programowe tworzenie, edytowanie i konwertowanie plików Excel.
 ### Czy mogę używać Aspose.Cells za darmo?
-Tak, Aspose.Cells oferuje bezpłatną wersję próbną, którą możesz znaleźć[Tutaj](https://releases.aspose.com/).
+ Tak, Aspose.Cells oferuje bezpłatną wersję próbną, którą możesz znaleźć[Tutaj](https://releases.aspose.com/).
 ### Jak dodać inne kontrolki do arkusza Excel?
 Możesz użyć podobnych metod, jak pokazano dla paska przewijania. Po prostu sprawdź dokumentację, aby uzyskać więcej kontroli!
 ### Jakich języków programowania mogę używać w Aspose.Cells?

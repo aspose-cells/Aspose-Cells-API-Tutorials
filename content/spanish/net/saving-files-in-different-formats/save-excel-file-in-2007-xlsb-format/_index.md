@@ -12,7 +12,7 @@ Cuando se trata de trabajar con archivos de Excel en .NET, hay mucha flexibilida
 ## Prerrequisitos
 Antes de comenzar, asegurémonos de que tienes todo lo que necesitas para seguir el proceso sin problemas. Esto es lo que deberías tener:
 1. Visual Studio: asegúrate de tener una versión de Visual Studio instalada en tu equipo. Aquí es donde escribirás el código .NET. 
-2.  Biblioteca Aspose.Cells: Necesita la biblioteca Aspose.Cells para .NET. Si aún no la ha descargado, diríjase a la[Página de descargas de Aspose](https://releases.aspose.com/cells/net/) Para agarrarlo. 
+2. Biblioteca Aspose.Cells: Necesita la biblioteca Aspose.Cells para .NET. Si aún no la ha descargado, diríjase a la[Página de descargas de Aspose](https://releases.aspose.com/cells/net/) Para agarrarlo. 
 3. Conocimientos básicos de C#: una comprensión básica de C# y .NET le ayudará a navegar por los ejemplos de código con mayor comodidad.
 4. .NET Framework: asegúrese de que su proyecto esté configurado con el marco .NET apropiado compatible con la biblioteca Aspose.Cells.
 5. Un documento de Excel: si bien crear un nuevo libro de trabajo es una opción, tener un documento inicial podría ser útil si desea manipular un archivo existente.
@@ -45,7 +45,7 @@ A continuación, crearemos un nuevo libro de trabajo utilizando la biblioteca As
 ```csharp
 Workbook workbook = new Workbook();
 ```
- Aquí, estamos creando una nueva instancia de`Workbook`clase. Este libro de trabajo recién creado es un libro de trabajo en blanco que puede comenzar a llenar con datos si lo desea.
+ Aquí, estamos creando una nueva instancia de`Workbook` clase. Este libro de trabajo recién creado es un libro de trabajo en blanco que puede comenzar a llenar con datos si lo desea.
 ## Paso 3: Guardar el libro de trabajo
 ¡Ahora viene la parte divertida: guardar tu libro de trabajo en el formato deseado!
 ```csharp
@@ -60,7 +60,7 @@ Y así, ya ha aprendido a guardar un archivo de Excel en el formato xlsb de 2007
 ### ¿Qué es la biblioteca Aspose.Cells?
 Aspose.Cells es una potente biblioteca para .NET que permite a los desarrolladores crear, modificar y manipular archivos de Excel mediante programación sin necesidad de tener instalado Microsoft Excel.
 ### ¿Puedo probar Aspose.Cells gratis?
- ¡Por supuesto! Puedes utilizar el[prueba gratis](https://releases.aspose.com/)para explorar las capacidades de la biblioteca.
+ ¡Por supuesto! Puedes utilizar el[prueba gratis](https://releases.aspose.com/) para explorar las capacidades de la biblioteca.
 ### ¿Cuál es la diferencia entre los formatos xls y xlsb?
 El formato xls es más antiguo y se basa en la estructura de archivos binarios, mientras que xlsb es un formato más nuevo que también utiliza almacenamiento binario pero permite tamaños de archivos más grandes y un procesamiento más rápido.
 ### ¿Dónde puedo comprar una licencia para Aspose.Cells?

@@ -46,7 +46,7 @@ string sourceDir = "Your Document Directory";
 ```
  Certifique-se de substituir`"YourFilePath\\"` com o caminho no qual seu arquivo FODS está armazenado.
 ## Etapa 2: Criar um objeto de pasta de trabalho
- Agora, você criará um`Workbook` objeto que nos ajudará a trabalhar com o arquivo FODS. Adicione o seguinte código em seu`Main` método:
+ Agora, você criará um`Workbook`objeto que nos ajudará a trabalhar com o arquivo FODS. Adicione o seguinte código em seu`Main` método:
 ```csharp
 Workbook workbook = new Workbook(sourceDir + "SampleFods.fods");
 ```
@@ -59,7 +59,7 @@ Console.WriteLine("FODS file opened successfully!");
 
  Isso salvará suas alterações em um novo arquivo chamado`ModifiedFods.fods`. Você também pode substituir o arquivo original, se preferir.
 ## Conclusão
-aí está! Você acabou de aprender como abrir um arquivo FODS usando o Aspose.Cells for .NET, junto com as etapas essenciais para manipular dados de planilhas de forma eficaz. Isso abre a porta para inúmeras possibilidades, seja para análise de dados ou desenvolvimento de aplicativos.
+E aí está! Você acabou de aprender como abrir um arquivo FODS usando o Aspose.Cells for .NET, junto com as etapas essenciais para manipular dados de planilhas de forma eficaz. Isso abre a porta para inúmeras possibilidades, seja para análise de dados ou desenvolvimento de aplicativos.
 Colocar a mão na massa com o código do projeto é sempre gratificante, e eu o encorajo a brincar mais com a biblioteca Aspose.Cells. Há muito mais que você pode fazer, incluindo criar novos arquivos, formatar células e muito mais!
 ## Perguntas frequentes
 ### Em quais formatos posso converter FODS usando o Aspose.Cells?
@@ -70,5 +70,5 @@ Você pode converter FODS para vários formatos, como XLSX, CSV, PDF e muito mai
 Absolutamente! Aspose.Cells suporta tanto .NET Framework quanto .NET Core.
 ### Onde posso encontrar documentação mais detalhada para Aspose.Cells?
  Você pode acessar a documentação completa[aqui](https://reference.aspose.com/cells/net/).
-### que devo fazer se encontrar um erro ao abrir um arquivo FODS?
+### O que devo fazer se encontrar um erro ao abrir um arquivo FODS?
  Verifique o caminho do arquivo, certifique-se de que ele existe e verifique se ele não está corrompido. Você também pode pedir ajuda no[Fórum de suporte Aspose](https://forum.aspose.com/c/cells/9).

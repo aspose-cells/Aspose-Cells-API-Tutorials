@@ -10,7 +10,7 @@ url: /zh/net/excel-shapes-controls/add-group-box-to-worksheet-excel/
 ## 介绍
 说到数据呈现，Excel 是王道。添加组框等交互元素可以使您的电子表格更具吸引力和用户友好性。今天，我们将深入研究 Aspose.Cells for .NET 的世界，这是一个功能强大的库，可帮助您轻松操作 Excel 工作表。但如果您不是编码高手，也不用担心——本指南将所有内容分解为简单的步骤。您准备好提高您的 Excel 技能了吗？让我们开始吧！
 ## 先决条件
-在我们进入代码之前，您需要做一些事情：
+在我们进入代码之前，您需要准备一些东西：
 1. Visual Studio：确保您的机器上安装了 Visual Studio；您将在其中编写 .NET 代码。
 2.  Aspose.Cells for .NET：您需要下载此库。您可以找到它[这里](https://releases.aspose.com/cells/net/). 
 3. C# 基础知识：虽然我会逐步解释所有内容，但对 C# 有一点了解将有助于您跟上。

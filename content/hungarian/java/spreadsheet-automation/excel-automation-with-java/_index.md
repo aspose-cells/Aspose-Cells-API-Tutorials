@@ -8,7 +8,7 @@ weight: 18
 url: /hu/java/spreadsheet-automation/excel-automation-with-java/
 ---
 
-Az Aspose.Cells, egy sokoldalú könyvtár, amely lehetővé teszi az Excel-fájlok programozott kezelését, egyszerűvé teszi az Excel automatizálását a Java nyelven. Ebben az útmutatóban különféle Excel automatizálási feladatokat mutatunk be forráskód-példákkal.
+Az Aspose.Cells segítségével, az Aspose.Cells sokoldalú könyvtárral, amely lehetővé teszi az Excel-fájlok programozott kezelését, az Excel automatizálása könnyedén megoldható. Ebben az útmutatóban különféle Excel automatizálási feladatokat mutatunk be forráskód-példákkal.
 
 
 ## 1. Bevezetés

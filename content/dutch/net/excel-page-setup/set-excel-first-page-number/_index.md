@@ -110,10 +110,10 @@ Aspose.Cells is een .NET-bibliotheek waarmee u Excel-bestanden kunt maken, bewer
  U kunt Aspose.Cells downloaden van de[website](https://releases.aspose.com/cells/net/).
 
 ### Bestaat er een gratis versie van Aspose.Cells?
-Ja! U kunt Aspose.Cells gratis uitproberen door een proefversie te downloaden[hier](https://releases.aspose.com/).
+ Ja! U kunt Aspose.Cells gratis uitproberen door een proefversie te downloaden[hier](https://releases.aspose.com/).
 
 ### Waar kan ik ondersteuning krijgen?
- Voor vragen over ondersteuning kunt u terecht op de[Aspose-forum](https://forum.aspose.com/c/cells/9).
+Voor vragen over ondersteuning kunt u terecht op de[Aspose-forum](https://forum.aspose.com/c/cells/9).
 
 ### Kan ik Aspose.Cells in een cloudomgeving gebruiken?
 Ja, Aspose.Cells kan worden geïntegreerd in elke .NET-toepassing, inclusief cloudgebaseerde installaties, zolang .NET-runtime wordt ondersteund.

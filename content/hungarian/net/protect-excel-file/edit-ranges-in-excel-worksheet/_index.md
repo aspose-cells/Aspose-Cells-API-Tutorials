@@ -16,7 +16,7 @@ Amikor az Excel-táblázatok szerkesztéséről van szó, az egyik leghatékonya
 Mielőtt belevágnánk a kódolásba, győződjünk meg arról, hogy minden be van állítva. Íme, amire szüksége van:
 
 1. Visual Studio: Győződjön meg arról, hogy telepítve van a Visual Studio. A közösségi kiadás tökéletesen működik.
-2.  Aspose.Cells Library: Szüksége van az Aspose.Cells for .NET könyvtárra. Megteheti[töltse le itt](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells Library: Szüksége van az Aspose.Cells for .NET könyvtárra. Tudod[töltse le itt](https://releases.aspose.com/cells/net/).
 3. Alapvető C# ismeretek: A C# alapvető ismerete sokat segíthet.
 4. Projektbeállítás: Hozzon létre egy új C#-konzolalkalmazást a Visual Studióban.
 
@@ -41,7 +41,7 @@ Tegyük ki a kódot a könyvtár létrehozásához (ha még nem létezik):
 ```csharp
 // A dokumentumok könyvtárának elérési útja.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-//Hozzon létre könyvtárat, ha még nincs jelen.
+// Hozzon létre könyvtárat, ha még nincs jelen.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -71,7 +71,7 @@ Worksheet sheet = book.Worksheets[0];
 
 Itt elérjük az első munkalapot, amely hasonló ahhoz, mintha egy friss papírlapot nyitna meg a jegyzetfüzetében.
 
-## 4. lépés: Kapcsolja be az Engedélyezett tartományok szerkesztését
+## 4. lépés: Kapcsolja be az Allow Edit Ranges
 
 Mielőtt beállíthatnánk a szerkeszthető tartományokat, le kell kérnünk a védett tartományok gyűjteményét a munkalapunkról.
 
@@ -95,11 +95,11 @@ int idx = allowRanges.Add("r2", 1, 1, 3, 3);
 proteced_range = allowRanges[idx];
 ```
 
-A fenti kódban létrehozunk egy "r2" nevű védett tartományt, amely lehetővé teszi a szerkesztést az 1. sor 1. oszlopától a 3. sor 3. oszlopáig (ami az Excel nyelvében A1-től C3-ig terjedő blokkot jelent). Ezeket az indexeket szükség szerint módosíthatja.
+A fenti kódban létrehozunk egy „r2” nevű védett tartományt, amely lehetővé teszi a cellák szerkesztését az 1. sor 1. oszlopától a 3. sor 3. oszlopáig (ami az Excel nyelvében A1-től C3-ig terjedő blokkot jelent). Ezeket az indexeket szükség szerint módosíthatja.
 
 ## 6. lépés: Állítson be egy jelszót 
 
-védett tartomány jelszavának beállítása biztosítja, hogy csak a jelszóval rendelkezők módosíthatják a meghatározott területet. Ez a lépés növeli a táblázat biztonságát.
+A védett tartomány jelszavának beállítása biztosítja, hogy csak a jelszóval rendelkezők módosíthatják a meghatározott területet. Ez a lépés növeli a táblázat biztonságát.
 
 ```csharp
 // Adja meg a jelszót

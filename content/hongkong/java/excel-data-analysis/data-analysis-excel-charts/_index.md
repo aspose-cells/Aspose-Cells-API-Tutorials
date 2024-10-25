@@ -2,7 +2,7 @@
 title: 數據分析 Excel 圖表
 linktitle: 數據分析 Excel 圖表
 second_title: Aspose.Cells Java Excel 處理 API
-description: 使用 Aspose.Cells for Java 解鎖卓越的數據分析能力。建立令人驚嘆的 Excel 圖表和報告。
+description: 使用 Aspose.Cells for Java 解鎖卓越的資料分析能力。建立令人驚嘆的 Excel 圖表和報告。
 type: docs
 weight: 15
 url: /zh-hant/java/excel-data-analysis/data-analysis-excel-charts/
@@ -64,7 +64,7 @@ autoFilter.setRange("A1:D1");
 
 ## 建立 Excel 圖表
 
-現在，讓我們深入研究令人興奮的部分 - 使用處理後的數據建立 Excel 圖表。 Aspose.Cells for Java 提供了多種圖表類型，從簡單的長條圖到複雜的雷達圖。
+現在，讓我們深入了解令人興奮的部分 - 使用處理後的資料建立 Excel 圖表。 Aspose.Cells for Java 提供了多種圖表類型，從簡單的長條圖到複雜的雷達圖。
 
 ```java
 //建立長條圖

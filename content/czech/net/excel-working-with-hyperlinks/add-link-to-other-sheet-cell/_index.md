@@ -30,9 +30,9 @@ Před napsáním jakéhokoli kódu musíme vytvořit nový projekt C#.
 1. Otevřete Visual Studio.
 2. Vytvořte nový projekt C# Console Application. 
 3. Pojmenujte svůj projekt nějak popisně, například „ExcelLinkDemo“.
-4. Přidejte odkaz na soubor Aspose.Cells.dll. Můžete to udělat tak, že v Průzkumníku řešení kliknete pravým tlačítkem na "Reference", vyberete "Přidat odkaz" a přejdete na místo, kam jste nainstalovali Aspose.Cells.
+4. Přidejte odkaz na soubor Aspose.Cells.dll. Můžete to udělat kliknutím pravým tlačítkem myši na "Reference" v Průzkumníku řešení, výběrem "Přidat odkaz" a přechodem na místo, kam jste nainstalovali Aspose.Cells.
 ## Krok 2: Definujte svůj výstupní adresář
-Dále musíte určit, kam chcete uložit výstupní soubor aplikace Excel. Zde je návod, jak to můžete definovat ve svém kódu:
+Dále musíte určit, kam chcete uložit výstupní soubor aplikace Excel. Zde je návod, jak jej můžete definovat ve svém kódu:
 ```csharp
 // Výstupní adresář pro váš soubor Excel
 string outputDir = "Your Document Directory"; // Nahraďte svým adresářem

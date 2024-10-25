@@ -38,7 +38,7 @@ Artık kodlamaya başlamaya hazırsınız!
 ```csharp
 // Belgeler dizinine giden yol.
 string dataDir = "Your Document Directory";
-//Eğer mevcut değilse dizin oluşturun.
+// Eğer mevcut değilse dizin oluşturun.
 bool isExists = System.IO.Directory.Exists(dataDir);
 if (!isExists)
     System.IO.Directory.CreateDirectory(dataDir);

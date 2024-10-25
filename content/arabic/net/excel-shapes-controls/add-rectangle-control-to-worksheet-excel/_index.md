@@ -37,7 +37,7 @@ string dataDir = "Your Document Directory";
  هنا، يمكنك تحديد مسار الدليل الذي سيتم تخزين ملف Excel فيه. يمكنك استبدال`"Your Document Directory"` مع المسار الفعلي على جهازك، أو قم بإنشاء مجلد بشكل ديناميكي إذا لم يكن موجودًا.
 ### التحقق من الدليل وإنشائه
 ```csharp
-//إنشاء الدليل إذا لم يكن موجودًا بالفعل.
+// إنشاء الدليل إذا لم يكن موجودًا بالفعل.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);

@@ -12,7 +12,7 @@ Heb je je ooit afgevraagd hoe je moeiteloos spreadsheetbestanden in verschillend
 ## Vereisten
 Voordat we in de details duiken, willen we eerst controleren of alles correct is ingesteld:
 - .NET Framework: Zorg ervoor dat u het .NET Framework op uw machine hebt geïnstalleerd. U kunt elke versie gebruiken die compatibel is met Aspose.Cells voor .NET.
-- Aspose.Cells-bibliotheek: U moet de Aspose.Cells-bibliotheek downloaden. Het is een krachtige tool waarmee u Excel-bestanden en meer kunt beheren. U kunt het verkrijgen via de[downloadlink](https://releases.aspose.com/cells/net/).
+-  Aspose.Cells-bibliotheek: U moet de Aspose.Cells-bibliotheek downloaden. Het is een krachtige tool waarmee u Excel-bestanden en meer kunt beheren. U kunt het verkrijgen via de[downloadlink](https://releases.aspose.com/cells/net/).
 - Ontwikkelomgeving: Een geschikte ontwikkelomgeving is essentieel, zoals Visual Studio, waar u uw .NET-code kunt schrijven en uitvoeren.
 Nu we aan de vereisten hebben voldaan, kunnen we de benodigde pakketten importeren.
 ## Pakketten importeren

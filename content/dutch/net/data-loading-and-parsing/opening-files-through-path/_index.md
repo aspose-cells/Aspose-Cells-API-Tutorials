@@ -44,7 +44,7 @@ using System;
 
 Hier is "Your Document Directory" een tijdelijke aanduiding voor het daadwerkelijke pad waar uw Excel-bestanden zijn opgeslagen. Zorg ervoor dat u dit vervangt door het juiste pad op uw systeem. 
 ## Stap 1: Een werkmapobject maken 
-Nu u de documentenmap hebt ingesteld, is de volgende stap het maken van een exemplaar van de`Workbook` klasse om uw Excel-bestand te openen.
+ Nu u de documentenmap hebt ingesteld, is de volgende stap het maken van een exemplaar van de`Workbook`klasse om uw Excel-bestand te openen.
 
 ```csharp
 // Het pad naar de documentenmap.
@@ -64,17 +64,17 @@ Console.WriteLine("Workbook opened using path successfully!");
 
 Deze eenvoudige regel zal een bericht in uw console afdrukken dat bevestigt dat de werkmap is geopend. Het geeft u feedback en zorgt ervoor dat uw programma werkt zoals bedoeld.
 
- Hier hebben we onze code verpakt in een`try-catch`blok. Dit betekent dat als er iets fout gaat bij het openen van de werkmap, uw programma dit netjes zal afhandelen door u te vertellen wat er is gebeurd, in plaats van een woedeaanval te geven.
+ Hier hebben we onze code verpakt in een`try-catch` blok. Dit betekent dat als er iets fout gaat bij het openen van de werkmap, uw programma dit netjes zal afhandelen door u te vertellen wat er is gebeurd, in plaats van een woedeaanval te geven.
 ## Conclusie
- Excel-bestanden openen met Aspose.Cells voor .NET is een fluitje van een cent als je eenmaal weet wat je doet! Zoals je hebt gezien, omvat het proces het instellen van je documentdirectory, het maken van een`Workbook` object en controleren of alles werkt met een print statement. Met de kracht van Aspose.Cells in uw arsenaal bent u uitgerust om uw Excel-vaardigheden naar een hoger niveau te tillen: alledaagse taken automatiseren en soepel gegevensbeheer faciliteren.
+Excel-bestanden openen met Aspose.Cells voor .NET is een fluitje van een cent als je eenmaal weet wat je doet! Zoals je hebt gezien, omvat het proces het instellen van je documentdirectory, het maken van een`Workbook` object en controleren of alles werkt met een print statement. Met de kracht van Aspose.Cells in uw arsenaal bent u uitgerust om uw Excel-vaardigheden naar een hoger niveau te tillen: alledaagse taken automatiseren en soepel gegevensbeheer faciliteren.
 ## Veelgestelde vragen
 ### Wat is Aspose.Cells voor .NET?
 Aspose.Cells voor .NET is een .NET-bibliotheek waarmee ontwikkelaars Excel-bestanden kunnen maken, bewerken en converteren zonder dat ze Microsoft Excel nodig hebben.
 ### Moet ik Microsoft Excel geïnstalleerd hebben om Aspose.Cells te kunnen gebruiken?
 Nee! Aspose.Cells werkt onafhankelijk van Microsoft Excel en vereist geen installatie ervan.
 ### Kan ik meerdere Excel-bestanden tegelijk openen?
-Absoluut! Je kunt meerdere`Workbook` objecten voor verschillende bestanden op vergelijkbare wijze.
+ Absoluut! Je kunt meerdere`Workbook` objecten voor verschillende bestanden op vergelijkbare wijze.
 ### Welke bestandstypen kan Aspose.Cells openen?
 Aspose.Cells kan .xls, .xlsx, .csv en andere Excel-formaten openen.
 ### Waar kan ik de Aspose.Cells-documentatie vinden?
- U kunt uitgebreide documentatie vinden[hier](https://reference.aspose.com/cells/net/).
+ kunt uitgebreide documentatie vinden[hier](https://reference.aspose.com/cells/net/).

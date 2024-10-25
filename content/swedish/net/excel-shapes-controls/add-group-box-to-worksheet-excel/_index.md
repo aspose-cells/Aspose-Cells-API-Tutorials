@@ -37,7 +37,7 @@ Innan du skapar en Excel-fil måste du bestämma var du vill spara den. Låt oss
 ```csharp
 // Sökvägen till dokumentkatalogen
 string dataDir = "Your Document Directory"; // Ange önskad väg
-//Skapa katalog om den inte redan finns.
+// Skapa katalog om den inte redan finns.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);

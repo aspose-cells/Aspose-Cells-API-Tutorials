@@ -16,7 +16,7 @@ Dans le monde numérique d'aujourd'hui, la sécurisation des documents est plus 
 Avant de passer aux choses sérieuses du codage, vous devez mettre en place quelques éléments :
 
 1.  Aspose.Cells pour .NET : Assurez-vous que la bibliothèque Aspose.Cells est installée dans votre projet .NET. Vous pouvez la télécharger à partir du[site](https://releases.aspose.com/cells/net/).
-2.  Fichier de certificat : vous aurez besoin d'un fichier de certificat valide (généralement un`.pfx` (fichier) qui contient votre certificat numérique. Assurez-vous de connaître le mot de passe de ce fichier.
+2.  Fichier de certificat : vous aurez besoin d'un fichier de certificat valide (généralement un`.pfx`(fichier) qui contient votre certificat numérique. Assurez-vous de connaître le mot de passe de ce fichier.
 3. Environnement de développement : configurez votre environnement de développement avec Visual Studio ou tout autre IDE prenant en charge .NET.
 4. Connaissances de base de C# : La familiarité avec la programmation C# vous aidera à suivre en douceur.
 5. Exemples de fichiers : disposez d'un exemple de fichier Excel déjà signé numériquement. Ce sera le fichier auquel vous ajouterez une nouvelle signature.
@@ -51,7 +51,7 @@ Dans cette étape, nous utilisons une méthode pour obtenir les chemins d'accès
 
 ## Étape 2 : charger le classeur déjà signé
 
-Ensuite, vous devrez charger le classeur Excel que vous souhaitez modifier. Pour cela, créez une instance de`Workbook` classe et en passant le chemin du fichier signé.
+ Ensuite, vous devrez charger le classeur Excel que vous souhaitez modifier. Pour cela, créez une instance de`Workbook` classe et en passant le chemin du fichier signé.
 
 ```csharp
 // Charger le classeur qui est déjà signé numériquement
@@ -84,7 +84,7 @@ string password = "aspose";
 System.Security.Cryptography.X509Certificates.X509Certificate2 certificate = new System.Security.Cryptography.X509Certificates.X509Certificate2(certFileName, password);
 ```
 
- Assurez-vous de remplacer`AsposeDemo.pfx` et le mot de passe avec votre nom de fichier de certificat et votre mot de passe réels.
+ Assurez-vous de remplacer`AsposeDemo.pfx`et le mot de passe avec votre nom de fichier de certificat et votre mot de passe réels.
 
 ## Étape 5 : Créer la signature numérique
 
@@ -113,7 +113,7 @@ En exécutant cette ligne, vous attachez effectivement la nouvelle signature num
 Enfin, vous souhaiterez enregistrer le classeur modifié dans votre répertoire de sortie et libérer toutes les ressources utilisées.
 
 ```csharp
-// Enregistrez le classeur et jetez-le.
+//Enregistrez le classeur et jetez-le.
 workbook.Save(outputDir + "outputDigitallySignedByCells.xlsx");
 workbook.Dispose();
 ```

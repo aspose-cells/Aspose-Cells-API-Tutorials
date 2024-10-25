@@ -18,7 +18,7 @@ Trước khi bắt đầu, đây là một số điều bạn cần lưu ý đ�
 1. Kiến thức cơ bản về C#: Vì chúng ta sẽ viết mã bằng C#, nên việc hiểu biết cơ bản về ngôn ngữ này sẽ giúp bạn nắm bắt các khái niệm một cách nhanh chóng.
 2.  Aspose.Cells cho Thư viện .NET: Bạn sẽ cần tải xuống thư viện Aspose.Cells cho .NET. Bạn có thể lấy nó từ[Liên kết tải xuống](https://releases.aspose.com/cells/net/).
 3. Visual Studio: Đây là môi trường tuyệt vời để viết và kiểm tra mã .NET của bạn. Hãy đảm bảo rằng bạn đã cài đặt đúng cách trên máy của mình. 
-4. Tệp Excel: Bạn sẽ cần một tệp Excel có chứa một số công thức để làm việc. Chúng tôi sẽ sử dụng một tệp có tên`Book1.xlsx`, nhưng bạn có thể thoải mái sử dụng của riêng bạn!
+4.  Tệp Excel: Bạn sẽ cần một tệp Excel có chứa một số công thức để làm việc. Chúng tôi sẽ sử dụng một tệp có tên`Book1.xlsx`nhưng bạn có thể thoải mái sử dụng của riêng bạn!
 
 Sẵn sàng thắt dây an toàn và bắt đầu theo dõi các tế bào đó chưa? Hãy cùng đi vào chi tiết nhé!
 
@@ -84,11 +84,11 @@ Bây giờ chúng ta đã mở sổ làm việc, đã đến lúc chúng ta th�
 Cells cells = workbook.Worksheets[0].Cells;
 ```
 
-Giải thích: Mã trên nhắm mục tiêu vào bảng tính đầu tiên (chỉ mục 0) trong sổ làm việc của chúng tôi và truy xuất`Cells` bộ sưu tập mà chúng ta sẽ sử dụng để theo dõi người phụ thuộc.
+ Giải thích: Mã trên nhắm mục tiêu vào bảng tính đầu tiên (chỉ mục 0) trong sổ làm việc của chúng tôi và truy xuất`Cells` bộ sưu tập mà chúng ta sẽ sử dụng để theo dõi người phụ thuộc.
 
 ## Bước 4: Chọn ô
 
- Với mục đích trình diễn, chúng tôi muốn theo dõi những người phụ thuộc vào một tế bào cụ thể—trong trường hợp này,`B2`. Hãy mã hóa điều đó:
+Với mục đích trình diễn, chúng tôi muốn theo dõi những người phụ thuộc vào một tế bào cụ thể—trong trường hợp này,`B2`. Hãy mã hóa điều đó:
 
 ```csharp
 Cell cell = cells["B2"];
@@ -118,7 +118,7 @@ foreach (Cell c in cell.GetDependents(true))
 Console.ReadKey();
 ```
 
-Giải thích: Vòng lặp này đi qua từng ô phụ thuộc trong mảng của chúng ta và in tên của nó—khá đơn giản!`Console.ReadKey()` đảm bảo rằng cửa sổ bảng điều khiển vẫn mở cho đến khi bạn nhấn phím, cho bạn thời gian để đọc kết quả.
+ Giải thích: Vòng lặp này đi qua từng ô phụ thuộc trong mảng của chúng ta và in tên của nó—khá đơn giản!`Console.ReadKey()` đảm bảo rằng cửa sổ bảng điều khiển vẫn mở cho đến khi bạn nhấn phím, cho bạn thời gian để đọc kết quả.
 
 ## Phần kết luận
 

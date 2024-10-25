@@ -12,9 +12,9 @@ Ha valaha is dolgozott Excellel, valószínűleg találkozott már azokkal a kis
 ## Előfeltételek
 Mielőtt belemerülne a tényleges kódba, győződjön meg arról, hogy mindent megfelelően beállított:
 1.  Aspose.Cells for .NET: Le kell töltenie az Aspose.Cells for .NET könyvtárat. A letöltési linket megtalálod[itt](https://releases.aspose.com/cells/net/).
-2. .NET fejlesztői környezet: Minden IDE, amely támogatja a .NET-et, például a Visual Studio, működik.
+2. .NET fejlesztői környezet: Bármely IDE, amely támogatja a .NET-et, például a Visual Studio, működik.
 3. Alapvető C# ismerete: Ez az oktatóanyag feltételezi, hogy ismeri az alapvető C# szintaxist és az Excel munkafüzetek szerkezetét.
-4.  Excel-fájl: Meglévő Excel-fájl szövegdobozokkal (a továbbiakban:`book1.xls`ebben a példában).
+4.  Excel-fájl: Egy létező Excel-fájl szövegmezőkkel (ezt fogjuk használni`book1.xls`ebben a példában).
 5.  Aspose License: Ha nem használja az ingyenes próbaverziót, akkor szüksége lesz rá[vétel](https://purchase.aspose.com/buy) engedélyt vagy szerezzen a[ideiglenes](https://purchase.aspose.com/temporary-license/).
 Most pedig merüljünk el a lépésekben!
 ## Csomagok importálása
@@ -36,7 +36,7 @@ Ezután be kell töltenie a meglévő Excel-fájlt az Aspose.Cells munkafüzet o
 ```csharp
 Workbook workbook = new Workbook(dataDir + "book1.xls");
 ```
- A`Workbook` Az Aspose.Cells osztály betölti a megadott Excel fájlt a könyvtárából. Ha a fájl nem létezik a megadott könyvtárban, kivételt dob, ezért ellenőrizze, hogy az elérési út helyes-e.
+ A`Workbook` Az Aspose.Cells osztály betölti a megadott Excel fájlt a könyvtárából. Ha a fájl nem létezik a megadott könyvtárban, akkor kivételt dob, ezért ellenőrizze, hogy az elérési út helyes-e.
 ## 3. lépés: Nyissa meg az első munkalapot
 Most, hogy betöltötte a munkafüzetet, hozzáférhet a munkalapjaihoz. Ebben a példában a munkafüzet első munkalapját érjük el, amely a 0 indexen van tárolva.
 ```csharp

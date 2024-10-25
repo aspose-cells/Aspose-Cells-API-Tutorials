@@ -26,7 +26,7 @@ Sobald Sie alle Voraussetzungen erfüllt haben, besteht der nächste Schritt dar
 
 1. Öffnen Sie Ihr Projekt: Starten Sie Visual Studio und öffnen Sie Ihr vorhandenes Projekt oder erstellen Sie ein neues.
 2. NuGet-Pakete verwalten: Klicken Sie im Projektmappen-Explorer mit der rechten Maustaste auf Ihr Projekt und wählen Sie dann „NuGet-Pakete verwalten“.
-3.  Suchen und installieren Sie Aspose.Cells: Geben Sie in das Suchfeld ein`Aspose.Cells` und installieren Sie das Paket. Dadurch wird sichergestellt, dass die neueste Version in Ihr Projekt integriert ist.
+3.  Suchen und installieren Sie Aspose.Cells: Geben Sie in das Suchfeld ein`Aspose.Cells`und installieren Sie das Paket. Dadurch wird sichergestellt, dass die neueste Version in Ihr Projekt integriert ist.
 4. Using-Direktive hinzufügen: Fügen Sie in Ihrer Codedatei die folgende Direktive hinzu, um den Aspose.Cells-Namespace zu verwenden:
 
 ```csharp

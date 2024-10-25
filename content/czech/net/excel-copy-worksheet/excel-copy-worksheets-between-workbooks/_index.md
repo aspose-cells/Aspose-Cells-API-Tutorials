@@ -15,9 +15,9 @@ Přistihli jste se někdy, že ručně kopírujete listy mezi sešity aplikace E
 
 Než se ponoříme do kódu, ujistěte se, že jste vybaveni správnými nástroji, abyste mohli začít:
 
-- Aspose.Cells for .NET: Můžete si jej stáhnout[zde](https://releases.aspose.com/cells/net/).
+-  Aspose.Cells for .NET: Můžete si jej stáhnout[zde](https://releases.aspose.com/cells/net/).
 - Visual Studio nebo jakékoli IDE, které podporuje .NET framework.
--  Platná licence nebo a[dočasná licence](https://purchase.aspose.com/temporary-license/) pokud chcete otestovat plnou funkčnost Aspose.Cells.
+-  Platná licence nebo a[dočasná licence](https://purchase.aspose.com/temporary-license/)pokud chcete otestovat plnou funkčnost Aspose.Cells.
 - Základní znalost C# a .NET frameworku.
 
  Můžete se také podívat na[Dokumentace Aspose.Cells](https://reference.aspose.com/cells/net/) pro další podrobnosti.
@@ -33,7 +33,7 @@ using Aspose.Cells;
 Tento jednoduchý řádek kódu importuje knihovnu Aspose.Cells, která je vaší bránou ke všem kouzlům Excelu, na kterých se chystáme pracovat.
 
 
-Nyní, když máte vše nastaveno, pojďme si projít proces kopírování listů mezi sešity aplikace Excel. Každý krok je rozčleněn pro snadné pochopení. Takže i když jste v Aspose.Cells noví, budete moci pokračovat.
+Nyní, když máte vše nastaveno, pojďme si projít proces kopírování listů mezi sešity aplikace Excel. Každý krok je rozepsán pro snadné pochopení. Takže i když jste v Aspose.Cells noví, budete moci pokračovat.
 
 ## Krok 1: Nastavte adresář dokumentů
 
@@ -44,7 +44,7 @@ Nejprve musíte definovat, kde se vaše soubory nacházejí. Berte tento krok ja
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- V tomto řádku vyměňte`"YOUR DOCUMENT DIRECTORY"` se skutečnou cestou k vašim souborům Excel. Odtud se budou načítat a ukládat vaše sešity.
+ V tomto řádku vyměňte`"YOUR DOCUMENT DIRECTORY"`se skutečnou cestou k vašim souborům Excel. Odtud se budou načítat a ukládat vaše sešity.
 
 ## Krok 2: Otevřete první sešit
 
@@ -64,7 +64,7 @@ Workbook excelWorkbook0 = new Workbook(InputPath);
 Nyní, když máte otevřený první sešit, je čas vytvořit další prázdný sešit, kam vložíte zkopírovaný sešit. Berte to jako otevření nového prázdného poznámkového bloku, kam přenesete data.
 
 ```csharp
-//Vytvořte další sešit.
+// Vytvořte další sešit.
 Workbook excelWorkbook1 = new Workbook();
 ```
 

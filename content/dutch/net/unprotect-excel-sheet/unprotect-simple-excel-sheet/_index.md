@@ -62,7 +62,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY"; // Verander dit naar uw werkelijke p
 
 ## Stap 2: Het werkmapobject instantiëren
 
- Vervolgens moet u een exemplaar van de maken`Workbook` klasse om uw Excel-bestand te openen.
+ Vervolgens moet u een exemplaar van de maken`Workbook`klasse om uw Excel-bestand te openen.
 
 ```csharp
 Workbook workbook = new Workbook(dataDir + "book1.xls");
@@ -72,7 +72,7 @@ Door het pad naar uw Excel-bestand op te geven (`book1.xls`), laadt u het docume
 
 ## Stap 3: Toegang tot het werkblad
 
-Laten we nu het werkblad benaderen dat u wilt opheffen. Over het algemeen geldt dat als u maar één werkblad hebt, dit het eerste is (index 0).
+Laten we nu het werkblad openen waarvan u de beveiliging wilt opheffen. Als u over het algemeen maar één werkblad hebt, is dit het eerste (index 0).
 
 ```csharp
 Worksheet worksheet = workbook.Worksheets[0];

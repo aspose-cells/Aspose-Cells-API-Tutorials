@@ -16,7 +16,7 @@ url: /el/net/excel-page-setup/copy-page-setup-settings-from-other-worksheet/
 Προτού μεταβούμε στον κώδικα, υπάρχουν μερικά βασικά στοιχεία που θα πρέπει να έχετε στη θέση του:
 
 1. Περιβάλλον ανάπτυξης .NET: Βεβαιωθείτε ότι έχετε ρυθμίσει ένα περιβάλλον συμβατό με .NET, όπως το Visual Studio ή οποιοδήποτε άλλο IDE της επιλογής σας.
-2.  Aspose.Cells Library: Θα χρειαστείτε τη βιβλιοθήκη Aspose.Cells. Μπορείς[κατεβάστε το εδώ](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells Library: Θα χρειαστείτε τη βιβλιοθήκη Aspose.Cells. Μπορείτε[κατεβάστε το εδώ](https://releases.aspose.com/cells/net/).
 3. Βασική κατανόηση της C#: Η γνώση των βασικών αρχών της C# σίγουρα θα σας βοηθήσει να κατανοήσετε καλύτερα τις έννοιες.
 4.  Aspose.Cells Documentation: Εξοικειωθείτε με το[απόδειξη με έγγραφα](https://reference.aspose.com/cells/net/)για τυχόν προηγμένες διαμορφώσεις ή πρόσθετες λειτουργίες που μπορεί να σας φανούν χρήσιμες αργότερα.
 

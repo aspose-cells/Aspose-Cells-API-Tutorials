@@ -53,7 +53,7 @@ Następnie utworzymy wystąpienie skoroszytu. To tak, jakby otworzyć nowe puste
 Workbook workbook = new Workbook();
 ```
 
-Wyjaśnienie:`Workbook` Klasa reprezentuje plik Excel. Tworząc go, zasadniczo tworzysz nowy dokument Excel, którym możesz manipulować.
+ Wyjaśnienie:`Workbook` Klasa reprezentuje plik Excel. Tworząc go, zasadniczo tworzysz nowy dokument Excel, którym możesz manipulować.
 
 ## Krok 3: Uzyskaj dostęp do pierwszego arkusza kalkulacyjnego
 
@@ -138,7 +138,7 @@ flg.Font = true; // Włącz atrybuty czcionek
 flg.CellShading = true; // Włącz cieniowanie komórek
 ```
 
-Wyjaśnienie:`StyleFlag` obiekt informuje bibliotekę, jakie właściwości stylu chcemy zastosować — trochę jak odznaczanie pól na liście rzeczy do zrobienia!
+ Wyjaśnienie:`StyleFlag` obiekt informuje bibliotekę, jakie właściwości stylu chcemy zastosować — trochę jak odznaczanie pól na liście rzeczy do zrobienia!
 
 ## Krok 11: Zastosuj styl do zakresu
 

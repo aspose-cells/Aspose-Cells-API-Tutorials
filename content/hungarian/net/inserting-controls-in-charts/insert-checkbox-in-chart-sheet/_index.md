@@ -31,14 +31,14 @@ Ha ezeket az előfeltételeket kijelöli a listáról, készen állunk a cselekv
 
 ## Csomagok importálása
 
-A kezdéshez állítsuk be projektünket a Visual Studio-ban, és importáljuk a szükséges csomagokat. Íme egy egyszerű, lépésről lépésre útmutató:
+A kezdéshez állítsuk be projektünket a Visual Studióban, és importáljuk a szükséges csomagokat. Íme egy egyszerű, lépésről lépésre útmutató:
 
 ### Hozzon létre egy új projektet
 
 Nyissa meg a Visual Studio-t, és hozzon létre egy új konzolalkalmazás-projektet. Csak kövesse az alábbi egyszerű lépéseket:
 - Kattintson az „Új projekt létrehozása” gombra.
 - Válassza a „Console App (.NET Framework)” lehetőséget a lehetőségek közül.
-- Nevezze el projektjét valami olyasmivel, mint "CheckboxInChart".
+- Nevezze el projektjét valami ilyesmivel: "CheckboxInChart".
 
 ### Telepítse az Aspose.Cells programot a NuGet segítségével
 
@@ -60,17 +60,17 @@ Most befejezte a beállítást! Ez olyan, mint egy szilárd alapot lefektetni a 
 
 Most, hogy készen vagyunk, merüljünk bele a kódolási részbe! Az alábbiakban részletesen leírjuk, hogyan lehet jelölőnégyzetet beszúrni egy diagramlapba az Aspose.Cells használatával.
 
-## 1. lépés: Határozza meg kimeneti könyvtárát
+## 1. lépés: Határozza meg a kimeneti könyvtárát
 
 Mielőtt rátérnénk az izgalmas részre, meg kell határoznunk, hova szeretnénk menteni a fájlunkat. Meg kell adnia a kimeneti könyvtár elérési útját.
 ```csharp
 string outputDir = "C:\\YourOutputDirectory\\"; // Váltson át a megadott könyvtárra
 ```
- Ügyeljen arra, hogy cserélje ki`"C:\\YourOutputDirectory\\"` azzal az elérési úttal, ahová a fájlt menteni szeretné. Tekintse ezt úgy, mint a munkaterület felállítását; tudnia kell, hová helyezi az eszközeit (vagy ebben az esetben az Excel-fájlt).
+ Ügyeljen arra, hogy cserélje ki`"C:\\YourOutputDirectory\\"` azzal az elérési úttal, ahová a fájlt menteni szeretné. Gondoljon erre úgy, mint a munkaterület felállítására; tudnia kell, hová helyezi az eszközeit (vagy ebben az esetben az Excel-fájlt).
 
 ## 2. lépés: Munkafüzet-objektum példányosítása
 
-Ezután létrehozzuk a`Workbook` osztály. Itt zajlik majd minden munkánk.
+ Ezután létrehozzuk a`Workbook` osztály. Itt zajlik majd minden munkánk.
 ```csharp
 Workbook workbook = new Workbook();
 ```

@@ -39,7 +39,7 @@ string dataDir = "Your Document Directory";
 ```
  Mengganti`"Your Document Directory"` dengan jalur sebenarnya tempat file Excel Anda berada. Misalnya, jika disimpan di`C:\Documents` , kamu akan menulis`string dataDir = "C:\\Documents";`Garis miring terbalik ganda diperlukan dalam C# untuk menghindari karakter garis miring terbalik.
 ## Langkah 2: Buat Instansi LoadOptions
- Selanjutnya, Anda perlu membuat instance dari`LoadOptions`Kelas ini membantu kita menentukan berbagai opsi pemuatan, termasuk kata sandi yang diperlukan untuk membuka file terenkripsi.
+ Selanjutnya, Anda perlu membuat instance dari`LoadOptions` Kelas ini membantu kita menentukan berbagai opsi pemuatan, termasuk kata sandi yang diperlukan untuk membuka file terenkripsi.
 ```csharp
 // Membuat Instansi LoadOptions
 LoadOptions loadOptions = new LoadOptions();
@@ -58,7 +58,7 @@ loadOptions.Password = "1234"; // Ganti "1234" dengan kata sandi Anda yang seben
 // Buat objek Buku Kerja dan buka file dari jalurnya
 Workbook wbEncrypted = new Workbook(dataDir + "encryptedBook.xls", loadOptions);
 ```
- Di sini, Anda sedang membangun yang baru`Workbook` objek dan meneruskan jalur ke file terenkripsi Anda dan`loadOptions`yang menyertakan kata sandi Anda. Jika semuanya berjalan lancar, baris ini akan berhasil membuka berkas terenkripsi Anda.
+ Di sini, Anda sedang membangun yang baru`Workbook` objek dan meneruskan jalur ke file terenkripsi Anda dan`loadOptions` yang menyertakan kata sandi Anda. Jika semuanya berjalan lancar, baris ini akan berhasil membuka berkas terenkripsi Anda.
 ## Langkah 5: Konfirmasikan Akses Berhasil ke File
 Terakhir, ada baiknya Anda mengonfirmasi bahwa Anda telah berhasil membuka berkas tersebut. 
 ```csharp
@@ -70,7 +70,7 @@ Selamat! Anda telah berhasil mempelajari cara membuka file Excel terenkripsi men
  Ingat, bekerja dengan file terenkripsi bisa jadi sulit, tetapi dengan alat seperti Aspose.Cells, hal itu akan menjadi mudah. Jika Anda ingin menggali lebih dalam, periksa[dokumentasi](https://reference.aspose.com/cells/net/) untuk fitur yang lebih canggih.
 ## Pertanyaan yang Sering Diajukan
 ### Bisakah saya membuka file Excel yang dienkripsi dengan kata sandi yang berbeda?
- Ya, cukup perbarui`Password` lapangan di`LoadOptions`untuk mencocokkan kata sandi berkas Excel yang ingin Anda buka.
+ Ya, cukup perbarui`Password` lapangan di`LoadOptions` untuk mencocokkan kata sandi berkas Excel yang ingin Anda buka.
 ### Apakah Aspose.Cells gratis untuk digunakan?
  Aspose.Cells tidak gratis; namun, Anda dapat memulai dengan[uji coba gratis](https://releases.aspose.com/) untuk menjelajahi fitur-fiturnya.
 ### Jenis file Excel apa yang dapat ditangani Aspose.Cells?

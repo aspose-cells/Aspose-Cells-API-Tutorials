@@ -33,7 +33,7 @@ Knihovnu Aspose.Cells for Java si můžete stáhnout z webu. Po stažení postup
 Chcete-li používat Aspose.Cells pro Java, budete muset inicializovat licenci. Tento krok je nezbytný pro odstranění jakýchkoli omezení hodnocení a odemknutí plného potenciálu knihovny.
 
 ```java
-// Inicializujte licenci Aspose.Cells
+//Inicializujte licenci Aspose.Cells
 License license = new License();
 license.setLicense("path_to_license_file.xml");
 ```
@@ -88,7 +88,7 @@ Chart chart = worksheet.getCharts().get(chartIndex);
 // Nastavení rozsahu dat pro graf
 chart.getNSeries().add("A2:B4", true);
 
-//Přizpůsobení atributů grafu
+// Přizpůsobení atributů grafu
 chart.getChartArea().getBorder().setVisible(false);
 chart.getChartTitle().setText("3D Bar Chart");
 ```
@@ -138,7 +138,7 @@ Aspose.Cells for Java vám umožňuje integrovat data z různých zdrojů do va�
 
 ## Závěr
 
-V tomto článku jsme prozkoumali, jak vytvořit 3D grafy pomocí Aspose.Cells pro Java. Probrali jsme nastavení, základní tvorbu grafů, přizpůsobení a pokročilé funkce práce s 3D grafy. Aspose.Cells for Java poskytuje robustní a uživatelsky přívětivou platformu pro generování vizuálně přitažlivých a informativních 3D grafů v Excelu.
+tomto článku jsme prozkoumali, jak vytvořit 3D grafy pomocí Aspose.Cells pro Java. Probrali jsme nastavení, základní tvorbu grafů, přizpůsobení a pokročilé funkce práce s 3D grafy. Aspose.Cells for Java poskytuje robustní a uživatelsky přívětivou platformu pro generování vizuálně přitažlivých a informativních 3D grafů v Excelu.
 
 ## FAQ
 

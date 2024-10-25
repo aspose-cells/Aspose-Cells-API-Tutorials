@@ -38,7 +38,7 @@ using System.Drawing;
 Первый шаг — настроить каталог, в котором вы сохраните свой файл Excel. Это поможет вам легко управлять выходными файлами.
 ```csharp
 string dataDir = "Your Document Directory";
-//Создайте каталог, если его еще нет.
+// Создайте каталог, если его еще нет.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);

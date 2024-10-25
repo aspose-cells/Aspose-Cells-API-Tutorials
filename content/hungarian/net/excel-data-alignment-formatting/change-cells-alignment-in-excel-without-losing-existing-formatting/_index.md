@@ -16,7 +16,7 @@ Az Excel-fájlok kezelése néha olyan érzés lehet, mintha egy labirintusban n
 Mielőtt belemerülnénk a tényleges kódolásba, elengedhetetlen, hogy minden megfelelően be legyen állítva. Íme, amire szüksége lesz:
 
 1. Visual Studio: Győződjön meg arról, hogy a Visual Studio (bármilyen verzió, amely támogatja a .NET-et) telepítve van a számítógépén.
-2.  Aspose.Cells for .NET: Töltse le és telepítse az Aspose.Cells könyvtárat innen[Aspose oldala](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells for .NET: Töltse le és telepítse az Aspose.Cells könyvtárat innen[Aspose oldala](https://releases.aspose.com/cells/net/).
 3. Alapvető C# ismerete: Hasznos lesz egy kis C# programozási ismerete, mivel C# kontextusban fogunk dolgozni.
 4.  Minta Excel fájl: A demonstrációhoz készítsen egy Excel minta fájlt (pl.`sampleChangeCellsAlignmentAndKeepExistingFormatting.xlsx`), amely tartalmaz néhány kezdeti cellaformázást.
 
@@ -50,7 +50,7 @@ Most, hogy az előfeltételeinket rendeztük és a csomagokat importáltuk, bont
 
 ## 1. lépés: Állítsa be a forrás- és kimeneti könyvtárakat
 
-A kezdéshez meg kell határoznia, hogy hol tárolja az Excel-fájlt, és hova szeretné menteni a feldolgozás után.
+kezdéshez meg kell határoznia, hogy hol tárolja az Excel-fájlt, és hova szeretné menteni a feldolgozás után.
 
 ```csharp
 // Forrás könyvtár
@@ -89,7 +89,7 @@ Ez a példa az első munkalapot éri el. Ha az adatok egy másik lapon vannak, m
 Határozza meg, mely cellákat szeretné módosítani egy tartomány létrehozásával. Ez a kiválasztás egy meghatározott tartományra összpontosít, például „B2:D7”.
 
 ```csharp
-// Hozzon létre cellatartományt.
+//Hozzon létre cellatartományt.
 Range rng = ws.Cells.CreateRange("B2:D7");
 ```
 
@@ -122,14 +122,14 @@ StyleFlag flag = new StyleFlag();
 flag.Alignments = true;
 ```
 
- Beállításával a`Alignments` StyleFlag tulajdona`true`, akkor megmondja az Aspose.Cells-nek, hogy megfelelően alkalmazza az igazítási stílusokat.
+ Beállításával a`Alignments` a StyleFlag tulajdona`true`, akkor megmondja az Aspose.Cells-nek, hogy megfelelően alkalmazza az igazítási stílusokat.
 
 ## 7. lépés: Alkalmazza a stílust a cellatartományra
 
 Ha a stílusok és zászlók a helyükön vannak, itt az ideje alkalmazni ezeket a stílusokat a cellák tartományára:
 
 ```csharp
-// Stílus alkalmazása a cellák tartományára.
+//Stílus alkalmazása a cellák tartományára.
 rng.ApplyStyle(st, flag);
 ```
 
@@ -158,7 +158,7 @@ Ez az üzenet akkor jelenik meg a konzolon, ha a művelet probléma nélkül bef
 
 ## Következtetés
 
-cellaigazítás módosítása az Excelben a meglévő formázás érintetlen megőrzése mellett az Aspose.Cells for .NET segítségével zökkenőmentes folyamat. Az alábbi lépések követésével leegyszerűsítheti az Excel-kezelést az alkalmazásokban, és elkerülheti az értékes formázások elvesztésével járó fejfájást. Akár jelentéseket készít, akár adatfolyamokat kezel, ennek a készségnek az elsajátítása megváltoztathatja a játékot!
+A cellaigazítás módosítása az Excelben a meglévő formázás érintetlen megőrzése mellett az Aspose.Cells for .NET segítségével zökkenőmentes folyamat. Az alábbi lépések követésével leegyszerűsítheti az Excel-kezelést az alkalmazásokban, és elkerülheti az értékes formázások elvesztésével járó fejfájást. Akár jelentéseket készít, akár adatfolyamokat kezel, ennek a készségnek az elsajátítása megváltoztathatja a játékot!
 
 ## GYIK
 

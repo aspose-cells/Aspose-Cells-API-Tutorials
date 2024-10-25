@@ -16,7 +16,7 @@ url: /zh-hant/net/excel-security/advanced-protection-settings-for-excel-workshee
 在深入研究程式碼之前，讓我們確保您擁有所需的一切：
 
 1. 開發環境：您的電腦上應該安裝 Visual Studio，因為它為 .NET 開發提供了出色的 IDE。
-2. Aspose.Cells 庫：下載 Aspose.Cells 庫。您可以從[Aspose 下載頁面](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells 庫：下載 Aspose.Cells 庫。您可以從[Aspose 下載頁面](https://releases.aspose.com/cells/net/).
 3. 基本 C# 知識：確保您充分了解 C# 和 .NET Framework，以便輕鬆掌握。
 4. 建立專案：在 Visual Studio 中設定一個新的控制台應用程序，我們將在其中編寫程式碼。
 
@@ -46,7 +46,7 @@ using Aspose.Cells;
 
 讓我們將實施分解為可管理的步驟。我們將建立一個簡單的 Excel 文件，套用保護設定並儲存變更。
 
-## 步驟 1：為 Excel 檔案建立檔案流
+## 第 1 步：為 Excel 檔案建立檔案流
 
 首先，我們需要載入現有的 Excel 檔案。我們將使用一個`FileStream`來訪問它。
 
@@ -77,7 +77,7 @@ Workbook excel = new Workbook(fstream);
 //存取 Excel 文件中的第一個工作表
 Worksheet worksheet = excel.Worksheets[0];
 ```
-工作表從零開始索引，所以`Worksheets[0]`指 Excel 檔案中的第一張工作表。現在，我們可以將保護設定套用到此特定工作表。
+工作表從零開始索引，因此`Worksheets[0]`指 Excel 檔案中的第一張工作表。現在，我們可以將保護設定套用到此特定工作表。
 
 ## 步驟 4：套用進階保護設定
 

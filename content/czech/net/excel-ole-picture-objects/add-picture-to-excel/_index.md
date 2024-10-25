@@ -21,12 +21,12 @@ using System.IO;
 using Aspose.Cells;
 ```
 Tento krok zajistí, že všechny třídy v knihovně Aspose.Cells budou přístupné ve vašem projektu.
-Nyní si rozeberme proces přidávání obrázku do listu aplikace Excel pomocí Aspose.Cells. Budeme pečlivě sledovat každý krok, takže jej můžete zopakovat bez škytavky.
+Nyní si rozeberme proces přidávání obrázku do listu aplikace Excel pomocí Aspose.Cells. Budeme pečlivě sledovat každý krok, takže jej můžete zopakovat bez škytání.
 ## Krok 1: Nastavte adresář dokumentů
 Vytvořte adresář pro ukládání dokumentů
 Než s sešitem něco uděláme, potřebujeme místo, kam ho uložit. Upřesníme tento adresář dokumentů:
 ```csharp
-string dataDir = "Your Document Directory"; // Definujte požadovanou cestu.
+string dataDir = "Your Document Directory"; //Definujte požadovanou cestu.
 ```
  V tomto fragmentu kódu nahraďte`"Your Document Directory"` se skutečnou cestou, kam chcete uložit soubory Excel. Tento adresář bude obsahovat výstupní soubor po přidání obrázku.
 ## Krok 2: Vytvořte adresář, pokud neexistuje
@@ -81,7 +81,7 @@ Ano, do svých listů můžete přidat různé formáty obrázků, jako je PNG, 
 ### Podporuje Aspose.Cells jiné formáty souborů Excel než .xls?
 Absolutně! Aspose.Cells podporuje několik formátů aplikace Excel, včetně .xlsx, .xlsm a .xlsb.
 ### Je k dispozici zkušební verze?
- Ano! Před nákupem můžete Aspose.Cells zdarma vyzkoušet. Stačí zkontrolovat[zde](https://releases.aspose.com/).
+Ano! Před nákupem můžete Aspose.Cells zdarma vyzkoušet. Stačí zkontrolovat[zde](https://releases.aspose.com/).
 ### Co mám dělat, když se můj obrázek nezobrazuje?
 Ujistěte se, že cesta k obrazu je správná a že soubor obrazu je umístěn v určeném adresáři.
 ### Mohu umístit obrázky přes více buněk?

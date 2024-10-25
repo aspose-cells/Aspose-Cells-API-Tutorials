@@ -12,7 +12,7 @@ url: /ko/net/image-and-chart-operations/worksheet-to-image-conversion/
 ## 필수 조건
 변환을 시작하기 전에 모든 것이 올바르게 설정되었는지 확인하는 것이 중요합니다. 필요한 전제 조건은 다음과 같습니다.
 1. Visual Studio: 컴퓨터에 Visual Studio가 설치되어 있는지 확인하세요. .NET 프로젝트를 원활하게 실행하는 데 도움이 되는 IDE입니다.
-2. Aspose.Cells for .NET 라이브러리: 이 라이브러리를 취득해야 합니다.[여기서 다운로드하세요](https://releases.aspose.com/cells/net/) 또는 ~로 시작하세요[무료 체험](https://releases.aspose.com/).
+2.  Aspose.Cells for .NET 라이브러리: 이 라이브러리를 취득해야 합니다.[여기서 다운로드하세요](https://releases.aspose.com/cells/net/) 또는 ~로 시작하세요[무료 체험](https://releases.aspose.com/).
 3. C#에 대한 기본 지식: C# 프로그래밍에 대한 지식이 있으면 유익합니다. 예제와 설명이 이 언어로 작성되기 때문입니다.
 4.  샘플 Excel 파일: 데모를 위해 Excel 파일을 만들거나 다운로드하세요. 다음과 같이 저장하세요.`MyTestBook1.xls` 프로젝트 디렉토리에서.
 5. .NET 프로젝트에 대한 기본적인 이해: 간단한 .NET 프로젝트를 만드는 방법을 알면 더 쉽게 작업할 수 있겠지만, 걱정하지 마세요. 우리가 단계별로 안내해 드리겠습니다.
@@ -51,7 +51,7 @@ string dataDir = "Your Document Directory";
 // 템플릿 Excel 파일을 엽니다.
 Workbook book = new Workbook(dataDir + "MyTestBook1.xls");
 ```
- 이 단계에서는 인스턴스를 생성합니다.`Workbook`클래스를 만들고 Excel 파일에 대한 경로를 전달합니다. 이를 통해 파일의 내용과 프로그래밍 방식으로 상호 작용할 수 있습니다.
+ 이 단계에서는 인스턴스를 생성합니다.`Workbook` 클래스를 만들고 Excel 파일에 대한 경로를 전달합니다. 이를 통해 파일의 내용과 프로그래밍 방식으로 상호 작용할 수 있습니다.
 ## 5단계: 워크시트 액세스
 이제 통합 문서를 열었으니 첫 번째 워크시트에 접근해 보겠습니다.
 ```csharp
@@ -78,7 +78,7 @@ SheetRender sr = new SheetRender(sheet, imgOptions);
 // 시트의 이미지를 렌더링합니다
 Bitmap bitmap = sr.ToImage(0);
 ```
- 그만큼`SheetRender`클래스는 워크시트를 비트맵 이미지로 렌더링하는 데 도움이 됩니다. 우리는 호출합니다.`ToImage(0)` 0번째 페이지(첫 번째 시트)를 비트맵으로 렌더링합니다.
+ 그만큼`SheetRender` 클래스는 워크시트를 비트맵 이미지로 렌더링하는 데 도움이 됩니다. 우리는 호출합니다.`ToImage(0)` 0번째 페이지(첫 번째 시트)를 비트맵으로 렌더링합니다.
 ## 8단계: 이미지 저장
 렌더링 후에는 지정된 디렉토리에 이미지를 저장해야 합니다.
 ```csharp
@@ -99,7 +99,7 @@ System.Console.WriteLine("Conversion to Image(s) completed.");
 ### Aspose.Cells란 무엇인가요?
 Aspose.Cells는 개발자가 Excel 파일을 프로그래밍 방식으로 만들고, 조작하고, 변환하고, 처리할 수 있는 .NET 라이브러리입니다.
 ### Aspose.Cells를 무료로 사용할 수 있나요?
- 예, Aspose.Cells에서 무료 평가판을 다운로드하여 사용을 시작할 수 있습니다.[웹사이트](https://releases.aspose.com/).
+예, Aspose.Cells에서 무료 평가판을 다운로드하여 사용을 시작할 수 있습니다.[웹사이트](https://releases.aspose.com/).
 ### Aspose.Cells는 어떤 이미지 형식을 내보내는 것을 지원합니까?
 Aspose.Cells는 JPEG, PNG, BMP, GIF 등 다양한 이미지 형식을 지원합니다.
 ### Aspose.Cells에 대한 추가 지원은 어디에서 찾을 수 있나요?

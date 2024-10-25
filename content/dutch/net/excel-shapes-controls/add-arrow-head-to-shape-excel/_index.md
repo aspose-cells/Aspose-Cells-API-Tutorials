@@ -39,7 +39,7 @@ Nu is het tijd om te definiëren waar uw documenten worden opgeslagen. U wilt ee
 ```csharp
 // Het pad naar de documentenmap.
 string dataDir = "Your Document Directory";
-//Maak een map aan als deze nog niet bestaat.
+// Maak een map aan als deze nog niet bestaat.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
 	System.IO.Directory.CreateDirectory(dataDir);

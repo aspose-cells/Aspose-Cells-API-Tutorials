@@ -8,7 +8,7 @@ weight: 15
 url: /hu/java/basic-excel-functions/average-function-in-excel/
 ---
 
-## Bevezetés az AVERAGE függvénybe Excelben
+## Bevezetés az AVERAGE függvénybe az Excelben
 
 Az Excel táblázatokat széles körben használják adatelemzésre és számításokra. A numerikus elemzéshez az egyik leggyakrabban használt függvény az AVERAGE függvény, amely lehetővé teszi egy számtartomány átlagának megtalálását. Ebben a cikkben megvizsgáljuk, hogyan használhatjuk az AVERAGE függvényt az Excelben az Aspose.Cells for Java segítségével, amely egy hatékony API az Excel-fájlok programozott kezelésére.
 

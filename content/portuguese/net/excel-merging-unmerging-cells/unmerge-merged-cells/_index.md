@@ -121,7 +121,7 @@ Por fim, é uma boa ideia confirmar se tudo ocorreu bem. Você pode imprimir uma
 Console.WriteLine("UnMerging the Cells executed successfully.");
 ```
 
-E aí está! Você desmesclou células com sucesso em um arquivo Excel usando Aspose.Cells para .NET.
+aí está! Você desmesclou células com sucesso em um arquivo Excel usando Aspose.Cells para .NET.
 
 ## Conclusão
 

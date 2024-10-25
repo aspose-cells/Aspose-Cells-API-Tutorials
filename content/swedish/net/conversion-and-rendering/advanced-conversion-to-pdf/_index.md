@@ -60,7 +60,7 @@ Först och främst: vi måste specificera var våra dokument kommer att finnas. 
 
 ```csharp
 // Sökvägen till dokumentkatalogen.
-string dataDir = "Your Document Directory";  //Uppdatera den här sökvägen till din specifika katalog
+string dataDir = "Your Document Directory";  // Uppdatera den här sökvägen till din specifika katalog
 ```
 
  Se till att byta ut`"Your Document Directory"` med den faktiska vägen. Det här är som att hitta ett nytt hem för ditt hårda arbete!
@@ -129,4 +129,4 @@ Nej, du måste installera Aspose.Cells-biblioteket för att få tillgång till d
 Förutom PDF stöder Aspose.Cells även format som XLSX, CSV, HTML och mer.
 
 ### Finns det en gratisversion av Aspose.Cells?
- Ja, du kan börja med en gratis testversion för att utforska funktionerna[här](https://releases.aspose.com/).
+Ja, du kan börja med en gratis testversion för att utforska funktionerna[här](https://releases.aspose.com/).

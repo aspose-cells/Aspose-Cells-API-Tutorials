@@ -26,7 +26,7 @@ Sekarang, mari kita bahas proses penambahan gambar ke lembar kerja Excel menggun
 Buat Direktori untuk Penyimpanan Dokumen
 Sebelum kita melakukan apa pun dengan buku kerja, kita perlu tempat untuk menyimpannya. Kita akan menentukan direktori dokumen ini:
 ```csharp
-string dataDir = "Your Document Directory"; // Tentukan jalur yang Anda inginkan.
+string dataDir = "Your Document Directory"; //Tentukan jalur yang Anda inginkan.
 ```
  Dalam potongan kode ini, ganti`"Your Document Directory"` dengan jalur sebenarnya tempat Anda ingin menyimpan file Excel. Direktori ini akan menampung file output setelah menambahkan gambar.
 ## Langkah 2: Buat Direktori jika Tidak Ada
@@ -81,7 +81,7 @@ Ya, Anda dapat menambahkan berbagai format gambar seperti PNG, JPEG, dan BMP ke 
 ### Apakah Aspose.Cells mendukung format file Excel selain .xls?
 Tentu saja! Aspose.Cells mendukung berbagai format Excel, termasuk .xlsx, .xlsm, dan .xlsb.
 ### Apakah ada versi uji coba yang tersedia?
- Ya! Anda dapat mencoba Aspose.Cells secara gratis sebelum melakukan pembelian. Cukup periksa[Di Sini](https://releases.aspose.com/).
+Ya! Anda dapat mencoba Aspose.Cells secara gratis sebelum melakukan pembelian. Cukup periksa[Di Sini](https://releases.aspose.com/).
 ### Apa yang harus saya lakukan jika gambar saya tidak muncul?
 Pastikan jalur gambar sudah benar dan berkas gambar berada di direktori yang ditentukan.
 ### Bisakah saya menempatkan gambar pada beberapa sel?

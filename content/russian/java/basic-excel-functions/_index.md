@@ -39,6 +39,6 @@ url: /ru/java/basic-excel-functions/
 ### [Объяснение функции МИН в Excel](./min-function-in-excel-explained/)
 Откройте для себя мощь функции MIN в Excel с Aspose.Cells для Java. Научитесь находить минимальные значения без усилий.
 ### [Текстовые функции Excel раскрыты](./excel-text-functions-demystified/)
-Раскройте секреты текстовых функций Excel с помощью Aspose.Cells для Java. Научитесь без труда манипулировать, извлекать и преобразовывать текст в Excel.
+Раскройте секреты текстовых функций Excel с помощью Aspose.Cells для Java. Научитесь без усилий манипулировать, извлекать и преобразовывать текст в Excel.
 ### [Учебник по функциям даты в Excel](./excel-date-functions-tutorial/)
 Изучите функции даты Excel с помощью Aspose.Cells для Java. Изучите пошаговые руководства с исходным кодом.

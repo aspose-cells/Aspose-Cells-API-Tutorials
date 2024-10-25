@@ -133,7 +133,7 @@ flag.CellShading = true;
 range1.ApplyStyle(style, flag);
 ```
 
-の`StyleFlag`Aspose.Cells に、配置や網掛けなどの適用するスタイル プロパティを指示します。これにより、スタイルの適用方法を細かく制御できます。
+の`StyleFlag` Aspose.Cells に、配置や網掛けなどの適用するスタイル プロパティを指示します。これにより、スタイルの適用方法を細かく制御できます。
 
 ## ステップ9: 結合範囲にデータを入力する
 

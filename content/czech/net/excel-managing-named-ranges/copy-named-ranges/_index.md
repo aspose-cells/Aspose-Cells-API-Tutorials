@@ -12,7 +12,7 @@ Excel je výkonný nástroj, který používají miliony lidí po celém světě
 ## Předpoklady
 Než se ponoříte do toho zbytečného kopírování pojmenovaných rozsahů, musíte se ujistit, že máte pár věcí seřazených. Zde je to, co potřebujete:
 1. Prostředí .NET: Ujistěte se, že máte nastavené vývojové prostředí .NET. Můžete použít Visual Studio nebo jakékoli jiné IDE dle vašeho výběru.
-2.  Aspose.Cells for .NET Library: Toto je hvězda show! Stáhněte si knihovnu z[Aspose webové stránky](https://releases.aspose.com/cells/net/) pokud jste tak již neučinili.
+2. Aspose.Cells for .NET Library: Toto je hvězda show! Stáhněte si knihovnu z[Aspose webové stránky](https://releases.aspose.com/cells/net/) pokud jste tak již neučinili.
 3. Základní znalost C#: Znalost programování v C# bude prospěšná, protože v tomto jazyce budeme kódovat v průběhu kurzu.
 4. Nainstalovaný Excel: I když Excel nutně nepotřebujete k psaní kódu, mít jej nainstalovaný je užitečné pro testování výstupních souborů.
 5.  Přístup k dokumentaci: Přidat do záložek[Dokumentace Aspose.Cells](https://reference.aspose.com/cells/net/) pro referenci. Je to skvělý zdroj pro pochopení metod a funkcí.
@@ -27,7 +27,7 @@ using System.IO;
 using Aspose.Cells;
 using System.Drawing;
 ```
-Tento kód vám umožní přístup k základním třídám, jako je např`Workbook`, `Worksheet`a`Range`, který budete potřebovat pro manipulaci se soubory Excel.
+ Tento kód vám umožní přístup k základním třídám, jako je např`Workbook`, `Worksheet` a`Range`, který budete potřebovat pro manipulaci se soubory Excel.
 
 Nyní, když máme naše předpoklady roztříděné, pojďme si tento proces rozdělit do snadno srozumitelných kroků.
 ## Krok 1: Nastavte svůj výstupní adresář
@@ -101,7 +101,7 @@ Console.WriteLine("CopyNamedRanges executed successfully.");
 ```
 Spuštění tohoto řádku bude indikovat, že váš kód byl proveden bez jakýchkoli zádrhelů.
 ## Závěr
-A tady to máte! Úspěšně jste zkopírovali pojmenované rozsahy v Excelu pomocí Aspose.Cells for .NET, krok za krokem. Tento proces vám umožňuje automatizovat úkoly aplikace Excel a efektivněji spravovat data. S trochou cviku zvládnete během chvilky spouštět sofistikovanější úlohy automatizace Excelu.
+tady to máte! Úspěšně jste zkopírovali pojmenované rozsahy v Excelu pomocí Aspose.Cells for .NET, krok za krokem. Tento proces vám umožňuje automatizovat úkoly aplikace Excel a efektivněji spravovat data. S trochou cviku zvládnete během chvilky spouštět sofistikovanější úlohy automatizace Excelu.
 ## FAQ
 ### Co je Aspose.Cells pro .NET?
 Aspose.Cells je knihovna .NET, která umožňuje vývojářům vytvářet, manipulovat a převádět soubory aplikace Excel programově.

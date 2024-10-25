@@ -60,7 +60,7 @@ Con nuestro libro de trabajo listo, es momento de agregar algunas propiedades de
 int index = workbook.ContentTypeProperties.Add("MK31", "Simple Data");
 ```
 
- En este paso, agregamos una propiedad llamada "MK31" con el valor "Datos simples".`Add` El método devuelve el índice de la propiedad recién agregada, que podemos usar más adelante.
+ En este paso, agregamos una propiedad llamada "MK31" con el valor "Datos simples".`Add`El método devuelve el índice de la propiedad recién agregada, que podemos usar más adelante.
 
 ### Establecer propiedad que puede ser nula
 
@@ -79,7 +79,7 @@ index = workbook.ContentTypeProperties.Add("MK32", DateTime.Now.ToString("yyyy-M
 workbook.ContentTypeProperties[index].IsNillable = true;
 ```
 
-En este fragmento, creamos una propiedad denominada "MK32" con la fecha y hora actuales formateadas según la norma ISO 8601. Hemos hecho que esta propiedad sea nula estableciendo`IsNillable` a`true`.
+ En este fragmento, creamos una propiedad denominada "MK32" con la fecha y hora actuales formateadas según la norma ISO 8601. Hemos hecho que esta propiedad sea nula estableciendo`IsNillable` a`true`.
 
 ## Paso 4: Guardar el libro de trabajo
 
@@ -120,4 +120,4 @@ Aspose.Cells para .NET es una potente biblioteca para crear, manipular y convert
 ¡Por supuesto! Puedes agregar objetos complejos a las propiedades de tipo de contenido siempre que se puedan serializar correctamente.
 
 ### ¿Dónde puedo encontrar más documentación?
- Para obtener instrucciones más detalladas, consulte la[Documentación de Aspose.Cells](https://reference.aspose.com/cells/net/).
+Para obtener instrucciones más detalladas, consulte la[Documentación de Aspose.Cells](https://reference.aspose.com/cells/net/).

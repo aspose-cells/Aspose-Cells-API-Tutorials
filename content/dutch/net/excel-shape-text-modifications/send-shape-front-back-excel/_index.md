@@ -39,7 +39,7 @@ Nu we de mappen hebben ingesteld, kunnen we de werkmap (het Excel-bestand) laden
 //Bron Excel-bestand laden
 Workbook wb = new Workbook(sourceDir + "sampleToFrontOrBack.xlsx");
 ```
- Deze regel code initialiseert een nieuwe`Workbook`object, waarbij het opgegeven Excel-bestand in het geheugen wordt geladen, zodat we ermee kunnen werken.
+ Deze regel code initialiseert een nieuwe`Workbook` object, waarbij het opgegeven Excel-bestand in het geheugen wordt geladen, zodat we ermee kunnen werken.
 ## Stap 3: Toegang tot het werkblad 
 Vervolgens moeten we toegang krijgen tot het specifieke werkblad waar onze vormen zich bevinden. Voor dit voorbeeld gebruiken we het eerste werkblad.
 ```csharp

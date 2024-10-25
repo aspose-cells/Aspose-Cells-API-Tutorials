@@ -67,4 +67,4 @@ Console.WriteLine("CSV file opened successfully!");
 ### 如果我遇到 Aspose.Cells 問題，如何獲得支援？
 你可以瀏覽他們的[支援論壇](https://forum.aspose.com/c/cells/9)尋求協助或與其他使用者聯繫。這是一個值得加入的偉大社區！
 ### 如果我決定使用 Aspose.Cells，可以在哪裡購買它？
-要購買 Aspose.Cells，只需訪問[這個連結](https://purchase.aspose.com/buy)對於不同的許可證選項。
+要購買 Aspose.Cells，只需訪問[這個連結](https://purchase.aspose.com/buy)對於不同的許可選項。

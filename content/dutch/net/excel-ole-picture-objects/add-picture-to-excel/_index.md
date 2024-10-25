@@ -26,7 +26,7 @@ Laten we nu het proces van het toevoegen van een afbeelding aan een Excel-werkbl
 Maak een map voor documentenopslag
 Voordat we iets met de werkmap doen, hebben we een plek nodig om deze op te slaan. We specificeren deze documentdirectory:
 ```csharp
-string dataDir = "Your Document Directory"; // Bepaal het gewenste pad.
+string dataDir = "Your Document Directory"; //Bepaal het gewenste pad.
 ```
  Vervang in dit codefragment`"Your Document Directory"` met het daadwerkelijke pad waar u uw Excel-bestanden wilt opslaan. Deze directory zal het uitvoerbestand bevatten nadat de afbeelding is toegevoegd.
 ## Stap 2: Maak een directory aan als deze nog niet bestaat
@@ -81,7 +81,7 @@ Ja, u kunt verschillende afbeeldingsformaten, zoals PNG, JPEG en BMP, aan uw wer
 ### Ondersteunt Aspose.Cells andere Excel-bestandsindelingen dan .xls?
 Absoluut! Aspose.Cells ondersteunt meerdere Excel-indelingen, waaronder .xlsx, .xlsm en .xlsb.
 ### Is er een proefversie beschikbaar?
- Ja! U kunt Aspose.Cells gratis uitproberen voordat u een aankoop doet. Controleer gewoon[hier](https://releases.aspose.com/).
+Ja! U kunt Aspose.Cells gratis uitproberen voordat u een aankoop doet. Controleer gewoon[hier](https://releases.aspose.com/).
 ### Wat moet ik doen als mijn afbeelding niet wordt weergegeven?
 Controleer of het pad naar de afbeelding juist is en of het afbeeldingsbestand zich in de opgegeven map bevindt.
 ### Kan ik afbeeldingen over meerdere cellen plaatsen?

@@ -9,7 +9,7 @@ url: /pl/java/basic-excel-functions/
 ---
 ## Wprowadzenie do podstawowych funkcji programu Excel
 
-świecie manipulacji arkuszami kalkulacyjnymi zrozumienie podstawowych funkcji programu Excel jest podstawą efektywnego przetwarzania danych. Dzięki Aspose.Cells for Java możesz zagłębić się w tę niezbędną wiedzę. W tej serii samouczków przeprowadzimy Cię przez podstawowe funkcje programu Excel, wyposażając Cię w umiejętności potrzebne do wydajnej pracy z arkuszami kalkulacyjnymi.
+W świecie manipulacji arkuszami kalkulacyjnymi zrozumienie podstawowych funkcji programu Excel jest podstawą efektywnego przetwarzania danych. Dzięki Aspose.Cells for Java możesz zagłębić się w tę niezbędną wiedzę. W tej serii samouczków przeprowadzimy Cię przez podstawowe funkcje programu Excel, wyposażając Cię w umiejętności potrzebne do wydajnej pracy z arkuszami kalkulacyjnymi.
 
 ## Pierwsze kroki z Aspose.Cells dla Java:
 

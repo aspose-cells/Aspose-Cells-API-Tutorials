@@ -80,11 +80,11 @@ Worksheet worksheet = worksheets[0];
 
 Nu är du redo att ändra detta kalkylblad!
 
-## Steg 4: Öppna utskriftsobjektet
+## Steg 4: Gå till utskriftsobjektet
 
- För att ändra marginalerna måste vi arbeta med`PageSetup`objekt. Det här objektet tillhandahåller egenskaper som styr sidans layout, inklusive marginaler.
+ För att ändra marginalerna måste vi arbeta med`PageSetup` objekt. Det här objektet tillhandahåller egenskaper som styr sidans layout, inklusive marginaler.
 
- Skaffa`PageSetup` egenskap från kalkylbladet:
+Skaffa`PageSetup` egenskap från arbetsbladet:
 
 ```csharp
 PageSetup pageSetup = worksheet.PageSetup;

@@ -44,7 +44,7 @@ using System;
 
 여기서 "Your Document Directory"는 Excel 파일이 저장된 실제 경로의 자리 표시자입니다. 시스템의 올바른 경로로 바꿔야 합니다. 
 ## 1단계: 통합 문서 개체 만들기 
-이제 문서 디렉토리가 설정되었으므로 다음 단계는 인스턴스를 만드는 것입니다.`Workbook` Excel 파일을 여는 클래스입니다.
+ 이제 문서 디렉토리가 설정되었으므로 다음 단계는 인스턴스를 만드는 것입니다.`Workbook`Excel 파일을 여는 클래스입니다.
 
 ```csharp
 // 문서 디렉토리의 경로입니다.
@@ -64,17 +64,17 @@ Console.WriteLine("Workbook opened using path successfully!");
 
 이 간단한 줄은 통합 문서가 열렸다는 것을 확인하는 메시지를 콘솔에 인쇄합니다. 피드백을 제공하고 프로그램이 의도한 대로 작동하는지 확인합니다.
 
- 여기서 우리는 코드를 다음과 같이 묶었습니다.`try-catch`블록. 즉, 통합 문서를 여는 동안 무언가 잘못되면 짜증을 내는 대신 프로그램이 무슨 일이 일어났는지 알려줌으로써 우아하게 처리합니다.
+ 여기서 우리는 코드를 다음과 같이 묶었습니다.`try-catch` 블록. 즉, 통합 문서를 여는 동안 무언가 잘못되면 짜증을 내는 대신 프로그램이 무슨 일이 일어났는지 알려줌으로써 우아하게 처리합니다.
 ## 결론
- Aspose.Cells for .NET을 사용하여 Excel 파일을 여는 것은 무엇을 하는지 알고 나면 아주 쉽습니다! 보셨듯이, 이 프로세스에는 문서 디렉토리를 설정하고,`Workbook` 객체, 그리고 모든 것이 인쇄 명령문으로 작동하는지 확인합니다. Aspose.Cells의 힘을 무기고에 넣으면 Excel 처리 기술을 한 단계 업그레이드하여 일상적인 작업을 자동화하고 원활한 데이터 관리를 용이하게 할 수 있습니다.
+Aspose.Cells for .NET을 사용하여 Excel 파일을 여는 것은 무엇을 하는지 알고 나면 아주 쉽습니다! 보셨듯이, 이 프로세스에는 문서 디렉토리를 설정하고,`Workbook` 객체, 그리고 모든 것이 인쇄 명령문으로 작동하는지 확인합니다. Aspose.Cells의 힘을 무기고에 넣으면 Excel 처리 기술을 한 단계 업그레이드하여 일상적인 작업을 자동화하고 원활한 데이터 관리를 용이하게 할 수 있습니다.
 ## 자주 묻는 질문
 ### .NET용 Aspose.Cells란 무엇인가요?
 .NET용 Aspose.Cells는 개발자가 Microsoft Excel이 없어도 Excel 파일을 만들고, 조작하고, 변환할 수 있는 .NET 라이브러리입니다.
 ### Aspose.Cells를 사용하려면 Microsoft Excel을 설치해야 합니까?
 아니요! Aspose.Cells는 Microsoft Excel과 독립적으로 작동하며 설치할 필요가 없습니다.
 ### 한 번에 여러 개의 Excel 파일을 열 수 있나요?
-물론입니다! 여러 개를 만들 수 있습니다.`Workbook` 다른 파일에 대한 객체도 마찬가지입니다.
+ 물론입니다! 여러 개를 만들 수 있습니다.`Workbook` 다른 파일에 대한 객체도 마찬가지입니다.
 ### Aspose.Cells는 어떤 유형의 파일을 열 수 있나요?
 Aspose.Cells는 .xls, .xlsx, .csv 및 기타 Excel 형식을 열 수 있습니다.
 ### Aspose.Cells 설명서는 어디서 찾을 수 있나요?
- 포괄적인 문서를 찾을 수 있습니다[여기](https://reference.aspose.com/cells/net/).
+포괄적인 문서를 찾을 수 있습니다[여기](https://reference.aspose.com/cells/net/).

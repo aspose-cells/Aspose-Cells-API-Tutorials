@@ -16,7 +16,7 @@ Di era digital, mengelola dan mengamankan data Anda lebih penting dari sebelumny
 Sebelum menyelami kodenya, mari pastikan Anda memiliki semua yang Anda butuhkan:
 
 1. Lingkungan Pengembangan: Anda harus menginstal Visual Studio di komputer Anda, karena ini menyediakan IDE yang sangat baik untuk pengembangan .NET.
-2. Pustaka Aspose.Cells: Unduh pustaka Aspose.Cells. Anda bisa mendapatkannya dari[Halaman Unduhan Aspose](https://releases.aspose.com/cells/net/).
+2.  Pustaka Aspose.Cells: Unduh pustaka Aspose.Cells. Anda bisa mendapatkannya dari[Halaman Unduhan Aspose](https://releases.aspose.com/cells/net/).
 3. Pengetahuan Dasar C#: Pastikan Anda memiliki pemahaman yang baik tentang C# dan .NET Framework agar dapat mengikutinya dengan mudah.
 4. Buat Proyek: Siapkan Aplikasi Konsol baru di Visual Studio tempat kita akan menulis kode.
 
@@ -48,17 +48,17 @@ Mari kita uraikan implementasinya menjadi beberapa langkah yang mudah dikelola. 
 
 ## Langkah 1: Buat Aliran File untuk File Excel Anda
 
-Pertama, kita perlu memuat file Excel yang sudah ada. Kita akan menggunakan`FileStream` untuk mengaksesnya.
+ Pertama, kita perlu memuat file Excel yang sudah ada. Kita akan menggunakan`FileStream` untuk mengaksesnya.
 
 ```csharp
 // Jalur ke direktori dokumen.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-// Membuat aliran file untuk membuka file Excel
+//Membuat aliran file untuk membuka file Excel
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
  Itu`FileStream` memungkinkan kita membaca berkas Excel yang ditentukan. Pastikan untuk mengubah "DIREKTORI DOKUMEN ANDA" ke jalur sebenarnya tempat berkas Excel Anda berada.
 
-## Langkah 2: Membuat Instansi Objek Buku Kerja
+## Langkah 2: Membuat Instansiasi Objek Buku Kerja
 
  Sekarang setelah kita memiliki aliran file, kita dapat membuat`Workbook` obyek.
 

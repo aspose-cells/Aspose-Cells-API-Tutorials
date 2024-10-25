@@ -14,7 +14,7 @@ Antes de começarmos, há algumas coisas que você precisa configurar antes de c
 ### .NET Framework ou .NET Core
 Certifique-se de ter o .NET Framework ou .NET Core instalado na sua máquina. Esta biblioteca funciona bem com ambos.
 ### Instalação do Aspose.Cells
-Você precisará baixar a biblioteca Aspose.Cells. Você pode[baixe aqui](https://releases.aspose.com/cells/net/) . Se você não estiver familiarizado com a instalação de pacotes NuGet, siga[este guia](https://www.nuget.org/).
+ Você precisará baixar a biblioteca Aspose.Cells. Você pode[baixe aqui](https://releases.aspose.com/cells/net/) . Se você não estiver familiarizado com a instalação de pacotes NuGet, siga[este guia](https://www.nuget.org/).
 ### Ambiente de Desenvolvimento Integrado (IDE)
 Ter um IDE como o Visual Studio ou o JetBrains Rider pode simplificar a codificação, a depuração e a execução do seu projeto.
 ### Conhecimento básico de C#

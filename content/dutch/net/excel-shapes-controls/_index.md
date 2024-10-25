@@ -84,7 +84,7 @@ Leer in deze stapsgewijze zelfstudie hoe u een Spinner-besturingselement toevoeg
 ### [Groepsvak toevoegen aan werkblad in Excel](./add-group-box-to-worksheet-excel/)
 Leer hoe u een groepsvak en keuzerondjes toevoegt in Excel met Aspose.Cells voor .NET. Een stapsgewijze handleiding voor ontwikkelaars van alle niveaus.
 ### [Rechthoekbesturingselement toevoegen aan werkblad in Excel](./add-rectangle-control-to-worksheet-excel/)
-Ontdek hoe u een rechthoekbesturingselement toevoegt aan een Excel-werkblad met Aspose.Cells voor .NET, met behulp van een gedetailleerde, stapsgewijze handleiding.
+Ontdek hoe u een rechthoekbesturingselement toevoegt aan een Excel-werkblad met Aspose.Cells voor .NET met een gedetailleerde, stapsgewijze handleiding.
 ### [Lijnbesturingselement toevoegen aan werkblad in Excel](./add-line-control-to-worksheet-excel/)
 Leer in deze uitgebreide tutorial hoe u regelbesturingselementen in Excel-werkbladen kunt toevoegen en aanpassen met Aspose.Cells voor .NET.
 ### [Voeg boogcontrole toe met verbindingspunten](./add-arc-control-with-connection-points/)

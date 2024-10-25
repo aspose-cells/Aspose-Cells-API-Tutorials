@@ -39,7 +39,7 @@ Nyní, když máme nastavené adresáře, načteme sešit (soubor Excel), který
 //Načtěte zdrojový soubor Excel
 Workbook wb = new Workbook(sourceDir + "sampleToFrontOrBack.xlsx");
 ```
- Tento řádek kódu inicializuje nový`Workbook`objekt, načtení zadaného excelovského souboru do paměti, abychom s ním mohli pracovat.
+ Tento řádek kódu inicializuje nový`Workbook` objekt, načtení zadaného excelovského souboru do paměti, abychom s ním mohli pracovat.
 ## Krok 3: Otevřete sešit 
 Dále musíme získat přístup ke konkrétnímu listu, kde jsou umístěny naše tvary. Pro tento příklad použijeme první pracovní list.
 ```csharp
@@ -95,7 +95,7 @@ Nakonec udělejme jednoduché potvrzení, abychom věděli, že náš úkol byl 
 ```csharp
 Console.WriteLine("SendShapeFrontOrBackInWorksheet executed successfully.\r\n");
 ```
-A tím je kód pro náš tutoriál uzavřen!
+tím je kód pro náš tutoriál uzavřen!
 ## Závěr
 Manipulace s tvary v Excelu pomocí Aspose.Cells pro .NET je nejen přímočará, ale také výkonná. Podle této příručky byste nyní měli být schopni snadno odesílat tvary dopředu nebo dozadu, což umožňuje lepší kontrolu nad prezentacemi aplikace Excel. S těmito nástroji, které máte k dispozici, jste připraveni zlepšit vizuální přitažlivost svých tabulek.
 ## FAQ

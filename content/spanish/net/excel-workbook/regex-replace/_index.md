@@ -16,7 +16,7 @@ url: /es/net/excel-workbook/regex-replace/
 Antes de sumergirnos en los detalles de la codificación, asegurémonos de que está bien equipado para el viaje que nos espera.
 
 1. .NET Framework: asegúrate de tener configurado un entorno .NET. Ya sea .NET Core o .NET Framework, deberías estar listo para comenzar.
-2.  Biblioteca Aspose.Cells: esta biblioteca es la clave para desbloquear poderosas manipulaciones de hojas de cálculo. Puede[Descárgalo aquí](https://releases.aspose.com/cells/net/).
+2. Biblioteca Aspose.Cells: esta biblioteca es la clave para desbloquear poderosas manipulaciones de hojas de cálculo. Puede[Descárgalo aquí](https://releases.aspose.com/cells/net/).
 3. Un IDE: utiliza tu entorno de desarrollo integrado (IDE) favorito, como Visual Studio, que hará que tu experiencia de codificación sea mucho más fluida.
 4. Conocimientos básicos de programación: será beneficioso estar familiarizado con C# y conceptos de expresiones regulares.
 
@@ -77,7 +77,7 @@ replace.RegexKey = true; // Especificar que estamos usando expresiones regulares
 ```
 
 En esta configuración:
-- `CaseSensitive` está configurado para`false`lo que significa que nuestra búsqueda de "KIM" ignorará si está en mayúsculas o minúsculas.
+- `CaseSensitive` está configurado para`false`, lo que significa que nuestra búsqueda de "KIM" ignorará si está en mayúsculas o minúsculas.
 - `MatchEntireCellContents` está configurado para`false` para que podamos reemplazar partes del contenido de la celda.
 - `RegexKey` está configurado para`true` para indicar que usaremos una expresión regular para nuestra búsqueda.
 
@@ -132,4 +132,4 @@ Sí, admite una variedad de formatos, incluidos XLS, XLSX, CSV y más.
 Sí, puedes crear patrones de expresiones regulares más complejos para que coincidan con varios términos simultáneamente.
 
 ### ¿Dónde puedo encontrar más ejemplos y documentación para Aspose.Cells?  
- Puede encontrar documentación completa[aquí](https://reference.aspose.com/cells/net/).
+Puede encontrar documentación completa[aquí](https://reference.aspose.com/cells/net/).

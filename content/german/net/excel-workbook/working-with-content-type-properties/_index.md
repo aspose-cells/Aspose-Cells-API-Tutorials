@@ -60,7 +60,7 @@ Wenn unsere Arbeitsmappe fertig ist, ist es an der Zeit, einige benutzerdefinier
 int index = workbook.ContentTypeProperties.Add("MK31", "Simple Data");
 ```
 
- In diesem Schritt haben wir eine Eigenschaft namens „MK31“ mit dem Wert „Simple Data“ hinzugefügt.`Add` Methode gibt den Index der neu hinzugefügten Eigenschaft zurück, den wir später verwenden können.
+ In diesem Schritt haben wir eine Eigenschaft namens „MK31“ mit dem Wert „Simple Data“ hinzugefügt.`Add`Methode gibt den Index der neu hinzugefügten Eigenschaft zurück, den wir später verwenden können.
 
 ### Nillable-Eigenschaft festlegen
 
@@ -79,7 +79,7 @@ index = workbook.ContentTypeProperties.Add("MK32", DateTime.Now.ToString("yyyy-M
 workbook.ContentTypeProperties[index].IsNillable = true;
 ```
 
-In diesem Snippet erstellen wir eine Eigenschaft namens „MK32“ mit dem aktuellen Datum und der aktuellen Uhrzeit, formatiert nach ISO 8601. Wir haben diese Eigenschaft nullbar gemacht, indem wir`IsNillable` Zu`true`.
+ In diesem Snippet erstellen wir eine Eigenschaft namens „MK32“ mit dem aktuellen Datum und der aktuellen Uhrzeit, formatiert nach ISO 8601. Wir haben diese Eigenschaft nullbar gemacht, indem wir`IsNillable` Zu`true`.
 
 ## Schritt 4: Speichern der Arbeitsmappe
 
@@ -120,4 +120,4 @@ Ja! Aspose.Cells unterstützt verschiedene Formate, darunter XLS, XLSX, CSV und 
 Auf jeden Fall! Sie können Inhaltstypeigenschaften komplexe Objekte hinzufügen, solange diese ordnungsgemäß serialisiert werden können.
 
 ### Wo finde ich weitere Dokumentation?
- Ausführlichere Hinweise finden Sie im[Aspose.Cells-Dokumentation](https://reference.aspose.com/cells/net/).
+Ausführlichere Hinweise finden Sie im[Aspose.Cells-Dokumentation](https://reference.aspose.com/cells/net/).

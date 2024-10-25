@@ -37,12 +37,12 @@ Para começar, precisamos configurar um diretório onde podemos salvar nossos ar
 ```csharp
 // O caminho para o diretório de documentos.
 string dataDir = "Your Document Directory";
-//Crie um diretório se ele ainda não estiver presente.
+// Crie um diretório se ele ainda não estiver presente.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
--  dataDir: Esta variável contém o caminho para o diretório dos seus documentos. Substituir`"Your Document Directory"` com o caminho real onde você deseja salvar seu arquivo Excel.
+- dataDir: Esta variável contém o caminho para o diretório dos seus documentos. Substituir`"Your Document Directory"` com o caminho real onde você deseja salvar seu arquivo Excel.
 - Directory.Exists: Isso verifica se o diretório já existe.
 - Directory.CreateDirectory: Se o diretório não existir, isso o cria.
 ## Etapa 2: Instanciar uma pasta de trabalho
@@ -89,7 +89,7 @@ Agora precisamos definir os dados da imagem para o formato associado ao comentá
 // Defina os dados da imagem para o formato associado ao comentário
 comment.CommentShape.Fill.ImageData = ms.ToArray();
 ```
--  comment.CommentShape.Fill.ImageData: Esta propriedade permite que você defina a imagem para o formato do comentário. Nós convertemos o`MemoryStream` para uma matriz de bytes usando`ms.ToArray()`.
+- comment.CommentShape.Fill.ImageData: Esta propriedade permite que você defina a imagem para o formato do comentário. Nós convertemos o`MemoryStream` para uma matriz de bytes usando`ms.ToArray()`.
 ## Etapa 7: Salve a pasta de trabalho
 Por fim, vamos salvar nossa pasta de trabalho com o comentário e a imagem incluídos.
 ```csharp
@@ -105,7 +105,7 @@ Não, o Excel não permite múltiplos comentários na mesma célula. Você só p
 ### Quais formatos de imagem são suportados?
 O Aspose.Cells suporta vários formatos de imagem, incluindo PNG, JPEG e BMP.
 ### Preciso de uma licença para usar o Aspose.Cells?
-O Aspose.Cells oferece um teste gratuito, mas para funcionalidade completa, você precisará comprar uma licença.
+Aspose.Cells oferece um teste gratuito, mas para funcionalidade completa, você precisará comprar uma licença.
 ### Posso personalizar a aparência do comentário?
 Sim, você pode personalizar a fonte, o tamanho e a cor do texto do comentário e também pode alterar o formato e o tamanho do próprio comentário.
 ### Onde posso encontrar mais documentação sobre o Aspose.Cells?

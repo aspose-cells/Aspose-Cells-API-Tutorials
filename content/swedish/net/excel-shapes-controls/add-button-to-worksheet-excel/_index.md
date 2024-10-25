@@ -31,7 +31,7 @@ I det här första steget skapar vi en ny Excel-arbetsbok och får en referens t
 ```csharp
 // Definiera sökvägen till din dokumentkatalog.
 string dataDir = "Your Document Directory";
-//Skapa katalog om den inte redan finns.
+// Skapa katalog om den inte redan finns.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
 	System.IO.Directory.CreateDirectory(dataDir);

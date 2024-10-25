@@ -68,6 +68,6 @@ W swoich właściwościach niestandardowych możesz przechowywać ciągi znaków
 ### Czy korzystanie z Aspose.Cells jest bezpłatne?
  Aspose.Cells oferuje bezpłatny okres próbny. Aby uzyskać pełne funkcje, wymagany jest zakup. Sprawdź[opcje cenowe tutaj](https://purchase.aspose.com/buy).
 ### Gdzie mogę znaleźć dokumentację Aspose.Cells?
- Można znaleźć kompleksową dokumentację[Tutaj](https://reference.aspose.com/cells/net/).
+Można znaleźć kompleksową dokumentację[Tutaj](https://reference.aspose.com/cells/net/).
 ### Co zrobić, jeśli będę potrzebował pomocy podczas korzystania z Aspose.Cells?
  Możesz odwiedzić[Forum wsparcia Aspose](https://forum.aspose.com/c/cells/9) o pomoc ze strony społeczności i zespołu wsparcia.

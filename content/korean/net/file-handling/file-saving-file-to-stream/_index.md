@@ -84,4 +84,4 @@ stream.Close();
 ### Aspose.Cells에 대한 지원은 어디에서 요청할 수 있나요?
  당신은 도움을 구할 수 있습니다[Aspose 지원 포럼](https://forum.aspose.com/c/cells/9).
 ### Aspose.Cells에 대한 임시 라이선스를 어떻게 얻을 수 있나요?
- 당신은 신청할 수 있습니다[임시 면허](https://purchase.aspose.com/temporary-license/)평가 목적으로 필요한 경우.
+ 당신은 신청할 수 있습니다[임시 면허](https://purchase.aspose.com/temporary-license/) 평가 목적으로 필요한 경우.

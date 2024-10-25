@@ -130,7 +130,7 @@ chart.NSeries[0].Area.FillFormat.SolidFill.CellsColor = cc;
 workbook.Save(outputDir + "outputApplyingThemesInChart.xlsx");
 ```
 
-ここでは、変更したワークブックを先ほど指定した出力ディレクトリに保存します。 
+ここでは、変更したブックを先ほど指定した出力ディレクトリに保存します。 
 
 ## ステップ9: 確認出力
 

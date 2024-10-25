@@ -87,7 +87,7 @@ foreach (PowerQueryFormula formula in mashupData.PowerQueryFormulas)
 ```
 
 -  Wir durchlaufen jede`PowerQueryFormula` In`mashupData`.
--  Innerhalb dieser Schleife tauchen wir in jeden`PowerQueryFormulaItem`.
+- Innerhalb dieser Schleife tauchen wir in jeden`PowerQueryFormulaItem`.
 - Wir prüfen, ob der Name des Elements mit „Quelle“ übereinstimmt. Wenn dies der Fall ist, aktualisieren wir seinen Wert, um eine Verknüpfung zu unserer neuen Quelldatei herzustellen.
 
 Dies ist vergleichbar mit dem Suchen der richtigen Seite in einem Handbuch und dem anschließenden Vornehmen der erforderlichen Aktualisierungen – es ist ein unkomplizierter und sorgfältiger Vorgang.
@@ -101,7 +101,7 @@ Nachdem wir die Aktualisierungen vorgenommen haben, ist es Zeit, unsere Änderun
 workbook.Save(outputDir + "SamplePowerQueryFormula_out.xlsx");
 Console.WriteLine("UpdatePowerQueryFormulaItem executed successfully.");
 ```
- Der`Save`Die Methode schreibt die aktualisierte Arbeitsmappe in das angegebene Ausgabeverzeichnis. Das ist, als würden Sie Ihre Änderungen in einer neuen Version des Handbuchs versiegeln, die für andere bereit ist!
+ Der`Save` Die Methode schreibt die aktualisierte Arbeitsmappe in das angegebene Ausgabeverzeichnis. Das ist, als würden Sie Ihre Änderungen in einer neuen Version des Handbuchs versiegeln, die für andere bereit ist!
 
 ## Abschluss
 
@@ -122,4 +122,4 @@ Mit Aspose.Cells können Sie mit .xlsx, .xls, .xlsm und mehreren anderen Excel-F
  Ja, Sie können eine kostenlose Testversion herunterladen von der[Aspose Cells-Veröffentlichungsseite](https://releases.aspose.com/).
 
 ### Wie kann ich Support für Aspose.Cells erhalten?
- Sie erhalten Support über das[Aspose-Forum](https://forum.aspose.com/c/cells/9)wo Sie Fragen stellen und Antworten von der Community und dem Aspose-Team erhalten können.
+ Sie erhalten Support über das[Aspose-Forum](https://forum.aspose.com/c/cells/9), wo Sie Fragen stellen und Antworten von der Community und dem Aspose-Team erhalten können.

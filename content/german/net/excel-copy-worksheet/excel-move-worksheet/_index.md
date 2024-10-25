@@ -110,7 +110,7 @@ Erläuterung:
 
 ## Abschluss
 
-Und da haben Sie es! Sie haben jetzt ein solides Verständnis dafür, wie Sie Arbeitsblätter innerhalb einer Excel-Datei mit Aspose.Cells für .NET verschieben. Sie haben nicht nur gelernt, wie Sie Ihre Excel-Dateien programmgesteuert verwalten, sondern sich nebenbei auch mit C# und einigen praktischen Programmierkonzepten beschäftigt. Diese Fähigkeit ist unglaublich nützlich, insbesondere da sich die Datenverwaltung ständig weiterentwickelt.
+Und da haben Sie es! Sie haben jetzt ein solides Verständnis dafür, wie Sie Arbeitsblätter innerhalb einer Excel-Datei mit Aspose.Cells für .NET verschieben. Sie haben nicht nur gelernt, wie Sie Ihre Excel-Dateien programmgesteuert verwalten, sondern sich nebenbei auch mit C# und einigen praktischen Programmierkonzepten beschäftigt. Diese Fähigkeit ist unglaublich nützlich, insbesondere da sich das Datenmanagement ständig weiterentwickelt.
 
 ## Häufig gestellte Fragen
 

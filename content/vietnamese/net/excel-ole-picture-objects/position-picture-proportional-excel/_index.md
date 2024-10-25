@@ -40,7 +40,7 @@ Bây giờ, chúng ta hãy chia nhỏ thành các bước chi tiết để đị
 Trước tiên, hãy đảm bảo rằng bạn có một thư mục được chỉ định cho các tài liệu của mình. Sau đây là cách tạo thư mục nếu nó không tồn tại:
 ```csharp
 string dataDir = "Your Document Directory";
-//Tạo thư mục nếu thư mục đó chưa có.
+// Tạo thư mục nếu thư mục đó chưa có.
 bool isExists = System.IO.Directory.Exists(dataDir);
 if (!isExists)
     System.IO.Directory.CreateDirectory(dataDir);

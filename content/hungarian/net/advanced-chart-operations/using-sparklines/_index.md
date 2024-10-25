@@ -24,7 +24,7 @@ Most, hogy megvan a szükséges beállítás, bontsuk le a sparkline-ok megvaló
 
 ## Csomagok importálása
 
-A kód megírása előtt importálnunk kell a szükséges csomagokat. A C# fájlba a következőket írja be utasításokkal:
+A kód megírása előtt importálnunk kell a szükséges csomagokat. A C# fájlba a következő utasításokat használja:
 
 ```csharp
 using System.IO;

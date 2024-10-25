@@ -60,7 +60,7 @@ Primeiro as coisas mais importantes: precisamos especificar onde nossos document
 
 ```csharp
 // O caminho para o diretório de documentos.
-string dataDir = "Your Document Directory";  //Atualize este caminho para seu diretório específico
+string dataDir = "Your Document Directory";  // Atualize este caminho para seu diretório específico
 ```
 
  Certifique-se de substituir`"Your Document Directory"` com o caminho real. É como encontrar um novo lar para seu trabalho duro!
@@ -97,7 +97,7 @@ PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
 pdfSaveOptions.Compliance = PdfCompliance.PdfA1b;
 ```
 
-conformidade com PDF/A garante que o arquivo será consistente e confiável para as gerações futuras. Assim como uma cápsula do tempo!
+A conformidade com PDF/A garante que o arquivo será consistente e confiável para as gerações futuras. Assim como uma cápsula do tempo!
 
 ## Etapa 5: Salve a pasta de trabalho
 
@@ -112,7 +112,7 @@ Este passo é onde todo o nosso trabalho duro compensa. Estamos essencialmente d
 
 ## Conclusão
 
-E aí está! Se você acompanhou, você acabou de converter com sucesso uma pasta de trabalho do Excel em um PDF usando Aspose.Cells no .NET. Essa ferramenta não apenas simplifica o processo de conversão, mas também mantém a integridade e a formatação do seu documento original.
+aí está! Se você acompanhou, você acabou de converter com sucesso uma pasta de trabalho do Excel em um PDF usando Aspose.Cells no .NET. Essa ferramenta não apenas simplifica o processo de conversão, mas também mantém a integridade e a formatação do seu documento original.
 
 ## Perguntas frequentes
 
@@ -129,4 +129,4 @@ Não, você precisa instalar a biblioteca Aspose.Cells para acessar suas funcion
 Além de PDF, o Aspose.Cells também suporta formatos como XLSX, CSV, HTML e muito mais.
 
 ### Existe uma versão gratuita do Aspose.Cells?
- Sim, você pode começar com uma versão de teste gratuita para explorar os recursos[aqui](https://releases.aspose.com/).
+Sim, você pode começar com uma versão de teste gratuita para explorar os recursos[aqui](https://releases.aspose.com/).

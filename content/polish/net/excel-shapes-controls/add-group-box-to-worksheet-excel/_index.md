@@ -37,7 +37,7 @@ Przed utworzeniem pliku Excel musisz określić, gdzie chcesz go zapisać. Utwó
 ```csharp
 // Ścieżka do katalogu dokumentów
 string dataDir = "Your Document Directory"; // Określ żądaną ścieżkę
-//Utwórz katalog, jeśli jeszcze go nie ma.
+// Utwórz katalog, jeśli jeszcze go nie ma.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);

@@ -67,7 +67,7 @@ Workbook book = new Workbook();
 
 Zde jednoduše vytvoříme nový sešit, který bude obsahovat naše tabulková data a konfigurace.
 
-## Krok 2: Otevřete první list
+## Krok 2: Otevřete první pracovní list
 
 Po vytvoření instance sešitu budete chtít získat přístup k prvnímu listu. Každý sešit může obsahovat více listů, ale pro tuto ukázku se budeme držet prvního.
 

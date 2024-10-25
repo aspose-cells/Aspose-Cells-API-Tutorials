@@ -55,7 +55,7 @@ Dowiedz się, jak wysyłać kształty do przodu lub do tyłu w programie Excel z
 ### [Określ czcionkę Dalekiego Wschodu i Łacińską w programie Excel](./specify-far-east-latin-font-excel/)
 Dowiedz się, jak określić czcionki dalekowschodnie i łacińskie w programie Excel za pomocą Aspose.Cells dla platformy .NET, korzystając z tego kompleksowego i łatwego w użyciu samouczka.
 ### [Ustawianie marginesów dla komentarza lub kształtu w programie Excel](./set-margins-comment-shape-excel/)
-Dowiedz się, jak ustawić marginesy dla komentarzy i kształtów w programie Excel przy użyciu Aspose.Cells dla .NET. Dołączony przewodnik krok po kroku dla łatwej implementacji.
+Dowiedz się, jak ustawić marginesy dla komentarzy i kształtów w programie Excel przy użyciu Aspose.Cells dla .NET. Dołączony przewodnik krok po kroku ułatwiający implementację.
 ### [Dostęp do kształtu nieprymitywnego w programie Excel](./access-non-primitive-shape-excel/)
 Naucz się uzyskiwać dostęp do nieprymitywnych kształtów w programie Excel za pomocą Aspose.Cells dla .NET. Odkryj metodologie krok po kroku w tym kompleksowym przewodniku.
 ### [Odśwież obiekt OLE w programie Excel](./refresh-ole-object-excel/)

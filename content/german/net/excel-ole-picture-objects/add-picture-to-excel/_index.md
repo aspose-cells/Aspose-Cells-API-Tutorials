@@ -26,7 +26,7 @@ Lassen Sie uns nun den Vorgang zum Hinzufügen eines Bilds zu einem Excel-Arbeit
 Verzeichnis zur Dokumentenablage erstellen
 Bevor wir irgendetwas mit der Arbeitsmappe machen, brauchen wir einen Ort, an dem wir sie speichern können. Wir geben dieses Dokumentverzeichnis an:
 ```csharp
-string dataDir = "Your Document Directory"; // Definieren Sie Ihren gewünschten Pfad.
+string dataDir = "Your Document Directory"; //Definieren Sie Ihren gewünschten Pfad.
 ```
  Ersetzen Sie in diesem Codeausschnitt`"Your Document Directory"` durch den tatsächlichen Pfad, in dem Sie Ihre Excel-Dateien speichern möchten. Dieses Verzeichnis enthält die Ausgabedatei nach dem Hinzufügen des Bildes.
 ## Schritt 2: Verzeichnis erstellen, falls es nicht existiert
@@ -81,7 +81,7 @@ Ja, Sie können Ihren Arbeitsblättern verschiedene Bildformate wie PNG, JPEG un
 ### Unterstützt Aspose.Cells andere Excel-Dateiformate als .xls?
 Absolut! Aspose.Cells unterstützt mehrere Excel-Formate, darunter .xlsx, .xlsm und .xlsb.
 ### Gibt es eine Testversion?
- Ja! Sie können Aspose.Cells kostenlos testen, bevor Sie einen Kauf tätigen. Überprüfen Sie einfach[Hier](https://releases.aspose.com/).
+Ja! Sie können Aspose.Cells kostenlos testen, bevor Sie einen Kauf tätigen. Überprüfen Sie einfach[Hier](https://releases.aspose.com/).
 ### Was soll ich tun, wenn mein Bild nicht angezeigt wird?
 Stellen Sie sicher, dass der Bildpfad korrekt ist und sich die Bilddatei im angegebenen Verzeichnis befindet.
 ### Kann ich Bilder über mehrere Zellen hinweg platzieren?

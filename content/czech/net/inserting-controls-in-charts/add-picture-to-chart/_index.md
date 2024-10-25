@@ -16,7 +16,7 @@ Už vás nebaví nudné tabulky, které postrádají osobní nádech? Chcete se 
 Než se pustíme do hrubky kódování, existuje několik předpokladů, které musíte hladce dodržovat:
 
 - Visual Studio: Zde budete psát a spouštět svůj kód .NET. Ujistěte se, že jej máte nainstalovaný.
-- Aspose.Cells for .NET: Tuto knihovnu budete potřebovat pro práci se soubory aplikace Excel. Můžete[stáhněte si jej zde](https://releases.aspose.com/cells/net/).
+-  Aspose.Cells for .NET: Tuto knihovnu budete potřebovat pro práci se soubory aplikace Excel. Můžete[stáhněte si jej zde](https://releases.aspose.com/cells/net/).
 - Základní porozumění C#: I když vás provedu kódem, znalost základů C# bude věci jasnější.
 
 ### Kroky instalace
@@ -55,7 +55,7 @@ string sourceDir = "Your Document Directory/";
 string outputDir = "Your Output Directory/";
 ```
 
- Nahradit`Your Document Directory` a`Your Output Directory` se skutečnými cestami ve vašem počítači. 
+ Nahradit`Your Document Directory` a`Your Output Directory`se skutečnými cestami ve vašem počítači. 
 
 ## Krok 2: Načtěte existující sešit
 
@@ -84,7 +84,7 @@ Ujistěte se, že máte obrázek uložený v určeném adresáři.
 Nyní upřesníme, do kterého grafu přidáme náš obrázek. V tomto příkladu zacílíme na první graf na prvním listu.
 
 ```csharp
-//Získejte graf návrháře na druhém listu.
+// Získejte graf návrháře na druhém listu.
 Worksheet sheet = workbook.Worksheets[0];
 Aspose.Cells.Charts.Chart chart = sheet.Charts[0];
 ```
@@ -100,11 +100,11 @@ S vybraným grafem je čas přidat obrázek!
 Aspose.Cells.Drawing.Picture pic0 = chart.Shapes.AddPictureInChart(50, 50, stream, 200, 200);
 ```
 
- Zde,`50` a`50` jsou souřadnice X a Y, kam bude obrázek umístěn, a`200` je šířka a výška obrázku.
+ Zde,`50` a`50` jsou souřadnice X a Y, kam bude obrázek umístěn, a`200`je šířka a výška obrázku.
 
 ## Krok 6: Upravte formát čar obrázku
 
-Chcete svému obrázku dodat nějaký šmrnc? Jeho ohraničení si můžete přizpůsobit! Jak na to:
+Chcete svému obrázku dodat nějaký šmrnc? Můžete si přizpůsobit jeho okraj! Jak na to:
 
 ```csharp
 // Získejte typ formátu řádku obrázku.
@@ -140,14 +140,14 @@ Console.WriteLine("AddingPictureInChart executed successfully.");
 
 ## Závěr
 
-V tomto tutoriálu jsme prozkoumali, jak vnést trochu osobitosti do grafů aplikace Excel přidáním obrázků pomocí Aspose.Cells pro .NET. Pomocí několika jednoduchých kroků můžete své prezentace povýšit ze světských na nezapomenutelné. Tak na co čekáš? Vyzkoušejte to a nechte své grafy zářit!
+tomto tutoriálu jsme prozkoumali, jak vnést trochu osobitosti do grafů aplikace Excel přidáním obrázků pomocí Aspose.Cells pro .NET. Pomocí několika jednoduchých kroků můžete své prezentace povýšit ze světských na nezapomenutelné. Tak na co čekáš? Vyzkoušejte to a nechte své grafy zářit!
 
 ## FAQ
 
 ### Mohu přidat více obrázků do jednoho grafu?
  Ano! Můžete zavolat na`AddPictureInChart` vícekrát přidat tolik obrázků, kolik si přejete.
 
-### Jaké formáty obrázků podporuje Aspose.Cells?
+### Jaké formáty obrázků Aspose.Cells podporuje?
 Aspose.Cells podporuje různé formáty obrázků, včetně PNG, JPEG, BMP a GIF.
 
 ### Mohu upravit polohu obrázku?

@@ -31,7 +31,7 @@ Každý dobrý projekt začíná správnou organizací! Nejprve musíte definova
 ```csharp
 // Cesta k adresáři dokumentů.
 string dataDir = "Your Document Directory";
-//Vytvořte adresář, pokud ještě není přítomen.
+// Vytvořte adresář, pokud ještě není přítomen.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -66,7 +66,7 @@ Cells cells = worksheet.Cells;
 ```
 Nyní máte přístup k buňkám v pracovním listu, podobně jako máte přístup ke všemu nábytku ve svém pokoji.
 ## Krok 6: Zadejte hodnotu do buňky
-Pojďme naplnit buňku počáteční hodnotou. Tuto hodnotu bude později ovládat posuvník.
+Pojďme naplnit buňku počáteční hodnotou. Posuvník bude tuto hodnotu ovládat později.
 ```csharp
 // Zadejte hodnotu do buňky A1.
 cells["A1"].PutValue(1);
@@ -103,7 +103,7 @@ Tady se děje kouzlo! Musíte propojit posuvník s buňkou, kterou jste dříve 
 // Nastavte propojenou buňku pro ovládací prvek.
 scrollbar.LinkedCell = "A1";
 ```
-Nyní, když někdo interaguje s posuvníkem, změní se hodnota v buňce A1. Je to jako připojení dálkového ovladače k televizoru; máte kontrolu nad tím, co se zobrazuje!
+Nyní, když někdo interaguje s posuvníkem, změní se hodnota v buňce A1. Je to jako připojení dálkového ovládání k televizoru; máte kontrolu nad tím, co se zobrazuje!
 ## Krok 11: Konfigurace vlastností posuvníku
 Funkčnost posuvníku můžete přizpůsobit nastavením jeho maximální a minimální hodnoty a také jeho přírůstkové změny.
 ```csharp
@@ -132,10 +132,10 @@ A tady to máte – váš průvodce přidáním posuvníku do listu v Excelu pom
 ### Co je Aspose.Cells?
 Aspose.Cells je výkonná knihovna .NET, která umožňuje vývojářům vytvářet, manipulovat a převádět soubory Excelu programově.
 ### Mohu používat Aspose.Cells zdarma?
-Ano, Aspose.Cells nabízí bezplatnou zkušební verzi, kterou můžete najít[zde](https://releases.aspose.com/).
+ Ano, Aspose.Cells nabízí bezplatnou zkušební verzi, kterou můžete najít[zde](https://releases.aspose.com/).
 ### Jak přidám další ovládací prvky do svého listu Excel?
 Můžete použít podobné metody jako pro posuvník. Více ovládacích prvků naleznete v dokumentaci!
 ### Jaké programovací jazyky mohu používat s Aspose.Cells?
 Aspose.Cells primárně podporuje jazyky .NET, včetně C# a VB.NET.
-### Kde najdu pomoc v případě problémů?
+### Kde najdu pomoc, když narazím na problémy?
  Pomoc můžete hledat na[Fórum Aspose](https://forum.aspose.com/c/cells/9) pro jakékoli dotazy nebo obavy, které máte.

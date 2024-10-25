@@ -35,7 +35,7 @@ této části vás provedeme tím, jak extrahovat spojovací body tvaru v listu 
 Workbook workbook = new Workbook();
 ```
  V tomto kroku jsme vytvořili prázdný sešit aplikace Excel, ale můžete také načíst existující sešit tak, že předáte cestu k souboru`Workbook` konstruktér.
-## Krok 2: Otevřete první list
+## Krok 2: Otevřete první pracovní list
 Dále musíme přistoupit k listu, kde chceme pracovat s tvary. V tomto případě použijeme první list sešitu.
 ```csharp
 // Získejte první pracovní list v sešitu
@@ -91,9 +91,9 @@ Spojovací bod je konkrétní bod na tvaru, ke kterému můžete připojit konek
 ### Mohu načíst spojovací body pro všechny obrazce v listu?
 Ano, Aspose.Cells vám umožňuje získat spojovací body pro jakýkoli tvar, který je podporuje. Jednoduše procházejte kolekci tvarů v listu.
 ### Potřebuji licenci k používání Aspose.Cells?
-Ano, i když to můžete vyzkoušet zdarma, pro plné funkce je vyžadována licence. Můžete[koupit licenci zde](https://purchase.aspose.com/buy) nebo získat a[dočasná licence](https://purchase.aspose.com/temporary-license/).
+Ano, i když to můžete vyzkoušet zdarma, pro plné funkce je vyžadována licence. Můžete[koupit licenci zde](https://purchase.aspose.com/buy)nebo získat a[dočasná licence](https://purchase.aspose.com/temporary-license/).
 ### Jak mohu do Aspose.Cells přidat různé typy tvarů?
- Můžete použít`Add` metoda pro tvary, jako jsou obdélníky, elipsy a další. Každý tvar má specifické parametry, které si můžete přizpůsobit.
+Můžete použít`Add` metoda pro tvary, jako jsou obdélníky, elipsy a další. Každý tvar má specifické parametry, které si můžete přizpůsobit.
 ### Jak načtu stávající soubor aplikace Excel namísto vytvoření nového?
  Chcete-li načíst existující soubor, předejte cestu k souboru`Workbook` konstruktor, takto:  
 ```csharp

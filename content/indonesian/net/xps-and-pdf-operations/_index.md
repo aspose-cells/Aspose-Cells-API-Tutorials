@@ -13,7 +13,7 @@ Jika berbicara tentang bekerja dengan file Excel, Aspose.Cells untuk .NET adalah
 
 ## Mengonversi File Excel ke XPS
 
-Pertama, mari kita bahas tentang mengonversi file Excel ke format XPS. Anda mungkin bertanya-tanya, "Mengapa saya ingin mengonversi ke XPS?" Nah, XPS (XML Paper Specification) adalah format dokumen tetap yang mempertahankan tampilan dan nuansa lembar kerja Excel Anda, sehingga lebih mudah dibagikan tanpa kehilangan format. Ingin mencobanya? Lihat tutorial kami di[Mengonversi ke XPS dalam .NET](./converting-to-xps/). Panduan ini memandu Anda melalui proses langkah demi langkah, dilengkapi dengan contoh kode praktis. Anda akan mendapati bahwa panduan ini tidak hanya mudah tetapi juga sangat efektif untuk menjaga keakuratan dokumen.
+ Pertama, mari kita bahas tentang mengonversi file Excel ke format XPS. Anda mungkin bertanya-tanya, "Mengapa saya ingin mengonversi ke XPS?" Nah, XPS (XML Paper Specification) adalah format dokumen tetap yang mempertahankan tampilan dan nuansa lembar kerja Excel Anda, sehingga lebih mudah dibagikan tanpa kehilangan format. Ingin mencobanya? Lihat tutorial kami di[Mengonversi ke XPS dalam .NET](./converting-to-xps/)Panduan ini memandu Anda melalui proses langkah demi langkah, dilengkapi dengan contoh kode praktis. Anda akan mendapati bahwa panduan ini tidak hanya mudah tetapi juga sangat efektif untuk menjaga keakuratan dokumen.
 
 ## Mengatur Waktu Pembuatan PDF untuk Manajemen yang Lebih Baik
 

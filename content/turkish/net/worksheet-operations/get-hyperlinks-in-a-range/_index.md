@@ -35,13 +35,13 @@ Belgelerinizin yolunu tanımlayarak başlayalım. Excel dosyanızın bulunduğu 
 // Belgeler dizinine giden yol.
 string sourceDir = "Your Document Directory"; // Bunu Excel dosyanızın yoluna değiştirin
 // Çıktı dizini
-string outputDir = RunExamples.Get_OutputDirectory(); // Bu yöntemin geçerli bir çıktı yolu sağladığından emin olun
+string outputDir = "Your Document Directory"; // Bu yöntemin geçerli bir çıktı yolu sağladığından emin olun
 ```
- Bu kod parçacığında şunu değiştirin:`"Your Document Directory"` Excel dosyasını içeren dizininize giden gerçek yol ile. Bu, performansınızdan önce sahneyi kurmak gibidir; materyallerinizin nerede olduğunu bilmek çok önemlidir.
+ Bu kod parçacığında şunu değiştirin:`"Your Document Directory"`Excel dosyasını içeren dizininize giden gerçek yol ile. Bu, performansınızdan önce sahneyi kurmak gibidir; materyallerinizin nerede olduğunu bilmek çok önemlidir.
 ## Adım 2: Çalışma Kitabı Nesnesini Örneklendirin
  Daha sonra bir tane oluşturacağız`Workbook` Çalıştığımız Excel dosyasını açmak için nesne.
 ```csharp
-//Bir Çalışma Kitabı nesnesi örneği oluşturun
+// Bir Çalışma Kitabı nesnesi örneği oluşturun
 // Bir Excel dosyası açın
 Workbook workbook = new Workbook(sourceDir + "HyperlinksSample.xlsx");
 ```
@@ -59,14 +59,14 @@ Worksheet worksheet = workbook.Worksheets[0];
 // A2:B3 aralığını oluşturun
 Range range = worksheet.Cells.CreateRange("A2", "B3");
 ```
- Arayarak`CreateRange`, başlangıç ve bitiş hücrelerini belirtiriz. Sihir burada gerçekleşir—daha sonra bu belirtilen aralıkta bulunan köprü metinlerini kontrol edeceğiz.
+ Arayarak`CreateRange`başlangıç ve bitiş hücrelerini belirtiriz. Sihir burada gerçekleşir—daha sonra bu belirtilen aralıkta bulunan köprü metinlerini kontrol edeceğiz.
 ## Adım 5: Aralıktan Hiper Bağlantıları Alın
 Bu adım aslında tanımladığımız aralıktaki hiperlinklere ulaştığımız adımdır.
 ```csharp
 //Hiper Bağlantıları aralığa alın
 Hyperlink[] hyperlinks = range.Hyperlinks;
 ```
- The`Hyperlinks` birinin mülkü`Range`nesne bir dizi döndürür`Hyperlink` o aralıkta bulunan nesneler. Sayfanızdaki tüm önemli notları tek seferde almak gibi!
+ The`Hyperlinks` birinin mülkü`Range` nesne bir dizi döndürür`Hyperlink` o aralıkta bulunan nesneler. Sayfanızdaki tüm önemli notları tek seferde almak gibi!
 ## Adım 6: Döngüye Girin ve Bağlantıları Görüntüleyin
 Şimdi, alınan köprü metinleri arasında dolaşalım. Şimdilik konsolda adreslerini ve alanlarını yazdıracağız.
 ```csharp
@@ -85,7 +85,7 @@ foreach (Hyperlink link in hyperlinks)
     link.Delete();
 }
 ```
- Kullanımı`Delete()` her köprü metnindeki yöntem, artık ihtiyacınız olmayabilecek köprü metinlerini kaldırmanıza olanak tanır. Bu, sayfanızdan artık ihtiyaç duymadığınız bir karalamayı silmek gibidir.
+ Kullanımı`Delete()`her köprü metnindeki yöntem, artık ihtiyacınız olmayabilecek köprü metinlerini kaldırmanıza olanak tanır. Bu, sayfanızdan artık ihtiyaç duymadığınız bir karalamayı silmek gibidir.
 ## Adım 8: Değişikliklerinizi Kaydedin
 Son olarak çalışma kitabını yaptığımız tüm ayarlamalarla kaydedelim.
 ```csharp

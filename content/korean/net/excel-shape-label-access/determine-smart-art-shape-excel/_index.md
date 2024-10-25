@@ -13,7 +13,7 @@ Excel 시트의 특정 모양이 Smart Art 그래픽인지 식별하는 데 어�
 ## 필수 조건
 기술적인 세부 사항을 살펴보기 전에 이 튜토리얼을 따라하기 위해 준비해야 할 사항을 알아보겠습니다.
 1. Visual Studio: 여기서 코드를 작성합니다. .NET Framework 또는 .NET Core와 호환되는 버전이 있는지 확인하세요.
-2. .NET용 Aspose.Cells: 이 라이브러리가 설치되어 있어야 합니다. 다음에서 다운로드할 수 있습니다.[Aspose 웹사이트](https://releases.aspose.com/cells/net/).
+2.  .NET용 Aspose.Cells: 이 라이브러리가 설치되어 있어야 합니다. 다음에서 다운로드할 수 있습니다.[Aspose 웹사이트](https://releases.aspose.com/cells/net/).
 3. 기본 프로그래밍 지식: C#에 대한 지식과 클래스, 메서드와 같은 개념에 대한 이해가 있으면 이 과정이 더 순조로워집니다.
 4. 샘플 Excel 파일: 테스트를 위해 모양과 스마트 아트가 포함된 샘플 Excel 파일도 필요합니다.
 이러한 필수 조건을 모두 충족하면 이제 코드를 작성할 준비가 되었습니다!
@@ -46,7 +46,7 @@ using Aspose.Cells.Drawing;
 // 소스 디렉토리
 string sourceDir = "Your Document Directory";
 ```
- 바꾸다`"Your Document Directory"` 너의 경로와 함께`sampleSmartArtShape.xlsx` 파일이 있는 위치입니다. 여기서 응용 프로그램은 검사하려는 모양이 포함된 Excel 파일을 찾습니다.
+ 바꾸다`"Your Document Directory"` 너의 경로와 함께`sampleSmartArtShape.xlsx`파일이 있는 위치입니다. 여기서 응용 프로그램은 검사하려는 모양이 포함된 Excel 파일을 찾습니다.
 ## 2단계: Excel 통합 문서 로드
  다음으로 Aspose.Cells에 Excel 파일을 로드합니다.`Workbook` 수업.
 ```csharp
@@ -60,7 +60,7 @@ Workbook wb = new Workbook(sourceDir + "sampleSmartArtShape.xlsx");
 // 첫 번째 워크시트에 접근하세요
 Worksheet ws = wb.Worksheets[0];
 ```
- Excel 파일에는 여러 워크시트가 포함될 수 있습니다. 인덱싱을 통해`[0]`우리는 통합 문서의 첫 번째 워크시트에 접근하고 있습니다. 
+ Excel 파일에는 여러 워크시트가 포함될 수 있습니다. 인덱싱을 통해`[0]`, 우리는 통합 문서의 첫 번째 워크시트에 접근하고 있습니다. 
 ## 4단계: 모양에 액세스
 이제 확인하고 싶은 구체적인 모양을 검색해 보겠습니다.
 ```csharp
@@ -83,7 +83,7 @@ Console.WriteLine("Is Smart Art Shape: " + sh.IsSmartArt);
 ### Aspose.Cells를 사용하여 스마트 아트 모양을 수정할 수 있나요?
 네, 스타일과 세부 정보를 변경하는 등 스마트 아트 모양을 프로그래밍 방식으로 조작할 수 있습니다.
 ### Aspose.Cells는 무료로 사용할 수 있나요?
- 체험판이 있지만 Aspose.Cells는 유료 라이브러리입니다. 전체 버전을 구매할 수 있습니다.[여기](https://purchase.aspose.com/buy).
+체험판이 있지만 Aspose.Cells는 유료 라이브러리입니다. 전체 버전을 구매할 수 있습니다.[여기](https://purchase.aspose.com/buy).
 ### 문제가 발생하면 어떻게 지원을 받을 수 있나요?
  도움을 요청하려면 다음 주소로 연락하세요.[Aspose 지원 포럼](https://forum.aspose.com/c/cells/9).
 ### Aspose.Cells에 대한 추가 문서는 어디에서 찾을 수 있나요?

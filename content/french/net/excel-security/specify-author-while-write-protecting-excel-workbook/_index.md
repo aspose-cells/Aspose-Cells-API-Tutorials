@@ -63,7 +63,7 @@ Tout comme un artiste commence avec une toile vierge, vous commencez avec un cla
 La protection en écriture est un aspect crucial, surtout si vous souhaitez garantir l'intégrité de vos données. Vous pouvez le faire avec un mot de passe.
 
 ```csharp
-// Protégez le classeur en écriture avec un mot de passe.
+//Protégez le classeur en écriture avec un mot de passe.
 wb.Settings.WriteProtection.Password = "YOUR_PASSWORD";
 ```
 
@@ -110,4 +110,4 @@ Et voilà ! Vous avez appris à créer un classeur Excel, à définir une protec
 Absolument ! Aspose.Cells fonctionne parfaitement dans les applications de bureau et Web utilisant .NET.
 
 ### Que dois-je faire si j’ai besoin d’aide ?  
-Pour les questions et le dépannage, la communauté Aspose est très utile. Vous pouvez visiter leur[Forum de soutien](https://forum.aspose.com/c/cells/9) pour obtenir de l'aide.
+ Pour les questions et le dépannage, la communauté Aspose est très utile. Vous pouvez visiter leur[Forum de soutien](https://forum.aspose.com/c/cells/9) pour obtenir de l'aide.

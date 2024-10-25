@@ -60,7 +60,7 @@ Den här raden pekar på katalogen som innehåller Excel-filen. Se till att just
 
 ## Steg 2: Ladda arbetsboken
 
-Därefter laddar vi vår arbetsbok. Det är som att öppna din Excel-fil i bakgrunden, så att vi kan läsa och manipulera dess innehåll.
+Därefter ska vi ladda vår arbetsbok. Det är som att öppna din Excel-fil i bakgrunden, så att vi kan läsa och manipulera dess innehåll.
 
 ```csharp
 // Ladda arbetsboken

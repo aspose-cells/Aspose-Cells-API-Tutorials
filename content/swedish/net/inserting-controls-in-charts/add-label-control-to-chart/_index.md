@@ -62,7 +62,7 @@ Därefter laddar vi Excel-filen som innehåller diagrammet som vi vill lägga ti
 Workbook workbook = new Workbook(sourceDir + "sampleAddingLabelControlInChart.xls");
 ```
 
- Här använder vi`Workbook`klass från Aspose.Cells för att öppna vår Excel-fil. Det är som att låsa upp dörren för att låta kreativiteten flöda!
+ Här använder vi`Workbook` klass från Aspose.Cells för att öppna vår Excel-fil. Det är som att låsa upp dörren för att låta kreativiteten flöda!
 
 ## Steg 3: Öppna arbetsbladet
 
@@ -94,7 +94,7 @@ Nu kommer den spännande delen – att lägga till etiketten i diagrammet. Vi ko
 Aspose.Cells.Drawing.Label label = chart.Shapes.AddLabelInChart(600, 600, 350, 900);
 ```
 
- Här,`AddLabelInChart`tar hand om att skapa en etikett utifrån de koordinater och dimensioner du anger. Det är som att fästa en vacker ram runt ditt konstverk!
+ Här,`AddLabelInChart` tar hand om att skapa en etikett utifrån de koordinater och dimensioner du anger. Det är som att fästa en vacker ram runt ditt konstverk!
 
 ## Steg 6: Ställ in etiketttexten
 
@@ -149,7 +149,7 @@ Och där har du det! Du har framgångsrikt lagt till en etikettkontroll till ett
 Ja! Du kan ändra teckensnitt, färg, storlek och andra egenskaper för etiketten för att passa dina behov.
 
 ### Är Aspose.Cells gratis att använda?
- Aspose.Cells är en betalprodukt; du kan dock börja med en[gratis provperiod](https://releases.aspose.com/) att utforska dess funktioner.
+ Aspose.Cells är en betald produkt; du kan dock börja med en[gratis provperiod](https://releases.aspose.com/) att utforska dess funktioner.
 
 ### Vad händer om jag vill lägga till flera etiketter?
 Du kan upprepa etiketttilläggsstegen så många gånger som behövs, var och en med olika positioner och texter.

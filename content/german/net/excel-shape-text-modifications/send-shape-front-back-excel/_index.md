@@ -39,7 +39,7 @@ Nachdem wir nun unsere Verzeichnisse festgelegt haben, laden wir die Arbeitsmapp
 //Quell-Excel-Datei laden
 Workbook wb = new Workbook(sourceDir + "sampleToFrontOrBack.xlsx");
 ```
- Diese Codezeile initialisiert eine neue`Workbook`Objekt, das die angegebene Excel-Datei in den Speicher lädt, damit wir damit arbeiten können.
+ Diese Codezeile initialisiert eine neue`Workbook` Objekt, das die angegebene Excel-Datei in den Speicher lädt, damit wir damit arbeiten können.
 ## Schritt 3: Zugriff auf das Arbeitsblatt 
 Als Nächstes müssen wir auf das spezifische Arbeitsblatt zugreifen, in dem sich unsere Formen befinden. Für dieses Beispiel verwenden wir das erste Arbeitsblatt.
 ```csharp

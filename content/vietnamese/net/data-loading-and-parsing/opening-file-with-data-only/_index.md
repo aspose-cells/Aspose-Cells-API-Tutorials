@@ -51,7 +51,7 @@ Hãy coi đây như là việc đưa ra hướng dẫn cụ thể—về cơ b�
 ## Bước 4: Tạo một đối tượng Workbook
  Được rồi, chúng ta sắp xong rồi! Bây giờ chúng ta sẽ tạo một`Workbook` đối tượng, về cơ bản là nơi Aspose.Cells sẽ tải nội dung tệp Excel của bạn.
 ```csharp
-// Tạo một đối tượng Workbook và mở tệp từ đường dẫn của nó
+//Tạo một đối tượng Workbook và mở tệp từ đường dẫn của nó
 Workbook book = new Workbook(dataDir + "Book1.xlsx", loadOptions);
 ```
  Trong dòng này, thay thế`"Book1.xlsx"` với tên tệp Excel thực tế của bạn. Voilà! Sổ làm việc của bạn đã được tải với tất cả dữ liệu quan trọng.

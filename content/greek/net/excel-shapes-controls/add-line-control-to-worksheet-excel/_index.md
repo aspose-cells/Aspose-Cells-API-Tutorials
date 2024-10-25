@@ -42,7 +42,7 @@ string dataDir = "Your Document Directory";
 ## Βήμα 2: Δημιουργήστε τον κατάλογο
 Είναι καλή πρακτική να διασφαλίζετε ότι υπάρχει ο κατάλογος. Εάν δεν το κάνει, μπορείτε να το δημιουργήσετε με τον ακόλουθο κώδικα:
 ```csharp
-//Δημιουργήστε κατάλογο εάν δεν υπάρχει ήδη.
+// Δημιουργήστε κατάλογο εάν δεν υπάρχει ήδη.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);

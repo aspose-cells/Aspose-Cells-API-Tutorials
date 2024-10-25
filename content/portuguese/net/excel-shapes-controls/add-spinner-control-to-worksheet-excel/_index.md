@@ -29,7 +29,7 @@ Antes de começar a codificar, é uma boa prática organizar seus arquivos. Vamo
 ```csharp
 // O caminho para o diretório de documentos.
 string dataDir = "Your Document Directory";
-//Crie um diretório se ele ainda não estiver presente.
+// Crie um diretório se ele ainda não estiver presente.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -41,7 +41,7 @@ Agora é hora de criar uma pasta de trabalho do Excel onde adicionaremos nosso c
 // Instanciar uma nova pasta de trabalho.
 Workbook excelbook = new Workbook();
 ```
- O`Workbook`class representa um arquivo Excel. Ao instanciá-lo, criamos uma nova pasta de trabalho pronta para modificações.
+ O`Workbook` class representa um arquivo Excel. Ao instanciá-lo, criamos uma nova pasta de trabalho pronta para modificações.
 ## Etapa 3: Acesse a primeira planilha
 Adicionaremos nosso Spinner à primeira planilha da pasta de trabalho.
 ```csharp
@@ -108,7 +108,7 @@ excelbook.Save(dataDir + "book1.out.xls");
 ```
 Este comando salva a pasta de trabalho no diretório especificado. Você pode alterar o nome do arquivo conforme necessário.
 ## Conclusão
-E aí está! Você adicionou com sucesso um controle Spinner a uma planilha do Excel usando o Aspose.Cells para .NET. Este elemento interativo aprimora a experiência do usuário ao permitir ajustes rápidos nos valores. Não importa se você está criando uma ferramenta de relatório dinâmico ou um formulário de entrada de dados, o controle Spinner pode ser uma adição valiosa. 
+aí está! Você adicionou com sucesso um controle Spinner a uma planilha do Excel usando o Aspose.Cells para .NET. Este elemento interativo aprimora a experiência do usuário ao permitir ajustes rápidos nos valores. Não importa se você está criando uma ferramenta de relatório dinâmico ou um formulário de entrada de dados, o controle Spinner pode ser uma adição valiosa. 
 ## Perguntas frequentes
 ### O que é um controle Spinner no Excel?
 Um controle Spinner permite que os usuários aumentem ou diminuam um valor numérico facilmente, fornecendo uma maneira intuitiva de fazer seleções.
@@ -117,6 +117,6 @@ Sim, você pode modificar o tamanho, a posição e até mesmo o sombreamento 3D 
 ### Preciso de uma licença para usar o Aspose.Cells?
  O Aspose.Cells oferece um teste gratuito, mas uma licença paga é necessária para uso em produção. Confira o[opções de compra](https://purchase.aspose.com/buy).
 ### Como posso obter ajuda com o Aspose.Cells?
- Para obter suporte, visite o[Fórum Aspose](https://forum.aspose.com/c/cells/9)onde você pode fazer perguntas e encontrar respostas.
+ Para obter suporte, visite o[Fórum Aspose](https://forum.aspose.com/c/cells/9) onde você pode fazer perguntas e encontrar respostas.
 ### É possível adicionar vários Spinners à mesma planilha?
 Claro! Você pode adicionar quantos Spinners forem necessários seguindo os mesmos passos para cada controle.

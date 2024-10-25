@@ -44,7 +44,7 @@ FileStream fstream = new FileStream(dataDir + "Book2.xls", FileMode.Open);
 ```csharp
 Workbook workbook2 = new Workbook(fstream);
 ```
- Door het passeren van de`fstream` in de`Workbook`constructor, je opent het Excel-bestand vanuit de stream. Het is alsof je de werkmap de sleutels van de auto geeft; je laat hem het stuur overnemen.
+ Door de`fstream` in de`Workbook`constructor, je opent het Excel-bestand vanuit de stream. Het is alsof je de werkmap de sleutels van de auto geeft; je laat hem het stuur overnemen.
 ## Stap 4: Bevestig succesvolle opening
 U wilt niet in het ongewisse blijven! Het is altijd een goede gewoonte om te weten of uw operaties succesvol waren. Een eenvoudig bevestigingsbericht zou voldoende moeten zijn.
 ```csharp

@@ -20,7 +20,7 @@ Mielőtt belevágnánk a kódolási szakaszba, meg kell felelnie néhány előfe
 1. Visual Studio: Győződjön meg arról, hogy a Visual Studio telepítve van a gépen. Barátságos környezetet biztosít a .NET alkalmazások fejlesztéséhez.
 2. .NET-keretrendszer vagy .NET Core: A preferenciáktól függően vagy a .NET-keretrendszert vagy a .NET Core-t kell beállítania, hogy kövesse a kódunkat.
 3.  Aspose.Cells for .NET: Ezt nem szabad kihagyni! A kezdéshez töltse le az Aspose.Cells for .NET programot. Megtalálhatod a DLL-eket[itt](https://releases.aspose.com/cells/net/).
-4. Alapvető C# ismerete: Miközben lépésről lépésre végigvezetjük a kódon, a C# alapismerete mindenképpen segíteni fog.
+4. Alapvető C# ismerete: Miközben lépésről lépésre végigvezetjük a kódon, a C# alapismeretei mindenképpen segíteni fognak.
 
 ## Csomagok importálása
 
@@ -59,7 +59,7 @@ string sourceDir = "Your Document Directory";
 Workbook workbook = new Workbook(sourceDir + "sampleApplyingThemesInChart.xlsx");
 ```
 
- Biztosítsd ezt`sampleApplyingThemesInChart.xlsx`létezik a forráskönyvtárban.
+ Biztosítsd ezt`sampleApplyingThemesInChart.xlsx` létezik a forráskönyvtárban.
 
 ## 3. lépés: Nyissa meg a munkalapot
 
@@ -96,7 +96,7 @@ Ez a kódsor biztosítja, hogy a diagram első sorozata tömör kitöltést hasz
 
 ## 6. lépés: Állítsa be a színt
 
- Most, hogy a sorozatunk elkészült, módosítanunk kell a színét. Ez magában foglalja a létrehozását a`CellsColor`objektumot, és megadja a téma színét. Ehhez a példához egy hangsúlyos stílust választunk.
+ Most, hogy a sorozatunk elkészült, módosítanunk kell a színét. Ez magában foglalja a létrehozását a`CellsColor` objektumot, és megadja a téma színét. Ehhez a példához egy hangsúlyos stílust választunk.
 
 ```csharp
 // Szerezze be a SolidFill CellsColor-ját
@@ -158,7 +158,7 @@ Az Aspose.Cells egy hatékony .NET-könyvtár, amely lehetővé teszi a fejleszt
 Az Aspose.Cells különféle témaszíneket támogat, beleértve az Accent stílusokat és másokat.
 
 ### Lehetséges témákat több diagramra alkalmazni?
- Teljesen! Át lehet hurkolni`worksheet.Charts` és igény szerint alkalmazza a témákat.
+ Teljesen! Át lehet hurkolni`worksheet.Charts` és szükség szerint alkalmazza a témákat.
 
 ### Hol kaphatok támogatást az Aspose.Cells-hez?
  Támogatást kaphat, és kapcsolatba léphet a felhasználók közösségével[itt](https://forum.aspose.com/c/cells/9).

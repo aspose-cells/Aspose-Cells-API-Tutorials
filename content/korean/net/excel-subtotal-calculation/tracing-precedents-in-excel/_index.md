@@ -71,7 +71,7 @@ foreach (ReferredArea area in ret)
     Console.WriteLine(CellsHelper.CellIndexToName(area.EndRow, area.EndColumn));
 }
 ```
- 이 스니펫에서는 간단한 것을 활용하고 있습니다.`foreach` B4에 공급되는 셀의 시트 이름과 셀 참조를 인쇄하기 위한 루프입니다.`CellsHelper.CellIndexToName`이 함수는 행과 열 인덱스를 "A1", "B2" 등과 같은 읽을 수 있는 셀 참조로 변환합니다. 
+ 이 스니펫에서는 간단한 것을 활용하고 있습니다.`foreach` B4에 공급되는 셀의 시트 이름과 셀 참조를 인쇄하기 위한 루프입니다.`CellsHelper.CellIndexToName` 이 함수는 행과 열 인덱스를 "A1", "B2" 등과 같은 읽을 수 있는 셀 참조로 변환합니다. 
 
 ## 결론
 이제 아시겠죠! Aspose.Cells for .NET을 사용하여 Excel에서 성공적으로 선례를 추적했습니다. 셀 종속성을 이해하면 스프레드시트 관리 기술을 향상시키고 데이터 기반 의사 결정에 명확성을 제공할 수 있습니다. 마치 퍼즐을 풀고 데이터가 어디에서 나오는지 조각 맞추는 것과 같습니다. 이제 직접 데이터에서 이것을 시도하고 Aspose.Cells의 힘을 발휘하세요!
@@ -85,4 +85,4 @@ Aspose.Cells는 Microsoft Excel을 사용하지 않고도 Excel 스프레드시�
 ### Aspose.Cells는 .NET Core와 호환됩니까?  
 네, Aspose.Cells는 .NET Core를 지원하므로 다양한 .NET 프레임워크에서 사용할 수 있습니다.
 ### Aspose.Cells에 대한 지원은 어디에서 찾을 수 있나요?  
-당신은에 대한 도움을 얻을 수 있습니다[Aspose 지원 포럼](https://forum.aspose.com/c/cells/9).
+ 당신은에 대한 도움을 얻을 수 있습니다[Aspose 지원 포럼](https://forum.aspose.com/c/cells/9).

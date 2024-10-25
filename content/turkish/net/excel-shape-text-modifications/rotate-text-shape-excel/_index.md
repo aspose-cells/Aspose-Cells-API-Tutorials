@@ -47,7 +47,7 @@ string sourceDir = "Your Document Directory"; // Belge dizininizi ayarlayın
 //Çıktı dizini
 string outputDir = "Your Document Directory"; // Çıkış dizininizi ayarlayın
 ```
- Yer değiştirmek`"Your Document Directory"` gerçek yolunuzla`sampleRotateTextWithShapeInsideWorksheet.xlsx`dosya bulundu.
+ Yer değiştirmek`"Your Document Directory"` gerçek yolunuzla`sampleRotateTextWithShapeInsideWorksheet.xlsx` dosya bulundu.
 ## Adım 2: Örnek Excel Dosyasını Yükleyin
 Şimdi örnek Excel dosyasını yükleyelim. Bu çok önemli çünkü mevcut verileri düzenlemek istiyoruz.
 ```csharp
@@ -91,7 +91,7 @@ wb.Save(outputDir + "outputRotateTextWithShapeInsideWorksheet.xlsx");
 ```
 Ve işte bu kadar! Çıktı dosyanız artık kaydedildi, B4 hücresindeki metin ve şekle yapılan ayarlamalar dahil.
 ## Adım 8: Kodu Çalıştırın
- Senin içinde`Main`yöntemini kullanın, yukarıdaki tüm kod parçacıklarını sarın ve projenizi çalıştırın. Değişikliklerin çıktı dosyanıza yansıdığını görün!
+ Senin içinde`Main` yöntemini kullanın, yukarıdaki tüm kod parçacıklarını sarın ve projenizi çalıştırın. Değişikliklerin çıktı dosyanıza yansıdığını görün!
 ```csharp
 Console.WriteLine("RotateTextWithShapeInsideWorksheet executed successfully.");
 ```
@@ -105,6 +105,6 @@ Aspose.Cells, XLS, XLSX, CSV ve daha fazlası dahil olmak üzere çeşitli Excel
 ### Excel'in eski sürümlerinde şekiller içeren metni döndürmek mümkün müdür?
 Evet, bu işlevsellik Aspose.Cells tarafından desteklenen eski formatlara uygulanabilir.
 ### Aspose.Cells hakkında daha fazla dokümanı nerede bulabilirim?
- Kapsamlı içeriği keşfedebilirsiniz[belgeleme](https://reference.aspose.com/cells/net/)Daha fazla bilgi için.
+ Kapsamlı içeriği keşfedebilirsiniz[belgeleme](https://reference.aspose.com/cells/net/) Daha fazla bilgi için.
 ### Aspose.Cells için desteği nasıl alabilirim?
  Destek almak için şu adresi ziyaret edebilirsiniz:[Aspose forumu](https://forum.aspose.com/c/cells/9).

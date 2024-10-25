@@ -163,5 +163,5 @@ Absolutně! Aspose.Cells podporuje různé typy grafů, včetně sloupcových, s
 ### Existuje způsob, jak získat dočasnou licenci pro Aspose.Cells?
  Ano, můžete získat dočasnou licenci od[tento odkaz](https://purchase.aspose.com/temporary-license/).
 
-### Kde najdu další dokumentaci na Aspose.Cells?
+### Kde najdu další dokumentaci k Aspose.Cells?
  Můžete prozkoumat celou dokumentaci[zde](https://reference.aspose.com/cells/net/).

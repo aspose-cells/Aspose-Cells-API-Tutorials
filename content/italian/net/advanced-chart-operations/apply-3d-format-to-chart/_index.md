@@ -71,7 +71,7 @@ I nomi dovrebbero essere intuitivi. In questo caso, lo chiameremo "DataSheet" co
 
 ## Passaggio 3: creare i dati per il grafico
 
-Ora aggiungeremo alcuni dati al nostro "DataSheet". Popoleremolo con i valori che verranno utilizzati nel nostro grafico.
+Ora aggiungeremo alcuni dati al nostro "DataSheet". Popoliamolo con i valori che verranno utilizzati nel nostro grafico.
 
 ```csharp
 Worksheet dataSheet = book.Worksheets["DataSheet"];
@@ -202,7 +202,7 @@ Congratulazioni! Hai creato con successo un grafico 3D visivamente accattivante 
 Aspose.Cells per .NET è una potente libreria che consente agli sviluppatori di manipolare i documenti Excel a livello di programmazione, inclusa la creazione di grafici e diagrammi.
 
 ### Posso personalizzare i tipi di grafico in Aspose.Cells?
-Sì! Aspose.Cells supporta vari tipi di grafici, come a colonne, a linee, a torta e molti altri, che possono essere facilmente personalizzati.
+Sì! Aspose.Cells supporta vari tipi di grafici come Colonna, Linea, Torta e molti altri, che possono essere facilmente personalizzati.
 
 ### È disponibile una prova gratuita per Aspose.Cells?
  Assolutamente! Puoi scaricare una prova gratuita da[Qui](https://releases.aspose.com/).

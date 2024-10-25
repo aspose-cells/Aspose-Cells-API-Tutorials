@@ -18,7 +18,7 @@ Innan du dyker in, se till att du har följande förutsättningar på plats:
 1. Utvecklingsmiljö: Bekanta dig med en .NET-utvecklingsmiljö. Detta kan vara Visual Studio eller någon annan IDE du väljer.
 2.  Aspose.Cells för .NET: Du måste ha Aspose.Cells för .NET installerat. Om du inte har gjort det ännu kan du enkelt ladda ner det[här](https://releases.aspose.com/cells/net/).
 3. Grundläggande kunskaper om C#: En grundläggande förståelse för C# och hur man arbetar med .NET-bibliotek hjälper dig att följa med sömlöst.
-4.  Exempeldata: Du bör ha en Excel-fil, helst namngiven`sourseSampleCountryNames.xlsx`, som finns i din utsedda källkatalog. Den här filen kommer att innehålla den data vi kommer att filtrera.
+4.  Exempeldata: Du bör ha en Excel-fil, helst namngiven`sourseSampleCountryNames.xlsx`, som finns i din angivna källkatalog. Den här filen kommer att innehålla den data vi kommer att filtrera.
 5.  Licensiering: För full funktionalitet, överväg att skaffa en licens via denna[länk](https://purchase.aspose.com/buy) . Om du vill testa funktionerna kan du begära en[tillfällig licens](https://purchase.aspose.com/temporary-license/).
 
 Har du allt klart? Låt oss gå!
@@ -71,7 +71,7 @@ Nu måste vi komma åt det specifika kalkylblad som vi vill arbeta med:
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
-Förklaring: The`Worksheets` samling ger oss tillgång till enskilda ark. Använder`[0]` refererar till det första kalkylbladet i din Excel-fil, vilket vanligtvis är vanligt när du arbetar med en fil med ett ark.
+ Förklaring: The`Worksheets` samling ger oss tillgång till enskilda ark. Använder`[0]` refererar till det första kalkylbladet i din Excel-fil, vilket vanligtvis är vanligt när du arbetar med en fil med ett ark.
 
 ## Steg 4: Konfigurera autofiltret
 
@@ -82,7 +82,7 @@ Här börjar magin! Vi skapar ett autofilterintervall för våra data:
 worksheet.AutoFilter.Range = "A1:A18";
 ```
 
-Förklaring: The`AutoFilter.Range` egenskap låter dig ange vilka rader som ska filtreras. I det här fallet filtrerar vi rader inom intervallet A1 till A18, som antas innehålla våra data.
+ Förklaring: The`AutoFilter.Range` egenskap låter dig ange vilka rader som ska filtreras. I det här fallet filtrerar vi rader inom intervallet A1 till A18, som antas innehålla våra data.
 
 ## Steg 5: Tillämpa filtervillkor
 
@@ -93,7 +93,7 @@ Nästa steg är att definiera filtervillkoret. Vi vill bara visa de rader vars f
 worksheet.AutoFilter.Custom(0, FilterOperatorType.BeginsWith, "Ba");
 ```
 
-Förklaring: The`Custom` metoden definierar vår filtreringslogik. Det första argumentet (`0` ) indikerar att vi filtrerar baserat på den första kolumnen (A), och den`FilterOperatorType.BeginsWith`anger vårt villkor för att leta efter rader som börjar med "Ba".
+ Förklaring: The`Custom` metoden definierar vår filtreringslogik. Det första argumentet (`0` ) indikerar att vi filtrerar baserat på den första kolumnen (A), och den`FilterOperatorType.BeginsWith` anger vårt villkor för att leta efter rader som börjar med "Ba".
 
 ## Steg 6: Uppdatera filtret
 
@@ -115,7 +115,7 @@ Nu är det dags att spara ändringarna vi har gjort:
 workbook.Save(outputDir + "outSourseSampleCountryNames.xlsx");
 ```
 
-Förklaring: The`Save` metod skriver den modifierade arbetsboken tillbaka till den angivna utdatasökvägen. Detta faller under att skriva dina definierade filter till en ny fil så att dina ursprungliga data förblir intakta.
+ Förklaring: The`Save` metod skriver den modifierade arbetsboken tillbaka till den angivna utdatasökvägen. Detta faller under att skriva dina definierade filter till en ny fil så att dina ursprungliga data förblir intakta.
 
 ## Steg 8: Utdatabekräftelse
 
@@ -129,7 +129,7 @@ Förklaring: Denna enkla rad matar ut ett bekräftelsemeddelande till konsolen, 
 
 ## Slutsats
 
-I en värld där datahantering kan kännas överväldigande, bemästra funktioner som AutoFilter i Excel genom Aspose.Cells för .NET ger dig möjlighet att manipulera data effektivt och effektivt. Du har lärt dig hur du filtrerar Excel-rader som börjar med "Ba", och implementerar metoden steg för steg. Med övning kommer du att kunna anpassa denna metod för olika datafiltreringsbehov i dina pågående projekt.
+en värld där datahantering kan kännas överväldigande, bemästra funktioner som AutoFilter i Excel genom Aspose.Cells för .NET ger dig möjlighet att manipulera data effektivt och effektivt. Du har lärt dig hur du filtrerar Excel-rader som börjar med "Ba", och implementerar metoden steg för steg. Med övning kommer du att kunna anpassa denna metod för olika datafiltreringsbehov i dina pågående projekt.
 
 ## FAQ's
 

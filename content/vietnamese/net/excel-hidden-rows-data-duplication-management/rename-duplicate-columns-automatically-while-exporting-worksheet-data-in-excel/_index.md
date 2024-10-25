@@ -96,4 +96,4 @@ Aspose.Cells là một thư viện mạnh mẽ dành cho .NET cho phép các nh�
 ### Tôi có thể nhận trợ giúp ở đâu nếu gặp vấn đề?
  Diễn đàn cộng đồng Aspose là nguồn tài nguyên tuyệt vời để khắc phục sự cố và tư vấn:[Hỗ trợ Aspose](https://forum.aspose.com/c/cells/9).
 ### Có giấy phép tạm thời nào cho Aspose.Cells không?
- Có! Bạn có thể xin giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/) để dùng thử tất cả các tính năng mà không có hạn chế.
+Có! Bạn có thể xin giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/) để dùng thử tất cả các tính năng mà không có hạn chế.

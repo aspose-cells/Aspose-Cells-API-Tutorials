@@ -12,7 +12,7 @@ Khi nói đến việc làm việc với các tệp Excel trong .NET, có rất 
 ## Điều kiện tiên quyết
 Trước khi bắt đầu, hãy đảm bảo bạn có mọi thứ cần thiết để theo dõi liền mạch. Sau đây là những gì bạn cần có:
 1. Visual Studio: Đảm bảo bạn đã cài đặt phiên bản Visual Studio trên máy của mình. Đây là nơi bạn sẽ viết mã .NET. 
-2.  Thư viện Aspose.Cells: Bạn cần thư viện Aspose.Cells cho .NET. Nếu bạn chưa tải xuống, hãy truy cập[Trang Tải xuống Aspose](https://releases.aspose.com/cells/net/) để nắm lấy nó. 
+2. Thư viện Aspose.Cells: Bạn cần thư viện Aspose.Cells cho .NET. Nếu bạn chưa tải xuống, hãy truy cập[Trang Tải xuống Aspose](https://releases.aspose.com/cells/net/) để nắm lấy nó. 
 3. Kiến thức cơ bản về C#: Hiểu biết cơ bản về C# và .NET sẽ giúp bạn dễ dàng xem qua các ví dụ mã hơn.
 4. .NET Framework: Đảm bảo dự án của bạn được thiết lập với .NET framework phù hợp được thư viện Aspose.Cells hỗ trợ.
 5. Tài liệu Excel: Mặc dù tạo một bảng tính mới là một lựa chọn, nhưng việc có một tài liệu bắt đầu có thể hữu ích nếu bạn muốn thao tác với một tệp hiện có.
@@ -45,7 +45,7 @@ Tiếp theo, chúng ta sẽ tạo một bảng tính mới bằng thư viện As
 ```csharp
 Workbook workbook = new Workbook();
 ```
- Ở đây, chúng tôi đang tạo một phiên bản mới của`Workbook`lớp. Sổ làm việc mới tạo này là một sổ làm việc trống mà bạn có thể bắt đầu điền dữ liệu nếu muốn.
+ Ở đây, chúng tôi đang tạo một phiên bản mới của`Workbook` lớp. Sổ làm việc mới tạo này là một sổ làm việc trống mà bạn có thể bắt đầu điền dữ liệu nếu muốn.
 ## Bước 3: Lưu sổ làm việc
 Bây giờ đến phần thú vị: lưu bảng tính của bạn theo định dạng mong muốn!
 ```csharp
@@ -60,7 +60,7 @@ Và như vậy, bạn đã học thành công cách lưu tệp Excel ở định
 ### Thư viện Aspose.Cells là gì?
 Aspose.Cells là một thư viện mạnh mẽ dành cho .NET cho phép các nhà phát triển tạo, chỉnh sửa và thao tác các tệp Excel theo chương trình mà không cần cài đặt Microsoft Excel.
 ### Tôi có thể dùng thử Aspose.Cells miễn phí không?
- Chắc chắn rồi! Bạn có thể sử dụng[dùng thử miễn phí](https://releases.aspose.com/)để khám phá khả năng của thư viện.
+ Chắc chắn rồi! Bạn có thể sử dụng[dùng thử miễn phí](https://releases.aspose.com/) để khám phá khả năng của thư viện.
 ### Sự khác biệt giữa định dạng xls và xlsb là gì?
 Định dạng xls cũ hơn và dựa trên cấu trúc tệp nhị phân, trong khi xlsb là định dạng mới hơn cũng sử dụng bộ nhớ nhị phân nhưng cho phép kích thước tệp lớn hơn và xử lý nhanh hơn.
 ### Tôi có thể mua giấy phép Aspose.Cells ở đâu?

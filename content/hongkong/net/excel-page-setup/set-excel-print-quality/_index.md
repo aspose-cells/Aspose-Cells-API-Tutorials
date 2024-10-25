@@ -9,7 +9,7 @@ url: /zh-hant/net/excel-page-setup/set-excel-print-quality/
 ---
 ## 介紹
 
-在產生和操作 Excel 文件時，控製列印設定可以產生巨大的影響，尤其是在準備演示文件時。在本指南中，我們將深入探討如何使用 Aspose.Cells for .NET 輕鬆設定 Excel 工作表的列印品質。現在，讓我們捲起袖子開始吧！
+在產生和操作 Excel 檔案時，控製列印設定可能會產生巨大的影響，尤其是在準備簡報文件時。在本指南中，我們將深入探討如何使用 Aspose.Cells for .NET 輕鬆設定 Excel 工作表的列印品質。現在，讓我們捲起袖子開始吧！
 
 ## 先決條件
 

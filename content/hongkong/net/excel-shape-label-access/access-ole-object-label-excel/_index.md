@@ -8,7 +8,7 @@ weight: 10
 url: /zh-hant/net/excel-shape-label-access/access-ole-object-label-excel/
 ---
 ## 介紹
-如果你曾經接觸過 Excel，你就會知道它有多強大和複雜。有時，您可能會偶然發現OLE（物件連結和嵌入）物件中嵌入的資料- 將其視為另一個軟體工具的“迷你視窗”，例如Word 文件或PowerPoint 幻燈片，所有這些都舒適地位於您的電子表格中。但是我們如何使用 Aspose.Cells for .NET 存取和操作 OLE 物件中的這些標籤呢？係好安全帶，因為在本教程中，我們將逐步分解它！
+如果你曾經接觸過 Excel，你就會知道它有多強大和複雜。有時，您可能會偶然發現OLE（物件連結和嵌入）物件中嵌入的資料- 將其視為另一個軟體工具的“迷你視窗”，例如Word 文件或PowerPoint 幻燈片，所有這些都舒適地嵌入您的電子表格中。但是我們如何使用 Aspose.Cells for .NET 存取和操作 OLE 物件中的這些標籤呢？係好安全帶，因為在本教程中，我們將逐步分解它！
 ## 先決條件
  
 在我們進入 Aspose.Cells for .NET 的精彩世界之前，您的工具包中需要以下內容：
@@ -36,7 +36,7 @@ using System.Text;
 using System.IO;
 ```
 這些命名空間將幫助我們存取 Excel 操作所需的類別和方法。
-現在一切就緒，讓我們存取和修改嵌入 Excel 文件中的 OLE 物件的標籤。請按照以下逐步指南進行操作：
+現在一切就緒，讓我們存取並修改嵌入 Excel 文件中的 OLE 物件的標籤。請按照以下逐步指南進行操作：
 ## 第1步：設定來源目錄
 首先，我們定義 Excel 文件所在的目錄。代替`"Your Document Directory"`與您的實際文檔路徑。
 ```csharp

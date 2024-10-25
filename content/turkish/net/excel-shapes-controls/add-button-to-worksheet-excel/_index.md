@@ -31,7 +31,7 @@ Bu ilk adımda yeni bir Excel çalışma kitabı oluşturacağız ve ilk çalı�
 ```csharp
 // Belgelerinizin dizinine giden yolu tanımlayın.
 string dataDir = "Your Document Directory";
-//Eğer mevcut değilse dizin oluşturun.
+// Eğer mevcut değilse dizin oluşturun.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
 	System.IO.Directory.CreateDirectory(dataDir);

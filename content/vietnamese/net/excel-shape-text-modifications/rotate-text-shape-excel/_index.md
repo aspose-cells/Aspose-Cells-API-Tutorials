@@ -47,7 +47,7 @@ string sourceDir = "Your Document Directory"; // Thiết lập thư mục tài l
 //Thư mục đầu ra
 string outputDir = "Your Document Directory"; // Thiết lập thư mục đầu ra của bạn
 ```
- Thay thế`"Your Document Directory"` với con đường thực tế nơi bạn`sampleRotateTextWithShapeInsideWorksheet.xlsx`tập tin được đặt ở đâu.
+ Thay thế`"Your Document Directory"` với con đường thực tế nơi bạn`sampleRotateTextWithShapeInsideWorksheet.xlsx` tập tin được đặt ở đâu.
 ## Bước 2: Tải tệp Excel mẫu
 Bây giờ, hãy tải tệp Excel mẫu. Điều này rất quan trọng vì chúng ta muốn thao tác dữ liệu hiện có.
 ```csharp
@@ -91,7 +91,7 @@ wb.Save(outputDir + "outputRotateTextWithShapeInsideWorksheet.xlsx");
 ```
 Và thế là xong! Tệp đầu ra của bạn hiện đã được lưu, bao gồm văn bản trong ô B4 và các điều chỉnh đã thực hiện cho hình dạng.
 ## Bước 8: Thực thi mã
- Trong của bạn`Main`phương pháp, gói tất cả các đoạn mã trên và chạy dự án của bạn. Xem những thay đổi được phản ánh trong tệp đầu ra của bạn!
+ Trong của bạn`Main` phương pháp, gói tất cả các đoạn mã trên và chạy dự án của bạn. Xem những thay đổi được phản ánh trong tệp đầu ra của bạn!
 ```csharp
 Console.WriteLine("RotateTextWithShapeInsideWorksheet executed successfully.");
 ```
@@ -105,6 +105,6 @@ Aspose.Cells hỗ trợ nhiều định dạng Excel, bao gồm XLS, XLSX, CSV, 
 ### Có thể xoay văn bản có hình dạng trong các phiên bản Excel cũ hơn không?
 Có, chức năng này có thể được áp dụng cho các định dạng cũ hơn được Aspose.Cells hỗ trợ.
 ### Tôi có thể tìm thêm tài liệu về Aspose.Cells ở đâu?
- Bạn có thể khám phá toàn diện[tài liệu](https://reference.aspose.com/cells/net/)để có thêm thông tin chi tiết.
+ Bạn có thể khám phá toàn diện[tài liệu](https://reference.aspose.com/cells/net/) để có thêm thông tin chi tiết.
 ### Làm thế nào để tôi nhận được hỗ trợ cho Aspose.Cells?
  Bạn có thể yêu cầu hỗ trợ bằng cách truy cập[Diễn đàn Aspose](https://forum.aspose.com/c/cells/9).

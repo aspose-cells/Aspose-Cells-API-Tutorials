@@ -45,7 +45,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY"; // Zadejte adresář dokumentů
 string InputPath = Path.Combine(dataDir, "book1.xlsx"); // Spojením vytvořte celou cestu
 ```
 
- Tady, vyměňte`"YOUR DOCUMENT DIRECTORY"`se skutečnou cestou ve vašem systému, kde`book1.xlsx` je uložen. Využití`Path.Combine` je úhledný, protože zajišťuje správnou konstrukci cesty napříč různými operačními systémy.
+ Tady, vyměňte`"YOUR DOCUMENT DIRECTORY"` se skutečnou cestou ve vašem systému, kde`book1.xlsx` je uložen. Využití`Path.Combine`je úhledný, protože zajišťuje správnou konstrukci cesty napříč různými operačními systémy.
 
 ## Krok 2: Vytvořte stream souborů
 
@@ -101,7 +101,7 @@ Je to jednoduchý krok, ale zásadní. Nevyčištění prostředků může vést
 ## Závěr
 
 Dokázali jste to! Sledováním tohoto jednoduchého tutoriálu jste se naučili, jak získat přístup k excelovému listu podle jeho názvu pomocí Aspose.Cells for .NET. Ať už automatizujete generování sestav nebo jednoduše získáváte data, tyto základy tvoří základ programové práce se soubory aplikace Excel.
- Pamatujte, cvičení dělá mistra! Zkuste upravit hodnoty v tabulce nebo přistupovat k různým listům a rozšířit tak své dovednosti. Neváhejte sáhnout hlouběji[Dokumentace Aspose.Cells](https://reference.aspose.com/cells/net/) pro pokročilejší funkce.
+ Pamatujte, cvičení dělá mistra! Zkuste upravit hodnoty v tabulce nebo přistupovat k různým listům a rozšířit tak své dovednosti. Neváhejte sáhnout hlouběji do[Dokumentace Aspose.Cells](https://reference.aspose.com/cells/net/) pro pokročilejší funkce.
 
 ## FAQ
 

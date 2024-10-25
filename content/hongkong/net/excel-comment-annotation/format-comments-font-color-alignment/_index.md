@@ -60,7 +60,7 @@ int sheetIndex = workbook.Worksheets.Add();
 ## 步驟 4：存取新新增的工作表
 現在我們有了一張表，讓我們對其進行引用：
 ```csharp
-//透過傳遞工作表索引來取得新新增工作表的引用
+//透過傳遞工作表索引來取得新新增的工作表的引用
 Worksheet worksheet = workbook.Worksheets[sheetIndex];
 ```
 這為您提供了工作表的句柄，讓您可以執行各種操作。
@@ -114,7 +114,7 @@ comment.WidthCM = 2;
 //儲存 Excel 文件
 workbook.Save(dataDir + "book1.out.xls");
 ```
-就這樣吧！您剛剛創建了一條 Excel 註釋並設定了樣式，使其立即從螢幕上彈出！
+就這樣吧！您剛剛建立了一條 Excel 註釋並設定了樣式，使其立即從螢幕上彈出！
 ## 結論
 恭喜！您已經掌握了使用 Aspose.Cells for .NET 美化和增強 Excel 註解的基本技能。您不僅可以添加簡單的註釋，現在還可以根據自己的喜好自訂字體、大小和尺寸。這可以促進團隊內部更好的溝通，並有助於澄清基礎數據，而不會讓您的電子表格變得混亂。
 請隨意進一步探索 Aspose.Cells 的廣泛功能。無論是個人使用還是專業環境，您的 Excel 遊戲都從零到英雄！

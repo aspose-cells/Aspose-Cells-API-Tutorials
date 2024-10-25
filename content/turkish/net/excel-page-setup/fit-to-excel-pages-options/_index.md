@@ -74,7 +74,7 @@ worksheet.PageSetup.FitToPagesWide = 1;
 ```
 
 - `FitToPagesTall` çalışma sayfanızın dikey olarak kaç sayfaya yayılacağını belirler.
-- `FitToPagesWide` yatay sayfa düzenini tanımlar. Her ikisini de ayarlamak`1`İçeriğinizin tek bir sayfaya düzgün bir şekilde sığması ve belgenizin akıcı bir şahesere dönüşmesi anlamına gelir.
+- `FitToPagesWide` yatay sayfa düzenini tanımlar. Her ikisini de ayarlamak`1` İçeriğinizin tek bir sayfaya düzgün bir şekilde sığması ve belgenizin akıcı bir şahesere dönüşmesi anlamına gelir.
 
 ## Adım 3: Çalışma Kitabınızı Kaydedin
 
@@ -97,7 +97,7 @@ workbook.Save(dataDir + "FitToPagesOptions_out.xls");
 Aspose.Cells, Excel dosyalarını programlı bir şekilde yönetmek için güçlü bir .NET kütüphanesidir ve geliştiricilerin elektronik tabloları kolaylıkla oluşturmasını ve düzenlemesini sağlar.
 
 ### Aspose.Cells'i ücretsiz deneyebilir miyim?
-Evet! Ücretsiz denemeye kaydolabilirsiniz[Burada](https://releases.aspose.com/).
+ Evet! Ücretsiz denemeye kaydolabilirsiniz[Burada](https://releases.aspose.com/).
 
 ### Aspose.Cells'i nasıl satın alabilirim?
  Satın alma işleminizi gerçekleştirebilirsiniz[Burada](https://purchase.aspose.com/buy).

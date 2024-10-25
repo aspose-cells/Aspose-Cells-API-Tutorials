@@ -42,7 +42,7 @@ string dataDir = "Your Document Directory";
 ## Stap 2: Maak de directory
 Het is een goede gewoonte om te controleren of de directory bestaat. Als dat niet zo is, kunt u deze met de volgende code aanmaken:
 ```csharp
-//Maak een map aan als deze nog niet bestaat.
+// Maak een map aan als deze nog niet bestaat.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);

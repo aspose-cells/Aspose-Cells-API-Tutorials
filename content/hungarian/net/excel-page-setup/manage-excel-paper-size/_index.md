@@ -17,7 +17,7 @@ Mielőtt belemerülne az Excel papírméretek kezelésének technikai részletei
 
 1. A C# alapvető ismerete: A C# programozás ismerete jelentősen megkönnyíti az Aspose.Cells projektekbe való integrálásának folyamatát.
 2. Visual Studio telepítve: Győződjön meg arról, hogy a Visual Studio telepítve van a gépén a C# kód írásához és végrehajtásához.
-3. Aspose.Cells for .NET Library: be kell szereznie az Aspose.Cells fájlt. Megteheti[töltse le itt](https://releases.aspose.com/cells/net/).
+3. Aspose.Cells for .NET Library: be kell szereznie az Aspose.Cells fájlt. Tudod[töltse le itt](https://releases.aspose.com/cells/net/).
 4. NuGet Package Manager: Győződjön meg arról, hogy rendelkezik hozzáféréssel a NuGet Package Managerhez, mivel könnyen telepítheti az Aspose.Cells szoftvert.
 
 Ezeket az előfeltételeket szem előtt tartva kezdjük!
@@ -38,7 +38,7 @@ Kezdje egy új C#-projekt létrehozásával a Visual Studióban.
 
 ### Importálja a szükséges névtereket
 
-C# fájl tetején importálja a következő névtereket:
+A C# fájl tetején importálja a következő névtereket:
 
 ```csharp
 using System.IO;
@@ -52,7 +52,7 @@ Most bontsuk le az Excel-munkalapok papírméretének kezeléséhez szükséges 
 
 ## 1. lépés: Adja meg a Dokumentumkönyvtár elérési útját
 
-Ebben a lépésben beállíthatja azt a könyvtárat, ahol a módosított Excel-fájlt tárolni kívánja. Fontos, hogy megadja a helyes elérési utat, hogy elkerülje a fájl nem található hibákat.
+Ebben a lépésben beállíthatja azt a könyvtárat, ahol a módosított Excel-fájlt tárolni kívánja. Fontos, hogy a megfelelő elérési utat adja meg, hogy elkerülje a fájl nem található hibákat.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";

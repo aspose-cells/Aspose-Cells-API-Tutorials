@@ -87,7 +87,7 @@ Une fois la feuille de calcul déprotégée, vous devez enregistrer les modifica
 ```csharp
 workbook.Save(dataDir + "output.out.xls");
 ```
- Ici, vous enregistrez les modifications dans un nouveau fichier nommé « output.out.xls » dans le même répertoire. Vous pouvez le renommer comme bon vous semble, mais veillez à conserver le`.xls`extension pour le garder reconnaissable comme un fichier Excel.
+ Ici, vous enregistrez les modifications dans un nouveau fichier nommé « output.out.xls » dans le même répertoire. Vous pouvez le renommer comme bon vous semble, mais veillez à conserver le`.xls` extension pour le garder reconnaissable comme un fichier Excel.
 
 ## Étape 6 : Gestion des erreurs
 
@@ -116,7 +116,7 @@ Et voilà ! Déverrouiller une feuille Excel protégée à l'aide d'Aspose.Cells
 Oui ! Vous pouvez parcourir chaque feuille du classeur et les déprotéger de la même manière.
 
 ### L'utilisation d'Aspose.Cells est-elle gratuite ?
-Aspose.Cells propose un essai gratuit, mais une licence est requise pour une utilisation en production. Vérifiez leur[achat](https://purchase.aspose.com/buy) page pour plus d'informations.
+ Aspose.Cells propose un essai gratuit, mais une licence est requise pour une utilisation en production. Vérifiez leur[achat](https://purchase.aspose.com/buy) page pour plus d'informations.
 
 ### Que faire si je ne connais pas le mot de passe ?
 Si une feuille est protégée par un mot de passe et que vous ne disposez pas du mot de passe, la bibliothèque ne vous aidera pas à contourner les restrictions car cela est contraire aux politiques éthiques.

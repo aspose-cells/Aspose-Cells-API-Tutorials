@@ -98,7 +98,7 @@ Oczywiście! Możesz dostosować logikę walidacji daty do swoich konkretnych wy
 
 ### Czy istnieją jakieś wymagania licencyjne dotyczące korzystania z Aspose.Cells dla Java?
 
-Tak, Aspose.Cells for Java może wymagać licencji w przypadku niektórych scenariuszy użytkowania. Sprawdź stronę internetową Aspose, aby uzyskać szczegóły dotyczące licencji.
+Tak, Aspose.Cells for Java może wymagać licencji w przypadku niektórych scenariuszy użytkowania. Sprawdź stronę internetową Aspose, aby uzyskać szczegółowe informacje o licencjonowaniu.
 
 ### Czy Aspose.Cells for Java obsługuje inne operacje programu Excel?
 

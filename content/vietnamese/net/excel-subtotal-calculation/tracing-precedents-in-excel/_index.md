@@ -42,7 +42,7 @@ Bây giờ, chúng ta hãy phân tích quy trình thực tế để theo dõi c�
 string dataDir = "Your Document Directory"; // Thay thế bằng thư mục thực tế của bạn
 Workbook workbook = new Workbook(dataDir + "Book1.xlsx");
 ```
- Trong đoạn mã này, hãy nhớ thay thế`"Your Document Directory"` với đường dẫn nơi tệp Excel của bạn nằm. Dòng này về cơ bản sẽ mở sổ làm việc mà bạn sẽ làm việc.
+ Trong đoạn mã này, hãy nhớ thay thế`"Your Document Directory"` với đường dẫn nơi lưu trữ tệp Excel của bạn. Dòng này về cơ bản sẽ mở sổ làm việc mà bạn sẽ làm việc.
 ## Bước 2: Truy cập Bộ sưu tập tế bào
 Sau khi tải bảng tính, bước tiếp theo là truy cập vào bảng tính đầu tiên và tập hợp các ô của bảng tính đó.
 ```csharp
@@ -71,7 +71,7 @@ foreach (ReferredArea area in ret)
     Console.WriteLine(CellsHelper.CellIndexToName(area.EndRow, area.EndColumn));
 }
 ```
- Trong đoạn trích này, chúng tôi đang sử dụng một`foreach` vòng lặp để in tên trang tính và tham chiếu ô của các ô đưa vào B4.`CellsHelper.CellIndexToName`hàm chuyển đổi chỉ số hàng và cột thành các tham chiếu ô có thể đọc được như "A1", "B2", v.v. 
+ Trong đoạn trích này, chúng tôi đang sử dụng một`foreach` vòng lặp để in tên trang tính và tham chiếu ô của các ô đưa vào B4.`CellsHelper.CellIndexToName` hàm chuyển đổi chỉ số hàng và cột thành các tham chiếu ô có thể đọc được như "A1", "B2", v.v. 
 
 ## Phần kết luận
 Và bạn đã có nó! Bạn đã theo dõi thành công các tiền lệ trong Excel bằng Aspose.Cells cho .NET. Hiểu được sự phụ thuộc của ô có thể nâng cao kỹ năng quản lý bảng tính của bạn và cung cấp sự rõ ràng trong các quyết định dựa trên dữ liệu của bạn. Giống như giải một câu đố, ghép lại dữ liệu của bạn đến từ đâu. Bây giờ hãy tiếp tục, hãy thử điều này trên dữ liệu của riêng bạn và giải phóng sức mạnh của Aspose.Cells!
@@ -85,4 +85,4 @@ Aspose.Cells là thư viện .NET được sử dụng để tạo, xử lý và
 ### Aspose.Cells có tương thích với .NET Core không?  
 Có, Aspose.Cells hỗ trợ .NET Core, do đó bạn có thể sử dụng nó trên nhiều nền tảng .NET khác nhau.
 ### Tôi có thể tìm thấy hỗ trợ cho Aspose.Cells ở đâu?  
-Bạn có thể nhận được sự giúp đỡ trên[Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/cells/9).
+ Bạn có thể nhận được sự giúp đỡ trên[Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/cells/9).

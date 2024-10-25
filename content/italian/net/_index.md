@@ -120,3 +120,35 @@ Esplora la guida completa sui tutorial di Aspose.Cells per .NET. Scopri le opera
 Scopri i tutorial completi di Aspose.Cells per .NET sulle operazioni XPS e PDF per semplificare le conversioni dei file.
 ### [Operazioni di collegamento e configurazione](./link-and-configuration-operations/)
 Scopri tutorial completi su Aspose.Cells per .NET, inclusa la configurazione dei link e altro ancora. Perfetto per gli sviluppatori che vogliono migliorare le loro applicazioni Excel.
+### [Lavorare con i font nei fogli di calcolo](./working-with-fonts-in-spreadsheets/)
+Scopri tutorial essenziali sull'utilizzo di Aspose.Cells per .NET, concentrandosi sulla gestione dei font nei fogli di calcolo e garantendo una presentazione ottimale dei documenti.
+### [Formattazione e stile di Excel](./excel-formatting-and-styling/)
+Scopri i tutorial essenziali di Aspose.Cells per .NET sulla formattazione e lo stile di Excel. Migliora i tuoi fogli di calcolo con guide pratiche e dettagliate.
+### [Lavorare con i caratteri in Excel](./working-with-fonts-in-excel/)
+Sfrutta la potenza di Aspose.Cells per .NET con tutorial su come lavorare con i font in Excel, dall'impostazione dei colori all'applicazione di stili per fogli di calcolo straordinari.
+### [Temi e formattazione di Excel](./excel-themes-and-formatting/)
+Esplora i tutorial di Aspose.Cells per .NET sulla personalizzazione dei temi di Excel, l'impostazione dei colori dei temi e l'utilizzo dei colori dei temi a livello di programmazione. Migliora le tue competenze in Excel.
+### [Formattazione di righe e colonne in Excel](./formatting-rows-and-columns-in-excel/)
+Sfrutta la potenza di Aspose.Cells per .NET attraverso i nostri tutorial dettagliati sulla formattazione di righe e colonne in Excel, perfetti per gli sviluppatori.
+### [Formati numerici e di visualizzazione in Excel](./number-and-display-formats-in-excel/)
+Esplora i tutorial di Aspose.Cells per .NET sui formati numerici e di visualizzazione, comprese le opzioni di formattazione integrate e personalizzate per l'automazione di Excel.
+### [Impostazioni di colori e sfondo di Excel](./excel-colors-and-background-settings/)
+Scopri i tutorial essenziali di Aspose.Cells per .NET sui colori di Excel e sulle impostazioni di sfondo per ottimizzare la presentazione dei dati e migliorarne l'aspetto visivo.
+### [Impostazioni e personalizzazione del colore in Excel](./color-settings-and-customization-in-excel/)
+Impostazioni e personalizzazione del colore master in Excel con Aspose.Cells per .NET. Scopri come calcolare il colore scelto da Excel a livello di programmazione in questo tutorial passo dopo passo.
+### [Formattazione condizionale di Excel](./excel-conditional-formatting/)
+Scopri come applicare la formattazione condizionale in fase di esecuzione in Excel utilizzando Aspose.Cells per .NET. Questa guida passo passo aiuta gli sviluppatori ad automatizzare la formattazione di Excel.
+### [Formattazione dei caratteri e delle celle di Excel](./excel-character-and-cell-formatting/)
+Scopri la formattazione dei caratteri e l'impostazione programmatica delle celle attive in Excel tramite Aspose.Cells per .NET. Esplora guide complete per semplificare le tue attività di sviluppo.
+### [Bordi di Excel e opzioni di formattazione](./excel-borders-and-formatting-options/)
+Scopri i tutorial di Aspose.Cells per .NET che ti insegneranno come impostare a livello di programmazione bordi, caratteri e motivi di Excel, risparmiando tempo e migliorando i tuoi fogli di calcolo.
+### [Metodi e opzioni di formattazione di Excel](./excel-formatting-methods-and-options/)
+Scopri i metodi e le opzioni di formattazione di Excel nei tutorial di Aspose.Cells per .NET, che illustrano tecniche efficaci come il metodo di copia per una maggiore produttività.
+### [Caricamento e salvataggio di file Excel con opzioni](./loading-and-saving-excel-files-with-options/)
+Esplora i tutorial di Aspose.Cells per .NET, con guide su come caricare e salvare file Excel con opzioni come l'adattamento automatico e la disabilitazione dei commenti.
+### [Conversione di file Excel in altri formati](./converting-excel-files-to-other-formats/)
+Esplora un elenco completo di tutorial su Aspose.Cells per .NET per convertire i file Excel in formati come JSON, DOCX, HTML, PDF, Markdown e altro ancora.
+### [Salvataggio ed esportazione di file Excel con opzioni](./saving-and-exporting-excel-files-with-options/)
+Esplora i tutorial dettagliati di Aspose.Cells per .NET sul salvataggio e l'esportazione di file Excel. Scopri come gestire commenti, proprietà di documenti, avvisi e data trimming.
+### [Creazione e configurazione di tabelle pivot](./creating-and-configuring-pivot-tables/)
+Scopri tutorial completi per Aspose.Cells per .NET. Padroneggia le tabelle pivot in Excel in modo programmatico con guide dettagliate passo dopo passo per ogni funzionalità.

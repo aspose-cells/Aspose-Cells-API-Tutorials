@@ -58,7 +58,7 @@ HttpResponse Respose = null; // Khởi tạo đối tượng phản hồi
 ```csharp
 if (Respose != null)
 {
-    //Lưu dưới dạng PDF
+    // Lưu dưới dạng PDF
     workbook.Save(Respose, dataDir + "output.pdf", ContentDisposition.Attachment, new PdfSaveOptions());
     Respose.End();
 }

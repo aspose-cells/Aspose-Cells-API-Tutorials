@@ -67,7 +67,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Stap 2: Maak een bestandsstroom voor het Excel-bestand
 
- Voordat we wijzigingen kunnen aanbrengen, moeten we het Excel-bestand openen. We doen dit door een`FileStream` . Met deze stream kunnen we de inhoud van lezen`book1.xls`.
+ Voordat we wijzigingen kunnen aanbrengen, moeten we het Excel-bestand openen. We doen dit door een`FileStream` Met deze stream kunnen we de inhoud van`book1.xls`.
 
 ```csharp
 // Een bestandsstroom maken met het te openen Excel-bestand

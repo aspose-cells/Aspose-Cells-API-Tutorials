@@ -16,7 +16,7 @@ Tạo biểu đồ động và hấp dẫn trực quan trong Excel là một cá
 Trước khi bắt đầu viết mã, bạn cần chuẩn bị một số điều sau:
 
 - Hiểu biết cơ bản về C#: Nắm vững cơ bản về lập trình C# sẽ hữu ích. Đừng lo lắng; bạn không cần phải là chuyên gia, chỉ cần thoải mái điều hướng cú pháp.
-- Thư viện Aspose.Cells đã cài đặt: Đảm bảo bạn đã cài đặt thư viện Aspose.Cells for .NET. Bạn có thể tải xuống từ[đây](https://releases.aspose.com/cells/net/) nếu bạn chưa làm như vậy.
+-  Thư viện Aspose.Cells đã cài đặt: Đảm bảo bạn đã cài đặt thư viện Aspose.Cells for .NET. Bạn có thể tải xuống từ[đây](https://releases.aspose.com/cells/net/)nếu bạn chưa làm như vậy.
 - Visual Studio: Điều cần thiết là phải quen thuộc với Visual Studio hoặc bất kỳ IDE nào mà bạn muốn sử dụng cho .NET framework.
 - Tệp Excel hiện có: Đối với ví dụ này, chúng ta sẽ làm việc với tệp Excel hiện có có tên "sampleAddingTextBoxControlInChart.xls". Bạn có thể tạo một tệp hoặc tải xuống mẫu.
 
@@ -136,7 +136,7 @@ Bước cuối cùng là lưu các thay đổi bạn đã thực hiện vào m�
 // Lưu tệp excel.
 workbook.Save(outputDir + "outputAddingTextBoxControlInChart.xls");
 ```
- Thay thế`"outputAddingTextBoxControlInChart.xls"`với bất kỳ tên tệp nào bạn thích.
+ Thay thế`"outputAddingTextBoxControlInChart.xls"` với bất kỳ tên tệp nào bạn thích.
 
 ## Phần kết luận
 

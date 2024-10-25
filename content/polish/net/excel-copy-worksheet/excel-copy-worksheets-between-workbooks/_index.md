@@ -15,9 +15,9 @@ Czy zdarzyło Ci się kopiować arkusze kalkulacyjne między skoroszytami progra
 
 Zanim zagłębimy się w kod, upewnijmy się, że dysponujesz odpowiednimi narzędziami, aby zacząć:
 
-- Aspose.Cells dla .NET: Możesz go pobrać[Tutaj](https://releases.aspose.com/cells/net/).
+-  Aspose.Cells dla .NET: Możesz go pobrać[Tutaj](https://releases.aspose.com/cells/net/).
 - Visual Studio lub dowolne środowisko IDE obsługujące platformę .NET.
--  Ważne prawo jazdy lub[licencja tymczasowa](https://purchase.aspose.com/temporary-license/) jeśli chcesz przetestować pełną funkcjonalność Aspose.Cells.
+-  Ważne prawo jazdy lub[licencja tymczasowa](https://purchase.aspose.com/temporary-license/)jeśli chcesz przetestować pełną funkcjonalność Aspose.Cells.
 - Podstawowa znajomość języka C# i środowiska .NET.
 
  Możesz również sprawdzić[Dokumentacja Aspose.Cells](https://reference.aspose.com/cells/net/) po więcej szczegółów.
@@ -44,7 +44,7 @@ Najpierw musisz określić, gdzie znajdują się Twoje pliki. Pomyśl o tym krok
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- W tym wierszu zamień`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką do plików Excela. To jest miejsce, z którego będą ładowane i zapisywane Twoje skoroszyty.
+ W tym wierszu zamień`"YOUR DOCUMENT DIRECTORY"` rzeczywistą ścieżką do plików Excela. To jest miejsce, z którego będą ładowane i zapisywane Twoje skoroszyty.
 
 ## Krok 2: Otwórz pierwszy skoroszyt
 
@@ -64,7 +64,7 @@ Workbook excelWorkbook0 = new Workbook(InputPath);
 Teraz, gdy masz otwarty pierwszy skoroszyt, czas utworzyć kolejny pusty skoroszyt, do którego wkleisz skopiowany arkusz. Wyobraź sobie, że otwierasz nowy pusty notatnik, do którego przeniesiesz dane.
 
 ```csharp
-//Utwórz kolejny skoroszyt.
+// Utwórz kolejny skoroszyt.
 Workbook excelWorkbook1 = new Workbook();
 ```
 

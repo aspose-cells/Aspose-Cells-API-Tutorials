@@ -84,4 +84,4 @@ Aspose.Cells for .NET to zaawansowana biblioteka umożliwiająca programistom ge
 ### Gdzie mogę uzyskać pomoc dotyczącą Aspose.Cells?
  Możesz szukać pomocy u[Forum wsparcia Aspose](https://forum.aspose.com/c/cells/9).
 ### Jak mogę uzyskać tymczasową licencję na Aspose.Cells?
- Możesz złożyć wniosek o[licencja tymczasowa](https://purchase.aspose.com/temporary-license/)jeśli potrzebujesz ich w celach ewaluacyjnych.
+ Możesz złożyć wniosek o[licencja tymczasowa](https://purchase.aspose.com/temporary-license/) jeśli potrzebujesz ich w celach ewaluacyjnych.

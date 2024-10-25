@@ -47,7 +47,7 @@ string sourceDir = "Your Document Directory"; // Defina seu diretório de docume
 //Diretório de saída
 string outputDir = "Your Document Directory"; // Defina seu diretório de saída
 ```
- Substituir`"Your Document Directory"` com o caminho real onde seu`sampleRotateTextWithShapeInsideWorksheet.xlsx` arquivo está localizado.
+ Substituir`"Your Document Directory"` com o caminho real onde seu`sampleRotateTextWithShapeInsideWorksheet.xlsx` o arquivo está localizado.
 ## Etapa 2: Carregue o arquivo Excel de amostra
 Agora, vamos carregar o arquivo Excel de exemplo. Isso é crucial, pois queremos manipular os dados existentes.
 ```csharp
@@ -91,7 +91,7 @@ wb.Save(outputDir + "outputRotateTextWithShapeInsideWorksheet.xlsx");
 ```
 E é isso! Seu arquivo de saída agora está salvo, incluindo o texto na célula B4 e os ajustes feitos na forma.
 ## Etapa 8: Execute o código
- Em seu`Main`método, envolva todos os trechos de código acima e execute seu projeto. Veja as mudanças refletidas em seu arquivo de saída!
+ Em seu`Main` método, envolva todos os trechos de código acima e execute seu projeto. Veja as mudanças refletidas em seu arquivo de saída!
 ```csharp
 Console.WriteLine("RotateTextWithShapeInsideWorksheet executed successfully.");
 ```
@@ -105,6 +105,6 @@ O Aspose.Cells suporta uma variedade de formatos do Excel, incluindo XLS, XLSX, 
 ### É possível girar texto com formas em versões mais antigas do Excel?
 Sim, a funcionalidade pode ser aplicada a formatos mais antigos suportados pelo Aspose.Cells.
 ### Onde posso encontrar mais documentação sobre o Aspose.Cells?
- Você pode explorar o abrangente[documentação](https://reference.aspose.com/cells/net/)para mais informações.
+ Você pode explorar o abrangente[documentação](https://reference.aspose.com/cells/net/) para mais informações.
 ### Como obtenho suporte para o Aspose.Cells?
  Você pode solicitar suporte visitando o[Fórum Aspose](https://forum.aspose.com/c/cells/9).

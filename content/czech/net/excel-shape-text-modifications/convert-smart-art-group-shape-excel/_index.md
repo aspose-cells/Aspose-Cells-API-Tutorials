@@ -35,7 +35,7 @@ Nejprve musíte určit adresář, kde se nachází váš soubor Excel. Toto je p
 string sourceDir = "Your Document Directory";
 ```
 ## Krok 2: Načtěte vzorový obrazec Smart Art Shape – soubor Excel
- Zde skutečně načteme soubor Excel do našeho kódu. Použijeme`Workbook` třída pro načtení souboru.
+ Zde skutečně načteme soubor Excel do našeho kódu. Použijeme`Workbook` třídy pro načtení souboru.
 ```csharp
 // Načtěte excelový soubor obsahující Smart Art
 Workbook wb = new Workbook(sourceDir + "sampleSmartArtShape_GetResultOfSmartArt.xlsx");

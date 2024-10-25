@@ -95,7 +95,7 @@ I den här koden anger vi typen av diagram (i det här fallet ett kolumndiagram)
 
 ## Steg 6: Öppna diagraminstansen
 
-När vi väl har skapat diagrammet måste vi komma åt dess instans för att ändra dess egenskaper. Detta görs genom att hämta det via`Charts`samling.
+ När vi väl har skapat diagrammet måste vi komma åt dess instans för att ändra dess egenskaper. Detta görs genom att hämta det via`Charts`samling.
 
 ```csharp
 // Åtkomst till instansen av det nyligen tillagda diagrammet
@@ -134,7 +134,7 @@ chart.NSeries[0].Points[0].Area.ForegroundColor = Color.Cyan;
 chart.NSeries[1].Area.FillFormat.SetOneColorGradient(Color.Lime, 1, Aspose.Cells.Drawing.GradientStyleType.Horizontal, 1);
 ```
 
-den här koden ställer vi in olika färger för olika delar av diagrammet. Att anpassa utseendet kan göra din data mycket mer engagerande!
+I den här koden ställer vi in olika färger för olika delar av diagrammet. Att anpassa utseendet kan göra din data mycket mer engagerande!
 
 ## Steg 9: Ändra huvudrutnätsfärger
 

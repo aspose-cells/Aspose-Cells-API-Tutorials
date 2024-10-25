@@ -15,9 +15,9 @@ url: /el/net/excel-copy-worksheet/excel-copy-worksheets-between-workbooks/
 
 Πριν βουτήξουμε στον κώδικα, ας βεβαιωθούμε ότι είστε εξοπλισμένοι με τα κατάλληλα εργαλεία για να ξεκινήσετε:
 
-- Aspose.Cells για .NET: Μπορείτε να το κατεβάσετε[εδώ](https://releases.aspose.com/cells/net/).
+-  Aspose.Cells για .NET: Μπορείτε να το κατεβάσετε[εδώ](https://releases.aspose.com/cells/net/).
 - Visual Studio ή οποιοδήποτε IDE που υποστηρίζει .NET Framework.
--  Μια έγκυρη άδεια ή α[προσωρινή άδεια](https://purchase.aspose.com/temporary-license/) εάν θέλετε να δοκιμάσετε την πλήρη λειτουργικότητα του Aspose.Cells.
+-  Μια έγκυρη άδεια ή α[προσωρινή άδεια](https://purchase.aspose.com/temporary-license/)εάν θέλετε να δοκιμάσετε την πλήρη λειτουργικότητα του Aspose.Cells.
 - Βασική κατανόηση της C# και του πλαισίου .NET.
 
  Μπορείτε επίσης να ελέγξετε το[Τεκμηρίωση Aspose.Cells](https://reference.aspose.com/cells/net/) για περισσότερες λεπτομέρειες.
@@ -44,7 +44,7 @@ using Aspose.Cells;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Σε αυτή τη γραμμή, αντικαταστήστε`"YOUR DOCUMENT DIRECTORY"` με την πραγματική διαδρομή προς τα αρχεία Excel. Εδώ θα φορτωθούν και θα αποθηκευτούν τα βιβλία εργασίας σας.
+ Σε αυτή τη γραμμή, αντικαταστήστε`"YOUR DOCUMENT DIRECTORY"`με την πραγματική διαδρομή προς τα αρχεία Excel. Εδώ θα φορτωθούν και θα αποθηκευτούν τα βιβλία εργασίας σας.
 
 ## Βήμα 2: Ανοίξτε το πρώτο βιβλίο εργασίας
 
@@ -64,7 +64,7 @@ Workbook excelWorkbook0 = new Workbook(InputPath);
 Τώρα που έχετε ανοιχτό το πρώτο βιβλίο εργασίας, ήρθε η ώρα να δημιουργήσετε ένα άλλο κενό βιβλίο εργασίας όπου θα επικολλήσετε το αντιγραμμένο φύλλο εργασίας. Σκεφτείτε ότι ανοίγετε ένα νέο κενό σημειωματάριο όπου θα μεταφέρετε τα δεδομένα.
 
 ```csharp
-//Δημιουργήστε ένα άλλο βιβλίο εργασίας.
+// Δημιουργήστε ένα άλλο βιβλίο εργασίας.
 Workbook excelWorkbook1 = new Workbook();
 ```
 

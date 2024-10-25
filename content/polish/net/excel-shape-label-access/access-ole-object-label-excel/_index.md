@@ -27,7 +27,7 @@ Na początek musimy zaimportować niezbędne pakiety do naszego projektu. Ułatw
 - Wybierz „Zarządzaj pakietami NuGet”.
 - Wyszukaj „Aspose.Cells” i zainstaluj bibliotekę.
 ### Importuj przestrzenie nazw
-Na górze pliku programu (np.`Program.cs`), należy zaimportować niezbędne przestrzenie nazw:
+ Na górze pliku programu (np.`Program.cs`), należy zaimportować niezbędne przestrzenie nazw:
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -95,7 +95,7 @@ Tak jak poprzednio, musimy ponownie uzyskać dostęp do pierwszego arkusza kalku
 ws = wb.Worksheets[0];
 ```
 ## Krok 11: Ponowny dostęp do pierwszego obiektu OLE
-Teraz ponownie pobierz obiekt OLE w celu ostatecznego sprawdzenia:
+Teraz pobierz obiekt OLE ponownie w celu ostatecznego sprawdzenia:
 ```csharp
 oleObject = ws.OleObjects[0];
 ```
@@ -118,7 +118,7 @@ Obiekty OLE to osadzone pliki umożliwiające integrację dokumentów z innych a
 ### Czy Aspose.Cells współpracuje z innymi formatami plików?  
 Tak! Aspose.Cells obsługuje wiele formatów, w tym XLS, XLSX, CSV i inne.
 ### Czy jest dostępna bezpłatna wersja próbna Aspose.Cells?  
- Tak! Możesz spróbować[Tutaj](https://releases.aspose.com/).
+Tak! Możesz spróbować[Tutaj](https://releases.aspose.com/).
 ### Czy mogę uzyskać dostęp do wielu obiektów OLE w arkuszu kalkulacyjnym?  
  Oczywiście! Możesz przejść przez`ws.OleObjects` aby uzyskać dostęp do wszystkich osadzonych obiektów OLE w arkuszu kalkulacyjnym.
 ### Jak kupić licencję na Aspose.Cells?  

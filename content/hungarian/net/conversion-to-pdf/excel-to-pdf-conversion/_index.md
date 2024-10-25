@@ -10,12 +10,12 @@ url: /hu/net/conversion-to-pdf/excel-to-pdf-conversion/
 ## Bevezetés
 mai digitális világban az Excel-táblázatok PDF formátumba konvertálása sok vállalkozás és magánszemély számára általános követelmény. Miért? A PDF-ek univerzális formátumot kínálnak, amely ideális a dokumentumok megosztásához, archiválásához és sértetlenségének megőrzéséhez. Ha Ön .NET-fejlesztő, aki az Aspose.Cells for .NET segítségével egyszerűsíteni szeretné munkafolyamatait, akkor jó helyen jár! Ebben az útmutatóban végigvezetjük az Excel-táblázatok Aspose.Cells segítségével PDF-dokumentummá konvertálásának teljes folyamatán, így biztosítva, hogy az adatok sértetlenek és gyönyörűen formázva maradjanak.
 ## Előfeltételek
-Mielőtt feltűrjük az ingujjunkat és belemerülünk a kódba, győződjünk meg arról, hogy mindennel rendelkezünk, ami a kezdéshez szükséges:
+Mielőtt feltűrjük az ingujjunkat és belemerülünk a kódba, győződjünk meg arról, hogy mindennel rendelkezünk, ami az induláshoz szükséges:
 ### .NET környezet
 1. Visual Studio: Győződjön meg arról, hogy a Visual Studio telepítve van a gépen (bármelyik legújabb verziója megteszi).
 2. .NET-keretrendszer: Győződjön meg arról, hogy a .NET-keretrendszer 4.0-s vagy újabb verzióját használja.
 ### Aspose.Cells
-1.  Aspose.Cells for .NET: Szüksége lesz az Aspose.Cells könyvtárra. Megteheti[Töltse le itt](https://releases.aspose.com/cells/net/) vagy válassza a[Ingyenes próbaverzió](https://releases.aspose.com/).
+1.  Aspose.Cells for .NET: Szüksége lesz az Aspose.Cells könyvtárra. Tudod[Töltse le itt](https://releases.aspose.com/cells/net/) vagy válassza a[Ingyenes próbaverzió](https://releases.aspose.com/).
 2.  Licenc: A tesztelés során ideiglenes licenccel kezdheti – ellenőrizze[itt](https://purchase.aspose.com/temporary-license/).
 ### Kódszerkesztő
 Kódszerkesztő (mint például a Visual Studio) a C# kódrészletek írásához és futtatásához.

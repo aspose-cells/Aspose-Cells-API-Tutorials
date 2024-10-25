@@ -41,7 +41,7 @@ string filePath = dataDir + "Book1.xlsx";
 ## Krok 2: Vytvořte objekt sešitu
  Dále vytvoříme a`Workbook` objekt, který funguje jako zástupce našeho souboru Excel. 
 ```csharp
-// Vytvořte objekt sešitu a otevřete soubor z jeho cesty
+//Vytvořte objekt sešitu a otevřete soubor z jeho cesty
 Workbook wb = new Workbook(filePath);
 ```
  Zde vytváříme nový`Workbook` pomocí cesty k souboru, kterou jsme nastavili dříve. Tento objekt nám nyní umožní interakci s obsahem souboru Excel. Pokud soubor`Book1.xlsx` neexistuje ve vašem zadaném adresáři, dojde k chybě.

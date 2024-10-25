@@ -9,7 +9,7 @@ url: /pl/net/excel-page-setup/set-excel-print-options/
 ---
 ## Wstęp
 
-Czy jesteś zmęczony prezentowaniem arkuszy Excela, które wyglądają niedbale po wydrukowaniu? Cóż, jesteś we właściwym miejscu! Dzisiaj zanurzamy się w świat Aspose.Cells dla .NET, solidnej biblioteki, która pozwala programistom na łatwe tworzenie, manipulowanie i drukowanie arkuszy kalkulacyjnych Excela. W tym samouczku skupimy się na ustawianiu opcji drukowania w dokumencie Excela. Wyobraź sobie: stworzyłeś idealny arkusz kalkulacyjny wypełniony cennymi danymi, wykresami i spostrzeżeniami, ale gdy przychodzi do drukowania, wygląda on nijako i nieprofesjonalnie. Wyeliminujmy ten problem i dowiedzmy się, jak bez wysiłku przygotować dokumenty do druku! 
+Czy jesteś zmęczony prezentowaniem arkuszy Excela, które wyglądają niedbale po wydrukowaniu? Cóż, jesteś we właściwym miejscu! Dzisiaj zanurzymy się w świat Aspose.Cells dla .NET, solidnej biblioteki, która pozwala programistom na łatwe tworzenie, manipulowanie i drukowanie arkuszy kalkulacyjnych Excela. W tym samouczku skupimy się na ustawianiu opcji drukowania w dokumencie Excela. Wyobraź sobie: stworzyłeś idealny arkusz kalkulacyjny wypełniony cennymi danymi, wykresami i spostrzeżeniami, ale gdy przychodzi do drukowania, wygląda on nijako i nieprofesjonalnie. Wyeliminujmy ten problem i dowiedzmy się, jak bez wysiłku przygotować dokumenty do druku! 
 
 ## Wymagania wstępne
 

@@ -13,7 +13,7 @@ Har du någonsin sett dig själv att drunkna i ett hav av data, bara för att up
 
 ## Få dolda radindex efter att ha uppdaterat autofiltret i Excel
 
-Först och främst, låt oss ta upp de smygande dolda raderna. Om du någonsin har använt Excels autofilter vet du att du ibland, efter att ha uppdaterat filtret, kan kämpa för att hålla reda på vilka rader som är synliga och vilka som inte är det. Med Aspose.Cells för .NET kan du enkelt hämta indexen för dessa dolda rader. Genom att utnyttja bibliotekets kapacitet kan du automatisera denna uppgift och integrera den i ditt dataarbetsflöde. Föreställ dig den tid du sparar genom att inte behöva sålla igenom rader manuellt! 
+Först och främst, låt oss ta upp de smygande dolda raderna. Om du någonsin har använt Excels autofilter vet du att du ibland, efter att ha uppdaterat filtret, kan kämpa för att hålla reda på vilka rader som är synliga och vilka som inte är det. Med Aspose.Cells för .NET kan du enkelt hämta indexen för dessa dolda rader. Genom att utnyttja bibliotekets kapacitet kan du automatisera denna uppgift och integrera den i ditt dataarbetsflöde. Föreställ dig den tid du sparar på att inte behöva sålla igenom rader manuellt! 
 
 [Läs mer](./get-all-hidden-row-indices-after-refreshing-auto-filter-in-excel/)
 

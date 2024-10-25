@@ -12,7 +12,7 @@ Pokud jde o manipulaci se soubory Excel v .NET, Aspose.Cells vyniká jako spoleh
 ## Předpoklady
 Než zahájíme konverzi, je nezbytné se ujistit, že máte vše správně nastaveno. Zde jsou předpoklady, které budete potřebovat:
 1. Visual Studio: Ujistěte se, že máte v počítači nainstalované Visual Studio. Je to IDE, které vám pomůže hladce provozovat vaše .NET projekty.
-2. Aspose.Cells for .NET Library: Musíte získat tuto knihovnu. Můžete[stáhněte si jej zde](https://releases.aspose.com/cells/net/) nebo začít s a[zkušební verze zdarma](https://releases.aspose.com/).
+2.  Aspose.Cells for .NET Library: Musíte získat tuto knihovnu. Můžete[stáhněte si jej zde](https://releases.aspose.com/cells/net/) nebo začít s a[zkušební verze zdarma](https://releases.aspose.com/).
 3. Základní znalost C#: Výhodou bude znalost programování v C#, protože naše příklady a vysvětlení budou psány v tomto jazyce.
 4.  Ukázkový soubor Excel: Pro demonstraci vytvořte nebo stáhněte soubor Excel. Uložit jako`MyTestBook1.xls` ve vašem projektovém adresáři.
 5. Základní porozumění projektům .NET: Vědět, jak vytvořit jednoduchý projekt .NET, to usnadní, ale nebojte se – provedeme vás jednotlivými kroky.
@@ -51,7 +51,7 @@ string dataDir = "Your Document Directory";
 // Otevřete soubor šablony Excel.
 Workbook book = new Workbook(dataDir + "MyTestBook1.xls");
 ```
- V tomto kroku vytvoříme instanci`Workbook`třídy a předejte cestu k našemu souboru Excel. To nám umožňuje programově interagovat s obsahem souboru.
+ V tomto kroku vytvoříme instanci`Workbook` třídy a předejte cestu k našemu souboru Excel. To nám umožňuje programově interagovat s obsahem souboru.
 ## Krok 5: Přístup k listu
 Nyní, když máme sešit otevřený, přistupme k prvnímu listu:
 ```csharp
@@ -78,7 +78,7 @@ SheetRender sr = new SheetRender(sheet, imgOptions);
 // Vykreslete obrázek pro list
 Bitmap bitmap = sr.ToImage(0);
 ```
- The`SheetRender`class pomáhá vykreslit list do bitmapového obrázku. voláme`ToImage(0)` vykreslit nultou stránku (náš první list) do bitmapy.
+ The`SheetRender` class pomáhá vykreslit list do bitmapového obrázku. voláme`ToImage(0)` vykreslit nultou stránku (náš první list) do bitmapy.
 ## Krok 8: Uložení obrázku
 Po vykreslení musíme obrázek uložit do určeného adresáře:
 ```csharp
@@ -99,7 +99,7 @@ A tady to máte! V několika jednoduchých krocích jste se naučili, jak přev�
 ### Co je Aspose.Cells?
 Aspose.Cells je knihovna .NET, která umožňuje vývojářům vytvářet, manipulovat, převádět a zpracovávat soubory Excelu programově.
 ### Mohu používat Aspose.Cells zdarma?
- Ano, můžete začít používat Aspose.Cells stažením bezplatné zkušební verze z jejich[webové stránky](https://releases.aspose.com/).
+Ano, můžete začít používat Aspose.Cells stažením bezplatné zkušební verze z jejich[webové stránky](https://releases.aspose.com/).
 ### Jaké formáty obrázků podporuje Aspose.Cells pro export?
 Aspose.Cells podporuje různé formáty obrázků, včetně JPEG, PNG, BMP a GIF.
 ### Kde najdu další podporu pro Aspose.Cells?

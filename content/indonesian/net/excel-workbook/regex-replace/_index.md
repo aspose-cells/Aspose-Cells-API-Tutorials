@@ -16,7 +16,7 @@ Apakah Anda lelah menghabiskan waktu berjam-jam untuk membuat perubahan yang san
 Sebelum terjun ke inti pengkodean, mari pastikan Anda diperlengkapi dengan baik untuk perjalanan ke depannya.
 
 1. .NET Framework: Pastikan Anda telah menyiapkan lingkungan .NET. Baik itu .NET Core atau .NET Framework, Anda akan baik-baik saja.
-2.  Pustaka Aspose.Cells: Pustaka ini adalah kunci Anda untuk membuka manipulasi spreadsheet yang hebat. Anda dapat[unduh disini](https://releases.aspose.com/cells/net/).
+2. Pustaka Aspose.Cells: Pustaka ini adalah kunci Anda untuk membuka manipulasi spreadsheet yang hebat. Anda dapat[unduh disini](https://releases.aspose.com/cells/net/).
 3. IDE: Gunakan Lingkungan Pengembangan Terpadu (IDE) favorit Anda seperti Visual Studio, yang akan membuat pengalaman pengkodean Anda jauh lebih lancar.
 4. Pengetahuan Pemrograman Dasar: Keakraban dengan C# dan konsep ekspresi reguler akan bermanfaat.
 
@@ -77,7 +77,7 @@ replace.RegexKey = true; // Tentukan bahwa kita menggunakan regex
 ```
 
 Dalam konfigurasi ini:
-- `CaseSensitive` diatur untuk`false`artinya pencarian kita untuk "KIM" akan mengabaikan huruf besar atau kecil.
+- `CaseSensitive` diatur untuk`false`, artinya pencarian kita untuk "KIM" akan mengabaikan huruf besar atau kecil.
 - `MatchEntireCellContents` diatur untuk`false` sehingga kami dapat mengganti bagian-bagian isi sel.
 - `RegexKey` diatur untuk`true` untuk menunjukkan bahwa kami akan menggunakan ekspresi reguler untuk pencarian kami.
 
@@ -132,4 +132,4 @@ Ya, ini mendukung berbagai format termasuk XLS, XLSX, CSV, dan banyak lagi.
 Ya, Anda dapat membuat pola regex yang lebih kompleks untuk mencocokkan beberapa istilah secara bersamaan.
 
 ### Di mana saya dapat menemukan lebih banyak contoh dan dokumentasi untuk Aspose.Cells?  
- Anda dapat menemukan dokumentasi yang lengkap[Di Sini](https://reference.aspose.com/cells/net/).
+Anda dapat menemukan dokumentasi yang lengkap[Di Sini](https://reference.aspose.com/cells/net/).

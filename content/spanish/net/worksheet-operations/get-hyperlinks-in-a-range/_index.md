@@ -35,13 +35,13 @@ Comencemos por definir la ruta de sus documentos. Debe establecer el directorio 
 // La ruta al directorio de documentos.
 string sourceDir = "Your Document Directory"; // Cambie esto a la ruta de su archivo de Excel
 // Directorio de salida
-string outputDir = RunExamples.Get_OutputDirectory(); // Asegúrese de que este método proporcione una ruta de salida válida
+string outputDir = "Your Document Directory"; // Asegúrese de que este método proporcione una ruta de salida válida
 ```
- En este fragmento, reemplace`"Your Document Directory"` con la ruta real al directorio que contiene el archivo de Excel. Esto es como preparar el escenario antes de la actuación: es fundamental saber dónde están los materiales.
+ En este fragmento, reemplace`"Your Document Directory"`con la ruta real al directorio que contiene el archivo de Excel. Esto es como preparar el escenario antes de la actuación: es fundamental saber dónde están los materiales.
 ## Paso 2: Crear una instancia del objeto de libro de trabajo
  A continuación, crearemos un`Workbook` objeto para abrir el archivo Excel con el que estamos trabajando.
 ```csharp
-//Crear una instancia de un objeto Workbook
+// Crear una instancia de un objeto Workbook
 // Abrir un archivo de Excel
 Workbook workbook = new Workbook(sourceDir + "HyperlinksSample.xlsx");
 ```
@@ -59,14 +59,14 @@ Ahora es el momento de definir un rango en el que queremos buscar hipervínculos
 // Crear un rango A2:B3
 Range range = worksheet.Cells.CreateRange("A2", "B3");
 ```
- llamando`CreateRange`, especificamos las celdas de inicio y fin. Aquí es donde ocurre la magia: más adelante comprobaremos los hipervínculos ubicados en este rango especificado.
+ llamando`CreateRange`especificamos las celdas de inicio y fin. Aquí es donde ocurre la magia: más adelante comprobaremos los hipervínculos ubicados en este rango especificado.
 ## Paso 5: Recuperar hipervínculos del rango
 Este paso es donde realmente accedemos a los hipervínculos en nuestro rango definido.
 ```csharp
 //Obtener hipervínculos dentro del alcance
 Hyperlink[] hyperlinks = range.Hyperlinks;
 ```
- El`Hyperlinks` propiedad de un`Range`objeto devuelve una matriz de`Hyperlink` Objetos que se encuentran en ese rango. ¡Es como tomar todas las notas importantes de tu página de una sola vez!
+ El`Hyperlinks` propiedad de un`Range` objeto devuelve una matriz de`Hyperlink` Objetos que se encuentran en ese rango. ¡Es como tomar todas las notas importantes de tu página de una sola vez!
 ## Paso 6: Recorrer y mostrar enlaces
 Ahora, iteremos a través de los hipervínculos recuperados. Por ahora, imprimiremos sus direcciones y áreas en la consola.
 ```csharp
@@ -85,7 +85,7 @@ foreach (Hyperlink link in hyperlinks)
     link.Delete();
 }
 ```
- Usando el`Delete()` El método en cada hipervínculo te permite eliminar hipervínculos que quizás ya no necesites. Es como borrar un garabato que ya no necesitas de tu página.
+ Usando el`Delete()`El método en cada hipervínculo te permite eliminar hipervínculos que quizás ya no necesites. Es como borrar un garabato que ya no necesitas de tu página.
 ## Paso 8: Guarda los cambios
 Por último, guardemos el libro de trabajo con todos los ajustes que hemos realizado.
 ```csharp

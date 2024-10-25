@@ -16,7 +16,7 @@ Willkommen zu unserem ausführlichen Einblick in die Verwendung von Aspose.Cells
 Bevor wir die Ärmel hochkrempeln und loslegen, müssen Sie ein paar Dinge einrichten. Hier ist eine Checkliste, um sicherzustellen, dass alles reibungslos läuft:
 
 1. .NET-Umgebung: Stellen Sie sicher, dass auf Ihrem Computer eine .NET-Umgebung eingerichtet ist. Dies bedeutet normalerweise, dass Visual Studio oder eine andere kompatible IDE installiert ist.
-2. Aspose.Cells für .NET: Sie benötigen die Aspose.Cells-Bibliothek. Machen Sie sich keine Sorgen; Sie können ganz einfach[Laden Sie hier die neueste Version herunter](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells für .NET: Sie benötigen die Aspose.Cells-Bibliothek. Machen Sie sich keine Sorgen; Sie können ganz einfach[Laden Sie hier die neueste Version herunter](https://releases.aspose.com/cells/net/).
 3.  Beispiel-Excel-Datei: Stellen Sie für dieses Tutorial sicher, dass Sie eine Beispiel-Excel-Datei haben (wie`WebExtensionsSample.xlsx`) zugänglich. Sie können eine mit darin enthaltenen Web-Erweiterungen erstellen oder bei Bedarf eine herunterladen. 
 4. Grundlegende C#-Kenntnisse: Grundlegende Kenntnisse der C#-Programmierung erleichtern Ihnen die Navigation in diesem Tutorial erheblich.
 5. NuGet-Paket-Manager: Wenn Sie mit NuGet vertraut sind, können Sie Aspose.Cells nahtlos in Ihrem Projekt verwalten.
@@ -62,12 +62,12 @@ Hier greifen wir auf alle Aufgabenbereiche zu, die mit den Web-Erweiterungen in 
 
 ## Schritt 4: Durch Aufgabenbereiche iterieren
 
- Sobald Sie die Sammlung haben, besteht der nächste logische Schritt darin, jeden Aufgabenbereich zu durchlaufen und seine Eigenschaften abzurufen. Mit einem`foreach` Loop ist eine hervorragende Möglichkeit, nahtlos durch die einzelnen Aufgabenbereiche zu navigieren.
+Sobald Sie die Sammlung haben, besteht der nächste logische Schritt darin, jeden Aufgabenbereich zu durchlaufen und seine Eigenschaften abzurufen. Mit einem`foreach` Loop ist eine hervorragende Möglichkeit, nahtlos durch die einzelnen Aufgabenbereiche zu navigieren.
 
 ```csharp
 foreach (WebExtensionTaskPane taskPane in taskPanes)
 {
-    //Innerhalb dieser Schleife extrahieren wir Eigenschaften
+    // Innerhalb dieser Schleife extrahieren wir Eigenschaften
 }
 ```
 

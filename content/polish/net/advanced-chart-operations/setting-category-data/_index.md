@@ -96,7 +96,7 @@ worksheet.Cells["C3"].PutValue("Y1");
 worksheet.Cells["C4"].PutValue("Y2");
 ```
 
-Tutaj oznaczamy każdy zestaw danych kategoriami takimi jak „Q1” i „Y1”, co ułatwi późniejszą interpretację naszego wykresu.
+Tutaj oznaczamy każdy zestaw danych kategoriami takimi jak „Q1” i „Y1”, co ułatwi późniejszą interpretację wykresu.
 
 ## Tworzenie wykresu
 

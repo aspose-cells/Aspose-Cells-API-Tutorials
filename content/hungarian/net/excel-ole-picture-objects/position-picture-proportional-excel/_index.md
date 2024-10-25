@@ -40,7 +40,7 @@ Most bontsuk ezt le részletes lépésekre a kép sikeres arányos elhelyezésé
 Először is győződjön meg arról, hogy rendelkezik egy kijelölt mappával a dokumentumok számára. A következőképpen hozhat létre könyvtárat, ha nem létezik:
 ```csharp
 string dataDir = "Your Document Directory";
-//Hozzon létre könyvtárat, ha még nincs jelen.
+// Hozzon létre könyvtárat, ha még nincs jelen.
 bool isExists = System.IO.Directory.Exists(dataDir);
 if (!isExists)
     System.IO.Directory.CreateDirectory(dataDir);

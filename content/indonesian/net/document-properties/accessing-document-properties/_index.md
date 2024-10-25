@@ -30,7 +30,7 @@ Pertama-tama, kita perlu menentukan jalur tempat file Excel kita berada. Di sini
 string dataDir = "Your Document Directory";
 ```
  Mengganti`"Your Document Directory"` dengan jalur sebenarnya ke berkas Excel Anda. Jalur ini berfungsi sebagai landasan peluncuran untuk semua operasi kami.
-## Langkah 2: Membuat Instansi Objek Buku Kerja
+## Langkah 2: Membuat Instansiasi Objek Buku Kerja
  Berikutnya, Anda ingin membuat contoh dari`Workbook` kelas. Objek ini mewakili berkas Excel Anda dan memungkinkan kami melakukan tindakan pada berkas tersebut:
 ```csharp
 Workbook workbook = new Workbook(dataDir + "sample-document-properties.xlsx");
@@ -69,4 +69,4 @@ Tentu saja! Anda dapat membaca, menulis, dan memodifikasi file Excel menggunakan
 ### Apakah dukungan tersedia untuk pengguna Aspose.Cells?
  Ya, Anda dapat mengakses sumber daya dukungan yang luas, termasuk forum dan dokumentasi, yang tersedia[Di Sini](https://forum.aspose.com/c/cells/9).
 ### Bagaimana cara mendapatkan lisensi sementara untuk Aspose.Cells?
- Anda dapat mengajukan lisensi sementara untuk mengevaluasi produk dengan mengunjungi[tautan ini](https://purchase.aspose.com/temporary-license/).
+Anda dapat mengajukan lisensi sementara untuk mengevaluasi produk dengan mengunjungi[tautan ini](https://purchase.aspose.com/temporary-license/).

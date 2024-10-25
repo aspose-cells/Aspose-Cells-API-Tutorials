@@ -15,14 +15,14 @@ Mielőtt belemennénk a fájlok SpreadsheetML formátumban történő mentésén
 2.  Aspose.Cells for .NET Library: Le kell töltenie az Aspose.Cells könyvtárat. Megragadhatja a[Letöltési link](https://releases.aspose.com/cells/net/). Ha még nem tette meg, ne aggódjon, az alábbiakban ezzel foglalkozunk.
 3. A C# programozás alapjai: Ha ismeri a C# nyelvet, könnyebben követheti ezt az oktatóanyagot, de ne stresszelje magát, ha még nem profi – mi egyszerűvé tesszük a dolgokat!
 4.  Terméklicenc (opcionális): Bár kezdetben ingyenesen használhatja a könyvtárat, fontolja meg egy ideiglenes licenc beszerzését a kiterjesztett használathoz. Nézze meg a[ideiglenes licencadatok](https://purchase.aspose.com/temporary-license/).
-5. Egy projekt, amellyel dolgozni: be kell állítania egy új .NET-projektet a Visual Studióban, ahol implementáljuk a kódunkat.
+5. Egy projekt, amellyel dolgozni: Érdemes beállítani egy új .NET-projektet a Visual Studióban, ahol implementáljuk a kódunkat.
 Ha gondoskodik ezekről az előfeltételekről, akkor készen áll a fájlok SpreadsheetML formátumban történő mentésére.
 ## Csomagok importálása
 Ha mindent beállítottunk, az első lépés a programozási környezethez szükséges csomagok importálása. Ez olyan, mintha az összes hozzávalót összeállítaná a főzés megkezdése előtt – mindent a keze ügyében szeretne elérni. 
 ### Állítsa be projektjét
 1. A Visual Studio megnyitása: Indítsa el az IDE-t, és hozzon létre egy új C#-projektet.
 2. NuGet-csomagok kezelése: Kattintson jobb gombbal a projektre a Solution Explorerben, és válassza a „NuGet-csomagok kezelése” lehetőséget.
-3.  Az Aspose.Cells keresése és telepítése: Keresse meg`Aspose.Cells` a NuGet csomagkezelőben. Kattintson a "Telepítés" gombra, hogy hozzáadja a projekthez. Ilyen egyszerű!
+3.  Az Aspose.Cells keresése és telepítése: Keresse meg`Aspose.Cells` a NuGet csomagkezelőben. Kattintson a "Telepítés" gombra, hogy hozzáadja a projekthez. Ez ilyen egyszerű!
 ### Importálja a könyvtárat
 Most, hogy telepítette a csomagot, bele kell foglalnia a kódjába.
 ```csharp

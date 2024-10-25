@@ -109,7 +109,7 @@ Enfin, nous enregistrons nos modifications dans un nouveau fichier Excel. Spéci
 Console.WriteLine("ChangeChartSizeAndPosition executed successfully.");
 ```
 
-Pour terminer en beauté, nous vous fournissons un retour sur la réussite de l'opération. C'est une excellente pratique qui vous permet de conclure votre tâche de manière claire et confiante, tout comme vous admirez votre travail après avoir réorganisé les meubles !
+Pour terminer en beauté, nous vous donnons un retour sur la réussite de l'opération. C'est une excellente pratique qui vous permet de conclure votre tâche de manière claire et confiante, tout comme vous admirez votre travail après avoir réorganisé les meubles !
 
 ## Conclusion
 

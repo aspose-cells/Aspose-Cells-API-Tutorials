@@ -15,7 +15,7 @@ Das Erstellen optisch ansprechender Webseiten aus Excel-Tabellen kann Ihre Onlin
 Bevor wir in den Code einsteigen, stellen Sie sicher, dass Sie über Folgendes verfügen:
 
 1. Visual Studio installiert: Sie benötigen eine Entwicklungsumgebung wie Visual Studio, um Ihre .NET-Anwendungen auszuführen und zu testen.
-2. Aspose.Cells für .NET: Laden Sie Aspose.Cells herunter und installieren Sie es. Sie können die neueste Version von der[Aspose-Website](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells für .NET: Laden Sie Aspose.Cells herunter und installieren Sie es. Sie können die neueste Version von der[Aspose-Website](https://releases.aspose.com/cells/net/).
 3. Grundkenntnisse in C#: Kenntnisse in der C#-Programmierung helfen Ihnen, die Beispiele besser zu verstehen.
 4. Eine Beispiel-Excel-Datei: Bereiten Sie eine Excel-Datei mit dem Namen „Book1.xlsx“ vor, mit der Sie arbeiten können. Legen Sie sie in einem bestimmten Ordner ab, auf den Sie in Ihrem Code verweisen.
 

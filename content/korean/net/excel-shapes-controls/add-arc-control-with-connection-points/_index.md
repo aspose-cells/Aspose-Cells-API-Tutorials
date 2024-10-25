@@ -12,7 +12,7 @@ url: /ko/net/excel-shapes-controls/add-arc-control-with-connection-points/
 ## 필수 조건
 코딩의 흥분에 뛰어들기 전에, 모든 준비가 완료되었는지 확인해 보겠습니다. 필요한 것은 다음과 같습니다.
 1. .NET Framework: 호환되는 버전이 설치되어 있는지 확인하세요. Aspose.Cells는 .NET Core를 포함한 여러 버전과 호환됩니다.
-2.  .NET용 Aspose.Cells: Aspose.Cells 라이브러리를 다운로드하여 설치해야 합니다. 쉽게 가져올 수 있습니다.[다운로드 링크](https://releases.aspose.com/cells/net/).
+2.  .NET용 Aspose.Cells: Aspose.Cells 라이브러리를 다운로드하여 설치해야 합니다. 쉽게 다음에서 가져올 수 있습니다.[다운로드 링크](https://releases.aspose.com/cells/net/).
 3. 좋은 IDE: 모든 .NET 개발자의 충실한 동반자인 Visual Studio는 코딩 경험을 간소화하는 데 도움이 됩니다.
 4. C#에 대한 기본 지식: C#를 잘 알고 있다면 이 튜토리얼을 따라하는 데 어려움이 없을 것입니다.
 5. 문서 디렉토리에 액세스: Excel 파일을 저장할 위치를 알아두세요. 이는 출력을 효율적으로 구성하는 데 필수적입니다.
@@ -29,7 +29,7 @@ using System.Drawing;
 우선 먼저—새로 생긴 멋진 Excel 파일을 저장할 디렉토리를 만들어 보겠습니다. 방법은 다음과 같습니다.
 ```csharp
 string dataDir = "Your Document Directory";
-//디렉토리가 없으면 디렉토리를 생성합니다.
+// 디렉토리가 없으면 디렉토리를 생성합니다.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);

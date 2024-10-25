@@ -84,4 +84,4 @@ Aspose.Cells for .NET je výkonná knihovna, která umožňuje vývojářům gen
 ### Kde mohu požádat o podporu ohledně Aspose.Cells?
  Pomoc můžete hledat u[Aspose Support Forum](https://forum.aspose.com/c/cells/9).
 ### Jak mohu získat dočasnou licenci pro Aspose.Cells?
- Můžete požádat o a[dočasná licence](https://purchase.aspose.com/temporary-license/)pokud jej potřebujete pro účely hodnocení.
+ Můžete požádat o a[dočasná licence](https://purchase.aspose.com/temporary-license/) pokud jej potřebujete pro účely hodnocení.

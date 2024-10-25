@@ -13,7 +13,7 @@ url: /zh-hant/net/conversion-to-pdf/convert-chart-to-pdf/
 ## 先決條件
 在我們開始這個啟發性的旅程之前，您需要檢查以下幾個先決條件：
 ### 1.安裝.NET Framework或.NET Core
-請確定您的電腦上安裝了 .NET Framework 或 .NET Core。本指南適用於兩種環境，因此如果您更喜歡其中一種環境，請不用擔心！
+請確定您的電腦上安裝了 .NET Framework 或 .NET Core。本指南適用於這兩種環境，因此如果您更喜歡其中一種環境，請不用擔心！
 ### 2.Aspose.Cells庫
 奇蹟的發生要歸功於 Aspose.Cells 庫，您需要將其包含在專案中。您可以從[阿斯普斯網站](https://releases.aspose.com/cells/net/).
 ### 3. C#程式設計的基本理解
@@ -75,7 +75,7 @@ chart.ToPdf(dataDir + "Output-Chart_out.pdf");
 ```
 此驗證指令告訴 Aspose.Cells 將圖表以 PDF 形式保存在指定的輸出路徑中。瞧！您的圖表現在為 PDF 格式。
 ## 第 6 步：將圖表儲存到記憶體流
-如果您不想將圖表儲存到檔案而是儲存到記憶體流（例如，如果您打算動態下載它），則可以使用下列程式碼來執行此操作：
+如果您不想將圖表儲存到檔案而是儲存到記憶體流（例如，如果您打算動態下載它），則可以使用以下程式碼來執行此操作：
 ```csharp
 //在流程中將圖表儲存為 PDF 格式
 MemoryStream ms = new MemoryStream();

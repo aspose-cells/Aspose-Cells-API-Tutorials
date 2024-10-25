@@ -23,4 +23,4 @@ Néha előfordulhat, hogy különböző okok miatt meg kell ismételnie a megnev
 ### [Másolja a megnevezett tartományokat az Excelben](./copy-named-ranges/)
 A részletes, lépésenkénti útmutatónkból megtudhatja, hogyan másolhat elnevezett tartományokat az Excelben az Aspose.Cells for .NET használatával. Tökéletes kezdőknek.
 ### [Távolítsa el az elnevezett tartományt az Excelben](./remove-named-range/)
-Ismerje meg, hogyan távolíthat el elnevezett tartományokat az Excelben az Aspose.Cells for .NET használatával, részletes, lépésenkénti utasításokkal.
+Ismerje meg, hogyan távolíthat el elnevezett tartományokat az Excelben az Aspose.Cells for .NET használatával részletes, lépésenkénti utasításokkal.

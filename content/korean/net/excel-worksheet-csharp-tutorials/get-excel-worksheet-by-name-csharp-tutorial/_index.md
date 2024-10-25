@@ -45,7 +45,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY"; // 문서 디렉토리를 지정하�
 string InputPath = Path.Combine(dataDir, "book1.xlsx"); // 전체 경로를 형성하기 위해 결합합니다.
 ```
 
- 여기서 교체하세요`"YOUR DOCUMENT DIRECTORY"`시스템의 실제 경로와 함께`book1.xlsx` 저장되어 있습니다. 활용`Path.Combine` 다양한 운영체제에서 경로가 올바르게 구성되도록 보장하기 때문에 깔끔합니다.
+ 여기서 교체하세요`"YOUR DOCUMENT DIRECTORY"` 시스템의 실제 경로와 함께`book1.xlsx` 저장되어 있습니다. 활용`Path.Combine`다양한 운영체제에서 경로가 올바르게 구성되도록 보장하기 때문에 깔끔합니다.
 
 ## 2단계: 파일 스트림 만들기
 

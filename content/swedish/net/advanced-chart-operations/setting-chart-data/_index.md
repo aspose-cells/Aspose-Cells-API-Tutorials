@@ -19,7 +19,7 @@ Innan vi sätter igång finns det några saker du behöver för att starta den h
 
 1. Visual Studio: Du bör ha Microsoft Visual Studio installerat på din dator för att skriva och köra .NET-kod.
 2.  Aspose.Cells: Se till att ladda ner och installera Aspose.Cells-biblioteket. Du kan hitta den senaste versionen[här](https://releases.aspose.com/cells/net/).
-3. Grundläggande kunskaper om C#: Bekantskap med C# och .NET framework kommer att vara praktiskt för att förstå kodavsnitten vi kommer att använda i den här handledningen.
+3. Grundläggande kunskaper om C#: Bekantskap med C# och .NET framework kommer att vara praktiskt för att förstå kodsnuttarna vi kommer att använda i den här handledningen.
 
 ## Importera paket
 
@@ -100,7 +100,7 @@ int chartIndex = worksheet.Charts.Add(Aspose.Cells.Charts.ChartType.Column, 5, 0
 
 Denna kodrad skapar ett kolumndiagram på en specifik plats i kalkylbladet. Visualisera detta steg som en skiss av konturerna av din målning – det sätter upp ramarna för vad du ska fylla i härnäst.
 
-## Steg 7: Gå till det nyligen tillagda diagrammet
+## Steg 7: Öppna det nyligen tillagda diagrammet
 
 ```csharp
 Aspose.Cells.Charts.Chart chart = worksheet.Charts[chartIndex];

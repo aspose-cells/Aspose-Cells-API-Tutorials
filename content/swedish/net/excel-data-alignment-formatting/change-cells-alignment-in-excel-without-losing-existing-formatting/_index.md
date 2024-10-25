@@ -16,7 +16,7 @@ Att hantera Excel-filer kan ibland kännas som att navigera i en labyrint, särs
 Innan vi dyker in i själva kodningen är det viktigt att se till att du har allt korrekt inställt. Här är vad du behöver:
 
 1. Visual Studio: Se till att du har Visual Studio (alla versioner som stöder .NET) installerat på din dator.
-2.  Aspose.Cells för .NET: Ladda ner och installera Aspose.Cells-biblioteket från[Asposes webbplats](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells för .NET: Ladda ner och installera Aspose.Cells-biblioteket från[Asposes webbplats](https://releases.aspose.com/cells/net/).
 3. Grundläggande kunskaper i C#: Lite förtrogenhet med C#-programmering kommer väl till pass då vi kommer att arbeta i ett C#-sammanhang.
 4.  Exempel på Excel-fil: För demonstration, låt förbereda ett exempel på Excel-fil (t.ex.`sampleChangeCellsAlignmentAndKeepExistingFormatting.xlsx`) som innehåller viss initial cellformatering.
 
@@ -89,7 +89,7 @@ Det här exemplet öppnar det första kalkylbladet. Om dina data finns på ett a
 Bestäm vilka celler du vill ändra genom att skapa ett intervall. Detta val kommer att fokusera på ett specificerat område, såsom "B2:D7".
 
 ```csharp
-// Skapa cellintervall.
+//Skapa cellintervall.
 Range rng = ws.Cells.CreateRange("B2:D7");
 ```
 
@@ -122,14 +122,14 @@ StyleFlag flag = new StyleFlag();
 flag.Alignments = true;
 ```
 
- Genom att ställa in`Alignments`StyleFlaggens egendom till`true`, säger du till Aspose.Cells att tillämpa justeringsstilarna korrekt.
+ Genom att ställa in`Alignments` egenskapen för StyleFlag till`true`, säger du till Aspose.Cells att tillämpa justeringsstilarna korrekt.
 
 ## Steg 7: Tillämpa stilen på cellområdet
 
 Med dina stilar och flaggor på plats är det dags att tillämpa dessa stilar på cellomfånget:
 
 ```csharp
-// Använd stil på cellintervall.
+//Använd stil på cellintervall.
 rng.ApplyStyle(st, flag);
 ```
 

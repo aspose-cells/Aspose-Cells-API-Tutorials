@@ -38,7 +38,7 @@ Pertama, kita perlu memastikan bahwa direktori untuk menyimpan berkas Excel kita
 ```csharp
 // Jalur ke direktori dokumen.
 string dataDir = "Your Document Directory";
-//Buat direktori jika belum ada.
+// Buat direktori jika belum ada.
 bool isExists = System.IO.Directory.Exists(dataDir);
 if (!isExists)
     System.IO.Directory.CreateDirectory(dataDir);

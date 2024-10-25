@@ -33,7 +33,7 @@ Aspose.Cells for Java एक्सेल फ़ाइलों के साथ 
 जावा के लिए Aspose.Cells का उपयोग करने के लिए, आपको अपना लाइसेंस आरंभ करना होगा। यह कदम किसी भी मूल्यांकन सीमा को हटाने और लाइब्रेरी की पूरी क्षमता को अनलॉक करने के लिए आवश्यक है।
 
 ```java
-// Aspose.Cells लाइसेंस आरंभ करें
+//Aspose.Cells लाइसेंस आरंभ करें
 License license = new License();
 license.setLicense("path_to_license_file.xml");
 ```
@@ -88,7 +88,7 @@ Chart chart = worksheet.getCharts().get(chartIndex);
 // चार्ट के लिए डेटा रेंज सेट करना
 chart.getNSeries().add("A2:B4", true);
 
-//चार्ट विशेषताओं को अनुकूलित करना
+// चार्ट विशेषताओं को अनुकूलित करना
 chart.getChartArea().getBorder().setVisible(false);
 chart.getChartTitle().setText("3D Bar Chart");
 ```

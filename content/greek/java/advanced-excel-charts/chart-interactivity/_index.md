@@ -16,7 +16,7 @@ url: /el/java/advanced-excel-charts/chart-interactivity/
 
 Πριν ξεκινήσουμε, βεβαιωθείτε ότι έχετε τις ακόλουθες προϋποθέσεις:
 - Περιβάλλον Ανάπτυξης Java
--  Aspose.Cells for Java Library (Λήψη από[εδώ](https://releases.aspose.com/cells/java/)
+- Aspose.Cells for Java Library (Λήψη από[εδώ](https://releases.aspose.com/cells/java/)
 
 ## Βήμα 1: Ρύθμιση του έργου Java σας
 

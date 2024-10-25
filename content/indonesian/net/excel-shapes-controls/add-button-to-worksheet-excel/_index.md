@@ -31,7 +31,7 @@ Pada langkah pertama ini, kita akan membuat buku kerja Excel baru dan mendapatka
 ```csharp
 // Tentukan jalur ke direktori dokumen Anda.
 string dataDir = "Your Document Directory";
-//Buat direktori jika belum ada.
+// Buat direktori jika belum ada.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
 	System.IO.Directory.CreateDirectory(dataDir);

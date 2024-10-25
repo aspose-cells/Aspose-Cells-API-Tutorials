@@ -15,7 +15,7 @@ Criar gráficos visualmente atraentes e informativos é essencial para uma apres
 
 Antes de começarmos o tutorial, certifique-se de ter tudo pronto:
 
-- Aspose.Cells para .NET: Certifique-se de ter a biblioteca Aspose.Cells baixada e referenciada em seu projeto. Você pode obtê-la[aqui](https://releases.aspose.com/cells/net/).
+-  Aspose.Cells para .NET: Certifique-se de ter a biblioteca Aspose.Cells baixada e referenciada em seu projeto. Você pode obtê-la[aqui](https://releases.aspose.com/cells/net/).
 - Ambiente de desenvolvimento: qualquer ambiente de desenvolvimento .NET funcionará, mas o Visual Studio é altamente recomendado por seu suporte e ferramentas robustos.
 - Noções básicas de C#: Familiaridade com conceitos básicos de programação em C# será útil, pois escreveremos algum código.
 
@@ -76,7 +76,7 @@ worksheet.Cells["B2"].PutValue(32);
 worksheet.Cells["B3"].PutValue(50);
 ```
 
- Aqui, estamos inserindo alguns valores aleatórios nas células`A1` para`B3`Esses dados servirão como fonte de dados para nosso gráfico. É essencial ter dados significativos para visualizar; caso contrário, o gráfico seria apenas linhas bonitas sem contexto!
+ Aqui, estamos inserindo alguns valores aleatórios nas células`A1` para`B3`. Esses dados servirão como fonte de dados para nosso gráfico. É essencial ter dados significativos para visualizar; caso contrário, o gráfico seria apenas linhas bonitas sem contexto!
 
 ## Etapa 5: Adicionar um gráfico à planilha
 
@@ -145,7 +145,7 @@ Esta linha salvará seu trabalho como um arquivo Excel no diretório especificad
 
 ## Conclusão
 
-voilà! Você criou com sucesso uma planilha do Excel apresentando um gráfico com as principais linhas de grade usando o Aspose.Cells para .NET. Você não só aprendeu sobre gráficos, mas também adquiriu habilidades para manipular facilmente elementos visualmente cativantes. Este método pode ser realmente útil em relatórios de negócios, apresentações acadêmicas ou qualquer cenário em que a visualização de dados seja essencial para transmitir sua mensagem.
+E voilà! Você criou com sucesso uma planilha do Excel apresentando um gráfico com as principais linhas de grade usando o Aspose.Cells para .NET. Você não só aprendeu sobre gráficos, mas também adquiriu habilidades para manipular facilmente elementos visualmente cativantes. Este método pode ser realmente útil em relatórios de negócios, apresentações acadêmicas ou qualquer cenário em que a visualização de dados seja essencial para transmitir sua mensagem.
 
 Ao dominar essas técnicas, você estará no caminho certo para criar relatórios dinâmicos que farão seus dados se destacarem!
 
@@ -161,7 +161,7 @@ Aspose.Cells para .NET é uma API poderosa para manipular planilhas do Excel, pe
 Sim! O Aspose.Cells permite ampla personalização, incluindo fontes, estilos e formatos para elementos de gráfico.
 
 ### Onde posso encontrar mais documentação?
- Você pode encontrar documentação abrangente em[Página de referência do Aspose](https://reference.aspose.com/cells/net/).
+Você pode encontrar documentação abrangente em[Página de referência do Aspose](https://reference.aspose.com/cells/net/).
 
 ### Existe um teste gratuito disponível para o Aspose.Cells?
  Sim! Você pode experimentar baixando-o em[aqui](https://releases.aspose.com/).

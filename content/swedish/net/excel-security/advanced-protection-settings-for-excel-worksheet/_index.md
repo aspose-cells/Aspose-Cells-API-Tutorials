@@ -16,7 +16,7 @@ I den digitala tidsåldern är det viktigare än någonsin att hantera och säkr
 Innan vi dyker in i koden, låt oss se till att du har allt du behöver:
 
 1. Utvecklingsmiljö: Du bör ha Visual Studio installerat på din maskin, eftersom det ger en utmärkt IDE för .NET-utveckling.
-2. Aspose.Cells Library: Ladda ner Aspose.Cells-biblioteket. Du kan få det från[Aspose Nedladdningssida](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells Library: Ladda ner Aspose.Cells-biblioteket. Du kan få det från[Aspose Nedladdningssida](https://releases.aspose.com/cells/net/).
 3. Grundläggande C#-kunskap: Se till att du har en god förståelse för C# och .NET Framework för att enkelt följa med.
 4. Skapa ett projekt: Sätt upp en ny konsolapplikation i Visual Studio där vi skriver koden.
 
@@ -48,12 +48,12 @@ Låt oss dela upp implementeringen i hanterbara steg. Vi kommer att skapa en enk
 
 ## Steg 1: Skapa en filström för din Excel-fil
 
-Först måste vi ladda en befintlig Excel-fil. Vi använder en`FileStream` för att komma åt den.
+ Först måste vi ladda en befintlig Excel-fil. Vi använder en`FileStream` för att komma åt den.
 
 ```csharp
 // Sökvägen till dokumentkatalogen.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-// Skapa en filström för att öppna Excel-filen
+//Skapa en filström för att öppna Excel-filen
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
  De`FileStream` låter oss läsa den angivna Excel-filen. Se till att ändra "DIN DOKUMENTKATOLOG" till den faktiska sökvägen där din Excel-fil finns.

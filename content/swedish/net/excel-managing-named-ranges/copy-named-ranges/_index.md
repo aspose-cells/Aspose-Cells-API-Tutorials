@@ -12,7 +12,7 @@ Excel är ett kraftfullt verktyg som används av miljontals över hela världen 
 ## Förutsättningar
 Innan du dyker in i det tråkiga med att kopiera namngivna intervall måste du se till att du har några saker i rad. Här är vad du behöver:
 1. .NET-miljö: Se till att du har en .NET-utvecklingsmiljö inställd. Du kan använda Visual Studio eller vilken annan IDE du väljer.
-2.  Aspose.Cells för .NET Library: Det här är stjärnan i showen! Ladda ner biblioteket från[Aspose hemsida](https://releases.aspose.com/cells/net/) om du inte redan har gjort det.
+2. Aspose.Cells för .NET Library: Det här är stjärnan i showen! Ladda ner biblioteket från[Aspose hemsida](https://releases.aspose.com/cells/net/) om du inte redan har gjort det.
 3. Grundläggande kunskaper i C#: Bekantskap med C#-programmering kommer att vara fördelaktigt eftersom vi kommer att koda på detta språk under hela handledningen.
 4. Excel installerat: Även om du inte nödvändigtvis behöver Excel för att skriva kod, är det användbart att ha det installerat för att testa dina utdatafiler.
 5.  Tillgång till dokumentation: Bokmärk den[Aspose.Cells dokumentation](https://reference.aspose.com/cells/net/) för referens. Det är en fantastisk resurs för att förstå metoder och funktioner.
@@ -27,7 +27,7 @@ using System.IO;
 using Aspose.Cells;
 using System.Drawing;
 ```
-Denna kod ger dig tillgång till viktiga klasser som t.ex`Workbook`, `Worksheet` och`Range`, som du behöver för att manipulera Excel-filer.
+ Denna kod ger dig tillgång till viktiga klasser som t.ex`Workbook`, `Worksheet` , och`Range`, som du behöver för att manipulera Excel-filer.
 
 Nu när vi har våra förutsättningar sorterade, låt oss dela upp processen i lätta att följa steg.
 ## Steg 1: Konfigurera din utdatakatalog

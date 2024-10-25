@@ -16,7 +16,7 @@ Khi nói đến thao tác bảng tính, việc nhập dữ liệu vào Excel và
 Trước khi đi sâu vào chi tiết, hãy đảm bảo bạn có mọi thứ mình cần. Sau đây là danh sách kiểm tra nhanh các điều kiện tiên quyết để giúp bạn thành công:
 
 1. .NET Framework: Đảm bảo bạn đã cài đặt .NET Framework trên máy của mình. Aspose.Cells hoạt động liền mạch với nhiều phiên bản .NET khác nhau.
-2. Aspose.Cells cho .NET: Bạn sẽ cần tải xuống và cài đặt thư viện Aspose.Cells. Bạn có thể lấy nó từ[liên kết tải xuống](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells cho .NET: Bạn sẽ cần tải xuống và cài đặt thư viện Aspose.Cells. Bạn có thể lấy nó từ[liên kết tải xuống](https://releases.aspose.com/cells/net/).
 3. Môi trường phát triển tích hợp (IDE): Sử dụng IDE như Visual Studio nơi bạn có thể viết và thực thi mã C#.
 4. Kiến thức cơ bản về C#: Có hiểu biết cơ bản về C# sẽ giúp bạn theo dõi các phương pháp viết mã mà chúng tôi sẽ sử dụng trong hướng dẫn này.
 
@@ -108,7 +108,7 @@ Bằng cách nắm bắt phong cách của tế bào, bạn đang chuẩn bị t
 st.Custom = "[DBNum2][$-804]General";
 ```
 
- Dòng này yêu cầu Excel định dạng số`123` theo mẫu DBNum tương ứng với tiếng Trung. Khá gọn gàng, phải không?
+ Dòng này yêu cầu Excel định dạng số`123`theo mẫu DBNum tương ứng với tiếng Trung. Khá gọn gàng, phải không?
 
 ## Bước 7: Đặt Kiểu ô được cập nhật
 

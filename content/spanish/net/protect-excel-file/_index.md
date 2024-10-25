@@ -15,11 +15,11 @@ Si está profundizando en la automatización y manipulación de Excel con .NET, 
 
 Imagina que necesitas manejar grandes cantidades de datos en Excel. Tal vez pienses: "¿No va a llevar una eternidad?". Entra en escena Aspose.Cells: es como tener un superpoder para la manipulación de datos. Esta biblioteca no solo te permite editar hojas de cálculo, sino que también te permite proteger los datos, asegurando que la información crucial permanezca intacta. Cuando proteges filas o columnas específicas, es como construir una fortaleza alrededor de tus cifras importantes, permitiendo que solo entren las personas adecuadas. 
 
- Hemos simplificado este proceso para usted con varios tutoriales paso a paso. Por ejemplo, consulte nuestra guía sobre cómo[Permitir a los usuarios editar rangos en una hoja de cálculo de Excel](./allow-user-to-edit-ranges-in-excel-worksheet/)Aprenderá cómo permitir que los usuarios modifiquen sin problemas secciones específicas de una hoja de cálculo sin comprometer todo el documento. 
+Hemos simplificado este proceso para usted con varios tutoriales paso a paso. Por ejemplo, consulte nuestra guía sobre cómo[Permitir a los usuarios editar rangos en una hoja de cálculo de Excel](./allow-user-to-edit-ranges-in-excel-worksheet/)Aprenderá cómo permitir que los usuarios modifiquen sin problemas secciones específicas de una hoja de cálculo sin comprometer todo el documento. 
 
 ## Tutoriales personalizados para ti
 
-Pero eso no es todo. Proteger tus datos es igual de importante. No dejarías la puerta de tu casa abierta de par en par, ¿verdad? De manera similar, nuestras guías te ofrecen las herramientas para bloquear cualquier parte de tu hoja de Excel. Consulta el tutorial sobre[Protegiendo células específicas](./protect-specific-cells-in-a-excel-worksheet/) para aprender a proteger sus datos de manera eficaz. Le guiaremos paso a paso, haciéndolo sencillo incluso para aquellos que son nuevos en programación.
+ Pero eso no es todo. Proteger tus datos es igual de importante. No dejarías la puerta de tu casa abierta de par en par, ¿verdad? De manera similar, nuestras guías te ofrecen las herramientas para bloquear cualquier parte de tu hoja de Excel. Consulta el tutorial sobre[Protegiendo células específicas](./protect-specific-cells-in-a-excel-worksheet/) para aprender a proteger sus datos de manera eficaz. Le guiaremos paso a paso, haciéndolo sencillo incluso para aquellos que son nuevos en programación.
 
 ¡Por supuesto! Vamos a ampliar la importancia de estos tutoriales en su búsqueda por dominar Excel y cómo pueden adaptarse a su flujo de trabajo de desarrollo.
 

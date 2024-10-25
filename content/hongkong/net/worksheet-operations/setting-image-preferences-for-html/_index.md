@@ -15,7 +15,7 @@ url: /zh-hant/net/worksheet-operations/setting-image-preferences-for-html/
 在我們開始編寫程式碼之前，請確保您具備以下條件：
 
 1. 安裝了 Visual Studio：您需要一個像 Visual Studio 這樣的開發環境來執行和測試您的 .NET 應用程式。
-2. Aspose.Cells for .NET：下載並安裝 Aspose.Cells。您可以從以下位置取得最新版本[阿斯普斯網站](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells for .NET：下載並安裝 Aspose.Cells。您可以從以下位置取得最新版本[阿斯普斯網站](https://releases.aspose.com/cells/net/).
 3. C#基礎知識：熟悉C#程式設計將有助於您更好地理解範例。
 4. Excel 檔案範例：準備一個名為「Book1.xlsx」的 Excel 檔案以供使用。將其放置在您將在程式碼中引用的指定資料夾中。
 
@@ -42,7 +42,7 @@ using System.IO;
 using Aspose.Cells;
 ```
 
-現在您已準備好在專案中使用 Aspose.Cells 功能！
+現在您已準備好在專案中使用 Aspose.Cells 功能了！
 
 讓我們分解一下使用 Aspose.Cells 將 Excel 匯出為 HTML 時設定映像首選項的過程。
 

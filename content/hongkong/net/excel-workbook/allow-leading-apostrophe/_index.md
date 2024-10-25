@@ -16,8 +16,8 @@ url: /zh-hant/net/excel-workbook/allow-leading-apostrophe/
 在深入研究程式碼之前，您需要滿足以下幾個先決條件：
 
 1. .NET 基礎知識：熟悉 .NET 框架至關重要。如果您已經涉足 C# 或 VB.NET，請認為您已準備好。
-2. Aspose.Cells for .NET Library：您需要安裝Aspose.Cells。您可以透過 NuGet 套件管理器輕鬆完成此操作，或從[阿斯普斯網站](https://releases.aspose.com/cells/net/).
-3. IDE 設定：確保您有一個整合開發環境 (IDE)（例如 Visual Studio），可以用於編碼。
+2.  Aspose.Cells for .NET Library：您需要安裝Aspose.Cells。您可以透過 NuGet 套件管理器輕鬆完成此操作，或從[阿斯普斯網站](https://releases.aspose.com/cells/net/).
+3. IDE 設定：確保您有一個整合開發環境 (IDE)，例如 Visual Studio，可以用於編碼。
 4. 範例 Excel 檔案：您可以使用我們將在程式碼中使用的範例檔案（“AllowLeadingApostropeSample.xlsx”）。
 
 現在您已經檢查了先決條件，讓我們匯入必要的套件並設定我們的專案。

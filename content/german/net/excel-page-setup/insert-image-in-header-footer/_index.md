@@ -55,7 +55,7 @@ Workbook workbook = new Workbook();
 
 ## Schritt 3: Definieren des Bildpfads
 
- Es ist Zeit, eine String-Variable zu erstellen, die den Pfad zum Bild enthält, das Sie verwenden möchten. In unserem Fall verwenden wir`aspose-logo.jpg`.
+Es ist Zeit, eine String-Variable zu erstellen, die den Pfad zum Bild enthält, das Sie verwenden möchten. In unserem Fall verwenden wir`aspose-logo.jpg`.
 
 ```csharp
 string logo_url = dataDir + "aspose-logo.jpg";

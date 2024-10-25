@@ -100,7 +100,7 @@ Med detta vet du att din kod exekveras som förväntat och din Excel-fil är kla
 
 ## Slutsats
 
-den här handledningen har vi gått igenom hur man skyddar och avskyddar en delad arbetsbok med Aspose.Cells för .NET. Genom att följa dessa steg kan du säkerställa att dina Excel-filer förblir säkra samtidigt som du tillåter samarbete. Oavsett om du delar känslig finansiell information eller kundinformation, är skyddet av ditt arbete avgörande i dagens miljö.
+I den här handledningen har vi gått igenom hur man skyddar och avskyddar en delad arbetsbok med Aspose.Cells för .NET. Genom att följa dessa steg kan du säkerställa att dina Excel-filer förblir säkra samtidigt som du tillåter samarbete. Oavsett om du delar känslig finansiell information eller kundinformation, är skyddet av ditt arbete avgörande i dagens miljö.
 
 ## FAQ's
 
@@ -117,4 +117,4 @@ Tyvärr, om du glömmer lösenordet, kommer du inte att kunna avskydda arbetsbok
 Aspose.Cells stöder i första hand .NET, men de har bibliotek för Java och andra språk också. Kolla deras sida för mer info!
 
 ### Hur får jag support för Aspose.Cells?
-Du kan nå ut för att få hjälp via deras supportforum:[Aspose Support](https://forum.aspose.com/c/cells/9).
+ Du kan nå ut för att få hjälp via deras supportforum:[Aspose Support](https://forum.aspose.com/c/cells/9).

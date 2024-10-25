@@ -62,7 +62,7 @@ string outputDir = "Your Output Directory";
 Workbook workbook = new Workbook(sourceDir + "sampleAddingLabelControlInChart.xls");
 ```
 
- 여기서 우리는 다음을 사용하고 있습니다.`Workbook`Aspose.Cells의 클래스를 사용하여 Excel 파일을 엽니다. 창의성이 흐르도록 문을 여는 것과 같습니다!
+ 여기서 우리는 다음을 사용하고 있습니다.`Workbook` Aspose.Cells의 클래스를 사용하여 Excel 파일을 엽니다. 창의성이 흐르도록 문을 여는 것과 같습니다!
 
 ## 3단계: 워크시트에 액세스
 
@@ -94,7 +94,7 @@ Aspose.Cells.Charts.Chart chart = sheet.Charts[0];
 Aspose.Cells.Drawing.Label label = chart.Shapes.AddLabelInChart(600, 600, 350, 900);
 ```
 
- 여기,`AddLabelInChart`귀하가 지정한 좌표와 치수에 따라 라벨을 만드는 일을 담당합니다. 마치 아트워크 주위에 아름다운 프레임을 부착하는 것과 같습니다!
+ 여기,`AddLabelInChart` 귀하가 지정한 좌표와 치수에 따라 라벨을 만드는 일을 담당합니다. 마치 아트워크 주위에 아름다운 프레임을 부착하는 것과 같습니다!
 
 ## 6단계: 레이블 텍스트 설정
 

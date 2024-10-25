@@ -76,7 +76,7 @@ Je čas udělat z vašeho sešitu mistrovské dílo založené na spolupráci! S
 //Sdílejte sešit
 wb.Settings.Shared = true;
 ```
- Nastavení`wb.Settings.Shared` na`true`označuje, že k tomuto sešitu může přistupovat více uživatelů najednou. Je to jako rozdávat klíče od svého domu přátelům – mohou přicházet a odcházet, jak chtějí!
+ Nastavení`wb.Settings.Shared` na`true` označuje, že k tomuto sešitu může přistupovat více uživatelů najednou. Je to jako rozdávat klíče od svého domu přátelům – mohou přicházet a odcházet, jak chtějí!
 
 ## Krok 4: Uložte sdílený sešit
 

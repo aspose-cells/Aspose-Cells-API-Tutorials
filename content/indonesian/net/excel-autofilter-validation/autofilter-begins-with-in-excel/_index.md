@@ -71,7 +71,7 @@ Sekarang, kita perlu mengakses lembar kerja spesifik yang ingin kita kerjakan:
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
-Penjelasan:`Worksheets` koleksi memungkinkan kita untuk mengakses lembar-lembar individual. Menggunakan`[0]` merujuk pada lembar kerja pertama dalam berkas Excel Anda, yang umumnya merupakan praktik umum saat bekerja dengan berkas satu lembar.
+ Penjelasan:`Worksheets` koleksi memungkinkan kita untuk mengakses lembar-lembar individual. Menggunakan`[0]` merujuk pada lembar kerja pertama dalam berkas Excel Anda, yang umumnya merupakan praktik umum saat bekerja dengan berkas satu lembar.
 
 ## Langkah 4: Menyiapkan AutoFilter
 
@@ -82,7 +82,7 @@ Di sinilah keajaiban dimulai! Kita akan membuat rentang AutoFilter untuk data ki
 worksheet.AutoFilter.Range = "A1:A18";
 ```
 
-Penjelasan:`AutoFilter.Range` Properti ini memungkinkan Anda menentukan baris mana yang akan difilter. Dalam kasus ini, kami memfilter baris dalam rentang A1 hingga A18, yang diasumsikan berisi data kami.
+ Penjelasan:`AutoFilter.Range` Properti ini memungkinkan Anda menentukan baris mana yang akan difilter. Dalam kasus ini, kami memfilter baris dalam rentang A1 hingga A18, yang diasumsikan berisi data kami.
 
 ## Langkah 5: Terapkan Kondisi Filter
 
@@ -93,7 +93,7 @@ Langkah selanjutnya adalah menentukan kondisi filter. Kami ingin menampilkan han
 worksheet.AutoFilter.Custom(0, FilterOperatorType.BeginsWith, "Ba");
 ```
 
-Penjelasan:`Custom` metode mendefinisikan logika penyaringan kami. Argumen pertama (`0` ) menunjukkan bahwa kita memfilter berdasarkan kolom pertama (A), dan`FilterOperatorType.BeginsWith`menentukan kondisi kita untuk mencari baris yang dimulai dengan "Ba".
+ Penjelasan:`Custom` metode mendefinisikan logika penyaringan kami. Argumen pertama (`0` ) menunjukkan bahwa kita memfilter berdasarkan kolom pertama (A), dan`FilterOperatorType.BeginsWith` menentukan kondisi kita untuk mencari baris yang dimulai dengan "Ba".
 
 ## Langkah 6: Segarkan Filter
 
@@ -115,7 +115,7 @@ Sekarang saatnya untuk menyimpan perubahan yang telah kita buat:
 workbook.Save(outputDir + "outSourseSampleCountryNames.xlsx");
 ```
 
-Penjelasan:`Save` metode menulis kembali Buku Kerja yang dimodifikasi ke jalur keluaran yang ditentukan. Ini termasuk dalam penulisan filter yang Anda tentukan ke dalam file baru sehingga data asli Anda tetap utuh.
+ Penjelasan:`Save` metode menulis kembali Buku Kerja yang dimodifikasi ke jalur keluaran yang ditentukan. Ini termasuk dalam penulisan filter yang Anda tentukan ke dalam file baru sehingga data asli Anda tetap utuh.
 
 ## Langkah 8: Konfirmasi Output
 

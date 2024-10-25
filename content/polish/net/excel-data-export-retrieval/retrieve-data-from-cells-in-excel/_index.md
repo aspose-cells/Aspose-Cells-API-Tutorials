@@ -18,7 +18,7 @@ Zanim przejdziemy do kodu, musisz spełnić kilka warunków wstępnych:
 1. Visual Studio: Upewnij się, że masz zainstalowany Visual Studio na swoim komputerze. To IDE, którego będziemy używać do pisania i wykonywania naszego kodu.
 2.  Aspose.Cells dla .NET: Musisz mieć bibliotekę Aspose.Cells. Możesz ją pobrać ze strony[Strona internetowa Aspose](https://releases.aspose.com/cells/net/).
 3. Podstawowa wiedza o języku C#: Znajomość programowania w języku C# pomoże Ci lepiej zrozumieć przykłady.
-4.  Plik Excela: Przygotuj plik Excela (na przykład`book1.xls`) którego będziesz używać w tym samouczku.
+4. Plik Excela: Przygotuj plik Excela (na przykład`book1.xls`) którego będziesz używać w tym samouczku.
 
 Gdy już spełnisz te wymagania wstępne, możemy zacząć badać sposoby pobierania danych z komórek programu Excel.
 
@@ -52,7 +52,7 @@ Teraz, gdy masz już skonfigurowany katalog dokumentów, następnym krokiem jest
 
 
 ```csharp
-// Otwieranie istniejącego skoroszytu
+//Otwieranie istniejącego skoroszytu
 Workbook workbook = new Workbook(dataDir + "book1.xls");
 ```
 
@@ -68,7 +68,7 @@ Po otwarciu skoroszytu, będziesz chciał uzyskać dostęp do konkretnego arkusz
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
- Ten`Worksheets` kolekcja umożliwia dostęp do różnych arkuszy w skoroszycie. Indeks`[0]`odnosi się do pierwszego arkusza. Jeśli chcesz uzyskać dostęp do kolejnych arkuszy, możesz odpowiednio zmienić indeks.
+ Ten`Worksheets` kolekcja umożliwia dostęp do różnych arkuszy w skoroszycie. Indeks`[0]` odnosi się do pierwszego arkusza. Jeśli chcesz uzyskać dostęp do kolejnych arkuszy, możesz odpowiednio zmienić indeks.
 
 ## Krok 4: Pętla przez komórki
 
@@ -99,7 +99,7 @@ foreach (Cell cell1 in worksheet.Cells)
             Console.WriteLine("Double Value: " + doubleValue);
             break;
 
-        // Ocena typu danych komórki pod kątem wartości logicznej
+        //Ocena typu danych komórki pod kątem wartości logicznej
         case CellValueType.IsBool:
             boolValue = cell1.BoolValue;
             Console.WriteLine("Bool Value: " + boolValue);
@@ -124,7 +124,7 @@ foreach (Cell cell1 in worksheet.Cells)
 }
 ```
 
- W tym kroku przechodzimy przez każdą komórkę w arkuszu. Dla każdej komórki sprawdzamy jej typ danych za pomocą`switch`polecenie. W zależności od typu pobieramy wartość i drukujemy ją na konsoli. Oto podział przypadków:
+ W tym kroku przechodzimy przez każdą komórkę w arkuszu. Dla każdej komórki sprawdzamy jej typ danych za pomocą`switch` polecenie. W zależności od typu pobieramy wartość i drukujemy ją na konsoli. Oto podział przypadków:
 
 -  IsString: Jeśli komórka zawiera ciąg znaków, pobieramy go za pomocą`StringValue`.
 -  IsNumeric: W przypadku wartości numerycznych używamy`DoubleValue`.
@@ -143,7 +143,7 @@ Pobieranie danych z komórek Excela za pomocą Aspose.Cells dla .NET to prosty p
 Aspose.Cells to biblioteka .NET umożliwiająca programistom tworzenie, edytowanie i konwertowanie plików Excel bez konieczności instalowania programu Microsoft Excel.
 
 ### Czy mogę używać Aspose.Cells za darmo?  
-Tak, Aspose.Cells oferuje bezpłatną wersję próbną, której możesz użyć do przetestowania jej funkcji. Możesz ją pobrać[Tutaj](https://releases.aspose.com/).
+ Tak, Aspose.Cells oferuje bezpłatną wersję próbną, której możesz użyć do przetestowania jej funkcji. Możesz ją pobrać[Tutaj](https://releases.aspose.com/).
 
 ### Jakie typy danych mogę pobrać z komórek programu Excel?  
 Można pobierać różne typy danych, w tym ciągi znaków, liczby, wartości logiczne oraz wartości daty/godziny.

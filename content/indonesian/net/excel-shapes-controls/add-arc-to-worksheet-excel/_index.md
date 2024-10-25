@@ -38,7 +38,7 @@ Berikut rincian kode langkah demi langkah yang memperagakan cara menambahkan bus
 Langkah pertama adalah menyiapkan direktori tempat Anda akan menyimpan berkas Excel. Ini membantu Anda mengelola berkas output dengan mudah.
 ```csharp
 string dataDir = "Your Document Directory";
-//Buat direktori jika belum ada.
+// Buat direktori jika belum ada.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);

@@ -164,7 +164,7 @@ Az Aspose.Cells egy hatékony könyvtár, amellyel Excel-fájlokat kezelnek .NET
 Teljesen! Az Aspose.Cells lehetővé teszi a színek széles körű testreszabását, beleértve az RGB-értékeket, a szabványos színeket és egyebeket.
 
 ### Hol találok további dokumentumokat?
- Megtekintheti az Aspose.Cells dokumentációját[itt](https://reference.aspose.com/cells/net/) részletesebb útmutatókért és funkciókért.
+ Megtekintheti az Aspose.Cells dokumentációját[itt](https://reference.aspose.com/cells/net/) részletesebb útmutatók és funkciók megtekintéséhez.
 
 ### Van-e támogatás, ha problémákat tapasztalok?
  Igen! Látogassa meg az Aspose fórumot[itt](https://forum.aspose.com/c/cells/9) közösségi támogatásért, és segítséget kaphat kérdéseivel kapcsolatban.

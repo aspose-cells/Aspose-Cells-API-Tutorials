@@ -72,7 +72,7 @@ foreach (Shape sh in ws.Shapes)
 Aspose.Cells.Drawing.Texts.ShapeTextAlignment txtAlign = sh.TextBody.TextAlignment;
 txtAlign.IsAutoMargin = false;
 ```
-設定により`IsAutoMargin` false に設定すると、マージンを制御できるようになります。
+設定により`IsAutoMargin`false に設定すると、マージンを制御できるようになります。
 ## ステップ6: 余白を設定する
 これは、マージンを定義する重要なステップです。これらの値は、必要に応じてカスタマイズできます。
 ```csharp
@@ -105,4 +105,4 @@ Aspose.Cells は、Microsoft Excel をインストールしなくても Excel �
 ### ライブラリは既存のプロジェクトに簡単に統合できますか?
 もちろんです! Aspose.Cells は .NET プロジェクトに簡単に統合でき、API も簡単です。
 ### Aspose.Cells のサポートはどこで見つかりますか?
-Asposeを通じてサポートを受けることができます[フォーラム](https://forum.aspose.com/c/cells/9).
+ Asposeを通じてサポートを受けることができます[フォーラム](https://forum.aspose.com/c/cells/9).

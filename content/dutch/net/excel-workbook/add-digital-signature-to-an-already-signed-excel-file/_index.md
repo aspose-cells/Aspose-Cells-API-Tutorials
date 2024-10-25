@@ -16,7 +16,7 @@ In de digitale wereld van vandaag is het beveiligen van documenten belangrijker 
 Voordat we in de details van het coderen duiken, zijn er een paar dingen die je moet regelen:
 
 1.  Aspose.Cells voor .NET: Zorg ervoor dat u de Aspose.Cells-bibliotheek in uw .NET-project hebt geïnstalleerd. U kunt deze downloaden van de[plaats](https://releases.aspose.com/cells/net/).
-2.  Certificaatbestand: U hebt een geldig certificaatbestand nodig (meestal een`.pfx` bestand) dat uw digitale certificaat bevat. Zorg ervoor dat u het wachtwoord voor dit bestand weet.
+2.  Certificaatbestand: U hebt een geldig certificaatbestand nodig (meestal een`.pfx`bestand) dat uw digitale certificaat bevat. Zorg ervoor dat u het wachtwoord voor dit bestand weet.
 3. Ontwikkelomgeving: stel uw ontwikkelomgeving in met Visual Studio of een andere IDE die .NET ondersteunt.
 4. Basiskennis van C#: Kennis van C#-programmering helpt u de cursus soepel te volgen.
 5. Voorbeeldbestanden: Heb een voorbeeld Excel-bestand dat al digitaal is ondertekend. Dit is het bestand waaraan u een nieuwe handtekening toevoegt.
@@ -51,7 +51,7 @@ In deze stap gebruiken we een methode om de paden voor de bron- en uitvoerdirect
 
 ## Stap 2: Laad de reeds ondertekende werkmap
 
-Vervolgens moet u de Excel-werkmap laden die u wilt wijzigen. Dit doet u door een exemplaar van de`Workbook` klasse en het pad van het ondertekende bestand doorgeven.
+ Vervolgens moet u de Excel-werkmap laden die u wilt wijzigen. Dit doet u door een exemplaar van de`Workbook` klasse en het pad van het ondertekende bestand doorgeven.
 
 ```csharp
 // Laad de werkmap die al digitaal is ondertekend
@@ -84,7 +84,7 @@ string password = "aspose";
 System.Security.Cryptography.X509Certificates.X509Certificate2 certificate = new System.Security.Cryptography.X509Certificates.X509Certificate2(certFileName, password);
 ```
 
- Zorg ervoor dat u vervangt`AsposeDemo.pfx` en het wachtwoord met uw werkelijke certificaatbestandsnaam en wachtwoord.
+ Zorg ervoor dat u vervangt`AsposeDemo.pfx`en het wachtwoord met uw werkelijke certificaatbestandsnaam en wachtwoord.
 
 ## Stap 5: De digitale handtekening maken
 
@@ -113,7 +113,7 @@ Door deze regel uit te voeren, koppelt u de nieuwe digitale handtekening feiteli
 Tot slot wilt u de gewijzigde werkmap opslaan in uw uitvoermap en alle gebruikte bronnen vrijgeven.
 
 ```csharp
-// Sla de werkmap op en gooi deze weg.
+//Sla de werkmap op en gooi deze weg.
 workbook.Save(outputDir + "outputDigitallySignedByCells.xlsx");
 workbook.Dispose();
 ```

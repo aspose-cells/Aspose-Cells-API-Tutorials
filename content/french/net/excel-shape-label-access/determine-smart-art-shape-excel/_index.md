@@ -13,7 +13,7 @@ Dans ce didacticiel, nous vous expliquerons les étapes nécessaires pour déter
 ## Prérequis
 Avant de plonger dans les détails techniques, voyons ce que vous devez mettre en place pour suivre ce tutoriel :
 1. Visual Studio : c'est ici que nous allons écrire notre code. Assurez-vous d'avoir une version compatible avec .NET Framework ou .NET Core.
-2. Aspose.Cells pour .NET : vous devez avoir installé cette bibliothèque. Vous pouvez la télécharger à partir du[Site Web d'Aspose](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells pour .NET : vous devez avoir installé cette bibliothèque. Vous pouvez la télécharger à partir du[Site Web d'Aspose](https://releases.aspose.com/cells/net/).
 3. Connaissances de base en programmation : une familiarité avec C# et une compréhension de concepts tels que les classes et les méthodes rendront ce processus plus fluide.
 4. Exemple de fichier Excel : vous aurez également besoin d'un exemple de fichier Excel contenant des formes et Smart Art pour les tests.
 Une fois ces prérequis vérifiés, vous êtes prêt à vous lancer dans le code !
@@ -46,7 +46,7 @@ Tout d’abord, vous devez spécifier l’emplacement de votre fichier Excel.
 // Répertoire des sources
 string sourceDir = "Your Document Directory";
 ```
- Remplacer`"Your Document Directory"` avec le chemin où ton`sampleSmartArtShape.xlsx` Le fichier est situé ici. C'est ici que l'application recherchera le fichier Excel qui contient les formes que vous souhaitez inspecter.
+ Remplacer`"Your Document Directory"` avec le chemin où ton`sampleSmartArtShape.xlsx`Le fichier est situé ici. C'est ici que l'application recherchera le fichier Excel qui contient les formes que vous souhaitez inspecter.
 ## Étape 2 : charger le classeur Excel
  Ensuite, nous allons charger le fichier Excel dans Aspose.Cells`Workbook` classe.
 ```csharp
@@ -60,7 +60,7 @@ Après avoir chargé le classeur, nous devrons accéder à la feuille de calcul 
 // Accéder à la première feuille de calcul
 Worksheet ws = wb.Worksheets[0];
 ```
- Les fichiers Excel peuvent contenir plusieurs feuilles de calcul. En les indexant avec`[0]`nous accédons à la première feuille de calcul de notre classeur. 
+ Les fichiers Excel peuvent contenir plusieurs feuilles de calcul. En les indexant avec`[0]`, nous accédons à la première feuille de calcul de notre classeur. 
 ## Étape 4 : Accéder à la forme
 Nous allons maintenant récupérer la forme spécifique que nous souhaitons vérifier.
 ```csharp
@@ -83,7 +83,7 @@ Smart Art est une fonctionnalité d'Excel qui permet aux utilisateurs de créer 
 ### Puis-je modifier les formes Smart Art à l’aide d’Aspose.Cells ?
 Oui, vous pouvez manipuler les formes Smart Art par programmation, notamment en modifiant les styles et les détails.
 ### L'utilisation d'Aspose.Cells est-elle gratuite ?
- Bien qu'une version d'essai soit disponible, Aspose.Cells est une bibliothèque payante. Vous pouvez acheter la version complète[ici](https://purchase.aspose.com/buy).
+Bien qu'une version d'essai soit disponible, Aspose.Cells est une bibliothèque payante. Vous pouvez acheter la version complète[ici](https://purchase.aspose.com/buy).
 ### Comment puis-je obtenir de l’aide si je rencontre des problèmes ?
  Vous pouvez demander de l'aide sur le[Forum d'assistance Aspose](https://forum.aspose.com/c/cells/9).
 ### Où puis-je trouver plus de documentation sur Aspose.Cells ?

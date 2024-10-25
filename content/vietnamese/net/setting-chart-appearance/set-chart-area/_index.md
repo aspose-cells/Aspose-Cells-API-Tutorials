@@ -17,7 +17,7 @@ Trước khi đi sâu vào chi tiết tạo biểu đồ, hãy đảm bảo bạ
 
 1. Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio trên máy của mình. Nó rất cần thiết để viết và thực thi mã .NET.
 2. .NET Framework: Hướng dẫn này hoạt động tốt nhất với .NET Framework hoặc .NET Core. Đảm bảo bạn đã cài đặt phiên bản bắt buộc (4.5 trở lên).
-3.  Aspose.Cells: Bạn sẽ cần thư viện Aspose.Cells. Bạn có thể tải xuống từ[đây](https://releases.aspose.com/cells/net/).
+3. Aspose.Cells: Bạn sẽ cần thư viện Aspose.Cells. Bạn có thể tải xuống từ[đây](https://releases.aspose.com/cells/net/).
 4. Kiến thức cơ bản về C#: Hiểu biết cơ bản về lập trình C# sẽ giúp bạn nắm bắt các bước tốt hơn. Đừng lo lắng nếu bạn không phải là chuyên gia—tôi sẽ giải thích mọi thứ!
 
 ## Nhập gói
@@ -157,7 +157,7 @@ Thao tác này sẽ lưu tệp Excel của bạn với toàn bộ biểu đồ v
 
 ## Phần kết luận
 
-Xin chúc mừng! Bạn đã học thành công cách thiết lập vùng biểu đồ bằng Aspose.Cells cho .NET. Với thư viện mạnh mẽ này, bạn có thể thao tác các tệp Excel, thêm biểu đồ và tùy chỉnh chúng để phù hợp với nhu cầu của mình. Điều này mở ra một thế giới khả năng để nâng cao khả năng trực quan hóa dữ liệu trong các ứng dụng của bạn. Nếu bạn có bất kỳ câu hỏi nào hoặc muốn nâng cao kỹ năng lập biểu đồ của mình lên một tầm cao mới, hãy thoải mái khám phá thêm!
+Xin chúc mừng! Bạn đã học thành công cách thiết lập vùng biểu đồ bằng Aspose.Cells for .NET. Với thư viện mạnh mẽ này, bạn có thể thao tác các tệp Excel, thêm biểu đồ và tùy chỉnh chúng để phù hợp với nhu cầu của mình. Điều này mở ra một thế giới khả năng để nâng cao khả năng trực quan hóa dữ liệu trong các ứng dụng của bạn. Nếu bạn có bất kỳ câu hỏi nào hoặc muốn nâng cao kỹ năng lập biểu đồ của mình lên một tầm cao mới, hãy thoải mái khám phá thêm!
 
 ## Câu hỏi thường gặp
 
@@ -174,4 +174,4 @@ Có! Aspose.Cells có các thư viện cho nhiều nền tảng khác nhau, bao 
  Bạn có thể tìm kiếm sự giúp đỡ và hỗ trợ từ cộng đồng Aspose.Cells và các diễn đàn có sẵn[đây](https://forum.aspose.com/c/cells/9).
 
 ### Tôi có thể mua giấy phép bằng cách nào?
- Bạn có thể mua giấy phép trực tiếp từ trang web Aspose[đây](https://purchase.aspose.com/buy).
+Bạn có thể mua giấy phép trực tiếp từ trang web Aspose[đây](https://purchase.aspose.com/buy).

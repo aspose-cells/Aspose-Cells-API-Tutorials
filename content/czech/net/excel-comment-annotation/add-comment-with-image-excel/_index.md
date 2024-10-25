@@ -37,12 +37,12 @@ Chcete-li začít, musíme nastavit adresář, kam můžeme ukládat naše soubo
 ```csharp
 // Cesta k adresáři dokumentů.
 string dataDir = "Your Document Directory";
-//Vytvořte adresář, pokud ještě není přítomen.
+// Vytvořte adresář, pokud ještě není přítomen.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
--  dataDir: Tato proměnná obsahuje cestu k adresáři dokumentů. Nahradit`"Your Document Directory"` se skutečnou cestou, kam chcete soubor Excel uložit.
+- dataDir: Tato proměnná obsahuje cestu k adresáři dokumentů. Nahradit`"Your Document Directory"` se skutečnou cestou, kam chcete soubor Excel uložit.
 - Directory.Exists: Zkontroluje, zda adresář již existuje.
 - Directory.CreateDirectory: Pokud adresář neexistuje, vytvoří se tímto.
 ## Krok 2: Vytvořte sešit
@@ -89,7 +89,7 @@ Nyní musíme nastavit obrazová data na tvar spojený s komentářem, který js
 // Nastavte obrazová data na tvar spojený s komentářem
 comment.CommentShape.Fill.ImageData = ms.ToArray();
 ```
--  comment.CommentShape.Fill.ImageData: Tato vlastnost umožňuje nastavit obrázek pro tvar komentáře. Převádíme`MemoryStream` do bajtového pole pomocí`ms.ToArray()`.
+- comment.CommentShape.Fill.ImageData: Tato vlastnost umožňuje nastavit obrázek pro tvar komentáře. Převádíme`MemoryStream` do bajtového pole pomocí`ms.ToArray()`.
 ## Krok 7: Uložte sešit
 Nakonec uložme náš sešit s komentářem a obrázkem.
 ```csharp
@@ -107,6 +107,6 @@ Aspose.Cells podporuje různé formáty obrázků, včetně PNG, JPEG a BMP.
 ### Potřebuji licenci k používání Aspose.Cells?
 Aspose.Cells nabízí bezplatnou zkušební verzi, ale pro plnou funkčnost si budete muset zakoupit licenci.
 ### Mohu upravit vzhled komentáře?
-Ano, můžete si přizpůsobit písmo, velikost a barvu textu komentáře a také můžete změnit tvar a velikost komentáře samotného.
-### Kde najdu další dokumentaci na Aspose.Cells?
+Ano, můžete přizpůsobit písmo, velikost a barvu textu komentáře a také můžete změnit tvar a velikost komentáře samotného.
+### Kde najdu další dokumentaci k Aspose.Cells?
  Kompletní dokumentaci najdete na Aspose.Cells[zde](https://reference.aspose.com/cells/net/).

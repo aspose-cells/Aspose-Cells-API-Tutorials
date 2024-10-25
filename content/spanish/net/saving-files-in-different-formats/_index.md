@@ -23,15 +23,15 @@ Entonces, ¿está listo para mejorar su enfoque de administración de archivos d
 ## Comprender los formatos
 
 ### 1. XLS y XLSX: 
--  El formato XLS clásico puede parecer obsoleto a veces, pero sigue siendo importante para la compatibilidad con software más antiguo. Nuestro tutorial sobre[guardar archivos XLS](./save-xls-file/)garantiza que puedas navegar por las peculiaridades de este formato sin esfuerzo. 
+- El formato XLS clásico puede parecer obsoleto a veces, pero sigue siendo importante para la compatibilidad con software más antiguo. Nuestro tutorial sobre[guardar archivos XLS](./save-xls-file/) garantiza que puedas navegar por las peculiaridades de este formato sin esfuerzo. 
 -  Por otro lado, XLSX es ahora el estándar para los archivos de Excel, ya que ofrece funciones mejoradas y un mejor rendimiento. Si desea destacarse (¡juego de palabras intencionado!) en la gestión de datos moderna, consulte nuestra guía sobre[guardar archivos XLSX](./save-xlsx-file/).
 
 ### 2. Formato PDF:
 -  Convertir sus documentos a PDF es fundamental para conservar el formato y garantizar que su contenido se vea perfecto al compartirlo. Nuestro tutorial paso a paso sobre[guardar archivos en formato PDF](./save-file-in-pdf-format/) explica cómo llevar a cabo este proceso con facilidad. Es como envolver un regalo: ¡quieres que luzca perfecto cuando lo presentes a los demás!
 
 ### 3. CSV y SpreadsheetML:
--  No nos olvidemos de los archivos CSV, que simplifican el intercambio y la manipulación de datos. Nuestra guía sobre[guardar libros de trabajo en formato CSV](./save-workbook-to-text-csv-format/) Te ayudará a dominar esta habilidad crucial. Es similar a tener un control remoto universal: conecta varios dispositivos (o en este caso, aplicaciones) sin problemas.
-- Del mismo modo, si buscas trabajar con aplicaciones .NET y necesitas una representación XML estructurada, nuestro tutorial sobre[guardar archivos en formato SpreadsheetML](./save-file-in-spreadsheetml-format/) Es su recurso de referencia.
+-  No nos olvidemos de los archivos CSV, que simplifican el intercambio y la manipulación de datos. Nuestra guía sobre[guardar libros de trabajo en formato CSV](./save-workbook-to-text-csv-format/)Te ayudará a dominar esta habilidad crucial. Es similar a tener un control remoto universal: conecta varios dispositivos (o en este caso, aplicaciones) sin problemas.
+-  Del mismo modo, si buscas trabajar con aplicaciones .NET y necesitas una representación XML estructurada, nuestro tutorial sobre[guardar archivos en formato SpreadsheetML](./save-file-in-spreadsheetml-format/) Es su recurso de referencia.
 
 ## Tutoriales para guardar archivos en diferentes formatos
 ### [Guardar archivo Excel en formato 97-2003](./save-excel-file-in-97-2003-format/)

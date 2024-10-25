@@ -15,14 +15,14 @@ Voordat we in de details van de code duiken, controleren we eerst of u alles heb
 1. Visual Studio: Zorg ervoor dat Visual Studio op uw machine is geïnstalleerd. Dit wordt uw ontwikkelomgeving.
 2.  Aspose.Cells voor .NET: Download de Aspose.Cells-bibliotheek van de[website](https://releases.aspose.com/cells/net/)U kunt ook beginnen met een gratis proefperiode om de functionaliteiten te testen.
 3. Basiskennis van C#: Kennis van C#-programmering helpt u de codefragmenten beter te begrijpen.
-4.  Excel-bestand: Zorg dat u een Excel-bestand gereed hebt voor conversie. Voor dit voorbeeld gebruiken we een bestand met de naam`Book1.xlsx`.
-Nu u de vereisten hebt geregeld, kunnen we beginnen met het leukste gedeelte: de benodigde pakketten importeren en de code schrijven!
+4. Excel-bestand: Zorg dat u een Excel-bestand gereed hebt voor conversie. Voor dit voorbeeld gebruiken we een bestand met de naam`Book1.xlsx`.
+Nu je alle vereisten hebt geregeld, kunnen we beginnen met het leukste gedeelte: de benodigde pakketten importeren en de code schrijven!
 ## Pakketten importeren
 Om te beginnen moet u de vereiste namespaces importeren in uw C#-bestand. Dit is cruciaal omdat u hiermee toegang krijgt tot de klassen en methoden die worden aangeboden door de Aspose.Cells-bibliotheek.
 ### Open uw C#-project
 Open Visual Studio en maak een nieuw project of open een bestaand project waarin u de PDF-conversiefunctie wilt implementeren.
 ### Voeg Aspose.Cells-referentie toe
-kunt de Aspose.Cells-bibliotheek toevoegen aan uw project door met de rechtermuisknop op uw project te klikken in Solution Explorer, 'NuGet-pakketten beheren' te selecteren en te zoeken naar 'Aspose.Cells'. Installeer het pakket.
+U kunt de Aspose.Cells-bibliotheek toevoegen aan uw project door met de rechtermuisknop op uw project te klikken in Solution Explorer, 'NuGet-pakketten beheren' te selecteren en te zoeken naar 'Aspose.Cells'. Installeer het pakket.
 ### Naamruimten importeren
 Voeg bovenaan uw C#-bestand de volgende naamruimten toe:
 ```csharp
@@ -45,7 +45,7 @@ string dataDir = "Your Document Directory"; // Geef uw documentdirectory op
 string inputPath = dataDir + "Book1.xlsx"; // Pad naar uw Excel-bestand
 Workbook workbook = new Workbook(inputPath); // Laad het Excel-bestand
 ```
- De`Workbook`klasse wordt gebruikt om Excel-bestanden te laden en te manipuleren. Door het invoerpad door te geven, vertelt u de toepassing met welk bestand er moet worden gewerkt.
+ De`Workbook` klasse wordt gebruikt om Excel-bestanden te laden en te manipuleren. Door het invoerpad door te geven, vertelt u de toepassing met welk bestand er moet worden gewerkt.
 ## Stap 3: Maak PDFSaveOptions
  Nu is het tijd om een exemplaar van`PdfSaveOptions`Met deze klasse kunt u verschillende opties opgeven voor het opslaan van uw werkmap als PDF, inclusief de aanmaaktijd.
 ```csharp
@@ -56,7 +56,7 @@ options.CreatedTime = DateTime.Now; // Stel de aanmaaktijd in op nu
 ## Stap 4: Sla de werkmap op als PDF
 Ten slotte slaat u de werkmap op als een PDF-bestand met de opties die u zojuist hebt gedefinieerd.
 ```csharp
-workbook.Save(dataDir + "output.pdf", options); // Opslaan als PDF
+workbook.Save(dataDir + "output.pdf", options); //Opslaan als PDF
 ```
  Deze regel code neemt de werkmap en slaat deze op in PDF-formaat op de opgegeven locatie.`options` parameter wordt doorgegeven om de aanmaaktijd op te nemen in de PDF-metagegevens.
 

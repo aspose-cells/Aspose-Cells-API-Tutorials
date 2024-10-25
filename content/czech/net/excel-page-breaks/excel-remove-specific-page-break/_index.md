@@ -2,7 +2,7 @@
 title: Excel Odebrat konkrétní konec stránky
 linktitle: Excel Odebrat konkrétní konec stránky
 second_title: Aspose.Cells for .NET API Reference
-description: V tomto komplexním podrobném průvodci se snadno naučíte, jak odstranit konkrétní konce stránek ze souborů aplikace Excel pomocí Aspose.Cells for .NET.
+description: tomto komplexním podrobném průvodci se snadno naučíte, jak odstranit konkrétní konce stránek ze souborů aplikace Excel pomocí Aspose.Cells for .NET.
 type: docs
 weight: 30
 url: /cs/net/excel-page-breaks/excel-remove-specific-page-break/

@@ -12,7 +12,7 @@ url: /ar/net/excel-ole-picture-objects/extract-ole-object-from-excel/
 ## المتطلبات الأساسية
 قبل أن نتعمق في التفاصيل الدقيقة لاستخراج كائنات OLE، هناك بعض الأشياء التي يجب أن تكون موجودة لديك:
 1. المعرفة الأساسية بلغة C#: إذا كنت على دراية بلغة C#، فأنت على الطريق الصحيح بالفعل. وإذا لم تكن كذلك، فلا تقلق! سنبقي الأمور واضحة.
-2.  تم تثبيت Aspose.Cells: ستحتاج إلى مكتبة Aspose.Cells. يمكنك تنزيلها من الموقع[هنا](https://releases.aspose.com/cells/net/).
+2. تم تثبيت Aspose.Cells: ستحتاج إلى مكتبة Aspose.Cells. يمكنك تنزيلها من الموقع[هنا](https://releases.aspose.com/cells/net/).
 3. بيئة تطوير متوافقة: تأكد من إعداد بيئة تطوير .NET، مثل Visual Studio، لتكون جاهزة للاستخدام.
 4. ملف Excel نموذجي: ستحتاج إلى ملف Excel يحتوي على كائنات OLE مضمنة للاختبار. 
 بمجرد توفر هذه المتطلبات الأساسية، يمكننا أن نبدأ رحلتنا إلى عالم استخراج كائنات OLE.
@@ -44,7 +44,7 @@ Aspose.Cells.Drawing.OleObjectCollection oles = workbook.Worksheets[0].OleObject
 for (int i = 0; i < oles.Count; i++)
 {
     Aspose.Cells.Drawing.OleObject ole = oles[i];
-    //مزيد من المنطق للتعامل مع كل كائن
+    // مزيد من المنطق للتعامل مع كل كائن
 }
 ```
 ## الخطوة 5: تحديد اسم ملف الإخراج

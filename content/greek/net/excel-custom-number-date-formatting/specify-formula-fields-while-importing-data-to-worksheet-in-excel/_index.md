@@ -177,5 +177,5 @@ Console.WriteLine("SpecifyFormulaFieldsWhileImportingDataToWorksheet executed su
  Πρόσθετα παραδείγματα και τεκμηρίωση μπορείτε να βρείτε στο[Aspose σελίδα τεκμηρίωσης](https://reference.aspose.com/cells/net/).
 
 ### Τι γίνεται αν αντιμετωπίσω προβλήματα κατά τη χρήση του Aspose;
-Μπορείτε να ζητήσετε βοήθεια από το φόρουμ υποστήριξης του Aspose[εδώ](https://forum.aspose.com/c/cells/9).
+ Μπορείτε να ζητήσετε βοήθεια από το φόρουμ υποστήριξης του Aspose[εδώ](https://forum.aspose.com/c/cells/9).
  

@@ -11,7 +11,7 @@ url: /cs/net/data-loading-and-parsing/
 
 Pokud jste někdy pociťovali frustraci při pokusu o přístup k datům v zašifrovaném souboru aplikace Excel nebo v méně známém formátu, jako je SXC, nejste sami! Mnoho vývojářů se s těmito problémy setkává při práci na aplikacích .NET. Naštěstí Aspose.Cells for .NET proces výrazně zjednodušuje. Pojďme se ponořit do několika neuvěřitelných výukových programů, které vám mohou pomoci odemknout výkon práce se soubory Excelu ve vašich aplikacích.
 
-## Otevírání šifrovaných souborů Excel
+## Otevírání šifrovaných souborů aplikace Excel
 
  Nejprve máme tutoriál[otevírání zašifrovaných souborů aplikace Excel](./opening-encrypted-excel-files/). Může to být skutečný problém, když máte citlivá data zamčená v souboru chráněném heslem. Tento průvodce vás krok za krokem provede procesem odemykání takových souborů pomocí Aspose.Cells. Dozvíte se, jak spravovat hesla a snadno přistupovat ke svým datům bez ohrožení zabezpečení. Pomocí těchto technik můžete zajistit, že vaše aplikace zůstanou robustní a zároveň uživatelsky přívětivé.
 
@@ -27,13 +27,13 @@ Dále si promluvme o[otevírání souborů pouze s daty](./opening-file-with-dat
 
  Kromě výše uvedených tutoriálů podporuje Aspose.Cells for .NET také některé méně známé formáty souborů, jako je FODS a SXC. Možná se ptáte: "Proč bych se měl zajímat o tyto formáty?" Představte si, že spolupracujete s týmem, který používá různý software – někteří se mohou rozhodnout pro formáty OpenDocument, jako je FODS. Se zapnutým tutoriálem[otevírání souborů FODS](./opening-fods-files/)vybavíte se nástroji nezbytnými pro bezproblémovou manipulaci s těmito typy souborů. Nejen, že budete mít přístup ke svým datům, ale budete také připraveni je bez námahy integrovat do svých aplikací .NET.
 
- Podobně návod na[otevírání souborů SXC](./opening-sxc-files/) zajišťuje, že vám neuniknou žádná důležitá data, která mohou vaši kolegové používat. Tento tutoriál nabízí postup krok za krokem, který dokonce obsahuje příklady kódu, což usnadňuje vývojářům všech úrovní dovedností následovat. Zvládnutím těchto formátů souborů budete moci efektivněji komunikovat a sdílet data napříč různými platformami.
+ Podobně návod na[otevírání souborů SXC](./opening-sxc-files/) zajišťuje, že vám neuniknou žádná důležitá data, která mohou vaši kolegové používat. Tento výukový program nabízí přístup krok za krokem, který dokonce obsahuje příklady kódu, což usnadňuje vývojářům všech úrovní dovedností následovat. Zvládnutím těchto formátů souborů budete moci efektivněji komunikovat a sdílet data napříč různými platformami.
 
 ## Výukové programy pro načítání a analýzu souborů
-### [Otevírání šifrovaných souborů Excel](./opening-encrypted-excel-files/)
+### [Otevírání šifrovaných souborů aplikace Excel](./opening-encrypted-excel-files/)
 V tomto podrobném průvodci se dozvíte, jak otevřít zašifrované soubory aplikace Excel pomocí Aspose.Cells for .NET. Odemkněte svá data.
 ### [Otevření souboru pouze s daty](./opening-file-with-data-only/)
-Naučte se otevírat soubory Excelu se zaměřením pouze na data pomocí Aspose.Cells for .NET. Jednoduchý průvodce pro vývojáře .NET, jak zefektivnit operace Excelu.
+Osvojte si, jak otevřít soubory aplikace Excel se zaměřením pouze na data pomocí Aspose.Cells pro .NET. Jednoduchý průvodce pro vývojáře .NET, jak zefektivnit operace Excelu.
 ### [Otevírání souborů přes cestu](./opening-files-through-path/)
 Zjistěte, jak snadno otevřít soubory Excel pomocí Aspose.Cells for .NET s tímto podrobným průvodcem krok za krokem.
 ### [Otevření souboru přes Stream](./opening-file-through-stream/)

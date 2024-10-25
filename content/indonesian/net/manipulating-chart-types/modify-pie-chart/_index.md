@@ -96,11 +96,11 @@ Workbook workbook = new Workbook(sourceDir + "sampleModifyPieChart.xlsx");
 Sekarang, mari kita bahas lembar kerja tertentu yang berisi diagram pai. Kita akan menganggap diagram pai ada di lembar kerja kedua (indeks 1):
 
 ```csharp
-//Dapatkan bagan desainer di lembar kedua.
+// Dapatkan bagan desainer di lembar kedua.
 Worksheet sheet = workbook.Worksheets[1];
 ```
 
- Dengan mengakses`Worksheets` koleksi, kita bisa mendapatkan lembar spesifik yang kita butuhkan.
+ Dengan mengakses`Worksheets`koleksi, kita bisa mendapatkan lembar spesifik yang kita butuhkan.
 
 ## Langkah 4: Dapatkan Bagannya
 

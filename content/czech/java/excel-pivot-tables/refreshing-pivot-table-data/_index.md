@@ -78,7 +78,7 @@ Obnovení dat kontingenční tabulky v Aspose.Cells for Java je jednoduchý, ale
    - Aspose.Cells for Java podporuje různé zdroje dat, včetně databází, souborů CSV a dalších. Kontingenční tabulku můžete připojit k těmto zdrojům pro dynamické aktualizace.
 
 ### Existují nějaká omezení počtu kontingenčních tabulek, které mohu aktualizovat?
-   - Počet kontingenčních tabulek, které můžete obnovit, závisí na paměti systému a výkonu zpracování. Aspose.Cells for Java je navržen tak, aby efektivně zpracovával velké datové sady.
+   - Počet kontingenčních tabulek, které můžete obnovit, závisí na paměti systému a výkonu zpracování. Aspose.Cells for Java je navržen tak, aby efektivně zpracovával velké soubory dat.
 
 ### Mohu naplánovat automatické obnovení kontingenční tabulky?
    - Ano, můžete naplánovat automatické obnovování dat pomocí plánovacích knihoven Aspose.Cells a Java. To vám umožní udržovat kontingenční tabulky aktuální bez ručního zásahu.

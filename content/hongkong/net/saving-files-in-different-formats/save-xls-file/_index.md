@@ -49,7 +49,7 @@ string dataDir = "Your Document Directory";
 確保您的電腦上存在此路徑。如果不這樣做──如你所知──我們就無法拯救那些沒有家的東西！
 ## 第 2 步：初始化工作簿
 接下來，您將載入或建立工作簿。
-1. 在同一個`Main`方法，建立一個實例`Workbook`：
+1. 在同一個`Main`方法，建立一個實例`Workbook`:
 ```csharp
 Workbook workbook = new Workbook();
 ```

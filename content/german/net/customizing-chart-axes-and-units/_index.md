@@ -22,6 +22,6 @@ Waren Sie schon einmal frustriert über die Standardachseneinstellungen in Excel
 ## Tutorials zum Anpassen von Diagrammachsen und -einheiten
 ### [Handle Automatic Units of Chart Axis like Microsoft Excel]
 (./handle-automatic-units-of-chart-axis-like-microsoft-excel/)
-Erfahren Sie, wie Sie mit Aspose.Cells für .NET wie ein Profi mit automatischen Einheiten von Diagrammachsen in Excel umgehen! Schritt-für-Schritt-Anleitung inklusive.
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET wie ein Profi mit automatischen Einheiten von Diagrammachsen in Excel umgehen! Schritt-für-Schritt-Anleitung enthalten.
 ### [Achsenbeschriftungen nach der Diagrammberechnung lesen](./read-axis-labels-after-calculating-chart/)
 Schöpfen Sie Ihr Potenzial mit Aspose.Cells für .NET. Erfahren Sie in unserer ausführlichen Schritt-für-Schritt-Anleitung, wie Sie Diagrammachsenbeschriftungen einfach lesen.

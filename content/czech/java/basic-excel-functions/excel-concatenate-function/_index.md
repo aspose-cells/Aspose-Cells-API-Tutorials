@@ -43,7 +43,7 @@ Worksheet worksheet = workbook.getWorksheets().get(0);
 
 ## Krok 4: Zadejte data
 
-Pojďme naplnit excelový list nějakými daty. Pro tento příklad vytvoříme jednoduchou tabulku s textovými hodnotami, které chceme zřetězit.
+Pojďme naplnit pracovní list aplikace Excel některými daty. Pro tento příklad vytvoříme jednoduchou tabulku s textovými hodnotami, které chceme zřetězit.
 
 ```java
 // Ukázková data

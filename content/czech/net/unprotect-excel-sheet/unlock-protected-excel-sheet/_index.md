@@ -87,7 +87,7 @@ Jakmile je list nechráněný, je třeba uložit provedené změny. Je to jako s
 ```csharp
 workbook.Save(dataDir + "output.out.xls");
 ```
- Zde ukládáte změny do nového souboru s názvem „output.out.xls“ ve stejném adresáři. Můžete jej přejmenovat, jak uznáte za vhodné, ale nezapomeňte jej zachovat`.xls`rozšíření, aby byl rozpoznatelný jako soubor aplikace Excel.
+ Zde ukládáte změny do nového souboru s názvem „output.out.xls“ ve stejném adresáři. Můžete jej přejmenovat, jak uznáte za vhodné, ale nezapomeňte jej zachovat`.xls` rozšíření, aby byl rozpoznatelný jako soubor aplikace Excel.
 
 ## Krok 6: Zpracování chyb
 
@@ -116,7 +116,7 @@ A tady to máte! Odemknutí chráněného listu Excelu pomocí Aspose.Cells pro 
 Ano! Můžete procházet každý list v sešitu a podobně je zrušit.
 
 ### Je Aspose.Cells zdarma k použití?
-Aspose.Cells nabízí bezplatnou zkušební verzi, ale pro produkční použití je vyžadována licence. Zkontrolujte jejich[nákup](https://purchase.aspose.com/buy) stránce pro více informací.
+ Aspose.Cells nabízí bezplatnou zkušební verzi, ale pro produkční použití je vyžadována licence. Zkontrolujte jejich[nákup](https://purchase.aspose.com/buy) stránce pro více informací.
 
 ### Co když neznám heslo?
 Pokud je list chráněn heslem a vy heslo nemáte, knihovna nepomůže obejít omezení, protože je v rozporu s etickými zásadami.

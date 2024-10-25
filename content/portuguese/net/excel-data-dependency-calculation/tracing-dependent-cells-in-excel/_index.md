@@ -18,7 +18,7 @@ Antes de começarmos, aqui estão algumas coisas que você deve ter para garanti
 1. Conhecimento básico de C#: como escreveremos nosso código em C#, ter um conhecimento fundamental da linguagem ajudará você a entender os conceitos rapidamente.
 2.  Biblioteca Aspose.Cells para .NET: Você precisará baixar a biblioteca Aspose.Cells para .NET. Você pode obtê-la em[Link para download](https://releases.aspose.com/cells/net/).
 3. Visual Studio: É um ambiente fantástico para escrever e testar seu código .NET. Certifique-se de tê-lo instalado corretamente em sua máquina. 
-4. Um arquivo Excel: Você precisará de um arquivo Excel que contenha algumas fórmulas para trabalhar. Usaremos um arquivo chamado`Book1.xlsx`, mas fique à vontade para usar o seu próprio!
+4.  Um arquivo Excel: Você precisará de um arquivo Excel que contenha algumas fórmulas para trabalhar. Usaremos um arquivo chamado`Book1.xlsx`mas fique à vontade para usar o seu próprio!
 
 Pronto para apertar o cinto e começar a rastrear essas células? Vamos ao que interessa!
 
@@ -84,11 +84,11 @@ Agora que temos a pasta de trabalho aberta, é hora de colocar as mãos nas cél
 Cells cells = workbook.Worksheets[0].Cells;
 ```
 
-Explicação: O código acima tem como alvo a primeira planilha (índice 0) em nossa pasta de trabalho e recupera o`Cells` coleção, com a qual trabalharemos para rastrear dependentes.
+ Explicação: O código acima tem como alvo a primeira planilha (índice 0) em nossa pasta de trabalho e recupera o`Cells` coleção, com a qual trabalharemos para rastrear dependentes.
 
 ## Etapa 4: Selecione a célula
 
- Para fins de demonstração, queremos rastrear dependentes de uma célula específica — neste caso,`B2`. Vamos codificar isso:
+Para fins de demonstração, queremos rastrear dependentes de uma célula específica — neste caso,`B2`. Vamos codificar isso:
 
 ```csharp
 Cell cell = cells["B2"];
@@ -118,11 +118,11 @@ foreach (Cell c in cell.GetDependents(true))
 Console.ReadKey();
 ```
 
-Explicação: Este loop percorre cada célula dependente em nossa matriz e imprime seu nome — bem direto! O`Console.ReadKey()` garante que a janela do console permaneça aberta até que você pressione uma tecla, dando-lhe tempo para ler a saída.
+ Explicação: Este loop percorre cada célula dependente em nossa matriz e imprime seu nome — bem direto! O`Console.ReadKey()` garante que a janela do console permaneça aberta até que você pressione uma tecla, dando-lhe tempo para ler a saída.
 
 ## Conclusão
 
-E aí está! Você rastreou com sucesso células dependentes no Excel usando o Aspose.Cells para .NET! Esta técnica simples, porém poderosa, pode melhorar significativamente sua capacidade de gerenciar planilhas complexas. Lembre-se, entender como seus dados estão conectados pode lhe poupar muitas dores de cabeça a longo prazo! Então, seja um relatório simples ou um modelo financeiro complexo, esta habilidade é inestimável.
+aí está! Você rastreou com sucesso células dependentes no Excel usando o Aspose.Cells para .NET! Esta técnica simples, porém poderosa, pode melhorar significativamente sua capacidade de gerenciar planilhas complexas. Lembre-se, entender como seus dados estão conectados pode lhe poupar muitas dores de cabeça a longo prazo! Então, seja um relatório simples ou um modelo financeiro complexo, esta habilidade é inestimável.
 
 ## Perguntas frequentes
 

@@ -2,7 +2,7 @@
 title: Táblázat lap megjelenítése
 linktitle: Táblázat lap megjelenítése
 second_title: Aspose.Cells for .NET API Reference
-description: Ebből a lépésenkénti útmutatóból megtudhatja, hogyan jelenítheti meg a táblázatok lapját az Aspose.Cells for .NET használatával. Sajátítsa el az Excel automatizálását könnyedén C# nyelven.
+description: Ebből a lépésenkénti útmutatóból megtudhatja, hogyan jelenítheti meg a táblázatok lapját az Aspose.Cells for .NET használatával. Egyszerűen sajátítsa el az Excel automatizálását C# nyelven.
 type: docs
 weight: 60
 url: /hu/net/excel-display-settings-csharp-tutorials/display-tab-of-spreadsheet/
@@ -15,7 +15,7 @@ Táblázatokkal dolgozik, és hatékony módszert keres ezek programozott kezel�
 
 Mielőtt belevágnánk a tényleges kódba, győződjünk meg arról, hogy minden rendben van. Íme, amire szüksége van:
 
-1.  Aspose.Cells for .NET Library – Győződjön meg arról, hogy telepítve van. Megteheti[a könyvtár letöltése innen](https://releases.aspose.com/cells/net/).
+1.  Aspose.Cells for .NET Library – Győződjön meg arról, hogy telepítve van. Tudod[a könyvtár letöltése innen](https://releases.aspose.com/cells/net/).
 2. .NET-keretrendszer – Győződjön meg arról, hogy a .NET-keretrendszer kompatibilis verzióját használja. Az Aspose.Cells for .NET támogatja a .NET-keretrendszer 2.0-tól kezdődő verzióit.
 3. Fejlesztői környezet – A Visual Studio vagy bármely más C# IDE tökéletes erre a feladatra.
 4. Alapvető C# ismerete – Nem kell varázslónak lenned, de az alapvető szintaxis megértése segít.
@@ -55,7 +55,7 @@ Workbook workbook = new Workbook(dataDir + "book1.xls");
 
 ## 3. lépés: Jelenítse meg a lapokat
 
-Az Excelben az alul található fülek (1. munkalap, 2. munkalap stb.) elrejthetők vagy megjeleníthetők. Az Aspose.Cells használatával egyszerűen szabályozhatja láthatóságukat. Kapcsoljuk be a lapok láthatóságát.
+Az Excelben az alul lévő fülek (1. munkalap, 2. munkalap stb.) elrejthetők vagy megjeleníthetők. Az Aspose.Cells használatával egyszerűen szabályozhatja láthatóságukat. Kapcsoljuk be a lapok láthatóságát.
 
 ```csharp
 workbook.Settings.ShowTabs = true;
@@ -65,7 +65,7 @@ workbook.Settings.ShowTabs = true;
 
 ## 4. lépés: Mentse el a módosított Excel-fájlt
 
-Ha a lapok megjelennek, mentenünk kell a frissített fájlt. Ez biztosítja, hogy a változtatások a munkafüzet újbóli megnyitásakor is fennmaradjanak.
+Miután a lapok megjelennek, el kell mentenünk a frissített fájlt. Ez biztosítja, hogy a változtatások a munkafüzet újbóli megnyitásakor is fennmaradjanak.
 
 ```csharp
 workbook.Save(dataDir + "output.xls");
@@ -75,7 +75,7 @@ workbook.Save(dataDir + "output.xls");
 
 ## Következtetés
 
-És megvan! Sikeresen megjelenítette a lapokat egy Excel-táblázatban az Aspose.Cells for .NET használatával. Ez egy egyszerű feladat, de az Excel-műveletek automatizálása során is hihetetlenül hasznos. Az Aspose.Cells teljes ellenőrzést biztosít az Excel-fájlok felett, anélkül, hogy telepítenie kellene a Microsoft Office-t. A lapok láthatóságának vezérlésétől az összetett feladatok, például a formázás és képletek kezeléséig az Aspose.Cells mindezt néhány sornyi kóddal lehetővé teszi.
+És megvan! Sikeresen megjelenítette a lapokat egy Excel-táblázatban az Aspose.Cells for .NET használatával. Ez egy egyszerű feladat, de az Excel-műveletek automatizálása során is rendkívül hasznos. Az Aspose.Cells teljes ellenőrzést biztosít az Excel-fájlok felett, anélkül, hogy telepítenie kellene a Microsoft Office-t. A lapok láthatóságának vezérlésétől az összetett feladatok, például a formázás és képletek kezeléséig az Aspose.Cells mindezt néhány sornyi kóddal lehetővé teszi.
 
 ## GYIK
 

@@ -114,7 +114,7 @@ workbook.save("InteractiveDashboard.xlsx");
 
 ### 我可以将我的交互式仪表板导出为其他格式，例如 PDF 或 HTML 吗？
 
-是的，Aspose.Cells for Java 可以将您的交互式仪表板导出为各种格式，包括 PDF 和 HTML，从而使更广泛的受众可以访问它。
+是的，Aspose.Cells for Java 可以将您的交互式仪表板导出为各种格式（包括 PDF 和 HTML），从而使更广泛的受众可以访问它。
 
 ### Aspose.Cells for Java 是否适合大型数据可视化项目？
 

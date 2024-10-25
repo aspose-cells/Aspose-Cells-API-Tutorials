@@ -71,7 +71,7 @@ Workbook workbook = new Workbook(sourceDir + "sourseSampleCountryNames.xlsx");
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
-Açıklama:`Worksheets` koleksiyon bize bireysel sayfalara erişmemizi sağlar.`[0]` Excel dosyanızdaki ilk çalışma sayfasına başvurur; bu, genellikle tek sayfalık bir dosyayla çalışırken yaygın bir uygulamadır.
+ Açıklama:`Worksheets` koleksiyon bize bireysel sayfalara erişmemizi sağlar.`[0]` Excel dosyanızdaki ilk çalışma sayfasına başvurur; bu, genellikle tek sayfalık bir dosyayla çalışırken yaygın bir uygulamadır.
 
 ## Adım 4: Otomatik Filtreyi Ayarlama
 
@@ -82,7 +82,7 @@ Açıklama:`Worksheets` koleksiyon bize bireysel sayfalara erişmemizi sağlar.`
 worksheet.AutoFilter.Range = "A1:A18";
 ```
 
-Açıklama:`AutoFilter.Range` özelliği, hangi satırların filtreleneceğini belirtmenize olanak tanır. Bu durumda, verilerimizi tuttuğu varsayılan A1 ila A18 aralığındaki satırları filtreliyoruz.
+ Açıklama:`AutoFilter.Range` özelliği, hangi satırların filtreleneceğini belirtmenize olanak tanır. Bu durumda, verilerimizi tuttuğu varsayılan A1 ila A18 aralığındaki satırları filtreliyoruz.
 
 ## Adım 5: Filtre Koşulunu Uygula
 
@@ -93,7 +93,7 @@ Bir sonraki adım filtre koşulunu tanımlamaktır. Sadece ilk sütun değerleri
 worksheet.AutoFilter.Custom(0, FilterOperatorType.BeginsWith, "Ba");
 ```
 
-Açıklama:`Custom` yöntem filtreleme mantığımızı tanımlar. İlk argüman (`0` ) ilk sütuna (A) göre filtreleme yaptığımızı ve`FilterOperatorType.BeginsWith`"Ba" ile başlayan satırları arama koşulumuzu belirtir.
+ Açıklama:`Custom` yöntem filtreleme mantığımızı tanımlar. İlk argüman (`0` ) ilk sütuna (A) göre filtreleme yaptığımızı ve`FilterOperatorType.BeginsWith` "Ba" ile başlayan satırları arama koşulumuzu belirtir.
 
 ## Adım 6: Filtreyi Yenileyin
 
@@ -115,7 +115,7 @@ Açıklama: Bu satır, görünür satırların uygulanan filtre ölçütlerine k
 workbook.Save(outputDir + "outSourseSampleCountryNames.xlsx");
 ```
 
-Açıklama:`Save` method, değiştirilen Çalışma Kitabını belirtilen çıktı yoluna geri yazar. Bu, özgün verilerinizin bozulmadan kalması için tanımlı filtrelerinizi yeni bir dosyaya yazma kapsamına girer.
+ Açıklama:`Save` method, değiştirilen Çalışma Kitabını belirtilen çıktı yoluna geri yazar. Bu, özgün verilerinizin bozulmadan kalması için tanımlı filtrelerinizi yeni bir dosyaya yazma kapsamına girer.
 
 ## Adım 8: Çıktı Onayı
 

@@ -55,7 +55,7 @@ Workbook workbook = new Workbook();
 
 ## Adım 3: Görüntü Yolunu Tanımlama
 
- Kullanmak istediğiniz görüntüye giden yolu tutacak bir dize değişkeni oluşturmanın zamanı geldi. Bizim durumumuzda, şunu kullanıyoruz:`aspose-logo.jpg`.
+Kullanmak istediğiniz görüntüye giden yolu tutacak bir dize değişkeni oluşturmanın zamanı geldi. Bizim durumumuzda, şunu kullanıyoruz:`aspose-logo.jpg`.
 
 ```csharp
 string logo_url = dataDir + "aspose-logo.jpg";

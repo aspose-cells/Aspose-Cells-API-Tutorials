@@ -109,7 +109,7 @@ Ez olyan, mintha kifelé menet bezárná az ajtót, hogy ne hagyjon nyomot maga 
 
 ## Következtetés
 
-És megvan! Sikeresen megtanulta, hogyan lehet Excel-munkalapot törölni indexe alapján a C# és az Aspose.Cells használatával. A folyamat egyszerű, ha már megérti az alapokat. Mostantól könnyedén eltávolíthatja a felesleges lapokat a munkafüzetekből, így adatai kezelhetőbbé és rendszerezettebbé válnak.
+És megvan! Sikeresen megtanulta, hogyan lehet Excel-munkalapot törölni indexe alapján a C# és az Aspose.Cells használatával. A folyamat egyszerű, ha már megszokta az alapokat. Mostantól könnyedén eltávolíthatja a felesleges lapokat a munkafüzetekből, így adatai kezelhetőbbé és rendszerezettebbé válnak.
 
 ## GYIK
 

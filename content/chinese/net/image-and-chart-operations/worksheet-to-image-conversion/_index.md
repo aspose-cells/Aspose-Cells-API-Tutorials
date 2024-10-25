@@ -12,7 +12,7 @@ url: /zh/net/image-and-chart-operations/worksheet-to-image-conversion/
 ## 先决条件
 在开始转换之前，务必确保一切设置正确。以下是您需要满足的先决条件：
 1. Visual Studio：确保您的计算机上安装了 Visual Studio。它是帮助您顺利运行 .NET 项目的 IDE。
-2. Aspose.Cells for .NET Library：您需要获取此库。您可以[点击下载](https://releases.aspose.com/cells/net/)或者从[免费试用](https://releases.aspose.com/).
+2.  Aspose.Cells for .NET Library：您需要获取此库。您可以[点击下载](https://releases.aspose.com/cells/net/)或者从[免费试用](https://releases.aspose.com/).
 3. C# 基础知识：熟悉 C# 编程将会很有益，因为我们的示例和解释将用这种语言编写。
 4. 示例 Excel 文件：为了演示，请创建或下载 Excel 文件。将其另存为`MyTestBook1.xls`在您的项目目录中。
 5. 对 .NET 项目的基本了解：了解如何创建一个简单的 .NET 项目将使这变得更容易，但不要担心 - 我们将指导您完成这些步骤。

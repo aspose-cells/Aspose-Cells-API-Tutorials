@@ -82,9 +82,9 @@ Most már készen áll a munkalap módosítására!
 
 ## 4. lépés: Nyissa meg az oldalbeállítási objektumot
 
- A margók megváltoztatásához dolgoznunk kell a`PageSetup`objektum. Ez az objektum olyan tulajdonságokat biztosít, amelyek szabályozzák az oldal elrendezését, beleértve a margókat is.
+ A margók megváltoztatásához dolgoznunk kell a`PageSetup` objektum. Ez az objektum olyan tulajdonságokat biztosít, amelyek szabályozzák az oldal elrendezését, beleértve a margókat is.
 
- Szerezd meg a`PageSetup` tulajdonság a munkalapról:
+Szerezd meg a`PageSetup` tulajdonság a munkalapról:
 
 ```csharp
 PageSetup pageSetup = worksheet.PageSetup;
@@ -134,7 +134,7 @@ Használhat ingyenes próbaverziót, de hosszabb használathoz vagy speciális f
 ### Hol találok további dokumentációt?
  Megtekintheti az Aspose.Cells dokumentációját[itt](https://reference.aspose.com/cells/net/).
 
-### Csak bizonyos oldalakhoz állíthatok be margót?
+### Beállíthatok margókat csak bizonyos oldalakhoz?
 Sajnos a margóbeállítások általában a teljes munkalapra vonatkoznak, nem pedig az egyes oldalakra.
 
 ### Milyen formátumokba menthetem az Excel fájlomat?

@@ -16,7 +16,7 @@ La gestion des fichiers Excel peut parfois ressembler à un labyrinthe, en parti
 Avant de nous plonger dans le codage proprement dit, il est essentiel de vous assurer que tout est correctement configuré. Voici ce dont vous aurez besoin :
 
 1. Visual Studio : assurez-vous que Visual Studio (toute version prenant en charge .NET) est installé sur votre ordinateur.
-2.  Aspose.Cells pour .NET : téléchargez et installez la bibliothèque Aspose.Cells depuis[Site d'Aspose](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells pour .NET : téléchargez et installez la bibliothèque Aspose.Cells depuis[Site d'Aspose](https://releases.aspose.com/cells/net/).
 3. Connaissances de base de C# : une certaine familiarité avec la programmation C# sera utile car nous travaillerons dans un contexte C#.
 4.  Exemple de fichier Excel : Pour la démonstration, préparez un exemple de fichier Excel (par exemple,`sampleChangeCellsAlignmentAndKeepExistingFormatting.xlsx`) qui contient une mise en forme initiale des cellules.
 
@@ -89,7 +89,7 @@ Cet exemple accède à la première feuille de calcul. Si vos données se trouve
 Déterminez les cellules que vous souhaitez modifier en créant une plage. Cette sélection se concentrera sur une plage spécifiée, telle que « B2:D7 ».
 
 ```csharp
-// Créer une plage de cellules.
+//Créer une plage de cellules.
 Range rng = ws.Cells.CreateRange("B2:D7");
 ```
 
@@ -122,14 +122,14 @@ StyleFlag flag = new StyleFlag();
 flag.Alignments = true;
 ```
 
- En définissant le`Alignments`propriété du StyleFlag à`true`, vous dites à Aspose.Cells d’appliquer correctement les styles d’alignement.
+ En définissant le`Alignments` propriété du StyleFlag à`true`, vous dites à Aspose.Cells d’appliquer correctement les styles d’alignement.
 
 ## Étape 7 : appliquer le style à la plage de cellules
 
 Une fois vos styles et indicateurs en place, il est temps d'appliquer ces styles à la plage de cellules :
 
 ```csharp
-// Appliquer le style à une plage de cellules.
+//Appliquer le style à une plage de cellules.
 rng.ApplyStyle(st, flag);
 ```
 

@@ -35,7 +35,7 @@ string dataDir = "Your Document Directory";
 ## ขั้นตอนที่ 2: สร้างไดเรกทอรีหากไม่มีอยู่
 ขั้นต่อไป เราต้องการให้แน่ใจว่าไดเรกทอรีนี้มีอยู่ หากไม่มี เราจะต้องสร้างขึ้นมาใหม่
 ```csharp
-//สร้างไดเร็กทอรีหากยังไม่มีอยู่
+// สร้างไดเร็กทอรีหากยังไม่มีอยู่
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -58,7 +58,7 @@ Worksheet sheet = workbook.Worksheets[0];
 ## ขั้นตอนที่ 5: กำหนดเส้นทางสำหรับภาพ
 ตอนนี้เรามาตั้งค่าเส้นทางสำหรับรูปภาพที่คุณต้องการฝังลงในไฟล์ Excel กัน
 ```csharp
-// กำหนดตัวแปรสตริงเพื่อจัดเก็บเส้นทางของรูปภาพ
+//กำหนดตัวแปรสตริงเพื่อจัดเก็บเส้นทางของรูปภาพ
 string ImageUrl = dataDir + "logo.jpg";
 ```
  ตรวจสอบให้แน่ใจว่าเส้นทางนี้สะท้อนถึงตำแหน่งของคุณอย่างถูกต้อง`logo.jpg` ไฟล์ถูกเก็บไว้แล้ว
@@ -87,7 +87,7 @@ string path = dataDir + "book1.xls";
 ```csharp
 // รับไฟล์เข้าสู่สตรีม
 fs = File.OpenRead(path);
-// กำหนดอาร์เรย์ของไบต์
+//กำหนดอาร์เรย์ของไบต์
 byte[] objectData = new Byte[fs.Length];
 // จัดเก็บไฟล์จากสตรีม
 fs.Read(objectData, 0, objectData.Length);

@@ -18,7 +18,7 @@ Voordat we beginnen, zijn hier een paar dingen die je moet weten om ervoor te zo
 1. Basiskennis van C#: Omdat we onze code in C# gaan schrijven, is een basiskennis van de taal handig om de concepten snel onder de knie te krijgen.
 2.  Aspose.Cells voor .NET-bibliotheek: U moet de Aspose.Cells voor .NET-bibliotheek downloaden. U kunt deze verkrijgen via de[Downloadlink](https://releases.aspose.com/cells/net/).
 3. Visual Studio: Het is een fantastische omgeving om uw .NET-code te schrijven en te testen. Zorg ervoor dat u het correct op uw machine hebt geïnstalleerd. 
-4. Een Excel-bestand: U hebt een Excel-bestand nodig dat een aantal formules bevat om mee te werken. We gebruiken een bestand met de naam`Book1.xlsx`, maar gebruik gerust uw eigen versie!
+4.  Een Excel-bestand: U hebt een Excel-bestand nodig dat een aantal formules bevat om mee te werken. We gebruiken een bestand met de naam`Book1.xlsx`maar gebruik gerust uw eigen versie!
 
 Klaar om je vast te maken en te beginnen met het traceren van die cellen? Laten we in de details duiken!
 
@@ -84,11 +84,11 @@ Nu we de werkmap open hebben, is het tijd om de individuele cellen te pakken. We
 Cells cells = workbook.Worksheets[0].Cells;
 ```
 
-Uitleg: De bovenstaande code richt zich op het eerste werkblad (index 0) in onze werkmap en haalt de`Cells` verzameling, waarmee we de nabestaanden kunnen opsporen.
+ Uitleg: De bovenstaande code richt zich op het eerste werkblad (index 0) in onze werkmap en haalt de`Cells` verzameling, waarmee we de nabestaanden kunnen opsporen.
 
 ## Stap 4: Selecteer de cel
 
- Voor demonstratiedoeleinden willen we de afhankelijken van een specifieke cel traceren, in dit geval`B2`Laten we dat coderen:
+Voor demonstratiedoeleinden willen we de afhankelijken van een specifieke cel traceren, in dit geval`B2`Laten we dat coderen:
 
 ```csharp
 Cell cell = cells["B2"];
@@ -118,7 +118,7 @@ foreach (Cell c in cell.GetDependents(true))
 Console.ReadKey();
 ```
 
-Uitleg: Deze lus gaat door elke afhankelijke cel in onze array en print de naam ervan - vrij eenvoudig!`Console.ReadKey()` zorgt ervoor dat het consolevenster open blijft totdat u op een toets drukt, zodat u tijd hebt om de uitvoer te lezen.
+ Uitleg: Deze lus gaat door elke afhankelijke cel in onze array en print de naam ervan - vrij eenvoudig!`Console.ReadKey()` zorgt ervoor dat het consolevenster open blijft totdat u op een toets drukt, zodat u tijd hebt om de uitvoer te lezen.
 
 ## Conclusie
 

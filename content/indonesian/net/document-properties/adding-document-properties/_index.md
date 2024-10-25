@@ -68,6 +68,6 @@ Anda dapat menyimpan string, angka, dan bahkan tanggal di properti khusus Anda.
 ### Apakah Aspose.Cells gratis untuk digunakan?
  Aspose.Cells menawarkan uji coba gratis. Untuk fitur lengkap, diperlukan pembelian. Lihat[pilihan harga di sini](https://purchase.aspose.com/buy).
 ### Di mana saya dapat menemukan dokumentasi Aspose.Cells?
- Anda dapat menemukan dokumentasi yang lengkap[Di Sini](https://reference.aspose.com/cells/net/).
+Anda dapat menemukan dokumentasi yang lengkap[Di Sini](https://reference.aspose.com/cells/net/).
 ### Bagaimana jika saya memerlukan bantuan saat menggunakan Aspose.Cells?
  Anda dapat mengunjungi[Forum dukungan Aspose](https://forum.aspose.com/c/cells/9) untuk bantuan dari komunitas dan tim dukungan mereka.

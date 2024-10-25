@@ -87,7 +87,7 @@ Chart ch = worksheet.Charts[0];
 
 ## Stap 5: Gegevensreeksen toevoegen
 
-Nu de grafiek klaar is, kunnen we er een aantal gegevensreeksen aan toevoegen om het te visualiseren.
+Nu de grafiek klaar is, kunnen we er een aantal gegevensreeksen aan toevoegen om het geheel te visualiseren.
 
 Een serie toevoegen is als kleuren toevoegen aan je schilderij. Hoe kleurrijker, hoe boeiender het kunstwerk!
 
@@ -100,7 +100,7 @@ ch.NSeries.Add("{10000, 20000, 30000, 40000}", true);
 
 Dit is waar de magie gebeurt. We stellen de formatcode in voor de nieuw toegevoegde series.
 
-Wanneer u de opmaakcode instelt, worden de ruwe getallen omgezet in iets dat beter leesbaar is. Dit is vergelijkbaar met het toepassen van een filter om uw foto te verbeteren voordat u deze aan de wereld laat zien!
+Door de opmaakcode in te stellen, worden de ruwe getallen omgezet in iets dat beter leesbaar is. Dit is vergelijkbaar met het toepassen van een filter om uw foto te verbeteren voordat u deze aan de wereld laat zien!
 
 ```csharp
 // Toegang tot de reeks en het instellen van de waarden van de opmaakcode

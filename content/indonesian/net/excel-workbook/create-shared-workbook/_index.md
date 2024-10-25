@@ -76,7 +76,7 @@ Saatnya menjadikan buku kerja Anda sebuah mahakarya kolaboratif! Dengan membagik
 //Bagikan Buku Kerja
 wb.Settings.Shared = true;
 ```
- Pengaturan`wb.Settings.Shared` ke`true`menunjukkan bahwa buku kerja ini dapat diakses oleh beberapa pengguna sekaligus. Ini seperti memberikan kunci rumah Anda kepada teman-teman — mereka dapat datang dan pergi sesuka hati!
+ Pengaturan`wb.Settings.Shared` ke`true` menunjukkan bahwa buku kerja ini dapat diakses oleh beberapa pengguna sekaligus. Ini seperti memberikan kunci rumah Anda kepada teman-teman — mereka dapat datang dan pergi sesuka hati!
 
 ## Langkah 4: Simpan Buku Kerja Bersama
 

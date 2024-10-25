@@ -38,7 +38,7 @@ Sau đây là phân tích từng bước về mã minh họa cách thêm cung tr
 Bước đầu tiên là thiết lập một thư mục nơi bạn sẽ lưu tệp Excel của mình. Điều này giúp quản lý các tệp đầu ra của bạn dễ dàng.
 ```csharp
 string dataDir = "Your Document Directory";
-//Tạo thư mục nếu thư mục đó chưa có.
+// Tạo thư mục nếu thư mục đó chưa có.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);

@@ -37,7 +37,7 @@ Herhangi bir Excel dosyası oluşturmadan önce, onu nereye kaydetmek istediğin
 ```csharp
 // Belgeler dizinine giden yol
 string dataDir = "Your Document Directory"; // İstediğiniz yolu belirtin
-//Eğer mevcut değilse dizin oluşturun.
+// Eğer mevcut değilse dizin oluşturun.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);

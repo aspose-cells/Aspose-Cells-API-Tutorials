@@ -26,7 +26,7 @@ Ora, analizziamo il processo di aggiunta di un'immagine a un foglio di lavoro Ex
 Crea directory per l'archiviazione dei documenti
 Prima di fare qualsiasi cosa con la cartella di lavoro, abbiamo bisogno di un posto dove archiviarla. Specifichiamo questa directory del documento:
 ```csharp
-string dataDir = "Your Document Directory"; // Definisci il percorso desiderato.
+string dataDir = "Your Document Directory"; //Definisci il percorso desiderato.
 ```
  In questo frammento di codice, sostituisci`"Your Document Directory"` con il percorso effettivo in cui vuoi archiviare i tuoi file Excel. Questa directory conterrà il file di output dopo aver aggiunto l'immagine.
 ## Passaggio 2: creare una directory se non esiste
@@ -81,7 +81,7 @@ Sì, puoi aggiungere vari formati di immagine ai tuoi fogli di lavoro, come PNG,
 ### Aspose.Cells supporta formati di file Excel diversi da .xls?
 Assolutamente! Aspose.Cells supporta più formati Excel, tra cui .xlsx, .xlsm e .xlsb.
 ### È disponibile una versione di prova?
- Sì! Puoi provare Aspose.Cells gratuitamente prima di effettuare un acquisto. Basta controllare[Qui](https://releases.aspose.com/).
+Sì! Puoi provare Aspose.Cells gratuitamente prima di effettuare un acquisto. Basta controllare[Qui](https://releases.aspose.com/).
 ### Cosa devo fare se la mia immagine non viene visualizzata?
 Assicurarsi che il percorso dell'immagine sia corretto e che il file immagine si trovi nella directory specificata.
 ### Posso posizionare le immagini su più celle?

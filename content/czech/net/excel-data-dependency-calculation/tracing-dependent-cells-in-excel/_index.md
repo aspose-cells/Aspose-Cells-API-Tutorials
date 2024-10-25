@@ -18,7 +18,7 @@ Než začneme, zde je několik věcí, které byste měli mít, abyste zajistili
 1. Základní znalost C#: Protože budeme náš kód psát v C#, základní znalost jazyka vám pomůže rychle pochopit koncepty.
 2.  Knihovna Aspose.Cells for .NET: Budete si muset stáhnout knihovnu Aspose.Cells for .NET. Můžete to získat z[Odkaz ke stažení](https://releases.aspose.com/cells/net/).
 3. Visual Studio: Je to fantastické prostředí pro psaní a testování kódu .NET. Ujistěte se, že je na vašem počítači správně nainstalován. 
-4. Soubor Excel: Budete potřebovat soubor Excel, který obsahuje nějaké vzorce, se kterými budete pracovat. Budeme používat soubor s názvem`Book1.xlsx`, ale klidně použijte vlastní!
+4.  Soubor Excel: Budete potřebovat soubor Excel, který obsahuje nějaké vzorce, se kterými budete pracovat. Budeme používat soubor s názvem`Book1.xlsx`ale klidně použijte vlastní!
 
 Jste připraveni se připoutat a začít ty buňky sledovat? Pusťme se do toho natvrdlého!
 
@@ -84,11 +84,11 @@ Nyní, když máme sešit otevřený, je čas dostat do rukou jednotlivé buňky
 Cells cells = workbook.Worksheets[0].Cells;
 ```
 
-Vysvětlení: Výše uvedený kód se zaměřuje na první list (index 0) v našem sešitu a načítá soubor`Cells` sbírku, se kterou budeme pracovat při sledování závislých osob.
+ Vysvětlení: Výše uvedený kód se zaměřuje na první list (index 0) v našem sešitu a načítá soubor`Cells` sbírku, se kterou budeme pracovat při sledování závislých osob.
 
 ## Krok 4: Vyberte buňku
 
- Pro demonstrační účely chceme vysledovat závislé na konkrétní buňce – v tomto případě`B2`. Pojďme to kódovat:
+Pro demonstrační účely chceme vysledovat závislé na konkrétní buňce – v tomto případě`B2`. Pojďme to kódovat:
 
 ```csharp
 Cell cell = cells["B2"];
@@ -118,11 +118,11 @@ foreach (Cell c in cell.GetDependents(true))
 Console.ReadKey();
 ```
 
-Vysvětlení: Tato smyčka prochází každou závislou buňku v našem poli a vytiskne její název – docela přímočaré! The`Console.ReadKey()` zajišťuje, že okno konzoly zůstane otevřené, dokud nestisknete klávesu, což vám poskytne čas na přečtení výstupu.
+ Vysvětlení: Tato smyčka prochází každou závislou buňku v našem poli a vytiskne její název – docela přímočaré! The`Console.ReadKey()` zajišťuje, že okno konzoly zůstane otevřené, dokud nestisknete klávesu, což vám poskytne čas na přečtení výstupu.
 
 ## Závěr
 
-A tady to máte! Úspěšně jste vysledovali závislé buňky v Excelu pomocí Aspose.Cells pro .NET! Tato jednoduchá, ale výkonná technika může výrazně zlepšit vaši schopnost spravovat složité tabulky. Pamatujte, že pochopení toho, jak jsou vaše data propojena, vám může z dlouhodobého hlediska ušetřit spoustu bolestí hlavy! Takže, ať už se jedná o jednoduchou zprávu nebo komplexní finanční model, tato dovednost je neocenitelná.
+tady to máte! Úspěšně jste vysledovali závislé buňky v Excelu pomocí Aspose.Cells pro .NET! Tato jednoduchá, ale výkonná technika může výrazně zlepšit vaši schopnost spravovat složité tabulky. Pamatujte, že pochopení toho, jak jsou vaše data propojena, vám může z dlouhodobého hlediska ušetřit spoustu bolestí hlavy! Takže, ať už se jedná o jednoduchou zprávu nebo komplexní finanční model, tato dovednost je neocenitelná.
 
 ## FAQ
 

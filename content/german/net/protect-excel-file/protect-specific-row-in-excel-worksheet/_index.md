@@ -49,7 +49,7 @@ Zuerst müssen wir ein Verzeichnis definieren, in dem wir unsere Excel-Datei spe
 // Der Pfad zum Dokumentverzeichnis.
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // Wechseln Sie zu Ihrem gewünschten Pfad.
 
-//Erstellen Sie ein Verzeichnis, falls es noch nicht vorhanden ist.
+// Erstellen Sie ein Verzeichnis, falls es noch nicht vorhanden ist.
 bool isExists = System.IO.Directory.Exists(dataDir);
 if (!isExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -88,7 +88,7 @@ StyleFlag flag;
 for (int i = 0; i <= 255; i++)
 {
     style = sheet.Cells.Columns[(byte)i].Style;
-    style.IsLocked = false; // Spalte „Entsperren“
+    style.IsLocked = false; //Spalte „Entsperren“
     flag = new StyleFlag();
     flag.Locked = true; // Setzen Sie das Flag zum Sperren auf „True“.
     sheet.Cells.Columns[(byte)i].ApplyStyle(style, flag); // Anwenden des Stils

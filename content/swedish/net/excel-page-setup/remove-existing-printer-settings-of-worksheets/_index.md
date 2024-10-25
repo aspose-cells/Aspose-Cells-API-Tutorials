@@ -9,7 +9,7 @@ url: /sv/net/excel-page-setup/remove-existing-printer-settings-of-worksheets/
 ---
 ## Introduktion
 
-Oavsett om du utvecklar applikationer som manipulerar Excel-filer eller bara pysslar för personligt bruk, är det viktigt att förstå hur man hanterar kalkylbladsinställningar. Varför? Eftersom fel skrivarkonfiguration kan betyda skillnaden mellan en välutskriven rapport och ett rörigt tryckfel. Dessutom, i en tid av dynamisk dokumenthantering, kan möjligheten att enkelt ta bort dessa inställningar spara tid och resurser.
+Oavsett om du utvecklar applikationer som manipulerar Excel-filer eller bara pysslar för personligt bruk, är det avgörande att förstå hur man hanterar kalkylbladsinställningar. Varför? Eftersom fel skrivarkonfiguration kan betyda skillnaden mellan en välutskriven rapport och ett rörigt tryckfel. Dessutom, i en tid av dynamisk dokumenthantering, kan möjligheten att enkelt ta bort dessa inställningar spara tid och resurser.
 
 ## Förutsättningar
 

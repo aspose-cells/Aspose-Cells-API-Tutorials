@@ -68,7 +68,7 @@ ExportTableOptions opts = new ExportTableOptions();
 opts.ExportColumnName = true;
 opts.RenameStrategy = RenameStrategy.Letter;
 ```
- Beállítás által`ExportColumnName` ha igaz, akkor azt jelezzük, hogy az oszlopneveket bele akarjuk foglalni az exportált adatokba. Vel`RenameStrategy.Letter`, elmondjuk az Aspose-nak, hogyan kezelje a duplikátumokat betűk hozzáfűzésével (pl. People, People_1, People_2 stb.).
+ Beállítással`ExportColumnName` ha igaz, akkor azt jelezzük, hogy az oszlopneveket bele akarjuk foglalni az exportált adatokba. Vel`RenameStrategy.Letter`, elmondjuk az Aspose-nak, hogyan kezelje a duplikátumokat betűk hozzáfűzésével (pl. People, People_1, People_2 stb.).
 ## 6. lépés: Exportálja az adatokat a DataTable-be
  Most végezzük el az adatok tényleges exportálását a`ExportDataTable` módszer:
 ```csharp
@@ -85,7 +85,7 @@ for (int i = 0; i < dataTable.Columns.Count; i++)
 ```
  Ez a hurok az oszlopokon fut keresztül`DataTable`és minden oszlop nevét kiírja a konzolra. Nagy megelégedés, hogy tégelyeinket sorba rendezve, feliratozva és használatra készen látjuk.
 ## Következtetés
-És megvan! Ha követi ezeket a lépéseket, lehetősége van arra, hogy automatikusan átnevezze az ismétlődő oszlopokat, amikor az Aspose.Cells for .NET segítségével exportálja az Excel-adatokat. Ezzel nem csak időt takarít meg, hanem azt is biztosítja, hogy adatai rendszerezettek és érthetőek maradjanak. Hát nem nagyszerű, ha a technológia megkönnyíti az életünket? Ha kérdésed van az út során, nyugodtan írd meg kommentben.
+És megvan! Ha követi ezeket a lépéseket, lehetősége nyílik arra, hogy automatikusan átnevezze az ismétlődő oszlopokat, amikor az Aspose.Cells for .NET használatával exportálja az Excel-adatokat. Ezzel nem csak időt takarít meg, hanem azt is biztosítja, hogy adatai rendszerezettek és érthetőek maradjanak. Hát nem nagyszerű, ha a technológia megkönnyíti az életünket? Ha kérdésed van az út során, nyugodtan írd meg kommentben.
 ## GYIK
 ### Mi az Aspose.Cells?
 Az Aspose.Cells egy hatékony .NET-könyvtár, amely lehetővé teszi a fejlesztők számára Excel-fájlok programozott létrehozását, kezelését és konvertálását.
@@ -96,4 +96,4 @@ Az Aspose.Cells egy hatékony .NET-könyvtár, amely lehetővé teszi a fejleszt
 ### Hol kaphatok segítséget, ha problémákba ütközöm?
  Az Aspose közösségi fórum nagyszerű hibaelhárítási és tanácsi forrás:[Aspose támogatás](https://forum.aspose.com/c/cells/9).
 ### Van ideiglenes licenc az Aspose.Cells számára?
- Igen! Ideiglenes jogosítványt igényelhet[itt](https://purchase.aspose.com/temporary-license/) hogy minden funkciót korlátozás nélkül kipróbálhasson.
+Igen! Ideiglenes jogosítványt igényelhet[itt](https://purchase.aspose.com/temporary-license/) hogy minden funkciót korlátozás nélkül kipróbálhasson.

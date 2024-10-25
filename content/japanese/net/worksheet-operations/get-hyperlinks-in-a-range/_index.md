@@ -35,7 +35,7 @@ using Aspose.Cells;
 //ドキュメント ディレクトリへのパス。
 string sourceDir = "Your Document Directory"; //これをExcelファイルのパスに変更します
 //出力ディレクトリ
-string outputDir = RunExamples.Get_OutputDirectory(); //このメソッドが有効な出力パスを提供することを確認する
+string outputDir = "Your Document Directory"; //このメソッドが有効な出力パスを提供することを確認する
 ```
 このスニペットでは、`"Your Document Directory"`Excel ファイルを含むディレクトリへの実際のパスを入力します。これは、パフォーマンスの前にステージをセットアップするようなものです。つまり、資料がどこにあるかを知っておくことは非常に重要です。
 ## ステップ2: ワークブックオブジェクトをインスタンス化する

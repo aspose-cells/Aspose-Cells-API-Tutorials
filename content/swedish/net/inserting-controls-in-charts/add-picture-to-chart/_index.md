@@ -16,7 +16,7 @@ url: /sv/net/inserting-controls-in-charts/add-picture-to-chart/
 Innan vi hoppar in i det snälla med kodning, finns det några förutsättningar du måste ha för att följa smidigt:
 
 - Visual Studio: Det är här du kommer att skriva och köra din .NET-kod. Se till att du har den installerad.
-- Aspose.Cells för .NET: Du behöver det här biblioteket för att arbeta med Excel-filer. Du kan[ladda ner den här](https://releases.aspose.com/cells/net/).
+-  Aspose.Cells för .NET: Du behöver det här biblioteket för att arbeta med Excel-filer. Du kan[ladda ner den här](https://releases.aspose.com/cells/net/).
 - Grundläggande förståelse för C#: Även om jag ska guida dig genom koden, kommer det att göra saker tydligare om du har grepp om C#s grunder.
 
 ### Installationssteg
@@ -55,7 +55,7 @@ string sourceDir = "Your Document Directory/";
 string outputDir = "Your Output Directory/";
 ```
 
- Ersätta`Your Document Directory` och`Your Output Directory` med faktiska sökvägar på din dator. 
+ Ersätta`Your Document Directory` och`Your Output Directory`med faktiska sökvägar på din dator. 
 
 ## Steg 2: Ladda den befintliga arbetsboken
 
@@ -84,7 +84,7 @@ Se till att du har bilden sparad i den angivna katalogen.
 Låt oss nu specificera vilket diagram vi ska lägga till vår bild på. I det här exemplet riktar vi oss mot det första diagrammet i det första kalkylbladet.
 
 ```csharp
-//Få designerdiagrammet i det andra bladet.
+// Få designerdiagrammet i det andra bladet.
 Worksheet sheet = workbook.Worksheets[0];
 Aspose.Cells.Charts.Chart chart = sheet.Charts[0];
 ```
@@ -100,7 +100,7 @@ Med diagrammet valt är det dags att lägga till bilden!
 Aspose.Cells.Drawing.Picture pic0 = chart.Shapes.AddPictureInChart(50, 50, stream, 200, 200);
 ```
 
- Här,`50` och`50` är X- och Y-koordinaterna där bilden kommer att placeras, och`200` är bildens bredd och höjd.
+ Här,`50` och`50` är X- och Y-koordinaterna där bilden kommer att placeras, och`200`är bildens bredd och höjd.
 
 ## Steg 6: Anpassa bildens linjeformat
 
@@ -140,7 +140,7 @@ Console.WriteLine("AddingPictureInChart executed successfully.");
 
 ## Slutsats
 
-I den här handledningen har vi utforskat hur du kan injicera lite personlighet i dina Excel-diagram genom att lägga till bilder med Aspose.Cells för .NET. Med bara några enkla steg kan du lyfta dina presentationer från vardagliga till minnesvärda. Så vad väntar du på? Ge det en chans och låt dina diagram lysa!
+den här handledningen har vi utforskat hur du kan injicera lite personlighet i dina Excel-diagram genom att lägga till bilder med Aspose.Cells för .NET. Med bara några enkla steg kan du lyfta dina presentationer från vardagliga till minnesvärda. Så vad väntar du på? Ge det en chans och låt dina diagram lysa!
 
 ## FAQ's
 

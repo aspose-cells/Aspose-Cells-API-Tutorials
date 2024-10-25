@@ -43,7 +43,7 @@ Rozłóżmy na czynniki pierwsze fragment kodu, który nam dostarczyłeś. Ten s
 
 ## Krok 1: Skonfiguruj katalogi robocze
 
-W tym kroku zdefiniujemy, gdzie znajdują się nasze pliki źródłowe i wyjściowe. Dzięki temu Aspose będzie wiedział, gdzie szukać plików Excel.
+tym kroku zdefiniujemy, gdzie znajdują się nasze pliki źródłowe i wyjściowe. Dzięki temu Aspose będzie wiedział, gdzie szukać plików Excel.
 
 ```csharp
 // Katalogi robocze
@@ -87,7 +87,7 @@ foreach (PowerQueryFormula formula in mashupData.PowerQueryFormulas)
 ```
 
 -  Przechodzimy przez każdy`PowerQueryFormula` W`mashupData`.
--  W ramach tej pętli zagłębiamy się w każdy`PowerQueryFormulaItem`.
+-  ramach tej pętli zagłębiamy się w każdy`PowerQueryFormulaItem`.
 - Sprawdzamy, czy nazwa elementu pasuje do „Źródła”. Jeśli tak, aktualizujemy jej wartość, aby połączyć ją z naszym nowym plikiem źródłowym.
 
 Można to porównać do znalezienia właściwej strony w podręczniku, a następnie wprowadzenia niezbędnych aktualizacji — to prosty i skrupulatny proces.
@@ -101,7 +101,7 @@ Po wprowadzeniu aktualizacji nadszedł czas na zapisanie zmian.
 workbook.Save(outputDir + "SamplePowerQueryFormula_out.xlsx");
 Console.WriteLine("UpdatePowerQueryFormulaItem executed successfully.");
 ```
- Ten`Save`Metoda zapisuje zaktualizowany skoroszyt do określonego katalogu wyjściowego. To tak, jakby zapieczętować swoje edycje w nowej wersji podręcznika, gotowej do użycia przez innych!
+ Ten`Save` Metoda zapisuje zaktualizowany skoroszyt do określonego katalogu wyjściowego. To tak, jakby zapieczętować swoje edycje w nowej wersji podręcznika, gotowej do użycia przez innych!
 
 ## Wniosek
 
@@ -122,4 +122,4 @@ Za pomocą Aspose.Cells można pracować z plikami .xlsx, .xls, .xlsm i wieloma 
  Tak, możesz pobrać bezpłatną wersję próbną ze strony[Strona wydania Aspose Cells](https://releases.aspose.com/).
 
 ### Gdzie mogę uzyskać pomoc techniczną dotyczącą Aspose.Cells?
- Dostęp do pomocy technicznej można uzyskać za pośrednictwem[Forum Aspose](https://forum.aspose.com/c/cells/9)gdzie możesz zadać pytania i znaleźć odpowiedzi od społeczności i zespołu Aspose.
+ Dostęp do pomocy technicznej można uzyskać za pośrednictwem[Forum Aspose](https://forum.aspose.com/c/cells/9), gdzie możesz zadać pytania i znaleźć odpowiedzi od społeczności i zespołu Aspose.

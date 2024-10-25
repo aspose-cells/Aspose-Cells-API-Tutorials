@@ -84,4 +84,4 @@ Aspose.Cells for .NET, geliştiricilerin .NET uygulamalarında Excel belgeleri o
 ### Aspose.Cells ile ilgili desteği nereden alabilirim?
  Yardım isteyebilirsiniz[Aspose Destek Forumu](https://forum.aspose.com/c/cells/9).
 ### Aspose.Cells için geçici lisansı nasıl alabilirim?
- Başvuruda bulunabilirsiniz[geçici lisans](https://purchase.aspose.com/temporary-license/)Değerlendirme amaçlı ihtiyacınız varsa.
+ Başvuruda bulunabilirsiniz[geçici lisans](https://purchase.aspose.com/temporary-license/) Değerlendirme amaçlı ihtiyacınız varsa.

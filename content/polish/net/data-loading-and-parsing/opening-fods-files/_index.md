@@ -46,7 +46,7 @@ string sourceDir = "Your Document Directory";
 ```
  Pamiętaj o wymianie`"YourFilePath\\"` ze ścieżką, w której przechowywany jest plik FODS.
 ## Krok 2: Utwórz obiekt skoroszytu
- Teraz utworzysz`Workbook` obiekt, który pomoże nam pracować z plikiem FODS. Dodaj następujący kod w swoim`Main` metoda:
+ Teraz utworzysz`Workbook`obiekt, który pomoże nam pracować z plikiem FODS. Dodaj następujący kod w swoim`Main` metoda:
 ```csharp
 Workbook workbook = new Workbook(sourceDir + "SampleFods.fods");
 ```
@@ -59,7 +59,7 @@ Console.WriteLine("FODS file opened successfully!");
 
  Spowoduje to zapisanie zmian w nowym pliku o nazwie`ModifiedFods.fods`. Jeśli wolisz, możesz także nadpisać oryginalny plik.
 ## Wniosek
-masz to! Właśnie nauczyłeś się, jak otworzyć plik FODS za pomocą Aspose.Cells dla .NET, wraz z niezbędnymi krokami, aby skutecznie obsługiwać i manipulować danymi arkusza kalkulacyjnego. Otwiera to drzwi do licznych możliwości, czy to do analizy danych, czy do tworzenia aplikacji.
+I masz to! Właśnie nauczyłeś się, jak otworzyć plik FODS za pomocą Aspose.Cells dla .NET, wraz z niezbędnymi krokami, aby skutecznie obsługiwać i manipulować danymi arkusza kalkulacyjnego. Otwiera to drzwi do licznych możliwości, czy to do analizy danych, czy do tworzenia aplikacji.
 Praca z kodem projektu jest zawsze satysfakcjonująca i zachęcam do dalszej zabawy z biblioteką Aspose.Cells. Możesz zrobić o wiele więcej, w tym tworzyć nowe pliki, formatować komórki i wiele więcej!
 ## Najczęściej zadawane pytania
 ### Do jakich formatów mogę przekonwertować FODS za pomocą Aspose.Cells?

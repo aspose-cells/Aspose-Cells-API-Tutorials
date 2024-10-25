@@ -14,7 +14,7 @@ Excel 보고서나 문서에 특정 글꼴 요구 사항을 추가하고 싶으�
 ### .NET Framework 또는 .NET Core
 컴퓨터에 .NET Framework 또는 .NET Core가 설치되어 있는지 확인하세요. 이 라이브러리는 둘 다 잘 작동합니다.
 ### Aspose.Cells 설치
-Aspose.Cells 라이브러리를 다운로드해야 합니다.[여기에서 다운로드하세요](https://releases.aspose.com/cells/net/) NuGet 패키지 설치에 익숙하지 않은 경우 다음을 따르세요.[이 가이드](https://www.nuget.org/).
+ Aspose.Cells 라이브러리를 다운로드해야 합니다.[여기에서 다운로드하세요](https://releases.aspose.com/cells/net/) NuGet 패키지 설치에 익숙하지 않은 경우 다음을 따르세요.[이 가이드](https://www.nuget.org/).
 ### 통합 개발 환경(IDE)
 Visual Studio나 JetBrains Rider와 같은 IDE를 사용하면 프로젝트의 코딩, 디버깅 및 실행이 간소화될 수 있습니다.
 ### C#의 기본 지식

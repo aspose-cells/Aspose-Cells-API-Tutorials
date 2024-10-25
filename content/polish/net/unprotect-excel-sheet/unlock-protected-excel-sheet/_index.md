@@ -87,7 +87,7 @@ Gdy arkusz kalkulacyjny jest już niechroniony, musisz zapisać wprowadzone zmia
 ```csharp
 workbook.Save(dataDir + "output.out.xls");
 ```
- Tutaj zapisujesz zmiany w nowym pliku o nazwie „output.out.xls” w tym samym katalogu. Możesz zmienić jego nazwę, jak chcesz, ale pamiętaj, aby zachować`.xls`rozszerzenie, aby zachować rozpoznawalność pliku jako pliku Excel.
+ Tutaj zapisujesz zmiany w nowym pliku o nazwie „output.out.xls” w tym samym katalogu. Możesz zmienić jego nazwę, jak chcesz, ale pamiętaj, aby zachować`.xls` rozszerzenie, aby zachować rozpoznawalność pliku jako pliku Excel.
 
 ## Krok 6: Obsługa błędów
 
@@ -116,7 +116,7 @@ I masz to! Odblokowanie chronionego arkusza Excela za pomocą Aspose.Cells dla .
 Tak! Możesz przejść przez każdy arkusz w skoroszycie i usunąć ich ochronę w podobny sposób.
 
 ### Czy korzystanie z Aspose.Cells jest bezpłatne?
-Aspose.Cells oferuje bezpłatną wersję próbną, ale do użytku produkcyjnego wymagana jest licencja. Sprawdź ich[zakup](https://purchase.aspose.com/buy) Więcej informacji znajdziesz na stronie.
+ Aspose.Cells oferuje bezpłatną wersję próbną, ale do użytku produkcyjnego wymagana jest licencja. Sprawdź ich[zakup](https://purchase.aspose.com/buy) Więcej informacji znajdziesz na stronie.
 
 ### A co jeśli nie znam hasła?
 Jeśli arkusz jest chroniony hasłem, a Ty go nie znasz, biblioteka nie pomoże Ci ominąć ograniczeń, ponieważ jest to sprzeczne z zasadami etycznymi.
