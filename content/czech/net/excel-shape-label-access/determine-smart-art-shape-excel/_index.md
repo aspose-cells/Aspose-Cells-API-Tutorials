@@ -9,11 +9,11 @@ url: /cs/net/excel-shape-label-access/determine-smart-art-shape-excel/
 ---
 ## Zavedení
 Stalo se vám někdy, že jste se potýkali s tím, jak určit, zda konkrétní tvar ve vašem listu Excelu je grafikou Smart Art? Pokud ano, pak v tom nejste sami! Smart Art může skutečně oživit list Excelu a poskytnout jak vizuální přitažlivost, tak efektivní prezentaci dat. Rozpoznání těchto grafik pomocí programování však může být matoucí. To je místo, kde vstupuje Aspose.Cells for .NET, což vám umožní snadno zkontrolovat, zda je tvar Smart Art. 
-V tomto tutoriálu vás provedeme kroky potřebnými k určení, zda je tvar Smart Art v souboru aplikace Excel pomocí Aspose.Cells for .NET. Na konci této příručky budete vybaveni znalostmi, které vám umožní zjednodušit své úkoly v Excelu pomocí této výkonné knihovny.
+tomto tutoriálu vás provedeme kroky potřebnými k určení, zda je tvar Smart Art v souboru aplikace Excel pomocí Aspose.Cells for .NET. Na konci této příručky budete vybaveni znalostmi, které vám umožní zjednodušit své úkoly v Excelu pomocí této výkonné knihovny.
 ## Předpoklady
 Než se ponoříme do technických podrobností, pojďme se podívat na to, co byste měli mít na místě, abyste se řídili tímto návodem:
 1. Visual Studio: Zde budeme psát náš kód. Ujistěte se, že máte verzi kompatibilní s .NET Framework nebo .NET Core.
-2. Aspose.Cells for .NET: Tuto knihovnu musíte mít nainstalovanou. Můžete si jej stáhnout z[Aspose webové stránky](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells for .NET: Tuto knihovnu musíte mít nainstalovanou. Můžete si jej stáhnout z[Aspose webové stránky](https://releases.aspose.com/cells/net/).
 3. Základní znalosti programování: Znalost jazyka C# a porozumění pojmům, jako jsou třídy a metody, tento proces usnadní.
 4. Ukázkový soubor aplikace Excel: K testování budete také potřebovat ukázkový soubor aplikace Excel obsahující tvary a Smart Art.
 Po zaškrtnutí těchto předpokladů jste připraveni skočit do kódu!
@@ -46,7 +46,7 @@ Nejprve budete chtít určit umístění souboru Excel.
 // Zdrojový adresář
 string sourceDir = "Your Document Directory";
 ```
- Nahradit`"Your Document Directory"` s cestou, kde jsi`sampleSmartArtShape.xlsx` soubor se nachází. Zde bude aplikace hledat soubor aplikace Excel, který obsahuje tvary, které chcete zkontrolovat.
+ Nahradit`"Your Document Directory"` s cestou, kde jsi`sampleSmartArtShape.xlsx`soubor se nachází. Zde bude aplikace hledat soubor aplikace Excel, který obsahuje tvary, které chcete zkontrolovat.
 ## Krok 2: Načtěte sešit aplikace Excel
  Dále načteme soubor Excel do Aspose.Cells`Workbook` třída.
 ```csharp
@@ -60,7 +60,7 @@ Po načtení sešitu budeme potřebovat přístup ke konkrétnímu listu obsahuj
 // Přístup k prvnímu listu
 Worksheet ws = wb.Worksheets[0];
 ```
- Soubory aplikace Excel mohou obsahovat více listů. Indexováním pomocí`[0]`přistupujeme k prvnímu listu v našem sešitu. 
+ Soubory aplikace Excel mohou obsahovat více listů. Indexováním pomocí`[0]`, přistupujeme k prvnímu listu v našem sešitu. 
 ## Krok 4: Přístup k Shape
 Nyní načteme konkrétní tvar, který chceme zkontrolovat.
 ```csharp
@@ -83,7 +83,7 @@ Smart Art je funkce v Excelu, která uživatelům umožňuje vytvářet vizuáln
 ### Mohu upravit tvary Smart Art pomocí Aspose.Cells?
 Ano, s tvary Smart Art můžete manipulovat programově, včetně změny stylů a detailů.
 ### Je Aspose.Cells zdarma k použití?
- I když je k dispozici zkušební verze, Aspose.Cells je placená knihovna. Můžete si zakoupit plnou verzi[zde](https://purchase.aspose.com/buy).
+ když je k dispozici zkušební verze, Aspose.Cells je placená knihovna. Můžete si zakoupit plnou verzi[zde](https://purchase.aspose.com/buy).
 ### Jak mohu získat podporu, pokud narazím na problémy?
  Můžete se obrátit na pomoc na[Aspose Support Forum](https://forum.aspose.com/c/cells/9).
 ### Kde najdu další dokumentaci k Aspose.Cells?

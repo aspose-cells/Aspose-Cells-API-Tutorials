@@ -14,7 +14,7 @@ Innan vi går in i det snälla, finns det några saker du måste ställa in inna
 ### .NET Framework eller .NET Core
 Se till att du har .NET Framework eller .NET Core installerat på din dator. Det här biblioteket fungerar bra med båda.
 ### Installation av Aspose.Cells
-Du måste ladda ner Aspose.Cells-biblioteket. Du kan[ladda ner den härifrån](https://releases.aspose.com/cells/net/) . Om du inte är bekant med att installera NuGet-paket, följ[denna guide](https://www.nuget.org/).
+ Du måste ladda ner Aspose.Cells-biblioteket. Du kan[ladda ner den härifrån](https://releases.aspose.com/cells/net/) . Om du inte är bekant med att installera NuGet-paket, följ[denna guide](https://www.nuget.org/).
 ### Integrated Development Environment (IDE)
 Att ha en IDE som Visual Studio eller JetBrains Rider kan förenkla kodning, felsökning och körning av ditt projekt.
 ### Grundläggande kunskaper i C#
@@ -74,7 +74,7 @@ Nu kommer den spännande delen! Vi kommer att ställa in både latinska och Fjä
 tb.TextOptions.LatinName = "Comic Sans MS"; // Detta är vårt valda latinska teckensnitt.
 tb.TextOptions.FarEastName = "KaiTi"; // Detta är vårt önskade typsnitt i Fjärran Östern.
 ```
-## Steg 7: Spara Excel-filen
+## Steg 7: Spara utdata Excel-filen
 Till sist, låt oss spara vår arbetsbok! Detta steg avslutar vår uppgift och säkerställer att allt hårt arbete vi har gjort sparas ordentligt. 
 ```csharp
 // Spara den utgående Excel-filen.

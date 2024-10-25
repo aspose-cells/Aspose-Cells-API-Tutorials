@@ -87,7 +87,7 @@ När kalkylbladet är oskyddat måste du spara ändringarna du har gjort. Det ä
 ```csharp
 workbook.Save(dataDir + "output.out.xls");
 ```
- Här sparar du ändringarna till en ny fil med namnet "output.out.xls" i samma katalog. Du kan byta namn på den som du vill, men se till att behålla den`.xls`förlängning för att hålla den igenkännbar som en Excel-fil.
+ Här sparar du ändringarna till en ny fil med namnet "output.out.xls" i samma katalog. Du kan byta namn på den som du vill, men se till att behålla den`.xls` förlängning för att hålla den igenkännbar som en Excel-fil.
 
 ## Steg 6: Felhantering
 
@@ -116,7 +116,7 @@ Och där har du det! Att låsa upp ett skyddat Excel-ark med Aspose.Cells för .
 Ja! Du kan gå igenom varje ark i arbetsboken och ta bort skyddet på samma sätt.
 
 ### Är Aspose.Cells gratis att använda?
-Aspose.Cells erbjuder en gratis provperiod, men en licens krävs för produktionsanvändning. Kolla deras[köpa](https://purchase.aspose.com/buy) sida för mer information.
+ Aspose.Cells erbjuder en gratis provperiod, men en licens krävs för produktionsanvändning. Kolla deras[köpa](https://purchase.aspose.com/buy) sida för mer information.
 
 ### Vad händer om jag inte kan lösenordet?
 Om ett ark är lösenordsskyddat och du inte har lösenordet, hjälper biblioteket inte att kringgå begränsningar eftersom det strider mot etiska riktlinjer.

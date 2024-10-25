@@ -18,7 +18,7 @@ url: /zh-hant/net/excel-worksheet-csharp-tutorials/add-excel-worksheet-to-existi
 1.  Visual Studio：確保您的電腦上安裝了 Visual Studio。如果您還沒有，您可以從以下位置下載[這裡](https://visualstudio.microsoft.com/vs/).
 2. Aspose.Cells for .NET：您需要將 Aspose.Cells for .NET 整合到您的專案中。您可以從[下載連結](https://releases.aspose.com/cells/net/)。該庫對於處理 Excel 文件至關重要，並支援廣泛的功能。
 3. 對 C# 的基本了解：熟悉 C# 程式語言將幫助您更輕鬆地進行操作。不用擔心;我們將逐步指導您完成整個過程！
-4. 您的文件目錄：確保您的電腦上有一個可以儲存本教學的 Excel 檔案的資料夾。 
+4. 您的文件目錄：確保您的電腦上有一個可以儲存本教學課程的 Excel 檔案的資料夾。 
 
 清單上的所有內容都掌握了嗎？偉大的！現在讓我們導入必要的套件。
 
@@ -83,7 +83,7 @@ int i = workbook.Worksheets.Add();
 建立新工作表後，取得對其的參考非常重要。這樣，我們就可以自訂它的屬性，例如工作表的名稱。
 
 ```csharp
-//透過傳遞工作表索引來取得新新增工作表的引用
+//透過傳遞工作表索引來取得新新增的工作表的引用
 Worksheet worksheet = workbook.Worksheets[i];
 ```
 

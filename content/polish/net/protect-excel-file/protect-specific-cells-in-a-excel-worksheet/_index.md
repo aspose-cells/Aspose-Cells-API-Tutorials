@@ -41,7 +41,7 @@ Pierwszą rzeczą, którą chcemy zrobić, jest zdefiniowanie, gdzie będą prze
 ```csharp
 // Ścieżka do katalogu dokumentów.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-//Utwórz katalog, jeśli jeszcze go nie ma.
+// Utwórz katalog, jeśli jeszcze go nie ma.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);

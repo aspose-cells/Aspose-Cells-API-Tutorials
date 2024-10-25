@@ -161,7 +161,7 @@ flag.QuotePrefix = true;
 rng.ApplyStyle(st, flag);
 ```
 
- Pada putaran ini, kami akan menetapkan`flag.QuotePrefix = true`, yang berarti kita ingin memperbarui awalan kutipan sel.
+Pada putaran ini, kami akan menetapkan`flag.QuotePrefix = true`, yang berarti kita ingin memperbarui awalan kutipan sel.
 
 ## Langkah 9: Pemeriksaan Akhir Awalan Kutipan
 

@@ -13,7 +13,7 @@ Bekerja dengan file Excel terkadang terasa memberatkan, terutama saat mencoba me
 
 ## Ekspor Properti Kustom ke PDF dari Excel
 
-Salah satu fitur Aspose.Cells for .NET yang paling praktis adalah kemampuan untuk mengekspor properti kustom dari file Excel Anda langsung ke PDF. Pernahkah Anda perlu membagikan laporan tetapi ingin menjaga metadata tertentu tetap utuh? Tutorial ini memandu Anda melalui langkah-langkah sederhana tetapi efektif untuk mencapainya! Pada akhirnya, Anda akan mengekspor data Anda seperti seorang profesional—menggabungkan laporan sambil menjaga semuanya tetap rapi dan teratur. Plus, siapa yang tidak menyukai PDF yang terorganisasi dengan baik? Ingin mempelajari lebih lanjut? Lihat[tutorial lengkapnya di sini](./export-custom-properties-to-pdf/).
+Salah satu fitur Aspose.Cells for .NET yang paling praktis adalah kemampuan untuk mengekspor properti kustom dari file Excel Anda langsung ke PDF. Pernahkah Anda perlu membagikan laporan tetapi ingin menjaga metadata tertentu tetap utuh? Tutorial ini memandu Anda melalui langkah-langkah sederhana tetapi efektif untuk mencapai hal itu! Pada akhirnya, Anda akan mengekspor data Anda seperti seorang profesional—menggabungkan laporan sambil menjaga semuanya tetap rapi dan teratur. Plus, siapa yang tidak menyukai PDF yang terorganisasi dengan baik? Ingin mempelajari lebih lanjut? Lihat[tutorial lengkapnya di sini](./export-custom-properties-to-pdf/).
 
 ## Tetapkan Pemisah untuk Baris Kosong di Excel
 

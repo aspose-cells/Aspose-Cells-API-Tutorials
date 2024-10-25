@@ -43,7 +43,7 @@ Cells cells = workbook.Worksheets[0].Cells;
 ```
  Detta hämtar cellerna från det första kalkylbladet (index 0) i vår arbetsbok. De`cells` objekt låter oss interagera med de enskilda cellerna i kalkylarket.
 ## Steg 4: Definiera cellområdet för delsummor
-Nu är det dags att specificera intervallet av celler där vi vill tillämpa delsumman. 
+Nu är det dags att specificera cellintervallet där vi vill tillämpa delsumman. 
 ```csharp
 CellArea ca = new CellArea();
 ca.StartRow = 2; // B3

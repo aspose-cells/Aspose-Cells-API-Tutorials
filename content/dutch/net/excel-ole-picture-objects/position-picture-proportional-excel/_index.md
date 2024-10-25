@@ -40,7 +40,7 @@ Laten we dit nu opsplitsen in gedetailleerde stappen om een afbeelding proportio
 Zorg er allereerst voor dat u een aangewezen map voor uw documenten hebt. Zo maakt u een directory als deze nog niet bestaat:
 ```csharp
 string dataDir = "Your Document Directory";
-//Maak een map aan als deze nog niet bestaat.
+// Maak een map aan als deze nog niet bestaat.
 bool isExists = System.IO.Directory.Exists(dataDir);
 if (!isExists)
     System.IO.Directory.CreateDirectory(dataDir);

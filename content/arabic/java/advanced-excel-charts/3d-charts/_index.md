@@ -33,7 +33,7 @@ Aspose.Cells for Java عبارة عن واجهة برمجة تطبيقات Java 
 لاستخدام Aspose.Cells لـ Java، ستحتاج إلى تهيئة الترخيص الخاص بك. هذه الخطوة ضرورية لإزالة أي قيود تقييم وإطلاق العنان للإمكانات الكاملة للمكتبة.
 
 ```java
-// تهيئة ترخيص Aspose.Cells
+//تهيئة ترخيص Aspose.Cells
 License license = new License();
 license.setLicense("path_to_license_file.xml");
 ```
@@ -88,7 +88,7 @@ Chart chart = worksheet.getCharts().get(chartIndex);
 // ضبط نطاق البيانات للرسم البياني
 chart.getNSeries().add("A2:B4", true);
 
-//تخصيص سمات الرسم البياني
+// تخصيص سمات الرسم البياني
 chart.getChartArea().getBorder().setVisible(false);
 chart.getChartTitle().setText("3D Bar Chart");
 ```

@@ -12,7 +12,7 @@ url: /ja/net/saving-files-in-different-formats/save-file-in-ods-format/
 ## 前提条件
 細かい点に入る前に、すべてが正しく設定されていることを確認しましょう。
 - .NET Framework: お使いのマシンに .NET Framework がインストールされていることを確認してください。Aspose.Cells for .NET と互換性のある任意のバージョンを使用できます。
-- Aspose.Cellsライブラリ: Aspose.Cellsライブラリをダウンロードする必要があります。これはExcelファイルなどを管理できる強力なツールです。[ダウンロードリンク](https://releases.aspose.com/cells/net/).
+-  Aspose.Cellsライブラリ: Aspose.Cellsライブラリをダウンロードする必要があります。これはExcelファイルなどを管理できる強力なツールです。[ダウンロードリンク](https://releases.aspose.com/cells/net/).
 - 開発環境: .NET コードを記述して実行できる Visual Studio などの適切な開発環境が不可欠です。
 前提条件を満たしたので、必要なパッケージをインポートしましょう。
 ## パッケージのインポート

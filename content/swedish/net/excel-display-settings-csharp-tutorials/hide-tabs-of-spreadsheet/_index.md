@@ -36,7 +36,7 @@ Låt oss nu bryta ner varje del av processen steg för steg.
 Innan någon kodning börjar är det avgörande att ställa in din utvecklingsmiljö på rätt sätt.
 
 1.  Skapa ett nytt projekt: Öppna Visual Studio, skapa ett nytt konsolappprojekt och döp det till något beskrivande, som`HideExcelTabs`.
-2. Lägg till Aspose.Cells Reference: Gå till NuGet Package Manager och sök efter "Aspose.Cells for .NET." Installera det till ditt projekt.
+2. Lägg till Aspose.Cells Reference: Gå till NuGet Package Manager och sök efter "Aspose.Cells for .NET." Installera det i ditt projekt.
  Alternativt, om du arbetar offline, kan du[ladda ner Aspose.Cells för .NET](https://releases.aspose.com/cells/net/) och lägg till DLL-filen manuellt i dina projektreferenser.
 3. Förbered Excel-filen: Placera Excel-filen du vill ändra (t.ex.`book1.xls`) i din projektkatalog. Se till att du känner till filsökvägen.
 

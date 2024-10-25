@@ -63,7 +63,7 @@ Ahogy egy művész egy üres vászonnal kezdi, te is egy üres munkafüzettel ke
 Az írásvédelem kulcsfontosságú szempont, különösen akkor, ha biztosítani szeretné, hogy adatai sértetlenek maradjanak. Ezt megteheti jelszóval.
 
 ```csharp
-// Írásvédelmi munkafüzet jelszóval.
+//Írásvédelmi munkafüzet jelszóval.
 wb.Settings.WriteProtection.Password = "YOUR_PASSWORD";
 ```
 
@@ -89,7 +89,7 @@ Az utolsó lépés a munkafüzet elmentése a kívánt formátumban. Ebben az es
 wb.Save(outputDir + "outputSpecifyAuthorWhileWriteProtectingWorkbook.xlsx");
 ```
 
- Itt a kimeneti fájl a megadott kimeneti könyvtárba kerül a névvel`outputSpecifyAuthorWhileWriteProtectingWorkbook.xlsx`Itt a kemény munkája végre meghozza gyümölcsét, és megoszthatja munkafüzetét másokkal, tudva, hogy jól védett!
+ Itt a kimeneti fájl a megadott kimeneti könyvtárba kerül a névvel`outputSpecifyAuthorWhileWriteProtectingWorkbook.xlsx`. Itt a kemény munkája végre meghozza gyümölcsét, és megoszthatja munkafüzetét másokkal, tudva, hogy jól védett!
 
 ## Következtetés
 
@@ -110,4 +110,4 @@ wb.Save(outputDir + "outputSpecifyAuthorWhileWriteProtectingWorkbook.xlsx");
 Teljesen! Az Aspose.Cells zökkenőmentesen működik mind az asztali, mind a webes alkalmazásokban .NET használatával.
 
 ### Mit tegyek, ha támogatásra van szükségem?  
-Kérdések és hibaelhárítás esetén az Aspose közösség nagyon segítőkész. Meglátogathatod őket[támogatási fórum](https://forum.aspose.com/c/cells/9) segítségért.
+ Kérdések és hibaelhárítás esetén az Aspose közösség nagyon segítőkész. Meglátogathatod őket[támogatási fórum](https://forum.aspose.com/c/cells/9) segítségért.

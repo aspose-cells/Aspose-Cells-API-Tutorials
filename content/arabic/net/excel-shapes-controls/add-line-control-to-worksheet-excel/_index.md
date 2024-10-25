@@ -42,7 +42,7 @@ string dataDir = "Your Document Directory";
 ## الخطوة 2: إنشاء الدليل
 من الجيد التأكد من وجود الدليل. إذا لم يكن موجودًا، يمكنك إنشاؤه باستخدام الكود التالي:
 ```csharp
-//إنشاء الدليل إذا لم يكن موجودًا بالفعل.
+// إنشاء الدليل إذا لم يكن موجودًا بالفعل.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);

@@ -13,7 +13,7 @@ In diesem Tutorial führen wir Sie durch die erforderlichen Schritte, um mithilf
 ## Voraussetzungen
 Bevor wir uns in die technischen Details vertiefen, besprechen wir, was Sie bereit haben sollten, um diesem Tutorial folgen zu können:
 1. Visual Studio: Hier schreiben wir unseren Code. Stellen Sie sicher, dass Sie eine Version haben, die mit .NET Framework oder .NET Core kompatibel ist.
-2. Aspose.Cells für .NET: Sie müssen diese Bibliothek installiert haben. Sie können sie herunterladen von der[Aspose-Website](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells für .NET: Sie müssen diese Bibliothek installiert haben. Sie können sie herunterladen von der[Aspose-Website](https://releases.aspose.com/cells/net/).
 3. Grundlegende Programmierkenntnisse: Vertrautheit mit C# und ein Verständnis von Konzepten wie Klassen und Methoden erleichtern diesen Prozess.
 4. Beispiel-Excel-Datei: Sie benötigen zum Testen auch eine Beispiel-Excel-Datei mit Formen und Smart Art.
 Wenn diese Voraussetzungen abgehakt sind, können Sie mit der Codeerstellung beginnen!
@@ -46,7 +46,7 @@ Als Erstes müssen Sie den Speicherort Ihrer Excel-Datei angeben.
 // Quellverzeichnis
 string sourceDir = "Your Document Directory";
 ```
- Ersetzen`"Your Document Directory"` mit dem Pfad, auf dem Ihr`sampleSmartArtShape.xlsx` Datei befindet. Hier sucht die Anwendung nach der Excel-Datei, die die Formen enthält, die Sie prüfen möchten.
+ Ersetzen`"Your Document Directory"` mit dem Pfad, auf dem Ihr`sampleSmartArtShape.xlsx`Datei befindet. Hier sucht die Anwendung nach der Excel-Datei, die die Formen enthält, die Sie prüfen möchten.
 ## Schritt 2: Laden Sie die Excel-Arbeitsmappe
  Als nächstes laden wir die Excel-Datei in die Aspose.Cells`Workbook` Klasse.
 ```csharp
@@ -83,7 +83,7 @@ Smart Art ist eine Funktion in Excel, mit der Benutzer optisch ansprechende Graf
 ### Kann ich Smart Art-Formen mit Aspose.Cells ändern?
 Ja, Sie können Smart Art-Formen programmgesteuert bearbeiten und dabei auch Stile und Details ändern.
 ### Ist die Nutzung von Aspose.Cells kostenlos?
- Obwohl eine Testversion verfügbar ist, ist Aspose.Cells eine kostenpflichtige Bibliothek. Sie können die Vollversion erwerben[Hier](https://purchase.aspose.com/buy).
+Obwohl eine Testversion verfügbar ist, ist Aspose.Cells eine kostenpflichtige Bibliothek. Sie können die Vollversion erwerben[Hier](https://purchase.aspose.com/buy).
 ### Wie kann ich Unterstützung erhalten, wenn Probleme auftreten?
  Sie können Hilfe erhalten über die[Aspose Support Forum](https://forum.aspose.com/c/cells/9).
 ### Wo finde ich weitere Dokumentation für Aspose.Cells?

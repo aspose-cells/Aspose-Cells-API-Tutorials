@@ -60,7 +60,7 @@ using Aspose.Cells.Rendering;
 
 ```csharp
 // المسار إلى دليل المستندات.
-string dataDir = "Your Document Directory";  //قم بتحديث هذا المسار إلى الدليل المحدد الخاص بك
+string dataDir = "Your Document Directory";  // قم بتحديث هذا المسار إلى الدليل المحدد الخاص بك
 ```
 
  تأكد من الاستبدال`"Your Document Directory"` مع المسار الفعلي. هذا يشبه العثور على منزل جديد لعملك الشاق!
@@ -129,4 +129,4 @@ Aspose.Cells عبارة عن مكتبة قوية للعمل مع تنسيقات 
 بالإضافة إلى PDF، يدعم Aspose.Cells أيضًا تنسيقات مثل XLSX، وCSV، وHTML، والمزيد.
 
 ### هل هناك نسخة مجانية من Aspose.Cells؟
- نعم، يمكنك البدء بإصدار تجريبي مجاني لاستكشاف الميزات[هنا](https://releases.aspose.com/).
+نعم، يمكنك البدء بإصدار تجريبي مجاني لاستكشاف الميزات[هنا](https://releases.aspose.com/).

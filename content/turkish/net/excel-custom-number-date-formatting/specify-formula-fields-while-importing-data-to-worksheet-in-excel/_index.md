@@ -177,5 +177,5 @@ Aspose.Cells, Excel dosyalarını program aracılığıyla oluşturmak, düzenle
  Ek örnekler ve belgeler şu adreste bulunabilir:[Aspose dokümantasyon sayfası](https://reference.aspose.com/cells/net/).
 
 ### Aspose kullanırken sorunlarla karşılaşırsam ne olur?
-Aspose destek forumundan yardım alabilirsiniz[Burada](https://forum.aspose.com/c/cells/9).
+ Aspose destek forumundan yardım alabilirsiniz[Burada](https://forum.aspose.com/c/cells/9).
  

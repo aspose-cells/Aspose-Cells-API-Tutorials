@@ -41,7 +41,7 @@ Para cualquier operación con archivos, es fundamental tener una ubicación defi
 // La ruta al directorio de documentos.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
-//Crear directorio si aún no está presente.
+// Crear directorio si aún no está presente.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);

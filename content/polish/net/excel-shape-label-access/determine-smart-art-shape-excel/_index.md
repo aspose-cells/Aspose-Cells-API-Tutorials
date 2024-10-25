@@ -9,11 +9,11 @@ url: /pl/net/excel-shape-label-access/determine-smart-art-shape-excel/
 ---
 ## Wstęp
 Czy kiedykolwiek miałeś problem z określeniem, czy konkretny kształt w arkuszu Excela jest grafiką Smart Art? Jeśli tak, to nie jesteś sam! Smart Art może naprawdę ożywić arkusz Excela, zapewniając zarówno atrakcyjność wizualną, jak i skuteczną prezentację danych. Jednak rozpoznawanie tych grafik za pomocą programowania może być mylące. W tym miejscu wkracza Aspose.Cells dla .NET, umożliwiając łatwe sprawdzenie, czy kształt jest grafiką Smart Art. 
-W tym samouczku przeprowadzimy Cię przez kroki wymagane do ustalenia, czy kształt jest Smart Art w pliku Excel przy użyciu Aspose.Cells dla .NET. Pod koniec tego przewodnika będziesz wyposażony w wiedzę, aby usprawnić swoje zadania w Excelu dzięki tej potężnej bibliotece.
+tym samouczku przeprowadzimy Cię przez kroki wymagane do ustalenia, czy kształt jest Smart Art w pliku Excel przy użyciu Aspose.Cells dla .NET. Pod koniec tego przewodnika będziesz wyposażony w wiedzę, aby usprawnić swoje zadania w Excelu dzięki tej potężnej bibliotece.
 ## Wymagania wstępne
 Zanim zagłębimy się w szczegóły techniczne, omówmy, co powinieneś wiedzieć, aby móc korzystać z tego samouczka:
 1. Visual Studio: Tutaj będziemy pisać nasz kod. Upewnij się, że masz wersję zgodną z .NET Framework lub .NET Core.
-2. Aspose.Cells dla .NET: Musisz mieć zainstalowaną tę bibliotekę. Możesz ją pobrać ze strony[Strona internetowa Aspose](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells dla .NET: Musisz mieć zainstalowaną tę bibliotekę. Możesz ją pobrać ze strony[Strona internetowa Aspose](https://releases.aspose.com/cells/net/).
 3. Podstawowa wiedza programistyczna: Znajomość języka C# i zrozumienie takich pojęć, jak klasy i metody, ułatwi ten proces.
 4. Przykładowy plik programu Excel: Będziesz potrzebować również przykładowego pliku programu Excel zawierającego kształty i obiekty Smart Art do celów testowych.
 Po zaznaczeniu tych warunków wstępnych możesz przystąpić do kodowania!
@@ -46,7 +46,7 @@ Przede wszystkim musisz określić lokalizację pliku Excel.
 // Katalog źródłowy
 string sourceDir = "Your Document Directory";
 ```
- Zastępować`"Your Document Directory"` ze ścieżką, na której jesteś`sampleSmartArtShape.xlsx` plik jest zlokalizowany. To tutaj aplikacja będzie szukać pliku Excel zawierającego kształty, które chcesz sprawdzić.
+ Zastępować`"Your Document Directory"` ze ścieżką, na której jesteś`sampleSmartArtShape.xlsx`plik jest zlokalizowany. To tutaj aplikacja będzie szukać pliku Excel zawierającego kształty, które chcesz sprawdzić.
 ## Krok 2: Załaduj skoroszyt programu Excel
  Następnie załadujemy plik Excel do Aspose.Cells`Workbook` klasa.
 ```csharp
@@ -60,7 +60,7 @@ Po załadowaniu skoroszytu musimy uzyskać dostęp do konkretnego arkusza zawier
 // Uzyskaj dostęp do pierwszego arkusza kalkulacyjnego
 Worksheet ws = wb.Worksheets[0];
 ```
- Pliki Excel mogą zawierać wiele arkuszy kalkulacyjnych. Indeksując za pomocą`[0]`uzyskujemy dostęp do pierwszego arkusza w naszym skoroszycie. 
+ Pliki Excel mogą zawierać wiele arkuszy kalkulacyjnych. Indeksując za pomocą`[0]`, uzyskujemy dostęp do pierwszego arkusza w naszym skoroszycie. 
 ## Krok 4: Uzyskaj dostęp do kształtu
 Teraz pobierzemy konkretny kształt, który chcemy sprawdzić.
 ```csharp
@@ -83,7 +83,7 @@ Smart Art to funkcja programu Excel umożliwiająca użytkownikom tworzenie atra
 ### Czy mogę modyfikować kształty Smart Art za pomocą Aspose.Cells?
 Tak, kształtami Smart Art można manipulować programowo, łącznie ze zmianą stylów i szczegółów.
 ### Czy korzystanie z Aspose.Cells jest bezpłatne?
- Chociaż dostępna jest wersja próbna, Aspose.Cells jest płatną biblioteką. Możesz kupić pełną wersję[Tutaj](https://purchase.aspose.com/buy).
+Chociaż dostępna jest wersja próbna, Aspose.Cells jest płatną biblioteką. Możesz kupić pełną wersję[Tutaj](https://purchase.aspose.com/buy).
 ### Jak mogę uzyskać pomoc, jeśli wystąpią problemy?
  Możesz zwrócić się o pomoc na[Forum wsparcia Aspose](https://forum.aspose.com/c/cells/9).
 ### Gdzie mogę znaleźć więcej dokumentacji dla Aspose.Cells?

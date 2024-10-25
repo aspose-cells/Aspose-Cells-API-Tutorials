@@ -177,5 +177,5 @@ Aspose.Cells는 Excel 파일을 프로그래밍 방식으로 만들고, 조작�
  추가 예와 문서는 다음에서 찾을 수 있습니다.[Aspose 문서 페이지](https://reference.aspose.com/cells/net/).
 
 ### Aspose를 사용하는 동안 문제가 발생하면 어떻게 해야 하나요?
-Aspose 지원 포럼에서 도움을 요청할 수 있습니다.[여기](https://forum.aspose.com/c/cells/9).
+ Aspose 지원 포럼에서 도움을 요청할 수 있습니다.[여기](https://forum.aspose.com/c/cells/9).
  

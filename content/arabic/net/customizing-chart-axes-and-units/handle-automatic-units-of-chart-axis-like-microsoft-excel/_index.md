@@ -108,7 +108,7 @@ Chart ch = ws.Charts[0];
 
 ```csharp
 // تعيين الوحدة الرئيسية لمحور Y
-ch.AxisY.MajorUnit = 10; //يمكنك ضبطها وفقًا لمتطلباتك
+ch.AxisY.MajorUnit = 10; // يمكنك ضبطها وفقًا لمتطلباتك
 ```
 
 دعونا نقوم بتحديث الوحدات التلقائية الآن!
@@ -142,7 +142,7 @@ Console.WriteLine("HandleAutomaticUnitsOfChartAxisLikeMicrosoftExcel executed su
 Aspose.Cells هي مكتبة .NET قوية لإنشاء ملفات Excel ومعالجتها وتحويلها.
 
 ### هل يمكنني استخدام Aspose.Cells مجانًا؟
- نعم! يمكنك البدء بفترة تجريبية مجانية متاحة[هنا](https://releases.aspose.com/).
+نعم! يمكنك البدء بفترة تجريبية مجانية متاحة[هنا](https://releases.aspose.com/).
 
 ### هل أحتاج إلى تثبيت أي شيء للبدء؟
 فقط مكتبة Aspose.Cells و.NET Framework مثبتين على جهازك.

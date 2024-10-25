@@ -52,7 +52,7 @@ Analizziamo nel dettaglio i passaggi del processo di rimozione della protezione.
 
 ## Passaggio 1: definizione del percorso della directory
 
-La prima cosa che devi fare è specificare il percorso della directory in cui si trova il tuo file Excel. Questo è essenziale perché indica al tuo programma dove trovare il file che vuoi rimuovere la protezione.
+La prima cosa che devi fare è specificare il percorso della directory in cui si trova il tuo file Excel. Questo è essenziale perché indica al tuo programma dove trovare il file che vuoi sproteggere.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // Sostituiscilo con il tuo percorso effettivo
@@ -62,7 +62,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY"; // Sostituiscilo con il tuo percorso
 
 ## Passaggio 2: creazione dell'istanza dell'oggetto Workbook
 
- Successivamente, è necessario creare un'istanza di`Workbook` classe per aprire il file Excel.
+ Successivamente, è necessario creare un'istanza di`Workbook`classe per aprire il file Excel.
 
 ```csharp
 Workbook workbook = new Workbook(dataDir + "book1.xls");

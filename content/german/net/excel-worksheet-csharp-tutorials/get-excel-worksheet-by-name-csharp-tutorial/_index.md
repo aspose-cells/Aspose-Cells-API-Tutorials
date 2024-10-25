@@ -45,7 +45,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY"; // Geben Sie Ihr Dokumentverzeichnis
 string InputPath = Path.Combine(dataDir, "book1.xlsx"); // Kombinieren Sie, um den vollständigen Pfad zu bilden
 ```
 
- Ersetzen Sie hier`"YOUR DOCUMENT DIRECTORY"`durch den tatsächlichen Pfad auf Ihrem System, wo`book1.xlsx` gespeichert ist.`Path.Combine` ist praktisch, weil es sicherstellt, dass der Pfad über verschiedene Betriebssysteme hinweg korrekt erstellt wird.
+ Ersetzen Sie hier`"YOUR DOCUMENT DIRECTORY"` durch den tatsächlichen Pfad auf Ihrem System, wo`book1.xlsx` gespeichert ist.`Path.Combine`ist praktisch, weil es sicherstellt, dass der Pfad über verschiedene Betriebssysteme hinweg korrekt erstellt wird.
 
 ## Schritt 2: Erstellen eines Dateistreams
 

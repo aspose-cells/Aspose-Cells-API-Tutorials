@@ -15,9 +15,9 @@ Heb je ooit handmatig werkbladen tussen Excel-werkmappen gekopieerd? Het is een 
 
 Voordat we in de code duiken, willen we ervoor zorgen dat je over de juiste hulpmiddelen beschikt om aan de slag te gaan:
 
-- Aspose.Cells voor .NET: U kunt het downloaden[hier](https://releases.aspose.com/cells/net/).
+-  Aspose.Cells voor .NET: U kunt het downloaden[hier](https://releases.aspose.com/cells/net/).
 - Visual Studio of een andere IDE die .NET Framework ondersteunt.
--  Een geldig rijbewijs of een[tijdelijke licentie](https://purchase.aspose.com/temporary-license/) als u de volledige functionaliteit van Aspose.Cells wilt testen.
+-  Een geldig rijbewijs of een[tijdelijke licentie](https://purchase.aspose.com/temporary-license/)als u de volledige functionaliteit van Aspose.Cells wilt testen.
 - Basiskennis van C# en het .NET Framework.
 
  U kunt ook de[Aspose.Cells-documentatie](https://reference.aspose.com/cells/net/) voor meer informatie.
@@ -44,7 +44,7 @@ Eerst moet u definiëren waar uw bestanden zich bevinden. Zie deze stap als het 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Vervang in deze regel`"YOUR DOCUMENT DIRECTORY"` met het daadwerkelijke pad naar uw Excel-bestanden. Dit is waar uw werkmappen worden geladen en opgeslagen.
+ Vervang in deze regel`"YOUR DOCUMENT DIRECTORY"`met het daadwerkelijke pad naar uw Excel-bestanden. Dit is waar uw werkmappen worden geladen en opgeslagen.
 
 ## Stap 2: Open de eerste werkmap
 
@@ -57,14 +57,14 @@ string InputPath = dataDir + "book1.xls";
 Workbook excelWorkbook0 = new Workbook(InputPath);
 ```
 
- Hier, je laadt`book1.xls` (zorg ervoor dat het bestand in uw map bestaat) in een nieuwe`Workbook` object genaamd`excelWorkbook0`Dit is de bronwerkmap met het werkblad dat u gaat kopiëren.
+ Hier, je laadt`book1.xls` (zorg ervoor dat het bestand in uw map bestaat) in een nieuwe`Workbook` object genaamd`excelWorkbook0`. Dit is de bronwerkmap die het werkblad bevat dat u gaat kopiëren.
 
 ## Stap 3: Maak een tweede werkmap
 
 Nu u de eerste werkmap open hebt, is het tijd om een andere lege werkmap te maken waar u het gekopieerde werkblad in plakt. Zie dit als het openen van een nieuw leeg notitieboek waar u de gegevens naartoe overzet.
 
 ```csharp
-//Maak een nieuwe werkmap.
+// Maak een nieuwe werkmap.
 Workbook excelWorkbook1 = new Workbook();
 ```
 

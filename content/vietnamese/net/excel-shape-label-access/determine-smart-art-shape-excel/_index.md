@@ -13,7 +13,7 @@ Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn các bước c�
 ## Điều kiện tiên quyết
 Trước khi đi sâu vào các chi tiết kỹ thuật, chúng ta hãy cùng tìm hiểu những gì bạn cần chuẩn bị để thực hiện theo hướng dẫn này:
 1. Visual Studio: Đây là nơi chúng ta sẽ viết mã. Đảm bảo bạn có phiên bản tương thích với .NET Framework hoặc .NET Core.
-2. Aspose.Cells cho .NET: Bạn cần cài đặt thư viện này. Bạn có thể tải xuống từ[Trang web Aspose](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells cho .NET: Bạn cần cài đặt thư viện này. Bạn có thể tải xuống từ[Trang web Aspose](https://releases.aspose.com/cells/net/).
 3. Kiến thức lập trình cơ bản: Sự quen thuộc với C# và hiểu biết về các khái niệm như lớp và phương thức sẽ giúp quá trình này diễn ra suôn sẻ hơn.
 4. Tệp Excel mẫu: Bạn cũng sẽ cần một tệp Excel mẫu chứa các hình dạng và Smart Art để thử nghiệm.
 Sau khi đã đáp ứng được các điều kiện tiên quyết này, bạn đã sẵn sàng để bắt đầu viết mã!
@@ -46,7 +46,7 @@ Trước tiên, bạn cần xác định vị trí lưu tệp Excel của mình.
 // Thư mục nguồn
 string sourceDir = "Your Document Directory";
 ```
- Thay thế`"Your Document Directory"` với con đường mà bạn`sampleSmartArtShape.xlsx` tệp được đặt tại đây. Đây là nơi ứng dụng sẽ tìm kiếm tệp Excel có chứa các hình dạng mà bạn muốn kiểm tra.
+ Thay thế`"Your Document Directory"` với con đường mà bạn`sampleSmartArtShape.xlsx`tệp được đặt tại đây. Đây là nơi ứng dụng sẽ tìm kiếm tệp Excel có chứa các hình dạng mà bạn muốn kiểm tra.
 ## Bước 2: Tải sổ làm việc Excel
  Tiếp theo, chúng ta sẽ tải tệp Excel vào Aspose.Cells`Workbook` lớp học.
 ```csharp
@@ -60,7 +60,7 @@ Sau khi tải bảng tính, chúng ta cần truy cập vào bảng tính cụ th
 // Truy cập bảng tính đầu tiên
 Worksheet ws = wb.Worksheets[0];
 ```
- Các tệp Excel có thể chứa nhiều bảng tính. Bằng cách lập chỉ mục với`[0]`chúng ta đang truy cập vào trang tính đầu tiên trong sổ làm việc của mình. 
+ Các tệp Excel có thể chứa nhiều bảng tính. Bằng cách lập chỉ mục với`[0]`, chúng ta đang truy cập vào trang tính đầu tiên trong sổ làm việc của mình. 
 ## Bước 4: Truy cập vào Hình dạng
 Bây giờ chúng ta sẽ lấy hình dạng cụ thể mà chúng ta muốn kiểm tra.
 ```csharp
@@ -83,7 +83,7 @@ Smart Art là một tính năng trong Excel cho phép người dùng tạo đồ
 ### Tôi có thể chỉnh sửa hình dạng Smart Art bằng Aspose.Cells không?
 Có, bạn có thể thao tác các hình dạng Smart Art theo chương trình, bao gồm thay đổi kiểu dáng và chi tiết.
 ### Aspose.Cells có miễn phí sử dụng không?
- Mặc dù có phiên bản dùng thử, Aspose.Cells là thư viện trả phí. Bạn có thể mua phiên bản đầy đủ[đây](https://purchase.aspose.com/buy).
+Mặc dù có phiên bản dùng thử, Aspose.Cells là thư viện trả phí. Bạn có thể mua phiên bản đầy đủ[đây](https://purchase.aspose.com/buy).
 ### Tôi có thể nhận được hỗ trợ như thế nào nếu gặp vấn đề?
  Bạn có thể tìm kiếm sự giúp đỡ trên[Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/cells/9).
 ### Tôi có thể tìm thêm tài liệu về Aspose.Cells ở đâu?

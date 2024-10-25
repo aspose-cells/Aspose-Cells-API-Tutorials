@@ -9,16 +9,16 @@ url: /hu/net/excel-workbook/add-digital-signature-to-an-already-signed-excel-fil
 ---
 ## Bevezetés
 
-mai digitális világban a dokumentumok védelme fontosabb, mint valaha. A digitális aláírások lehetőséget nyújtanak a fájlok hitelességének és integritásának biztosítására, különösen érzékeny információk kezelésekor. Ha Excel-fájlokkal dolgozik, és új digitális aláírást szeretne hozzáadni egy már aláírt munkafüzethez, akkor jó helyen jár! Ebben az útmutatóban végigvezetjük a digitális aláírás hozzáadásának folyamatán egy már aláírt Excel-fájlhoz az Aspose.Cells for .NET segítségével. Szóval, merüljünk bele!
+A mai digitális világban a dokumentumok védelme fontosabb, mint valaha. A digitális aláírások lehetőséget nyújtanak a fájlok hitelességének és integritásának biztosítására, különösen érzékeny információk kezelésekor. Ha Excel-fájlokkal dolgozik, és új digitális aláírást szeretne hozzáadni egy már aláírt munkafüzethez, akkor jó helyen jár! Ebben az útmutatóban végigvezetjük a digitális aláírás hozzáadásának folyamatán egy már aláírt Excel-fájlhoz az Aspose.Cells for .NET segítségével. Szóval, merüljünk bele!
 
 ## Előfeltételek
 
 Mielőtt belevágnánk a kódolás finomságaiba, néhány dolognak a helyén kell lennie:
 
 1.  Aspose.Cells for .NET: Győződjön meg arról, hogy az Aspose.Cells könyvtár telepítve van a .NET-projektben. Letöltheti a[telek](https://releases.aspose.com/cells/net/).
-2.  Tanúsítványfájl: Szüksége lesz egy érvényes tanúsítványfájlra (általában a`.pfx` fájl), amely az Ön digitális tanúsítványát tartalmazza. Győződjön meg arról, hogy ismeri a fájl jelszavát.
+2.  Tanúsítványfájl: Szüksége lesz egy érvényes tanúsítványfájlra (általában a`.pfx`fájl), amely az Ön digitális tanúsítványát tartalmazza. Győződjön meg arról, hogy ismeri a fájl jelszavát.
 3. Fejlesztői környezet: Állítsa be fejlesztői környezetét a Visual Studio vagy bármely más, .NET-et támogató IDE segítségével.
-4. Alapvető C# ismerete: A C# programozás ismerete segít a gördülékeny követésben.
+4. Alapvető C# ismerete: A C# programozás ismerete segít a zökkenőmentes követésben.
 5. Mintafájlok: rendelkezzen egy minta Excel-fájllal, amely már digitálisan alá van írva. Ez lesz az a fájl, amelyhez új aláírást kell hozzáadni.
 
 Most, hogy minden a helyén van, kezdjük el a kódolást!
@@ -51,7 +51,7 @@ Ebben a lépésben egy módszert használunk a forrás- és kimeneti könyvtár 
 
 ## 2. lépés: Töltse be a Már aláírt munkafüzetet
 
-Ezután be kell töltenie a módosítani kívánt Excel-munkafüzetet. Ez úgy történik, hogy létrehoz egy példányt a`Workbook` osztályt, és átadja az aláírt fájl elérési útját.
+ Ezután be kell töltenie a módosítani kívánt Excel-munkafüzetet. Ez úgy történik, hogy létrehoz egy példányt a`Workbook` osztályt, és átadja az aláírt fájl elérési útját.
 
 ```csharp
 // Töltse be a már digitálisan aláírt munkafüzetet
@@ -65,7 +65,7 @@ Aspose.Cells.Workbook workbook = new Aspose.Cells.Workbook(sourceDir + "sampleDi
 Most pedig hozzunk létre egy digitális aláírásgyűjteményt. Ez a gyűjtemény tartalmazza az összes digitális aláírást, amelyet hozzá szeretne adni a munkafüzethez.
 
 ```csharp
-// Készítse el a digitális aláírásgyűjteményt
+// Hozza létre a digitális aláírásgyűjteményt
 Aspose.Cells.DigitalSignatures.DigitalSignatureCollection dsCollection = new Aspose.Cells.DigitalSignatures.DigitalSignatureCollection();
 ```
 
@@ -84,7 +84,7 @@ string password = "aspose";
 System.Security.Cryptography.X509Certificates.X509Certificate2 certificate = new System.Security.Cryptography.X509Certificates.X509Certificate2(certFileName, password);
 ```
 
- Ügyeljen arra, hogy cserélje ki`AsposeDemo.pfx` és a jelszót a tényleges tanúsítványfájl nevével és jelszavával.
+ Ügyeljen arra, hogy cserélje ki`AsposeDemo.pfx`és a jelszót a tényleges tanúsítványfájl nevével és jelszavával.
 
 ## 5. lépés: Hozza létre a digitális aláírást
 
@@ -113,7 +113,7 @@ Ennek a sornak a végrehajtásával hatékonyan csatolja az új digitális alá�
 Végül el kell mentenie a módosított munkafüzetet a kimeneti könyvtárába, és fel kell szabadítania a használt erőforrásokat.
 
 ```csharp
-// Mentse el a munkafüzetet és dobja ki.
+//Mentse el a munkafüzetet és dobja ki.
 workbook.Save(outputDir + "outputDigitallySignedByCells.xlsx");
 workbook.Dispose();
 ```

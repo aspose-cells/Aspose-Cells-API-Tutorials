@@ -8,7 +8,7 @@ weight: 11
 url: /sv/net/document-properties/accessing-value-of-document-properties/
 ---
 ## Introduktion
-dagens snabba digitala värld är effektiv hantering av dokumentegenskaper avgörande för företag och utvecklare. Oavsett om du spårar versioner, redigerare eller specifikt innehåll i dina kalkylblad, kan du spara tid och effektivisera ditt arbetsflöde om du förstår hur du kommer åt och manipulerar dessa egenskaper i dina .NET-program. I den här guiden kommer vi att utforska hur man använder Aspose.Cells för .NET för att komma åt värdena för dokumentegenskaper i Excel-filer. Så ta din favoritmugg kaffe och låt oss dyka in!
+I dagens snabba digitala värld är effektiv hantering av dokumentegenskaper avgörande för företag och utvecklare. Oavsett om du spårar versioner, redigerare eller specifikt innehåll i dina kalkylblad, kan du spara tid och effektivisera ditt arbetsflöde om du förstår hur du kommer åt och manipulerar dessa egenskaper i dina .NET-program. I den här guiden kommer vi att utforska hur man använder Aspose.Cells för .NET för att komma åt värdena för dokumentegenskaper i Excel-filer. Så ta din favoritmugg kaffe och låt oss dyka in!
 ## Förutsättningar
 Innan vi kavlar upp ärmarna och sätter igång finns det några saker du behöver för att säkerställa att din resa går smidigt:
 1. Kännedom om .NET: Du bör ha en grundläggande förståelse för .NET-ramverket och dess programmeringsmodell.

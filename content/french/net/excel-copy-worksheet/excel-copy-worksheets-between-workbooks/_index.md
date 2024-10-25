@@ -15,9 +15,9 @@ Vous est-il déjà arrivé de devoir copier manuellement des feuilles de calcul 
 
 Avant de plonger dans le code, assurons-nous que vous disposez des bons outils pour commencer :
 
-- Aspose.Cells pour .NET : vous pouvez le télécharger[ici](https://releases.aspose.com/cells/net/).
+-  Aspose.Cells pour .NET : vous pouvez le télécharger[ici](https://releases.aspose.com/cells/net/).
 - Visual Studio ou tout autre IDE prenant en charge .NET Framework.
--  Un permis valide ou un[permis temporaire](https://purchase.aspose.com/temporary-license/) si vous souhaitez tester toutes les fonctionnalités d'Aspose.Cells.
+-  Un permis valide ou un[permis temporaire](https://purchase.aspose.com/temporary-license/)si vous souhaitez tester toutes les fonctionnalités d'Aspose.Cells.
 - Une compréhension de base de C# et du framework .NET.
 
  Vous pouvez également consulter le[Documentation d'Aspose.Cells](https://reference.aspose.com/cells/net/) pour plus de détails.
@@ -44,7 +44,7 @@ Tout d’abord, vous devez définir l’emplacement de vos fichiers. Considérez
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Dans cette ligne, remplacez`"YOUR DOCUMENT DIRECTORY"` avec le chemin d'accès réel à vos fichiers Excel. C'est à partir de cet emplacement que vos classeurs seront chargés et enregistrés.
+ Dans cette ligne, remplacez`"YOUR DOCUMENT DIRECTORY"`avec le chemin d'accès réel à vos fichiers Excel. C'est à partir de cet emplacement que vos classeurs seront chargés et enregistrés.
 
 ## Étape 2 : Ouvrir le premier classeur
 
@@ -64,7 +64,7 @@ Workbook excelWorkbook0 = new Workbook(InputPath);
 Maintenant que vous avez ouvert le premier classeur, il est temps de créer un autre classeur vide dans lequel vous collerez la feuille de calcul copiée. Considérez cela comme l'ouverture d'un nouveau bloc-notes vierge dans lequel vous transférerez les données.
 
 ```csharp
-//Créer un autre classeur.
+// Créer un autre classeur.
 Workbook excelWorkbook1 = new Workbook();
 ```
 

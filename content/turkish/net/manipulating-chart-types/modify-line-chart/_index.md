@@ -151,7 +151,7 @@ Evet, benzer yöntemleri kullanarak farklı grafik türlerini (çubuk, pasta vb.
  Kesinlikle! Ücretsiz deneyebilirsiniz[Burada](https://releases.aspose.com/).
 
 ### Seri ekledikten sonra grafik türünü nasıl değiştirebilirim?
- Kullanabilirsiniz`ChartType` Grafiğiniz için yeni bir grafik türü ayarlama özelliği.
+Kullanabilirsiniz`ChartType` Grafiğiniz için yeni bir grafik türü ayarlama özelliği.
 
 ### Daha detaylı dokümanları nerede bulabilirim?
  Belgelere göz atın[Burada](https://reference.aspose.com/cells/net/).

@@ -37,13 +37,13 @@ Pour commencer, nous devons créer un répertoire dans lequel nous pouvons enreg
 ```csharp
 // Le chemin vers le répertoire des documents.
 string dataDir = "Your Document Directory";
-//Créez un répertoire s'il n'est pas déjà présent.
+// Créez un répertoire s'il n'est pas déjà présent.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
--  dataDir : cette variable contient le chemin d'accès à votre répertoire de documents. Remplacer`"Your Document Directory"` avec le chemin réel où vous souhaitez enregistrer votre fichier Excel.
-- Directory.Exists : cela vérifie si le répertoire existe déjà.
+- dataDir : cette variable contient le chemin d'accès à votre répertoire de documents. Remplacer`"Your Document Directory"` avec le chemin réel où vous souhaitez enregistrer votre fichier Excel.
+- Directory.Exists : Ceci vérifie si le répertoire existe déjà.
 - Directory.CreateDirectory : Si le répertoire n'existe pas, cela le crée.
 ## Étape 2 : créer une instance d'un classeur
  Ensuite, nous devons créer une instance de`Workbook` classe. Cette classe représente un classeur Excel en mémoire.
@@ -60,7 +60,7 @@ CommentCollection comments = workbook.Worksheets[0].Comments;
 ```
 - Fiches de travail[ 0] : Ceci permet d'accéder à la première feuille de calcul du classeur. N'oubliez pas que l'index est basé sur zéro, donc`[0]` fait référence à la première feuille.
 - Commentaires : Cette propriété nous donne accès à la collection de commentaires sur cette feuille de calcul.
-## Étape 4 : Ajouter un commentaire à une cellule
+## Étape 4 : ajouter un commentaire à une cellule
 Ajoutons un commentaire à une cellule spécifique. Dans ce cas, nous ajouterons un commentaire à la cellule A1.
 ```csharp
 // Ajouter un commentaire à la cellule A1
@@ -89,7 +89,7 @@ Nous devons maintenant définir les données de l’image sur la forme associée
 // Définir les données de l'image sur la forme associée au commentaire
 comment.CommentShape.Fill.ImageData = ms.ToArray();
 ```
--  comment.CommentShape.Fill.ImageData : Cette propriété vous permet de définir l'image de la forme du commentaire. Nous convertissons le`MemoryStream` à un tableau d'octets en utilisant`ms.ToArray()`.
+- comment.CommentShape.Fill.ImageData : Cette propriété vous permet de définir l'image de la forme du commentaire. Nous convertissons le`MemoryStream` à un tableau d'octets en utilisant`ms.ToArray()`.
 ## Étape 7 : Enregistrer le classeur
 Enfin, sauvegardons notre classeur avec le commentaire et l'image inclus.
 ```csharp

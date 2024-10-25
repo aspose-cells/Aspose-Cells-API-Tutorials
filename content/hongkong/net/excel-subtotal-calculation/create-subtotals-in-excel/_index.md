@@ -75,7 +75,7 @@ workbook.Save(dataDir + "output.out.xls");
 ### 什麼是 Aspose.Cells for .NET？
 Aspose.Cells for .NET 是一個功能強大的程式庫，可讓開發人員以程式設計方式操作 .NET 應用程式中的 Excel 檔案。
 ### 我需要安裝什麼特別的東西才能使用 Aspose.Cells 嗎？
-是的，您需要下載 Aspose.Cells 庫並將其新增至您的 .NET 專案。[在此下載](https://releases.aspose.com/cells/net/).
+是的，您需要下載 Aspose.Cells 庫並將其新增至您的 .NET 專案。[在這裡下載](https://releases.aspose.com/cells/net/).
 ### 是否可以使用 Aspose.Cells 建立其他類型的 Excel 功能？
 絕對地！ Aspose.Cells 可讓您執行各種 Excel 操作，例如建立圖表、管理工作表和修改儲存格格式等。
 ### 我可以免費使用 Aspose.Cells 嗎？

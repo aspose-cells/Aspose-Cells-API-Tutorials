@@ -15,7 +15,7 @@ Membuat bagan yang menarik secara visual dan informatif sangat penting untuk pen
 
 Sebelum kita masuk ke tutorial, pastikan Anda sudah menyiapkan semuanya:
 
-- Aspose.Cells untuk .NET: Pastikan Anda telah mengunduh dan merujuk pustaka Aspose.Cells ke dalam proyek Anda. Anda bisa mendapatkannya[Di Sini](https://releases.aspose.com/cells/net/).
+-  Aspose.Cells untuk .NET: Pastikan Anda telah mengunduh dan merujuk pustaka Aspose.Cells ke dalam proyek Anda. Anda bisa mendapatkannya[Di Sini](https://releases.aspose.com/cells/net/).
 - Lingkungan Pengembangan: Lingkungan pengembangan .NET apa pun dapat digunakan, tetapi Visual Studio sangat direkomendasikan karena dukungan dan alatnya yang tangguh.
 - Pemahaman Dasar C#: Kemampuan memahami dasar-dasar pemrograman C# akan sangat membantu saat kita menulis beberapa kode.
 
@@ -161,7 +161,7 @@ Aspose.Cells untuk .NET adalah API yang hebat untuk memanipulasi lembar kerja Ex
 Ya! Aspose.Cells memungkinkan kustomisasi yang luas, termasuk font, gaya, dan format untuk elemen bagan.
 
 ### Di mana saya dapat menemukan dokumentasi lebih lanjut?
- Anda dapat menemukan dokumentasi lengkap di[Halaman referensi Aspose](https://reference.aspose.com/cells/net/).
+Anda dapat menemukan dokumentasi lengkap di[Halaman referensi Aspose](https://reference.aspose.com/cells/net/).
 
 ### Apakah ada uji coba gratis yang tersedia untuk Aspose.Cells?
  Ya! Anda dapat mencobanya dengan mengunduhnya dari[Di Sini](https://releases.aspose.com/).

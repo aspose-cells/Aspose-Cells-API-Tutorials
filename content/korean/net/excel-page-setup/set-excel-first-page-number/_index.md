@@ -110,10 +110,10 @@ Aspose.Cells는 Microsoft Excel이 컴퓨터에 설치되어 있지 않아도 Ex
  Aspose.Cells는 다음에서 다운로드할 수 있습니다.[웹사이트](https://releases.aspose.com/cells/net/).
 
 ### Aspose.Cells의 무료 버전이 있나요?
-네! 체험판을 다운로드하여 Aspose.Cells를 무료로 사용해 보세요.[여기](https://releases.aspose.com/).
+ 네! 체험판을 다운로드하여 Aspose.Cells를 무료로 사용해 보세요.[여기](https://releases.aspose.com/).
 
 ### 어디서 지원을 받을 수 있나요?
- 지원 관련 질문이 있는 경우 다음을 방문하세요.[Aspose 포럼](https://forum.aspose.com/c/cells/9).
+지원 관련 질문이 있는 경우 다음을 방문하세요.[Aspose 포럼](https://forum.aspose.com/c/cells/9).
 
 ### 클라우드 환경에서 Aspose.Cells를 사용할 수 있나요?
 네, Aspose.Cells는 .NET 런타임이 지원되는 한 클라우드 기반 설정을 포함한 모든 .NET 애플리케이션에 통합될 수 있습니다.

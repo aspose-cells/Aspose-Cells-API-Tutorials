@@ -32,7 +32,7 @@ Először is létre kell hoznunk egy új projektet a Visual Studióban az alkalm
 2. Válassza az ASP.NET Core Web Application vagy a Console Application (Konzolalkalmazás) lehetőséget az igényeinek megfelelően.
 3.  Nevezze el a projektet (valami ilyesmi`SXCFileOpener`), majd kattintson a Létrehozás gombra.
 4. Győződjön meg arról, hogy a .NET-keretrendszert választotta ki a telepítés során.
-5.  A projekt betöltése után megjelenik egy alapértelmezett érték`.cs` fájl, ahová hozzáadhatjuk a kódunkat.
+5.  projekt betöltése után megjelenik egy alapértelmezett érték`.cs` fájl, ahová hozzáadhatjuk a kódunkat.
 ## 2. lépés: Az Aspose.Cells Library hozzáadása
 Ezután hozzáadjuk az Aspose.Cells könyvtárat a projektünkhöz. Íme, hogyan:
 1. Nyissa meg a NuGet Package Managert úgy, hogy jobb gombbal kattintson a projektjére a Solution Explorerben, és válassza a Manage NuGet Packages lehetőséget.
@@ -48,7 +48,7 @@ string sourceDir = "Your Document Directory";
 ```
 2.  Ebben a könyvtárban adja hozzá az SXC mintafájlt (pl.`SampleSXC.sxc`) tesztelésre.
 ## 4. lépés: Munkafüzet objektum létrehozása
- A forráskönyvtár beállítása után itt az ideje létrehozni a`Workbook` objektum az SXC fájl betöltéséhez:
+ A forráskönyvtár beállítása után itt az ideje létrehozni a`Workbook`objektum az SXC fájl betöltéséhez:
 ```csharp
 Workbook workbook = new Workbook(sourceDir + "SampleSXC.sxc");
 ```

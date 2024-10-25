@@ -46,7 +46,7 @@ Workbook workbook = new Workbook(SourceDir + "ValidationsSample.xlsx");
 
 V tomto kroku otevíráte existující soubor aplikace Excel. Ujistěte se, že cesta k vašemu souboru je správná. Pokud je vše nastaveno, budete mít objekt sešitu obsahující data ze zadaného souboru aplikace Excel.
 
-## Krok 2: Otevřete první list
+## Krok 2: Otevřete první pracovní list
 
 Nyní, když máme náš sešit, je čas otevřít konkrétní list, do kterého chceme přidat ověření:
 

@@ -60,7 +60,7 @@ Worksheet worksheet1 = wb1.Worksheets[0];
 Artık çalışma sayfamız olduğuna göre, bir aralık oluşturmanın zamanı geldi. Bir aralık, birden fazla satır ve sütuna yayılabilen bir hücre bloğunu ifade eder.
 
 ```csharp
-// Bir aralık yaratın.
+//Bir aralık yaratın.
 Range mrange = worksheet1.Cells.CreateRange("D6", "I12");
 ```
 
@@ -133,7 +133,7 @@ flag.CellShading = true;
 range1.ApplyStyle(style, flag);
 ```
 
- The`StyleFlag`Aspose.Cells'e hangi stil özelliklerinin uygulanacağını söyler: hizalama, gölgelendirme, vb. Bu, stilin nasıl uygulanacağı konusunda ayrıntılı kontrol sağlar.
+ The`StyleFlag` Aspose.Cells'e hangi stil özelliklerinin uygulanacağını söyler: hizalama, gölgelendirme, vb. Bu, stilin nasıl uygulanacağı konusunda ayrıntılı kontrol sağlar.
 
 ## Adım 9: Birleştirilmiş Aralığa Veri Girin
 

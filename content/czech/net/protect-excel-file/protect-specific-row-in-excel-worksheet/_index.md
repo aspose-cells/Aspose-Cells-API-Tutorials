@@ -2,7 +2,7 @@
 title: Chránit konkrétní řádek v listu aplikace Excel
 linktitle: Chránit konkrétní řádek v listu aplikace Excel
 second_title: Aspose.Cells for .NET API Reference
-description: Naučte se chránit konkrétní řádky v listech aplikace Excel pomocí Aspose.Cells for .NET. Průvodce krok za krokem šitý na míru vývojářům.
+description: Naučte se chránit konkrétní řádky v listech aplikace Excel pomocí Aspose.Cells for .NET. Průvodce krok za krokem přizpůsobený vývojářům.
 type: docs
 weight: 90
 url: /cs/net/protect-excel-file/protect-specific-row-in-excel-worksheet/
@@ -49,7 +49,7 @@ Nejprve musíme definovat adresář, kam budeme ukládat náš soubor Excel. Pos
 // Cesta k adresáři dokumentů.
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // změnit na požadovanou cestu.
 
-//Vytvořte adresář, pokud ještě není přítomen.
+// Vytvořte adresář, pokud ještě není přítomen.
 bool isExists = System.IO.Directory.Exists(dataDir);
 if (!isExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -88,7 +88,7 @@ StyleFlag flag;
 for (int i = 0; i <= 255; i++)
 {
     style = sheet.Cells.Columns[(byte)i].Style;
-    style.IsLocked = false; // Odemknout sloupec
+    style.IsLocked = false; //Odemknout sloupec
     flag = new StyleFlag();
     flag.Locked = true; // Pro uzamčení nastavte příznak na hodnotu true
     sheet.Cells.Columns[(byte)i].ApplyStyle(style, flag); // Použijte styl

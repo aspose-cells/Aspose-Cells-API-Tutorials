@@ -16,7 +16,7 @@ Trong thế giới số ngày nay, việc bảo mật tài liệu quan trọng h
 Trước khi đi sâu vào phần cốt lõi của việc viết mã, bạn cần phải chuẩn bị một số điều sau:
 
 1.  Aspose.Cells cho .NET: Đảm bảo bạn đã cài đặt thư viện Aspose.Cells trong dự án .NET của mình. Bạn có thể tải xuống từ[địa điểm](https://releases.aspose.com/cells/net/).
-2.  Tệp chứng chỉ: Bạn sẽ cần một tệp chứng chỉ hợp lệ (thường là`.pfx` tệp) có chứa chứng chỉ số của bạn. Đảm bảo bạn biết mật khẩu cho tệp này.
+2.  Tệp chứng chỉ: Bạn sẽ cần một tệp chứng chỉ hợp lệ (thường là`.pfx`tệp) có chứa chứng chỉ số của bạn. Đảm bảo bạn biết mật khẩu cho tệp này.
 3. Môi trường phát triển: Thiết lập môi trường phát triển của bạn bằng Visual Studio hoặc bất kỳ IDE nào khác hỗ trợ .NET.
 4. Kiến thức cơ bản về C#: Sự quen thuộc với lập trình C# sẽ giúp bạn theo dõi dễ dàng hơn.
 5. Tệp mẫu: Có tệp Excel mẫu đã được ký kỹ thuật số. Đây sẽ là tệp mà bạn sẽ thêm chữ ký mới.
@@ -51,7 +51,7 @@ Trong bước này, chúng tôi sử dụng phương pháp để lấy đường
 
 ## Bước 2: Tải Workbook đã ký
 
-Tiếp theo, bạn sẽ cần tải sổ làm việc Excel mà bạn muốn sửa đổi. Điều này được thực hiện bằng cách tạo một phiên bản của`Workbook` lớp và truyền đường dẫn đến tệp đã ký.
+ Tiếp theo, bạn sẽ cần tải sổ làm việc Excel mà bạn muốn sửa đổi. Điều này được thực hiện bằng cách tạo một phiên bản của`Workbook` lớp và truyền đường dẫn đến tệp đã ký.
 
 ```csharp
 // Tải sổ làm việc đã được ký số
@@ -84,7 +84,7 @@ string password = "aspose";
 System.Security.Cryptography.X509Certificates.X509Certificate2 certificate = new System.Security.Cryptography.X509Certificates.X509Certificate2(certFileName, password);
 ```
 
- Hãy chắc chắn thay thế`AsposeDemo.pfx` và mật khẩu với tên tệp chứng chỉ và mật khẩu thực tế của bạn.
+ Hãy chắc chắn thay thế`AsposeDemo.pfx`và mật khẩu với tên tệp chứng chỉ và mật khẩu thực tế của bạn.
 
 ## Bước 5: Tạo chữ ký số
 
@@ -113,7 +113,7 @@ Bằng cách thực hiện dòng này, về cơ bản bạn đang đính kèm ch
 Cuối cùng, bạn sẽ muốn lưu bảng tính đã sửa đổi vào thư mục đầu ra và giải phóng mọi tài nguyên đang được sử dụng.
 
 ```csharp
-// Lưu bảng tính và xóa nó.
+//Lưu bảng tính và xóa nó.
 workbook.Save(outputDir + "outputDigitallySignedByCells.xlsx");
 workbook.Dispose();
 ```

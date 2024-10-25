@@ -27,7 +27,7 @@ Untuk memulai, kita perlu mengimpor paket-paket yang diperlukan ke dalam proyek 
 - Pilih "Kelola Paket NuGet".
 - Cari "Aspose.Cells" dan instal pustakanya.
 ### Mengimpor Ruang Nama
-Di bagian atas file program Anda (misalnya,`Program.cs`), Anda perlu mengimpor namespace yang diperlukan:
+ Di bagian atas file program Anda (misalnya,`Program.cs`), Anda perlu mengimpor namespace yang diperlukan:
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -118,7 +118,7 @@ Objek OLE adalah berkas tertanam yang memungkinkan Anda mengintegrasikan dokumen
 ### Bisakah Aspose.Cells bekerja dengan format file lain?  
 Ya! Aspose.Cells mendukung berbagai format, termasuk XLS, XLSX, CSV, dan banyak lagi.
 ### Apakah ada uji coba gratis yang tersedia untuk Aspose.Cells?  
- Ya! Anda dapat mencobanya[Di Sini](https://releases.aspose.com/).
+Ya! Anda dapat mencobanya[Di Sini](https://releases.aspose.com/).
 ### Bisakah saya mengakses beberapa objek OLE dalam satu lembar kerja?  
  Tentu saja! Anda dapat mengulanginya`ws.OleObjects` untuk mengakses semua objek OLE yang tertanam dalam lembar kerja.
 ### Bagaimana cara membeli lisensi untuk Aspose.Cells?  

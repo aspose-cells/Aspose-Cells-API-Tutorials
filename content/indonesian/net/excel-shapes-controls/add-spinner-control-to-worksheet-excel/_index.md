@@ -29,7 +29,7 @@ Sebelum Anda mulai membuat kode, ada baiknya Anda mengatur berkas-berkas Anda. M
 ```csharp
 // Jalur ke direktori dokumen.
 string dataDir = "Your Document Directory";
-//Buat direktori jika belum ada.
+// Buat direktori jika belum ada.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -41,7 +41,7 @@ Sekarang saatnya membuat buku kerja Excel tempat kita akan menambahkan kontrol S
 // Buat Buku Kerja baru.
 Workbook excelbook = new Workbook();
 ```
- Itu`Workbook`class merupakan file Excel. Dengan membuatnya, kita membuat buku kerja baru yang siap untuk dimodifikasi.
+ Itu`Workbook` class merupakan file Excel. Dengan membuatnya, kita membuat buku kerja baru yang siap untuk dimodifikasi.
 ## Langkah 3: Akses Lembar Kerja Pertama
 Kita akan menambahkan Spinner ke lembar kerja pertama dalam buku kerja.
 ```csharp
@@ -117,6 +117,6 @@ Ya, Anda dapat mengubah ukuran, posisi, dan bahkan bayangan 3-D untuk tampilan y
 ### Apakah saya memerlukan lisensi untuk menggunakan Aspose.Cells?
  Aspose.Cells menawarkan uji coba gratis, tetapi lisensi berbayar diperlukan untuk penggunaan produksi. Lihat[opsi pembelian](https://purchase.aspose.com/buy).
 ### Bagaimana saya bisa mendapatkan bantuan dengan Aspose.Cells?
- Untuk dukungan, kunjungi[Forum Aspose](https://forum.aspose.com/c/cells/9)tempat Anda dapat mengajukan pertanyaan dan mendapatkan jawaban.
+ Untuk dukungan, kunjungi[Forum Aspose](https://forum.aspose.com/c/cells/9) tempat Anda dapat mengajukan pertanyaan dan mendapatkan jawaban.
 ### Apakah mungkin untuk menambahkan beberapa Spinner ke lembar kerja yang sama?
 Tentu saja! Anda dapat menambahkan Spinner sebanyak yang dibutuhkan dengan mengikuti langkah yang sama untuk setiap kontrol.

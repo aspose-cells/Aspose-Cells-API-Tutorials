@@ -70,7 +70,7 @@ string outputDir = "C:\\YourOutputDirectory\\"; // Przejdź do określonego kata
 
 ## Krok 2: Tworzenie instancji obiektu skoroszytu
 
-Następnie tworzymy instancję`Workbook` klasa. To tutaj będzie się odbywać cała nasza praca.
+ Następnie tworzymy instancję`Workbook` klasa. To tutaj będzie się odbywać cała nasza praca.
 ```csharp
 Workbook workbook = new Workbook();
 ```

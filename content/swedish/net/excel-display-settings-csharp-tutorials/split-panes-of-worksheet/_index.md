@@ -15,7 +15,7 @@ url: /sv/net/excel-display-settings-csharp-tutorials/split-panes-of-worksheet/
 
 Innan vi börjar dela upp rutor som en kalkylbladsguide, låt oss göra rätt inställningar. Här är vad du behöver:
 
--  Aspose.Cells för .NET: Se till att du har laddat ner och installerat det. Om du inte har det ännu, ta den[här](https://releases.aspose.com/cells/net/).
+-  Aspose.Cells för .NET: Se till att du har laddat ner och installerat det. Om du inte har gjort det ännu, ta den[här](https://releases.aspose.com/cells/net/).
 - .NET Framework: Den här guiden förutsätter att du arbetar i en .NET-miljö.
 - En Excel-arbetsbok: Vi använder ett exempel på en Excel-fil för att visa hur den här funktionen fungerar.
 -  En tillfällig eller fullständig licens: Aspose.Cells kräver en licens. Om du bara provar det, skaffa en[gratis tillfällig licens](https://purchase.aspose.com/temporary-license/) för att undvika utvärderingsbegränsningar.

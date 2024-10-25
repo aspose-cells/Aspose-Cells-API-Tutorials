@@ -16,7 +16,7 @@ Excel 파일을 관리하는 것은 때때로 미궁을 탐색하는 것과 같�
 실제 코딩에 들어가기 전에 모든 것이 올바르게 설정되었는지 확인하는 것이 중요합니다. 필요한 것은 다음과 같습니다.
 
 1. Visual Studio: 컴퓨터에 Visual Studio(.NET을 지원하는 모든 버전)가 설치되어 있는지 확인하세요.
-2.  .NET용 Aspose.Cells: Aspose.Cells 라이브러리를 다운로드하여 설치하세요.[Aspose 사이트](https://releases.aspose.com/cells/net/).
+2. .NET용 Aspose.Cells: Aspose.Cells 라이브러리를 다운로드하여 설치하세요.[Aspose 사이트](https://releases.aspose.com/cells/net/).
 3. C#에 대한 기본 지식: C# 컨텍스트에서 작업하게 되므로 C# 프로그래밍에 대한 약간의 지식이 있으면 좋습니다.
 4.  샘플 Excel 파일: 데모를 위해 샘플 Excel 파일을 준비하십시오(예:`sampleChangeCellsAlignmentAndKeepExistingFormatting.xlsx`)에 일부 초기 셀 서식이 포함되어 있습니다.
 
@@ -89,7 +89,7 @@ Worksheet ws = wb.Worksheets[0];
 범위를 만들어 변경할 셀을 결정합니다. 이 선택은 "B2:D7"과 같이 지정된 범위에 초점을 맞춥니다.
 
 ```csharp
-// 셀 범위를 만듭니다.
+//셀 범위를 만듭니다.
 Range rng = ws.Cells.CreateRange("B2:D7");
 ```
 
@@ -122,14 +122,14 @@ StyleFlag flag = new StyleFlag();
 flag.Alignments = true;
 ```
 
- 설정하여`Alignments`StyleFlag의 속성`true`, Aspose.Cells에 정렬 스타일을 올바르게 적용하라고 지시합니다.
+ 설정하여`Alignments` StyleFlag의 속성`true`, Aspose.Cells에 정렬 스타일을 올바르게 적용하라고 지시합니다.
 
 ## 7단계: 셀 범위에 스타일 적용
 
 스타일과 플래그가 준비되면 이제 셀 범위에 해당 스타일을 적용할 차례입니다.
 
 ```csharp
-// 셀 범위에 스타일을 적용합니다.
+//셀 범위에 스타일을 적용합니다.
 rng.ApplyStyle(st, flag);
 ```
 

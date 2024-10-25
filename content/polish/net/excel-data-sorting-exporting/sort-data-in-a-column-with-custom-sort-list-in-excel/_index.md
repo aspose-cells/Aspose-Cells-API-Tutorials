@@ -2,7 +2,7 @@
 title: Sortowanie danych w kolumnie za pomocą niestandardowej listy sortowania w programie Excel
 linktitle: Sortowanie danych w kolumnie za pomocą niestandardowej listy sortowania w programie Excel
 second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: W tym kompleksowym samouczku dowiesz się, jak sortować dane w programie Excel za pomocą niestandardowej listy sortowania w Aspose.Cells for .NET.
+description: tym kompleksowym samouczku dowiesz się, jak sortować dane w programie Excel za pomocą niestandardowej listy sortowania w Aspose.Cells for .NET.
 type: docs
 weight: 10
 url: /pl/net/excel-data-sorting-exporting/sort-data-in-a-column-with-custom-sort-list-in-excel/

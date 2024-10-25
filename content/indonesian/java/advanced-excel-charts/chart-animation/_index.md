@@ -16,7 +16,7 @@ Dalam tutorial ini, kita akan menjelajahi cara membuat animasi grafik dinamis me
 
 Sebelum kita mulai membuat animasi grafik, pastikan Anda memiliki prasyarat berikut:
 
-1. Aspose.Cells untuk Java: Pastikan Anda telah menginstal pustaka Aspose.Cells untuk Java. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/cells/java/).
+1.  Aspose.Cells untuk Java: Pastikan Anda telah menginstal pustaka Aspose.Cells untuk Java. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/cells/java/).
 
 2. Lingkungan Pengembangan Java: Anda harus menyiapkan lingkungan pengembangan Java di sistem Anda.
 
@@ -82,7 +82,7 @@ Dalam tutorial ini, kita mempelajari cara membuat animasi bagan menggunakan Aspo
 
 ### Bagaimana cara mengubah jenis animasi?
 
- Untuk mengubah jenis animasi, gunakan`setAnimationType` metode pada objek grafik. Anda dapat memilih dari berbagai jenis seperti`SLIDE`, `FADE` Dan`GROW_SHRINK`.
+ Untuk mengubah jenis animasi, gunakan`setAnimationType` metode pada objek grafik. Anda dapat memilih dari berbagai jenis seperti`SLIDE`, `FADE` , Dan`GROW_SHRINK`.
 
 ### Bisakah saya menyesuaikan durasi animasi?
 
@@ -90,4 +90,4 @@ Dalam tutorial ini, kita mempelajari cara membuat animasi bagan menggunakan Aspo
 
 ### Apa tujuan penundaan animasi?
 
- Penundaan animasi menentukan jeda waktu sebelum animasi grafik dimulai. Gunakan`setAnimationDelay` metode untuk mengatur penundaan dalam milidetik.
+ Penundaan animasi menentukan jeda waktu sebelum animasi grafik dimulai. Gunakan`setAnimationDelay`metode untuk mengatur penundaan dalam milidetik.

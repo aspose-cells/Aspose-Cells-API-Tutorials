@@ -12,7 +12,7 @@ Ti sei mai chiesto come salvare senza sforzo i file di fogli di calcolo in diver
 ## Prerequisiti
 Prima di entrare nei dettagli, assicuriamoci di aver impostato tutto correttamente:
 - .NET Framework: assicurati di avere .NET Framework installato sul tuo computer. Puoi usare qualsiasi versione compatibile con Aspose.Cells per .NET.
-- Libreria Aspose.Cells: dovrai scaricare la libreria Aspose.Cells. È uno strumento potente che ti consente di gestire file Excel e altro ancora. Puoi ottenerlo da[collegamento per il download](https://releases.aspose.com/cells/net/).
+-  Libreria Aspose.Cells: dovrai scaricare la libreria Aspose.Cells. È uno strumento potente che ti consente di gestire file Excel e altro ancora. Puoi ottenerlo da[collegamento per il download](https://releases.aspose.com/cells/net/).
 - Ambiente di sviluppo: è essenziale un ambiente di sviluppo adatto, come Visual Studio, in cui è possibile scrivere ed eseguire il codice .NET.
 Ora che abbiamo soddisfatto i prerequisiti, importiamo i pacchetti necessari.
 ## Importa pacchetti

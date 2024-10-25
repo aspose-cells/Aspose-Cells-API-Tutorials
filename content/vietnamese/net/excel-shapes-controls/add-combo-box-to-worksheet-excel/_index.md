@@ -29,7 +29,7 @@ Bước đầu tiên là tạo một thư mục nơi các tệp Excel của bạ
 ```csharp
 // Đường dẫn đến thư mục tài liệu.
 string dataDir = "Your Document Directory";
-//Tạo thư mục nếu thư mục đó chưa có.
+// Tạo thư mục nếu thư mục đó chưa có.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);

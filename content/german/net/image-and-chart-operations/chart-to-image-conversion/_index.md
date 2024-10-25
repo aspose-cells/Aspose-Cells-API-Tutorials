@@ -36,7 +36,7 @@ Wir beginnen damit, den Pfad für unser Dokumentverzeichnis zu definieren und si
 ```csharp
 // Definieren Sie das Verzeichnis zum Speichern von Bildern
 string dataDir = "Your Document Directory";
-// Überprüfen Sie, ob das Verzeichnis existiert
+//Überprüfen Sie, ob das Verzeichnis existiert
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -93,7 +93,7 @@ chart.NSeries.Add("A1:B3", true);
 ## Schritt 7: Konvertieren Sie das Diagramm in ein Bild
 Der Moment der Wahrheit: Wir werden dieses Diagramm in eine Bilddatei konvertieren!
 
- Hier verwenden wir die`ToImage`Methode, um das Diagramm in ein Bildformat Ihrer Wahl zu konvertieren. In diesem Fall konvertieren wir es in ein EMF-Format (Enhanced Metafile).
+ Hier verwenden wir die`ToImage` Methode, um das Diagramm in ein Bildformat Ihrer Wahl zu konvertieren. In diesem Fall konvertieren wir es in ein EMF-Format (Enhanced Metafile).
 ```csharp
 // Konvertieren Sie das Diagramm in ein Bild und speichern Sie es im Verzeichnis
 chart.ToImage(dataDir + "Chart.emf", ImageFormat.Emf);

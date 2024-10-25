@@ -68,7 +68,7 @@ Workbook wb = new Workbook(sourceDir + "sampleExternalConnection_XLSB.xlsb");
 Aspose.Cells.ExternalConnections.DBConnection dbCon = wb.DataConnections[0] as Aspose.Cells.ExternalConnections.DBConnection;
 ```
 
- 여기,`DataConnections[0]`통합 문서의 첫 번째 연결을 참조합니다. 우리는 그것을 다음과 같이 캐스팅하고 있습니다.`DBConnection` 추가 조작을 위해 입력하세요.
+ 여기,`DataConnections[0]` 통합 문서의 첫 번째 연결을 참조합니다. 우리는 그것을 다음과 같이 캐스팅하고 있습니다.`DBConnection` 추가 조작을 위해 입력하세요.
 
 ## 4단계: 연결 정보 추출
 

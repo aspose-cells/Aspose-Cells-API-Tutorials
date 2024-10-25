@@ -83,7 +83,7 @@ Console.WriteLine("ConvertSmartArtToGroupShape executed successfully.\r\n");
 ```
 
 ## Kesimpulan
-Nah, itu dia! Anda telah berhasil mengonversi tata letak Smart Art menjadi Group Shape menggunakan Aspose.Cells untuk .NET. Pustaka canggih ini menyederhanakan operasi yang rumit dan memberi Anda kemampuan untuk memanipulasi file Excel seperti seorang profesional. Jangan ragu untuk bereksperimen dengan bentuk lain, karena Aspose.Cells dapat menangani banyak fungsi. 
+Nah, itu dia! Anda telah berhasil mengubah tata letak Smart Art menjadi Group Shape menggunakan Aspose.Cells untuk .NET. Pustaka canggih ini menyederhanakan operasi yang rumit dan memberi Anda kemampuan untuk memanipulasi file Excel seperti seorang profesional. Jangan ragu untuk bereksperimen dengan bentuk lain, karena Aspose.Cells dapat menangani banyak fungsi. 
 ## Pertanyaan yang Sering Diajukan
 ### Bisakah saya mengonversi beberapa bentuk Smart Art sekaligus?
 Tentu saja! Anda dapat mengulang semua bentuk dan menerapkan logika yang sama pada masing-masing bentuk.

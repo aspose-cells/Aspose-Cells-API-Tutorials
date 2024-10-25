@@ -47,7 +47,7 @@ int sheetIndex = workbook.Worksheets.Add();
 ```csharp
 Worksheet worksheet = workbook.Worksheets[sheetIndex];
 ```
-これで、`worksheet`画像などのコンテンツを追加するオブジェクト。
+これで、`worksheet`画像を含むコンテンツを追加するオブジェクト。
 ## ステップ5: 画像の追加
 次は、面白い部分です。ここで、ワークシートに画像を追加します。画像を固定する行と列のインデックスを指定します (この場合は、セル "F6"、つまり行 5、列 5)。
 ```csharp
@@ -84,6 +84,6 @@ Aspose.Cells for .NET は、開発者が Microsoft Excel を必要とせずに�
 ### Aspose.Cells は無料で使用できますか?
  Aspose.Cellsは商用製品ですが、無料トライアル版をご利用いただくこともできます。[無料トライアルページ](https://releases.aspose.com/).
 ### Aspose.Cells の一時ライセンスを取得するにはどうすればよいですか?
-一時ライセンスの申請は、[一時ライセンスページ](https://purchase.aspose.com/temporary-license/)Aspose によって提供されます。
+一時ライセンスの申請は、[一時ライセンスページ](https://purchase.aspose.com/temporary-license/) Aspose によって提供されます。
 ### その他の例やドキュメントはどこで見つかりますか?
 の[Aspose.Cells ドキュメント](https://reference.aspose.com/cells/net/)コード例やより詳細な機能を含む広範なリソースが含まれています。

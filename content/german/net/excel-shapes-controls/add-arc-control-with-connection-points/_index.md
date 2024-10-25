@@ -29,7 +29,7 @@ using System.Drawing;
 Das Wichtigste zuerst: Richten wir ein Verzeichnis ein, in dem Sie diese tollen neuen Excel-Dateien speichern. Und so gehen wir vor:
 ```csharp
 string dataDir = "Your Document Directory";
-//Erstellen Sie ein Verzeichnis, falls es noch nicht vorhanden ist.
+// Erstellen Sie ein Verzeichnis, falls es noch nicht vorhanden ist.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);

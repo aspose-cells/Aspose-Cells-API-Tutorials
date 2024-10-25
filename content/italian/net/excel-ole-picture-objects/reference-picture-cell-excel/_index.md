@@ -64,7 +64,7 @@ Colleghiamo la nostra immagine alle celle che abbiamo compilato in precedenza.
 pic.Formula = "A1:C10";
 ```
 
-- Qui, stiamo impostando una formula per l'immagine che si riferisce all'intervallo da A1 a C10. Ciò consentirà all'immagine di rappresentare visivamente i dati in questo intervallo. Immagina che le tue cellule siano la tela e l'immagine diventa un punto focale sbalorditivo!
+- Qui, stiamo impostando una formula per l'immagine che si riferisce all'intervallo da A1 a C10. Ciò consentirà all'immagine di rappresentare visivamente i dati in questo intervallo. Immagina che le tue cellule siano la tela e l'immagine diventa uno straordinario punto focale!
 ## Passaggio 5: aggiorna il valore delle forme selezionate
 Per garantire che le modifiche vengano applicate al foglio di lavoro, dobbiamo aggiornare le forme:
 ```csharp

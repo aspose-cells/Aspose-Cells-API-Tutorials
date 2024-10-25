@@ -12,7 +12,7 @@ Dans le monde technophile d'aujourd'hui, la gestion des fichiers Excel est une t
 ## Prérequis
 Avant de plonger dans les détails de l’extraction d’objets OLE, vous devez mettre en place quelques éléments :
 1. Connaissances de base de C# : Si vous connaissez C#, vous êtes déjà sur la bonne voie. Sinon, ne vous inquiétez pas ! Nous allons vous simplifier la tâche.
-2.  Aspose.Cells installé : vous aurez besoin de la bibliothèque Aspose.Cells. Vous pouvez la télécharger depuis le site[ici](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells installé : vous aurez besoin de la bibliothèque Aspose.Cells. Vous pouvez la télécharger depuis le site[ici](https://releases.aspose.com/cells/net/).
 3. Un environnement de développement compatible : assurez-vous d’avoir configuré un environnement de développement .NET, tel que Visual Studio, prêt à l’emploi.
 4. Un exemple de fichier Excel : vous aurez besoin d’un fichier Excel avec des objets OLE intégrés pour les tests. 
 Une fois ces conditions préalables en place, nous pouvons commencer notre voyage dans le monde de l’extraction d’objets OLE.
@@ -44,7 +44,7 @@ Vient maintenant la partie amusante : parcourir tous les objets OLE de notre col
 for (int i = 0; i < oles.Count; i++)
 {
     Aspose.Cells.Drawing.OleObject ole = oles[i];
-    //Logique supplémentaire pour gérer chaque objet
+    // Logique supplémentaire pour gérer chaque objet
 }
 ```
 ## Étape 5 : Spécifiez le nom du fichier de sortie

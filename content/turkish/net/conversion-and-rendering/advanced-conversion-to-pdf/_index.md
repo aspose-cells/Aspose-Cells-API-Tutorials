@@ -60,7 +60,7 @@ Artık gerçek dönüşüm sürecine dalmaya hazırız. Bunu yönetilebilir adı
 
 ```csharp
 // Belgeler dizinine giden yol.
-string dataDir = "Your Document Directory";  //Bu yolu belirli dizininize güncelleyin
+string dataDir = "Your Document Directory";  // Bu yolu belirli dizininize güncelleyin
 ```
 
  Değiştirdiğinizden emin olun`"Your Document Directory"` gerçek yolla. Bu, sıkı çalışmanız için yeni bir yuva bulmak gibi!
@@ -129,4 +129,4 @@ Hayır, Excel dosyalarını işleme işlevlerine erişmek için Aspose.Cells kü
 Aspose.Cells, PDF'nin yanı sıra XLSX, CSV, HTML ve daha birçok formatı da destekliyor.
 
 ### Aspose.Cells'in ücretsiz bir versiyonu var mı?
- Evet, özellikleri keşfetmek için ücretsiz deneme sürümüyle başlayabilirsiniz[Burada](https://releases.aspose.com/).
+Evet, özellikleri keşfetmek için ücretsiz deneme sürümüyle başlayabilirsiniz[Burada](https://releases.aspose.com/).

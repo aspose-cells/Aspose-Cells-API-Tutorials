@@ -60,7 +60,7 @@ Com nossa pasta de trabalho pronta, é hora de adicionar algumas propriedades de
 int index = workbook.ContentTypeProperties.Add("MK31", "Simple Data");
 ```
 
- Nesta etapa, adicionamos uma propriedade chamada "MK31" com o valor "Simple Data". A`Add` O método retorna o índice da propriedade recém-adicionada, que podemos usar mais tarde.
+ Nesta etapa, adicionamos uma propriedade chamada "MK31" com o valor "Simple Data". A`Add` método retorna o índice da propriedade recém-adicionada, que podemos usar mais tarde.
 
 ### Definir propriedade anulável
 
@@ -79,7 +79,7 @@ index = workbook.ContentTypeProperties.Add("MK32", DateTime.Now.ToString("yyyy-M
 workbook.ContentTypeProperties[index].IsNillable = true;
 ```
 
-Neste snippet, criamos uma propriedade chamada "MK32" com a data e hora atuais formatadas de acordo com ISO 8601. Tornamos essa propriedade anulável definindo`IsNillable` para`true`.
+ Neste snippet, criamos uma propriedade chamada "MK32" com a data e hora atuais formatadas de acordo com ISO 8601. Tornamos essa propriedade anulável definindo`IsNillable` para`true`.
 
 ## Etapa 4: Salve a pasta de trabalho
 
@@ -103,7 +103,7 @@ Esta mensagem aparecerá no seu console após a conclusão bem-sucedida de todas
 
 ## Conclusão
 
-aí está! Você adicionou com sucesso propriedades de tipo de conteúdo personalizado a uma pasta de trabalho do Excel usando o Aspose.Cells para .NET. Ao seguir este guia passo a passo, você não só aprendeu a manipular arquivos do Excel, mas também aprimorou seus recursos de metadados. Essa habilidade é particularmente útil para aplicativos que precisam armazenar contexto ou informações adicionais junto com seus dados, tornando suas pastas de trabalho mais funcionais e informativas.
+E aí está! Você adicionou com sucesso propriedades de tipo de conteúdo personalizado a uma pasta de trabalho do Excel usando o Aspose.Cells para .NET. Ao seguir este guia passo a passo, você não só aprendeu a manipular arquivos do Excel, mas também aprimorou seus recursos de metadados. Essa habilidade é particularmente útil para aplicativos que precisam armazenar contexto ou informações adicionais junto com seus dados, tornando suas pastas de trabalho mais funcionais e informativas.
 
 ## Perguntas frequentes
 
@@ -120,4 +120,4 @@ Sim! O Aspose.Cells suporta vários formatos, incluindo XLS, XLSX, CSV e outros.
 Absolutamente! Você pode adicionar objetos complexos a propriedades de tipo de conteúdo, desde que eles possam ser serializados corretamente.
 
 ### Onde posso encontrar mais documentação?
- Para obter orientações mais detalhadas, consulte o[Documentação do Aspose.Cells](https://reference.aspose.com/cells/net/).
+Para obter orientações mais detalhadas, consulte o[Documentação do Aspose.Cells](https://reference.aspose.com/cells/net/).

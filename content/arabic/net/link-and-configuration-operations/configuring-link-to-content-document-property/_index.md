@@ -15,11 +15,11 @@ url: /ar/net/link-and-configuration-operations/configuring-link-to-content-docum
 
 قبل أن نبدأ، تأكد من أن كل ما تحتاجه جاهز. فبدون المتطلبات الأساسية التالية، لن تسير العملية بسلاسة:
 
-1.  مكتبة Aspose.Cells for .NET: يجب أن يكون لديك Aspose.Cells for .NET مثبتًا على جهازك. إذا لم تقم بتنزيله بعد، فاحصل عليه من[صفحة تنزيل Aspose.Cells لـ .NET](https://releases.aspose.com/cells/net/).
+1. مكتبة Aspose.Cells for .NET: يجب أن يكون لديك Aspose.Cells for .NET مثبتًا على جهازك. إذا لم تقم بتنزيله بعد، فاحصل عليه من[صفحة تنزيل Aspose.Cells لـ .NET](https://releases.aspose.com/cells/net/).
 2. بيئة التطوير: استخدم أي بيئة تطوير تدعم .NET مثل Visual Studio.
 3. المعرفة الأساسية بلغة C#: يفترض هذا الدليل أن لديك بعض المعرفة بلغة C# و.NET.
 4. ملف Excel: لديك ملف Excel موجود للعمل عليه. في مثالنا، سنستخدم ملفًا يسمى "sample-document-properties.xlsx".
-5. رخصة مؤقتة: إذا لم يكن لديك ترخيص كامل، يمكنك الحصول على[رخصة مؤقتة هنا](https://purchase.aspose.com/temporary-license/) لتجنب القيود المفروضة على معالجة الملفات.
+5.  رخصة مؤقتة: إذا لم يكن لديك ترخيص كامل، يمكنك الحصول على[رخصة مؤقتة هنا](https://purchase.aspose.com/temporary-license/) لتجنب القيود المفروضة على معالجة الملفات.
 
 ## استيراد الحزم
 
@@ -49,7 +49,7 @@ string dataDir = "Your Document Directory";
 Workbook workbook = new Workbook(dataDir + "sample-document-properties.xlsx");
 ```
 
--  مصنف العمل workbook = new Workbook(): ينشئ هذا السطر مصنفًا جديدًا`Workbook`الكائن، وهو الفئة الرئيسية المستخدمة للعمل مع ملفات Excel في Aspose.Cells.
+-  مصنف العمل workbook = new Workbook(): ينشئ هذا السطر مصنفًا جديدًا`Workbook` الكائن، وهو الفئة الرئيسية المستخدمة للعمل مع ملفات Excel في Aspose.Cells.
 - dataDir: هنا يمكنك تحديد المسار إلى ملف Excel الخاص بك. استبدل "دليل المستندات الخاص بك" بالمسار الفعلي على جهازك.
 
 فكر في هذه الخطوة على أنها فتح باب - فأنت تقوم بالوصول إلى الملف حتى تتمكن من إجراء التغييرات التي تحتاجها!
@@ -59,7 +59,7 @@ Workbook workbook = new Workbook(dataDir + "sample-document-properties.xlsx");
 بمجرد تحميل الملف، نحتاج إلى الوصول إلى خصائص المستند المخصصة له. يتم تخزين هذه الخصائص في مجموعة يمكنك استردادها ومعالجتها.
 
 ```csharp
-// استرداد قائمة بجميع خصائص المستند المخصصة لملف Excel
+//استرداد قائمة بجميع خصائص المستند المخصصة لملف Excel
 Aspose.Cells.Properties.CustomDocumentPropertyCollection customProperties = workbook.Worksheets.CustomDocumentProperties;
 ```
 
@@ -93,7 +93,7 @@ bool islinkedtocontent = customProperty1.IsLinkedToContent;
 ```
 
 - خصائص مخصصة["المالك"]: نقوم بجلب خاصية "المالك" بالاسم لتفقد تفاصيلها.
-- IsLinkedToContent: هذه القيمة المنطقية تُرجع`true` إذا تم ربط الخاصية بالمحتوى بنجاح.
+-  IsLinkedToContent: هذه القيمة المنطقية تُرجع`true` إذا تم ربط الخاصية بالمحتوى بنجاح.
 
 في هذه المرحلة، يكون الأمر أشبه بالتحقق من أن العلامة (الخاصية) مرتبطة بشكل صحيح بالمحتوى. فأنت تتأكد من أن الكود الخاص بك قام بما كنت تتوقعه.
 

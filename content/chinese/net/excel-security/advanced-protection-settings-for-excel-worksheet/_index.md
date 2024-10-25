@@ -16,7 +16,7 @@ url: /zh/net/excel-security/advanced-protection-settings-for-excel-worksheet/
 在深入研究代码之前，请确保您已准备好所需的一切：
 
 1. 开发环境：您应该在您的机器上安装 Visual Studio，因为它为 .NET 开发提供了一个优秀的 IDE。
-2. Aspose.Cells 库：下载 Aspose.Cells 库。您可以从[Aspose 下载页面](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells 库：下载 Aspose.Cells 库。您可以从[Aspose 下载页面](https://releases.aspose.com/cells/net/).
 3. 基本 C# 知识：确保您对 C# 和 .NET Framework 有充分的了解，以便轻松跟进。
 4. 创建项目：在 Visual Studio 中设置一个新的控制台应用程序，我们将在其中编写代码。
 

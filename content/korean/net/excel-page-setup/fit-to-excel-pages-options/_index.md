@@ -74,7 +74,7 @@ worksheet.PageSetup.FitToPagesWide = 1;
 ```
 
 - `FitToPagesTall` 워크시트가 수직으로 몇 페이지 분량인지 결정합니다.
-- `FitToPagesWide` 수평 페이지 설정을 정의합니다. 둘 다 설정`1`즉, 콘텐츠가 한 페이지에 깔끔하게 들어가고 문서가 간결한 걸작으로 변모합니다.
+- `FitToPagesWide` 수평 페이지 설정을 정의합니다. 둘 다 설정`1` 즉, 콘텐츠가 한 페이지에 깔끔하게 들어가고 문서가 간결한 걸작으로 변모합니다.
 
 ## 3단계: 통합 문서 저장
 
@@ -97,7 +97,7 @@ workbook.Save(dataDir + "FitToPagesOptions_out.xls");
 Aspose.Cells는 Excel 파일을 프로그래밍 방식으로 관리하기 위한 강력한 .NET 라이브러리로, 개발자가 스프레드시트를 쉽게 만들고 조작할 수 있도록 해줍니다.
 
 ### Aspose.Cells를 무료로 사용할 수 있나요?
-네! 무료 체험판에 가입할 수 있습니다.[여기](https://releases.aspose.com/).
+ 네! 무료 체험판에 가입할 수 있습니다.[여기](https://releases.aspose.com/).
 
 ### Aspose.Cells는 어떻게 구매하나요?
  구매를 할 수 있습니다[여기](https://purchase.aspose.com/buy).

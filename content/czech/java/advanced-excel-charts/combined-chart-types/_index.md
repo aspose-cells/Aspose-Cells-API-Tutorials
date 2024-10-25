@@ -36,7 +36,7 @@ import com.aspose.cells.*;
 Workbook workbook = new Workbook();
 ```
 
-### Krok 3: Přidejte list do sešitu.
+### Krok 3: Přidejte do sešitu list.
 
 ```java
 Worksheet worksheet = workbook.getWorksheets().get(0);
@@ -104,7 +104,7 @@ chart.toImage("CombinedChart.png", ImageFormat.getPng());
 
 ## Závěr
 
-tomto článku jsme prozkoumali, jak vytvořit kombinované typy grafů pomocí Aspose.Cells for Java. Začali jsme tím, že jsme pochopili, co je Aspose.Cells for Java, a poté jsme pokračovali podrobnými pokyny pro vytvoření kombinovaného grafu, přidání dat do něj, přizpůsobení jeho vzhledu a jeho uložení/exportování. S Aspose.Cells for Java můžete uvolnit sílu vizualizace dat ve vašich aplikacích Java.
+V tomto článku jsme prozkoumali, jak vytvořit kombinované typy grafů pomocí Aspose.Cells for Java. Začali jsme tím, že jsme pochopili, co je Aspose.Cells for Java, a poté jsme pokračovali podrobnými pokyny pro vytvoření kombinovaného grafu, přidání dat do něj, přizpůsobení jeho vzhledu a jeho uložení/exportování. S Aspose.Cells for Java můžete uvolnit sílu vizualizace dat ve vašich aplikacích Java.
 
 ## FAQ
 

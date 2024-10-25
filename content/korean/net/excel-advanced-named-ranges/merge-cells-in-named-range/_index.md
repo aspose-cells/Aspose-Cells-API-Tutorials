@@ -60,7 +60,7 @@ Worksheet worksheet1 = wb1.Worksheets[0];
 이제 워크시트가 있으니 범위를 만들 차례입니다. 범위는 여러 행과 열에 걸쳐 있을 수 있는 셀 블록을 말합니다.
 
 ```csharp
-// 범위를 만듭니다.
+//범위를 만듭니다.
 Range mrange = worksheet1.Cells.CreateRange("D6", "I12");
 ```
 
@@ -133,7 +133,7 @@ flag.CellShading = true;
 range1.ApplyStyle(style, flag);
 ```
 
- 그만큼`StyleFlag`Aspose.Cells에 적용할 스타일 속성(정렬, 음영 등)을 알려줍니다. 이를 통해 스타일이 적용되는 방식을 세부적으로 제어할 수 있습니다.
+ 그만큼`StyleFlag` Aspose.Cells에 적용할 스타일 속성(정렬, 음영 등)을 알려줍니다. 이를 통해 스타일이 적용되는 방식을 세부적으로 제어할 수 있습니다.
 
 ## 9단계: 병합된 범위에 데이터 입력
 

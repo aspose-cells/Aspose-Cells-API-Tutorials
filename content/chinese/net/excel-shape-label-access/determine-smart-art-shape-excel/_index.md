@@ -13,7 +13,7 @@ url: /zh/net/excel-shape-label-access/determine-smart-art-shape-excel/
 ## 先决条件
 在深入讨论技术细节之前，让我们先介绍一下学习本教程需要准备哪些内容：
 1. Visual Studio：我们将在这里编写代码。请确保您拥有与 .NET Framework 或 .NET Core 兼容的版本。
-2. Aspose.Cells for .NET：您需要安装此库。您可以从[Aspose 网站](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells for .NET：您需要安装此库。您可以从[Aspose 网站](https://releases.aspose.com/cells/net/).
 3. 基本编程知识：熟悉 C# 并理解类和方法等概念将使这个过程更加顺畅。
 4. 示例 Excel 文件：您还需要一个包含形状和 Smart Art 的示例 Excel 文件以供测试。
 满足这些先决条件后，您就可以开始编写代码了！

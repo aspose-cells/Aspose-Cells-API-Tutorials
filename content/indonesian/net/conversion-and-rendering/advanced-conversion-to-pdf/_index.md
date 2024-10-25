@@ -60,7 +60,7 @@ Hal pertama yang harus dilakukan: kita perlu menentukan di mana dokumen kita aka
 
 ```csharp
 // Jalur ke direktori dokumen.
-string dataDir = "Your Document Directory";  //Perbarui jalur ini ke direktori spesifik Anda
+string dataDir = "Your Document Directory";  // Perbarui jalur ini ke direktori spesifik Anda
 ```
 
  Pastikan untuk mengganti`"Your Document Directory"` dengan jalur yang sebenarnya. Ini seperti menemukan rumah baru untuk kerja keras Anda!
@@ -129,4 +129,4 @@ Tidak, Anda perlu menginstal pustaka Aspose.Cells untuk mengakses fungsinya dala
 Selain PDF, Aspose.Cells juga mendukung format seperti XLSX, CSV, HTML, dan banyak lagi.
 
 ### Apakah ada versi gratis Aspose.Cells?
- Ya, Anda dapat memulai dengan versi uji coba gratis untuk menjelajahi fitur-fiturnya[Di Sini](https://releases.aspose.com/).
+Ya, Anda dapat memulai dengan versi uji coba gratis untuk menjelajahi fitur-fiturnya[Di Sini](https://releases.aspose.com/).

@@ -62,7 +62,7 @@ string outputDir = "Your Output Directory";
 Workbook workbook = new Workbook(sourceDir + "sampleAddingLabelControlInChart.xls");
 ```
 
-ここでは、`Workbook`Aspose.Cells のクラスを使用して Excel ファイルを開きます。まるで創造力が解き放たれる扉を開けたような感じです。
+ここでは、`Workbook` Aspose.Cells のクラスを使用して Excel ファイルを開きます。まるで創造力が解き放たれる扉を開けたような感じです。
 
 ## ステップ3: ワークシートにアクセスする
 

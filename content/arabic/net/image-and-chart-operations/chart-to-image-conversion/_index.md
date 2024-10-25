@@ -36,7 +36,7 @@ using Aspose.Cells;
 ```csharp
 // تحديد الدليل لحفظ الصور
 string dataDir = "Your Document Directory";
-// التحقق من وجود الدليل
+//التحقق من وجود الدليل
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -93,7 +93,7 @@ chart.NSeries.Add("A1:B3", true);
 ## الخطوة 7: تحويل الرسم البياني إلى صورة
 لحظة الحقيقة: سنقوم بتحويل هذا الرسم البياني إلى ملف صورة!
 
- هنا نستخدم`ToImage`طريقة لتحويل الرسم البياني إلى تنسيق الصورة الذي تختاره. في هذه الحالة، نقوم بتحويله إلى تنسيق EMF (ملف تعريف محسن).
+ هنا نستخدم`ToImage` طريقة لتحويل الرسم البياني إلى تنسيق الصورة الذي تختاره. في هذه الحالة، نقوم بتحويله إلى تنسيق EMF (ملف تعريف محسن).
 ```csharp
 // تحويل الرسم البياني إلى صورة وحفظه في الدليل
 chart.ToImage(dataDir + "Chart.emf", ImageFormat.Emf);

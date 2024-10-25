@@ -48,7 +48,7 @@ string sourceDir = "Your Document Directory";
 ```
 2. このディレクトリ内に、SXCサンプルファイル（例：`SampleSXC.sxc`）をテスト用に使用しました。
 ## ステップ 4: ワークブック オブジェクトの作成
-ソースディレクトリを設定したら、`Workbook` SXC ファイルを読み込むオブジェクト:
+ソースディレクトリを設定したら、`Workbook`SXC ファイルを読み込むオブジェクト:
 ```csharp
 Workbook workbook = new Workbook(sourceDir + "SampleSXC.sxc");
 ```

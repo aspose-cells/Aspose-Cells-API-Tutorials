@@ -71,7 +71,7 @@ foreach (ReferredArea area in ret)
     Console.WriteLine(CellsHelper.CellIndexToName(area.EndRow, area.EndColumn));
 }
 ```
- Bu kod parçacığında basit bir yöntem kullanıyoruz`foreach` B4'e beslenen hücrelerin sayfa adlarını ve hücre referanslarını yazdırmak için döngü.`CellsHelper.CellIndexToName`fonksiyon satır ve sütun indekslerini "A1", "B2" vb. gibi okunabilir hücre referanslarına dönüştürür. 
+ Bu kod parçacığında basit bir yöntem kullanıyoruz`foreach` B4'e beslenen hücrelerin sayfa adlarını ve hücre referanslarını yazdırmak için döngü.`CellsHelper.CellIndexToName` fonksiyon satır ve sütun indekslerini "A1", "B2" vb. gibi okunabilir hücre referanslarına dönüştürür. 
 
 ## Çözüm
 İşte karşınızda! Aspose.Cells for .NET kullanarak Excel'de emsalleri başarıyla izlediniz. Hücre bağımlılıklarını anlamak, elektronik tablo yönetimi becerilerinizi geliştirebilir ve veri odaklı kararlarınızda netlik sağlayabilir. Bu, bir bulmacayı çözmek, verilerinizin nereden geldiğini bir araya getirmek gibidir. Hadi, bunu kendi verilerinizde deneyin ve Aspose.Cells'in gücünü serbest bırakın!
@@ -85,4 +85,4 @@ Aspose.Cells, Microsoft Excel olmadan Excel elektronik tabloları oluşturmak, d
 ### Aspose.Cells .NET Core ile uyumlu mu?  
 Evet, Aspose.Cells .NET Core'u destekler, dolayısıyla onu çeşitli .NET çerçevelerinde kullanabilirsiniz.
 ### Aspose.Cells için desteği nerede bulabilirim?  
-Yardım alabilirsiniz[Aspose destek forumu](https://forum.aspose.com/c/cells/9).
+ Yardım alabilirsiniz[Aspose destek forumu](https://forum.aspose.com/c/cells/9).

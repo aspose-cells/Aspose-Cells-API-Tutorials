@@ -17,7 +17,7 @@ Pratik adımlara geçmeden önce, yerine getirmeniz gereken birkaç ön koşul v
 
 1. Visual Studio Kurulu: Kodumuzu bu ortamda yazacağımız için bilgisayarınızda Visual Studio'nun kurulu olduğundan emin olun.
 2.  Aspose.Cells for .NET Kütüphanesi: Aspose.Cells kütüphanesinin bir kopyasını edinin. Bunu şuradan indirebilirsiniz:[Aspose Sürümleri sayfası](https://releases.aspose.com/cells/net/) Eğer emin değilseniz, bir ile başlayabilirsiniz[ücretsiz deneme](https://releases.aspose.com/).
-3. Temel C# Bilgisi: C# programlamanın temellerini anlamak, özellikle kütüphanelerle çalışmaya yeni başladıysanız, sizin için faydalı olacaktır.
+3. Temel C# Bilgisi: Özellikle kütüphanelerle çalışmaya yeni başladıysanız, C# programlamanın temellerine dair bir anlayışa sahip olmak faydalı olacaktır.
 4. .NET Framework: Projenizin kütüphane için uyumlu bir .NET Framework sürümünü hedeflediğinden emin olun.
 
 Artık neye ihtiyacınız olduğunu belirlediğimize göre, gerekli paketleri içe aktararak başlayabiliriz.
@@ -29,7 +29,7 @@ Herhangi bir kod yazmadan önce, projenize Aspose.Cells kütüphanesine bir refe
 ### DLL'yi indirin
 
 1.  Git[Aspose İndirmeler sayfası](https://releases.aspose.com/cells/net/) ve .NET sürümünüze uygun paketi indirin.
-2. İndirilen dosyayı çıkarın ve bulun`Aspose.Cells.dll` dosya.
+2.  İndirilen dosyayı çıkarın ve bulun`Aspose.Cells.dll` dosya.
 
 ### Visual Studio'da Referans Ekleme
 

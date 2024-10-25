@@ -30,7 +30,7 @@ Vytvoříme cestu k adresáři a ověříme, zda existuje. Pokud složka neexist
 ```csharp
 // Cesta k adresáři dokumentů.
 string dataDir = "Your Document Directory";
-//Vytvořte adresář, pokud ještě není přítomen.
+// Vytvořte adresář, pokud ještě není přítomen.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);

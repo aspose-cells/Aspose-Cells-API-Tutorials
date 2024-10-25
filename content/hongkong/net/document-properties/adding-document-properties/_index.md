@@ -43,7 +43,7 @@ Workbook workbook = new Workbook(dataDir + "sample-document-properties.xlsx");
 ```csharp
 Aspose.Cells.Properties.CustomDocumentPropertyCollection customProperties = workbook.Worksheets.CustomDocumentProperties;
 ```
-如果您需要存取標題、作者或主題等預設屬性，您可以直接在`Workbook`班級。
+如果您需要存取標題、作者或主題等預設屬性，可以直接在`Workbook`班級。
 ## 步驟 4：新增自訂文件屬性
 令人興奮的部分來了——添加自訂文件屬性！在本例中，我們將新增一個名為「Publisher」的屬性。
 ```csharp

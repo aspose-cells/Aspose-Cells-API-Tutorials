@@ -16,7 +16,7 @@ Alapvető ismeretekkel kell rendelkeznie a C#-ról és a .NET-ről. Ez az oktat�
 ### Környezet beállítása
 1. Visual Studio: Győződjön meg arról, hogy telepítve van a Visual Studio. Ez egy fejlesztői környezet, amely leegyszerűsíti a kódolást.
 2.  Aspose.Cells Library: Szüksége van az Aspose.Cells könyvtárra. Ha még nem tette meg, letöltheti[itt](https://releases.aspose.com/cells/net/).
-3.  Minta Excel-fájl: Hozzon létre vagy töltsön le egy minta Excel-fájlt. Ehhez az oktatóanyaghoz egy nevű fájlt fogunk használni`sampleSetMarginsOfCommentOrShapeInsideTheWorksheet.xlsx`.
+3. Minta Excel-fájl: Hozzon létre vagy töltsön le egy minta Excel-fájlt. Ehhez az oktatóanyaghoz egy nevű fájlt fogunk használni`sampleSetMarginsOfCommentOrShapeInsideTheWorksheet.xlsx`.
 ## Csomagok importálása
 Utunk első lépése a szükséges csomagok importálása. Az Aspose.Cells névtereket bele kell foglalnia a projektbe. Ezzel hozzáférést biztosít az Aspose.Cells által kínált összes funkcióhoz.
 ### Nyissa meg projektjét
@@ -60,7 +60,7 @@ Ezután el kell érnünk az alakzatokat vagy megjegyzéseket tartalmazó konkré
 Worksheet ws = wb.Worksheets[0];
 ```
 Ez a kód az első munkalapot célozza meg, amelynek indexe 0.
-## 4. lépés: Iterálás alakzatokon keresztül
+## 4. lépés: Iteráció alakzatokon keresztül
 Most végig kell ismételnünk a munkalapon található összes alakzatot. Ez lehetővé teszi, hogy minden egyes talált alakzatra margóbeállításokat alkalmazzunk.
 ```csharp
 foreach (Shape sh in ws.Shapes)
@@ -72,7 +72,7 @@ Előfordulhat, hogy minden alakzatnak már van egy igazítási beállítása, am
 Aspose.Cells.Drawing.Texts.ShapeTextAlignment txtAlign = sh.TextBody.TextAlignment;
 txtAlign.IsAutoMargin = false;
 ```
- Beállítás által`IsAutoMargin` hamisra, most már mi irányítjuk a margókat.
+ Beállítással`IsAutoMargin`hamisra, most már mi irányítjuk a margókat.
 ## 6. lépés: Állítsa be a margókat
 Ez az a döntő lépés, ahol meghatározzuk a margókat. Ezeket az értékeket igényei szerint testreszabhatja.
 ```csharp
@@ -105,4 +105,4 @@ Az Aspose.Cells egy .NET-könyvtár, amely Excel-fájlok létrehozására, manip
 ### Könnyen integrálható a könyvtár a meglévő projektekbe?
 Teljesen! Az Aspose.Cells könnyen integrálható .NET-projektekbe, és API-ja egyszerű.
 ### Hol találok támogatást az Aspose.Cells számára?
-Az Aspose-n keresztül kaphat támogatást[fórum](https://forum.aspose.com/c/cells/9).
+ Az Aspose-n keresztül kaphat támogatást[fórum](https://forum.aspose.com/c/cells/9).

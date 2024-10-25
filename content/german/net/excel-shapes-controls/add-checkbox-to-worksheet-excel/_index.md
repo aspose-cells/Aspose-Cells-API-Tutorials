@@ -38,7 +38,7 @@ Zuerst müssen wir sicherstellen, dass das Verzeichnis zum Speichern unserer Exc
 ```csharp
 // Der Pfad zum Dokumentverzeichnis.
 string dataDir = "Your Document Directory";
-//Erstellen Sie ein Verzeichnis, falls es noch nicht vorhanden ist.
+// Erstellen Sie ein Verzeichnis, falls es noch nicht vorhanden ist.
 bool isExists = System.IO.Directory.Exists(dataDir);
 if (!isExists)
     System.IO.Directory.CreateDirectory(dataDir);

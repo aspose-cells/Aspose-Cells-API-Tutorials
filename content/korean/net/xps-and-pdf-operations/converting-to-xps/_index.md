@@ -50,7 +50,7 @@ Worksheet sheet = workbook.Worksheets[0]; // 첫 번째 워크시트에 접근�
 ```
 이 코드 줄을 사용하면 추가 명령을 위한 첫 번째 워크시트에 액세스할 수 있습니다.
 ## 4단계: 이미지 및 인쇄 옵션 구성
-이제 우리는 출력을 어떻게 렌더링할지 정의해야 합니다. 여기에는 인스턴스를 만드는 것이 포함됩니다.`ImageOrPrintOptions` 원하는 출력 형식을 설정합니다.
+ 이제 우리는 출력을 어떻게 렌더링할지 정의해야 합니다. 여기에는 인스턴스를 만드는 것이 포함됩니다.`ImageOrPrintOptions` 원하는 출력 형식을 설정합니다.
 ```csharp
 Aspose.Cells.Rendering.ImageOrPrintOptions options = new Aspose.Cells.Rendering.ImageOrPrintOptions();
 options.SaveFormat = SaveFormat.Xps; // 출력 형식을 XPS로 설정
@@ -82,4 +82,4 @@ XPS(XML Paper Specification)는 문서의 레이아웃과 모양을 유지하는
 ### 특정 시트만 변환하면 되는 경우는 어떻게 되나요?
  원하는 시트의 인덱스를 지정할 수 있습니다.`SheetRender` 우리가 단계에서 보여준 것과 같은 객체입니다.
 ### Aspose.Cells에 대한 자세한 정보는 어디에서 볼 수 있나요?
- 탐색할 수 있습니다[선적 서류 비치](https://reference.aspose.com/cells/net/)라이브러리에서 사용할 수 있는 더욱 고급 기능과 옵션에 대해서는 여기를 참조하세요.
+ 탐색할 수 있습니다[선적 서류 비치](https://reference.aspose.com/cells/net/) 라이브러리에서 사용할 수 있는 더욱 고급 기능과 옵션에 대해서는 여기를 참조하세요.

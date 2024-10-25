@@ -40,7 +40,7 @@ Ahora, vamos a dividir esto en pasos detallados para posicionar con éxito una i
 Lo primero es asegurarse de tener una carpeta designada para los documentos. A continuación, se indica cómo crear un directorio si no existe:
 ```csharp
 string dataDir = "Your Document Directory";
-//Crear directorio si aún no está presente.
+// Crear directorio si aún no está presente.
 bool isExists = System.IO.Directory.Exists(dataDir);
 if (!isExists)
     System.IO.Directory.CreateDirectory(dataDir);

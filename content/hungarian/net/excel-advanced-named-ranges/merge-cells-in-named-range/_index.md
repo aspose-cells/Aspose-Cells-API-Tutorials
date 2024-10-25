@@ -60,11 +60,11 @@ Gondoljon a munkalapra úgy, mint egy Excel-fájl egyes lapjaira, ahol a tényle
 Most, hogy megvan a munkalapunk, ideje létrehozni egy tartományt. A tartomány egy cellatömbre utal, amely több sort és oszlopot is átfedhet.
 
 ```csharp
-// Hozzon létre egy tartományt.
+//Hozzon létre egy tartományt.
 Range mrange = worksheet1.Cells.CreateRange("D6", "I12");
 ```
 
-Itt a D6-tól az I12-ig terjedő cellákat választunk ki – ez a blokk több sort és oszlopot takar. Hamarosan egyesítjük ezt a választékot!
+Itt a D6-tól az I12-ig terjedő cellákat választunk ki – ez a blokk több sort és oszlopot takar. Hamarosan összevonjuk ezt a választékot!
 
 ## 4. lépés: Nevezze el a tartományt
 
@@ -90,7 +90,7 @@ Ez a lépés az összes cellát D6-tól I12-ig egyetlen cellává egyesíti. Tö
 
 ## 6. lépés: A megnevezett tartomány lekérése
 
-cellák egyesítése után érdemes lehet valamilyen formázást alkalmazni. Először vegyük elő a nevezett tartományunkat.
+A cellák egyesítése után érdemes lehet valamilyen formázást alkalmazni. Először vegyük elő a nevezett tartományunkat.
 
 ```csharp
 // Szerezze meg a tartományt.
@@ -133,7 +133,7 @@ flag.CellShading = true;
 range1.ApplyStyle(style, flag);
 ```
 
- A`StyleFlag`megmondja az Aspose.Cells-nek, hogy mely stílustulajdonságokat kell alkalmazni – igazítást, árnyékolást stb. Ez részletesen szabályozza a stílus alkalmazásának módját.
+ A`StyleFlag` megmondja az Aspose.Cells-nek, hogy mely stílustulajdonságokat kell alkalmazni – igazítást, árnyékolást stb. Ez részletesen szabályozza a stílus alkalmazásának módját.
 
 ## 9. lépés: Vigye be az adatokat az egyesített tartományba
 
@@ -169,7 +169,7 @@ Nem, csak az Aspose.Cells összefüggő celláit egyesítheti.
 ### Visszavonhatok egy összevonási műveletet programozottan?  
  Miután egyesítette a cellákat, a gombbal szüntetheti meg őket`UnMerge()` módszer az Aspose.Cells-ben.
 
-### A cellák egyesítése eltávolítja a bennük lévő adatokat?  
+### cellák egyesítése eltávolítja a bennük lévő adatokat?  
 Ha az összevonás előtt van adat a cellákban, akkor a tartomány első cellájából származó adatokat megőrzi.
 
 ### Alkalmazhatok különböző stílusokat az egyesített tartományon belüli egyes cellákra?  

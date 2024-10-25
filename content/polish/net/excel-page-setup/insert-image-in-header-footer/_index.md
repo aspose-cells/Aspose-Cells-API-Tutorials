@@ -2,7 +2,7 @@
 title: Wstaw obraz w nagłówku i stopce
 linktitle: Wstaw obraz w nagłówku i stopce
 second_title: Aspose.Cells dla .NET API Reference
-description: Dowiedz się, jak wstawiać obrazy do nagłówków i stopek za pomocą Aspose.Cells dla .NET, korzystając z tego kompleksowego przewodnika krok po kroku.
+description: Dowiedz się, jak wstawiać obrazy do nagłówków i stopek za pomocą Aspose.Cells dla platformy .NET, korzystając z tego kompleksowego przewodnika krok po kroku.
 type: docs
 weight: 60
 url: /pl/net/excel-page-setup/insert-image-in-header-footer/
@@ -55,7 +55,7 @@ Workbook workbook = new Workbook();
 
 ## Krok 3: Definiowanie ścieżki obrazu
 
- Czas utworzyć zmienną typu string, która będzie zawierać ścieżkę do obrazu, którego chcesz użyć. W naszym przypadku używamy`aspose-logo.jpg`.
+Czas utworzyć zmienną typu string, która będzie zawierać ścieżkę do obrazu, którego chcesz użyć. W naszym przypadku używamy`aspose-logo.jpg`.
 
 ```csharp
 string logo_url = dataDir + "aspose-logo.jpg";
@@ -119,7 +119,7 @@ workbook.Save(dataDir + "InsertImageInHeaderFooter_out.xls");
 
 Ten wiersz zapisuje skoroszyt pod określoną nazwą pliku w katalogu, który zdefiniowałeś wcześniej.
 
-## Krok 9: Zamykanie FileStream
+## Krok 9: Zamykanie strumienia plików
 
  Na koniec nie zapomnij zamknąć swojego`FileStream` aby uwolnić zasoby.
 

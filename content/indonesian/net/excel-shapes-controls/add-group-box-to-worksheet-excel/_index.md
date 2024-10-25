@@ -37,7 +37,7 @@ Sebelum membuat berkas Excel, Anda perlu menentukan di mana Anda ingin menyimpan
 ```csharp
 // Jalur ke direktori dokumen
 string dataDir = "Your Document Directory"; // Tentukan jalur yang Anda inginkan
-//Buat direktori jika belum ada.
+// Buat direktori jika belum ada.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);

@@ -2,7 +2,7 @@
 title: Strategie blokowania komórek
 linktitle: Strategie blokowania komórek
 second_title: Aspose.Cells Java Excel Processing API
-description: Poznaj skuteczne strategie blokowania komórek za pomocą Aspose.Cells for Java. Zwiększ bezpieczeństwo danych i integralność w plikach Excel dzięki przewodnikowi krok po kroku.
+description: Poznaj skuteczne strategie blokowania komórek za pomocą Aspose.Cells dla Java. Zwiększ bezpieczeństwo danych i integralność w plikach Excel dzięki przewodnikowi krok po kroku.
 type: docs
 weight: 11
 url: /pl/java/excel-data-security/cell-locking-strategies/

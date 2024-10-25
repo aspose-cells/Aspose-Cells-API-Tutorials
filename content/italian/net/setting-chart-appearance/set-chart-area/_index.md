@@ -17,7 +17,7 @@ Prima di immergerci nei dettagli della creazione di grafici, assicuriamoci di av
 
 1. Visual Studio: assicurati di avere Visual Studio installato sul tuo computer. È essenziale per scrivere ed eseguire codice .NET.
 2. .NET Framework: questa guida funziona meglio con .NET Framework o .NET Core. Assicurati di avere installata la versione richiesta (4.5 o successiva).
-3.  Aspose.Cells: ti servirà la libreria Aspose.Cells. Puoi scaricarla da[Qui](https://releases.aspose.com/cells/net/).
+3. Aspose.Cells: ti servirà la libreria Aspose.Cells. Puoi scaricarla da[Qui](https://releases.aspose.com/cells/net/).
 4. Conoscenza di base di C#: una conoscenza di base della programmazione C# ti aiuterà a comprendere meglio i passaggi. Non preoccuparti se non sei un professionista: ti spiegherò tutto!
 
 ## Importa pacchetti
@@ -135,7 +135,7 @@ Abbiamo l'area del grafico in blu, l'area del grafico in giallo e la prima serie
 
 ### Gradiente per l'area della serie
 
-Per un effetto accattivante, possiamo anche applicare delle sfumature:
+Per un effetto accattivante, possiamo anche applicare dei gradienti:
 
 ```csharp
 chart.NSeries[1].Area.FillFormat.SetOneColorGradient(Color.Lime, 1, Aspose.Cells.Drawing.GradientStyleType.Horizontal, 1);
@@ -174,4 +174,4 @@ Sì! Aspose.Cells dispone di librerie per diverse piattaforme, tra cui Java, Pyt
  Puoi cercare aiuto e supporto dalla comunità Aspose.Cells e dai forum disponibili[Qui](https://forum.aspose.com/c/cells/9).
 
 ### Come posso acquistare una licenza?
- Puoi acquistare una licenza direttamente dal sito web di Aspose[Qui](https://purchase.aspose.com/buy).
+Puoi acquistare una licenza direttamente dal sito web di Aspose[Qui](https://purchase.aspose.com/buy).

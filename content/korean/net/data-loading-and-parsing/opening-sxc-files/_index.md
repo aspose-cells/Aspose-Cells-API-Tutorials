@@ -32,7 +32,7 @@ using System;
 2. 선호도에 따라 ASP.NET Core 웹 애플리케이션이나 콘솔 애플리케이션을 선택하세요.
 3.  프로젝트 이름을 지정하세요(예:`SXCFileOpener`)을 클릭하고 만들기를 클릭합니다.
 4. 이 설정 중에 .NET Framework가 선택되어 있는지 확인하세요.
-5.  프로젝트가 로드되면 기본이 표시됩니다.`.cs` 코드를 추가할 수 있는 파일입니다.
+5. 프로젝트가 로드되면 기본이 표시됩니다.`.cs` 코드를 추가할 수 있는 파일입니다.
 ## 2단계: Aspose.Cells 라이브러리 추가
 다음으로, Aspose.Cells 라이브러리를 프로젝트에 추가하겠습니다. 방법은 다음과 같습니다.
 1. 솔루션 탐색기에서 프로젝트를 마우스 오른쪽 버튼으로 클릭하고 NuGet 패키지 관리를 선택하여 NuGet 패키지 관리자를 엽니다.
@@ -48,7 +48,7 @@ string sourceDir = "Your Document Directory";
 ```
 2.  이 디렉토리에 SXC 샘플 파일을 추가합니다(예:`SampleSXC.sxc`) 테스트를 위해.
 ## 4단계: 통합 문서 개체 만들기
- 소스 디렉토리가 설정되었으므로 이제 생성할 시간입니다.`Workbook` SXC 파일을 로드할 객체:
+ 소스 디렉토리가 설정되었으므로 이제 생성할 시간입니다.`Workbook`SXC 파일을 로드할 객체:
 ```csharp
 Workbook workbook = new Workbook(sourceDir + "SampleSXC.sxc");
 ```

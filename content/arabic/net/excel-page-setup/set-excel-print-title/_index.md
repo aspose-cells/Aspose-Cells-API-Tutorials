@@ -63,7 +63,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## الخطوة 2: إنشاء مثيل لكائن مصنف
 
- بعد ذلك، نقوم بإنشاء مثيل لـ`Workbook`الفئة التي تمثل ملف Excel.
+ بعد ذلك، نقوم بإنشاء مثيل لـ`Workbook` الفئة التي تمثل ملف Excel.
 
 ```csharp
 Workbook workbook = new Workbook();

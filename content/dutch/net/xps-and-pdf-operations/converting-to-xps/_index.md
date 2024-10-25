@@ -35,14 +35,14 @@ Laten we het proces voor het converteren van een Excel-bestand naar XPS-formaat 
 ## Stap 1: Definieer uw documentendirectory
 Hier specificeert u het pad waar uw Excel-bestanden zich bevinden. Dit is cruciaal, omdat de code moet weten waar de bestanden te vinden zijn.
 ```csharp
-string dataDir = "Your Document Directory"; // Zorg ervoor dat u het vervangt door uw eigen pad
+string dataDir = "Your Document Directory"; // Zorg ervoor dat u het vervangt met uw eigen pad
 ```
 ## Stap 2: Open een Excel-bestand
 Laten we nu uw Excel-bestand in een Aspose Workbook-object laden. Deze actie geeft uw programma toegang tot de gegevens in dat Excel-bestand.
 ```csharp
 Workbook workbook = new Workbook(dataDir + "Book1.xls");
 ```
- Hier maken we een nieuw exemplaar van de`Workbook` klasse en laadt de "Book1.xls" erin.
+ Hier maken we een nieuw exemplaar van de`Workbook` klasse en het bestand "Book1.xls" erin laden.
 ## Stap 3: Toegang tot het eerste werkblad
 Vervolgens moeten we het werkblad pakken waar we aan willen werken. Omdat we het eerste werkblad gebruiken, ziet onze code er zo uit:
 ```csharp
@@ -50,7 +50,7 @@ Worksheet sheet = workbook.Worksheets[0]; // Toegang tot het eerste werkblad
 ```
 Met deze regel code krijgt u toegang tot het eerste werkblad voor verdere opdrachten.
 ## Stap 4: Configureer afbeeldings- en afdrukopties
-Nu moeten we definiëren hoe we onze output willen renderen. Dit houdt in dat we een instance maken van`ImageOrPrintOptions` en het gewenste uitvoerformaat instellen.
+ Nu moeten we definiëren hoe we onze output willen renderen. Dit houdt in dat we een instance maken van`ImageOrPrintOptions` en het gewenste uitvoerformaat instellen.
 ```csharp
 Aspose.Cells.Rendering.ImageOrPrintOptions options = new Aspose.Cells.Rendering.ImageOrPrintOptions();
 options.SaveFormat = SaveFormat.Xps; // Het uitvoerformaat instellen op XPS
@@ -82,4 +82,4 @@ Ja, u kunt de code aanpassen zodat deze door meerdere bestanden in de directory 
 ### Wat als ik alleen specifieke bladen wil converteren?
  U kunt de index van het blad dat u wilt opgeven in de`SheetRender` object zoals getoond in onze stappen.
 ### Waar kan ik meer informatie vinden over Aspose.Cells?
- Je kunt de[documentatie](https://reference.aspose.com/cells/net/)voor meer geavanceerde functies en opties die beschikbaar zijn in de bibliotheek.
+ Je kunt de[documentatie](https://reference.aspose.com/cells/net/) voor meer geavanceerde functies en opties die beschikbaar zijn in de bibliotheek.

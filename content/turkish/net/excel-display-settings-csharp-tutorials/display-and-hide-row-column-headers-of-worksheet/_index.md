@@ -53,7 +53,7 @@ Sonra, Excel dosyanızı açmak için bir dosya akışı oluşturmanız gerekir.
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
 
-Burada açmak istediğimizi belirtiyoruz`book1.xls` belirtilen dizinde yer almaktadır.`FileMode.Open` parametresi mevcut bir dosyayı açtığımızı gösterir. Dosya adının her zaman sahip olduğunuz dosyayla eşleştiğinden emin olun.
+ Burada açmak istediğimizi belirtiyoruz`book1.xls` belirtilen dizinde yer almaktadır.`FileMode.Open` parametresi mevcut bir dosyayı açtığımızı gösterir. Dosya adının her zaman sahip olduğunuz dosyayla eşleştiğinden emin olun.
 
 ## Adım 3: Bir Çalışma Kitabı Nesnesi Oluşturun
 
@@ -83,7 +83,7 @@ Bu kod parçacığında, çalışma kitabından ilk çalışma sayfasına erişi
 worksheet.IsRowColumnHeadersVisible = false;
 ```
 
- Ayar`IsRowColumnHeadersVisible` ile`false`hem satırlardaki hem de sütunlardaki başlıkları etkili bir şekilde gizleyerek, verilerinizin sunumu için daha temiz bir görünüm oluşturur.
+ Ayar`IsRowColumnHeadersVisible` ile`false` hem satırlardaki hem de sütunlardaki başlıkları etkili bir şekilde gizleyerek, verilerinizin sunumu için daha temiz bir görünüm oluşturur.
 
 ## Adım 6: Değiştirilen Excel Dosyasını Kaydedin
 

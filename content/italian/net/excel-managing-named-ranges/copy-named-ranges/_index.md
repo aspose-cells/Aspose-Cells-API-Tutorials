@@ -12,7 +12,7 @@ Excel è uno strumento potente utilizzato da milioni di persone in tutto il mond
 ## Prerequisiti
 Prima di addentrarti nei dettagli della copia di intervalli denominati, dovrai assicurarti di avere alcune cose in fila. Ecco cosa ti serve:
 1. Ambiente .NET: assicurati di avere un ambiente di sviluppo .NET impostato. Puoi usare Visual Studio o qualsiasi altro IDE di tua scelta.
-2.  Aspose.Cells per la libreria .NET: questa è la star dello spettacolo! Scarica la libreria da[Sito web di Aspose](https://releases.aspose.com/cells/net/) se non l'hai ancora fatto.
+2. Aspose.Cells per la libreria .NET: questa è la star dello spettacolo! Scarica la libreria da[Sito web di Aspose](https://releases.aspose.com/cells/net/) se non l'hai ancora fatto.
 3. Conoscenza di base di C#: la familiarità con la programmazione in C# sarà utile poiché scriveremo codice in questo linguaggio durante l'intero tutorial.
 4. Excel installato: anche se non è necessariamente necessario avere Excel installato per scrivere codice, è utile per testare i file di output.
 5.  Accesso alla documentazione: Aggiungi ai preferiti[Documentazione Aspose.Cells](https://reference.aspose.com/cells/net/) per riferimento. È un'ottima risorsa per comprendere metodi e funzionalità.
@@ -27,7 +27,7 @@ using System.IO;
 using Aspose.Cells;
 using System.Drawing;
 ```
-Questo codice ti darà accesso a classi essenziali come`Workbook`, `Worksheet` E`Range`, che ti servirà per manipolare i file Excel.
+ Questo codice ti darà accesso a classi essenziali come`Workbook`, `Worksheet` , E`Range`, che ti servirà per manipolare i file Excel.
 
 Ora che abbiamo chiarito i prerequisiti, scomponiamo il processo in passaggi facili da seguire.
 ## Passaggio 1: imposta la directory di output

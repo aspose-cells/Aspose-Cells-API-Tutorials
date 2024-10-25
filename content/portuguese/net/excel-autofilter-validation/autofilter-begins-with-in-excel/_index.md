@@ -71,7 +71,7 @@ Agora, precisamos acessar a planilha específica com a qual queremos trabalhar:
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
-Explicação: O`Worksheets` coleção nos permite acessar folhas individuais. Usando`[0]` faz referência à primeira planilha do seu arquivo Excel, o que geralmente é uma prática comum ao trabalhar com um arquivo de planilha única.
+ Explicação: O`Worksheets` coleção nos permite acessar folhas individuais. Usando`[0]` faz referência à primeira planilha do seu arquivo Excel, o que geralmente é uma prática comum ao trabalhar com um arquivo de planilha única.
 
 ## Etapa 4: Configurando o AutoFiltro
 
@@ -82,7 +82,7 @@ Explicação: O`Worksheets` coleção nos permite acessar folhas individuais. Us
 worksheet.AutoFilter.Range = "A1:A18";
 ```
 
-Explicação: O`AutoFilter.Range` propriedade permite que você especifique quais linhas filtrar. Neste caso, estamos filtrando linhas dentro do intervalo A1 a A18, que são assumidas como contendo nossos dados.
+ Explicação: O`AutoFilter.Range` propriedade permite que você especifique quais linhas filtrar. Neste caso, estamos filtrando linhas dentro do intervalo A1 a A18, que são assumidas como contendo nossos dados.
 
 ## Etapa 5: Aplicar condição de filtro
 
@@ -93,7 +93,7 @@ O próximo passo é definir a condição do filtro. Queremos exibir apenas aquel
 worksheet.AutoFilter.Custom(0, FilterOperatorType.BeginsWith, "Ba");
 ```
 
-Explicação: O`Custom` método define nossa lógica de filtragem. O primeiro argumento (`0` ) indica que estamos filtrando com base na primeira coluna (A) e na`FilterOperatorType.BeginsWith`especifica nossa condição para procurar linhas que começam com "Ba".
+ Explicação: O`Custom` método define nossa lógica de filtragem. O primeiro argumento (`0` ) indica que estamos filtrando com base na primeira coluna (A) e na`FilterOperatorType.BeginsWith` especifica nossa condição para procurar linhas que começam com "Ba".
 
 ## Etapa 6: Atualize o filtro
 
@@ -115,7 +115,7 @@ Agora é hora de salvar as alterações que fizemos:
 workbook.Save(outputDir + "outSourseSampleCountryNames.xlsx");
 ```
 
-Explicação: O`Save` método grava a Workbook modificada de volta no caminho de saída especificado. Isso se enquadra na gravação de seus filtros definidos em um novo arquivo para que seus dados originais permaneçam intactos.
+ Explicação: O`Save` método grava a Workbook modificada de volta no caminho de saída especificado. Isso se enquadra na gravação de seus filtros definidos em um novo arquivo para que seus dados originais permaneçam intactos.
 
 ## Etapa 8: Confirmação de saída
 

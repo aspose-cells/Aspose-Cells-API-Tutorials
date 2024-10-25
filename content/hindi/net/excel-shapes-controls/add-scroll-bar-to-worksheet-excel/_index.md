@@ -31,7 +31,7 @@ using System.Drawing;
 ```csharp
 // दस्तावेज़ निर्देशिका का पथ.
 string dataDir = "Your Document Directory";
-//यदि निर्देशिका पहले से मौजूद नहीं है तो उसे बनाएं।
+// यदि निर्देशिका पहले से मौजूद नहीं है तो उसे बनाएं।
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -132,7 +132,7 @@ excelbook.Save(dataDir + "book1.out.xls");
 ### Aspose.Cells क्या है?
 Aspose.Cells एक शक्तिशाली .NET लाइब्रेरी है जो डेवलपर्स को प्रोग्रामेटिक रूप से Excel फ़ाइलों को बनाने, हेरफेर करने और परिवर्तित करने की अनुमति देती है।
 ### क्या मैं Aspose.Cells का निःशुल्क उपयोग कर सकता हूँ?
-हां, Aspose.Cells एक निःशुल्क परीक्षण प्रदान करता है, जिसे आप पा सकते हैं[यहाँ](https://releases.aspose.com/).
+ हां, Aspose.Cells एक निःशुल्क परीक्षण प्रदान करता है, जिसे आप पा सकते हैं[यहाँ](https://releases.aspose.com/).
 ### मैं अपनी एक्सेल शीट में अन्य नियंत्रण कैसे जोड़ूं?
 आप स्क्रॉल बार के लिए दिखाए गए समान तरीकों का उपयोग कर सकते हैं। अधिक नियंत्रणों के लिए बस दस्तावेज़ देखें!
 ### मैं Aspose.Cells के साथ कौन सी प्रोग्रामिंग भाषाओं का उपयोग कर सकता हूँ?

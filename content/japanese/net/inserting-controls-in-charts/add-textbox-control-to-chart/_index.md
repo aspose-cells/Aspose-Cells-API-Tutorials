@@ -16,7 +16,7 @@ Excel で動的で視覚的に魅力的なグラフを作成することは、�
 コーディングを始める前に、準備しておくべきことがいくつかあります。
 
 - C# の基本的な理解: C# プログラミングの基礎を理解していると役立ちます。心配しないでください。専門家である必要はなく、構文を操作できるだけで十分です。
-- Aspose.Cellsライブラリのインストール: Aspose.Cells for .NETライブラリがインストールされていることを確認してください。ダウンロードはこちらから行えます。[ここ](https://releases.aspose.com/cells/net/)まだお持ちでない場合は、ぜひご覧ください。
+-  Aspose.Cellsライブラリのインストール: Aspose.Cells for .NETライブラリがインストールされていることを確認してください。ダウンロードはこちらから行えます。[ここ](https://releases.aspose.com/cells/net/)まだお持ちでない場合は、ぜひご覧ください。
 - Visual Studio: Visual Studio または .NET フレームワークに使用する IDE に精通していることが必須です。
 - 既存の Excel ファイル: この例では、「sampleAddingTextBoxControlInChart.xls」という名前の既存の Excel ファイルを使用します。ファイルを作成することも、サンプルをダウンロードすることもできます。
 

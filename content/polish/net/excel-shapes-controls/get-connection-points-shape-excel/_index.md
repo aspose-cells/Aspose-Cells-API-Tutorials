@@ -91,9 +91,9 @@ Punkt połączenia to określony punkt na kształcie, do którego można dołąc
 ### Czy mogę pobrać punkty połączeń dla wszystkich kształtów w arkuszu kalkulacyjnym?
 Tak, Aspose.Cells pozwala na pobieranie punktów połączeń dla dowolnego kształtu, który je obsługuje. Po prostu przejdź przez zbiór kształtów w arkuszu kalkulacyjnym.
 ### Czy potrzebuję licencji, aby korzystać z Aspose.Cells?
-Tak, możesz wypróbować go za darmo, ale do uzyskania pełnych funkcji wymagana jest licencja. Możesz[kup licencję tutaj](https://purchase.aspose.com/buy) lub zdobądź[licencja tymczasowa](https://purchase.aspose.com/temporary-license/).
+Tak, możesz wypróbować go za darmo, ale do uzyskania pełnych funkcji wymagana jest licencja. Możesz[kup licencję tutaj](https://purchase.aspose.com/buy)lub zdobądź[licencja tymczasowa](https://purchase.aspose.com/temporary-license/).
 ### Jak mogę dodać różne typy kształtów w Aspose.Cells?
- Możesz użyć`Add` metoda dla kształtów takich jak prostokąty, elipsy i inne. Każdy kształt ma określone parametry, które możesz dostosować.
+Możesz użyć`Add` metoda dla kształtów takich jak prostokąty, elipsy i inne. Każdy kształt ma określone parametry, które możesz dostosować.
 ### Jak załadować istniejący plik Excela zamiast tworzyć nowy?
  Aby załadować istniejący plik, przekaż ścieżkę do pliku`Workbook` konstruktor, taki jak ten:  
 ```csharp

@@ -16,7 +16,7 @@ Bagan interaktif menambahkan dimensi baru pada visualisasi data, yang memungkink
 
 Sebelum kita memulai, pastikan Anda memiliki prasyarat berikut:
 - Lingkungan Pengembangan Java
--  Aspose.Cells untuk Pustaka Java (Unduh dari[Di Sini](https://releases.aspose.com/cells/java/)
+- Aspose.Cells untuk Pustaka Java (Unduh dari[Di Sini](https://releases.aspose.com/cells/java/)
 
 ## Langkah 1: Menyiapkan Proyek Java Anda
 

@@ -39,7 +39,7 @@ Nu är det dags att definiera var dina dokument ska lagras. Du vill skapa en kat
 ```csharp
 // Sökvägen till dokumentkatalogen.
 string dataDir = "Your Document Directory";
-//Skapa katalog om den inte redan finns.
+// Skapa katalog om den inte redan finns.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
 	System.IO.Directory.CreateDirectory(dataDir);
@@ -107,7 +107,7 @@ workbook.Save(dataDir + "book1.out.xlsx");
  Se till att filnamnet slutar med lämplig Excel-filtillägg, som`.xlsx` i detta fall. 
 
 ## Slutsats
-Att lägga till pilspetsar till former i Excel med Aspose.Cells för .NET kan avsevärt förbättra det visuella tilltalandet av dina kalkylblad. Med bara några rader kod kan du skapa professionella diagram som kommunicerar information tydligt. Oavsett om du automatiserar rapporter eller bara skapar visuella hjälpmedel, kommer att behärska dessa tekniker utan tvekan få dina presentationer att sticka ut.
+Att lägga till pilspetsar till former i Excel med Aspose.Cells för .NET kan avsevärt förbättra det visuella tilltalandet av dina kalkylblad. Med bara några rader kod kan du skapa professionella diagram som kommunicerar information tydligt. Oavsett om du automatiserar rapporter eller helt enkelt skapar visuella hjälpmedel, kommer att behärska dessa tekniker utan tvekan få dina presentationer att sticka ut.
 ## FAQ's
 ### Kan jag ändra färgen på pilspetsarna?
 Ja, du kan justera färgen på linjerna och formerna, inklusive pilspetsarna, genom att ändra`SolidFill.Color` egendom.

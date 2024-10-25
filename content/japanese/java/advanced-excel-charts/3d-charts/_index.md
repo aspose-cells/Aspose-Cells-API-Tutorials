@@ -33,7 +33,7 @@ Aspose.Cells for Java ライブラリは Web サイトからダウンロード�
 Aspose.Cells for Java を使用するには、ライセンスを初期化する必要があります。この手順は、評価の制限を解除し、ライブラリの潜在能力を最大限に引き出すために不可欠です。
 
 ```java
-// Aspose.Cells ライセンスを初期化する
+//Aspose.Cells ライセンスを初期化する
 License license = new License();
 license.setLicense("path_to_license_file.xml");
 ```

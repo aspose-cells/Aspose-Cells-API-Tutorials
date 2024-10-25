@@ -68,6 +68,6 @@ Você pode armazenar strings, números e até datas em suas propriedades persona
 ### O Aspose.Cells é gratuito?
  Aspose.Cells oferece um teste gratuito. Para recursos completos, é necessária uma compra. Confira o[opções de preços aqui](https://purchase.aspose.com/buy).
 ### Onde posso encontrar a documentação do Aspose.Cells?
- Você pode encontrar documentação abrangente[aqui](https://reference.aspose.com/cells/net/).
+Você pode encontrar documentação abrangente[aqui](https://reference.aspose.com/cells/net/).
 ### E se eu precisar de ajuda ao usar o Aspose.Cells?
  Você pode visitar o[Fórum de suporte Aspose](https://forum.aspose.com/c/cells/9) para obter assistência de sua comunidade e equipe de suporte.

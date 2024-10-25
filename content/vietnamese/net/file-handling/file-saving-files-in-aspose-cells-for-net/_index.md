@@ -135,4 +135,4 @@ Hoàn toàn có thể! Aspose.Cells cũng có thể đọc và sửa đổi các
 Nó hỗ trợ nhiều định dạng khác nhau như XLS, XLSX, XLSB, ODS, PDF, v.v.
 
 ### Tôi có thể tìm thấy hỗ trợ cho Aspose.Cells ở đâu?  
-Bạn có thể nhận được sự giúp đỡ trên[Diễn đàn Aspose](https://forum.aspose.com/c/cells/9).
+ Bạn có thể nhận được sự giúp đỡ trên[Diễn đàn Aspose](https://forum.aspose.com/c/cells/9).

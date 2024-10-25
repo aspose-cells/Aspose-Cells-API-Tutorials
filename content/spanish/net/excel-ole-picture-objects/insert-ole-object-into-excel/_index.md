@@ -35,7 +35,7 @@ string dataDir = "Your Document Directory";
 ## Paso 2: Crea el directorio si no existe
 A continuación, queremos asegurarnos de que este directorio exista. Si no existe, debemos crearlo.
 ```csharp
-//Crear directorio si aún no está presente.
+// Crear directorio si aún no está presente.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -58,7 +58,7 @@ Worksheet sheet = workbook.Worksheets[0];
 ## Paso 5: Definir la ruta de la imagen
 Ahora, establezcamos una ruta para la imagen que desea incrustar en su archivo de Excel.
 ```csharp
-// Define una variable de cadena para almacenar la ruta de la imagen.
+//Define una variable de cadena para almacenar la ruta de la imagen.
 string ImageUrl = dataDir + "logo.jpg";
 ```
  Asegúrese de que esta ruta refleje correctamente dónde se encuentra su`logo.jpg` El archivo está almacenado.
@@ -87,7 +87,7 @@ Al igual que hicimos con la imagen, necesitamos cargar el archivo Excel en una m
 ```csharp
 // Obtener el archivo en los streams.
 fs = File.OpenRead(path);
-// Define una matriz de bytes.
+//Define una matriz de bytes.
 byte[] objectData = new Byte[fs.Length];
 // Almacenar el archivo desde los streams.
 fs.Read(objectData, 0, objectData.Length);

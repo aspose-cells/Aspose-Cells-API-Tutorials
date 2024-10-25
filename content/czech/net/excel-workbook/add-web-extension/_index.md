@@ -88,7 +88,7 @@ extension.Reference.StoreType = WebExtensionStoreType.OMEX;
 
 - Id: Toto je jedinečný identifikátor webového rozšíření. Dostupná rozšíření najdete v Office Store.
 - StoreName: Určuje jazyk národního prostředí.
--  StoreType: Zde jsme to nastavili na`OMEX`, což označuje balíček webového rozšíření.
+-  StoreType: Zde jsme to nastavili`OMEX`, což označuje balíček webového rozšíření.
 
 ## Krok 6: Přidejte a nakonfigurujte podokno úloh
 

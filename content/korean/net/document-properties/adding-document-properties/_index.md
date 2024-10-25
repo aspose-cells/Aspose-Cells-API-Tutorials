@@ -68,6 +68,6 @@ workbook.Save(dataDir + "out_sample-document-properties.xlsx");
 ### Aspose.Cells는 무료로 사용할 수 있나요?
  Aspose.Cells는 무료 체험판을 제공합니다. 모든 기능을 사용하려면 구매가 필요합니다.[가격 옵션은 여기를 참조하세요](https://purchase.aspose.com/buy).
 ### Aspose.Cells 설명서는 어디서 찾을 수 있나요?
- 포괄적인 문서를 찾을 수 있습니다[여기](https://reference.aspose.com/cells/net/).
+포괄적인 문서를 찾을 수 있습니다[여기](https://reference.aspose.com/cells/net/).
 ### Aspose.Cells를 사용하는 중에 도움이 필요하면 어떻게 해야 하나요?
  방문할 수 있습니다[Aspose 지원 포럼](https://forum.aspose.com/c/cells/9) 지역 사회와 지원 팀으로부터 도움을 받으세요.

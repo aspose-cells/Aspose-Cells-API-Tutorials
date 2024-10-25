@@ -17,7 +17,7 @@ url: /el/net/excel-page-setup/set-excel-print-area/
 
 1. Visual Studio: Βεβαιωθείτε ότι έχετε εγκαταστήσει το Visual Studio, καθώς είναι το περιβάλλον ανάπτυξης που θα χρησιμοποιήσουμε.
 2. .NET Framework: Βεβαιωθείτε ότι το έργο σας έχει ρυθμιστεί με το πλαίσιο .NET συμβατό με το Aspose.Cells. Γενικά, το .NET Core ή το .NET Framework 4.5 και μεταγενέστερο θα λειτουργήσει.
-3.  Aspose.Cells Library: Θα χρειαστεί να έχετε Aspose.Cells για .NET. Μπορείς[κατεβάστε το εδώ](https://releases.aspose.com/cells/net/).
+3.  Aspose.Cells Library: Θα χρειαστεί να έχετε Aspose.Cells για .NET. Μπορείτε[κατεβάστε το εδώ](https://releases.aspose.com/cells/net/).
 4. Βασικές γνώσεις C#: Η εξοικείωση με τη σύνταξη και τη δομή της C# είναι ζωτικής σημασίας, καθώς θα γράφουμε τμήματα κώδικα σε αυτόν τον οδηγό.
 
 Μόλις έχετε αυτές τις προϋποθέσεις, είστε έτοιμοι να μεταβείτε στον κόσμο της χειραγώγησης του Excel!

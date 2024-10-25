@@ -51,7 +51,7 @@ loadOptions.LoadFilter = new LoadFilter(LoadDataFilterOptions.CellData);
 ## الخطوة 4: إنشاء كائن مصنف
  حسنًا، لقد اقتربنا من النهاية! الآن سنقوم بإنشاء`Workbook` الكائن، وهو المكان الذي سيقوم Aspose.Cells بتحميل محتويات ملف Excel الخاص بك فيه بشكل أساسي.
 ```csharp
-// إنشاء كائن مصنف وفتح الملف من مساره
+//إنشاء كائن مصنف وفتح الملف من مساره
 Workbook book = new Workbook(dataDir + "Book1.xlsx", loadOptions);
 ```
  في هذا السطر، استبدل`"Book1.xlsx"` مع اسم ملف Excel الفعلي الخاص بك. ها أنت ذا! تم تحميل مصنفك بكل البيانات المهمة.

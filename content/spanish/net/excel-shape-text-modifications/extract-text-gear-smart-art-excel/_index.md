@@ -79,7 +79,7 @@ Ahora, extraigamos las formas individuales que componen nuestro SmartArt:
 // Obtenga la lista de formas individuales que consta de formas de grupo.
 Aspose.Cells.Drawing.Shape[] shps = gs.GetGroupedShapes();
 ```
-Esta matriz contendrá todas las formas individuales que necesitamos recorrer en bucle.
+Esta matriz contendrá todas las formas individuales que necesitamos recorrer en un bucle.
 ## Paso 7: Extraer e imprimir texto
 Finalmente, podemos recorrer nuestra matriz de formas y extraer el texto de cualquier forma de tipo engranaje:
 ```csharp

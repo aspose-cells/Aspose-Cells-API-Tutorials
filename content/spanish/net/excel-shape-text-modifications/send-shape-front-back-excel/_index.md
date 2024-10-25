@@ -39,9 +39,9 @@ Ahora que tenemos nuestros directorios configurados, carguemos el libro de traba
 //Cargar archivo fuente de Excel
 Workbook wb = new Workbook(sourceDir + "sampleToFrontOrBack.xlsx");
 ```
- Esta línea de código inicializa un nuevo`Workbook`objeto, cargando el archivo Excel especificado en la memoria para que podamos trabajar con él.
+ Esta línea de código inicializa un nuevo`Workbook` objeto, cargando el archivo Excel especificado en la memoria para que podamos trabajar con él.
 ## Paso 3: Acceda a la hoja de trabajo 
-A continuación, debemos acceder a la hoja de cálculo específica donde se encuentran nuestras formas. Para este ejemplo, utilizaremos la primera hoja de cálculo.
+continuación, debemos acceder a la hoja de cálculo específica donde se encuentran nuestras formas. Para este ejemplo, utilizaremos la primera hoja de cálculo.
 ```csharp
 //Acceda a la primera hoja de trabajo
 Worksheet ws = wb.Worksheets[0];

@@ -40,7 +40,7 @@ using Aspose.Cells;
 أولاً وقبل كل شيء، تأكد من وجود مجلد مخصص لمستنداتك. إليك كيفية إنشاء دليل إذا لم يكن موجودًا:
 ```csharp
 string dataDir = "Your Document Directory";
-//إنشاء الدليل إذا لم يكن موجودًا بالفعل.
+// إنشاء الدليل إذا لم يكن موجودًا بالفعل.
 bool isExists = System.IO.Directory.Exists(dataDir);
 if (!isExists)
     System.IO.Directory.CreateDirectory(dataDir);

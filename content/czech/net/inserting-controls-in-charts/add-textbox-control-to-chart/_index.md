@@ -16,9 +16,9 @@ Vytváření dynamických a vizuálně přitažlivých grafů v Excelu je fantas
 Než se pustíme do kódování, měli byste mít připraveno několik věcí:
 
 - Základní porozumění C#: Základní znalost programování C# bude užitečná. Nebojte se; nemusíte být expert, stačí se pohodlně orientovat v syntaxi.
-- Nainstalovaná knihovna Aspose.Cells: Ujistěte se, že máte nainstalovanou knihovnu Aspose.Cells for .NET. Můžete si jej stáhnout z[zde](https://releases.aspose.com/cells/net/) pokud jste to ještě neudělali.
+-  Nainstalovaná knihovna Aspose.Cells: Ujistěte se, že máte nainstalovanou knihovnu Aspose.Cells for .NET. Můžete si jej stáhnout z[zde](https://releases.aspose.com/cells/net/)pokud jste to ještě neudělali.
 - Visual Studio: Nezbytná je znalost sady Visual Studio nebo jakéhokoli IDE, které chcete používat pro rozhraní .NET.
-- Existující soubor aplikace Excel: V tomto příkladu budeme pracovat s existujícím souborem aplikace Excel s názvem „sampleAddingTextBoxControlInChart.xls“. Můžete si jej vytvořit nebo si stáhnout ukázku.
+- Existující soubor aplikace Excel: V tomto příkladu budeme pracovat s existujícím souborem aplikace Excel s názvem "sampleAddingTextBoxControlInChart.xls". Můžete si jej vytvořit nebo si stáhnout ukázku.
 
 Nyní, když máme vše na svém místě, pojďme k části kódování!
 
@@ -136,7 +136,7 @@ Posledním krokem je uložení změn, které jste provedli do nového souboru Ex
 // Uložte soubor aplikace Excel.
 workbook.Save(outputDir + "outputAddingTextBoxControlInChart.xls");
 ```
- Nahradit`"outputAddingTextBoxControlInChart.xls"` libovolným názvem souboru.
+ Nahradit`"outputAddingTextBoxControlInChart.xls"` s libovolným názvem souboru.
 
 ## Závěr
 
@@ -153,7 +153,7 @@ Ano! Můžete přidat tolik textových polí, kolik potřebujete, opakováním k
 ### Je Aspose.Cells zdarma k použití?
  Aspose.Cells je placená knihovna, ale můžete si stáhnout bezplatnou zkušební verzi[zde](https://releases.aspose.com/).
 
-### Kde najdu další dokumentaci na Aspose.Cells?
+### Kde najdu další dokumentaci k Aspose.Cells?
  Máte přístup ke komplexní dokumentaci[zde](https://reference.aspose.com/cells/net/).
 
 ### Jak získám podporu, pokud narazím na problémy?

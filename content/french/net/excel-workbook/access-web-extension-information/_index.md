@@ -16,7 +16,7 @@ Bienvenue dans notre plongée en profondeur dans l'utilisation d'Aspose.Cells po
 Avant de retrousser nos manches et de commencer, il y a quelques éléments à mettre en place. Voici une liste de contrôle pour garantir que tout se déroule sans problème :
 
 1. Environnement .NET : assurez-vous qu'un environnement .NET est configuré sur votre ordinateur. Cela signifie généralement que Visual Studio ou un autre IDE compatible est installé.
-2. Aspose.Cells pour .NET : vous devez disposer de la bibliothèque Aspose.Cells. Ne vous inquiétez pas, vous pouvez facilement[téléchargez la dernière version ici](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells pour .NET : vous devez disposer de la bibliothèque Aspose.Cells. Ne vous inquiétez pas, vous pouvez facilement[téléchargez la dernière version ici](https://releases.aspose.com/cells/net/).
 3.  Exemple de fichier Excel : pour ce didacticiel, assurez-vous d'avoir un exemple de fichier Excel (comme`WebExtensionsSample.xlsx`) accessible. Vous pouvez en créer un avec des extensions Web ou en télécharger un si nécessaire. 
 4. Connaissances de base en C# : une compréhension fondamentale de la programmation C# rendra la navigation dans ce didacticiel beaucoup plus facile.
 5. Gestionnaire de packages NuGet : la connaissance de NuGet peut vous aider à gérer Aspose.Cells dans votre projet de manière transparente.
@@ -60,14 +60,14 @@ WebExtensionTaskPaneCollection taskPanes = workbook.Worksheets.WebExtensionTaskP
 ```
 Ici, nous récupérons tous les volets de tâches associés aux extensions Web dans le classeur.
 
-## Étape 4 : parcourir les volets des tâches
+## Étape 4 : parcourir les volets de tâches
 
- Une fois que vous avez la collection, l'étape logique suivante consiste à parcourir chaque volet de tâches et à obtenir ses propriétés. À l'aide d'un`foreach` La boucle est un excellent moyen de naviguer de manière transparente dans chaque volet des tâches.
+Une fois que vous avez la collection, l'étape logique suivante consiste à parcourir chaque volet de tâches et à obtenir ses propriétés. À l'aide d'un`foreach` La boucle est un excellent moyen de naviguer de manière transparente dans chaque volet des tâches.
 
 ```csharp
 foreach (WebExtensionTaskPane taskPane in taskPanes)
 {
-    //Dans cette boucle, nous allons extraire les propriétés
+    // Dans cette boucle, nous allons extraire les propriétés
 }
 ```
 

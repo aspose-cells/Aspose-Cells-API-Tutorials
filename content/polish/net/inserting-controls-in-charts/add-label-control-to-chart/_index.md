@@ -62,7 +62,7 @@ Następnie załadujemy plik Excela zawierający wykres, do którego chcemy doda�
 Workbook workbook = new Workbook(sourceDir + "sampleAddingLabelControlInChart.xls");
 ```
 
- Tutaj używamy`Workbook`klasa z Aspose.Cells, aby otworzyć nasz plik Excel. To jak otwieranie drzwi, aby pozwolić kreatywności płynąć!
+ Tutaj używamy`Workbook` klasa z Aspose.Cells, aby otworzyć nasz plik Excel. To jak otwieranie drzwi, aby pozwolić kreatywności płynąć!
 
 ## Krok 3: Uzyskaj dostęp do arkusza kalkulacyjnego
 
@@ -94,7 +94,7 @@ Teraz nadchodzi ekscytująca część – dodanie etykiety do wykresu. Określim
 Aspose.Cells.Drawing.Label label = chart.Shapes.AddLabelInChart(600, 600, 350, 900);
 ```
 
- Tutaj,`AddLabelInChart`zajmuje się tworzeniem etykiety na podstawie podanych przez Ciebie współrzędnych i wymiarów. To jak przymocowanie pięknej ramki wokół Twojej pracy artystycznej!
+ Tutaj,`AddLabelInChart` zajmuje się tworzeniem etykiety na podstawie podanych przez Ciebie współrzędnych i wymiarów. To jak przymocowanie pięknej ramki wokół Twojej pracy artystycznej!
 
 ## Krok 6: Ustaw tekst etykiety
 
@@ -141,7 +141,7 @@ To tak, jakbyś pokazał światu swój gotowy produkt i czekał na oklaski!
 
 ## Wniosek
 
-I masz to! Udało Ci się dodać kontrolkę etykiety do wykresu za pomocą Aspose.Cells dla .NET. Za pomocą zaledwie kilku linijek kodu poprawiłeś przejrzystość wizualnej reprezentacji danych, czyniąc ją o wiele bardziej informacyjną. Pamiętaj, że niezależnie od tego, czy tworzysz prezentację, czy zagłębiasz się w analizę danych, te etykiety mogą być nieocenionymi narzędziami.
+masz to! Udało Ci się dodać kontrolkę etykiety do wykresu za pomocą Aspose.Cells dla .NET. Za pomocą zaledwie kilku linijek kodu poprawiłeś przejrzystość wizualnej reprezentacji danych, czyniąc ją o wiele bardziej informacyjną. Pamiętaj, że niezależnie od tego, czy tworzysz prezentację, czy zagłębiasz się w analizę danych, te etykiety mogą być nieocenionymi narzędziami.
 
 ## Najczęściej zadawane pytania
 

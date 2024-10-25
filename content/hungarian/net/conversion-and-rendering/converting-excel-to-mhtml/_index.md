@@ -26,7 +26,7 @@ Ha minden előfeltételt megvan, a következő lépés a szükséges csomagok im
 
 1. Nyissa meg projektjét: Indítsa el a Visual Studio programot, és nyissa meg a meglévő projektet, vagy hozzon létre egy újat.
 2. NuGet-csomagok kezelése: Kattintson jobb gombbal a projektre a Solution Explorerben, majd válassza a „NuGet-csomagok kezelése” lehetőséget.
-3.  Az Aspose.Cells keresése és telepítése: A keresőmezőbe írja be`Aspose.Cells` és telepítse a csomagot. Ez biztosítja, hogy a legújabb verziót integrálja a projektbe.
+3.  Az Aspose.Cells keresése és telepítése: A keresőmezőbe írja be`Aspose.Cells`és telepítse a csomagot. Ez biztosítja, hogy a legújabb verziót integrálja a projektbe.
 4. Használati direktíva hozzáadása: A kódfájlban adja hozzá a következő direktívát az Aspose.Cells névtér használatához:
 
 ```csharp

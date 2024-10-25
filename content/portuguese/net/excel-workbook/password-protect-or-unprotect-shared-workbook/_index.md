@@ -57,7 +57,7 @@ Workbook wb = new Workbook();
 
 ## Etapa 3: Proteja a pasta de trabalho compartilhada com senha
 
-Agora vem a parte interessante – proteger nossa pasta de trabalho. Ao aplicar uma senha, você está garantindo que somente aqueles com as credenciais corretas possam fazer alterações. Veja como fazer isso:
+Agora vem a parte interessante – proteger nossa pasta de trabalho. Ao aplicar uma senha, você garante que somente aqueles com as credenciais corretas podem fazer alterações. Veja como fazer isso:
 
 ```csharp
 // Proteja a pasta de trabalho compartilhada com senha
@@ -79,7 +79,7 @@ Quando estiver pronto para fazer edições novamente, basta chamar esse método 
 
 ## Etapa 5: Salve o arquivo de saída do Excel
 
-O toque final é salvar sua pasta de trabalho. É aqui que seu trabalho duro é armazenado para uso futuro — muito parecido com salvar um documento no seu computador.
+toque final é salvar sua pasta de trabalho. É aqui que seu trabalho duro é armazenado para uso futuro — muito parecido com salvar um documento no seu computador.
 
 ```csharp
 // Salvar o arquivo de saída do Excel
@@ -117,4 +117,4 @@ Infelizmente, se você esquecer a senha, não poderá desproteger a pasta de tra
 Aspose.Cells suporta principalmente .NET, mas eles têm bibliotecas para Java e outras linguagens também. Confira o site deles para mais informações!
 
 ### Como obtenho suporte para o Aspose.Cells?
-Você pode pedir ajuda por meio do fórum de suporte:[Suporte Aspose](https://forum.aspose.com/c/cells/9).
+ Você pode pedir ajuda por meio do fórum de suporte:[Suporte Aspose](https://forum.aspose.com/c/cells/9).

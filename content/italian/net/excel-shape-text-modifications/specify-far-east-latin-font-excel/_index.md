@@ -14,7 +14,7 @@ Prima di addentrarci nei dettagli, ecco alcune cose che dovrai impostare prima d
 ### .NET Framework o .NET Core
 Assicurati di avere .NET Framework o .NET Core installato sul tuo computer. Questa libreria funziona bene con entrambi.
 ### Installazione di Aspose.Cells
-Dovrai scaricare la libreria Aspose.Cells. Puoi[scaricalo da qui](https://releases.aspose.com/cells/net/) Se non hai familiarità con l'installazione dei pacchetti NuGet, segui[questa guida](https://www.nuget.org/).
+ Dovrai scaricare la libreria Aspose.Cells. Puoi[scaricalo da qui](https://releases.aspose.com/cells/net/) Se non hai familiarità con l'installazione dei pacchetti NuGet, segui[questa guida](https://www.nuget.org/).
 ### Ambiente di sviluppo integrato (IDE)
 Disporre di un IDE come Visual Studio o JetBrains Rider può semplificare la codifica, il debug e l'esecuzione del progetto.
 ### Conoscenza di base di C#

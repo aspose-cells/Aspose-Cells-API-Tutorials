@@ -94,7 +94,7 @@ for (int i = 0; i <= 255; i++)
 
  Tento kód prochází každým z prvních 256 sloupců. Odemyká každý sloupec úpravou nastavení stylu. The`StyleFlag` zajišťuje, že zamčenou vlastnost lze následně použít.
 
-## Krok 5: Uzamkněte požadovaný sloupec
+## Krok 5: Zamkněte požadovaný sloupec
 
 Nyní budete chtít zamknout konkrétně první sloupec a ponechat všechny ostatní sloupce upravitelné. Můžete to udělat takto:
 

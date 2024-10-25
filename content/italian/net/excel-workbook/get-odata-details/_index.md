@@ -16,7 +16,7 @@ Nel mondo in continua evoluzione della gestione dei dati, la capacità di connet
 Prima di immergerci nel codice, assicuriamoci di avere tutto ciò che ti serve per seguire questo tutorial. Ecco cosa ti servirà:
 
 1. Visual Studio: assicurati di avere Visual Studio installato. È l'ambiente ideale per lo sviluppo .NET.
-2.  Libreria Aspose.Cells: Scarica e installa la libreria Aspose.Cells per .NET da[Pagina di download di Aspose](https://releases.aspose.com/cells/net/) . Puoi anche provare una versione di prova gratuita da[Qui](https://releases.aspose.com/).
+2. Libreria Aspose.Cells: Scarica e installa la libreria Aspose.Cells per .NET da[Pagina di download di Aspose](https://releases.aspose.com/cells/net/) . Puoi anche provare una versione di prova gratuita da[Qui](https://releases.aspose.com/).
 3. Conoscenza di base di C#: la familiarità con la programmazione C# ti aiuterà a comprendere meglio le sfumature del codice.
 4. Un file Excel di esempio: per questo tutorial, utilizzeremo un file Excel denominato "ODataSample.xlsx", che dovrebbe essere archiviato nella directory di lavoro.
 
@@ -65,7 +65,7 @@ string SourceDir = "Your Document Directory";
 Workbook workbook = new Workbook(SourceDir + "ODataSample.xlsx");
 ```
 
-## Passaggio 2: accedi alle formule di Power Query
+## Passaggio 2: accedere alle formule di Power Query
 
 Successivamente, accederai alle formule di Power Query nella tua cartella di lavoro, che contengono i dettagli OData:
 
@@ -99,7 +99,7 @@ In questo blocco:
 
 ## Passaggio 4: esecuzione e verifica
 
-Infine, devi assicurarti che il codice venga eseguito correttamente e restituisca l'output previsto. Aggiungi la seguente riga alla fine del tuo`Main` metodo:
+ Infine, devi assicurarti che il codice venga eseguito correttamente e restituisca l'output previsto. Aggiungi la seguente riga alla fine del tuo`Main` metodo:
 
 ```csharp
 Console.WriteLine("GetOdataDetails executed successfully.");

@@ -18,7 +18,7 @@ Voordat we beginnen, moet u ervoor zorgen dat u alles paraat heeft om de procedu
 1.  Aspose.Cells voor .NET Library – U moet dit installeren. U kunt het downloaden[hier](https://releases.aspose.com/cells/net/).
 2. .NET Framework – Zorg ervoor dat uw ontwikkelomgeving is ingesteld met de nieuwste versie van .NET.
 3. IDE (Integrated Development Environment) – Visual Studio wordt aanbevolen.
-4.  Een geldige Aspose.Cells-licentie – Als u die niet hebt, kunt u een aanvraag indienen[tijdelijke licentie](https://purchase.aspose.com/temporary-license/)of bekijk hun[gratis proefperiode](https://releases.aspose.com/).
+4.  Een geldige Aspose.Cells-licentie – Als u die niet hebt, kunt u een aanvraag indienen[tijdelijke licentie](https://purchase.aspose.com/temporary-license/) of bekijk hun[gratis proefperiode](https://releases.aspose.com/).
 
 Klaar om te gaan? Laten we het eens bekijken!
 
@@ -79,7 +79,7 @@ for (int i = 21; i < 41; i++)
 }
 ```
 
-Hier gebruiken we willekeurige getallen om gegevens te simuleren, maar in de praktijk kunt u de gegevens vullen met werkelijke waarden uit uw dataset.
+Hier gebruiken we willekeurige getallen om gegevens te simuleren, maar in echte toepassingen kunt u de gegevens vullen met werkelijke waarden uit uw dataset.
 
 ## Stap 3: Voeg de grafiek toe aan het werkblad
 

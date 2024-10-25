@@ -17,7 +17,7 @@ Avant de nous plonger dans les détails de la création de graphiques, assurons-
 
 1. Visual Studio : assurez-vous que Visual Studio est installé sur votre ordinateur. Il est essentiel pour écrire et exécuter du code .NET.
 2. .NET Framework : ce guide fonctionne mieux avec .NET Framework ou .NET Core. Assurez-vous d'avoir installé la version requise (4.5 ou ultérieure).
-3.  Aspose.Cells : vous aurez besoin de la bibliothèque Aspose.Cells. Vous pouvez la télécharger à partir de[ici](https://releases.aspose.com/cells/net/).
+3. Aspose.Cells : vous aurez besoin de la bibliothèque Aspose.Cells. Vous pouvez la télécharger à partir de[ici](https://releases.aspose.com/cells/net/).
 4. Connaissances de base en C# : une compréhension fondamentale de la programmation C# vous aidera à mieux comprendre les étapes. Ne vous inquiétez pas si vous n'êtes pas un pro, je vous expliquerai tout !
 
 ## Paquets d'importation
@@ -174,4 +174,4 @@ Oui ! Aspose.Cells dispose de bibliothèques pour différentes plateformes, not
  Vous pouvez demander de l'aide et du soutien à la communauté Aspose.Cells et aux forums disponibles[ici](https://forum.aspose.com/c/cells/9).
 
 ### Comment puis-je acheter une licence ?
- Vous pouvez acheter une licence directement sur le site Web d'Aspose[ici](https://purchase.aspose.com/buy).
+Vous pouvez acheter une licence directement sur le site Web d'Aspose[ici](https://purchase.aspose.com/buy).

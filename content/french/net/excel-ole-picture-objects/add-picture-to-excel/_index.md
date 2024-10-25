@@ -26,7 +26,7 @@ Maintenant, décomposons le processus d'ajout d'une image à une feuille de calc
 Créer un répertoire pour le stockage des documents
 Avant de faire quoi que ce soit avec le classeur, nous avons besoin d'un endroit où le stocker. Nous allons spécifier ce répertoire de documents :
 ```csharp
-string dataDir = "Your Document Directory"; // Définissez votre chemin souhaité.
+string dataDir = "Your Document Directory"; //Définissez votre chemin souhaité.
 ```
  Dans cet extrait de code, remplacez`"Your Document Directory"` avec le chemin réel où vous souhaitez stocker vos fichiers Excel. Ce répertoire contiendra le fichier de sortie après l'ajout de l'image.
 ## Étape 2 : créer un répertoire s’il n’existe pas
@@ -81,7 +81,7 @@ Oui, vous pouvez ajouter différents formats d’image tels que PNG, JPEG et BMP
 ### Aspose.Cells prend-il en charge les formats de fichiers Excel autres que .xls ?
 Absolument ! Aspose.Cells prend en charge plusieurs formats Excel, notamment .xlsx, .xlsm et .xlsb.
 ### Existe-t-il une version d'essai disponible ?
- Oui ! Vous pouvez essayer Aspose.Cells gratuitement avant de procéder à un achat. Vérifiez simplement[ici](https://releases.aspose.com/).
+Oui ! Vous pouvez essayer Aspose.Cells gratuitement avant de procéder à un achat. Vérifiez simplement[ici](https://releases.aspose.com/).
 ### Que dois-je faire si mon image n'apparaît pas ?
 Assurez-vous que le chemin de l'image est correct et que le fichier image se trouve dans le répertoire spécifié.
 ### Puis-je placer des images sur plusieurs cellules ?

@@ -86,7 +86,7 @@ Att skapa dynamiska rullgardinslistor i Excel med Aspose.Cells för Java är ett
 
 ## FAQ's
 
-### Hur kan jag anpassa listkällan?
+### Hur kan jag anpassa källan för rullgardinsmenyn?
 
  För att anpassa rullgardinslistans källa, ändra helt enkelt arrayen av värden i steget där du definierar källan. Du kan till exempel lägga till eller ta bort objekt från`fruits` array för att ändra alternativen i rullgardinsmenyn.
 

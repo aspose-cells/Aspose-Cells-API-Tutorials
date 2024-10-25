@@ -37,12 +37,12 @@ Zu Beginn müssen wir ein Verzeichnis einrichten, in dem wir unsere Excel-Dateie
 ```csharp
 // Der Pfad zum Dokumentverzeichnis.
 string dataDir = "Your Document Directory";
-//Erstellen Sie ein Verzeichnis, falls es noch nicht vorhanden ist.
+// Erstellen Sie ein Verzeichnis, falls es noch nicht vorhanden ist.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
--  dataDir: Diese Variable enthält den Pfad zu Ihrem Dokumentenverzeichnis. Ersetzen Sie`"Your Document Directory"` durch den tatsächlichen Pfad, in dem Sie Ihre Excel-Datei speichern möchten.
+- dataDir: Diese Variable enthält den Pfad zu Ihrem Dokumentenverzeichnis. Ersetzen Sie`"Your Document Directory"` durch den tatsächlichen Pfad, in dem Sie Ihre Excel-Datei speichern möchten.
 - Directory.Exists: Dies prüft, ob das Verzeichnis bereits existiert.
 - Directory.CreateDirectory: Wenn das Verzeichnis nicht existiert, wird es erstellt.
 ## Schritt 2: Instanziieren einer Arbeitsmappe
@@ -89,7 +89,7 @@ Jetzt müssen wir die Bilddaten auf die Form einstellen, die mit dem zuvor erste
 // Stellen Sie die Bilddaten auf die mit dem Kommentar verknüpfte Form ein
 comment.CommentShape.Fill.ImageData = ms.ToArray();
 ```
--  comment.CommentShape.Fill.ImageData: Mit dieser Eigenschaft können Sie das Bild für die Kommentarform festlegen. Wir konvertieren das`MemoryStream` in ein Byte-Array mit`ms.ToArray()`.
+- comment.CommentShape.Fill.ImageData: Mit dieser Eigenschaft können Sie das Bild für die Kommentarform festlegen. Wir konvertieren das`MemoryStream` in ein Byte-Array mit`ms.ToArray()`.
 ## Schritt 7: Speichern Sie die Arbeitsmappe
 Zum Schluss speichern wir unsere Arbeitsmappe mit dem Kommentar und dem Bild.
 ```csharp

@@ -70,7 +70,7 @@ string outputDir = "C:\\YourOutputDirectory\\"; // 지정한 디렉토리로 변
 
 ## 2단계: 통합 문서 개체 인스턴스화
 
-다음으로 우리는 인스턴스를 생성합니다.`Workbook` 수업. 여기가 우리의 모든 작업이 이루어지는 곳입니다.
+ 다음으로 우리는 인스턴스를 생성합니다.`Workbook` 수업. 여기가 우리의 모든 작업이 이루어지는 곳입니다.
 ```csharp
 Workbook workbook = new Workbook();
 ```

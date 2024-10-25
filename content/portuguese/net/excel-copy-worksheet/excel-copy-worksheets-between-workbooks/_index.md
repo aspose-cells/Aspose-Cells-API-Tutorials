@@ -15,9 +15,9 @@ Já se viu copiando planilhas entre pastas de trabalho do Excel manualmente? É 
 
 Antes de mergulharmos no código, vamos garantir que você esteja equipado com as ferramentas certas para começar:
 
-- Aspose.Cells para .NET: Você pode baixá-lo[aqui](https://releases.aspose.com/cells/net/).
+-  Aspose.Cells para .NET: Você pode baixá-lo[aqui](https://releases.aspose.com/cells/net/).
 - Visual Studio ou qualquer IDE que suporte o .NET Framework.
--  Uma licença válida ou uma[licença temporária](https://purchase.aspose.com/temporary-license/) se você quiser testar a funcionalidade completa do Aspose.Cells.
+-  Uma licença válida ou uma[licença temporária](https://purchase.aspose.com/temporary-license/)se você quiser testar a funcionalidade completa do Aspose.Cells.
 - Uma compreensão básica de C# e do framework .NET.
 
  Você também pode conferir o[Documentação do Aspose.Cells](https://reference.aspose.com/cells/net/) para mais detalhes.
@@ -44,7 +44,7 @@ Primeiro, você precisa definir onde seus arquivos estão localizados. Pense nes
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Nesta linha, substitua`"YOUR DOCUMENT DIRECTORY"` com o caminho real para seus arquivos Excel. É aqui que suas pastas de trabalho serão carregadas e salvas.
+ Nesta linha, substitua`"YOUR DOCUMENT DIRECTORY"`com o caminho real para seus arquivos Excel. É aqui que suas pastas de trabalho serão carregadas e salvas.
 
 ## Etapa 2: Abra a primeira pasta de trabalho
 
@@ -64,7 +64,7 @@ Workbook excelWorkbook0 = new Workbook(InputPath);
 Agora que você tem a primeira pasta de trabalho aberta, é hora de criar outra pasta de trabalho vazia onde você colará a planilha copiada. Pense nisso como abrir um novo caderno em branco para onde você transferirá os dados.
 
 ```csharp
-//Crie outra pasta de trabalho.
+// Crie outra pasta de trabalho.
 Workbook excelWorkbook1 = new Workbook();
 ```
 

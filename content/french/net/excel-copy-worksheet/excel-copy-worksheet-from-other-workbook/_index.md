@@ -79,9 +79,9 @@ Ici, nous créons le premier classeur et remplissons la première feuille de cal
 Configurons la configuration de la page pour répéter les lignes d'en-tête lors de l'impression, juste pour que nous puissions voir cette fonctionnalité en action :
 
 ```csharp
-//Définir un objet pagesetup basé sur la première feuille de calcul
+// Définir un objet pagesetup basé sur la première feuille de calcul
 PageSetup pagesetup = ws0.PageSetup;
-// Les cinq premières lignes sont répétées dans chaque page
+//Les cinq premières lignes sont répétées dans chaque page
 pagesetup.PrintTitleRows = "$1:$5";
 ```
  Cette partie définit la manière dont votre document sera imprimé. En définissant`PrintTitleRows`, nous garantissons que les cinq premières lignes apparaîtront sur chaque page imprimée, ce qui est très utile pour la lisibilité.
@@ -109,7 +109,7 @@ Copions le contenu de la feuille de calcul du premier classeur vers le deuxième
 // première feuille de travail du deuxième classeur
 ws1.Copy(ws0);
 ```
- Le`Copy` la méthode prend tout le contenu de la feuille de calcul source (`ws0`et le duplique dans la feuille de calcul de destination (`ws1`). C'est si simple, non ?
+ Le`Copy` la méthode prend tout le contenu de la feuille de calcul source (`ws0`) et le duplique dans la feuille de calcul de destination (`ws1`). C'est si simple, non ?
 
 ## Étape 6 : Enregistrer le nouveau classeur
 

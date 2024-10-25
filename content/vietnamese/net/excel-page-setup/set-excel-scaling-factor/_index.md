@@ -29,7 +29,7 @@ Trước khi viết bất kỳ mã nào, bạn sẽ cần thêm tham chiếu đ�
 ### Tải xuống DLL
 
 1.  Đi đến[Trang Tải xuống Aspose](https://releases.aspose.com/cells/net/) và tải xuống gói phù hợp cho phiên bản .NET của bạn.
-2. Giải nén tập tin đã tải xuống và định vị`Aspose.Cells.dll` tài liệu.
+2.  Giải nén tập tin đã tải xuống và định vị`Aspose.Cells.dll` tài liệu.
 
 ### Thêm tham chiếu trong Visual Studio
 

@@ -96,11 +96,11 @@ Workbook workbook = new Workbook(sourceDir + "sampleModifyPieChart.xlsx");
 Låt oss nu dyka in i det specifika arket som innehåller cirkeldiagrammet. Vi kommer att anta att cirkeldiagrammet finns på det andra kalkylbladet (index 1):
 
 ```csharp
-//Få designerdiagrammet i det andra bladet.
+// Få designerdiagrammet i det andra bladet.
 Worksheet sheet = workbook.Worksheets[1];
 ```
 
- Genom att komma åt`Worksheets` insamling kan vi komma till det specifika arket vi behöver.
+ Genom att komma åt`Worksheets`insamling kan vi komma till det specifika arket vi behöver.
 
 ## Steg 4: Skaffa diagrammet
 

@@ -16,7 +16,7 @@ Etkileşimli grafikler, kullanıcıların verileri daha iyi keşfetmesini ve anl
 
 Başlamadan önce aşağıdaki ön koşullara sahip olduğunuzdan emin olun:
 - Java Geliştirme Ortamı
--  Java Kütüphanesi için Aspose.Cells (Şuradan indirin[Burada](https://releases.aspose.com/cells/java/)
+- Java Kütüphanesi için Aspose.Cells (Şuradan indirin[Burada](https://releases.aspose.com/cells/java/)
 
 ## Adım 1: Java Projenizi Kurma
 

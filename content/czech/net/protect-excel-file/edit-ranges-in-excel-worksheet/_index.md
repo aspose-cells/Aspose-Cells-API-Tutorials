@@ -41,7 +41,7 @@ Pojďme si rozložit kód pro vytvoření adresáře (pokud ještě neexistuje):
 ```csharp
 // Cesta k adresáři dokumentů.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-//Vytvořte adresář, pokud ještě není přítomen.
+// Vytvořte adresář, pokud ještě není přítomen.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -84,7 +84,7 @@ Tento řádek načte kolekci, kde budete spravovat chráněné rozsahy. Je dobr�
 
 ## Krok 5: Definujte a vytvořte chráněný rozsah
 
-V tuto chvíli jsme připraveni definovat, ve kterém rozsahu chcete povolit úpravy. Pojďme vytvořit tento rozsah.
+tuto chvíli jsme připraveni definovat, ve kterém rozsahu chcete povolit úpravy. Pojďme vytvořit tento rozsah.
 
 ```csharp
 // Definujte ProtectedRange
@@ -132,7 +132,7 @@ book.Save(dataDir + "protectedrange.out.xls");
 
 ## Závěr
 
-tady to máte! Úspěšně jste vytvořili excelový list pomocí Aspose.Cells pro .NET, definovali upravitelné rozsahy, nastavili heslo a ochránili list – to vše v několika jednoduchých krocích. Nyní můžete svůj sešit sdílet s kolegy, čímž se zlepší spolupráce a zároveň budou důležitá data v bezpečí.
+A tady to máte! Úspěšně jste vytvořili excelový list pomocí Aspose.Cells pro .NET, definovali upravitelné rozsahy, nastavili heslo a ochránili list – to vše v několika jednoduchých krocích. Nyní můžete svůj sešit sdílet s kolegy, čímž se zlepší spolupráce a zároveň budou důležitá data v bezpečí.
 
 ## FAQ
 

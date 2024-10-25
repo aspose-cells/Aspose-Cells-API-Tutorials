@@ -25,7 +25,7 @@ Aspose.Cells 使您能够根据特定需求创建自定义数据验证规则。�
 ### [数据验证错误消息](./data-validation-error-messages/)
 使用 Aspose.Cells for Java 优化数据验证错误消息。学习创建、自定义和改善用户体验。
 ### [Excel 中的级联下拉菜单](./cascading-dropdowns-in-excel/)
-了解如何使用 Aspose.Cells for Java 在 Excel 中创建级联下拉菜单。本分步指南提供了源代码和专家提示，可帮助您高效地操作 Excel 电子表格。
+了解如何使用 Aspose.Cells for Java 在 Excel 中创建级联下拉菜单。本分步指南提供了源代码和专家提示，帮助您高效地操作 Excel 电子表格。
 ### [电子表格中的日期验证](./date-validation-in-spreadsheets/)
 了解如何使用 Aspose.Cells for Java 在 Excel 电子表格中执行日期验证。通过我们的分步指南确保数据的准确性和完整性。探索强大的 Excel 操作技术。
 ### [数字数据验证技巧](./numeric-data-validation-tips/)

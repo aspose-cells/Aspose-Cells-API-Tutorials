@@ -13,14 +13,14 @@ digitális világ folyamatos fejlődésével a táblázatokkal végzett munka sz
 
 ## Előfeltételek
 
-Mielőtt belevágnánk a kódba, győződjünk meg arról, hogy minden megvan, ami az oktatóanyag sikeres megvalósításához szükséges. Íme, mire lesz szüksége:
+Mielőtt belevágnánk a kódba, győződjünk meg arról, hogy rendelkezik mindennel, ami az oktatóanyag sikeres megvalósításához szükséges. Íme, mire lesz szüksége:
 
 1.  Visual Studio: Győződjön meg arról, hogy a Visual Studio telepítve van a gépen. Ha még nincs meg, letöltheti innen[itt](https://visualstudio.microsoft.com/vs/).
 2.  Aspose.Cells for .NET: Az Aspose.Cells for .NET-et integrálni kell a projektbe. Beszerezheti a[letöltési link](https://releases.aspose.com/cells/net/)Ez a könyvtár elengedhetetlen az Excel-fájlokkal való munkavégzéshez, és számos funkciót támogat.
 3. A C# alapvető ismerete: A C# programozási nyelv ismerete segít a könnyebb követésben. Ne aggódj; lépésről lépésre végigvezetjük a folyamatokon!
-4. Dokumentumok könyvtára: Győződjön meg arról, hogy van egy mappa a számítógépén, ahol tárolhatja az oktatóanyag Excel-fájljait. 
+4. Dokumentumok könyvtára: Győződjön meg arról, hogy van egy mappa a számítógépén, ahol tárolhatja az oktatóanyag Excel fájljait. 
 
-Minden megvan a listán? Nagy! Most importáljuk a szükséges csomagokat.
+Megvan minden a listán? Nagy! Most importáljuk a szükséges csomagokat.
 
 ## Csomagok importálása
 
@@ -109,7 +109,7 @@ A módosítások befejeztével ideje elmenteni munkafüzetünket. Ez a lépés v
 workbook.Save(dataDir + "output.out.xls");
 ```
 
- Itt mentjük a munkafüzetünket másként`output.out.xls`Ezt a fájlt bárminek elnevezheti; csak győződjön meg arról, hogy a megfelelő könyvtárba menti.
+ Itt a munkafüzetünket másként mentjük`output.out.xls`Ezt a fájlt bárminek elnevezheti; csak győződjön meg arról, hogy a megfelelő könyvtárba menti.
 
 ## 8. lépés: Zárja be a Fájlfolyamot
 

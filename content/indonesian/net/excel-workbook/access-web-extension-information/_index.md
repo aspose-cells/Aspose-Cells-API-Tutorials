@@ -16,7 +16,7 @@ Selamat datang di pembahasan mendalam tentang penggunaan Aspose.Cells untuk .NET
 Sebelum kita mulai, ada beberapa hal yang perlu Anda persiapkan. Berikut ini adalah daftar periksa untuk memastikan semuanya berjalan lancar:
 
 1. Lingkungan .NET: Pastikan Anda telah menyiapkan lingkungan .NET di komputer Anda. Ini biasanya berarti telah menginstal Visual Studio atau IDE lain yang kompatibel.
-2. Aspose.Cells untuk .NET: Anda perlu memiliki pustaka Aspose.Cells. Jangan khawatir; Anda dapat dengan mudah[unduh versi terbaru di sini](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells untuk .NET: Anda perlu memiliki pustaka Aspose.Cells. Jangan khawatir; Anda dapat dengan mudah[unduh versi terbaru di sini](https://releases.aspose.com/cells/net/).
 3.  Contoh File Excel: Untuk tutorial ini, pastikan Anda memiliki contoh file Excel (seperti`WebExtensionsSample.xlsx`) dapat diakses. Anda dapat membuatnya dengan ekstensi web di dalamnya atau mengunduhnya jika perlu. 
 4. Pengetahuan Dasar C#: Pemahaman mendasar tentang pemrograman C# akan membuat navigasi tutorial ini jauh lebih mudah.
 5. Manajer Paket NuGet: Keakraban dengan NuGet dapat membantu Anda mengelola Aspose.Cells dalam proyek Anda dengan lancar.
@@ -62,12 +62,12 @@ Di sini, kita mengambil semua panel tugas yang terkait dengan ekstensi web dalam
 
 ## Langkah 4: Ulangi Melalui Panel Tugas
 
- Setelah Anda memiliki koleksi, langkah logis berikutnya adalah melakukan pengulangan melalui setiap panel tugas dan mendapatkan propertinya. Menggunakan`foreach` loop adalah cara terbaik untuk menavigasi setiap panel tugas dengan mulus.
+Setelah Anda memiliki koleksi, langkah logis berikutnya adalah melakukan pengulangan melalui setiap panel tugas dan mendapatkan propertinya. Menggunakan`foreach` loop adalah cara terbaik untuk menavigasi setiap panel tugas dengan mulus.
 
 ```csharp
 foreach (WebExtensionTaskPane taskPane in taskPanes)
 {
-    //Di dalam loop ini, kita akan mengekstrak properti
+    // Di dalam loop ini, kita akan mengekstrak properti
 }
 ```
 

@@ -38,7 +38,7 @@ Trước khi bắt đầu thao tác với Workbook, chúng ta cần xác định
 ```csharp
 // Đường dẫn đến thư mục tài liệu.
 string dataDir = "Your Document Directory";
-//Tạo thư mục nếu thư mục đó chưa có.
+// Tạo thư mục nếu thư mục đó chưa có.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);

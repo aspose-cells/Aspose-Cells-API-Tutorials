@@ -29,7 +29,7 @@ Bu ad alanları, bu kılavuzda kullanacağınız tüm çizim özelliklerine ve h
 İlk önce ilk şeyler—parlak yeni Excel dosyalarını kaydedeceğiniz bir dizin oluşturalım. Bunu nasıl yaptığımızı anlatalım:
 ```csharp
 string dataDir = "Your Document Directory";
-//Eğer mevcut değilse dizin oluşturun.
+// Eğer mevcut değilse dizin oluşturun.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);

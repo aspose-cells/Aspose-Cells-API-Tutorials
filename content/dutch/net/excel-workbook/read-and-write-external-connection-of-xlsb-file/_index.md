@@ -68,7 +68,7 @@ Met de werkmap geladen, kunt u de externe verbindingen ervan benaderen. In ons g
 Aspose.Cells.ExternalConnections.DBConnection dbCon = wb.DataConnections[0] as Aspose.Cells.ExternalConnections.DBConnection;
 ```
 
- Hier,`DataConnections[0]`verwijst naar de eerste verbinding in de werkmap. We casten het als een`DBConnection` typ voor verdere manipulatie.
+ Hier,`DataConnections[0]` verwijst naar de eerste verbinding in de werkmap. We casten het als een`DBConnection` typ voor verdere manipulatie.
 
 ## Stap 4: Verbindingsinformatie extraheren
 

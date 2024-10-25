@@ -15,7 +15,7 @@ Criar páginas da web visualmente atraentes a partir de planilhas do Excel pode 
 Antes de começarmos o código, certifique-se de ter o seguinte:
 
 1. Visual Studio instalado: você precisará de um ambiente de desenvolvimento como o Visual Studio para executar e testar seus aplicativos .NET.
-2. Aspose.Cells para .NET: Baixe e instale o Aspose.Cells. Você pode obter a versão mais recente do[Site Aspose](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells para .NET: Baixe e instale o Aspose.Cells. Você pode obter a versão mais recente do[Site Aspose](https://releases.aspose.com/cells/net/).
 3. Conhecimento básico de C#: A familiaridade com a programação em C# ajudará você a entender melhor os exemplos.
 4. Um arquivo Excel de exemplo: Prepare um arquivo Excel chamado "Book1.xlsx" para trabalhar. Coloque-o em uma pasta designada que você referenciará em seu código.
 
@@ -108,7 +108,7 @@ saveOptions.ImageOptions.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.
 
 ## Etapa 7: otimizar a renderização do texto
 
-A renderização de texto também pode ser otimizada para uma melhor experiência visual. Defina a dica de renderização de texto para AntiAlias para obter uma renderização de texto mais suave.
+renderização de texto também pode ser otimizada para uma melhor experiência visual. Defina a dica de renderização de texto para AntiAlias para obter uma renderização de texto mais suave.
 
 ```csharp
 saveOptions.ImageOptions.TextRenderingHint = System.Drawing.Text.TextRenderingHint.AntiAlias;
@@ -146,7 +146,7 @@ Sim, você pode usar Aspose.Cells em qualquer IDE ou aplicativo de console compa
 
 ### Quais formatos de imagem posso usar com o Aspose.Cells?
 
-Aspose.Cells suporta vários formatos de imagem para exportação, incluindo PNG, JPEG e BMP.
+O Aspose.Cells suporta vários formatos de imagem para exportação, incluindo PNG, JPEG e BMP.
 
 ### Como obtenho suporte para o Aspose.Cells?
 

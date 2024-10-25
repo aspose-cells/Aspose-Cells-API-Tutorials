@@ -69,4 +69,4 @@ Kesinlikle! Kütüphaneyi kullanarak Excel dosyalarını okuyabilir, yazabilir v
 ### Aspose.Cells kullanıcıları için destek mevcut mu?
  Evet, forumlar ve belgeler dahil olmak üzere kapsamlı destek kaynaklarına erişebilirsiniz.[Burada](https://forum.aspose.com/c/cells/9).
 ### Aspose.Cells için geçici lisansı nasıl alabilirim?
- Ürünü değerlendirmek için geçici lisans başvurusunda bulunmak için şu adresi ziyaret edebilirsiniz:[bu bağlantı](https://purchase.aspose.com/temporary-license/).
+Ürünü değerlendirmek için geçici lisans başvurusunda bulunmak için şu adresi ziyaret edebilirsiniz:[bu bağlantı](https://purchase.aspose.com/temporary-license/).

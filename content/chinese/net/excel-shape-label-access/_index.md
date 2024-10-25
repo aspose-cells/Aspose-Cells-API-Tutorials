@@ -2,7 +2,7 @@
 title: Excel 形状和标签访问
 linktitle: Excel 形状和标签访问
 second_title: Aspose.Cells .NET Excel 处理 API
-description: 通过我们全面的教程释放 Aspose.Cells for .NET 的强大功能，涵盖 OLE 对象标签和 Excel 中的 Smart Art 形状识别。
+description: 通过我们全面的教程释放 Aspose.Cells for .NET 的强大功能，涵盖 Excel 中的 OLE 对象标签和 Smart Art 形状识别。
 type: docs
 weight: 23
 url: /zh/net/excel-shape-label-access/

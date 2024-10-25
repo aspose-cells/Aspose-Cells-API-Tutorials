@@ -65,7 +65,7 @@ Worksheet ws = wb.Worksheets[0];
 Most állítsuk be a speciális szűrőparamétereinket. Ez magában foglalja a szűrni kívánt tartományt és a feltételeket.
 
 ```csharp
-string rangeToFilter = "A5:D19"; // A szűrendő adatok tartománya
+string rangeToFilter = "A5:D19"; // A szűrni kívánt adatok tartománya
 string criteriaRange = "A1:D2"; // A szűrési kritériumok köre
 ```
 

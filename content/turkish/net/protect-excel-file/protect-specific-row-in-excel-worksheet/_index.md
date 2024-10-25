@@ -49,7 +49,7 @@ Artık her şeyi ayarladığımıza göre, Excel çalışma sayfamızdaki belirl
 // Belgeler dizinine giden yol.
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // İstediğiniz yola geçin.
 
-//Eğer mevcut değilse dizin oluşturun.
+// Eğer mevcut değilse dizin oluşturun.
 bool isExists = System.IO.Directory.Exists(dataDir);
 if (!isExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -88,7 +88,7 @@ StyleFlag flag;
 for (int i = 0; i <= 255; i++)
 {
     style = sheet.Cells.Columns[(byte)i].Style;
-    style.IsLocked = false; // Sütunun kilidini aç
+    style.IsLocked = false; //Sütunun kilidini aç
     flag = new StyleFlag();
     flag.Locked = true; // Kilitleme için bayrağı doğru olarak ayarlayın
     sheet.Cells.Columns[(byte)i].ApplyStyle(style, flag); // Stili uygula

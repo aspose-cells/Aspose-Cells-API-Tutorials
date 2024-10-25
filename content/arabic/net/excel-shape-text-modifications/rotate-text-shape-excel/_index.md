@@ -47,7 +47,7 @@ string sourceDir = "Your Document Directory"; // قم بتعيين دليل ال
 //دليل الإخراج
 string outputDir = "Your Document Directory"; // قم بتعيين دليل الإخراج الخاص بك
 ```
- يستبدل`"Your Document Directory"` مع المسار الفعلي الذي تريده`sampleRotateTextWithShapeInsideWorksheet.xlsx`تم العثور على الملف.
+ يستبدل`"Your Document Directory"` مع المسار الفعلي الذي تريده`sampleRotateTextWithShapeInsideWorksheet.xlsx` تم العثور على الملف.
 ## الخطوة 2: تحميل ملف Excel النموذجي
 الآن، لنبدأ بتحميل ملف Excel النموذجي. هذا أمر بالغ الأهمية، لأننا نريد معالجة البيانات الموجودة.
 ```csharp
@@ -91,7 +91,7 @@ wb.Save(outputDir + "outputRotateTextWithShapeInsideWorksheet.xlsx");
 ```
 وهذا كل شيء! تم الآن حفظ ملف الإخراج الخاص بك، بما في ذلك النص الموجود في الخلية B4 والتعديلات التي أجريتها على الشكل.
 ## الخطوة 8: تنفيذ الكود
- فيك`Main`قم بتغليف كل مقتطفات التعليمات البرمجية أعلاه، ثم قم بتشغيل مشروعك. شاهد التغييرات تنعكس في ملف الإخراج الخاص بك!
+ فيك`Main` قم بتغليف كل مقتطفات التعليمات البرمجية أعلاه، ثم قم بتشغيل مشروعك. شاهد التغييرات تنعكس في ملف الإخراج الخاص بك!
 ```csharp
 Console.WriteLine("RotateTextWithShapeInsideWorksheet executed successfully.");
 ```
@@ -105,6 +105,6 @@ Console.WriteLine("RotateTextWithShapeInsideWorksheet executed successfully.");
 ### هل من الممكن تدوير النص مع الأشكال في إصدارات Excel القديمة؟
 نعم، يمكن تطبيق الوظيفة على التنسيقات القديمة التي يدعمها Aspose.Cells.
 ### أين يمكنني العثور على مزيد من الوثائق حول Aspose.Cells؟
- يمكنك استكشاف الشامل[التوثيق](https://reference.aspose.com/cells/net/)لمزيد من الأفكار.
+ يمكنك استكشاف الشامل[التوثيق](https://reference.aspose.com/cells/net/) لمزيد من الأفكار.
 ### كيف أحصل على الدعم لـ Aspose.Cells؟
  يمكنك طلب الدعم من خلال زيارة[منتدى اسبوس](https://forum.aspose.com/c/cells/9).

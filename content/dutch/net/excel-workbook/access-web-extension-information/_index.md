@@ -16,7 +16,7 @@ Welkom bij onze diepgaande duik in het gebruik van Aspose.Cells voor .NET! In de
 Voordat we de mouwen opstropen en beginnen, zijn er een paar dingen die je moet regelen. Hier is een checklist om ervoor te zorgen dat alles soepel verloopt:
 
 1. .NET-omgeving: Zorg ervoor dat u een .NET-omgeving op uw machine hebt ingesteld. Dit betekent meestal dat u Visual Studio of een andere compatibele IDE hebt geïnstalleerd.
-2. Aspose.Cells voor .NET: U moet de Aspose.Cells-bibliotheek hebben. Maak u geen zorgen; u kunt eenvoudig[Download hier de nieuwste versie](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells voor .NET: U moet de Aspose.Cells-bibliotheek hebben. Maak u geen zorgen; u kunt eenvoudig[Download hier de nieuwste versie](https://releases.aspose.com/cells/net/).
 3.  Voorbeeld Excel-bestand: Zorg ervoor dat u voor deze tutorial een voorbeeld Excel-bestand hebt (zoals`WebExtensionsSample.xlsx`) toegankelijk. U kunt er een maken met webextensies erin of er een downloaden indien nodig. 
 4. Basiskennis van C#: Een fundamenteel begrip van C#-programmering maakt het navigeren door deze tutorial een stuk eenvoudiger.
 5. NuGet Package Manager: Als u bekend bent met NuGet, kunt u Aspose.Cells naadloos beheren binnen uw project.
@@ -62,12 +62,12 @@ Hier pakken we alle taakvensters die gekoppeld zijn aan de webextensies in de we
 
 ## Stap 4: Itereren door taakvensters
 
- Zodra u de verzameling hebt, is de volgende logische stap om door elk taakvenster te lopen en de eigenschappen ervan te verkrijgen. Met behulp van een`foreach` loop is een uitstekende manier om naadloos door elk taakvenster te navigeren.
+Zodra u de verzameling hebt, is de volgende logische stap om door elk taakvenster te lopen en de eigenschappen ervan te verkrijgen. Met behulp van een`foreach` loop is een uitstekende manier om naadloos door elk taakvenster te navigeren.
 
 ```csharp
 foreach (WebExtensionTaskPane taskPane in taskPanes)
 {
-    //In deze lus zullen we eigenschappen extraheren
+    // In deze lus zullen we eigenschappen extraheren
 }
 ```
 

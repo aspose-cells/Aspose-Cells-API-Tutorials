@@ -44,7 +44,7 @@ using System;
 
 Tutaj „Twój katalog dokumentów” jest symbolem zastępczym dla rzeczywistej ścieżki, w której przechowywane są pliki Excela. Upewnij się, że zastąpisz ją poprawną ścieżką w swoim systemie. 
 ## Krok 1: Utwórz obiekt skoroszytu 
-Teraz, gdy masz już skonfigurowany katalog dokumentów, następnym krokiem jest utworzenie instancji`Workbook` klasa, aby otworzyć plik Excel.
+ Teraz, gdy masz już skonfigurowany katalog dokumentów, następnym krokiem jest utworzenie instancji`Workbook`klasa, aby otworzyć plik Excel.
 
 ```csharp
 // Ścieżka do katalogu dokumentów.
@@ -64,17 +64,17 @@ Console.WriteLine("Workbook opened using path successfully!");
 
 Ta prosta linia wydrukuje wiadomość na konsoli potwierdzającą, że skoroszyt został otwarty. Daje Ci to informację zwrotną i zapewnia, że Twój program działa zgodnie z przeznaczeniem.
 
- Tutaj zapakowaliśmy nasz kod w`try-catch`blok. Oznacza to, że jeśli coś pójdzie nie tak podczas otwierania skoroszytu, zamiast rzucać napad złości, Twój program obsłuży to z gracją, informując Cię, co się stało.
+ Tutaj zapakowaliśmy nasz kod w`try-catch` blok. Oznacza to, że jeśli coś pójdzie nie tak podczas otwierania skoroszytu, zamiast rzucać napad złości, Twój program obsłuży to z gracją, informując Cię, co się stało.
 ## Wniosek
- Otwieranie plików Excela za pomocą Aspose.Cells dla .NET jest proste, gdy już wiesz, co robisz! Jak już widziałeś, proces obejmuje skonfigurowanie katalogu dokumentów, utworzenie`Workbook` obiekt i sprawdzanie, czy wszystko działa za pomocą polecenia print. Dzięki mocy Aspose.Cells w swoim arsenale jesteś wyposażony, aby przenieść swoje umiejętności obsługi programu Excel na wyższy poziom — automatyzując przyziemne zadania i ułatwiając płynne zarządzanie danymi.
+Otwieranie plików Excela za pomocą Aspose.Cells dla .NET jest proste, gdy już wiesz, co robisz! Jak już widziałeś, proces obejmuje skonfigurowanie katalogu dokumentów, utworzenie`Workbook` obiekt i sprawdzanie, czy wszystko działa za pomocą polecenia print. Dzięki mocy Aspose.Cells w swoim arsenale jesteś wyposażony, aby przenieść swoje umiejętności obsługi programu Excel na wyższy poziom — automatyzując przyziemne zadania i ułatwiając płynne zarządzanie danymi.
 ## Najczęściej zadawane pytania
 ### Czym jest Aspose.Cells dla .NET?
 Aspose.Cells for .NET to biblioteka .NET umożliwiająca programistom tworzenie, edytowanie i konwertowanie plików Excel bez konieczności używania programu Microsoft Excel.
 ### Czy muszę mieć zainstalowany program Microsoft Excel, aby korzystać z Aspose.Cells?
 Nie! Aspose.Cells działa niezależnie od programu Microsoft Excel i nie wymaga jego instalacji.
 ### Czy mogę otworzyć wiele plików Excela jednocześnie?
-Oczywiście! Możesz utworzyć wiele`Workbook` obiekty dla różnych plików w podobny sposób.
+ Oczywiście! Możesz utworzyć wiele`Workbook` obiekty dla różnych plików w podobny sposób.
 ### Jakie typy plików można otwierać za pomocą Aspose.Cells?
 Aspose.Cells może otwierać pliki .xls, .xlsx, .csv i inne formaty programu Excel.
 ### Gdzie mogę znaleźć dokumentację Aspose.Cells?
- Można znaleźć kompleksową dokumentację[Tutaj](https://reference.aspose.com/cells/net/).
+Można znaleźć kompleksową dokumentację[Tutaj](https://reference.aspose.com/cells/net/).

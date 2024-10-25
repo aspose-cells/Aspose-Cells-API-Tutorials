@@ -33,7 +33,7 @@ Anda dapat mengunduh pustaka Aspose.Cells for Java dari situs web. Setelah diund
 Untuk menggunakan Aspose.Cells untuk Java, Anda perlu menginisialisasi lisensi Anda. Langkah ini penting untuk menghapus batasan evaluasi dan membuka potensi penuh pustaka tersebut.
 
 ```java
-// Inisialisasi lisensi Aspose.Cells
+//Inisialisasi lisensi Aspose.Cells
 License license = new License();
 license.setLicense("path_to_license_file.xml");
 ```
@@ -88,7 +88,7 @@ Chart chart = worksheet.getCharts().get(chartIndex);
 // Mengatur rentang data untuk bagan
 chart.getNSeries().add("A2:B4", true);
 
-//Menyesuaikan atribut bagan
+// Menyesuaikan atribut bagan
 chart.getChartArea().getBorder().setVisible(false);
 chart.getChartTitle().setText("3D Bar Chart");
 ```

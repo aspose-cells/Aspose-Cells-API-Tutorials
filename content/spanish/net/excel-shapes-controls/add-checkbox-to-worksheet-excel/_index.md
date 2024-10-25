@@ -38,7 +38,7 @@ En primer lugar, debemos asegurarnos de que exista el directorio donde guardarem
 ```csharp
 // La ruta al directorio de documentos.
 string dataDir = "Your Document Directory";
-//Crear directorio si aún no está presente.
+// Crear directorio si aún no está presente.
 bool isExists = System.IO.Directory.Exists(dataDir);
 if (!isExists)
     System.IO.Directory.CreateDirectory(dataDir);

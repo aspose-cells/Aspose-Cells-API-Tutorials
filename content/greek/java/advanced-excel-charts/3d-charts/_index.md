@@ -33,7 +33,7 @@ url: /el/java/advanced-excel-charts/3d-charts/
 Για να χρησιμοποιήσετε το Aspose.Cells για Java, θα χρειαστεί να αρχικοποιήσετε την άδεια χρήσης σας. Αυτό το βήμα είναι απαραίτητο για την άρση τυχόν περιορισμών αξιολόγησης και την απελευθέρωση του πλήρους δυναμικού της βιβλιοθήκης.
 
 ```java
-// Αρχικοποίηση άδειας Aspose.Cells
+//Αρχικοποίηση άδειας Aspose.Cells
 License license = new License();
 license.setLicense("path_to_license_file.xml");
 ```
@@ -88,7 +88,7 @@ Chart chart = worksheet.getCharts().get(chartIndex);
 // Ρύθμιση του εύρους δεδομένων για το γράφημα
 chart.getNSeries().add("A2:B4", true);
 
-//Προσαρμογή χαρακτηριστικών γραφήματος
+// Προσαρμογή χαρακτηριστικών γραφήματος
 chart.getChartArea().getBorder().setVisible(false);
 chart.getChartTitle().setText("3D Bar Chart");
 ```
@@ -124,7 +124,7 @@ workbook.save("3D_Chart.xlsx");
 
 - Αλλάξτε χρώματα, γραμματοσειρές και στυλ ώστε να ταιριάζουν με την παρουσίασή σας.
 
-### Εργασία με άξονες γραφημάτων
+### Εργασία με άξονες γραφήματος
 
 - Προσαρμόστε τις κλίμακες, τα διαστήματα και τα σημάδια αξόνων.
 

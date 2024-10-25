@@ -108,7 +108,7 @@ Chart ch = ws.Charts[0];
 
 ```csharp
 // กำหนดหน่วยหลักสำหรับแกน Y
-ch.AxisY.MajorUnit = 10; //คุณสามารถตั้งค่าตามความต้องการของคุณได้
+ch.AxisY.MajorUnit = 10; // คุณสามารถตั้งค่าตามความต้องการของคุณได้
 ```
 
 มาอัพเดทหน่วยอัตโนมัติกันแล้วนะครับ!
@@ -142,7 +142,7 @@ Console.WriteLine("HandleAutomaticUnitsOfChartAxisLikeMicrosoftExcel executed su
 Aspose.Cells เป็นไลบรารี .NET อันทรงพลังสำหรับการสร้าง จัดการ และแปลงไฟล์ Excel
 
 ### ฉันสามารถใช้ Aspose.Cells ได้ฟรีหรือไม่?
- ใช่! คุณสามารถเริ่มต้นด้วยการทดลองใช้ฟรีได้[ที่นี่](https://releases.aspose.com/).
+ใช่! คุณสามารถเริ่มต้นด้วยการทดลองใช้ฟรีได้[ที่นี่](https://releases.aspose.com/).
 
 ### ฉันจำเป็นต้องติดตั้งอะไรเพื่อเริ่มต้นใช้งานหรือไม่?
 เพียงแค่ติดตั้งไลบรารี Aspose.Cells และ .NET Framework บนเครื่องของคุณ

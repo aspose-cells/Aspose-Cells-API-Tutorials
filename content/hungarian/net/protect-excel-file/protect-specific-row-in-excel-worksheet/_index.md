@@ -49,7 +49,7 @@ Először is meg kell határoznunk egy könyvtárat, ahol az Excel fájlunkat t�
 // A dokumentumok könyvtárának elérési útja.
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // váltson a kívánt útvonalra.
 
-//Hozzon létre könyvtárat, ha még nincs jelen.
+// Hozzon létre könyvtárat, ha még nincs jelen.
 bool isExists = System.IO.Directory.Exists(dataDir);
 if (!isExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -84,11 +84,11 @@ Mielőtt bármelyik sort zárolnánk, meg kell győződnünk arról, hogy minden
 Style style;
 // Határozza meg a styleflag objektumot.
 StyleFlag flag;
-// Lapozzon végig a munkalap összes oszlopán, és oldja fel a zárolást.
+// Lapozzon át a munkalap összes oszlopán, és oldja fel őket.
 for (int i = 0; i <= 255; i++)
 {
     style = sheet.Cells.Columns[(byte)i].Style;
-    style.IsLocked = false; // Oszlop feloldása
+    style.IsLocked = false; //Oszlop feloldása
     flag = new StyleFlag();
     flag.Locked = true; // A zároláshoz állítsa igazra a jelzőt
     sheet.Cells.Columns[(byte)i].ApplyStyle(style, flag); // Alkalmazza a stílust

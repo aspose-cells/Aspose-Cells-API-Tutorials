@@ -15,7 +15,7 @@ Membuat halaman web yang menarik secara visual dari lembar kerja Excel dapat men
 Sebelum kita masuk ke kode, pastikan Anda memiliki yang berikut ini:
 
 1. Visual Studio Terpasang: Anda memerlukan lingkungan pengembangan seperti Visual Studio untuk menjalankan dan menguji aplikasi .NET Anda.
-2. Aspose.Cells untuk .NET: Unduh dan instal Aspose.Cells. Anda dapat mengunduh versi terbaru dari[Situs web Aspose](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells untuk .NET: Unduh dan instal Aspose.Cells. Anda dapat mengunduh versi terbaru dari[Situs web Aspose](https://releases.aspose.com/cells/net/).
 3. Pengetahuan dasar C#: Keakraban dengan pemrograman C# akan membantu Anda memahami contoh-contoh dengan lebih baik.
 4. Contoh file Excel: Siapkan file Excel bernama "Book1.xlsx" untuk digunakan. Letakkan di folder tertentu yang akan Anda rujuk dalam kode Anda.
 

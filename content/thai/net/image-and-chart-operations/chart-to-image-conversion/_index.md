@@ -36,7 +36,7 @@ using Aspose.Cells;
 ```csharp
 // กำหนดไดเรกทอรีที่จะบันทึกรูปภาพ
 string dataDir = "Your Document Directory";
-// ตรวจสอบว่าไดเร็กทอรีมีอยู่หรือไม่
+//ตรวจสอบว่าไดเร็กทอรีมีอยู่หรือไม่
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -93,7 +93,7 @@ chart.NSeries.Add("A1:B3", true);
 ## ขั้นตอนที่ 7: แปลงแผนภูมิเป็นรูปภาพ
 ช่วงเวลาแห่งความจริง: เรากำลังจะแปลงแผนภูมิเป็นไฟล์รูปภาพ!
 
- ที่นี่เราใช้`ToImage`วิธีการแปลงแผนภูมิเป็นรูปแบบภาพที่คุณเลือก ในกรณีนี้ เราจะแปลงเป็นรูปแบบ EMF (Enhanced Metafile)
+ ที่นี่เราใช้`ToImage` วิธีการแปลงแผนภูมิเป็นรูปแบบภาพที่คุณเลือก ในกรณีนี้ เราจะแปลงเป็นรูปแบบ EMF (Enhanced Metafile)
 ```csharp
 // แปลงแผนภูมิเป็นรูปภาพและบันทึกลงในไดเร็กทอรี
 chart.ToImage(dataDir + "Chart.emf", ImageFormat.Emf);

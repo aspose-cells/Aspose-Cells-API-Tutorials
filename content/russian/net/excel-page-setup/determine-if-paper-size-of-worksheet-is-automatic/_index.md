@@ -25,7 +25,7 @@ url: /ru/net/excel-page-setup/determine-if-paper-size-of-worksheet-is-automatic/
 У вас должна быть настроена IDE, например Visual Studio. Это поможет вам эффективно обрабатывать и тестировать ваш код.
 
 ### Образцы файлов Excel
-Вам понадобятся файлы примеров (`samplePageSetupIsAutomaticPaperSize-False.xlsx` и`samplePageSetupIsAutomaticPaperSize-True.xlsx`) для целей тестирования. Убедитесь, что эти файлы находятся в исходном каталоге.
+Вам понадобятся файлы примеров (`samplePageSetupIsAutomaticPaperSize-False.xlsx` и`samplePageSetupIsAutomaticPaperSize-True.xlsx`для целей тестирования. Убедитесь, что эти файлы находятся в исходном каталоге.
 
 ## Импортные пакеты
 

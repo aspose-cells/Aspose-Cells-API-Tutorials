@@ -68,6 +68,6 @@ Egyéni tulajdonságaiban karakterláncokat, számokat és akár dátumokat is t
 ### Az Aspose.Cells ingyenesen használható?
  Az Aspose.Cells ingyenes próbaverziót kínál. A teljes funkciókhoz vásárlás szükséges. Nézze meg a[árképzési lehetőségek itt](https://purchase.aspose.com/buy).
 ### Hol találom az Aspose.Cells dokumentációját?
- Átfogó dokumentációt találhat[itt](https://reference.aspose.com/cells/net/).
+Átfogó dokumentációt találhat[itt](https://reference.aspose.com/cells/net/).
 ### Mi a teendő, ha segítségre van szükségem az Aspose.Cells használata során?
  Meglátogathatja a[Aspose támogatási fórum](https://forum.aspose.com/c/cells/9) közösségük és támogató csapatuk segítségéért.

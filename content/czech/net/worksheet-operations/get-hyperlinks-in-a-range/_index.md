@@ -16,7 +16,7 @@ Než se pustíme do groteskního kódování, existuje několik předpokladů, k
 2.  Knihovna Aspose.Cells: Budete potřebovat knihovnu Aspose.Cells. Nejnovější verzi si můžete stáhnout z[zde](https://releases.aspose.com/cells/net/) . Pokud právě začínáte, zvažte použití[zkušební verze zdarma](https://releases.aspose.com/) testovat vody.
 3. IDE: Dobré integrované vývojové prostředí (IDE), jako je Visual Studio, vám usnadní život. Umožňuje vám plynule psát, ladit a spouštět kód.
 4. Základní znalost C#: Znalost programování v C# je užitečná, ale pokud jste ochotni se učit, můžete jít!
-S těmito předpoklady jsme připraveni začít. Pojďme k nějakému základnímu kódování – importu potřebných balíčků a rozebrání našeho příkladu krok za krokem.
+těmito předpoklady jsme připraveni začít. Pojďme k nějakému základnímu kódování – importu potřebných balíčků a rozebrání našeho příkladu krok za krokem.
 ## Importujte balíčky
 Jedním z prvních kroků při kódování je import potřebných balíčků. Ve svém projektu budete muset přidat odkaz na knihovnu Aspose.Cells. To lze obvykle provést prostřednictvím Správce balíčků NuGet. Postup je následující:
 1. Otevřete Visual Studio.
@@ -35,17 +35,17 @@ Začněme definováním cesty vašich dokumentů. Chcete nastavit zdrojový adre
 // Cesta k adresáři dokumentů.
 string sourceDir = "Your Document Directory"; // Změňte to na cestu k souboru aplikace Excel
 // Výstupní adresář
-string outputDir = RunExamples.Get_OutputDirectory(); // Ujistěte se, že tato metoda poskytuje platnou výstupní cestu
+string outputDir = "Your Document Directory"; // Ujistěte se, že tato metoda poskytuje platnou výstupní cestu
 ```
- V tomto úryvku nahraďte`"Your Document Directory"` se skutečnou cestou k vašemu adresáři obsahujícímu soubor Excel. Je to jako příprava jeviště před vystoupením – je důležité vědět, kde máte materiály.
+ V tomto úryvku nahraďte`"Your Document Directory"`se skutečnou cestou k vašemu adresáři obsahujícímu soubor Excel. Je to jako příprava jeviště před vystoupením – je důležité vědět, kde máte materiály.
 ## Krok 2: Vytvořte instanci objektu sešitu
  Dále vytvoříme a`Workbook` objekt k otevření souboru Excel, se kterým pracujeme.
 ```csharp
-//Vytvořte instanci objektu sešitu
+// Vytvořte instanci objektu sešitu
 // Otevřete soubor aplikace Excel
 Workbook workbook = new Workbook(sourceDir + "HyperlinksSample.xlsx");
 ```
- Zde vytváříme nový`Workbook` instance. The`Workbook` class je v podstatě vaší bránou ke všem operacím souvisejícím se souborem Excel. Můžete si to představit jako otevření knihy, která obsahuje veškerý váš obsah.
+ Tady vytváříme nový`Workbook` instance. The`Workbook` class je v podstatě vaší bránou ke všem operacím souvisejícím se souborem Excel. Můžete si to představit jako otevření knihy, která obsahuje veškerý váš obsah.
 ## Krok 3: Otevřete sešit
 Nyní, když máme sešit hotový, dáme si z něj první list. V Excelu jsou listy jako stránky ve vaší knize a my musíme určit, na které stránce pracujeme.
 ```csharp
@@ -59,14 +59,14 @@ Nyní je čas definovat rozsah, ve kterém chceme hledat hypertextové odkazy. V
 // Vytvořte rozsah A2:B3
 Range range = worksheet.Cells.CreateRange("A2", "B3");
 ```
- Zavoláním`CreateRange`, určíme počáteční a koncovou buňku. Zde se odehrává kouzlo – později zkontrolujeme hypertextové odkazy umístěné v tomto určeném rozsahu.
+ Zavoláním`CreateRange`určíme počáteční a koncovou buňku. Zde se odehrává kouzlo – později zkontrolujeme hypertextové odkazy umístěné v tomto určeném rozsahu.
 ## Krok 5: Načtení hypertextových odkazů z rozsahu
 Tento krok je místem, kde skutečně přistupujeme k hypertextovým odkazům v našem definovaném rozsahu.
 ```csharp
 //Získejte hypertextové odkazy v dosahu
 Hyperlink[] hyperlinks = range.Hyperlinks;
 ```
- The`Hyperlinks` majetek a`Range`objekt vrací pole`Hyperlink` objekty nalezené v tomto rozsahu. Je to jako popadnout všechny důležité poznámky ze stránky najednou!
+ The`Hyperlinks` majetek a`Range` objekt vrací pole`Hyperlink` objekty nalezené v tomto rozsahu. Je to jako popadnout všechny důležité poznámky ze stránky najednou!
 ## Krok 6: Procházet a zobrazovat odkazy
 Nyní si projdeme načtené hypertextové odkazy. Jejich adresy a oblasti zatím vytiskneme v konzole.
 ```csharp
@@ -85,7 +85,7 @@ foreach (Hyperlink link in hyperlinks)
     link.Delete();
 }
 ```
- Pomocí`Delete()` metoda na každém hypertextovém odkazu umožňuje odstranit hypertextové odkazy, které již možná nepotřebujete. Je to jako vymazat klikyháky, které už ze stránky nepotřebujete.
+ Pomocí`Delete()`metoda na každém hypertextovém odkazu umožňuje odstranit hypertextové odkazy, které již možná nepotřebujete. Je to jako vymazat klikyháky, které už ze stránky nepotřebujete.
 ## Krok 8: Uložte změny
 Nakonec uložíme sešit se všemi úpravami, které jsme provedli.
 ```csharp

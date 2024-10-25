@@ -77,7 +77,7 @@ Commençons maintenant à configurer l'en-tête. Nous commencerons par la sectio
 pageSetup.SetHeader(0, "&A");
 ```
 
-Explication : Le`SetHeader` La méthode nous permet de définir le contenu de l'en-tête. Ici,`&A` désigne le nom de la feuille de calcul, qui apparaîtra sur le côté gauche de l'en-tête.
+ Explication : Le`SetHeader` La méthode nous permet de définir le contenu de l'en-tête. Ici,`&A` désigne le nom de la feuille de calcul, qui apparaîtra sur le côté gauche de l'en-tête.
 
 ## Étape 4 : Personnaliser l’en-tête central
 
@@ -87,7 +87,7 @@ Ensuite, nous allons personnaliser l’en-tête central pour afficher la date et
 pageSetup.SetHeader(1, "&\"Times New Roman,Bold\"&D-&T");
 ```
 
-Explication : Le`&D` et`&T` les codes se remplaceront automatiquement par la date et l'heure actuelles, respectivement. Nous spécifions également que la police de cet en-tête doit être « Times New Roman » et en gras.
+ Explication : Le`&D` et`&T` les codes se remplaceront automatiquement par la date et l'heure actuelles, respectivement. Nous spécifions également que la police de cet en-tête doit être « Times New Roman » et en gras.
 
 ## Étape 5 : Définir le bon en-tête
 
@@ -117,7 +117,7 @@ Ensuite, nous définissons le pied de page central pour afficher le numéro de p
 pageSetup.SetFooter(1, "&P");
 ```
 
-Explication : Le`&P` le code insère automatiquement le numéro de page au centre du pied de page, un moyen pratique de suivre les pages.
+ Explication : Le`&P` le code insère automatiquement le numéro de page au centre du pied de page, un moyen pratique de suivre les pages.
 
 ## Étape 8 : Configuration du pied de page droit
 

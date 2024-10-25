@@ -82,9 +82,9 @@ Worksheet worksheet = worksheets[0];
 
 ## Paso 4: Acceda al objeto de configuración de página
 
- Para cambiar los márgenes, necesitamos trabajar con el`PageSetup`objeto. Este objeto proporciona propiedades que controlan el diseño de la página, incluidos los márgenes.
+ Para cambiar los márgenes, necesitamos trabajar con el`PageSetup` objeto. Este objeto proporciona propiedades que controlan el diseño de la página, incluidos los márgenes.
 
- Conseguir el`PageSetup` Propiedad de la hoja de cálculo:
+Conseguir el`PageSetup` Propiedad de la hoja de cálculo:
 
 ```csharp
 PageSetup pageSetup = worksheet.PageSetup;

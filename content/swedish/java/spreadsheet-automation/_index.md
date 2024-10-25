@@ -25,7 +25,7 @@ Lås upp potentialen hos Aspose.Cells när vi utforskar datamanipulation. Sorter
 Lyft ditt rapporteringsspel med Aspose.Cells. Anpassa layouter, lägg till diagram och exportera dina rapporter i olika format, inklusive PDF och Excel.
 
 Effektivisera dina kalkylbladsuppgifter med Aspose.Cells för Java. Kom igång idag!
-## Handledningar för kalkylarksautomation
+## Handledningar för kalkylbladsautomatisering
 ### [Batch Excel-bearbetning](./batch-excel-processing/)
 Upptäck hur du effektiviserar batchbearbetningsuppgifter i Excel med Aspose.Cells för Java. Automatisera datahantering, konvertering och manipulation med exempel på källkod.
 ### [Automatiserad datainmatning](./automated-data-entry/)

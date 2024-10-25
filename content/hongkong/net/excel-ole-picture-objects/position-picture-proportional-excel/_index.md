@@ -8,7 +8,7 @@ weight: 14
 url: /zh-hant/net/excel-ole-picture-objects/position-picture-proportional-excel/
 ---
 ## 介紹
-您是否厭倦了那些似乎永遠不適合 Excel 電子表格的像素化影像？想像一下：您有一個漂亮的徽標，需要在 Excel 工作表中突出顯示，但最終它被壓扁、拉伸或放置不當。沒有人想要這樣！好吧，請坐好，因為今天您將學習如何使用 .NET 的 Aspose.Cells 庫在 Excel 中按比例定位圖像。這個強大的函式庫讓操作 Excel 檔案變得輕而易舉，無論是用於報表、資料分析，還是只是修飾簡報。讓我們深入探討完美對齊照片的細節！
+您是否厭倦了那些似乎永遠不適合 Excel 電子表格的像素化影像？想像一下：您有一個漂亮的徽標，需要在 Excel 工作表中突出顯示，但它最終會被壓扁、拉伸或放置不當。沒有人想要這樣！好吧，請坐好，因為今天您將學習如何使用 .NET 的 Aspose.Cells 庫在 Excel 中按比例定位圖像。這個強大的函式庫讓操作 Excel 檔案變得輕而易舉，無論是用於報表、資料分析，還是只是修飾簡報。讓我們深入探討完美對齊照片的細節！
 ## 先決條件
 在我們深入實際編碼之前，您需要在電腦上設定一些內容：
 1. Visual Studio：確保安裝了 Visual Studio，因為它將為您的 .NET 專案提供方便的環境。
@@ -94,7 +94,7 @@ workbook.Save(dataDir + "book1.out.xls");
 嘗試不同的圖像和位置，享受樂趣，並毫不猶豫地深入了解 Aspose.Cells 提供的豐富功能。您的 Excel 工作表即將徹底改造！
 ## 常見問題解答
 ### 什麼是 Aspose.Cells？
-Aspose.Cells 是一個強大的 .NET 程式庫，使用戶能夠建立、操作和轉換 Excel 文件，而無需安裝 Microsoft Excel。
+Aspose.Cells 是一個功能強大的 .NET 程式庫，使用戶能夠建立、操作和轉換 Excel 文件，而無需安裝 Microsoft Excel。
 ### 我可以免費使用 Aspose.Cells 嗎？
 是的，Aspose.Cells 提供免費試用版，您可以下載[這裡](https://releases.aspose.com/).
 ### 我在哪裡可以找到文件？

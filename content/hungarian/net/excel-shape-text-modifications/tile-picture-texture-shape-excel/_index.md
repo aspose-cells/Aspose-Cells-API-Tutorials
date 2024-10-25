@@ -1,6 +1,6 @@
 ---
-title: Csempe kép textúra alakban az Excelben
-linktitle: Csempe kép textúra alakban az Excelben
+title: Mozaik kép textúra alakban az Excelben
+linktitle: Mozaik kép textúra alakban az Excelben
 second_title: Aspose.Cells .NET Excel Processing API
 description: Ezzel a könnyen követhető, lépésről lépésre mutató oktatóanyaggal megtudhatja, hogyan csempézhet textúraként egy képet az Excelben az Aspose.Cells for .NET segítségével.
 type: docs
@@ -58,7 +58,7 @@ Most jöjjön az izgalmas rész! A képet textúraként csempézzük az alakzato
 ```csharp
 sh.Fill.TextureFill.IsTiling = true;
 ```
- Beállítás által`IsTiling` igaz, akkor engedélyezi a csempézés funkciót, amely lehetővé teszi, hogy az alakzat ismétlődő mintában jelenítse meg a textúrát a kép nyújtása helyett. Ez kreativitást ad a táblázatokhoz, különösen a háttérben lévő látványelemek esetében.
+ Beállítással`IsTiling` igaz, akkor engedélyezi a csempézés funkciót, amely lehetővé teszi, hogy az alakzat ismétlődő mintában jelenítse meg a textúrát a kép nyújtása helyett. Ez kreativitást ad a táblázatokhoz, különösen a háttérben lévő látványelemek esetében.
 ## 6. lépés: Mentse el a kimeneti Excel fájlt
 Miután elvégeztük az összes módosítást, a következő logikus lépés az, hogy elmentjük a munkafüzetünket az elvégzett változtatásokkal. Íme, hogyan:
 ```csharp

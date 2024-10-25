@@ -63,7 +63,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Krok 2: Utwórz obiekt skoroszytu
 
- Następnie tworzymy instancję`Workbook`Klasa, która reprezentuje plik Excela.
+ Następnie tworzymy instancję`Workbook` Klasa, która reprezentuje plik Excela.
 
 ```csharp
 Workbook workbook = new Workbook();
@@ -99,7 +99,7 @@ Podobnie możesz ustawić, które wiersze będą wyświetlane jako tytuły.
 pageSetup.PrintTitleRows = "$1:$2";
 ```
 
-W ten sposób wiersze 1 i 2 są oznaczane jako wiersze tytułowe. Jeśli więc masz tam jakieś informacje nagłówkowe, pozostaną widoczne na wielu wydrukowanych stronach.
+W ten sposób wiersze 1 i 2 są oznaczone jako wiersze tytułowe. Tak więc jeśli masz tam jakieś informacje nagłówkowe, pozostaną widoczne na wielu wydrukowanych stronach.
 
 ## Krok 6: Zapisz skoroszyt
 

@@ -69,7 +69,7 @@ Den här koden ser till att flikarna är synliga i ditt kalkylark. Utan detta ko
 
 ## Steg 3: Justera flikfältets bredd
 
-Nu när vi har sett till att flikarna är synliga är det dags att justera bredden på flikfältet. Det är här magin händer. Att öka bredden gör att flikarna sprids ut mer, vilket är användbart om du har många ark och behöver mer utrymme för att navigera mellan dem.
+Nu när vi har sett till att flikarna är synliga är det dags att justera bredden på flikfältet. Här händer magin. Att öka bredden gör att flikarna sprids ut mer, vilket är användbart om du har många ark och behöver mer utrymme för att navigera mellan dem.
 
 ```csharp
 workbook.Settings.SheetTabBarWidth = 800; // Bredd i pixlar

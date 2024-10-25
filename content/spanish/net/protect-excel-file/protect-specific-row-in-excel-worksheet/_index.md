@@ -49,7 +49,7 @@ Primero, debemos definir un directorio donde almacenaremos nuestro archivo de Ex
 // La ruta al directorio de documentos.
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // cambia a la ruta deseada
 
-//Crear directorio si aún no está presente.
+// Crear directorio si aún no está presente.
 bool isExists = System.IO.Directory.Exists(dataDir);
 if (!isExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -88,7 +88,7 @@ StyleFlag flag;
 for (int i = 0; i <= 255; i++)
 {
     style = sheet.Cells.Columns[(byte)i].Style;
-    style.IsLocked = false; // Desbloquear columna
+    style.IsLocked = false; //Desbloquear columna
     flag = new StyleFlag();
     flag.Locked = true; // Establezca la bandera en verdadero para bloquear
     sheet.Cells.Columns[(byte)i].ApplyStyle(style, flag); // Aplicar el estilo

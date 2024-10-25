@@ -15,7 +15,7 @@ Créer des graphiques visuellement attrayants et informatifs est essentiel pour 
 
 Avant de plonger dans le didacticiel, assurez-vous que tout est prêt :
 
-- Aspose.Cells pour .NET : assurez-vous que la bibliothèque Aspose.Cells est téléchargée et référencée dans votre projet. Vous pouvez l'obtenir[ici](https://releases.aspose.com/cells/net/).
+-  Aspose.Cells pour .NET : assurez-vous que la bibliothèque Aspose.Cells est téléchargée et référencée dans votre projet. Vous pouvez l'obtenir[ici](https://releases.aspose.com/cells/net/).
 - Environnement de développement : tout environnement de développement .NET fonctionnera, mais Visual Studio est fortement recommandé pour son support et ses outils robustes.
 - Compréhension de base de C# : une connaissance des bases de la programmation C# sera utile car nous allons écrire du code.
 
@@ -76,7 +76,7 @@ worksheet.Cells["B2"].PutValue(32);
 worksheet.Cells["B3"].PutValue(50);
 ```
 
- Ici, nous entrons des valeurs aléatoires dans des cellules`A1` à`B3`Ces données serviront de source de données pour notre graphique. Il est essentiel d'avoir des données significatives à visualiser, sinon le graphique ne serait que de jolies lignes sans contexte !
+ Ici, nous entrons des valeurs aléatoires dans des cellules`A1` à`B3`. Ces données serviront de source de données pour notre graphique. Il est essentiel d'avoir des données significatives à visualiser, sinon le graphique ne serait que de jolies lignes sans contexte !
 
 ## Étape 5 : Ajouter un graphique à la feuille de calcul
 
@@ -161,7 +161,7 @@ Aspose.Cells pour .NET est une API puissante pour manipuler des feuilles de calc
 Oui ! Aspose.Cells permet une personnalisation étendue, y compris les polices, les styles et les formats des éléments de graphique.
 
 ### Où puis-je trouver plus de documentation ?
- Vous trouverez une documentation complète sur[Page de référence d'Aspose](https://reference.aspose.com/cells/net/).
+Vous trouverez une documentation complète sur[Page de référence d'Aspose](https://reference.aspose.com/cells/net/).
 
 ### Existe-t-il un essai gratuit disponible pour Aspose.Cells ?
  Oui ! Vous pouvez l'essayer en le téléchargeant depuis[ici](https://releases.aspose.com/).

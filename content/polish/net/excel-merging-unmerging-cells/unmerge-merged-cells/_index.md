@@ -121,7 +121,7 @@ Na koniec, dobrym pomysłem jest potwierdzenie, że wszystko poszło gładko. Mo
 Console.WriteLine("UnMerging the Cells executed successfully.");
 ```
 
-I masz! Udało Ci się rozdzielić komórki w pliku Excel przy użyciu Aspose.Cells dla .NET.
+masz! Udało Ci się rozdzielić komórki w pliku Excel przy użyciu Aspose.Cells dla .NET.
 
 ## Wniosek
 

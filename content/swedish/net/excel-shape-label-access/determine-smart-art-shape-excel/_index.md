@@ -9,11 +9,11 @@ url: /sv/net/excel-shape-label-access/determine-smart-art-shape-excel/
 ---
 ## Introduktion
 Har du någonsin kämpat för att identifiera om en viss form i ditt Excel-ark är en Smart Art-grafik? Om ja, då är du inte ensam! Smart Art kan verkligen förstärka ett Excel-ark, vilket ger både visuellt tilltalande och effektiv datapresentation. Att känna igen denna grafik genom programmering kan dock vara förvirrande. Det är där Aspose.Cells för .NET går in, så att du enkelt kan kontrollera om en form är Smart Art. 
-I den här handledningen går vi igenom de steg som krävs för att avgöra om en form är Smart Art i en Excel-fil med Aspose.Cells för .NET. I slutet av den här guiden kommer du att vara utrustad med kunskapen för att effektivisera dina Excel-uppgifter med detta kraftfulla bibliotek.
+den här handledningen går vi igenom de steg som krävs för att avgöra om en form är Smart Art i en Excel-fil med Aspose.Cells för .NET. I slutet av den här guiden kommer du att vara utrustad med kunskapen för att effektivisera dina Excel-uppgifter med detta kraftfulla bibliotek.
 ## Förutsättningar
 Innan vi dyker in i de tekniska detaljerna, låt oss täcka vad du bör ha på plats för att följa tillsammans med den här handledningen:
 1. Visual Studio: Det är här vi kommer att skriva vår kod. Se till att du har en version som är kompatibel med .NET Framework eller .NET Core.
-2. Aspose.Cells för .NET: Du måste ha detta bibliotek installerat. Du kan ladda ner den från[Aspose hemsida](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells för .NET: Du måste ha detta bibliotek installerat. Du kan ladda ner den från[Aspose hemsida](https://releases.aspose.com/cells/net/).
 3. Grundläggande programmeringskunskaper: Förtrogenhet med C# och en förståelse för begrepp som klasser och metoder kommer att göra denna process smidigare.
 4. Exempel på Excel-fil: Du behöver också ett exempel på Excel-fil som innehåller former och Smart Art för testning.
 Med dessa förutsättningar avmarkerade är du redo att hoppa in i koden!
@@ -46,7 +46,7 @@ Först och främst vill du ange platsen för din Excel-fil.
 // Källkatalog
 string sourceDir = "Your Document Directory";
 ```
- Ersätta`"Your Document Directory"` med vägen där din`sampleSmartArtShape.xlsx` filen finns. Det är här programmet kommer att leta efter Excel-filen som innehåller de former du vill inspektera.
+ Ersätta`"Your Document Directory"` med vägen där din`sampleSmartArtShape.xlsx`filen finns. Det är här programmet kommer att leta efter Excel-filen som innehåller de former du vill inspektera.
 ## Steg 2: Ladda Excel-arbetsboken
  Därefter laddar vi in Excel-filen i Aspose.Cells`Workbook` klass.
 ```csharp
@@ -60,7 +60,7 @@ Efter att ha laddat arbetsboken måste vi komma åt det specifika kalkylbladet s
 // Öppna första kalkylbladet
 Worksheet ws = wb.Worksheets[0];
 ```
- Excel-filer kan innehålla flera kalkylblad. Genom att indexera med`[0]`vi kommer åt det första kalkylbladet i vår arbetsbok. 
+ Excel-filer kan innehålla flera kalkylblad. Genom att indexera med`[0]`, vi kommer åt det första kalkylbladet i vår arbetsbok. 
 ## Steg 4: Få tillgång till Shape
 Nu ska vi hämta den specifika form som vi vill kontrollera.
 ```csharp
@@ -83,7 +83,7 @@ Smart Art är en funktion i Excel som låter användare skapa visuellt tilltalan
 ### Kan jag modifiera Smart Art-former med Aspose.Cells?
 Ja, du kan manipulera Smart Art-former programmatiskt, inklusive att ändra stilar och detaljer.
 ### Är Aspose.Cells gratis att använda?
- Även om det finns en testversion tillgänglig, är Aspose.Cells ett betalbibliotek. Du kan köpa den fullständiga versionen[här](https://purchase.aspose.com/buy).
+Även om det finns en testversion tillgänglig, är Aspose.Cells ett betalbibliotek. Du kan köpa den fullständiga versionen[här](https://purchase.aspose.com/buy).
 ### Hur kan jag få support om jag stöter på problem?
  Du kan nå ut för att få hjälp på[Aspose Support Forum](https://forum.aspose.com/c/cells/9).
 ### Var kan jag hitta mer dokumentation för Aspose.Cells?

@@ -12,7 +12,7 @@ Pour travailler avec des fichiers Excel dans .NET, vous disposez d'une grande fl
 ## Prérequis
 Avant de commencer, assurez-vous que vous disposez de tout ce dont vous avez besoin pour suivre le cours sans problème. Voici ce que vous devez avoir :
 1. Visual Studio : assurez-vous qu'une version de Visual Studio est installée sur votre ordinateur. C'est ici que vous écrirez votre code .NET. 
-2.  Bibliothèque Aspose.Cells : vous avez besoin de la bibliothèque Aspose.Cells pour .NET. Si vous ne l'avez pas encore téléchargée, rendez-vous sur le site[Page de téléchargement d'Aspose](https://releases.aspose.com/cells/net/) pour l'attraper. 
+2. Bibliothèque Aspose.Cells : vous avez besoin de la bibliothèque Aspose.Cells pour .NET. Si vous ne l'avez pas encore téléchargée, rendez-vous sur le site[Page de téléchargement d'Aspose](https://releases.aspose.com/cells/net/) pour l'attraper. 
 3. Connaissances de base de C# : une compréhension fondamentale de C# et de .NET vous aidera à parcourir les exemples de code plus confortablement.
 4. .NET Framework : assurez-vous que votre projet est configuré avec le framework .NET approprié pris en charge par la bibliothèque Aspose.Cells.
 5. Un document Excel : Bien que la création d’un nouveau classeur soit une option, disposer d’un document de départ peut être utile si vous souhaitez manipuler un fichier existant.
@@ -45,7 +45,7 @@ Ensuite, nous allons créer un nouveau classeur en utilisant la bibliothèque As
 ```csharp
 Workbook workbook = new Workbook();
 ```
- Ici, nous créons une nouvelle instance du`Workbook`classe. Ce classeur nouvellement créé est un classeur vierge que vous pouvez commencer à remplir avec des données si vous le souhaitez.
+ Ici, nous créons une nouvelle instance du`Workbook` classe. Ce classeur nouvellement créé est un classeur vierge que vous pouvez commencer à remplir avec des données si vous le souhaitez.
 ## Étape 3 : Enregistrer le classeur
 Vient maintenant la partie amusante : enregistrer votre classeur au format souhaité !
 ```csharp
@@ -60,7 +60,7 @@ Et voilà, vous avez appris avec succès à enregistrer un fichier Excel au form
 ### Qu'est-ce que la bibliothèque Aspose.Cells ?
 Aspose.Cells est une bibliothèque puissante pour .NET qui permet aux développeurs de créer, modifier et manipuler des fichiers Excel par programmation sans avoir besoin d'installer Microsoft Excel.
 ### Puis-je essayer Aspose.Cells gratuitement ?
- Absolument ! Vous pouvez utiliser le[essai gratuit](https://releases.aspose.com/)pour explorer les capacités de la bibliothèque.
+ Absolument ! Vous pouvez utiliser le[essai gratuit](https://releases.aspose.com/) pour explorer les capacités de la bibliothèque.
 ### Quelle est la différence entre les formats xls et xlsb ?
 Le format xls est plus ancien et basé sur la structure de fichier binaire, tandis que xlsb est un format plus récent qui utilise également le stockage binaire mais permet des tailles de fichier plus grandes et un traitement plus rapide.
 ### Où puis-je acheter une licence pour Aspose.Cells ?

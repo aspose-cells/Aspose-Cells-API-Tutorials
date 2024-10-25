@@ -12,7 +12,7 @@ Ha az Excel automatizálásának világába merül a .NET használatával, akkor
 ## Előfeltételek
 Mielőtt belevágnánk a kódba, győződjön meg arról, hogy mindent beállított a zökkenőmentes élmény érdekében:
 1.  Aspose.Cells for .NET: Győződjön meg arról, hogy rendelkezik az Aspose.Cells könyvtárral. Ha még nem telepítette, letöltheti a legújabb verziót a webhelyről[letöltési link](https://releases.aspose.com/cells/net/).
-2. Visual Studio: rendelkeznie kell egy működő Visual Studio vagy bármely más .NET IDE telepítéssel, amelyet szeretne.
+2. Visual Studio: rendelkeznie kell egy működő Visual Studio vagy bármely más .NET IDE telepítésével, amelyet szeretne.
 3. Alapvető C# ismerete: A C# programozás ismerete segít a kódrészletek egyszerű megértésében. Ha még csak most kezded, ne aggódj! Végigvezetem az egyes részeken.
 ## Csomagok importálása
 Az Aspose.Cells projektben való használatához importálnia kell a szükséges névtereket. A következőképpen állíthatja be környezetét:
@@ -25,11 +25,11 @@ using System.Drawing;
 Ezek a névterek lehetővé teszik az Aspose.Cells alapvető funkcióinak elérését, beleértve a munkafüzet-kezelési és rajzolási lehetőségeket olyan alakzatokhoz, mint a Spinner.
 Most, hogy teljesítettük az előfeltételeket és importáltuk a szükséges csomagokat, merüljünk el a lépésről lépésre szóló útmutatóban. Minden lépést úgy terveztünk, hogy világos és tömör legyen, így könnyen végrehajtható.
 ## 1. lépés: Állítsa be projektkönyvtárát
-A kódolás megkezdése előtt célszerű rendszerezni a fájlokat. Hozzon létre egy könyvtárat az Excel fájljaink számára.
+A kódolás megkezdése előtt célszerű rendszerezni a fájlokat. Hozzunk létre egy könyvtárat az Excel fájljaink számára.
 ```csharp
 // A dokumentumok könyvtárának elérési útja.
 string dataDir = "Your Document Directory";
-//Hozzon létre könyvtárat, ha még nincs jelen.
+// Hozzon létre könyvtárat, ha még nincs jelen.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -41,7 +41,7 @@ Itt az ideje, hogy készítsünk egy Excel-munkafüzetet, amelyhez hozzáadjuk a
 // Példányosítson egy új munkafüzetet.
 Workbook excelbook = new Workbook();
 ```
- A`Workbook`osztály egy Excel fájlt jelent. Példányosításával új munkafüzetet készítünk, amely készen áll a módosításokra.
+ A`Workbook` osztály egy Excel fájlt jelent. Példányosításával új munkafüzetet készítünk, amely készen áll a módosításokra.
 ## 3. lépés: Nyissa meg az első munkalapot
 Hozzáadjuk a Spinnerünket a munkafüzet első munkalapjához.
 ```csharp
@@ -117,6 +117,6 @@ Igen, módosíthatja a méretét, helyzetét és még a 3D-s árnyékolását is
 ### Szükségem van engedélyre az Aspose.Cells használatához?
  Az Aspose.Cells ingyenes próbaverziót kínál, de az éles használathoz fizetős licenc szükséges. Nézze meg a[opciók vásárlása](https://purchase.aspose.com/buy).
 ### Hogyan kaphatok segítséget az Aspose.Cells-hez?
- Támogatásért keresse fel a[Aspose fórum](https://forum.aspose.com/c/cells/9)ahol kérdéseket tehet fel és válaszokat találhat.
+ Támogatásért keresse fel a[Aspose fórum](https://forum.aspose.com/c/cells/9) ahol kérdéseket tehet fel és válaszokat találhat.
 ### Hozzáadhat több Spinnert ugyanahhoz a munkalaphoz?
 Teljesen! Annyi Spinnert adhat hozzá, amennyi szükséges, ha ugyanazokat a lépéseket követi minden egyes vezérlőnél.

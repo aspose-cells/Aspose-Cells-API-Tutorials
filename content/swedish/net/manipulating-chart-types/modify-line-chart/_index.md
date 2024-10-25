@@ -151,7 +151,7 @@ Ja, du kan ändra olika typer av diagram (som stapel, cirkel, etc.) med liknande
  Absolut! Du kan prova det gratis[här](https://releases.aspose.com/).
 
 ### Hur kan jag ändra diagramtypen efter att ha lagt till serier?
- Du kan använda`ChartType` egenskap för att ställa in en ny diagramtyp för ditt diagram.
+Du kan använda`ChartType` egenskap för att ställa in en ny diagramtyp för ditt diagram.
 
 ### Var kan jag hitta mer detaljerad dokumentation?
  Kolla in dokumentationen[här](https://reference.aspose.com/cells/net/).

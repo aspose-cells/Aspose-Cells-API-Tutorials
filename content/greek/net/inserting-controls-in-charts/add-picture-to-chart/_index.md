@@ -16,7 +16,7 @@ url: /el/net/inserting-controls-in-charts/add-picture-to-chart/
 Προτού περάσουμε στη λεπτομέρεια της κωδικοποίησης, υπάρχουν μερικές προϋποθέσεις που πρέπει να ακολουθήσετε ομαλά:
 
 - Visual Studio: Εδώ θα γράψετε και θα εκτελέσετε τον κώδικα .NET σας. Βεβαιωθείτε ότι το έχετε εγκαταστήσει.
-- Aspose.Cells για .NET: Θα χρειαστείτε αυτήν τη βιβλιοθήκη για εργασία με αρχεία Excel. Μπορείς[κατεβάστε το εδώ](https://releases.aspose.com/cells/net/).
+-  Aspose.Cells για .NET: Θα χρειαστείτε αυτήν τη βιβλιοθήκη για εργασία με αρχεία Excel. Μπορείτε[κατεβάστε το εδώ](https://releases.aspose.com/cells/net/).
 - Βασική Κατανόηση της C#: Αν και θα σας καθοδηγήσω στον κώδικα, η γνώση των βασικών στοιχείων της C# θα κάνει τα πράγματα πιο ξεκάθαρα.
 
 ### Βήματα εγκατάστασης
@@ -55,7 +55,7 @@ string sourceDir = "Your Document Directory/";
 string outputDir = "Your Output Directory/";
 ```
 
- Αντικαθιστώ`Your Document Directory` και`Your Output Directory` με τις πραγματικές διαδρομές στον υπολογιστή σας. 
+ Αντικαθιστώ`Your Document Directory` και`Your Output Directory`με τις πραγματικές διαδρομές στον υπολογιστή σας. 
 
 ## Βήμα 2: Φορτώστε το υπάρχον βιβλίο εργασίας
 
@@ -84,7 +84,7 @@ FileStream stream = new FileStream(sourceDir + "sampleAddingPictureInChart.png",
 Τώρα, ας καθορίσουμε σε ποιο γράφημα θα προσθέσουμε την εικόνα μας. Σε αυτό το παράδειγμα, θα στοχεύσουμε το πρώτο γράφημα στο πρώτο φύλλο εργασίας.
 
 ```csharp
-//Πάρτε το διάγραμμα σχεδιαστή στο δεύτερο φύλλο.
+// Πάρτε το διάγραμμα σχεδιαστή στο δεύτερο φύλλο.
 Worksheet sheet = workbook.Worksheets[0];
 Aspose.Cells.Charts.Chart chart = sheet.Charts[0];
 ```
@@ -100,7 +100,7 @@ Aspose.Cells.Charts.Chart chart = sheet.Charts[0];
 Aspose.Cells.Drawing.Picture pic0 = chart.Shapes.AddPictureInChart(50, 50, stream, 200, 200);
 ```
 
- Εδώ,`50` και`50` είναι οι συντεταγμένες X και Y όπου θα τοποθετηθεί η εικόνα και`200` είναι το πλάτος και το ύψος της εικόνας.
+ Εδώ,`50` και`50` είναι οι συντεταγμένες X και Y όπου θα τοποθετηθεί η εικόνα και`200`είναι το πλάτος και το ύψος της εικόνας.
 
 ## Βήμα 6: Προσαρμόστε τη μορφή της γραμμής της εικόνας
 

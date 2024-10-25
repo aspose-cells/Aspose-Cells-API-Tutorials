@@ -16,7 +16,7 @@ Vous devez avoir une compréhension fondamentale de C# et de .NET. Ce tutoriel e
 ### Configuration de l'environnement
 1. Visual Studio : assurez-vous que Visual Studio est installé. Il s'agit d'un environnement de développement qui simplifie le codage.
 2.  Bibliothèque Aspose.Cells : vous avez besoin de la bibliothèque Aspose.Cells. Si vous ne l'avez pas déjà, vous pouvez la télécharger[ici](https://releases.aspose.com/cells/net/).
-3.  Exemple de fichier Excel : créez ou téléchargez un exemple de fichier Excel. Pour ce tutoriel, nous utiliserons un fichier nommé`sampleSetMarginsOfCommentOrShapeInsideTheWorksheet.xlsx`.
+3. Exemple de fichier Excel : créez ou téléchargez un exemple de fichier Excel. Pour ce tutoriel, nous utiliserons un fichier nommé`sampleSetMarginsOfCommentOrShapeInsideTheWorksheet.xlsx`.
 ## Importation de paquets
 La première étape de notre parcours consiste à importer les packages nécessaires. Vous devrez inclure les espaces de noms Aspose.Cells dans votre projet. Cela vous donnera accès à toutes les fonctionnalités qu'Aspose.Cells a à offrir.
 ### Ouvrez votre projet
@@ -72,7 +72,7 @@ Chaque forme peut déjà avoir un paramètre d'alignement que nous devons modifi
 Aspose.Cells.Drawing.Texts.ShapeTextAlignment txtAlign = sh.TextBody.TextAlignment;
 txtAlign.IsAutoMargin = false;
 ```
- En définissant`IsAutoMargin` à faux, nous avons maintenant le contrôle sur les marges.
+ En définissant`IsAutoMargin`à faux, nous avons maintenant le contrôle sur les marges.
 ## Étape 6 : Définir les marges
 C'est l'étape cruciale où nous définissons les marges. Vous pouvez personnaliser ces valeurs selon vos besoins.
 ```csharp
@@ -105,4 +105,4 @@ Aspose.Cells est une bibliothèque .NET conçue pour créer, manipuler et conver
 ### La bibliothèque est-elle facile à intégrer dans des projets existants ?
 Absolument ! Aspose.Cells s'intègre facilement aux projets .NET et son API est simple.
 ### Où puis-je trouver du support pour Aspose.Cells ?
-Vous pouvez obtenir de l'aide via Aspose[forum](https://forum.aspose.com/c/cells/9).
+ Vous pouvez obtenir de l'aide via Aspose[forum](https://forum.aspose.com/c/cells/9).

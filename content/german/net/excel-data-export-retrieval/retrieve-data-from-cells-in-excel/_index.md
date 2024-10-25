@@ -18,7 +18,7 @@ Bevor wir uns in den Code stürzen, müssen einige Voraussetzungen erfüllt sein
 1. Visual Studio: Stellen Sie sicher, dass Visual Studio auf Ihrem Computer installiert ist. Dies ist die IDE, die wir zum Schreiben und Ausführen unseres Codes verwenden werden.
 2.  Aspose.Cells für .NET: Sie benötigen die Aspose.Cells-Bibliothek. Sie können sie von der[Aspose-Website](https://releases.aspose.com/cells/net/).
 3. Grundkenntnisse in C#: Wenn Sie mit der C#-Programmierung vertraut sind, verstehen Sie die Beispiele besser.
-4.  Excel-Datei: Halten Sie eine Excel-Datei bereit (zum Beispiel`book1.xls`), die Sie für dieses Tutorial verwenden werden.
+4. Excel-Datei: Halten Sie eine Excel-Datei bereit (zum Beispiel`book1.xls`), die Sie für dieses Tutorial verwenden werden.
 
 Sobald diese Voraussetzungen erfüllt sind, können wir damit beginnen, zu erkunden, wie Daten aus Excel-Zellen abgerufen werden.
 
@@ -52,7 +52,7 @@ Nachdem Sie das Dokumentverzeichnis eingerichtet haben, besteht der nächste Sch
 
 
 ```csharp
-// Öffnen einer vorhandenen Arbeitsmappe
+//Öffnen einer vorhandenen Arbeitsmappe
 Workbook workbook = new Workbook(dataDir + "book1.xls");
 ```
 
@@ -68,7 +68,7 @@ Nachdem Sie die Arbeitsmappe geöffnet haben, möchten Sie auf das spezifische A
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
- Der`Worksheets` Sammlung ermöglicht Ihnen den Zugriff auf verschiedene Blätter in der Arbeitsmappe. Der Index`[0]`verweist auf das erste Arbeitsblatt. Wenn Sie auf nachfolgende Blätter zugreifen möchten, können Sie den Index entsprechend ändern.
+ Der`Worksheets` Sammlung ermöglicht Ihnen den Zugriff auf verschiedene Blätter in der Arbeitsmappe. Der Index`[0]` verweist auf das erste Arbeitsblatt. Wenn Sie auf nachfolgende Blätter zugreifen möchten, können Sie den Index entsprechend ändern.
 
 ## Schritt 4: Durch die Zellen schleifen
 
@@ -99,7 +99,7 @@ foreach (Cell cell1 in worksheet.Cells)
             Console.WriteLine("Double Value: " + doubleValue);
             break;
 
-        // Auswerten des Datentyps der Zelldaten für boolesche Werte
+        //Auswerten des Datentyps der Zelldaten für boolesche Werte
         case CellValueType.IsBool:
             boolValue = cell1.BoolValue;
             Console.WriteLine("Bool Value: " + boolValue);
@@ -124,7 +124,7 @@ foreach (Cell cell1 in worksheet.Cells)
 }
 ```
 
- In diesem Schritt durchlaufen wir jede Zelle im Arbeitsblatt. Für jede Zelle überprüfen wir ihren Datentyp mithilfe eines`switch`Anweisung. Abhängig vom Typ rufen wir den Wert ab und drucken ihn auf der Konsole aus. Hier ist eine Aufschlüsselung der Fälle:
+ In diesem Schritt durchlaufen wir jede Zelle im Arbeitsblatt. Für jede Zelle überprüfen wir ihren Datentyp mithilfe eines`switch` Anweisung. Abhängig vom Typ rufen wir den Wert ab und drucken ihn auf der Konsole aus. Hier ist eine Aufschlüsselung der Fälle:
 
 -  IsString: Wenn die Zelle einen String enthält, ermitteln wir diesen mit`StringValue`.
 -  IsNumeric: Für numerische Werte verwenden wir`DoubleValue`.
@@ -143,7 +143,7 @@ Das Abrufen von Daten aus Excel-Zellen mit Aspose.Cells für .NET ist ein unkomp
 Aspose.Cells ist eine .NET-Bibliothek, mit der Entwickler Excel-Dateien erstellen, bearbeiten und konvertieren können, ohne dass Microsoft Excel installiert sein muss.
 
 ### Kann ich Aspose.Cells kostenlos nutzen?  
-Ja, Aspose.Cells bietet eine kostenlose Testversion an, mit der Sie die Funktionen testen können. Sie können sie herunterladen[Hier](https://releases.aspose.com/).
+ Ja, Aspose.Cells bietet eine kostenlose Testversion an, mit der Sie die Funktionen testen können. Sie können sie herunterladen[Hier](https://releases.aspose.com/).
 
 ### Welche Arten von Daten kann ich aus Excel-Zellen abrufen?  
 Sie können verschiedene Datentypen abrufen, darunter Zeichenfolgen, Zahlen, Boolesche Werte und Datums-/Uhrzeitwerte.

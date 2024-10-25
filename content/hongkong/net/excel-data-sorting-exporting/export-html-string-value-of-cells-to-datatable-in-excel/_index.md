@@ -116,12 +116,12 @@ Console.WriteLine(dt.Rows[2][1].ToString());
 
 ## 結論 
 
-現在你就得到它了！您已使用 Aspose.Cells for .NET 成功將 HTML 字串值從 Excel 檔案中的儲存格匯出到 DataTable。此功能不僅豐富了您的資料操作技能，而且還拓寬了您在直接處理 Excel 文件中的格式化內容時的選擇。 
+現在你就得到它了！您已使用 Aspose.Cells for .NET 成功將 HTML 字串值從 Excel 檔案中的儲存格匯出到 DataTable。此功能不僅可以豐富您的資料操作技能，還可以在直接處理 Excel 文件中的格式化內容時拓寬您的選擇範圍。 
 
 ## 常見問題解答
 
 ### 我可以將 Aspose.Cells 用於 Excel 以外的其他文件格式嗎？  
-是的，Aspose.Cells 主要用於 Excel，但 Aspose 也提供其他適用於不同格式的函式庫。
+是的，Aspose.Cells 主要用於 Excel，但 Aspose 也提供了針對不同格式的其他函式庫。
 
 ### 我需要 Aspose.Cells 許可證嗎？  
 是的，生產使用需要有效的許可證。您可以獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).

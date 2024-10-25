@@ -82,9 +82,9 @@ Sekarang, Anda siap untuk memodifikasi lembar kerja ini!
 
 ## Langkah 4: Mengakses Objek Pengaturan Halaman
 
- Untuk mengubah margin, kita perlu bekerja dengan`PageSetup`objek. Objek ini menyediakan properti yang mengontrol tata letak halaman, termasuk margin.
+ Untuk mengubah margin, kita perlu bekerja dengan`PageSetup` objek. Objek ini menyediakan properti yang mengontrol tata letak halaman, termasuk margin.
 
- Dapatkan`PageSetup` properti dari lembar kerja:
+Dapatkan`PageSetup` properti dari lembar kerja:
 
 ```csharp
 PageSetup pageSetup = worksheet.PageSetup;

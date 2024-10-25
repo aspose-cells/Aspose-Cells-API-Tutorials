@@ -16,7 +16,7 @@ Excel에서 동적이고 시각적으로 매력적인 차트를 만드는 것은
 코딩에 들어가기 전에 꼭 준비해야 할 몇 가지 사항이 있습니다.
 
 - C#에 대한 기본 이해: C# 프로그래밍에 대한 기본적인 이해가 도움이 될 것입니다. 걱정하지 마세요. 전문가가 될 필요는 없고 구문을 탐색하는 데만 능숙하면 됩니다.
-- Aspose.Cells 라이브러리 설치: Aspose.Cells for .NET 라이브러리가 설치되어 있는지 확인하세요. 여기에서 다운로드할 수 있습니다.[여기](https://releases.aspose.com/cells/net/) 아직 하지 않았다면.
+-  Aspose.Cells 라이브러리 설치: Aspose.Cells for .NET 라이브러리가 설치되어 있는지 확인하세요. 여기에서 다운로드할 수 있습니다.[여기](https://releases.aspose.com/cells/net/)아직 하지 않았다면.
 - Visual Studio: .NET 프레임워크에 대해 선호하는 Visual Studio나 IDE에 대한 지식이 필수적입니다.
 - 기존 Excel 파일: 이 예제에서는 "sampleAddingTextBoxControlInChart.xls"라는 기존 Excel 파일을 사용합니다. 하나를 만들거나 샘플을 다운로드할 수 있습니다.
 
@@ -136,7 +136,7 @@ lineformat.DashStyle = Aspose.Cells.Drawing.MsoLineDashStyle.Solid;
 // Excel 파일을 저장합니다.
 workbook.Save(outputDir + "outputAddingTextBoxControlInChart.xls");
 ```
- 바꾸다`"outputAddingTextBoxControlInChart.xls"`원하는 파일 이름으로 저장하세요.
+ 바꾸다`"outputAddingTextBoxControlInChart.xls"` 원하는 파일 이름으로 저장하세요.
 
 ## 결론
 

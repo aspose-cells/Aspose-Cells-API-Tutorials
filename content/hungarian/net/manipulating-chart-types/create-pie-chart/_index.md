@@ -179,7 +179,7 @@ workbook.Save(outputDir + "outputHowToCreatePieChart.xlsx");
 
 ## Következtetés
 
-kördiagram létrehozása az Aspose.Cells segítségével .NET-hez egyszerű és testreszabható folyamat. Az útmutató követésével professzionális megjelenésű diagramot hozhat létre, amely néhány lépésben értékes betekintést nyújt. Legyen szó üzleti jelentéskészítésről vagy oktatási célról, a diagramkészítés elsajátítása javítja Excel automatizálási készségeit. Ne feledje, az Aspose.Cells biztosítja azt a rugalmasságot, amelyre szüksége van a lenyűgöző, adatvezérelt Excel-fájlok könnyű létrehozásához.
+kördiagram létrehozása az Aspose.Cells segítségével .NET-hez egyszerű és testreszabható folyamat. Az útmutató követésével professzionális megjelenésű diagramot hozhat létre, amely néhány lépésben értékes betekintést nyújt. Legyen szó üzleti jelentéskészítésről vagy oktatási célról, a diagramkészítés elsajátítása javítja Excel automatizálási készségeit. Ne feledje, az Aspose.Cells biztosítja azt a rugalmasságot, amelyre szüksége van lenyűgöző, adatvezérelt Excel-fájlok könnyű létrehozásához.
 
 ## GYIK
 

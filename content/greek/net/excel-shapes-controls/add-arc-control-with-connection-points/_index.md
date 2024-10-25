@@ -29,7 +29,7 @@ using System.Drawing;
 Πρώτα πράγματα πρώτα—ας δημιουργήσουμε έναν κατάλογο όπου θα αποθηκεύσετε αυτά τα λαμπερά νέα αρχεία Excel. Δείτε πώς το κάνουμε:
 ```csharp
 string dataDir = "Your Document Directory";
-//Δημιουργήστε κατάλογο εάν δεν υπάρχει ήδη.
+// Δημιουργήστε κατάλογο εάν δεν υπάρχει ήδη.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);

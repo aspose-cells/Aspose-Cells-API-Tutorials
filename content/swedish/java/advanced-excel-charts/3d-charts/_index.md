@@ -33,7 +33,7 @@ Du kan ladda ner Aspose.Cells for Java-biblioteket från webbplatsen. När du ha
 För att använda Aspose.Cells för Java, måste du initialisera din licens. Detta steg är viktigt för att ta bort eventuella utvärderingsbegränsningar och låsa upp bibliotekets fulla potential.
 
 ```java
-// Initiera Aspose.Cells licens
+//Initiera Aspose.Cells licens
 License license = new License();
 license.setLicense("path_to_license_file.xml");
 ```
@@ -88,7 +88,7 @@ Chart chart = worksheet.getCharts().get(chartIndex);
 // Ställa in dataintervallet för diagrammet
 chart.getNSeries().add("A2:B4", true);
 
-//Anpassa diagramattribut
+// Anpassa diagramattribut
 chart.getChartArea().getBorder().setVisible(false);
 chart.getChartTitle().setText("3D Bar Chart");
 ```
@@ -138,7 +138,7 @@ Aspose.Cells för Java låter dig integrera data från olika källor i dina diag
 
 ## Slutsats
 
-I den här artikeln undersökte vi hur man skapar 3D-diagram med Aspose.Cells för Java. Vi diskuterade inställningar, grundläggande diagramskapande, anpassning och avancerade funktioner för att arbeta med 3D-diagram. Aspose.Cells för Java tillhandahåller en robust och användarvänlig plattform för att skapa visuellt tilltalande och informativa 3D-diagram i Excel.
+den här artikeln undersökte vi hur man skapar 3D-diagram med Aspose.Cells för Java. Vi diskuterade inställningar, grundläggande diagramskapande, anpassning och avancerade funktioner för att arbeta med 3D-diagram. Aspose.Cells för Java tillhandahåller en robust och användarvänlig plattform för att skapa visuellt tilltalande och informativa 3D-diagram i Excel.
 
 ## FAQ's
 

@@ -13,7 +13,7 @@ Előfordult már, hogy egy olyan projekt kellős közepén találta magát, ahol
 
 ## Előfeltételek
 
-Mielőtt belevágnánk az aprólékos dolgokba, győződjünk meg arról, hogy minden készen áll. Íme, amire szüksége lesz:
+Mielőtt belevágnánk az aprólékos dolgokba, győződjünk meg arról, hogy minden készen áll a használatra. Íme, amire szüksége lesz:
 
 1. .NET fejlesztői környezet: Győződjön meg arról, hogy be van állítva .NET környezet. Használhatja a Visual Studio-t, amely egy népszerű IDE a .NET-fejlesztéshez.
 2.  Aspose.Cells Library: Szüksége van az Aspose.Cells könyvtárra. Ha még nem telepítette, letöltheti innen[itt](https://releases.aspose.com/cells/net/).
@@ -60,7 +60,7 @@ Először is: meg kell határoznunk, hol lesznek a dokumentumaink. Ide mentjük 
 
 ```csharp
 // A dokumentumok könyvtárának elérési útja.
-string dataDir = "Your Document Directory";  //Frissítse ezt az elérési utat az adott könyvtárra
+string dataDir = "Your Document Directory";  // Frissítse ezt az elérési utat az adott könyvtárhoz
 ```
 
  Ügyeljen arra, hogy cserélje ki`"Your Document Directory"` a tényleges úttal. Ez olyan, mintha új otthont találna a kemény munkához!
@@ -97,7 +97,7 @@ PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
 pdfSaveOptions.Compliance = PdfCompliance.PdfA1b;
 ```
 
-PDF/A megfelelőség biztosítja, hogy az archívum egységes és megbízható legyen a jövő generációi számára. Akárcsak egy időkapszula!
+A PDF/A megfelelőség biztosítja, hogy az archívum egységes és megbízható legyen a jövő generációi számára. Akár egy időkapszula!
 
 ## 5. lépés: Mentse el a munkafüzetet
 
@@ -129,4 +129,4 @@ Nem, telepítenie kell az Aspose.Cells könyvtárat, hogy hozzáférjen az Excel
 A PDF mellett az Aspose.Cells olyan formátumokat is támogat, mint az XLSX, CSV, HTML stb.
 
 ### Létezik az Aspose.Cells ingyenes verziója?
- Igen, elkezdheti egy ingyenes próbaverzióval a funkciók felfedezéséhez[itt](https://releases.aspose.com/).
+Igen, elkezdheti egy ingyenes próbaverzióval a funkciók felfedezéséhez[itt](https://releases.aspose.com/).

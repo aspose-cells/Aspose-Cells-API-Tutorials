@@ -42,7 +42,7 @@ string dataDir = "Your Document Directory";
 ## Steg 2: Skapa katalogen
 Det är bra att se till att katalogen finns. Om den inte gör det kan du skapa den med följande kod:
 ```csharp
-//Skapa katalog om den inte redan finns.
+// Skapa katalog om den inte redan finns.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);

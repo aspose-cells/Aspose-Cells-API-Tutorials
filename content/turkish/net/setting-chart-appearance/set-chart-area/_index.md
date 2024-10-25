@@ -17,7 +17,7 @@ Grafik oluşturmanın inceliklerine dalmadan önce, ihtiyacınız olan her şeye
 
 1. Visual Studio: Makinenizde Visual Studio'nun yüklü olduğundan emin olun. .NET kodunu yazmak ve çalıştırmak için gereklidir.
 2. .NET Framework: Bu kılavuz .NET Framework veya .NET Core ile en iyi şekilde çalışır. Gerekli sürümün (4.5 veya üzeri) yüklü olduğundan emin olun.
-3.  Aspose.Cells: Aspose.Cells kütüphanesine ihtiyacınız olacak. Bunu şuradan indirebilirsiniz:[Burada](https://releases.aspose.com/cells/net/).
+3. Aspose.Cells: Aspose.Cells kütüphanesine ihtiyacınız olacak. Bunu şuradan indirebilirsiniz:[Burada](https://releases.aspose.com/cells/net/).
 4. Temel C# Bilgisi: C# programlamanın temellerini anlamak, adımları daha iyi kavramanıza yardımcı olacaktır. Profesyonel değilseniz endişelenmeyin—her şeyi açıklayacağım!
 
 ## Paketleri İçe Aktar
@@ -174,4 +174,4 @@ Evet! Aspose.Cells, Java, Python ve Cloud gibi farklı platformlar için kütüp
  Aspose.Cells topluluğundan ve forumlarından yardım ve destek alabilirsiniz[Burada](https://forum.aspose.com/c/cells/9).
 
 ### Lisansı nasıl satın alabilirim?
- Lisansı doğrudan Aspose web sitesinden satın alabilirsiniz[Burada](https://purchase.aspose.com/buy).
+Lisansı doğrudan Aspose web sitesinden satın alabilirsiniz[Burada](https://purchase.aspose.com/buy).

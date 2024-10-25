@@ -26,7 +26,7 @@ När du har alla förutsättningar klara är nästa steg att importera de nödv�
 
 1. Öppna ditt projekt: Starta Visual Studio och öppna ditt befintliga projekt eller skapa ett nytt.
 2. Hantera NuGet-paket: Högerklicka på ditt projekt i Solution Explorer och välj sedan "Hantera NuGet-paket."
-3.  Sök och installera Aspose.Cells: I sökrutan skriver du`Aspose.Cells` och installera paketet. Detta säkerställer att du har den senaste versionen integrerad i ditt projekt.
+3.  Sök och installera Aspose.Cells: I sökrutan skriver du`Aspose.Cells`och installera paketet. Detta säkerställer att du har den senaste versionen integrerad i ditt projekt.
 4. Lägg till med direktiv: Lägg till följande direktiv i din kodfil för att använda namnområdet Aspose.Cells:
 
 ```csharp

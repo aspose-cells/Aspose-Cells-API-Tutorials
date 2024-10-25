@@ -70,7 +70,7 @@ string outputDir = "C:\\YourOutputDirectory\\"; // Mude para o diretório especi
 
 ## Etapa 2: Instanciando um objeto de pasta de trabalho
 
-Em seguida, estamos criando uma instância do`Workbook` classe. É aqui que todo o nosso trabalho acontecerá.
+ Em seguida, estamos criando uma instância do`Workbook` classe. É aqui que todo o nosso trabalho acontecerá.
 ```csharp
 Workbook workbook = new Workbook();
 ```

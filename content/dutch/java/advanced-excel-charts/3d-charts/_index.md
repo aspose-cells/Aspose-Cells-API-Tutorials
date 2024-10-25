@@ -26,14 +26,14 @@ Voordat we 3D-diagrammen gaan maken, gaan we Aspose.Cells voor Java instellen.
 
 ### Downloaden en installeren
 
-kunt de Aspose.Cells for Java-bibliotheek downloaden van de website. Volg na het downloaden de installatie-instructies om de bibliotheek in uw Java-project in te stellen.
+U kunt de Aspose.Cells for Java-bibliotheek downloaden van de website. Volg na het downloaden de installatie-instructies om de bibliotheek in uw Java-project in te stellen.
 
 ### Licentie-initialisatie
 
 Om Aspose.Cells voor Java te gebruiken, moet u uw licentie initialiseren. Deze stap is essentieel om evaluatiebeperkingen te verwijderen en het volledige potentieel van de bibliotheek te ontsluiten.
 
 ```java
-// Initialiseer Aspose.Cells-licentie
+//Initialiseer Aspose.Cells-licentie
 License license = new License();
 license.setLicense("path_to_license_file.xml");
 ```
@@ -88,7 +88,7 @@ Chart chart = worksheet.getCharts().get(chartIndex);
 // Het gegevensbereik voor de grafiek instellen
 chart.getNSeries().add("A2:B4", true);
 
-//Grafiekkenmerken aanpassen
+// Grafiekkenmerken aanpassen
 chart.getChartArea().getBorder().setVisible(false);
 chart.getChartTitle().setText("3D Bar Chart");
 ```

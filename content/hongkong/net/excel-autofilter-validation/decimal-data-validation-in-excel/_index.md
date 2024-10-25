@@ -15,7 +15,7 @@ url: /zh-hant/net/excel-autofilter-validation/decimal-data-validation-in-excel/
 
 在深入研究程式碼之前，請確保您已完成一切設定以實現順利的航行體驗：
 
-1. Visual Studio：如果尚未下載並安裝 Visual Studio，請下載並安裝。它是開發 .NET 應用程式的完美環境。
+1. Visual Studio：如果尚未安裝，請下載並安裝 Visual Studio。它是開發 .NET 應用程式的完美環境。
 2.  Aspose.Cells for .NET：您需要將 Aspose.Cells 庫新增到您的專案中。您可以透過以下方式下載[這個連結](https://releases.aspose.com/cells/net/).
 3. C# 基礎知識：雖然我們將逐步解釋所有內容，但對 C# 程式設計有基本的了解將使您更能掌握這些概念。
 4. .NET Framework：請確保您安裝了與 Aspose.Cells 相容的必要 .NET Framework。
@@ -177,7 +177,7 @@ area.EndColumn = 0;
 validation.AddArea(area);
 ```
 
-您的驗證現已牢固到位，準備好捕獲任何不適當的輸入！
+您的驗證現已牢固到位，準備捕獲任何不適當的輸入！
 
 ## 第 14 步：儲存工作簿
 
@@ -192,7 +192,7 @@ workbook.Save(dataDir + "output.out.xls");
 ## 結論
 
 當您遵循這些簡單的步驟時，使用 Aspose.Cells for .NET 在 Excel 中實作十進位資料驗證是一件輕而易舉的事。您不僅可以確保資料保持乾淨和結構化，還可以提高電子表格中的整體資料完整性，使其可靠且使用者友好。
-無論您從事財務、專案管理或任何使用數據報告的領域，掌握這些技能都將顯著提高您的工作效率。所以來吧，試試看！您的電子表格會為此感謝您。
+無論您從事財務、專案管理或任何使用數據報告的領域，掌握這些技能都將顯著提高您的工作效率。所以來吧，試試看吧！您的電子表格會為此感謝您。
 
 ## 常見問題解答
 
@@ -203,7 +203,7 @@ Excel 中的資料驗證是一項限制可以在特定儲存格或區域中輸�
 是的！您可以提供自訂錯誤訊息，以便在輸入錯誤的資料時指導使用者。
 
 ### Aspose.Cells 可以免費使用嗎？
-Aspose.Cells 提供免費試用，但您需要許可證才能長期使用。您可以找到有關獲取臨時許可證的更多信息[這裡](https://purchase.aspose.com/temporary-license/).
+ Aspose.Cells 提供免費試用，但您需要許可證才能長期使用。您可以找到有關獲取臨時許可證的更多信息[這裡](https://purchase.aspose.com/temporary-license/).
 
 ### 我可以在 Excel 中驗證哪些資料類型？
 使用 Aspose.Cells，您可以驗證各種資料類型，包括整數、小數、日期、清單和自訂公式。

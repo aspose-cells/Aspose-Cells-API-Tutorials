@@ -110,10 +110,10 @@ Aspose.Cells je knihovna .NET určená pro vytváření, manipulaci a konverzi s
  Aspose.Cells si můžete stáhnout z[webové stránky](https://releases.aspose.com/cells/net/).
 
 ### Existuje bezplatná verze Aspose.Cells?
-Ano! Aspose.Cells můžete vyzkoušet zdarma stažením zkušební verze[zde](https://releases.aspose.com/).
+ Ano! Aspose.Cells můžete vyzkoušet zdarma stažením zkušební verze[zde](https://releases.aspose.com/).
 
 ### Kde mohu získat podporu?
- Máte-li jakékoli dotazy týkající se podpory, můžete navštívit stránku[Aspose fórum](https://forum.aspose.com/c/cells/9).
+Máte-li jakékoli dotazy týkající se podpory, můžete navštívit stránku[Aspose fórum](https://forum.aspose.com/c/cells/9).
 
 ### Mohu používat Aspose.Cells v cloudovém prostředí?
 Ano, Aspose.Cells lze integrovat do jakékoli aplikace .NET, včetně cloudových nastavení, pokud je podporováno běhové prostředí .NET.

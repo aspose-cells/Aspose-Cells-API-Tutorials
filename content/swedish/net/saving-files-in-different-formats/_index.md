@@ -12,7 +12,7 @@ url: /sv/net/saving-files-in-different-formats/
 Så, hur bevarar du dina Excel-data effektivt? Det är här Aspose.Cells lyser. Med självstudiekurser som täcker format som .xls, .xlsx, .xlsb och till och med PDF kommer du snabbt att bemästra att spara filer precis som du vill. Varje handledning betonar tydlighet och praktiska egenskaper, vilket ger dig insikter som du kan tillämpa direkt i dina projekt. Visste du att det ibland kan vara nödvändigt att spara i formatet 97-2003 för kompatibilitet med äldre system? Vi går igenom allt det och mer!
 
 ## Snabblänkar till handledningar
- Vår utvalda uppsättning tutorials gör det enkelt att hitta exakt det du behöver. Om du till exempel vill spara en Excel-fil i det äldre formatet 97-2003, kolla in vår enkla guide om[spara Excel-filer i formatet 97-2003](./save-excel-file-in-97-2003-format/). Den är full av praktiska tips! Dessutom, om du är nyfiken på att exportera dina filer som PDF-filer, vår handledning.
+ Vår utvalda uppsättning tutorials gör det enkelt att hitta exakt det du behöver. Om du till exempel vill spara en Excel-fil i det äldre formatet 97-2003, kolla in vår enkla guide om[spara Excel-filer i formatet 97-2003](./save-excel-file-in-97-2003-format/)Den är full av praktiska tips! Dessutom, om du är nyfiken på att exportera dina filer som PDF-filer, vår handledning.
 
 Varje handledning är utformad inte bara för att informera utan för att engagera dig. Vi förstår att det ibland kan kännas tråkigt att dyka in i tekniska ämnen. Därför införlivar vi en konversationsstil som håller dig investerad, nästan som att ha en trevlig chatt med en teknikkunnig kompis.
 
@@ -23,15 +23,15 @@ Så är du redo att förbättra din inställning till Excel-filhantering med Asp
 ## Förstå formaten
 
 ### 1. XLS och XLSX: 
--  Det klassiska XLS-formatet kan ibland verka föråldrat, men det är fortfarande viktigt för kompatibilitet med äldre programvara. Vår handledning om[spara XLS-filer](./save-xls-file/)säkerställer att du enkelt kan navigera i det här formatets egenheter. 
+- Det klassiska XLS-formatet kan ibland verka föråldrat, men det är fortfarande viktigt för kompatibilitet med äldre programvara. Vår handledning om[spara XLS-filer](./save-xls-file/) säkerställer att du enkelt kan navigera i det här formatets egenheter. 
 -  Å andra sidan är XLSX nu standarden för Excel-filer, vilket ger förbättrade funktioner och förbättrad prestanda. Om du vill utmärka dig (pun intended!) i modern datahantering, kolla in vår guide på[spara XLSX-filer](./save-xlsx-file/).
 
 ### 2. PDF-format:
 -  Att konvertera dina dokument till PDF-filer är avgörande för att bevara formateringen och säkerställa att ditt innehåll ser helt rätt ut när det delas. Vår steg-för-steg handledning om[spara filer i PDF-format](./save-file-in-pdf-format/) förklarar hur man enkelt utför denna process. Det är som att förpacka en present; du vill att det ska se perfekt ut när det presenteras för andra!
 
 ### 3. CSV och SpreadsheetML:
--  Låt oss inte glömma CSV-filer, som förenklar datadelning och manipulation. Vår guide på[spara arbetsböcker i CSV-format](./save-workbook-to-text-csv-format/) hjälper dig att bemästra denna avgörande färdighet. Det liknar att ha en universell fjärrkontroll; den ansluter olika enheter (eller i det här fallet applikationer) sömlöst.
-- På samma sätt, om du funderar på att arbeta med .NET-applikationer och behöver en strukturerad XML-representation, vår handledning om[spara filer i SpreadsheetML-format](./save-file-in-spreadsheetml-format/) är din bästa resurs.
+-  Låt oss inte glömma CSV-filer, som förenklar datadelning och manipulation. Vår guide på[spara arbetsböcker i CSV-format](./save-workbook-to-text-csv-format/)hjälper dig att bemästra denna avgörande färdighet. Det liknar att ha en universell fjärrkontroll; den ansluter olika enheter (eller i det här fallet applikationer) sömlöst.
+-  På samma sätt, om du funderar på att arbeta med .NET-applikationer och behöver en strukturerad XML-representation, vår handledning om[spara filer i SpreadsheetML-format](./save-file-in-spreadsheetml-format/) är din bästa resurs.
 
 ## Handledning för att spara filer i olika format
 ### [Spara Excel-fil i 97-2003-format](./save-excel-file-in-97-2003-format/)

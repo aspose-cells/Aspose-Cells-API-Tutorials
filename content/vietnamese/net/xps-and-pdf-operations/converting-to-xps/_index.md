@@ -50,7 +50,7 @@ Worksheet sheet = workbook.Worksheets[0]; // Truy cập vào bảng tính đầu
 ```
 Dòng mã này cho phép bạn truy cập vào bảng tính đầu tiên để thực hiện các lệnh tiếp theo.
 ## Bước 4: Cấu hình tùy chọn hình ảnh và in
-Bây giờ chúng ta cần xác định cách chúng ta muốn hiển thị đầu ra của mình. Điều này liên quan đến việc tạo một thể hiện của`ImageOrPrintOptions` và thiết lập định dạng đầu ra mong muốn.
+ Bây giờ chúng ta cần xác định cách chúng ta muốn hiển thị đầu ra của mình. Điều này liên quan đến việc tạo một thể hiện của`ImageOrPrintOptions` và thiết lập định dạng đầu ra mong muốn.
 ```csharp
 Aspose.Cells.Rendering.ImageOrPrintOptions options = new Aspose.Cells.Rendering.ImageOrPrintOptions();
 options.SaveFormat = SaveFormat.Xps; // Thiết lập định dạng đầu ra thành XPS
@@ -82,4 +82,4 @@ Có, bạn có thể điều chỉnh mã để lặp qua nhiều tệp trong th�
 ### Nếu tôi chỉ cần chuyển đổi một số trang tính cụ thể thì sao?
  Bạn có thể chỉ định chỉ mục của trang tính bạn muốn trong`SheetRender` đối tượng như được hiển thị trong các bước của chúng tôi.
 ### Tôi có thể tìm thêm thông tin về Aspose.Cells ở đâu?
- Bạn có thể khám phá[tài liệu](https://reference.aspose.com/cells/net/)để biết thêm các tính năng và tùy chọn nâng cao có trong thư viện.
+ Bạn có thể khám phá[tài liệu](https://reference.aspose.com/cells/net/) để biết thêm các tính năng và tùy chọn nâng cao có trong thư viện.

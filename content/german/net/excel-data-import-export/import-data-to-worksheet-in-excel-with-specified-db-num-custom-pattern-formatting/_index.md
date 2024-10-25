@@ -9,14 +9,14 @@ url: /de/net/excel-data-import-export/import-data-to-worksheet-in-excel-with-spe
 ---
 ## Einführung
 
-Wenn es um die Bearbeitung von Tabellenkalkulationen geht, kann das Importieren und korrekte Formatieren von Daten in Excel eine überwältigende Aufgabe sein, insbesondere wenn Sie bestimmte kulturbasierte Formate wie DB-Num-Muster verwenden möchten. Wenn Sie sich jemals von den technischen Details der Excel-Formatierung überfordert gefühlt haben, sind Sie hier richtig! In diesem Handbuch werden wir die Dinge mithilfe von Aspose.Cells für .NET in einfache Schritte aufteilen, damit Ihre Datenimporte nicht nur unkompliziert, sondern auch ästhetisch ansprechend sind. Halten Sie sich also fest, denn wir tauchen direkt in die Welt der .NET-Programmierung, Formatierung und des Exports von Excel-Dateien ein!
+Wenn es um die Bearbeitung von Tabellenkalkulationen geht, kann das Importieren und korrekte Formatieren von Daten in Excel wie eine überwältigende Aufgabe erscheinen, insbesondere wenn Sie bestimmte kulturbasierte Formate wie DB-Num-Muster verwenden möchten. Wenn Sie sich jemals von den technischen Details der Excel-Formatierung überfordert gefühlt haben, sind Sie hier richtig! In diesem Handbuch werden wir die Dinge mithilfe von Aspose.Cells für .NET in einfache Schritte aufteilen, damit Ihre Datenimporte nicht nur unkompliziert, sondern auch ästhetisch ansprechend sind. Halten Sie sich also fest, denn wir tauchen direkt in die Welt der .NET-Programmierung, Formatierung und des Exports von Excel-Dateien ein!
 
 ## Voraussetzungen
 
 Bevor wir uns ins Detail stürzen, stellen wir sicher, dass Sie alles haben, was Sie brauchen. Hier ist eine kurze Checkliste mit den Voraussetzungen, die Sie auf Erfolg vorbereiten:
 
 1. .NET Framework: Stellen Sie sicher, dass das .NET Framework auf Ihrem Computer installiert ist. Aspose.Cells funktioniert nahtlos mit verschiedenen .NET-Versionen.
-2. Aspose.Cells für .NET: Sie müssen die Aspose.Cells-Bibliothek herunterladen und installieren. Sie finden sie im[Downloadlink](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells für .NET: Sie müssen die Aspose.Cells-Bibliothek herunterladen und installieren. Sie finden sie im[Downloadlink](https://releases.aspose.com/cells/net/).
 3. Integrierte Entwicklungsumgebung (IDE): Verwenden Sie eine IDE wie Visual Studio, in der Sie Ihren C#-Code schreiben und ausführen können.
 4. Grundkenntnisse in C#: Grundlegende Kenntnisse in C# helfen Ihnen dabei, die in diesem Handbuch verwendeten Codierungspraktiken zu befolgen.
 
@@ -108,7 +108,7 @@ Und hier geschieht die Magie. Sie können ein benutzerdefiniertes Formatmuster m
 st.Custom = "[DBNum2][$-804]General";
 ```
 
- Diese Zeile weist Excel an, die Zahl zu formatieren`123` gemäß dem DBNum-Muster, das der chinesischen Sprache entspricht. Ziemlich ordentlich, oder?
+ Diese Zeile weist Excel an, die Zahl zu formatieren`123`gemäß dem DBNum-Muster, das der chinesischen Sprache entspricht. Ziemlich ordentlich, oder?
 
 ## Schritt 7: Festlegen des aktualisierten Zellenstils
 
@@ -144,7 +144,7 @@ Herzlichen Glückwunsch! Sie haben gerade eine PDF-Datei erstellt, die Ihre mit 
 
 Und da haben Sie es! Sie haben erfolgreich Daten in Excel importiert, benutzerdefinierte DB-Num-Formatierung angewendet und sie im PDF-Format gespeichert. Mit Aspose.Cells für .NET wird dieser Prozess nicht nur einfacher, sondern auch viel flexibler und leistungsfähiger. Sie müssen sich nicht mehr mit den integrierten Formatierungsoptionen von Excel herumschlagen – jetzt haben Sie eine direkte Kontrolllinie über den Code!
 
-Egal, ob Sie Datenberichte oder Finanzberichte erstellen, die Leistungsfähigkeit von Aspose.Cells bringt Ihre Tabellenkalkulation auf ein ganz neues Niveau. Worauf warten Sie also noch? Tauchen Sie voller Zuversicht in Ihre Projekte ein und lassen Sie Ihre Daten glänzen!
+Egal, ob Sie Datenberichte erstellen oder Finanzberichte erstellen, die Leistungsfähigkeit von Aspose.Cells bringt Ihre Tabellenkalkulation auf ein ganz neues Niveau. Worauf warten Sie also noch? Tauchen Sie voller Zuversicht in Ihre Projekte ein und lassen Sie Ihre Daten glänzen!
 
 ## Häufig gestellte Fragen
 

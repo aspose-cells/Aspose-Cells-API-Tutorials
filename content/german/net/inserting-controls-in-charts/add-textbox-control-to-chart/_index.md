@@ -16,7 +16,7 @@ Das Erstellen dynamischer und optisch ansprechender Diagramme in Excel ist eine 
 Bevor wir mit dem Programmieren beginnen, sollten Sie einige Dinge vorbereitet haben:
 
 - Grundlegende Kenntnisse in C#: Grundlegende Kenntnisse der C#-Programmierung sind hilfreich. Keine Sorge, Sie müssen kein Experte sein, sondern nur mit der Syntax vertraut sein.
-- Installierte Aspose.Cells-Bibliothek: Stellen Sie sicher, dass Sie die Aspose.Cells für .NET-Bibliothek installiert haben. Sie können sie herunterladen von[Hier](https://releases.aspose.com/cells/net/) falls Sie das nicht bereits getan haben.
+-  Installierte Aspose.Cells-Bibliothek: Stellen Sie sicher, dass Sie die Aspose.Cells für .NET-Bibliothek installiert haben. Sie können sie herunterladen von[Hier](https://releases.aspose.com/cells/net/)falls Sie das nicht bereits getan haben.
 - Visual Studio: Vertrautheit mit Visual Studio oder einer anderen IDE, die Sie für das .NET-Framework verwenden möchten, ist unbedingt erforderlich.
 - Eine vorhandene Excel-Datei: Für dieses Beispiel arbeiten wir mit einer vorhandenen Excel-Datei namens „sampleAddingTextBoxControlInChart.xls“. Sie können eine erstellen oder ein Beispiel herunterladen.
 
@@ -136,7 +136,7 @@ Der letzte Schritt besteht darin, die vorgenommenen Änderungen in einer neuen E
 // Speichern Sie die Excel-Datei.
 workbook.Save(outputDir + "outputAddingTextBoxControlInChart.xls");
 ```
- Ersetzen`"outputAddingTextBoxControlInChart.xls"`mit dem Dateinamen Ihrer Wahl.
+ Ersetzen`"outputAddingTextBoxControlInChart.xls"` mit dem Dateinamen Ihrer Wahl.
 
 ## Abschluss
 

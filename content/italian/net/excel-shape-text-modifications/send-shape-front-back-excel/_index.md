@@ -39,7 +39,7 @@ Ora che abbiamo impostato le directory, carichiamo la cartella di lavoro (il fil
 //Carica il file Excel di origine
 Workbook wb = new Workbook(sourceDir + "sampleToFrontOrBack.xlsx");
 ```
- Questa riga di codice inizializza un nuovo`Workbook`oggetto, caricando il file Excel specificato nella memoria in modo da poterci lavorare.
+ Questa riga di codice inizializza un nuovo`Workbook` oggetto, caricando il file Excel specificato nella memoria in modo da poterci lavorare.
 ## Passaggio 3: accedi al foglio di lavoro 
 Poi, dobbiamo accedere al foglio di lavoro specifico in cui risiedono le nostre forme. Per questo esempio, useremo il primo foglio di lavoro.
 ```csharp
@@ -95,7 +95,7 @@ Infine, forniamo una semplice conferma per farci sapere che il nostro compito è
 ```csharp
 Console.WriteLine("SendShapeFrontOrBackInWorksheet executed successfully.\r\n");
 ```
-E questo conclude il codice del nostro tutorial!
+questo conclude il codice del nostro tutorial!
 ## Conclusione
 Manipolare le forme in Excel usando Aspose.Cells per .NET non è solo semplice ma anche potente. Seguendo questa guida, dovresti ora essere in grado di inviare le forme in primo piano o in secondo piano con facilità, consentendo un controllo migliore sulle tue presentazioni Excel. Con questi strumenti a tua disposizione, sei pronto a migliorare l'aspetto visivo dei tuoi fogli di calcolo.
 ## Domande frequenti

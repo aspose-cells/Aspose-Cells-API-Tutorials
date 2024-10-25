@@ -18,7 +18,7 @@ Koda geçmeden önce, yerine getirmeniz gereken birkaç ön koşul var:
 1. Visual Studio: Makinenizde Visual Studio'nun yüklü olduğundan emin olun. Kodumuzu yazmak ve yürütmek için kullanacağımız IDE budur.
 2.  .NET için Aspose.Cells: Aspose.Cells kütüphanesine sahip olmanız gerekir. Bunu şuradan indirebilirsiniz:[Aspose web sitesi](https://releases.aspose.com/cells/net/).
 3. Temel C# Bilgisi: C# programlamaya aşina olmak örnekleri daha iyi anlamanıza yardımcı olacaktır.
-4.  Excel Dosyası: Bir Excel dosyası hazır bulundurun (örneğin,`book1.xls`) bu eğitimde kullanacağınız.
+4. Excel Dosyası: Bir Excel dosyası hazır bulundurun (örneğin,`book1.xls`) bu eğitimde kullanacağınız.
 
 Bu ön koşulları yerine getirdikten sonra, Excel hücrelerinden veri almanın yollarını keşfetmeye başlayabiliriz.
 
@@ -52,7 +52,7 @@ Artık belge dizinini ayarladığınıza göre, bir sonraki adım çalışmak is
 
 
 ```csharp
-// Mevcut bir çalışma kitabını açma
+//Mevcut bir çalışma kitabını açma
 Workbook workbook = new Workbook(dataDir + "book1.xls");
 ```
 
@@ -68,7 +68,7 @@ Workbook workbook = new Workbook(dataDir + "book1.xls");
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
- The`Worksheets` koleksiyon, çalışma kitabındaki farklı sayfalara erişmenizi sağlar. Dizin`[0]`ilk çalışma sayfasına atıfta bulunur. Sonraki sayfalara erişmek istiyorsanız, dizini buna göre değiştirebilirsiniz.
+ The`Worksheets` koleksiyon, çalışma kitabındaki farklı sayfalara erişmenizi sağlar. Dizin`[0]` ilk çalışma sayfasına atıfta bulunur. Sonraki sayfalara erişmek istiyorsanız, dizini buna göre değiştirebilirsiniz.
 
 ## Adım 4: Hücreler Arasında Döngü
 
@@ -99,7 +99,7 @@ foreach (Cell cell1 in worksheet.Cells)
             Console.WriteLine("Double Value: " + doubleValue);
             break;
 
-        // Hücre verilerinin veri türünün Boolean değeri açısından değerlendirilmesi
+        //Hücre verilerinin veri türünün Boolean değeri açısından değerlendirilmesi
         case CellValueType.IsBool:
             boolValue = cell1.BoolValue;
             Console.WriteLine("Bool Value: " + boolValue);
@@ -124,7 +124,7 @@ foreach (Cell cell1 in worksheet.Cells)
 }
 ```
 
- Bu adımda, çalışma sayfasındaki her hücrede döngü kurarız. Her hücre için, bir`switch`ifadesi. Türe bağlı olarak değeri alırız ve konsola yazdırırız. İşte durumların bir dökümü:
+ Bu adımda, çalışma sayfasındaki her hücrede döngü kurarız. Her hücre için, bir`switch` ifadesi. Türe bağlı olarak değeri alırız ve konsola yazdırırız. İşte durumların bir dökümü:
 
 -  IsString: Hücre bir dize içeriyorsa, bunu kullanarak alırız`StringValue`.
 -  IsNumeric: Sayısal değerler için şunu kullanırız:`DoubleValue`.
@@ -143,7 +143,7 @@ Aspose.Cells for .NET kullanarak Excel hücrelerinden veri almak basit bir işle
 Aspose.Cells, geliştiricilerin Microsoft Excel'in kurulu olmasına gerek kalmadan Excel dosyaları oluşturmalarına, düzenlemelerine ve dönüştürmelerine olanak tanıyan bir .NET kütüphanesidir.
 
 ### Aspose.Cells'i ücretsiz kullanabilir miyim?  
-Evet, Aspose.Cells özelliklerini test etmek için kullanabileceğiniz ücretsiz bir deneme sürümü sunuyor. İndirebilirsiniz[Burada](https://releases.aspose.com/).
+ Evet, Aspose.Cells özelliklerini test etmek için kullanabileceğiniz ücretsiz bir deneme sürümü sunuyor. İndirebilirsiniz[Burada](https://releases.aspose.com/).
 
 ### Excel hücrelerinden hangi tür verileri alabilirim?  
 Dizeler, sayılar, Boole değerleri ve tarih/saat değerleri dahil olmak üzere çeşitli veri türlerini alabilirsiniz.

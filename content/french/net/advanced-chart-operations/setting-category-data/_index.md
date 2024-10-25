@@ -102,7 +102,7 @@ Ici, nous désignons chaque ensemble de données par des catégories telles que 
 
 Avec nos données en place, nous sommes prêts à ajouter un graphique pour représenter visuellement ces données.
 
-## Étape 7 : Ajout d'un graphique à la feuille de calcul
+## Étape 7 : Ajout d’un graphique à la feuille de calcul
 
 Maintenant, ajoutons un graphique de type « Colonne » sur la feuille de calcul.
 

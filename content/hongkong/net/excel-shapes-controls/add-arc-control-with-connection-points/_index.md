@@ -48,7 +48,7 @@ Aspose.Cells.Drawing.ArcShape arc1 = excelbook.Worksheets[0].Shapes.AddArc(2, 0,
 ```
 這行程式碼在第一個工作表新增了一個圓弧形狀。這些參數指定圓弧的座標和定義其曲率的角度。 
 ## 第 4 步：自訂圓弧的外觀
-空白的弧形就像一張沒有油漆的畫布——它需要一點天賦！
+空白的弧形就像沒有油漆的畫布一樣——它需要一點天賦！
 ### 設定圓弧填滿顏色
 ```csharp
 arc1.Fill.FillType = FillType.Solid;
@@ -71,7 +71,7 @@ arc1.Line.DashStyle = MsoLineDashStyle.Solid;
 ```csharp
 Aspose.Cells.Drawing.ArcShape arc2 = excelbook.Worksheets[0].Shapes.AddArc(9, 0, 2, 0, 130, 130);
 ```
-與第一個弧線一樣，這條弧線添加在不同的位置 - 這就是設計的魔力發生的地方！
+與第一個弧線一樣，這條弧線被添加到不同的位置——這就是設計的魔力發生的地方！
 ## 第 6 步：自訂第二條弧線
 讓我們也給我們的第二條弧線一些個性吧！
 ### 改變弧線顏色

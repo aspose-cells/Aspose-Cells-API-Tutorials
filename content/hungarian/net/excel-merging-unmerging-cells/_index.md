@@ -2,7 +2,7 @@
 title: Cellák egyesítése és egyesítése az Excelben
 linktitle: Cellák egyesítése és egyesítése az Excelben
 second_title: Aspose.Cells .NET Excel Processing API
-description: A .NET-hez készült egyszerű Aspose.Cells oktatóanyagainkkal sajátítsa el a cellák egyesítését és feloldását az Excelben. Növelje táblázatkezelési készségeit.
+description: Az egyszerű Aspose.Cells for .NET oktatóanyagaink segítségével elsajátíthatja a cellák egyesítését és megszüntetését az Excelben. Növelje táblázatkezelési készségeit.
 type: docs
 weight: 22
 url: /hu/net/excel-merging-unmerging-cells/

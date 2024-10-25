@@ -80,7 +80,7 @@ DataItems di = new DataItems();
 di.Number1 = 2002;
 di.Number2 = 3502;
 di.Formula1 = "=SUM(A2,B2)";
-di.Formula2 = "=HYPERLINK(\"https://www.aspose.com\",\"Aspose 网站\")";
+di.Formula2 = "=HYPERLINK(\"https://www.aspose.com\",\"Aspose 网站\")”;
 dis.Add(di);
 
 //对其他数据项重复上述操作

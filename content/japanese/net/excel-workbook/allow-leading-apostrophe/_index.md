@@ -16,7 +16,7 @@ Aspose.Cells for .NET を使用してスプレッドシートをシームレス�
 コードに進む前に、満たす必要のある前提条件がいくつかあります。
 
 1. .NET の基礎知識: .NET フレームワークに精通していることが必須です。すでに C# または VB.NET を少し使用したことがあるなら、準備はできていると考えてください。
-2. Aspose.Cells for .NET ライブラリ: Aspose.Cells をインストールする必要があります。NuGet パッケージ マネージャーを使用して簡単にインストールするか、[Aspose サイト](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells for .NET ライブラリ: Aspose.Cells をインストールする必要があります。NuGet パッケージ マネージャーを使用して簡単にインストールするか、[Aspose サイト](https://releases.aspose.com/cells/net/).
 3. IDE のセットアップ: コーディング用に Visual Studio などの統合開発環境 (IDE) の準備ができていることを確認します。
 4. サンプル Excel ファイル: コード内で使用するサンプル ファイル (「AllowLeadingApostropheSample.xlsx」) を使用できます。
 

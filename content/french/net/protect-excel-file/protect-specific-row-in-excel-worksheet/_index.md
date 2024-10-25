@@ -49,7 +49,7 @@ Tout d'abord, nous devons définir un répertoire dans lequel nous allons stocke
 // Le chemin vers le répertoire des documents.
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // changez pour le chemin souhaité.
 
-//Créez un répertoire s'il n'est pas déjà présent.
+// Créez un répertoire s'il n'est pas déjà présent.
 bool isExists = System.IO.Directory.Exists(dataDir);
 if (!isExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -88,7 +88,7 @@ StyleFlag flag;
 for (int i = 0; i <= 255; i++)
 {
     style = sheet.Cells.Columns[(byte)i].Style;
-    style.IsLocked = false; // Déverrouiller la colonne
+    style.IsLocked = false; //Déverrouiller la colonne
     flag = new StyleFlag();
     flag.Locked = true; // Définir l'indicateur sur vrai pour le verrouillage
     sheet.Cells.Columns[(byte)i].ApplyStyle(style, flag); // Appliquer le style

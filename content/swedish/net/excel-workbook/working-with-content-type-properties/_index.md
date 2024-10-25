@@ -23,7 +23,7 @@ Innan vi går in i koden, låt oss se till att du har allt du behöver för att 
 
 ## Importera paket
 
-För att börja arbeta med Aspose.Cells måste du importera de nödvändiga namnrymden till din C#-fil. Detta ger ditt program tillgång till klasserna och metoderna som tillhandahålls av biblioteket. Så här gör du det:
+För att börja arbeta med Aspose.Cells måste du importera de nödvändiga namnområdena till din C#-fil. Detta ger ditt program tillgång till klasserna och metoderna som tillhandahålls av biblioteket. Så här gör du det:
 
 ```csharp
 using Aspose.Cells.WebExtensions;
@@ -60,7 +60,7 @@ Med vår arbetsbok redo är det dags att lägga till några anpassade egenskaper
 int index = workbook.ContentTypeProperties.Add("MK31", "Simple Data");
 ```
 
- I det här steget lade vi till en egenskap som heter "MK31" med värdet "Simple Data". De`Add` metod returnerar indexet för den nyligen tillagda egenskapen, som vi kan använda senare.
+ I det här steget lade vi till en egenskap som heter "MK31" med värdet "Simple Data". De`Add`metod returnerar indexet för den nyligen tillagda egenskapen, som vi kan använda senare.
 
 ### Ställ in Nillable Property
 
@@ -79,7 +79,7 @@ index = workbook.ContentTypeProperties.Add("MK32", DateTime.Now.ToString("yyyy-M
 workbook.ContentTypeProperties[index].IsNillable = true;
 ```
 
- det här utdraget skapar vi en egenskap med namnet "MK32" med aktuellt datum och tid formaterade enligt ISO 8601. Vi har gjort den här egenskapen nullbar genom att ställa in`IsNillable` till`true`.
+ I det här utdraget skapar vi en egenskap med namnet "MK32" med aktuellt datum och tid formaterade enligt ISO 8601. Vi har gjort den här egenskapen nullbar genom att ställa in`IsNillable` till`true`.
 
 ## Steg 4: Spara arbetsboken
 
@@ -120,4 +120,4 @@ Ja! Aspose.Cells stöder olika format, inklusive XLS, XLSX, CSV och andra.
 Absolut! Du kan lägga till komplexa objekt till egenskaper för innehållstyp så länge de kan serialiseras korrekt.
 
 ### Var kan jag hitta mer dokumentation?
- För mer detaljerad vägledning, se[Aspose.Cells dokumentation](https://reference.aspose.com/cells/net/).
+För mer detaljerad vägledning, se[Aspose.Cells dokumentation](https://reference.aspose.com/cells/net/).

@@ -25,7 +25,7 @@ Nu u aan de vereisten hebt voldaan, is het tijd om de benodigde pakketten in uw 
 ### Open uw project
 Laten we beginnen bij het begin: open uw C#-project in Visual Studio.
 ### Referenties toevoegen
-moet een referentie toevoegen aan de Aspose.Cells DLL. Klik met de rechtermuisknop op uw project in de Solution Explorer, selecteer Add > Reference, blader vervolgens naar de locatie waar u Aspose.Cells hebt gedownload en selecteer het DLL-bestand.
+U moet een referentie toevoegen aan de Aspose.Cells DLL. Klik met de rechtermuisknop op uw project in de Solution Explorer, selecteer Add > Reference, blader vervolgens naar de locatie waar u Aspose.Cells hebt gedownload en selecteer het DLL-bestand.
 ### Naamruimte-opname
 Voeg in uw C#-bestand de volgende naamruimten toe door bovenaan deze regels toe te voegen:
 ```csharp
@@ -71,7 +71,7 @@ foreach (ReferredArea area in ret)
     Console.WriteLine(CellsHelper.CellIndexToName(area.EndRow, area.EndColumn));
 }
 ```
- In dit fragment gebruiken we een eenvoudige`foreach` lus om de bladnamen en celverwijzingen van de cellen die in B4 worden ingevoerd, af te drukken.`CellsHelper.CellIndexToName`functie transformeert rij- en kolomindices in leesbare celverwijzingen zoals "A1", "B2", enz. 
+ In dit fragment gebruiken we een eenvoudige`foreach` lus om de bladnamen en celverwijzingen van de cellen die in B4 worden ingevoerd, af te drukken.`CellsHelper.CellIndexToName` functie transformeert rij- en kolomindices in leesbare celverwijzingen zoals "A1", "B2", enz. 
 
 ## Conclusie
 En daar heb je het! Je hebt met succes precedenten in Excel getraceerd met Aspose.Cells voor .NET. Inzicht in celafhankelijkheden kan je spreadsheetbeheervaardigheden verbeteren en duidelijkheid verschaffen in je datagestuurde beslissingen. Het is een beetje als het oplossen van een puzzel, het samenvoegen van waar je data vandaan komt. Ga nu aan de slag, probeer dit uit op je eigen data en ontketen de kracht van Aspose.Cells!
@@ -85,4 +85,4 @@ Aspose.Cells is een .NET-bibliotheek waarmee u Excel-spreadsheets kunt maken, be
 ### Is Aspose.Cells compatibel met .NET Core?  
 Ja, Aspose.Cells ondersteunt .NET Core, zodat u het in verschillende .NET-frameworks kunt gebruiken.
 ### Waar kan ik ondersteuning vinden voor Aspose.Cells?  
- kunt hulp krijgen op de[Aspose ondersteuningsforum](https://forum.aspose.com/c/cells/9).
+ U kunt hulp krijgen op de[Aspose ondersteuningsforum](https://forum.aspose.com/c/cells/9).

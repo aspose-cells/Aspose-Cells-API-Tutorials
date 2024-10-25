@@ -108,11 +108,11 @@ st = cell.GetStyle();
 Console.WriteLine("Quote Prefix of Cell A1: " + st.QuotePrefix);
 ```
 
-E lépés után látni fogja, hogy az idézet előtagja igazra változik! Ez azt mutatja, hogy az Excel cellánk be van állítva az egyetlen idézőjel felismerésére.
+lépés után látni fogja, hogy az idézet előtagja igazra változik! Ez azt mutatja, hogy az Excel cellánk be van állítva az egyetlen idézőjel felismerésére.
 
 ## 6. lépés: A StyleFlags megértése
 
- Most pedig vizsgáljuk meg, hogyan a`StyleFlag` hatással lehet az idézet előtagunkra.
+ Most vizsgáljuk meg, hogyan a`StyleFlag` hatással lehet az idézet előtagunkra.
 
 ```csharp
 // Hozzon létre egy üres stílust
@@ -161,7 +161,7 @@ flag.QuotePrefix = true;
 rng.ApplyStyle(st, flag);
 ```
 
- Ebben a körben rendezünk`flag.QuotePrefix = true`, ami azt jelenti, hogy frissíteni szeretnénk a cella idézőjel előtagját.
+Ebben a körben rendezünk`flag.QuotePrefix = true`, ami azt jelenti, hogy frissíteni szeretnénk a cella idézőjel előtagját.
 
 ## 9. lépés: Az idézet előtag utolsó ellenőrzése
 

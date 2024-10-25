@@ -38,7 +38,7 @@ Pro začátek musíme vytvořit sešit. Toto je kontejner pro všechny vaše lis
 Workbook wb = new Workbook();
 ```
  S tímto řádkem nová instance`Workbook` je inicializováno a představuje prázdnou tabulku. Berte to jako otevření nové knihy, do které zapíšete svá data.
-## Krok 2: Otevřete první list
+## Krok 2: Otevřete první pracovní list
 Dále přistoupíme k prvnímu listu sešitu, kde budeme zadávat naše data.
 ```csharp
 Worksheet ws = wb.Worksheets[0];
@@ -96,4 +96,4 @@ Aspose.Cells je výkonná knihovna pro .NET, která umožňuje vývojářům vyt
 ### Kde mohu získat pomoc, pokud narazím na problémy?
  Komunitní fórum Aspose je skvělým zdrojem pro řešení problémů a rady:[Aspose Support](https://forum.aspose.com/c/cells/9).
 ### Je k dispozici dočasná licence pro Aspose.Cells?
- Ano! Můžete požádat o dočasnou licenci[zde](https://purchase.aspose.com/temporary-license/) vyzkoušet všechny funkce bez omezení.
+Ano! Můžete požádat o dočasnou licenci[zde](https://purchase.aspose.com/temporary-license/) vyzkoušet všechny funkce bez omezení.

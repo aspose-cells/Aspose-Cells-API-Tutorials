@@ -9,14 +9,14 @@ url: /hu/net/excel-page-setup/set-excel-page-orientation/
 ---
 ## Bevezetés
 
-Ha az Excel-fájlok programozott kezeléséről van szó, az Aspose.Cells for .NET egy hatékony könyvtár, amely jelentősen leegyszerűsíti a folyamatot. De előfordult már, hogy azon töprengett, hogyan állíthatja be az oldal tájolását egy Excel-lapon? szerencséd van! Ez az útmutató végigvezeti az Excel oldaltájolás beállításán az Aspose.Cells használatával. Mire ezt befejezzük, néhány sornyi kóddal zökkenőmentes műveletekké alakíthatja hétköznapi feladatait!
+Ha az Excel-fájlok programozott kezeléséről van szó, az Aspose.Cells for .NET egy hatékony könyvtár, amely jelentősen leegyszerűsíti a folyamatot. De azon kapta magát valaha, hogy azon töprengett, hogyan állíthatja be az oldal tájolását egy Excel-lapon? szerencséd van! Ez az útmutató végigvezeti az Excel oldaltájolás beállításán az Aspose.Cells használatával. Mire ezt befejezzük, néhány sornyi kóddal zökkenőmentes műveletekké alakíthatja hétköznapi feladatait!
 
 ## Előfeltételek
 
 A zökkenőmentes élmény érdekében, mielőtt belemerülne, fontos tisztázni néhány dolgot:
 
 1. Visual Studio: Győződjön meg arról, hogy a Visual Studio telepítve van a gépen. Itt kell beírnia a kódot.
-2.  Aspose.Cells for .NET: Aspose.Cells for .NET könyvtárra van szüksége. Megteheti[töltse le itt](https://releases.aspose.com/cells/net/) ha még nem tetted meg.
+2.  Aspose.Cells for .NET: Aspose.Cells for .NET könyvtárra van szüksége. Tudod[töltse le itt](https://releases.aspose.com/cells/net/) ha még nem tetted meg.
 3. Alapvető C# ismerete: A C# programozási nyelv ismerete nagyon hasznos, mivel ez az oktatóanyag C# nyelven készült.
 4. Munkaterület: Készítsen kódolási környezetet és egy könyvtárat a dokumentumok mentéséhez, mert szüksége lesz rá!
 
@@ -63,7 +63,7 @@ Ezután el kell érnie ahhoz a munkalaphoz, amelyen be szeretné állítani a t�
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
-Ez a sor olyan, mintha belemerülnénk a füzetünkbe, és az első oldalra lapoznánk, ahol minden varázslatunk megtörténik.
+Ez a sor olyan, mintha belemerülne a jegyzetfüzetébe, és az első oldalra lapozna, ahol minden varázslat megtörténik.
 
 ## 4. lépés: Állítsa az Oldaltájolást Álló értékre
 

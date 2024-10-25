@@ -31,7 +31,7 @@ Ogni buon progetto inizia con una corretta organizzazione! Per prima cosa, devi 
 ```csharp
 // Percorso verso la directory dei documenti.
 string dataDir = "Your Document Directory";
-//Creare la directory se non è già presente.
+// Creare la directory se non è già presente.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -132,7 +132,7 @@ Ed ecco qua: la tua guida per aggiungere una barra di scorrimento a un foglio di
 ### Che cos'è Aspose.Cells?
 Aspose.Cells è una potente libreria .NET che consente agli sviluppatori di creare, manipolare e convertire file Excel a livello di programmazione.
 ### Posso usare Aspose.Cells gratuitamente?
-Sì, Aspose.Cells offre una prova gratuita, che puoi trovare[Qui](https://releases.aspose.com/).
+ Sì, Aspose.Cells offre una prova gratuita, che puoi trovare[Qui](https://releases.aspose.com/).
 ### Come posso aggiungere altri controlli al mio foglio Excel?
 Puoi usare metodi simili a quelli mostrati per la barra di scorrimento. Basta controllare la documentazione per altri controlli!
 ### Quali linguaggi di programmazione posso usare con Aspose.Cells?

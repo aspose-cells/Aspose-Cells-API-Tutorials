@@ -58,7 +58,7 @@ HttpResponse Respose = null; // 응답 객체를 초기화합니다.
 ```csharp
 if (Respose != null)
 {
-    //Pdf 형식으로 저장
+    // Pdf 형식으로 저장
     workbook.Save(Respose, dataDir + "output.pdf", ContentDisposition.Attachment, new PdfSaveOptions());
     Respose.End();
 }

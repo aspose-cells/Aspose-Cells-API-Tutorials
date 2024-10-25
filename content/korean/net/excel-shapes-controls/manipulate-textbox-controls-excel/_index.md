@@ -14,7 +14,7 @@ Excel을 사용해 본 적이 있다면 스프레드시트에 떠 있는 텍스�
 1.  Aspose.Cells for .NET: Aspose.Cells for .NET 라이브러리를 다운로드해야 합니다. 다운로드 링크를 찾을 수 있습니다.[여기](https://releases.aspose.com/cells/net/).
 2. .NET 개발 환경: Visual Studio와 같이 .NET을 지원하는 모든 IDE가 작동합니다.
 3. C#에 대한 기본 지식: 이 튜토리얼에서는 사용자가 기본 C# 구문과 Excel 통합 문서의 구조에 익숙하다고 가정합니다.
-4.  Excel 파일: 텍스트 상자가 있는 기존 Excel 파일(다음을 사용함)`book1.xls`(이 예에서는).
+4.  Excel 파일: 텍스트 상자가 있는 기존 Excel 파일(사용합니다.`book1.xls`(이 예에서는).
 5.  Aspose 라이센스: 무료 평가판 버전을 사용하지 않는 경우 다음이 필요합니다.[구입하다](https://purchase.aspose.com/buy) 면허를 받거나[임시적인 것](https://purchase.aspose.com/temporary-license/).
 이제 단계별로 들어가보겠습니다!
 ## 패키지 가져오기

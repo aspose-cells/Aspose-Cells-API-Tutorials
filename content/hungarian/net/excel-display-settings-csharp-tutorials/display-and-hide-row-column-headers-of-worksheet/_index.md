@@ -43,7 +43,7 @@ Minden más előtt adja meg a dokumentumkönyvtár elérési útját. Ez az a he
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Cserélje ki`"YOUR DOCUMENT DIRECTORY"` az Excel-fájl tényleges elérési útjával. Ez a lépés beállítja az Excel-fájlok zökkenőmentes elérését.
+ Cserélje ki`"YOUR DOCUMENT DIRECTORY"` az Excel-fájl tényleges elérési útjával. Ez a lépés meghatározza az Excel-fájlok zökkenőmentes elérését.
 
 ## 2. lépés: Hozzon létre egy fájlfolyamot az Excel fájlhoz
 
@@ -53,7 +53,7 @@ Ezután létre kell hoznia egy fájlfolyamot az Excel-fájl megnyitásához. Ez 
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
 
-Itt megadjuk, hogy meg akarjuk nyitni`book1.xls` a megadott könyvtárban található. A`FileMode.Open` paraméter azt jelzi, hogy egy meglévő fájlt nyitunk meg. Mindig győződjön meg arról, hogy a fájlnév megegyezik a meglévő fájlnévvel.
+ Itt megadjuk, hogy meg akarjuk nyitni`book1.xls` a megadott könyvtárban található. A`FileMode.Open` paraméter azt jelzi, hogy egy meglévő fájlt nyitunk meg. Mindig győződjön meg arról, hogy a fájlnév megegyezik a meglévő fájlnévvel.
 
 ## 3. lépés: Példányosítson egy munkafüzet-objektumot
 
@@ -83,7 +83,7 @@ Most arra a pillanatra, amire vártunk! Valójában itt rejtjük el a munkalapun
 worksheet.IsRowColumnHeadersVisible = false;
 ```
 
- Beállítás`IsRowColumnHeadersVisible` hogy`false`hatékonyan elrejti a fejléceket mind a sorokban, mind az oszlopokban, tisztább megjelenést biztosítva az adatok megjelenítéséhez.
+ Beállítás`IsRowColumnHeadersVisible` hogy`false` hatékonyan elrejti a fejléceket mind a sorokban, mind az oszlopokban, tisztább megjelenést biztosítva az adatok megjelenítéséhez.
 
 ## 6. lépés: Mentse el a módosított Excel-fájlt
 
@@ -93,7 +93,7 @@ Miután elvégezte a módosításokat, el kell mentenie a fájlt. Íme, hogyan k
 workbook.Save(dataDir + "output.xls");
 ```
 
- Ez a sor egy új fájlba menti a változtatásokat`output.xls` ugyanabban a könyvtárban. Ez biztosítja, hogy megőrizze az eredetit`book1.xls` sértetlen, miközben dolgozik az új verzióval.
+ Ez a sor egy új fájlba menti a változtatásokat`output.xls` ugyanabban a könyvtárban. Ez biztosítja az eredeti megőrzését`book1.xls` sértetlen, miközben dolgozik az új verzióval.
 
 ## 7. lépés: Zárja be a Fájlfolyamot
 

@@ -71,7 +71,7 @@ Nyní musíme získat přístup ke konkrétnímu listu, se kterým chceme pracov
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
-Vysvětlení: The`Worksheets` kolekce nám umožňuje přístup k jednotlivým listům. Použití`[0]` odkazuje na první list v souboru Excel, což je obecně běžná praxe při práci se souborem s jedním listem.
+ Vysvětlení: The`Worksheets` kolekce nám umožňuje přístup k jednotlivým listům. Použití`[0]` odkazuje na první list v souboru Excel, což je obecně běžná praxe při práci se souborem s jedním listem.
 
 ## Krok 4: Nastavení automatického filtru
 
@@ -82,7 +82,7 @@ Tady začíná kouzlo! Vytvoříme rozsah automatického filtru pro naše data:
 worksheet.AutoFilter.Range = "A1:A18";
 ```
 
-Vysvětlení: The`AutoFilter.Range` vlastnost umožňuje určit, které řádky se mají filtrovat. V tomto případě filtrujeme řádky v rozsahu A1 až A18, o kterých se předpokládá, že obsahují naše data.
+ Vysvětlení: The`AutoFilter.Range` vlastnost umožňuje určit, které řádky se mají filtrovat. V tomto případě filtrujeme řádky v rozsahu A1 až A18, o kterých se předpokládá, že obsahují naše data.
 
 ## Krok 5: Použijte podmínku filtru
 
@@ -93,7 +93,7 @@ Dalším krokem je definování podmínky filtru. Chceme zobrazit pouze ty řád
 worksheet.AutoFilter.Custom(0, FilterOperatorType.BeginsWith, "Ba");
 ```
 
-Vysvětlení: The`Custom` metoda definuje naši logiku filtrování. První argument (`0` ) znamená, že filtrujeme na základě prvního sloupce (A) a`FilterOperatorType.BeginsWith`určuje naši podmínku hledat řádky začínající na "Ba".
+ Vysvětlení: The`Custom` metoda definuje naši logiku filtrování. První argument (`0` ) znamená, že filtrujeme na základě prvního sloupce (A) a`FilterOperatorType.BeginsWith` určuje naši podmínku hledat řádky začínající na "Ba".
 
 ## Krok 6: Obnovte filtr
 
@@ -115,7 +115,7 @@ Nyní je čas uložit změny, které jsme provedli:
 workbook.Save(outputDir + "outSourseSampleCountryNames.xlsx");
 ```
 
-Vysvětlení: The`Save` metoda zapíše upravený sešit zpět do zadané výstupní cesty. To spadá pod zápis vámi definovaných filtrů do nového souboru, takže vaše původní data zůstanou nedotčena.
+ Vysvětlení: The`Save` metoda zapíše upravený sešit zpět do zadané výstupní cesty. To spadá pod zápis vámi definovaných filtrů do nového souboru, takže vaše původní data zůstanou nedotčena.
 
 ## Krok 8: Potvrzení výstupu
 
@@ -134,13 +134,13 @@ Ve světě, kde se správa dat může zdát ohromující, vám ovládání funkc
 ## FAQ
 
 ### Jaký je účel automatického filtru v Excelu?  
-Automatický filtr umožňuje uživatelům rychle třídit a filtrovat data v tabulce, což usnadňuje zaměření na konkrétní datové sady.
+Automatický filtr umožňuje uživatelům rychle třídit a filtrovat data v tabulkovém procesoru, což usnadňuje zaměření na konkrétní soubory dat.
 
 ### Mohu pomocí Aspose.Cells filtrovat na základě více kritérií?  
 Ano, Aspose.Cells podporuje pokročilé možnosti filtrování, které vám umožní nastavit více kritérií.
 
 ### Potřebuji licenci pro Aspose.Cells, abych ji mohl používat?  
-když můžete začít s bezplatnou zkušební verzí, pro plnou funkčnost a odstranění jakýchkoli omezení zkušební verze je vyžadována licence.
+I když můžete začít s bezplatnou zkušební verzí, pro plnou funkčnost a odstranění jakýchkoli omezení zkušební verze je vyžadována licence.
 
 ### Jaké typy filtrování mohu provádět pomocí Aspose.Cells?  
 Data můžete filtrovat podle hodnoty, podmínky (např. začíná nebo končí na) a vlastního filtrování, aby vyhovovala vašim konkrétním požadavkům.

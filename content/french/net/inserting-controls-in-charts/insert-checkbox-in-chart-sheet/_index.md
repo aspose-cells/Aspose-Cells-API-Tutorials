@@ -70,7 +70,7 @@ string outputDir = "C:\\YourOutputDirectory\\"; // Accédez au répertoire spéc
 
 ## Étape 2 : Instanciation d'un objet de classeur
 
-Ensuite, nous créons une instance de`Workbook` classe. C'est ici que tout notre travail aura lieu.
+ Ensuite, nous créons une instance de`Workbook` classe. C'est ici que tout notre travail aura lieu.
 ```csharp
 Workbook workbook = new Workbook();
 ```

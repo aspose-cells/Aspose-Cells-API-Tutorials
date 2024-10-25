@@ -25,7 +25,7 @@ Začněte vytvořením nového projektu C# ve vašem IDE. Vyberte si pro tento v
 2. Vyberte „Přidat“ a poté klikněte na „Odkaz“.
 3. Přejděte do umístění, kam jste stáhli Aspose.Cells, a vyberte jej.
 4. Klikněte na "OK" pro přidání reference.
-### Add Using Direktiva
+### Přidat Směrnici použití
 horní části souboru kódu musíte zahrnout následující direktivu, abyste měli snadný přístup k oboru názvů Aspose.Cells.
 ```csharp
 using System;

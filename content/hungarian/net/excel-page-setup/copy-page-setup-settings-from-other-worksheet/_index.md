@@ -16,7 +16,7 @@ Előfordult már, hogy olyan helyzetbe került, amikor át kell replikálnia az 
 Mielőtt belevágnánk a kódba, néhány alapvető elemet meg kell adnia:
 
 1. .NET fejlesztői környezet: Győződjön meg arról, hogy be van állítva egy .NET-kompatibilis környezet, például a Visual Studio vagy bármely más választott IDE.
-2.  Aspose.Cells Library: Szüksége lesz az Aspose.Cells könyvtárra. Megteheti[töltse le itt](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells Library: Szüksége lesz az Aspose.Cells könyvtárra. Tudod[töltse le itt](https://releases.aspose.com/cells/net/).
 3. A C# alapjai: A C# alapjainak ismerete minden bizonnyal segít jobban megérteni a fogalmakat.
 4.  Aspose.Cells Dokumentáció: Ismerkedjen meg a[dokumentáció](https://reference.aspose.com/cells/net/)bármilyen speciális konfigurációhoz vagy kiegészítő szolgáltatáshoz, amelyet később hasznosnak találhat.
 
@@ -24,7 +24,7 @@ Most, hogy az előfeltételeinket rendeztük, importáljuk a szükséges csomago
 
 ## Csomagok importálása
 
-Az Aspose.Cells használatának megkezdéséhez a projektben importálnia kell a következő csomagot a kódba:
+Az Aspose.Cells használatának megkezdéséhez a projektben importálnia kell a következő csomagot a kódjába:
 
 ```csharp
 using System.IO;
@@ -128,7 +128,7 @@ Ennyi kemény munka után ne felejtse el menteni a munkafüzetét!
 wb.Save("CopiedPageSetupExample.xlsx");
 ```
 
-munkafüzet mentése elengedhetetlen annak biztosításához, hogy minden változtatás megmaradjon. Képzelje el ezt a lépést a „mentés” gomb megnyomásával a dokumentum befejezése után – ez döntő fontosságú, hogy ne veszítse el a haladást!
+A munkafüzet mentése elengedhetetlen annak biztosításához, hogy minden változtatás megmaradjon. Képzelje el ezt a lépést a „mentés” gomb megnyomásával a dokumentum befejezése után – ez döntő fontosságú, hogy ne veszítse el a haladást!
 
 ## Következtetés
 

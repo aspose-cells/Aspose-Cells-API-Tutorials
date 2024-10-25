@@ -96,11 +96,11 @@ Workbook workbook = new Workbook(sourceDir + "sampleModifyPieChart.xlsx");
 Ora, immergiamoci nel foglio specifico che contiene il grafico a torta. Supponiamo che il grafico a torta sia sul secondo foglio di lavoro (indice 1):
 
 ```csharp
-//Prendi la tabella del designer nel secondo foglio.
+// Prendi la tabella del designer nel secondo foglio.
 Worksheet sheet = workbook.Worksheets[1];
 ```
 
- Accedendo al`Worksheets` raccolta, possiamo arrivare al foglio specifico di cui abbiamo bisogno.
+ Accedendo al`Worksheets`raccolta, possiamo arrivare al foglio specifico di cui abbiamo bisogno.
 
 ## Passaggio 4: Ottieni il grafico
 

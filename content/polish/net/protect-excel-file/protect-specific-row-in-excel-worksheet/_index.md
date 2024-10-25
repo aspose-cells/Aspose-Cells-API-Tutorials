@@ -23,7 +23,7 @@ Gdy już wszystko jest na swoim miejscu, możemy zabrać się do pracy!
 
 ## Importuj pakiety
 
-Przed napisaniem kodu musimy zaimportować niezbędne przestrzenie nazw Aspose.Cells. To przygotowuje naszą aplikację do korzystania z klas i metod dostarczonych przez bibliotekę Aspose.Cells. Oto, co musisz zrobić:
+Przed napisaniem kodu musimy zaimportować niezbędne przestrzenie nazw Aspose.Cells. Przygotowuje to naszą aplikację do korzystania z klas i metod dostarczonych przez bibliotekę Aspose.Cells. Oto, co musisz zrobić:
 
 ### Skonfiguruj swój projekt
 
@@ -49,7 +49,7 @@ Najpierw musimy zdefiniować katalog, w którym będziemy przechowywać nasz pli
 // Ścieżka do katalogu dokumentów.
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // zmień ścieżkę na wybraną przez siebie.
 
-//Utwórz katalog, jeśli jeszcze go nie ma.
+// Utwórz katalog, jeśli jeszcze go nie ma.
 bool isExists = System.IO.Directory.Exists(dataDir);
 if (!isExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -88,7 +88,7 @@ StyleFlag flag;
 for (int i = 0; i <= 255; i++)
 {
     style = sheet.Cells.Columns[(byte)i].Style;
-    style.IsLocked = false; // Odblokuj kolumnę
+    style.IsLocked = false; //Odblokuj kolumnę
     flag = new StyleFlag();
     flag.Locked = true; // Ustaw flagę na true w celu zablokowania
     sheet.Cells.Columns[(byte)i].ApplyStyle(style, flag); // Zastosuj styl

@@ -2,7 +2,7 @@
 title: Importuj dane do programu Excel z niestandardowym wzorcem formatowania numerów baz danych
 linktitle: Importuj dane do programu Excel z niestandardowym wzorcem formatowania numerów baz danych
 second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: W tym łatwym do zrozumienia samouczku dowiesz się, jak importować dane do programu Excel z niestandardowym formatowaniem DB Num przy użyciu Aspose.Cells dla platformy .NET.
+description: tym łatwym do zrozumienia samouczku dowiesz się, jak importować dane do programu Excel z niestandardowym formatowaniem DB Num przy użyciu Aspose.Cells dla platformy .NET.
 type: docs
 weight: 10
 url: /pl/net/excel-data-import-export/import-data-to-worksheet-in-excel-with-specified-db-num-custom-pattern-formatting/
@@ -16,7 +16,7 @@ Jeśli chodzi o manipulację arkuszami kalkulacyjnymi, importowanie danych do pr
 Zanim przejdziemy do konkretów, upewnijmy się, że masz wszystko, czego potrzebujesz. Oto krótka lista kontrolna wymagań wstępnych, które zapewnią Ci sukces:
 
 1. .NET Framework: Upewnij się, że .NET Framework jest zainstalowany na Twoim komputerze. Aspose.Cells działa bezproblemowo z różnymi wersjami .NET.
-2. Aspose.Cells dla .NET: Musisz pobrać i zainstalować bibliotekę Aspose.Cells. Możesz ją pobrać z[link do pobrania](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells dla .NET: Musisz pobrać i zainstalować bibliotekę Aspose.Cells. Możesz ją pobrać z[link do pobrania](https://releases.aspose.com/cells/net/).
 3. Zintegrowane środowisko programistyczne (IDE): Użyj środowiska IDE, takiego jak Visual Studio, w którym możesz pisać i wykonywać kod C#.
 4. Podstawowa wiedza o języku C#: Podstawowa znajomość języka C# pomoże Ci stosować praktyki kodowania, które będziemy stosować w tym przewodniku.
 
@@ -108,7 +108,7 @@ Tutaj dzieje się magia. Możesz określić niestandardowy wzorzec formatu, uży
 st.Custom = "[DBNum2][$-804]General";
 ```
 
- Ten wiersz informuje program Excel o sformatowaniu liczby`123` zgodnie ze wzorem DBNum odpowiadającym językowi chińskiemu. Całkiem niezłe, prawda?
+ Ten wiersz informuje program Excel o sformatowaniu liczby`123`zgodnie ze wzorem DBNum odpowiadającym językowi chińskiemu. Całkiem niezłe, prawda?
 
 ## Krok 7: Ustaw zaktualizowany styl komórki
 

@@ -16,7 +16,7 @@ Di dunia digital saat ini, pengamanan dokumen menjadi lebih penting dari sebelum
 Sebelum kita masuk ke inti pengkodean, ada beberapa hal yang perlu Anda siapkan:
 
 1.  Aspose.Cells untuk .NET: Pastikan Anda telah menginstal pustaka Aspose.Cells di proyek .NET Anda. Anda dapat mengunduhnya dari[lokasi](https://releases.aspose.com/cells/net/).
-2.  File Sertifikat: Anda memerlukan file sertifikat yang valid (biasanya`.pfx` file) yang berisi sertifikat digital Anda. Pastikan Anda mengetahui kata sandi untuk file ini.
+2.  File Sertifikat: Anda memerlukan file sertifikat yang valid (biasanya`.pfx`file) yang berisi sertifikat digital Anda. Pastikan Anda mengetahui kata sandi untuk file ini.
 3. Lingkungan Pengembangan: Siapkan lingkungan pengembangan Anda dengan Visual Studio atau IDE lain yang mendukung .NET.
 4. Pengetahuan Dasar C#: Keakraban dengan pemrograman C# akan membantu Anda mengikutinya dengan lancar.
 5. File Contoh: Miliki file Excel contoh yang sudah ditandatangani secara digital. Ini akan menjadi file tempat Anda akan menambahkan tanda tangan baru.
@@ -51,7 +51,7 @@ Pada langkah ini, kami menggunakan metode untuk mendapatkan jalur bagi direktori
 
 ## Langkah 2: Muat Buku Kerja yang Sudah Ditandatangani
 
-Selanjutnya, Anda perlu memuat buku kerja Excel yang ingin Anda ubah. Hal ini dilakukan dengan membuat contoh`Workbook` kelas dan meneruskan jalur file yang ditandatangani.
+ Selanjutnya, Anda perlu memuat buku kerja Excel yang ingin Anda ubah. Hal ini dilakukan dengan membuat contoh`Workbook` kelas dan meneruskan jalur file yang ditandatangani.
 
 ```csharp
 // Muat buku kerja yang sudah ditandatangani secara digital
@@ -84,7 +84,7 @@ string password = "aspose";
 System.Security.Cryptography.X509Certificates.X509Certificate2 certificate = new System.Security.Cryptography.X509Certificates.X509Certificate2(certFileName, password);
 ```
 
- Pastikan untuk mengganti`AsposeDemo.pfx` dan kata sandi dengan nama file sertifikat dan kata sandi Anda yang sebenarnya.
+ Pastikan untuk mengganti`AsposeDemo.pfx`dan kata sandi dengan nama file sertifikat dan kata sandi Anda yang sebenarnya.
 
 ## Langkah 5: Buat Tanda Tangan Digital
 
@@ -113,7 +113,7 @@ Dengan mengeksekusi baris ini, Anda secara efektif melampirkan tanda tangan digi
 Terakhir, Anda ingin menyimpan buku kerja yang dimodifikasi ke direktori keluaran dan melepaskan sumber daya apa pun yang sedang digunakan.
 
 ```csharp
-// Simpan buku kerja dan buang.
+//Simpan buku kerja dan buang.
 workbook.Save(outputDir + "outputDigitallySignedByCells.xlsx");
 workbook.Dispose();
 ```

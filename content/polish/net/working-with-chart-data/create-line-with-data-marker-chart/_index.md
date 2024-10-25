@@ -18,7 +18,7 @@ Zanim zaczniemy, upewnij się, że wszystko jest gotowe, by wszystko przebiegło
 1.  Aspose.Cells for .NET Library – Musisz to zainstalować. Możesz to pobrać[Tutaj](https://releases.aspose.com/cells/net/).
 2. .NET Framework – Upewnij się, że Twoje środowisko programistyczne jest skonfigurowane przy użyciu najnowszej wersji .NET.
 3. IDE (zintegrowane środowisko programistyczne) – zalecany jest program Visual Studio.
-4.  Ważna licencja Aspose.Cells – jeśli jej nie posiadasz, możesz poprosić o[licencja tymczasowa](https://purchase.aspose.com/temporary-license/)lub sprawdź ich[bezpłatny okres próbny](https://releases.aspose.com/).
+4.  Ważna licencja Aspose.Cells – jeśli jej nie posiadasz, możesz poprosić o[licencja tymczasowa](https://purchase.aspose.com/temporary-license/) lub sprawdź ich[bezpłatny okres próbny](https://releases.aspose.com/).
 
 Gotowy do drogi? Rozłóżmy to na czynniki pierwsze!
 
@@ -62,7 +62,7 @@ Teraz, gdy mamy nasz arkusz kalkulacyjny, wypełnijmy go danymi. Tworzymy losowe
 worksheet.Cells[0, 0].Value = "X";
 worksheet.Cells[0, 1].Value = "Y";
 
-// Losowe dane do wygenerowania wykresu
+// Losowe dane do generowania wykresu
 Random R = new Random();
 
 // Utwórz losowe dane i zapisz je w komórkach

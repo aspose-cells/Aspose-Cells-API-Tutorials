@@ -9,7 +9,7 @@ url: /it/net/inserting-controls-in-charts/add-label-control-to-chart/
 ---
 ## Introduzione
 
-grafici sono un modo potente per visualizzare i dati e, a volte, aggiungere un'etichetta può aumentare ulteriormente la chiarezza. Se stai lavorando con Aspose.Cells per .NET, puoi facilmente aggiungere un'etichetta ai tuoi grafici per fornire ulteriore contesto. In questo tutorial, ti guideremo passo dopo passo attraverso come farlo, assicurandoti di essere ben equipaggiato per implementarlo nei tuoi progetti.
+I grafici sono un modo potente per visualizzare i dati e, a volte, aggiungere un'etichetta può aumentare ulteriormente la chiarezza. Se stai lavorando con Aspose.Cells per .NET, puoi facilmente aggiungere un'etichetta ai tuoi grafici per fornire ulteriore contesto. In questo tutorial, ti guideremo passo dopo passo attraverso come farlo, assicurandoti di essere ben equipaggiato per implementarlo nei tuoi progetti.
 
 ## Prerequisiti
 
@@ -62,7 +62,7 @@ Successivamente caricheremo il file Excel contenente il grafico a cui vogliamo a
 Workbook workbook = new Workbook(sourceDir + "sampleAddingLabelControlInChart.xls");
 ```
 
- Qui stiamo usando il`Workbook`classe da Aspose.Cells per aprire il nostro file Excel. È come sbloccare la porta per far fluire la creatività!
+ Qui stiamo usando il`Workbook` classe da Aspose.Cells per aprire il nostro file Excel. È come sbloccare la porta per far fluire la creatività!
 
 ## Passaggio 3: accedi al foglio di lavoro
 
@@ -94,7 +94,7 @@ Ora arriva la parte emozionante: aggiungere l'etichetta al grafico. Definiremo l
 Aspose.Cells.Drawing.Label label = chart.Shapes.AddLabelInChart(600, 600, 350, 900);
 ```
 
- Qui,`AddLabelInChart`si occupa di creare un'etichetta basata sulle coordinate e sulle dimensioni che specifichi. È come apporre una bella cornice attorno alla tua opera d'arte!
+ Qui,`AddLabelInChart` si occupa di creare un'etichetta basata sulle coordinate e sulle dimensioni che specifichi. È come apporre una bella cornice attorno alla tua opera d'arte!
 
 ## Passaggio 6: imposta il testo dell'etichetta
 

@@ -38,7 +38,7 @@ Antes de começarmos a manipular a Workbook, precisamos definir onde nosso docum
 ```csharp
 // O caminho para o diretório de documentos.
 string dataDir = "Your Document Directory";
-//Crie um diretório se ele ainda não estiver presente.
+// Crie um diretório se ele ainda não estiver presente.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -94,12 +94,12 @@ workbook.Save(dataDir + "book1.out.xls");
 ```
 Esta etapa é como fechar seu livro depois de escrever uma história fantástica: você quer garantir que ela seja salva!
 ## Conclusão
-E aí está! Você adicionou comentários com sucesso às células em um arquivo Excel usando o Aspose.Cells para .NET. Comentários podem ser úteis para projetos colaborativos ou simplesmente para deixar lembretes para você mesmo. Agora que você passou por todo o processo, está equipado para levar suas habilidades no Excel para o próximo nível.
+aí está! Você adicionou comentários com sucesso às células em um arquivo Excel usando o Aspose.Cells para .NET. Comentários podem ser úteis para projetos colaborativos ou simplesmente para deixar lembretes para você mesmo. Agora que você passou por todo o processo, está equipado para levar suas habilidades no Excel para o próximo nível.
 ## Perguntas frequentes
 ### Posso adicionar comentários a formas usando Aspose.Cells?
 Sim! Você pode adicionar comentários a formas de forma similar à que faz para células.
 ### Quais formatos de arquivo o Aspose.Cells suporta?
-Aspose.Cells suporta vários formatos, incluindo XLS, XLSX, CSV e muito mais.
+O Aspose.Cells suporta vários formatos, incluindo XLS, XLSX, CSV e muito mais.
 ### O Aspose.Cells é gratuito?
 O Aspose.Cells oferece um teste gratuito, mas para recursos completos, talvez seja necessário comprar uma licença.
 ### Onde posso encontrar suporte para o Aspose.Cells?

@@ -16,7 +16,7 @@ url: /es/net/inserting-controls-in-charts/add-picture-to-chart/
 Antes de adentrarnos en los detalles de la codificación, hay algunos requisitos previos que debes tener en cuenta para seguir el proceso sin problemas:
 
 - Visual Studio: aquí es donde escribirás y ejecutarás tu código .NET. Asegúrate de tenerlo instalado.
-- Aspose.Cells para .NET: Necesitará esta biblioteca para trabajar con archivos de Excel. Puede[Descárgalo aquí](https://releases.aspose.com/cells/net/).
+-  Aspose.Cells para .NET: Necesitará esta biblioteca para trabajar con archivos de Excel. Puede[Descárgalo aquí](https://releases.aspose.com/cells/net/).
 - Comprensión básica de C#: si bien lo guiaré a través del código, tener un conocimiento básico de C# hará que las cosas sean más claras.
 
 ### Pasos de instalación
@@ -55,7 +55,7 @@ string sourceDir = "Your Document Directory/";
 string outputDir = "Your Output Directory/";
 ```
 
- Reemplazar`Your Document Directory` y`Your Output Directory` con rutas reales en su computadora. 
+ Reemplazar`Your Document Directory` y`Your Output Directory`con rutas reales en su computadora. 
 
 ## Paso 2: Cargue el libro de trabajo existente
 
@@ -84,7 +84,7 @@ Asegúrese de tener la imagen guardada en el directorio especificado.
 Ahora, especifiquemos a qué gráfico vamos a agregar nuestra imagen. En este ejemplo, apuntaremos al primer gráfico de la primera hoja de cálculo.
 
 ```csharp
-//Obtén el cuadro de diseño en la segunda hoja.
+// Obtén el cuadro de diseño en la segunda hoja.
 Worksheet sheet = workbook.Worksheets[0];
 Aspose.Cells.Charts.Chart chart = sheet.Charts[0];
 ```
@@ -100,7 +100,7 @@ Puede acceder a cualquier hoja de trabajo modificando el índice según correspo
 Aspose.Cells.Drawing.Picture pic0 = chart.Shapes.AddPictureInChart(50, 50, stream, 200, 200);
 ```
 
- Aquí,`50` y`50` son las coordenadas X e Y donde se colocará la imagen, y`200` Es el ancho y alto de la imagen.
+ Aquí,`50` y`50` son las coordenadas X e Y donde se colocará la imagen, y`200`Es el ancho y alto de la imagen.
 
 ## Paso 6: Personaliza el formato de línea de la imagen
 
@@ -117,7 +117,7 @@ lineformat.DashStyle = MsoLineDashStyle.Solid;
 lineformat.Weight = 4;    
 ```
 
-Este fragmento te permite elegir cómo se ve el borde y qué tan grueso es. ¡Elige cualquier estilo que combine con tu presentación!
+Este fragmento te permite elegir el aspecto y el grosor del borde. ¡Elige cualquier estilo que combine con tu presentación!
 
 ## Paso 7: Guardar el libro de trabajo modificado
 

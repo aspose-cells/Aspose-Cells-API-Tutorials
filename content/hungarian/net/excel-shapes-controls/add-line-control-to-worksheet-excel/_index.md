@@ -19,7 +19,7 @@ Mielőtt elkezdené sorok hozzáadását az Excel-munkalapokhoz, íme néhány d
 Állítsuk be a kódolási környezetünket, mielőtt elkezdenénk néhány sort hozzáadni az Excel-munkalaphoz. Így importálhatja a szükséges Aspose.Cells csomagot a projektbe.
 ### Hozzon létre egy új projektet
 - Nyissa meg a Visual Studio-t.
-- Hozzon létre egy új konzolalkalmazás-projektet. Nevezheti, ahogy akarja – talán „ExcelLineDemo”-nak az egyértelműség kedvéért.
+- Hozzon létre egy új konzolalkalmazás-projektet. Bármilyen nevet adhat – talán „ExcelLineDemo”-nak az egyértelműség kedvéért.
 ### Telepítse az Aspose.Cells programot
 - Nyissa meg a NuGet Package Manager alkalmazást a Visual Studióban (`Tools` ->`NuGet Package Manager` ->`Manage NuGet Packages for Solution`).
 -  Keressen rá`Aspose.Cells` és telepítse. Ez a művelet hozzáadja a szükséges könyvtárakat a projekthez.
@@ -42,7 +42,7 @@ string dataDir = "Your Document Directory";
 ## 2. lépés: Hozza létre a könyvtárat
 Jó gyakorlat a címtár létezésének biztosítása. Ha nem, akkor a következő kóddal hozhatja létre:
 ```csharp
-//Hozzon létre könyvtárat, ha még nincs jelen.
+// Hozzon létre könyvtárat, ha még nincs jelen.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);

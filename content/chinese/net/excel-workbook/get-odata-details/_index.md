@@ -16,7 +16,7 @@ url: /zh/net/excel-workbook/get-odata-details/
 在深入研究代码之前，让我们确保您拥有完成本教程所需的一切。以下是您需要的内容：
 
 1. Visual Studio：确保已安装 Visual Studio。它是 .NET 开发的理想环境。
-2.  Aspose.Cells 库：从以下位置下载并安装 .NET 的 Aspose.Cells 库[Aspose 下载页面](https://releases.aspose.com/cells/net/)。您还可以尝试免费试用版[这里](https://releases.aspose.com/).
+2. Aspose.Cells 库：从以下位置下载并安装 .NET 的 Aspose.Cells 库[Aspose 下载页面](https://releases.aspose.com/cells/net/)。您还可以尝试免费试用版[这里](https://releases.aspose.com/).
 3. C# 基础知识：熟悉 C# 编程将帮助您更好地理解代码的细微差别。
 4. 示例 Excel 文件：对于本教程，我们将使用名为“ODataSample.xlsx”的 Excel 文件，该文件应存储在您的工作目录中。
 

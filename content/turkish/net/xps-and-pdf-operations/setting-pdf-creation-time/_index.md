@@ -15,7 +15,7 @@ Kodun ayrıntılarına girmeden önce, başlamak için ihtiyacınız olan her ş
 1. Visual Studio: Makinenizde Visual Studio'nun yüklü olduğundan emin olun. Bu sizin geliştirme ortamınız olacaktır.
 2.  .NET için Aspose.Cells: Aspose.Cells kitaplığını şu adresten indirin:[web sitesi](https://releases.aspose.com/cells/net/)Ayrıca, işlevselliğini test etmek için ücretsiz denemeye de başlayabilirsiniz.
 3. Temel C# Bilgisi: C# programlamaya aşina olmak, kod parçacıklarını daha iyi anlamanıza yardımcı olacaktır.
-4.  Excel Dosyası: Dönüştürmeye hazır bir Excel dosyanız olsun. Bu örnek için, adlı bir dosya kullanacağız`Book1.xlsx`.
+4. Excel Dosyası: Dönüştürmeye hazır bir Excel dosyanız olsun. Bu örnek için, adlı bir dosya kullanacağız`Book1.xlsx`.
 Artık ön koşulları tamamladığımıza göre, eğlenceli kısma geçebiliriz: Gerekli paketleri içe aktarmak ve kodu yazmak!
 ## Paketleri İçe Aktar
 Başlamak için, C# dosyanıza gerekli ad alanlarını içe aktarmanız gerekir. Bu, Aspose.Cells kütüphanesi tarafından sağlanan sınıflara ve yöntemlere erişmenizi sağladığı için önemlidir.
@@ -45,7 +45,7 @@ string dataDir = "Your Document Directory"; // Belge dizininizi belirtin
 string inputPath = dataDir + "Book1.xlsx"; // Excel dosyanıza giden yol
 Workbook workbook = new Workbook(inputPath); // Excel dosyasını yükleyin
 ```
- The`Workbook`sınıfı Excel dosyalarını yüklemek ve düzenlemek için kullanılır. Giriş yolunu geçirerek, uygulamaya hangi dosyayla çalışacağını söylersiniz.
+ The`Workbook` sınıfı Excel dosyalarını yüklemek ve düzenlemek için kullanılır. Giriş yolunu geçirerek, uygulamaya hangi dosyayla çalışacağını söylersiniz.
 ## Adım 3: PdfSaveOptions'ı Oluşturun
  Şimdi, bir örnek oluşturmanın zamanı geldi`PdfSaveOptions`Bu sınıf, oluşturma zamanı da dahil olmak üzere çalışma kitabınızı PDF olarak kaydetmek için çeşitli seçenekleri belirtmenize olanak tanır.
 ```csharp
@@ -56,7 +56,7 @@ options.CreatedTime = DateTime.Now; // Oluşturma zamanını şimdi ayarlayın
 ## Adım 4: Çalışma Kitabını PDF olarak kaydedin
 Son olarak, az önce tanımladığınız seçenekleri kullanarak çalışma kitabını PDF dosyası olarak kaydedeceksiniz.
 ```csharp
-workbook.Save(dataDir + "output.pdf", options); // PDF olarak kaydet
+workbook.Save(dataDir + "output.pdf", options); //PDF olarak kaydet
 ```
  Bu kod satırı çalışma kitabını alır ve belirtilen konuma PDF formatında kaydeder.`options` PDF meta verilerine oluşturulma zamanını dahil etmek için parametre geçirilir.
 

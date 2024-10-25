@@ -29,7 +29,7 @@ El primer paso es crear un directorio donde se guardarán los archivos de Excel.
 ```csharp
 // La ruta al directorio de documentos.
 string dataDir = "Your Document Directory";
-//Crear directorio si aún no está presente.
+// Crear directorio si aún no está presente.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);

@@ -15,11 +15,11 @@ Trong hướng dẫn này, chúng tôi sẽ hướng dẫn cách cấu hình li�
 
 Trước khi bắt đầu, hãy đảm bảo bạn có mọi thứ cần thiết. Nếu không có các điều kiện tiên quyết sau, quá trình sẽ không diễn ra suôn sẻ:
 
-1.  Thư viện Aspose.Cells cho .NET: Bạn cần cài đặt Aspose.Cells cho .NET trên máy của mình. Nếu bạn chưa tải xuống, hãy tải xuống từ[Trang tải xuống Aspose.Cells cho .NET](https://releases.aspose.com/cells/net/).
+1. Thư viện Aspose.Cells cho .NET: Bạn cần cài đặt Aspose.Cells cho .NET trên máy của mình. Nếu bạn chưa tải xuống, hãy tải xuống từ[Trang tải xuống Aspose.Cells cho .NET](https://releases.aspose.com/cells/net/).
 2. Môi trường phát triển: Sử dụng bất kỳ môi trường phát triển nào hỗ trợ .NET như Visual Studio.
 3. Kiến thức cơ bản về C#: Hướng dẫn này giả định rằng bạn đã có đôi chút hiểu biết về C# và .NET.
 4. Tệp Excel: Có một tệp Excel hiện có để làm việc. Trong ví dụ của chúng tôi, chúng tôi sẽ sử dụng tệp có tên là "sample-document-properties.xlsx".
-5. Giấy phép tạm thời: Nếu bạn không có giấy phép đầy đủ, bạn có thể xin cấp[giấy phép tạm thời ở đây](https://purchase.aspose.com/temporary-license/) để tránh những hạn chế về thao tác tập tin.
+5.  Giấy phép tạm thời: Nếu bạn không có giấy phép đầy đủ, bạn có thể xin cấp[giấy phép tạm thời ở đây](https://purchase.aspose.com/temporary-license/) để tránh những hạn chế về thao tác tập tin.
 
 ## Nhập gói
 
@@ -49,7 +49,7 @@ string dataDir = "Your Document Directory";
 Workbook workbook = new Workbook(dataDir + "sample-document-properties.xlsx");
 ```
 
--  Workbook workbook = new Workbook(): Dòng này tạo một Workbook mới`Workbook`đối tượng, là lớp chính được sử dụng để làm việc với các tệp Excel trong Aspose.Cells.
+-  Workbook workbook = new Workbook(): Dòng này tạo một Workbook mới`Workbook` đối tượng, là lớp chính được sử dụng để làm việc với các tệp Excel trong Aspose.Cells.
 - dataDir: Đây là nơi bạn chỉ định đường dẫn đến tệp Excel của mình. Thay thế "Your Document Directory" bằng đường dẫn thực tế trên máy của bạn.
 
 Hãy coi bước này như việc mở một cánh cửa—bạn đang truy cập vào tệp để có thể thực hiện những thay đổi cần thiết!
@@ -59,7 +59,7 @@ Hãy coi bước này như việc mở một cánh cửa—bạn đang truy cậ
 Sau khi tệp được tải, chúng ta cần truy cập vào các thuộc tính tài liệu tùy chỉnh của nó. Các thuộc tính này được lưu trữ trong một bộ sưu tập mà bạn có thể truy xuất và thao tác.
 
 ```csharp
-// Lấy danh sách tất cả các thuộc tính tài liệu tùy chỉnh của tệp Excel
+//Lấy danh sách tất cả các thuộc tính tài liệu tùy chỉnh của tệp Excel
 Aspose.Cells.Properties.CustomDocumentPropertyCollection customProperties = workbook.Worksheets.CustomDocumentProperties;
 ```
 
@@ -93,7 +93,7 @@ bool islinkedtocontent = customProperty1.IsLinkedToContent;
 ```
 
 - Thuộc tính tùy chỉnh["Chủ sở hữu"]: Chúng tôi đang lấy thuộc tính "Chủ sở hữu" theo tên để kiểm tra thông tin chi tiết của thuộc tính đó.
-- IsLinkedToContent: Giá trị boolean này trả về`true` nếu thuộc tính được liên kết thành công với nội dung.
+-  IsLinkedToContent: Giá trị boolean này trả về`true` nếu thuộc tính được liên kết thành công với nội dung.
 
 Ở giai đoạn này, nó giống như việc kiểm tra xem nhãn (thuộc tính) có được gắn đúng vào nội dung hay không. Bạn đang đảm bảo rằng mã của mình đã thực hiện đúng như mong đợi.
 

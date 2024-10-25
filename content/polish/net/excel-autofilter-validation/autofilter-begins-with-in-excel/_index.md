@@ -71,7 +71,7 @@ Teraz musimy uzyskać dostęp do konkretnego arkusza kalkulacyjnego, z którym c
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
-Wyjaśnienie:`Worksheets` kolekcja pozwala nam na dostęp do pojedynczych arkuszy. Używanie`[0]` odwołuje się do pierwszego arkusza kalkulacyjnego w pliku Excel, co jest ogólnie przyjętą praktyką w przypadku pracy z plikiem jednoarkuszowym.
+ Wyjaśnienie:`Worksheets` kolekcja pozwala nam na dostęp do pojedynczych arkuszy. Używanie`[0]` odwołuje się do pierwszego arkusza kalkulacyjnego w pliku Excel, co jest ogólnie przyjętą praktyką w przypadku pracy z plikiem jednoarkuszowym.
 
 ## Krok 4: Konfigurowanie Autofiltra
 
@@ -82,7 +82,7 @@ Tutaj zaczyna się magia! Utworzymy zakres AutoFiltru dla naszych danych:
 worksheet.AutoFilter.Range = "A1:A18";
 ```
 
-Wyjaśnienie:`AutoFilter.Range` właściwość pozwala określić, które wiersze mają być filtrowane. W tym przypadku filtrujemy wiersze w zakresie od A1 do A18, które, jak się zakłada, zawierają nasze dane.
+ Wyjaśnienie:`AutoFilter.Range` właściwość pozwala określić, które wiersze mają być filtrowane. W tym przypadku filtrujemy wiersze w zakresie od A1 do A18, które, jak się zakłada, zawierają nasze dane.
 
 ## Krok 5: Zastosuj warunek filtra
 
@@ -93,7 +93,7 @@ Następnym krokiem jest zdefiniowanie warunku filtru. Chcemy wyświetlić tylko 
 worksheet.AutoFilter.Custom(0, FilterOperatorType.BeginsWith, "Ba");
 ```
 
-Wyjaśnienie:`Custom` Metoda definiuje naszą logikę filtrowania. Pierwszy argument (`0` ) oznacza, że filtrujemy na podstawie pierwszej kolumny (A), a`FilterOperatorType.BeginsWith`określa nasz warunek wyszukiwania wierszy zaczynających się od „Ba”.
+ Wyjaśnienie:`Custom` Metoda definiuje naszą logikę filtrowania. Pierwszy argument (`0` ) oznacza, że filtrujemy na podstawie pierwszej kolumny (A), a`FilterOperatorType.BeginsWith` określa nasz warunek wyszukiwania wierszy zaczynających się od „Ba”.
 
 ## Krok 6: Odśwież filtr
 
@@ -115,7 +115,7 @@ Teraz pora zapisać wprowadzone zmiany:
 workbook.Save(outputDir + "outSourseSampleCountryNames.xlsx");
 ```
 
-Wyjaśnienie:`Save` Metoda zapisuje zmodyfikowany skoroszyt z powrotem do określonej ścieżki wyjściowej. Jest to zapisanie zdefiniowanych filtrów do nowego pliku, tak aby oryginalne dane pozostały nienaruszone.
+ Wyjaśnienie:`Save` Metoda zapisuje zmodyfikowany skoroszyt z powrotem do określonej ścieżki wyjściowej. Jest to zapisanie zdefiniowanych filtrów do nowego pliku, tak aby oryginalne dane pozostały nienaruszone.
 
 ## Krok 8: Potwierdzenie wyników
 
@@ -129,7 +129,7 @@ Wyjaśnienie: Ten prosty wiersz wyświetla na konsoli komunikat potwierdzający,
 
 ## Wniosek
 
-W świecie, w którym zarządzanie danymi może wydawać się przytłaczające, opanowanie funkcji, takich jak AutoFiltr w programie Excel za pośrednictwem Aspose.Cells dla .NET, umożliwia wydajne i skuteczne manipulowanie danymi. Nauczyłeś się filtrować wiersze programu Excel zaczynające się od „Ba”, wdrażając tę metodę krok po kroku. Dzięki praktyce będziesz w stanie dostosować tę metodę do różnych potrzeb filtrowania danych w swoich bieżących projektach.
+świecie, w którym zarządzanie danymi może wydawać się przytłaczające, opanowanie funkcji, takich jak AutoFiltr w programie Excel za pośrednictwem Aspose.Cells dla .NET, umożliwia wydajne i skuteczne manipulowanie danymi. Nauczyłeś się filtrować wiersze programu Excel zaczynające się od „Ba”, wdrażając tę metodę krok po kroku. Dzięki praktyce będziesz w stanie dostosować tę metodę do różnych potrzeb filtrowania danych w swoich bieżących projektach.
 
 ## Najczęściej zadawane pytania
 

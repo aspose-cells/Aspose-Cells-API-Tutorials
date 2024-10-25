@@ -91,9 +91,9 @@ System.Console.WriteLine("GetShapeConnectionPoints executed successfully.");
 ### 워크시트에 있는 모든 도형의 연결점을 검색할 수 있나요?
 네, Aspose.Cells를 사용하면 지원하는 모든 도형에 대한 연결점을 검색할 수 있습니다. 워크시트에서 도형 컬렉션을 반복하기만 하면 됩니다.
 ### Aspose.Cells를 사용하려면 라이선스가 필요한가요?
-네, 무료로 사용해 볼 수는 있지만 전체 기능을 사용하려면 라이선스가 필요합니다.[여기서 라이센스를 구매하세요](https://purchase.aspose.com/buy) 또는 얻을[임시 면허](https://purchase.aspose.com/temporary-license/).
+네, 무료로 사용해 볼 수는 있지만 전체 기능을 사용하려면 라이선스가 필요합니다.[여기서 라이센스를 구매하세요](https://purchase.aspose.com/buy)또는 얻을[임시 면허](https://purchase.aspose.com/temporary-license/).
 ### Aspose.Cells에서 다양한 유형의 모양을 추가하려면 어떻게 해야 하나요?
- 당신은 사용할 수 있습니다`Add` 직사각형, 타원 등의 모양에 대한 방법입니다. 각 모양에는 사용자 정의할 수 있는 특정 매개변수가 있습니다.
+당신은 사용할 수 있습니다`Add` 직사각형, 타원 등의 모양에 대한 방법입니다. 각 모양에는 사용자 정의할 수 있는 특정 매개변수가 있습니다.
 ### 새 Excel 파일을 만드는 대신 기존 Excel 파일을 로드하려면 어떻게 해야 합니까?
  기존 파일을 로드하려면 파일 경로를 전달하세요.`Workbook` 생성자는 다음과 같습니다.  
 ```csharp

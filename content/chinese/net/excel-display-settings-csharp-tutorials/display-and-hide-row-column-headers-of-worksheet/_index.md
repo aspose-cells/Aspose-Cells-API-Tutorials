@@ -115,7 +115,7 @@ fstream.Close();
 Aspose.Cells 是一个功能强大的.NET 库，用于管理 Excel 电子表格，使开发人员能够以编程方式创建、操作和转换 Excel 文件。
 
 ### 我可以隐藏多个工作表中的标题吗？  
-是的，您可以循环遍历工作簿中的每个工作表并设置`IsRowColumnHeadersVisible`到`false`每个。
+是的，您可以循环遍历工作簿中的每个工作表并设置`IsRowColumnHeadersVisible`到`false`对于每一个。
 
 ### 我需要购买 Aspose.Cells 的许可证吗？  
 虽然您可以使用免费试用版，但持续的商业使用需要许可证。您可以找到购买选项[这里](https://purchase.aspose.com/buy).

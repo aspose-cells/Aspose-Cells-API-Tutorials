@@ -53,7 +53,7 @@ PivotTable pivotTable = pivotTables.get(index);
 
 ## Pivot tábla mezők meghatározása
 
-Az adatelemzés hatékony elvégzéséhez meg kell határoznunk, hogy mely mezőket vegyük fel a kimutatástáblázatunkba. Ezek a mezők lehetnek az importált adataink oszlopai.
+Az adatelemzés hatékony végrehajtásához meg kell határoznunk, hogy mely mezőket vegyük fel a kimutatástáblázatunkba. Ezek a mezők lehetnek az importált adataink oszlopai.
 
 ```java
 // Java kód a pivot tábla mezőinek meghatározásához

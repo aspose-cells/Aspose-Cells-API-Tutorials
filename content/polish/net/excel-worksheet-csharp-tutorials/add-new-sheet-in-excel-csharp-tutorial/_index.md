@@ -49,7 +49,7 @@ Na początek musisz się upewnić, że masz bezpieczne miejsce do przechowywania
 ```csharp
 // Ścieżka do katalogu dokumentów.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-//Utwórz katalog, jeśli jeszcze go nie ma.
+// Utwórz katalog, jeśli jeszcze go nie ma.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -95,7 +95,7 @@ worksheet.Name = "My Worksheet";
 
 ## Krok 5: Zapisywanie pliku Excel
 
-Jesteśmy na ostatniej prostej! Czas uratować twoje arcydzieło.
+Jesteśmy już na ostatniej prostej! Czas uratować twoje arcydzieło.
 
 ```csharp
 // Zapisywanie pliku Excel

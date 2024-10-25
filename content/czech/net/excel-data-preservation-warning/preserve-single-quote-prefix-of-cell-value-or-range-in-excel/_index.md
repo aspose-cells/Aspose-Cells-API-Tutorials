@@ -91,7 +91,7 @@ Style st = cell.GetStyle();
 Console.WriteLine("Quote Prefix of Cell A1: " + st.QuotePrefix);
 ```
 
-Zde získáme přístup k informacím o stylu buňky. Zpočátku by předpona uvozovky měla být nepravdivá, protože neexistuje jediná uvozovka.
+Zde máme přístup k informacím o stylu buňky. Zpočátku by předpona uvozovky měla být nepravdivá, protože neexistuje jediná uvozovka.
 
 ## Krok 5: Přidejte předponu jednoduché nabídky
 
@@ -161,7 +161,7 @@ flag.QuotePrefix = true;
 rng.ApplyStyle(st, flag);
 ```
 
- V tomto kole se nastavujeme`flag.QuotePrefix = true`, což znamená, že chceme aktualizovat předponu nabídky buňky.
+ tomto kole se nastavujeme`flag.QuotePrefix = true`, což znamená, že chceme aktualizovat předponu nabídky buňky.
 
 ## Krok 9: Závěrečná kontrola předpony nabídky
 

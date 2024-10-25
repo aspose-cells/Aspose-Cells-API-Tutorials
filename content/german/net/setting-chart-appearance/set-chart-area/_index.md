@@ -17,7 +17,7 @@ Bevor wir uns in die Details der Diagrammerstellung stürzen, stellen wir sicher
 
 1. Visual Studio: Stellen Sie sicher, dass Visual Studio auf Ihrem Computer installiert ist. Es ist zum Schreiben und Ausführen von .NET-Code erforderlich.
 2. .NET Framework: Diese Anleitung funktioniert am besten mit .NET Framework oder .NET Core. Stellen Sie sicher, dass Sie die erforderliche Version installiert haben (4.5 oder höher).
-3.  Aspose.Cells: Sie benötigen die Aspose.Cells-Bibliothek. Sie können sie herunterladen von[Hier](https://releases.aspose.com/cells/net/).
+3. Aspose.Cells: Sie benötigen die Aspose.Cells-Bibliothek. Sie können sie herunterladen von[Hier](https://releases.aspose.com/cells/net/).
 4. Grundlegende C#-Kenntnisse: Ein grundlegendes Verständnis der C#-Programmierung hilft Ihnen, die Schritte besser zu verstehen. Keine Sorge, wenn Sie kein Profi sind – ich erkläre Ihnen alles!
 
 ## Pakete importieren
@@ -174,4 +174,4 @@ Ja! Aspose.Cells verfügt über Bibliotheken für verschiedene Plattformen, daru
  Sie können Hilfe und Unterstützung von der Aspose.Cells-Community und den verfügbaren Foren erhalten[Hier](https://forum.aspose.com/c/cells/9).
 
 ### Wie kann ich eine Lizenz erwerben?
- Sie können eine Lizenz direkt von der Aspose-Website erwerben[Hier](https://purchase.aspose.com/buy).
+Sie können eine Lizenz direkt von der Aspose-Website erwerben[Hier](https://purchase.aspose.com/buy).

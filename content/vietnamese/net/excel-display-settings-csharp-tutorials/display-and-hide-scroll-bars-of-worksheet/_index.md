@@ -56,7 +56,7 @@ Tại đây, bạn tạo một luồng tệp để đọc tệp Excel.
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
   
- Các`FileStream` lớp cho phép bạn đọc và ghi vào tệp. Trong trường hợp này, chúng tôi đang mở tệp Excel ở chế độ đọc.
+ Các`FileStream`lớp cho phép bạn đọc và ghi vào tệp. Trong trường hợp này, chúng tôi đang mở tệp Excel ở chế độ đọc.
 
 ## Bước 3: Khởi tạo một đối tượng Workbook
 
@@ -67,7 +67,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 Workbook workbook = new Workbook(fstream);
 ```
   
- Cái này`Workbook`Đối tượng hiện lưu trữ toàn bộ dữ liệu và cài đặt của tệp Excel, cho phép thao tác sau này trong quá trình thực hiện.
+ Cái này`Workbook` Đối tượng hiện lưu trữ toàn bộ dữ liệu và cài đặt của tệp Excel, cho phép thao tác sau này trong quá trình thực hiện.
 
 ## Bước 4: Ẩn thanh cuộn dọc
 
@@ -132,4 +132,4 @@ Bạn có thể làm việc với nhiều định dạng Excel khác nhau, bao g
  Kiểm tra[Tài liệu Aspose.Cells](https://reference.aspose.com/cells/net/) để biết thêm ví dụ và hướng dẫn.
 
 ### Tôi phải làm sao nếu gặp sự cố khi sử dụng Aspose.Cells?  
- Bạn có thể tìm kiếm sự trợ giúp hoặc báo cáo sự cố trong diễn đàn hỗ trợ Aspose[đây](https://forum.aspose.com/c/cells/9).
+Bạn có thể tìm kiếm sự trợ giúp hoặc báo cáo sự cố trong diễn đàn hỗ trợ Aspose[đây](https://forum.aspose.com/c/cells/9).

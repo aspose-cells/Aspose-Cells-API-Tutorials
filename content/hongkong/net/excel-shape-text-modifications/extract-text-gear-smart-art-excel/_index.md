@@ -10,7 +10,7 @@ url: /zh-hant/net/excel-shape-text-modifications/extract-text-gear-smart-art-exc
 ## 介紹
 使用 Excel 時，您可能會遇到 SmartArt 圖形，它們有助於以視覺上吸引人的方式傳達訊息。在這些圖形中，齒輪型 SmartArt 因其分層和定向流程而受到喜愛，通常用於專案管理或系統建模。但是，如果您需要以程式設計方式從這些形狀中提取文字怎麼辦？這就是 Aspose.Cells for .NET 派上用場的地方！在這篇文章中，我們將引導您逐步了解如何使用 Aspose.Cells for .NET 從 Excel 中的齒輪型 SmartArt 形狀中提取文字。
 ## 先決條件
-在我們深入研究之前，您需要滿足一些基本的先決條件。不用擔心;這很簡單，我將引導您完成它。
+在我們深入研究之前，您需要滿足一些基本的先決條件。不用擔心;這很簡單，我將指導您完成它。
 ### .NET環境
 確保您的電腦上設定了 .NET 開發環境。這可以是 Visual Studio 或您選擇的任何支援 .NET 開發的 IDE。
 ### Aspose.Cells for .NET
@@ -101,7 +101,7 @@ Console.WriteLine("ExtractTextFromGearTypeSmartArtShape executed successfully.")
 ```
 這樣，您的提取就完成了，您應該在控制台中看到文字輸出！
 ## 結論
-恭喜！您剛剛學習如何使用 Aspose.Cells for .NET 從 Excel 中的齒輪型 SmartArt 形狀中提取文字。這種方便的技術為依賴可視化資料表示的自動化報告或文件打開了大門。無論您是經驗豐富的開發人員還是新手，從 SmartArt 控制和提取資訊都可以簡化您的工作流程並提高效率。別忘了探索細節[Aspose.Cells 文檔](https://reference.aspose.com/cells/net/)以獲得更多功能。
+恭喜！您剛剛學習如何使用 Aspose.Cells for .NET 從 Excel 中的齒輪型 SmartArt 形狀中提取文字。這種方便的技術為依賴可視化資料表示的自動化報告或文件打開了大門。無論您是經驗豐富的開發人員還是新手，從 SmartArt 控制和提取資訊都可以簡化您的工作流程並提高您的效率。別忘了探索細節[Aspose.Cells 文檔](https://reference.aspose.com/cells/net/)以獲得更多功能。
 ## 常見問題解答
 ### 什麼是 Aspose.Cells？
 Aspose.Cells 是一個 .NET 函式庫，可讓開發人員輕鬆建立和操作 Excel 檔案。

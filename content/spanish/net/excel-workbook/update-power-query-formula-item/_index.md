@@ -62,7 +62,7 @@ Workbook workbook = new Workbook(SourceDir + "SamplePowerQueryFormula.xlsx");
 
 ## Paso 3: Acceda al Mashup de datos
 
-continuación, accederemos a las fórmulas de Power Query almacenadas en el Mashup de datos del libro de trabajo.
+A continuación, accederemos a las fórmulas de Power Query almacenadas en el Mashup de datos del libro de trabajo.
 
 ```csharp
 DataMashup mashupData = workbook.DataMashup;
@@ -87,7 +87,7 @@ foreach (PowerQueryFormula formula in mashupData.PowerQueryFormulas)
 ```
 
 -  Hacemos un bucle a través de cada uno`PowerQueryFormula` en`mashupData`.
--  Dentro de ese bucle, nos sumergimos en cada uno de ellos.`PowerQueryFormulaItem`.
+- Dentro de ese bucle, nos sumergimos en cada uno de ellos.`PowerQueryFormulaItem`.
 - Comprobamos si el nombre del elemento coincide con "Fuente". Si es así, actualizamos su valor para vincularlo a nuestro nuevo archivo fuente.
 
 Esto es similar a encontrar la página correcta en un manual y luego realizar las actualizaciones necesarias: es un proceso sencillo y meticuloso.
@@ -101,7 +101,7 @@ Después de realizar las actualizaciones, es hora de guardar nuestros cambios.
 workbook.Save(outputDir + "SamplePowerQueryFormula_out.xlsx");
 Console.WriteLine("UpdatePowerQueryFormulaItem executed successfully.");
 ```
- El`Save`El método escribe el libro de trabajo actualizado en el directorio de salida especificado. ¡Es como sellar tus ediciones en una nueva versión del manual, lista para que otros la usen!
+ El`Save` El método escribe el libro de trabajo actualizado en el directorio de salida especificado. ¡Es como sellar tus ediciones en una nueva versión del manual, lista para que otros la usen!
 
 ## Conclusión
 
@@ -122,4 +122,4 @@ Puede trabajar con .xlsx, .xls, .xlsm y varios otros formatos de Excel utilizand
  Sí, puedes descargar una versión de prueba gratuita desde[Página de lanzamiento de Aspose Cells](https://releases.aspose.com/).
 
 ### ¿Cómo puedo obtener soporte para Aspose.Cells?
- Puede acceder al soporte a través de[Foro de Aspose](https://forum.aspose.com/c/cells/9)donde podrás hacer preguntas y encontrar respuestas de la comunidad y del equipo de Aspose.
+ Puede acceder al soporte a través de[Foro de Aspose](https://forum.aspose.com/c/cells/9), donde podrás hacer preguntas y encontrar respuestas de la comunidad y del equipo de Aspose.

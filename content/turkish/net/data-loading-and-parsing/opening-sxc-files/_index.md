@@ -32,7 +32,7 @@ Artık Excel dosyalarıyla zahmetsizce çalışmanızı sağlayan paket hazır. 
 2. Tercihinize göre ASP.NET Core Web Uygulaması veya Konsol Uygulaması'nı seçin.
 3.  Projenize bir isim verin (şuna benzer bir şey)`SXCFileOpener`) ve Oluştur'a tıklayın.
 4. Bu kurulum sırasında .NET framework'ünün seçili olduğundan emin olun.
-5.  Proje yüklendiğinde varsayılan bir`.cs` Kodumuzu ekleyebileceğimiz dosya.
+5. Proje yüklendiğinde varsayılan bir`.cs` Kodumuzu ekleyebileceğimiz dosya.
 ## Adım 2: Aspose.Cells Kütüphanesini Ekleme
 Sonra, Aspose.Cells kütüphanesini projemize ekleyeceğiz. İşte nasıl:
 1. Çözüm Gezgini'nde projenize sağ tıklayıp NuGet Paketlerini Yönet'i seçerek NuGet Paket Yöneticisi'ni açın.
@@ -48,7 +48,7 @@ string sourceDir = "Your Document Directory";
 ```
 2.  Bu dizine SXC örnek dosyanızı ekleyin (örneğin,`SampleSXC.sxc`) test için.
 ## Adım 4: Bir Çalışma Kitabı Nesnesi Oluşturma
- Kaynak dizin ayarlandıktan sonra, bir tane oluşturmanın zamanı geldi`Workbook` SXC dosyamızı yüklemek için nesne:
+ Kaynak dizin ayarlandıktan sonra, bir tane oluşturmanın zamanı geldi`Workbook`SXC dosyamızı yüklemek için nesne:
 ```csharp
 Workbook workbook = new Workbook(sourceDir + "SampleSXC.sxc");
 ```

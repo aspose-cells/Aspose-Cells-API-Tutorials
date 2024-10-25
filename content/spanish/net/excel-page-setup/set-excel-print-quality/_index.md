@@ -77,7 +77,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 worksheet.PageSetup.PrintQuality = 180;
 ```
 
-Explicación: El`PrintQuality` La propiedad se puede configurar con cualquier valor, normalmente entre 75 y 600 ppp (puntos por pulgada). En este caso, la configuramos en 180 ppp, lo cual es ideal para lograr un buen equilibrio entre calidad y tamaño de archivo.
+ Explicación: El`PrintQuality` La propiedad se puede configurar con cualquier valor, normalmente entre 75 y 600 ppp (puntos por pulgada). En este caso, la configuramos en 180 ppp, lo cual es ideal para lograr un buen equilibrio entre calidad y tamaño de archivo.
 
 ## Paso 5: Guardar el libro de trabajo
 

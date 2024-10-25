@@ -15,11 +15,11 @@ Pokud se ponoříte do automatizace a manipulace s Excelem pomocí .NET, možná
 
 Představte si, že potřebujete zpracovávat obrovské množství dat v Excelu. Možná si říkáte: "Nebude to trvat věčnost?" Zadejte Aspose.Cells: je to jako mít superschopnost pro manipulaci s daty. Tato knihovna vám neumožňuje pouze upravovat tabulky; umožňuje vám chránit data a zajišťuje, že klíčové informace zůstanou nedotčeny. Když chráníte konkrétní řádky nebo sloupce, je to, jako byste kolem svých důležitých postav postavili pevnost a dovnitř pustili jen ty správné lidi. 
 
- Tento proces jsme pro vás zjednodušili pomocí různých návodů krok za krokem. Podívejte se například na náš návod, jak na to[Povolit uživatelům upravovat rozsahy v listu aplikace Excel](./allow-user-to-edit-ranges-in-excel-worksheet/). Naučíte se, jak bez problémů umožnit uživatelům upravovat konkrétní části tabulky, aniž by došlo k ohrožení celého dokumentu. 
+Tento proces jsme pro vás zjednodušili pomocí různých návodů krok za krokem. Podívejte se například na náš návod, jak na to[Povolit uživatelům upravovat rozsahy v listu aplikace Excel](./allow-user-to-edit-ranges-in-excel-worksheet/). Naučíte se, jak bez problémů umožnit uživatelům upravovat konkrétní části tabulky, aniž by došlo k ohrožení celého dokumentu. 
 
 ## Návody na míru pro vás
 
-Ale to není všechno! Ochrana vašich dat je stejně důležitá. Nenechal bys dveře dokořán, že? Podobně vám naši průvodci nabízejí nástroje pro uzamčení jakékoli části vašeho listu Excel. Podívejte se na tutoriál na[Ochrana specifických buněk](./protect-specific-cells-in-a-excel-worksheet/) se dozvíte, jak efektivně chránit svá data. Provedeme vás každým krokem vaší cesty, takže to bude jednoduché i pro ty, kteří jsou v programování nováčci.
+ Ale to není všechno! Ochrana vašich dat je stejně důležitá. Nenechal bys dveře dokořán, že? Podobně vám naši průvodci nabízejí nástroje pro uzamčení jakékoli části vašeho listu Excel. Podívejte se na tutoriál na[Ochrana specifických buněk](./protect-specific-cells-in-a-excel-worksheet/) se dozvíte, jak efektivně chránit svá data. Provedeme vás každým krokem vaší cesty, takže to bude jednoduché i pro ty, kteří jsou v programování nováčci.
 
 Jistě! Pojďme si rozvést význam těchto výukových programů ve vaší snaze o zvládnutí Excelu a jak mohou zapadnout do vašeho pracovního postupu vývoje.
 
@@ -27,7 +27,7 @@ Jistě! Pojďme si rozvést význam těchto výukových programů ve vaší snaz
 
 Používání Aspose.Cells pro .NET není jen o naučení se několika příkazů; jde o integraci výkonných funkcí do vašich aplikací. Jako vývojáři neustále hledáme nástroje, které mohou zvýšit naši produktivitu a efektivitu. Přemýšlejte o tom: kolik času trávíte správou a ruční manipulací se soubory Excel? Co kdybyste mohli tento proces automatizovat pomocí několika řádků kódu? To je kouzlo, které Aspose.Cells přináší na stůl.
 
- Pojďme se ponořit hlouběji do konkrétních tutoriálů. Pokud se například obáváte o integritu dat v prostředí pro spolupráci, výukový program na[Ochrana sloupců v listu aplikace Excel](./protect-column-in-excel-worksheet/) může změnit hru. Provede vás tím, že zajistí, že důležité sloupce zůstanou nedotčeny, a zároveň umožní uživatelům volně pracovat se svými daty v jiných oblastech. Pomocí snadno pochopitelných kroků můžete tyto funkce rychle implementovat do svých aplikací.
+ Pojďme se ponořit hlouběji do konkrétních tutoriálů. Pokud se například zajímáte o integritu dat v prostředí pro spolupráci, výukový program na[Ochrana sloupců v listu aplikace Excel](./protect-column-in-excel-worksheet/) může změnit hru. Provede vás tím, že zajistí, že důležité sloupce zůstanou nedotčeny, a zároveň umožní uživatelům volně pracovat se svými daty v jiných oblastech. Pomocí snadno pochopitelných kroků můžete tyto funkce rychle implementovat do svých aplikací.
 
 ## Učte se praxí: Praktické příklady 
 
@@ -50,4 +50,4 @@ Jedním z nejlepších způsobů, jak porozumět jakékoli technologii, je kopat
 | [Chránit řádek v listu aplikace Excel](./protect-row-in-excel-worksheet/) | V tomto tutoriálu zjistíte, jak chránit řádky tabulky Excel pomocí Aspose.Cells for .NET. Výukový program krok za krokem v C#. |  
 | [Chraňte konkrétní buňky v listu aplikace Excel](./protect-specific-cells-in-a-excel-worksheet/) | V tomto podrobném návodu se dozvíte, jak chránit konkrétní buňky v listu aplikace Excel pomocí Aspose.Cells for .NET. |  
 | [Chránit konkrétní sloupec v listu aplikace Excel](./protect-specific-column-in-excel-worksheet/) | Naučte se efektivně chránit konkrétní sloupce v Excelu pomocí Aspose.Cells pro .NET a zajistit, aby vaše data zůstala bezpečná a neměnná. |  
-| [Chránit konkrétní řádek v listu aplikace Excel](./protect-specific-row-in-excel-worksheet/) | Naučte se chránit konkrétní řádky v listech aplikace Excel pomocí Aspose.Cells for .NET. Průvodce krok za krokem šitý na míru vývojářům. |  
+| [Chránit konkrétní řádek v listu aplikace Excel](./protect-specific-row-in-excel-worksheet/) | Naučte se chránit konkrétní řádky v listech aplikace Excel pomocí Aspose.Cells for .NET. Průvodce krok za krokem přizpůsobený vývojářům. |  

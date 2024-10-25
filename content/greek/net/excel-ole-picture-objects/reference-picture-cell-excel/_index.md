@@ -2,7 +2,7 @@
 title: Κελλί εικόνας αναφοράς στο Excel
 linktitle: Κελλί εικόνας αναφοράς στο Excel
 second_title: Aspose.Cells .NET Excel Processing API
-description: Μάθετε πώς να αναφέρετε ένα κελί εικόνας στο Excel χρησιμοποιώντας το Aspose.Cells για .NET με αυτό το βήμα προς βήμα εκμάθηση. Βελτιώστε τα υπολογιστικά φύλλα σας.
+description: Μάθετε πώς να αναφέρετε ένα κελί εικόνας στο Excel χρησιμοποιώντας το Aspose.Cells για .NET με αυτόν τον αναλυτικό οδηγό. Βελτιώστε τα υπολογιστικά φύλλα σας.
 type: docs
 weight: 15
 url: /el/net/excel-ole-picture-objects/reference-picture-cell-excel/

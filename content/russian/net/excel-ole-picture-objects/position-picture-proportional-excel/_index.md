@@ -40,7 +40,7 @@ using Aspose.Cells;
 Прежде всего, убедитесь, что у вас есть назначенная папка для ваших документов. Вот как создать каталог, если его нет:
 ```csharp
 string dataDir = "Your Document Directory";
-//Создайте каталог, если его еще нет.
+// Создайте каталог, если его еще нет.
 bool isExists = System.IO.Directory.Exists(dataDir);
 if (!isExists)
     System.IO.Directory.CreateDirectory(dataDir);

@@ -98,7 +98,7 @@ worksheet.Cells["C4"].PutValue("Y2");
 int chartIndex = worksheet.Charts.Add(Aspose.Cells.Charts.ChartType.Column, 5, 0, 15, 5);
 ```
 
-这行代码在工作表内的特定位置创建柱形图。将此步骤视为勾勒绘画轮廓 - 它为下一步要填写的内容设置了框架。
+这行代码在工作表的特定位置创建柱形图。将此步骤视为勾勒绘画轮廓 - 它为下一步要填写的内容设置了框架。
 
 ## 步骤 7：访问新添加的图表
 

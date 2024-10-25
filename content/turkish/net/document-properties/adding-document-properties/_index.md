@@ -68,6 +68,6 @@ Farklı tipteki mülklerle oynamaktan çekinmeyin ve Aspose.Cells'in sunduğu t�
 ### Aspose.Cells'i kullanmak ücretsiz mi?
  Aspose.Cells ücretsiz deneme sunar. Tüm özellikler için satın alma gereklidir. Şuraya göz atın:[fiyatlandırma seçenekleri burada](https://purchase.aspose.com/buy).
 ### Aspose.Cells dokümanlarını nerede bulabilirim?
- Kapsamlı dokümanları bulabilirsiniz[Burada](https://reference.aspose.com/cells/net/).
+Kapsamlı dokümanları bulabilirsiniz[Burada](https://reference.aspose.com/cells/net/).
 ### Aspose.Cells'i kullanırken yardıma ihtiyacım olursa ne yapmalıyım?
  Ziyaret edebilirsiniz[Aspose destek forumu](https://forum.aspose.com/c/cells/9) Topluluklarından ve destek ekibinden yardım talep edin.

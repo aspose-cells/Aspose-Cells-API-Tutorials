@@ -68,7 +68,7 @@ Po załadowaniu skoroszytu możesz uzyskać dostęp do jego połączeń zewnętr
 Aspose.Cells.ExternalConnections.DBConnection dbCon = wb.DataConnections[0] as Aspose.Cells.ExternalConnections.DBConnection;
 ```
 
- Tutaj,`DataConnections[0]`odnosi się do pierwszego połączenia w skoroszycie. Rzucamy je jako`DBConnection` wpisz w celu dalszej manipulacji.
+ Tutaj,`DataConnections[0]` odnosi się do pierwszego połączenia w skoroszycie. Rzucamy je jako`DBConnection` wpisz w celu dalszej manipulacji.
 
 ## Krok 4: Wyodrębnij informacje o połączeniu
 

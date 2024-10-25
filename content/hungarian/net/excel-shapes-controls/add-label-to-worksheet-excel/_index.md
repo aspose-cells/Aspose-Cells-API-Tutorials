@@ -83,7 +83,7 @@ workbook.Save(dataDir + "book1.out.xls");
  Ez a parancs a munkafüzetet a kijelölt könyvtárba menti a fájlnévvel`book1.out.xls`. Megnyithatja ezt a fájlt Excelben, és látni fogja a címkét működés közben!
 
 ## Következtetés
-És megvan! Címke hozzáadása egy Excel munkalaphoz az Aspose.Cells for .NET használatával egyszerű folyamat. Akár adatokat címkéz, akár megjegyzéseket ad hozzá, akár utasításokat ad, a címkék hatékony eszközt jelenthetnek az Excel-fájlok informatívabbá és felhasználóbarátabbá tételéhez. Az alábbi lépések követésével dinamikus Excel-munkafüzeteket hozhat létre programozottan, és testreszabhatja azokat az igényeinek megfelelően.
+És megvan! Címke hozzáadása egy Excel munkalaphoz az Aspose.Cells for .NET használatával egyszerű folyamat. Akár adatokat címkéz, akár megjegyzéseket ad hozzá, akár utasításokat ad, a címkék hatékony eszközt jelenthetnek az Excel-fájlok informatívabbá és felhasználóbarátabbá tételéhez. Az alábbi lépések követésével dinamikus Excel-munkafüzeteket hozhat létre programozottan, és testreszabhatja őket az igényeinek megfelelően.
 
 ## GYIK
 ### Mi az Aspose.Cells a .NET számára?

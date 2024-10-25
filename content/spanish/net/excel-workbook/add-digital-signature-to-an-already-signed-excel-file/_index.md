@@ -16,7 +16,7 @@ En el mundo digital actual, proteger los documentos es más importante que nunca
 Antes de adentrarnos en los detalles de la codificación, hay algunas cosas que debes tener en cuenta:
 
 1.  Aspose.Cells para .NET: Asegúrese de tener la biblioteca Aspose.Cells instalada en su proyecto .NET. Puede descargarla desde el sitio web[sitio](https://releases.aspose.com/cells/net/).
-2.  Archivo de certificado: necesitará un archivo de certificado válido (normalmente un`.pfx` archivo) que contiene su certificado digital. Asegúrese de conocer la contraseña de este archivo.
+2.  Archivo de certificado: necesitará un archivo de certificado válido (normalmente un`.pfx`archivo) que contiene su certificado digital. Asegúrese de conocer la contraseña de este archivo.
 3. Entorno de desarrollo: configure su entorno de desarrollo con Visual Studio o cualquier otro IDE que admita .NET.
 4. Conocimientos básicos de C#: estar familiarizado con la programación en C# le ayudará a seguir el proceso sin problemas.
 5. Archivos de muestra: tenga un archivo de Excel de muestra que ya esté firmado digitalmente. Este será el archivo al que agregará una nueva firma.
@@ -51,7 +51,7 @@ En este paso, utilizamos un método para obtener las rutas de los directorios de
 
 ## Paso 2: Cargue el libro de trabajo ya firmado
 
- continuación, deberá cargar el libro de Excel que desea modificar. Esto se hace creando una instancia de la`Workbook` clase y pasando la ruta del archivo firmado.
+ A continuación, deberá cargar el libro de Excel que desea modificar. Esto se hace creando una instancia de la`Workbook` clase y pasando la ruta del archivo firmado.
 
 ```csharp
 // Cargue el libro de trabajo que ya está firmado digitalmente
@@ -84,7 +84,7 @@ string password = "aspose";
 System.Security.Cryptography.X509Certificates.X509Certificate2 certificate = new System.Security.Cryptography.X509Certificates.X509Certificate2(certFileName, password);
 ```
 
- Asegúrese de reemplazar`AsposeDemo.pfx` y la contraseña con el nombre de archivo de su certificado y contraseña reales.
+ Asegúrese de reemplazar`AsposeDemo.pfx` la contraseña con el nombre de archivo de su certificado y contraseña reales.
 
 ## Paso 5: Crear la firma digital
 
@@ -113,7 +113,7 @@ Al ejecutar esta línea, estás adjuntando efectivamente la nueva firma digital 
 Por último, querrás guardar el libro de trabajo modificado en tu directorio de salida y liberar cualquier recurso que estés utilizando.
 
 ```csharp
-// Guarde el libro de trabajo y deséchelo.
+//Guarde el libro de trabajo y deséchelo.
 workbook.Save(outputDir + "outputDigitallySignedByCells.xlsx");
 workbook.Dispose();
 ```

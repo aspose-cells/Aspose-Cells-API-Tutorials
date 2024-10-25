@@ -74,7 +74,7 @@ worksheet.PageSetup.FitToPagesWide = 1;
 ```
 
 - `FitToPagesTall` określa liczbę stron, jakie będzie zajmował arkusz w pionie.
-- `FitToPagesWide` definiuje poziome ustawienie strony. Ustawienie obu na`1`oznacza, że Twoja treść zmieści się na jednej stronie, przekształcając Twój dokument w udoskonalone dzieło sztuki.
+- `FitToPagesWide` definiuje poziome ustawienie strony. Ustawienie obu na`1` oznacza, że Twoja treść zmieści się na jednej stronie, przekształcając Twój dokument w udoskonalone dzieło sztuki.
 
 ## Krok 3: Zapisz swój skoroszyt
 
@@ -97,7 +97,7 @@ I masz to! Nauczyłeś się, jak wykorzystać opcje dopasowania do stron program
 Aspose.Cells to solidna biblioteka .NET służąca do programistycznego zarządzania plikami Excel, umożliwiająca programistom łatwe tworzenie i edytowanie arkuszy kalkulacyjnych.
 
 ### Czy mogę wypróbować Aspose.Cells za darmo?
-Tak! Możesz zapisać się na bezpłatny okres próbny[Tutaj](https://releases.aspose.com/).
+ Tak! Możesz zapisać się na bezpłatny okres próbny[Tutaj](https://releases.aspose.com/).
 
 ### Jak kupić Aspose.Cells?
  Możesz dokonać zakupu[Tutaj](https://purchase.aspose.com/buy).

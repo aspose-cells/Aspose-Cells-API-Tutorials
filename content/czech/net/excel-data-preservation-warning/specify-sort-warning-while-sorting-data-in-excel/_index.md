@@ -1,6 +1,6 @@
 ---
-title: Při řazení dat v Excelu zadejte upozornění na řazení
-linktitle: Při řazení dat v Excelu zadejte upozornění na řazení
+title: Určete upozornění na řazení při řazení dat v aplikaci Excel
+linktitle: Určete upozornění na řazení při řazení dat v aplikaci Excel
 second_title: Aspose.Cells .NET Excel Processing API
 description: Bez námahy třídit data aplikace Excel pomocí Aspose.Cells pro .NET. Naučte se krok za krokem strategie pro efektivní správu dat Excelu v tomto komplexním kurzu.
 type: docs

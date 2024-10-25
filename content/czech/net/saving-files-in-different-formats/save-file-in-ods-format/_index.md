@@ -2,7 +2,7 @@
 title: Uložit soubor ve formátu ODS
 linktitle: Uložit soubor ve formátu ODS
 second_title: Aspose.Cells .NET Excel Processing API
-description: V této komplexní příručce se dozvíte, jak ukládat soubory ve formátu ODS pomocí Aspose.Cells for .NET. Pokyny krok za krokem a další.
+description: této komplexní příručce se dozvíte, jak ukládat soubory ve formátu ODS pomocí Aspose.Cells for .NET. Pokyny krok za krokem a další.
 type: docs
 weight: 14
 url: /cs/net/saving-files-in-different-formats/save-file-in-ods-format/
@@ -12,7 +12,7 @@ Přemýšleli jste někdy o tom, jak bez námahy ukládat tabulkové soubory v r
 ## Předpoklady
 Než se pustíme do hrubky, ujistěte se, že máte vše správně nastavené:
 - .NET Framework: Ujistěte se, že máte na svém počítači nainstalované rozhraní .NET Framework. Můžete použít jakoukoli verzi kompatibilní s Aspose.Cells pro .NET.
-- Knihovna Aspose.Cells: Budete si muset stáhnout knihovnu Aspose.Cells. Je to výkonný nástroj, který vám umožní spravovat soubory Excel a další. Můžete to získat z[odkaz ke stažení](https://releases.aspose.com/cells/net/).
+-  Knihovna Aspose.Cells: Budete si muset stáhnout knihovnu Aspose.Cells. Je to výkonný nástroj, který vám umožní spravovat soubory Excel a další. Můžete to získat z[odkaz ke stažení](https://releases.aspose.com/cells/net/).
 - Vývojové prostředí: Nezbytností je vhodné vývojové prostředí, jako je Visual Studio, kde můžete psát a spouštět svůj kód .NET.
 Nyní, když máme pokryty naše předpoklady, pojďme importovat potřebné balíčky.
 ## Importujte balíčky

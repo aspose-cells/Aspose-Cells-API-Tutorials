@@ -70,7 +70,7 @@ string outputDir = "C:\\YourOutputDirectory\\"; // Thay đổi đến thư mục
 
 ## Bước 2: Khởi tạo một đối tượng Workbook
 
-Tiếp theo, chúng ta đang tạo một phiên bản của`Workbook` lớp học. Đây là nơi diễn ra mọi công việc của chúng tôi.
+ Tiếp theo, chúng ta đang tạo một phiên bản của`Workbook` lớp học. Đây là nơi diễn ra mọi công việc của chúng tôi.
 ```csharp
 Workbook workbook = new Workbook();
 ```

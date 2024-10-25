@@ -64,7 +64,7 @@ Zodra we alle wijzigingen hebben doorgevoerd, is de volgende logische stap om on
 ```csharp
 wb.Save(outputDir + "outputTextureFill_IsTiling.xlsx");
 ```
- Wij bellen de`Save` methode om de wijzigingen naar een nieuw bestand met de naam te schrijven`outputTextureFill_IsTiling.xlsx` in de opgegeven uitvoermap.
+ Wij bellen de`Save` methode om de wijzigingen naar een nieuw bestand te schrijven met de naam`outputTextureFill_IsTiling.xlsx` in de opgegeven uitvoermap.
 ## Stap 7: Bevestigingsbericht
 Tot slot is het altijd fijn om feedback te krijgen om te bevestigen dat onze code soepel liep. U kunt deze regel gebruiken:
 ```csharp

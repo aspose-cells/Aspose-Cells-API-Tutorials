@@ -33,7 +33,7 @@ Vous pouvez télécharger la bibliothèque Aspose.Cells pour Java à partir du s
 Pour utiliser Aspose.Cells pour Java, vous devez initialiser votre licence. Cette étape est essentielle pour supprimer toutes les limitations d'évaluation et exploiter tout le potentiel de la bibliothèque.
 
 ```java
-// Initialiser la licence Aspose.Cells
+//Initialiser la licence Aspose.Cells
 License license = new License();
 license.setLicense("path_to_license_file.xml");
 ```
@@ -88,7 +88,7 @@ Chart chart = worksheet.getCharts().get(chartIndex);
 // Définition de la plage de données pour le graphique
 chart.getNSeries().add("A2:B4", true);
 
-//Personnalisation des attributs du graphique
+// Personnalisation des attributs du graphique
 chart.getChartArea().getBorder().setVisible(false);
 chart.getChartTitle().setText("3D Bar Chart");
 ```
@@ -124,7 +124,7 @@ Pour améliorer l'attrait visuel et la clarté de vos cartes 3D, vous pouvez eff
 
 - Modifiez les couleurs, les polices et les styles pour qu'ils correspondent à votre présentation.
 
-### Travailler avec les axes d'un graphique
+### Travailler avec les axes du graphique
 
 - Personnalisez les échelles des axes, les intervalles et les graduations.
 

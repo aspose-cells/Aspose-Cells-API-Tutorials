@@ -53,7 +53,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
 
-여기서 우리는 열려고 한다는 것을 지정합니다.`book1.xls` 지정된 디렉토리에 위치합니다.`FileMode.Open` 매개변수는 기존 파일을 여는 것을 나타냅니다. 파일 이름이 항상 가지고 있는 파일 이름과 일치하는지 확인하세요.
+ 여기서 우리는 열려고 한다는 것을 지정합니다.`book1.xls` 지정된 디렉토리에 위치합니다.`FileMode.Open` 매개변수는 기존 파일을 여는 것을 나타냅니다. 파일 이름이 항상 가지고 있는 파일 이름과 일치하는지 확인하세요.
 
 ## 3단계: 통합 문서 개체 인스턴스화
 
@@ -83,7 +83,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 worksheet.IsRowColumnHeadersVisible = false;
 ```
 
- 환경`IsRowColumnHeadersVisible` 에게`false`행과 열의 머리글을 효과적으로 숨겨서 데이터를 더욱 깔끔하게 표현할 수 있습니다.
+ 환경`IsRowColumnHeadersVisible` 에게`false` 행과 열의 머리글을 효과적으로 숨겨서 데이터를 더욱 깔끔하게 표현할 수 있습니다.
 
 ## 6단계: 수정된 Excel 파일 저장
 

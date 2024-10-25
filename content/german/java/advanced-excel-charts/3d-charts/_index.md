@@ -33,7 +33,7 @@ Sie können die Bibliothek Aspose.Cells für Java von der Website herunterladen.
 Um Aspose.Cells für Java zu verwenden, müssen Sie Ihre Lizenz initialisieren. Dieser Schritt ist wichtig, um alle Evaluierungsbeschränkungen zu beseitigen und das volle Potenzial der Bibliothek auszuschöpfen.
 
 ```java
-// Initialisieren Sie die Aspose.Cells-Lizenz
+//Initialisieren Sie die Aspose.Cells-Lizenz
 License license = new License();
 license.setLicense("path_to_license_file.xml");
 ```
@@ -88,7 +88,7 @@ Chart chart = worksheet.getCharts().get(chartIndex);
 // Festlegen des Datenbereichs für das Diagramm
 chart.getNSeries().add("A2:B4", true);
 
-//Anpassen von Diagrammattributen
+// Anpassen von Diagrammattributen
 chart.getChartArea().getBorder().setVisible(false);
 chart.getChartTitle().setText("3D Bar Chart");
 ```

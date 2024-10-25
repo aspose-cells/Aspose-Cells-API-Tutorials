@@ -106,4 +106,4 @@ Lọc các tên đã xác định có thể dẫn đến các công thức bị 
  Có, bạn có thể dùng thử Aspose.Cells miễn phí để kiểm tra khả năng của nó trước khi mua. Hãy xem thử[đây](https://releases.aspose.com/).
 
 ### Tôi có thể tìm thêm ví dụ và tài liệu ở đâu?
-Bạn có thể tìm thấy tài liệu toàn diện và nhiều ví dụ hơn trên trang tham khảo Aspose.Cells[đây](https://reference.aspose.com/cells/net/).
+ Bạn có thể tìm thấy tài liệu toàn diện và nhiều ví dụ hơn trên trang tham khảo Aspose.Cells[đây](https://reference.aspose.com/cells/net/).

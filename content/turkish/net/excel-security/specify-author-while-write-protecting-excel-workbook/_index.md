@@ -63,7 +63,7 @@ Tıpkı bir sanatçının boş bir tuvalle işe başlaması gibi, siz de daha so
 Yazma koruması, özellikle verilerinizin bütünlüğünün bozulmadan kalmasını sağlamak istiyorsanız, önemli bir husustur. Bunu bir parola ile yapabilirsiniz.
 
 ```csharp
-// Çalışma kitabını parola ile yazmaya karşı koruyun.
+//Çalışma kitabını parola ile yazmaya karşı koruyun.
 wb.Settings.WriteProtection.Password = "YOUR_PASSWORD";
 ```
 
@@ -110,4 +110,4 @@ Ve işte karşınızda! Bir Excel çalışma kitabı oluşturmayı, bir parola i
 Kesinlikle! Aspose.Cells, .NET kullanan hem masaüstü hem de web uygulamalarında sorunsuz bir şekilde çalışır.
 
 ### Desteğe ihtiyacım olursa ne yapmalıyım?  
-Sorularınız ve sorun giderme için Aspose topluluğu çok yardımcı olur. Onların sitesini ziyaret edebilirsiniz[destek forumu](https://forum.aspose.com/c/cells/9) yardım için.
+ Sorularınız ve sorun giderme için Aspose topluluğu çok yardımcı olur. Onların sitesini ziyaret edebilirsiniz[destek forumu](https://forum.aspose.com/c/cells/9) yardım için.

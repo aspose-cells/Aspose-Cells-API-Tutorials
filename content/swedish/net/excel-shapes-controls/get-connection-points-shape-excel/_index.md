@@ -91,9 +91,9 @@ En anslutningspunkt är en specifik punkt på en form där du kan fästa kontakt
 ### Kan jag hämta anslutningspunkter för alla former i ett kalkylblad?
 Ja, Aspose.Cells låter dig hämta anslutningspunkter för vilken form som helst som stöder dem. Gå helt enkelt igenom formsamlingen i kalkylbladet.
 ### Behöver jag en licens för att använda Aspose.Cells?
-Ja, medan du kan prova det gratis, krävs en licens för alla funktioner. Du kan[köp en licens här](https://purchase.aspose.com/buy) eller skaffa en[tillfällig licens](https://purchase.aspose.com/temporary-license/).
+Ja, medan du kan prova det gratis, krävs en licens för alla funktioner. Du kan[köp en licens här](https://purchase.aspose.com/buy)eller skaffa en[tillfällig licens](https://purchase.aspose.com/temporary-license/).
 ### Hur kan jag lägga till olika typer av former i Aspose.Cells?
- Du kan använda`Add` metod för former som rektanglar, ellipser och mer. Varje form har specifika parametrar som du kan anpassa.
+Du kan använda`Add` metod för former som rektanglar, ellipser och mer. Varje form har specifika parametrar som du kan anpassa.
 ### Hur laddar jag en befintlig Excel-fil istället för att skapa en ny?
  För att ladda en befintlig fil, skicka filsökvägen till`Workbook` konstruktör, så här:  
 ```csharp

@@ -44,7 +44,7 @@ using System;
 
 Zde je „Adresář vašich dokumentů“ zástupný symbol pro skutečnou cestu, kde jsou uloženy vaše soubory Excel. Ujistěte se, že jste jej nahradili správnou cestou ve vašem systému. 
 ## Krok 1: Vytvořte objekt sešitu 
-Nyní, když máte nastaven adresář dokumentů, je dalším krokem vytvoření instance souboru`Workbook` třídy a otevřete soubor Excel.
+ Nyní, když máte nastaven adresář dokumentů, je dalším krokem vytvoření instance souboru`Workbook`třídy a otevřete soubor Excel.
 
 ```csharp
 // Cesta k adresáři dokumentů.
@@ -64,17 +64,17 @@ Console.WriteLine("Workbook opened using path successfully!");
 
 Tento jednoduchý řádek vytiskne ve vaší konzoli zprávu potvrzující, že sešit byl otevřen. Poskytuje vám zpětnou vazbu a zajišťuje, že váš program funguje tak, jak má.
 
- Zde jsme zabalili náš kód do a`try-catch`blok. To znamená, že pokud se při otevírání sešitu něco pokazí, váš program místo toho, aby se vztekal, to elegantně zvládne tím, že vám řekne, co se stalo.
+ Zde jsme zabalili náš kód do a`try-catch` blok. To znamená, že pokud se při otevírání sešitu něco pokazí, váš program místo toho, aby se vztekal, to elegantně zvládne tím, že vám řekne, co se stalo.
 ## Závěr
- Otevírání souborů aplikace Excel pomocí Aspose.Cells for .NET je hračka, jakmile víte, co děláte! Jak jste viděli, proces zahrnuje nastavení adresáře dokumentů, vytvoření a`Workbook` objekt a kontrola, zda vše funguje s tiskovým příkazem. S výkonem Aspose.Cells ve vašem arzenálu jste vybaveni k tomu, abyste své dovednosti v práci s Excelem posunuli na další úroveň – automatizaci všedních úkolů a usnadnění hladké správy dat.
+Otevírání souborů aplikace Excel pomocí Aspose.Cells for .NET je hračka, jakmile víte, co děláte! Jak jste viděli, proces zahrnuje nastavení adresáře dokumentů, vytvoření a`Workbook` objekt a kontrola, zda vše funguje s tiskovým příkazem. S výkonem Aspose.Cells ve vašem arzenálu jste vybaveni k tomu, abyste své dovednosti v práci s Excelem posunuli na další úroveň – automatizaci všedních úkolů a usnadnění hladké správy dat.
 ## FAQ
 ### Co je Aspose.Cells pro .NET?
 Aspose.Cells for .NET je knihovna .NET, která umožňuje vývojářům vytvářet, manipulovat a převádět soubory aplikace Excel bez potřeby aplikace Microsoft Excel.
 ### Potřebuji k použití Aspose.Cells nainstalovaný Microsoft Excel?
 Žádný! Aspose.Cells funguje nezávisle na aplikaci Microsoft Excel a nevyžaduje instalaci.
 ### Mohu otevřít více souborů aplikace Excel najednou?
-Absolutně! Můžete vytvořit více`Workbook` objekty pro různé soubory podobně.
+ Absolutně! Můžete vytvořit více`Workbook` objekty pro různé soubory podobně.
 ### Jaké typy souborů může Aspose.Cells otevřít?
 Aspose.Cells umí otevřít .xls, .xlsx, .csv a další formáty aplikace Excel.
 ### Kde najdu dokumentaci Aspose.Cells?
- Můžete najít komplexní dokumentaci[zde](https://reference.aspose.com/cells/net/).
+Můžete najít komplexní dokumentaci[zde](https://reference.aspose.com/cells/net/).

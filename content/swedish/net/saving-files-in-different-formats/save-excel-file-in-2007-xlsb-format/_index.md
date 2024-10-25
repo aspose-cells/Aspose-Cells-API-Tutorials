@@ -12,7 +12,7 @@ När det gäller att arbeta med Excel-filer i .NET, finns det mycket flexibilite
 ## Förutsättningar
 Innan vi börjar, låt oss se till att du har allt du behöver för att följa med sömlöst. Här är vad du bör ha:
 1. Visual Studio: Se till att du har en version av Visual Studio installerad på din dator. Det är här du kommer att skriva din .NET-kod. 
-2.  Aspose.Cells Library: Du behöver Aspose.Cells for .NET-biblioteket. Om du inte redan har laddat ner den, gå över till[Aspose Nedladdningssida](https://releases.aspose.com/cells/net/) att ta tag i den. 
+2. Aspose.Cells Library: Du behöver Aspose.Cells for .NET-biblioteket. Om du inte redan har laddat ner den, gå över till[Aspose Nedladdningssida](https://releases.aspose.com/cells/net/) att ta tag i den. 
 3. Grundläggande kunskaper om C#: En grundläggande förståelse av C# och .NET hjälper dig att navigera genom kodexemplen mer bekvämt.
 4. .NET Framework: Se till att ditt projekt är konfigurerat med lämpligt .NET-ramverk som stöds av Aspose.Cells-biblioteket.
 5. Ett Excel-dokument: Även om det är ett alternativ att skapa en ny arbetsbok, kan det vara användbart att ha ett startdokument om du vill manipulera en befintlig fil.
@@ -45,7 +45,7 @@ Därefter kommer vi att skapa en ny arbetsbok med Aspose.Cells-biblioteket.
 ```csharp
 Workbook workbook = new Workbook();
 ```
- Här skapar vi en ny instans av`Workbook`klass. Den här nyskapade arbetsboken är en tom arbetsbok som du kan börja fylla med data om du vill.
+ Här skapar vi en ny instans av`Workbook` klass. Den här nyskapade arbetsboken är en tom arbetsbok som du kan börja fylla med data om du vill.
 ## Steg 3: Spara arbetsboken
 Nu kommer det roliga – att spara din arbetsbok i önskat format!
 ```csharp
@@ -60,7 +60,7 @@ Och precis så har du framgångsrikt lärt dig hur du sparar en Excel-fil i 2007
 ### Vad är Aspose.Cells-biblioteket?
 Aspose.Cells är ett kraftfullt bibliotek för .NET som gör det möjligt för utvecklare att skapa, ändra och manipulera Excel-filer programmatiskt utan att behöva installera Microsoft Excel.
 ### Kan jag prova Aspose.Cells gratis?
- Absolut! Du kan använda[gratis provperiod](https://releases.aspose.com/)att utforska bibliotekets möjligheter.
+ Absolut! Du kan använda[gratis provperiod](https://releases.aspose.com/) att utforska bibliotekets möjligheter.
 ### Vad är skillnaden mellan xls- och xlsb-format?
 xls-formatet är äldre och baserat på den binära filstrukturen, medan xlsb är ett nyare format som också använder binär lagring men tillåter större filstorlekar och snabbare bearbetning.
 ### Var kan jag köpa en licens för Aspose.Cells?

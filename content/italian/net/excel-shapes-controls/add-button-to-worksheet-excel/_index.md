@@ -31,7 +31,7 @@ In questo primo passaggio creeremo una nuova cartella di lavoro Excel e otterrem
 ```csharp
 // Definisci il percorso della directory dei tuoi documenti.
 string dataDir = "Your Document Directory";
-//Creare la directory se non è già presente.
+// Creare la directory se non è già presente.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
 	System.IO.Directory.CreateDirectory(dataDir);

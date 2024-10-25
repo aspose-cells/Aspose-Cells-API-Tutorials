@@ -114,7 +114,7 @@ for (int i = 0; i < lstLabels.Count; i++)
     Console.WriteLine(lstLabels[i]);
 }
 ```
-Potongan ini pertama-tama menampilkan judul dan baris pemisah. Kemudian, kita mengulang setiap label dalam`lstLabels` ArrayList dan cetak ke konsol. Jika ada sepuluh label, Anda akan melihat masing-masingnya di sana!
+ Potongan ini pertama-tama menampilkan judul dan baris pemisah. Kemudian, kita mengulang setiap label dalam`lstLabels`ArrayList dan cetak ke konsol. Jika ada sepuluh label, Anda akan melihat masing-masingnya di sana!
 
 ## Langkah 8: Pesan Terakhir
 
@@ -141,7 +141,7 @@ Aspose.Cells adalah pustaka yang hebat untuk memanipulasi file Excel dalam .NET.
  Anda dapat membeli lisensi untuk Aspose.Cells melalui[halaman pembelian](https://purchase.aspose.com/buy).
 
 ### Di mana saya dapat menemukan dukungan untuk Aspose.Cells?
-Anda dapat mengunjungi forum Aspose untuk mendapatkan dukungan[Di Sini](https://forum.aspose.com/c/cells/9).
+ Anda dapat mengunjungi forum Aspose untuk mendapatkan dukungan[Di Sini](https://forum.aspose.com/c/cells/9).
 
 ### Bisakah saya mendapatkan lisensi sementara?
- Ya! Aspose menawarkan lisensi sementara yang dapat Anda minta dari[tautan ini](https://purchase.aspose.com/temporary-license/).
+Ya! Aspose menawarkan lisensi sementara yang dapat Anda minta dari[tautan ini](https://purchase.aspose.com/temporary-license/).

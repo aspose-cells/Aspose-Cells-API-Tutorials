@@ -26,7 +26,7 @@ Bây giờ, chúng ta hãy phân tích quy trình thêm hình ảnh vào bảng 
 Tạo thư mục để lưu trữ tài liệu
 Trước khi chúng ta làm bất cứ điều gì với sổ làm việc, chúng ta cần một nơi để lưu trữ nó. Chúng ta sẽ chỉ định thư mục tài liệu này:
 ```csharp
-string dataDir = "Your Document Directory"; // Xác định con đường mong muốn của bạn.
+string dataDir = "Your Document Directory"; //Xác định con đường mong muốn của bạn.
 ```
  Trong đoạn mã này, hãy thay thế`"Your Document Directory"` với đường dẫn thực tế nơi bạn muốn lưu trữ các tệp Excel của mình. Thư mục này sẽ chứa tệp đầu ra sau khi thêm hình ảnh.
 ## Bước 2: Tạo thư mục nếu nó không tồn tại
@@ -81,7 +81,7 @@ Có, bạn có thể thêm nhiều định dạng hình ảnh khác nhau như PN
 ### Aspose.Cells có hỗ trợ các định dạng tệp Excel khác ngoài .xls không?
 Chắc chắn rồi! Aspose.Cells hỗ trợ nhiều định dạng Excel, bao gồm .xlsx, .xlsm và .xlsb.
 ### Có phiên bản dùng thử không?
- Có! Bạn có thể dùng thử Aspose.Cells miễn phí trước khi mua. Chỉ cần kiểm tra[đây](https://releases.aspose.com/).
+Có! Bạn có thể dùng thử Aspose.Cells miễn phí trước khi mua. Chỉ cần kiểm tra[đây](https://releases.aspose.com/).
 ### Tôi phải làm gì nếu hình ảnh của tôi không hiển thị?
 Đảm bảo đường dẫn hình ảnh là chính xác và tệp hình ảnh nằm trong thư mục đã chỉ định.
 ### Tôi có thể đặt hình ảnh lên nhiều ô không?

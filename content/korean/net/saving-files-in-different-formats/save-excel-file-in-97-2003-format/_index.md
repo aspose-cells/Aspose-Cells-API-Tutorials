@@ -12,7 +12,7 @@ Excel 파일을 프로그래밍 방식으로 만들고 관리하는 것은 게�
 ## 필수 조건
 본격적으로 들어가기에 앞서 꼭 확인해야 할 몇 가지 전제 조건이 있습니다.
 1. .NET에 대한 기본적인 이해: C#이나 VB.NET에 대한 지식이 큰 도움이 될 것입니다.
-2.  .NET용 Aspose.Cells: 프로젝트에 Aspose.Cells 라이브러리가 설치되어 있는지 확인하세요. 아직 설치되어 있지 않다면 다음을 수행할 수 있습니다.[여기서 다운로드하세요](https://releases.aspose.com/cells/net/).
+2.  .NET용 Aspose.Cells: 프로젝트에 Aspose.Cells 라이브러리가 설치되어 있는지 확인하세요. 아직 설치되어 있지 않으면 다음을 수행할 수 있습니다.[여기서 다운로드하세요](https://releases.aspose.com/cells/net/).
 3. Visual Studio: Visual Studio나 .NET 호환 IDE와 같은 개발 환경을 통해 코딩과 디버깅을 용이하게 할 수 있습니다.
 4. NuGet 패키지 관리자: 프로젝트에 Aspose.Cells를 가장 쉽게 설치할 수 있습니다. 
 이러한 필수 조건을 충족하면 이제 시작할 준비가 되었습니다!

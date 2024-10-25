@@ -29,7 +29,7 @@ Kenntnisse in der C#-Programmierung sind von Vorteil. Wenn Sie mit den grundlege
 
 ### Beispiel-Excel-Datei
 
-Für dieses Tutorial benötigen Sie eine Excel-Beispieldatei mit einem Diagramm zum Ausprobieren. Sie können eine erstellen oder ein Beispiel aus verschiedenen Online-Ressourcen herunterladen. Wir werden in der gesamten Anleitung auf die Datei „SampleChangeTickLabelDirection.xlsx“ verweisen.
+Für dieses Tutorial benötigen Sie eine Excel-Beispieldatei mit einem Diagramm, mit dem Sie herumexperimentieren können. Sie können eine erstellen oder ein Beispiel aus verschiedenen Online-Ressourcen herunterladen. Wir werden in der gesamten Anleitung auf die Datei „SampleChangeTickLabelDirection.xlsx“ verweisen.
 
 ## Pakete importieren
 

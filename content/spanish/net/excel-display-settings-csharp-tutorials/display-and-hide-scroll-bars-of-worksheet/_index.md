@@ -56,7 +56,7 @@ Aquí, crea una secuencia de archivos para leer el archivo Excel.
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
   
- El`FileStream` La clase permite leer y escribir en archivos. En este caso, abrimos nuestro archivo de Excel en modo de lectura.
+ El`FileStream`La clase permite leer y escribir en archivos. En este caso, abrimos nuestro archivo de Excel en modo de lectura.
 
 ## Paso 3: Crear una instancia de un objeto de libro de trabajo
 
@@ -67,7 +67,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 Workbook workbook = new Workbook(fstream);
 ```
   
- Este`Workbook`El objeto ahora contiene todos los datos y configuraciones de su archivo Excel, lo que permite su manipulación más adelante en el proceso.
+ Este`Workbook` El objeto ahora contiene todos los datos y configuraciones de su archivo Excel, lo que permite su manipulación más adelante en el proceso.
 
 ## Paso 4: Ocultar la barra de desplazamiento vertical
 
@@ -132,4 +132,4 @@ Puede trabajar con varios formatos de Excel, incluidos .xls, .xlsx, .xlsm, .xlsb
  Comprueba el[Documentación de Aspose.Cells](https://reference.aspose.com/cells/net/) para ejemplos y tutoriales adicionales.
 
 ### ¿Qué pasa si encuentro problemas al usar Aspose.Cells?  
- Puede buscar ayuda o informar problemas en el foro de soporte de Aspose[aquí](https://forum.aspose.com/c/cells/9).
+Puede buscar ayuda o informar problemas en el foro de soporte de Aspose[aquí](https://forum.aspose.com/c/cells/9).

@@ -85,7 +85,7 @@ for (int i = 0; i < dataTable.Columns.Count; i++)
 ```
  Diese Schleife verläuft durch die Spalten der`DataTable`und druckt jeden Spaltennamen auf der Konsole aus. Es ist ein befriedigendes Gefühl, unsere Gläser aufgereiht, beschriftet und einsatzbereit zu sehen.
 ## Abschluss
-Und da haben Sie es! Wenn Sie diese Schritte befolgen, können Sie nun doppelte Spalten beim Exportieren von Excel-Daten mit Aspose.Cells für .NET automatisch umbenennen. Das spart Ihnen nicht nur Zeit, sondern stellt auch sicher, dass Ihre Daten organisiert und verständlich bleiben. Ist es nicht großartig, wenn Technologie unser Leben einfacher macht? Wenn Sie unterwegs Fragen haben, können Sie sich gerne in den Kommentaren melden.
+Und da haben Sie es! Wenn Sie diese Schritte befolgen, können Sie nun doppelte Spalten beim Exportieren von Excel-Daten mit Aspose.Cells für .NET automatisch umbenennen. Das spart Ihnen nicht nur Zeit, sondern stellt auch sicher, dass Ihre Daten organisiert und verständlich bleiben. Ist es nicht toll, wenn Technologie unser Leben einfacher macht? Wenn Sie unterwegs Fragen haben, können Sie sich gerne in den Kommentaren melden.
 ## Häufig gestellte Fragen
 ### Was ist Aspose.Cells?
 Aspose.Cells ist eine leistungsstarke Bibliothek für .NET, mit der Entwickler Excel-Dateien programmgesteuert erstellen, bearbeiten und konvertieren können.
@@ -96,4 +96,4 @@ Aspose.Cells ist eine leistungsstarke Bibliothek für .NET, mit der Entwickler E
 ### Wo bekomme ich Hilfe, wenn ich auf Probleme stoße?
  Das Aspose-Community-Forum ist eine großartige Ressource zur Fehlerbehebung und für Ratschläge:[Aspose-Unterstützung](https://forum.aspose.com/c/cells/9).
 ### Gibt es eine temporäre Lizenz für Aspose.Cells?
- Ja! Sie können eine vorübergehende Lizenz beantragen[Hier](https://purchase.aspose.com/temporary-license/) um alle Features uneingeschränkt auszuprobieren.
+Ja! Sie können eine vorübergehende Lizenz beantragen[Hier](https://purchase.aspose.com/temporary-license/) um alle Features uneingeschränkt auszuprobieren.

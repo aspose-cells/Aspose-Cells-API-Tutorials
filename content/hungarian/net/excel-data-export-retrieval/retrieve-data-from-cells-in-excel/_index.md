@@ -18,7 +18,7 @@ Mielőtt belevágnánk a kódba, meg kell felelnie néhány előfeltételnek:
 1. Visual Studio: Győződjön meg arról, hogy a Visual Studio telepítve van a gépen. Ez az az IDE, amelyet a kódunk írásához és végrehajtásához fogunk használni.
 2.  Aspose.Cells for .NET: rendelkeznie kell az Aspose.Cells könyvtárral. Letöltheti a[Aspose honlapja](https://releases.aspose.com/cells/net/).
 3. Alapvető C# ismerete: A C# programozás ismerete segít a példák jobb megértésében.
-4.  Excel-fájl: Készítsen Excel-fájlt (például`book1.xls`), amelyet ehhez az oktatóanyaghoz fog használni.
+4. Excel-fájl: Készítsen Excel-fájlt (például`book1.xls`), amelyet ehhez az oktatóanyaghoz fog használni.
 
 Miután rendezte ezeket az előfeltételeket, elkezdhetjük megvizsgálni, hogyan lehet adatokat lekérni az Excel celláiból.
 
@@ -52,7 +52,7 @@ Most, hogy beállította a dokumentumkönyvtárat, a következő lépés az, hog
 
 
 ```csharp
-// Meglévő munkafüzet megnyitása
+//Meglévő munkafüzet megnyitása
 Workbook workbook = new Workbook(dataDir + "book1.xls");
 ```
 
@@ -68,7 +68,7 @@ A munkafüzet megnyitása után el szeretné érni azt a konkrét munkalapot, am
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
- A`Worksheets` gyűjtemény lehetővé teszi a munkafüzet különböző lapjainak elérését. Az index`[0]`az első munkalapra vonatkozik. Ha a következő lapokhoz szeretne hozzáférni, ennek megfelelően módosíthatja az indexet.
+ A`Worksheets` gyűjtemény lehetővé teszi a munkafüzet különböző lapjainak elérését. Az index`[0]` az első munkalapra vonatkozik. Ha a következő lapokhoz szeretne hozzáférni, ennek megfelelően módosíthatja az indexet.
 
 ## 4. lépés: Hurok a cellákon keresztül
 
@@ -99,7 +99,7 @@ foreach (Cell cell1 in worksheet.Cells)
             Console.WriteLine("Double Value: " + doubleValue);
             break;
 
-        // A cellaadatok adattípusának kiértékelése logikai értékhez
+        // cellaadatok adattípusának kiértékelése logikai értékhez
         case CellValueType.IsBool:
             boolValue = cell1.BoolValue;
             Console.WriteLine("Bool Value: " + boolValue);
@@ -124,7 +124,7 @@ foreach (Cell cell1 in worksheet.Cells)
 }
 ```
 
- Ebben a lépésben a munkalap egyes cellái között körbejárunk. Minden cellánál ellenőrizzük annak adattípusát a segítségével`switch`nyilatkozat. Típustól függően lekérjük az értéket és kinyomtatjuk a konzolra. Íme az esetek bontása:
+ Ebben a lépésben végigpörgetjük a munkalap egyes celláit. Minden cellánál ellenőrizzük annak adattípusát a segítségével`switch` nyilatkozat. Típustól függően lekérjük az értéket és kinyomtatjuk a konzolra. Íme az esetek bontása:
 
 -  IsString: Ha a cella tartalmaz egy karakterláncot, akkor azt a használatával kérjük le`StringValue`.
 -  IsNumeric: Numerikus értékekhez használjuk`DoubleValue`.
@@ -143,7 +143,7 @@ Az adatok lekérése Excel cellákból az Aspose.Cells for .NET használatával 
 Az Aspose.Cells egy .NET-könyvtár, amely lehetővé teszi a fejlesztők számára Excel-fájlok létrehozását, kezelését és konvertálását anélkül, hogy a Microsoft Excel telepítése szükségessé válna.
 
 ### Használhatom ingyenesen az Aspose.Cells-t?  
-Igen, az Aspose.Cells ingyenes próbaverziót kínál, amellyel tesztelheti funkcióit. Letöltheti[itt](https://releases.aspose.com/).
+ Igen, az Aspose.Cells ingyenes próbaverziót kínál, amellyel tesztelheti funkcióit. Letöltheti[itt](https://releases.aspose.com/).
 
 ### Milyen típusú adatokat kérhetek le az Excel cellákból?  
 Különféle adattípusokat kérhet le, például karakterláncokat, számokat, logikai értékeket és dátum/idő értékeket.

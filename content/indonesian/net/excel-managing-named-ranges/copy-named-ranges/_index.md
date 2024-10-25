@@ -12,7 +12,7 @@ Excel adalah alat canggih yang digunakan oleh jutaan orang di seluruh dunia untu
 ## Prasyarat
 Sebelum menyelami seluk-beluk penyalinan rentang bernama, Anda perlu memastikan bahwa Anda telah menyiapkan beberapa hal. Berikut ini yang Anda perlukan:
 1. Lingkungan .NET: Pastikan Anda telah menyiapkan lingkungan pengembangan .NET. Anda dapat menggunakan Visual Studio atau IDE lain pilihan Anda.
-2.  Pustaka Aspose.Cells untuk .NET: Ini adalah bintang pertunjukan! Unduh pustaka dari[Situs web Aspose](https://releases.aspose.com/cells/net/) jika Anda belum melakukannya.
+2. Pustaka Aspose.Cells untuk .NET: Ini adalah bintang pertunjukan! Unduh pustaka dari[Situs web Aspose](https://releases.aspose.com/cells/net/) jika Anda belum melakukannya.
 3. Pengetahuan Dasar C#: Keakraban dengan pemrograman C# akan bermanfaat karena kita akan membuat kode dalam bahasa ini sepanjang tutorial.
 4. Excel Terinstal: Meskipun Anda tidak perlu Excel untuk menulis kode, menginstalnya berguna untuk menguji file keluaran Anda.
 5.  Akses ke Dokumentasi: Tandai[Dokumentasi Aspose.Cells](https://reference.aspose.com/cells/net/) untuk referensi. Ini adalah sumber yang bagus untuk memahami metode dan fitur.
@@ -27,7 +27,7 @@ using System.IO;
 using Aspose.Cells;
 using System.Drawing;
 ```
-Kode ini akan memberi Anda akses ke kelas-kelas penting seperti`Workbook`, `Worksheet` Dan`Range`, yang mana Anda perlu memanipulasi file Excel.
+ Kode ini akan memberi Anda akses ke kelas-kelas penting seperti`Workbook`, `Worksheet` , Dan`Range`, yang mana Anda perlu memanipulasi file Excel.
 
 Sekarang setelah prasyarat kita terpenuhi, mari kita uraikan prosesnya menjadi beberapa langkah yang mudah diikuti.
 ## Langkah 1: Siapkan Direktori Output Anda

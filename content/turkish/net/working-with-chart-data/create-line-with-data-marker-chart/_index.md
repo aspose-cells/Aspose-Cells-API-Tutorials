@@ -18,7 +18,7 @@ Başlamadan önce, sorunsuz bir şekilde ilerleyebilmeniz için her şeyin yerli
 1.  Aspose.Cells for .NET Library – Bunu yüklemeniz gerekecek. Bunu alabilirsiniz[Burada](https://releases.aspose.com/cells/net/).
 2. .NET Framework – Geliştirme ortamınızın en son .NET sürümüyle kurulduğundan emin olun.
 3. IDE (Bütünleşik Geliştirme Ortamı) – Visual Studio önerilir.
-4.  Geçerli bir Aspose.Cells lisansı – Eğer yoksa, bir tane talep edebilirsiniz[geçici lisans](https://purchase.aspose.com/temporary-license/)veya onlarınkine göz atın[ücretsiz deneme](https://releases.aspose.com/).
+4.  Geçerli bir Aspose.Cells lisansı – Eğer yoksa, bir tane talep edebilirsiniz[geçici lisans](https://purchase.aspose.com/temporary-license/) veya onlarınkine göz atın[ücretsiz deneme](https://releases.aspose.com/).
 
 Hazır mısınız? Hadi parçalayalım!
 

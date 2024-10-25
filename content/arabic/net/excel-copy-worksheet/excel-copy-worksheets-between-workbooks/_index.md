@@ -15,9 +15,9 @@ url: /ar/net/excel-copy-worksheet/excel-copy-worksheets-between-workbooks/
 
 قبل أن نتعمق في الكود، دعنا نتأكد من أنك مجهز بالأدوات المناسبة للبدء:
 
-- Aspose.Cells for .NET: يمكنك تنزيله[هنا](https://releases.aspose.com/cells/net/).
+-  Aspose.Cells for .NET: يمكنك تنزيله[هنا](https://releases.aspose.com/cells/net/).
 - Visual Studio أو أي IDE يدعم إطار عمل .NET.
--  رخصة سارية المفعول أو[رخصة مؤقتة](https://purchase.aspose.com/temporary-license/) إذا كنت تريد اختبار وظائف Aspose.Cells الكاملة.
+-  رخصة سارية المفعول أو[رخصة مؤقتة](https://purchase.aspose.com/temporary-license/)إذا كنت تريد اختبار وظائف Aspose.Cells الكاملة.
 - فهم أساسي لـ C# وإطار عمل .NET.
 
  يمكنك أيضًا التحقق من[توثيق Aspose.Cells](https://reference.aspose.com/cells/net/) لمزيد من التفاصيل.
@@ -44,7 +44,7 @@ using Aspose.Cells;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- في هذا السطر، استبدل`"YOUR DOCUMENT DIRECTORY"` مع المسار الفعلي لملفات Excel الخاصة بك. هذا هو المكان الذي سيتم تحميل المصنفات الخاصة بك منه وحفظها فيه.
+ في هذا السطر، استبدل`"YOUR DOCUMENT DIRECTORY"`مع المسار الفعلي لملفات Excel الخاصة بك. هذا هو المكان الذي سيتم تحميل المصنفات الخاصة بك منه وحفظها فيه.
 
 ## الخطوة 2: افتح المصنف الأول
 
@@ -64,7 +64,7 @@ Workbook excelWorkbook0 = new Workbook(InputPath);
 الآن بعد أن قمت بفتح المصنف الأول، حان الوقت لإنشاء مصنف فارغ آخر حيث ستلصق ورقة العمل المنسوخة. فكر في هذا الأمر كما لو كنت تفتح دفتر ملاحظات فارغًا جديدًا حيث ستنقل البيانات.
 
 ```csharp
-//إنشاء مصنف آخر.
+// إنشاء مصنف آخر.
 Workbook excelWorkbook1 = new Workbook();
 ```
 

@@ -11,7 +11,7 @@ url: /zh-hant/java/spreadsheet-automation/automated-data-extraction/
 
 # 使用 Aspose.Cells for Java 自動擷取數據
 
-從 Excel 檔案中提取資料是各種商業應用程式中的常見任務。自動化此過程可以節省時間並提高準確性。在本教程中，我們將探索如何使用 Aspose.Cells for Java 自動提取數據，Aspose.Cells for Java 是用於處理 Excel 檔案的強大 Java API。
+從 Excel 檔案中提取資料是各種商業應用程式中的常見任務。自動化此過程可以節省時間並提高準確性。在本教程中，我們將探討如何使用 Aspose.Cells for Java 自動提取數據，Aspose.Cells for Java 是用於處理 Excel 檔案的強大 Java API。
 
 ## 為什麼要自動化資料提取？
 

@@ -16,7 +16,7 @@ Kişisel bir dokunuştan yoksun sıkıcı grafiklerden bıktınız mı? Excel g�
 Kodlamanın inceliklerine dalmadan önce, sorunsuz bir şekilde ilerleyebilmeniz için sahip olmanız gereken birkaç ön koşul vardır:
 
 - Visual Studio: .NET kodunuzu yazacağınız ve çalıştıracağınız yer burasıdır. Yüklü olduğundan emin olun.
-- Aspose.Cells for .NET: Excel dosyalarıyla çalışmak için bu kütüphaneye ihtiyacınız olacak.[buradan indirin](https://releases.aspose.com/cells/net/).
+-  Aspose.Cells for .NET: Excel dosyalarıyla çalışmak için bu kütüphaneye ihtiyacınız olacak.[buradan indirin](https://releases.aspose.com/cells/net/).
 - C#'ın Temel Anlayışı: Kod boyunca size rehberlik edeceğim, ancak C# temellerine hakim olmak işleri daha net hale getirecektir.
 
 ### Kurulum Adımları
@@ -55,7 +55,7 @@ string sourceDir = "Your Document Directory/";
 string outputDir = "Your Output Directory/";
 ```
 
- Yer değiştirmek`Your Document Directory` Ve`Your Output Directory` Bilgisayarınızdaki gerçek yollarla. 
+ Yer değiştirmek`Your Document Directory` Ve`Your Output Directory`Bilgisayarınızdaki gerçek yollarla. 
 
 ## Adım 2: Mevcut Çalışma Kitabını Yükleyin
 
@@ -84,7 +84,7 @@ Resmin belirtilen dizine kaydedildiğinden emin olun.
 Şimdi, resmimizi hangi grafiğe ekleyeceğimizi belirtelim. Bu örnekte, ilk çalışma sayfasındaki ilk grafiğe odaklanacağız.
 
 ```csharp
-//İkinci sayfadaki tasarımcı şemasını alın.
+// İkinci sayfadaki tasarımcı şemasını alın.
 Worksheet sheet = workbook.Worksheets[0];
 Aspose.Cells.Charts.Chart chart = sheet.Charts[0];
 ```
@@ -100,7 +100,7 @@ Tabloyu seçtikten sonra sıra geldi resmi eklemeye!
 Aspose.Cells.Drawing.Picture pic0 = chart.Shapes.AddPictureInChart(50, 50, stream, 200, 200);
 ```
 
- Burada,`50` Ve`50` görüntünün yerleştirileceği X ve Y koordinatlarıdır ve`200` resmin genişliği ve yüksekliğidir.
+ Burada,`50` Ve`50` görüntünün yerleştirileceği X ve Y koordinatlarıdır ve`200`resmin genişliği ve yüksekliğidir.
 
 ## Adım 6: Resmin Çizgi Formatını Özelleştirin
 

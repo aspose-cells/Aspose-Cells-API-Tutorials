@@ -45,7 +45,7 @@ V tomto kroku vytvoříme nový sešit. Sešit je v podstatě celý soubor Excel
 Workbook wb = new Workbook();
 ```
 Tento řádek kódu inicializuje novou instanci sešitu, což nám poskytuje čistý štít, se kterým můžeme pracovat.
-## Krok 2: Otevřete první list
+## Krok 2: Otevřete první pracovní list
 Dále musíme získat konkrétní pracovní list v sešitu. Ve výchozím nastavení nám Excel poskytuje jeden list – uhodli jste – první!
 ```csharp
 // Přístup k prvnímu listu.
@@ -83,7 +83,7 @@ rng = ws.Cells.CreateRange("A1");
 ```
 Tím se vytvoří nový rozsah, který se skládá pouze z buňky A1.
 ## Krok 7: Vyhledejte a vytiskněte ofset
-Pojďme prozkoumat některé skvělé funkce řady. Například můžeme určit posun od A1 k jiné buňce.
+Pojďme prozkoumat některé skvělé funkce řady. Můžeme například určit posun od A1 k jiné buňce.
 ```csharp
 // Posun rozsahu tisku, celý sloupec a celý řádek.
 Console.WriteLine("Offset: " + rng.GetOffset(2, 2).Address);
@@ -118,7 +118,7 @@ Aspose.Cells for .NET je výkonná knihovna pro správu souborů aplikace Excel 
  I když můžete začít s bezplatnou zkušební verzí, pro všechny funkce je vyžadována placená licence. Můžete získat a[dočasná licence](https://purchase.aspose.com/temporary-license/) pro hodnocení.
 ### Mohu manipulovat se soubory aplikace Excel bez použití Aspose.Cells?  
 Ano, existují alternativní knihovny, jako je EPPlus a ClosedXML, ale Aspose.Cells nabízí širší funkce a podporu.
-### Kde najdu další dokumentaci na Aspose.Cells?  
+### Kde najdu další dokumentaci k Aspose.Cells?  
  Můžete zkontrolovat[Dokumentace Aspose.Cells](https://reference.aspose.com/cells/net/) pro podrobné návody a reference API.
 ### Jak mohu získat podporu pro Aspose.Cells?  
- Pro podporu a dotazy navštivte[Aspose fórum](https://forum.aspose.com/c/cells/9)kde můžete najít pomoc od komunity a týmu podpory.
+ Pro podporu a dotazy navštivte[Aspose fórum](https://forum.aspose.com/c/cells/9) kde můžete najít pomoc od komunity a týmu podpory.

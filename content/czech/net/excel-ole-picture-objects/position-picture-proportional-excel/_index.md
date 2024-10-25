@@ -40,7 +40,7 @@ Nyní si to rozeberme do podrobných kroků, jak úspěšně umístit obrázek p
 Nejprve se ujistěte, že máte určenou složku pro vaše dokumenty. Zde je návod, jak vytvořit adresář, pokud neexistuje:
 ```csharp
 string dataDir = "Your Document Directory";
-//Vytvořte adresář, pokud ještě není přítomen.
+// Vytvořte adresář, pokud ještě není přítomen.
 bool isExists = System.IO.Directory.Exists(dataDir);
 if (!isExists)
     System.IO.Directory.CreateDirectory(dataDir);

@@ -40,7 +40,7 @@ Bu yönergeler Excel dosyalarınızı düzenlemek için ihtiyaç duyacağınız 
 İlk önce, belgeleriniz için belirlenmiş bir klasörünüz olduğundan emin olun. Eğer yoksa, bir dizin nasıl oluşturulur:
 ```csharp
 string dataDir = "Your Document Directory";
-//Eğer mevcut değilse dizin oluşturun.
+// Eğer mevcut değilse dizin oluşturun.
 bool isExists = System.IO.Directory.Exists(dataDir);
 if (!isExists)
     System.IO.Directory.CreateDirectory(dataDir);

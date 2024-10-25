@@ -37,12 +37,12 @@ Başlamak için Excel dosyalarımızı kaydedebileceğimiz bir dizin ayarlamamı
 ```csharp
 // Belgeler dizinine giden yol.
 string dataDir = "Your Document Directory";
-//Eğer mevcut değilse dizin oluşturun.
+// Eğer mevcut değilse dizin oluşturun.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
--  dataDir: Bu değişken, belgeler dizininize giden yolu tutar. Değiştir`"Your Document Directory"` Excel dosyanızı kaydetmek istediğiniz gerçek yol ile.
+- dataDir: Bu değişken, belgeler dizininize giden yolu tutar. Değiştir`"Your Document Directory"` Excel dosyanızı kaydetmek istediğiniz gerçek yol ile.
 - Directory.Exists: Bu, dizinin zaten var olup olmadığını kontrol eder.
 - Directory.CreateDirectory: Eğer dizin mevcut değilse, bu onu oluşturur.
 ## Adım 2: Bir Çalışma Kitabı Oluşturun
@@ -89,7 +89,7 @@ bmp.Save(ms, System.Drawing.Imaging.ImageFormat.Png);
 // Resim verilerini yorumla ilişkili şekle ayarlayın
 comment.CommentShape.Fill.ImageData = ms.ToArray();
 ```
--  comment.CommentShape.Fill.ImageData: Bu özellik, yorum şekli için resmi ayarlamanıza olanak tanır.`MemoryStream` bir bayt dizisine kullanarak`ms.ToArray()`.
+- comment.CommentShape.Fill.ImageData: Bu özellik, yorum şekli için resmi ayarlamanıza olanak tanır.`MemoryStream` bir bayt dizisine kullanarak`ms.ToArray()`.
 ## Adım 7: Çalışma Kitabını Kaydedin
 Son olarak çalışma kitabımızı yorum ve resim ekleyerek kaydedelim.
 ```csharp

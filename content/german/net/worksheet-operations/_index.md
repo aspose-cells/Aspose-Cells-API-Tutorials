@@ -13,7 +13,7 @@ Sind Sie bereit, in die Welt von Aspose.Cells für .NET einzutauchen? Wenn Sie n
 
 ## Abrufen von Hyperlinks in einem Bereich in .NET
 
-Eine der oft übersehenen Funktionen von Excel ist die Möglichkeit, mit Hyperlinks zu arbeiten. Wussten Sie, dass Sie mit Aspose.Cells für .NET ganz einfach Hyperlinks aus Ihren Tabellen extrahieren und verwalten können? Das stimmt! Dieses Tutorial führt Sie Schritt für Schritt durch den Prozess, komplett mit Codeausschnitten und Beispielen. Stellen Sie sich vor, Sie arbeiten an einem umfangreichen Bericht und müssen alle darin verstreuten Links heraussuchen. Anstatt jede Zelle zu durchsuchen, können Sie diese Aufgabe automatisieren.[Mehr lesen](./get-hyperlinks-in-a-range/).
+ Eine der oft übersehenen Funktionen von Excel ist die Möglichkeit, mit Hyperlinks zu arbeiten. Wussten Sie, dass Sie mit Aspose.Cells für .NET ganz einfach Hyperlinks aus Ihren Tabellen extrahieren und verwalten können? Das stimmt! Dieses Tutorial führt Sie Schritt für Schritt durch den Prozess, komplett mit Codeausschnitten und Beispielen. Stellen Sie sich vor, Sie arbeiten an einem umfangreichen Bericht und müssen alle darin verstreuten Links heraussuchen. Anstatt jede Zelle zu durchsuchen, können Sie diese Aufgabe automatisieren.[Mehr lesen](./get-hyperlinks-in-a-range/).
 
 Dieses Tutorial beschränkt sich nicht nur auf die Extraktion; es zeigt Ihnen auch, wie Sie diese Hyperlinks bearbeiten und Änderungen im Handumdrehen vornehmen können. Stellen Sie sich Folgendes vor: Sie haben eine ganze Reihe von Hyperlinks extrahiert und können sie jetzt dank einiger Codezeilen alle auf einmal aktualisieren! Dies erspart Ihnen jede Menge Zeit und möglicherweise auch Kopfschmerzen.
 
@@ -21,7 +21,7 @@ Dieses Tutorial beschränkt sich nicht nur auf die Extraktion; es zeigt Ihnen au
 
 Lassen Sie uns nun das Thema etwas wechseln. Haben Sie schon einmal eine Excel-Datei in HTML konvertiert und waren vom Aussehen enttäuscht? Keine Sorge! Unser Tutorial zum Festlegen von Bildeinstellungen für die HTML-Konvertierung ist genau das, was Sie brauchen. Bei der Online-Präsentation von Excel-Daten ist die Präsentation entscheidend. Wir alle wissen, dass der erste Eindruck zählt, oder?
 
- In diesem Handbuch erfahren Sie, wie Sie die visuelle Attraktivität Ihrer Excel-Daten bei der Konvertierung in HTML verbessern. Ob es darum geht, die Größe von Bildern festzulegen oder sicherzustellen, dass sie auf verschiedenen Geräten korrekt angezeigt werden, dieses Tutorial deckt alles ab. Wenn Sie diese Einstellungen beherrschen, können Sie sicherstellen, dass Ihre Daten online glänzen. Wer möchte nicht, dass sein Publikum von schön präsentierten Daten begeistert ist?[Mehr lesen](./setting-image-preferences-for-html/).
+In diesem Handbuch erfahren Sie, wie Sie die visuelle Attraktivität Ihrer Excel-Daten bei der Konvertierung in HTML verbessern. Ob es darum geht, die Größe von Bildern festzulegen oder sicherzustellen, dass sie auf verschiedenen Geräten korrekt angezeigt werden, dieses Tutorial deckt alles ab. Wenn Sie diese Einstellungen beherrschen, können Sie sicherstellen, dass Ihre Daten online glänzen. Wer möchte nicht, dass sein Publikum von schön präsentierten Daten begeistert ist?[Mehr lesen](./setting-image-preferences-for-html/).
 
 ## Tutorials zu Arbeitsblattoperationen
 ### [Abrufen von Hyperlinks in einem Bereich in .NET](./get-hyperlinks-in-a-range/)

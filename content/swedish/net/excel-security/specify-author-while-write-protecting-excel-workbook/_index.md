@@ -63,7 +63,7 @@ Precis som en artist börjar med en tom duk, börjar du med en tom arbetsbok dä
 Skrivskydd är en avgörande aspekt, särskilt om du vill säkerställa att integriteten hos dina data förblir intakt. Du kan göra det med ett lösenord.
 
 ```csharp
-// Skriv skydda arbetsbok med lösenord.
+//Skriv skydda arbetsbok med lösenord.
 wb.Settings.WriteProtection.Password = "YOUR_PASSWORD";
 ```
 
@@ -89,7 +89,7 @@ Det sista steget är att spara arbetsboken i önskat format. I det här fallet s
 wb.Save(outputDir + "outputSpecifyAuthorWhileWriteProtectingWorkbook.xlsx");
 ```
 
- Här kommer utdatafilen att sparas i din angivna utdatakatalog med namnet`outputSpecifyAuthorWhileWriteProtectingWorkbook.xlsx`Det är här ditt hårda arbete äntligen lönar sig, och du kan dela din arbetsbok med andra, i vetskap om att den är väl skyddad!
+ Här kommer utdatafilen att sparas i din angivna utdatakatalog med namnet`outputSpecifyAuthorWhileWriteProtectingWorkbook.xlsx`. Det är här ditt hårda arbete äntligen lönar sig, och du kan dela din arbetsbok med andra, i vetskap om att den är väl skyddad!
 
 ## Slutsats
 
@@ -110,4 +110,4 @@ Och där har du det! Du har lärt dig hur du skapar en Excel-arbetsbok, ställer
 Absolut! Aspose.Cells fungerar sömlöst i både skrivbords- och webbapplikationer med .NET.
 
 ### Vad ska jag göra om jag behöver stöd?  
-För frågor och felsökning är Aspose-communityt till stor hjälp. Du kan besöka deras[supportforum](https://forum.aspose.com/c/cells/9) för hjälp.
+ För frågor och felsökning är Aspose-communityt till stor hjälp. Du kan besöka deras[supportforum](https://forum.aspose.com/c/cells/9) för hjälp.

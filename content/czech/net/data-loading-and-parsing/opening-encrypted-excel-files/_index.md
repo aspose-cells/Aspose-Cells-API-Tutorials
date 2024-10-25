@@ -1,6 +1,6 @@
 ---
-title: Otevírání šifrovaných souborů Excel
-linktitle: Otevírání šifrovaných souborů Excel
+title: Otevírání šifrovaných souborů aplikace Excel
+linktitle: Otevírání šifrovaných souborů aplikace Excel
 second_title: Aspose.Cells .NET Excel Processing API
 description: V tomto podrobném průvodci se dozvíte, jak otevřít zašifrované soubory aplikace Excel pomocí Aspose.Cells for .NET. Odemkněte svá data.
 type: docs
@@ -39,7 +39,7 @@ string dataDir = "Your Document Directory";
 ```
  Nahradit`"Your Document Directory"` se skutečnou cestou, kde se nachází váš soubor Excel. Pokud je například uložen v`C:\Documents` , napsal byste`string dataDir = "C:\\Documents";`. Dvojitá zpětná lomítka jsou v C# nezbytná, aby se znak zpětného lomítka vyhnul.
 ## Krok 2: Vytvořte okamžité možnosti LoadOptions
- Dále musíte vytvořit instanci souboru`LoadOptions`třída. Tato třída nám pomáhá specifikovat různé možnosti načítání, včetně hesla potřebného k otevření zašifrovaného souboru.
+ Dále musíte vytvořit instanci souboru`LoadOptions` třída. Tato třída nám pomáhá specifikovat různé možnosti načítání, včetně hesla potřebného k otevření zašifrovaného souboru.
 ```csharp
 // Okamžité možnosti LoadOptions
 LoadOptions loadOptions = new LoadOptions();
@@ -58,7 +58,7 @@ loadOptions.Password = "1234"; // Nahraďte „1234“ svým skutečným heslem
 // Vytvořte objekt sešit a otevřete soubor z jeho cesty
 Workbook wbEncrypted = new Workbook(dataDir + "encryptedBook.xls", loadOptions);
 ```
- Tady stavíte nový`Workbook` objekt a předání cesty k vašemu zašifrovanému souboru a`loadOptions`které obsahují vaše heslo. Pokud vše půjde dobře, tento řádek by měl úspěšně otevřít váš zašifrovaný soubor.
+ Tady stavíte nový`Workbook` objekt a předání cesty k vašemu zašifrovanému souboru a`loadOptions` které obsahují vaše heslo. Pokud vše půjde dobře, tento řádek by měl úspěšně otevřít váš zašifrovaný soubor.
 ## Krok 5: Potvrďte úspěšný přístup k souboru
 Nakonec je dobrým zvykem potvrdit, že jste soubor úspěšně otevřeli. 
 ```csharp
@@ -70,7 +70,7 @@ Gratuluji! Úspěšně jste se naučili, jak otevřít šifrované soubory Excel
  Pamatujte, že práce se zašifrovanými soubory může být složitá, ale s nástroji jako Aspose.Cells se to stane hračkou. Pokud se chcete ponořit hlouběji, zkontrolujte[dokumentace](https://reference.aspose.com/cells/net/) pro pokročilejší funkce.
 ## FAQ
 ### Mohu otevřít soubory aplikace Excel zašifrované různými hesly?
- Ano, stačí aktualizovat`Password` pole v`LoadOptions`aby se shodovalo s heslem souboru Excel, který chcete otevřít.
+ Ano, stačí aktualizovat`Password` pole v`LoadOptions` aby se shodovalo s heslem souboru Excel, který chcete otevřít.
 ### Je Aspose.Cells zdarma k použití?
  Aspose.Cells není zdarma; můžete však začít s a[zkušební verze zdarma](https://releases.aspose.com/) prozkoumat jeho vlastnosti.
 ### Jaké typy souborů aplikace Excel dokáže Aspose.Cells zpracovat?

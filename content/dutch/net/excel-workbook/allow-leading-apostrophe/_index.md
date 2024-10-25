@@ -16,7 +16,7 @@ Welkom bij deze stapsgewijze handleiding over hoe u Aspose.Cells voor .NET kunt 
 Voordat u in de code duikt, zijn hier een paar vereisten waaraan u moet voldoen:
 
 1. Basiskennis van .NET: Kennis van het .NET-framework is essentieel. Als u al wat ervaring hebt met C# of VB.NET, beschouw uzelf dan als klaar.
-2. Aspose.Cells voor .NET-bibliotheek: U moet Aspose.Cells geïnstalleerd hebben. U kunt dit eenvoudig doen via NuGet-pakketbeheer of het downloaden van de[Aspose-site](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells voor .NET-bibliotheek: U moet Aspose.Cells geïnstalleerd hebben. U kunt dit eenvoudig doen via NuGet-pakketbeheer of het downloaden van de[Aspose-site](https://releases.aspose.com/cells/net/).
 3. IDE-installatie: zorg dat u een Integrated Development Environment (IDE) zoals Visual Studio gereed hebt voor codering.
 4. Voorbeeld Excel-bestand: U kunt het voorbeeldbestand ("AllowLeadingApostropheSample.xlsx") gebruiken waarmee we in de code werken.
 
@@ -56,7 +56,7 @@ Nu gaan we WorkbookDesigner instantiëren. Dit is essentieel voor het werken met
 WorkbookDesigner designer = new WorkbookDesigner();
 ```
 
- De`WorkbookDesigner` beheert het ontwerp en de gegevensbinding van onze werkmap, waardoor het gemakkelijker wordt om gegevens om te zetten in een visueel formaat.
+ De`WorkbookDesigner`beheert het ontwerp en de gegevensbinding van onze werkmap, waardoor het gemakkelijker wordt om gegevens om te zetten in een visueel formaat.
 
 ## Stap 3: Laad de bestaande werkmap
 
@@ -90,7 +90,7 @@ List<DataObject> list = new List<DataObject>
 };
 ```
 
- Wij maken een lijst van`DataObject`, waarbij een van de namen opzettelijk een leidende apostrof bevat. Dit zal helpen illustreren hoe Aspose.Cells met dergelijke scenario's omgaat.
+ Wij maken een lijst van`DataObject`waarbij een van de namen opzettelijk een leidende apostrof bevat. Dit zal helpen illustreren hoe Aspose.Cells met dergelijke scenario's omgaat.
 
 ## Stap 6: Koppel de gegevensbron aan de ontwerper
 
@@ -144,7 +144,7 @@ Of u nu rapporten genereert, functionaliteiten voor gegevensanalyse creëert of 
 Aspose.Cells is een krachtige .NET-bibliotheek voor het programmatisch maken, bewerken en converteren van Excel-bestanden in verschillende formaten.
 
 ### Kan ik Aspose.Cells gratis gebruiken?
-Ja, u kunt Aspose.Cells gebruiken door u aan te melden voor een gratis proefperiode[hier](https://releases.aspose.com/).
+ Ja, u kunt Aspose.Cells gebruiken door u aan te melden voor een gratis proefperiode[hier](https://releases.aspose.com/).
 
 ### Hoe kan ik ondersteuning krijgen voor Aspose.Cells?
  U kunt op de website terecht voor hulp en vragen stellen.[Aspose Ondersteuningsforum](https://forum.aspose.com/c/cells/9).

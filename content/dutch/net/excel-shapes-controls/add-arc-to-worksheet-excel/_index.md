@@ -38,7 +38,7 @@ Hieronder vindt u een stapsgewijze uitleg van de code die laat zien hoe u bogen 
 De eerste stap is om een directory in te stellen waar u uw Excel-bestand opslaat. Dit helpt bij het eenvoudig beheren van uw uitvoerbestanden.
 ```csharp
 string dataDir = "Your Document Directory";
-//Maak een map aan als deze nog niet bestaat.
+// Maak een map aan als deze nog niet bestaat.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -101,7 +101,7 @@ excelbook.Save(dataDir + "book1.out.xls");
 ```
 Deze regel werkt alsof je op de opslaan-knop drukt. We slaan ons werk op de opgegeven locatie op met een aangewezen bestandsnaam. Controleer je directory om je meesterwerk in Excel-formaat te zien!
 ## Conclusie
-In deze tutorial hebben we het proces van het toevoegen van boogvormen aan een Excel-werkblad met Aspose.Cells voor .NET onderzocht. Via een eenvoudige stapsgewijze handleiding hebt u geleerd hoe u een nieuwe werkmap maakt, bogen toevoegt, hun uiterlijk aanpast en uw document opslaat. Deze mogelijkheid verbetert niet alleen de visuele aantrekkingskracht van uw spreadsheets, maar maakt uw gegevenspresentaties ook informatiever. Of u nu grafieken, rapporten maakt of gewoon experimenteert, het gebruik van vormen zoals bogen kan een creatieve draai geven aan uw projecten.
+In deze tutorial hebben we het proces van het toevoegen van boogvormen aan een Excel-werkblad met Aspose.Cells voor .NET onderzocht. Via een eenvoudige stapsgewijze handleiding hebt u geleerd hoe u een nieuwe werkmap maakt, bogen toevoegt, hun uiterlijk aanpast en uw document opslaat. Deze mogelijkheid verbetert niet alleen de visuele aantrekkingskracht van uw spreadsheets, maar maakt uw gegevenspresentaties ook informatiever. Of u nu grafieken of rapporten maakt of gewoon experimenteert, het gebruik van vormen zoals bogen kan een creatieve draai geven aan uw projecten.
 ## Veelgestelde vragen
 ### Wat is Aspose.Cells?
 Aspose.Cells is een krachtige bibliotheek waarmee ontwikkelaars programmatisch Excel-bestanden kunnen maken, bewerken en converteren zonder dat ze Microsoft Excel nodig hebben.

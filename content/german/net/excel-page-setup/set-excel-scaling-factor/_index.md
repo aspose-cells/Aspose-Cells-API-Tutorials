@@ -9,7 +9,7 @@ url: /de/net/excel-page-setup/set-excel-scaling-factor/
 ---
 ## Einführung
 
-Wenn es um die programmgesteuerte Verarbeitung von Excel-Dateien geht, sticht Aspose.Cells für .NET als erstklassige Bibliothek hervor, die es Entwicklern ermöglicht, Tabellenkalkulationen nahtlos zu bearbeiten und zu erstellen. Eine häufige Anforderung bei der Arbeit mit Excel ist das Anpassen des Skalierungsfaktors eines Arbeitsblatts, um sicherzustellen, dass sein Inhalt beim Drucken oder Anzeigen perfekt passt. In diesem Artikel führen wir Sie durch den Prozess zum Einstellen des Excel-Skalierungsfaktors mit Aspose.Cells für .NET und bieten Ihnen eine umfassende Anleitung, die leicht zu befolgen ist.
+Wenn es um die programmgesteuerte Verarbeitung von Excel-Dateien geht, sticht Aspose.Cells für .NET als erstklassige Bibliothek hervor, die es Entwicklern ermöglicht, Tabellenkalkulationen nahtlos zu bearbeiten und zu erstellen. Eine häufige Anforderung bei der Arbeit mit Excel ist die Anpassung des Skalierungsfaktors eines Arbeitsblatts, um sicherzustellen, dass sein Inhalt beim Drucken oder Anzeigen perfekt passt. In diesem Artikel führen wir Sie durch den Prozess der Einstellung des Excel-Skalierungsfaktors mit Aspose.Cells für .NET und bieten Ihnen eine umfassende Anleitung, die leicht zu befolgen ist.
 
 ## Voraussetzungen
 
@@ -29,7 +29,7 @@ Bevor Sie Code schreiben, müssen Sie in Ihrem Projekt einen Verweis auf die Asp
 ### Herunterladen der DLL
 
 1.  Gehen Sie zum[Aspose Downloads-Seite](https://releases.aspose.com/cells/net/) und laden Sie das entsprechende Paket für Ihre .NET-Version herunter.
-2. Extrahieren Sie die heruntergeladene Datei und suchen Sie die`Aspose.Cells.dll` Datei.
+2.  Extrahieren Sie die heruntergeladene Datei und suchen Sie die`Aspose.Cells.dll` Datei.
 
 ### Verweis in Visual Studio hinzufügen
 

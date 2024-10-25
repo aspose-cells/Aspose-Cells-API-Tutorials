@@ -16,7 +16,7 @@ url: /ko/net/excel-workbook/access-web-extension-information/
 소매를 걷어붙이고 시작하기 전에 설정해야 할 몇 가지 사항이 있습니다. 모든 것이 순조롭게 진행되도록 하기 위한 체크리스트는 다음과 같습니다.
 
 1. .NET 환경: 컴퓨터에 .NET 환경이 설정되어 있는지 확인하세요. 이는 일반적으로 Visual Studio 또는 다른 호환 IDE가 설치되어 있음을 의미합니다.
-2. .NET용 Aspose.Cells: Aspose.Cells 라이브러리가 필요합니다. 걱정하지 마세요. 쉽게 할 수 있습니다.[최신 버전을 여기에서 다운로드하세요](https://releases.aspose.com/cells/net/).
+2.  .NET용 Aspose.Cells: Aspose.Cells 라이브러리가 필요합니다. 걱정하지 마세요. 쉽게 할 수 있습니다.[최신 버전을 여기에서 다운로드하세요](https://releases.aspose.com/cells/net/).
 3.  샘플 Excel 파일: 이 튜토리얼의 경우 샘플 Excel 파일(예:`WebExtensionsSample.xlsx`) 접근 가능합니다. 웹 확장 기능이 있는 것을 만들거나 필요한 경우 다운로드할 수 있습니다. 
 4. 기본 C# 지식: C# 프로그래밍에 대한 기본적인 이해가 있으면 이 튜토리얼을 훨씬 더 쉽게 탐색할 수 있습니다.
 5. NuGet 패키지 관리자: NuGet에 익숙하면 프로젝트 내에서 Aspose.Cells를 원활하게 관리하는 데 도움이 됩니다.
@@ -62,12 +62,12 @@ WebExtensionTaskPaneCollection taskPanes = workbook.Worksheets.WebExtensionTaskP
 
 ## 4단계: 작업 창 반복
 
- 컬렉션이 있으면 다음 논리적 단계는 각 작업 창을 반복하고 속성을 가져오는 것입니다.`foreach` loop는 각 작업창을 원활하게 탐색할 수 있는 훌륭한 방법입니다.
+컬렉션이 있으면 다음 논리적 단계는 각 작업 창을 반복하고 속성을 가져오는 것입니다.`foreach` loop는 각 작업창을 원활하게 탐색할 수 있는 훌륭한 방법입니다.
 
 ```csharp
 foreach (WebExtensionTaskPane taskPane in taskPanes)
 {
-    //이 루프 내부에서 속성을 추출합니다.
+    // 이 루프 내부에서 속성을 추출합니다.
 }
 ```
 

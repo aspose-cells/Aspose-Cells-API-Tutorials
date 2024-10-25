@@ -17,7 +17,7 @@ url: /zh-hant/net/excel-page-setup/set-excel-scaling-factor/
 
 1. 已安裝 Visual Studio：確保您的電腦上安裝了 Visual Studio，因為我們將在此環境中編寫程式碼。
 2.  Aspose.Cells for .NET Library：取得 Aspose.Cells 函式庫的副本。您可以從[Aspose 發佈頁面](https://releases.aspose.com/cells/net/)。如果您不確定，您可以從[免費試用](https://releases.aspose.com/).
-3. C# 基礎知識：對 C# 程式設計有基本的了解將很有幫助，特別是如果您不熟悉程式庫的使用。
+3. C# 基礎知識：對 C# 程式設計有基本的了解將會很有幫助，特別是如果您不熟悉程式庫的使用。
 4. .NET Framework：確保您的專案針對該程式庫的 .NET Framework 的相容版本。
 
 現在我們已經確定了您需要的內容，讓我們開始匯入必要的套件。
@@ -102,7 +102,7 @@ worksheet.PageSetup.Zoom = 100;
 workbook.Save(dataDir + "ScalingFactor_out.xls");
 ```
 
-這將保存應用了縮放係數的 Excel 檔案。確保將有效的檔案名稱附加到您的`dataDir`.
+這將保存應用了縮放因子的 Excel 檔案。確保將有效的檔案名稱附加到您的`dataDir`.
 
 ## 結論
 

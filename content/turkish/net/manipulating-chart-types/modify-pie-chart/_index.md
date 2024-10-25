@@ -96,11 +96,11 @@ Workbook workbook = new Workbook(sourceDir + "sampleModifyPieChart.xlsx");
 Şimdi, pasta grafiğini içeren belirli sayfaya dalalım. Pasta grafiğinin ikinci çalışma sayfasında (indeks 1) olduğunu varsayacağız:
 
 ```csharp
-//İkinci sayfadaki tasarımcı şemasını alın.
+// İkinci sayfadaki tasarımcı şemasını alın.
 Worksheet sheet = workbook.Worksheets[1];
 ```
 
- Erişim sağlayarak`Worksheets` koleksiyonunu kullanarak ihtiyacımız olan belirli sayfaya ulaşabiliriz.
+ Erişim sağlayarak`Worksheets`koleksiyonunu kullanarak ihtiyacımız olan belirli sayfaya ulaşabiliriz.
 
 ## Adım 4: Tabloyu Alın
 

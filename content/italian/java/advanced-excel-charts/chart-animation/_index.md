@@ -16,7 +16,7 @@ In questo tutorial, esploreremo come creare animazioni dinamiche di grafici util
 
 Prima di addentrarci nella creazione di animazioni di grafici, assicurati di disporre dei seguenti prerequisiti:
 
-1. Aspose.Cells per Java: assicurati di avere installata la libreria Aspose.Cells per Java. Puoi scaricarla da[Qui](https://releases.aspose.com/cells/java/).
+1.  Aspose.Cells per Java: assicurati di avere installata la libreria Aspose.Cells per Java. Puoi scaricarla da[Qui](https://releases.aspose.com/cells/java/).
 
 2. Ambiente di sviluppo Java: dovresti avere un ambiente di sviluppo Java configurato sul tuo sistema.
 
@@ -76,13 +76,13 @@ workbook.save("output.xlsx");
 
 ## Conclusione
 
-In questo tutorial, abbiamo imparato come creare animazioni di grafici usando l'API Aspose.Cells per Java. Abbiamo trattato i passaggi essenziali, tra cui l'importazione della libreria, il caricamento o la creazione di una cartella di lavoro Excel, l'accesso al grafico, la configurazione delle impostazioni di animazione e il salvataggio della cartella di lavoro. Incorporando le animazioni di grafici nei tuoi report e nelle tue presentazioni, puoi dare vita ai tuoi dati e trasmettere il tuo messaggio in modo efficace.
+In questo tutorial, abbiamo imparato come creare animazioni di grafici usando l'API Aspose.Cells for Java. Abbiamo trattato i passaggi essenziali, tra cui l'importazione della libreria, il caricamento o la creazione di una cartella di lavoro Excel, l'accesso al grafico, la configurazione delle impostazioni di animazione e il salvataggio della cartella di lavoro. Incorporando le animazioni di grafici nei tuoi report e nelle tue presentazioni, puoi dare vita ai tuoi dati e trasmettere il tuo messaggio in modo efficace.
 
 ## Domande frequenti
 
 ### Come posso cambiare il tipo di animazione?
 
- Per cambiare il tipo di animazione, utilizzare`setAnimationType` metodo sull'oggetto grafico. Puoi scegliere tra vari tipi come`SLIDE`, `FADE` E`GROW_SHRINK`.
+ Per cambiare il tipo di animazione, utilizzare`setAnimationType` metodo sull'oggetto grafico. Puoi scegliere tra vari tipi come`SLIDE`, `FADE` , E`GROW_SHRINK`.
 
 ### Posso personalizzare la durata dell'animazione?
 
@@ -90,4 +90,4 @@ In questo tutorial, abbiamo imparato come creare animazioni di grafici usando l'
 
 ### Qual è lo scopo del ritardo dell'animazione?
 
- Il ritardo dell'animazione determina l'intervallo di tempo prima che inizi l'animazione del grafico. Utilizzare`setAnimationDelay` Metodo per impostare il ritardo in millisecondi.
+ Il ritardo dell'animazione determina l'intervallo di tempo prima che inizi l'animazione del grafico. Utilizzare`setAnimationDelay`Metodo per impostare il ritardo in millisecondi.

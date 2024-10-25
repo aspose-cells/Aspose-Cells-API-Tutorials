@@ -13,7 +13,7 @@ url: /es/net/worksheet-operations/
 
 ## Obtener hipervínculos en un rango en .NET
 
-Una de las características de Excel que a menudo se pasan por alto es la capacidad de trabajar con hipervínculos. ¿Sabía que con Aspose.Cells para .NET puede extraer y administrar fácilmente hipervínculos de sus hojas de cálculo? ¡Es cierto! Este tutorial lo guía a través del proceso paso a paso, con fragmentos de código y ejemplos. Imagine que está trabajando en un informe enorme y necesita extraer todos los vínculos dispersos en él. En lugar de buscar en cada celda, puede automatizar esta tarea.[Leer más](./get-hyperlinks-in-a-range/).
+ Una de las características de Excel que a menudo se pasan por alto es la capacidad de trabajar con hipervínculos. ¿Sabía que con Aspose.Cells para .NET puede extraer y administrar fácilmente hipervínculos de sus hojas de cálculo? ¡Es cierto! Este tutorial lo guía a través del proceso paso a paso, con fragmentos de código y ejemplos. Imagine que está trabajando en un informe enorme y necesita extraer todos los vínculos dispersos en él. En lugar de buscar en cada celda, puede automatizar esta tarea.[Leer más](./get-hyperlinks-in-a-range/).
 
 Este tutorial no se limita a la extracción, sino que también le enseña a manipular esos hipervínculos y a realizar cambios sobre la marcha. Imagínese lo siguiente: ha extraído una amplia gama de hipervínculos y ahora, gracias a unas pocas líneas de código, puede actualizarlos todos a la vez. Esto le ahorrará mucho tiempo y posibles dolores de cabeza.
 
@@ -21,7 +21,7 @@ Este tutorial no se limita a la extracción, sino que también le enseña a mani
 
 Ahora, cambiemos un poco de tema. ¿Alguna vez has convertido un archivo de Excel a HTML y te ha decepcionado su aspecto? ¡No te preocupes más! Nuestro tutorial sobre cómo configurar las preferencias de imagen para la conversión a HTML es exactamente lo que necesitas. Al mostrar datos de Excel en línea, la presentación es clave. Todos sabemos que las primeras impresiones importan, ¿verdad?
 
- En esta guía, aprenderá a mejorar el atractivo visual de sus datos de Excel al convertirlos a HTML. Ya sea que se trate de configurar el tamaño de las imágenes o de garantizar que se muestren correctamente en diferentes dispositivos, este tutorial lo cubre todo. Si domina estas configuraciones, puede asegurarse de que sus datos brillen en línea. ¿Quién no querría que su audiencia se sorprenda con datos presentados de manera hermosa?[Leer más](./setting-image-preferences-for-html/).
+En esta guía, aprenderá a mejorar el atractivo visual de sus datos de Excel al convertirlos a HTML. Ya sea que se trate de configurar el tamaño de las imágenes o de garantizar que se muestren correctamente en diferentes dispositivos, este tutorial lo cubre todo. Si domina estas configuraciones, puede asegurarse de que sus datos brillen en línea. ¿Quién no querría que su audiencia se sorprenda con datos presentados de manera hermosa?[Leer más](./setting-image-preferences-for-html/).
 
 ## Tutoriales de operaciones con hojas de trabajo
 ### [Obtener hipervínculos en un rango en .NET](./get-hyperlinks-in-a-range/)

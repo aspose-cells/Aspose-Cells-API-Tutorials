@@ -31,7 +31,7 @@ using System.Drawing;
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = "Your Document Directory";
-//إنشاء الدليل إذا لم يكن موجودًا بالفعل.
+// إنشاء الدليل إذا لم يكن موجودًا بالفعل.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -132,7 +132,7 @@ excelbook.Save(dataDir + "book1.out.xls");
 ### ما هو Aspose.Cells؟
 Aspose.Cells عبارة عن مكتبة .NET قوية تتيح للمطورين إنشاء ملفات Excel ومعالجتها وتحويلها برمجيًا.
 ### هل يمكنني استخدام Aspose.Cells مجانًا؟
-نعم، يقدم Aspose.Cells نسخة تجريبية مجانية، والتي يمكنك العثور عليها[هنا](https://releases.aspose.com/).
+ نعم، يقدم Aspose.Cells نسخة تجريبية مجانية، والتي يمكنك العثور عليها[هنا](https://releases.aspose.com/).
 ### كيف أضيف عناصر تحكم أخرى إلى ورقة Excel الخاصة بي؟
 يمكنك استخدام طرق مشابهة لتلك الموضحة لشريط التمرير. ما عليك سوى مراجعة الوثائق للحصول على المزيد من عناصر التحكم!
 ### ما هي لغات البرمجة التي يمكنني استخدامها مع Aspose.Cells؟

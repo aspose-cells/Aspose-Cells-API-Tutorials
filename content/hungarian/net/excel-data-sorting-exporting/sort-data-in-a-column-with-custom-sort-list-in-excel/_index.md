@@ -21,7 +21,7 @@ Míg az oktatóanyag úgy készült, hogy végigvezeti Önt az egyes lépéseken
 
 ### .NET fejlesztői környezet
 
-Győződjön meg arról, hogy be van állítva egy működő .NET fejlesztői környezet. Használhatja a Visual Studio-t vagy bármely más IDE-t, amely támogatja a .NET fejlesztést.
+Győződjön meg arról, hogy működő .NET fejlesztői környezet van beállítva. Használhatja a Visual Studio-t vagy bármely más IDE-t, amely támogatja a .NET fejlesztést.
 
 ### Aspose.Cells a .NET NuGet csomaghoz
 
@@ -132,7 +132,7 @@ Igen! Ha szükséges, további kulcsokat is hozzáadhat a több oszlop szerinti 
 Bár hasznos, követheti ezt az oktatóanyagot, és menet közben tanulhat! A C# alapszintű ismerete javítja a tanulási élményt.
 
 ### Használható-e ideiglenes licenc az Aspose.Cells számára?
-Teljesen! Ideiglenes licencet szerezhet be, ha korlátozás nélkül szeretné tesztelni a könyvtár teljes szolgáltatását.
+Teljesen! Ideiglenes licencet szerezhet, ha korlátozás nélkül szeretné tesztelni a könyvtár teljes szolgáltatását.
 
 ### Letölthetek példákat vagy dokumentációt az Aspose.Cells-hez?
  Igen! Az Aspose kiterjedt dokumentációt és mintaprojekteket kínál, amelyek nagy segítségére lehetnek. Nézze meg a[Aspose.Cells Documentation](https://reference.aspose.com/cells/net/).

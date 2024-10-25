@@ -2,7 +2,7 @@
 title: Otevření souboru pouze s daty
 linktitle: Otevření souboru pouze s daty
 second_title: Aspose.Cells .NET Excel Processing API
-description: Naučte se otevírat soubory Excelu se zaměřením pouze na data pomocí Aspose.Cells for .NET. Jednoduchý průvodce pro vývojáře .NET, jak zefektivnit operace Excelu.
+description: Osvojte si, jak otevřít soubory aplikace Excel se zaměřením pouze na data pomocí Aspose.Cells pro .NET. Jednoduchý průvodce pro vývojáře .NET, jak zefektivnit operace Excelu.
 type: docs
 weight: 11
 url: /cs/net/data-loading-and-parsing/opening-file-with-data-only/
@@ -51,7 +51,7 @@ Berte to jako poskytování konkrétních pokynů – v podstatě říkáte: „
 ## Krok 4: Vytvořte objekt sešitu
  Dobře, už jsme skoro tam! Nyní vytvoříme a`Workbook` objekt, což je v podstatě místo, kam Aspose.Cells načte obsah vašeho souboru Excel.
 ```csharp
-// Vytvořte objekt sešitu a otevřete soubor z jeho cesty
+//Vytvořte objekt sešitu a otevřete soubor z jeho cesty
 Workbook book = new Workbook(dataDir + "Book1.xlsx", loadOptions);
 ```
  V tomto řádku vyměňte`"Book1.xlsx"` s názvem vašeho skutečného souboru Excel. Voilà! Váš sešit je nabitý všemi důležitými údaji.
@@ -60,7 +60,7 @@ Nakonec si pojďme potvrdit, že vše proběhlo hladce. Vždy je dobrou praxí o
 ```csharp
 Console.WriteLine("File data imported successfully!");
 ```
-Pokud vše proběhlo podle plánu, měla by se vám na konzole zobrazit tato zpráva, která potvrzuje, že váš soubor je načten a jste připraveni na další kroky!
+Pokud vše proběhlo podle plánu, měli byste na konzoli vidět tuto zprávu, která potvrzuje, že váš soubor je načten a jste připraveni na další kroky!
 ## Závěr
 tady to máte! Právě jste se naučili, jak otevřít soubor aplikace Excel a zároveň extrahovat pouze nezbytná data pomocí Aspose.Cells for .NET. Nyní můžete manipulovat s těmito soubory Excel bohatými na data, aniž byste se museli obtěžovat nerelevantními prvky. To vám může ušetřit čas a výrazně zefektivnit vaše projekty.
  Pokud máte další otázky nebo potřebujete pomoc, neváhejte prozkoumat rozsáhlé[dokumentace](https://reference.aspose.com/cells/net/) nebo se podívejte na fórum Aspose pro podporu komunity. Pamatujte, že cesta v programování je nepřetržitá a každý krok, který uděláte, je cennou zkušeností.

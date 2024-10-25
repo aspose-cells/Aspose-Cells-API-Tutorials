@@ -16,7 +16,7 @@ Administrar archivos de Excel a veces puede parecer como navegar por un laberint
 Antes de comenzar con la codificación, es fundamental asegurarse de que todo esté configurado correctamente. Esto es lo que necesitará:
 
 1. Visual Studio: asegúrese de tener Visual Studio (cualquier versión que admita .NET) instalado en su computadora.
-2.  Aspose.Cells para .NET: Descargue e instale la biblioteca Aspose.Cells desde[El sitio de Aspose](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells para .NET: Descargue e instale la biblioteca Aspose.Cells desde[El sitio de Aspose](https://releases.aspose.com/cells/net/).
 3. Conocimientos básicos de C#: Un poco de familiaridad con la programación en C# será útil ya que trabajaremos dentro de un contexto de C#.
 4.  Archivo Excel de muestra: para demostración, tenga preparado un archivo Excel de muestra (por ejemplo,`sampleChangeCellsAlignmentAndKeepExistingFormatting.xlsx`) que contiene algún formato de celda inicial.
 
@@ -89,7 +89,7 @@ En este ejemplo se accede a la primera hoja de cálculo. Si los datos están en 
 Determine qué celdas desea modificar creando un rango. Esta selección se centrará en un rango específico, como “B2:D7”.
 
 ```csharp
-// Crear rango de celdas.
+//Crear rango de celdas.
 Range rng = ws.Cells.CreateRange("B2:D7");
 ```
 
@@ -122,14 +122,14 @@ StyleFlag flag = new StyleFlag();
 flag.Alignments = true;
 ```
 
- Al configurar el`Alignments`propiedad de StyleFlag a`true`, le indica a Aspose.Cells que aplique los estilos de alineación correctamente.
+ Al configurar el`Alignments` propiedad de StyleFlag a`true`, le indica a Aspose.Cells que aplique los estilos de alineación correctamente.
 
 ## Paso 7: Aplicar el estilo al rango de celdas
 
 Con sus estilos y banderas en su lugar, es momento de aplicar esos estilos al rango de celdas:
 
 ```csharp
-// Aplicar estilo a un rango de celdas.
+//Aplicar estilo a un rango de celdas.
 rng.ApplyStyle(st, flag);
 ```
 

@@ -96,4 +96,4 @@ Aspose.Cells는 개발자가 Excel 파일을 프로그래밍 방식으로 만들
 ### 문제가 생기면 어디에서 도움을 받을 수 있나요?
  Aspose 커뮤니티 포럼은 문제 해결 및 조언을 위한 유용한 리소스입니다.[Aspose 지원](https://forum.aspose.com/c/cells/9).
 ### Aspose.Cells에 사용할 수 있는 임시 라이센스가 있나요?
- 네! 임시 면허를 신청할 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/) 모든 기능을 제한 없이 사용해보세요.
+네! 임시 면허를 신청할 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/) 모든 기능을 제한 없이 사용해보세요.

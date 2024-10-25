@@ -35,4 +35,4 @@ Képzeld el, hogy egy megbeszélésen ülsz, ahol diagramok és grafikonok ugrá
 ### [Hozzon létre elnevezett cellatartományt az Excelben](./create-named-range-of-cells/)
 Ebből a lépésenkénti útmutatóból megtudhatja, hogyan hozhat létre egyszerűen elnevezett cellatartományt az Excelben az Aspose.Cells for .NET használatával. Egyszerűsítse adatkezelését.
 ### [Tartományok formázása Excelben](./format-ranges/)
-Sajátítsa el a tartományok formázásának művészetét az Excelben az Aspose.Cells for .NET segítségével átfogó, lépésenkénti útmutatónkkal. Emelje fel az adatok megjelenítését.
+Sajátítsa el a tartományok formázásának művészetét az Excelben az Aspose.Cells for .NET segítségével átfogó, lépésről lépésre szóló útmutatónkkal. Emelje fel az adatok megjelenítését.

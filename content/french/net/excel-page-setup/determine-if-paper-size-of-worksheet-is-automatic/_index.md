@@ -25,7 +25,7 @@ Bien qu'Aspose.Cells simplifie de nombreuses tâches, une compréhension fondame
 Vous devez disposer d'un IDE tel que Visual Studio. Il vous guidera dans la gestion et le test efficaces de votre code.
 
 ### Exemples de fichiers Excel
-Vous aurez besoin de fichiers d'exemple (`samplePageSetupIsAutomaticPaperSize-False.xlsx` et`samplePageSetupIsAutomaticPaperSize-True.xlsx`) à des fins de test. Assurez-vous que ces fichiers se trouvent dans votre répertoire source.
+Vous aurez besoin de fichiers d'exemple (`samplePageSetupIsAutomaticPaperSize-False.xlsx` et`samplePageSetupIsAutomaticPaperSize-True.xlsx`à des fins de test. Assurez-vous que ces fichiers se trouvent dans votre répertoire source.
 
 ## Paquets d'importation
 
@@ -83,7 +83,7 @@ Console.WriteLine("First Worksheet of Second Workbook - IsAutomaticPaperSize: " 
 
  Ici, nous imprimons les résultats sur la console. Vous verrez`True` ou`False`, en fonction des paramètres de chaque feuille de calcul.
 
-## Étape 5 : Emballer
+## Étape 5 : Terminez le travail
 
 Enfin, c'est une bonne habitude de fournir un retour d'information indiquant que votre code a été exécuté avec succès. Ajoutez un message simple à la fin de votre méthode principale :
 

@@ -203,7 +203,7 @@ A validação de dados no Excel é um recurso que restringe o tipo de dados que 
 Sim! Você pode fornecer mensagens de erro personalizadas para orientar os usuários quando entradas de dados incorretas forem feitas.
 
 ### O Aspose.Cells é gratuito?
- Aspose.Cells oferece um teste gratuito, mas você precisará de uma licença para uso de longo prazo. Você pode encontrar mais informações sobre como adquirir uma licença temporária[aqui](https://purchase.aspose.com/temporary-license/).
+ O Aspose.Cells oferece um teste gratuito, mas você precisará de uma licença para uso de longo prazo. Você pode encontrar mais informações sobre como adquirir uma licença temporária[aqui](https://purchase.aspose.com/temporary-license/).
 
 ### Que tipos de dados posso validar no Excel?
 Com o Aspose.Cells, você pode validar vários tipos de dados, incluindo números inteiros, decimais, datas, listas e fórmulas personalizadas.

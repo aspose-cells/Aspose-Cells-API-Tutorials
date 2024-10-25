@@ -84,4 +84,4 @@ Az Aspose.Cells for .NET egy hatékony könyvtár, amely lehetővé teszi a fejl
 ### Hol kérhetek támogatást az Aspose.Cells-szel kapcsolatban?
  Segítséget kérhetsz a[Aspose támogatási fórum](https://forum.aspose.com/c/cells/9).
 ### Hogyan szerezhetek ideiglenes licencet az Aspose.Cells számára?
- Jelentkezni lehet a[ideiglenes engedély](https://purchase.aspose.com/temporary-license/)ha értékelési célból szüksége van rá.
+ Jelentkezni lehet a[ideiglenes engedély](https://purchase.aspose.com/temporary-license/) ha értékelési célból szüksége van rá.

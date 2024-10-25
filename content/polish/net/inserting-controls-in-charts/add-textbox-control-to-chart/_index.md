@@ -16,7 +16,7 @@ Tworzenie dynamicznych i wizualnie atrakcyjnych wykresów w programie Excel to f
 Zanim przejdziemy do kodowania, jest kilka rzeczy, które powinieneś mieć na miejscu:
 
 - Podstawowa znajomość języka C#: podstawowa znajomość programowania w języku C# będzie pomocna. Nie martw się; nie musisz być ekspertem, wystarczy, że będziesz swobodnie poruszać się po składni.
-- Zainstalowana biblioteka Aspose.Cells: Upewnij się, że masz zainstalowaną bibliotekę Aspose.Cells dla .NET. Możesz ją pobrać z[Tutaj](https://releases.aspose.com/cells/net/) jeśli jeszcze tego nie zrobiłeś.
+-  Zainstalowana biblioteka Aspose.Cells: Upewnij się, że masz zainstalowaną bibliotekę Aspose.Cells dla .NET. Możesz ją pobrać z[Tutaj](https://releases.aspose.com/cells/net/)jeśli jeszcze tego nie zrobiłeś.
 - Visual Studio: Znajomość programu Visual Studio lub dowolnego środowiska IDE preferowanego do obsługi platformy .NET jest niezbędna.
 - Istniejący plik Excela: W tym przykładzie będziemy pracować z istniejącym plikiem Excela o nazwie „sampleAddingTextBoxControlInChart.xls”. Możesz utworzyć plik lub pobrać próbkę.
 
@@ -136,7 +136,7 @@ Ostatnim krokiem jest zapisanie zmian, które wprowadziłeś do nowego pliku Exc
 // Zapisz plik Excela.
 workbook.Save(outputDir + "outputAddingTextBoxControlInChart.xls");
 ```
- Zastępować`"outputAddingTextBoxControlInChart.xls"` dowolną nazwą pliku.
+ Zastępować`"outputAddingTextBoxControlInChart.xls"` z dowolną nazwą pliku.
 
 ## Wniosek
 

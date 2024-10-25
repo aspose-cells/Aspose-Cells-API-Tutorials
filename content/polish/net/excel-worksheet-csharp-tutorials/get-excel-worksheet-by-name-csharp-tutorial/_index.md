@@ -45,7 +45,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY"; // Określ katalog dokumentów
 string InputPath = Path.Combine(dataDir, "book1.xlsx"); // Połącz, aby utworzyć pełną ścieżkę
 ```
 
- Tutaj zamień`"YOUR DOCUMENT DIRECTORY"` rzeczywistą ścieżką w Twoim systemie, gdzie`book1.xlsx` jest przechowywany. Wykorzystując`Path.Combine` jest przydatny, ponieważ zapewnia, że ścieżka zostanie poprawnie skonstruowana w różnych systemach operacyjnych.
+ Tutaj zamień`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką w Twoim systemie, gdzie`book1.xlsx` jest przechowywany. Wykorzystując`Path.Combine`jest przydatny, ponieważ zapewnia, że ścieżka zostanie poprawnie skonstruowana w różnych systemach operacyjnych.
 
 ## Krok 2: Utwórz strumień plików
 

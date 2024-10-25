@@ -71,7 +71,7 @@ foreach (ReferredArea area in ret)
     Console.WriteLine(CellsHelper.CellIndexToName(area.EndRow, area.EndColumn));
 }
 ```
- I det här utdraget använder vi en enkel`foreach` loop för att skriva ut arknamnen och cellreferenserna för de celler som matas in i B4. De`CellsHelper.CellIndexToName`funktion omvandlar rad- och kolumnindex till läsbara cellreferenser som "A1", "B2" etc. 
+ I det här utdraget använder vi en enkel`foreach` loop för att skriva ut arknamnen och cellreferenserna för de celler som matas in i B4. De`CellsHelper.CellIndexToName` funktion omvandlar rad- och kolumnindex till läsbara cellreferenser som "A1", "B2" etc. 
 
 ## Slutsats
 Och där har du det! Du har framgångsrikt spårat prejudikat i Excel med Aspose.Cells för .NET. Att förstå cellberoenden kan förbättra dina kalkylbladshanteringsfärdigheter och ge klarhet i dina datadrivna beslut. Det är ungefär som att lösa ett pussel, slå ihop var din data kommer ifrån. Varsågod, prova detta på din egen data och släpp lös kraften i Aspose.Cells!
@@ -85,4 +85,4 @@ Aspose.Cells är ett .NET-bibliotek som används för att skapa, manipulera och 
 ### Är Aspose.Cells kompatibel med .NET Core?  
 Ja, Aspose.Cells stöder .NET Core, så du kan använda det över olika .NET-ramverk.
 ### Var kan jag hitta support för Aspose.Cells?  
-Du kan få hjälp med[Aspose supportforum](https://forum.aspose.com/c/cells/9).
+ Du kan få hjälp med[Aspose supportforum](https://forum.aspose.com/c/cells/9).

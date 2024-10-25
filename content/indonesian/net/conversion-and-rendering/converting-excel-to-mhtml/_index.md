@@ -26,7 +26,7 @@ Setelah semua prasyarat siap, langkah berikutnya adalah mengimpor paket yang dip
 
 1. Buka Proyek Anda: Luncurkan Visual Studio dan buka proyek Anda yang ada atau buat yang baru.
 2. Kelola Paket NuGet: Klik kanan proyek Anda di Solution Explorer, lalu pilih "Kelola Paket NuGet."
-3.  Cari dan Instal Aspose.Cells: Di kotak Pencarian, ketik`Aspose.Cells` dan instal paket tersebut. Ini memastikan Anda memiliki versi terbaru yang terintegrasi ke dalam proyek Anda.
+3.  Cari dan Instal Aspose.Cells: Di kotak Pencarian, ketik`Aspose.Cells`dan instal paket tersebut. Ini memastikan Anda memiliki versi terbaru yang terintegrasi ke dalam proyek Anda.
 4. Tambahkan Petunjuk Penggunaan: Pada berkas kode Anda, tambahkan petunjuk berikut untuk memanfaatkan namespace Aspose.Cells:
 
 ```csharp

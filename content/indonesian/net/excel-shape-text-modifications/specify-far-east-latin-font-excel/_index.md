@@ -14,7 +14,7 @@ Sebelum kita masuk ke inti pembahasan, ada beberapa hal yang perlu Anda siapkan 
 ### .NET Framework atau .NET Core
 Pastikan Anda telah menginstal .NET Framework atau .NET Core di komputer Anda. Pustaka ini berfungsi baik dengan keduanya.
 ### Instalasi Aspose.Cells
-Anda perlu mengunduh pustaka Aspose.Cells. Anda dapat[unduh dari sini](https://releases.aspose.com/cells/net/) Jika Anda tidak terbiasa dengan menginstal paket NuGet, ikuti[panduan ini](https://www.nuget.org/).
+ Anda perlu mengunduh pustaka Aspose.Cells. Anda dapat[unduh dari sini](https://releases.aspose.com/cells/net/) Jika Anda tidak terbiasa dengan menginstal paket NuGet, ikuti[panduan ini](https://www.nuget.org/).
 ### Lingkungan Pengembangan Terpadu (IDE)
 Memiliki IDE seperti Visual Studio atau JetBrains Rider dapat menyederhanakan pengkodean, debugging, dan menjalankan proyek Anda.
 ### Pengetahuan Dasar C#

@@ -58,7 +58,7 @@ Bu, üzerinde çalıştığımız an! Şimdi çalışma kitabını PDF dosyası 
 ```csharp
 if (Respose != null)
 {
-    //Pdf formatında kaydet
+    // Pdf formatında kaydet
     workbook.Save(Respose, dataDir + "output.pdf", ContentDisposition.Attachment, new PdfSaveOptions());
     Respose.End();
 }

@@ -56,7 +56,7 @@ Workbook wb = new Workbook();
 
 ## Paso 2: Acceda a la hoja de trabajo
 
-continuación, nos hacemos con la primera hoja de trabajo del libro de ejercicios. Aquí es donde se desarrollará nuestra acción.
+A continuación, nos hacemos con la primera hoja de trabajo del libro de ejercicios. Aquí es donde se desarrollará nuestra acción.
 
 ```csharp
 // Acceda a la primera hoja de trabajo
@@ -161,7 +161,7 @@ flag.QuotePrefix = true;
 rng.ApplyStyle(st, flag);
 ```
 
- En esta ronda, estamos estableciendo`flag.QuotePrefix = true`, lo que significa que queremos actualizar el prefijo de comillas de la celda.
+En esta ronda, estamos estableciendo`flag.QuotePrefix = true`, lo que significa que queremos actualizar el prefijo de comillas de la celda.
 
 ## Paso 9: Comprobación final del prefijo de cotización
 

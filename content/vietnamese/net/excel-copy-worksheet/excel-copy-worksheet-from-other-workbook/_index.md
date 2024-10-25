@@ -79,9 +79,9 @@ for (int i = 5; i < 1000; i++)
 Hãy cấu hình thiết lập trang để lặp lại các hàng tiêu đề khi in, chỉ để chúng ta có thể thấy tính năng đó hoạt động:
 
 ```csharp
-//Xác định đối tượng pagesetup dựa trên trang tính đầu tiên
+// Xác định đối tượng pagesetup dựa trên trang tính đầu tiên
 PageSetup pagesetup = ws0.PageSetup;
-// Năm hàng đầu tiên được lặp lại trong mỗi trang
+//Năm hàng đầu tiên được lặp lại trong mỗi trang
 pagesetup.PrintTitleRows = "$1:$5";
 ```
  Phần này xác định cách tài liệu của bạn sẽ được in. Bằng cách thiết lập`PrintTitleRows`, chúng tôi đảm bảo rằng năm hàng đầu tiên sẽ xuất hiện trên mọi trang in, điều này rất hữu ích cho khả năng đọc.
@@ -109,7 +109,7 @@ Hãy sao chép nội dung từ trang tính của sổ làm việc đầu tiên s
 // bài tập đầu tiên của bài tập thứ hai
 ws1.Copy(ws0);
 ```
- Các`Copy` phương pháp này lấy tất cả nội dung từ bảng tính nguồn (`ws0`và sao chép nó vào bảng tính đích (`ws1`). Quá đơn giản phải không?
+ Các`Copy` phương pháp này lấy tất cả nội dung từ bảng tính nguồn (`ws0`) và sao chép nó vào bảng tính đích (`ws1`). Quá đơn giản phải không?
 
 ## Bước 6: Lưu sổ làm việc mới
 

@@ -96,4 +96,4 @@ Aspose.Cells è una potente libreria per .NET che consente agli sviluppatori di 
 ### Dove posso trovare aiuto se riscontro dei problemi?
  Il forum della community Aspose è un'ottima risorsa per la risoluzione dei problemi e per consigli:[Supporto Aspose](https://forum.aspose.com/c/cells/9).
 ### È disponibile una licenza temporanea per Aspose.Cells?
- Sì! Puoi richiedere una licenza temporanea[Qui](https://purchase.aspose.com/temporary-license/) per provare tutte le funzionalità senza restrizioni.
+Sì! Puoi richiedere una licenza temporanea[Qui](https://purchase.aspose.com/temporary-license/) per provare tutte le funzionalità senza restrizioni.

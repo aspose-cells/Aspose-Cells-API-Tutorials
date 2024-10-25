@@ -26,7 +26,7 @@ Una volta che hai tutti i prerequisiti pronti, il passo successivo è importare 
 
 1. Apri il tuo progetto: avvia Visual Studio e apri il tuo progetto esistente oppure creane uno nuovo.
 2. Gestisci pacchetti NuGet: fai clic con il pulsante destro del mouse sul progetto in Esplora soluzioni, quindi seleziona "Gestisci pacchetti NuGet".
-3.  Cerca e installa Aspose.Cells: nella casella di ricerca, digita`Aspose.Cells` e installa il pacchetto. Questo ti assicura di avere la versione più recente integrata nel tuo progetto.
+3.  Cerca e installa Aspose.Cells: nella casella di ricerca, digita`Aspose.Cells` installa il pacchetto. Questo ti assicura di avere la versione più recente integrata nel tuo progetto.
 4. Aggiungi direttiva Using: nel tuo file di codice, aggiungi la seguente direttiva per utilizzare lo spazio dei nomi Aspose.Cells:
 
 ```csharp
@@ -93,7 +93,7 @@ wb.Save(filePath + ".out.mht", sv);
 
 ## Conclusione
 
-Ecco fatto! Hai appena convertito un file Excel in formato MHTML usando Aspose.Cells per .NET in pochi semplici passaggi. Questo processo elegante non solo fa risparmiare tempo, ma preserva anche il layout e la formattazione del documento originale, assicurando che nessuno dei tuoi duri lavori passi inosservato quando lo condividi online.
+Ecco fatto! Hai appena convertito un file Excel in formato MHTML usando Aspose.Cells per .NET in pochi semplici passaggi. Questo processo snello non solo fa risparmiare tempo, ma preserva anche il layout e la formattazione del documento originale, assicurando che nessuno dei tuoi duri lavori passi inosservato quando lo condividi online.
 
 ## Domande frequenti
 

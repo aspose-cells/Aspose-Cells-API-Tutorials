@@ -38,7 +38,7 @@ Najpierw musimy się upewnić, że katalog do zapisywania naszego pliku Excel is
 ```csharp
 // Ścieżka do katalogu dokumentów.
 string dataDir = "Your Document Directory";
-//Utwórz katalog, jeśli jeszcze go nie ma.
+// Utwórz katalog, jeśli jeszcze go nie ma.
 bool isExists = System.IO.Directory.Exists(dataDir);
 if (!isExists)
     System.IO.Directory.CreateDirectory(dataDir);

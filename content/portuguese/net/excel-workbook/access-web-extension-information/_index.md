@@ -16,7 +16,7 @@ Bem-vindo ao nosso mergulho profundo no uso do Aspose.Cells para .NET! Neste tut
 Antes de arregaçarmos as mangas e começarmos, há algumas coisas que você precisa configurar. Aqui está uma lista de verificação para garantir que tudo corra bem:
 
 1. Ambiente .NET: Certifique-se de ter um ambiente .NET configurado em sua máquina. Isso geralmente significa ter o Visual Studio ou outro IDE compatível instalado.
-2. Aspose.Cells para .NET: Você precisa ter a biblioteca Aspose.Cells. Não se preocupe; você pode facilmente[baixe a última versão aqui](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells para .NET: Você precisa ter a biblioteca Aspose.Cells. Não se preocupe; você pode facilmente[baixe a última versão aqui](https://releases.aspose.com/cells/net/).
 3.  Arquivo Excel de exemplo: para este tutorial, certifique-se de ter um arquivo Excel de exemplo (como`WebExtensionsSample.xlsx`) acessível. Você pode criar um com extensões da web ou baixar um se necessário. 
 4. Conhecimento básico de C#: Uma compreensão fundamental da programação em C# tornará a navegação neste tutorial muito mais fácil.
 5. Gerenciador de pacotes NuGet: a familiaridade com o NuGet pode ajudar você a gerenciar o Aspose.Cells dentro do seu projeto sem problemas.
@@ -62,12 +62,12 @@ Aqui, estamos pegando todos os painéis de tarefas associados às extensões da 
 
 ## Etapa 4: iterar pelos painéis de tarefas
 
- Depois de ter a coleção, o próximo passo lógico é fazer um loop em cada painel de tarefas e obter suas propriedades. Usando um`foreach` O loop é uma excelente maneira de navegar por cada painel de tarefas sem problemas.
+Depois de ter a coleção, o próximo passo lógico é fazer um loop em cada painel de tarefas e obter suas propriedades. Usando um`foreach` O loop é uma excelente maneira de navegar por cada painel de tarefas sem problemas.
 
 ```csharp
 foreach (WebExtensionTaskPane taskPane in taskPanes)
 {
-    //Dentro deste loop, extrairemos propriedades
+    // Dentro deste loop, extrairemos propriedades
 }
 ```
 

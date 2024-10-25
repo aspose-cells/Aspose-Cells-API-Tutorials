@@ -41,7 +41,7 @@ string dataDir = "Your Document Directory";
 LoadOptions loadOptions = new LoadOptions(LoadFormat.Xlsx);
 ```
 Itt azt mondjuk, hogy egy XLSX fájlformátumot szeretnénk betölteni. De várj, további részletekre van szükségünk!
-## 3. lépés: Állítsa be a LoadFiltert
+## 3. lépés: Állítsa be a LoadFilter-t
  Most a szaftos részhez érkezünk! A`LoadFilter` tulajdonság megmondja az Aspose.Cellsnek, hogy mit vegyen fel a fájlból. Mivel csak az adat- és cellaformázást szeretnénk, ezt is meg kell adnunk:
 ```csharp
 // Állítsa be a LoadFilter tulajdonságot, hogy csak az adatokat és a cellaformázást töltse be
@@ -51,7 +51,7 @@ Tekintsd ezt úgy, hogy konkrét utasításokat adsz – alapvetően azt mondod:
 ## 4. lépés: Hozzon létre egy munkafüzet-objektumot
  Rendben, már majdnem ott vagyunk! Most létrehozunk egy`Workbook` objektum, amely lényegében az a hely, ahol az Aspose.Cells betölti az Excel-fájl tartalmát.
 ```csharp
-// Hozzon létre egy munkafüzet objektumot, és nyissa meg a fájlt az elérési útjából
+//Hozzon létre egy munkafüzet objektumot, és nyissa meg a fájlt az elérési útjából
 Workbook book = new Workbook(dataDir + "Book1.xlsx", loadOptions);
 ```
  Ebben a sorban cserélje ki`"Book1.xlsx"` a tényleges Excel-fájl nevével. Voilà! A munkafüzet meg van töltve minden fontos adattal.

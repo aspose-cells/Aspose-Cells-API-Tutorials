@@ -36,7 +36,7 @@ using Aspose.Cells;
 ```csharp
 // 이미지를 저장할 디렉토리를 정의하세요
 string dataDir = "Your Document Directory";
-// 디렉토리가 존재하는지 확인하세요
+//디렉토리가 존재하는지 확인하세요
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -93,7 +93,7 @@ chart.NSeries.Add("A1:B3", true);
 ## 7단계: 차트를 이미지로 변환
 진실의 순간: 이 차트를 이미지 파일로 변환할 것입니다!
 
- 여기서 우리는 다음을 사용합니다.`ToImage`차트를 원하는 이미지 포맷으로 변환하는 방법입니다. 이 경우, EMF(Enhanced Metafile) 포맷으로 변환합니다.
+ 여기서 우리는 다음을 사용합니다.`ToImage` 차트를 원하는 이미지 포맷으로 변환하는 방법입니다. 이 경우, EMF(Enhanced Metafile) 포맷으로 변환합니다.
 ```csharp
 // 차트를 이미지로 변환하여 디렉토리에 저장합니다.
 chart.ToImage(dataDir + "Chart.emf", ImageFormat.Emf);

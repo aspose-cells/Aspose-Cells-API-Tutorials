@@ -40,7 +40,7 @@ Chcete-li začít, otevřete své IDE C# (důrazně doporučujeme Visual Studio)
 
 Jakmile je váš projekt připraven, je čas přidat knihovnu Aspose.Cells. Můžete jej nainstalovat pomocí NuGet:
 
-1. "Solution Explorer" klikněte pravým tlačítkem na svůj projekt.
+1. V "Solution Explorer" klikněte pravým tlačítkem na svůj projekt.
 2. Vyberte Spravovat balíčky NuGet.
 3. Přejděte na kartu Procházet.
 4. Vyhledejte Aspose.Cells.
@@ -96,11 +96,11 @@ Workbook workbook = new Workbook(sourceDir + "sampleModifyPieChart.xlsx");
 Nyní se pojďme ponořit do konkrétního listu, který obsahuje výsečový graf. Budeme předpokládat, že výsečový graf je na druhém listu (index 1):
 
 ```csharp
-//Získejte graf návrháře na druhém listu.
+// Získejte graf návrháře na druhém listu.
 Worksheet sheet = workbook.Worksheets[1];
 ```
 
- Přístupem k`Worksheets` kolekce, můžeme se dostat ke konkrétnímu listu, který potřebujeme.
+ Přístupem k`Worksheets`kolekce, můžeme se dostat ke konkrétnímu listu, který potřebujeme.
 
 ## Krok 4: Získejte graf
 
@@ -114,7 +114,7 @@ Zde bereme první graf ze zadaného listu.
 
 ## Krok 5: Přístup k štítkům dat
 
-Nyní přichází ta vzrušující část – úprava štítků dat na výsečovém grafu. Pojďme k datovým štítkům datových řad:
+Nyní přichází ta vzrušující část – úprava datových štítků na výsečovém grafu. Pojďme k datovým štítkům datových řad:
 
 ```csharp
 // Získejte štítky dat v datové řadě třetího datového bodu.

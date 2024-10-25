@@ -79,9 +79,9 @@ Di sini, kita membuat buku kerja pertama dan mengisi lembar kerja pertama (`ws0`
 Mari konfigurasikan pengaturan halaman untuk mengulang baris tajuk saat mencetak, supaya kita dapat melihat fitur tersebut beraksi:
 
 ```csharp
-//Tentukan objek pagesetup berdasarkan lembar kerja pertama
+// Tentukan objek pagesetup berdasarkan lembar kerja pertama
 PageSetup pagesetup = ws0.PageSetup;
-// Lima baris pertama diulang di setiap halaman
+//Lima baris pertama diulang di setiap halaman
 pagesetup.PrintTitleRows = "$1:$5";
 ```
  Bagian ini menentukan bagaimana dokumen Anda akan dicetak. Dengan mengatur`PrintTitleRows`, kami memastikan bahwa lima baris pertama akan muncul pada setiap halaman yang dicetak, yang sangat berguna untuk keterbacaan.
@@ -109,7 +109,7 @@ Mari salin konten dari lembar kerja buku kerja pertama ke buku kerja kedua:
 // lembar kerja pertama dari buku kerja kedua
 ws1.Copy(ws0);
 ```
- Itu`Copy` metode mengambil semua konten dari lembar kerja sumber (`ws0`dan menduplikasinya ke lembar kerja tujuan (`ws1`). Sederhana sekali, bukan?
+ Itu`Copy` metode mengambil semua konten dari lembar kerja sumber (`ws0`) dan menduplikasinya ke lembar kerja tujuan (`ws1`). Sederhana sekali, bukan?
 
 ## Langkah 6: Simpan Buku Kerja Baru
 

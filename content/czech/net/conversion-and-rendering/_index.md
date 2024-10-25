@@ -11,9 +11,9 @@ url: /cs/net/conversion-and-rendering/
 
 Při práci se soubory Excel v .NET může znalost, jak je převést do jiných formátů, změnit hru. Aspose.Cells je výkonná knihovna, která tento proces zjednodušuje, a její tutoriály jsou pokladem pro vývojáře, kteří chtějí využít její schopnosti. Představte si, že potřebujete sdílet složitá data, ale nechcete, aby vaše publikum procházelo tabulkami Excelu. Převedení těchto listů do formátů jako PDF, SVG nebo MHTML může učinit sdílení hračkou! 
 
-## Pokročilá konverze do PDF v .NET
+## Pokročilý převod do PDF v .NET
 
-Jednou z výjimečných funkcí, se kterou se setkáte, je výukový program Pokročilá konverze do PDF v .NET. Proč trávit hodiny formátováním dat aplikace Excel, když můžete získat soubory PDF v profesionální kvalitě několika kliknutími? Tento průvodce vás krok za krokem provede celým procesem. Neříká vám jen, jak na to, ale zajišťuje, že rozumíte příslušným nuancím. Berte to jako osobního učitele, který vás provede světem převodů souborů. Svoboda sdílet svá data při zachování jejich integrity? O tom to celé je. Chcete do toho skočit? Podívejte se na naše[Advanced Conversion to PDF in .NET](./advanced-conversion-to-pdf/) konzultace.
+Jednou z výjimečných funkcí, se kterou se setkáte, je výukový program Pokročilý převod do PDF v .NET. Proč trávit hodiny formátováním dat aplikace Excel, když můžete získat soubory PDF v profesionální kvalitě několika kliknutími? Tento průvodce vás krok za krokem provede celým procesem. Neříká vám jen, jak na to, ale zajišťuje, že rozumíte příslušným nuancím. Berte to jako osobního učitele, který vás provede světem převodů souborů. Svoboda sdílet svá data při zachování jejich integrity? O tom to celé je. Chcete do toho skočit? Podívejte se na naše[Advanced Conversion to PDF in .NET](./advanced-conversion-to-pdf/) konzultace.
 
 ## Převod listu do SVG v .NET
 
@@ -24,7 +24,7 @@ Dále je tu výukový program Převod listu do SVG v .NET. Pokud jste někdy tou
  Nakonec nemůžeme zapomenout na průvodce Převod Excelu do MHTML v .NET. MHTML je ideální pro zachycení podstaty vašich tabulek spolu s jejich formátováním, což vám umožní sdílet kompletní sestavy. Tento výukový program vám umožní zlepšit možnosti vytváření sestav, díky čemuž bude spolupráce bezproblémová a efektivní. Je to povinná četba pro každého, kdo se vážně zabývá sdílením dat! Ponořte se do tohoto užitečného průvodce[zde](./converting-excel-to-mhtml/).
 
 ## Konverze a vykreslování výukové programy
-### [Pokročilá konverze do PDF v .NET](./advanced-conversion-to-pdf/)
+### [Pokročilý převod do PDF v .NET](./advanced-conversion-to-pdf/)
 Naučte se pokročilý převod Excelu do PDF hladce pomocí Aspose.Cells v .NET. Postupujte podle našeho podrobného průvodce.
 ### [Převod listu do SVG v .NET](./converting-worksheet-to-svg/)
 Naučte se, jak převést excelový list na SVG pomocí Aspose.Cells for .NET pomocí tohoto podrobného průvodce. Ideální pro vývojáře .NET, kteří chtějí vykreslit Excel do SVG.

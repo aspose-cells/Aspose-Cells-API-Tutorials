@@ -151,7 +151,7 @@ Sí, puedes modificar diferentes tipos de gráficos (como de barras, circulares,
  ¡Por supuesto! Puedes probarlo gratis[aquí](https://releases.aspose.com/).
 
 ### ¿Cómo puedo cambiar el tipo de gráfico después de agregar una serie?
- Puedes utilizar el`ChartType` propiedad para establecer un nuevo tipo de gráfico para su gráfico.
+Puedes utilizar el`ChartType` propiedad para establecer un nuevo tipo de gráfico para su gráfico.
 
 ### ¿Dónde puedo encontrar documentación más detallada?
  Consulte la documentación[aquí](https://reference.aspose.com/cells/net/).

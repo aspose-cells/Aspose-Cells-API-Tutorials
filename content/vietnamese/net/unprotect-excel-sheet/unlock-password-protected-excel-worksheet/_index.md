@@ -13,7 +13,7 @@ Bạn đã bao giờ thấy mình bị khóa ngoài một bảng tính Excel, nh
 
 ## Điều kiện tiên quyết
 
-Trước khi đi sâu vào chi tiết để mở khóa bảng tính này, bạn cần chuẩn bị một số thứ sau:
+Trước khi đi sâu vào chi tiết để mở khóa bảng tính đó, bạn cần chuẩn bị một số thứ sau:
 
 ### Môi trường .NET
 

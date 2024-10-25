@@ -41,7 +41,7 @@ Voor alle bestandsbewerkingen is het cruciaal om een gedefinieerde locatie te he
 // Het pad naar de documentenmap.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
-//Maak een map aan als deze nog niet bestaat.
+// Maak een map aan als deze nog niet bestaat.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);

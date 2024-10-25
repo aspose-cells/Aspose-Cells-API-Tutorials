@@ -16,7 +16,7 @@ url: /ru/java/advanced-excel-charts/chart-interactivity/
 
 Прежде чем начать, убедитесь, что у вас выполнены следующие предварительные условия:
 - Среда разработки Java
--  Библиотека Aspose.Cells для Java (скачать с[здесь](https://releases.aspose.com/cells/java/)
+- Библиотека Aspose.Cells для Java (скачать с[здесь](https://releases.aspose.com/cells/java/)
 
 ## Шаг 1: Настройка вашего проекта Java
 

@@ -16,7 +16,7 @@ url: /ko/net/excel-security/advanced-protection-settings-for-excel-worksheet/
 코드를 살펴보기 전에 먼저 필요한 모든 것이 있는지 확인해 보겠습니다.
 
 1. 개발 환경: .NET 개발을 위한 뛰어난 IDE를 제공하므로 컴퓨터에 Visual Studio가 설치되어 있어야 합니다.
-2. Aspose.Cells 라이브러리: Aspose.Cells 라이브러리를 다운로드하세요. 다음에서 얻을 수 있습니다.[Aspose 다운로드 페이지](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells 라이브러리: Aspose.Cells 라이브러리를 다운로드하세요. 다음에서 얻을 수 있습니다.[Aspose 다운로드 페이지](https://releases.aspose.com/cells/net/).
 3. 기본 C# 지식: 쉽게 따라갈 수 있도록 C# 및 .NET Framework에 대한 이해가 필요합니다.
 4. 프로젝트 만들기: Visual Studio에서 코드를 작성할 새 콘솔 애플리케이션을 설정합니다.
 
@@ -48,12 +48,12 @@ using Aspose.Cells;
 
 ## 1단계: Excel 파일에 대한 파일 스트림 만들기
 
-첫째, 기존 Excel 파일을 로드해야 합니다.`FileStream` 접근하려면.
+ 첫째, 기존 Excel 파일을 로드해야 합니다.`FileStream` 접근하려면.
 
 ```csharp
 // 문서 디렉토리의 경로입니다.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-// Excel 파일을 열기 위한 파일 스트림 생성
+//Excel 파일을 열기 위한 파일 스트림 생성
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
  그만큼`FileStream` 지정된 Excel 파일을 읽을 수 있습니다. "YOUR DOCUMENT DIRECTORY"를 Excel 파일이 있는 실제 경로로 변경해야 합니다.

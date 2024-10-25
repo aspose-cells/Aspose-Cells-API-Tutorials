@@ -117,4 +117,4 @@ Console.WriteLine("PasswordProtectOrUnprotectSharedWorkbook executed successfull
 Aspose.Cells मुख्य रूप से .NET का समर्थन करता है, लेकिन उनके पास जावा और अन्य भाषाओं के लिए भी लाइब्रेरी हैं। अधिक जानकारी के लिए उनकी साइट देखें!
 
 ### मैं Aspose.Cells के लिए समर्थन कैसे प्राप्त करूं?
-आप उनके सहायता मंच के माध्यम से सहायता प्राप्त कर सकते हैं:[Aspose समर्थन](https://forum.aspose.com/c/cells/9).
+ आप उनके सहायता मंच के माध्यम से सहायता प्राप्त कर सकते हैं:[Aspose समर्थन](https://forum.aspose.com/c/cells/9).

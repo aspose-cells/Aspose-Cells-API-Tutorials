@@ -8,7 +8,7 @@ weight: 23
 url: /ko/net/excel-shapes-controls/add-spinner-control-to-worksheet-excel/
 ---
 ## 소개
-.NET을 사용하여 Excel 자동화의 세계에 뛰어든다면 스프레드시트 내에서 더 많은 대화형 컨트롤이 필요하다는 것을 알게 되었을 것입니다. 그러한 컨트롤 중 하나는 Spinner로, 사용자가 값을 쉽게 증가 또는 감소시킬 수 있습니다. 이 튜토리얼에서는 Aspose.Cells for .NET을 사용하여 Excel 워크시트에 Spinner 컨트롤을 추가하는 방법을 살펴보겠습니다. 원활하게 따라할 수 있도록 소화하기 쉬운 단계로 나누어 설명하겠습니다. 
+.NET을 사용하여 Excel 자동화의 세계에 뛰어든다면 스프레드시트 내에서 더 많은 대화형 컨트롤이 필요하다는 것을 알게 되었을 것입니다. 그러한 컨트롤 중 하나는 사용자가 값을 쉽게 증가 또는 감소시킬 수 있는 Spinner입니다. 이 튜토리얼에서는 Aspose.Cells for .NET을 사용하여 Excel 워크시트에 Spinner 컨트롤을 추가하는 방법을 살펴보겠습니다. 원활하게 따라할 수 있도록 소화하기 쉬운 단계로 나누어 설명하겠습니다. 
 ## 필수 조건
 코드로 넘어가기 전에 원활한 경험을 위해 모든 것이 설정되어 있는지 확인해 보겠습니다.
 1.  .NET용 Aspose.Cells: Aspose.Cells 라이브러리가 있는지 확인하세요. 아직 설치하지 않았다면 다음에서 최신 버전을 가져올 수 있습니다.[다운로드 링크](https://releases.aspose.com/cells/net/).
@@ -29,7 +29,7 @@ using System.Drawing;
 ```csharp
 // 문서 디렉토리의 경로입니다.
 string dataDir = "Your Document Directory";
-//디렉토리가 없으면 디렉토리를 생성합니다.
+// 디렉토리가 없으면 디렉토리를 생성합니다.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -41,7 +41,7 @@ if (!IsExists)
 // 새 통합 문서를 인스턴스화합니다.
 Workbook excelbook = new Workbook();
 ```
- 그만큼`Workbook`클래스는 Excel 파일을 나타냅니다. 이를 인스턴스화하여 수정을 위해 준비된 새 통합 문서를 만듭니다.
+ 그만큼`Workbook` 클래스는 Excel 파일을 나타냅니다. 이를 인스턴스화하여 수정을 위해 준비된 새 통합 문서를 만듭니다.
 ## 3단계: 첫 번째 워크시트에 액세스
 통합 문서의 첫 번째 워크시트에 Spinner를 추가하겠습니다.
 ```csharp
@@ -117,6 +117,6 @@ excelbook.Save(dataDir + "book1.out.xls");
 ### Aspose.Cells를 사용하려면 라이선스가 필요한가요?
  Aspose.Cells는 무료 평가판을 제공하지만 프로덕션 사용에는 유료 라이선스가 필요합니다.[매수 옵션](https://purchase.aspose.com/buy).
 ### Aspose.Cells에 대한 도움은 어떻게 받을 수 있나요?
- 지원을 받으려면 다음을 방문하세요.[Aspose 포럼](https://forum.aspose.com/c/cells/9)질문을 하고 답변을 찾을 수 있는 곳입니다.
+ 지원을 받으려면 다음을 방문하세요.[Aspose 포럼](https://forum.aspose.com/c/cells/9) 질문을 하고 답변을 찾을 수 있는 곳입니다.
 ### 같은 워크시트에 여러 개의 스피너를 추가할 수 있나요?
 물론입니다! 각 컨트롤에 대해 동일한 단계를 따르면 필요한 만큼 많은 스피너를 추가할 수 있습니다.

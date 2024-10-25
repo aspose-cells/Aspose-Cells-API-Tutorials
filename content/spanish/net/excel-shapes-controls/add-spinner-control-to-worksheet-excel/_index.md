@@ -29,7 +29,7 @@ Antes de comenzar a codificar, es una buena práctica organizar los archivos. Va
 ```csharp
 // La ruta al directorio de documentos.
 string dataDir = "Your Document Directory";
-//Crear directorio si aún no está presente.
+// Crear directorio si aún no está presente.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -41,7 +41,7 @@ Ahora es el momento de crear un libro de Excel donde agregaremos nuestro control
 // Crear una instancia de un nuevo libro de trabajo.
 Workbook excelbook = new Workbook();
 ```
- El`Workbook`La clase representa un archivo de Excel. Al crear una instancia de él, creamos un nuevo libro de trabajo listo para modificaciones.
+ El`Workbook` La clase representa un archivo de Excel. Al crear una instancia de él, creamos un nuevo libro de trabajo listo para modificaciones.
 ## Paso 3: Acceda a la primera hoja de trabajo
 Agregaremos nuestro Spinner a la primera hoja de trabajo del libro de trabajo.
 ```csharp
@@ -50,7 +50,7 @@ Worksheet worksheet = excelbook.Worksheets[0];
 ```
 Esta línea accede a la primera hoja de cálculo (índice 0) de nuestro libro de trabajo. Puede tener varias hojas de cálculo, pero para este ejemplo, lo simplificaremos.
 ## Paso 4: Trabajar con celdas
-A continuación, trabajaremos con las celdas de nuestra hoja de cálculo. Estableceremos algunos valores y estilos.
+continuación, trabajaremos con las celdas de nuestra hoja de cálculo. Estableceremos algunos valores y estilos.
 ```csharp
 // Obtener las celdas de la hoja de cálculo.
 Cells cells = worksheet.Cells;
@@ -117,6 +117,6 @@ Sí, puedes modificar su tamaño, posición e incluso su sombreado 3D para una a
 ### ¿Necesito una licencia para utilizar Aspose.Cells?
  Aspose.Cells ofrece una prueba gratuita, pero se requiere una licencia paga para su uso en producción.[opciones de compra](https://purchase.aspose.com/buy).
 ### ¿Cómo puedo obtener ayuda con Aspose.Cells?
- Para obtener ayuda, visite el sitio[Foro de Aspose](https://forum.aspose.com/c/cells/9)Donde podrás hacer preguntas y encontrar respuestas.
+ Para obtener ayuda, visite el sitio[Foro de Aspose](https://forum.aspose.com/c/cells/9) Donde podrás hacer preguntas y encontrar respuestas.
 ### ¿Es posible agregar varios Spinners a la misma hoja de trabajo?
 ¡Por supuesto! Puedes agregar tantos Spinners como necesites siguiendo los mismos pasos para cada control.

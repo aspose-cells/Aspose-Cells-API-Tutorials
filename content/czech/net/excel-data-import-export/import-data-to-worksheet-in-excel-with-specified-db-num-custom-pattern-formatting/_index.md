@@ -16,7 +16,7 @@ Pokud jde o manipulaci s tabulkami, import dat do Excelu a jejich správné form
 Než se vrhneme na to, co potřebujete, ujistěte se, že máte vše, co potřebujete. Zde je rychlý kontrolní seznam předpokladů, které vás připraví na úspěch:
 
 1. .NET Framework: Ujistěte se, že máte na svém počítači nainstalované rozhraní .NET Framework. Aspose.Cells bezproblémově funguje s různými verzemi .NET.
-2. Aspose.Cells for .NET: Budete si muset stáhnout a nainstalovat knihovnu Aspose.Cells. Můžete to vzít z[odkaz ke stažení](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells for .NET: Budete si muset stáhnout a nainstalovat knihovnu Aspose.Cells. Můžete to vzít z[odkaz ke stažení](https://releases.aspose.com/cells/net/).
 3. Integrované vývojové prostředí (IDE): Použijte IDE, jako je Visual Studio, kde můžete psát a spouštět svůj kód C#.
 4. Základní znalost C#: Základní znalost C# vám pomůže dodržovat postupy kódování, které použijeme v této příručce.
 
@@ -36,7 +36,7 @@ Do projektu musíte zahrnout knihovnu Aspose.Cells. Klikněte pravým tlačítke
 
 ### Importujte potřebné jmenné prostory
 
-horní části souboru C# importujte následující jmenné prostory:
+V horní části souboru C# importujte následující jmenné prostory:
 
 ```csharp
 using System;
@@ -90,7 +90,7 @@ cell.PutValue(123);
 
 Zde přímo mluvíte s Excelem – vkládáte data přímo do buňky A1! 
 
-## Krok 5: Otevřete Styl buňky
+## Krok 5: Přístup ke Stylu buňky
 
 Každá buňka má svůj styl a vzhled si můžete přizpůsobit. Chcete-li použít vlastní formát, musíte nejprve získat přístup ke stylu buňky.
 
@@ -108,7 +108,7 @@ Tady se děje kouzlo. Vlastní vzor formátu můžete určit pomocí stylu form�
 st.Custom = "[DBNum2][$-804]General";
 ```
 
- Tento řádek říká Excelu, aby číslo naformátoval`123` podle vzoru DBNum odpovídajícímu čínskému jazyku. Docela pěkné, že?
+ Tento řádek říká Excelu, aby číslo naformátoval`123`podle vzoru DBNum odpovídajícímu čínskému jazyku. Docela pěkné, že?
 
 ## Krok 7: Nastavte aktualizovaný styl buňky
 
@@ -138,13 +138,13 @@ Nakonec uložme toto mistrovské dílo do formátu PDF. Tohle je velké finále!
 wb.Save(dataDir + "outputDBNumCustomFormatting.pdf", SaveFormat.Pdf);
 ```
 
-Gratuluji! Právě jste vytvořili soubor PDF s vaším číslem formátovaným pomocí stylů DB Num.
+Gratuluji! Právě jste vytvořili soubor PDF s vaším číslem naformátovaným pomocí stylů DB Num.
 
 ## Závěr
 
 tady to máte! Úspěšně jste importovali data do Excelu, použili vlastní formátování DB Num a uložili je ve formátu PDF. S Aspose.Cells pro .NET se tento proces stává nejen jednodušším, ale také mnohem flexibilnějším a výkonnějším. Už žádné problémy s vestavěnými možnostmi formátování aplikace Excel – nyní máte přímou linii kontroly prostřednictvím kódu!
 
-Ať už připravujete datové sestavy nebo vytváříte finanční výkazy, využití síly Aspose.Cells pozvedne vaši tabulkovou hru na zcela novou úroveň. Tak na co čekáš? Ponořte se do svých projektů s důvěrou a nechte svá data zazářit!
+Ať už připravujete datové reporty nebo vytváříte finanční výkazy, využití síly Aspose.Cells pozvedne vaši tabulkovou hru na zcela novou úroveň. Tak na co čekáš? Ponořte se do svých projektů s důvěrou a nechte svá data zazářit!
 
 ## FAQ
 

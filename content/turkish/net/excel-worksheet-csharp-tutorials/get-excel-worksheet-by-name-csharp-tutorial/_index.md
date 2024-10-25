@@ -45,7 +45,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY"; // Belge dizininizi belirtin
 string InputPath = Path.Combine(dataDir, "book1.xlsx"); // Tam yolu oluşturmak için birleştirin
 ```
 
- Burada, değiştirin`"YOUR DOCUMENT DIRECTORY"`sisteminizdeki gerçek yol ile`book1.xlsx` depolanır. Kullanılarak`Path.Combine` farklı işletim sistemleri arasında yolun doğru bir şekilde oluşturulmasını sağladığı için kullanışlıdır.
+ Burada, değiştirin`"YOUR DOCUMENT DIRECTORY"` sisteminizdeki gerçek yol ile`book1.xlsx` depolanır. Kullanılarak`Path.Combine`farklı işletim sistemleri arasında yolun doğru bir şekilde oluşturulmasını sağladığı için kullanışlıdır.
 
 ## Adım 2: Bir Dosya Akışı Oluşturun
 

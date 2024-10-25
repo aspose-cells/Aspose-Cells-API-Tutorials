@@ -13,11 +13,11 @@ Bạn đã bao giờ muốn làm cho bảng tính Excel của mình trở nên b
 
 ## Thêm bình luận bằng hình ảnh trong Excel
 
-Hãy tưởng tượng bạn có khả năng chú thích các ô Excel của mình không chỉ bằng văn bản mà còn bằng hình ảnh. Điều này thêm nét cá nhân và yếu tố trực quan có thể làm rõ và nâng cao thông tin trong các trang tính của bạn. Hướng dẫn về[Thêm chú thích bằng hình ảnh trong Excel](./add-comment-with-image-excel/) hướng dẫn bạn từng bước trong quy trình. Bạn sẽ học cách chèn hình ảnh trực tiếp vào bình luận, giúp bảng tính của bạn không chỉ nhiều thông tin hơn mà còn hấp dẫn về mặt thị giác. Hãy nghĩ xem ảnh chụp màn hình hoặc logo có thể hiệu quả như thế nào khi bạn chia sẻ công việc của mình với người khác!
+ Hãy tưởng tượng bạn có khả năng chú thích các ô Excel của mình không chỉ bằng văn bản mà còn bằng hình ảnh. Điều này thêm nét cá nhân và yếu tố trực quan có thể làm rõ và nâng cao thông tin trong các trang tính của bạn. Hướng dẫn về[Thêm chú thích bằng hình ảnh trong Excel](./add-comment-with-image-excel/) hướng dẫn bạn từng bước trong quy trình. Bạn sẽ học cách chèn hình ảnh trực tiếp vào bình luận, giúp bảng tính của bạn không chỉ nhiều thông tin hơn mà còn hấp dẫn về mặt thị giác. Hãy nghĩ xem ảnh chụp màn hình hoặc logo có thể hiệu quả như thế nào khi bạn chia sẻ công việc của mình với người khác!
 
 ## Thêm chú thích vào ô hoặc hình dạng trong Excel
 
- Nếu bạn là người mới bắt đầu tìm hiểu về chú thích,[Thêm chú thích vào ô hoặc hình dạng trong Excel](./add-comments-to-cells-or-shapes-excel/)hướng dẫn này hoàn hảo cho bạn. Nó bao gồm mọi thứ từ những điều cơ bản về cách thêm chú thích đến việc nâng cao chức năng của bảng tính. Bạn sẽ thấy cách đính kèm chú thích vào nhiều thành phần khác nhau—có thể là ô hoặc hình dạng—và thậm chí thực hiện một số phương pháp hay nhất trong quá trình này. Hướng dẫn này là bước đệm để bạn làm cho bảng tính của mình trở nên tương tác và thân thiện với người dùng!
+ Nếu bạn là người mới bắt đầu tìm hiểu về chú thích,[Thêm chú thích vào ô hoặc hình dạng trong Excel](./add-comments-to-cells-or-shapes-excel/) hướng dẫn này hoàn hảo cho bạn. Nó bao gồm mọi thứ từ những điều cơ bản về cách thêm chú thích đến việc nâng cao chức năng của bảng tính. Bạn sẽ thấy cách đính kèm chú thích vào nhiều thành phần khác nhau—có thể là ô hoặc hình dạng—và thậm chí thực hiện một số phương pháp hay nhất trong quá trình này. Hướng dẫn này là bước đệm để bạn làm cho bảng tính của mình trở nên tương tác và thân thiện với người dùng!
 
 ## Định dạng bình luận - Phông chữ, Màu sắc, Căn chỉnh
 

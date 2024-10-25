@@ -59,7 +59,7 @@ string sourceDir = "Your Document Directory";
 Workbook workbook = new Workbook(sourceDir + "sampleApplyingThemesInChart.xlsx");
 ```
 
- تأكد من ذلك`sampleApplyingThemesInChart.xlsx`موجود في دليل المصدر الخاص بك.
+ تأكد من ذلك`sampleApplyingThemesInChart.xlsx` موجود في دليل المصدر الخاص بك.
 
 ## الخطوة 3: الوصول إلى ورقة العمل
 
@@ -96,7 +96,7 @@ chart.NSeries[0].Area.FillFormat.FillType = Aspose.Cells.Drawing.FillType.Solid;
 
 ## الخطوة 6: تكوين اللون
 
- الآن بعد أن أصبحت سلسلتنا جاهزة، نحتاج إلى تعديل لونها. يتضمن هذا إنشاء`CellsColor`الكائن وتحديد لون السمة. سنختار نمطًا مميزًا لهذا المثال.
+ الآن بعد أن أصبحت سلسلتنا جاهزة، نحتاج إلى تعديل لونها. يتضمن هذا إنشاء`CellsColor` الكائن وتحديد لون السمة. سنختار نمطًا مميزًا لهذا المثال.
 
 ```csharp
 // احصل على لون الخلايا من SolidFill

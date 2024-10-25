@@ -15,9 +15,9 @@ url: /es/net/excel-copy-worksheet/excel-copy-worksheets-between-workbooks/
 
 Antes de sumergirnos en el código, asegurémonos de que esté equipado con las herramientas adecuadas para comenzar:
 
-- Aspose.Cells para .NET: Puedes descargarlo[aquí](https://releases.aspose.com/cells/net/).
+-  Aspose.Cells para .NET: Puedes descargarlo[aquí](https://releases.aspose.com/cells/net/).
 - Visual Studio o cualquier IDE que admita .NET Framework.
--  Una licencia válida o una[licencia temporal](https://purchase.aspose.com/temporary-license/) si desea probar la funcionalidad completa de Aspose.Cells.
+-  Una licencia válida o una[licencia temporal](https://purchase.aspose.com/temporary-license/)si desea probar la funcionalidad completa de Aspose.Cells.
 - Un conocimiento básico de C# y el marco .NET.
 
  También puedes consultar el[Documentación de Aspose.Cells](https://reference.aspose.com/cells/net/) Para más detalles.
@@ -44,7 +44,7 @@ En primer lugar, debe definir dónde se encuentran sus archivos. Piense en este 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- En esta línea, reemplace`"YOUR DOCUMENT DIRECTORY"` con la ruta real a sus archivos de Excel. Aquí es donde se cargarán y guardarán sus libros de trabajo.
+ En esta línea, reemplace`"YOUR DOCUMENT DIRECTORY"`con la ruta real a sus archivos de Excel. Aquí es donde se cargarán y guardarán sus libros de trabajo.
 
 ## Paso 2: Abra el primer libro de trabajo
 
@@ -64,7 +64,7 @@ Workbook excelWorkbook0 = new Workbook(InputPath);
 Ahora que tienes abierto el primer libro de trabajo, es momento de crear otro libro de trabajo vacío donde pegarás la hoja de trabajo copiada. Piensa en esto como si estuvieras abriendo un nuevo cuaderno en blanco donde transferirás los datos.
 
 ```csharp
-//Crear otro libro de trabajo.
+// Crear otro libro de trabajo.
 Workbook excelWorkbook1 = new Workbook();
 ```
 

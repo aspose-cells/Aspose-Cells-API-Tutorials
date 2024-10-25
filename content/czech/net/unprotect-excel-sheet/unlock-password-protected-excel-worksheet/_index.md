@@ -2,7 +2,7 @@
 title: Odemkněte heslem chráněný excelový list
 linktitle: Odemkněte heslem chráněný excelový list
 second_title: Aspose.Cells for .NET API Reference
-description: Naučte se, jak odemknout heslem chráněnou excelovou tabulku pomocí Aspose.Cells for .NET. Krok za krokem tutoriál v C#.
+description: Naučte se, jak odemknout heslem chráněnou excelovou tabulku pomocí Aspose.Cells for .NET. Výukový program krok za krokem v C#.
 type: docs
 weight: 10
 url: /cs/net/unprotect-excel-sheet/unlock-password-protected-excel-worksheet/
@@ -60,7 +60,7 @@ using System;
 using Aspose.Cells;
 ```
 
-Nyní pojďme skočit do srdce tohoto tutoriálu. K odemknutí tohoto otravného listu použijeme jednoduchý kus kódu. Dále to rozdělíme na jednoduché kroky.
+Nyní pojďme skočit do srdce tohoto tutoriálu. K odemknutí tohoto otravného listu použijeme jednoduchý kus kódu. Rozdělíme si to dále na jednoduché kroky.
 
 ## Krok 1: Definujte cestu dokumentu
 

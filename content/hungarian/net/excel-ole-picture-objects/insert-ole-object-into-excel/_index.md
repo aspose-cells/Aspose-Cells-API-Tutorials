@@ -35,7 +35,7 @@ string dataDir = "Your Document Directory";
 ## 2. lépés: Hozza létre a könyvtárat, ha nem létezik
 Ezután biztosítani szeretnénk, hogy ez a könyvtár létezik. Ha nem, akkor létre kell hoznunk.
 ```csharp
-//Hozzon létre könyvtárat, ha még nincs jelen.
+// Hozzon létre könyvtárat, ha még nincs jelen.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -58,7 +58,7 @@ Szép és egyszerű! Készen állunk a tartalom hozzáadására ehhez a munkalap
 ## 5. lépés: Határozza meg a kép elérési útját
 Most állítsunk be egy elérési utat az Excel-fájlba beágyazni kívánt képhez.
 ```csharp
-// Határozzon meg egy karakterlánc-változót a kép elérési útjának tárolására.
+//Határozzon meg egy karakterlánc-változót a kép elérési útjának tárolására.
 string ImageUrl = dataDir + "logo.jpg";
 ```
  Győződjön meg arról, hogy ez az útvonal pontosan tükrözi, hogy hol van`logo.jpg` fájl tárolva van.
@@ -87,7 +87,7 @@ Csakúgy, mint a képpel, magát az Excel fájlt is be kell töltenünk egy báj
 ```csharp
 // Vigye be a fájlt az adatfolyamokba.
 fs = File.OpenRead(path);
-// Határozzon meg egy bájttömböt.
+//Határozzon meg egy bájttömböt.
 byte[] objectData = new Byte[fs.Length];
 // Tárolja a fájlt az adatfolyamokból.
 fs.Read(objectData, 0, objectData.Length);

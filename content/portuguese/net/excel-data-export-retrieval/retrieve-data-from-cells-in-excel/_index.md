@@ -18,7 +18,7 @@ Antes de começarmos a usar o código, há alguns pré-requisitos que você prec
 1. Visual Studio: Certifique-se de ter o Visual Studio instalado em sua máquina. É o IDE que usaremos para escrever e executar nosso código.
 2.  Aspose.Cells para .NET: Você precisa ter a biblioteca Aspose.Cells. Você pode baixá-la do[Site Aspose](https://releases.aspose.com/cells/net/).
 3. Conhecimento básico de C#: A familiaridade com a programação em C# ajudará você a entender melhor os exemplos.
-4.  Arquivo Excel: Tenha um arquivo Excel pronto (por exemplo,`book1.xls`) que você usará neste tutorial.
+4. Arquivo Excel: Tenha um arquivo Excel pronto (por exemplo,`book1.xls`) que você usará neste tutorial.
 
 Depois de resolver esses pré-requisitos, podemos começar a explorar como recuperar dados de células do Excel.
 
@@ -36,7 +36,7 @@ Com esses namespaces importados, você está pronto para começar a codificar. V
 
 ## Etapa 1: configure seu diretório de documentos
 
-primeiro passo é definir o caminho para o diretório de documentos onde seu arquivo Excel está localizado. Isso é crucial porque diz ao aplicativo onde encontrar o arquivo com o qual você quer trabalhar.
+O primeiro passo é definir o caminho para o diretório de documentos onde seu arquivo Excel está localizado. Isso é crucial porque diz ao aplicativo onde encontrar o arquivo com o qual você quer trabalhar.
 
 
 ```csharp
@@ -52,7 +52,7 @@ Agora que você configurou o diretório do documento, o próximo passo é abrir 
 
 
 ```csharp
-// Abrindo uma pasta de trabalho existente
+//Abrindo uma pasta de trabalho existente
 Workbook workbook = new Workbook(dataDir + "book1.xls");
 ```
 
@@ -68,7 +68,7 @@ Após abrir a pasta de trabalho, você vai querer acessar a planilha específica
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
- O`Worksheets` coleção permite que você acesse diferentes planilhas na pasta de trabalho. O índice`[0]`refere-se à primeira planilha. Se você quiser acessar planilhas subsequentes, você pode alterar o índice de acordo.
+ O`Worksheets` coleção permite que você acesse diferentes planilhas na pasta de trabalho. O índice`[0]` refere-se à primeira planilha. Se você quiser acessar planilhas subsequentes, você pode alterar o índice de acordo.
 
 ## Etapa 4: Loop através das células
 
@@ -99,7 +99,7 @@ foreach (Cell cell1 in worksheet.Cells)
             Console.WriteLine("Double Value: " + doubleValue);
             break;
 
-        // Avaliando o tipo de dados da célula para valor booleano
+        //Avaliando o tipo de dados da célula para valor booleano
         case CellValueType.IsBool:
             boolValue = cell1.BoolValue;
             Console.WriteLine("Bool Value: " + boolValue);
@@ -124,7 +124,7 @@ foreach (Cell cell1 in worksheet.Cells)
 }
 ```
 
- Nesta etapa, fazemos um loop em cada célula da planilha. Para cada célula, verificamos seu tipo de dados usando um`switch`declaração. Dependendo do tipo, recuperamos o valor e o imprimimos no console. Aqui está uma análise dos casos:
+ Nesta etapa, fazemos um loop em cada célula da planilha. Para cada célula, verificamos seu tipo de dados usando um`switch` declaração. Dependendo do tipo, recuperamos o valor e o imprimimos no console. Aqui está uma análise dos casos:
 
 -  IsString: Se a célula contiver uma string, nós a recuperamos usando`StringValue`.
 -  IsNumeric: Para valores numéricos, usamos`DoubleValue`.
@@ -143,7 +143,7 @@ Recuperar dados de células do Excel usando o Aspose.Cells para .NET é um proce
 Aspose.Cells é uma biblioteca .NET que permite aos desenvolvedores criar, manipular e converter arquivos do Excel sem precisar instalar o Microsoft Excel.
 
 ### Posso usar o Aspose.Cells gratuitamente?  
-Sim, o Aspose.Cells oferece um teste gratuito que você pode usar para testar seus recursos. Você pode baixá-lo[aqui](https://releases.aspose.com/).
+ Sim, o Aspose.Cells oferece um teste gratuito que você pode usar para testar seus recursos. Você pode baixá-lo[aqui](https://releases.aspose.com/).
 
 ### Que tipos de dados posso recuperar de células do Excel?  
 Você pode recuperar vários tipos de dados, incluindo strings, números, booleanos e valores de data/hora.

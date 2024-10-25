@@ -2,7 +2,7 @@
 title: 转换和渲染
 linktitle: 转换和渲染
 second_title: Aspose.Cells .NET Excel 处理 API
-description: 探索 Aspose.Cells for .NET 教程，其中包含有关如何无缝地将 Excel 文件转换并呈现为不同格式的高级指南。
+description: 探索 Aspose.Cells for .NET 教程，其中包含有关如何无缝转换和呈现 Excel 文件为不同格式的高级指南。
 type: docs
 weight: 31
 url: /zh/net/conversion-and-rendering/

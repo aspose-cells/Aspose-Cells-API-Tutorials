@@ -87,7 +87,7 @@ Setelah lembar kerja tidak lagi dilindungi, Anda perlu menyimpan perubahan yang 
 ```csharp
 workbook.Save(dataDir + "output.out.xls");
 ```
- Di sini Anda menyimpan perubahan ke file baru bernama “output.out.xls” di direktori yang sama. Anda dapat mengganti namanya sesuai keinginan, tetapi pastikan untuk mempertahankan`.xls`agar dapat dikenali sebagai berkas Excel.
+ Di sini Anda menyimpan perubahan ke file baru bernama “output.out.xls” di direktori yang sama. Anda dapat mengganti namanya sesuai keinginan, tetapi pastikan untuk mempertahankan`.xls` agar dapat dikenali sebagai berkas Excel.
 
 ## Langkah 6: Penanganan Kesalahan
 
@@ -116,7 +116,7 @@ Nah, itu dia! Membuka kunci lembar Excel yang dilindungi menggunakan Aspose.Cell
 Ya! Anda dapat mengulang setiap lembar di buku kerja dan membuka proteksinya dengan cara yang sama.
 
 ### Apakah Aspose.Cells gratis untuk digunakan?
-Aspose.Cells menawarkan uji coba gratis, tetapi lisensi diperlukan untuk penggunaan produksi. Periksa[pembelian](https://purchase.aspose.com/buy) halaman untuk informasi lebih lanjut.
+ Aspose.Cells menawarkan uji coba gratis, tetapi lisensi diperlukan untuk penggunaan produksi. Periksa[pembelian](https://purchase.aspose.com/buy) halaman untuk informasi lebih lanjut.
 
 ### Bagaimana jika saya tidak tahu kata sandinya?
 Jika suatu lembar dilindungi kata sandi, dan Anda tidak mempunyai kata sandinya, perpustakaan tidak akan membantu melewati batasan karena bertentangan dengan kebijakan etika.

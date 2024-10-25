@@ -203,7 +203,7 @@ Gegevensvalidatie in Excel is een functie waarmee u het type gegevens dat in een
 Ja! U kunt aangepaste foutmeldingen opgeven om gebruikers te begeleiden wanneer er onjuiste gegevens worden ingevoerd.
 
 ### Is Aspose.Cells gratis te gebruiken?
-Aspose.Cells biedt een gratis proefperiode, maar u hebt een licentie nodig voor langdurig gebruik. U kunt meer informatie vinden over het verkrijgen van een tijdelijke licentie[hier](https://purchase.aspose.com/temporary-license/).
+ Aspose.Cells biedt een gratis proefperiode, maar u hebt een licentie nodig voor langdurig gebruik. U kunt meer informatie vinden over het verkrijgen van een tijdelijke licentie[hier](https://purchase.aspose.com/temporary-license/).
 
 ### Welke gegevenstypen kan ik valideren in Excel?
 Met Aspose.Cells kunt u verschillende gegevenstypen valideren, waaronder gehele getallen, decimalen, datums, lijsten en aangepaste formules.

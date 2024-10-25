@@ -15,7 +15,7 @@ La creación de gráficos visualmente atractivos e informativos es esencial para
 
 Antes de sumergirnos en el tutorial, asegúrate de tener todo listo:
 
-- Aspose.Cells para .NET: Asegúrese de tener la biblioteca Aspose.Cells descargada y referenciada en su proyecto. Puede obtenerla[aquí](https://releases.aspose.com/cells/net/).
+-  Aspose.Cells para .NET: Asegúrese de tener la biblioteca Aspose.Cells descargada y referenciada en su proyecto. Puede obtenerla[aquí](https://releases.aspose.com/cells/net/).
 - Entorno de desarrollo: cualquier entorno de desarrollo .NET funcionará, pero se recomienda Visual Studio por su sólido soporte y herramientas.
 - Comprensión básica de C#: Estar familiarizado con los conceptos básicos de programación de C# será útil ya que escribiremos algo de código.
 
@@ -45,7 +45,7 @@ Esta línea de código nos ayuda a mantener organizados nuestros archivos. Aseg�
 
 ## Paso 2: Crear un objeto de libro de trabajo
 
-A continuación, crearemos un objeto de libro de trabajo. Este objeto representará nuestro archivo de Excel.
+continuación, crearemos un objeto de libro de trabajo. Este objeto representará nuestro archivo de Excel.
 
 ```csharp
 Workbook workbook = new Workbook();
@@ -110,7 +110,7 @@ Este código le indica a nuestro gráfico que utilice el rango de celdas A1 a B3
 
 ## Paso 8: Personaliza la apariencia del gráfico
 
-continuación, haremos que nuestro gráfico sea estéticamente agradable. Podemos modificar los colores de las distintas áreas del gráfico:
+A continuación, haremos que nuestro gráfico sea estéticamente agradable. Podemos modificar los colores de las distintas áreas del gráfico:
 
 ```csharp
 chart.PlotArea.Area.ForegroundColor = Color.Yellow;
@@ -161,7 +161,7 @@ Aspose.Cells para .NET es una potente API para manipular hojas de cálculo de Ex
 ¡Sí! Aspose.Cells permite una amplia personalización, incluidas fuentes, estilos y formatos para los elementos del gráfico.
 
 ### ¿Dónde puedo encontrar más documentación?
- Puede encontrar documentación completa en[Página de referencia de Aspose](https://reference.aspose.com/cells/net/).
+Puede encontrar documentación completa en[Página de referencia de Aspose](https://reference.aspose.com/cells/net/).
 
 ### ¿Hay una prueba gratuita disponible para Aspose.Cells?
  ¡Sí! Puedes probarlo descargándolo desde[aquí](https://releases.aspose.com/).

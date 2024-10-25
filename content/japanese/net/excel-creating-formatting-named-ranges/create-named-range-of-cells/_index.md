@@ -2,7 +2,7 @@
 title: Excel で名前付きセル範囲を作成する
 linktitle: Excel で名前付きセル範囲を作成する
 second_title: Aspose.Cells .NET Excel 処理 API
-description: このステップバイステップ ガイドでは、Aspose.Cells for .NET を使用して Excel で名前付きセル範囲を簡単に作成する方法を学習します。データ管理を効率化します。
+description: このステップバイステップ ガイドでは、Aspose.Cells for .NET を使用して Excel で名前付きセル範囲を簡単に作成する方法を説明します。データ管理を効率化します。
 type: docs
 weight: 10
 url: /ja/net/excel-creating-formatting-named-ranges/create-named-range-of-cells/

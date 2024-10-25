@@ -16,7 +16,7 @@ url: /zh-hant/java/advanced-excel-charts/chart-interactivity/
 
 在我們開始之前，請確保您符合以下先決條件：
 - Java開發環境
--  Aspose.Cells for Java 函式庫（從[這裡](https://releases.aspose.com/cells/java/)
+- Aspose.Cells for Java 函式庫（從[這裡](https://releases.aspose.com/cells/java/)
 
 ## 第 1 步：設定您的 Java 項目
 

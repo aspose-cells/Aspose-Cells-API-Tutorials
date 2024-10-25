@@ -12,9 +12,9 @@ Az adatkezelés világában a különféle fájlformátumok kezelésének képes
 ## Előfeltételek
 Mielőtt elkezdené a CSV-fájlok megnyitását és a programozási izmaink megfeszítését, győződjünk meg arról, hogy mindennel rendelkezik, amire szüksége van. Íme, mire lesz szüksége:
 ### A C# és a .NET-keretrendszer alapjai
-kezdéshez jól kell ismernie a C#-ot és a .NET keretrendszert. Alapvető fontosságú, hogy megértsük az objektum-orientált programozás alapjait, mivel széles körben fogunk osztályokat és metódusokat használni.
+A kezdéshez jól kell ismernie a C#-ot és a .NET keretrendszert. Alapvető fontosságú, hogy megértsük az objektum-orientált programozás alapjait, mivel széles körben fogunk osztályokat és metódusokat használni.
 ### Aspose.Cells Library
- Mindenekelőtt az Aspose.Cells könyvtárra lesz szüksége. Ez egy .NET API az Excel-fájlok kezeléséhez és a különféle adatformátumok zökkenőmentes kezeléséhez. Te is tudod[töltse le a könyvtárat](https://releases.aspose.com/cells/net/) vagy állítsa be a NuGet segítségével a projektben.
+Mindenekelőtt az Aspose.Cells könyvtárra lesz szüksége. Ez egy .NET API az Excel-fájlok kezeléséhez és a különféle adatformátumok zökkenőmentes kezeléséhez. Te is tudod[töltse le a könyvtárat](https://releases.aspose.com/cells/net/) vagy állítsa be a NuGet segítségével a projektben.
 ### IDE beállítás
 Szüksége lesz megfelelő fejlesztői környezetre is. A Visual Studio nagyszerű választás, mivel felhasználóbarát felületet biztosít a .NET-alkalmazások kódolásához, hibakereséséhez és üzembe helyezéséhez.
 ### CSV-fájl a gyakorlathoz
@@ -42,9 +42,9 @@ LoadOptions loadOptions4 = new LoadOptions(LoadFormat.Csv);
 ```
  Itt,`LoadFormat.Csv` közli Aspose-val, hogy CSV-fájllal van dolgunk. Gondoljon erre úgy, mint a megfelelő nyelv kiválasztására egy beszélgetéshez; biztosítja, hogy mindkét fél tökéletesen megértse egymást.
 ## 3. lépés: Hozzon létre egy munkafüzet-objektumot
-Most gurulunk! Itt az ideje létrehozni a`Workbook` objektum, amely a fő munkaterületként fog szolgálni, ahol végrehajthatja a CSV-fájlhoz kapcsolódó összes műveletet.
+ Most gurulunk! Itt az ideje létrehozni a`Workbook` objektum, amely a fő munkaterületként fog szolgálni, ahol végrehajthatja a CSV-fájlhoz kapcsolódó összes műveletet.
 ```csharp
-// Hozzon létre egy munkafüzet objektumot, és nyissa meg a fájlt az elérési útjából
+//Hozzon létre egy munkafüzet objektumot, és nyissa meg a fájlt az elérési útjából
 Workbook wbCSV = new Workbook(dataDir + "Book_CSV.csv", loadOptions4);
 ```
  Ez a vonal olyan, mintha kinyitná az ajtót az adatokhoz. A tiéddel`Workbook` objektum készen áll, teljes hozzáférése van a CSV-fájlon belüli adatok kezeléséhez. Mintha egy információs láda kulcsát adnák oda!

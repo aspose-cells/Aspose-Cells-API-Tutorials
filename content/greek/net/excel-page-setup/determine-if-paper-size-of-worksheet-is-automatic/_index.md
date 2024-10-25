@@ -25,7 +25,7 @@ url: /el/net/excel-page-setup/determine-if-paper-size-of-worksheet-is-automatic/
 Θα πρέπει να έχετε ρυθμίσει ένα IDE όπως το Visual Studio. Αυτό σας καθοδηγεί στο χειρισμό και τη δοκιμή του κώδικά σας αποτελεσματικά.
 
 ### Δείγμα αρχείων Excel
-Θα χρειαστείτε δείγματα αρχείων (`samplePageSetupIsAutomaticPaperSize-False.xlsx` και`samplePageSetupIsAutomaticPaperSize-True.xlsx`) για σκοπούς δοκιμής. Βεβαιωθείτε ότι αυτά τα αρχεία βρίσκονται στον κατάλογο προέλευσης.
+Θα χρειαστείτε δείγματα αρχείων (`samplePageSetupIsAutomaticPaperSize-False.xlsx` και`samplePageSetupIsAutomaticPaperSize-True.xlsx`για σκοπούς δοκιμής. Βεβαιωθείτε ότι αυτά τα αρχεία βρίσκονται στον κατάλογο προέλευσης.
 
 ## Εισαγωγή πακέτων
 
@@ -54,7 +54,7 @@ string outputDir = "YOUR_OUTPUT_DIRECTORY";
 
 ## Βήμα 2: Φορτώστε τα βιβλία εργασίας του Excel
 
-Τώρα που έχετε ορίσει τους καταλόγους σας, ας φορτώσουμε τα βιβλία εργασίας. Θα φορτώσουμε δύο βιβλία εργασίας—το ένα με αυτόματο μέγεθος χαρτιού ρυθμισμένο σε false και το άλλο με ορισμένο σε true. Εδώ είναι ο κωδικός:
+Τώρα που έχετε ορίσει τους καταλόγους σας, ας φορτώσουμε τα βιβλία εργασίας. Θα φορτώσουμε δύο βιβλία εργασίας—ένα με αυτόματο μέγεθος χαρτιού ρυθμισμένο σε false και το άλλο με ορισμένο σε true. Εδώ είναι ο κωδικός:
 
 ```csharp
 Workbook wb1 = new Workbook(sourceDir + "samplePageSetupIsAutomaticPaperSize-False.xlsx");

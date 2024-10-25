@@ -15,9 +15,9 @@ Bạn đã bao giờ thấy mình sao chép các bảng tính giữa các sổ l
 
 Trước khi đi sâu vào mã, hãy đảm bảo rằng bạn đã được trang bị những công cụ phù hợp để bắt đầu:
 
-- Aspose.Cells cho .NET: Bạn có thể tải xuống[đây](https://releases.aspose.com/cells/net/).
+-  Aspose.Cells cho .NET: Bạn có thể tải xuống[đây](https://releases.aspose.com/cells/net/).
 - Visual Studio hoặc bất kỳ IDE nào hỗ trợ .NET framework.
--  Một giấy phép hợp lệ hoặc một[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) nếu bạn muốn kiểm tra đầy đủ chức năng của Aspose.Cells.
+-  Một giấy phép hợp lệ hoặc một[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/)nếu bạn muốn kiểm tra đầy đủ chức năng của Aspose.Cells.
 - Hiểu biết cơ bản về C# và .NET framework.
 
  Bạn cũng có thể kiểm tra[Tài liệu Aspose.Cells](https://reference.aspose.com/cells/net/) để biết thêm chi tiết.
@@ -44,7 +44,7 @@ Trước tiên, bạn cần xác định vị trí các tệp của mình. Hãy 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Trong dòng này, thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế đến các tệp Excel của bạn. Đây là nơi sổ làm việc của bạn sẽ được tải từ đó và lưu vào.
+ Trong dòng này, thay thế`"YOUR DOCUMENT DIRECTORY"`với đường dẫn thực tế đến các tệp Excel của bạn. Đây là nơi sổ làm việc của bạn sẽ được tải từ đó và lưu vào.
 
 ## Bước 2: Mở Workbook đầu tiên
 
@@ -64,7 +64,7 @@ Workbook excelWorkbook0 = new Workbook(InputPath);
 Bây giờ bạn đã mở sổ làm việc đầu tiên, đã đến lúc tạo một sổ làm việc trống khác, nơi bạn sẽ dán bảng tính đã sao chép. Hãy nghĩ về điều này như việc mở một sổ tay trống mới, nơi bạn sẽ chuyển dữ liệu.
 
 ```csharp
-//Tạo một Workbook khác.
+// Tạo một Workbook khác.
 Workbook excelWorkbook1 = new Workbook();
 ```
 

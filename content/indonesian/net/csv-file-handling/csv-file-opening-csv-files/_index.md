@@ -14,7 +14,7 @@ Sebelum kita mulai membuka file CSV dan mengasah kemampuan pemrograman kita, mar
 ### Pemahaman Dasar tentang C# dan .NET Framework
 Untuk memulai, Anda harus memahami C# dan kerangka kerja .NET dengan baik. Sangat penting untuk memahami dasar-dasar pemrograman berorientasi objek karena kita akan menggunakan kelas dan metode secara ekstensif.
 ### Pustaka Aspose.Cells
- Pertama dan terutama, Anda memerlukan pustaka Aspose.Cells. Ini adalah API .NET untuk memanipulasi file Excel dan bekerja dengan berbagai format data dengan lancar. Anda dapat[unduh perpustakaan](https://releases.aspose.com/cells/net/) atau atur melalui NuGet di proyek Anda.
+Pertama dan terutama, Anda memerlukan pustaka Aspose.Cells. Ini adalah API .NET untuk memanipulasi file Excel dan bekerja dengan berbagai format data dengan lancar. Anda dapat[unduh perpustakaan](https://releases.aspose.com/cells/net/) atau atur melalui NuGet di proyek Anda.
 ### Pengaturan IDE
 Anda juga memerlukan lingkungan pengembangan yang tepat. Visual Studio merupakan pilihan yang tepat, karena menyediakan antarmuka yang mudah digunakan untuk membuat kode, melakukan debugging, dan menyebarkan aplikasi .NET Anda.
 ### File CSV untuk Latihan
@@ -42,9 +42,9 @@ LoadOptions loadOptions4 = new LoadOptions(LoadFormat.Csv);
 ```
  Di Sini,`LoadFormat.Csv` memberi tahu Aspose bahwa kita sedang berhadapan dengan file CSV. Anggap saja seperti memilih bahasa yang tepat untuk percakapan; ini memastikan kedua belah pihak saling memahami dengan sempurna.
 ## Langkah 3: Buat Objek Buku Kerja
-Sekarang kita mulai! Saatnya membuat`Workbook` objek yang akan berfungsi sebagai ruang kerja utama tempat Anda melakukan semua operasi yang terkait dengan berkas CSV Anda.
+ Sekarang kita mulai! Saatnya membuat`Workbook` objek yang akan berfungsi sebagai ruang kerja utama tempat Anda melakukan semua operasi yang terkait dengan berkas CSV Anda.
 ```csharp
-// Membuat objek Buku Kerja dan membuka file dari jalurnya
+//Membuat objek Buku Kerja dan membuka file dari jalurnya
 Workbook wbCSV = new Workbook(dataDir + "Book_CSV.csv", loadOptions4);
 ```
  Baris ini seperti membuka kunci pintu menuju data Anda. Dengan`Workbook` objek siap, Anda memiliki akses penuh untuk memanipulasi data di dalam berkas CSV Anda. Ini seperti diberi kunci peti harta karun berisi informasi!

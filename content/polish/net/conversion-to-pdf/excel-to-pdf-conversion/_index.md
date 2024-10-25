@@ -72,7 +72,7 @@ System.Console.WriteLine("Conversion completed.");
 Spowoduje to wydrukowanie komunikatu „Conversion completed.” w konsoli. Proste, ale skuteczne!
 
 ## Wniosek
-masz to! Za pomocą zaledwie kilku linijek kodu możesz bez wysiłku przekonwertować arkusz kalkulacyjny Excela na plik PDF za pomocą Aspose.Cells dla .NET. Ta potężna biblioteka nie tylko upraszcza Twój przepływ pracy, ale także zapewnia, że Twoje dane pozostają nienaruszone i atrakcyjne wizualnie. Kontynuując pracę z Aspose.Cells, odkryjesz wiele innych funkcjonalności, które mogą zaoszczędzić Ci czasu i poprawić wyniki Twojego projektu.
+masz to! Za pomocą zaledwie kilku linijek kodu możesz bez wysiłku przekonwertować arkusz kalkulacyjny Excela na PDF za pomocą Aspose.Cells dla .NET. Ta potężna biblioteka nie tylko upraszcza Twój przepływ pracy, ale także zapewnia, że Twoje dane pozostają nienaruszone i atrakcyjne wizualnie. Kontynuując pracę z Aspose.Cells, odkryjesz wiele innych funkcjonalności, które mogą zaoszczędzić Ci czasu i poprawić wyniki Twojego projektu.
 ## Najczęściej zadawane pytania
 ### Jakie wersje platformy .NET obsługuje Aspose.Cells?
 Aspose.Cells obsługuje środowisko .NET Framework 4.0 i nowsze.

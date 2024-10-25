@@ -161,7 +161,7 @@ flag.QuotePrefix = true;
 rng.ApplyStyle(st, flag);
 ```
 
- Nesta rodada, estamos definindo`flag.QuotePrefix = true`, o que significa que queremos atualizar o prefixo de aspas da célula.
+Nesta rodada, estamos definindo`flag.QuotePrefix = true`, o que significa que queremos atualizar o prefixo de aspas da célula.
 
 ## Etapa 9: Verificação final do prefixo de cotação
 

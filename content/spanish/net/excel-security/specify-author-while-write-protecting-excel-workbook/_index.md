@@ -63,7 +63,7 @@ Al igual que un artista comienza con un lienzo en blanco, usted comienza con un 
 La protección contra escritura es un aspecto crucial, especialmente si desea garantizar que la integridad de sus datos permanezca intacta. Puede hacerlo con una contraseña.
 
 ```csharp
-// Proteger contra escritura el libro de trabajo con contraseña.
+//Proteger contra escritura el libro de trabajo con contraseña.
 wb.Settings.WriteProtection.Password = "YOUR_PASSWORD";
 ```
 
@@ -110,4 +110,4 @@ wb.Save(outputDir + "outputSpecifyAuthorWhileWriteProtectingWorkbook.xlsx");
 ¡Por supuesto! Aspose.Cells funciona perfectamente tanto en aplicaciones de escritorio como web que utilicen .NET.
 
 ### ¿Qué debo hacer si necesito ayuda?  
-Para preguntas y resolución de problemas, la comunidad de Aspose es muy útil. Puede visitar su[foro de soporte](https://forum.aspose.com/c/cells/9) para solicitar ayuda.
+ Para preguntas y resolución de problemas, la comunidad de Aspose es muy útil. Puede visitar su[foro de soporte](https://forum.aspose.com/c/cells/9) para solicitar ayuda.

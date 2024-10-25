@@ -15,7 +15,7 @@ Creare grafici visivamente accattivanti e informativi è essenziale per una pres
 
 Prima di immergerci nel tutorial, assicurati di avere tutto pronto:
 
-- Aspose.Cells per .NET: assicurati di aver scaricato e referenziato la libreria Aspose.Cells nel tuo progetto. Puoi ottenerla[Qui](https://releases.aspose.com/cells/net/).
+-  Aspose.Cells per .NET: assicurati di aver scaricato e referenziato la libreria Aspose.Cells nel tuo progetto. Puoi ottenerla[Qui](https://releases.aspose.com/cells/net/).
 - Ambiente di sviluppo: qualsiasi ambiente di sviluppo .NET funzionerà, ma Visual Studio è altamente consigliato per il suo solido supporto e i suoi strumenti.
 - Nozioni di base di C#: la familiarità con le nozioni di base della programmazione C# sarà utile quando scriveremo del codice.
 
@@ -76,7 +76,7 @@ worksheet.Cells["B2"].PutValue(32);
 worksheet.Cells["B3"].PutValue(50);
 ```
 
- Qui inseriamo alcuni valori casuali nelle celle`A1` A`B3`Questi dati serviranno come fonte dati per il nostro grafico. È essenziale avere dati significativi da visualizzare; altrimenti, il grafico sarebbe solo belle linee senza contesto!
+ Qui inseriamo alcuni valori casuali nelle celle`A1` A`B3`. Questi dati serviranno come fonte dati per il nostro grafico. È essenziale avere dati significativi da visualizzare; altrimenti, il grafico sarebbe solo belle linee senza contesto!
 
 ## Passaggio 5: aggiungere un grafico al foglio di lavoro
 
@@ -161,7 +161,7 @@ Aspose.Cells per .NET è una potente API per la manipolazione di fogli di calcol
 Sì! Aspose.Cells consente un'ampia personalizzazione, inclusi font, stili e formati per gli elementi del grafico.
 
 ### Dove posso trovare ulteriore documentazione?
- Puoi trovare una documentazione completa su[Pagina di riferimento di Aspose](https://reference.aspose.com/cells/net/).
+Puoi trovare una documentazione completa su[Pagina di riferimento di Aspose](https://reference.aspose.com/cells/net/).
 
 ### È disponibile una prova gratuita per Aspose.Cells?
  Sì! Puoi provarlo scaricandolo da[Qui](https://releases.aspose.com/).

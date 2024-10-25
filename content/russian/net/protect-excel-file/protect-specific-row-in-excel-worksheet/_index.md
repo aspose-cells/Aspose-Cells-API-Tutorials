@@ -49,7 +49,7 @@ using Aspose.Cells;
 // Путь к каталогу документов.
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // измените на желаемый путь.
 
-//Создайте каталог, если его еще нет.
+// Создайте каталог, если его еще нет.
 bool isExists = System.IO.Directory.Exists(dataDir);
 if (!isExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -88,7 +88,7 @@ StyleFlag flag;
 for (int i = 0; i <= 255; i++)
 {
     style = sheet.Cells.Columns[(byte)i].Style;
-    style.IsLocked = false; // Разблокировать столбец
+    style.IsLocked = false; //Разблокировать столбец
     flag = new StyleFlag();
     flag.Locked = true; // Установите флаг в значение true для блокировки
     sheet.Cells.Columns[(byte)i].ApplyStyle(style, flag); // Применить стиль

@@ -37,7 +37,7 @@ string dataDir = "Your Document Directory";
  Tại đây, bạn chỉ định đường dẫn thư mục nơi tệp Excel sẽ được lưu trữ. Bạn có thể thay thế`"Your Document Directory"` bằng đường dẫn thực tế trên máy của bạn hoặc tạo thư mục động nếu thư mục không tồn tại.
 ### Kiểm tra và tạo thư mục
 ```csharp
-//Tạo thư mục nếu thư mục đó chưa có.
+// Tạo thư mục nếu thư mục đó chưa có.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);

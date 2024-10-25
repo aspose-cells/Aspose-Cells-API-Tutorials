@@ -92,7 +92,7 @@ foreach (SparklineGroup g in sheet.SparklineGroupCollection)
 }
 ```
 
-L'exécution de cette opération affichera des informations sur tous les graphiques sparkline déjà présents dans votre fichier Excel : un moyen utile de voir quelles tendances de données sont déjà visualisées !
+L'exécution de cette opération affichera des informations sur tous les graphiques sparkline déjà présents dans votre fichier Excel, un moyen utile de voir quelles tendances de données sont déjà visualisées !
 
 ## Étape 5 : définir la zone de cellule pour les nouveaux graphiques sparkline
 

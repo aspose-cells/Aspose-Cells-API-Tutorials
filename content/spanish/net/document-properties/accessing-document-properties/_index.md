@@ -43,7 +43,7 @@ Aspose.Cells.Properties.DocumentPropertyCollection customProperties = workbook.W
 ```
 Esta línea de código recupera todas las propiedades de documento personalizadas vinculadas a su libro de trabajo. ¡Es como abrir una bóveda para descubrir información oculta!
 ## Paso 4: Acceda a una propiedad de documento personalizada por nombre
-A veces sabes exactamente lo que estás buscando. Si necesitas acceder a una propiedad específica por su nombre, aquí te mostramos cómo hacerlo:
+veces sabes exactamente lo que estás buscando. Si necesitas acceder a una propiedad específica por su nombre, aquí te mostramos cómo hacerlo:
 ```csharp
 Aspose.Cells.Properties.DocumentProperty customProperty1 = customProperties["ContentTypeId"];
 Console.WriteLine(customProperty1.Name + " " + customProperty1.Value);
@@ -69,4 +69,4 @@ Aspose.Cells para .NET es una biblioteca diseñada para crear, manipular y conve
 ### ¿Hay soporte disponible para los usuarios de Aspose.Cells?
  Sí, puede acceder a amplios recursos de soporte, incluidos foros y documentación, disponibles[aquí](https://forum.aspose.com/c/cells/9).
 ### ¿Cómo puedo obtener una licencia temporal para Aspose.Cells?
- Puede solicitar una licencia temporal para evaluar el producto visitando[Este enlace](https://purchase.aspose.com/temporary-license/).
+Puede solicitar una licencia temporal para evaluar el producto visitando[Este enlace](https://purchase.aspose.com/temporary-license/).

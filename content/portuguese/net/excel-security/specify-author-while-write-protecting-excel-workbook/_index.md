@@ -60,10 +60,10 @@ Assim como um artista começa com uma tela em branco, você começa com uma past
 
 ## Etapa 3: Escreva e proteja a pasta de trabalho
 
-proteção contra gravação é um aspecto crucial, especialmente se você quiser garantir que a integridade dos seus dados permaneça intacta. Você pode fazer isso com uma senha.
+A proteção contra gravação é um aspecto crucial, especialmente se você quiser garantir que a integridade dos seus dados permaneça intacta. Você pode fazer isso com uma senha.
 
 ```csharp
-// Proteja a pasta de trabalho com senha.
+//Proteja a pasta de trabalho com senha.
 wb.Settings.WriteProtection.Password = "YOUR_PASSWORD";
 ```
 
@@ -89,11 +89,11 @@ O passo final é salvar a pasta de trabalho no formato desejado. Neste caso, sal
 wb.Save(outputDir + "outputSpecifyAuthorWhileWriteProtectingWorkbook.xlsx");
 ```
 
- Aqui, o arquivo de saída será salvo no diretório de saída especificado com o nome`outputSpecifyAuthorWhileWriteProtectingWorkbook.xlsx`É aqui que seu trabalho duro finalmente compensa, e você pode compartilhar sua pasta de trabalho com outras pessoas, sabendo que ela está bem protegida!
+ Aqui, o arquivo de saída será salvo no diretório de saída especificado com o nome`outputSpecifyAuthorWhileWriteProtectingWorkbook.xlsx`. É aqui que seu trabalho duro finalmente compensa, e você pode compartilhar sua pasta de trabalho com outras pessoas, sabendo que ela está bem protegida!
 
 ## Conclusão
 
-E aí está! Você aprendeu como criar uma pasta de trabalho do Excel, definir proteção contra gravação com uma senha, especificar um autor e salvá-la perfeitamente usando o Aspose.Cells para .NET. Essa combinação de funcionalidades não apenas protegerá seus dados, mas também manterá sua integridade e fornecerá atribuição adequada.
+aí está! Você aprendeu como criar uma pasta de trabalho do Excel, definir proteção contra gravação com uma senha, especificar um autor e salvá-la perfeitamente usando o Aspose.Cells para .NET. Essa combinação de funcionalidades não apenas protegerá seus dados, mas também manterá sua integridade e fornecerá atribuição adequada.
 
 ## Perguntas frequentes
 
@@ -110,4 +110,4 @@ E aí está! Você aprendeu como criar uma pasta de trabalho do Excel, definir p
 Absolutamente! Aspose.Cells funciona perfeitamente em aplicativos desktop e web usando .NET.
 
 ### O que devo fazer se precisar de suporte?  
-Para perguntas e solução de problemas, a comunidade Aspose é muito útil. Você pode visitar o site deles[fórum de suporte](https://forum.aspose.com/c/cells/9) para obter assistência.
+ Para perguntas e solução de problemas, a comunidade Aspose é muito útil. Você pode visitar o site deles[fórum de suporte](https://forum.aspose.com/c/cells/9) para obter assistência.

@@ -33,7 +33,7 @@ Ha követi ezeket az oktatóanyagokat, jelentősen javíthatja adatmegjeleníté
 
 ## Vezérlők beszúrása a Charts oktatóanyagokba
 ### [Címkevezérlő hozzáadása a diagramhoz](./add-label-control-to-chart/)
-Ebből a lépésről lépésre szóló útmutatóból megtudhatja, hogyan adhat hozzá címkevezérlőt a diagramokhoz az Aspose.Cells for .NET alkalmazásban. Javítsa az adatok megjelenítését.
+Ebből a lépésenkénti útmutatóból megtudhatja, hogyan adhat hozzá címkevezérlőt a diagramokhoz az Aspose.Cells for .NET alkalmazásban. Javítsa az adatok megjelenítését.
 ### [Kép hozzáadása a diagramhoz](./add-picture-to-chart/)
 Ismerje meg, hogyan adhat hozzá egyszerűen képeket Excel-diagramokhoz az Aspose.Cells for .NET segítségével. Növelje diagramjait és prezentációit néhány egyszerű lépésben.
 ### [Szövegmező-vezérlő hozzáadása a diagramhoz](./add-textbox-control-to-chart/)

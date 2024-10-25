@@ -29,7 +29,7 @@ Innan du skriver någon kod måste du lägga till en referens till Aspose.Cells-
 ### Ladda ner DLL
 
 1.  Gå till[Aspose Nedladdningssida](https://releases.aspose.com/cells/net/) och ladda ner lämpligt paket för din .NET-version.
-2. Extrahera den nedladdade filen och leta upp`Aspose.Cells.dll` fil.
+2.  Extrahera den nedladdade filen och leta upp`Aspose.Cells.dll` fil.
 
 ### Lägg till referens i Visual Studio
 

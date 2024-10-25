@@ -10,7 +10,7 @@ url: /pl/java/advanced-excel-charts/chart-annotations/
 
 ## Wprowadzenie do adnotacji wykresów przy użyciu Aspose.Cells dla języka Java
 
-świecie wizualizacji danych wykresy odgrywają kluczową rolę w skutecznym przekazywaniu informacji. Pozwalają nam reprezentować złożone dane w wizualnie atrakcyjny i zrozumiały sposób. Jednak aby uczynić te wykresy jeszcze bardziej informacyjnymi, w grę wchodzą adnotacje. Adnotacje dostarczają dodatkowego kontekstu i spostrzeżeń do danych przedstawionych na wykresie. W tym artykule przyjrzymy się, jak dodawać adnotacje wykresów za pomocą Aspose.Cells for Java, potężnego interfejsu API Java do pracy z plikami Excel.
+W świecie wizualizacji danych wykresy odgrywają kluczową rolę w skutecznym przekazywaniu informacji. Pozwalają nam reprezentować złożone dane w wizualnie atrakcyjny i zrozumiały sposób. Jednak aby uczynić te wykresy jeszcze bardziej informacyjnymi, w grę wchodzą adnotacje. Adnotacje dostarczają dodatkowego kontekstu i spostrzeżeń do danych przedstawionych na wykresie. W tym artykule przyjrzymy się, jak dodawać adnotacje wykresów za pomocą Aspose.Cells for Java, potężnego interfejsu API Java do pracy z plikami Excel.
 
 ## Wymagania wstępne
 
@@ -94,7 +94,7 @@ textFrame.getText().getCharacters().setColor(Color.getRed());
 
 ## Wniosek
 
-tym samouczku nauczyliśmy się, jak dodawać adnotacje do wykresów za pomocą Aspose.Cells for Java. Adnotacje zwiększają przejrzystość i zrozumienie wykresów, czyniąc je bardziej informacyjnymi dla odbiorców. Możesz eksplorować bardziej zaawansowane opcje adnotacji i formatowania, aby tworzyć atrakcyjne wizualnie wykresy dostosowane do Twoich konkretnych potrzeb.
+W tym samouczku nauczyliśmy się, jak dodawać adnotacje do wykresów za pomocą Aspose.Cells for Java. Adnotacje zwiększają przejrzystość i zrozumienie wykresów, czyniąc je bardziej informacyjnymi dla odbiorców. Możesz eksplorować bardziej zaawansowane opcje adnotacji i formatowania, aby tworzyć atrakcyjne wizualnie wykresy dostosowane do Twoich konkretnych potrzeb.
 
 ## Najczęściej zadawane pytania
 

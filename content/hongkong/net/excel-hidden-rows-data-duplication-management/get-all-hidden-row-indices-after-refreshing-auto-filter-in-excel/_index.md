@@ -117,7 +117,7 @@ Console.WriteLine("GetAllHiddenRowsIndicesAfterRefreshingAutoFilter executed suc
 ## 常見問題解答
 
 ### 什麼是 Aspose.Cells？
-Aspose.Cells 是一個功能強大的 .NET 程式庫，可讓開發人員建立、操作和匯出 Excel 文件，而無需 Microsoft Excel。
+Aspose.Cells 是一個強大的 .NET 程式庫，可讓開發人員建立、操作和匯出 Excel 文件，而無需使用 Microsoft Excel。
 
 ### 我可以使用 Aspose.Cells 過濾 Excel 中的資料嗎？
 是的！ Aspose.Cells 具有應用過濾器和有效處理 Excel 資料的內建功能。

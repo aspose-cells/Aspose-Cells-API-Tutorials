@@ -84,6 +84,6 @@ Sì, oltre al posizionamento, puoi anche ridimensionare, ruotare e modificare le
 ### Aspose.Cells è gratuito?
  Aspose.Cells è un prodotto commerciale, ma puoi iniziare con una prova gratuita disponibile sul loro[pagina di prova gratuita](https://releases.aspose.com/).
 ### Come posso ottenere una licenza temporanea per Aspose.Cells?
- È possibile richiedere una licenza temporanea tramite[pagina della licenza temporanea](https://purchase.aspose.com/temporary-license/) fornito da Aspose.
+ È possibile richiedere una licenza temporanea tramite[pagina licenza temporanea](https://purchase.aspose.com/temporary-license/) fornito da Aspose.
 ### Dove posso trovare altri esempi e documentazione?
  IL[Documentazione di Aspose.Cells](https://reference.aspose.com/cells/net/) contiene risorse estese, tra cui esempi di codice e funzionalità più dettagliate.

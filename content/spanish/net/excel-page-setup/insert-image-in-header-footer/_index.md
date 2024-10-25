@@ -55,7 +55,7 @@ Workbook workbook = new Workbook();
 
 ## Paso 3: Definición de la ruta de la imagen
 
- Es hora de crear una variable de cadena para guardar la ruta a la imagen que quieres usar. En nuestro caso, estamos usando`aspose-logo.jpg`.
+Es hora de crear una variable de cadena para guardar la ruta a la imagen que quieres usar. En nuestro caso, estamos usando`aspose-logo.jpg`.
 
 ```csharp
 string logo_url = dataDir + "aspose-logo.jpg";

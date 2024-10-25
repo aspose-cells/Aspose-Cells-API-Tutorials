@@ -53,7 +53,7 @@ Selanjutnya, Anda perlu membuat aliran file untuk membuka file Excel Anda. Langk
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
 
-Di sini, kami menentukan bahwa kami ingin membuka`book1.xls` terletak di direktori yang ditentukan.`FileMode.Open` parameter menunjukkan kita sedang membuka berkas yang sudah ada. Selalu pastikan nama berkas sesuai dengan yang Anda miliki.
+ Di sini, kami menentukan bahwa kami ingin membuka`book1.xls` terletak di direktori yang ditentukan.`FileMode.Open` parameter menunjukkan kita sedang membuka berkas yang sudah ada. Selalu pastikan nama berkas sesuai dengan yang Anda miliki.
 
 ## Langkah 3: Membuat Instansi Objek Buku Kerja
 
@@ -83,7 +83,7 @@ Sekarang saatnya kita menunggu! Di sinilah kita benar-benar menyembunyikan tajuk
 worksheet.IsRowColumnHeadersVisible = false;
 ```
 
- Pengaturan`IsRowColumnHeadersVisible` ke`false`akan secara efektif menyembunyikan tajuk di baris dan kolom, menciptakan tampilan yang lebih rapi untuk presentasi data Anda.
+ Pengaturan`IsRowColumnHeadersVisible` ke`false` akan secara efektif menyembunyikan tajuk di baris dan kolom, menciptakan tampilan yang lebih rapi untuk presentasi data Anda.
 
 ## Langkah 6: Simpan File Excel yang Telah Dimodifikasi
 

@@ -14,7 +14,7 @@ Trước khi đi sâu vào chi tiết, có một số điều bạn cần thiế
 ### .NET Framework hoặc .NET Core
 Đảm bảo bạn đã cài đặt .NET Framework hoặc .NET Core trên máy của mình. Thư viện này hoạt động tốt với cả hai.
 ### Cài đặt Aspose.Cells
-Bạn sẽ cần tải xuống thư viện Aspose.Cells. Bạn có thể[tải xuống từ đây](https://releases.aspose.com/cells/net/) . Nếu bạn không quen với việc cài đặt các gói NuGet, hãy làm theo[hướng dẫn này](https://www.nuget.org/).
+ Bạn sẽ cần tải xuống thư viện Aspose.Cells. Bạn có thể[tải xuống từ đây](https://releases.aspose.com/cells/net/) . Nếu bạn không quen với việc cài đặt các gói NuGet, hãy làm theo[hướng dẫn này](https://www.nuget.org/).
 ### Môi trường phát triển tích hợp (IDE)
 Có một IDE như Visual Studio hoặc JetBrains Rider có thể đơn giản hóa việc mã hóa, gỡ lỗi và chạy dự án của bạn.
 ### Kiến thức cơ bản về C#

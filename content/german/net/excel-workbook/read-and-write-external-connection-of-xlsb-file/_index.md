@@ -68,7 +68,7 @@ Wenn die Arbeitsmappe geladen ist, können Sie auf ihre externen Verbindungen zu
 Aspose.Cells.ExternalConnections.DBConnection dbCon = wb.DataConnections[0] as Aspose.Cells.ExternalConnections.DBConnection;
 ```
 
- Hier,`DataConnections[0]`bezieht sich auf die erste Verbindung in der Arbeitsmappe. Wir wandeln sie als`DBConnection` Typ zur weiteren Bearbeitung.
+ Hier,`DataConnections[0]` bezieht sich auf die erste Verbindung in der Arbeitsmappe. Wir wandeln sie als`DBConnection` Typ zur weiteren Bearbeitung.
 
 ## Schritt 4: Verbindungsinformationen extrahieren
 
@@ -85,7 +85,7 @@ Mit diesem Schritt können Sie den aktuellen Status Ihrer externen Verbindung ü
 
 ## Schritt 5: Ändern der Verbindung
 
-Manchmal ist eine Namensänderung alles, was nötig ist, um Dinge klarer zu machen oder neuen Namenskonventionen zu entsprechen. Lassen Sie uns den vorhandenen Verbindungsnamen in einen aussagekräftigeren Namen ändern.
+Manchmal ist eine Namensänderung alles, was nötig ist, um Dinge klarer zu machen oder neuen Namenskonventionen zu entsprechen. Ändern wir den vorhandenen Verbindungsnamen in einen aussagekräftigeren.
 
 ```csharp
 // Ändern des Verbindungsnamens
@@ -107,7 +107,7 @@ Diese Codezeile speichert Ihre aktualisierte Arbeitsmappe und behält alle Ihre 
 
 ## Schritt 7: Ausführung bestätigen
 
-Abschließend bestätigen wir, dass alles reibungslos funktioniert hat. Eine kurze Nachricht am Ende macht dies deutlich.
+Abschließend bestätigen wir noch, dass alles reibungslos funktioniert hat. Eine kurze Nachricht am Ende macht das deutlich.
 
 ```csharp
 Console.WriteLine("ReadAndWriteExternalConnectionOfXLSBFile executed successfully.\r\n");

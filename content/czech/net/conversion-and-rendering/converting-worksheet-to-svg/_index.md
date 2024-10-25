@@ -22,7 +22,7 @@ Než se ponoříte do kódu, ujistěte se, že máte vše, co potřebujete:
 
 ## Import nezbytných balíčků
 
-Než přejdete do kódovací části, ujistěte se, že jste v horní části souboru C# zahrnuli požadované jmenné prostory.
+Než přejdete do části kódování, ujistěte se, že jste v horní části souboru C# zahrnuli požadované jmenné prostory.
 
 ```csharp
 using System.IO;

@@ -39,7 +39,7 @@ string outputDir = "Your Document Directory";
 //소스 Excel 파일 로드
 Workbook wb = new Workbook(sourceDir + "sampleToFrontOrBack.xlsx");
 ```
- 이 코드 줄은 새로운 것을 초기화합니다.`Workbook`객체, 지정된 Excel 파일을 메모리에 로드하여 작업할 수 있도록 합니다.
+ 이 코드 줄은 새로운 것을 초기화합니다.`Workbook` 객체, 지정된 Excel 파일을 메모리에 로드하여 작업할 수 있도록 합니다.
 ## 3단계: 워크시트에 액세스 
 다음으로, 우리는 모양이 있는 특정 워크시트에 액세스해야 합니다. 이 예에서는 첫 번째 워크시트를 사용하겠습니다.
 ```csharp

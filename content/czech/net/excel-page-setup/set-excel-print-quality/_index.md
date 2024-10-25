@@ -77,7 +77,7 @@ Tady se děje kouzlo! Dostaneme se k nastavení kvality tisku pro pracovní list
 worksheet.PageSetup.PrintQuality = 180;
 ```
 
-Vysvětlení: The`PrintQuality` vlastnost lze nastavit na libovolnou hodnotu, obvykle mezi 75 a 600 dpi (bodů na palec). V tomto případě jej nastavíme na 180 dpi, což je skvělé pro dobrou rovnováhu mezi kvalitou a velikostí souboru.
+ Vysvětlení: The`PrintQuality` vlastnost lze nastavit na libovolnou hodnotu, obvykle mezi 75 a 600 dpi (bodů na palec). V tomto případě jej nastavíme na 180 dpi, což je skvělé pro dobrou rovnováhu mezi kvalitou a velikostí souboru.
 
 ## Krok 5: Uložení sešitu
 

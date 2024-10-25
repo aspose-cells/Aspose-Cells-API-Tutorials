@@ -9,14 +9,14 @@ url: /cs/java/excel-data-security/
 ---
 
 ## Zavedení
-V době, kdy jsou data králem, je zabezpečení vašich excelových tabulek prvořadé. Ať už pracujete s citlivými finančními údaji, důvěrnými obchodními zprávami nebo jinými kritickými informacemi, je zásadní chránit vaše soubory Excel před neoprávněným přístupem a manipulací. Aspose.Cells for Java poskytuje výkonné nástroje pro posílení zabezpečení dat aplikace Excel a v tomto tutoriálu vás provedeme základními kroky k ochraně vašich cenných dat.
+době, kdy jsou data králem, je zabezpečení vašich excelových tabulek prvořadé. Ať už pracujete s citlivými finančními údaji, důvěrnými obchodními zprávami nebo jinými kritickými informacemi, je zásadní chránit vaše soubory Excel před neoprávněným přístupem a manipulací. Aspose.Cells for Java poskytuje výkonné nástroje pro posílení zabezpečení dat aplikace Excel a v tomto tutoriálu vás provedeme základními kroky k ochraně vašich cenných dat.
 
 
 ## Ochrana heslem
 Ochrana heslem je vaší první linií obrany. Pomocí Aspose.Cells for Java můžete nastavit heslo pro otevření a heslo pro úpravu souborů aplikace Excel. Tato dvojitá vrstva ochrany zajišťuje, že k vašim tabulkám mohou přistupovat a provádět změny pouze oprávněné osoby. Poskytneme vám příklady kódu pro bezproblémovou implementaci tohoto bezpečnostního opatření.
 
 ## Šifrování souborů
-V dnešním propojeném světě je šifrování souborů nutností. Aspose.Cells for Java vám umožňuje šifrovat soubory aplikace Excel pomocí standardních šifrovacích algoritmů. V případě potřeby vás provedeme procesem šifrování souborů a jejich dešifrování.
+dnešním propojeném světě je šifrování souborů nutností. Aspose.Cells for Java vám umožňuje šifrovat soubory aplikace Excel pomocí standardních šifrovacích algoritmů. V případě potřeby vás provedeme procesem šifrování souborů a jejich dešifrování.
 
 ## Validace dat
 Zajištění integrity dat je zásadní. Prozkoumáme, jak používat pravidla ověřování dat, abychom zabránili chybnému zadávání dat. S Aspose.Cells for Java můžete nastavit pravidla ověřování dat, která omezí zadávání dat na konkrétní kritéria a zajistí, že vaše excelové listy zůstanou přesné a bez chyb.

@@ -70,7 +70,7 @@ string outputDir = "C:\\YourOutputDirectory\\"; // Ga naar de door u opgegeven d
 
 ## Stap 2: Een werkmapobject instantiëren
 
-Vervolgens maken we een exemplaar van de`Workbook` klas. Dit is waar al ons werk zal plaatsvinden.
+ Vervolgens maken we een exemplaar van de`Workbook` klas. Dit is waar al ons werk zal plaatsvinden.
 ```csharp
 Workbook workbook = new Workbook();
 ```

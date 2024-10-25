@@ -203,7 +203,7 @@ Excel 中的数据验证是一种限制可在特定单元格或范围内输入�
 是的！您可以提供自定义错误消息，以便在用户输入错误数据时提供指导。
 
 ### Aspose.Cells 可以免费使用吗？
-Aspose.Cells 提供免费试用，但您需要许可证才能长期使用。您可以找到有关获取临时许可证的更多信息[这里](https://purchase.aspose.com/temporary-license/).
+ Aspose.Cells 提供免费试用，但您需要许可证才能长期使用。您可以找到有关获取临时许可证的更多信息[这里](https://purchase.aspose.com/temporary-license/).
 
 ### 我可以在 Excel 中验证哪些数据类型？
 使用 Aspose.Cells，您可以验证各种数据类型，包括整数、小数、日期、列表和自定义公式。

@@ -37,7 +37,7 @@ string dataDir = "Your Document Directory";
  Di sini, Anda menentukan jalur direktori tempat file Excel akan disimpan. Anda dapat mengganti`"Your Document Directory"` dengan jalur sebenarnya di komputer Anda, atau membuat folder secara dinamis jika belum ada.
 ### Memeriksa dan Membuat Direktori
 ```csharp
-//Buat direktori jika belum ada.
+// Buat direktori jika belum ada.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);

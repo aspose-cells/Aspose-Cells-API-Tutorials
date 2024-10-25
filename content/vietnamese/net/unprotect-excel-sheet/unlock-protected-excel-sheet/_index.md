@@ -87,7 +87,7 @@ Sau khi bảng tính được bỏ bảo vệ, bạn cần lưu các thay đổi
 ```csharp
 workbook.Save(dataDir + "output.out.xls");
 ```
- Ở đây bạn đang lưu các thay đổi vào một tệp mới có tên là “output.out.xls” trong cùng thư mục. Bạn có thể đổi tên tệp theo ý muốn, nhưng hãy đảm bảo duy trì`.xls`phần mở rộng để có thể nhận dạng được như một tệp Excel.
+ Ở đây bạn đang lưu các thay đổi vào một tệp mới có tên là “output.out.xls” trong cùng thư mục. Bạn có thể đổi tên tệp theo ý muốn, nhưng hãy đảm bảo duy trì`.xls` phần mở rộng để có thể nhận dạng được như một tệp Excel.
 
 ## Bước 6: Xử lý lỗi
 
@@ -116,7 +116,7 @@ Và bạn đã có nó! Mở khóa một bảng tính Excel được bảo vệ 
 Có! Bạn có thể lặp qua từng trang tính trong bảng tính và bỏ bảo vệ chúng theo cách tương tự.
 
 ### Aspose.Cells có miễn phí sử dụng không?
-Aspose.Cells cung cấp bản dùng thử miễn phí, nhưng cần có giấy phép để sử dụng sản xuất. Kiểm tra[mua](https://purchase.aspose.com/buy) trang để biết thêm thông tin.
+ Aspose.Cells cung cấp bản dùng thử miễn phí, nhưng cần có giấy phép để sử dụng sản xuất. Kiểm tra[mua](https://purchase.aspose.com/buy) trang để biết thêm thông tin.
 
 ### Nếu tôi không biết mật khẩu thì sao?
 Nếu một trang tính được bảo vệ bằng mật khẩu và bạn không có mật khẩu, thư viện sẽ không giúp vượt qua các hạn chế vì điều này vi phạm chính sách đạo đức.

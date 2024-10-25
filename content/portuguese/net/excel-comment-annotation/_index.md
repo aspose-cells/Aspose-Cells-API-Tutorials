@@ -13,11 +13,11 @@ Você já quis deixar suas planilhas do Excel um pouco mais expressivas? Talvez 
 
 ## Adicionar um comentário com imagem no Excel
 
-Imagine ter a capacidade de anotar suas células do Excel não apenas com texto, mas também com imagens. Isso adiciona um toque pessoal e um elemento visual que pode esclarecer e aprimorar as informações em suas planilhas. O tutorial em[Adicionar um comentário com imagem no Excel](./add-comment-with-image-excel/) orienta você no processo passo a passo. Você aprenderá a inserir imagens diretamente nos comentários, tornando suas planilhas não apenas mais informativas, mas também visualmente atraentes. Pense em quão eficaz uma captura de tela ou um logotipo podem ser quando você está compartilhando seu trabalho com outras pessoas!
+ Imagine ter a capacidade de anotar suas células do Excel não apenas com texto, mas também com imagens. Isso adiciona um toque pessoal e um elemento visual que pode esclarecer e aprimorar as informações em suas planilhas. O tutorial em[Adicionar um comentário com imagem no Excel](./add-comment-with-image-excel/) orienta você no processo passo a passo. Você aprenderá a inserir imagens diretamente nos comentários, tornando suas planilhas não apenas mais informativas, mas também visualmente atraentes. Pense em quão eficaz uma captura de tela ou um logotipo podem ser quando você está compartilhando seu trabalho com outras pessoas!
 
 ## Adicionar comentários a células ou formas no Excel
 
- Se você é um iniciante que deseja começar com anotações, o[Adicionar comentários a células ou formas no Excel](./add-comments-to-cells-or-shapes-excel/)tutorial é perfeito para você. Ele abrange tudo, desde o básico de adicionar comentários até melhorar a funcionalidade de suas planilhas. Você verá como anexar comentários a vários elementos — sejam células ou formas — e até mesmo executar algumas práticas recomendadas no processo. Este tutorial é seu trampolim para tornar suas planilhas interativas e fáceis de usar!
+ Se você é um iniciante que deseja começar com anotações, o[Adicionar comentários a células ou formas no Excel](./add-comments-to-cells-or-shapes-excel/) tutorial é perfeito para você. Ele abrange tudo, desde o básico de adicionar comentários até melhorar a funcionalidade de suas planilhas. Você verá como anexar comentários a vários elementos — sejam células ou formas — e até mesmo executar algumas práticas recomendadas no processo. Este tutorial é seu trampolim para tornar suas planilhas interativas e fáceis de usar!
 
 ## Comentários de formato - Fonte, Cor, Alinhamento
 

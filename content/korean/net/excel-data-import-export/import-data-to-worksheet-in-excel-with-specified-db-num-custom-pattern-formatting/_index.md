@@ -16,7 +16,7 @@ url: /ko/net/excel-data-import-export/import-data-to-worksheet-in-excel-with-spe
 핵심을 파고들기 전에, 필요한 모든 것을 갖추었는지 확인해 보겠습니다. 성공을 위한 전제 조건의 간단한 체크리스트는 다음과 같습니다.
 
 1. .NET Framework: 컴퓨터에 .NET Framework가 설치되어 있는지 확인하세요. Aspose.Cells는 다양한 .NET 버전과 원활하게 작동합니다.
-2. .NET용 Aspose.Cells: Aspose.Cells 라이브러리를 다운로드하여 설치해야 합니다. 다음에서 가져올 수 있습니다.[다운로드 링크](https://releases.aspose.com/cells/net/).
+2.  .NET용 Aspose.Cells: Aspose.Cells 라이브러리를 다운로드하여 설치해야 합니다. 다음에서 가져올 수 있습니다.[다운로드 링크](https://releases.aspose.com/cells/net/).
 3. 통합 개발 환경(IDE): Visual Studio와 같은 IDE를 사용하여 C# 코드를 작성하고 실행할 수 있습니다.
 4. C#에 대한 기본 지식: C#에 대한 기본적인 이해가 있으면 이 가이드에서 사용하는 코딩 관행을 따라가는 데 도움이 됩니다.
 
@@ -108,7 +108,7 @@ Style st = cell.GetStyle();
 st.Custom = "[DBNum2][$-804]General";
 ```
 
- 이 줄은 Excel에 숫자를 서식 지정하도록 지시합니다.`123` 중국어에 해당하는 DBNum 패턴에 따라. 꽤 깔끔하죠?
+ 이 줄은 Excel에 숫자를 서식 지정하도록 지시합니다.`123`중국어에 해당하는 DBNum 패턴에 따라. 꽤 깔끔하죠?
 
 ## 7단계: 업데이트된 셀 스타일 설정
 

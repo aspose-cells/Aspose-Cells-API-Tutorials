@@ -110,10 +110,10 @@ Aspose.Cells, bilgisayarınızda Microsoft Excel'in kurulu olmasına gerek kalma
  Aspose.Cells'i şu adresten indirebilirsiniz:[web sitesi](https://releases.aspose.com/cells/net/).
 
 ### Aspose.Cells'in ücretsiz bir versiyonu var mı?
-Evet! Deneme sürümünü indirerek Aspose.Cells'i ücretsiz deneyebilirsiniz[Burada](https://releases.aspose.com/).
+ Evet! Deneme sürümünü indirerek Aspose.Cells'i ücretsiz deneyebilirsiniz[Burada](https://releases.aspose.com/).
 
 ### Nereden destek alabilirim?
- Destekle ilgili herhangi bir sorunuz varsa şu adresi ziyaret edebilirsiniz:[Aspose forumu](https://forum.aspose.com/c/cells/9).
+Destekle ilgili herhangi bir sorunuz varsa şu adresi ziyaret edebilirsiniz:[Aspose forumu](https://forum.aspose.com/c/cells/9).
 
 ### Aspose.Cells'i bulut ortamında kullanabilir miyim?
 Evet, Aspose.Cells, .NET çalışma zamanı desteklendiği sürece bulut tabanlı kurulumlar da dahil olmak üzere herhangi bir .NET uygulamasına entegre edilebilir.

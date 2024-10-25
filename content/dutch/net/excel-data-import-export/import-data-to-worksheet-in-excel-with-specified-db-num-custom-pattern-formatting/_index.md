@@ -9,14 +9,14 @@ url: /nl/net/excel-data-import-export/import-data-to-worksheet-in-excel-with-spe
 ---
 ## Invoering
 
-Als het aankomt op spreadsheetmanipulatie, kan het importeren van gegevens in Excel en het correct formatteren ervan een overweldigende taak lijken, vooral als u specifieke op cultuur gebaseerde formaten wilt gebruiken, zoals DB Num-patronen. Als u zich ooit vastgelopen hebt gevoeld door de technische aspecten van Excel-formattering, bent u hier aan het juiste adres! In deze handleiding gaan we de zaken opsplitsen in eenvoudige stappen met behulp van Aspose.Cells voor .NET, waardoor uw gegevensimport niet alleen eenvoudig maar ook esthetisch aantrekkelijk wordt. Dus, houd u vast, want we duiken meteen in de wereld van .NET-programmering, -formattering en het eenvoudig exporteren van Excel-bestanden!
+Als het aankomt op spreadsheetmanipulatie, kan het importeren van gegevens in Excel en het correct formatteren ervan een overweldigende taak lijken, vooral als u specifieke op cultuur gebaseerde formaten wilt gebruiken, zoals DB Num-patronen. Als u zich ooit vastgelopen hebt gevoeld door de technische aspecten van Excel-formattering, bent u hier aan het juiste adres! In deze gids gaan we dingen opsplitsen in eenvoudige stappen met behulp van Aspose.Cells voor .NET, waardoor uw gegevensimport niet alleen eenvoudig maar ook esthetisch aantrekkelijk wordt. Dus, houd u vast, want we duiken meteen in de wereld van .NET-programmering, -formattering en het eenvoudig exporteren van Excel-bestanden!
 
 ## Vereisten
 
 Voordat we in de details duiken, moeten we ervoor zorgen dat je alles hebt wat je nodig hebt. Hier is een snelle checklist met vereisten om je op succes voor te bereiden:
 
 1. .NET Framework: Zorg ervoor dat u het .NET Framework op uw machine hebt geïnstalleerd. Aspose.Cells werkt naadloos met verschillende .NET-versies.
-2. Aspose.Cells voor .NET: U moet de Aspose.Cells-bibliotheek downloaden en installeren. U kunt deze ophalen uit de[downloadlink](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells voor .NET: U moet de Aspose.Cells-bibliotheek downloaden en installeren. U kunt deze ophalen uit de[downloadlink](https://releases.aspose.com/cells/net/).
 3. Integrated Development Environment (IDE): Gebruik een IDE zoals Visual Studio waarin u uw C#-code kunt schrijven en uitvoeren.
 4. Basiskennis van C#: Als u een basiskennis van C# hebt, kunt u de programmeertechnieken die we in deze handleiding gebruiken, beter volgen.
 
@@ -32,7 +32,7 @@ Om effectief met Aspose.Cells te werken, moet u de vereiste namespaces aan het b
 
 ### Referentie Aspose.Cellen
 
-U moet de Aspose.Cells-bibliotheek in uw project opnemen. Klik met de rechtermuisknop op uw project in de Solution Explorer en selecteer 'Add Reference'. Blader naar de locatie waar u Aspose.Cells hebt geïnstalleerd en selecteer het.
+moet de Aspose.Cells-bibliotheek in uw project opnemen. Klik met de rechtermuisknop op uw project in de Solution Explorer en selecteer 'Add Reference'. Blader naar de locatie waar u Aspose.Cells hebt geïnstalleerd en selecteer het.
 
 ### Importeer noodzakelijke naamruimten
 
@@ -108,7 +108,7 @@ Hier gebeurt de magie. U kunt een aangepast opmaakpatroon opgeven met behulp van
 st.Custom = "[DBNum2][$-804]General";
 ```
 
- Deze regel vertelt Excel om het getal op te maken`123` volgens het DBNum-patroon dat overeenkomt met de Chinese taal. Best netjes, toch?
+ Deze regel vertelt Excel om het getal op te maken`123`volgens het DBNum-patroon dat overeenkomt met de Chinese taal. Best netjes, toch?
 
 ## Stap 7: Stel de bijgewerkte celstijl in
 

@@ -29,7 +29,7 @@ Met deze naamruimten krijgt u toegang tot alle tekenfuncties en celbeheerfunctie
 Laten we eerst eens beginnen met het maken van een directory waar je die glimmende nieuwe Excel-bestanden in opslaat. Zo doen we dat:
 ```csharp
 string dataDir = "Your Document Directory";
-//Maak een map aan als deze nog niet bestaat.
+// Maak een map aan als deze nog niet bestaat.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);

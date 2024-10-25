@@ -14,7 +14,7 @@ Ebben a digitális korban az Excel táblázatok számtalan üzleti tevékenység
 
 ## Miért számít a cellazárás?
 
-Az adatok pontossága és bizalmas kezelése a legtöbb iparágban nem alku tárgya. A cellazárolás további védelmet biztosít a táblázatoknak, megakadályozva a jogosulatlan módosításokat, miközben lehetővé teszi a jogos felhasználók számára, hogy szükség szerint kezeljék az adatokat. Ez a cikk végigvezeti Önt a speciális követelményekhez szabott cellazárolási stratégiák megvalósításának folyamatán.
+Az adatok pontossága és bizalmas kezelése a legtöbb iparágban nem alku tárgya. A cellazárolás további védelmet nyújt a táblázatoknak, megakadályozva a jogosulatlan módosításokat, miközben lehetővé teszi a jogos felhasználók számára, hogy szükség szerint kezeljék az adatokat. Ez a cikk végigvezeti Önt a speciális követelményekhez szabott cellazárolási stratégiák megvalósításának folyamatán.
 
 ## Az Aspose.Cells for Java használatának első lépései
 
@@ -43,7 +43,7 @@ cell.setStyle(style);
 worksheet.protect(ProtectionType.ALL);
 ```
 
-Ez az egyszerű kódrészlet zárolja az A1 cellát az Excel munkalapon, és megvédi a teljes munkalapot.
+Ez az egyszerű kódrészlet zárolja az A1 cellát az Excel munkalapon, és védi a teljes munkalapot.
 
 ## Speciális cellazár
 
@@ -68,7 +68,7 @@ cellArea.endColumn = 5;
 worksheetProtection.setAllowEditingRange(cellArea, true); // A meghatározott tartomány szerkesztésének engedélyezése
 ```
 
-Ez a kódrészlet bemutatja, hogyan adható meg adott szerkesztési engedély egy meghatározott cellatartományon belül.
+Ez a kódrészlet bemutatja, hogyan adható meg adott szerkesztési engedély a cellák meghatározott tartományán belül.
 
 ## Feltételes cellazár
 
@@ -99,7 +99,7 @@ Ezzel az egyetlen kódsorral megvédheti a teljes munkalapot bármilyen szerkesz
 
 ## Egyéni cellazárolási forgatókönyvek
 
-Az Ön konkrét projektkövetelményei egyedi cellazárolási stratégiákat igényelhetnek. Az Aspose.Cells for Java rugalmasságot kínál az egyéni forgatókönyvek kielégítésére. Függetlenül attól, hogy a cellákat felhasználói bemenet alapján kell zárolni, vagy dinamikusan módosítani kell a zárolási szabályokat, ezt az API kiterjedt szolgáltatásaival elérheti.
+Az Ön konkrét projektkövetelményei egyedi cellazárolási stratégiákat igényelhetnek. Az Aspose.Cells for Java rugalmasságot kínál az egyéni forgatókönyvek kielégítésére. Függetlenül attól, hogy a cellákat felhasználói bevitel alapján kell zárolnia, vagy dinamikusan módosítani kell a zárolási szabályokat, ezt az API kiterjedt szolgáltatásaival elérheti.
 
 ## Legjobb gyakorlatok
 
@@ -109,7 +109,7 @@ Az Ön konkrét projektkövetelményei egyedi cellazárolási stratégiákat ig�
 
 ## Következtetés
 
-Ebben a cikkben megvizsgáltuk az Aspose.Cells for Java használatával történő cellazárolás alapvető szempontjait. Az itt tárgyalt stratégiák megvalósításával növelheti Excel-fájlok biztonságát és integritását, biztosítva, hogy adatai pontosak és bizalmasak maradjanak.
+Ebben a cikkben megvizsgáltuk az Aspose.Cells for Java használatával történő cellazárolás alapvető szempontjait. Az itt tárgyalt stratégiák megvalósításával növelheti Excel-fájljainak biztonságát és integritását, biztosítva, hogy adatai pontosak és bizalmasak maradjanak.
 
 ## GYIK
 

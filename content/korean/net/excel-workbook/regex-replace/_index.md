@@ -16,7 +16,7 @@ Excel 스프레드시트를 수동으로 세심하게 변경하는 데 몇 시�
 코딩의 세부적인 내용을 살펴보기에 앞서, 앞으로의 여정에 잘 대비할 수 있는지 확인해 보겠습니다.
 
 1. .NET Framework: .NET 환경이 설정되어 있는지 확인하세요. .NET Core든 .NET Framework든, 잘 될 겁니다.
-2.  Aspose.Cells 라이브러리: 이 라이브러리는 강력한 스프레드시트 조작을 잠금 해제하는 열쇠입니다.[여기서 다운로드하세요](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells 라이브러리: 이 라이브러리는 강력한 스프레드시트 조작을 잠금 해제하는 열쇠입니다.[여기서 다운로드하세요](https://releases.aspose.com/cells/net/).
 3. IDE: Visual Studio와 같은 선호하는 통합 개발 환경(IDE)을 사용하면 코딩 경험이 훨씬 더 원활해집니다.
 4. 기본 프로그래밍 지식: C# 및 정규 표현식 개념에 대한 지식이 있으면 좋습니다.
 
@@ -132,4 +132,4 @@ Console.WriteLine("RegexReplace executed successfully.");
 네, 여러 용어를 동시에 일치시키기 위해 더 복잡한 정규식 패턴을 만들 수 있습니다.
 
 ### Aspose.Cells에 대한 더 많은 예제와 문서는 어디에서 볼 수 있나요?  
- 포괄적인 문서를 찾을 수 있습니다[여기](https://reference.aspose.com/cells/net/).
+포괄적인 문서를 찾을 수 있습니다[여기](https://reference.aspose.com/cells/net/).

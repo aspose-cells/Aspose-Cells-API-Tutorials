@@ -39,7 +39,7 @@ url: /zh-hant/net/excel-shapes-controls/
 
 想像一下典型的 Excel 電子表格。它很實用，但可能有點平淡，對吧？現在，用動態元素描繪同一張工作表，例如觸發操作的按鈕、用於無縫資料檢視的捲軸以及用於選擇選項的組合框。這就是 Aspose.Cells for .NET 的強大之處！它允許您為 Excel 文件注入生命力，將它們變成完全互動的工具。無論是財務報告、專案管理表還是銷售追蹤儀表板，您都可以使用這些進階功能來簡化工作流程並增強使用者體驗。
 
-使用 Aspose.Cells，您可以做的不僅僅是基本資料輸入。想要增加一個[分組框](./add-group-box-to-worksheet-excel/)將相關控制項放在一起或[複選框](./add-checkbox-to-worksheet-excel/)將任務標記為已完成？這一切只需幾行程式碼即可完成。如果您需要建立互動式表單，[單選按鈕](./add-radio-button-to-worksheet-excel/)教學課程將向您展示如何無縫添加單選選項。
+使用 Aspose.Cells，您可以做的不僅僅是基本資料輸入。想要新增一個[分組框](./add-group-box-to-worksheet-excel/)將相關控制項放在一起或[複選框](./add-checkbox-to-worksheet-excel/)將任務標記為已完成？這一切只需幾行程式碼即可完成。如果您需要建立互動式表單，[單選按鈕](./add-radio-button-to-worksheet-excel/)教學課程將向您展示如何無縫添加單選選項。
 
 ## 簡化複雜的數據交互
 

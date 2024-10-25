@@ -105,7 +105,7 @@ Console.WriteLine("Column Count : " + range.ColumnCount);
 ```csharp
 Console.WriteLine("IdentifyCellsInNamedRange executed successfully.");
 ```
-이것은 모든 것이 계획대로 진행되었다는 것을 알려주기 위한 프로그램의 단순한 안심입니다. 등을 살짝 두드리는 것은 결코 해롭지 않습니다!
+이것은 단순히 모든 것이 계획대로 진행되었다는 것을 알려주기 위한 귀하의 프로그램에서 보내는 안심입니다. 등을 살짝 두드리는 것은 결코 해롭지 않습니다!
 
 ## 결론
 

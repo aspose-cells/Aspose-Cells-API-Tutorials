@@ -41,7 +41,7 @@ string filePath = dataDir + "Book1.xlsx";
 ## Krok 2: Utwórz obiekt skoroszytu
  Następnie utworzymy`Workbook` obiekt, który jest reprezentatywny dla naszego pliku Excel. 
 ```csharp
-// Utwórz obiekt skoroszytu i otwórz plik z jego ścieżki
+//Utwórz obiekt skoroszytu i otwórz plik z jego ścieżki
 Workbook wb = new Workbook(filePath);
 ```
  Tutaj tworzymy nową instancję`Workbook` używając ścieżki pliku, którą wcześniej skonfigurowaliśmy. Ten obiekt pozwoli nam teraz na interakcję z zawartością pliku Excel. Jeśli plik`Book1.xlsx` nie istnieje w podanym katalogu, wystąpi błąd.

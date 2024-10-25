@@ -16,7 +16,7 @@ Dalam hal mengelola dan memanipulasi file Excel, Aspose.Cells for .NET merupakan
 Sebelum kita mulai membuat kode, pastikan Anda memiliki semua yang dibutuhkan untuk memulai. Berikut ini adalah daftar prasyarat:
 
 1. Visual Studio: Anda memerlukan IDE, dan Visual Studio adalah pilihan yang tepat untuk proyek .NET.
-2.  Aspose.Cells untuk .NET: Anda dapat mengunduh pustaka atau, jika Anda lebih suka, Anda dapat memulai dengan versi uji coba gratis untuk mencobanya. Langsung saja kunjungi[tautan ini](https://releases.aspose.com).
+2. Aspose.Cells untuk .NET: Anda dapat mengunduh pustaka atau, jika Anda lebih suka, Anda dapat memulai dengan versi uji coba gratis untuk mencobanya. Langsung saja kunjungi[tautan ini](https://releases.aspose.com).
 3. Pengetahuan Dasar C#: Memahami dasar-dasar C# akan membantu Anda mengikutinya tanpa hambatan apa pun.
 4. .NET Framework: Pastikan Anda memiliki versi .NET Framework yang kompatibel yang terinstal di komputer Anda.
 5.  Contoh File Excel: Untuk tutorial ini, Anda memerlukan file Excel untuk digunakan. Anda dapat menggunakan file contoh bernama`Book1.xlsx`.
@@ -58,7 +58,7 @@ Untuk memulai petualangan kita dalam pratinjau cetak, kita perlu menentukan loka
 string sourceDir = "Your Document Directory";
 ```
 
-Kode ini membantu kita menemukan jalur di mana`Book1.xlsx` bertempat tinggal, membuat referensi di masa mendatang menjadi jauh lebih mudah.
+ Kode ini membantu kita menemukan jalur di mana`Book1.xlsx` bertempat tinggal, membuat referensi di masa mendatang menjadi jauh lebih mudah.
 
 ## Langkah 2: Muat Buku Kerja
 
@@ -131,7 +131,7 @@ Nah, itu dia! Anda telah berhasil menyiapkan pratinjau cetak untuk buku kerja Ex
 Aspose.Cells adalah pustaka yang hebat untuk menangani format file Excel dan menyediakan fitur seperti manipulasi data, pemformatan, dan rendering pratinjau cetak.
 
 ### Apakah saya perlu membeli Aspose.Cells untuk menggunakannya?
- Anda dapat memulai dengan versi uji coba gratis yang tersedia di[tautan ini](https://releases.aspose.com)sebelum memutuskan untuk membeli lisensi.
+ Anda dapat memulai dengan versi uji coba gratis yang tersedia di[tautan ini](https://releases.aspose.com) sebelum memutuskan untuk membeli lisensi.
 
 ### Bisakah saya menggunakan Aspose.Cells di aplikasi .NET mana pun?
 Ya, Aspose.Cells dirancang untuk bekerja dengan aplikasi .NET apa pun, termasuk ASP.NET, WinForms, dan lainnya.

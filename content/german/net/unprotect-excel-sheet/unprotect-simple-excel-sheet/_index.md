@@ -62,7 +62,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY"; // Ändern Sie dies in Ihren tatsäc
 
 ## Schritt 2: Instanziieren des Arbeitsmappenobjekts
 
- Als nächstes müssen Sie eine Instanz des`Workbook` Klasse, um Ihre Excel-Datei zu öffnen.
+ Als nächstes müssen Sie eine Instanz des`Workbook`Klasse, um Ihre Excel-Datei zu öffnen.
 
 ```csharp
 Workbook workbook = new Workbook(dataDir + "book1.xls");
@@ -98,11 +98,11 @@ Nachdem Sie den Schutz Ihres Arbeitsblatts aufgehoben haben, müssen Sie Ihre Ä
 workbook.Save(dataDir + "output.out.xls", SaveFormat.Excel97To2003);
 ```
 
- Hier speichern wir die ungeschützte Arbeitsmappe in einer neuen Datei namens`output.out.xls` im selben Verzeichnis. Die`SaveFormat.Excel97To2003` Der Parameter gibt das Format an, in dem Sie es speichern möchten.
+ Hier speichern wir die ungeschützte Arbeitsmappe in einer neuen Datei mit dem Namen`output.out.xls` im selben Verzeichnis. Die`SaveFormat.Excel97To2003` Der Parameter gibt das Format an, in dem Sie es speichern möchten.
 
 ## Abschluss
 
-In einer von Daten dominierten Welt ist es entscheidend, zu wissen, wie Sie Ihre Excel-Tabellen bearbeiten und verwalten. Die Verwendung von Aspose.Cells für .NET bietet eine robuste Möglichkeit, Excel-Dateivorgänge zu verarbeiten, einschließlich der Aufhebung des Schutzes Ihrer Tabellen. Mit nur wenigen Codezeilen haben Sie wieder Zugriff auf Ihre geschützten Inhalte und können problemlos mit Ihrer Arbeit fortfahren. Wenn Sie also das nächste Mal auf eine gesperrte Excel-Tabelle stoßen, wissen Sie genau, was zu tun ist!
+In einer von Daten dominierten Welt ist es entscheidend, zu wissen, wie man Excel-Tabellen bearbeitet und verwaltet. Die Verwendung von Aspose.Cells für .NET bietet eine robuste Möglichkeit, Excel-Dateivorgänge zu verarbeiten, einschließlich der Aufhebung des Schutzes Ihrer Tabellen. Mit nur wenigen Codezeilen haben Sie wieder Zugriff auf Ihre geschützten Inhalte und können problemlos mit Ihrer Arbeit fortfahren. Wenn Sie also das nächste Mal auf eine gesperrte Excel-Tabelle stoßen, wissen Sie genau, was zu tun ist!
 
 ## Häufig gestellte Fragen
 

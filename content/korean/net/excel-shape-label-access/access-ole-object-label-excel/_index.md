@@ -27,7 +27,7 @@ Excel을 사용해 본 적이 있다면 얼마나 강력하고 복잡한지 알 
 - "NuGet 패키지 관리"를 선택합니다.
 - "Aspose.Cells"를 검색하여 라이브러리를 설치합니다.
 ### 네임스페이스 가져오기
-프로그램 파일의 맨 위(예:`Program.cs`), 필요한 네임스페이스를 가져와야 합니다.
+ 프로그램 파일의 맨 위(예:`Program.cs`), 필요한 네임스페이스를 가져와야 합니다.
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -118,7 +118,7 @@ OLE 개체는 Excel 스프레드시트 내에서 다른 Microsoft Office 응용 
 ### Aspose.Cells를 다른 파일 형식에서도 사용할 수 있나요?  
 네! Aspose.Cells는 XLS, XLSX, CSV 등 다양한 형식을 지원합니다.
 ### Aspose.Cells의 무료 평가판이 있나요?  
- 네! 시도해 볼 수 있어요[여기](https://releases.aspose.com/).
+네! 시도해 볼 수 있어요[여기](https://releases.aspose.com/).
 ### 워크시트에서 여러 OLE 개체에 액세스할 수 있나요?  
  물론입니다! 루프를 통해 이동할 수 있습니다.`ws.OleObjects` 워크시트에 포함된 모든 OLE 개체에 액세스합니다.
 ### Aspose.Cells 라이선스는 어떻게 구매하나요?  

@@ -15,7 +15,7 @@ Aspose.Cells för .NET är en pärla om du arbetar med Excel-filer. Det handlar 
 
 Låt oss dyka rakt in i det nitty-gritty. Behöver du konvertera en Excel-fil till en PDF? Du har tur! Aspose.Cells tillhandahåller enkla handledningar för att guida dig varje steg på vägen. Det första du vill göra är att ladda din Excel-fil i din applikation. Med några rader kod ger biblioteket dig direkt tillgång till kalkylblad.
 
- Därefter vill du ställa in PDF-alternativen. Här händer magin! Du kan anpassa olika aspekter, som filstorlek och orientering. Slutligen, med ett sista kommando, skulle du konvertera Excel-filen till en PDF. Det är så enkelt som en plätt! Kolla in vår detaljerade guide om[Excel till PDF-konvertering i .NET](./excel-to-pdf-conversion/) för mer information.
+ Därefter vill du ställa in PDF-alternativen. Här händer magin! Du kan anpassa olika aspekter, såsom filstorlek och orientering. Slutligen, med ett sista kommando, skulle du konvertera Excel-filen till en PDF. Det är så enkelt som en plätt! Kolla in vår detaljerade guide om[Excel till PDF-konvertering i .NET](./excel-to-pdf-conversion/) för mer information.
 
 ## Konvertera diagram till PDF på ett enkelt sätt
 

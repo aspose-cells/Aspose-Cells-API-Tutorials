@@ -37,7 +37,7 @@ Prima di creare un file Excel, dovrai stabilire dove vuoi salvarlo. Creiamo una 
 ```csharp
 // Il percorso verso la directory dei documenti
 string dataDir = "Your Document Directory"; // Specifica il percorso desiderato
-//Creare la directory se non è già presente.
+// Creare la directory se non è già presente.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);

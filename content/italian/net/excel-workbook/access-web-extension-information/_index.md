@@ -16,7 +16,7 @@ Benvenuti alla nostra immersione profonda nell'uso di Aspose.Cells per .NET! In 
 Prima di rimboccarci le maniche e iniziare, ci sono alcune cose che devi impostare. Ecco una checklist per assicurarti che tutto funzioni senza intoppi:
 
 1. Ambiente .NET: assicurati di avere un ambiente .NET impostato sul tuo computer. Questo di solito significa avere Visual Studio o un altro IDE compatibile installato.
-2. Aspose.Cells per .NET: devi avere la libreria Aspose.Cells. Non preoccuparti, puoi facilmente[scarica l'ultima versione qui](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells per .NET: devi avere la libreria Aspose.Cells. Non preoccuparti, puoi facilmente[scarica l'ultima versione qui](https://releases.aspose.com/cells/net/).
 3.  File Excel di esempio: per questo tutorial, assicurati di avere un file Excel di esempio (come`WebExtensionsSample.xlsx`) accessibile. Puoi crearne uno con estensioni web al suo interno o scaricarne uno se necessario. 
 4. Conoscenze di base del linguaggio C#: una conoscenza di base della programmazione C# renderà la navigazione in questo tutorial molto più semplice.
 5. NuGet Package Manager: la familiarità con NuGet può aiutarti a gestire senza problemi Aspose.Cells all'interno del tuo progetto.
@@ -62,12 +62,12 @@ Qui selezioniamo tutti i riquadri attività associati alle estensioni web nella 
 
 ## Passaggio 4: scorrere i riquadri delle attività
 
- Una volta ottenuta la raccolta, il passo logico successivo è scorrere ogni riquadro attività e ottenere le sue proprietà. Utilizzando un`foreach` loop è un modo eccellente per navigare senza problemi tra i vari riquadri delle attività.
+Una volta ottenuta la raccolta, il passo logico successivo è scorrere ogni riquadro attività e ottenere le sue proprietà. Utilizzando un`foreach` loop è un modo eccellente per navigare senza problemi tra i vari riquadri delle attività.
 
 ```csharp
 foreach (WebExtensionTaskPane taskPane in taskPanes)
 {
-    //All'interno di questo ciclo, estrarremo le proprietà
+    // All'interno di questo ciclo, estrarremo le proprietà
 }
 ```
 

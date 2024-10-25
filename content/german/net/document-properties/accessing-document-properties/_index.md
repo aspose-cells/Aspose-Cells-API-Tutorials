@@ -15,7 +15,7 @@ Bevor wir uns in den Code vertiefen, stellen wir sicher, dass Sie die erforderli
 -  Aspose.Cells-Bibliothek: Sie müssen die Aspose.Cells-Bibliothek herunterladen und in Ihrem Projekt referenzieren. Sie können sie herunterladen[Hier](https://releases.aspose.com/cells/net/).
 - .NET Framework: Um problemlos zurechtzukommen, sind Kenntnisse in C# und der .NET-Umgebung erforderlich.
 ## Pakete importieren
-Lassen Sie uns zunächst die erforderlichen Pakete importieren, die es uns ermöglichen, Aspose.Cells in unserer Anwendung zu verwenden. So können Sie das einrichten:
+Um loszulegen, importieren wir die erforderlichen Pakete, die es uns ermöglichen, Aspose.Cells in unserer Anwendung zu verwenden. So können Sie das einrichten:
 ```csharp
 using System.IO;
 using System;
@@ -35,7 +35,7 @@ string dataDir = "Your Document Directory";
 ```csharp
 Workbook workbook = new Workbook(dataDir + "sample-document-properties.xlsx");
 ```
- Hier laden wir unsere spezifische Excel-Datei,`"sample-document-properties.xlsx"`Es ist wichtig, dass diese Datei im angegebenen Verzeichnis vorhanden ist, da sonst Fehler auftreten.
+ Hier laden wir unsere spezifische Excel-Datei,`"sample-document-properties.xlsx"`. Es ist wichtig, dass diese Datei im angegebenen Verzeichnis vorhanden ist, da sonst Fehler auftreten.
 ## Schritt 3: Benutzerdefinierte Dokumenteigenschaften abrufen
 Sobald die Arbeitsmappe geladen ist, können wir auf ihre zahlreichen Eigenschaften zugreifen. Sehen wir uns an, wie Sie auf diese Eigenschaften zugreifen können:
 ```csharp
@@ -69,4 +69,4 @@ Auf jeden Fall! Sie können mit der Bibliothek Excel-Dateien lesen, schreiben un
 ### Gibt es Support für Aspose.Cells-Benutzer?
  Ja, Sie haben Zugriff auf umfangreiche Supportressourcen, einschließlich Foren und Dokumentation, verfügbar[Hier](https://forum.aspose.com/c/cells/9).
 ### Wie kann ich eine temporäre Lizenz für Aspose.Cells erhalten?
- Sie können eine temporäre Lizenz zur Evaluierung des Produkts beantragen, indem Sie[dieser Link](https://purchase.aspose.com/temporary-license/).
+Sie können eine temporäre Lizenz zur Evaluierung des Produkts beantragen, indem Sie[dieser Link](https://purchase.aspose.com/temporary-license/).

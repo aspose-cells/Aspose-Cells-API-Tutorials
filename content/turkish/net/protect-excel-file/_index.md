@@ -15,11 +15,11 @@ url: /tr/net/protect-excel-file/
 
 Excel'de büyük miktarda veriyi işlemeniz gerektiğini düşünün. "Bu sonsuza kadar sürmeyecek mi?" diye düşünebilirsiniz. Aspose.Cells devreye giriyor: Veri manipülasyonu için bir süper güce sahip olmak gibi. Bu kütüphane yalnızca elektronik tabloları düzenlemenize izin vermiyor; verileri korumanızı sağlayarak önemli bilgilerin bozulmadan kalmasını sağlıyor. Belirli satırları veya sütunları koruduğunuzda, önemli figürlerinizin etrafına bir kale inşa etmek gibi oluyor ve yalnızca doğru kişilerin içeri girmesine izin veriyorsunuz. 
 
- Bu süreci sizin için çeşitli adım adım eğitimlerle basitleştirdik. Örneğin, nasıl yapılacağına dair rehberimize göz atın[Kullanıcıların Excel Çalışma Sayfasındaki Aralıkları Düzenlemesine İzin Ver](./allow-user-to-edit-ranges-in-excel-worksheet/)Kullanıcıların, tüm belgeyi tehlikeye atmadan elektronik tablonun belirli bölümlerini sorunsuz bir şekilde nasıl değiştirebileceklerini öğreneceksiniz. 
+Bu süreci sizin için çeşitli adım adım eğitimlerle basitleştirdik. Örneğin, nasıl yapılacağına dair rehberimize göz atın[Kullanıcıların Excel Çalışma Sayfasındaki Aralıkları Düzenlemesine İzin Ver](./allow-user-to-edit-ranges-in-excel-worksheet/)Kullanıcıların, tüm belgeyi tehlikeye atmadan elektronik tablonun belirli bölümlerini sorunsuz bir şekilde nasıl değiştirebileceklerini öğreneceksiniz. 
 
 ## Size Özel Eğitimler
 
-Ama hepsi bu kadar değil! Verilerinizi korumak da aynı derecede önemlidir. Ön kapınızı ardına kadar açık bırakmazsınız, değil mi? Benzer şekilde, kılavuzlarımız Excel sayfanızın herhangi bir bölümünü kilitlemeniz için araçlar sunar. Eğitime göz atın[Belirli Hücreleri Korumak](./protect-specific-cells-in-a-excel-worksheet/) Verilerinizi etkili bir şekilde nasıl koruyacağınızı öğrenmek için. Programlamaya yeni başlayanlar için bile basit hale getirerek, her adımda size yol gösteriyoruz.
+ Ama hepsi bu kadar değil! Verilerinizi korumak da aynı derecede önemlidir. Ön kapınızı ardına kadar açık bırakmazsınız, değil mi? Benzer şekilde, kılavuzlarımız Excel sayfanızın herhangi bir bölümünü kilitlemeniz için araçlar sunar. Eğitime göz atın[Belirli Hücreleri Korumak](./protect-specific-cells-in-a-excel-worksheet/) Verilerinizi etkili bir şekilde nasıl koruyacağınızı öğrenmek için. Programlamaya yeni başlayanlar için bile basit hale getirerek, her adımda size yol gösteriyoruz.
 
 Elbette! Excel'de ustalaşma arayışınızda bu eğitimlerin önemini ve bunların geliştirme iş akışınıza nasıl uyum sağlayabileceğini daha ayrıntılı olarak ele alalım.
 

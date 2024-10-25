@@ -148,7 +148,7 @@ Ismerje meg a nagy adatkészletek hatékony exportálására vonatkozó stratég
 
 ## Hibakezelés és hibaelhárítás
 
-Ez a szakasz az Aspose.Cells for Java alkalmazással végzett munka során felmerülő gyakori problémákat és azok hibaelhárítását ismerteti.
+Ez a rész az Aspose.Cells for Java alkalmazással végzett munka során felmerülő gyakori problémákat és azok hibaelhárítását ismerteti.
 
 ## Az Aspose.Cells integrálása az alkalmazásaival
 

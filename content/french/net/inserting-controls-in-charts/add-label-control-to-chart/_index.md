@@ -35,7 +35,7 @@ using Aspose.Cells;
 using System.Drawing;
 ```
 
-C’est comme ouvrir la boîte à outils avant de commencer à réparer ce robinet : vous devez avoir vos outils à portée de main !
+C’est comme ouvrir la boîte à outils avant de commencer à réparer ce robinet : vos outils doivent être accessibles !
 
 Maintenant que vous êtes prêt, retroussons nos manches et passons aux choses sérieuses. Nous allons passer en revue chaque étape nécessaire pour ajouter une étiquette à votre graphique.
 
@@ -62,7 +62,7 @@ Ensuite, nous allons charger le fichier Excel qui contient le graphique auquel n
 Workbook workbook = new Workbook(sourceDir + "sampleAddingLabelControlInChart.xls");
 ```
 
- Ici, nous utilisons le`Workbook`classe d'Aspose.Cells pour ouvrir notre fichier Excel. C'est comme déverrouiller la porte pour laisser libre cours à la créativité !
+ Ici, nous utilisons le`Workbook` classe d'Aspose.Cells pour ouvrir notre fichier Excel. C'est comme déverrouiller la porte pour laisser libre cours à la créativité !
 
 ## Étape 3 : Accéder à la feuille de travail
 
@@ -73,7 +73,7 @@ Maintenant que nous avons notre classeur, accédons à la feuille de calcul cont
 Worksheet sheet = workbook.Worksheets[0];
 ```
 
-Cette étape consiste à naviguer dans le bâtiment. Vous avez la clé (le classeur), mais vous devez maintenant trouver votre pièce (la feuille de travail).
+Cette étape consiste à se déplacer dans le bâtiment. Vous avez la clé (le classeur), mais vous devez maintenant trouver votre pièce (la feuille de travail).
 
 ## Étape 4 : Obtenir le graphique
 
@@ -94,7 +94,7 @@ Vient maintenant la partie intéressante : ajouter l'étiquette au graphique. No
 Aspose.Cells.Drawing.Label label = chart.Shapes.AddLabelInChart(600, 600, 350, 900);
 ```
 
- Ici,`AddLabelInChart`s'occupe de créer une étiquette en fonction des coordonnées et des dimensions que vous spécifiez. C'est comme fixer un beau cadre autour de votre œuvre d'art !
+ Ici,`AddLabelInChart` s'occupe de créer une étiquette en fonction des coordonnées et des dimensions que vous spécifiez. C'est comme fixer un beau cadre autour de votre œuvre d'art !
 
 ## Étape 6 : Définir le texte de l’étiquette
 

@@ -16,7 +16,7 @@ V digitálním věku je správa a zabezpečení vašich dat důležitější ne�
 Než se ponoříte do kódu, ujistěte se, že máte vše, co potřebujete:
 
 1. Vývojové prostředí: Měli byste mít na svém počítači nainstalované Visual Studio, protože poskytuje vynikající IDE pro vývoj .NET.
-2. Aspose.Cells Library: Stáhněte si knihovnu Aspose.Cells. Můžete to získat z[Stránka Aspose Downloads](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells Library: Stáhněte si knihovnu Aspose.Cells. Můžete to získat z[Stránka Aspose Downloads](https://releases.aspose.com/cells/net/).
 3. Základní znalosti C#: Ujistěte se, že dobře rozumíte C# a .NET Framework, abyste je mohli snadno sledovat.
 4. Vytvoření projektu: Ve Visual Studiu nastavte novou konzolovou aplikaci, do které napíšeme kód.
 
@@ -48,12 +48,12 @@ Pojďme si implementaci rozdělit do zvládnutelných kroků. Vytvoříme jednod
 
 ## Krok 1: Vytvořte datový proud pro svůj soubor Excel
 
-Nejprve musíme načíst existující soubor Excel. Použijeme a`FileStream` pro přístup.
+ Nejprve musíme načíst existující soubor Excel. Použijeme a`FileStream` pro přístup.
 
 ```csharp
 // Cesta k adresáři dokumentů.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-// Vytvoření datového proudu souboru pro otevření souboru Excel
+//Vytvoření datového proudu souboru pro otevření souboru Excel
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
  The`FileStream` nám umožňuje číst zadaný soubor Excel. Ujistěte se, že jste změnili "VÁŠ ADRESÁŘ DOKUMENTŮ" na skutečnou cestu, kde se nachází váš soubor Excel.

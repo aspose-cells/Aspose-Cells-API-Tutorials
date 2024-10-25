@@ -8,7 +8,7 @@ weight: 11
 url: /hu/net/excel-comment-annotation/add-comments-to-cells-or-shapes-excel/
 ---
 ## Bevezetés
-Szeretné javítani Excel-dokumentumait megjegyzésekkel a cellákhoz vagy alakzatokhoz? Nos, jó helyen jársz! Ez a cikk végigvezeti Önt az Aspose.Cells for .NET használatával, amellyel hatékonyan fűzhet megjegyzéseket az Excel-fájlokhoz. Akár visszajelzést, megjegyzéseket, akár csak barátságos megjegyzést szeretne adni, lépésről lépésre lebontjuk, hogy zökkenőmentesen követhesse. Fogja hát meg virtuális eszköztárát, és merüljön el!
+Szeretné javítani Excel-dokumentumait megjegyzésekkel a cellákhoz vagy alakzatokhoz? Nos, jó helyen jársz! Ez a cikk végigvezeti Önt az Aspose.Cells for .NET használatával, amellyel hatékonyan fűzhet megjegyzéseket az Excel-fájlokhoz. Akár visszajelzést, megjegyzéseket, akár csak baráti megjegyzést szeretne adni, lépésről lépésre lebontjuk, hogy zökkenőmentesen követhesse. Fogja hát meg virtuális eszköztárát, és merüljön el!
 ## Előfeltételek
 Mielőtt belekezdenénk az Excel-táblázatokhoz megjegyzések hozzáadására, győződjön meg arról, hogy minden szükséges eszközzel rendelkezik. Íme, aminek a helyén kell lennie:
 - Telepítve a Visual Studio: Szüksége lesz egy IDE-re, amelyre írhatja és lefordíthatja .NET-alkalmazásait. A Visual Studio sok fejlesztő népszerű választása.
@@ -38,7 +38,7 @@ Mielőtt elkezdené kezelni a munkafüzetet, meg kell határoznunk, hogy hol tá
 ```csharp
 // A dokumentumok könyvtárának elérési útja.
 string dataDir = "Your Document Directory";
-//Hozzon létre könyvtárat, ha még nincs jelen.
+// Hozzon létre könyvtárat, ha még nincs jelen.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);

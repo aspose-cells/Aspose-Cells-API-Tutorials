@@ -8,14 +8,14 @@ weight: 11
 url: /cs/net/xps-and-pdf-operations/setting-pdf-creation-time/
 ---
 ## Zavedení
-V dnešní digitální době je schopnost převádět dokumenty do různých formátů pro mnoho aplikací zásadní. Jednou z běžných potřeb je převést tabulky aplikace Excel do souborů PDF. Nejen, že se tím zachová formátování, ale také mnohem jednodušší sdílení a tisk. Pokud jste vývojář pracující s .NET, Aspose.Cells je fantastická knihovna, která tento proces zjednodušuje. V tomto tutoriálu se ponoříme do toho, jak nastavit čas vytvoření PDF při převodu souboru Excel do PDF pomocí Aspose.Cells for .NET.
+dnešní digitální době je schopnost převádět dokumenty do různých formátů pro mnoho aplikací zásadní. Jednou z běžných potřeb je převést tabulky aplikace Excel do souborů PDF. Nejen, že se tím zachová formátování, ale také mnohem jednodušší sdílení a tisk. Pokud jste vývojář pracující s .NET, Aspose.Cells je fantastická knihovna, která tento proces zjednodušuje. V tomto tutoriálu se ponoříme do toho, jak nastavit čas vytvoření PDF při převodu souboru Excel do PDF pomocí Aspose.Cells for .NET.
 ## Předpoklady
 Než se pustíme do hrubšího kódu, ujistěte se, že máte vše, co potřebujete, abyste mohli začít.
 ### Co potřebujete
 1. Visual Studio: Ujistěte se, že máte na svém počítači nainstalované Visual Studio. Toto bude vaše vývojové prostředí.
 2.  Aspose.Cells for .NET: Stáhněte si knihovnu Aspose.Cells z[webové stránky](https://releases.aspose.com/cells/net/). Můžete také začít s bezplatnou zkušební verzí a otestovat její funkce.
 3. Základní znalost C#: Znalost programování v C# vám pomůže lépe porozumět úryvkům kódu.
-4.  Soubor Excel: Připravte soubor Excel pro převod. V tomto příkladu použijeme soubor s názvem`Book1.xlsx`.
+4. Soubor Excel: Připravte soubor Excel pro převod. V tomto příkladu použijeme soubor s názvem`Book1.xlsx`.
 Nyní, když máte seřazené předpoklady, pojďme se pustit do té zábavné části – importu potřebných balíčků a psaní kódu!
 ## Importujte balíčky
 Chcete-li začít, musíte importovat požadované jmenné prostory do souboru C#. To je zásadní, protože vám to umožňuje přístup ke třídám a metodám poskytovaným knihovnou Aspose.Cells.
@@ -45,7 +45,7 @@ string dataDir = "Your Document Directory"; // Zadejte adresář dokumentů
 string inputPath = dataDir + "Book1.xlsx"; // Cesta k souboru Excel
 Workbook workbook = new Workbook(inputPath); // Načtěte soubor Excel
 ```
- The`Workbook`třída se používá k načítání a manipulaci se soubory Excel. Předáním vstupní cesty sdělujete aplikaci, se kterým souborem má pracovat.
+ The`Workbook` třída se používá k načítání a manipulaci se soubory Excel. Předáním vstupní cesty sdělujete aplikaci, se kterým souborem má pracovat.
 ## Krok 3: Vytvořte možnosti PdfSaveOptions
  Nyní je čas vytvořit instanci`PdfSaveOptions`. Tato třída vám umožňuje určit různé možnosti pro uložení sešitu jako PDF, včetně času vytvoření.
 ```csharp
@@ -56,12 +56,12 @@ options.CreatedTime = DateTime.Now; // Nastavte čas vytvoření na nyní
 ## Krok 4: Uložte sešit jako PDF
 Nakonec uložíte sešit jako soubor PDF pomocí možností, které jste právě definovali.
 ```csharp
-workbook.Save(dataDir + "output.pdf", options); // Uložit jako PDF
+workbook.Save(dataDir + "output.pdf", options); //Uložit jako PDF
 ```
  Tento řádek kódu vezme sešit a uloží jej ve formátu PDF na určené místo. The`options` je předán tak, aby zahrnoval čas vytvoření do metadat PDF.
 
 ## Závěr
-tady to máte! Úspěšně jste převedli soubor aplikace Excel do formátu PDF pomocí Aspose.Cells for .NET, včetně časového razítka vytvoření. Tato funkce může být neuvěřitelně užitečná, když potřebujete mít přehled o verzích dokumentů nebo když chcete poskytnout příjemcům informace o tom, kdy byl dokument vytvořen.
+A tady to máte! Úspěšně jste převedli soubor aplikace Excel do formátu PDF pomocí Aspose.Cells for .NET, včetně časového razítka vytvoření. Tato funkce může být neuvěřitelně užitečná, když potřebujete mít přehled o verzích dokumentů nebo když chcete poskytnout příjemcům informace o tom, kdy byl dokument vytvořen.
  Pokud chcete prozkoumat další funkce Aspose.Cells, neváhejte a podívejte se na[dokumentace](https://reference.aspose.com/cells/net/).
 ## FAQ
 ### Co je Aspose.Cells?

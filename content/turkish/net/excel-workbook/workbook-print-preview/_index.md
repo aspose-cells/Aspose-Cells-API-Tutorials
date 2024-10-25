@@ -16,7 +16,7 @@ Excel dosyalarını yönetme ve düzenleme söz konusu olduğunda, Aspose.Cells 
 Kodlama eylemine geçmeden önce, başlamak için ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım. İşte ön koşulların bir kontrol listesi:
 
 1. Visual Studio: Bir IDE'ye ihtiyacınız olacak ve Visual Studio .NET projeleri için harika bir seçimdir.
-2.  Aspose.Cells for .NET: Kütüphaneyi indirebilir veya dilerseniz ayaklarınızı ıslatmak için ücretsiz deneme sürümüyle başlayabilirsiniz. Sadece şuraya gidin:[bu bağlantı](https://releases.aspose.com).
+2. Aspose.Cells for .NET: Kütüphaneyi indirebilir veya dilerseniz ayaklarınızı ıslatmak için ücretsiz deneme sürümüyle başlayabilirsiniz. Sadece şuraya gidin:[bu bağlantı](https://releases.aspose.com).
 3. Temel C# Bilgisi: C#'ın temellerini anlamak, herhangi bir aksama olmadan takip etmenize yardımcı olacaktır.
 4. .NET Framework: Bilgisayarınızda .NET Framework'ün uyumlu bir sürümünün yüklü olduğundan emin olun.
 5.  Örnek Bir Excel Dosyası: Bu eğitim için, çalışmak üzere bir Excel dosyasına ihtiyacınız olacak. Adlı bir örnek dosya kullanabilirsiniz.`Book1.xlsx`.
@@ -58,7 +58,7 @@ Baskı önizlemelerindeki maceramıza başlamak için, kaynak Excel dosyamızın
 string sourceDir = "Your Document Directory";
 ```
 
-Bu kod, bize yolu bulmamızda yardımcı oluyor`Book1.xlsx` ikamet eder, bu da gelecekte referans vermeyi çok daha kolaylaştırır.
+ Bu kod, bize yolu bulmamızda yardımcı oluyor`Book1.xlsx` ikamet eder, bu da gelecekte referans vermeyi çok daha kolaylaştırır.
 
 ## Adım 2: Çalışma Kitabını Yükleyin
 
@@ -131,7 +131,7 @@ Bu cümle, bir projeyi tamamladıktan sonra son rötuş gibidir; iyi bir iş ç�
 Aspose.Cells, Excel dosya formatlarını işlemek için güçlü bir kütüphanedir ve veri işleme, biçimlendirme ve baskı önizlemeleri oluşturma gibi özellikler sunar.
 
 ### Aspose.Cells'i kullanmak için satın almam gerekiyor mu?
- Ücretsiz deneme sürümüyle başlayabilirsiniz.[bu bağlantı](https://releases.aspose.com)Lisans satın almaya karar vermeden önce.
+ Ücretsiz deneme sürümüyle başlayabilirsiniz.[bu bağlantı](https://releases.aspose.com) Lisans satın almaya karar vermeden önce.
 
 ### Aspose.Cells'i herhangi bir .NET uygulamasında kullanabilir miyim?
 Evet, Aspose.Cells, ASP.NET, WinForms ve daha fazlası dahil olmak üzere herhangi bir .NET uygulamasıyla çalışacak şekilde tasarlanmıştır.

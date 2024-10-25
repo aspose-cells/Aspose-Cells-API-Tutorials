@@ -1,6 +1,6 @@
 ---
-title: Csak látható lapok betöltése Excel fájlból
-linktitle: Csak látható lapok betöltése Excel fájlból
+title: Csak a látható lapok betöltése Excel fájlból
+linktitle: Csak a látható lapok betöltése Excel fájlból
 second_title: Aspose.Cells .NET Excel Processing API
 description: Ebből a lépésenkénti útmutatóból megtudhatja, hogyan tölthet be csak látható lapokat Excel-fájlokból az Aspose.Cells for .NET segítségével.
 type: docs
@@ -12,7 +12,7 @@ Amikor Excel-fájlokkal dolgozik .NET-alkalmazásaiban, nyilvánvalóvá válik 
 ## Előfeltételek
 Mielőtt belevágnánk az oktatóanyagba, győződjünk meg arról, hogy mindennel rendelkezünk, ami a követéshez szükséges:
 1. A C# alapvető ismerete: Ez az oktatóanyag a C# programozási nyelvet ismerő fejlesztők számára készült.
-2.  Aspose.Cells for .NET: Le kell töltenie és be kell állítania az Aspose.Cells for .NET könyvtárat. Megteheti[a könyvtár letöltése innen](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells for .NET: Le kell töltenie és be kell állítania az Aspose.Cells for .NET könyvtárat. Tudod[a könyvtár letöltése innen](https://releases.aspose.com/cells/net/).
 3. Visual Studio vagy bármilyen IDE: rendelkeznie kell egy IDE-vel, ahol megírhatja és tesztelheti a C# kódot.
 4. .NET-keretrendszer: Győződjön meg arról, hogy telepítve van az alkalmazások futtatásához szükséges .NET-keretrendszer.
 5. Minta Excel-fájl: Gyakorlás céljából hozzon létre egy minta Excel-fájlt, vagy kövesse a megadott kódot.
@@ -98,7 +98,7 @@ Igen, egyszerűen módosíthatja a feltételeket az egyéni betöltési szűrőb
 ### Mire használható az Aspose.Cells?
 Az Aspose.Cells az Excel-fájlok kezeléséhez használható anélkül, hogy telepíteni kellene a Microsoft Excelt, és olyan funkciókat kínál, mint az olvasás, az írás és az Excel-munkalapok kezelése.
 ### Létezik az Aspose.Cells próbaverziója?
- Igen, megteheti[tölts le egy ingyenes próbaverziót](https://releases.aspose.com/) hogy tesztelje a tulajdonságait.
+ Igen, megteheti[ingyenes próbaverzió letöltése](https://releases.aspose.com/) hogy tesztelje a tulajdonságait.
 ### Hol találom az Aspose.Cells dokumentációját?
  A[dokumentáció](https://reference.aspose.com/cells/net/) átfogó tájékoztatást nyújt az összes funkcióról.
 ### Hogyan vásárolhatom meg az Aspose.Cells-t?

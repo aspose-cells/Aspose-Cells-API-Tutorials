@@ -16,7 +16,7 @@ Zapraszamy do naszego dogłębnego zapoznania się z Aspose.Cells dla .NET! W ty
 Zanim zakasamy rękawy i zaczniemy, jest kilka rzeczy, które musisz skonfigurować. Oto lista kontrolna, aby upewnić się, że wszystko działa płynnie:
 
 1. Środowisko .NET: Upewnij się, że masz środowisko .NET skonfigurowane na swoim komputerze. Zazwyczaj oznacza to zainstalowanie Visual Studio lub innego zgodnego IDE.
-2. Aspose.Cells dla .NET: Musisz mieć bibliotekę Aspose.Cells. Nie przejmuj się tym; możesz łatwo[pobierz najnowszą wersję tutaj](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells dla .NET: Musisz mieć bibliotekę Aspose.Cells. Nie przejmuj się tym; możesz łatwo[pobierz najnowszą wersję tutaj](https://releases.aspose.com/cells/net/).
 3.  Przykładowy plik programu Excel: Na potrzeby tego samouczka upewnij się, że masz przykładowy plik programu Excel (np.`WebExtensionsSample.xlsx`) dostępne. Możesz utworzyć jeden z rozszerzeniami internetowymi lub pobrać jeden, jeśli to konieczne. 
 4. Podstawowa wiedza o języku C#: Podstawowa znajomość programowania w języku C# znacznie ułatwi poruszanie się po tym samouczku.
 5. Menedżer pakietów NuGet: Znajomość pakietu NuGet pomoże Ci bezproblemowo zarządzać pakietem Aspose.Cells w ramach projektu.
@@ -62,12 +62,12 @@ Tutaj pobieramy wszystkie panele zadań powiązane z rozszerzeniami internetowym
 
 ## Krok 4: Przejrzyj panele zadań
 
- Gdy masz już kolekcję, następnym logicznym krokiem jest przejście przez każdy panel zadań i pobranie jego właściwości. Używając`foreach` Pętla to doskonały sposób na płynne poruszanie się po każdym panelu zadań.
+Gdy masz już kolekcję, następnym logicznym krokiem jest przejście przez każdy panel zadań i pobranie jego właściwości. Używając`foreach` Pętla to doskonały sposób na płynne poruszanie się po każdym panelu zadań.
 
 ```csharp
 foreach (WebExtensionTaskPane taskPane in taskPanes)
 {
-    // tej pętli wyodrębnimy właściwości
+    // W tej pętli wyodrębnimy właściwości
 }
 ```
 

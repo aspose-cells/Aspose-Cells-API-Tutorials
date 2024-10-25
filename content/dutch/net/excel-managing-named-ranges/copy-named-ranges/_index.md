@@ -12,7 +12,7 @@ Excel is een krachtige tool die wereldwijd door miljoenen mensen wordt gebruikt 
 ## Vereisten
 Voordat u in de details duikt van het kopiëren van benoemde bereiken, moet u ervoor zorgen dat u een paar dingen op een rijtje hebt. Dit is wat u nodig hebt:
 1. .NET-omgeving: Zorg ervoor dat u een .NET-ontwikkelomgeving hebt ingesteld. U kunt Visual Studio of een andere IDE naar keuze gebruiken.
-2.  Aspose.Cells voor .NET Library: Dit is de ster van de show! Download de bibliotheek van de[Aspose-website](https://releases.aspose.com/cells/net/) als je dat nog niet gedaan hebt.
+2. Aspose.Cells voor .NET Library: Dit is de ster van de show! Download de bibliotheek van de[Aspose-website](https://releases.aspose.com/cells/net/) als je dat nog niet gedaan hebt.
 3. Basiskennis van C#: Kennis van C#-programmering is nuttig, aangezien we in deze tutorial in deze taal gaan coderen.
 4. Excel geïnstalleerd: Hoewel u Excel niet per se nodig hebt om code te schrijven, is het wel handig om Excel geïnstalleerd te hebben om uw uitvoerbestanden te testen.
 5.  Toegang tot documentatie: Markeer de[Aspose.Cells-documentatie](https://reference.aspose.com/cells/net/) ter referentie. Het is een geweldige bron voor het begrijpen van methoden en functies.
@@ -27,7 +27,7 @@ using System.IO;
 using Aspose.Cells;
 using System.Drawing;
 ```
-Met deze code krijgt u toegang tot essentiële lessen zoals:`Workbook`, `Worksheet` En`Range`, die u nodig hebt om Excel-bestanden te bewerken.
+ Met deze code krijgt u toegang tot essentiële lessen zoals:`Workbook`, `Worksheet` , En`Range`, die u nodig hebt om Excel-bestanden te bewerken.
 
 Nu we de vereisten op een rijtje hebben, kunnen we het proces opsplitsen in eenvoudig te volgen stappen.
 ## Stap 1: Stel uw uitvoermap in

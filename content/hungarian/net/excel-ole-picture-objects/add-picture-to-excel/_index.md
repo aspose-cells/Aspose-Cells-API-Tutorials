@@ -26,7 +26,7 @@ Most bontsuk fel a kép hozzáadásának folyamatát egy Excel-munkalaphoz az As
 Könyvtár létrehozása a dokumentumtároláshoz
 Mielőtt bármit tennénk a munkafüzettel, szükségünk van egy helyre, ahol tárolhatjuk. Ezt a dokumentumkönyvtárat adjuk meg:
 ```csharp
-string dataDir = "Your Document Directory"; // Határozza meg a kívánt utat.
+string dataDir = "Your Document Directory"; //Határozza meg a kívánt utat.
 ```
  Ebben a kódrészletben cserélje ki`"Your Document Directory"` azzal a tényleges elérési úttal, ahol az Excel fájljait tárolni szeretné. Ez a könyvtár fogja tárolni a kimeneti fájlt a kép hozzáadása után.
 ## 2. lépés: Hozzon létre könyvtárat, ha nem létezik
@@ -81,7 +81,7 @@ Igen, különféle képformátumokat, például PNG, JPEG és BMP hozzáadhat a 
 ### Az Aspose.Cells támogatja az .xls-től eltérő Excel-fájlformátumokat?
 Teljesen! Az Aspose.Cells többféle Excel formátumot támogat, köztük az .xlsx, .xlsm és .xlsb formátumot.
 ### Létezik próbaverzió?
- Igen! Vásárlás előtt ingyenesen kipróbálhatja az Aspose.Cells-t. Csak ellenőrizze[itt](https://releases.aspose.com/).
+Igen! Vásárlás előtt ingyenesen kipróbálhatja az Aspose.Cells-t. Csak ellenőrizze[itt](https://releases.aspose.com/).
 ### Mit tegyek, ha a képem nem jelenik meg?
 Győződjön meg arról, hogy a kép elérési útja helyes, és a képfájl a megadott könyvtárban található.
 ### Elhelyezhetek képeket több cellára?

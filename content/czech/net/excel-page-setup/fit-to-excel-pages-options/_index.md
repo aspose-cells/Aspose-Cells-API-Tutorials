@@ -49,7 +49,7 @@ Jste připraveni formátovat své stránky Excel? Pojďme si proces rozebrat kro
 
 ## Krok 1: Nastavte svůj pracovní prostor
 
-Nejprve inicializujte náš sešit a získejte přístup k požadovanému listu. Zde začíná veškerá akce.
+Nejprve inicializujte náš sešit a získejte přístup k požadovanému listu. Tady začíná veškerá akce.
 
 ```csharp
 // Cesta k adresáři dokumentů.
@@ -74,7 +74,7 @@ worksheet.PageSetup.FitToPagesWide = 1;
 ```
 
 - `FitToPagesTall` určuje, kolik stránek bude váš list vertikálně zahrnovat.
-- `FitToPagesWide` definuje vodorovné nastavení stránky. Nastavení obou na`1`znamená, že se váš obsah úhledně vejde na jednu stránku a přemění váš dokument na efektivní mistrovské dílo.
+- `FitToPagesWide` definuje vodorovné nastavení stránky. Nastavení obou na`1` znamená, že se váš obsah úhledně vejde na jednu stránku a přemění váš dokument na efektivní mistrovské dílo.
 
 ## Krok 3: Uložte sešit
 
@@ -97,7 +97,7 @@ A tady to máte! Naučili jste se, jak využít možnosti Fit to Excel Pages v A
 Aspose.Cells je robustní knihovna .NET pro programovou správu souborů aplikace Excel, která umožňuje vývojářům snadno vytvářet a manipulovat s tabulkami.
 
 ### Mohu vyzkoušet Aspose.Cells zdarma?
-Ano! Můžete se přihlásit k bezplatné zkušební verzi[zde](https://releases.aspose.com/).
+ Ano! Můžete se přihlásit k bezplatné zkušební verzi[zde](https://releases.aspose.com/).
 
 ### Jak koupím Aspose.Cells?
  Můžete provést nákup[zde](https://purchase.aspose.com/buy).

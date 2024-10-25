@@ -95,7 +95,7 @@ En este código, especificamos el tipo de gráfico (en este caso, un gráfico de
 
 ## Paso 6: Acceda a la instancia del gráfico
 
-Una vez que creamos el gráfico, necesitamos acceder a su instancia para modificar sus propiedades. Esto se hace recuperándolo a través de la`Charts`recopilación.
+ Una vez que creamos el gráfico, necesitamos acceder a su instancia para modificar sus propiedades. Esto se hace recuperándolo a través de la`Charts`recopilación.
 
 ```csharp
 // Acceder a la instancia del gráfico recién agregado

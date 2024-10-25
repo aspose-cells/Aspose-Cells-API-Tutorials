@@ -60,7 +60,7 @@ Shape shape = worksheet.Shapes[0];
 ```
 Qui, stiamo accedendo alla prima forma nel foglio di lavoro. Puoi modificare l'indice se hai più forme.
 ## Passaggio 5: verificare se la forma non è primitiva
-È fondamentale confermare che la forma non sia primitiva prima di procedere ad accedervi nei dettagli:
+È fondamentale confermare che la forma non sia primitiva prima di procedere all'accesso ai suoi dettagli:
 ```csharp
 if (shape.AutoShapeType == AutoShapeType.NotPrimitive)
 {

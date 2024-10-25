@@ -67,7 +67,7 @@ Dále budete muset načíst soubor Excel, se kterým chcete pracovat. Tady zač�
 Workbook wb = new Workbook(sourceDir + "sampleSetShapeTypeOfDataLabelsOfChart.xlsx");
 ```
 
- Tento řádek vytvoří nový`Workbook` objekt a nasměruje jej na váš stávající soubor. Ujistěte se, že cesta k souboru je správná!
+ Tento řádek vytvoří nový`Workbook` objekt a nasměruje jej na váš existující soubor. Ujistěte se, že cesta k souboru je správná!
 
 ## Krok 3: Otevřete první pracovní list
 

@@ -10,7 +10,7 @@ url: /sv/net/excel-shape-text-modifications/extract-text-gear-smart-art-excel/
 ## Introduktion
 När du arbetar med Excel kan du stöta på SmartArt-grafik som hjälper till att förmedla dina budskap på ett visuellt tilltalande sätt. Bland dessa grafik är SmartArt av kugghjulstyp en favorit för sina hierarkiska och riktade flöden, som ofta används i projektledning eller systemmodellering. Men vad händer om du behöver extrahera text från dessa former programmatiskt? Det är här Aspose.Cells för .NET kommer väl till pass! I det här blogginlägget kommer vi att leda dig genom en steg-för-steg-guide om hur du extraherar text från SmartArt-former av kugghjulstyp i Excel med Aspose.Cells för .NET.
 ## Förutsättningar
-Innan vi dyker in finns det några väsentliga förutsättningar du måste ha på plats. Oroa dig inte; det är enkelt och jag guidar dig genom det.
+Innan vi dyker in finns det några väsentliga förutsättningar du måste ha på plats. Oroa dig inte; det är enkelt och jag guidar dig igenom det.
 ### .NET-miljö
 Se till att du har en .NET-utvecklingsmiljö inställd på din dator. Detta kan vara Visual Studio eller valfri IDE som stöder .NET-utveckling.
 ### Aspose.Cells för .NET

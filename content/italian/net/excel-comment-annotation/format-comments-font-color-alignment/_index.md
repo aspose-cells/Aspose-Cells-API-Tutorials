@@ -37,7 +37,7 @@ Prima di iniziare a creare la tua cartella di lavoro, devi definire dove risiede
 ```csharp
 // Percorso verso la directory dei documenti.
 string dataDir = "Your Document Directory";
-//Creare la directory se non è già presente.
+// Creare la directory se non è già presente.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -104,7 +104,7 @@ Ti senti creativo? Puoi anche modificare l'altezza e la larghezza del tuo commen
 ```csharp
 // Impostare l'altezza del carattere a 10
 comment.HeightCM = 10;
-// Imposta la larghezza del carattere su 2
+// Impostare la larghezza del carattere su 2
 comment.WidthCM = 2;
 ```
 Questa personalizzazione rende i tuoi commenti più ordinati e visivamente più accattivanti.

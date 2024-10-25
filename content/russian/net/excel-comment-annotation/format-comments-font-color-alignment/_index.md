@@ -37,7 +37,7 @@ using Aspose.Cells;
 ```csharp
 // Путь к каталогу документов.
 string dataDir = "Your Document Directory";
-//Создайте каталог, если его еще нет.
+// Создайте каталог, если его еще нет.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);

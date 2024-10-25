@@ -63,7 +63,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Adım 2: Bir Çalışma Kitabı Nesnesi Oluşturun
 
- Daha sonra, bir örnek oluşturuyoruz`Workbook`Excel dosyasını temsil eden sınıf.
+ Daha sonra, bir örnek oluşturuyoruz`Workbook` Excel dosyasını temsil eden sınıf.
 
 ```csharp
 Workbook workbook = new Workbook();

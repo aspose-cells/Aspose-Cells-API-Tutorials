@@ -135,4 +135,4 @@ Absolutamente! Aspose.Cells também pode ler e modificar arquivos Excel existent
 Ele suporta vários formatos como XLS, XLSX, XLSB, ODS, PDF e muito mais.
 
 ### Onde posso encontrar suporte para o Aspose.Cells?  
-Você pode obter ajuda no[Fórum Aspose](https://forum.aspose.com/c/cells/9).
+ Você pode obter ajuda no[Fórum Aspose](https://forum.aspose.com/c/cells/9).

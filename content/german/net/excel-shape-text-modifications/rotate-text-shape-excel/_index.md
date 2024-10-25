@@ -47,7 +47,7 @@ string sourceDir = "Your Document Directory"; // Legen Sie Ihr Dokumentverzeichn
 //Ausgabeverzeichnis
 string outputDir = "Your Document Directory"; // Legen Sie Ihr Ausgabeverzeichnis fest
 ```
- Ersetzen`"Your Document Directory"` mit dem tatsächlichen Pfad, auf dem Ihr`sampleRotateTextWithShapeInsideWorksheet.xlsx`die Datei befindet.
+ Ersetzen`"Your Document Directory"` mit dem tatsächlichen Pfad, auf dem Ihr`sampleRotateTextWithShapeInsideWorksheet.xlsx` die Datei befindet.
 ## Schritt 2: Laden Sie die Excel-Beispieldatei
 Laden wir nun die Excel-Beispieldatei. Dies ist wichtig, da wir die vorhandenen Daten bearbeiten möchten.
 ```csharp
@@ -91,7 +91,7 @@ wb.Save(outputDir + "outputRotateTextWithShapeInsideWorksheet.xlsx");
 ```
 Und das war’s! Ihre Ausgabedatei ist jetzt gespeichert, einschließlich des Textes in Zelle B4 und der an der Form vorgenommenen Anpassungen.
 ## Schritt 8: Ausführen des Codes
- In Ihrem`Main`Methode, umschließen Sie alle oben genannten Codeausschnitte und führen Sie Ihr Projekt aus. Sehen Sie, wie sich die Änderungen in Ihrer Ausgabedatei widerspiegeln!
+ In Ihrem`Main` Methode, umschließen Sie alle oben genannten Codeausschnitte und führen Sie Ihr Projekt aus. Sehen Sie, wie sich die Änderungen in Ihrer Ausgabedatei widerspiegeln!
 ```csharp
 Console.WriteLine("RotateTextWithShapeInsideWorksheet executed successfully.");
 ```
@@ -105,6 +105,6 @@ Aspose.Cells unterstützt eine Vielzahl von Excel-Formaten, darunter XLS, XLSX, 
 ### Ist es in älteren Excel-Versionen möglich, Text mit Formen zu drehen?
 Ja, die Funktionalität kann auf ältere Formate angewendet werden, die von Aspose.Cells unterstützt werden.
 ### Wo finde ich weitere Dokumentation zu Aspose.Cells?
- Entdecken Sie die umfassende[Dokumentation](https://reference.aspose.com/cells/net/)für weitere Einblicke.
+ Entdecken Sie die umfassende[Dokumentation](https://reference.aspose.com/cells/net/) für weitere Einblicke.
 ### Wie erhalte ich Unterstützung für Aspose.Cells?
  Sie können Unterstützung anfordern, indem Sie die[Aspose-Forum](https://forum.aspose.com/c/cells/9).

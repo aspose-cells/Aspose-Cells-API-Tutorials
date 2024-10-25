@@ -33,7 +33,7 @@ Aspose.Cells for Java는 Excel 파일과 차트 작업을 위한 포괄적인 �
 Aspose.Cells for Java를 사용하려면 라이선스를 초기화해야 합니다. 이 단계는 모든 평가 제한을 제거하고 라이브러리의 모든 잠재력을 잠금 해제하는 데 필수적입니다.
 
 ```java
-// Aspose.Cells 라이센스 초기화
+//Aspose.Cells 라이센스 초기화
 License license = new License();
 license.setLicense("path_to_license_file.xml");
 ```
@@ -88,7 +88,7 @@ Chart chart = worksheet.getCharts().get(chartIndex);
 // 차트의 데이터 범위 설정
 chart.getNSeries().add("A2:B4", true);
 
-//차트 속성 사용자 정의
+// 차트 속성 사용자 정의
 chart.getChartArea().getBorder().setVisible(false);
 chart.getChartTitle().setText("3D Bar Chart");
 ```

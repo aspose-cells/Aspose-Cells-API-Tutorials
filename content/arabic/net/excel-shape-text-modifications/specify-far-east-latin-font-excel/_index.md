@@ -14,7 +14,7 @@ url: /ar/net/excel-shape-text-modifications/specify-far-east-latin-font-excel/
 ### .NET Framework أو .NET Core
 تأكد من تثبيت .NET Framework أو .NET Core على جهازك. تعمل هذه المكتبة بشكل جيد مع كليهما.
 ### تثبيت Aspose.Cells
-سوف تحتاج إلى تنزيل مكتبة Aspose.Cells. يمكنك[قم بتحميله من هنا](https://releases.aspose.com/cells/net/) إذا لم تكن على دراية بتثبيت حزم NuGet، فاتبع[هذا الدليل](https://www.nuget.org/).
+ سوف تحتاج إلى تنزيل مكتبة Aspose.Cells. يمكنك[قم بتحميله من هنا](https://releases.aspose.com/cells/net/) إذا لم تكن على دراية بتثبيت حزم NuGet، فاتبع[هذا الدليل](https://www.nuget.org/).
 ### بيئة التطوير المتكاملة (IDE)
 إن وجود بيئة تطوير متكاملة مثل Visual Studio أو JetBrains Rider يمكن أن يسهل عملية الترميز واستكشاف الأخطاء وإصلاحها وتشغيل مشروعك.
 ### المعرفة الأساسية بلغة C#

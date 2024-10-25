@@ -17,7 +17,7 @@ Az Excel diagramok automatizálása számos előnnyel jár:
 1. Hatékonyság: Takarítson meg időt a diagramkészítés és frissítések automatizálásával.
 2. Konzisztencia: Biztosítson egységes diagramformázást a jelentésekben.
 3. Dinamikus adatok: Könnyen frissítheti a diagramokat új adatokkal.
-4. Skálázhatóság: Nagy adathalmazokhoz könnyedén generálhat diagramokat.
+4. Skálázhatóság: Nagy adathalmazok diagramjainak egyszerű létrehozása.
 
 ## Kezdő lépések
 

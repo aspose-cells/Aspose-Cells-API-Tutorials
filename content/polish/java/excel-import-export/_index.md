@@ -10,7 +10,7 @@ url: /pl/java/excel-import-export/
 
 ## Wprowadzenie do importu i eksportu programu Excel za pomocą Aspose.Cells dla języka Java:
 
-W świecie manipulacji danymi umiejętność bezproblemowego importowania i eksportowania plików Excel jest kluczową umiejętnością. Aspose.Cells for Java zapewnia programistom Java potężny zestaw narzędzi do wydajnego wykonywania tych zadań. Ten zestaw interfejsów API umożliwia bezproblemowe zarządzanie wymianą danych między aplikacjami Java i skoroszytami Excel, otwierając świat możliwości integracji danych.
+świecie manipulacji danymi umiejętność bezproblemowego importowania i eksportowania plików Excel jest kluczową umiejętnością. Aspose.Cells for Java zapewnia programistom Java potężny zestaw narzędzi do wydajnego wykonywania tych zadań. Ten zestaw interfejsów API umożliwia bezproblemowe zarządzanie wymianą danych między aplikacjami Java i skoroszytami Excel, otwierając świat możliwości integracji danych.
 
 ## Samouczki krok po kroku dla programistów Java:
 

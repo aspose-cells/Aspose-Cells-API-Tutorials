@@ -68,6 +68,6 @@ Du kan lagra strängar, siffror och till och med datum i dina anpassade egenskap
 ### Är Aspose.Cells gratis att använda?
  Aspose.Cells erbjuder en gratis provperiod. För alla funktioner krävs ett köp. Kolla in[prisalternativ här](https://purchase.aspose.com/buy).
 ### Var kan jag hitta Aspose.Cells dokumentation?
- Du kan hitta omfattande dokumentation[här](https://reference.aspose.com/cells/net/).
+Du kan hitta omfattande dokumentation[här](https://reference.aspose.com/cells/net/).
 ### Vad händer om jag behöver hjälp när jag använder Aspose.Cells?
  Du kan besöka[Aspose supportforum](https://forum.aspose.com/c/cells/9) för hjälp från deras samhälle och supportteam.

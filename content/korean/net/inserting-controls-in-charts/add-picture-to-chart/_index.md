@@ -16,7 +16,7 @@ url: /ko/net/inserting-controls-in-charts/add-picture-to-chart/
 코딩의 핵심에 들어가기 전에 순조롭게 따라가기 위해 꼭 필요한 몇 가지 전제 조건이 있습니다.
 
 - Visual Studio: 여기서 .NET 코드를 작성하고 실행합니다. 설치했는지 확인하세요.
-- .NET용 Aspose.Cells: Excel 파일을 사용하려면 이 라이브러리가 필요합니다.[여기서 다운로드하세요](https://releases.aspose.com/cells/net/).
+-  .NET용 Aspose.Cells: Excel 파일을 사용하려면 이 라이브러리가 필요합니다.[여기서 다운로드하세요](https://releases.aspose.com/cells/net/).
 - C#에 대한 기본적인 이해: 코드를 안내해드리겠지만, C#의 기본을 알고 있으면 더 명확하게 이해할 수 있습니다.
 
 ### 설치 단계
@@ -55,7 +55,7 @@ string sourceDir = "Your Document Directory/";
 string outputDir = "Your Output Directory/";
 ```
 
- 바꾸다`Your Document Directory` 그리고`Your Output Directory` 컴퓨터의 실제 경로를 사용합니다. 
+ 바꾸다`Your Document Directory` 그리고`Your Output Directory`컴퓨터의 실제 경로를 사용합니다. 
 
 ## 2단계: 기존 통합 문서 로드
 
@@ -84,7 +84,7 @@ FileStream stream = new FileStream(sourceDir + "sampleAddingPictureInChart.png",
 이제, 어떤 차트에 그림을 추가할지 지정해 보겠습니다. 이 예에서는 첫 번째 워크시트의 첫 번째 차트를 타겟으로 삼겠습니다.
 
 ```csharp
-//두 번째 시트에서 디자이너 차트를 받으세요.
+// 두 번째 시트에서 디자이너 차트를 받으세요.
 Worksheet sheet = workbook.Worksheets[0];
 Aspose.Cells.Charts.Chart chart = sheet.Charts[0];
 ```
@@ -100,7 +100,7 @@ Aspose.Cells.Charts.Chart chart = sheet.Charts[0];
 Aspose.Cells.Drawing.Picture pic0 = chart.Shapes.AddPictureInChart(50, 50, stream, 200, 200);
 ```
 
- 여기,`50` 그리고`50` 이미지가 배치될 X 및 Y 좌표입니다.`200` 이미지의 너비와 높이입니다.
+ 여기,`50` 그리고`50` 이미지가 배치될 X 및 Y 좌표입니다.`200`이미지의 너비와 높이입니다.
 
 ## 6단계: 그림의 선 형식 사용자 지정
 

@@ -55,7 +55,7 @@ Workbook workbook = new Workbook();
 
 ## Passaggio 3: Definizione del percorso dell'immagine
 
- È il momento di creare una variabile stringa per contenere il percorso all'immagine che vuoi usare. Nel nostro caso, stiamo usando`aspose-logo.jpg`.
+È il momento di creare una variabile stringa per contenere il percorso all'immagine che vuoi usare. Nel nostro caso, stiamo usando`aspose-logo.jpg`.
 
 ```csharp
 string logo_url = dataDir + "aspose-logo.jpg";

@@ -15,7 +15,7 @@ url: /ar/net/worksheet-operations/setting-image-preferences-for-html/
 قبل أن ننتقل إلى الكود، تأكد من أن لديك ما يلي:
 
 1. تم تثبيت Visual Studio: ستحتاج إلى بيئة تطوير مثل Visual Studio لتشغيل تطبيقات .NET واختبارها.
-2. Aspose.Cells لـ .NET: قم بتنزيل Aspose.Cells وتثبيته. يمكنك الحصول على أحدث إصدار من[موقع اسبوس](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells لـ .NET: قم بتنزيل Aspose.Cells وتثبيته. يمكنك الحصول على أحدث إصدار من[موقع اسبوس](https://releases.aspose.com/cells/net/).
 3. المعرفة الأساسية بلغة C#: ستساعدك المعرفة ببرمجة C# على فهم الأمثلة بشكل أفضل.
 4. ملف Excel نموذجي: قم بإعداد ملف Excel باسم "Book1.xlsx" للعمل به. ضعه في مجلد مخصص ستشير إليه في الكود الخاص بك.
 

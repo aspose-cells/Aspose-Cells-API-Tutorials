@@ -21,7 +21,7 @@ Müssen Sie Ihr Diagramm zum Teilen oder Drucken in ein PDF-Dokument konvertiere
 
 ## [Erstellen Sie ein Diagramm-PDF mit der gewünschten Seitengröße](./create-chart-pdf-with-desired-page-size/)
 
-Manchmal müssen Sie die Größe Ihres Diagramms steuern, wenn Sie es als PDF speichern. In dieser Anleitung erfahren Sie, wie Sie ein Diagramm-PDF mit den genau gewünschten Seitenabmessungen erstellen. Indem Sie dem Tutorial „Diagramm-PDF mit gewünschter Seitengröße erstellen“ folgen, erfahren Sie, wie Sie Ihre PDF-Ausgabe so anpassen, dass sie Ihren spezifischen Anforderungen entspricht – perfekt für Berichte und Präsentationen, bei denen Präzision entscheidend ist.
+Manchmal müssen Sie die Größe Ihres Diagramms steuern, wenn Sie es als PDF speichern. In dieser Anleitung erfahren Sie, wie Sie ein Diagramm-PDF mit den genau gewünschten Seitenabmessungen erstellen. Im Tutorial „Diagramm-PDF mit gewünschter Seitengröße erstellen“ erfahren Sie, wie Sie Ihre PDF-Ausgabe so anpassen, dass sie Ihren spezifischen Anforderungen entspricht – perfekt für Berichte und Präsentationen, bei denen es auf Präzision ankommt.
 
 ## Tutorials zur Diagrammdarstellung und -konvertierung
 ### [Diagramm rendern](./render-chart/)

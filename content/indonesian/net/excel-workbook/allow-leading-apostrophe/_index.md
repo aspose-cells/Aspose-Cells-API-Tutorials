@@ -16,7 +16,7 @@ Selamat datang di panduan langkah demi langkah tentang cara menggunakan Aspose.C
 Sebelum menyelami kodenya, berikut adalah beberapa prasyarat yang perlu Anda penuhi:
 
 1. Pengetahuan Dasar tentang .NET: Keakraban dengan framework .NET sangatlah penting. Jika Anda sudah menguasai C# atau VB.NET, anggaplah Anda sudah siap.
-2. Pustaka Aspose.Cells untuk .NET: Anda harus menginstal Aspose.Cells. Anda dapat melakukannya dengan mudah melalui pengelola paket NuGet atau mengunduhnya dari[Situs Aspose](https://releases.aspose.com/cells/net/).
+2.  Pustaka Aspose.Cells untuk .NET: Anda harus menginstal Aspose.Cells. Anda dapat melakukannya dengan mudah melalui pengelola paket NuGet atau mengunduhnya dari[Situs Aspose](https://releases.aspose.com/cells/net/).
 3. Penyiapan IDE: Pastikan Anda memiliki Lingkungan Pengembangan Terpadu (IDE) seperti Visual Studio yang siap untuk pengkodean.
 4. Contoh File Excel: Anda dapat menggunakan file contoh ("AllowLeadingApostropheSample.xlsx") yang akan kita gunakan dalam kode.
 
@@ -56,7 +56,7 @@ Sekarang, kita akan membuat WorkbookDesigner, yang sangat penting untuk bekerja 
 WorkbookDesigner designer = new WorkbookDesigner();
 ```
 
- Itu`WorkbookDesigner` mengelola desain dan pengikatan data buku kerja kita, membuat hidup kita lebih mudah saat mengonversi data ke dalam format visual.
+ Itu`WorkbookDesigner`mengelola desain dan pengikatan data buku kerja kita, membuat hidup kita lebih mudah saat mengonversi data ke dalam format visual.
 
 ## Langkah 3: Muat Buku Kerja yang Ada
 
@@ -90,7 +90,7 @@ List<DataObject> list = new List<DataObject>
 };
 ```
 
- Kami sedang membuat daftar`DataObject`, di mana salah satu nama sengaja menyertakan apostrof di awal. Ini akan membantu mengilustrasikan bagaimana Aspose.Cells menangani skenario semacam itu.
+ Kami sedang membuat daftar`DataObject`di mana salah satu nama sengaja menyertakan apostrof di awal. Ini akan membantu mengilustrasikan bagaimana Aspose.Cells menangani skenario semacam itu.
 
 ## Langkah 6: Ikat Sumber Data ke Desainer
 
@@ -144,7 +144,7 @@ Sekarang, apakah Anda membuat laporan, membuat fungsionalitas untuk analisis dat
 Aspose.Cells adalah pustaka .NET yang canggih untuk membuat, memanipulasi, dan mengonversi file Excel dalam berbagai format secara terprogram.
 
 ### Bisakah saya menggunakan Aspose.Cells secara gratis?
-Ya, Anda dapat menggunakan Aspose.Cells dengan mendaftar untuk uji coba gratis[Di Sini](https://releases.aspose.com/).
+ Ya, Anda dapat menggunakan Aspose.Cells dengan mendaftar untuk uji coba gratis[Di Sini](https://releases.aspose.com/).
 
 ### Bagaimana saya bisa mendapatkan dukungan untuk Aspose.Cells?
  Anda dapat menemukan bantuan dan mengajukan pertanyaan di[Forum Dukungan Aspose](https://forum.aspose.com/c/cells/9).

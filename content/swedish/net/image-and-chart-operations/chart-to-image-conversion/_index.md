@@ -36,7 +36,7 @@ Vi börjar med att definiera sökvägen för vår dokumentkatalog och se till at
 ```csharp
 // Definiera katalogen för att spara bilder
 string dataDir = "Your Document Directory";
-// Kontrollera om katalogen finns
+//Kontrollera om katalogen finns
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -93,7 +93,7 @@ chart.NSeries.Add("A1:B3", true);
 ## Steg 7: Konvertera diagrammet till en bild
 Sanningens ögonblick: vi ska konvertera det här diagrammet till en bildfil!
 
- Här använder vi`ToImage`metod för att konvertera diagrammet till ett valfritt bildformat. I det här fallet konverterar vi det till ett EMF-format (Enhanced Metafile).
+ Här använder vi`ToImage` metod för att konvertera diagrammet till ett valfritt bildformat. I det här fallet konverterar vi det till ett EMF-format (Enhanced Metafile).
 ```csharp
 // Konvertera diagrammet till en bild och spara det i katalogen
 chart.ToImage(dataDir + "Chart.emf", ImageFormat.Emf);

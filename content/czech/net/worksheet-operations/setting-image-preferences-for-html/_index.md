@@ -15,7 +15,7 @@ Vytváření vizuálně atraktivních webových stránek z tabulek aplikace Exce
 Než skočíme do kódu, ujistěte se, že máte následující:
 
 1. Nainstalované Visual Studio: Ke spuštění a testování aplikací .NET budete potřebovat vývojové prostředí, jako je Visual Studio.
-2. Aspose.Cells pro .NET: Stáhněte a nainstalujte Aspose.Cells. Nejnovější verzi si můžete stáhnout z[Aspose webové stránky](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells pro .NET: Stáhněte a nainstalujte Aspose.Cells. Nejnovější verzi si můžete stáhnout z[Aspose webové stránky](https://releases.aspose.com/cells/net/).
 3. Základní znalost C#: Znalost programování v C# vám pomůže lépe porozumět příkladům.
 4. Ukázkový soubor aplikace Excel: Připravte soubor aplikace Excel s názvem „Sešit1.xlsx“, se kterým budete pracovat. Umístěte jej do určené složky, na kterou budete odkazovat ve svém kódu.
 

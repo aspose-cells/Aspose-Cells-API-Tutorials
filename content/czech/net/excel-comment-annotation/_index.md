@@ -13,11 +13,11 @@ Chtěli jste někdy udělat své excelové tabulky o něco výraznější? Možn
 
 ## Přidejte komentář s obrázkem v Excelu
 
-Představte si, že máte možnost anotovat své buňky Excelu nejen textem, ale také obrázky. To dodává osobní dotek a vizuální prvek, který může objasnit a zlepšit informace ve vašich listech. Výukový program na[Přidání komentáře s obrázkem v Excelu](./add-comment-with-image-excel/) vás provede procesem krok za krokem. Naučíte se vkládat obrázky přímo do komentářů, díky čemuž budou vaše tabulky nejen informativnější, ale také vizuálně přitažlivější. Jen si představte, jak efektivní může být snímek obrazovky nebo logo, když sdílíte svou práci s ostatními!
+ Představte si, že máte možnost anotovat své buňky Excelu nejen textem, ale také obrázky. To dodává osobní dotek a vizuální prvek, který může objasnit a zlepšit informace ve vašich listech. Výukový program na[Přidání komentáře s obrázkem v Excelu](./add-comment-with-image-excel/) vás provede procesem krok za krokem. Naučíte se vkládat obrázky přímo do komentářů, díky čemuž budou vaše tabulky nejen informativnější, ale také vizuálně přitažlivější. Jen si představte, jak efektivní může být snímek obrazovky nebo logo, když sdílíte svou práci s ostatními!
 
 ## Přidejte komentáře k buňkám nebo tvarům v Excelu
 
- Pokud jste začátečník a chcete začít s anotacemi,[Přidejte komentáře k buňkám nebo tvarům v Excelu](./add-comments-to-cells-or-shapes-excel/)tutoriál je pro vás ideální. Pokrývá vše od základů přidávání komentářů až po vylepšování funkčnosti vašich tabulek. Uvidíte, jak připojit komentáře k různým prvkům – ať už jde o buňky nebo tvary – a dokonce si v tomto procesu projdete některé osvědčené postupy. Tento tutoriál je vaším odrazovým můstkem pro vytvoření interaktivních a uživatelsky přívětivých tabulek!
+ Pokud jste začátečník a chcete začít s anotacemi,[Přidejte komentáře k buňkám nebo tvarům v Excelu](./add-comments-to-cells-or-shapes-excel/) tutoriál je pro vás ideální. Pokrývá vše od základů přidávání komentářů až po vylepšování funkčnosti vašich tabulek. Uvidíte, jak připojit komentáře k různým prvkům – ať už jde o buňky nebo tvary – a dokonce si v tomto procesu projdete některé osvědčené postupy. Tento tutoriál je vaším odrazovým můstkem pro vytvoření interaktivních a uživatelsky přívětivých tabulek!
 
 ## Formátovat komentáře – písmo, barva, zarovnání
 

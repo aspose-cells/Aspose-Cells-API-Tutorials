@@ -2,7 +2,7 @@
 title: Excel Flytta kalkylblad
 linktitle: Excel Flytta kalkylblad
 second_title: Aspose.Cells för .NET API-referens
-description: Lär dig att flytta kalkylblad i Excel med Aspose.Cells för .NET i vår steg-för-steg-guide. Bemästra konsten att programmera Excel.
+description: Lär dig att flytta kalkylblad i Excel med Aspose.Cells för .NET i vår steg-för-steg-guide. Bemästra konsten att programmera i Excel.
 type: docs
 weight: 40
 url: /sv/net/excel-copy-worksheet/excel-move-worksheet/

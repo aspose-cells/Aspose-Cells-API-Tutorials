@@ -25,7 +25,7 @@ Míg az Aspose.Cells számos feladatot leegyszerűsít, a C# alapjainak ismerete
 Be kell állítania egy olyan IDE-t, mint a Visual Studio. Ez végigvezeti Önt a kód hatékony kezelésén és tesztelésén.
 
 ### Minta Excel fájlok
-Mintafájlokra lesz szüksége (`samplePageSetupIsAutomaticPaperSize-False.xlsx` és`samplePageSetupIsAutomaticPaperSize-True.xlsx`) tesztelési célból. Győződjön meg arról, hogy ezek a fájlok a forráskönyvtárban vannak.
+Mintafájlokra lesz szüksége (`samplePageSetupIsAutomaticPaperSize-False.xlsx` és`samplePageSetupIsAutomaticPaperSize-True.xlsx`tesztelési célból. Győződjön meg arról, hogy ezek a fájlok a forráskönyvtárban vannak.
 
 ## Csomagok importálása
 
@@ -63,7 +63,7 @@ Workbook wb2 = new Workbook(sourceDir + "samplePageSetupIsAutomaticPaperSize-Tru
 
 ## 3. lépés: Nyissa meg az első munkalapot
 
-A betöltött munkafüzetek után itt az ideje, hogy minden munkafüzetből hozzáférjen az első munkalaphoz. Az Aspose.Cells szépsége az, hogy ez nevetségesen egyszerű:
+betöltött munkafüzetek után itt az ideje, hogy minden munkafüzetből hozzáférjen az első munkalaphoz. Az Aspose.Cells szépsége az, hogy ez nevetségesen egyszerű:
 
 ```csharp
 Worksheet ws11 = wb1.Worksheets[0];

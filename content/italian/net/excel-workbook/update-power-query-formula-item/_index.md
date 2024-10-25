@@ -87,7 +87,7 @@ foreach (PowerQueryFormula formula in mashupData.PowerQueryFormulas)
 ```
 
 -  Facciamo un giro attraverso ciascuno`PowerQueryFormula` In`mashupData`.
--  All'interno di quel ciclo, ci immergiamo in ogni`PowerQueryFormulaItem`.
+- All'interno di quel ciclo, ci immergiamo in ogni`PowerQueryFormulaItem`.
 - Controlliamo se il nome dell'elemento corrisponde a "Source". In caso affermativo, aggiorniamo il suo valore per collegarlo al nostro nuovo file sorgente.
 
 È un po' come trovare la pagina giusta in un manuale e poi apportare gli aggiornamenti necessari: è un processo semplice e meticoloso.
@@ -101,7 +101,7 @@ Dopo aver effettuato gli aggiornamenti, è il momento di salvare le modifiche.
 workbook.Save(outputDir + "SamplePowerQueryFormula_out.xlsx");
 Console.WriteLine("UpdatePowerQueryFormulaItem executed successfully.");
 ```
- IL`Save`scrive la cartella di lavoro aggiornata nella directory di output specificata. È come sigillare le tue modifiche in una nuova versione del manuale, pronta per essere utilizzata da altri!
+ IL`Save` scrive la cartella di lavoro aggiornata nella directory di output specificata. È come sigillare le tue modifiche in una nuova versione del manuale, pronta per essere utilizzata da altri!
 
 ## Conclusione
 
@@ -122,4 +122,4 @@ No, Aspose.Cells consente di creare e modificare file Excel a livello di program
  Sì, puoi scaricare una versione di prova gratuita da[Pagina di rilascio di Aspose Cells](https://releases.aspose.com/).
 
 ### Come posso ottenere supporto per Aspose.Cells?
- Puoi accedere al supporto tramite[Forum di Aspose](https://forum.aspose.com/c/cells/9)dove puoi porre domande e trovare risposte dalla community e dal team di Aspose.
+ Puoi accedere al supporto tramite[Forum di Aspose](https://forum.aspose.com/c/cells/9), dove puoi porre domande e trovare risposte dalla community e dal team di Aspose.

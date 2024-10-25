@@ -40,7 +40,7 @@ Ora analizziamo nel dettaglio i passaggi necessari per posizionare correttamente
 Per prima cosa, assicurati di avere una cartella designata per i tuoi documenti. Ecco come creare una directory se non esiste:
 ```csharp
 string dataDir = "Your Document Directory";
-//Creare la directory se non è già presente.
+// Creare la directory se non è già presente.
 bool isExists = System.IO.Directory.Exists(dataDir);
 if (!isExists)
     System.IO.Directory.CreateDirectory(dataDir);

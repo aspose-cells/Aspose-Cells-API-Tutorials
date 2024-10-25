@@ -18,7 +18,7 @@ Excel でデータを管理する場合、セルから情報を読み取って�
 1. Visual Studio: マシンに Visual Studio がインストールされていることを確認してください。これは、コードの記述と実行に使用する IDE です。
 2.  Aspose.Cells for .NET: Aspose.Cellsライブラリが必要です。ダウンロードは以下から行えます。[Aspose ウェブサイト](https://releases.aspose.com/cells/net/).
 3. C# の基礎知識: C# プログラミングに精通していると、例をよりよく理解するのに役立ちます。
-4.  Excelファイル: Excelファイルを用意してください（例：`book1.xls`) です。
+4. Excelファイル: Excelファイルを用意してください（例：`book1.xls`) です。
 
 これらの前提条件を整理したら、Excel セルからデータを取得する方法の検討を開始できます。
 

@@ -161,7 +161,7 @@ flag.QuotePrefix = true;
 rng.ApplyStyle(st, flag);
 ```
 
- Trong vòng này, chúng tôi đang thiết lập`flag.QuotePrefix = true`, nghĩa là chúng ta muốn cập nhật tiền tố dấu ngoặc kép của ô.
+Trong vòng này, chúng tôi đang thiết lập`flag.QuotePrefix = true`, nghĩa là chúng ta muốn cập nhật tiền tố dấu ngoặc kép của ô.
 
 ## Bước 9: Kiểm tra cuối cùng của tiền tố báo giá
 

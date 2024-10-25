@@ -60,7 +60,7 @@ Lo primero es lo primero: debemos especificar dónde se guardarán nuestros docu
 
 ```csharp
 // La ruta al directorio de documentos.
-string dataDir = "Your Document Directory";  //Actualice esta ruta a su directorio específico
+string dataDir = "Your Document Directory";  // Actualice esta ruta a su directorio específico
 ```
 
  Asegúrese de reemplazar`"Your Document Directory"` con el camino real. ¡Esto es como encontrar un nuevo hogar para tu arduo trabajo!
@@ -76,7 +76,7 @@ Workbook workbook = new Workbook();
 
 ## Paso 3: Insertar datos en las celdas
 
-A continuación, necesitamos completar nuestro libro de trabajo con algunos datos. Para demostrarlo, coloquemos una cadena simple "Prueba PDF/A" en la celda A1 de nuestra primera hoja de trabajo. 
+continuación, necesitamos completar nuestro libro de trabajo con algunos datos. Para demostrarlo, coloquemos una cadena simple "Prueba PDF/A" en la celda A1 de nuestra primera hoja de trabajo. 
 
 ```csharp
 // Insertar un valor en la celda A1 en la primera hoja de cálculo
@@ -129,4 +129,4 @@ No, es necesario instalar la biblioteca Aspose.Cells para acceder a sus funciona
 Además de PDF, Aspose.Cells también admite formatos como XLSX, CSV, HTML y más.
 
 ### ¿Existe una versión gratuita de Aspose.Cells?
- Sí, puedes comenzar con una versión de prueba gratuita para explorar las funciones.[aquí](https://releases.aspose.com/).
+Sí, puedes comenzar con una versión de prueba gratuita para explorar las funciones.[aquí](https://releases.aspose.com/).

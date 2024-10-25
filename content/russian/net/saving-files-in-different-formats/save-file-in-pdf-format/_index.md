@@ -58,7 +58,7 @@ HttpResponse Respose = null; // Инициализируйте объект от
 ```csharp
 if (Respose != null)
 {
-    //Сохранить в формате PDF
+    // Сохранить в формате PDF
     workbook.Save(Respose, dataDir + "output.pdf", ContentDisposition.Attachment, new PdfSaveOptions());
     Respose.End();
 }

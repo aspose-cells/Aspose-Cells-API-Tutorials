@@ -2,7 +2,7 @@
 title: Zobrazit kartu Tabulky
 linktitle: Zobrazit kartu Tabulky
 second_title: Aspose.Cells for .NET API Reference
-description: tomto podrobném průvodci se dozvíte, jak zobrazit záložku tabulky pomocí Aspose.Cells for .NET. Ovládněte automatizaci Excelu snadno v C#.
+description: V tomto podrobném průvodci se dozvíte, jak zobrazit záložku tabulky pomocí Aspose.Cells for .NET. Ovládněte automatizaci Excelu snadno v C#.
 type: docs
 weight: 60
 url: /cs/net/excel-display-settings-csharp-tutorials/display-tab-of-spreadsheet/
@@ -16,7 +16,7 @@ Pracujete s tabulkami a hledáte efektivní způsob, jak je programově spravova
 Než se dostaneme ke skutečnému kódu, ujistěte se, že máte vše seřazeno. Zde je to, co potřebujete:
 
 1.  Aspose.Cells for .NET Library – Ujistěte se, že ji máte nainstalovanou. Můžete[stáhněte si knihovnu zde](https://releases.aspose.com/cells/net/).
-2. .NET Framework – Ujistěte se, že používáte kompatibilní verzi rozhraní .NET Framework. Aspose.Cells for .NET podporuje verze .NET Framework od 2.0.
+2. .NET Framework – Ujistěte se, že používáte kompatibilní verzi rozhraní .NET Framework. Aspose.Cells for .NET podporuje verze .NET Framework počínaje 2.0.
 3. Vývojové prostředí – Visual Studio nebo jakékoli jiné C# IDE je pro tento úkol perfektní.
 4. Základní znalost C# – Nemusíte být průvodce, ale pochopení základní syntaxe vám pomůže.
 

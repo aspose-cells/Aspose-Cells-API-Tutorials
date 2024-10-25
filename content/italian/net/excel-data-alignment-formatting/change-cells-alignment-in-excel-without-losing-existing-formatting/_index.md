@@ -16,7 +16,7 @@ A volte la gestione dei file Excel può sembrare come navigare in un labirinto, 
 Prima di immergerci nella codifica vera e propria, è essenziale assicurarsi di aver impostato tutto correttamente. Ecco cosa ti servirà:
 
 1. Visual Studio: assicurati di avere installato Visual Studio (qualsiasi versione che supporti .NET) sul tuo computer.
-2.  Aspose.Cells per .NET: Scarica e installa la libreria Aspose.Cells da[Il sito di Aspose](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells per .NET: Scarica e installa la libreria Aspose.Cells da[Il sito di Aspose](https://releases.aspose.com/cells/net/).
 3. Conoscenza di base di C#: una minima familiarità con la programmazione in C# tornerà utile poiché lavoreremo in un contesto C#.
 4.  File Excel di esempio: per la dimostrazione, preparare un file Excel di esempio (ad esempio,`sampleChangeCellsAlignmentAndKeepExistingFormatting.xlsx`) che contiene una formattazione iniziale delle celle.
 
@@ -89,7 +89,7 @@ Questo esempio accede al primo foglio di lavoro. Se i tuoi dati sono su un fogli
 Determina quali celle vuoi modificare creando un intervallo. Questa selezione si concentrerà su un intervallo specificato, come "B2:D7".
 
 ```csharp
-// Crea un intervallo di celle.
+//Crea un intervallo di celle.
 Range rng = ws.Cells.CreateRange("B2:D7");
 ```
 
@@ -122,14 +122,14 @@ StyleFlag flag = new StyleFlag();
 flag.Alignments = true;
 ```
 
- Impostando il`Alignments`proprietà dello StyleFlag a`true`, puoi dire ad Aspose.Cells di applicare correttamente gli stili di allineamento.
+ Impostando il`Alignments` proprietà dello StyleFlag a`true`, puoi dire ad Aspose.Cells di applicare correttamente gli stili di allineamento.
 
 ## Passaggio 7: applicare lo stile all'intervallo di celle
 
 Una volta impostati gli stili e i flag, è il momento di applicarli all'intervallo di celle:
 
 ```csharp
-// Applica lo stile a un intervallo di celle.
+//Applica lo stile a un intervallo di celle.
 rng.ApplyStyle(st, flag);
 ```
 

@@ -82,9 +82,9 @@ Vous êtes maintenant prêt à modifier cette feuille de calcul !
 
 ## Étape 4 : Accéder à l’objet de configuration de page
 
- Pour changer les marges, nous devons travailler avec les`PageSetup`objet. Cet objet fournit des propriétés qui contrôlent la mise en page de la page, y compris les marges.
+ Pour changer les marges, nous devons travailler avec les`PageSetup` objet. Cet objet fournit des propriétés qui contrôlent la mise en page de la page, y compris les marges.
 
- Obtenez le`PageSetup` propriété de la feuille de calcul :
+Obtenez le`PageSetup` propriété de la feuille de calcul :
 
 ```csharp
 PageSetup pageSetup = worksheet.PageSetup;

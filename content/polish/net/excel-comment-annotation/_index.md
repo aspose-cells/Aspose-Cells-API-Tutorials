@@ -13,11 +13,11 @@ Czy kiedykolwiek chciałeś, aby Twoje arkusze kalkulacyjne w programie Excel by
 
 ## Dodaj komentarz z obrazem w programie Excel
 
-Wyobraź sobie, że możesz adnotować komórki Excela nie tylko tekstem, ale także obrazami. Dodaje to osobistego akcentu i elementu wizualnego, który może wyjaśnić i ulepszyć informacje w arkuszach. Samouczek na temat[Dodawanie komentarza z obrazem w programie Excel](./add-comment-with-image-excel/) przeprowadzi Cię przez proces krok po kroku. Nauczysz się wstawiać obrazy bezpośrednio do komentarzy, dzięki czemu Twoje arkusze kalkulacyjne będą nie tylko bardziej informacyjne, ale również atrakcyjne wizualnie. Pomyśl tylko, jak skuteczny może być zrzut ekranu lub logo, gdy dzielisz się swoją pracą z innymi!
+ Wyobraź sobie, że możesz adnotować komórki Excela nie tylko tekstem, ale także obrazami. Dodaje to osobistego akcentu i elementu wizualnego, który może wyjaśnić i ulepszyć informacje w arkuszach. Samouczek na temat[Dodawanie komentarza z obrazem w programie Excel](./add-comment-with-image-excel/) przeprowadzi Cię przez proces krok po kroku. Nauczysz się wstawiać obrazy bezpośrednio do komentarzy, dzięki czemu Twoje arkusze kalkulacyjne będą nie tylko bardziej informacyjne, ale również atrakcyjne wizualnie. Pomyśl tylko, jak skuteczny może być zrzut ekranu lub logo, gdy dzielisz się swoją pracą z innymi!
 
 ## Dodawanie komentarzy do komórek lub kształtów w programie Excel
 
- Jeśli jesteś początkującym i chcesz zacząć korzystać z adnotacji,[Dodawanie komentarzy do komórek lub kształtów w programie Excel](./add-comments-to-cells-or-shapes-excel/)samouczek jest idealny dla Ciebie. Obejmuje wszystko, od podstaw dodawania komentarzy po ulepszanie funkcjonalności arkuszy kalkulacyjnych. Zobaczysz, jak dołączać komentarze do różnych elementów — komórek lub kształtów — a nawet przejdziesz przez kilka najlepszych praktyk w tym procesie. Ten samouczek jest Twoim kamieniem milowym do uczynienia Twoich arkuszy kalkulacyjnych interaktywnymi i przyjaznymi dla użytkownika!
+ Jeśli jesteś początkującym i chcesz zacząć korzystać z adnotacji,[Dodawanie komentarzy do komórek lub kształtów w programie Excel](./add-comments-to-cells-or-shapes-excel/) samouczek jest idealny dla Ciebie. Obejmuje wszystko, od podstaw dodawania komentarzy po ulepszanie funkcjonalności arkuszy kalkulacyjnych. Zobaczysz, jak dołączać komentarze do różnych elementów — komórek lub kształtów — a nawet przejdziesz przez kilka najlepszych praktyk w tym procesie. Ten samouczek jest Twoim kamieniem milowym do uczynienia Twoich arkuszy kalkulacyjnych interaktywnymi i przyjaznymi dla użytkownika!
 
 ## Formatuj komentarze - czcionka, kolor, wyrównanie
 

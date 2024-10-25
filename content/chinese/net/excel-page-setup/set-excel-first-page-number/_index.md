@@ -79,7 +79,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 
 ## 步骤 4：设置首页页码
 
-现在，魔术来了！您可以通过为`FirstPageNumber`：
+现在，魔法来了！您可以通过为`FirstPageNumber`：
 
 ```csharp
 worksheet.PageSetup.FirstPageNumber = 2;
@@ -99,7 +99,7 @@ workbook.Save(dataDir + "SetFirstPageNumber_out.xls");
 
 ## 结论
 
-就这样！您已成功使用 Aspose.Cells for .NET 设置 Excel 工作表的首页页码。这个小功能可以带来巨大的变化，尤其是在文档呈现至关重要的专业或学术环境中。
+就这样！您已成功使用 Aspose.Cells for .NET 设置了 Excel 工作表的首页页码。这个小功能可以带来巨大的变化，尤其是在文档呈现至关重要的专业或学术环境中。
 
 ## 常见问题解答
 

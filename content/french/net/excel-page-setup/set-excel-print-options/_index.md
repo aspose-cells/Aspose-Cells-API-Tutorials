@@ -134,7 +134,7 @@ Une fois que vous avez tout configuré comme vous le souhaitez, il est enfin tem
 workbook.Save(dataDir + "OtherPrintOptions_out.xls");
 ```
 
-Dans cette étape, nous enregistrons le classeur dans le répertoire spécifié. C'est comme si vous mettiez l'autocollant final sur votre projet magnifiquement conçu !
+Dans cette étape, nous enregistrons le classeur dans notre répertoire spécifié. C'est comme si vous mettiez l'autocollant final sur votre projet magnifiquement conçu !
 
 ## Conclusion
 
@@ -149,7 +149,7 @@ Aspose.Cells est une puissante bibliothèque .NET qui permet la manipulation et 
  Oui, vous pouvez accéder à un essai gratuit d'Aspose.Cells[ici](https://releases.aspose.com/).
 
 ### Comment obtenir une licence temporaire pour Aspose.Cells ?  
- Vous pouvez demander une licence temporaire via ceci[lien](https://purchase.aspose.com/temporary-license/).
+ Vous pouvez demander une licence temporaire via ce lien[lien](https://purchase.aspose.com/temporary-license/).
 
 ### Où puis-je trouver de l'aide ou du support pour Aspose.Cells ?  
  Visitez le forum Aspose pour obtenir de l'aide[ici](https://forum.aspose.com/c/cells/9).

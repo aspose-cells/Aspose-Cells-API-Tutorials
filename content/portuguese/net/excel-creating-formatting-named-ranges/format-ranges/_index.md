@@ -53,7 +53,7 @@ Em seguida, criaremos uma instância da pasta de trabalho. Isso é como abrir um
 Workbook workbook = new Workbook();
 ```
 
-Explicação: O`Workbook` class representa um arquivo Excel. Ao instanciá-lo, você está essencialmente criando um novo documento Excel que você pode manipular.
+ Explicação: O`Workbook` class representa um arquivo Excel. Ao instanciá-lo, você está essencialmente criando um novo documento Excel que você pode manipular.
 
 ## Etapa 3: Acesse a primeira planilha
 
@@ -138,7 +138,7 @@ flg.Font = true; // Habilitar atributos de fonte
 flg.CellShading = true; // Habilitar sombreamento de células
 ```
 
-Explicação: O`StyleFlag` objeto informa à biblioteca quais propriedades de estilo queremos aplicar — é como marcar caixas em uma lista de tarefas!
+ Explicação: O`StyleFlag` objeto informa à biblioteca quais propriedades de estilo queremos aplicar — é como marcar caixas em uma lista de tarefas!
 
 ## Etapa 11: aplique o estilo ao intervalo
 

@@ -9,7 +9,7 @@ url: /cs/net/advanced-chart-operations/change-tick-label-direction/
 ---
 ## Zavedení
 
-Už vás nebaví dívat se na nepřehledné grafy, kde se špatně čtou štítky s klíšťaty? No, nejste sami! Mnoho lidí bojuje s vizuální prezentací svých dat, zejména při práci s grafy v Excelu. Naštěstí existuje šikovné řešení: Aspose.Cells pro .NET. V této příručce vás provedeme změnou směru štítků v grafech aplikace Excel pomocí této výkonné knihovny. Ať už jste vývojář nebo jen datový nadšenec, pochopení toho, jak programově manipulovat se soubory Excelu, otevírá zcela nový svět možností!
+Už vás nebaví dívat se na nepřehledné grafy, kde se špatně čtou štítky s klíšťaty? No, nejsi sám! Mnoho lidí bojuje s vizuální prezentací svých dat, zejména při práci s grafy v Excelu. Naštěstí existuje šikovné řešení: Aspose.Cells pro .NET. V této příručce vás provedeme změnou směru štítků v grafech aplikace Excel pomocí této výkonné knihovny. Ať už jste vývojář nebo jen datový nadšenec, pochopení toho, jak programově manipulovat se soubory Excelu, otevírá zcela nový svět možností!
 
 ## Předpoklady
 

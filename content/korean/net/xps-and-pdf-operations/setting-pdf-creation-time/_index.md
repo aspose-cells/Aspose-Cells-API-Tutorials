@@ -15,7 +15,7 @@ url: /ko/net/xps-and-pdf-operations/setting-pdf-creation-time/
 1. Visual Studio: 컴퓨터에 Visual Studio가 설치되어 있는지 확인하세요. 이것이 개발 환경이 됩니다.
 2.  .NET용 Aspose.Cells: Aspose.Cells 라이브러리를 다음에서 다운로드하세요.[웹사이트](https://releases.aspose.com/cells/net/). 무료 체험판을 통해 기능을 테스트해 볼 수도 있습니다.
 3. C#에 대한 기본 지식: C# 프로그래밍에 익숙하면 코드 조각을 더 잘 이해하는 데 도움이 됩니다.
-4.  Excel 파일: 변환할 Excel 파일을 준비하세요. 이 예에서는 다음 이름의 파일을 사용하겠습니다.`Book1.xlsx`.
+4. Excel 파일: 변환할 Excel 파일을 준비하세요. 이 예에서는 다음 이름의 파일을 사용하겠습니다.`Book1.xlsx`.
 이제 필수 구성 요소를 정리했으니, 재밌는 부분, 즉 필요한 패키지를 가져오고 코드를 작성해 보겠습니다!
 ## 패키지 가져오기
 시작하려면 C# 파일에 필요한 네임스페이스를 가져와야 합니다. 이는 Aspose.Cells 라이브러리에서 제공하는 클래스와 메서드에 액세스할 수 있게 해주므로 매우 중요합니다.
@@ -45,7 +45,7 @@ string dataDir = "Your Document Directory"; // 문서 디렉토리를 지정하�
 string inputPath = dataDir + "Book1.xlsx"; // Excel 파일에 대한 경로
 Workbook workbook = new Workbook(inputPath); // Excel 파일을 로드합니다
 ```
- 그만큼`Workbook`클래스는 Excel 파일을 로드하고 조작하는 데 사용됩니다. 입력 경로를 전달하면 애플리케이션에 어떤 파일을 작업할지 알려주는 것입니다.
+ 그만큼`Workbook` 클래스는 Excel 파일을 로드하고 조작하는 데 사용됩니다. 입력 경로를 전달하면 애플리케이션에 어떤 파일을 작업할지 알려주는 것입니다.
 ## 3단계: PdfSaveOptions 만들기
  이제 인스턴스를 생성할 시간입니다.`PdfSaveOptions`이 클래스를 사용하면 생성 시간을 포함하여 통합 문서를 PDF로 저장하기 위한 다양한 옵션을 지정할 수 있습니다.
 ```csharp
@@ -56,7 +56,7 @@ options.CreatedTime = DateTime.Now; // 생성 시간을 지금으로 설정하�
 ## 4단계: 통합 문서를 PDF로 저장
 마지막으로, 방금 정의한 옵션을 사용하여 통합 문서를 PDF 파일로 저장합니다.
 ```csharp
-workbook.Save(dataDir + "output.pdf", options); // PDF로 저장
+workbook.Save(dataDir + "output.pdf", options); //PDF로 저장
 ```
  이 코드 줄은 통합 문서를 가져와 지정된 위치에 PDF 형식으로 저장합니다.`options` 매개변수는 PDF 메타데이터에 생성 시간을 포함하기 위해 전달됩니다.
 

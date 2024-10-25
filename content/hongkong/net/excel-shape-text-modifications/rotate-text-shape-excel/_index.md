@@ -8,7 +8,7 @@ weight: 12
 url: /zh-hant/net/excel-shape-text-modifications/rotate-text-shape-excel/
 ---
 ## 介紹
-在 Excel 的世界中，視覺表示與資料本身同樣重要。無論您是製作報告還是設計動態儀表板，資訊的佈局方式都會極大地影響其可讀性和整體外觀。那麼，您是否曾經想過旋轉文字以使其與形狀時尚地對齊？你很幸運！在本教程中，我們將深入研究如何使用 Aspose.Cells for .NET 旋轉具有形狀的文本，確保您的電子表格不僅提供信息，而且給人留下深刻的印象。
+在 Excel 的世界中，視覺表示與資料本身同樣重要。無論您是製作報告還是設計動態儀表板，資訊的佈局方式都會極大地影響其可讀性和整體外觀。那麼，您是否曾經想過旋轉文字以使其與形狀時尚地對齊？你很幸運！在本教程中，我們將深入研究如何使用 Aspose.Cells for .NET 旋轉帶有形狀的文本，確保您的電子表格不僅提供信息，而且給人留下深刻的印象。
 ## 先決條件
 在開始之前，讓我們確保您已擁有所需的一切：
 1. Visual Studio：確保您的電腦上安裝了 Visual Studio，因為我們將在其中編寫程式碼。
@@ -82,7 +82,7 @@ Aspose.Cells.Drawing.Texts.ShapeTextAlignment shapeTextAlignment = sh.TextBody.T
 //將 RotateTextWithShape 設定為 false，不要隨形狀旋轉文字。
 shapeTextAlignment.RotateTextWithShape = false;
 ```
-透過設定`RotateTextWithShape`當設定為 false 時，我們確保文字保持直立且不隨形狀旋轉，從而保持一切整潔有序。
+透過設定`RotateTextWithShape`當設定為 false 時，我們確保文字保持直立並且不隨形狀旋轉，從而保持一切整潔有序。
 ## 第 7 步：儲存輸出 Excel 文件
 最後，將變更儲存到新的 Excel 檔案。這可以確保我們不會丟失編輯內容並獲得整潔的輸出。
 ```csharp

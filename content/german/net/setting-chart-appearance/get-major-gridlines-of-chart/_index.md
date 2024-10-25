@@ -15,7 +15,7 @@ Das Erstellen optisch ansprechender und informativer Diagramme ist für eine eff
 
 Bevor wir mit dem Tutorial beginnen, stellen Sie sicher, dass Sie alles bereit haben:
 
-- Aspose.Cells für .NET: Stellen Sie sicher, dass Sie die Aspose.Cells-Bibliothek heruntergeladen und in Ihrem Projekt referenziert haben. Sie können sie erhalten[Hier](https://releases.aspose.com/cells/net/).
+-  Aspose.Cells für .NET: Stellen Sie sicher, dass Sie die Aspose.Cells-Bibliothek heruntergeladen und in Ihrem Projekt referenziert haben. Sie können sie erhalten[Hier](https://releases.aspose.com/cells/net/).
 - Entwicklungsumgebung: Jede .NET-Entwicklungsumgebung ist geeignet, aufgrund der robusten Unterstützung und Tools wird jedoch dringend Visual Studio empfohlen.
 - Grundlegende Kenntnisse in C#: Kenntnisse der Grundlagen der C#-Programmierung sind hilfreich, da wir Code schreiben werden.
 
@@ -76,7 +76,7 @@ worksheet.Cells["B2"].PutValue(32);
 worksheet.Cells["B3"].PutValue(50);
 ```
 
- Hier geben wir einige zufällige Werte in Zellen ein`A1` Zu`B3`Diese Daten dienen als Datenquelle für unser Diagramm. Es ist wichtig, aussagekräftige Daten zur Visualisierung zu haben, sonst besteht das Diagramm nur aus hübschen Linien ohne Kontext!
+ Hier geben wir einige zufällige Werte in Zellen ein`A1` Zu`B3`. Diese Daten dienen als Datenquelle für unser Diagramm. Es ist wichtig, aussagekräftige Daten zur Visualisierung zu haben, sonst besteht das Diagramm nur aus hübschen Linien ohne Kontext!
 
 ## Schritt 5: Dem Arbeitsblatt ein Diagramm hinzufügen
 
@@ -161,7 +161,7 @@ Aspose.Cells für .NET ist eine leistungsstarke API zum Bearbeiten von Excel-Tab
 Ja! Aspose.Cells ermöglicht umfassende Anpassungen, einschließlich Schriftarten, Stilen und Formaten für Diagrammelemente.
 
 ### Wo finde ich weitere Dokumentation?
- Eine ausführliche Dokumentation finden Sie auf[Aspose's Referenzseite](https://reference.aspose.com/cells/net/).
+Eine ausführliche Dokumentation finden Sie auf[Aspose's Referenzseite](https://reference.aspose.com/cells/net/).
 
 ### Gibt es eine kostenlose Testversion für Aspose.Cells?
  Ja! Sie können es ausprobieren, indem Sie es hier herunterladen.[Hier](https://releases.aspose.com/).

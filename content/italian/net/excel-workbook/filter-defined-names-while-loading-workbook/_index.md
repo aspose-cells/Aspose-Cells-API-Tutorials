@@ -47,7 +47,7 @@ LoadOptions opts = new LoadOptions();
 
 ## Passaggio 2: imposta il filtro di caricamento
 
-Poi, dobbiamo definire quali dati vogliamo filtrare durante il caricamento della cartella di lavoro. In questo caso, vogliamo evitare di caricare i nomi definiti.
+Successivamente, dobbiamo definire quali dati vogliamo filtrare durante il caricamento della cartella di lavoro. In questo caso, vogliamo evitare di caricare i nomi definiti.
 
 ```csharp
 opts.LoadFilter = new LoadFilter(~LoadDataFilterOptions.DefinedNames);
@@ -106,4 +106,4 @@ Filtrare i nomi definiti può portare a formule non funzionanti se fanno riferim
  Sì, puoi ottenere una prova gratuita di Aspose.Cells per testarne le capacità prima di acquistarlo. Dai un'occhiata[Qui](https://releases.aspose.com/).
 
 ### Dove posso trovare altri esempi e documentazione?
-Puoi trovare una documentazione completa e altri esempi nella pagina di riferimento di Aspose.Cells[Qui](https://reference.aspose.com/cells/net/).
+ Puoi trovare una documentazione completa e altri esempi nella pagina di riferimento di Aspose.Cells[Qui](https://reference.aspose.com/cells/net/).

@@ -87,7 +87,7 @@ foreach (PowerQueryFormula formula in mashupData.PowerQueryFormulas)
 ```
 
 -  نحن نمر عبر كل منها`PowerQueryFormula` في`mashupData`.
--  في هذه الحلقة، نغوص في كل منها`PowerQueryFormulaItem`.
+- في هذه الحلقة، نغوص في كل منها`PowerQueryFormulaItem`.
 - نتحقق مما إذا كان اسم العنصر يتطابق مع "المصدر". إذا كان الأمر كذلك، نقوم بتحديث قيمته للارتباط بملف المصدر الجديد.
 
 وهذا يشبه العثور على الصفحة الصحيحة في دليل ثم إجراء التحديثات اللازمة - إنها عملية مباشرة ودقيقة.
@@ -101,7 +101,7 @@ foreach (PowerQueryFormula formula in mashupData.PowerQueryFormulas)
 workbook.Save(outputDir + "SamplePowerQueryFormula_out.xlsx");
 Console.WriteLine("UpdatePowerQueryFormulaItem executed successfully.");
 ```
- ال`Save`تكتب الطريقة المصنف المحدث إلى دليل الإخراج المحدد. الأمر أشبه بختم تعديلاتك في إصدار جديد من الدليل، جاهزًا لاستخدام الآخرين!
+ ال`Save` تكتب الطريقة المصنف المحدث إلى دليل الإخراج المحدد. الأمر أشبه بختم تعديلاتك في إصدار جديد من الدليل، جاهزًا لاستخدام الآخرين!
 
 ## خاتمة
 

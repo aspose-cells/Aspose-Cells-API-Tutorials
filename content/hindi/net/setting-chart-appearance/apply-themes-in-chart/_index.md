@@ -59,7 +59,7 @@ string sourceDir = "Your Document Directory";
 Workbook workbook = new Workbook(sourceDir + "sampleApplyingThemesInChart.xlsx");
 ```
 
- यह सुनिश्चित करें कि`sampleApplyingThemesInChart.xlsx`आपके स्रोत निर्देशिका में मौजूद है.
+ यह सुनिश्चित करें कि`sampleApplyingThemesInChart.xlsx` आपके स्रोत निर्देशिका में मौजूद है.
 
 ## चरण 3: वर्कशीट तक पहुंचें
 
@@ -96,7 +96,7 @@ chart.NSeries[0].Area.FillFormat.FillType = Aspose.Cells.Drawing.FillType.Solid;
 
 ## चरण 6: रंग कॉन्फ़िगर करें
 
- अब जबकि हमारी श्रृंखला तैयार है, हमें इसका रंग बदलना होगा। इसमें एक बनाना शामिल है`CellsColor`ऑब्जेक्ट और थीम रंग निर्दिष्ट करना। हम इस उदाहरण के लिए एक उच्चारण शैली चुनेंगे।
+ अब जबकि हमारी श्रृंखला तैयार है, हमें इसका रंग बदलना होगा। इसमें एक बनाना शामिल है`CellsColor` ऑब्जेक्ट और थीम रंग निर्दिष्ट करना। हम इस उदाहरण के लिए एक उच्चारण शैली चुनेंगे।
 
 ```csharp
 // SolidFill का CellsColor प्राप्त करें

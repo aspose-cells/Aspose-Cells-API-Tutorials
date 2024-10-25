@@ -37,7 +37,7 @@ Excel 파일을 만들기 전에 저장할 위치를 결정해야 합니다. 아
 ```csharp
 // 문서 디렉토리 경로
 string dataDir = "Your Document Directory"; // 원하는 경로를 지정하세요
-//디렉토리가 없으면 디렉토리를 생성합니다.
+// 디렉토리가 없으면 디렉토리를 생성합니다.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);

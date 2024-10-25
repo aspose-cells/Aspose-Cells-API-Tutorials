@@ -41,7 +41,7 @@ Für alle Dateivorgänge ist es wichtig, einen definierten Speicherort für unse
 // Der Pfad zum Dokumentverzeichnis.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
-//Erstellen Sie ein Verzeichnis, falls es noch nicht vorhanden ist.
+// Erstellen Sie ein Verzeichnis, falls es noch nicht vorhanden ist.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);

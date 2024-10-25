@@ -71,7 +71,7 @@ foreach (ReferredArea area in ret)
     Console.WriteLine(CellsHelper.CellIndexToName(area.EndRow, area.EndColumn));
 }
 ```
- Dalam cuplikan ini, kami menggunakan metode sederhana`foreach` loop untuk mencetak nama lembar dan referensi sel dari sel yang dimasukkan ke dalam B4.`CellsHelper.CellIndexToName`fungsi mengubah indeks baris dan kolom menjadi referensi sel yang dapat dibaca seperti "A1", "B2", dll. 
+ Dalam cuplikan ini, kami menggunakan metode sederhana`foreach` loop untuk mencetak nama lembar dan referensi sel dari sel yang dimasukkan ke dalam B4.`CellsHelper.CellIndexToName` fungsi mengubah indeks baris dan kolom menjadi referensi sel yang dapat dibaca seperti "A1", "B2", dll. 
 
 ## Kesimpulan
 Nah, itu dia! Anda telah berhasil melacak preseden di Excel menggunakan Aspose.Cells untuk .NET. Memahami ketergantungan sel dapat meningkatkan keterampilan manajemen spreadsheet Anda dan memberikan kejelasan dalam keputusan berdasarkan data Anda. Ini seperti memecahkan teka-teki, menyusun dari mana data Anda berasal. Sekarang, cobalah ini pada data Anda sendiri, dan manfaatkan kekuatan Aspose.Cells!
@@ -85,4 +85,4 @@ Aspose.Cells adalah pustaka .NET yang digunakan untuk membuat, memanipulasi, dan
 ### Apakah Aspose.Cells kompatibel dengan .NET Core?  
 Ya, Aspose.Cells mendukung .NET Core, sehingga Anda dapat menggunakannya di berbagai kerangka kerja .NET.
 ### Di mana saya dapat menemukan dukungan untuk Aspose.Cells?  
-Anda bisa mendapatkan bantuan di[Forum dukungan Aspose](https://forum.aspose.com/c/cells/9).
+ Anda bisa mendapatkan bantuan di[Forum dukungan Aspose](https://forum.aspose.com/c/cells/9).

@@ -95,7 +95,7 @@ V tomto kódu určíme typ grafu (v tomto případě sloupcový graf) a pozici, 
 
 ## Krok 6: Přístup k instanci grafu
 
-Jakmile vytvoříme graf, potřebujeme získat přístup k jeho instanci, abychom mohli upravit jeho vlastnosti. To se provádí načtením přes`Charts`sbírka.
+ Jakmile vytvoříme graf, potřebujeme získat přístup k jeho instanci, abychom mohli upravit jeho vlastnosti. To se provádí jeho načtením prostřednictvím`Charts`sbírka.
 
 ```csharp
 // Přístup k instanci nově přidaného grafu
@@ -134,7 +134,7 @@ chart.NSeries[0].Points[0].Area.ForegroundColor = Color.Cyan;
 chart.NSeries[1].Area.FillFormat.SetOneColorGradient(Color.Lime, 1, Aspose.Cells.Drawing.GradientStyleType.Horizontal, 1);
 ```
 
-tomto kódu nastavujeme různé barvy pro různé části grafu. Přizpůsobením vzhledu mohou být vaše data mnohem poutavější!
+V tomto kódu nastavujeme různé barvy pro různé části grafu. Přizpůsobením vzhledu mohou být vaše data mnohem poutavější!
 
 ## Krok 9: Změňte barvy hlavní mřížky
 
@@ -173,7 +173,7 @@ Tento jednoduchý výstup z konzoly vás informuje, že váš program běžel sp
 
 ## Závěr
 
-A tady to máte! Úspěšně jste se naučili, jak změnit hlavní čáry mřížky v grafu pomocí Aspose.Cells for .NET. Podle tohoto podrobného průvodce jste nejen programově manipulovali se soubory Excelu, ale také zlepšili jejich vizuální přitažlivost pomocí přizpůsobení barev. Nebojte se dále experimentovat s Aspose.Cells, abyste prohloubili své dovednosti prezentace dat a udělejte své grafy ještě dynamičtějšími!
+tady to máte! Úspěšně jste se naučili, jak změnit hlavní čáry mřížky v grafu pomocí Aspose.Cells for .NET. Podle tohoto podrobného průvodce jste nejen programově manipulovali se soubory Excelu, ale také zlepšili jejich vizuální přitažlivost pomocí přizpůsobení barev. Nebojte se dále experimentovat s Aspose.Cells, abyste prohloubili své dovednosti prezentace dat a udělejte své grafy ještě dynamičtějšími!
 
 ## FAQ
 

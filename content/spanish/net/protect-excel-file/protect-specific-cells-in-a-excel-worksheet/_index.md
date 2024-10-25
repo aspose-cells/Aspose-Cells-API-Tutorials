@@ -41,7 +41,7 @@ Lo primero que queremos hacer es definir dónde se guardarán los archivos. Este
 ```csharp
 // La ruta al directorio de documentos.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-//Crear directorio si aún no está presente.
+// Crear directorio si aún no está presente.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);

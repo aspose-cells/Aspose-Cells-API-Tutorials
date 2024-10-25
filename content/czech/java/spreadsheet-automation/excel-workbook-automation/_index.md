@@ -92,7 +92,7 @@ Zde jsou některé běžné otázky související s automatizací sešitů Excel
    Ano, můžete. Aspose.Cells for Java umožňuje pracovat se soubory aplikace Excel bez nutnosti instalace aplikace Microsoft Excel.
 
 ### Jak naformátuji buňky nebo aplikuji styly na data aplikace Excel pomocí Aspose.Cells?
-   Pomocí Aspose.Cells můžete na buňky použít různé formátování a styly. Podrobné příklady naleznete v dokumentaci API.
+   Pomocí Aspose.Cells můžete na buňky aplikovat různé formátování a styly. Podrobné příklady naleznete v dokumentaci API.
 
 ### Je Aspose.Cells for Java kompatibilní s různými formáty souborů aplikace Excel?
    Ano, Aspose.Cells podporuje různé formáty souborů Excel, včetně XLS, XLSX, XLSM a dalších.

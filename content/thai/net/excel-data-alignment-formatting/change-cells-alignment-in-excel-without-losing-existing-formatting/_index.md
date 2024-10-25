@@ -16,7 +16,7 @@ url: /th/net/excel-data-alignment-formatting/change-cells-alignment-in-excel-wit
 ก่อนที่เราจะลงลึกในการเขียนโค้ดจริง สิ่งสำคัญคือต้องแน่ใจว่าคุณได้ตั้งค่าทุกอย่างอย่างถูกต้องแล้ว นี่คือสิ่งที่คุณต้องการ:
 
 1. Visual Studio: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Visual Studio (เวอร์ชันใดก็ได้ที่รองรับ .NET) บนคอมพิวเตอร์ของคุณแล้ว
-2.  Aspose.Cells สำหรับ .NET: ดาวน์โหลดและติดตั้งไลบรารี Aspose.Cells จาก[เว็บไซต์ของ Aspose](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells สำหรับ .NET: ดาวน์โหลดและติดตั้งไลบรารี Aspose.Cells จาก[เว็บไซต์ของ Aspose](https://releases.aspose.com/cells/net/).
 3. ความรู้พื้นฐานเกี่ยวกับ C#: ความคุ้นเคยกับการเขียนโปรแกรม C# เพียงเล็กน้อยจะเป็นประโยชน์เนื่องจากเราจะทำงานภายในบริบทของ C#
 4.  ตัวอย่างไฟล์ Excel: สำหรับการสาธิต ให้เตรียมไฟล์ Excel ตัวอย่างไว้ (เช่น`sampleChangeCellsAlignmentAndKeepExistingFormatting.xlsx`) ซึ่งมีการจัดรูปแบบเซลล์เริ่มต้นบางอย่าง
 
@@ -89,7 +89,7 @@ Worksheet ws = wb.Worksheets[0];
 กำหนดว่าคุณต้องการเปลี่ยนแปลงเซลล์ใดโดยการสร้างช่วง การเลือกนี้จะเน้นที่ช่วงที่ระบุ เช่น “B2:D7”
 
 ```csharp
-// สร้างช่วงเซลล์
+//สร้างช่วงเซลล์
 Range rng = ws.Cells.CreateRange("B2:D7");
 ```
 
@@ -122,14 +122,14 @@ StyleFlag flag = new StyleFlag();
 flag.Alignments = true;
 ```
 
- โดยการตั้งค่า`Alignments`คุณสมบัติของ StyleFlag`true`คุณแจ้ง Aspose.Cells ให้ใช้รูปแบบการจัดตำแหน่งอย่างถูกต้อง
+ โดยการตั้งค่า`Alignments` คุณสมบัติของ StyleFlag`true`คุณแจ้ง Aspose.Cells ให้ใช้รูปแบบการจัดตำแหน่งอย่างถูกต้อง
 
 ## ขั้นตอนที่ 7: นำสไตล์ไปใช้กับช่วงเซลล์
 
 เมื่อคุณมีรูปแบบและแฟล็กแล้ว ก็ถึงเวลาที่จะนำรูปแบบเหล่านั้นไปใช้กับช่วงของเซลล์:
 
 ```csharp
-// ใช้สไตล์กับช่วงของเซลล์
+//ใช้สไตล์กับช่วงของเซลล์
 rng.ApplyStyle(st, flag);
 ```
 

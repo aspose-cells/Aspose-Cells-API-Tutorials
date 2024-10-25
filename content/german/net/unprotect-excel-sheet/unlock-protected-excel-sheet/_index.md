@@ -73,7 +73,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 
 ## Schritt 4: Schutz des Arbeitsblatts aufheben
 
-Jetzt kommt der kritische Teil – das Aufheben des Schutzes des Arbeitsblatts. Wenn Sie ein Kennwort haben, können Sie es hier eingeben. Andernfalls lassen Sie das Feld für ein ungeschütztes Blatt leer.
+Jetzt kommt der kritische Teil – das Aufheben des Arbeitsblattschutzes. Wenn Sie ein Kennwort haben, können Sie es hier eingeben. Andernfalls lassen Sie das Feld für ein ungeschütztes Blatt leer.
 
 ```csharp
 worksheet.Unprotect("");
@@ -87,7 +87,7 @@ Sobald der Schutz des Arbeitsblatts aufgehoben ist, müssen Sie die vorgenommene
 ```csharp
 workbook.Save(dataDir + "output.out.xls");
 ```
- Hier speichern Sie die Änderungen in einer neuen Datei namens „output.out.xls“ im selben Verzeichnis. Sie können sie nach Belieben umbenennen, achten Sie jedoch darauf, dass die`.xls`Erweiterung, damit es weiterhin als Excel-Datei erkennbar bleibt.
+ Hier speichern Sie die Änderungen in einer neuen Datei namens „output.out.xls“ im selben Verzeichnis. Sie können sie nach Belieben umbenennen, achten Sie jedoch darauf, dass die`.xls` Erweiterung, damit es weiterhin als Excel-Datei erkennbar bleibt.
 
 ## Schritt 6: Fehlerbehandlung
 
@@ -116,7 +116,7 @@ Und da haben Sie es! Das Entsperren einer geschützten Excel-Tabelle mit Aspose.
 Ja! Sie können jedes Blatt in der Arbeitsmappe durchlaufen und die Schutze auf die gleiche Weise aufheben.
 
 ### Ist die Nutzung von Aspose.Cells kostenlos?
-Aspose.Cells bietet eine kostenlose Testversion an, für den produktiven Einsatz ist jedoch eine Lizenz erforderlich. Überprüfen Sie deren[kaufen](https://purchase.aspose.com/buy) Seite für weitere Informationen.
+ Aspose.Cells bietet eine kostenlose Testversion an, für den produktiven Einsatz ist jedoch eine Lizenz erforderlich. Überprüfen Sie deren[kaufen](https://purchase.aspose.com/buy) Seite für weitere Informationen.
 
 ### Was ist, wenn ich das Passwort nicht kenne?
 Wenn ein Blatt kennwortgeschützt ist und Sie das Kennwort nicht kennen, hilft Ihnen die Bibliothek nicht dabei, die Beschränkungen zu umgehen, da dies gegen ethische Richtlinien verstößt.

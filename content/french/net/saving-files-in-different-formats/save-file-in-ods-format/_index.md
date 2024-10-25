@@ -12,7 +12,7 @@ Vous êtes-vous déjà demandé comment enregistrer sans effort des fichiers de 
 ## Prérequis
 Avant de passer aux choses sérieuses, assurons-nous que tout est correctement configuré :
 - .NET Framework : assurez-vous que .NET Framework est installé sur votre ordinateur. Vous pouvez utiliser n'importe quelle version compatible avec Aspose.Cells pour .NET.
-- Bibliothèque Aspose.Cells : vous devrez télécharger la bibliothèque Aspose.Cells. Il s'agit d'un outil puissant qui vous permet de gérer des fichiers Excel et bien plus encore. Vous pouvez l'obtenir à partir du[lien de téléchargement](https://releases.aspose.com/cells/net/).
+-  Bibliothèque Aspose.Cells : vous devrez télécharger la bibliothèque Aspose.Cells. Il s'agit d'un outil puissant qui vous permet de gérer des fichiers Excel et bien plus encore. Vous pouvez l'obtenir à partir du[lien de téléchargement](https://releases.aspose.com/cells/net/).
 - Environnement de développement : un environnement de développement approprié est essentiel, tel que Visual Studio, où vous pouvez écrire et exécuter votre code .NET.
 Maintenant que nous avons couvert nos prérequis, importons les packages nécessaires.
 ## Paquets d'importation

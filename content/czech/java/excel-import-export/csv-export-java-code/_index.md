@@ -62,7 +62,7 @@ V tomto kódu načteme sešit aplikace Excel, určíme možnosti CSV (napříkla
 
 ## Spuštění kodexu
 
-Zkompilujte a spusťte kód Java ve svém IDE. Ujistěte se, že máte v adresáři projektu soubor Excel s názvem "input.xlsx". Po spuštění kódu najdete exportovaný soubor CSV jako „output.csv“ ve stejném adresáři.
+Zkompilujte a spusťte kód Java ve svém IDE. Ujistěte se, že máte v adresáři projektu soubor aplikace Excel s názvem „input.xlsx“. Po spuštění kódu najdete exportovaný soubor CSV jako „output.csv“ ve stejném adresáři.
 
 ## Závěr
 

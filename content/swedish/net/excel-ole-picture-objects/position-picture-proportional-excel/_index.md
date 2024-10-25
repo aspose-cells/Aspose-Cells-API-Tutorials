@@ -40,7 +40,7 @@ Låt oss nu dela upp detta i detaljerade steg för att framgångsrikt placera en
 Först och främst, se till att du har en avsedd mapp för dina dokument. Så här skapar du en katalog om den inte finns:
 ```csharp
 string dataDir = "Your Document Directory";
-//Skapa katalog om den inte redan finns.
+// Skapa katalog om den inte redan finns.
 bool isExists = System.IO.Directory.Exists(dataDir);
 if (!isExists)
     System.IO.Directory.CreateDirectory(dataDir);

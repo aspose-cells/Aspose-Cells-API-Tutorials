@@ -47,7 +47,7 @@ string sourceDir = "Your Document Directory"; // Atur direktori dokumen Anda
 //Direktori keluaran
 string outputDir = "Your Document Directory"; // Atur direktori keluaran Anda
 ```
- Mengganti`"Your Document Directory"` dengan jalur sebenarnya tempat Anda`sampleRotateTextWithShapeInsideWorksheet.xlsx`berkas berada.
+ Mengganti`"Your Document Directory"` dengan jalur sebenarnya tempat Anda`sampleRotateTextWithShapeInsideWorksheet.xlsx` berkas berada.
 ## Langkah 2: Muat File Excel Sampel
 Sekarang, mari kita muat contoh berkas Excel. Ini penting, karena kita ingin memanipulasi data yang ada.
 ```csharp
@@ -91,7 +91,7 @@ wb.Save(outputDir + "outputRotateTextWithShapeInsideWorksheet.xlsx");
 ```
 Selesai! File output Anda kini telah disimpan, termasuk teks di sel B4 dan penyesuaian yang dilakukan pada bentuknya.
 ## Langkah 8: Jalankan Kode
- Di dalam kamu`Main`metode, bungkus semua potongan kode di atas, dan jalankan proyek Anda. Lihat perubahan yang tercermin dalam berkas keluaran Anda!
+ Di dalam kamu`Main` metode, bungkus semua potongan kode di atas, dan jalankan proyek Anda. Lihat perubahan yang tercermin dalam berkas keluaran Anda!
 ```csharp
 Console.WriteLine("RotateTextWithShapeInsideWorksheet executed successfully.");
 ```
@@ -105,6 +105,6 @@ Aspose.Cells mendukung berbagai format Excel, termasuk XLS, XLSX, CSV, dan banya
 ### Apakah mungkin untuk memutar teks dengan bentuk di versi Excel yang lebih lama?
 Ya, fungsionalitas ini dapat diterapkan ke format lama yang didukung oleh Aspose.Cells.
 ### Di mana saya dapat menemukan dokumentasi lebih lanjut tentang Aspose.Cells?
- Anda dapat menjelajahi komprehensif[dokumentasi](https://reference.aspose.com/cells/net/)untuk wawasan lebih dalam.
+ Anda dapat menjelajahi komprehensif[dokumentasi](https://reference.aspose.com/cells/net/) untuk wawasan lebih dalam.
 ### Bagaimana cara mendapatkan dukungan untuk Aspose.Cells?
  Anda dapat meminta dukungan dengan mengunjungi[Forum Aspose](https://forum.aspose.com/c/cells/9).

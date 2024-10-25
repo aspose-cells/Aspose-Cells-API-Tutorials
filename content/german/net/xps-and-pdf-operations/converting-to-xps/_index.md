@@ -48,9 +48,9 @@ Als nächstes müssen wir uns das Arbeitsblatt besorgen, an dem wir arbeiten mö
 ```csharp
 Worksheet sheet = workbook.Worksheets[0]; // Zugriff auf das erste Arbeitsblatt
 ```
-Über diese Codezeile können Sie auf das erste Arbeitsblatt zugreifen, um weitere Befehle abzurufen.
+Über diese Codezeile können Sie auf das erste Arbeitsblatt zugreifen und dort weitere Befehle eingeben.
 ## Schritt 4: Bild- und Druckoptionen konfigurieren
-Nun müssen wir definieren, wie wir unsere Ausgabe rendern möchten. Dazu müssen wir eine Instanz von`ImageOrPrintOptions` und Einstellen des gewünschten Ausgabeformats.
+ Nun müssen wir definieren, wie wir unsere Ausgabe rendern möchten. Dazu müssen wir eine Instanz von`ImageOrPrintOptions` und Einstellen des gewünschten Ausgabeformats.
 ```csharp
 Aspose.Cells.Rendering.ImageOrPrintOptions options = new Aspose.Cells.Rendering.ImageOrPrintOptions();
 options.SaveFormat = SaveFormat.Xps; // Einstellen des Ausgabeformats auf XPS
@@ -71,7 +71,7 @@ wr.ToImage(dataDir + "out_whole_printingxps.out.xps");
 ```
 Mit diesem Codeausschnitt können Sie die gesamte Arbeitsmappe auf einmal exportieren. Dies ist effizient, wenn Sie mehrere Arbeitsblätter konvertieren müssen.
 ## Abschluss
-Herzlichen Glückwunsch! Sie haben eine Excel-Datei mithilfe der Aspose.Cells-Bibliothek in .NET erfolgreich in das XPS-Format konvertiert. Das mag nach vielen Schritten aussehen, aber jeder einzelne spielt eine wichtige Rolle im Prozess. Mit diesem Wissen sind Sie gut gerüstet, um Excel-Dateien in Ihren Anwendungen zu verarbeiten und sie für verschiedene Formate zu optimieren. Wenn Sie also das nächste Mal jemand fragt, wie man diese lästigen Tabellen konvertiert, wissen Sie genau, was zu tun ist!
+Herzlichen Glückwunsch! Sie haben eine Excel-Datei mithilfe der Aspose.Cells-Bibliothek in .NET erfolgreich in das XPS-Format konvertiert. Das mag nach vielen Schritten aussehen, aber jeder einzelne spielt eine wichtige Rolle im Prozess. Mit diesem Wissen sind Sie gut gerüstet, um Excel-Dateien in Ihren Anwendungen zu verarbeiten und sie für verschiedene Formate zu optimieren. Wenn Sie also das nächste Mal jemand fragt, wie man diese lästigen Tabellenkalkulationen konvertiert, wissen Sie genau, was zu tun ist!
 ## Häufig gestellte Fragen
 ### Was ist das XPS-Format?
 XPS (XML Paper Specification) ist ein festes Dokumentformat, bei dem das Layout und Erscheinungsbild von Dokumenten beibehält.
@@ -82,4 +82,4 @@ Ja, Sie können den Code so anpassen, dass er mehrere Dateien im Verzeichnis dur
 ### Was ist, wenn ich nur bestimmte Blätter konvertieren muss?
  Sie können den Index des gewünschten Blatts im`SheetRender` Objekt, wie in unseren Schritten gezeigt.
 ### Wo finde ich weitere Informationen zu Aspose.Cells?
- Entdecken Sie die[Dokumentation](https://reference.aspose.com/cells/net/)für erweiterte Funktionen und Optionen, die mit der Bibliothek verfügbar sind.
+ Entdecken Sie die[Dokumentation](https://reference.aspose.com/cells/net/) für erweiterte Funktionen und Optionen, die mit der Bibliothek verfügbar sind.

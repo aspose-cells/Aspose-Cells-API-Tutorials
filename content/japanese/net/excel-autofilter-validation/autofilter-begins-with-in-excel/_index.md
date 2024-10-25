@@ -93,7 +93,7 @@ worksheet.AutoFilter.Range = "A1:A18";
 worksheet.AutoFilter.Custom(0, FilterOperatorType.BeginsWith, "Ba");
 ```
 
-説明:`Custom`メソッドはフィルタリングロジックを定義します。最初の引数（`0` ）は、最初の列（A）に基づいてフィルタリングしていることを示します。`FilterOperatorType.BeginsWith`「Ba」で始まる行を検索する条件を指定します。
+説明:`Custom`メソッドはフィルタリングロジックを定義します。最初の引数（`0` ）は、最初の列（A）に基づいてフィルタリングしていることを示します。`FilterOperatorType.BeginsWith` 「Ba」で始まる行を検索する条件を指定します。
 
 ## ステップ6: フィルターを更新する
 

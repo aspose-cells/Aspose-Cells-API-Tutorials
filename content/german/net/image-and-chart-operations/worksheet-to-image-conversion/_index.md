@@ -12,7 +12,7 @@ Wenn es um die Bearbeitung von Excel-Dateien in .NET geht, ist Aspose.Cells eine
 ## Voraussetzungen
 Bevor wir mit der Konvertierung beginnen, müssen Sie unbedingt sicherstellen, dass Sie alles richtig eingerichtet haben. Hier sind die Voraussetzungen, die Sie benötigen:
 1. Visual Studio: Stellen Sie sicher, dass Visual Studio auf Ihrem Computer installiert ist. Mit dieser IDE können Sie Ihre .NET-Projekte reibungslos ausführen.
-2. Aspose.Cells für .NET-Bibliothek: Sie müssen diese Bibliothek erwerben. Sie können[Laden Sie es hier herunter](https://releases.aspose.com/cells/net/) oder beginnen Sie mit einem[Kostenlose Testversion](https://releases.aspose.com/).
+2.  Aspose.Cells für .NET-Bibliothek: Sie müssen diese Bibliothek erwerben. Sie können[Laden Sie es hier herunter](https://releases.aspose.com/cells/net/) oder beginnen Sie mit einem[Kostenlose Testversion](https://releases.aspose.com/).
 3. Grundkenntnisse in C#: Kenntnisse in der C#-Programmierung sind von Vorteil, da unsere Beispiele und Erklärungen in dieser Sprache geschrieben sind.
 4.  Eine Excel-Beispieldatei: Erstellen oder laden Sie zur Demonstration eine Excel-Datei herunter. Speichern Sie sie als`MyTestBook1.xls` in Ihrem Projektverzeichnis.
 5. Grundlegendes Verständnis von .NET-Projekten: Wenn Sie wissen, wie man ein einfaches .NET-Projekt erstellt, wird dies einfacher, aber keine Sorge – wir führen Sie durch die einzelnen Schritte.
@@ -51,7 +51,7 @@ string dataDir = "Your Document Directory";
 // Öffnen Sie eine Excel-Vorlagendatei.
 Workbook book = new Workbook(dataDir + "MyTestBook1.xls");
 ```
- In diesem Schritt erstellen wir eine Instanz des`Workbook`Klasse und übergeben Sie den Pfad zu unserer Excel-Datei. Dadurch können wir programmgesteuert mit dem Inhalt der Datei interagieren.
+ In diesem Schritt erstellen wir eine Instanz des`Workbook` Klasse und übergeben Sie den Pfad zu unserer Excel-Datei. Dadurch können wir programmgesteuert mit dem Inhalt der Datei interagieren.
 ## Schritt 5: Zugriff auf das Arbeitsblatt
 Nachdem wir nun die Arbeitsmappe geöffnet haben, greifen wir auf das erste Arbeitsblatt zu:
 ```csharp
@@ -78,7 +78,7 @@ SheetRender sr = new SheetRender(sheet, imgOptions);
 // Rendern Sie das Bild für das Blatt
 Bitmap bitmap = sr.ToImage(0);
 ```
- Der`SheetRender`Klasse hilft, das Arbeitsblatt in ein Bitmap-Bild umzuwandeln. Wir nennen`ToImage(0)` um die Nullseite (unser erstes Blatt) in eine Bitmap zu rendern.
+ Der`SheetRender` Klasse hilft, das Arbeitsblatt in ein Bitmap-Bild umzuwandeln. Wir nennen`ToImage(0)` um die Nullseite (unser erstes Blatt) in eine Bitmap zu rendern.
 ## Schritt 8: Speichern des Bildes
 Nach dem Rendern müssen wir das Bild im angegebenen Verzeichnis speichern:
 ```csharp
@@ -99,7 +99,7 @@ Und da haben Sie es! In nur wenigen einfachen Schritten haben Sie gelernt, wie S
 ### Was ist Aspose.Cells?
 Aspose.Cells ist eine .NET-Bibliothek, die es Entwicklern ermöglicht, Excel-Dateien programmgesteuert zu erstellen, zu bearbeiten, zu konvertieren und zu verarbeiten.
 ### Kann ich Aspose.Cells kostenlos nutzen?
- Ja, Sie können Aspose.Cells verwenden, indem Sie eine kostenlose Testversion von deren[Webseite](https://releases.aspose.com/).
+Ja, Sie können Aspose.Cells verwenden, indem Sie eine kostenlose Testversion von deren[Webseite](https://releases.aspose.com/).
 ### Welche Bildformate unterstützt Aspose.Cells für den Export?
 Aspose.Cells unterstützt verschiedene Bildformate, darunter JPEG, PNG, BMP und GIF.
 ### Wo finde ich zusätzliche Unterstützung für Aspose.Cells?

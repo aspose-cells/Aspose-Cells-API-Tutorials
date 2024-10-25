@@ -60,7 +60,7 @@ S připraveným sešitem je čas přidat některé vlastní vlastnosti typu obsa
 int index = workbook.ContentTypeProperties.Add("MK31", "Simple Data");
 ```
 
- V tomto kroku jsme přidali vlastnost s názvem „MK31“ s hodnotou „Simple Data“. The`Add` metoda vrací index nově přidané vlastnosti, kterou můžeme později použít.
+ V tomto kroku jsme přidali vlastnost s názvem „MK31“ s hodnotou „Simple Data“. The`Add`metoda vrací index nově přidané vlastnosti, kterou můžeme později použít.
 
 ### Nastavit neillable vlastnost
 
@@ -79,7 +79,7 @@ index = workbook.ContentTypeProperties.Add("MK32", DateTime.Now.ToString("yyyy-M
 workbook.ContentTypeProperties[index].IsNillable = true;
 ```
 
- tomto úryvku vytvoříme vlastnost s názvem „MK32“ s aktuálním datem a časem ve formátu podle normy ISO 8601. U této vlastnosti je možné nastavit hodnotu Null nastavením`IsNillable` na`true`.
+ V tomto úryvku vytvoříme vlastnost s názvem „MK32“ s aktuálním datem a časem ve formátu podle normy ISO 8601. U této vlastnosti je možné nastavit hodnotu Null nastavením`IsNillable` na`true`.
 
 ## Krok 4: Uložte sešit
 
@@ -89,7 +89,7 @@ Nyní, když jsme přidali naše vlastnosti typu obsahu, uložme sešit do výst
 workbook.Save(outputDir + "WorkingWithContentTypeProperties_out.xlsx");
 ```
 
-Tento řádek uloží sešit jako "WorkingWithContentTypeProperties_out.xlsx". Neváhejte upravit název souboru, pokud si přejete!
+Tento řádek uloží sešit jako "WorkingWithContentTypeProperties_out.xlsx". Pokud chcete, můžete změnit název souboru!
 
 ## Krok 5: Potvrďte úspěšné provedení
 
@@ -103,7 +103,7 @@ Tato zpráva se objeví na vaší konzoli po úspěšném dokončení všech př
 
 ## Závěr
 
-tady to máte! Úspěšně jste přidali vlastní vlastnosti typu obsahu do sešitu aplikace Excel pomocí Aspose.Cells for .NET. Podle tohoto podrobného průvodce jste se nejen naučili manipulovat se soubory Excel, ale také jste zlepšili jejich možnosti metadat. Tato dovednost je užitečná zejména pro aplikace, které potřebují vedle svých dat ukládat další kontext nebo informace, díky čemuž jsou vaše sešity funkčnější a informativnější.
+A tady to máte! Úspěšně jste přidali vlastní vlastnosti typu obsahu do sešitu aplikace Excel pomocí Aspose.Cells for .NET. Podle tohoto podrobného průvodce jste se nejen naučili manipulovat se soubory Excel, ale také jste zlepšili jejich možnosti metadat. Tato dovednost je užitečná zejména pro aplikace, které potřebují vedle svých dat ukládat další kontext nebo informace, díky čemuž jsou vaše sešity funkčnější a informativnější.
 
 ## FAQ
 
@@ -120,4 +120,4 @@ Ano! Aspose.Cells podporuje různé formáty, včetně XLS, XLSX, CSV a dalšíc
 Absolutně! Do vlastností typu obsahu můžete přidávat složité objekty, pokud je lze správně serializovat.
 
 ### Kde najdu další dokumentaci?
- Podrobnější pokyny naleznete v[Dokumentace Aspose.Cells](https://reference.aspose.com/cells/net/).
+Podrobnější pokyny naleznete v[Dokumentace Aspose.Cells](https://reference.aspose.com/cells/net/).

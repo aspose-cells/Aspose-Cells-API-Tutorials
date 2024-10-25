@@ -38,7 +38,7 @@ Ecco una ripartizione dettagliata del codice che mostra come aggiungere archi a 
 Il primo passo è impostare una directory in cui salvare il file Excel. Questo aiuta a gestire facilmente i file di output.
 ```csharp
 string dataDir = "Your Document Directory";
-//Creare la directory se non è già presente.
+// Creare la directory se non è già presente.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -71,7 +71,7 @@ arc1.Line.Weight = 1;
 // Imposta lo stile del trattino dell'arco.
 arc1.Line.DashStyle = MsoLineDashStyle.Solid;
 ```
-In questa sezione, personalizziamo l'arco. Impostiamo il suo tipo di riempimento su colore pieno (blu in questo caso), definiamo come è posizionato, stabiliamo lo spessore della linea e scegliamo uno stile di tratteggio. In pratica, stiamo abbellendo il nostro arco per renderlo visivamente accattivante!
+In questa sezione, personalizziamo l'arco. Impostiamo il tipo di riempimento su colore pieno (blu in questo caso), definiamo come è posizionato, stabiliamo lo spessore della linea e scegliamo uno stile di tratteggio. In pratica, stiamo abbellendo il nostro arco per renderlo visivamente accattivante!
 ## Passaggio 5: aggiungere una seconda forma ad arco
 Aggiungiamo un'altra forma ad arco per fornire più contesto.
 ```csharp

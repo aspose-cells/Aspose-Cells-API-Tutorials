@@ -47,7 +47,7 @@ string sourceDir = "Your Document Directory"; // Establezca su directorio de doc
 //Directorio de salida
 string outputDir = "Your Document Directory"; // Establezca su directorio de salida
 ```
- Reemplazar`"Your Document Directory"` con la ruta real donde se encuentra`sampleRotateTextWithShapeInsideWorksheet.xlsx`donde se encuentra el archivo.
+ Reemplazar`"Your Document Directory"` con la ruta real donde se encuentra`sampleRotateTextWithShapeInsideWorksheet.xlsx` donde se encuentra el archivo.
 ## Paso 2: Cargue el archivo Excel de muestra
 Ahora, carguemos el archivo Excel de muestra. Esto es fundamental, ya que queremos manipular los datos existentes.
 ```csharp
@@ -91,7 +91,7 @@ wb.Save(outputDir + "outputRotateTextWithShapeInsideWorksheet.xlsx");
 ```
 ¡Y eso es todo! El archivo de salida ya está guardado, incluido el texto de la celda B4 y los ajustes realizados a la forma.
 ## Paso 8: Ejecutar el código
- En tu`Main`Método, envuelva todos los fragmentos de código anteriores y ejecute su proyecto. ¡Vea cómo se reflejan los cambios en su archivo de salida!
+ En tu`Main` Método, envuelva todos los fragmentos de código anteriores y ejecute su proyecto. ¡Vea cómo se reflejan los cambios en su archivo de salida!
 ```csharp
 Console.WriteLine("RotateTextWithShapeInsideWorksheet executed successfully.");
 ```
@@ -105,6 +105,6 @@ Aspose.Cells admite una variedad de formatos de Excel, incluidos XLS, XLSX, CSV 
 ### ¿Es posible rotar texto con formas en versiones anteriores de Excel?
 Sí, la funcionalidad se puede aplicar a formatos más antiguos compatibles con Aspose.Cells.
 ### ¿Dónde puedo encontrar más documentación sobre Aspose.Cells?
- Puede explorar la completa[documentación](https://reference.aspose.com/cells/net/)Para obtener más información.
+ Puede explorar la completa[documentación](https://reference.aspose.com/cells/net/) Para obtener más información.
 ### ¿Cómo puedo obtener soporte para Aspose.Cells?
  Puedes solicitar ayuda visitando el[Foro de Aspose](https://forum.aspose.com/c/cells/9).

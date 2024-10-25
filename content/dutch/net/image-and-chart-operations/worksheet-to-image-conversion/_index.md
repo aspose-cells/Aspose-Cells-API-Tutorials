@@ -12,7 +12,7 @@ Als het gaat om het manipuleren van Excel-bestanden in .NET, onderscheidt Aspose
 ## Vereisten
 Voordat we beginnen met de conversie, is het essentieel om ervoor te zorgen dat alles correct is ingesteld. Dit zijn de vereisten die u nodig hebt:
 1. Visual Studio: Zorg ervoor dat u Visual Studio op uw computer hebt geïnstalleerd. Het is de IDE die u helpt uw .NET-projecten soepel uit te voeren.
-2. Aspose.Cells voor .NET-bibliotheek: U moet deze bibliotheek aanschaffen. U kunt[download het hier](https://releases.aspose.com/cells/net/) of begin met een[gratis proefperiode](https://releases.aspose.com/).
+2.  Aspose.Cells voor .NET-bibliotheek: U moet deze bibliotheek aanschaffen. U kunt[download het hier](https://releases.aspose.com/cells/net/) of begin met een[gratis proefperiode](https://releases.aspose.com/).
 3. Basiskennis van C#: Kennis van C#-programmering is een pré, aangezien onze voorbeelden en uitleg in deze taal zijn geschreven.
 4.  Een voorbeeld van een Excel-bestand: Maak of download een Excel-bestand voor een demonstratie. Sla het op als`MyTestBook1.xls` in uw projectmap.
 5. Basiskennis van .NET-projecten: Als u weet hoe u een eenvoudig .NET-project kunt maken, wordt dit een stuk eenvoudiger. Maar maak u geen zorgen: wij leiden u door de stappen heen.
@@ -51,7 +51,7 @@ string dataDir = "Your Document Directory";
 // Open een Excel-sjabloonbestand.
 Workbook book = new Workbook(dataDir + "MyTestBook1.xls");
 ```
- In deze stap maken we een instantie van de`Workbook`class en geef het pad door naar ons Excel-bestand. Dit stelt ons in staat om programmatisch met de inhoud van het bestand te interacteren.
+ In deze stap maken we een instantie van de`Workbook` class en geef het pad door naar ons Excel-bestand. Dit stelt ons in staat om programmatisch met de inhoud van het bestand te interacteren.
 ## Stap 5: Toegang tot het werkblad
 Nu we de werkmap geopend hebben, gaan we naar het eerste werkblad:
 ```csharp
@@ -78,7 +78,7 @@ SheetRender sr = new SheetRender(sheet, imgOptions);
 // Render de afbeelding voor het blad
 Bitmap bitmap = sr.ToImage(0);
 ```
- De`SheetRender`klasse helpt het werkblad te renderen in een bitmapafbeelding. We noemen`ToImage(0)` om de nulde pagina (ons eerste blad) om te zetten in een bitmap.
+ De`SheetRender` klasse helpt het werkblad te renderen in een bitmapafbeelding. We noemen`ToImage(0)` om de nulde pagina (ons eerste blad) om te zetten in een bitmap.
 ## Stap 8: De afbeelding opslaan
 Na het renderen moeten we de afbeelding opslaan in de opgegeven directory:
 ```csharp
@@ -99,7 +99,7 @@ En daar heb je het! In slechts een paar eenvoudige stappen heb je geleerd hoe je
 ### Wat is Aspose.Cells?
 Aspose.Cells is een .NET-bibliotheek waarmee ontwikkelaars programmatisch Excel-bestanden kunnen maken, bewerken, converteren en verwerken.
 ### Kan ik Aspose.Cells gratis gebruiken?
- Ja, u kunt Aspose.Cells gaan gebruiken door een gratis proefversie te downloaden van hun website.[website](https://releases.aspose.com/).
+Ja, u kunt Aspose.Cells gaan gebruiken door een gratis proefversie te downloaden van hun website.[website](https://releases.aspose.com/).
 ### Welke afbeeldingsformaten ondersteunt Aspose.Cells voor export?
 Aspose.Cells ondersteunt verschillende afbeeldingsformaten, waaronder JPEG, PNG, BMP en GIF.
 ### Waar kan ik aanvullende ondersteuning voor Aspose.Cells vinden?

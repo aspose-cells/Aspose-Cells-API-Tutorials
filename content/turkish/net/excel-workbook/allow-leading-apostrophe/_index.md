@@ -16,7 +16,7 @@ Aspose.Cells for .NET'i kullanarak elektronik tabloları sorunsuz bir şekilde y
 Koda dalmadan önce, karşılamanız gereken birkaç ön koşul şunlardır:
 
 1. Temel .NET Bilgisi: .NET framework'üne aşinalık şarttır. Zaten C# veya VB.NET ile uğraşıyorsanız, kendinizi hazır sayın.
-2. Aspose.Cells for .NET Kütüphanesi: Aspose.Cells'in kurulu olması gerekir. Bunu NuGet paket yöneticisi aracılığıyla kolayca yapabilir veya şuradan indirebilirsiniz:[Aspose sitesi](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells for .NET Kütüphanesi: Aspose.Cells'in kurulu olması gerekir. Bunu NuGet paket yöneticisi aracılığıyla kolayca yapabilir veya şuradan indirebilirsiniz:[Aspose sitesi](https://releases.aspose.com/cells/net/).
 3. IDE Kurulumu: Kodlama için Visual Studio gibi Entegre Geliştirme Ortamınızın (IDE) hazır olduğundan emin olun.
 4. Örnek Excel Dosyası: Kodda çalışacağımız örnek dosyayı ("AllowLeadingApostropheSample.xlsx") kullanabilirsiniz.
 
@@ -56,7 +56,7 @@ string outputDir = "Your Output Directory";
 WorkbookDesigner designer = new WorkbookDesigner();
 ```
 
- The`WorkbookDesigner` çalışma kitabımızın tasarımını ve veri bağlamasını yönetir, verileri görsel formata dönüştürürken hayatımızı kolaylaştırır.
+ The`WorkbookDesigner`çalışma kitabımızın tasarımını ve veri bağlamasını yönetir, verileri görsel formata dönüştürürken hayatımızı kolaylaştırır.
 
 ## Adım 3: Mevcut Çalışma Kitabını Yükleyin
 
@@ -90,7 +90,7 @@ List<DataObject> list = new List<DataObject>
 };
 ```
 
- Bir liste oluşturuyoruz`DataObject`, isimlerden birinin kasıtlı olarak önde gelen bir kesme işareti içerdiği yer. Bu, Aspose.Cells'in bu tür senaryolarla nasıl başa çıktığını göstermeye yardımcı olacaktır.
+ Bir liste oluşturuyoruz`DataObject`isimlerden birinin kasıtlı olarak önde gelen bir kesme işareti içerdiği yer. Bu, Aspose.Cells'in bu tür senaryolarla nasıl başa çıktığını göstermeye yardımcı olacaktır.
 
 ## Adım 6: Veri Kaynağını Tasarımcıya Bağlayın
 
@@ -144,7 +144,7 @@ Artık raporlar oluşturuyor, veri analizi için işlevler oluşturuyor veya ver
 Aspose.Cells, Excel dosyalarını birden fazla formatta programlı olarak oluşturmak, düzenlemek ve dönüştürmek için güçlü bir .NET kütüphanesidir.
 
 ### Aspose.Cells'i ücretsiz kullanabilir miyim?
-Evet, ücretsiz denemeye kaydolarak Aspose.Cells'i kullanabilirsiniz[Burada](https://releases.aspose.com/).
+ Evet, ücretsiz denemeye kaydolarak Aspose.Cells'i kullanabilirsiniz[Burada](https://releases.aspose.com/).
 
 ### Aspose.Cells için nasıl destek alabilirim?
  Yardım alabilir ve soru sorabilirsiniz.[Aspose Destek Forumu](https://forum.aspose.com/c/cells/9).

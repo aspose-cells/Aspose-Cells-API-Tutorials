@@ -25,7 +25,7 @@ Commencez par créer un nouveau projet dans Visual Studio.
 4. Nommez votre projet et définissez un emplacement.
 ### Installer Aspose.Cells
 Vous devez ajouter la bibliothèque Aspose.Cells à votre projet. Voici comment procéder :
-1.  Ouvrez la console du gestionnaire de packages à partir de l'`Tools` menu, puis`NuGet Package Manager`.
+1.  Ouvrez la console du gestionnaire de packages à partir de`Tools` menu, puis`NuGet Package Manager`.
 2. Exécutez la commande suivante :
 ```
 Install-Package Aspose.Cells

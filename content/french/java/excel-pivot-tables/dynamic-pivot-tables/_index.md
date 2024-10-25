@@ -12,7 +12,7 @@ Les tableaux croisés dynamiques sont un outil puissant d'analyse de données, q
 
 ## Introduction aux tableaux croisés dynamiques
 
-Les tableaux croisés dynamiques sont des tableaux interactifs qui vous permettent de résumer et d'analyser les données d'une feuille de calcul. Ils offrent un moyen dynamique d'organiser et d'analyser les données, facilitant ainsi l'extraction d'informations et la prise de décisions éclairées.
+Les tableaux croisés dynamiques sont des tableaux interactifs qui vous permettent de résumer et d'analyser les données d'une feuille de calcul. Ils offrent un moyen dynamique d'organiser et d'analyser les données, facilitant ainsi l'obtention d'informations et la prise de décisions éclairées.
 
 ## Étape 1 : Importation de la bibliothèque Aspose.Cells
 

@@ -121,4 +121,4 @@ Evet, EPPlus ve ClosedXML gibi alternatif kütüphaneler var, ancak Aspose.Cells
 ### Aspose.Cells hakkında daha fazla dokümanı nerede bulabilirim?  
  Kontrol edebilirsiniz[Aspose.Cells belgeleri](https://reference.aspose.com/cells/net/) Ayrıntılı kılavuzlar ve API referansları için.
 ### Aspose.Cells için nasıl destek alabilirim?  
- Destek ve sorularınız için şu adresi ziyaret edin:[Aspose forumu](https://forum.aspose.com/c/cells/9)Topluluktan ve destek ekibinden yardım alabileceğiniz yer.
+ Destek ve sorularınız için şu adresi ziyaret edin:[Aspose forumu](https://forum.aspose.com/c/cells/9) Topluluktan ve destek ekibinden yardım alabileceğiniz yer.

@@ -60,7 +60,7 @@ Hãy nghĩ về worksheet như các tab riêng lẻ trong một tệp Excel nơi
 Bây giờ chúng ta đã có bảng tính, đã đến lúc tạo một phạm vi. Phạm vi là một khối ô, có thể trải dài trên nhiều hàng và cột.
 
 ```csharp
-// Tạo một phạm vi.
+//Tạo một phạm vi.
 Range mrange = worksheet1.Cells.CreateRange("D6", "I12");
 ```
 
@@ -133,7 +133,7 @@ flag.CellShading = true;
 range1.ApplyStyle(style, flag);
 ```
 
- Các`StyleFlag`cho Aspose.Cells biết thuộc tính kiểu nào cần áp dụng—căn chỉnh, đổ bóng, v.v. Điều này giúp bạn kiểm soát chi tiết cách áp dụng kiểu.
+ Các`StyleFlag` cho Aspose.Cells biết thuộc tính kiểu nào cần áp dụng—căn chỉnh, đổ bóng, v.v. Điều này giúp bạn kiểm soát chi tiết cách áp dụng kiểu.
 
 ## Bước 9: Nhập dữ liệu vào phạm vi đã hợp nhất
 

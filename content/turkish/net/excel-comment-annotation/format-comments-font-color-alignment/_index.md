@@ -37,7 +37,7 @@ Artık ortamımızı ayarladığımıza göre, Excel sayfasında yorum oluşturm
 ```csharp
 // Belgeler dizinine giden yol.
 string dataDir = "Your Document Directory";
-//Eğer mevcut değilse dizin oluşturun.
+// Eğer mevcut değilse dizin oluşturun.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);

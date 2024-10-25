@@ -9,11 +9,11 @@ url: /pl/net/unprotect-excel-sheet/unprotect-simple-excel-sheet/
 ---
 ## Wstęp
 
-Pliki Excela są podstawą w zarządzaniu danymi biznesowymi i osobistymi, umożliwiając użytkownikom wydajne organizowanie i analizowanie informacji. Jednak czasami napotykamy zablokowany arkusz Excela, co sprawia, że drapiemy się po głowie — zwłaszcza gdy zapomnimy hasła. Na szczęście biblioteka Aspose.Cells dla .NET oferuje świetne rozwiązanie, aby bez wysiłku odblokować proste arkusze Excela. W tym przewodniku przeprowadzimy Cię przez kroki potrzebne do odblokowania arkusza kalkulacyjnego Excela, zapisania pracy i powrotu do płynnego przetwarzania danych. Więc jeśli jesteś gotowy odzyskać kontrolę nad arkuszami kalkulacyjnymi, zaczynajmy!
+Pliki Excela są podstawą w zarządzaniu danymi biznesowymi i osobistymi, umożliwiając użytkownikom wydajne organizowanie i analizowanie informacji. Jednak czasami napotykamy zablokowany arkusz Excela, co sprawia, że drapiemy się po głowie — zwłaszcza gdy zapomnimy hasła. Na szczęście biblioteka Aspose.Cells dla .NET oferuje świetne rozwiązanie do bezproblemowego usuwania zabezpieczeń prostych arkuszy Excela. W tym przewodniku przeprowadzimy Cię przez kroki potrzebne do usunięcia zabezpieczeń arkusza kalkulacyjnego Excela, zapisania pracy i powrotu do płynnego przetwarzania danych. Więc jeśli jesteś gotowy odzyskać kontrolę nad arkuszami kalkulacyjnymi, zaczynajmy!
 
 ## Wymagania wstępne
 
-Zanim przejdziemy do samego procesu usuwania zabezpieczenia, musisz zadbać o kilka rzeczy:
+Zanim przejdziemy do właściwego procesu usuwania zabezpieczenia, jest kilka rzeczy, które musisz mieć na miejscu:
 
 1. Visual Studio: Upewnij się, że masz zainstalowany program Visual Studio do tworzenia oprogramowania .NET. To środowisko ułatwia bezproblemową pracę z bibliotekami Aspose.Cells.
 2.  Biblioteka Aspose.Cells: Musisz zainstalować bibliotekę Aspose.Cells. Możesz ją pobrać z[Tutaj](https://releases.aspose.com/cells/net/).
@@ -27,7 +27,7 @@ Teraz, gdy wszystko jest już gotowe, szybko skonfigurujmy nasze środowisko. Ab
 
 ### Konfigurowanie projektu
 
- Otwórz Visual Studio i utwórz nowy projekt C#. W`Solution Explorer` , kliknij prawym przyciskiem myszy na swój projekt i wybierz Dodaj nowy element.... Wybierz klasę C# i nadaj jej odpowiednią nazwę (na przykład,`ExcelUnprotector.cs`).
+ Otwórz Visual Studio i utwórz nowy projekt C#. W`Solution Explorer` , kliknij prawym przyciskiem myszy na swoim projekcie i wybierz Dodaj nowy element.... Wybierz klasę C# i nadaj jej odpowiednią nazwę (na przykład,`ExcelUnprotector.cs`).
 
 ### Instalowanie Aspose.Cells
 
@@ -62,7 +62,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY"; // Zmień to na swoją rzeczywistą 
 
 ## Krok 2: Tworzenie instancji obiektu skoroszytu
 
- Następnie musisz utworzyć instancję`Workbook` klasa, aby otworzyć plik Excel.
+ Następnie musisz utworzyć instancję`Workbook`klasa, aby otworzyć plik Excel.
 
 ```csharp
 Workbook workbook = new Workbook(dataDir + "book1.xls");

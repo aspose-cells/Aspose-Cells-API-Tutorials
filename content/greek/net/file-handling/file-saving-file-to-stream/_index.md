@@ -84,4 +84,4 @@ stream.Close();
 ### Πού μπορώ να ζητήσω υποστήριξη σχετικά με το Aspose.Cells;
  Μπορείτε να ζητήσετε βοήθεια από το[Aspose Support Forum](https://forum.aspose.com/c/cells/9).
 ### Πώς μπορώ να αποκτήσω μια προσωρινή άδεια για το Aspose.Cells;
- Μπορείτε να κάνετε αίτηση για α[προσωρινή άδεια](https://purchase.aspose.com/temporary-license/)εάν το χρειάζεστε για λόγους αξιολόγησης.
+ Μπορείτε να κάνετε αίτηση για α[προσωρινή άδεια](https://purchase.aspose.com/temporary-license/) εάν το χρειάζεστε για λόγους αξιολόγησης.

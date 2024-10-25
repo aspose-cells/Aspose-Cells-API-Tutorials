@@ -12,7 +12,7 @@ url: /es/net/saving-files-in-different-formats/save-file-in-ods-format/
 ## Prerrequisitos
 Antes de entrar en materia, asegurémonos de que tienes todo configurado correctamente:
 - .NET Framework: Asegúrate de tener instalado .NET Framework en tu equipo. Puedes utilizar cualquier versión compatible con Aspose.Cells para .NET.
-- Biblioteca Aspose.Cells: deberá descargar la biblioteca Aspose.Cells. Es una herramienta poderosa que le permite administrar archivos de Excel y más. Puede obtenerla desde[enlace de descarga](https://releases.aspose.com/cells/net/).
+-  Biblioteca Aspose.Cells: deberá descargar la biblioteca Aspose.Cells. Es una herramienta poderosa que le permite administrar archivos de Excel y más. Puede obtenerla desde[enlace de descarga](https://releases.aspose.com/cells/net/).
 - Entorno de desarrollo: Es esencial un entorno de desarrollo adecuado, como Visual Studio, donde puedes escribir y ejecutar tu código .NET.
 Ahora que cubrimos nuestros requisitos previos, importemos los paquetes necesarios.
 ## Importar paquetes

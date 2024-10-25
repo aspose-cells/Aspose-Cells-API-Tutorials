@@ -28,7 +28,7 @@ Az Aspose.Cells használatához importálnia kell a szükséges névtereket a pr
 
 ### Adja hozzá az Aspose.Cells Reference hivatkozást
 - Nyissa meg a Visual Studio projektet.
-- Kattintson a jobb gombbal a projektre a Solution Explorerben, és válassza a "NuGet-csomagok kezelése" lehetőséget.
+- Kattintson a jobb gombbal a projektre a Solution Explorerben, és válassza a „NuGet-csomagok kezelése” lehetőséget.
 - Keresse meg az "Aspose.Cells" kifejezést, és telepítse.
 
 ### Importálja a szükséges névtereket
@@ -111,7 +111,7 @@ Magyarázat: Itt elmentjük a munkafüzetet új néven (`RemoveSpecificPageBreak
 Ismételheti az oldaltöréseket egy ciklus segítségével, hogy kinyomtassa az indexeiket, vagy megvizsgálja őket a hibakeresőn keresztül.
 
 ### Van mód az eltávolított oldaltörések újbóli hozzáadására?  
- Sajnos, miután az oldaltörést a`RemoveAt` módszerrel, nem lehet visszaállítani azon a munkameneten belül. Kézzel kell újra létrehoznia.
+ Sajnos, miután az oldaltörést a`RemoveAt` módszerrel, nem lehet visszaállítani azon a munkameneten belül. Manuálisan kell újra létrehoznia.
 
 ### Alkalmazhatom ezt a módszert a munkafüzet más munkalapjaira?  
  Teljesen! Csak módosítsa az indexszámot`workbook.Worksheets[index]` hogy megcélozza a kívánt munkalapot.

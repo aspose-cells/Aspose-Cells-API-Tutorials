@@ -52,7 +52,7 @@ Nu när du har ställt in katalogen är det dags att ladda Excel-filen som inneh
 // Ladda Excel-filen som innehåller diagram
 Workbook workbook = new Workbook(dataDir + "Sample1.xls");
 ```
- Genom att göra detta skapar du en ny instans av`Workbook` och säger åt den att ladda din exempelfil i Excel. Se till att filnamnet och filtillägget matchar din faktiska fil.
+ Genom att göra detta skapar du en ny instans av`Workbook` och uppmanar den att ladda din exempelfil i Excel. Se till att filnamnet och filtillägget matchar din faktiska fil.
 ## Steg 3: Öppna det korrekta arbetsbladet
 Excel-filer kan ha flera ark, så du måste ange vilket du vill arbeta med. Här kommer vi åt det första arbetsbladet:
 ```csharp

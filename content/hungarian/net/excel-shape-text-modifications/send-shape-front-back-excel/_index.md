@@ -39,7 +39,7 @@ Most, hogy beállítottuk a könyvtárainkat, töltsük be a munkafüzetet (az E
 //Forrás Excel fájl betöltése
 Workbook wb = new Workbook(sourceDir + "sampleToFrontOrBack.xlsx");
 ```
- Ez a kódsor inicializál egy újat`Workbook`objektum, a megadott Excel fájl betöltése a memóriába, hogy dolgozhassunk vele.
+ Ez a kódsor inicializál egy újat`Workbook` objektum, a megadott Excel fájl betöltése a memóriába, hogy dolgozhassunk vele.
 ## 3. lépés: Nyissa meg a munkalapot 
 Ezután el kell érnünk azt a konkrét munkalapot, ahol az alakzataink vannak. Ebben a példában az első munkalapot fogjuk használni.
 ```csharp

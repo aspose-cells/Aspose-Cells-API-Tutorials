@@ -92,7 +92,7 @@ Jakmile přidáte konce stránek, dalším krokem je uložení aktualizovaného 
 ```csharp
 workbook.Save(dataDir + "AddingPageBreaks_out.xls");
 ```
- Zde ukládáte sešit do určeného adresáře s novým názvem souboru. Ujistěte se, že jste poskytli platnou příponu, jako je`.xls` nebo`.xlsx` na základě vašich potřeb. Je to jako stisknout tlačítko „Uložit“ pro váš dokument a zajistit, aby se žádná vaše práce neztratila!
+ Zde ukládáte sešit do určeného adresáře s novým názvem souboru. Ujistěte se, že jste poskytli platné rozšíření jako`.xls` nebo`.xlsx` na základě vašich potřeb. Je to jako stisknout tlačítko „Uložit“ pro váš dokument a zajistit, aby se žádná vaše práce neztratila!
 
 ## Závěr
 

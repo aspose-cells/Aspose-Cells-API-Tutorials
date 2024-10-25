@@ -32,7 +32,7 @@ using System.Drawing;
 
 Bontsuk fel a folyamatot kezelhető lépésekre, hogy könnyen követhessük.
 
-## 1. lépés: Határozza meg kimeneti könyvtárát
+## 1. lépés: Határozza meg a kimeneti könyvtárát
 
 Először is szüksége lesz egy helyre az újonnan létrehozott Excel-fájl mentésére. Határozza meg a kimeneti könyvtárat a kód tetején, így:
 

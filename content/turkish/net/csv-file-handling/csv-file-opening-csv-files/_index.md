@@ -14,7 +14,7 @@ CSV dosyalarını açmaya ve programlama kaslarımızı esnetmeye başlamadan ö
 ### C# ve .NET Framework'ün Temel Anlayışı
 Başlamak için C# ve .NET framework'ü iyi kavramanız gerekir. Sınıfları ve yöntemleri kapsamlı bir şekilde kullanacağımız için nesne yönelimli programlamanın temellerini anlamak önemlidir.
 ### Aspose.Cells Kütüphanesi
- Öncelikle Aspose.Cells kütüphanesine ihtiyacınız olacak. Excel dosyalarını düzenlemek ve çeşitli veri formatlarıyla sorunsuz bir şekilde çalışmak için bir .NET API'sidir.[kütüphaneyi indir](https://releases.aspose.com/cells/net/) veya projenizde NuGet üzerinden kurulum yapabilirsiniz.
+Öncelikle Aspose.Cells kütüphanesine ihtiyacınız olacak. Excel dosyalarını düzenlemek ve çeşitli veri formatlarıyla sorunsuz bir şekilde çalışmak için bir .NET API'sidir.[kütüphaneyi indir](https://releases.aspose.com/cells/net/) veya projenizde NuGet üzerinden kurulum yapabilirsiniz.
 ### IDE Kurulumu
 Ayrıca uygun bir geliştirme ortamına da ihtiyacınız olacak. Visual Studio, .NET uygulamalarınızı kodlamak, hata ayıklamak ve dağıtmak için kullanıcı dostu bir arayüz sağladığı için harika bir seçimdir.
 ### Uygulama için CSV Dosyası
@@ -42,9 +42,9 @@ LoadOptions loadOptions4 = new LoadOptions(LoadFormat.Csv);
 ```
  Burada,`LoadFormat.Csv` Aspose'a bir CSV dosyasıyla uğraştığımızı söyler. Bunu bir konuşma için doğru dili seçmek olarak düşünün; her iki tarafın birbirini mükemmel bir şekilde anlamasını sağlar.
 ## Adım 3: Bir Çalışma Kitabı Nesnesi Oluşturun
-Şimdi başlıyoruz! Bir tane yaratmanın zamanı geldi`Workbook` CSV dosyanızla ilgili tüm işlemleri gerçekleştireceğiniz ana çalışma alanınız olarak hizmet edecek nesne.
+ Şimdi başlıyoruz! Bir tane yaratmanın zamanı geldi`Workbook` CSV dosyanızla ilgili tüm işlemleri gerçekleştireceğiniz ana çalışma alanınız olarak hizmet edecek nesne.
 ```csharp
-// Bir Çalışma Kitabı nesnesi oluşturun ve dosyayı yolundan açın
+//Bir Çalışma Kitabı nesnesi oluşturun ve dosyayı yolundan açın
 Workbook wbCSV = new Workbook(dataDir + "Book_CSV.csv", loadOptions4);
 ```
  Bu satır, verilerinize giden kapıyı açmak gibidir.`Workbook` nesne hazır, CSV dosyanızın içindeki verileri düzenlemek için tam erişiminiz var. Bu, bir bilgi hazinesinin anahtarlarının size verilmesi gibi!

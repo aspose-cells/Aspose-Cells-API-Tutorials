@@ -82,9 +82,9 @@ Agora, você está pronto para modificar esta planilha!
 
 ## Etapa 4: Acesse o objeto Configuração de página
 
- Para alterar as margens, precisamos trabalhar com o`PageSetup`objeto. Este objeto fornece propriedades que controlam o layout da página, incluindo margens.
+ Para alterar as margens, precisamos trabalhar com o`PageSetup` objeto. Este objeto fornece propriedades que controlam o layout da página, incluindo margens.
 
- Pegue o`PageSetup` propriedade da planilha:
+Pegue o`PageSetup` propriedade da planilha:
 
 ```csharp
 PageSetup pageSetup = worksheet.PageSetup;

@@ -12,7 +12,7 @@ Trong thế giới am hiểu công nghệ ngày nay, xử lý các tệp Excel l
 ## Điều kiện tiên quyết
 Trước khi đi sâu vào chi tiết về việc trích xuất các đối tượng OLE, bạn phải chuẩn bị một số thứ sau:
 1. Kiến thức cơ bản về C#: Nếu bạn quen thuộc với C#, bạn đã đi đúng hướng rồi. Nếu không, đừng lo! Chúng tôi sẽ giải thích rõ ràng.
-2.  Aspose.Cells đã cài đặt: Bạn sẽ cần thư viện Aspose.Cells. Bạn có thể tải xuống từ trang web[đây](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells đã cài đặt: Bạn sẽ cần thư viện Aspose.Cells. Bạn có thể tải xuống từ trang web[đây](https://releases.aspose.com/cells/net/).
 3. Môi trường phát triển tương thích: Đảm bảo bạn đã thiết lập môi trường phát triển .NET, chẳng hạn như Visual Studio, sẵn sàng hoạt động.
 4. Tệp Excel mẫu: Bạn sẽ cần một tệp Excel có nhúng các đối tượng OLE để thử nghiệm. 
 Khi bạn đã có đủ những điều kiện tiên quyết này, chúng ta có thể bắt đầu hành trình khám phá thế giới trích xuất đối tượng OLE.
@@ -44,7 +44,7 @@ Bây giờ đến phần thú vị—lặp lại tất cả các đối tượng
 for (int i = 0; i < oles.Count; i++)
 {
     Aspose.Cells.Drawing.OleObject ole = oles[i];
-    //Logic tiếp theo để xử lý từng đối tượng
+    // Logic tiếp theo để xử lý từng đối tượng
 }
 ```
 ## Bước 5: Chỉ định tên tệp đầu ra

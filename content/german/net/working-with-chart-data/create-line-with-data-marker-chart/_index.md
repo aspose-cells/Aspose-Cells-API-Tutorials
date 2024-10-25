@@ -18,7 +18,7 @@ Bevor wir beginnen, stellen Sie sicher, dass Sie alles bereit haben, um nahtlos 
 1.  Aspose.Cells für .NET-Bibliothek – Sie müssen dies installieren. Sie können es herunterladen[Hier](https://releases.aspose.com/cells/net/).
 2. .NET Framework – Stellen Sie sicher, dass Ihre Entwicklungsumgebung mit der neuesten Version von .NET eingerichtet ist.
 3. IDE (Integrated Development Environment) – Visual Studio wird empfohlen.
-4.  Eine gültige Aspose.Cells-Lizenz – Wenn Sie keine haben, können Sie eine anfordern[vorläufige Lizenz](https://purchase.aspose.com/temporary-license/)oder schauen Sie sich ihre[Kostenlose Testversion](https://releases.aspose.com/).
+4.  Eine gültige Aspose.Cells-Lizenz – Wenn Sie keine haben, können Sie eine anfordern[vorläufige Lizenz](https://purchase.aspose.com/temporary-license/) oder schauen Sie sich ihre[Kostenlose Testversion](https://releases.aspose.com/).
 
 Bereit loszulegen? Dann lass es uns aufschlüsseln!
 

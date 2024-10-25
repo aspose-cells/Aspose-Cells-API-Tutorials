@@ -16,7 +16,7 @@ url: /ar/net/protect-excel-file/protect-cells-in-excel-worksheet/
 قبل الخوض في التفاصيل الدقيقة لحماية الخلايا، هناك بعض المتطلبات الأساسية التي يجب أن تكون موجودة لديك:
 
 1. Visual Studio: تأكد من تثبيت Visual Studio على جهاز الكمبيوتر الخاص بك. فهو بيئة التطوير المتكاملة الأساسية لتطوير .NET.
-2.  مكتبة Aspose.Cells: يجب أن تكون مكتبة Aspose.Cells متاحة في مشروعك. يمكنك تثبيتها بسهولة عبر NuGet Package Manager أو تنزيلها مباشرة من[موقع Aspose.Cells](https://releases.aspose.com/cells/net/).
+2. مكتبة Aspose.Cells: يجب أن تكون مكتبة Aspose.Cells متاحة في مشروعك. يمكنك تثبيتها بسهولة عبر NuGet Package Manager أو تنزيلها مباشرة من[موقع Aspose.Cells](https://releases.aspose.com/cells/net/).
 3. المعرفة الأساسية بلغة C#: إن معرفة القليل من لغة البرمجة C# سوف تساعدك على المتابعة بسلاسة.
 
 ## استيراد الحزم
@@ -52,7 +52,7 @@ using Aspose.Cells;
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // حدد مسار الدليل الخاص بك هنا
-//إنشاء الدليل إذا لم يكن موجودًا بالفعل.
+// إنشاء الدليل إذا لم يكن موجودًا بالفعل.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -88,7 +88,7 @@ Worksheet sheet = wb.Worksheets[0]; // الوصول إلى ورقة العمل �
 for (int i = 0; i <= 255; i++)
 {
     Style style = sheet.Cells.Columns[(byte)i].Style;
-    style.IsLocked = false; // فتح العمود
+    style.IsLocked = false; //فتح العمود
     StyleFlag styleflag = new StyleFlag();
     styleflag.Locked = true; // أشر إلى أننا نريد قفل هذا النمط
     sheet.Cells.Columns[(byte)i].ApplyStyle(style, styleflag);

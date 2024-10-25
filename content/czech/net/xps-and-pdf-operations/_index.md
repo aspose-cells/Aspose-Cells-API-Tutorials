@@ -2,7 +2,7 @@
 title: Operace XPS a PDF
 linktitle: Operace XPS a PDF
 second_title: Aspose.Cells .NET Excel Processing API
-description: Objevte komplexní výukové programy Aspose.Cells for .NET o operacích XPS a PDF, které zefektivní převod vašich souborů.
+description: Objevte komplexní výukové programy Aspose.Cells for .NET o operacích XPS a PDF pro zefektivnění převodů souborů.
 type: docs
 weight: 36
 url: /cs/net/xps-and-pdf-operations/
@@ -13,7 +13,7 @@ Pokud jde o práci se soubory aplikace Excel, Aspose.Cells for .NET je velmoc. V
 
 ## Převod souborů Excel do XPS
 
-Nejprve si promluvme o převodu souborů aplikace Excel do formátu XPS. Možná se ptáte: "Proč bych měl chtít převést na XPS?" XPS (XML Paper Specification) je formát s pevným dokumentem, který zachovává vzhled a dojem z vašich excelových tabulek a usnadňuje jejich sdílení bez ztráty formátování. Chcete to zkusit? Podívejte se na náš tutoriál na[Převod na XPS v .NET](./converting-to-xps/). Provede vás procesem krok za krokem a je vybaven praktickými příklady kódu. Zjistíte, že je to nejen jednoduché, ale také neuvěřitelně efektivní pro zachování věrnosti dokumentu.
+ Nejprve si promluvme o převodu souborů aplikace Excel do formátu XPS. Možná se ptáte: "Proč bych měl chtít převést na XPS?" XPS (XML Paper Specification) je formát s pevným dokumentem, který zachovává vzhled a dojem z vašich excelových tabulek a usnadňuje jejich sdílení bez ztráty formátování. Chcete to zkusit? Podívejte se na náš tutoriál na[Převod na XPS v .NET](./converting-to-xps/)Provede vás procesem krok za krokem a je vybaven praktickými příklady kódu. Zjistíte, že je to nejen jednoduché, ale také neuvěřitelně efektivní pro zachování věrnosti dokumentu.
 
 ## Nastavení času vytvoření PDF pro lepší správu
 

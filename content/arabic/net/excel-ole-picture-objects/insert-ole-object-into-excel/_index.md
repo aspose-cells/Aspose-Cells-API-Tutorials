@@ -35,7 +35,7 @@ string dataDir = "Your Document Directory";
 ## الخطوة 2: إنشاء الدليل إذا لم يكن موجودًا
 بعد ذلك، نريد التأكد من وجود هذا الدليل. إذا لم يكن موجودًا، فيتعين علينا إنشاؤه.
 ```csharp
-//إنشاء الدليل إذا لم يكن موجودًا بالفعل.
+// إنشاء الدليل إذا لم يكن موجودًا بالفعل.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -58,7 +58,7 @@ Worksheet sheet = workbook.Worksheets[0];
 ## الخطوة 5: تحديد المسار للصورة
 الآن، دعنا نحدد المسار للصورة التي تريد تضمينها في ملف Excel الخاص بك.
 ```csharp
-// قم بتعريف متغير سلسلة لتخزين مسار الصورة.
+//قم بتعريف متغير سلسلة لتخزين مسار الصورة.
 string ImageUrl = dataDir + "logo.jpg";
 ```
  تأكد من أن هذا المسار يعكس بشكل صحيح المكان الذي توجد فيه`logo.jpg` تم تخزين الملف.
@@ -87,7 +87,7 @@ string path = dataDir + "book1.xls";
 ```csharp
 // احصل على الملف في التدفقات.
 fs = File.OpenRead(path);
-// تعريف مجموعة من البايتات.
+//تعريف مجموعة من البايتات.
 byte[] objectData = new Byte[fs.Length];
 // قم بتخزين الملف من التدفقات.
 fs.Read(objectData, 0, objectData.Length);

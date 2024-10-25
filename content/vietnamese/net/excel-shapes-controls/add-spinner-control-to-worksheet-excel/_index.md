@@ -29,7 +29,7 @@ Trước khi bắt đầu viết mã, bạn nên sắp xếp các tệp của m�
 ```csharp
 // Đường dẫn đến thư mục tài liệu.
 string dataDir = "Your Document Directory";
-//Tạo thư mục nếu thư mục đó chưa có.
+// Tạo thư mục nếu thư mục đó chưa có.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -41,7 +41,7 @@ Bây giờ là lúc tạo một bảng tính Excel để thêm điều khiển S
 // Tạo một Workbook mới.
 Workbook excelbook = new Workbook();
 ```
- Các`Workbook`lớp biểu diễn một tệp Excel. Bằng cách khởi tạo nó, chúng ta tạo một sổ làm việc mới sẵn sàng để sửa đổi.
+ Các`Workbook` lớp biểu diễn một tệp Excel. Bằng cách khởi tạo nó, chúng ta tạo một sổ làm việc mới sẵn sàng để sửa đổi.
 ## Bước 3: Truy cập vào trang tính đầu tiên
 Chúng ta sẽ thêm Spinner vào trang tính đầu tiên trong sổ làm việc.
 ```csharp
@@ -117,6 +117,6 @@ Có, bạn có thể thay đổi kích thước, vị trí và thậm chí cả 
 ### Tôi có cần giấy phép để sử dụng Aspose.Cells không?
  Aspose.Cells cung cấp bản dùng thử miễn phí, nhưng cần phải có giấy phép trả phí để sử dụng sản xuất. Kiểm tra[mua tùy chọn](https://purchase.aspose.com/buy).
 ### Tôi có thể nhận trợ giúp về Aspose.Cells như thế nào?
- Để được hỗ trợ, hãy truy cập[Diễn đàn Aspose](https://forum.aspose.com/c/cells/9)nơi bạn có thể đặt câu hỏi và tìm câu trả lời.
+ Để được hỗ trợ, hãy truy cập[Diễn đàn Aspose](https://forum.aspose.com/c/cells/9) nơi bạn có thể đặt câu hỏi và tìm câu trả lời.
 ### Có thể thêm nhiều Spinner vào cùng một bảng tính không?
 Chắc chắn rồi! Bạn có thể thêm bao nhiêu Spinner tùy thích bằng cách làm theo các bước tương tự cho mỗi điều khiển.

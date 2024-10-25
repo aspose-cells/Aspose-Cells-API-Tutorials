@@ -76,7 +76,7 @@ Félicitations ! Vous avez appris à exporter des données au format CSV à l'a
     Oui, vous pouvez personnaliser le caractère séparateur en modifiant le`options.setSeparator(',')` ligne dans le code. Remplacer`','` avec le séparateur souhaité.
 
 ### 2. Aspose.Cells est-il adapté aux grands ensembles de données ?
-   Oui, Aspose.Cells peut gérer efficacement de grands ensembles de données et offre diverses options d'optimisation.
+   Oui, Aspose.Cells peut gérer efficacement de grands ensembles de données et fournit diverses options d'optimisation.
 
 ### 3. Puis-je exporter des cellules de feuille de calcul spécifiques au format CSV ?
    Absolument, vous pouvez définir une plage de cellules à exporter en manipulant les données de la feuille de calcul avant de l'enregistrer.

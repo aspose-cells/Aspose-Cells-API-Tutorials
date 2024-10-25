@@ -35,13 +35,13 @@ Teraz, gdy zaimportowaliśmy już wszystko, czego potrzebowaliśmy, możemy prze
 
 ## Krok 1: Skonfiguruj katalog dokumentów
 
-W przypadku wszelkich operacji na plikach kluczowe jest określenie lokalizacji, w której będą zapisywane nasze dokumenty. Skonfigurujmy nasz katalog roboczy do przechowywania plików Excel.
+przypadku wszelkich operacji na plikach kluczowe jest określenie lokalizacji, w której będą zapisywane nasze dokumenty. Skonfigurujmy nasz katalog roboczy do przechowywania plików Excel.
 
 ```csharp
 // Ścieżka do katalogu dokumentów.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
-//Utwórz katalog, jeśli jeszcze go nie ma.
+// Utwórz katalog, jeśli jeszcze go nie ma.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);

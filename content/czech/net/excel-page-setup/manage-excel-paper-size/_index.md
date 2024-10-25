@@ -38,7 +38,7 @@ Začněte vytvořením nového projektu C# v sadě Visual Studio.
 
 ### Importujte požadované jmenné prostory
 
-horní části souboru C# importujte následující jmenné prostory:
+V horní části souboru C# importujte následující jmenné prostory:
 
 ```csharp
 using System.IO;
@@ -106,7 +106,7 @@ Správa velikostí papíru v listech aplikace Excel se s Aspose.Cells pro .NET s
 
 ## FAQ
 
-### Jaké různé velikosti papíru lze nastavit pomocí Aspose.Cells?
+### Jaké různé velikosti papíru mohu nastavit pomocí Aspose.Cells?
  Aspose.Cells podporuje různé velikosti papíru, včetně A3, A4, A5, Letter a dalších. Můžete prozkoumat`PaperSizeType` výčet v dokumentaci.
 
 ### Mohu nastavit velikost papíru pro více listů najednou?

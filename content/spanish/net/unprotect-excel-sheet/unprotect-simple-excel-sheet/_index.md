@@ -62,7 +62,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY"; // Cambie esto a su ruta actual
 
 ## Paso 2: Creación de una instancia del objeto de libro de trabajo
 
- A continuación, debe crear una instancia del`Workbook` clase para abrir su archivo de Excel.
+ A continuación, debe crear una instancia del`Workbook`clase para abrir su archivo de Excel.
 
 ```csharp
 Workbook workbook = new Workbook(dataDir + "book1.xls");

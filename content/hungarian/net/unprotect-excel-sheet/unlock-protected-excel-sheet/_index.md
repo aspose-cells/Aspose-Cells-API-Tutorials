@@ -42,7 +42,7 @@ using System;
 using Aspose.Cells;
 ```
 
-Ha egy védett Excel-lap feloldásáról van szó az Aspose.Cells for .NET használatával, a lépések egyszerűek. Minden lépést világosan lebontunk, és végigvezetjük a folyamaton.
+A védett Excel munkalapok Aspose.Cells for .NET használatával történő feloldása esetén a lépések egyszerűek. Minden lépést világosan lebontunk, és végigvezetjük a folyamaton.
 
 ## 1. lépés: Állítsa be a fájl elérési útját
 
@@ -87,7 +87,7 @@ Ha a munkalap nincs védve, el kell mentenie az elvégzett módosításokat. Ez 
 ```csharp
 workbook.Save(dataDir + "output.out.xls");
 ```
- Itt menti a módosításokat egy új fájlba, amelynek neve „output.out.xls”, ugyanabban a könyvtárban. Tetszés szerint átnevezheti, de ügyeljen arra, hogy karbantartsa a`.xls`kiterjesztése, hogy Excel-fájlként felismerhető legyen.
+ Itt menti a módosításokat egy új fájlba, amelynek neve „output.out.xls”, ugyanabban a könyvtárban. Tetszés szerint átnevezheti, de ügyeljen arra, hogy karbantartsa a`.xls` kiterjesztése, hogy Excel-fájlként felismerhető legyen.
 
 ## 6. lépés: Hibakezelés
 
@@ -116,7 +116,7 @@ catch(Exception ex)
 Igen! A munkafüzet minden egyes lapját végignézheti, és hasonló módon eltávolíthatja a védelmüket.
 
 ### Az Aspose.Cells ingyenesen használható?
-Az Aspose.Cells ingyenes próbaverziót kínál, de az éles használathoz licenc szükséges. Ellenőrizze az övéket[vásárlás](https://purchase.aspose.com/buy) oldalon további információkért.
+ Az Aspose.Cells ingyenes próbaverziót kínál, de az éles használathoz licenc szükséges. Ellenőrizze az övéket[vásárlás](https://purchase.aspose.com/buy) oldalon további információkért.
 
 ### Mi van, ha nem tudom a jelszót?
 Ha egy lap jelszóval védett, és nincs meg a jelszó, a könyvtár nem segít megkerülni a korlátozásokat, mivel ez ellentétes az etikai irányelvekkel.

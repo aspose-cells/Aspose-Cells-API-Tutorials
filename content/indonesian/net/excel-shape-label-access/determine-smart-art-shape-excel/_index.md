@@ -13,7 +13,7 @@ Dalam tutorial ini, kami akan memandu Anda melalui langkah-langkah yang diperluk
 ## Prasyarat
 Sebelum kita menyelami detail teknisnya, mari kita bahas apa saja yang harus Anda siapkan untuk mengikuti tutorial ini:
 1. Visual Studio: Di sinilah kita akan menulis kode. Pastikan Anda memiliki versi yang kompatibel dengan .NET Framework atau .NET Core.
-2. Aspose.Cells untuk .NET: Anda perlu menginstal pustaka ini. Anda dapat mengunduhnya dari[Situs web Aspose](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells untuk .NET: Anda perlu menginstal pustaka ini. Anda dapat mengunduhnya dari[Situs web Aspose](https://releases.aspose.com/cells/net/).
 3. Pengetahuan Pemrograman Dasar: Keakraban dengan C# dan pemahaman konsep seperti kelas dan metode akan membuat proses ini lebih lancar.
 4. Contoh Berkas Excel: Anda juga memerlukan contoh berkas Excel yang berisi bentuk dan Smart Art untuk pengujian.
 Jika prasyarat ini terpenuhi, Anda siap untuk masuk ke kode!
@@ -46,7 +46,7 @@ Hal pertama yang paling utama, Anda ingin menentukan lokasi berkas Excel Anda.
 // Direktori sumber
 string sourceDir = "Your Document Directory";
 ```
- Mengganti`"Your Document Directory"` dengan jalur dimana Anda`sampleSmartArtShape.xlsx` file berada. Di sinilah aplikasi akan mencari file Excel yang berisi bentuk yang ingin Anda periksa.
+ Mengganti`"Your Document Directory"` dengan jalur dimana Anda`sampleSmartArtShape.xlsx`file berada. Di sinilah aplikasi akan mencari file Excel yang berisi bentuk yang ingin Anda periksa.
 ## Langkah 2: Muat Buku Kerja Excel
  Selanjutnya, kita akan memuat file Excel ke Aspose.Cells`Workbook` kelas.
 ```csharp
@@ -60,7 +60,7 @@ Setelah memuat buku kerja, kita perlu mengakses lembar kerja spesifik yang beris
 // Akses lembar kerja pertama
 Worksheet ws = wb.Worksheets[0];
 ```
- File Excel dapat berisi beberapa lembar kerja. Dengan mengindeks dengan`[0]`kita mengakses lembar kerja pertama dalam buku kerja kita. 
+ File Excel dapat berisi beberapa lembar kerja. Dengan mengindeks dengan`[0]`, kita mengakses lembar kerja pertama dalam buku kerja kita. 
 ## Langkah 4: Akses Bentuknya
 Sekarang kita akan mengambil bentuk spesifik yang ingin kita periksa.
 ```csharp
@@ -83,7 +83,7 @@ Smart Art adalah fitur di Excel yang memungkinkan pengguna membuat grafik menari
 ### Bisakah saya memodifikasi bentuk Smart Art menggunakan Aspose.Cells?
 Ya, Anda dapat memanipulasi bentuk Smart Art secara terprogram, termasuk mengubah gaya dan detail.
 ### Apakah Aspose.Cells gratis untuk digunakan?
- Meskipun ada versi uji coba yang tersedia, Aspose.Cells adalah pustaka berbayar. Anda dapat membeli versi lengkapnya[Di Sini](https://purchase.aspose.com/buy).
+Meskipun ada versi uji coba yang tersedia, Aspose.Cells adalah pustaka berbayar. Anda dapat membeli versi lengkapnya[Di Sini](https://purchase.aspose.com/buy).
 ### Bagaimana saya bisa mendapatkan dukungan jika saya mengalami masalah?
  Anda dapat menghubungi kami untuk meminta bantuan di[Forum Dukungan Aspose](https://forum.aspose.com/c/cells/9).
 ### Di mana saya dapat menemukan dokumentasi lebih lanjut untuk Aspose.Cells?

@@ -21,7 +21,7 @@ Fedezze fel átfogó Aspose.Cells for .NET Tutorials gyűjteményünket! Akár k
 
 ## Írjon Védelem személyes érintéssel  
 
- munkafüzet érzékeny információkat tartalmazhat, és teljesen ésszerű írásvédelmet tenni. De miért ne adna hozzá egy személyes vonást? Oktatóanyagunk arról, hogyan kell[Írás közben adja meg a szerzőt Az Excel munkafüzet védelme](./specify-author-while-write-protecting-excel-workbook/) végigvezeti Önt a munkafüzet konfigurálásán, hogy az írásvédelem alkalmazásakor szerepeljen a szerző neve. Tekintsd ezt úgy, mintha aláírnád a műalkotásodat, mielőtt bemutatnád azt – biztos akarsz lenni abban, hogy a tulajdonjogod egyértelmű. Ez az útmutató gondoskodik arról, hogy munkafüzete ne csak biztonságos legyen, hanem tükrözze alkotói identitását is!
+ munkafüzet érzékeny információkat tartalmazhat, és teljesen ésszerű írásvédelmet tenni. De miért ne adjunk hozzá személyességet? Oktatóanyagunk arról, hogyan kell[Írás közben adja meg a szerzőt Az Excel munkafüzet védelme](./specify-author-while-write-protecting-excel-workbook/) végigvezeti Önt a munkafüzet konfigurálásán, hogy az írásvédelem alkalmazásakor szerepeljen a szerző neve. Tekintsd ezt úgy, mintha aláírnád a műalkotásodat, mielőtt bemutatnád azt – biztos akarsz lenni abban, hogy a tulajdonjogod egyértelmű. Ez az útmutató gondoskodik arról, hogy munkafüzete ne csak biztonságos legyen, hanem tükrözze alkotói identitását is!
 
 ## Következtetés 
 

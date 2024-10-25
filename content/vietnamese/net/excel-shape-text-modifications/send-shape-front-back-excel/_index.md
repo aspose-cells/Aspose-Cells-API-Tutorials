@@ -39,7 +39,7 @@ Bây giờ chúng ta đã thiết lập xong các thư mục, hãy tải bảng 
 //Tải tệp Excel nguồn
 Workbook wb = new Workbook(sourceDir + "sampleToFrontOrBack.xlsx");
 ```
- Dòng mã này khởi tạo một cái mới`Workbook`đối tượng, tải tệp Excel đã chỉ định vào bộ nhớ để chúng ta có thể làm việc với nó.
+ Dòng mã này khởi tạo một cái mới`Workbook` đối tượng, tải tệp Excel đã chỉ định vào bộ nhớ để chúng ta có thể làm việc với nó.
 ## Bước 3: Truy cập vào Bảng tính 
 Tiếp theo, chúng ta cần truy cập vào worksheet cụ thể nơi chứa các hình dạng của chúng ta. Đối với ví dụ này, chúng ta sẽ sử dụng worksheet đầu tiên.
 ```csharp

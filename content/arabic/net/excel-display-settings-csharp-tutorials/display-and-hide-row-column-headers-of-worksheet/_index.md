@@ -53,7 +53,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
 
-هنا نحدد أننا نريد فتح`book1.xls` يقع في الدليل المحدد.`FileMode.Open` تشير المعلمة إلى أننا نقوم بفتح ملف موجود. تأكد دائمًا من أن اسم الملف يتطابق مع ما لديك.
+ هنا نحدد أننا نريد فتح`book1.xls` يقع في الدليل المحدد.`FileMode.Open` تشير المعلمة إلى أننا نقوم بفتح ملف موجود. تأكد دائمًا من أن اسم الملف يتطابق مع ما لديك.
 
 ## الخطوة 3: إنشاء مثيل لكائن مصنف
 
@@ -83,7 +83,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 worksheet.IsRowColumnHeadersVisible = false;
 ```
 
- جلسة`IsRowColumnHeadersVisible` ل`false`سيؤدي ذلك إلى إخفاء الرؤوس في كل من الصفوف والأعمدة بشكل فعال، مما يؤدي إلى إنشاء مظهر أكثر وضوحًا لعرض البيانات الخاص بك.
+ جلسة`IsRowColumnHeadersVisible` ل`false` سيؤدي ذلك إلى إخفاء الرؤوس في كل من الصفوف والأعمدة بشكل فعال، مما يؤدي إلى إنشاء مظهر أكثر وضوحًا لعرض البيانات الخاص بك.
 
 ## الخطوة 6: حفظ ملف Excel المعدّل
 

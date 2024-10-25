@@ -39,7 +39,7 @@ Agora que definimos nossos diretórios, vamos carregar a pasta de trabalho (o ar
 //Carregar arquivo Excel de origem
 Workbook wb = new Workbook(sourceDir + "sampleToFrontOrBack.xlsx");
 ```
- Esta linha de código inicializa um novo`Workbook`objeto, carregando o arquivo Excel especificado na memória para que possamos trabalhar com ele.
+ Esta linha de código inicializa um novo`Workbook` objeto, carregando o arquivo Excel especificado na memória para que possamos trabalhar com ele.
 ## Etapa 3: Acesse a planilha 
 Em seguida, precisamos acessar a planilha específica onde nossas formas residem. Para este exemplo, usaremos a primeira planilha.
 ```csharp
@@ -95,7 +95,7 @@ Por fim, vamos fornecer uma confirmação simples para nos informar que nossa ta
 ```csharp
 Console.WriteLine("SendShapeFrontOrBackInWorksheet executed successfully.\r\n");
 ```
-E isso conclui o código do nosso tutorial!
+isso conclui o código do nosso tutorial!
 ## Conclusão
 Manipular formas no Excel usando o Aspose.Cells para .NET não é apenas simples, mas também poderoso. Seguindo este guia, você agora deve ser capaz de enviar formas para a frente ou para trás com facilidade, permitindo melhor controle sobre suas apresentações do Excel. Com essas ferramentas à sua disposição, você está pronto para aprimorar o apelo visual de suas planilhas.
 ## Perguntas frequentes

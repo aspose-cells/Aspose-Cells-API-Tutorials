@@ -27,7 +27,7 @@ url: /zh-hant/java/spreadsheet-automation/
 使用 Aspose.Cells for Java 簡化您的電子表格任務。今天就開始吧！
 ## 電子表格自動化教程
 ### [Excel批次處理](./batch-excel-processing/)
-了解如何使用 Aspose.Cells for Java 簡化批次 Excel 處理任務。使用原始程式碼範例自動執行資料處理、轉換和操作。
+了解如何使用 Aspose.Cells for Java 簡化批次 Excel 處理任務。使用原始碼範例自動執行資料處理、轉換和操作。
 ### [自動資料輸入](./automated-data-entry/)
 了解如何使用 Aspose.Cells for Java 透過原始程式碼範例有效自動化資料輸入。提高資料處理的生產力和準確性。
 ### [動態 Excel 報告](./dynamic-excel-reports/)

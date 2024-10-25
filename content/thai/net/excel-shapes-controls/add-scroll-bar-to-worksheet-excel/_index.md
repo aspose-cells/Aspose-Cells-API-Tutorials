@@ -31,7 +31,7 @@ using System.Drawing;
 ```csharp
 // เส้นทางไปยังไดเร็กทอรีเอกสาร
 string dataDir = "Your Document Directory";
-//สร้างไดเร็กทอรีหากยังไม่มีอยู่
+// สร้างไดเร็กทอรีหากยังไม่มีอยู่
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -132,7 +132,7 @@ excelbook.Save(dataDir + "book1.out.xls");
 ### Aspose.Cells คืออะไร?
 Aspose.Cells เป็นไลบรารี .NET อันทรงพลังที่ช่วยให้นักพัฒนาสามารถสร้าง จัดการ และแปลงไฟล์ Excel ได้โดยการใช้โปรแกรม
 ### ฉันสามารถใช้ Aspose.Cells ได้ฟรีหรือไม่?
-ใช่ Aspose.Cells เสนอการทดลองใช้ฟรี ซึ่งคุณสามารถค้นหาได้[ที่นี่](https://releases.aspose.com/).
+ ใช่ Aspose.Cells เสนอการทดลองใช้ฟรี ซึ่งคุณสามารถค้นหาได้[ที่นี่](https://releases.aspose.com/).
 ### ฉันจะเพิ่มการควบคุมอื่น ๆ ลงในแผ่นงาน Excel ของฉันได้อย่างไร
 คุณสามารถใช้เมธอดที่คล้ายกันกับแถบเลื่อนได้ เพียงตรวจสอบเอกสารเพื่อดูการควบคุมเพิ่มเติม!
 ### ฉันสามารถใช้ภาษาการเขียนโปรแกรมอะไรได้บ้างกับ Aspose.Cells?

@@ -29,7 +29,7 @@ Avant d'écrire du code, vous devez ajouter une référence à la bibliothèque 
 ### Télécharger la DLL
 
 1.  Aller à la[Page de téléchargement d'Aspose](https://releases.aspose.com/cells/net/) et téléchargez le package approprié pour votre version .NET.
-2. Extrayez le fichier téléchargé et localisez le`Aspose.Cells.dll` déposer.
+2.  Extrayez le fichier téléchargé et localisez le`Aspose.Cells.dll` déposer.
 
 ### Ajouter une référence dans Visual Studio
 

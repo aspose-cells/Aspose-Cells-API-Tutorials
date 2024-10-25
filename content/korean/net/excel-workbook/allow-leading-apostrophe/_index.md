@@ -16,7 +16,7 @@ url: /ko/net/excel-workbook/allow-leading-apostrophe/
 코드를 살펴보기 전에 꼭 충족해야 할 몇 가지 전제 조건은 다음과 같습니다.
 
 1. .NET에 대한 기본 지식: .NET 프레임워크에 대한 지식이 필수적입니다. 이미 C# 또는 VB.NET을 다루고 있다면 준비가 되었다고 생각하세요.
-2. .NET 라이브러리용 Aspose.Cells: Aspose.Cells를 설치해야 합니다. NuGet 패키지 관리자를 통해 쉽게 이 작업을 수행하거나 다음에서 다운로드할 수 있습니다.[Aspose 사이트](https://releases.aspose.com/cells/net/).
+2.  .NET 라이브러리용 Aspose.Cells: Aspose.Cells를 설치해야 합니다. NuGet 패키지 관리자를 통해 쉽게 이 작업을 수행하거나 다음에서 다운로드할 수 있습니다.[Aspose 사이트](https://releases.aspose.com/cells/net/).
 3. IDE 설정: Visual Studio와 같은 통합 개발 환경(IDE)이 코딩에 필요한지 확인하세요.
 4. 샘플 Excel 파일: 코드에서 작업할 샘플 파일("AllowLeadingApostropheSample.xlsx")을 사용할 수 있습니다.
 
@@ -56,7 +56,7 @@ string outputDir = "Your Output Directory";
 WorkbookDesigner designer = new WorkbookDesigner();
 ```
 
- 그만큼`WorkbookDesigner` 통합 문서의 디자인과 데이터 바인딩을 관리하여 데이터를 시각적 형식으로 변환할 때 작업을 더욱 편리하게 해줍니다.
+ 그만큼`WorkbookDesigner`통합 문서의 디자인과 데이터 바인딩을 관리하여 데이터를 시각적 형식으로 변환할 때 작업을 더욱 편리하게 해줍니다.
 
 ## 3단계: 기존 통합 문서 로드
 
@@ -90,7 +90,7 @@ List<DataObject> list = new List<DataObject>
 };
 ```
 
- 우리는 목록을 만들고 있습니다`DataObject`, 이름 중 하나가 의도적으로 선행 아포스트로피를 포함하는 경우. 이는 Aspose.Cells가 이러한 시나리오를 처리하는 방법을 설명하는 데 도움이 됩니다.
+ 우리는 목록을 만들고 있습니다`DataObject`이름 중 하나가 의도적으로 선행 아포스트로피를 포함하는 경우. 이는 Aspose.Cells가 이러한 시나리오를 처리하는 방법을 설명하는 데 도움이 됩니다.
 
 ## 6단계: 데이터 소스를 디자이너에 바인딩
 
@@ -144,7 +144,7 @@ Console.WriteLine("AllowLeadingApostrophe executed successfully.");
 Aspose.Cells는 다양한 형식의 Excel 파일을 프로그래밍 방식으로 만들고, 조작하고, 변환하기 위한 강력한 .NET 라이브러리입니다.
 
 ### Aspose.Cells를 무료로 사용할 수 있나요?
-네, 무료 체험판에 가입하면 Aspose.Cells를 사용할 수 있습니다.[여기](https://releases.aspose.com/).
+ 네, 무료 체험판에 가입하면 Aspose.Cells를 사용할 수 있습니다.[여기](https://releases.aspose.com/).
 
 ### Aspose.Cells에 대한 지원은 어떻게 받을 수 있나요?
  도움말을 찾고 질문할 수 있습니다.[Aspose 지원 포럼](https://forum.aspose.com/c/cells/9).

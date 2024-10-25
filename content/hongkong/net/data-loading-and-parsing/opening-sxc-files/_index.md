@@ -9,7 +9,7 @@ url: /zh-hant/net/data-loading-and-parsing/opening-sxc-files/
 ---
 ## 介紹
 您是否希望使用 .NET 與 SXC 檔案進行互動？如果是這樣，那麼您來對地方了！在本教學中，我們將探討如何使用 Aspose.Cells for .NET 開啟和讀取 SXC (StarOffice Calc) 檔案。無論您是開發 .NET 應用程式的開發人員還是只是對處理電子表格檔案感到好奇，本指南都將引導您完成必要的步驟，使整個過程順利而簡單。 
-所以，拿起你的編碼帽，讓我們深入了解使用 Aspose.Cells 處理 SXC 檔案的世界！
+所以，拿起你的編碼帽子，讓我們深入了解使用 Aspose.Cells 處理 SXC 檔案的世界！
 ## 先決條件
 在我們開始之前，您需要做一些事情來確保您擁有正確的工具和知識：
 1. .NET Framework：對 .NET 架構和 C# 程式語言有基本的了解。

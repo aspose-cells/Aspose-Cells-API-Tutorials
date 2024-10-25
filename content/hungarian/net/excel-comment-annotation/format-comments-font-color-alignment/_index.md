@@ -14,7 +14,7 @@ Mielőtt belevágnánk a megjegyzések formázásába, néhány dologra szüksé
 1. Környezet beállítása: Győződjön meg arról, hogy telepítve van egy .NET fejlesztői környezet, lehetőleg a Visual Studio.
 2.  Aspose.Cells: Töltse le és telepítse az Aspose.Cells alkalmazást innen[itt](https://releases.aspose.com/cells/net/). Ez a könyvtár lehetővé teszi, hogy könnyedén kezelje az Excel fájlokat.
 3. Alapvető C#-ismeretek: Miközben végigvezetjük a kódon, a C# alapvető ismerete segít a dolgokon szükség szerint módosítani.
-4.  Aspose-licenc: Ha az Aspose.Cells-t hosszabb munkamenetekhez vagy élesben kívánja használni, fontolja meg egy licenc vásárlását[itt](https://purchase.aspose.com/buy) vagy ideiglenes licencet használjon[itt](https://purchase.aspose.com/temporary-license/).
+4.  Aspose-licenc: Ha az Aspose.Cells-t hosszabb munkamenetekhez vagy élesben kívánja használni, fontolja meg egy licenc megvásárlását[itt](https://purchase.aspose.com/buy) vagy ideiglenes licencet használjon[itt](https://purchase.aspose.com/temporary-license/).
 ## Csomagok importálása
 Az Aspose.Cells használatának megkezdéséhez importálnia kell a szükséges névtereket a projektbe. A következőképpen teheti meg:
 ### Hozzon létre egy új projektet
@@ -37,7 +37,7 @@ munkafüzet létrehozásának megkezdése előtt meg kell határoznia, hogy a f�
 ```csharp
 // A dokumentumok könyvtárának elérési útja.
 string dataDir = "Your Document Directory";
-//Hozzon létre könyvtárat, ha még nincs jelen.
+// Hozzon létre könyvtárat, ha még nincs jelen.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);

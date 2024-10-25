@@ -36,7 +36,7 @@ We beginnen met het definiëren van het pad voor onze documentdirectory en zorge
 ```csharp
 // Definieer de map waarin de afbeeldingen moeten worden opgeslagen
 string dataDir = "Your Document Directory";
-// Controleer of de directory bestaat
+//Controleer of de directory bestaat
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -93,7 +93,7 @@ chart.NSeries.Add("A1:B3", true);
 ## Stap 7: Converteer de grafiek naar een afbeelding
 Het moment van de waarheid: we gaan deze grafiek omzetten in een afbeeldingsbestand!
 
- Hier gebruiken we de`ToImage`methode om de grafiek om te zetten in een afbeeldingsformaat naar keuze. In dit geval zetten we het om naar een EMF (Enhanced Metafile) formaat.
+ Hier gebruiken we de`ToImage` methode om de grafiek om te zetten in een afbeeldingsformaat naar keuze. In dit geval zetten we het om naar een EMF (Enhanced Metafile) formaat.
 ```csharp
 // Converteer de grafiek naar een afbeelding en sla deze op in de map
 chart.ToImage(dataDir + "Chart.emf", ImageFormat.Emf);

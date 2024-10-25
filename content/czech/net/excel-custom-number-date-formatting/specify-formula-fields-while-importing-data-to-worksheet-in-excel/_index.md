@@ -160,7 +160,7 @@ To vám dává okamžitou zpětnou vazbu, že kód fungoval bez problémů.
 
 ## Závěr
 
-A tady to máte! Úspěšně jste importovali data do listu aplikace Excel pomocí Aspose.Cells for .NET a zadaných polí vzorců. Podle těchto kroků můžete použít podobné techniky k automatizaci úloh zpracování dat přizpůsobených vašim potřebám. Ať už zpracováváte čísla pro sestavy nebo jednoduše udržujete data, zvládnutí umění manipulace s Excelem s Aspose je dovednost, kterou stojí za to mít.
+tady to máte! Úspěšně jste importovali data do listu aplikace Excel pomocí Aspose.Cells for .NET a zadaných polí vzorců. Podle těchto kroků můžete použít podobné techniky k automatizaci úloh zpracování dat přizpůsobených vašim potřebám. Ať už zpracováváte čísla pro sestavy nebo jednoduše udržujete data, zvládnutí umění manipulace s Excelem s Aspose je dovednost, kterou stojí za to mít.
 
 ## FAQ
 
@@ -177,5 +177,5 @@ Aspose.Cells je .NET knihovna určená pro vytváření, manipulaci a převod so
  Další příklady a dokumentaci naleznete na[Aspose dokumentační stránku](https://reference.aspose.com/cells/net/).
 
 ### Co když při používání Aspose narazím na problémy?
-Pomoc můžete vyhledat na fóru podpory Aspose[zde](https://forum.aspose.com/c/cells/9).
+ Pomoc můžete vyhledat na fóru podpory Aspose[zde](https://forum.aspose.com/c/cells/9).
  

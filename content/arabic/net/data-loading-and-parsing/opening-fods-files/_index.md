@@ -46,7 +46,7 @@ string sourceDir = "Your Document Directory";
 ```
  تأكد من الاستبدال`"YourFilePath\\"` مع المسار الذي يتم تخزين ملف FODS فيه.
 ## الخطوة 2: إنشاء كائن مصنف
- الآن، سوف تقوم بإنشاء`Workbook` الكائن الذي سيساعدنا في العمل مع ملف FODS. أضف الكود التالي في ملفك`Main` طريقة:
+ الآن، سوف تقوم بإنشاء`Workbook`الكائن الذي سيساعدنا في العمل مع ملف FODS. أضف الكود التالي في ملفك`Main` طريقة:
 ```csharp
 Workbook workbook = new Workbook(sourceDir + "SampleFods.fods");
 ```

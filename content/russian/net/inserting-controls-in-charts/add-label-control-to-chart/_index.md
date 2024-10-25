@@ -62,7 +62,7 @@ string outputDir = "Your Output Directory";
 Workbook workbook = new Workbook(sourceDir + "sampleAddingLabelControlInChart.xls");
 ```
 
- Здесь мы используем`Workbook`класс из Aspose.Cells для открытия нашего файла Excel. Это как отпереть дверь, чтобы дать волю творчеству!
+ Здесь мы используем`Workbook` класс из Aspose.Cells для открытия нашего файла Excel. Это как отпереть дверь, чтобы дать волю творчеству!
 
 ## Шаг 3: Доступ к рабочему листу
 
@@ -94,7 +94,7 @@ Aspose.Cells.Charts.Chart chart = sheet.Charts[0];
 Aspose.Cells.Drawing.Label label = chart.Shapes.AddLabelInChart(600, 600, 350, 900);
 ```
 
- Здесь,`AddLabelInChart`заботится о создании этикетки на основе указанных вами координат и размеров. Это как прикрепить красивую рамку вокруг вашего произведения искусства!
+ Здесь,`AddLabelInChart` заботится о создании этикетки на основе указанных вами координат и размеров. Это как прикрепить красивую рамку вокруг вашего произведения искусства!
 
 ## Шаг 6: Задайте текст метки
 

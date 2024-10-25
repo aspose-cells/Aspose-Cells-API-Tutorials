@@ -74,14 +74,14 @@ for (int i = 5; i < 1000; i++)
 ```
 Hier maken we de eerste werkmap en vullen we het eerste werkblad (`ws0`) met headers en detailrijen. Deze gesimuleerde gegevens helpen u het kopieerproces later te visualiseren.
 
-## Stap 3: Stel de pagina-instelling in voor het afdrukken
+## Stap 3: Pagina-instelling instellen voor afdrukken
 
 Laten we de pagina-instelling zo configureren dat koptekstrijen worden herhaald bij het afdrukken, zodat we deze functie in actie kunnen zien:
 
 ```csharp
-//Definieer een pagina-instellingsobject op basis van het eerste werkblad
+// Definieer een pagina-instellingsobject op basis van het eerste werkblad
 PageSetup pagesetup = ws0.PageSetup;
-// De eerste vijf rijen worden op elke pagina herhaald
+//De eerste vijf rijen worden op elke pagina herhaald
 pagesetup.PrintTitleRows = "$1:$5";
 ```
  Dit onderdeel definieert hoe uw document wordt afgedrukt. Door in te stellen`PrintTitleRows`zorgen we ervoor dat de eerste vijf rijen op elke afgedrukte pagina worden weergegeven, wat superhandig is voor de leesbaarheid.
@@ -109,7 +109,7 @@ Laten we de inhoud van het werkblad uit de eerste werkmap kopiëren naar de twee
 // eerste werkblad van het tweede werkboek
 ws1.Copy(ws0);
 ```
- De`Copy` methode neemt alle inhoud uit het bronwerkblad (`ws0`en dupliceert het in het doelwerkblad (`ws1`). Zo simpel toch?
+ De`Copy` methode neemt alle inhoud uit het bronwerkblad (`ws0`) en dupliceert het in het doelwerkblad (`ws1`). Zo simpel toch?
 
 ## Stap 6: Sla de nieuwe werkmap op
 

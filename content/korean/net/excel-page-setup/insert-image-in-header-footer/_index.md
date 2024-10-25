@@ -55,7 +55,7 @@ Workbook workbook = new Workbook();
 
 ## 3단계: 이미지 경로 정의
 
- 이제 사용하고 싶은 이미지 경로를 보관할 문자열 변수를 만들 차례입니다. 우리의 경우 다음을 사용합니다.`aspose-logo.jpg`.
+이제 사용하고 싶은 이미지 경로를 보관할 문자열 변수를 만들 차례입니다. 우리의 경우 다음을 사용합니다.`aspose-logo.jpg`.
 
 ```csharp
 string logo_url = dataDir + "aspose-logo.jpg";

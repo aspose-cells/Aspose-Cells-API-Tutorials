@@ -108,7 +108,7 @@ Agora vem a mágica! Você pode definir o nível de zoom da planilha usando a se
 worksheet.Zoom = 75;
 ```
 
-fator de zoom pode ser ajustado em qualquer lugar de 10 a 400, permitindo que você amplie ou reduza de acordo com suas necessidades. Um fator de zoom de 75 significa que os usuários verão 75% do tamanho original, facilitando a visualização de dados sem rolagem excessiva.
+O fator de zoom pode ser ajustado em qualquer lugar de 10 a 400, permitindo que você amplie ou reduza de acordo com suas necessidades. Um fator de zoom de 75 significa que os usuários verão 75% do tamanho original, facilitando a visualização de dados sem rolagem excessiva.
 
 ## Etapa 6: Salve o arquivo Excel modificado
 

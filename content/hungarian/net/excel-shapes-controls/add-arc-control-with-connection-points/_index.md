@@ -29,7 +29,7 @@ Ezek a névterek hozzáférést biztosítanak az összes rajz- és cellakezelés
 Először is – hozzunk létre egy könyvtárat, ahová elmentheti a fényes új Excel-fájlokat. Így csináljuk:
 ```csharp
 string dataDir = "Your Document Directory";
-//Hozzon létre könyvtárat, ha még nincs jelen.
+// Hozzon létre könyvtárat, ha még nincs jelen.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -40,7 +40,7 @@ Most, hogy készen van a könyvtárunk, hozzunk létre egy új Excel-munkafüzet
 ```csharp
 Workbook excelbook = new Workbook();
 ```
- Felhívva a`Workbook` konstruktor, lényegében azt mondod: „Hé, indítsunk egy új Excel-fájlt!” Ez lesz a vászon az összes alakzathoz és adathoz.
+ Felhívva a`Workbook` konstruktor, akkor lényegében azt mondod: „Hé, indítsunk egy új Excel-fájlt!” Ez lesz a vászon az összes alakzathoz és adathoz.
 ## 3. lépés: Az első ív alakzat hozzáadása
 Itt kezdődik a móka! Adjuk hozzá az első ív alakzatunkat.
 ```csharp
@@ -105,5 +105,5 @@ Az Aspose.Cells egy hatékony .NET-könyvtár, amely lehetővé teszi a fejleszt
 Az Aspose.Cells.Drawing névtérben elérhető különböző osztályokat használhatja különféle alakzatok, például téglalapok, körök és egyebek hozzáadásához.
 ### Milyen típusú fájlokat hozhatok létre az Aspose.Cells segítségével?
 Különféle Excel-formátumokat hozhat létre és kezelhet, beleértve az XLS-t, az XLSX-et, a CSV-t stb.
-### Elérhető technikai támogatás az Aspose.Cells számára?
+### Rendelkezésre áll technikai támogatás az Aspose.Cells számára?
  Teljesen! Hozzáférhet a[Aspose támogatási fórum](https://forum.aspose.com/c/cells/9) segítségért.

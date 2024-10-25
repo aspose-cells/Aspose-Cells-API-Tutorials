@@ -59,7 +59,7 @@ string sourceDir = "Your Document Directory";
 Workbook workbook = new Workbook(sourceDir + "sampleApplyingThemesInChart.xlsx");
 ```
 
- Đảm bảo rằng`sampleApplyingThemesInChart.xlsx`có trong thư mục nguồn của bạn.
+ Đảm bảo rằng`sampleApplyingThemesInChart.xlsx` có trong thư mục nguồn của bạn.
 
 ## Bước 3: Truy cập vào Bảng tính
 
@@ -96,7 +96,7 @@ Dòng mã này đảm bảo rằng chuỗi đầu tiên trong biểu đồ đư�
 
 ## Bước 6: Cấu hình màu
 
- Bây giờ series của chúng ta đã sẵn sàng, chúng ta cần sửa đổi màu sắc của nó. Điều này liên quan đến việc tạo ra một`CellsColor`đối tượng và chỉ định màu chủ đề. Chúng tôi sẽ chọn một kiểu nhấn cho ví dụ này.
+ Bây giờ series của chúng ta đã sẵn sàng, chúng ta cần sửa đổi màu sắc của nó. Điều này liên quan đến việc tạo ra một`CellsColor` đối tượng và chỉ định màu chủ đề. Chúng tôi sẽ chọn một kiểu nhấn cho ví dụ này.
 
 ```csharp
 // Lấy CellsColor của SolidFill

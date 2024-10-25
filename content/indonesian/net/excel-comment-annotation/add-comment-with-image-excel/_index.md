@@ -37,12 +37,12 @@ Untuk memulai, kita perlu menyiapkan direktori tempat kita dapat menyimpan file 
 ```csharp
 // Jalur ke direktori dokumen.
 string dataDir = "Your Document Directory";
-//Buat direktori jika belum ada.
+// Buat direktori jika belum ada.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
--  dataDir: Variabel ini menyimpan jalur ke direktori dokumen Anda. Ganti`"Your Document Directory"` dengan jalur sebenarnya tempat Anda ingin menyimpan berkas Excel Anda.
+- dataDir: Variabel ini menyimpan jalur ke direktori dokumen Anda. Ganti`"Your Document Directory"` dengan jalur sebenarnya tempat Anda ingin menyimpan berkas Excel Anda.
 - Directory.Exists: Ini memeriksa apakah direktori sudah ada.
 - Directory.CreateDirectory: Jika direktori tidak ada, maka direktori tersebut akan dibuat.
 ## Langkah 2: Buat Instansiasi Buku Kerja
@@ -89,7 +89,7 @@ Sekarang kita perlu mengatur data gambar ke bentuk yang terkait dengan komentar 
 // Tetapkan data gambar ke bentuk yang terkait dengan komentar
 comment.CommentShape.Fill.ImageData = ms.ToArray();
 ```
--  comment.CommentShape.Fill.ImageData: Properti ini memungkinkan Anda untuk mengatur gambar untuk bentuk komentar. Kami mengonversi`MemoryStream` ke array byte menggunakan`ms.ToArray()`.
+- comment.CommentShape.Fill.ImageData: Properti ini memungkinkan Anda untuk mengatur gambar untuk bentuk komentar. Kami mengonversi`MemoryStream` ke array byte menggunakan`ms.ToArray()`.
 ## Langkah 7: Simpan Buku Kerja
 Terakhir, mari simpan buku kerja kita dengan komentar dan gambar yang disertakan.
 ```csharp

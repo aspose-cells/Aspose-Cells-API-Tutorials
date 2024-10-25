@@ -9,14 +9,14 @@ url: /ja/net/excel-data-alignment-formatting/change-cells-alignment-in-excel-wit
 ---
 ## 導入
 
-Excel ファイルの管理は、迷路を進むような感じがすることがあります。特に、セルの配置を変更するなどの重要な調整をしながら書式設定を維持する場合はそうです。Excel でセルの配置を微調整しようとして、書式設定が崩れてしまった経験がある人は、あなただけではありません。このチュートリアルでは、Aspose.Cells for .NET を使用して、書式設定を失うことなく Excel セルの配置を変更する方法について詳しく説明します。さあ、袖をまくって始めましょう。
+Excel ファイルの管理は、迷路を進むような感じがすることがあります。特に、セルの配置を変更するなどの重要な調整をしながら書式設定を維持する場合はそうです。Excel でセルの配置を微調整しようとして、書式設定が崩れてしまった経験がある人は、あなただけではありません。このチュートリアルでは、Aspose.Cells for .NET を使用して、書式設定を失うことなく Excel セルの配置を変更する方法について詳しく説明します。さあ、さっそく始めましょう。
 
 ## 前提条件
 
 実際のコーディングに入る前に、すべてが正しく設定されていることを確認することが重要です。必要なものは次のとおりです。
 
 1. Visual Studio: コンピューターに Visual Studio (.NET をサポートする任意のバージョン) がインストールされていることを確認します。
-2.  Aspose.Cells for .NET: Aspose.Cellsライブラリを以下からダウンロードしてインストールします。[Aspose のサイト](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells for .NET: Aspose.Cellsライブラリを以下からダウンロードしてインストールします。[Aspose のサイト](https://releases.aspose.com/cells/net/).
 3. C# の基礎知識: C# のコンテキスト内で作業するため、C# プログラミングに関する多少の知識が役立ちます。
 4. サンプルExcelファイル: デモンストレーション用にサンプルExcelファイルを用意します(例:`sampleChangeCellsAlignmentAndKeepExistingFormatting.xlsx`) には、いくつかの初期のセル書式設定が含まれています。
 
@@ -122,7 +122,7 @@ StyleFlag flag = new StyleFlag();
 flag.Alignments = true;
 ```
 
-設定することで`Alignments`StyleFlagのプロパティを`true`、Aspose.Cells に配置スタイルを適切に適用するように指示します。
+設定することで`Alignments` StyleFlagのプロパティを`true`、Aspose.Cells に配置スタイルを適切に適用するように指示します。
 
 ## ステップ7: セル範囲にスタイルを適用する
 

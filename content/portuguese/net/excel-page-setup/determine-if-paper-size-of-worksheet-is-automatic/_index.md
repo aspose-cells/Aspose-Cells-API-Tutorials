@@ -25,7 +25,7 @@ Embora o Aspose.Cells simplifique muitas tarefas, uma compreensão fundamental d
 Você deve ter um IDE como o Visual Studio configurado. Isso o guiará pelo manuseio e teste efetivo do seu código.
 
 ### Arquivos Excel de exemplo
-Você precisará de arquivos de amostra (`samplePageSetupIsAutomaticPaperSize-False.xlsx` e`samplePageSetupIsAutomaticPaperSize-True.xlsx`) para fins de teste. Certifique-se de que esses arquivos estejam no seu diretório de origem.
+Você precisará de arquivos de amostra (`samplePageSetupIsAutomaticPaperSize-False.xlsx` e`samplePageSetupIsAutomaticPaperSize-True.xlsx`para fins de teste. Certifique-se de que esses arquivos estejam no seu diretório de origem.
 
 ## Pacotes de importação
 

@@ -76,7 +76,7 @@ Workbook wb = new Workbook();
 //Condividi la cartella di lavoro
 wb.Settings.Shared = true;
 ```
- Collocamento`wb.Settings.Shared` A`true`indica che questo workbook è accessibile a più utenti contemporaneamente. È come consegnare le chiavi di casa tua agli amici: possono andare e venire a loro piacimento!
+ Collocamento`wb.Settings.Shared` A`true` indica che questo workbook è accessibile a più utenti contemporaneamente. È come consegnare le chiavi di casa tua agli amici: possono andare e venire a loro piacimento!
 
 ## Passaggio 4: salvare la cartella di lavoro condivisa
 

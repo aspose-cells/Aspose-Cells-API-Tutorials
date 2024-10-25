@@ -62,7 +62,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY"; // Bunu gerçek yolunuza değiştiri
 
 ## Adım 2: Çalışma Kitabı Nesnesini Örnekleme
 
- Daha sonra, bir örnek oluşturmanız gerekir`Workbook` Excel dosyanızı açmak için class'ı kullanın.
+ Daha sonra, bir örnek oluşturmanız gerekir`Workbook`Excel dosyanızı açmak için class'ı kullanın.
 
 ```csharp
 Workbook workbook = new Workbook(dataDir + "book1.xls");
@@ -119,4 +119,4 @@ Kesinlikle! Kütüphane hem eski hem de yeni Excel formatlarını (.xls ve .xlsx
  Evet, Aspose.Cells'in ücretsiz deneme sürümünü indirebilirsiniz[Burada](https://releases.aspose.com/).
 
 ### Aspose.Cells kullanımı hakkında daha fazla bilgiyi nerede bulabilirim?
- Şuna başvurabilirsiniz:[belgeleme](https://reference.aspose.com/cells/net/) Ayrıntılı kılavuzlar ve API referansları için.
+ Şuraya başvurabilirsiniz:[belgeleme](https://reference.aspose.com/cells/net/) Ayrıntılı kılavuzlar ve API referansları için.

@@ -16,7 +16,7 @@ Mengelola file Excel terkadang terasa seperti menavigasi labirin, terutama saat 
 Sebelum kita mulai membuat kode, penting untuk memastikan bahwa Anda telah menyiapkan semuanya dengan benar. Berikut ini yang Anda perlukan:
 
 1. Visual Studio: Pastikan Anda telah menginstal Visual Studio (versi apa pun yang mendukung .NET) di komputer Anda.
-2.  Aspose.Cells untuk .NET: Unduh dan instal pustaka Aspose.Cells dari[Situs Aspose](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells untuk .NET: Unduh dan instal pustaka Aspose.Cells dari[Situs Aspose](https://releases.aspose.com/cells/net/).
 3. Pengetahuan Dasar C#: Sedikit pengetahuan dengan pemrograman C# akan berguna karena kita akan bekerja dalam konteks C#.
 4.  Contoh File Excel: Untuk demonstrasi, siapkan contoh file Excel (misalnya,`sampleChangeCellsAlignmentAndKeepExistingFormatting.xlsx`) yang berisi beberapa format sel awal.
 
@@ -89,7 +89,7 @@ Contoh ini mengakses lembar kerja pertama. Jika data Anda ada di lembar lain, se
 Tentukan sel mana yang ingin Anda ubah dengan membuat rentang. Pilihan ini akan berfokus pada rentang tertentu, seperti “B2:D7”.
 
 ```csharp
-// Membuat rentang sel.
+//Membuat rentang sel.
 Range rng = ws.Cells.CreateRange("B2:D7");
 ```
 
@@ -122,14 +122,14 @@ StyleFlag flag = new StyleFlag();
 flag.Alignments = true;
 ```
 
- Dengan mengatur`Alignments`properti StyleFlag untuk`true`, Anda memberi tahu Aspose.Cells untuk menerapkan gaya perataan dengan benar.
+ Dengan mengatur`Alignments` properti StyleFlag untuk`true`, Anda memberi tahu Aspose.Cells untuk menerapkan gaya perataan dengan benar.
 
 ## Langkah 7: Terapkan Gaya ke Rentang Sel
 
 Setelah gaya dan bendera Anda siap, saatnya menerapkan gaya tersebut ke rentang sel:
 
 ```csharp
-// Terapkan gaya ke rentang sel.
+//Terapkan gaya ke rentang sel.
 rng.ApplyStyle(st, flag);
 ```
 

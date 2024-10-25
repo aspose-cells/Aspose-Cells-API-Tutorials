@@ -88,7 +88,7 @@ String currentDate = worksheet.getCells().get("A1").getStringValue();
 System.out.println("Current Date: " + currentDate);
 ```
 
-### Вычисление разницы дат с помощью DATEDIF
+### Расчет разницы дат с помощью DATEDIF
 
 Вы можете легко вычислить разницу дат с помощью функции DATEDIF в Excel. Вот как это сделать с помощью Aspose.Cells для Java.
 

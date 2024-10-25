@@ -46,7 +46,7 @@ Trước khi bạn có thể thao tác với bất kỳ tệp Excel nào, bạn 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Trong bước này, bạn sẽ chỉ định vị trí tệp Excel của mình cho`dataDir` chuỗi. Thay thế`"YOUR DOCUMENT DIRECTORY"` với con đường thực tế nơi bạn`.xls`tập tin được đặt ở đâu.
+ Trong bước này, bạn sẽ chỉ định vị trí tệp Excel của mình cho`dataDir` chuỗi. Thay thế`"YOUR DOCUMENT DIRECTORY"` với con đường thực tế nơi bạn`.xls` tập tin được đặt ở đâu.
 
 ## Bước 2: Tạo luồng tệp
 
@@ -86,7 +86,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 Bây giờ đến phần thú vị – ẩn các đường lưới! Chỉ với một dòng mã, bạn có thể chuyển đổi chế độ hiển thị của các đường lưới.
 
 ```csharp
-// Ẩn các đường lưới của trang tính đầu tiên trong tệp Excel
+//Ẩn các đường lưới của trang tính đầu tiên trong tệp Excel
 worksheet.IsGridlinesVisible = false;
 ```
 
@@ -116,7 +116,7 @@ fstream.Close();
 
 ## Phần kết luận
 
- Và thế là xong! Bạn vừa học cách hiển thị và ẩn các đường lưới trong bảng tính Excel bằng Aspose.Cells cho .NET. Cho dù bạn đang đánh bóng báo cáo hay trình bày dữ liệu theo định dạng dễ đọc hơn, kỹ thuật đơn giản này có thể tác động đáng kể đến giao diện bảng tính của bạn. Phần tuyệt nhất? Chỉ cần một vài dòng mã để tạo ra những thay đổi lớn. Nếu bạn đã sẵn sàng thử nghiệm, đừng quên tải xuống[dùng thử miễn phí](https://releases.aspose.com/) và bắt đầu viết mã!
+Và thế là xong! Bạn vừa học cách hiển thị và ẩn các đường lưới trong bảng tính Excel bằng Aspose.Cells cho .NET. Cho dù bạn đang đánh bóng báo cáo hay trình bày dữ liệu theo định dạng dễ đọc hơn, kỹ thuật đơn giản này có thể tác động đáng kể đến giao diện bảng tính của bạn. Phần tuyệt nhất? Chỉ cần một vài dòng mã để tạo ra những thay đổi lớn. Nếu bạn đã sẵn sàng thử nghiệm, đừng quên tải xuống[dùng thử miễn phí](https://releases.aspose.com/) và bắt đầu viết mã!
 
 ## Câu hỏi thường gặp
 
@@ -124,7 +124,7 @@ fstream.Close();
  Bạn có thể thiết lập`worksheet.IsGridlinesVisible = true;` để làm cho các đường lưới hiển thị trở lại.
 
 ### Tôi có thể ẩn đường lưới chỉ cho các phạm vi hoặc ô cụ thể không?  
- Không,`IsGridlinesVisible`thuộc tính này áp dụng cho toàn bộ trang tính, không áp dụng cho các ô cụ thể.
+ Không,`IsGridlinesVisible` thuộc tính này áp dụng cho toàn bộ trang tính, không áp dụng cho các ô cụ thể.
 
 ### Tôi có thể thao tác nhiều trang tính cùng một lúc không?  
  Vâng! Bạn có thể lặp qua`Worksheets` thu thập và áp dụng thay đổi cho từng trang tính.

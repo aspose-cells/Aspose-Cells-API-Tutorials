@@ -13,7 +13,7 @@ Neste tutorial, mostraremos as etapas necessárias para determinar se uma forma 
 ## Pré-requisitos
 Antes de nos aprofundarmos nos detalhes técnicos, vamos abordar o que você precisa ter em mãos para acompanhar este tutorial:
 1. Visual Studio: É aqui que escreveremos nosso código. Certifique-se de ter uma versão compatível com .NET Framework ou .NET Core.
-2. Aspose.Cells para .NET: Você precisa ter esta biblioteca instalada. Você pode baixá-la do[Site Aspose](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells para .NET: Você precisa ter esta biblioteca instalada. Você pode baixá-la do[Site Aspose](https://releases.aspose.com/cells/net/).
 3. Conhecimento básico de programação: familiaridade com C# e compreensão de conceitos como classes e métodos tornarão esse processo mais tranquilo.
 4. Arquivo de exemplo do Excel: você também precisará de um arquivo de exemplo do Excel contendo formas e Smart Art para testes.
 Com esses pré-requisitos verificados, você está pronto para começar a codificar!
@@ -46,7 +46,7 @@ Primeiramente, você precisará especificar o local do seu arquivo Excel.
 // Diretório de origem
 string sourceDir = "Your Document Directory";
 ```
- Substituir`"Your Document Directory"` com o caminho onde seu`sampleSmartArtShape.xlsx` arquivo está localizado. É aqui que o aplicativo procurará o arquivo Excel que contém as formas que você gostaria de inspecionar.
+ Substituir`"Your Document Directory"` com o caminho onde seu`sampleSmartArtShape.xlsx`arquivo está localizado. É aqui que o aplicativo procurará o arquivo Excel que contém as formas que você gostaria de inspecionar.
 ## Etapa 2: Carregue a pasta de trabalho do Excel
  Em seguida, carregaremos o arquivo Excel no Aspose.Cells`Workbook` aula.
 ```csharp
@@ -60,7 +60,7 @@ Depois de carregar a pasta de trabalho, precisaremos acessar a planilha específ
 // Acesse a primeira planilha
 Worksheet ws = wb.Worksheets[0];
 ```
- Os arquivos do Excel podem conter várias planilhas. Ao indexar com`[0]`estamos acessando a primeira planilha em nossa pasta de trabalho. 
+ Os arquivos do Excel podem conter várias planilhas. Ao indexar com`[0]`, estamos acessando a primeira planilha em nossa pasta de trabalho. 
 ## Etapa 4: Acesse a forma
 Agora recuperaremos a forma específica que queremos verificar.
 ```csharp
@@ -83,7 +83,7 @@ Smart Art é um recurso do Excel que permite aos usuários criar gráficos visua
 ### Posso modificar formas do Smart Art usando o Aspose.Cells?
 Sim, você pode manipular formas Smart Art programaticamente, incluindo alterar estilos e detalhes.
 ### O Aspose.Cells é gratuito?
- Embora haja uma versão de teste disponível, Aspose.Cells é uma biblioteca paga. Você pode comprar a versão completa[aqui](https://purchase.aspose.com/buy).
+Embora haja uma versão de teste disponível, Aspose.Cells é uma biblioteca paga. Você pode comprar a versão completa[aqui](https://purchase.aspose.com/buy).
 ### Como posso obter suporte se tiver problemas?
  Você pode pedir ajuda em[Fórum de suporte Aspose](https://forum.aspose.com/c/cells/9).
 ### Onde posso encontrar mais documentação para Aspose.Cells?

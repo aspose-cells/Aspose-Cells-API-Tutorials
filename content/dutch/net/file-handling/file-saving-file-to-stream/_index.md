@@ -84,4 +84,4 @@ Aspose.Cells voor .NET is een krachtige bibliotheek waarmee ontwikkelaars Excel-
 ### Waar kan ik ondersteuning krijgen met betrekking tot Aspose.Cells?
  U kunt hulp zoeken bij de[Aspose Ondersteuningsforum](https://forum.aspose.com/c/cells/9).
 ### Hoe kan ik een tijdelijke licentie voor Aspose.Cells verkrijgen?
- U kunt een aanvraag indienen voor een[tijdelijke licentie](https://purchase.aspose.com/temporary-license/)als u het nodig heeft voor evaluatiedoeleinden.
+ U kunt een aanvraag indienen voor een[tijdelijke licentie](https://purchase.aspose.com/temporary-license/) als u het nodig heeft voor evaluatiedoeleinden.

@@ -69,7 +69,7 @@ Genom att skapa en arbetsboksinstans från vår filström kan vi nu manipulera i
 
 ## Steg 4: Lägg till ett nytt arbetsblad
 
- Här kommer den spännande delen! Låt oss lägga till ett nytt kalkylblad i vår arbetsbok. Detta görs genom att använda`Add()` metod från`Worksheets`samling.
+ Här kommer den spännande delen! Låt oss lägga till ett nytt arbetsblad i vår arbetsbok. Detta görs genom att använda`Add()` metod från`Worksheets`samling.
 
 ```csharp
 // Lägga till ett nytt kalkylblad till Workbook-objektet

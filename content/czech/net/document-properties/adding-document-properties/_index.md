@@ -68,6 +68,6 @@ Ve svých uživatelských vlastnostech můžete ukládat řetězce, čísla a do
 ### Je Aspose.Cells zdarma k použití?
  Aspose.Cells nabízí bezplatnou zkušební verzi. Pro plné funkce je nutný nákup. Podívejte se na[cenové možnosti zde](https://purchase.aspose.com/buy).
 ### Kde najdu dokumentaci Aspose.Cells?
- Můžete najít komplexní dokumentaci[zde](https://reference.aspose.com/cells/net/).
+Můžete najít komplexní dokumentaci[zde](https://reference.aspose.com/cells/net/).
 ### Co když potřebuji pomoc při používání Aspose.Cells?
  Můžete navštívit[Aspose fórum podpory](https://forum.aspose.com/c/cells/9) za pomoc od jejich komunity a podpůrného týmu.

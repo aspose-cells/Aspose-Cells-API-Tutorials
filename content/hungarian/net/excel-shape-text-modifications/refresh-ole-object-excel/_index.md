@@ -8,7 +8,7 @@ weight: 20
 url: /hu/net/excel-shape-text-modifications/refresh-ole-object-excel/
 ---
 ## Bevezetés
-Üdv a fedélzeten! Ha belemerül az Excel automatizálás aprólékos dolgaiba, egy csemege. Ma megvizsgáljuk, hogyan frissíthetjük az OLE (Object Linking and Embedding) objektumokat az Aspose.Cells for .NET használatával. De mi az az OLE objektum, kérdezed? Képzelje el, hogy egy Word-dokumentum egy Excel-lapba van beágyazva; ez egy OLE objektum! A diagramok, táblázatok vagy multimédiás elemek dinamikusan és naprakészen tartása javíthatja Excel-táblázatai interaktivitását. Tehát valósítsuk meg a varázslatot az automatizálás és az egyszerű kódolás zökkenőmentes integrációjával!
+Üdvözöljük a fedélzeten! Ha belemerül az Excel automatizálás aprólékos dolgaiba, egy csemege. Ma megvizsgáljuk, hogyan frissíthetjük az OLE (Object Linking and Embedding) objektumokat az Aspose.Cells for .NET használatával. De mi az az OLE objektum, kérdezed? Képzelje el, hogy egy Word-dokumentum egy Excel-lapba van beágyazva; ez egy OLE objektum! A diagramok, táblázatok vagy multimédiás elemek dinamikusan és naprakészen tartása javíthatja Excel-táblázatai interaktivitását. Tehát valósítsuk meg a varázslatot az automatizálás és az egyszerű kódolás zökkenőmentes integrációjával!
 ## Előfeltételek
 Mielőtt belevágna a frissítő mókába, győződjön meg arról, hogy mindennel rendelkezik, amire szüksége van az induláshoz:
 - A C# alapszintű ismerete: A C# programozási nyelv ismerete elengedhetetlen lesz.

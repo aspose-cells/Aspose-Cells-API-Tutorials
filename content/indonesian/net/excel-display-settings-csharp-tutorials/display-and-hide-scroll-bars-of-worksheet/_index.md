@@ -56,7 +56,7 @@ Di sini, Anda membuat aliran berkas untuk membaca berkas Excel.
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
   
- Itu`FileStream` class memungkinkan Anda membaca dan menulis ke file. Dalam kasus ini, kita membuka file Excel dalam mode baca.
+ Itu`FileStream`class memungkinkan Anda membaca dan menulis ke file. Dalam kasus ini, kita membuka file Excel dalam mode baca.
 
 ## Langkah 3: Membuat Instansi Objek Buku Kerja
 
@@ -67,7 +67,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 Workbook workbook = new Workbook(fstream);
 ```
   
- Ini`Workbook`Objek tersebut kini memuat semua data dan pengaturan berkas Excel Anda, sehingga memungkinkan manipulasi lebih lanjut dalam proses tersebut.
+ Ini`Workbook` Objek tersebut kini memuat semua data dan pengaturan berkas Excel Anda, sehingga memungkinkan manipulasi lebih lanjut dalam proses tersebut.
 
 ## Langkah 4: Sembunyikan Bilah Gulir Vertikal
 
@@ -132,4 +132,4 @@ Anda dapat bekerja dengan berbagai format Excel, termasuk .xls, .xlsx, .xlsm, .x
  Periksa[Dokumentasi Aspose.Cells](https://reference.aspose.com/cells/net/) untuk contoh dan tutorial tambahan.
 
 ### Bagaimana jika saya mengalami masalah saat menggunakan Aspose.Cells?  
- Anda dapat mencari bantuan atau melaporkan masalah di forum dukungan Aspose[Di Sini](https://forum.aspose.com/c/cells/9).
+Anda dapat mencari bantuan atau melaporkan masalah di forum dukungan Aspose[Di Sini](https://forum.aspose.com/c/cells/9).

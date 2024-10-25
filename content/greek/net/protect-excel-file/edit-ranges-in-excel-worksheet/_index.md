@@ -16,7 +16,7 @@ url: /el/net/protect-excel-file/edit-ranges-in-excel-worksheet/
 Πριν προχωρήσουμε στην κωδικοποίηση, ας βεβαιωθούμε ότι είστε έτοιμοι. Εδώ είναι τι χρειάζεστε:
 
 1. Visual Studio: Βεβαιωθείτε ότι έχετε εγκαταστήσει το Visual Studio. Η κοινοτική έκδοση λειτουργεί άψογα.
-2.  Aspose.Cells Library: Χρειάζεστε το Aspose.Cells για τη βιβλιοθήκη .NET. Μπορείς[κατεβάστε το εδώ](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells Library: Χρειάζεστε το Aspose.Cells για τη βιβλιοθήκη .NET. Μπορείτε[κατεβάστε το εδώ](https://releases.aspose.com/cells/net/).
 3. Βασικές γνώσεις C#: Η θεμελιώδης κατανόηση της C# θα βοηθήσει πολύ.
 4. Ρύθμιση έργου: Δημιουργήστε μια νέα εφαρμογή κονσόλας C# στο Visual Studio.
 
@@ -41,7 +41,7 @@ using Aspose.Cells;
 ```csharp
 // Η διαδρομή προς τον κατάλογο εγγράφων.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-//Δημιουργήστε κατάλογο εάν δεν υπάρχει ήδη.
+// Δημιουργήστε κατάλογο εάν δεν υπάρχει ήδη.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);

@@ -9,7 +9,7 @@ url: /hu/net/excel-hidden-rows-data-duplication-management/
 ---
 ## Bevezetés
 
-Előfordult már veled, hogy belefulladsz az adatok tengerébe, és csak olyan rejtett sorokat fedezett fel, amelyek csavarkulcsot dobnak a jól szervezett táblázatodban? Vagy talán csak azért exportálta az Excel-adatokat, hogy észrevegye, az oszlopok többszörös nevekkel vannak tele, ami megnehezíti az elemzést. Ne félj! Az Aspose.Cells for .NET megmenti Önt. Nézzük meg, hogy ez a hatékony könyvtár hogyan segíthet megbirkózni ezekkel a gyakori Excel-kihívásokkal.
+Előfordult már veled, hogy belefulladsz az adatok tengerébe, és olyan rejtett sorokat fedezett fel, amelyek csavarkulcsot dobnak a jól szervezett táblázatodban? Vagy talán csak azért exportálta az Excel-adatokat, hogy észrevegye, az oszlopok többszörös nevekkel vannak tele, ami megnehezíti az elemzést. Ne félj! Az Aspose.Cells for .NET megmenti Önt. Nézzük meg, hogy ez a hatékony könyvtár hogyan segíthet megbirkózni ezekkel a gyakori Excel-kihívásokkal.
 
 ## Rejtett sorindexek beszerzése az automatikus szűrő frissítése után az Excelben
 

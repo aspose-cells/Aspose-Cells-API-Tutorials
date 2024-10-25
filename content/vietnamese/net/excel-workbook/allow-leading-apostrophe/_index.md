@@ -16,7 +16,7 @@ Chào mừng bạn đến với hướng dẫn từng bước này về cách s�
 Trước khi tìm hiểu sâu hơn về mã, đây là một số điều kiện tiên quyết bạn cần đáp ứng:
 
 1. Kiến thức cơ bản về .NET: Sự quen thuộc với .NET framework là điều cần thiết. Nếu bạn đã từng làm việc với C# hoặc VB.NET, hãy coi như bạn đã sẵn sàng.
-2. Aspose.Cells cho Thư viện .NET: Bạn sẽ cần phải cài đặt Aspose.Cells. Bạn có thể dễ dàng thực hiện việc này thông qua trình quản lý gói NuGet hoặc tải xuống từ[Trang web Aspose](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells cho Thư viện .NET: Bạn sẽ cần phải cài đặt Aspose.Cells. Bạn có thể dễ dàng thực hiện việc này thông qua trình quản lý gói NuGet hoặc tải xuống từ[Trang web Aspose](https://releases.aspose.com/cells/net/).
 3. Thiết lập IDE: Đảm bảo bạn có Môi trường phát triển tích hợp (IDE) như Visual Studio để sẵn sàng cho việc viết mã.
 4. Tệp Excel mẫu: Bạn có thể sử dụng tệp mẫu ("AllowLeadingApostropheSample.xlsx") mà chúng ta sẽ làm việc trong mã.
 
@@ -56,7 +56,7 @@ Bây giờ, chúng ta sẽ khởi tạo WorkbookDesigner, thành phần rất qu
 WorkbookDesigner designer = new WorkbookDesigner();
 ```
 
- Các`WorkbookDesigner` quản lý thiết kế và liên kết dữ liệu của bảng tính, giúp chúng ta dễ dàng hơn khi chuyển đổi dữ liệu sang định dạng trực quan.
+ Các`WorkbookDesigner`quản lý thiết kế và liên kết dữ liệu của bảng tính, giúp chúng ta dễ dàng hơn khi chuyển đổi dữ liệu sang định dạng trực quan.
 
 ## Bước 3: Tải Workbook hiện có
 
@@ -90,7 +90,7 @@ List<DataObject> list = new List<DataObject>
 };
 ```
 
- Chúng tôi đang tạo một danh sách`DataObject`, trong đó một trong các tên cố ý bao gồm dấu nháy đơn ở đầu. Điều này sẽ giúp minh họa cách Aspose.Cells xử lý các tình huống như vậy.
+ Chúng tôi đang tạo một danh sách`DataObject`trong đó một trong các tên cố ý bao gồm dấu nháy đơn ở đầu. Điều này sẽ giúp minh họa cách Aspose.Cells xử lý các tình huống như vậy.
 
 ## Bước 6: Liên kết Nguồn dữ liệu với Nhà thiết kế
 
@@ -144,7 +144,7 @@ Bây giờ, cho dù bạn đang tạo báo cáo, tạo chức năng phân tích 
 Aspose.Cells là một thư viện .NET mạnh mẽ để tạo, thao tác và chuyển đổi các tệp Excel theo nhiều định dạng theo cách lập trình.
 
 ### Tôi có thể sử dụng Aspose.Cells miễn phí không?
-Có, bạn có thể sử dụng Aspose.Cells bằng cách đăng ký dùng thử miễn phí[đây](https://releases.aspose.com/).
+ Có, bạn có thể sử dụng Aspose.Cells bằng cách đăng ký dùng thử miễn phí[đây](https://releases.aspose.com/).
 
 ### Tôi có thể nhận được hỗ trợ cho Aspose.Cells như thế nào?
  Bạn có thể tìm thấy sự hỗ trợ và đặt câu hỏi trên[Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/cells/9).

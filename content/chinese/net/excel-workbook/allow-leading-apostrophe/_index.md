@@ -9,14 +9,14 @@ url: /zh/net/excel-workbook/allow-leading-apostrophe/
 ---
 ## 介绍
 
-欢迎阅读本分步指南，了解如何使用 Aspose.Cells for .NET 无缝管理电子表格，特别是重点介绍如何处理单元格值中的前导撇号。在当今以数据为中心的世界中，有效管理数据的能力至关重要。您是否注意到 Excel 有时会以不同的方式处理以撇号开头的文本值？如果您使用 .NET 代码自动执行 Excel 任务，这可能会导致意外结果。不要害怕！本教程将帮助您解决这一问题。 
+欢迎阅读本分步指南，了解如何使用 Aspose.Cells for .NET 无缝管理电子表格，特别是重点介绍如何处理单元格值中的前导撇号。在当今以数据为中心的世界中，有效管理数据的能力至关重要。您是否注意到 Excel 有时会以不同的方式处理以撇号开头的文本值？如果您使用 .NET 代码自动执行 Excel 任务，这可能会导致意外结果。不要害怕！本教程将帮助您解决这个问题。 
 
 ## 先决条件
 
 在深入研究代码之前，您需要满足以下几个先决条件：
 
 1. .NET 基础知识：熟悉 .NET 框架必不可少。如果您已经涉足 C# 或 VB.NET，请做好准备。
-2. Aspose.Cells for .NET 库：您需要安装 Aspose.Cells。您可以通过 NuGet 包管理器轻松完成此操作，也可以从[Aspose 网站](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells for .NET 库：您需要安装 Aspose.Cells。您可以通过 NuGet 包管理器轻松完成此操作，也可以从[Aspose 网站](https://releases.aspose.com/cells/net/).
 3. IDE 设置：确保您拥有一个像 Visual Studio 这样的集成开发环境 (IDE) 可以用于编码。
 4. 示例 Excel 文件：您可以使用我们将在代码中使用的示例文件（“AllowLeadingApostropheSample.xlsx”）。
 

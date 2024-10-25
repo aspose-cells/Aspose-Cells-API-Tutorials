@@ -34,7 +34,7 @@ Workbook excelbook = new Workbook();
 ```
 Ebben a lépésben egy üres munkafüzetet hoz létre. Képzelje el üres vászonként, ahol rádiógombokat ad hozzá a következő lépésekben.
 ## 2. lépés: Cellaérték hozzáadása és formázása
-Ezután adjunk címet a munkalaphoz. Hozzáadunk néhány szöveget a cellához`C2` és formázza félkövérre. Ez a lépés kontextust ad a rádiógombokhoz.
+Ezután adjunk címet a munkalaphoz. Hozzáadunk néhány szöveget a cellához`C2` és formázza félkövérre. Ez a lépés kontextust ad a választógombokhoz.
 ### Szöveg beszúrása a cellába
 ```csharp
 // Szúrjon be egy értéket a C2 cellába.

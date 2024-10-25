@@ -29,7 +29,7 @@ Esses namespaces darão acesso a todos os recursos de desenho e funcionalidades 
 Primeiro as coisas mais importantes — vamos colocar em prática um diretório onde você salvará esses novos arquivos brilhantes do Excel. Veja como fazemos isso:
 ```csharp
 string dataDir = "Your Document Directory";
-//Crie um diretório se ele ainda não estiver presente.
+// Crie um diretório se ele ainda não estiver presente.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);

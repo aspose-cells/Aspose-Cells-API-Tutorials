@@ -27,7 +27,7 @@ Zu Beginn müssen wir die erforderlichen Pakete in unser Projekt importieren. Di
 - Wählen Sie „NuGet-Pakete verwalten“ aus.
 - Suchen Sie nach „Aspose.Cells“ und installieren Sie die Bibliothek.
 ### Namespaces importieren
-Oben in Ihrer Programmdatei (z. B.`Program.cs`) müssen Sie die erforderlichen Namespaces importieren:
+ Oben in Ihrer Programmdatei (z. B.`Program.cs`) müssen Sie die erforderlichen Namespaces importieren:
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -118,7 +118,7 @@ OLE-Objekte sind eingebettete Dateien, mit denen Sie Dokumente aus anderen Micro
 ### Kann Aspose.Cells mit anderen Dateiformaten arbeiten?  
 Ja! Aspose.Cells unterstützt eine Vielzahl von Formaten, darunter XLS, XLSX, CSV und mehr.
 ### Gibt es eine kostenlose Testversion für Aspose.Cells?  
- Ja! Sie können es ausprobieren[Hier](https://releases.aspose.com/).
+Ja! Sie können es ausprobieren[Hier](https://releases.aspose.com/).
 ### Kann ich in einem Arbeitsblatt auf mehrere OLE-Objekte zugreifen?  
  Absolut! Sie können eine Schleife durchlaufen`ws.OleObjects` um auf alle eingebetteten OLE-Objekte in einem Arbeitsblatt zuzugreifen.
 ### Wie erwerbe ich eine Lizenz für Aspose.Cells?  

@@ -76,7 +76,7 @@ Het is tijd om van uw werkboek een collaboratief meesterwerk te maken! Door het 
 //Deel het werkboek
 wb.Settings.Shared = true;
 ```
- Instelling`wb.Settings.Shared` naar`true`geeft aan dat deze werkmap door meerdere gebruikers tegelijk kan worden geopend. Het is alsof je de sleutels van je huis aan vrienden geeft — ze kunnen komen en gaan wanneer ze willen!
+ Instelling`wb.Settings.Shared` naar`true` geeft aan dat deze werkmap door meerdere gebruikers tegelijk kan worden geopend. Het is alsof je de sleutels van je huis aan vrienden geeft — ze kunnen komen en gaan wanneer ze willen!
 
 ## Stap 4: Sla de gedeelde werkmap op
 

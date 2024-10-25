@@ -42,7 +42,7 @@ bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
--  dataDir: この変数はドキュメントディレクトリへのパスを保持します。`"Your Document Directory"` Excel ファイルを保存する実際のパスを入力します。
+- dataDir: この変数はドキュメントディレクトリへのパスを保持します。`"Your Document Directory"` Excel ファイルを保存する実際のパスを入力します。
 - Directory.Exists: ディレクトリがすでに存在するかどうかを確認します。
 - Directory.CreateDirectory: ディレクトリが存在しない場合は、作成します。
 ## ステップ 2: ワークブックをインスタンス化する
@@ -51,7 +51,7 @@ if (!IsExists)
 //ワークブックをインスタンス化する
 Workbook workbook = new Workbook();
 ```
-- Workbook: これは、Excel ファイルの作成と操作を可能にする Aspose.Cells のメイン クラスです。これをインスタンス化することで、基本的に新しい Excel ワークブックを作成します。
+- Workbook: これは、Excel ファイルの作成と操作を可能にする Aspose.Cells のメイン クラスです。これをインスタンス化することで、基本的に新しい Excel ワークブックが作成されます。
 ## ステップ3: コメントコレクションを取得する
 ワークブックができたので、最初のワークシートのコメント コレクションにアクセスしてみましょう。
 ```csharp
@@ -101,7 +101,7 @@ workbook.Save(dataDir + "book1.out.xlsx", Aspose.Cells.SaveFormat.Xlsx);
 これで完了です。Aspose.Cells for .NET を使用して、Excel ファイルに画像付きのコメントを正常に追加できました。この機能により、スプレッドシートの情報量が増え、見た目も魅力的になります。データに注釈を付ける場合でも、フィードバックを提供する場合でも、単に個人的なタッチを加える場合でも、画像付きのコメントによりユーザー エクスペリエンスが大幅に向上します。
 ## よくある質問
 ### 同じセルに複数のコメントを追加できますか?
-いいえ、Excel では同じセルに複数のコメントを付けることはできません。セルごとにコメントは 1 つしか付けられません。
+いいえ、Excel では同じセルに複数のコメントを付けることはできません。セルごとにコメントを 1 つだけ付けることが可能です。
 ### どのような画像形式がサポートされていますか?
 Aspose.Cells は、PNG、JPEG、BMP など、さまざまな画像形式をサポートしています。
 ### Aspose.Cells を使用するにはライセンスが必要ですか?

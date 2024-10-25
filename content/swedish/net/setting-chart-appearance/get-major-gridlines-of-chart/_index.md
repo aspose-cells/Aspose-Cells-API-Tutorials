@@ -15,7 +15,7 @@ Att skapa visuellt tilltalande och informativa diagram är avgörande för effek
 
 Innan vi dyker in i handledningen, se till att du har allt klart:
 
-- Aspose.Cells för .NET: Se till att du har Aspose.Cells-biblioteket nedladdat och refererat till i ditt projekt. Du kan få det[här](https://releases.aspose.com/cells/net/).
+-  Aspose.Cells för .NET: Se till att du har Aspose.Cells-biblioteket nedladdat och refererat till i ditt projekt. Du kan få det[här](https://releases.aspose.com/cells/net/).
 - Utvecklingsmiljö: Alla .NET-utvecklingsmiljöer fungerar, men Visual Studio rekommenderas starkt för dess robusta stöd och verktyg.
 - Grundläggande förståelse för C#: Bekantskap med C#-programmeringsgrunderna kommer att vara till hjälp eftersom vi kommer att skriva lite kod.
 
@@ -76,7 +76,7 @@ worksheet.Cells["B2"].PutValue(32);
 worksheet.Cells["B3"].PutValue(50);
 ```
 
- Här anger vi några slumpmässiga värden i celler`A1` till`B3`Dessa data kommer att fungera som datakällan för vårt diagram. Det är viktigt att ha meningsfull data att visualisera; annars skulle diagrammet bara vara vackra linjer utan sammanhang!
+ Här anger vi några slumpmässiga värden i celler`A1` till`B3`. Dessa data kommer att fungera som datakällan för vårt diagram. Det är viktigt att ha meningsfull data att visualisera; annars skulle diagrammet bara vara vackra linjer utan sammanhang!
 
 ## Steg 5: Lägg till ett diagram i arbetsbladet
 
@@ -161,7 +161,7 @@ Aspose.Cells för .NET är ett kraftfullt API för att manipulera Excel-kalkylbl
 Ja! Aspose.Cells tillåter omfattande anpassning, inklusive typsnitt, stilar och format för diagramelement.
 
 ### Var kan jag hitta mer dokumentation?
- Du kan hitta omfattande dokumentation på[Asposes referenssida](https://reference.aspose.com/cells/net/).
+Du kan hitta omfattande dokumentation på[Asposes referenssida](https://reference.aspose.com/cells/net/).
 
 ### Finns det en gratis testversion tillgänglig för Aspose.Cells?
  Ja! Du kan prova det genom att ladda ner det från[här](https://releases.aspose.com/).

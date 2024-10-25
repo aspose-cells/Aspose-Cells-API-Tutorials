@@ -59,7 +59,7 @@ string sourceDir = "Your Document Directory";
 Workbook workbook = new Workbook(sourceDir + "sampleApplyingThemesInChart.xlsx");
 ```
 
- 확인한다`sampleApplyingThemesInChart.xlsx`소스 디렉토리에 존재합니다.
+ 확인한다`sampleApplyingThemesInChart.xlsx` 소스 디렉토리에 존재합니다.
 
 ## 3단계: 워크시트에 액세스
 
@@ -96,7 +96,7 @@ chart.NSeries[0].Area.FillFormat.FillType = Aspose.Cells.Drawing.FillType.Solid;
 
 ## 6단계: 색상 구성
 
- 이제 시리즈가 준비되었으므로 색상을 수정해야 합니다. 여기에는 다음을 만드는 것이 포함됩니다.`CellsColor`객체와 테마 색상을 지정합니다. 이 예제에서는 악센트 스타일을 선택합니다.
+ 이제 시리즈가 준비되었으므로 색상을 수정해야 합니다. 여기에는 다음을 만드는 것이 포함됩니다.`CellsColor` 객체와 테마 색상을 지정합니다. 이 예제에서는 악센트 스타일을 선택합니다.
 
 ```csharp
 // SolidFill의 CellsColor를 가져옵니다

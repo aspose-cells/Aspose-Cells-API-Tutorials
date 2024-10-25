@@ -13,13 +13,13 @@ Als u zich verdiept in Excel-automatisering en -manipulatie met behulp van .NET,
 
 ## Waarom Aspose.Cells gebruiken?
 
-Stel je voor dat je enorme hoeveelheden data in Excel moet verwerken. Je denkt misschien: "Gaat dat niet een eeuwigheid duren?" Maak kennis met Aspose.Cells: het is alsof je een superkracht hebt voor datamanipulatie. Met deze bibliotheek kun je niet alleen spreadsheets bewerken; het stelt je ook in staat om data te beschermen, zodat cruciale informatie intact blijft. Wanneer je specifieke rijen of kolommen beschermt, is het alsof je een fort bouwt rond je belangrijke figuren, zodat alleen de juiste mensen binnenkomen. 
+Stel je voor dat je enorme hoeveelheden data in Excel moet verwerken. Je denkt misschien: "Gaat dat niet een eeuwigheid duren?" Maak kennis met Aspose.Cells: het is alsof je een superkracht hebt voor datamanipulatie. Met deze bibliotheek kun je niet alleen spreadsheets bewerken; het stelt je ook in staat om data te beschermen en ervoor te zorgen dat cruciale informatie intact blijft. Wanneer je specifieke rijen of kolommen beschermt, is het alsof je een fort bouwt rond je belangrijke figuren en alleen de juiste mensen toelaat. 
 
- We hebben dit proces voor u vereenvoudigd met verschillende stapsgewijze tutorials. Bekijk bijvoorbeeld onze gids over hoe u[Gebruikers toestaan om bereiken in Excel-werkblad te bewerken](./allow-user-to-edit-ranges-in-excel-worksheet/). U leert hoe u gebruikers naadloos specifieke secties van een spreadsheet kunt laten wijzigen zonder dat dit ten koste gaat van het hele document. 
+We hebben dit proces voor u vereenvoudigd met verschillende stapsgewijze tutorials. Bekijk bijvoorbeeld onze gids over hoe u[Gebruikers toestaan om bereiken in Excel-werkblad te bewerken](./allow-user-to-edit-ranges-in-excel-worksheet/). U leert hoe u gebruikers naadloos specifieke secties van een spreadsheet kunt laten wijzigen zonder dat dit ten koste gaat van het hele document. 
 
 ## Zelfstudies op maat voor jou
 
-Maar dat is nog niet alles! Het beschermen van uw gegevens is net zo essentieel. U zou uw voordeur toch ook niet wagenwijd open laten staan? Op dezelfde manier bieden onze gidsen u de tools om elk deel van uw Excel-sheet te vergrendelen. Bekijk de tutorial op[Bescherming van specifieke cellen](./protect-specific-cells-in-a-excel-worksheet/) om te leren hoe u uw gegevens effectief kunt beschermen. We leiden u door elke stap van het proces, waardoor het zelfs voor degenen die nog niet zo bekend zijn met programmeren, eenvoudig is.
+ Maar dat is nog niet alles! Het beschermen van uw gegevens is net zo essentieel. U zou uw voordeur toch ook niet wagenwijd open laten staan? Op dezelfde manier bieden onze gidsen u de tools om elk deel van uw Excel-sheet te vergrendelen. Bekijk de tutorial op[Bescherming van specifieke cellen](./protect-specific-cells-in-a-excel-worksheet/) om te leren hoe u uw gegevens effectief kunt beschermen. We leiden u door elke stap van het proces, waardoor het zelfs voor degenen die nog niet zo bekend zijn met programmeren, eenvoudig is.
 
 Zeker! Laten we eens dieper ingaan op het belang van deze tutorials in uw zoektocht naar Excel-beheersing en hoe ze passen in uw ontwikkelworkflow.
 

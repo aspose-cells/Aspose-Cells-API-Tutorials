@@ -36,21 +36,21 @@ string dataDir = "Your Document Directory";
 Workbook workbook = new Workbook(dataDir + "sample-document-properties.xlsx");
 ```
  Qui stiamo caricando il nostro file Excel specifico,`"sample-document-properties.xlsx"`È fondamentale che questo file esista nella directory specificata, altrimenti si verificheranno degli errori.
-## Passaggio 3: Recupera le proprietà del documento personalizzato
+## Passaggio 3: Recupera le proprietà personalizzate del documento
 Una volta caricata la cartella di lavoro, possiamo attingere al suo tesoro di proprietà. Immergiamoci in come puoi accedere a queste proprietà:
 ```csharp
 Aspose.Cells.Properties.DocumentPropertyCollection customProperties = workbook.Worksheets.CustomDocumentProperties;
 ```
 Questa riga di codice recupera tutte le proprietà personalizzate del documento collegate alla tua cartella di lavoro. È come aprire un caveau per svelare informazioni nascoste!
 ## Passaggio 4: accedere a una proprietà di documento personalizzata tramite nome
-A volte sai esattamente cosa stai cercando. Se hai bisogno di accedere a una proprietà specifica per nome, ecco come fare:
+volte sai esattamente cosa stai cercando. Se hai bisogno di accedere a una proprietà specifica per nome, ecco come fare:
 ```csharp
 Aspose.Cells.Properties.DocumentProperty customProperty1 = customProperties["ContentTypeId"];
 Console.WriteLine(customProperty1.Name + " " + customProperty1.Value);
 ```
  In questo esempio, stiamo cercando di accedere alla proprietà denominata`"ContentTypeId"`. La console restituirà sia il nome che il valore di questa proprietà. È un modo semplice per ottenere esattamente ciò di cui hai bisogno senza dover setacciare tutte le proprietà.
 ## Passaggio 5: accedere a una proprietà di documento personalizzata tramite indice
-se volessi sfogliare le tue proprietà e sceglierne una senza conoscerne in anticipo il nome? L'indice delle proprietà viene in tuo soccorso:
+E se volessi sfogliare le tue proprietà e sceglierne una senza conoscerne in anticipo il nome? L'indice delle proprietà viene in tuo soccorso:
 ```csharp
 Aspose.Cells.Properties.DocumentProperty customProperty2 = customProperties[0];
 Console.WriteLine(customProperty2.Name + " " + customProperty2.Value);
@@ -69,4 +69,4 @@ Assolutamente! Puoi leggere, scrivere e modificare file Excel usando la libreria
 ### È disponibile il supporto per gli utenti di Aspose.Cells?
  Sì, puoi accedere a risorse di supporto estese, inclusi forum e documentazione, disponibili[Qui](https://forum.aspose.com/c/cells/9).
 ### Come posso ottenere una licenza temporanea per Aspose.Cells?
- È possibile richiedere una licenza temporanea per valutare il prodotto visitando[questo collegamento](https://purchase.aspose.com/temporary-license/).
+È possibile richiedere una licenza temporanea per valutare il prodotto visitando[questo collegamento](https://purchase.aspose.com/temporary-license/).

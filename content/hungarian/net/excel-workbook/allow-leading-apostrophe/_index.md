@@ -16,7 +16,7 @@ url: /hu/net/excel-workbook/allow-leading-apostrophe/
 Mielőtt belemerülne a kódba, néhány előfeltételt kell teljesítenie:
 
 1. Alapvető .NET ismerete: A .NET keretrendszer ismerete elengedhetetlen. Ha már foglalkozik a C#-val vagy a VB.NET-tel, gondolja készen magát.
-2. Aspose.Cells for .NET Library: telepítenie kell az Aspose.Cells programot. Ezt egyszerűen megteheti a NuGet csomagkezelőn keresztül, vagy letöltheti a webhelyről[Aspose oldalon](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells for .NET Library: telepítenie kell az Aspose.Cells programot. Ezt egyszerűen megteheti a NuGet csomagkezelőn keresztül, vagy letöltheti a webhelyről[Aspose oldalon](https://releases.aspose.com/cells/net/).
 3. IDE beállítása: Győződjön meg arról, hogy rendelkezik egy integrált fejlesztői környezettel (IDE), mint például a Visual Studio, készen áll a kódolásra.
 4. Minta Excel-fájl: Használhatja a mintafájlt ("AllowLeadingApostropheSample.xlsx"), amellyel a kódban dolgozunk.
 
@@ -56,7 +56,7 @@ Most példányosítjuk a WorkbookDesignert, amely kulcsfontosságú az Aspose.Ce
 WorkbookDesigner designer = new WorkbookDesigner();
 ```
 
- A`WorkbookDesigner` kezeli munkafüzetünk tervezését és adatkötését, megkönnyítve az életünket az adatok vizuális formátumba konvertálásakor.
+ A`WorkbookDesigner`kezeli munkafüzetünk tervezését és adatkötését, megkönnyítve az életünket az adatok vizuális formátumba konvertálásakor.
 
 ## 3. lépés: Töltse be a meglévő munkafüzetet
 
@@ -76,7 +76,7 @@ Most gondoskodnia kell arról, hogy a munkafüzet beállításai úgy legyenek b
 workbook.Settings.QuotePrefixToStyle = false;
 ```
 
- Beállítás által`QuotePrefixToStyle` a false értékre utasítjuk az Aspose.Cells-t, hogy a vezető aposztrófokat szabályos karakterként kezelje, lehetővé téve számunkra, hogy pontosan kezeljük őket a kimenetünkben.
+ Beállítással`QuotePrefixToStyle` a false értékre utasítjuk az Aspose.Cells-t, hogy a vezető aposztrófokat szabályos karakterként kezelje, lehetővé téve számunkra, hogy pontosan kezeljük őket a kimenetünkben.
 
 ## 5. lépés: Töltse be az adatokat az intelligens jelölőkhöz
 
@@ -90,7 +90,7 @@ List<DataObject> list = new List<DataObject>
 };
 ```
 
- Készítünk egy listát`DataObject`, ahol az egyik névben szándékosan szerepel egy vezető aposztróf. Ez segít bemutatni, hogy az Aspose.Cells hogyan kezeli az ilyen forgatókönyveket.
+ Készítünk egy listát`DataObject`ahol az egyik névben szándékosan szerepel egy vezető aposztróf. Ez segít bemutatni, hogy az Aspose.Cells hogyan kezeli az ilyen forgatókönyveket.
 
 ## 6. lépés: Kösse össze az adatforrást a tervezővel
 
@@ -144,7 +144,7 @@ Mostantól függetlenül attól, hogy jelentéseket készít, adatelemzési funk
 Az Aspose.Cells egy hatékony .NET-könyvtár több formátumú Excel-fájlok programozott létrehozásához, kezeléséhez és konvertálásához.
 
 ### Használhatom ingyenesen az Aspose.Cells-t?
-Igen, használhatja az Aspose.Cells-t, ha regisztrál egy ingyenes próbaverzióra[itt](https://releases.aspose.com/).
+ Igen, használhatja az Aspose.Cells-t, ha regisztrál egy ingyenes próbaverzióra[itt](https://releases.aspose.com/).
 
 ### Hogyan kaphatok támogatást az Aspose.Cells-hez?
  Segítséget találhat és kérdéseket tehet fel a[Aspose támogatási fórum](https://forum.aspose.com/c/cells/9).

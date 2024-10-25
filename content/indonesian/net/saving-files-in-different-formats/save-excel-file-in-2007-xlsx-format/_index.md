@@ -56,6 +56,6 @@ Aspose.Cells adalah pustaka hebat untuk bekerja dengan file Excel dalam aplikasi
 ### Di mana saya dapat menemukan lebih banyak contoh?
  Anda dapat memeriksa dokumentasi untuk contoh dan informasi terperinci tentang Aspose.Cells[Di Sini](https://reference.aspose.com/cells/net/).
 ### Bisakah saya menggunakan Aspose.Cells tanpa Visual Studio?
-Ya, Anda dapat menggunakan Aspose.Cells di lingkungan mana pun yang kompatibel dengan .NET, bukan hanya Visual Studio.
+Ya, Anda dapat menggunakan Aspose.Cells di lingkungan apa pun yang kompatibel dengan .NET, bukan hanya Visual Studio.
 ### Bagaimana cara mendapatkan dukungan untuk Aspose.Cells?
 Anda dapat mengakses dukungan komunitas melalui[Forum Aspose](https://forum.aspose.com/c/cells/9).

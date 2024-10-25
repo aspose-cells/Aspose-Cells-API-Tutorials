@@ -94,7 +94,7 @@ workbook.Save(dataDir + "FitToPagesOptions_out.xls");
 ## よくある質問
 
 ### Aspose.Cells とは何ですか?
-Aspose.Cells は、Excel ファイルをプログラムで管理するための強力な .NET ライブラリであり、開発者が簡単にスプレッドシートを作成および操作できるようにします。
+Aspose.Cells は、Excel ファイルをプログラムで管理するための強力な .NET ライブラリであり、開発者がスプレッドシートを簡単に作成および操作できるようにします。
 
 ### Aspose.Cells を無料で試すことはできますか?
 はい！無料トライアルにご登録いただけます[ここ](https://releases.aspose.com/).

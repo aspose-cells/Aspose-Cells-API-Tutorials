@@ -12,7 +12,7 @@ Napjaink technikailag hozzáértő világában az Excel-fájlok kezelése gyakor
 ## Előfeltételek
 Mielőtt belemerülnénk az OLE-objektumok kinyerésének aprólékos részleteibe, néhány dolognak a helyén kell lennie:
 1. Alapvető C# ismerete: Ha ismeri a C#-t, máris jó úton jár. Ha nem, ne aggódj! Egyértelművé tesszük a dolgokat.
-2.  Aspose.Cells telepítve: Szüksége lesz az Aspose.Cells könyvtárra. Letöltheti az oldalról[itt](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells telepítve: Szüksége lesz az Aspose.Cells könyvtárra. Letöltheti az oldalról[itt](https://releases.aspose.com/cells/net/).
 3. Kompatibilis fejlesztői környezet: Győződjön meg arról, hogy készen áll egy .NET fejlesztői környezet, például a Visual Studio.
 4. Minta Excel-fájl: A teszteléshez szüksége lesz egy Excel-fájlra, amely OLE-objektumokat tartalmaz. 
 Ha megvannak ezek az előfeltételek, megkezdhetjük utazásunkat az OLE objektumkinyerés világába.
@@ -44,7 +44,7 @@ Most jön a szórakoztató rész – körbejárjuk a gyűjteményünk összes OL
 for (int i = 0; i < oles.Count; i++)
 {
     Aspose.Cells.Drawing.OleObject ole = oles[i];
-    //További logika az egyes objektumok kezeléséhez
+    // További logika az egyes objektumok kezeléséhez
 }
 ```
 ## 5. lépés: Adja meg a kimeneti fájl nevét

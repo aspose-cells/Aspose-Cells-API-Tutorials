@@ -77,7 +77,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 worksheet.PageSetup.PrintQuality = 180;
 ```
 
-Explicação: O`PrintQuality` property pode ser definido para qualquer valor, tipicamente entre 75 e 600 dpi (pontos por polegada). Neste caso, estamos definindo para 180 dpi, o que é ótimo para um bom equilíbrio entre qualidade e tamanho do arquivo.
+ Explicação: O`PrintQuality` property pode ser definido para qualquer valor, tipicamente entre 75 e 600 dpi (pontos por polegada). Neste caso, estamos definindo para 180 dpi, o que é ótimo para um bom equilíbrio entre qualidade e tamanho do arquivo.
 
 ## Etapa 5: Salvando a pasta de trabalho
 

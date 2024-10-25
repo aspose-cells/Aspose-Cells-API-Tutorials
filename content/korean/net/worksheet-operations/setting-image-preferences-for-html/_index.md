@@ -15,7 +15,7 @@ Excel 스프레드시트에서 시각적으로 매력적인 웹 페이지를 만
 코드를 살펴보기 전에 다음 사항이 있는지 확인하세요.
 
 1. Visual Studio 설치: .NET 애플리케이션을 실행하고 테스트하려면 Visual Studio와 같은 개발 환경이 필요합니다.
-2. .NET용 Aspose.Cells: Aspose.Cells를 다운로드하고 설치하세요. 최신 버전은 다음에서 받을 수 있습니다.[Aspose 웹사이트](https://releases.aspose.com/cells/net/).
+2.  .NET용 Aspose.Cells: Aspose.Cells를 다운로드하고 설치하세요. 최신 버전은 다음에서 받을 수 있습니다.[Aspose 웹사이트](https://releases.aspose.com/cells/net/).
 3. C#에 대한 기본 지식: C# 프로그래밍에 익숙하면 예제를 더 잘 이해하는 데 도움이 됩니다.
 4. 샘플 Excel 파일: 작업할 "Book1.xlsx"라는 Excel 파일을 준비합니다. 코드에서 참조할 지정된 폴더에 넣습니다.
 

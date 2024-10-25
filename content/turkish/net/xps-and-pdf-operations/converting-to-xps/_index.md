@@ -50,7 +50,7 @@ Worksheet sheet = workbook.Worksheets[0]; // İlk çalışma sayfasına erişim
 ```
 Bu kod satırı, daha sonraki komutlar için ilk çalışma sayfasına erişmenizi sağlar.
 ## Adım 4: Görüntü ve Yazdırma Seçeneklerini Yapılandırın
-Şimdi çıktımızı nasıl sunmak istediğimizi tanımlamamız gerekiyor. Bu, bir örneğin oluşturulmasını içerir`ImageOrPrintOptions` ve istenilen çıktı formatını ayarlıyoruz.
+ Şimdi çıktımızı nasıl sunmak istediğimizi tanımlamamız gerekiyor. Bu, bir örneğin oluşturulmasını içerir`ImageOrPrintOptions` ve istenilen çıktı formatını ayarlıyoruz.
 ```csharp
 Aspose.Cells.Rendering.ImageOrPrintOptions options = new Aspose.Cells.Rendering.ImageOrPrintOptions();
 options.SaveFormat = SaveFormat.Xps; // Çıktı biçimini XPS olarak ayarlama
@@ -82,4 +82,4 @@ Evet, kodu dizindeki birden fazla dosya arasında döngü oluşturacak ve her do
 ### Yalnızca belirli sayfaları dönüştürmem gerekirse ne olur?
  İstediğiniz sayfanın dizinini belirtebilirsiniz.`SheetRender` Adımlarımızda gösterildiği gibi nesne.
 ### Aspose.Cells hakkında daha fazla bilgiyi nerede bulabilirim?
- Keşfedebilirsiniz[belgeleme](https://reference.aspose.com/cells/net/)Kütüphanede bulunan daha gelişmiş özellikler ve seçenekler için.
+ Keşfedebilirsiniz[belgeleme](https://reference.aspose.com/cells/net/) Kütüphanede bulunan daha gelişmiş özellikler ve seçenekler için.

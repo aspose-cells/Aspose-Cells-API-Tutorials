@@ -60,7 +60,7 @@ Workbook workbook = new Workbook(FileFormatType.Xlsx);
 int index = workbook.ContentTypeProperties.Add("MK31", "Simple Data");
 ```
 
- 이 단계에서는 "MK31"이라는 속성을 추가했고 값은 "Simple Data"입니다.`Add` 이 메서드는 나중에 사용할 수 있는 새로 추가된 속성의 인덱스를 반환합니다.
+ 이 단계에서는 "MK31"이라는 속성을 추가했고 값은 "Simple Data"입니다.`Add`이 메서드는 나중에 사용할 수 있는 새로 추가된 속성의 인덱스를 반환합니다.
 
 ### Nillable 속성 설정
 
@@ -79,7 +79,7 @@ index = workbook.ContentTypeProperties.Add("MK32", DateTime.Now.ToString("yyyy-M
 workbook.ContentTypeProperties[index].IsNillable = true;
 ```
 
-이 스니펫에서는 ISO 8601에 따라 포맷된 현재 날짜와 시간을 사용하여 "MK32"라는 속성을 만듭니다. 다음을 설정하여 이 속성을 null로 만들었습니다.`IsNillable` 에게`true`.
+ 이 스니펫에서는 ISO 8601에 따라 포맷된 현재 날짜와 시간을 사용하여 "MK32"라는 속성을 만듭니다. 다음을 설정하여 이 속성을 null로 만들었습니다.`IsNillable` 에게`true`.
 
 ## 4단계: 통합 문서 저장
 
@@ -120,4 +120,4 @@ Console.WriteLine("WorkingWithContentTypeProperties executed successfully.");
 물론입니다! 적절하게 직렬화할 수만 있다면 콘텐츠 유형 속성에 복잡한 객체를 추가할 수 있습니다.
 
 ### 더 많은 문서는 어디에서 찾을 수 있나요?
- 더 자세한 지침은 다음을 참조하세요.[Aspose.Cells 문서](https://reference.aspose.com/cells/net/).
+더 자세한 지침은 다음을 참조하세요.[Aspose.Cells 문서](https://reference.aspose.com/cells/net/).

@@ -18,7 +18,7 @@ Zanim zaczniemy, oto kilka rzeczy, które powinieneś wiedzieć, aby zapewnić s
 1. Podstawowa znajomość języka C#: Ponieważ będziemy pisać kod w języku C#, podstawowa znajomość tego języka pomoże Ci szybko zrozumieć podstawowe koncepcje.
 2.  Biblioteka Aspose.Cells dla .NET: Musisz pobrać bibliotekę Aspose.Cells dla .NET. Możesz ją pobrać ze strony[Link do pobrania](https://releases.aspose.com/cells/net/).
 3. Visual Studio: To fantastyczne środowisko do pisania i testowania kodu .NET. Upewnij się, że jest poprawnie zainstalowany na Twoim komputerze. 
-4. Plik Excel: Będziesz potrzebować pliku Excel zawierającego kilka formuł do pracy. Będziemy używać pliku o nazwie`Book1.xlsx`, ale możesz użyć swojego własnego!
+4.  Plik Excel: Będziesz potrzebować pliku Excel zawierającego kilka formuł do pracy. Będziemy używać pliku o nazwie`Book1.xlsx`ale możesz użyć swojego własnego!
 
 Gotowi zapiąć pasy i zacząć śledzić te komórki? Przejdźmy do konkretów!
 
@@ -84,11 +84,11 @@ Teraz, gdy mamy otwarty skoroszyt, czas na poszczególne komórki. Możemy to zr
 Cells cells = workbook.Worksheets[0].Cells;
 ```
 
-Wyjaśnienie: Powyższy kod ma na celu pierwszy arkusz roboczy (indeks 0) w naszym skoroszycie i pobiera`Cells` kolekcja, którą wykorzystamy do śledzenia osób zależnych.
+ Wyjaśnienie: Powyższy kod ma na celu pierwszy arkusz roboczy (indeks 0) w naszym skoroszycie i pobiera`Cells` kolekcja, którą wykorzystamy do śledzenia osób zależnych.
 
 ## Krok 4: Wybierz komórkę
 
- W celach demonstracyjnych chcemy prześledzić zależności konkretnej komórki, w tym przypadku`B2`. Zakodujmy to:
+ celach demonstracyjnych chcemy prześledzić zależności konkretnej komórki, w tym przypadku`B2`. Zakodujmy to:
 
 ```csharp
 Cell cell = cells["B2"];
@@ -118,11 +118,11 @@ foreach (Cell c in cell.GetDependents(true))
 Console.ReadKey();
 ```
 
-Wyjaśnienie: Ta pętla przechodzi przez każdą zależną komórkę w naszej tablicy i drukuje jej nazwę — całkiem proste!`Console.ReadKey()` zapewnia, że okno konsoli pozostanie otwarte do momentu naciśnięcia klawisza, dając Ci czas na odczytanie wyników.
+ Wyjaśnienie: Ta pętla przechodzi przez każdą zależną komórkę w naszej tablicy i drukuje jej nazwę — całkiem proste!`Console.ReadKey()` zapewnia, że okno konsoli pozostanie otwarte do momentu naciśnięcia klawisza, dając Ci czas na odczytanie wyników.
 
 ## Wniosek
 
-I masz to! Udało Ci się prześledzić zależne komórki w programie Excel przy użyciu Aspose.Cells dla .NET! Ta prosta, ale potężna technika może znacznie zwiększyć Twoją zdolność do zarządzania złożonymi arkuszami kalkulacyjnymi. Pamiętaj, zrozumienie, w jaki sposób Twoje dane są połączone, może zaoszczędzić Ci wielu problemów w dłuższej perspektywie! Tak więc, niezależnie od tego, czy jest to prosty raport, czy złożony model finansowy, ta umiejętność jest bezcenna.
+masz to! Udało Ci się prześledzić zależne komórki w programie Excel przy użyciu Aspose.Cells dla .NET! Ta prosta, ale potężna technika może znacznie zwiększyć Twoją zdolność do zarządzania złożonymi arkuszami kalkulacyjnymi. Pamiętaj, zrozumienie, w jaki sposób Twoje dane są połączone, może zaoszczędzić Ci wielu problemów w dłuższej perspektywie! Tak więc, niezależnie od tego, czy jest to prosty raport, czy złożony model finansowy, ta umiejętność jest bezcenna.
 
 ## Najczęściej zadawane pytania
 

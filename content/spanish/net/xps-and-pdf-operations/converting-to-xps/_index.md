@@ -50,7 +50,7 @@ Worksheet sheet = workbook.Worksheets[0]; // Accediendo a la primera hoja de tra
 ```
 Esta línea de código le permite acceder a la primera hoja de trabajo para obtener más comandos.
 ## Paso 4: Configurar las opciones de imagen e impresión
-Ahora debemos definir cómo queremos representar nuestra salida. Esto implica crear una instancia de`ImageOrPrintOptions` y configurar el formato de salida deseado.
+ Ahora debemos definir cómo queremos representar nuestra salida. Esto implica crear una instancia de`ImageOrPrintOptions` y configurar el formato de salida deseado.
 ```csharp
 Aspose.Cells.Rendering.ImageOrPrintOptions options = new Aspose.Cells.Rendering.ImageOrPrintOptions();
 options.SaveFormat = SaveFormat.Xps; // Establecer el formato de salida a XPS
@@ -82,4 +82,4 @@ Sí, puedes adaptar el código para recorrer varios archivos en el directorio y 
 ### ¿Qué pasa si solo necesito convertir hojas específicas?
  Puede especificar el índice de la hoja que desee en el`SheetRender` objeto como se muestra en nuestros pasos.
 ### ¿Dónde puedo encontrar más información sobre Aspose.Cells?
- Puedes explorar el[documentación](https://reference.aspose.com/cells/net/)para obtener funciones y opciones más avanzadas disponibles con la biblioteca.
+ Puedes explorar el[documentación](https://reference.aspose.com/cells/net/) para obtener funciones y opciones más avanzadas disponibles con la biblioteca.

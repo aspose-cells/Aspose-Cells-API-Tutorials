@@ -9,7 +9,7 @@ url: /hu/net/excel-autofilter-validation/decimal-data-validation-in-excel/
 ---
 ## Bevezetés
 
-pontos adatokat tartalmazó táblázatok készítése elengedhetetlen az egyértelmű kommunikációhoz bármely vállalkozásban. Az adatok pontosságának biztosításának egyik módja az adatellenőrzés az Excelben. Ebben az oktatóanyagban az Aspose.Cells for .NET erejét fogjuk hasznosítani egy decimális adatellenőrzési mechanizmus létrehozásához, amely megbízhatóan és tisztán tartja adatait. Ha Excel játékot keres, jó helyen jár!
+A pontos adatokat tartalmazó táblázatok készítése elengedhetetlen az egyértelmű kommunikációhoz bármely vállalkozásban. Az adatok pontosságának biztosításának egyik módja az adatellenőrzés az Excelben. Ebben az oktatóanyagban az Aspose.Cells for .NET erejét fogjuk hasznosítani egy decimális adatellenőrzési mechanizmus létrehozásához, amely megbízhatóan és tisztán tartja adatait. Ha Excel játékot keres, jó helyen jár!
 
 ## Előfeltételek
 
@@ -191,7 +191,7 @@ workbook.Save(dataDir + "output.out.xls");
 
 ## Következtetés
 
-decimális adatok érvényesítésének végrehajtása Excelben az Aspose.Cells for .NET használatával gyerekjáték, ha követi ezeket az egyszerű lépéseket. Nemcsak arról gondoskodik, hogy az adatok tiszták és strukturáltak maradjanak, hanem javítja a táblázatok általános adatintegritását is, így azok megbízhatóak és felhasználóbarátok.
+A decimális adatok érvényesítésének végrehajtása Excelben az Aspose.Cells for .NET használatával gyerekjáték, ha követi ezeket az egyszerű lépéseket. Nemcsak arról gondoskodik, hogy az adatok tiszták és strukturáltak maradjanak, hanem javítja a táblázatok általános adatintegritását is, így azok megbízhatóak és felhasználóbarátok.
 Legyen szó pénzügyről, projektmenedzsmentről vagy bármilyen adatjelentést használó területről, ezen készségek elsajátítása jelentősen növeli termelékenységét. Szóval hajrá, próbáld ki! A táblázatai hálásak lesznek érte.
 
 ## GYIK
@@ -203,7 +203,7 @@ Az adatellenőrzés az Excelben egy olyan szolgáltatás, amely korlátozza az a
 Igen! Egyéni hibaüzeneteket biztosíthat, amelyek útmutatást nyújtanak a felhasználók számára, ha helytelen adatbevitelt végeznek.
 
 ### Az Aspose.Cells ingyenesen használható?
-Az Aspose.Cells ingyenes próbaverziót kínál, de a hosszú távú használathoz licencre lesz szüksége. Az ideiglenes engedély megszerzéséről további információkat talál[itt](https://purchase.aspose.com/temporary-license/).
+ Az Aspose.Cells ingyenes próbaverziót kínál, de a hosszú távú használathoz licencre lesz szüksége. Az ideiglenes engedély megszerzéséről további információkat talál[itt](https://purchase.aspose.com/temporary-license/).
 
 ### Milyen adattípusokat ellenőrizhetek Excelben?
 Az Aspose.Cells segítségével különféle adattípusokat ellenőrizhet, beleértve az egész számokat, a tizedesjegyeket, a dátumokat, a listákat és az egyéni képleteket.

@@ -79,9 +79,9 @@ Här skapar vi den första arbetsboken och fyller i det första kalkylbladet (`w
 Låt oss konfigurera sidinställningarna för att upprepa rubrikrader vid utskrift, bara så att vi kan se den funktionen i aktion:
 
 ```csharp
-//Definiera ett siduppsättningsobjekt baserat på det första kalkylbladet
+// Definiera ett siduppsättningsobjekt baserat på det första kalkylbladet
 PageSetup pagesetup = ws0.PageSetup;
-// De första fem raderna upprepas på varje sida
+//De första fem raderna upprepas på varje sida
 pagesetup.PrintTitleRows = "$1:$5";
 ```
  Den här delen definierar hur ditt dokument ska skrivas ut. Genom att ställa in`PrintTitleRows`, ser vi till att de första fem raderna kommer att visas på varje utskriven sida, vilket är super användbart för läsbarheten.
@@ -109,7 +109,7 @@ Låt oss kopiera innehållet från den första arbetsbokens kalkylblad till den 
 // första arbetsbladet i den andra arbetsboken
 ws1.Copy(ws0);
 ```
- De`Copy` metoden tar allt innehåll från källarbetsbladet (`ws0`och duplicerar det till målarbetsbladet (`ws1`). Så enkelt, eller hur?
+ De`Copy` metoden tar allt innehåll från källarbetsbladet (`ws0`) och duplicerar det till målarbetsbladet (`ws1`). Så enkelt, eller hur?
 
 ## Steg 6: Spara den nya arbetsboken
 

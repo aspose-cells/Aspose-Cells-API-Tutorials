@@ -56,7 +56,7 @@ Qui puoi creare un flusso di file per leggere il file Excel.
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
   
- IL`FileStream` class ti consente di leggere e scrivere su file. In questo caso, stiamo aprendo il nostro file Excel in modalità lettura.
+ IL`FileStream`class ti consente di leggere e scrivere su file. In questo caso, stiamo aprendo il nostro file Excel in modalità lettura.
 
 ## Passaggio 3: creare un'istanza di un oggetto cartella di lavoro
 
@@ -67,7 +67,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 Workbook workbook = new Workbook(fstream);
 ```
   
- Questo`Workbook`L'oggetto ora contiene tutti i dati e le impostazioni del file Excel, consentendone la manipolazione in un secondo momento nel processo.
+ Questo`Workbook` L'oggetto ora contiene tutti i dati e le impostazioni del file Excel, consentendone la manipolazione in un secondo momento nel processo.
 
 ## Passaggio 4: nascondere la barra di scorrimento verticale
 
@@ -132,4 +132,4 @@ Seguendo questi semplici passaggi, hai imparato come visualizzare e nascondere l
  Controllare il[Documentazione di Aspose.Cells](https://reference.aspose.com/cells/net/) per ulteriori esempi e tutorial.
 
 ### Cosa succede se riscontro problemi durante l'utilizzo di Aspose.Cells?  
- Puoi cercare aiuto o segnalare problemi nel forum di supporto di Aspose[Qui](https://forum.aspose.com/c/cells/9).
+Puoi cercare aiuto o segnalare problemi nel forum di supporto di Aspose[Qui](https://forum.aspose.com/c/cells/9).

@@ -38,7 +38,7 @@ Als u deze pakketten importeert, krijgt u toegang tot de Aspose.Cells-bibliothee
 
 ## Stap 1: Initialiseer uitvoer- en bronmappen
 
-In deze eerste stap definiëren we de mappen waarin onze uitvoer- en bronbestanden worden opgeslagen. 
+In deze eerste stap definiëren we de mappen waar onze uitvoer- en bronbestanden worden opgeslagen. 
 
 ```csharp
 // Uitvoermap

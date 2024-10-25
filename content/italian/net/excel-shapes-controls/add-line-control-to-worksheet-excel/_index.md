@@ -42,7 +42,7 @@ string dataDir = "Your Document Directory";
 ## Passaggio 2: creare la directory
 È una buona norma assicurarsi che la directory esista. In caso contrario, puoi crearla con il seguente codice:
 ```csharp
-//Creare la directory se non è già presente.
+// Creare la directory se non è già presente.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -80,7 +80,7 @@ line1.Line.DashStyle = MsoLineDashStyle.Solid;
 line1.Placement = PlacementType.FreeFloating;
 ```
  Qui, stiamo dicendo alla linea di rimanere in un posto indipendentemente dalle modifiche nella struttura del foglio di lavoro utilizzando`PlacementType.FreeFloating`.
-## Passaggio 7: aggiungere linee aggiuntive
+## Passaggio 7: aggiungere altre righe
 Aggiungiamo una seconda riga con uno stile diverso, utilizzando uno stile tratteggiato.
 ```csharp
 // Aggiungere un'altra riga al foglio di lavoro.

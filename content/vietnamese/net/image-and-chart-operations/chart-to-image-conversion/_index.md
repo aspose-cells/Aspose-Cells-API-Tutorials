@@ -36,7 +36,7 @@ Chúng ta bắt đầu bằng cách xác định đường dẫn cho thư mục 
 ```csharp
 // Xác định thư mục để lưu hình ảnh
 string dataDir = "Your Document Directory";
-// Kiểm tra xem thư mục có tồn tại không
+//Kiểm tra xem thư mục có tồn tại không
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -93,7 +93,7 @@ chart.NSeries.Add("A1:B3", true);
 ## Bước 7: Chuyển đổi biểu đồ thành hình ảnh
 Khoảnh khắc quan trọng: chúng ta sẽ chuyển đổi biểu đồ này thành tệp hình ảnh!
 
- Ở đây, chúng tôi sử dụng`ToImage`phương pháp chuyển đổi biểu đồ sang định dạng hình ảnh theo lựa chọn của bạn. Trong trường hợp này, chúng tôi đang chuyển đổi nó sang định dạng EMF (Enhanced Metafile).
+ Ở đây, chúng tôi sử dụng`ToImage` phương pháp chuyển đổi biểu đồ sang định dạng hình ảnh theo lựa chọn của bạn. Trong trường hợp này, chúng tôi đang chuyển đổi nó sang định dạng EMF (Enhanced Metafile).
 ```csharp
 // Chuyển đổi biểu đồ thành hình ảnh và lưu vào thư mục
 chart.ToImage(dataDir + "Chart.emf", ImageFormat.Emf);

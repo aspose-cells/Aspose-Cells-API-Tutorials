@@ -2,7 +2,7 @@
 title: Tartományok formázása Excelben
 linktitle: Tartományok formázása Excelben
 second_title: Aspose.Cells .NET Excel Processing API
-description: Sajátítsa el a tartományok formázásának művészetét az Excelben az Aspose.Cells for .NET segítségével átfogó, lépésenkénti útmutatónkkal. Emelje fel az adatok megjelenítését.
+description: Sajátítsa el a tartományok formázásának művészetét az Excelben az Aspose.Cells for .NET segítségével átfogó, lépésről lépésre szóló útmutatónkkal. Emelje fel az adatok megjelenítését.
 type: docs
 weight: 11
 url: /hu/net/excel-creating-formatting-named-ranges/format-ranges/
@@ -37,7 +37,7 @@ Most bontsuk le a tartományok formázásának folyamatát egy Excel-táblázatb
 
 ## 1. lépés: Adja meg a dokumentumkönyvtárat
 
-Először is létre kell hoznia egy változót, amely tartalmazza az Excel-dokumentumot menteni kívánt útvonalat. 
+Először is létre kell hoznia egy változót, amely tartalmazza az Excel-dokumentumot menteni kívánt elérési utat. 
 
 ```csharp
 string dataDir = "Your Document Directory"; // Itt adja meg a könyvtárát
@@ -53,7 +53,7 @@ Ezután létrehozzuk a munkafüzet egy példányát. Ez olyan, mintha egy új ü
 Workbook workbook = new Workbook();
 ```
 
-Magyarázat: A`Workbook` osztály egy Excel fájlt jelent. A példányosítással lényegében egy új Excel-dokumentumot hoz létre, amelyet kezelhet.
+ Magyarázat: A`Workbook` osztály egy Excel fájlt jelent. A példányosítással lényegében egy új Excel-dokumentumot hoz létre, amelyet kezelhet.
 
 ## 3. lépés: Nyissa meg az első munkalapot
 
@@ -138,7 +138,7 @@ flg.Font = true; // Betűtípus-attribútumok engedélyezése
 flg.CellShading = true; // Cellaárnyékolás engedélyezése
 ```
 
-Magyarázat: A`StyleFlag` Az objektum megmondja a könyvtárnak, hogy mely stílustulajdonságokat szeretnénk alkalmazni – olyan, mint egy teendőlistán lévő négyzetek kipipálása!
+ Magyarázat: A`StyleFlag` Az objektum megmondja a könyvtárnak, hogy mely stílustulajdonságokat szeretnénk alkalmazni – olyan, mint egy teendőlistán lévő négyzetek kipipálása!
 
 ## 11. lépés: Alkalmazza a stílust a tartományra
 

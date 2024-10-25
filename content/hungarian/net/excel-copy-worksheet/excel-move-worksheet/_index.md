@@ -32,7 +32,7 @@ Az Aspose.Cells-szel való sikeres munka első lépése a szükséges csomagok i
 
 ### Adja hozzá az Aspose.Cells Reference hivatkozást
 
-- Kattintson a jobb gombbal a projektre a Solution Explorerben, és válassza a "NuGet-csomagok kezelése" lehetőséget.
+- Kattintson a jobb gombbal a projektre a Solution Explorerben, és válassza a „NuGet-csomagok kezelése” lehetőséget.
 - Keresse meg az "Aspose.Cells" kifejezést, és telepítse a könyvtárat.
 
 ### Hozzáadás nyilatkozatok használatával
@@ -121,7 +121,7 @@ Az Aspose.Cells for .NET egy olyan könyvtár, amely az Excel-táblázatok progr
 Igen! Míg ez az útmutató a .NET-re összpontosít, az Aspose.Cells Java, Python és más nyelveken is elérhető.
 
 ### Létezik ingyenes próbaverzió az Aspose.Cells számára?
- Teljesen! Megteheti[tölts le egy ingyenes próbaverziót](https://releases.aspose.com/) és fedezze fel jellemzőit.
+ Teljesen! Tudod[ingyenes próbaverzió letöltése](https://releases.aspose.com/) és fedezze fel jellemzőit.
 
 ### Hogyan kaphatok támogatást az Aspose.Cells-hez?
  Meglátogathatja a[Aspose támogatási fórum](https://forum.aspose.com/c/cells/9) kérdéseket feltenni és megoldásokat találni.

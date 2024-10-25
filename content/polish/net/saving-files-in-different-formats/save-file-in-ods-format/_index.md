@@ -12,7 +12,7 @@ Czy kiedykolwiek zastanawiałeś się, jak bez wysiłku zapisywać pliki arkuszy
 ## Wymagania wstępne
 Zanim przejdziemy do szczegółów, upewnijmy się, że wszystko skonfigurowaliśmy poprawnie:
 - .NET Framework: Upewnij się, że masz zainstalowany .NET Framework na swoim komputerze. Możesz użyć dowolnej wersji zgodnej z Aspose.Cells dla .NET.
-- Biblioteka Aspose.Cells: Musisz pobrać bibliotekę Aspose.Cells. To potężne narzędzie, które pozwala zarządzać plikami Excel i nie tylko. Możesz je pobrać ze strony[link do pobrania](https://releases.aspose.com/cells/net/).
+-  Biblioteka Aspose.Cells: Musisz pobrać bibliotekę Aspose.Cells. To potężne narzędzie, które pozwala zarządzać plikami Excel i nie tylko. Możesz je pobrać ze strony[link do pobrania](https://releases.aspose.com/cells/net/).
 - Środowisko programistyczne: Niezbędne jest odpowiednie środowisko programistyczne, np. Visual Studio, w którym można pisać i wykonywać kod .NET.
 Teraz, gdy spełniliśmy już wszystkie wymagania wstępne, możemy zaimportować niezbędne pakiety.
 ## Importuj pakiety

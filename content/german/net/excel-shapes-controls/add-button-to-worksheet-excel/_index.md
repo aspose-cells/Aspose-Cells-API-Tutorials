@@ -31,7 +31,7 @@ In diesem ersten Schritt erstellen wir eine neue Excel-Arbeitsmappe und erhalten
 ```csharp
 // Definieren Sie den Pfad zu Ihrem Dokumentverzeichnis.
 string dataDir = "Your Document Directory";
-//Erstellen Sie ein Verzeichnis, falls es noch nicht vorhanden ist.
+// Erstellen Sie ein Verzeichnis, falls es noch nicht vorhanden ist.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
 	System.IO.Directory.CreateDirectory(dataDir);

@@ -17,7 +17,7 @@ Excel je velmoc, pokud jde o správu dat, ale někdy potřebuje trochu vyleštit
 
 ## Přidejte oblast ověření do buněk v aplikaci Excel
 
- Nyní se pojďme ponořit do ověřování dat. Pokud jste se někdy potýkali s bolestí hlavy z nesprávného zadávání dat, budete vědět, že to může vykolejit ty nejlepší tabulky. Ale nebojte se – poradíme vám! V našem průvodci na[Přidejte oblast ověření do buněk v aplikaci Excel]()ukážeme vám, jak implementovat oblasti ověřování pomocí Aspose.Cells pro .NET. Nastavte limity toho, jaká data lze zadávat do vašich buněk pomocí několika řádků kódu. Je to jako mít přátelského vyhazovače u dveří vašich dat – dovnitř jsou povoleny pouze ty správné položky! To zajišťuje, že vaše data zůstanou přesná a spolehlivá, což je zásadní pro jakýkoli projekt nebo analýzu.
+ Nyní se pojďme ponořit do ověřování dat. Pokud jste někdy čelili bolesti hlavy z nesprávného zadávání dat, budete vědět, že to může vykolejit ty nejlepší tabulky. Ale nebojte se – poradíme vám! V našem průvodci na[Přidejte oblast ověření do buněk v aplikaci Excel]()ukážeme vám, jak implementovat oblasti ověřování pomocí Aspose.Cells pro .NET. Nastavte limity toho, jaká data lze zadávat do vašich buněk pomocí několika řádků kódu. Je to jako mít přátelského vyhazovače u dveří vašich dat – dovnitř jsou povoleny pouze ty správné položky! To zajišťuje, že vaše data zůstanou přesná a spolehlivá, což je zásadní pro jakýkoli projekt nebo analýzu.
 
 ## Výukové programy pro ověřování a filtrování dat v Excelu
 ### [Použít rozšířený filtr aplikace Microsoft Excel v C#](./apply-advanced-filter-of-microsoft-excel-in-csharp/)

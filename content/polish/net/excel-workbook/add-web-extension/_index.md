@@ -86,9 +86,9 @@ extension.Reference.StoreName = "en-US";
 extension.Reference.StoreType = WebExtensionStoreType.OMEX;
 ```
 
-- Id: To jest unikalny identyfikator rozszerzenia internetowego. Dostępne rozszerzenia można znaleźć w sklepie Office Store.
+- Id: To jest unikalny identyfikator rozszerzenia internetowego. Dostępne rozszerzenia znajdziesz w sklepie Office Store.
 - StoreName: Określa język ustawień regionalnych.
--  StoreType: Tutaj ustawiamy to na`OMEX`, co oznacza pakiet rozszerzenia sieciowego.
+-  StoreType: Tutaj ustawiliśmy to na`OMEX`, co oznacza pakiet rozszerzenia sieciowego.
 
 ## Krok 6: Dodaj i skonfiguruj panel zadań
 
@@ -126,7 +126,7 @@ Zawsze dobrze jest otrzymać opinię. Ta wiadomość potwierdza, że rozszerzeni
 
 ## Wniosek
 
-Dodawanie rozszerzeń internetowych do skoroszytów programu Excel przy użyciu Aspose.Cells dla .NET to prosty proces, który może znacznie zwiększyć funkcjonalność i interaktywność arkuszy kalkulacyjnych. Dzięki krokom opisanym w tym przewodniku możesz teraz ustanowić pomost między danymi programu Excel a usługami internetowymi, otwierając drzwi do mnóstwa możliwości. Niezależnie od tego, czy chcesz wdrożyć analizę, połączyć się z interfejsami API, czy po prostu zwiększyć interakcję użytkownika, Aspose.Cells ma dla Ciebie rozwiązanie!
+Dodawanie rozszerzeń internetowych do skoroszytów programu Excel za pomocą Aspose.Cells dla .NET to prosty proces, który może znacznie zwiększyć funkcjonalność i interaktywność arkuszy kalkulacyjnych. Dzięki krokom opisanym w tym przewodniku możesz teraz ustanowić pomost między danymi programu Excel a usługami internetowymi, otwierając drzwi do mnóstwa możliwości. Niezależnie od tego, czy chcesz wdrożyć analizę, połączyć się z interfejsami API, czy po prostu zwiększyć interakcję użytkownika, Aspose.Cells ma dla Ciebie rozwiązanie!
 
 ## Najczęściej zadawane pytania
 

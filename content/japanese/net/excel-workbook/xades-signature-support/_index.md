@@ -77,7 +77,7 @@ DigitalSignature signature = new DigitalSignature(File.ReadAllBytes(pfx), passwo
 signature.XAdESType = XAdESType.XAdES;
 ```
 
-このスニペットでは、PFXファイルをバイト配列に読み込み、新しい`DigitalSignature`オブジェクトを設定します。`XAdESType`に`XAdES`、これは私たちの署名にとって不可欠です。
+このスニペットでは、PFXファイルをバイト配列に読み込み、新しい`DigitalSignature`オブジェクトを設定します。`XAdESType`に`XAdES`これは私たちの署名にとって不可欠です。
 
 ## ステップ5: ワークブックに署名を追加する
 
@@ -100,7 +100,7 @@ workbook.Save(outputDir + "XAdESSignatureSupport_out.xlsx");
 Console.WriteLine("XAdESSignatureSupport executed successfully.");
 ```
 
-このコードでは、ワークブックを新しい名前で保存します。`XAdESSignatureSupport_out.xlsx`、出力ディレクトリに保存されます。この手順が完了すると、コンソールに成功メッセージが表示されます。
+このコードでは、ワークブックを新しい名前で保存します。`XAdESSignatureSupport_out.xlsx`、出力ディレクトリにあります。この手順が完了すると、コンソールに成功メッセージが表示されます。
 
 ## 結論
 
@@ -118,7 +118,7 @@ Xades (XML Advanced Electronic Signatures) は、電子文書の整合性と信�
 ### 購入前に Aspose.Cells for .NET をテストできますか?
 もちろんです！無料トライアルは[Aspose ウェブサイト](https://releases.aspose.com/).
 
-### Aspose.Cells はすべてのバージョンの .NET と互換性がありますか?
+### Aspose.Cells は .NET のすべてのバージョンと互換性がありますか?
  Aspose.Cellsは.NETフレームワークのさまざまなバージョンをサポートしています。[ドキュメント](https://reference.aspose.com/cells/net/)互換性の詳細については、こちらをご覧ください。
 
 ### 問題が発生した場合、どこでサポートを受けることができますか?

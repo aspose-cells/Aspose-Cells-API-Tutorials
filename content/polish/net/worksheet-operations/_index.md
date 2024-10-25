@@ -13,7 +13,7 @@ Czy jesteś gotowy, aby zanurzyć się w świecie Aspose.Cells dla .NET? Jeśli 
 
 ## Pobierz hiperłącza w zakresie w .NET
 
-Jedną z często pomijanych funkcji programu Excel jest możliwość pracy z hiperłączami. Czy wiesz, że dzięki Aspose.Cells for .NET możesz łatwo wyodrębnić i zarządzać hiperłączami ze swoich arkuszy kalkulacyjnych? To prawda! Ten samouczek przeprowadzi Cię przez proces krok po kroku, wraz z fragmentami kodu i przykładami. Wyobraź sobie, że pracujesz nad ogromnym raportem i musisz wyciągnąć wszystkie rozproszone po nim łącza. Zamiast przekopywać się przez każdą komórkę, możesz zautomatyzować to zadanie.[Przeczytaj więcej](./get-hyperlinks-in-a-range/).
+ Jedną z często pomijanych funkcji programu Excel jest możliwość pracy z hiperłączami. Czy wiesz, że dzięki Aspose.Cells for .NET możesz łatwo wyodrębnić i zarządzać hiperłączami ze swoich arkuszy kalkulacyjnych? To prawda! Ten samouczek przeprowadzi Cię przez proces krok po kroku, wraz z fragmentami kodu i przykładami. Wyobraź sobie, że pracujesz nad ogromnym raportem i musisz wyciągnąć wszystkie rozproszone po nim łącza. Zamiast przekopywać się przez każdą komórkę, możesz zautomatyzować to zadanie.[Przeczytaj więcej](./get-hyperlinks-in-a-range/).
 
 Ten samouczek nie kończy się tylko na ekstrakcji; uczy również, jak manipulować tymi hiperlinkami, wprowadzając zmiany w locie. Wyobraź sobie: wyodrębniłeś cały szereg hiperlinków, a teraz, dzięki kilku linijkom kodu, możesz je wszystkie zaktualizować na raz! Oszczędzi ci to mnóstwo czasu i potencjalnych bólów głowy.
 
@@ -21,7 +21,7 @@ Ten samouczek nie kończy się tylko na ekstrakcji; uczy również, jak manipulo
 
 Teraz zmieńmy nieco biegi. Czy kiedykolwiek konwertowałeś plik Excela do HTML i byłeś rozczarowany jego wyglądem? Cóż, nie martw się już! Nasz samouczek dotyczący ustawiania preferencji obrazu dla konwersji HTML jest dokładnie tym, czego potrzebujesz. Podczas prezentowania danych Excela online prezentacja jest kluczowa. Wszyscy wiemy, że pierwsze wrażenie ma znaczenie, prawda?
 
- W tym przewodniku dowiesz się, jak poprawić atrakcyjność wizualną danych Excela po konwersji do HTML. Niezależnie od tego, czy chodzi o ustawienie rozmiaru obrazów, czy zapewnienie ich prawidłowego wyświetlania na różnych urządzeniach, ten samouczek obejmuje wszystko. Opanowując te ustawienia, możesz zapewnić, że Twoje dane będą się wyróżniać w Internecie. Kto nie chciałby, aby jego odbiorcy byli zachwyceni pięknie zaprezentowanymi danymi?[Przeczytaj więcej](./setting-image-preferences-for-html/).
+ tym przewodniku dowiesz się, jak poprawić atrakcyjność wizualną danych Excela po konwersji do HTML. Niezależnie od tego, czy chodzi o ustawienie rozmiaru obrazów, czy zapewnienie ich prawidłowego wyświetlania na różnych urządzeniach, ten samouczek obejmuje wszystko. Opanowując te ustawienia, możesz zapewnić, że Twoje dane będą się wyróżniać w Internecie. Kto nie chciałby, aby jego odbiorcy byli zachwyceni pięknie zaprezentowanymi danymi?[Przeczytaj więcej](./setting-image-preferences-for-html/).
 
 ## Samouczki dotyczące operacji arkusza kalkulacyjnego
 ### [Pobierz hiperłącza w zakresie w .NET](./get-hyperlinks-in-a-range/)

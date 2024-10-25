@@ -38,7 +38,7 @@ Först måste vi se till att katalogen för att spara vår Excel-fil finns. Dett
 ```csharp
 // Sökvägen till dokumentkatalogen.
 string dataDir = "Your Document Directory";
-//Skapa katalog om den inte redan finns.
+// Skapa katalog om den inte redan finns.
 bool isExists = System.IO.Directory.Exists(dataDir);
 if (!isExists)
     System.IO.Directory.CreateDirectory(dataDir);

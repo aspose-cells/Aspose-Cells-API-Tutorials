@@ -203,7 +203,7 @@ Excel'de veri doğrulama, belirli bir hücreye veya aralığa girilebilecek veri
 Evet! Yanlış veri girişleri yapıldığında kullanıcıları yönlendirmek için özel hata mesajları sağlayabilirsiniz.
 
 ### Aspose.Cells'i kullanmak ücretsiz mi?
-Aspose.Cells ücretsiz deneme sunuyor ancak uzun süreli kullanım için bir lisansa ihtiyacınız olacak. Geçici bir lisans edinme hakkında daha fazla bilgi bulabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+ Aspose.Cells ücretsiz deneme sunuyor ancak uzun süreli kullanım için bir lisansa ihtiyacınız olacak. Geçici bir lisans edinme hakkında daha fazla bilgi bulabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
 
 ### Excel'de hangi veri türlerini doğrulayabilirim?
 Aspose.Cells ile tam sayılar, ondalıklar, tarihler, listeler ve özel formüller dahil olmak üzere çeşitli veri türlerini doğrulayabilirsiniz.

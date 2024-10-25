@@ -2,7 +2,7 @@
 title: Текстовые функции Excel раскрыты
 linktitle: Текстовые функции Excel раскрыты
 second_title: API обработки Java Excel Aspose.Cells
-description: Раскройте секреты текстовых функций Excel с помощью Aspose.Cells для Java. Научитесь без труда манипулировать, извлекать и преобразовывать текст в Excel.
+description: Раскройте секреты текстовых функций Excel с помощью Aspose.Cells для Java. Научитесь без усилий манипулировать, извлекать и преобразовывать текст в Excel.
 type: docs
 weight: 18
 url: /ru/java/basic-excel-functions/excel-text-functions-demystified/
@@ -39,12 +39,12 @@ workbook.calculateFormula();
 
 Теперь ячейка C1 будет содержать «Hello, World!».
 
-## LEFT и RIGHT — Извлечение текста
+## ЛЕВЫЙ и ПРАВЫЙ — Извлечение текста
 
  The`LEFT` и`RIGHT` Функции позволяют извлекать указанное количество символов слева или справа от текстовой строки. Вот как их можно использовать:
 
 ```java
-// Код Java для извлечения текста с помощью Aspose.Cells
+// Java-код для извлечения текста с помощью Aspose.Cells
 Cell cell = worksheet.getCells().get("A2");
 cell.putValue("Excel Rocks!");
 

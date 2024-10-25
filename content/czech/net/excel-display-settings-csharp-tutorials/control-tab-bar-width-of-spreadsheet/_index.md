@@ -102,7 +102,7 @@ Pokud je šířka nastavena příliš velká, karty se mohou roztáhnout za vidi
 ### Je možné přizpůsobit šířky jednotlivých karet?
 Ne, Aspose.Cells neumožňuje individuální úpravy šířky karet, pouze celkovou šířku lišty karet.
 
-### Jak mohu vrátit změny šířky karty?
+### Jak mohu vrátit zpět změny šířky karty?
  Jednoduše resetujte`workbook.Settings.SheetTabBarWidth` na výchozí hodnotu (která je obvykle kolem 300).
 
 ### Podporuje Aspose.Cells další možnosti přizpůsobení pro karty?

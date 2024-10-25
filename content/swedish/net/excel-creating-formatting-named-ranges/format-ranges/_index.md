@@ -53,7 +53,7 @@ Nästa upp kommer vi att skapa en instans av arbetsboken. Det här är som att �
 Workbook workbook = new Workbook();
 ```
 
-Förklaring: The`Workbook` klass representerar en Excel-fil. Genom att instansiera det skapar du i princip ett nytt Excel-dokument som du kan manipulera.
+ Förklaring: The`Workbook` klass representerar en Excel-fil. Genom att instansiera det skapar du i princip ett nytt Excel-dokument som du kan manipulera.
 
 ## Steg 3: Öppna det första arbetsbladet
 
@@ -138,7 +138,7 @@ flg.Font = true; // Aktivera teckensnittsattribut
 flg.CellShading = true; // Aktivera cellskuggning
 ```
 
-Förklaring: The`StyleFlag` objekt talar om för biblioteket vilka stilegenskaper vi vill använda – ungefär som att bocka av rutor på en att-göra-lista!
+ Förklaring: The`StyleFlag` objekt talar om för biblioteket vilka stilegenskaper vi vill använda – ungefär som att bocka av rutor på en att-göra-lista!
 
 ## Steg 11: Tillämpa stilen på intervallet
 

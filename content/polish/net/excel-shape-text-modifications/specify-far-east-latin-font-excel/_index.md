@@ -14,7 +14,7 @@ Zanim przejdziemy do szczegółów, jest kilka rzeczy, które musisz skonfigurow
 ### .NET Framework czy .NET Core
 Upewnij się, że masz zainstalowany .NET Framework lub .NET Core na swoim komputerze. Ta biblioteka dobrze współpracuje z obydwoma.
 ### Instalacja Aspose.Cells
-Musisz pobrać bibliotekę Aspose.Cells. Możesz[pobierz stąd](https://releases.aspose.com/cells/net/) . Jeśli nie jesteś zaznajomiony z instalacją pakietów NuGet, postępuj zgodnie z[ten przewodnik](https://www.nuget.org/).
+ Musisz pobrać bibliotekę Aspose.Cells. Możesz[pobierz stąd](https://releases.aspose.com/cells/net/) . Jeśli nie jesteś zaznajomiony z instalacją pakietów NuGet, postępuj zgodnie z[ten przewodnik](https://www.nuget.org/).
 ### Zintegrowane środowisko programistyczne (IDE)
 Posiadanie środowiska IDE, takiego jak Visual Studio czy JetBrains Rider, może uprościć kodowanie, debugowanie i uruchamianie projektu.
 ### Podstawowa wiedza z języka C#

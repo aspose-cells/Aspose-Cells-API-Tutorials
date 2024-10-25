@@ -10,7 +10,7 @@ url: /nl/java/excel-data-analysis/
 
 ## Inleiding tot Excel-gegevensanalyse met Aspose.Cells voor Java
 
-Op het gebied van data-analyse blijft Excel een hoeksteentool voor professionals in verschillende branches. Met de robuuste mogelijkheden van Aspose.Cells voor Java kunnen Java-ontwikkelaars hun data-analyse naar een hoger niveau tillen. Deze suite met API's met veel functies stelt u in staat om eenvoudig Excel-spreadsheets te verwerken, manipuleren en inzichten te verkrijgen.
+Op het gebied van data-analyse blijft Excel een hoeksteentool voor professionals in verschillende branches. Met de robuuste mogelijkheden van Aspose.Cells voor Java kunnen Java-ontwikkelaars hun data-analyse naar een hoger niveau tillen. Deze suite met API's met veel functies stelt u in staat om eenvoudig Excel-spreadsheets te verwerken, manipuleren en er inzichten uit te halen.
 
 ## Stapsgewijze tutorials voor Java-ontwikkelaars
 

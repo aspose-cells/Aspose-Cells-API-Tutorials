@@ -16,7 +16,7 @@ url: /zh/java/advanced-excel-charts/chart-animation/
 
 在深入创建图表动画之前，请确保您已满足以下先决条件：
 
-1. Aspose.Cells for Java：确保已安装 Aspose.Cells for Java 库。您可以从以下网址下载[这里](https://releases.aspose.com/cells/java/).
+1.  Aspose.Cells for Java：确保已安装 Aspose.Cells for Java 库。您可以从以下网址下载[这里](https://releases.aspose.com/cells/java/).
 
 2. Java 开发环境：您应该在系统上设置一个 Java 开发环境。
 

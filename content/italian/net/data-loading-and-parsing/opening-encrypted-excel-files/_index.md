@@ -39,7 +39,7 @@ string dataDir = "Your Document Directory";
 ```
  Sostituire`"Your Document Directory"` con il percorso effettivo in cui risiede il tuo file Excel. Ad esempio, se è archiviato in`C:\Documents` , scriveresti`string dataDir = "C:\\Documents";`Le doppie barre rovesciate sono necessarie in C# per eseguire l'escape del carattere barra rovesciata.
 ## Passaggio 2: creare un'istanza di LoadOptions
- Successivamente, è necessario creare un'istanza di`LoadOptions`classe. Questa classe ci aiuta a specificare varie opzioni di caricamento, inclusa la password richiesta per aprire un file crittografato.
+ Successivamente, è necessario creare un'istanza di`LoadOptions` classe. Questa classe ci aiuta a specificare varie opzioni di caricamento, inclusa la password richiesta per aprire un file crittografato.
 ```csharp
 // Crea un'istanza di LoadOptions
 LoadOptions loadOptions = new LoadOptions();
@@ -58,7 +58,7 @@ loadOptions.Password = "1234"; // Sostituisci "1234" con la tua password effetti
 // Crea un oggetto Workbook e apri il file dal suo percorso
 Workbook wbEncrypted = new Workbook(dataDir + "encryptedBook.xls", loadOptions);
 ```
- Qui, stai costruendo un nuovo`Workbook` oggetto e passando il percorso al file crittografato e il`loadOptions`che includono la tua password. Se tutto va bene, questa riga dovrebbe aprire con successo il tuo file crittografato.
+ Qui, stai costruendo un nuovo`Workbook` oggetto e passando il percorso al file crittografato e il`loadOptions` che includono la tua password. Se tutto va bene, questa riga dovrebbe aprire con successo il tuo file crittografato.
 ## Passaggio 5: confermare l'accesso riuscito al file
 Infine, è buona norma confermare di aver aperto correttamente il file. 
 ```csharp
@@ -70,7 +70,7 @@ Congratulazioni! Hai imparato con successo come aprire file Excel crittografati 
  Ricorda, lavorare con file criptati può essere complicato, ma con strumenti come Aspose.Cells diventa un gioco da ragazzi. Se hai voglia di approfondire, controlla il[documentazione](https://reference.aspose.com/cells/net/) per funzionalità più avanzate.
 ## Domande frequenti
 ### Posso aprire file Excel crittografati con password diverse?
- Sì, basta aggiornare il`Password` campo nel`LoadOptions`per far corrispondere la password del file Excel che si desidera aprire.
+ Sì, basta aggiornare il`Password` campo nel`LoadOptions` per far corrispondere la password del file Excel che si desidera aprire.
 ### Aspose.Cells è gratuito?
  Aspose.Cells non è gratuito; tuttavia, puoi iniziare con un[prova gratuita](https://releases.aspose.com/) per esplorarne le caratteristiche.
 ### Quali tipi di file Excel può gestire Aspose.Cells?

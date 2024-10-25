@@ -95,7 +95,7 @@ Bu kodda, grafiğin türünü (bu durumda sütun grafiği) ve onu yerleştirmek 
 
 ## Adım 6: Grafik Örneğine Erişim
 
-Tabloyu oluşturduğumuzda, özelliklerini değiştirmek için örneğine erişmemiz gerekir. Bu, onu şu şekilde alarak yapılır:`Charts`koleksiyon.
+ Tabloyu oluşturduğumuzda, özelliklerini değiştirmek için örneğine erişmemiz gerekir. Bu, onu şu şekilde alarak yapılır:`Charts`koleksiyon.
 
 ```csharp
 // Yeni eklenen grafiğin örneğine erişim

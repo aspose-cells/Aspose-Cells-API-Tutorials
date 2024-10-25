@@ -26,7 +26,7 @@ Bu adım, Aspose.Cells kütüphanesindeki tüm sınıfların projenizde erişile
 Belge Depolama için Dizin Oluştur
 Çalışma kitabıyla ilgili herhangi bir şey yapmadan önce, onu depolayacak bir yere ihtiyacımız var. Bu belge dizinini belirteceğiz:
 ```csharp
-string dataDir = "Your Document Directory"; // İstediğiniz yolu tanımlayın.
+string dataDir = "Your Document Directory"; //İstediğiniz yolu tanımlayın.
 ```
  Bu kod parçacığında şunu değiştirin:`"Your Document Directory"` Excel dosyalarınızı depolamak istediğiniz gerçek yol ile. Bu dizin, görüntü eklendikten sonra çıktı dosyasını tutacaktır.
 ## Adım 2: Eğer Mevcut Değilse Dizin Oluşturun
@@ -81,7 +81,7 @@ Evet, çalışma sayfalarınıza PNG, JPEG ve BMP gibi çeşitli resim formatlar
 ### Aspose.Cells .xls dışındaki Excel dosya formatlarını destekliyor mu?
 Kesinlikle! Aspose.Cells, .xlsx, .xlsm ve .xlsb dahil olmak üzere birden fazla Excel formatını destekler.
 ### Deneme sürümü mevcut mu?
- Evet! Satın alma yapmadan önce Aspose.Cells'i ücretsiz deneyebilirsiniz. Sadece kontrol edin[Burada](https://releases.aspose.com/).
+Evet! Satın alma yapmadan önce Aspose.Cells'i ücretsiz deneyebilirsiniz. Sadece kontrol edin[Burada](https://releases.aspose.com/).
 ### Resmim görünmüyorsa ne yapmalıyım?
 Görüntü yolunun doğru olduğundan ve görüntü dosyasının belirtilen dizinde bulunduğundan emin olun.
 ### Birden fazla hücreye resim yerleştirebilir miyim?

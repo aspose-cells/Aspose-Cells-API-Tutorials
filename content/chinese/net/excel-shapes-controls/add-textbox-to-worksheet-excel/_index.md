@@ -93,7 +93,7 @@ textbox0.Font.IsItalic = true;
 //向文本框添加超链接。
 textbox0.AddHyperlink("http://www.aspose.com/”);
 ```
-现在，任何人点击您的文本框都会被带到 Aspose 网站。这就像魔术一样！
+现在，任何人点击您的文本框都会被传送到 Aspose 网站。这就像魔术一样！
 ## 步骤 9：设置文本框放置类型
 您可以根据工作表的不同选择文本框的行为方式。以下是如何将其设置为自由浮动的示例：
 ```csharp

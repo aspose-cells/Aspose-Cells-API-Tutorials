@@ -76,7 +76,7 @@ Workbook wb = new Workbook();
 //Comparte el libro de trabajo
 wb.Settings.Shared = true;
 ```
- Configuración`wb.Settings.Shared` a`true`Indica que varios usuarios pueden acceder a este libro de trabajo a la vez. Es como entregar las llaves de tu casa a tus amigos: ¡pueden entrar y salir cuando quieran!
+ Configuración`wb.Settings.Shared` a`true` Indica que varios usuarios pueden acceder a este libro de trabajo a la vez. Es como entregar las llaves de tu casa a tus amigos: ¡pueden entrar y salir cuando quieran!
 
 ## Paso 4: Guardar el libro de trabajo compartido
 

@@ -12,7 +12,7 @@ A .NET-ben található Excel-fájlokkal való munka során sok rugalmasság és 
 ## Előfeltételek
 Mielőtt elkezdenénk, győződjön meg arról, hogy mindennel rendelkezik, ami a zökkenőmentes követéshez szükséges. Íme, amit kellene:
 1. Visual Studio: Győződjön meg arról, hogy a Visual Studio egyik verziója telepítve van a gépen. Itt kell írnia a .NET kódot. 
-2.  Aspose.Cells Library: Szüksége van az Aspose.Cells for .NET könyvtárra. Ha még nem töltötte le, menjen a[Aspose Letöltések oldal](https://releases.aspose.com/cells/net/) hogy megragadja. 
+2. Aspose.Cells Library: Szüksége van az Aspose.Cells for .NET könyvtárra. Ha még nem töltötte le, menjen a[Aspose Letöltések oldal](https://releases.aspose.com/cells/net/) hogy megragadja. 
 3. Alapvető C# ismerete: A C# és a .NET alapvető ismerete segít kényelmesebben navigálni a kódpéldák között.
 4. .NET-keretrendszer: Győződjön meg arról, hogy projektje az Aspose.Cells könyvtár által támogatott megfelelő .NET-keretrendszerrel van beállítva.
 5. Egy Excel-dokumentum: Bár egy új munkafüzet létrehozása egy lehetőség, egy kezdődokumentum hasznos lehet, ha egy meglévő fájlt szeretne manipulálni.
@@ -45,7 +45,7 @@ Ezután egy új munkafüzetet hozunk létre az Aspose.Cells könyvtár használa
 ```csharp
 Workbook workbook = new Workbook();
 ```
- Itt egy új példányt hozunk létre a`Workbook`osztály. Ez az újonnan létrehozott munkafüzet egy üres munkafüzet, amelyet ha kíván, elkezdhet feltölteni adatokkal.
+ Itt egy új példányt hozunk létre a`Workbook` osztály. Ez az újonnan létrehozott munkafüzet egy üres munkafüzet, amelyet ha kíván, elkezdhet feltölteni adatokkal.
 ## 3. lépés: Mentse el a munkafüzetet
 Most jön a szórakoztató rész – a munkafüzet elmentése a kívánt formátumban!
 ```csharp
@@ -60,7 +60,7 @@ workbook.Save(dataDir + "output.xlsb", SaveFormat.Xlsb);
 ### Mi az Aspose.Cells könyvtár?
 Az Aspose.Cells egy hatékony .NET-könyvtár, amely lehetővé teszi a fejlesztők számára, hogy programozottan hozzanak létre, módosítsanak és kezeljenek Excel-fájlokat, anélkül, hogy a Microsoft Excelt telepítenék.
 ### Kipróbálhatom az Aspose.Cells-t ingyen?
- Teljesen! Használhatja a[ingyenes próbaverzió](https://releases.aspose.com/)hogy feltárja a könyvtár lehetőségeit.
+ Teljesen! Használhatja a[ingyenes próbaverzió](https://releases.aspose.com/) hogy feltárja a könyvtár lehetőségeit.
 ### Mi a különbség az xls és az xlsb formátumok között?
 Az xls formátum régebbi és bináris fájlstruktúrán alapul, míg az xlsb egy újabb formátum, amely szintén bináris tárolót használ, de nagyobb fájlméretet és gyorsabb feldolgozást tesz lehetővé.
 ### Hol vásárolhatok licencet az Aspose.Cells-hez?

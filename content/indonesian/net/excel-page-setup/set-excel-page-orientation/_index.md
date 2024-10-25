@@ -43,7 +43,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
  Di sini, ganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya di sistem Anda. Anggap saja sebagai tujuan perjalanan darat Anda.
 
-## Langkah 2: Membuat Instansi Objek Buku Kerja
+## Langkah 2: Membuat Instansiasi Objek Buku Kerja
 
 Sekarang, Anda akan membuat contoh kelas Workbook, yang merepresentasikan berkas Excel.
 

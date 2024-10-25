@@ -16,7 +16,7 @@ Apakah Anda bosan dengan bagan yang membosankan dan kurang memiliki sentuhan pri
 Sebelum kita masuk ke inti coding, ada beberapa prasyarat yang perlu Anda ikuti agar dapat berjalan lancar:
 
 - Visual Studio: Di sinilah Anda akan menulis dan menjalankan kode .NET. Pastikan Anda telah menginstalnya.
-- Aspose.Cells untuk .NET: Anda memerlukan pustaka ini untuk bekerja dengan file Excel. Anda dapat[unduh disini](https://releases.aspose.com/cells/net/).
+-  Aspose.Cells untuk .NET: Anda memerlukan pustaka ini untuk bekerja dengan file Excel. Anda dapat[unduh disini](https://releases.aspose.com/cells/net/).
 - Pemahaman Dasar C#: Sementara saya akan memandu Anda melalui kodenya, memahami dasar-dasar C# akan membuat segalanya lebih jelas.
 
 ### Langkah-langkah Instalasi
@@ -55,7 +55,7 @@ string sourceDir = "Your Document Directory/";
 string outputDir = "Your Output Directory/";
 ```
 
- Mengganti`Your Document Directory` Dan`Your Output Directory` dengan jalur sebenarnya di komputer Anda. 
+ Mengganti`Your Document Directory` Dan`Your Output Directory`dengan jalur sebenarnya di komputer Anda. 
 
 ## Langkah 2: Muat Buku Kerja yang Ada
 
@@ -84,7 +84,7 @@ Pastikan Anda menyimpan gambar di direktori yang ditentukan.
 Sekarang, mari tentukan diagram mana yang akan kita tambahkan gambar. Dalam contoh ini, kita akan menargetkan diagram pertama pada lembar kerja pertama.
 
 ```csharp
-//Dapatkan bagan desainer di lembar kedua.
+// Dapatkan bagan desainer di lembar kedua.
 Worksheet sheet = workbook.Worksheets[0];
 Aspose.Cells.Charts.Chart chart = sheet.Charts[0];
 ```
@@ -100,7 +100,7 @@ Setelah bagan dipilih, waktunya menambahkan gambar!
 Aspose.Cells.Drawing.Picture pic0 = chart.Shapes.AddPictureInChart(50, 50, stream, 200, 200);
 ```
 
- Di Sini,`50` Dan`50` adalah koordinat X dan Y di mana gambar akan ditempatkan, dan`200` adalah lebar dan tinggi gambar.
+ Di Sini,`50` Dan`50` adalah koordinat X dan Y di mana gambar akan ditempatkan, dan`200`adalah lebar dan tinggi gambar.
 
 ## Langkah 6: Sesuaikan Format Garis Gambar
 

@@ -51,7 +51,7 @@ Considérez cela comme des instructions spécifiques : vous dites en gros : « H
 ## Étape 4 : Créer un objet classeur
  Bon, on y est presque ! Maintenant, on va créer un`Workbook` objet, qui est essentiellement l'endroit où Aspose.Cells chargera le contenu de votre fichier Excel.
 ```csharp
-// Créer un objet Workbook et ouvrir le fichier à partir de son chemin
+//Créer un objet Workbook et ouvrir le fichier à partir de son chemin
 Workbook book = new Workbook(dataDir + "Book1.xlsx", loadOptions);
 ```
  Dans cette ligne, remplacez`"Book1.xlsx"` avec le nom de votre fichier Excel actuel. Voilà ! Votre classeur est chargé de toutes les données cruciales.

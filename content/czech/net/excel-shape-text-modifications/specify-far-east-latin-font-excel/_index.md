@@ -14,7 +14,7 @@ Než se pustíme do toho, je několik věcí, které budete muset nastavit, než
 ### .NET Framework nebo .NET Core
 Ujistěte se, že máte na svém počítači nainstalované rozhraní .NET Framework nebo .NET Core. Tato knihovna funguje dobře s oběma.
 ### Instalace Aspose.Cells
-Budete si muset stáhnout knihovnu Aspose.Cells. Můžete[stáhněte si to odtud](https://releases.aspose.com/cells/net/) . Pokud nejste obeznámeni s instalací balíčků NuGet, postupujte takto[tohoto průvodce](https://www.nuget.org/).
+ Budete si muset stáhnout knihovnu Aspose.Cells. Můžete[stáhněte si to odtud](https://releases.aspose.com/cells/net/) . Pokud nejste obeznámeni s instalací balíčků NuGet, postupujte takto[tohoto průvodce](https://www.nuget.org/).
 ### Integrované vývojové prostředí (IDE)
 Mít IDE, jako je Visual Studio nebo JetBrains Rider, může zjednodušit kódování, ladění a spouštění vašeho projektu.
 ### Základní znalost C#
@@ -75,7 +75,7 @@ tb.TextOptions.LatinName = "Comic Sans MS"; // Toto je naše zvolené latinské 
 tb.TextOptions.FarEastName = "KaiTi"; // Toto je naše požadované písmo Dálného východu.
 ```
 ## Krok 7: Uložte výstupní soubor aplikace Excel
-Nakonec si uložme sešit! Tento krok uzavírá náš úkol a zajišťuje, že veškerá tvrdá práce, kterou jsme udělali, bude správně uložena. 
+Nakonec si uložme náš sešit! Tento krok uzavírá náš úkol a zajišťuje, že veškerá tvrdá práce, kterou jsme udělali, bude správně uložena. 
 ```csharp
 // Uložte výstupní soubor aplikace Excel.
 wb.Save(outputDir + "outputSpecifyFarEastAndLatinNameOfFontInTextOptionsOfShape.xlsx", SaveFormat.Xlsx);

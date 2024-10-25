@@ -76,7 +76,7 @@ Es ist Zeit, aus Ihrer Arbeitsmappe ein gemeinschaftliches Meisterwerk zu machen
 //Arbeitsmappe freigeben
 wb.Settings.Shared = true;
 ```
- Einstellung`wb.Settings.Shared` Zu`true`gibt an, dass mehrere Benutzer gleichzeitig auf diese Arbeitsmappe zugreifen können. Das ist, als würden Sie Ihren Freunden die Schlüssel zu Ihrem Haus geben – sie können kommen und gehen, wann sie wollen!
+ Einstellung`wb.Settings.Shared` Zu`true` gibt an, dass mehrere Benutzer gleichzeitig auf diese Arbeitsmappe zugreifen können. Das ist, als würden Sie Ihren Freunden die Schlüssel zu Ihrem Haus geben – sie können kommen und gehen, wann sie wollen!
 
 ## Schritt 4: Speichern der freigegebenen Arbeitsmappe
 

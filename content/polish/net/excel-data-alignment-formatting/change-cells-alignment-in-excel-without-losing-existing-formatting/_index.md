@@ -16,7 +16,7 @@ Zarządzanie plikami Excela może czasami przypominać poruszanie się po labiry
 Zanim przejdziemy do właściwego kodowania, ważne jest, aby upewnić się, że wszystko jest poprawnie skonfigurowane. Oto, czego będziesz potrzebować:
 
 1. Visual Studio: Upewnij się, że na Twoim komputerze jest zainstalowany program Visual Studio (dowolna wersja obsługująca platformę .NET).
-2.  Aspose.Cells dla .NET: Pobierz i zainstaluj bibliotekę Aspose.Cells z[Strona Aspose'a](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells dla .NET: Pobierz i zainstaluj bibliotekę Aspose.Cells z[Strona Aspose'a](https://releases.aspose.com/cells/net/).
 3. Podstawowa wiedza o języku C#: Niewielka znajomość programowania w języku C# okaże się przydatna, ponieważ będziemy pracować w kontekście tego języka.
 4.  Przykładowy plik programu Excel: W celach demonstracyjnych przygotuj przykładowy plik programu Excel (np.`sampleChangeCellsAlignmentAndKeepExistingFormatting.xlsx`) zawierający początkowe formatowanie komórek.
 
@@ -89,7 +89,7 @@ Ten przykład uzyskuje dostęp do pierwszego arkusza kalkulacyjnego. Jeśli Twoj
 Określ, które komórki chcesz zmienić, tworząc zakres. Ten wybór skupi się na określonym zakresie, takim jak „B2:D7”.
 
 ```csharp
-// Utwórz zakres komórek.
+//Utwórz zakres komórek.
 Range rng = ws.Cells.CreateRange("B2:D7");
 ```
 
@@ -122,14 +122,14 @@ StyleFlag flag = new StyleFlag();
 flag.Alignments = true;
 ```
 
- Ustawiając`Alignments`właściwość StyleFlag do`true`, poinstruuj Aspose.Cells, aby prawidłowo stosował style wyrównania.
+ Ustawiając`Alignments` właściwość StyleFlag do`true`, poinstruuj Aspose.Cells, aby prawidłowo stosował style wyrównania.
 
 ## Krok 7: Zastosuj styl do zakresu komórek
 
 Mając już ustawione style i flagi, można zastosować je do zakresu komórek:
 
 ```csharp
-// Zastosuj styl do zakresu komórek.
+//Zastosuj styl do zakresu komórek.
 rng.ApplyStyle(st, flag);
 ```
 

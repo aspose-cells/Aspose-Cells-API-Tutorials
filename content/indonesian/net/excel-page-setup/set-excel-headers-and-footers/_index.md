@@ -77,7 +77,7 @@ Sekarang, mari kita mulai menyiapkan header. Kita akan mulai dengan bagian kiri:
 pageSetup.SetHeader(0, "&A");
 ```
 
-Penjelasan:`SetHeader` metode ini memungkinkan kita untuk menentukan konten header. Di sini,`&A` menunjukkan nama lembar kerja, yang akan muncul di sisi kiri tajuk.
+ Penjelasan:`SetHeader` metode ini memungkinkan kita untuk menentukan konten header. Di sini,`&A` menunjukkan nama lembar kerja, yang akan muncul di sisi kiri tajuk.
 
 ## Langkah 4: Sesuaikan Header Pusat
 
@@ -87,7 +87,7 @@ Berikutnya, kita akan menyesuaikan header tengah untuk menampilkan tanggal dan w
 pageSetup.SetHeader(1, "&\"Times New Roman,Bold\"&D-&T");
 ```
 
-Penjelasan:`&D` Dan`&T` kode akan secara otomatis mengganti dirinya sendiri dengan tanggal dan waktu saat ini. Kami juga menentukan bahwa font untuk header ini harus "Times New Roman" dan tebal.
+ Penjelasan:`&D` Dan`&T` kode akan secara otomatis mengganti dirinya sendiri dengan tanggal dan waktu saat ini. Kami juga menentukan bahwa font untuk header ini harus "Times New Roman" dan tebal.
 
 ## Langkah 5: Atur Header yang Tepat
 
@@ -117,7 +117,7 @@ Berikutnya, kita atur footer tengah untuk menampilkan nomor halaman saat ini:
 pageSetup.SetFooter(1, "&P");
 ```
 
-Penjelasan:`&P` kode secara otomatis memasukkan nomor halaman di tengah footer—cara praktis untuk melacak halaman.
+ Penjelasan:`&P` kode secara otomatis memasukkan nomor halaman di tengah footer—cara praktis untuk melacak halaman.
 
 ## Langkah 8: Konfigurasi Footer Kanan
 

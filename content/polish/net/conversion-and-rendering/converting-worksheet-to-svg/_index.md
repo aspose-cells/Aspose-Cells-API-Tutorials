@@ -22,7 +22,7 @@ Zanim zagłębisz się w kod, upewnijmy się, że masz wszystko, czego potrzebuj
 
 ## Importowanie niezbędnych pakietów
 
-Zanim zaczniesz kodować, upewnij się, że na początku pliku C# uwzględniłeś wymagane przestrzenie nazw.
+Zanim przejdziesz do kodowania, upewnij się, że na początku pliku C# uwzględniłeś wymagane przestrzenie nazw.
 
 ```csharp
 using System.IO;
@@ -107,7 +107,7 @@ Ten kod zapisze arkusz jako plik SVG w tym samym katalogu co plik Excel. Każdy 
 
 ## Wniosek
 
-I to wszystko! Udało Ci się przekonwertować arkusz kalkulacyjny programu Excel do formatu SVG przy użyciu Aspose.Cells dla .NET. Ten proces pozwala Ci zachować układ i projekt arkusza kalkulacyjnego, jednocześnie umożliwiając jego wyświetlanie w dowolnej przeglądarce lub urządzeniu obsługującym SVG, czyli w zasadzie we wszystkich. Niezależnie od tego, czy pracujesz ze złożonymi plikami programu Excel, czy po prostu prostą tabelą, ta metoda zapewnia, że Twoje dane są pięknie renderowane w formacie przyjaznym dla sieci.
+I to wszystko! Udało Ci się przekonwertować arkusz kalkulacyjny programu Excel do formatu SVG przy użyciu Aspose.Cells dla .NET. Ten proces pozwala Ci zachować układ i projekt arkusza kalkulacyjnego, jednocześnie umożliwiając jego wyświetlanie w dowolnej przeglądarce lub urządzeniu obsługującym SVG, czyli w zasadzie we wszystkich. Niezależnie od tego, czy pracujesz ze złożonymi plikami programu Excel, czy po prostu prostą tabelą, ta metoda zapewnia, że Twoje dane zostaną pięknie wyrenderowane w formacie przyjaznym dla sieci.
 
 ## Najczęściej zadawane pytania
 

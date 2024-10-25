@@ -77,7 +77,7 @@ Ora, iniziamo a impostare l'intestazione. Inizieremo con la sezione di sinistra:
 pageSetup.SetHeader(0, "&A");
 ```
 
-Spiegazione: Il`SetHeader` metodo ci consente di definire il contenuto dell'intestazione. Qui,`&A` indica il nome del foglio di lavoro, che apparirà sul lato sinistro dell'intestazione.
+ Spiegazione: Il`SetHeader` metodo ci consente di definire il contenuto dell'intestazione. Qui,`&A` indica il nome del foglio di lavoro, che apparirà sul lato sinistro dell'intestazione.
 
 ## Passaggio 4: personalizzare l'intestazione centrale
 
@@ -87,7 +87,7 @@ Successivamente personalizzeremo l'intestazione centrale per visualizzare la dat
 pageSetup.SetHeader(1, "&\"Times New Roman,Bold\"&D-&T");
 ```
 
-Spiegazione: Il`&D` E`&T` i codici si sostituiranno automaticamente con la data e l'ora correnti, rispettivamente. Stiamo anche specificando che il font per questa intestazione deve essere "Times New Roman" e grassetto.
+ Spiegazione: Il`&D` E`&T` i codici si sostituiranno automaticamente con la data e l'ora correnti, rispettivamente. Stiamo anche specificando che il font per questa intestazione deve essere "Times New Roman" e grassetto.
 
 ## Passaggio 5: imposta l'intestazione corretta
 
@@ -117,7 +117,7 @@ Successivamente, impostiamo il piè di pagina centrale per visualizzare il numer
 pageSetup.SetFooter(1, "&P");
 ```
 
-Spiegazione: Il`&P` il codice inserisce automaticamente il numero di pagina al centro del piè di pagina: un modo pratico per tenere traccia delle pagine.
+ Spiegazione: Il`&P` il codice inserisce automaticamente il numero di pagina al centro del piè di pagina: un modo pratico per tenere traccia delle pagine.
 
 ## Passaggio 8: Configurazione del piè di pagina destro
 

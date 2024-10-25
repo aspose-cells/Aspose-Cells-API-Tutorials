@@ -8,7 +8,7 @@ weight: 10
 url: /pl/net/xps-and-pdf-operations/converting-to-xps/
 ---
 ## Wstęp
-Jeśli chodzi o konwersję plików Excel do formatu XPS, możesz czuć się trochę zagubiony, zwłaszcza jeśli jesteś nowy w świecie programowania lub dopiero zaczynasz przygodę z tworzeniem .NET. Ale nie obawiaj się! W tym przewodniku rozłożymy proces na czynniki pierwsze, używając Aspose.Cells dla .NET jak profesjonalista. Kiedy skończysz czytać, nie tylko będziesz mieć jasne zrozumienie, jak to zrobić, ale także zdobędziesz praktyczne informacje, które mogą podnieść Twoje umiejętności kodowania. Więc zaczynajmy!
+Jeśli chodzi o konwersję plików Excel do formatu XPS, możesz czuć się trochę zagubiony, szczególnie jeśli jesteś nowy w świecie programowania lub dopiero zaczynasz przygodę z tworzeniem .NET. Ale nie obawiaj się! W tym przewodniku rozłożymy proces na czynniki pierwsze, używając Aspose.Cells dla .NET jak profesjonalista. Kiedy skończysz czytać, nie tylko będziesz mieć jasne zrozumienie, jak to zrobić, ale także zdobędziesz praktyczne informacje, które mogą podnieść Twoje umiejętności kodowania. Więc zaczynajmy!
 ## Wymagania wstępne
 Zanim zagłębisz się w szczegóły konwersji, upewnijmy się, że masz wszystko, czego potrzebujesz. Oto, czego będziesz potrzebować:
 1. Visual Studio: To jest IDE, w którym będziesz pisać swój kod. Upewnij się, że masz je zainstalowane.
@@ -38,7 +38,7 @@ Tutaj określasz ścieżkę, w której znajdują się pliki Excela. Jest to kluc
 string dataDir = "Your Document Directory"; // Pamiętaj o zastąpieniu jej rzeczywistą ścieżką
 ```
 ## Krok 2: Otwórz plik Excel
-Teraz załadujmy plik Excel do obiektu Aspose Workbook. Ta akcja daje programowi dostęp do danych w pliku Excel.
+Teraz załadujmy plik Excel do obiektu Aspose Workbook. Ta akcja daje programowi dostęp do danych w tym pliku Excel.
 ```csharp
 Workbook workbook = new Workbook(dataDir + "Book1.xls");
 ```
@@ -50,7 +50,7 @@ Worksheet sheet = workbook.Worksheets[0]; // Dostęp do pierwszego arkusza kalku
 ```
 Ta linijka kodu umożliwia dostęp do pierwszego arkusza kalkulacyjnego w celu wykonania dalszych poleceń.
 ## Krok 4: Skonfiguruj opcje obrazu i wydruku
-Teraz musimy zdefiniować, jak chcemy renderować nasze wyjście. Wiąże się to z utworzeniem instancji`ImageOrPrintOptions` i ustawić żądany format wyjściowy.
+ Teraz musimy zdefiniować, jak chcemy renderować nasze wyjście. Wiąże się to z utworzeniem instancji`ImageOrPrintOptions` i ustawić żądany format wyjściowy.
 ```csharp
 Aspose.Cells.Rendering.ImageOrPrintOptions options = new Aspose.Cells.Rendering.ImageOrPrintOptions();
 options.SaveFormat = SaveFormat.Xps; // Ustawianie formatu wyjściowego na XPS
@@ -82,4 +82,4 @@ Tak, możesz dostosować kod tak, aby przechodził przez wiele plików w katalog
 ### A co jeśli chcę przekonwertować tylko określone arkusze?
  Możesz określić indeks arkusza, który chcesz w`SheetRender` obiekt, jak pokazano w naszych krokach.
 ### Gdzie mogę znaleźć więcej informacji na temat Aspose.Cells?
- Możesz zbadać[dokumentacja](https://reference.aspose.com/cells/net/)aby zapoznać się z bardziej zaawansowanymi funkcjami i opcjami dostępnymi w bibliotece.
+ Możesz zbadać[dokumentacja](https://reference.aspose.com/cells/net/) aby zapoznać się z bardziej zaawansowanymi funkcjami i opcjami dostępnymi w bibliotece.

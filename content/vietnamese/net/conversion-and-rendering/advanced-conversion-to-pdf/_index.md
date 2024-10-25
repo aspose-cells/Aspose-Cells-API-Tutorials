@@ -60,7 +60,7 @@ Trước tiên: chúng ta cần chỉ định nơi lưu trữ tài liệu của 
 
 ```csharp
 // Đường dẫn đến thư mục tài liệu.
-string dataDir = "Your Document Directory";  //Cập nhật đường dẫn này đến thư mục cụ thể của bạn
+string dataDir = "Your Document Directory";  // Cập nhật đường dẫn này đến thư mục cụ thể của bạn
 ```
 
  Hãy chắc chắn thay thế`"Your Document Directory"` với con đường thực tế. Điều này giống như tìm một ngôi nhà mới cho công sức của bạn!
@@ -129,4 +129,4 @@ Không, bạn cần cài đặt thư viện Aspose.Cells để truy cập các c
 Bên cạnh PDF, Aspose.Cells còn hỗ trợ các định dạng như XLSX, CSV, HTML, v.v.
 
 ### Có phiên bản miễn phí của Aspose.Cells không?
- Có, bạn có thể bắt đầu với phiên bản dùng thử miễn phí để khám phá các tính năng[đây](https://releases.aspose.com/).
+Có, bạn có thể bắt đầu với phiên bản dùng thử miễn phí để khám phá các tính năng[đây](https://releases.aspose.com/).

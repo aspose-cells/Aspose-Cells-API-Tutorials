@@ -15,7 +15,7 @@ Antes de adentrarnos en los detalles del código, asegurémonos de que tienes to
 1. Visual Studio: Asegúrate de tener Visual Studio instalado en tu equipo. Este será tu entorno de desarrollo.
 2.  Aspose.Cells para .NET: Descargue la biblioteca Aspose.Cells desde[sitio web](https://releases.aspose.com/cells/net/)También puedes empezar con una prueba gratuita para probar sus funcionalidades.
 3. Conocimientos básicos de C#: la familiaridad con la programación en C# le ayudará a comprender mejor los fragmentos de código.
-4.  Archivo de Excel: tenga un archivo de Excel listo para la conversión. Para este ejemplo, usaremos un archivo llamado`Book1.xlsx`.
+4. Archivo de Excel: tenga un archivo de Excel listo para la conversión. Para este ejemplo, usaremos un archivo llamado`Book1.xlsx`.
 Ahora que ya tienes los requisitos previos resueltos, ¡pasemos a la parte divertida: importar los paquetes necesarios y escribir el código!
 ## Importar paquetes
 Para comenzar, debe importar los espacios de nombres necesarios en su archivo C#. Esto es fundamental, ya que le permite acceder a las clases y métodos que ofrece la biblioteca Aspose.Cells.
@@ -45,7 +45,7 @@ string dataDir = "Your Document Directory"; // Especifique el directorio de su d
 string inputPath = dataDir + "Book1.xlsx"; // Ruta a su archivo Excel
 Workbook workbook = new Workbook(inputPath); // Cargar el archivo Excel
 ```
- El`Workbook`La clase se utiliza para cargar y manipular archivos de Excel. Al pasar la ruta de entrada, le estás indicando a la aplicación con qué archivo trabajar.
+ El`Workbook` La clase se utiliza para cargar y manipular archivos de Excel. Al pasar la ruta de entrada, le estás indicando a la aplicación con qué archivo trabajar.
 ## Paso 3: Crear PdfSaveOptions
  Ahora, es el momento de crear una instancia de`PdfSaveOptions`Esta clase le permite especificar varias opciones para guardar su libro de trabajo como PDF, incluido el tiempo de creación.
 ```csharp
@@ -56,7 +56,7 @@ options.CreatedTime = DateTime.Now; // Establezca la hora de creación en ahora
 ## Paso 4: Guarde el libro de trabajo como PDF
 Finalmente, guardará el libro de trabajo como un archivo PDF utilizando las opciones que acaba de definir.
 ```csharp
-workbook.Save(dataDir + "output.pdf", options); // Guardar como PDF
+workbook.Save(dataDir + "output.pdf", options); //Guardar como PDF
 ```
  Esta línea de código toma el libro de trabajo y lo guarda en formato PDF en la ubicación especificada.`options` Se pasa el parámetro para incluir la hora de creación en los metadatos del PDF.
 

@@ -16,7 +16,7 @@ Gerenciar arquivos do Excel pode às vezes parecer navegar em um labirinto, espe
 Antes de mergulharmos na codificação real, é essencial garantir que você tenha tudo configurado corretamente. Aqui está o que você vai precisar:
 
 1. Visual Studio: certifique-se de ter o Visual Studio (qualquer versão compatível com .NET) instalado no seu computador.
-2.  Aspose.Cells para .NET: Baixe e instale a biblioteca Aspose.Cells de[Site da Aspose](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells para .NET: Baixe e instale a biblioteca Aspose.Cells de[Site da Aspose](https://releases.aspose.com/cells/net/).
 3. Conhecimento básico de C#: Um pouco de familiaridade com programação em C# será útil, pois trabalharemos em um contexto C#.
 4.  Arquivo Excel de exemplo: para demonstração, tenha um arquivo Excel de exemplo preparado (por exemplo,`sampleChangeCellsAlignmentAndKeepExistingFormatting.xlsx`) que contém alguma formatação de célula inicial.
 
@@ -89,7 +89,7 @@ Este exemplo acessa a primeira planilha. Se seus dados estiverem em uma planilha
 Determine quais células você quer alterar criando um intervalo. Esta seleção se concentrará em um intervalo especificado, como “B2:D7”.
 
 ```csharp
-// Criar intervalo de células.
+//Criar intervalo de células.
 Range rng = ws.Cells.CreateRange("B2:D7");
 ```
 
@@ -122,14 +122,14 @@ StyleFlag flag = new StyleFlag();
 flag.Alignments = true;
 ```
 
- Ao definir o`Alignments`propriedade do StyleFlag para`true`, você diz ao Aspose.Cells para aplicar os estilos de alinhamento corretamente.
+ Ao definir o`Alignments` propriedade do StyleFlag para`true`, você diz ao Aspose.Cells para aplicar os estilos de alinhamento corretamente.
 
 ## Etapa 7: aplique o estilo ao intervalo de células
 
 Com seus estilos e sinalizadores definidos, é hora de aplicá-los ao intervalo de células:
 
 ```csharp
-// Aplicar estilo ao intervalo de células.
+//Aplicar estilo ao intervalo de células.
 rng.ApplyStyle(st, flag);
 ```
 
@@ -162,7 +162,7 @@ Alterar o alinhamento de células no Excel mantendo a formatação existente int
 
 ## Perguntas frequentes
 
-### O Aspose.Cells pode manipular arquivos grandes do Excel?
+### Aspose.Cells pode manipular arquivos grandes do Excel?
 Absolutamente! Ele é otimizado para desempenho e pode processar arquivos grandes com eficiência.
 
 ### Existe uma versão de teste disponível para o Aspose.Cells?

@@ -29,7 +29,7 @@ using System.Drawing;
 Сначала самое главное — давайте создадим каталог, в котором вы будете сохранять эти блестящие новые файлы Excel. Вот как мы это делаем:
 ```csharp
 string dataDir = "Your Document Directory";
-//Создайте каталог, если его еще нет.
+// Создайте каталог, если его еще нет.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);

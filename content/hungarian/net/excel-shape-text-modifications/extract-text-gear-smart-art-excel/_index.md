@@ -16,7 +16,7 @@ Győződjön meg arról, hogy .NET fejlesztői környezet van beállítva a szá
 ### Aspose.Cells for .NET
  Ezután telepítenie kell az Aspose.Cells könyvtárat. Ez az erőmű, amely lehetővé teszi az Excel-fájlok zökkenőmentes kezelését. Letöltheti a[Aspose Releases oldal](https://releases.aspose.com/cells/net/) . Ha először szeretné felfedezni, használja ki a[ingyenes próbaverzió](https://releases.aspose.com/).
 ### C# alapismeretek
-Ebben az oktatóanyagban a C# programozás alapvető ismereteit kell követnie. Ha még nem ismeri, ne aggódjon – a lépéseket úgy fogom megtervezni, hogy azok a lehető legkezdőbarátabbak legyenek.
+A C# programozás alapvető ismerete az, amit ehhez az oktatóanyaghoz követnie kell. Ha még nem ismeri, ne aggódjon – a lépéseket úgy fogom megtervezni, hogy azok a lehető legkezdőbarátabbak legyenek.
 ### Minta Excel fájl
 Ehhez az oktatóanyaghoz egy minta Excel-fájlra is szüksége lesz, amely fogaskerék-típusú SmartArt-alakzatokat tartalmaz. Könnyen létrehozhat egyet, vagy kereshet sablont az interneten. Csak győződjön meg arról, hogy a SmartArt tartalmaz legalább egy fogaskerék típusú alakzatot.
 ## Csomagok importálása
@@ -101,7 +101,7 @@ Console.WriteLine("ExtractTextFromGearTypeSmartArtShape executed successfully.")
 ```
 Ezzel a kicsomagolás befejeződött, és látnia kell a szövegkimenetet a konzolban!
 ## Következtetés
- Gratulálok! Most tanulta meg, hogyan lehet szöveget kivonni fogaskerék-típusú SmartArt-alakzatokból az Excelben az Aspose.Cells for .NET segítségével. Ez a praktikus technika lehetővé teszi a jelentések vagy dokumentációk automatizálását, amelyek a vizuális adatok megjelenítésére támaszkodnak. Akár tapasztalt fejlesztő, akár csak most kezdi, az információk ellenőrzése és kinyerése a SmartArtból leegyszerűsítheti a munkafolyamatot és hatékonyabbá teheti. Ne felejtsd el megvizsgálni a részleteket[Aspose.Cells Documentation](https://reference.aspose.com/cells/net/) további képességekért.
+ Gratulálok! Éppen most tanulta meg, hogyan bonthat ki szöveget fogaskerék-típusú SmartArt-alakzatokból az Excelben az Aspose.Cells for .NET használatával. Ez a praktikus technika lehetővé teszi a jelentések vagy dokumentációk automatizálását, amelyek a vizuális adatok megjelenítésére támaszkodnak. Akár tapasztalt fejlesztő, akár csak most kezdi, az információk ellenőrzése és kinyerése a SmartArtból leegyszerűsítheti a munkafolyamatot és hatékonyabbá teheti. Ne felejtse el megvizsgálni a részleteket[Aspose.Cells Documentation](https://reference.aspose.com/cells/net/) további képességekért.
 ## GYIK
 ### Mi az Aspose.Cells?
 Az Aspose.Cells egy .NET-könyvtár, amely lehetővé teszi a fejlesztők számára az Excel-fájlok egyszerű létrehozását és kezelését.

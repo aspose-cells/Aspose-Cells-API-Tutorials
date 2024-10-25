@@ -161,7 +161,7 @@ flag.QuotePrefix = true;
 rng.ApplyStyle(st, flag);
 ```
 
- Dans ce tour, nous mettons en place`flag.QuotePrefix = true`, ce qui signifie que nous souhaitons mettre à jour le préfixe de citation de la cellule.
+Dans ce tour, nous mettons en place`flag.QuotePrefix = true`, ce qui signifie que nous souhaitons mettre à jour le préfixe de citation de la cellule.
 
 ## Étape 9 : Vérification finale du préfixe de devis
 

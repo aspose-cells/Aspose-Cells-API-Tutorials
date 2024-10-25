@@ -44,7 +44,7 @@ using System;
 
 Ở đây, "Your Document Directory" là một trình giữ chỗ cho đường dẫn thực tế nơi các tệp Excel của bạn được lưu trữ. Hãy đảm bảo thay thế nó bằng đường dẫn chính xác trên hệ thống của bạn. 
 ## Bước 1: Tạo một đối tượng Workbook 
-Bây giờ bạn đã thiết lập xong thư mục tài liệu, bước tiếp theo là tạo một phiên bản của`Workbook` lớp để mở tệp Excel của bạn.
+ Bây giờ bạn đã thiết lập xong thư mục tài liệu, bước tiếp theo là tạo một phiên bản của`Workbook`lớp để mở tệp Excel của bạn.
 
 ```csharp
 // Đường dẫn đến thư mục tài liệu.
@@ -64,17 +64,17 @@ Console.WriteLine("Workbook opened using path successfully!");
 
 Dòng lệnh đơn giản này sẽ in ra một thông báo trong bảng điều khiển của bạn xác nhận rằng sổ làm việc đã được mở. Nó cung cấp cho bạn phản hồi và đảm bảo chương trình của bạn đang hoạt động như mong đợi.
 
- Ở đây, chúng tôi đã gói gọn mã của mình trong một`try-catch`chặn. Điều này có nghĩa là nếu có bất kỳ điều gì không ổn khi mở sổ làm việc, thay vì nổi cơn thịnh nộ, chương trình của bạn sẽ xử lý một cách nhẹ nhàng bằng cách cho bạn biết điều gì đã xảy ra.
+ Ở đây, chúng tôi đã gói gọn mã của mình trong một`try-catch` chặn. Điều này có nghĩa là nếu có bất kỳ điều gì không ổn khi mở sổ làm việc, thay vì nổi cơn thịnh nộ, chương trình của bạn sẽ xử lý một cách nhẹ nhàng bằng cách cho bạn biết điều gì đã xảy ra.
 ## Phần kết luận
- Mở các tệp Excel bằng Aspose.Cells cho .NET thật dễ dàng khi bạn biết mình đang làm gì! Như bạn đã thấy, quy trình này bao gồm thiết lập thư mục tài liệu của bạn, tạo`Workbook` đối tượng và kiểm tra xem mọi thứ có hoạt động với lệnh in hay không. Với sức mạnh của Aspose.Cells trong kho vũ khí của bạn, bạn được trang bị để đưa kỹ năng xử lý Excel của mình lên một tầm cao mới—tự động hóa các tác vụ thông thường và tạo điều kiện quản lý dữ liệu trơn tru.
+Mở các tệp Excel bằng Aspose.Cells cho .NET thật dễ dàng khi bạn biết mình đang làm gì! Như bạn đã thấy, quy trình này bao gồm thiết lập thư mục tài liệu của bạn, tạo`Workbook` đối tượng và kiểm tra xem mọi thứ có hoạt động với lệnh in hay không. Với sức mạnh của Aspose.Cells trong kho vũ khí của bạn, bạn được trang bị để đưa kỹ năng xử lý Excel của mình lên một tầm cao mới—tự động hóa các tác vụ thông thường và tạo điều kiện quản lý dữ liệu trơn tru.
 ## Câu hỏi thường gặp
 ### Aspose.Cells dành cho .NET là gì?
 Aspose.Cells for .NET là thư viện .NET cho phép các nhà phát triển tạo, thao tác và chuyển đổi các tệp Excel mà không cần đến Microsoft Excel.
 ### Tôi có cần cài đặt Microsoft Excel để sử dụng Aspose.Cells không?
 Không! Aspose.Cells hoạt động độc lập với Microsoft Excel và không yêu cầu phải cài đặt.
 ### Tôi có thể mở nhiều tệp Excel cùng lúc không?
-Chắc chắn rồi! Bạn có thể tạo nhiều`Workbook` các đối tượng cho các tập tin khác nhau một cách tương tự.
+ Chắc chắn rồi! Bạn có thể tạo nhiều`Workbook` các đối tượng cho các tập tin khác nhau một cách tương tự.
 ### Aspose.Cells có thể mở những loại tệp nào?
 Aspose.Cells có thể mở các định dạng .xls, .xlsx, .csv và các định dạng Excel khác.
 ### Tôi có thể tìm tài liệu về Aspose.Cells ở đâu?
- Bạn có thể tìm thấy tài liệu toàn diện[đây](https://reference.aspose.com/cells/net/).
+Bạn có thể tìm thấy tài liệu toàn diện[đây](https://reference.aspose.com/cells/net/).

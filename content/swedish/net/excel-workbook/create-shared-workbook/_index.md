@@ -76,7 +76,7 @@ Det är dags att göra din arbetsbok till ett samarbetsmästerverk! Genom att de
 //Dela arbetsboken
 wb.Settings.Shared = true;
 ```
- Miljö`wb.Settings.Shared` till`true`indikerar att den här arbetsboken kan nås av flera användare samtidigt. Det är som att dela ut nycklar till ditt hus till vänner - de kan komma och gå som de vill!
+ Miljö`wb.Settings.Shared` till`true` indikerar att den här arbetsboken kan nås av flera användare samtidigt. Det är som att dela ut nycklar till ditt hus till vänner - de kan komma och gå som de vill!
 
 ## Steg 4: Spara den delade arbetsboken
 

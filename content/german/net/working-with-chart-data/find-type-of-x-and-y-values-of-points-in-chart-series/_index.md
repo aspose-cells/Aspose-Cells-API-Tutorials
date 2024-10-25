@@ -76,7 +76,7 @@ Worksheet ws = wb.Worksheets[0];
 
 ## Schritt 4: Zugriff auf das Diagramm
 
-In diesem Schritt müssen Sie auf das erste Diagramm im Arbeitsblatt zugreifen. Diagrammobjekte enthalten alle Informationen zu Reihen und Datenpunkten.
+In diesem Schritt müssen Sie auf das erste im Arbeitsblatt vorhandene Diagramm zugreifen. Diagrammobjekte enthalten alle Informationen zu Reihen und Datenpunkten.
 
 ```csharp
 Chart ch = ws.Charts[0];

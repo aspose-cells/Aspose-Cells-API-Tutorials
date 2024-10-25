@@ -33,7 +33,7 @@ Richten wir zunächst das Verzeichnis ein, in dem alle Ihre Excel-Dokumente gesp
 ```csharp
 // Der Pfad zum Dokumentverzeichnis.
 string dataDir = "Your Document Directory"; 
-//Erstellen Sie ein Verzeichnis, falls es noch nicht vorhanden ist.
+// Erstellen Sie ein Verzeichnis, falls es noch nicht vorhanden ist.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists) 
     System.IO.Directory.CreateDirectory(dataDir);

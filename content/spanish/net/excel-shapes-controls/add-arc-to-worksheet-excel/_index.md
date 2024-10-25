@@ -38,7 +38,7 @@ A continuación se muestra un desglose paso a paso del código que demuestra có
 El primer paso es configurar un directorio donde guardar el archivo de Excel. Esto ayuda a administrar los archivos de salida con facilidad.
 ```csharp
 string dataDir = "Your Document Directory";
-//Crear directorio si aún no está presente.
+// Crear directorio si aún no está presente.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);

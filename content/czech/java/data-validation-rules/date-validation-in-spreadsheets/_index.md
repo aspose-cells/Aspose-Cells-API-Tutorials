@@ -84,7 +84,7 @@ workbook.save("updated_excel_file.xlsx");
 
 ## Závěr
 
-této příručce jsme se naučili, jak provádět ověření data v tabulkách pomocí Aspose.Cells for Java. Zajištění přesnosti datových dat je v různých aplikacích zásadní a s Aspose.Cells máte k dispozici mocný nástroj, jak toho dosáhnout.
+této příručce jsme se naučili, jak provádět ověřování data v tabulkách pomocí Aspose.Cells for Java. Zajištění přesnosti datových dat je v různých aplikacích zásadní a s Aspose.Cells máte k dispozici mocný nástroj, jak toho dosáhnout.
 
 ## FAQ
 

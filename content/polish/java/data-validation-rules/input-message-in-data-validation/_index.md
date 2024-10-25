@@ -2,7 +2,7 @@
 title: Wiadomość wejściowa w walidacji danych
 linktitle: Wiadomość wejściowa w walidacji danych
 second_title: Aspose.Cells Java Excel Processing API
-description: Dowiedz się, jak ulepszyć walidację danych w programie Excel za pomocą Aspose.Cells for Java. Przewodnik krok po kroku z przykładami kodu, aby poprawić dokładność danych i wskazówkami dla użytkownika.
+description: Dowiedz się, jak ulepszyć walidację danych w programie Excel za pomocą Aspose.Cells dla Java. Przewodnik krok po kroku z przykładami kodu, aby poprawić dokładność danych i wskazówkami dla użytkownika.
 type: docs
 weight: 18
 url: /pl/java/data-validation-rules/input-message-in-data-validation/

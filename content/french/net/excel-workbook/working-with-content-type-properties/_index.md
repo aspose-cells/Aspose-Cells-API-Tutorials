@@ -60,7 +60,7 @@ Notre classeur étant prêt, il est temps d'ajouter des propriétés de type de 
 int index = workbook.ContentTypeProperties.Add("MK31", "Simple Data");
 ```
 
- Dans cette étape, nous avons ajouté une propriété appelée « MK31 » avec la valeur « Simple Data ».`Add` La méthode renvoie l'index de la propriété nouvellement ajoutée, que nous pouvons utiliser plus tard.
+ Dans cette étape, nous avons ajouté une propriété appelée « MK31 » avec la valeur « Simple Data ».`Add`La méthode renvoie l'index de la propriété nouvellement ajoutée, que nous pouvons utiliser plus tard.
 
 ### Définir la propriété nullable
 
@@ -79,7 +79,7 @@ index = workbook.ContentTypeProperties.Add("MK32", DateTime.Now.ToString("yyyy-M
 workbook.ContentTypeProperties[index].IsNillable = true;
 ```
 
-Dans cet extrait, nous créons une propriété nommée « MK32 » avec la date et l'heure actuelles formatées selon la norme ISO 8601. Nous avons rendu cette propriété nullable en définissant`IsNillable` à`true`.
+ Dans cet extrait, nous créons une propriété nommée « MK32 » avec la date et l'heure actuelles formatées selon la norme ISO 8601. Nous avons rendu cette propriété nullable en définissant`IsNillable` à`true`.
 
 ## Étape 4 : Enregistrer le classeur
 
@@ -120,4 +120,4 @@ Oui ! Aspose.Cells prend en charge divers formats, notamment XLS, XLSX, CSV et a
 Absolument ! Vous pouvez ajouter des objets complexes aux propriétés de type de contenu à condition qu'ils puissent être sérialisés correctement.
 
 ### Où puis-je trouver plus de documentation ?
- Pour des conseils plus détaillés, reportez-vous à la[Documentation sur Aspose.Cells](https://reference.aspose.com/cells/net/).
+Pour des conseils plus détaillés, reportez-vous à la[Documentation sur Aspose.Cells](https://reference.aspose.com/cells/net/).

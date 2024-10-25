@@ -31,7 +31,7 @@ Mọi dự án tốt đều bắt đầu bằng việc tổ chức hợp lý! Tr
 ```csharp
 // Đường dẫn đến thư mục tài liệu.
 string dataDir = "Your Document Directory";
-//Tạo thư mục nếu thư mục đó chưa có.
+// Tạo thư mục nếu thư mục đó chưa có.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -132,7 +132,7 @@ Và đó là hướng dẫn của bạn về cách thêm thanh cuộn vào bản
 ### Aspose.Cells là gì?
 Aspose.Cells là một thư viện .NET mạnh mẽ cho phép các nhà phát triển tạo, thao tác và chuyển đổi các tệp Excel theo cách lập trình.
 ### Tôi có thể sử dụng Aspose.Cells miễn phí không?
-Có, Aspose.Cells cung cấp bản dùng thử miễn phí, bạn có thể tìm thấy[đây](https://releases.aspose.com/).
+ Có, Aspose.Cells cung cấp bản dùng thử miễn phí, bạn có thể tìm thấy[đây](https://releases.aspose.com/).
 ### Làm thế nào để thêm các điều khiển khác vào bảng tính Excel của tôi?
 Bạn có thể sử dụng các phương pháp tương tự như được hiển thị cho thanh cuộn. Chỉ cần kiểm tra tài liệu để biết thêm các điều khiển!
 ### Tôi có thể sử dụng ngôn ngữ lập trình nào với Aspose.Cells?

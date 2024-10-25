@@ -41,7 +41,7 @@ Aspose.Cells for .NET을 사용하여 Excel 워크시트에서 특정 셀을 보
 ```csharp
 // 문서 디렉토리의 경로입니다.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-//디렉토리가 없으면 디렉토리를 생성합니다.
+// 디렉토리가 없으면 디렉토리를 생성합니다.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);

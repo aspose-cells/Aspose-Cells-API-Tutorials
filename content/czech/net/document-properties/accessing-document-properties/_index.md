@@ -35,7 +35,7 @@ string dataDir = "Your Document Directory";
 ```csharp
 Workbook workbook = new Workbook(dataDir + "sample-document-properties.xlsx");
 ```
- Zde načítáme náš konkrétní soubor Excel,`"sample-document-properties.xlsx"`Je důležité, aby tento soubor existoval v určeném adresáři, jinak narazíte na chyby.
+ Zde načítáme náš konkrétní soubor Excel,`"sample-document-properties.xlsx"`. Je důležité, aby tento soubor existoval v určeném adresáři, jinak narazíte na chyby.
 ## Krok 3: Načtení uživatelských vlastností dokumentu
 Jakmile je sešit načten, můžeme proniknout do jeho pokladnice vlastností. Pojďme se ponořit do toho, jak můžete získat přístup k těmto vlastnostem:
 ```csharp
@@ -69,4 +69,4 @@ Absolutně! Pomocí knihovny můžete číst, zapisovat a upravovat soubory apli
 ### Je k dispozici podpora pro uživatele Aspose.Cells?
  Ano, máte přístup k rozsáhlým dostupným zdrojům podpory, včetně fór a dokumentace[zde](https://forum.aspose.com/c/cells/9).
 ### Jak mohu získat dočasnou licenci pro Aspose.Cells?
- Navštívením stránky můžete požádat o dočasnou licenci k vyhodnocení produktu[tento odkaz](https://purchase.aspose.com/temporary-license/).
+Navštívením stránky můžete požádat o dočasnou licenci k vyhodnocení produktu[tento odkaz](https://purchase.aspose.com/temporary-license/).

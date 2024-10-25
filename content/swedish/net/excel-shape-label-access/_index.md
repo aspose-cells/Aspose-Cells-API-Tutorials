@@ -1,6 +1,6 @@
 ---
-title: Excel Shape and Label Access
-linktitle: Excel Shape and Label Access
+title: Excel-tillgång till form och etikett
+linktitle: Excel-tillgång till form och etikett
 second_title: Aspose.Cells .NET Excel Processing API
 description: Lås upp kraften i Aspose.Cells för .NET med våra omfattande handledningar som täcker OLE-objektetiketter och Smart Art-formidentifiering i Excel.
 type: docs

@@ -59,7 +59,7 @@ string sourceDir = "Your Document Directory";
 Workbook workbook = new Workbook(sourceDir + "sampleApplyingThemesInChart.xlsx");
 ```
 
- Se till att`sampleApplyingThemesInChart.xlsx`finns i din källkatalog.
+ Se till att`sampleApplyingThemesInChart.xlsx` finns i din källkatalog.
 
 ## Steg 3: Öppna arbetsbladet
 
@@ -96,7 +96,7 @@ Denna kodrad säkerställer att den första serien i diagrammet är inställd p�
 
 ## Steg 6: Konfigurera färgen
 
- Nu när vår serie är klar måste vi ändra dess färg. Detta innebär att skapa en`CellsColor`objekt och ange en temafärg. Vi väljer en accentstil för det här exemplet.
+ Nu när vår serie är klar måste vi ändra dess färg. Detta innebär att skapa en`CellsColor` objekt och ange en temafärg. Vi väljer en accentstil för det här exemplet.
 
 ```csharp
 // Skaffa CellsColor av SolidFill

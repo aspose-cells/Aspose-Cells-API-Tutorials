@@ -71,7 +71,7 @@ Ahora, necesitamos acceder a la hoja de trabajo específica con la que queremos 
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
-Explicación: El`Worksheets` La colección nos permite acceder a hojas individuales. El uso`[0]` hace referencia a la primera hoja de cálculo de su archivo de Excel, lo que generalmente es una práctica común cuando se trabaja con un archivo de una sola hoja.
+ Explicación: El`Worksheets` La colección nos permite acceder a hojas individuales. El uso`[0]` hace referencia a la primera hoja de cálculo de su archivo de Excel, lo que generalmente es una práctica común cuando se trabaja con un archivo de una sola hoja.
 
 ## Paso 4: Configuración del filtro automático
 
@@ -82,7 +82,7 @@ Explicación: El`Worksheets` La colección nos permite acceder a hojas individua
 worksheet.AutoFilter.Range = "A1:A18";
 ```
 
-Explicación: El`AutoFilter.Range` La propiedad permite especificar qué filas se filtrarán. En este caso, filtraremos las filas dentro del rango A1 a A18, que se supone que contienen nuestros datos.
+ Explicación: El`AutoFilter.Range` La propiedad permite especificar qué filas se filtrarán. En este caso, filtraremos las filas dentro del rango A1 a A18, que se supone que contienen nuestros datos.
 
 ## Paso 5: Aplicar condición de filtro
 
@@ -93,7 +93,7 @@ El siguiente paso es definir la condición del filtro. Queremos mostrar solo aqu
 worksheet.AutoFilter.Custom(0, FilterOperatorType.BeginsWith, "Ba");
 ```
 
-Explicación: El`Custom` El método define nuestra lógica de filtrado. El primer argumento (`0` ) indica que estamos filtrando según la primera columna (A) y la`FilterOperatorType.BeginsWith`especifica nuestra condición para buscar filas que comiencen con "Ba".
+ Explicación: El`Custom` El método define nuestra lógica de filtrado. El primer argumento (`0` ) indica que estamos filtrando según la primera columna (A) y la`FilterOperatorType.BeginsWith` especifica nuestra condición para buscar filas que comiencen con "Ba".
 
 ## Paso 6: Actualice el filtro
 
@@ -115,7 +115,7 @@ Ahora es el momento de guardar los cambios que hemos realizado:
 workbook.Save(outputDir + "outSourseSampleCountryNames.xlsx");
 ```
 
-Explicación: El`Save` El método vuelve a escribir el libro de trabajo modificado en la ruta de salida especificada. Esto se incluye en la escritura de los filtros definidos en un nuevo archivo para que los datos originales permanezcan intactos.
+ Explicación: El`Save` El método vuelve a escribir el libro de trabajo modificado en la ruta de salida especificada. Esto se incluye en la escritura de los filtros definidos en un nuevo archivo para que los datos originales permanezcan intactos.
 
 ## Paso 8: Confirmación de salida
 

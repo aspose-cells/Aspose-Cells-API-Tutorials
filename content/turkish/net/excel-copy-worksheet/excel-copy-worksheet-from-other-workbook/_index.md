@@ -79,9 +79,9 @@ Burada ilk çalışma kitabını oluşturuyoruz ve ilk çalışma sayfasını do
 Yazdırma sırasında başlık satırlarını tekrarlayacak şekilde sayfa düzenini yapılandıralım, böylece bu özelliği çalışırken görebilelim:
 
 ```csharp
-//İlk çalışma sayfasına dayalı bir sayfa ayarı nesnesi tanımlayın
+// İlk çalışma sayfasına dayalı bir sayfa ayarı nesnesi tanımlayın
 PageSetup pagesetup = ws0.PageSetup;
-// İlk beş satır her sayfada tekrarlanıyor
+//İlk beş satır her sayfada tekrarlanıyor
 pagesetup.PrintTitleRows = "$1:$5";
 ```
  Bu bölüm belgenizin nasıl yazdırılacağını tanımlar. Ayarlayarak`PrintTitleRows`, her basılı sayfada ilk beş satırın görünmesini sağlıyoruz, bu da okunabilirlik açısından oldukça faydalıdır.
@@ -109,7 +109,7 @@ Yeni bir çalışma kitabı oluşturduk (`excelWorkbook1`) ve ilk çalışma say
 // ikinci çalışma kitabının ilk çalışma sayfası
 ws1.Copy(ws0);
 ```
- The`Copy` yöntem kaynak çalışma sayfasından tüm içeriği alır (`ws0`ve bunu hedef çalışma sayfasına kopyalar (`ws1`). Çok basit, değil mi?
+ The`Copy` yöntem kaynak çalışma sayfasından tüm içeriği alır (`ws0`) ve bunu hedef çalışma sayfasına kopyalar (`ws1`). Çok basit, değil mi?
 
 ## Adım 6: Yeni Çalışma Kitabını Kaydedin
 

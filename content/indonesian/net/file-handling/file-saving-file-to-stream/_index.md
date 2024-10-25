@@ -84,4 +84,4 @@ Aspose.Cells untuk .NET adalah pustaka hebat yang memungkinkan pengembang untuk 
 ### Di mana saya dapat meminta dukungan terkait Aspose.Cells?
  Anda dapat mencari bantuan dari[Forum Dukungan Aspose](https://forum.aspose.com/c/cells/9).
 ### Bagaimana cara memperoleh lisensi sementara untuk Aspose.Cells?
- Anda dapat mengajukan permohonan[lisensi sementara](https://purchase.aspose.com/temporary-license/)jika Anda membutuhkannya untuk tujuan evaluasi.
+ Anda dapat mengajukan permohonan[lisensi sementara](https://purchase.aspose.com/temporary-license/) jika Anda membutuhkannya untuk tujuan evaluasi.

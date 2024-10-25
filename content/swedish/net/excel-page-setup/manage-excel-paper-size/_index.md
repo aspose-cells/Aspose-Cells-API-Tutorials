@@ -62,7 +62,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Steg 2: Skapa ett arbetsboksobjekt
 
- Därefter instansierar du en`Workbook` objekt, som representerar din Excel-fil. Så här gör du:
+ Därefter kommer du att instansiera en`Workbook` objekt, som representerar din Excel-fil. Så här gör du:
 
 ```csharp
 Workbook workbook = new Workbook();

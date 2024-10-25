@@ -9,14 +9,14 @@ url: /pl/net/excel-workbook/allow-leading-apostrophe/
 ---
 ## Wstęp
 
-Witamy w tym przewodniku krok po kroku, jak używać Aspose.Cells dla .NET do bezproblemowego zarządzania arkuszami kalkulacyjnymi, ze szczególnym uwzględnieniem obsługi wiodących apostrofów w wartościach komórek. Umiejętność efektywnego zarządzania danymi jest kluczowa w dzisiejszym świecie skoncentrowanym na danych. Czy zauważyłeś kiedyś, że Excel czasami może traktować wartości tekstowe zaczynające się od apostrofu inaczej? Może to prowadzić do nieoczekiwanych rezultatów, jeśli automatyzujesz zadania programu Excel za pomocą kodu .NET. Nie obawiaj się! Ten samouczek pomoże Ci się przez to poruszać. 
+Witamy w tym przewodniku krok po kroku, jak używać Aspose.Cells dla .NET do bezproblemowego zarządzania arkuszami kalkulacyjnymi, ze szczególnym uwzględnieniem obsługi apostrofów wiodących w wartościach komórek. Umiejętność efektywnego zarządzania danymi jest kluczowa w dzisiejszym świecie skoncentrowanym na danych. Czy zauważyłeś kiedyś, że Excel czasami może traktować wartości tekstowe zaczynające się od apostrofu inaczej? Może to prowadzić do nieoczekiwanych rezultatów, jeśli automatyzujesz zadania programu Excel za pomocą kodu .NET. Nie obawiaj się! Ten samouczek pomoże Ci się przez to poruszać. 
 
 ## Wymagania wstępne
 
 Zanim zagłębisz się w kod, musisz spełnić kilka warunków wstępnych:
 
 1. Podstawowa wiedza o .NET: Znajomość .NET Framework jest niezbędna. Jeśli już bawisz się C# lub VB.NET, możesz uważać się za gotowego.
-2. Aspose.Cells dla biblioteki .NET: Musisz mieć zainstalowany Aspose.Cells. Możesz to łatwo zrobić za pomocą menedżera pakietów NuGet lub pobrać go z[Strona Aspose](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells dla biblioteki .NET: Musisz mieć zainstalowany Aspose.Cells. Możesz to łatwo zrobić za pomocą menedżera pakietów NuGet lub pobrać go z[Strona Aspose](https://releases.aspose.com/cells/net/).
 3. Konfiguracja IDE: Upewnij się, że masz zintegrowane środowisko programistyczne (IDE), np. Visual Studio, gotowe do kodowania.
 4. Przykładowy plik Excela: Możesz wykorzystać przykładowy plik („AllowLeadingApostropheSample.xlsx”), z którym będziemy pracować w kodzie.
 
@@ -39,7 +39,7 @@ Podzielimy zadania na łatwe do wykonania kroki, aby zapewnić przejrzystość.
 
 ## Krok 1: Konfigurowanie katalogów źródłowych i wyjściowych
 
-tym kroku musimy określić lokalizację plików wejściowych i wyjściowych.
+W tym kroku musimy określić lokalizację plików wejściowych i wyjściowych.
 
 ```csharp
 // Katalog źródłowy
@@ -56,7 +56,7 @@ Teraz utworzymy instancję WorkbookDesigner, która jest niezbędna do pracy z i
 WorkbookDesigner designer = new WorkbookDesigner();
 ```
 
- Ten`WorkbookDesigner` zarządza projektem i wiązaniem danych w naszym skoroszycie, ułatwiając nam pracę podczas konwersji danych do formatu wizualnego.
+ Ten`WorkbookDesigner`zarządza projektem i wiązaniem danych w naszym skoroszycie, ułatwiając nam pracę podczas konwersji danych do formatu wizualnego.
 
 ## Krok 3: Załaduj istniejący skoroszyt
 
@@ -90,7 +90,7 @@ List<DataObject> list = new List<DataObject>
 };
 ```
 
- Tworzymy listę`DataObject`, gdzie jedna z nazw celowo zawiera wiodący apostrof. Pomoże to zilustrować, jak Aspose.Cells radzi sobie z takimi scenariuszami.
+ Tworzymy listę`DataObject`gdzie jedna z nazw celowo zawiera wiodący apostrof. Pomoże to zilustrować, jak Aspose.Cells radzi sobie z takimi scenariuszami.
 
 ## Krok 6: Powiąż źródło danych z projektantem
 
@@ -144,7 +144,7 @@ Teraz, niezależnie od tego, czy generujesz raporty, tworzysz funkcjonalności d
 Aspose.Cells to potężna biblioteka .NET umożliwiająca programowe tworzenie, edytowanie i konwertowanie plików Excel w wielu formatach.
 
 ### Czy mogę używać Aspose.Cells za darmo?
-Tak, możesz używać Aspose.Cells, rejestrując się na bezpłatny okres próbny[Tutaj](https://releases.aspose.com/).
+ Tak, możesz używać Aspose.Cells, rejestrując się na bezpłatny okres próbny[Tutaj](https://releases.aspose.com/).
 
 ### Gdzie mogę uzyskać pomoc techniczną dotyczącą Aspose.Cells?
  Pomoc i pytania można uzyskać na stronie[Forum wsparcia Aspose](https://forum.aspose.com/c/cells/9).

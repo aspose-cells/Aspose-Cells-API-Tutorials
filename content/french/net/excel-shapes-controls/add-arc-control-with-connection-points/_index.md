@@ -29,7 +29,7 @@ Ces espaces de noms vous donneront accès à toutes les fonctionnalités de dess
 Commençons par le commencement : créons un répertoire dans lequel vous enregistrerez ces nouveaux fichiers Excel. Voici comment procéder :
 ```csharp
 string dataDir = "Your Document Directory";
-//Créez un répertoire s'il n'est pas déjà présent.
+// Créez un répertoire s'il n'est pas déjà présent.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);

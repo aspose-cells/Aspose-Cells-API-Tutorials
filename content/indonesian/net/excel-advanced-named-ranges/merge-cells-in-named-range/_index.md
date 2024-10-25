@@ -60,7 +60,7 @@ Bayangkan lembar kerja sebagai tab-tab individual dalam berkas Excel tempat data
 Sekarang setelah kita memiliki lembar kerja, saatnya membuat rentang. Rentang mengacu pada blok sel, yang dapat mencakup beberapa baris dan kolom.
 
 ```csharp
-// Buat rentang.
+//Buat rentang.
 Range mrange = worksheet1.Cells.CreateRange("D6", "I12");
 ```
 
@@ -133,7 +133,7 @@ flag.CellShading = true;
 range1.ApplyStyle(style, flag);
 ```
 
- Itu`StyleFlag`memberi tahu Aspose.Cells properti gaya mana yang akan diterapkan—penyelarasan, bayangan, dsb. Ini memberi Anda kontrol terperinci atas cara gaya diterapkan.
+ Itu`StyleFlag` memberi tahu Aspose.Cells properti gaya mana yang akan diterapkan—penyelarasan, bayangan, dsb. Ini memberi Anda kontrol terperinci atas cara gaya diterapkan.
 
 ## Langkah 9: Masukkan Data ke dalam Rentang Gabungan
 

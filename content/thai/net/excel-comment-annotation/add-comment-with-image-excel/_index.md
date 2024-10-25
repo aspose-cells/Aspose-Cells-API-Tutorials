@@ -37,12 +37,12 @@ using System.Drawing;
 ```csharp
 // เส้นทางไปยังไดเร็กทอรีเอกสาร
 string dataDir = "Your Document Directory";
-//สร้างไดเร็กทอรีหากยังไม่มีอยู่
+// สร้างไดเร็กทอรีหากยังไม่มีอยู่
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
--  dataDir: ตัวแปรนี้เก็บเส้นทางไปยังไดเร็กทอรีเอกสารของคุณ แทนที่`"Your Document Directory"` ด้วยเส้นทางจริงที่คุณต้องการบันทึกไฟล์ Excel ของคุณ
+- dataDir: ตัวแปรนี้เก็บเส้นทางไปยังไดเร็กทอรีเอกสารของคุณ แทนที่`"Your Document Directory"` ด้วยเส้นทางจริงที่คุณต้องการบันทึกไฟล์ Excel ของคุณ
 - Directory.Exists: ตรวจสอบว่าไดเร็กทอรีมีอยู่แล้วหรือไม่
 - Directory.CreateDirectory: ถ้าไดเร็กทอรีไม่มีอยู่ การดำเนินการนี้จะสร้างมันขึ้นมา
 ## ขั้นตอนที่ 2: สร้างตัวอย่างสมุดงาน
@@ -89,7 +89,7 @@ bmp.Save(ms, System.Drawing.Imaging.ImageFormat.Png);
 // ตั้งค่าข้อมูลภาพให้เป็นรูปร่างที่สัมพันธ์กับความคิดเห็น
 comment.CommentShape.Fill.ImageData = ms.ToArray();
 ```
--  comment.CommentShape.Fill.ImageData: คุณสมบัตินี้ช่วยให้คุณตั้งค่ารูปภาพสำหรับรูปร่างของคำอธิบายประกอบ เราแปลง`MemoryStream` ไปยังอาร์เรย์ไบต์โดยใช้`ms.ToArray()`.
+- comment.CommentShape.Fill.ImageData: คุณสมบัตินี้ช่วยให้คุณตั้งค่ารูปภาพสำหรับรูปร่างของคำอธิบายประกอบ เราแปลง`MemoryStream` ไปยังอาร์เรย์ไบต์โดยใช้`ms.ToArray()`.
 ## ขั้นตอนที่ 7: บันทึกสมุดงาน
 สุดท้ายนี้ เรามาบันทึกสมุดงานของเราโดยใส่ข้อคิดเห็นและรูปภาพไว้ด้วย
 ```csharp

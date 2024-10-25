@@ -110,10 +110,10 @@ Aspose.Cells là thư viện .NET được thiết kế để tạo, xử lý v�
  Bạn có thể tải xuống Aspose.Cells từ[trang web](https://releases.aspose.com/cells/net/).
 
 ### Có phiên bản miễn phí của Aspose.Cells không?
-Có! Bạn có thể dùng thử Aspose.Cells miễn phí bằng cách tải xuống phiên bản dùng thử[đây](https://releases.aspose.com/).
+ Có! Bạn có thể dùng thử Aspose.Cells miễn phí bằng cách tải xuống phiên bản dùng thử[đây](https://releases.aspose.com/).
 
 ### Tôi có thể nhận được hỗ trợ ở đâu?
- Đối với bất kỳ câu hỏi nào liên quan đến hỗ trợ, bạn có thể truy cập[Diễn đàn Aspose](https://forum.aspose.com/c/cells/9).
+Đối với bất kỳ câu hỏi nào liên quan đến hỗ trợ, bạn có thể truy cập[Diễn đàn Aspose](https://forum.aspose.com/c/cells/9).
 
 ### Tôi có thể sử dụng Aspose.Cells trong môi trường đám mây không?
 Có, Aspose.Cells có thể được tích hợp vào bất kỳ ứng dụng .NET nào, bao gồm cả các thiết lập trên nền tảng đám mây, miễn là thời gian chạy .NET được hỗ trợ.

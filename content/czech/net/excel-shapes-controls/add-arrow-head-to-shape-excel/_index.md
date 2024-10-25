@@ -39,7 +39,7 @@ Nyní je čas definovat, kde budou vaše dokumenty uloženy. Budete chtít vytvo
 ```csharp
 // Cesta k adresáři dokumentů.
 string dataDir = "Your Document Directory";
-//Vytvořte adresář, pokud ještě není přítomen.
+// Vytvořte adresář, pokud ještě není přítomen.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
 	System.IO.Directory.CreateDirectory(dataDir);
@@ -59,12 +59,12 @@ Nyní si vezmeme první pracovní list, kam přidáme naše tvary.
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 ## Krok 4: Přidejte tvar čáry
-Nyní přidáme řádek do našeho listu:
+Nyní do našeho listu přidáme řádek:
 ```csharp
 // Přidejte řádek do listu
 Aspose.Cells.Drawing.LineShape line2 = worksheet.Shapes.AddLine(7, 0, 1, 0, 85, 250);
 ```
-V tomto příkladu vytváříme tvar čáry začínající na souřadnicích (7, 0) a končící na (85, 250). Tato čísla můžete upravit a upravit tak velikost a polohu čáry podle potřeby.
+V tomto příkladu vytváříme tvar čáry začínající na souřadnicích (7, 0) a končící na (85, 250). Tato čísla můžete upravit a přizpůsobit tak velikost a pozici čáry podle potřeby.
 ## Krok 5: Přizpůsobte čáru
 Linku můžete učinit vizuálně přitažlivější změnou její barvy a hmotnosti. Zde je postup:
 ```csharp
@@ -113,7 +113,7 @@ Přidání šipek do tvarů v Excelu pomocí Aspose.Cells for .NET může výraz
 Ano, můžete upravit barvu čar a tvarů, včetně šipek, úpravou`SolidFill.Color` vlastnictví.
 ### Je Aspose.Cells zdarma k použití?
  Aspose.Cells je placený produkt, ale nabízí a[zkušební verze zdarma](https://releases.aspose.com/) které můžete použít k testování jeho funkcí.
-### Musím instalovat nějaké další knihovny?
+### Musím nainstalovat nějaké další knihovny?
 Ne, Aspose.Cells je samostatná knihovna. Ujistěte se, že na něj ve svém projektu odkazujete správně.
 ### Mohu vytvořit jiné tvary kromě čar?
 Absolutně! Aspose.Cells podporuje různé tvary, včetně obdélníků, elips a dalších.

@@ -26,7 +26,7 @@ Inizia creando un nuovo progetto Java nell'IDE scelto. Dagli un nome significati
 
 ## Aggiungere Aspose.Cells per Java al tuo progetto
 
-Per usare Aspose.Cells per Java nel tuo progetto, devi aggiungere la libreria Aspose.Cells. Puoi scaricare la libreria dal sito web e aggiungerla al classpath del tuo progetto.
+Per usare Aspose.Cells per Java nel tuo progetto, devi aggiungere la libreria Aspose.Cells. Puoi scaricare la libreria dal sito Web e aggiungerla al classpath del tuo progetto.
 
 ## Aggiunta della convalida dei dati a un foglio di lavoro
 

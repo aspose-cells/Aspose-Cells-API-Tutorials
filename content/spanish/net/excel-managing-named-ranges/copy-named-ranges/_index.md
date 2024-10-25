@@ -12,7 +12,7 @@ Excel es una herramienta poderosa que millones de personas en todo el mundo util
 ## Prerrequisitos
 Antes de sumergirnos en los detalles de la copia de rangos con nombre, deberá asegurarse de tener algunas cosas preparadas. Esto es lo que necesita:
 1. Entorno .NET: Asegúrate de tener configurado un entorno de desarrollo .NET. Puedes usar Visual Studio o cualquier otro IDE de tu elección.
-2.  Biblioteca Aspose.Cells para .NET: ¡Esta es la estrella del espectáculo! Descargue la biblioteca desde[Sitio web de Aspose](https://releases.aspose.com/cells/net/) Si aún no lo has hecho.
+2. Biblioteca Aspose.Cells para .NET: ¡Esta es la estrella del espectáculo! Descargue la biblioteca desde[Sitio web de Aspose](https://releases.aspose.com/cells/net/) Si aún no lo has hecho.
 3. Conocimientos básicos de C#: la familiaridad con la programación en C# será beneficiosa ya que codificaremos en este lenguaje a lo largo del tutorial.
 4. Excel instalado: si bien no necesariamente necesitas Excel para escribir código, tenerlo instalado es útil para probar tus archivos de salida.
 5.  Acceso a la Documentación: Marcar como favorito[Documentación de Aspose.Cells](https://reference.aspose.com/cells/net/) Para referencia. Es un gran recurso para comprender métodos y funciones.
@@ -27,7 +27,7 @@ using System.IO;
 using Aspose.Cells;
 using System.Drawing;
 ```
-Este código te dará acceso a clases esenciales como`Workbook`, `Worksheet` y`Range`, que necesitarás para manipular archivos de Excel.
+ Este código te dará acceso a clases esenciales como`Workbook`, `Worksheet` , y`Range`, que necesitarás para manipular archivos de Excel.
 
 Ahora que tenemos nuestros requisitos previos resueltos, dividamos el proceso en pasos fáciles de seguir.
 ## Paso 1: Configurar el directorio de salida
@@ -76,7 +76,7 @@ range1[0, 4].PutValue("123");
 ```
 Este fragmento de código llena la primera celda del rango con el texto "Test" y la última celda con el número "123". Es como completar un formulario con información esencial.
 ## Paso 8: Crea otro rango
-continuación, necesitará otro rango donde copiará los datos de su primer rango.
+A continuación, necesitará otro rango donde copiará los datos de su primer rango.
 ```csharp
 Range range2 = worksheet.Cells.CreateRange("B3", "F3");
 range2.Name = "testrange"; // Nombrar el segundo rango

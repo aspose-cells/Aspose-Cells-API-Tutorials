@@ -18,7 +18,7 @@ Trước khi đi sâu vào mã, bạn cần phải có một số điều kiện
 1. Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio trên máy của mình. Đây là IDE mà chúng ta sẽ sử dụng để viết và thực thi mã của mình.
 2.  Aspose.Cells cho .NET: Bạn cần có thư viện Aspose.Cells. Bạn có thể tải xuống từ[Trang web Aspose](https://releases.aspose.com/cells/net/).
 3. Kiến thức cơ bản về C#: Sự quen thuộc với lập trình C# sẽ giúp bạn hiểu các ví dụ tốt hơn.
-4.  Tệp Excel: Chuẩn bị sẵn một tệp Excel (ví dụ:`book1.xls`) mà bạn sẽ sử dụng cho hướng dẫn này.
+4. Tệp Excel: Chuẩn bị sẵn một tệp Excel (ví dụ:`book1.xls`) mà bạn sẽ sử dụng cho hướng dẫn này.
 
 Khi đã sắp xếp xong các điều kiện tiên quyết này, chúng ta có thể bắt đầu khám phá cách lấy dữ liệu từ các ô Excel.
 
@@ -52,7 +52,7 @@ Bây giờ bạn đã thiết lập xong thư mục tài liệu, bước tiếp 
 
 
 ```csharp
-// Mở một bảng tính hiện có
+//Mở một bảng tính hiện có
 Workbook workbook = new Workbook(dataDir + "book1.xls");
 ```
 
@@ -68,7 +68,7 @@ Sau khi mở sổ làm việc, bạn sẽ muốn truy cập vào trang tính c�
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
- Các`Worksheets` bộ sưu tập cho phép bạn truy cập vào các trang tính khác nhau trong sổ làm việc. Mục lục`[0]`tham chiếu đến trang tính đầu tiên. Nếu bạn muốn truy cập các trang tính tiếp theo, bạn có thể thay đổi chỉ mục cho phù hợp.
+ Các`Worksheets` bộ sưu tập cho phép bạn truy cập vào các trang tính khác nhau trong sổ làm việc. Mục lục`[0]` tham chiếu đến trang tính đầu tiên. Nếu bạn muốn truy cập các trang tính tiếp theo, bạn có thể thay đổi chỉ mục cho phù hợp.
 
 ## Bước 4: Lặp qua các ô
 
@@ -99,7 +99,7 @@ foreach (Cell cell1 in worksheet.Cells)
             Console.WriteLine("Double Value: " + doubleValue);
             break;
 
-        // Đánh giá kiểu dữ liệu của dữ liệu ô cho giá trị boolean
+        //Đánh giá kiểu dữ liệu của dữ liệu ô cho giá trị boolean
         case CellValueType.IsBool:
             boolValue = cell1.BoolValue;
             Console.WriteLine("Bool Value: " + boolValue);
@@ -124,7 +124,7 @@ foreach (Cell cell1 in worksheet.Cells)
 }
 ```
 
- Trong bước này, chúng ta lặp qua từng ô trong bảng tính. Đối với mỗi ô, chúng ta kiểm tra kiểu dữ liệu của nó bằng cách sử dụng`switch`statement. Tùy thuộc vào loại, chúng tôi sẽ lấy giá trị và in nó ra bảng điều khiển. Sau đây là phân tích các trường hợp:
+ Trong bước này, chúng ta lặp qua từng ô trong bảng tính. Đối với mỗi ô, chúng ta kiểm tra kiểu dữ liệu của nó bằng cách sử dụng`switch` statement. Tùy thuộc vào loại, chúng tôi sẽ lấy giá trị và in nó ra bảng điều khiển. Sau đây là phân tích các trường hợp:
 
 -  IsString: Nếu ô chứa một chuỗi, chúng ta sẽ lấy nó bằng cách sử dụng`StringValue`.
 -  IsNumeric: Đối với các giá trị số, chúng tôi sử dụng`DoubleValue`.
@@ -143,7 +143,7 @@ Truy xuất dữ liệu từ các ô Excel bằng Aspose.Cells cho .NET là mộ
 Aspose.Cells là thư viện .NET cho phép các nhà phát triển tạo, thao tác và chuyển đổi các tệp Excel mà không cần cài đặt Microsoft Excel.
 
 ### Tôi có thể sử dụng Aspose.Cells miễn phí không?  
-Có, Aspose.Cells cung cấp bản dùng thử miễn phí mà bạn có thể sử dụng để kiểm tra các tính năng của nó. Bạn có thể tải xuống[đây](https://releases.aspose.com/).
+ Có, Aspose.Cells cung cấp bản dùng thử miễn phí mà bạn có thể sử dụng để kiểm tra các tính năng của nó. Bạn có thể tải xuống[đây](https://releases.aspose.com/).
 
 ### Tôi có thể lấy những loại dữ liệu nào từ các ô trong Excel?  
 Bạn có thể lấy nhiều kiểu dữ liệu khác nhau, bao gồm chuỗi, số, boolean và giá trị ngày/giờ.

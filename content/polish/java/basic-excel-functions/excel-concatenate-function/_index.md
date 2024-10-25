@@ -85,7 +85,7 @@ workbook.save("concatenated_text.xlsx");
 
 ## Wniosek
 
- W tym samouczku nauczyliśmy się, jak łączyć tekst w programie Excel za pomocą Aspose.Cells dla języka Java. Omówiliśmy podstawowe kroki, od inicjalizacji skoroszytu po zapisanie pliku programu Excel. Ponadto zbadaliśmy alternatywną metodę łączenia tekstu za pomocą`Cell.putValue` metoda. Teraz możesz używać Aspose.Cells dla Java do łatwego wykonywania konkatenacji tekstu w swoich aplikacjach Java.
+ W tym samouczku nauczyliśmy się, jak łączyć tekst w programie Excel za pomocą Aspose.Cells dla języka Java. Omówiliśmy podstawowe kroki, od inicjalizacji skoroszytu po zapisanie pliku programu Excel. Ponadto zbadaliśmy alternatywną metodę łączenia tekstu za pomocą`Cell.putValue` metoda. Teraz możesz używać Aspose.Cells for Java do łatwego wykonywania konkatenacji tekstu w swoich aplikacjach Java.
 
 ## Najczęściej zadawane pytania
 

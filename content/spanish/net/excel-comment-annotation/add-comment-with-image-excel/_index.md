@@ -37,12 +37,12 @@ Para comenzar, debemos configurar un directorio donde podamos guardar nuestros a
 ```csharp
 // La ruta al directorio de documentos.
 string dataDir = "Your Document Directory";
-//Crear directorio si aún no está presente.
+// Crear directorio si aún no está presente.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
--  dataDir: Esta variable contiene la ruta al directorio de sus documentos. Reemplazar`"Your Document Directory"` con la ruta real donde desea guardar su archivo de Excel.
+- dataDir: Esta variable contiene la ruta al directorio de sus documentos. Reemplazar`"Your Document Directory"` con la ruta real donde desea guardar su archivo de Excel.
 - Directory.Exists: Esto verifica si el directorio ya existe.
 - Directorio.CreateDirectory: Si el directorio no existe, esto lo crea.
 ## Paso 2: Crear una instancia de un libro de trabajo
@@ -89,7 +89,7 @@ Ahora necesitamos establecer los datos de la imagen en la forma asociada con el 
 // Establezca los datos de la imagen en la forma asociada con el comentario
 comment.CommentShape.Fill.ImageData = ms.ToArray();
 ```
--  comment.CommentShape.Fill.ImageData: Esta propiedad le permite configurar la imagen para la forma del comentario. Convertimos el`MemoryStream` a una matriz de bytes usando`ms.ToArray()`.
+- comment.CommentShape.Fill.ImageData: Esta propiedad le permite configurar la imagen para la forma del comentario. Convertimos el`MemoryStream` a una matriz de bytes usando`ms.ToArray()`.
 ## Paso 7: Guardar el libro de trabajo
 Por último, guardemos nuestro libro de trabajo con el comentario y la imagen incluidos.
 ```csharp

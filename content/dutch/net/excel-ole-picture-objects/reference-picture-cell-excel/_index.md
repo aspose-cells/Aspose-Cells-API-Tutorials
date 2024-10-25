@@ -27,7 +27,7 @@ using Aspose.Cells.Drawing;
 ```
 Laten we nu wat code schrijven om ons doel te bereiken: het verwijzen naar een afbeelding in Excel.
 ## Stap 1: Stel uw omgeving in
-Allereerst moeten we een nieuwe werkmap maken en de benodigde cellen instellen. Dit is hoe:
+Ten eerste moeten we een nieuwe werkmap maken en de benodigde cellen instellen. Dit is hoe:
 ```csharp
 // Het pad naar de documentenmap.
 string dataDir = "Your Document Directory";
@@ -39,7 +39,7 @@ Cells cells = workbook.Worksheets[0].Cells;
  
 - U definieert het pad waar u uw Excel-bestand wilt opslaan.
 -  Maak een nieuwe`Workbook` instantie, die uw Excel-bestand vertegenwoordigt.
-- Ga naar de cellen in het eerste werkblad waar we onze gegevens en afbeelding gaan invoegen.
+- Ga naar de cellen in het eerste werkblad waar we onze gegevens en afbeeldingen gaan invoegen.
 ## Stap 2: Voeg tekenreekswaarden toe aan de cellen
 Laten we nu een aantal tekenreekswaarden aan de cellen toevoegen. 
 ```csharp

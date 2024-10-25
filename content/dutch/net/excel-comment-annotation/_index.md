@@ -13,11 +13,11 @@ Heb je ooit je Excel-spreadsheets wat expressiever willen maken? Misschien zou j
 
 ## Voeg een opmerking met afbeelding toe in Excel
 
-Stel je voor dat je je Excel-cellen kunt annoteren met niet alleen tekst, maar ook afbeeldingen. Dit voegt een persoonlijk tintje en een visueel element toe dat de informatie in je sheets kan verduidelijken en verbeteren. De tutorial over[Een opmerking met afbeelding toevoegen in Excel](./add-comment-with-image-excel/) leidt u stap voor stap door het proces. U leert afbeeldingen direct in opmerkingen in te voegen, waardoor uw spreadsheets niet alleen informatiever worden, maar ook visueel aantrekkelijker. Denk eens aan hoe effectief een screenshot of een logo kan zijn wanneer u uw werk met anderen deelt!
+ Stel je voor dat je je Excel-cellen kunt annoteren met niet alleen tekst, maar ook afbeeldingen. Dit voegt een persoonlijk tintje en een visueel element toe dat de informatie in je sheets kan verduidelijken en verbeteren. De tutorial over[Een opmerking met afbeelding toevoegen in Excel](./add-comment-with-image-excel/) leidt u stap voor stap door het proces. U leert afbeeldingen direct in opmerkingen in te voegen, waardoor uw spreadsheets niet alleen informatiever worden, maar ook visueel aantrekkelijker. Denk eens aan hoe effectief een screenshot of een logo kan zijn wanneer u uw werk met anderen deelt!
 
 ## Opmerkingen toevoegen aan cellen of vormen in Excel
 
- Als u een beginner bent die aan de slag wil met annotaties,[Opmerkingen toevoegen aan cellen of vormen in Excel](./add-comments-to-cells-or-shapes-excel/)tutorial is perfect voor u. Het behandelt alles van de basisprincipes van het toevoegen van opmerkingen tot het verbeteren van de functionaliteit van uw spreadsheets. U leert hoe u opmerkingen aan verschillende elementen kunt toevoegen, of het nu cellen of vormen zijn, en u doorloopt zelfs enkele best practices in het proces. Deze tutorial is uw opstapje om uw spreadsheets interactief en gebruiksvriendelijk te maken!
+ Als u een beginner bent die aan de slag wil met annotaties,[Opmerkingen toevoegen aan cellen of vormen in Excel](./add-comments-to-cells-or-shapes-excel/) tutorial is perfect voor u. Het behandelt alles van de basisprincipes van het toevoegen van opmerkingen tot het verbeteren van de functionaliteit van uw spreadsheets. U leert hoe u opmerkingen aan verschillende elementen kunt toevoegen, of het nu cellen of vormen zijn, en u doorloopt zelfs enkele best practices in het proces. Deze tutorial is uw opstapje om uw spreadsheets interactief en gebruiksvriendelijk te maken!
 
 ## Formaat opmerkingen - Lettertype, kleur, uitlijning
 

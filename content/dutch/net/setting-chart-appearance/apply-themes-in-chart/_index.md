@@ -59,7 +59,7 @@ string sourceDir = "Your Document Directory";
 Workbook workbook = new Workbook(sourceDir + "sampleApplyingThemesInChart.xlsx");
 ```
 
- Zorg ervoor dat`sampleApplyingThemesInChart.xlsx`bestaat in uw bronmap.
+ Zorg ervoor dat`sampleApplyingThemesInChart.xlsx` bestaat in uw bronmap.
 
 ## Stap 3: Toegang tot het werkblad
 
@@ -96,7 +96,7 @@ Deze coderegel zorgt ervoor dat de eerste reeks in het diagram wordt ingesteld o
 
 ## Stap 6: Configureer de kleur
 
- Nu onze serie klaar is, moeten we de kleur aanpassen. Dit houdt in dat we een`CellsColor`object en specificeren van een themakleur. We kiezen een accentstijl voor dit voorbeeld.
+ Nu onze serie klaar is, moeten we de kleur aanpassen. Dit houdt in dat we een`CellsColor` object en specificeren van een themakleur. We kiezen een accentstijl voor dit voorbeeld.
 
 ```csharp
 // Haal de CellsColor van SolidFill op

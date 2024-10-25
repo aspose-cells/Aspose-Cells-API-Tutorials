@@ -16,7 +16,7 @@ url: /ja/net/excel-data-import-export/import-data-to-worksheet-in-excel-with-spe
 細かい点に入る前に、必要なものがすべて揃っていることを確認しましょう。成功するための前提条件の簡単なチェックリストを以下に示します。
 
 1. .NET Framework: お使いのマシンに .NET Framework がインストールされていることを確認してください。Aspose.Cells は、さまざまな .NET バージョンでシームレスに動作します。
-2. Aspose.Cells for .NET: Aspose.Cellsライブラリをダウンロードしてインストールする必要があります。[ダウンロードリンク](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells for .NET: Aspose.Cellsライブラリをダウンロードしてインストールする必要があります。[ダウンロードリンク](https://releases.aspose.com/cells/net/).
 3. 統合開発環境 (IDE): C# コードを記述して実行できる Visual Studio などの IDE を使用します。
 4. C# の基礎知識: C# の基礎知識があれば、このガイドで使用するコーディング手法に従うのに役立ちます。
 

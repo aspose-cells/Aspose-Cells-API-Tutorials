@@ -37,12 +37,12 @@ Per iniziare, dobbiamo impostare una directory in cui salvare i nostri file Exce
 ```csharp
 // Percorso verso la directory dei documenti.
 string dataDir = "Your Document Directory";
-//Creare la directory se non è già presente.
+// Creare la directory se non è già presente.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
--  dataDir: Questa variabile contiene il percorso alla directory dei tuoi documenti. Sostituisci`"Your Document Directory"` con il percorso effettivo in cui desideri salvare il file Excel.
+- dataDir: Questa variabile contiene il percorso alla directory dei tuoi documenti. Sostituisci`"Your Document Directory"` con il percorso effettivo in cui desideri salvare il file Excel.
 - Directory.Exists: controlla se la directory esiste già.
 - Directory.CreateDirectory: se la directory non esiste, viene creata.
 ## Passaggio 2: creare un'istanza di una cartella di lavoro
@@ -89,7 +89,7 @@ Ora dobbiamo impostare i dati dell'immagine sulla forma associata al commento cr
 // Imposta i dati dell'immagine sulla forma associata al commento
 comment.CommentShape.Fill.ImageData = ms.ToArray();
 ```
--  comment.CommentShape.Fill.ImageData: Questa proprietà consente di impostare l'immagine per la forma del commento. Convertiamo il`MemoryStream` in un array di byte utilizzando`ms.ToArray()`.
+- comment.CommentShape.Fill.ImageData: Questa proprietà consente di impostare l'immagine per la forma del commento. Convertiamo il`MemoryStream` in un array di byte utilizzando`ms.ToArray()`.
 ## Passaggio 7: salvare la cartella di lavoro
 Infine, salviamo la nostra cartella di lavoro con il commento e l'immagine inclusi.
 ```csharp

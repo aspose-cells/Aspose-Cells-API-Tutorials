@@ -106,4 +106,4 @@ Tanımlı adları filtrelemek, bu adlara atıfta bulunurlarsa bozuk formüllere 
  Evet, satın almadan önce yeteneklerini test etmek için Aspose.Cells'in ücretsiz deneme sürümünü edinebilirsiniz. Kontrol edin[Burada](https://releases.aspose.com/).
 
 ### Daha fazla örnek ve dokümanı nerede bulabilirim?
-Aspose.Cells referans sayfasında kapsamlı dokümantasyon ve daha fazla örnek bulabilirsiniz[Burada](https://reference.aspose.com/cells/net/).
+ Aspose.Cells referans sayfasında kapsamlı dokümantasyon ve daha fazla örnek bulabilirsiniz[Burada](https://reference.aspose.com/cells/net/).

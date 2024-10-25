@@ -15,9 +15,9 @@ Ti è mai capitato di dover copiare manualmente fogli di lavoro tra cartelle di 
 
 Prima di immergerci nel codice, assicuriamoci di avere a disposizione gli strumenti giusti per iniziare:
 
-- Aspose.Cells per .NET: puoi scaricarlo[Qui](https://releases.aspose.com/cells/net/).
+-  Aspose.Cells per .NET: puoi scaricarlo[Qui](https://releases.aspose.com/cells/net/).
 - Visual Studio o qualsiasi IDE che supporti .NET Framework.
--  Una licenza valida o una[licenza temporanea](https://purchase.aspose.com/temporary-license/) se vuoi testare la piena funzionalità di Aspose.Cells.
+-  Una licenza valida o una[licenza temporanea](https://purchase.aspose.com/temporary-license/)se vuoi testare la piena funzionalità di Aspose.Cells.
 - Conoscenza di base di C# e del framework .NET.
 
  Puoi anche controllare il[Documentazione di Aspose.Cells](https://reference.aspose.com/cells/net/) per ulteriori dettagli.
@@ -44,7 +44,7 @@ Per prima cosa, devi definire dove si trovano i tuoi file. Pensa a questo passag
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- In questa riga, sostituisci`"YOUR DOCUMENT DIRECTORY"` con il percorso effettivo per i tuoi file Excel. È qui che verranno caricate e salvate le tue cartelle di lavoro.
+ In questa riga, sostituisci`"YOUR DOCUMENT DIRECTORY"`con il percorso effettivo per i tuoi file Excel. È qui che verranno caricate e salvate le tue cartelle di lavoro.
 
 ## Passaggio 2: aprire la prima cartella di lavoro
 
@@ -64,7 +64,7 @@ Workbook excelWorkbook0 = new Workbook(InputPath);
 Ora che hai aperto la prima cartella di lavoro, è il momento di creare un'altra cartella di lavoro vuota in cui incollare il foglio di lavoro copiato. Immagina di aprire un nuovo notebook vuoto in cui trasferire i dati.
 
 ```csharp
-//Crea un'altra cartella di lavoro.
+// Crea un'altra cartella di lavoro.
 Workbook excelWorkbook1 = new Workbook();
 ```
 

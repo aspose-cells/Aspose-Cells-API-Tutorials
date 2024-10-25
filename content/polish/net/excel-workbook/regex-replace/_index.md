@@ -16,7 +16,7 @@ Czy jesteś zmęczony spędzaniem godzin na ręcznym wprowadzaniu drobiazgowych 
 Zanim zagłębisz się w szczegóły kodowania, upewnijmy się, że jesteś dobrze przygotowany na czekającą Cię podróż.
 
 1. .NET Framework: Upewnij się, że masz skonfigurowane środowisko .NET. Niezależnie od tego, czy jest to .NET Core czy .NET Framework, wszystko powinno być w porządku.
-2.  Biblioteka Aspose.Cells: Ta biblioteka jest Twoim kluczem do odblokowania potężnych manipulacji arkuszami kalkulacyjnymi. Możesz[pobierz tutaj](https://releases.aspose.com/cells/net/).
+2. Biblioteka Aspose.Cells: Ta biblioteka jest Twoim kluczem do odblokowania potężnych manipulacji arkuszami kalkulacyjnymi. Możesz[pobierz tutaj](https://releases.aspose.com/cells/net/).
 3. IDE: Użyj swojego ulubionego zintegrowanego środowiska programistycznego (IDE), np. Visual Studio, dzięki któremu kodowanie stanie się o wiele płynniejsze.
 4. Podstawowa wiedza programistyczna: Znajomość języka C# i koncepcji wyrażeń regularnych będzie dodatkowym atutem.
 
@@ -77,7 +77,7 @@ replace.RegexKey = true; // Określ, że używamy wyrażenia regularnego
 ```
 
 W tej konfiguracji:
-- `CaseSensitive` jest ustawiony na`false`co oznacza, że wyszukiwanie frazy „KIM” nie będzie uwzględniać, czy litery są wielkie, czy małe.
+- `CaseSensitive` jest ustawiony na`false`, co oznacza, że wyszukiwanie frazy „KIM” nie będzie uwzględniać, czy litery są wielkie, czy małe.
 - `MatchEntireCellContents` jest ustawiony na`false` dzięki czemu możemy zastąpić część zawartości komórki.
 - `RegexKey` jest ustawiony na`true` aby wskazać, że do wyszukiwania użyjemy wyrażenia regularnego.
 
@@ -132,4 +132,4 @@ Tak, obsługuje wiele formatów, w tym XLS, XLSX, CSV i inne.
 Tak, można tworzyć bardziej złożone wzorce wyrażeń regularnych, aby dopasować wiele terminów jednocześnie.
 
 ### Gdzie mogę znaleźć więcej przykładów i dokumentacji dla Aspose.Cells?  
- Można znaleźć kompleksową dokumentację[Tutaj](https://reference.aspose.com/cells/net/).
+Można znaleźć kompleksową dokumentację[Tutaj](https://reference.aspose.com/cells/net/).

@@ -16,7 +16,7 @@ Quản lý các tệp Excel đôi khi có thể giống như đang điều hư�
 Trước khi đi sâu vào mã hóa thực tế, điều quan trọng là phải đảm bảo rằng bạn đã thiết lập mọi thứ đúng cách. Sau đây là những gì bạn cần:
 
 1. Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio (bất kỳ phiên bản nào hỗ trợ .NET) trên máy tính của mình.
-2.  Aspose.Cells cho .NET: Tải xuống và cài đặt thư viện Aspose.Cells từ[Trang web của Aspose](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells cho .NET: Tải xuống và cài đặt thư viện Aspose.Cells từ[Trang web của Aspose](https://releases.aspose.com/cells/net/).
 3. Kiến thức cơ bản về C#: Một chút quen thuộc với lập trình C# sẽ rất hữu ích vì chúng ta sẽ làm việc trong bối cảnh C#.
 4.  Tệp Excel mẫu: Để minh họa, hãy chuẩn bị một tệp Excel mẫu (ví dụ:`sampleChangeCellsAlignmentAndKeepExistingFormatting.xlsx`) có chứa một số định dạng ô ban đầu.
 
@@ -89,7 +89,7 @@ Ví dụ này truy cập vào trang tính đầu tiên. Nếu dữ liệu của 
 Xác định ô nào bạn muốn thay đổi bằng cách tạo một phạm vi. Lựa chọn này sẽ tập trung vào một phạm vi được chỉ định, chẳng hạn như “B2:D7”.
 
 ```csharp
-// Tạo phạm vi ô.
+//Tạo phạm vi ô.
 Range rng = ws.Cells.CreateRange("B2:D7");
 ```
 
@@ -122,14 +122,14 @@ StyleFlag flag = new StyleFlag();
 flag.Alignments = true;
 ```
 
- Bằng cách thiết lập`Alignments`thuộc tính của StyleFlag để`true`, bạn yêu cầu Aspose.Cells áp dụng các kiểu căn chỉnh một cách chính xác.
+ Bằng cách thiết lập`Alignments` thuộc tính của StyleFlag để`true`, bạn yêu cầu Aspose.Cells áp dụng các kiểu căn chỉnh một cách chính xác.
 
 ## Bước 7: Áp dụng Kiểu cho Phạm vi Ô
 
 Sau khi đã thiết lập xong các kiểu và cờ, đã đến lúc áp dụng các kiểu đó vào phạm vi ô:
 
 ```csharp
-// Áp dụng kiểu cho một phạm vi ô.
+//Áp dụng kiểu cho một phạm vi ô.
 rng.ApplyStyle(st, flag);
 ```
 

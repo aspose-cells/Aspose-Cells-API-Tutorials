@@ -12,7 +12,7 @@ Jika berbicara tentang memanipulasi file Excel di .NET, Aspose.Cells menonjol se
 ## Prasyarat
 Sebelum memulai konversi, penting untuk memastikan Anda telah menyiapkan semuanya dengan benar. Berikut ini adalah prasyarat yang Anda perlukan:
 1. Visual Studio: Pastikan Anda telah menginstal Visual Studio di komputer Anda. Ini adalah IDE yang akan membantu Anda menjalankan proyek .NET dengan lancar.
-2. Pustaka Aspose.Cells untuk .NET: Anda perlu memperoleh pustaka ini. Anda dapat[unduh disini](https://releases.aspose.com/cells/net/) atau mulai dengan[uji coba gratis](https://releases.aspose.com/).
+2.  Pustaka Aspose.Cells untuk .NET: Anda perlu memperoleh pustaka ini. Anda dapat[unduh disini](https://releases.aspose.com/cells/net/) atau mulai dengan[uji coba gratis](https://releases.aspose.com/).
 3. Pengetahuan Dasar C#: Keakraban dengan pemrograman C# akan bermanfaat, karena contoh dan penjelasan kami akan ditulis dalam bahasa ini.
 4.  Contoh File Excel: Untuk demonstrasi, buat atau unduh file Excel. Simpan sebagai`MyTestBook1.xls` di direktori proyek Anda.
 5. Pemahaman Dasar tentang Proyek .NET: Mengetahui cara membuat proyek .NET sederhana akan mempermudah hal ini, tetapi jangan khawatir—kami akan memandu Anda melalui langkah-langkahnya.
@@ -51,7 +51,7 @@ string dataDir = "Your Document Directory";
 // Buka file Excel templat.
 Workbook book = new Workbook(dataDir + "MyTestBook1.xls");
 ```
- Pada langkah ini, kita membuat sebuah instance dari`Workbook`class dan meneruskan jalur ke berkas Excel kita. Ini memungkinkan kita berinteraksi dengan konten berkas secara terprogram.
+ Pada langkah ini, kita membuat sebuah instance dari`Workbook` class dan meneruskan jalur ke berkas Excel kita. Ini memungkinkan kita berinteraksi dengan konten berkas secara terprogram.
 ## Langkah 5: Mengakses Lembar Kerja
 Sekarang setelah buku kerja kita terbuka, mari mengakses lembar kerja pertama:
 ```csharp
@@ -78,7 +78,7 @@ SheetRender sr = new SheetRender(sheet, imgOptions);
 // Render gambar untuk lembar tersebut
 Bitmap bitmap = sr.ToImage(0);
 ```
- Itu`SheetRender`kelas membantu merender lembar kerja menjadi gambar bitmap. Kami menyebutnya`ToImage(0)` untuk merender halaman ke nol (lembar pertama kita) menjadi bitmap.
+ Itu`SheetRender` kelas membantu merender lembar kerja menjadi gambar bitmap. Kami menyebutnya`ToImage(0)` untuk merender halaman ke nol (lembar pertama kita) menjadi bitmap.
 ## Langkah 8: Menyimpan Gambar
 Setelah melakukan rendering, kita perlu menyimpan gambar ke direktori yang ditentukan:
 ```csharp
@@ -99,7 +99,7 @@ Nah, itu dia! Hanya dalam beberapa langkah sederhana, Anda telah mempelajari car
 ### Apa itu Aspose.Cells?
 Aspose.Cells adalah pustaka .NET yang memungkinkan pengembang untuk membuat, memanipulasi, mengonversi, dan memproses file Excel secara terprogram.
 ### Bisakah saya menggunakan Aspose.Cells secara gratis?
- Ya, Anda dapat mulai menggunakan Aspose.Cells dengan mengunduh uji coba gratis dari mereka[situs web](https://releases.aspose.com/).
+Ya, Anda dapat mulai menggunakan Aspose.Cells dengan mengunduh uji coba gratis dari mereka[situs web](https://releases.aspose.com/).
 ### Format gambar apa yang didukung Aspose.Cells untuk ekspor?
 Aspose.Cells mendukung berbagai format gambar, termasuk JPEG, PNG, BMP, dan GIF.
 ### Di mana saya dapat menemukan dukungan tambahan untuk Aspose.Cells?

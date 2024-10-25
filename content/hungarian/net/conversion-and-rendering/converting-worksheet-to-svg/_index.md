@@ -112,7 +112,7 @@ Ez a kód SVG-fájlként menti a munkalapot ugyanabba a könyvtárba, mint az Ex
 ## GYIK
 
 ### Mi az SVG, és miért használjam?
-Az SVG (Scalable Vector Graphics) egy webbarát formátum, amely a minőség romlása nélkül végtelenül méretezhető. Tökéletes olyan diagramokhoz, diagramokhoz és képekhez, amelyeket különböző méretben kell megjeleníteni.
+Az SVG (Scalable Vector Graphics) egy webbarát formátum, amely a minőség romlása nélkül végtelenül méretezhető. Tökéletes diagramokhoz, diagramokhoz és képekhez, amelyeket különböző méretben kell megjeleníteni.
 
 ### Az Aspose.Cells képes kezelni a nagyméretű Excel-fájlokat a konvertáláshoz?
 Igen, az Aspose.Cells hatékonyan képes kezelni a nagy Excel-fájlokat, és jelentős teljesítményproblémák nélkül konvertálni SVG-formátumba.
@@ -124,4 +124,4 @@ Nem, az Aspose.Cellsben nincs korlátozás több munkalap konvertálására. Az 
  Igen, az Aspose.Cells licencet igényel az éles használatra. Kaphat ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/) vagy fedezze fel a[ingyenes próbaverzió](https://releases.aspose.com/).
 
 ### Testreszabhatom az SVG kimenetet?
- Igen, lehet csípni a`ImageOrPrintOptions` az SVG-kimenet különböző szempontjainak testreszabásához, például a felbontáshoz és a méretezéshez.
+ Igen, lehet csípni a`ImageOrPrintOptions` az SVG-kimenet különféle szempontjainak testreszabásához, például a felbontáshoz és a méretezéshez.

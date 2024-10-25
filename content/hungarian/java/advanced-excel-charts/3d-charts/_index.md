@@ -14,7 +14,7 @@ Az Aspose.Cells for Java egy hatékony Java API az Excel fájlokkal való munkav
 
 ## Mik azok a 3D diagramok?
 
-3D diagramok egyfajta adatvizualizáció, amely mélységet ad a hagyományos 2D diagramokhoz. Magával ragadóbb módot biztosítanak az adatok bemutatására, megkönnyítve az adatkészleteken belüli összetett kapcsolatok megértését. A 3D diagramok különösen hasznosak lehetnek többdimenziós adatok kezelésekor.
+A 3D diagramok egyfajta adatvizualizáció, amely mélységet ad a hagyományos 2D diagramokhoz. Magával ragadóbb módot biztosítanak az adatok bemutatására, megkönnyítve az adatkészleteken belüli összetett kapcsolatok megértését. A 3D diagramok különösen hasznosak lehetnek többdimenziós adatok kezelésekor.
 
 ## Miért használja az Aspose.Cells for Java programot 3D diagramok készítéséhez?
 
@@ -33,7 +33,7 @@ Az Aspose.Cells for Java könyvtárat letöltheti a webhelyről. A letöltés ut
 Az Aspose.Cells for Java használatához inicializálnia kell a licencet. Ez a lépés elengedhetetlen az értékelési korlátozások megszüntetéséhez és a könyvtárban rejlő teljes potenciál kiaknázásához.
 
 ```java
-// Inicializálja az Aspose.Cells licencet
+//Inicializálja az Aspose.Cells licencet
 License license = new License();
 license.setLicense("path_to_license_file.xml");
 ```
@@ -88,7 +88,7 @@ Chart chart = worksheet.getCharts().get(chartIndex);
 // A diagram adattartományának beállítása
 chart.getNSeries().add("A2:B4", true);
 
-//Diagram attribútumok testreszabása
+// Diagram attribútumok testreszabása
 chart.getChartArea().getBorder().setVisible(false);
 chart.getChartTitle().setText("3D Bar Chart");
 ```
@@ -138,7 +138,7 @@ Az Aspose.Cells for Java lehetővé teszi, hogy különböző forrásokból szá
 
 ## Következtetés
 
-Ebben a cikkben megvizsgáltuk, hogyan hozhat létre 3D diagramokat az Aspose.Cells for Java használatával. Megbeszéltük a beállítást, az alapvető diagramkészítést, a testreszabást és a 3D diagramokkal való munkavégzés speciális funkcióit. Az Aspose.Cells for Java robusztus és felhasználóbarát platformot biztosít tetszetős és informatív 3D diagramok készítéséhez Excelben.
+Ebben a cikkben megvizsgáltuk, hogyan hozhat létre 3D diagramokat az Aspose.Cells for Java használatával. Megbeszéltük a beállítást, az alapvető diagramkészítést, a testreszabást és a 3D-s diagramokkal végzett munka speciális funkcióit. Az Aspose.Cells for Java robusztus és felhasználóbarát platformot biztosít tetszetős és informatív 3D diagramok készítéséhez Excelben.
 
 ## GYIK
 
@@ -156,7 +156,7 @@ Az Aspose.Cells for Java elsősorban az Excel-fájlok statikus 3D diagramjainak 
 
 ### Automatizálhatom a 3D diagramom adatainak frissítésének folyamatát?
 
-Igen, automatizálhatja a 3D diagramok adatainak frissítését adatforrások integrálásával vagy olyan szkriptnyelvek használatával, mint a VBA (Visual Basic for Applications) az Excelben. Az Aspose.Cells for Java segítséget nyújthat a diagramok dinamikus frissítésében is, amikor új adatok állnak rendelkezésre.
+Igen, automatizálhatja a 3D diagramok adatainak frissítését adatforrások integrálásával vagy olyan szkriptnyelvek használatával, mint a VBA (Visual Basic for Applications) az Excelben. Az Aspose.Cells for Java segíthet a diagramok dinamikus frissítésében is, ha új adatok állnak rendelkezésre.
 
 ### Hol találok további forrásokat és dokumentációt az Aspose.Cells for Java-hoz?
 

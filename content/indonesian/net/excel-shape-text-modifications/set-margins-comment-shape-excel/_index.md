@@ -16,7 +16,7 @@ Anda harus memiliki pemahaman dasar tentang C# dan .NET. Tutorial ini dirancang 
 ### Pengaturan Lingkungan
 1. Visual Studio: Pastikan Anda telah menginstal Visual Studio. Ini adalah lingkungan pengembangan yang menyederhanakan pengodean.
 2.  Pustaka Aspose.Cells: Anda memerlukan pustaka Aspose.Cells. Jika Anda belum memilikinya, Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/cells/net/).
-3.  Contoh File Excel: Buat atau unduh contoh file Excel. Untuk tutorial ini, kita akan menggunakan file bernama`sampleSetMarginsOfCommentOrShapeInsideTheWorksheet.xlsx`.
+3. Contoh File Excel: Buat atau unduh contoh file Excel. Untuk tutorial ini, kita akan menggunakan file bernama`sampleSetMarginsOfCommentOrShapeInsideTheWorksheet.xlsx`.
 ## Mengimpor Paket
 Langkah pertama dalam perjalanan kita melibatkan pengimporan paket-paket yang diperlukan. Anda perlu menyertakan namespace Aspose.Cells dalam proyek Anda. Ini akan memberi Anda akses ke semua fungsi yang ditawarkan Aspose.Cells.
 ### Buka Proyek Anda
@@ -72,7 +72,7 @@ Setiap bentuk mungkin sudah memiliki pengaturan perataan yang perlu kita ubah. D
 Aspose.Cells.Drawing.Texts.ShapeTextAlignment txtAlign = sh.TextBody.TextAlignment;
 txtAlign.IsAutoMargin = false;
 ```
- Dengan pengaturan`IsAutoMargin` menjadi salah, sekarang kita memiliki kendali atas margin.
+ Dengan pengaturan`IsAutoMargin`menjadi salah, sekarang kita memiliki kendali atas margin.
 ## Langkah 6: Mengatur Margin
 Ini adalah langkah penting saat kita menentukan margin. Anda dapat menyesuaikan nilai ini sesuai dengan kebutuhan Anda.
 ```csharp
@@ -105,4 +105,4 @@ Aspose.Cells adalah pustaka .NET yang dirancang untuk membuat, memanipulasi, dan
 ### Apakah perpustakaan mudah diintegrasikan ke dalam proyek yang ada?
 Tentu saja! Aspose.Cells mudah diintegrasikan ke dalam proyek .NET, dan API-nya mudah dipahami.
 ### Di mana saya dapat menemukan dukungan untuk Aspose.Cells?
-Anda bisa mendapatkan dukungan melalui Aspose[forum](https://forum.aspose.com/c/cells/9).
+ Anda bisa mendapatkan dukungan melalui Aspose[forum](https://forum.aspose.com/c/cells/9).

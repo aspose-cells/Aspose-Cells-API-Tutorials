@@ -13,7 +13,7 @@ Bu eğitimde, .NET için Aspose.Cells'i kullanarak bir Excel dosyasında bir şe
 ## Ön koşullar
 Teknik detaylara dalmadan önce, bu eğitimi takip etmek için neler yapmanız gerektiğinden bahsedelim:
 1. Visual Studio: Kodumuzu burada yazacağız. .NET Framework veya .NET Core ile uyumlu bir sürümünüz olduğundan emin olun.
-2. Aspose.Cells for .NET: Bu kütüphanenin kurulu olması gerekir. Bunu şuradan indirebilirsiniz:[Aspose web sitesi](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells for .NET: Bu kütüphanenin kurulu olması gerekir. Bunu şuradan indirebilirsiniz:[Aspose web sitesi](https://releases.aspose.com/cells/net/).
 3. Temel Programlama Bilgisi: C#'a aşinalık ve sınıflar, metotlar gibi kavramları anlamak bu süreci daha sorunsuz hale getirecektir.
 4. Örnek Excel Dosyası: Test için şekilleri ve Akıllı Sanatı içeren bir örnek Excel dosyasına da ihtiyacınız olacak.
 Bu ön koşullar sağlandıktan sonra kod yazmaya başlamaya hazırsınız!
@@ -46,7 +46,7 @@ Artık ortamımızı kurduğumuza ve bağımlılıkları eklediğimize göre, ko
 // Kaynak dizini
 string sourceDir = "Your Document Directory";
 ```
- Yer değiştirmek`"Your Document Directory"` yolunuzla`sampleSmartArtShape.xlsx` dosya bulunur. Uygulamanın incelemek istediğiniz şekilleri içeren Excel dosyasını arayacağı yer burasıdır.
+ Yer değiştirmek`"Your Document Directory"` yolunuzla`sampleSmartArtShape.xlsx`dosya bulunur. Uygulamanın incelemek istediğiniz şekilleri içeren Excel dosyasını arayacağı yer burasıdır.
 ## Adım 2: Excel Çalışma Kitabını yükleyin
  Sonra Excel dosyasını Aspose.Cells'e yükleyeceğiz`Workbook` sınıf.
 ```csharp
@@ -60,7 +60,7 @@ Workbook wb = new Workbook(sourceDir + "sampleSmartArtShape.xlsx");
 // İlk çalışma sayfasına erişin
 Worksheet ws = wb.Worksheets[0];
 ```
- Excel dosyaları birden fazla çalışma sayfası içerebilir.`[0]`çalışma kitabımızdaki ilk çalışma sayfasına erişiyoruz. 
+ Excel dosyaları birden fazla çalışma sayfası içerebilir.`[0]`, çalışma kitabımızdaki ilk çalışma sayfasına erişiyoruz. 
 ## Adım 4: Şekle Erişim
 Şimdi kontrol etmek istediğimiz belirli şekli alacağız.
 ```csharp
@@ -83,7 +83,7 @@ Akıllı Sanat, kullanıcıların bilgileri göstermek için görsel olarak çek
 ### Aspose.Cells kullanarak Akıllı Sanat şekillerini değiştirebilir miyim?
 Evet, Akıllı Sanat şekillerini programlı olarak düzenleyebilir, stilleri ve ayrıntıları değiştirebilirsiniz.
 ### Aspose.Cells'i kullanmak ücretsiz mi?
- Deneme sürümü mevcut olsa da Aspose.Cells ücretli bir kütüphanedir. Tam sürümü satın alabilirsiniz[Burada](https://purchase.aspose.com/buy).
+Deneme sürümü mevcut olsa da Aspose.Cells ücretli bir kütüphanedir. Tam sürümü satın alabilirsiniz[Burada](https://purchase.aspose.com/buy).
 ### Sorun yaşarsam nasıl destek alabilirim?
  Yardım için bize ulaşabilirsiniz[Aspose Destek Forumu](https://forum.aspose.com/c/cells/9).
 ### Aspose.Cells hakkında daha fazla dokümanı nerede bulabilirim?

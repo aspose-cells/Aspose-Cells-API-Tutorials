@@ -55,7 +55,7 @@ Workbook workbook = new Workbook();
 
 ## Langkah 3: Menentukan Jalur Gambar
 
- Saatnya membuat variabel string untuk menyimpan jalur ke gambar yang ingin Anda gunakan. Dalam kasus kami, kami menggunakan`aspose-logo.jpg`.
+Saatnya membuat variabel string untuk menyimpan jalur ke gambar yang ingin Anda gunakan. Dalam kasus kami, kami menggunakan`aspose-logo.jpg`.
 
 ```csharp
 string logo_url = dataDir + "aspose-logo.jpg";

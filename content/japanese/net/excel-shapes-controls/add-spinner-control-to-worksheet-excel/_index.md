@@ -115,7 +115,7 @@ excelbook.Save(dataDir + "book1.out.xls");
 ### スピナーの外観をカスタマイズできますか?
 はい、サイズ、位置、さらには 3D シェーディングを変更して、より洗練された外観にすることができます。
 ### Aspose.Cells を使用するにはライセンスが必要ですか?
- Aspose.Cellsは無料トライアルを提供していますが、実稼働で使用するには有料ライセンスが必要です。[購入オプション](https://purchase.aspose.com/buy).
+ Aspose.Cellsは無料トライアルを提供していますが、実稼働環境での使用には有料ライセンスが必要です。[購入オプション](https://purchase.aspose.com/buy).
 ### Aspose.Cells に関するサポートを受けるにはどうすればよいですか?
 サポートについては、[Aspose フォーラム](https://forum.aspose.com/c/cells/9)質問をしたり、答えを見つけたりできる場所です。
 ### 同じワークシートに複数のスピナーを追加することは可能ですか?

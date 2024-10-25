@@ -114,7 +114,7 @@ for (int i = 0; i < lstLabels.Count; i++)
     Console.WriteLine(lstLabels[i]);
 }
 ```
-Đoạn mã này đầu tiên xuất ra một tiêu đề và một dòng phân cách. Sau đó, chúng ta lặp qua từng nhãn trong`lstLabels` ArrayList và in nó ra console. Nếu có mười nhãn, bạn sẽ thấy từng nhãn ngay tại đó!
+ Đoạn mã này đầu tiên xuất ra một tiêu đề và một dòng phân cách. Sau đó, chúng ta lặp qua từng nhãn trong`lstLabels`ArrayList và in nó ra console. Nếu có mười nhãn, bạn sẽ thấy từng nhãn ngay tại đó!
 
 ## Bước 8: Tin nhắn cuối cùng
 
@@ -141,7 +141,7 @@ Aspose.Cells là một thư viện mạnh mẽ để thao tác các tệp Excel 
  Bạn có thể mua giấy phép cho Aspose.Cells thông qua[trang mua hàng](https://purchase.aspose.com/buy).
 
 ### Tôi có thể tìm thấy hỗ trợ cho Aspose.Cells ở đâu?
-Bạn có thể ghé thăm diễn đàn Aspose để được hỗ trợ[đây](https://forum.aspose.com/c/cells/9).
+ Bạn có thể ghé thăm diễn đàn Aspose để được hỗ trợ[đây](https://forum.aspose.com/c/cells/9).
 
 ### Tôi có thể xin giấy phép tạm thời không?
- Có! Aspose cung cấp giấy phép tạm thời mà bạn có thể yêu cầu từ[liên kết này](https://purchase.aspose.com/temporary-license/).
+Có! Aspose cung cấp giấy phép tạm thời mà bạn có thể yêu cầu từ[liên kết này](https://purchase.aspose.com/temporary-license/).

@@ -15,7 +15,7 @@ url: /ja/net/link-and-configuration-operations/configuring-link-to-content-docum
 
 始める前に、必要なものがすべて揃っていることを確認してください。次の前提条件がないと、プロセスはスムーズに実行されません。
 
-1.  Aspose.Cells for .NET ライブラリ: お使いのマシンに Aspose.Cells for .NET がインストールされている必要があります。まだダウンロードしていない場合は、次の場所からダウンロードしてください。[Aspose.Cells for .NET のダウンロード ページ](https://releases.aspose.com/cells/net/).
+1. Aspose.Cells for .NET ライブラリ: お使いのマシンに Aspose.Cells for .NET がインストールされている必要があります。まだダウンロードしていない場合は、次の場所からダウンロードしてください。[Aspose.Cells for .NET のダウンロード ページ](https://releases.aspose.com/cells/net/).
 2. 開発環境: Visual Studio などの .NET 対応開発環境を使用します。
 3. C# の基本知識: このガイドでは、C# と .NET についてある程度の知識があることを前提としています。
 4. Excel ファイル: 作業に使用する既存の Excel ファイルを用意します。この例では、「sample-document-properties.xlsx」というファイルを使用します。
@@ -59,7 +59,7 @@ Workbook workbook = new Workbook(dataDir + "sample-document-properties.xlsx");
 ファイルが読み込まれたら、そのカスタム ドキュメント プロパティにアクセスする必要があります。これらのプロパティは、取得して操作できるコレクションに保存されます。
 
 ```csharp
-// Excel ファイルのすべてのカスタム ドキュメント プロパティのリストを取得します。
+//Excel ファイルのすべてのカスタム ドキュメント プロパティのリストを取得します。
 Aspose.Cells.Properties.CustomDocumentPropertyCollection customProperties = workbook.Worksheets.CustomDocumentProperties;
 ```
 
@@ -93,7 +93,7 @@ bool islinkedtocontent = customProperty1.IsLinkedToContent;
 ```
 
 - カスタムプロパティ[["Owner"]: 詳細を検査するために、名前で "Owner" プロパティを取得しています。
-- IsLinkedToContent: このブール値は`true`プロパティがコンテンツに正常にリンクされているかどうか。
+-  IsLinkedToContent: このブール値は`true`プロパティがコンテンツに正常にリンクされているかどうか。
 
 この段階では、ラベル (プロパティ) がコンテンツに適切に添付されているかどうかを確認するようなものです。コードが期待どおりに動作したことを確認します。
 

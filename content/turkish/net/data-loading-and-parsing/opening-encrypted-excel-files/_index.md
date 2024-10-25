@@ -39,7 +39,7 @@ string dataDir = "Your Document Directory";
 ```
  Yer değiştirmek`"Your Document Directory"` Excel dosyanızın bulunduğu gerçek yol ile. Örneğin, şurada depolanıyorsa`C:\Documents` , yazardın`string dataDir = "C:\\Documents";`. C# dilinde ters eğik çizgi karakterinden kurtulmak için çift ters eğik çizgi gereklidir.
 ## Adım 2: LoadOptions'ı örneklendirin
- Daha sonra, bir örnek oluşturmanız gerekir`LoadOptions`sınıf. Bu sınıf, şifrelenmiş bir dosyayı açmak için gereken parola da dahil olmak üzere çeşitli yükleme seçeneklerini belirtmemize yardımcı olur.
+ Daha sonra, bir örnek oluşturmanız gerekir`LoadOptions` sınıf. Bu sınıf, şifrelenmiş bir dosyayı açmak için gereken parola da dahil olmak üzere çeşitli yükleme seçeneklerini belirtmemize yardımcı olur.
 ```csharp
 // LoadOptions'ı örneklendir
 LoadOptions loadOptions = new LoadOptions();
@@ -58,7 +58,7 @@ loadOptions.Password = "1234"; // "1234"ü gerçek şifrenizle değiştirin
 // Bir Çalışma Kitabı nesnesi oluşturun ve dosyayı yolundan açın
 Workbook wbEncrypted = new Workbook(dataDir + "encryptedBook.xls", loadOptions);
 ```
- Burada yeni bir yapı inşa ediyorsunuz`Workbook` nesne ve şifrelenmiş dosyanızın yolunu ve`loadOptions`şifrenizi içeren. Her şey yolunda giderse, bu satır şifrelenmiş dosyanızı başarıyla açmalıdır.
+ Burada yeni bir yapı inşa ediyorsunuz`Workbook` nesne ve şifrelenmiş dosyanızın yolunu ve`loadOptions` şifrenizi içeren. Her şey yolunda giderse, bu satır şifrelenmiş dosyanızı başarıyla açmalıdır.
 ## Adım 5: Dosyaya Başarılı Erişimi Onaylayın
 Son olarak, dosyayı başarıyla açtığınızı doğrulamak iyi bir uygulamadır. 
 ```csharp
@@ -70,7 +70,7 @@ Tebrikler! Aspose.Cells for .NET kullanarak şifrelenmiş Excel dosyalarını a�
  Unutmayın, şifrelenmiş dosyalarla çalışmak zor olabilir, ancak Aspose.Cells gibi araçlarla bu çok kolay hale gelir. Daha derine inmek istiyorsanız,[belgeleme](https://reference.aspose.com/cells/net/) Daha gelişmiş özellikler için.
 ## SSS
 ### Farklı şifrelerle şifrelenmiş Excel dosyalarını açabilir miyim?
- Evet, sadece güncelleyin`Password` alandaki`LoadOptions`Açmak istediğiniz Excel dosyasının şifresiyle eşleşmelidir.
+ Evet, sadece güncelleyin`Password` alandaki`LoadOptions` Açmak istediğiniz Excel dosyasının şifresiyle eşleşmelidir.
 ### Aspose.Cells'i kullanmak ücretsiz mi?
  Aspose.Cells ücretsiz değildir; ancak, bir başlangıç yapabilirsiniz[ücretsiz deneme](https://releases.aspose.com/) Özelliklerini keşfetmek için.
 ### Aspose.Cells hangi tür Excel dosyalarını işleyebilir?

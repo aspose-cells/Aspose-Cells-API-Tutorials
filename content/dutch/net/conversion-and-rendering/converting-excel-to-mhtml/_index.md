@@ -26,7 +26,7 @@ Zodra u alle vereisten gereed hebt, is de volgende stap het importeren van de be
 
 1. Open uw project: start Visual Studio en open uw bestaande project of maak een nieuw project.
 2. NuGet-pakketten beheren: Klik met de rechtermuisknop op uw project in Solution Explorer en kies 'NuGet-pakketten beheren'.
-3.  Zoeken en installeren van Aspose.Cells: Typ in het zoekvak`Aspose.Cells` en installeer het pakket. Dit zorgt ervoor dat u de nieuwste versie in uw project hebt geïntegreerd.
+3.  Zoeken en installeren van Aspose.Cells: Typ in het zoekvak`Aspose.Cells`en installeer het pakket. Dit zorgt ervoor dat u de nieuwste versie in uw project hebt geïntegreerd.
 4. Richtlijn toevoegen: Voeg in uw codebestand de volgende richtlijn toe om de Aspose.Cells-naamruimte te gebruiken:
 
 ```csharp

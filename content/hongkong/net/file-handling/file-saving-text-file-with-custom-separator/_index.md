@@ -8,7 +8,7 @@ weight: 13
 url: /zh-hant/net/file-handling/file-saving-text-file-with-custom-separator/
 ---
 ## 介紹
-在處理電子表格時，很少有工具像 Aspose.Cells for .NET 那樣強大且通用。無論您是企業環境中的開發人員還是只是希望以程式設計方式操作 Excel 檔案的人，Aspose.Cells 都是寶貴的資源。在本教程中，我們將探索如何使用 Aspose.Cells 的自訂分隔符號來保存文字檔案。所以，喝杯咖啡，讓我們深入數據操作的世界吧！
+在處理電子表格時，很少有工具像 Aspose.Cells for .NET 那樣強大且通用。無論您是企業環境中的開發人員還是只是希望以程式設計方式操作 Excel 檔案的人，Aspose.Cells 都是寶貴的資源。在本教程中，我們將探索如何使用 Aspose.Cells 的自訂分隔符號來保存文字檔案。所以，喝杯咖啡，讓我們進入數據操作的世界吧！
 ## 先決條件
 在我們開始編寫程式碼之前，您需要檢查清單中的一些內容。確保一切準備就緒將有助於保持流程順利。
 ### 已安裝 Visual Studio
@@ -27,7 +27,7 @@ using System.IO;
 using Aspose.Cells;
 using System;
 ```
-這些語句應該位於 C# 檔案的最頂端。匯入這些程式庫可讓您存取 Aspose.Cells 提供的類別和方法。
+這些語句應該位於 C# 檔案的最頂端。匯入這些函式庫可讓您存取 Aspose.Cells 提供的類別和方法。
 
 讓我們將這個過程分解為可管理的步驟：
 ## 第 1 步：設定文檔目錄

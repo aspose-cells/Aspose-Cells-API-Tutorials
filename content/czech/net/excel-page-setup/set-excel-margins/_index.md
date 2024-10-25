@@ -24,7 +24,7 @@ Nyní, když jsme splnili naše předpoklady, pojďme se vrhnout přímo do kód
 
 ## Importujte balíčky
 
-Chcete-li začít, budete muset importovat potřebné jmenné prostory do vašeho projektu C#. To je zásadní, protože říká vašemu kódu, kde najít třídy a metody Aspose.Cells, které budete používat.
+Chcete-li začít, budete muset importovat potřebné jmenné prostory do vašeho projektu C#. To je zásadní, protože to říká vašemu kódu, kde najít třídy a metody Aspose.Cells, které budete používat.
 
 ```csharp
 using System.IO;
@@ -82,9 +82,9 @@ Nyní jste připraveni upravit tento pracovní list!
 
 ## Krok 4: Přístup k objektu Nastavení stránky
 
- Chcete-li změnit okraje, musíme pracovat s`PageSetup`objekt. Tento objekt poskytuje vlastnosti, které řídí rozvržení stránky, včetně okrajů.
+ Chcete-li změnit okraje, musíme pracovat s`PageSetup` objekt. Tento objekt poskytuje vlastnosti, které řídí rozvržení stránky, včetně okrajů.
 
- Získejte`PageSetup` vlastnost z listu:
+Získejte`PageSetup` vlastnost z listu:
 
 ```csharp
 PageSetup pageSetup = worksheet.PageSetup;

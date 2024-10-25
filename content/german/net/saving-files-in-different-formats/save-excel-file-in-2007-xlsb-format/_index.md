@@ -12,7 +12,7 @@ Wenn Sie mit Excel-Dateien in .NET arbeiten, stehen Ihnen viele Flexibilität un
 ## Voraussetzungen
 Bevor wir beginnen, stellen wir sicher, dass Sie alles haben, was Sie brauchen, um nahtlos mitmachen zu können. Folgendes sollten Sie haben:
 1. Visual Studio: Stellen Sie sicher, dass auf Ihrem Computer eine Version von Visual Studio installiert ist. Hier schreiben Sie Ihren .NET-Code. 
-2.  Aspose.Cells-Bibliothek: Sie benötigen die Aspose.Cells-Bibliothek für .NET. Wenn Sie sie noch nicht heruntergeladen haben, gehen Sie zu[Aspose Downloads-Seite](https://releases.aspose.com/cells/net/) um es zu greifen. 
+2. Aspose.Cells-Bibliothek: Sie benötigen die Aspose.Cells-Bibliothek für .NET. Wenn Sie sie noch nicht heruntergeladen haben, gehen Sie zu[Aspose Downloads-Seite](https://releases.aspose.com/cells/net/) um es zu greifen. 
 3. Grundkenntnisse in C#: Grundlegende Kenntnisse in C# und .NET helfen Ihnen, bequemer durch die Codebeispiele zu navigieren.
 4. .NET Framework: Stellen Sie sicher, dass Ihr Projekt mit dem entsprechenden .NET Framework eingerichtet ist, das von der Aspose.Cells-Bibliothek unterstützt wird.
 5. Ein Excel-Dokument: Das Erstellen einer neuen Arbeitsmappe ist zwar eine Option, aber ein Ausgangsdokument kann nützlich sein, wenn Sie eine vorhandene Datei bearbeiten möchten.
@@ -45,7 +45,7 @@ Als Nächstes erstellen wir mit der Aspose.Cells-Bibliothek eine neue Arbeitsmap
 ```csharp
 Workbook workbook = new Workbook();
 ```
- Hier erstellen wir eine neue Instanz des`Workbook`Klasse. Diese neu erstellte Arbeitsmappe ist eine leere Arbeitsmappe, die Sie bei Bedarf mit Daten füllen können.
+ Hier erstellen wir eine neue Instanz des`Workbook` Klasse. Diese neu erstellte Arbeitsmappe ist eine leere Arbeitsmappe, die Sie bei Bedarf mit Daten füllen können.
 ## Schritt 3: Speichern der Arbeitsmappe
 Jetzt kommt der spaßige Teil – das Speichern Ihrer Arbeitsmappe im gewünschten Format!
 ```csharp
@@ -60,7 +60,7 @@ Und so haben Sie erfolgreich gelernt, wie Sie mit Aspose.Cells für .NET eine Ex
 ### Was ist die Aspose.Cells-Bibliothek?
 Aspose.Cells ist eine leistungsstarke Bibliothek für .NET, die es Entwicklern ermöglicht, Excel-Dateien programmgesteuert zu erstellen, zu ändern und zu bearbeiten, ohne dass Microsoft Excel installiert sein muss.
 ### Kann ich Aspose.Cells kostenlos testen?
- Auf jeden Fall! Sie können die[Kostenlose Testversion](https://releases.aspose.com/)um die Möglichkeiten der Bibliothek zu erkunden.
+ Auf jeden Fall! Sie können die[Kostenlose Testversion](https://releases.aspose.com/) um die Möglichkeiten der Bibliothek zu erkunden.
 ### Was ist der Unterschied zwischen den Formaten xls und xlsb?
 Das XLS-Format ist älter und basiert auf der binären Dateistruktur, während XLSB ein neueres Format ist, das ebenfalls binäre Speicherung verwendet, aber größere Dateien und eine schnellere Verarbeitung ermöglicht.
 ### Wo kann ich eine Lizenz für Aspose.Cells erwerben?

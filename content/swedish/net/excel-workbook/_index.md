@@ -13,11 +13,11 @@ url: /sv/net/excel-workbook/
 
 ## Åtkomst till webbtilläggsinformation
 
-Att förstå hur du får tillgång till information om webbtillägg kan öppna upp nya möjligheter i dina Excel-kalkylblad. Det möjliggör förbättrad interaktivitet i dina filer. Vår handledning om[Få tillgång till information om webbtillägg](./access-web-extension-information/) ger en steg-för-steg-genomgång för att göra denna process enkel, även för dem som är nya på Aspose.Cells.
+ Att förstå hur du får tillgång till information om webbtillägg kan öppna upp nya möjligheter i dina Excel-kalkylblad. Det möjliggör förbättrad interaktivitet i dina filer. Vår handledning om[Få tillgång till information om webbtillägg](./access-web-extension-information/) ger en steg-för-steg-genomgång för att göra denna process enkel, även för dem som är nya på Aspose.Cells.
 
 ## Lägga till digitala signaturer
 
- Har du någonsin behövt lägga till en digital signatur i en signerad Excel-fil? Upptäck hur du gör detta med vår guide på[Lägg till digital signatur till en redan signerad Excel-fil](./add-digital-signature-to-an-already-signed-excel-file/). Digitala signaturer säkerställer autenticitet och integritet, vilket gör dina Excel-filer inte bara funktionella utan också säkra.
+Har du någonsin behövt lägga till en digital signatur i en signerad Excel-fil? Upptäck hur du gör detta med vår guide på[Lägg till digital signatur till en redan signerad Excel-fil](./add-digital-signature-to-an-already-signed-excel-file/). Digitala signaturer säkerställer autenticitet och integritet, vilket gör dina Excel-filer inte bara funktionella utan också säkra.
 
 ## Skapa delade arbetsböcker
 
@@ -25,7 +25,7 @@ Att förstå hur du får tillgång till information om webbtillägg kan öppna u
 
 ## Extrahera inbäddade filer
 
-Visste du att Excel kan innehålla inbäddade filer? Om du någonsin har behövt gräva djupare i dina kalkylblad för att extrahera en inbäddad MOL-fil, vill du kolla in vår handledning om[Extrahera inbäddad MOL-fil](./extract-embedded-mol-file/). Den här guiden leder dig genom den enkla processen att hämta dessa filer, och säkerställer att du aldrig förlorar viktig data gömd i dina Excel-arbetsböcker.
+ Visste du att Excel kan innehålla inbäddade filer? Om du någonsin har behövt gräva djupare i dina kalkylblad för att extrahera en inbäddad MOL-fil, vill du kolla in vår handledning om[Extrahera inbäddad MOL-fil](./extract-embedded-mol-file/). Den här guiden leder dig genom den enkla processen att hämta dessa filer, och säkerställer att du aldrig förlorar viktig data gömd i dina Excel-arbetsböcker.
 
 ## Hantera externa anslutningar i XLSB-filer
 
@@ -33,23 +33,23 @@ Visste du att Excel kan innehålla inbäddade filer? Om du någonsin har behövt
 
 ## Förbättra säkerheten med lösenordsskydd
 
- Säkerhet är viktigt, särskilt för delade arbetsböcker som innehåller känslig information. Vår handledning om[Lösenordsskydda eller avskydda delad arbetsbok](./password-protect-or-unprotect-shared-workbook/)beskriver stegen för att låsa dina arbetsböcker så att bara rätt personer kan komma åt dem. Du kommer att känna dig mer säker på att dela filer när du vet att de är säkra.
+ Säkerhet är viktigt, särskilt för delade arbetsböcker som innehåller känslig information. Vår handledning om[Lösenordsskydda eller avskydda delad arbetsbok](./password-protect-or-unprotect-shared-workbook/) beskriver stegen för att låsa dina arbetsböcker så att bara rätt personer kan komma åt dem. Du kommer att känna dig mer säker på att dela filer när du vet att de är säkra.
 
 ## Öka produktiviteten med Regex
 
- Är du ett fan av regex? Om inte, kanske du vill bli det! Reguljära uttryck kan avsevärt effektivisera dina uppgifter, särskilt när du arbetar med stora datamängder i Excel. Vår handledning om[Regex Ersätt](./regex-replace/) lär dig att implementera regex-ersättningsfunktioner i dina kalkylblad, vilket ger dig möjlighet att öka både produktivitet och noggrannhet.
+Är du ett fan av regex? Om inte, kanske du vill bli det! Reguljära uttryck kan avsevärt effektivisera dina uppgifter, särskilt när du arbetar med stora datamängder i Excel. Vår handledning om[Regex Ersätt](./regex-replace/) lär dig att implementera regex-ersättningsfunktioner i dina kalkylblad, vilket ger dig möjlighet att öka både produktivitet och noggrannhet.
 
 ## Uppdatering av Power Query-objekt
 
- Power Queries kan vara en riktig spelväxling inom datamanipulation, vilket gör att du kan effektivisera hur information importeras till dina Excel-filer. Om du undrar hur du uppdaterar Power Query-formelobjekt i Excel med Aspose.Cells för .NET, vår handledning om[Uppdatera Power Query Formel Objekt](./update-power-query-formula-item/)är bara biljetten. Det ger en enkel, steg-för-steg-metod för att modifiera dessa formelobjekt, så att du kan hålla dina data färska och korrekt återspeglas i dina arbetsböcker.
+ Power Queries kan vara en riktig spelväxling inom datamanipulation, vilket gör att du kan effektivisera hur information importeras till dina Excel-filer. Om du undrar hur du uppdaterar Power Query-formelobjekt i Excel med Aspose.Cells för .NET, vår handledning om[Uppdatera Power Query Formel Objekt](./update-power-query-formula-item/) är bara biljetten. Det ger en enkel, steg-för-steg-metod för att modifiera dessa formelobjekt, så att du kan hålla dina data färska och korrekt återspeglas i dina arbetsböcker.
 
 ## Hantera förhandsgranskningar
 
- Då och då behöver du presentera din data på ett så professionellt sätt som möjligt. Att lära sig att skapa förhandsvisningar kan vara en viktig färdighet. I vår handledning om[Förhandsgranskning av arbetsbok](./workbook-print-preview/), kommer du att upptäcka hur du formaterar dina data korrekt innan du trycker på Skriv ut. Denna process kan rädda dig från pinsamma misstag och se till att dina rapporter ser lika bra ut på papper som de gör på skärmen.
+Då och då behöver du presentera din data på ett så professionellt sätt som möjligt. Att lära sig att skapa förhandsvisningar kan vara en viktig färdighet. I vår handledning om[Förhandsgranskning av arbetsbok](./workbook-print-preview/), kommer du att upptäcka hur du formaterar dina data korrekt innan du trycker på Skriv ut. Denna process kan rädda dig från pinsamma misstag och se till att dina rapporter ser lika bra ut på papper som de gör på skärmen.
 
 ## Arbeta med definierade namn
 
- Definierade namn i dina Excel-ark kan vara ett praktiskt sätt att hantera dina data. De gör formler kortare och mer begripliga. Om du vill filtrera definierade namn när du laddar en arbetsbok, vår handledning på[Filtrera definierade namn medan arbetsboken laddas](./filter-defined-names-while-loading-workbook/)ger alla nödvändiga steg för att göra just det. Den här funktionen låter dig skräddarsy hur din arbetsbok laddas, vilket förbättrar effektiviteten och organisationen.
+ Definierade namn i dina Excel-ark kan vara ett praktiskt sätt att hantera dina data. De gör formler kortare och mer begripliga. Om du vill filtrera definierade namn när du laddar en arbetsbok, vår handledning på[Filtrera definierade namn medan arbetsboken laddas](./filter-defined-names-while-loading-workbook/) ger alla nödvändiga steg för att göra just det. Den här funktionen låter dig skräddarsy hur din arbetsbok laddas, vilket förbättrar effektiviteten och organisationen.
 
 ## Slutsats
 
@@ -61,7 +61,7 @@ Så varför inte ta denna chans att förbättra dina Excel-kunskaper? Varje hand
 ## Handledningar 
 | Titel | Beskrivning |
 | --- | --- |
-| [Få tillgång till information om webbtillägg](./access-web-extension-information/) | Lär dig hur du kommer åt webbtilläggsinformation i Excel-filer med Aspose.Cells för .NET med vår steg-för-steg-guide. |  
+| [Få tillgång till information om webbtillägg](./access-web-extension-information/) | Lär dig hur du får åtkomst till webbtilläggsinformation i Excel-filer med Aspose.Cells för .NET med vår steg-för-steg-guide. |  
 | [Lägg till digital signatur till en redan signerad Excel-fil](./add-digital-signature-to-an-already-signed-excel-file/) | Lär dig hur du lägger till en digital signatur i en redan signerad Excel-fil med Aspose.Cells för .NET med denna detaljerade steg-för-steg-guide. |  
 | [Lägg till webbtillägg](./add-web-extension/) | Lär dig hur du lägger till webbtillägg till Excel-filer med Aspose.Cells för .NET med denna kompletta steg-för-steg-handledning som förbättrar dina kalkylbladsfunktioner. |  
 | [Justera kompressionsnivån](./adjust-compression-level/) | Lär dig hur du justerar komprimeringsnivåer för Excel-filer med Aspose.Cells för .NET. Optimera dina filstorlekar effektivt med denna steg-för-steg-guide. |  

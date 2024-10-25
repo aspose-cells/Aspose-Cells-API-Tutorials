@@ -68,6 +68,6 @@ U kunt tekenreeksen, getallen en zelfs datums opslaan in uw aangepaste eigenscha
 ### Is Aspose.Cells gratis te gebruiken?
  Aspose.Cells biedt een gratis proefperiode. Voor volledige functies is een aankoop vereist. Bekijk de[prijsopties hier](https://purchase.aspose.com/buy).
 ### Waar kan ik Aspose.Cells-documentatie vinden?
- U kunt uitgebreide documentatie vinden[hier](https://reference.aspose.com/cells/net/).
+ kunt uitgebreide documentatie vinden[hier](https://reference.aspose.com/cells/net/).
 ### Wat als ik hulp nodig heb bij het gebruik van Aspose.Cells?
  U kunt de[Aspose ondersteuningsforum](https://forum.aspose.com/c/cells/9) voor hulp van hun gemeenschap en ondersteuningsteam.

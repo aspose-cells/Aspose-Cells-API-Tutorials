@@ -87,7 +87,7 @@ Depois que a planilha estiver desprotegida, você precisa salvar as alterações
 ```csharp
 workbook.Save(dataDir + "output.out.xls");
 ```
- Aqui você está salvando as alterações em um novo arquivo chamado “output.out.xls” no mesmo diretório. Você pode renomeá-lo como achar melhor, mas certifique-se de manter o`.xls`extensão para mantê-lo reconhecível como um arquivo Excel.
+ Aqui você está salvando as alterações em um novo arquivo chamado “output.out.xls” no mesmo diretório. Você pode renomeá-lo como achar melhor, mas certifique-se de manter o`.xls` extensão para mantê-lo reconhecível como um arquivo Excel.
 
 ## Etapa 6: Tratamento de erros
 
@@ -116,7 +116,7 @@ E aí está! Desbloquear uma planilha protegida do Excel usando o Aspose.Cells p
 Sim! Você pode percorrer cada planilha na pasta de trabalho e desprotegê-las de forma similar.
 
 ### O Aspose.Cells é gratuito?
-Aspose.Cells oferece um teste gratuito, mas uma licença é necessária para uso em produção. Verifique seus[comprar](https://purchase.aspose.com/buy) página para mais informações.
+ Aspose.Cells oferece um teste gratuito, mas uma licença é necessária para uso em produção. Verifique seus[comprar](https://purchase.aspose.com/buy) página para mais informações.
 
 ### E se eu não souber a senha?
 Se uma planilha for protegida por senha e você não tiver a senha, a biblioteca não ajudará a contornar as restrições, pois isso é contra as políticas éticas.

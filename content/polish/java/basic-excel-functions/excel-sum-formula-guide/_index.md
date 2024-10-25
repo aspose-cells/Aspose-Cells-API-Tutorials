@@ -129,7 +129,7 @@ W tym kompleksowym przewodniku przyjrzeliśmy się formule Excel SUM i sposobowi
 
 Tak, Aspose.Cells for Java nadaje się zarówno do projektów komercyjnych, jak i niekomercyjnych. Oferuje opcje licencjonowania, które spełniają różne wymagania, w tym wymagania firm.
 
-### Czy istnieją jakieś ograniczenia formuły SUMA w Aspose.Cells?
+### Czy istnieją jakieś ograniczenia dotyczące formuły SUMA w Aspose.Cells?
 
 Aspose.Cells zapewnia solidne wsparcie dla formuł Excela, w tym SUM. Jednak ważne jest przejrzenie dokumentacji i przetestowanie konkretnych przypadków użycia, aby zapewnić zgodność i wydajność.
 

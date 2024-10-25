@@ -13,11 +13,11 @@ url: /es/net/excel-comment-annotation/
 
 ## Agregar un comentario con imagen en Excel
 
-Imagina poder anotar tus celdas de Excel no solo con texto sino también con imágenes. Esto añade un toque personal y un elemento visual que puede aclarar y mejorar la información de tus hojas. El tutorial sobre[Cómo agregar un comentario con una imagen en Excel](./add-comment-with-image-excel/) Te guiará por el proceso paso a paso. Aprenderás a insertar imágenes directamente en los comentarios, lo que hará que tus hojas de cálculo no solo sean más informativas sino también visualmente atractivas. ¡Piensa en lo efectivas que pueden ser una captura de pantalla o un logotipo cuando compartes tu trabajo con otras personas!
+ Imagina poder anotar tus celdas de Excel no solo con texto sino también con imágenes. Esto añade un toque personal y un elemento visual que puede aclarar y mejorar la información de tus hojas. El tutorial sobre[Cómo agregar un comentario con una imagen en Excel](./add-comment-with-image-excel/) Te guiará por el proceso paso a paso. Aprenderás a insertar imágenes directamente en los comentarios, lo que hará que tus hojas de cálculo no solo sean más informativas sino también visualmente atractivas. ¡Piensa en lo efectivas que pueden ser una captura de pantalla o un logotipo cuando compartes tu trabajo con otras personas!
 
 ## Agregar comentarios a celdas o formas en Excel
 
- Si eres un principiante que busca iniciarse en las anotaciones, el[Agregar comentarios a celdas o formas en Excel](./add-comments-to-cells-or-shapes-excel/)Este tutorial es perfecto para ti. Abarca todo, desde los conceptos básicos para agregar comentarios hasta mejorar la funcionalidad de tus hojas de cálculo. Verás cómo adjuntar comentarios a varios elementos (ya sean celdas o formas) e incluso repasaremos algunas prácticas recomendadas en el proceso. ¡Este tutorial es tu trampolín para hacer que tus hojas de cálculo sean interactivas y fáciles de usar!
+ Si eres un principiante que busca iniciarse en las anotaciones, el[Agregar comentarios a celdas o formas en Excel](./add-comments-to-cells-or-shapes-excel/) Este tutorial es perfecto para ti. Abarca todo, desde los conceptos básicos para agregar comentarios hasta mejorar la funcionalidad de tus hojas de cálculo. Verás cómo adjuntar comentarios a varios elementos (ya sean celdas o formas) e incluso repasaremos algunas prácticas recomendadas en el proceso. ¡Este tutorial es tu trampolín para hacer que tus hojas de cálculo sean interactivas y fáciles de usar!
 
 ## Comentarios de formato: fuente, color, alineación
 

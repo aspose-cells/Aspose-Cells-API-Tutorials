@@ -32,7 +32,7 @@ Az Aspose.Cells for .NET egy hatékony eszköz az Excel fájlokkal dolgozó fejl
 
  Ne feledkezzünk meg a fejlécekről és láblécekről sem! Nem csak az esztétikát szolgálják; praktikusak is lehetnek. Oktatóanyagunk a[Állítsa be az Excel fejléceit és lábléceit](./set-excel-headers-and-footers/) lépésről lépésre nyújt útmutatást ezeknek a lényeges részleteknek a dokumentumokhoz való hozzáadásához. Legyen szó oldalszámokról, dátumokról vagy egyéni címekről, látni fogja, hogy a fejlécek és láblécek professzionális megjelenést kölcsönöznek Excel-lapjainak. Ha pedig egy lépéssel tovább szeretne lépni, akkor a[Kép beszúrása a fejléc láblécébe](./insert-image-in-header-footer/) még jobban személyre szabhatja dokumentumait.
 
-## Papírméretek testreszabása egyedi igényekhez
+## A papírméretek testreszabása az egyedi igényekhez
 
 Néha a szabványos papírméretek egyszerűen nem vágják le. Lehet, hogy olyan projekten dolgozik, amely egyéni elrendezést igényel, vagy esetleg egy adott méretet szeretne használni márkaépítési célokra. Itt található az oktatóanyagunk[Valósítson meg egyedi papírméretű munkalapot a rendereléshez](./implement-custom-paper-size-of-worksheet-for-rendering/) játékba lép. Lépésről lépésre útmutatást kap az egyéni papírméretek Excelben történő beállításához, így biztosítva, hogy a dokumentumok pontosan megfeleljenek a nyomtatási feladatokhoz szükséges specifikációknak. A papírméret testreszabása olyan lehet, mintha a tökéletes keretet találná meg egy gyönyörű képhez – ezzel mindent jobbá tesz!
 

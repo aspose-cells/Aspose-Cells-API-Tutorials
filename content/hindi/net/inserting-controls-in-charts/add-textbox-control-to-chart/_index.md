@@ -16,7 +16,7 @@ url: /hi/net/inserting-controls-in-charts/add-textbox-control-to-chart/
 इससे पहले कि हम कोडिंग शुरू करें, कुछ चीजें हैं जो आपके पास होनी चाहिए:
 
 - C# की बुनियादी समझ: C# प्रोग्रामिंग की बुनियादी समझ मददगार होगी। चिंता न करें; आपको विशेषज्ञ होने की ज़रूरत नहीं है, बस सिंटैक्स को समझने में सहज होना चाहिए।
-- स्थापित Aspose.Cells लाइब्रेरी: सुनिश्चित करें कि आपके पास Aspose.Cells for .NET लाइब्रेरी स्थापित है। आप इसे यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/cells/net/) यदि आपने पहले से ऐसा नहीं किया है।
+-  स्थापित Aspose.Cells लाइब्रेरी: सुनिश्चित करें कि आपके पास Aspose.Cells for .NET लाइब्रेरी स्थापित है। आप इसे यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/cells/net/)यदि आपने पहले से ऐसा नहीं किया है।
 - विजुअल स्टूडियो: विजुअल स्टूडियो या किसी भी IDE से परिचित होना आवश्यक है जिसे आप .NET फ्रेमवर्क के लिए उपयोग करना पसंद करते हैं।
 - एक मौजूदा एक्सेल फ़ाइल: इस उदाहरण के लिए, हम "sampleAddingTextBoxControlInChart.xls" नामक एक मौजूदा एक्सेल फ़ाइल के साथ काम करेंगे। आप एक बना सकते हैं या एक नमूना डाउनलोड कर सकते हैं।
 
@@ -136,7 +136,7 @@ lineformat.DashStyle = Aspose.Cells.Drawing.MsoLineDashStyle.Solid;
 // एक्सेल फ़ाइल को सेव करें.
 workbook.Save(outputDir + "outputAddingTextBoxControlInChart.xls");
 ```
- प्रतिस्थापित करें`"outputAddingTextBoxControlInChart.xls"`जो भी फ़ाइल नाम आप चाहें, उसका उपयोग करें।
+ प्रतिस्थापित करें`"outputAddingTextBoxControlInChart.xls"` जो भी फ़ाइल नाम आप चाहें, उसका उपयोग करें।
 
 ## निष्कर्ष
 

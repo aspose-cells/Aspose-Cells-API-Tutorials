@@ -12,7 +12,7 @@ url: /ja/net/saving-files-in-different-formats/save-excel-file-in-2007-xlsb-form
 ## 前提条件
 始める前に、スムーズに進めるために必要なものがすべて揃っていることを確認しましょう。必要なものは次のとおりです。
 1. Visual Studio: マシンに Visual Studio のバージョンがインストールされていることを確認してください。ここで .NET コードを記述します。 
-2.  Aspose.Cellsライブラリ: Aspose.Cells for .NETライブラリが必要です。まだダウンロードしていない場合は、[Aspose ダウンロード ページ](https://releases.aspose.com/cells/net/)それをつかむために。 
+2. Aspose.Cellsライブラリ: Aspose.Cells for .NETライブラリが必要です。まだダウンロードしていない場合は、[Aspose ダウンロード ページ](https://releases.aspose.com/cells/net/)それをつかむために。 
 3. C# の基礎知識: C# と .NET の基礎的な理解があれば、コード例をより快適に理解できるようになります。
 4. .NET Framework: プロジェクトが Aspose.Cells ライブラリでサポートされている適切な .NET Framework を使用して設定されていることを確認します。
 5. Excel ドキュメント: 新しいワークブックを作成することもできますが、既存のファイルを操作する場合には、開始ドキュメントがあると便利です。

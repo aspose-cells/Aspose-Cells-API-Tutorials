@@ -62,7 +62,7 @@ A continuación, cargaremos el archivo Excel que contiene el gráfico al que que
 Workbook workbook = new Workbook(sourceDir + "sampleAddingLabelControlInChart.xls");
 ```
 
- Aquí, estamos usando el`Workbook`Clase de Aspose.Cells para abrir nuestro archivo de Excel. ¡Es como abrir la puerta para que fluya la creatividad!
+ Aquí, estamos usando el`Workbook` Clase de Aspose.Cells para abrir nuestro archivo de Excel. ¡Es como abrir la puerta para que fluya la creatividad!
 
 ## Paso 3: Acceda a la hoja de trabajo
 
@@ -94,7 +94,7 @@ Ahora viene la parte más interesante: agregar la etiqueta al gráfico. Definire
 Aspose.Cells.Drawing.Label label = chart.Shapes.AddLabelInChart(600, 600, 350, 900);
 ```
 
- Aquí,`AddLabelInChart`Se encarga de crear una etiqueta en función de las coordenadas y dimensiones que especifiques. ¡Es como colocar un hermoso marco alrededor de tu obra de arte!
+ Aquí,`AddLabelInChart` Se encarga de crear una etiqueta en función de las coordenadas y dimensiones que especifiques. ¡Es como colocar un hermoso marco alrededor de tu obra de arte!
 
 ## Paso 6: Establezca el texto de la etiqueta
 

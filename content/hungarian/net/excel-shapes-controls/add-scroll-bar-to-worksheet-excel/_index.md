@@ -31,7 +31,7 @@ Minden jó projekt megfelelő szervezéssel kezdődik! Először is meg kell hat
 ```csharp
 // A dokumentumok könyvtárának elérési útja.
 string dataDir = "Your Document Directory";
-//Hozzon létre könyvtárat, ha még nincs jelen.
+// Hozzon létre könyvtárat, ha még nincs jelen.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -66,7 +66,7 @@ Cells cells = worksheet.Cells;
 ```
 Mostantól hozzáférhet a munkalap celláihoz, akárcsak a szobájában lévő összes bútorhoz.
 ## 6. lépés: Írjon be egy értéket egy cellába
-Töltsünk fel egy cellát egy kezdeti értékkel. Ezt az értéket később a görgetősáv fogja szabályozni.
+Töltsünk fel egy cellát egy kezdőértékkel. Ezt az értéket később a görgetősáv fogja szabályozni.
 ```csharp
 // Írjon be egy értéket az A1 cellába.
 cells["A1"].PutValue(1);
@@ -132,7 +132,7 @@ Ez a lépés olyan, mintha egy sikeres felújítás után bezárná az ajtót ma
 ### Mi az Aspose.Cells?
 Az Aspose.Cells egy hatékony .NET-könyvtár, amely lehetővé teszi a fejlesztők számára Excel-fájlok programozott létrehozását, kezelését és konvertálását.
 ### Használhatom ingyenesen az Aspose.Cells-t?
-Igen, az Aspose.Cells ingyenes próbaverziót kínál, amelyet megtalálhat[itt](https://releases.aspose.com/).
+ Igen, az Aspose.Cells ingyenes próbaverziót kínál, amelyet megtalálhat[itt](https://releases.aspose.com/).
 ### Hogyan adhatok hozzá más vezérlőket az Excel-lapomhoz?
 Hasonló módszereket használhat, mint a görgetősávnál. Csak nézze meg a dokumentációt a további vezérlőkért!
 ### Milyen programozási nyelveket használhatok az Aspose.Cells-ben?

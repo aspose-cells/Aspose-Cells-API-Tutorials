@@ -18,7 +18,7 @@ Trước khi bắt đầu, hãy đảm bảo bạn đã chuẩn bị mọi thứ
 1.  Aspose.Cells cho Thư viện .NET – Bạn sẽ cần cài đặt cái này. Bạn có thể lấy nó[đây](https://releases.aspose.com/cells/net/).
 2. .NET Framework – Đảm bảo môi trường phát triển của bạn được thiết lập với phiên bản .NET mới nhất.
 3. IDE (Môi trường phát triển tích hợp) – Khuyến khích sử dụng Visual Studio.
-4.  Giấy phép Aspose.Cells hợp lệ – Nếu bạn không có, bạn có thể yêu cầu[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/)hoặc kiểm tra của họ[dùng thử miễn phí](https://releases.aspose.com/).
+4.  Giấy phép Aspose.Cells hợp lệ – Nếu bạn không có, bạn có thể yêu cầu[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) hoặc kiểm tra của họ[dùng thử miễn phí](https://releases.aspose.com/).
 
 Bạn đã sẵn sàng chưa? Chúng ta hãy cùng phân tích nhé!
 

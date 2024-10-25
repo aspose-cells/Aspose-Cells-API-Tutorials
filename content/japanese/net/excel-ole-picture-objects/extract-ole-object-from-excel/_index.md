@@ -12,7 +12,7 @@ url: /ja/net/excel-ole-picture-objects/extract-ole-object-from-excel/
 ## 前提条件
 OLE オブジェクトの抽出に関する細かい詳細に入る前に、準備しておく必要があることがいくつかあります。
 1. C# の基礎知識: C# に精通している場合は、すでに正しい方向に進んでいます。そうでなくても心配しないでください。わかりやすく説明します。
-2.  Aspose.Cells のインストール: Aspose.Cells ライブラリが必要です。サイトからダウンロードできます。[ここ](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells のインストール: Aspose.Cells ライブラリが必要です。サイトからダウンロードできます。[ここ](https://releases.aspose.com/cells/net/).
 3. 互換性のある開発環境: Visual Studio などの .NET 開発環境がセットアップされ、準備ができていることを確認します。
 4. サンプル Excel ファイル: テストには、OLE オブジェクトが埋め込まれた Excel ファイルが必要です。 
 これらの前提条件が満たされたら、OLE オブジェクト抽出の世界への旅を始めることができます。

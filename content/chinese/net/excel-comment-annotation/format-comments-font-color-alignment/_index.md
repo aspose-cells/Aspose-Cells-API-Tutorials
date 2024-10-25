@@ -81,7 +81,7 @@ Comment comment = worksheet.Comments[commentIndex];
 ## 步骤 7：设置注释文本
 让我们用一些有用的文字填充该评论：
 ```csharp
-//设置注释说明
+//设置注释注释
 comment.Note = "Hello Aspose!";
 ```
 这是当您将鼠标悬停在单元格 F5 上时显示注释的部分。 

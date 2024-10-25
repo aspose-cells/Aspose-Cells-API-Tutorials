@@ -63,7 +63,7 @@ Podobnie jak artysta zaczyna od pustego płótna, Ty zaczynasz od pustego skoros
 Ochrona przed zapisem jest kluczowym aspektem, zwłaszcza jeśli chcesz mieć pewność, że integralność Twoich danych pozostanie nienaruszona. Możesz to zrobić za pomocą hasła.
 
 ```csharp
-// Zabezpiecz skoroszyt hasłem przed zapisem.
+//Zabezpiecz skoroszyt hasłem przed zapisem.
 wb.Settings.WriteProtection.Password = "YOUR_PASSWORD";
 ```
 
@@ -89,11 +89,11 @@ Ostatnim krokiem jest zapisanie skoroszytu w pożądanym formacie. W tym przypad
 wb.Save(outputDir + "outputSpecifyAuthorWhileWriteProtectingWorkbook.xlsx");
 ```
 
- Tutaj plik wyjściowy zostanie zapisany w określonym przez Ciebie katalogu wyjściowym pod nazwą`outputSpecifyAuthorWhileWriteProtectingWorkbook.xlsx`To tutaj Twoja ciężka praca w końcu się opłaca i możesz udostępnić swój skoroszyt innym, wiedząc, że jest dobrze chroniony!
+ Tutaj plik wyjściowy zostanie zapisany w określonym przez Ciebie katalogu wyjściowym pod nazwą`outputSpecifyAuthorWhileWriteProtectingWorkbook.xlsx`. To tutaj Twoja ciężka praca w końcu się opłaca i możesz udostępnić swój skoroszyt innym, wiedząc, że jest dobrze chroniony!
 
 ## Wniosek
 
-I masz to! Nauczyłeś się, jak utworzyć skoroszyt programu Excel, ustawić ochronę przed zapisem za pomocą hasła, określić autora i bezproblemowo zapisać go za pomocą Aspose.Cells dla .NET. Ta kombinacja funkcjonalności nie tylko zabezpieczy Twoje dane, ale także zachowa ich integralność i zapewni właściwe przypisanie.
+masz to! Nauczyłeś się, jak utworzyć skoroszyt programu Excel, ustawić ochronę przed zapisem za pomocą hasła, określić autora i bezproblemowo zapisać go za pomocą Aspose.Cells dla .NET. Ta kombinacja funkcjonalności nie tylko zabezpieczy Twoje dane, ale także zachowa ich integralność i zapewni właściwe przypisanie.
 
 ## Najczęściej zadawane pytania
 
@@ -110,4 +110,4 @@ I masz to! Nauczyłeś się, jak utworzyć skoroszyt programu Excel, ustawić oc
 Oczywiście! Aspose.Cells działa bezproblemowo zarówno w aplikacjach desktopowych, jak i internetowych, korzystając z .NET.
 
 ### Co mam zrobić, jeśli potrzebuję wsparcia?  
- przypadku pytań i rozwiązywania problemów, społeczność Aspose jest bardzo pomocna. Możesz odwiedzić ich[forum wsparcia](https://forum.aspose.com/c/cells/9) po pomoc.
+ W przypadku pytań i rozwiązywania problemów, społeczność Aspose jest bardzo pomocna. Możesz odwiedzić ich[forum wsparcia](https://forum.aspose.com/c/cells/9) po pomoc.

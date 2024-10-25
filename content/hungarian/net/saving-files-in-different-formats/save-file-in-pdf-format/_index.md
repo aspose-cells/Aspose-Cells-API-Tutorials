@@ -40,7 +40,7 @@ Először létre kell hoznia egy példányt a Workbook osztályból. Ez az objek
 // Munkafüzet objektum létrehozása
 Workbook workbook = new Workbook();
 ```
-Ez a sor inicializál egy új munkafüzetet. Tekintse ezt úgy, mintha egy üres vásznat nyitna meg, ahol a táblázat összes adata található.
+Ez a sor inicializál egy új munkafüzetet. Tekintse ezt úgy, mint egy üres vászon megnyitását, ahol a táblázat összes adata található.
 ## 2. lépés: A mentési útvonal beállítása
 Ezután meg kell adnia, hogy a kimeneti PDF-fájlt hova kell menteni. Határozzuk meg az utat.
 ```csharp
@@ -58,7 +58,7 @@ Ez az a pillanat, amiért dolgoztunk! Most elmentjük a munkafüzetet PDF fájlk
 ```csharp
 if (Respose != null)
 {
-    //Mentse el Pdf formátumban
+    // Mentse el Pdf formátumban
     workbook.Save(Respose, dataDir + "output.pdf", ContentDisposition.Attachment, new PdfSaveOptions());
     Respose.End();
 }

@@ -71,7 +71,7 @@ foreach (ReferredArea area in ret)
     Console.WriteLine(CellsHelper.CellIndexToName(area.EndRow, area.EndColumn));
 }
 ```
- Dans cet extrait, nous utilisons un simple`foreach` boucle pour imprimer les noms des feuilles et les références des cellules alimentant B4.`CellsHelper.CellIndexToName`la fonction transforme les indices de ligne et de colonne en références de cellule lisibles comme « A1 », « B2 », etc. 
+ Dans cet extrait, nous utilisons un simple`foreach` boucle pour imprimer les noms des feuilles et les références des cellules alimentant B4.`CellsHelper.CellIndexToName` la fonction transforme les indices de ligne et de colonne en références de cellule lisibles comme « A1 », « B2 », etc. 
 
 ## Conclusion
 Et voilà ! Vous avez réussi à retracer des précédents dans Excel à l'aide d'Aspose.Cells pour .NET. Comprendre les dépendances des cellules peut améliorer vos compétences en gestion de feuilles de calcul et clarifier vos décisions basées sur les données. C'est un peu comme résoudre un puzzle, reconstituer la provenance de vos données. Maintenant, allez-y, essayez ceci sur vos propres données et libérez la puissance d'Aspose.Cells !
@@ -85,4 +85,4 @@ Aspose.Cells est une bibliothèque .NET utilisée pour créer, manipuler et conv
 ### Aspose.Cells est-il compatible avec .NET Core ?  
 Oui, Aspose.Cells prend en charge .NET Core, vous pouvez donc l'utiliser dans différents frameworks .NET.
 ### Où puis-je trouver du support pour Aspose.Cells ?  
-Vous pouvez obtenir de l'aide sur le[Forum d'assistance Aspose](https://forum.aspose.com/c/cells/9).
+ Vous pouvez obtenir de l'aide sur le[Forum d'assistance Aspose](https://forum.aspose.com/c/cells/9).

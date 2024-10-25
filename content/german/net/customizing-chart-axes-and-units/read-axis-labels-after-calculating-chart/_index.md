@@ -114,7 +114,7 @@ for (int i = 0; i < lstLabels.Count; i++)
     Console.WriteLine(lstLabels[i]);
 }
 ```
-Dieses Snippet gibt zunächst einen Titel und eine Trennzeile aus. Dann durchlaufen wir jedes Label im`lstLabels` ArrayList und drucken Sie es auf der Konsole aus. Wenn es zehn Beschriftungen gibt, sehen Sie jede davon direkt dort!
+ Dieses Snippet gibt zunächst einen Titel und eine Trennzeile aus. Dann durchlaufen wir jedes Label im`lstLabels`ArrayList und drucken Sie es auf der Konsole aus. Wenn es zehn Beschriftungen gibt, sehen Sie jede davon direkt dort!
 
 ## Schritt 8: Letzte Nachricht
 
@@ -141,7 +141,7 @@ Aspose.Cells ist eine leistungsstarke Bibliothek zum Bearbeiten von Excel-Dateie
  Sie können eine Lizenz für Aspose.Cells erwerben über deren[Kaufseite](https://purchase.aspose.com/buy).
 
 ### Wo finde ich Unterstützung für Aspose.Cells?
-Sie können das Aspose-Forum für Unterstützung besuchen[Hier](https://forum.aspose.com/c/cells/9).
+ Sie können das Aspose-Forum für Unterstützung besuchen[Hier](https://forum.aspose.com/c/cells/9).
 
 ### Kann ich eine vorläufige Lizenz erhalten?
- Ja! Aspose bietet eine temporäre Lizenz an, die Sie bei[dieser Link](https://purchase.aspose.com/temporary-license/).
+Ja! Aspose bietet eine temporäre Lizenz an, die Sie bei[dieser Link](https://purchase.aspose.com/temporary-license/).

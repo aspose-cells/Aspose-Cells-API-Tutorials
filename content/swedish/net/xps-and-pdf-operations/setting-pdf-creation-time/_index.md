@@ -8,14 +8,14 @@ weight: 11
 url: /sv/net/xps-and-pdf-operations/setting-pdf-creation-time/
 ---
 ## Introduktion
-I dagens digitala tidsålder är förmågan att konvertera dokument till olika format avgörande för många applikationer. Ett vanligt behov är att konvertera Excel-kalkylblad till PDF-filer. Detta bevarar inte bara formateringen, utan det gör också delning och utskrift mycket enklare. Om du är en utvecklare som arbetar med .NET är Aspose.Cells ett fantastiskt bibliotek som förenklar denna process. I den här handledningen kommer vi att dyka in i hur du ställer in PDF-genereringstiden när du konverterar en Excel-fil till PDF med Aspose.Cells för .NET.
+dagens digitala tidsålder är förmågan att konvertera dokument till olika format avgörande för många applikationer. Ett vanligt behov är att konvertera Excel-kalkylblad till PDF-filer. Detta bevarar inte bara formateringen, utan det gör också delning och utskrift mycket enklare. Om du är en utvecklare som arbetar med .NET är Aspose.Cells ett fantastiskt bibliotek som förenklar denna process. I den här handledningen kommer vi att dyka in i hur du ställer in PDF-genereringstiden när du konverterar en Excel-fil till PDF med Aspose.Cells för .NET.
 ## Förutsättningar
 Innan vi går in i kodens snålhet, låt oss se till att du har allt du behöver för att komma igång.
 ### Vad du behöver
 1. Visual Studio: Se till att du har Visual Studio installerat på din dator. Detta kommer att vara din utvecklingsmiljö.
 2.  Aspose.Cells för .NET: Ladda ner Aspose.Cells-biblioteket från[webbplats](https://releases.aspose.com/cells/net/). Du kan också börja med en gratis provperiod för att testa dess funktioner.
 3. Grundläggande kunskaper i C#: Bekantskap med C#-programmering hjälper dig att förstå kodavsnitten bättre.
-4.  Excel-fil: Ha en Excel-fil redo för konvertering. För det här exemplet använder vi en fil med namnet`Book1.xlsx`.
+4. Excel-fil: Ha en Excel-fil redo för konvertering. För det här exemplet använder vi en fil med namnet`Book1.xlsx`.
 Nu när du har ordning på förutsättningarna, låt oss gå in på den roliga delen – importera de nödvändiga paketen och skriva koden!
 ## Importera paket
 Till att börja med måste du importera de nödvändiga namnområdena i din C#-fil. Detta är avgörande eftersom det ger dig tillgång till klasserna och metoderna som tillhandahålls av Aspose.Cells-biblioteket.
@@ -45,7 +45,7 @@ string dataDir = "Your Document Directory"; // Ange din dokumentkatalog
 string inputPath = dataDir + "Book1.xlsx"; // Sökväg till din Excel-fil
 Workbook workbook = new Workbook(inputPath); // Ladda Excel-filen
 ```
- De`Workbook`klass används för att ladda och manipulera Excel-filer. Genom att skicka indatasökvägen talar du om för programmet vilken fil den ska arbeta med.
+ De`Workbook` klass används för att ladda och manipulera Excel-filer. Genom att skicka indatasökvägen talar du om för programmet vilken fil den ska arbeta med.
 ## Steg 3: Skapa PdfSaveOptions
  Nu är det dags att skapa en instans av`PdfSaveOptions`. Den här klassen låter dig ange olika alternativ för att spara din arbetsbok som en PDF, inklusive skapelsetiden.
 ```csharp
@@ -56,7 +56,7 @@ options.CreatedTime = DateTime.Now; // Ställ in skapelsetiden till nu
 ## Steg 4: Spara arbetsboken som PDF
 Slutligen kommer du att spara arbetsboken som en PDF-fil med de alternativ du just definierade.
 ```csharp
-workbook.Save(dataDir + "output.pdf", options); // Spara som PDF
+workbook.Save(dataDir + "output.pdf", options); //Spara som PDF
 ```
  Denna kodrad tar arbetsboken och sparar den i PDF-format på den angivna platsen. De`options` parametern skickas för att inkludera skapelsetiden i PDF-metadata.
 

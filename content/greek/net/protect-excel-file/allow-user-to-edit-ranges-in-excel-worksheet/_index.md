@@ -41,7 +41,7 @@ using Aspose.Cells;
 // Η διαδρομή προς τον κατάλογο εγγράφων.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
-//Δημιουργήστε κατάλογο εάν δεν υπάρχει ήδη.
+// Δημιουργήστε κατάλογο εάν δεν υπάρχει ήδη.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -58,7 +58,7 @@ if (!IsExists)
 Workbook book = new Workbook();
 ```
 
- Εδώ, δημιουργούμε ένα νέο παράδειγμα του`Workbook` κλάση που παρέχεται από το Aspose.Cells, το οποίο μας επιτρέπει να χειριζόμαστε το αρχείο Excel.
+ Εδώ, δημιουργούμε μια νέα παρουσία του`Workbook` κλάση που παρέχεται από το Aspose.Cells, το οποίο μας επιτρέπει να χειριζόμαστε το αρχείο Excel.
 
 ## Βήμα 3: Πρόσβαση στο Προεπιλεγμένο φύλλο εργασίας
 

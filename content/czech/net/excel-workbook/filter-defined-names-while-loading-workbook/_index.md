@@ -106,4 +106,4 @@ Filtrování definovaných názvů může vést k nefunkčním vzorcům, pokud n
  Ano, můžete získat bezplatnou zkušební verzi Aspose.Cells a otestovat její schopnosti před zakoupením. Podívejte se na to[zde](https://releases.aspose.com/).
 
 ### Kde najdu další příklady a dokumentaci?
-Komplexní dokumentaci a další příklady naleznete na referenční stránce Aspose.Cells[zde](https://reference.aspose.com/cells/net/).
+ Komplexní dokumentaci a další příklady naleznete na referenční stránce Aspose.Cells[zde](https://reference.aspose.com/cells/net/).

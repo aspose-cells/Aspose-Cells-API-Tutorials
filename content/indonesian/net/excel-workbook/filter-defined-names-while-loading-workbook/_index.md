@@ -106,4 +106,4 @@ Memfilter nama yang ditentukan dapat menyebabkan rumus rusak jika merujuk ke nam
  Ya, Anda bisa mendapatkan uji coba Aspose.Cells gratis untuk menguji kemampuannya sebelum membeli. Lihat saja[Di Sini](https://releases.aspose.com/).
 
 ### Di mana saya dapat menemukan lebih banyak contoh dan dokumentasi?
-Anda dapat menemukan dokumentasi lengkap dan lebih banyak contoh di halaman referensi Aspose.Cells[Di Sini](https://reference.aspose.com/cells/net/).
+ Anda dapat menemukan dokumentasi lengkap dan lebih banyak contoh di halaman referensi Aspose.Cells[Di Sini](https://reference.aspose.com/cells/net/).

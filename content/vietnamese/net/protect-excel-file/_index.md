@@ -15,11 +15,11 @@ Nếu bạn đang tìm hiểu về tự động hóa và thao tác Excel bằng 
 
 Hãy tưởng tượng bạn cần xử lý một lượng lớn dữ liệu trong Excel. Bạn có thể nghĩ, "Điều đó không phải sẽ mất mãi mãi sao?" Hãy nhập Aspose.Cells: giống như có một siêu năng lực để thao tác dữ liệu. Thư viện này không chỉ cho phép bạn chỉnh sửa bảng tính; nó trao quyền cho bạn bảo vệ dữ liệu, đảm bảo thông tin quan trọng được giữ nguyên vẹn. Khi bạn bảo vệ các hàng hoặc cột cụ thể, giống như việc thiết lập một pháo đài xung quanh các số liệu quan trọng của bạn, chỉ cho phép những người phù hợp vào. 
 
- Chúng tôi đã đơn giản hóa quy trình này cho bạn bằng nhiều hướng dẫn từng bước. Ví dụ, hãy xem hướng dẫn của chúng tôi về cách[Cho phép người dùng chỉnh sửa phạm vi trong bảng tính Excel](./allow-user-to-edit-ranges-in-excel-worksheet/). Bạn sẽ học cách cho phép người dùng sửa đổi các phần cụ thể của bảng tính mà không làm ảnh hưởng đến toàn bộ tài liệu. 
+Chúng tôi đã đơn giản hóa quy trình này cho bạn bằng nhiều hướng dẫn từng bước. Ví dụ, hãy xem hướng dẫn của chúng tôi về cách[Cho phép người dùng chỉnh sửa phạm vi trong bảng tính Excel](./allow-user-to-edit-ranges-in-excel-worksheet/). Bạn sẽ học cách cho phép người dùng sửa đổi các phần cụ thể của bảng tính mà không làm ảnh hưởng đến toàn bộ tài liệu. 
 
 ## Hướng dẫn được thiết kế riêng cho bạn
 
-Nhưng đó không phải là tất cả! Bảo vệ dữ liệu của bạn cũng quan trọng không kém. Bạn sẽ không để cửa trước của mình mở toang, phải không? Tương tự như vậy, hướng dẫn của chúng tôi cung cấp cho bạn các công cụ để khóa bất kỳ phần nào trong bảng tính Excel của bạn. Hãy xem hướng dẫn về[Bảo vệ các tế bào cụ thể](./protect-specific-cells-in-a-excel-worksheet/) để tìm hiểu cách bảo vệ dữ liệu của bạn hiệu quả. Chúng tôi hướng dẫn bạn từng bước, giúp bạn dễ dàng thực hiện ngay cả với những người mới bắt đầu lập trình.
+ Nhưng đó không phải là tất cả! Bảo vệ dữ liệu của bạn cũng quan trọng không kém. Bạn sẽ không để cửa trước của mình mở toang, phải không? Tương tự như vậy, hướng dẫn của chúng tôi cung cấp cho bạn các công cụ để khóa bất kỳ phần nào trong bảng tính Excel của bạn. Hãy xem hướng dẫn về[Bảo vệ các tế bào cụ thể](./protect-specific-cells-in-a-excel-worksheet/) để tìm hiểu cách bảo vệ dữ liệu của bạn hiệu quả. Chúng tôi hướng dẫn bạn từng bước, giúp bạn dễ dàng thực hiện ngay cả với những người mới bắt đầu lập trình.
 
 Chắc chắn rồi! Chúng ta hãy cùng tìm hiểu thêm về tầm quan trọng của các hướng dẫn này trong hành trình thành thạo Excel của bạn và cách chúng có thể phù hợp với quy trình phát triển của bạn.
 

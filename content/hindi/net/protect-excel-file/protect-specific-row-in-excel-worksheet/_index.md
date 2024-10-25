@@ -49,7 +49,7 @@ using Aspose.Cells;
 // दस्तावेज़ निर्देशिका का पथ.
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // अपने इच्छित पथ पर बदलें.
 
-//यदि निर्देशिका पहले से मौजूद नहीं है तो उसे बनाएं।
+// यदि निर्देशिका पहले से मौजूद नहीं है तो उसे बनाएं।
 bool isExists = System.IO.Directory.Exists(dataDir);
 if (!isExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -88,7 +88,7 @@ StyleFlag flag;
 for (int i = 0; i <= 255; i++)
 {
     style = sheet.Cells.Columns[(byte)i].Style;
-    style.IsLocked = false; // कॉलम अनलॉक करें
+    style.IsLocked = false; //कॉलम अनलॉक करें
     flag = new StyleFlag();
     flag.Locked = true; // लॉकिंग के लिए ध्वज को सत्य पर सेट करें
     sheet.Cells.Columns[(byte)i].ApplyStyle(style, flag); // शैली लागू करें

@@ -9,15 +9,15 @@ url: /hu/net/excel-copy-worksheet/excel-copy-worksheets-between-workbooks/
 ---
 ## Bevezetés
 
-Előfordult már, hogy kézzel másol munkalapokat Excel-munkafüzetek között? Kicsit olyan ez, mintha egykerekűvel próbálnánk zsonglőrködni! Az Aspose.Cells for .NET segítségével azonban leegyszerűsítheti ezt a feladatot, és olyan simává teheti, mint a vaj szeletelése. Akár nagy adathalmazokat kezel, akár információkat kell konszolidálnia, a munkalapok munkafüzetek közötti másolásával rengeteg időt takaríthat meg. Ebben az oktatóanyagban pontosan megmutatjuk, hogyan kell ezt megtenni az Aspose.Cells for .NET használatával. Az útmutató végére könnyedén átvészelheti az Excel-feladatokat.
+Előfordult már, hogy kézzel másol munkalapokat Excel-munkafüzetek között? Kicsit olyan ez, mintha egykerekűvel próbálnánk zsonglőrködni! Az Aspose.Cells for .NET segítségével azonban leegyszerűsítheti ezt a feladatot, és olyan simává teheti, mint a vaj felszeletelése. Akár nagy adathalmazokat kezel, akár információkat kell konszolidálnia, a munkalapok munkafüzetek közötti másolásával rengeteg időt takaríthat meg. Ebben az oktatóanyagban pontosan megmutatjuk, hogyan kell ezt megtenni az Aspose.Cells for .NET használatával. Az útmutató végére könnyedén átvészelheti az Excel-feladatokat.
 
 ## Előfeltételek
 
 Mielőtt belemerülnénk a kódba, győződjön meg arról, hogy fel van szerelve a megfelelő eszközökkel a kezdéshez:
 
-- Aspose.Cells for .NET: Letöltheti[itt](https://releases.aspose.com/cells/net/).
+-  Aspose.Cells for .NET: Letöltheti[itt](https://releases.aspose.com/cells/net/).
 - Visual Studio vagy bármely IDE, amely támogatja a .NET-keretrendszert.
--  Érvényes jogosítvány vagy a[ideiglenes engedély](https://purchase.aspose.com/temporary-license/) ha az Aspose.Cells teljes funkcionalitását szeretné tesztelni.
+-  Érvényes jogosítvány vagy a[ideiglenes engedély](https://purchase.aspose.com/temporary-license/)ha az Aspose.Cells teljes funkcionalitását szeretné tesztelni.
 - A C# és a .NET keretrendszer alapvető ismerete.
 
  Azt is megtekintheti a[Aspose.Cells dokumentáció](https://reference.aspose.com/cells/net/) további részletekért.
@@ -44,7 +44,7 @@ Először is meg kell határoznia, hol találhatók a fájlok. Tekintse ezt a l�
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Ebben a sorban cserélje ki`"YOUR DOCUMENT DIRECTORY"` az Excel-fájlok tényleges elérési útjával. Ez az a hely, ahol a munkafüzetek betöltődnek és mentésre kerülnek.
+ Ebben a sorban cserélje ki`"YOUR DOCUMENT DIRECTORY"`az Excel-fájlok tényleges elérési útjával. Ez az a hely, ahol a munkafüzetek betöltődnek és mentésre kerülnek.
 
 ## 2. lépés: Nyissa meg az első munkafüzetet
 
@@ -64,7 +64,7 @@ Workbook excelWorkbook0 = new Workbook(InputPath);
 Most, hogy az első munkafüzet nyitva van, ideje létrehozni egy másik üres munkafüzetet, amelybe beillesztheti a másolt munkalapot. Tekintsd ezt úgy, mint egy új üres jegyzetfüzet megnyitását, ahová átviheted az adatokat.
 
 ```csharp
-//Hozzon létre egy másik munkafüzetet.
+// Hozzon létre egy másik munkafüzetet.
 Workbook excelWorkbook1 = new Workbook();
 ```
 

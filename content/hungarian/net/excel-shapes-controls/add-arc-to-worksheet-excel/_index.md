@@ -11,7 +11,7 @@ url: /hu/net/excel-shapes-controls/add-arc-to-worksheet-excel/
 tetszetős Excel-táblázatok készítése kulcsfontosságú az adatok megjelenítéséhez, az Aspose.Cells könyvtár pedig robusztus eszközöket biztosít a fejlesztőknek e feladat elvégzéséhez. Az egyik érdekes funkció, amelyet érdemes beépíteni Excel-dokumentumaiba, az alakzatok, például ívek hozzáadásának képessége. Ebben az oktatóanyagban lépésről lépésre végigvezetjük, hogyan adhatunk íveket egy Excel-munkalaphoz az Aspose.Cells for .NET használatával. A cikk végére nemcsak az ívek hozzáadását tanulja meg, hanem általánosságban is betekintést nyerhet az alakzatok kezelésébe.
 ## Előfeltételek
 Mielőtt belevetnénk magunkat az ívek munkalaphoz adásának bonyolultságába, elengedhetetlen, hogy bizonyos dolgok a helyükön legyenek. Íme az induláshoz szükséges előfeltételek:
-1. Visual Studio: A Visual Studiot telepítenie kell a számítógépére, mivel programozási nyelvként a C#-t fogjuk használni.
+1. Visual Studio: A Visual Studio-t telepítenie kell a számítógépére, mivel programozási nyelvként a C#-t fogjuk használni.
 2. .NET-keretrendszer: Győződjön meg arról, hogy telepítve van a .NET-keretrendszer vagy a .NET Core. Az Aspose.Cells mindkettőt támogatja.
 3. Aspose.Cells for .NET: rendelkeznie kell az Aspose.Cells könyvtárral. Letöltheti a[Aspose.Cells Letöltések](https://releases.aspose.com/cells/net/) oldalon.
 4. A C# alapvető ismerete: A C# ismerete segít a kódrészletek követésében különösebb gond nélkül.
@@ -33,12 +33,12 @@ using Aspose.Cells;
 using Aspose.Cells.Drawing;
 using System.Drawing;
 ```
-Íme a kód lépésenkénti lebontása, amely bemutatja, hogyan lehet íveket hozzáadni egy munkalaphoz az Excelben.
+Itt található a kód lépésenkénti lebontása, amely bemutatja, hogyan lehet íveket hozzáadni egy munkalaphoz az Excelben.
 ## 1. lépés: A címtár beállítása
 Az első lépés egy könyvtár létrehozása, ahová menteni fogja az Excel-fájlt. Ez segít a kimeneti fájlok egyszerű kezelésében.
 ```csharp
 string dataDir = "Your Document Directory";
-//Hozzon létre könyvtárat, ha még nincs jelen.
+// Hozzon létre könyvtárat, ha még nincs jelen.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);

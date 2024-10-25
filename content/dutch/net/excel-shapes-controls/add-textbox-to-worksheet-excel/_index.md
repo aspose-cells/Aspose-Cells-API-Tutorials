@@ -33,7 +33,7 @@ Laten we eerst de directory instellen waar al uw Excel-documenten worden opgesla
 ```csharp
 // Het pad naar de documentenmap.
 string dataDir = "Your Document Directory"; 
-//Maak een map aan als deze nog niet bestaat.
+// Maak een map aan als deze nog niet bestaat.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists) 
     System.IO.Directory.CreateDirectory(dataDir);

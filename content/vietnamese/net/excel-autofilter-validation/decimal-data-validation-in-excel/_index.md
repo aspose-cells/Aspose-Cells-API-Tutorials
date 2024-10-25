@@ -203,7 +203,7 @@ Xác thực dữ liệu trong Excel là tính năng hạn chế loại dữ li�
 Có! Bạn có thể cung cấp thông báo lỗi tùy chỉnh để hướng dẫn người dùng khi nhập dữ liệu không chính xác.
 
 ### Aspose.Cells có miễn phí sử dụng không?
-Aspose.Cells cung cấp bản dùng thử miễn phí, nhưng bạn sẽ cần giấy phép để sử dụng lâu dài. Bạn có thể tìm thêm thông tin về việc mua giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+ Aspose.Cells cung cấp bản dùng thử miễn phí, nhưng bạn sẽ cần giấy phép để sử dụng lâu dài. Bạn có thể tìm thêm thông tin về việc mua giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
 
 ### Tôi có thể xác thực những kiểu dữ liệu nào trong Excel?
 Với Aspose.Cells, bạn có thể xác thực nhiều kiểu dữ liệu khác nhau bao gồm số nguyên, số thập phân, ngày tháng, danh sách và công thức tùy chỉnh.

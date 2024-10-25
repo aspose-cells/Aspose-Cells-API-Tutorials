@@ -59,7 +59,7 @@ string sourceDir = "Your Document Directory";
 Workbook workbook = new Workbook(sourceDir + "sampleApplyingThemesInChart.xlsx");
 ```
 
- Stellen Sie sicher, dass`sampleApplyingThemesInChart.xlsx`existiert in Ihrem Quellverzeichnis.
+ Stellen Sie sicher, dass`sampleApplyingThemesInChart.xlsx` existiert in Ihrem Quellverzeichnis.
 
 ## Schritt 3: Zugriff auf das Arbeitsblatt
 
@@ -96,7 +96,7 @@ Diese Codezeile stellt sicher, dass für die erste Reihe im Diagramm eine einfar
 
 ## Schritt 6: Konfigurieren Sie die Farbe
 
- Jetzt, da unsere Serie fertig ist, müssen wir ihre Farbe ändern. Dazu müssen wir ein`CellsColor`Objekt und Angabe einer Designfarbe. Für dieses Beispiel wählen wir einen Akzentstil.
+ Jetzt, da unsere Serie fertig ist, müssen wir ihre Farbe ändern. Dazu müssen wir ein`CellsColor` Objekt und Angabe einer Designfarbe. Für dieses Beispiel wählen wir einen Akzentstil.
 
 ```csharp
 // Holen Sie sich die CellsColor von SolidFill

@@ -12,7 +12,7 @@ Excel은 전 세계 수백만 명이 데이터 구성 및 분석에 사용하는
 ## 필수 조건
 명명된 범위를 복사하는 세부적인 작업에 들어가기 전에 몇 가지 사항을 준비해야 합니다. 필요한 사항은 다음과 같습니다.
 1. .NET 환경: .NET 개발 환경이 설정되어 있는지 확인하세요. Visual Studio나 원하는 다른 IDE를 사용할 수 있습니다.
-2.  Aspose.Cells for .NET 라이브러리: 이것이 쇼의 스타입니다! 라이브러리를 다음에서 다운로드하세요.[Aspose 웹사이트](https://releases.aspose.com/cells/net/) 아직 하지 않았다면.
+2. Aspose.Cells for .NET 라이브러리: 이것이 쇼의 스타입니다! 라이브러리를 다음에서 다운로드하세요.[Aspose 웹사이트](https://releases.aspose.com/cells/net/) 아직 하지 않았다면.
 3. C#에 대한 기본 지식: 튜토리얼 전체에서 이 언어로 코딩할 것이므로 C# 프로그래밍에 익숙하면 도움이 됩니다.
 4. Excel 설치: 코드를 작성하는 데 반드시 Excel이 필요한 것은 아니지만, 설치해 두면 출력 파일을 테스트하는 데 유용합니다.
 5.  문서에 대한 액세스: 북마크[Aspose.Cells 문서](https://reference.aspose.com/cells/net/) 참조용으로. 방법과 기능을 이해하는 데 좋은 자료입니다.
@@ -27,7 +27,7 @@ using System.IO;
 using Aspose.Cells;
 using System.Drawing;
 ```
-이 코드를 사용하면 다음과 같은 필수 수업에 액세스할 수 있습니다.`Workbook`, `Worksheet` 그리고`Range`Excel 파일을 조작하는 데 필요합니다.
+ 이 코드를 사용하면 다음과 같은 필수 수업에 액세스할 수 있습니다.`Workbook`, `Worksheet` , 그리고`Range`Excel 파일을 조작하는 데 필요합니다.
 
 이제 전제 조건을 정리했으니, 그 과정을 쉽게 따라할 수 있는 단계로 나누어 보겠습니다.
 ## 1단계: 출력 디렉토리 설정

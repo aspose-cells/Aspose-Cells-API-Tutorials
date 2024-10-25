@@ -35,9 +35,9 @@ string dataDir = "Your Document Directory";
 ```csharp
 Workbook workbook = new Workbook(dataDir + "sample-document-properties.xlsx");
 ```
- 여기서 우리는 특정 Excel 파일을 로드하고 있습니다.`"sample-document-properties.xlsx"`이 파일이 지정된 디렉토리에 있어야 합니다. 그렇지 않으면 오류가 발생합니다.
+ 여기서 우리는 특정 Excel 파일을 로드하고 있습니다.`"sample-document-properties.xlsx"`. 이 파일이 지정된 디렉토리에 있어야 합니다. 그렇지 않으면 오류가 발생합니다.
 ## 3단계: 사용자 정의 문서 속성 검색
-워크북이 로드되면, 우리는 그 귀중한 속성들을 활용할 수 있습니다. 이러한 속성에 어떻게 접근할 수 있는지 살펴보겠습니다.
+워크북이 로드되면, 우리는 그 귀중한 속성의 보고를 활용할 수 있습니다. 이러한 속성에 어떻게 접근할 수 있는지 살펴보겠습니다.
 ```csharp
 Aspose.Cells.Properties.DocumentPropertyCollection customProperties = workbook.Worksheets.CustomDocumentProperties;
 ```
@@ -65,8 +65,8 @@ Aspose.Cells for .NET을 사용하여 Excel 파일에서 문서 속성에 액세
 ### Aspose.Cells를 사용하여 Excel 파일을 읽고 쓸 수 있나요?
 물론입니다! 라이브러리를 사용하여 Excel 파일을 읽고, 쓰고, 수정할 수 있으므로 모든 .NET 개발자에게 강력한 도구가 됩니다.
 ### Aspose.Cells를 사용하려면 라이선스가 필요한가요?
- 무료 체험판을 받을 수 있지만, 정식 버전에는 유효한 라이선스가 필요합니다. 하나를 구매할 수 있습니다.[여기](https://purchase.aspose.com/buy).
+ 무료 평가판을 받을 수 있지만, 전체 버전에는 유효한 라이선스가 필요합니다. 하나를 구매할 수 있습니다.[여기](https://purchase.aspose.com/buy).
 ### Aspose.Cells 사용자도 지원받을 수 있나요?
  예, 포럼 및 문서를 포함한 광범위한 지원 리소스에 액세스할 수 있습니다.[여기](https://forum.aspose.com/c/cells/9).
 ### Aspose.Cells에 대한 임시 라이센스를 어떻게 받을 수 있나요?
- 제품을 평가하기 위한 임시 라이센스를 신청하려면 여기를 방문하세요.[이 링크](https://purchase.aspose.com/temporary-license/).
+제품을 평가하기 위한 임시 라이센스를 신청하려면 여기를 방문하세요.[이 링크](https://purchase.aspose.com/temporary-license/).

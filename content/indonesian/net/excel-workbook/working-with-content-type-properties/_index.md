@@ -60,7 +60,7 @@ Setelah buku kerja kita siap, saatnya menambahkan beberapa properti tipe konten 
 int index = workbook.ContentTypeProperties.Add("MK31", "Simple Data");
 ```
 
- Pada langkah ini, kami menambahkan properti yang disebut "MK31" dengan nilai "Data Sederhana".`Add` metode mengembalikan indeks properti yang baru ditambahkan, yang dapat kita gunakan nanti.
+ Pada langkah ini, kami menambahkan properti yang disebut "MK31" dengan nilai "Data Sederhana".`Add`metode mengembalikan indeks properti yang baru ditambahkan, yang dapat kita gunakan nanti.
 
 ### Tetapkan Properti Nillable
 
@@ -79,7 +79,7 @@ index = workbook.ContentTypeProperties.Add("MK32", DateTime.Now.ToString("yyyy-M
 workbook.ContentTypeProperties[index].IsNillable = true;
 ```
 
-Dalam cuplikan ini, kami membuat properti bernama "MK32" dengan tanggal dan waktu saat ini yang diformat sesuai dengan ISO 8601. Kami telah membuat properti ini dapat dibatalkan dengan menyetel`IsNillable` ke`true`.
+ Dalam cuplikan ini, kami membuat properti bernama "MK32" dengan tanggal dan waktu saat ini yang diformat sesuai dengan ISO 8601. Kami telah membuat properti ini dapat dibatalkan dengan menyetel`IsNillable` ke`true`.
 
 ## Langkah 4: Simpan Buku Kerja
 
@@ -120,4 +120,4 @@ Ya! Aspose.Cells mendukung berbagai format, termasuk XLS, XLSX, CSV, dan lainnya
 Tentu saja! Anda dapat menambahkan objek kompleks ke properti tipe konten asalkan objek tersebut dapat diserialisasikan dengan benar.
 
 ### Di mana saya dapat menemukan dokumentasi lebih lanjut?
- Untuk panduan lebih rinci, lihat[Dokumentasi Aspose.Cells](https://reference.aspose.com/cells/net/).
+Untuk panduan lebih rinci, lihat[Dokumentasi Aspose.Cells](https://reference.aspose.com/cells/net/).

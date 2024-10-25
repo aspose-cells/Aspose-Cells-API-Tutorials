@@ -12,7 +12,7 @@ När det gäller att manipulera Excel-filer i .NET utmärker sig Aspose.Cells so
 ## Förutsättningar
 Innan vi påbörjar konverteringen är det viktigt att se till att du har allt korrekt inställt. Här är förutsättningarna du behöver:
 1. Visual Studio: Se till att du har Visual Studio installerat på din dator. Det är IDE som hjälper dig att köra dina .NET-projekt smidigt.
-2. Aspose.Cells för .NET Library: Du måste skaffa det här biblioteket. Du kan[ladda ner den här](https://releases.aspose.com/cells/net/) eller börja med a[gratis provperiod](https://releases.aspose.com/).
+2.  Aspose.Cells för .NET Library: Du måste skaffa det här biblioteket. Du kan[ladda ner den här](https://releases.aspose.com/cells/net/) eller börja med a[gratis provperiod](https://releases.aspose.com/).
 3. Grundläggande kunskaper i C#: Bekantskap med C#-programmering kommer att vara fördelaktigt, eftersom våra exempel och förklaringar kommer att skrivas på detta språk.
 4.  Exempel på Excel-fil: Skapa eller ladda ner en Excel-fil för demonstration. Spara det som`MyTestBook1.xls` i din projektkatalog.
 5. Grundläggande förståelse för .NET-projekt: Att veta hur man skapar ett enkelt .NET-projekt kommer att göra detta enklare, men oroa dig inte – vi guidar dig genom stegen.
@@ -51,7 +51,7 @@ string dataDir = "Your Document Directory";
 // Öppna en Excel-mall.
 Workbook book = new Workbook(dataDir + "MyTestBook1.xls");
 ```
- I det här steget skapar vi en instans av`Workbook`klass och skicka sökvägen till vår Excel-fil. Detta gör att vi kan interagera med innehållet i filen programmatiskt.
+ I det här steget skapar vi en instans av`Workbook` klass och skicka sökvägen till vår Excel-fil. Detta gör att vi kan interagera med innehållet i filen programmatiskt.
 ## Steg 5: Få åtkomst till arbetsbladet
 Nu när vi har arbetsboken öppen, låt oss komma åt det första kalkylbladet:
 ```csharp
@@ -78,7 +78,7 @@ SheetRender sr = new SheetRender(sheet, imgOptions);
 // Gör bilden för arket
 Bitmap bitmap = sr.ToImage(0);
 ```
- De`SheetRender`klass hjälper till att rendera kalkylbladet till en bitmappsbild. Vi ringer`ToImage(0)` för att göra den nollte sidan (vårt första ark) till en bitmapp.
+ De`SheetRender` klass hjälper till att rendera kalkylbladet till en bitmappsbild. Vi ringer`ToImage(0)` för att göra den nollte sidan (vårt första ark) till en bitmapp.
 ## Steg 8: Spara bilden
 Efter renderingen måste vi spara bilden i den angivna katalogen:
 ```csharp
@@ -99,7 +99,7 @@ Och där har du det! Med bara några enkla steg har du lärt dig hur du konverte
 ### Vad är Aspose.Cells?
 Aspose.Cells är ett .NET-bibliotek som gör det möjligt för utvecklare att skapa, manipulera, konvertera och bearbeta Excel-filer programmatiskt.
 ### Kan jag använda Aspose.Cells gratis?
- Ja, du kan börja använda Aspose.Cells genom att ladda ner en gratis testversion från deras[webbplats](https://releases.aspose.com/).
+Ja, du kan börja använda Aspose.Cells genom att ladda ner en gratis testversion från deras[webbplats](https://releases.aspose.com/).
 ### Vilka bildformat stöder Aspose.Cells för export?
 Aspose.Cells stöder olika bildformat, inklusive JPEG, PNG, BMP och GIF.
 ### Var kan jag hitta ytterligare stöd för Aspose.Cells?

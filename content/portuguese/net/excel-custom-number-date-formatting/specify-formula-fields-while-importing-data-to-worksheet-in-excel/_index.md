@@ -160,7 +160,7 @@ Isso lhe dá um feedback imediato de que o código funcionou sem problemas.
 
 ## Conclusão
 
-E aí está! Você importou dados com sucesso para uma planilha do Excel usando o Aspose.Cells para .NET e especificou campos de fórmula. Seguindo essas etapas, você pode aplicar técnicas semelhantes para automatizar tarefas de processamento de dados adaptadas às suas necessidades. Quer você esteja processando números para relatórios ou simplesmente mantendo dados, dominar a arte da manipulação do Excel com o Aspose é uma habilidade que vale a pena ter.
+aí está! Você importou dados com sucesso para uma planilha do Excel usando o Aspose.Cells para .NET e especificou campos de fórmula. Seguindo essas etapas, você pode aplicar técnicas semelhantes para automatizar tarefas de processamento de dados adaptadas às suas necessidades. Quer você esteja processando números para relatórios ou simplesmente mantendo dados, dominar a arte da manipulação do Excel com o Aspose é uma habilidade que vale a pena ter.
 
 ## Perguntas frequentes
 
@@ -177,5 +177,5 @@ Aspose.Cells é uma biblioteca .NET projetada para criar, manipular e converter 
  Exemplos e documentação adicionais podem ser encontrados em[Página de documentação do Aspose](https://reference.aspose.com/cells/net/).
 
 ### E se eu tiver problemas ao usar o Aspose?
-Você pode buscar ajuda no fórum de suporte do Aspose[aqui](https://forum.aspose.com/c/cells/9).
+ Você pode buscar ajuda no fórum de suporte do Aspose[aqui](https://forum.aspose.com/c/cells/9).
  

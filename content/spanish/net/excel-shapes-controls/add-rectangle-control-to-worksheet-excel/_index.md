@@ -37,7 +37,7 @@ string dataDir = "Your Document Directory";
  Aquí se especifica la ruta del directorio donde se almacenará el archivo de Excel. Puede reemplazar`"Your Document Directory"` con la ruta real en su máquina, o cree dinámicamente una carpeta si no existe.
 ### Comprobación y creación del directorio
 ```csharp
-//Crear directorio si aún no está presente.
+// Crear directorio si aún no está presente.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);

@@ -9,15 +9,15 @@ url: /it/net/protect-excel-file/protect-cells-in-excel-worksheet/
 ---
 ## Introduzione
 
-Nel mondo digitale odierno, gestire i dati in modo sicuro nei fogli di calcolo è più critico che mai. Che tu stia gestendo informazioni sensibili o semplicemente voglia assicurarti che la formattazione rimanga intatta, proteggere celle specifiche in un foglio di lavoro Excel può essere una svolta. Fortunatamente, se stai utilizzando .NET, Aspose.Cells semplifica questo processo. In questo articolo, esploreremo una semplice guida passo passo per proteggere le celle in un foglio di lavoro Excel, assicurandoti che i tuoi dati rimangano sani e salvi.
+Nel mondo digitale odierno, gestire i dati in modo sicuro nei fogli di calcolo è più importante che mai. Che tu stia gestendo informazioni sensibili o semplicemente voglia assicurarti che la formattazione rimanga intatta, proteggere celle specifiche in un foglio di lavoro Excel può essere una svolta. Fortunatamente, se stai utilizzando .NET, Aspose.Cells semplifica questo processo. In questo articolo, esploreremo una semplice guida passo passo per proteggere le celle in un foglio di lavoro Excel, assicurandoti che i tuoi dati rimangano sani e salvi.
 
 ## Prerequisiti
 
 Prima di addentrarci nei dettagli della protezione delle cellule, ecco alcuni prerequisiti che dovresti avere:
 
 1. Visual Studio: assicurati di avere Visual Studio installato sul tuo computer. È l'IDE primario per lo sviluppo .NET.
-2.  Libreria Aspose.Cells: devi avere la libreria Aspose.Cells disponibile nel tuo progetto. Puoi installarla facilmente tramite NuGet Package Manager o scaricarla direttamente da[Sito Aspose.Cells](https://releases.aspose.com/cells/net/).
-3. Conoscenza di base del linguaggio C#: una minima familiarità con la programmazione in C# ti aiuterà a seguire il tutorial senza problemi.
+2. Libreria Aspose.Cells: devi avere la libreria Aspose.Cells disponibile nel tuo progetto. Puoi installarla facilmente tramite NuGet Package Manager o scaricarla direttamente da[Sito Aspose.Cells](https://releases.aspose.com/cells/net/).
+3. Conoscenza di base del linguaggio C#: una minima familiarità con la programmazione in C# ti aiuterà a seguire il programma senza problemi.
 
 ## Importazione di pacchetti
 
@@ -52,7 +52,7 @@ Per prima cosa devi stabilire dove salvare il tuo file Excel. Ecco come puoi spe
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // Specifica qui il percorso della tua directory
-//Creare la directory se non è già presente.
+// Creare la directory se non è già presente.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -88,7 +88,7 @@ Per garantire che solo celle specifiche siano bloccate, è necessario iniziare s
 for (int i = 0; i <= 255; i++)
 {
     Style style = sheet.Cells.Columns[(byte)i].Style;
-    style.IsLocked = false; // Sblocca colonna
+    style.IsLocked = false; //Sblocca colonna
     StyleFlag styleflag = new StyleFlag();
     styleflag.Locked = true; // Indica che vogliamo bloccare questo stile
     sheet.Cells.Columns[(byte)i].ApplyStyle(style, styleflag);

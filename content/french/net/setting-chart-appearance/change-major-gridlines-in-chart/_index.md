@@ -95,7 +95,7 @@ Dans ce code, nous spécifions le type de graphique (dans ce cas, un graphique �
 
 ## Étape 6 : Accéder à l'instance de graphique
 
-Une fois le graphique créé, nous devons accéder à son instance pour modifier ses propriétés. Cela se fait en le récupérant via le`Charts`collection.
+ Une fois le graphique créé, nous devons accéder à son instance pour modifier ses propriétés. Cela se fait en le récupérant via le`Charts`collection.
 
 ```csharp
 // Accéder à l'instance du graphique nouvellement ajouté

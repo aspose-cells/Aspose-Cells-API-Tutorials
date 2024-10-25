@@ -13,11 +13,11 @@ Szerette volna valaha is kifejezőbbé tenni Excel-táblázatait? Talán szeretn
 
 ## Megjegyzés hozzáadása képpel az Excelben
 
-Képzelje el, hogy képes az Excel-cellákra nemcsak szöveggel, hanem képekkel is megjegyzéseket fűzni. Ez személyes hatást és vizuális elemet ad, amely tisztázza és javítja a lapokon található információkat. Az oktatóanyag a[Képes megjegyzés hozzáadása Excelben](./add-comment-with-image-excel/) lépésről lépésre végigvezeti a folyamaton. Megtanulhat képeket közvetlenül a megjegyzésekbe szúrni, így a táblázatok nem csak informatívabbak, de látványosabbak is. Gondoljon csak bele, milyen hatékony lehet egy képernyőkép vagy egy logó, amikor megosztja munkáját másokkal!
+ Képzelje el, hogy képes az Excel-cellákra nemcsak szöveggel, hanem képekkel is megjegyzéseket fűzni. Ez személyes hatást és vizuális elemet ad, amely tisztázza és javítja a lapokon található információkat. Az oktatóanyag a[Képes megjegyzés hozzáadása Excelben](./add-comment-with-image-excel/) lépésről lépésre végigvezeti a folyamaton. Megtanulhat képeket közvetlenül a megjegyzésekbe szúrni, így a táblázatok nem csak informatívabbak, de látványosabbak is. Gondoljon csak bele, milyen hatékony lehet egy képernyőkép vagy egy logó, amikor megosztja munkáját másokkal!
 
 ## Megjegyzések hozzáadása a cellákhoz vagy alakzatokhoz az Excelben
 
- Ha Ön kezdő, aki szeretne kezdeni a megjegyzésekkel, a[Megjegyzések hozzáadása a cellákhoz vagy alakzatokhoz az Excelben](./add-comments-to-cells-or-shapes-excel/)az oktatóanyag tökéletes az Ön számára. A megjegyzések hozzáadásának alapjaitól a táblázatok funkcionalitásának javításáig mindenre kiterjed. Látni fogja, hogyan csatolhat megjegyzéseket különböző elemekhez – legyen szó cellákról vagy alakzatokról –, és még néhány bevált gyakorlaton is átfuthat a folyamat során. Ez az oktatóanyag ugródeszka a táblázatok interaktívvá és felhasználóbaráttá tételéhez!
+ Ha Ön kezdő, aki szeretne kezdeni a megjegyzésekkel, a[Megjegyzések hozzáadása a cellákhoz vagy alakzatokhoz az Excelben](./add-comments-to-cells-or-shapes-excel/) az oktatóanyag tökéletes az Ön számára. A megjegyzések hozzáadásának alapjaitól a táblázatok funkcionalitásának javításáig mindenre kiterjed. Látni fogja, hogyan csatolhat megjegyzéseket különböző elemekhez – legyen szó cellákról vagy alakzatokról –, és még néhány bevált gyakorlaton is átfuthat a folyamat során. Ez az oktatóanyag ugródeszka a táblázatok interaktívvá és felhasználóbaráttá tételéhez!
 
 ## Megjegyzések formátuma – betűtípus, szín, igazítás
 

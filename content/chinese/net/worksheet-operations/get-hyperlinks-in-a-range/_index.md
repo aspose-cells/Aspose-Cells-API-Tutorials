@@ -35,7 +35,7 @@ using Aspose.Cells;
 //文档目录的路径。
 string sourceDir = "Your Document Directory"; //将其更改为 Excel 文件的路径
 //输出目录
-string outputDir = RunExamples.Get_OutputDirectory(); //确保此方法提供有效的输出路径
+string outputDir = "Your Document Directory"; //确保此方法提供有效的输出路径
 ```
 在此代码片段中，替换`"Your Document Directory"`替换为包含 Excel 文件的目录的实际路径。这就像在演出前布置舞台一样 — 知道材料在哪里至关重要。
 ## 步骤 2：实例化工作簿对象

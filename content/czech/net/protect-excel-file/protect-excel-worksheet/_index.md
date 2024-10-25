@@ -83,7 +83,7 @@ Nyní přichází hlavní část: ochrana listu. Aspose.Cells umožňuje nastavi
 worksheet.Protect(ProtectionType.All, "aspose", null);
 ```
 
-Výše uvedený kód bude chránit list. Zde jsme nastavili heslo na „aspose“. Nebojte se použít libovolné heslo. S touto ochranou uživatelé nebudou moci upravovat váš list bez hesla.
+Výše uvedený kód bude chránit list. Zde jsme nastavili heslo na „aspose“. Můžete použít libovolné heslo. S touto ochranou uživatelé nebudou moci upravovat váš list bez hesla.
 
 ## Krok 6: Uložte upravený soubor Excel
 
@@ -93,7 +93,7 @@ Po použití nezbytných ochran je důležité uložit si práci. Provedené zm�
 excel.Save(dataDir + "output.out.xls", SaveFormat.Excel97To2003);
 ```
 
-Tento příkaz uloží sešit jako "output.out.xls" v určeném formátu. Nezapomeňte upravit název souboru, abyste v něm měli pořádek!
+Tento příkaz uloží sešit jako "output.out.xls" v zadaném formátu. Nezapomeňte upravit název souboru, abyste v něm měli pořádek!
 
 ## Krok 7: Zavřete Stream souborů
 

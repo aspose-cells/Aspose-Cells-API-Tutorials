@@ -13,11 +13,11 @@ Pernahkah Anda ingin membuat lembar kerja Excel Anda sedikit lebih ekspresif? Mu
 
 ## Tambahkan Komentar dengan Gambar di Excel
 
-Bayangkan memiliki kemampuan untuk memberi anotasi pada sel Excel Anda tidak hanya dengan teks tetapi juga gambar. Ini menambahkan sentuhan pribadi dan elemen visual yang dapat memperjelas dan meningkatkan informasi di lembar Anda. Tutorial tentang[Menambahkan Komentar dengan Gambar di Excel](./add-comment-with-image-excel/) memandu Anda melalui proses ini langkah demi langkah. Anda akan belajar memasukkan gambar langsung ke dalam komentar, membuat lembar kerja Anda tidak hanya lebih informatif tetapi juga menarik secara visual. Bayangkan betapa efektifnya tangkapan layar atau logo saat Anda membagikan pekerjaan Anda dengan orang lain!
+ Bayangkan memiliki kemampuan untuk memberi anotasi pada sel Excel Anda tidak hanya dengan teks tetapi juga gambar. Ini menambahkan sentuhan pribadi dan elemen visual yang dapat memperjelas dan meningkatkan informasi di lembar Anda. Tutorial tentang[Menambahkan Komentar dengan Gambar di Excel](./add-comment-with-image-excel/) memandu Anda melalui proses ini langkah demi langkah. Anda akan belajar memasukkan gambar langsung ke dalam komentar, membuat lembar kerja Anda tidak hanya lebih informatif tetapi juga menarik secara visual. Bayangkan betapa efektifnya tangkapan layar atau logo saat Anda membagikan pekerjaan Anda dengan orang lain!
 
 ## Menambahkan Komentar ke Sel atau Bentuk di Excel
 
- Jika Anda seorang pemula yang ingin memulai dengan anotasi,[Menambahkan Komentar ke Sel atau Bentuk di Excel](./add-comments-to-cells-or-shapes-excel/)tutorial ini sangat cocok untuk Anda. Tutorial ini mencakup segala hal mulai dari dasar-dasar menambahkan komentar hingga meningkatkan fungsionalitas spreadsheet Anda. Anda akan melihat cara melampirkan komentar ke berbagai elemen—baik itu sel atau bentuk—dan bahkan menjalankan beberapa praktik terbaik dalam prosesnya. Tutorial ini adalah batu loncatan Anda untuk membuat spreadsheet Anda interaktif dan mudah digunakan!
+ Jika Anda seorang pemula yang ingin memulai dengan anotasi,[Menambahkan Komentar ke Sel atau Bentuk di Excel](./add-comments-to-cells-or-shapes-excel/) tutorial ini sangat cocok untuk Anda. Tutorial ini mencakup segala hal mulai dari dasar-dasar menambahkan komentar hingga meningkatkan fungsionalitas spreadsheet Anda. Anda akan melihat cara melampirkan komentar ke berbagai elemen—baik itu sel atau bentuk—dan bahkan menjalankan beberapa praktik terbaik dalam prosesnya. Tutorial ini adalah batu loncatan Anda untuk membuat spreadsheet Anda interaktif dan mudah digunakan!
 
 ## Format Komentar - Font, Warna, Penjajaran
 

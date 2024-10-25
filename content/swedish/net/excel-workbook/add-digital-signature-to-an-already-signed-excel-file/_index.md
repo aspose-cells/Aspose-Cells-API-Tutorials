@@ -9,14 +9,14 @@ url: /sv/net/excel-workbook/add-digital-signature-to-an-already-signed-excel-fil
 ---
 ## Introduktion
 
-dagens digitala värld är det viktigare än någonsin att säkra dokument. Digitala signaturer ger ett sätt att säkerställa äktheten och integriteten hos dina filer, särskilt när du hanterar känslig information. Om du arbetar med Excel-filer och vill lägga till en ny digital signatur i en arbetsbok som redan är signerad, är du på rätt plats! I den här guiden går vi igenom processen att lägga till en digital signatur till en redan signerad Excel-fil med Aspose.Cells för .NET. Så, låt oss dyka in!
+I dagens digitala värld är det viktigare än någonsin att säkra dokument. Digitala signaturer ger ett sätt att säkerställa äktheten och integriteten hos dina filer, särskilt när du hanterar känslig information. Om du arbetar med Excel-filer och vill lägga till en ny digital signatur i en arbetsbok som redan är signerad, är du på rätt plats! I den här guiden går vi igenom processen att lägga till en digital signatur till en redan signerad Excel-fil med Aspose.Cells för .NET. Så, låt oss dyka in!
 
 ## Förutsättningar
 
 Innan vi går in i det snälla med kodning, finns det några saker du måste ha på plats:
 
 1.  Aspose.Cells för .NET: Se till att du har Aspose.Cells-biblioteket installerat i ditt .NET-projekt. Du kan ladda ner den från[plats](https://releases.aspose.com/cells/net/).
-2.  Certifikatfil: Du behöver en giltig certifikatfil (vanligtvis en`.pfx` fil) som innehåller ditt digitala certifikat. Se till att du känner till lösenordet för den här filen.
+2.  Certifikatfil: Du behöver en giltig certifikatfil (vanligtvis en`.pfx`fil) som innehåller ditt digitala certifikat. Se till att du känner till lösenordet för den här filen.
 3. Utvecklingsmiljö: Konfigurera din utvecklingsmiljö med Visual Studio eller någon annan IDE som stöder .NET.
 4. Grundläggande kunskaper i C#: Bekantskap med C#-programmering hjälper dig att följa med smidigt.
 5. Exempelfiler: Ha ett exempel på Excel-fil som redan är digitalt signerad. Detta kommer att vara filen som du lägger till en ny signatur till.
@@ -51,7 +51,7 @@ I det här steget använder vi en metod för att få sökvägarna för käll- oc
 
 ## Steg 2: Ladda den redan signerade arbetsboken
 
-Därefter måste du ladda Excel-arbetsboken som du vill ändra. Detta görs genom att skapa en instans av`Workbook` klass och passerar sökvägen till den signerade filen.
+ Därefter måste du ladda Excel-arbetsboken som du vill ändra. Detta görs genom att skapa en instans av`Workbook` klass och passerar sökvägen till den signerade filen.
 
 ```csharp
 // Ladda arbetsboken som redan är digitalt signerad
@@ -84,7 +84,7 @@ string password = "aspose";
 System.Security.Cryptography.X509Certificates.X509Certificate2 certificate = new System.Security.Cryptography.X509Certificates.X509Certificate2(certFileName, password);
 ```
 
- Se till att byta ut`AsposeDemo.pfx` och lösenordet med ditt faktiska certifikatfilnamn och lösenord.
+ Se till att byta ut`AsposeDemo.pfx`och lösenordet med ditt faktiska certifikatfilnamn och lösenord.
 
 ## Steg 5: Skapa den digitala signaturen
 
@@ -113,7 +113,7 @@ Genom att köra den här raden bifogar du effektivt den nya digitala signaturen 
 Slutligen vill du spara den modifierade arbetsboken i din utdatakatalog och släppa alla resurser som används.
 
 ```csharp
-// Spara arbetsboken och kassera den.
+//Spara arbetsboken och kassera den.
 workbook.Save(outputDir + "outputDigitallySignedByCells.xlsx");
 workbook.Dispose();
 ```

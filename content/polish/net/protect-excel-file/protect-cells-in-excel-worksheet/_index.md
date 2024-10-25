@@ -9,14 +9,14 @@ url: /pl/net/protect-excel-file/protect-cells-in-excel-worksheet/
 ---
 ## Wstęp
 
-dzisiejszym cyfrowym świecie bezpieczne zarządzanie danymi w arkuszach kalkulacyjnych jest ważniejsze niż kiedykolwiek. Niezależnie od tego, czy przetwarzasz poufne informacje, czy po prostu chcesz mieć pewność, że formatowanie pozostanie nienaruszone, ochrona określonych komórek w arkuszu kalkulacyjnym programu Excel może być przełomem. Na szczęście, jeśli używasz .NET, Aspose.Cells sprawia, że ten proces staje się prosty. W tym artykule przedstawimy prosty przewodnik krok po kroku, jak chronić komórki w arkuszu kalkulacyjnym programu Excel, zapewniając, że Twoje dane pozostaną bezpieczne i zdrowe.
+W dzisiejszym cyfrowym świecie bezpieczne zarządzanie danymi w arkuszach kalkulacyjnych jest ważniejsze niż kiedykolwiek. Niezależnie od tego, czy przetwarzasz poufne informacje, czy po prostu chcesz mieć pewność, że formatowanie pozostanie nienaruszone, ochrona określonych komórek w arkuszu kalkulacyjnym programu Excel może być przełomem. Na szczęście, jeśli używasz .NET, Aspose.Cells sprawia, że ten proces staje się prosty. W tym artykule przedstawimy prosty przewodnik krok po kroku, jak chronić komórki w arkuszu kalkulacyjnym programu Excel, zapewniając, że Twoje dane pozostaną bezpieczne i zdrowe.
 
 ## Wymagania wstępne
 
 Zanim zagłębisz się w szczegóły ochrony komórek, musisz spełnić kilka warunków wstępnych:
 
 1. Visual Studio: Upewnij się, że masz zainstalowane na swoim komputerze Visual Studio. To podstawowe IDE do tworzenia oprogramowania .NET.
-2.  Biblioteka Aspose.Cells: Musisz mieć bibliotekę Aspose.Cells dostępną w swoim projekcie. Możesz ją łatwo zainstalować za pomocą NuGet Package Manager lub pobrać bezpośrednio z[Strona Aspose.Cells](https://releases.aspose.com/cells/net/).
+2. Biblioteka Aspose.Cells: Musisz mieć bibliotekę Aspose.Cells dostępną w swoim projekcie. Możesz ją łatwo zainstalować za pomocą NuGet Package Manager lub pobrać bezpośrednio z[Strona Aspose.Cells](https://releases.aspose.com/cells/net/).
 3. Podstawowa wiedza o języku C#: Niewielka znajomość programowania w języku C# pomoże Ci płynnie uczyć się języka.
 
 ## Importowanie pakietów
@@ -52,7 +52,7 @@ Najpierw musisz ustalić, gdzie zapisać plik Excel. Oto, jak możesz to określ
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // Podaj tutaj ścieżkę do swojego katalogu
-//Utwórz katalog, jeśli jeszcze go nie ma.
+// Utwórz katalog, jeśli jeszcze go nie ma.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -88,7 +88,7 @@ Aby mieć pewność, że zablokowane zostaną tylko określone komórki, należy
 for (int i = 0; i <= 255; i++)
 {
     Style style = sheet.Cells.Columns[(byte)i].Style;
-    style.IsLocked = false; // Odblokuj kolumnę
+    style.IsLocked = false; //Odblokuj kolumnę
     StyleFlag styleflag = new StyleFlag();
     styleflag.Locked = true; // Zaznacz, że chcemy zablokować ten styl
     sheet.Cells.Columns[(byte)i].ApplyStyle(style, styleflag);
@@ -139,7 +139,7 @@ Ten wiersz zapisuje twój skoroszyt jako plik Excela. Upewnij się, że określi
 
 ## Wniosek
 
-masz to! Nauczyłeś się skutecznie chronić określone komórki w arkuszu kalkulacyjnym Excela za pomocą Aspose.Cells dla .NET. Za pomocą zaledwie kilku linijek kodu możesz zabezpieczyć swoje dane, upewniając się, że tylko właściwe osoby mają dostęp do edycji krytycznych informacji. Pamiętaj, że ochrona komórek to tylko jedna z wielu funkcji oferowanych przez Aspose.Cells, które pomagają wydajnie zarządzać plikami Excela i manipulować nimi.
+I masz to! Nauczyłeś się skutecznie chronić określone komórki w arkuszu kalkulacyjnym Excela za pomocą Aspose.Cells dla .NET. Za pomocą zaledwie kilku linijek kodu możesz zabezpieczyć swoje dane, upewniając się, że tylko właściwe osoby mają dostęp do edycji krytycznych informacji. Pamiętaj, że ochrona komórek to tylko jedna z wielu funkcji oferowanych przez Aspose.Cells, które pomagają wydajnie zarządzać plikami Excela i manipulować nimi.
 
 ## Najczęściej zadawane pytania
 

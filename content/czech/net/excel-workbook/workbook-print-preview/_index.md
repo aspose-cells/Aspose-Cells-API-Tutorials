@@ -2,7 +2,7 @@
 title: Náhled tisku sešitu
 linktitle: Náhled tisku sešitu
 second_title: Aspose.Cells for .NET API Reference
-description: Naučte se vytvářet náhledy tisku pro soubory Excel pomocí Aspose.Cells for .NET. Naučte se kroky kódování v podrobném a snadno srozumitelném tutoriálu.
+description: Naučte se vytvářet náhledy tisku pro soubory Excel pomocí Aspose.Cells for .NET. Naučte se kroky kódování v podrobném, snadno srozumitelném tutoriálu.
 type: docs
 weight: 170
 url: /cs/net/excel-workbook/workbook-print-preview/
@@ -16,7 +16,7 @@ Pokud jde o správu a manipulaci se soubory aplikace Excel, Aspose.Cells for .NE
 Než se pustíme do kódování, ujistěte se, že máte vše, co potřebujete, abyste mohli začít. Zde je kontrolní seznam předpokladů:
 
 1. Visual Studio: Budete potřebovat IDE a Visual Studio je skvělá volba pro projekty .NET.
-2.  Aspose.Cells for .NET: Můžete si stáhnout knihovnu nebo, chcete-li, můžete začít s bezplatnou zkušební verzí, abyste si namočili nohy. Jen zamiřte[tento odkaz](https://releases.aspose.com).
+2. Aspose.Cells for .NET: Můžete si stáhnout knihovnu nebo, chcete-li, můžete začít s bezplatnou zkušební verzí, abyste si namočili nohy. Jen zamiřte[tento odkaz](https://releases.aspose.com).
 3. Základní znalost C#: Pochopení základů C# vám pomůže pokračovat bez jakýchkoliv zádrhelů.
 4. .NET Framework: Ujistěte se, že máte na svém počítači nainstalovanou kompatibilní verzi rozhraní .NET Framework.
 5.  Ukázkový soubor Excel: Pro tento výukový program budete potřebovat soubor Excel, se kterým budete pracovat. Můžete použít ukázkový soubor s názvem`Book1.xlsx`.
@@ -33,7 +33,7 @@ Začněte otevřením stávajícího projektu nebo vytvořte nový, pokud začí
 
 ### Přidejte odkaz do Aspose.Cells
 
-V Průzkumníku řešení klikněte pravým tlačítkem na svůj projekt a vyberte Spravovat balíčky NuGet. Vyhledejte Aspose.Cells a nainstalujte jej. To je zásadní, protože tato knihovna má všechny magické schopnosti, které potřebujeme k provádění našich náhledů tisku.
+Průzkumníku řešení klikněte pravým tlačítkem na svůj projekt a vyberte Spravovat balíčky NuGet. Vyhledejte Aspose.Cells a nainstalujte jej. To je zásadní, protože tato knihovna má všechny magické schopnosti, které potřebujeme k provádění našich náhledů tisku.
 
 ### Zahrňte nezbytné jmenné prostory
 
@@ -58,7 +58,7 @@ Abychom mohli začít naše dobrodružství s náhledy tisku, musíme definovat,
 string sourceDir = "Your Document Directory";
 ```
 
-Tento kód nám pomáhá najít cestu kam`Book1.xlsx` sídlí, takže budoucí reference mnohem jednodušší.
+ Tento kód nám pomáhá najít cestu kam`Book1.xlsx` sídlí, takže budoucí reference mnohem jednodušší.
 
 ## Krok 2: Načtěte sešit
 
@@ -88,7 +88,7 @@ Nyní je čas na skutečné kouzlo! Vygenerujeme náhled tisku sešitu. Zde je p
 WorkbookPrintingPreview preview = new WorkbookPrintingPreview(workbook, imgOptions);
 ```
 
-tuto chvíli vytváříme náhled celého našeho sešitu. Berte to jako prohlížení stránek vaší knihy, než začnete číst; získáte přehled o tom, co je na skladě.
+V tuto chvíli vytváříme náhled celého našeho sešitu. Berte to jako prohlížení stránek vaší knihy, než začnete číst; získáte přehled o tom, co je na skladě.
 
 ## Krok 5: Vyhodnoťte počet stránek
 
@@ -123,7 +123,7 @@ Tento řádek je jako závěrečný dotek po dokončení projektu – vždy uži
 
 ## Závěr
 
-A tady to máte! Úspěšně jste nastavili náhled tisku pro sešit Excel pomocí Aspose.Cells for .NET. Pokryli jsme vše od importu balíčků až po vyhodnocení počtu stránek pro celý sešit i jednotlivé listy. Je úžasné, jak snadné může být představit si, jak bude váš sešit vypadat po vytištění, že? Využitím Aspose.Cells získáte výkonné nástroje, které máte k dispozici. Ať už jste zkušený vývojář nebo někdo, kdo právě začíná, tato knihovna nabízí flexibilitu a funkce, které potřebujete, abyste posunuli správu souborů Excel na další úroveň.
+tady to máte! Úspěšně jste nastavili náhled tisku pro sešit Excel pomocí Aspose.Cells for .NET. Pokryli jsme vše od importu balíčků až po vyhodnocení počtu stránek pro celý sešit i jednotlivé listy. Je úžasné, jak snadné může být představit si, jak bude váš sešit vypadat po vytištění, že? Využitím Aspose.Cells získáte výkonné nástroje, které máte k dispozici. Ať už jste zkušený vývojář nebo někdo, kdo právě začíná, tato knihovna nabízí flexibilitu a funkce, které potřebujete, abyste posunuli správu souborů Excel na další úroveň.
 
 ## FAQ
 
@@ -131,7 +131,7 @@ A tady to máte! Úspěšně jste nastavili náhled tisku pro sešit Excel pomoc
 Aspose.Cells je výkonná knihovna pro práci s formáty souborů Excel a poskytuje funkce, jako je manipulace s daty, formátování a vykreslování náhledů tisku.
 
 ### Musím si koupit Aspose.Cells, abych je mohl používat?
- Můžete začít s bezplatnou zkušební verzí dostupnou na[tento odkaz](https://releases.aspose.com)před rozhodnutím o koupi licence.
+ Můžete začít s bezplatnou zkušební verzí dostupnou na[tento odkaz](https://releases.aspose.com) před rozhodnutím o koupi licence.
 
 ### Mohu použít Aspose.Cells v jakékoli aplikaci .NET?
 Ano, Aspose.Cells je navržen tak, aby fungoval s jakoukoli aplikací .NET, včetně ASP.NET, WinForms a dalších.

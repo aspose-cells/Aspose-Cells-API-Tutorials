@@ -29,7 +29,7 @@ Avant de commencer à coder, il est conseillé d'organiser vos fichiers. Créons
 ```csharp
 // Le chemin vers le répertoire des documents.
 string dataDir = "Your Document Directory";
-//Créez un répertoire s'il n'est pas déjà présent.
+// Créez un répertoire s'il n'est pas déjà présent.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -41,7 +41,7 @@ Il est maintenant temps de créer un classeur Excel dans lequel nous ajouterons 
 // Instancier un nouveau classeur.
 Workbook excelbook = new Workbook();
 ```
- Le`Workbook`La classe représente un fichier Excel. En l'instanciant, nous créons un nouveau classeur prêt à être modifié.
+ Le`Workbook` La classe représente un fichier Excel. En l'instanciant, nous créons un nouveau classeur prêt à être modifié.
 ## Étape 3 : Accéder à la première feuille de travail
 Nous ajouterons notre Spinner à la première feuille de calcul du classeur.
 ```csharp
@@ -99,7 +99,7 @@ spinner.IncrementalChange = 2;
 // Réglez-le sur un ombrage 3D.
 spinner.Shadow = true;
 ```
-Ici, nous définissons les propriétés du Spinner. Nous le lions à la cellule A2, ce qui lui permet de contrôler la valeur qui y est affichée. Les valeurs minimales et maximales définissent la plage dans laquelle le Spinner peut fonctionner, tandis que la modification incrémentielle définit la variation de la valeur à chaque clic. L'ajout d'un ombrage 3D lui donne un aspect soigné.
+Ici, nous définissons les propriétés du Spinner. Nous le lions à la cellule A2, ce qui lui permet de contrôler la valeur qui y est affichée. Les valeurs minimales et maximales définissent la plage dans laquelle le Spinner peut fonctionner, tandis que la modification incrémentielle définit la mesure dans laquelle la valeur change à chaque clic. L'ajout d'un ombrage 3D lui donne un aspect soigné.
 ## Étape 8 : Enregistrez le fichier Excel
 Enfin, sauvegardons notre classeur Excel avec le Spinner inclus.
 ```csharp
@@ -117,6 +117,6 @@ Oui, vous pouvez modifier sa taille, sa position et même son ombrage 3D pour un
 ### Ai-je besoin d'une licence pour utiliser Aspose.Cells ?
  Aspose.Cells propose un essai gratuit, mais une licence payante est requise pour une utilisation en production. Découvrez le[options d'achat](https://purchase.aspose.com/buy).
 ### Comment puis-je obtenir de l'aide avec Aspose.Cells ?
- Pour obtenir de l'aide, visitez le[Forum Aspose](https://forum.aspose.com/c/cells/9)où vous pouvez poser des questions et trouver des réponses.
+ Pour obtenir de l'aide, visitez le[Forum Aspose](https://forum.aspose.com/c/cells/9) où vous pouvez poser des questions et trouver des réponses.
 ### Est-il possible d'ajouter plusieurs Spinners à la même feuille de calcul ?
 Absolument ! Vous pouvez ajouter autant de Spinners que nécessaire en suivant les mêmes étapes pour chaque commande.

@@ -18,7 +18,7 @@ Excel 电子表格就像一个相互关联的数据网络，更改一个单元�
 1. C# 基础知识：由于我们将用 C# 编写代码，因此对该语言有基本的了解将有助于您快速掌握概念。
 2.  Aspose.Cells for .NET 库：您需要下载 Aspose.Cells for .NET 库。您可以从[下载链接](https://releases.aspose.com/cells/net/).
 3. Visual Studio：这是编写和测试 .NET 代码的绝佳环境。请确保已在计算机上正确安装它。 
-4. Excel 文件：您需要一个包含一些公式的 Excel 文件。我们将使用名为`Book1.xlsx`，但请随意使用您自己的！
+4.  Excel 文件：您需要一个包含一些公式的 Excel 文件。我们将使用名为`Book1.xlsx`，但请随意使用您自己的！
 
 准备好系紧安全带开始追踪这些细胞了吗？让我们开始吧！
 

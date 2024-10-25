@@ -2,7 +2,7 @@
 title: Přístup k tvarům a štítkům aplikace Excel
 linktitle: Přístup k tvarům a štítkům aplikace Excel
 second_title: Aspose.Cells .NET Excel Processing API
-description: Odemkněte sílu Aspose.Cells pro .NET pomocí našich komplexních výukových programů, které pokrývají popisky objektů OLE a identifikaci tvaru Smart Art v aplikaci Excel.
+description: Odemkněte sílu Aspose.Cells pro .NET pomocí našich komplexních výukových programů, které pokrývají štítky objektů OLE a identifikaci tvaru Smart Art v aplikaci Excel.
 type: docs
 weight: 23
 url: /cs/net/excel-shape-label-access/

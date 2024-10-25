@@ -53,7 +53,7 @@ Successivamente, dovrai creare un flusso di file per aprire il tuo file Excel. Q
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
 
-Qui specifichiamo che vogliamo aprire`book1.xls` situato nella directory specificata. Il`FileMode.Open` parametro indica che stiamo aprendo un file esistente. Assicurati sempre che il nome del file corrisponda a quello che hai.
+ Qui specifichiamo che vogliamo aprire`book1.xls` situato nella directory specificata. Il`FileMode.Open` parametro indica che stiamo aprendo un file esistente. Assicurati sempre che il nome del file corrisponda a quello che hai.
 
 ## Passaggio 3: creare un'istanza di un oggetto cartella di lavoro
 
@@ -83,7 +83,7 @@ Ora, il momento che stavamo aspettando! È qui che nascondiamo effettivamente le
 worksheet.IsRowColumnHeadersVisible = false;
 ```
 
- Collocamento`IsRowColumnHeadersVisible` A`false`nasconderà efficacemente le intestazioni sia nelle righe che nelle colonne, creando un aspetto più pulito per la presentazione dei dati.
+ Collocamento`IsRowColumnHeadersVisible` A`false` nasconderà efficacemente le intestazioni sia nelle righe che nelle colonne, creando un aspetto più pulito per la presentazione dei dati.
 
 ## Passaggio 6: salvare il file Excel modificato
 
@@ -107,7 +107,7 @@ fstream.Close();
 
 ## Conclusione
 
-Ed ecco fatto! Hai imparato come nascondere le intestazioni di riga e colonna di un foglio di lavoro Excel usando Aspose.Cells per .NET attraverso una serie di semplici passaggi. Ciò può migliorare la leggibilità e la presentazione complessiva dei tuoi fogli di calcolo, consentendo al tuo pubblico di concentrarsi esclusivamente sui dati che desideri evidenziare.
+Ed ecco fatto! Hai imparato come nascondere le intestazioni di riga e colonna di un foglio di lavoro Excel usando Aspose.Cells per .NET attraverso una serie di semplici passaggi. Questo può migliorare la leggibilità e la presentazione complessiva dei tuoi fogli di calcolo, consentendo al tuo pubblico di concentrarsi esclusivamente sui dati che desideri evidenziare.
 
 ## Domande frequenti
 
@@ -124,4 +124,4 @@ Aspose.Cells è una potente libreria .NET per la gestione dei fogli di calcolo E
  Sì, Aspose fornisce supporto tramite i suoi forum, ai quali puoi accedere[Qui](https://forum.aspose.com/c/cells/9).
 
 ### Come posso ottenere una licenza temporanea per Aspose.Cells?  
- È possibile richiedere una licenza temporanea per scopi di valutazione presso[questo collegamento](https://purchase.aspose.com/temporary-license/).
+ È possibile richiedere una licenza temporanea a fini di valutazione presso[questo collegamento](https://purchase.aspose.com/temporary-license/).

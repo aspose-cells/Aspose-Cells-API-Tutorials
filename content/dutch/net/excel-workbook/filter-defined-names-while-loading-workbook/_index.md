@@ -106,4 +106,4 @@ Het filteren van gedefinieerde namen kan leiden tot kapotte formules als ze naar
  Ja, u kunt een gratis proefversie van Aspose.Cells krijgen om de mogelijkheden ervan te testen voordat u tot aankoop overgaat. Bekijk het[hier](https://releases.aspose.com/).
 
 ### Waar kan ik meer voorbeelden en documentatie vinden?
-Uitgebreide documentatie en meer voorbeelden vindt u op de Aspose.Cells-referentiepagina[hier](https://reference.aspose.com/cells/net/).
+ Uitgebreide documentatie en meer voorbeelden vindt u op de Aspose.Cells-referentiepagina[hier](https://reference.aspose.com/cells/net/).

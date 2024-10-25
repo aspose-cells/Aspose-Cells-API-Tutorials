@@ -10,7 +10,7 @@ url: /cs/java/basic-excel-functions/excel-text-functions-demystified/
 
 # Textové funkce aplikace Excel byly zbaveny mýtů pomocí Aspose.Cells for Java
 
-V tomto tutoriálu se ponoříme do světa manipulace s textem v Excelu pomocí Aspose.Cells for Java API. Ať už jste ostřílený uživatel Excelu nebo teprve začínáte, porozumění textovým funkcím může výrazně zlepšit vaše tabulkové dovednosti. Prozkoumáme různé textové funkce a poskytneme praktické příklady pro ilustraci jejich použití.
+V tomto tutoriálu se ponoříme do světa manipulace s textem v Excelu pomocí Aspose.Cells for Java API. Ať už jste zkušený uživatel Excelu nebo teprve začínáte, porozumění textovým funkcím může výrazně zlepšit vaše tabulkové dovednosti. Prozkoumáme různé textové funkce a poskytneme praktické příklady pro ilustraci jejich použití.
 
 ## Začínáme
 

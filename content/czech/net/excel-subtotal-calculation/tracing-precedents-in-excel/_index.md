@@ -71,10 +71,10 @@ foreach (ReferredArea area in ret)
     Console.WriteLine(CellsHelper.CellIndexToName(area.EndRow, area.EndColumn));
 }
 ```
- V tomto úryvku používáme jednoduchý`foreach` smyčka pro tisk názvů listů a odkazů na buňky vkládání do B4. The`CellsHelper.CellIndexToName`Funkce transformuje řádkové a sloupcové indexy na čitelné odkazy na buňky jako "A1", "B2" atd. 
+ V tomto úryvku používáme jednoduchý`foreach` smyčka pro tisk názvů listů a odkazů na buňky vkládání do B4. The`CellsHelper.CellIndexToName` Funkce transformuje řádkové a sloupcové indexy na čitelné odkazy na buňky jako "A1", "B2" atd. 
 
 ## Závěr
-A tady to máte! Úspěšně jste vysledovali precedenty v Excelu pomocí Aspose.Cells pro .NET. Pochopení závislostí buněk může zlepšit vaše dovednosti v oblasti správy tabulek a poskytnout jasnost při rozhodování na základě dat. Je to něco jako řešení hádanky, poskládání dohromady, odkud vaše data pocházejí. Nyní pokračujte, vyzkoušejte to na svých vlastních datech a uvolněte sílu Aspose.Cells!
+tady to máte! Úspěšně jste vysledovali precedenty v Excelu pomocí Aspose.Cells pro .NET. Pochopení závislostí buněk může zlepšit vaše dovednosti v oblasti správy tabulek a poskytnout jasnost při rozhodování na základě dat. Je to něco jako řešení hádanky, poskládání dohromady, odkud vaše data pocházejí. Nyní pokračujte, vyzkoušejte to na svých vlastních datech a uvolněte sílu Aspose.Cells!
 ## FAQ
 ### Co je Aspose.Cells?  
 Aspose.Cells je knihovna .NET používaná pro vytváření, manipulaci a konverzi tabulek aplikace Excel bez aplikace Microsoft Excel.
@@ -85,4 +85,4 @@ Aspose.Cells je knihovna .NET používaná pro vytváření, manipulaci a konver
 ### Je Aspose.Cells kompatibilní s .NET Core?  
 Ano, Aspose.Cells podporuje .NET Core, takže jej můžete používat napříč různými .NET frameworky.
 ### Kde najdu podporu pro Aspose.Cells?  
-Pomoc můžete získat na[Aspose fórum podpory](https://forum.aspose.com/c/cells/9).
+ Pomoc můžete získat na[Aspose fórum podpory](https://forum.aspose.com/c/cells/9).

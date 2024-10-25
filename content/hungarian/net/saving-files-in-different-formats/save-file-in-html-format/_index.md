@@ -40,7 +40,7 @@ Mielőtt létrehoznánk a munkafüzetünket, meg kell határoznunk, hogy hova fo
 // A dokumentumok könyvtárának elérési útja.
 string dataDir = "Your Document Directory"; // Adott esetben használjon abszolút vagy relatív útvonalat.
 ```
-Miért fontos ez? Ennek megfelelő beállítása biztosítja, hogy a fájl mentésekor pontosan tudja, hol találja azt. Ez az Ön térképe az értékes adatok tárolására!
+Miért fontos ez? A helyes beállítás biztosítja, hogy a fájl mentésekor pontosan tudja, hol találja azt. Ez az Ön térképe az értékes adatok tárolására!
 ## 2. lépés: Hozzon létre egy munkafüzet-objektumot
 Most hozzunk létre egy új munkafüzet objektumot. Ez lesz az Excel fájlunk, ahol manipulálhatjuk az adatokat.
 ```csharp

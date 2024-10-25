@@ -87,7 +87,7 @@ Sayfa bir parola ile korunuyorsa, boş dizenin olduğu yere parolayı girin. Par
 ```csharp
 workbook.Save(dataDir + "output.out.xls");
 ```
- Burada değişiklikleri aynı dizinde "output.out.xls" adlı yeni bir dosyaya kaydediyorsunuz. Uygun gördüğünüz şekilde yeniden adlandırabilirsiniz, ancak`.xls`Excel dosyası olarak tanınmasını sağlamak için uzantısı eklendi.
+ Burada değişiklikleri aynı dizinde "output.out.xls" adlı yeni bir dosyaya kaydediyorsunuz. Uygun gördüğünüz şekilde yeniden adlandırabilirsiniz, ancak`.xls` Excel dosyası olarak tanınmasını sağlamak için uzantısı eklendi.
 
 ## Adım 6: Hata Yönetimi
 
@@ -116,7 +116,7 @@ Ve işte karşınızda! Aspose.Cells for .NET kullanarak korunan bir Excel sayfa
 Evet! Çalışma kitabındaki her bir sayfayı dolaşabilir ve benzer şekilde korumalarını kaldırabilirsiniz.
 
 ### Aspose.Cells'i kullanmak ücretsiz mi?
-Aspose.Cells ücretsiz deneme sunuyor ancak üretim kullanımı için lisans gerekiyor. Kontrol edin[satın almak](https://purchase.aspose.com/buy) Daha fazla bilgi için sayfamızı ziyaret edin.
+ Aspose.Cells ücretsiz deneme sunuyor ancak üretim kullanımı için lisans gerekiyor. Kontrol edin[satın almak](https://purchase.aspose.com/buy) Daha fazla bilgi için sayfamızı ziyaret edin.
 
 ### Şifreyi bilmiyorsam ne olur?
 Eğer bir sayfa şifreliyse ve siz şifrenizi bilmiyorsanız, etik politikalara aykırı olduğu için kütüphane kısıtlamaları aşmanıza yardımcı olmayacaktır.

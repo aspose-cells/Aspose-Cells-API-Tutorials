@@ -15,9 +15,9 @@ Hiç kendinizi Excel çalışma kitapları arasında manuel olarak çalışma sa
 
 Koda dalmadan önce, başlamak için doğru araçlara sahip olduğunuzdan emin olalım:
 
-- Aspose.Cells for .NET: İndirebilirsiniz[Burada](https://releases.aspose.com/cells/net/).
+-  Aspose.Cells for .NET: İndirebilirsiniz[Burada](https://releases.aspose.com/cells/net/).
 - Visual Studio veya .NET framework'ü destekleyen herhangi bir IDE.
--  Geçerli bir lisans veya[geçici lisans](https://purchase.aspose.com/temporary-license/) Aspose.Cells'in tüm işlevlerini test etmek istiyorsanız.
+-  Geçerli bir lisans veya[geçici lisans](https://purchase.aspose.com/temporary-license/)Aspose.Cells'in tüm işlevlerini test etmek istiyorsanız.
 - C# ve .NET framework hakkında temel bilgi.
 
  Ayrıca şunları da kontrol edebilirsiniz:[Aspose.Cells belgeleri](https://reference.aspose.com/cells/net/) Daha detaylı bilgi için.
@@ -44,7 +44,7 @@ Artık her şeyi ayarladığınıza göre, Excel çalışma kitapları arasında
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Bu satırda şunu değiştirin:`"YOUR DOCUMENT DIRECTORY"` Excel dosyalarınızın gerçek yolu ile. Çalışma kitaplarınızın yükleneceği ve kaydedileceği yer burasıdır.
+ Bu satırda şunu değiştirin:`"YOUR DOCUMENT DIRECTORY"`Excel dosyalarınızın gerçek yolu ile. Çalışma kitaplarınızın yükleneceği ve kaydedileceği yer burasıdır.
 
 ## Adım 2: İlk Çalışma Kitabını Açın
 
@@ -64,7 +64,7 @@ Workbook excelWorkbook0 = new Workbook(InputPath);
 Artık ilk çalışma kitabınız açık olduğuna göre, kopyalanan çalışma sayfasını yapıştıracağınız başka bir boş çalışma kitabı oluşturmanın zamanı geldi. Bunu, verileri aktaracağınız yeni bir boş not defteri açmak olarak düşünün.
 
 ```csharp
-//Başka bir Çalışma Kitabı oluşturun.
+// Başka bir Çalışma Kitabı oluşturun.
 Workbook excelWorkbook1 = new Workbook();
 ```
 

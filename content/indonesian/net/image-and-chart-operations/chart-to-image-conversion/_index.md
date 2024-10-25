@@ -36,7 +36,7 @@ Kita mulai dengan menentukan jalur untuk direktori dokumen kita dan memastikan b
 ```csharp
 // Tentukan direktori untuk menyimpan gambar
 string dataDir = "Your Document Directory";
-// Periksa apakah direktori tersebut ada
+//Periksa apakah direktori tersebut ada
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -93,7 +93,7 @@ chart.NSeries.Add("A1:B3", true);
 ## Langkah 7: Ubah Bagan menjadi Gambar
 Momen kebenaran: kita akan mengubah bagan ini menjadi berkas gambar!
 
- Di sini, kami menggunakan`ToImage`metode untuk mengonversi grafik ke format gambar pilihan Anda. Dalam kasus ini, kami mengonversinya ke format EMF (Enhanced Metafile).
+ Di sini, kami menggunakan`ToImage` metode untuk mengonversi grafik ke format gambar pilihan Anda. Dalam kasus ini, kami mengonversinya ke format EMF (Enhanced Metafile).
 ```csharp
 // Ubah grafik menjadi gambar dan simpan ke direktori
 chart.ToImage(dataDir + "Chart.emf", ImageFormat.Emf);

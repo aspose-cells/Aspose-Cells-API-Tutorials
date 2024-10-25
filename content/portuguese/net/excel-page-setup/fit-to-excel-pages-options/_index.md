@@ -74,7 +74,7 @@ worksheet.PageSetup.FitToPagesWide = 1;
 ```
 
 - `FitToPagesTall` determina quantas páginas sua planilha ocupará verticalmente.
-- `FitToPagesWide` define a configuração horizontal da página. Definir ambos para`1`significa que seu conteúdo caberá perfeitamente em uma página, transformando seu documento em uma obra-prima simplificada.
+- `FitToPagesWide` define a configuração horizontal da página. Definir ambos para`1` significa que seu conteúdo caberá perfeitamente em uma página, transformando seu documento em uma obra-prima simplificada.
 
 ## Etapa 3: Salve sua pasta de trabalho
 
@@ -97,7 +97,7 @@ E aí está! Você aprendeu como utilizar as Opções de Ajustar às Páginas do
 Aspose.Cells é uma biblioteca .NET robusta para gerenciar arquivos do Excel programaticamente, permitindo que desenvolvedores criem e manipulem planilhas com facilidade.
 
 ### Posso testar o Aspose.Cells gratuitamente?
-Sim! Você pode se inscrever para um teste gratuito[aqui](https://releases.aspose.com/).
+ Sim! Você pode se inscrever para um teste gratuito[aqui](https://releases.aspose.com/).
 
 ### Como faço para comprar o Aspose.Cells?
  Você pode fazer sua compra[aqui](https://purchase.aspose.com/buy).

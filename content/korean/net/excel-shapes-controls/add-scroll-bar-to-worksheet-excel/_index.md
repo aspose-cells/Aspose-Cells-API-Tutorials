@@ -31,7 +31,7 @@ using System.Drawing;
 ```csharp
 // 문서 디렉토리의 경로입니다.
 string dataDir = "Your Document Directory";
-//디렉토리가 없으면 디렉토리를 생성합니다.
+// 디렉토리가 없으면 디렉토리를 생성합니다.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -132,7 +132,7 @@ excelbook.Save(dataDir + "book1.out.xls");
 ### Aspose.Cells란 무엇인가요?
 Aspose.Cells는 개발자가 Excel 파일을 프로그래밍 방식으로 만들고, 조작하고, 변환할 수 있는 강력한 .NET 라이브러리입니다.
 ### Aspose.Cells를 무료로 사용할 수 있나요?
-예, Aspose.Cells에서는 무료 평가판을 제공합니다.[여기](https://releases.aspose.com/).
+ 예, Aspose.Cells에서는 무료 평가판을 제공합니다.[여기](https://releases.aspose.com/).
 ### Excel 시트에 다른 컨트롤을 추가하려면 어떻게 해야 하나요?
 스크롤 바에 대해 표시된 것과 유사한 방법을 사용할 수 있습니다. 더 많은 컨트롤에 대해서는 설명서를 확인하세요!
 ### Aspose.Cells에는 어떤 프로그래밍 언어를 사용할 수 있나요?

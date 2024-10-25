@@ -142,7 +142,7 @@ workbook.Save(outputDir + "outputHowToCreatePyramidChart.xlsx");
 
 ## Krok 9: Potvrzení konzole
 
-V neposlední řadě přidáme zpětnou vazbu v konzoli, abychom potvrdili, že vše proběhlo hladce.
+neposlední řadě přidáme zpětnou vazbu v konzoli, abychom potvrdili, že vše proběhlo hladce.
 
 ```csharp
 Console.WriteLine("HowToCreatePyramidChart executed successfully.");

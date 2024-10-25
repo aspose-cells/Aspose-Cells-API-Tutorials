@@ -36,7 +36,7 @@ Először meghatározzuk a dokumentumkönyvtárunk elérési útját, és megbiz
 ```csharp
 // Határozza meg a könyvtárat a képek mentéséhez
 string dataDir = "Your Document Directory";
-// Ellenőrizze, hogy létezik-e a könyvtár
+//Ellenőrizze, hogy létezik-e a könyvtár
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -93,14 +93,14 @@ chart.NSeries.Add("A1:B3", true);
 ## 7. lépés: Alakítsa át a diagramot képpé
 Az igazság pillanata: ezt a diagramot képfájllá alakítjuk!
 
- Itt használjuk a`ToImage`módszerrel konvertálhatja a diagramot egy választott képformátumra. Ebben az esetben EMF (Enhanced Metafile) formátumba konvertáljuk.
+ Itt használjuk a`ToImage` módszerrel konvertálhatja a diagramot egy választott képformátumra. Ebben az esetben EMF (Enhanced Metafile) formátumba konvertáljuk.
 ```csharp
 // Alakítsa át a diagramot képpé, és mentse el a könyvtárba
 chart.ToImage(dataDir + "Chart.emf", ImageFormat.Emf);
 ```
 És ennyi! Diagramja most képként lett elmentve. Ideje megveregetni magad.
 ## 8. lépés: Jelenítse meg a sikeres üzenetet
-A dolgok lezárásaként jelenítsünk meg egy üzenetet, amely megerősíti a kép létrehozását.
+dolgok lezárásaként jelenítsünk meg egy üzenetet, amely megerősíti a kép létrehozását.
 ```csharp
 // Jelenítsen meg egy üzenetet a siker jelzésére
 System.Console.WriteLine("Image generated successfully.");

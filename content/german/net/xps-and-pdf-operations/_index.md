@@ -13,7 +13,7 @@ Wenn es um die Arbeit mit Excel-Dateien geht, ist Aspose.Cells für .NET ein Kra
 
 ## Konvertieren von Excel-Dateien in XPS
 
-Lassen Sie uns zunächst über die Konvertierung von Excel-Dateien in das XPS-Format sprechen. Sie fragen sich vielleicht: „Warum sollte ich in XPS konvertieren?“ Nun, XPS (XML Paper Specification) ist ein festes Dokumentformat, das das Erscheinungsbild Ihrer Excel-Tabellen beibehält und sie einfacher freizugeben macht, ohne dass die Formatierung verloren geht. Möchten Sie es ausprobieren? Sehen Sie sich unser Tutorial an unter[Konvertieren in XPS in .NET](./converting-to-xps/). Es führt Sie Schritt für Schritt durch den Prozess, ausgestattet mit praktischen Codebeispielen. Sie werden feststellen, dass es nicht nur unkompliziert, sondern auch unglaublich effektiv ist, um die Dokumenttreue aufrechtzuerhalten.
+ Lassen Sie uns zunächst über die Konvertierung von Excel-Dateien in das XPS-Format sprechen. Sie fragen sich vielleicht: „Warum sollte ich in XPS konvertieren?“ Nun, XPS (XML Paper Specification) ist ein festes Dokumentformat, das das Erscheinungsbild Ihrer Excel-Tabellen beibehält und sie einfacher freizugeben macht, ohne dass die Formatierung verloren geht. Möchten Sie es ausprobieren? Sehen Sie sich unser Tutorial an unter[Konvertieren in XPS in .NET](./converting-to-xps/)Es führt Sie Schritt für Schritt durch den Prozess, ausgestattet mit praktischen Codebeispielen. Sie werden feststellen, dass es nicht nur unkompliziert, sondern auch unglaublich effektiv ist, um die Dokumenttreue aufrechtzuerhalten.
 
 ## Festlegen der PDF-Erstellungszeit für eine bessere Verwaltung
 

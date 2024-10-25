@@ -8,7 +8,7 @@ weight: 15
 url: /zh-hant/java/excel-pivot-tables/calculated-fields-in-pivot-tables/
 ---
 ## 介紹
-資料透視表是在 Excel 中分析和匯總資料的強大工具。但是，有時您需要對資料透視表中的資料執行自訂計算。在本教程中，我們將向您展示如何使用 Aspose.Cells for Java 在資料透視表中建立計算字段，讓您將資料分析提升到新的水平。
+資料透視表是在 Excel 中分析和匯總資料的強大工具。但是，有時您需要對資料透視表中的資料執行自訂計算。在本教程中，我們將向您展示如何使用 Aspose.Cells for Java 在資料透視表中建立計算字段，從而使您的資料分析更上一層樓。
 
 ### 先決條件
 在我們開始之前，請確保您具備以下條件：

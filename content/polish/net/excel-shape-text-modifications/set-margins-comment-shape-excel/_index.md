@@ -2,7 +2,7 @@
 title: Ustawianie marginesów dla komentarza lub kształtu w programie Excel
 linktitle: Ustawianie marginesów dla komentarza lub kształtu w programie Excel
 second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Dowiedz się, jak ustawić marginesy dla komentarzy i kształtów w programie Excel przy użyciu Aspose.Cells dla .NET. Dołączony przewodnik krok po kroku dla łatwej implementacji.
+description: Dowiedz się, jak ustawić marginesy dla komentarzy i kształtów w programie Excel przy użyciu Aspose.Cells dla .NET. Dołączony przewodnik krok po kroku ułatwiający implementację.
 type: docs
 weight: 18
 url: /pl/net/excel-shape-text-modifications/set-margins-comment-shape-excel/
@@ -16,7 +16,7 @@ Powinieneś mieć podstawową wiedzę na temat C# i .NET. Ten samouczek jest prz
 ### Konfiguracja środowiska
 1. Visual Studio: Upewnij się, że masz zainstalowany Visual Studio. To środowisko programistyczne, które upraszcza kodowanie.
 2.  Biblioteka Aspose.Cells: Potrzebujesz biblioteki Aspose.Cells. Jeśli jeszcze jej nie masz, możesz ją pobrać[Tutaj](https://releases.aspose.com/cells/net/).
-3.  Przykładowy plik Excela: Utwórz lub pobierz przykładowy plik Excela. W tym samouczku będziemy używać pliku o nazwie`sampleSetMarginsOfCommentOrShapeInsideTheWorksheet.xlsx`.
+3. Przykładowy plik Excela: Utwórz lub pobierz przykładowy plik Excela. W tym samouczku będziemy używać pliku o nazwie`sampleSetMarginsOfCommentOrShapeInsideTheWorksheet.xlsx`.
 ## Importowanie pakietów
 Pierwszy krok w naszej podróży obejmuje importowanie niezbędnych pakietów. Musisz uwzględnić przestrzenie nazw Aspose.Cells w swoim projekcie. Umożliwi ci to dostęp do wszystkich funkcjonalności, jakie oferuje Aspose.Cells.
 ### Otwórz swój projekt
@@ -72,7 +72,7 @@ Każdy kształt może już mieć ustawienie wyrównania, które musimy zmodyfiko
 Aspose.Cells.Drawing.Texts.ShapeTextAlignment txtAlign = sh.TextBody.TextAlignment;
 txtAlign.IsAutoMargin = false;
 ```
- Poprzez ustawienie`IsAutoMargin` na fałsz, teraz mamy kontrolę nad marżami.
+ Poprzez ustawienie`IsAutoMargin`na fałsz, teraz mamy kontrolę nad marżami.
 ## Krok 6: Ustaw marginesy
 To jest kluczowy krok, w którym definiujemy marginesy. Możesz dostosować te wartości do swoich potrzeb.
 ```csharp
@@ -105,4 +105,4 @@ Aspose.Cells to biblioteka .NET przeznaczona do tworzenia, edytowania i konwerto
 ### Czy bibliotekę można łatwo zintegrować z istniejącymi projektami?
 Oczywiście! Aspose.Cells łatwo integruje się z projektami .NET, a jego API jest proste.
 ### Gdzie mogę znaleźć pomoc dotyczącą Aspose.Cells?
-Możesz uzyskać wsparcie za pośrednictwem Aspose[forum](https://forum.aspose.com/c/cells/9).
+ Możesz uzyskać wsparcie za pośrednictwem Aspose[forum](https://forum.aspose.com/c/cells/9).

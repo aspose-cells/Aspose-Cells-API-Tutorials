@@ -70,9 +70,9 @@ Komunikaty o błędach można formatować za pomocą znaczników HTML, dodawać 
 
 ### Czy mogę używać ikon i obrazów w komunikatach o błędach?
 
-Tak, w komunikatach o błędach można osadzać obrazy i ikony, aby uczynić je bardziej atrakcyjnymi wizualnie i informacyjnymi.
+Tak, możesz osadzać obrazy i ikony w komunikatach o błędach, aby uczynić je bardziej atrakcyjnymi wizualnie i informacyjnymi.
 
-### Czy możliwe jest jednoczesne sprawdzenie poprawności danych w wielu komórkach?
+### Czy możliwe jest jednoczesne sprawdzenie danych w wielu komórkach?
 
 Tak, Aspose.Cells for Java pozwala na walidację danych w wielu komórkach i definiowanie komunikatów o błędach dla każdej reguły walidacji.
 
@@ -88,9 +88,9 @@ Komunikaty o błędach można formatować za pomocą znaczników HTML, dodawać 
 
 ### Czy mogę używać ikon i obrazów w komunikatach o błędach?
 
-Tak, w komunikatach o błędach można osadzać obrazy i ikony, aby uczynić je bardziej atrakcyjnymi wizualnie i informacyjnymi.
+Tak, możesz osadzać obrazy i ikony w komunikatach o błędach, aby uczynić je bardziej atrakcyjnymi wizualnie i informacyjnymi.
 
-### Czy możliwe jest jednoczesne sprawdzenie poprawności danych w wielu komórkach?
+### Czy możliwe jest jednoczesne sprawdzenie danych w wielu komórkach?
 
 Tak, Aspose.Cells for Java pozwala na walidację danych w wielu komórkach i definiowanie komunikatów o błędach dla każdej reguły walidacji.
 

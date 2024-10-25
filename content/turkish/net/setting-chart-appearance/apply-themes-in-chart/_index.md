@@ -59,7 +59,7 @@ string sourceDir = "Your Document Directory";
 Workbook workbook = new Workbook(sourceDir + "sampleApplyingThemesInChart.xlsx");
 ```
 
- Emin olun ki`sampleApplyingThemesInChart.xlsx`kaynak dizininizde mevcuttur.
+ Emin olun ki`sampleApplyingThemesInChart.xlsx` kaynak dizininizde mevcuttur.
 
 ## Adım 3: Çalışma Sayfasına Erişim
 
@@ -96,7 +96,7 @@ Bu kod satırı, grafikteki ilk serinin düz dolgu kullanacak şekilde ayarlanma
 
 ## Adım 6: Rengi Yapılandırın
 
- Artık dizimiz hazır olduğuna göre, rengini değiştirmemiz gerekiyor. Bu, bir dizi oluşturmayı içerir.`CellsColor`nesne ve bir tema rengi belirterek. Bu örnek için bir vurgu stili seçeceğiz.
+ Artık dizimiz hazır olduğuna göre, rengini değiştirmemiz gerekiyor. Bu, bir dizi oluşturmayı içerir.`CellsColor` nesne ve bir tema rengi belirterek. Bu örnek için bir vurgu stili seçeceğiz.
 
 ```csharp
 // SolidFill'in CellsColor'ını alın

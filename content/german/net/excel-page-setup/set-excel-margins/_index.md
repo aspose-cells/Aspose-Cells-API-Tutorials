@@ -82,9 +82,9 @@ Jetzt können Sie dieses Arbeitsblatt ändern!
 
 ## Schritt 4: Zugriff auf das Seiteneinrichtungsobjekt
 
- Um die Ränder zu ändern, müssen wir mit dem`PageSetup`Objekt. Dieses Objekt stellt Eigenschaften bereit, die das Layout der Seite, einschließlich der Ränder, steuern.
+ Um die Ränder zu ändern, müssen wir mit dem`PageSetup` Objekt. Dieses Objekt stellt Eigenschaften bereit, die das Layout der Seite, einschließlich der Ränder, steuern.
 
- Holen Sie sich die`PageSetup` Eigenschaft aus dem Arbeitsblatt:
+Holen Sie sich die`PageSetup` Eigenschaft aus dem Arbeitsblatt:
 
 ```csharp
 PageSetup pageSetup = worksheet.PageSetup;

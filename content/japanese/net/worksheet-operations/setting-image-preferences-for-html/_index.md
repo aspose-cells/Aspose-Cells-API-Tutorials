@@ -15,7 +15,7 @@ Excel スプレッドシートから視覚的に魅力的な Web ページを作
 コードに進む前に、次のものを用意してください。
 
 1. Visual Studio がインストールされている: .NET アプリケーションを実行してテストするには、Visual Studio などの開発環境が必要です。
-2. Aspose.Cells for .NET: Aspose.Cellsをダウンロードしてインストールします。最新バージョンは以下から入手できます。[Aspose ウェブサイト](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells for .NET: Aspose.Cellsをダウンロードしてインストールします。最新バージョンは以下から入手できます。[Aspose ウェブサイト](https://releases.aspose.com/cells/net/).
 3. C# の基礎知識: C# プログラミングに精通していると、例をよりよく理解するのに役立ちます。
 4. サンプル Excel ファイル: 作業に使用する「Book1.xlsx」という名前の Excel ファイルを準備します。コードで参照する指定のフォルダーに配置します。
 

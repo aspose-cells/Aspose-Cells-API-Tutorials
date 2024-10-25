@@ -77,7 +77,7 @@ Ahora, comencemos a configurar el encabezado. Comenzaremos con la sección izqui
 pageSetup.SetHeader(0, "&A");
 ```
 
-Explicación: El`SetHeader` El método nos permite definir el contenido del encabezado. Aquí,`&A` denota el nombre de la hoja de trabajo, que aparecerá en el lado izquierdo del encabezado.
+ Explicación: El`SetHeader` El método nos permite definir el contenido del encabezado. Aquí,`&A` denota el nombre de la hoja de trabajo, que aparecerá en el lado izquierdo del encabezado.
 
 ## Paso 4: Personaliza el encabezado central
 
@@ -87,7 +87,7 @@ A continuación, personalizaremos el encabezado central para mostrar la fecha y 
 pageSetup.SetHeader(1, "&\"Times New Roman,Bold\"&D-&T");
 ```
 
-Explicación: El`&D` y`&T` Los códigos se reemplazarán automáticamente con la fecha y hora actuales, respectivamente. También especificamos que la fuente para este encabezado debe ser "Times New Roman" y negrita.
+ Explicación: El`&D` y`&T` Los códigos se reemplazarán automáticamente con la fecha y hora actuales, respectivamente. También especificamos que la fuente para este encabezado debe ser "Times New Roman" y negrita.
 
 ## Paso 5: Establezca el encabezado correcto
 
@@ -117,7 +117,7 @@ A continuación, configuramos el pie de página central para mostrar el número 
 pageSetup.SetFooter(1, "&P");
 ```
 
-Explicación: El`&P` El código inserta automáticamente el número de página en el centro del pie de página: una forma práctica de realizar un seguimiento de las páginas.
+ Explicación: El`&P` El código inserta automáticamente el número de página en el centro del pie de página: una forma práctica de realizar un seguimiento de las páginas.
 
 ## Paso 8: Configuración del pie de página derecho
 

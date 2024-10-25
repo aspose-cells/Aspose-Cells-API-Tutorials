@@ -58,7 +58,7 @@ HttpResponse Respose = null; //レスポンスオブジェクトを初期化す�
 ```csharp
 if (Respose != null)
 {
-    //PDF形式で保存
+    // PDF形式で保存
     workbook.Save(Respose, dataDir + "output.pdf", ContentDisposition.Attachment, new PdfSaveOptions());
     Respose.End();
 }

@@ -120,3 +120,35 @@ Aspose.Cells for .NET هي مكتبة قوية توفر مجموعة من الم
 اكتشف دروس Aspose.Cells الشاملة لـ .NET حول عمليات XPS وPDF لتبسيط تحويلات الملفات الخاصة بك.
 ### [عمليات الربط والتكوين](./link-and-configuration-operations/)
 اكتشف دروسًا تعليمية شاملة حول Aspose.Cells لـ .NET، بما في ذلك تكوين الارتباط والمزيد. مثالي للمطورين الذين يتطلعون إلى تحسين تطبيقات Excel الخاصة بهم.
+### [العمل مع الخطوط في جداول البيانات](./working-with-fonts-in-spreadsheets/)
+اكتشف الدروس الأساسية حول استخدام Aspose.Cells لـ .NET، مع التركيز على إدارة الخطوط في جداول البيانات وضمان عرض المستندات بشكل مثالي.
+### [تنسيق وتصميم Excel](./excel-formatting-and-styling/)
+اكتشف دروس Aspose.Cells الأساسية لـ .NET حول تنسيق وتصميم Excel. ارتقِ بجداول البيانات لديك باستخدام أدلة عملية خطوة بخطوة.
+### [العمل مع الخطوط في Excel](./working-with-fonts-in-excel/)
+اكتشف قوة Aspose.Cells لـ .NET من خلال البرامج التعليمية حول العمل مع الخطوط في Excel، من تعيين الألوان إلى تطبيق الأنماط للحصول على جداول بيانات مذهلة.
+### [السمات والتنسيقات في Excel](./excel-themes-and-formatting/)
+استكشف دروس Aspose.Cells for .NET حول تخصيص سمات Excel وتعيين ألوان السمة واستخدام ألوان السمة برمجيًا. عزز مهاراتك في Excel.
+### [تنسيق الصفوف والأعمدة في Excel](./formatting-rows-and-columns-in-excel/)
+اكتشف قوة Aspose.Cells لـ .NET من خلال دروسنا التفصيلية حول تنسيق الصفوف والأعمدة في Excel، وهي مثالية للمطورين.
+### [تنسيقات الأرقام والعرض في Excel](./number-and-display-formats-in-excel/)
+استكشف دروس Aspose.Cells لـ .NET حول تنسيقات الأرقام والعرض، بما في ذلك خيارات التنسيق المضمنة والمخصصة لأتمتة Excel.
+### [إعدادات الألوان والخلفية في Excel](./excel-colors-and-background-settings/)
+اكتشف دروس Aspose.Cells الأساسية لـ .NET حول ألوان Excel وإعدادات الخلفية لتحسين عرض البيانات وتعزيز الجاذبية البصرية.
+### [إعدادات الألوان والتخصيص في Excel](./color-settings-and-customization-in-excel/)
+إتقان إعدادات الألوان والتخصيص في Excel باستخدام Aspose.Cells for .NET. تعرف على كيفية حساب اللون المختار في Excel برمجيًا في هذا البرنامج التعليمي خطوة بخطوة.
+### [التنسيق الشرطي في Excel](./excel-conditional-formatting/)
+تعرف على كيفية تطبيق التنسيق الشرطي وقت التشغيل في Excel باستخدام Aspose.Cells for .NET. يساعد هذا الدليل التفصيلي المطورين على أتمتة تنسيق Excel.
+### [تنسيق الأحرف والخلايا في Excel](./excel-character-and-cell-formatting/)
+تعرف على تنسيق الأحرف وتعيين الخلايا النشطة برمجيًا في Excel باستخدام Aspose.Cells for .NET. استكشف الأدلة الشاملة لتبسيط مهام التطوير الخاصة بك.
+### [حدود Excel وخيارات التنسيق](./excel-borders-and-formatting-options/)
+اكتشف دروس Aspose.Cells لـ .NET التي تعلمك كيفية تعيين حدود وخطوط وأنماط Excel بطريقة برمجية، مما يوفر الوقت ويعزز جداول البيانات الخاصة بك.
+### [طرق وخيارات التنسيق في Excel](./excel-formatting-methods-and-options/)
+اكتشف طرق التنسيق وخيارات Excel في دروس Aspose.Cells لـ .NET، والتي تغطي تقنيات فعالة مثل طريقة النسخ لتحسين الإنتاجية.
+### [تحميل ملفات Excel وحفظها باستخدام الخيارات](./loading-and-saving-excel-files-with-options/)
+استكشف دروس Aspose.Cells لـ .NET، التي تتضمن أدلة حول تحميل ملفات Excel وحفظها مع خيارات مثل الملاءمة التلقائية وتعطيل التعليقات.
+### [تحويل ملفات Excel إلى تنسيقات أخرى](./converting-excel-files-to-other-formats/)
+استكشف قائمة تعليمية شاملة لـ Aspose.Cells for .NET لتحويل ملفات Excel إلى تنسيقات مثل JSON وDOCX وHTML وPDF وMarkdown والمزيد.
+### [حفظ ملفات Excel وتصديرها باستخدام الخيارات](./saving-and-exporting-excel-files-with-options/)
+استكشف دروس Aspose.Cells التفصيلية لـ .NET حول حفظ ملفات Excel وتصديرها. تعرّف على كيفية التعامل مع التعليقات وخصائص المستندات والتحذيرات وتقليص البيانات.
+### [إنشاء جداول محورية وتكوينها](./creating-and-configuring-pivot-tables/)
+اكتشف دروسًا تعليمية شاملة حول Aspose.Cells لـ .NET. أتقن جداول البيانات المحورية في Excel برمجيًا باستخدام أدلة تفصيلية خطوة بخطوة لكل وظيفة.

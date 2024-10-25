@@ -98,7 +98,7 @@ Absolut! Du kan anpassa datumvalideringslogiken för att passa dina specifika kr
 
 ### Finns det några licenskrav för att använda Aspose.Cells för Java?
 
-Ja, Aspose.Cells för Java kan kräva en licens för vissa användningsscenarier. Kolla Asposes webbplats för licensinformation.
+Ja, Aspose.Cells för Java kan kräva en licens för vissa användningsscenarier. Kontrollera Asposes webbplats för licensinformation.
 
 ### Stöder Aspose.Cells for Java andra Excel-operationer?
 

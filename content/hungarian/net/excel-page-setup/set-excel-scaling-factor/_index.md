@@ -29,7 +29,7 @@ Mielőtt bármilyen kódot írna, hozzá kell adnia egy hivatkozást az Aspose.C
 ### Töltse le a DLL-t
 
 1.  Menj a[Aspose Letöltések oldal](https://releases.aspose.com/cells/net/) és töltse le a megfelelő csomagot a .NET verziójához.
-2. Bontsa ki a letöltött fájlt, és keresse meg a`Aspose.Cells.dll` fájlt.
+2.  Bontsa ki a letöltött fájlt, és keresse meg a`Aspose.Cells.dll` fájlt.
 
 ### Referencia hozzáadása a Visual Studióban
 

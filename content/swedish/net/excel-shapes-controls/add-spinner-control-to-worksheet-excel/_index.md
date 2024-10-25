@@ -8,7 +8,7 @@ weight: 23
 url: /sv/net/excel-shapes-controls/add-spinner-control-to-worksheet-excel/
 ---
 ## Introduktion
-Om du dyker in i en värld av Excel-automatisering med .NET, har du förmodligen stött på behovet av mer interaktiva kontroller i dina kalkylblad. En sådan kontroll är Spinnern, som låter användare enkelt öka eller minska ett värde. I den här handledningen kommer vi att utforska hur man lägger till en Spinner-kontroll i ett Excel-kalkylblad med Aspose.Cells för .NET. Vi delar upp det i lättsmälta steg så att du kan följa med sömlöst. 
+Om du dyker in i en värld av Excel-automatisering med .NET, har du förmodligen stött på behovet av mer interaktiva kontroller i dina kalkylblad. En sådan kontroll är Spinnern, som tillåter användare att enkelt öka eller minska ett värde. I den här handledningen kommer vi att utforska hur man lägger till en Spinner-kontroll i ett Excel-kalkylblad med Aspose.Cells för .NET. Vi delar upp det i lättsmälta steg så att du kan följa med sömlöst. 
 ## Förutsättningar
 Innan vi hoppar in i koden, låt oss se till att du har allt inställt för en smidig upplevelse:
 1.  Aspose.Cells för .NET: Se till att du har Aspose.Cells-biblioteket. Om du inte har installerat det ännu kan du hämta den senaste versionen från[nedladdningslänk](https://releases.aspose.com/cells/net/).
@@ -29,7 +29,7 @@ Innan du börjar koda är det bra att organisera dina filer. Låt oss skapa en k
 ```csharp
 // Sökvägen till dokumentkatalogen.
 string dataDir = "Your Document Directory";
-//Skapa katalog om den inte redan finns.
+// Skapa katalog om den inte redan finns.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -41,7 +41,7 @@ Nu är det dags att skapa en Excel-arbetsbok där vi lägger till vår Spinner-k
 // Instantiera en ny arbetsbok.
 Workbook excelbook = new Workbook();
 ```
- De`Workbook`klass representerar en Excel-fil. Genom att instansiera den skapar vi en ny arbetsbok redo för ändringar.
+ De`Workbook` klass representerar en Excel-fil. Genom att instansiera den skapar vi en ny arbetsbok redo för ändringar.
 ## Steg 3: Öppna det första arbetsbladet
 Vi lägger till vår Spinner i det första kalkylbladet i arbetsboken.
 ```csharp
@@ -117,6 +117,6 @@ Ja, du kan ändra dess storlek, position och till och med dess 3D-skuggning för
 ### Behöver jag en licens för att använda Aspose.Cells?
  Aspose.Cells erbjuder en gratis provperiod, men en betald licens krävs för produktionsanvändning. Kolla in[köpa optioner](https://purchase.aspose.com/buy).
 ### Hur kan jag få hjälp med Aspose.Cells?
- För support, besök[Aspose forum](https://forum.aspose.com/c/cells/9)där du kan ställa frågor och hitta svar.
+ För support, besök[Aspose forum](https://forum.aspose.com/c/cells/9) där du kan ställa frågor och hitta svar.
 ### Är det möjligt att lägga till flera spinnare i samma arbetsblad?
 Absolut! Du kan lägga till så många spinnare som behövs genom att följa samma steg för varje kontroll.

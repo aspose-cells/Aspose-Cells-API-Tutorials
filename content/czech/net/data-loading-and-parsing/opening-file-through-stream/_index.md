@@ -13,7 +13,7 @@ Vítejte v tomto jednoduchém, ale podrobném průvodci, jak otevřít soubory a
 Než se po hlavě vrhnete do kódování, je třeba splnit několik základních požadavků:
 1. Nainstalované Visual Studio: Ujistěte se, že máte v počítači nastavené Visual Studio. Jde o integrované vývojové prostředí (IDE) pro vývoj .NET.
 2.  Aspose.Cells for .NET Library: Knihovnu si budete muset buď stáhnout, nebo ji mít ve svém projektu. Snadno to najdete na[Aspose webové stránky](https://releases.aspose.com/cells/net/).
-3. Základní znalosti C#: I když nemusíte být průvodcem kódování, základní porozumění syntaxi a konceptům C# bude trvat dlouhou cestu.
+3. Základní znalosti C#: I když nemusíte být kódovacím průvodcem, základní porozumění syntaxi a konceptům C# bude trvat dlouhou cestu.
 4. Excel File Ready: Chcete-li vidět kouzlo v akci, ujistěte se, že máte soubor aplikace Excel, řekněte „Book2.xls“, se kterým můžete experimentovat.
 5. .NET Framework: Mít nainstalovaný a nastavený správný .NET framework je zásadní pro hladký provoz.
 S těmito základy můžete začít. Pojďme se vrhnout na import potřebných balíčků!

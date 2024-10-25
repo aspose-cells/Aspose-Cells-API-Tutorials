@@ -25,7 +25,7 @@ url: /zh/net/excel-page-setup/determine-if-paper-size-of-worksheet-is-automatic/
 您应该安装一个像 Visual Studio 这样的 IDE。这将指导您有效地处理和测试代码。
 
 ### 示例 Excel 文件
-您需要示例文件（`samplePageSetupIsAutomaticPaperSize-False.xlsx`和`samplePageSetupIsAutomaticPaperSize-True.xlsx`) 用于测试目的。确保这些文件位于您的源目录中。
+您需要示例文件（`samplePageSetupIsAutomaticPaperSize-False.xlsx`和`samplePageSetupIsAutomaticPaperSize-True.xlsx`用于测试目的。确保这些文件位于您的源目录中。
 
 ## 导入包
 

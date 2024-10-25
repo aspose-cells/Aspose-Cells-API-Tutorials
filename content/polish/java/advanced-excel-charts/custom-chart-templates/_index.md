@@ -94,7 +94,7 @@ workbook.save("CustomChartTemplate.xlsx");
 
 ## Wniosek
 
-Tworzenie niestandardowych szablonów wykresów przy użyciu Aspose.Cells dla Java umożliwia projektowanie atrakcyjnych wizualnie i informacyjnych wykresów dostosowanych do Twoich konkretnych wymagań. Niezależnie od tego, czy tworzysz raporty finansowe, pulpity nawigacyjne czy prezentacje oparte na danych, Aspose.Cells zapewnia elastyczność i kontrolę, których potrzebujesz.
+Tworzenie niestandardowych szablonów wykresów przy użyciu Aspose.Cells for Java umożliwia projektowanie atrakcyjnych wizualnie i informacyjnych wykresów dostosowanych do Twoich konkretnych wymagań. Niezależnie od tego, czy tworzysz raporty finansowe, pulpity nawigacyjne czy prezentacje oparte na danych, Aspose.Cells zapewnia elastyczność i kontrolę, których potrzebujesz.
 
 ## Najczęściej zadawane pytania
 

@@ -42,7 +42,7 @@ bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
--  dataDir：此变量保存文档目录的路径。替换`"Your Document Directory"`与您想要保存 Excel 文件的实际路径。
+- dataDir：此变量保存文档目录的路径。替换`"Your Document Directory"`与您想要保存 Excel 文件的实际路径。
 - Directory.Exists：检查目录是否已经存在。
 - Directory.CreateDirectory：如果目录不存在，则创建它。
 ## 步骤 2：实例化工作簿

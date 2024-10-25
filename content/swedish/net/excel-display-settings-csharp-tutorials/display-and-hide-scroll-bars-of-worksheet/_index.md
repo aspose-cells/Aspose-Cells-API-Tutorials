@@ -56,7 +56,7 @@ Här skapar du en filström för att läsa Excel-filen.
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
   
- De`FileStream` klass gör att du kan läsa från och skriva till filer. I det här fallet öppnar vi vår Excel-fil i läsläge.
+ De`FileStream`klass gör att du kan läsa från och skriva till filer. I det här fallet öppnar vi vår Excel-fil i läsläge.
 
 ## Steg 3: Instantiera ett arbetsboksobjekt
 
@@ -67,7 +67,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 Workbook workbook = new Workbook(fstream);
 ```
   
- Detta`Workbook`objektet innehåller nu alla data och inställningar i din Excel-fil, vilket möjliggör manipulering senare i processen.
+ Detta`Workbook` objektet innehåller nu alla data och inställningar i din Excel-fil, vilket möjliggör manipulering senare i processen.
 
 ## Steg 4: Dölj den vertikala rullningslisten
 
@@ -132,4 +132,4 @@ Du kan arbeta med olika Excel-format, inklusive .xls, .xlsx, .xlsm, .xlsb, etc.
  Kontrollera[Aspose.Cells dokumentation](https://reference.aspose.com/cells/net/) för ytterligare exempel och handledning.
 
 ### Vad händer om jag stöter på problem när jag använder Aspose.Cells?  
- Du kan söka hjälp eller rapportera problem i Asposes supportforum[här](https://forum.aspose.com/c/cells/9).
+Du kan söka hjälp eller rapportera problem i Asposes supportforum[här](https://forum.aspose.com/c/cells/9).

@@ -12,7 +12,7 @@ O Excel é uma ferramenta poderosa usada por milhões de pessoas no mundo todo p
 ## Pré-requisitos
 Antes de mergulhar nos detalhes da cópia de intervalos nomeados, você precisará garantir que tem algumas coisas alinhadas. Aqui está o que você precisa:
 1. Ambiente .NET: Certifique-se de ter um ambiente de desenvolvimento .NET configurado. Você pode usar o Visual Studio ou qualquer outro IDE de sua escolha.
-2.  Biblioteca Aspose.Cells para .NET: Esta é a estrela do show! Baixe a biblioteca do[Site Aspose](https://releases.aspose.com/cells/net/) se você ainda não o fez.
+2. Biblioteca Aspose.Cells para .NET: Esta é a estrela do show! Baixe a biblioteca do[Site Aspose](https://releases.aspose.com/cells/net/) se você ainda não o fez.
 3. Conhecimento básico de C#: familiaridade com programação em C# será benéfica, pois codificaremos nessa linguagem ao longo do tutorial.
 4. Excel instalado: embora você não precise necessariamente do Excel para escrever código, tê-lo instalado é útil para testar seus arquivos de saída.
 5.  Acesso à documentação: Adicione aos favoritos[Documentação do Aspose.Cells](https://reference.aspose.com/cells/net/) para referência. É um ótimo recurso para entender métodos e recursos.
@@ -27,7 +27,7 @@ using System.IO;
 using Aspose.Cells;
 using System.Drawing;
 ```
-Este código lhe dará acesso a aulas essenciais como`Workbook`, `Worksheet` e`Range`, que você precisará para manipular arquivos do Excel.
+ Este código lhe dará acesso a aulas essenciais como`Workbook`, `Worksheet` , e`Range`, que você precisará para manipular arquivos do Excel.
 
 Agora que classificamos nossos pré-requisitos, vamos dividir o processo em etapas fáceis de seguir.
 ## Etapa 1: configure seu diretório de saída
@@ -99,9 +99,9 @@ Você pode fornecer feedback ao console para confirmar se tudo ocorreu bem.
 ```csharp
 Console.WriteLine("CopyNamedRanges executed successfully.");
 ```
-execução desta linha indicará que seu código foi executado sem problemas.
+A execução desta linha indicará que seu código foi executado sem problemas.
 ## Conclusão
-E aí está! Você copiou com sucesso intervalos nomeados no Excel usando o Aspose.Cells para .NET, passo a passo. Este processo permite que você automatize suas tarefas do Excel e gerencie seus dados de forma mais eficaz. Com um pouco de prática, você será capaz de executar tarefas de automação mais sofisticadas do Excel em pouco tempo.
+aí está! Você copiou com sucesso intervalos nomeados no Excel usando o Aspose.Cells para .NET, passo a passo. Este processo permite que você automatize suas tarefas do Excel e gerencie seus dados de forma mais eficaz. Com um pouco de prática, você será capaz de executar tarefas de automação mais sofisticadas do Excel em pouco tempo.
 ## Perguntas frequentes
 ### O que é Aspose.Cells para .NET?
 Aspose.Cells é uma biblioteca .NET que permite aos desenvolvedores criar, manipular e converter arquivos do Excel programaticamente.

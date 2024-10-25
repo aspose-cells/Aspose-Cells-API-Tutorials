@@ -27,7 +27,7 @@ url: /ar/net/excel-shape-label-access/access-ole-object-label-excel/
 - حدد "إدارة حزم NuGet".
 - ابحث عن "Aspose.Cells" وقم بتثبيت المكتبة.
 ### استيراد مساحات الأسماء
-في الجزء العلوي من ملف البرنامج الخاص بك (على سبيل المثال،`Program.cs`), تحتاج إلى استيراد المساحات الأساسية الضرورية:
+ في الجزء العلوي من ملف البرنامج الخاص بك (على سبيل المثال،`Program.cs`), تحتاج إلى استيراد المساحات الأساسية الضرورية:
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -118,7 +118,7 @@ Console.WriteLine("AccessAndModifyLabelOfOleObject executed successfully.");
 ### هل يمكن لـ Aspose.Cells العمل مع تنسيقات ملفات أخرى؟  
 نعم! يدعم Aspose.Cells مجموعة متنوعة من التنسيقات، بما في ذلك XLS وXLSX وCSV والمزيد.
 ### هل هناك نسخة تجريبية مجانية متاحة لـ Aspose.Cells؟  
- نعم يمكنك تجربته[هنا](https://releases.aspose.com/).
+نعم يمكنك تجربته[هنا](https://releases.aspose.com/).
 ### هل يمكنني الوصول إلى كائنات OLE متعددة في ورقة عمل؟  
  بالتأكيد! يمكنك تكرار ذلك`ws.OleObjects` للوصول إلى كافة كائنات OLE المضمنة في ورقة العمل.
 ### كيف يمكنني شراء ترخيص لـ Aspose.Cells؟  

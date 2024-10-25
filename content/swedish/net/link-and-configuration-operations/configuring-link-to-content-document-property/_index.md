@@ -9,17 +9,17 @@ url: /sv/net/link-and-configuration-operations/configuring-link-to-content-docum
 ---
 ## Introduktion
 
-den här handledningen går vi igenom hur du konfigurerar en länk till innehåll för anpassade dokumentegenskaper i Excel-filer med Aspose.Cells för .NET. Jag kommer att bryta ner varje del av processen för att göra det så enkelt som möjligt för dig att följa, så spänn upp dig och låt oss dyka in i världen av att länka anpassade dokumentegenskaper med innehåll i dina Excel-arbetsböcker.
+I den här handledningen går vi igenom hur du konfigurerar en länk till innehåll för anpassade dokumentegenskaper i Excel-filer med Aspose.Cells för .NET. Jag kommer att bryta ner varje del av processen för att göra det så enkelt som möjligt för dig att följa, så spänn upp dig och låt oss dyka in i världen av att länka anpassade dokumentegenskaper med innehåll i dina Excel-arbetsböcker.
 
 ## Förutsättningar
 
 Innan vi börjar, se till att du har allt du behöver på plats. Utan följande förutsättningar kommer processen inte att fungera smidigt:
 
-1.  Aspose.Cells for .NET Library: Du måste ha Aspose.Cells for .NET installerat på din maskin. Om du inte har laddat ner den än, hämta den från[Aspose.Cells för .NET nedladdningssida](https://releases.aspose.com/cells/net/).
+1. Aspose.Cells for .NET Library: Du måste ha Aspose.Cells for .NET installerat på din maskin. Om du inte har laddat ner den än, hämta den från[Aspose.Cells för .NET nedladdningssida](https://releases.aspose.com/cells/net/).
 2. Utvecklingsmiljö: Använd valfri .NET-stödd utvecklingsmiljö som Visual Studio.
 3. Grundläggande kunskaper om C#: Den här guiden förutsätter att du har viss bekantskap med C# och .NET.
 4. Excel-fil: Ha en befintlig Excel-fil att arbeta med. I vårt exempel kommer vi att använda en fil som heter "sample-document-properties.xlsx".
-5. Tillfällig licens: Om du inte har en fullständig licens kan du få en[tillfällig licens här](https://purchase.aspose.com/temporary-license/) för att undvika begränsningar av filmanipulationer.
+5.  Tillfällig licens: Om du inte har en fullständig licens kan du få en[tillfällig licens här](https://purchase.aspose.com/temporary-license/) för att undvika begränsningar av filmanipulationer.
 
 ## Importera paket
 
@@ -49,7 +49,7 @@ string dataDir = "Your Document Directory";
 Workbook workbook = new Workbook(dataDir + "sample-document-properties.xlsx");
 ```
 
--  Workbook workbook = new Workbook(): Den här raden skapar en ny`Workbook`object, som är huvudklassen som används för att arbeta med Excel-filer i Aspose.Cells.
+-  Workbook workbook = new Workbook(): Den här raden skapar en ny`Workbook` object, som är huvudklassen som används för att arbeta med Excel-filer i Aspose.Cells.
 - dataDir: Det är här du anger sökvägen till din Excel-fil. Ersätt "Din dokumentkatalog" med den faktiska sökvägen på din maskin.
 
 Se det här steget som att öppna en dörr – du kommer åt filen så att du kan göra de ändringar du behöver!
@@ -59,7 +59,7 @@ Se det här steget som att öppna en dörr – du kommer åt filen så att du ka
 När filen har laddats måste vi komma åt dess anpassade dokumentegenskaper. Dessa egenskaper lagras i en samling som du kan hämta och manipulera.
 
 ```csharp
-// Hämta en lista över alla anpassade dokumentegenskaper för Excel-filen
+//Hämta en lista över alla anpassade dokumentegenskaper för Excel-filen
 Aspose.Cells.Properties.CustomDocumentPropertyCollection customProperties = workbook.Worksheets.CustomDocumentProperties;
 ```
 
@@ -93,7 +93,7 @@ bool islinkedtocontent = customProperty1.IsLinkedToContent;
 ```
 
 - anpassade egenskaper["Ägare"]: Vi hämtar egenskapen "Ägare" efter namn för att inspektera dess detaljer.
-- IsLinkedToContent: Detta booleska värde returnerar`true` om egendomen har länkats till innehållet.
+-  IsLinkedToContent: Detta booleska värde returnerar`true` om egendomen har länkats till innehållet.
 
 I det här skedet är det som att kontrollera om etiketten (egenskapen) är ordentligt fäst vid innehållet. Du ser till att din kod gjorde vad du förväntade dig.
 
@@ -126,7 +126,7 @@ Se det här steget som att du trycker på "Spara"-knappen för att låsa in alla
 ## Slutsats
 
 Och där har du det! Att länka en anpassad dokumentegenskap till innehåll i din Excel-fil med Aspose.Cells för .NET är en enkel men otroligt användbar funktion. Oavsett om du automatiserar rapportgenerering eller hanterar stora uppsättningar Excel-filer, hjälper denna funktion dig att dynamiskt koppla metadata till det faktiska innehållet i dina dokument.
-I den här handledningen gick vi igenom hela processen steg för steg, från att ladda arbetsboken till att spara den uppdaterade filen. Genom att följa dessa steg har du nu verktygen för att automatisera denna process i dina egna projekt.
+den här handledningen gick vi igenom hela processen steg för steg, från att ladda arbetsboken till att spara den uppdaterade filen. Genom att följa dessa steg har du nu verktygen för att automatisera denna process i dina egna projekt.
 
 ## FAQ's
 

@@ -38,7 +38,7 @@ Questi pacchetti sono essenziali per lavorare con la cartella di lavoro, il fogl
 
 ### Crea un nuovo progetto C#
 
-Inizia creando una nuova applicazione console C# in Visual Studio. Dai al tuo progetto un nome appropriato, come "ExcelDataImport".
+Inizia creando una nuova applicazione console C# in Visual Studio. Dai al tuo progetto un nome adatto, come "ExcelDataImport".
 
 ### Aggiungi il pacchetto NuGet Aspose.Cells
 

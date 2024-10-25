@@ -13,11 +13,11 @@ Bạn có mệt mỏi vì phải vật lộn với việc quản lý tệp Excel
 
 ## Truy cập thông tin tiện ích mở rộng web
 
-Hiểu cách truy cập thông tin tiện ích mở rộng web có thể mở ra những khả năng mới trong bảng tính Excel của bạn. Nó cho phép tăng cường khả năng tương tác trong các tệp của bạn. Hướng dẫn của chúng tôi về[Truy cập thông tin mở rộng web](./access-web-extension-information/) cung cấp hướng dẫn từng bước để giúp quá trình này trở nên dễ dàng, ngay cả với những người mới sử dụng Aspose.Cells.
+ Hiểu cách truy cập thông tin tiện ích mở rộng web có thể mở ra những khả năng mới trong bảng tính Excel của bạn. Nó cho phép tăng cường khả năng tương tác trong các tệp của bạn. Hướng dẫn của chúng tôi về[Truy cập thông tin mở rộng web](./access-web-extension-information/) cung cấp hướng dẫn từng bước để giúp quá trình này trở nên dễ dàng, ngay cả với những người mới sử dụng Aspose.Cells.
 
 ## Thêm chữ ký số
 
- Bạn đã bao giờ cần thêm chữ ký số vào tệp Excel đã ký chưa? Khám phá cách thực hiện việc này với hướng dẫn của chúng tôi trên[Thêm chữ ký số vào tệp Excel đã ký](./add-digital-signature-to-an-already-signed-excel-file/). Chữ ký số đảm bảo tính xác thực và toàn vẹn, giúp tệp Excel của bạn không chỉ hoạt động được mà còn an toàn.
+Bạn đã bao giờ cần thêm chữ ký số vào tệp Excel đã ký chưa? Khám phá cách thực hiện việc này với hướng dẫn của chúng tôi trên[Thêm chữ ký số vào tệp Excel đã ký](./add-digital-signature-to-an-already-signed-excel-file/)Chữ ký số đảm bảo tính xác thực và toàn vẹn, giúp tệp Excel của bạn không chỉ hoạt động được mà còn an toàn.
 
 ## Tạo sổ làm việc được chia sẻ
 
@@ -25,7 +25,7 @@ Hiểu cách truy cập thông tin tiện ích mở rộng web có thể mở ra
 
 ## Trích xuất các tập tin nhúng
 
-Bạn có biết Excel có thể chứa các tệp nhúng không? Nếu bạn từng cần đào sâu hơn vào bảng tính của mình để trích xuất tệp MOL nhúng, bạn sẽ muốn xem hướng dẫn của chúng tôi về[Trích xuất tệp MOL nhúng](./extract-embedded-mol-file/). Hướng dẫn này sẽ hướng dẫn bạn quy trình đơn giản để khôi phục các tệp này, đảm bảo bạn không bao giờ mất dữ liệu quan trọng ẩn trong sổ làm việc Excel của mình.
+ Bạn có biết Excel có thể chứa các tệp nhúng không? Nếu bạn từng cần đào sâu hơn vào bảng tính của mình để trích xuất tệp MOL nhúng, bạn sẽ muốn xem hướng dẫn của chúng tôi về[Trích xuất tệp MOL nhúng](./extract-embedded-mol-file/). Hướng dẫn này sẽ hướng dẫn bạn quy trình đơn giản để khôi phục các tệp này, đảm bảo bạn không bao giờ mất dữ liệu quan trọng ẩn trong sổ làm việc Excel của mình.
 
 ## Xử lý kết nối bên ngoài trong tệp XLSB
 
@@ -33,23 +33,23 @@ Bạn có biết Excel có thể chứa các tệp nhúng không? Nếu bạn t�
 
 ## Tăng cường bảo mật với bảo vệ bằng mật khẩu
 
- Bảo mật là điều cần thiết, đặc biệt đối với các sổ làm việc được chia sẻ có chứa thông tin nhạy cảm. Hướng dẫn của chúng tôi về[Mật khẩu bảo vệ hoặc bỏ bảo vệ sổ làm việc được chia sẻ](./password-protect-or-unprotect-shared-workbook/)chi tiết các bước để khóa sổ làm việc của bạn để chỉ những người phù hợp mới có thể truy cập. Bạn sẽ cảm thấy tự tin hơn khi chia sẻ tệp khi biết chúng an toàn.
+ Bảo mật là điều cần thiết, đặc biệt đối với các sổ làm việc được chia sẻ có chứa thông tin nhạy cảm. Hướng dẫn của chúng tôi về[Mật khẩu bảo vệ hoặc bỏ bảo vệ sổ làm việc được chia sẻ](./password-protect-or-unprotect-shared-workbook/) chi tiết các bước để khóa sổ làm việc của bạn để chỉ những người phù hợp mới có thể truy cập. Bạn sẽ cảm thấy tự tin hơn khi chia sẻ tệp khi biết chúng an toàn.
 
 ## Tăng năng suất với Regex
 
- Bạn có phải là người hâm mộ regex không? Nếu không, bạn có thể muốn trở thành một người hâm mộ! Biểu thức chính quy có thể hợp lý hóa đáng kể các tác vụ của bạn, đặc biệt là khi làm việc với các tập dữ liệu lớn trong Excel. Hướng dẫn của chúng tôi về[Thay thế Regex](./regex-replace/) hướng dẫn bạn cách triển khai các hàm thay thế biểu thức chính quy trong bảng tính, giúp bạn tăng cường cả năng suất và độ chính xác.
+Bạn có phải là người hâm mộ regex không? Nếu không, bạn có thể muốn trở thành một người hâm mộ! Biểu thức chính quy có thể hợp lý hóa đáng kể các tác vụ của bạn, đặc biệt là khi làm việc với các tập dữ liệu lớn trong Excel. Hướng dẫn của chúng tôi về[Thay thế Regex](./regex-replace/) hướng dẫn bạn cách triển khai các hàm thay thế biểu thức chính quy trong bảng tính, giúp bạn tăng cường cả năng suất và độ chính xác.
 
 ## Cập nhật các mục Power Query
 
- Power Query có thể là một công cụ thay đổi thực sự trong việc xử lý dữ liệu, cho phép bạn sắp xếp hợp lý cách thông tin được nhập vào các tệp Excel của mình. Nếu bạn đang tự hỏi làm thế nào để cập nhật các mục công thức Power Query trong Excel bằng Aspose.Cells cho .NET, hướng dẫn của chúng tôi về[Cập nhật mục công thức Power Query](./update-power-query-formula-item/)chỉ là vé. Nó cung cấp một cách tiếp cận đơn giản, từng bước để sửa đổi các mục công thức này, cho phép bạn giữ dữ liệu mới và phản ánh chính xác trong sổ làm việc của mình.
+ Power Query có thể là một công cụ thay đổi thực sự trong việc xử lý dữ liệu, cho phép bạn sắp xếp hợp lý cách thông tin được nhập vào các tệp Excel của mình. Nếu bạn đang tự hỏi làm thế nào để cập nhật các mục công thức Power Query trong Excel bằng Aspose.Cells cho .NET, hướng dẫn của chúng tôi về[Cập nhật mục công thức Power Query](./update-power-query-formula-item/) chỉ là vé. Nó cung cấp một cách tiếp cận đơn giản, từng bước để sửa đổi các mục công thức này, cho phép bạn giữ dữ liệu mới và phản ánh chính xác trong sổ làm việc của mình.
 
 ## Quản lý bản xem trước khi in
 
- Thỉnh thoảng, bạn cần trình bày dữ liệu của mình theo cách chuyên nghiệp nhất có thể. Học cách tạo bản xem trước khi in có thể là một kỹ năng quan trọng. Trong hướng dẫn của chúng tôi về[Bản xem trước khi in của sổ làm việc](./workbook-print-preview/), bạn sẽ khám phá cách định dạng dữ liệu của mình đúng cách trước khi nhấn in. Quá trình này có thể giúp bạn tránh khỏi những lỗi đáng xấu hổ và đảm bảo rằng báo cáo của bạn trông đẹp trên giấy cũng như trên màn hình.
+Thỉnh thoảng, bạn cần trình bày dữ liệu của mình theo cách chuyên nghiệp nhất có thể. Học cách tạo bản xem trước khi in có thể là một kỹ năng quan trọng. Trong hướng dẫn của chúng tôi về[Bản xem trước khi in của sổ làm việc](./workbook-print-preview/), bạn sẽ khám phá cách định dạng dữ liệu của mình đúng cách trước khi nhấn in. Quá trình này có thể giúp bạn tránh khỏi những lỗi đáng xấu hổ và đảm bảo rằng báo cáo của bạn trông đẹp trên giấy cũng như trên màn hình.
 
 ## Làm việc với tên đã xác định
 
- Tên được xác định trong bảng tính Excel của bạn có thể là một cách tiện dụng để quản lý dữ liệu của bạn. Chúng làm cho các công thức ngắn hơn và dễ hiểu hơn. Nếu bạn đang muốn lọc các tên được xác định trong khi tải một bảng tính, hướng dẫn của chúng tôi về[Lọc tên được xác định trong khi tải sổ làm việc](./filter-defined-names-while-loading-workbook/)cung cấp tất cả các bước cần thiết để thực hiện điều đó. Tính năng này cho phép bạn tùy chỉnh cách tải sổ làm việc, cải thiện hiệu quả và tổ chức.
+ Tên được xác định trong bảng tính Excel của bạn có thể là một cách tiện dụng để quản lý dữ liệu của bạn. Chúng làm cho các công thức ngắn hơn và dễ hiểu hơn. Nếu bạn đang muốn lọc các tên được xác định trong khi tải một bảng tính, hướng dẫn của chúng tôi về[Lọc tên được xác định trong khi tải sổ làm việc](./filter-defined-names-while-loading-workbook/) cung cấp tất cả các bước cần thiết để thực hiện điều đó. Tính năng này cho phép bạn tùy chỉnh cách tải sổ làm việc, cải thiện hiệu quả và tổ chức.
 
 ## Phần kết luận
 

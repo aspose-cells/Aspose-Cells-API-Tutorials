@@ -12,7 +12,7 @@ Az adatok Excelben történő kezelését illetően számtalan olyan funkció é
 ## Előfeltételek
 Mielőtt belevetnénk magunkat a kódolás finom dolgaiba, győződjön meg arról, hogy mindennel rendelkezik, amire szüksége van az induláshoz. Itt vannak az előfeltételek:
 - Visual Studio: Feltételezzük, hogy be van állítva a Visual Studio munkakörnyezete. Ha nem, akkor könnyen letöltheti innen[Visual Studio](https://visualstudio.microsoft.com/vs/).
-- .NET-keretrendszer: Győződjön meg arról, hogy a .NET-keretrendszer telepítve van a rendszeren. Ellenőrizze az Aspose.Cells kompatibilitását a .NET verziójával.
+- .NET-keretrendszer: Győződjön meg arról, hogy a .NET-keretrendszer telepítve van a rendszeren. Ellenőrizze az Aspose.Cells kompatibilitását az Ön .NET-verziójával.
 -  Aspose.Cells for .NET: Le kell töltenie az Aspose.Cells könyvtárat, és hivatkoznia kell rá a projektben. Letöltheti innen[itt](https://releases.aspose.com/cells/net/).
 - A C# alapjai: A C# programozás alapszintű ismerete segít a példák könnyebb követésében.
 Ha ezeket az előfeltételeket kijelöli a listáról, kezdjük!
@@ -38,7 +38,7 @@ Először is meg kell győződnünk arról, hogy létezik az Excel fájl mentés
 ```csharp
 // A dokumentumok könyvtárának elérési útja.
 string dataDir = "Your Document Directory";
-//Hozzon létre könyvtárat, ha még nincs jelen.
+// Hozzon létre könyvtárat, ha még nincs jelen.
 bool isExists = System.IO.Directory.Exists(dataDir);
 if (!isExists)
     System.IO.Directory.CreateDirectory(dataDir);

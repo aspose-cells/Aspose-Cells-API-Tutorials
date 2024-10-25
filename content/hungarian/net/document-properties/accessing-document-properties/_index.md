@@ -15,7 +15,7 @@ Mielőtt belemerülnénk a kódba, győződjünk meg arról, hogy a szükséges 
 -  Aspose.Cells Library: Le kell töltenie és hivatkoznia kell az Aspose.Cells könyvtárra a projektben. Letöltheti[itt](https://releases.aspose.com/cells/net/).
 - .NET-keretrendszer: A C# és a .NET-környezet ismerete szükséges a könnyű követéshez.
 ## Csomagok importálása
-dolgok elindításához importáljuk a szükséges csomagokat, amelyek lehetővé teszik az Aspose.Cells használatát az alkalmazásunkban. A következőképpen állíthatja be:
+A dolgok elindításához importáljuk a szükséges csomagokat, amelyek lehetővé teszik az Aspose.Cells használatát az alkalmazásunkban. A következőképpen állíthatja be:
 ```csharp
 using System.IO;
 using System;
@@ -35,9 +35,9 @@ string dataDir = "Your Document Directory";
 ```csharp
 Workbook workbook = new Workbook(dataDir + "sample-document-properties.xlsx");
 ```
- Itt betöltjük az adott Excel fájlunkat,`"sample-document-properties.xlsx"`Nagyon fontos, hogy ez a fájl a megadott könyvtárban legyen, különben hibákba ütközhet.
+ Itt betöltjük az adott Excel fájlunkat,`"sample-document-properties.xlsx"`. Nagyon fontos, hogy ez a fájl a megadott könyvtárban legyen, különben hibákba ütközhet.
 ## 3. lépés: Az egyéni dokumentum tulajdonságainak lekérése
-A munkafüzet betöltése után hozzáférhetünk a tulajdonságok tárházához. Nézzük meg, hogyan érheti el ezeket a tulajdonságokat:
+A munkafüzet betöltése után hozzáférhetünk a tulajdonságok kincséhez. Nézzük meg, hogyan érheti el ezeket a tulajdonságokat:
 ```csharp
 Aspose.Cells.Properties.DocumentPropertyCollection customProperties = workbook.Worksheets.CustomDocumentProperties;
 ```
@@ -55,9 +55,9 @@ Mi a teendő, ha úgy szeretne böngészni az ingatlanok között, hogy a név e
 Aspose.Cells.Properties.DocumentProperty customProperty2 = customProperties[0];
 Console.WriteLine(customProperty2.Name + " " + customProperty2.Value);
 ```
-Ezzel a kódrészlettel lekérjük gyűjteményünk első egyéni dokumentumtulajdonságát. Ilyen egyszerű! Mintha egy fényképalbumot lapozgatna, és egy pillantással megtalálná, amit szeret.
+Ezzel a kódrészlettel lekérjük gyűjteményünk első egyéni dokumentumtulajdonságát. Ez ilyen egyszerű! Mintha egy fényképalbumot lapozgatna, és egy pillantással megtalálná, amit szeret.
 ## Következtetés
-A dokumentumtulajdonságok elérése Excel-fájlokban az Aspose.Cells for .NET használatával nem csak egyszerű, hanem hihetetlenül hatékony is. A fent vázolt lépések követésével könnyedén lekérheti és kezelheti az Excel-dokumentumokhoz kapcsolódó fontos metaadatokat. Akár konkrét egyéni tulajdonságokat kell kinyernie, akár csak böngészni szeretne az elérhető kínálatban, az Aspose.Cells az Ön kezébe adja a hatalmat.
+dokumentumtulajdonságok elérése Excel-fájlokban az Aspose.Cells for .NET használatával nem csak egyszerű, hanem hihetetlenül hatékony is. A fent vázolt lépések követésével könnyedén lekérheti és kezelheti az Excel-dokumentumokhoz kapcsolódó fontos metaadatokat. Akár konkrét egyéni tulajdonságokat kell kinyernie, akár csak böngészni szeretne az elérhető kínálatban, az Aspose.Cells az Ön kezébe adja a hatalmat.
 
 ## GYIK
 ### Mi az Aspose.Cells a .NET számára?
@@ -69,4 +69,4 @@ Teljesen! A könyvtár használatával Excel-fájlokat olvashat, írhat és mód
 ### Elérhető támogatás az Aspose.Cells felhasználók számára?
  Igen, széles körű támogatási forrásokhoz férhet hozzá, beleértve a fórumokat és a dokumentációt[itt](https://forum.aspose.com/c/cells/9).
 ### Hogyan szerezhetek ideiglenes licencet az Aspose.Cells számára?
- Ideiglenes engedélyt kérhet a termék értékeléséhez, ha ellátogat[ezt a linket](https://purchase.aspose.com/temporary-license/).
+Ideiglenes engedélyt kérhet a termék értékeléséhez, ha ellátogat[ezt a linket](https://purchase.aspose.com/temporary-license/).

@@ -61,7 +61,7 @@ workbook.Save(dataDir + "output.xls", SaveFormat.Excel97To2003);
 - `SaveFormat.Excel97To2003`: Ez biztosítja, hogy a fájl az Excel 97-2003 formátumban kerüljön mentésre.
 ## Következtetés
 És itt van – egy egyszerű oktatóanyag az Excel-fájlok klasszikus 97-2003 formátumban történő mentéséhez az Aspose.Cells for .NET használatával. Akár pénzügyi jelentéseket készít, akár adatnaplókat vezet, ez a megközelítés leegyszerűsítheti munkáját és növelheti a termelékenységet. Jó szórakozást a nagy teljesítményű könyvtár képességeinek felfedezéséhez!
-Ne feledje, mint minden kódolási projektnél, a kísérletezés és a különböző funkciókkal való játék még több lehetőséget nyit meg. Szóval ne fogd vissza magad!
+Ne feledje, mint minden kódolási projektnél, a kísérletezés és a különféle funkciókkal való játék még több lehetőséget nyit meg. Szóval ne fogd vissza magad!
 ## GYIK
 ### Mi az Aspose.Cells?
 Az Aspose.Cells egy hatékony .NET-könyvtár, amely lehetővé teszi a fejlesztők számára, hogy Excel-fájlformátumokkal dolgozzanak anélkül, hogy a Microsoft Excelt telepítenék.

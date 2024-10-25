@@ -15,7 +15,7 @@ Het maken van visueel aantrekkelijke webpagina's van Excel-spreadsheets kan uw o
 Voordat we met de code aan de slag gaan, moet u ervoor zorgen dat u het volgende heeft:
 
 1. Visual Studio geïnstalleerd: U hebt een ontwikkelomgeving zoals Visual Studio nodig om uw .NET-toepassingen uit te voeren en te testen.
-2. Aspose.Cells voor .NET: Download en installeer Aspose.Cells. U kunt de nieuwste versie ophalen van de[Aspose-website](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells voor .NET: Download en installeer Aspose.Cells. U kunt de nieuwste versie ophalen van de[Aspose-website](https://releases.aspose.com/cells/net/).
 3. Basiskennis van C#: Kennis van C#-programmering helpt u de voorbeelden beter te begrijpen.
 4. Een voorbeeld van een Excel-bestand: Bereid een Excel-bestand voor met de naam "Book1.xlsx" om mee te werken. Plaats het in een aangewezen map waarnaar u in uw code verwijst.
 

@@ -14,7 +14,7 @@ Trước khi chúng ta bắt đầu mở tệp CSV và thể hiện khả năng 
 ### Hiểu biết cơ bản về C# và .NET Framework
 Để bắt đầu, bạn nên nắm vững C# và .NET framework. Điều cần thiết là phải hiểu những điều cơ bản về lập trình hướng đối tượng vì chúng ta sẽ sử dụng rộng rãi các lớp và phương thức.
 ### Thư viện Aspose.Cells
- Trước tiên và quan trọng nhất, bạn sẽ cần thư viện Aspose.Cells. Đây là API .NET để thao tác các tệp Excel và làm việc với nhiều định dạng dữ liệu khác nhau một cách liền mạch. Bạn có thể[tải xuống thư viện](https://releases.aspose.com/cells/net/) hoặc thiết lập thông qua NuGet trong dự án của bạn.
+Trước tiên và quan trọng nhất, bạn sẽ cần thư viện Aspose.Cells. Đây là API .NET để thao tác các tệp Excel và làm việc với nhiều định dạng dữ liệu khác nhau một cách liền mạch. Bạn có thể[tải xuống thư viện](https://releases.aspose.com/cells/net/) hoặc thiết lập thông qua NuGet trong dự án của bạn.
 ### Thiết lập IDE
 Bạn cũng cần một môi trường phát triển phù hợp. Visual Studio là một lựa chọn tuyệt vời vì nó cung cấp giao diện thân thiện với người dùng để mã hóa, gỡ lỗi và triển khai các ứng dụng .NET của bạn.
 ### Tệp CSV để thực hành
@@ -42,9 +42,9 @@ LoadOptions loadOptions4 = new LoadOptions(LoadFormat.Csv);
 ```
  Đây,`LoadFormat.Csv` cho Aspose biết rằng chúng ta đang xử lý tệp CSV. Hãy nghĩ về việc chọn ngôn ngữ chính xác cho cuộc trò chuyện; nó đảm bảo cả hai bên đều hiểu nhau một cách hoàn hảo.
 ## Bước 3: Tạo một đối tượng Workbook
-Bây giờ chúng ta đang lăn! Đã đến lúc tạo ra một`Workbook` đối tượng sẽ đóng vai trò là không gian làm việc chính, nơi bạn sẽ thực hiện mọi thao tác liên quan đến tệp CSV của mình.
+ Bây giờ chúng ta đang lăn! Đã đến lúc tạo ra một`Workbook` đối tượng sẽ đóng vai trò là không gian làm việc chính, nơi bạn sẽ thực hiện mọi thao tác liên quan đến tệp CSV của mình.
 ```csharp
-// Tạo một đối tượng Workbook và mở tệp từ đường dẫn của nó
+//Tạo một đối tượng Workbook và mở tệp từ đường dẫn của nó
 Workbook wbCSV = new Workbook(dataDir + "Book_CSV.csv", loadOptions4);
 ```
  Dòng này giống như mở khóa cánh cửa dữ liệu của bạn. Với`Workbook` đối tượng đã sẵn sàng, bạn có toàn quyền truy cập để thao tác dữ liệu bên trong tệp CSV của mình. Giống như được trao chìa khóa cho một kho báu thông tin!

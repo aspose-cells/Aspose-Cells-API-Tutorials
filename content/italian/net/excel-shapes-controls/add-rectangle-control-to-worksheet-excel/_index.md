@@ -12,7 +12,7 @@ Quando si tratta di automatizzare le attività di Excel, Aspose.Cells per .NET �
 Ma prima di iniziare, parliamo dei prerequisiti.
 ## Prerequisiti
 Per seguire questo tutorial, assicurati di avere i seguenti prerequisiti:
-1.  Aspose.Cells per la libreria .NET: se non lo hai già fatto,[Scarica la libreria](https://releases.aspose.com/cells/net/) oppure installarlo utilizzando NuGet in Visual Studio.
+1.  Aspose.Cells per la libreria .NET: se non l'hai già fatto,[Scarica la libreria](https://releases.aspose.com/cells/net/) oppure installarlo utilizzando NuGet in Visual Studio.
 2. .NET Framework: è necessario che sul computer sia installato l'ambiente di sviluppo .NET.
 3. Conoscenza di base di C#: anche se ti guideremo passo dopo passo, una conoscenza di base di C# e della programmazione orientata agli oggetti sarà utile.
 4.  Licenza: l'utilizzo di Aspose.Cells in modalità di valutazione funziona bene per le attività di base, ma per la piena funzionalità, si consiglia di prendere in considerazione l'acquisto di una[licenza temporanea](https://purchase.aspose.com/temporary-license/) acquistandone uno da[Qui](https://purchase.aspose.com/buy).
@@ -37,7 +37,7 @@ string dataDir = "Your Document Directory";
  Qui, specifichi il percorso della directory in cui verrà archiviato il file Excel. Puoi sostituire`"Your Document Directory"` con il percorso effettivo sul tuo computer oppure crea dinamicamente una cartella se non esiste.
 ### Controllo e creazione della directory
 ```csharp
-//Creare la directory se non è già presente.
+// Creare la directory se non è già presente.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);

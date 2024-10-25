@@ -56,7 +56,7 @@ Zde vytvoříte souborový proud pro čtení souboru Excel.
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
   
- The`FileStream` třída umožňuje číst ze souborů a zapisovat do nich. V tomto případě otevíráme náš soubor Excel v režimu čtení.
+ The`FileStream`třída umožňuje číst ze souborů a zapisovat do nich. V tomto případě otevíráme náš soubor Excel v režimu čtení.
 
 ## Krok 3: Vytvořte instanci objektu sešitu
 
@@ -67,7 +67,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 Workbook workbook = new Workbook(fstream);
 ```
   
- Tento`Workbook`objekt nyní obsahuje všechna data a nastavení vašeho souboru Excel, což umožňuje manipulaci později v procesu.
+ Tento`Workbook` objekt nyní obsahuje všechna data a nastavení vašeho souboru Excel, což umožňuje manipulaci později v procesu.
 
 ## Krok 4: Skryjte vertikální posuvník
 
@@ -132,4 +132,4 @@ Můžete pracovat s různými formáty Excelu, včetně .xls, .xlsx, .xlsm, .xls
  Zkontrolujte[Dokumentace Aspose.Cells](https://reference.aspose.com/cells/net/) pro další příklady a návody.
 
 ### Co když při používání Aspose.Cells narazím na problémy?  
- Můžete vyhledat pomoc nebo nahlásit problémy na fóru podpory Aspose[zde](https://forum.aspose.com/c/cells/9).
+Můžete vyhledat pomoc nebo nahlásit problémy na fóru podpory Aspose[zde](https://forum.aspose.com/c/cells/9).

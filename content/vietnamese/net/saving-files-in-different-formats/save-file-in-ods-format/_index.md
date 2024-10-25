@@ -12,7 +12,7 @@ Bạn đã bao giờ tự hỏi làm thế nào để dễ dàng lưu các tệp
 ## Điều kiện tiên quyết
 Trước khi đi sâu vào chi tiết, hãy đảm bảo rằng bạn đã thiết lập mọi thứ chính xác:
 - .NET Framework: Đảm bảo bạn đã cài đặt .NET Framework trên máy của mình. Bạn có thể sử dụng bất kỳ phiên bản nào tương thích với Aspose.Cells cho .NET.
-- Thư viện Aspose.Cells: Bạn sẽ cần tải xuống thư viện Aspose.Cells. Đây là một công cụ mạnh mẽ cho phép bạn quản lý các tệp Excel và nhiều hơn nữa. Bạn có thể tải xuống từ[liên kết tải xuống](https://releases.aspose.com/cells/net/).
+-  Thư viện Aspose.Cells: Bạn sẽ cần tải xuống thư viện Aspose.Cells. Đây là một công cụ mạnh mẽ cho phép bạn quản lý các tệp Excel và nhiều hơn nữa. Bạn có thể tải xuống từ[liên kết tải xuống](https://releases.aspose.com/cells/net/).
 - Môi trường phát triển: Một môi trường phát triển phù hợp là điều cần thiết, chẳng hạn như Visual Studio, nơi bạn có thể viết và thực thi mã .NET của mình.
 Bây giờ chúng ta đã đáp ứng được các điều kiện tiên quyết, hãy nhập các gói cần thiết.
 ## Nhập gói

@@ -46,7 +46,7 @@ string sourceDir = "Your Document Directory";
 ```
  Hãy chắc chắn thay thế`"YourFilePath\\"` với đường dẫn lưu trữ tệp FODS của bạn.
 ## Bước 2: Tạo một đối tượng Workbook
- Bây giờ, bạn sẽ tạo ra một`Workbook` đối tượng sẽ giúp chúng ta làm việc với tệp FODS. Thêm mã sau vào`Main` phương pháp:
+ Bây giờ, bạn sẽ tạo ra một`Workbook`đối tượng sẽ giúp chúng ta làm việc với tệp FODS. Thêm mã sau vào`Main` phương pháp:
 ```csharp
 Workbook workbook = new Workbook(sourceDir + "SampleFods.fods");
 ```

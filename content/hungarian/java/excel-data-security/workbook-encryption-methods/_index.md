@@ -14,7 +14,7 @@ mai digitális korban az adatbiztonság a legfontosabb. Az érzékeny informáci
 
 ## A munkafüzet titkosításának megértése
 
-Mielőtt belemerülnénk a megvalósítás részleteibe, először értsük meg, mi az a munkafüzet-titkosítás, és miért elengedhetetlen. A munkafüzet titkosítása egy Excel-munkafüzet tartalmának biztonságba helyezése azáltal, hogy titkosítási algoritmusokat alkalmaz a benne lévő adatokra. Ez biztosítja, hogy csak a visszafejtési kulccsal rendelkező jogosult felhasználók férhessenek hozzá és tekinthessék meg a munkafüzet tartalmát, így megóvja érzékeny adatait a kíváncsiskodó szemektől.
+Mielőtt belemerülnénk a megvalósítás részleteibe, először értsük meg, mi az a munkafüzet-titkosítás, és miért elengedhetetlen. A munkafüzet-titkosítás az Excel-munkafüzet tartalmának biztonságossá tétele azáltal, hogy titkosítási algoritmusokat alkalmaz a benne lévő adatokra. Ez biztosítja, hogy csak a visszafejtési kulccsal rendelkező jogosult felhasználók férhessenek hozzá és tekinthessék meg a munkafüzet tartalmát, így megóvja érzékeny adatait a kíváncsiskodó szemektől.
 
 ## Előfeltételek
 

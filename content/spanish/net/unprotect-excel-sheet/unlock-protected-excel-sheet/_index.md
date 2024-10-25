@@ -87,7 +87,7 @@ Una vez que la hoja de cálculo esté desprotegida, deberá guardar los cambios 
 ```csharp
 workbook.Save(dataDir + "output.out.xls");
 ```
- Aquí estás guardando los cambios en un nuevo archivo llamado “output.out.xls” en el mismo directorio. Puedes cambiarle el nombre como creas conveniente, pero asegúrate de mantener el`.xls`extensión para mantenerlo reconocible como un archivo Excel.
+ Aquí estás guardando los cambios en un nuevo archivo llamado “output.out.xls” en el mismo directorio. Puedes cambiarle el nombre como creas conveniente, pero asegúrate de mantener el`.xls` extensión para mantenerlo reconocible como un archivo Excel.
 
 ## Paso 6: Manejo de errores
 
@@ -116,7 +116,7 @@ catch(Exception ex)
 ¡Sí! Puedes recorrer cada hoja del libro y desprotegerlas de manera similar.
 
 ### ¿Aspose.Cells es de uso gratuito?
-Aspose.Cells ofrece una prueba gratuita, pero se requiere una licencia para su uso en producción. Consulte su[compra](https://purchase.aspose.com/buy) Página para obtener más información.
+ Aspose.Cells ofrece una prueba gratuita, pero se requiere una licencia para su uso en producción. Consulte su[compra](https://purchase.aspose.com/buy) Página para obtener más información.
 
 ### ¿Qué pasa si no sé la contraseña?
 Si una hoja está protegida con contraseña y usted no la tiene, la biblioteca no le ayudará a eludir las restricciones ya que va en contra de las políticas éticas.

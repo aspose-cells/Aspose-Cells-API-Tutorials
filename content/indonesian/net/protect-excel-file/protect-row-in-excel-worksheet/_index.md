@@ -57,7 +57,7 @@ Workbook wb = new Workbook();
 
 ## Langkah 3: Akses Lembar Kerja
 
-Setelah buku kerja dibuat, mari kita mulai lembar kerja pertama. Ingat, file Excel dapat berisi beberapa lembar, jadi memilih lembar kerja yang tepat sangatlah penting.
+Setelah buku kerja dibuat, mari kita mulai lembar kerja pertama. Ingat, file Excel dapat berisi beberapa lembar, jadi memilih lembar yang tepat sangatlah penting.
 
 ```csharp
 Worksheet sheet = wb.Worksheets[0]; // Mengakses lembar pertama

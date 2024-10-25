@@ -63,11 +63,11 @@ for (int idx = 0; idx < workbook.Worksheets.Count; idx++)
     workbook.Worksheets.ActiveSheetIndex = idx;
     workbook.Save(ms, opts);
 ```
- Slingan går igenom varje kalkylblad i arbetsboken.`ActiveSheetIndex` är inställd så att varje gång genom slingan, vi sparar det aktuella kalkylbladet. Resultaten kommer att sparas i minnet med hjälp av a`MemoryStream`.
+ Slingan går igenom varje kalkylblad i arbetsboken.`ActiveSheetIndex` är inställd så att varje gång genom slingan, vi sparar det aktuella kalkylbladet. Resultaten kommer att sparas i minnet med hjälp av en`MemoryStream`.
 ## Steg 6: Hämta kalkylbladsdata
  Efter att ha sparat ett kalkylblad i minnesströmmen är nästa steg att hämta denna data och lägga till den i vår`workbookData` array.
 ```csharp
-    // Spara kalkylbladets data i arkdatamatrisen
+    // Spara kalkylbladsdata i arkdataarray
     ms.Position = 0; // Återställ positionen för minnesströmmen
     byte[] sheetData = ms.ToArray(); // Hämta byte-arrayen
 ```

@@ -16,7 +16,7 @@ Neste tutorial, exploraremos como criar animações de gráficos dinâmicos usan
 
 Antes de começarmos a criar animações de gráficos, certifique-se de ter os seguintes pré-requisitos:
 
-1. Aspose.Cells para Java: Certifique-se de ter a biblioteca Aspose.Cells para Java instalada. Você pode baixá-la em[aqui](https://releases.aspose.com/cells/java/).
+1.  Aspose.Cells para Java: Certifique-se de ter a biblioteca Aspose.Cells para Java instalada. Você pode baixá-la em[aqui](https://releases.aspose.com/cells/java/).
 
 2. Ambiente de desenvolvimento Java: você deve ter um ambiente de desenvolvimento Java configurado em seu sistema.
 
@@ -82,7 +82,7 @@ Neste tutorial, aprendemos como criar animações de gráficos usando a API Aspo
 
 ### Como posso alterar o tipo de animação?
 
- Para alterar o tipo de animação, use o`setAnimationType` método no objeto gráfico. Você pode escolher entre vários tipos como`SLIDE`, `FADE` e`GROW_SHRINK`.
+ Para alterar o tipo de animação, use o`setAnimationType` método no objeto gráfico. Você pode escolher entre vários tipos como`SLIDE`, `FADE` , e`GROW_SHRINK`.
 
 ### Posso personalizar a duração da animação?
 
@@ -90,4 +90,4 @@ Neste tutorial, aprendemos como criar animações de gráficos usando a API Aspo
 
 ### Qual é o propósito do atraso de animação?
 
- O atraso da animação determina o intervalo de tempo antes do início da animação do gráfico. Use o`setAnimationDelay` método para definir o atraso em milissegundos.
+ O atraso da animação determina o intervalo de tempo antes do início da animação do gráfico. Use o`setAnimationDelay`método para definir o atraso em milissegundos.

@@ -29,7 +29,7 @@ Prima di scrivere qualsiasi codice, dovrai aggiungere un riferimento alla librer
 ### Scarica la DLL
 
 1.  Vai al[Pagina dei download di Aspose](https://releases.aspose.com/cells/net/) e scarica il pacchetto appropriato per la tua versione .NET.
-2. Estrarre il file scaricato e individuare il`Aspose.Cells.dll` file.
+2.  Estrarre il file scaricato e individuare il`Aspose.Cells.dll` file.
 
 ### Aggiungere riferimento in Visual Studio
 

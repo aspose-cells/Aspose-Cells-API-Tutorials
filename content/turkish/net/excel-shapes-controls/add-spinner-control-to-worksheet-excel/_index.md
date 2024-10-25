@@ -29,7 +29,7 @@ Kodlamaya başlamadan önce dosyalarınızı organize etmek iyi bir uygulamadır
 ```csharp
 // Belgeler dizinine giden yol.
 string dataDir = "Your Document Directory";
-//Eğer mevcut değilse dizin oluşturun.
+// Eğer mevcut değilse dizin oluşturun.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -41,7 +41,7 @@ Burada, belge dizinimiz için bir yol belirtiyoruz. Dizin yoksa, onu oluşturuyo
 // Yeni bir Çalışma Kitabı örneği oluşturun.
 Workbook excelbook = new Workbook();
 ```
- The`Workbook`sınıfı bir Excel dosyasını temsil eder. Bunu örnekleyerek, değişikliklere hazır yeni bir çalışma kitabı oluştururuz.
+ The`Workbook` sınıfı bir Excel dosyasını temsil eder. Bunu örnekleyerek, değişikliklere hazır yeni bir çalışma kitabı oluştururuz.
 ## Adım 3: İlk Çalışma Sayfasına Erişim
 Spinner'ımızı çalışma kitabındaki ilk çalışma sayfasına ekleyeceğiz.
 ```csharp
@@ -117,6 +117,6 @@ Evet, daha cilalı bir görünüm için boyutunu, konumunu ve hatta 3 boyutlu g�
 ### Aspose.Cells'i kullanmak için lisansa ihtiyacım var mı?
  Aspose.Cells ücretsiz deneme sunuyor ancak üretim kullanımı için ücretli bir lisans gerekiyor. Şuraya göz atın:[satın alma seçenekleri](https://purchase.aspose.com/buy).
 ### Aspose.Cells konusunda nasıl yardım alabilirim?
- Destek için şu adresi ziyaret edin:[Aspose forumu](https://forum.aspose.com/c/cells/9)Sorularınızı sorabileceğiniz ve cevap bulabileceğiniz yer.
+ Destek için şu adresi ziyaret edin:[Aspose forumu](https://forum.aspose.com/c/cells/9) Sorularınızı sorabileceğiniz ve cevap bulabileceğiniz yer.
 ### Aynı çalışma sayfasına birden fazla Spinner eklemek mümkün müdür?
 Kesinlikle! Her kontrol için aynı adımları izleyerek ihtiyacınız kadar Spinner ekleyebilirsiniz.

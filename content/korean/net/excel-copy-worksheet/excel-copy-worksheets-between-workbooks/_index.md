@@ -15,9 +15,9 @@ Excel 통합 문서 간에 워크시트를 수동으로 복사하는 자신을 �
 
 코드를 살펴보기 전에 시작하는 데 필요한 올바른 도구가 있는지 확인해 보겠습니다.
 
-- .NET용 Aspose.Cells: 다운로드할 수 있습니다.[여기](https://releases.aspose.com/cells/net/).
+-  .NET용 Aspose.Cells: 다운로드할 수 있습니다.[여기](https://releases.aspose.com/cells/net/).
 - Visual Studio나 .NET 프레임워크를 지원하는 IDE.
--  유효한 면허증 또는[임시 면허](https://purchase.aspose.com/temporary-license/) Aspose.Cells의 전체 기능을 테스트하고 싶다면
+-  유효한 면허증 또는[임시 면허](https://purchase.aspose.com/temporary-license/)Aspose.Cells의 전체 기능을 테스트하고 싶다면
 - C# 및 .NET 프레임워크에 대한 기본적인 이해.
 
  또한 다음을 확인할 수도 있습니다.[Aspose.Cells 설명서](https://reference.aspose.com/cells/net/) 자세한 내용은.
@@ -44,7 +44,7 @@ using Aspose.Cells;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- 이 줄에서 다음을 바꾸세요.`"YOUR DOCUMENT DIRECTORY"` Excel 파일에 대한 실제 경로입니다. 여기서 통합 문서가 로드되고 저장됩니다.
+ 이 줄에서 다음을 바꾸세요.`"YOUR DOCUMENT DIRECTORY"`Excel 파일에 대한 실제 경로입니다. 여기서 통합 문서가 로드되고 저장됩니다.
 
 ## 2단계: 첫 번째 통합 문서 열기
 
@@ -64,7 +64,7 @@ Workbook excelWorkbook0 = new Workbook(InputPath);
 이제 첫 번째 통합 문서를 열었으니, 복사한 워크시트를 붙여넣을 또 다른 빈 통합 문서를 만들 차례입니다. 데이터를 전송할 새 빈 노트북을 여는 것으로 생각하세요.
 
 ```csharp
-//다른 통합 문서를 만듭니다.
+// 다른 통합 문서를 만듭니다.
 Workbook excelWorkbook1 = new Workbook();
 ```
 

@@ -106,4 +106,4 @@ Filtrar nomes definidos pode levar a fórmulas quebradas se eles fizerem referê
  Sim, você pode obter uma avaliação gratuita do Aspose.Cells para testar suas capacidades antes de comprar. Confira[aqui](https://releases.aspose.com/).
 
 ### Onde posso encontrar mais exemplos e documentação?
-Você pode encontrar documentação abrangente e mais exemplos na página de referência do Aspose.Cells[aqui](https://reference.aspose.com/cells/net/).
+ Você pode encontrar documentação abrangente e mais exemplos na página de referência do Aspose.Cells[aqui](https://reference.aspose.com/cells/net/).

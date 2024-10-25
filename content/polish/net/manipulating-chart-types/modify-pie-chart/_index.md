@@ -40,7 +40,7 @@ Aby rozpocząć, otwórz środowisko IDE języka C# (zalecamy Visual Studio) i u
 
 Gdy projekt jest gotowy, czas dodać bibliotekę Aspose.Cells. Możesz ją zainstalować za pomocą NuGet:
 
-1. „Eksploratorze rozwiązań” kliknij prawym przyciskiem myszy swój projekt.
+1. W „Eksploratorze rozwiązań” kliknij prawym przyciskiem myszy swój projekt.
 2. Wybierz opcję Zarządzaj pakietami NuGet.
 3. Przejdź do zakładki Przeglądaj.
 4. Wyszukaj Aspose.Cells.
@@ -96,11 +96,11 @@ Workbook workbook = new Workbook(sourceDir + "sampleModifyPieChart.xlsx");
 Teraz zajmijmy się konkretnym arkuszem, który zawiera wykres kołowy. Załóżmy, że wykres kołowy znajduje się na drugim arkuszu (indeks 1):
 
 ```csharp
-// drugim arkuszu znajdziesz wykres projektanta.
+// W drugim arkuszu znajdziesz wykres projektanta.
 Worksheet sheet = workbook.Worksheets[1];
 ```
 
- Uzyskując dostęp do`Worksheets` kolekcji możemy przejść do konkretnego arkusza, którego potrzebujemy.
+ Uzyskując dostęp do`Worksheets`kolekcji możemy przejść do konkretnego arkusza, którego potrzebujemy.
 
 ## Krok 4: Pobierz wykres
 

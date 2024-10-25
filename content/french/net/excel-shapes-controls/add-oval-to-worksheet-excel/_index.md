@@ -30,14 +30,14 @@ Nous allons créer un chemin de répertoire et vérifier s'il existe. Si le doss
 ```csharp
 // Le chemin vers le répertoire des documents.
 string dataDir = "Your Document Directory";
-//Créez un répertoire s'il n'est pas déjà présent.
+// Créez un répertoire s'il n'est pas déjà présent.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
 Cette étape est cruciale car elle garantit que votre fichier est enregistré dans un emplacement approprié et que vous ne rencontrerez pas de problèmes de chemin de fichier plus tard.
 ## Étape 2 : Initialiser un nouveau classeur
-Ensuite, nous devons créer un nouveau classeur dans lequel nous ajouterons nos formes ovales. Le classeur représente un fichier Excel et nous pouvons y ajouter du contenu ou des formes.
+Ensuite, nous devons créer un nouveau classeur dans lequel nous ajouterons nos formes ovales. Le classeur représente un fichier Excel, et nous pouvons y ajouter du contenu ou des formes.
 
  Dans cette étape, nous instancions un nouveau`Workbook` objet qui servira de conteneur à notre fichier Excel.
 ```csharp

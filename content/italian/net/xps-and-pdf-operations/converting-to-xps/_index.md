@@ -21,7 +21,7 @@ Ora che abbiamo trattato i prerequisiti, passiamo all'importazione dei pacchetti
 ### Imposta il tuo progetto
 Prima le cose importanti! Apri Visual Studio e crea un nuovo progetto. Scegli un'applicazione console, perché è semplice e perfetta per questo tipo di attività.
 ### Aggiungi Aspose.Cells al tuo progetto
-Per iniziare con Aspose.Cells, devi aggiungere la libreria. Per farlo:
+Per iniziare con Aspose.Cells, devi aggiungere la libreria. Per fare questo:
 1. Fare clic con il pulsante destro del mouse sul progetto in Esplora soluzioni.
 2. Fare clic su "Gestisci pacchetti NuGet".
 3. Cerca “Aspose.Cells” e clicca su “Installa”.
@@ -50,7 +50,7 @@ Worksheet sheet = workbook.Worksheets[0]; // Accesso al primo foglio di lavoro
 ```
 Questa riga di codice consente di accedere al primo foglio di lavoro per ulteriori comandi.
 ## Passaggio 4: configurare le opzioni di immagine e stampa
-Ora dobbiamo definire come vogliamo rendere il nostro output. Ciò comporta la creazione di un'istanza di`ImageOrPrintOptions` e impostando il formato di output desiderato.
+ Ora dobbiamo definire come vogliamo rendere il nostro output. Ciò comporta la creazione di un'istanza di`ImageOrPrintOptions` e impostando il formato di output desiderato.
 ```csharp
 Aspose.Cells.Rendering.ImageOrPrintOptions options = new Aspose.Cells.Rendering.ImageOrPrintOptions();
 options.SaveFormat = SaveFormat.Xps; // Impostazione del formato di output su XPS
@@ -82,4 +82,4 @@ Sì, puoi adattare il codice in modo che esegua un ciclo su più file nella dire
 ### Cosa succede se devo convertire solo fogli specifici?
  È possibile specificare l'indice del foglio desiderato nel`SheetRender` oggetto come mostrato nei nostri passaggi.
 ### Dove posso trovare maggiori informazioni su Aspose.Cells?
- Puoi esplorare il[documentazione](https://reference.aspose.com/cells/net/)per funzionalità e opzioni più avanzate disponibili con la libreria.
+ Puoi esplorare il[documentazione](https://reference.aspose.com/cells/net/) per funzionalità e opzioni più avanzate disponibili con la libreria.

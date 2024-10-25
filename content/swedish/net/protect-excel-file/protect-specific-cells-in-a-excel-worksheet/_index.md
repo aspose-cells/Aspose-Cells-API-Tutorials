@@ -41,7 +41,7 @@ Det första vi vill göra är att definiera var dina filer ska hamna. Det här s
 ```csharp
 // Sökvägen till dokumentkatalogen.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-//Skapa katalog om den inte redan finns.
+// Skapa katalog om den inte redan finns.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -140,7 +140,7 @@ Och där har du det! Du har framgångsrikt skyddat specifika celler i ett Excel-
 Aspose.Cells för .NET är ett kraftfullt bibliotek för att manipulera Excel-filer programmatiskt med C#, vilket gör att utvecklare kan skapa, ändra och konvertera Excel-kalkylblad utan att behöva Microsoft Excel.
 
 ### Hur installerar jag Aspose.Cells för .NET?  
- Du kan ladda ner Aspose.Cells för .NET från webbplatsen[här](https://releases.aspose.com/cells/net/). Följ installationsanvisningarna.
+ Du kan ladda ner Aspose.Cells för .NET från webbplatsen[här](https://releases.aspose.com/cells/net/). Följ installationsinstruktionerna som tillhandahålls.
 
 ### Kan jag skydda fler än tre celler?  
 Absolut! Du kan låsa så många celler du behöver genom att lägga till fler rader som liknar de för A1, B1 och C1 i exemplet.

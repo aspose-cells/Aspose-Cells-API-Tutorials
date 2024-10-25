@@ -16,7 +16,7 @@ Vous en avez assez des graphiques ennuyeux qui manquent de touche personnelle ? 
 Avant de passer aux choses sérieuses du codage, vous devez respecter quelques conditions préalables pour pouvoir suivre le processus en douceur :
 
 - Visual Studio : c'est ici que vous écrirez et exécuterez votre code .NET. Assurez-vous qu'il est installé.
-- Aspose.Cells pour .NET : vous aurez besoin de cette bibliothèque pour travailler avec des fichiers Excel. Vous pouvez[téléchargez-le ici](https://releases.aspose.com/cells/net/).
+-  Aspose.Cells pour .NET : vous aurez besoin de cette bibliothèque pour travailler avec des fichiers Excel. Vous pouvez[téléchargez-le ici](https://releases.aspose.com/cells/net/).
 - Compréhension de base de C# : même si je vous guiderai à travers le code, avoir une idée des bases de C# rendra les choses plus claires.
 
 ### Étapes d'installation
@@ -55,7 +55,7 @@ string sourceDir = "Your Document Directory/";
 string outputDir = "Your Output Directory/";
 ```
 
- Remplacer`Your Document Directory` et`Your Output Directory` avec les chemins réels sur votre ordinateur. 
+ Remplacer`Your Document Directory` et`Your Output Directory`avec les chemins réels sur votre ordinateur. 
 
 ## Étape 2 : charger le classeur existant
 
@@ -84,7 +84,7 @@ Assurez-vous que l'image est enregistrée dans le répertoire spécifié.
 Maintenant, précisons à quel graphique nous allons ajouter notre image. Dans cet exemple, nous ciblerons le premier graphique de la première feuille de calcul.
 
 ```csharp
-//Obtenez le tableau du concepteur dans la deuxième feuille.
+// Obtenez le tableau du concepteur dans la deuxième feuille.
 Worksheet sheet = workbook.Worksheets[0];
 Aspose.Cells.Charts.Chart chart = sheet.Charts[0];
 ```
@@ -100,7 +100,7 @@ Une fois le graphique sélectionné, il est temps d’ajouter l’image !
 Aspose.Cells.Drawing.Picture pic0 = chart.Shapes.AddPictureInChart(50, 50, stream, 200, 200);
 ```
 
- Ici,`50` et`50` sont les coordonnées X et Y où l'image sera placée, et`200` est la largeur et la hauteur de l'image.
+ Ici,`50` et`50` sont les coordonnées X et Y où l'image sera placée, et`200`est la largeur et la hauteur de l'image.
 
 ## Étape 6 : Personnaliser le format de ligne de l'image
 

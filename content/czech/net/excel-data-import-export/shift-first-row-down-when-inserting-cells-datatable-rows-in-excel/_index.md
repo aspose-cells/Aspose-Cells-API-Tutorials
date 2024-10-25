@@ -170,7 +170,7 @@ Ano, pro plné funkce budete potřebovat platnou licenci. Pro počáteční test
 Absolutně! Aspose.Cells je ideální pro desktopové, webové a cloudové aplikace vyvinuté v .NET.
 
 ### Jaké typy souborů aplikace Excel mohu vytvořit pomocí Aspose.Cells?
-Můžete vytvářet různé formáty souborů Excel, včetně XLSX, XLS, CSV a dalších.
+Můžete vytvářet různé formáty souborů aplikace Excel, včetně XLSX, XLS, CSV a dalších.
 
 ### Kde mohu získat podporu pro Aspose.Cells?
  Můžete se ptát nebo najít pomoc v[Aspose fóra](https://forum.aspose.com/c/cells/9).

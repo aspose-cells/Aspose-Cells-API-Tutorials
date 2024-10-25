@@ -62,7 +62,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY"; // Ändra detta till din faktiska v�
 
 ## Steg 2: Instantiera arbetsboksobjektet
 
- Därefter måste du skapa en instans av`Workbook` klass för att öppna din Excel-fil.
+ Därefter måste du skapa en instans av`Workbook`klass för att öppna din Excel-fil.
 
 ```csharp
 Workbook workbook = new Workbook(dataDir + "book1.xls");

@@ -12,7 +12,7 @@ url: /tr/net/image-and-chart-operations/worksheet-to-image-conversion/
 ## Ön koşullar
 Dönüştürmeye başlamadan önce, her şeyin doğru şekilde ayarlandığından emin olmak önemlidir. İhtiyacınız olacak ön koşullar şunlardır:
 1. Visual Studio: Bilgisayarınızda Visual Studio'nun yüklü olduğundan emin olun. .NET projelerinizi sorunsuz bir şekilde çalıştırmanıza yardımcı olacak IDE'dir.
-2. Aspose.Cells for .NET Kütüphanesi: Bu kütüphaneyi edinmeniz gerekiyor. Şunları yapabilirsiniz:[buradan indirin](https://releases.aspose.com/cells/net/) veya bir ile başla[ücretsiz deneme](https://releases.aspose.com/).
+2.  Aspose.Cells for .NET Kütüphanesi: Bu kütüphaneyi edinmeniz gerekiyor. Şunları yapabilirsiniz:[buradan indirin](https://releases.aspose.com/cells/net/) veya bir ile başla[ücretsiz deneme](https://releases.aspose.com/).
 3. Temel C# Bilgisi: Örneklerimiz ve açıklamalarımız bu dilde yazılacağından C# programlamaya aşina olmanız faydalı olacaktır.
 4.  Örnek Bir Excel Dosyası: Gösterim için bir Excel dosyası oluşturun veya indirin. Bunu şu şekilde kaydedin:`MyTestBook1.xls` proje dizininizde.
 5. .NET Projelerinin Temel Anlayışı: Basit bir .NET projesinin nasıl oluşturulacağını bilmek bunu kolaylaştıracaktır, ancak endişelenmeyin; sizi adımlarda yönlendireceğiz.
@@ -51,7 +51,7 @@ string dataDir = "Your Document Directory";
 // Bir şablon Excel dosyası açın.
 Workbook book = new Workbook(dataDir + "MyTestBook1.xls");
 ```
- Bu adımda, bir örnek oluşturuyoruz`Workbook`sınıf ve Excel dosyamıza giden yolu geçiriyoruz. Bu, dosyanın içeriğiyle programatik olarak etkileşim kurmamızı sağlar.
+ Bu adımda, bir örnek oluşturuyoruz`Workbook` sınıf ve Excel dosyamıza giden yolu geçiriyoruz. Bu, dosyanın içeriğiyle programatik olarak etkileşim kurmamızı sağlar.
 ## Adım 5: Çalışma Sayfasına Erişim
 Şimdi çalışma kitabımızı açtığımıza göre ilk çalışma sayfasına erişelim:
 ```csharp
@@ -78,7 +78,7 @@ SheetRender sr = new SheetRender(sheet, imgOptions);
 // Sayfa için görüntüyü oluştur
 Bitmap bitmap = sr.ToImage(0);
 ```
- The`SheetRender`sınıf, çalışma sayfasını bir bitmap görüntüsüne dönüştürmeye yardımcı olur. Biz çağırırız`ToImage(0)` sıfırıncı sayfayı (ilk sayfamızı) bir bitmap'e dönüştürmek için.
+ The`SheetRender` sınıf, çalışma sayfasını bir bitmap görüntüsüne dönüştürmeye yardımcı olur. Biz çağırırız`ToImage(0)` sıfırıncı sayfayı (ilk sayfamızı) bir bitmap'e dönüştürmek için.
 ## Adım 8: Görüntüyü Kaydetme
 Görüntüyü oluşturduktan sonra belirtilen dizine kaydetmemiz gerekiyor:
 ```csharp
@@ -99,7 +99,7 @@ Bu satır, konsola bir onay mesajı çıktısı göndererek kullanıcıya dönü
 ### Aspose.Cells Nedir?
 Aspose.Cells, geliştiricilerin Excel dosyalarını programlı bir şekilde oluşturmasını, düzenlemesini, dönüştürmesini ve işlemesini sağlayan bir .NET kütüphanesidir.
 ### Aspose.Cells'i ücretsiz kullanabilir miyim?
- Evet, Aspose.Cells'i ücretsiz deneme sürümünü indirerek kullanmaya başlayabilirsiniz.[web sitesi](https://releases.aspose.com/).
+Evet, Aspose.Cells'i ücretsiz deneme sürümünü indirerek kullanmaya başlayabilirsiniz.[web sitesi](https://releases.aspose.com/).
 ### Aspose.Cells hangi görüntü formatlarını dışa aktarmayı destekler?
 Aspose.Cells, JPEG, PNG, BMP ve GIF dahil olmak üzere çeşitli resim formatlarını destekler.
 ### Aspose.Cells için ek desteği nerede bulabilirim?

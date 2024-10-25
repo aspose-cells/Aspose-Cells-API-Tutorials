@@ -36,7 +36,7 @@ Nous commençons par définir le chemin d'accès à notre répertoire de documen
 ```csharp
 // Définir le répertoire pour enregistrer les images
 string dataDir = "Your Document Directory";
-// Vérifiez si le répertoire existe
+//Vérifiez si le répertoire existe
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -93,7 +93,7 @@ chart.NSeries.Add("A1:B3", true);
 ## Étape 7 : Convertir le graphique en image
 Le moment de vérité : nous allons convertir ce graphique en fichier image !
 
- Ici, nous utilisons le`ToImage`méthode pour convertir le graphique dans un format d'image de votre choix. Dans ce cas, nous le convertissons au format EMF (Enhanced Metafile).
+ Ici, nous utilisons le`ToImage` méthode pour convertir le graphique dans un format d'image de votre choix. Dans ce cas, nous le convertissons au format EMF (Enhanced Metafile).
 ```csharp
 // Convertissez le graphique en image et enregistrez-le dans le répertoire
 chart.ToImage(dataDir + "Chart.emf", ImageFormat.Emf);

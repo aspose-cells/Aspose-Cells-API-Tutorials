@@ -177,5 +177,5 @@ Az Aspose.Cells egy .NET-könyvtár, amelyet Excel-fájlok létrehozására, kez
  További példák és dokumentációk találhatók a[Aspose dokumentációs oldal](https://reference.aspose.com/cells/net/).
 
 ### Mi a teendő, ha problémákat tapasztalok az Aspose használata közben?
-Kérhet segítséget az Aspose támogatási fórumától[itt](https://forum.aspose.com/c/cells/9).
+ Kérhet segítséget az Aspose támogatási fórumától[itt](https://forum.aspose.com/c/cells/9).
  

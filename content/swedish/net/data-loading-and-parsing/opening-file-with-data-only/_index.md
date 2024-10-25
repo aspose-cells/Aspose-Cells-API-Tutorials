@@ -51,7 +51,7 @@ Se det här som att ge specifika instruktioner - du säger i princip, "Hej, jag 
 ## Steg 4: Skapa ett arbetsboksobjekt
  Okej, vi är nästan där! Nu ska vi skapa en`Workbook` objekt, vilket i huvudsak är där Aspose.Cells laddar innehållet i din Excel-fil.
 ```csharp
-// Skapa ett arbetsboksobjekt och öppna filen från dess sökväg
+//Skapa ett arbetsboksobjekt och öppna filen från dess sökväg
 Workbook book = new Workbook(dataDir + "Book1.xlsx", loadOptions);
 ```
  I den här raden, byt ut`"Book1.xlsx"` med namnet på din faktiska Excel-fil. Voilà! Din arbetsbok är laddad med alla viktiga data.

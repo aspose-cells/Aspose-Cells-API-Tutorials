@@ -83,4 +83,4 @@ Evet, bir dizindeki birden fazla dosya arasında dolaşabilir ve her birini benz
 ### Excel dosyalarımı PDF dışında hangi formatlarda kaydedebilirim?
 PDF'in yanı sıra XLSX, CSV ve daha birçok formatta da kaydedebilirsiniz!
 ### Aspose.Cells hakkında daha fazla dokümanı nerede bulabilirim?
- Şuna başvurabilirsiniz:[belgeler burada](https://reference.aspose.com/cells/net/) Daha detaylı bilgi için.
+ Şuraya başvurabilirsiniz:[belgeler burada](https://reference.aspose.com/cells/net/) Daha detaylı bilgi için.

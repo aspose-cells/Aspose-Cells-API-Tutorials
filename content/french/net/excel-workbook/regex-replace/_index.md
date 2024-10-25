@@ -16,7 +16,7 @@ Vous en avez assez de passer des heures à apporter des modifications minutieuse
 Avant de passer aux détails du codage, assurons-nous que vous êtes bien équipé pour le voyage à venir.
 
 1. .NET Framework : assurez-vous de disposer d'un environnement .NET configuré. Qu'il s'agisse de .NET Core ou de .NET Framework, vous devriez être prêt à utiliser l'application.
-2.  Bibliothèque Aspose.Cells : cette bibliothèque est votre clé pour accéder à de puissantes manipulations de feuilles de calcul. Vous pouvez[téléchargez-le ici](https://releases.aspose.com/cells/net/).
+2. Bibliothèque Aspose.Cells : cette bibliothèque est votre clé pour accéder à de puissantes manipulations de feuilles de calcul. Vous pouvez[téléchargez-le ici](https://releases.aspose.com/cells/net/).
 3. Un IDE : utilisez votre environnement de développement intégré (IDE) préféré comme Visual Studio, ce qui rendra votre expérience de codage beaucoup plus fluide.
 4. Connaissances de base en programmation : une connaissance de C# et des concepts d'expressions régulières sera bénéfique.
 
@@ -77,7 +77,7 @@ replace.RegexKey = true; // Préciser que nous utilisons regex
 ```
 
 Dans cette configuration :
-- `CaseSensitive` est réglé sur`false`ce qui signifie que notre recherche pour « KIM » ignorera s'il s'agit de majuscules ou de minuscules.
+- `CaseSensitive` est réglé sur`false`, ce qui signifie que notre recherche pour « KIM » ignorera s'il s'agit de majuscules ou de minuscules.
 - `MatchEntireCellContents` est réglé sur`false` afin que nous puissions remplacer des parties du contenu de la cellule.
 - `RegexKey` est réglé sur`true` pour indiquer que nous utiliserons une expression régulière pour notre recherche.
 
@@ -132,4 +132,4 @@ Oui, il prend en charge une variété de formats, notamment XLS, XLSX, CSV, etc.
 Oui, vous pouvez créer des modèles d’expressions régulières plus complexes pour faire correspondre plusieurs termes simultanément.
 
 ### Où puis-je trouver plus d'exemples et de documentation pour Aspose.Cells ?  
- Vous trouverez une documentation complète[ici](https://reference.aspose.com/cells/net/).
+Vous trouverez une documentation complète[ici](https://reference.aspose.com/cells/net/).

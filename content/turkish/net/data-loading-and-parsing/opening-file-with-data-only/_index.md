@@ -51,7 +51,7 @@ Bunu belirli talimatlar vermek gibi düşünün; temelde şunu söylüyorsunuz: 
 ## Adım 4: Bir Çalışma Kitabı Nesnesi Oluşturun
  Tamam, neredeyse oradayız! Şimdi bir tane oluşturacağız`Workbook` Aspose.Cells'in Excel dosyanızın içeriğini yükleyeceği nesnedir.
 ```csharp
-// Bir Çalışma Kitabı nesnesi oluşturun ve dosyayı yolundan açın
+//Bir Çalışma Kitabı nesnesi oluşturun ve dosyayı yolundan açın
 Workbook book = new Workbook(dataDir + "Book1.xlsx", loadOptions);
 ```
  Bu satırda şunu değiştirin:`"Book1.xlsx"` gerçek Excel dosyanızın adıyla. İşte! Çalışma kitabınız tüm önemli verilerle yüklendi.

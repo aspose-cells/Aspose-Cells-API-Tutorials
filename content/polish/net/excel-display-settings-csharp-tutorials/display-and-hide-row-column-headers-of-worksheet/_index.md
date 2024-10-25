@@ -53,7 +53,7 @@ Następnie musisz utworzyć strumień plików, aby otworzyć plik Excel. Ten kro
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
 
-Tutaj określamy, że chcemy otworzyć`book1.xls` znajduje się w określonym katalogu.`FileMode.Open` parametr wskazuje, że otwieramy istniejący plik. Zawsze upewnij się, że nazwa pliku pasuje do tego, co masz.
+ Tutaj określamy, że chcemy otworzyć`book1.xls` znajduje się w określonym katalogu.`FileMode.Open` parametr wskazuje, że otwieramy istniejący plik. Zawsze upewnij się, że nazwa pliku pasuje do tego, co masz.
 
 ## Krok 3: Utwórz obiekt skoroszytu
 
@@ -73,7 +73,7 @@ Po załadowaniu skoroszytu, następnym krokiem jest dostęp do konkretnego arkus
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
-W tym fragmencie kodu uzyskujemy dostęp do pierwszego arkusza kalkulacyjnego ze skoroszytu. Jeśli masz wiele arkuszy i chcesz uzyskać dostęp do innego, zmień odpowiednio indeks.
+tym fragmencie kodu uzyskujemy dostęp do pierwszego arkusza kalkulacyjnego ze skoroszytu. Jeśli masz wiele arkuszy i chcesz uzyskać dostęp do innego, zmień odpowiednio indeks.
 
 ## Krok 5: Ukryj nagłówki wierszy i kolumn
 
@@ -83,7 +83,7 @@ A teraz nadszedł moment, na który czekaliśmy! To tutaj faktycznie ukrywamy na
 worksheet.IsRowColumnHeadersVisible = false;
 ```
 
- Ustawienie`IsRowColumnHeadersVisible` Do`false`skutecznie ukryje nagłówki w wierszach i kolumnach, dzięki czemu prezentacja danych będzie wyglądać bardziej przejrzyście.
+ Ustawienie`IsRowColumnHeadersVisible` Do`false` skutecznie ukryje nagłówki w wierszach i kolumnach, dzięki czemu prezentacja danych będzie wyglądać bardziej przejrzyście.
 
 ## Krok 6: Zapisz zmodyfikowany plik Excela
 
@@ -107,7 +107,7 @@ fstream.Close();
 
 ## Wniosek
 
-I masz to! Nauczyłeś się, jak ukryć nagłówki wierszy i kolumn arkusza kalkulacyjnego programu Excel za pomocą Aspose.Cells dla .NET, wykonując szereg prostych kroków. Może to poprawić czytelność i ogólną prezentację arkuszy kalkulacyjnych, pozwalając odbiorcom skupić się wyłącznie na danych, które chcesz wyróżnić.
+masz to! Nauczyłeś się, jak ukryć nagłówki wierszy i kolumn arkusza kalkulacyjnego programu Excel za pomocą Aspose.Cells dla .NET, wykonując szereg prostych kroków. Może to poprawić czytelność i ogólną prezentację arkuszy kalkulacyjnych, pozwalając odbiorcom skupić się wyłącznie na danych, które chcesz wyróżnić.
 
 ## Najczęściej zadawane pytania
 

@@ -2,7 +2,7 @@
 title: 以 97-2003 格式儲存 Excel 文件
 linktitle: 以 97-2003 格式儲存 Excel 文件
 second_title: Aspose.Cells .NET Excel 處理 API
-description: 了解如何使用 Aspose.Cells for .NET 將 Excel 檔案儲存為 97-2003 格式。獲得實用的見解和逐步指導。
+description: 了解如何使用 Aspose.Cells for .NET 以 97-2003 格式儲存 Excel 檔案。獲得實用的見解和逐步指導。
 type: docs
 weight: 10
 url: /zh-hant/net/saving-files-in-different-formats/save-excel-file-in-97-2003-format/

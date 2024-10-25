@@ -95,7 +95,7 @@ Neste código, especificamos o tipo de gráfico (neste caso, um gráfico de colu
 
 ## Etapa 6: Acesse a instância do gráfico
 
-Depois de criar o gráfico, precisamos acessar sua instância para modificar suas propriedades. Isso é feito recuperando-o por meio do`Charts`coleção.
+ Depois de criar o gráfico, precisamos acessar sua instância para modificar suas propriedades. Isso é feito recuperando-o por meio do`Charts`coleção.
 
 ```csharp
 // Acessando a instância do gráfico recém-adicionado
@@ -173,7 +173,7 @@ Esta saída simples do console informa que seu programa foi executado corretamen
 
 ## Conclusão
 
-E aí está! Você aprendeu com sucesso como alterar as principais linhas de grade em um gráfico usando o Aspose.Cells para .NET. Ao seguir este guia passo a passo, você não apenas manipulou arquivos do Excel programaticamente, mas também melhorou seu apelo visual com personalizações de cores. Sinta-se à vontade para experimentar mais com o Aspose.Cells para aprofundar suas habilidades de apresentação de dados e tornar seus gráficos ainda mais dinâmicos!
+aí está! Você aprendeu com sucesso como alterar as principais linhas de grade em um gráfico usando o Aspose.Cells para .NET. Ao seguir este guia passo a passo, você não apenas manipulou arquivos do Excel programaticamente, mas também melhorou seu apelo visual com personalizações de cores. Sinta-se à vontade para experimentar mais com o Aspose.Cells para aprofundar suas habilidades de apresentação de dados e tornar seus gráficos ainda mais dinâmicos!
 
 ## Perguntas frequentes
 
@@ -187,7 +187,7 @@ Aspose.Cells é uma biblioteca .NET projetada para criar, manipular e gerenciar 
  Você pode personalizar várias propriedades do gráfico de forma semelhante acessando os elementos do gráfico por meio do`Chart` classe, como títulos, legendas e rótulos de dados.
 
 ### Quais formatos de arquivo o Aspose.Cells suporta?  
-Aspose.Cells suporta vários formatos de arquivo, incluindo XLSX, XLS, CSV e outros.
+O Aspose.Cells suporta vários formatos de arquivo, incluindo XLSX, XLS, CSV e outros.
 
 ### Onde posso encontrar documentação para Aspose.Cells?  
  Você pode consultar a documentação detalhada em[Documentação do Aspose.Cells](https://reference.aspose.com/cells/net/).

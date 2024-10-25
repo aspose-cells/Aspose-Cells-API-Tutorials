@@ -29,7 +29,7 @@ using System.Drawing;
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = "Your Document Directory";
-//إنشاء الدليل إذا لم يكن موجودًا بالفعل.
+// إنشاء الدليل إذا لم يكن موجودًا بالفعل.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -41,7 +41,7 @@ if (!IsExists)
 // إنشاء مصنف جديد.
 Workbook excelbook = new Workbook();
 ```
- ال`Workbook`تمثل الفئة ملف Excel. من خلال إنشائها، نقوم بإنشاء مصنف جديد جاهز للتعديل.
+ ال`Workbook` تمثل الفئة ملف Excel. من خلال إنشائها، نقوم بإنشاء مصنف جديد جاهز للتعديل.
 ## الخطوة 3: الوصول إلى ورقة العمل الأولى
 سوف نضيف Spinner الخاص بنا إلى ورقة العمل الأولى في المصنف.
 ```csharp
@@ -117,6 +117,6 @@ excelbook.Save(dataDir + "book1.out.xls");
 ### هل أحتاج إلى ترخيص لاستخدام Aspose.Cells؟
  يقدم Aspose.Cells نسخة تجريبية مجانية، ولكن يلزم الحصول على ترخيص مدفوع للاستخدام الإنتاجي. تحقق من[خيارات الشراء](https://purchase.aspose.com/buy).
 ### كيف يمكنني الحصول على المساعدة مع Aspose.Cells؟
- للحصول على الدعم، قم بزيارة[منتدى اسبوس](https://forum.aspose.com/c/cells/9)حيث يمكنك طرح الأسئلة والعثور على الإجابات.
+ للحصول على الدعم، قم بزيارة[منتدى اسبوس](https://forum.aspose.com/c/cells/9) حيث يمكنك طرح الأسئلة والعثور على الإجابات.
 ### هل من الممكن إضافة عدة غزالات إلى نفس ورقة العمل؟
 بالتأكيد! يمكنك إضافة عدد لا حصر له من الدوارات باتباع نفس الخطوات لكل عنصر تحكم.

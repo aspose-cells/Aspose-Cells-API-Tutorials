@@ -16,7 +16,7 @@ I den här handledningen kommer vi att utforska hur man skapar dynamiska diagram
 
 Innan vi dyker in i att skapa diagramanimationer, se till att du har följande förutsättningar på plats:
 
-1. Aspose.Cells for Java: Se till att du har Aspose.Cells for Java-biblioteket installerat. Du kan ladda ner den från[här](https://releases.aspose.com/cells/java/).
+1.  Aspose.Cells for Java: Se till att du har Aspose.Cells for Java-biblioteket installerat. Du kan ladda ner den från[här](https://releases.aspose.com/cells/java/).
 
 2. Java-utvecklingsmiljö: Du bör ha en Java-utvecklingsmiljö inställd på ditt system.
 
@@ -82,7 +82,7 @@ I den här handledningen lärde vi oss hur man skapar diagramanimationer med Asp
 
 ### Hur kan jag ändra animationstyp?
 
- För att ändra animeringstyp, använd`setAnimationType` metod på diagramobjektet. Du kan välja mellan olika typer som`SLIDE`, `FADE` och`GROW_SHRINK`.
+ För att ändra animeringstyp, använd`setAnimationType` metod på diagramobjektet. Du kan välja mellan olika typer som`SLIDE`, `FADE` , och`GROW_SHRINK`.
 
 ### Kan jag anpassa animeringens varaktighet?
 
@@ -90,4 +90,4 @@ I den här handledningen lärde vi oss hur man skapar diagramanimationer med Asp
 
 ### Vad är syftet med animationsfördröjning?
 
- Animationsfördröjningen bestämmer tidsavståndet innan diagramanimeringen startar. Använd`setAnimationDelay` metod för att ställa in fördröjningen i millisekunder.
+ Animationsfördröjningen bestämmer tidsavståndet innan diagramanimeringen startar. Använd`setAnimationDelay`metod för att ställa in fördröjningen i millisekunder.

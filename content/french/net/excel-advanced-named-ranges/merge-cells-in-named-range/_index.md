@@ -60,7 +60,7 @@ Considérez la feuille de calcul comme les onglets individuels d'un fichier Exce
 Maintenant que nous avons notre feuille de calcul, il est temps de créer une plage. Une plage fait référence à un bloc de cellules, qui peut s'étendre sur plusieurs lignes et colonnes.
 
 ```csharp
-// Créer une gamme.
+//Créer une gamme.
 Range mrange = worksheet1.Cells.CreateRange("D6", "I12");
 ```
 
@@ -133,7 +133,7 @@ flag.CellShading = true;
 range1.ApplyStyle(style, flag);
 ```
 
- Le`StyleFlag`indique à Aspose.Cells quelles propriétés de style appliquer : alignement, ombrage, etc. Cela vous donne un contrôle précis sur la façon dont le style est appliqué.
+ Le`StyleFlag` indique à Aspose.Cells quelles propriétés de style appliquer : alignement, ombrage, etc. Cela vous donne un contrôle précis sur la façon dont le style est appliqué.
 
 ## Étape 9 : Saisir les données dans la plage fusionnée
 

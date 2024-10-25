@@ -14,7 +14,7 @@ De mielőtt belemerülnénk, beszéljünk az előfeltételekről.
 Az oktatóanyag követéséhez győződjön meg arról, hogy a következő előfeltételeket teljesíti:
 1.  Aspose.Cells .NET könyvtárhoz: Ha még nem tette meg,[töltse le a könyvtárat](https://releases.aspose.com/cells/net/) vagy telepítse a NuGet segítségével a Visual Studio-ban.
 2. .NET-keretrendszer: A .NET fejlesztői környezetet be kell állítani a gépen.
-3. Alapvető C# ismeretek: Bár lépésről lépésre végigvezetjük Önt, a C# és az objektumorientált programozás alapvető ismerete előnyös.
+3. C# alapismeretek: Bár lépésről lépésre végigvezetjük Önt, a C# és az objektum-orientált programozás alapismerete előnyös.
 4.  Licenc: Az Aspose.Cells kiértékelési módban történő használata jól működik az alapvető feladatokhoz, de a teljes funkcionalitás érdekében fontolja meg egy[ideiglenes engedély](https://purchase.aspose.com/temporary-license/)vagy vásárol egyet innen[itt](https://purchase.aspose.com/buy).
 Most pedig merüljünk el a kódban!
 ## Csomagok importálása
@@ -37,7 +37,7 @@ string dataDir = "Your Document Directory";
  Itt adja meg az Excel fájl tárolási útvonalát. Cserélheted`"Your Document Directory"` a gép tényleges elérési útjával, vagy dinamikusan hozzon létre egy mappát, ha nem létezik.
 ### A címtár ellenőrzése és létrehozása
 ```csharp
-//Hozzon létre könyvtárat, ha még nincs jelen.
+// Hozzon létre könyvtárat, ha még nincs jelen.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);

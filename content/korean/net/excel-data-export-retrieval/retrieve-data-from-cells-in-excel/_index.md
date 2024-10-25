@@ -18,7 +18,7 @@ Excel에서 데이터를 관리할 때 셀에서 정보를 읽고 검색할 수 
 1. Visual Studio: 컴퓨터에 Visual Studio가 설치되어 있는지 확인하세요. 코드를 작성하고 실행하는 데 사용할 IDE입니다.
 2.  .NET용 Aspose.Cells: Aspose.Cells 라이브러리가 필요합니다. 다음에서 다운로드할 수 있습니다.[Aspose 웹사이트](https://releases.aspose.com/cells/net/).
 3. C#에 대한 기본 지식: C# 프로그래밍에 익숙하면 예제를 더 잘 이해하는 데 도움이 됩니다.
-4.  Excel 파일: Excel 파일을 준비하세요(예:`book1.xls`)이 튜토리얼에서 사용하게 될 것입니다.
+4. Excel 파일: Excel 파일을 준비하세요(예:`book1.xls`)이 튜토리얼에서 사용하게 될 것입니다.
 
 이러한 필수 구성 요소를 정리하면 Excel 셀에서 데이터를 검색하는 방법을 알아볼 수 있습니다.
 
@@ -52,7 +52,7 @@ string dataDir = "Your Document Directory";
 
 
 ```csharp
-// 기존 통합 문서 열기
+//기존 통합 문서 열기
 Workbook workbook = new Workbook(dataDir + "book1.xls");
 ```
 
@@ -68,7 +68,7 @@ Workbook workbook = new Workbook(dataDir + "book1.xls");
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
- 그만큼`Worksheets` 컬렉션을 사용하면 통합 문서의 다양한 시트에 액세스할 수 있습니다. 인덱스`[0]`첫 번째 워크시트를 말합니다. 후속 시트에 액세스하려면 인덱스를 그에 맞게 변경할 수 있습니다.
+ 그만큼`Worksheets` 컬렉션을 사용하면 통합 문서의 다양한 시트에 액세스할 수 있습니다. 인덱스`[0]` 첫 번째 워크시트를 말합니다. 후속 시트에 액세스하려면 인덱스를 그에 맞게 변경할 수 있습니다.
 
 ## 4단계: 셀을 통한 루프
 
@@ -99,7 +99,7 @@ foreach (Cell cell1 in worksheet.Cells)
             Console.WriteLine("Double Value: " + doubleValue);
             break;
 
-        // 셀 데이터의 데이터 유형을 부울 값으로 평가
+        //셀 데이터의 데이터 유형을 부울 값으로 평가
         case CellValueType.IsBool:
             boolValue = cell1.BoolValue;
             Console.WriteLine("Bool Value: " + boolValue);
@@ -124,7 +124,7 @@ foreach (Cell cell1 in worksheet.Cells)
 }
 ```
 
- 이 단계에서는 워크시트의 각 셀을 반복합니다. 각 셀에 대해 다음을 사용하여 데이터 유형을 확인합니다.`switch`문장. 유형에 따라 값을 검색하여 콘솔에 출력합니다. 다음은 사례별 분석입니다.
+ 이 단계에서는 워크시트의 각 셀을 반복합니다. 각 셀에 대해 다음을 사용하여 데이터 유형을 확인합니다.`switch` 문장. 유형에 따라 값을 검색하여 콘솔에 출력합니다. 다음은 사례별 분석입니다.
 
 -  IsString: 셀에 문자열이 포함되어 있으면 다음을 사용하여 검색합니다.`StringValue`.
 -  IsNumeric: 숫자 값의 경우 다음을 사용합니다.`DoubleValue`.
@@ -143,7 +143,7 @@ Aspose.Cells for .NET을 사용하여 Excel 셀에서 데이터를 검색하는 
 Aspose.Cells는 개발자가 Microsoft Excel을 설치하지 않고도 Excel 파일을 만들고, 조작하고, 변환할 수 있는 .NET 라이브러리입니다.
 
 ### Aspose.Cells를 무료로 사용할 수 있나요?  
-네, Aspose.Cells는 기능을 테스트하는 데 사용할 수 있는 무료 평가판을 제공합니다. 다운로드할 수 있습니다.[여기](https://releases.aspose.com/).
+ 네, Aspose.Cells는 기능을 테스트하는 데 사용할 수 있는 무료 평가판을 제공합니다. 다운로드할 수 있습니다.[여기](https://releases.aspose.com/).
 
 ### Excel 셀에서 어떤 유형의 데이터를 검색할 수 있나요?  
 문자열, 숫자, 부울, 날짜/시간 값 등 다양한 데이터 유형을 검색할 수 있습니다.

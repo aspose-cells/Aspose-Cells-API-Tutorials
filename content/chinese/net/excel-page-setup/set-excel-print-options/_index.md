@@ -127,7 +127,7 @@ pageSetup.PrintErrors = PrintErrorsType.PrintErrorsNA;
 
 ## 步骤 5：保存工作簿
 
-一旦您按照自己想要的方式设置好一切，最后就可以保存您的工作簿了。
+一旦您按照自己想要的方式设置好一切，就到了保存工作簿的时候了。
 
 ```csharp
 //保存工作簿。

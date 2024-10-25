@@ -42,7 +42,7 @@ String cellValue = cell.getStringValue();
 System.out.println("Value of cell A1: " + cellValue);
 ```
 
-## 4. Excel-Dateien schreiben
+## 4. Schreiben von Excel-Dateien
 
 Erfahren Sie, wie Sie Excel-Dateien erstellen und ändern. Hier ist ein Beispiel für das Schreiben von Daten in eine Excel-Datei:
 

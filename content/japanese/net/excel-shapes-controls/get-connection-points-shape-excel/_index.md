@@ -76,7 +76,7 @@ foreach (var pt in connectionPoints)
 ```
 このループは各接続ポイントを反復処理し、`X`そして`Y`座標。これは、図形の接続ポイントをデバッグしたり視覚的に確認したりするのに役立ちます。
 ## ステップ7: 実行して完了する
-上記のすべての手順を設定したら、コードを実行できます。プロセスが正常に完了することを保証する最後の行は次のとおりです。
+上記の手順をすべて設定したら、コードを実行できます。プロセスが正常に完了することを保証する最後の行は次のとおりです。
 ```csharp
 System.Console.WriteLine("GetShapeConnectionPoints executed successfully.");
 ```

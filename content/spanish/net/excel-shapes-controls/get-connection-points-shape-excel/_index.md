@@ -91,9 +91,9 @@ Un punto de conexión es un punto específico en una forma donde puedes colocar 
 ### ¿Puedo recuperar puntos de conexión para todas las formas en una hoja de cálculo?
 Sí, Aspose.Cells le permite recuperar puntos de conexión para cualquier forma que los admita. Simplemente recorra la colección de formas en la hoja de cálculo.
 ### ¿Necesito una licencia para utilizar Aspose.Cells?
-Sí, aunque puedes probarlo gratis, se requiere una licencia para utilizar todas las funciones.[compre una licencia aquí](https://purchase.aspose.com/buy) o conseguir uno[licencia temporal](https://purchase.aspose.com/temporary-license/).
+Sí, aunque puedes probarlo gratis, se requiere una licencia para utilizar todas las funciones.[compre una licencia aquí](https://purchase.aspose.com/buy) conseguir uno[licencia temporal](https://purchase.aspose.com/temporary-license/).
 ### ¿Cómo puedo agregar diferentes tipos de formas en Aspose.Cells?
- Puedes utilizar el`Add` Método para formas como rectángulos, elipses y más. Cada forma tiene parámetros específicos que puedes personalizar.
+Puedes utilizar el`Add` Método para formas como rectángulos, elipses y más. Cada forma tiene parámetros específicos que puedes personalizar.
 ### ¿Cómo cargo un archivo Excel existente en lugar de crear uno nuevo?
  Para cargar un archivo existente, pase la ruta del archivo al`Workbook` constructor, así:  
 ```csharp

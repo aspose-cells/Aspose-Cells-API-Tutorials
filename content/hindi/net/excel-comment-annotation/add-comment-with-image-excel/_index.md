@@ -37,12 +37,12 @@ using System.Drawing;
 ```csharp
 // दस्तावेज़ निर्देशिका का पथ.
 string dataDir = "Your Document Directory";
-//यदि निर्देशिका पहले से मौजूद नहीं है तो उसे बनाएं।
+// यदि निर्देशिका पहले से मौजूद नहीं है तो उसे बनाएं।
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
--  dataDir: यह वेरिएबल आपके डॉक्यूमेंट डायरेक्टरी का पथ रखता है। बदलें`"Your Document Directory"` उस वास्तविक पथ के साथ जहां आप अपनी एक्सेल फ़ाइल को सहेजना चाहते हैं।
+- dataDir: यह वेरिएबल आपके डॉक्यूमेंट डायरेक्टरी का पथ रखता है। बदलें`"Your Document Directory"` उस वास्तविक पथ के साथ जहां आप अपनी एक्सेल फ़ाइल को सहेजना चाहते हैं।
 - Directory.Exists: यह जाँचता है कि क्या निर्देशिका पहले से मौजूद है।
 - Directory.CreateDirectory: यदि निर्देशिका मौजूद नहीं है, तो यह उसे बनाता है।
 ## चरण 2: कार्यपुस्तिका को इंस्टैंसिएट करें
@@ -89,7 +89,7 @@ bmp.Save(ms, System.Drawing.Imaging.ImageFormat.Png);
 // छवि डेटा को टिप्पणी से संबद्ध आकृति पर सेट करें
 comment.CommentShape.Fill.ImageData = ms.ToArray();
 ```
--  comment.CommentShape.Fill.ImageData: यह प्रॉपर्टी आपको टिप्पणी आकार के लिए छवि सेट करने की अनुमति देती है। हम इसे रूपांतरित करते हैं`MemoryStream` एक बाइट सरणी का उपयोग कर`ms.ToArray()`.
+- comment.CommentShape.Fill.ImageData: यह प्रॉपर्टी आपको टिप्पणी आकार के लिए छवि सेट करने की अनुमति देती है। हम इसे रूपांतरित करते हैं`MemoryStream` एक बाइट सरणी का उपयोग कर`ms.ToArray()`.
 ## चरण 7: कार्यपुस्तिका सहेजें
 अंत में, आइए अपनी कार्यपुस्तिका को टिप्पणी और छवि सहित सेव करें।
 ```csharp

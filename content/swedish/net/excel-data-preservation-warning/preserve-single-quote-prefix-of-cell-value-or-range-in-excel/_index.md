@@ -161,7 +161,7 @@ flag.QuotePrefix = true;
 rng.ApplyStyle(st, flag);
 ```
 
- I den här omgången ställer vi in`flag.QuotePrefix = true`, vilket betyder att vi vill uppdatera cellens citatprefix.
+ den här omgången ställer vi in`flag.QuotePrefix = true`, vilket betyder att vi vill uppdatera cellens citatprefix.
 
 ## Steg 9: Slutlig kontroll av offertprefix
 

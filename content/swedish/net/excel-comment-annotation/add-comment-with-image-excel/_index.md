@@ -37,12 +37,12 @@ Till att börja med måste vi skapa en katalog där vi kan spara våra Excel-fil
 ```csharp
 // Sökvägen till dokumentkatalogen.
 string dataDir = "Your Document Directory";
-//Skapa katalog om den inte redan finns.
+// Skapa katalog om den inte redan finns.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
--  dataDir: Denna variabel innehåller sökvägen till din dokumentkatalog. Ersätta`"Your Document Directory"` med den faktiska sökvägen där du vill spara din Excel-fil.
+- dataDir: Denna variabel innehåller sökvägen till din dokumentkatalog. Ersätta`"Your Document Directory"` med den faktiska sökvägen där du vill spara din Excel-fil.
 - Directory.Exists: Detta kontrollerar om katalogen redan finns.
 - Directory.CreateDirectory: Om katalogen inte finns skapas den.
 ## Steg 2: Instantiera en arbetsbok
@@ -89,7 +89,7 @@ Nu måste vi ställa in bilddata till den form som är associerad med kommentare
 // Ställ in bilddata till den form som är kopplad till kommentaren
 comment.CommentShape.Fill.ImageData = ms.ToArray();
 ```
--  comment.CommentShape.Fill.ImageData: Denna egenskap låter dig ställa in bilden för kommentarsformen. Vi konverterar`MemoryStream` till en byte-array med hjälp av`ms.ToArray()`.
+- comment.CommentShape.Fill.ImageData: Denna egenskap låter dig ställa in bilden för kommentarsformen. Vi konverterar`MemoryStream` till en byte-array med hjälp av`ms.ToArray()`.
 ## Steg 7: Spara arbetsboken
 Slutligen, låt oss spara vår arbetsbok med kommentaren och bilden inkluderad.
 ```csharp

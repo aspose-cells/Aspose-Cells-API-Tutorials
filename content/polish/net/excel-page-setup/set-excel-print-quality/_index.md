@@ -77,7 +77,7 @@ Tutaj dzieje się magia! Możemy ustawić jakość wydruku arkusza kalkulacyjneg
 worksheet.PageSetup.PrintQuality = 180;
 ```
 
-Wyjaśnienie:`PrintQuality` właściwość może być ustawiona na dowolną wartość, zazwyczaj między 75 a 600 dpi (punktów na cal). W tym przypadku ustawiamy ją na 180 dpi, co jest świetne dla dobrego balansu między jakością a rozmiarem pliku.
+ Wyjaśnienie:`PrintQuality` właściwość może być ustawiona na dowolną wartość, zazwyczaj między 75 a 600 dpi (punktów na cal). W tym przypadku ustawiamy ją na 180 dpi, co jest świetne dla dobrego balansu między jakością a rozmiarem pliku.
 
 ## Krok 5: Zapisywanie skoroszytu
 

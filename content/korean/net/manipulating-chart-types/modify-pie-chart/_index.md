@@ -96,11 +96,11 @@ Workbook workbook = new Workbook(sourceDir + "sampleModifyPieChart.xlsx");
 이제 파이 차트가 들어 있는 특정 시트를 살펴보겠습니다. 파이 차트가 두 번째 워크시트(인덱스 1)에 있다고 가정하겠습니다.
 
 ```csharp
-//두 번째 시트에서 디자이너 차트를 받으세요.
+// 두 번째 시트에서 디자이너 차트를 받으세요.
 Worksheet sheet = workbook.Worksheets[1];
 ```
 
- 접근하여`Worksheets` 컬렉션을 통해 필요한 특정 시트를 얻을 수 있습니다.
+ 접근하여`Worksheets`컬렉션을 통해 필요한 특정 시트를 얻을 수 있습니다.
 
 ## 4단계: 차트 가져오기
 

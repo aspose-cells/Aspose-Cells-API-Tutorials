@@ -2,7 +2,7 @@
 title: Ανάλυση δεδομένων Excel Pivot
 linktitle: Ανάλυση δεδομένων Excel Pivot
 second_title: Aspose.Cells Java Excel Processing API
-description: Μάθετε την ανάλυση δεδομένων στο Excel με το Aspose.Cells για Java. Οδηγός βήμα προς βήμα για αποτελεσματική χρήση του συγκεντρωτικού πίνακα.
+description: Μάθετε την ανάλυση δεδομένων στο Excel με το Aspose.Cells για Java. Οδηγός βήμα προς βήμα για αποτελεσματική χρήση συγκεντρωτικού πίνακα.
 type: docs
 weight: 13
 url: /el/java/excel-data-analysis/data-analysis-excel-pivot/

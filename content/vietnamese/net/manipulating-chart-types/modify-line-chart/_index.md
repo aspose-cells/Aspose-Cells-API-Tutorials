@@ -151,7 +151,7 @@ Có, bạn có thể sửa đổi nhiều loại biểu đồ khác nhau (như b
  Chắc chắn rồi! Bạn có thể dùng thử miễn phí[đây](https://releases.aspose.com/).
 
 ### Làm thế nào để tôi có thể thay đổi loại biểu đồ sau khi thêm chuỗi?
- Bạn có thể sử dụng`ChartType` thuộc tính để thiết lập loại biểu đồ mới cho biểu đồ của bạn.
+Bạn có thể sử dụng`ChartType` thuộc tính để thiết lập loại biểu đồ mới cho biểu đồ của bạn.
 
 ### Tôi có thể tìm tài liệu chi tiết hơn ở đâu?
  Kiểm tra tài liệu[đây](https://reference.aspose.com/cells/net/).

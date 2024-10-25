@@ -77,7 +77,7 @@ Låt oss nu börja ställa in rubriken. Vi börjar med det vänstra avsnittet:
 pageSetup.SetHeader(0, "&A");
 ```
 
-Förklaring: The`SetHeader` metoden tillåter oss att definiera innehållet i rubriken. Här,`&A` anger namnet på kalkylbladet, som kommer att visas på vänster sida av rubriken.
+ Förklaring: The`SetHeader` metoden tillåter oss att definiera innehållet i rubriken. Här,`&A` anger namnet på kalkylbladet, som kommer att visas på vänster sida av rubriken.
 
 ## Steg 4: Anpassa den centrala rubriken
 
@@ -87,7 +87,7 @@ Därefter kommer vi att anpassa den centrala rubriken för att visa aktuellt dat
 pageSetup.SetHeader(1, "&\"Times New Roman,Bold\"&D-&T");
 ```
 
-Förklaring: The`&D` och`&T` koder kommer automatiskt att ersätta sig själva med aktuellt datum respektive tid. Vi anger också att teckensnittet för den här rubriken ska vara "Times New Roman" och fetstil.
+ Förklaring: The`&D` och`&T` koder kommer automatiskt att ersätta sig själva med aktuellt datum respektive tid. Vi anger också att teckensnittet för den här rubriken ska vara "Times New Roman" och fetstil.
 
 ## Steg 5: Ställ in rätt rubrik
 
@@ -117,7 +117,7 @@ Därefter ställer vi in mittsidfoten för att visa det aktuella sidnumret:
 pageSetup.SetFooter(1, "&P");
 ```
 
-Förklaring: The`&P` kod infogar automatiskt sidnumret i mitten av sidfoten – ett praktiskt sätt att hålla reda på sidor.
+ Förklaring: The`&P` kod infogar automatiskt sidnumret i mitten av sidfoten – ett praktiskt sätt att hålla reda på sidor.
 
 ## Steg 8: Konfiguration av höger sidfot
 

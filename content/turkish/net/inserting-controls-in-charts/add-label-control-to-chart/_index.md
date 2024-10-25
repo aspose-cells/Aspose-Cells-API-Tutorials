@@ -62,7 +62,7 @@ Daha sonra etiket eklemek istediğimiz grafiğin bulunduğu Excel dosyasını y�
 Workbook workbook = new Workbook(sourceDir + "sampleAddingLabelControlInChart.xls");
 ```
 
- Burada şunu kullanıyoruz:`Workbook`Excel dosyamızı açmak için Aspose.Cells'den bir sınıf. Yaratıcılığın akmasına izin vermek için kapıyı açmak gibi!
+ Burada şunu kullanıyoruz:`Workbook` Excel dosyamızı açmak için Aspose.Cells'den bir sınıf. Yaratıcılığın akmasına izin vermek için kapıyı açmak gibi!
 
 ## Adım 3: Çalışma Sayfasına Erişim
 
@@ -94,7 +94,7 @@ Bu çizgi, bir galeride doğru sanat eserini bulmaya benzer. Tablonuz sizi bekli
 Aspose.Cells.Drawing.Label label = chart.Shapes.AddLabelInChart(600, 600, 350, 900);
 ```
 
- Burada,`AddLabelInChart`belirttiğiniz koordinatlara ve boyutlara göre bir etiket oluşturma işini üstlenir. Sanat eserinizin etrafına güzel bir çerçeve yerleştirmek gibidir!
+ Burada,`AddLabelInChart` belirttiğiniz koordinatlara ve boyutlara göre bir etiket oluşturma işini üstlenir. Sanat eserinizin etrafına güzel bir çerçeve yerleştirmek gibidir!
 
 ## Adım 6: Etiket Metnini Ayarlayın
 

@@ -40,7 +40,7 @@ Pertama-tama, mari kita siapkan jalur untuk dokumen Excel Anda. Di sinilah Anda 
 string dataDir = "Your Document Directory";
 ```
  Di sini, ganti`"Your Document Directory"` dengan jalur sebenarnya tempat file Excel Anda berada dan tempat Anda ingin menyimpan file terenkripsi.
-## Langkah 2: Membuat Instansi Objek Buku Kerja
+## Langkah 2: Membuat Instansiasi Objek Buku Kerja
 Sekarang, mari membuat objek Buku Kerja untuk bekerja dengan berkas Excel Anda.
 ```csharp
 Workbook workbook = new Workbook(dataDir + "Book1.xls");

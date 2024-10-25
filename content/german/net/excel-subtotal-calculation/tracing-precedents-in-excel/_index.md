@@ -71,7 +71,7 @@ foreach (ReferredArea area in ret)
     Console.WriteLine(CellsHelper.CellIndexToName(area.EndRow, area.EndColumn));
 }
 ```
- In diesem Snippet verwenden wir ein einfaches`foreach` Schleife, um die Blattnamen und Zellreferenzen der Zellen zu drucken, die in B4 einfließen.`CellsHelper.CellIndexToName`Funktion wandelt Zeilen- und Spaltenindizes in lesbare Zellbezüge wie „A1“, „B2“ usw. um. 
+ In diesem Snippet verwenden wir ein einfaches`foreach` Schleife, um die Blattnamen und Zellreferenzen der Zellen zu drucken, die in B4 einfließen.`CellsHelper.CellIndexToName` Funktion wandelt Zeilen- und Spaltenindizes in lesbare Zellbezüge wie „A1“, „B2“ usw. um. 
 
 ## Abschluss
 Und da haben Sie es! Sie haben mit Aspose.Cells für .NET erfolgreich Präzedenzfälle in Excel nachverfolgt. Das Verständnis von Zellabhängigkeiten kann Ihre Fähigkeiten im Tabellenkalkulationsmanagement verbessern und für Klarheit bei Ihren datengesteuerten Entscheidungen sorgen. Es ist ein bisschen wie das Lösen eines Puzzles, bei dem Sie herausfinden, woher Ihre Daten kommen. Probieren Sie es jetzt mit Ihren eigenen Daten aus und entfesseln Sie die Leistungsfähigkeit von Aspose.Cells!
@@ -85,4 +85,4 @@ Aspose.Cells ist eine .NET-Bibliothek zum Erstellen, Bearbeiten und Konvertieren
 ### Ist Aspose.Cells mit .NET Core kompatibel?  
 Ja, Aspose.Cells unterstützt .NET Core, sodass Sie es in verschiedenen .NET-Frameworks verwenden können.
 ### Wo finde ich Unterstützung für Aspose.Cells?  
-Hilfe erhalten Sie auf der[Aspose-Supportforum](https://forum.aspose.com/c/cells/9).
+ Hilfe erhalten Sie auf der[Aspose-Supportforum](https://forum.aspose.com/c/cells/9).

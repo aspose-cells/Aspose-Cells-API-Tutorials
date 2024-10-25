@@ -39,7 +39,7 @@ Teraz, gdy mamy już skonfigurowane katalogi, załadujmy skoroszyt (plik program
 //Załaduj plik źródłowy Excel
 Workbook wb = new Workbook(sourceDir + "sampleToFrontOrBack.xlsx");
 ```
- Ta linia kodu inicjuje nowy`Workbook`obiekt, ładując określony plik Excel do pamięci, dzięki czemu możemy z nim pracować.
+ Ta linia kodu inicjuje nowy`Workbook` obiekt, ładując określony plik Excel do pamięci, dzięki czemu możemy z nim pracować.
 ## Krok 3: Uzyskaj dostęp do arkusza kalkulacyjnego 
 Następnie musimy uzyskać dostęp do konkretnego arkusza kalkulacyjnego, w którym znajdują się nasze kształty. W tym przykładzie użyjemy pierwszego arkusza kalkulacyjnego.
 ```csharp
@@ -95,7 +95,7 @@ Na koniec przekażmy proste potwierdzenie, że nasze zadanie zostało pomyślnie
 ```csharp
 Console.WriteLine("SendShapeFrontOrBackInWorksheet executed successfully.\r\n");
 ```
-I tym oto kończymy kod naszego samouczka!
+tym oto kończymy kod naszego samouczka!
 ## Wniosek
 Manipulowanie kształtami w programie Excel przy użyciu Aspose.Cells dla .NET jest nie tylko proste, ale i potężne. Postępując zgodnie z tym przewodnikiem, powinieneś teraz móc łatwo wysyłać kształty na przód lub tył, co pozwoli na lepszą kontrolę nad prezentacjami w programie Excel. Mając do dyspozycji te narzędzia, jesteś gotowy, aby poprawić atrakcyjność wizualną swoich arkuszy kalkulacyjnych.
 ## Najczęściej zadawane pytania

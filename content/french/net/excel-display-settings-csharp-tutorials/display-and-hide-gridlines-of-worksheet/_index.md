@@ -46,7 +46,7 @@ Avant de pouvoir manipuler un fichier Excel, vous devez spécifier l'emplacement
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Dans cette étape, vous attribuerez l'emplacement de votre fichier Excel à l'`dataDir` chaîne. Remplacer`"YOUR DOCUMENT DIRECTORY"` avec le chemin réel où votre`.xls`le fichier est localisé.
+ Dans cette étape, vous attribuerez l'emplacement de votre fichier Excel à l'`dataDir` chaîne. Remplacer`"YOUR DOCUMENT DIRECTORY"` avec le chemin réel où votre`.xls` le fichier est localisé.
 
 ## Étape 2 : Créer un flux de fichiers
 
@@ -86,7 +86,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 Vient maintenant la partie amusante : masquer les lignes de la grille ! Avec une seule ligne de code, vous pouvez activer ou désactiver la visibilité des lignes de la grille.
 
 ```csharp
-// Masquer les lignes de la grille de la première feuille de calcul du fichier Excel
+//Masquer les lignes de la grille de la première feuille de calcul du fichier Excel
 worksheet.IsGridlinesVisible = false;
 ```
 
@@ -116,7 +116,7 @@ La fermeture du flux de fichiers est cruciale car elle garantit que toutes les r
 
 ## Conclusion
 
- Et voilà ! Vous venez d'apprendre à afficher et à masquer des lignes de quadrillage dans une feuille de calcul Excel à l'aide d'Aspose.Cells pour .NET. Que vous souhaitiez peaufiner un rapport ou présenter des données dans un format plus lisible, cette technique simple peut avoir un impact significatif sur l'apparence de vos feuilles de calcul. Le meilleur dans tout ça ? Il suffit de quelques lignes de code pour effectuer de gros changements. Si vous êtes prêt à essayer, n'oubliez pas de vous procurer un[essai gratuit](https://releases.aspose.com/) et commencez à coder !
+Et voilà ! Vous venez d'apprendre à afficher et à masquer des lignes de quadrillage dans une feuille de calcul Excel à l'aide d'Aspose.Cells pour .NET. Que vous souhaitiez peaufiner un rapport ou présenter des données dans un format plus lisible, cette technique simple peut avoir un impact significatif sur l'apparence de vos feuilles de calcul. Le meilleur dans tout ça ? Il suffit de quelques lignes de code pour effectuer de gros changements. Si vous êtes prêt à essayer, n'oubliez pas de vous procurer un[essai gratuit](https://releases.aspose.com/) et commencez à coder !
 
 ## FAQ
 
@@ -124,7 +124,7 @@ La fermeture du flux de fichiers est cruciale car elle garantit que toutes les r
  Vous pouvez définir`worksheet.IsGridlinesVisible = true;` pour rendre les lignes de la grille à nouveau visibles.
 
 ### Puis-je masquer les lignes de quadrillage uniquement pour des plages ou des cellules spécifiques ?  
- Non, le`IsGridlinesVisible`la propriété s'applique à la feuille de calcul entière, pas à des cellules spécifiques.
+ Non, le`IsGridlinesVisible` la propriété s'applique à la feuille de calcul entière, pas à des cellules spécifiques.
 
 ### Puis-je manipuler plusieurs feuilles de calcul en une seule fois ?  
  Oui ! Vous pouvez parcourir la boucle`Worksheets` collectez et appliquez les modifications à chaque feuille.

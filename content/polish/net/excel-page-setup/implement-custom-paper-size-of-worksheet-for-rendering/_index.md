@@ -2,14 +2,14 @@
 title: Wdrażanie niestandardowego rozmiaru papieru arkusza kalkulacyjnego do renderowania
 linktitle: Wdrażanie niestandardowego rozmiaru papieru arkusza kalkulacyjnego do renderowania
 second_title: Aspose.Cells dla .NET API Reference
-description: Dowiedz się, jak ustawić niestandardowe rozmiary papieru w programie Excel za pomocą Aspose.Cells dla .NET. Przewodnik krok po kroku dotyczący płynnego renderowania arkusza kalkulacyjnego.
+description: Naucz się ustawiać niestandardowe rozmiary papieru w programie Excel za pomocą Aspose.Cells dla .NET. Przewodnik krok po kroku dotyczący płynnego renderowania arkusza kalkulacyjnego.
 type: docs
 weight: 50
 url: /pl/net/excel-page-setup/implement-custom-paper-size-of-worksheet-for-rendering/
 ---
 ## Wstęp
 
-Tworzenie i dostosowywanie dokumentów Excel programowo może zwiększyć wydajność pracy, zwłaszcza jeśli masz do czynienia z wieloma raportami lub wpisami danych. Dzięki Aspose.Cells dla .NET możesz łatwo ustawić niestandardowe rozmiary papieru do renderowania arkuszy kalkulacyjnych. W tym samouczku podzielimy proces na łatwe do wykonania kroki, zapewniając, że możesz bezproblemowo wdrożyć tę funkcjonalność. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zanurzasz palce u stóp w świecie .NET,
+Tworzenie i dostosowywanie dokumentów Excela programowo może zwiększyć wydajność pracy, zwłaszcza jeśli masz do czynienia z wieloma raportami lub wpisami danych. Dzięki Aspose.Cells dla .NET możesz łatwo ustawić niestandardowe rozmiary papieru do renderowania arkuszy kalkulacyjnych. W tym samouczku podzielimy proces na łatwe do wykonania kroki, zapewniając, że możesz bezproblemowo wdrożyć tę funkcjonalność. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zanurzasz palce w świecie .NET,
 
 ## Wymagania wstępne
 

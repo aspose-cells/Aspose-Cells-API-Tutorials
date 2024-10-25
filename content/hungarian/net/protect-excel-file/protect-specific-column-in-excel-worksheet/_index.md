@@ -16,7 +16,7 @@ Egy olyan világban, ahol az adatkezelés egyre bonyolultabbá válik, a dokumen
 Mielőtt belemerülne a kódba, meg kell felelnie néhány előfeltételnek:
 
 1. Visual Studio: Győződjön meg arról, hogy telepítve van a Microsoft Visual Studio (lehetőleg 2017 vagy újabb). Ez lesz a fejlesztési környezeted. 
-2.  Aspose.Cells Library: Le kell töltenie az Aspose.Cells könyvtárat, és hivatkoznia kell rá a projektben. Megteheti[a könyvtár letöltése innen](https://releases.aspose.com/cells/net/) ha még nem tetted meg.
+2.  Aspose.Cells Library: Le kell töltenie az Aspose.Cells könyvtárat, és hivatkoznia kell rá a projektben. Tudod[a könyvtár letöltése innen](https://releases.aspose.com/cells/net/) ha még nem tetted meg.
 3. A C# alapvető ismerete: Bár a kódpéldák egyértelműek, a C# alapismerete segít a szükséges módosítások elvégzésében.
 4. .NET-keretrendszer: Győződjön meg arról, hogy projektje azt a .NET-keretrendszert célozza meg, ahol az Aspose.Cells támogatott.
 
@@ -81,7 +81,7 @@ Ha bizonyos oszlopokat védettként szeretne beállítani, először fel kell ol
 Style style;
 // Határozza meg a stílusjelző objektumot.
 StyleFlag flag;
-// Lapozzon végig a munkalap összes oszlopán, és oldja fel a zárolást.
+// Lapozzon át a munkalap összes oszlopán, és oldja fel őket.
 for (int i = 0; i <= 255; i++)
 {
     style = sheet.Cells.Columns[(byte)i].Style;

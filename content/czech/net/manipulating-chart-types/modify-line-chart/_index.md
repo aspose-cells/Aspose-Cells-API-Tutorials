@@ -9,7 +9,7 @@ url: /cs/net/manipulating-chart-types/modify-line-chart/
 ---
 ## Zavedení
 
-Vytváření vizuálně přitažlivých a informativních grafů je nezbytné pro efektivní reprezentaci dat, zejména v obchodním a akademickém prostředí. Jak ale vylepšíte své spojnicové grafy, aby zprostředkovaly příběh za čísly? Zde vstupuje do hry Aspose.Cells for .NET. V tomto článku se ponoříme do používání Aspose.Cells k úpravě stávajícího spojnicového grafu bez námahy. Pokryjeme vše od nezbytných předpokladů až po podrobné pokyny, které vám pomohou co nejlépe využít vaše úsilí o vizualizaci dat. 
+Vytváření vizuálně přitažlivých a informativních grafů je nezbytné pro efektivní reprezentaci dat, zejména v obchodním a akademickém prostředí. Jak ale vylepšíte své spojnicové grafy, aby zprostředkovaly příběh za čísly? Zde vstupuje do hry Aspose.Cells for .NET. V tomto článku se ponoříme do používání Aspose.Cells k úpravě stávajícího spojnicového grafu bez námahy. Pokryjeme vše od nezbytných předpokladů až po podrobné pokyny, které vám pomohou maximálně využít vaše úsilí o vizualizaci dat. 
 
 ## Předpoklady 
 
@@ -151,7 +151,7 @@ Ano, pomocí podobných metod můžete upravovat různé typy grafů (napříkla
  Absolutně! Můžete si to vyzkoušet zdarma[zde](https://releases.aspose.com/).
 
 ### Jak mohu po přidání řad změnit typ grafu?
- Můžete použít`ChartType` vlastnost pro nastavení nového typu grafu pro váš graf.
+Můžete použít`ChartType` vlastnost pro nastavení nového typu grafu pro váš graf.
 
 ### Kde najdu podrobnější dokumentaci?
  Podívejte se na dokumentaci[zde](https://reference.aspose.com/cells/net/).

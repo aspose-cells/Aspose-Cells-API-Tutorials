@@ -35,7 +35,7 @@ string dataDir = "Your Document Directory";
 ## चरण 2: यदि निर्देशिका मौजूद नहीं है तो उसे बनाएँ
 इसके बाद, हम यह सुनिश्चित करना चाहते हैं कि यह निर्देशिका मौजूद है। अगर ऐसा नहीं है, तो हमें इसे बनाना होगा।
 ```csharp
-//यदि निर्देशिका पहले से मौजूद नहीं है तो उसे बनाएं।
+// यदि निर्देशिका पहले से मौजूद नहीं है तो उसे बनाएं।
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -58,7 +58,7 @@ Worksheet sheet = workbook.Worksheets[0];
 ## चरण 5: छवि के लिए पथ निर्धारित करें
 अब, उस छवि के लिए पथ निर्धारित करें जिसे आप अपनी एक्सेल फ़ाइल में एम्बेड करना चाहते हैं।
 ```csharp
-// छवि पथ को संग्रहीत करने के लिए एक स्ट्रिंग चर परिभाषित करें.
+//छवि पथ को संग्रहीत करने के लिए एक स्ट्रिंग चर परिभाषित करें.
 string ImageUrl = dataDir + "logo.jpg";
 ```
  सुनिश्चित करें कि यह पथ सही ढंग से दर्शाता है कि आपका`logo.jpg` फ़ाइल संग्रहीत है.
@@ -87,7 +87,7 @@ string path = dataDir + "book1.xls";
 ```csharp
 // फ़ाइल को स्ट्रीम में डालें.
 fs = File.OpenRead(path);
-// बाइट्स की एक सरणी परिभाषित करें.
+//बाइट्स की एक सरणी परिभाषित करें.
 byte[] objectData = new Byte[fs.Length];
 // स्ट्रीम्स से फ़ाइल संग्रहीत करें.
 fs.Read(objectData, 0, objectData.Length);

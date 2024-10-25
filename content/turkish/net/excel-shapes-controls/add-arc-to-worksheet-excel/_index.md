@@ -38,7 +38,7 @@ Excel'de bir çalışma sayfasına yayların nasıl ekleneceğini gösteren kodu
 İlk adım Excel dosyanızı kaydedeceğiniz bir dizin oluşturmaktır. Bu, çıktı dosyalarınızı kolayca yönetmenize yardımcı olur.
 ```csharp
 string dataDir = "Your Document Directory";
-//Eğer mevcut değilse dizin oluşturun.
+// Eğer mevcut değilse dizin oluşturun.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);

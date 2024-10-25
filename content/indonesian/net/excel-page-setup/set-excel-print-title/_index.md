@@ -61,9 +61,9 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
  Ganti saja`"YOUR DOCUMENT DIRECTORY"` dengan jalur tempat Anda ingin menyimpan file Excel Anda. Misalnya, Anda dapat menggunakan`@"C:\Reports\"`.
 
-## Langkah 2: Membuat Instansi Objek Buku Kerja
+## Langkah 2: Membuat Instansiasi Objek Buku Kerja
 
- Selanjutnya, kita membuat sebuah instance dari`Workbook`kelas, yang merepresentasikan berkas Excel.
+ Selanjutnya, kita membuat sebuah instance dari`Workbook` kelas, yang merepresentasikan berkas Excel.
 
 ```csharp
 Workbook workbook = new Workbook();

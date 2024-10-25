@@ -49,7 +49,7 @@ Pertama, kita perlu menentukan direktori tempat kita akan menyimpan berkas Excel
 // Jalur ke direktori dokumen.
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // ubah ke jalur yang Anda inginkan.
 
-//Buat direktori jika belum ada.
+// Buat direktori jika belum ada.
 bool isExists = System.IO.Directory.Exists(dataDir);
 if (!isExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -88,7 +88,7 @@ StyleFlag flag;
 for (int i = 0; i <= 255; i++)
 {
     style = sheet.Cells.Columns[(byte)i].Style;
-    style.IsLocked = false; // Buka kunci kolom
+    style.IsLocked = false; //Buka kunci kolom
     flag = new StyleFlag();
     flag.Locked = true; // Tetapkan bendera ke benar untuk penguncian
     sheet.Cells.Columns[(byte)i].ApplyStyle(style, flag); // Terapkan gaya

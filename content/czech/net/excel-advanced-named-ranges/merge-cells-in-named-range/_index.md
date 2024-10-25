@@ -44,7 +44,7 @@ Workbook wb1 = new Workbook();
 
 Inicializací nového sešitu máme nyní prázdný soubor Excel připravený k manipulaci. Je to jako začít s prázdným plátnem!
 
-## Krok 2: Otevřete první list
+## Krok 2: Otevřete první pracovní list
 
 Každý sešit obsahuje pracovní listy a v tomto případě chceme pracovat s tím prvním. Vezmeme to!
 
@@ -60,7 +60,7 @@ Představte si list jako jednotlivé karty v souboru aplikace Excel, kde jsou ul
 Nyní, když máme náš pracovní list, je čas vytvořit rozsah. Rozsah označuje blok buněk, který může zahrnovat více řádků a sloupců.
 
 ```csharp
-// Vytvořte rozsah.
+//Vytvořte rozsah.
 Range mrange = worksheet1.Cells.CreateRange("D6", "I12");
 ```
 
@@ -133,7 +133,7 @@ flag.CellShading = true;
 range1.ApplyStyle(style, flag);
 ```
 
- The`StyleFlag`říká Aspose.Cells, které vlastnosti stylu použít – zarovnání, stínování atd. To vám dává podrobnou kontrolu nad tím, jak je styl aplikován.
+ The`StyleFlag` říká Aspose.Cells, které vlastnosti stylu použít – zarovnání, stínování atd. To vám dává podrobnou kontrolu nad tím, jak je styl aplikován.
 
 ## Krok 9: Zadejte data do sloučeného rozsahu
 
@@ -159,7 +159,7 @@ Zde je sešit uložen pod názvem "outputMergeCellsInNamedRange.xlsx" ve vámi z
 
 ## Závěr
 
-tady to máte! Úspěšně jste sloučili buňky v pojmenovaném rozsahu, použili krásné formátování a dokonce jste vložili některá data – to vše pomocí Aspose.Cells pro .NET. Ať už pracujete na automatizaci sestav, manipulaci s excelovými soubory nebo se jen učíte nové techniky, tento podrobný průvodce by vám měl poskytnout základ, který potřebujete.
+A tady to máte! Úspěšně jste sloučili buňky v pojmenovaném rozsahu, použili krásné formátování a dokonce jste vložili některá data – to vše pomocí Aspose.Cells pro .NET. Ať už pracujete na automatizaci sestav, manipulaci s excelovými soubory nebo se jen učíte nové techniky, tento podrobný průvodce by vám měl poskytnout základ, který potřebujete.
 
 ## FAQ
 

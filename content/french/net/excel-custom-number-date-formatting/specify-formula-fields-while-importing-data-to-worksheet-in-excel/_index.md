@@ -177,5 +177,5 @@ Aspose.Cells est une bibliothèque .NET conçue pour créer, manipuler et conver
  Des exemples et de la documentation supplémentaires peuvent être trouvés sur le site[Page de documentation d'Aspose](https://reference.aspose.com/cells/net/).
 
 ### Que faire si je rencontre des problèmes lors de l’utilisation d’Aspose ?
-Vous pouvez demander de l'aide sur le forum d'assistance Aspose[ici](https://forum.aspose.com/c/cells/9).
+ Vous pouvez demander de l'aide sur le forum d'assistance Aspose[ici](https://forum.aspose.com/c/cells/9).
  

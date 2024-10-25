@@ -2,7 +2,7 @@
 title: Zarovnání a formátování dat v Excelu
 linktitle: Zarovnání a formátování dat v Excelu
 second_title: Aspose.Cells .NET Excel Processing API
-description: Zjistěte, jak změnit zarovnání buněk aplikace Excel bez ztráty formátování v Aspose.Cells pro .NET. Naučte se krok za krokem tutoriál pro bezproblémové formátování dat v Excelu.
+description: Objevte, jak změnit zarovnání buněk aplikace Excel bez ztráty formátování v Aspose.Cells pro .NET. Naučte se krok za krokem tutoriál pro bezproblémové formátování dat v Excelu.
 type: docs
 weight: 36
 url: /cs/net/excel-data-alignment-formatting/

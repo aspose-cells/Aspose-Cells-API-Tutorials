@@ -51,7 +51,7 @@ using Aspose.Cells;
 ```csharp
 // Η διαδρομή προς τον κατάλογο εγγράφων.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-//Δημιουργήστε κατάλογο εάν δεν υπάρχει ήδη.
+// Δημιουργήστε κατάλογο εάν δεν υπάρχει ήδη.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);

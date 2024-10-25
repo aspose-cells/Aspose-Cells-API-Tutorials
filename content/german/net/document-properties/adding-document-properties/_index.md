@@ -68,6 +68,6 @@ Sie können Zeichenfolgen, Zahlen und sogar Daten in Ihren benutzerdefinierten E
 ### Ist die Nutzung von Aspose.Cells kostenlos?
  Aspose.Cells bietet eine kostenlose Testversion an. Für den vollen Funktionsumfang ist ein Kauf erforderlich. Schauen Sie sich die[Preisoptionen hier](https://purchase.aspose.com/buy).
 ### Wo finde ich die Aspose.Cells-Dokumentation?
- Eine ausführliche Dokumentation finden Sie[Hier](https://reference.aspose.com/cells/net/).
+Eine ausführliche Dokumentation finden Sie[Hier](https://reference.aspose.com/cells/net/).
 ### Was ist, wenn ich bei der Verwendung von Aspose.Cells Hilfe benötige?
  Besuchen Sie die[Aspose-Supportforum](https://forum.aspose.com/c/cells/9) um Unterstützung von ihrer Community und ihrem Support-Team.

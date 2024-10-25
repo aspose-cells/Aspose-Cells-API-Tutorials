@@ -53,7 +53,7 @@ Ensuite, nous allons créer une instance du classeur. Cela revient à ouvrir une
 Workbook workbook = new Workbook();
 ```
 
-Explication : Le`Workbook` La classe représente un fichier Excel. En l'instanciant, vous créez essentiellement un nouveau document Excel que vous pouvez manipuler.
+ Explication : Le`Workbook` La classe représente un fichier Excel. En l'instanciant, vous créez essentiellement un nouveau document Excel que vous pouvez manipuler.
 
 ## Étape 3 : Accéder à la première feuille de travail
 
@@ -138,7 +138,7 @@ flg.Font = true; // Activer les attributs de police
 flg.CellShading = true; // Activer l'ombrage des cellules
 ```
 
-Explication : Le`StyleFlag` L'objet indique à la bibliothèque les propriétés de style que nous voulons appliquer, un peu comme cocher des cases sur une liste de tâches !
+ Explication : Le`StyleFlag` L'objet indique à la bibliothèque les propriétés de style que nous voulons appliquer, un peu comme cocher des cases sur une liste de tâches !
 
 ## Étape 11 : Appliquer le style à la plage
 
@@ -150,7 +150,7 @@ range.ApplyStyle(stl, flg); // Appliquer le style créé
 
 Explication : Cette ligne reprend notre style défini et l'applique à la gamme spécifiée ! Si c'était de la cuisine, nous assaisonnerions enfin notre plat.
 
-## Étape 12 : Enregistrez le fichier Excel
+## Étape 12 : Enregistrer le fichier Excel
 
 Enfin et surtout, nous voulons sauvegarder notre travail. 
 

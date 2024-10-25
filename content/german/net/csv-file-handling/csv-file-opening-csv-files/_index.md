@@ -14,7 +14,7 @@ Bevor wir anfangen, CSV-Dateien zu öffnen und unsere Programmierkenntnisse unte
 ### Grundlegende Kenntnisse in C# und .NET Framework
 Um loszulegen, sollten Sie über gute Kenntnisse in C# und dem .NET-Framework verfügen. Es ist wichtig, die Grundlagen der objektorientierten Programmierung zu verstehen, da wir Klassen und Methoden ausgiebig verwenden werden.
 ### Aspose.Cells-Bibliothek
- Zuallererst benötigen Sie die Aspose.Cells-Bibliothek. Es handelt sich um eine .NET-API zum Bearbeiten von Excel-Dateien und zum nahtlosen Arbeiten mit verschiedenen Datenformaten. Sie können entweder[Laden Sie die Bibliothek herunter](https://releases.aspose.com/cells/net/) oder richten Sie es über NuGet in Ihrem Projekt ein.
+Zuallererst benötigen Sie die Aspose.Cells-Bibliothek. Es handelt sich um eine .NET-API zum Bearbeiten von Excel-Dateien und zum nahtlosen Arbeiten mit verschiedenen Datenformaten. Sie können entweder[Laden Sie die Bibliothek herunter](https://releases.aspose.com/cells/net/) oder richten Sie es über NuGet in Ihrem Projekt ein.
 ### IDE-Einrichtung
 Sie benötigen außerdem eine geeignete Entwicklungsumgebung. Visual Studio ist eine gute Wahl, da es eine benutzerfreundliche Oberfläche zum Codieren, Debuggen und Bereitstellen Ihrer .NET-Anwendungen bietet.
 ### CSV-Datei zum Üben
@@ -42,9 +42,9 @@ LoadOptions loadOptions4 = new LoadOptions(LoadFormat.Csv);
 ```
  Hier,`LoadFormat.Csv` teilt Aspose mit, dass es sich um eine CSV-Datei handelt. Betrachten Sie es als die Wahl der richtigen Sprache für ein Gespräch. Es stellt sicher, dass beide Parteien einander perfekt verstehen.
 ## Schritt 3: Erstellen eines Arbeitsmappenobjekts
-Jetzt geht’s los! Es ist Zeit für eine`Workbook` Objekt, das als Ihr Hauptarbeitsbereich dient, in dem Sie alle Vorgänge im Zusammenhang mit Ihrer CSV-Datei ausführen.
+ Jetzt geht’s los! Es ist Zeit für eine`Workbook` Objekt, das als Ihr Hauptarbeitsbereich dient, in dem Sie alle Vorgänge im Zusammenhang mit Ihrer CSV-Datei ausführen.
 ```csharp
-// Erstellen Sie ein Arbeitsmappenobjekt und öffnen Sie die Datei über seinen Pfad
+//Erstellen Sie ein Arbeitsmappenobjekt und öffnen Sie die Datei über seinen Pfad
 Workbook wbCSV = new Workbook(dataDir + "Book_CSV.csv", loadOptions4);
 ```
  Diese Zeile ist wie das Öffnen der Tür zu Ihren Daten. Mit Ihrem`Workbook` Wenn das Objekt bereit ist, haben Sie vollen Zugriff auf die Daten in Ihrer CSV-Datei. Es ist, als ob Sie die Schlüssel zu einer Schatztruhe voller Informationen erhalten würden!

@@ -17,7 +17,7 @@ Szeretett volna valaha több nem szomszédos cellát egyetlen tartományba egyes
 
 ## Cím, cellaszám és eltolás az Excel teljes tartományához
 
- Következő lépésként beszéljünk a tartomány-manipuláció lényegéről! Előfordult már, hogy elveszett az adatok tengerében, és nehezen nyomon követheti, hol vannak a dolgok? Az oktatóanyag a[Cím, cellaszám és eltolás az Excel teljes tartományához](./get-address-cell-count-and-offset-for-entire-excel-range/)célja, hogy segítsen visszanyerni a lábát az Excelben. Lebontjuk, hogyan lehet lekérni egy tartomány címét, megszámoljuk a benne lévő cellák számát, és gyorsan és pontosan kiszámítjuk az eltolásokat. Képzelje el úgy, mint egy GPS-t az adatok tárolására – nincs többé találgatás, hol van minden. Az útmutató végére nemcsak az elméletet fogja megérteni, hanem a valós alkalmazásokat bemutató gyakorlati példákkal is bemocskolja a kezét.
+ Következő lépésként beszéljünk a tartomány-manipuláció lényegéről! Előfordult már, hogy elveszett az adatok tengerében, és nehezen nyomon követheti, hol vannak a dolgok? Az oktatóanyag a[Cím, cellaszám és eltolás az Excel teljes tartományához](./get-address-cell-count-and-offset-for-entire-excel-range/)célja, hogy segítsen visszanyerni a lábát az Excelben. Lebontjuk, hogyan lehet lekérni egy tartomány címét, megszámoljuk a benne lévő cellák számát, és gyorsan és pontosan kiszámítjuk az eltolásokat. Képzelje el úgy, mint egy GPS-t az adatok tárolására – nem kell többé találgatnia, hol van minden. Az útmutató végére nemcsak az elméletet fogja megérteni, hanem a valós alkalmazásokat bemutató gyakorlati példákkal is bemocskolja a kezét.
 
 
 ## Excel tartomány- és címszámítási oktatóanyagok

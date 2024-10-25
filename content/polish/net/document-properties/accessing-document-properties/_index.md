@@ -35,7 +35,7 @@ string dataDir = "Your Document Directory";
 ```csharp
 Workbook workbook = new Workbook(dataDir + "sample-document-properties.xlsx");
 ```
- Tutaj ładujemy nasz konkretny plik Excela,`"sample-document-properties.xlsx"`Ważne jest, aby ten plik znajdował się w określonym katalogu, w przeciwnym razie wystąpią błędy.
+ Tutaj ładujemy nasz konkretny plik Excela,`"sample-document-properties.xlsx"`. Ważne jest, aby ten plik znajdował się w określonym katalogu, w przeciwnym razie wystąpią błędy.
 ## Krok 3: Pobierz niestandardowe właściwości dokumentu
 Po załadowaniu skoroszytu możemy skorzystać z jego skarbnicy właściwości. Przyjrzyjmy się, jak można uzyskać dostęp do tych właściwości:
 ```csharp
@@ -69,4 +69,4 @@ Oczywiście! Możesz czytać, zapisywać i modyfikować pliki Excela za pomocą 
 ### Czy użytkownicy Aspose.Cells mają dostęp do pomocy technicznej?
  Tak, możesz uzyskać dostęp do obszernych zasobów pomocy technicznej, w tym forów i dokumentacji, dostępnych[Tutaj](https://forum.aspose.com/c/cells/9).
 ### Jak mogę uzyskać tymczasową licencję na Aspose.Cells?
- Możesz złożyć wniosek o tymczasową licencję na ocenę produktu, odwiedzając stronę[ten link](https://purchase.aspose.com/temporary-license/).
+Możesz złożyć wniosek o tymczasową licencję na ocenę produktu, odwiedzając stronę[ten link](https://purchase.aspose.com/temporary-license/).

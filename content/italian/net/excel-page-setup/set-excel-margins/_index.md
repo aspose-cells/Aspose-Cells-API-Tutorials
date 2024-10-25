@@ -82,9 +82,9 @@ Ora sei pronto per modificare questo foglio di lavoro!
 
 ## Passaggio 4: accedere all'oggetto Imposta pagina
 
- Per modificare i margini, dobbiamo lavorare con`PageSetup`oggetto. Questo oggetto fornisce proprietà che controllano il layout della pagina, inclusi i margini.
+ Per modificare i margini, dobbiamo lavorare con`PageSetup` oggetto. Questo oggetto fornisce proprietà che controllano il layout della pagina, inclusi i margini.
 
- Ottieni il`PageSetup` proprietà dal foglio di lavoro:
+Ottieni il`PageSetup` proprietà dal foglio di lavoro:
 
 ```csharp
 PageSetup pageSetup = worksheet.PageSetup;

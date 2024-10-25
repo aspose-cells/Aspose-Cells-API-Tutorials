@@ -63,7 +63,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Passaggio 2: creare un'istanza di un oggetto cartella di lavoro
 
- Successivamente, creiamo un'istanza di`Workbook`classe, che rappresenta un file Excel.
+ Successivamente, creiamo un'istanza di`Workbook` classe, che rappresenta un file Excel.
 
 ```csharp
 Workbook workbook = new Workbook();

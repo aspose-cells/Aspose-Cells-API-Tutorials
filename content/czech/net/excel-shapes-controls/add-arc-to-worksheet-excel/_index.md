@@ -38,7 +38,7 @@ Zde je podrobný rozpis kódu, který ukazuje, jak přidat oblouky do listu v ap
 Prvním krokem je nastavení adresáře, kam budete soubor Excelu ukládat. To pomáhá snadno spravovat vaše výstupní soubory.
 ```csharp
 string dataDir = "Your Document Directory";
-//Vytvořte adresář, pokud ještě není přítomen.
+// Vytvořte adresář, pokud ještě není přítomen.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);

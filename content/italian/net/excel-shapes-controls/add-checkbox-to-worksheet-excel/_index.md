@@ -38,7 +38,7 @@ Per prima cosa, dobbiamo assicurarci che la directory per salvare il nostro file
 ```csharp
 // Percorso verso la directory dei documenti.
 string dataDir = "Your Document Directory";
-//Creare la directory se non è già presente.
+// Creare la directory se non è già presente.
 bool isExists = System.IO.Directory.Exists(dataDir);
 if (!isExists)
     System.IO.Directory.CreateDirectory(dataDir);

@@ -39,7 +39,7 @@ Artık dizinlerimizi ayarladığımıza göre, düzenlemek istediğimiz şekille
 //Kaynak Excel dosyasını yükle
 Workbook wb = new Workbook(sourceDir + "sampleToFrontOrBack.xlsx");
 ```
- Bu kod satırı yeni bir başlatır`Workbook`nesnesi, belirtilen Excel dosyasını belleğe yükleyerek üzerinde çalışmamızı sağlar.
+ Bu kod satırı yeni bir başlatır`Workbook` nesnesi, belirtilen Excel dosyasını belleğe yükleyerek üzerinde çalışmamızı sağlar.
 ## Adım 3: Çalışma Sayfasına Erişim 
 Sonra, şekillerimizin bulunduğu belirli çalışma sayfasına erişmemiz gerekiyor. Bu örnek için ilk çalışma sayfasını kullanacağız.
 ```csharp

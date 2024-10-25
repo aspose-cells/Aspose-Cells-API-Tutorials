@@ -39,7 +39,7 @@ string dataDir = "Your Document Directory";
 ```
  Vervangen`"Your Document Directory"` met het werkelijke pad waar uw Excel-bestand zich bevindt. Als het bijvoorbeeld is opgeslagen in`C:\Documents` , zou je schrijven`string dataDir = "C:\\Documents";`De dubbele backslashes zijn nodig in C# om het backslash-teken te escapen.
 ## Stap 2: LoadOptions instantiëren
- Vervolgens moet u een exemplaar van de maken`LoadOptions`klasse. Deze klasse helpt ons verschillende laadopties te specificeren, inclusief het wachtwoord dat nodig is om een gecodeerd bestand te openen.
+ Vervolgens moet u een exemplaar van de maken`LoadOptions` klasse. Deze klasse helpt ons verschillende laadopties te specificeren, inclusief het wachtwoord dat nodig is om een gecodeerd bestand te openen.
 ```csharp
 // Instantieer LoadOptions
 LoadOptions loadOptions = new LoadOptions();
@@ -58,7 +58,7 @@ loadOptions.Password = "1234"; // Vervang "1234" met uw eigen wachtwoord
 // Maak een werkmapobject en open het bestand via het pad
 Workbook wbEncrypted = new Workbook(dataDir + "encryptedBook.xls", loadOptions);
 ```
- Hier bouw je een nieuwe`Workbook` object en het pad naar uw gecodeerde bestand doorgeven en de`loadOptions`die uw wachtwoord bevatten. Als alles goed gaat, zou deze regel uw gecodeerde bestand succesvol moeten openen.
+ Hier bouw je een nieuwe`Workbook` object en het pad naar uw gecodeerde bestand doorgeven en de`loadOptions` die uw wachtwoord bevatten. Als alles goed gaat, zou deze regel uw gecodeerde bestand succesvol moeten openen.
 ## Stap 5: Bevestig succesvolle toegang tot het bestand
 Ten slotte is het een goed idee om te controleren of u het bestand succesvol hebt geopend. 
 ```csharp
@@ -70,7 +70,7 @@ Gefeliciteerd! U hebt succesvol geleerd hoe u versleutelde Excel-bestanden opent
  Onthoud dat het lastig kan zijn om met gecodeerde bestanden te werken, maar met tools als Aspose.Cells wordt het een fluitje van een cent. Als je graag dieper wilt graven, bekijk dan de[documentatie](https://reference.aspose.com/cells/net/) voor meer geavanceerde functies.
 ## Veelgestelde vragen
 ### Kan ik Excel-bestanden openen die met verschillende wachtwoorden zijn versleuteld?
- Ja, werk de`Password` veld in de`LoadOptions`zodat het overeenkomt met het wachtwoord van het Excel-bestand dat u wilt openen.
+ Ja, werk de`Password` veld in de`LoadOptions` zodat het overeenkomt met het wachtwoord van het Excel-bestand dat u wilt openen.
 ### Is Aspose.Cells gratis te gebruiken?
  Aspose.Cells is niet gratis, maar je kunt wel beginnen met een[gratis proefperiode](https://releases.aspose.com/) om de kenmerken ervan te verkennen.
 ### Welke typen Excel-bestanden kan Aspose.Cells verwerken?

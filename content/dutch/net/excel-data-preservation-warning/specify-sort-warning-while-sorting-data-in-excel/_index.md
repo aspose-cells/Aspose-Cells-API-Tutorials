@@ -127,7 +127,7 @@ En dat is alles! Uw gesorteerde gegevens zijn nu opgeslagen in een nieuw bestand
 
 ## Conclusie
 
-In deze tutorial hebben we de stappen ontrafeld om data te sorteren in Excel met Aspose.Cells voor .NET. Het sorteren van data lijkt misschien een triviale taak, maar met de juiste tools en kennis kunt u een hoop problemen besparen, vooral als u werkt met getallen die als tekst zijn opgeslagen. Door deze stappen te volgen, hebt u niet alleen geleerd hoe u moet sorteren, maar ook hoe u veelvoorkomende valkuilen bij het sorteren aanpakt, zoals verschillen tussen tekst en getallen. Ga dus aan de slag, probeer deze stappen uit in uw eigen projecten en raak nooit meer de weg kwijt in de datajungle!
+In deze tutorial hebben we de stappen ontrafeld om data te sorteren in Excel met Aspose.Cells voor .NET. Het sorteren van data lijkt misschien een triviale taak, maar met de juiste tools en kennis kunt u een hoop problemen besparen, vooral als u werkt met getallen die zijn opgeslagen als tekst. Door deze stappen te volgen, hebt u niet alleen geleerd hoe u moet sorteren, maar ook hoe u veelvoorkomende valkuilen bij het sorteren aanpakt, zoals verschillen tussen tekst en getallen. Ga dus aan de slag, probeer deze stappen uit in uw eigen projecten en raak nooit meer de weg kwijt in de datajungle!
 
 ## Veelgestelde vragen
 

@@ -53,7 +53,7 @@ A continuación, deberá crear una secuencia de archivos para abrir el archivo d
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
 
-Aquí especificamos que queremos abrir`book1.xls` Ubicado en el directorio especificado. El`FileMode.Open` El parámetro indica que estamos abriendo un archivo existente. Asegúrese siempre de que el nombre del archivo coincida con el que tiene.
+ Aquí especificamos que queremos abrir`book1.xls` Ubicado en el directorio especificado. El`FileMode.Open` El parámetro indica que estamos abriendo un archivo existente. Asegúrese siempre de que el nombre del archivo coincida con el que tiene.
 
 ## Paso 3: Crear una instancia de un objeto de libro de trabajo
 
@@ -83,7 +83,7 @@ En este fragmento de código, accedemos a la primera hoja de cálculo del libro.
 worksheet.IsRowColumnHeadersVisible = false;
 ```
 
- Configuración`IsRowColumnHeadersVisible` a`false`Ocultará eficazmente los encabezados tanto en filas como en columnas, creando una apariencia más limpia para la presentación de sus datos.
+ Configuración`IsRowColumnHeadersVisible` a`false` Ocultará eficazmente los encabezados tanto en filas como en columnas, creando una apariencia más limpia para la presentación de sus datos.
 
 ## Paso 6: Guarde el archivo Excel modificado
 

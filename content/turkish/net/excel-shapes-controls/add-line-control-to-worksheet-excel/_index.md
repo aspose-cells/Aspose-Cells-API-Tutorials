@@ -42,7 +42,7 @@ string dataDir = "Your Document Directory";
 ## Adım 2: Dizini Oluşturun
 Dizinin var olduğundan emin olmak iyi bir uygulamadır. Yoksa, aşağıdaki kodla oluşturabilirsiniz:
 ```csharp
-//Eğer mevcut değilse dizin oluşturun.
+// Eğer mevcut değilse dizin oluşturun.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);

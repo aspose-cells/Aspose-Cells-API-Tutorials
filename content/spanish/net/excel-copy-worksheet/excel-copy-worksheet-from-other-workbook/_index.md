@@ -79,9 +79,9 @@ Aquí, creamos el primer libro de trabajo y completamos la primera hoja de traba
 Configuremos la página para repetir las filas de encabezado al imprimir, solo para que podamos ver esa función en acción:
 
 ```csharp
-//Defina un objeto pagesetup basado en la primera hoja de cálculo
+// Defina un objeto pagesetup basado en la primera hoja de cálculo
 PageSetup pagesetup = ws0.PageSetup;
-// Las primeras cinco filas se repiten en cada página.
+//Las primeras cinco filas se repiten en cada página.
 pagesetup.PrintTitleRows = "$1:$5";
 ```
  Esta parte define cómo se imprimirá el documento. Al configurar`PrintTitleRows`Nos aseguramos de que las primeras cinco filas aparezcan en cada página impresa, lo que resulta muy útil para la legibilidad.
@@ -109,7 +109,7 @@ Copiemos el contenido de la hoja de trabajo del primer libro de trabajo al segun
 // Primera hoja de trabajo del segundo libro de trabajo
 ws1.Copy(ws0);
 ```
- El`Copy` El método toma todo el contenido de la hoja de cálculo de origen (`ws0`y lo duplica en la hoja de cálculo de destino (`ws1`) Tan simple, ¿verdad?
+ El`Copy` El método toma todo el contenido de la hoja de cálculo de origen (`ws0`) y lo duplica en la hoja de cálculo de destino (`ws1`) Tan simple, ¿verdad?
 
 ## Paso 6: Guardar el nuevo libro de trabajo
 

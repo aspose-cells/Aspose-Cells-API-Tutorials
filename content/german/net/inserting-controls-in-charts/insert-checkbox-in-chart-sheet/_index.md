@@ -70,7 +70,7 @@ string outputDir = "C:\\YourOutputDirectory\\"; // Wechseln Sie in das angegeben
 
 ## Schritt 2: Instanziieren eines Arbeitsmappenobjekts
 
-Als nächstes erstellen wir eine Instanz des`Workbook` Klasse. Hier findet unsere gesamte Arbeit statt.
+ Als nächstes erstellen wir eine Instanz des`Workbook` Klasse. Hier findet unsere gesamte Arbeit statt.
 ```csharp
 Workbook workbook = new Workbook();
 ```

@@ -31,7 +31,7 @@ using Aspose.Cells;
 using System.Drawing;r
 ```
 
- Der`Aspose.Cells` Namespace enthält alle Klassen, die wir zur Bearbeitung von Excel-Dateien benötigen. Der`System.Drawing` Der Namespace hilft uns bei der Farbverwaltung, denn was wäre Formatierung ohne ein paar Farben, oder?
+ Der`Aspose.Cells` Namespace enthält alle Klassen, die wir zum Bearbeiten von Excel-Dateien benötigen. Der`System.Drawing` Der Namespace hilft uns bei der Farbverwaltung, denn was wäre Formatierung ohne ein paar Farben, oder?
 
 Lassen Sie uns nun den Vorgang der Formatierung von Bereichen in einer Excel-Tabelle in klare und überschaubare Schritte aufteilen.
 
@@ -53,7 +53,7 @@ Als Nächstes erstellen wir eine Instanz der Arbeitsmappe. Das ist, als würden 
 Workbook workbook = new Workbook();
 ```
 
-Erläuterung: Die`Workbook` Klasse stellt eine Excel-Datei dar. Indem Sie sie instanziieren, erstellen Sie im Wesentlichen ein neues Excel-Dokument, das Sie bearbeiten können.
+ Erläuterung: Die`Workbook` Klasse stellt eine Excel-Datei dar. Indem Sie sie instanziieren, erstellen Sie im Wesentlichen ein neues Excel-Dokument, das Sie bearbeiten können.
 
 ## Schritt 3: Zugriff auf das erste Arbeitsblatt
 
@@ -138,7 +138,7 @@ flg.Font = true; // Schriftattribute aktivieren
 flg.CellShading = true; // Zellenschattierung aktivieren
 ```
 
-Erläuterung: Die`StyleFlag` Das Objekt teilt der Bibliothek mit, welche Stileigenschaften wir anwenden möchten – ungefähr so, als würden wir Kästchen auf einer To-Do-Liste abhaken!
+ Erläuterung: Die`StyleFlag` Das Objekt teilt der Bibliothek mit, welche Stileigenschaften wir anwenden möchten – ungefähr so, als würden wir Kästchen auf einer To-Do-Liste abhaken!
 
 ## Schritt 11: Den Stil auf den Bereich anwenden
 

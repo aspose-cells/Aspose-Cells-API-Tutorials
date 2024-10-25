@@ -38,7 +38,7 @@ using Aspose.Cells;
 ```csharp
 // दस्तावेज़ निर्देशिका का पथ.
 string dataDir = "Your Document Directory";
-//यदि निर्देशिका पहले से मौजूद नहीं है तो उसे बनाएं।
+// यदि निर्देशिका पहले से मौजूद नहीं है तो उसे बनाएं।
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -80,7 +80,7 @@ Comment comment = worksheet.Comments[commentIndex];
 ```
 इस चरण में, हम अपना स्टिकी नोट पुनः प्राप्त कर रहे हैं, ताकि हम उस पर अपने विचार लिख सकें।
 ## चरण 7: टिप्पणी नोट सेट करना
-अब, समय आ गया है कि हम अपनी टिप्पणी लिखें। आइये, टिप्पणी में कुछ पाठ जोड़ें।
+अब, समय आ गया है कि हम अपनी टिप्पणी लिखें। आइये टिप्पणी में कुछ पाठ जोड़ें।
 ```csharp
 // टिप्पणी नोट सेट करना
 comment.Note = "Hello Aspose!";

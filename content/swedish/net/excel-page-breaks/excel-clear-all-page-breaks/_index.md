@@ -60,7 +60,7 @@ Workbook workbook = new Workbook();
 
 ## Steg 3: Rensa horisontella sidbrytningar
 
-Därefter ska vi ta itu med de horisontella sidbrytningarna. Det är här det kan bli lite rörigt och du vill ta kontroll.
+Därefter kommer vi att ta itu med de horisontella sidbrytningarna. Det är här det kan bli lite rörigt och du vill ta kontroll.
 
 ```csharp
 workbook.Worksheets[0].HorizontalPageBreaks.Clear();

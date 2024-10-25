@@ -16,7 +16,7 @@ I grafici interattivi aggiungono una nuova dimensione alla visualizzazione dei d
 
 Prima di iniziare, assicurati di disporre dei seguenti prerequisiti:
 - Ambiente di sviluppo Java
--  Aspose.Cells per la libreria Java (scarica da[Qui](https://releases.aspose.com/cells/java/)
+- Aspose.Cells per la libreria Java (scarica da[Qui](https://releases.aspose.com/cells/java/)
 
 ## Passaggio 1: impostazione del progetto Java
 

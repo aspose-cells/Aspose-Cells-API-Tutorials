@@ -29,7 +29,7 @@ url: /ru/net/excel-page-setup/set-excel-scaling-factor/
 ### Загрузить DLL
 
 1.  Перейти к[Страница загрузок Aspose](https://releases.aspose.com/cells/net/) и загрузите соответствующий пакет для вашей версии .NET.
-2. Извлеките загруженный файл и найдите`Aspose.Cells.dll` файл.
+2.  Извлеките загруженный файл и найдите`Aspose.Cells.dll` файл.
 
 ### Добавить ссылку в Visual Studio
 

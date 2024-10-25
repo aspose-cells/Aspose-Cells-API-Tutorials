@@ -29,6 +29,6 @@ Pomocí těchto výukových programů se nejen naučíte odemykat a odemknout li
 ## Tutoriály 
 | Titul | Popis |
 | --- | --- |
-| [Odemkněte heslem chráněný excelový list](./unlock-password-protected-excel-worksheet/) | Naučte se, jak odemknout heslem chráněnou excelovou tabulku pomocí Aspose.Cells for .NET. Krok za krokem tutoriál v C#. |  
+| [Odemkněte heslem chráněný excelový list](./unlock-password-protected-excel-worksheet/) | Naučte se, jak odemknout heslem chráněnou excelovou tabulku pomocí Aspose.Cells for .NET. Výukový program krok za krokem v C#. |  
 | [Odemkněte chráněný list aplikace Excel](./unlock-protected-excel-sheet/) | Naučte se, jak odemknout chráněné listy Excelu pomocí Aspose.Cells for .NET, v tomto podrobném návodu pro začátečníky.  |  
 | [Odemkněte jednoduchý list Excelu](./unprotect-simple-excel-sheet/) | Naučte se, jak snadno zrušit ochranu listů aplikace Excel pomocí Aspose.Cells for .NET, pomocí tohoto podrobného průvodce. Získejte přístup ke svým datům během okamžiku. |  

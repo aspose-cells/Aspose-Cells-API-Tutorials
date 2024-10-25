@@ -60,7 +60,7 @@ Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.Worksheets[0];
 ```
  
-- 在這裡，您只需建立一個`Workbook`代表您的 Excel 檔案的實例。這`Worksheet`物件允許您與要修改的特定工作表進行互動。
+- 在這裡，您只需創建一個`Workbook`代表您的 Excel 檔案的實例。這`Worksheet`物件允許您與要修改的特定工作表進行互動。
 
 ## 步驟 2：指定頁面設定選項
 

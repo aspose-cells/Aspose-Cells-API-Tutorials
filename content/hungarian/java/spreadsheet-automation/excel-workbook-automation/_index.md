@@ -89,7 +89,7 @@ Ebben az oktatóanyagban az Excel-munkafüzet-automatizálás alapjait ismertetj
 Íme néhány gyakori kérdés az Excel munkafüzet automatizálásával kapcsolatban:
 
 ### Automatizálhatom az Excel feladatokat Java-ban anélkül, hogy az Excel telepítve lenne a gépemre?
-   Igen, megteheti. Az Aspose.Cells for Java lehetővé teszi, hogy Excel fájlokkal dolgozzon anélkül, hogy a Microsoft Excel telepítése szükséges lenne.
+   Igen, megteheti. Az Aspose.Cells for Java lehetővé teszi, hogy Excel-fájlokkal dolgozzon anélkül, hogy a Microsoft Excel telepítésére lenne szükség.
 
 ### Hogyan formázhatok cellákat vagy alkalmazhatok stílusokat Excel-adatokra az Aspose.Cells használatával?
    Az Aspose.Cells segítségével különféle formázásokat és stílusokat alkalmazhat a cellákra. Részletes példákat az API dokumentációjában talál.

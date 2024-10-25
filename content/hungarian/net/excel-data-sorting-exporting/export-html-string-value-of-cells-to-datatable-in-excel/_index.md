@@ -9,7 +9,7 @@ url: /hu/net/excel-data-sorting-exporting/export-html-string-value-of-cells-to-d
 ---
 ## Bevezetés
 
-Amikor Excel fájlokkal dolgozik .NET környezetben, előfordulhat, hogy információkat kell kivonnia a cellákból, nem csak egyszerű szövegként, hanem HTML-karakterláncként. Ez nagyon hasznos lehet, ha rich text adatokkal foglalkozik, vagy ha meg szeretné tartani a formázást. Ebben az útmutatóban végigvezetem, hogyan exportálhatja a cellák HTML-karakterláncának értékét egy DataTable-ba az Aspose.Cells for .NET használatával. 
+Amikor Excel fájlokkal dolgozik .NET környezetben, előfordulhat, hogy információkat kell kivonnia a cellákból, nem csak egyszerű szövegként, hanem HTML-karakterláncként. Ez nagyon hasznos lehet, ha rich text adatokkal foglalkozik, vagy ha meg szeretné tartani a formázást. Ebben az útmutatóban végigvezetem, hogyan exportálhatja a cellák HTML-karakterlánc értékét egy adattáblába az Aspose.Cells for .NET segítségével. 
 
 ## Előfeltételek
 
@@ -50,11 +50,11 @@ using Aspose.Cells;
 using System.Data;
 ```
 
-Most, hogy mindent beállítottunk, merüljünk el a HTML-karakterlánc-értékek Excel-fájlból egy DataTable-be történő exportálásának lépésenkénti folyamatába. 
+Most, hogy mindent beállítottunk, merüljünk el a HTML-karakterlánc-értékek Excel-fájlból egy DataTable-be történő exportálásának lépésről lépésre történő folyamatába. 
 
 ## 1. lépés: Határozza meg a forráskönyvtárat
 
-Kezdje azzal, hogy meghatározza azt a könyvtárat, ahol a minta Excel-fájlt tárolja. Ez döntő fontosságú, mivel megmondja az alkalmazásnak, hogy hol találja a fájlt. Íme a kód ehhez:
+Kezdje azzal, hogy meghatározza azt a könyvtárat, ahol a minta Excel-fájlt tárolja. Ez kulcsfontosságú, mivel megmondja az alkalmazásnak, hogy hol találja a fájlt. Íme a kód ehhez:
 
 ```csharp
 string sourceDir = "Your Document Directory";

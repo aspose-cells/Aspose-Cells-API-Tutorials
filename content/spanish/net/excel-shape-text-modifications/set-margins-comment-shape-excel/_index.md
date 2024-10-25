@@ -16,7 +16,7 @@ Debes tener conocimientos básicos de C# y .NET. Este tutorial está diseñado p
 ### Configuración del entorno
 1. Visual Studio: asegúrese de tener instalado Visual Studio. Es un entorno de desarrollo que simplifica la codificación.
 2.  Biblioteca Aspose.Cells: Necesita la biblioteca Aspose.Cells. Si aún no la tiene, puede descargarla[aquí](https://releases.aspose.com/cells/net/).
-3.  Archivo de Excel de muestra: cree o descargue un archivo de Excel de muestra. Para este tutorial, usaremos un archivo llamado`sampleSetMarginsOfCommentOrShapeInsideTheWorksheet.xlsx`.
+3. Archivo de Excel de muestra: cree o descargue un archivo de Excel de muestra. Para este tutorial, usaremos un archivo llamado`sampleSetMarginsOfCommentOrShapeInsideTheWorksheet.xlsx`.
 ## Importación de paquetes
 El primer paso de nuestro recorrido consiste en importar los paquetes necesarios. Deberá incluir los espacios de nombres de Aspose.Cells en su proyecto. Esto le otorgará acceso a todas las funcionalidades que Aspose.Cells tiene para ofrecer.
 ### Abra su proyecto
@@ -72,7 +72,7 @@ Es posible que cada forma ya tenga una configuración de alineación que debamos
 Aspose.Cells.Drawing.Texts.ShapeTextAlignment txtAlign = sh.TextBody.TextAlignment;
 txtAlign.IsAutoMargin = false;
 ```
- Mediante la configuración`IsAutoMargin` Falso, ahora tenemos control sobre los márgenes.
+ Mediante la configuración`IsAutoMargin`Falso, ahora tenemos control sobre los márgenes.
 ## Paso 6: Establezca los márgenes
 Este es el paso crucial en el que definimos los márgenes. Puedes personalizar estos valores según tus necesidades.
 ```csharp
@@ -105,4 +105,4 @@ Aspose.Cells es una biblioteca .NET diseñada para crear, manipular y convertir 
 ### ¿Es fácil integrar la biblioteca en proyectos existentes?
 ¡Por supuesto! Aspose.Cells se integra fácilmente en proyectos .NET y su API es sencilla.
 ### ¿Dónde puedo encontrar soporte para Aspose.Cells?
-Puede obtener soporte a través de Aspose[foro](https://forum.aspose.com/c/cells/9).
+ Puede obtener soporte a través de Aspose[foro](https://forum.aspose.com/c/cells/9).

@@ -18,9 +18,9 @@ Innan vi börjar, här är några saker du bör ha för att säkerställa en smi
 1. Grundläggande kunskaper i C#: Eftersom vi kommer att skriva vår kod i C#, kommer en grundläggande förståelse av språket att hjälpa dig att snabbt förstå begreppen.
 2.  Aspose.Cells for .NET Library: Du måste ladda ner Aspose.Cells for .NET-biblioteket. Du kan få det från[Ladda ner länk](https://releases.aspose.com/cells/net/).
 3. Visual Studio: Det är en fantastisk miljö för att skriva och testa din .NET-kod. Se till att du har den korrekt installerad på din maskin. 
-4. En Excel-fil: Du behöver en Excel-fil som innehåller några formler att arbeta med. Vi kommer att använda en fil med namnet`Book1.xlsx`, men använd gärna din egen!
+4.  En Excel-fil: Du behöver en Excel-fil som innehåller några formler att arbeta med. Vi kommer att använda en fil med namnet`Book1.xlsx`men använd gärna din egen!
 
-Redo att spänna fast och börja spåra dessa celler? Låt oss komma in i det nitty-gritty!
+Redo att spänna fast och börja spåra dessa celler? Låt oss komma in på det nitty-gritty!
 
 ## Importera paket
 
@@ -84,11 +84,11 @@ Nu när vi har arbetsboken öppen är det dags att lägga vantarna på de enskil
 Cells cells = workbook.Worksheets[0].Cells;
 ```
 
-Förklaring: Ovanstående kod riktar sig till det första kalkylbladet (index 0) i vår arbetsbok och hämtar`Cells` insamling, som vi kommer att arbeta med för att spåra anhöriga.
+ Förklaring: Ovanstående kod riktar sig till det första kalkylbladet (index 0) i vår arbetsbok och hämtar`Cells` insamling, som vi kommer att arbeta med för att spåra anhöriga.
 
 ## Steg 4: Välj cellen
 
- I demonstrationssyfte vill vi spåra beroende av en specifik cell – i det här fallet,`B2`. Låt oss koda det:
+ demonstrationssyfte vill vi spåra beroende av en specifik cell – i det här fallet,`B2`. Låt oss koda det:
 
 ```csharp
 Cell cell = cells["B2"];
@@ -118,7 +118,7 @@ foreach (Cell c in cell.GetDependents(true))
 Console.ReadKey();
 ```
 
-Förklaring: Den här slingan går igenom varje beroende cell i vår array och skriver ut dess namn – ganska enkelt! De`Console.ReadKey()` ser till att konsolfönstret förblir öppet tills du trycker på en tangent, vilket ger dig tid att läsa utdata.
+ Förklaring: Den här slingan går igenom varje beroende cell i vår array och skriver ut dess namn – ganska enkelt! De`Console.ReadKey()` ser till att konsolfönstret förblir öppet tills du trycker på en tangent, vilket ger dig tid att läsa utdata.
 
 ## Slutsats
 

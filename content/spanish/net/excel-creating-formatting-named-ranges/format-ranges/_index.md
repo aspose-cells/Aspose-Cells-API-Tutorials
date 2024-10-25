@@ -53,7 +53,7 @@ A continuación, crearemos una instancia del libro de trabajo. Esto es como abri
 Workbook workbook = new Workbook();
 ```
 
-Explicación: El`Workbook` La clase representa un archivo de Excel. Al crear una instancia de ella, básicamente estás creando un nuevo documento de Excel que puedes manipular.
+ Explicación: El`Workbook` La clase representa un archivo de Excel. Al crear una instancia de ella, básicamente estás creando un nuevo documento de Excel que puedes manipular.
 
 ## Paso 3: Acceda a la primera hoja de trabajo
 
@@ -138,7 +138,7 @@ flg.Font = true; // Habilitar atributos de fuente
 flg.CellShading = true; // Habilitar sombreado de celdas
 ```
 
-Explicación: El`StyleFlag` El objeto le dice a la biblioteca qué propiedades de estilo queremos aplicar, ¡algo así como marcar casillas en una lista de tareas pendientes!
+ Explicación: El`StyleFlag` El objeto le dice a la biblioteca qué propiedades de estilo queremos aplicar, ¡algo así como marcar casillas en una lista de tareas pendientes!
 
 ## Paso 11: Aplicar el estilo al rango
 

@@ -25,7 +25,7 @@ Aspose.Cells birçok görevi basitleştirirken, C#'ın temellerini anlamak çok 
 Visual Studio gibi bir IDE kurulumunuz olmalı. Bu, kodunuzu etkili bir şekilde ele almanız ve test etmeniz konusunda size rehberlik eder.
 
 ### Örnek Excel Dosyaları
-Örnek dosyalara ihtiyacınız olacak (`samplePageSetupIsAutomaticPaperSize-False.xlsx` Ve`samplePageSetupIsAutomaticPaperSize-True.xlsx`) test amaçlıdır. Bu dosyaların kaynak dizininizde olduğundan emin olun.
+Örnek dosyalara ihtiyacınız olacak (`samplePageSetupIsAutomaticPaperSize-False.xlsx` Ve`samplePageSetupIsAutomaticPaperSize-True.xlsx`test amaçlıdır. Bu dosyaların kaynak dizininizde olduğundan emin olun.
 
 ## Paketleri İçe Aktar
 

@@ -62,7 +62,7 @@ string outputDir = "Your Output Directory";
 Workbook workbook = new Workbook(sourceDir + "sampleAddingLabelControlInChart.xls");
 ```
 
- ที่นี่เราใช้`Workbook`คลาสจาก Aspose.Cells เพื่อเปิดไฟล์ Excel ของเรา เหมือนกับการปลดล็อกประตูเพื่อให้ความคิดสร้างสรรค์ไหลลื่น!
+ ที่นี่เราใช้`Workbook` คลาสจาก Aspose.Cells เพื่อเปิดไฟล์ Excel ของเรา เหมือนกับการปลดล็อกประตูเพื่อให้ความคิดสร้างสรรค์ไหลลื่น!
 
 ## ขั้นตอนที่ 3: เข้าถึงแผ่นงาน
 
@@ -94,7 +94,7 @@ Aspose.Cells.Charts.Chart chart = sheet.Charts[0];
 Aspose.Cells.Drawing.Label label = chart.Shapes.AddLabelInChart(600, 600, 350, 900);
 ```
 
- ที่นี่,`AddLabelInChart`ช่วยสร้างป้ายกำกับตามพิกัดและขนาดที่คุณระบุ เหมือนกับการติดกรอบสวยๆ ไว้รอบงานศิลปะของคุณ!
+ ที่นี่,`AddLabelInChart` ช่วยสร้างป้ายกำกับตามพิกัดและขนาดที่คุณระบุ เหมือนกับการติดกรอบสวยๆ ไว้รอบงานศิลปะของคุณ!
 
 ## ขั้นตอนที่ 6: ตั้งค่าข้อความป้ายกำกับ
 

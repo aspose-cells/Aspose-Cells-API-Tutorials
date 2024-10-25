@@ -41,7 +41,7 @@ string filePath = dataDir + "Book1.xlsx";
 ## Langkah 2: Buat Objek Buku Kerja
  Selanjutnya, kita akan membuat`Workbook` objek, yang bertindak sebagai perwakilan file Excel kita. 
 ```csharp
-// Membuat objek Buku Kerja dan membuka file dari jalurnya
+//Membuat objek Buku Kerja dan membuka file dari jalurnya
 Workbook wb = new Workbook(filePath);
 ```
  Di sini, kita membuat instance baru`Workbook` menggunakan jalur berkas yang telah kita atur sebelumnya. Objek ini sekarang akan memungkinkan kita untuk berinteraksi dengan konten berkas Excel. Jika berkas`Book1.xlsx` tidak ada dalam direktori yang Anda tentukan, Anda akan mengalami kesalahan.

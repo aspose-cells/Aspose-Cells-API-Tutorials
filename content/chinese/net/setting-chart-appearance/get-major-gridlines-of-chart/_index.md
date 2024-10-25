@@ -15,7 +15,7 @@ url: /zh/net/setting-chart-appearance/get-major-gridlines-of-chart/
 
 在深入学习本教程之前，请确保您已准备好一切：
 
-- Aspose.Cells for .NET：请确保您已下载 Aspose.Cells 库并在项目中引用。您可以获取它[这里](https://releases.aspose.com/cells/net/).
+-  Aspose.Cells for .NET：请确保您已下载 Aspose.Cells 库并在项目中引用。您可以获取它[这里](https://releases.aspose.com/cells/net/).
 - 开发环境：任何 .NET 开发环境都可以，但强烈推荐 Visual Studio，因为它有强大的支持和工具。
 - 对 C# 的基本了解：熟悉 C# 编程基础知识将会很有帮助，因为我们将编写一些代码。
 
@@ -145,7 +145,7 @@ workbook.Save(outputDir + "outputMajorGridlinesOfChart.xlsx");
 
 ## 结论
 
-瞧！您已成功使用 Aspose.Cells for .NET 创建了一个包含主要网格线的图表的 Excel 电子表格。您不仅了解了图表，还获得了轻松操纵视觉吸引力元素的技能。这种方法在商业报告、学术演示或任何以数据可视化为关键传达信息的场景中非常有用。
+瞧！您已成功使用 Aspose.Cells for .NET 创建了一个包含主要网格线的图表的 Excel 电子表格。您不仅了解了图表，还掌握了轻松操纵视觉吸引力元素的技能。这种方法在商业报告、学术演示或任何以数据可视化为关键传达信息的场景中非常有用。
 
 通过掌握这些技巧，您就可以顺利地制作出让您的数据流行的动态报告！
 

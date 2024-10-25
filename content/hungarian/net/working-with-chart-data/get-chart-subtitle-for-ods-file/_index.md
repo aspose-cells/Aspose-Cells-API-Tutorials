@@ -2,7 +2,7 @@
 title: Töltse le az ODS-fájl diagramfeliratát
 linktitle: Töltse le az ODS-fájl diagramfeliratát
 second_title: Aspose.Cells .NET Excel Processing API
-description: Fedezze fel, hogyan bonthat ki diagramfeliratokat ODS-fájlokból az Aspose.Cells for .NET segítségével ezzel a részletes, lépésenkénti útmutatóval. Tökéletes fejlesztőknek.
+description: Fedezze fel, hogyan bonthat ki diagramfeliratokat az ODS-fájlokból az Aspose.Cells for .NET segítségével ezzel a részletes, lépésenkénti útmutatóval. Tökéletes fejlesztőknek.
 type: docs
 weight: 12
 url: /hu/net/working-with-chart-data/get-chart-subtitle-for-ods-file/

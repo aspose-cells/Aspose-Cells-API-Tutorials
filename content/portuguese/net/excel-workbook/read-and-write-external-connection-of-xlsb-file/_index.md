@@ -68,7 +68,7 @@ Com a pasta de trabalho carregada, você pode acessar suas conexões externas. N
 Aspose.Cells.ExternalConnections.DBConnection dbCon = wb.DataConnections[0] as Aspose.Cells.ExternalConnections.DBConnection;
 ```
 
- Aqui,`DataConnections[0]`refere-se à primeira conexão na pasta de trabalho. Estamos convertendo-a como uma`DBConnection` digite para manipulação posterior.
+ Aqui,`DataConnections[0]` refere-se à primeira conexão na pasta de trabalho. Estamos convertendo-a como uma`DBConnection` digite para manipulação posterior.
 
 ## Etapa 4: Extrair informações de conexão
 

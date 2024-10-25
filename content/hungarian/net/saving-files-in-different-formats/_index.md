@@ -12,7 +12,7 @@ url: /hu/net/saving-files-in-different-formats/
 Tehát hogyan őrizheti meg hatékonyan Excel-adatait? Itt ragyog az Aspose.Cells. A .xls, .xlsx, .xlsb és még PDF formátumokat bemutató oktatóanyagok segítségével gyorsan elsajátíthatja a fájlok kívánt módon történő mentését. Minden oktatóanyag az áttekinthetőséget és a gyakorlatiasságot hangsúlyozza, és olyan betekintést nyújt Önnek, amelyet azonnal alkalmazhat projektjei során. Tudta, hogy a régebbi rendszerekkel való kompatibilitás érdekében néha szükséges lehet a 97-2003 formátumú mentés? Mindezt és még sok minden mást átnézünk!
 
 ## Gyors linkek az oktatóanyagokhoz
- Összeállított oktatóanyagaink segítségével könnyen megtalálhatja, amire szüksége van. Ha például egy Excel-fájlt szeretne menteni a régebbi, 97-2003-as formátumban, tekintse meg az egyszerű útmutatónkat[Excel fájlok mentése 97-2003 formátumban](./save-excel-file-in-97-2003-format/). Tele van gyakorlati tanácsokkal! Ezenkívül, ha kíváncsi a fájlok PDF-formátumban történő exportálására, tekintse meg oktatóanyagunkat.
+ Összeállított oktatóanyagaink segítségével könnyen megtalálhatja, amire szüksége van. Ha például egy Excel-fájlt szeretne menteni a régebbi, 97-2003-as formátumban, tekintse meg az egyszerű útmutatónkat[Excel fájlok mentése 97-2003 formátumban](./save-excel-file-in-97-2003-format/)Tele van gyakorlati tanácsokkal! Ezenkívül, ha kíváncsi a fájlok PDF-formátumban történő exportálására, tekintse meg oktatóanyagunkat.
 
 Minden oktatóanyag nemcsak tájékoztatást, hanem érdeklődést is szolgál. Tisztában vagyunk vele, hogy a műszaki témákban való búvárkodás néha unalmasnak tűnik. Ezért olyan társalgási stílust alkalmazunk, amely megőrzi a befektetést, mintha egy baráti csevegés lenne egy műszakilag hozzáértő haverral.
 
@@ -23,15 +23,15 @@ Tehát készen áll arra, hogy javítsa az Excel fájlkezelési megközelítés�
 ## A formátumok megértése
 
 ### 1. XLS és XLSX: 
--  A klasszikus XLS formátum időnként elavultnak tűnhet, de továbbra is fontos a régebbi szoftverekkel való kompatibilitás szempontjából. Oktatóanyagunk a[XLS fájlok mentése](./save-xls-file/)biztosítja, hogy könnyedén navigálhasson e formátum furcsaságaiban. 
+-  klasszikus XLS formátum időnként elavultnak tűnhet, de továbbra is fontos a régebbi szoftverekkel való kompatibilitás szempontjából. Oktatóanyagunk a[XLS fájlok mentése](./save-xls-file/) biztosítja, hogy könnyedén navigálhasson e formátum furcsaságaiban. 
 -  A másik oldalon az XLSX az Excel-fájlok szabványa, amely továbbfejlesztett funkciókat és jobb teljesítményt biztosít. Ha szeretne kitűnni (szójáték!) a modern adatkezelésben, tekintse meg útmutatónkat a[XLSX fájlok mentése](./save-xlsx-file/).
 
 ### 2. PDF formátum:
 -  A dokumentumok PDF formátumba konvertálása létfontosságú a formázás megőrzéséhez, és annak biztosításához, hogy tartalma megosztáskor is jól nézzen ki. Lépésről lépésre bemutató oktatóanyagunk[fájlok mentése PDF formátumba](./save-file-in-pdf-format/) elmagyarázza, hogyan kell ezt a folyamatot könnyedén végrehajtani. Ez olyan, mint egy ajándék csomagolása; azt szeretné, ha másoknak bemutatva tökéletesen nézne ki!
 
 ### 3. CSV és SpreadsheetML:
--  Ne feledkezzünk meg a CSV-fájlokról sem, amelyek leegyszerűsítik az adatmegosztást és -kezelést. Útmutatónk tovább[munkafüzetek mentése CSV formátumba](./save-workbook-to-text-csv-format/) segít elsajátítani ezt a döntő képességet. Ez hasonló az univerzális távirányítóhoz; zökkenőmentesen köt össze különféle eszközöket (vagy jelen esetben alkalmazásokat).
-- Hasonlóképpen, ha .NET-alkalmazásokkal szeretne dolgozni, és strukturált XML-reprezentációra van szüksége, tekintse meg oktatóanyagunkat[fájlok mentése SpreadsheetML formátumba](./save-file-in-spreadsheetml-format/) az Ön által keresett forrás.
+-  Ne feledkezzünk meg a CSV-fájlokról sem, amelyek leegyszerűsítik az adatmegosztást és -kezelést. Útmutatónk tovább[munkafüzetek mentése CSV formátumba](./save-workbook-to-text-csv-format/)segít elsajátítani ezt a döntő képességet. Ez hasonló az univerzális távirányítóhoz; zökkenőmentesen köt össze különféle eszközöket (vagy jelen esetben alkalmazásokat).
+-  Hasonlóképpen, ha .NET-alkalmazásokkal szeretne dolgozni, és strukturált XML-reprezentációra van szüksége, tekintse meg oktatóanyagunkat[fájlok mentése SpreadsheetML formátumba](./save-file-in-spreadsheetml-format/) az Ön által keresett forrás.
 
 ## Fájlok mentése különböző formátumokban Oktatóanyagok
 ### [Mentse az Excel fájlt 97-2003 formátumban](./save-excel-file-in-97-2003-format/)

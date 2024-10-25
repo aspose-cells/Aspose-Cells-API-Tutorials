@@ -16,7 +16,7 @@ Sie sollten über grundlegende Kenntnisse in C# und .NET verfügen. Dieses Tutor
 ### Umgebungs-Setup
 1. Visual Studio: Stellen Sie sicher, dass Sie Visual Studio installiert haben. Es ist eine Entwicklungsumgebung, die das Codieren vereinfacht.
 2.  Aspose.Cells-Bibliothek: Sie benötigen die Aspose.Cells-Bibliothek. Falls noch nicht geschehen, können Sie sie herunterladen[Hier](https://releases.aspose.com/cells/net/).
-3.  Beispiel-Excel-Datei: Erstellen oder laden Sie eine Beispiel-Excel-Datei herunter. Für dieses Tutorial verwenden wir eine Datei namens`sampleSetMarginsOfCommentOrShapeInsideTheWorksheet.xlsx`.
+3. Beispiel-Excel-Datei: Erstellen oder laden Sie eine Beispiel-Excel-Datei herunter. Für dieses Tutorial verwenden wir eine Datei namens`sampleSetMarginsOfCommentOrShapeInsideTheWorksheet.xlsx`.
 ## Pakete importieren
 Der erste Schritt auf unserer Reise besteht darin, die erforderlichen Pakete zu importieren. Sie müssen die Aspose.Cells-Namespaces in Ihr Projekt einbinden. Dadurch erhalten Sie Zugriff auf alle Funktionen, die Aspose.Cells zu bieten hat.
 ### Öffnen Sie Ihr Projekt
@@ -72,7 +72,7 @@ Jede Form hat möglicherweise bereits eine Ausrichtungseinstellung, die wir änd
 Aspose.Cells.Drawing.Texts.ShapeTextAlignment txtAlign = sh.TextBody.TextAlignment;
 txtAlign.IsAutoMargin = false;
 ```
- Durch die Einstellung`IsAutoMargin` auf „False“ haben wir jetzt Kontrolle über die Ränder.
+ Durch die Einstellung`IsAutoMargin`auf „False“ haben wir jetzt Kontrolle über die Ränder.
 ## Schritt 6: Ränder festlegen
 Dies ist der entscheidende Schritt, in dem wir die Ränder definieren. Sie können diese Werte nach Ihren Bedürfnissen anpassen.
 ```csharp
@@ -105,4 +105,4 @@ Aspose.Cells ist eine .NET-Bibliothek zum Erstellen, Bearbeiten und Konvertieren
 ### Lässt sich die Bibliothek einfach in bestehende Projekte integrieren?
 Auf jeden Fall! Aspose.Cells lässt sich problemlos in .NET-Projekte integrieren und seine API ist unkompliziert.
 ### Wo finde ich Unterstützung für Aspose.Cells?
-Sie erhalten Unterstützung über das Aspose[Forum](https://forum.aspose.com/c/cells/9).
+ Sie erhalten Unterstützung über das Aspose[Forum](https://forum.aspose.com/c/cells/9).

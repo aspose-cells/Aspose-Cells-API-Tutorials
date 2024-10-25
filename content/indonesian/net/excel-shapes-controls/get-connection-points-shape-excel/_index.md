@@ -91,9 +91,9 @@ Titik koneksi adalah titik tertentu pada suatu bentuk tempat Anda dapat memasang
 ### Bisakah saya mengambil titik koneksi untuk semua bentuk di lembar kerja?
 Ya, Aspose.Cells memungkinkan Anda mengambil titik koneksi untuk bentuk apa pun yang mendukungnya. Cukup lakukan pengulangan melalui koleksi bentuk di lembar kerja.
 ### Apakah saya memerlukan lisensi untuk menggunakan Aspose.Cells?
-Ya, meskipun Anda dapat mencobanya secara gratis, lisensi diperlukan untuk mendapatkan fitur lengkap. Anda dapat[beli lisensi di sini](https://purchase.aspose.com/buy) atau dapatkan[lisensi sementara](https://purchase.aspose.com/temporary-license/).
+Ya, meskipun Anda dapat mencobanya secara gratis, lisensi diperlukan untuk mendapatkan fitur lengkap. Anda dapat[beli lisensi di sini](https://purchase.aspose.com/buy)atau dapatkan[lisensi sementara](https://purchase.aspose.com/temporary-license/).
 ### Bagaimana cara menambahkan berbagai jenis bentuk di Aspose.Cells?
- Anda dapat menggunakan`Add` metode untuk bentuk seperti persegi panjang, elips, dan lainnya. Setiap bentuk memiliki parameter khusus yang dapat Anda sesuaikan.
+Anda dapat menggunakan`Add` metode untuk bentuk seperti persegi panjang, elips, dan lainnya. Setiap bentuk memiliki parameter khusus yang dapat Anda sesuaikan.
 ### Bagaimana cara memuat berkas Excel yang sudah ada alih-alih membuat yang baru?
  Untuk memuat file yang sudah ada, berikan jalur file ke`Workbook` konstruktor, seperti ini:  
 ```csharp

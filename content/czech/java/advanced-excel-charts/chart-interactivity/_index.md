@@ -16,7 +16,7 @@ Interaktivní grafy dodávají vizualizaci dat nový rozměr a umožňují uživ
 
 Než začneme, ujistěte se, že máte následující předpoklady:
 - Vývojové prostředí Java
--  Aspose.Cells for Java Library (stáhnout z[zde](https://releases.aspose.com/cells/java/)
+- Aspose.Cells for Java Library (stáhnout z[zde](https://releases.aspose.com/cells/java/)
 
 ## Krok 1: Nastavení vašeho projektu Java
 

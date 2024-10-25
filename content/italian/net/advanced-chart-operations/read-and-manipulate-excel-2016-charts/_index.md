@@ -124,7 +124,7 @@ Console.WriteLine("ReadManipulateExcel2016Charts executed successfully.");
 
 ## Conclusione
 
-Congratulazioni! Hai imparato con successo a leggere e manipolare i grafici di Excel 2016 usando Aspose.Cells per .NET. Questa potente libreria ti offre la flessibilità di gestire i file Excel a livello di programmazione, rendendo il tuo flusso di lavoro più efficiente. Che tu debba aggiornare i titoli dei grafici, modificare i dati o persino creare nuovi grafici, Aspose.Cells è ciò che fa per te.
+Congratulazioni! Hai imparato con successo a leggere e manipolare i grafici di Excel 2016 usando Aspose.Cells per .NET. Questa potente libreria ti offre la flessibilità di gestire i file Excel a livello di programmazione, rendendo il tuo flusso di lavoro più efficiente. Che tu debba aggiornare i titoli dei grafici, modificare i dati o persino creare nuovi grafici, Aspose.Cells ti copre.
 
 ## Domande frequenti
 

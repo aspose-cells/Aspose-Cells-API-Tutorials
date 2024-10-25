@@ -90,7 +90,7 @@ wb.Save(outputDir + "outputProtectSharedWorkbook.xlsx");
 
 ## 第 6 步：驗證執行情況
 
-儲存工作簿後，最好驗證一切是否順利。這是一個簡單的確認訊息：
+儲存工作簿後，最好驗證一切是否順利。這是一則簡單的確認訊息：
 
 ```csharp
 Console.WriteLine("PasswordProtectOrUnprotectSharedWorkbook executed successfully.\r\n");

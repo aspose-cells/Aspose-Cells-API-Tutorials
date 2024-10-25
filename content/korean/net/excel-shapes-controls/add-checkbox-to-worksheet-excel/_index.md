@@ -38,7 +38,7 @@ using Aspose.Cells;
 ```csharp
 // 문서 디렉토리의 경로입니다.
 string dataDir = "Your Document Directory";
-//디렉토리가 없으면 디렉토리를 생성합니다.
+// 디렉토리가 없으면 디렉토리를 생성합니다.
 bool isExists = System.IO.Directory.Exists(dataDir);
 if (!isExists)
     System.IO.Directory.CreateDirectory(dataDir);

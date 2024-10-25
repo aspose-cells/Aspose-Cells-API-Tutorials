@@ -89,7 +89,7 @@ chart.NSeries.Add("{0.3, 0.7, 1.2}", true);
 ```
 Cette ligne ajoute une autre série de données, la quatrième, vous permettant de représenter davantage de données visuellement.
 
-## Étape 5 : Tracer sur le deuxième axe
+## Étape 5 : Tracer sur le deuxième axe
 
 Pour différencier visuellement la nouvelle série de données, nous allons tracer la quatrième série sur un deuxième axe.
 
@@ -151,7 +151,7 @@ Oui, vous pouvez modifier différents types de graphiques (tels que des graphiqu
  Absolument ! Vous pouvez l'essayer gratuitement[ici](https://releases.aspose.com/).
 
 ### Comment puis-je modifier le type de graphique après avoir ajouté une série ?
- Vous pouvez utiliser le`ChartType` propriété pour définir un nouveau type de graphique pour votre graphique.
+Vous pouvez utiliser le`ChartType` propriété pour définir un nouveau type de graphique pour votre graphique.
 
 ### Où puis-je trouver une documentation plus détaillée ?
  Consultez la documentation[ici](https://reference.aspose.com/cells/net/).

@@ -55,7 +55,7 @@ Workbook workbook = new Workbook();
 
 ## Krok 3: Definování cesty obrazu
 
- Je čas vytvořit řetězcovou proměnnou, která bude obsahovat cestu k obrázku, který chcete použít. V našem případě používáme`aspose-logo.jpg`.
+Je čas vytvořit řetězcovou proměnnou, která bude obsahovat cestu k obrázku, který chcete použít. V našem případě používáme`aspose-logo.jpg`.
 
 ```csharp
 string logo_url = dataDir + "aspose-logo.jpg";

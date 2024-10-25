@@ -8,7 +8,7 @@ weight: 17
 url: /hu/net/saving-files-in-different-formats/save-workbook-to-text-csv-format/
 ---
 ## Bevezetés
-Az adatok kezelésekor a választott formátum valóban meghatározhatja, hogy milyen könnyen tud velük dolgozni. A táblázatos adatok kezelésének leggyakoribb formátumai közé tartozik a CSV (vesszővel elválasztott értékek). Ha Ön Excel-fájlokkal dolgozó fejlesztő, és a munkafüzeteket CSV-formátumba kell konvertálnia, az Aspose.Cells for .NET egy fantasztikus könyvtár, amely leegyszerűsíti ezt a feladatot. Ebben az oktatóanyagban lebontjuk az Excel-munkafüzet zökkenőmentes szöveges CSV formátumba konvertálásához szükséges lépéseket.
+Az adatok kezelésekor a választott formátum valóban meghatározhatja, hogy milyen könnyen tud velük dolgozni. A táblázatos adatok kezelésének leggyakoribb formátumai közé tartozik a CSV (vesszővel elválasztott értékek). Ha Ön Excel-fájlokkal dolgozó fejlesztő, és a munkafüzeteket CSV-formátumba kell konvertálnia, az Aspose.Cells for .NET egy fantasztikus könyvtár, amely leegyszerűsíti ezt a feladatot. Ebben az oktatóanyagban lebontjuk az Excel-munkafüzet zökkenőmentes szöveges CSV-formátumba konvertálásához szükséges lépéseket.
 ## Előfeltételek
 Mielőtt belemerülnénk, győződjön meg arról, hogy minden a helyén van a kezdéshez:
 1. Alapszintű C# és .NET ismerete: Mivel C#-ban fogunk kódot írni, elengedhetetlen a nyelv és a .NET keretrendszer ismerete.
@@ -82,7 +82,7 @@ for (int idx = 0; idx < workbook.Worksheets.Count; idx++)
     workbookData = combinedArray;
 }
 ```
-Létrehozunk egy új tömböt, amely elég nagy ahhoz, hogy a meglévő munkafüzet-adatokat és az új munkalapadatokat is tárolja. Ezután a meglévő és az új adatokat ebbe a kombinált tömbbe másoljuk későbbi felhasználás céljából.
+Létrehozunk egy új tömböt, amely elég nagy ahhoz, hogy a meglévő munkafüzetadatokat és az új munkalapadatokat is tárolja. Ezután a meglévő és az új adatokat ebbe a kombinált tömbbe másoljuk későbbi felhasználás céljából.
 ## 8. lépés: Mentse el a munkafüzet teljes adatait fájlba
  Végül az összes adattal együtt a mi`workbookData` tömböt, elmenthetjük ezt a tömböt egy megadott fájl elérési útra.
 ```csharp

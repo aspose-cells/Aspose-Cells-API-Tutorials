@@ -20,7 +20,7 @@ Antes de adentrarnos en los detalles del código, hay algunas cosas que deberás
 3. Comprensión básica de C#: si bien lo guiaremos a través del código paso a paso, tener una comprensión básica de la programación en C# lo ayudará a comprender los conceptos más rápidamente.
 4. Su directorio de documentos: asegúrese de tener un directorio configurado donde pueda almacenar sus archivos de Excel para realizar pruebas.
 
-¡Ahora que hemos resuelto nuestros requisitos previos, importemos los paquetes necesarios!
+Ahora que hemos resuelto nuestros requisitos previos, ¡importemos los paquetes necesarios!
 
 ## Importar paquetes
 

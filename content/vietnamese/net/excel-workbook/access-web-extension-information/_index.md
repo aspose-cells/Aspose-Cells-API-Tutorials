@@ -16,7 +16,7 @@ Chào mừng bạn đến với bài hướng dẫn sâu hơn về cách sử d�
 Trước khi bắt tay vào thực hiện, có một số điều bạn cần thiết lập. Sau đây là danh sách kiểm tra để đảm bảo mọi thứ diễn ra suôn sẻ:
 
 1. Môi trường .NET: Đảm bảo bạn đã thiết lập môi trường .NET trên máy của mình. Điều này thường có nghĩa là đã cài đặt Visual Studio hoặc IDE tương thích khác.
-2. Aspose.Cells cho .NET: Bạn cần có thư viện Aspose.Cells. Đừng lo lắng; bạn có thể dễ dàng[tải phiên bản mới nhất tại đây](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells cho .NET: Bạn cần có thư viện Aspose.Cells. Đừng lo lắng; bạn có thể dễ dàng[tải phiên bản mới nhất tại đây](https://releases.aspose.com/cells/net/).
 3.  Tệp Excel mẫu: Đối với hướng dẫn này, hãy đảm bảo bạn có tệp Excel mẫu (như`WebExtensionsSample.xlsx`) có thể truy cập được. Bạn có thể tạo một tiện ích mở rộng web hoặc tải xuống nếu cần. 
 4. Kiến thức cơ bản về C#: Hiểu biết cơ bản về lập trình C# sẽ giúp bạn thực hiện hướng dẫn này dễ dàng hơn nhiều.
 5. Trình quản lý gói NuGet: Việc quen thuộc với NuGet có thể giúp bạn quản lý Aspose.Cells trong dự án của mình một cách liền mạch.
@@ -62,12 +62,12 @@ WebExtensionTaskPaneCollection taskPanes = workbook.Worksheets.WebExtensionTaskP
 
 ## Bước 4: Lặp lại qua các ngăn tác vụ
 
- Khi bạn đã có bộ sưu tập, bước hợp lý tiếp theo là lặp qua từng ngăn tác vụ và lấy các thuộc tính của nó. Sử dụng`foreach` vòng lặp là một cách tuyệt vời để điều hướng qua từng ngăn tác vụ một cách liền mạch.
+Khi bạn đã có bộ sưu tập, bước hợp lý tiếp theo là lặp qua từng ngăn tác vụ và lấy các thuộc tính của nó. Sử dụng`foreach` vòng lặp là một cách tuyệt vời để điều hướng qua từng ngăn tác vụ một cách liền mạch.
 
 ```csharp
 foreach (WebExtensionTaskPane taskPane in taskPanes)
 {
-    //Bên trong vòng lặp này, chúng ta sẽ trích xuất các thuộc tính
+    // Bên trong vòng lặp này, chúng ta sẽ trích xuất các thuộc tính
 }
 ```
 

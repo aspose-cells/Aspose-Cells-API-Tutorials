@@ -63,7 +63,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Etapa 2: Instanciar um objeto de pasta de trabalho
 
- Em seguida, criamos uma instância do`Workbook`classe, que representa um arquivo Excel.
+ Em seguida, criamos uma instância do`Workbook` classe, que representa um arquivo Excel.
 
 ```csharp
 Workbook workbook = new Workbook();

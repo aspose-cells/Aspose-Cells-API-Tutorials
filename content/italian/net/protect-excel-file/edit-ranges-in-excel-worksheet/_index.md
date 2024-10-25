@@ -41,7 +41,7 @@ Diamo un'occhiata al codice per creare una directory (se non esiste già):
 ```csharp
 // Percorso verso la directory dei documenti.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-//Creare la directory se non è già presente.
+// Creare la directory se non è già presente.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -84,7 +84,7 @@ Questa riga recupera la collezione in cui gestirai i tuoi range protetti. È ben
 
 ## Passaggio 5: definire e creare un intervallo protetto
 
-A questo punto, siamo pronti a definire in quale intervallo vuoi consentire le modifiche. Creiamo questo intervallo.
+questo punto, siamo pronti a definire in quale intervallo vuoi consentire le modifiche. Creiamo questo intervallo.
 
 ```csharp
 // Definisci ProtectedRange

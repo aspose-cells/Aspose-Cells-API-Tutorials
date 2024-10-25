@@ -15,9 +15,9 @@ Har du någonsin funnit dig själv med att kopiera kalkylblad mellan Excel-arbet
 
 Innan vi dyker in i koden, låt oss se till att du är utrustad med rätt verktyg för att komma igång:
 
-- Aspose.Cells för .NET: Du kan ladda ner det[här](https://releases.aspose.com/cells/net/).
+-  Aspose.Cells för .NET: Du kan ladda ner det[här](https://releases.aspose.com/cells/net/).
 - Visual Studio eller någon IDE som stöder .NET framework.
--  En giltig licens eller en[tillfällig licens](https://purchase.aspose.com/temporary-license/) om du vill testa Aspose.Cells fulla funktionalitet.
+-  En giltig licens eller en[tillfällig licens](https://purchase.aspose.com/temporary-license/)om du vill testa Aspose.Cells fulla funktionalitet.
 - En grundläggande förståelse för C# och .NET-ramverket.
 
  Du kan också kolla in[Aspose.Cells dokumentation](https://reference.aspose.com/cells/net/) för ytterligare information.
@@ -44,7 +44,7 @@ Först måste du definiera var dina filer finns. Se det här steget som att väl
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- I den här raden, byt ut`"YOUR DOCUMENT DIRECTORY"` med den faktiska sökvägen till dina Excel-filer. Det är här dina arbetsböcker kommer att laddas från och sparas till.
+ I den här raden, byt ut`"YOUR DOCUMENT DIRECTORY"`med den faktiska sökvägen till dina Excel-filer. Det är här dina arbetsböcker kommer att laddas från och sparas till.
 
 ## Steg 2: Öppna den första arbetsboken
 
@@ -64,7 +64,7 @@ Workbook excelWorkbook0 = new Workbook(InputPath);
 Nu när du har den första arbetsboken öppen är det dags att skapa ytterligare en tom arbetsbok där du ska klistra in det kopierade arbetsbladet. Se det här som att öppna en ny tom anteckningsbok där du ska överföra data.
 
 ```csharp
-//Skapa en annan arbetsbok.
+// Skapa en annan arbetsbok.
 Workbook excelWorkbook1 = new Workbook();
 ```
 

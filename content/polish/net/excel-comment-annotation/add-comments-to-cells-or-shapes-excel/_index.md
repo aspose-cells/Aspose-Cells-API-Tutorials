@@ -38,7 +38,7 @@ Zanim zaczniemy manipulować skoroszytem, musimy zdefiniować, gdzie będzie prz
 ```csharp
 // Ścieżka do katalogu dokumentów.
 string dataDir = "Your Document Directory";
-//Utwórz katalog, jeśli jeszcze go nie ma.
+// Utwórz katalog, jeśli jeszcze go nie ma.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -94,7 +94,7 @@ workbook.Save(dataDir + "book1.out.xls");
 ```
 Ten krok jest jak zamknięcie książki po napisaniu fantastycznej historii — chcesz mieć pewność, że zostanie ona zapisana!
 ## Wniosek
-I masz to! Udało Ci się dodać komentarze do komórek w pliku Excela za pomocą Aspose.Cells dla .NET. Komentarze mogą być przydatne w projektach grupowych lub po prostu do pozostawiania przypomnień dla siebie. Teraz, gdy przeszedłeś przez cały proces, jesteś przygotowany, aby przenieść swoje umiejętności Excela na wyższy poziom.
+masz to! Udało Ci się dodać komentarze do komórek w pliku Excela za pomocą Aspose.Cells dla .NET. Komentarze mogą być przydatne w projektach grupowych lub po prostu do pozostawiania przypomnień dla siebie. Teraz, gdy przeszedłeś przez cały proces, jesteś przygotowany, aby przenieść swoje umiejętności Excela na wyższy poziom.
 ## Najczęściej zadawane pytania
 ### Czy mogę dodawać komentarze do kształtów używając Aspose.Cells?
 Tak! Możesz dodawać komentarze do kształtów w podobny sposób, jak robisz to w przypadku komórek.

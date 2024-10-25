@@ -116,7 +116,7 @@ catch(Exception ex)
 是的！您可以循環瀏覽工作簿中的每個工作表並以類似方式取消保護它們。
 
 ### Aspose.Cells 可以免費使用嗎？
-Aspose.Cells 提供免費試用，但生產使用需要授權。檢查他們的[購買](https://purchase.aspose.com/buy)頁面了解更多。
+ Aspose.Cells 提供免費試用，但生產使用需要許可證。檢查他們的[購買](https://purchase.aspose.com/buy)頁面了解更多。
 
 ### 如果我不知道密碼怎麼辦？
 如果工作表受密碼保護，而您沒有密碼，則庫將無法幫助繞過限制，因為這違反了道德政策。

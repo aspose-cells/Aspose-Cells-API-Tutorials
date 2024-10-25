@@ -59,7 +59,7 @@ string sourceDir = "Your Document Directory";
 Workbook workbook = new Workbook(sourceDir + "sampleApplyingThemesInChart.xlsx");
 ```
 
- Upewnij się, że`sampleApplyingThemesInChart.xlsx`znajduje się w katalogu źródłowym.
+ Upewnij się, że`sampleApplyingThemesInChart.xlsx` znajduje się w katalogu źródłowym.
 
 ## Krok 3: Uzyskaj dostęp do arkusza kalkulacyjnego
 
@@ -96,7 +96,7 @@ Ta linijka kodu sprawia, że pierwsza seria na wykresie ma ustawione wypełnieni
 
 ## Krok 6: Skonfiguruj kolor
 
- Teraz, gdy nasza seria jest gotowa, musimy zmodyfikować jej kolor. Wiąże się to z utworzeniem`CellsColor`obiekt i określenie koloru motywu. Wybierzemy styl akcentu dla tego przykładu.
+ Teraz, gdy nasza seria jest gotowa, musimy zmodyfikować jej kolor. Wiąże się to z utworzeniem`CellsColor` obiekt i określenie koloru motywu. Wybierzemy styl akcentu dla tego przykładu.
 
 ```csharp
 // Pobierz kolor komórek SolidFill
@@ -112,7 +112,7 @@ Oto co się dzieje:
 
 ## Krok 7: Zastosuj motyw do serii
 
-Po skonfigurowaniu koloru czas zastosować nowy motyw do naszej serii. 
+Po skonfigurowaniu koloru czas zastosować nowy motyw w naszej serii. 
 
 ```csharp
 // Zastosuj motyw do serii

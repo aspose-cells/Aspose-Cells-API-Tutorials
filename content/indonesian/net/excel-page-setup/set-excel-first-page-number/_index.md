@@ -110,10 +110,10 @@ Aspose.Cells adalah pustaka .NET yang dirancang untuk membuat, memanipulasi, dan
  Anda dapat mengunduh Aspose.Cells dari[situs web](https://releases.aspose.com/cells/net/).
 
 ### Apakah ada versi gratis Aspose.Cells?
-Ya! Anda dapat mencoba Aspose.Cells secara gratis dengan mengunduh versi uji coba[Di Sini](https://releases.aspose.com/).
+ Ya! Anda dapat mencoba Aspose.Cells secara gratis dengan mengunduh versi uji coba[Di Sini](https://releases.aspose.com/).
 
 ### Di mana saya bisa mendapatkan dukungan?
- Untuk pertanyaan terkait dukungan, Anda dapat mengunjungi[Forum Aspose](https://forum.aspose.com/c/cells/9).
+Untuk pertanyaan terkait dukungan, Anda dapat mengunjungi[Forum Aspose](https://forum.aspose.com/c/cells/9).
 
 ### Dapatkah saya menggunakan Aspose.Cells di lingkungan cloud?
 Ya, Aspose.Cells dapat diintegrasikan ke dalam aplikasi .NET apa pun, termasuk pengaturan berbasis cloud, selama .NET runtime didukung.

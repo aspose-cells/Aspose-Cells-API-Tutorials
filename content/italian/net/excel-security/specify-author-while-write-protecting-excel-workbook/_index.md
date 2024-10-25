@@ -63,7 +63,7 @@ Proprio come un artista inizia con una tela bianca, anche tu inizi con una carte
 La protezione da scrittura è un aspetto cruciale, soprattutto se vuoi assicurarti che l'integrità dei tuoi dati rimanga intatta. Puoi farlo con una password.
 
 ```csharp
-// Proteggere la cartella di lavoro da scrittura con password.
+//Proteggere la cartella di lavoro da scrittura con password.
 wb.Settings.WriteProtection.Password = "YOUR_PASSWORD";
 ```
 
@@ -93,7 +93,7 @@ wb.Save(outputDir + "outputSpecifyAuthorWhileWriteProtectingWorkbook.xlsx");
 
 ## Conclusione
 
-Ed ecco fatto! Hai imparato come creare una cartella di lavoro Excel, impostare la protezione da scrittura con una password, specificare un autore e salvarla senza problemi utilizzando Aspose.Cells per .NET. Questa combinazione di funzionalità non solo proteggerà i tuoi dati, ma ne manterrà anche l'integrità e fornirà la corretta attribuzione.
+Ed ecco fatto! Hai imparato come creare una cartella di lavoro Excel, impostare la protezione da scrittura con una password, specificare un autore e salvarla senza problemi usando Aspose.Cells per .NET. Questa combinazione di funzionalità non solo proteggerà i tuoi dati, ma ne manterrà anche l'integrità e fornirà la corretta attribuzione.
 
 ## Domande frequenti
 
@@ -110,4 +110,4 @@ Ed ecco fatto! Hai imparato come creare una cartella di lavoro Excel, impostare 
 Assolutamente! Aspose.Cells funziona perfettamente sia nelle applicazioni desktop che in quelle web che utilizzano .NET.
 
 ### Cosa devo fare se ho bisogno di supporto?  
-Per domande e risoluzione dei problemi, la comunità Aspose è molto utile. Puoi visitare il loro[forum di supporto](https://forum.aspose.com/c/cells/9) per assistenza.
+ Per domande e risoluzione dei problemi, la comunità Aspose è molto utile. Puoi visitare il loro[forum di supporto](https://forum.aspose.com/c/cells/9) per assistenza.

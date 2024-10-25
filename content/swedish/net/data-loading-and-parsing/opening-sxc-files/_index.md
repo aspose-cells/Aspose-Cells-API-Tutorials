@@ -32,7 +32,7 @@ Först och främst måste vi skapa ett nytt projekt i Visual Studio för vår ap
 2. Välj ASP.NET Core Web Application eller Console Application baserat på dina önskemål.
 3.  Namnge ditt projekt (något liknande`SXCFileOpener`) och klicka på Skapa.
 4. Se till att du har valt .NET-ramverket under den här installationen.
-5.  När projektet har laddats ser du en standard`.cs` fil där vi kan lägga till vår kod.
+5. När projektet har laddats ser du en standard`.cs` fil där vi kan lägga till vår kod.
 ## Steg 2: Lägga till Aspose.Cells-biblioteket
 Därefter lägger vi till Aspose.Cells-biblioteket till vårt projekt. Så här gör du:
 1. Öppna NuGet Package Manager genom att högerklicka på ditt projekt i Solution Explorer och välja Hantera NuGet Packages.
@@ -48,7 +48,7 @@ string sourceDir = "Your Document Directory";
 ```
 2.  I den här katalogen lägger du till din SXC-exempelfil (t.ex.`SampleSXC.sxc`) för testning.
 ## Steg 4: Skapa ett arbetsboksobjekt
- Med källkatalogen inställd är det dags att skapa en`Workbook` objekt för att ladda vår SXC-fil:
+ Med källkatalogen inställd är det dags att skapa en`Workbook`objekt för att ladda vår SXC-fil:
 ```csharp
 Workbook workbook = new Workbook(sourceDir + "SampleSXC.sxc");
 ```
@@ -64,7 +64,7 @@ Se arbetsblad som olika kapitel i din bok – här väljer vi det första kapitl
 ```csharp
 Cell cell = worksheet.Cells["C3"];
 ```
-det här steget pekar du ut den exakta platsen för information, precis som att slå upp en viss post i ett index. 
+I det här steget pekar du ut den exakta platsen för information, precis som att slå upp en viss post i ett index. 
 ## Steg 7: Visa cellinformation
 Slutligen kommer vi att skriva ut cellens namn och dess värde till konsolen:
 ```csharp

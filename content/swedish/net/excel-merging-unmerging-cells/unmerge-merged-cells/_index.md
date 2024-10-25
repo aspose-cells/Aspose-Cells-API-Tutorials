@@ -111,7 +111,7 @@ När du har tagit bort sammanslagningen vill du spara dina ändringar i en ny Ex
 wbk.Save(outputDir + "outputUnMergingtheMergedCells.xlsx");
 ```
 
-Den här raden sparar dina osammanslagna data i den angivna utdatakatalogen. Så enkelt!
+Denna rad sparar dina osammanfogade data i den angivna utdatakatalogen. Så enkelt!
 
 ## Steg 7: Bekräfta processen
 

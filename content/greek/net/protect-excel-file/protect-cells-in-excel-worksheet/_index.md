@@ -16,7 +16,7 @@ url: /el/net/protect-excel-file/protect-cells-in-excel-worksheet/
 Πριν βουτήξετε στο θράσος της προστασίας των κυττάρων, υπάρχουν μερικές προϋποθέσεις που πρέπει να έχετε:
 
 1. Visual Studio: Βεβαιωθείτε ότι έχετε εγκαταστήσει το Visual Studio στον υπολογιστή σας. Είναι το κύριο IDE για την ανάπτυξη .NET.
-2.  Aspose.Cells Library: Πρέπει να έχετε τη βιβλιοθήκη Aspose.Cells διαθέσιμη στο έργο σας. Μπορείτε να το εγκαταστήσετε εύκολα μέσω του NuGet Package Manager ή να το κατεβάσετε απευθείας από το[Ιστοσελίδα Aspose.Cells](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells Library: Πρέπει να έχετε τη βιβλιοθήκη Aspose.Cells διαθέσιμη στο έργο σας. Μπορείτε να το εγκαταστήσετε εύκολα μέσω του NuGet Package Manager ή να το κατεβάσετε απευθείας από το[Ιστοσελίδα Aspose.Cells](https://releases.aspose.com/cells/net/).
 3. Βασικές γνώσεις C#: Λίγη εξοικείωση με τον προγραμματισμό C# θα σας βοηθήσει να ακολουθήσετε ομαλά.
 
 ## Εισαγωγή πακέτων
@@ -52,7 +52,7 @@ using Aspose.Cells;
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // Καθορίστε τη διαδρομή του καταλόγου σας εδώ
-//Δημιουργήστε κατάλογο εάν δεν υπάρχει ήδη.
+// Δημιουργήστε κατάλογο εάν δεν υπάρχει ήδη.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -88,7 +88,7 @@ Worksheet sheet = wb.Worksheets[0]; // Πρόσβαση στο πρώτο φύλ
 for (int i = 0; i <= 255; i++)
 {
     Style style = sheet.Cells.Columns[(byte)i].Style;
-    style.IsLocked = false; // Ξεκλείδωμα στήλης
+    style.IsLocked = false; //Ξεκλείδωμα στήλης
     StyleFlag styleflag = new StyleFlag();
     styleflag.Locked = true; // Υποδείξτε ότι θέλουμε να κλειδώσουμε αυτό το στυλ
     sheet.Cells.Columns[(byte)i].ApplyStyle(style, styleflag);

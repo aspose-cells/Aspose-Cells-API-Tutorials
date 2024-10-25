@@ -95,7 +95,7 @@ In diesem Code geben wir den Diagrammtyp (in diesem Fall ein Säulendiagramm) un
 
 ## Schritt 6: Zugriff auf die Diagramminstanz
 
-Sobald wir das Diagramm erstellt haben, müssen wir auf seine Instanz zugreifen, um seine Eigenschaften zu ändern. Dies geschieht, indem wir es über den`Charts`Sammlung.
+ Sobald wir das Diagramm erstellt haben, müssen wir auf seine Instanz zugreifen, um seine Eigenschaften zu ändern. Dies geschieht, indem wir es über den`Charts`Sammlung.
 
 ```csharp
 // Zugriff auf die Instanz des neu hinzugefügten Diagramms

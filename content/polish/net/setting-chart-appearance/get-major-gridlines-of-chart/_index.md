@@ -15,7 +15,7 @@ Tworzenie atrakcyjnych wizualnie i informacyjnych wykresów jest niezbędne do s
 
 Zanim przejdziemy do samouczka, upewnij się, że wszystko masz gotowe:
 
-- Aspose.Cells dla .NET: Upewnij się, że masz pobraną bibliotekę Aspose.Cells i odwołałeś się do niej w swoim projekcie. Możesz ją pobrać[Tutaj](https://releases.aspose.com/cells/net/).
+-  Aspose.Cells dla .NET: Upewnij się, że masz pobraną bibliotekę Aspose.Cells i odwołałeś się do niej w swoim projekcie. Możesz ją pobrać[Tutaj](https://releases.aspose.com/cells/net/).
 - Środowisko programistyczne: Sprawdzi się każde środowisko programistyczne .NET, ale zdecydowanie polecamy program Visual Studio ze względu na jego solidne wsparcie i narzędzia.
 - Podstawowa znajomość języka C#: Znajomość podstaw programowania w języku C# będzie pomocna, ponieważ będziemy pisać kod.
 
@@ -76,7 +76,7 @@ worksheet.Cells["B2"].PutValue(32);
 worksheet.Cells["B3"].PutValue(50);
 ```
 
- Tutaj wprowadzamy losowe wartości do komórek`A1` Do`B3`Te dane będą stanowić źródło danych dla naszego wykresu. Istotne jest posiadanie znaczących danych do wizualizacji; w przeciwnym razie wykres byłby tylko ładnymi liniami bez kontekstu!
+ Tutaj wprowadzamy losowe wartości do komórek`A1` Do`B3`. Te dane będą stanowić źródło danych dla naszego wykresu. Istotne jest posiadanie znaczących danych do wizualizacji; w przeciwnym razie wykres byłby tylko ładnymi liniami bez kontekstu!
 
 ## Krok 5: Dodaj wykres do arkusza kalkulacyjnego
 
@@ -145,7 +145,7 @@ Ten wiersz zapisze Twoją pracę jako plik Excela w określonym katalogu. Rozwa�
 
 ## Wniosek
 
-voilà! Udało Ci się utworzyć arkusz kalkulacyjny Excela zawierający wykres z głównymi liniami siatki przy użyciu Aspose.Cells dla .NET. Nie tylko nauczyłeś się o wykresach, ale także zdobyłeś umiejętności łatwego manipulowania wizualnie przyciągającymi elementami. Ta metoda może być naprawdę pomocna w raportach biznesowych, prezentacjach akademickich lub w każdym scenariuszu, w którym wizualizacja danych jest kluczowa dla przekazania Twojej wiadomości.
+I voilà! Udało Ci się utworzyć arkusz kalkulacyjny Excela zawierający wykres z głównymi liniami siatki przy użyciu Aspose.Cells dla .NET. Nie tylko nauczyłeś się o wykresach, ale także zdobyłeś umiejętności łatwego manipulowania wizualnie przyciągającymi elementami. Ta metoda może być naprawdę pomocna w raportach biznesowych, prezentacjach akademickich lub w każdym scenariuszu, w którym wizualizacja danych jest kluczowa dla przekazania Twojej wiadomości.
 
 Opanowując te techniki, będziesz na dobrej drodze do tworzenia dynamicznych raportów, dzięki którym Twoje dane będą się wyróżniać!
 
@@ -161,7 +161,7 @@ Aspose.Cells for .NET to zaawansowany interfejs API do edycji arkuszy kalkulacyj
 Tak! Aspose.Cells umożliwia szeroką personalizację, w tym czcionki, style i formaty dla elementów wykresu.
 
 ### Gdzie mogę znaleźć więcej dokumentacji?
- Można znaleźć obszerną dokumentację na temat[Strona referencyjna Aspose'a](https://reference.aspose.com/cells/net/).
+Można znaleźć obszerną dokumentację na temat[Strona referencyjna Aspose'a](https://reference.aspose.com/cells/net/).
 
 ### Czy jest dostępna bezpłatna wersja próbna Aspose.Cells?
  Tak! Możesz wypróbować, pobierając go z[Tutaj](https://releases.aspose.com/).

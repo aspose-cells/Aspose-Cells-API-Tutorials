@@ -16,7 +16,7 @@ Nell'era digitale, gestire e proteggere i tuoi dati è più importante che mai. 
 Prima di immergerci nel codice, assicuriamoci di avere tutto ciò di cui hai bisogno:
 
 1. Ambiente di sviluppo: dovresti avere Visual Studio installato sul tuo computer, poiché fornisce un eccellente IDE per lo sviluppo .NET.
-2. Libreria Aspose.Cells: Scarica la libreria Aspose.Cells. Puoi ottenerla da[Pagina dei download di Aspose](https://releases.aspose.com/cells/net/).
+2.  Libreria Aspose.Cells: Scarica la libreria Aspose.Cells. Puoi ottenerla da[Pagina dei download di Aspose](https://releases.aspose.com/cells/net/).
 3. Conoscenza di base di C#: assicurati di avere una buona conoscenza di C# e .NET Framework per seguire facilmente il corso.
 4. Creare un progetto: impostare una nuova applicazione console in Visual Studio in cui scriveremo il codice.
 
@@ -48,12 +48,12 @@ Suddividiamo l'implementazione in passaggi gestibili. Creeremo un semplice file 
 
 ## Passaggio 1: crea un flusso di file per il tuo file Excel
 
-Per prima cosa, dobbiamo caricare un file Excel esistente. Useremo un`FileStream` per accedervi.
+ Per prima cosa, dobbiamo caricare un file Excel esistente. Useremo un`FileStream` per accedervi.
 
 ```csharp
 // Percorso verso la directory dei documenti.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-// Creazione di un flusso di file per aprire il file Excel
+//Creazione di un flusso di file per aprire il file Excel
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
  IL`FileStream` ci consente di leggere il file Excel specificato. Assicurati di cambiare "YOUR DOCUMENT DIRECTORY" con il percorso effettivo in cui si trova il tuo file Excel.

@@ -9,7 +9,7 @@ url: /nl/net/customizing-chart-axes-and-units/read-axis-labels-after-calculating
 ---
 ## Invoering
 
-Bij het werken met Excel-bestanden in .NET is Aspose.Cells een van de krachtigste bibliotheken die u tot uw beschikking hebt. Hiermee kunt u moeiteloos spreadsheets manipuleren, of u nu gegevens leest, grafieken maakt of ingewikkelde berekeningen uitvoert. In deze tutorial duiken we in een specifieke functionaliteit: het lezen van aslabels uit een grafiek nadat deze is berekend. Als u zich ooit hebt afgevraagd hoe u deze labels programmatisch kunt extraheren, bent u hier aan het juiste adres! We zullen het stap voor stap uitleggen en onderweg alle benodigde details verstrekken.
+Bij het werken met Excel-bestanden in .NET is Aspose.Cells een van de krachtigste bibliotheken die u tot uw beschikking hebt. Hiermee kunt u moeiteloos spreadsheets manipuleren, of u nu gegevens leest, grafieken maakt of ingewikkelde berekeningen uitvoert. In deze tutorial duiken we in een specifieke functionaliteit: het lezen van aslabels uit een grafiek nadat u deze hebt berekend. Als u zich ooit hebt afgevraagd hoe u deze labels programmatisch kunt extraheren, bent u hier aan het juiste adres! We zullen het stap voor stap uitleggen en onderweg alle benodigde details verstrekken.
 
 ## Vereisten
 
@@ -19,7 +19,7 @@ Voordat we in de details van de code duiken, controleren we eerst of je alles he
 2.  Aspose.Cells-bibliotheek: Deze gids gaat ervan uit dat u de Aspose.Cells-bibliotheek hebt. U kunt deze eenvoudig downloaden van[Aspose's releasepagina](https://releases.aspose.com/cells/net/)Als u niet zeker weet waar u moet beginnen,[Aspose.Cells-documentatie](https://reference.aspose.com/cells/net/) kan je beste vriend zijn!
 3. Basiskennis van C#: Als u bekend bent met de programmeertaal C#, begrijpt u de voorbeelden beter en kunt u ze probleemloos volgen.
 4.  Excel-bestand: Zorg ervoor dat u een Excel-bestand hebt met grafieken voor deze tutorial. U kunt een voorbeeld-Excel-bestand maken met de naam`sampleReadAxisLabelsAfterCalculatingTheChart.xlsx` voor testdoeleinden.
-5. .NET-omgeving: Controleer of uw .NET-omgeving correct is ingesteld. Deze tutorial richt zich op het .NET-framework, dus zorg dat u klaar bent om te gaan!
+5. .NET-omgeving: Controleer of uw .NET-omgeving correct is ingesteld. Deze tutorial richt zich op het .NET-framework, dus zorg dat u goed zit!
 
 Nu we alles hebben wat we nodig hebben, kunnen we beginnen met de installatie en de code!
 
@@ -114,7 +114,7 @@ for (int i = 0; i < lstLabels.Count; i++)
     Console.WriteLine(lstLabels[i]);
 }
 ```
-Dit fragment geeft eerst een titel en een scheidingslijn weer. Vervolgens doorlopen we elk label in de`lstLabels` ArrayList en print het naar de console. Als er tien labels zijn, zie je ze daar allemaal!
+ Dit fragment geeft eerst een titel en een scheidingslijn weer. Vervolgens doorlopen we elk label in de`lstLabels`ArrayList en print het naar de console. Als er tien labels zijn, zie je ze daar allemaal!
 
 ## Stap 8: Laatste bericht
 
@@ -141,7 +141,7 @@ Aspose.Cells is een krachtige bibliotheek voor het manipuleren van Excel-bestand
  U kunt een licentie voor Aspose.Cells aanschaffen via hun[aankooppagina](https://purchase.aspose.com/buy).
 
 ### Waar kan ik ondersteuning vinden voor Aspose.Cells?
- kunt het Aspose-forum bezoeken voor ondersteuning[hier](https://forum.aspose.com/c/cells/9).
+ U kunt het Aspose-forum bezoeken voor ondersteuning[hier](https://forum.aspose.com/c/cells/9).
 
 ### Kan ik een tijdelijk rijbewijs krijgen?
- Ja! Aspose biedt een tijdelijke licentie aan die u kunt aanvragen bij[deze link](https://purchase.aspose.com/temporary-license/).
+Ja! Aspose biedt een tijdelijke licentie aan die u kunt aanvragen bij[deze link](https://purchase.aspose.com/temporary-license/).

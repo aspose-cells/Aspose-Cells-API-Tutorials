@@ -16,7 +16,7 @@ Je moet een fundamenteel begrip hebben van C# en .NET. Deze tutorial is op maat 
 ### Omgeving instellen
 1. Visual Studio: Zorg ervoor dat u Visual Studio hebt geïnstalleerd. Het is een ontwikkelomgeving die coderen vereenvoudigt.
 2.  Aspose.Cells Library: U hebt de Aspose.Cells-bibliotheek nodig. Als u deze nog niet hebt, kunt u deze downloaden[hier](https://releases.aspose.com/cells/net/).
-3.  Voorbeeld Excel-bestand: Maak of download een voorbeeld Excel-bestand. Voor deze tutorial gebruiken we een bestand met de naam`sampleSetMarginsOfCommentOrShapeInsideTheWorksheet.xlsx`.
+3. Voorbeeld Excel-bestand: Maak of download een voorbeeld Excel-bestand. Voor deze tutorial gebruiken we een bestand met de naam`sampleSetMarginsOfCommentOrShapeInsideTheWorksheet.xlsx`.
 ## Pakketten importeren
 De eerste stap in onze reis is het importeren van de benodigde pakketten. U moet de Aspose.Cells-naamruimten in uw project opnemen. Dit geeft u toegang tot alle functionaliteiten die Aspose.Cells te bieden heeft.
 ### Open uw project
@@ -72,7 +72,7 @@ Elke vorm heeft mogelijk al een uitlijningsinstelling die we moeten aanpassen. H
 Aspose.Cells.Drawing.Texts.ShapeTextAlignment txtAlign = sh.TextBody.TextAlignment;
 txtAlign.IsAutoMargin = false;
 ```
- Door het instellen`IsAutoMargin` naar onwaar, hebben we nu controle over de marges.
+ Door het instellen`IsAutoMargin`naar onwaar, hebben we nu controle over de marges.
 ## Stap 6: Stel de marges in
 Dit is de cruciale stap waarin we de marges definiëren. U kunt deze waarden aanpassen aan uw behoeften.
 ```csharp
@@ -105,4 +105,4 @@ Aspose.Cells is een .NET-bibliotheek waarmee u Excel-bestanden kunt maken, bewer
 ### Is de bibliotheek eenvoudig te integreren in bestaande projecten?
 Absoluut! Aspose.Cells integreert eenvoudig in .NET-projecten en de API is eenvoudig.
 ### Waar kan ik ondersteuning vinden voor Aspose.Cells?
- kunt ondersteuning krijgen via de Aspose[forum](https://forum.aspose.com/c/cells/9).
+ U kunt ondersteuning krijgen via de Aspose[forum](https://forum.aspose.com/c/cells/9).

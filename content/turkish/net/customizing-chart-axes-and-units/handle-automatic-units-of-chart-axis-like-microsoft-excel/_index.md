@@ -108,7 +108,7 @@ Excel'de grafiklerdeki temel özelliklerden biri, grafik eksenleri için otomati
 
 ```csharp
 // Y ekseni için ana birimi ayarlayın
-ch.AxisY.MajorUnit = 10; //İhtiyacınıza göre ayarlayabilirsiniz
+ch.AxisY.MajorUnit = 10; // İhtiyacınıza göre ayarlayabilirsiniz
 ```
 
 Otomatik üniteleri şimdi güncelleyelim!
@@ -142,7 +142,7 @@ Aspose.Cells for .NET ile çalışmak yalnızca verimli değil aynı zamanda ina
 Aspose.Cells, Excel dosyaları oluşturmak, düzenlemek ve dönüştürmek için güçlü bir .NET kütüphanesidir.
 
 ### Aspose.Cells'i ücretsiz kullanabilir miyim?
- Evet! Ücretsiz denemeyle başlayabilirsiniz[Burada](https://releases.aspose.com/).
+Evet! Ücretsiz denemeyle başlayabilirsiniz[Burada](https://releases.aspose.com/).
 
 ### Başlamak için herhangi bir şey yüklemem gerekiyor mu?
 Sadece Aspose.Cells kütüphanesi ve makinenize kurulu bir .NET Framework yeterli.

@@ -63,7 +63,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## ステップ 2: ワークブック オブジェクトをインスタンス化する
 
-次に、`Workbook`Excel ファイルを表すクラス。
+次に、`Workbook` Excel ファイルを表すクラス。
 
 ```csharp
 Workbook workbook = new Workbook();

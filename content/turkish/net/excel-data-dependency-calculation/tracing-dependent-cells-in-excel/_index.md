@@ -18,7 +18,7 @@ Başlamadan önce, kodlama yolculuğumuzun sorunsuz bir şekilde ilerlemesi içi
 1. C# Temel Bilgisi: Kodumuzu C# ile yazacağımız için dilin temellerine hakim olmak kavramları hızlı bir şekilde kavramanıza yardımcı olacaktır.
 2.  Aspose.Cells for .NET Kütüphanesi: Aspose.Cells for .NET kütüphanesini indirmeniz gerekecek. Bunu şuradan edinebilirsiniz:[İndirme bağlantısı](https://releases.aspose.com/cells/net/).
 3. Visual Studio: .NET kodunuzu yazmak ve test etmek için harika bir ortamdır. Makinenize düzgün bir şekilde yüklendiğinden emin olun. 
-4. Bir Excel Dosyası: Çalışmak için bazı formüller içeren bir Excel dosyasına ihtiyacınız olacak. Adlı bir dosya kullanacağız.`Book1.xlsx`, ama siz kendinizinkini kullanmaktan çekinmeyin!
+4.  Bir Excel Dosyası: Çalışmak için bazı formüller içeren bir Excel dosyasına ihtiyacınız olacak. Adlı bir dosya kullanacağız.`Book1.xlsx`ama siz kendinizinkini kullanmaktan çekinmeyin!
 
 Emniyet kemerinizi takıp hücreleri izlemeye başlamaya hazır mısınız? Hadi ayrıntılara inelim!
 
@@ -84,11 +84,11 @@ Artık çalışma kitabını açtığımıza göre, tek tek hücrelere elimizi u
 Cells cells = workbook.Worksheets[0].Cells;
 ```
 
-Açıklama: Yukarıdaki kod, çalışma kitabımızdaki ilk çalışma sayfasını (indeks 0) hedefler ve`Cells` Bağımlıları izlemek için üzerinde çalışacağımız koleksiyon.
+ Açıklama: Yukarıdaki kod, çalışma kitabımızdaki ilk çalışma sayfasını (indeks 0) hedefler ve`Cells` Bağımlıları izlemek için üzerinde çalışacağımız koleksiyon.
 
 ## Adım 4: Hücreyi seçin
 
- Gösterim amaçlı olarak, belirli bir hücrenin bağımlılarını izlemek istiyoruz; bu durumda,`B2`. Bunu kodlayalım:
+Gösterim amaçlı olarak, belirli bir hücrenin bağımlılarını izlemek istiyoruz; bu durumda,`B2`. Bunu kodlayalım:
 
 ```csharp
 Cell cell = cells["B2"];
@@ -118,7 +118,7 @@ foreach (Cell c in cell.GetDependents(true))
 Console.ReadKey();
 ```
 
-Açıklama: Bu döngü dizimizdeki her bağımlı hücreyi dolaşır ve adını yazdırır—oldukça basit!`Console.ReadKey()` konsol penceresinin bir tuşa basana kadar açık kalmasını sağlar ve böylece çıktıyı okumanız için size zaman tanır.
+ Açıklama: Bu döngü dizimizdeki her bağımlı hücreyi dolaşır ve adını yazdırır—oldukça basit!`Console.ReadKey()` konsol penceresinin bir tuşa basana kadar açık kalmasını sağlar ve böylece çıktıyı okumanız için size zaman tanır.
 
 ## Çözüm
 

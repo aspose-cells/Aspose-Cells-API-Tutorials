@@ -63,7 +63,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Bước 2: Khởi tạo một đối tượng Workbook
 
- Tiếp theo, chúng ta tạo một thể hiện của`Workbook`lớp, biểu diễn một tệp Excel.
+ Tiếp theo, chúng ta tạo một thể hiện của`Workbook` lớp, biểu diễn một tệp Excel.
 
 ```csharp
 Workbook workbook = new Workbook();

@@ -26,7 +26,7 @@ För att komma igång med Aspose.Cells måste du lägga till biblioteket. Gör s
 2. Klicka på "Hantera NuGet-paket."
 3. Sök efter "Aspose.Cells" och klicka på "Installera".
 ### Importera de nödvändiga namnområdena
-början av din C#-fil måste du importera Aspose.Cells. Detta innebär att du lägger till följande med hjälp av direktiv:
+I början av din C#-fil måste du importera Aspose.Cells. Detta innebär att du lägger till följande med hjälp av direktiv:
 ```csharp
 using System.IO;
 using Aspose.Cells;
@@ -50,7 +50,7 @@ Worksheet sheet = workbook.Worksheets[0]; // Åtkomst till det första kalkylbla
 ```
 Denna kodrad låter dig komma åt det första kalkylbladet för ytterligare kommandon.
 ## Steg 4: Konfigurera bild- och utskriftsalternativ
-Nu måste vi definiera hur vi vill återge vår produktion. Detta innebär att skapa en instans av`ImageOrPrintOptions` och ställ in önskat utdataformat.
+ Nu måste vi definiera hur vi vill återge vår produktion. Detta innebär att skapa en instans av`ImageOrPrintOptions` och ställ in önskat utdataformat.
 ```csharp
 Aspose.Cells.Rendering.ImageOrPrintOptions options = new Aspose.Cells.Rendering.ImageOrPrintOptions();
 options.SaveFormat = SaveFormat.Xps; // Ställer in utdataformatet till XPS
@@ -82,4 +82,4 @@ Ja, du kan anpassa koden för att gå igenom flera filer i katalogen och använd
 ### Vad händer om jag bara behöver konvertera specifika ark?
  Du kan ange indexet för arket du vill ha i`SheetRender` objekt som visas i våra steg.
 ### Var kan jag hitta mer information om Aspose.Cells?
- Du kan utforska[dokumentation](https://reference.aspose.com/cells/net/)för mer avancerade funktioner och alternativ tillgängliga med biblioteket.
+ Du kan utforska[dokumentation](https://reference.aspose.com/cells/net/) för mer avancerade funktioner och alternativ tillgängliga med biblioteket.

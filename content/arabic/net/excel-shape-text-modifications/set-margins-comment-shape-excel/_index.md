@@ -16,7 +16,7 @@ url: /ar/net/excel-shape-text-modifications/set-margins-comment-shape-excel/
 ### إعداد البيئة
 1. Visual Studio: تأكد من تثبيت Visual Studio. فهو بيئة تطوير تبسط عملية الترميز.
 2.  مكتبة Aspose.Cells: أنت بحاجة إلى مكتبة Aspose.Cells. إذا لم تكن قد قمت بتنزيلها بالفعل، يمكنك تنزيلها[هنا](https://releases.aspose.com/cells/net/).
-3.  ملف Excel نموذجي: قم بإنشاء ملف Excel نموذجي أو تنزيله. في هذا البرنامج التعليمي، سنستخدم ملفًا باسم`sampleSetMarginsOfCommentOrShapeInsideTheWorksheet.xlsx`.
+3. ملف Excel نموذجي: قم بإنشاء ملف Excel نموذجي أو تنزيله. في هذا البرنامج التعليمي، سنستخدم ملفًا باسم`sampleSetMarginsOfCommentOrShapeInsideTheWorksheet.xlsx`.
 ## استيراد الحزم
 تتضمن الخطوة الأولى في رحلتنا استيراد الحزم اللازمة. ستحتاج إلى تضمين مساحات أسماء Aspose.Cells في مشروعك. سيمنحك هذا إمكانية الوصول إلى جميع الوظائف التي يوفرها Aspose.Cells.
 ### افتح مشروعك
@@ -72,7 +72,7 @@ foreach (Shape sh in ws.Shapes)
 Aspose.Cells.Drawing.Texts.ShapeTextAlignment txtAlign = sh.TextBody.TextAlignment;
 txtAlign.IsAutoMargin = false;
 ```
- عن طريق الإعداد`IsAutoMargin` إلى خطأ، لدينا الآن السيطرة على الهوامش.
+ عن طريق الإعداد`IsAutoMargin`إلى خطأ، لدينا الآن السيطرة على الهوامش.
 ## الخطوة 6: تعيين الهوامش
 هذه هي الخطوة الحاسمة التي نحدد فيها الهوامش. يمكنك تخصيص هذه القيم وفقًا لاحتياجاتك.
 ```csharp
@@ -105,4 +105,4 @@ Aspose.Cells عبارة عن مكتبة .NET مصممة لإنشاء ملفات 
 ### هل من السهل دمج المكتبة في المشاريع القائمة؟
 بالتأكيد! يتكامل Aspose.Cells بسهولة مع مشاريع .NET، كما أن واجهة برمجة التطبيقات الخاصة به بسيطة.
 ### أين يمكنني العثور على الدعم لـ Aspose.Cells؟
-يمكنك الحصول على الدعم من خلال Aspose[منتدى](https://forum.aspose.com/c/cells/9).
+ يمكنك الحصول على الدعم من خلال Aspose[منتدى](https://forum.aspose.com/c/cells/9).

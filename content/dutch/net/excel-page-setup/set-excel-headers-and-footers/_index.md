@@ -77,7 +77,7 @@ Laten we nu beginnen met het instellen van de header. We beginnen met het linker
 pageSetup.SetHeader(0, "&A");
 ```
 
-Uitleg: De`SetHeader` methode stelt ons in staat om de inhoud van de header te definiëren. Hier,`&A` geeft de naam van het werkblad aan, die aan de linkerkant van de koptekst wordt weergegeven.
+ Uitleg: De`SetHeader` methode stelt ons in staat om de inhoud van de header te definiëren. Hier,`&A` geeft de naam van het werkblad aan, die aan de linkerkant van de koptekst wordt weergegeven.
 
 ## Stap 4: Pas de centrale header aan
 
@@ -87,7 +87,7 @@ Vervolgens passen we de centrale header aan, zodat de huidige datum en tijd in e
 pageSetup.SetHeader(1, "&\"Times New Roman,Bold\"&D-&T");
 ```
 
-Uitleg: De`&D` En`&T` codes vervangen zichzelf automatisch met de huidige datum en tijd. We specificeren ook dat het lettertype voor deze header "Times New Roman" en vetgedrukt moet zijn.
+ Uitleg: De`&D` En`&T` codes vervangen zichzelf automatisch met de huidige datum en tijd. We specificeren ook dat het lettertype voor deze header "Times New Roman" en vetgedrukt moet zijn.
 
 ## Stap 5: Stel de juiste header in
 
@@ -117,7 +117,7 @@ Vervolgens stellen we de middelste voettekst in om het huidige paginanummer weer
 pageSetup.SetFooter(1, "&P");
 ```
 
-Uitleg: De`&P` code voegt automatisch het paginanummer in het midden van de voettekst in: een handige manier om pagina's bij te houden.
+ Uitleg: De`&P` code voegt automatisch het paginanummer in het midden van de voettekst in: een handige manier om pagina's bij te houden.
 
 ## Stap 8: Configuratie van de rechtervoettekst
 

@@ -38,7 +38,7 @@ Prima di iniziare a manipolare la cartella di lavoro, dobbiamo definire dove ver
 ```csharp
 // Percorso verso la directory dei documenti.
 string dataDir = "Your Document Directory";
-//Creare la directory se non è già presente.
+// Creare la directory se non è già presente.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);

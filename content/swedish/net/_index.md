@@ -53,7 +53,7 @@ Lås upp magin med hyperlänkar i Excel med Aspose.Cells för .NET. Upptäck hur
 ### [Arbeta med namngivna intervall i Excel](./excel-working-with-named-ranges/)
 Utforska Aspose.Cells för .NET handledningar för att arbeta med namngivna intervall i Excel. Lär dig hur du kommer åt alla eller specifika namngivna intervall med steg-för-steg-guider.
 ### [Sammanfoga och ta bort celler i Excel](./excel-merging-unmerging-cells/)
-Bemästra sammanslagning och upphävande av celler i Excel med våra enkla Aspose.Cells för .NET-tutorials. Lyft dina kalkylbladsfärdigheter.
+Bemästra slå samman och ta bort celler i Excel med våra enkla Aspose.Cells för .NET-tutorials. Lyft dina kalkylbladsfärdigheter.
 ### [Skapa och formatera namngivna intervall i Excel](./excel-creating-formatting-named-ranges/)
 Upptäck hur du skapar och formaterar namngivna intervall i Excel med Aspose.Cells för .NET. Förbättra din datahantering och visuella presentation utan ansträngning.
 ### [Avancerade operationer med namngivna intervall i Excel](./excel-advanced-named-ranges/)
@@ -68,7 +68,7 @@ Lås upp Excel-datahantering med Aspose.Cells för .NET tutorials. Lär dig auto
 Upptäck hur du skapar Excel-delsummor och spårar prejudikat med Aspose.Cells för .NET. Följ dessa handledningar för att förbättra dina kalkylbladsfärdigheter utan ansträngning.
 ### [Excel-databeroende och beräkning](./excel-data-dependency-calculation/)
 Upptäck Aspose.Cells för .NET självstudiekurser som täcker Excel-databeroenden och beräkningar, inklusive spårning av beroende celler, för att förbättra dina Excel-automatiseringsfärdigheter.
-### [Excel-datavalidering och filter](./excel-data-validation-filter/)
+### [Excel-datavalidering och -filter](./excel-data-validation-filter/)
 Upptäck Aspose.Cells för .NET självstudier om Excel-datavalidering och filter – enkla guider för att förbättra din produktivitet.
 ### [Excel-datajustering och formatering](./excel-data-alignment-formatting/)
 Upptäck hur du ändrar justering av Excel-celler utan att förlora formatering i Aspose.Cells för .NET. Lär dig steg-för-steg handledning för sömlös Excel-dataformatering.
@@ -92,7 +92,7 @@ Utforska omfattande Aspose.Cells för .NET tutorials om att lägga till Excel-fo
 Lås upp kraften i Excel med Aspose.Cells för .NET. Bemästra OLE-objekt och bildhantering genom våra enkla handledningar.
 ### [Excel Shape and Label Access](./excel-shape-label-access/)
 Lås upp kraften i Aspose.Cells för .NET med våra omfattande handledningar som täcker OLE-objektetiketter och Smart Art-formidentifiering i Excel.
-### [Modifieringar av form och text i Excel](./excel-shape-text-modifications/)
+### [Excel-form- och textändringar](./excel-shape-text-modifications/)
 Lär dig att manipulera Excel-former och text med Aspose.Cells för .NET med lätta att följa handledningar och praktiska kodexempel.
 ### [Excel-filhantering](./excel-file-handling/)
 Lås upp din Excel-potential med Aspose.Cells för .NET tutorials. Exportera egenskaper, hantera tomma rader och ladda synliga ark enkelt.
@@ -120,3 +120,35 @@ Utforska den omfattande guiden om Aspose.Cells för .NET tutorials. Lär dig mer
 Upptäck omfattande Aspose.Cells för .NET-tutorials om XPS- och PDF-operationer för att effektivisera dina filkonverteringar.
 ### [Länk- och konfigurationsoperationer](./link-and-configuration-operations/)
 Upptäck omfattande självstudier om Aspose.Cells för .NET, inklusive länkkonfiguration och mer. Perfekt för utvecklare som vill förbättra sina Excel-applikationer.
+### [Arbeta med teckensnitt i kalkylblad](./working-with-fonts-in-spreadsheets/)
+Upptäck viktiga handledningar om hur du använder Aspose.Cells för .NET, med fokus på teckensnittshantering i kalkylblad och säkerställer optimal dokumentpresentation.
+### [Excel-formatering och styling](./excel-formatting-and-styling/)
+Upptäck viktiga Aspose.Cells för .NET-tutorials om Excel-formatering och styling. Lyft dina kalkylblad med praktiska, steg-för-steg-guider.
+### [Arbeta med typsnitt i Excel](./working-with-fonts-in-excel/)
+Lås upp kraften i Aspose.Cells för .NET med handledningar om hur du arbetar med typsnitt i Excel, från att ställa in färger till att använda stilar för fantastiska kalkylblad.
+### [Excel-teman och formatering](./excel-themes-and-formatting/)
+Utforska Aspose.Cells för .NET tutorials om att anpassa Excel-teman, ställa in temafärger och använda temafärger programmatiskt. Förbättra dina Excel-kunskaper.
+### [Formatera rader och kolumner i Excel](./formatting-rows-and-columns-in-excel/)
+Lås upp kraften i Aspose.Cells för .NET genom våra detaljerade tutorials om formatering av rader och kolumner i Excel, perfekt för utvecklare.
+### [Nummer- och visningsformat i Excel](./number-and-display-formats-in-excel/)
+Utforska Aspose.Cells för .NET handledningar om tal- och visningsformat, inklusive inbyggda och anpassade formateringsalternativ för Excel-automatisering.
+### [Excel-färger och bakgrundsinställningar](./excel-colors-and-background-settings/)
+Upptäck viktiga Aspose.Cells för .NET-tutorials om Excel-färger och bakgrundsinställningar för att optimera din datapresentation och förbättra visuella tilltalande.
+### [Färginställningar och anpassning i Excel](./color-settings-and-customization-in-excel/)
+Bemästra färginställningar och anpassning i Excel med Aspose.Cells för .NET. Lär dig hur du beräknar Excels valda färg programmatiskt i denna steg-för-steg handledning.
+### [Excel villkorlig formatering](./excel-conditional-formatting/)
+Lär dig hur du använder villkorlig formatering vid körning i Excel med Aspose.Cells för .NET. Den här steg-för-steg-guiden hjälper utvecklare att automatisera Excel-formatering.
+### [Excel-tecken och cellformatering](./excel-character-and-cell-formatting/)
+Lär dig teckenformatering och programmatisk inställning av aktiva celler i Excel med Aspose.Cells för .NET. Utforska omfattande guider för att förenkla dina utvecklingsuppgifter.
+### [Excel-kanter och formateringsalternativ](./excel-borders-and-formatting-options/)
+Upptäck Aspose.Cells för .NET tutorials som lär dig hur du programmässigt ställer in Excel-kanter, teckensnitt och mönster, vilket sparar tid och förbättrar dina kalkylblad.
+### [Excel-formateringsmetoder och alternativ](./excel-formatting-methods-and-options/)
+Upptäck Excel-formateringsmetoder och -alternativ i Aspose.Cells för .NET tutorials, som täcker effektiva tekniker som kopieringsmetoden för bättre produktivitet.
+### [Ladda och spara Excel-filer med alternativ](./loading-and-saving-excel-files-with-options/)
+Utforska Aspose.Cells för .NET tutorials, med guider för att ladda och spara Excel-filer med alternativ som automatisk anpassning och inaktivering av kommentarer.
+### [Konvertera Excel-filer till andra format](./converting-excel-files-to-other-formats/)
+Utforska en omfattande Aspose.Cells för .NET-handledningslista för att konvertera Excel-filer till format som JSON, DOCX, HTML, PDF, Markdown och mer.
+### [Spara och exportera Excel-filer med alternativ](./saving-and-exporting-excel-files-with-options/)
+Utforska detaljerade Aspose.Cells för .NET tutorials om att spara och exportera Excel-filer. Lär dig hur du hanterar kommentarer, dokumentegenskaper, varningar och datatrimning.
+### [Skapa och konfigurera pivottabeller](./creating-and-configuring-pivot-tables/)
+Upptäck omfattande handledningar för Aspose.Cells för .NET. Bemästra pivottabeller i Excel programmatiskt med detaljerade steg-för-steg-guider för varje funktionalitet.

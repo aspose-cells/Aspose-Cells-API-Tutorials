@@ -36,7 +36,7 @@ Tento krok nastavení je jako položení základů pro vaši operaci Excel!
 
 ## Krok 2: Použití příkazů
 
-Nyní budete muset zahrnout relevantní jmenné prostory pro práci s Aspose.Cells. Na začátek souboru kódu vložte následující:
+Nyní budete muset zahrnout relevantní jmenné prostory pro práci s Aspose.Cells. Na začátek souboru s kódem uveďte následující:
 
 ```csharp
 using System.IO;

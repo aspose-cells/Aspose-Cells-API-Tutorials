@@ -141,7 +141,7 @@ Queste opzioni aiutano a migliorare la qualità visiva dell'immagine generata, i
 
 ## Passaggio 10: Converti il grafico in immagine con le opzioni avanzate
 
-Adesso convertiamo effettivamente il grafico utilizzando le opzioni avanzate appena impostate.
+Adesso convertiamo effettivamente il grafico utilizzando le opzioni avanzate che abbiamo appena impostato.
 
 ```csharp
 chart.ToImage(outputDir + "outputChartRendering.png", options);

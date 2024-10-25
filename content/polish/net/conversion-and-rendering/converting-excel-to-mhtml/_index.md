@@ -26,7 +26,7 @@ Gdy masz już wszystkie wymagania wstępne, następnym krokiem jest zaimportowan
 
 1. Otwórz swój projekt: Uruchom program Visual Studio i otwórz istniejący projekt lub utwórz nowy.
 2. Zarządzanie pakietami NuGet: Kliknij prawym przyciskiem myszy swój projekt w Eksploratorze rozwiązań, a następnie wybierz opcję „Zarządzaj pakietami NuGet”.
-3.  Wyszukaj i zainstaluj Aspose.Cells: W polu wyszukiwania wpisz`Aspose.Cells` i zainstaluj pakiet. Dzięki temu masz pewność, że w projekcie jest zintegrowana najnowsza wersja.
+3.  Wyszukaj i zainstaluj Aspose.Cells: W polu wyszukiwania wpisz`Aspose.Cells` zainstaluj pakiet. Dzięki temu masz pewność, że w projekcie jest zintegrowana najnowsza wersja.
 4. Dodaj dyrektywę Using: W pliku kodu dodaj następującą dyrektywę, aby wykorzystać przestrzeń nazw Aspose.Cells:
 
 ```csharp

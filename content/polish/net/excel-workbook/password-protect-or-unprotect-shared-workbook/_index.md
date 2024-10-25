@@ -100,7 +100,7 @@ Dzięki temu będziesz mieć pewność, że kod został wykonany zgodnie z oczek
 
 ## Wniosek
 
-tym samouczku przeprowadziliśmy przez proces ochrony i usuwania ochrony udostępnionego skoroszytu przy użyciu Aspose.Cells dla .NET. Wykonując te kroki, możesz zapewnić bezpieczeństwo plików Excel, jednocześnie umożliwiając współpracę. Niezależnie od tego, czy udostępniasz poufne dane finansowe, czy informacje o klientach, ochrona Twojej pracy jest kluczowa w dzisiejszym środowisku.
+W tym samouczku przeprowadziliśmy przez proces ochrony i usuwania ochrony udostępnionego skoroszytu przy użyciu Aspose.Cells dla .NET. Wykonując te kroki, możesz zapewnić bezpieczeństwo plików Excel, jednocześnie umożliwiając współpracę. Niezależnie od tego, czy udostępniasz poufne dane finansowe, czy informacje o klientach, ochrona Twojej pracy jest kluczowa w dzisiejszym środowisku.
 
 ## Najczęściej zadawane pytania
 
@@ -117,4 +117,4 @@ Niestety, jeśli zapomnisz hasła, nie będziesz mógł odblokować skoroszytu b
 Aspose.Cells obsługuje głównie .NET, ale mają też biblioteki dla Javy i innych języków. Sprawdź ich stronę, aby uzyskać więcej informacji!
 
 ### Jak uzyskać pomoc techniczną dotyczącą Aspose.Cells?
-Możesz uzyskać pomoc poprzez forum wsparcia:[Wsparcie Aspose](https://forum.aspose.com/c/cells/9).
+ Możesz uzyskać pomoc poprzez forum wsparcia:[Wsparcie Aspose](https://forum.aspose.com/c/cells/9).

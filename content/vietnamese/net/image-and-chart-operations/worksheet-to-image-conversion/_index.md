@@ -12,7 +12,7 @@ Khi nói đến việc thao tác các tệp Excel trong .NET, Aspose.Cells nổi
 ## Điều kiện tiên quyết
 Trước khi bắt đầu chuyển đổi, điều quan trọng là phải đảm bảo bạn đã thiết lập mọi thứ đúng cách. Sau đây là các điều kiện tiên quyết bạn cần:
 1. Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio trên máy tính của mình. Đây là IDE sẽ giúp bạn chạy các dự án .NET của mình một cách trơn tru.
-2. Aspose.Cells cho Thư viện .NET: Bạn cần phải có được thư viện này. Bạn có thể[tải xuống ở đây](https://releases.aspose.com/cells/net/) hoặc bắt đầu với một[dùng thử miễn phí](https://releases.aspose.com/).
+2.  Aspose.Cells cho Thư viện .NET: Bạn cần phải có được thư viện này. Bạn có thể[tải xuống ở đây](https://releases.aspose.com/cells/net/) hoặc bắt đầu với một[dùng thử miễn phí](https://releases.aspose.com/).
 3. Kiến thức cơ bản về C#: Sự quen thuộc với lập trình C# sẽ có lợi vì các ví dụ và giải thích của chúng tôi sẽ được viết bằng ngôn ngữ này.
 4.  Một tệp Excel mẫu: Để minh họa, hãy tạo hoặc tải xuống một tệp Excel. Lưu nó dưới dạng`MyTestBook1.xls` trong thư mục dự án của bạn.
 5. Hiểu biết cơ bản về các dự án .NET: Biết cách tạo một dự án .NET đơn giản sẽ giúp bạn thực hiện dễ dàng hơn, nhưng đừng lo lắng—chúng tôi sẽ hướng dẫn bạn từng bước.
@@ -51,7 +51,7 @@ string dataDir = "Your Document Directory";
 // Mở tệp Excel mẫu.
 Workbook book = new Workbook(dataDir + "MyTestBook1.xls");
 ```
- Trong bước này, chúng ta tạo một thể hiện của`Workbook`lớp và truyền đường dẫn đến tệp Excel của chúng ta. Điều này cho phép chúng ta tương tác với nội dung của tệp theo chương trình.
+ Trong bước này, chúng ta tạo một thể hiện của`Workbook` lớp và truyền đường dẫn đến tệp Excel của chúng ta. Điều này cho phép chúng ta tương tác với nội dung của tệp theo chương trình.
 ## Bước 5: Truy cập vào Bảng tính
 Bây giờ chúng ta đã mở bảng tính, hãy truy cập vào bảng tính đầu tiên:
 ```csharp
@@ -78,7 +78,7 @@ SheetRender sr = new SheetRender(sheet, imgOptions);
 // Hiển thị hình ảnh cho trang tính
 Bitmap bitmap = sr.ToImage(0);
 ```
- Các`SheetRender`lớp giúp hiển thị bảng tính thành hình ảnh bitmap. Chúng tôi gọi`ToImage(0)` để hiển thị trang thứ không (trang tính đầu tiên của chúng ta) thành một bản đồ bitmap.
+ Các`SheetRender` lớp giúp hiển thị bảng tính thành hình ảnh bitmap. Chúng tôi gọi`ToImage(0)` để hiển thị trang thứ không (trang tính đầu tiên của chúng ta) thành một bản đồ bitmap.
 ## Bước 8: Lưu hình ảnh
 Sau khi render, chúng ta cần lưu hình ảnh vào thư mục đã chỉ định:
 ```csharp
@@ -99,7 +99,7 @@ Và bạn đã có nó! Chỉ với vài bước đơn giản, bạn đã học 
 ### Aspose.Cells là gì?
 Aspose.Cells là thư viện .NET cho phép các nhà phát triển tạo, thao tác, chuyển đổi và xử lý các tệp Excel theo cách lập trình.
 ### Tôi có thể sử dụng Aspose.Cells miễn phí không?
- Có, bạn có thể bắt đầu sử dụng Aspose.Cells bằng cách tải xuống bản dùng thử miễn phí từ[trang web](https://releases.aspose.com/).
+Có, bạn có thể bắt đầu sử dụng Aspose.Cells bằng cách tải xuống bản dùng thử miễn phí từ[trang web](https://releases.aspose.com/).
 ### Aspose.Cells hỗ trợ xuất những định dạng hình ảnh nào?
 Aspose.Cells hỗ trợ nhiều định dạng hình ảnh, bao gồm JPEG, PNG, BMP và GIF.
 ### Tôi có thể tìm thêm hỗ trợ cho Aspose.Cells ở đâu?

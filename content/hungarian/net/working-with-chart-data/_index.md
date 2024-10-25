@@ -27,4 +27,4 @@ Ismerje meg, hogyan hozhat létre adatjelölőkkel ellátott vonaldiagramot Exce
 ### [Keresse meg a Chart Series pontok X és Y értékeinek típusát](./find-type-of-x-and-y-values-of-points-in-chart-series/)
 Ebből a részletes, könnyen követhető útmutatóból megtudhatja, hogyan találhatja meg az X és Y értékek típusait a diagramsorozatokban az Aspose.Cells for .NET segítségével.
 ### [Töltse le az ODS-fájl diagramfeliratát](./get-chart-subtitle-for-ods-file/)
-Fedezze fel, hogyan bonthat ki diagramfeliratokat ODS-fájlokból az Aspose.Cells for .NET segítségével ezzel a részletes, lépésenkénti útmutatóval. Tökéletes fejlesztőknek.
+Fedezze fel, hogyan bonthat ki diagramfeliratokat az ODS-fájlokból az Aspose.Cells for .NET segítségével ezzel a részletes, lépésenkénti útmutatóval. Tökéletes fejlesztőknek.

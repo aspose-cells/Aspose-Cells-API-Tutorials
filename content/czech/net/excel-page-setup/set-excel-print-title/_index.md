@@ -63,7 +63,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Krok 2: Vytvořte instanci objektu sešitu
 
- Dále vytvoříme instanci`Workbook`třídy, která představuje soubor Excel.
+ Dále vytvoříme instanci`Workbook` třídy, která představuje soubor Excel.
 
 ```csharp
 Workbook workbook = new Workbook();

@@ -16,7 +16,7 @@ url: /ja/net/excel-workbook/get-odata-details/
 コードを詳しく見ていく前に、このチュートリアルを進めるために必要なものがすべて揃っていることを確認しましょう。必要なものは次のとおりです。
 
 1. Visual Studio: Visual Studio がインストールされていることを確認してください。これは .NET 開発に最適な環境です。
-2.  Aspose.Cellsライブラリ: Aspose.Cellsライブラリを.NETからダウンロードしてインストールします。[Aspose ダウンロード ページ](https://releases.aspose.com/cells/net/)無料の試用版もこちらからお試しいただけます。[ここ](https://releases.aspose.com/).
+2. Aspose.Cellsライブラリ: Aspose.Cellsライブラリを.NETからダウンロードしてインストールします。[Aspose ダウンロード ページ](https://releases.aspose.com/cells/net/)無料の試用版もこちらからお試しいただけます。[ここ](https://releases.aspose.com/).
 3. C# の基礎知識: C# プログラミングに精通していると、コードのニュアンスをより深く理解できるようになります。
 4. サンプル Excel ファイル: このチュートリアルでは、作業ディレクトリに保存されている「ODataSample.xlsx」という名前の Excel ファイルを使用します。
 

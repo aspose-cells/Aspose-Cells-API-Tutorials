@@ -16,7 +16,7 @@ Excel elektronik tablolarınızda titiz değişiklikler yapmak için saatler har
 Kodlamanın inceliklerine dalmadan önce, önünüzdeki yolculuğa iyi donanımlı olduğunuzdan emin olalım.
 
 1. .NET Framework: .NET ortamınızın kurulu olduğundan emin olun. .NET Core veya .NET Framework olsun, hazır olmalısınız.
-2.  Aspose.Cells Kütüphanesi: Bu kütüphane, güçlü elektronik tablo manipülasyonlarının kilidini açmanız için anahtarınızdır.[buradan indirin](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells Kütüphanesi: Bu kütüphane, güçlü elektronik tablo manipülasyonlarının kilidini açmanız için anahtarınızdır.[buradan indirin](https://releases.aspose.com/cells/net/).
 3. Bir IDE: Kodlama deneyiminizi çok daha akıcı hale getirecek olan Visual Studio gibi favori Entegre Geliştirme Ortamınızı (IDE) kullanın.
 4. Temel Programlama Bilgisi: C# ve düzenli ifade kavramlarına aşinalık faydalı olacaktır.
 
@@ -77,7 +77,7 @@ replace.RegexKey = true; // Regex kullandığımızı belirtin
 ```
 
 Bu yapılandırmada:
-- `CaseSensitive` ayarlandı`false`yani "KIM" kelimesini ararken harfin büyük ya da küçük olması dikkate alınmayacaktır.
+- `CaseSensitive` ayarlandı`false`, yani "KIM" kelimesini ararken harfin büyük ya da küçük olması dikkate alınmayacaktır.
 - `MatchEntireCellContents` ayarlandı`false` böylece hücre içeriğinin parçalarını değiştirebiliriz.
 - `RegexKey` ayarlandı`true` aramamızda düzenli bir ifade kullanacağımızı belirtmek için.
 
@@ -132,4 +132,4 @@ Evet, XLS, XLSX, CSV ve daha fazlası dahil olmak üzere çeşitli formatları d
 Evet, birden fazla terimi aynı anda eşleştirmek için daha karmaşık regex desenleri oluşturabilirsiniz.
 
 ### Aspose.Cells için daha fazla örnek ve dokümanı nerede bulabilirim?  
- Kapsamlı dokümanları bulabilirsiniz[Burada](https://reference.aspose.com/cells/net/).
+Kapsamlı dokümanları bulabilirsiniz[Burada](https://reference.aspose.com/cells/net/).

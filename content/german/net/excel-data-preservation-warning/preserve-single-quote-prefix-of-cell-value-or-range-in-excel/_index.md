@@ -161,7 +161,7 @@ flag.QuotePrefix = true;
 rng.ApplyStyle(st, flag);
 ```
 
- In dieser Runde setzen wir`flag.QuotePrefix = true`, was bedeutet, dass wir das Anführungszeichenpräfix der Zelle aktualisieren möchten.
+In dieser Runde setzen wir`flag.QuotePrefix = true`, was bedeutet, dass wir das Anführungszeichenpräfix der Zelle aktualisieren möchten.
 
 ## Schritt 9: Abschließende Prüfung des Angebotspräfixes
 

@@ -12,7 +12,7 @@ Excel ist ein leistungsstarkes Tool, das von Millionen Menschen weltweit zur Org
 ## Voraussetzungen
 Bevor Sie sich in die Details des Kopierens benannter Bereiche stürzen, müssen Sie sicherstellen, dass Sie ein paar Dinge vorbereitet haben. Folgendes benötigen Sie:
 1. .NET-Umgebung: Stellen Sie sicher, dass Sie eine .NET-Entwicklungsumgebung eingerichtet haben. Sie können Visual Studio oder eine andere IDE Ihrer Wahl verwenden.
-2.  Aspose.Cells für .NET-Bibliothek: Dies ist der Star der Show! Laden Sie die Bibliothek herunter von[Aspose-Website](https://releases.aspose.com/cells/net/) falls Sie dies nicht bereits getan haben.
+2. Aspose.Cells für .NET-Bibliothek: Dies ist der Star der Show! Laden Sie die Bibliothek herunter von[Aspose-Website](https://releases.aspose.com/cells/net/) falls Sie dies nicht bereits getan haben.
 3. Grundkenntnisse in C#: Kenntnisse in der C#-Programmierung sind von Vorteil, da wir im gesamten Tutorial in dieser Sprache programmieren werden.
 4. Excel installiert: Obwohl Sie Excel nicht unbedingt zum Schreiben von Code benötigen, ist die Installation zum Testen Ihrer Ausgabedateien nützlich.
 5.  Zugriff auf die Dokumentation: Setzen Sie ein Lesezeichen auf[Aspose.Cells-Dokumentation](https://reference.aspose.com/cells/net/) als Referenz. Es ist eine großartige Ressource zum Verständnis von Methoden und Funktionen.
@@ -27,7 +27,7 @@ using System.IO;
 using Aspose.Cells;
 using System.Drawing;
 ```
-Mit diesem Code erhalten Sie Zugriff auf wichtige Kurse wie`Workbook`, `Worksheet` Und`Range`, die Sie zum Bearbeiten von Excel-Dateien benötigen.
+ Mit diesem Code erhalten Sie Zugriff auf wichtige Kurse wie`Workbook`, `Worksheet` , Und`Range`, die Sie zum Bearbeiten von Excel-Dateien benötigen.
 
 Nachdem wir nun unsere Voraussetzungen geklärt haben, unterteilen wir den Prozess in leicht verständliche Schritte.
 ## Schritt 1: Richten Sie Ihr Ausgabeverzeichnis ein

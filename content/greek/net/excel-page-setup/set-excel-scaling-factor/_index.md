@@ -29,7 +29,7 @@ url: /el/net/excel-page-setup/set-excel-scaling-factor/
 ### Κατεβάστε το DLL
 
 1.  Πηγαίνετε στο[Aspose σελίδα Λήψεις](https://releases.aspose.com/cells/net/) και κατεβάστε το κατάλληλο πακέτο για την έκδοση .NET.
-2. Εξαγάγετε το ληφθέν αρχείο και εντοπίστε το`Aspose.Cells.dll` αρχείο.
+2.  Εξαγάγετε το ληφθέν αρχείο και εντοπίστε το`Aspose.Cells.dll` αρχείο.
 
 ### Προσθήκη αναφοράς στο Visual Studio
 
@@ -119,7 +119,7 @@ workbook.Save(dataDir + "ScalingFactor_out.xls");
 Ναί! Τα Aspose.Cells μπορούν να χρησιμοποιηθούν τόσο σε επιτραπέζιους υπολογιστές όσο και σε εφαρμογές web, εφόσον στοχεύουν το πλαίσιο .NET.
 
 ### Υπάρχει δωρεάν δοκιμή για το Aspose.Cells;  
- Απολύτως! Μπορείτε να αποκτήσετε μια δωρεάν δοκιμαστική έκδοση[εδώ](https://releases.aspose.com/).
+ Απολύτως! Μπορείτε να λάβετε μια δωρεάν δοκιμαστική έκδοση[εδώ](https://releases.aspose.com/).
 
 ### Πού μπορώ να βρω τεκμηρίωση για το Aspose.Cells;  
  Μπορείτε να βρείτε την τεκμηρίωση[εδώ](https://reference.aspose.com/cells/net/).

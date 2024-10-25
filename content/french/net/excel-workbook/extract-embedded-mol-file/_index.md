@@ -33,7 +33,7 @@ Ouvrez Visual Studio et choisissez de créer une nouvelle application console C#
 
 Dans votre projet nouvellement créé, vous devrez ajouter le package Aspose.Cells. Vous pouvez le faire via le gestionnaire de packages NuGet :
 
-1. Faites un clic droit sur votre projet dans l’Explorateur de solutions.
+1. Cliquez avec le bouton droit sur votre projet dans l’Explorateur de solutions.
 2. Sélectionnez « Gérer les packages NuGet ».
 3. Recherchez « Aspose.Cells » et cliquez sur « Installer ».
 

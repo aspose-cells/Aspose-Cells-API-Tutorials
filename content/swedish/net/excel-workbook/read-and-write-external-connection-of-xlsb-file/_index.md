@@ -68,7 +68,7 @@ Med arbetsboken laddad kan du komma åt dess externa anslutningar. I vårt fall 
 Aspose.Cells.ExternalConnections.DBConnection dbCon = wb.DataConnections[0] as Aspose.Cells.ExternalConnections.DBConnection;
 ```
 
- Här,`DataConnections[0]`hänvisar till den första kopplingen i arbetsboken. Vi gjuter det som en`DBConnection` typ för ytterligare manipulation.
+ Här,`DataConnections[0]` hänvisar till den första kopplingen i arbetsboken. Vi gjuter det som en`DBConnection` typ för ytterligare manipulation.
 
 ## Steg 4: Extrahera anslutningsinformation
 

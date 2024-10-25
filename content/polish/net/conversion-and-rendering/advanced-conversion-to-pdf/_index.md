@@ -60,7 +60,7 @@ Po pierwsze: musimy określić, gdzie będą przechowywane nasze dokumenty. Tuta
 
 ```csharp
 // Ścieżka do katalogu dokumentów.
-string dataDir = "Your Document Directory";  //Zaktualizuj tę ścieżkę do swojego konkretnego katalogu
+string dataDir = "Your Document Directory";  // Zaktualizuj tę ścieżkę do swojego konkretnego katalogu
 ```
 
  Pamiętaj o wymianie`"Your Document Directory"` z rzeczywistą ścieżką. To jest jak znalezienie nowego domu dla swojej ciężkiej pracy!
@@ -112,7 +112,7 @@ To jest ten krok, w którym cała nasza ciężka praca się opłaca. W zasadzie 
 
 ## Wniosek
 
-I masz! Jeśli śledziłeś, właśnie pomyślnie przekonwertowałeś skoroszyt programu Excel na plik PDF przy użyciu Aspose.Cells w .NET. To narzędzie nie tylko upraszcza proces konwersji, ale także zachowuje integralność i formatowanie oryginalnego dokumentu.
+masz! Jeśli śledziłeś, właśnie pomyślnie przekonwertowałeś skoroszyt programu Excel na plik PDF przy użyciu Aspose.Cells w .NET. To narzędzie nie tylko upraszcza proces konwersji, ale także zachowuje integralność i formatowanie oryginalnego dokumentu.
 
 ## Najczęściej zadawane pytania
 
@@ -129,4 +129,4 @@ Nie, musisz zainstalować bibliotekę Aspose.Cells, aby uzyskać dostęp do jej 
 Oprócz plików PDF Aspose.Cells obsługuje również formaty XLSX, CSV, HTML i inne.
 
 ### Czy istnieje darmowa wersja Aspose.Cells?
- Tak, możesz zacząć od bezpłatnej wersji próbnej, aby poznać funkcje[Tutaj](https://releases.aspose.com/).
+Tak, możesz zacząć od bezpłatnej wersji próbnej, aby poznać funkcje[Tutaj](https://releases.aspose.com/).

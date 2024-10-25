@@ -13,7 +13,7 @@ Excel シート内の特定の図形が Smart Art グラフィックであるか
 ## 前提条件
 技術的な詳細に入る前に、このチュートリアルを実行するために準備しておくべき事項について説明します。
 1. Visual Studio: ここでコードを記述します。.NET Framework または .NET Core と互換性のあるバージョンがあることを確認してください。
-2. Aspose.Cells for .NET: このライブラリをインストールする必要があります。[Aspose ウェブサイト](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells for .NET: このライブラリをインストールする必要があります。[Aspose ウェブサイト](https://releases.aspose.com/cells/net/).
 3. 基本的なプログラミング知識: C# に精通し、クラスやメソッドなどの概念を理解していると、このプロセスがスムーズになります。
 4. サンプル Excel ファイル: テスト用に、図形と Smart Art を含むサンプル Excel ファイルも必要になります。
 これらの前提条件をチェックしたら、コードに取り組む準備が整いました。

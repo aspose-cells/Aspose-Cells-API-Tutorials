@@ -96,11 +96,11 @@ Workbook workbook = new Workbook(sourceDir + "sampleModifyPieChart.xlsx");
 Bây giờ, chúng ta hãy đi sâu vào trang tính cụ thể có chứa biểu đồ hình tròn. Chúng ta sẽ giả sử biểu đồ hình tròn nằm trên trang tính thứ hai (chỉ mục 1):
 
 ```csharp
-//Lấy biểu đồ thiết kế ở trang thứ hai.
+// Lấy biểu đồ thiết kế ở trang thứ hai.
 Worksheet sheet = workbook.Worksheets[1];
 ```
 
- Bằng cách truy cập vào`Worksheets` bộ sưu tập, chúng ta có thể tìm được trang tính cụ thể mà chúng ta cần.
+ Bằng cách truy cập vào`Worksheets`bộ sưu tập, chúng ta có thể tìm được trang tính cụ thể mà chúng ta cần.
 
 ## Bước 4: Lấy biểu đồ
 

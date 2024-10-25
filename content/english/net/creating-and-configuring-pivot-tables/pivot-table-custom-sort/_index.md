@@ -72,7 +72,8 @@ colField.IsAutoSort = true;
 colField.IsAscendSort = true;
 ```
 We add the second field as a column and format it as a date. Again, we enable auto-sorting and ascending order to keep things organized. Finally, we need to add the third field to our data area:
-```csharppivotTable.AddFieldToArea(PivotFieldType.Data,2);
+```csharp
+pivotTable.AddFieldToArea(PivotFieldType.Data,2);
 ```
 ## Step 6: Refresh and Calculate the Pivot Table
 After adding all the necessary fields, let’s ensure our Pivot Table is fresh and ready.
@@ -99,7 +100,8 @@ rowField.IsAscendSort = true;
 // Adding another Pivot Table for sorting by a date
 index = pivotTables.Add("=Sheet1!A1:C10", "E18", "PivotTable3");
 pivotTable = pivotTables[index];
-// Repeat row and column settings similar to previous steps```
+// Repeat row and column settings similar to previous steps
+```
 You just iterate through the same process, creating a third Pivot Table with its sorting criteria tailored to your needs.
 ## Step 9: Save the WorkbookTime to save all the hard work we’ve put in!
 ```csharp

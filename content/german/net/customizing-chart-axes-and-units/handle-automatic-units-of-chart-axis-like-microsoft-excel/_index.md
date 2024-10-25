@@ -2,7 +2,7 @@
 title: Automatische Einheiten von Diagrammachsen wie in Microsoft Excel handhaben
 linktitle: Automatische Einheiten von Diagrammachsen wie in Microsoft Excel handhaben
 second_title: Aspose.Cells .NET Excel-Verarbeitungs-API
-description: Erfahren Sie, wie Sie mit Aspose.Cells für .NET wie ein Profi mit automatischen Einheiten von Diagrammachsen in Excel umgehen! Schritt-für-Schritt-Anleitung inklusive.
+description: Erfahren Sie, wie Sie mit Aspose.Cells für .NET wie ein Profi mit automatischen Einheiten von Diagrammachsen in Excel umgehen! Schritt-für-Schritt-Anleitung enthalten.
 type: docs
 weight: 10
 url: /de/net/customizing-chart-axes-and-units/handle-automatic-units-of-chart-axis-like-microsoft-excel/
@@ -108,7 +108,7 @@ Eine der wichtigsten Funktionen von Diagrammen in Excel ist die Handhabung autom
 
 ```csharp
 // Haupteinheit für die Y-Achse festlegen
-ch.AxisY.MajorUnit = 10; //Sie können entsprechend Ihren Anforderungen einstellen
+ch.AxisY.MajorUnit = 10; // Sie können entsprechend Ihren Anforderungen einstellen
 ```
 
 Lassen Sie uns jetzt die automatischen Einheiten aktualisieren!
@@ -142,7 +142,7 @@ Die Arbeit mit Aspose.Cells für .NET ist nicht nur effizient, sondern auch ungl
 Aspose.Cells ist eine leistungsstarke .NET-Bibliothek zum Erstellen, Bearbeiten und Konvertieren von Excel-Dateien.
 
 ### Kann ich Aspose.Cells kostenlos nutzen?
- Ja! Sie können mit einer kostenlosen Testversion beginnen.[Hier](https://releases.aspose.com/).
+Ja! Sie können mit einer kostenlosen Testversion beginnen.[Hier](https://releases.aspose.com/).
 
 ### Muss ich etwas installieren, um loszulegen?
 Auf Ihrem Computer müssen nur die Aspose.Cells-Bibliothek und ein .NET Framework installiert sein.

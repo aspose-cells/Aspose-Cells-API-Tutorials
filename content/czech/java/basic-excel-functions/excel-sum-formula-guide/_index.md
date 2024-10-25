@@ -72,7 +72,7 @@ workbook.save("sample.xlsx");
 
  V tomto příkladu jsme použili`setFormula`metoda pro použití vzorce SUM na buňku B1, sečtením hodnot v buňkách A1 až A10.
 
-## Použití SOUČTU v různých rozsazích
+## Použití SUMU v různých rozsazích
 
 Vzorec SUM můžete také použít na více rozsahů v listu. Pokud máte například data v různých sloupcích nebo řádcích, která chcete přidat samostatně, můžete to udělat takto:
 

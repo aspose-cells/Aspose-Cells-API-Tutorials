@@ -15,9 +15,9 @@ url: /hi/net/excel-copy-worksheet/excel-copy-worksheets-between-workbooks/
 
 इससे पहले कि हम कोड में उतरें, आइए सुनिश्चित करें कि आपके पास आरंभ करने के लिए सही उपकरण हैं:
 
-- .NET के लिए Aspose.Cells: आप इसे डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/cells/net/).
+-  .NET के लिए Aspose.Cells: आप इसे डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/cells/net/).
 - विज़ुअल स्टूडियो या कोई भी IDE जो .NET फ्रेमवर्क का समर्थन करता है।
--  एक वैध लाइसेंस या[अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/) यदि आप Aspose.Cells की पूर्ण कार्यक्षमता का परीक्षण करना चाहते हैं।
+-  एक वैध लाइसेंस या[अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/)यदि आप Aspose.Cells की पूर्ण कार्यक्षमता का परीक्षण करना चाहते हैं।
 - C# और .NET फ्रेमवर्क की बुनियादी समझ।
 
  आप यह भी देख सकते हैं[Aspose.Cells दस्तावेज़ीकरण](https://reference.aspose.com/cells/net/) अधिक जानकारी के लिए कृपया देखें.
@@ -44,7 +44,7 @@ using Aspose.Cells;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- इस पंक्ति में, प्रतिस्थापित करें`"YOUR DOCUMENT DIRECTORY"` आपकी एक्सेल फ़ाइलों के वास्तविक पथ के साथ। यह वह जगह है जहाँ से आपकी कार्यपुस्तिकाएँ लोड की जाएँगी और सहेजी जाएँगी।
+ इस पंक्ति में, प्रतिस्थापित करें`"YOUR DOCUMENT DIRECTORY"`आपकी एक्सेल फ़ाइलों के वास्तविक पथ के साथ। यह वह जगह है जहाँ से आपकी कार्यपुस्तिकाएँ लोड की जाएँगी और सहेजी जाएँगी।
 
 ## चरण 2: पहली कार्यपुस्तिका खोलें
 
@@ -64,7 +64,7 @@ Workbook excelWorkbook0 = new Workbook(InputPath);
 अब जब आपने पहली वर्कबुक खोल ली है, तो दूसरी खाली वर्कबुक बनाने का समय आ गया है, जहाँ आप कॉपी की गई वर्कशीट को पेस्ट करेंगे। इसे एक नई खाली नोटबुक खोलने के रूप में सोचें जहाँ आप डेटा ट्रांसफर करेंगे।
 
 ```csharp
-//एक अन्य कार्यपुस्तिका बनाएं.
+// एक अन्य कार्यपुस्तिका बनाएं.
 Workbook excelWorkbook1 = new Workbook();
 ```
 

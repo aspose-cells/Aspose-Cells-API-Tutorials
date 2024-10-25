@@ -79,5 +79,5 @@ Az Aspose.Cells egy hatékony könyvtár az Excel fájlok kezelésére .NET alka
  Teljesen! A meglévő XLSX-fájlokat úgy töltheti be, hogy átadja a fájl elérési útját a`Workbook` konstruktőr.
 ### Mi van, ha a HTTP válasz nulla?
  Ha nem webes környezetben tartózkodik, egyszerűen elmentheti a munkafüzetet egy fájl elérési útjába a`HttpResponse`.
-### Hol találok további támogatást?
+### Hol találhatok további támogatást?
  Hozzáférhet a[Aspose támogatási fórum](https://forum.aspose.com/c/cells/9) bármilyen kérdés vagy probléma esetén.

@@ -121,4 +121,4 @@ Aspose.Cells for .NET은 .NET 애플리케이션에서 Excel 파일을 관리하
 ### Aspose.Cells에 대한 추가 문서는 어디에서 찾을 수 있나요?  
  확인할 수 있습니다[Aspose.Cells 설명서](https://reference.aspose.com/cells/net/) 자세한 가이드와 API 참조는 여기에서 확인하세요.
 ### Aspose.Cells에 대한 지원은 어떻게 받을 수 있나요?  
- 지원 및 문의 사항은 다음을 방문하세요.[Aspose 포럼](https://forum.aspose.com/c/cells/9)커뮤니티와 지원팀으로부터 도움을 받을 수 있습니다.
+ 지원 및 문의 사항은 다음을 방문하세요.[Aspose 포럼](https://forum.aspose.com/c/cells/9) 커뮤니티와 지원팀으로부터 도움을 받을 수 있습니다.

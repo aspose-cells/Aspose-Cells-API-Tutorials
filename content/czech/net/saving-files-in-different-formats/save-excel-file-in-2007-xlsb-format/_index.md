@@ -12,7 +12,7 @@ Pokud jde o práci se soubory aplikace Excel v .NET, je k dispozici mnoho flexib
 ## Předpoklady
 Než začneme, ujistěte se, že máte vše, co potřebujete, abyste mohli hladce sledovat. Zde je to, co byste měli mít:
 1. Visual Studio: Ujistěte se, že máte na počítači nainstalovanou verzi sady Visual Studio. Zde budete psát svůj .NET kód. 
-2.  Knihovna Aspose.Cells: Potřebujete knihovnu Aspose.Cells for .NET. Pokud jste si jej ještě nestáhli, přejděte na[Stránka Aspose Downloads](https://releases.aspose.com/cells/net/) chytit to. 
+2. Knihovna Aspose.Cells: Potřebujete knihovnu Aspose.Cells for .NET. Pokud jste si jej ještě nestáhli, přejděte na[Stránka Aspose Downloads](https://releases.aspose.com/cells/net/) chytit to. 
 3. Základní znalost C#: Základní znalost C# a .NET vám pomůže pohodlněji procházet příklady kódu.
 4. .NET Framework: Zajistěte, aby byl váš projekt nastaven s příslušným rámcem .NET podporovaným knihovnou Aspose.Cells.
 5. Dokument aplikace Excel: I když je vytvoření nového sešitu možností, mít počáteční dokument může být užitečné, pokud chcete manipulovat se stávajícím souborem.
@@ -45,7 +45,7 @@ Dále vytvoříme nový sešit pomocí knihovny Aspose.Cells.
 ```csharp
 Workbook workbook = new Workbook();
 ```
- Zde vytváříme novou instanci`Workbook`třída. Tento nově vytvořený sešit je prázdný sešit, který můžete začít plnit daty, pokud chcete.
+ Zde vytváříme novou instanci`Workbook` třída. Tento nově vytvořený sešit je prázdný sešit, který můžete začít plnit daty, pokud chcete.
 ## Krok 3: Uložte sešit
 Nyní přichází ta zábavná část – uložení sešitu v požadovaném formátu!
 ```csharp
@@ -60,7 +60,7 @@ A právě tak jste se úspěšně naučili, jak uložit soubor aplikace Excel ve
 ### Co je knihovna Aspose.Cells?
 Aspose.Cells je výkonná knihovna pro .NET, která umožňuje vývojářům vytvářet, upravovat a manipulovat se soubory aplikace Excel programově bez nutnosti instalace aplikace Microsoft Excel.
 ### Mohu vyzkoušet Aspose.Cells zdarma?
- Absolutně! Můžete použít[zkušební verze zdarma](https://releases.aspose.com/)prozkoumat možnosti knihovny.
+ Absolutně! Můžete použít[zkušební verze zdarma](https://releases.aspose.com/) prozkoumat možnosti knihovny.
 ### Jaký je rozdíl mezi formáty xls a xlsb?
 Formát xls je starší a je založen na struktuře binárních souborů, zatímco xlsb je novější formát, který také využívá binární úložiště, ale umožňuje větší velikosti souborů a rychlejší zpracování.
 ### Kde si mohu zakoupit licenci pro Aspose.Cells?

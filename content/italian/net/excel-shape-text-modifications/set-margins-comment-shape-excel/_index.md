@@ -16,7 +16,7 @@ Dovresti avere una conoscenza di base di C# e .NET. Questo tutorial è pensato p
 ### Impostazione dell'ambiente
 1. Visual Studio: assicurati di avere Visual Studio installato. È un ambiente di sviluppo che semplifica la codifica.
 2.  Libreria Aspose.Cells: hai bisogno della libreria Aspose.Cells. Se non l'hai già fatto, puoi scaricarla[Qui](https://releases.aspose.com/cells/net/).
-3.  File Excel di esempio: crea o scarica un file Excel di esempio. Per questo tutorial, utilizzeremo un file denominato`sampleSetMarginsOfCommentOrShapeInsideTheWorksheet.xlsx`.
+3. File Excel di esempio: crea o scarica un file Excel di esempio. Per questo tutorial, utilizzeremo un file denominato`sampleSetMarginsOfCommentOrShapeInsideTheWorksheet.xlsx`.
 ## Importazione di pacchetti
 Il primo passo del nostro viaggio consiste nell'importare i pacchetti necessari. Dovrai includere gli spazi dei nomi Aspose.Cells nel tuo progetto. Questo ti garantirà l'accesso a tutte le funzionalità che Aspose.Cells ha da offrire.
 ### Apri il tuo progetto
@@ -72,7 +72,7 @@ Ogni forma potrebbe già avere un'impostazione di allineamento che dobbiamo modi
 Aspose.Cells.Drawing.Texts.ShapeTextAlignment txtAlign = sh.TextBody.TextAlignment;
 txtAlign.IsAutoMargin = false;
 ```
- Impostando`IsAutoMargin` su falso, ora abbiamo il controllo sui margini.
+ Impostando`IsAutoMargin`su falso, ora abbiamo il controllo sui margini.
 ## Passaggio 6: Imposta i margini
 Questo è il passaggio cruciale in cui definiamo i margini. Puoi personalizzare questi valori in base alle tue esigenze.
 ```csharp
@@ -105,4 +105,4 @@ Aspose.Cells è una libreria .NET progettata per creare, manipolare e convertire
 ### La libreria è facile da integrare nei progetti esistenti?
 Assolutamente! Aspose.Cells si integra facilmente nei progetti .NET e la sua API è semplice.
 ### Dove posso trovare supporto per Aspose.Cells?
-Puoi ottenere supporto tramite Aspose[foro](https://forum.aspose.com/c/cells/9).
+ Puoi ottenere supporto tramite Aspose[foro](https://forum.aspose.com/c/cells/9).

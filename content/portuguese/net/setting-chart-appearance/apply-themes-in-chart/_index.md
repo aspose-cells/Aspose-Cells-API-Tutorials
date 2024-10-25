@@ -59,7 +59,7 @@ string sourceDir = "Your Document Directory";
 Workbook workbook = new Workbook(sourceDir + "sampleApplyingThemesInChart.xlsx");
 ```
 
- Garantir que`sampleApplyingThemesInChart.xlsx`existe no seu diretório de origem.
+ Garantir que`sampleApplyingThemesInChart.xlsx` existe no seu diretório de origem.
 
 ## Etapa 3: Acesse a planilha
 
@@ -96,7 +96,7 @@ Esta linha de código garante que a primeira série no gráfico seja definida pa
 
 ## Etapa 6: Configurar a cor
 
- Agora que nossa série está pronta, precisamos modificar sua cor. Isso envolve criar uma`CellsColor`objeto e especificando uma cor de tema. Escolheremos um estilo de destaque para este exemplo.
+ Agora que nossa série está pronta, precisamos modificar sua cor. Isso envolve criar uma`CellsColor` objeto e especificando uma cor de tema. Escolheremos um estilo de destaque para este exemplo.
 
 ```csharp
 // Obter o CellsColor do SolidFill
@@ -155,7 +155,7 @@ Aspose.Cells é uma biblioteca poderosa para .NET que permite aos desenvolvedore
  Sim, você pode baixar uma versão de teste gratuita[aqui](https://releases.aspose.com/).
 
 ### Que tipos de temas de gráficos posso aplicar?
-O Aspose.Cells suporta várias cores de tema, incluindo estilos de destaque e outros.
+Aspose.Cells suporta várias cores de tema, incluindo estilos de destaque e outros.
 
 ### É possível aplicar temas a vários gráficos?
  Absolutamente! Você pode fazer um loop`worksheet.Charts` e aplique temas conforme necessário.

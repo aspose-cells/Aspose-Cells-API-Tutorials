@@ -161,7 +161,7 @@ flag.QuotePrefix = true;
 rng.ApplyStyle(st, flag);
 ```
 
- Bu turda,`flag.QuotePrefix = true`, bu da hücrenin tırnak işareti önekini güncellemek istediğimiz anlamına gelir.
+Bu turda,`flag.QuotePrefix = true`, bu da hücrenin tırnak işareti önekini güncellemek istediğimiz anlamına gelir.
 
 ## Adım 9: Teklif Önekinin Son Kontrolü
 

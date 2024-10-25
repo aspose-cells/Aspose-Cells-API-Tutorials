@@ -82,7 +82,7 @@ Comment comment = worksheet.Comments[commentIndex];
 ## 步骤 7：设置注释
 现在，是时候记下我们的笔记了。让我们在评论中添加一些文字。
 ```csharp
-//设置注释说明
+//设置注释注释
 comment.Note = "Hello Aspose!";
 ```
 想象一下在便签上书写。您正在用文字表达自己的想法！
@@ -96,7 +96,7 @@ workbook.Save(dataDir + "book1.out.xls");
 ## 结论
 就这样！您已成功使用 Aspose.Cells for .NET 向 Excel 文件中的单元格添加了注释。注释对于协作项目或仅用于为自己留下提醒非常有用。现在您已完成整个过程，您已准备好将您的 Excel 技能提升到一个新的水平。
 ## 常见问题解答
-### 我可以使用 Aspose.Cells 向形状添加注释吗？
+### 我可以使用 Aspose.Cells 为形状添加注释吗？
 是的！您可以按照与单元格类似的方式向形状添加注释。
 ### Aspose.Cells 支持哪些文件格式?
 Aspose.Cells 支持各种格式，包括 XLS、XLSX、CSV 等。

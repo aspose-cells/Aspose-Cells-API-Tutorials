@@ -10,7 +10,7 @@ url: /hu/java/data-validation-rules/data-validation-error-messages/
 
 ## Az adatérvényesítési hibaüzenetek bemutatása: Átfogó útmutató
 
-Az adatok ellenőrzése minden szoftveralkalmazás döntő szempontja. Biztosítja, hogy a felhasználók által bevitt adatok pontosak, következetesek és megfelelnek az előre meghatározott szabályoknak. Ha az adatok ellenőrzése sikertelen, a hibaüzenetek létfontosságú szerepet játszanak a problémák hatékony kommunikálásában a felhasználókkal. Ebben a cikkben az adatellenőrzési hibaüzenetek világát és az Aspose.Cells for Java használatával való megvalósítását fogjuk felfedezni.
+Az adatok ellenőrzése minden szoftveralkalmazás döntő szempontja. Biztosítja, hogy a felhasználók által bevitt adatok pontosak, következetesek és megfelelnek az előre meghatározott szabályoknak. Ha az adatok ellenőrzése sikertelen, a hibaüzenetek létfontosságú szerepet játszanak a problémák hatékony kommunikálásában a felhasználókkal. Ebben a cikkben az adatellenőrzési hibaüzenetek világát és az Aspose.Cells for Java használatával való megvalósítását fogjuk megismerni.
 
 ## Az adatérvényesítési hibaüzenetek értelmezése
 

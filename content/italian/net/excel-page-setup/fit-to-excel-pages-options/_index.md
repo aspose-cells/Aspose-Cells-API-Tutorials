@@ -74,7 +74,7 @@ worksheet.PageSetup.FitToPagesWide = 1;
 ```
 
 - `FitToPagesTall` determina quante pagine si estenderà verticalmente il tuo foglio di lavoro.
-- `FitToPagesWide` definisce l'impostazione orizzontale della pagina. Impostando entrambi su`1`significa che il contenuto verrà inserito ordinatamente in una sola pagina, trasformando il documento in un capolavoro ottimizzato.
+- `FitToPagesWide` definisce l'impostazione orizzontale della pagina. Impostando entrambi su`1` significa che il contenuto verrà inserito ordinatamente in una sola pagina, trasformando il documento in un capolavoro ottimizzato.
 
 ## Passaggio 3: salva la tua cartella di lavoro
 
@@ -97,7 +97,7 @@ Ed ecco fatto! Hai imparato a utilizzare le opzioni Adatta a pagine Excel in Asp
 Aspose.Cells è una solida libreria .NET per la gestione programmatica dei file Excel, che consente agli sviluppatori di creare e manipolare fogli di calcolo con facilità.
 
 ### Posso provare Aspose.Cells gratuitamente?
-Sì! Puoi registrarti per una prova gratuita[Qui](https://releases.aspose.com/).
+ Sì! Puoi registrarti per una prova gratuita[Qui](https://releases.aspose.com/).
 
 ### Come posso acquistare Aspose.Cells?
  Puoi effettuare il tuo acquisto[Qui](https://purchase.aspose.com/buy).

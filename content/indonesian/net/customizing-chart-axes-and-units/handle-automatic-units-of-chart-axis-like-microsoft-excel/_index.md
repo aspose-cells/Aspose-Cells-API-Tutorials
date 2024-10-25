@@ -108,7 +108,7 @@ Di Excel, salah satu fitur utama dalam bagan adalah penanganan unit otomatis unt
 
 ```csharp
 // Tetapkan unit utama untuk sumbu Y
-ch.AxisY.MajorUnit = 10; //Anda dapat mengatur sesuai dengan kebutuhan Anda
+ch.AxisY.MajorUnit = 10; // Anda dapat mengatur sesuai dengan kebutuhan Anda
 ```
 
 Mari perbarui unit otomatis sekarang!
@@ -142,7 +142,7 @@ Bekerja dengan Aspose.Cells untuk .NET tidak hanya efisien tetapi juga sangat be
 Aspose.Cells adalah pustaka .NET yang canggih untuk membuat, memanipulasi, dan mengonversi file Excel.
 
 ### Bisakah saya menggunakan Aspose.Cells secara gratis?
- Ya! Anda dapat memulai dengan uji coba gratis yang tersedia[Di Sini](https://releases.aspose.com/).
+Ya! Anda dapat memulai dengan uji coba gratis yang tersedia[Di Sini](https://releases.aspose.com/).
 
 ### Apakah saya perlu menginstal sesuatu untuk memulai?
 Cukup pustaka Aspose.Cells dan .NET Framework yang terinstal di komputer Anda.

@@ -16,7 +16,7 @@ Interactieve grafieken voegen een nieuwe dimensie toe aan datavisualisatie, waar
 
 Voordat we beginnen, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
 - Java-ontwikkelomgeving
--  Aspose.Cells voor Java-bibliotheek (downloaden van[hier](https://releases.aspose.com/cells/java/)
+- Aspose.Cells voor Java-bibliotheek (downloaden van[hier](https://releases.aspose.com/cells/java/)
 
 ## Stap 1: Uw Java-project instellen
 

@@ -38,7 +38,7 @@ Ten eerste moeten we ervoor zorgen dat de directory voor het opslaan van ons Exc
 ```csharp
 // Het pad naar de documentenmap.
 string dataDir = "Your Document Directory";
-//Maak een map aan als deze nog niet bestaat.
+// Maak een map aan als deze nog niet bestaat.
 bool isExists = System.IO.Directory.Exists(dataDir);
 if (!isExists)
     System.IO.Directory.CreateDirectory(dataDir);

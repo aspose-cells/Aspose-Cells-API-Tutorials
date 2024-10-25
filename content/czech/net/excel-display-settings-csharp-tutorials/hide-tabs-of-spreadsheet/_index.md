@@ -9,7 +9,7 @@ url: /cs/net/excel-display-settings-csharp-tutorials/hide-tabs-of-spreadsheet/
 ---
 ## Zavedení
 
-Při programové práci se soubory aplikace Excel může být nutné skrýt nebo zobrazit určité prvky, jako jsou karty, abyste získali čistou a profesionální prezentaci. Aspose.Cells for .NET nabízí snadný a efektivní způsob, jak toho dosáhnout. V tomto tutoriálu projdeme procesem skrytí karet listů v excelové tabulce pomocí Aspose.Cells for .NET, od nastavení prostředí až po uložení konečného souboru. Na konci budete plně vybaveni k tomu, abyste tento úkol zvládli s jistotou.
+Při programové práci se soubory aplikace Excel může být nutné skrýt nebo zobrazit určité prvky, jako jsou karty, abyste získali čistou a profesionální prezentaci. Aspose.Cells for .NET nabízí snadný a efektivní způsob, jak toho dosáhnout. V tomto tutoriálu projdeme procesem skrytí karet listů v excelové tabulce pomocí Aspose.Cells for .NET, od nastavení prostředí až po uložení konečného souboru. Na konci budete plně vybaveni, abyste tento úkol zvládli s důvěrou.
 
 ## Předpoklady
 
@@ -37,7 +37,7 @@ Než začne jakékoli kódování, je důležité správně nastavit vývojové 
 
 1.  Vytvoření nového projektu: Otevřete Visual Studio, vytvořte nový projekt Console App a pojmenujte jej nějak popisně, například`HideExcelTabs`.
 2. Přidat referenci Aspose.Cells: Přejděte do Správce balíčků NuGet a vyhledejte „Aspose.Cells for .NET“. Nainstalujte jej do svého projektu.
- Případně, pokud pracujete offline, můžete[stáhnout Aspose.Cells pro .NET](https://releases.aspose.com/cells/net/) a přidejte soubor DLL ručně do odkazů na váš projekt.
+ Případně, pokud pracujete offline, můžete[stáhněte si Aspose.Cells pro .NET](https://releases.aspose.com/cells/net/) a přidejte soubor DLL ručně do odkazů na váš projekt.
 3. Připravte soubor Excel: Umístěte soubor Excel, který chcete upravit (např.`book1.xls`) ve vašem projektovém adresáři. Ujistěte se, že znáte cestu k souboru.
 
 ## Krok 2: Otevřete soubor aplikace Excel

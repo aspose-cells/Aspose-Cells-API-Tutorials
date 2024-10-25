@@ -82,9 +82,9 @@ Bây giờ, bạn đã sẵn sàng để sửa đổi bảng tính này!
 
 ## Bước 4: Truy cập vào Đối tượng Thiết lập Trang
 
- Để thay đổi lề, chúng ta cần làm việc với`PageSetup`đối tượng. Đối tượng này cung cấp các thuộc tính kiểm soát bố cục của trang, bao gồm cả lề.
+ Để thay đổi lề, chúng ta cần làm việc với`PageSetup` đối tượng. Đối tượng này cung cấp các thuộc tính kiểm soát bố cục của trang, bao gồm cả lề.
 
- Nhận được`PageSetup` thuộc tính từ bảng tính:
+Nhận được`PageSetup` thuộc tính từ bảng tính:
 
 ```csharp
 PageSetup pageSetup = worksheet.PageSetup;

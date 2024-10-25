@@ -110,10 +110,10 @@ Az Aspose.Cells egy .NET-könyvtár, amelyet Excel-fájlok létrehozására, man
  Az Aspose.Cells letölthető a[weboldal](https://releases.aspose.com/cells/net/).
 
 ### Létezik az Aspose.Cells ingyenes verziója?
-Igen! Ingyenesen kipróbálhatja az Aspose.Cells-t, ha letölti a próbaverziót[itt](https://releases.aspose.com/).
+ Igen! Ingyenesen kipróbálhatja az Aspose.Cells-t, ha letölti a próbaverziót[itt](https://releases.aspose.com/).
 
 ### Hol kaphatok támogatást?
- Bármilyen támogatással kapcsolatos kérdés esetén keresse fel a[Aspose fórum](https://forum.aspose.com/c/cells/9).
+Bármilyen támogatással kapcsolatos kérdés esetén keresse fel a[Aspose fórum](https://forum.aspose.com/c/cells/9).
 
 ### Használhatom az Aspose.Cells-t felhőkörnyezetben?
 Igen, az Aspose.Cells bármely .NET-alkalmazásba integrálható, beleértve a felhőalapú beállításokat is, mindaddig, amíg a .NET futtatókörnyezet támogatott.

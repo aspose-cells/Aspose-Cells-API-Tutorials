@@ -42,7 +42,7 @@ Worksheet worksheet = workbook.getWorksheets().get(0);
 // Zadejte rozsah dat pro kontingenční tabulku
 String sourceData = "A1:D10"; // Nahraďte svým rozsahem dat
 
-// Určete umístění kontingenční tabulky
+// Zadejte umístění kontingenční tabulky
 int firstRow = 1;
 int firstColumn = 5;
 

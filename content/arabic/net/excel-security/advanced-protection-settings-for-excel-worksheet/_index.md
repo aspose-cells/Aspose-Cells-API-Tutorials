@@ -16,7 +16,7 @@ url: /ar/net/excel-security/advanced-protection-settings-for-excel-worksheet/
 قبل الغوص في الكود، دعنا نتأكد من أن لديك كل ما تحتاجه:
 
 1. بيئة التطوير: يجب أن يكون Visual Studio مثبتًا على جهازك، لأنه يوفر بيئة تطوير متكاملة ممتازة لتطوير .NET.
-2. مكتبة Aspose.Cells: قم بتنزيل مكتبة Aspose.Cells. يمكنك الحصول عليها من[صفحة تنزيلات Aspose](https://releases.aspose.com/cells/net/).
+2.  مكتبة Aspose.Cells: قم بتنزيل مكتبة Aspose.Cells. يمكنك الحصول عليها من[صفحة تنزيلات Aspose](https://releases.aspose.com/cells/net/).
 3. المعرفة الأساسية بلغة C#: تأكد من أن لديك فهمًا جيدًا للغة C# و.NET Framework لمتابعتها بسهولة.
 4. إنشاء مشروع: قم بإعداد تطبيق وحدة تحكم جديد في Visual Studio حيث سنكتب الكود.
 
@@ -48,12 +48,12 @@ using Aspose.Cells;
 
 ## الخطوة 1: إنشاء تدفق ملف لملف Excel الخاص بك
 
-أولاً، نحتاج إلى تحميل ملف Excel موجود. سنستخدم`FileStream` للوصول إليه.
+ أولاً، نحتاج إلى تحميل ملف Excel موجود. سنستخدم`FileStream` للوصول إليه.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-// إنشاء مجرى ملف لفتح ملف Excel
+//إنشاء مجرى ملف لفتح ملف Excel
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
  ال`FileStream` يسمح لنا بقراءة ملف Excel المحدد. تأكد من تغيير "دليل المستندات الخاص بك" إلى المسار الفعلي الذي يوجد به ملف Excel الخاص بك.

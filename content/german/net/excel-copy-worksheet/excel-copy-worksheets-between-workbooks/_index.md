@@ -15,9 +15,9 @@ Haben Sie schon einmal Arbeitsblätter manuell zwischen Excel-Arbeitsmappen kopi
 
 Bevor wir uns in den Code vertiefen, stellen wir sicher, dass Sie für den Einstieg über die richtigen Tools verfügen:
 
-- Aspose.Cells für .NET: Sie können es herunterladen[Hier](https://releases.aspose.com/cells/net/).
+-  Aspose.Cells für .NET: Sie können es herunterladen[Hier](https://releases.aspose.com/cells/net/).
 - Visual Studio oder jede IDE, die das .NET-Framework unterstützt.
--  Eine gültige Lizenz oder ein[vorläufige Lizenz](https://purchase.aspose.com/temporary-license/) wenn Sie die volle Funktionalität von Aspose.Cells testen möchten.
+-  Eine gültige Lizenz oder ein[vorläufige Lizenz](https://purchase.aspose.com/temporary-license/)wenn Sie die volle Funktionalität von Aspose.Cells testen möchten.
 - Grundlegende Kenntnisse von C# und dem .NET-Framework.
 
  Sie können auch die[Aspose.Cells-Dokumentation](https://reference.aspose.com/cells/net/) für weitere Details.
@@ -44,7 +44,7 @@ Zuerst müssen Sie definieren, wo sich Ihre Dateien befinden. Stellen Sie sich d
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Ersetzen Sie in dieser Zeile`"YOUR DOCUMENT DIRECTORY"` durch den tatsächlichen Pfad zu Ihren Excel-Dateien. Von hier werden Ihre Arbeitsmappen geladen und dort gespeichert.
+ Ersetzen Sie in dieser Zeile`"YOUR DOCUMENT DIRECTORY"`durch den tatsächlichen Pfad zu Ihren Excel-Dateien. Von hier werden Ihre Arbeitsmappen geladen und dort gespeichert.
 
 ## Schritt 2: Öffnen Sie die erste Arbeitsmappe
 
@@ -64,7 +64,7 @@ Workbook excelWorkbook0 = new Workbook(InputPath);
 Nachdem Sie nun die erste Arbeitsmappe geöffnet haben, ist es an der Zeit, eine weitere leere Arbeitsmappe zu erstellen, in die Sie das kopierte Arbeitsblatt einfügen. Stellen Sie sich das so vor, als würden Sie ein neues leeres Notizbuch öffnen, in das Sie die Daten übertragen.
 
 ```csharp
-//Erstellen Sie eine weitere Arbeitsmappe.
+// Erstellen Sie eine weitere Arbeitsmappe.
 Workbook excelWorkbook1 = new Workbook();
 ```
 

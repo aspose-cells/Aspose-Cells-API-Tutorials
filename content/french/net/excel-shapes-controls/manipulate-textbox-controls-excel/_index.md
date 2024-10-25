@@ -32,7 +32,7 @@ string dataDir = "Your Document Directory";
 ```
 Cela permet à votre programme de savoir où trouver le fichier Excel d'entrée (`book1.xls`) et où enregistrer le fichier de sortie.
 ## Étape 2 : Ouvrir le fichier Excel
-Ensuite, vous devrez charger le fichier Excel existant dans l'objet Workbook Aspose.Cells. Ce classeur agit comme conteneur pour vos données Excel, vous donnant accès à ses feuilles de calcul et à tous les objets de dessin (comme les zones de texte).
+Ensuite, vous devrez charger le fichier Excel existant dans l'objet Classeur Aspose.Cells. Ce classeur agit comme conteneur pour vos données Excel, vous donnant accès à ses feuilles de calcul et à tous les objets de dessin (comme les zones de texte).
 ```csharp
 Workbook workbook = new Workbook(dataDir + "book1.xls");
 ```

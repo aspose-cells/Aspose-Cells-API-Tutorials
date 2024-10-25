@@ -18,7 +18,7 @@ Képzelje el, hogy a kapcsolódó dokumentumokat közvetlenül összekapcsolhatj
  A nagy munkafüzetekben való navigálás néha olyan érzés lehet, mintha tűt keresne a szénakazalban. Ezért van az oktatóanyagunk[belső hivatkozások hozzáadása Excel cellákhoz](./add-link-to-other-sheet-cell/) elengedhetetlen! Itt bemutatjuk, hogyan hozhat létre hivatkozásokat, amelyek lehetővé teszik, hogy közvetlenül más munkalapok adott celláira ugorjon. Ez a funkció nemcsak időt takarít meg, hanem az adatok rendezettségét is rendben tartja. Gondoljon rá úgy, mint egy jól szervezett könyvtárra – minden csak egy kattintással elérhető!
 
 ## Adjon hozzá hivatkozást az URL-hez az Excelben
-Végül a következő útmutatónkban[URL hiperhivatkozás hozzáadása Excelben](./add-link-to-url/), rájössz, milyen egyszerű a táblázatok internethez való csatlakoztatása. Akár egy webhelyre kell hivatkoznia további információkért, akár egy oktatóvideóhoz kell hivatkoznia, ez a funkció mindezt lehetővé teszi. Képzelje el, hogy közvetlenül egy olyan forrásra hivatkozik, amely kiegészíti adatait – olvasói hálásak lesznek érte!
+Végül a következő útmutatónkban[URL hiperhivatkozás hozzáadása az Excelben](./add-link-to-url/), rájössz, milyen egyszerű a táblázatok internethez való csatlakoztatása. Akár egy webhelyre kell hivatkoznia további információkért, akár egy oktatóvideóhoz kell hivatkoznia, ez a funkció mindezt lehetővé teszi. Képzelje el, hogy közvetlenül egy olyan forrásra hivatkozik, amely kiegészíti adatait – olvasói hálásak lesznek érte!
 
 ## Hiperhivatkozások használata az Excel oktatóanyagokban
 ### [Hivatkozás hozzáadása külső fájlhoz az Excelben](./add-link-to-external-file/)

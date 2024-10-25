@@ -2,7 +2,7 @@
 title: Lista walidacji danych w programie Excel
 linktitle: Lista walidacji danych w programie Excel
 second_title: Aspose.Cells Java Excel Processing API
-description: Poznaj walidację danych w programie Excel za pomocą Aspose.Cells dla Java. Wdrażaj reguły, komunikaty o błędach i wiele więcej.
+description: Poznaj walidację danych w programie Excel przy użyciu Aspose.Cells dla Java. Wdrażaj reguły, komunikaty o błędach i wiele więcej.
 type: docs
 weight: 16
 url: /pl/java/data-validation-rules/list-data-validation-in-excel/
@@ -30,7 +30,7 @@ Walidacja danych jest istotna, ponieważ pomaga w:
 
 - Zapobieganie wprowadzaniu nieprawidłowych danych: Użytkownicy są informowani o konieczności wprowadzania wyłącznie prawidłowych danych, co zmniejsza ryzyko wystąpienia błędów.
 - Zapewnienie integralności danych: Pomaga zachować integralność i niezawodność danych w programie Excel.
-- Usprawnienie przetwarzania danych: Zweryfikowane dane można przetwarzać wydajniej, co pozwala zaoszczędzić czas i wysiłek.
+- Usprawnienie przetwarzania danych: Zweryfikowane dane można przetwarzać wydajniej, oszczędzając czas i wysiłek.
 
 Teraz, gdy omówiliśmy podstawy, możemy przejść do praktycznej implementacji walidacji danych za pomocą Aspose.Cells dla Java.
 

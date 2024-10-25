@@ -13,11 +13,11 @@ Vous en avez assez de lutter avec la gestion des fichiers Excel ? Si vous avez d
 
 ## Accéder aux informations sur les extensions Web
 
-Comprendre comment accéder aux informations des extensions Web peut ouvrir de nouvelles possibilités dans vos feuilles de calcul Excel. Cela permet une interactivité améliorée dans vos fichiers. Notre tutoriel sur[Accéder aux informations sur l'extension Web](./access-web-extension-information/) fournit une procédure pas à pas pour rendre ce processus facile, même pour ceux qui sont nouveaux dans Aspose.Cells.
+ Comprendre comment accéder aux informations des extensions Web peut ouvrir de nouvelles possibilités dans vos feuilles de calcul Excel. Cela permet une interactivité améliorée dans vos fichiers. Notre tutoriel sur[Accéder aux informations sur l'extension Web](./access-web-extension-information/) fournit une procédure pas à pas pour rendre ce processus facile, même pour ceux qui sont nouveaux dans Aspose.Cells.
 
 ## Ajout de signatures numériques
 
- Avez-vous déjà eu besoin d'ajouter une signature numérique à un fichier Excel signé ? Découvrez comment procéder grâce à notre guide[Ajouter une signature numérique à un fichier Excel déjà signé](./add-digital-signature-to-an-already-signed-excel-file/)Les signatures numériques garantissent l’authenticité et l’intégrité, rendant vos fichiers Excel non seulement fonctionnels mais également sécurisés.
+Avez-vous déjà eu besoin d'ajouter une signature numérique à un fichier Excel signé ? Découvrez comment procéder grâce à notre guide[Ajouter une signature numérique à un fichier Excel déjà signé](./add-digital-signature-to-an-already-signed-excel-file/)Les signatures numériques garantissent l’authenticité et l’intégrité, rendant vos fichiers Excel non seulement fonctionnels mais également sécurisés.
 
 ## Créer des classeurs partagés
 
@@ -25,7 +25,7 @@ Comprendre comment accéder aux informations des extensions Web peut ouvrir de n
 
 ## Extraction des fichiers intégrés
 
-Saviez-vous qu'Excel peut contenir des fichiers intégrés ? Si vous avez déjà eu besoin d'explorer plus en profondeur vos feuilles de calcul pour extraire un fichier MOL intégré, vous voudrez consulter notre tutoriel sur[Extraire le fichier MOL intégré](./extract-embedded-mol-file/)Ce guide vous guide tout au long du processus simple de récupération de ces fichiers, garantissant ainsi que vous ne perdrez jamais de données importantes cachées dans vos classeurs Excel.
+ Saviez-vous qu'Excel peut contenir des fichiers intégrés ? Si vous avez déjà eu besoin d'explorer plus en profondeur vos feuilles de calcul pour extraire un fichier MOL intégré, vous voudrez consulter notre tutoriel sur[Extraire le fichier MOL intégré](./extract-embedded-mol-file/)Ce guide vous guide tout au long du processus simple de récupération de ces fichiers, garantissant ainsi que vous ne perdrez jamais de données importantes cachées dans vos classeurs Excel.
 
 ## Gestion des connexions externes dans les fichiers XLSB
 
@@ -33,23 +33,23 @@ Saviez-vous qu'Excel peut contenir des fichiers intégrés ? Si vous avez déjà
 
 ## Améliorer la sécurité grâce à la protection par mot de passe
 
- La sécurité est essentielle, en particulier pour les classeurs partagés contenant des informations sensibles. Notre tutoriel sur[Protéger ou déprotéger un classeur partagé par mot de passe](./password-protect-or-unprotect-shared-workbook/)détaille les étapes à suivre pour verrouiller vos classeurs afin que seules les bonnes personnes puissent y accéder. Vous vous sentirez plus en confiance pour partager des fichiers lorsque vous saurez qu'ils sont sécurisés.
+ La sécurité est essentielle, en particulier pour les classeurs partagés contenant des informations sensibles. Notre tutoriel sur[Protéger ou déprotéger un classeur partagé par mot de passe](./password-protect-or-unprotect-shared-workbook/) détaille les étapes à suivre pour verrouiller vos classeurs afin que seules les bonnes personnes puissent y accéder. Vous vous sentirez plus en confiance pour partager des fichiers lorsque vous saurez qu'ils sont sécurisés.
 
 ## Augmenter la productivité avec Regex
 
- Vous êtes fan des expressions régulières ? Si ce n'est pas le cas, vous pourriez vouloir le devenir ! Les expressions régulières peuvent considérablement simplifier vos tâches, en particulier lorsque vous travaillez avec de grands ensembles de données dans Excel. Notre tutoriel sur[Remplacer une expression régulière](./regex-replace/) vous apprend à implémenter des fonctions de remplacement d'expressions régulières dans vos feuilles de calcul, vous permettant ainsi d'augmenter à la fois votre productivité et votre précision.
+Vous êtes fan des expressions régulières ? Si ce n'est pas le cas, vous pourriez vouloir le devenir ! Les expressions régulières peuvent considérablement simplifier vos tâches, en particulier lorsque vous travaillez avec de grands ensembles de données dans Excel. Notre tutoriel sur[Remplacer une expression régulière](./regex-replace/) vous apprend à implémenter des fonctions de remplacement d'expressions régulières dans vos feuilles de calcul, vous permettant ainsi d'augmenter à la fois votre productivité et votre précision.
 
 ## Mise à jour des éléments Power Query
 
- Les requêtes Power peuvent changer la donne dans la manipulation des données, en vous permettant de rationaliser la manière dont les informations sont importées dans vos fichiers Excel. Si vous vous demandez comment mettre à jour les éléments de formule Power Query dans Excel à l'aide d'Aspose.Cells pour .NET, notre tutoriel sur[Mettre à jour l'élément de formule Power Query](./update-power-query-formula-item/)est exactement ce qu'il vous faut. Il propose une approche simple, étape par étape, pour modifier ces éléments de formule, vous permettant de conserver vos données à jour et de les refléter avec précision dans vos classeurs.
+ Les requêtes Power peuvent changer la donne dans la manipulation des données, en vous permettant de rationaliser la manière dont les informations sont importées dans vos fichiers Excel. Si vous vous demandez comment mettre à jour les éléments de formule Power Query dans Excel à l'aide d'Aspose.Cells pour .NET, notre tutoriel sur[Mettre à jour l'élément de formule Power Query](./update-power-query-formula-item/) est exactement ce qu'il vous faut. Il propose une approche simple, étape par étape, pour modifier ces éléments de formule, vous permettant de conserver vos données à jour et de les refléter avec précision dans vos classeurs.
 
 ## Gestion des aperçus avant impression
 
- De temps à autre, vous devez présenter vos données de la manière la plus professionnelle possible. Apprendre à créer des aperçus avant impression peut être une compétence essentielle. Dans notre tutoriel sur[Aperçu avant impression du cahier d'exercices](./workbook-print-preview/), vous découvrirez comment formater correctement vos données avant de les imprimer. Ce processus peut vous éviter des erreurs embarrassantes et garantir que vos rapports sont aussi beaux sur papier qu'à l'écran.
+De temps à autre, vous devez présenter vos données de la manière la plus professionnelle possible. Apprendre à créer des aperçus avant impression peut être une compétence essentielle. Dans notre tutoriel sur[Aperçu avant impression du cahier d'exercices](./workbook-print-preview/), vous découvrirez comment formater correctement vos données avant de les imprimer. Ce processus peut vous éviter des erreurs embarrassantes et garantir que vos rapports sont aussi beaux sur papier qu'à l'écran.
 
 ## Travailler avec des noms définis
 
- Les noms définis dans vos feuilles Excel peuvent être un moyen pratique de gérer vos données. Ils rendent les formules plus courtes et plus compréhensibles. Si vous cherchez à filtrer les noms définis lors du chargement d'un classeur, notre tutoriel sur[Filtrer les noms définis lors du chargement du classeur](./filter-defined-names-while-loading-workbook/)fournit toutes les étapes nécessaires pour y parvenir. Cette fonctionnalité vous permet de personnaliser le chargement de votre classeur, améliorant ainsi l'efficacité et l'organisation.
+ Les noms définis dans vos feuilles Excel peuvent être un moyen pratique de gérer vos données. Ils rendent les formules plus courtes et plus compréhensibles. Si vous cherchez à filtrer les noms définis lors du chargement d'un classeur, notre tutoriel sur[Filtrer les noms définis lors du chargement du classeur](./filter-defined-names-while-loading-workbook/) fournit toutes les étapes nécessaires pour y parvenir. Cette fonctionnalité vous permet de personnaliser le chargement de votre classeur, améliorant ainsi l'efficacité et l'organisation.
 
 ## Conclusion
 

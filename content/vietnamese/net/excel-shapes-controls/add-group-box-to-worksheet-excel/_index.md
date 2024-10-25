@@ -37,7 +37,7 @@ Trước khi tạo bất kỳ tệp Excel nào, bạn cần xác định nơi b�
 ```csharp
 // Đường dẫn đến thư mục tài liệu
 string dataDir = "Your Document Directory"; // Chỉ định đường dẫn mong muốn của bạn
-//Tạo thư mục nếu thư mục đó chưa có.
+// Tạo thư mục nếu thư mục đó chưa có.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);

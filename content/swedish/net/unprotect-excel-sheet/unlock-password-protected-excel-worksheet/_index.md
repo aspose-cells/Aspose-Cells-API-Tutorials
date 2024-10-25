@@ -25,7 +25,7 @@ Du behöver en fungerande .NET-miljö. Om du inte är redo ännu, överväg att 
 
 ### Grundläggande kodningskunskap
 
-Lite grundläggande programmeringskunskaper i C# eller VB.NET kommer att räcka långt. Om du har det, är du redo!
+Lite grundläggande programmeringskunskaper i C# eller VB.NET kommer att räcka långt. Om du har fått det nere, är du redo!
 
 ## Importera paket
 

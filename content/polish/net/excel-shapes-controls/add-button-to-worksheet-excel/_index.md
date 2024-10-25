@@ -31,7 +31,7 @@ W pierwszym kroku utworzymy nowy skoroszyt programu Excel i uzyskamy odwołanie 
 ```csharp
 // Zdefiniuj ścieżkę do katalogu dokumentów.
 string dataDir = "Your Document Directory";
-//Utwórz katalog, jeśli jeszcze go nie ma.
+// Utwórz katalog, jeśli jeszcze go nie ma.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
 	System.IO.Directory.CreateDirectory(dataDir);
@@ -110,7 +110,7 @@ Tak, Aspose.Cells pozwala na dodawanie różnych kształtów, w tym pól wyboru,
 ### Czy mogę uruchomić makro za pomocą przycisku dodanego za pomocą Aspose.Cells?
 Tak, możesz połączyć przycisk z makrem, ale w tym celu musisz osobno utworzyć kod makra w programie Excel.
 ### Jak mogę sprawić, aby rozmiar przycisku automatycznie zmieniał się wraz z rozmiarem komórek?
- Użyj`PlacementType.Move` właściwość umożliwiająca zmianę rozmiaru przycisku zależnie od komórek.
+ Użyj`PlacementType.Move` właściwość umożliwiająca zmianę rozmiaru przycisku zależnie od rozmiaru komórek.
 ### Czy można dodać wiele przycisków na jednym arkuszu kalkulacyjnym?
  Oczywiście! Możesz dodać tyle przycisków, ile potrzebujesz, dzwoniąc pod numer`AddButton` Metodę tę stosuje się wielokrotnie.
 ### Czy mogę dodatkowo dostosować wygląd przycisku?

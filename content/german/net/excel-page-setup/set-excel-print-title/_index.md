@@ -63,7 +63,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Schritt 2: Instanziieren eines Arbeitsmappenobjekts
 
- Als nächstes erstellen wir eine Instanz des`Workbook`Klasse, die eine Excel-Datei darstellt.
+ Als nächstes erstellen wir eine Instanz des`Workbook` Klasse, die eine Excel-Datei darstellt.
 
 ```csharp
 Workbook workbook = new Workbook();

@@ -53,7 +53,7 @@ Tiếp theo, bạn sẽ cần tạo một luồng tệp để mở tệp Excel c
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
 
-Ở đây, chúng tôi chỉ định rằng chúng tôi muốn mở`book1.xls` nằm trong thư mục được chỉ định.`FileMode.Open` tham số cho biết chúng ta đang mở một tệp hiện có. Luôn đảm bảo tên tệp khớp với tên bạn có.
+ Ở đây, chúng tôi chỉ định rằng chúng tôi muốn mở`book1.xls` nằm trong thư mục được chỉ định.`FileMode.Open` tham số cho biết chúng ta đang mở một tệp hiện có. Luôn đảm bảo tên tệp khớp với tên bạn có.
 
 ## Bước 3: Khởi tạo một đối tượng Workbook
 
@@ -83,7 +83,7 @@ Bây giờ là thời điểm chúng ta đang chờ đợi! Đây là nơi chún
 worksheet.IsRowColumnHeadersVisible = false;
 ```
 
- Cài đặt`IsRowColumnHeadersVisible` ĐẾN`false`sẽ ẩn hiệu quả các tiêu đề ở cả hàng và cột, tạo giao diện gọn gàng hơn cho bản trình bày dữ liệu của bạn.
+ Cài đặt`IsRowColumnHeadersVisible` ĐẾN`false` sẽ ẩn hiệu quả các tiêu đề ở cả hàng và cột, tạo giao diện gọn gàng hơn cho bản trình bày dữ liệu của bạn.
 
 ## Bước 6: Lưu tệp Excel đã sửa đổi
 

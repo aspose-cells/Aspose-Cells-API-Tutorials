@@ -14,11 +14,11 @@ Aspose.Cells per Java è una potente API Java per lavorare con file Excel, inclu
 
 ## Cosa sono i grafici 3D?
 
-grafici 3D sono un tipo di visualizzazione dei dati che aggiunge profondità ai grafici 2D tradizionali. Forniscono un modo più immersivo per presentare i dati, rendendo più facile comprendere relazioni complesse all'interno di set di dati. I grafici 3D possono essere particolarmente utili quando si ha a che fare con dati multidimensionali.
+I grafici 3D sono un tipo di visualizzazione dei dati che aggiunge profondità ai grafici 2D tradizionali. Forniscono un modo più immersivo per presentare i dati, rendendo più facile comprendere relazioni complesse all'interno di set di dati. I grafici 3D possono essere particolarmente utili quando si ha a che fare con dati multidimensionali.
 
 ## Perché utilizzare Aspose.Cells per Java per creare grafici 3D?
 
-Aspose.Cells per Java offre un set completo di funzionalità e strumenti per lavorare con file e grafici Excel. Fornisce un'interfaccia intuitiva per creare, personalizzare e manipolare grafici, inclusi grafici 3D. Inoltre, Aspose.Cells per Java garantisce che i grafici generati siano compatibili con un'ampia gamma di versioni di Excel, rendendolo una scelta affidabile per la creazione di grafici.
+Aspose.Cells per Java offre un set completo di funzionalità e strumenti per lavorare con file e grafici Excel. Fornisce un'interfaccia intuitiva per creare, personalizzare e manipolare grafici, inclusi grafici 3D. Inoltre, Aspose.Cells per Java assicura che i grafici generati siano compatibili con un'ampia gamma di versioni di Excel, rendendolo una scelta affidabile per la creazione di grafici.
 
 ## Impostazione di Aspose.Cells per Java
 
@@ -33,7 +33,7 @@ Puoi scaricare la libreria Aspose.Cells for Java dal sito web. Una volta scarica
 Per usare Aspose.Cells per Java, dovrai inizializzare la tua licenza. Questo passaggio è essenziale per rimuovere qualsiasi limitazione di valutazione e sbloccare il pieno potenziale della libreria.
 
 ```java
-// Inizializza la licenza Aspose.Cells
+//Inizializza la licenza Aspose.Cells
 License license = new License();
 license.setLicense("path_to_license_file.xml");
 ```
@@ -88,7 +88,7 @@ Chart chart = worksheet.getCharts().get(chartIndex);
 // Impostazione dell'intervallo di dati per il grafico
 chart.getNSeries().add("A2:B4", true);
 
-//Personalizzazione degli attributi del grafico
+// Personalizzazione degli attributi del grafico
 chart.getChartArea().getBorder().setVisible(false);
 chart.getChartTitle().setText("3D Bar Chart");
 ```

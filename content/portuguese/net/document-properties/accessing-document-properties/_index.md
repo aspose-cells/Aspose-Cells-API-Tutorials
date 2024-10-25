@@ -50,7 +50,7 @@ Console.WriteLine(customProperty1.Name + " " + customProperty1.Value);
 ```
  Neste exemplo, estamos tentando acessar a propriedade chamada`"ContentTypeId"`. O console exibirá tanto o nome quanto o valor dessa propriedade. É uma maneira bacana de obter precisamente o que você precisa sem ter que peneirar todas as propriedades.
 ## Etapa 5: acesse uma propriedade de documento personalizada por índice
-se você quiser navegar em suas propriedades e escolher uma sem saber o nome com antecedência? O índice de propriedades vem ao resgate:
+E se você quiser navegar em suas propriedades e escolher uma sem saber o nome com antecedência? O índice de propriedades vem ao resgate:
 ```csharp
 Aspose.Cells.Properties.DocumentProperty customProperty2 = customProperties[0];
 Console.WriteLine(customProperty2.Name + " " + customProperty2.Value);
@@ -69,4 +69,4 @@ Absolutamente! Você pode ler, escrever e modificar arquivos Excel usando a bibl
 ### Há suporte disponível para usuários do Aspose.Cells?
  Sim, você pode acessar amplos recursos de suporte, incluindo fóruns e documentação, disponíveis[aqui](https://forum.aspose.com/c/cells/9).
 ### Como posso obter uma licença temporária para o Aspose.Cells?
- Você pode solicitar uma licença temporária para avaliar o produto visitando[este link](https://purchase.aspose.com/temporary-license/).
+Você pode solicitar uma licença temporária para avaliar o produto visitando[este link](https://purchase.aspose.com/temporary-license/).

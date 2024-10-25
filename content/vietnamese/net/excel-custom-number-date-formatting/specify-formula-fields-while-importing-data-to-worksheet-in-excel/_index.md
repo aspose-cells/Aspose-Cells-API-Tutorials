@@ -177,5 +177,5 @@ Aspose.Cells là một thư viện .NET được thiết kế để tạo, thao 
  Các ví dụ và tài liệu bổ sung có thể được tìm thấy tại[Trang tài liệu Aspose](https://reference.aspose.com/cells/net/).
 
 ### Tôi phải làm sao nếu gặp sự cố khi sử dụng Aspose?
-Bạn có thể tìm kiếm sự trợ giúp từ diễn đàn hỗ trợ Aspose[đây](https://forum.aspose.com/c/cells/9).
+ Bạn có thể tìm kiếm sự trợ giúp từ diễn đàn hỗ trợ Aspose[đây](https://forum.aspose.com/c/cells/9).
  

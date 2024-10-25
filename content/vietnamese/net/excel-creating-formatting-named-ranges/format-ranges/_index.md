@@ -53,7 +53,7 @@ Tiếp theo, chúng ta sẽ tạo một phiên bản của sổ làm việc. Đi
 Workbook workbook = new Workbook();
 ```
 
-Giải thích:`Workbook` lớp biểu diễn một tệp Excel. Bằng cách khởi tạo nó, về cơ bản bạn đang tạo một tài liệu Excel mới mà bạn có thể thao tác.
+ Giải thích:`Workbook` lớp biểu diễn một tệp Excel. Bằng cách khởi tạo nó, về cơ bản bạn đang tạo một tài liệu Excel mới mà bạn có thể thao tác.
 
 ## Bước 3: Truy cập vào trang tính đầu tiên
 
@@ -138,7 +138,7 @@ flg.Font = true; // Bật thuộc tính phông chữ
 flg.CellShading = true; // Bật chế độ đổ bóng ô
 ```
 
-Giải thích:`StyleFlag` đối tượng cho thư viện biết chúng ta muốn áp dụng thuộc tính kiểu nào—giống như việc đánh dấu vào các ô trong danh sách việc cần làm!
+ Giải thích:`StyleFlag` đối tượng cho thư viện biết chúng ta muốn áp dụng thuộc tính kiểu nào—giống như việc đánh dấu vào các ô trong danh sách việc cần làm!
 
 ## Bước 11: Áp dụng Kiểu cho Phạm vi
 

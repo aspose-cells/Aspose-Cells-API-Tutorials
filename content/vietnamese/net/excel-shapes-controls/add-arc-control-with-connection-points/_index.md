@@ -29,7 +29,7 @@ Các không gian tên này sẽ cung cấp cho bạn quyền truy cập vào t�
 Trước tiên, hãy tạo một thư mục nơi bạn sẽ lưu các tệp Excel mới sáng bóng đó. Đây là cách chúng tôi thực hiện:
 ```csharp
 string dataDir = "Your Document Directory";
-//Tạo thư mục nếu thư mục đó chưa có.
+// Tạo thư mục nếu thư mục đó chưa có.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);

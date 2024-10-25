@@ -46,7 +46,7 @@ Nyní, když máme vše připraveno, pojďme se pustit do vzrušující části 
 Nejprve musíme určit, kde budou naše soubory Excel uloženy. Definujte cestu k adresáři dokumentů:
 
 ```csharp
-string dataDir = "YOUR DOCUMENT DIRECTORY";  // Aktualizujte toto na váš skutečný adresář
+string dataDir = "YOUR DOCUMENT DIRECTORY";  // Aktualizujte to do svého skutečného adresáře
 ```
  The`dataDir` proměnná uloží cestu, kam uložíte konečný soubor Excel. Ujistěte se, že jste nahradili "VÁŠ ADRESÁŘ DOKUMENTŮ" skutečnou cestou ve vašem systému.
 
@@ -60,7 +60,7 @@ Workbook excelWorkbook0 = new Workbook();
 // Získejte první pracovní list v knize
 Worksheet ws0 = excelWorkbook0.Worksheets[0];
 
-// Vložte některá data do řádků záhlaví (A1:A4)
+// Vložte nějaká data do řádků záhlaví (A1:A4)
 for (int i = 0; i < 5; i++)
 {
     ws0.Cells[i, 0].PutValue(string.Format("Header Row {0}", i));
@@ -79,9 +79,9 @@ Zde vytvoříme první sešit a vyplníme první list (`ws0`) se záhlavími a �
 Pojďme nakonfigurovat nastavení stránky tak, aby se při tisku opakovaly řádky záhlaví, abychom tuto funkci viděli v akci:
 
 ```csharp
-//Definujte objekt nastavení stránky na základě prvního listu
+// Definujte objekt nastavení stránky na základě prvního listu
 PageSetup pagesetup = ws0.PageSetup;
-// Prvních pět řádků se opakuje na každé stránce
+//Prvních pět řádků se opakuje na každé stránce
 pagesetup.PrintTitleRows = "$1:$5";
 ```
  Tato část definuje, jak bude váš dokument vytištěn. Nastavením`PrintTitleRows`, zajistíme, že se prvních pět řádků objeví na každé vytištěné stránce, což je velmi užitečné pro čitelnost.
@@ -109,7 +109,7 @@ Zkopírujeme obsah z listu prvního sešitu do druhého sešitu:
 // první pracovní list druhého sešitu
 ws1.Copy(ws0);
 ```
- The`Copy` metoda přebírá veškerý obsah ze zdrojového listu (`ws0`a duplikuje jej do cílového listu (`ws1`). Tak jednoduché, že?
+ The`Copy` metoda přebírá veškerý obsah ze zdrojového listu (`ws0`) a duplikuje jej do cílového listu (`ws1`). Tak jednoduché, že?
 
 ## Krok 6: Uložte nový sešit
 
@@ -136,7 +136,7 @@ Aspose.Cells je knihovna .NET, která umožňuje vývojářům vytvářet, manip
 ### Jak získám dočasnou licenci pro Aspose.Cells?  
  O dočasnou licenci můžete požádat návštěvou[tento odkaz](https://purchase.aspose.com/temporary-license/).
 
-### Kde najdu další dokumentaci na Aspose.Cells?  
+### Kde najdu další dokumentaci k Aspose.Cells?  
  Můžete najít podrobnou dokumentaci[zde](https://reference.aspose.com/cells/net/).
 
 ### Je k dispozici nějaká podpora pro uživatele Aspose.Cells?  

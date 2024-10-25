@@ -13,7 +13,7 @@ Ha adatkezelésről van szó, a Microsoft Excel egy hatékony eszköz, amelyre s
 
 ## Előfeltételek
 
-Mielőtt nekivágnánk az Excel-táblázatok vezérlésének, néhány előfeltételnek kell megfelelnie a gördülékeny utazás biztosításához:
+Mielőtt belevágnánk az Excel-táblázatok kezelésébe, be kell tartania néhány előfeltételt a zökkenőmentes utazás biztosításához:
 
 1. Alapvető C# ismerete: A C# ismerete elengedhetetlen, mivel ezen a nyelven fogunk kódot írni.
 2.  Aspose.Cells for .NET: Győződjön meg arról, hogy az Aspose.Cells telepítve van. Letöltheti[itt](https://releases.aspose.com/cells/net/).
@@ -132,7 +132,7 @@ Az Excel-munkalapok Aspose.Cells for .NET használatával történő manipulál�
  Igen, át lehet nézni a`Worksheets` gyűjtése és beállítása a`IsVisible` minden elrejteni kívánt lapnál hamis értékre.
 
 ### Milyen fájlformátumokat támogat az Aspose.Cells?
-Az Aspose.Cells számos formátumot támogat, beleértve az XLS-t, XLSX-et, CSV-t és még sok mást. A teljes listát ellenőrizheti[itt](https://reference.aspose.com/cells/net/).
+Az Aspose.Cells számos formátumot támogat, beleértve az XLS, XLSX, CSV és még sok más formátumot. A teljes listát ellenőrizheti[itt](https://reference.aspose.com/cells/net/).
 
 ### Szükségem van engedélyre az Aspose.Cells használatához?
  Kezdje egy ingyenes próbaverzióval, hogy felfedezze a funkcióit. A termelési alkalmazásokhoz teljes licenc szükséges. Tudjon meg többet róla[itt](https://purchase.aspose.com/buy).

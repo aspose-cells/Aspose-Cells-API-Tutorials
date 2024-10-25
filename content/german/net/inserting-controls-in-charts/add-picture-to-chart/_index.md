@@ -16,7 +16,7 @@ Haben Sie genug von langweiligen Diagrammen ohne persönliche Note? Möchten Sie
 Bevor wir uns in die Einzelheiten der Codierung stürzen, müssen Sie einige Voraussetzungen erfüllen, damit Sie reibungslos mitmachen können:
 
 - Visual Studio: Hier schreiben und führen Sie Ihren .NET-Code aus. Stellen Sie sicher, dass Sie es installiert haben.
-- Aspose.Cells für .NET: Sie benötigen diese Bibliothek für die Arbeit mit Excel-Dateien. Sie können[Laden Sie es hier herunter](https://releases.aspose.com/cells/net/).
+-  Aspose.Cells für .NET: Sie benötigen diese Bibliothek für die Arbeit mit Excel-Dateien. Sie können[Laden Sie es hier herunter](https://releases.aspose.com/cells/net/).
 - Grundlegende Kenntnisse in C#: Ich führe Sie zwar durch den Code, aber wenn Sie sich mit den Grundlagen von C# auskennen, wird alles klarer.
 
 ### Installationsschritte
@@ -55,7 +55,7 @@ string sourceDir = "Your Document Directory/";
 string outputDir = "Your Output Directory/";
 ```
 
- Ersetzen`Your Document Directory` Und`Your Output Directory` mit tatsächlichen Pfaden auf Ihrem Computer. 
+ Ersetzen`Your Document Directory` Und`Your Output Directory`mit tatsächlichen Pfaden auf Ihrem Computer. 
 
 ## Schritt 2: Laden der vorhandenen Arbeitsmappe
 
@@ -84,7 +84,7 @@ Stellen Sie sicher, dass Sie das Bild im angegebenen Verzeichnis gespeichert hab
 Geben wir nun an, zu welchem Diagramm wir unser Bild hinzufügen möchten. In diesem Beispiel wählen wir das erste Diagramm auf dem ersten Arbeitsblatt aus.
 
 ```csharp
-//Holen Sie sich das Designerdiagramm auf dem zweiten Blatt.
+// Holen Sie sich das Designerdiagramm auf dem zweiten Blatt.
 Worksheet sheet = workbook.Worksheets[0];
 Aspose.Cells.Charts.Chart chart = sheet.Charts[0];
 ```
@@ -100,7 +100,7 @@ Nachdem Sie das Diagramm ausgewählt haben, ist es Zeit, das Bild hinzuzufügen!
 Aspose.Cells.Drawing.Picture pic0 = chart.Shapes.AddPictureInChart(50, 50, stream, 200, 200);
 ```
 
- Hier,`50` Und`50` sind die X- und Y-Koordinaten, an denen das Bild platziert wird, und`200` ist die Breite und Höhe des Bildes.
+ Hier,`50` Und`50` sind die X- und Y-Koordinaten, an denen das Bild platziert wird, und`200`ist die Breite und Höhe des Bildes.
 
 ## Schritt 6: Passen Sie das Linienformat des Bildes an
 

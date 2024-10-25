@@ -60,7 +60,7 @@ Khi sổ làm việc của chúng ta đã sẵn sàng, đã đến lúc thêm m�
 int index = workbook.ContentTypeProperties.Add("MK31", "Simple Data");
 ```
 
- Trong bước này, chúng tôi đã thêm một thuộc tính có tên là "MK31" với giá trị "Dữ liệu đơn giản".`Add` phương thức này trả về chỉ mục của thuộc tính mới được thêm vào, chúng ta có thể sử dụng sau.
+ Trong bước này, chúng tôi đã thêm một thuộc tính có tên là "MK31" với giá trị "Dữ liệu đơn giản".`Add`phương thức này trả về chỉ mục của thuộc tính mới được thêm vào, chúng ta có thể sử dụng sau.
 
 ### Đặt thuộc tính Nillable
 
@@ -79,7 +79,7 @@ index = workbook.ContentTypeProperties.Add("MK32", DateTime.Now.ToString("yyyy-M
 workbook.ContentTypeProperties[index].IsNillable = true;
 ```
 
-Trong đoạn mã này, chúng tôi tạo một thuộc tính có tên "MK32" với ngày và giờ hiện tại được định dạng theo ISO 8601. Chúng tôi đã làm cho thuộc tính này có thể là null bằng cách đặt`IsNillable` ĐẾN`true`.
+ Trong đoạn mã này, chúng tôi tạo một thuộc tính có tên "MK32" với ngày và giờ hiện tại được định dạng theo ISO 8601. Chúng tôi đã làm cho thuộc tính này có thể là null bằng cách đặt`IsNillable` ĐẾN`true`.
 
 ## Bước 4: Lưu sổ làm việc
 
@@ -120,4 +120,4 @@ Có! Aspose.Cells hỗ trợ nhiều định dạng khác nhau, bao gồm XLS, X
 Hoàn toàn có thể! Bạn có thể thêm các đối tượng phức tạp vào thuộc tính kiểu nội dung miễn là chúng có thể được tuần tự hóa đúng cách.
 
 ### Tôi có thể tìm thêm tài liệu ở đâu?
- Để biết hướng dẫn chi tiết hơn, hãy tham khảo[Tài liệu Aspose.Cells](https://reference.aspose.com/cells/net/).
+Để biết hướng dẫn chi tiết hơn, hãy tham khảo[Tài liệu Aspose.Cells](https://reference.aspose.com/cells/net/).

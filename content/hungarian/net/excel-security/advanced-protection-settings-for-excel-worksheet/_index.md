@@ -16,7 +16,7 @@ A digitális korban az adatok kezelése és védelme fontosabb, mint valaha. Az 
 Mielőtt belemerülnénk a kódba, győződjünk meg arról, hogy mindennel rendelkezünk, amire szükségünk van:
 
 1. Fejlesztői környezet: A Visual Studio telepítve legyen a gépére, mivel kiváló IDE-t biztosít a .NET fejlesztéshez.
-2. Aspose.Cells Library: Töltse le az Aspose.Cells könyvtárat. Beszerezheti a[Aspose Letöltések oldal](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells Library: Töltse le az Aspose.Cells könyvtárat. Beszerezheti a[Aspose Letöltések oldal](https://releases.aspose.com/cells/net/).
 3. Alapvető C#-ismeretek: Győződjön meg arról, hogy jól ismeri a C#-ot és a .NET-keretrendszert, hogy könnyen követhesse.
 4. Projekt létrehozása: Állítson be egy új konzolalkalmazást a Visual Studio-ban, ahol megírjuk a kódot.
 
@@ -32,7 +32,7 @@ Nyissa meg az újonnan létrehozott konzolalkalmazást a Visual Studióban.
 
 ### NuGet csomagkezelő
 
-Használja a NuGetet az Aspose.Cells könyvtár hozzáadásához. Kattintson a jobb gombbal a projektre a Solution Explorerben, és válassza a "NuGet-csomagok kezelése" lehetőséget.
+Használja a NuGetet az Aspose.Cells könyvtár hozzáadásához. Kattintson a jobb gombbal a projektre a Solution Explorerben, és válassza a „NuGet-csomagok kezelése” lehetőséget.
 
 ### Importálja a szükséges névtereket
 
@@ -48,12 +48,12 @@ Bontsuk le a megvalósítást kezelhető lépésekre. Létrehozunk egy egyszerű
 
 ## 1. lépés: Hozzon létre egy fájlfolyamot az Excel-fájlhoz
 
-Először is be kell töltenünk egy meglévő Excel fájlt. Használjuk a`FileStream` hozzáférni.
+ Először is be kell töltenünk egy meglévő Excel fájlt. Használjuk a`FileStream` hozzáférni.
 
 ```csharp
 // A dokumentumok könyvtárának elérési útja.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-// Fájlfolyam létrehozása az Excel fájl megnyitásához
+//Fájlfolyam létrehozása az Excel fájl megnyitásához
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
  A`FileStream` lehetővé teszi számunkra a megadott Excel fájl beolvasását. Győződjön meg arról, hogy a „DOKUMENTUMKÖNYVTÁR” elemet az Excel-fájl tényleges elérési útjára állítja.

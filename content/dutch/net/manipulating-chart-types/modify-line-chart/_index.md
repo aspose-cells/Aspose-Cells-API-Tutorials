@@ -87,7 +87,7 @@ Deze code voegt een derde gegevensreeks toe aan de grafiek met de opgegeven waar
 ```csharp
 chart.NSeries.Add("{0.3, 0.7, 1.2}", true);
 ```
-Met deze regel voegt u nog een gegevensreeks toe, de vierde, waardoor u meer gegevens visueel kunt weergeven.
+Met deze regel wordt een andere gegevensreeks toegevoegd, de vierde, waardoor u meer gegevens visueel kunt weergeven.
 
 ## Stap 5: Teken op de tweede as
 
@@ -151,7 +151,7 @@ Ja, u kunt verschillende soorten diagrammen (zoals staafdiagrammen, cirkeldiagra
  Absoluut! Je kunt het gratis proberen[hier](https://releases.aspose.com/).
 
 ### Hoe kan ik het grafiektype wijzigen nadat ik een reeks heb toegevoegd?
- U kunt de`ChartType` eigenschap om een nieuw grafiektype voor uw grafiek in te stellen.
+ kunt de`ChartType` eigenschap om een nieuw grafiektype voor uw grafiek in te stellen.
 
 ### Waar kan ik meer gedetailleerde documentatie vinden?
  Bekijk de documentatie[hier](https://reference.aspose.com/cells/net/).

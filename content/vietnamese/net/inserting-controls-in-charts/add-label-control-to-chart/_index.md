@@ -62,7 +62,7 @@ Tiếp theo, chúng ta sẽ tải tệp Excel có chứa biểu đồ mà chúng
 Workbook workbook = new Workbook(sourceDir + "sampleAddingLabelControlInChart.xls");
 ```
 
- Ở đây, chúng tôi đang sử dụng`Workbook`lớp từ Aspose.Cells để mở tệp Excel của chúng tôi. Giống như mở khóa cánh cửa để sự sáng tạo tuôn trào!
+ Ở đây, chúng tôi đang sử dụng`Workbook` lớp từ Aspose.Cells để mở tệp Excel của chúng tôi. Giống như mở khóa cánh cửa để sự sáng tạo tuôn trào!
 
 ## Bước 3: Truy cập vào Bảng tính
 
@@ -94,7 +94,7 @@ Bây giờ đến phần thú vị – thêm nhãn vào biểu đồ. Chúng ta 
 Aspose.Cells.Drawing.Label label = chart.Shapes.AddLabelInChart(600, 600, 350, 900);
 ```
 
- Đây,`AddLabelInChart`đảm nhiệm việc tạo nhãn dựa trên tọa độ và kích thước bạn chỉ định. Giống như việc gắn một khung đẹp xung quanh tác phẩm nghệ thuật của bạn vậy!
+ Đây,`AddLabelInChart` đảm nhiệm việc tạo nhãn dựa trên tọa độ và kích thước bạn chỉ định. Giống như việc gắn một khung đẹp xung quanh tác phẩm nghệ thuật của bạn vậy!
 
 ## Bước 6: Đặt Văn bản Nhãn
 

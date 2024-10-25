@@ -56,7 +56,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
   
- ال`FileStream` تتيح لك الفئة القراءة من الملفات والكتابة إليها. في هذه الحالة، نقوم بفتح ملف Excel الخاص بنا في وضع القراءة.
+ ال`FileStream`تتيح لك الفئة القراءة من الملفات والكتابة إليها. في هذه الحالة، نقوم بفتح ملف Excel الخاص بنا في وضع القراءة.
 
 ## الخطوة 3: إنشاء مثيل لكائن مصنف
 
@@ -67,7 +67,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 Workbook workbook = new Workbook(fstream);
 ```
   
- هذا`Workbook`يحتوي الكائن الآن على كافة البيانات والإعدادات الخاصة بملف Excel الخاص بك، مما يسمح بالتلاعب به لاحقًا في العملية.
+ هذا`Workbook` يحتوي الكائن الآن على كافة البيانات والإعدادات الخاصة بملف Excel الخاص بك، مما يسمح بالتلاعب به لاحقًا في العملية.
 
 ## الخطوة 4: إخفاء شريط التمرير العمودي
 
@@ -132,4 +132,4 @@ fstream.Close();
  التحقق من[توثيق Aspose.Cells](https://reference.aspose.com/cells/net/) لمزيد من الأمثلة والدروس التعليمية.
 
 ### ماذا لو واجهت مشاكل أثناء استخدام Aspose.Cells؟  
- يمكنك طلب المساعدة أو الإبلاغ عن المشكلات في منتدى دعم Aspose[هنا](https://forum.aspose.com/c/cells/9).
+يمكنك طلب المساعدة أو الإبلاغ عن المشكلات في منتدى دعم Aspose[هنا](https://forum.aspose.com/c/cells/9).

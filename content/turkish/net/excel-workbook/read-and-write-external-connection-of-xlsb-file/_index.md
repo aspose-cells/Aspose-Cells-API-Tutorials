@@ -68,7 +68,7 @@ Workbook wb = new Workbook(sourceDir + "sampleExternalConnection_XLSB.xlsb");
 Aspose.Cells.ExternalConnections.DBConnection dbCon = wb.DataConnections[0] as Aspose.Cells.ExternalConnections.DBConnection;
 ```
 
- Burada,`DataConnections[0]`çalışma kitabındaki ilk bağlantıyı ifade eder. Bunu bir`DBConnection` daha fazla düzenleme için yazın.
+ Burada,`DataConnections[0]` çalışma kitabındaki ilk bağlantıyı ifade eder. Bunu bir`DBConnection` daha fazla düzenleme için yazın.
 
 ## Adım 4: Bağlantı Bilgilerini Çıkarın
 

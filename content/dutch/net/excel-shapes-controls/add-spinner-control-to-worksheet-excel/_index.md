@@ -29,7 +29,7 @@ Voordat u begint met coderen, is het een goede gewoonte om uw bestanden te organ
 ```csharp
 // Het pad naar de documentenmap.
 string dataDir = "Your Document Directory";
-//Maak een map aan als deze nog niet bestaat.
+// Maak een map aan als deze nog niet bestaat.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -41,7 +41,7 @@ Nu is het tijd om een Excel-werkmap te maken waaraan we het Spinner-besturingsel
 // Een nieuwe werkmap maken.
 Workbook excelbook = new Workbook();
 ```
- De`Workbook`class vertegenwoordigt een Excel-bestand. Door het te instantiëren, maken we een nieuwe werkmap die klaar is voor wijzigingen.
+ De`Workbook` class vertegenwoordigt een Excel-bestand. Door het te instantiëren, maken we een nieuwe werkmap die klaar is voor wijzigingen.
 ## Stap 3: Toegang tot het eerste werkblad
 We voegen onze Spinner toe aan het eerste werkblad in de werkmap.
 ```csharp
@@ -99,7 +99,7 @@ spinner.IncrementalChange = 2;
 // Stel het in op 3D-arcering.
 spinner.Shadow = true;
 ```
-Hier stellen we de eigenschappen van de Spinner in. We koppelen deze aan cel A2, zodat deze de daar weergegeven waarde kan regelen. De minimum- en maximumwaarden definiëren het bereik waarin de Spinner kan werken, terwijl de incrementele wijziging bepaalt hoeveel de waarde verandert bij elke klik. Door 3D-schaduw toe te voegen, krijgt het een gepolijste look.
+Hier stellen we de eigenschappen van de Spinner in. We koppelen het aan cel A2, zodat het de daar weergegeven waarde kan regelen. De minimum- en maximumwaarden definiëren het bereik waarin de Spinner kan werken, terwijl de incrementele verandering bepaalt hoeveel de waarde verandert met elke klik. Door 3D-schaduw toe te voegen, krijgt het een gepolijste look.
 ## Stap 8: Sla het Excel-bestand op
 Tot slot slaan we onze Excel-werkmap op, inclusief de Spinner.
 ```csharp
@@ -117,6 +117,6 @@ Ja, u kunt de grootte, positie en zelfs de 3D-schaduw aanpassen voor een verfijn
 ### Heb ik een licentie nodig om Aspose.Cells te gebruiken?
  Aspose.Cells biedt een gratis proefversie, maar voor productiegebruik is een betaalde licentie vereist. Bekijk de[opties kopen](https://purchase.aspose.com/buy).
 ### Hoe kan ik hulp krijgen met Aspose.Cells?
- Voor ondersteuning, bezoek de[Aspose-forum](https://forum.aspose.com/c/cells/9)waar u vragen kunt stellen en antwoorden kunt vinden.
+ Voor ondersteuning, bezoek de[Aspose-forum](https://forum.aspose.com/c/cells/9) waar u vragen kunt stellen en antwoorden kunt vinden.
 ### Is het mogelijk om meerdere Spinners aan hetzelfde werkblad toe te voegen?
 Absoluut! Je kunt zoveel Spinners toevoegen als nodig is door dezelfde stappen te volgen voor elk besturingselement.

@@ -12,7 +12,7 @@ Excel 是一款功能强大的工具，全球数百万人使用它来组织和�
 ## 先决条件
 在深入了解复制命名范围的细节之前，您需要确保已准备好一些事项。以下是您需要的内容：
 1. .NET 环境：确保您已设置 .NET 开发环境。您可以使用 Visual Studio 或您选择的任何其他 IDE。
-2.  Aspose.Cells for .NET Library：这是节目的明星！从下载库[Aspose 网站](https://releases.aspose.com/cells/net/)如果你还没有这样做的话。
+2. Aspose.Cells for .NET Library：这是节目的明星！从下载库[Aspose 网站](https://releases.aspose.com/cells/net/)如果你还没有这样做的话。
 3. C# 基础知识：熟悉 C# 编程将会很有益，因为我们将在整个教程中使用这种语言进行编码。
 4. 已安装 Excel：虽然您不一定需要 Excel 来编写代码，但安装它对于测试输出文件很有用。
 5. 访问文档：收藏[Aspose.Cells 文档](https://reference.aspose.com/cells/net/)以供参考。它是了解方法和特征的绝佳资源。

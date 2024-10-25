@@ -108,7 +108,7 @@ Excel에서 차트의 주요 기능 중 하나는 차트 축에 대한 자동 �
 
 ```csharp
 // Y축의 주요 단위 설정
-ch.AxisY.MajorUnit = 10; //귀하의 요구 사항에 맞게 설정할 수 있습니다
+ch.AxisY.MajorUnit = 10; // 귀하의 요구 사항에 맞게 설정할 수 있습니다
 ```
 
 이제 자동 단위를 업데이트해 보겠습니다!
@@ -142,7 +142,7 @@ Aspose.Cells for .NET으로 작업하는 것은 효율적일 뿐만 아니라 �
 Aspose.Cells는 Excel 파일을 만들고, 조작하고, 변환하는 강력한 .NET 라이브러리입니다.
 
 ### Aspose.Cells를 무료로 사용할 수 있나요?
- 네! 무료 체험판을 통해 시작할 수 있습니다.[여기](https://releases.aspose.com/).
+네! 무료 체험판을 통해 시작할 수 있습니다.[여기](https://releases.aspose.com/).
 
 ### 시작하려면 무엇인가 설치해야 합니까?
 컴퓨터에 Aspose.Cells 라이브러리와 .NET Framework만 설치되어 있으면 됩니다.

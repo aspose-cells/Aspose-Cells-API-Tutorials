@@ -37,7 +37,7 @@ string dataDir = "Your Document Directory";
  Zde zadáte cestu k adresáři, kam bude soubor Excel uložen. Můžete vyměnit`"Your Document Directory"` se skutečnou cestou na vašem počítači, nebo dynamicky vytvořte složku, pokud neexistuje.
 ### Kontrola a vytvoření adresáře
 ```csharp
-//Vytvořte adresář, pokud ještě není přítomen.
+// Vytvořte adresář, pokud ještě není přítomen.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);

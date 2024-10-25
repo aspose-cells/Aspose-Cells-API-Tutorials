@@ -62,7 +62,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY"; // Thay đổi đường dẫn này 
 
 ## Bước 2: Khởi tạo đối tượng Workbook
 
- Tiếp theo, bạn cần tạo một phiên bản của`Workbook` lớp để mở tệp Excel của bạn.
+ Tiếp theo, bạn cần tạo một phiên bản của`Workbook`lớp để mở tệp Excel của bạn.
 
 ```csharp
 Workbook workbook = new Workbook(dataDir + "book1.xls");

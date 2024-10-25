@@ -26,7 +26,7 @@ Teraz omówmy proces dodawania obrazka do arkusza kalkulacyjnego Excel przy uży
 Utwórz katalog do przechowywania dokumentów
 Zanim cokolwiek zrobimy z skoroszytem, potrzebujemy miejsca, w którym go zapiszemy. Określimy ten katalog dokumentu:
 ```csharp
-string dataDir = "Your Document Directory"; // Określ pożądaną ścieżkę.
+string dataDir = "Your Document Directory"; //Określ pożądaną ścieżkę.
 ```
  W tym fragmencie kodu zamień`"Your Document Directory"` z rzeczywistą ścieżką, w której chcesz przechowywać pliki Excela. Ten katalog będzie zawierał plik wyjściowy po dodaniu obrazu.
 ## Krok 2: Utwórz katalog, jeśli nie istnieje
@@ -81,7 +81,7 @@ Tak, do arkuszy kalkulacyjnych możesz dodawać różne formaty obrazów, takie 
 ### Czy Aspose.Cells obsługuje formaty plików Excel inne niż .xls?
 Oczywiście! Aspose.Cells obsługuje wiele formatów Excela, w tym .xlsx, .xlsm i .xlsb.
 ### Czy jest dostępna wersja próbna?
- Tak! Możesz wypróbować Aspose.Cells za darmo przed dokonaniem zakupu. Po prostu sprawdź[Tutaj](https://releases.aspose.com/).
+Tak! Możesz wypróbować Aspose.Cells za darmo przed dokonaniem zakupu. Po prostu sprawdź[Tutaj](https://releases.aspose.com/).
 ### Co mam zrobić, jeśli mój obraz się nie wyświetla?
 Sprawdź, czy ścieżka do obrazu jest prawidłowa i czy plik obrazu znajduje się w określonym katalogu.
 ### Czy mogę umieszczać obrazy nad wieloma komórkami?

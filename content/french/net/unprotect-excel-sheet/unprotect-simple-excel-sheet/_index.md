@@ -62,7 +62,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY"; // Remplacez ceci par votre chemin a
 
 ## Étape 2 : Instanciation de l'objet classeur
 
- Ensuite, vous devez créer une instance de`Workbook` classe pour ouvrir votre fichier Excel.
+ Ensuite, vous devez créer une instance de`Workbook`classe pour ouvrir votre fichier Excel.
 
 ```csharp
 Workbook workbook = new Workbook(dataDir + "book1.xls");

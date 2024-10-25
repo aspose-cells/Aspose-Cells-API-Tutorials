@@ -64,7 +64,7 @@ Assicurati di sostituire "Your Output Directory" e "Your Document Directory" con
 
 ## Passaggio 2: caricare il file Excel di esempio
 
-Successivamente, devi caricare il file Excel che contiene il grafico. Ecco come fare:
+Successivamente, devi caricare il file Excel che contiene il grafico. Ecco come:
 
 ```csharp
 //Carica il file Excel di esempio contenente il grafico.

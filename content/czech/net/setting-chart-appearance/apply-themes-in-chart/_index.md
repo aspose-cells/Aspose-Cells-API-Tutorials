@@ -59,7 +59,7 @@ string sourceDir = "Your Document Directory";
 Workbook workbook = new Workbook(sourceDir + "sampleApplyingThemesInChart.xlsx");
 ```
 
- Zajistěte to`sampleApplyingThemesInChart.xlsx`existuje ve vašem zdrojovém adresáři.
+ Zajistěte to`sampleApplyingThemesInChart.xlsx` existuje ve vašem zdrojovém adresáři.
 
 ## Krok 3: Otevřete sešit
 
@@ -96,7 +96,7 @@ Tento řádek kódu zajišťuje, že první řada v grafu je nastavena tak, aby 
 
 ## Krok 6: Nakonfigurujte barvu
 
- Nyní, když je naše série připravena, musíme upravit její barvu. To zahrnuje vytvoření a`CellsColor`objekt a určení barvy motivu. Pro tento příklad zvolíme styl přízvuku.
+ Nyní, když je naše série připravena, musíme upravit její barvu. To zahrnuje vytvoření a`CellsColor` objekt a určení barvy motivu. Pro tento příklad zvolíme styl přízvuku.
 
 ```csharp
 // Získejte CellsColor SolidFill

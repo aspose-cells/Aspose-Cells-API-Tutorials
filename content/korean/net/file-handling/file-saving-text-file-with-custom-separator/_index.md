@@ -41,7 +41,7 @@ string filePath = dataDir + "Book1.xlsx";
 ## 2단계: 통합 문서 개체 만들기
  다음으로, 우리는 다음을 만들 것입니다.`Workbook` Excel 파일을 대표하는 객체입니다. 
 ```csharp
-// Workbook 개체를 만들고 해당 경로에서 파일을 엽니다.
+//Workbook 개체를 만들고 해당 경로에서 파일을 엽니다.
 Workbook wb = new Workbook(filePath);
 ```
  여기서 우리는 새로운 것을 인스턴스화하고 있습니다`Workbook` 이전에 설정한 파일 경로를 사용합니다. 이 객체를 사용하면 이제 Excel 파일 내용과 상호 작용할 수 있습니다. 파일이`Book1.xlsx` 지정한 디렉토리에 존재하지 않는 경우 오류가 발생합니다.

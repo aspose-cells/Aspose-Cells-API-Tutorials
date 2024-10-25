@@ -120,3 +120,35 @@ Khám phá hướng dẫn toàn diện về Aspose.Cells dành cho hướng dẫ
 Khám phá hướng dẫn toàn diện về Aspose.Cells dành cho .NET về thao tác XPS và PDF để đơn giản hóa quá trình chuyển đổi tệp của bạn.
 ### [Hoạt động liên kết và cấu hình](./link-and-configuration-operations/)
 Khám phá hướng dẫn toàn diện về Aspose.Cells cho .NET, bao gồm cấu hình liên kết và nhiều hơn nữa. Hoàn hảo cho các nhà phát triển muốn cải thiện ứng dụng Excel của họ.
+### [Làm việc với Phông chữ trong Bảng tính](./working-with-fonts-in-spreadsheets/)
+Khám phá các hướng dẫn cần thiết về cách sử dụng Aspose.Cells cho .NET, tập trung vào quản lý phông chữ trong bảng tính và đảm bảo trình bày tài liệu tối ưu.
+### [Định dạng và Kiểu dáng Excel](./excel-formatting-and-styling/)
+Khám phá các hướng dẫn Aspose.Cells for .NET cần thiết về định dạng và kiểu dáng Excel. Nâng cao bảng tính của bạn bằng các hướng dẫn thực tế, từng bước.
+### [Làm việc với Phông chữ trong Excel](./working-with-fonts-in-excel/)
+Khám phá sức mạnh của Aspose.Cells cho .NET với hướng dẫn làm việc với phông chữ trong Excel, từ việc thiết lập màu sắc đến áp dụng kiểu cho bảng tính ấn tượng.
+### [Chủ đề và định dạng Excel](./excel-themes-and-formatting/)
+Khám phá Aspose.Cells để biết hướng dẫn .NET về tùy chỉnh chủ đề Excel, thiết lập màu chủ đề và sử dụng màu chủ đề theo chương trình. Nâng cao kỹ năng Excel của bạn.
+### [Định dạng hàng và cột trong Excel](./formatting-rows-and-columns-in-excel/)
+Mở khóa sức mạnh của Aspose.Cells cho .NET thông qua hướng dẫn chi tiết của chúng tôi về cách định dạng hàng và cột trong Excel, hoàn hảo cho các nhà phát triển.
+### [Số và Định dạng Hiển thị trong Excel](./number-and-display-formats-in-excel/)
+Khám phá Aspose.Cells để biết hướng dẫn về định dạng số và hiển thị .NET, bao gồm các tùy chọn định dạng tùy chỉnh và tích hợp sẵn để tự động hóa Excel.
+### [Cài đặt màu sắc và nền của Excel](./excel-colors-and-background-settings/)
+Khám phá các hướng dẫn cần thiết về Aspose.Cells cho .NET về màu sắc Excel và cài đặt nền để tối ưu hóa cách trình bày dữ liệu và tăng cường tính hấp dẫn về mặt hình ảnh.
+### [Cài đặt màu sắc và tùy chỉnh trong Excel](./color-settings-and-customization-in-excel/)
+Làm chủ cài đặt màu sắc và tùy chỉnh trong Excel với Aspose.Cells cho .NET. Tìm hiểu cách tính toán màu sắc đã chọn của Excel theo chương trình trong hướng dẫn từng bước này.
+### [Định dạng có điều kiện của Excel](./excel-conditional-formatting/)
+Tìm hiểu cách áp dụng định dạng có điều kiện khi chạy trong Excel bằng Aspose.Cells cho .NET. Hướng dẫn từng bước này giúp các nhà phát triển tự động hóa định dạng Excel.
+### [Định dạng ký tự và ô trong Excel](./excel-character-and-cell-formatting/)
+Tìm hiểu định dạng ký tự và thiết lập ô đang hoạt động theo chương trình trong Excel bằng Aspose.Cells cho .NET. Khám phá các hướng dẫn toàn diện để đơn giản hóa các tác vụ phát triển của bạn.
+### [Đường viền Excel và Tùy chọn định dạng](./excel-borders-and-formatting-options/)
+Khám phá hướng dẫn Aspose.Cells for .NET hướng dẫn bạn cách lập trình đường viền, phông chữ và mẫu cho Excel, giúp tiết kiệm thời gian và cải thiện bảng tính của bạn.
+### [Phương pháp và tùy chọn định dạng Excel](./excel-formatting-methods-and-options/)
+Khám phá các phương pháp và tùy chọn định dạng Excel trong hướng dẫn Aspose.Cells dành cho .NET, bao gồm các kỹ thuật hiệu quả như phương pháp sao chép để nâng cao năng suất.
+### [Tải và Lưu Tệp Excel Với Các Tùy Chọn](./loading-and-saving-excel-files-with-options/)
+Khám phá hướng dẫn Aspose.Cells dành cho .NET, có hướng dẫn về cách tải và lưu tệp Excel với các tùy chọn như tự động điều chỉnh và vô hiệu hóa chú thích.
+### [Chuyển đổi các tập tin Excel sang các định dạng khác](./converting-excel-files-to-other-formats/)
+Khám phá danh sách hướng dẫn toàn diện về Aspose.Cells cho .NET để chuyển đổi các tệp Excel sang các định dạng như JSON, DOCX, HTML, PDF, Markdown, v.v.
+### [Lưu và Xuất Tệp Excel với Tùy chọn](./saving-and-exporting-excel-files-with-options/)
+Khám phá hướng dẫn chi tiết về Aspose.Cells for .NET về cách lưu và xuất tệp Excel. Tìm hiểu cách xử lý chú thích, thuộc tính tài liệu, cảnh báo và cắt dữ liệu.
+### [Tạo và cấu hình bảng Pivot](./creating-and-configuring-pivot-tables/)
+Khám phá hướng dẫn toàn diện về Aspose.Cells cho .NET. Làm chủ bảng trục trong Excel theo chương trình với hướng dẫn từng bước chi tiết cho mọi chức năng.

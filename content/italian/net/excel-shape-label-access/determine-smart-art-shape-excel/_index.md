@@ -13,7 +13,7 @@ In questo tutorial, ti guideremo attraverso i passaggi necessari per determinare
 ## Prerequisiti
 Prima di addentrarci nei dettagli tecnici, vediamo cosa dovresti avere a disposizione per seguire questo tutorial:
 1. Visual Studio: qui scriveremo il nostro codice. Assicurati di avere una versione compatibile con .NET Framework o .NET Core.
-2. Aspose.Cells per .NET: è necessario che questa libreria sia installata. È possibile scaricarla da[Sito web di Aspose](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells per .NET: è necessario che questa libreria sia installata. È possibile scaricarla da[Sito web di Aspose](https://releases.aspose.com/cells/net/).
 3. Conoscenze di programmazione di base: la familiarità con C# e la comprensione di concetti quali classi e metodi renderanno questo processo più agevole.
 4. File Excel di esempio: per i test sarà necessario anche un file Excel di esempio contenente forme e SmartArt.
 Una volta soddisfatti questi prerequisiti, sei pronto per iniziare a scrivere il codice!
@@ -46,7 +46,7 @@ Per prima cosa, devi specificare il percorso del tuo file Excel.
 // Elenco di origine
 string sourceDir = "Your Document Directory";
 ```
- Sostituire`"Your Document Directory"` con il percorso dove il tuo`sampleSmartArtShape.xlsx` file. Qui è dove l'applicazione cercherà il file Excel che contiene le forme che vorresti ispezionare.
+ Sostituire`"Your Document Directory"` con il percorso dove il tuo`sampleSmartArtShape.xlsx`file. Qui è dove l'applicazione cercherà il file Excel che contiene le forme che vorresti ispezionare.
 ## Passaggio 2: caricare la cartella di lavoro di Excel
  Successivamente, caricheremo il file Excel in Aspose.Cells`Workbook` classe.
 ```csharp
@@ -60,7 +60,7 @@ Dopo aver caricato la cartella di lavoro, dovremo accedere al foglio di lavoro s
 // Accedi al primo foglio di lavoro
 Worksheet ws = wb.Worksheets[0];
 ```
- I file Excel possono contenere più fogli di lavoro. Indicizzando con`[0]`stiamo accedendo al primo foglio di lavoro della nostra cartella di lavoro. 
+ I file Excel possono contenere più fogli di lavoro. Indicizzando con`[0]`, stiamo accedendo al primo foglio di lavoro della nostra cartella di lavoro. 
 ## Passaggio 4: accedi alla forma
 Ora recupereremo la forma specifica che vogliamo controllare.
 ```csharp
@@ -83,7 +83,7 @@ Smart Art è una funzionalità di Excel che consente agli utenti di creare eleme
 ### Posso modificare le forme Smart Art utilizzando Aspose.Cells?
 Sì, è possibile manipolare le forme Smart Art a livello di programmazione, anche modificando stili e dettagli.
 ### Aspose.Cells è gratuito?
- Sebbene sia disponibile una versione di prova, Aspose.Cells è una libreria a pagamento. Puoi acquistare la versione completa[Qui](https://purchase.aspose.com/buy).
+Sebbene sia disponibile una versione di prova, Aspose.Cells è una libreria a pagamento. Puoi acquistare la versione completa[Qui](https://purchase.aspose.com/buy).
 ### Come posso ottenere supporto se riscontro dei problemi?
  Puoi chiedere aiuto su[Forum di supporto Aspose](https://forum.aspose.com/c/cells/9).
 ### Dove posso trovare ulteriore documentazione su Aspose.Cells?

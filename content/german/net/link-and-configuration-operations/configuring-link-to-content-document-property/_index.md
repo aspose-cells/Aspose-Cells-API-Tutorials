@@ -15,11 +15,11 @@ In diesem Tutorial zeigen wir Ihnen, wie Sie mit Aspose.Cells für .NET einen Li
 
 Bevor wir beginnen, stellen Sie sicher, dass Sie alles Notwendige bereit haben. Ohne die folgenden Voraussetzungen läuft der Prozess nicht reibungslos:
 
-1.  Aspose.Cells für .NET-Bibliothek: Sie müssen Aspose.Cells für .NET auf Ihrem Computer installiert haben. Wenn Sie es noch nicht heruntergeladen haben, holen Sie es sich hier[Aspose.Cells für .NET-Downloadseite](https://releases.aspose.com/cells/net/).
+1. Aspose.Cells für .NET-Bibliothek: Sie müssen Aspose.Cells für .NET auf Ihrem Computer installiert haben. Wenn Sie es noch nicht heruntergeladen haben, holen Sie es sich hier[Aspose.Cells für .NET-Downloadseite](https://releases.aspose.com/cells/net/).
 2. Entwicklungsumgebung: Verwenden Sie eine beliebige .NET-unterstützte Entwicklungsumgebung wie Visual Studio.
 3. Grundkenntnisse in C#: Diese Anleitung setzt voraus, dass Sie über eine gewisse Vertrautheit mit C# und .NET verfügen.
 4. Excel-Datei: Sie benötigen eine vorhandene Excel-Datei, mit der Sie arbeiten können. In unserem Beispiel verwenden wir eine Datei namens „sample-document-properties.xlsx“.
-5. Temporäre Lizenz: Wenn Sie keine Volllizenz haben, können Sie eine[vorläufige Lizenz hier](https://purchase.aspose.com/temporary-license/) um Einschränkungen bei der Dateimanipulation zu vermeiden.
+5.  Temporäre Lizenz: Wenn Sie keine Volllizenz haben, können Sie eine[vorläufige Lizenz hier](https://purchase.aspose.com/temporary-license/) um Einschränkungen bei der Dateimanipulation zu vermeiden.
 
 ## Pakete importieren
 
@@ -49,7 +49,7 @@ string dataDir = "Your Document Directory";
 Workbook workbook = new Workbook(dataDir + "sample-document-properties.xlsx");
 ```
 
--  Workbook workbook = new Workbook(): Diese Zeile erzeugt ein neues`Workbook`Objekt, das die Hauptklasse zum Arbeiten mit Excel-Dateien in Aspose.Cells ist.
+-  Workbook workbook = new Workbook(): Diese Zeile erzeugt ein neues`Workbook` Objekt, das die Hauptklasse zum Arbeiten mit Excel-Dateien in Aspose.Cells ist.
 - dataDir: Hier geben Sie den Pfad zu Ihrer Excel-Datei an. Ersetzen Sie „Ihr Dokumentverzeichnis“ durch den tatsächlichen Pfad auf Ihrem Computer.
 
 Stellen Sie sich diesen Schritt so vor, als ob Sie eine Tür öffnen würden: Sie greifen auf die Datei zu, sodass Sie die erforderlichen Änderungen vornehmen können!
@@ -59,7 +59,7 @@ Stellen Sie sich diesen Schritt so vor, als ob Sie eine Tür öffnen würden: Si
 Sobald die Datei geladen ist, müssen wir auf ihre benutzerdefinierten Dokumenteigenschaften zugreifen. Diese Eigenschaften werden in einer Sammlung gespeichert, die Sie abrufen und bearbeiten können.
 
 ```csharp
-// Abrufen einer Liste aller benutzerdefinierten Dokumenteigenschaften der Excel-Datei
+//Abrufen einer Liste aller benutzerdefinierten Dokumenteigenschaften der Excel-Datei
 Aspose.Cells.Properties.CustomDocumentPropertyCollection customProperties = workbook.Worksheets.CustomDocumentProperties;
 ```
 
@@ -93,7 +93,7 @@ bool islinkedtocontent = customProperty1.IsLinkedToContent;
 ```
 
 - benutzerdefinierteEigenschaften[„Eigentümer“]: Wir rufen die Eigenschaft „Eigentümer“ anhand des Namens ab, um ihre Details zu überprüfen.
-- IsLinkedToContent: Dieser boolesche Wert gibt zurück`true` ob die Eigenschaft erfolgreich mit dem Inhalt verknüpft wurde.
+-  IsLinkedToContent: Dieser boolesche Wert gibt zurück`true` ob die Eigenschaft erfolgreich mit dem Inhalt verknüpft wurde.
 
 In dieser Phase prüfen Sie, ob das Label (die Eigenschaft) richtig mit dem Inhalt verknüpft ist. Sie stellen sicher, dass Ihr Code das Erwartete getan hat.
 

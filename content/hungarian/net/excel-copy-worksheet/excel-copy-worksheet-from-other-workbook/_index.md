@@ -79,12 +79,12 @@ Itt létrehozzuk az első munkafüzetet, és kitöltjük az első munkalapot (`w
 Állítsuk be az oldalbeállítást úgy, hogy nyomtatáskor ismételje meg a fejlécsorokat, hogy lássuk a funkció működését:
 
 ```csharp
-//Határozzon meg egy oldalbeállítási objektumot az első munkalap alapján
+// Határozzon meg egy oldalbeállítási objektumot az első munkalap alapján
 PageSetup pagesetup = ws0.PageSetup;
-// Az első öt sor minden oldalon megismétlődik
+//Az első öt sor minden oldalon megismétlődik
 pagesetup.PrintTitleRows = "$1:$5";
 ```
- Ez a rész határozza meg, hogyan kerüljön nyomtatásra a dokumentum. Beállítás által`PrintTitleRows`, biztosítjuk, hogy az első öt sor minden nyomtatott oldalon megjelenjen, ami rendkívül hasznos az olvashatóság szempontjából.
+ Ez a rész határozza meg, hogyan kerüljön nyomtatásra a dokumentum. Beállítással`PrintTitleRows`, biztosítjuk, hogy az első öt sor minden nyomtatott oldalon megjelenjen, ami rendkívül hasznos az olvashatóság szempontjából.
 
 ## 4. lépés: Hozd létre a második munkafüzetet
 
@@ -109,7 +109,7 @@ Másoljuk át a tartalmat az első munkafüzet munkalapjáról a második munkaf
 // a második munkafüzet első munkalapja
 ws1.Copy(ws0);
 ```
- A`Copy` metódus átveszi az összes tartalmat a forrás munkalapról (`ws0`és duplikálja a cél munkalapra (`ws1`). Olyan egyszerű, igaz?
+ A`Copy` metódus átveszi az összes tartalmat a forrás munkalapról (`ws0`) és duplikálja a cél munkalapra (`ws1`). Olyan egyszerű, igaz?
 
 ## 6. lépés: Mentse el az új munkafüzetet
 

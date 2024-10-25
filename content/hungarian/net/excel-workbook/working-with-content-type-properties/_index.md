@@ -1,6 +1,6 @@
 ---
-title: A tartalomtípus tulajdonságainak kezelése
-linktitle: A tartalomtípus tulajdonságainak kezelése
+title: Munka a tartalomtípus tulajdonságaival
+linktitle: Munka a tartalomtípus tulajdonságaival
 second_title: Aspose.Cells for .NET API Reference
 description: Ismerje meg, hogyan használhatja az Aspose.Cells for .NET-et a tartalomtípus-tulajdonságok kezeléséhez a továbbfejlesztett Excel metaadatkezelés érdekében. Kövesse ezt az egyszerű lépésről lépésre útmutatót.
 type: docs
@@ -48,7 +48,7 @@ string outputDir = "Your Document Directory";
 Workbook workbook = new Workbook(FileFormatType.Xlsx);
 ```
 
-Ez a sor egy új munkafüzetet inicializál XLSX formátumban. Választhat más formátumokat is, de ebben a példában maradunk az XLSX-nél.
+Ez a sor inicializál egy új munkafüzetet XLSX formátumban. Választhat más formátumokat is, de ebben a példában maradunk az XLSX-nél.
 
 ## 3. lépés: Adja hozzá az egyéni tartalomtípus tulajdonságait
 
@@ -60,7 +60,7 @@ Munkafüzetünk elkészültével itt az ideje, hogy néhány egyéni tartalomtí
 int index = workbook.ContentTypeProperties.Add("MK31", "Simple Data");
 ```
 
- Ebben a lépésben hozzáadtunk egy "MK31" nevű tulajdonságot "Simple Data" értékkel. A`Add` metódus az újonnan hozzáadott tulajdonság indexét adja vissza, amelyet később felhasználhatunk.
+ Ebben a lépésben hozzáadtunk egy "MK31" nevű tulajdonságot "Simple Data" értékkel. A`Add`metódus az újonnan hozzáadott tulajdonság indexét adja vissza, amelyet később felhasználhatunk.
 
 ### Állítsa be a nullázható tulajdonságot
 
@@ -68,7 +68,7 @@ int index = workbook.ContentTypeProperties.Add("MK31", "Simple Data");
 workbook.ContentTypeProperties[index].IsNillable = false;
 ```
 
- Itt beállítjuk a`IsNillable` tulajdonítanak`false`, jelezve, hogy ennek a mezőnek értékkel kell rendelkeznie.
+ Itt beállítjuk a`IsNillable` tulajdonítani`false`, jelezve, hogy ennek a mezőnek értékkel kell rendelkeznie.
 
 ### Adjon hozzá egy második tartalomtípus-tulajdonságot
 
@@ -79,11 +79,11 @@ index = workbook.ContentTypeProperties.Add("MK32", DateTime.Now.ToString("yyyy-M
 workbook.ContentTypeProperties[index].IsNillable = true;
 ```
 
-Ebben a kódrészletben létrehozunk egy "MK32" nevű tulajdonságot az aktuális dátummal és időponttal az ISO 8601 szerint formázva. Ezt a tulajdonságot érvénytelenné tettük a beállítással.`IsNillable` hogy`true`.
+ Ebben a kódrészletben létrehozunk egy "MK32" nevű tulajdonságot az aktuális dátummal és időponttal az ISO 8601 szerint formázva. Ezt a tulajdonságot érvénytelenné tettük a beállítással.`IsNillable` hogy`true`.
 
 ## 4. lépés: Mentse el a munkafüzetet
 
-Most, hogy hozzáadtuk a tartalomtípus tulajdonságainkat, mentsük a munkafüzetet a korábban beállított kimeneti könyvtárba. 
+Most, hogy hozzáadtuk a tartalomtípus tulajdonságait, mentsük a munkafüzetet a korábban beállított kimeneti könyvtárba. 
 
 ```csharp
 workbook.Save(outputDir + "WorkingWithContentTypeProperties_out.xlsx");
@@ -114,10 +114,10 @@ Az Aspose.Cells for .NET egy hatékony könyvtár Excel-fájlok létrehozásáho
 Igen! Az Aspose.Cells különféle formátumokat támogat, beleértve az XLS, XLSX, CSV és más formátumokat.
 
 ### Hogyan juthatok hozzá az Aspose.Cells ingyenes próbaverziójához?
- Ingyenes próbaverziót letölthet a webhelyről[telek](https://releases.aspose.com/).
+ Ingyenes próbaverziót tölthet le a webhelyről[telek](https://releases.aspose.com/).
 
 ### Van mód összetettebb tulajdonságok hozzáadására?
 Teljesen! Összetett objektumokat adhat hozzá a tartalomtípus tulajdonságaihoz, amennyiben azok megfelelően szerializálhatók.
 
 ### Hol találok további dokumentációt?
- Részletesebb útmutatásért lásd a[Aspose.Cells Documentation](https://reference.aspose.com/cells/net/).
+Részletesebb útmutatásért lásd a[Aspose.Cells Documentation](https://reference.aspose.com/cells/net/).

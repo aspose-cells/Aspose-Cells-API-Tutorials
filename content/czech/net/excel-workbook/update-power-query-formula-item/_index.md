@@ -37,13 +37,13 @@ using System;
 using System.IO;
 ```
 
-Přidáním těchto jmenných prostorů dáváte kompilátoru vědět, že máte v úmyslu použít třídy a metody z knihovny Aspose.Cells. Tento krok je zásadní, protože pokládá základy pro kód, který následuje.
+Přidáním těchto jmenných prostorů dáváte kompilátoru vědět, že hodláte použít třídy a metody z knihovny Aspose.Cells. Tento krok je zásadní, protože pokládá základy pro kód, který následuje.
 
 Pojďme si rozebrat fragment kódu, který jste poskytli. Tento tutoriál vás provede každou částí a zajistí, že pochopíte, co se děje.
 
 ## Krok 1: Nastavte pracovní adresáře
 
-V tomto kroku definujeme, kde jsou umístěny naše zdrojové a výstupní soubory. To zajišťuje, že Aspose ví, kde hledat vaše soubory Excel.
+tomto kroku definujeme, kde jsou umístěny naše zdrojové a výstupní soubory. To zajišťuje, že Aspose ví, kde hledat vaše soubory Excel.
 
 ```csharp
 // Pracovní adresáře
@@ -87,10 +87,10 @@ foreach (PowerQueryFormula formula in mashupData.PowerQueryFormulas)
 ```
 
 -  Procházíme každým`PowerQueryFormula` v`mashupData`.
--  V rámci této smyčky se ponoříme do každého`PowerQueryFormulaItem`.
+-  rámci této smyčky se ponoříme do každého`PowerQueryFormulaItem`.
 - Zkontrolujeme, zda se název položky shoduje se „Zdroj“. Pokud ano, aktualizujeme jeho hodnotu, aby odkazovala na náš nový zdrojový soubor.
 
-Je to podobné, jako byste našli správnou stránku v příručce a poté provedli nezbytné aktualizace – je to přímočarý a pečlivý proces.
+Je to podobné, jako byste našli správnou stránku v příručce a poté provedli potřebné aktualizace – je to přímočarý a pečlivý proces.
 
 ## Krok 5: Uložte aktualizovaný sešit
 
@@ -101,7 +101,7 @@ Po provedení aktualizací je čas uložit naše změny.
 workbook.Save(outputDir + "SamplePowerQueryFormula_out.xlsx");
 Console.WriteLine("UpdatePowerQueryFormulaItem executed successfully.");
 ```
- The`Save`metoda zapíše aktualizovaný sešit do zadaného výstupního adresáře. Je to jako zapečetění vašich úprav v nové verzi manuálu, připravené pro ostatní!
+ The`Save` metoda zapíše aktualizovaný sešit do zadaného výstupního adresáře. Je to jako zapečetění vašich úprav v nové verzi manuálu, připravené pro ostatní!
 
 ## Závěr
 
@@ -122,4 +122,4 @@ Pomocí Aspose.Cells můžete pracovat s .xlsx, .xls, .xlsm a několika dalším
  Ano, můžete si stáhnout bezplatnou zkušební verzi z[Stránka vydání Aspose Cells](https://releases.aspose.com/).
 
 ### Jak mohu získat podporu pro Aspose.Cells?
- K podpoře se můžete dostat přes[Aspose fórum](https://forum.aspose.com/c/cells/9)kde můžete klást otázky a hledat odpovědi od komunity a týmu Aspose.
+ K podpoře se můžete dostat přes[Aspose fórum](https://forum.aspose.com/c/cells/9), kde můžete klást otázky a hledat odpovědi od komunity a týmu Aspose.

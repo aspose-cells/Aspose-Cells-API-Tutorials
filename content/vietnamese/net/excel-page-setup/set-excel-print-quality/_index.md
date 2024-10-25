@@ -77,7 +77,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 worksheet.PageSetup.PrintQuality = 180;
 ```
 
-Giải thích:`PrintQuality` Thuộc tính có thể được đặt thành bất kỳ giá trị nào, thường là từ 75 đến 600 dpi (chấm trên một inch). Trong trường hợp này, chúng tôi đặt thành 180 dpi, rất tuyệt vời để cân bằng tốt giữa chất lượng và kích thước tệp.
+ Giải thích:`PrintQuality` Thuộc tính có thể được đặt thành bất kỳ giá trị nào, thường là từ 75 đến 600 dpi (chấm trên một inch). Trong trường hợp này, chúng tôi đặt thành 180 dpi, rất tuyệt vời để cân bằng tốt giữa chất lượng và kích thước tệp.
 
 ## Bước 5: Lưu sổ làm việc
 

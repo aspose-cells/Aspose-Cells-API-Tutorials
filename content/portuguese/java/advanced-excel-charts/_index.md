@@ -37,7 +37,7 @@ Domine a Análise de Linha de Tendência em Java com Aspose.Cells. Aprenda a cri
 Melhore seus gráficos com anotações de gráficos usando Aspose.Cells para Java - Um guia passo a passo. Aprenda como adicionar anotações para visualização de dados informativos.
 ### [Animação de gráfico](./chart-animation/)
 Aprenda a criar animações de gráficos cativantes com Aspose.Cells para Java. Guia passo a passo e código-fonte inclusos para visualização dinâmica de dados.
-### [Gráficos de cascata](./waterfall-charts/)
+### [Gráficos de Cachoeira](./waterfall-charts/)
 Aprenda a criar Gráficos de Cascata impressionantes com Aspose.Cells para Java. Guia passo a passo com código-fonte para visualização de dados eficaz.
 ### [Interatividade do gráfico](./chart-interactivity/)
 Aprenda a criar gráficos interativos usando Aspose.Cells para Java. Melhore sua visualização de dados com interatividade.

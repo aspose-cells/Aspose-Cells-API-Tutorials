@@ -95,7 +95,7 @@ In questo codice specifichiamo il tipo di grafico (in questo caso, un grafico a 
 
 ## Passaggio 6: accedere all'istanza del grafico
 
-Una volta creato il grafico, dobbiamo accedere alla sua istanza per modificarne le proprietà. Questo viene fatto recuperandolo tramite`Charts`collezione.
+ Una volta creato il grafico, dobbiamo accedere alla sua istanza per modificarne le proprietà. Questo viene fatto recuperandolo tramite`Charts`collezione.
 
 ```csharp
 // Accesso all'istanza del grafico appena aggiunto

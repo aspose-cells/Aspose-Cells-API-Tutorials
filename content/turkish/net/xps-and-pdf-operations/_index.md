@@ -13,7 +13,7 @@ Excel dosyalarıyla çalışmaya gelince, Aspose.Cells for .NET bir güç merkez
 
 ## Excel Dosyalarını XPS'e Dönüştürme
 
-Öncelikle Excel dosyalarını XPS biçimine dönüştürme hakkında konuşalım. "Neden XPS'e dönüştürmek isteyeyim?" diye merak ediyor olabilirsiniz. XPS (XML Paper Specification), Excel elektronik tablolarınızın görünümünü ve hissini koruyan ve biçimlendirmeyi kaybetmeden paylaşmayı kolaylaştıran sabit belge biçimidir. Denemek mi istiyorsunuz? Eğitimimize göz atın[.NET'te XPS'e dönüştürme](./converting-to-xps/). Sizi adım adım süreçte yönlendirir ve pratik kod örnekleriyle donatılmıştır. Bunun yalnızca basit değil, aynı zamanda belge sadakatini korumak için inanılmaz derecede etkili olduğunu göreceksiniz.
+ Öncelikle Excel dosyalarını XPS biçimine dönüştürme hakkında konuşalım. "Neden XPS'e dönüştürmek isteyeyim?" diye merak ediyor olabilirsiniz. XPS (XML Paper Specification), Excel elektronik tablolarınızın görünümünü ve hissini koruyan ve biçimlendirmeyi kaybetmeden paylaşmayı kolaylaştıran sabit belge biçimidir. Denemek mi istiyorsunuz? Eğitimimize göz atın[.NET'te XPS'e dönüştürme](./converting-to-xps/)Sizi adım adım süreçte yönlendirir ve pratik kod örnekleriyle donatılmıştır. Bunun yalnızca basit değil, aynı zamanda belge sadakatini korumak için inanılmaz derecede etkili olduğunu göreceksiniz.
 
 ## Daha İyi Yönetim İçin PDF Oluşturma Süresinin Ayarlanması
 

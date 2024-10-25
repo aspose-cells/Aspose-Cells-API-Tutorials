@@ -55,7 +55,7 @@ Workbook workbook = new Workbook();
 
 ## Étape 3 : Définition du chemin d’accès à l’image
 
- Il est temps de créer une variable de chaîne pour contenir le chemin d'accès à l'image que vous souhaitez utiliser. Dans notre cas, nous utilisons`aspose-logo.jpg`.
+Il est temps de créer une variable de chaîne pour contenir le chemin d'accès à l'image que vous souhaitez utiliser. Dans notre cas, nous utilisons`aspose-logo.jpg`.
 
 ```csharp
 string logo_url = dataDir + "aspose-logo.jpg";

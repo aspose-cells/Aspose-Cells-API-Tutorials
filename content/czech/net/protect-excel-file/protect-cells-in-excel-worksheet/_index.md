@@ -2,21 +2,21 @@
 title: Ochrana buněk v sešitu aplikace Excel
 linktitle: Ochrana buněk v sešitu aplikace Excel
 second_title: Aspose.Cells for .NET API Reference
-description: V tomto podrobném průvodci s příklady kódu se dozvíte, jak chránit konkrétní buňky v listu aplikace Excel pomocí Aspose.Cells for .NET.
+description: tomto podrobném průvodci s příklady kódu se dozvíte, jak chránit konkrétní buňky v listu aplikace Excel pomocí Aspose.Cells for .NET.
 type: docs
 weight: 30
 url: /cs/net/protect-excel-file/protect-cells-in-excel-worksheet/
 ---
 ## Zavedení
 
-dnešním digitálním světě je bezpečná správa dat v tabulkách důležitější než kdy jindy. Ať už pracujete s citlivými informacemi, nebo chcete jednoduše zajistit, aby vaše formátování zůstalo nedotčené, ochrana konkrétních buněk v excelovém listu může změnit hru. Naštěstí, pokud používáte .NET, Aspose.Cells tento proces zjednodušuje. V tomto článku prozkoumáme jednoduchého podrobného průvodce, jak chránit buňky v excelovém listu a zajistit, aby vaše data zůstala v bezpečí.
+V dnešním digitálním světě je bezpečná správa dat v tabulkách důležitější než kdy jindy. Ať už pracujete s citlivými informacemi, nebo chcete jednoduše zajistit, aby vaše formátování zůstalo nedotčené, ochrana konkrétních buněk v excelovém listu může změnit hru. Naštěstí, pokud používáte .NET, Aspose.Cells tento proces zjednodušuje. V tomto článku prozkoumáme jednoduchého podrobného průvodce, jak chránit buňky v excelovém listu a zajistit, aby vaše data zůstala v bezpečí.
 
 ## Předpoklady
 
 Než se ponoříte do zbytečností ochrany buněk, měli byste mít splněno několik předpokladů:
 
 1. Visual Studio: Ujistěte se, že máte v počítači nainstalované Visual Studio. Je to primární IDE pro vývoj .NET.
-2.  Knihovna Aspose.Cells: Ve svém projektu musíte mít k dispozici knihovnu Aspose.Cells. Můžete jej snadno nainstalovat pomocí NuGet Package Manager nebo si jej stáhnout přímo z[Web Aspose.Cells](https://releases.aspose.com/cells/net/).
+2. Knihovna Aspose.Cells: Ve svém projektu musíte mít k dispozici knihovnu Aspose.Cells. Můžete jej snadno nainstalovat pomocí NuGet Package Manager nebo si jej stáhnout přímo z[Web Aspose.Cells](https://releases.aspose.com/cells/net/).
 3. Základní znalost C#: Malá znalost programování v C# vám pomůže hladce pokračovat.
 
 ## Import balíčků
@@ -52,7 +52,7 @@ Nejprve musíte určit, kam uložit soubor Excel. Můžete to určit takto:
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // Zde zadejte cestu k adresáři
-//Vytvořte adresář, pokud ještě není přítomen.
+// Vytvořte adresář, pokud ještě není přítomen.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -88,7 +88,7 @@ Chcete-li zajistit, aby byly uzamčeny pouze určité buňky, musíte začít od
 for (int i = 0; i <= 255; i++)
 {
     Style style = sheet.Cells.Columns[(byte)i].Style;
-    style.IsLocked = false; // Odemknout sloupec
+    style.IsLocked = false; //Odemknout sloupec
     StyleFlag styleflag = new StyleFlag();
     styleflag.Locked = true; // Označte, že chceme tento styl uzamknout
     sheet.Cells.Columns[(byte)i].ApplyStyle(style, styleflag);
@@ -139,7 +139,7 @@ Tento řádek uloží váš sešit jako soubor aplikace Excel. Ujistěte se, že
 
 ## Závěr
 
-tady to máte! Úspěšně jste se naučili chránit konkrétní buňky v excelovém listu pomocí Aspose.Cells for .NET. Pomocí několika řádků kódu můžete ochránit svá data a zajistit, aby k úpravě důležitých informací měli přístup pouze ti správní lidé. Pamatujte, že ochrana buněk je jen jednou z mnoha funkcí nabízených Aspose.Cells, které pomáhají efektivně spravovat a manipulovat se soubory Excel.
+A tady to máte! Úspěšně jste se naučili chránit konkrétní buňky v excelovém listu pomocí Aspose.Cells for .NET. Pomocí několika řádků kódu můžete ochránit svá data a zajistit, aby k úpravě důležitých informací měli přístup pouze ti správní lidé. Pamatujte, že ochrana buněk je jen jednou z mnoha funkcí nabízených Aspose.Cells, které pomáhají efektivně spravovat a manipulovat se soubory Excel.
 
 ## FAQ
 
