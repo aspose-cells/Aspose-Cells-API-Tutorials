@@ -152,3 +152,7 @@ Explore a comprehensive Aspose.Cells for .NET tutorial list to convert Excel fil
 Explore detailed Aspose.Cells for .NET tutorials on saving and exporting Excel files. Learn how to handle comments, document properties, warnings, and data trimming.
 ### [Creating and Configuring Pivot Tables](./creating-and-configuring-pivot-tables/)
 Discover comprehensive tutorials for Aspose.Cells for .NET. Master pivot tables in Excel programmatically with detailed step-by-step guides for every functionality.
+### [Excel Formulas and Calculation Options](./excel-formulas-and-calculation-options/)
+Dive deep into Aspose.Cells for .NET tutorials, covering essential Excel formulas and calculations in easy-to-follow steps.
+### [Exporting Excel to HTML with Advanced Options](./exporting-excel-to-html-with-advanced-options/)
+Unlock valuable insights on exporting Excel to HTML with Aspose.Cells for .NET through detailed tutorials on various advanced options, enhancing your document exports.
