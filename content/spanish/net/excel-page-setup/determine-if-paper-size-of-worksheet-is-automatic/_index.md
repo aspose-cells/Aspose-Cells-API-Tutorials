@@ -19,13 +19,13 @@ Antes de pasar al código, asegurémonos de que tienes todo lo que necesitas:
 Si bien Aspose.Cells simplifica muchas tareas, es fundamental tener conocimientos básicos de C#. Debes sentirte cómodo leyendo y escribiendo código C# básico.
 
 ### Aspose.Cells para .NET
- Asegúrate de tener Aspose.Cells instalado en tu proyecto. Puedes descargarlo desde[sitio web](https://releases.aspose.com/cells/net/) Si aún no lo has hecho.
+Asegúrate de tener Aspose.Cells instalado en tu proyecto. Puedes descargarlo desde[sitio web](https://releases.aspose.com/cells/net/) Si aún no lo has hecho.
 
 ### Entorno de desarrollo
 Debes tener instalado un IDE como Visual Studio. Esto te ayudará a manejar y probar tu código de manera eficaz.
 
 ### Archivos de Excel de muestra
-Necesitarás archivos de muestra (`samplePageSetupIsAutomaticPaperSize-False.xlsx` y`samplePageSetupIsAutomaticPaperSize-True.xlsx`para realizar pruebas. Asegúrese de que estos archivos se encuentren en el directorio de origen.
+Necesitarás archivos de muestra (`samplePageSetupIsAutomaticPaperSize-False.xlsx` y`samplePageSetupIsAutomaticPaperSize-True.xlsx`) para realizar pruebas. Asegúrese de que estos archivos se encuentren en el directorio de origen.
 
 ## Importar paquetes
 
@@ -50,7 +50,7 @@ string sourceDir = "YOUR_SOURCE_DIRECTORY";
 string outputDir = "YOUR_OUTPUT_DIRECTORY";
 ```
 
- Reemplazar`YOUR_SOURCE_DIRECTORY` y`YOUR_OUTPUT_DIRECTORY` con las rutas reales en su sistema donde se almacenarán los archivos.
+ Reemplazar`YOUR_SOURCE_DIRECTORY` y`YOUR_OUTPUT_DIRECTORY`con las rutas reales en su sistema donde se almacenarán los archivos.
 
 ## Paso 2: Cargue los libros de trabajo de Excel
 
@@ -93,7 +93,7 @@ Console.WriteLine("DetermineIfPaperSizeOfWorksheetIsAutomatic executed successfu
 
 ## Conclusión 
 
-así, ¡ya ha sentado las bases para determinar si el tamaño del papel de una hoja de cálculo es automático con Aspose.Cells para .NET! Se apresuró a importar paquetes, cargar libros de trabajo, acceder a hojas de trabajo y verificar la propiedad del tamaño del papel, todas ellas habilidades esenciales para manipular archivos de Excel mediante programación. Recuerde, cuanto más experimente con las diferentes funciones de Aspose.Cells, más potentes serán sus aplicaciones.
+Y así, ¡ya ha sentado las bases para determinar si el tamaño del papel de una hoja de cálculo es automático con Aspose.Cells para .NET! Se apresuró a importar paquetes, cargar libros de trabajo, acceder a hojas de trabajo y verificar la propiedad del tamaño del papel, todas ellas habilidades esenciales para manipular archivos de Excel mediante programación. Recuerde, cuanto más experimente con las diferentes funciones de Aspose.Cells, más potentes serán sus aplicaciones.
 
 ## Preguntas frecuentes
 
@@ -104,10 +104,10 @@ Aspose.Cells es una biblioteca .NET diseñada para administrar archivos de hojas
 ¡Sí! Aspose.Cells admite el desarrollo multiplataforma, por lo que puede trabajar en varios entornos donde .NET está disponible.
 
 ### ¿Necesito una licencia para Aspose.Cells?
- Si bien puede comenzar con una prueba gratuita, el uso continuo requiere la compra de una licencia. Puede encontrar más detalles[aquí](https://purchase.aspose.com/buy).
+Si bien puede comenzar con una prueba gratuita, el uso continuo requiere la compra de una licencia. Puede encontrar más detalles[aquí](https://purchase.aspose.com/buy).
 
 ### ¿Cómo puedo comprobar si el tamaño del papel de una hoja de cálculo es automático en C#?
-Como se muestra en la guía, puedes consultar el`IsAutomaticPaperSize` propiedad de la`PageSetup` clase.
+ Como se muestra en la guía, puedes consultar el`IsAutomaticPaperSize` propiedad de la`PageSetup` clase.
 
 ### ¿Dónde puedo encontrar más información sobre Aspose.Cells?
  Puede encontrar documentación completa y tutoriales.[aquí](https://reference.aspose.com/cells/net/).

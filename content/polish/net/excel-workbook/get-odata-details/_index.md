@@ -9,7 +9,7 @@ url: /pl/net/excel-workbook/get-odata-details/
 ---
 ## Wstęp
 
-ciągle ewoluującym świecie zarządzania danymi, możliwość wydajnego łączenia, analizowania i manipulowania danymi stała się najważniejszą potrzebą zarówno dla deweloperów, jak i organizacji. Wprowadź Aspose.Cells dla .NET — potężne API zaprojektowane do programowej pracy z plikami Excel. Jedną z jego znakomitych funkcji jest integracja OData, umożliwiająca użytkownikom bezproblemową interakcję ze złożonymi źródłami danych. Niezależnie od tego, czy pracujesz nad dużym projektem Business Intelligence, czy po prostu chcesz usprawnić procesy danych, zrozumienie, jak uzyskać szczegóły OData, może znacznie zwiększyć Twoje możliwości. W tym przewodniku przeprowadzimy krok po kroku proces wyodrębniania szczegółów OData przy użyciu Aspose.Cells dla .NET.
+ciągle ewoluującym świecie zarządzania danymi, możliwość wydajnego łączenia, analizowania i manipulowania danymi stała się najważniejszą potrzebą zarówno dla deweloperów, jak i organizacji. Wprowadź Aspose.Cells dla .NET — potężne API zaprojektowane do pracy z plikami Excel programowo. Jedną z jego znakomitych funkcji jest integracja OData, umożliwiająca użytkownikom bezproblemową interakcję ze złożonymi źródłami danych. Niezależnie od tego, czy pracujesz nad dużym projektem Business Intelligence, czy po prostu chcesz usprawnić procesy danych, zrozumienie, jak uzyskać szczegóły OData, może znacznie zwiększyć Twoje możliwości. W tym przewodniku przeprowadzimy krok po kroku proces wyodrębniania szczegółów OData przy użyciu Aspose.Cells dla .NET.
 
 ## Wymagania wstępne
 

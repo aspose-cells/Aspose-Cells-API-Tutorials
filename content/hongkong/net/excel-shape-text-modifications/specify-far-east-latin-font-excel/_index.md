@@ -10,7 +10,7 @@ url: /zh-hant/net/excel-shape-text-modifications/specify-far-east-latin-font-exc
 ## 介紹
 您是否希望增強具有特定字體要求的 Excel 報表或文件？無論您是處理多種語言還是只是在電子表格中追求獨特的美感，了解如何在 Excel 中指定遠東和拉丁字體都是一項至關重要的技能。幸運的是，我們有一個解決方案！在本教學中，我們將探討如何使用 Aspose.Cells for .NET 無縫地實現此功能。讓我們深入了解吧！
 ## 先決條件
-在我們深入討論細節之前，在開始使用 Aspose.Cells 之前您需要設定一些東西：
+在我們深入討論細節之前，在開始使用 Aspose.Cells 之前，您需要設定一些東西：
 ### .NET Framework 或 .NET Core
 請確定您的電腦上安裝了 .NET Framework 或 .NET Core。這個庫與兩者都可以很好地配合。
 ### Aspose.Cells 的安裝
@@ -86,7 +86,7 @@ wb.Save(outputDir + "outputSpecifyFarEastAndLatinNameOfFontInTextOptionsOfShape.
 Console.WriteLine("SpecifyFarEastAndLatinNameOfFontInTextOptionsOfShape executed successfully.");
 ```
 ## 結論
-現在你就得到它了！您已使用 Aspose.Cells for .NET 在 Excel 工作簿中成功指定遠東和拉丁字體。這項技能不僅可以讓您的文件具有專業感，還可以豐富不同語言的使用者的閱讀體驗。
+現在你就擁有了！您已使用 Aspose.Cells for .NET 在 Excel 工作簿中成功指定遠東和拉丁字體。這項技能不僅可以讓您的文件具有專業感，還可以豐富不同語言的使用者的閱讀體驗。
 請隨意嘗試不同的字體和樣式，以找到適合您特定需求的組合。快樂編碼！
 ## 常見問題解答
 ### 什麼是 Aspose.Cells？

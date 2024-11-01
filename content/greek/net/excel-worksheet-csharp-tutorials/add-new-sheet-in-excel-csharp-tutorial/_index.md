@@ -16,7 +16,7 @@ url: /el/net/excel-worksheet-csharp-tutorials/add-new-sheet-in-excel-csharp-tuto
 Πριν κάνουμε οποιαδήποτε κωδικοποίηση, ας βεβαιωθούμε ότι έχετε όλα όσα χρειάζεστε για αυτό το έργο:
 
 1.  Visual Studio: Βεβαιωθείτε ότι έχετε εγκαταστήσει το Visual Studio. Εάν δεν το έχετε ακόμα, μπορείτε να το κατεβάσετε από το[Ιστοσελίδα της Microsoft](https://visualstudio.microsoft.com/).
-2.  Aspose.Cells Library: Θα χρειαστείτε τη βιβλιοθήκη Aspose.Cells για .NET. Μπορείτε[κατεβάστε το εδώ](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells Library: Θα χρειαστείτε τη βιβλιοθήκη Aspose.Cells για .NET. Μπορείς[κατεβάστε το εδώ](https://releases.aspose.com/cells/net/).
 3. .NET Framework: Βεβαιωθείτε ότι το έργο σας έχει ρυθμιστεί για μια συμβατή έκδοση του .NET Framework (συνήθως το .NET Framework 4.0 ή νεότερη έκδοση λειτουργεί καλά).
 4. Βασικές γνώσεις C#: Η εξοικείωση με τη C# και τον αντικειμενοστραφή προγραμματισμό θα σας βοηθήσει να κατανοήσετε καλύτερα τον κώδικα.
 5. Επεξεργαστής κειμένου ή IDE: Θα χρειαστείτε αυτό για να γράψετε τον κώδικα C#—το Visual Studio είναι μια εξαιρετική επιλογή.

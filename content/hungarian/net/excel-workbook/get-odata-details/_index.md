@@ -30,8 +30,8 @@ Kezdjük kódolási utunkon a szükséges csomagok projektünkbe történő impo
 
 1. Nyissa meg a Visual Studio-t.
 2. Kattintson az "Új projekt létrehozása" gombra.
-3. Válassza a „Konzolalkalmazás (.NET Core)” vagy a „Konzolalkalmazás (.NET-keretrendszer)” lehetőséget – az Ön beállításai megfelelőek.
-4. Nevezze el a projektet (pl. ODataDetailsExtractor), majd kattintson a „Létrehozás” gombra.
+3. Válassza a „Konzolalkalmazás (.NET Core)” vagy a „Konzolalkalmazás (.NET-keretrendszer)” lehetőséget – az Ön beállításai megfelelnek.
+4. Nevezze el projektjét (pl. ODataDetailsExtractor), majd kattintson a „Létrehozás” gombra.
 
 ### Telepítse az Aspose.Cells NuGet csomagot
 

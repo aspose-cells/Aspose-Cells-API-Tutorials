@@ -41,7 +41,7 @@ Workbook wb = new Workbook(dataDir + "sourceGlowEffectColor.xlsx");
 ```
  Tento řádek inicializuje nový`Workbook` objekt pomocí zadané cesty k souboru Excel. Ujistěte se, že název souboru je správný, jinak to vyvolá chybu.
 ## Krok 3: Otevřete první pracovní list
-Nyní, když máme náš sešit připravený, potřebujeme získat přístup ke konkrétnímu listu, na kterém chceme pracovat – obvykle by to byl první list.
+Nyní, když máme sešit připravený, potřebujeme získat přístup ke konkrétnímu listu, na kterém chceme pracovat – obvykle by to byl první list.
 ```csharp
 Worksheet ws = wb.Worksheets[0];
 ```
@@ -77,7 +77,7 @@ Nezapomeňte vyzkoušet různé tvary a vlastnosti v souborech aplikace Excel, p
 Aspose.Cells for .NET je výkonná knihovna, která umožňuje vývojářům vytvářet, manipulovat a převádět soubory aplikace Excel v rámci aplikací .NET.
 ### Mohu používat Aspose.Cells bez licence?  
  Ano, Aspose nabízí bezplatnou zkušební verzi s určitými omezeními. Můžete to prozkoumat podle[stahování zde](https://releases.aspose.com/).
-### Kde najdu další dokumentaci k Aspose.Cells?  
+### Kde najdu další dokumentaci na Aspose.Cells?  
  Podrobnější dokumentaci naleznete na[Umístěte referenční stránku](https://reference.aspose.com/cells/net/).
 ### Jak mohu nahlásit problémy nebo získat podporu?  
  Pomoc můžete vyhledat na fóru podpory Aspose[zde](https://forum.aspose.com/c/cells/9).

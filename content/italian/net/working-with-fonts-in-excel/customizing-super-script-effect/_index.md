@@ -16,7 +16,7 @@ Assicurati di avere Visual Studio sul tuo computer. È dove scriverai il codice 
 ### 2. .NET Framework o .NET Core
 Assicurati di avere installata la versione corretta di .NET. Aspose.Cells per .NET funziona perfettamente sia con .NET Framework che con .NET Core.
 ### 3. Libreria Aspose.Cells
- Avrai bisogno della libreria Aspose.Cells. Puoi scaricarla[Qui](https://releases.aspose.com/cells/net/)È necessario averlo nel tuo progetto per manipolare i file Excel.
+Avrai bisogno della libreria Aspose.Cells. Puoi scaricarla[Qui](https://releases.aspose.com/cells/net/)È necessario averlo nel tuo progetto per manipolare i file Excel.
 ### 4. Nozioni di base di C#
 È utile, anche se non obbligatorio, avere una certa dimestichezza con C#. Scriveremo codice che usa la libreria per manipolare un file Excel, e la conoscenza di C# ti aiuterà a capirlo meglio.
 ### 5. Un IDE con cui lavorare

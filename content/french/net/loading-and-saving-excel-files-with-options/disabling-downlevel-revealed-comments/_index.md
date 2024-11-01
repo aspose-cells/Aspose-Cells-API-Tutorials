@@ -12,7 +12,7 @@ Avez-vous déjà eu besoin de convertir un classeur Excel en HTML et souhaité v
 À la fin de cet article, vous aurez une compréhension claire de la manière d'utiliser cette fonctionnalité et de garantir que votre sortie HTML est propre et sans commentaires.
 ## Prérequis
 Avant de plonger dans le guide étape par étape, abordons quelques éléments dont vous aurez besoin pour suivre le processus en douceur :
-1.  Aspose.Cells pour .NET : vous devez avoir installé la bibliothèque Aspose.Cells. Si vous ne l'avez pas encore installée, vous pouvez la télécharger[ici](https://releases.aspose.com/cells/net/).
+1. Aspose.Cells pour .NET : vous devez avoir installé la bibliothèque Aspose.Cells. Si vous ne l'avez pas encore installée, vous pouvez la télécharger[ici](https://releases.aspose.com/cells/net/).
 2. IDE : un environnement de développement comme Visual Studio pour écrire et exécuter votre code C#.
 3. Connaissances de base de C# : la familiarité avec la syntaxe C# et la programmation orientée objet vous aidera à suivre le code.
 4.  Version temporaire ou sous licence : vous pouvez soit utiliser l'essai gratuit, soit demander une licence temporaire à partir de[ici](https://purchase.aspose.com/temporary-license/)Cela garantit que la bibliothèque fonctionne sans aucune limitation.

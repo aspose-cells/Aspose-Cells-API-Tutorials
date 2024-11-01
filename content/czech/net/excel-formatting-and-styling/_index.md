@@ -35,7 +35,7 @@ Zarovnání textu je zásadní pro čitelnost a byli byste překvapeni, jak mů�
 
  Zažili jste někdy ten frustrující okamžik, kdy je buňka příliš malá na to, aby se na ní mohl zobrazit celý váš text? Co kdybyste místo změny velikosti buňky nebo ztráty cenných informací mohli text jednoduše zalomit? Díky tomu budou vaše data nejen čitelná, ale také zajistíte, že si vaše tabulka zachová úhledný vzhled. Podívejte se na našeho podrobného průvodce na[zalamování dlouhého textu do buněk](./wrapping-long-text-within-cells/)Dozvíte se, jak zajistit, aby vaše data byla snadno čitelná, aniž byste zaplňovali rozvržení.
 
-## Výukové programy formátování a stylů v Excelu
+## Výukové programy pro formátování a styly aplikace Excel
 ### [Použití efektů přechodové výplně v Excelu](./applying-gradient-fill-effects/)
 Vylepšete své dokumenty Excel pomocí Aspose.Cells pro .NET. Naučte se používat úžasné efekty přechodové výplně pomocí tohoto podrobného návodu.
 ### [Použití předdefinovaných stylů a formátování aplikace Excel](./using-excel-predefined-styles-and-formatting/)
@@ -46,7 +46,7 @@ V tomto snadném průvodci se dozvíte, jak formátovat buňky aplikace Excel po
 Naučte se formátovat listy aplikace Excel pomocí Aspose.Cells for .NET pomocí podrobného průvodce a osvojte si styly jako profesionál.
 ### [Přidání ohraničení do buněk v Excelu](./adding-borders-to-cells/)
 Naučte se, jak přidat stylové ohraničení do buněk v Excelu pomocí Aspose.Cells for .NET. Postupujte podle tohoto podrobného průvodce pro jasné a poutavé tabulky.
-### [Použití ohraničení na rozsah buněk v aplikaci Excel](./applying-borders-to-range-of-cells/)
+### [Použití ohraničení na rozsah buněk v Excelu](./applying-borders-to-range-of-cells/)
 Naučte se, jak aplikovat ohraničení na buňky v Excelu pomocí Aspose.Cells for .NET. Postupujte podle našeho podrobného návodu krok za krokem.
 ### [Konfigurace nastavení odsazení v Excelu](./configuring-indentation-settings/)
 Naučte se konfigurovat nastavení odsazení v Excelu pomocí Aspose.Cells pro .NET. Podrobný průvodce, jak bez námahy vylepšit vaše dokumenty Excel.

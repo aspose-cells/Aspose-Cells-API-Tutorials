@@ -2,7 +2,7 @@
 title: Ustawianie formatu pola strony programowo w .NET
 linktitle: Ustawianie formatu pola strony programowo w .NET
 second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Dowiedz się, jak programowo ustawić formaty pól stron w tabelach przestawnych przy użyciu Aspose.Cells dla .NET. Postępuj zgodnie z naszym samouczkiem krok po kroku, aby płynnie zarządzać danymi.
+description: Dowiedz się, jak programowo ustawiać formaty pól stron w tabelach przestawnych przy użyciu Aspose.Cells dla .NET. Postępuj zgodnie z naszym samouczkiem krok po kroku, aby płynnie zarządzać danymi.
 type: docs
 weight: 21
 url: /pl/net/creating-and-configuring-pivot-tables/setting-page-field-format/

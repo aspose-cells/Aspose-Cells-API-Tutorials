@@ -1,6 +1,6 @@
 ---
-title: Учебник Excel VLOOKUP
-linktitle: Учебник Excel VLOOKUP
+title: Учебник по использованию ВПР в Excel
+linktitle: Учебник по использованию ВПР в Excel
 second_title: API обработки Java Excel Aspose.Cells
 description: Раскройте потенциал функции ВПР Excel с помощью Aspose.Cells для Java — вашего полного руководства по простому извлечению данных.
 type: docs

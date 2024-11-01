@@ -33,7 +33,7 @@ Zanim zagłębisz się w kod, musisz upewnić się, że struktura katalogów jes
 // Katalog źródłowy
 string sourceDir = "Your Document Directory";
 ```
- Zastępować`"Your Document Directory"` z rzeczywistą ścieżką do katalogu na Twoim komputerze, w którym znajduje się zaszyfrowany plik.
+ Zastępować`"Your Document Directory"` rzeczywistą ścieżką do katalogu na Twoim komputerze, w którym znajduje się zaszyfrowany plik.
 ## Krok 2: Przygotuj zaszyfrowany plik
 
  W tym kroku upewnij się, że masz zaszyfrowany plik Excel dostępny w określonym katalogu. Tutaj przyjmiemy, że plik ma nazwę`encryptedBook1.out.tmp`.
@@ -73,6 +73,6 @@ Oczywiście! Wykorzystaj bloki try-catch do zarządzania potencjalnymi wyjątkam
 ### Co się stanie, jeśli zapomnę hasła?
 Niestety, bez podania hasła nie będziesz mieć dostępu do formatu pliku.
 ### Czy mogę pobrać bezpłatną wersję próbną Aspose.Cells?
-Tak, możesz pobrać bezpłatną wersję próbną[Tutaj](https://releases.aspose.com/).
+ Tak, możesz pobrać bezpłatną wersję próbną[Tutaj](https://releases.aspose.com/).
 ### Gdzie mogę znaleźć bardziej szczegółową dokumentację?
  Możesz zapoznać się z obszerną dokumentacją Aspose.Cells[Tutaj](https://reference.aspose.com/cells/net/).

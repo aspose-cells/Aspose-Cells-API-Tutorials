@@ -35,7 +35,7 @@ Pertama-tama, Anda perlu menentukan direktori tempat Anda ingin menyimpan berkas
 string dataDir = "Your Document Directory";
 ```
  Mengganti`"Your Document Directory"` dengan jalur sebenarnya pada sistem Anda. Ini bisa jadi seperti ini`@"C:\Documents\"` jika Anda bekerja di Windows.
-## Langkah 2: Membuat Instansiasi Objek Buku Kerja
+## Langkah 2: Membuat Instansi Objek Buku Kerja
  Sekarang setelah kita menyiapkan direktori, saatnya membuat buku kerja baru. Pikirkan`Workbook` objek sebagai kanvas kosong tempat Anda akan melukis data. Berikut cara membuat contohnya:
 ```csharp
 // Membuat instance objek Buku Kerja

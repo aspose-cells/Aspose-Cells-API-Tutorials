@@ -18,7 +18,7 @@ url: /zh/net/working-with-fonts-in-excel/customizing-super-script-effect/
 ### 3. Aspose.Cells 库
 您将需要 Aspose.Cells 库。您可以下载它[这里](https://releases.aspose.com/cells/net/)。您的项目中必须有这个才能操作 Excel 文件。
 ### 4. 对 C# 的基本理解
-掌握 C# 是有益的，但不是强制性的。我们将编写使用该库来操作 Excel 文件的代码，而 C# 的知识将帮助您更好地理解它。
+掌握 C# 是有益的，但不是强制性的。我们将编写使用该库来操作 Excel 文件的代码，而掌握 C# 知识将帮助您更好地理解它。
 ### 5. 可用的 IDE
 您可以使用 Visual Studio 或任何其他支持.NET 的 IDE。 
 明白了吗？太好了！让我们开始讨论细节。
@@ -84,7 +84,7 @@ cell.SetStyle(style);
 //保存 Excel 文件
 workbook.Save(outputDir + "outputSettingSuperscripteffect.xlsx");
 ```
-确保更换`outputDir`使用您之前指定的路径。 
+确保更换`outputDir`与您之前指定的路径。 
 ## 步骤 8：确认信息
 更进一步的是，您还可以提醒自己操作已成功。
 ```csharp

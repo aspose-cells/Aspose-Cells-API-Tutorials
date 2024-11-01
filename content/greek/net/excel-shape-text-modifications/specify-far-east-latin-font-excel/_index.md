@@ -14,7 +14,7 @@ url: /el/net/excel-shape-text-modifications/specify-far-east-latin-font-excel/
 ### .NET Framework ή .NET Core
 Βεβαιωθείτε ότι έχετε εγκαταστήσει το .NET Framework ή το .NET Core στον υπολογιστή σας. Αυτή η βιβλιοθήκη λειτουργεί καλά και με τα δύο.
 ### Εγκατάσταση Aspose.Cells
- Θα χρειαστεί να κάνετε λήψη της βιβλιοθήκης Aspose.Cells. Μπορείτε[κατεβάστε το από εδώ](https://releases.aspose.com/cells/net/) . Εάν δεν είστε εξοικειωμένοι με την εγκατάσταση πακέτων NuGet, ακολουθήστε[αυτόν τον οδηγό](https://www.nuget.org/).
+ Θα χρειαστεί να κάνετε λήψη της βιβλιοθήκης Aspose.Cells. Μπορείς[κατεβάστε το από εδώ](https://releases.aspose.com/cells/net/) . Εάν δεν είστε εξοικειωμένοι με την εγκατάσταση πακέτων NuGet, ακολουθήστε[αυτόν τον οδηγό](https://www.nuget.org/).
 ### Ολοκληρωμένο Αναπτυξιακό Περιβάλλον (IDE)
 Η κατοχή ενός IDE όπως το Visual Studio ή το JetBrains Rider μπορεί να απλοποιήσει την κωδικοποίηση, τον εντοπισμό σφαλμάτων και την εκτέλεση του έργου σας.
 ### Βασικές γνώσεις C#
@@ -94,7 +94,7 @@ Console.WriteLine("SpecifyFarEastAndLatinNameOfFontInTextOptionsOfShape executed
 ### Μπορώ να χρησιμοποιήσω το Aspose.Cells για εφαρμογές web;
 Ναί! Το Aspose.Cells μπορεί να χρησιμοποιηθεί τόσο για εφαρμογές επιτραπέζιου υπολογιστή όσο και για εφαρμογές web που έχουν δημιουργηθεί με .NET.
 ### Υπάρχει δωρεάν έκδοση του Aspose.Cells;
- Ναι, το Aspose προσφέρει δωρεάν δοκιμή. Μπορείτε[κατεβάστε το εδώ](https://releases.aspose.com/).
+ Ναι, το Aspose προσφέρει δωρεάν δοκιμή. Μπορείς[κατεβάστε το εδώ](https://releases.aspose.com/).
 ### Πώς μπορώ να λάβω υποστήριξη για το Aspose.Cells;
  Μπορείτε να ζητήσετε υποστήριξη και να βρείτε πολύτιμους πόρους στο[Aspose φόρουμ](https://forum.aspose.com/c/cells/9).
 ### Πού μπορώ να αγοράσω Aspose.Cells;

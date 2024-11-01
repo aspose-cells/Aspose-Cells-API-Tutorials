@@ -20,7 +20,7 @@ Než se vydáme na tuto cestu, ujistěte se, že máte splněny následující p
 - Vývojové prostředí Java: Na vašem počítači byste měli mít nastavené vývojové prostředí Java.
 - Základní porozumění Excelu: Užitečná bude znalost Excelu a jeho základních pojmů.
 
-## Nastavení jeviště
+## Nastavení scény
 
 Naším cílem je vytvořit excelový list s kaskádovými rozevíracími seznamy. Představte si scénář, kdy máte seznam zemí, a když vyberete zemi, měl by být k dispozici seznam měst v této zemi. Pojďme si rozebrat kroky, jak toho dosáhnout.
 

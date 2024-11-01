@@ -12,7 +12,7 @@ Dalam hal mengelola dan merender file Excel secara terprogram, Aspose.Cells for 
 ## Prasyarat
 Sebelum kita menyelami dunia Aspose.Cells yang menarik dan kustomisasi font, mari pastikan Anda memiliki semua yang dibutuhkan untuk memulai:
 1. Pengetahuan Dasar tentang .NET: Keakraban dengan pemrograman .NET sangat penting karena kita akan bekerja dalam lingkungan .NET.
-2.  Aspose.Cells untuk .NET: Pastikan Anda telah menginstal pustaka Aspose.Cells. Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells untuk .NET: Pastikan Anda telah menginstal pustaka Aspose.Cells. Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/cells/net/).
 3. Visual Studio: Panduan ini mengasumsikan Anda menggunakan Visual Studio sebagai IDE. Pastikan Anda telah menginstal dan mengaturnya.
 4. Contoh Berkas Excel: Siapkan contoh berkas Excel untuk tutorial ini. Ini akan memudahkan Anda memahami bagaimana font kustom memengaruhi hasil render.
 5. Font Kustom: Siapkan direktori font kustom yang ingin Anda gunakan. Ini penting untuk menguji proses rendering kita.
@@ -41,7 +41,7 @@ string outputDir = "Your Document Directory";
 string customFontsDir = sourceDir + "CustomFonts";
 ```
 
-Bayangkan Anda memiliki lemari arsip yang penuh dengan dokumen penting (dalam hal ini, file Excel). Menyiapkan direktori Anda seperti mengatur lemari tersebut; memastikan Anda tahu persis di mana file Anda disimpan. Dengan menentukan`sourceDir`, `outputDir` , Dan`customFontsDir`, Anda sedang mempersiapkan ruang kerja yang akan membuat kode Anda lebih bersih dan lebih mudah dikelola.
+ Bayangkan Anda memiliki lemari arsip yang penuh dengan dokumen penting (dalam hal ini, file Excel). Menyiapkan direktori Anda seperti mengatur lemari tersebut; memastikan Anda tahu persis di mana file Anda disimpan. Dengan menentukan`sourceDir`, `outputDir` , Dan`customFontsDir`, Anda sedang mempersiapkan ruang kerja yang akan membuat kode Anda lebih bersih dan lebih mudah dikelola.
 ## Langkah 2: Tentukan Konfigurasi Font Individual
 Selanjutnya, kita perlu membuat konfigurasi font individual. Langkah ini penting untuk memberi tahu Aspose.Cells di mana menemukan font kustom Anda.
 ```csharp
@@ -49,7 +49,7 @@ Selanjutnya, kita perlu membuat konfigurasi font individual. Langkah ini penting
 IndividualFontConfigs fontConfigs = new IndividualFontConfigs();
 fontConfigs.SetFontFolder(customFontsDir, false);
 ```
- Anggap langkah ini sebagai pemberian petunjuk arah kepada teman yang sedang mencari kedai kopi tertentu. Dengan menentukan`customFontsDir`, Anda mengarahkan Aspose.Cells ke lokasi font yang tepat. Jika arahnya salah (atau jika font tidak ada), Anda mungkin akan mendapatkan hasil PDF yang tidak memuaskan. Jadi, pastikan direktori font Anda akurat!
+ Anggap langkah ini sebagai pemberian petunjuk arah kepada teman yang sedang mencari kedai kopi tertentu. Dengan menentukan`customFontsDir`Anda mengarahkan Aspose.Cells ke lokasi font yang tepat. Jika arahnya salah (atau jika font tidak ada), Anda mungkin akan mendapatkan hasil PDF yang tidak memuaskan. Jadi, pastikan direktori font Anda akurat!
 ## Langkah 3: Atur Opsi Muatan
 Sekarang, waktunya menentukan opsi muat yang mengintegrasikan pengaturan font kita ke dalam buku kerja.
 ```csharp
@@ -64,11 +64,11 @@ Setelah opsi muat sudah siap, mari muat berkas Excel yang ingin kita render.
 // Muat file Excel contoh dengan konfigurasi font individual.
 Workbook wb = new Workbook(sourceDir + "sampleSpecifyIndividualOrPrivateSetOfFontsForWorkbookRendering.xlsx", opts);
 ```
- Langkah ini sama seperti membuka buku favorit Anda. Di sini, Anda memberi tahu Aspose.Cells file Excel mana yang akan digunakan. Dengan menggunakan`Workbook` kelas dan opsi muat yang ditentukan, pada dasarnya Anda membuka sampul dan menyelami konten, siap membuat perubahan.
+ Langkah ini sama seperti membuka buku favorit Anda. Di sini, Anda memberi tahu Aspose.Cells file Excel mana yang akan digunakan. Dengan menggunakan`Workbook`kelas dan opsi muat yang ditentukan, pada dasarnya Anda membuka sampul dan menyelami konten, siap membuat perubahan.
 ## Langkah 5: Simpan Buku Kerja dalam Format yang Diinginkan
 Akhirnya, saatnya menyimpan buku kerja yang dimodifikasi dalam format yang diinginkan (PDF dalam kasus ini).
 ```csharp
-//Simpan ke format PDF.
+// Simpan ke format PDF.
 wb.Save(outputDir + "outputSpecifyIndividualOrPrivateSetOfFontsForWorkbookRendering.pdf", SaveFormat.Pdf);
 ```
 Ini seperti menaruh buku Anda kembali ke rak setelah Anda membacanya, tetapi sekarang dalam format yang berbeda. Dengan menyimpan buku kerja dalam format PDF, Anda memastikan bahwa rendering dilakukan dengan font yang Anda tentukan secara utuh, sehingga terlihat rapi dan profesional.

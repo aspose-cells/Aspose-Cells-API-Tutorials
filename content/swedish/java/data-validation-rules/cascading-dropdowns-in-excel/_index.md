@@ -103,7 +103,7 @@ den här omfattande guiden undersökte vi hur man skapar överlappande rullgardi
 
 ### Hur kan jag lägga till fler länder och städer i rullgardinsmenyn?
 
-För att lägga till fler länder och städer måste du uppdatera respektive blad i din Excel-arbetsbok. Utöka bara listorna i bladen "Länder" och "Städer", så kommer rullgardinsmenyn automatiskt att inkludera de nya posterna.
+För att lägga till fler länder och städer måste du uppdatera respektive blad i din Excel-arbetsbok. Utöka helt enkelt listorna i bladen "Länder" och "Städer", så kommer rullgardinsmenyn automatiskt att inkludera de nya posterna.
 
 ### Kan jag använda den här tekniken i kombination med andra Excel-funktioner?
 

@@ -24,7 +24,7 @@ Låt oss nu gå in i steg-för-steg-processen. Aspose.Cells för .NET låter dig
 3. Bevara formateringen:
     Det fina med Aspose.Cells är att när du ändrar justeringen med hjälp av`.Style` objekt, andra formateringselement som kanter, teckensnitt och färger förblir intakta. Du behöver inte oroa dig för att förlora den anpassade stilen!
 
- Läs mer om hur du gör[Ändra justering av Excel-celler utan att förlora formatering](./change-cells-alignment-in-excel-without-losing-existing-formatting/).
+ Läs mer om hur[Ändra justering av Excel-celler utan att förlora formatering](./change-cells-alignment-in-excel-without-losing-existing-formatting/).
 
 ## Självstudier för Excel-datajustering och formatering
 ### [Ändra justering av Excel-celler utan att förlora formatering](./change-cells-alignment-in-excel-without-losing-existing-formatting/)

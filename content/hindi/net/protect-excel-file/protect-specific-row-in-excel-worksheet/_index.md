@@ -88,7 +88,7 @@ StyleFlag flag;
 for (int i = 0; i <= 255; i++)
 {
     style = sheet.Cells.Columns[(byte)i].Style;
-    style.IsLocked = false; //कॉलम अनलॉक करें
+    style.IsLocked = false; // कॉलम अनलॉक करें
     flag = new StyleFlag();
     flag.Locked = true; // लॉकिंग के लिए ध्वज को सत्य पर सेट करें
     sheet.Cells.Columns[(byte)i].ApplyStyle(style, flag); // शैली लागू करें

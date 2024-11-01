@@ -12,7 +12,7 @@ V dnešním digitálním světě je bezpečnost dat nejvyšší prioritou. Ať u
 ## Předpoklady
 Než se ponoříte do kódu, ujistěte se, že máte vše, co potřebujete, abyste mohli začít. Zde je kontrolní seznam:
 1. .NET Framework: Ujistěte se, že máte nainstalovanou kompatibilní verzi rozhraní .NET Framework. Aspose.Cells funguje dobře s verzemi .NET, takže si vyberte tu, která vyhovuje vašemu projektu.
-2.  Knihovna Aspose.Cells: Stáhněte si knihovnu Aspose.Cells z[stránka ke stažení](https://releases.aspose.com/cells/net/). Tato výkonná knihovna vám umožní bez námahy manipulovat a šifrovat soubory Excel.
+2.  Knihovna Aspose.Cells: Stáhněte si knihovnu Aspose.Cells z[stránka ke stažení](https://releases.aspose.com/cells/net/)Tato výkonná knihovna vám umožní bez námahy manipulovat a šifrovat soubory Excel.
 3. Visual Studio: Dobré IDE věci usnadní, takže se ujistěte, že máte Visual Studio (nebo jakékoli IDE kompatibilní s .NET) nastavené pro vaši vývojovou práci.
 4. Základní porozumění C#: Dort se peče snadněji, pokud víte, jak odměřovat ingredience, že? Podobně malá znalost C# vám pomůže pochopit, jak tento úkol efektivně kódovat.
 Jakmile zaškrtnete tyto položky, jste připraveni jít vpřed!
@@ -53,7 +53,7 @@ Pokud jde o šifrování v Aspose.Cells, máte na výběr. V tomto příkladu na
 ```csharp
 // Zadejte typ šifrování XOR.
 workbook.SetEncryptionOptions(EncryptionType.XOR, 40);
-// Zadejte typ silného šifrování (RC4, Microsoft Strong Cryptographic Provider).
+//Zadejte typ silného šifrování (RC4, Microsoft Strong Cryptographic Provider).
 workbook.SetEncryptionOptions(EncryptionType.StrongCryptographicProvider, 128);
 ```
 Přemýšlejte o těchto možnostech jako o druhu zámků, které byste mohli použít – některé jsou kratší a snáze se vybírají (XOR), zatímco jiné jsou mnohem náročnější (Strong Cryptographic Provider).
@@ -68,9 +68,9 @@ Nakonec uložíme změny a vytvoříme šifrovaný soubor.
 ```csharp
 workbook.Save(dataDir + "encryptedBook1.out.xls");
 ```
- Tento řádek kódu uloží sešit jako`encryptedBook1.out.xls`ve vámi zadaném adresáři. Je to jako dát knihu zpět na polici, bezpečně uzamčenou!
+ Tento řádek kódu uloží sešit jako`encryptedBook1.out.xls` ve vámi zadaném adresáři. Je to jako dát knihu zpět na polici, bezpečně uzamčenou!
 ## Závěr
-A je to! Právě jste se naučili šifrovat soubor Excel pomocí Aspose.Cells v .NET. Dodržováním těchto kroků zajistíte, že vaše citlivá data budou dobře chráněna. Pamatujte – ochrana začíná u vás, proto vždy podnikněte nezbytné kroky k ochraně vašich informací. 
+je to! Právě jste se naučili šifrovat soubor Excel pomocí Aspose.Cells v .NET. Dodržováním těchto kroků zajistíte, že vaše citlivá data budou dobře chráněna. Pamatujte – ochrana začíná u vás, proto vždy podnikněte nezbytné kroky k ochraně vašich informací. 
 ## FAQ
 ### Co je Aspose.Cells?
 Aspose.Cells je výkonná knihovna .NET používaná pro správu a zpracování souborů aplikace Excel.

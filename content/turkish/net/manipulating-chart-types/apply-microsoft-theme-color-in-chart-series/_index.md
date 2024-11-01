@@ -101,7 +101,7 @@ Bu, bir odayı dekore etmeden önce görünümüne ve hissine karar vermeye benz
 Sonra, grafiğin doldurma alanı için rengi tanımlamamız gerekecek. Seçtiğimiz rengi bu şekilde canlandıracağız.
 
 ```csharp
-// SolidFill'in CellsColor'ını alın
+//SolidFill'in CellsColor'ını alın
 CellsColor cc = chart.NSeries[0].Area.FillFormat.SolidFill.CellsColor;
 ```
 

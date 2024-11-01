@@ -35,7 +35,7 @@ if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
 Pada langkah ini, kami memeriksa apakah direktori yang ditentukan ada. Jika tidak ada, kami membuatnya. Ini akan menjaga berkas Anda tetap teratur dan dapat diakses.
-## Langkah 2: Membuat Instansiasi Objek Buku Kerja
+## Langkah 2: Membuat Instansi Objek Buku Kerja
 Membuat Buku Kerja Excel
 Berikutnya, kita perlu membuat buku kerja baru tempat kita akan melakukan semua pemformatan.
 ```csharp

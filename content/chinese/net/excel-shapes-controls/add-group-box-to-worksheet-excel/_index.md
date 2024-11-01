@@ -49,7 +49,7 @@ if (!IsExists)
 //实例化一个新的工作簿。
 Workbook excelbook = new Workbook();
 ```
-此行初始化 Workbook 的新实例。可以将其视为打开一个全新的空白 Excel 文件以进行修改。
+此行初始化 Workbook 的新实例。可将其视为打开一个全新的空白 Excel 文件以进行修改。
 ## 步骤 3：添加组框
 现在，让我们添加该组框。 
 ```csharp

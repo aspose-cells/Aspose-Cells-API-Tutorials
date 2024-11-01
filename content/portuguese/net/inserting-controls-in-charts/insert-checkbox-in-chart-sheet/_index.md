@@ -66,7 +66,7 @@ Antes de chegarmos à parte emocionante, precisamos definir onde queremos que no
 ```csharp
 string outputDir = "C:\\YourOutputDirectory\\"; // Mude para o diretório especificado
 ```
- Certifique-se de substituir`"C:\\YourOutputDirectory\\"` com o caminho onde você quer que seu arquivo seja salvo. Pense nisso como configurar seu espaço de trabalho; você precisa saber onde está colocando suas ferramentas (ou, neste caso, seu arquivo Excel).
+ Certifique-se de substituir`"C:\\YourOutputDirectory\\"`com o caminho onde você quer que seu arquivo seja salvo. Pense nisso como configurar seu espaço de trabalho; você precisa saber onde está colocando suas ferramentas (ou, neste caso, seu arquivo Excel).
 
 ## Etapa 2: Instanciando um objeto de pasta de trabalho
 
@@ -123,7 +123,7 @@ Esta linha salva seu arquivo Excel recém-criado com a caixa de seleção no dir
 
 ## Conclusão
 
-E aí está! Você adicionou com sucesso uma caixa de seleção a uma planilha de gráfico em um arquivo Excel usando o Aspose.Cells for .NET. Seguindo essas etapas, você pode criar planilhas Excel interativas e dinâmicas que oferecem ótima funcionalidade, tornando suas visualizações de dados ainda mais envolventes.
+aí está! Você adicionou com sucesso uma caixa de seleção a uma planilha de gráfico em um arquivo Excel usando o Aspose.Cells for .NET. Seguindo essas etapas, você pode criar planilhas Excel interativas e dinâmicas que oferecem ótima funcionalidade, tornando suas visualizações de dados ainda mais envolventes.
 
 ## Perguntas frequentes
 

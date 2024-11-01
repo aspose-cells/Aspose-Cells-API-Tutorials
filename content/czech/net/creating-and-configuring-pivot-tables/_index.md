@@ -58,7 +58,7 @@ Vylepšete své kontingenční tabulky Excel pomocí Aspose.Cells pro .NET. Nau�
 ### [Aktualizace a výpočet položek v kontingenční tabulce v .NET](./refreshing-and-calculating-items/)
 Zjistěte, jak obnovit a vypočítat položky v kontingenční tabulce pomocí Aspose.Cells for .NET s tímto komplexním, podrobným návodem.
 ### [Nastavení automatického formátu kontingenční tabulky programově v .NET](./setting-auto-format/)
-tomto podrobném podrobném návodu se dozvíte, jak programově nastavit automatický formát pro kontingenční tabulky Excel pomocí Aspose.Cells for .NET.
+tomto podrobném podrobném kurzu se dozvíte, jak programově nastavit automatický formát pro kontingenční tabulky Excel pomocí Aspose.Cells for .NET.
 ### [Nastavení formátu datového pole programově v .NET](./setting-data-field-format/)
 Hlavní nastavení formátů datových polí v kontingenčních tabulkách pomocí Aspose.Cells for .NET s tímto podrobným výukovým programem. Vylepšete formátování dat v Excelu.
 ### [Nastavení možností formátu kontingenční tabulky v .NET](./setting-format-options/)

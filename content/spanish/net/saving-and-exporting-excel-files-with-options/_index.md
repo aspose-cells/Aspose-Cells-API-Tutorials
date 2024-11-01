@@ -17,7 +17,7 @@ Aspose.Cells para .NET ofrece a los desarrolladores herramientas potentes para a
 
 ## Obtención de advertencias al cargar un archivo de Excel en .NET
 
- Al cargar un archivo de Excel, ciertos formatos de datos o contenidos pueden generar advertencias. Aprenda a administrar e interpretar estas alertas con la herramienta[Obtención de advertencias al cargar un archivo de Excel en .NET](./getting-warnings-while-loading-excel-file/)Tutorial. Esta guía es imprescindible para los desarrolladores que quieran gestionar y resolver problemas de compatibilidad o advertencias de formato de forma eficaz. Si aborda estas advertencias de forma temprana, garantizará una experiencia más fluida y sin errores al cargar archivos en su aplicación.
+ Al cargar un archivo de Excel, ciertos formatos de datos o contenidos pueden generar advertencias. Aprenda a administrar e interpretar estas alertas con la herramienta[Obtención de advertencias al cargar un archivo de Excel en .NET](./getting-warnings-while-loading-excel-file/) Tutorial. Esta guía es imprescindible para los desarrolladores que quieran gestionar y resolver problemas de compatibilidad o advertencias de formato de forma eficaz. Si aborda estas advertencias de forma temprana, garantizará una experiencia más fluida y sin errores al cargar archivos en su aplicación.
 
 ## Especificación de la versión del documento de un archivo Excel mediante programación en .NET
 
@@ -25,7 +25,7 @@ Aspose.Cells para .NET ofrece a los desarrolladores herramientas potentes para a
 
 ### Recorte de filas y columnas en blanco iniciales al exportar
 
- Las filas y columnas vacías pueden saturar sus exportaciones, especialmente cuando se trabaja con archivos CSV.[Recorte de filas y columnas en blanco iniciales al exportar](./trimming-leading-blank-rows-and-columns/)Este tutorial le permite limpiar sus datos eliminando los espacios en blanco innecesarios al comienzo de las filas y columnas. Este tutorial es perfecto para desarrolladores que buscan crear archivos concisos y ordenados que estén listos para su análisis o presentación. Un resultado limpio y pulido no solo luce profesional, sino que también facilita mucho el procesamiento de datos.
+Las filas y columnas vacías pueden saturar sus exportaciones, especialmente cuando se trabaja con archivos CSV.[Recorte de filas y columnas en blanco iniciales al exportar](./trimming-leading-blank-rows-and-columns/) Este tutorial le permite limpiar sus datos eliminando los espacios en blanco innecesarios al comienzo de las filas y columnas. Este tutorial es perfecto para desarrolladores que buscan crear archivos concisos y ordenados que estén listos para su análisis o presentación. Un resultado limpio y pulido no solo luce profesional, sino que también facilita mucho el procesamiento de datos.
 
 ## Tutoriales sobre cómo guardar y exportar archivos de Excel con opciones
 ### [Exportación de comentarios al guardar un archivo de Excel en formato HTML](./exporting-comments/)

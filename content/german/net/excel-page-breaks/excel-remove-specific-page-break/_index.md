@@ -64,7 +64,7 @@ Als nächstes müssen wir unsere Arbeitsmappe laden. Einfacher ausgedrückt: Ste
 Workbook workbook = new Workbook(dataDir + "PageBreaks.xls");
 ```
 
-Erklärung: Diese Zeile erzeugt eine neue Instanz einer`Workbook` , wodurch die angegebene Excel-Datei geladen wird (in diesem Beispiel heißt sie`PageBreaks.xls`). 
+ Erklärung: Diese Zeile erzeugt eine neue Instanz einer`Workbook` , wodurch die angegebene Excel-Datei geladen wird (in diesem Beispiel heißt sie`PageBreaks.xls`). 
 
 ## Schritt 3: Horizontalen Seitenumbruch entfernen
 
@@ -117,4 +117,4 @@ Sie können die Seitenumbrüche mithilfe einer Schleife durchlaufen, um ihre Ind
  Absolut! Ändern Sie einfach die Indexnummer in`workbook.Worksheets[index]` um das gewünschte Arbeitsblatt anzusteuern.
 
 ### Ist Aspose.Cells ein kostenloses Tool?  
- Aspose.Cells bietet eine kostenlose Testversion an, für die volle Funktionalität müssen Sie jedoch eine Lizenz erwerben. Sie können es ausprobieren[Hier](https://purchase.aspose.com/buy).
+Aspose.Cells bietet eine kostenlose Testversion an, für die volle Funktionalität müssen Sie jedoch eine Lizenz erwerben. Sie können es ausprobieren[Hier](https://purchase.aspose.com/buy).

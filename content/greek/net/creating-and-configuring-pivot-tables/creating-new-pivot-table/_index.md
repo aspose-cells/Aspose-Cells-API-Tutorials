@@ -14,7 +14,7 @@ url: /el/net/creating-and-configuring-pivot-tables/creating-new-pivot-table/
 Πριν βουτήξετε μέσα, ας βεβαιωθούμε ότι έχετε τα πάντα έτοιμα. Εδώ είναι τι πρέπει να κάνετε:
 
 1. Εγκατάσταση .NET Framework: Βεβαιωθείτε ότι έχετε εγκαταστήσει το πλαίσιο .NET στον υπολογιστή σας. Το Aspose.Cells υποστηρίζει διάφορες εκδόσεις, αλλά είναι καλύτερο να τηρείτε τις πιο πρόσφατες.
-2.  Aspose.Cells Library: Πρέπει να έχετε τη βιβλιοθήκη Aspose.Cells. Μπορείτε[κατεβάστε το εδώ](https://releases.aspose.com/cells/net/)ή πάρτε ένα[προσωρινή άδεια](https://purchase.aspose.com/temporary-license/) για αξιολόγηση.
+2.  Aspose.Cells Library: Πρέπει να έχετε τη βιβλιοθήκη Aspose.Cells. Μπορείς[κατεβάστε το εδώ](https://releases.aspose.com/cells/net/)ή πάρτε ένα[προσωρινή άδεια](https://purchase.aspose.com/temporary-license/) για αξιολόγηση.
 3. Ρύθμιση IDE: Έχετε έτοιμο ένα IDE συμβατό με C#, όπως το Visual Studio, όπου μπορείτε να ξεκινήσετε ένα νέο έργο.
 4. Βασικές γνώσεις C#: Η εξοικείωση με τον προγραμματισμό C# θα σας βοηθήσει να ακολουθήσετε χωρίς να κολλήσετε πολύ.
 

@@ -40,7 +40,7 @@ Worksheet sheet = workbook.Worksheets[0];
 ```
  Ersetzen Sie in diesem Snippet`"Your Document Directory"` mit dem Pfad, in dem Sie Ihre Excel-Datei speichern möchten.`Workbook` -Objekt wird erstellt und wir verweisen auf das erste Arbeitsblatt, das unser Spielplatz sein wird.
 ## Schritt 3: Bedingte Formatierung hinzufügen
-Lassen Sie uns nun unserem Arbeitsblatt etwas mehr Flair verleihen, indem wir eine bedingte Formatierung anwenden. Dadurch können wir das Erscheinungsbild von Zellen basierend auf ihren Werten ändern.
+Jetzt verleihen wir unserem Arbeitsblatt etwas mehr Flair, indem wir eine bedingte Formatierung anwenden. Dadurch können wir das Erscheinungsbild von Zellen basierend auf ihren Werten ändern.
 ```csharp
 // Fügt eine leere bedingte Formatierung hinzu
 int index = sheet.ConditionalFormattings.Add();

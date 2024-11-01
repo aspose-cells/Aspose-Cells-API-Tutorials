@@ -1,6 +1,6 @@
 ---
-title: Excel adatérvényesítés és szűrés
-linktitle: Excel adatérvényesítés és szűrés
+title: Excel adatellenőrzés és szűrés
+linktitle: Excel adatellenőrzés és szűrés
 second_title: Aspose.Cells .NET Excel Processing API
 description: Fedezze fel az Aspose.Cells for .NET oktatóanyagokat az Excel adatellenőrzéséről és szűrőiről – egyszerű útmutatók a termelékenység növeléséhez.
 type: docs

@@ -9,7 +9,7 @@ url: /zh/net/excel-page-setup/set-excel-first-page-number/
 ---
 ## 介绍
 
-在以编程方式操作 Excel 文件时，Aspose.Cells for .NET 是一个功能强大的库。无论您是开发生成报告的 Web 应用程序还是构建管理数据的桌面应用程序，控制 Excel 文件格式都至关重要。经常被忽视的功能之一是设置 Excel 工作表的首页页码。在本指南中，我们将逐步指导您如何做到这一点。
+在以编程方式操作 Excel 文件方面，Aspose.Cells for .NET 是一个功能强大的库。无论您是开发生成报告的 Web 应用程序还是构建管理数据的桌面应用程序，控制 Excel 文件格式都至关重要。经常被忽视的功能之一是设置 Excel 工作表的首页页码。在本指南中，我们将逐步指导您如何做到这一点。
 
 ## 先决条件
 

@@ -17,7 +17,7 @@ Pratik adımlara geçmeden önce, yerine getirmeniz gereken birkaç ön koşul v
 
 1. Visual Studio Kurulu: Kodumuzu bu ortamda yazacağımız için bilgisayarınızda Visual Studio'nun kurulu olduğundan emin olun.
 2.  Aspose.Cells for .NET Kütüphanesi: Aspose.Cells kütüphanesinin bir kopyasını edinin. Bunu şuradan indirebilirsiniz:[Aspose Sürümleri sayfası](https://releases.aspose.com/cells/net/) Eğer emin değilseniz, bir ile başlayabilirsiniz[ücretsiz deneme](https://releases.aspose.com/).
-3. Temel C# Bilgisi: Özellikle kütüphanelerle çalışmaya yeni başladıysanız, C# programlamanın temellerine dair bir anlayışa sahip olmak faydalı olacaktır.
+3. Temel C# Bilgisi: C# programlamanın temellerini anlamak, özellikle kütüphanelerle çalışmaya yeni başladıysanız, sizin için faydalı olacaktır.
 4. .NET Framework: Projenizin kütüphane için uyumlu bir .NET Framework sürümünü hedeflediğinden emin olun.
 
 Artık neye ihtiyacınız olduğunu belirlediğimize göre, gerekli paketleri içe aktararak başlayabiliriz.
@@ -69,7 +69,7 @@ Değiştirdiğinizden emin olun`"YOUR DOCUMENT DIRECTORY"` Excel dosyasının ka
 Workbook workbook = new Workbook();
 ```
 
- Burada yeni bir`Workbook`Excel dosyasını temsil eden ve içeriğini düzenlememize olanak tanıyan nesne.
+ Burada yeni bir`Workbook` Excel dosyasını temsil eden ve içeriğini düzenlememize olanak tanıyan nesne.
 
 ## Adım 3: İlk Çalışma Sayfasına Erişim
 

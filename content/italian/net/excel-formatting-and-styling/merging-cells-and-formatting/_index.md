@@ -55,7 +55,7 @@ Aspose.Cells.Cell cell = worksheet.Cells["A1"];
 ```
 Qui, puoi pensare ad “A1” come al punto di partenza del nostro progetto, come alla prima pennellata su quella tela.
 ## Passaggio 6: aggiungere valore alla cella
-È il momento di aggiungere del contenuto alla nostra cella selezionata! Aggiungeremo un messaggio amichevole.
+È il momento di aggiungere un po' di contenuto alla nostra cella selezionata! Aggiungeremo un messaggio amichevole.
 ```csharp
 cell.PutValue("Visit Aspose!");
 ```

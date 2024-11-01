@@ -71,7 +71,7 @@ Worksheet sheet = book.Worksheets[0];
 
 Ebben a kódrészletben hozzáférünk munkafüzetünk első munkalapjához, amelyet a következő lépésekben kezelünk.
 
-## 4. lépés: Kapcsolja be az Allow Edit Ranges
+## 4. lépés: Kapcsolja be az Engedélyezett tartományok szerkesztését
 
  Ahhoz, hogy a munkalap bizonyos tartományait szerkesztésre engedélyezhessük, el kell érnünk a`AllowEditRanges` ingatlan.
 
@@ -141,4 +141,4 @@ Sajnos, ha elfelejti egy szerkeszthető tartomány jelszavát, el kell távolít
 Igen, az Aspose ingyenes próbaverziót biztosít, amellyel a vásárlás előtt felfedezheti a funkciókat.
 
 ### Hol találhatok további információt az Aspose.Cells-ről?
- Ellenőrizheti a[dokumentáció](https://reference.aspose.com/cells/net/) részletes útmutatókért és referenciákért.
+ Ellenőrizheti a[dokumentáció](https://reference.aspose.com/cells/net/)részletes útmutatókért és referenciákért.

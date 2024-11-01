@@ -19,7 +19,7 @@ Trước khi bắt đầu viết mã, hãy đảm bảo bạn đã thiết lập
 2. Môi trường phát triển .NET: Đảm bảo dự án của bạn được thiết lập để sử dụng .NET Framework hoặc .NET Core.
 3. Kiến thức cơ bản về C#: Bạn nên thành thạo lập trình C#, đặc biệt là lập trình hướng đối tượng (OOP).
 
-Đối với người dùng nâng cao, có thể áp dụng giấy phép tạm thời để mở khóa tất cả các tính năng của Aspose.Cells. Bạn có thể yêu cầu một giấy phép từ[đây](https://purchase.aspose.com/temporary-license/).
+ Đối với người dùng nâng cao, có thể áp dụng giấy phép tạm thời để mở khóa tất cả các tính năng của Aspose.Cells. Bạn có thể yêu cầu một giấy phép từ[đây](https://purchase.aspose.com/temporary-license/).
 
 ## Nhập gói
 
@@ -100,7 +100,7 @@ int chartIndex = chartSheet.Charts.Add(Aspose.Cells.Charts.ChartType.Pie, 5, 0, 
 Aspose.Cells.Charts.Chart chart = chartSheet.Charts[chartIndex];
 ```
 
- Phương pháp`Add()` chấp nhận các tham số cho loại biểu đồ (trong trường hợp này,`ChartType.Pie`), và vị trí của nó trên bảng tính. Các con số biểu thị vị trí hàng và cột.
+ Phương pháp`Add()`chấp nhận các tham số cho loại biểu đồ (trong trường hợp này,`ChartType.Pie`), và vị trí của nó trên bảng tính. Các con số biểu thị vị trí hàng và cột.
 
 ## Bước 5: Tùy chỉnh giao diện biểu đồ
 
@@ -187,7 +187,7 @@ Tạo biểu đồ hình tròn bằng Aspose.Cells cho .NET là một quy trình
 Có! Aspose.Cells hỗ trợ nhiều loại biểu đồ khác nhau, bao gồm biểu đồ thanh, biểu đồ đường và biểu đồ phân tán.
 
 ### Tôi có cần giấy phép trả phí để sử dụng Aspose.Cells cho .NET không?
- Bạn có thể sử dụng phiên bản miễn phí với một số hạn chế. Để có đầy đủ tính năng, bạn sẽ cần một giấy phép, bạn có thể mua[đây](https://purchase.aspose.com/buy).
+Bạn có thể sử dụng phiên bản miễn phí với một số hạn chế. Để có đầy đủ tính năng, bạn sẽ cần một giấy phép, bạn có thể mua[đây](https://purchase.aspose.com/buy).
 
 ### Tôi có thể xuất biểu đồ sang các định dạng như PDF hoặc hình ảnh không?
 Chắc chắn rồi! Aspose.Cells cho phép bạn xuất biểu đồ sang nhiều định dạng khác nhau, bao gồm PDF và PNG.

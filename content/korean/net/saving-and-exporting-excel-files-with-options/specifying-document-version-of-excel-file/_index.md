@@ -11,7 +11,7 @@ url: /ko/net/saving-and-exporting-excel-files-with-options/specifying-document-v
 Aspose.Cells for .NET은 개발자가 Excel 파일을 쉽게 프로그래밍 방식으로 조작할 수 있는 강력한 라이브러리입니다. 처음부터 Excel 파일을 만들거나 기존 파일을 수정하려는 경우 Aspose.Cells는 목표를 달성하기 위한 포괄적인 API를 제공합니다. 그러한 기능 중 하나는 버전, 작성자 또는 제목과 같은 문서 속성을 지정하는 것입니다. 이 튜토리얼에서는 Aspose.Cells for .NET을 사용하여 Excel 파일의 문서 버전을 프로그래밍 방식으로 지정하는 방법을 안내합니다.
 ## 필수 조건
 자세한 내용을 살펴보기 전에 이 튜토리얼을 따라가는 데 필요한 모든 것이 있는지 확인해 보겠습니다.
-1.  .NET용 Aspose.Cells: 최신 버전을 다운로드할 수 있습니다.[여기](https://releases.aspose.com/cells/net/) 아직 라이센스를 구매하지 않은 경우 다음을 선택할 수 있습니다.[임시 면허](https://purchase.aspose.com/temporary-license/) 기능을 탐색해보세요.
+1. .NET용 Aspose.Cells: 최신 버전을 다운로드할 수 있습니다.[여기](https://releases.aspose.com/cells/net/) 아직 라이센스를 구매하지 않은 경우 다음을 선택할 수 있습니다.[임시 면허](https://purchase.aspose.com/temporary-license/) 기능을 탐색해보세요.
 2. .NET 개발 환경: Visual Studio나 .NET과 호환되는 IDE를 사용할 수 있습니다.
 3. C#에 대한 기본 지식: C# 프로그래밍에 대한 이해가 있으면 따라하기가 더 쉽습니다.
 ## 패키지 가져오기
@@ -29,9 +29,9 @@ using System.Text;
 ```csharp
 Workbook wb = new Workbook();
 ```
- 그만큼`Workbook` 클래스는 Excel 파일의 표현을 제공합니다. 이를 인스턴스화하여 조작할 수 있는 빈 Excel 통합 문서를 만듭니다.
+ 그만큼`Workbook`클래스는 Excel 파일의 표현을 제공합니다. 이를 인스턴스화하여 조작할 수 있는 빈 Excel 통합 문서를 만듭니다.
 ## 2단계: 내장 문서 속성에 액세스
-Aspose.Cells는 제목, 작성자, 문서 버전과 같은 필드를 포함하는 내장 문서 속성을 제공합니다. 이러한 속성은 다음을 통해 액세스할 수 있습니다.`BuiltInDocumentProperties`수집.
+ Aspose.Cells는 제목, 작성자, 문서 버전과 같은 필드를 포함하는 내장 문서 속성을 제공합니다. 이러한 속성은 다음을 통해 액세스할 수 있습니다.`BuiltInDocumentProperties`수집.
 ```csharp
 Aspose.Cells.Properties.BuiltInDocumentPropertyCollection bdpc = wb.BuiltInDocumentProperties;
 ```
@@ -59,7 +59,7 @@ bdpc.DocumentVersion = "Aspose.Cells Version - 18.3";
 ```csharp
 wb.Save("outputSpecifyDocumentVersionOfExcelFile.xlsx", SaveFormat.Xlsx);
 ```
- 그만큼`Save` 이 방법은 파일을 지정된 디렉토리에 저장하는 데 사용됩니다. 여기서는 Excel 파일로 저장합니다.`.xlsx` 형식. 필요한 경우 Aspose.Cells는 다음과 같은 형식도 지원합니다.`.xls`, `.csv` , 그리고`.pdf`귀하의 프로젝트 요구 사항에 따라 유연성을 제공합니다.
+ 그만큼`Save` 이 방법은 파일을 지정된 디렉토리에 저장하는 데 사용됩니다. 여기서는 Excel 파일로 저장합니다.`.xlsx`형식. 필요한 경우 Aspose.Cells는 다음과 같은 형식도 지원합니다.`.xls`, `.csv` , 그리고`.pdf`귀하의 프로젝트 요구 사항에 따라 유연성을 제공합니다.
 ## 결론
 이 튜토리얼에서는 Aspose.Cells for .NET을 사용하여 Excel 파일에서 문서 속성, 특히 문서 버전을 지정하는 방법을 살펴보았습니다. Aspose.Cells는 Excel 파일을 프로그래밍 방식으로 조작할 수 있는 매우 유연하고 강력한 도구로, 스프레드시트로 작업하는 모든 .NET 개발자에게 큰 자산이 됩니다.
 ## 자주 묻는 질문

@@ -127,4 +127,4 @@ Igen, az Aspose.Cells for Java sokoldalú, és képes egyszerű és összetett a
 
 ### Testreszabhatom a hibaüzenetek megjelenését az Excelben?
 
-Igen, testreszabhatja az érvénytelen adatok megadásakor megjelenő hibaüzeneteket. Az Aspose.Cells for Java lehetővé teszi egyéni hibaüzenetek beállítását, amelyek egyértelmű utasításokat adnak a felhasználóknak.
+Igen, testreszabhatja az érvénytelen adatok megadásakor megjelenő hibaüzeneteket. Az Aspose.Cells for Java lehetővé teszi egyéni hibaüzenetek beállítását, hogy egyértelmű utasításokat adjon a felhasználóknak.

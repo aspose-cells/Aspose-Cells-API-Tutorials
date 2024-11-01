@@ -43,7 +43,7 @@ bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
-tym fragmencie kodu określamy ścieżkę do katalogu dokumentu. Sprawdzamy również, czy katalog istnieje; jeśli nie, tworzymy go. To stanowi podstawę dla naszego wyjścia.
+W tym fragmencie kodu określamy ścieżkę do katalogu dokumentu. Sprawdzamy również, czy katalog istnieje; jeśli nie, tworzymy go. To stanowi podstawę dla naszego wyjścia.
 ## Krok 2: Utwórz skoroszyt
 Następnie utwórzmy nową instancję skoroszytu.
 ```csharp
@@ -71,7 +71,7 @@ arc1.Line.Weight = 1;
 // Ustaw styl kreskowania łuku.
 arc1.Line.DashStyle = MsoLineDashStyle.Solid;
 ```
-tej sekcji dostosowujemy łuk. Ustawiamy typ wypełnienia na jednolity kolor (w tym przypadku niebieski), definiujemy sposób jego umieszczenia, ustalamy grubość linii i wybieramy styl kreski. Zasadniczo ozdabiamy nasz łuk, aby był wizualnie atrakcyjny!
+W tej sekcji dostosowujemy łuk. Ustawiamy typ wypełnienia na jednolity kolor (w tym przypadku niebieski), definiujemy sposób jego umieszczenia, ustalamy grubość linii i wybieramy styl kreski. Zasadniczo ozdabiamy nasz łuk, aby był wizualnie atrakcyjny!
 ## Krok 5: Dodaj drugi kształt łuku
 Dodajmy kolejny kształt łuku, aby zapewnić więcej kontekstu.
 ```csharp
@@ -101,14 +101,14 @@ excelbook.Save(dataDir + "book1.out.xls");
 ```
 Ta linia działa jak naciśnięcie przycisku zapisz. Zapisujemy naszą pracę w określonej lokalizacji z określoną nazwą pliku. Upewnij się, że sprawdziłeś swój katalog, aby zobaczyć swoje arcydzieło w formacie Excel!
 ## Wniosek
-W tym samouczku zbadaliśmy proces dodawania kształtów łuków do arkusza kalkulacyjnego programu Excel przy użyciu Aspose.Cells dla .NET. Dzięki prostemu przewodnikowi krok po kroku nauczyłeś się, jak utworzyć nowy skoroszyt, dodać łuki, dostosować ich wygląd i zapisać dokument. Ta możliwość nie tylko poprawia atrakcyjność wizualną arkuszy kalkulacyjnych, ale także sprawia, że prezentacje danych są bardziej pouczające. Niezależnie od tego, czy tworzysz wykresy, raporty, czy po prostu eksperymentujesz, używanie kształtów, takich jak łuki, może dodać kreatywny akcent do Twoich projektów.
+tym samouczku zbadaliśmy proces dodawania kształtów łuków do arkusza kalkulacyjnego programu Excel przy użyciu Aspose.Cells dla .NET. Dzięki prostemu przewodnikowi krok po kroku nauczyłeś się, jak utworzyć nowy skoroszyt, dodać łuki, dostosować ich wygląd i zapisać dokument. Ta możliwość nie tylko poprawia atrakcyjność wizualną arkuszy kalkulacyjnych, ale także sprawia, że prezentacje danych są bardziej pouczające. Niezależnie od tego, czy tworzysz wykresy, raporty, czy po prostu eksperymentujesz, używanie kształtów, takich jak łuki, może dodać kreatywny akcent do Twoich projektów.
 ## Najczęściej zadawane pytania
 ### Czym jest Aspose.Cells?
 Aspose.Cells to zaawansowana biblioteka umożliwiająca programistom tworzenie, edytowanie i konwertowanie plików Excela programowo, bez konieczności używania programu Microsoft Excel.
 ### Czy muszę zainstalować program Microsoft Excel, aby korzystać z Aspose.Cells?
 Nie, Aspose.Cells jest całkowicie niezależny i nie wymaga instalacji programu Microsoft Excel.
 ### Czy mogę wypróbować Aspose.Cells za darmo?
-Tak, możesz wypróbować Aspose.Cells, używając ich[Bezpłatna wersja próbna](https://releases.aspose.com/).
+ Tak, możesz wypróbować Aspose.Cells, używając ich[Bezpłatna wersja próbna](https://releases.aspose.com/).
 ### Jakie języki programowania obsługuje Aspose.Cells?
 Aspose.Cells obsługuje wiele języków, w tym C#, VB.NET i inne.
 ### Gdzie mogę uzyskać pomoc dotyczącą Aspose.Cells?

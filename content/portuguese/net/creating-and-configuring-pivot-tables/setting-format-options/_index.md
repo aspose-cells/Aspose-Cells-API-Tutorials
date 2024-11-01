@@ -45,7 +45,7 @@ string dataDir = "Your Document Directory";
 ```csharp
 Workbook workbook = new Workbook(dataDir + "Book1.xls");
 ```
-Basicamente, este comando diz ao seu programa para abrir o arquivo "Book1.xls" para que possamos trabalhar com seus dados.
+Basicamente, esse comando diz ao seu programa para abrir o arquivo "Book1.xls" para que possamos trabalhar com seus dados.
 ## Etapa 3: Obtenha a primeira planilha
 Agora que nossa pasta de trabalho está aberta, vamos analisar a planilha que contém nossos dados. 
 ```csharp
@@ -64,7 +64,7 @@ Vamos começar a formatar! Podemos configurar se queremos mostrar totais gerais 
 ```csharp
 pivotTable.RowGrand = true;
 ```
- Definir esta propriedade para`true` exibirá os totais gerais na parte inferior de cada linha da sua Tabela Dinâmica. É uma maneira simples, mas eficaz, de fornecer resumos.
+ Definir esta propriedade para`true` exibirá os totais gerais na parte inferior de cada linha na sua Tabela Dinâmica. É uma maneira simples, mas eficaz, de fornecer resumos.
 ## Etapa 6: Defina os totais gerais da tabela dinâmica para colunas
 Assim como definimos totais gerais para linhas, também podemos fazer isso para colunas.
 ```csharp

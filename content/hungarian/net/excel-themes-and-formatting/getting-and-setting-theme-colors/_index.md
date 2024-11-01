@@ -51,7 +51,7 @@ Console.WriteLine("Theme color Accent2: " + c);
 ```
 Amikor ezt futtatja, kinyomtatja a témában használt aktuális színeket. Ez akkor hasznos, ha szeretné megismerni az alapértelmezett beállításokat, mielőtt változtatásokat hajt végre.
 ## 3. lépés: Állítson be új témaszíneket
-Most jön a szórakoztató rész! Megváltoztatjuk a Háttér1 és az Accent2 színét. Változtassuk a Háttér1-et pirosra és az Accent2-t kékre. Ez a munkafüzetnek merész új megjelenést kölcsönöz!
+Most jön a szórakoztató rész! Megváltoztatjuk a Háttér1 és az Accent2 színét. Változtassuk a Háttér1-et pirosra és az Accent2-t kékre. Ez a munkafüzetnek merész, új megjelenést kölcsönöz!
 A SetThemeColor metódust használja a Background1 és Accent2 témaszíneinek módosításához.
 ```csharp
 // Módosítsa a Háttér1 téma színét pirosra.

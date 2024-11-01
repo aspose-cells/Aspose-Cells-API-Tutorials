@@ -81,7 +81,7 @@ Miután mindent beállított, ideje elmenteni az újonnan létrehozott munkafüz
 // Az Excel fájl mentése a hiperhivatkozással
 workbook.Save(outputDir + "outputAddingLinkToOtherSheetCell.xlsx");
 ```
- Ügyeljen arra, hogy a megfelelő elérési utat adja meg`outputDir` hogy az Excel fájl megfelelően mentse.
+ Ügyeljen arra, hogy a megfelelő elérési utat adja meg`outputDir` hogy az Excel-fájl megfelelően menjen.
 ## 9. lépés: Erősítse meg a műveletet
 Végül tudatjuk a felhasználóval, hogy a művelet sikeresen befejeződött.
 ```csharp

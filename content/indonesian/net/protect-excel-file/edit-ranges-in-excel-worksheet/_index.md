@@ -128,7 +128,7 @@ Kita akhirnya mencapai langkah terakhir dalam tutorial kita—menyimpan buku ker
 book.Save(dataDir + "protectedrange.out.xls");
 ```
 
- Ini akan menyimpan buku kerja Anda yang dilindungi sebagai`protectedrange.out.xls` di direktori yang Anda tentukan.
+Ini akan menyimpan buku kerja Anda yang dilindungi sebagai`protectedrange.out.xls` di direktori yang Anda tentukan.
 
 ## Kesimpulan
 

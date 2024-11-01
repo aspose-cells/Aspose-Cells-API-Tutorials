@@ -12,7 +12,7 @@ Har du någonsin behövt konvertera en Excel-arbetsbok till HTML och velat säke
 I slutet av den här artikeln har du en tydlig förståelse för hur du använder den här funktionen och se till att din HTML-utdata är ren och kommentarsfri.
 ## Förutsättningar
 Innan vi dyker in i steg-för-steg-guiden, låt oss ta upp några saker du behöver ha på plats för att följa med smidigt:
-1.  Aspose.Cells för .NET: Du måste ha Aspose.Cells-biblioteket installerat. Om du inte har installerat det ännu kan du ladda ner det[här](https://releases.aspose.com/cells/net/).
+1. Aspose.Cells för .NET: Du måste ha Aspose.Cells-biblioteket installerat. Om du inte har installerat det ännu kan du ladda ner det[här](https://releases.aspose.com/cells/net/).
 2. IDE: En utvecklingsmiljö som Visual Studio för att skriva och köra din C#-kod.
 3. Grundläggande kunskaper i C#: Bekantskap med C#-syntax och objektorienterad programmering hjälper dig att följa med i koden.
 4.  Tillfällig eller licensierad version: Du kan antingen använda den kostnadsfria testversionen eller ansöka om en tillfällig licens från[här](https://purchase.aspose.com/temporary-license/). Detta säkerställer att biblioteket fungerar utan några begränsningar.
@@ -57,7 +57,7 @@ När HtmlSaveOptions-objektet är konfigurerat är nästa steg att spara arbetsb
 // Spara arbetsboken som en HTML-fil med de angivna sparalternativen
 wb.Save(outputDir + "outputDisableDownlevelRevealedComments_true.html", opts);
 ```
-den här kodraden sparar vi arbetsboken i utdatakatalogen du angav tidigare och tillämpar inställningen DisableDownlevelRevealedComments. Resultatet blir en ren HTML-fil utan några oönskade kommentarer.
+I den här kodraden sparar vi arbetsboken i utdatakatalogen du angav tidigare och tillämpar inställningen DisableDownlevelRevealedComments. Resultatet blir en ren HTML-fil utan några oönskade kommentarer.
 ## Steg 5: Verifiera och kör
 Slutligen, för att säkerställa att allt fungerade som förväntat, kan du skicka ett framgångsmeddelande till konsolen.
 ```csharp

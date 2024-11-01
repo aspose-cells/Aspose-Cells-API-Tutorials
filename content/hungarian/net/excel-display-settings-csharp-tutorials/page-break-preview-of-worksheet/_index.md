@@ -122,7 +122,7 @@ Az Aspose.Cells egy .NET API, amely lehetővé teszi a fejlesztők számára Exc
 ### Hogyan vásárolhatok Aspose.Cells-t?
  Tudod[vásárolja meg az Aspose.Cells-t itt](https://purchase.aspose.com/buy).
 
-### Rendelkezésre áll technikai támogatás az Aspose.Cells számára?
+### Elérhető technikai támogatás az Aspose.Cells számára?
  Teljesen! Segítséget kérhetsz a[Aspose támogatási fórum](https://forum.aspose.com/c/cells/9).
 
 ### Alkalmazhatok oldaltörési előnézeteket több munkalapon?

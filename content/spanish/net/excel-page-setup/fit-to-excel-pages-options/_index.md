@@ -16,7 +16,7 @@ url: /es/net/excel-page-setup/fit-to-excel-pages-options/
 Antes de comenzar a codificar, asegurémonos de que tienes todo lo que necesitas para empezar. Esto es lo que deberías tener:
 
 1. Visual Studio: Asegúrate de tener Visual Studio instalado en tu equipo. Este es el centro principal para todo el trabajo de desarrollo.
-2. Aspose.Cells para .NET: Debe tener la biblioteca Aspose.Cells descargada y agregada a su proyecto. Puede obtenerla fácilmente desde[Sitio web de Aspose](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells para .NET: Debe tener la biblioteca Aspose.Cells descargada y agregada a su proyecto. Puede obtenerla fácilmente desde[Sitio web de Aspose](https://releases.aspose.com/cells/net/).
 3. Conocimientos básicos de C#: la familiaridad con la programación en C# será de gran ayuda. Si puede manejar variables, bucles y operaciones básicas de E/S de archivos, se sentirá como en casa.
 4. .NET Framework: asegúrese de que su proyecto esté configurado con la versión adecuada de .NET Framework, ya que la biblioteca está diseñada para ser compatible con este ecosistema.
 
@@ -69,7 +69,7 @@ Ahora, configuremos los parámetros para que la hoja de cálculo se adapte a pá
 ```csharp
 // Establecer el número de páginas en las que se extenderá la longitud de la hoja de cálculo
 worksheet.PageSetup.FitToPagesTall = 1;
-// Establecer el número de páginas en las que se extenderá el ancho de la hoja de cálculo
+//Establecer el número de páginas en las que se extenderá el ancho de la hoja de cálculo
 worksheet.PageSetup.FitToPagesWide = 1;
 ```
 

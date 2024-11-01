@@ -84,7 +84,7 @@ Questa riga recupera la collezione in cui gestirai i tuoi range protetti. È ben
 
 ## Passaggio 5: definire e creare un intervallo protetto
 
-questo punto, siamo pronti a definire in quale intervallo vuoi consentire le modifiche. Creiamo questo intervallo.
+A questo punto, siamo pronti a definire in quale intervallo vuoi consentire le modifiche. Creiamo questo intervallo.
 
 ```csharp
 // Definisci ProtectedRange
@@ -128,7 +128,7 @@ Siamo finalmente giunti all'ultimo passaggio del nostro tutorial: salvare la car
 book.Save(dataDir + "protectedrange.out.xls");
 ```
 
- Questo salverà la tua cartella di lavoro protetta come`protectedrange.out.xls` nella directory specificata.
+Questo salverà la tua cartella di lavoro protetta come`protectedrange.out.xls` nella directory specificata.
 
 ## Conclusione
 

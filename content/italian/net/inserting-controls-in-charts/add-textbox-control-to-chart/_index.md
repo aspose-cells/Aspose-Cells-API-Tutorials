@@ -16,7 +16,7 @@ Creare grafici dinamici e visivamente accattivanti in Excel è un modo fantastic
 Prima di iniziare a scrivere codice, ecco alcune cose che dovresti sapere:
 
 - Nozioni di base di C#: una conoscenza di base della programmazione C# sarà utile. Non preoccuparti; non devi essere un esperto, solo avere dimestichezza con la sintassi.
--  Libreria Aspose.Cells installata: assicurati di aver installato la libreria Aspose.Cells per .NET. Puoi scaricarla da[Qui](https://releases.aspose.com/cells/net/)se non l'hai già fatto.
+-  Libreria Aspose.Cells installata: assicurati di aver installato la libreria Aspose.Cells per .NET. Puoi scaricarla da[Qui](https://releases.aspose.com/cells/net/) se non l'hai già fatto.
 - Visual Studio: è essenziale avere familiarità con Visual Studio o con qualsiasi IDE che si preferisce utilizzare per il framework .NET.
 - Un file Excel esistente: per questo esempio, lavoreremo con un file Excel esistente denominato "sampleAddingTextBoxControlInChart.xls". Puoi crearne uno o scaricare un campione.
 
@@ -151,7 +151,7 @@ Aspose.Cells per .NET è una potente libreria per creare, manipolare e convertir
 Sì! Puoi aggiungere tutti i TextBox di cui hai bisogno ripetendo i passaggi di creazione dei TextBox con posizioni diverse.
 
 ### Aspose.Cells è gratuito?
- Aspose.Cells è una libreria a pagamento, ma puoi scaricare una versione di prova gratuita da[Qui](https://releases.aspose.com/).
+Aspose.Cells è una libreria a pagamento, ma puoi scaricare una versione di prova gratuita da[Qui](https://releases.aspose.com/).
 
 ### Dove posso trovare ulteriore documentazione su Aspose.Cells?
  Puoi accedere a una documentazione completa[Qui](https://reference.aspose.com/cells/net/).

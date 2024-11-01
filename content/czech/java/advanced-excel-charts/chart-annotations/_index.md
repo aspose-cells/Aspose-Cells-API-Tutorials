@@ -22,7 +22,7 @@ Než se pustíme do implementace, ujistěte se, že máte splněny následujíc�
 
 ## Nastavení Aspose.Cells pro Java
 
- Chcete-li začít, musíte ve svém projektu nastavit Aspose.Cells pro Javu. Knihovnu si můžete stáhnout z webu Aspose[zde](https://releases.aspose.com/cells/java/). Po stažení přidejte knihovnu do svého projektu Java.
+Chcete-li začít, musíte ve svém projektu nastavit Aspose.Cells pro Javu. Knihovnu si můžete stáhnout z webu Aspose[zde](https://releases.aspose.com/cells/java/). Po stažení přidejte knihovnu do svého projektu Java.
 
 ## Vytvoření sešitu Excel
 
@@ -116,4 +116,4 @@ Absolutně! Aspose.Cells for Java poskytuje robustní sadu nástrojů a funkcí 
 
 ### Kde najdu další návody na Aspose.Cells pro Javu?
 
- Další návody a dokumentaci naleznete na Aspose.Cells for Java na adrese[zde](https://reference.aspose.com/cells/java/).
+ Další návody a dokumentaci najdete na Aspose.Cells for Java na adrese[zde](https://reference.aspose.com/cells/java/).

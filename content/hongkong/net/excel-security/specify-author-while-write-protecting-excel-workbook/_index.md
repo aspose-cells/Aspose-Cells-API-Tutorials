@@ -93,7 +93,7 @@ wb.Save(outputDir + "outputSpecifyAuthorWhileWriteProtectingWorkbook.xlsx");
 
 ## 結論
 
-現在你就得到它了！您已經了解如何建立 Excel 工作簿、使用密碼設定寫入保護、指定作者以及使用 Aspose.Cells for .NET 無縫保存它。這種功能組合不僅可以保護您的數據，還可以保持其完整性並提供正確的歸屬。
+現在你就擁有了！您已經了解如何建立 Excel 工作簿、使用密碼設定寫入保護、指定作者以及使用 Aspose.Cells for .NET 無縫保存它。這種功能組合不僅可以保護您的數據，還可以保持其完整性並提供正確的歸屬。
 
 ## 常見問題解答
 

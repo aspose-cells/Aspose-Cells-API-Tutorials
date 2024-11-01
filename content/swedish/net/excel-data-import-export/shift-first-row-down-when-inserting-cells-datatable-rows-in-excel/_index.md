@@ -112,7 +112,7 @@ Den här delen av klassen hanterar datahämtning, definierar hur många rader oc
 
 ## Steg 4: Skriv huvudfunktionen
 
- Låt oss nu skapa`Run`metod för att orkestrera hela tabellimportprocessen:
+ Nu, låt oss skapa`Run`metod för att orkestrera hela tabellimportprocessen:
 
 ```csharp
 public static void Run()

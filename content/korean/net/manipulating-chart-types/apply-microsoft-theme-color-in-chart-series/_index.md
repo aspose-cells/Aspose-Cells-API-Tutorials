@@ -101,7 +101,7 @@ chart.NSeries[0].Area.FillFormat.FillType = Aspose.Cells.Drawing.FillType.Solid;
 다음으로, 차트의 채우기 영역에 대한 색상을 정의해야 합니다. 이렇게 하면 선택한 색상에 생명력을 불어넣을 수 있습니다.
 
 ```csharp
-// SolidFill의 CellsColor를 가져옵니다
+//SolidFill의 CellsColor를 가져옵니다
 CellsColor cc = chart.NSeries[0].Area.FillFormat.SolidFill.CellsColor;
 ```
 

@@ -15,7 +15,7 @@ För att följa med i denna handledning, se till att du har följande förutsät
 1.  Aspose.Cells för .NET-bibliotek: Om du inte redan har gjort det,[ladda ner biblioteket](https://releases.aspose.com/cells/net/) eller installera det med NuGet i Visual Studio.
 2. .NET Framework: Du måste ha .NET-utvecklingsmiljön inställd på din dator.
 3. Grundläggande kunskaper i C#: Även om vi guidar dig steg-för-steg, är grundläggande förtrogenhet med C# och objektorienterad programmering fördelaktig.
-4.  Licens: Att använda Aspose.Cells i utvärderingsläge fungerar bra för grundläggande uppgifter, men för full funktionalitet, överväg att skaffa en[tillfällig licens](https://purchase.aspose.com/temporary-license/)eller köper en från[här](https://purchase.aspose.com/buy).
+4.  Licens: Att använda Aspose.Cells i utvärderingsläge fungerar bra för grundläggande uppgifter, men för full funktionalitet, överväg att skaffa en[tillfällig licens](https://purchase.aspose.com/temporary-license/)eller köpa en från[här](https://purchase.aspose.com/buy).
 Nu, låt oss dyka in i koden!
 ## Importera paket
 För att komma igång med Aspose.Cells, se till att du har importerat de nödvändiga namnrymden till ditt projekt. Dessa importer ger tillgång till olika klasser och metoder som du behöver för att interagera med Excel-filer.

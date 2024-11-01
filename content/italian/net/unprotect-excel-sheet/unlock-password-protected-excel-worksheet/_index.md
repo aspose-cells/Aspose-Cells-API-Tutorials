@@ -70,7 +70,7 @@ Per prima cosa, dobbiamo impostare il percorso del nostro documento Excel. Qui s
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Suggerimento: sostituisci`"YOUR DOCUMENT DIRECTORY"`con il percorso effettivo in cui si trova il tuo file Excel (chiamiamolo`book1.xls`) si trova. 
+ Suggerimento: sostituisci`"YOUR DOCUMENT DIRECTORY"` con il percorso effettivo in cui si trova il tuo file Excel (chiamiamolo`book1.xls`) si trova. 
 
 ## Passaggio 2: creare un'istanza di un oggetto cartella di lavoro
 

@@ -23,7 +23,7 @@ Nyní si promluvme o něčem, co často uniká: ověřování dat. Není nic ví
 
  Náš tutoriál na[Ověření desetinných dat v Excelu](./decimal-data-validation-in-excel/) je váš oblíbený zdroj. Provede vás procesem správy desetinných hodnot a zajistí, že vaše data zůstanou spolehlivá a čistá. Dozvíte se o nastavení pravidel ověřování, která omezují vstupy a povolují pouze určité formáty nebo rozsahy. Je to jako vybavit svou tabulku vyhazovačem a umožnit zadání pouze správných dat!
 
-## Automatický filtr Excel a výukové programy pro ověření
+## Automatický filtr Excel a výukové programy ověření
 ### [Automatický filtr začíná v Excelu](./autofilter-begins-with-in-excel/)
 Naučte se, jak bez námahy automaticky filtrovat řádky aplikace Excel pomocí Aspose.Cells v .NET pomocí tohoto podrobného průvodce krok za krokem.
 ### [Ověření desetinných dat v Excelu](./decimal-data-validation-in-excel/)

@@ -9,7 +9,7 @@ url: /cs/net/manipulating-chart-types/apply-microsoft-theme-color-in-chart-serie
 ---
 ## Zavedení
 
-dnešním vizuálně řízeném světě velmi záleží na způsobu, jakým data prezentujeme. Grafy jsou často neopěvovanými hrdiny prezentace dat, zjednodušují složité informace do stravitelných vizuálních pecek. Pokud používáte Microsoft Excel, víte, jak důležité je přizpůsobit grafy tak, aby odpovídaly značce vaší organizace, nebo aby byly jednoduše atraktivnější. Věděli jste ale, že pomocí Aspose.Cells pro .NET můžete své grafy ještě více přizpůsobit? V tomto článku vás provedeme kroky, jak použít barvy motivu Microsoft v řadě grafů, čímž zajistíme, že vaše data nejen vyniknou, ale také budou esteticky odpovídat vašim dalším materiálům značky.
+V dnešním vizuálně řízeném světě velmi záleží na způsobu, jakým data prezentujeme. Grafy jsou často neopěvovanými hrdiny prezentace dat, zjednodušují složité informace do stravitelných vizuálních pecek. Pokud používáte Microsoft Excel, víte, jak důležité je přizpůsobit grafy tak, aby odpovídaly značce vaší organizace, nebo aby byly jednoduše atraktivnější. Věděli jste ale, že pomocí Aspose.Cells pro .NET můžete své grafy ještě více přizpůsobit? V tomto článku vás provedeme kroky, jak použít barvy motivu Microsoft v řadě grafů, čímž zajistíme, že vaše data nejen vyniknou, ale také budou esteticky odpovídat vašim dalším materiálům značky.
 
 ## Předpoklady
 
@@ -101,7 +101,7 @@ Je to analogie rozhodování o vzhledu a dojmu místnosti před jejím zdobením
 Dále budeme muset definovat barvu pro oblast výplně grafu. Takto oživíme námi vybranou barvu.
 
 ```csharp
-// Získejte CellsColor SolidFill
+//Získejte CellsColor SolidFill
 CellsColor cc = chart.NSeries[0].Area.FillFormat.SolidFill.CellsColor;
 ```
 

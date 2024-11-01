@@ -50,7 +50,7 @@ Der erste Schritt besteht darin, festzulegen, wo Sie Ihre Ausgabedatei speichern
 // Ausgabeverzeichnis
 string outputDir = "Your Output Directory";
 ```
- Ersetzen`"Your Output Directory"` durch den tatsächlichen Pfad, in dem Sie die generierte Excel-Datei speichern möchten.
+ Ersetzen`"Your Output Directory"`durch den tatsächlichen Pfad, in dem Sie die generierte Excel-Datei speichern möchten.
 
 ## Schritt 2: Instanziieren des Arbeitsmappenobjekts
 

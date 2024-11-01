@@ -60,7 +60,7 @@ CommentCollection comments = workbook.Worksheets[0].Comments;
 ```
 - Fiches de travail[ 0] : Ceci permet d'accéder à la première feuille de calcul du classeur. N'oubliez pas que l'index est basé sur zéro, donc`[0]` fait référence à la première feuille.
 - Commentaires : Cette propriété nous donne accès à la collection de commentaires sur cette feuille de calcul.
-## Étape 4 : ajouter un commentaire à une cellule
+## Étape 4 : Ajouter un commentaire à une cellule
 Ajoutons un commentaire à une cellule spécifique. Dans ce cas, nous ajouterons un commentaire à la cellule A1.
 ```csharp
 // Ajouter un commentaire à la cellule A1
@@ -91,7 +91,7 @@ comment.CommentShape.Fill.ImageData = ms.ToArray();
 ```
 - comment.CommentShape.Fill.ImageData : Cette propriété vous permet de définir l'image de la forme du commentaire. Nous convertissons le`MemoryStream` à un tableau d'octets en utilisant`ms.ToArray()`.
 ## Étape 7 : Enregistrer le classeur
-Enfin, sauvegardons notre classeur avec le commentaire et l'image inclus.
+Enfin, enregistrons notre classeur avec le commentaire et l'image inclus.
 ```csharp
 // Enregistrer le classeur
 workbook.Save(dataDir + "book1.out.xlsx", Aspose.Cells.SaveFormat.Xlsx);

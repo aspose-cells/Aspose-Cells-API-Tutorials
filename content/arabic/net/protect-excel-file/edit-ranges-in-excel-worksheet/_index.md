@@ -128,7 +128,7 @@ sheet.Protect(ProtectionType.All);
 book.Save(dataDir + "protectedrange.out.xls");
 ```
 
- سيؤدي هذا إلى حفظ المصنف المحمي الخاص بك باسم`protectedrange.out.xls` في الدليل المحدد الخاص بك.
+سيؤدي هذا إلى حفظ المصنف المحمي الخاص بك باسم`protectedrange.out.xls` في الدليل المحدد الخاص بك.
 
 ## خاتمة
 

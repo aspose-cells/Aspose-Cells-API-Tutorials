@@ -88,7 +88,7 @@ StyleFlag flag;
 for (int i = 0; i <= 255; i++)
 {
     style = sheet.Cells.Columns[(byte)i].Style;
-    style.IsLocked = false; //Sütunun kilidini aç
+    style.IsLocked = false; // Sütunun kilidini aç
     flag = new StyleFlag();
     flag.Locked = true; // Kilitleme için bayrağı doğru olarak ayarlayın
     sheet.Cells.Columns[(byte)i].ApplyStyle(style, flag); // Stili uygula

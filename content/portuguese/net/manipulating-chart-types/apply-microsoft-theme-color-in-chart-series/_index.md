@@ -40,7 +40,7 @@ Agora, vamos dividir isso em etapas detalhadas para aplicar as cores do tema da 
 
 ## Etapa 1: Defina seus diretórios de saída e origem
 
-primeira coisa que você vai querer fazer é especificar onde seu arquivo de saída irá e onde seu arquivo de amostra está localizado. Pense nisso como definir um destino antes de embarcar em uma jornada.
+A primeira coisa que você vai querer fazer é especificar onde seu arquivo de saída irá e onde seu arquivo de amostra está localizado. Pense nisso como definir um destino antes de embarcar em uma jornada.
 
 ```csharp
 // Diretório de saída
@@ -101,7 +101,7 @@ Isso é análogo a decidir a aparência de um cômodo antes de decorá-lo: prepa
 Em seguida, precisamos definir a cor para a área de preenchimento do gráfico. É assim que damos vida à cor escolhida.
 
 ```csharp
-// Obter o CellsColor do SolidFill
+//Obter o CellsColor do SolidFill
 CellsColor cc = chart.NSeries[0].Area.FillFormat.SolidFill.CellsColor;
 ```
 

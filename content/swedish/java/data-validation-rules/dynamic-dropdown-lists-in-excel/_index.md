@@ -43,7 +43,7 @@ Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
-## Steg 4: Definiera listkällan
+## Steg 4: Definiera källan för listrutan
 
 För att skapa en dynamisk rullgardinslista behöver du en källa från vilken listan hämtar sina värden. Låt oss säga att du vill skapa en rullgardinslista med frukter. Du kan definiera en rad fruktnamn så här:
 

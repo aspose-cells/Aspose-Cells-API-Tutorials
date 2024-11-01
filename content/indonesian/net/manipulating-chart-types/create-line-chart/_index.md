@@ -50,7 +50,7 @@ Langkah pertama adalah menentukan di mana Anda ingin menyimpan berkas output And
 // Direktori keluaran
 string outputDir = "Your Output Directory";
 ```
- Mengganti`"Your Output Directory"` dengan jalur sebenarnya tempat Anda ingin menyimpan file Excel yang dihasilkan.
+ Mengganti`"Your Output Directory"`dengan jalur sebenarnya tempat Anda ingin menyimpan file Excel yang dihasilkan.
 
 ## Langkah 2: Membuat Instansiasi Objek Buku Kerja
 

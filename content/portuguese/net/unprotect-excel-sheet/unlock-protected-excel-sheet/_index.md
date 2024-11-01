@@ -16,7 +16,7 @@ No mundo empresarial acelerado de hoje, gerenciar dados de forma eficaz e segura
 Antes de começar a usar o código, é essencial garantir que você tenha tudo configurado para uma experiência tranquila com o Aspose.Cells para .NET:
 
 1.  Visual Studio: Você precisa ter o Visual Studio instalado em sua máquina. Se você não o tiver, baixe a versão mais recente do[Site do Visual Studio](https://visualstudio.microsoft.com/downloads/).
-2.  Biblioteca Aspose.Cells: Você precisará da biblioteca Aspose.Cells. Você pode obtê-la baixando do[Site Aspose](https://releases.aspose.com/cells/net/). Como alternativa, você pode instalá-lo diretamente via NuGet no Visual Studio.
+2. Biblioteca Aspose.Cells: Você precisará da biblioteca Aspose.Cells. Você pode obtê-la baixando do[Site Aspose](https://releases.aspose.com/cells/net/). Como alternativa, você pode instalá-lo diretamente via NuGet no Visual Studio.
 3. Noções básicas de C#: Como escreveremos código C#, uma noção básica da linguagem será útil. Se você é novo em C#, há muitos recursos disponíveis para você se atualizar.
 4. Um arquivo Excel: Tenha uma pasta de trabalho do Excel pronta que você deseja desbloquear. Para este exemplo, vamos nos referir a ela como "book1.xls".
 
@@ -69,7 +69,7 @@ Agora que a pasta de trabalho está carregada, você vai querer acessar a planil
 ```csharp
 Worksheet worksheet = workbook.Worksheets[0];
 ```
- Ao especificar`[0]`, você está dizendo ao sistema que quer a primeira planilha. Se sua planilha não for a primeira, simplesmente altere esse índice para o número apropriado.
+ Ao especificar`[0]`você está dizendo ao sistema que quer a primeira planilha. Se sua planilha não for a primeira, simplesmente altere esse índice para o número apropriado.
 
 ## Etapa 4: Desproteja a planilha
 
@@ -116,7 +116,7 @@ E aí está! Desbloquear uma planilha protegida do Excel usando o Aspose.Cells p
 Sim! Você pode percorrer cada planilha na pasta de trabalho e desprotegê-las de forma similar.
 
 ### O Aspose.Cells é gratuito?
- Aspose.Cells oferece um teste gratuito, mas uma licença é necessária para uso em produção. Verifique seus[comprar](https://purchase.aspose.com/buy) página para mais informações.
+ Aspose.Cells oferece um teste gratuito, mas uma licença é necessária para uso em produção. Verifique seus[comprar](https://purchase.aspose.com/buy)página para mais informações.
 
 ### E se eu não souber a senha?
 Se uma planilha for protegida por senha e você não tiver a senha, a biblioteca não ajudará a contornar as restrições, pois isso é contra as políticas éticas.

@@ -19,7 +19,7 @@ Bevor Sie sich in den Code vertiefen, stellen Sie sicher, dass Sie Folgendes ein
 2. .NET-Entwicklungsumgebung: Stellen Sie sicher, dass Ihr Projekt für die Verwendung von .NET Framework oder .NET Core eingerichtet ist.
 3. Grundkenntnisse in C#: Sie sollten mit der C#-Programmierung vertraut sein, insbesondere mit der objektorientierten Programmierung (OOP).
 
-Für fortgeschrittene Benutzer kann eine temporäre Lizenz beantragt werden, um alle Funktionen von Aspose.Cells freizuschalten. Sie können eine anfordern bei[Hier](https://purchase.aspose.com/temporary-license/).
+ Für fortgeschrittene Benutzer kann eine temporäre Lizenz beantragt werden, um alle Funktionen von Aspose.Cells freizuschalten. Sie können eine anfordern bei[Hier](https://purchase.aspose.com/temporary-license/).
 
 ## Pakete importieren
 
@@ -100,7 +100,7 @@ int chartIndex = chartSheet.Charts.Add(Aspose.Cells.Charts.ChartType.Pie, 5, 0, 
 Aspose.Cells.Charts.Chart chart = chartSheet.Charts[chartIndex];
 ```
 
- Die Methode`Add()` akzeptiert Parameter für den Diagrammtyp (in diesem Fall`ChartType.Pie`) und seine Position auf dem Arbeitsblatt. Die Zahlen repräsentieren Zeilen- und Spaltenpositionen.
+ Die Methode`Add()`akzeptiert Parameter für den Diagrammtyp (in diesem Fall`ChartType.Pie`) und seine Position auf dem Arbeitsblatt. Die Zahlen repräsentieren Zeilen- und Spaltenpositionen.
 
 ## Schritt 5: Anpassen des Diagrammaussehens
 
@@ -187,7 +187,7 @@ Das Erstellen eines Kreisdiagramms mit Aspose.Cells für .NET ist ein unkomplizi
 Ja! Aspose.Cells unterstützt verschiedene Diagrammtypen, darunter Balkendiagramme, Liniendiagramme und Streudiagramme.
 
 ### Benötige ich eine kostenpflichtige Lizenz, um Aspose.Cells für .NET zu verwenden?
- Sie können die kostenlose Version mit einigen Einschränkungen nutzen. Für den vollen Funktionsumfang benötigen Sie eine Lizenz, die Sie kaufen können[Hier](https://purchase.aspose.com/buy).
+Sie können die kostenlose Version mit einigen Einschränkungen nutzen. Für den vollen Funktionsumfang benötigen Sie eine Lizenz, die Sie kaufen können[Hier](https://purchase.aspose.com/buy).
 
 ### Kann ich das Diagramm in Formate wie PDF oder Bilder exportieren?
 Auf jeden Fall! Mit Aspose.Cells können Sie Diagramme in verschiedene Formate exportieren, darunter PDF und PNG.

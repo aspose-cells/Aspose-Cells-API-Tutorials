@@ -11,7 +11,7 @@ url: /cs/net/saving-and-exporting-excel-files-with-options/specifying-document-v
 Aspose.Cells for .NET je výkonná knihovna, která umožňuje vývojářům snadno programově manipulovat se soubory aplikace Excel. Ať už chcete vytvořit soubory aplikace Excel od začátku nebo upravit ty stávající, Aspose.Cells nabízí komplexní API pro dosažení vašich cílů. Jednou z takových funkcí je určení vlastností dokumentu, jako je verze, autor nebo název. Tento tutoriál vás provede programovým určením verze dokumentu souboru aplikace Excel pomocí Aspose.Cells for .NET.
 ## Předpoklady
 Než se ponoříme do podrobností, ujistěte se, že spolu s tímto návodem máte vše, co potřebujete:
-1.  Aspose.Cells pro .NET: Můžete si stáhnout nejnovější verzi[zde](https://releases.aspose.com/cells/net/) . Pokud jste si ještě nezakoupili licenci, můžete se rozhodnout pro a[dočasná licence](https://purchase.aspose.com/temporary-license/) prozkoumat funkce.
+1. Aspose.Cells pro .NET: Můžete si stáhnout nejnovější verzi[zde](https://releases.aspose.com/cells/net/) . Pokud jste si ještě nezakoupili licenci, můžete se rozhodnout pro a[dočasná licence](https://purchase.aspose.com/temporary-license/) prozkoumat funkce.
 2. Vývojové prostředí .NET: Můžete použít Visual Studio nebo jakékoli IDE kompatibilní s .NET.
 3. Základní znalost C#: Pochopení programování v C# vám usnadní sledování.
 ## Importujte balíčky
@@ -29,9 +29,9 @@ Nyní si rozeberme proces zadávání vlastností dokumentu v souboru aplikace E
 ```csharp
 Workbook wb = new Workbook();
 ```
- The`Workbook` class poskytuje reprezentaci souboru Excel. Jeho instancí vytvoříme prázdný excelový sešit, se kterým můžeme manipulovat.
+ The`Workbook`class poskytuje reprezentaci souboru Excel. Jeho instancí vytvoříme prázdný excelový sešit, se kterým můžeme manipulovat.
 ## Krok 2: Otevřete vlastnosti vestavěného dokumentu
-Aspose.Cells nabízí vestavěné vlastnosti dokumentu, které zahrnují pole jako název, autor a verze dokumentu. K těmto vlastnostem můžete přistupovat prostřednictvím`BuiltInDocumentProperties`sbírka.
+ Aspose.Cells nabízí vestavěné vlastnosti dokumentu, které zahrnují pole jako název, autor a verze dokumentu. K těmto vlastnostem můžete přistupovat prostřednictvím`BuiltInDocumentProperties`sbírka.
 ```csharp
 Aspose.Cells.Properties.BuiltInDocumentPropertyCollection bdpc = wb.BuiltInDocumentProperties;
 ```
@@ -59,9 +59,9 @@ Nastavení verze dokumentu objasní, která verze dokumentu nebo knihovny byla p
 ```csharp
 wb.Save("outputSpecifyDocumentVersionOfExcelFile.xlsx", SaveFormat.Xlsx);
 ```
- The`Save` metoda se používá k uložení souboru do určeného adresáře. Zde jej ukládáme jako soubor aplikace Excel v`.xlsx` formát. V případě potřeby Aspose.Cells také podporuje formáty jako`.xls`, `.csv` a`.pdf`poskytující flexibilitu na základě potřeb vašeho projektu.
+ The`Save` metoda se používá k uložení souboru do určeného adresáře. Zde jej ukládáme jako soubor aplikace Excel v`.xlsx`formát. V případě potřeby Aspose.Cells také podporuje formáty jako`.xls`, `.csv` a`.pdf`poskytující flexibilitu na základě potřeb vašeho projektu.
 ## Závěr
-tomto tutoriálu jsme si prošli, jak specifikovat vlastnosti dokumentu, zejména verzi dokumentu, v souboru aplikace Excel pomocí Aspose.Cells for .NET. Aspose.Cells je extrémně flexibilní a výkonný nástroj, který vám umožňuje programově manipulovat se soubory Excelu, což z něj dělá velkou výhodu pro každého vývojáře .NET pracujícího s tabulkami.
+V tomto tutoriálu jsme si prošli, jak specifikovat vlastnosti dokumentu, zejména verzi dokumentu, v souboru aplikace Excel pomocí Aspose.Cells for .NET. Aspose.Cells je extrémně flexibilní a výkonný nástroj, který vám umožňuje programově manipulovat se soubory Excelu, což z něj dělá velkou výhodu pro každého vývojáře .NET pracujícího s tabulkami.
 ## FAQ
 ### Mohu upravit další vestavěné vlastnosti pomocí Aspose.Cells?  
 Ano, můžete upravit další vestavěné vlastnosti, jako je mimo jiné předmět, klíčová slova a komentáře.

@@ -2,7 +2,7 @@
 title: Excel naar MHTML converteren in .NET
 linktitle: Excel naar MHTML converteren in .NET
 second_title: Aspose.Cells .NET Excel-verwerkings-API
-description: Leer hoe u Excel-bestanden efficiënt kunt converteren naar MHTML-indeling in .NET met Aspose.Cells, waarmee u uw rapportage- en gegevensdelingsmogelijkheden vergroot.
+description: Leer hoe u Excel-bestanden efficiënt kunt converteren naar MHTML-indeling in .NET met Aspose.Cells, waarmee u uw rapportage- en gegevensuitwisselingsmogelijkheden vergroot.
 type: docs
 weight: 12
 url: /nl/net/conversion-and-rendering/converting-excel-to-mhtml/

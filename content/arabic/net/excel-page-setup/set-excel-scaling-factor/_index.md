@@ -69,7 +69,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Workbook workbook = new Workbook();
 ```
 
- هنا نعلن عن جديد`Workbook`الكائن الذي يمثل ملف Excel وسيسمح لنا بالتعامل مع محتوياته.
+ هنا نعلن عن جديد`Workbook` الكائن الذي يمثل ملف Excel وسيسمح لنا بالتعامل مع محتوياته.
 
 ## الخطوة 3: الوصول إلى ورقة العمل الأولى
 

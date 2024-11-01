@@ -99,7 +99,7 @@ Dòng mã này đảm bảo rằng chuỗi đầu tiên trong biểu đồ đư�
  Bây giờ series của chúng ta đã sẵn sàng, chúng ta cần sửa đổi màu sắc của nó. Điều này liên quan đến việc tạo ra một`CellsColor` đối tượng và chỉ định màu chủ đề. Chúng tôi sẽ chọn một kiểu nhấn cho ví dụ này.
 
 ```csharp
-// Lấy CellsColor của SolidFill
+//Lấy CellsColor của SolidFill
 CellsColor cc = chart.NSeries[0].Area.FillFormat.SolidFill.CellsColor;
 
 // Tạo chủ đề theo phong cách Accent
@@ -158,7 +158,7 @@ Aspose.Cells là một thư viện mạnh mẽ dành cho .NET cho phép các nh�
 Aspose.Cells hỗ trợ nhiều màu chủ đề khác nhau bao gồm cả kiểu Accent và nhiều kiểu khác.
 
 ### Có thể áp dụng chủ đề cho nhiều biểu đồ không?
- Chắc chắn rồi! Bạn có thể lặp lại`worksheet.Charts` và áp dụng chủ đề khi cần thiết.
+Chắc chắn rồi! Bạn có thể lặp lại`worksheet.Charts` và áp dụng chủ đề khi cần thiết.
 
 ### Tôi có thể nhận hỗ trợ cho Aspose.Cells ở đâu?
  Bạn có thể nhận được sự hỗ trợ và tham gia vào cộng đồng người dùng[đây](https://forum.aspose.com/c/cells/9).

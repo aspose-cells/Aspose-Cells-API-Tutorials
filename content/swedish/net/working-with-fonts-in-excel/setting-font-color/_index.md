@@ -56,7 +56,7 @@ Nu när vi har vårt kalkylblad, låt oss få tillgång till det så att vi kan 
 // Få referensen till det nyligen tillagda kalkylbladet genom att skicka dess arkindex
 Worksheet worksheet = workbook.Worksheets[i];
 ```
-Här får vi en referens till kalkylbladet vi just skapat med hjälp av dess index. Detta gör att vi kan arbeta direkt på arket.
+Här får vi en referens till kalkylbladet vi just skapade med hjälp av dess index. Detta gör att vi kan arbeta direkt på arket.
 ## Steg 5: Få åtkomst till en specifik cell
 Det är dags att skriva något till vårt Excel-ark! Vi väljer cell "A1" för att göra det enkelt.
 ```csharp
@@ -82,7 +82,7 @@ Detta hämtar cellens nuvarande stil, vilket gör att vi kan manipulera dess est
 Här kommer den roliga delen! Vi kommer att ändra teckensnittsfärgen på texten vi la till till blå.
 ```csharp
 // ExStart:SetFontColor
-// Ställer in teckensnittsfärgen på blå
+// Ställer in teckensnittsfärgen till blå
 style.Font.Color = Color.Blue;
 // ExEnd:SetFontColor
 ```

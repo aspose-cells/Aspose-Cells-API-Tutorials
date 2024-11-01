@@ -44,7 +44,7 @@ Teraz możesz utworzyć skoroszyt programu Excel! Tutaj będą znajdować się w
 // Tworzenie instancji obiektu skoroszytu
 Workbook workbook = new Workbook();
 ```
-Ten wiersz inicjuje nowy skoroszyt w pamięci, zapewniając puste miejsce do pracy.
+Ten wiersz inicjuje nowy skoroszyt w pamięci, zapewniając Ci puste miejsce do pracy.
 ## Krok 4: Dodawanie nowego arkusza kalkulacyjnego
 W programie Excel każdy skoroszyt może zawierać wiele arkuszy. Dodajmy jeden do naszego skoroszytu.
 ```csharp

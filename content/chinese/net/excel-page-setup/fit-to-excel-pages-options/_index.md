@@ -16,7 +16,7 @@ url: /zh/net/excel-page-setup/fit-to-excel-pages-options/
 在开始编码之前，让我们确保您已准备好开始编码所需的一切。以下是您应该具备的条件：
 
 1. Visual Studio：确保您的机器上安装了 Visual Studio。这是您所有开发工作的主要中心。
-2. Aspose.Cells for .NET：您需要下载 Aspose.Cells 库并将其添加到您的项目中。您可以从[Aspose 网站](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells for .NET：您需要下载 Aspose.Cells 库并将其添加到您的项目中。您可以从[Aspose 网站](https://releases.aspose.com/cells/net/).
 3. 基本 C# 知识：熟悉 C# 编程将大有帮助。如果您可以处理变量、循环和基本文件 I/O，那么您就很熟练了。
 4. .NET Framework：确保您的项目设置了适当的 .NET Framework 版本，因为该库是为与该生态系统兼容而设计的。
 

@@ -18,7 +18,7 @@ Antes de começarmos a usar o código, há alguns itens essenciais que você pre
 1. Ambiente de desenvolvimento .NET: certifique-se de ter um ambiente compatível com .NET configurado, como o Visual Studio ou qualquer outro IDE de sua escolha.
 2.  Biblioteca Aspose.Cells: Você precisará da biblioteca Aspose.Cells. Você pode[baixe aqui](https://releases.aspose.com/cells/net/).
 3. Noções básicas de C#: Conhecer os fundamentos do C# certamente ajudará você a entender melhor os conceitos.
-4.  Documentação do Aspose.Cells: Familiarize-se com o[documentação](https://reference.aspose.com/cells/net/)para quaisquer configurações avançadas ou recursos adicionais que você possa achar úteis mais tarde.
+4.  Documentação do Aspose.Cells: Familiarize-se com o[documentação](https://reference.aspose.com/cells/net/) para quaisquer configurações avançadas ou recursos adicionais que você possa achar úteis mais tarde.
 
 Agora que temos nossos pré-requisitos resolvidos, vamos importar os pacotes necessários!
 
@@ -149,4 +149,4 @@ O Aspose.Cells oferece suporte principalmente a linguagens .NET, mas há outras 
  Você pode acessar o suporte através do[Fórum Aspose](https://forum.aspose.com/c/cells/9).
 
 ### Posso obter uma licença temporária para o Aspose.Cells?  
- Claro! Você pode solicitar um[licença temporária](https://purchase.aspose.com/temporary-license/) para avaliar o produto.
+Claro! Você pode solicitar um[licença temporária](https://purchase.aspose.com/temporary-license/) para avaliar o produto.

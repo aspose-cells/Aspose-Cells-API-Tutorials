@@ -60,7 +60,7 @@ Először is: meg kell határoznunk, hol lesznek a dokumentumaink. Ide mentjük 
 
 ```csharp
 // A dokumentumok könyvtárának elérési útja.
-string dataDir = "Your Document Directory";  // Frissítse ezt az elérési utat az adott könyvtárhoz
+string dataDir = "Your Document Directory";  // Frissítse ezt az elérési utat az adott könyvtárra
 ```
 
  Ügyeljen arra, hogy cserélje ki`"Your Document Directory"` a tényleges úttal. Ez olyan, mintha új otthont találna a kemény munkához!
@@ -97,7 +97,7 @@ PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
 pdfSaveOptions.Compliance = PdfCompliance.PdfA1b;
 ```
 
-A PDF/A megfelelőség biztosítja, hogy az archívum egységes és megbízható legyen a jövő generációi számára. Akár egy időkapszula!
+A PDF/A megfelelőség biztosítja, hogy az archívum egységes és megbízható legyen a jövő generációi számára. Akárcsak egy időkapszula!
 
 ## 5. lépés: Mentse el a munkafüzetet
 

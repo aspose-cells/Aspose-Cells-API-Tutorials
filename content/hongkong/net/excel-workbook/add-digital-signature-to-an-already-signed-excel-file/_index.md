@@ -102,7 +102,7 @@ Aspose.Cells.DigitalSignatures.DigitalSignature signature = new Aspose.Cells.Dig
 現在是時候將數位簽章集合新增至工作簿了。這就是魔法發生的地方！
 
 ```csharp
-//在工作簿中新增數位簽章集合
+//在工作簿內新增數位簽章集合
 workbook.AddDigitalSignature(dsCollection);
 ```
 
@@ -132,7 +132,7 @@ Console.WriteLine("AddDigitalSignatureToAnAlreadySignedExcelFile executed succes
 
 ## 結論
 
-現在你就得到它了！您已使用 Aspose.Cells for .NET 成功將新的數位簽章新增至已簽署的 Excel 檔案。數位簽章是確保文件真實性的強大方法，現在您知道如何以程式設計方式管理它們。無論您處理的是財務文件、合約或任何敏感訊息，實施數位簽章都可以增強安全性和信任。
+現在你就擁有了！您已使用 Aspose.Cells for .NET 成功將新的數位簽章新增至已簽署的 Excel 檔案。數位簽章是確保文件真實性的強大方法，現在您知道如何以程式設計方式管理它們。無論您處理的是財務文件、合約或任何敏感訊息，實施數位簽章都可以增強安全性和信任。
 
 ## 常見問題解答
 

@@ -12,7 +12,7 @@ Bạn đã bao giờ cần chuyển đổi sổ làm việc Excel sang HTML và 
 Đến cuối bài viết này, bạn sẽ hiểu rõ cách sử dụng tính năng này và đảm bảo đầu ra HTML của bạn sạch sẽ và không có bình luận.
 ## Điều kiện tiên quyết
 Trước khi đi sâu vào hướng dẫn từng bước, chúng ta hãy cùng tìm hiểu một số điều bạn cần chuẩn bị để thực hiện suôn sẻ:
-1.  Aspose.Cells cho .NET: Bạn sẽ cần phải cài đặt thư viện Aspose.Cells. Nếu bạn chưa cài đặt, bạn có thể tải xuống[đây](https://releases.aspose.com/cells/net/).
+1. Aspose.Cells cho .NET: Bạn sẽ cần phải cài đặt thư viện Aspose.Cells. Nếu bạn chưa cài đặt, bạn có thể tải xuống[đây](https://releases.aspose.com/cells/net/).
 2. IDE: Một môi trường phát triển như Visual Studio để viết và thực thi mã C# của bạn.
 3. Kiến thức cơ bản về C#: Sự quen thuộc với cú pháp C# và lập trình hướng đối tượng sẽ giúp bạn theo dõi mã.
 4.  Phiên bản tạm thời hoặc có giấy phép: Bạn có thể sử dụng bản dùng thử miễn phí hoặc đăng ký giấy phép tạm thời từ[đây](https://purchase.aspose.com/temporary-license/). Điều này đảm bảo thư viện hoạt động mà không có bất kỳ hạn chế nào.

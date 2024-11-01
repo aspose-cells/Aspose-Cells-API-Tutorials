@@ -17,7 +17,7 @@ Als u ooit de frustratie hebt gevoeld van het proberen om toegang te krijgen tot
 
 ## Stroomlijning van gegevenstoegang met alleen-gegevensbestanden
 
-Laten we het nu hebben over[bestanden openen met alleen gegevens](./opening-file-with-data-only/). Wist u dat u soms de opmaak van een Excel-spreadsheet niet nodig hebt? Door u alleen op de ruwe data te richten, kunt u de prestaties en het gebruiksgemak aanzienlijk verbeteren. Deze tutorial begeleidt .NET-ontwikkelaars bij het efficiënt openen van Excel-bestanden door u uitsluitend op de data te richten. Het is vooral handig in scenario's waarin u grote datasets snel analyseert of verwerkt zonder onnodige afleidingen.
+Laten we het nu hebben over[bestanden openen met alleen gegevens](./opening-file-with-data-only/). Wist u dat u soms de opmaak van een Excel-spreadsheet niet nodig hebt? Door u alleen op de ruwe data te richten, kunt u de prestaties en het gebruiksgemak aanzienlijk verbeteren. Deze tutorial begeleidt .NET-ontwikkelaars bij het efficiënt openen van Excel-bestanden door u alleen op de data te richten. Het is vooral handig in scenario's waarin u grote datasets snel analyseert of verwerkt zonder onnodige afleidingen.
 
 ## Bestandsindelingen en paden verkennen
 

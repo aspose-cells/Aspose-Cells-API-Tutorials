@@ -58,7 +58,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
  Itu`FileStream` memungkinkan kita membaca berkas Excel yang ditentukan. Pastikan untuk mengubah "DIREKTORI DOKUMEN ANDA" ke jalur sebenarnya tempat berkas Excel Anda berada.
 
-## Langkah 2: Membuat Instansiasi Objek Buku Kerja
+## Langkah 2: Membuat Instansi Objek Buku Kerja
 
  Sekarang setelah kita memiliki aliran file, kita dapat membuat`Workbook` obyek.
 

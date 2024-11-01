@@ -66,7 +66,7 @@ wb.Save(dataDir + "RefreshAndCalculateItems_out.pdf", SaveFormat.Pdf);
 ```
 Abschließend speichern wir die geänderte Arbeitsmappe als PDF-Datei. Dieser Schritt konvertiert die aktuelle Ansicht unseres Excel-Blatts in ein schön formatiertes PDF-Dokument, das zum Teilen oder Präsentieren bereit ist. Ist das nicht praktisch? Es ist, als würden Sie Ihr Gourmet-Menü in einer schicken Schachtel verpacken!
 ## Abschluss
-Das Arbeiten mit Pivot-Tabellen und berechneten Elementen in Excel unter Verwendung von Aspose.Cells für .NET eröffnet eine Welt voller Möglichkeiten. Sie können nicht nur die Datenaktualisierung und Berechnungen automatisieren, sondern auch sofort professionell aussehende Ergebnisse erstellen. Egal, ob Sie eine datengesteuerte Anwendung erstellen oder einfach nur Berichte erstellen müssen, Aspose.Cells stattet Sie mit leistungsstarken Tools aus, um die Arbeit effektiv und elegant zu erledigen.
+Das Arbeiten mit Pivot-Tabellen und berechneten Elementen in Excel unter Verwendung von Aspose.Cells für .NET eröffnet eine Welt voller Möglichkeiten. Sie können nicht nur die Datenaktualisierung und Berechnungen automatisieren, sondern auch sofort professionell aussehende Ausgaben erstellen. Egal, ob Sie eine datengesteuerte Anwendung erstellen oder einfach nur Berichte erstellen müssen, Aspose.Cells stattet Sie mit leistungsstarken Tools aus, um die Arbeit effektiv und elegant zu erledigen.
 ## Häufig gestellte Fragen
 ### Was ist Aspose.Cells für .NET?
 Aspose.Cells für .NET ist eine robuste Bibliothek, mit der Entwickler Excel-Dateien programmgesteuert erstellen, bearbeiten und konvertieren können.

@@ -12,7 +12,7 @@ Pokud jde o správu a vykreslování souborů aplikace Excel programově, Aspose
 ## Předpoklady
 Než se ponoříme do vzrušujícího světa Aspose.Cells a přizpůsobení písem, ujistěte se, že máte vše, co potřebujete, abyste mohli začít:
 1. Základní znalost .NET: Znalost programování .NET je zásadní, protože budeme pracovat v prostředí .NET.
-2.  Aspose.Cells for .NET: Ujistěte se, že máte nainstalovanou knihovnu Aspose.Cells. Můžete si jej stáhnout[zde](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells for .NET: Ujistěte se, že máte nainstalovanou knihovnu Aspose.Cells. Můžete si jej stáhnout[zde](https://releases.aspose.com/cells/net/).
 3. Visual Studio: Tato příručka předpokládá, že používáte Visual Studio jako své IDE. Ujistěte se, že jej máte nainstalovaný a nastavený.
 4. Vzorový soubor Excel: Připravte si vzorový soubor Excel pro tento výukový program. To usnadní pochopení toho, jak vlastní písma ovlivňují výstup vykreslování.
 5. Vlastní písma: Připravte si adresář vlastních písem, která chcete použít. To je zásadní pro testování našeho procesu vykreslování.
@@ -41,7 +41,7 @@ string outputDir = "Your Document Directory";
 string customFontsDir = sourceDir + "CustomFonts";
 ```
 
-Představte si, že máte kartotéku plnou důležitých dokumentů (v tomto případě souborů Excel). Nastavení vašich adresářů je jako uspořádání té skříně; zajišťuje, že přesně víte, kde jsou vaše soubory uloženy. Definováním`sourceDir`, `outputDir` a`customFontsDir`, připravujete pracovní prostor, díky kterému bude váš kód čistší a lépe spravovatelný.
+ Představte si, že máte kartotéku plnou důležitých dokumentů (v tomto případě souborů Excel). Nastavení vašich adresářů je jako uspořádání té skříně; zajišťuje, že přesně víte, kde jsou vaše soubory uloženy. Definováním`sourceDir`, `outputDir` a`customFontsDir`, připravujete pracovní prostor, díky kterému bude váš kód čistší a lépe spravovatelný.
 ## Krok 2: Zadejte konfigurace jednotlivých písem
 Dále musíme vytvořit individuální konfigurace písem. Tento krok je zásadní pro to, abyste Aspose.Cells řekli, kde najdou vaše vlastní písma.
 ```csharp
@@ -49,7 +49,7 @@ Dále musíme vytvořit individuální konfigurace písem. Tento krok je zásadn
 IndividualFontConfigs fontConfigs = new IndividualFontConfigs();
 fontConfigs.SetFontFolder(customFontsDir, false);
 ```
- Berte tento krok jako poskytnutí pokynů příteli, který se snaží najít konkrétní kavárnu. Zadáním`customFontsDir`, ukazujete Aspose.Cells na přesné umístění vašich písem. Pokud je směr nesprávný (nebo pokud tam nejsou písma), můžete skončit s neuspokojivým výstupem PDF. Ujistěte se tedy, že váš adresář písem je přesný!
+ Berte tento krok jako poskytnutí pokynů příteli, který se snaží najít konkrétní kavárnu. Zadáním`customFontsDir`ukazujete Aspose.Cells na přesné umístění vašich písem. Pokud je směr nesprávný (nebo pokud tam nejsou písma), můžete skončit s neuspokojivým výstupem PDF. Ujistěte se tedy, že váš adresář písem je přesný!
 ## Krok 3: Nastavte možnosti načítání
 Nyní je čas definovat možnosti načítání, které integrují naše nastavení písem do sešitu.
 ```csharp
@@ -64,14 +64,14 @@ S našimi pevně nastavenými možnostmi načtení načtěte soubor Excel, kter�
 // Načtěte ukázkový soubor Excel s jednotlivými konfiguracemi písem.
 Workbook wb = new Workbook(sourceDir + "sampleSpecifyIndividualOrPrivateSetOfFontsForWorkbookRendering.xlsx", opts);
 ```
- Tento krok je podobný otevření vaší oblíbené knihy. Zde říkáte Aspose.Cells, se kterým souborem Excel pracovat. Pomocí`Workbook` třídy a specifikovaných možností načtení, v podstatě otevíráte kryt a ponoříte se do obsahu, připraveni provést změny.
+ Tento krok je podobný otevření vaší oblíbené knihy. Zde říkáte Aspose.Cells, se kterým souborem Excel pracovat. Pomocí`Workbook`třídy a specifikovaných možností načtení, v podstatě otevíráte kryt a ponoříte se do obsahu, připraveni provést změny.
 ## Krok 5: Uložte sešit v požadovaném formátu
 Nakonec je čas upravený sešit uložit v požadovaném formátu (v tomto případě PDF).
 ```csharp
-//Uložit do formátu PDF.
+// Uložit do formátu PDF.
 wb.Save(outputDir + "outputSpecifyIndividualOrPrivateSetOfFontsForWorkbookRendering.pdf", SaveFormat.Pdf);
 ```
-Je to, jako když knihu po přečtení vrátíte na poličku, ale nyní je v jiném formátu. Uložením sešitu ve formátu PDF zajistíte, že vykreslení bude provedeno s neporušenými zadanými fonty, takže bude reprezentativní a profesionální.
+Je to, jako když knihu po přečtení vrátíte na poličku, ale nyní je v jiném formátu. Uložením sešitu ve formátu PDF zajistíte, že vykreslení bude provedeno s neporušenými zadanými písmy, takže bude reprezentativní a profesionální.
 ## Krok 6: Potvrďte úspěch
 Nakonec si potvrďte, že vše proběhlo hladce vytištěním zprávy o úspěchu.
 ```csharp

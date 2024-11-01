@@ -90,4 +90,4 @@ Trong hướng dẫn này, chúng ta đã học cách tạo hoạt ảnh biểu 
 
 ### Mục đích của việc trì hoãn hoạt ảnh là gì?
 
- Độ trễ hoạt hình xác định khoảng thời gian trước khi hoạt hình biểu đồ bắt đầu. Sử dụng`setAnimationDelay`phương pháp thiết lập độ trễ tính bằng mili giây.
+ Độ trễ hoạt hình xác định khoảng thời gian trước khi hoạt hình biểu đồ bắt đầu. Sử dụng`setAnimationDelay` phương pháp thiết lập độ trễ tính bằng mili giây.

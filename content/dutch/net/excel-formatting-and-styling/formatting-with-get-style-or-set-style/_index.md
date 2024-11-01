@@ -55,7 +55,7 @@ Laten we nu de cel specificeren die we willen opmaken. In dit geval gaan we werk
 ```csharp
 Cell cell = worksheet.Cells["A1"];
 ```
-Met deze stap kunnen we een specifieke cel selecteren waar we onze styling op toepassen.
+Met deze stap kunnen we een specifieke cel selecteren waarop we onze styling gaan toepassen.
 ## Stap 5: Gegevens invoeren in de cel
 Waarde toevoegen aan de cel
 Vervolgens voeren we wat tekst in de door ons gekozen cel in.
@@ -102,7 +102,7 @@ style.Borders[BorderType.BottomBorder].LineStyle = CellBorderType.Medium;
 ```
 Hier specificeren we de kleur en de lijnstijl voor de onderrand, waardoor onze cel een gedefinieerde afsluiting krijgt.
 ## Stap 11: Pas de stijl toe op de cel
-Het afronden van uw stijlwijzigingen
+Uw stijlwijzigingen afronden
 Nu is het tijd om alle mooie stijlen die we hebben gedefinieerd toe te passen op onze cel.
 ```csharp
 cell.SetStyle(style);

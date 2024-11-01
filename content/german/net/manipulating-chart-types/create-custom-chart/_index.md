@@ -42,14 +42,14 @@ Als Erstes müssen Sie ein Verzeichnis erstellen, in dem Ihre Excel-Datei gespei
 
 ```csharp
 // Ausgabeverzeichnis
-string outputDir = "Your Output Directory"; //Ändern Sie dies in den gewünschten Pfad
+string outputDir = "Your Output Directory"; // Ändern Sie dies in den gewünschten Pfad
 ```
 
 Anstelle von „Ihr Ausgabeverzeichnis“ können Sie einen tatsächlichen Pfad angeben, in dem die Excel-Datei gespeichert werden soll. Stellen Sie sicher, dass dieses Verzeichnis auf Ihrem System vorhanden ist. Andernfalls treten später Fehler auf.
 
 ## Schritt 2: Instanziieren eines Arbeitsmappenobjekts
 
- Nun möchten Sie mit der Erstellung einer neuen Instanz des`Workbook` Klasse. Dies ist der grundlegende Baustein für alle Excel-Operationen mit Aspose.Cells.
+ Nun möchten Sie mit der Erstellung einer neuen Instanz des`Workbook`Klasse. Dies ist der grundlegende Baustein für alle Excel-Operationen mit Aspose.Cells.
 
 ```csharp
 // Instanziieren eines Workbook-Objekts

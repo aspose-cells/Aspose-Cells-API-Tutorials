@@ -160,7 +160,7 @@ Cela vous donne un retour immédiat indiquant que le code a fonctionné sans auc
 
 ## Conclusion
 
-Et voilà ! Vous avez importé avec succès des données dans une feuille Excel à l'aide d'Aspose.Cells pour .NET et des champs de formule spécifiés. En suivant ces étapes, vous pouvez appliquer des techniques similaires pour automatiser les tâches de traitement des données adaptées à vos besoins. Que vous traitiez des chiffres pour des rapports ou que vous conserviez simplement des données, maîtriser l'art de la manipulation d'Excel avec Aspose est une compétence qui vaut la peine d'être acquise.
+Et voilà ! Vous avez réussi à importer des données dans une feuille Excel à l'aide d'Aspose.Cells pour .NET et des champs de formule spécifiés. En suivant ces étapes, vous pouvez appliquer des techniques similaires pour automatiser les tâches de traitement de données adaptées à vos besoins. Que vous traitiez des chiffres pour des rapports ou que vous conserviez simplement des données, maîtriser l'art de la manipulation d'Excel avec Aspose est une compétence qui vaut la peine d'être acquise.
 
 ## FAQ
 

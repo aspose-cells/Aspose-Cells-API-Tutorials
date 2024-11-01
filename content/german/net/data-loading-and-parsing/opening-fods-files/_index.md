@@ -59,7 +59,7 @@ Console.WriteLine("FODS file opened successfully!");
 
  Dadurch werden Ihre Änderungen in einer neuen Datei mit dem Namen gespeichert.`ModifiedFods.fods`. Sie können die Originaldatei bei Bedarf auch überschreiben.
 ## Abschluss
-Und da haben Sie es! Sie haben gerade gelernt, wie Sie eine FODS-Datei mit Aspose.Cells für .NET öffnen, zusammen mit den wesentlichen Schritten zum effektiven Verarbeiten und Bearbeiten von Tabellendaten. Dies öffnet die Tür zu zahlreichen Möglichkeiten, sei es für die Datenanalyse oder die Anwendungsentwicklung.
+Und da haben Sie es! Sie haben gerade gelernt, wie Sie eine FODS-Datei mit Aspose.Cells für .NET öffnen, zusammen mit den wesentlichen Schritten zum effektiven Verarbeiten und Bearbeiten von Tabellenkalkulationsdaten. Dies öffnet die Tür zu zahlreichen Möglichkeiten, sei es für die Datenanalyse oder die Anwendungsentwicklung.
 Es ist immer erfüllend, sich mit Projektcode zu beschäftigen, und ich ermutige Sie, noch mehr mit der Aspose.Cells-Bibliothek herumzuspielen. Sie können noch viel mehr tun, darunter neue Dateien erstellen, Zellen formatieren und vieles mehr!
 ## Häufig gestellte Fragen
 ### In welche Formate kann ich FODS mit Aspose.Cells konvertieren?

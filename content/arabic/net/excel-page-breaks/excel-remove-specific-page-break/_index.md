@@ -64,7 +64,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Workbook workbook = new Workbook(dataDir + "PageBreaks.xls");
 ```
 
-الشرح: هذا السطر ينشئ مثيلًا جديدًا لـ`Workbook` ، الذي يقوم بتحميل ملف Excel المحدد (في هذا المثال، يُسمى`PageBreaks.xls`). 
+ الشرح: هذا السطر ينشئ مثيلًا جديدًا لـ`Workbook` ، الذي يقوم بتحميل ملف Excel المحدد (في هذا المثال، يُسمى`PageBreaks.xls`). 
 
 ## الخطوة 3: إزالة فاصل الصفحة الأفقي
 
@@ -117,4 +117,4 @@ workbook.Save(dataDir + "RemoveSpecificPageBreak_out.xls");
  بالتأكيد! فقط قم بتغيير رقم الفهرس في`workbook.Worksheets[index]` لاستهداف ورقة العمل المطلوبة.
 
 ### هل Aspose.Cells أداة مجانية؟  
- يقدم Aspose.Cells نسخة تجريبية مجانية، ولكن للحصول على الوظائف الكاملة، ستحتاج إلى شراء ترخيص. يمكنك التحقق من ذلك[هنا](https://purchase.aspose.com/buy).
+يقدم Aspose.Cells نسخة تجريبية مجانية، ولكن للحصول على الوظائف الكاملة، ستحتاج إلى شراء ترخيص. يمكنك التحقق من ذلك[هنا](https://purchase.aspose.com/buy).

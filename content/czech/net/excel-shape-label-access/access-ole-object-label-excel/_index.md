@@ -118,8 +118,8 @@ Objekty OLE jsou vložené soubory, které umožňují integrovat dokumenty z ji
 ### Může Aspose.Cells pracovat s jinými formáty souborů?  
 Ano! Aspose.Cells podporuje různé formáty, včetně XLS, XLSX, CSV a dalších.
 ### Je k dispozici bezplatná zkušební verze pro Aspose.Cells?  
-Ano! Můžete si to vyzkoušet[zde](https://releases.aspose.com/).
+ Ano! Můžete si to vyzkoušet[zde](https://releases.aspose.com/).
 ### Mohu přistupovat k více objektům OLE v listu?  
- Absolutně! Můžete procházet`ws.OleObjects` pro přístup ke všem vloženým objektům OLE v listu.
+Absolutně! Můžete procházet`ws.OleObjects` pro přístup ke všem vloženým objektům OLE v listu.
 ### Jak si koupím licenci pro Aspose.Cells?  
  Licenci si můžete zakoupit přímo od[zde](https://purchase.aspose.com/buy).

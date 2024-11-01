@@ -73,7 +73,7 @@ Dans cet extrait de code, nous accédons à la première feuille de calcul de no
 
 ## Étape 4 : Obtenir l'autorisation de modifier les plages
 
- Pour activer des plages spécifiques de la feuille de calcul pour l'édition, nous devons accéder à l'`AllowEditRanges` propriété.
+ Pour activer des plages spécifiques de la feuille de calcul pour l'édition, nous devons accéder à la`AllowEditRanges` propriété.
 
 ```csharp
 // Obtenir les plages de modification autorisées
@@ -141,4 +141,4 @@ Malheureusement, si vous oubliez le mot de passe d'une plage modifiable, vous de
 Oui, Aspose propose un essai gratuit que vous pouvez utiliser pour explorer les fonctionnalités avant d'acheter.
 
 ### Où puis-je trouver plus d'informations sur Aspose.Cells ?
- Vous pouvez vérifier le[documentation](https://reference.aspose.com/cells/net/) pour des guides et des références détaillés.
+ Vous pouvez vérifier le[documentation](https://reference.aspose.com/cells/net/)pour des guides et des références détaillés.

@@ -8,11 +8,11 @@ weight: 12
 url: /ja/net/working-with-fonts-in-spreadsheets/specify-fonts-for-workbook-rendering/
 ---
 ## 導入
-Excel ファイルをプログラムで管理およびレンダリングする場合、Aspose.Cells for .NET は強力なライブラリとして際立っています。開発者はこれを使用して、Excel ファイルを簡単に操作、作成、変換できます。一般的なタスクの 1 つは、ワークブックのレンダリングにカスタム フォントを指定して、ドキュメントが目的の外観と形式を維持するようにすることです。この記事では、Aspose.Cells for .NET を使用してこの操作を実行し、シームレスなレンダリング エクスペリエンスを実現するプロセスを段階的に説明します。
+Excel ファイルをプログラムで管理およびレンダリングする場合、Aspose.Cells for .NET は強力なライブラリとして際立っています。開発者は、このライブラリを使用して Excel ファイルを簡単に操作、作成、変換できます。一般的なタスクの 1 つは、ワークブックのレンダリングにカスタム フォントを指定して、ドキュメントが目的の外観と形式を維持するようにすることです。この記事では、Aspose.Cells for .NET を使用してこの操作を実行するプロセスを段階的に説明し、シームレスなレンダリング エクスペリエンスを実現します。
 ## 前提条件
 Aspose.Cells とフォントのカスタマイズのエキサイティングな世界に飛び込む前に、始めるのに必要なものがすべて揃っていることを確認しましょう。
 1. .NET の基礎知識: .NET 環境で作業するため、.NET プログラミングの知識が不可欠です。
-2.  Aspose.Cells for .NET: Aspose.Cellsライブラリがインストールされていることを確認してください。ダウンロードできます。[ここ](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells for .NET: Aspose.Cellsライブラリがインストールされていることを確認してください。ダウンロードできます。[ここ](https://releases.aspose.com/cells/net/).
 3. Visual Studio: このガイドでは、IDE として Visual Studio を使用していることを前提としています。インストールしてセットアップしていることを確認してください。
 4. サンプル Excel ファイル: このチュートリアル用にサンプル Excel ファイルを用意してください。これにより、カスタム フォントがレンダリング出力にどのように影響するかを理解しやすくなります。
 5. カスタム フォント: 使用するカスタム フォントのディレクトリを準備します。これは、レンダリング プロセスをテストするために不可欠です。
@@ -41,7 +41,7 @@ string outputDir = "Your Document Directory";
 string customFontsDir = sourceDir + "CustomFonts";
 ```
 
-重要な文書（この場合はExcelファイル）が詰まったファイルキャビネットがあると想像してください。ディレクトリを設定することは、キャビネットを整理するのと似ています。これにより、ファイルがどこに保存されているかを正確に把握できます。`sourceDir`, `outputDir` 、 そして`customFontsDir`コードをよりクリーンで管理しやすいものにするワークスペースを準備します。
+重要な文書（この場合はExcelファイル）が詰まったファイルキャビネットがあると想像してください。ディレクトリを設定することは、そのキャビネットを整理するのと似ています。これにより、ファイルがどこに保存されているかを正確に把握できます。`sourceDir`, `outputDir`、 そして`customFontsDir`コードをよりクリーンで管理しやすいものにするワークスペースを準備します。
 ## ステップ2: 個別のフォント設定を指定する
 次に、個別のフォント構成を作成する必要があります。この手順は、Aspose.Cells にカスタム フォントの場所を指示するために重要です。
 ```csharp
@@ -68,7 +68,7 @@ Workbook wb = new Workbook(sourceDir + "sampleSpecifyIndividualOrPrivateSetOfFon
 ## ステップ5: ワークブックを希望の形式で保存する
 最後に、変更したブックを目的の形式 (この場合は PDF) で保存します。
 ```csharp
-//PDF形式で保存します。
+// PDF形式で保存します。
 wb.Save(outputDir + "outputSpecifyIndividualOrPrivateSetOfFontsForWorkbookRendering.pdf", SaveFormat.Pdf);
 ```
 これは、読み終わった本を別の形式で棚に戻すようなものです。ワークブックを PDF 形式で保存すると、指定したフォントがそのままの状態でレンダリングが実行され、見栄えがよくプロフェッショナルなブックになります。

@@ -12,7 +12,7 @@ Heb je ooit geworsteld met ingewikkelde Excel-bestandsindelingen en je verloren 
 ## Vereisten
 Voordat we in de sappige details duiken, zijn er een paar voorwaarden waaraan u moet voldoen:
 1. Visual Studio - Zorg ervoor dat u Visual Studio op uw systeem hebt geïnstalleerd. Het helpt u moeiteloos uw C#-code te schrijven en uit te voeren.
-2.  Aspose.Cells Library - U hebt de Aspose.Cells for .NET-bibliotheek nodig. U kunt deze eenvoudig downloaden van de[Aspose Cells-releasepagina](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells Library - U hebt de Aspose.Cells for .NET-bibliotheek nodig. U kunt deze eenvoudig downloaden van de[Aspose Cells-releasepagina](https://releases.aspose.com/cells/net/).
 3. Basiskennis programmeren - Een zekere bekendheid met C# en .NET vergroot uw begrip van de codefragmenten die we zullen behandelen.
 4. Een testdocumentdirectory - Maak of bepaal een map waarin u uw Excel-bestanden wilt opslaan en testen. Voor deze tutorial noemen we dit "Uw documentdirectory."
 Nu alles op zijn plek staat, bent u helemaal klaar om uw vaardigheden te laten zien!

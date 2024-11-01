@@ -55,7 +55,7 @@ string sourceDir = "Your Document Directory/";
 string outputDir = "Your Output Directory/";
 ```
 
- Ersetzen`Your Document Directory` Und`Your Output Directory`mit tatsächlichen Pfaden auf Ihrem Computer. 
+ Ersetzen`Your Document Directory` Und`Your Output Directory` mit tatsächlichen Pfaden auf Ihrem Computer. 
 
 ## Schritt 2: Laden der vorhandenen Arbeitsmappe
 
@@ -100,7 +100,7 @@ Nachdem Sie das Diagramm ausgewählt haben, ist es Zeit, das Bild hinzuzufügen!
 Aspose.Cells.Drawing.Picture pic0 = chart.Shapes.AddPictureInChart(50, 50, stream, 200, 200);
 ```
 
- Hier,`50` Und`50` sind die X- und Y-Koordinaten, an denen das Bild platziert wird, und`200`ist die Breite und Höhe des Bildes.
+ Hier,`50` Und`50` sind die X- und Y-Koordinaten, an denen das Bild platziert wird, und`200` ist die Breite und Höhe des Bildes.
 
 ## Schritt 6: Passen Sie das Linienformat des Bildes an
 
@@ -154,7 +154,7 @@ Aspose.Cells unterstützt eine Vielzahl von Bildformaten, darunter PNG, JPEG, BM
  Sicher! Die X- und Y-Koordinaten im`AddPictureInChart` Methode ermöglicht eine präzise Positionierung.
 
 ### Ist die Nutzung von Aspose.Cells kostenlos?
- Aspose.Cells bietet eine kostenlose Testversion an, für den vollen Funktionsumfang ist jedoch eine Lizenz erforderlich. Die Preise finden Sie[Hier](https://purchase.aspose.com/buy).
+Aspose.Cells bietet eine kostenlose Testversion an, für den vollen Funktionsumfang ist jedoch eine Lizenz erforderlich. Die Preise finden Sie[Hier](https://purchase.aspose.com/buy).
 
 ### Wo finde ich weitere Beispiele?
  Schauen Sie sich die[Aspose.Cells-Dokumentation](https://reference.aspose.com/cells/net/) für detailliertere Beispiele und Funktionen.

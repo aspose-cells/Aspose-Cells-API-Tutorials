@@ -33,7 +33,7 @@ Sebelum mulai menggunakan kode, Anda perlu memastikan bahwa struktur direktori A
 // Direktori sumber
 string sourceDir = "Your Document Directory";
 ```
- Mengganti`"Your Document Directory"` dengan jalur sebenarnya ke direktori pada komputer Anda tempat file terenkripsi berada.
+ Mengganti`"Your Document Directory"`dengan jalur sebenarnya ke direktori pada komputer Anda tempat file terenkripsi berada.
 ## Langkah 2: Siapkan File Terenkripsi Anda
 
  Pada langkah ini, pastikan Anda memiliki file Excel terenkripsi yang tersedia di direktori yang Anda tentukan. Di sini, kami akan menganggap file tersebut diberi nama`encryptedBook1.out.tmp`.
@@ -73,6 +73,6 @@ Tentu saja! Manfaatkan blok try-catch untuk mengelola pengecualian potensial sel
 ### Bagaimana jika saya lupa kata sandi saya?
 Sayangnya, Anda tidak akan dapat mengakses format file tersebut tanpa kata sandi.
 ### Bisakah saya mengunduh uji coba gratis Aspose.Cells?
-Ya, Anda dapat mengunduh versi uji coba gratis[Di Sini](https://releases.aspose.com/).
+ Ya, Anda dapat mengunduh versi uji coba gratis[Di Sini](https://releases.aspose.com/).
 ### Di mana saya dapat menemukan dokumentasi yang lebih rinci?
  Anda dapat menjelajahi dokumentasi lengkap di Aspose.Cells[Di Sini](https://reference.aspose.com/cells/net/).

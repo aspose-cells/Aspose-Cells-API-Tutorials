@@ -55,7 +55,7 @@ string sourceDir = "Your Document Directory/";
 string outputDir = "Your Output Directory/";
 ```
 
- Nahradit`Your Document Directory` a`Your Output Directory`se skutečnými cestami ve vašem počítači. 
+ Nahradit`Your Document Directory` a`Your Output Directory` se skutečnými cestami ve vašem počítači. 
 
 ## Krok 2: Načtěte existující sešit
 
@@ -100,7 +100,7 @@ S vybraným grafem je čas přidat obrázek!
 Aspose.Cells.Drawing.Picture pic0 = chart.Shapes.AddPictureInChart(50, 50, stream, 200, 200);
 ```
 
- Zde,`50` a`50` jsou souřadnice X a Y, kam bude obrázek umístěn, a`200`je šířka a výška obrázku.
+ Zde,`50` a`50` jsou souřadnice X a Y, kam bude obrázek umístěn, a`200` je šířka a výška obrázku.
 
 ## Krok 6: Upravte formát čar obrázku
 
@@ -140,21 +140,21 @@ Console.WriteLine("AddingPictureInChart executed successfully.");
 
 ## Závěr
 
-tomto tutoriálu jsme prozkoumali, jak vnést trochu osobitosti do grafů aplikace Excel přidáním obrázků pomocí Aspose.Cells pro .NET. Pomocí několika jednoduchých kroků můžete své prezentace povýšit ze světských na nezapomenutelné. Tak na co čekáš? Vyzkoušejte to a nechte své grafy zářit!
+V tomto tutoriálu jsme prozkoumali, jak vnést trochu osobitosti do grafů aplikace Excel přidáním obrázků pomocí Aspose.Cells pro .NET. Pomocí několika jednoduchých kroků můžete své prezentace povýšit ze světských na nezapomenutelné. Tak na co čekáš? Vyzkoušejte to a nechte své grafy zářit!
 
 ## FAQ
 
 ### Mohu přidat více obrázků do jednoho grafu?
  Ano! Můžete zavolat na`AddPictureInChart` vícekrát přidat tolik obrázků, kolik si přejete.
 
-### Jaké formáty obrázků Aspose.Cells podporuje?
+### Jaké formáty obrázků podporuje Aspose.Cells?
 Aspose.Cells podporuje různé formáty obrázků, včetně PNG, JPEG, BMP a GIF.
 
 ### Mohu upravit polohu obrázku?
  Jistě! Souřadnice X a Y v`AddPictureInChart` metoda umožňuje přesné polohování.
 
 ### Je Aspose.Cells zdarma k použití?
- Aspose.Cells nabízí bezplatnou zkušební verzi, ale pro plné funkce je vyžadována licence. Cenu najdete[zde](https://purchase.aspose.com/buy).
+Aspose.Cells nabízí bezplatnou zkušební verzi, ale pro plné funkce je vyžadována licence. Cenu najdete[zde](https://purchase.aspose.com/buy).
 
 ### Kde najdu další příklady?
  Podívejte se na[Dokumentace Aspose.Cells](https://reference.aspose.com/cells/net/) pro podrobnější příklady a funkce.

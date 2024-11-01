@@ -88,7 +88,7 @@ StyleFlag flag;
 for (int i = 0; i <= 255; i++)
 {
     style = sheet.Cells.Columns[(byte)i].Style;
-    style.IsLocked = false; //Ξεκλείδωμα στήλης
+    style.IsLocked = false; // Ξεκλείδωμα στήλης
     flag = new StyleFlag();
     flag.Locked = true; // Ορίστε τη σημαία σε true για κλείδωμα
     sheet.Cells.Columns[(byte)i].ApplyStyle(style, flag); // Εφαρμόστε το στυλ

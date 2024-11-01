@@ -111,7 +111,7 @@ Dále musíme našemu grafu sdělit, který zdroj dat použít.
 chart.NSeries.Add("A1:B3", true);
 ```
 
-Tento řádek spojuje graf s našimi ukázkovými daty, aby věděl, odkud informace čerpat. Je to zásadní pro přesné vykreslení grafu.
+Tento řádek spojuje graf s našimi ukázkovými daty, aby věděl, odkud informace čerpat. Je to klíčové pro přesné vykreslení grafu.
 
 ## Krok 7: Přizpůsobte barvy grafu
 

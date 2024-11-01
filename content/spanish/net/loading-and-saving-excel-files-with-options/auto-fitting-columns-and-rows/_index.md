@@ -12,7 +12,7 @@ url: /es/net/loading-and-saving-excel-files-with-options/auto-fitting-columns-an
 ### Prerrequisitos
 Antes de comenzar con el código, hay algunas cosas que debes tener configuradas en tu sistema. ¡No te preocupes, es simple y directo!
 1. Visual Studio instalado: necesitará Visual Studio o cualquier otro entorno de desarrollo .NET.
-2.  Aspose.Cells para .NET: puedes[Descargue la última versión](https://releases.aspose.com/cells/net/) utilice el administrador de paquetes NuGet para instalarlo.
+2.  Aspose.Cells para .NET: puedes[Descargue la última versión](https://releases.aspose.com/cells/net/) o utilice el administrador de paquetes NuGet para instalarlo.
 3. .NET Framework: asegúrese de tener instalado .NET Framework 4.0 o superior.
 4. Comprensión básica de C#: tener algunos conocimientos de C# hará que este tutorial sea más sencillo para usted.
 5. Datos de la tabla HTML: prepare algún contenido HTML (incluso una tabla básica) que desee cargar en Excel.
@@ -34,7 +34,7 @@ string dataDir = "Your Document Directory";
 ```
 Esta línea establece el directorio en el que se guardarán los archivos de Excel. Es importante organizar los archivos correctamente cuando se trabaja en varios proyectos. ¡Imagínese que esto es el archivador de su proyecto!
 ## Paso 2: Crear datos HTML como una cadena
-A continuación, definiremos algunos contenidos HTML básicos. Para este ejemplo, utilizaremos una tabla HTML sencilla. Puedes personalizarla según las necesidades de tu proyecto.
+continuación, definiremos algunos contenidos HTML básicos. Para este ejemplo, utilizaremos una tabla HTML sencilla. Puedes personalizarla según las necesidades de tu proyecto.
 ```csharp
 string sampleHtml = "<html><body><table><tr><td>This is sample text.</td><td>Some text.</td></tr><tr><td>This is another sample text.</td><td>Some text.</td></tr></table></body></html>";
 ```
@@ -60,7 +60,7 @@ opts.AutoFitColsAndRows = true;
 ```
 Al configurar esta opción, le indicamos a Aspose.Cells que cambie automáticamente el tamaño de las filas y columnas. ¡Imagínese que esto es como configurar el horno a la temperatura perfecta para que el pastel crezca en el momento justo!
 ## Paso 6: Cargue HTML en un libro de trabajo con el ajuste automático habilitado
- Ahora cargamos nuevamente el contenido HTML, pero esta vez con el`AutoFitColsAndRows` Opción habilitada. Esto ajustará el ancho de las columnas y la altura de las filas según el contenido dentro de ellas.
+ Ahora cargamos nuevamente el contenido HTML, pero esta vez con el`AutoFitColsAndRows`Opción habilitada. Esto ajustará el ancho de las columnas y la altura de las filas según el contenido dentro de ellas.
 ```csharp
 wb = new Workbook(ms, opts);
 wb.Save(dataDir + "outputWith_AutoFitColsAndRows.xlsx");

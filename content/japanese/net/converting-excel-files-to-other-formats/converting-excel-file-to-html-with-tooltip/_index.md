@@ -108,7 +108,7 @@ workbook.Save(outputDir + "AddTooltipToHtmlSample_out.html", options);
 Aspose.Cells は基本的なツールヒントを追加しますが、変換後に HTML ファイルで CSS と JavaScript を使用してさらにスタイルを設定できます。
 
 ### HTML への変換がサポートされている Excel ファイルの種類は何ですか?
- Aspose.Cellsは、以下のExcel形式を幅広くサポートしています。`.xlsx`, `.xls` 、 そして`.xlsb`これらの形式はどれも簡単に HTML に変換できます。
+ Aspose.Cellsは、以下のExcel形式を幅広くサポートしています。`.xlsx`, `.xls`、 そして`.xlsb`これらの形式はどれも簡単に HTML に変換できます。
 
 ### Aspose.Cells を無料で試すことはできますか?
 はい、Asposeは[無料トライアル](https://releases.aspose.com/)すべての製品について無料トライアルを実施しているので、購入する前にすべての機能を調べることができます。

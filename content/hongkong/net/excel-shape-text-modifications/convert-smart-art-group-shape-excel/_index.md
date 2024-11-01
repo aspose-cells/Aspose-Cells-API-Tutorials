@@ -83,7 +83,7 @@ Console.WriteLine("ConvertSmartArtToGroupShape executed successfully.\r\n");
 ```
 
 ## 結論
-現在你就得到它了！您已使用 Aspose.Cells for .NET 成功將 Smart Art 版面配置轉換為 Group Shape。這個強大的程式庫簡化了複雜的操作，讓您能夠像專業人士一樣操作 Excel 文件。不要迴避嘗試其他形狀，因為 Aspose.Cells 可以處理大量功能。 
+現在你就擁有了！您已使用 Aspose.Cells for .NET 成功將 Smart Art 版面配置轉換為 Group Shape。這個強大的程式庫簡化了複雜的操作，讓您能夠像專業人士一樣操作 Excel 文件。不要迴避嘗試其他形狀，因為 Aspose.Cells 可以處理大量功能。 
 ## 常見問題解答
 ### 我可以一次轉換多個 Smart Art 造型嗎？
 絕對地！您可以循環遍歷所有形狀並對每個形狀應用相同的邏輯。

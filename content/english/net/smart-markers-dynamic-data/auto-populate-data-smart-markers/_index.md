@@ -112,7 +112,7 @@ Yes, you can use Aspose.Cells to auto-populate data across multiple workbooks as
 ### How can I customize the appearance and formatting of the auto-populated data?
 Aspose.Cells provides a wide range of formatting options that you can apply to the auto-populated data. You can set the font, size, color, borders, and more using the various properties and methods available in the library.
 ### Is there a way to handle large datasets efficiently when auto-populating data?
-Yes, Aspose.Cells offers features like lazy loading and chunking that can help you work with large datasets more efficiently. You can explore these options in the [**documentation**](https://reference.aspose.com/cells/net/).
+Yes, Aspose.Cells offers features like lazy loading and chunking that can help you work with large datasets more efficiently. You can explore these options in the [documentation](https://reference.aspose.com/cells/net/).
 ### Can I use Aspose.Cells to auto-populate data from a database instead of a data table?
 Absolutely! Aspose.Cells can work with a variety of data sources, including databases. You can use the `DataTableReader` or the `DataReader` class to connect to your database and use the data for auto-population.
 ### Is there a way to automate the entire process of auto-populating data across sheets?

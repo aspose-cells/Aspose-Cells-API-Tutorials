@@ -70,7 +70,7 @@ using Aspose.Cells;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
-ヒント: 置換`"YOUR DOCUMENT DIRECTORY"`Excelファイル（ここでは`book1.xls`）が位置しています。 
+ヒント: 置換`"YOUR DOCUMENT DIRECTORY"` Excelファイル（ここでは`book1.xls`）が位置しています。 
 
 ## ステップ 2: ワークブック オブジェクトをインスタンス化する
 

@@ -8,7 +8,7 @@ weight: 11
 url: /cs/net/creating-and-configuring-pivot-tables/clearing-pivot-fields/
 ---
 ## Zavedení
-Už jste někdy procházeli nespočet excelových listů a snažili se přijít na to, jak programově vyčistit nepořádek pivotních polí? Tak to jste na správném místě! V tomto článku se hluboce ponoříme do používání Aspose.Cells for .NET, výkonné komponenty pro manipulaci se soubory aplikace Excel, k snadnému vymazání pivotních polí. Nejen, že vás provedu procesem krok za krokem, ale také se ujistím, že rozumíte tomu, „proč“ a „jak“ stojí za každým pohybem, který uděláme. Ať už jste vývojář nebo fanatik Excelu, tato příručka vám pomůže co nejlépe využít vaše úkoly automatizace Excelu.
+Už jste někdy procházeli nespočet excelových listů a snažili se přijít na to, jak programově vyčistit nepořádek pivotních polí? Tak to jste na správném místě! V tomto článku se hluboce ponoříme do používání Aspose.Cells for .NET, výkonné komponenty pro manipulaci se soubory Excel, k snadnému vymazání pivotních polí. Nejen, že vás provedu procesem krok za krokem, ale také se ujistím, že rozumíte tomu, „proč“ a „jak“ stojí za každým pohybem, který uděláme. Ať už jste vývojář nebo fanatik Excelu, tato příručka vám pomůže co nejlépe využít vaše úkoly automatizace Excelu.
 
 ## Předpoklady
 Než se vydáme na tuto cestu, je zde několik věcí, které musíte mít ve své sadě nástrojů:
@@ -102,7 +102,7 @@ pivotTable.AddFieldToArea(PivotFieldType.Data, "Betrag Netto FW");
 ```
 Zde přidáváme nové datové pole s názvem "Betrag Netto FW". Toto je datový bod, který chceme, aby naše kontingenční tabulka analyzovala.
 
-## Krok 8: Nastavte příznak aktualizace dat
+## Krok 8: Nastavte příznak Aktualizovat data
 Dále se ujistěte, že jsou naše data správně aktualizována.
 ```csharp
 // Nastavte příznak aktualizace dat na
@@ -114,7 +114,7 @@ pivotTable.RefreshDataFlag = false;
 Stiskneme tlačítko aktualizace a provedeme nějaké výpočty, abychom zajistili, že se naše kontingenční tabulka aktualizuje o nová data.
 
 ```csharp
-// Obnovte a vypočítejte data kontingenční tabulky
+// Aktualizujte a vypočítejte data kontingenční tabulky
 pivotTable.RefreshData();
 pivotTable.CalculateData();
 ```

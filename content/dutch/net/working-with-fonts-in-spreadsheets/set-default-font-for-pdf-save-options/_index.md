@@ -39,14 +39,14 @@ string outputDir = "Your Document Directory";
 ```
  Vervangen`"Your Document Directory"` met het daadwerkelijke pad naar uw mappen.
 ## Stap 2: Open het Excel-bestand
-Nu we onze mappen hebben ingesteld, openen we het Excel-bestand waarmee u wilt werken.`Workbook` klasse in Aspose.Cells wordt gebruikt om het Excel-document te laden.
+ Nu we onze mappen hebben ingesteld, openen we het Excel-bestand waarmee u wilt werken.`Workbook` klasse in Aspose.Cells wordt gebruikt om het Excel-document te laden.
 ```csharp
 // Open een Excel-bestand
 Workbook workbook = new Workbook(sourceDir + "sampleSetDefaultFontPropertyOfPdfSaveOptionsAndImageOrPrintOptions.xlsx");
 ```
 Zorg ervoor dat u de bestandsnaam vervangt door de daadwerkelijke bestandsnaam.
 ## Stap 3: Stel opties voor het renderen van afbeeldingen in
- Vervolgens moeten we de renderingopties configureren om ons Excel-blad te converteren naar een afbeeldingsformaat. We maken een instantie van`ImageOrPrintOptions`, waarbij u het afbeeldingstype en het standaardlettertype opgeeft.
+Vervolgens moeten we de renderingopties configureren om ons Excel-blad te converteren naar een afbeeldingsformaat. We maken een instantie van`ImageOrPrintOptions`, waarbij u het afbeeldingstype en het standaardlettertype opgeeft.
 ```csharp
 // Renderen naar PNG-bestandsformaat
 ImageOrPrintOptions imgOpt = new ImageOrPrintOptions();
@@ -63,7 +63,7 @@ SheetRender sr = new SheetRender(workbook.Worksheets[0], imgOpt);
 sr.ToImage(0, outputDir + "out1_imagePNG.png");
 ```
 ## Stap 5: Wijzig het afbeeldingstype en render naar TIFF
-Als u hetzelfde werkblad naar een ander afbeeldingsformaat wilt renderen, zoals TIFF, kunt u eenvoudig de`ImageType` eigenschap en herhaal het renderingproces.
+ Als u hetzelfde werkblad naar een ander afbeeldingsformaat wilt renderen, zoals TIFF, kunt u eenvoudig de`ImageType` eigenschap en herhaal het renderingproces.
 ```csharp
 // Instellen op TIFF-indeling
 imgOpt.ImageType = Drawing.ImageType.Tiff;
@@ -71,7 +71,7 @@ WorkbookRender wr = new WorkbookRender(workbook, imgOpt);
 wr.ToImage(outputDir + "out1_imageTIFF.tiff");
 ```
 ## Stap 6: PDF-opslagopties configureren
- Vervolgens gaan we de PDF-opslagopties instellen. We maken een instantie van`PdfSaveOptions`, stel het standaardlettertype in en geef aan dat we willen controleren op ontbrekende lettertypen.
+ Vervolgens gaan we de PDF-opslagopties instellen. We maken een instantie van`PdfSaveOptions`stel het standaardlettertype in en geef aan dat we willen controleren op ontbrekende lettertypen.
 ```csharp
 // Opties voor het opslaan van PDF's configureren
 PdfSaveOptions saveOptions = new PdfSaveOptions();

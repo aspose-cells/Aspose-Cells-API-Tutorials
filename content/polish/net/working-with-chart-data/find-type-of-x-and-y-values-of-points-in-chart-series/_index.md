@@ -125,7 +125,7 @@ Dzięki temu przewodnikowi powinieneś być w stanie pomyślnie pobrać i zident
 Aspose.Cells to biblioteka .NET umożliwiająca programistom zarządzanie i manipulowanie plikami programu Excel bez konieczności instalowania programu Microsoft Excel.
 
 ### Czy mogę używać Aspose.Cells za darmo?
-Tak, Aspose oferuje bezpłatny okres próbny, podczas którego możesz zapoznać się z funkcjami Aspose.Cells.
+Tak, Aspose oferuje bezpłatny okres próbny, podczas którego można zapoznać się z funkcjami Aspose.Cells.
 
 ### Jakie typy wykresów mogę tworzyć za pomocą Aspose.Cells?
 Aspose.Cells obsługuje różne typy wykresów, w tym kolumnowe, słupkowe, liniowe, kołowe i inne.

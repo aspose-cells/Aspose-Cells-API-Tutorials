@@ -72,7 +72,7 @@ System.Console.WriteLine("Conversion completed.");
 這將列印“轉換完成”。在控制台中。簡單，但有效！
 
 ## 結論
-現在你就得到它了！只需幾行程式碼，您就可以使用 Aspose.Cells for .NET 輕鬆將 Excel 電子表格轉換為 PDF。這個強大的庫不僅簡化了您的工作流程，還確保您的資料保持完整且具有視覺吸引力。當您繼續使用 Aspose.Cells 時，您會發現更多可以節省您時間並提高專案成果的功能。
+現在你就擁有了！只需幾行程式碼，您就可以使用 Aspose.Cells for .NET 輕鬆將 Excel 電子表格轉換為 PDF。這個強大的庫不僅簡化了您的工作流程，還確保您的資料保持完整且具有視覺吸引力。當您繼續使用 Aspose.Cells 時，您會發現更多可以節省您時間並提高專案成果的功能。
 ## 常見問題解答
 ### Aspose.Cells 支援哪些版本的 .NET？
 Aspose.Cells 支援.NET Framework 4.0 及更高版本。

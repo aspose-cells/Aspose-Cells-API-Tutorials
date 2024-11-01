@@ -49,7 +49,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
  Penjelasan: Ganti`YOUR DOCUMENT DIRECTORY`dengan jalur sebenarnya pada sistem Anda tempat Anda ingin menyimpan file Excel. Direktori ini akan digunakan nanti saat kita menyimpan buku kerja kita.
 
-## Langkah 2: Membuat Instansiasi Objek Buku Kerja
+## Langkah 2: Membuat Instansi Objek Buku Kerja
 
 Berikutnya, kita perlu membuat objek buku kerja, yang merupakan gerbang kita untuk berinteraksi dengan file Excel.
 

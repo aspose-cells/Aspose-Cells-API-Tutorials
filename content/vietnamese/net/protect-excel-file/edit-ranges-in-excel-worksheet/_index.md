@@ -128,7 +128,7 @@ Cuối cùng chúng ta đã đến bước cuối cùng trong hướng dẫn nà
 book.Save(dataDir + "protectedrange.out.xls");
 ```
 
- Điều này sẽ lưu sổ làm việc được bảo vệ của bạn dưới dạng`protectedrange.out.xls` trong thư mục bạn chỉ định.
+Điều này sẽ lưu sổ làm việc được bảo vệ của bạn dưới dạng`protectedrange.out.xls` trong thư mục bạn chỉ định.
 
 ## Phần kết luận
 

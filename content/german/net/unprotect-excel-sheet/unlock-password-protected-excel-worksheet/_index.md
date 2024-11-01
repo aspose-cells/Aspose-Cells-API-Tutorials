@@ -21,7 +21,7 @@ Sie benötigen eine funktionierende .NET-Umgebung. Wenn Sie noch nicht bereit si
 
 ### Aspose.Cells für .NET
 
- Sie benötigen Aspose.Cells für .NET. Sie können es herunterladen von[Hier](https://releases.aspose.com/cells/net/) . Machen Sie sich mit der Dokumentation vertraut. Diese finden Sie[Hier](https://reference.aspose.com/cells/net/).
+ Sie benötigen Aspose.Cells für .NET. Sie können es herunterladen von[Hier](https://releases.aspose.com/cells/net/) Machen Sie sich unbedingt mit der Dokumentation vertraut. Diese finden Sie[Hier](https://reference.aspose.com/cells/net/).
 
 ### Grundlegende Programmierkenntnisse
 
@@ -70,7 +70,7 @@ Zuerst müssen wir den Pfad unseres Excel-Dokuments festlegen. Hier geben Sie an
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Tipp: Ersetzen`"YOUR DOCUMENT DIRECTORY"`mit dem tatsächlichen Pfad, in dem Ihre Excel-Datei (nennen wir sie`book1.xls`) befindet. 
+ Tipp: Ersetzen`"YOUR DOCUMENT DIRECTORY"` mit dem tatsächlichen Pfad, in dem Ihre Excel-Datei (nennen wir sie`book1.xls`) befindet. 
 
 ## Schritt 2: Instanziieren eines Arbeitsmappenobjekts
 
@@ -128,7 +128,7 @@ Dieser Catch-Block zeigt alle auftretenden Fehler an, sodass Sie diese problemlo
 
 ## Abschluss
 
-Und da haben Sie es! Sie haben erfolgreich ein kennwortgeschütztes Excel-Arbeitsblatt mit Aspose.Cells für .NET entsperrt. Mit nur wenigen Codezeilen können Sie wieder auf Ihre wichtigen Daten zugreifen. Mit dieser großartigen Bibliothek haben Sie Leistung und Flexibilität immer zur Hand. Aspose.Cells ist nicht nur ein effizientes, sondern auch ein unverzichtbares Tool, das perfekt für Entwickler geeignet ist, die ihre Interaktion mit Microsoft Excel optimieren möchten.
+Und da haben Sie es! Sie haben erfolgreich ein kennwortgeschütztes Excel-Arbeitsblatt mit Aspose.Cells für .NET entsperrt. Mit nur wenigen Codezeilen können Sie wieder auf Ihre wichtigen Daten zugreifen. Mit dieser großartigen Bibliothek haben Sie Leistung und Flexibilität immer zur Hand. Aspose.Cells ist nicht nur ein effizientes, sondern auch ein unverzichtbares Tool und perfekt für Entwickler geeignet, die ihre Interaktion mit Microsoft Excel optimieren möchten.
 
 ## Häufig gestellte Fragen
 

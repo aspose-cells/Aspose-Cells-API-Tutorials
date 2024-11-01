@@ -112,7 +112,7 @@ Tutaj określamy katalog wyjściowy wraz z nową nazwą pliku. Voila! Twoje zmia
 
 ## Krok 7: Potwierdź wykonanie
 
-Zawsze dobrym pomysłem jest potwierdzenie, że nasz kod został wykonany pomyślnie. Możesz to zrobić, drukując wiadomość na konsoli.
+Zawsze dobrym pomysłem jest potwierdzenie, że nasz kod został wykonany pomyślnie. Możesz to zrobić, drukując komunikat na konsoli.
 
 ```csharp
 Console.WriteLine("ChangeTickLabelDirection executed successfully.");

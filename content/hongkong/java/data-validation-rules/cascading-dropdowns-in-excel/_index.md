@@ -58,7 +58,7 @@ countrySheet.getCells().get("A4").putValue("UK");
 DataValidationCollection validations = countrySheet.getDataValidations();
 DataValidation validation = validations.get(validations.add(1, 1, countrySheet.getCells().getMaxDataRow(), 1));
 validation.setType(DataValidationType.LIST);
-validation.setFormula1("Countries!$A$2:$A$4"); //參考國家名單
+validation.setFormula1("Countries!$A$2:$A$4"); //參考國家列表
 ```
 
 ## 第 4 步：實現級聯下拉選單

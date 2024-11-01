@@ -8,7 +8,7 @@ weight: 22
 url: /it/net/creating-and-configuring-pivot-tables/show-report-filter-pages-option/
 ---
 ## Introduzione
-Ti sei mai trovato immerso in un file Excel, cercando di decifrare tutti quei punti dati in una tabella pivot? Se è così, sai quanto può essere utile un report ben organizzato! Oggi ci rimboccheremo le maniche e parleremo dell'opzione "Mostra pagine filtro report" in .NET usando Aspose.Cells. Questa ingegnosa funzionalità ti consente di generare in modo ordinato singole pagine in base alle selezioni di filtro dalle tue tabelle pivot. Non è semplicemente fantastico? Immergiamoci!
+Ti sei mai trovato immerso in un file Excel, cercando di decifrare tutti quei punti dati in una tabella pivot? Se è così, sai quanto può essere utile un report ben organizzato! Oggi ci rimboccheremo le maniche e parleremo dell'opzione "Mostra pagine filtro report" in .NET usando Aspose.Cells. Questa ingegnosa funzionalità ti consente di generare in modo ordinato singole pagine in base alle selezioni di filtro dalle tue tabelle pivot. Non è semplicemente fantastico? Tuffiamoci!
 ## Prerequisiti
 Prima di intraprendere il nostro favoloso viaggio per padroneggiare l'opzione "Mostra pagine filtro report", ci sono alcuni prerequisiti che devi spuntare dalla tua lista:
 ### 1. Nozioni di base su C# e .NET

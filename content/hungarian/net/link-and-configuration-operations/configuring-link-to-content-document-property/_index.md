@@ -15,11 +15,11 @@ Ebben az oktatóanyagban végigvezetjük, hogyan konfigurálhat tartalomra mutat
 
 Mielőtt elkezdenénk, győződjön meg arról, hogy minden a helyén van, amire szüksége van. A következő előfeltételek nélkül a folyamat nem megy zökkenőmentesen:
 
-1. Aspose.Cells for .NET Library: Aspose.Cells for .NET-nek telepítve kell lennie a gépére. Ha még nem töltötte le, töltse le innen[Aspose.Cells for .NET letöltési oldal](https://releases.aspose.com/cells/net/).
+1.  Aspose.Cells for .NET Library: Aspose.Cells for .NET-nek telepítve kell lennie a gépére. Ha még nem töltötte le, töltse le innen[Aspose.Cells for .NET letöltési oldal](https://releases.aspose.com/cells/net/).
 2. Fejlesztői környezet: Használjon bármilyen .NET által támogatott fejlesztői környezetet, például a Visual Studio-t.
 3. Alapvető C# ismerete: Ez az útmutató feltételezi, hogy ismeri a C#-ot és a .NET-et.
 4. Excel-fájl: rendelkezzen egy meglévő Excel-fájllal. Példánkban a "sample-document-properties.xlsx" nevű fájlt fogjuk használni.
-5.  Ideiglenes licenc: Ha nem rendelkezik teljes jogosítvánnyal, megszerezheti a[ideiglenes engedély itt](https://purchase.aspose.com/temporary-license/) hogy elkerüljük a fájlkezelés korlátozásait.
+5. Ideiglenes licenc: Ha nem rendelkezik teljes jogosítvánnyal, megszerezheti a[ideiglenes engedély itt](https://purchase.aspose.com/temporary-license/) hogy elkerüljük a fájlkezelés korlátozásait.
 
 ## Csomagok importálása
 
@@ -49,7 +49,7 @@ string dataDir = "Your Document Directory";
 Workbook workbook = new Workbook(dataDir + "sample-document-properties.xlsx");
 ```
 
--  Munkafüzet munkafüzet = new Workbook(): Ez a sor újat hoz létre`Workbook` objektum, amely az Aspose.Cellsben található Excel-fájlokkal való munka fő osztálya.
+-  Munkafüzet munkafüzet = new Workbook(): Ez a sor újat hoz létre`Workbook`objektum, amely az Aspose.Cellsben található Excel-fájlokkal való munka fő osztálya.
 - dataDir: Itt adhatja meg az Excel-fájl elérési útját. Cserélje ki a "Saját dokumentumkönyvtárat" a gép tényleges elérési útjával.
 
 Tekintse ezt a lépést úgy, mint ajtónyitást – Ön hozzáfér a fájlhoz, hogy elvégezhesse a szükséges változtatásokat!
@@ -59,7 +59,7 @@ Tekintse ezt a lépést úgy, mint ajtónyitást – Ön hozzáfér a fájlhoz, 
 A fájl betöltése után el kell érnünk az egyéni dokumentum tulajdonságait. Ezeket a tulajdonságokat egy gyűjtemény tárolja, amelyet visszakereshet és módosíthat.
 
 ```csharp
-//Lekérheti az Excel-fájl összes egyéni dokumentumtulajdonságának listáját
+// Lekérheti az Excel-fájl összes egyéni dokumentumtulajdonságának listáját
 Aspose.Cells.Properties.CustomDocumentPropertyCollection customProperties = workbook.Worksheets.CustomDocumentProperties;
 ```
 
@@ -93,7 +93,7 @@ bool islinkedtocontent = customProperty1.IsLinkedToContent;
 ```
 
 - customProperties["Tulajdonos"]: A "Tulajdonos" tulajdont név szerint lekérjük, hogy megvizsgáljuk a részleteket.
--  IsLinkedToContent: Ez a logikai érték tér vissza`true` ha az ingatlan sikeresen kapcsolódik a tartalomhoz.
+- IsLinkedToContent: Ez a logikai érték tér vissza`true` ha az ingatlan sikeresen kapcsolódik a tartalomhoz.
 
 Ebben a szakaszban ez olyan, mint annak ellenőrzése, hogy a címke (tulajdon) megfelelően van-e rögzítve a tartalomhoz. Biztosítja, hogy a kód azt csinálja, amit várt.
 

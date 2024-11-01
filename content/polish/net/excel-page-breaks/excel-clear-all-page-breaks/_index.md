@@ -19,7 +19,7 @@ Zanim zagłębisz się w szczegóły usuwania podziałów stron w programie Exce
 2. Aspose.Cells for .NET Library: Musisz pobrać i zainstalować Aspose.Cells for .NET library. Jest nie tylko wydajna, ale także niesamowicie przyjazna dla użytkownika!
    -  Możesz to znaleźć[tutaj do pobrania](https://releases.aspose.com/cells/net/).
 3. Podstawowa znajomość języka C#: Niewielka znajomość języka C# pomoże Ci poruszać się po kodzie bardziej komfortowo.
-4. Plik Excela: Przygotuj plik Excela, ponieważ będzie on obiektem naszego testu usuwania podziałów stron.
+4. Plik Excela: Przygotuj plik Excela, ponieważ będzie on obiektem naszych testów usuwania podziałów stron.
 
 ## Importuj pakiety
 

@@ -39,14 +39,14 @@ string outputDir = "Your Document Directory";
 ```
  Ersätta`"Your Document Directory"` med den faktiska sökvägen till dina kataloger.
 ## Steg 2: Öppna Excel-filen
-Nu när vi har ställt in våra kataloger, låt oss öppna Excel-filen som du vill arbeta med. De`Workbook` klass i Aspose.Cells används för att ladda Excel-dokumentet.
+ Nu när vi har ställt in våra kataloger, låt oss öppna Excel-filen som du vill arbeta med. De`Workbook` klass i Aspose.Cells används för att ladda Excel-dokumentet.
 ```csharp
 // Öppna en Excel-fil
 Workbook workbook = new Workbook(sourceDir + "sampleSetDefaultFontPropertyOfPdfSaveOptionsAndImageOrPrintOptions.xlsx");
 ```
 Se till att ersätta filnamnet med ditt faktiska filnamn.
 ## Steg 3: Ställ in alternativ för bildrendering
- Därefter måste vi konfigurera renderingsalternativen för att konvertera vårt Excel-ark till ett bildformat. Vi skapar en instans av`ImageOrPrintOptions`, som anger bildtyp och standardteckensnitt.
+Därefter måste vi konfigurera renderingsalternativen för att konvertera vårt Excel-ark till ett bildformat. Vi skapar en instans av`ImageOrPrintOptions`, som anger bildtyp och standardteckensnitt.
 ```csharp
 // Rendering till PNG-filformat
 ImageOrPrintOptions imgOpt = new ImageOrPrintOptions();
@@ -63,7 +63,7 @@ SheetRender sr = new SheetRender(workbook.Worksheets[0], imgOpt);
 sr.ToImage(0, outputDir + "out1_imagePNG.png");
 ```
 ## Steg 5: Ändra bildtyp och rendera till TIFF
-Om du vill rendera samma ark till ett annat bildformat, som TIFF, kan du helt enkelt ändra`ImageType` egenskap och upprepa renderingsprocessen.
+ Om du vill rendera samma ark till ett annat bildformat, som TIFF, kan du helt enkelt ändra`ImageType` egenskap och upprepa renderingsprocessen.
 ```csharp
 // Ställ in på TIFF-format
 imgOpt.ImageType = Drawing.ImageType.Tiff;
@@ -71,7 +71,7 @@ WorkbookRender wr = new WorkbookRender(workbook, imgOpt);
 wr.ToImage(outputDir + "out1_imageTIFF.tiff");
 ```
 ## Steg 6: Konfigurera PDF-sparalternativ
- Nästa upp, låt oss ställa in PDF-sparalternativen. Vi kommer att skapa en instans av`PdfSaveOptions`, ställ in standardteckensnittet och ange att vi vill kontrollera om teckensnitt saknas.
+ Nästa upp, låt oss ställa in PDF-sparalternativen. Vi kommer att skapa en instans av`PdfSaveOptions`ställ in standardteckensnittet och ange att vi vill kontrollera om teckensnitt saknas.
 ```csharp
 // Konfigurera PDF-sparalternativ
 PdfSaveOptions saveOptions = new PdfSaveOptions();

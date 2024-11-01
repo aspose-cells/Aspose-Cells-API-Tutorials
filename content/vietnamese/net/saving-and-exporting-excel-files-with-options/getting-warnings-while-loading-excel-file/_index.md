@@ -18,7 +18,7 @@ Bạn nên có hiểu biết cơ bản về C# và .NET framework vì chúng ta 
 ### Môi trường phát triển
 Nên sử dụng IDE tương thích như Visual Studio để phát triển các ứng dụng .NET của bạn. 
 ### Tệp Excel cơ bản
- Bạn sẽ cần một tệp Excel mẫu (chúng tôi sẽ gọi nó là`sampleDuplicateDefinedName.xlsx`có thể chứa các tên được xác định trùng lặp để kiểm tra chức năng này.
+ Bạn sẽ cần một tệp Excel mẫu (chúng tôi sẽ gọi nó là`sampleDuplicateDefinedName.xlsx`) có thể chứa các tên được xác định trùng lặp để kiểm tra chức năng này.
 ## Nhập gói
 Bây giờ mọi thứ đã được thiết lập, chúng ta hãy nói về các gói bạn cần. Đảm bảo bao gồm các không gian tên này ở đầu tệp C# của bạn:
 ```csharp
@@ -38,12 +38,12 @@ string dataDir = "Your Document Directory";
 ```
  Thay thế`"Your Document Directory"` với đường dẫn thực tế trên máy tính của bạn nơi tệp Excel được lưu trữ. Dòng mã đơn giản này sẽ chỉ cho chương trình đúng hướng!
 ## Bước 2: Tạo tùy chọn tải
- Tiếp theo, chúng ta hãy tạo một thể hiện của`LoadOptions`. Đây là nơi phép thuật bắt đầu. Bằng cách cấu hình tùy chọn tải, bạn có thể thiết lập lệnh gọi lại sẽ được kích hoạt bất cứ khi nào gặp cảnh báo trong khi tải sổ làm việc:
+ Tiếp theo, chúng ta hãy tạo một thể hiện của`LoadOptions`Đây là nơi phép thuật bắt đầu. Bằng cách cấu hình tùy chọn tải, bạn có thể thiết lập lệnh gọi lại sẽ được kích hoạt bất cứ khi nào gặp cảnh báo trong khi tải sổ làm việc:
 ```csharp
 LoadOptions options = new LoadOptions();
 options.WarningCallback = new WarningCallback();
 ```
- Ở đây, chúng tôi đang tạo ra một cái mới`LoadOptions` đối tượng và liên kết nó với chúng tôi`WarningCallback`lớp (mà chúng ta sẽ định nghĩa tiếp theo). Thiết lập này rất cần thiết để chương trình của chúng ta xử lý cảnh báo một cách nhẹ nhàng.
+ Ở đây, chúng tôi đang tạo ra một cái mới`LoadOptions` đối tượng và liên kết nó với chúng tôi`WarningCallback` lớp (mà chúng ta sẽ định nghĩa tiếp theo). Thiết lập này rất cần thiết để chương trình của chúng ta xử lý cảnh báo một cách nhẹ nhàng.
 ## Bước 3: Tải tệp Excel nguồn
  Đã đến lúc thực sự tải tệp Excel đó! Đây là nơi bạn gọi đến`Workbook` lớp để tải tệp của bạn cùng với các tùy chọn mà chúng ta đã xác định trước đó:
 ```csharp
@@ -81,6 +81,6 @@ Aspose.Cells là một thư viện .NET mạnh mẽ để tạo, xử lý và ch
 ### Tôi có thể mua Aspose.Cells như thế nào?
  Bạn có thể mua Aspose.Cells trực tiếp từ[trang mua hàng](https://purchase.aspose.com/buy).
 ### Tôi có thể xử lý những loại cảnh báo nào?
- Bạn có thể xử lý nhiều cảnh báo khác nhau như tên trùng lặp được xác định, cảnh báo công thức và cảnh báo kiểu bằng cách sử dụng`WarningCallback`.
+Bạn có thể xử lý nhiều cảnh báo khác nhau như tên trùng lặp được xác định, cảnh báo công thức và cảnh báo kiểu bằng cách sử dụng`WarningCallback`.
 ### Tôi có thể tìm tài liệu về Aspose.Cells ở đâu?
  Bạn có thể kiểm tra toàn diện[tài liệu ở đây](https://reference.aspose.com/cells/net/).

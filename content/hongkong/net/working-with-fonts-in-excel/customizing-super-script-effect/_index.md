@@ -48,11 +48,11 @@ string outputDir = "Your Document Directory";
 //實例化 Workbook 物件
 Workbook workbook = new Workbook();
 ```
-想想`Workbook`就像一塊空白的畫布，等待您用您的數據來繪畫！
+想想`Workbook`就像一塊空白的畫布，等待你用你的數據來繪畫！
 ## 第 3 步：訪問工作表
 預設情況下，新工作簿包含一個工作表。我們將訪問第一個工作表來添加我們的內容。
 ```csharp
-//透過傳遞工作表索引來取得新新增的工作表的引用
+//透過傳遞工作表索引來取得新新增工作表的引用
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 這行程式碼很簡單；您只是告訴您的程式使用工作簿的第一個工作表。簡單易行！
@@ -70,7 +70,7 @@ cell.PutValue("Hello");
 ```
 這段程式碼是您的內容變得生動的地方。 
 ## 步驟 6：將儲存格格式設定為上標
-現在我們進入有趣的部分了！透過將字體設定為上標，使您的文字看起來很漂亮。您可以這樣做：
+現在我們進入有趣的部分了！透過將字體設定為上標，使文字看起來很漂亮。您可以這樣做：
 ```csharp
 //設定字體上標
 Style style = cell.GetStyle();
@@ -90,9 +90,9 @@ workbook.Save(outputDir + "outputSettingSuperscripteffect.xlsx");
 ```csharp
 Console.WriteLine("SettingSuperscripteffect executed successfully.\r\n");
 ```
-現在你就得到它了！使用 Aspose.Cells for .NET 為 Excel 檔案中的文字新增上標效果的完整程式碼片段。
+現在你就擁有了！使用 Aspose.Cells for .NET 為 Excel 檔案中的文字新增上標效果的完整程式碼片段。
 ## 結論
-在 Excel 中自訂上標等文字效果可以使您的資料具有視覺吸引力且更易於理解。透過 Aspose.Cells for .NET，實現這一目標輕而易舉！就像我們在本教程中所做的那樣，這一切都是為了取得顯著的成果，採取小步驟。
+在 Excel 中自訂上標等文字效果可以使您的資料具有視覺吸引力並且更易於理解。透過 Aspose.Cells for .NET，實現這一目標輕而易舉！就像我們在本教程中所做的那樣，這一切都是為了取得顯著的成果，採取小步驟。
 ## 常見問題解答
 ### 什麼是 Aspose.Cells？
 Aspose.Cells 是一個功能強大的函式庫，可讓開發人員以程式設計方式建立、操作和轉換 Excel 檔案。

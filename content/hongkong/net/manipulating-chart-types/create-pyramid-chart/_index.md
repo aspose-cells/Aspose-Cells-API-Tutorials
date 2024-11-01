@@ -74,7 +74,7 @@ Workbook workbook = new Workbook();
 每個工作簿至少包含一個工作表。在這裡，我們將引用要使用的第一個工作表。
 
 ```csharp
-//透過傳遞工作表索引來取得新新增的工作表的引用
+//透過傳遞工作表索引來取得新新增工作表的引用
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 

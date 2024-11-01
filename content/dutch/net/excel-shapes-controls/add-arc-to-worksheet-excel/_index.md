@@ -108,7 +108,7 @@ Aspose.Cells is een krachtige bibliotheek waarmee ontwikkelaars programmatisch E
 ### Moet ik Microsoft Excel installeren om Aspose.Cells te gebruiken?
 Nee, Aspose.Cells is volledig onafhankelijk en vereist geen installatie van Microsoft Excel.
 ### Kan ik Aspose.Cells gratis uitproberen?
-Ja, u kunt Aspose.Cells uitproberen met behulp van hun[Gratis proefperiode](https://releases.aspose.com/).
+ Ja, u kunt Aspose.Cells uitproberen met behulp van hun[Gratis proefperiode](https://releases.aspose.com/).
 ### Welke programmeertalen ondersteunt Aspose.Cells?
 Aspose.Cells ondersteunt meerdere talen, waaronder C#, VB.NET en meer.
 ### Waar kan ik ondersteuning krijgen voor Aspose.Cells?

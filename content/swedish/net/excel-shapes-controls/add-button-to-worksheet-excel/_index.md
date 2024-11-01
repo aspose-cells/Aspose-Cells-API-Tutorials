@@ -41,7 +41,7 @@ Workbook workbook = new Workbook();
 Worksheet sheet = workbook.Worksheets[0];
 ```
 
--  Arbetsbok Skapande: Vi börjar med att skapa en ny`Workbook` objekt, som representerar en Excel-fil.
+-  Skapa arbetsbok: Vi börjar med att skapa en ny`Workbook` objekt, som representerar en Excel-fil.
 -  Arbetsbladsreferens: The`Worksheets[0]` kommandot hämtar det första kalkylbladet i arbetsboken, som vi kommer att ändra.
 Det här steget lägger grunden genom att skapa en tom Excel-fil med ett enda kalkylblad.
 ## Steg 2: Lägg till en knapp i arbetsbladet

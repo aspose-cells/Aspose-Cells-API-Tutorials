@@ -9,7 +9,7 @@ url: /pl/net/excel-advanced-named-ranges/merge-cells-in-named-range/
 ---
 ## Wstęp
 
-Podczas pracy z plikami Excela programowo, jednym z typowych zadań, na jakie możesz się natknąć, jest scalanie komórek w obrębie nazwanego zakresu. Niezależnie od tego, czy automatyzujesz generowanie raportów, tworzysz pulpity nawigacyjne, czy po prostu zarządzasz dużymi zestawami danych, scalanie komórek jest niezbędną techniką. W tym samouczku zbadamy, jak scalać komórki w obrębie nazwanego zakresu przy użyciu Aspose.Cells dla .NET — potężnej biblioteki, która umożliwia programistom manipulowanie plikami Excela bez konieczności instalowania programu Microsoft Excel.
+Podczas pracy z plikami Excela programowo, jednym z typowych zadań, na jakie możesz się natknąć, jest scalanie komórek w obrębie nazwanego zakresu. Niezależnie od tego, czy automatyzujesz generowanie raportów, tworzysz pulpity nawigacyjne, czy po prostu zarządzasz dużymi zestawami danych, scalanie komórek jest niezbędną techniką. W tym samouczku przyjrzymy się, jak scalać komórki w obrębie nazwanego zakresu przy użyciu Aspose.Cells dla .NET — potężnej biblioteki, która umożliwia programistom manipulowanie plikami Excela bez konieczności instalowania programu Microsoft Excel.
 
 ## Wymagania wstępne
 

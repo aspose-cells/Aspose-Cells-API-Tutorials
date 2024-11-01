@@ -15,8 +15,8 @@ A dinamikus és tetszetős diagramok Excelben készítése fantasztikus módja a
 
 Mielőtt belevágnánk a kódolásba, van néhány dolog, amit a helyén kell tartani:
 
-- A C# alapvető ismerete: Hasznos lesz a C# programozás alapvető ismerete. Ne aggódj; nem kell szakértőnek lenni, csak kényelmesen eligazodni a szintaxisban.
--  Telepített Aspose.Cells Library: Győződjön meg arról, hogy telepítve van az Aspose.Cells for .NET könyvtár. Letöltheti innen[itt](https://releases.aspose.com/cells/net/)ha még nem tetted meg.
+- C# alapvető ismerete: Hasznos lesz a C# programozás alapvető ismerete. Ne aggódj; nem kell szakértőnek lenni, csak kényelmesen eligazodni a szintaxisban.
+-  Telepített Aspose.Cells Library: Győződjön meg arról, hogy telepítve van az Aspose.Cells for .NET könyvtár. Letöltheti innen[itt](https://releases.aspose.com/cells/net/) ha még nem tetted meg.
 - Visual Studio: Alapvető fontosságú a Visual Studio vagy bármely olyan IDE ismerete, amelyet a .NET keretrendszerhez szeretne használni.
 - Meglévő Excel-fájl: Ebben a példában egy "sampleAddingTextBoxControlInChart.xls" nevű meglévő Excel-fájllal fogunk dolgozni. Létrehozhat egyet, vagy letölthet egy mintát.
 
@@ -116,7 +116,7 @@ A TextBox hátterének és szegélyének formázása is elengedhetetlen. Ez kiem
 // Szerezze meg a szövegdoboz kitöltési formátumát.
 Aspose.Cells.Drawing.FillFormat fillformat = textbox0.Fill;
 
-// Szerezze be a szövegdoboz sorformátumának típusát.
+// Szerezze meg a szövegdoboz sorformátumának típusát.
 Aspose.Cells.Drawing.LineFormat lineformat = textbox0.Line;
 
 // Állítsa be a vonalvastagságot.
@@ -151,7 +151,7 @@ Az Aspose.Cells for .NET egy hatékony könyvtár Excel-fájlok létrehozásáho
 Igen! Annyi TextBoxot adhat hozzá, amennyire szüksége van, ha megismétli a TextBox létrehozási lépéseit különböző pozíciókkal.
 
 ### Az Aspose.Cells ingyenesen használható?
- Az Aspose.Cells egy fizetős könyvtár, de ingyenes próbaverziót is letölthet a webhelyről[itt](https://releases.aspose.com/).
+Az Aspose.Cells egy fizetős könyvtár, de ingyenes próbaverziót is letölthet a webhelyről[itt](https://releases.aspose.com/).
 
 ### Hol találok további dokumentációt az Aspose.Cells-ről?
  Hozzáférhet az átfogó dokumentációhoz[itt](https://reference.aspose.com/cells/net/).

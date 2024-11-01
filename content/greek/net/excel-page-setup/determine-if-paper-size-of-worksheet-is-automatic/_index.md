@@ -19,13 +19,13 @@ url: /el/net/excel-page-setup/determine-if-paper-size-of-worksheet-is-automatic/
 Ενώ το Aspose.Cells απλοποιεί πολλές εργασίες, η βασική κατανόηση της C# είναι ζωτικής σημασίας. Θα πρέπει να είστε άνετα διαβάζοντας και γράφοντας βασικό κώδικα C#.
 
 ### Aspose.Cells για .NET
- Βεβαιωθείτε ότι έχετε εγκαταστήσει το Aspose.Cells στο έργο σας. Μπορείτε να το κατεβάσετε από το[δικτυακός τόπος](https://releases.aspose.com/cells/net/) αν δεν το έχεις κάνει ήδη.
+Βεβαιωθείτε ότι έχετε εγκαταστήσει το Aspose.Cells στο έργο σας. Μπορείτε να το κατεβάσετε από το[δικτυακός τόπος](https://releases.aspose.com/cells/net/) αν δεν το έχεις κάνει ήδη.
 
 ### Αναπτυξιακό Περιβάλλον
 Θα πρέπει να έχετε ρυθμίσει ένα IDE όπως το Visual Studio. Αυτό σας καθοδηγεί στο χειρισμό και τη δοκιμή του κώδικά σας αποτελεσματικά.
 
 ### Δείγμα αρχείων Excel
-Θα χρειαστείτε δείγματα αρχείων (`samplePageSetupIsAutomaticPaperSize-False.xlsx` και`samplePageSetupIsAutomaticPaperSize-True.xlsx`για σκοπούς δοκιμής. Βεβαιωθείτε ότι αυτά τα αρχεία βρίσκονται στον κατάλογο προέλευσης.
+Θα χρειαστείτε δείγματα αρχείων (`samplePageSetupIsAutomaticPaperSize-False.xlsx` και`samplePageSetupIsAutomaticPaperSize-True.xlsx`) για σκοπούς δοκιμής. Βεβαιωθείτε ότι αυτά τα αρχεία βρίσκονται στον κατάλογο προέλευσης.
 
 ## Εισαγωγή πακέτων
 
@@ -50,7 +50,7 @@ string sourceDir = "YOUR_SOURCE_DIRECTORY";
 string outputDir = "YOUR_OUTPUT_DIRECTORY";
 ```
 
- Αντικαθιστώ`YOUR_SOURCE_DIRECTORY` και`YOUR_OUTPUT_DIRECTORY` με τις πραγματικές διαδρομές στο σύστημά σας όπου θα αποθηκευτούν τα αρχεία.
+ Αντικαθιστώ`YOUR_SOURCE_DIRECTORY` και`YOUR_OUTPUT_DIRECTORY`με τις πραγματικές διαδρομές στο σύστημά σας όπου θα αποθηκευτούν τα αρχεία.
 
 ## Βήμα 2: Φορτώστε τα βιβλία εργασίας του Excel
 
@@ -104,10 +104,10 @@ Console.WriteLine("DetermineIfPaperSizeOfWorksheetIsAutomatic executed successfu
 Ναί! Το Aspose.Cells υποστηρίζει την ανάπτυξη πολλαπλών πλατφορμών, ώστε να μπορείτε να εργάζεστε σε διάφορα περιβάλλοντα όπου είναι διαθέσιμο το .NET.
 
 ### Χρειάζομαι άδεια για το Aspose.Cells;
- Ενώ μπορείτε να ξεκινήσετε με μια δωρεάν δοκιμή, η συνεχής χρήση απαιτεί άδεια που αγοράσατε. Περισσότερες λεπτομέρειες μπορείτε να βρείτε[εδώ](https://purchase.aspose.com/buy).
+Ενώ μπορείτε να ξεκινήσετε με μια δωρεάν δοκιμή, η συνεχής χρήση απαιτεί άδεια που αγοράσατε. Περισσότερες λεπτομέρειες μπορείτε να βρείτε[εδώ](https://purchase.aspose.com/buy).
 
 ### Πώς μπορώ να ελέγξω εάν το μέγεθος χαρτιού ενός φύλλου εργασίας είναι αυτόματο σε C#;
-Όπως φαίνεται στον οδηγό, μπορείτε να ελέγξετε το`IsAutomaticPaperSize` ιδιοκτησία του`PageSetup` τάξη.
+ Όπως φαίνεται στον οδηγό, μπορείτε να ελέγξετε το`IsAutomaticPaperSize` ιδιοκτησία του`PageSetup` τάξη.
 
 ### Πού μπορώ να βρω περισσότερες πληροφορίες για το Aspose.Cells;
  Μπορείτε να βρείτε ολοκληρωμένη τεκμηρίωση και σεμινάρια[εδώ](https://reference.aspose.com/cells/net/).

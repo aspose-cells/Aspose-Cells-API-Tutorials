@@ -12,7 +12,7 @@ Heb je ooit een Excel-werkmap naar HTML moeten converteren en wilde je ervoor zo
 Aan het einde van dit artikel weet u precies hoe u deze functie kunt gebruiken en hoe u ervoor kunt zorgen dat uw HTML-uitvoer er netjes uitziet en geen opmerkingen bevat.
 ## Vereisten
 Voordat we de stapsgewijze handleiding ingaan, bespreken we eerst een aantal zaken die u nodig hebt om de handleiding soepel te kunnen volgen:
-1.  Aspose.Cells voor .NET: U moet de Aspose.Cells-bibliotheek geïnstalleerd hebben. Als u deze nog niet hebt geïnstalleerd, kunt u deze downloaden[hier](https://releases.aspose.com/cells/net/).
+1. Aspose.Cells voor .NET: U moet de Aspose.Cells-bibliotheek geïnstalleerd hebben. Als u deze nog niet hebt geïnstalleerd, kunt u deze downloaden[hier](https://releases.aspose.com/cells/net/).
 2. IDE: Een ontwikkelomgeving zoals Visual Studio om uw C#-code te schrijven en uit te voeren.
 3. Basiskennis van C#: Kennis van de C#-syntaxis en objectgeoriënteerd programmeren helpt u de code te volgen.
 4.  Tijdelijke of gelicentieerde versie: U kunt de gratis proefversie gebruiken of een tijdelijke licentie aanvragen bij[hier](https://purchase.aspose.com/temporary-license/)Dit zorgt ervoor dat de bibliotheek zonder beperkingen werkt.

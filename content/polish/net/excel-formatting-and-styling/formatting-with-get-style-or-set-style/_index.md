@@ -95,7 +95,7 @@ style.ShrinkToFit = true;
 Dzięki temu ustawieniu rozmiar czcionki zostanie automatycznie dopasowany do wymiarów komórki.
 ## Krok 10: Ustaw granice
 Dodawanie dolnej ramki
-Pełna obwódka może sprawić, że definicje komórek będą bardziej przejrzyste. Zastosujmy obwódkę do dolnej części komórki.
+Pełna obwódka może sprawić, że definicje komórek będą bardziej przejrzyste. Zastosujmy obwódkę do dołu komórki.
 ```csharp
 style.Borders[BorderType.BottomBorder].Color = Color.Red;
 style.Borders[BorderType.BottomBorder].LineStyle = CellBorderType.Medium;

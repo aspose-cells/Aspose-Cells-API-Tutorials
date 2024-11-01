@@ -19,7 +19,7 @@ Pokud jde o automatizaci Excelu, je důležité mít ty správné nástroje. To 
 
  Když už jste se SmartArt spokojeni, proč to neudělat ještě o krok dále? The[Otočit text pomocí tvaru v aplikaci Excel](./rotate-text-shape-excel/) průvodce vás naučí, jak oživit své prezentace otáčením textu vedle tvarů. Představte si toto: nádherně navržená sestava, kde text plynule plyne v rámci tvarů. To není jen kreativita; je to profesionalita.
 
- A pokud chcete svým návrhům dodat nějaký šmrnc, podívejte se, jak na to[Dlaždice obrázků jako textury ve tvarech](./tile-picture-texture-shape-excel/)Tato technika přeměňuje všední prezentace na poutavá mistrovská díla. Upřímně, kdo by nechtěl, aby jeho excelové listy vynikly?
+ A pokud chcete svým návrhům dodat nějaký šmrnc, podívejte se, jak na to[Dlaždicové obrázky jako textury ve tvarech](./tile-picture-texture-shape-excel/)Tato technika přeměňuje všední prezentace na poutavá mistrovská díla. Upřímně, kdo by nechtěl, aby jeho excelové listy vynikly?
 
 ## Komplexní učení
 

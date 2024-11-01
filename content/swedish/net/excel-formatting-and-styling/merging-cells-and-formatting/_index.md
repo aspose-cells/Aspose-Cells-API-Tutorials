@@ -65,7 +65,7 @@ Nu kommer den spännande delen – sammanslagning av celler! Detta liknar att sk
 ```csharp
 worksheet.Cells.Merge(0, 0, 1, 3);
 ```
-Dela upp det:
+Bryter ner det:
 - De två första nollorna (`0, 0`) indikerar startcellen "A1."
 - Nästa (`1, 3`) indikerar att vi vill slå samman 1 rad och över 3 kolumner. Din rubrik kommer nu att stå i centrum.
 ## Steg 8: Spara Excel-filen

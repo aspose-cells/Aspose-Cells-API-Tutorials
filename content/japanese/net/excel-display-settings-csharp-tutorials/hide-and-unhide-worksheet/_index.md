@@ -13,7 +13,7 @@ url: /ja/net/excel-display-settings-csharp-tutorials/hide-and-unhide-worksheet/
 
 ## 前提条件
 
-Excel シートを制御するためのこの旅に乗り出す前に、スムーズな旅を実現するための前提条件がいくつかあります。
+Excel シートを制御する旅を始める前に、スムーズな旅を実現するための前提条件がいくつかあります。
 
 1. C# の基礎知識: この言語でコードを記述するため、C# に精通していることが必須です。
 2.  Aspose.Cells for .NET: Aspose.Cellsがインストールされていることを確認してください。ダウンロードできます。[ここ](https://releases.aspose.com/cells/net/).
@@ -65,7 +65,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 Workbook workbook = new Workbook(fstream);
 ```
 
-このステップは、ワークブックに「こんにちは!」と呼びかけるようなもので、ワークブックは変更を加えるためにここにいることを認識します。
+このステップは、ワークブックに「こんにちは!」と呼びかけるようなもので、ワークブックは変更を加えるためにそこにいることを認識します。
 
 ## ステップ4: ワークシートにアクセスする
 

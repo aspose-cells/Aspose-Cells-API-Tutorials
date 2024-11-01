@@ -47,7 +47,7 @@ Workbook workbook = new Workbook(dataDir + "Book1.xls");
 ```
 本質上，此命令告訴您的程式開啟檔案“Book1.xls”，以便我們可以使用其資料。
 ## 第 3 步：取得第一個工作表
-現在我們已經打開了工作簿，讓我們深入了解包含資料的工作表。 
+現在我們已經打開了工作簿，讓我們深入研究包含資料的工作表。 
 ```csharp
 Worksheet worksheet = workbook.Worksheets[0];
 ```

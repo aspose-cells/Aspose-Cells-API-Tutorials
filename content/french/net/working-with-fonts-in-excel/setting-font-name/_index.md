@@ -112,7 +112,7 @@ Et voilà ! Vous avez défini avec succès le nom de la police dans une feuille 
  Vous pouvez modifier la couleur de la police, la couleur d'arrière-plan, les bordures, l'alignement et bien plus encore à l'aide de l'`Style` objet.
 ### L'utilisation d'Aspose.Cells est-elle gratuite ?  
  Aspose.Cells est un produit commercial, mais vous pouvez commencer avec un[essai gratuit](https://releases.aspose.com/) pour évaluer ses caractéristiques.
-### Puis-je manipuler plusieurs feuilles de calcul à la fois ?  
+### Puis-je manipuler plusieurs feuilles de calcul à la fois ?  
 Absolument ! Vous pouvez parcourir`workbook.Worksheets` pour accéder et modifier plusieurs feuilles de calcul dans le même classeur.
 ### Où puis-je trouver de l’aide si je rencontre des problèmes ?  
  Vous pouvez visiter le[Forum d'assistance Aspose](https://forum.aspose.com/c/cells/9) pour obtenir de l'aide concernant toute question ou tout problème que vous rencontrez.

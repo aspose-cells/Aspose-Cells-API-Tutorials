@@ -47,13 +47,13 @@ Workbook workbook = new Workbook(dataDir + "Book1.xls");
 ```
 Esta línea de código abre el archivo Excel especificado (`Book1.xls`) para que puedas empezar a hacer cambios. Piensa en esto como si estuvieras abriendo un libro que quieres editar.
 ## Paso 3: Especificar las opciones de cifrado
-continuación, es el momento de configurar las opciones de cifrado. A continuación, le indicamos cómo hacerlo:
+A continuación, es el momento de configurar las opciones de cifrado. A continuación, le indicamos cómo hacerlo:
 
 Tiene opciones en lo que respecta al cifrado en Aspose.Cells. En este ejemplo, establecerá el cifrado XOR y Strong Cryptographic Provider. 
 ```csharp
 // Especifique el tipo de cifrado XOR.
 workbook.SetEncryptionOptions(EncryptionType.XOR, 40);
-// Especifique el tipo de cifrado fuerte (RC4, proveedor criptográfico fuerte de Microsoft).
+//Especifique el tipo de cifrado fuerte (RC4, proveedor criptográfico fuerte de Microsoft).
 workbook.SetEncryptionOptions(EncryptionType.StrongCryptographicProvider, 128);
 ```
 Piense en estas opciones como el tipo de cerraduras que podría usar: algunas son más cortas y más fáciles de abrir (XOR), mientras que otras son mucho más desafiantes (Proveedor criptográfico fuerte).
@@ -68,7 +68,7 @@ Por último, guardemos los cambios para crear tu archivo cifrado.
 ```csharp
 workbook.Save(dataDir + "encryptedBook1.out.xls");
 ```
- Esta línea de código guarda el libro de trabajo como`encryptedBook1.out.xls`en el directorio especificado. ¡Es como volver a poner el libro en el estante, bajo llave y a buen recaudo!
+ Esta línea de código guarda el libro de trabajo como`encryptedBook1.out.xls` en el directorio especificado. ¡Es como volver a poner el libro en el estante, bajo llave y a buen recaudo!
 ## Conclusión
 ¡Y listo! Acabas de aprender a cifrar un archivo de Excel con Aspose.Cells en .NET. Si sigues estos pasos, te asegurarás de que tus datos confidenciales estén bien protegidos. Solo recuerda: la protección comienza contigo, así que siempre toma las medidas necesarias para salvaguardar tu información. 
 ## Preguntas frecuentes

@@ -74,7 +74,7 @@ for (int i = 5; i < 1000; i++)
 ```
 Hier maken we de eerste werkmap en vullen we het eerste werkblad (`ws0`) met headers en detailrijen. Deze gesimuleerde gegevens helpen u het kopieerproces later te visualiseren.
 
-## Stap 3: Pagina-instelling instellen voor afdrukken
+## Stap 3: Stel de pagina-instelling in voor het afdrukken
 
 Laten we de pagina-instelling zo configureren dat koptekstrijen worden herhaald bij het afdrukken, zodat we deze functie in actie kunnen zien:
 

@@ -12,7 +12,7 @@ Pernahkah Anda merasa kesulitan dengan format file Excel yang rumit dan merasa k
 ## Prasyarat
 Sebelum kita masuk ke rincian yang lebih rinci, ada beberapa prasyarat yang perlu Anda penuhi:
 1. Visual Studio - Pastikan Anda telah menginstal Visual Studio di sistem Anda. Visual Studio akan membantu Anda menulis dan menjalankan kode C# dengan mudah.
-2.  Pustaka Aspose.Cells - Anda memerlukan pustaka Aspose.Cells for .NET. Anda dapat mengunduhnya dengan mudah dari[Aspose Cells Merilis Halaman](https://releases.aspose.com/cells/net/).
+2. Pustaka Aspose.Cells - Anda memerlukan pustaka Aspose.Cells for .NET. Anda dapat mengunduhnya dengan mudah dari[Aspose Cells Merilis Halaman](https://releases.aspose.com/cells/net/).
 3. Pengetahuan Pemrograman Dasar - Beberapa pengetahuan tentang C# dan .NET akan meningkatkan pemahaman Anda tentang cuplikan kode yang akan kita bahas.
 4. Direktori Dokumen Uji - Buat atau tentukan folder tempat Anda akan menyimpan dan menguji file Excel Anda. Untuk tutorial ini, kami akan menyebutnya sebagai "Direktori Dokumen Anda."
 Jika semuanya sudah siap, Anda siap memamerkan keterampilan Anda!

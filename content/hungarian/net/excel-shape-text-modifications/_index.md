@@ -27,7 +27,7 @@ Ami az Excel automatizálását illeti, a megfelelő eszközök megléte mindent
 
 ## Hozzáférés a nem primitív alakzatokhoz
 
- Az alakzatok megértése elengedhetetlen része az Excellel való munkavégzésnek, különösen akkor, ha bonyolult és tetszetős dokumentumokat szeretne létrehozni. Az oktatóanyag a[Hozzáférés a nem primitív alakzathoz az Excelben](./access-non-primitive-shape-excel/) felbecsülhetetlen. Útmutatást ad a szabványos formátumokon túlmutató, összetettebb alakzatok kezeléséhez. Gondoljon úgy, mint egy fejlett eszköztár feloldására; hirtelen többé nem kötik az alapvető formák, és kreatívabb terveket és funkciókat építhet be táblázataiba.
+ Az alakzatok megértése elengedhetetlen része az Excellel való munkavégzésnek, különösen akkor, ha bonyolult és tetszetős dokumentumokat szeretne létrehozni. Az oktatóanyag a[Hozzáférés a nem primitív alakzathoz az Excelben](./access-non-primitive-shape-excel/) felbecsülhetetlen. Útmutatást ad a szabványos formátumokon túlmutató, összetettebb alakzatok kezeléséhez. Gondoljon rá, mint egy fejlett eszköztár feloldására; hirtelen többé nem kötik az alapvető formák, és kreatívabb terveket és funkciókat építhet be táblázataiba.
 
 ## OLE-objektumok frissítése a dinamikus tartalomhoz
 
@@ -41,7 +41,7 @@ Ami az Excel automatizálását illeti, a megfelelő eszközök megléte mindent
 ### [Szöveg kibontása a Gear Type Smart Art programból az Excelben](./extract-text-gear-smart-art-excel/)
 Ismerje meg, hogyan bonthat ki szöveget fogaskerék-típusú SmartArtból az Excelben az Aspose.Cells for .NET használatával. Lépésről lépésre útmutató és kódpélda mellékelve.
 ### [Cserélje ki a címkét szövegre az Excel TextBox-ban](./replace-tag-text-textbox-excel/)
-Az Aspose.Cells for .NET segítségével könnyedén cserélje ki az Excel-lapok szövegmezőiben lévő szöveget. Útmutató lépésről lépésre az Excel automatizálásához.
+Az Aspose.Cells for .NET segítségével könnyedén cserélje ki az Excel-lapok szövegmezőiben lévő szöveget. Lépésről lépésre az Excel automatizálásához.
 ### [Forgassa el a szöveget az alakzattal az Excelben](./rotate-text-shape-excel/)
 Ismerje meg, hogyan forgathat el szöveget alakzatokkal az Excelben az Aspose.Cells for .NET segítségével. Kövesse ezt a lépésről lépésre útmutatót a tökéletes Excel-prezentáció érdekében.
 ### [Mozaik kép textúra alakban az Excelben](./tile-picture-texture-shape-excel/)

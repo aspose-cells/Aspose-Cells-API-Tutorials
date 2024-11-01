@@ -101,7 +101,7 @@ chart.NSeries[0].Area.FillFormat.FillType = Aspose.Cells.Drawing.FillType.Solid;
 次に、グラフの塗りつぶし領域の色を定義する必要があります。これにより、選択した色が有効になります。
 
 ```csharp
-// SolidFillのCellsColorを取得する
+//SolidFillのCellsColorを取得する
 CellsColor cc = chart.NSeries[0].Area.FillFormat.SolidFill.CellsColor;
 ```
 

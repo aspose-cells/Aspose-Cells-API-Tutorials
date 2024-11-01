@@ -58,7 +58,7 @@ Teraz, gdy mamy otwarty skoroszyt, przejdźmy do pierwszego arkusza:
 // Pobierz pierwszy arkusz.
 Worksheet sheet = book.Worksheets[0];
 ```
- Tutaj pobieramy pierwszy arkusz kalkulacyjny (indeks`0` ) z skoroszytu. Tablice Aspose.Cells są indeksowane od zera, co oznacza, że pierwszy arkusz jest`0`.
+ Tutaj pobieramy pierwszy arkusz kalkulacyjny (indeks`0` z skoroszytu. Tablice Aspose.Cells są indeksowane od zera, co oznacza, że pierwszy arkusz jest`0`.
 ## Krok 6: Zdefiniuj opcje obrazu lub wydruku
  Zanim wyrenderujemy obraz, musimy określić, jak ma on wyglądać, używając`ImageOrPrintOptions`:
 ```csharp
@@ -82,7 +82,7 @@ Bitmap bitmap = sr.ToImage(0);
 ## Krok 8: Zapisywanie obrazu
 Po wyrenderowaniu musimy zapisać obraz w określonym katalogu:
 ```csharp
-// Zapisz plik obrazu, określając jego format.
+//Zapisz plik obrazu, określając jego format.
 bitmap.Save(dataDir + "SheetImage.out.jpg");
 ```
  Tutaj zapisujemy wygenerowany obraz bitmapowy. Ten wiersz zapisuje obraz do`dataDir` lokalizacja z nazwą pliku`SheetImage.out.jpg`.
@@ -94,12 +94,12 @@ System.Console.WriteLine("Conversion to Image(s) completed.");
 ```
 Ten wiersz wysyła do konsoli komunikat potwierdzający, informując użytkownika, że konwersja zakończyła się powodzeniem.
 ## Wniosek
-I masz to! W zaledwie kilku prostych krokach nauczyłeś się, jak przekonwertować arkusz kalkulacyjny programu Excel na obraz za pomocą Aspose.Cells dla .NET. Ten proces jest nie tylko szybki, ale i wydajny, umożliwiając bezproblemowe tworzenie wizualnych reprezentacji danych z arkusza kalkulacyjnego.
+I masz to! W zaledwie kilku prostych krokach nauczyłeś się, jak przekonwertować arkusz kalkulacyjny programu Excel na obraz za pomocą Aspose.Cells dla .NET. Ten proces jest nie tylko szybki, ale i wydajny, umożliwiając bezproblemowe tworzenie wizualnych reprezentacji danych arkusza kalkulacyjnego.
 ## Najczęściej zadawane pytania
 ### Czym jest Aspose.Cells?
 Aspose.Cells to biblioteka .NET umożliwiająca programistom programistyczne tworzenie, modyfikowanie, konwertowanie i przetwarzanie plików Excel.
 ### Czy mogę używać Aspose.Cells za darmo?
-Tak, możesz zacząć używać Aspose.Cells, pobierając bezpłatną wersję próbną ze strony[strona internetowa](https://releases.aspose.com/).
+ Tak, możesz zacząć używać Aspose.Cells, pobierając bezpłatną wersję próbną ze strony[strona internetowa](https://releases.aspose.com/).
 ### Jakie formaty obrazów obsługuje Aspose.Cells w zakresie eksportu?
 Aspose.Cells obsługuje różne formaty obrazów, w tym JPEG, PNG, BMP i GIF.
 ### Gdzie mogę znaleźć dodatkową pomoc dotyczącą Aspose.Cells?

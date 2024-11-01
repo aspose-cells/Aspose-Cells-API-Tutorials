@@ -12,7 +12,7 @@ Cuando se trata de trabajar con archivos de Excel en .NET, hay mucha flexibilida
 ## Prerrequisitos
 Antes de comenzar, asegurémonos de que tienes todo lo que necesitas para seguir el proceso sin problemas. Esto es lo que deberías tener:
 1. Visual Studio: asegúrate de tener una versión de Visual Studio instalada en tu equipo. Aquí es donde escribirás el código .NET. 
-2. Biblioteca Aspose.Cells: Necesita la biblioteca Aspose.Cells para .NET. Si aún no la ha descargado, diríjase a la[Página de descargas de Aspose](https://releases.aspose.com/cells/net/) Para agarrarlo. 
+2.  Biblioteca Aspose.Cells: Necesita la biblioteca Aspose.Cells para .NET. Si aún no la ha descargado, diríjase a la[Página de descargas de Aspose](https://releases.aspose.com/cells/net/) Para agarrarlo. 
 3. Conocimientos básicos de C#: una comprensión básica de C# y .NET le ayudará a navegar por los ejemplos de código con mayor comodidad.
 4. .NET Framework: asegúrese de que su proyecto esté configurado con el marco .NET apropiado compatible con la biblioteca Aspose.Cells.
 5. Un documento de Excel: si bien crear un nuevo libro de trabajo es una opción, tener un documento inicial podría ser útil si desea manipular un archivo existente.
@@ -54,7 +54,7 @@ workbook.Save(dataDir + "output.xlsb", SaveFormat.Xlsb);
 ```
  Esta línea de código guarda su libro de trabajo como`output.xlsb` en el directorio especificado utilizando el`SaveFormat.Xlsb` formato. El`SaveFormat` La enumeración es poderosa porque le permite especificar varios formatos como`Xlsx`, `Xls`, etc.
 ## Conclusión
-Y así, ya ha aprendido a guardar un archivo de Excel en el formato xlsb de 2007 con Aspose.Cells para .NET. Esta sencilla pero eficaz función puede ser un punto de inflexión para los desarrolladores que necesiten automatizar el manejo de archivos de Excel en sus aplicaciones .NET.
+así, ya ha aprendido a guardar un archivo de Excel en el formato xlsb de 2007 con Aspose.Cells para .NET. Esta sencilla pero eficaz función puede ser un punto de inflexión para los desarrolladores que necesiten automatizar el manejo de archivos de Excel en sus aplicaciones .NET.
 
 ## Preguntas frecuentes
 ### ¿Qué es la biblioteca Aspose.Cells?

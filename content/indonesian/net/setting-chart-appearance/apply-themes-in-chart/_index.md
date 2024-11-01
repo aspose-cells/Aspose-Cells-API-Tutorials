@@ -99,7 +99,7 @@ Baris kode ini memastikan bahwa seri pertama pada bagan diatur untuk menggunakan
  Sekarang seri kita sudah siap, kita perlu mengubah warnanya. Ini melibatkan pembuatan`CellsColor` objek dan menentukan warna tema. Kita akan memilih gaya aksen untuk contoh ini.
 
 ```csharp
-// Dapatkan CellsColor dari SolidFill
+//Dapatkan CellsColor dari SolidFill
 CellsColor cc = chart.NSeries[0].Area.FillFormat.SolidFill.CellsColor;
 
 // Buat tema dalam gaya Aksen
@@ -158,7 +158,7 @@ Aspose.Cells adalah pustaka hebat untuk .NET yang memungkinkan pengembang memani
 Aspose.Cells mendukung berbagai warna tema termasuk gaya Aksen dan lainnya.
 
 ### Apakah mungkin untuk menerapkan tema ke beberapa bagan?
- Tentu saja! Anda dapat mengulanginya`worksheet.Charts` dan terapkan tema sesuai kebutuhan.
+Tentu saja! Anda dapat mengulanginya`worksheet.Charts` dan terapkan tema sesuai kebutuhan.
 
 ### Di mana saya bisa mendapatkan dukungan untuk Aspose.Cells?
  Anda bisa mendapatkan dukungan dan terlibat dengan komunitas pengguna[Di Sini](https://forum.aspose.com/c/cells/9).

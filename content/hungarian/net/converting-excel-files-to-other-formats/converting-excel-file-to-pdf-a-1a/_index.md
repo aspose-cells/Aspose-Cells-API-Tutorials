@@ -57,7 +57,7 @@ Most jön a fontos rész – a PDF mentési beállítások konfigurálása. Szer
 PdfSaveOptions opts = new PdfSaveOptions();
 opts.Compliance = PdfCompliance.PdfA1a;
 ```
- Beállítással`Compliance` hogy`PdfA1a`Ön biztosítja, hogy a létrehozott PDF teljes mértékben megfeleljen a PDF/A-1a szabványnak. Ez elengedhetetlen, ha szüksége van PDF-fájljaira az archiválási vagy jogi követelmények teljesítéséhez.
+ Beállítás által`Compliance` hogy`PdfA1a`Ön biztosítja, hogy a létrehozott PDF teljes mértékben megfeleljen a PDF/A-1a szabványnak. Ez elengedhetetlen, ha szüksége van PDF-fájljaira az archiválási vagy jogi követelmények teljesítéséhez.
 ## 6. lépés: Mentse el a munkafüzetet PDF formátumban
 Végül mentsük el a munkafüzetünket PDF formátumban. A mentési módszert fogjuk használni, átadva a kimeneti könyvtárat és a PDF mentési beállításokat.
 ```csharp

@@ -125,7 +125,7 @@ Gratulálok! Elsajátította a panelek rögzítésének folyamatát egy Excel-mu
 ## GYIK
 
 ### Mi a célja az ablaktáblák lefagyasztásának az Excelben?
-Az ablaktáblák rögzítése lehetővé teszi, hogy bizonyos sorokat vagy oszlopokat láthatóan tartson, miközben nagy adatkészletekben görgeti.
+Az ablaktáblák rögzítése lehetővé teszi bizonyos sorok vagy oszlopok láthatóságát a nagy adatkészletek görgetése közben.
 
 ### Lefagyaszthatok több sort és oszlopot egyszerre?
  Igen, tetszőleges számú sort és oszlopot rögzíthet, ha megadja a pozíciójukat a`FreezePanes` módszer.

@@ -49,7 +49,7 @@ Så här gör du:
 HtmlSaveOptions opts = new HtmlSaveOptions();
 opts.IsExportComments = true;
 ```
- Genom att ställa in`IsExportComments` till`true`instruerar vi Aspose.Cells att inkludera alla kommentarer från Excel-filen i HTML-utdata. Det är ett enkelt men kraftfullt alternativ som säkerställer att inget viktigt går förlorat under konverteringen.
+ Genom att ställa in`IsExportComments` till`true`, instruerar vi Aspose.Cells att inkludera alla kommentarer från Excel-filen i HTML-utdata. Det är ett enkelt men kraftfullt alternativ som säkerställer att inget viktigt går förlorat under konverteringen.
 ## Steg 4: Spara Excel-filen som HTML
  Nu när vi har laddat Excel-filen och konfigurerat exportalternativen är det sista steget att spara filen som ett HTML-dokument. Aspose.Cells gör detta otroligt enkelt. Allt vi behöver göra är att ringa`Save` metod på vår`Workbook` objekt, skicka i önskat utdataformat och önskade alternativ.
 Här är koden:
@@ -59,7 +59,7 @@ string outputDir = "Your Document Directory";
 // Spara arbetsboken till HTML med kommentarer exporterade
 wb.Save(outputDir + "outputExportCommentsHTML.html", opts);
 ```
- I det här steget sparar vi Excel-filen som ett HTML-dokument och exporterar kommentarerna tillsammans med den. Byt bara ut`"Your Document Directory"` med den faktiska katalogen där du vill spara HTML-filen.
+ I det här steget sparar vi Excel-filen som ett HTML-dokument och exporterar kommentarerna tillsammans med den. Byt bara ut`"Your Document Directory"`med den faktiska katalogen där du vill spara HTML-filen.
 ## Steg 5: Kör din applikation
 Nu när allt är konfigurerat är det dags att köra din applikation. Öppna din terminal (eller Visual Studios utdatafönster) och du kommer att se något så här:
 ```plaintext
@@ -70,7 +70,7 @@ Detta meddelande bekräftar att filen har konverterats till HTML och att alla ko
 Och där har du det! Du har precis lärt dig hur du exporterar kommentarer från en Excel-fil till HTML med Aspose.Cells för .NET. Den här processen är inte bara enkel, den säkerställer också att inga av dina kritiska anteckningar eller kommentarer lämnas kvar när du konverterar till HTML. Oavsett om du arbetar med att skapa dynamiska rapporter eller helt enkelt konvertera Excel-filer för webbanvändning, kan den här funktionen vara en riktig livräddare.
 ## FAQ's
 ### Kan jag exportera endast specifika kommentarer från en Excel-fil till HTML?  
- Nej, Aspose.Cells exporterar alla kommentarer när`IsExportComments` är satt till sant. Du kan dock anpassa vilka kommentarer som ska inkluderas genom att manuellt ändra din Excel-fil innan du exporterar.
+Nej, Aspose.Cells exporterar alla kommentarer när`IsExportComments` är satt till sant. Du kan dock anpassa vilka kommentarer som ska inkluderas genom att manuellt ändra din Excel-fil innan du exporterar.
 ### Påverkar export av kommentarer HTML-filens layout?  
 Inte alls! Aspose.Cells ser till att layouten förblir intakt medan kommentarer läggs till som ytterligare element i HTML-filen.
 ### Kan jag exportera kommentarer i andra format som PDF eller Word?  

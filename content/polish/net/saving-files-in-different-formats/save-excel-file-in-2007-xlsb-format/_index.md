@@ -1,6 +1,6 @@
 ---
-title: Zapisz plik Excel w formacie xlsb 2007
-linktitle: Zapisz plik Excel w formacie xlsb 2007
+title: Zapisz plik Excela w formacie xlsb 2007
+linktitle: Zapisz plik Excela w formacie xlsb 2007
 second_title: Aspose.Cells .NET API przetwarzania programu Excel
 description: Dowiedz się, jak zapisywać pliki Excel w formacie xlsb za pomocą Aspose.Cells dla .NET! Czeka na Ciebie przewodnik krok po kroku z praktycznymi przykładami.
 type: docs
@@ -12,7 +12,7 @@ Jeśli chodzi o pracę z plikami Excel w .NET, jest wiele elastyczności i funkc
 ## Wymagania wstępne
 Zanim zaczniemy, upewnijmy się, że masz wszystko, czego potrzebujesz, aby płynnie podążać. Oto, co powinieneś mieć:
 1. Visual Studio: Upewnij się, że masz zainstalowaną wersję Visual Studio na swoim komputerze. Tutaj będziesz pisać swój kod .NET. 
-2. Biblioteka Aspose.Cells: Potrzebujesz biblioteki Aspose.Cells dla .NET. Jeśli jeszcze jej nie pobrałeś, przejdź do[Strona pobierania Aspose](https://releases.aspose.com/cells/net/) aby to złapać. 
+2.  Biblioteka Aspose.Cells: Potrzebujesz biblioteki Aspose.Cells dla .NET. Jeśli jeszcze jej nie pobrałeś, przejdź do[Strona pobierania Aspose](https://releases.aspose.com/cells/net/) aby to złapać. 
 3. Podstawowa znajomość języka C#: Podstawowa znajomość języka C# i .NET pomoże Ci poruszać się po przykładach kodu bardziej komfortowo.
 4. .NET Framework: Upewnij się, że Twój projekt jest skonfigurowany z wykorzystaniem odpowiedniego środowiska .NET obsługiwanego przez bibliotekę Aspose.Cells.
 5. Dokument programu Excel: Choć utworzenie nowego skoroszytu jest opcją, posiadanie dokumentu początkowego może się przydać, jeśli chcesz edytować istniejący plik.
@@ -47,14 +47,14 @@ Workbook workbook = new Workbook();
 ```
  Tutaj tworzymy nową instancję`Workbook` klasa. Ten nowo utworzony skoroszyt jest pustym skoroszytem, który możesz zacząć wypełniać danymi, jeśli chcesz.
 ## Krok 3: Zapisz skoroszyt
-teraz zaczyna się najlepsza część — zapisywanie skoroszytu w wybranym formacie!
+A teraz zaczyna się najlepsza część — zapisywanie skoroszytu w wybranym formacie!
 ```csharp
 // Zapisz w formacie Excel2007 xlsb
 workbook.Save(dataDir + "output.xlsb", SaveFormat.Xlsb);
 ```
  Ta linia kodu zapisuje skoroszyt jako`output.xlsb` w określonym katalogu za pomocą`SaveFormat.Xlsb` formatu.`SaveFormat` wyliczanie jest potężne, ponieważ pozwala na określenie różnych formatów, takich jak`Xlsx`, `Xls`itd.
 ## Wniosek
-I tak po prostu, udało Ci się nauczyć, jak zapisać plik Excel w formacie 2007 xlsb przy użyciu Aspose.Cells dla .NET. Ta prosta, ale skuteczna funkcjonalność może być przełomem dla programistów, którzy muszą zautomatyzować obsługę plików Excel w swoich aplikacjach .NET.
+tak po prostu, udało Ci się nauczyć, jak zapisać plik Excel w formacie 2007 xlsb przy użyciu Aspose.Cells dla .NET. Ta prosta, ale skuteczna funkcjonalność może być przełomem dla programistów, którzy muszą zautomatyzować obsługę plików Excel w swoich aplikacjach .NET.
 
 ## Najczęściej zadawane pytania
 ### Czym jest biblioteka Aspose.Cells?

@@ -44,7 +44,7 @@ Bước đầu tiên trong hành trình của chúng ta là nhập các gói Asp
 
 ### Thêm Sử dụng Chỉ thị
 
- Ở đầu trang của bạn`Program.cs`tệp, chèn lệnh này để truy cập chức năng Aspose.Cells:
+ Ở đầu trang của bạn`Program.cs` tệp, chèn lệnh này để truy cập chức năng Aspose.Cells:
 
 ```csharp
 using System;

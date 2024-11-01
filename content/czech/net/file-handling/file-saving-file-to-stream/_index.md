@@ -13,7 +13,7 @@ Pokud jde o práci se soubory aplikace Excel ve vašich aplikacích .NET, Aspose
 Než se vrhneme na to, co je v pořádku, je potřeba mít na svém místě několik věcí. Zvažte tento kontrolní seznam, abyste zajistili hladký průběh při procházení tutoriálu.
 1. Visual Studio: Ujistěte se, že máte na svém počítači nainstalované Visual Studio. Nebojte se, můžete dokonce použít edici Community; je zdarma a funguje dobře.
 2. .NET Framework: Verze .NET, kterou používáte, musí být kompatibilní s Aspose.Cells. Obecně platí, že jakékoli rozhraní .NET Framework verze 4.0 nebo novější by mělo být dobré.
-3.  Knihovna Aspose.Cells: Stáhněte a nainstalujte knihovnu Aspose.Cells for .NET. Můžete to najít[zde](https://releases.aspose.com/cells/net/). 
+3. Knihovna Aspose.Cells: Stáhněte a nainstalujte knihovnu Aspose.Cells for .NET. Můžete to najít[zde](https://releases.aspose.com/cells/net/). 
 4. Základní znalost C#: Trocha znalosti programování v C# se bude hodit, ale nemusíte být průvodce kódováním. Věřte mi, pokud se můžete řídit receptem, můžete se řídit tímto návodem!
 5.  Soubor Excel: Budete potřebovat počáteční soubor Excel, v našem případě pojmenovaný`Book1.xlsx`. Klidně si vytvořte jednoduchý, pokud jej ještě nemáte.
 Nyní, když jsme vše připraveni, pojďme importovat potřebné balíčky!
@@ -50,7 +50,7 @@ Nyní načteme sešit, abychom si mohli hrát s jeho obsahem. Uděláte to pomoc
 ```csharp
 Workbook workbook = new Workbook(filePath);
 ```
-co se tu děje? Vytváříme novou instanci`Workbook` třídy a předání cesty ke stávajícímu souboru Excel. Je to jako otevřít knihu receptů, abyste našli své oblíbené jídlo!
+ co se tu děje? Vytváříme novou instanci`Workbook`třídy a předání cesty ke stávajícímu souboru Excel. Je to jako otevřít knihu receptů, abyste našli své oblíbené jídlo!
 ## Krok 4: Vytvořte FileStream pro uložení sešitu
  Dále musíme vytvořit a`FileStream` objekt, který nastaví, kam uložíme náš nově upravený sešit. Kódujte to takto:
 ```csharp

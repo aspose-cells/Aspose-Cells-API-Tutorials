@@ -16,7 +16,7 @@ En el vertiginoso mundo empresarial actual, la gestión eficaz y segura de los d
 Antes de comenzar con el código, es fundamental asegurarse de tener todo configurado para una experiencia fluida con Aspose.Cells para .NET:
 
 1.  Visual Studio: Necesita tener Visual Studio instalado en su equipo. Si no lo tiene, descargue la última versión desde el sitio[Sitio web de Visual Studio](https://visualstudio.microsoft.com/downloads/).
-2.  Biblioteca Aspose.Cells: Necesitará la biblioteca Aspose.Cells. Puede obtenerla descargándola desde[Sitio web de Aspose](https://releases.aspose.com/cells/net/)Alternativamente, puede instalarlo directamente a través de NuGet en Visual Studio.
+2. Biblioteca Aspose.Cells: Necesitará la biblioteca Aspose.Cells. Puede obtenerla descargándola desde[Sitio web de Aspose](https://releases.aspose.com/cells/net/)Alternativamente, puede instalarlo directamente a través de NuGet en Visual Studio.
 3. Conocimientos básicos de C#: dado que escribiremos código en C#, será útil tener conocimientos básicos del lenguaje. Si no tienes experiencia con C#, hay muchos recursos disponibles para ayudarte a empezar.
 4. Un archivo de Excel: tenga listo un libro de Excel que desee desbloquear. En este ejemplo, lo llamaremos "libro1.xls".
 
@@ -69,7 +69,7 @@ Ahora que el libro de trabajo está cargado, querrá acceder a la hoja de trabaj
 ```csharp
 Worksheet worksheet = workbook.Worksheets[0];
 ```
- Al especificar`[0]`, le estás diciendo al sistema que quieres la primera hoja. Si tu hoja no es la primera, simplemente cambia este índice por el número apropiado.
+ Al especificar`[0]`le estás diciendo al sistema que quieres la primera hoja. Si tu hoja no es la primera, simplemente cambia este índice por el número apropiado.
 
 ## Paso 4: Desproteger la hoja de cálculo
 
@@ -116,7 +116,7 @@ catch(Exception ex)
 ¡Sí! Puedes recorrer cada hoja del libro y desprotegerlas de manera similar.
 
 ### ¿Aspose.Cells es de uso gratuito?
- Aspose.Cells ofrece una prueba gratuita, pero se requiere una licencia para su uso en producción. Consulte su[compra](https://purchase.aspose.com/buy) Página para obtener más información.
+ Aspose.Cells ofrece una prueba gratuita, pero se requiere una licencia para su uso en producción. Consulte su[compra](https://purchase.aspose.com/buy)Página para obtener más información.
 
 ### ¿Qué pasa si no sé la contraseña?
 Si una hoja está protegida con contraseña y usted no la tiene, la biblioteca no le ayudará a eludir las restricciones ya que va en contra de las políticas éticas.

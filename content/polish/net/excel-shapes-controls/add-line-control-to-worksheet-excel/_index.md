@@ -115,7 +115,7 @@ workbook.Save(dataDir + "book1.out.xls");
 ```
  Możesz nadać plikowi wyjściowemu dowolną nazwę — upewnij się tylko, że kończy się ona na`.xls` lub inne obsługiwane rozszerzenie pliku Excel.
 ## Wniosek
-Gratulacje! Udało Ci się nauczyć, jak dodawać kontrolki wierszy do arkusza kalkulacyjnego programu Excel za pomocą Aspose.Cells dla .NET. Za pomocą zaledwie kilku wierszy kodu możesz znacznie ulepszyć swoje pliki programu Excel, oferując wizualną reprezentację danych, która może pomóc w skuteczniejszej komunikacji spostrzeżeń. Niezależnie od tego, czy chcesz tworzyć raporty, prezentacje czy narzędzia analityczne, opanowanie bibliotek takich jak Aspose.Cells może sprawić, że Twój przepływ pracy będzie znacznie płynniejszy i bardziej wydajny.
+Gratulacje! Udało Ci się nauczyć, jak dodawać kontrolki wierszy do arkusza kalkulacyjnego programu Excel za pomocą Aspose.Cells dla .NET. Za pomocą zaledwie kilku wierszy kodu możesz znacznie ulepszyć swoje pliki programu Excel, oferując wizualną reprezentację danych, która może pomóc w skuteczniejszej komunikacji spostrzeżeń. Niezależnie od tego, czy chcesz tworzyć raporty, prezentacje czy narzędzia analityczne, opanowanie bibliotek, takich jak Aspose.Cells, może sprawić, że Twój przepływ pracy będzie znacznie płynniejszy i bardziej wydajny.
 ## Najczęściej zadawane pytania
 ### Czym jest Aspose.Cells dla .NET?
 Aspose.Cells for .NET to biblioteka umożliwiająca programistom tworzenie, edytowanie i konwertowanie plików Excel bez konieczności korzystania z programu Microsoft Excel.

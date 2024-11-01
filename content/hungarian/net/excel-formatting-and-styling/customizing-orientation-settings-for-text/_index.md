@@ -47,7 +47,7 @@ Most feltűrjük az ingujjunkat, és elkezdjük testreszabni a szövegtájolást
 
 ## 1. lépés: Állítsa be a dokumentumkönyvtárat 
 
-Először is létre kell hoznunk egy könyvtárat, ahová az Excel fájljaink mentésre kerülnek. Ezáltal rendszerezett a munkaterületünk.
+Először is létre kell hoznunk egy könyvtárat, ahová az Excel fájljaink mentésre kerülnek. Ez rendszerezetten tartja a munkaterületünket.
 
 ```csharp
 string dataDir = "Your Document Directory";
@@ -58,7 +58,7 @@ if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
 
- Itt definiálhat egy karakterlánc-változót`dataDir` a dokumentumok elérési útjának megadásához. A kód ellenőrzi, hogy létezik-e a könyvtár; ha nem, akkor létrehoz egyet. Ez olyan, mintha egy tiszta munkaterületről gondoskodna egy projekt elindítása előtt!
+ Itt definiálhat egy karakterlánc-változót`dataDir` a dokumentumok elérési útjának megadásához. A kód ellenőrzi, hogy a könyvtár létezik-e; ha nem, akkor létrehoz egyet. Ez olyan, mintha egy tiszta munkaterületről gondoskodna egy projekt elindítása előtt!
 
 ## 2. lépés: Hozzon létre egy új munkafüzetet
 

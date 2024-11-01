@@ -90,4 +90,4 @@ Neste tutorial, aprendemos como criar animações de gráficos usando a API Aspo
 
 ### Qual é o propósito do atraso de animação?
 
- O atraso da animação determina o intervalo de tempo antes do início da animação do gráfico. Use o`setAnimationDelay`método para definir o atraso em milissegundos.
+ O atraso da animação determina o intervalo de tempo antes do início da animação do gráfico. Use o`setAnimationDelay` método para definir o atraso em milissegundos.

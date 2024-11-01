@@ -160,7 +160,7 @@ Console.WriteLine("SpecifyFormulaFieldsWhileImportingDataToWorksheet executed su
 
 ## 結論
 
-現在你就得到它了！您已使用 Aspose.Cells for .NET 和指定的公式欄位成功將資料匯入到 Excel 工作表中。透過執行這些步驟，您可以應用類似的技術來自動執行根據您的需求量身定制的資料處理任務。無論您是要處理報告中的數字還是只是維護數據，掌握使用 Aspose 進行 Excel 操作的藝術都是值得擁有的技能。
+現在你就擁有了！您已使用 Aspose.Cells for .NET 和指定的公式欄位成功將資料匯入到 Excel 工作表中。透過執行這些步驟，您可以應用類似的技術來自動執行根據您的需求量身定制的資料處理任務。無論您是要處理報告中的數字還是只是維護數據，掌握使用 Aspose 進行 Excel 操作的藝術都是值得擁有的技能。
 
 ## 常見問題解答
 

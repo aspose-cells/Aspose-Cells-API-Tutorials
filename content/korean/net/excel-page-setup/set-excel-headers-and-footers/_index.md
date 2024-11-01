@@ -81,7 +81,7 @@ pageSetup.SetHeader(0, "&A");
 
 ## 4단계: 중앙 헤더 사용자 지정
 
-다음으로, 현재 날짜와 시간을 특정 글꼴로 표시하도록 중앙 헤더를 사용자 지정해 보겠습니다.
+다음으로, 중앙 헤더를 사용자 지정하여 현재 날짜와 시간을 특정 글꼴로 표시하겠습니다.
 
 ```csharp
 pageSetup.SetHeader(1, "&\"Times New Roman,Bold\"&D-&T");

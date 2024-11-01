@@ -151,7 +151,7 @@ Aspose.Cells for .NET 是一个功能强大的库，用于创建、操作和转�
 是的！您可以通过在不同位置重复创建文本框的步骤来添加所需数量的文本框。
 
 ### Aspose.Cells 可以免费使用吗？
- Aspose.Cells 是一个付费库，但你可以从下载免费试用版[这里](https://releases.aspose.com/).
+Aspose.Cells 是一个付费库，但你可以从下载免费试用版[这里](https://releases.aspose.com/).
 
 ### 在哪里可以找到有关 Aspose.Cells 的更多文档？
 您可以访问全面的文档[这里](https://reference.aspose.com/cells/net/).

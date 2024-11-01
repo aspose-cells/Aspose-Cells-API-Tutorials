@@ -192,7 +192,7 @@ Nah, itu dia! Anda telah berhasil membuat buku kerja dengan validasi data desima
 ## Kesimpulan
 
 Menerapkan validasi data desimal di Excel menggunakan Aspose.Cells for .NET mudah dilakukan jika Anda mengikuti langkah-langkah mudah berikut. Anda tidak hanya memastikan bahwa data tetap bersih dan terstruktur, tetapi juga meningkatkan integritas data secara keseluruhan di lembar kerja Anda, sehingga lembar kerja tersebut andal dan mudah digunakan.
-Baik Anda berkecimpung di bidang keuangan, manajemen proyek, atau bidang apa pun yang menggunakan pelaporan data, menguasai keterampilan ini akan meningkatkan produktivitas Anda secara signifikan. Jadi, cobalah! Lembar kerja Anda akan berterima kasih karenanya.
+Baik Anda berkecimpung di bidang keuangan, manajemen proyek, atau bidang apa pun yang memanfaatkan pelaporan data, menguasai keterampilan ini akan meningkatkan produktivitas Anda secara signifikan. Jadi, cobalah! Lembar kerja Anda akan berterima kasih karenanya.
 
 ## Pertanyaan yang Sering Diajukan
 

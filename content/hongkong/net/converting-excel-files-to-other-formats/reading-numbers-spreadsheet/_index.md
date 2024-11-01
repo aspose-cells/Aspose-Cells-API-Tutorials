@@ -54,7 +54,7 @@ LoadOptions opts = new LoadOptions(LoadFormat.Numbers);
 //使用上述載入選項將 Numbers 電子表格載入到工作簿中
 Workbook wb = new Workbook(sourceDir + "sampleNumbersByAppleInc.numbers", opts);
 ```
-我們實例化一個`Workbook`物件並傳遞 Numbers 檔案的檔案路徑以及我們的載入選項。確保檔案名稱 (`sampleNumbersByAppleInc.numbers`) 與 Numbers 檔案的實際名稱相符。
+我們實例化一個`Workbook`物件並傳遞 Numbers 檔案的檔案路徑以及我們的載入選項。確保檔案名稱 (`sampleNumbersByAppleInc.numbers`) 與您的 Numbers 檔案的實際名稱相符。
 ## 步驟 4：將工作簿另存為 PDF
 成功載入 Numbers 檔案後，下一步是將其儲存為不同的格式，特別是 PDF。
 ```csharp
@@ -69,7 +69,7 @@ Console.WriteLine("ReadNumbersSpreadsheet executed successfully.\r\n");
 ```
 一切完成後，這行程式碼將在控制台列印一條成功訊息。收到回饋總是好的，對吧？
 ## 結論
-現在你就得到它了！您已成功讀取 Numbers 電子表格並使用 Aspose.Cells for .NET 將其轉換為 PDF。這個功能強大的庫使您可以輕鬆地操作電子表格，使您的資料管理任務變得輕而易舉。無論您是在開發應用程式還是只是需要更有效地處理電子表格，Aspose.Cells 都是您工具包中的絕佳工具。
+現在你就擁有了！您已成功讀取 Numbers 電子表格並使用 Aspose.Cells for .NET 將其轉換為 PDF。這個功能強大的庫使您可以輕鬆地操作電子表格，使您的資料管理任務變得輕而易舉。無論您是在開發應用程式還是只是需要更有效地處理電子表格，Aspose.Cells 都是您工具包中的絕佳工具。
 ## 常見問題解答
 ### Aspose.Cells 可以讀取哪些類型的檔案？  
 Aspose.Cells 可以讀取多種檔案格式，包括 XLS、XLSX、CSV 和 Numbers 檔案。 

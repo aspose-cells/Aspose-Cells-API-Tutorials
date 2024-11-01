@@ -55,7 +55,7 @@ string sourceDir = "Your Document Directory/";
 string outputDir = "Your Output Directory/";
 ```
 
- Thay thế`Your Document Directory` Và`Your Output Directory`với đường dẫn thực tế trên máy tính của bạn. 
+ Thay thế`Your Document Directory` Và`Your Output Directory` với đường dẫn thực tế trên máy tính của bạn. 
 
 ## Bước 2: Tải Workbook hiện có
 
@@ -100,7 +100,7 @@ Sau khi đã chọn biểu đồ, đã đến lúc thêm hình ảnh!
 Aspose.Cells.Drawing.Picture pic0 = chart.Shapes.AddPictureInChart(50, 50, stream, 200, 200);
 ```
 
- Đây,`50` Và`50` là tọa độ X và Y nơi hình ảnh sẽ được đặt và`200`là chiều rộng và chiều cao của hình ảnh.
+ Đây,`50` Và`50` là tọa độ X và Y nơi hình ảnh sẽ được đặt và`200` là chiều rộng và chiều cao của hình ảnh.
 
 ## Bước 6: Tùy chỉnh Định dạng Dòng của Hình ảnh
 
@@ -154,7 +154,7 @@ Aspose.Cells hỗ trợ nhiều định dạng hình ảnh, bao gồm PNG, JPEG,
  Chắc chắn rồi! Tọa độ X và Y trong`AddPictureInChart` phương pháp cho phép định vị chính xác.
 
 ### Aspose.Cells có miễn phí sử dụng không?
- Aspose.Cells cung cấp bản dùng thử miễn phí, nhưng để có đầy đủ tính năng, cần phải có giấy phép. Bạn có thể tìm thấy giá[đây](https://purchase.aspose.com/buy).
+Aspose.Cells cung cấp bản dùng thử miễn phí, nhưng để có đầy đủ tính năng, cần phải có giấy phép. Bạn có thể tìm thấy giá[đây](https://purchase.aspose.com/buy).
 
 ### Tôi có thể tìm thêm ví dụ ở đâu?
  Kiểm tra các[Tài liệu Aspose.Cells](https://reference.aspose.com/cells/net/) để biết thêm ví dụ và chức năng chi tiết hơn.

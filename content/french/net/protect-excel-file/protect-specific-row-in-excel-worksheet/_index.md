@@ -88,7 +88,7 @@ StyleFlag flag;
 for (int i = 0; i <= 255; i++)
 {
     style = sheet.Cells.Columns[(byte)i].Style;
-    style.IsLocked = false; //Déverrouiller la colonne
+    style.IsLocked = false; // Déverrouiller la colonne
     flag = new StyleFlag();
     flag.Locked = true; // Définir l'indicateur sur vrai pour le verrouillage
     sheet.Cells.Columns[(byte)i].ApplyStyle(style, flag); // Appliquer le style

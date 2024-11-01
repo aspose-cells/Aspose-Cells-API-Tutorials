@@ -13,7 +13,7 @@ In questa guida, ti guideremo attraverso il processo di aggiunta di estensioni W
 
 ## Prerequisiti
 
-Prima di addentrarci nel nocciolo della codifica, assicuriamoci di avere tutto ciò di cui hai bisogno. Ecco i prerequisiti per iniziare con Aspose.Cells per .NET:
+Prima di addentrarci nei dettagli della codifica, assicuriamoci di avere tutto ciò di cui hai bisogno. Ecco i prerequisiti per iniziare con Aspose.Cells per .NET:
 
 1. Visual Studio: assicurati di aver installato Visual Studio, poiché scriveremo il nostro codice in questo IDE.
 2. .NET Framework: familiarità con .NET Framework (preferibilmente .NET Core o .NET 5/6).
@@ -36,7 +36,7 @@ using Aspose.Cells;
 
 Ora che hai impostato l'ambiente, passiamo alla parte di codifica!
 
-Ora siamo pronti ad aggiungere un'estensione Web a una cartella di lavoro Excel. Segui attentamente questi passaggi:
+Ora siamo pronti ad aggiungere un'estensione Web a una cartella di lavoro di Excel. Segui attentamente questi passaggi:
 
 ## Passaggio 1: impostare la directory di output
 

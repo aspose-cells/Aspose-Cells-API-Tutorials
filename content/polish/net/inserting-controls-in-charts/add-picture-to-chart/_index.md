@@ -55,7 +55,7 @@ string sourceDir = "Your Document Directory/";
 string outputDir = "Your Output Directory/";
 ```
 
- Zastępować`Your Document Directory` I`Your Output Directory` rzeczywistymi ścieżkami na Twoim komputerze. 
+ Zastępować`Your Document Directory` I`Your Output Directory` z rzeczywistymi ścieżkami na Twoim komputerze. 
 
 ## Krok 2: Załaduj istniejący skoroszyt
 
@@ -100,7 +100,7 @@ Po wybraniu wykresu czas dodać zdjęcie!
 Aspose.Cells.Drawing.Picture pic0 = chart.Shapes.AddPictureInChart(50, 50, stream, 200, 200);
 ```
 
- Tutaj,`50` I`50` to współrzędne X i Y, pod którymi zostanie umieszczony obraz, oraz`200`jest szerokością i wysokością obrazu.
+ Tutaj,`50` I`50` to współrzędne X i Y, pod którymi zostanie umieszczony obraz, oraz`200` jest szerokością i wysokością obrazu.
 
 ## Krok 6: Dostosuj format linii obrazu
 
@@ -140,7 +140,7 @@ Console.WriteLine("AddingPictureInChart executed successfully.");
 
 ## Wniosek
 
-tym samouczku sprawdziliśmy, jak dodać odrobinę osobowości do wykresów Excela, dodając obrazy za pomocą Aspose.Cells dla .NET. Za pomocą kilku prostych kroków możesz podnieść poziom swoich prezentacji z nudnych na niezapomniane. Na co więc czekasz? Spróbuj i pozwól swoim wykresom zabłysnąć!
+W tym samouczku sprawdziliśmy, jak dodać odrobinę osobowości do wykresów Excela, dodając obrazy za pomocą Aspose.Cells dla .NET. Za pomocą kilku prostych kroków możesz podnieść poziom swoich prezentacji z nudnych na niezapomniane. Na co więc czekasz? Spróbuj i pozwól swoim wykresom zabłysnąć!
 
 ## Najczęściej zadawane pytania
 
@@ -154,7 +154,7 @@ Aspose.Cells obsługuje wiele formatów obrazów, w tym PNG, JPEG, BMP i GIF.
  Oczywiście! Współrzędne X i Y w`AddPictureInChart` Metoda ta pozwala na precyzyjne pozycjonowanie.
 
 ### Czy korzystanie z Aspose.Cells jest bezpłatne?
- Aspose.Cells oferuje bezpłatną wersję próbną, ale do korzystania z pełnych funkcji wymagana jest licencja. Cennik można znaleźć[Tutaj](https://purchase.aspose.com/buy).
+Aspose.Cells oferuje bezpłatną wersję próbną, ale do korzystania z pełnych funkcji wymagana jest licencja. Cennik można znaleźć[Tutaj](https://purchase.aspose.com/buy).
 
 ### Gdzie mogę znaleźć więcej przykładów?
  Sprawdź[Dokumentacja Aspose.Cells](https://reference.aspose.com/cells/net/) aby zobaczyć bardziej szczegółowe przykłady i funkcjonalności.

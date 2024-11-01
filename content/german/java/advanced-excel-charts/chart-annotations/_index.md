@@ -22,7 +22,7 @@ Bevor wir mit der Implementierung beginnen, stellen Sie sicher, dass die folgend
 
 ## Einrichten von Aspose.Cells für Java
 
- Um zu beginnen, müssen Sie Aspose.Cells für Java in Ihrem Projekt einrichten. Sie können die Bibliothek von der Aspose-Website herunterladen[Hier](https://releases.aspose.com/cells/java/). Fügen Sie die Bibliothek nach dem Download zu Ihrem Java-Projekt hinzu.
+Um zu beginnen, müssen Sie Aspose.Cells für Java in Ihrem Projekt einrichten. Sie können die Bibliothek von der Aspose-Website herunterladen[Hier](https://releases.aspose.com/cells/java/). Fügen Sie die Bibliothek nach dem Download zu Ihrem Java-Projekt hinzu.
 
 ## Erstellen einer Excel-Arbeitsmappe
 

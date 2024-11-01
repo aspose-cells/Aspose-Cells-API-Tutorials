@@ -41,7 +41,7 @@ string dataDir = "Your Document Directory";
 LoadOptions loadOptions = new LoadOptions(LoadFormat.Xlsx);
 ```
 Itt azt mondjuk, hogy egy XLSX fájlformátumot szeretnénk betölteni. De várj, további részletekre van szükségünk!
-## 3. lépés: Állítsa be a LoadFilter-t
+## 3. lépés: Állítsa be a LoadFiltert
  Most a szaftos részhez érkezünk! A`LoadFilter` tulajdonság megmondja az Aspose.Cellsnek, hogy mit vegyen fel a fájlból. Mivel csak az adat- és cellaformázást szeretnénk, ezt is meg kell adnunk:
 ```csharp
 // Állítsa be a LoadFilter tulajdonságot, hogy csak az adatokat és a cellaformázást töltse be

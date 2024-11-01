@@ -19,13 +19,13 @@ Mielőtt belevágnánk a kódba, győződjön meg arról, hogy mindennel rendelk
 Míg az Aspose.Cells számos feladatot leegyszerűsít, a C# alapjainak ismerete kulcsfontosságú. Kényelmesen kell tudnia olvasni és írni az alapvető C# kódot.
 
 ### Aspose.Cells for .NET
- Győződjön meg arról, hogy az Aspose.Cells telepítve van a projektben. Letöltheti a[weboldal](https://releases.aspose.com/cells/net/) ha még nem tetted meg.
+Győződjön meg arról, hogy az Aspose.Cells telepítve van a projektben. Letöltheti a[weboldal](https://releases.aspose.com/cells/net/) ha még nem tetted meg.
 
 ### Fejlesztési környezet
 Be kell állítania egy olyan IDE-t, mint a Visual Studio. Ez végigvezeti Önt a kód hatékony kezelésén és tesztelésén.
 
 ### Minta Excel fájlok
-Mintafájlokra lesz szüksége (`samplePageSetupIsAutomaticPaperSize-False.xlsx` és`samplePageSetupIsAutomaticPaperSize-True.xlsx`tesztelési célból. Győződjön meg arról, hogy ezek a fájlok a forráskönyvtárban vannak.
+Mintafájlokra lesz szüksége (`samplePageSetupIsAutomaticPaperSize-False.xlsx` és`samplePageSetupIsAutomaticPaperSize-True.xlsx`) tesztelési célból. Győződjön meg arról, hogy ezek a fájlok a forráskönyvtárban vannak.
 
 ## Csomagok importálása
 
@@ -50,7 +50,7 @@ string sourceDir = "YOUR_SOURCE_DIRECTORY";
 string outputDir = "YOUR_OUTPUT_DIRECTORY";
 ```
 
- Cserélje ki`YOUR_SOURCE_DIRECTORY` és`YOUR_OUTPUT_DIRECTORY` a rendszer tényleges elérési útjaival, ahol a fájlok tárolásra kerülnek.
+ Cserélje ki`YOUR_SOURCE_DIRECTORY` és`YOUR_OUTPUT_DIRECTORY` rendszer tényleges elérési útjaival, ahol a fájlok tárolásra kerülnek.
 
 ## 2. lépés: Töltse be az Excel-munkafüzeteket
 
@@ -63,7 +63,7 @@ Workbook wb2 = new Workbook(sourceDir + "samplePageSetupIsAutomaticPaperSize-Tru
 
 ## 3. lépés: Nyissa meg az első munkalapot
 
-betöltött munkafüzetek után itt az ideje, hogy minden munkafüzetből hozzáférjen az első munkalaphoz. Az Aspose.Cells szépsége az, hogy ez nevetségesen egyszerű:
+A betöltött munkafüzetek után itt az ideje, hogy minden munkafüzetből hozzáférjen az első munkalaphoz. Az Aspose.Cells szépsége az, hogy ez nevetségesen egyszerű:
 
 ```csharp
 Worksheet ws11 = wb1.Worksheets[0];
@@ -104,10 +104,10 @@ Az Aspose.Cells egy .NET-könyvtár, amelyet az Excel-táblázatok programozott 
 Igen! Az Aspose.Cells támogatja a többplatformos fejlesztést, így különféle környezetekben dolgozhat, ahol elérhető a .NET.
 
 ### Szükségem van licencre az Aspose.Cellshez?
- Bár ingyenes próbaverzióval kezdheti, a további használathoz megvásárolt licenc szükséges. További részletek találhatók[itt](https://purchase.aspose.com/buy).
+Bár ingyenes próbaverzióval kezdheti, a további használathoz megvásárolt licenc szükséges. További részletek találhatók[itt](https://purchase.aspose.com/buy).
 
 ### Hogyan ellenőrizhetem, hogy egy munkalap papírmérete automatikus-e C#-ban?
-Amint az az útmutatóban látható, ellenőrizheti a`IsAutomaticPaperSize` tulajdona a`PageSetup` osztály.
+ Amint az az útmutatóban látható, ellenőrizheti a`IsAutomaticPaperSize` tulajdona a`PageSetup` osztály.
 
 ### Hol találhatok több információt az Aspose.Cells-ről?
  Átfogó dokumentációt és oktatóanyagokat találhat[itt](https://reference.aspose.com/cells/net/).

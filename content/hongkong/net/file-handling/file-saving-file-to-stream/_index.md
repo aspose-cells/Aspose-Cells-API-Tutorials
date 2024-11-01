@@ -13,7 +13,7 @@ url: /zh-hant/net/file-handling/file-saving-file-to-stream/
 在我們深入討論細節之前，您需要先做好一些準備。請將此視為您的清單，以確保我們在學習本教學時獲得流暢的體驗。
 1. Visual Studio：確保您的電腦上安裝了 Visual Studio。不用擔心，您甚至可以使用社群版；它是免費的並且運行良好。
 2. .NET Framework：您使用的 .NET 版本必須與 Aspose.Cells 相容。一般來說，任何 .NET Framework 4.0 或更高版本都應該很好。
-3.  Aspose.Cells 函式庫：下載並安裝 Aspose.Cells for .NET 函式庫。你可以找到它[這裡](https://releases.aspose.com/cells/net/). 
+3. Aspose.Cells 函式庫：下載並安裝 Aspose.Cells for .NET 函式庫。你可以找到它[這裡](https://releases.aspose.com/cells/net/). 
 4. 基本 C# 知識：稍微熟悉一下 C# 程式設計就會派上用場，但您不需要成為程式設計精靈。相信我，如果你能遵循食譜，你就能遵循本指南！
 5.  Excel 文件：您需要一個起始 Excel 文件，在我們的例子中，名為`Book1.xlsx`。如果您還沒有，請隨意創建一個簡單的。
 現在我們已經準備好了，讓我們導入必要的套件！
@@ -34,7 +34,7 @@ using System;
 瞧，您已經準備好開始程式設計了！ 
 現在，讓我們逐步完成使用 Aspose.Cells 將 Excel 檔案儲存到流中的步驟。我們會將其整齊地分解，這樣您就不會錯過任何細節。
 ## 第 1 步：設定您的文件目錄
-在開始儲存檔案之前，請指定一個目錄來儲存檔案。方法如下：
+在您開始儲存檔案之前，請指定目錄來儲存您的檔案。方法如下：
 ```csharp
 string dataDir = "Your Document Directory";
 ```

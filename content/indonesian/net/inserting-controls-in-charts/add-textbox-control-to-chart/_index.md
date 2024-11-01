@@ -16,7 +16,7 @@ Membuat bagan yang dinamis dan menarik secara visual di Excel adalah cara yang f
 Sebelum kita mulai membuat kode, ada beberapa hal yang harus Anda siapkan:
 
 - Pemahaman Dasar tentang C#: Pemahaman dasar tentang pemrograman C# akan sangat membantu. Jangan khawatir; Anda tidak perlu menjadi seorang ahli, cukup pahami sintaksisnya.
--  Pustaka Aspose.Cells Terpasang: Pastikan Anda telah memasang pustaka Aspose.Cells untuk .NET. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/cells/net/)jika Anda belum melakukannya.
+-  Pustaka Aspose.Cells Terpasang: Pastikan Anda telah memasang pustaka Aspose.Cells untuk .NET. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/cells/net/) jika Anda belum melakukannya.
 - Visual Studio: Keakraban dengan Visual Studio atau IDE apa pun yang ingin Anda gunakan untuk kerangka kerja .NET sangatlah penting.
 - File Excel yang Ada: Untuk contoh ini, kita akan menggunakan file Excel yang sudah ada bernama "sampleAddingTextBoxControlInChart.xls". Anda dapat membuat file tersebut atau mengunduh contohnya.
 
@@ -151,7 +151,7 @@ Aspose.Cells untuk .NET adalah pustaka yang hebat untuk membuat, memanipulasi, d
 Ya! Anda dapat menambahkan TextBox sebanyak yang Anda perlukan dengan mengulangi langkah-langkah pembuatan TextBox dengan posisi yang berbeda.
 
 ### Apakah Aspose.Cells gratis untuk digunakan?
- Aspose.Cells adalah pustaka berbayar, tetapi Anda dapat mengunduh versi uji coba gratis dari[Di Sini](https://releases.aspose.com/).
+Aspose.Cells adalah pustaka berbayar, tetapi Anda dapat mengunduh versi uji coba gratis dari[Di Sini](https://releases.aspose.com/).
 
 ### Di mana saya dapat menemukan dokumentasi lebih lanjut tentang Aspose.Cells?
  Anda dapat mengakses dokumentasi yang komprehensif[Di Sini](https://reference.aspose.com/cells/net/).

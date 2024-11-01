@@ -99,7 +99,7 @@ foreach (PowerQueryFormula PQF in PQFcoll)
 
 ## ステップ4: 実行と検証
 
-最後に、コードが正しく実行され、期待どおりの出力を返すことを確認する必要があります。`Main`方法：
+最後に、コードが正しく実行され、期待どおりの出力を返すことを確認する必要があります。次の行をコードの最後に追加します。`Main`方法：
 
 ```csharp
 Console.WriteLine("GetOdataDetails executed successfully.");

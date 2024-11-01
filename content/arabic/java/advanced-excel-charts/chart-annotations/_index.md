@@ -22,7 +22,7 @@ url: /ar/java/advanced-excel-charts/chart-annotations/
 
 ## إعداد Aspose.Cells لـ Java
 
- للبدء، تحتاج إلى إعداد Aspose.Cells لـ Java في مشروعك. يمكنك تنزيل المكتبة من موقع Aspose على الويب[هنا](https://releases.aspose.com/cells/java/)بمجرد التنزيل، قم بإضافتها إلى مشروع Java الخاص بك.
+للبدء، تحتاج إلى إعداد Aspose.Cells لـ Java في مشروعك. يمكنك تنزيل المكتبة من موقع Aspose على الويب[هنا](https://releases.aspose.com/cells/java/)بمجرد التنزيل، قم بإضافتها إلى مشروع Java الخاص بك.
 
 ## إنشاء مصنف Excel
 

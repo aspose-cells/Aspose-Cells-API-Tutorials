@@ -9,7 +9,7 @@ url: /cs/net/excel-page-setup/set-excel-scaling-factor/
 ---
 ## Zavedení
 
-Pokud jde o programové zpracování souborů aplikace Excel, Aspose.Cells for .NET vyniká jako špičková knihovna, která umožňuje vývojářům bezproblémově manipulovat a vytvářet tabulky. Jedním z běžných požadavků při práci s Excelem je úprava měřítka listu, aby se zajistilo, že jeho obsah při tisku nebo prohlížení dokonale sedí. V tomto článku projdeme procesem nastavení měřítka aplikace Excel pomocí Aspose.Cells for .NET a poskytneme vám komplexního průvodce, který lze snadno sledovat.
+Pokud jde o programové zpracování souborů aplikace Excel, Aspose.Cells for .NET vyniká jako špičková knihovna, která umožňuje vývojářům bezproblémově manipulovat a vytvářet tabulky. Jedním z běžných požadavků při práci s Excelem je úprava měřítka listu, aby se zajistilo, že jeho obsah při tisku nebo prohlížení dokonale sedí. V tomto článku projdeme procesem nastavení faktoru měřítka aplikace Excel pomocí Aspose.Cells for .NET a poskytneme vám komplexního průvodce, který lze snadno sledovat.
 
 ## Předpoklady
 
@@ -31,7 +31,7 @@ Než napíšete jakýkoli kód, budete muset do svého projektu přidat odkaz na
 1.  Přejít na[Stránka Aspose Downloads](https://releases.aspose.com/cells/net/) a stáhněte si příslušný balíček pro vaši verzi .NET.
 2.  Rozbalte stažený soubor a vyhledejte soubor`Aspose.Cells.dll` soubor.
 
-### Přidejte odkaz v sadě Visual Studio
+### Přidejte odkaz ve Visual Studiu
 
 1. Otevřete projekt sady Visual Studio.
 2. Klikněte pravým tlačítkem na "Reference" v Průzkumníku řešení.
@@ -69,7 +69,7 @@ Nyní je čas vytvořit nový sešit. Zde budou v podstatě všechna vaše data 
 Workbook workbook = new Workbook();
 ```
 
- Zde vyhlašujeme nový`Workbook`objekt, který představuje soubor Excel a umožní nám manipulovat s jeho obsahem.
+ Zde vyhlašujeme nový`Workbook` objekt, který představuje soubor Excel a umožní nám manipulovat s jeho obsahem.
 
 ## Krok 3: Otevřete první pracovní list
 

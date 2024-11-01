@@ -16,7 +16,7 @@ Chào mừng bạn đến với hướng dẫn tuyệt vời về cách sử d�
 Trước khi bắt đầu viết mã, hãy đảm bảo bạn có mọi thứ cần thiết để bắt đầu. Sau đây là những gì bạn cần có:
 
 1. Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio trên máy của mình. Đây là trung tâm chính cho mọi công việc phát triển.
-2. Aspose.Cells cho .NET: Bạn cần tải xuống và thêm thư viện Aspose.Cells vào dự án của mình. Bạn có thể dễ dàng lấy nó từ[Trang web Aspose](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells cho .NET: Bạn cần tải xuống và thêm thư viện Aspose.Cells vào dự án của mình. Bạn có thể dễ dàng lấy nó từ[Trang web Aspose](https://releases.aspose.com/cells/net/).
 3. Kiến thức cơ bản về C#: Sự quen thuộc với lập trình C# sẽ giúp ích rất nhiều. Nếu bạn có thể xử lý các biến, vòng lặp và I/O tệp cơ bản, bạn sẽ thấy thoải mái.
 4. .NET Framework: Đảm bảo dự án của bạn được thiết lập với phiên bản .NET Framework phù hợp vì thư viện được thiết kế để tương thích với hệ sinh thái này.
 
@@ -69,7 +69,7 @@ Bây giờ, hãy thiết lập các thông số để phù hợp với bảng t�
 ```csharp
 // Thiết lập số trang mà độ dài của bảng tính sẽ được mở rộng
 worksheet.PageSetup.FitToPagesTall = 1;
-// Thiết lập số trang mà chiều rộng của bảng tính sẽ được mở rộng
+//Thiết lập số trang mà chiều rộng của bảng tính sẽ được mở rộng
 worksheet.PageSetup.FitToPagesWide = 1;
 ```
 

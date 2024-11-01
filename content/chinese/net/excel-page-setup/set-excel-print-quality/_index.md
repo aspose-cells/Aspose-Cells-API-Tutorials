@@ -77,7 +77,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 worksheet.PageSetup.PrintQuality = 180;
 ```
 
-解释：`PrintQuality`属性可以设置为任意值，通常介于 75 到 600 dpi（每英寸点数）之间。在本例中，我们将其设置为 180 dpi，这对于在质量和文件大小之间取得良好的平衡非常有用。
+解释：`PrintQuality`属性可以设置为任意值，通常介于 75 到 600 dpi（每英寸点数）之间。在本例中，我们将其设置为 180 dpi，这非常适合在质量和文件大小之间取得良好的平衡。
 
 ## 步骤 5：保存工作簿
 

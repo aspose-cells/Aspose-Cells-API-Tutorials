@@ -22,7 +22,7 @@ Avant de nous lancer dans la mise en œuvre, assurez-vous de disposer des condit
 
 ## Configuration d'Aspose.Cells pour Java
 
- Pour commencer, vous devez configurer Aspose.Cells pour Java dans votre projet. Vous pouvez télécharger la bibliothèque à partir du site Web d'Aspose[ici](https://releases.aspose.com/cells/java/). Une fois téléchargée, ajoutez la bibliothèque à votre projet Java.
+Pour commencer, vous devez configurer Aspose.Cells pour Java dans votre projet. Vous pouvez télécharger la bibliothèque à partir du site Web d'Aspose[ici](https://releases.aspose.com/cells/java/). Une fois téléchargée, ajoutez la bibliothèque à votre projet Java.
 
 ## Créer un classeur Excel
 

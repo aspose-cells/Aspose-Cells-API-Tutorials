@@ -17,7 +17,7 @@ Aspose.Cells for .NET, geliştiricilere .NET uygulamaları içinde Excel dosyala
 
 ## .NET'te Excel Dosyası Yüklenirken Uyarılar Alıyorum
 
- Bir Excel dosyası yüklediğinizde, belirli veri biçimleri veya içerikler uyarıları tetikleyebilir. Bu uyarıları nasıl yöneteceğinizi ve yorumlayacağınızı öğrenin[.NET'te Excel Dosyası Yüklenirken Uyarılar Alıyorum](./getting-warnings-while-loading-excel-file/)öğretici. Bu kılavuz, uyumluluk sorunlarını veya biçimlendirme uyarılarını etkili bir şekilde ele almayı ve çözmeyi amaçlayan geliştiriciler için olmazsa olmazdır. Bu uyarıları erken ele alarak, dosyaları uygulamanıza yüklerken daha sorunsuz, hatasız bir deneyim sağlarsınız.
+ Bir Excel dosyası yüklediğinizde, belirli veri biçimleri veya içerikler uyarıları tetikleyebilir. Bu uyarıları nasıl yöneteceğinizi ve yorumlayacağınızı öğrenin[.NET'te Excel Dosyası Yüklenirken Uyarılar Alıyorum](./getting-warnings-while-loading-excel-file/) öğretici. Bu kılavuz, uyumluluk sorunlarını veya biçimlendirme uyarılarını etkili bir şekilde ele almayı ve çözmeyi amaçlayan geliştiriciler için olmazsa olmazdır. Bu uyarıları erken ele alarak, dosyaları uygulamanıza yüklerken daha sorunsuz, hatasız bir deneyim sağlarsınız.
 
 ## Excel Dosyasının Belge Sürümünü .NET'te Programatik Olarak Belirleme
 
@@ -25,7 +25,7 @@ Aspose.Cells for .NET, geliştiricilere .NET uygulamaları içinde Excel dosyala
 
 ### Dışa Aktarma Sırasında Önde Gelen Boş Satır ve Sütunları Kırpma
 
- Boş satırlar ve sütunlar, özellikle CSV dosyalarıyla uğraşırken, dışa aktarma işlemlerinizi karmaşıklaştırabilir.[Dışa Aktarma Sırasında Önde Gelen Boş Satır ve Sütunları Kırpma](./trimming-leading-blank-rows-and-columns/)öğretici, satır ve sütunların başındaki gereksiz boşlukları kırparak verilerinizi temizlemenizi sağlar. Bu öğretici, analiz veya sunum için hazır, özlü ve düzenli dosyalar oluşturmayı amaçlayan geliştiriciler için mükemmeldir. Temiz, cilalı bir çıktı yalnızca profesyonel görünmekle kalmaz, aynı zamanda veri işlemeyi çok daha kolay hale getirir.
+Boş satırlar ve sütunlar, özellikle CSV dosyalarıyla uğraşırken, dışa aktarma işlemlerinizi karmaşıklaştırabilir.[Dışa Aktarma Sırasında Önde Gelen Boş Satır ve Sütunları Kırpma](./trimming-leading-blank-rows-and-columns/) öğretici, satır ve sütunların başındaki gereksiz boşlukları kırparak verilerinizi temizlemenizi sağlar. Bu öğretici, analiz veya sunum için hazır, özlü ve düzenli dosyalar oluşturmayı amaçlayan geliştiriciler için mükemmeldir. Temiz, cilalı bir çıktı yalnızca profesyonel görünmekle kalmaz, aynı zamanda veri işlemeyi çok daha kolay hale getirir.
 
 ## Seçeneklerle Excel Dosyalarını Kaydetme ve Dışa Aktarma Eğitimleri
 ### [Excel Dosyasını HTML'ye Kaydederken Yorumları Dışa Aktarma](./exporting-comments/)

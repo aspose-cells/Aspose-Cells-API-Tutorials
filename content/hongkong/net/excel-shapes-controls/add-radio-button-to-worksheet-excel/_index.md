@@ -8,7 +8,7 @@ weight: 19
 url: /zh-hant/net/excel-shapes-controls/add-radio-button-to-worksheet-excel/
 ---
 ## 介紹
-有沒有想過如何使用單選按鈕等互動式元素為您的 Excel 工作表增添趣味？無論您是要建立調查、表單還是分析工具，新增單選按鈕都可以真正增強使用者互動。在本教學中，我們將引導您完成使用 Aspose.Cells for .NET 將單選按鈕新增至 Excel 工作表的過程。我們將把所有內容分解為易於遵循的步驟，確保您在本文結束時成為專業人士。準備好潛入了嗎？讓我們開始吧！
+有沒有想過如何使用單選按鈕等互動式元素為您的 Excel 工作表增添趣味？無論您是建立調查、表單還是分析工具，新增單選按鈕都可以真正增強使用者互動。在本教學中，我們將引導您完成使用 Aspose.Cells for .NET 將單選按鈕新增至 Excel 工作表的過程。我們將把所有內容分解為易於遵循的步驟，確保您在本文結束時成為專業人士。準備好潛入了嗎？讓我們開始吧！
 ## 先決條件
 在我們開始新增單選按鈕的有趣部分之前，讓我們確保您已完成開始的所有設定。
 1.  Aspose.Cells for .NET：首先，請確保您已經下載並安裝了[Aspose.Cells for .NET](https://releases.aspose.com/cells/net/)圖書館.您可以透過 Visual Studio 中的 NuGet 或從下載頁面取得它。

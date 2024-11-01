@@ -104,7 +104,7 @@ Ti senti creativo? Puoi anche modificare l'altezza e la larghezza del tuo commen
 ```csharp
 // Impostare l'altezza del carattere a 10
 comment.HeightCM = 10;
-// Impostare la larghezza del carattere su 2
+// Imposta la larghezza del carattere su 2
 comment.WidthCM = 2;
 ```
 Questa personalizzazione rende i tuoi commenti più ordinati e visivamente più accattivanti.

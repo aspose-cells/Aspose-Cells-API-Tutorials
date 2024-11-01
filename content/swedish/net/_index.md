@@ -19,7 +19,7 @@ Aspose.Cells C#-handledningar erbjuder steg-för-steg-instruktioner för att man
 ### [Excel-skärminställningar](./excel-display-settings-csharp-tutorials)
 Kolla in Aspose.Cells C#-tutorials för att anpassa Excel-skärmen. Ändra typsnitt, färger, format och skapa attraktiva rapporter.
 ### [Excel sidinställningar](./excel-page-setup)
-Kolla in Aspose.Cells för .NET-handledningarna om hur du ställer in Excels sidlayout. Anpassa dina Excel-filer med lätthet.
+Kolla in Aspose.Cells för .NET handledningar om hur du ställer in Excels sidlayout. Anpassa dina Excel-filer med lätthet.
 ### [Skydda Excel-fil](./protect-excel-file/)
 Kolla in Aspose.Cells för .NET handledningar om att skydda Excel-filer. Lär dig hur du säkrar dina konfidentiella data med C#.
 ### [Excel arbetsbok](./excel-workbook/)
@@ -68,7 +68,7 @@ Lås upp Excel-datahantering med Aspose.Cells för .NET tutorials. Lär dig auto
 Upptäck hur du skapar Excel-delsummor och spårar prejudikat med Aspose.Cells för .NET. Följ dessa handledningar för att förbättra dina kalkylbladsfärdigheter utan ansträngning.
 ### [Excel-databeroende och beräkning](./excel-data-dependency-calculation/)
 Upptäck Aspose.Cells för .NET självstudiekurser som täcker Excel-databeroenden och beräkningar, inklusive spårning av beroende celler, för att förbättra dina Excel-automatiseringsfärdigheter.
-### [Excel-datavalidering och -filter](./excel-data-validation-filter/)
+### [Excel-datavalidering och filter](./excel-data-validation-filter/)
 Upptäck Aspose.Cells för .NET självstudier om Excel-datavalidering och filter – enkla guider för att förbättra din produktivitet.
 ### [Excel-datajustering och formatering](./excel-data-alignment-formatting/)
 Upptäck hur du ändrar justering av Excel-celler utan att förlora formatering i Aspose.Cells för .NET. Lär dig steg-för-steg handledning för sömlös Excel-dataformatering.
@@ -90,7 +90,7 @@ Förbättra dina Excel-kunskaper med Aspose.Cells för .NET-tutorials om komment
 Utforska omfattande Aspose.Cells för .NET tutorials om att lägga till Excel-former och kontroller. Lär dig steg-för-steg-metoder för att förbättra dina Excel-kalkylblad programmatiskt.
 ### [Excel OLE och bildobjekt](./excel-ole-picture-objects/)
 Lås upp kraften i Excel med Aspose.Cells för .NET. Bemästra OLE-objekt och bildhantering genom våra enkla handledningar.
-### [Excel Shape and Label Access](./excel-shape-label-access/)
+### [Excel-tillgång till form och etikett](./excel-shape-label-access/)
 Lås upp kraften i Aspose.Cells för .NET med våra omfattande handledningar som täcker OLE-objektetiketter och Smart Art-formidentifiering i Excel.
 ### [Excel-form- och textändringar](./excel-shape-text-modifications/)
 Lär dig att manipulera Excel-former och text med Aspose.Cells för .NET med lätta att följa handledningar och praktiska kodexempel.
@@ -109,9 +109,9 @@ Lås upp funktionerna hos Aspose.Cells för .NET med våra omfattande handlednin
 ### [Konvertering och rendering](./conversion-and-rendering/)
 Utforska Aspose.Cells för .NET tutorials, med avancerade guider för att konvertera och rendera Excel-filer till olika format sömlöst.
 ### [Säkerhet och kryptering](./security-and-encryption/)
-Lås upp kraften i Aspose.Cells för .NET med våra handledningar om säkerhet och kryptering. Lär dig att upptäcka och kryptera filer utan ansträngning.
+Lås upp kraften i Aspose.Cells för .NET med våra tutorials om säkerhet och kryptering. Lär dig att upptäcka och kryptera filer utan ansträngning.
 ### [Arbetsblad Operations](./worksheet-operations/)
-Lås upp den fulla potentialen hos Aspose.Cells för .NET med dessa praktiska handledningar som täcker arbetsbladsoperationer och förbättrar dina Excel-filer.
+Lås upp den fulla potentialen hos Aspose.Cells för .NET med dessa praktiska handledningar som täcker kalkylbladsoperationer och förbättrar dina Excel-filer.
 ### [Konvertering till PDF](./conversion-to-pdf/)
 Förvandla dina Excel-filer och diagram till sömlösa PDF-filer med våra lätta att följa Aspose.Cells för .NET-tutorials.
 ### [Bild- och sjökortsoperationer](./image-and-chart-operations/)
@@ -152,3 +152,21 @@ Utforska en omfattande Aspose.Cells för .NET-handledningslista för att konvert
 Utforska detaljerade Aspose.Cells för .NET tutorials om att spara och exportera Excel-filer. Lär dig hur du hanterar kommentarer, dokumentegenskaper, varningar och datatrimning.
 ### [Skapa och konfigurera pivottabeller](./creating-and-configuring-pivot-tables/)
 Upptäck omfattande handledningar för Aspose.Cells för .NET. Bemästra pivottabeller i Excel programmatiskt med detaljerade steg-för-steg-guider för varje funktionalitet.
+### [Excel-formler och beräkningsalternativ](./excel-formulas-and-calculation-options/)
+Dyk djupt in i Aspose.Cells för .NET-handledningar, som täcker viktiga Excel-formler och beräkningar i lätta att följa steg.
+### [Exportera Excel till HTML med avancerade alternativ](./exporting-excel-to-html-with-advanced-options/)
+Lås upp värdefulla insikter om att exportera Excel till HTML med Aspose.Cells för .NET genom detaljerade tutorials om olika avancerade alternativ, vilket förbättrar din dokumentexport.
+### [Rendering och export](./rendering-and-export/)
+Förbättra dina färdigheter med Aspose.Cells för .NET. Dyk ner i handledningar för att rendera, exportera och skapa interaktiva Excel PDF-dokument.
+### [Felhantering och anpassning i Aspose.Cells](./error-handling-and-customization-in-aspose-cells/)
+Aspose.Cells för .NET handledning om hur du renderar Office-tillägg i Excel till PDF och ignorerar fel under Excel-till-PDF-konvertering. Förenkla dina dokumentuppgifter.
+### [Rad- och kolumnhantering](./row-and-column-management/)
+Lås upp kraften i Aspose.Cells för .NET med våra omfattande handledningar om rad- och kolumnhantering för att förbättra dina Excel-kunskaper utan ansträngning.
+### [Anpassning av storlek och avstånd](./size-and-spacing-customization/)
+Förbättra dina Excel-filer med Aspose.Cells för .NET. Upptäck enkla handledningar för att anpassa storlek och avstånd, ställa in kolumnbredder och radhöjder utan ansträngning.
+### [Rad- och kolumnpassning automatiskt](./row-column-autofit-conversion/)
+Bemästra automatiskt anpassa rader och kolumner i Excel med Aspose.Cells för .NET. Förbättra datavisningen med steg-för-steg handledningar för tydliga, professionella kalkylblad.
+### [Hantering av Excel Slicers](./excel-slicers-management/)
+Utforska omfattande handledningar om hur du hanterar Excel-skivor med Aspose.Cells för .NET. Lär dig hur du skapar, uppdaterar, formaterar och exporterar slicers utan ansträngning.
+### [Smarta markörer i Aspose.Cells för dynamisk data](./smart-markers-dynamic-data/)
+Utforska Aspose.Cells för .NET Smart Markers Tutorials för att skapa dynamiska Excel-rapporter. Lär dig att lägga till etiketter, fylla i data automatiskt, använda formler och mer.

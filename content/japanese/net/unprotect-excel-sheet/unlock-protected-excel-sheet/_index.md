@@ -16,7 +16,7 @@ url: /ja/net/unprotect-excel-sheet/unlock-protected-excel-sheet/
 コードに進む前に、Aspose.Cells for .NET をスムーズに使用できるようにすべて設定されていることを確認することが重要です。
 
 1.  Visual Studio: お使いのマシンにVisual Studioがインストールされている必要があります。インストールされていない場合は、最新バージョンをダウンロードしてください。[Visual Studio の Web サイト](https://visualstudio.microsoft.com/downloads/).
-2.  Aspose.Cellsライブラリ: Aspose.Cellsライブラリが必要です。ダウンロードして入手できます。[Aspose ウェブサイト](https://releases.aspose.com/cells/net/)または、Visual Studio の NuGet 経由で直接インストールすることもできます。
+2. Aspose.Cellsライブラリ: Aspose.Cellsライブラリが必要です。ダウンロードして入手できます。[Aspose ウェブサイト](https://releases.aspose.com/cells/net/)または、Visual Studio の NuGet 経由で直接インストールすることもできます。
 3. C# の基本的な理解: C# コードを書くので、言語の基本的な理解が役立ちます。C# を初めて使用する場合は、すぐに理解できるリソースが豊富に用意されています。
 4. Excel ファイル: ロックを解除する Excel ワークブックを用意します。この例では、これを「book1.xls」と呼びます。
 

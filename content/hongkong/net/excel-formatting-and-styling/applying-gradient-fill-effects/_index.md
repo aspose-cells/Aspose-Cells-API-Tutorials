@@ -77,7 +77,7 @@ style.SetTwoColorGradient(Color.FromArgb(255, 255, 255), Color.FromArgb(79, 129,
 ## 步驟7：自訂字體顏色
 設定好漸層後，我們來設定字體顏色。 
 ```csharp
-//設定儲存格中文字的顏色
+//設定單元格中文字的顏色
 style.Font.Color = Color.Red;
 ```
 這使得文本呈現出醒目的紅色，在漸變背景的襯托下顯得格外美麗。

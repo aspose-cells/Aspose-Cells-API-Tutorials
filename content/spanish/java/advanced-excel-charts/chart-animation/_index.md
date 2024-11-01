@@ -90,4 +90,4 @@ En este tutorial, aprendimos a crear animaciones de gráficos con la API Aspose.
 
 ### ¿Cuál es el propósito del retraso de animación?
 
- El retraso de la animación determina el intervalo de tiempo antes de que comience la animación del gráfico. Utilice el`setAnimationDelay`Método para establecer el retraso en milisegundos.
+ El retraso de la animación determina el intervalo de tiempo antes de que comience la animación del gráfico. Utilice el`setAnimationDelay` Método para establecer el retraso en milisegundos.

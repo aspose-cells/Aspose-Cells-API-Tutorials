@@ -65,7 +65,7 @@ Nadat u het bestand hebt geopend, is de volgende stap het maken van een werkmapo
 Workbook workbook = new Workbook(fstream);
 ```
 
-Deze stap is alsof u “Hallo!” zegt tegen uw werkmap, zodat deze weet dat u er bent om wijzigingen aan te brengen.
+Deze stap is alsof u “Hallo!” zegt tegen uw werkboek, zodat het weet dat u er bent om wijzigingen aan te brengen.
 
 ## Stap 4: Toegang tot het werkblad
 

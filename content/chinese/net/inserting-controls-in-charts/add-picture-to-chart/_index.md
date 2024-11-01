@@ -154,7 +154,7 @@ Aspose.Cells 支持多种图像格式，包括 PNG、JPEG、BMP 和 GIF。
 当然！`AddPictureInChart`方法可以实现精确定位。
 
 ### Aspose.Cells 可以免费使用吗？
- Aspose.Cells 提供免费试用，但要使用完整功能，则需要许可证。您可以查看定价[这里](https://purchase.aspose.com/buy).
+Aspose.Cells 提供免费试用，但要使用完整功能，则需要许可证。您可以查看定价[这里](https://purchase.aspose.com/buy).
 
 ### 在哪里可以找到更多示例？
 查看[Aspose.Cells 文档](https://reference.aspose.com/cells/net/)了解更详细的示例和功能。

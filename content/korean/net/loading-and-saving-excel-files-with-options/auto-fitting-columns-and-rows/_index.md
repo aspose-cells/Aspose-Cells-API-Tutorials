@@ -12,7 +12,7 @@ Aspose.Cells for .NET을 사용하여 HTML 콘텐츠를 Excel 통합 문서에 �
 ### 필수 조건
 코드로 넘어가기 전에 시스템에 설정해야 할 몇 가지 사항이 있습니다. 걱정하지 마세요. 간단하고 직관적입니다!
 1. Visual Studio 설치: Visual Studio나 다른 .NET 개발 환경이 필요합니다.
-2.  .NET용 Aspose.Cells: 다음을 수행할 수 있습니다.[최신 버전을 다운로드하세요](https://releases.aspose.com/cells/net/)또는 NuGet 패키지 관리자를 사용하여 설치하세요.
+2.  .NET용 Aspose.Cells: 다음을 수행할 수 있습니다.[최신 버전을 다운로드하세요](https://releases.aspose.com/cells/net/) 또는 NuGet 패키지 관리자를 사용하여 설치하세요.
 3. .NET Framework: .NET Framework 4.0 이상이 설치되어 있는지 확인하세요.
 4. C#에 대한 기본적인 이해: C#에 대한 지식이 있다면 이 튜토리얼을 더 수월하게 이해할 수 있을 것입니다.
 5. HTML 테이블 데이터: Excel에 로드할 HTML 콘텐츠(기본 테이블도 가능)를 준비합니다.
@@ -44,9 +44,9 @@ string sampleHtml = "<html><body><table><tr><td>This is sample text.</td><td>Som
 ```csharp
 MemoryStream ms = new MemoryStream(Encoding.UTF8.GetBytes(sampleHtml));
 ```
- HTML 문자열을 바이트 배열로 변환하여 다음을 제공합니다.`MemoryStream`우리는 HTML 데이터를 메모리에서 작업할 수 있습니다. 이 단계는 오븐에 넣기 전에 냄비에 요리를 준비하는 것과 같다고 상상해보세요!
+ HTML 문자열을 바이트 배열로 변환하여 다음을 제공합니다.`MemoryStream`, 우리는 HTML 데이터를 메모리에서 작업할 수 있습니다. 이 단계는 오븐에 넣기 전에 냄비에 요리를 준비하는 것과 같다고 상상해보세요!
 ## 4단계: MemoryStream을 통합 문서에 로드(자동 맞춤 없음)
- HTML 콘텐츠를 메모리에 저장하면 Aspose에 로드합니다.`Workbook`. 이 시점에서는 아직 열과 행을 자동 맞춤하지 않습니다. 이것은 나중에 자동 맞춤된 버전과 비교하기 위한 "이전" 시나리오입니다.
+ HTML 콘텐츠를 메모리에 저장하면 Aspose에 로드합니다.`Workbook`이 시점에서는 아직 열과 행을 자동 맞춤하지 않습니다. 이것은 나중에 자동 맞춤된 버전과 비교하기 위한 "이전" 시나리오입니다.
 ```csharp
 Workbook wb = new Workbook(ms);
 wb.Save(dataDir + "outputWithout_AutoFitColsAndRows.xlsx");
@@ -60,7 +60,7 @@ opts.AutoFitColsAndRows = true;
 ```
 이 옵션을 설정하면 Aspose.Cells에 행과 열의 크기를 자동으로 조정하라고 말하는 것입니다. 오븐을 완벽한 온도로 설정하여 케이크가 딱 맞게 부풀어 오르는 것으로 상상해 보세요!
 ## 6단계: 자동 맞춤 기능이 활성화된 통합 문서에 HTML 로드
- 이제 HTML 콘텐츠를 다시 로드하지만 이번에는 다음과 같습니다.`AutoFitColsAndRows` 옵션이 활성화되었습니다. 이렇게 하면 열 너비와 행 높이가 그 안의 내용에 따라 조정됩니다.
+ 이제 HTML 콘텐츠를 다시 로드하지만 이번에는 다음과 같습니다.`AutoFitColsAndRows`옵션이 활성화되었습니다. 이렇게 하면 열 너비와 행 높이가 그 안의 내용에 따라 조정됩니다.
 ```csharp
 wb = new Workbook(ms, opts);
 wb.Save(dataDir + "outputWith_AutoFitColsAndRows.xlsx");

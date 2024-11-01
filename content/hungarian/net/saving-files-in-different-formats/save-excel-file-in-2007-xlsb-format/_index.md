@@ -8,11 +8,11 @@ weight: 11
 url: /hu/net/saving-files-in-different-formats/save-excel-file-in-2007-xlsb-format/
 ---
 ## Bevezetés
-A .NET-ben található Excel-fájlokkal való munka során sok rugalmasság és funkcionalitás áll rendelkezésre, különösen az Aspose.Cells könyvtárral. Ezzel a hatékony eszközzel könnyedén hozhat létre, módosíthat és menthet Excel-fájlokat. Ma megvizsgáljuk, hogyan lehet Excel-fájlt menteni 2007 xlsb formátumban. Ha olyan módot keres, amellyel az Excel-fájlokat programozottan kezelheti a szokásos többletköltségek nélkül, akkor jó helyen jár! 
+.NET-ben található Excel-fájlokkal való munka során sok rugalmasság és funkcionalitás áll rendelkezésre, különösen az Aspose.Cells könyvtárral. Ezzel a hatékony eszközzel könnyedén hozhat létre, módosíthat és menthet Excel-fájlokat. Ma megvizsgáljuk, hogyan lehet Excel-fájlt menteni 2007 xlsb formátumban. Ha olyan módot keres, amellyel az Excel-fájlokat programozottan kezelheti a szokásos többletköltségek nélkül, akkor jó helyen jár! 
 ## Előfeltételek
 Mielőtt elkezdenénk, győződjön meg arról, hogy mindennel rendelkezik, ami a zökkenőmentes követéshez szükséges. Íme, amit kellene:
 1. Visual Studio: Győződjön meg arról, hogy a Visual Studio egyik verziója telepítve van a gépen. Itt kell írnia a .NET kódot. 
-2. Aspose.Cells Library: Szüksége van az Aspose.Cells for .NET könyvtárra. Ha még nem töltötte le, menjen a[Aspose Letöltések oldal](https://releases.aspose.com/cells/net/) hogy megragadja. 
+2.  Aspose.Cells Library: Szüksége van az Aspose.Cells for .NET könyvtárra. Ha még nem töltötte le, menjen a[Aspose Letöltések oldal](https://releases.aspose.com/cells/net/) hogy megragadja. 
 3. Alapvető C# ismerete: A C# és a .NET alapvető ismerete segít kényelmesebben navigálni a kódpéldák között.
 4. .NET-keretrendszer: Győződjön meg arról, hogy projektje az Aspose.Cells könyvtár által támogatott megfelelő .NET-keretrendszerrel van beállítva.
 5. Egy Excel-dokumentum: Bár egy új munkafüzet létrehozása egy lehetőség, egy kezdődokumentum hasznos lehet, ha egy meglévő fájlt szeretne manipulálni.

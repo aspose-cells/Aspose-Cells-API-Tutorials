@@ -89,7 +89,7 @@ chart.NSeries.Add("{0.3, 0.7, 1.2}", true);
 ```
 Cette ligne ajoute une autre série de données, la quatrième, vous permettant de représenter davantage de données visuellement.
 
-## Étape 5 : Tracer sur le deuxième axe
+## Étape 5 : Tracer sur le deuxième axe
 
 Pour différencier visuellement la nouvelle série de données, nous allons tracer la quatrième série sur un deuxième axe.
 

@@ -57,7 +57,7 @@ int i = workbook.Worksheets.Add();
 ## 第 4 步：引用新工作表
 現在，您需要取得剛剛新增的工作表的參考。這允許您操縱它：
 ```csharp
-//透過傳遞工作表索引來取得新新增的工作表的引用
+//透過傳遞工作表索引來取得新新增工作表的引用
 Worksheet worksheet = workbook.Worksheets[i];
 ```
 透過此步驟，您可以直接將程式碼指向該新工作表，準備新增內容。
@@ -95,7 +95,7 @@ style.Font.Underline = FontUnderlineType.Single;
 //將樣式套用到儲存格
 cell.SetStyle(style);
 ```
-瞧！該單元格現在反映了帶有下劃線文本的新樣式。
+瞧！該單元格現在反映了帶有下劃線文字的新樣式。
 ## 第10步：儲存工作簿
 最後，讓我們將您的傑作儲存到 Excel 文件中：
 ```csharp

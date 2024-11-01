@@ -15,7 +15,7 @@ Mielőtt belemerülne a kódba, győződjön meg arról, hogy a következő elő
 2. .NET Framework vagy .NET Core: Győződjön meg arról, hogy a .NET kompatibilis verziója van telepítve.
 3. CSV-fájl: JSON-formátumba konvertálni kívánt CSV-mintafájl.
 ## Csomagok importálása
-A kódolás megkezdése előtt fontos, hogy importálja a szükséges névtereket az Aspose.Cells-ből. Ezek lehetővé teszik az adatok betöltését, kezelését és exportálását különböző formátumokban.
+A kódolás megkezdése előtt fontos, hogy importálja a szükséges névtereket az Aspose.Cells-ből. Ezek lehetővé teszik az adatok különböző formátumokban történő betöltését, kezelését és exportálását.
 ```csharp
 using Aspose.Cells.Utility;
 using System;

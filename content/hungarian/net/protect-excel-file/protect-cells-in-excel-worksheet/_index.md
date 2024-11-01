@@ -9,14 +9,14 @@ url: /hu/net/protect-excel-file/protect-cells-in-excel-worksheet/
 ---
 ## Bevezetés
 
-A mai digitális világban az adatok biztonságos kezelése táblázatokban fontosabb, mint valaha. Akár érzékeny információkat kezel, akár egyszerűen csak azt szeretné, hogy a formázás sértetlen maradjon, az Excel-munkalap egyes celláinak védelme megváltoztathatja a helyzetet. Szerencsére, ha .NET-et használ, az Aspose.Cells ezt a folyamatot egyszerűvé teszi. Ebben a cikkben egy egyszerű, lépésenkénti útmutatót mutatunk be az Excel-munkalap celláinak védelméhez, így biztosítva, hogy adatai biztonságban maradjanak.
+mai digitális világban az adatok biztonságos kezelése táblázatokban fontosabb, mint valaha. Akár érzékeny információkat kezel, akár egyszerűen csak azt szeretné, hogy a formázás sértetlen maradjon, az Excel-munkalap egyes celláinak védelme megváltoztathatja a helyzetet. Szerencsére, ha .NET-et használ, az Aspose.Cells ezt a folyamatot egyszerűvé teszi. Ebben a cikkben egy egyszerű, lépésenkénti útmutatót mutatunk be az Excel-munkalap celláinak védelméhez, így biztosítva, hogy adatai biztonságban maradjanak.
 
 ## Előfeltételek
 
 Mielőtt belemerülne a sejtek védelmének zűrzavarába, meg kell felelnie néhány előfeltételnek:
 
 1. Visual Studio: Győződjön meg arról, hogy a Visual Studio telepítve van a számítógépére. Ez az elsődleges IDE a .NET fejlesztéshez.
-2. Aspose.Cells Library: Az Aspose.Cells könyvtárnak elérhetőnek kell lennie a projektben. Könnyen telepítheti a NuGet Package Manager segítségével, vagy letöltheti közvetlenül a webhelyről[Aspose.Cells webhely](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells Library: Az Aspose.Cells könyvtárnak elérhetőnek kell lennie a projektben. Könnyen telepítheti a NuGet Package Manager segítségével, vagy letöltheti közvetlenül a webhelyről[Aspose.Cells webhely](https://releases.aspose.com/cells/net/).
 3. Alapvető C# ismeretek: A C# programozás egy kis ismerete segít a gördülékeny követésben.
 
 ## Csomagok importálása
@@ -88,7 +88,7 @@ Annak biztosításához, hogy csak bizonyos cellák legyenek zárolva, először
 for (int i = 0; i <= 255; i++)
 {
     Style style = sheet.Cells.Columns[(byte)i].Style;
-    style.IsLocked = false; //Oszlop feloldása
+    style.IsLocked = false; // Oszlop feloldása
     StyleFlag styleflag = new StyleFlag();
     styleflag.Locked = true; // Jelezze, hogy zárolni akarjuk ezt a stílust
     sheet.Cells.Columns[(byte)i].ApplyStyle(style, styleflag);

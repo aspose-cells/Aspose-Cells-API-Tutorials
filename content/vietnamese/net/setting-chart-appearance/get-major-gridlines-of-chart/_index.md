@@ -86,7 +86,7 @@ Bây giờ là lúc thêm biểu đồ vào bảng tính của chúng ta. Chúng
 int chartIndex = worksheet.Charts.Add(Aspose.Cells.Charts.ChartType.Column, 5, 0, 25, 10);
 ```
 
-Dòng này yêu cầu Aspose thêm biểu đồ cột bắt đầu từ vị trí được chỉ định trên bảng tính. Bạn có thể coi đây là việc mở hộp đựng đồ dùng sơn của mình—chuẩn bị trực quan hóa dữ liệu theo cách đầy màu sắc!
+Dòng này yêu cầu Aspose thêm biểu đồ cột bắt đầu từ vị trí đã chỉ định trên bảng tính. Bạn có thể nghĩ về điều này như việc mở hộp đựng đồ dùng sơn của mình—chuẩn bị trực quan hóa dữ liệu theo cách đầy màu sắc!
 
 ## Bước 6: Truy cập Biểu đồ mới được thêm vào
 

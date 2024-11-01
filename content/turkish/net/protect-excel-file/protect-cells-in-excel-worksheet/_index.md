@@ -16,7 +16,7 @@ Günümüzün dijital dünyasında, verileri elektronik tablolarda güvenli bir 
 Hücreleri korumanın inceliklerine dalmadan önce, yerine getirmeniz gereken birkaç ön koşul vardır:
 
 1. Visual Studio: Bilgisayarınızda Visual Studio'nun yüklü olduğundan emin olun. .NET geliştirme için birincil IDE'dir.
-2. Aspose.Cells Kütüphanesi: Projenizde Aspose.Cells kütüphanesinin mevcut olması gerekir. Bunu NuGet Paket Yöneticisi aracılığıyla kolayca yükleyebilir veya doğrudan şuradan indirebilirsiniz:[Aspose.Cells sitesi](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells Kütüphanesi: Projenizde Aspose.Cells kütüphanesinin mevcut olması gerekir. Bunu NuGet Paket Yöneticisi aracılığıyla kolayca yükleyebilir veya doğrudan şuradan indirebilirsiniz:[Aspose.Cells sitesi](https://releases.aspose.com/cells/net/).
 3. Temel C# Bilgisi: C# programlamaya dair biraz bilgi sahibi olmak, konuyu rahatça takip etmenize yardımcı olacaktır.
 
 ## Paketleri İçe Aktarma
@@ -88,7 +88,7 @@ Yalnızca belirli hücrelerin kilitlendiğinden emin olmak için, öncelikle tü
 for (int i = 0; i <= 255; i++)
 {
     Style style = sheet.Cells.Columns[(byte)i].Style;
-    style.IsLocked = false; //Sütunun kilidini aç
+    style.IsLocked = false; // Sütunun kilidini aç
     StyleFlag styleflag = new StyleFlag();
     styleflag.Locked = true; // Bu stili kilitlemek istediğimizi belirtin
     sheet.Cells.Columns[(byte)i].ApplyStyle(style, styleflag);

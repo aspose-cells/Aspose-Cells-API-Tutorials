@@ -8,7 +8,7 @@ weight: 14
 url: /pl/net/working-with-fonts-in-excel/using-font-underline-type/
 ---
 ## Wstęp
-Jeśli chodzi o tworzenie arkuszy kalkulacyjnych lub manipulowanie plikami Excel w aplikacjach .NET, wydajność i łatwość użytkowania są najważniejsze. Aspose.Cells dla .NET to potężna biblioteka, która umożliwia deweloperom bezproblemową pracę z plikami Excel. W tym samouczku zbadamy, jak używać podkreślenia czcionki w programie Excel za pomocą Aspose.Cells. Zapewnimy łatwe do naśladowania instrukcje krok po kroku, zapewniając, że możesz zrozumieć koncepcje i zastosować je we własnych projektach bez żadnych problemów!
+Jeśli chodzi o tworzenie arkuszy kalkulacyjnych lub manipulowanie plikami Excel w aplikacjach .NET, wydajność i łatwość użytkowania są najważniejsze. Aspose.Cells dla .NET to potężna biblioteka, która umożliwia deweloperom bezproblemową pracę z plikami Excel. W tym samouczku zbadamy, jak używać podkreślenia czcionki w programie Excel za pomocą Aspose.Cells. Zapewnimy łatwe do naśladowania instrukcje krok po kroku, dzięki czemu będziesz w stanie zrozumieć koncepcje i zastosować je we własnych projektach bez żadnych problemów!
 ## Wymagania wstępne
 Zanim przejdziemy do przykładów kodu, należy spełnić kilka warunków wstępnych, aby upewnić się, że środowisko programistyczne jest gotowe do użycia.
 ### Podstawowa wiedza z języka C#

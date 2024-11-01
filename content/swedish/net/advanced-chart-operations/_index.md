@@ -64,6 +64,6 @@ Lär dig hur du ställer in kategoridata i Excel-diagram med Aspose.Cells för .
 ### [Ställa in diagramdata](./setting-chart-data/)
 Lär dig hur du ställer in diagramdata med Aspose.Cells för .NET genom en detaljerad, steg-för-steg-guide perfekt för att förbättra datavisualiseringen.
 ### [Ange värden Format Kod för diagramserie](./set-values-format-code-of-chart-series/)
-Lär dig hur du ställer in värden format kod för diagramserier i Aspose.Cells för .NET med denna detaljerade steg-för-steg handledning. Perfekt för nybörjare.
+Lär dig hur du ställer in värdeformatkod för diagramserier i Aspose.Cells för .NET med denna detaljerade steg-för-steg-handledning. Perfekt för nybörjare.
 ### [Använder Sparklines](./using-sparklines/)
 Lär dig hur du effektivt använder sparklines i Excel med Aspose.Cells för .NET. Steg-för-steg-guide ingår för en smidig upplevelse.

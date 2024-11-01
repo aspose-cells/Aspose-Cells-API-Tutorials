@@ -61,7 +61,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 
  Zde vytvoříme a`FileStream` objekt, který ukazuje na zadaný soubor Excel (`book1.xls`). To umožňuje vaší aplikaci soubor otevřít a manipulovat s ním.
 
-## Krok 3: Vytvořte instanci sešitu
+## Krok 3: Vytvořte sešit
 
 ```csharp
 // Vytvoření instance objektu sešitu

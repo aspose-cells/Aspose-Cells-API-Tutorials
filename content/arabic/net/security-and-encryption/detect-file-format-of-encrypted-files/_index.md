@@ -33,7 +33,7 @@ using System;
 // دليل المصدر
 string sourceDir = "Your Document Directory";
 ```
- يستبدل`"Your Document Directory"` مع المسار الفعلي إلى الدليل على جهاز الكمبيوتر الخاص بك حيث يوجد ملفك المشفر.
+ يستبدل`"Your Document Directory"`مع المسار الفعلي إلى الدليل على جهاز الكمبيوتر الخاص بك حيث يوجد ملفك المشفر.
 ## الخطوة 2: قم بإعداد ملفك المشفر
 
  في هذه الخطوة، تأكد من توفر ملف Excel مشفر في الدليل المحدد. هنا، سنفترض أن اسم الملف`encryptedBook1.out.tmp`.
@@ -73,6 +73,6 @@ Console.WriteLine("File Format: " + fileFormatInfo.FileFormatType);
 ### ماذا لو نسيت كلمة المرور الخاصة بي؟
 لسوء الحظ، لن تتمكن من الوصول إلى تنسيق الملف بدون كلمة المرور.
 ### هل يمكنني تنزيل نسخة تجريبية مجانية من Aspose.Cells؟
-نعم، يمكنك تنزيل نسخة تجريبية مجانية[هنا](https://releases.aspose.com/).
+ نعم، يمكنك تنزيل نسخة تجريبية مجانية[هنا](https://releases.aspose.com/).
 ### أين يمكنني العثور على المزيد من الوثائق التفصيلية؟
  يمكنك استكشاف الوثائق الشاملة حول Aspose.Cells[هنا](https://reference.aspose.com/cells/net/).

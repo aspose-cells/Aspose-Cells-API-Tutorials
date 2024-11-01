@@ -12,7 +12,7 @@ Amikor Excel fájlokkal dolgozik .NET-ben, az Aspose.Cells könyvtár hatékony 
 ## Előfeltételek
 Mielőtt belevágnánk a kódba, szereljük fel mindennel, ami a zökkenőmentes követéshez szükséges. Íme, amit kellene:
 1. Visual Studio: Győződjön meg arról, hogy a Visual Studio telepítve van a gépen. Itt fogjuk írni és tesztelni a .NET alkalmazásunkat.
-2. Aspose.Cells Library: Le kell töltenie az Aspose.Cells könyvtárat. Megkaphatja a legújabb verziót[itt](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells Library: Le kell töltenie az Aspose.Cells könyvtárat. Megkaphatja a legújabb verziót[itt](https://releases.aspose.com/cells/net/).
 3. .NET-keretrendszer: Győződjön meg arról, hogy kompatibilis .NET-keretrendszer-verzióval rendelkezik az Aspose.Cells-hez, amely általában a .NET-keretrendszer 4.0-s és újabb verzióival működik.
 4. A C# alapvető ismerete: Hasznos lesz a C# programozás alapvető ismerete. Ne aggódj; mindent elmagyarázunk lépésről lépésre!
 5.  Fájl elérési útja: Döntse el, hová szeretné menteni a kimeneti fájlokat. Hozzon létre egy nevű könyvtárat`Your Document Directory` az egyszerűség kedvéért.
@@ -47,9 +47,9 @@ Néha előfordulhat, hogy a fájlokat régebbi formátumba kell mentenie a kompa
 // Mentse Excel 97–2003 formátumba
 workbook.Save(dataDir + "output.xls");
 ```
- Ez a sor a munkafüzetet a következővel menti`.xls`kiterjesztés, amely a 2007 előtti verziók Excel formátuma. Ez olyan, mintha levelet küldene a postai szolgáltatáson keresztül, hogy eljusson egy régebbi címzetthez!
+ Ez a sor a munkafüzetet a következővel menti`.xls` kiterjesztés, amely a 2007 előtti verziók Excel formátuma. Ez olyan, mintha levelet küldene a postai szolgáltatáson keresztül, hogy eljusson egy régebbi címzetthez!
 ## 4. lépés: Mentés Excel 2007 formátumban
- Ha az Excel 2007 és újabb szolgáltatásait szeretné használni, mentsen be`.xlsx` a formátum a járható út. Íme, hogyan:
+Ha az Excel 2007 és újabb szolgáltatásait szeretné használni, mentsen be`.xlsx` a formátum a járható út. Íme, hogyan:
 ```csharp
 // Mentse el Excel 2007 xlsx formátumban
 workbook.Save(dataDir + "output.xlsx");

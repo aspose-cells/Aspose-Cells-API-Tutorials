@@ -17,7 +17,7 @@ Czy masz dość zmagań z zarządzaniem plikami Excel? Jeśli kiedykolwiek stan�
 
 ## Dodawanie podpisów cyfrowych
 
-Czy kiedykolwiek musiałeś dodać podpis cyfrowy do podpisanego pliku Excel? Dowiedz się, jak to zrobić, korzystając z naszego przewodnika[Dodaj podpis cyfrowy do już podpisanego pliku Excel](./add-digital-signature-to-an-already-signed-excel-file/)Podpisy cyfrowe zapewniają autentyczność i integralność, dzięki czemu pliki Excel są nie tylko funkcjonalne, ale i bezpieczne.
+ Czy kiedykolwiek musiałeś dodać podpis cyfrowy do podpisanego pliku Excel? Dowiedz się, jak to zrobić, korzystając z naszego przewodnika[Dodaj podpis cyfrowy do już podpisanego pliku Excel](./add-digital-signature-to-an-already-signed-excel-file/)Podpisy cyfrowe zapewniają autentyczność i integralność, dzięki czemu pliki Excel są nie tylko funkcjonalne, ale i bezpieczne.
 
 ## Tworzenie udostępnionych skoroszytów
 
@@ -37,7 +37,7 @@ Czy kiedykolwiek musiałeś dodać podpis cyfrowy do podpisanego pliku Excel? Do
 
 ## Zwiększanie produktywności za pomocą wyrażeń regularnych
 
-Czy jesteś fanem wyrażeń regularnych? Jeśli nie, możesz chcieć zostać jednym z nich! Wyrażenia regularne mogą znacznie usprawnić Twoje zadania, zwłaszcza podczas pracy z dużymi zestawami danych w programie Excel. Nasz samouczek na temat[Zamień wyrażenie regularne](./regex-replace/) uczy, jak wdrażać funkcje zamiany wyrażeń regularnych w arkuszach kalkulacyjnych, co pozwala zwiększyć produktywność i dokładność.
+ Czy jesteś fanem wyrażeń regularnych? Jeśli nie, możesz chcieć zostać jednym z nich! Wyrażenia regularne mogą znacznie usprawnić Twoje zadania, zwłaszcza podczas pracy z dużymi zestawami danych w programie Excel. Nasz samouczek na temat[Zamień wyrażenie regularne](./regex-replace/) uczy, jak wdrażać funkcje zamiany wyrażeń regularnych w arkuszach kalkulacyjnych, co pozwala zwiększyć produktywność i dokładność.
 
 ## Aktualizowanie elementów Power Query
 
@@ -45,11 +45,11 @@ Czy jesteś fanem wyrażeń regularnych? Jeśli nie, możesz chcieć zostać jed
 
 ## Zarządzanie podglądami wydruku
 
-Od czasu do czasu musisz przedstawić swoje dane w możliwie najbardziej profesjonalny sposób. Nauka tworzenia podglądów wydruku może być kluczową umiejętnością. W naszym samouczku na temat[Podgląd wydruku skoroszytu](./workbook-print-preview/), dowiesz się, jak poprawnie sformatować dane przed wydrukowaniem. Ten proces może uchronić Cię przed żenującymi błędami i zapewnić, że Twoje raporty będą wyglądać równie dobrze na papierze, jak na ekranie.
+ Od czasu do czasu musisz przedstawić swoje dane w możliwie najbardziej profesjonalny sposób. Nauka tworzenia podglądów wydruku może być kluczową umiejętnością. W naszym samouczku na temat[Podgląd wydruku skoroszytu](./workbook-print-preview/), dowiesz się, jak poprawnie sformatować dane przed wydrukowaniem. Ten proces może uchronić Cię przed żenującymi błędami i zapewnić, że Twoje raporty będą wyglądać równie dobrze na papierze, jak na ekranie.
 
 ## Praca ze zdefiniowanymi nazwami
 
- Zdefiniowane nazwy w arkuszach Excela mogą być przydatnym sposobem zarządzania danymi. Sprawiają, że formuły są krótsze i bardziej zrozumiałe. Jeśli chcesz filtrować zdefiniowane nazwy podczas ładowania skoroszytu, nasz samouczek na temat[Filtruj zdefiniowane nazwy podczas ładowania skoroszytu](./filter-defined-names-while-loading-workbook/) zapewnia wszystkie niezbędne kroki, aby to zrobić. Ta funkcja pozwala dostosować sposób ładowania skoroszytu, poprawiając wydajność i organizację.
+Zdefiniowane nazwy w arkuszach Excela mogą być przydatnym sposobem zarządzania danymi. Sprawiają, że formuły są krótsze i bardziej zrozumiałe. Jeśli chcesz filtrować zdefiniowane nazwy podczas ładowania skoroszytu, nasz samouczek na temat[Filtruj zdefiniowane nazwy podczas ładowania skoroszytu](./filter-defined-names-while-loading-workbook/) zapewnia wszystkie niezbędne kroki, aby to zrobić. Ta funkcja pozwala dostosować sposób ładowania skoroszytu, poprawiając wydajność i organizację.
 
 ## Wniosek
 
@@ -69,7 +69,7 @@ Więc dlaczego nie skorzystać z tej szansy na rozwinięcie swoich umiejętnośc
 | [Utwórz współdzielony skoroszyt](./create-shared-workbook/) | Dowiedz się, jak utworzyć współdzielony skoroszyt przy użyciu Aspose.Cells dla .NET dzięki temu prostemu przewodnikowi krok po kroku. Idealne do usprawnienia współpracy zespołowej. |  
 | [Wykryj typy linków](./detect-link-types/) | Dowiedz się, jak wykrywać typy hiperłączy w programie Excel za pomocą Aspose.Cells dla .NET. Dołączono proste kroki i przykłady kodu. |  
 | [Wyodrębnij osadzony plik Mol](./extract-embedded-mol-file/) | Dowiedz się, jak łatwo wyodrębnić osadzone pliki MOL ze skoroszytu programu Excel przy użyciu Aspose.Cells dla platformy .NET. |  
-| [Filtruj zdefiniowane nazwy podczas ładowania skoroszytu](./filter-defined-names-while-loading-workbook/) | tym kompleksowym przewodniku dowiesz się, jak filtrować zdefiniowane nazwy podczas ładowania skoroszytu za pomocą Aspose.Cells dla platformy .NET. |  
+| [Filtruj zdefiniowane nazwy podczas ładowania skoroszytu](./filter-defined-names-while-loading-workbook/) | W tym kompleksowym przewodniku dowiesz się, jak filtrować zdefiniowane nazwy podczas ładowania skoroszytu za pomocą Aspose.Cells dla platformy .NET. |  
 | [Uzyskaj szczegóły Odata](./get-odata-details/) | Dowiedz się, jak wyodrębnić szczegóły OData z programu Excel za pomocą Aspose.Cells dla .NET, korzystając z tego szczegółowego samouczka krok po kroku. |  
 | [Zabezpiecz lub usuń ochronę udostępnionego skoroszytu hasłem](./password-protect-or-unprotect-shared-workbook/) | Zabezpiecz udostępniane pliki programu Excel za pomocą narzędzia Aspose.Cells for .NET, korzystając z naszego prostego przewodnika dotyczącego ochrony hasłem i technik usuwania zabezpieczeń. |  
 | [Odczyt i zapis połączenia zewnętrznego pliku XLSB](./read-and-write-external-connection-of-xlsb-file/) | W tym kompleksowym samouczku dowiesz się, jak zarządzać połączeniami zewnętrznymi w plikach XLSB przy użyciu Aspose.Cells dla platformy .NET. |  

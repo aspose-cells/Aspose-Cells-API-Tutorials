@@ -80,7 +80,7 @@ Hier voegen we een nieuwe verzameling voorwaardelijke opmaak toe aan ons werkbla
 Vervolgens moeten we het bereik van cellen specificeren waarop de voorwaardelijke opmaak van toepassing zal zijn. Stel dat we de eerste rij en de tweede kolom willen opmaken:
 
 ```csharp
-// Hiermee stelt u het voorwaardelijke opmaakbereik in.
+// Stelt het voorwaardelijke opmaakbereik in.
 CellArea ca = new CellArea();
 ca.StartRow =0;
 ca.EndRow =0;

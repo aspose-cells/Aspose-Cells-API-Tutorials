@@ -2,7 +2,7 @@
 title: Excelシートの保護を解除
 linktitle: Excelシートの保護を解除
 second_title: Aspose.Cells for .NET API リファレンス
-description: Aspose.Cells for .NET を使用して Excel スプレッドシートの保護を解除する方法を学びます。C# 開発者向けの詳細なチュートリアルです。
+description: Aspose.Cells for .NET を使用して Excel スプレッドシートの保護を解除する方法を学びます。C# 開発者向けの詳細なチュートリアル。
 type: docs
 weight: 17
 url: /ja/net/unprotect-excel-sheet/

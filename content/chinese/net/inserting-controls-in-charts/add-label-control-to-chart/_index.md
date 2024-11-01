@@ -16,7 +16,7 @@ url: /zh/net/inserting-controls-in-charts/add-label-control-to-chart/
 在深入讨论细节之前，让我们先介绍一下入门所需的条件：
 
 - C# 基础知识：了解 C# 编程的基础知识至关重要。如果您是初学者，请不要担心 - 步骤将清晰简洁。
--  Aspose.Cells 库：确保您已安装 Aspose.Cells 库。您可以通过 Visual Studio 中的 NuGet 包管理器执行此操作。如果您还没有安装，请查看[下载链接](https://releases.aspose.com/cells/net/)对于图书馆来说。
+- Aspose.Cells 库：确保您已安装 Aspose.Cells 库。您可以通过 Visual Studio 中的 NuGet 包管理器执行此操作。如果您还没有安装，请查看[下载链接](https://releases.aspose.com/cells/net/)对于图书馆来说。
 - Visual Studio：您需要一个像 Visual Studio 这样的集成开发环境 (IDE) 来编写和执行您的代码。
 
 ## 导入包

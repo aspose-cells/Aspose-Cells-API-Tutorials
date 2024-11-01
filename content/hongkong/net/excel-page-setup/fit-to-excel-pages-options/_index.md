@@ -16,7 +16,7 @@ url: /zh-hant/net/excel-page-setup/fit-to-excel-pages-options/
 在開始編碼之前，讓我們確保您擁有開始編碼所需的一切。這是您應該具備的：
 
 1. Visual Studio：確保您的電腦上安裝了 Visual Studio。這是您所有開發工作的主要中心。
-2. Aspose.Cells for .NET：您需要下載 Aspose.Cells 庫並將其新增至您的專案。您可以輕鬆地從[阿斯普斯網站](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells for .NET：您需要下載 Aspose.Cells 庫並將其新增至您的專案。您可以輕鬆地從[阿斯普斯網站](https://releases.aspose.com/cells/net/).
 3. 基本 C# 知識：熟悉 C# 程式設計將有很大幫助。如果您可以處理變數、迴圈和基本檔案 I/O，那麼您就會輕鬆自在。
 4. .NET Framework：確保您的專案使用適當的 .NET Framework 版本進行設置，因為該程式庫旨在與此生態系統相容。
 
@@ -60,7 +60,7 @@ Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.Worksheets[0];
 ```
  
-- 在這裡，您只需創建一個`Workbook`代表您的 Excel 檔案的實例。這`Worksheet`物件允許您與要修改的特定工作表進行互動。
+- 在這裡，您只需建立一個`Workbook`代表您的 Excel 檔案的實例。這`Worksheet`物件允許您與要修改的特定工作表進行互動。
 
 ## 步驟 2：指定頁面設定選項
 
@@ -89,7 +89,7 @@ workbook.Save(dataDir + "FitToPagesOptions_out.xls");
 
 ## 結論
 
-現在你就得到它了！您已經了解如何利用 Aspose.Cells for .NET 中的「適合 Excel 頁面」選項來確保您的電子表格在列印或分享時看起來完美無缺。掌握這些技術可以簡化您的資料演示並提高您處理 Excel 文件時的整體效率。請記住，Aspose.Cells 的強大功能可讓您突破 Excel 自動化的極限。 
+現在你就擁有了！您已經了解如何利用 Aspose.Cells for .NET 中的「適合 Excel 頁面」選項來確保您的電子表格在列印或分享時看起來完美無缺。掌握這些技術可以簡化您的資料演示並提高您處理 Excel 文件時的整體效率。請記住，Aspose.Cells 的強大功能可讓您突破 Excel 自動化的極限。 
 
 ## 常見問題解答
 

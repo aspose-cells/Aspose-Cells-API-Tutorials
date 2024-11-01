@@ -15,11 +15,11 @@ In deze tutorial laten we zien hoe u een koppeling naar inhoud voor aangepaste d
 
 Voordat we beginnen, zorg ervoor dat je alles wat je nodig hebt op orde hebt. Zonder de volgende vereisten verloopt het proces niet soepel:
 
-1. Aspose.Cells voor .NET-bibliotheek: U moet Aspose.Cells voor .NET op uw machine hebben geïnstalleerd. Als u het nog niet hebt gedownload, download het dan van[Aspose.Cells voor .NET downloadpagina](https://releases.aspose.com/cells/net/).
+1.  Aspose.Cells voor .NET-bibliotheek: U moet Aspose.Cells voor .NET op uw machine hebben geïnstalleerd. Als u het nog niet hebt gedownload, download het dan van[Aspose.Cells voor .NET downloadpagina](https://releases.aspose.com/cells/net/).
 2. Ontwikkelomgeving: Gebruik een ontwikkelomgeving die door .NET wordt ondersteund, zoals Visual Studio.
 3. Basiskennis van C#: in deze handleiding wordt ervan uitgegaan dat u enige kennis hebt van C# en .NET.
 4. Excel-bestand: Heb een bestaand Excel-bestand om mee te werken. In ons voorbeeld gebruiken we een bestand genaamd "sample-document-properties.xlsx".
-5.  Tijdelijke licentie: Als u geen volledige licentie hebt, kunt u een tijdelijke licentie aanvragen.[tijdelijke licentie hier](https://purchase.aspose.com/temporary-license/) om beperkingen op bestandsmanipulaties te vermijden.
+5. Tijdelijke licentie: Als u geen volledige licentie hebt, kunt u een tijdelijke licentie aanvragen.[tijdelijke licentie hier](https://purchase.aspose.com/temporary-license/) om beperkingen op bestandsmanipulaties te vermijden.
 
 ## Pakketten importeren
 
@@ -49,7 +49,7 @@ string dataDir = "Your Document Directory";
 Workbook workbook = new Workbook(dataDir + "sample-document-properties.xlsx");
 ```
 
--  Werkmap werkmap = new Workbook(): Deze regel maakt een nieuwe`Workbook` object, de hoofdklasse die wordt gebruikt om met Excel-bestanden in Aspose.Cells te werken.
+-  Werkmap werkmap = new Workbook(): Deze regel maakt een nieuwe`Workbook`object, de hoofdklasse die wordt gebruikt om met Excel-bestanden in Aspose.Cells te werken.
 - dataDir: Hier geeft u het pad naar uw Excel-bestand op. Vervang "Uw Document Directory" door het daadwerkelijke pad op uw machine.
 
 Beschouw deze stap als het openen van een deur: u krijgt toegang tot het bestand zodat u de gewenste wijzigingen kunt aanbrengen!
@@ -59,7 +59,7 @@ Beschouw deze stap als het openen van een deur: u krijgt toegang tot het bestand
 Zodra het bestand is geladen, moeten we toegang krijgen tot de aangepaste documenteigenschappen. Deze eigenschappen worden opgeslagen in een verzameling die u kunt ophalen en bewerken.
 
 ```csharp
-//Haal een lijst op met alle aangepaste documenteigenschappen van het Excel-bestand
+// Haal een lijst op met alle aangepaste documenteigenschappen van het Excel-bestand
 Aspose.Cells.Properties.CustomDocumentPropertyCollection customProperties = workbook.Worksheets.CustomDocumentProperties;
 ```
 
@@ -93,7 +93,7 @@ bool islinkedtocontent = customProperty1.IsLinkedToContent;
 ```
 
 - aangepasteeigenschappen['Eigenaar']: We halen de eigenschap 'Eigenaar' op naam op om de details ervan te inspecteren.
--  IsLinkedToContent: Deze Booleaanse waarde retourneert`true` als de eigenschap succesvol aan de inhoud is gekoppeld.
+- IsLinkedToContent: Deze Booleaanse waarde retourneert`true` als de eigenschap succesvol aan de inhoud is gekoppeld.
 
 In deze fase is het alsof je controleert of het label (eigenschap) correct aan de content is gekoppeld. Je zorgt ervoor dat je code doet wat je verwachtte.
 

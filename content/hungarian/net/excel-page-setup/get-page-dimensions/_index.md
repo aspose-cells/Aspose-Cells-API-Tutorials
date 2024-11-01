@@ -44,7 +44,7 @@ Az Aspose.Cells használatához hivatkozásokat kell hozzáadnia a könyvtárhoz
 
 ### Add Irányelvek használatával
 
- A te tetején`Program.cs`fájlt, illessze be ezt a direktívával az Aspose.Cells funkció eléréséhez:
+ A te tetején`Program.cs` fájlt, illessze be ezt a direktívával az Aspose.Cells funkció eléréséhez:
 
 ```csharp
 using System;

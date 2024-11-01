@@ -92,7 +92,7 @@ Gratulacje! Właśnie nauczyłeś się, jak skonfigurować ranking formatu wyśw
 ### Czym jest Aspose.Cells?
 Aspose.Cells to biblioteka .NET, która umożliwia programistom pracę z plikami Excel bez konieczności korzystania z programu Microsoft Excel. Umożliwia ona bezproblemowe czytanie, pisanie i manipulowanie dokumentami Excel.
 ### Czy muszę płacić za Aspose.Cells?
-Chociaż Aspose.Cells oferuje bezpłatną wersję próbną, wymaga zakupu, aby uzyskać pełne funkcje. Możesz sprawdzić[strona zakupu](https://purchase.aspose.com/buy) po więcej szczegółów.
+Chociaż Aspose.Cells oferuje bezpłatną wersję próbną, wymaga zakupu, aby uzyskać pełne funkcje. Możesz sprawdzić[strona zakupu](https://purchase.aspose.com/buy) Aby uzyskać więcej szczegółów.
 ### Czy mogę tworzyć tabele przestawne za pomocą Aspose.Cells?
 Tak, Aspose.Cells oferuje rozbudowane funkcje umożliwiające programowe tworzenie i zarządzanie tabelami przestawnymi.
 ### Gdzie mogę znaleźć więcej informacji na temat korzystania z Aspose.Cells?

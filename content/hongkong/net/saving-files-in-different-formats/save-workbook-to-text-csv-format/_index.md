@@ -91,7 +91,7 @@ File.WriteAllBytes(dataDir + "out.txt", workbookData);
 ```
 `WriteAllBytes`取得組合的位元組陣列並將其寫入指定目錄中名為「out.txt」的文字檔案中。
 ## 結論
-現在你就得到它了！您已使用 Aspose.Cells for .NET 成功將 Excel 工作簿轉換為 CSV 格式。此流程不僅高效，而且可以輕鬆操作 Excel 資料以進行進一步分析或報告。現在，您可以自動化資料處理任務，甚至可以將此功能整合到更大的應用程式中。
+現在你就擁有了！您已使用 Aspose.Cells for .NET 成功將 Excel 工作簿轉換為 CSV 格式。此流程不僅高效，而且可以輕鬆操作 Excel 資料以進行進一步分析或報告。現在，您可以自動化資料處理任務，甚至可以將此功能整合到更大的應用程式中。
 ## 常見問題解答
 ### 我可以為 CSV 檔案使用不同的分隔符號嗎？
 是的，您可以更改`opts.Separator`任何您想要的字符，例如逗號或管道。

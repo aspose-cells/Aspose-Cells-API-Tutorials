@@ -12,25 +12,25 @@ url: /vi/net/saving-files-in-different-formats/
 Vậy, làm thế nào để bạn bảo quản dữ liệu Excel của mình một cách hiệu quả? Đây chính là nơi Aspose.Cells tỏa sáng. Với các hướng dẫn bao gồm các định dạng như .xls, .xlsx, .xlsb và thậm chí là PDF, bạn sẽ nhanh chóng thành thạo việc lưu tệp theo đúng cách bạn muốn. Mỗi hướng dẫn đều nhấn mạnh vào tính rõ ràng và tính thực tế, cung cấp cho bạn những hiểu biết sâu sắc mà bạn có thể áp dụng ngay vào các dự án của mình. Bạn có biết rằng việc lưu ở định dạng 97-2003 đôi khi có thể cần thiết để tương thích với các hệ thống cũ hơn không? Chúng tôi sẽ xem xét tất cả những điều đó và hơn thế nữa!
 
 ## Liên kết nhanh đến Hướng dẫn
- Bộ hướng dẫn được tuyển chọn của chúng tôi giúp bạn dễ dàng tìm thấy chính xác những gì bạn cần. Ví dụ, nếu bạn muốn lưu tệp Excel ở định dạng cũ hơn 97-2003, hãy xem hướng dẫn đơn giản của chúng tôi về[lưu file Excel theo định dạng 97-2003](./save-excel-file-in-97-2003-format/)Nó chứa đầy những mẹo thực tế! Ngoài ra, nếu bạn tò mò về việc xuất tệp của mình dưới dạng PDF, hướng dẫn của chúng tôi.
+Bộ hướng dẫn được tuyển chọn của chúng tôi giúp bạn dễ dàng tìm thấy chính xác những gì bạn cần. Ví dụ, nếu bạn muốn lưu tệp Excel ở định dạng cũ hơn 97-2003, hãy xem hướng dẫn đơn giản của chúng tôi về[lưu file Excel theo định dạng 97-2003](./save-excel-file-in-97-2003-format/). Nó chứa đầy những mẹo thực tế! Ngoài ra, nếu bạn tò mò về việc xuất tệp của mình dưới dạng PDF, hướng dẫn của chúng tôi.
 
 Mỗi hướng dẫn được thiết kế không chỉ để cung cấp thông tin mà còn để thu hút bạn. Chúng tôi hiểu rằng đôi khi việc đào sâu vào các chủ đề kỹ thuật có thể khiến bạn cảm thấy nhàm chán. Do đó, chúng tôi kết hợp một phong cách trò chuyện giúp bạn tập trung, gần giống như trò chuyện thân thiện với một người bạn am hiểu công nghệ.
 
 Vậy, bạn đã sẵn sàng để nâng cao cách tiếp cận quản lý tệp Excel của mình bằng Aspose.Cells cho .NET chưa? Hãy nhấp vào hướng dẫn của chúng tôi và mở ra một thế giới khả năng ngay hôm nay! Cho dù bạn muốn lưu tài liệu của mình ở các định dạng hiện đại như ODS hay khai thác các định dạng cũ, chúng tôi đều có thể đáp ứng. Chúc bạn học tập vui vẻ! 
 
- Để biết thêm thông tin về các định dạng cụ thể, bạn có thể khám phá hướng dẫn chi tiết của chúng tôi như[lưu các tập tin Excel ở định dạng HTML](./save-file-in-html-format/)và tìm hiểu cách chuyển đổi dễ dàng giữa các loại tệp khác nhau.
+Để biết thêm thông tin về các định dạng cụ thể, bạn có thể khám phá hướng dẫn chi tiết của chúng tôi như[lưu các tập tin Excel ở định dạng HTML](./save-file-in-html-format/)và tìm hiểu cách chuyển đổi dễ dàng giữa các loại tệp khác nhau.
 
 ## Hiểu các định dạng
 
 ### 1. XLS và XLSX: 
-- Định dạng XLS cổ điển đôi khi có vẻ lỗi thời, nhưng nó vẫn quan trọng để tương thích với phần mềm cũ hơn. Hướng dẫn của chúng tôi về[lưu các tập tin XLS](./save-xls-file/) đảm bảo rằng bạn có thể dễ dàng điều hướng những đặc điểm kỳ lạ của định dạng này. 
+-  Định dạng XLS cổ điển đôi khi có vẻ lỗi thời, nhưng nó vẫn quan trọng để tương thích với phần mềm cũ hơn. Hướng dẫn của chúng tôi về[lưu các tập tin XLS](./save-xls-file/) đảm bảo rằng bạn có thể dễ dàng điều hướng những đặc điểm kỳ lạ của định dạng này. 
 -  Mặt khác, XLSX hiện là chuẩn cho các tệp Excel, cung cấp các tính năng nâng cao và hiệu suất được cải thiện. Nếu bạn muốn xuất sắc (ý định chơi chữ!) trong quản lý dữ liệu hiện đại, hãy xem hướng dẫn của chúng tôi về[lưu các tập tin XLSX](./save-xlsx-file/).
 
 ### 2. Định dạng PDF:
--  Việc chuyển đổi tài liệu của bạn thành PDF rất quan trọng để bảo toàn định dạng và đảm bảo rằng nội dung của bạn trông hoàn hảo khi chia sẻ. Hướng dẫn từng bước của chúng tôi về[lưu tập tin ở định dạng PDF](./save-file-in-pdf-format/) giải thích cách thực hiện quy trình này một cách dễ dàng. Giống như việc đóng gói một món quà; bạn muốn nó trông hoàn hảo khi tặng cho người khác!
+-  Việc chuyển đổi tài liệu của bạn thành PDF rất quan trọng để bảo toàn định dạng và đảm bảo rằng nội dung của bạn trông hoàn hảo khi chia sẻ. Hướng dẫn từng bước của chúng tôi về[lưu tập tin ở định dạng PDF](./save-file-in-pdf-format/)giải thích cách thực hiện quy trình này một cách dễ dàng. Giống như việc đóng gói một món quà; bạn muốn nó trông hoàn hảo khi tặng cho người khác!
 
 ### 3. CSV và SpreadsheetML:
--  Chúng ta đừng quên các tệp CSV, giúp đơn giản hóa việc chia sẻ và thao tác dữ liệu. Hướng dẫn của chúng tôi về[lưu sổ làm việc ở định dạng CSV](./save-workbook-to-text-csv-format/)sẽ giúp bạn thành thạo kỹ năng quan trọng này. Tương tự như việc có một chiếc điều khiển từ xa đa năng; nó kết nối nhiều thiết bị (hoặc trong trường hợp này là các ứng dụng) một cách liền mạch.
+-  Chúng ta đừng quên các tệp CSV, giúp đơn giản hóa việc chia sẻ và thao tác dữ liệu. Hướng dẫn của chúng tôi về[lưu sổ làm việc ở định dạng CSV](./save-workbook-to-text-csv-format/) sẽ giúp bạn thành thạo kỹ năng quan trọng này. Tương tự như việc có một chiếc điều khiển từ xa đa năng; nó kết nối nhiều thiết bị (hoặc trong trường hợp này là các ứng dụng) một cách liền mạch.
 -  Tương tự như vậy, nếu bạn đang muốn làm việc với các ứng dụng .NET và cần một biểu diễn XML có cấu trúc, hướng dẫn của chúng tôi về[lưu tệp ở định dạng SpreadsheetML](./save-file-in-spreadsheetml-format/) là nguồn thông tin hữu ích của bạn.
 
 ## Hướng dẫn lưu tệp ở các định dạng khác nhau

@@ -16,7 +16,7 @@ Att skapa och anpassa Excel-dokument programmatiskt kan göra ditt arbete mer ef
 Innan vi dyker in i koden, låt oss se till att du är korrekt inställd. Här är vad du behöver för att komma igång:
 
 1. Visual Studio eller vilken .NET IDE som helst: Se till att du har en fungerande IDE som Visual Studio. Detta kommer att vara din lekplats där all kodningsmagi sker.
-2.  Aspose.Cells för .NET-paket: Om du inte redan har gjort det måste du ladda ner och installera Aspose.Cells-biblioteket. Du kan hitta den senaste versionen på[Aspose.Cells nedladdningssida](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells för .NET-paket: Om du inte redan har gjort det måste du ladda ner och installera Aspose.Cells-biblioteket. Du kan hitta den senaste versionen på[Aspose.Cells nedladdningssida](https://releases.aspose.com/cells/net/).
 3. Grundläggande kunskaper om C#: Även om vi guidar dig genom koden, kommer en förtrogenhet med C# att hjälpa dig att förstå nyanserna bättre.
 4. Tillgång till .NET Framework: Se till att ditt projekt är konfigurerat för att rikta in sig på en kompatibel version av .NET Framework.
 
@@ -124,7 +124,7 @@ Att implementera en anpassad pappersstorlek för dina Excel-kalkylblad med Aspos
 ## FAQ's
 
 ### Kan jag använda Aspose.Cells utan att köpa en licens?
-Ja, du kan prova en gratis testversion av Aspose.Cells för .NET, tillgänglig[här](https://releases.aspose.com/).
+ Ja, du kan prova en gratis testversion av Aspose.Cells för .NET, tillgänglig[här](https://releases.aspose.com/).
 
 ### Vad händer om jag överskrider gränserna för den tillfälliga licensen?
  Att överskrida gränserna kommer att leda till vattenmärkta utgångar. Det är bäst att välja en permanent licens för oavbruten tjänst. Du kan hitta alternativ[här](https://purchase.aspose.com/buy).

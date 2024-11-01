@@ -152,3 +152,21 @@ Jelajahi daftar tutorial Aspose.Cells untuk .NET yang komprehensif untuk mengonv
 Jelajahi tutorial terperinci Aspose.Cells untuk .NET tentang cara menyimpan dan mengekspor file Excel. Pelajari cara menangani komentar, properti dokumen, peringatan, dan pemangkasan data.
 ### [Membuat dan Mengonfigurasi Tabel Pivot](./creating-and-configuring-pivot-tables/)
 Temukan tutorial lengkap untuk Aspose.Cells for .NET. Kuasai tabel pivot di Excel secara terprogram dengan panduan langkah demi langkah terperinci untuk setiap fungsi.
+### [Rumus Excel dan Opsi Perhitungan](./excel-formulas-and-calculation-options/)
+Pelajari lebih dalam tutorial Aspose.Cells untuk .NET, yang mencakup rumus dan perhitungan Excel penting dalam langkah-langkah yang mudah diikuti.
+### [Mengekspor Excel ke HTML dengan Opsi Lanjutan](./exporting-excel-to-html-with-advanced-options/)
+Dapatkan wawasan berharga tentang mengekspor Excel ke HTML dengan Aspose.Cells untuk .NET melalui tutorial terperinci tentang berbagai opsi lanjutan, yang meningkatkan ekspor dokumen Anda.
+### [Rendering dan Ekspor](./rendering-and-export/)
+Tingkatkan keterampilan Anda dengan Aspose.Cells untuk .NET. Pelajari tutorial untuk merender, mengekspor, dan membuat dokumen PDF Excel yang interaktif.
+### [Penanganan Kesalahan dan Kustomisasi di Aspose.Cells](./error-handling-and-customization-in-aspose-cells/)
+Tutorial Aspose.Cells untuk .NET tentang merender add-in Office di Excel ke PDF dan mengabaikan kesalahan selama konversi Excel ke PDF. Sederhanakan tugas dokumen Anda.
+### [Manajemen Baris dan Kolom](./row-and-column-management/)
+Manfaatkan kekuatan Aspose.Cells untuk .NET dengan tutorial lengkap kami tentang manajemen baris dan kolom untuk meningkatkan keterampilan Excel Anda dengan mudah.
+### [Kustomisasi Ukuran dan Jarak](./size-and-spacing-customization/)
+Sempurnakan berkas Excel Anda dengan Aspose.Cells untuk .NET. Temukan tutorial yang mudah diikuti untuk menyesuaikan ukuran dan spasi, mengatur lebar kolom dan tinggi baris dengan mudah.
+### [Penyesuaian Otomatis Baris dan Kolom](./row-column-autofit-conversion/)
+Kuasai penyesuaian baris dan kolom secara otomatis di Excel dengan Aspose.Cells untuk .NET. Sempurnakan tampilan data dengan tutorial langkah demi langkah untuk lembar kerja yang jelas dan profesional.
+### [Manajemen Pemotong Excel](./excel-slicers-management/)
+Jelajahi tutorial lengkap tentang mengelola pemotong Excel dengan Aspose.Cells untuk .NET. Pelajari cara membuat, memperbarui, memformat, dan mengekspor pemotong dengan mudah.
+### [Penanda Cerdas di Aspose.Cells untuk Data Dinamis](./smart-markers-dynamic-data/)
+Jelajahi Tutorial Penanda Cerdas Aspose.Cells for .NET untuk membuat laporan Excel yang dinamis. Pelajari cara menambahkan label, mengisi data secara otomatis, menggunakan rumus, dan banyak lagi.

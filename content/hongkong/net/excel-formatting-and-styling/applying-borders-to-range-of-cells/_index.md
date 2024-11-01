@@ -76,7 +76,7 @@ workbook.Save(dataDir + "book1.out.xls");
 ```
 此行將工作簿儲存到指定目錄「book1.out.xls」。您現在已經擁有了一個格式精美的 Excel 文件，可以使用了！
 ## 結論
-現在你就得到它了！您已使用 Aspose.Cells for .NET 成功將邊框套用到 Excel 中的一系列儲存格。只需幾行程式碼，您就可以增強資料的呈現效果，並使工作表在視覺上更具吸引力。利用這些知識並嘗試 Aspose.Cells 的其他功能來提升您的 Excel 檔案格式。
+現在你就擁有了！您已使用 Aspose.Cells for .NET 成功將邊框套用到 Excel 中的一系列儲存格。只需幾行程式碼，您就可以增強資料的呈現效果，並使工作表在視覺上更具吸引力。利用這些知識並嘗試 Aspose.Cells 的其他功能來提升您的 Excel 檔案格式。
 ## 常見問題解答
 ### 什麼是 Aspose.Cells？
 Aspose.Cells 是一個功能強大的程式庫，用於在 .NET 應用程式中建立和操作 Excel 檔案。

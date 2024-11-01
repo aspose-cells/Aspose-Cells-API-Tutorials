@@ -8,12 +8,12 @@ weight: 12
 url: /hu/net/file-handling/file-saving-file-to-stream/
 ---
 ## Bevezetés
-A .NET-alkalmazásokban az Excel-fájlokkal való munka során az Aspose.Cells robusztus és funkciókban gazdag könyvtárként tűnik ki. Akár táblázatokat kell létrehoznia, módosítania vagy manipulálnia, az Aspose.Cells mindent megtesz. Ebben az útmutatóban megvizsgáljuk, hogyan menthet Excel-fájlt adatfolyamba az Aspose.Cells segítségével. De ne aggódj; lépésről lépésre bontjuk, így könnyedén követheti. Készen állsz a merülésre? Menjünk!
+.NET-alkalmazásokban az Excel-fájlokkal való munka során az Aspose.Cells robusztus és funkciókban gazdag könyvtárként tűnik ki. Akár táblázatokat kell létrehoznia, módosítania vagy manipulálnia, az Aspose.Cells mindent megtesz. Ebben az útmutatóban megvizsgáljuk, hogyan menthet Excel-fájlt adatfolyamba az Aspose.Cells segítségével. De ne aggódj; lépésről lépésre bontjuk, így könnyedén követheti. Készen állsz a merülésre? Menjünk!
 ## Előfeltételek
 Mielőtt belevágnánk a finomságokba, van néhány dolog, amit a helyére kell tennie. Tekintse ezt az ellenőrzőlistának, hogy gördülékeny élményben legyen része az oktatóanyagon.
 1. Visual Studio: Győződjön meg arról, hogy a Visual Studio telepítve van a gépen. Ne aggódjon, még a közösségi kiadást is használhatja; ingyenes és jól működik.
 2. .NET-keretrendszer: Az Ön által használt .NET-verziónak kompatibilisnek kell lennie az Aspose.Cells-szel. Általában minden .NET-keretrendszer 4.0-s vagy újabb verziója jó.
-3.  Aspose.Cells Library: Töltse le és telepítse az Aspose.Cells for .NET könyvtárat. Megtalálhatod[itt](https://releases.aspose.com/cells/net/). 
+3. Aspose.Cells Library: Töltse le és telepítse az Aspose.Cells for .NET könyvtárat. Megtalálhatod[itt](https://releases.aspose.com/cells/net/). 
 4. Alapvető C# ismeretek: Hasznos lesz egy kis ismeret a C# programozásban, de nem kell kódoló varázslónak lenned. Bízzon bennem, ha követi a receptet, kövesse ezt az útmutatót!
 5.  Excel-fájl: Szüksége lesz egy kezdő Excel-fájlra, esetünkben a névre`Book1.xlsx`. Nyugodtan készítsen egy egyszerűt, ha még nem rendelkezik vele.
 Most, hogy készen vagyunk, importáljuk a szükséges csomagokat!
@@ -50,7 +50,7 @@ Most töltsük be a munkafüzetet, hogy készen álljunk a tartalmával való j�
 ```csharp
 Workbook workbook = new Workbook(filePath);
 ```
-Mi történik itt? Új példányt hozunk létre a`Workbook` osztályt, és átadja a meglévő Excel fájl elérési útját. Ez olyan, mintha kinyitnál egy receptkönyvet, hogy megtaláld kedvenc ételed!
+ Mi történik itt? Új példányt hozunk létre a`Workbook`osztályt, és átadja a meglévő Excel fájl elérési útját. Ez olyan, mintha kinyitnál egy receptkönyvet, hogy megtaláld kedvenc ételed!
 ## 4. lépés: Hozzon létre egy FileStream-et a munkafüzet mentéséhez
  Ezután létre kell hoznunk a`FileStream` objektum, amely beállítja, hová mentsük az újonnan módosított munkafüzetünket. Kódold így:
 ```csharp

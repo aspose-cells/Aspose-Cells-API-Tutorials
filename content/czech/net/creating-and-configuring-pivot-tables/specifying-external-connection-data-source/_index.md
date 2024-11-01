@@ -57,7 +57,7 @@ Konečně jsme u poslední části našeho tutoriálu! Nyní vytiskneme podrobno
 ## Krok 6: Přístup ke zdroji dat externího připojení
 Jakmile budete mít přístup k kontingenční tabulce, můžete vytáhnout podrobnosti o jejím externím připojení a vytisknout je. Postup je následující:
 ```csharp
-// Vytisknout podrobnosti o externím připojení
+// Vytisknout podrobnosti externího připojení
 Console.WriteLine("External Connection Data Source");
 Console.WriteLine("Name: " + pivotTable.ExternalConnectionDataSource.Name);
 Console.WriteLine("Type: " + pivotTable.ExternalConnectionDataSource.Type);

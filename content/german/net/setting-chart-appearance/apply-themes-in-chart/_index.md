@@ -99,7 +99,7 @@ Diese Codezeile stellt sicher, dass für die erste Reihe im Diagramm eine einfar
  Jetzt, da unsere Serie fertig ist, müssen wir ihre Farbe ändern. Dazu müssen wir ein`CellsColor` Objekt und Angabe einer Designfarbe. Für dieses Beispiel wählen wir einen Akzentstil.
 
 ```csharp
-// Holen Sie sich die CellsColor von SolidFill
+//Holen Sie sich die CellsColor von SolidFill
 CellsColor cc = chart.NSeries[0].Area.FillFormat.SolidFill.CellsColor;
 
 // Erstellen Sie ein Design im Accent-Stil
@@ -158,7 +158,7 @@ Aspose.Cells ist eine leistungsstarke Bibliothek für .NET, die es Entwicklern e
 Aspose.Cells unterstützt verschiedene Designfarben, darunter Akzentstile und andere.
 
 ### Ist es möglich, Themen auf mehrere Diagramme anzuwenden?
- Absolut! Sie können eine Schleife durchlaufen`worksheet.Charts` und wenden Sie Themen nach Bedarf an.
+Absolut! Sie können eine Schleife durchlaufen`worksheet.Charts` und wenden Sie Themen nach Bedarf an.
 
 ### Wo erhalte ich Support für Aspose.Cells?
  Sie können Support erhalten und sich mit einer Community von Benutzern austauschen[Hier](https://forum.aspose.com/c/cells/9).

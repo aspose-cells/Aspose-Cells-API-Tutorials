@@ -39,14 +39,14 @@ string outputDir = "Your Document Directory";
 ```
  Ersetzen`"Your Document Directory"` durch den tatsächlichen Pfad zu Ihren Verzeichnissen.
 ## Schritt 2: Öffnen Sie die Excel-Datei
-Nachdem wir nun unsere Verzeichnisse eingerichtet haben, öffnen wir die Excel-Datei, mit der Sie arbeiten möchten. Die`Workbook` Die Klasse in Aspose.Cells wird zum Laden des Excel-Dokuments verwendet.
+ Nachdem wir nun unsere Verzeichnisse eingerichtet haben, öffnen wir die Excel-Datei, mit der Sie arbeiten möchten. Die`Workbook` Die Klasse in Aspose.Cells wird zum Laden des Excel-Dokuments verwendet.
 ```csharp
 // Öffnen einer Excel-Datei
 Workbook workbook = new Workbook(sourceDir + "sampleSetDefaultFontPropertyOfPdfSaveOptionsAndImageOrPrintOptions.xlsx");
 ```
 Stellen Sie sicher, dass Sie den Dateinamen durch Ihren tatsächlichen Dateinamen ersetzen.
 ## Schritt 3: Bild-Rendering-Optionen einrichten
- Als nächstes müssen wir die Rendering-Optionen für die Konvertierung unserer Excel-Tabelle in ein Bildformat konfigurieren. Wir erstellen eine Instanz von`ImageOrPrintOptions`, und geben Sie den Bildtyp und die Standardschriftart an.
+Als nächstes müssen wir die Rendering-Optionen für die Konvertierung unserer Excel-Tabelle in ein Bildformat konfigurieren. Wir erstellen eine Instanz von`ImageOrPrintOptions`, und geben Sie den Bildtyp und die Standardschriftart an.
 ```csharp
 // Rendern im PNG-Dateiformat
 ImageOrPrintOptions imgOpt = new ImageOrPrintOptions();
@@ -63,7 +63,7 @@ SheetRender sr = new SheetRender(workbook.Worksheets[0], imgOpt);
 sr.ToImage(0, outputDir + "out1_imagePNG.png");
 ```
 ## Schritt 5: Bildtyp ändern und in TIFF rendern
-Wenn Sie dasselbe Blatt in ein anderes Bildformat, wie z. B. TIFF, rendern möchten, können Sie einfach die`ImageType` Eigenschaft und wiederholen Sie den Rendervorgang.
+ Wenn Sie dasselbe Blatt in ein anderes Bildformat, wie z. B. TIFF, rendern möchten, können Sie einfach die`ImageType` Eigenschaft und wiederholen Sie den Rendervorgang.
 ```csharp
 // Auf TIFF-Format einstellen
 imgOpt.ImageType = Drawing.ImageType.Tiff;
@@ -71,7 +71,7 @@ WorkbookRender wr = new WorkbookRender(workbook, imgOpt);
 wr.ToImage(outputDir + "out1_imageTIFF.tiff");
 ```
 ## Schritt 6: PDF-Speicheroptionen konfigurieren
- Als nächstes richten wir die PDF-Speicheroptionen ein. Wir erstellen eine Instanz von`PdfSaveOptions`, legen Sie die Standardschriftart fest und geben Sie an, dass nach fehlenden Schriftarten gesucht werden soll.
+ Als nächstes richten wir die PDF-Speicheroptionen ein. Wir erstellen eine Instanz von`PdfSaveOptions`legen Sie die Standardschriftart fest und geben Sie an, dass nach fehlenden Schriftarten gesucht werden soll.
 ```csharp
 // Konfigurieren von PDF-Speicheroptionen
 PdfSaveOptions saveOptions = new PdfSaveOptions();

@@ -50,7 +50,7 @@ La première étape consiste à définir l'emplacement où vous souhaitez enregi
 // Répertoire de sortie
 string outputDir = "Your Output Directory";
 ```
- Remplacer`"Your Output Directory"` avec le chemin réel où vous souhaitez enregistrer le fichier Excel généré.
+ Remplacer`"Your Output Directory"`avec le chemin réel où vous souhaitez enregistrer le fichier Excel généré.
 
 ## Étape 2 : instancier l'objet classeur
 

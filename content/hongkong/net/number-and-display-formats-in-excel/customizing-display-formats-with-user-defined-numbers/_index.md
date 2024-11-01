@@ -45,7 +45,7 @@ if (!IsExists)
 Workbook workbook = new Workbook();
 //將新工作表新增至 Excel 對象
 int i = workbook.Worksheets.Add();
-//透過傳遞工作表索引來取得新新增的工作表的引用
+//透過傳遞工作表索引來取得新新增工作表的引用
 Worksheet worksheet = workbook.Worksheets[i];
 ```
 - 首先，我們創建一個新的`Workbook`目的。將此視為您的 Excel 文件。

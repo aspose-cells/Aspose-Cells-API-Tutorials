@@ -90,4 +90,4 @@ I den här handledningen lärde vi oss hur man skapar diagramanimationer med Asp
 
 ### Vad är syftet med animationsfördröjning?
 
- Animationsfördröjningen bestämmer tidsavståndet innan diagramanimeringen startar. Använd`setAnimationDelay`metod för att ställa in fördröjningen i millisekunder.
+ Animationsfördröjningen bestämmer tidsavståndet innan diagramanimeringen startar. Använd`setAnimationDelay` metod för att ställa in fördröjningen i millisekunder.

@@ -1,6 +1,6 @@
 ---
-title: Öppna OLE Object Label i Excel
-linktitle: Öppna OLE Object Label i Excel
+title: Få tillgång till OLE Object Label i Excel
+linktitle: Få tillgång till OLE Object Label i Excel
 second_title: Aspose.Cells .NET Excel Processing API
 description: Lär dig hur du kommer åt och ändrar OLE-objektetiketter i Excel med Aspose.Cells för .NET. Enkel guide med kodexempel ingår.
 type: docs
@@ -43,7 +43,7 @@ Nu när allt är på plats, låt oss komma åt och ändra etiketten för ett OLE
 string sourceDir = "Your Document Directory";
 ```
 ## Steg 2: Ladda Excel-exempelfilen 
-Därefter laddar vi in .xlsx Excel-filen som innehåller vårt OLE-objekt:
+Därefter laddar vi .xlsx Excel-filen som innehåller vårt OLE-objekt:
 ```csharp
 Workbook wb = new Workbook(sourceDir + "sampleAccessAndModifyLabelOfOleObject.xlsx");
 ```
@@ -118,8 +118,8 @@ OLE-objekt är inbäddade filer som låter dig integrera dokument från andra Mi
 ### Kan Aspose.Cells fungera med andra filformat?  
 Ja! Aspose.Cells stöder en mängd olika format, inklusive XLS, XLSX, CSV och mer.
 ### Finns det en gratis testversion tillgänglig för Aspose.Cells?  
-Ja! Du kan prova det[här](https://releases.aspose.com/).
+ Ja! Du kan prova det[här](https://releases.aspose.com/).
 ### Kan jag komma åt flera OLE-objekt i ett kalkylblad?  
- Absolut! Du kan gå igenom`ws.OleObjects` för att komma åt alla inbäddade OLE-objekt i ett kalkylblad.
+Absolut! Du kan gå igenom`ws.OleObjects` för att komma åt alla inbäddade OLE-objekt i ett kalkylblad.
 ### Hur köper jag en licens för Aspose.Cells?  
  Du kan köpa en licens direkt från[här](https://purchase.aspose.com/buy).

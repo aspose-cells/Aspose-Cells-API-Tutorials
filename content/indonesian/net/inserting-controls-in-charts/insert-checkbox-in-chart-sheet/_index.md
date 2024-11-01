@@ -66,7 +66,7 @@ Sebelum kita masuk ke bagian yang menarik, kita perlu menentukan di mana kita in
 ```csharp
 string outputDir = "C:\\YourOutputDirectory\\"; // Beralih ke direktori yang Anda tentukan
 ```
- Pastikan untuk mengganti`"C:\\YourOutputDirectory\\"` dengan jalur tempat Anda ingin menyimpan berkas Anda. Anggap ini seperti menyiapkan ruang kerja Anda; Anda perlu tahu di mana Anda meletakkan alat-alat Anda (atau dalam hal ini, berkas Excel Anda).
+ Pastikan untuk mengganti`"C:\\YourOutputDirectory\\"`dengan jalur tempat Anda ingin menyimpan berkas Anda. Anggap ini seperti menyiapkan ruang kerja Anda; Anda perlu tahu di mana Anda meletakkan alat-alat Anda (atau dalam hal ini, berkas Excel Anda).
 
 ## Langkah 2: Membuat Instansiasi Objek Buku Kerja
 

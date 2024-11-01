@@ -117,6 +117,6 @@ excelbook.Save(dataDir + "book1.out.xls");
 ### Aspose.Cells を使用するにはライセンスが必要ですか?
  Aspose.Cellsは無料トライアルを提供していますが、実稼働環境での使用には有料ライセンスが必要です。[購入オプション](https://purchase.aspose.com/buy).
 ### Aspose.Cells に関するサポートを受けるにはどうすればよいですか?
-サポートについては、[Aspose フォーラム](https://forum.aspose.com/c/cells/9)質問をしたり、答えを見つけたりできる場所です。
+サポートについては、[Aspose フォーラム](https://forum.aspose.com/c/cells/9)質問したり答えを見つけたりできる場所です。
 ### 同じワークシートに複数のスピナーを追加することは可能ですか?
 もちろんです! コントロールごとに同じ手順を実行することで、必要な数のスピナーを追加できます。

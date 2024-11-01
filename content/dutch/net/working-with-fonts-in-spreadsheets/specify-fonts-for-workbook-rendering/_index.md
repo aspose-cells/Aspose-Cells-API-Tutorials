@@ -12,7 +12,7 @@ Als het gaat om het beheren en renderen van Excel-bestanden op een programmatisc
 ## Vereisten
 Voordat we in de spannende wereld van Aspose.Cells en het aanpassen van lettertypen duiken, controleren we eerst of je alles hebt wat je nodig hebt om aan de slag te gaan:
 1. Basiskennis van .NET: Kennis van .NET-programmering is cruciaal omdat we in een .NET-omgeving werken.
-2.  Aspose.Cells voor .NET: Zorg ervoor dat u de Aspose.Cells-bibliotheek hebt geïnstalleerd. U kunt deze downloaden[hier](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells voor .NET: Zorg ervoor dat u de Aspose.Cells-bibliotheek hebt geïnstalleerd. U kunt deze downloaden[hier](https://releases.aspose.com/cells/net/).
 3. Visual Studio: Deze handleiding gaat ervan uit dat u Visual Studio als uw IDE gebruikt. Zorg ervoor dat u het hebt geïnstalleerd en ingesteld.
 4. Voorbeeld Excel-bestand: Zorg dat u een voorbeeld Excel-bestand bij de hand hebt voor deze tutorial. Dit maakt het makkelijker om te begrijpen hoe aangepaste lettertypen de rendering-uitvoer beïnvloeden.
 5. Aangepaste lettertypen: Bereid een directory voor van de aangepaste lettertypen die u wilt gebruiken. Dit is essentieel voor het testen van ons renderingproces.
@@ -41,7 +41,7 @@ string outputDir = "Your Document Directory";
 string customFontsDir = sourceDir + "CustomFonts";
 ```
 
-Stel je voor dat je een archiefkast vol belangrijke documenten hebt (in dit geval Excel-bestanden). Het instellen van je mappen is als het organiseren van die kast; het zorgt ervoor dat je precies weet waar je bestanden zijn opgeslagen. Door de`sourceDir`, `outputDir` , En`customFontsDir`, bereidt u een werkruimte voor die uw code schoner en beter beheersbaar maakt.
+ Stel je voor dat je een archiefkast vol belangrijke documenten hebt (in dit geval Excel-bestanden). Het instellen van je mappen is als het organiseren van die kast; het zorgt ervoor dat je precies weet waar je bestanden zijn opgeslagen. Door de`sourceDir`, `outputDir` , En`customFontsDir`, bereidt u een werkruimte voor die uw code schoner en beter beheersbaar maakt.
 ## Stap 2: Individuele lettertypeconfiguraties specificeren
 Vervolgens moeten we individuele lettertypeconfiguraties maken. Deze stap is cruciaal om Aspose.Cells te vertellen waar ze uw aangepaste lettertypen kunnen vinden.
 ```csharp
@@ -49,7 +49,7 @@ Vervolgens moeten we individuele lettertypeconfiguraties maken. Deze stap is cru
 IndividualFontConfigs fontConfigs = new IndividualFontConfigs();
 fontConfigs.SetFontFolder(customFontsDir, false);
 ```
- Beschouw deze stap als het geven van aanwijzingen aan een vriend die op zoek is naar een specifieke koffieshop. Door de`customFontsDir`, wijs je Aspose.Cells naar de exacte locatie van je lettertypen. Als de richting verkeerd is (of als de lettertypen er niet zijn), kan het zijn dat je eindigt met een onbevredigende PDF-uitvoer. Zorg er dus voor dat je lettertypemap correct is!
+ Beschouw deze stap als het geven van aanwijzingen aan een vriend die op zoek is naar een specifieke koffieshop. Door de`customFontsDir`wijs je Aspose.Cells naar de exacte locatie van je lettertypen. Als de richting verkeerd is (of als de lettertypen er niet zijn), kan het zijn dat je eindigt met een onbevredigende PDF-uitvoer. Zorg er dus voor dat je lettertypemap correct is!
 ## Stap 3: Laadopties instellen
 Nu is het tijd om laadopties te definiëren die onze lettertype-instellingen in de werkmap integreren.
 ```csharp
@@ -64,11 +64,11 @@ Nu we alle laadopties goed hebben ingesteld, laden we het Excel-bestand dat we w
 // Laad het Excel-voorbeeldbestand met individuele lettertypeconfiguraties.
 Workbook wb = new Workbook(sourceDir + "sampleSpecifyIndividualOrPrivateSetOfFontsForWorkbookRendering.xlsx", opts);
 ```
- Deze stap is vergelijkbaar met het openen van uw favoriete boek. Hier vertelt u Aspose.Cells met welk Excel-bestand er moet worden gewerkt. Door de`Workbook` klasse en de opgegeven laadopties, opent u in feite de omslag en duikt u in de inhoud, klaar om wijzigingen aan te brengen.
+ Deze stap is vergelijkbaar met het openen van uw favoriete boek. Hier vertelt u Aspose.Cells met welk Excel-bestand er moet worden gewerkt. Door de`Workbook`klasse en de opgegeven laadopties, opent u in feite de omslag en duikt u in de inhoud, klaar om wijzigingen aan te brengen.
 ## Stap 5: Sla de werkmap op in de gewenste indeling
 Ten slotte is het tijd om de aangepaste werkmap op te slaan in het gewenste formaat (in dit geval PDF).
 ```csharp
-//Opslaan in PDF-formaat.
+// Opslaan in PDF-formaat.
 wb.Save(outputDir + "outputSpecifyIndividualOrPrivateSetOfFontsForWorkbookRendering.pdf", SaveFormat.Pdf);
 ```
 Dit is alsof je je boek terug in de kast zet nadat je het hebt gelezen, maar nu in een ander formaat. Door de werkmap op te slaan in PDF-formaat, zorg je ervoor dat de rendering wordt uitgevoerd met de door jou opgegeven lettertypen intact, waardoor het presentabel en professioneel wordt.

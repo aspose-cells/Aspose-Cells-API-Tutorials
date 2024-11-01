@@ -12,7 +12,7 @@ När det gäller att arbeta med Excel-filer i .NET, finns det mycket flexibilite
 ## Förutsättningar
 Innan vi börjar, låt oss se till att du har allt du behöver för att följa med sömlöst. Här är vad du bör ha:
 1. Visual Studio: Se till att du har en version av Visual Studio installerad på din dator. Det är här du kommer att skriva din .NET-kod. 
-2. Aspose.Cells Library: Du behöver Aspose.Cells for .NET-biblioteket. Om du inte redan har laddat ner den, gå över till[Aspose Nedladdningssida](https://releases.aspose.com/cells/net/) att ta tag i den. 
+2.  Aspose.Cells Library: Du behöver Aspose.Cells for .NET-biblioteket. Om du inte redan har laddat ner den, gå över till[Aspose Nedladdningssida](https://releases.aspose.com/cells/net/) att ta tag i den. 
 3. Grundläggande kunskaper om C#: En grundläggande förståelse av C# och .NET hjälper dig att navigera genom kodexemplen mer bekvämt.
 4. .NET Framework: Se till att ditt projekt är konfigurerat med lämpligt .NET-ramverk som stöds av Aspose.Cells-biblioteket.
 5. Ett Excel-dokument: Även om det är ett alternativ att skapa en ny arbetsbok, kan det vara användbart att ha ett startdokument om du vill manipulera en befintlig fil.

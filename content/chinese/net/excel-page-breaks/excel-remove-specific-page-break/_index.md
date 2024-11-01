@@ -117,4 +117,4 @@ workbook.Save(dataDir + "RemoveSpecificPageBreak_out.xls");
 当然！只需更改索引号即可`workbook.Worksheets[index]`以定位所需的工作表。
 
 ### Aspose.Cells 是一个免费工具吗？  
- Aspose.Cells 提供免费试用，但要获得完整功能，您需要购买许可证。您可以查看[这里](https://purchase.aspose.com/buy).
+Aspose.Cells 提供免费试用，但要获得完整功能，您需要购买许可证。您可以查看[这里](https://purchase.aspose.com/buy).

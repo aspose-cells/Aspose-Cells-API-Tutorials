@@ -12,7 +12,7 @@ Excel 통합 문서를 HTML로 변환해야 했고 프로세스 중에 불필요
 이 글을 끝까지 읽으면 이 기능을 사용하는 방법을 명확하게 이해하고 HTML 출력물이 깔끔하고 주석이 없는지 확인할 수 있습니다.
 ## 필수 조건
 단계별 가이드를 살펴보기에 앞서, 원활하게 따라갈 수 있도록 꼭 준비해야 할 몇 가지 사항을 살펴보겠습니다.
-1.  .NET용 Aspose.Cells: Aspose.Cells 라이브러리를 설치해야 합니다. 아직 설치하지 않았다면 다운로드할 수 있습니다.[여기](https://releases.aspose.com/cells/net/).
+1. .NET용 Aspose.Cells: Aspose.Cells 라이브러리를 설치해야 합니다. 아직 설치하지 않았다면 다운로드할 수 있습니다.[여기](https://releases.aspose.com/cells/net/).
 2. IDE: C# 코드를 작성하고 실행하기 위한 Visual Studio와 같은 개발 환경입니다.
 3. C#에 대한 기본 지식: C# 구문과 객체 지향 프로그래밍에 익숙하면 코드를 따라가는 데 도움이 됩니다.
 4.  임시 또는 라이센스 버전: 무료 평가판을 사용하거나 다음에서 임시 라이센스를 신청할 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/). 이렇게 하면 라이브러리가 아무런 제한 없이 작동합니다.

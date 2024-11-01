@@ -39,14 +39,14 @@ string outputDir = "Your Document Directory";
 ```
  يستبدل`"Your Document Directory"` مع المسار الفعلي إلى الدلائل الخاصة بك.
 ## الخطوة 2: افتح ملف Excel
-الآن بعد أن قمنا بإعداد الدلائل الخاصة بنا، فلنفتح ملف Excel الذي تريد العمل به.`Workbook` يتم استخدام الفئة في Aspose.Cells لتحميل مستند Excel.
+ الآن بعد أن قمنا بإعداد الدلائل الخاصة بنا، فلنفتح ملف Excel الذي تريد العمل به.`Workbook` يتم استخدام الفئة في Aspose.Cells لتحميل مستند Excel.
 ```csharp
 // فتح ملف Excel
 Workbook workbook = new Workbook(sourceDir + "sampleSetDefaultFontPropertyOfPdfSaveOptionsAndImageOrPrintOptions.xlsx");
 ```
 تأكد من استبدال اسم الملف باسم الملف الفعلي الخاص بك.
 ## الخطوة 3: إعداد خيارات عرض الصورة
- بعد ذلك، نحتاج إلى تكوين خيارات العرض لتحويل ورقة Excel الخاصة بنا إلى تنسيق صورة. سننشئ مثيلًا لـ`ImageOrPrintOptions`، تحديد نوع الصورة والخط الافتراضي.
+بعد ذلك، نحتاج إلى تكوين خيارات العرض لتحويل ورقة Excel الخاصة بنا إلى تنسيق صورة. سننشئ مثيلًا لـ`ImageOrPrintOptions`، تحديد نوع الصورة والخط الافتراضي.
 ```csharp
 // تقديم إلى تنسيق ملف PNG
 ImageOrPrintOptions imgOpt = new ImageOrPrintOptions();
@@ -63,7 +63,7 @@ SheetRender sr = new SheetRender(workbook.Worksheets[0], imgOpt);
 sr.ToImage(0, outputDir + "out1_imagePNG.png");
 ```
 ## الخطوة 5: تغيير نوع الصورة وتقديمها إلى TIFF
-إذا كنت تريد عرض نفس الورقة بتنسيق صورة مختلف، مثل TIFF، فيمكنك ببساطة تغيير`ImageType` الممتلكات وكرر عملية العرض.
+ إذا كنت تريد عرض نفس الورقة بتنسيق صورة مختلف، مثل TIFF، فيمكنك ببساطة تغيير`ImageType` الممتلكات وكرر عملية العرض.
 ```csharp
 // تم الضبط على تنسيق TIFF
 imgOpt.ImageType = Drawing.ImageType.Tiff;

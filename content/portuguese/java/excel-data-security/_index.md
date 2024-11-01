@@ -13,7 +13,7 @@ Em uma era em que os dados são reis, garantir a segurança de suas planilhas do
 
 
 ## Proteção por senha
-A proteção por senha é sua primeira linha de defesa. Com o Aspose.Cells para Java, você pode definir uma senha para abrir e uma senha para modificar seus arquivos do Excel. Essa camada dupla de proteção garante que somente indivíduos autorizados possam acessar e fazer alterações em suas planilhas. Forneceremos exemplos de código para implementar essa medida de segurança perfeitamente.
+proteção por senha é sua primeira linha de defesa. Com o Aspose.Cells para Java, você pode definir uma senha para abrir e uma senha para modificar seus arquivos do Excel. Essa camada dupla de proteção garante que somente indivíduos autorizados possam acessar e fazer alterações em suas planilhas. Forneceremos exemplos de código para implementar essa medida de segurança perfeitamente.
 
 ## Criptografia de arquivo
 No mundo interconectado de hoje, a criptografia de arquivos é essencial. O Aspose.Cells para Java permite que você criptografe seus arquivos do Excel usando algoritmos de criptografia padrão do setor. Nós o guiaremos pelo processo de criptografar seus arquivos e decifrá-los quando necessário.

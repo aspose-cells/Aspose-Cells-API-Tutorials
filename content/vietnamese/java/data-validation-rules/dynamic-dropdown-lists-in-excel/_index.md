@@ -100,7 +100,7 @@ Có, bạn có thể tạo danh sách thả xuống dạng xếp tầng trong Ex
 
 ### Tôi có thể bảo vệ bảng tính bằng danh sách thả xuống động không?
 
-Có, bạn có thể bảo vệ bảng tính trong khi vẫn cho phép người dùng tương tác với danh sách thả xuống động. Sử dụng các tính năng bảo vệ bảng tính của Excel để kiểm soát ô nào có thể chỉnh sửa và ô nào được bảo vệ.
+Có, bạn có thể bảo vệ trang tính trong khi vẫn cho phép người dùng tương tác với danh sách thả xuống động. Sử dụng các tính năng bảo vệ trang tính của Excel để kiểm soát ô nào có thể chỉnh sửa và ô nào được bảo vệ.
 
 ### Có giới hạn nào về số lượng mục trong danh sách thả xuống không?
 

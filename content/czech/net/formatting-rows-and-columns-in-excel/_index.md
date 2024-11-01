@@ -13,7 +13,7 @@ Pokud jde o programovou manipulaci s tabulkami Excelu, Aspose.Cells for .NET je 
 
 ## Přizpůsobení nastavení formátu sloupce
 
- Představte si, že máte co do činění s excelovým listem plným prodejních dat. Musíte se ujistit, že všechna čísla v konkrétním sloupci jsou pro přehlednost zobrazena jako měna. No a zde přichází na řadu přizpůsobení nastavení formátu sloupce! S Aspose.Cells je tento proces přímočarý. Sledováním našeho[podrobný průvodce přizpůsobením formátu sloupce](./customizing-a-column/), můžete snadno nastavit formát pro jakýkoli sloupec. To nejenže dodává vaší tabulce profesionalitu, ale také pomáhá lépe interpretovat vaše data.
+ Představte si, že máte co do činění s excelovým listem plným prodejních dat. Musíte se ujistit, že všechna čísla v konkrétním sloupci jsou pro přehlednost zobrazena jako měna. No a zde přichází na řadu přizpůsobení nastavení formátu sloupce! S Aspose.Cells je tento proces přímočarý. Sledováním našeho[podrobný průvodce přizpůsobením formátu sloupce](./customizing-a-column/), můžete snadno nastavit formát pro libovolný sloupec. To nejenže dodává vaší tabulce profesionalitu, ale také pomáhá lépe interpretovat vaše data.
 
 ## Programové použití formátování na řádek aplikace Excel
 

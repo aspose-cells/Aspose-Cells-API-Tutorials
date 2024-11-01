@@ -93,7 +93,7 @@ Félicitations ! Vous venez d'apprendre à configurer un classement des formats
 Aspose.Cells est une bibliothèque .NET qui permet aux développeurs de travailler avec des fichiers Excel sans avoir besoin de Microsoft Excel. Elle permet de lire, d'écrire et de manipuler des documents Excel de manière transparente.
 ### Dois-je payer pour Aspose.Cells ?
 Bien qu'Aspose.Cells propose un essai gratuit, il nécessite un achat pour bénéficier de toutes les fonctionnalités. Vous pouvez consulter le[page d'achat](https://purchase.aspose.com/buy) pour plus de détails.
-### Puis-je créer des tableaux croisés dynamiques à l’aide d’Aspose.Cells ?
+### Puis-je créer des tableaux croisés dynamiques à l'aide d'Aspose.Cells ?
 Oui, Aspose.Cells fournit des fonctionnalités robustes pour créer et gérer des tableaux croisés dynamiques par programmation.
 ### Où puis-je trouver plus d'informations sur l'utilisation d'Aspose.Cells ?
  Vous pouvez vous référer au document complet[Documentation d'Aspose.Cells](https://reference.aspose.com/cells/net/) pour des conseils détaillés et des références API.

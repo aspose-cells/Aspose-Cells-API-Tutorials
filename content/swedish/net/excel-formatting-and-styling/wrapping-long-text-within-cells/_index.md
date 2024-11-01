@@ -33,7 +33,7 @@ Till att börja med vill du ställa in katalogen där din nya Excel-fil kommer a
 ```csharp
 string dataDir = "Your Document Directory";
 ```
- Ersätta`"Your Document Directory"` med den faktiska sökvägen du vill använda.
+ Ersätta`"Your Document Directory"` med den faktiska filsökvägen du vill använda.
 ## Steg 2: Skapa katalogen om den inte finns
 Nu när du har definierat din sökväg, låt oss se till att katalogen finns. Så här kan du kontrollera och skapa den om det behövs:
 ```csharp

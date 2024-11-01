@@ -41,7 +41,7 @@ Tout d'abord, vous devez spécifier le répertoire dans lequel se trouvent vos f
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // Mettre à jour en conséquence
 ```
 
- Cette ligne définit le`dataDir` variable, qui est le chemin de base pour localiser l'image que vous souhaitez insérer dans l'en-tête.
+ Cette ligne définit le`dataDir`variable, qui est le chemin de base pour localiser l'image que vous souhaitez insérer dans l'en-tête.
 
 ## Étape 2 : création d'un objet classeur
 
@@ -55,7 +55,7 @@ Workbook workbook = new Workbook();
 
 ## Étape 3 : Définition du chemin d’accès à l’image
 
-Il est temps de créer une variable de chaîne pour contenir le chemin d'accès à l'image que vous souhaitez utiliser. Dans notre cas, nous utilisons`aspose-logo.jpg`.
+ Il est temps de créer une variable de chaîne pour contenir le chemin d'accès à l'image que vous souhaitez utiliser. Dans notre cas, nous utilisons`aspose-logo.jpg`.
 
 ```csharp
 string logo_url = dataDir + "aspose-logo.jpg";
@@ -77,7 +77,7 @@ long bytesRead = inFile.Read(binaryData, 0, (int)inFile.Length);
 -  Ensuite, nous déclarons un tableau d'octets`binaryData` pour contenir les données de l'image.
 -  Enfin, nous lisons les données d’image à partir du`FileStream`.
 
-## Étape 5 : Accéder à l'objet de configuration de page
+## Étape 5 : Accès à l'objet de configuration de page
 
  Pour apporter des modifications à l'en-tête, nous devons accéder au`PageSetup` objet associé à la première feuille de calcul. 
 

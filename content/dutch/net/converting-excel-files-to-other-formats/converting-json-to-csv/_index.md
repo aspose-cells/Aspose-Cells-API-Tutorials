@@ -8,7 +8,7 @@ weight: 15
 url: /nl/net/converting-excel-files-to-other-formats/converting-json-to-csv/
 ---
 ## Invoering
-In de digitale wereld van vandaag is het verwerken van gegevens in meerdere formaten gemeengoed geworden, en JSON (JavaScript Object Notation) is een van de meest gebruikte formaten voor gegevensuitwisseling. Maar wat gebeurt er als u die JSON moet omzetten in een formaat dat toegankelijker is voor analyse, zoals CSV (Comma Separated Values)? Deze tutorial leidt u door het proces van het programmatisch omzetten van JSON naar CSV met behulp van Aspose.Cells voor .NET, een eenvoudig te gebruiken maar krachtige API voor spreadsheetmanipulatie. 
+In de digitale wereld van vandaag is het verwerken van gegevens in meerdere formaten gemeengoed geworden, en JSON (JavaScript Object Notation) is een van de meest gebruikte formaten voor gegevensuitwisseling. Maar wat gebeurt er als u die JSON moet transformeren naar een formaat dat toegankelijker is voor analyse, zoals CSV (Comma Separated Values)? Deze tutorial leidt u door het proces van het programmatisch converteren van JSON naar CSV met behulp van Aspose.Cells voor .NET, een eenvoudig te gebruiken maar krachtige API voor spreadsheetmanipulatie. 
 ## Vereisten
 Voordat we in de code duiken, is het essentieel om ervoor te zorgen dat je alle benodigde componenten hebt en een basiskennis van de tools die we gaan gebruiken. Laten we schetsen wat je nodig hebt:
 -  Aspose.Cells voor .NET: Dit is de primaire bibliotheek die we zullen gebruiken voor het converteren van JSON naar CSV. U kunt[download het hier](https://releases.aspose.com/cells/net/).

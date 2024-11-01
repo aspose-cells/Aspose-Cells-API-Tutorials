@@ -16,7 +16,7 @@ Créer des graphiques dynamiques et visuellement attrayants dans Excel est un mo
 Avant de passer au codage, il y a quelques éléments que vous devez mettre en place :
 
 - Compréhension de base de C# : une compréhension fondamentale de la programmation C# sera utile. Ne vous inquiétez pas, vous n'avez pas besoin d'être un expert, il vous suffit de savoir naviguer dans la syntaxe.
--  Bibliothèque Aspose.Cells installée : assurez-vous que la bibliothèque Aspose.Cells pour .NET est installée. Vous pouvez la télécharger à partir de[ici](https://releases.aspose.com/cells/net/)si vous ne l'avez pas déjà fait.
+-  Bibliothèque Aspose.Cells installée : assurez-vous que la bibliothèque Aspose.Cells pour .NET est installée. Vous pouvez la télécharger à partir de[ici](https://releases.aspose.com/cells/net/) si vous ne l'avez pas déjà fait.
 - Visual Studio : une connaissance de Visual Studio ou de tout IDE que vous préférez utiliser pour le framework .NET est essentielle.
 - Un fichier Excel existant : pour cet exemple, nous allons travailler avec un fichier Excel existant nommé « sampleAddingTextBoxControlInChart.xls ». Vous pouvez en créer un ou télécharger un exemple.
 
@@ -70,7 +70,7 @@ En modifiant la valeur de l'index, vous pouvez sélectionner différentes feuill
 
 ## Étape 4 : ajouter une nouvelle zone de texte au graphique
 
-Nous sommes maintenant prêts à ajouter notre TextBox. Nous spécifierons sa position et sa taille lors de sa création.
+Nous sommes maintenant prêts à ajouter notre zone de texte. Nous spécifierons sa position et sa taille lors de sa création.
 
 ```csharp
 // Ajoutez une nouvelle zone de texte au graphique.
@@ -151,7 +151,7 @@ Aspose.Cells pour .NET est une bibliothèque puissante permettant de créer, de 
 Oui ! Vous pouvez ajouter autant de zones de texte que vous le souhaitez en répétant les étapes de création de zones de texte avec différentes positions.
 
 ### L'utilisation d'Aspose.Cells est-elle gratuite ?
- Aspose.Cells est une bibliothèque payante, mais vous pouvez télécharger une version d'essai gratuite à partir de[ici](https://releases.aspose.com/).
+Aspose.Cells est une bibliothèque payante, mais vous pouvez télécharger une version d'essai gratuite à partir de[ici](https://releases.aspose.com/).
 
 ### Où puis-je trouver plus de documentation sur Aspose.Cells ?
  Vous pouvez accéder à une documentation complète[ici](https://reference.aspose.com/cells/net/).

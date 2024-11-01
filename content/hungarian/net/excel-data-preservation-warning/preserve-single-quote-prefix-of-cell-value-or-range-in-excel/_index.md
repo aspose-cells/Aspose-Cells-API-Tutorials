@@ -112,7 +112,7 @@ lépés után látni fogja, hogy az idézet előtagja igazra változik! Ez azt m
 
 ## 6. lépés: A StyleFlags megértése
 
- Most vizsgáljuk meg, hogyan a`StyleFlag` hatással lehet az idézet előtagunkra.
+ Most pedig vizsgáljuk meg, hogyan a`StyleFlag` hatással lehet az idézet előtagunkra.
 
 ```csharp
 // Hozzon létre egy üres stílust

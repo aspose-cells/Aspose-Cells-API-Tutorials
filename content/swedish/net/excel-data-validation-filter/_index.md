@@ -1,6 +1,6 @@
 ---
-title: Excel-datavalidering och -filter
-linktitle: Excel-datavalidering och -filter
+title: Excel-datavalidering och filter
+linktitle: Excel-datavalidering och filter
 second_title: Aspose.Cells .NET Excel Processing API
 description: Upptäck Aspose.Cells för .NET självstudier om Excel-datavalidering och filter – enkla guider för att förbättra din produktivitet.
 type: docs

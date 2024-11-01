@@ -70,7 +70,7 @@ Itt elérjük munkafüzetünk első munkalapját. Itt fog megtörténni minden v
 
 ## 4. lépés: Oldja fel az összes oszlopot
 
-Mielőtt bizonyos cellákat zárolhatnánk, fel kell oldanunk a munkalap összes oszlopának zárolását. Ez lehetővé teszi, hogy a későbbiekben csak a kiválasztott cellákat zároljuk.
+Mielőtt bizonyos cellákat zárolhatnánk, fel kell oldanunk a munkalap összes oszlopának zárolását. Ez lehetővé teszi, hogy a későbbiekben csak a kijelölt cellákat zároljuk.
 
 ```csharp
 // Határozza meg a stílusobjektumot.

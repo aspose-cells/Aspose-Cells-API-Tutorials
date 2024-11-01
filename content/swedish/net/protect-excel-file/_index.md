@@ -31,7 +31,7 @@ Att använda Aspose.Cells för .NET handlar inte bara om att lära sig några ko
 
 ## Lär dig genom att göra: Praktiska exempel 
 
-Ett av de bästa sätten att förstå all teknik är genom att gräva ner sig och smutsa ner händerna. Var och en av våra handledningar är fullpackade med praktiska exempel och exempelkod som du kan experimentera med. Vill du lära dig hur du skyddar specifika rader? Följ helt enkelt vår guide vidare[Skydda specifika rader](./protect-specific-row-in-excel-worksheet/). Det är som att ha en vänlig handledare vid din sida, som guidar dig steg för steg. 
+Ett av de bästa sätten att förstå all teknik är genom att gräva ner sig och smutsa ner händerna. Var och en av våra handledningar är fullpackade med praktiska exempel och exempelkod som du kan experimentera med. Vill du lära dig hur man skyddar specifika rader? Följ helt enkelt vår guide vidare[Skydda specifika rader](./protect-specific-row-in-excel-worksheet/). Det är som att ha en vänlig handledare vid din sida, som guidar dig steg för steg. 
 
 ## Slutsats
 

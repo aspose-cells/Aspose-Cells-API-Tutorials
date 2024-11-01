@@ -108,7 +108,7 @@ excelbook.Save(dataDir + "book1.out.xls");
 ### Χρειάζεται να εγκαταστήσω το Microsoft Excel για να χρησιμοποιήσω το Aspose.Cells;
 Όχι, το Aspose.Cells είναι εντελώς ανεξάρτητο και δεν απαιτεί εγκατάσταση του Microsoft Excel.
 ### Μπορώ να δοκιμάσω το Aspose.Cells δωρεάν;
-Ναι, μπορείτε να δοκιμάσετε τα Aspose.Cells χρησιμοποιώντας το δικό τους[Δωρεάν δοκιμή](https://releases.aspose.com/).
+ Ναι, μπορείτε να δοκιμάσετε τα Aspose.Cells χρησιμοποιώντας το δικό τους[Δωρεάν δοκιμή](https://releases.aspose.com/).
 ### Ποιες γλώσσες προγραμματισμού υποστηρίζει το Aspose.Cells;
 Το Aspose.Cells υποστηρίζει πολλές γλώσσες, συμπεριλαμβανομένων των C#, VB.NET και άλλων.
 ### Πού μπορώ να λάβω υποστήριξη για το Aspose.Cells;

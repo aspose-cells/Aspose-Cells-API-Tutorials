@@ -82,7 +82,7 @@ string sourceDir = "Your Document Directory Path";
 
 ## Steg 2: Öppna den befintliga arbetsboken
 
- Därefter måste vi öppna Excel-filen som innehåller cirkeldiagrammet du vill ändra. För detta, använd`Workbook` klass:
+ Därefter måste vi öppna Excel-filen som innehåller cirkeldiagrammet du vill ändra. Använd för detta`Workbook` klass:
 
 ```csharp
 // Öppna den befintliga filen.
@@ -100,7 +100,7 @@ Låt oss nu dyka in i det specifika arket som innehåller cirkeldiagrammet. Vi k
 Worksheet sheet = workbook.Worksheets[1];
 ```
 
- Genom att komma åt`Worksheets`insamling kan vi komma till det specifika arket vi behöver.
+ Genom att komma åt`Worksheets` insamling kan vi komma till det specifika arket vi behöver.
 
 ## Steg 4: Skaffa diagrammet
 

@@ -82,7 +82,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 
  Varje arbetsbok kan innehålla flera kalkylblad. Här kommer vi åt den första som använder`Worksheets[0]`. Det är som att välja vilken sida i din anteckningsbok du vill arbeta med!
 
-## Steg 4: Hämta cellreferensen
+## Steg 4: Hämta cellreferens
 
 Låt oss gå vidare till att hämta cellen där vi vill anpassa texten.
 
@@ -106,7 +106,7 @@ Här lägger vi helt enkelt texten "Besök Aspose!" in i vår valda cell. Det ä
 
 ## Steg 6: Anpassa cellstilen
 
-Nu kommer den spännande delen - att anpassa orienteringen av texten i cellen.
+Nu kommer den spännande delen - anpassa orienteringen av texten i cellen.
 
 ```csharp
 // Ställa in den horisontella justeringen av texten i "A1"-cellen

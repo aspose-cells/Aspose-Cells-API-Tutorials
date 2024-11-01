@@ -46,7 +46,7 @@ string dataDir = "Your Document Directory";
 ```
 ここで、変数を定義します。`dataDir`ファイルが保存されるディレクトリへのパスを保持します。`"Your Document Directory"`システム上の実際のパス（例："C:\\マイファイル\\")。
 ## ステップ4: Excelブックを開く
-次に、Excelファイルを`Workbook`Aspose.Cells のクラス:
+次に、Excelファイルを`Workbook` Aspose.Cells のクラス:
 ```csharp
 //テンプレート Excel ファイルを開きます。
 Workbook book = new Workbook(dataDir + "MyTestBook1.xls");

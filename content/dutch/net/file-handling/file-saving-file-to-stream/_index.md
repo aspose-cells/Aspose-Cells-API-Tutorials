@@ -13,7 +13,7 @@ Als het gaat om het werken met Excel-bestanden in uw .NET-toepassingen, ondersch
 Voordat we in de details duiken, zijn er een paar dingen die je op orde moet hebben. Beschouw dit als je checklist om een soepele ervaring te garanderen terwijl we de tutorial doorlopen.
 1. Visual Studio: Zorg ervoor dat u Visual Studio op uw machine hebt geïnstalleerd. Maak u geen zorgen, u kunt zelfs de Community-editie gebruiken; het is gratis en werkt prima.
 2. .NET Framework: De versie van .NET die u gebruikt, moet compatibel zijn met Aspose.Cells. Over het algemeen zou elke .NET Framework versie 4.0 of later goed moeten zijn.
-3.  Aspose.Cells-bibliotheek: Download en installeer de Aspose.Cells voor .NET-bibliotheek. U kunt het vinden[hier](https://releases.aspose.com/cells/net/). 
+3. Aspose.Cells-bibliotheek: Download en installeer de Aspose.Cells voor .NET-bibliotheek. U kunt het vinden[hier](https://releases.aspose.com/cells/net/). 
 4. Basiskennis C#: Een beetje vertrouwdheid met C# programmeren is handig, maar je hoeft geen codeer-wizard te zijn. Geloof me, als je een recept kunt volgen, kun je deze gids ook volgen!
 5.  Excel-bestand: U hebt een Excel-startbestand nodig, in ons geval met de naam`Book1.xlsx`. Voel je vrij om er een eenvoudige te maken als je die nog niet hebt.
 Nu alles klaar is, kunnen we de benodigde pakketten importeren!
@@ -50,7 +50,7 @@ Laten we nu de werkmap laden, zodat we klaar zijn om met de inhoud te spelen. Di
 ```csharp
 Workbook workbook = new Workbook(filePath);
 ```
-Wat gebeurt hier? We maken een nieuw exemplaar van de`Workbook` class en het pad van uw bestaande Excel-bestand doorgeven. Dit is alsof u een receptenboek opent om uw favoriete gerecht te vinden!
+ Wat gebeurt hier? We maken een nieuw exemplaar van de`Workbook`class en het pad van uw bestaande Excel-bestand doorgeven. Dit is alsof u een receptenboek opent om uw favoriete gerecht te vinden!
 ## Stap 4: Maak een FileStream om de werkmap op te slaan
  Vervolgens moeten we een`FileStream` object dat bepaalt waar we onze nieuw aangepaste werkmap opslaan. Codeer het als volgt:
 ```csharp

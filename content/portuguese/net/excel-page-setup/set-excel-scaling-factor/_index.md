@@ -69,7 +69,7 @@ Agora, é hora de criar uma nova pasta de trabalho. É aqui que todos os seus da
 Workbook workbook = new Workbook();
 ```
 
- Aqui, declaramos uma nova`Workbook`objeto que representa um arquivo Excel e nos permitirá manipular seu conteúdo.
+ Aqui, declaramos uma nova`Workbook` objeto que representa um arquivo Excel e nos permitirá manipular seu conteúdo.
 
 ## Etapa 3: Acesse a primeira planilha
 

@@ -50,7 +50,7 @@ Bước đầu tiên là xác định nơi bạn muốn lưu tệp đầu ra. Gi
 // Thư mục đầu ra
 string outputDir = "Your Output Directory";
 ```
- Thay thế`"Your Output Directory"` với đường dẫn thực tế mà bạn muốn lưu tệp Excel đã tạo.
+ Thay thế`"Your Output Directory"`với đường dẫn thực tế mà bạn muốn lưu tệp Excel đã tạo.
 
 ## Bước 2: Khởi tạo đối tượng Workbook
 

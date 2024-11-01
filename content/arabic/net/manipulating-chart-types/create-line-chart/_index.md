@@ -50,7 +50,7 @@ using Aspose.Cells.Charts;
 // دليل الإخراج
 string outputDir = "Your Output Directory";
 ```
- يستبدل`"Your Output Directory"` مع المسار الفعلي الذي تريد حفظ ملف Excel الناتج فيه.
+ يستبدل`"Your Output Directory"`مع المسار الفعلي الذي تريد حفظ ملف Excel الناتج فيه.
 
 ## الخطوة 2: إنشاء مثيل لكائن المصنف
 

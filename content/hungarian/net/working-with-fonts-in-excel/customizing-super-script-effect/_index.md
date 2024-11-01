@@ -16,7 +16,7 @@ Győződjön meg arról, hogy a Visual Studio van a számítógépén. Itt kódo
 ### 2. .NET Framework vagy .NET Core
 Győződjön meg arról, hogy a megfelelő .NET-verzió van telepítve. Az Aspose.Cells for .NET zökkenőmentesen működik mind a .NET-keretrendszerrel, mind a .NET Core-al.
 ### 3. Aspose.Cells Library
- Szüksége lesz az Aspose.Cells könyvtárra. Letöltheti[itt](https://releases.aspose.com/cells/net/). Ez szükséges a projektben az Excel-fájlok kezeléséhez.
+Szüksége lesz az Aspose.Cells könyvtárra. Letöltheti[itt](https://releases.aspose.com/cells/net/). Ez szükséges a projektben az Excel-fájlok kezeléséhez.
 ### 4. A C# alapjai
 Hasznos, bár nem kötelező, ha ismeri a C#-ot. Olyan kódot fogunk írni, amely a könyvtárat használja az Excel-fájlok kezeléséhez, és a C# ismerete segít jobban megérteni.
 ### 5. Egy IDE a munkához

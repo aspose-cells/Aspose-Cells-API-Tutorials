@@ -37,7 +37,7 @@ Install-Package Aspose.Cells
 
 ### Importera namnområdet
 
-Nu när du har installerat biblioteket måste du inkludera det i ditt projekt. Lägg till denna rad överst i din C#-fil:
+Nu när du har installerat biblioteket måste du inkludera det i ditt projekt. Lägg till den här raden överst i din C#-fil:
 
 ```csharp
 using System.IO;

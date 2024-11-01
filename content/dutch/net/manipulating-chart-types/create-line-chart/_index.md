@@ -50,7 +50,7 @@ De eerste stap is om te definiëren waar u uw uitvoerbestand wilt opslaan. Het i
 // Uitvoermap
 string outputDir = "Your Output Directory";
 ```
- Vervangen`"Your Output Directory"` met het daadwerkelijke pad waar u het gegenereerde Excel-bestand wilt opslaan.
+ Vervangen`"Your Output Directory"`met het daadwerkelijke pad waar u het gegenereerde Excel-bestand wilt opslaan.
 
 ## Stap 2: Instantieer het werkmapobject
 

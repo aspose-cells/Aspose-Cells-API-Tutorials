@@ -16,7 +16,7 @@ url: /hu/net/excel-page-setup/fit-to-excel-pages-options/
 Mielőtt belevágnánk a kódolásba, győződjünk meg arról, hogy mindennel rendelkezünk, ami a kezdéshez szükséges. Íme, aminek a helyén kell lennie:
 
 1. Visual Studio: Győződjön meg arról, hogy a Visual Studio telepítve van a gépen. Ez a fő központja minden fejlesztési munkának.
-2. Aspose.Cells for .NET: Le kell töltenie az Aspose.Cells könyvtárat, és hozzá kell adnia a projekthez. Könnyen megragadhatja a[Aspose honlapja](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells for .NET: Le kell töltenie az Aspose.Cells könyvtárat, és hozzá kell adnia a projekthez. Könnyen megragadhatja a[Aspose honlapja](https://releases.aspose.com/cells/net/).
 3. Alapvető C# ismeretek: A C# programozás ismerete óriási segítséget jelent. Ha tudja kezelni a változókat, a ciklusokat és az alapvető fájl I/O-t, akkor otthon lesz.
 4. .NET-keretrendszer: Győződjön meg arról, hogy projektje a megfelelő .NET-keretrendszer-verzióval van beállítva, mivel a könyvtárat úgy tervezték, hogy kompatibilis legyen ezen az ökoszisztémán belül.
 
@@ -64,12 +64,12 @@ Worksheet worksheet = workbook.Worksheets[0];
 
 ## 2. lépés: Adja meg az oldalbeállítási beállításokat
 
-Most állítsuk be a paramétereket, hogy a munkalap egy adott oldalra illeszkedjen. Itt adhatja meg, hogy a tartalom hány oldal széles és magas legyen.
+Most állítsuk be a paramétereket, hogy a munkalapja bizonyos oldalakra illeszkedjen. Itt adhatja meg, hogy a tartalom hány oldal széles és magas legyen.
 
 ```csharp
-// Az oldalak számának beállítása, amelyre a munkalap hosszát átfogja
+// Az oldalak számának beállítása, amelyre a munkalap kiterjedjen
 worksheet.PageSetup.FitToPagesTall = 1;
-// Azon oldalak számának beállítása, amelyekre a munkalap szélessége kiterjed
+//Az oldalak számának beállítása, amelyre a munkalap szélessége kiterjed
 worksheet.PageSetup.FitToPagesWide = 1;
 ```
 

@@ -100,7 +100,7 @@ Workbook workbook = new Workbook(sourceDir + "sampleModifyPieChart.xlsx");
 Worksheet sheet = workbook.Worksheets[1];
 ```
 
- तक पहुंच कर`Worksheets`संग्रह से, हम उस विशिष्ट शीट तक पहुंच सकते हैं जिसकी हमें आवश्यकता है।
+ तक पहुंच कर`Worksheets` संग्रह से, हम उस विशिष्ट शीट तक पहुंच सकते हैं जिसकी हमें आवश्यकता है।
 
 ## चरण 4: चार्ट प्राप्त करें
 

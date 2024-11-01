@@ -12,7 +12,7 @@ I dagens digitala värld är datasäkerhet en högsta prioritet. Oavsett om du �
 ## Förutsättningar
 Innan vi dyker in i koden, låt oss se till att du har allt du behöver för att komma igång. Här är en checklista:
 1. .NET Framework: Se till att du har en kompatibel version av .NET Framework installerad. Aspose.Cells fungerar bra med .NET-versioner, så välj en som passar ditt projekt.
-2.  Aspose.Cells Library: Ladda ner Aspose.Cells-biblioteket från[nedladdningssida](https://releases.aspose.com/cells/net/). Detta kraftfulla bibliotek låter dig manipulera och kryptera Excel-filer utan ansträngning.
+2.  Aspose.Cells Library: Ladda ner Aspose.Cells-biblioteket från[nedladdningssida](https://releases.aspose.com/cells/net/)Detta kraftfulla bibliotek låter dig manipulera och kryptera Excel-filer utan ansträngning.
 3. Visual Studio: En bra IDE kommer att göra saker enklare, så se till att du har Visual Studio (eller någon .NET-kompatibel IDE) inställd för ditt utvecklingsarbete.
 4. Grundläggande förståelse för C#: En kaka är lättare att baka om du vet hur man mäter ingredienser, eller hur? På samma sätt kommer lite kunskap om C# att hjälpa dig att förstå hur du kodar den här uppgiften effektivt.
 När du har bockat av dessa objekt är du redo att gå vidare!
@@ -53,7 +53,7 @@ Du har val när det kommer till kryptering i Aspose.Cells. I det här exemplet s
 ```csharp
 // Ange XOR-krypteringstyp.
 workbook.SetEncryptionOptions(EncryptionType.XOR, 40);
-// Ange Strong Encryption-typ (RC4, Microsoft Strong Cryptographic Provider).
+//Ange Strong Encryption-typ (RC4, Microsoft Strong Cryptographic Provider).
 workbook.SetEncryptionOptions(EncryptionType.StrongCryptographicProvider, 128);
 ```
 Tänk på dessa alternativ som vilken typ av lås du kan använda - vissa är kortare och lättare att välja (XOR), medan andra är mycket mer utmanande (stark kryptografisk leverantör).
@@ -68,7 +68,7 @@ Slutligen, låt oss spara ändringarna för att skapa din krypterade fil.
 ```csharp
 workbook.Save(dataDir + "encryptedBook1.out.xls");
 ```
- Denna kodrad sparar arbetsboken som`encryptedBook1.out.xls` din angivna katalog. Det är som att lägga boken på hyllan igen, säkert inlåst!
+ Denna kodrad sparar arbetsboken som`encryptedBook1.out.xls` i din angivna katalog. Det är som att lägga boken på hyllan igen, säkert inlåst!
 ## Slutsats
 Och där går du! Du har precis lärt dig hur man krypterar en Excel-fil med Aspose.Cells i .NET. Genom att följa dessa steg säkerställer du att dina känsliga uppgifter är väl skyddade. Kom bara ihåg – skyddet börjar med dig, så vidta alltid nödvändiga åtgärder för att skydda din information. 
 ## FAQ's

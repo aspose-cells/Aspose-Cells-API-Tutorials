@@ -99,7 +99,7 @@ chart.NSeries[0].Area.FillFormat.FillType = Aspose.Cells.Drawing.FillType.Solid;
  الآن بعد أن أصبحت سلسلتنا جاهزة، نحتاج إلى تعديل لونها. يتضمن هذا إنشاء`CellsColor` الكائن وتحديد لون السمة. سنختار نمطًا مميزًا لهذا المثال.
 
 ```csharp
-// احصل على لون الخلايا من SolidFill
+//احصل على لون الخلايا من SolidFill
 CellsColor cc = chart.NSeries[0].Area.FillFormat.SolidFill.CellsColor;
 
 // إنشاء موضوع بأسلوب Accent
@@ -158,7 +158,7 @@ Aspose.Cells هي مكتبة قوية لـ .NET تتيح للمطورين الت
 يدعم Aspose.Cells ألوان السمات المتنوعة بما في ذلك أنماط Accent وغيرها.
 
 ### هل من الممكن تطبيق السمات على مخططات متعددة؟
- بالتأكيد! يمكنك تكرار ذلك`worksheet.Charts` وتطبيق المواضيع حسب الحاجة.
+بالتأكيد! يمكنك تكرار ذلك`worksheet.Charts` وتطبيق المواضيع حسب الحاجة.
 
 ### أين يمكنني الحصول على الدعم لـ Aspose.Cells؟
  يمكنك الحصول على الدعم والتواصل مع مجتمع المستخدمين[هنا](https://forum.aspose.com/c/cells/9).

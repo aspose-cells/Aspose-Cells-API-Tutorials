@@ -1,6 +1,6 @@
 ---
-title: Excelové tvary a ovládací prvky
-linktitle: Excelové tvary a ovládací prvky
+title: Tvary a ovládací prvky Excelu
+linktitle: Tvary a ovládací prvky Excelu
 second_title: Aspose.Cells .NET Excel Processing API
 description: Prozkoumejte komplexní výukové programy Aspose.Cells for .NET o přidávání tvarů a ovládacích prvků aplikace Excel. Naučte se krok za krokem metody, jak vylepšit své excelové listy programově.
 type: docs
@@ -52,7 +52,7 @@ Bez ohledu na úroveň vašich dovedností Aspose.Cells pro .NET zpřístupňuje
 
  Pro vývojáře, kteří chtějí posunout věci ještě dále, můžete prozkoumat pokročilé možnosti, jako je spojování tvarů s body v[Získejte spojovací body tvaru](./get-connection-points-shape-excel/) výukový program nebo vytváření interaktivních panelů s ovládacími prvky jako[Ovládání oblouku](./add-arc-control-with-connection-points/). Tyto příručky jsou navrženy tak, aby vám pomohly a poskytly vám nástroje pro automatizaci, přizpůsobení a vylepšení vašich souborů Excel tak, aby splňovaly jakékoli požadavky.
 
-## Výukové programy tvarů a ovládacích prvků aplikace Excel
+## Výukové programy tvarů a ovládacích prvků Excelu
 ### [Přidejte Arrow Head do Shape v Excelu](./add-arrow-head-to-shape-excel/)
 Naučte se přidávat šipky do obrazců v Excelu pomocí Aspose.Cells for .NET. Vylepšete své tabulky pomocí tohoto podrobného průvodce.
 ### [Získejte spojovací body tvaru v aplikaci Excel](./get-connection-points-shape-excel/)
@@ -67,7 +67,7 @@ V tomto podrobném návodu se dozvíte, jak přidat přizpůsobitelná textová 
 Naučte se, jak manipulovat s textovými poli v Excelu pomocí Aspose.Cells for .NET s tímto jednoduchým, podrobným návodem.
 ### [Přidat Arc do listu v Excelu](./add-arc-to-worksheet-excel/)
 Naučte se přidávat oblouky do listů aplikace Excel pomocí Aspose.Cells pro .NET. Postupujte podle našeho podrobného průvodce pro vylepšení návrhů tabulek.
-### [Přidat Oval do listu v Excelu](./add-oval-to-worksheet-excel/)
+### [Přidejte Oval do listu v aplikaci Excel](./add-oval-to-worksheet-excel/)
 Naučte se, jak přidat ovál do listu aplikace Excel pomocí Aspose.Cells for .NET. Průvodce krok za krokem s podrobným vysvětlením kódů.
 ### [Přidat zaškrtávací políčko do listu v aplikaci Excel](./add-checkbox-to-worksheet-excel/)
 Zjistěte, jak snadno přidat zaškrtávací políčka do listů aplikace Excel pomocí Aspose.Cells for .NET pomocí našeho podrobného kurzu, doplněného ukázkami kódu a vysvětleními.

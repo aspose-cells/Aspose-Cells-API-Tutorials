@@ -11,7 +11,7 @@ url: /ja/net/saving-and-exporting-excel-files-with-options/specifying-document-v
 Aspose.Cells for .NET は、開発者が Excel ファイルをプログラムで簡単に操作できるようにする強力なライブラリです。Excel ファイルを最初から作成する場合でも、既存のファイルを変更する場合でも、Aspose.Cells は目的を達成するための包括的な API を提供します。そのような機能の 1 つは、バージョン、作成者、タイトルなどのドキュメント プロパティを指定することです。このチュートリアルでは、Aspose.Cells for .NET を使用して Excel ファイルのドキュメント バージョンをプログラムで指定する方法について説明します。
 ## 前提条件
 詳細に入る前に、このチュートリアルを実行するために必要なものがすべて揃っていることを確認しましょう。
-1.  Aspose.Cells for .NET: 最新バージョンをダウンロードできます[ここ](https://releases.aspose.com/cells/net/)ライセンスをまだ購入していない場合は、[一時ライセンス](https://purchase.aspose.com/temporary-license/)機能を探索します。
+1. Aspose.Cells for .NET: 最新バージョンをダウンロードできます[ここ](https://releases.aspose.com/cells/net/)ライセンスをまだ購入していない場合は、[一時ライセンス](https://purchase.aspose.com/temporary-license/)機能を探索します。
 2. .NET 開発環境: Visual Studio または任意の .NET 互換 IDE を使用できます。
 3. C# の基礎知識: C# プログラミングを理解しておくと、理解しやすくなります。
 ## パッケージのインポート
@@ -59,7 +59,7 @@ bdpc.DocumentVersion = "Aspose.Cells Version - 18.3";
 ```csharp
 wb.Save("outputSpecifyDocumentVersionOfExcelFile.xlsx", SaveFormat.Xlsx);
 ```
-の`Save`メソッドは、ファイルを指定したディレクトリに保存するために使用されます。ここでは、Excelファイルとして保存しています。`.xlsx`フォーマット。必要に応じて、Aspose.Cellsは次のようなフォーマットもサポートします。`.xls`, `.csv` 、 そして`.pdf`プロジェクトのニーズに応じて柔軟に対応します。
+の`Save`メソッドは、ファイルを指定したディレクトリに保存するために使用されます。ここでは、Excelファイルとして保存しています。`.xlsx`フォーマット。必要に応じて、Aspose.Cellsは次のようなフォーマットもサポートします。`.xls`, `.csv`、 そして`.pdf`プロジェクトのニーズに応じて柔軟に対応します。
 ## 結論
 このチュートリアルでは、Aspose.Cells for .NET を使用して、Excel ファイルでドキュメント プロパティ、特にドキュメント バージョンを指定する方法について説明しました。Aspose.Cells は、Excel ファイルをプログラムで操作できる非常に柔軟で強力なツールであり、スプレッドシートを扱う .NET 開発者にとって非常に役立ちます。
 ## よくある質問

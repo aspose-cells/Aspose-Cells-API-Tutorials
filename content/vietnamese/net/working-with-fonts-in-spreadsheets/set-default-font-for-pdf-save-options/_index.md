@@ -39,14 +39,14 @@ string outputDir = "Your Document Directory";
 ```
  Thay thế`"Your Document Directory"` với đường dẫn thực tế tới thư mục của bạn.
 ## Bước 2: Mở tệp Excel
-Bây giờ chúng ta đã thiết lập xong các thư mục, hãy mở tệp Excel mà bạn muốn làm việc.`Workbook` lớp trong Aspose.Cells được sử dụng để tải tài liệu Excel.
+ Bây giờ chúng ta đã thiết lập xong các thư mục, hãy mở tệp Excel mà bạn muốn làm việc.`Workbook` lớp trong Aspose.Cells được sử dụng để tải tài liệu Excel.
 ```csharp
 // Mở một tập tin Excel
 Workbook workbook = new Workbook(sourceDir + "sampleSetDefaultFontPropertyOfPdfSaveOptionsAndImageOrPrintOptions.xlsx");
 ```
 Hãy đảm bảo thay thế tên tệp bằng tên tệp thực tế của bạn.
 ## Bước 3: Thiết lập tùy chọn kết xuất hình ảnh
- Tiếp theo, chúng ta cần cấu hình các tùy chọn kết xuất để chuyển đổi bảng tính Excel của mình sang định dạng hình ảnh. Chúng ta sẽ tạo một phiên bản của`ImageOrPrintOptions`, chỉ định loại hình ảnh và phông chữ mặc định.
+Tiếp theo, chúng ta cần cấu hình các tùy chọn kết xuất để chuyển đổi bảng tính Excel của mình sang định dạng hình ảnh. Chúng ta sẽ tạo một phiên bản của`ImageOrPrintOptions`, chỉ định loại hình ảnh và phông chữ mặc định.
 ```csharp
 // Kết xuất sang định dạng tệp PNG
 ImageOrPrintOptions imgOpt = new ImageOrPrintOptions();
@@ -63,7 +63,7 @@ SheetRender sr = new SheetRender(workbook.Worksheets[0], imgOpt);
 sr.ToImage(0, outputDir + "out1_imagePNG.png");
 ```
 ## Bước 5: Thay đổi loại hình ảnh và kết xuất thành TIFF
-Nếu bạn muốn hiển thị cùng một trang tính sang một định dạng hình ảnh khác, như TIFF, bạn chỉ cần thay đổi`ImageType` thuộc tính và lặp lại quá trình kết xuất.
+ Nếu bạn muốn hiển thị cùng một trang tính sang một định dạng hình ảnh khác, như TIFF, bạn chỉ cần thay đổi`ImageType` thuộc tính và lặp lại quá trình kết xuất.
 ```csharp
 // Đặt thành định dạng TIFF
 imgOpt.ImageType = Drawing.ImageType.Tiff;
@@ -71,7 +71,7 @@ WorkbookRender wr = new WorkbookRender(workbook, imgOpt);
 wr.ToImage(outputDir + "out1_imageTIFF.tiff");
 ```
 ## Bước 6: Cấu hình tùy chọn lưu PDF
- Tiếp theo, chúng ta hãy thiết lập các tùy chọn lưu PDF. Chúng ta sẽ tạo một phiên bản của`PdfSaveOptions`, đặt phông chữ mặc định và chỉ định rằng chúng ta muốn kiểm tra các phông chữ bị thiếu.
+ Tiếp theo, chúng ta hãy thiết lập các tùy chọn lưu PDF. Chúng ta sẽ tạo một phiên bản của`PdfSaveOptions`đặt phông chữ mặc định và chỉ định rằng chúng ta muốn kiểm tra các phông chữ bị thiếu.
 ```csharp
 // Cấu hình tùy chọn lưu PDF
 PdfSaveOptions saveOptions = new PdfSaveOptions();

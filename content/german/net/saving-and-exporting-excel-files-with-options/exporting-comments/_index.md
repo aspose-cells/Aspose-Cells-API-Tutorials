@@ -51,7 +51,7 @@ opts.IsExportComments = true;
 ```
  Durch die Einstellung`IsExportComments` Zu`true`weisen wir Aspose.Cells an, alle Kommentare aus der Excel-Datei in die HTML-Ausgabe aufzunehmen. Dies ist eine einfache, aber leistungsstarke Option, die sicherstellt, dass bei der Konvertierung nichts Wichtiges verloren geht.
 ## Schritt 4: Speichern Sie die Excel-Datei als HTML
- Nachdem wir nun die Excel-Datei geladen und die Exportoptionen konfiguriert haben, besteht der letzte Schritt darin, die Datei als HTML-Dokument zu speichern. Aspose.Cells macht dies unglaublich einfach. Alles, was wir tun müssen, ist, den`Save` Methode auf unserer`Workbook` Objekt, wobei das gewünschte Ausgabeformat und die gewünschten Optionen übergeben werden.
+ Nachdem wir nun die Excel-Datei geladen und die Exportoptionen konfiguriert haben, besteht der letzte Schritt darin, die Datei als HTML-Dokument zu speichern. Aspose.Cells macht dies unglaublich einfach. Alles, was wir tun müssen, ist den`Save` Methode auf unserer`Workbook` Objekt, wobei das gewünschte Ausgabeformat und die gewünschten Optionen übergeben werden.
 Hier ist der Code:
 ```csharp
 // Definieren Sie das Ausgabeverzeichnis
@@ -59,7 +59,7 @@ string outputDir = "Your Document Directory";
 // Speichern Sie die Arbeitsmappe im HTML-Format mit exportierten Kommentaren.
 wb.Save(outputDir + "outputExportCommentsHTML.html", opts);
 ```
- In diesem Schritt speichern wir die Excel-Datei als HTML-Dokument und exportieren die Kommentare zusammen mit ihr. Ersetzen Sie einfach`"Your Document Directory"` durch das tatsächliche Verzeichnis, in dem die HTML-Datei gespeichert werden soll.
+ In diesem Schritt speichern wir die Excel-Datei als HTML-Dokument und exportieren die Kommentare zusammen mit ihr. Ersetzen Sie einfach`"Your Document Directory"`durch das tatsächliche Verzeichnis, in dem die HTML-Datei gespeichert werden soll.
 ## Schritt 5: Führen Sie Ihre Anwendung aus
 Nachdem nun alles eingerichtet ist, ist es an der Zeit, Ihre Anwendung auszuführen. Öffnen Sie Ihr Terminal (oder das Ausgabefenster von Visual Studio) und Sie sehen etwa Folgendes:
 ```plaintext
@@ -70,7 +70,7 @@ Diese Meldung bestätigt, dass die Datei erfolgreich in HTML konvertiert und all
 Und da haben Sie es! Sie haben gerade gelernt, wie Sie mit Aspose.Cells für .NET Kommentare aus einer Excel-Datei in HTML exportieren. Dieser Vorgang ist nicht nur unkompliziert, sondern stellt auch sicher, dass bei der Konvertierung in HTML keine Ihrer wichtigen Notizen oder Anmerkungen verloren gehen. Egal, ob Sie an der Erstellung dynamischer Berichte arbeiten oder einfach Excel-Dateien für die Verwendung im Web konvertieren, diese Funktion kann ein echter Lebensretter sein.
 ## Häufig gestellte Fragen
 ### Kann ich nur bestimmte Kommentare aus einer Excel-Datei nach HTML exportieren?  
- Nein, Aspose.Cells exportiert alle Kommentare, wenn`IsExportComments` ist auf „true“ gesetzt. Sie können jedoch anpassen, welche Kommentare eingeschlossen werden sollen, indem Sie Ihre Excel-Datei vor dem Export manuell ändern.
+Nein, Aspose.Cells exportiert alle Kommentare, wenn`IsExportComments` ist auf „true“ gesetzt. Sie können jedoch anpassen, welche Kommentare eingeschlossen werden sollen, indem Sie Ihre Excel-Datei vor dem Export manuell ändern.
 ### Hat das Exportieren von Kommentaren Auswirkungen auf das Layout der HTML-Datei?  
 Ganz und gar nicht! Aspose.Cells sorgt dafür, dass das Layout erhalten bleibt, während Kommentare als zusätzliche Elemente in die HTML-Datei eingefügt werden.
 ### Kann ich Kommentare in andere Formate wie PDF oder Word exportieren?  

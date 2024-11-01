@@ -9,7 +9,7 @@ url: /nl/net/excel-data-import-export/import-data-to-worksheet-in-excel-with-spe
 ---
 ## Invoering
 
-Als het aankomt op spreadsheetmanipulatie, kan het importeren van gegevens in Excel en het correct formatteren ervan een overweldigende taak lijken, vooral als u specifieke op cultuur gebaseerde formaten wilt gebruiken, zoals DB Num-patronen. Als u zich ooit vastgelopen hebt gevoeld door de technische aspecten van Excel-formattering, bent u hier aan het juiste adres! In deze gids gaan we dingen opsplitsen in eenvoudige stappen met behulp van Aspose.Cells voor .NET, waardoor uw gegevensimport niet alleen eenvoudig maar ook esthetisch aantrekkelijk wordt. Dus, houd u vast, want we duiken meteen in de wereld van .NET-programmering, -formattering en het eenvoudig exporteren van Excel-bestanden!
+Als het aankomt op spreadsheetmanipulatie, kan het importeren van gegevens in Excel en het correct formatteren ervan een overweldigende taak lijken, vooral als u specifieke op cultuur gebaseerde formaten wilt gebruiken, zoals DB Num-patronen. Als u zich ooit vastgelopen hebt gevoeld door de technische aspecten van Excel-formattering, bent u hier aan het juiste adres! In deze handleiding gaan we de zaken opsplitsen in eenvoudige stappen met behulp van Aspose.Cells voor .NET, waardoor uw gegevensimport niet alleen eenvoudig maar ook esthetisch aantrekkelijk wordt. Dus, houd u vast, want we duiken meteen in de wereld van .NET-programmering, -formattering en het eenvoudig exporteren van Excel-bestanden!
 
 ## Vereisten
 

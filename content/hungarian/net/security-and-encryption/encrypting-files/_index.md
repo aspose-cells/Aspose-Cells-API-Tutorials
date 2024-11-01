@@ -12,7 +12,7 @@ A mai digitális világban az adatbiztonság a legfontosabb. Legyen szó cégtul
 ## Előfeltételek
 Mielőtt belemerülnénk a kódba, győződjünk meg arról, hogy mindennel rendelkezünk, ami az induláshoz szükséges. Íme egy ellenőrző lista:
 1. .NET-keretrendszer: Győződjön meg arról, hogy telepítve van a .NET-keretrendszer kompatibilis verziója. Az Aspose.Cells jól működik a .NET-verziókkal, ezért válassza ki a projektjének megfelelőt.
-2.  Aspose.Cells Library: Töltse le az Aspose.Cells könyvtárat a[letöltési oldal](https://releases.aspose.com/cells/net/). Ezzel a hatékony könyvtárral könnyedén kezelheti és titkosíthatja az Excel fájlokat.
+2.  Aspose.Cells Library: Töltse le az Aspose.Cells könyvtárat a[letöltési oldal](https://releases.aspose.com/cells/net/)Ezzel a hatékony könyvtárral könnyedén kezelheti és titkosíthatja az Excel fájlokat.
 3. Visual Studio: Egy jó IDE megkönnyíti a dolgokat, ezért gondoskodjon a Visual Studio (vagy bármely .NET-kompatibilis IDE) beállításáról a fejlesztési munkához.
 4. A C# alapvető ismerete: A süteményt könnyebb sütni, ha tudod, hogyan kell mérni a hozzávalókat, igaz? Hasonlóképpen, egy kis C# ismerete segít megérteni, hogyan kell hatékonyan kódolni ezt a feladatot.
 Miután kipipálta ezeket a tételeket, készen áll a továbblépésre!
@@ -53,7 +53,7 @@ Választhat az Aspose.Cells titkosítása terén. Ebben a példában be kell ál
 ```csharp
 // Adja meg az XOR titkosítás típusát.
 workbook.SetEncryptionOptions(EncryptionType.XOR, 40);
-// Adja meg az Erős titkosítás típusát (RC4, Microsoft Strong Cryptographic Provider).
+//Adja meg az Erős titkosítás típusát (RC4, Microsoft Strong Cryptographic Provider).
 workbook.SetEncryptionOptions(EncryptionType.StrongCryptographicProvider, 128);
 ```
 Gondoljon ezekre a lehetőségekre, mint például a használt zárak típusára – egyesek rövidebbek és könnyebben kiválaszthatók (XOR), míg mások sokkal nagyobb kihívást jelentenek (Strong Cryptographic Provider).
@@ -68,7 +68,7 @@ Végül mentsük el a módosításokat a titkosított fájl létrehozásához.
 ```csharp
 workbook.Save(dataDir + "encryptedBook1.out.xls");
 ```
- Ez a kódsor másként menti a munkafüzetet`encryptedBook1.out.xls` megadott könyvtárban. Mintha visszatenné a könyvet a polcra, biztonságosan bezárva!
+ Ez a kódsor másként menti a munkafüzetet`encryptedBook1.out.xls` a megadott könyvtárban. Mintha visszatenné a könyvet a polcra, biztonságosan bezárva!
 ## Következtetés
 És tessék! Most tanulta meg, hogyan lehet Excel-fájlt titkosítani az Aspose.Cells segítségével a .NET-ben. Az alábbi lépések követésével biztosíthatja érzékeny adatainak megfelelő védelmét. Ne feledje: a védelem Önnel kezdődik, ezért mindig tegye meg a szükséges lépéseket adatai védelmében. 
 ## GYIK

@@ -17,7 +17,7 @@ Előfordult már, hogy csalódott volt az Excel alapértelmezett tengelybeállí
 
 ## Tengelycímkék olvasása diagramok kiszámítása után
 
- Most, hogy elsajátította az automatikus egységek kezelését, itt az ideje, hogy foglalkozzon egy másik fontos szemponttal: a tengelycímkék olvasásával. Alapvető fontosságú annak megértése, hogy a diagram mit próbál közvetíteni, és ez egyértelmű címkékkel kezdődik. Átfogó útmutatónkban a[Tengelycímkék olvasása diagram kiszámítása után](./read-axis-labels-after-calculating-chart/), megmutatjuk, hogyan lehet egyszerűen kivonni és kezelni a tengelycímkéket az Aspose.Cells for .NET használatával. Képzelje el ezt: összetett diagramot készített, de egyértelmű címkék nélkül akár egy gyönyörű festmény is lehet egy sötét szobában. Segítünk, hogy rávilágítson ezekre a címkékre, így adatai könnyebben hozzáférhetőek és könnyebben érthetők.
+ Most, hogy elsajátította az automata egységek kezelését, itt az ideje, hogy foglalkozzon egy másik fontos szemponttal: a tengelycímkék olvasásával. Alapvető fontosságú annak megértése, hogy a diagram mit próbál közvetíteni, és ez egyértelmű címkékkel kezdődik. Átfogó útmutatónkban a[Tengelycímkék olvasása diagram kiszámítása után](./read-axis-labels-after-calculating-chart/), megmutatjuk, hogyan lehet egyszerűen kivonni és kezelni a tengelycímkéket az Aspose.Cells for .NET használatával. Képzelje el ezt: összetett diagramot készített, de egyértelmű címkék nélkül akár egy gyönyörű festmény is lehet egy sötét szobában. Segítünk, hogy rávilágítson ezekre a címkékre, így adatai könnyebben hozzáférhetőek és könnyebben érthetők.
 
 ## A diagramtengelyek és egységek testreszabása – oktatóanyagok
 ### [Handle Automatic Units of Chart Axis like Microsoft Excel]

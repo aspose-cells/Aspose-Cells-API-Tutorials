@@ -19,7 +19,7 @@ url: /zh-hant/net/advanced-chart-operations/setting-chart-data/
 
 1. Visual Studio：您應該在電腦上安裝 Microsoft Visual Studio 來撰寫和執行 .NET 程式碼。
 2.  Aspose.Cells：確保下載並安裝 Aspose.Cells 庫。你可以找到最新版本[這裡](https://releases.aspose.com/cells/net/).
-3. C# 基本知識：熟悉 C# 和 .NET 框架將有助於理解我們將在本教程中使用的程式碼片段。
+3. C# 基礎知識：熟悉 C# 和 .NET 框架將有助於理解我們將在本教程中使用的程式碼片段。
 
 ## 導入包
 

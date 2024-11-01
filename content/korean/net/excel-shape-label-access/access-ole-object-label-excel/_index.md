@@ -118,8 +118,8 @@ OLE 개체는 Excel 스프레드시트 내에서 다른 Microsoft Office 응용 
 ### Aspose.Cells를 다른 파일 형식에서도 사용할 수 있나요?  
 네! Aspose.Cells는 XLS, XLSX, CSV 등 다양한 형식을 지원합니다.
 ### Aspose.Cells의 무료 평가판이 있나요?  
-네! 시도해 볼 수 있어요[여기](https://releases.aspose.com/).
+ 네! 시도해 볼 수 있어요[여기](https://releases.aspose.com/).
 ### 워크시트에서 여러 OLE 개체에 액세스할 수 있나요?  
- 물론입니다! 루프를 통해 이동할 수 있습니다.`ws.OleObjects` 워크시트에 포함된 모든 OLE 개체에 액세스합니다.
+물론입니다! 루프를 통해 이동할 수 있습니다.`ws.OleObjects` 워크시트에 포함된 모든 OLE 개체에 액세스합니다.
 ### Aspose.Cells 라이선스는 어떻게 구매하나요?  
  라이센스는 다음에서 직접 구매하실 수 있습니다.[여기](https://purchase.aspose.com/buy).

@@ -109,7 +109,7 @@ Dalam contoh ini, kami menjumlahkan nilai dalam sel A1 hingga A10 tetapi hanya m
 
 ## Penanganan Kesalahan dan Kasus Tepi
 
-Menangani kesalahan dan kasus khusus sangat penting saat bekerja dengan rumus Excel. Aspose.Cells menyediakan kemampuan penanganan kesalahan yang tangguh untuk memastikan perhitungan Anda akurat dan andal. Pastikan untuk menjelajahi fitur-fitur ini untuk menangani berbagai skenario secara efektif.
+Menangani kesalahan dan kasus khusus sangat penting saat bekerja dengan rumus Excel. Aspose.Cells menyediakan kemampuan penanganan kesalahan yang kuat untuk memastikan perhitungan Anda akurat dan andal. Pastikan untuk menjelajahi fitur-fitur ini untuk menangani berbagai skenario secara efektif.
 
 ## Memformat Hasil SUM
 

@@ -37,7 +37,7 @@ Aby zacząć, skonfigurujmy nasz projekt w Visual Studio i zaimportujmy niezbęd
 
 Otwórz Visual Studio i utwórz nowy projekt aplikacji konsoli. Wystarczy wykonać następujące proste kroki:
 - Kliknij „Utwórz nowy projekt”.
-- Z dostępnych opcji wybierz „Aplikacja konsolowa (.NET Framework)”.
+- dostępnych opcji wybierz „Aplikacja konsolowa (.NET Framework)”.
 - Nadaj swojemu projektowi nazwę, na przykład „CheckboxInChart”.
 
 ### Zainstaluj Aspose.Cells za pomocą NuGet
@@ -66,7 +66,7 @@ Zanim przejdziemy do ekscytującej części, musimy zdefiniować, gdzie chcemy z
 ```csharp
 string outputDir = "C:\\YourOutputDirectory\\"; // Przejdź do określonego katalogu
 ```
- Pamiętaj o wymianie`"C:\\YourOutputDirectory\\"` ze ścieżką, w której chcesz zapisać plik. Pomyśl o tym jak o ustawianiu swojego obszaru roboczego; musisz wiedzieć, gdzie umieszczasz swoje narzędzia (lub w tym przypadku plik Excel).
+ Pamiętaj o wymianie`"C:\\YourOutputDirectory\\"`ze ścieżką, w której chcesz zapisać plik. Pomyśl o tym jak o ustawianiu swojego obszaru roboczego; musisz wiedzieć, gdzie umieszczasz swoje narzędzia (lub w tym przypadku plik Excel).
 
 ## Krok 2: Tworzenie instancji obiektu skoroszytu
 
@@ -123,7 +123,7 @@ Ta linia zapisuje nowo utworzony plik Excela z polem wyboru w zdefiniowanym kata
 
 ## Wniosek
 
-I masz! Udało Ci się dodać pole wyboru do arkusza wykresu w pliku Excel przy użyciu Aspose.Cells dla .NET. Wykonując te kroki, możesz tworzyć interaktywne i dynamiczne arkusze Excela, które oferują świetną funkcjonalność, dzięki czemu Twoje wizualizacje danych będą jeszcze bardziej angażujące.
+masz! Udało Ci się dodać pole wyboru do arkusza wykresu w pliku Excel przy użyciu Aspose.Cells dla .NET. Wykonując te kroki, możesz tworzyć interaktywne i dynamiczne arkusze Excela, które oferują świetną funkcjonalność, dzięki czemu Twoje wizualizacje danych będą jeszcze bardziej angażujące.
 
 ## Najczęściej zadawane pytania
 

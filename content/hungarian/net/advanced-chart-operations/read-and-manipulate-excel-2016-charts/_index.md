@@ -105,7 +105,7 @@ Ez a lépés személyre szabja az egyes diagramokat, így az adatok megjelenít�
 
 ## 7. lépés: Mentse el a munkafüzetet
 
-Miután elvégezte a módosításokat, el kell mentenie a módosított munkafüzetet. Ez meglehetősen egyszerű az Aspose.Cells esetében.
+Miután elvégezte a módosításokat, el kell mentenie a módosított munkafüzetet. Ez teljesen egyértelmű az Aspose.Cells esetében.
 
 ```csharp
 // Mentse el a munkafüzetet

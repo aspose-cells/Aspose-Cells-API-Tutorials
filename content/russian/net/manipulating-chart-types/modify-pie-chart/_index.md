@@ -33,7 +33,7 @@ url: /ru/net/manipulating-chart-types/modify-pie-chart/
 1. Откройте Visual Studio.
 2. Выберите «Создать новый проект».
 3. Выберите консольное приложение C#.
-4.  Назовите свой проект (например,`ModifyPieChartDemo`).
+4.  Дайте название вашему проекту (например,`ModifyPieChartDemo`).
 5. Нажмите «Создать».
 
 ## Установить Aspose.Cells
@@ -100,7 +100,7 @@ Workbook workbook = new Workbook(sourceDir + "sampleModifyPieChart.xlsx");
 Worksheet sheet = workbook.Worksheets[1];
 ```
 
- Получив доступ к`Worksheets`собирая, мы можем добраться до нужного нам листа.
+ Получив доступ к`Worksheets` собирая, мы можем добраться до нужного нам листа.
 
 ## Шаг 4: Получите диаграмму
 

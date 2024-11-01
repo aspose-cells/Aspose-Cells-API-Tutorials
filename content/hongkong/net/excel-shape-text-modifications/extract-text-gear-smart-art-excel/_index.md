@@ -101,7 +101,7 @@ Console.WriteLine("ExtractTextFromGearTypeSmartArtShape executed successfully.")
 ```
 這樣，您的提取就完成了，您應該在控制台中看到文字輸出！
 ## 結論
-恭喜！您剛剛學習如何使用 Aspose.Cells for .NET 從 Excel 中的齒輪型 SmartArt 形狀中提取文字。這種方便的技術為依賴可視化資料表示的自動化報告或文件打開了大門。無論您是經驗豐富的開發人員還是新手，從 SmartArt 控制和提取資訊都可以簡化您的工作流程並提高您的效率。別忘了探索細節[Aspose.Cells 文檔](https://reference.aspose.com/cells/net/)以獲得更多功能。
+恭喜！您剛剛學習如何使用 Aspose.Cells for .NET 從 Excel 中的齒輪型 SmartArt 形狀中提取文字。這種方便的技術為依賴可視化資料表示的自動化報告或文件打開了大門。無論您是經驗豐富的開發人員還是新手，從 SmartArt 控制和提取資訊都可以簡化您的工作流程並提高效率。別忘了探索細節[Aspose.Cells 文檔](https://reference.aspose.com/cells/net/)以獲得更多功能。
 ## 常見問題解答
 ### 什麼是 Aspose.Cells？
 Aspose.Cells 是一個 .NET 函式庫，可讓開發人員輕鬆建立和操作 Excel 檔案。
@@ -110,6 +110,6 @@ Aspose.Cells 是一個 .NET 函式庫，可讓開發人員輕鬆建立和操作 
 ### 我需要購買 Aspose.Cells for .NET 嗎？
  Aspose.Cells 提供免費試用，但要長期使用，則需要購買。您可以找到購買選項[這裡](https://purchase.aspose.com/buy).
 ### 是否為 Aspose.Cells 用戶提供支援？
-絕對地！您可以在以下位置找到社區支援：[Aspose.Cells 論壇](https://forum.aspose.com/c/cells/9).
+絕對地！您可以在以下位置找到社區支持：[Aspose.Cells 論壇](https://forum.aspose.com/c/cells/9).
 ### 我可以使用此方法提取其他 SmartArt 類型嗎？
-是的，只需稍加修改，您就可以透過更改程式碼中的條件從各種 SmartArt 形狀中提取文字。
+是的，只需稍作修改，您就可以透過更改程式碼中的條件從各種 SmartArt 形狀中提取文字。

@@ -39,14 +39,14 @@ string outputDir = "Your Document Directory";
 ```
  Cserélje ki`"Your Document Directory"` a könyvtárak tényleges elérési útjával.
 ## 2. lépés: Nyissa meg az Excel fájlt
-Most, hogy beállítottuk a könyvtárainkat, nyissuk meg azt az Excel-fájlt, amellyel dolgozni szeretne. A`Workbook` osztály az Aspose.Cellsben az Excel dokumentum betöltésére szolgál.
+ Most, hogy beállítottuk a könyvtárainkat, nyissuk meg azt az Excel-fájlt, amellyel dolgozni szeretne. A`Workbook` osztály az Aspose.Cellsben az Excel dokumentum betöltésére szolgál.
 ```csharp
 // Nyisson meg egy Excel fájlt
 Workbook workbook = new Workbook(sourceDir + "sampleSetDefaultFontPropertyOfPdfSaveOptionsAndImageOrPrintOptions.xlsx");
 ```
 Ügyeljen arra, hogy a fájlnevet a tényleges fájlnévre cserélje.
 ## 3. lépés: Állítsa be a képmegjelenítési beállításokat
- Ezután konfigurálnunk kell az Excel-lap képformátumra konvertálásához szükséges renderelési beállításokat. Létrehozunk egy példányt`ImageOrPrintOptions`, amely megadja a kép típusát és az alapértelmezett betűtípust.
+Ezután konfigurálnunk kell az Excel-lap képformátumra konvertálásához szükséges renderelési beállításokat. Létrehozunk egy példányt`ImageOrPrintOptions`, amely megadja a kép típusát és az alapértelmezett betűtípust.
 ```csharp
 // Renderelés PNG fájlformátumba
 ImageOrPrintOptions imgOpt = new ImageOrPrintOptions();
@@ -56,14 +56,14 @@ imgOpt.DefaultFont = "Times New Roman";
 ```
  Ebben a kódrészletben beállítjuk a`CheckWorkbookDefaultFont` tulajdonát`false`, ami azt jelenti, hogy ha valamelyik betűtípus hiányzik, a rendszer a megadott alapértelmezett betűtípust („Times New Roman”) használja helyette.
 ## 4. lépés: Rendelje meg a lapot képként
- Most jelenítsük meg a munkafüzet első lapját PNG-képként. Használjuk a`SheetRender` osztályban ennek megvalósításához.
+ Most jelenítsük meg a munkafüzet első lapját PNG-képként. Használjuk a`SheetRender` osztályt ennek megvalósítására.
 ```csharp
 // Az első munkalapot rendereli képpé
 SheetRender sr = new SheetRender(workbook.Worksheets[0], imgOpt);
 sr.ToImage(0, outputDir + "out1_imagePNG.png");
 ```
 ## 5. lépés: Változtassa meg a képtípust és a renderelést TIFF-re
-Ha ugyanazt a lapot egy másik képformátumra, például TIFF-re szeretné renderelni, egyszerűen módosíthatja a`ImageType` tulajdonságot, és ismételje meg a renderelési folyamatot.
+ Ha ugyanazt a lapot egy másik képformátumra, például TIFF-re szeretné renderelni, egyszerűen módosíthatja a`ImageType` tulajdonságot, és ismételje meg a renderelési folyamatot.
 ```csharp
 // Állítsa TIFF formátumra
 imgOpt.ImageType = Drawing.ImageType.Tiff;
@@ -71,7 +71,7 @@ WorkbookRender wr = new WorkbookRender(workbook, imgOpt);
 wr.ToImage(outputDir + "out1_imageTIFF.tiff");
 ```
 ## 6. lépés: Konfigurálja a PDF mentési beállításokat
- Következő lépésként állítsuk be a PDF mentési beállításokat. Létrehozunk egy példányt`PdfSaveOptions`, állítsa be az alapértelmezett betűtípust, és adja meg, hogy ellenőrizni akarjuk a hiányzó betűtípusokat.
+ Következő lépésként állítsuk be a PDF mentési beállításokat. Létrehozunk egy példányt`PdfSaveOptions`állítsa be az alapértelmezett betűtípust, és adja meg, hogy ellenőrizni akarjuk a hiányzó betűtípusokat.
 ```csharp
 // Konfigurálja a PDF mentési beállításokat
 PdfSaveOptions saveOptions = new PdfSaveOptions();

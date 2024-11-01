@@ -121,7 +121,7 @@ wbk.Save(outputDir + "outputUnMergingtheMergedCells.xlsx");
 Console.WriteLine("UnMerging the Cells executed successfully.");
 ```
 
-現在你就得到它了！您已使用 Aspose.Cells for .NET 成功取消合併 Excel 檔案中的儲存格。
+現在你就擁有了！您已使用 Aspose.Cells for .NET 成功取消合併 Excel 檔案中的儲存格。
 
 ## 結論
 

@@ -9,7 +9,7 @@ url: /cs/net/excel-themes-and-formatting/getting-and-setting-theme-colors/
 ---
 ## Zavedení
 Přizpůsobení vzhledu excelového sešitu může znamenat velký rozdíl při prezentaci dat. Jedním z důležitých aspektů přizpůsobení je ovládání barev motivu v souborech aplikace Excel. Pokud pracujete s .NET, Aspose.Cells je neuvěřitelně výkonné API, které vám umožňuje bez námahy programově manipulovat se soubory Excelu, a v tomto tutoriálu se ponoříme do získávání a nastavení barev motivu v Excelu pomocí Aspose.Cells pro . SÍŤ.
-Zní to složitě? Neboj se, mám tě v bezpečí! Rozebereme to krok za krokem, takže na konci tohoto průvodce budete moci tyto barvy snadno vyladit. Začněme!
+Zní to složitě? Neboj se, mám tě v pořádku! Rozebereme to krok za krokem, takže na konci tohoto průvodce budete moci tyto barvy snadno vyladit. Začněme!
 ## Předpoklady
 Než se ponoříme do kódu, pojďme se podívat na to, co budete potřebovat, aby vše fungovalo hladce:
 1. Aspose.Cells for .NET – Ujistěte se, že máte nainstalovanou nejnovější verzi. Pokud ho ještě nemáte, můžete[stáhněte si jej zde](https://releases.aspose.com/cells/net/).

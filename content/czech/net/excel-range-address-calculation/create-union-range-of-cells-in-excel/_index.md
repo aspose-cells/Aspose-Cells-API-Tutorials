@@ -59,7 +59,7 @@ Po vší té těžké práci je klíčové sešit uložit, aby se vaše změny n
 // Uložte výstupní sešit
 workbook.Save(outputDir + "CreateUnionRange_out.xlsx");
 ```
- Tento řádek uloží sešit do zadaného adresáře. Ujistěte se, že vyměňujete`outputDir` s cestou k adresáři s dokumenty. 
+ Tento řádek uloží sešit do zadaného adresáře. Ujistěte se, že vyměňujete`outputDir` s cestou k vašemu adresáři dokumentů. 
 ## Krok 5: Potvrďte provedení
 Nakonec přidejte příkaz k tisku, abyste potvrdili, že váš kód byl úspěšně spuštěn. Je to jako poslední dotek na vašem mistrovském díle, který vám dá hřejivé fuzzie s vědomím, že se vše povedlo!
 ```csharp

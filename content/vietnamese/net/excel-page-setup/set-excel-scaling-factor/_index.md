@@ -69,7 +69,7 @@ Bây giờ, đã đến lúc tạo một sổ làm việc mới. Về cơ bản,
 Workbook workbook = new Workbook();
 ```
 
- Ở đây, chúng tôi tuyên bố một cái mới`Workbook`đối tượng đại diện cho một tệp Excel và cho phép chúng ta thao tác nội dung của tệp đó.
+ Ở đây, chúng tôi tuyên bố một cái mới`Workbook` đối tượng đại diện cho một tệp Excel và cho phép chúng ta thao tác nội dung của tệp đó.
 
 ## Bước 3: Truy cập vào trang tính đầu tiên
 

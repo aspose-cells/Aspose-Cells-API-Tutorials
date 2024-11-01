@@ -19,7 +19,7 @@ Sebelum menyelami kode, pastikan Anda telah menyiapkan hal berikut:
 2. Lingkungan Pengembangan .NET: Pastikan proyek Anda diatur untuk menggunakan .NET Framework atau .NET Core.
 3. Pengetahuan Dasar C#: Anda harus nyaman dengan pemrograman C#, khususnya pemrograman berorientasi objek (OOP).
 
-Untuk pengguna tingkat lanjut, lisensi sementara dapat diterapkan untuk membuka semua fitur Aspose.Cells. Anda dapat meminta satu dari[Di Sini](https://purchase.aspose.com/temporary-license/).
+ Untuk pengguna tingkat lanjut, lisensi sementara dapat diterapkan untuk membuka semua fitur Aspose.Cells. Anda dapat meminta satu dari[Di Sini](https://purchase.aspose.com/temporary-license/).
 
 ## Paket Impor
 
@@ -100,7 +100,7 @@ int chartIndex = chartSheet.Charts.Add(Aspose.Cells.Charts.ChartType.Pie, 5, 0, 
 Aspose.Cells.Charts.Chart chart = chartSheet.Charts[chartIndex];
 ```
 
- Metode`Add()` menerima parameter untuk jenis grafik (dalam kasus ini,`ChartType.Pie`), dan lokasinya pada lembar kerja. Angka-angka tersebut mewakili posisi baris dan kolom.
+ Metode`Add()`menerima parameter untuk jenis grafik (dalam kasus ini,`ChartType.Pie`), dan lokasinya pada lembar kerja. Angka-angka tersebut mewakili posisi baris dan kolom.
 
 ## Langkah 5: Sesuaikan Tampilan Bagan
 
@@ -187,7 +187,7 @@ Membuat diagram lingkaran dengan Aspose.Cells untuk .NET adalah proses yang muda
 Ya! Aspose.Cells mendukung berbagai jenis bagan, termasuk bagan batang, bagan garis, dan diagram sebar.
 
 ### Apakah saya memerlukan lisensi berbayar untuk menggunakan Aspose.Cells untuk .NET?
- Anda dapat menggunakan versi gratis dengan beberapa batasan. Untuk fitur lengkap, Anda memerlukan lisensi, yang dapat Anda beli[Di Sini](https://purchase.aspose.com/buy).
+Anda dapat menggunakan versi gratis dengan beberapa batasan. Untuk fitur lengkap, Anda memerlukan lisensi, yang dapat Anda beli[Di Sini](https://purchase.aspose.com/buy).
 
 ### Bisakah saya mengekspor bagan ke format seperti PDF atau gambar?
 Tentu saja! Aspose.Cells memungkinkan Anda mengekspor grafik ke berbagai format, termasuk PDF dan PNG.

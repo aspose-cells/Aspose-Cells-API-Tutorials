@@ -68,7 +68,7 @@ style.Borders[BorderType.BottomBorder].Color = Color.Red;
 style.Borders[BorderType.BottomBorder].LineStyle = CellBorderType.Medium;
 ```
 Les bordures peuvent aider à séparer visuellement le contenu, rendant vos données plus faciles à lire et plus esthétiques.
-## Étape 5 : Créer un objet StyleFlag
+## Étape 5 : créer un objet StyleFlag
  Le`StyleFlag`L'objet indique à Aspose.Cells quels aspects du style appliquer. Cela vous donne un contrôle précis sur ce qui est appliqué et garantit que seule la mise en forme prévue est définie.
 ```csharp
 // Création de StyleFlag

@@ -64,7 +64,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Workbook workbook = new Workbook(dataDir + "PageBreaks.xls");
 ```
 
-स्पष्टीकरण: यह पंक्ति एक नया उदाहरण बनाती है`Workbook` , जो आपकी निर्दिष्ट एक्सेल फ़ाइल को लोड करता है (इस उदाहरण में, इसका नाम है`PageBreaks.xls`). 
+ स्पष्टीकरण: यह पंक्ति एक नया उदाहरण बनाती है`Workbook` , जो आपकी निर्दिष्ट एक्सेल फ़ाइल को लोड करता है (इस उदाहरण में, इसका नाम है`PageBreaks.xls`). 
 
 ## चरण 3: क्षैतिज पृष्ठ विराम हटाएँ
 
@@ -117,4 +117,4 @@ workbook.Save(dataDir + "RemoveSpecificPageBreak_out.xls");
  बिलकुल! बस इंडेक्स नंबर बदल दें`workbook.Worksheets[index]` वांछित कार्यपत्रक को लक्षित करने के लिए.
 
 ### क्या Aspose.Cells एक निःशुल्क उपकरण है?  
- Aspose.Cells निःशुल्क परीक्षण प्रदान करता है, लेकिन पूर्ण कार्यक्षमता के लिए, आपको लाइसेंस खरीदना होगा। आप इसे देख सकते हैं[यहाँ](https://purchase.aspose.com/buy).
+Aspose.Cells निःशुल्क परीक्षण प्रदान करता है, लेकिन पूर्ण कार्यक्षमता के लिए, आपको लाइसेंस खरीदना होगा। आप इसे देख सकते हैं[यहाँ](https://purchase.aspose.com/buy).

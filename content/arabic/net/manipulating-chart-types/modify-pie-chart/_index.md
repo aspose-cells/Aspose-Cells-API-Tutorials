@@ -100,7 +100,7 @@ Workbook workbook = new Workbook(sourceDir + "sampleModifyPieChart.xlsx");
 Worksheet sheet = workbook.Worksheets[1];
 ```
 
- من خلال الوصول إلى`Worksheets`من خلال المجموعة، يمكننا الوصول إلى الورقة المحددة التي نحتاجها.
+ من خلال الوصول إلى`Worksheets` من خلال المجموعة، يمكننا الوصول إلى الورقة المحددة التي نحتاجها.
 
 ## الخطوة 4: الحصول على الرسم البياني
 

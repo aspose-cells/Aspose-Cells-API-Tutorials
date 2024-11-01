@@ -13,7 +13,7 @@ Jika berbicara tentang bekerja dengan file Excel di aplikasi .NET Anda, Aspose.C
 Sebelum kita masuk ke inti pembahasan, ada beberapa hal yang perlu Anda persiapkan. Anggap ini sebagai daftar periksa Anda untuk memastikan pengalaman yang lancar saat kita mengikuti tutorial ini.
 1. Visual Studio: Pastikan Anda telah menginstal Visual Studio di komputer Anda. Jangan khawatir, Anda bahkan dapat menggunakan edisi Community; edisi ini gratis dan berfungsi dengan baik.
 2. .NET Framework: Versi .NET yang Anda gunakan harus kompatibel dengan Aspose.Cells. Secara umum, versi .NET Framework 4.0 atau yang lebih baru sudah cukup.
-3.  Pustaka Aspose.Cells: Unduh dan instal pustaka Aspose.Cells untuk .NET. Anda dapat menemukannya[Di Sini](https://releases.aspose.com/cells/net/). 
+3. Pustaka Aspose.Cells: Unduh dan instal pustaka Aspose.Cells untuk .NET. Anda dapat menemukannya[Di Sini](https://releases.aspose.com/cells/net/). 
 4. Pengetahuan Dasar C#: Sedikit pengetahuan tentang pemrograman C# akan berguna, tetapi Anda tidak perlu menjadi ahli dalam coding. Percayalah, jika Anda dapat mengikuti resep, Anda dapat mengikuti panduan ini!
 5.  File Excel: Anda memerlukan file Excel awal, dalam kasus kami, bernama`Book1.xlsx`Jangan ragu untuk membuat yang sederhana jika Anda belum memilikinya.
 Sekarang semuanya sudah siap, mari impor paket yang diperlukan!
@@ -50,7 +50,7 @@ Sekarang, mari kita muat buku kerja sehingga kita siap untuk bermain dengan isin
 ```csharp
 Workbook workbook = new Workbook(filePath);
 ```
-Apa yang terjadi di sini? Kami sedang membuat contoh baru dari`Workbook` class dan meneruskan jalur file Excel yang sudah ada. Ini seperti membuka buku resep untuk menemukan hidangan favorit Anda!
+ Apa yang terjadi di sini? Kami sedang membuat contoh baru dari`Workbook`class dan meneruskan jalur file Excel yang sudah ada. Ini seperti membuka buku resep untuk menemukan hidangan favorit Anda!
 ## Langkah 4: Buat FileStream untuk Menyimpan Buku Kerja
  Selanjutnya, kita perlu membuat`FileStream` objek yang mengatur tempat kita menyimpan buku kerja yang baru dimodifikasi. Kodenya seperti ini:
 ```csharp

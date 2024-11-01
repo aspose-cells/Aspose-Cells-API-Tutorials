@@ -64,7 +64,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Workbook workbook = new Workbook(dataDir + "PageBreaks.xls");
 ```
 
-설명: 이 줄은 새 인스턴스를 생성합니다.`Workbook` , 지정된 Excel 파일을 로드합니다(이 예에서는 이름이 다음과 같습니다.`PageBreaks.xls`). 
+ 설명: 이 줄은 새 인스턴스를 생성합니다.`Workbook` , 지정된 Excel 파일을 로드합니다(이 예에서는 이름이 다음과 같습니다.`PageBreaks.xls`). 
 
 ## 3단계: 가로 페이지 나누기 제거
 
@@ -117,4 +117,4 @@ workbook.Save(dataDir + "RemoveSpecificPageBreak_out.xls");
  물론입니다! 인덱스 번호만 변경하면 됩니다.`workbook.Worksheets[index]` 원하는 워크시트를 타겟팅합니다.
 
 ### Aspose.Cells는 무료 도구인가요?  
- Aspose.Cells는 무료 체험판을 제공하지만, 모든 기능을 사용하려면 라이선스를 구매해야 합니다. 확인해 보세요[여기](https://purchase.aspose.com/buy).
+Aspose.Cells는 무료 체험판을 제공하지만, 모든 기능을 사용하려면 라이선스를 구매해야 합니다. 확인해 보세요[여기](https://purchase.aspose.com/buy).

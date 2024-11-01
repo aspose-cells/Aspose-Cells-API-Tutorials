@@ -76,11 +76,11 @@ worksheet.Cells["B2"].PutValue(32);
 worksheet.Cells["B3"].PutValue(50);
 ```
 
- Här anger vi några slumpmässiga värden i celler`A1` till`B3`. Dessa data kommer att fungera som datakällan för vårt diagram. Det är viktigt att ha meningsfull data att visualisera; annars skulle diagrammet bara vara vackra linjer utan sammanhang!
+ Här anger vi några slumpmässiga värden i celler`A1` till`B3`. Dessa data kommer att fungera som datakälla för vårt diagram. Det är viktigt att ha meningsfull data att visualisera; annars skulle diagrammet bara vara vackra linjer utan sammanhang!
 
 ## Steg 5: Lägg till ett diagram i arbetsbladet
 
-Nu är det dags att lägga till ett diagram i vårt arbetsblad. Vi kommer att skapa ett kolumndiagram med följande kod:
+Nu är det dags att lägga till ett diagram i vårt arbetsblad. Vi skapar ett kolumndiagram med följande kod:
 
 ```csharp
 int chartIndex = worksheet.Charts.Add(Aspose.Cells.Charts.ChartType.Column, 5, 0, 25, 10);

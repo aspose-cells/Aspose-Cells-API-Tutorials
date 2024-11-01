@@ -117,4 +117,4 @@ Aspose.Cells for Java vám umožňuje efektivně automatizovat úkoly aplikace E
 
 ---
 
-Tento podrobný průvodce s příklady zdrojového kódu by vám měl poskytnout pevný základ pro automatizaci Excelu v Javě pomocí Aspose.Cells. Hodně štěstí při kódování a automatizaci úloh v Excelu!
+Tento podrobný průvodce s příklady zdrojového kódu by vám měl poskytnout pevný základ pro automatizaci Excelu v Javě pomocí Aspose.Cells. Hodně štěstí při programování a automatizaci úloh v Excelu!

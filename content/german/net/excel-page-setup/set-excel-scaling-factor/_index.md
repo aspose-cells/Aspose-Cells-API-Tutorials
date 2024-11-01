@@ -69,7 +69,7 @@ Jetzt ist es an der Zeit, eine neue Arbeitsmappe zu erstellen. Hier werden im We
 Workbook workbook = new Workbook();
 ```
 
- Hier erklären wir eine neue`Workbook`Objekt, das eine Excel-Datei darstellt und es uns ermöglicht, deren Inhalt zu bearbeiten.
+ Hier erklären wir eine neue`Workbook` Objekt, das eine Excel-Datei darstellt und es uns ermöglicht, deren Inhalt zu bearbeiten.
 
 ## Schritt 3: Zugriff auf das erste Arbeitsblatt
 

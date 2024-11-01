@@ -12,7 +12,7 @@ Czy kiedykolwiek musiałeś przekonwertować skoroszyt programu Excel na HTML i 
 Po przeczytaniu tego artykułu będziesz dokładnie wiedział, jak korzystać z tej funkcji i jak zadbać o to, aby Twój kod HTML był czysty i pozbawiony komentarzy.
 ## Wymagania wstępne
 Zanim przejdziemy do szczegółowego przewodnika, omówmy kilka rzeczy, które będą Ci potrzebne, aby wszystko poszło gładko:
-1.  Aspose.Cells dla .NET: Musisz mieć zainstalowaną bibliotekę Aspose.Cells. Jeśli jeszcze jej nie zainstalowałeś, możesz ją pobrać[Tutaj](https://releases.aspose.com/cells/net/).
+1. Aspose.Cells dla .NET: Musisz mieć zainstalowaną bibliotekę Aspose.Cells. Jeśli jeszcze jej nie zainstalowałeś, możesz ją pobrać[Tutaj](https://releases.aspose.com/cells/net/).
 2. IDE: Środowisko programistyczne, takie jak Visual Studio, służące do pisania i wykonywania kodu C#.
 3. Podstawowa znajomość języka C#: Znajomość składni języka C# i programowania obiektowego pomoże Ci śledzić kod.
 4.  Wersja tymczasowa lub licencjonowana: Możesz skorzystać z bezpłatnej wersji próbnej lub złożyć wniosek o tymczasową licencję[Tutaj](https://purchase.aspose.com/temporary-license/). Dzięki temu biblioteka działa bez żadnych ograniczeń.
@@ -57,7 +57,7 @@ Po skonfigurowaniu obiektu HtmlSaveOptions następnym krokiem jest zapisanie sko
 // Zapisz skoroszyt jako plik HTML z określonymi opcjami zapisu
 wb.Save(outputDir + "outputDisableDownlevelRevealedComments_true.html", opts);
 ```
-tym wierszu kodu zapisujemy skoroszyt do katalogu wyjściowego określonego wcześniej i stosujemy ustawienie DisableDownlevelRevealedComments. Rezultatem będzie czysty plik HTML bez niechcianych komentarzy.
+W tym wierszu kodu zapisujemy skoroszyt do katalogu wyjściowego określonego wcześniej i stosujemy ustawienie DisableDownlevelRevealedComments. Rezultatem będzie czysty plik HTML bez niechcianych komentarzy.
 ## Krok 5: Zweryfikuj i wykonaj
 Na koniec, aby upewnić się, że wszystko zadziałało zgodnie z oczekiwaniami, możesz wyświetlić komunikat o powodzeniu na konsoli.
 ```csharp

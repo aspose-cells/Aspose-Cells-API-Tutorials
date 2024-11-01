@@ -36,7 +36,7 @@ PivotTable pivotTable = pivotTables.get(index);
 Laten we nu naar het aanpassingsgedeelte gaan. U kunt verschillende aspecten van de stijl van de draaitabel wijzigen, waaronder lettertypen, kleuren en opmaak. Hier is een voorbeeld van het wijzigen van het lettertype en de achtergrondkleur van de draaitabelkop:
 
 ```java
-// Stijl van draaitabelkop aanpassen
+// Pas de stijl van de draaitabelkop aan
 Style pivotTableHeaderStyle = pivotTable.getTableStyleOption().getFirstRowStyle();
 pivotTableHeaderStyle.getFont().setBold(true);
 pivotTableHeaderStyle.getFont().setColor(Color.getBlue());

@@ -144,7 +144,7 @@ Ano, Aspose.Cells vyžaduje licenci pro použití v produkčním prostředí. Pr
 ### Mohu pomocí Aspose.Cells vytvářet grafy od začátku?
 Absolutně! Aspose.Cells poskytuje robustní funkce pro vytváření a přizpůsobení grafů od začátku.
 
-### Kde najdu další dokumentaci k Aspose.Cells?
+### Kde najdu další dokumentaci na Aspose.Cells?
  Můžete přistupovat k[Dokumentace Aspose.Cells](https://reference.aspose.com/cells/net/) pro podrobné návody a reference API.
 
 ### Jaké formáty jsou podporovány při ukládání souborů aplikace Excel?

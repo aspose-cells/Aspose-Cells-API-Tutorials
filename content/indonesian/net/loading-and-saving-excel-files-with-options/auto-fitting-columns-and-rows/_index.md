@@ -12,7 +12,7 @@ Pernahkah Anda bertanya-tanya bagaimana cara menyesuaikan ukuran kolom dan baris
 ### Prasyarat
 Sebelum mulai membuat kode, ada beberapa hal yang perlu Anda siapkan di sistem Anda. Jangan khawatir, ini mudah dan sederhana!
 1. Visual Studio Terpasang: Anda memerlukan Visual Studio atau lingkungan pengembangan .NET lainnya.
-2.  Aspose.Cells untuk .NET: Anda dapat[unduh versi terbaru](https://releases.aspose.com/cells/net/)atau gunakan manajer paket NuGet untuk menginstalnya.
+2.  Aspose.Cells untuk .NET: Anda dapat[unduh versi terbaru](https://releases.aspose.com/cells/net/) atau gunakan manajer paket NuGet untuk menginstalnya.
 3. .NET Framework: Pastikan Anda telah menginstal .NET Framework 4.0 atau yang lebih tinggi.
 4. Pemahaman Dasar tentang C#: Memiliki sedikit pengetahuan tentang C# akan membuat tutorial ini lebih lancar bagi Anda.
 5. Data Tabel HTML: Siapkan beberapa konten HTML (bahkan tabel dasar) yang ingin Anda muat ke Excel.
@@ -44,9 +44,9 @@ Kami mendefinisikan string HTML yang sangat mendasar di sini. String ini berisi 
 ```csharp
 MemoryStream ms = new MemoryStream(Encoding.UTF8.GetBytes(sampleHtml));
 ```
- Dengan mengubah string HTML menjadi array byte dan memasukkannya ke dalam`MemoryStream`kita dapat mengolah data HTML dalam memori. Bayangkan langkah ini seperti menyiapkan hidangan dalam panci sebelum memasukkannya ke dalam oven!
+ Dengan mengubah string HTML menjadi array byte dan memasukkannya ke dalam`MemoryStream`, kita dapat mengolah data HTML dalam memori. Bayangkan langkah ini seperti menyiapkan hidangan dalam panci sebelum memasukkannya ke dalam oven!
 ## Langkah 4: Muat MemoryStream ke dalam Buku Kerja (Tanpa Penyesuaian Otomatis)
- Setelah kita memiliki konten HTML di memori, kita memuatnya ke Aspose`Workbook`. Pada titik ini, kami belum melakukan penyesuaian otomatis pada kolom dan baris. Ini adalah skenario "sebelum" kami, untuk dibandingkan dengan versi penyesuaian otomatis nanti.
+ Setelah kita memiliki konten HTML di memori, kita memuatnya ke Aspose`Workbook`Pada titik ini, kami belum melakukan penyesuaian otomatis pada kolom dan baris. Ini adalah skenario "sebelum" kami, untuk dibandingkan dengan versi penyesuaian otomatis nanti.
 ```csharp
 Workbook wb = new Workbook(ms);
 wb.Save(dataDir + "outputWithout_AutoFitColsAndRows.xlsx");
@@ -60,7 +60,7 @@ opts.AutoFitColsAndRows = true;
 ```
 Dengan menyetel opsi ini, kita memberi tahu Aspose.Cells untuk mengubah ukuran baris dan kolom secara otomatis. Bayangkan ini seperti menyetel oven ke suhu yang sempurna sehingga kue mengembang dengan sempurna!
 ## Langkah 6: Muat HTML ke Buku Kerja dengan Penyesuaian Otomatis Diaktifkan
- Sekarang kita memuat konten HTML lagi, tapi kali ini dengan`AutoFitColsAndRows` opsi diaktifkan. Ini akan menyesuaikan lebar kolom dan tinggi baris berdasarkan konten di dalamnya.
+ Sekarang kita memuat konten HTML lagi, tapi kali ini dengan`AutoFitColsAndRows`opsi diaktifkan. Ini akan menyesuaikan lebar kolom dan tinggi baris berdasarkan konten di dalamnya.
 ```csharp
 wb = new Workbook(ms, opts);
 wb.Save(dataDir + "outputWith_AutoFitColsAndRows.xlsx");

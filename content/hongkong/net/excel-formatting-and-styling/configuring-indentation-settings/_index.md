@@ -64,7 +64,7 @@ Aspose.Cells.Cell cell = worksheet.Cells["A1"];
 cell.PutValue("Visit Aspose!");
 ```
 在這裡，我們只是輸入文字“訪問 Aspose！”進入儲存格 A1。您可以將其修改為您想要的任何內容。
-## 第 8 步：取得儲存格樣式
+## 步驟8：取得單元格樣式
 要套用縮排，我們首先需要取得單元格的目前樣式。這將使我們能夠在不丟失現有格式的情況下調整屬性。
 ```csharp
 Style style = cell.GetStyle();
@@ -76,7 +76,7 @@ Style style = cell.GetStyle();
 style.IndentLevel = 2;
 ```
 在這裡，我們將縮排等級設為 2，這表示儲存格中的文字將從左邊界偏移，使其突出。
-## 第10步：將樣式套用回儲存格
+## 步驟10：將樣式套用回儲存格
 配置樣式後，我們需要將其套用回儲存格以查看變更。
 ```csharp
 cell.SetStyle(style);
@@ -89,7 +89,7 @@ workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
 ```
 這就是一切都聚集在一起的地方！工作簿已儲存，您現在可以在 Excel 中查看它。
 ## 結論
-現在你就得到它了！您已了解如何使用 Aspose.Cells for .NET 在 Excel 中設定縮排設定。透過執行這些簡單的步驟，您可以顯著增強電子表格的視覺清晰度，使您的資料不僅實用，而且美觀。無論您是希望簡化報告流程的開發人員還是對電子表格充滿熱情的愛好者，掌握這些技術都可以讓您的 Excel 體驗變得輕而易舉！
+現在你就擁有了！您已了解如何使用 Aspose.Cells for .NET 在 Excel 中設定縮排設定。透過執行這些簡單的步驟，您可以顯著增強電子表格的視覺清晰度，使您的資料不僅實用，而且美觀。無論您是希望簡化報告流程的開發人員還是對電子表格充滿熱情的愛好者，掌握這些技術都可以讓您的 Excel 體驗變得輕而易舉！
 ## 常見問題解答
 ### 什麼是 Aspose.Cells？
 Aspose.Cells 是一個 .NET 函式庫，用於以程式設計方式建立、修改和轉換 Excel 文件，而無需安裝 Microsoft Excel。
@@ -97,7 +97,7 @@ Aspose.Cells 是一個 .NET 函式庫，用於以程式設計方式建立、修�
 是的，Aspose.Cells 支援 .NET Core，讓您在 Linux 環境中使用它。
 ### 如何獲得免費試用版？
 您可以從以下位置下載免費試用版[阿斯普斯網站](https://releases.aspose.com/).
-### Aspose.Cells 是否與所有版本的 Excel 相容？
+### Aspose.Cells 與所有版本的 Excel 相容嗎？
 Aspose.Cells 支援多種 Excel 格式，包括舊版本，如 Excel 97-2003。
 ### 在哪裡可以找到更多文件？
 您可以找到有關的綜合文檔[Aspose的參考頁面](https://reference.aspose.com/cells/net/).

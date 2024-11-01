@@ -15,7 +15,7 @@ Siete pronti a trasformare i vostri dati in immagini straordinarie? Aspose.Cells
  Hai bisogno di un grafico che rispecchi le tue specifiche esigenze in termini di dati?[Crea grafico personalizzato](./create-custom-chart/) con Aspose.Cells per .NET e scatena la tua creatività. Questa guida ti accompagna nel processo, aiutandoti a creare grafici su misura per le tue specifiche. È come dipingere, ma invece di una tela, stai usando dati Excel!
 
 ## Crea grafico a linee
- Visualizzare le tendenze con un grafico a linee? Amerai quanto è facile[Crea grafico a linee](./create-line-chart/) utilizzando Aspose.Cells per .NET. Questa guida passo passo ti mostra come evidenziare importanti modelli e tendenze nei tuoi dati. Immagina di disegnare una mappa che ti guida attraverso le tue analisi dei dati.
+ Visualizzare le tendenze con un grafico a linee? Amerai quanto è facile[Crea grafico a linee](./create-line-chart/) utilizzando Aspose.Cells per .NET. Questa guida passo passo ti mostra come evidenziare importanti modelli e tendenze nei tuoi dati. Immagina di disegnare una mappa che ti guida attraverso le tue analisi sui dati.
 
 ## Crea grafico a torta
  Hai bisogno di confrontare le proporzioni a colpo d'occhio?[Crea grafico a torta](./create-pie-chart/) tutorial ti insegna come trasformare i tuoi dati Excel in un semplice ed efficace grafico. I grafici a torta sono perfetti per mostrare come le diverse parti compongono il tutto, proprio come tagliare una pizza!

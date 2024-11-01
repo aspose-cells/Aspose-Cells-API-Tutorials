@@ -12,7 +12,7 @@ url: /zh/net/file-handling/file-saving-file-to-some-location/
 ## 先决条件
 在我们开始编写代码之前，让我们先为您准备好无缝衔接所需的一切。您应该具备以下条件：
 1. Visual Studio：确保您的计算机上安装了 Visual Studio。我们将在其中编写和测试 .NET 应用程序。
-2. Aspose.Cells 库：您需要下载 Aspose.Cells 库。您可以获取最新版本[这里](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells 库：您需要下载 Aspose.Cells 库。您可以获取最新版本[这里](https://releases.aspose.com/cells/net/).
 3. .NET Framework：确保您拥有与 Aspose.Cells 兼容的 .NET 框架版本，它通常与 .NET Framework 4.0 及更高版本兼容。
 4. 对 C# 的基本了解：对 C# 编程的基本了解将大有裨益。别担心，我们会一步一步为您讲解！
 5. 文件路径：确定要保存输出文件的位置。创建一个名为`Your Document Directory`为简单起见。

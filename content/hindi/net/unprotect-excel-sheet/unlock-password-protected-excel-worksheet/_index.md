@@ -70,7 +70,7 @@ using Aspose.Cells;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- सुझाव: प्रतिस्थापित करें`"YOUR DOCUMENT DIRECTORY"`वास्तविक पथ के साथ जहाँ आपकी एक्सेल फ़ाइल (चलिए इसे कहते हैं)`book1.xls`) स्थित है। 
+ सुझाव: प्रतिस्थापित करें`"YOUR DOCUMENT DIRECTORY"` वास्तविक पथ के साथ जहाँ आपकी एक्सेल फ़ाइल (चलिए इसे कहते हैं)`book1.xls`) स्थित है। 
 
 ## चरण 2: वर्कबुक ऑब्जेक्ट को इंस्टैंसिएट करें
 

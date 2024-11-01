@@ -1,6 +1,6 @@
 ---
-title: Třídění a export dat v Excelu
-linktitle: Třídění a export dat v Excelu
+title: Excel Třídění a export dat
+linktitle: Excel Třídění a export dat
 second_title: Aspose.Cells .NET Excel Processing API
 description: Zjistěte, jak třídit data a exportovat hodnoty HTML v Excelu pomocí Aspose.Cells pro .NET prostřednictvím těchto snadno srozumitelných výukových programů.
 type: docs

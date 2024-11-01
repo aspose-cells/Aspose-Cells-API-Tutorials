@@ -151,7 +151,7 @@ Aspose.Cells for .NET は、Microsoft Excel に依存せずに Excel ファイ�
 はい。異なる位置で TextBox の作成手順を繰り返すことで、必要な数の TextBox を追加できます。
 
 ### Aspose.Cells は無料で使用できますか?
- Aspose.Cellsは有料のライブラリですが、無料試用版を以下からダウンロードできます。[ここ](https://releases.aspose.com/).
+Aspose.Cellsは有料のライブラリですが、無料試用版を以下からダウンロードできます。[ここ](https://releases.aspose.com/).
 
 ### Aspose.Cells に関する詳細なドキュメントはどこで見つかりますか?
 包括的なドキュメントにアクセスできます[ここ](https://reference.aspose.com/cells/net/).

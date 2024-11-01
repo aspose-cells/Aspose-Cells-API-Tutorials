@@ -35,7 +35,7 @@ Jednym z najlepszych sposobów zrozumienia dowolnej technologii jest zagłębien
 
 ## Wniosek
 
- Podsumowując, świat Aspose.Cells dla .NET jest bogaty i zróżnicowany, pełen możliwości udoskonalenia zadań związanych z programem Excel. Dzięki naszym kompleksowym samouczkom znajdziesz wszystko, czego potrzebujesz, aby udoskonalić swoje umiejętności, zautomatyzować procesy i zapewnić bezpieczeństwo danych. Na co więc czekasz? Zanurz się w naszych zasobach, zapoznaj się z każdym samouczkiem i zmień sposób, w jaki pracujesz z programem Excel już dziś! Jeśli poczujesz ciekawość, nie zapomnij[czytaj więcej](./protect-excel-worksheet/) o konkretnych funkcjonalnościach, które pozwolą Ci poszerzyć swoją wiedzę.
+ Podsumowując, świat Aspose.Cells dla .NET jest bogaty i różnorodny, pełen możliwości udoskonalenia zadań związanych z programem Excel. Dzięki naszym kompleksowym samouczkom znajdziesz wszystko, czego potrzebujesz, aby udoskonalić swoje umiejętności, zautomatyzować procesy i zapewnić bezpieczeństwo danych. Na co więc czekasz? Zanurz się w naszych zasobach, zapoznaj się z każdym samouczkiem i zmień sposób, w jaki pracujesz z programem Excel już dziś! Jeśli poczujesz ciekawość, nie zapomnij[czytaj więcej](./protect-excel-worksheet/) o konkretnych funkcjonalnościach, które pozwolą Ci poszerzyć swoją wiedzę.
 
 
 

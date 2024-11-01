@@ -70,7 +70,7 @@ Primeiro, precisamos definir o caminho do nosso documento Excel. É aqui que voc
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Dica: Substitua`"YOUR DOCUMENT DIRECTORY"`com o caminho real onde seu arquivo Excel (vamos chamá-lo`book1.xls`) está localizado. 
+ Dica: Substitua`"YOUR DOCUMENT DIRECTORY"` com o caminho real onde seu arquivo Excel (vamos chamá-lo`book1.xls`) está localizado. 
 
 ## Etapa 2: Instanciar um objeto de pasta de trabalho
 
@@ -128,7 +128,7 @@ Este bloco catch exibirá quaisquer erros que você possa encontrar, para que vo
 
 ## Conclusão
 
-E aí está! Você desbloqueou com sucesso uma planilha do Excel protegida por senha usando o Aspose.Cells para .NET. Com apenas algumas linhas de código, você pode recuperar o acesso aos seus dados vitais. Poder e flexibilidade estão ao seu alcance com esta ótima biblioteca. Perfeito para desenvolvedores que desejam otimizar sua interação com o Microsoft Excel, o Aspose.Cells não é apenas uma ferramenta eficiente — é essencial.
+aí está! Você desbloqueou com sucesso uma planilha do Excel protegida por senha usando o Aspose.Cells para .NET. Com apenas algumas linhas de código, você pode recuperar o acesso aos seus dados vitais. Poder e flexibilidade estão ao seu alcance com esta ótima biblioteca. Perfeito para desenvolvedores que desejam otimizar sua interação com o Microsoft Excel, o Aspose.Cells não é apenas uma ferramenta eficiente — é essencial.
 
 ## Perguntas frequentes
 
@@ -139,7 +139,7 @@ Sim, você pode tentar desbloquear uma planilha protegida sem saber a senha, dei
  Aspose.Cells oferece um teste gratuito, mas para uso prolongado, você precisará comprar uma licença. Verifique seus[Comprar página](https://purchase.aspose.com/buy).
 
 ### Quais formatos o Aspose.Cells suporta?  
-Aspose.Cells suporta vários formatos do Excel, incluindo XLS, XLSX, CSV e muito mais.
+O Aspose.Cells suporta vários formatos do Excel, incluindo XLS, XLSX, CSV e muito mais.
 
 ### Como instalo o Aspose.Cells?  
  Você pode instalá-lo via NuGet ou baixá-lo diretamente de[aqui](https://releases.aspose.com/cells/net/).

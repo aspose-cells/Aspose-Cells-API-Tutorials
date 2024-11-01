@@ -59,7 +59,7 @@ string outputDir = "Your Document Directory";
 // Guardar el libro de trabajo en HTML con los comentarios exportados
 wb.Save(outputDir + "outputExportCommentsHTML.html", opts);
 ```
- En este paso, guardamos el archivo de Excel como un documento HTML y exportamos los comentarios junto con él. Simplemente reemplace`"Your Document Directory"` con el directorio real donde desea guardar el archivo HTML.
+ En este paso, guardamos el archivo de Excel como un documento HTML y exportamos los comentarios junto con él. Simplemente reemplace`"Your Document Directory"`con el directorio real donde desea guardar el archivo HTML.
 ## Paso 5: Ejecute su aplicación
 Ahora que todo está configurado, es hora de ejecutar la aplicación. Abra la terminal (o la ventana de salida de Visual Studio) y verá algo como esto:
 ```plaintext
@@ -70,7 +70,7 @@ Este mensaje confirma que el archivo se ha convertido correctamente a HTML y que
 ¡Y ya está! Acaba de aprender a exportar comentarios de un archivo Excel a HTML con Aspose.Cells para .NET. Este proceso no solo es sencillo, sino que también garantiza que ninguna de sus notas o anotaciones importantes se quede atrás al convertir a HTML. Ya sea que esté trabajando en la generación de informes dinámicos o simplemente convirtiendo archivos Excel para uso web, esta función puede ser un verdadero salvavidas.
 ## Preguntas frecuentes
 ### ¿Puedo exportar sólo comentarios específicos de un archivo Excel a HTML?  
- No, Aspose.Cells exporta todos los comentarios cuando`IsExportComments` está configurado como verdadero. Sin embargo, puede personalizar qué comentarios incluir modificando manualmente su archivo de Excel antes de exportarlo.
+No, Aspose.Cells exporta todos los comentarios cuando`IsExportComments` está configurado como verdadero. Sin embargo, puede personalizar qué comentarios incluir modificando manualmente su archivo de Excel antes de exportarlo.
 ### ¿La exportación de comentarios afecta el diseño del archivo HTML?  
 ¡De ninguna manera! Aspose.Cells garantiza que el diseño permanezca intacto mientras se agregan comentarios como elementos adicionales en el archivo HTML.
 ### ¿Puedo exportar comentarios en otros formatos como PDF o Word?  

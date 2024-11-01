@@ -10,7 +10,7 @@ url: /sv/java/basic-excel-functions/excel-date-functions-tutorial/
 
 ## Introduktion till Excel Date Functions Tutorial
 
-I den här omfattande handledningen kommer vi att utforska Excel-datumfunktioner och hur man kan utnyttja kraften i Aspose.Cells för Java för att arbeta med datumrelaterad data. Oavsett om du är en erfaren utvecklare eller precis har börjat med Aspose.Cells, hjälper den här guiden dig att utnyttja potentialen med datumfunktioner i Excel. Så, låt oss dyka in!
+I den här omfattande handledningen kommer vi att utforska Excel-datumfunktioner och hur man kan utnyttja kraften i Aspose.Cells för Java för att arbeta med datumrelaterad data. Oavsett om du är en erfaren utvecklare eller precis har börjat med Aspose.Cells, hjälper den här guiden dig att utnyttja potentialen hos datumfunktioner i Excel. Så, låt oss dyka in!
 
 ## Förstå datumfunktioner i Excel
 

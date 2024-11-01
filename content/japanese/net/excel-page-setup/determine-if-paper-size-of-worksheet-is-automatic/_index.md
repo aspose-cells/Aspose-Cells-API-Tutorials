@@ -25,7 +25,7 @@ Aspose.Cells は多くのタスクを簡素化しますが、C# の基礎的な�
 Visual Studio のような IDE をセットアップしておく必要があります。これにより、コードを効果的に処理およびテストできるようになります。
 
 ### サンプル Excel ファイル
-サンプルファイル（`samplePageSetupIsAutomaticPaperSize-False.xlsx`そして`samplePageSetupIsAutomaticPaperSize-True.xlsx`をテスト目的で使用します。これらのファイルがソース ディレクトリにあることを確認してください。
+サンプルファイル（`samplePageSetupIsAutomaticPaperSize-False.xlsx`そして`samplePageSetupIsAutomaticPaperSize-True.xlsx`) をテスト目的で使用します。これらのファイルがソース ディレクトリにあることを確認してください。
 
 ## パッケージのインポート
 

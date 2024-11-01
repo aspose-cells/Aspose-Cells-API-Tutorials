@@ -1,6 +1,6 @@
 ---
-title: Adja hozzá a Spinner Controlt az Excel munkalapjához
-linktitle: Adja hozzá a Spinner Controlt az Excel munkalapjához
+title: Adja hozzá a Spinner Control-t az Excel munkalapjához
+linktitle: Adja hozzá a Spinner Control-t az Excel munkalapjához
 second_title: Aspose.Cells .NET Excel Processing API
 description: Ebből a lépésenkénti oktatóanyagból megtudhatja, hogyan adhat hozzá Spinner-vezérlőt egy Excel-munkalaphoz az Aspose.Cells for .NET használatával.
 type: docs
@@ -25,7 +25,7 @@ using System.Drawing;
 Ezek a névterek lehetővé teszik az Aspose.Cells alapvető funkcióinak elérését, beleértve a munkafüzet-kezelési és rajzolási lehetőségeket olyan alakzatokhoz, mint a Spinner.
 Most, hogy teljesítettük az előfeltételeket és importáltuk a szükséges csomagokat, merüljünk el a lépésről lépésre szóló útmutatóban. Minden lépést úgy terveztünk, hogy világos és tömör legyen, így könnyen végrehajtható.
 ## 1. lépés: Állítsa be projektkönyvtárát
-A kódolás megkezdése előtt célszerű rendszerezni a fájlokat. Hozzunk létre egy könyvtárat az Excel fájljaink számára.
+A kódolás megkezdése előtt célszerű rendszerezni a fájlokat. Hozzon létre egy könyvtárat az Excel fájljaink számára.
 ```csharp
 // A dokumentumok könyvtárának elérési útja.
 string dataDir = "Your Document Directory";
@@ -82,7 +82,7 @@ Most készen állunk, hogy hozzáadjuk a Spinner vezérlőt a munkalapunkhoz.
 // Adjon hozzá egy forgóvezérlőt.
 Aspose.Cells.Drawing.Spinner spinner = excelbook.Worksheets[0].Shapes.AddSpinner(1, 0, 1, 0, 20, 18);
 ```
-Ez a sor egy Spinner vezérlőt ad a munkalaphoz. A paraméterek meghatározzák a Spinner helyzetét és méretét (sor, oszlop, szélesség, magasság).
+Ez a sor egy Spinner vezérlőt ad a munkalaphoz. A paraméterek megadják a Spinner helyzetét és méretét (sor, oszlop, szélesség, magasság).
 ## 7. lépés: Konfigurálja a Spinner tulajdonságait
 Testreszabjuk a Spinner viselkedését igényeinknek megfelelően.
 ```csharp

@@ -21,7 +21,7 @@ url: /zh/net/excel-ole-picture-objects/
 
 ## 在 Excel 中添加和定位图片
 
-在 Excel 表格中添加视觉效果不仅是为了美观；它还有助于使数据更具相关性。在我们的[将图片添加到 Excel 工作表](./add-picture-to-excel/)教程中，我们将向您展示如何将图片无缝地整合到电子表格中。但等等，这些图片的定位同样重要！想要绝对放置还是按比例放置？我们为这两种情况都提供了专门的教程。查看[在 Excel 中定位图片（绝对）](./position-picture-absolute-excel/)和[在 Excel 中定位图片（比例）](./position-picture-proportional-excel/)了解所有详细信息。
+在 Excel 表格中添加视觉效果不仅是为了美观；它还有助于使数据更具相关性。在我们的[将图片添加到 Excel 工作表](./add-picture-to-excel/)教程中，我们将向您展示如何无缝地将图片整合到电子表格中。但等等，这些图片的定位同样重要！想要绝对放置还是按比例放置？我们为这两种情况都提供了专门的教程。查看[在 Excel 中定位图片（绝对）](./position-picture-absolute-excel/)和[在 Excel 中定位图片（比例）](./position-picture-proportional-excel/)了解所有详细信息。
 
 别忘了引用图片！我们的教程[在 Excel 中引用图片单元格](./reference-picture-cell-excel/)将教您如何将特定图像链接到单元格，为您的电子表格添加额外的组织风格。 
 

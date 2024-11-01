@@ -69,7 +69,7 @@ Nu är det dags att skapa en ny arbetsbok. Det är i huvudsak där alla dina dat
 Workbook workbook = new Workbook();
 ```
 
- Här deklarerar vi en ny`Workbook`objekt som representerar en Excel-fil och gör det möjligt för oss att manipulera dess innehåll.
+ Här deklarerar vi en ny`Workbook` objekt som representerar en Excel-fil och gör det möjligt för oss att manipulera dess innehåll.
 
 ## Steg 3: Öppna det första arbetsbladet
 

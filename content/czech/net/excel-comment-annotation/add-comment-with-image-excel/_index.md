@@ -108,5 +108,5 @@ Aspose.Cells podporuje různé formáty obrázků, včetně PNG, JPEG a BMP.
 Aspose.Cells nabízí bezplatnou zkušební verzi, ale pro plnou funkčnost si budete muset zakoupit licenci.
 ### Mohu upravit vzhled komentáře?
 Ano, můžete přizpůsobit písmo, velikost a barvu textu komentáře a také můžete změnit tvar a velikost komentáře samotného.
-### Kde najdu další dokumentaci k Aspose.Cells?
+### Kde najdu další dokumentaci na Aspose.Cells?
  Kompletní dokumentaci najdete na Aspose.Cells[zde](https://reference.aspose.com/cells/net/).

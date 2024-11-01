@@ -82,7 +82,7 @@ workbook.save("output.xlsx");
 
 ### 我如何改变动画类型？
 
-要更改动画类型，请使用`setAnimationType`图表对象上的方法。您可以从各种类型中进行选择，例如`SLIDE`, `FADE`， 和`GROW_SHRINK`.
+要更改动画类型，请使用`setAnimationType`图表对象上的方法。您可以从各种类型中进行选择，例如`SLIDE`, `FADE` ， 和`GROW_SHRINK`.
 
 ### 我可以自定义动画持续时间吗？
 

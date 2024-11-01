@@ -12,7 +12,7 @@ Heb je ooit verlangd naar een manier om het uiterlijk van je Excel-spreadsheets 
 ## Vereisten
 Voordat we beginnen met coderen, willen we eerst controleren of alles op orde is:
 1. Installatie van .NET Framework: Zorg ervoor dat u een versie van .NET Framework gebruikt die compatibel is met de Aspose.Cells-bibliotheek.
-2. Aspose.Cells-bibliotheek: Download de Aspose.Cells-bibliotheek als u dat nog niet hebt gedaan. U kunt het vinden[hier](https://releases.aspose.com/cells/net/). 
+2. Aspose.Cells Library: Download de Aspose.Cells-bibliotheek als u dat nog niet hebt gedaan. U kunt het vinden[hier](https://releases.aspose.com/cells/net/). 
 3. IDE: Een goede IDE zoals Visual Studio maakt het werken met .NET-toepassingen een stuk eenvoudiger.
 4. Basiskennis: Kennis van C#-programmering en concepten van Excel-bestanden zijn een pré, maar maak je geen zorgen als je nieuw bent; ik zal alles stap voor stap uitleggen!
 5.  Voorbeeld Excel-bestand: Hier is een voorbeeld van een Excel-bestand (laten we het een Excel-bestand noemen).`book1.xlsx`) klaar om uw code te testen.

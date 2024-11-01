@@ -39,14 +39,14 @@ string outputDir = "Your Document Directory";
 ```
  Mengganti`"Your Document Directory"` dengan jalur sebenarnya ke direktori Anda.
 ## Langkah 2: Buka File Excel
-Sekarang setelah kita menyiapkan direktori kita, mari kita buka file Excel yang ingin Anda gunakan.`Workbook` kelas di Aspose.Cells digunakan untuk memuat dokumen Excel.
+ Sekarang setelah kita menyiapkan direktori kita, mari kita buka file Excel yang ingin Anda gunakan.`Workbook` kelas di Aspose.Cells digunakan untuk memuat dokumen Excel.
 ```csharp
 // Buka file Excel
 Workbook workbook = new Workbook(sourceDir + "sampleSetDefaultFontPropertyOfPdfSaveOptionsAndImageOrPrintOptions.xlsx");
 ```
 Pastikan untuk mengganti nama berkas dengan nama berkas Anda yang sebenarnya.
 ## Langkah 3: Siapkan Opsi Rendering Gambar
- Selanjutnya, kita perlu mengonfigurasi opsi rendering untuk mengonversi lembar Excel kita ke format gambar. Kita akan membuat contoh`ImageOrPrintOptions`, menentukan jenis gambar dan font default.
+Selanjutnya, kita perlu mengonfigurasi opsi rendering untuk mengonversi lembar Excel kita ke format gambar. Kita akan membuat contoh`ImageOrPrintOptions`, menentukan jenis gambar dan font default.
 ```csharp
 // Merender ke format file PNG
 ImageOrPrintOptions imgOpt = new ImageOrPrintOptions();
@@ -63,7 +63,7 @@ SheetRender sr = new SheetRender(workbook.Worksheets[0], imgOpt);
 sr.ToImage(0, outputDir + "out1_imagePNG.png");
 ```
 ## Langkah 5: Ubah Jenis Gambar dan Render ke TIFF
-Jika Anda ingin merender lembar yang sama ke format gambar yang berbeda, seperti TIFF, Anda cukup mengubah`ImageType` properti dan ulangi proses rendering.
+ Jika Anda ingin merender lembar yang sama ke format gambar yang berbeda, seperti TIFF, Anda cukup mengubah`ImageType` properti dan ulangi proses rendering.
 ```csharp
 // Diatur ke format TIFF
 imgOpt.ImageType = Drawing.ImageType.Tiff;
@@ -71,7 +71,7 @@ WorkbookRender wr = new WorkbookRender(workbook, imgOpt);
 wr.ToImage(outputDir + "out1_imageTIFF.tiff");
 ```
 ## Langkah 6: Konfigurasikan Opsi Penyimpanan PDF
- Selanjutnya, mari kita atur opsi penyimpanan PDF. Kita akan membuat contoh`PdfSaveOptions`, menetapkan font default, dan menentukan bahwa kita ingin memeriksa font yang hilang.
+ Selanjutnya, mari kita atur opsi penyimpanan PDF. Kita akan membuat contoh`PdfSaveOptions`menetapkan font default, dan menentukan bahwa kita ingin memeriksa font yang hilang.
 ```csharp
 // Konfigurasikan opsi penyimpanan PDF
 PdfSaveOptions saveOptions = new PdfSaveOptions();

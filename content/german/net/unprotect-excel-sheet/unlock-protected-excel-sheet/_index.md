@@ -16,7 +16,7 @@ In der heutigen schnelllebigen Geschäftswelt ist die effektive und sichere Verw
 Bevor Sie mit dem Code beginnen, müssen Sie unbedingt sicherstellen, dass Sie alles für ein reibungsloses Erlebnis mit Aspose.Cells für .NET eingerichtet haben:
 
 1.  Visual Studio: Sie müssen Visual Studio auf Ihrem Computer installiert haben. Wenn Sie es nicht haben, laden Sie die neueste Version von der[Visual Studio-Website](https://visualstudio.microsoft.com/downloads/).
-2.  Aspose.Cells-Bibliothek: Sie benötigen die Aspose.Cells-Bibliothek. Sie können sie herunterladen von der[Aspose-Website](https://releases.aspose.com/cells/net/)Alternativ können Sie es direkt über NuGet in Visual Studio installieren.
+2. Aspose.Cells-Bibliothek: Sie benötigen die Aspose.Cells-Bibliothek. Sie können sie herunterladen von der[Aspose-Website](https://releases.aspose.com/cells/net/)Alternativ können Sie es direkt über NuGet in Visual Studio installieren.
 3. Grundlegende Kenntnisse in C#: Da wir C#-Code schreiben werden, sind grundlegende Kenntnisse der Sprache hilfreich. Wenn Sie neu bei C# sind, stehen Ihnen zahlreiche Ressourcen zur Verfügung, die Ihnen den Einstieg erleichtern.
 4. Eine Excel-Datei: Halten Sie eine Excel-Arbeitsmappe bereit, die Sie entsperren möchten. In diesem Beispiel nennen wir sie „book1.xls“.
 
@@ -73,7 +73,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 
 ## Schritt 4: Schutz des Arbeitsblatts aufheben
 
-Jetzt kommt der kritische Teil – das Aufheben des Arbeitsblattschutzes. Wenn Sie ein Kennwort haben, können Sie es hier eingeben. Andernfalls lassen Sie das Feld für ein ungeschütztes Blatt leer.
+Jetzt kommt der kritische Teil – das Aufheben des Schutzes des Arbeitsblatts. Wenn Sie ein Kennwort haben, können Sie es hier eingeben. Andernfalls lassen Sie das Feld für ein ungeschütztes Blatt leer.
 
 ```csharp
 worksheet.Unprotect("");
@@ -116,7 +116,7 @@ Und da haben Sie es! Das Entsperren einer geschützten Excel-Tabelle mit Aspose.
 Ja! Sie können jedes Blatt in der Arbeitsmappe durchlaufen und die Schutze auf die gleiche Weise aufheben.
 
 ### Ist die Nutzung von Aspose.Cells kostenlos?
- Aspose.Cells bietet eine kostenlose Testversion an, für den produktiven Einsatz ist jedoch eine Lizenz erforderlich. Überprüfen Sie deren[kaufen](https://purchase.aspose.com/buy) Seite für weitere Informationen.
+ Aspose.Cells bietet eine kostenlose Testversion an, für den produktiven Einsatz ist jedoch eine Lizenz erforderlich. Überprüfen Sie deren[kaufen](https://purchase.aspose.com/buy)Seite für weitere Informationen.
 
 ### Was ist, wenn ich das Passwort nicht kenne?
 Wenn ein Blatt kennwortgeschützt ist und Sie das Kennwort nicht kennen, hilft Ihnen die Bibliothek nicht dabei, die Beschränkungen zu umgehen, da dies gegen ethische Richtlinien verstößt.

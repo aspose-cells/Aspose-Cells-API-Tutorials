@@ -12,7 +12,7 @@ Podczas pracy z plikami Excela w .NET biblioteka Aspose.Cells wyróżnia się ja
 ## Wymagania wstępne
 Zanim przejdziemy do kodu, przygotujmy Cię we wszystko, co potrzebne, aby płynnie podążać za kodem. Oto, co powinieneś mieć:
 1. Visual Studio: Upewnij się, że masz zainstalowany Visual Studio na swoim komputerze. To tutaj będziemy pisać i testować naszą aplikację .NET.
-2. Biblioteka Aspose.Cells: Musisz pobrać bibliotekę Aspose.Cells. Możesz pobrać najnowszą wersję[Tutaj](https://releases.aspose.com/cells/net/).
+2.  Biblioteka Aspose.Cells: Musisz pobrać bibliotekę Aspose.Cells. Możesz pobrać najnowszą wersję[Tutaj](https://releases.aspose.com/cells/net/).
 3. .NET Framework: Upewnij się, że masz wersję .NET Framework zgodną z Aspose.Cells, która zazwyczaj współpracuje z .NET Framework 4.0 i nowszymi.
 4. Podstawowa znajomość języka C#: Podstawowa znajomość programowania w języku C# będzie pomocna. Nie martw się, wyjaśnimy wszystko krok po kroku!
 5.  Ścieżka pliku: Zdecyduj, gdzie chcesz zapisać pliki wyjściowe. Utwórz katalog o nazwie`Your Document Directory` dla uproszczenia.
@@ -33,7 +33,7 @@ string dataDir = "Your Document Directory/";
 // Ścieżka do pliku skoroszytu
 string filePath = dataDir + "Book1.xls";
 ```
-W tym kroku określasz, gdzie znajduje się Twój początkowy plik Excel i gdzie zostaną zapisane pliki wyjściowe. Proste, prawda?
+tym kroku określasz, gdzie znajduje się Twój początkowy plik Excel i gdzie zostaną zapisane pliki wyjściowe. Proste, prawda?
 ## Krok 2: Ładowanie skoroszytu
 Teraz, gdy ścieżka katalogu jest już na miejscu, czas załadować skoroszyt programu Excel. Ten krok jest kluczowy, ponieważ przygotowuje plik do manipulacji.
 ```csharp
@@ -47,9 +47,9 @@ Czasami może być konieczne zapisanie plików w starszym formacie dla zachowani
 // Zapisz w formacie Excel 97–2003
 workbook.Save(dataDir + "output.xls");
 ```
- Ten wiersz zapisuje skoroszyt za pomocą`.xls`rozszerzenie, które jest formatem Excela dla wersji sprzed 2007 roku. To jak wysłanie listu pocztą, aby mieć pewność, że dotrze do starszego adresata!
+ Ten wiersz zapisuje skoroszyt za pomocą`.xls` rozszerzenie, które jest formatem Excela dla wersji sprzed 2007 roku. To jak wysłanie listu pocztą, aby mieć pewność, że dotrze do starszego adresata!
 ## Krok 4: Zapisywanie w formacie Excel 2007
- Jeśli zamierzasz korzystać z funkcji programu Excel 2007 i nowszych, zapisz w`.xlsx` format jest drogą do zrobienia. Oto jak:
+Jeśli zamierzasz korzystać z funkcji programu Excel 2007 i nowszych, zapisz w`.xlsx` format jest drogą do zrobienia. Oto jak:
 ```csharp
 // Zapisz w formacie Excel 2007 xlsx
 workbook.Save(dataDir + "output.xlsx");
@@ -91,7 +91,7 @@ workbook.Save(dataDir + "output.xml");
 ```
 Format ten jest przydatny do przetwarzania danych i może być łatwo odczytany przez inne aplikacje obsługujące XML.
 ## Wniosek
-I masz to! Udało Ci się nauczyć, jak zapisać skoroszyt w różnych formatach, używając Aspose.Cells dla .NET. Ta biblioteka jest niesamowicie wszechstronna, upraszczając operacje, które w przeciwnym razie byłyby uciążliwe. Więc czy wysyłasz pliki współpracownikom, którzy używają starszych wersji programu Excel, udostępniasz dane za pośrednictwem PDF, czy nawet tworzysz dokumenty HTML dla sieci Web, Aspose.Cells ma dla Ciebie wsparcie!
+masz to! Udało Ci się nauczyć, jak zapisać skoroszyt w różnych formatach, używając Aspose.Cells dla .NET. Ta biblioteka jest niesamowicie wszechstronna, upraszczając operacje, które w przeciwnym razie byłyby uciążliwe. Więc czy wysyłasz pliki współpracownikom, którzy używają starszych wersji programu Excel, udostępniasz dane za pośrednictwem PDF, czy nawet tworzysz dokumenty HTML dla sieci Web, Aspose.Cells ma dla Ciebie wsparcie!
 ## Najczęściej zadawane pytania
 ### Czym jest Aspose.Cells?
 Aspose.Cells to zaawansowana biblioteka umożliwiająca tworzenie, modyfikowanie i konwersję plików Excel w aplikacjach .NET.

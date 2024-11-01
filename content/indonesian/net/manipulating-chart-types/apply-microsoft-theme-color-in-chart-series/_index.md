@@ -101,7 +101,7 @@ Hal ini serupa dengan menentukan tampilan dan nuansa sebuah ruangan sebelum mend
 Selanjutnya, kita perlu menentukan warna untuk area isian bagan. Beginilah cara kita menghidupkan warna pilihan kita.
 
 ```csharp
-// Dapatkan CellsColor dari SolidFill
+//Dapatkan CellsColor dari SolidFill
 CellsColor cc = chart.NSeries[0].Area.FillFormat.SolidFill.CellsColor;
 ```
 

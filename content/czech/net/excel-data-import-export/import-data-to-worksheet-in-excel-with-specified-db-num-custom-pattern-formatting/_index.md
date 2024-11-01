@@ -138,7 +138,7 @@ Nakonec uložme toto mistrovské dílo do formátu PDF. Tohle je velké finále!
 wb.Save(dataDir + "outputDBNumCustomFormatting.pdf", SaveFormat.Pdf);
 ```
 
-Gratuluji! Právě jste vytvořili soubor PDF s vaším číslem naformátovaným pomocí stylů DB Num.
+Gratuluji! Právě jste vytvořili soubor PDF s vaším číslem formátovaným pomocí stylů DB Num.
 
 ## Závěr
 

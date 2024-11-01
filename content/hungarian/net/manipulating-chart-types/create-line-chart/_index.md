@@ -50,7 +50,7 @@ Az első lépés annak meghatározása, hogy hova szeretné menteni a kimeneti f
 // Kimeneti könyvtár
 string outputDir = "Your Output Directory";
 ```
- Cserélje ki`"Your Output Directory"` azzal a tényleges elérési úttal, ahová a generált Excel fájlt menteni szeretné.
+ Cserélje ki`"Your Output Directory"`azzal a tényleges elérési úttal, ahová a generált Excel fájlt menteni szeretné.
 
 ## 2. lépés: Példányosítsa a munkafüzet objektumot
 
@@ -119,7 +119,7 @@ Ebben a példában azt mondjuk a diagramnak, hogy az A1–B3 cellákban lévő �
 
 ## 8. lépés: Mentse el az Excel fájlt
 
-nagy finálé! Minden kemény munka után itt az ideje, hogy mentse az Excel-fájlt, és nézze meg a vonaldiagram működését.
+A nagy finálé! Minden kemény munka után itt az ideje, hogy mentse az Excel-fájlt, és nézze meg a vonaldiagram működését.
 
 ```csharp
 // Az Excel fájl mentése

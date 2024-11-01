@@ -20,7 +20,7 @@ I messaggi di errore di convalida dei dati sono notifiche visualizzate agli uten
 - Orientamento: forniscono indicazioni su cosa è andato storto e su come correggerlo.
 - Prevenzione degli errori: aiutano a impedire l'elaborazione di dati non validi, migliorando la qualità dei dati.
 
-Ora approfondiamo la creazione passo dopo passo di messaggi di errore per la convalida dei dati utilizzando Aspose.Cells per Java.
+Ora approfondiamo passo dopo passo la creazione di messaggi di errore per la convalida dei dati utilizzando Aspose.Cells per Java.
 
 ## Prerequisiti
 

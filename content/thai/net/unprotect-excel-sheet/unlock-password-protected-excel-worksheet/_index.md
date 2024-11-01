@@ -70,7 +70,7 @@ using Aspose.Cells;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- เคล็ดลับ: เปลี่ยน`"YOUR DOCUMENT DIRECTORY"`ด้วยเส้นทางจริงที่ไฟล์ Excel ของคุณ (เรียกว่า`book1.xls`) ตั้งอยู่. 
+ เคล็ดลับ: เปลี่ยน`"YOUR DOCUMENT DIRECTORY"` ด้วยเส้นทางจริงที่ไฟล์ Excel ของคุณ (เรียกว่า`book1.xls`) ตั้งอยู่. 
 
 ## ขั้นตอนที่ 2: สร้างอินสแตนซ์ของวัตถุเวิร์กบุ๊ก
 

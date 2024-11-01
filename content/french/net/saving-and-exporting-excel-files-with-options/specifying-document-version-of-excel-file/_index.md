@@ -11,7 +11,7 @@ url: /fr/net/saving-and-exporting-excel-files-with-options/specifying-document-v
 Aspose.Cells pour .NET est une bibliothèque puissante qui permet aux développeurs de manipuler facilement des fichiers Excel par programmation. Que vous souhaitiez créer des fichiers Excel à partir de zéro ou modifier des fichiers existants, Aspose.Cells propose une API complète pour atteindre vos objectifs. L'une de ces fonctionnalités consiste à spécifier les propriétés du document telles que la version, l'auteur ou le titre. Ce didacticiel vous explique comment spécifier la version du document d'un fichier Excel par programmation à l'aide d'Aspose.Cells pour .NET.
 ## Prérequis
 Avant de plonger dans les détails, assurons-nous que vous disposez de tout ce dont vous avez besoin pour suivre ce tutoriel :
-1.  Aspose.Cells pour .NET : vous pouvez télécharger la dernière version[ici](https://releases.aspose.com/cells/net/) . Si vous n'avez pas encore acheté de licence, vous pouvez opter pour une[permis temporaire](https://purchase.aspose.com/temporary-license/) pour explorer les fonctionnalités.
+1. Aspose.Cells pour .NET : vous pouvez télécharger la dernière version[ici](https://releases.aspose.com/cells/net/) . Si vous n'avez pas encore acheté de licence, vous pouvez opter pour une[permis temporaire](https://purchase.aspose.com/temporary-license/) pour explorer les fonctionnalités.
 2. Environnement de développement .NET : vous pouvez utiliser Visual Studio ou tout autre IDE compatible .NET.
 3. Connaissances de base de C# : la compréhension de la programmation C# facilitera le suivi.
 ## Paquets d'importation
@@ -29,9 +29,9 @@ Maintenant, décomposons le processus de spécification des propriétés du docu
 ```csharp
 Workbook wb = new Workbook();
 ```
- Le`Workbook` La classe fournit une représentation d'un fichier Excel. En l'instanciant, nous créons un classeur Excel vierge que nous pouvons manipuler.
+ Le`Workbook`La classe fournit une représentation d'un fichier Excel. En l'instanciant, nous créons un classeur Excel vierge que nous pouvons manipuler.
 ## Étape 2 : Accéder aux propriétés de document intégrées
-Aspose.Cells propose des propriétés de document intégrées, qui incluent des champs tels que le titre, l'auteur et la version du document. Vous pouvez accéder à ces propriétés via le`BuiltInDocumentProperties`collection.
+ Aspose.Cells propose des propriétés de document intégrées, qui incluent des champs tels que le titre, l'auteur et la version du document. Vous pouvez accéder à ces propriétés via le`BuiltInDocumentProperties`collection.
 ```csharp
 Aspose.Cells.Properties.BuiltInDocumentPropertyCollection bdpc = wb.BuiltInDocumentProperties;
 ```
@@ -59,7 +59,7 @@ La définition de la version du document permet de savoir clairement quelle vers
 ```csharp
 wb.Save("outputSpecifyDocumentVersionOfExcelFile.xlsx", SaveFormat.Xlsx);
 ```
- Le`Save` La méthode est utilisée pour enregistrer le fichier dans le répertoire spécifié. Ici, nous l'enregistrons sous forme de fichier Excel dans le`.xlsx` format. Si nécessaire, Aspose.Cells prend également en charge des formats tels que`.xls`, `.csv` , et`.pdf`, offrant une flexibilité en fonction des besoins de votre projet.
+ Le`Save` La méthode est utilisée pour enregistrer le fichier dans le répertoire spécifié. Ici, nous l'enregistrons sous forme de fichier Excel dans le`.xlsx`format. Si nécessaire, Aspose.Cells prend également en charge des formats tels que`.xls`, `.csv` , et`.pdf`, offrant une flexibilité en fonction des besoins de votre projet.
 ## Conclusion
 Dans ce didacticiel, nous avons expliqué comment spécifier les propriétés d'un document, en particulier la version du document, dans un fichier Excel à l'aide d'Aspose.Cells pour .NET. Aspose.Cells est un outil extrêmement flexible et puissant qui vous permet de manipuler des fichiers Excel par programmation, ce qui en fait un atout précieux pour tout développeur .NET travaillant avec des feuilles de calcul.
 ## FAQ

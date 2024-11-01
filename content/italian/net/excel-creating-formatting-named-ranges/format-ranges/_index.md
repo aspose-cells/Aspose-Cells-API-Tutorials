@@ -172,7 +172,7 @@ Spiegazione: Questa riga stampa un messaggio sulla console indicando che il nost
 
 ## Conclusione
 
-In questo tutorial, abbiamo esaminato i passaggi della formattazione degli intervalli in Excel utilizzando Aspose.Cells per .NET. Che tu voglia che i tuoi dati abbiano testo in grassetto, colori vivaci o una strutturazione essenziale all'interno degli intervalli, questa libreria ti copre. Proprio così, puoi trasformare i tuoi dati da insipidi a grandiosi con poche righe di codice!
+In questo tutorial, abbiamo esaminato i passaggi della formattazione degli intervalli in Excel usando Aspose.Cells per .NET. Che tu voglia che i tuoi dati abbiano testo in grassetto, colori vivaci o una strutturazione essenziale all'interno degli intervalli, questa libreria ti copre. Proprio così, puoi trasformare i tuoi dati da insipidi a grandiosi con poche righe di codice!
 
 Mentre prosegui nel tuo viaggio di programmazione, non esitare a esplorare altre funzionalità di Aspose.Cells, poiché offre una pletora di funzionalità per lavorare con i file Excel. Per ulteriori letture, dai un'occhiata a[documentazione](https://reference.aspose.com/cells/net/) per sbloccare nuove potenzialità nei tuoi progetti di sviluppo!
 

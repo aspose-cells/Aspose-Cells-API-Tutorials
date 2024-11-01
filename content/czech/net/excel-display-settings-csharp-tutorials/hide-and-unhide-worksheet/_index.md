@@ -132,7 +132,7 @@ Manipulace s excelovými listy pomocí Aspose.Cells for .NET nemusí být sklič
  Ano, můžete procházet`Worksheets` sběr a nastavit`IsVisible` vlastnost na hodnotu false pro každý list, který chcete skrýt.
 
 ### Jaké formáty souborů Aspose.Cells podporuje?
-Aspose.Cells podporuje různé formáty včetně XLS, XLSX, CSV a dalších. Můžete zkontrolovat celý seznam[zde](https://reference.aspose.com/cells/net/).
+Aspose.Cells podporuje různé formáty včetně XLS, XLSX, CSV a dalších. Můžete zkontrolovat úplný seznam[zde](https://reference.aspose.com/cells/net/).
 
 ### Potřebuji licenci k používání Aspose.Cells?
  Můžete začít s bezplatnou zkušební verzí a prozkoumat jeho funkce. Pro produkční aplikace je vyžadována plná licence. Najděte si o tom více[zde](https://purchase.aspose.com/buy).

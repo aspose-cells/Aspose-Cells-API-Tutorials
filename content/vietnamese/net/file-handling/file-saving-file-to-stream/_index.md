@@ -13,7 +13,7 @@ Khi nói đến việc làm việc với các tệp Excel trong các ứng dụn
 Trước khi đi sâu vào chi tiết, có một vài điều bạn cần chuẩn bị. Hãy coi đây là danh sách kiểm tra của bạn để đảm bảo trải nghiệm diễn ra suôn sẻ khi chúng ta thực hiện hướng dẫn.
 1. Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio trên máy của mình. Đừng lo lắng, bạn thậm chí có thể sử dụng phiên bản Community; nó miễn phí và hoạt động tốt.
 2. .NET Framework: Phiên bản .NET bạn đang sử dụng phải tương thích với Aspose.Cells. Nhìn chung, bất kỳ .NET Framework phiên bản 4.0 trở lên nào cũng tốt.
-3.  Thư viện Aspose.Cells: Tải xuống và cài đặt thư viện Aspose.Cells cho .NET. Bạn có thể tìm thấy nó[đây](https://releases.aspose.com/cells/net/). 
+3. Thư viện Aspose.Cells: Tải xuống và cài đặt thư viện Aspose.Cells cho .NET. Bạn có thể tìm thấy nó[đây](https://releases.aspose.com/cells/net/). 
 4. Kiến thức cơ bản về C#: Một chút quen thuộc với lập trình C# sẽ hữu ích, nhưng bạn không cần phải là một phù thủy lập trình. Tin tôi đi, nếu bạn có thể làm theo một công thức, bạn có thể làm theo hướng dẫn này!
 5.  Tệp Excel: Bạn sẽ cần một tệp Excel bắt đầu, trong trường hợp của chúng tôi, có tên là`Book1.xlsx`. Bạn có thể thoải mái tạo một cái đơn giản nếu bạn chưa có.
 Bây giờ chúng ta đã sẵn sàng, hãy nhập các gói cần thiết!
@@ -50,7 +50,7 @@ Bây giờ, hãy tải sổ làm việc để chúng ta sẵn sàng sử dụng 
 ```csharp
 Workbook workbook = new Workbook(filePath);
 ```
-Chuyện gì đang xảy ra ở đây? Chúng tôi đang tạo một phiên bản mới của`Workbook` lớp và truyền đường dẫn đến tệp Excel hiện tại của bạn. Điều này giống như mở một cuốn sách công thức nấu ăn để tìm món ăn yêu thích của bạn!
+ Chuyện gì đang xảy ra ở đây? Chúng tôi đang tạo một phiên bản mới của`Workbook`lớp và truyền đường dẫn đến tệp Excel hiện tại của bạn. Điều này giống như mở một cuốn sách công thức nấu ăn để tìm món ăn yêu thích của bạn!
 ## Bước 4: Tạo FileStream để lưu sổ làm việc
  Tiếp theo, chúng ta cần tạo một`FileStream` đối tượng thiết lập nơi chúng ta sẽ lưu sổ làm việc mới sửa đổi của mình. Mã hóa nó như thế này:
 ```csharp

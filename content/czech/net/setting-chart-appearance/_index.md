@@ -20,8 +20,8 @@ Mřížka – tyto drobné, ale zásadní prvky – pomáhají porozumět datům
 ## Nastavit oblast grafu
  Oblast grafu definuje hranici, kde se odehrává váš datový příběh. Správné nastavení zajistí, že vaše grafy budou jasné a přehledné. Ať už umísťujete graf na řídicí panel nebo jej upravujete tak, aby se perfektně vešel na stránku,[Nastavit oblast grafu](./set-chart-area/) tutoriál nabízí přímočarý průvodce zvládnutím oblastí grafu v Excelu pomocí Aspose.Cells pro .NET. Toto je nutnost, pokud usilujete o precizní a profesionální prezentace!
 
-## Získejte hlavní mřížky grafu
-Potřebujete načíst hlavní mřížky z grafu? Žádný strach Aspose.Cells pro .NET vám pomůže! Mřížka hraje klíčovou roli při usnadňování interpretace vašich grafů a možnost přístupu k nim programově vám dává větší kontrolu. Tento[Získejte hlavní mřížky grafu](./get-major-gridlines-of-chart/) tutoriál vás provede tím, jak rychle a efektivně načíst mřížku z vašich grafů. Ať už upravujete existující graf nebo generujete úplně od začátku, tento průvodce vám zajistí, že při práci s mřížkou nikdy nezmeškáte ani pauzu.
+## Získejte hlavní mřížku grafu
+Potřebujete načíst hlavní mřížky z grafu? Žádný strach Aspose.Cells pro .NET vám pomůže! Mřížka hraje klíčovou roli při usnadňování interpretace vašich grafů a možnost přístupu k nim programově vám dává větší kontrolu. Tento[Získejte hlavní mřížku grafu](./get-major-gridlines-of-chart/) tutoriál vás provede tím, jak rychle a efektivně načíst mřížku z vašich grafů. Ať už upravujete existující graf nebo generujete úplně od začátku, tento průvodce vám zajistí, že při práci s mřížkou nikdy nezmeškáte ani pauzu.
 
 ## Nastavit čáry grafu
  Čáry grafu jsou klíčové pro propojení datových bodů a vnesení přehlednosti do vašich grafů. Chcete si je přizpůsobit? Samozřejmě, že ano! Aspose.Cells for .NET umožňuje snadno upravit styl, barvu a tloušťku čar grafu. V[Nastavit čáry grafu](./set-chart-lines/)tutoriálu, najdete podrobné pokyny, jak dodat čarám grafu extra šmrnc. Tento podrobný průvodce zajišťuje, že vaše data budou vždy prezentována jasně a atraktivně – ideální k tomu, aby vaše grafy vynikly v prezentaci nebo zprávě.
@@ -34,7 +34,7 @@ Potřebujete načíst hlavní mřížky z grafu? Žádný strach Aspose.Cells pr
 Naučte se, jak aplikovat motivy na grafy v Excelu pomocí Aspose.Cells for .NET s naším jednoduchým průvodcem krok za krokem. Vylepšete svou prezentaci dat.
 ### [Změňte hlavní mřížku v grafu](./change-major-gridlines-in-chart/)
 Naučte se, jak změnit hlavní mřížky v grafech aplikace Excel pomocí Aspose.Cells for .NET s naším podrobným průvodcem krok za krokem.
-### [Získejte hlavní mřížky grafu](./get-major-gridlines-of-chart/)
+### [Získejte hlavní mřížku grafu](./get-major-gridlines-of-chart/)
 Naučte se, jak získat hlavní mřížky na grafech pomocí Aspose.Cells for .NET s tímto podrobným návodem krok za krokem. Vylepšete své dovednosti při vytváření sestav v Excelu.
 ### [Nastavit oblast grafu](./set-chart-area/)
 Odemkněte potenciál grafů v Excelu s Aspose.Cells pro .NET. Naučte se nastavovat oblasti grafu krok za krokem v našem jednoduchém tutoriálu.

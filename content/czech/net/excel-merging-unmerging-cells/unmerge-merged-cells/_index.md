@@ -141,5 +141,5 @@ Ano, můžete procházet více listy v sešitu a podle potřeby zrušit sloučen
 ### Je Aspose.Cells kompatibilní s .NET Core?  
 Ano, Aspose.Cells je kompatibilní s .NET Core, takže je univerzální pro různé aplikace .NET.
 
-### Kde najdu další dokumentaci k Aspose.Cells?  
+### Kde najdu další dokumentaci na Aspose.Cells?  
  Kompletní dokumentaci si můžete prohlédnout na[Referenční stránka Aspose.Cells](https://reference.aspose.com/cells/net/).

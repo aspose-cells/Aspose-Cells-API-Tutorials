@@ -97,5 +97,5 @@ Ano! Opakováním kroků přidání hypertextového odkazu pro různé buňky m�
 Aspose.Cells nabízí robustní sadu funkcí pro vytváření, manipulaci a konverzi souborů Excel, díky čemuž je oblíbenou volbou pro vývojáře.
 ### Mohu upravit vzhled textu hypertextového odkazu?  
 Absolutně! Pomocí knihovny Aspose.Cells můžete nastavit vlastnosti formátování buněk pro změnu písma, barvy nebo stylů.
-### Existuje podpora komunity pro Aspose.Cells?  
+### Existuje komunitní podpora pro Aspose.Cells?  
  Ano! Podívejte se na jejich[fórum podpory](https://forum.aspose.com/c/cells/9) za pomoc a rady komunity.

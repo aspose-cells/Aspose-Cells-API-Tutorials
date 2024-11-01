@@ -46,7 +46,7 @@ string outputDir = "Your Output Directory"; // Perbarui dengan jalur yang Anda i
 
  Mengganti`"Your Output Directory"` dengan jalur sebenarnya di mana Anda ingin menyimpan berkas Anda.
 
-## Langkah 2: Membuat Instansiasi Objek Buku Kerja
+## Langkah 2: Membuat Instansi Objek Buku Kerja
 
  Selanjutnya, Anda perlu membuat instance baru dari`Workbook` kelas. Objek ini akan mewakili berkas Excel Anda, yang memungkinkan Anda memanipulasi isinya.
 

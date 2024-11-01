@@ -12,7 +12,7 @@ Ebben az átfogó útmutatóban mindent lépésről lépésre lebontunk, így m�
 ## Előfeltételek
 Mielőtt elkezdenénk, van néhány dolog, amit a helyére kell tenni. Nem kell aggódnia – minden nagyon egyszerű. Íme, mire van szüksége az induláshoz:
 -  Aspose.Cells for .NET: Letöltheti[itt](https://releases.aspose.com/cells/net/).
-- A C# és a .NET alapvető ismerete.
+- C# és a .NET alapvető ismerete.
 - .NET fejlesztésre kész környezet (Visual Studio vagy bármely preferált IDE).
 - Egy minta Excel-fájl az exportálni kívánt megjegyzésekkel (vagy használhatja az oktatóanyagban található fájlt).
  Ha nincs telepítve az Aspose.Cells for .NET, akkor kipróbálhatja a[ingyenes próbaverzió](https://releases.aspose.com/) . Segítségre van szüksége a beállításhoz? Nézze meg a[dokumentáció](https://reference.aspose.com/cells/net/) útmutatásért.
@@ -49,7 +49,7 @@ Most jön a döntő rész – az exportálási beállítások konfigurálása. M
 HtmlSaveOptions opts = new HtmlSaveOptions();
 opts.IsExportComments = true;
 ```
- Beállítással`IsExportComments` hogy`true`utasítjuk az Aspose.Cells-t, hogy az Excel-fájl összes megjegyzését tartalmazza a HTML-kimenetben. Ez egy egyszerű, de hatékony lehetőség, amely biztosítja, hogy semmi fontos se vesszen el az átalakítás során.
+ Beállítás által`IsExportComments` hogy`true`, utasítjuk az Aspose.Cells-t, hogy az Excel-fájl összes megjegyzését tartalmazza a HTML-kimenetben. Ez egy egyszerű, de hatékony lehetőség, amely biztosítja, hogy semmi fontos se vesszen el az átalakítás során.
 ## 4. lépés: Mentse el az Excel fájlt HTML formátumban
  Most, hogy betöltöttük az Excel fájlt és konfiguráltuk az exportálási beállításokat, az utolsó lépés a fájl HTML-dokumentumként történő mentése. Az Aspose.Cells ezt hihetetlenül egyszerűvé teszi. Mindössze annyit kell tennünk, hogy felhívjuk a`Save` módszer rajtunk`Workbook` objektum, átadva a kívánt kimeneti formátumot és opciókat.
 Íme a kód:
@@ -59,7 +59,7 @@ string outputDir = "Your Document Directory";
 // Mentse a munkafüzetet HTML formátumba az exportált megjegyzésekkel
 wb.Save(outputDir + "outputExportCommentsHTML.html", opts);
 ```
- Ebben a lépésben HTML-dokumentumként mentjük az Excel-fájlt, és exportáljuk vele együtt a megjegyzéseket. Csak cseréld ki`"Your Document Directory"` azzal a tényleges könyvtárral, ahová a HTML-fájlt menteni szeretné.
+ Ebben a lépésben HTML-dokumentumként mentjük az Excel-fájlt, és exportáljuk vele együtt a megjegyzéseket. Csak cseréld ki`"Your Document Directory"`azzal a tényleges könyvtárral, ahová a HTML-fájlt menteni szeretné.
 ## 5. lépés: Futtassa az alkalmazást
 Most, hogy minden be van állítva, ideje futtatni az alkalmazást. Nyissa meg a terminált (vagy a Visual Studio kimeneti ablakát), és valami ilyesmit fog látni:
 ```plaintext
@@ -70,7 +70,7 @@ Ez az üzenet megerősíti, hogy a fájlt sikeresen konvertálta HTML formátumb
 És megvan! Most tanulta meg, hogyan exportálhat megjegyzéseket Excel-fájlból HTML-be az Aspose.Cells for .NET segítségével. Ez a folyamat nemcsak egyszerű, hanem azt is biztosítja, hogy egyetlen kritikus megjegyzése vagy megjegyzése se maradjon le a HTML-re konvertáláskor. Akár dinamikus jelentések létrehozásán dolgozik, akár egyszerűen Excel-fájlokat konvertál webes használatra, ez a funkció igazi életmentő lehet.
 ## GYIK
 ### Exportálhatok csak meghatározott megjegyzéseket egy Excel-fájlból HTML-be?  
- Nem, az Aspose.Cells minden megjegyzést exportál, amikor`IsExportComments` igazra van állítva. Az Excel-fájl exportálás előtti manuális módosításával azonban testreszabhatja, hogy mely megjegyzések szerepeljenek.
+Nem, az Aspose.Cells minden megjegyzést exportál, amikor`IsExportComments` igazra van állítva. Az Excel-fájl exportálás előtti manuális módosításával azonban testreszabhatja, hogy mely megjegyzések szerepeljenek.
 ### A megjegyzések exportálása befolyásolja a HTML-fájl elrendezését?  
 Egyáltalán nem! Az Aspose.Cells biztosítja, hogy az elrendezés érintetlen maradjon, miközben a megjegyzések további elemként kerülnek be a HTML-fájlba.
 ### Exportálhatok megjegyzéseket más formátumba, például PDF vagy Word formátumba?  

@@ -8,7 +8,7 @@ weight: 26
 url: /it/net/creating-and-configuring-pivot-tables/saving-with-custom-sort-and-hide/
 ---
 ## Introduzione
-Nel mondo dell'analisi dei dati, le tabelle pivot sono uno degli strumenti più potenti per riassumere, analizzare e presentare i dati in un formato digeribile. Se lavori con .NET e stai cercando un modo semplice per manipolare le tabelle pivot, in particolare per salvarle con un ordinamento personalizzato e nascondere righe specifiche, sei nel posto giusto! Oggi, spiegheremo la tecnica di salvataggio delle tabelle pivot utilizzando Aspose.Cells per .NET. Questa guida ti guiderà attraverso tutto, dai prerequisiti agli esempi pratici, assicurandoti di essere equipaggiato per affrontare attività simili da solo. Quindi, iniziamo subito!
+Nel mondo dell'analisi dei dati, le tabelle pivot rappresentano uno degli strumenti più potenti per riassumere, analizzare e presentare i dati in un formato digeribile. Se lavori con .NET e stai cercando un modo semplice per manipolare le tabelle pivot, in particolare per salvarle con un ordinamento personalizzato e nascondere righe specifiche, sei nel posto giusto! Oggi, spiegheremo la tecnica di salvataggio delle tabelle pivot utilizzando Aspose.Cells per .NET. Questa guida ti guiderà attraverso tutto, dai prerequisiti agli esempi pratici, assicurandoti di essere equipaggiato per affrontare attività simili da solo. Quindi, iniziamo subito!
 ## Prerequisiti
 Prima di addentrarci nei dettagli della codifica, assicurati di avere i seguenti prerequisiti:
 1. Visual Studio: Idealmente, vorresti un IDE solido per gestire i tuoi progetti .NET. Visual Studio è un'ottima scelta.
@@ -103,7 +103,7 @@ Aspose.Cells per .NET è una libreria .NET che consente agli sviluppatori di cre
 ### Posso usare Aspose.Cells senza avere installato Microsoft Office?
 Assolutamente! Aspose.Cells è una libreria autonoma, quindi non è necessario che Microsoft Office sia installato sul sistema per lavorare con i file Excel.
 ### Come posso ottenere una licenza temporanea per Aspose.Cells?
- È possibile richiedere una licenza temporanea tramite[pagina licenza temporanea](https://purchase.aspose.com/temporary-license/).
+ È possibile richiedere una licenza temporanea tramite[pagina della licenza temporanea](https://purchase.aspose.com/temporary-license/).
 ### Dove posso trovare supporto per i problemi di Aspose.Cells?
  Per qualsiasi domanda o problema, puoi visitare il[Forum di Aspose](https://forum.aspose.com/c/cells/9), dove troverai supporto dalla community e dal team Aspose.
 ### È disponibile una prova gratuita per Aspose.Cells?

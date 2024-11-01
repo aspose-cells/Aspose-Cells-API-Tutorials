@@ -134,4 +134,4 @@ Plik XLSB to binarny format pliku programu Excel, który przechowuje dane arkusz
 Oczywiście! Aspose.Cells obsługuje wiele formatów plików, w tym XLSX, CSV i inne.
 
 ### Gdzie mogę szukać pomocy, jeśli napotkam problemy?  
- Wsparcie możesz uzyskać na forach Aspose[Tutaj](https://forum.aspose.com/c/cells/9).
+Wsparcie możesz uzyskać na forach Aspose[Tutaj](https://forum.aspose.com/c/cells/9).

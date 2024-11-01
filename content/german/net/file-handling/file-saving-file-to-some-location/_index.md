@@ -12,7 +12,7 @@ Beim Arbeiten mit Excel-Dateien in .NET ist die Aspose.Cells-Bibliothek ein leis
 ## Voraussetzungen
 Bevor wir uns in den Code stürzen, statten wir Sie mit allem aus, was Sie brauchen, um nahtlos mitmachen zu können. Folgendes sollten Sie haben:
 1. Visual Studio: Stellen Sie sicher, dass Visual Studio auf Ihrem Computer installiert ist. Hier werden wir unsere .NET-Anwendung schreiben und testen.
-2. Aspose.Cells-Bibliothek: Sie müssen die Aspose.Cells-Bibliothek herunterladen. Sie können die neueste Version erhalten[Hier](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells-Bibliothek: Sie müssen die Aspose.Cells-Bibliothek herunterladen. Sie können die neueste Version erhalten[Hier](https://releases.aspose.com/cells/net/).
 3. .NET Framework: Stellen Sie sicher, dass Sie eine kompatible .NET Framework-Version für Aspose.Cells haben, die normalerweise mit .NET Framework 4.0 und höher funktioniert.
 4. Grundlegende Kenntnisse in C#: Grundlegende Kenntnisse der C#-Programmierung sind von Vorteil. Keine Sorge, wir erklären Ihnen alles Schritt für Schritt!
 5.  Dateipfad: Entscheiden Sie, wo Sie die Ausgabedateien speichern möchten. Erstellen Sie ein Verzeichnis mit dem Namen`Your Document Directory` der Einfachheit halber.
@@ -47,9 +47,9 @@ Manchmal müssen Sie Ihre Dateien aus Kompatibilitätsgründen in einem älteren
 // Im Excel 97–2003-Format speichern
 workbook.Save(dataDir + "output.xls");
 ```
- Diese Zeile speichert Ihre Arbeitsmappe mit dem`.xls`Erweiterung, das ist das Excel-Format für Versionen vor 2007. Es ist, als würden Sie einen Brief per Post versenden, um sicherzustellen, dass er einen älteren Empfänger erreicht!
+ Diese Zeile speichert Ihre Arbeitsmappe mit dem`.xls` Erweiterung, das ist das Excel-Format für Versionen vor 2007. Es ist, als würden Sie einen Brief per Post versenden, um sicherzustellen, dass er einen älteren Empfänger erreicht!
 ## Schritt 4: Speichern im Excel 2007-Format
- Wenn Sie Funktionen aus Excel 2007 und höher nutzen möchten, speichern Sie in`.xlsx` Format ist der richtige Weg. So geht's:
+Wenn Sie Funktionen aus Excel 2007 und höher nutzen möchten, speichern Sie in`.xlsx` Format ist der richtige Weg. So geht's:
 ```csharp
 // Im Excel 2007 XLSX-Format speichern
 workbook.Save(dataDir + "output.xlsx");

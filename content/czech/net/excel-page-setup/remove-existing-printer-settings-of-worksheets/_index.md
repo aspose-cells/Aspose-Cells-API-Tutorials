@@ -71,7 +71,7 @@ Workbook wb = new Workbook(sourceDir + "sampleRemoveExistingPrinterSettingsOfWor
 
 Tento řádek otevře soubor Excel a připraví jej na úpravy.
 
-## Krok 3: Získejte počet pracovních listů
+## Krok 3: Získejte počet listů
 
 Nyní, když máme náš sešit, pojďme zjistit, kolik listů obsahuje:
 

@@ -103,7 +103,7 @@ workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
 
 - 此程式碼將 Excel 檔案以 Excel 97-2003 格式儲存在指定目錄中，名稱為「book1.out.xls」。
 ## 結論
-現在你就得到它了！您剛剛學習如何使用 Aspose.Cells for .NET 在 Excel 中套用不同的字體樣式。這個功能強大的程式庫可讓您以程式設計方式操作 Excel 文件，從而提高您的工作效率和資料的視覺吸引力。因此，像專業人士一樣自訂您的 Excel 工作表 — 您的電子表格值得擁有額外的功能！
+現在你就擁有了！您剛剛學習如何使用 Aspose.Cells for .NET 在 Excel 中套用不同的字體樣式。這個功能強大的程式庫可讓您以程式設計方式操作 Excel 文件，從而提高您的工作效率和資料的視覺吸引力。因此，像專業人士一樣自訂您的 Excel 工作表 — 您的電子表格值得擁有額外的功能！
 ## 常見問題解答
 ### 什麼是 Aspose.Cells？  
 Aspose.Cells 是一個用於處理 Excel 檔案的 .NET 程式庫，允許對電子表格進行廣泛的自訂和操作。

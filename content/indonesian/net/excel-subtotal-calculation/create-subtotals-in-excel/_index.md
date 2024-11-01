@@ -29,7 +29,7 @@ Untuk memulai, kita perlu menentukan di mana file Excel kita berada. Di sinilah 
 ```csharp
 string dataDir = "Your Document Directory";
 ```
- Mengganti`"Your Document Directory"` dengan jalur sebenarnya tempat Anda`book1.xls`disimpan. Ini memberi tahu program tempat menemukan file Excel yang akan kita manipulasi.
+ Mengganti`"Your Document Directory"` dengan jalur sebenarnya tempat Anda`book1.xls` disimpan. Ini memberi tahu program tempat menemukan file Excel yang akan kita manipulasi.
 ## Langkah 2: Buat Buku Kerja Baru
 Selanjutnya, kita akan membuat contoh baru dari objek Workbook. Ini akan memungkinkan kita untuk membuka dan mengedit berkas Excel kita.
 ```csharp
@@ -51,7 +51,7 @@ ca.StartColumn = 1;
 ca.EndRow = 18; // abad ke-19
 ca.EndColumn = 2;
 ```
- Di sini, kami mendefinisikan`CellArea`yang menentukan rentang yang kita minati. Dalam kasus ini, kita telah memilih area dari B3 (Baris 2, Kolom 1) hingga C19 (Baris 18, Kolom 2). Di sinilah kita akan menghitung subtotal kita.
+ Di sini, kami mendefinisikan`CellArea` yang menentukan rentang yang kita minati. Dalam kasus ini, kita telah memilih area dari B3 (Baris 2, Kolom 1) hingga C19 (Baris 18, Kolom 2). Di sinilah kita akan menghitung subtotal kita.
 ## Langkah 5: Terapkan Subtotal
 Inilah inti operasi kami – menerapkan subtotal ke area sel yang ditentukan.
 ```csharp
@@ -60,7 +60,7 @@ cells.Subtotal(ca, 0, ConsolidationFunction.Sum, new int[] { 1 });
  Pada baris ini, kita menyebutnya`Subtotal` metode. Parameter yang ditetapkan adalah:
 - `ca`: Rentang sel yang telah kita definisikan sebelumnya.
 - `0`: Indeks ini merujuk pada kolom yang memuat nilai yang akan dijumlahkan. 
-- `ConsolidationFunction.Sum`: Ini menentukan bahwa kita ingin menjumlahkan nilai-nilainya.
+- `ConsolidationFunction.Sum`Ini menentukan bahwa kita ingin menjumlahkan nilai-nilainya.
 - `new int[] { 1 }`: Ini menunjukkan bahwa kita menjumlahkan nilai dari kolom kedua (Kolom C).
 ## Langkah 6: Simpan File Excel yang Telah Dimodifikasi
 Terakhir, kita perlu menyimpan perubahan kita ke berkas Excel baru. 

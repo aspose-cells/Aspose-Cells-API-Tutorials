@@ -44,7 +44,7 @@ Workbook wb1 = new Workbook();
 
 Inicializací nového sešitu máme nyní prázdný soubor Excel připravený k manipulaci. Je to jako začít s prázdným plátnem!
 
-## Krok 2: Otevřete první pracovní list
+## Krok 2: Otevřete první list
 
 Každý sešit obsahuje pracovní listy a v tomto případě chceme pracovat s tím prvním. Vezmeme to!
 

@@ -35,7 +35,7 @@ Aspose.Cells for .NET简化了文档转换，允许开发人员自动化流程�
 
 ## 将 Excel 文件转换为其他格式教程
 ### [在 .NET 中以编程方式将 CSV 转换为 JSON](./converting-csv-to-json/)
-了解如何使用 Aspose.Cells 在 .NET 中将 CSV 转换为 JSON。通过易于理解的代码示例，逐步指导数据转换。
+了解如何使用 Aspose.Cells 在 .NET 中将 CSV 转换为 JSON。通过易于理解的代码示例提供数据转换的分步指南。
 ### [在 .NET 中以编程方式将 Excel 文件转换为 DOCX](./converting-excel-file-to-docx/)
 在本分步指南中了解如何使用 Aspose.Cells for .NET 以编程方式将 Excel 文件转换为 DOCX。非常适合生成报告和共享数据。
 ### [在 .NET 中将 Excel 文件转换为带有工具提示的 HTML](./converting-excel-file-to-html-with-tooltip/)

@@ -101,7 +101,7 @@ chart.NSeries[0].Area.FillFormat.FillType = Aspose.Cells.Drawing.FillType.Solid;
 بعد ذلك، سنحتاج إلى تحديد لون منطقة التعبئة في الرسم البياني. وبهذه الطريقة نضفي الحيوية على اللون الذي اخترناه.
 
 ```csharp
-// احصل على لون الخلايا من SolidFill
+//احصل على لون الخلايا من SolidFill
 CellsColor cc = chart.NSeries[0].Area.FillFormat.SolidFill.CellsColor;
 ```
 

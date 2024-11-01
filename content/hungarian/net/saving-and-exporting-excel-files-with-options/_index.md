@@ -17,7 +17,7 @@ Az Aspose.Cells for .NET hatékony eszközöket kínál a fejlesztőknek az Exce
 
 ## Figyelmeztetések az Excel-fájl betöltésekor a .NET-ben
 
- Excel-fájl betöltésekor bizonyos adatformátumok vagy -tartalmak figyelmeztetéseket válthatnak ki. Ismerje meg, hogyan kezelheti és értelmezheti ezeket a figyelmeztetéseket a[Figyelmeztetések az Excel-fájl betöltésekor a .NET-ben](./getting-warnings-while-loading-excel-file/)oktatóanyag. Ez az útmutató kötelező azoknak a fejlesztőknek, akik hatékonyan kívánják kezelni és megoldani a kompatibilitási problémákat vagy a formázási figyelmeztetéseket. Ha korán kezeli ezeket a figyelmeztetéseket, simább, hibamentes élményt biztosít a fájlok alkalmazásba való betöltésekor.
+ Excel-fájl betöltésekor bizonyos adatformátumok vagy -tartalmak figyelmeztetéseket válthatnak ki. Ismerje meg, hogyan kezelheti és értelmezheti ezeket a figyelmeztetéseket a[Figyelmeztetések az Excel-fájl betöltésekor a .NET-ben](./getting-warnings-while-loading-excel-file/) oktatóanyag. Ez az útmutató kötelező azoknak a fejlesztőknek, akik hatékonyan kívánják kezelni és megoldani a kompatibilitási problémákat vagy a formázási figyelmeztetéseket. Ha korán kezeli ezeket a figyelmeztetéseket, simább, hibamentes élményt biztosít a fájlok alkalmazásba való betöltésekor.
 
 ## Az Excel fájl dokumentumverziójának programozott megadása .NET-ben
 
@@ -25,7 +25,7 @@ Az Aspose.Cells for .NET hatékony eszközöket kínál a fejlesztőknek az Exce
 
 ### Vezető üres sorok és oszlopok kivágása exportálás közben
 
- Az üres sorok és oszlopok megzavarhatják az exportálást, különösen CSV-fájlok kezelésekor. A[Vezető üres sorok és oszlopok kivágása exportálás közben](./trimming-leading-blank-rows-and-columns/)Az oktatóprogram lehetővé teszi az adatok megtisztítását úgy, hogy a sorok és oszlopok elején levágja a felesleges üres helyeket. Ez az oktatóanyag tökéletes azoknak a fejlesztőknek, akik tömör és rendezett fájlokat szeretnének létrehozni, amelyek készek elemzésre vagy bemutatásra. A tiszta, csiszolt kimenet nem csak professzionálisnak tűnik, de az adatfeldolgozást is sokkal könnyebbé teszi.
+Az üres sorok és oszlopok megzavarhatják az exportálást, különösen CSV-fájlok kezelésekor. A[Vezető üres sorok és oszlopok kivágása exportálás közben](./trimming-leading-blank-rows-and-columns/) Az oktatóprogram lehetővé teszi az adatok megtisztítását úgy, hogy a sorok és oszlopok elején levágja a felesleges üres helyeket. Ez az oktatóanyag tökéletes azoknak a fejlesztőknek, akik tömör és rendezett fájlokat szeretnének létrehozni, amelyek készek elemzésre vagy bemutatásra. A tiszta, csiszolt kimenet nem csak professzionálisnak tűnik, de az adatfeldolgozást is sokkal könnyebbé teszi.
 
 ## Excel-fájlok mentése és exportálása az Options Tutorials segítségével
 ### [Megjegyzések exportálása az Excel-fájl HTML-be mentésekor](./exporting-comments/)

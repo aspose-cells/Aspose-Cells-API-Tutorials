@@ -29,7 +29,7 @@ Chcete-li začít, musíme definovat, kde se nachází náš soubor Excel. Zde �
 ```csharp
 string dataDir = "Your Document Directory";
 ```
- Nahradit`"Your Document Directory"` se skutečnou cestou, kde jste`book1.xls`je uložen. To programu řekne, kde najde soubor Excel, se kterým budeme manipulovat.
+ Nahradit`"Your Document Directory"` se skutečnou cestou, kde jste`book1.xls` je uložen. To programu řekne, kde najde soubor Excel, se kterým budeme manipulovat.
 ## Krok 2: Vytvořte nový sešit
 Dále vytvoříme novou instanci objektu Workbook. To nám umožní otevřít a upravit náš soubor Excel.
 ```csharp
@@ -51,7 +51,7 @@ ca.StartColumn = 1;
 ca.EndRow = 18; // C19
 ca.EndColumn = 2;
 ```
- Zde definujeme a`CellArea`která určuje rozsah, který nás zajímá. V tomto případě jsme zvolili oblast od B3 (řádek 2, sloupec 1) do C19 (řádek 18, sloupec 2). Zde budeme počítat naše mezisoučty.
+ Zde definujeme a`CellArea` která určuje rozsah, který nás zajímá. V tomto případě jsme zvolili oblast od B3 (řádek 2, sloupec 1) do C19 (řádek 18, sloupec 2). Zde budeme počítat naše mezisoučty.
 ## Krok 5: Použijte mezisoučty
 To je srdce naší operace – použití mezisoučtu na definovanou oblast buněk.
 ```csharp
@@ -60,7 +60,7 @@ cells.Subtotal(ca, 0, ConsolidationFunction.Sum, new int[] { 1 });
  V tomto řádku nazýváme`Subtotal` metoda. Definované parametry jsou:
 - `ca`: Rozsah buněk, který jsme definovali dříve.
 - `0`: Tento index odkazuje na sloupec, který obsahuje hodnoty, které mají být sečteny. 
-- `ConsolidationFunction.Sum`: To určuje, že chceme sečíst hodnoty.
+- `ConsolidationFunction.Sum`To určuje, že chceme sečíst hodnoty.
 - `new int[] { 1 }`: To znamená, že sčítáme hodnoty z druhého sloupce (sloupec C).
 ## Krok 6: Uložte upravený soubor Excel
 Nakonec musíme uložit naše změny do nového souboru Excel. 

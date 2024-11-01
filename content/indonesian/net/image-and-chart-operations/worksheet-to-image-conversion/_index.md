@@ -58,7 +58,7 @@ Sekarang setelah buku kerja kita terbuka, mari mengakses lembar kerja pertama:
 // Dapatkan lembar kerja pertama.
 Worksheet sheet = book.Worksheets[0];
 ```
- Di sini, kita mengambil lembar kerja pertama (indeks`0` ) dari buku kerja. Array Aspose.Cells diindeks nol, yang berarti lembar pertama adalah`0`.
+ Di sini, kita mengambil lembar kerja pertama (indeks`0` dari buku kerja. Array Aspose.Cells diindeks nol, yang berarti lembar pertama adalah`0`.
 ## Langkah 6: Tentukan Opsi Gambar atau Cetak
  Sebelum kita merender gambar, kita perlu menentukan bagaimana kita ingin gambar tersebut terlihat menggunakan`ImageOrPrintOptions`:
 ```csharp
@@ -82,7 +82,7 @@ Bitmap bitmap = sr.ToImage(0);
 ## Langkah 8: Menyimpan Gambar
 Setelah melakukan rendering, kita perlu menyimpan gambar ke direktori yang ditentukan:
 ```csharp
-// Simpan berkas gambar dengan menentukan format gambarnya.
+//Simpan berkas gambar dengan menentukan format gambarnya.
 bitmap.Save(dataDir + "SheetImage.out.jpg");
 ```
  Di sini, kita menyimpan gambar bitmap yang kita buat. Baris ini menulis gambar ke`dataDir` lokasi dengan nama file`SheetImage.out.jpg`.
@@ -99,7 +99,7 @@ Nah, itu dia! Hanya dalam beberapa langkah sederhana, Anda telah mempelajari car
 ### Apa itu Aspose.Cells?
 Aspose.Cells adalah pustaka .NET yang memungkinkan pengembang untuk membuat, memanipulasi, mengonversi, dan memproses file Excel secara terprogram.
 ### Bisakah saya menggunakan Aspose.Cells secara gratis?
-Ya, Anda dapat mulai menggunakan Aspose.Cells dengan mengunduh uji coba gratis dari mereka[situs web](https://releases.aspose.com/).
+ Ya, Anda dapat mulai menggunakan Aspose.Cells dengan mengunduh uji coba gratis dari mereka[situs web](https://releases.aspose.com/).
 ### Format gambar apa yang didukung Aspose.Cells untuk ekspor?
 Aspose.Cells mendukung berbagai format gambar, termasuk JPEG, PNG, BMP, dan GIF.
 ### Di mana saya dapat menemukan dukungan tambahan untuk Aspose.Cells?

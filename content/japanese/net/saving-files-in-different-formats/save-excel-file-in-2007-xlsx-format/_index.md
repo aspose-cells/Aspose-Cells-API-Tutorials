@@ -12,7 +12,7 @@ url: /ja/net/saving-files-in-different-formats/save-excel-file-in-2007-xlsx-form
 ## 前提条件
 詳細に入る前に、準備しておく必要のある前提条件がいくつかあります。
 1. Visual Studio - システムに Visual Studio がインストールされていることを確認してください。Visual Studio は、C# コードを簡単に記述して実行するのに役立ちます。
-2.  Aspose.Cells ライブラリ - Aspose.Cells for .NET ライブラリが必要です。これは、次の場所から簡単にダウンロードできます。[Aspose Cells リリース ページ](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells ライブラリ - Aspose.Cells for .NET ライブラリが必要です。これは、次の場所から簡単にダウンロードできます。[Aspose Cells リリース ページ](https://releases.aspose.com/cells/net/).
 3. 基本的なプログラミング知識 - C# と .NET に多少精通していると、ここで説明するコード スニペットの理解が深まります。
 4. テスト ドキュメント ディレクトリ - Excel ファイルを保存してテストするフォルダーを作成または決定します。このチュートリアルでは、これを「ドキュメント ディレクトリ」と呼びます。
 すべて準備が整いました。あなたのスキルを披露する準備は万端です!

@@ -78,7 +78,7 @@ Ezzel a sorral biztosíthatja, hogy a függőleges oldaltörések is eltűnjenek
 
 ## 5. lépés: Mentse el a változtatásokat
 
-Végül, nem akarod elveszíteni ezt a kemény munkát, igaz? Ideje elmenteni az újonnan módosított munkafüzetet.
+Végül, nem akarod elveszíteni ezt a kemény munkát, igaz? Ideje menteni az újonnan módosított munkafüzetet.
 
 ```csharp
 workbook.Save(dataDir + "ClearAllPageBreaks_out.xls");

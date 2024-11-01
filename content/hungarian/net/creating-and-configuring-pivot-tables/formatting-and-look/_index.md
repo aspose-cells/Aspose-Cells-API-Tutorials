@@ -46,7 +46,7 @@ string dataDir = "Your Document Directory";
 // Töltsön be egy sablonfájlt
 Workbook workbook = new Workbook(dataDir + "Book1.xls");
 ```
- Amikor cseréled`"Book1.xls"` a tényleges fájlnévvel, a`workbook` Az objektum most az Excel adatokat fogja tartalmazni.
+ Amikor kicseréled`"Book1.xls"` a tényleges fájlnévvel, a`workbook` Az objektum most az Excel adatokat fogja tartalmazni.
 ## 3. lépés: Nyissa meg a munkalapot és a kimutatást
 Most meg akarjuk ragadni azt a lapot és pivot táblát, amellyel dolgozni fogunk:
 ```csharp

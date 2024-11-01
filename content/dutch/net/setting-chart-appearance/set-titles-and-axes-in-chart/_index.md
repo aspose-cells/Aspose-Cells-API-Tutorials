@@ -78,7 +78,7 @@ worksheet.Cells["B2"].PutValue(32);
 worksheet.Cells["B3"].PutValue(50);
 ```
 
-Hier plaatst u gegevens in de A- en B-kolommen van uw werkblad. Deze gegevens dienen als de dataset van onze grafiek. Snelle vraag: is het niet bevredigend om te zien dat getallen cellen vullen?
+Hier plaatst u gegevens in de kolommen A en B van uw werkblad. Deze gegevens dienen als de dataset van onze grafiek. Snelle vraag: is het niet bevredigend om te zien dat getallen cellen vullen?
 
 ## Stap 4: Voeg een grafiek toe
 

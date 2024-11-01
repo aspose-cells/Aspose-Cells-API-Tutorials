@@ -2,7 +2,7 @@
 title: Excel ファイルを HTML に保存しながらコメントをエクスポートする
 linktitle: Excel ファイルを HTML に保存しながらコメントをエクスポートする
 second_title: Aspose.Cells .NET Excel 処理 API
-description: Aspose.Cells for .NET を使用して、Excel ファイルを HTML に保存しながらコメントを簡単にエクスポートする方法を学びます。注釈を保持するには、このステップ バイ ステップ ガイドに従ってください。
+description: Aspose.Cells for .NET を使用して Excel ファイルを HTML に保存しながらコメントを簡単にエクスポートする方法を学びます。注釈を保持するには、このステップ バイ ステップ ガイドに従ってください。
 type: docs
 weight: 10
 url: /ja/net/saving-and-exporting-excel-files-with-options/exporting-comments/
@@ -30,7 +30,7 @@ using System.Text;
 1. NuGet パッケージ マネージャーを開きます。
 2. Aspose.Cells を検索します。
 3. Aspose.Cells for .NET の最新バージョンをインストールします。
-これを行うことで、Aspose.Cells を使用してコーディングを開始し、Excel ファイルをプログラムで操作する準備が整います。
+これを行うと、Aspose.Cells を使用してコーディングを開始し、Excel ファイルをプログラムで操作する準備が整います。
 ## ステップ2: コメント付きのExcelファイルを読み込む
 プロジェクトがセットアップされたので、Excel ファイルの読み込みに移りましょう。ファイルに HTML にエクスポートするコメントが含まれていることを確認します。まず、ファイルを Workbook オブジェクトに読み込みます。
 やり方は次のとおりです:
@@ -59,7 +59,7 @@ string outputDir = "Your Document Directory";
 //コメントをエクスポートしてワークブックをHTML形式で保存する
 wb.Save(outputDir + "outputExportCommentsHTML.html", opts);
 ```
-このステップでは、ExcelファイルをHTMLドキュメントとして保存し、コメントも一緒にエクスポートします。`"Your Document Directory"` HTML ファイルを保存する実際のディレクトリに置き換えます。
+このステップでは、ExcelファイルをHTMLドキュメントとして保存し、コメントも一緒にエクスポートします。`"Your Document Directory"`HTML ファイルを保存する実際のディレクトリに置き換えます。
 ## ステップ5: アプリケーションを実行する
 すべての設定が完了したら、アプリケーションを実行します。ターミナル (または Visual Studio の出力ウィンドウ) を開くと、次のような画面が表示されます。
 ```plaintext

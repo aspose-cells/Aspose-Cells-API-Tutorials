@@ -100,7 +100,7 @@ Workbook workbook = new Workbook(sourceDir + "sampleModifyPieChart.xlsx");
 Worksheet sheet = workbook.Worksheets[1];
 ```
 
- Erişim sağlayarak`Worksheets`koleksiyonunu kullanarak ihtiyacımız olan belirli sayfaya ulaşabiliriz.
+ Erişim sağlayarak`Worksheets` koleksiyonunu kullanarak ihtiyacımız olan belirli sayfaya ulaşabiliriz.
 
 ## Adım 4: Tabloyu Alın
 

@@ -13,15 +13,15 @@ Stai cercando di portare le tue competenze di personalizzazione di Excel a un li
 
 ## Personalizzazione dei temi di Excel a livello di programmazione
 
-Hai mai desiderato di poter personalizzare i temi di Excel a livello di codice? Con Aspose.Cells per .NET, diventa un gioco da ragazzi. Puoi modificare i temi a livello di programmazione per dare ai tuoi fogli di calcolo un tocco personalizzato. Immagina di poter applicare automaticamente lo schema di colori del tuo marchio su più file Excel! Le possibilità sono infinite. Se vuoi approfondire come puoi ottenere questo risultato, dai un'occhiata alla guida completa qui:[Personalizzazione dei temi di Excel a livello di programmazione](./customizing-excel-themes/).
+ Hai mai desiderato di poter personalizzare i temi di Excel a livello di codice? Con Aspose.Cells per .NET, diventa un gioco da ragazzi. Puoi modificare i temi a livello di programmazione per dare ai tuoi fogli di calcolo un tocco personalizzato. Immagina di poter applicare automaticamente lo schema di colori del tuo marchio su più file Excel! Le possibilità sono infinite. Se vuoi approfondire come puoi ottenere questo risultato, dai un'occhiata alla guida completa qui:[Personalizzazione dei temi di Excel a livello di programmazione](./customizing-excel-themes/).
 
 ## Ottenere e impostare i colori del tema in Excel
 
- Successivamente, uno dei compiti più comuni quando si ha a che fare con i temi di Excel è ottenere e impostare i colori del tema. Utilizzando Aspose.Cells per .NET, puoi recuperare i colori del tema e persino modificarli in base alle tue preferenze. Questa funzionalità è particolarmente utile quando si lavora con modelli predefiniti o si assicura la coerenza nei report. Vuoi sapere come implementarla? Vai al tutorial completo:[Ottenere e impostare i colori del tema in Excel](./getting-and-setting-theme-colors/).
+Successivamente, uno dei compiti più comuni quando si ha a che fare con i temi di Excel è ottenere e impostare i colori del tema. Utilizzando Aspose.Cells per .NET, puoi recuperare i colori del tema e persino modificarli in base alle tue preferenze. Questa funzionalità è particolarmente utile quando si lavora con modelli predefiniti o si garantisce la coerenza tra i report. Vuoi sapere come implementarla? Vai al tutorial completo:[Ottenere e impostare i colori del tema in Excel](./getting-and-setting-theme-colors/).
 
 ## Utilizzo dei colori del tema in Excel a livello di programmazione
 
-Infine, applicare i colori del tema a livello di programmazione è un ottimo modo per garantire uniformità nei design dei fogli di calcolo. Aspose.Cells per .NET rende questo processo fluido ed efficiente. Che tu stia automatizzando report o generando fogli di calcolo al volo, questo tutorial ti guiderà passo dopo passo su come utilizzare i colori del tema in modo efficace in Excel. Esplora di più su questo argomento qui:[Utilizzo dei colori del tema in Excel a livello di programmazione](./utilizing-theme-colors/).
+ Infine, applicare i colori del tema a livello di programmazione è un ottimo modo per garantire uniformità nei design dei fogli di calcolo. Aspose.Cells per .NET rende questo processo fluido ed efficiente. Che tu stia automatizzando report o generando fogli di calcolo al volo, questo tutorial ti guiderà passo dopo passo su come utilizzare i colori del tema in modo efficace in Excel. Esplora di più su questo argomento qui:[Utilizzo dei colori del tema in Excel a livello di programmazione](./utilizing-theme-colors/).
 
 ## Tutorial su temi e formattazione di Excel
 ### [Personalizzazione dei temi di Excel a livello di programmazione](./customizing-excel-themes/)

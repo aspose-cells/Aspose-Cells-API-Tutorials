@@ -54,7 +54,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 ```
 透過訪問`Worksheets[0]`，我們選擇第一個工作表。工作表的索引從零開始，因此請確保您選擇正確的工作表。
 ## 第 4 步：建立範圍
-現在是時候定義我們要搜尋超連結的範圍了。在我們的例子中，假設我們要查看單元格 A2 到 B3。
+現在是時候定義我們要搜尋超連結的範圍了。在我們的例子中，假設我們想要查看單元格 A2 到 B3。
 ```csharp
 //建立範圍 A2:B3
 Range range = worksheet.Cells.CreateRange("A2", "B3");

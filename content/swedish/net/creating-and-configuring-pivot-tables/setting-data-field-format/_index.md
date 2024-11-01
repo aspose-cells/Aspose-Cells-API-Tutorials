@@ -85,7 +85,7 @@ pivotField.BaseFieldIndex = 1; // Använd lämpligt index för basfält
 // Ställa in basobjektet
 pivotField.BaseItemPosition = Aspose.Cells.Pivot.PivotItemPosition.Next; // Välj nästa objekt
 ```
-## Steg 9: Ställ in talformatet
+## Steg 9: Ställ in sifferformatet
 Ta det ett steg längre, låt oss justera nummerformatet. Detta är ungefär som att bestämma hur du vill att siffrorna ska visas - låt oss göra dem snygga!
 ```csharp
 // Ställa in talformat

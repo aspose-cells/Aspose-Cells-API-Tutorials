@@ -70,7 +70,7 @@ Tout d'abord, nous devons définir le chemin d'accès de notre document Excel. C
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Astuce : Remplacer`"YOUR DOCUMENT DIRECTORY"`avec le chemin réel où se trouve votre fichier Excel (appelons-le`book1.xls`) est situé. 
+ Astuce : Remplacer`"YOUR DOCUMENT DIRECTORY"` avec le chemin réel où se trouve votre fichier Excel (appelons-le`book1.xls`) est situé. 
 
 ## Étape 2 : instancier un objet classeur
 

@@ -53,7 +53,7 @@ opts.PageSavingCallback = new TestTiffPageSavingCallback();
 opts.ImageType = ImageType.Tiff;
 ```
  Hier maken we een instantie van`ImageOrPrintOptions` en het vertellen dat we onze aangepaste callback-klasse willen gebruiken,`TestTiffPageSavingCallback`, om de voortgang bij te houden. We specificeren ook dat we willen dat het uitvoerafbeeldingstype TIFF is.
-## Stap 4: Implementeer de paginabesparende callback
+## Stap 4: Implementeer de pagina-opslag-callback
  De kern van het bijhouden van de conversievoortgang ligt in de implementatie van de`IPageSavingCallback` interface. Hier definieert u wat er gebeurt wanneer elke pagina begint en eindigt met opslaan. Zo stelt u dat in:
 ```csharp
 public class TestTiffPageSavingCallback : IPageSavingCallback

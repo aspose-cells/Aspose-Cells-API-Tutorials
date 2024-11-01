@@ -16,7 +16,7 @@ Alapvető ismeretekkel kell rendelkeznie a C#-ról és a .NET-keretrendszerről,
 ### Aspose.Cells Library
  Győződjön meg arról, hogy az Aspose.Cells for .NET könyvtárat letöltötte és hozzáadta a projekthez. Megkaphatod a legújabb verziót[itt](https://releases.aspose.com/cells/net/) . Ha még új vagy és szeretnéd kipróbálni, beszerezheted a[ingyenes próbaverzió](https://releases.aspose.com/).
 ### Fejlesztési környezet
-A .NET-alkalmazások fejlesztéséhez egy kompatibilis IDE, például a Visual Studio ajánlott. 
+.NET-alkalmazások fejlesztéséhez egy kompatibilis IDE, például a Visual Studio ajánlott. 
 ### Alapvető Excel fájl
  Szüksége lesz egy minta Excel-fájlra (úgy fogunk hivatkozni rá, mint`sampleDuplicateDefinedName.xlsx`), amelyek duplikált definiált neveket tartalmazhatnak a funkció teszteléséhez.
 ## Csomagok importálása
@@ -38,12 +38,12 @@ string dataDir = "Your Document Directory";
 ```
  Cserélje ki`"Your Document Directory"` azzal a tényleges elérési úttal a számítógépen, ahol az Excel fájl tárolva van. Ez az egyszerű kódsor a megfelelő irányba mutatja a programot!
 ## 2. lépés: Hozzon létre betöltési beállításokat
- Ezután hozzunk létre egy példányt`LoadOptions`. Itt kezdődik a varázslat. A betöltési beállítások konfigurálásával beállíthat egy visszahívást, amely minden alkalommal aktiválódik, amikor a munkafüzet betöltése közben figyelmeztetést észlel:
+ Ezután hozzunk létre egy példányt`LoadOptions`Itt kezdődik a varázslat. A betöltési beállítások konfigurálásával beállíthat egy visszahívást, amely minden alkalommal aktiválódik, amikor a munkafüzet betöltése közben figyelmeztetést észlel:
 ```csharp
 LoadOptions options = new LoadOptions();
 options.WarningCallback = new WarningCallback();
 ```
- Itt egy újat hozunk létre`LoadOptions` tárgyat és társítani a mi`WarningCallback`osztályba (amelyet a továbbiakban határozunk meg). Ez a beállítás elengedhetetlen ahhoz, hogy programunk kecsesen kezelje a figyelmeztetéseket.
+ Itt egy újat hozunk létre`LoadOptions` tárgyat és társítani a miénkkel`WarningCallback` osztályba (amelyet a továbbiakban határozunk meg). Ez a beállítás elengedhetetlen ahhoz, hogy programunk kecsesen kezelje a figyelmeztetéseket.
 ## 3. lépés: Töltse be az Excel forrásfájlt
  Ideje ténylegesen betölteni az Excel-fájlt! Itt hívja fel a`Workbook` osztály a fájl betöltéséhez a korábban meghatározott beállításokkal együtt:
 ```csharp
@@ -77,10 +77,10 @@ Ebben a részletben, amikor egy ismétlődő definiált név figyelmeztetés jel
 ### Mi az Aspose.Cells?
 Az Aspose.Cells egy hatékony .NET-könyvtár Excel-fájlok létrehozásához, kezeléséhez és konvertálásához Microsoft Excel nélkül.
 ### Használhatom ingyenesen az Aspose.Cells-t?
- Igen! Tudod[ingyenes próbaverzió letöltése](https://releases.aspose.com/) hogy tesztelje a képességeit.
+ Igen! Tudod[tölts le egy ingyenes próbaverziót](https://releases.aspose.com/) hogy tesztelje a képességeit.
 ### Hogyan vásárolhatom meg az Aspose.Cells-t?
  Az Aspose.Cells terméket közvetlenül tőlük vásárolhatja meg[vásárlási oldal](https://purchase.aspose.com/buy).
 ### Milyen típusú figyelmeztetéseket tudok kezelni?
- Különféle figyelmeztetéseket, például ismétlődő definiált neveket, képletfigyelmeztetéseket és stílusfigyelmeztetéseket kezelhet a segítségével`WarningCallback`.
+Különféle figyelmeztetéseket, például ismétlődő definiált neveket, képletfigyelmeztetéseket és stílusfigyelmeztetéseket kezelhet a segítségével`WarningCallback`.
 ### Hol találok dokumentációt az Aspose.Cellsről?
  Megnézheti az átfogót[dokumentáció itt](https://reference.aspose.com/cells/net/).

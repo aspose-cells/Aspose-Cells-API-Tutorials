@@ -12,7 +12,7 @@ Você já precisou converter uma pasta de trabalho do Excel para HTML e queria g
 Ao final deste artigo, você terá uma compreensão clara de como usar esse recurso e garantirá que sua saída HTML seja limpa e sem comentários.
 ## Pré-requisitos
 Antes de mergulharmos no guia passo a passo, vamos abordar algumas coisas que você precisa ter em mãos para seguir adiante sem problemas:
-1.  Aspose.Cells para .NET: Você precisará ter a biblioteca Aspose.Cells instalada. Se você ainda não a instalou, você pode baixá-la[aqui](https://releases.aspose.com/cells/net/).
+1. Aspose.Cells para .NET: Você precisará ter a biblioteca Aspose.Cells instalada. Se você ainda não a instalou, você pode baixá-la[aqui](https://releases.aspose.com/cells/net/).
 2. IDE: Um ambiente de desenvolvimento como o Visual Studio para escrever e executar seu código C#.
 3. Conhecimento básico de C#: familiaridade com a sintaxe C# e programação orientada a objetos ajudará você a acompanhar o código.
 4.  Versão temporária ou licenciada: você pode usar a versão de avaliação gratuita ou solicitar uma licença temporária em[aqui](https://purchase.aspose.com/temporary-license/). Isso garante que a biblioteca funcione sem quaisquer limitações.

@@ -19,7 +19,7 @@ Antes de mergulhar no código, certifique-se de ter o seguinte configurado:
 2. Ambiente de desenvolvimento .NET: certifique-se de que seu projeto esteja configurado para usar o .NET Framework ou o .NET Core.
 3. Conhecimento básico de C#: você deve estar familiarizado com programação em C#, especialmente programação orientada a objetos (POO).
 
-Para usuários avançados, uma licença temporária pode ser aplicada para desbloquear todos os recursos do Aspose.Cells. Você pode solicitar uma de[aqui](https://purchase.aspose.com/temporary-license/).
+ Para usuários avançados, uma licença temporária pode ser aplicada para desbloquear todos os recursos do Aspose.Cells. Você pode solicitar uma de[aqui](https://purchase.aspose.com/temporary-license/).
 
 ## Pacotes de importação
 
@@ -100,7 +100,7 @@ int chartIndex = chartSheet.Charts.Add(Aspose.Cells.Charts.ChartType.Pie, 5, 0, 
 Aspose.Cells.Charts.Chart chart = chartSheet.Charts[chartIndex];
 ```
 
- O método`Add()` aceita parâmetros para o tipo de gráfico (neste caso,`ChartType.Pie`), e sua localização na planilha. Os números representam posições de linha e coluna.
+ O método`Add()`aceita parâmetros para o tipo de gráfico (neste caso,`ChartType.Pie`), e sua localização na planilha. Os números representam posições de linha e coluna.
 
 ## Etapa 5: personalizar a aparência do gráfico
 
@@ -187,7 +187,7 @@ Criar um gráfico de pizza com o Aspose.Cells para .NET é um processo simples e
 Sim! O Aspose.Cells suporta vários tipos de gráficos, incluindo gráficos de barras, gráficos de linhas e gráficos de dispersão.
 
 ### Preciso de uma licença paga para usar o Aspose.Cells para .NET?
- Você pode usar a versão gratuita com algumas limitações. Para recursos completos, você precisará de uma licença, que pode ser comprada[aqui](https://purchase.aspose.com/buy).
+Você pode usar a versão gratuita com algumas limitações. Para recursos completos, você precisará de uma licença, que pode ser comprada[aqui](https://purchase.aspose.com/buy).
 
 ### Posso exportar o gráfico para formatos como PDF ou imagens?
 Absolutamente! O Aspose.Cells permite que você exporte gráficos para vários formatos, incluindo PDF e PNG.

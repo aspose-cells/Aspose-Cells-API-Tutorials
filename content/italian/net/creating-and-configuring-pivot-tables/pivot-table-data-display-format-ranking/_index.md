@@ -1,6 +1,6 @@
 ---
-title: Classifica del formato di visualizzazione dei dati della tabella pivot in .NET
-linktitle: Classifica del formato di visualizzazione dei dati della tabella pivot in .NET
+title: Formato di visualizzazione dei dati della tabella pivot in .NET
+linktitle: Formato di visualizzazione dei dati della tabella pivot in .NET
 second_title: API di elaborazione Excel .NET Aspose.Cells
 description: Scopri come creare e gestire le classifiche dei formati di visualizzazione dei dati delle tabelle pivot in .NET utilizzando Aspose.Cells con questa guida dettagliata.
 type: docs

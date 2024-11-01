@@ -35,11 +35,11 @@ Pokud jste ještě nenainstalovali Aspose.Cells, můžete tak učinit pomocí Nu
 
 - Otevřete Správce balíčků NuGet (klikněte pravým tlačítkem na svůj projekt v Průzkumníku řešení a vyberte Spravovat balíčky NuGet).
 - Vyhledejte Aspose.Cells.
-- Klikněte na Instalovat.
+- Klepněte na Instalovat.
 
 ### Importujte jmenný prostor
 
-V horní části souboru C# přidejte:
+horní části souboru C# přidejte:
 
 ```csharp
 using System.IO;

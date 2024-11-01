@@ -9,7 +9,7 @@ url: /zh-hant/net/excel-workbook/allow-leading-apostrophe/
 ---
 ## 介紹
 
-歡迎閱讀本逐步指南，以了解如何使用 Aspose.Cells for .NET 無縫管理電子表格，特別注意處理單元格值中的前導撇號。在當今以資料為中心的世界中，有效管理資料的能力至關重要。您是否注意到 Excel 有時會以不同方式處理以撇號開頭的文字值？如果您使用 .NET 程式碼自動執行 Excel 任務，這可能會導致意外結果。不要害怕！本教程將幫助您解決這個問題。 
+歡迎閱讀本逐步指南，以了解如何使用 Aspose.Cells for .NET 無縫管理電子表格，特別注意處理單元格值中的前導撇號。在當今以資料為中心的世界中，有效管理資料的能力至關重要。您是否注意到 Excel 有時會以不同方式處理以撇號開頭的文字值？如果您使用 .NET 程式碼自動執行 Excel 任務，這可能會導致意外結果。不要害怕！本教程將幫助您完成該操作。 
 
 ## 先決條件
 
@@ -17,7 +17,7 @@ url: /zh-hant/net/excel-workbook/allow-leading-apostrophe/
 
 1. .NET 基礎知識：熟悉 .NET 框架至關重要。如果您已經涉足 C# 或 VB.NET，請認為您已準備好。
 2.  Aspose.Cells for .NET Library：您需要安裝Aspose.Cells。您可以透過 NuGet 套件管理器輕鬆完成此操作，或從[阿斯普斯網站](https://releases.aspose.com/cells/net/).
-3. IDE 設定：確保您有一個整合開發環境 (IDE)，例如 Visual Studio，可以用於編碼。
+3. IDE 設定：確保您有一個整合開發環境 (IDE)（例如 Visual Studio），可以用於編碼。
 4. 範例 Excel 檔案：您可以使用我們將在程式碼中使用的範例檔案（“AllowLeadingApostropeSample.xlsx”）。
 
 現在您已經檢查了先決條件，讓我們匯入必要的套件並設定我們的專案。
@@ -153,4 +153,4 @@ Aspose.Cells 是一個功能強大的 .NET 程式庫，用於以程式設計方�
 Aspose.Cells 支援多種格式，例如 XLS、XLSX、CSV 等。
 
 ### 如何購買 Aspose.Cells 許可證？
-您可以直接從購買頁面購買 Aspose.Cells 的許可證[這裡](https://purchase.aspose.com/buy).
+您可以直接從 Aspose.Cells 的購買頁面購買許可證[這裡](https://purchase.aspose.com/buy).

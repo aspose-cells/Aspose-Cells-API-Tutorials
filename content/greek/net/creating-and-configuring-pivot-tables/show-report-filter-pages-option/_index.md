@@ -69,7 +69,7 @@ pt.ShowReportFilterPage(pt.PageFields[0]); // Εμφανίζει το πεδίο
 pt.ShowReportFilterPageByIndex(pt.PageFields[0].Position);
 ```
 Εδώ, εάν γνωρίζετε τη θέση ευρετηρίου του πεδίου της σελίδας σας, μπορείτε να το καθορίσετε απευθείας.
-### Επιλογή Γ: Με όνομα
+### Επιλογή Γ: Κατά όνομα
 ```csharp
 // Ορίστε το όνομα του πεδίου σελίδας
 pt.ShowReportFilterPageByName(pt.PageFields[0].Name);

@@ -18,7 +18,7 @@ Innan vi går in i koden finns det några viktiga saker du måste ha på plats:
 1. .NET-utvecklingsmiljö: Se till att du har en .NET-kompatibel miljö inställd, som Visual Studio eller någon annan IDE du väljer.
 2.  Aspose.Cells Library: Du behöver Aspose.Cells-biblioteket. Du kan[ladda ner den här](https://releases.aspose.com/cells/net/).
 3. Grundläggande förståelse för C#: Att känna till grunderna i C# kommer definitivt att hjälpa dig att förstå begreppen bättre.
-4.  Aspose.Cells Dokumentation: Bekanta dig med[dokumentation](https://reference.aspose.com/cells/net/)för avancerade konfigurationer eller ytterligare funktioner som du kan ha nytta av senare.
+4.  Aspose.Cells Dokumentation: Bekanta dig med[dokumentation](https://reference.aspose.com/cells/net/) för avancerade konfigurationer eller ytterligare funktioner som du kan ha nytta av senare.
 
 Nu när vi har våra förutsättningar sorterade, låt oss importera de nödvändiga paketen!
 
@@ -34,7 +34,7 @@ using System;
 
 Denna enda rad låter dig komma åt alla kraftfulla komponenter i Aspose.Cells-biblioteket.
 
-Låt oss dela upp hela processen i hanterbara steg för att säkerställa att du förstår varje del. Vi kommer att skapa en arbetsbok, lägga till två kalkylblad, ändra sidinställningarna för ett och sedan kopiera dessa inställningar till en annan.
+Låt oss dela upp hela processen i hanterbara steg för att säkerställa att du förstår varje del. Vi kommer att skapa en arbetsbok, lägga till två kalkylblad, ändra sidinställningarna för ett och sedan kopiera dessa inställningar till ett annat.
 
 ## Steg 1: Skapa en arbetsbok
 
@@ -149,4 +149,4 @@ Aspose.Cells stöder främst .NET-språk, men det finns andra Aspose-bibliotek f
  Du får tillgång till support via[Aspose forum](https://forum.aspose.com/c/cells/9).
 
 ### Kan jag få en tillfällig licens för Aspose.Cells?  
- Absolut! Du kan begära en[tillfällig licens](https://purchase.aspose.com/temporary-license/) att utvärdera produkten.
+Absolut! Du kan begära en[tillfällig licens](https://purchase.aspose.com/temporary-license/) att utvärdera produkten.

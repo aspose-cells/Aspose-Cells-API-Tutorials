@@ -45,7 +45,7 @@ C'est ici que vous spécifiez le chemin d'accès au fichier Excel avec lequel vo
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
   
- Remplacer`YOUR DOCUMENT DIRECTORY` avec le chemin réel où votre fichier Excel est stocké. Cela permet à votre programme de trouver les fichiers nécessaires qu'il manipulera.
+ Remplacer`YOUR DOCUMENT DIRECTORY` avec le chemin réel où votre fichier Excel est stocké. Cela permet à votre programme de trouver les fichiers nécessaires qu'il va manipuler.
 
 ## Étape 2 : Créer un flux de fichiers
 

@@ -15,7 +15,7 @@ url: /zh/net/link-and-configuration-operations/configuring-link-to-content-docum
 
 在我们开始之前，请确保您已准备好所有需要的物品。如果没有以下先决条件，该过程将无法顺利进行：
 
-1. Aspose.Cells for .NET 库：您需要在计算机上安装 Aspose.Cells for .NET。如果您尚未下载，请从以下位置获取[Aspose.Cells for .NET 下载页面](https://releases.aspose.com/cells/net/).
+1.  Aspose.Cells for .NET 库：您需要在计算机上安装 Aspose.Cells for .NET。如果您尚未下载，请从以下位置获取[Aspose.Cells for .NET 下载页面](https://releases.aspose.com/cells/net/).
 2. 开发环境：使用任何 .NET 支持的开发环境，例如 Visual Studio。
 3. C# 基础知识：本指南假设您对 C# 和 .NET 有一定的了解。
 4. Excel 文件：有一个现有的 Excel 文件可供使用。在我们的示例中，我们将使用名为“sample-document-properties.xlsx”的文件。
@@ -93,7 +93,7 @@ bool islinkedtocontent = customProperty1.IsLinkedToContent;
 ```
 
 - 自定义属性[“所有者”]：我们正在通过名称获取“所有者”属性来检查其详细信息。
--  IsLinkedToContent：此布尔值返回`true`如果该属性已成功链接到内容。
+- IsLinkedToContent：此布尔值返回`true`如果该属性已成功链接到内容。
 
 在此阶段，这就像检查标签（属性）是否正确附加到内容。您要确保您的代码按照预期执行。
 

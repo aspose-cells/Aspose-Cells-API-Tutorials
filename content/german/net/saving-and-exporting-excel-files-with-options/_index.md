@@ -17,7 +17,7 @@ Aspose.Cells für .NET bietet Entwicklern leistungsstarke Tools zum Verwalten vo
 
 ## Beim Laden einer Excel-Datei in .NET werden Warnungen angezeigt
 
- Wenn Sie eine Excel-Datei laden, können bestimmte Datenformate oder Inhalte Warnungen auslösen. Erfahren Sie, wie Sie diese Warnungen verwalten und interpretieren können mit dem[Beim Laden einer Excel-Datei in .NET werden Warnungen angezeigt](./getting-warnings-while-loading-excel-file/)Tutorial. Dieses Handbuch ist ein Muss für Entwickler, die Kompatibilitätsprobleme oder Formatierungswarnungen effektiv behandeln und lösen möchten. Indem Sie diese Warnungen frühzeitig beheben, stellen Sie ein reibungsloseres und fehlerfreies Erlebnis beim Laden von Dateien in Ihre Anwendung sicher.
+ Wenn Sie eine Excel-Datei laden, können bestimmte Datenformate oder Inhalte Warnungen auslösen. Erfahren Sie, wie Sie diese Warnungen verwalten und interpretieren können mit dem[Beim Laden einer Excel-Datei in .NET werden Warnungen angezeigt](./getting-warnings-while-loading-excel-file/) Tutorial. Dieses Handbuch ist ein Muss für Entwickler, die Kompatibilitätsprobleme oder Formatierungswarnungen effektiv behandeln und lösen möchten. Indem Sie diese Warnungen frühzeitig beheben, stellen Sie ein reibungsloseres und fehlerfreies Erlebnis beim Laden von Dateien in Ihre Anwendung sicher.
 
 ## Dokumentversion einer Excel-Datei programmgesteuert in .NET angeben
 
@@ -25,7 +25,7 @@ Aspose.Cells für .NET bietet Entwicklern leistungsstarke Tools zum Verwalten vo
 
 ### Entfernen führender leerer Zeilen und Spalten beim Exportieren
 
- Leere Zeilen und Spalten können Ihre Exporte überladen, insbesondere bei CSV-Dateien. Die[Entfernen führender leerer Zeilen und Spalten beim Exportieren](./trimming-leading-blank-rows-and-columns/)Mit diesem Tutorial können Sie Ihre Daten bereinigen, indem Sie unnötige Leerzeichen am Anfang von Zeilen und Spalten entfernen. Dieses Tutorial ist ideal für Entwickler, die prägnante und übersichtliche Dateien erstellen möchten, die zur Analyse oder Präsentation bereit sind. Eine saubere, aufbereitete Ausgabe sieht nicht nur professionell aus, sondern erleichtert auch die Datenverarbeitung erheblich.
+Leere Zeilen und Spalten können Ihre Exporte überladen, insbesondere bei CSV-Dateien. Die[Entfernen führender leerer Zeilen und Spalten beim Exportieren](./trimming-leading-blank-rows-and-columns/) Mit diesem Tutorial können Sie Ihre Daten bereinigen, indem Sie unnötige Leerzeichen am Anfang von Zeilen und Spalten entfernen. Dieses Tutorial ist ideal für Entwickler, die prägnante und übersichtliche Dateien erstellen möchten, die zur Analyse oder Präsentation bereit sind. Eine saubere, aufbereitete Ausgabe sieht nicht nur professionell aus, sondern erleichtert auch die Datenverarbeitung erheblich.
 
 ## Speichern und Exportieren von Excel-Dateien mit Options-Tutorials
 ### [Exportieren von Kommentaren beim Speichern einer Excel-Datei im HTML-Format](./exporting-comments/)

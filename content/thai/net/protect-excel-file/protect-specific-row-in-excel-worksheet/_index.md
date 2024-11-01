@@ -88,7 +88,7 @@ StyleFlag flag;
 for (int i = 0; i <= 255; i++)
 {
     style = sheet.Cells.Columns[(byte)i].Style;
-    style.IsLocked = false; //คอลัมน์ปลดล็อค
+    style.IsLocked = false; // คอลัมน์ปลดล็อค
     flag = new StyleFlag();
     flag.Locked = true; // ตั้งค่าแฟล็กเป็นจริงสำหรับการล็อค
     sheet.Cells.Columns[(byte)i].ApplyStyle(style, flag); // ใช้รูปแบบ

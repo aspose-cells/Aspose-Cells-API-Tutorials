@@ -17,7 +17,7 @@ Aspose.Cells per .NET fornisce agli sviluppatori potenti strumenti per gestire i
 
 ## Ricezione di avvisi durante il caricamento del file Excel in .NET
 
- Quando carichi un file Excel, alcuni formati di dati o contenuti potrebbero attivare avvisi. Scopri come gestire e interpretare questi avvisi con[Ricezione di avvisi durante il caricamento del file Excel in .NET](./getting-warnings-while-loading-excel-file/)tutorial. Questa guida è un must per gli sviluppatori che vogliono gestire e risolvere efficacemente i problemi di compatibilità o formattare gli avvisi. Affrontando questi avvisi in anticipo, puoi garantire un'esperienza più fluida e senza errori quando carichi i file nella tua applicazione.
+ Quando carichi un file Excel, alcuni formati di dati o contenuti potrebbero attivare avvisi. Scopri come gestire e interpretare questi avvisi con[Ricezione di avvisi durante il caricamento del file Excel in .NET](./getting-warnings-while-loading-excel-file/) tutorial. Questa guida è un must per gli sviluppatori che vogliono gestire e risolvere efficacemente i problemi di compatibilità o formattare gli avvisi. Affrontando questi avvisi in anticipo, puoi garantire un'esperienza più fluida e senza errori quando carichi i file nella tua applicazione.
 
 ## Specificare la versione del documento del file Excel a livello di programmazione in .NET
 
@@ -25,7 +25,7 @@ Aspose.Cells per .NET fornisce agli sviluppatori potenti strumenti per gestire i
 
 ### Taglio delle righe e delle colonne vuote iniziali durante l'esportazione
 
- Righe e colonne vuote possono ingombrare le tue esportazioni, soprattutto quando si tratta di file CSV.[Taglio delle righe e delle colonne vuote iniziali durante l'esportazione](./trimming-leading-blank-rows-and-columns/)tutorial ti consente di ripulire i tuoi dati tagliando gli spazi vuoti non necessari all'inizio di righe e colonne. Questo tutorial è perfetto per gli sviluppatori che mirano a creare file concisi e ordinati, pronti per l'analisi o la presentazione. Un output pulito e rifinito non solo ha un aspetto professionale, ma semplifica anche notevolmente l'elaborazione dei dati.
+Righe e colonne vuote possono ingombrare le tue esportazioni, soprattutto quando si tratta di file CSV.[Taglio delle righe e delle colonne vuote iniziali durante l'esportazione](./trimming-leading-blank-rows-and-columns/) tutorial ti consente di ripulire i tuoi dati tagliando gli spazi vuoti non necessari all'inizio di righe e colonne. Questo tutorial è perfetto per gli sviluppatori che mirano a creare file concisi e ordinati, pronti per l'analisi o la presentazione. Un output pulito e rifinito non solo ha un aspetto professionale, ma semplifica anche notevolmente l'elaborazione dei dati.
 
 ## Tutorial su come salvare ed esportare file Excel con le opzioni
 ### [Esportazione di commenti durante il salvataggio del file Excel in HTML](./exporting-comments/)

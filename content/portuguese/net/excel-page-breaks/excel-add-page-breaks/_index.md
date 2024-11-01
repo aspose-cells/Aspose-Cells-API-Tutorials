@@ -118,4 +118,4 @@ Você pode salvar arquivos em formatos como .xls, .xlsx, .csv e vários outros, 
 
 ### Existe uma comunidade de suporte ao Aspose?
 
-Definitivamente! Você pode acessar o fórum da comunidade Aspose para suporte e discussões[aqui](https://forum.aspose.com/c/cells/9).
+ Definitivamente! Você pode acessar o fórum da comunidade Aspose para suporte e discussões[aqui](https://forum.aspose.com/c/cells/9).

@@ -16,7 +16,7 @@ Güçlü Aspose.Cells for .NET kütüphanesini kullanma konusunda nihai rehbere 
 Kodlamaya başlamadan önce, başlamak için ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım. İşte sahip olmanız gerekenler:
 
 1. Visual Studio: Makinenizde Visual Studio'nun yüklü olduğundan emin olun. Bu, tüm geliştirme çalışmalarınız için ana merkezinizdir.
-2. .NET için Aspose.Cells: Aspose.Cells kütüphanesini indirip projenize eklemeniz gerekir. Bunu şuradan kolayca alabilirsiniz:[Aspose web sitesi](https://releases.aspose.com/cells/net/).
+2.  .NET için Aspose.Cells: Aspose.Cells kütüphanesini indirip projenize eklemeniz gerekir. Bunu şuradan kolayca alabilirsiniz:[Aspose web sitesi](https://releases.aspose.com/cells/net/).
 3. Temel C# Bilgisi: C# programlamaya aşinalık çok yardımcı olacaktır. Değişkenleri, döngüleri ve temel dosya G/Ç'sini idare edebiliyorsanız, kendinizi evinizde hissedeceksiniz.
 4. .NET Framework: Kütüphanenin bu ekosistemle uyumlu olacak şekilde tasarlandığından, projenizin uygun .NET Framework sürümüyle kurulduğundan emin olun.
 
@@ -69,7 +69,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 ```csharp
 // Çalışma sayfasının uzunluğunun kaç sayfaya kadar uzanacağının ayarlanması
 worksheet.PageSetup.FitToPagesTall = 1;
-// Çalışma sayfasının genişliğinin yayılacağı sayfa sayısının ayarlanması
+//Çalışma sayfasının genişliğinin yayılacağı sayfa sayısının ayarlanması
 worksheet.PageSetup.FitToPagesWide = 1;
 ```
 

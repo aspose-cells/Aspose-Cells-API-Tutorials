@@ -44,7 +44,7 @@ Om Aspose.Cells te gebruiken, moet u verwijzingen naar de bibliotheek toevoegen:
 
 ### Voeg richtlijnen toe
 
- Bovenaan je`Program.cs`bestand, voeg deze richtlijn in om toegang te krijgen tot de Aspose.Cells-functionaliteit:
+ Bovenaan je`Program.cs` bestand, voeg deze richtlijn in om toegang te krijgen tot de Aspose.Cells-functionaliteit:
 
 ```csharp
 using System;

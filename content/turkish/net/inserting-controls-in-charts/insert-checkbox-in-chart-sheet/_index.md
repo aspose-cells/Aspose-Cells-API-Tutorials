@@ -66,7 +66,7 @@ Heyecan verici kısma geçmeden önce, dosyamızın nereye kaydedilmesini istedi
 ```csharp
 string outputDir = "C:\\YourOutputDirectory\\"; // Belirtilen dizine geçin
 ```
- Değiştirdiğinizden emin olun`"C:\\YourOutputDirectory\\"` dosyanızın kaydedilmesini istediğiniz yol ile. Bunu çalışma alanınızı ayarlamak gibi düşünün; araçlarınızı (veya bu durumda Excel dosyanızı) nereye koyduğunuzu bilmeniz gerekir.
+ Değiştirdiğinizden emin olun`"C:\\YourOutputDirectory\\"`dosyanızın kaydedilmesini istediğiniz yol ile. Bunu çalışma alanınızı ayarlamak gibi düşünün; araçlarınızı (veya bu durumda Excel dosyanızı) nereye koyduğunuzu bilmeniz gerekir.
 
 ## Adım 2: Bir Çalışma Kitabı Nesnesi Oluşturma
 

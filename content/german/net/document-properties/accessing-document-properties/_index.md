@@ -15,7 +15,7 @@ Bevor wir uns in den Code vertiefen, stellen wir sicher, dass Sie die erforderli
 -  Aspose.Cells-Bibliothek: Sie müssen die Aspose.Cells-Bibliothek herunterladen und in Ihrem Projekt referenzieren. Sie können sie herunterladen[Hier](https://releases.aspose.com/cells/net/).
 - .NET Framework: Um problemlos zurechtzukommen, sind Kenntnisse in C# und der .NET-Umgebung erforderlich.
 ## Pakete importieren
-Um loszulegen, importieren wir die erforderlichen Pakete, die es uns ermöglichen, Aspose.Cells in unserer Anwendung zu verwenden. So können Sie das einrichten:
+Lassen Sie uns zunächst die erforderlichen Pakete importieren, die es uns ermöglichen, Aspose.Cells in unserer Anwendung zu verwenden. So können Sie das einrichten:
 ```csharp
 using System.IO;
 using System;

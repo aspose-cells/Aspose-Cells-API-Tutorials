@@ -14,7 +14,7 @@ Prima di immergerci nel codice vero e proprio, assicuriamoci di aver impostato t
 1.  Aspose.Cells per .NET: devi scaricare la libreria Aspose.Cells per .NET. Puoi trovare il link per il download[Qui](https://releases.aspose.com/cells/net/).
 2. Ambiente di sviluppo .NET: funzionerà qualsiasi IDE che supporti .NET, come Visual Studio.
 3. Conoscenza di base di C#: questo tutorial presuppone che tu abbia familiarità con la sintassi di base di C# e con la struttura delle cartelle di lavoro di Excel.
-4.  File Excel: un file Excel esistente con caselle di testo (utilizzeremo`book1.xls`in questo esempio).
+4.  File Excel: un file Excel esistente con caselle di testo (lo useremo`book1.xls`in questo esempio).
 5.  Licenza Aspose: se non stai utilizzando la versione di prova gratuita, dovrai[acquistare](https://purchase.aspose.com/buy) una licenza o ottenere una[temporaneo](https://purchase.aspose.com/temporary-license/).
 Ora, entriamo nel vivo dei passaggi!
 ## Importa pacchetti

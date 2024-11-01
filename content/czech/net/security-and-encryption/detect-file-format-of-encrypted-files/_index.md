@@ -33,7 +33,7 @@ Než se ponoříte do kódu, musíte se ujistit, že je vaše adresářová stru
 // Zdrojový adresář
 string sourceDir = "Your Document Directory";
 ```
- Nahradit`"Your Document Directory"` se skutečnou cestou k adresáři na vašem počítači, kde se nachází váš zašifrovaný soubor.
+ Nahradit`"Your Document Directory"`se skutečnou cestou k adresáři na vašem počítači, kde se nachází váš zašifrovaný soubor.
 ## Krok 2: Připravte si šifrovaný soubor
 
  V tomto kroku se ujistěte, že máte v zadaném adresáři k dispozici zašifrovaný soubor Excel. Zde budeme předpokládat, že soubor je pojmenován`encryptedBook1.out.tmp`.
@@ -73,6 +73,6 @@ Absolutně! Využijte bloky try-catch ke správě potenciálních výjimek běhe
 ### Co když zapomenu heslo?
 Bohužel bez hesla se k formátu souboru nedostanete.
 ### Mohu si stáhnout bezplatnou zkušební verzi Aspose.Cells?
-Ano, můžete si stáhnout bezplatnou zkušební verzi[zde](https://releases.aspose.com/).
+ Ano, můžete si stáhnout bezplatnou zkušební verzi[zde](https://releases.aspose.com/).
 ### Kde najdu podrobnější dokumentaci?
  Obsáhlou dokumentaci můžete prozkoumat na Aspose.Cells[zde](https://reference.aspose.com/cells/net/).

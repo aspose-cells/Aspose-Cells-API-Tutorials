@@ -12,7 +12,7 @@ url: /es/net/saving-files-in-different-formats/save-excel-file-in-2007-xlsx-form
 ## Prerrequisitos
 Antes de entrar en detalles, hay un par de requisitos previos que debes tener en cuenta:
 1. Visual Studio: asegúrese de tener Visual Studio instalado en su sistema. Le ayudará a escribir y ejecutar su código C# sin esfuerzo.
-2.  Biblioteca Aspose.Cells: necesitará la biblioteca Aspose.Cells para .NET. Puede descargarla fácilmente desde[Página de lanzamiento de Aspose Cells](https://releases.aspose.com/cells/net/).
+2. Biblioteca Aspose.Cells: necesitará la biblioteca Aspose.Cells para .NET. Puede descargarla fácilmente desde[Página de lanzamiento de Aspose Cells](https://releases.aspose.com/cells/net/).
 3. Conocimientos básicos de programación: cierta familiaridad con C# y .NET mejorará su comprensión de los fragmentos de código que cubriremos.
 4. Un directorio de documentos de prueba: crea o elige una carpeta donde guardarás y probarás tus archivos de Excel. En este tutorial, nos referiremos a ella como "Tu directorio de documentos".
 ¡Con todo en su lugar y listo, estás listo para mostrar tus habilidades!

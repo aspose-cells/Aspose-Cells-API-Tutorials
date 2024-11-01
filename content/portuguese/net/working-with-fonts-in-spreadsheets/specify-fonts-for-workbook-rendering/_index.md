@@ -12,7 +12,7 @@ Quando se trata de gerenciar e renderizar arquivos do Excel programaticamente, o
 ## Pré-requisitos
 Antes de mergulharmos no mundo emocionante do Aspose.Cells e da personalização de fontes, vamos garantir que você tenha tudo o que precisa para começar:
 1. Conhecimento básico de .NET: Familiaridade com programação .NET é crucial, pois trabalharemos em um ambiente .NET.
-2.  Aspose.Cells para .NET: Certifique-se de ter a biblioteca Aspose.Cells instalada. Você pode baixá-la[aqui](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells para .NET: Certifique-se de ter a biblioteca Aspose.Cells instalada. Você pode baixá-la[aqui](https://releases.aspose.com/cells/net/).
 3. Visual Studio: Este guia pressupõe que você esteja usando o Visual Studio como seu IDE. Certifique-se de tê-lo instalado e configurado.
 4. Arquivo Excel de Exemplo: Tenha um arquivo Excel de exemplo pronto para este tutorial. Isso tornará mais fácil entender como fontes personalizadas afetam a saída de renderização.
 5. Fontes personalizadas: prepare um diretório das fontes personalizadas que você quer usar. Isso é vital para testar nosso processo de renderização.
@@ -41,7 +41,7 @@ string outputDir = "Your Document Directory";
 string customFontsDir = sourceDir + "CustomFonts";
 ```
 
-Imagine que você tem um arquivo cheio de documentos importantes (nesse caso, arquivos Excel). Configurar seus diretórios é como organizar esse arquivo; ele garante que você saiba exatamente onde seus arquivos estão armazenados. Ao definir o`sourceDir`, `outputDir` , e`customFontsDir`, você está preparando um espaço de trabalho que tornará seu código mais limpo e gerenciável.
+ Imagine que você tem um arquivo cheio de documentos importantes (nesse caso, arquivos Excel). Configurar seus diretórios é como organizar esse arquivo; ele garante que você saiba exatamente onde seus arquivos estão armazenados. Ao definir o`sourceDir`, `outputDir` , e`customFontsDir`, você está preparando um espaço de trabalho que tornará seu código mais limpo e gerenciável.
 ## Etapa 2: especifique configurações de fonte individuais
 Em seguida, precisamos criar configurações de fontes individuais. Esta etapa é crucial para informar ao Aspose.Cells onde encontrar suas fontes personalizadas.
 ```csharp
@@ -49,7 +49,7 @@ Em seguida, precisamos criar configurações de fontes individuais. Esta etapa �
 IndividualFontConfigs fontConfigs = new IndividualFontConfigs();
 fontConfigs.SetFontFolder(customFontsDir, false);
 ```
- Pense nesta etapa como se estivesse dando instruções a um amigo que está tentando encontrar uma cafeteria específica. Ao especificar o`customFontsDir`, você está apontando Aspose.Cells para o local exato das suas fontes. Se a direção estiver errada (ou se as fontes não estiverem lá), você pode acabar com uma saída PDF insatisfatória. Então, garanta que seu diretório de fontes esteja correto!
+ Pense nesta etapa como se estivesse dando instruções a um amigo que está tentando encontrar uma cafeteria específica. Ao especificar o`customFontsDir`você está apontando Aspose.Cells para o local exato das suas fontes. Se a direção estiver errada (ou se as fontes não estiverem lá), você pode acabar com uma saída PDF insatisfatória. Então, garanta que seu diretório de fontes esteja correto!
 ## Etapa 3: Definir opções de carga
 Agora, é hora de definir opções de carregamento que integrem nossas configurações de fonte na pasta de trabalho.
 ```csharp
@@ -64,11 +64,11 @@ Com nossas opções de carregamento definidas, vamos carregar o arquivo Excel qu
 // Carregue o arquivo Excel de exemplo com configurações de fontes individuais.
 Workbook wb = new Workbook(sourceDir + "sampleSpecifyIndividualOrPrivateSetOfFontsForWorkbookRendering.xlsx", opts);
 ```
- Este passo é semelhante a abrir seu livro favorito. Aqui, você está dizendo ao Aspose.Cells com qual arquivo do Excel trabalhar. Ao usar o`Workbook` classe e as opções de carga especificadas, você está essencialmente abrindo a capa e mergulhando no conteúdo, pronto para fazer alterações.
+ Este passo é semelhante a abrir seu livro favorito. Aqui, você está dizendo ao Aspose.Cells com qual arquivo do Excel trabalhar. Ao usar o`Workbook`classe e as opções de carga especificadas, você está essencialmente abrindo a capa e mergulhando no conteúdo, pronto para fazer alterações.
 ## Etapa 5: Salve a pasta de trabalho no formato desejado
 Por fim, é hora de salvar a pasta de trabalho modificada no formato desejado (PDF neste caso).
 ```csharp
-//Salvar em formato PDF.
+// Salvar em formato PDF.
 wb.Save(outputDir + "outputSpecifyIndividualOrPrivateSetOfFontsForWorkbookRendering.pdf", SaveFormat.Pdf);
 ```
 É como colocar seu livro de volta na estante depois de lê-lo, mas agora em um formato diferente. Ao salvar a pasta de trabalho em formato PDF, você garante que a renderização seja realizada com suas fontes especificadas intactas, tornando-a apresentável e profissional.

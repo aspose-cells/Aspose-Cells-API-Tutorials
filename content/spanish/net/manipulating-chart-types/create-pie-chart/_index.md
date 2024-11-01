@@ -19,7 +19,7 @@ Antes de sumergirse en el código, asegúrese de tener lo siguiente configurado:
 2. Entorno de desarrollo .NET: asegúrese de que su proyecto esté configurado para usar .NET Framework o .NET Core.
 3. Conocimientos básicos de C#: Debe sentirse cómodo con la programación en C#, especialmente con la programación orientada a objetos (OOP).
 
-Para usuarios avanzados, se puede solicitar una licencia temporal para desbloquear todas las funciones de Aspose.Cells. Puede solicitar una en[aquí](https://purchase.aspose.com/temporary-license/).
+ Para usuarios avanzados, se puede solicitar una licencia temporal para desbloquear todas las funciones de Aspose.Cells. Puede solicitar una en[aquí](https://purchase.aspose.com/temporary-license/).
 
 ## Importar paquetes
 
@@ -100,7 +100,7 @@ int chartIndex = chartSheet.Charts.Add(Aspose.Cells.Charts.ChartType.Pie, 5, 0, 
 Aspose.Cells.Charts.Chart chart = chartSheet.Charts[chartIndex];
 ```
 
- El método`Add()` acepta parámetros para el tipo de gráfico (en este caso,`ChartType.Pie`) y su ubicación en la hoja de cálculo. Los números representan las posiciones de las filas y columnas.
+ El método`Add()`acepta parámetros para el tipo de gráfico (en este caso,`ChartType.Pie`) y su ubicación en la hoja de cálculo. Los números representan las posiciones de las filas y columnas.
 
 ## Paso 5: Personaliza la apariencia del gráfico
 
@@ -187,7 +187,7 @@ Crear un gráfico circular con Aspose.Cells para .NET es un proceso sencillo y p
 ¡Sí! Aspose.Cells admite varios tipos de gráficos, incluidos gráficos de barras, gráficos de líneas y gráficos de dispersión.
 
 ### ¿Necesito una licencia paga para usar Aspose.Cells para .NET?
- Puedes utilizar la versión gratuita con algunas limitaciones. Para disfrutar de todas las funciones, necesitarás una licencia, que puedes comprar.[aquí](https://purchase.aspose.com/buy).
+Puedes utilizar la versión gratuita con algunas limitaciones. Para disfrutar de todas las funciones, necesitarás una licencia, que puedes comprar.[aquí](https://purchase.aspose.com/buy).
 
 ### ¿Puedo exportar el gráfico a formatos como PDF o imágenes?
 ¡Por supuesto! Aspose.Cells te permite exportar gráficos a varios formatos, incluidos PDF y PNG.

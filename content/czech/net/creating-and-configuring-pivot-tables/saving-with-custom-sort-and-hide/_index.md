@@ -55,7 +55,7 @@ field.AutoSortField = 0;     // Řazení na základě prvního sloupce
 ## Krok 4: Obnovení a výpočet dat
 Po použití řazení je důležité obnovit data kontingenční tabulky, aby se zajistilo, že odrážejí naše úpravy.
 ```csharp
-// Obnovte a vypočítejte data kontingenční tabulky
+// Aktualizujte a vypočítejte data kontingenční tabulky
 pivotTable.RefreshData();
 pivotTable.CalculateData();
 ```

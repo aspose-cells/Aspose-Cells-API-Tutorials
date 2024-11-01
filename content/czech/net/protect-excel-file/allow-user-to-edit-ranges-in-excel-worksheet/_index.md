@@ -141,4 +141,4 @@ Bohužel, pokud zapomenete heslo pro upravitelný rozsah, budete muset odstranit
 Ano, Aspose poskytuje bezplatnou zkušební verzi, kterou můžete využít k prozkoumání funkcí před nákupem.
 
 ### Kde najdu více informací o Aspose.Cells?
- Můžete zkontrolovat[dokumentace](https://reference.aspose.com/cells/net/) pro podrobné návody a reference.
+ Můžete zkontrolovat[dokumentace](https://reference.aspose.com/cells/net/)pro podrobné návody a reference.

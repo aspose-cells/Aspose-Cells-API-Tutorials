@@ -102,7 +102,7 @@ pivotTable.AddFieldToArea(PivotFieldType.Data, "Betrag Netto FW");
 ```
 Här lägger vi till ett nytt datafält som heter "Betrag Netto FW". Detta är den datapunkt som vi vill att vår pivottabell ska analysera.
 
-## Steg 8: Ställ in flaggan för Uppdatera data
+## Steg 8: Ställ in uppdateringsdataflaggan
 Låt oss sedan se till att vår data uppdateras ordentligt.
 ```csharp
 // Slå på flaggan för uppdateringsdata

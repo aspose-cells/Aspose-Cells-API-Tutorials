@@ -55,7 +55,7 @@ Workbook workbook = new Workbook();
 ```
 Detta skapar en ny Excel-fil i minnet. Se det här som att få en tom duk att arbeta på.
 ## Steg 3: Hantera HTTP-svar (valfritt)
-Om din applikation involverar hantering av HTTP-förfrågningar (till exempel i en webbapplikation), kan du behöva inkludera kod för att spara arbetsboken i HTTP-svarsströmmen.
+Om din applikation involverar hantering av HTTP-förfrågningar (till exempel i en webbapplikation) kan du behöva inkludera kod för att spara arbetsboken i HTTP-svarsströmmen.
 1.  Kontrollera om din`HttpResponse` objektet är inte null:
 ```csharp
 HttpResponse response = null;  // Detta skulle vanligtvis överföras till din metod

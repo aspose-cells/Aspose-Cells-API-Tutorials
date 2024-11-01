@@ -96,7 +96,7 @@ workbook.Save(dataDir + "AddingPageBreaks_out.xls");
 
 ## Wniosek
 
-Dodawanie podziałów stron w programie Excel przy użyciu Aspose.Cells dla .NET może znacznie poprawić prezentację arkuszy kalkulacyjnych. Niezależnie od tego, czy przygotowujesz raporty, wydruki, czy po prostu sprzątasz układ, zrozumienie, jak programowo zarządzać plikami programu Excel, zmienia zasady gry. Przeszliśmy przez podstawy, od importowania pakietów po zapisywanie skoroszytu. Teraz jesteś przygotowany, aby dodawać podziały stron i podnosić poziom swoich projektów w programie Excel!
+Dodawanie podziałów stron w programie Excel przy użyciu Aspose.Cells dla .NET może znacznie poprawić prezentację arkuszy kalkulacyjnych. Niezależnie od tego, czy przygotowujesz raporty, wydruki, czy po prostu sprzątasz układ, zrozumienie, jak programowo zarządzać plikami programu Excel, zmienia zasady gry. Przeszliśmy przez podstawy, od importowania pakietów po zapisywanie skoroszytu. Teraz jesteś przygotowany, aby dodawać podziały stron i podnosić poziom swoich projektów programu Excel!
 
 ## Najczęściej zadawane pytania
 
@@ -118,4 +118,4 @@ Możesz zapisywać pliki w formatach .xls, .xlsx, .csv i wielu innych, w zależn
 
 ### Czy istnieje społeczność wsparcia Aspose?
 
-Zdecydowanie! Możesz uzyskać dostęp do forum społeczności Aspose w celu uzyskania wsparcia i dyskusji[Tutaj](https://forum.aspose.com/c/cells/9).
+ Zdecydowanie! Możesz uzyskać dostęp do forum społeczności Aspose w celu uzyskania wsparcia i dyskusji[Tutaj](https://forum.aspose.com/c/cells/9).

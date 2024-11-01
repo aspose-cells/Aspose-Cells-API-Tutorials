@@ -1,6 +1,6 @@
 ---
-title: Aktivace buňky programově v Excelu
-linktitle: Aktivace buňky programově v Excelu
+title: Programově aktivovat buňku v Excelu
+linktitle: Programově aktivovat buňku v Excelu
 second_title: Aspose.Cells .NET Excel Processing API
 description: Naučte se, jak programově nastavit aktivní buňku v Excelu pomocí Aspose.Cells for .NET, pomocí tohoto komplexního průvodce.
 type: docs

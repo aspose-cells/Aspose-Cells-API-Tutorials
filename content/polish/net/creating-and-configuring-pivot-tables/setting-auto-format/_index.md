@@ -34,7 +34,7 @@ using System.Drawing;
 using Aspose.Cells.Pivot;
 ```
 Po wykonaniu tych kroków możesz przystąpić do pisania kodu!
-Teraz rozłóżmy udostępniony przez Ciebie kod na szczegółowe kroki wraz z wyjaśnieniami, co robi każda część. 
+Teraz omówimy szczegółowo udostępniony przez Ciebie kod, podając szczegóły dotyczące każdego jego fragmentu. 
 ## Krok 1: Zdefiniuj katalog dokumentów
 Na początek musisz ustawić ścieżkę do katalogu dokumentów, w którym znajdują się pliki Excela. W naszym przykładzie zdefiniujemy ją w następujący sposób:
 ```csharp

@@ -18,11 +18,11 @@ Mielőtt belemerülnénk a megvalósításba, győződjön meg arról, hogy a k�
 
 - Java fejlesztői környezet
 - Aspose.Cells for Java Library
-- Java programozás alapvető ismerete
+- A Java programozás alapvető ismerete
 
 ## Az Aspose.Cells beállítása Java számára
 
- A kezdéshez be kell állítania az Aspose.Cells for Java programot a projektben. A könyvtár letölthető az Aspose webhelyéről[itt](https://releases.aspose.com/cells/java/). A letöltés után adja hozzá a könyvtárat a Java-projekthez.
+ kezdéshez be kell állítania az Aspose.Cells for Java programot a projektben. A könyvtár letölthető az Aspose webhelyéről[itt](https://releases.aspose.com/cells/java/). A letöltés után adja hozzá a könyvtárat a Java-projekthez.
 
 ## Excel munkafüzet készítése
 
@@ -36,7 +36,7 @@ Worksheet worksheet = workbook.getWorksheets().get(0);
 
 ## Adatok hozzáadása a munkalaphoz
 
-Ezután szükségünk van néhány adatra a diagramon való ábrázoláshoz. Ebben a példában egy egyszerű adatkészletet hozunk létre.
+Ezután szükségünk van néhány adatra a diagramon való ábrázoláshoz. Ehhez a példához egy egyszerű adatkészletet hozunk létre.
 
 ```java
 // Adatok hozzáadása a munkalaphoz
@@ -80,7 +80,7 @@ textFrame.setLeft(250);
 textFrame.setTop(50);
 ```
 
-## kommentárok testreszabása
+## A kommentárok testreszabása
 
 Tovább testreszabhatja a megjegyzéseket a betűtípusuk, színük és egyéb tulajdonságaik megváltoztatásával.
 

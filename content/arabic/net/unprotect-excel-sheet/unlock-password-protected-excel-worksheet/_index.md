@@ -70,7 +70,7 @@ using Aspose.Cells;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- نصيحة: استبدل`"YOUR DOCUMENT DIRECTORY"`مع المسار الفعلي الذي يوجد به ملف Excel الخاص بك (دعنا نسميه`book1.xls`) يقع. 
+ نصيحة: استبدل`"YOUR DOCUMENT DIRECTORY"` مع المسار الفعلي الذي يوجد به ملف Excel الخاص بك (دعنا نسميه`book1.xls`) يقع. 
 
 ## الخطوة 2: إنشاء مثيل لكائن مصنف
 

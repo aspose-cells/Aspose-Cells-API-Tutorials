@@ -53,7 +53,7 @@ U hebt keuzes als het gaat om encryptie in Aspose.Cells. Voor dit voorbeeld stel
 ```csharp
 // Geef het XOR-coderingstype op.
 workbook.SetEncryptionOptions(EncryptionType.XOR, 40);
-// Geef het type sterke encryptie op (RC4, Microsoft Strong Cryptographic Provider).
+//Geef het type sterke encryptie op (RC4, Microsoft Strong Cryptographic Provider).
 workbook.SetEncryptionOptions(EncryptionType.StrongCryptographicProvider, 128);
 ```
 Beschouw deze opties als het soort sloten dat u zou gebruiken: sommige zijn korter en gemakkelijker te kraken (XOR), terwijl andere veel uitdagender zijn (sterke cryptografische provider).
@@ -68,7 +68,7 @@ Sla ten slotte de wijzigingen op om uw gecodeerde bestand te maken.
 ```csharp
 workbook.Save(dataDir + "encryptedBook1.out.xls");
 ```
- Deze regel code slaat de werkmap op als`encryptedBook1.out.xls`in de door u opgegeven directory. Het is alsof u het boek weer veilig op de plank zet!
+ Deze regel code slaat de werkmap op als`encryptedBook1.out.xls` in de door u opgegeven directory. Het is alsof u het boek weer veilig op de plank zet!
 ## Conclusie
 En daar ga je! Je hebt zojuist geleerd hoe je een Excel-bestand versleutelt met Aspose.Cells in .NET. Door deze stappen te volgen, zorg je ervoor dat je gevoelige gegevens goed beschermd zijn. Vergeet niet: bescherming begint bij jou, dus neem altijd de nodige stappen om je informatie te beschermen. 
 ## Veelgestelde vragen

@@ -152,3 +152,21 @@ Khám phá danh sách hướng dẫn toàn diện về Aspose.Cells cho .NET đ�
 Khám phá hướng dẫn chi tiết về Aspose.Cells for .NET về cách lưu và xuất tệp Excel. Tìm hiểu cách xử lý chú thích, thuộc tính tài liệu, cảnh báo và cắt dữ liệu.
 ### [Tạo và cấu hình bảng Pivot](./creating-and-configuring-pivot-tables/)
 Khám phá hướng dẫn toàn diện về Aspose.Cells cho .NET. Làm chủ bảng trục trong Excel theo chương trình với hướng dẫn từng bước chi tiết cho mọi chức năng.
+### [Công thức Excel và Tùy chọn tính toán](./excel-formulas-and-calculation-options/)
+Tìm hiểu sâu hơn về hướng dẫn Aspose.Cells dành cho .NET, bao gồm các công thức và phép tính Excel thiết yếu theo các bước dễ làm theo.
+### [Xuất Excel sang HTML với Tùy chọn nâng cao](./exporting-excel-to-html-with-advanced-options/)
+Khám phá những hiểu biết giá trị về cách xuất Excel sang HTML bằng Aspose.Cells cho .NET thông qua các hướng dẫn chi tiết về nhiều tùy chọn nâng cao, giúp cải thiện khả năng xuất tài liệu của bạn.
+### [Kết xuất và Xuất](./rendering-and-export/)
+Nâng cao kỹ năng của bạn với Aspose.Cells cho .NET. Khám phá các hướng dẫn về cách kết xuất, xuất và tạo tài liệu Excel PDF tương tác.
+### [Xử lý lỗi và tùy chỉnh trong Aspose.Cells](./error-handling-and-customization-in-aspose-cells/)
+Hướng dẫn Aspose.Cells cho .NET về cách hiển thị tiện ích bổ sung Office trong Excel sang PDF và bỏ qua lỗi trong quá trình chuyển đổi Excel sang PDF. Đơn giản hóa các tác vụ tài liệu của bạn.
+### [Quản lý hàng và cột](./row-and-column-management/)
+Mở khóa sức mạnh của Aspose.Cells cho .NET với hướng dẫn toàn diện của chúng tôi về quản lý hàng và cột để nâng cao kỹ năng Excel của bạn một cách dễ dàng.
+### [Tùy chỉnh kích thước và khoảng cách](./size-and-spacing-customization/)
+Cải thiện tệp Excel của bạn bằng Aspose.Cells cho .NET. Khám phá các hướng dẫn dễ làm theo để tùy chỉnh kích thước và khoảng cách, thiết lập chiều rộng cột và chiều cao hàng một cách dễ dàng.
+### [Tự động điều chỉnh hàng và cột](./row-column-autofit-conversion/)
+Làm chủ chức năng tự động điều chỉnh hàng và cột trong Excel với Aspose.Cells cho .NET. Cải thiện khả năng hiển thị dữ liệu với hướng dẫn từng bước để có bảng tính rõ ràng, chuyên nghiệp.
+### [Quản lý Excel Slicers](./excel-slicers-management/)
+Khám phá hướng dẫn toàn diện về cách quản lý các slicer Excel bằng Aspose.Cells cho .NET. Tìm hiểu cách tạo, cập nhật, định dạng và xuất các slicer dễ dàng.
+### [Smart Markers trong Aspose.Cells cho dữ liệu động](./smart-markers-dynamic-data/)
+Khám phá Aspose.Cells for .NET Smart Markers Tutorials để tạo báo cáo Excel động. Tìm hiểu cách thêm nhãn, tự động điền dữ liệu, sử dụng công thức và nhiều hơn nữa.

@@ -16,7 +16,7 @@ Pokud jste někdy vytvořili graf v Excelu, víte, že mohou být neuvěřiteln�
 Než se pustíte do výukového programu, ujistěte se, že máte vše nastaveno. Zde je to, co potřebujete:
 
 ### Visual Studio nainstalováno
-- V první řadě budete potřebovat Visual Studio. Pokud jej ještě nemáte nainstalovaný, můžete si jej stáhnout ze stránek společnosti Microsoft.
+- první řadě budete potřebovat Visual Studio. Pokud jej ještě nemáte nainstalovaný, můžete si jej stáhnout ze stránek společnosti Microsoft.
 
 ### Knihovna Aspose.Cells
 -  Dalším nezbytným nástrojem je knihovna Aspose.Cells pro .NET. Můžete to snadno získat z[Aspose webové stránky](https://releases.aspose.com/cells/net/) ke stažení. Pokud dáváte přednost testování před nákupem, je zde také a[bezplatná zkušební verze k dispozici](https://releases.aspose.com/).
@@ -37,7 +37,7 @@ Chcete-li začít, nastavte náš projekt ve Visual Studiu a importujte potřebn
 
 Otevřete Visual Studio a vytvořte nový projekt aplikace konzoly. Postupujte podle těchto jednoduchých kroků:
 - Klikněte na „Vytvořit nový projekt“.
-- Z možností vyberte „Console App (.NET Framework)“.
+- možností vyberte „Console App (.NET Framework)“.
 - Svůj projekt pojmenujte jako „CheckboxInChart“.
 
 ### Nainstalujte Aspose.Cells přes NuGet
@@ -66,7 +66,7 @@ Než se dostaneme k tomu zajímavému, musíme definovat, kam chceme, aby byl n�
 ```csharp
 string outputDir = "C:\\YourOutputDirectory\\"; // Přejděte do určeného adresáře
 ```
- Nezapomeňte vyměnit`"C:\\YourOutputDirectory\\"` s cestou, kam chcete soubor uložit. Berte to jako nastavení vašeho pracovního prostoru; musíte vědět, kam ukládáte své nástroje (nebo v tomto případě soubor Excel).
+ Nezapomeňte vyměnit`"C:\\YourOutputDirectory\\"` cestou, kam chcete soubor uložit. Berte to jako nastavení vašeho pracovního prostoru; musíte vědět, kam ukládáte své nástroje (nebo v tomto případě soubor Excel).
 
 ## Krok 2: Vytvoření instance objektu sešitu
 
@@ -111,7 +111,7 @@ V tomto kódu:
 - `PlacementType.Move` znamená, že pokud se graf pohne, pohne se i zaškrtávací políčko.
 - Nastavíme také polohu a velikost zaškrtávacího políčka v oblasti grafu a nakonec nastavíme textový popisek zaškrtávacího políčka.
 
-Přidání zaškrtávacího políčka je jako umístění třešničky na vršek poháru; vylepšuje to celou prezentaci!
+Přidání zaškrtávacího políčka je jako umístění třešničky na vrchol poháru; vylepšuje to celou prezentaci!
 
 ## Krok 6: Uložení souboru Excel
 
@@ -123,7 +123,7 @@ Tento řádek uloží váš nově vytvořený soubor Excel se zaškrtávacím po
 
 ## Závěr
 
-A tady to máte! Úspěšně jste přidali zaškrtávací políčko na list grafu v souboru aplikace Excel pomocí Aspose.Cells for .NET. Podle těchto kroků můžete vytvářet interaktivní a dynamické excelové listy, které nabízejí skvělé funkce a díky nimž jsou vaše vizualizace dat ještě poutavější.
+tady to máte! Úspěšně jste přidali zaškrtávací políčko na list grafu v souboru aplikace Excel pomocí Aspose.Cells for .NET. Podle těchto kroků můžete vytvořit interaktivní a dynamické excelové listy, které nabízejí skvělé funkce a díky nimž budou vaše vizualizace dat ještě poutavější.
 
 ## FAQ
 

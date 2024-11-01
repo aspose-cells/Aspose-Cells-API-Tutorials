@@ -94,7 +94,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 
 ## 步驟 4：取消工作表保護
 
-這是神奇的部分！ 
+這就是神奇的部分！ 
 
 ```csharp
 worksheet.Unprotect("");
@@ -128,7 +128,7 @@ catch (Exception ex)
 
 ## 結論
 
-現在你就得到它了！您已使用 Aspose.Cells for .NET 成功解鎖受密碼保護的 Excel 工作表。只需幾行程式碼，您就可以重新存取重要資料。透過這個出色的庫，強大的功能和靈活性觸手可及。 Aspose.Cells 非常適合想要簡化 Microsoft Excel 互動的開發人員，它不僅是一個高效的工具，而且是一個必不可少的工具。
+現在你就擁有了！您已使用 Aspose.Cells for .NET 成功解鎖受密碼保護的 Excel 工作表。只需幾行程式碼，您就可以重新存取重要資料。透過這個出色的庫，強大的功能和靈活性觸手可及。 Aspose.Cells 非常適合想要簡化 Microsoft Excel 互動的開發人員，它不僅是一個高效的工具，而且是一個必不可少的工具。
 
 ## 常見問題解答
 

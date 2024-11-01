@@ -128,7 +128,7 @@ Wir haben endlich den letzten Schritt unseres Tutorials erreicht – das Speiche
 book.Save(dataDir + "protectedrange.out.xls");
 ```
 
- Dadurch wird Ihre geschützte Arbeitsmappe gespeichert als`protectedrange.out.xls` in Ihrem angegebenen Verzeichnis.
+Dadurch wird Ihre geschützte Arbeitsmappe gespeichert als`protectedrange.out.xls` in Ihrem angegebenen Verzeichnis.
 
 ## Abschluss
 

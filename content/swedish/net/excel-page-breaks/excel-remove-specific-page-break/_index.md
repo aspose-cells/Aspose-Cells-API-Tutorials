@@ -64,7 +64,7 @@ Nästa steg måste vi ladda vår arbetsbok. I enklare termer, tänk på en arbet
 Workbook workbook = new Workbook(dataDir + "PageBreaks.xls");
 ```
 
-Förklaring: Den här raden skapar en ny instans av en`Workbook` , som laddar din angivna Excel-fil (i det här exemplet heter den`PageBreaks.xls`). 
+ Förklaring: Den här raden skapar en ny instans av en`Workbook` , som laddar din angivna Excel-fil (i det här exemplet heter den`PageBreaks.xls`). 
 
 ## Steg 3: Ta bort den horisontella sidbrytningen
 
@@ -117,4 +117,4 @@ Du kan iterera genom sidbrytningarna med en loop för att skriva ut deras index 
  Absolut! Ändra bara indexnumret`workbook.Worksheets[index]` för att rikta in det önskade arbetsbladet.
 
 ### Är Aspose.Cells ett gratis verktyg?  
- Aspose.Cells erbjuder en gratis provperiod, men för full funktionalitet måste du köpa en licens. Du kan kolla upp det[här](https://purchase.aspose.com/buy).
+Aspose.Cells erbjuder en gratis provperiod, men för full funktionalitet måste du köpa en licens. Du kan kolla upp det[här](https://purchase.aspose.com/buy).

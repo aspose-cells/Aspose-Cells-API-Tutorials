@@ -107,7 +107,7 @@ Diese Codezeile speichert Ihre aktualisierte Arbeitsmappe und behält alle Ihre 
 
 ## Schritt 7: Ausführung bestätigen
 
-Abschließend bestätigen wir noch, dass alles reibungslos funktioniert hat. Eine kurze Nachricht am Ende macht das deutlich.
+Abschließend bestätigen wir, dass alles reibungslos funktioniert hat. Eine kurze Nachricht am Ende macht dies deutlich.
 
 ```csharp
 Console.WriteLine("ReadAndWriteExternalConnectionOfXLSBFile executed successfully.\r\n");
@@ -134,4 +134,4 @@ Eine XLSB-Datei ist ein binäres Excel-Dateiformat, das Tabellendaten in einem B
 Absolut! Aspose.Cells unterstützt eine Vielzahl von Dateiformaten, darunter XLSX, CSV und mehr.
 
 ### Wo kann ich Hilfe suchen, wenn ich auf Probleme stoße?  
- Sie können Unterstützung in den Aspose-Foren erhalten[Hier](https://forum.aspose.com/c/cells/9).
+Sie können Unterstützung in den Aspose-Foren erhalten[Hier](https://forum.aspose.com/c/cells/9).

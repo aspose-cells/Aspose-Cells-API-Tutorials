@@ -8,8 +8,8 @@ weight: 11
 url: /nl/net/excel-range-address-calculation/get-address-cell-count-and-offset-for-entire-excel-range/
 ---
 ## Invoering
-Heb je ooit met data in Excel zitten goochelen, snel toegang moeten krijgen tot bepaalde bereiken of moeten uitvogelen met hoeveel cellen je werkt? Nou, dan heb je geluk! Vandaag duiken we in de wereld van Aspose.Cells voor .NET, een fantastische bibliotheek waarmee je moeiteloos Excel-bestanden kunt manipuleren. Aan het einde van deze gids weet je hoe je het adres kunt krijgen, de cellen kunt tellen en offsets voor een heel bereik kunt bepalen. Zie dit als je routekaart om een Excel-expert te worden met C#!
-Dus, leun achterover, pak je favoriete drankje en laten we beginnen!
+Heb je ooit met data in Excel zitten jongleren, snel toegang moeten krijgen tot bepaalde bereiken of moeten uitvogelen met hoeveel cellen je werkt? Nou, dan heb je geluk! Vandaag duiken we in de wereld van Aspose.Cells voor .NET, een fantastische bibliotheek waarmee je moeiteloos Excel-bestanden kunt manipuleren. Aan het einde van deze gids weet je hoe je het adres kunt krijgen, de cellen kunt tellen en offsets voor een heel bereik kunt bepalen. Zie dit als je routekaart om een Excel-expert te worden met C#!
+Dus leun achterover, pak je favoriete drankje en laten we beginnen!
 ## Vereisten
 Voordat we onze handen vuil maken aan de code, zijn er een paar dingen die je op orde moet hebben. Maar geen zorgen! Het is vrij eenvoudig.
 ### Wat heb je nodig:

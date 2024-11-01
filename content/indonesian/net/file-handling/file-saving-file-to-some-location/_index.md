@@ -12,7 +12,7 @@ Saat bekerja dengan file Excel dalam .NET, pustaka Aspose.Cells menonjol sebagai
 ## Prasyarat
 Sebelum kita mulai membuat kode, mari kita perlengkapi Anda dengan semua yang dibutuhkan untuk mengikuti dengan lancar. Berikut ini yang harus Anda miliki:
 1. Visual Studio: Pastikan Anda telah menginstal Visual Studio di komputer Anda. Di sanalah kita akan menulis dan menguji aplikasi .NET kita.
-2. Pustaka Aspose.Cells: Anda perlu mengunduh pustaka Aspose.Cells. Anda bisa mendapatkan versi terbaru[Di Sini](https://releases.aspose.com/cells/net/).
+2.  Pustaka Aspose.Cells: Anda perlu mengunduh pustaka Aspose.Cells. Anda bisa mendapatkan versi terbaru[Di Sini](https://releases.aspose.com/cells/net/).
 3. .NET Framework: Pastikan Anda memiliki versi .NET Framework yang kompatibel untuk Aspose.Cells, yang biasanya berfungsi dengan .NET Framework 4.0 dan yang lebih baru.
 4. Pemahaman Dasar tentang C#: Pemahaman dasar tentang pemrograman C# akan bermanfaat. Jangan khawatir; kami akan menjelaskan semuanya langkah demi langkah!
 5.  Jalur File: Tentukan di mana Anda ingin menyimpan file output. Buat direktori bernama`Your Document Directory` untuk kesederhanaan.
@@ -47,9 +47,9 @@ Terkadang, Anda mungkin perlu menyimpan berkas dalam format lama demi kompatibil
 // Simpan dalam format Excel 97–2003
 workbook.Save(dataDir + "output.xls");
 ```
- Baris ini menyimpan buku kerja Anda menggunakan`.xls`ekstensi, yang merupakan format Excel untuk versi sebelum 2007. Ini seperti mengirim surat melalui layanan pos untuk memastikan surat tersebut sampai ke penerima yang lebih tua!
+ Baris ini menyimpan buku kerja Anda menggunakan`.xls` ekstensi, yang merupakan format Excel untuk versi sebelum 2007. Ini seperti mengirim surat melalui layanan pos untuk memastikan surat tersebut sampai ke penerima yang lebih tua!
 ## Langkah 4: Menyimpan dalam Format Excel 2007
- Jika Anda ingin menggunakan fitur dari Excel 2007 dan yang lebih baru, simpan di`.xlsx` Format adalah jalan keluarnya. Berikut caranya:
+Jika Anda ingin menggunakan fitur dari Excel 2007 dan yang lebih baru, simpan di`.xlsx` Format adalah jalan keluarnya. Berikut caranya:
 ```csharp
 // Simpan dalam format Excel 2007 xlsx
 workbook.Save(dataDir + "output.xlsx");

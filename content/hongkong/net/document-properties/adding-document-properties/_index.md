@@ -43,7 +43,7 @@ Workbook workbook = new Workbook(dataDir + "sample-document-properties.xlsx");
 ```csharp
 Aspose.Cells.Properties.CustomDocumentPropertyCollection customProperties = workbook.Worksheets.CustomDocumentProperties;
 ```
-如果您需要存取標題、作者或主題等預設屬性，可以直接在`Workbook`班級。
+如果您需要存取標題、作者或主題等預設屬性，您可以直接在`Workbook`班級。
 ## 步驟 4：新增自訂文件屬性
 令人興奮的部分來了——添加自訂文件屬性！在本例中，我們將新增一個名為「Publisher」的屬性。
 ```csharp
@@ -58,7 +58,7 @@ workbook.Save(dataDir + "out_sample-document-properties.xlsx");
 確保為輸出檔案指定不同的檔案名，以避免覆蓋原始文件。
 
 ## 結論
-現在你就得到它了！您剛剛使用 Aspose.Cells for .NET 將自訂文件屬性新增至 Excel 檔案。有了這些知識，您現在可以使用有助於文件管理和識別的重要元資料來增強電子表格。無論您是希望簡化工作流程的開發人員還是渴望保持井井有條的業務專業人士，掌握文件屬性都是一筆巨大的財富。 
+現在你就擁有了！您剛剛使用 Aspose.Cells for .NET 將自訂文件屬性新增至 Excel 檔案。有了這些知識，您現在可以使用有助於文件管理和識別的重要元資料來增強電子表格。無論您是希望簡化工作流程的開發人員還是渴望保持井井有條的業務專業人士，掌握文件屬性都是一筆巨大的財富。 
 不要猶豫，嘗試不同類型的屬性並探索 Aspose.Cells 提供的所有可能性！
 ## 常見問題解答
 ### 我可以新增多個自訂文件屬性嗎？

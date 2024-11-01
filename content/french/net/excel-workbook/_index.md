@@ -17,7 +17,7 @@ Vous en avez assez de lutter avec la gestion des fichiers Excel ? Si vous avez d
 
 ## Ajout de signatures numériques
 
-Avez-vous déjà eu besoin d'ajouter une signature numérique à un fichier Excel signé ? Découvrez comment procéder grâce à notre guide[Ajouter une signature numérique à un fichier Excel déjà signé](./add-digital-signature-to-an-already-signed-excel-file/)Les signatures numériques garantissent l’authenticité et l’intégrité, rendant vos fichiers Excel non seulement fonctionnels mais également sécurisés.
+ Avez-vous déjà eu besoin d'ajouter une signature numérique à un fichier Excel signé ? Découvrez comment procéder grâce à notre guide[Ajouter une signature numérique à un fichier Excel déjà signé](./add-digital-signature-to-an-already-signed-excel-file/)Les signatures numériques garantissent l’authenticité et l’intégrité, rendant vos fichiers Excel non seulement fonctionnels mais également sécurisés.
 
 ## Créer des classeurs partagés
 
@@ -37,7 +37,7 @@ Avez-vous déjà eu besoin d'ajouter une signature numérique à un fichier Exce
 
 ## Augmenter la productivité avec Regex
 
-Vous êtes fan des expressions régulières ? Si ce n'est pas le cas, vous pourriez vouloir le devenir ! Les expressions régulières peuvent considérablement simplifier vos tâches, en particulier lorsque vous travaillez avec de grands ensembles de données dans Excel. Notre tutoriel sur[Remplacer une expression régulière](./regex-replace/) vous apprend à implémenter des fonctions de remplacement d'expressions régulières dans vos feuilles de calcul, vous permettant ainsi d'augmenter à la fois votre productivité et votre précision.
+ Vous êtes fan des expressions régulières ? Si ce n'est pas le cas, vous pourriez vouloir le devenir ! Les expressions régulières peuvent considérablement simplifier vos tâches, en particulier lorsque vous travaillez avec de grands ensembles de données dans Excel. Notre tutoriel sur[Remplacer une expression régulière](./regex-replace/) vous apprend à implémenter des fonctions de remplacement d'expressions régulières dans vos feuilles de calcul, vous permettant ainsi d'augmenter à la fois votre productivité et votre précision.
 
 ## Mise à jour des éléments Power Query
 
@@ -45,11 +45,11 @@ Vous êtes fan des expressions régulières ? Si ce n'est pas le cas, vous pourr
 
 ## Gestion des aperçus avant impression
 
-De temps à autre, vous devez présenter vos données de la manière la plus professionnelle possible. Apprendre à créer des aperçus avant impression peut être une compétence essentielle. Dans notre tutoriel sur[Aperçu avant impression du cahier d'exercices](./workbook-print-preview/), vous découvrirez comment formater correctement vos données avant de les imprimer. Ce processus peut vous éviter des erreurs embarrassantes et garantir que vos rapports sont aussi beaux sur papier qu'à l'écran.
+ De temps à autre, vous devez présenter vos données de la manière la plus professionnelle possible. Apprendre à créer des aperçus avant impression peut être une compétence essentielle. Dans notre tutoriel sur[Aperçu avant impression du cahier d'exercices](./workbook-print-preview/), vous découvrirez comment formater correctement vos données avant de les imprimer. Ce processus peut vous éviter des erreurs embarrassantes et garantir que vos rapports sont aussi beaux sur papier qu'à l'écran.
 
 ## Travailler avec des noms définis
 
- Les noms définis dans vos feuilles Excel peuvent être un moyen pratique de gérer vos données. Ils rendent les formules plus courtes et plus compréhensibles. Si vous cherchez à filtrer les noms définis lors du chargement d'un classeur, notre tutoriel sur[Filtrer les noms définis lors du chargement du classeur](./filter-defined-names-while-loading-workbook/) fournit toutes les étapes nécessaires pour y parvenir. Cette fonctionnalité vous permet de personnaliser le chargement de votre classeur, améliorant ainsi l'efficacité et l'organisation.
+Les noms définis dans vos feuilles Excel peuvent être un moyen pratique de gérer vos données. Ils rendent les formules plus courtes et plus compréhensibles. Si vous cherchez à filtrer les noms définis lors du chargement d'un classeur, notre tutoriel sur[Filtrer les noms définis lors du chargement du classeur](./filter-defined-names-while-loading-workbook/) fournit toutes les étapes nécessaires pour y parvenir. Cette fonctionnalité vous permet de personnaliser le chargement de votre classeur, améliorant ainsi l'efficacité et l'organisation.
 
 ## Conclusion
 

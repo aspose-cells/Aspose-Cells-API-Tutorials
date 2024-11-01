@@ -39,7 +39,7 @@ Workbook workbook = new Workbook(sourceDir + "SamplePivotTableExternalConnection
 ```
 這裡發生了什麼事？當我們創建一個新的`Workbook`對象，我們告訴程式讀取給定位置的 Excel 檔案。如果找到該文件，則認為它已加載！
 ## 第 4 步：訪問工作表
-載入工作簿後，我們經常需要與該工作簿中的特定工作表互動。如果我們的文件包含多個工作表，我們可以透過其索引存取我們需要的工作表：
+載入工作簿後，我們通常需要與該工作簿中的特定工作表互動。如果我們的文件包含多個工作表，我們可以透過其索引存取我們需要的工作表：
 ```csharp
 Worksheet worksheet = workbook.Worksheets[0];
 ```

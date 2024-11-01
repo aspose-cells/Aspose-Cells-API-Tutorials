@@ -89,7 +89,7 @@ Nu händer magin. Det är dags att ersätta "KIM" med "^^^TIM^^^".
 workbook.Replace("\\bKIM\\b", "^^^TIM^^^", replace);
 ```
 
-På denna rad:
+I denna rad:
 - `\\b` indikerar en ordgräns i regex, och se till att vi bara ersätter "KIM" när det visas som ett helt ord och inte en del av ett annat ord.
 - Vi ersätter den med "^^^TIM^^^" (märk på de tre fälten). Detta visar hur enkla regex-baserade ersättningar kan vara!
 

@@ -73,7 +73,7 @@ wb.Save(dataDir + "RefreshAndCalculateItems_out.pdf", SaveFormat.Pdf);
 ### Μπορώ να δοκιμάσω το Aspose.Cells δωρεάν;
  Ναί! Μπορείτε να κατεβάσετε ένα[δωρεάν δοκιμή](https://releases.aspose.com/) για να εξερευνήσετε τις δυνατότητες της βιβλιοθήκης πριν κάνετε μια αγορά.
 ### Πού μπορώ να βρω περισσότερα έγγραφα;
- Μπορείτε να βρείτε ολοκληρωμένη τεκμηρίωση για το[Aspose τοποθεσία αναφοράς](https://reference.aspose.com/cells/net/).
+ Μπορείτε να βρείτε ολοκληρωμένη τεκμηρίωση για το[Aspose site αναφοράς](https://reference.aspose.com/cells/net/).
 ### Ποιες μορφές αρχείων υποστηρίζει το Aspose.Cells;
 Το Aspose.Cells υποστηρίζει διάφορες μορφές, συμπεριλαμβανομένων των XLSX, XLS, CSV, PDF και άλλων.
 ### Πώς μπορώ να λάβω υποστήριξη για το Aspose.Cells;

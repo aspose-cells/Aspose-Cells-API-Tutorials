@@ -18,7 +18,7 @@ Most, hogy készen vagyunk, importáljuk a szükséges csomagokat!
 ## Csomagok importálása
 Az Aspose.Cells erejének kihasználásához importálnia kell a megfelelő névtereket a projektbe. Ezt a következőképpen teheti meg:
 1. Új projekt létrehozása: Nyissa meg a Visual Studio-t, és hozzon létre egy új C# konzolalkalmazást.
-2. Hivatkozások hozzáadása: Ügyeljen arra, hogy hivatkozást adjon hozzá az Aspose.Cells könyvtárhoz. Ezt úgy teheti meg, hogy a jobb gombbal rákattint a projektre, kiválasztja a „Hozzáadás”, majd a „Referencia” elemet, és megkeresi azt a helyet, ahonnan az Aspose.Cells DLL-t letöltötte.
+2. Hivatkozások hozzáadása: Ügyeljen arra, hogy adjon hivatkozást az Aspose.Cells könyvtárhoz. Ezt úgy teheti meg, hogy a jobb gombbal rákattint a projektre, kiválasztja a „Hozzáadás”, majd a „Referencia” elemet, és megkeresi azt a helyet, ahonnan az Aspose.Cells DLL-t letöltötte.
 ```csharp
 using System.IO;
 using System;

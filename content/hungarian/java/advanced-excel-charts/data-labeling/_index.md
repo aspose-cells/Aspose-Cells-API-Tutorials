@@ -59,7 +59,7 @@ column.setCaption("Expenses");
 Az Aspose.Cells for Java lehetővé teszi a címkék testreszabását a betűtípusok, színek és egyéb formázási beállítások módosításával. Ez biztosítja, hogy címkéi ne csak informatívak, hanem vizuálisan is vonzóak legyenek.
 
 ```java
-// A címkeformázás testreszabása
+// A címke formázásának testreszabása
 Style style = cell.getStyle();
 style.getFont().setBold(true);
 style.getFont().setColor(Color.getRed());

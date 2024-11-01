@@ -45,7 +45,7 @@ Ezután létre kell hoznunk egy új munkafüzetet, amelyhez hozzáadjuk a szöve
 // Példányosítson egy új munkafüzetet.
 Workbook workbook = new Workbook();
 ```
-Ez a kódsor egy új Excel-munkafüzetet hoz létre. Egyszerű és egyértelmű!
+Ez a kódsor új Excel-munkafüzetet hoz létre. Egyszerű és egyértelmű!
 ## 3. lépés: Az első munkalap elérése
 Most, hogy elkészült a munkafüzetünk, szerezzük be az első munkalapot, amelyhez hozzáadjuk a szövegdobozunkat:
 ```csharp
@@ -94,7 +94,7 @@ Szeretnéd a szövegmezőt kattintható hivatkozássá alakítani? Tegyük ezt:
 textbox0.AddHyperlink("http://www.aspose.com/");
 ```
 Mostantól bárki, aki a szövegdobozra kattint, az Aspose webhelyére kerül. Ez olyan, mint a varázslat!
-## 9. lépés: Szövegmező elhelyezési típusának beállítása
+## 9. lépés: A TextBox elhelyezési típusának beállítása
 Különböző választási lehetőségek közül választhat, hogy a szövegdoboz hogyan viselkedjen a munkalappal kapcsolatban. Íme egy példa arra, hogyan állíthatja be szabadon lebegővé:
 ```csharp
 // Állítsa be az elhelyezést.
@@ -110,7 +110,7 @@ A következőképpen módosíthatja a szövegmező szegélyének és kitöltés�
 ```csharp
 // Szerezze meg a szövegdoboz kitöltési formátumát.
 Aspose.Cells.Drawing.FillFormat fillformat = textbox0.Fill;            
-// Szerezze be a szövegdoboz sorformátumának típusát.
+// Szerezze meg a szövegdoboz sorformátumának típusát.
 Aspose.Cells.Drawing.LineFormat lineformat = textbox0.Line;           
 // Állítsa be a vonalvastagságot.
 lineformat.Weight = 6;

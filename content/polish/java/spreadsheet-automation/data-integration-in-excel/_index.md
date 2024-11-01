@@ -100,6 +100,6 @@ Oczywiście! Aspose.Cells for Java zapewnia potężne API do automatyzacji, umo�
 
 ### P5: Czy istnieją jakieś alternatywne biblioteki umożliwiające integrację danych z programu Excel?
 
-Chociaż Aspose.Cells for Java jest solidnym wyborem, alternatywy takie jak Apache POI również oferują możliwość integracji z programem Excel.
+Chociaż Aspose.Cells dla języka Java jest solidnym wyborem, alternatywy takie jak Apache POI również oferują możliwość integracji z programem Excel.
 
 Ten kompleksowy przewodnik powinien pomóc Ci opanować integrację danych w programie Excel przy użyciu Aspose.Cells dla Java. Możesz swobodnie zgłębiać temat i dostosowywać te kroki do swoich konkretnych potrzeb. Udanej integracji danych!

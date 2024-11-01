@@ -33,7 +33,7 @@ Antes de sumergirse en el código, debe asegurarse de que la estructura de direc
 // Directorio de fuentes
 string sourceDir = "Your Document Directory";
 ```
- Reemplazar`"Your Document Directory"` con la ruta real al directorio en su computadora donde se encuentra el archivo cifrado.
+ Reemplazar`"Your Document Directory"`con la ruta real al directorio en su computadora donde se encuentra el archivo cifrado.
 ## Paso 2: Prepare su archivo cifrado
 
  En este paso, asegúrese de tener un archivo Excel cifrado disponible en el directorio especificado. Aquí, asumiremos que el archivo se llama`encryptedBook1.out.tmp`.
@@ -73,6 +73,6 @@ Detectar el formato de archivo de archivos Excel cifrados puede ser muy fácil c
 ### ¿Qué pasa si olvido mi contraseña?
 Lamentablemente, no podrá acceder al formato de archivo sin la contraseña.
 ### ¿Puedo descargar una prueba gratuita de Aspose.Cells?
-Sí, puedes descargar una versión de prueba gratuita[aquí](https://releases.aspose.com/).
+ Sí, puedes descargar una versión de prueba gratuita[aquí](https://releases.aspose.com/).
 ### ¿Dónde puedo encontrar documentación más detallada?
  Puede explorar la documentación completa en Aspose.Cells[aquí](https://reference.aspose.com/cells/net/).

@@ -12,7 +12,7 @@ Vous êtes-vous déjà retrouvé aux prises avec des formats de fichiers Excel c
 ## Prérequis
 Avant d’entrer dans les détails juteux, vous devez remplir quelques conditions préalables :
 1. Visual Studio – Assurez-vous que Visual Studio est installé sur votre système. Il vous aidera à écrire et à exécuter votre code C# sans effort.
-2.  Bibliothèque Aspose.Cells - Vous aurez besoin de la bibliothèque Aspose.Cells pour .NET. Vous pouvez facilement la télécharger à partir du[Page de publication des cellules Aspose](https://releases.aspose.com/cells/net/).
+2. Bibliothèque Aspose.Cells - Vous aurez besoin de la bibliothèque Aspose.Cells pour .NET. Vous pouvez facilement la télécharger à partir du[Page de publication des cellules Aspose](https://releases.aspose.com/cells/net/).
 3. Connaissances de base en programmation - Une certaine familiarité avec C# et .NET améliorera votre compréhension des extraits de code que nous aborderons.
 4. Un répertoire de documents de test - Créez ou choisissez un dossier dans lequel vous enregistrerez et testerez vos fichiers Excel. Pour ce tutoriel, nous l'appellerons « Votre répertoire de documents ».
 Avec tout en place, vous êtes prêt à montrer vos compétences !

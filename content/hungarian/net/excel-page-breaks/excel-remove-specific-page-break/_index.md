@@ -64,7 +64,7 @@ Ezután be kell töltenünk a munkafüzetünket. Egyszerűbben fogalmazva, képz
 Workbook workbook = new Workbook(dataDir + "PageBreaks.xls");
 ```
 
-Magyarázat: Ez a sor egy új példányt hoz létre a`Workbook` , amely betölti a megadott Excel-fájlt (ebben a példában a neve`PageBreaks.xls`). 
+ Magyarázat: Ez a sor egy új példányt hoz létre a`Workbook` , amely betölti a megadott Excel-fájlt (ebben a példában a neve`PageBreaks.xls`). 
 
 ## 3. lépés: Távolítsa el a vízszintes oldaltörést
 
@@ -111,10 +111,10 @@ Magyarázat: Itt elmentjük a munkafüzetet új néven (`RemoveSpecificPageBreak
 Ismételheti az oldaltöréseket egy ciklus segítségével, hogy kinyomtassa az indexeiket, vagy megvizsgálja őket a hibakeresőn keresztül.
 
 ### Van mód az eltávolított oldaltörések újbóli hozzáadására?  
- Sajnos, miután az oldaltörést a`RemoveAt` módszerrel, nem lehet visszaállítani azon a munkameneten belül. Manuálisan kell újra létrehoznia.
+ Sajnos, miután az oldaltörést a`RemoveAt` módszerrel, nem lehet visszaállítani azon a munkameneten belül. Kézzel kell újra létrehoznia.
 
 ### Alkalmazhatom ezt a módszert a munkafüzet más munkalapjaira?  
  Teljesen! Csak módosítsa az indexszámot`workbook.Worksheets[index]` hogy megcélozza a kívánt munkalapot.
 
 ### Az Aspose.Cells ingyenes eszköz?  
- Az Aspose.Cells ingyenes próbaverziót kínál, de a teljes funkcionalitás érdekében licencet kell vásárolnia. Meg tudod nézni[itt](https://purchase.aspose.com/buy).
+Az Aspose.Cells ingyenes próbaverziót kínál, de a teljes funkcionalitás érdekében licencet kell vásárolnia. Meg tudod nézni[itt](https://purchase.aspose.com/buy).

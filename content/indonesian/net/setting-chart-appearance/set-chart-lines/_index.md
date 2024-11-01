@@ -43,7 +43,7 @@ string outputDir = "Your Output Directory";
 
  Penjelasan: Ganti "Direktori Output Anda" dengan jalur tempat Anda ingin Aspose.Cells menyimpan file, seperti`C:\\MyExcelFiles\\`.
 
-## Langkah 2: Membuat Instansiasi Objek Buku Kerja
+## Langkah 2: Membuat Instansi Objek Buku Kerja
 
 Sekarang, kita akan membuat objek buku kerja, yang berfungsi sebagai wadah bagi lembar kerja Anda.
 

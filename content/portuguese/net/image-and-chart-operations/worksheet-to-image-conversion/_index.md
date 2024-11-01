@@ -58,7 +58,7 @@ Agora que temos a pasta de trabalho aberta, vamos acessar a primeira planilha:
 // Obtenha a primeira planilha.
 Worksheet sheet = book.Worksheets[0];
 ```
- Aqui, recuperamos a primeira planilha (índice`0` ) da pasta de trabalho. As matrizes Aspose.Cells são indexadas em zero, o que significa que a primeira planilha é`0`.
+ Aqui, recuperamos a primeira planilha (índice`0` da pasta de trabalho. As matrizes Aspose.Cells são indexadas em zero, o que significa que a primeira planilha é`0`.
 ## Etapa 6: Defina opções de imagem ou impressão
  Antes de renderizar a imagem, precisamos especificar como queremos que ela fique usando`ImageOrPrintOptions`:
 ```csharp
@@ -82,7 +82,7 @@ Bitmap bitmap = sr.ToImage(0);
 ## Etapa 8: Salvando a imagem
 Após a renderização, precisamos salvar a imagem no diretório especificado:
 ```csharp
-// Salve o arquivo de imagem especificando seu formato.
+//Salve o arquivo de imagem especificando seu formato.
 bitmap.Save(dataDir + "SheetImage.out.jpg");
 ```
  Aqui, salvamos a imagem bitmap que geramos. Esta linha grava a imagem no`dataDir` localização com o nome do arquivo`SheetImage.out.jpg`.
@@ -99,9 +99,9 @@ E aí está! Em apenas alguns passos simples, você aprendeu como converter uma 
 ### O que é Aspose.Cells?
 Aspose.Cells é uma biblioteca .NET que permite aos desenvolvedores criar, manipular, converter e processar arquivos do Excel programaticamente.
 ### Posso usar o Aspose.Cells gratuitamente?
-Sim, você pode começar a usar o Aspose.Cells baixando uma versão de avaliação gratuita do site deles[site](https://releases.aspose.com/).
+ Sim, você pode começar a usar o Aspose.Cells baixando uma versão de avaliação gratuita do site deles[site](https://releases.aspose.com/).
 ### Quais formatos de imagem o Aspose.Cells suporta para exportação?
-O Aspose.Cells suporta vários formatos de imagem, incluindo JPEG, PNG, BMP e GIF.
+Aspose.Cells suporta vários formatos de imagem, incluindo JPEG, PNG, BMP e GIF.
 ### Onde posso encontrar suporte adicional para o Aspose.Cells?
  Você pode acessar o fórum de suporte para Aspose.Cells[aqui](https://forum.aspose.com/c/cells/9).
 ### Como obtenho uma licença temporária para o Aspose.Cells?

@@ -90,4 +90,4 @@ V tomto tutoriálu jsme se naučili vytvářet animace grafů pomocí Aspose.Cel
 
 ### Jaký je účel zpoždění animace?
 
- Zpoždění animace určuje časovou mezeru před zahájením animace grafu. Použijte`setAnimationDelay`metoda pro nastavení zpoždění v milisekundách.
+ Zpoždění animace určuje časovou mezeru před zahájením animace grafu. Použijte`setAnimationDelay` metoda pro nastavení zpoždění v milisekundách.

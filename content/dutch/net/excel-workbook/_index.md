@@ -17,7 +17,7 @@ Bent u het zat om te worstelen met Excel-bestandsbeheer? Als u ooit de uitdaging
 
 ## Digitale handtekeningen toevoegen
 
-Heb je ooit een digitale handtekening moeten toevoegen aan een ondertekend Excel-bestand? Ontdek hoe je dit doet met onze gids over[Digitale handtekening toevoegen aan een reeds ondertekend Excel-bestand](./add-digital-signature-to-an-already-signed-excel-file/)Digitale handtekeningen garanderen authenticiteit en integriteit, waardoor uw Excel-bestanden niet alleen functioneel maar ook veilig zijn.
+ Heb je ooit een digitale handtekening moeten toevoegen aan een ondertekend Excel-bestand? Ontdek hoe je dit doet met onze gids over[Digitale handtekening toevoegen aan een reeds ondertekend Excel-bestand](./add-digital-signature-to-an-already-signed-excel-file/)Digitale handtekeningen garanderen authenticiteit en integriteit, waardoor uw Excel-bestanden niet alleen functioneel maar ook veilig zijn.
 
 ## Gedeelde werkmappen maken
 
@@ -37,7 +37,7 @@ Heb je ooit een digitale handtekening moeten toevoegen aan een ondertekend Excel
 
 ## Productiviteit verhogen met Regex
 
-Bent u een fan van regex? Zo niet, dan wilt u er misschien een worden! Reguliere expressies kunnen uw taken aanzienlijk stroomlijnen, vooral bij het werken met grote datasets in Excel. Onze tutorial over[Regex vervangen](./regex-replace/) leert u hoe u regex-vervangingsfuncties in uw spreadsheets kunt implementeren, waardoor u zowel uw productiviteit als nauwkeurigheid kunt vergroten.
+ Bent u een fan van regex? Zo niet, dan wilt u er misschien een worden! Reguliere expressies kunnen uw taken aanzienlijk stroomlijnen, vooral bij het werken met grote datasets in Excel. Onze tutorial over[Regex vervangen](./regex-replace/) leert u hoe u regex-vervangingsfuncties in uw spreadsheets kunt implementeren, waardoor u zowel uw productiviteit als nauwkeurigheid kunt vergroten.
 
 ## Power Query-items bijwerken
 
@@ -45,11 +45,11 @@ Bent u een fan van regex? Zo niet, dan wilt u er misschien een worden! Reguliere
 
 ## Afdrukvoorbeelden beheren
 
-Af en toe moet u uw gegevens op de meest professionele manier presenteren. Leren hoe u afdrukvoorbeelden maakt, kan een essentiële vaardigheid zijn. In onze tutorial over[Werkboek Afdrukvoorbeeld](./workbook-print-preview/), ontdekt u hoe u uw gegevens correct kunt formatteren voordat u op afdrukken drukt. Dit proces kan u behoeden voor gênante fouten en ervoor zorgen dat uw rapporten er op papier net zo goed uitzien als op het scherm.
+ Af en toe moet u uw gegevens op de meest professionele manier presenteren. Leren hoe u afdrukvoorbeelden maakt, kan een essentiële vaardigheid zijn. In onze tutorial over[Werkboek Afdrukvoorbeeld](./workbook-print-preview/), ontdekt u hoe u uw gegevens correct kunt formatteren voordat u op afdrukken drukt. Dit proces kan u behoeden voor gênante fouten en ervoor zorgen dat uw rapporten er op papier net zo goed uitzien als op het scherm.
 
 ## Werken met gedefinieerde namen
 
- Gedefinieerde namen in uw Excel-sheets kunnen een handige manier zijn om uw gegevens te beheren. Ze maken formules korter en begrijpelijker. Als u gedefinieerde namen wilt filteren tijdens het laden van een werkmap, vindt u in onze tutorial over[Gedefinieerde namen filteren tijdens het laden van de werkmap](./filter-defined-names-while-loading-workbook/) biedt alle benodigde stappen om dat te doen. Met deze functie kunt u aanpassen hoe uw werkmap laadt, wat de efficiëntie en organisatie verbetert.
+Gedefinieerde namen in uw Excel-sheets kunnen een handige manier zijn om uw gegevens te beheren. Ze maken formules korter en begrijpelijker. Als u gedefinieerde namen wilt filteren tijdens het laden van een werkmap, vindt u in onze tutorial over[Gedefinieerde namen filteren tijdens het laden van de werkmap](./filter-defined-names-while-loading-workbook/) biedt alle benodigde stappen om dat te doen. Met deze functie kunt u aanpassen hoe uw werkmap laadt, wat de efficiëntie en organisatie verbetert.
 
 ## Conclusie
 

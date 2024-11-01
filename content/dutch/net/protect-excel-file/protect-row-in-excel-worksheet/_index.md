@@ -57,7 +57,7 @@ Workbook wb = new Workbook();
 
 ## Stap 3: Toegang tot het werkblad
 
-Nu de werkmap is gemaakt, gaan we aan de slag met het eerste werkblad. Vergeet niet dat een Excel-bestand meerdere werkbladen kan bevatten, dus het is cruciaal om de juiste te kiezen.
+Nu de werkmap is gemaakt, kunnen we aan de slag met het eerste werkblad. Vergeet niet dat een Excel-bestand meerdere werkbladen kan bevatten, dus het is cruciaal om de juiste te kiezen.
 
 ```csharp
 Worksheet sheet = wb.Worksheets[0]; // Toegang tot het eerste blad

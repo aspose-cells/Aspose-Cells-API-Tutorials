@@ -88,7 +88,7 @@ StyleFlag flag;
 for (int i = 0; i <= 255; i++)
 {
     style = sheet.Cells.Columns[(byte)i].Style;
-    style.IsLocked = false; //Buka kunci kolom
+    style.IsLocked = false; // Buka kunci kolom
     flag = new StyleFlag();
     flag.Locked = true; // Tetapkan bendera ke benar untuk penguncian
     sheet.Cells.Columns[(byte)i].ApplyStyle(style, flag); // Terapkan gaya

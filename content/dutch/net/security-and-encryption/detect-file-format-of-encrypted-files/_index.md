@@ -33,7 +33,7 @@ Voordat u in de code duikt, moet u ervoor zorgen dat uw directorystructuur op or
 // Bron directory
 string sourceDir = "Your Document Directory";
 ```
- Vervangen`"Your Document Directory"` met het daadwerkelijke pad naar de map op uw computer waar uw gecodeerde bestand zich bevindt.
+ Vervangen`"Your Document Directory"`met het daadwerkelijke pad naar de map op uw computer waar uw gecodeerde bestand zich bevindt.
 ## Stap 2: Bereid uw gecodeerde bestand voor
 
  Zorg er in deze stap voor dat u een gecodeerd Excel-bestand beschikbaar hebt in de door u opgegeven directory. Hier gaan we ervan uit dat het bestand de naam`encryptedBook1.out.tmp`.
@@ -73,6 +73,6 @@ Absoluut! Gebruik try-catch-blokken om mogelijke uitzonderingen tijdens bestands
 ### Wat als ik mijn wachtwoord vergeet?
 Helaas kunt u zonder het wachtwoord geen toegang krijgen tot het bestandsformaat.
 ### Kan ik een gratis proefversie van Aspose.Cells downloaden?
-Ja, u kunt een gratis proefversie downloaden[hier](https://releases.aspose.com/).
+ Ja, u kunt een gratis proefversie downloaden[hier](https://releases.aspose.com/).
 ### Waar kan ik meer gedetailleerde documentatie vinden?
  U kunt uitgebreide documentatie op Aspose.Cells bekijken[hier](https://reference.aspose.com/cells/net/).

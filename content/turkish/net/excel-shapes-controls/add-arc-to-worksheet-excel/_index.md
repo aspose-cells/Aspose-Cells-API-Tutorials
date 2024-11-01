@@ -108,7 +108,7 @@ Aspose.Cells, geliştiricilerin Microsoft Excel'e ihtiyaç duymadan Excel dosyal
 ### Aspose.Cells'i kullanmak için Microsoft Excel'i yüklemem gerekiyor mu?
 Hayır, Aspose.Cells tamamen bağımsızdır ve Microsoft Excel'in kurulu olmasını gerektirmez.
 ### Aspose.Cells'i ücretsiz deneyebilir miyim?
-Evet, Aspose.Cells'i kullanarak deneyebilirsiniz[Ücretsiz Deneme](https://releases.aspose.com/).
+ Evet, Aspose.Cells'i kullanarak deneyebilirsiniz[Ücretsiz Deneme](https://releases.aspose.com/).
 ### Aspose.Cells hangi programlama dillerini destekliyor?
 Aspose.Cells, C#, VB.NET ve daha fazlası dahil olmak üzere birden fazla dili destekler.
 ### Aspose.Cells için desteği nereden alabilirim?

@@ -59,12 +59,12 @@ Nyní si vezmeme první pracovní list, kam přidáme naše tvary.
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 ## Krok 4: Přidejte tvar čáry
-Nyní do našeho listu přidáme řádek:
+Nyní přidáme řádek do našeho listu:
 ```csharp
 // Přidejte řádek do listu
 Aspose.Cells.Drawing.LineShape line2 = worksheet.Shapes.AddLine(7, 0, 1, 0, 85, 250);
 ```
-V tomto příkladu vytváříme tvar čáry začínající na souřadnicích (7, 0) a končící na (85, 250). Tato čísla můžete upravit a přizpůsobit tak velikost a pozici čáry podle potřeby.
+tomto příkladu vytváříme tvar čáry začínající na souřadnicích (7, 0) a končící na (85, 250). Tato čísla můžete upravit a přizpůsobit tak velikost a pozici čáry podle potřeby.
 ## Krok 5: Přizpůsobte čáru
 Linku můžete učinit vizuálně přitažlivější změnou její barvy a hmotnosti. Zde je postup:
 ```csharp

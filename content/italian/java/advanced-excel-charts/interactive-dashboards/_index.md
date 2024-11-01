@@ -2,7 +2,7 @@
 title: Dashboard interattive
 linktitle: Dashboard interattive
 second_title: API di elaborazione Excel Java Aspose.Cells
-description: Impara a creare dashboard interattive con Aspose.Cells per Java. Guida passo passo per la creazione di visualizzazioni di dati dinamiche.
+description: Impara a creare dashboard interattive con Aspose.Cells per Java. Guida passo passo per la creazione di visualizzazioni dinamiche di dati.
 type: docs
 weight: 10
 url: /it/java/advanced-excel-charts/interactive-dashboards/

@@ -93,7 +93,7 @@ public class ExcelFileManager {
 public class Main {
     public static void main(String[] args) {
         String username = "john_doe"; // Substitua pelo nome de usuário real
-        String filename = "example.xlsx"; // Substituir pelo caminho do arquivo real
+        String filename = "example.xlsx"; // Substituir pelo caminho real do arquivo
 
         // Abra o arquivo Excel
         ExcelFileManager.openExcelFile(filename, username);

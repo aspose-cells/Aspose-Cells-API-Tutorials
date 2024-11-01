@@ -12,7 +12,7 @@ Pernahkah Anda perlu mengonversi buku kerja Excel ke HTML dan ingin memastikan b
 Di akhir artikel ini, Anda akan memiliki pemahaman yang jelas tentang cara menggunakan fitur ini dan memastikan keluaran HTML Anda bersih dan bebas komentar.
 ## Prasyarat
 Sebelum kita menyelami panduan langkah demi langkahnya, mari kita bahas beberapa hal yang perlu Anda persiapkan agar dapat mengikutinya dengan lancar:
-1.  Aspose.Cells untuk .NET: Anda harus menginstal pustaka Aspose.Cells. Jika Anda belum menginstalnya, Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/cells/net/).
+1. Aspose.Cells untuk .NET: Anda harus menginstal pustaka Aspose.Cells. Jika Anda belum menginstalnya, Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/cells/net/).
 2. IDE: Lingkungan pengembangan seperti Visual Studio untuk menulis dan mengeksekusi kode C# Anda.
 3. Pengetahuan Dasar C#: Keakraban dengan sintaksis C# dan pemrograman berorientasi objek akan membantu Anda mengikuti kode.
 4.  Versi Sementara atau Berlisensi: Anda dapat menggunakan uji coba gratis atau mengajukan lisensi sementara dari[Di Sini](https://purchase.aspose.com/temporary-license/)Ini memastikan perpustakaan berfungsi tanpa batasan apa pun.

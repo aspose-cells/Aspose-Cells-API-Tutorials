@@ -30,7 +30,7 @@ Laten we onze codeerreis beginnen door de benodigde pakketten in ons project te 
 
 1. Open Visual Studio.
 2. Klik op 'Een nieuw project maken'.
-3. Kies 'Console-app (.NET Core)' of 'Console-app (.NET Framework)'. Uw voorkeur is bepalend.
+3. Kies 'Console-app (.NET Core)' of 'Console-app (.NET Framework)'. Uw voorkeur is voldoende.
 4. Geef uw project een naam (bijvoorbeeld ODataDetailsExtractor) en klik op 'Maken'.
 
 ### Installeer Aspose.Cells NuGet-pakket

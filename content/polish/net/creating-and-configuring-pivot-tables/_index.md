@@ -62,9 +62,9 @@ tym szczegółowym samouczku krok po kroku dowiesz się, jak programowo ustawić
 ### [Ustawianie formatu pola danych programowo w .NET](./setting-data-field-format/)
 Opanuj formatowanie pól danych w tabelach przestawnych za pomocą Aspose.Cells dla .NET dzięki temu samouczkowi krok po kroku. Ulepsz formatowanie danych w programie Excel.
 ### [Ustawianie opcji formatowania tabeli przestawnej w .NET](./setting-format-options/)
-Naucz się używać Aspose.Cells dla .NET do formatowania tabel przestawnych bez wysiłku. Poznaj techniki krok po kroku, aby ulepszyć prezentację danych.
+Naucz się używać Aspose.Cells dla .NET do bezproblemowego formatowania tabel przestawnych. Poznaj techniki krok po kroku, aby ulepszyć prezentację danych.
 ### [Ustawianie formatu pola strony programowo w .NET](./setting-page-field-format/)
-Dowiedz się, jak programowo ustawić formaty pól stron w tabelach przestawnych przy użyciu Aspose.Cells dla .NET. Postępuj zgodnie z naszym samouczkiem krok po kroku, aby płynnie zarządzać danymi.
+Dowiedz się, jak programowo ustawiać formaty pól stron w tabelach przestawnych przy użyciu Aspose.Cells dla .NET. Postępuj zgodnie z naszym samouczkiem krok po kroku, aby płynnie zarządzać danymi.
 ### [Pokaż opcję Filtruj strony raportów w .NET](./show-report-filter-pages-option/)
 Dowiedz się, jak skutecznie używać Aspose.Cells dla .NET, aby wyświetlać strony filtrów raportów w tabelach przestawnych. Przewodnik krok po kroku z kompletnymi przykładami kodu.
 ### [Określanie zgodności pliku Excel programowo w środowisku .NET](./specifying-compatibility/)

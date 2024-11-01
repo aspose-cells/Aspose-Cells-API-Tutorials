@@ -93,7 +93,7 @@ workbook.Save(outputDir + "AddTooltipToHtmlSample_out.html", options);
 
 ## 结论
 
-就这样！使用 Aspose.Cells for .NET 将 Excel 文件转换为带有工具提示的 HTML 非常简单。无论您是构建 Web 应用程序还是只需要快速将数据转换为适合 Web 的格式，此方法都可以为您节省大量时间。 
+就这样！使用 Aspose.Cells for .NET 将 Excel 文件转换为带有工具提示的 HTML 非常简单。无论您是构建 Web 应用程序还是只需要快速将数据转换为适合 Web 的格式，此方法都将为您节省大量时间。 
 
 ## 常见问题解答
 
@@ -108,7 +108,7 @@ workbook.Save(outputDir + "AddTooltipToHtmlSample_out.html", options);
 虽然 Aspose.Cells 添加了基本的工具提示，但您可以在转换后在 HTML 文件中使用 CSS 和 JavaScript 进一步设置其样式。
 
 ### 支持将哪些类型的 Excel 文件转换为 HTML？
- Aspose.Cells 支持多种 Excel 格式，包括`.xlsx`, `.xls`， 和`.xlsb`。您可以轻松地将任何这些格式转换为 HTML。
+ Aspose.Cells 支持多种 Excel 格式，包括`.xlsx`, `.xls` ， 和`.xlsb`。您可以轻松地将任何这些格式转换为 HTML。
 
 ### 我可以免费试用 Aspose.Cells 吗？
 是的，Aspose 提供[免费试用](https://releases.aspose.com/)针对其所有产品，因此您可以在购买之前探索其全部功能。

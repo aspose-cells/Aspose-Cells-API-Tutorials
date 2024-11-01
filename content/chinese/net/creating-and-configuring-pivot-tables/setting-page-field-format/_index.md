@@ -2,7 +2,7 @@
 title: 在 .NET 中以编程方式设置页面字段格式
 linktitle: 在 .NET 中以编程方式设置页面字段格式
 second_title: Aspose.Cells .NET Excel 处理 API
-description: 了解如何使用 Aspose.Cells for .NET 以编程方式在数据透视表中设置页面字段格式。按照我们的分步教程进行无缝数据管理。
+description: 了解如何使用 Aspose.Cells for .NET 以编程方式设置数据透视表中的页面字段格式。按照我们的分步教程进行无缝数据管理。
 type: docs
 weight: 21
 url: /zh/net/creating-and-configuring-pivot-tables/setting-page-field-format/

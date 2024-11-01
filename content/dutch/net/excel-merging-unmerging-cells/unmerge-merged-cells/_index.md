@@ -125,7 +125,7 @@ En daar heb je het! Je hebt succesvol cellen in een Excel-bestand samengevoegd m
 
 ## Conclusie
 
-Cellen samenvoegen lijkt misschien omslachtig, vooral als u met grote spreadsheets werkt, maar met Aspose.Cells voor .NET is het een fluitje van een cent! Deze tutorial leidde u door alles heen, van het instellen van uw omgeving tot het uitvoeren van de code die nodig is om cellen effectief samen te voegen. De flexibiliteit die de Aspose.Cells-bibliotheek biedt, stelt u in staat om spreadsheets efficiënt te verwerken, waardoor het een ideale keuze is voor ontwikkelaars die met Excel-bestanden werken. Duik er dus in en begin te genieten van schonere, beter beheerbare spreadsheets.
+Cellen samenvoegen lijkt misschien omslachtig, vooral als u met grote spreadsheets werkt, maar met Aspose.Cells voor .NET is het een fluitje van een cent! Deze tutorial leidde u door alles heen, van het instellen van uw omgeving tot het uitvoeren van de code die nodig is om cellen effectief samen te voegen. De flexibiliteit die de Aspose.Cells-bibliotheek biedt, stelt u in staat om spreadsheets efficiënt te verwerken, waardoor het een ideale keuze is voor ontwikkelaars die met Excel-bestanden werken. Dus duik erin en begin te genieten van schonere, beter beheerbare spreadsheets.
 
 ## Veelgestelde vragen
 

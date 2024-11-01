@@ -12,7 +12,7 @@ Pokud jde o práci se soubory aplikace Excel v .NET, je k dispozici mnoho flexib
 ## Předpoklady
 Než začneme, ujistěte se, že máte vše, co potřebujete, abyste mohli hladce sledovat. Zde je to, co byste měli mít:
 1. Visual Studio: Ujistěte se, že máte na počítači nainstalovanou verzi sady Visual Studio. Zde budete psát svůj .NET kód. 
-2. Knihovna Aspose.Cells: Potřebujete knihovnu Aspose.Cells for .NET. Pokud jste si jej ještě nestáhli, přejděte na[Stránka Aspose Downloads](https://releases.aspose.com/cells/net/) chytit to. 
+2.  Knihovna Aspose.Cells: Potřebujete knihovnu Aspose.Cells for .NET. Pokud jste si jej ještě nestáhli, přejděte na[Stránka Aspose Downloads](https://releases.aspose.com/cells/net/) chytit to. 
 3. Základní znalost C#: Základní znalost C# a .NET vám pomůže pohodlněji procházet příklady kódu.
 4. .NET Framework: Zajistěte, aby byl váš projekt nastaven s příslušným rámcem .NET podporovaným knihovnou Aspose.Cells.
 5. Dokument aplikace Excel: I když je vytvoření nového sešitu možností, mít počáteční dokument může být užitečné, pokud chcete manipulovat se stávajícím souborem.
@@ -54,7 +54,7 @@ workbook.Save(dataDir + "output.xlsb", SaveFormat.Xlsb);
 ```
  Tento řádek kódu uloží sešit jako`output.xlsb` v zadaném adresáři pomocí`SaveFormat.Xlsb` formát. The`SaveFormat` výčet je mocný v tom, že vám umožňuje specifikovat různé formáty, např`Xlsx`, `Xls`atd.
 ## Závěr
-A právě tak jste se úspěšně naučili, jak uložit soubor aplikace Excel ve formátu xlsb 2007 pomocí Aspose.Cells for .NET. Tato jednoduchá, ale účinná funkce může změnit hru pro vývojáře, kteří potřebují automatizovat práci se soubory Excel ve svých aplikacích .NET.
+právě tak jste se úspěšně naučili, jak uložit soubor aplikace Excel ve formátu xlsb 2007 pomocí Aspose.Cells for .NET. Tato jednoduchá, ale účinná funkce může změnit hru pro vývojáře, kteří potřebují automatizovat práci se soubory Excel ve svých aplikacích .NET.
 
 ## FAQ
 ### Co je knihovna Aspose.Cells?

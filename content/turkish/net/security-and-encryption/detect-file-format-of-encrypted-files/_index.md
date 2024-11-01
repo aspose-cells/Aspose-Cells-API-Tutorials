@@ -33,7 +33,7 @@ Koda dalmadan önce dizin yapınızın yerinde olduğundan emin olmanız gerekir
 // Kaynak dizini
 string sourceDir = "Your Document Directory";
 ```
- Yer değiştirmek`"Your Document Directory"` Şifrelenmiş dosyanızın bilgisayarınızda bulunduğu dizinin gerçek yolunu belirtin.
+ Yer değiştirmek`"Your Document Directory"`Şifrelenmiş dosyanızın bilgisayarınızda bulunduğu dizinin gerçek yolunu belirtin.
 ## Adım 2: Şifrelenmiş Dosyanızı Hazırlayın
 
  Bu adımda, belirtilen dizinde şifrelenmiş bir Excel dosyanız olduğundan emin olun. Burada, dosyanın adının şu olduğunu varsayacağız:`encryptedBook1.out.tmp`.
@@ -73,6 +73,6 @@ Kesinlikle! Dosya işlemleri sırasında olası istisnaları yönetmek için try
 ### Şifremi unutursam ne olur?
 Maalesef şifre olmadan dosya formatına erişim sağlamanız mümkün olmayacaktır.
 ### Aspose.Cells'in ücretsiz deneme sürümünü indirebilir miyim?
-Evet, ücretsiz deneme sürümünü indirebilirsiniz[Burada](https://releases.aspose.com/).
+ Evet, ücretsiz deneme sürümünü indirebilirsiniz[Burada](https://releases.aspose.com/).
 ### Daha detaylı dokümanları nerede bulabilirim?
  Aspose.Cells hakkında kapsamlı belgeleri inceleyebilirsiniz[Burada](https://reference.aspose.com/cells/net/).

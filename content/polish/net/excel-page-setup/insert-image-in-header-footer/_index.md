@@ -41,7 +41,7 @@ Najpierw musisz określić katalog, w którym znajdują się pliki Excela i obra
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // Aktualizuj odpowiednio
 ```
 
- Ta linia ustawia`dataDir` zmienna, która jest ścieżką bazową do zlokalizowania obrazu, który chcesz wstawić do nagłówka.
+ Ta linia ustawia`dataDir`zmienna, która jest ścieżką bazową do zlokalizowania obrazu, który chcesz wstawić do nagłówka.
 
 ## Krok 2: Tworzenie obiektu skoroszytu
 
@@ -55,7 +55,7 @@ Workbook workbook = new Workbook();
 
 ## Krok 3: Definiowanie ścieżki obrazu
 
-Czas utworzyć zmienną typu string, która będzie zawierać ścieżkę do obrazu, którego chcesz użyć. W naszym przypadku używamy`aspose-logo.jpg`.
+ Czas utworzyć zmienną typu string, która będzie zawierać ścieżkę do obrazu, którego chcesz użyć. W naszym przypadku używamy`aspose-logo.jpg`.
 
 ```csharp
 string logo_url = dataDir + "aspose-logo.jpg";

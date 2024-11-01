@@ -23,7 +23,7 @@ using Aspose.Cells;
 using System.Drawing;
 using System;
 ```
-Dessa importer ger tillgång till de viktigaste Aspose.Cells-klasserna och .NET:s inbyggda ritbibliotek för hantering av färger.
+Dessa importer ger tillgång till de viktigaste Aspose.Cells-klasserna och .NET:s inbyggda systemritningsbibliotek för hantering av färger.
 
 Nu när vi har allt på plats, låt oss dela upp den här uppgiften i lättsmälta steg:
 ## Steg 1: Ställ in arbetsboksobjektet
@@ -73,7 +73,7 @@ Console.WriteLine(c.Name);
  De`ToArgb()` metoden ger oss färgen i ARGB-format (alfa, röd, grön, blå), medan`Name` egenskapen tillhandahåller färgnamnet i ett mer läsbart format. Du kan använda dessa färgdetaljer för att matcha dem i andra applikationer eller modifiera dina Excel-filer programmatiskt.
 
 ## Slutsats
-Och där har du det! Genom att följa dessa steg har du precis lärt dig hur du programmatiskt beräknar färgen som valts av MS Excel med Aspose.Cells för .NET. Detta tillvägagångssätt kan vara oerhört användbart för att automatisera Excel-baserade uppgifter, särskilt när man hanterar komplex villkorlig formatering. Nu, nästa gång du stöter på en mystisk färg i Excel, vet du exakt hur du ska avslöja dess hemligheter.
+Och där har du det! Genom att följa dessa steg har du precis lärt dig hur du programmatiskt beräknar färgen som valts av MS Excel med Aspose.Cells för .NET. Detta tillvägagångssätt kan vara oerhört användbart för att automatisera Excel-baserade uppgifter, särskilt när man hanterar komplex villkorlig formatering. Nu, nästa gång du stöter på en mystisk färg i Excel, vet du exakt hur du avslöjar dess hemligheter.
 ## FAQ's
 ### Kan jag tillämpa villkorlig formatering programmatiskt med Aspose.Cells?
 Ja, Aspose.Cells låter dig tillämpa, ändra och till och med ta bort villkorlig formatering i Excel-filer programmatiskt.

@@ -18,7 +18,7 @@ Vous devez avoir une compréhension de base de C# et du framework .NET, car nous
 ### Environnement de développement
 Un IDE compatible tel que Visual Studio est recommandé pour développer vos applications .NET. 
 ### Fichier Excel de base
- Vous aurez besoin d'un exemple de fichier Excel (nous l'appellerons`sampleDuplicateDefinedName.xlsx`qui peuvent contenir des noms définis en double pour tester cette fonctionnalité.
+ Vous aurez besoin d'un exemple de fichier Excel (nous l'appellerons`sampleDuplicateDefinedName.xlsx`) qui peuvent contenir des noms définis en double pour tester cette fonctionnalité.
 ## Importation de paquets
 Maintenant que tout est configuré, parlons des packages dont vous aurez besoin. Assurez-vous d'inclure ces espaces de noms en haut de votre fichier C# :
 ```csharp
@@ -38,12 +38,12 @@ string dataDir = "Your Document Directory";
 ```
  Remplacer`"Your Document Directory"` avec le chemin réel sur votre ordinateur où le fichier Excel est stocké. Cette simple ligne de code oriente le programme dans la bonne direction !
 ## Étape 2 : Créer des options de chargement
- Ensuite, créons une instance de`LoadOptions`. C'est ici que la magie commence. En configurant les options de chargement, vous pouvez configurer un rappel qui sera déclenché chaque fois qu'un avertissement est rencontré lors du chargement du classeur :
+ Ensuite, créons une instance de`LoadOptions`C'est ici que la magie commence. En configurant les options de chargement, vous pouvez configurer un rappel qui sera déclenché chaque fois qu'un avertissement est rencontré lors du chargement du classeur :
 ```csharp
 LoadOptions options = new LoadOptions();
 options.WarningCallback = new WarningCallback();
 ```
- Ici, nous créons un nouveau`LoadOptions` objet et en l'associant à notre`WarningCallback`classe (que nous définirons ensuite). Cette configuration est essentielle pour que notre programme gère les avertissements avec élégance.
+ Ici, nous créons un nouveau`LoadOptions` objet et en l'associant à notre`WarningCallback` classe (que nous définirons ensuite). Cette configuration est essentielle pour que notre programme gère les avertissements avec élégance.
 ## Étape 3 : charger le fichier Excel source
  Il est temps de charger réellement ce fichier Excel ! C'est ici que vous faites appel à la`Workbook` classe pour charger votre fichier avec les options que nous avons définies précédemment :
 ```csharp
@@ -81,6 +81,6 @@ Aspose.Cells est une puissante bibliothèque .NET permettant de créer, de manip
 ### Comment puis-je acheter Aspose.Cells ?
  Vous pouvez acheter Aspose.Cells directement auprès de leur[page d'achat](https://purchase.aspose.com/buy).
 ### Quels types d’avertissements puis-je gérer ?
- Vous pouvez gérer divers avertissements tels que les noms définis en double, les avertissements de formule et les avertissements de style à l'aide de l'`WarningCallback`.
+Vous pouvez gérer divers avertissements tels que les noms définis en double, les avertissements de formule et les avertissements de style à l'aide de l'`WarningCallback`.
 ### Où puis-je trouver de la documentation sur Aspose.Cells ?
  Vous pouvez consulter le document complet[documentation ici](https://reference.aspose.com/cells/net/).

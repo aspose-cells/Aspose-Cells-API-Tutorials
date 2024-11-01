@@ -19,7 +19,7 @@ En primer lugar, abordemos esas filas ocultas. Si alguna vez ha utilizado el fil
 
 ## Cambiar automáticamente el nombre de las columnas duplicadas al exportar datos de Excel
 
-continuación, hablemos de la duplicación de datos, un problema común que a menudo se pasa por alto. ¿Alguna vez ha intentado exportar datos de Excel y ha obtenido varias columnas con el mismo nombre? Es frustrante, ¿no? Afortunadamente, Aspose.Cells para .NET le permite cambiar automáticamente el nombre de esas molestas columnas duplicadas. Esta función no solo simplifica sus datos, sino que también mejora la claridad al compartir o analizar sus hojas de cálculo. Puede implementar fácilmente esta funcionalidad siguiendo nuestra guía paso a paso, lo que garantiza que cada columna tenga un identificador único antes de que sus datos lleguen al informe.
+A continuación, hablemos de la duplicación de datos, un problema común que a menudo se pasa por alto. ¿Alguna vez ha intentado exportar datos de Excel y ha obtenido varias columnas con el mismo nombre? Es frustrante, ¿no? Afortunadamente, Aspose.Cells para .NET le permite cambiar automáticamente el nombre de esas molestas columnas duplicadas. Esta función no solo simplifica sus datos, sino que también mejora la claridad al compartir o analizar sus hojas de cálculo. Puede implementar fácilmente esta funcionalidad siguiendo nuestra guía paso a paso, lo que garantiza que cada columna tenga un identificador único antes de que sus datos lleguen al informe.
 
 [Leer más](./rename-duplicate-columns-automatically-while-exporting-worksheet-data-in-excel/)
 

@@ -14,7 +14,7 @@ url: /zh-hant/java/data-validation-rules/list-data-validation-in-excel/
 
 ## 了解資料驗證
 
-在深入研究使用 Aspose.Cells for Java 實作資料驗證的技術細節之前，讓我們花點時間了解什麼是資料驗證及其重要性。
+在深入研究使用 Aspose.Cells for Java 實作資料驗證的技術細節之前，讓我們花點時間了解什麼是資料驗證以及它為何重要。
 
 ### 什麼是資料驗證？
 

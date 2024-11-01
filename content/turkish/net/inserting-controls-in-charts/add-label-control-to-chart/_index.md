@@ -16,7 +16,7 @@ Grafikler, verileri görselleştirmenin güçlü bir yoludur ve bazen bir etiket
 Ayrıntılara dalmadan önce, başlamak için neye ihtiyacınız olduğunu ele alalım:
 
 - C# Temel Bilgisi: C# programlamanın temellerini anlamak çok önemlidir. Eğer yeni başlayan biriyseniz endişelenmeyin - adımlar açık ve öz olacaktır.
--  Aspose.Cells Kütüphanesi: Aspose.Cells kütüphanesinin yüklü olduğundan emin olun. Bunu Visual Studio'daki NuGet Paket Yöneticisi aracılığıyla yapabilirsiniz. Henüz yapmadıysanız, şuraya göz atın:[indirme bağlantısı](https://releases.aspose.com/cells/net/) kütüphane için.
+- Aspose.Cells Kütüphanesi: Aspose.Cells kütüphanesinin yüklü olduğundan emin olun. Bunu Visual Studio'daki NuGet Paket Yöneticisi aracılığıyla yapabilirsiniz. Henüz yapmadıysanız, şuraya göz atın:[indirme bağlantısı](https://releases.aspose.com/cells/net/) kütüphane için.
 - Visual Studio: Kodunuzu yazmak ve çalıştırmak için Visual Studio gibi bir entegre geliştirme ortamına (IDE) ihtiyacınız olacak.
 
 ## Paketleri İçe Aktar

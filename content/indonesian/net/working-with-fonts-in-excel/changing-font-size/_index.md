@@ -40,7 +40,7 @@ if (!isExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
 Cuplikan ini memeriksa apakah direktori tersebut ada. Jika tidak ada, ia akan membuat direktori baru. Anggap saja ini seperti menyiapkan ruang kerja yang bersih sebelum memulai proyek—penting tetapi sering diabaikan!
-## Langkah 2: Membuat Instansiasi Objek Buku Kerja
+## Langkah 2: Membuat Instansi Objek Buku Kerja
 Sekarang saatnya membuat file Excel baru. 
 Anda dapat membuat buku kerja baru (pada dasarnya file Excel) sebagai berikut:
 ```csharp

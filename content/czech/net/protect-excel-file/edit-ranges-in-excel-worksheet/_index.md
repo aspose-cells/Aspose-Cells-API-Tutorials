@@ -84,7 +84,7 @@ Tento řádek načte kolekci, kde budete spravovat chráněné rozsahy. Je dobr�
 
 ## Krok 5: Definujte a vytvořte chráněný rozsah
 
-tuto chvíli jsme připraveni definovat, ve kterém rozsahu chcete povolit úpravy. Pojďme vytvořit tento rozsah.
+V tuto chvíli jsme připraveni definovat, ve kterém rozsahu chcete povolit úpravy. Pojďme vytvořit tento rozsah.
 
 ```csharp
 // Definujte ProtectedRange
@@ -128,7 +128,7 @@ Konečně jsme dosáhli posledního kroku v našem tutoriálu – uložení seš
 book.Save(dataDir + "protectedrange.out.xls");
 ```
 
- Tím se váš chráněný sešit uloží jako`protectedrange.out.xls` ve vámi zadaném adresáři.
+Tím se váš chráněný sešit uloží jako`protectedrange.out.xls` ve vámi zadaném adresáři.
 
 ## Závěr
 

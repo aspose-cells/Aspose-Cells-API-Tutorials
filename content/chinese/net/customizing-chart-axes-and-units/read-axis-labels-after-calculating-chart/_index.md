@@ -60,7 +60,7 @@ string sourceDir = "Your Document Directory";
 ```csharp
 Workbook wb = new Workbook(sourceDir + "sampleReadAxisLabelsAfterCalculatingTheChart.xlsx");
 ```
-这`Workbook`类是您访问 Excel 文件的门户。通过提供完整路径，我们创建了一个保存 Excel 数据的新工作簿实例。
+这`Workbook`类是通向 Excel 文件的网关。通过提供完整路径，我们创建了一个保存 Excel 数据的新工作簿实例。
 
 ## 步骤 3：访问第一个工作表
 

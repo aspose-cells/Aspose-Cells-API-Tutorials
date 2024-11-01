@@ -33,7 +33,7 @@ Bevor Sie sich in den Code vertiefen, müssen Sie sicherstellen, dass Ihre Verze
 // Quellverzeichnis
 string sourceDir = "Your Document Directory";
 ```
- Ersetzen`"Your Document Directory"` durch den tatsächlichen Pfad zum Verzeichnis auf Ihrem Computer, in dem sich Ihre verschlüsselte Datei befindet.
+ Ersetzen`"Your Document Directory"`durch den tatsächlichen Pfad zum Verzeichnis auf Ihrem Computer, in dem sich Ihre verschlüsselte Datei befindet.
 ## Schritt 2: Bereiten Sie Ihre verschlüsselte Datei vor
 
  Stellen Sie in diesem Schritt sicher, dass Sie eine verschlüsselte Excel-Datei in Ihrem angegebenen Verzeichnis zur Verfügung haben. Hier nehmen wir an, dass die Datei den Namen hat`encryptedBook1.out.tmp`.
@@ -73,6 +73,6 @@ Auf jeden Fall! Verwenden Sie Try-Catch-Blöcke, um mögliche Ausnahmen während
 ### Was passiert, wenn ich mein Passwort vergesse?
 Ohne das Passwort ist ein Zugriff auf das Dateiformat leider nicht möglich.
 ### Kann ich eine kostenlose Testversion von Aspose.Cells herunterladen?
-Ja, Sie können eine kostenlose Testversion herunterladen[Hier](https://releases.aspose.com/).
+ Ja, Sie können eine kostenlose Testversion herunterladen[Hier](https://releases.aspose.com/).
 ### Wo finde ich ausführlichere Dokumentation?
  Sie können die umfassende Dokumentation zu Aspose.Cells erkunden[Hier](https://reference.aspose.com/cells/net/).

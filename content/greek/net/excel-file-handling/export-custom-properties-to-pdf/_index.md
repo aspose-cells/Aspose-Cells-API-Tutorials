@@ -52,7 +52,7 @@ string outputDir = "Your Document Directory";
 Workbook workbook = new Workbook(sourceDir + "sampleWithCustProps.xlsx");
 ```
  Εδώ, βεβαιωθείτε ότι`sampleWithCustProps.xlsx` είναι το όνομα του εγγράφου σας Excel και θα πρέπει να βρίσκεται στον καθορισμένο κατάλογο.
-## Βήμα 3: Δημιουργία PdfSaveOptions
+## Βήμα 3: Δημιουργήστε PdfSaveOptions
  Μόλις φορτωθεί το βιβλίο εργασίας σας, ήρθε η ώρα να ρυθμίσετε τις επιλογές για την αποθήκευση του PDF. Θα δημιουργήσετε ένα παράδειγμα του`PdfSaveOptions` και ορίστε τις κατάλληλες ιδιότητες.
 ```csharp
 // Δημιουργήστε μια παρουσία του PdfSaveOptions και περάστε το SaveFormat στον κατασκευαστή

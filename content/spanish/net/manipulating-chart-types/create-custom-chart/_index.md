@@ -42,14 +42,14 @@ Lo primero que debes hacer es crear un directorio donde guardar el archivo de Ex
 
 ```csharp
 // Directorio de salida
-string outputDir = "Your Output Directory"; //Cambie esto a la ruta deseada
+string outputDir = "Your Output Directory"; // Cambie esto a la ruta deseada
 ```
 
 En lugar de "Su directorio de salida", puede especificar una ruta real donde desea que se guarde el archivo de Excel. Asegúrese de que este directorio exista en su sistema; de lo contrario, se producirán errores más adelante.
 
 ## Paso 2: Crear una instancia de un objeto de libro de trabajo
 
- Ahora, querrás comenzar creando una nueva instancia de`Workbook` clase. Este es el componente fundamental para cualquier operación de Excel que utilice Aspose.Cells.
+ Ahora, querrás comenzar creando una nueva instancia de`Workbook`clase. Este es el componente fundamental para cualquier operación de Excel que utilice Aspose.Cells.
 
 ```csharp
 // Creación de una instancia de un objeto Workbook

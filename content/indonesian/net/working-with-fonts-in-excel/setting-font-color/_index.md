@@ -36,7 +36,7 @@ if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
  Di sini, ganti`"Your Document Directory"`dengan jalur sebenarnya pada komputer Anda tempat Anda ingin menyimpan dokumen. Kode tersebut memeriksa apakah direktori tersebut ada dan membuatnya jika tidak ada. Ini memastikan Anda tidak akan mengalami masalah jalur file di kemudian hari.
-## Langkah 2: Membuat Instansiasi Objek Buku Kerja
+## Langkah 2: Membuat Instansi Objek Buku Kerja
 Selanjutnya, kita akan membuat objek Workbook baru. Anggap saja ini seperti membuat kanvas kosong baru tempat Anda dapat melukis (atau memasukkan data).
 ```csharp
 // Membuat instance objek Buku Kerja

@@ -100,7 +100,7 @@ int chartIndex = worksheet.Charts.Add(Aspose.Cells.Charts.ChartType.Column, 5, 0
 
 Denna kodrad skapar ett kolumndiagram på en specifik plats i kalkylbladet. Visualisera detta steg som en skiss av konturerna av din målning – det sätter upp ramarna för vad du ska fylla i härnäst.
 
-## Steg 7: Öppna det nyligen tillagda diagrammet
+## Steg 7: Gå till det nyligen tillagda diagrammet
 
 ```csharp
 Aspose.Cells.Charts.Chart chart = worksheet.Charts[chartIndex];

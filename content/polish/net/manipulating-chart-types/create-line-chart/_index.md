@@ -50,7 +50,7 @@ Pierwszym krokiem jest określenie, gdzie chcesz zapisać plik wyjściowy. To ja
 // Katalog wyjściowy
 string outputDir = "Your Output Directory";
 ```
- Zastępować`"Your Output Directory"` z rzeczywistą ścieżką, pod którą chcesz zapisać wygenerowany plik Excela.
+ Zastępować`"Your Output Directory"` rzeczywistą ścieżką, pod którą chcesz zapisać wygenerowany plik Excela.
 
 ## Krok 2: Utwórz obiekt skoroszytu
 

@@ -116,6 +116,6 @@ Medan Aspose.Cells erbjuder en gratis provperiod, kräver fortsatt användning e
 
 Du kan spara filer i format som .xls, .xlsx, .csv och flera andra beroende på dina behov.
 
-### Finns det en gemenskap för Aspose-stöd?
+### Finns det en community för Aspose-stöd?
 
-Definitivt! Du kan komma åt Asposes communityforum för support och diskussioner[här](https://forum.aspose.com/c/cells/9).
+ Definitivt! Du kan komma åt Asposes communityforum för support och diskussioner[här](https://forum.aspose.com/c/cells/9).

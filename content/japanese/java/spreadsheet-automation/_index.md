@@ -37,7 +37,7 @@ Aspose.Cells for Java を使用したソース コードの例で、データ抽
 ### [Excel ワークブックの自動化](./excel-workbook-automation/)
 Aspose.Cells を使用して Java で Excel ワークブックの自動化を学習します。プログラムで Excel ファイルを作成、読み取り、更新します。今すぐ始めましょう。
 ### [Excel グラフの自動化](./automating-excel-charts/)
-ソース コードの例を使用して、Aspose.Cells for Java を使用して Excel グラフの作成とカスタマイズを自動化する方法を説明します。グラフ作成タスクを効率化します。 
+Aspose.Cells for Java を使用して Excel グラフの作成とカスタマイズを自動化する方法をソース コードの例とともに説明します。グラフ作成タスクを効率化します。 
 ### [Java による Excel の自動化](./excel-automation-with-java/)
 Excel 操作用の強力なライブラリである Aspose.Cells を使用して、ソース コードの例で Java で Excel タスクを自動化する方法を学習します。
 ### [Excel でのデータ統合](./data-integration-in-excel/)

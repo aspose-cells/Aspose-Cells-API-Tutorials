@@ -4,7 +4,7 @@ linktitle: Tutoriales de Aspose.Cells para .NET
 type: docs
 weight: 13
 url: /es/net/
-description: Tutoriales de API y fragmentos de código de Aspose.Cells para .NET que incluyen creación, edición, conversión, impresión y muchas más funciones de uso de la gestión de hojas de cálculo de Excel.
+description: "Tutoriales de API y fragmentos de código de Aspose.Cells para .NET que incluyen creación, edición, conversión, impresión y muchas más funciones de uso de la gestión de hojas de cálculo de Excel".
 is_root: true
 ---
 
@@ -152,3 +152,21 @@ Explore una lista completa de tutoriales de Aspose.Cells para .NET para converti
 Explore tutoriales detallados de Aspose.Cells para .NET sobre cómo guardar y exportar archivos de Excel. Aprenda a manejar comentarios, propiedades de documentos, advertencias y recorte de datos.
 ### [Creación y configuración de tablas dinámicas](./creating-and-configuring-pivot-tables/)
 Descubra tutoriales completos para Aspose.Cells para .NET. Domine las tablas dinámicas en Excel mediante programación con guías detalladas paso a paso para cada función.
+### [Fórmulas y opciones de cálculo de Excel](./excel-formulas-and-calculation-options/)
+Profundice en los tutoriales de Aspose.Cells para .NET, que cubren fórmulas y cálculos esenciales de Excel en pasos fáciles de seguir.
+### [Exportación de Excel a HTML con opciones avanzadas](./exporting-excel-to-html-with-advanced-options/)
+Descubra información valiosa sobre la exportación de Excel a HTML con Aspose.Cells para .NET a través de tutoriales detallados sobre varias opciones avanzadas que mejoran las exportaciones de sus documentos.
+### [Representación y exportación](./rendering-and-export/)
+Mejore sus habilidades con Aspose.Cells para .NET. Sumérjase en los tutoriales para renderizar, exportar y crear documentos PDF interactivos de Excel.
+### [Manejo de errores y personalización en Aspose.Cells](./error-handling-and-customization-in-aspose-cells/)
+Tutoriales de Aspose.Cells para .NET sobre cómo convertir complementos de Office en Excel a PDF e ignorar errores durante la conversión de Excel a PDF. Simplifique sus tareas con documentos.
+### [Gestión de filas y columnas](./row-and-column-management/)
+Descubra el poder de Aspose.Cells para .NET con nuestros tutoriales completos sobre administración de filas y columnas para mejorar sus habilidades de Excel sin esfuerzo.
+### [Personalización de tamaño y espaciado](./size-and-spacing-customization/)
+Mejore sus archivos de Excel con Aspose.Cells para .NET. Descubra tutoriales fáciles de seguir para personalizar el tamaño y el espaciado, y configurar el ancho de las columnas y la altura de las filas sin esfuerzo.
+### [Ajuste automático de filas y columnas](./row-column-autofit-conversion/)
+Domine el ajuste automático de filas y columnas en Excel con Aspose.Cells para .NET. Mejore la visualización de datos con tutoriales paso a paso para obtener hojas de cálculo claras y profesionales.
+### [Gestión de segmentaciones de Excel](./excel-slicers-management/)
+Explore tutoriales completos sobre cómo administrar segmentaciones de Excel con Aspose.Cells para .NET. Aprenda a crear, actualizar, formatear y exportar segmentaciones de datos sin esfuerzo.
+### [Marcadores inteligentes en Aspose.Cells para datos dinámicos](./smart-markers-dynamic-data/)
+Explore los tutoriales de marcadores inteligentes de Aspose.Cells para .NET para crear informes dinámicos de Excel. Aprenda a agregar etiquetas, completar datos automáticamente, usar fórmulas y más.

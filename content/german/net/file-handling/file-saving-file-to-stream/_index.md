@@ -13,7 +13,7 @@ Wenn Sie mit Excel-Dateien in Ihren .NET-Anwendungen arbeiten, ist Aspose.Cells 
 Bevor wir uns ins Detail stürzen, müssen Sie ein paar Dinge vorbereitet haben. Betrachten Sie dies als Ihre Checkliste, um einen reibungslosen Ablauf während des Tutorials zu gewährleisten.
 1. Visual Studio: Stellen Sie sicher, dass Visual Studio auf Ihrem Computer installiert ist. Keine Sorge, Sie können sogar die Community Edition verwenden; sie ist kostenlos und funktioniert einwandfrei.
 2. .NET Framework: Die von Ihnen verwendete .NET-Version muss mit Aspose.Cells kompatibel sein. Im Allgemeinen sollte jede .NET Framework-Version 4.0 oder höher gut geeignet sein.
-3.  Aspose.Cells-Bibliothek: Laden Sie die Aspose.Cells-Bibliothek für .NET herunter und installieren Sie sie. Sie finden sie[Hier](https://releases.aspose.com/cells/net/). 
+3. Aspose.Cells-Bibliothek: Laden Sie die Aspose.Cells-Bibliothek für .NET herunter und installieren Sie sie. Sie finden sie[Hier](https://releases.aspose.com/cells/net/). 
 4. Grundlegende C#-Kenntnisse: Ein wenig Vertrautheit mit der C#-Programmierung ist hilfreich, aber Sie müssen kein Programmiergenie sein. Vertrauen Sie mir, wenn Sie einem Rezept folgen können, können Sie dieser Anleitung folgen!
 5.  Excel-Datei: Sie benötigen eine Excel-Startdatei, in unserem Fall mit dem Namen`Book1.xlsx`. Erstellen Sie gerne ein einfaches, falls Sie noch keines haben.
 Nun, da wir alles vorbereitet haben, importieren wir die erforderlichen Pakete!
@@ -50,7 +50,7 @@ Lassen Sie uns nun die Arbeitsmappe laden, damit wir mit ihrem Inhalt arbeiten k
 ```csharp
 Workbook workbook = new Workbook(filePath);
 ```
-Was passiert hier? Wir erstellen eine neue Instanz des`Workbook` Klasse und übergeben Sie den Pfad Ihrer vorhandenen Excel-Datei. Das ist, als würden Sie ein Kochbuch aufschlagen, um Ihr Lieblingsgericht zu finden!
+ Was passiert hier? Wir erstellen eine neue Instanz des`Workbook`Klasse und übergeben Sie den Pfad Ihrer vorhandenen Excel-Datei. Das ist, als würden Sie ein Kochbuch aufschlagen, um Ihr Lieblingsgericht zu finden!
 ## Schritt 4: Erstellen Sie einen FileStream zum Speichern der Arbeitsmappe
  Als nächstes müssen wir ein`FileStream` Objekt, das festlegt, wo wir unsere neu geänderte Arbeitsmappe speichern. Coden Sie es wie folgt:
 ```csharp

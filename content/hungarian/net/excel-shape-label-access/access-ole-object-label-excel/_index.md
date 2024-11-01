@@ -118,8 +118,8 @@ Az OLE-objektumok olyan beágyazott fájlok, amelyek lehetővé teszik más Micr
 ### Működik az Aspose.Cells más fájlformátumokkal?  
 Igen! Az Aspose.Cells számos formátumot támogat, beleértve az XLS-t, XLSX-et, CSV-t és még sok mást.
 ### Létezik ingyenes próbaverzió az Aspose.Cells számára?  
-Igen! Ki lehet próbálni[itt](https://releases.aspose.com/).
+ Igen! Ki lehet próbálni[itt](https://releases.aspose.com/).
 ### Hozzáférhetek több OLE objektumhoz egy munkalapon?  
- Teljesen! Át lehet hurkolni`ws.OleObjects` a munkalapon lévő összes beágyazott OLE objektum eléréséhez.
+Teljesen! Át lehet hurkolni`ws.OleObjects` a munkalapon lévő összes beágyazott OLE objektum eléréséhez.
 ### Hogyan vásárolhatok licencet az Aspose.Cells-hez?  
  Licenceket közvetlenül vásárolhat[itt](https://purchase.aspose.com/buy).

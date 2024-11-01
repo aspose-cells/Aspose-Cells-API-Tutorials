@@ -37,8 +37,8 @@ Než začne jakékoli kódování, je důležité správně nastavit vývojové 
 
 1.  Vytvoření nového projektu: Otevřete Visual Studio, vytvořte nový projekt Console App a pojmenujte jej nějak popisně, například`HideExcelTabs`.
 2. Přidat referenci Aspose.Cells: Přejděte do Správce balíčků NuGet a vyhledejte „Aspose.Cells for .NET“. Nainstalujte jej do svého projektu.
- Případně, pokud pracujete offline, můžete[stáhněte si Aspose.Cells pro .NET](https://releases.aspose.com/cells/net/) a přidejte soubor DLL ručně do odkazů na váš projekt.
-3. Připravte soubor Excel: Umístěte soubor Excel, který chcete upravit (např.`book1.xls`) ve vašem projektovém adresáři. Ujistěte se, že znáte cestu k souboru.
+ Případně, pokud pracujete offline, můžete[stáhnout Aspose.Cells pro .NET](https://releases.aspose.com/cells/net/) a přidejte soubor DLL ručně do odkazů na váš projekt.
+3. Připravte soubor Excel: Umístěte soubor Excel, který chcete upravit (např.`book1.xls`) v adresáři vašeho projektu. Ujistěte se, že znáte cestu k souboru.
 
 ## Krok 2: Otevřete soubor aplikace Excel
 

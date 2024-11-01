@@ -24,7 +24,7 @@ Jeśli spełniłeś te wymagania wstępne, możesz zaczynać!
 
 ## Importuj pakiety
 
-Zacznijmy od zaimportowania niezbędnych pakietów. W swojej aplikacji C# musisz odwołać się do biblioteki Aspose.Cells i wszelkich innych wymaganych przestrzeni nazw. Oto, jak to skonfigurować.
+Zacznijmy od zaimportowania niezbędnych pakietów. W swojej aplikacji C# musisz odwołać się do biblioteki Aspose.Cells i innych wymaganych przestrzeni nazw. Oto, jak to skonfigurować.
 
 ### Skonfiguruj swój projekt
 

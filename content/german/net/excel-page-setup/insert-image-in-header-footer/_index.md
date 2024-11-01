@@ -41,7 +41,7 @@ Zuerst müssen Sie das Verzeichnis angeben, in dem sich Ihre Excel-Dateien und B
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // Entsprechend aktualisieren
 ```
 
- Diese Zeile legt die`dataDir` Variable, die den Basispfad zum Auffinden des Bildes darstellt, das Sie in die Kopfzeile einfügen möchten.
+ Diese Zeile legt die`dataDir`Variable, die den Basispfad zum Auffinden des Bildes darstellt, das Sie in die Kopfzeile einfügen möchten.
 
 ## Schritt 2: Erstellen eines Arbeitsmappenobjekts
 
@@ -55,7 +55,7 @@ Workbook workbook = new Workbook();
 
 ## Schritt 3: Definieren des Bildpfads
 
-Es ist Zeit, eine String-Variable zu erstellen, die den Pfad zum Bild enthält, das Sie verwenden möchten. In unserem Fall verwenden wir`aspose-logo.jpg`.
+ Es ist Zeit, eine String-Variable zu erstellen, die den Pfad zum Bild enthält, das Sie verwenden möchten. In unserem Fall verwenden wir`aspose-logo.jpg`.
 
 ```csharp
 string logo_url = dataDir + "aspose-logo.jpg";

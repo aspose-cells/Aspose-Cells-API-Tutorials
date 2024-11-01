@@ -22,6 +22,6 @@ Už jste někdy byli frustrovaní výchozím nastavením os v Excelu? Nejsi sám
 ## Výukové programy přizpůsobení os a jednotek grafu
 ### [Handle Automatic Units of Chart Axis like Microsoft Excel]
 (./handle-automatic-units-of-chart-axis-like-microsoft-excel/)
-Naučte se zacházet s automatickými jednotkami osy grafu v Excelu jako profesionál pomocí Aspose.Cells for .NET! Včetně návodu krok za krokem.
+Naučte se, jak zacházet s automatickými jednotkami os grafu v Excelu jako profesionál pomocí Aspose.Cells for .NET! Včetně návodu krok za krokem.
 ### [Přečtěte si popisky os po výpočtu grafu](./read-axis-labels-after-calculating-chart/)
 Odemkněte svůj potenciál s Aspose.Cells pro .NET. Naučte se, jak snadno číst popisky os grafu v našem podrobném podrobném průvodci.

@@ -12,7 +12,7 @@ url: /zh/net/working-with-fonts-in-spreadsheets/specify-fonts-for-workbook-rende
 ## 先决条件
 在我们深入了解 Aspose.Cells 和自定义字体的激动人心的世界之前，让我们确保您已准备好开始所需的一切：
 1. .NET 基础知识：熟悉 .NET 编程至关重要，因为我们将在 .NET 环境中工作。
-2.  Aspose.Cells for .NET：确保已安装 Aspose.Cells 库。您可以下载它[这里](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells for .NET：确保已安装 Aspose.Cells 库。您可以下载它[这里](https://releases.aspose.com/cells/net/).
 3. Visual Studio：本指南假设您使用 Visual Studio 作为 IDE。请确保您已安装并设置它。
 4. 示例 Excel 文件：为本教程准备一个示例 Excel 文件。这将使您更容易理解自定义字体如何影响渲染输出。
 5. 自定义字体：准备要使用的自定义字体的目录。这对于测试我们的渲染过程至关重要。
@@ -41,7 +41,7 @@ string outputDir = "Your Document Directory";
 string customFontsDir = sourceDir + "CustomFonts";
 ```
 
-假设您有一个文件柜，里面装满了重要文件（在本例中为 Excel 文件）。设置目录就像整理那个文件柜一样；它可以确保您确切地知道文件的存储位置。通过定义`sourceDir`, `outputDir`， 和`customFontsDir`，您正在准备一个工作区，它将使您的代码更清晰、更易于管理。
+假设您有一个文件柜，里面装满了重要文件（在本例中为 Excel 文件）。设置目录就像整理那个文件柜一样；它可以确保您确切地知道文件的存储位置。通过定义`sourceDir`, `outputDir` ， 和`customFontsDir`，您正在准备一个工作区，它将使您的代码更清晰、更易于管理。
 ## 步骤 2：指定单独的字体配置
 接下来，我们需要创建单独的字体配置。此步骤对于告诉 Aspose.Cells 在哪里找到您的自定义字体至关重要。
 ```csharp

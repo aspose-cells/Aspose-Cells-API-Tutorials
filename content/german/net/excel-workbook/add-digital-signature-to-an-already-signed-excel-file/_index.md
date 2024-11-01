@@ -137,7 +137,7 @@ Und da haben Sie es! Sie haben erfolgreich eine neue digitale Signatur zu einer 
 ## Häufig gestellte Fragen
 
 ### Was ist eine digitale Signatur?
-Eine digitale Signatur ist eine kryptografische Methode zum Überprüfen der Authentizität und Integrität einer Nachricht oder eines Dokuments.
+Eine digitale Signatur ist eine kryptografische Methode, mit der die Authentizität und Integrität einer Nachricht oder eines Dokuments überprüft wird.
 
 ### Kann ich derselben Excel-Datei mehrere digitale Signaturen hinzufügen?
 Ja, Sie können eine Sammlung digitaler Signaturen erstellen und derselben Arbeitsmappe mehrere Signaturen hinzufügen.

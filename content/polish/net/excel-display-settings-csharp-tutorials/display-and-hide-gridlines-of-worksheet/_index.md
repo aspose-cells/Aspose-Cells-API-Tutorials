@@ -50,7 +50,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Krok 2: Utwórz strumień plików
 
-Następnie utworzymy strumień pliku, aby otworzyć plik Excel. Ten krok jest niezbędny, ponieważ zapewnia nam sposób interakcji z plikiem w formacie strumienia.
+Następnie utworzymy strumień pliku, aby otworzyć plik Excel. Ten krok jest niezbędny, ponieważ zapewnia nam sposób na interakcję z plikiem w formacie strumienia.
 
 ```csharp
 // Tworzenie strumienia plików zawierającego plik Excela do otwarcia

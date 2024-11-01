@@ -76,7 +76,7 @@ Nyní, když jste vybaveni základy, můžete experimentovat s pokročilejšími
 ### Co je Aspose.Cells?
 Aspose.Cells je výkonná knihovna .NET pro vytváření, manipulaci a konverzi souborů aplikace Excel bez nutnosti instalace aplikace Microsoft Excel.
 ### Jak získám dočasnou licenci pro Aspose.Cells?
- Můžete požádat o dočasnou licenci z[zde](https://purchase.aspose.com/temporary-license/).
+ O dočasnou licenci můžete požádat z[zde](https://purchase.aspose.com/temporary-license/).
 ### Mohu získat přístup k vlastnostem vloženého dokumentu?
 Ano, pomocí kolekce vlastností dokumentu můžete přistupovat k uživatelským i vloženým vlastnostem.
 ### Jaké typy vlastností dokumentu mohu načíst?

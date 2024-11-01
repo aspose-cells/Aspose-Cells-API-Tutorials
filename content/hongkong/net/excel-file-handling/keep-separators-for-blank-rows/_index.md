@@ -63,7 +63,7 @@ Console.WriteLine("KeepSeparatorsForBlankRow executed successfully.\r\n");
 ```
 此行將在控制台上列印一條成功訊息，讓您知道一切都按計劃進行！
 ## 結論
-現在你就得到它了！只需幾個步驟，使用 Aspose.Cells for .NET，您就可以在將 Excel 檔案轉換為 CSV 時輕鬆保留空白行的分隔符號。這是一個簡單的過程，可以節省您大量的時間並防止未來潛在的資料事故。 Aspose.Cells 的強大功能與一點點 C# 魔法相結合，確實使處理 Excel 變得更容易、更有效率。
+現在你就擁有了！只需幾個步驟，使用 Aspose.Cells for .NET，您就可以在將 Excel 檔案轉換為 CSV 時輕鬆保留空白行的分隔符號。這是一個簡單的過程，可以節省您大量的時間並防止未來潛在的資料事故。 Aspose.Cells 的強大功能與一點點 C# 魔法相結合，確實使處理 Excel 變得更容易、更有效率。
 ## 常見問題解答
 ### 什麼是 Aspose.Cells？
 Aspose.Cells 是一個強大的程式庫，用於在 .NET 應用程式中處理 Excel 文件，允許執行一系列功能，包括讀取、寫入和轉換 Excel 文件。

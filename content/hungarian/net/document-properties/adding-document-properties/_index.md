@@ -38,7 +38,7 @@ string dataDir = "Your Document Directory";
 Workbook workbook = new Workbook(dataDir + "sample-document-properties.xlsx");
 ```
  Példányosításával a`Workbook` objektum, betölti az Excel fájlt a memóriába, amely lehetővé teszi, hogy kölcsönhatásba léphessen a tartalmával és tulajdonságaival.
-## 3. lépés: A dokumentum tulajdonságainak elérése
+## 3. lépés: Nyissa meg a dokumentum tulajdonságait
 Most lekérjük munkafüzetünk egyéni dokumentumtulajdonságait. Ez a gyűjtemény tartalmazza az Excel-fájlhoz társított összes egyéni metaadatot.
 ```csharp
 Aspose.Cells.Properties.CustomDocumentPropertyCollection customProperties = workbook.Worksheets.CustomDocumentProperties;

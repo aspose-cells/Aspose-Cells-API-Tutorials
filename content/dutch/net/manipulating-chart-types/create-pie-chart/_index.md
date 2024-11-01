@@ -9,7 +9,7 @@ url: /nl/net/manipulating-chart-types/create-pie-chart/
 ---
 ## Invoering
 
-Het maken van diagrammen is essentieel voor het visueel weergeven van gegevens, en cirkeldiagrammen zijn een van de populairste manieren om te illustreren hoe onderdelen een geheel vormen. Met Aspose.Cells voor .NET kunt u eenvoudig de generatie van cirkeldiagrammen in Excel-bestanden automatiseren. In deze tutorial duiken we in hoe u een cirkeldiagram vanaf nul kunt maken met Aspose.Cells voor .NET, met een stapsgewijze handleiding om het proces soepel en eenvoudig te maken. Of u nu nieuw bent met de tool of uw Excel-automatiseringsvaardigheden wilt verbeteren, deze handleiding heeft u gedekt!
+Het maken van diagrammen is essentieel voor het visueel weergeven van gegevens, en cirkeldiagrammen zijn een van de populairste manieren om te illustreren hoe delen een geheel vormen. Met Aspose.Cells voor .NET kunt u eenvoudig de generatie van cirkeldiagrammen in Excel-bestanden automatiseren. In deze tutorial duiken we in hoe u een cirkeldiagram vanaf nul kunt maken met Aspose.Cells voor .NET, met een stapsgewijze handleiding om het proces soepel en eenvoudig te maken. Of u nu nieuw bent met de tool of uw Excel-automatiseringsvaardigheden wilt verbeteren, deze handleiding heeft u gedekt!
 
 ## Vereisten
 
@@ -19,7 +19,7 @@ Voordat u in de code duikt, moet u ervoor zorgen dat u het volgende hebt ingeste
 2. .NET-ontwikkelomgeving: zorg ervoor dat uw project is ingesteld voor gebruik met .NET Framework of .NET Core.
 3. Basiskennis van C#: U moet vertrouwd zijn met C#-programmering, met name objectgeoriënteerd programmeren (OOP).
 
-Voor gevorderde gebruikers kan een tijdelijke licentie worden toegepast om alle functies van Aspose.Cells te ontgrendelen. U kunt er een aanvragen bij[hier](https://purchase.aspose.com/temporary-license/).
+ Voor gevorderde gebruikers kan een tijdelijke licentie worden toegepast om alle functies van Aspose.Cells te ontgrendelen. U kunt er een aanvragen bij[hier](https://purchase.aspose.com/temporary-license/).
 
 ## Pakketten importeren
 
@@ -100,7 +100,7 @@ int chartIndex = chartSheet.Charts.Add(Aspose.Cells.Charts.ChartType.Pie, 5, 0, 
 Aspose.Cells.Charts.Chart chart = chartSheet.Charts[chartIndex];
 ```
 
- De methode`Add()` accepteert parameters voor het grafiektype (in dit geval,`ChartType.Pie`), en de locatie ervan op het werkblad. De getallen geven rij- en kolomposities weer.
+ De methode`Add()`accepteert parameters voor het grafiektype (in dit geval,`ChartType.Pie`), en de locatie ervan op het werkblad. De getallen geven rij- en kolomposities weer.
 
 ## Stap 5: Pas het uiterlijk van de grafiek aan
 
@@ -187,7 +187,7 @@ Het maken van een cirkeldiagram met Aspose.Cells voor .NET is een eenvoudig en a
 Ja! Aspose.Cells ondersteunt verschillende grafiektypen, waaronder staafdiagrammen, lijndiagrammen en spreidingsdiagrammen.
 
 ### Heb ik een betaalde licentie nodig om Aspose.Cells voor .NET te gebruiken?
- U kunt de gratis versie gebruiken met enkele beperkingen. Voor volledige functies hebt u een licentie nodig, die u kunt kopen[hier](https://purchase.aspose.com/buy).
+ kunt de gratis versie gebruiken met enkele beperkingen. Voor volledige functies hebt u een licentie nodig, die u kunt kopen[hier](https://purchase.aspose.com/buy).
 
 ### Kan ik de grafiek exporteren naar formaten zoals PDF of afbeeldingen?
 Absoluut! Met Aspose.Cells kunt u grafieken exporteren naar verschillende formaten, waaronder PDF en PNG.

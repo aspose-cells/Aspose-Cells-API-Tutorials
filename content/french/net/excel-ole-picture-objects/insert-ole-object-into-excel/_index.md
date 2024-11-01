@@ -62,7 +62,7 @@ Maintenant, définissons un chemin pour l’image que vous souhaitez intégrer d
 string ImageUrl = dataDir + "logo.jpg";
 ```
  Assurez-vous que ce chemin reflète correctement l'endroit où votre`logo.jpg` le fichier est stocké.
-## Étape 6 : charger l'image dans un tableau d'octets
+## Étape 6 : charger l’image dans un tableau d’octets
 Nous devons lire l'image dans un format avec lequel nous pouvons travailler. Pour ce faire, nous ouvrons le flux de fichiers et lisons ses données dans un tableau d'octets.
 ```csharp
 // Mettez l'image dans les flux.

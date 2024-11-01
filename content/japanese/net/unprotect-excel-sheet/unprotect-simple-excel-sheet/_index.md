@@ -58,7 +58,7 @@ using Aspose.Cells;
 string dataDir = "YOUR DOCUMENT DIRECTORY"; //これを実際のパスに変更します
 ```
 
-必ず交換してください`"YOUR DOCUMENT DIRECTORY"`Excel ファイルへの実際のパスを入力します。
+必ず交換してください`"YOUR DOCUMENT DIRECTORY"` Excel ファイルへの実際のパスを入力します。
 
 ## ステップ 2: ワークブック オブジェクトのインスタンス化
 

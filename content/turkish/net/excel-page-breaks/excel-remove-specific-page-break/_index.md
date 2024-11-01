@@ -64,7 +64,7 @@ Sırada, çalışma kitabımızı yüklememiz gerekiyor. Daha basit bir ifadeyle
 Workbook workbook = new Workbook(dataDir + "PageBreaks.xls");
 ```
 
-Açıklama: Bu satır, bir örneğin yeni bir örneğini oluşturur.`Workbook` , belirtilen Excel dosyanızı yükler (bu örnekte, adı`PageBreaks.xls`). 
+ Açıklama: Bu satır, bir örneğin yeni bir örneğini oluşturur.`Workbook` , belirtilen Excel dosyanızı yükler (bu örnekte, adı`PageBreaks.xls`). 
 
 ## Adım 3: Yatay Sayfa Sonunu Kaldırın
 
@@ -117,4 +117,4 @@ Sayfa sonları arasında, dizinlerini yazdırmak veya hata ayıklayıcı aracıl
  Kesinlikle! Sadece dizin numarasını değiştirin`workbook.Worksheets[index]` İstenilen çalışma sayfasını hedeflemek için.
 
 ### Aspose.Cells ücretsiz bir araç mıdır?  
- Aspose.Cells ücretsiz deneme sunuyor ancak tam işlevsellik için bir lisans satın almanız gerekecek. Bunu inceleyebilirsiniz[Burada](https://purchase.aspose.com/buy).
+Aspose.Cells ücretsiz deneme sunuyor ancak tam işlevsellik için bir lisans satın almanız gerekecek. Bunu inceleyebilirsiniz[Burada](https://purchase.aspose.com/buy).

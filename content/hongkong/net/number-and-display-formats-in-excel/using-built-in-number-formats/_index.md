@@ -12,7 +12,7 @@ url: /zh-hant/net/number-and-display-formats-in-excel/using-built-in-number-form
 ## 先決條件
 在投入之前，請確保您具備以下條件：
 - 安裝了 Aspose.Cells for .NET 函式庫。你可以[在這裡下載](https://releases.aspose.com/cells/net/).
-- 具備 C# 和基本 .NET 程式設計的實用知識。
+- 具備 C# 和基本 .NET 程式設計的應用知識。
 - Visual Studio 或電腦上安裝的任何 .NET IDE。
 - 有效的 Aspose 許可證或[臨時執照](https://purchase.aspose.com/temporary-license/).
 - 已安裝 .NET Framework（版本 4.0 或更高版本）。

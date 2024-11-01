@@ -103,7 +103,7 @@ Az adatbevitel automatizálása az Aspose.Cells for Java segítségével leegysz
    Igen, az Aspose.Cells for Java projektekben való használatához érvényes licencre lesz szüksége.
 
 ### Hogyan kezelhetem az adatok érvényesítését Excel-fájlokban?
-   Az adatellenőrzési szabályokat az Aspose.Cells használatával hajthatja végre, a cikkben bemutatottak szerint.
+   Az adatellenőrzési szabályokat az Aspose.Cells használatával valósíthatja meg, a cikkben bemutatottak szerint.
 
 ### Hol találok további forrásokat és dokumentációt az Aspose.Cells for Java-hoz?
     A dokumentációt a címen tekintheti meg[https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/).

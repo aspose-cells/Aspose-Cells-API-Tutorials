@@ -50,7 +50,7 @@ Workbook workbook = new Workbook();
 ## 第 3 步：訪問工作表
 現在我們有了工作簿，讓我們存取要進行更改的工作表。在這種情況下，我們將使用第一個工作表。
 ```csharp
-//透過傳遞工作表索引來取得新新增的工作表的引用
+//透過傳遞工作表索引來取得新新增工作表的引用
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 ## 第 4 步：訪問儲存格
@@ -88,7 +88,7 @@ Console.WriteLine("SettingSubscriptEffect executed successfully.\r\n");
 ```
 這個簡單的訊息確認我們的程式碼執行沒有任何問題。
 ## 結論
-現在你就得到它了！您已使用 Aspose.Cells for .NET 成功建立了具有下標效果的 Excel 檔案。這個功能強大的程式庫使操作 Excel 檔案變得容易，為您提供了對資料演示的極大靈活性和控制力。透過使用下標格式，您可以使 Excel 工作表不僅包含更多信息，而且在視覺上更有吸引力。
+現在你就擁有了！您已使用 Aspose.Cells for .NET 成功建立了具有下標效果的 Excel 檔案。這個功能強大的程式庫使操作 Excel 檔案變得容易，為您提供了對資料演示的極大靈活性和控制力。透過使用下標格式，您可以使 Excel 工作表不僅包含更多信息，而且在視覺上更有吸引力。
 ## 常見問題解答
 ### 什麼是 Aspose.Cells？
 Aspose.Cells 是一個 .NET 函式庫，設計用於處理 Excel 文件，讓使用者可以輕鬆建立、操作和轉換電子表格。

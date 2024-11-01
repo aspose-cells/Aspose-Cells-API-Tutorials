@@ -27,7 +27,7 @@ Acerca de vamos a desglosar cada parte de esta importación de código:
 - `Aspose.Cells` es la biblioteca principal que utilizamos para manipular archivos de Excel.
 - `Aspose.Cells.Drawing` es necesario cuando trabajamos con formas en Excel.
 - `System` Es una biblioteca estándar para crear aplicaciones básicas de C#.
-Ahora que tenemos todo configurado, comencemos colocando una imagen como textura dentro de una forma en nuestro documento de Excel. Desglosaremos este proceso en pasos detallados.
+Ahora que tenemos todo configurado, comencemos colocando una imagen como textura dentro de una forma en nuestro documento de Excel. Dividiremos este proceso en pasos detallados.
 ## Paso 1: Configurar rutas de directorio
 Lo primero es lo primero: debes configurar los directorios de origen y de salida. Esto te ayudará a especificar dónde se encuentra tu archivo de Excel y dónde quieres guardar el resultado.
 ```csharp

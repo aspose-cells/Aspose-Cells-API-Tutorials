@@ -46,7 +46,7 @@ Bevor Sie Aspose.Cells für Java verwenden können, müssen Sie Ihre Entwicklung
 
 ### Schritt 2: Erstellen Sie eine neue Excel-Arbeitsmappe
 
- Erstellen Sie zunächst eine neue Excel-Arbeitsmappe mit Aspose.Cells für Java. Dies können Sie tun, indem Sie eine`Workbook` Objekt:
+ Erstellen Sie zunächst eine neue Excel-Arbeitsmappe mit Aspose.Cells für Java. Sie können dies tun, indem Sie eine`Workbook` Objekt:
 
 ```java
 Workbook workbook = new Workbook();

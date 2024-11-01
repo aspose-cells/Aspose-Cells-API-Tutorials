@@ -121,7 +121,7 @@ Ez lehetővé teszi, hogy megfigyelje, hogy az ellenőrzés lefutott, független
 
 ## Következtetés
 
-Az Aspose.Cells for .NET képességeinek felfedezése sokoldalú eszköztárat biztosít az Excel-fájlok programozott kezeléséhez. Ebben az oktatóanyagban egy gyakorlati módszert mutattunk be, amellyel ellenőrizhetjük a cellaértékeket bizonyos egyéni számformátumokkal, beleértve a hibakezelést is. Az Aspose.Cells szolgáltatásai nemcsak leegyszerűsítik az Excel kezelését, hanem a robusztus hibakezelés révén növelik a termelékenységet is.
+Az Aspose.Cells for .NET képességeinek felfedezése sokoldalú eszközkészletet biztosít az Excel-fájlok programozott kezeléséhez. Ebben az oktatóanyagban egy gyakorlati módszert mutattunk be a cellaértékek meghatározott egyéni számformátumokkal való összehasonlítására, beleértve a hibakezelést is. Az Aspose.Cells szolgáltatásai nemcsak leegyszerűsítik az Excel kezelését, hanem a robusztus hibakezelés révén növelik a termelékenységet is.
 
 ## GYIK
 

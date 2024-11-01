@@ -112,12 +112,12 @@ Console.WriteLine("GetAllHiddenRowsIndicesAfterRefreshingAutoFilter executed suc
 
 ## 結論
 
-現在你就得到它了！使用 Aspose.Cells for .NET 在 Excel 中刷新自動篩選器後，您已成功取得隱藏行的索引。很整潔，對吧？此功能可顯著增強您的數據分析項目，使您的工作流程更加順暢和有效率。
+現在你就擁有了！使用 Aspose.Cells for .NET 在 Excel 中刷新自動篩選器後，您已成功取得隱藏行的索引。很整潔，對吧？此功能可顯著增強您的數據分析項目，使您的工作流程更加順暢和有效率。
 
 ## 常見問題解答
 
 ### 什麼是 Aspose.Cells？
-Aspose.Cells 是一個強大的 .NET 程式庫，可讓開發人員建立、操作和匯出 Excel 文件，而無需使用 Microsoft Excel。
+Aspose.Cells 是一個功能強大的 .NET 程式庫，可讓開發人員建立、操作和匯出 Excel 文件，而無需 Microsoft Excel。
 
 ### 我可以使用 Aspose.Cells 過濾 Excel 中的資料嗎？
 是的！ Aspose.Cells 具有應用過濾器和有效處理 Excel 資料的內建功能。

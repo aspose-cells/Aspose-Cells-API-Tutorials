@@ -12,10 +12,10 @@ url: /zh-hant/net/loading-and-saving-excel-files-with-options/disabling-downleve
 閱讀本文後，您將清楚地了解如何使用此功能並確保您的 HTML 輸出乾淨且無註解。
 ## 先決條件
 在我們深入了解逐步指南之前，我們先介紹一下您需要具備的一些事項，以便順利進行操作：
-1.  Aspose.Cells for .NET：您需要安裝 Aspose.Cells 函式庫。如果您還沒有安裝，可以下載[這裡](https://releases.aspose.com/cells/net/).
+1. Aspose.Cells for .NET：您需要安裝 Aspose.Cells 函式庫。如果您還沒有安裝，可以下載[這裡](https://releases.aspose.com/cells/net/).
 2. IDE：類似 Visual Studio 的開發環境，用於編寫和執行 C# 程式碼。
 3. C# 基礎知識：熟悉 C# 語法和物件導向程式設計將有助於您理解程式碼。
-4. 臨時或許可版本：您可以使用免費試用版或從以下位置申請臨時許可證[這裡](https://purchase.aspose.com/temporary-license/)。這確保了庫的運行沒有任何限制。
+4. 臨時或許可版本：您可以使用免費試用版或從以下位置申請臨時許可證[這裡](https://purchase.aspose.com/temporary-license/)。這確保了庫的運行不受任何限制。
 現在您已經準備好了，讓我們立即開始吧！
 ## 導入命名空間
 在我們進入程式碼範例之前，必須包含 Aspose.Cells 所需的命名空間。如果沒有這些，您的程式碼將無法存取操作 Excel 檔案所需的方法和屬性。
@@ -27,7 +27,7 @@ using System.Text;
 ```
 確保將此行放在 C# 檔案的頂部以匯入 Aspose.Cells 命名空間。
 ## 第 1 步：設定目錄路徑
-首先，我們需要設定來源目錄（儲存 Excel 檔案的位置）和輸出目錄（儲存 HTML 檔案的位置）。這一點至關重要，因為 Aspose.Cells 需要準確的檔案路徑來存取和保存檔案。
+在進行任何操作之前，我們需要設定來源目錄（儲存 Excel 檔案的位置）和輸出目錄（儲存 HTML 檔案的位置）。這一點至關重要，因為 Aspose.Cells 需要準確的檔案路徑來存取和保存檔案。
 ```csharp
 // Excel 檔案所在的來源目錄
 string sourceDir = "Your Document Directory";
@@ -66,7 +66,7 @@ Console.WriteLine("DisableDownlevelRevealedCommentsWhileSavingToHTML executed su
 ```
 這讓您知道操作已完成且沒有錯誤。
 ## 結論
-現在你就得到它了！您已經成功學習如何在使用 Aspose.Cells for .NET 將 Excel 工作簿儲存為 HTML 時停用下層顯示的註解。借助此功能，您現在可以控制工作簿如何呈現為 HTML，並避免洩露任何不必要的內容。無論您是開發 Web 應用程式還是只需要乾淨的 HTML 輸出，此方法都可確保您的工作簿轉換精確且安全。
+現在你就擁有了！您已經成功學習如何在使用 Aspose.Cells for .NET 將 Excel 工作簿儲存為 HTML 時停用下層顯示的註解。借助此功能，您現在可以控制工作簿如何呈現為 HTML，並避免洩露任何不必要的內容。無論您是開發 Web 應用程式還是只需要乾淨的 HTML 輸出，此方法都可確保您的工作簿轉換精確且安全。
 如果您發現本教學有幫助，請考慮探索 Aspose.Cells 的其他功能，以進一步增強您的 Excel 處理能力。
 ## 常見問題解答
 ### 什麼是底層透露評論？

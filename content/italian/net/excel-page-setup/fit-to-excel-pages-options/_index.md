@@ -16,7 +16,7 @@ Benvenuti alla guida definitiva sull'utilizzo della potente libreria Aspose.Cell
 Prima di buttarci nella codifica, assicuriamoci di avere tutto ciò che serve per iniziare. Ecco cosa dovresti avere a disposizione:
 
 1. Visual Studio: assicurati di avere Visual Studio installato sul tuo computer. Questo è il tuo hub principale per tutto il lavoro di sviluppo.
-2. Aspose.Cells per .NET: devi avere la libreria Aspose.Cells scaricata e aggiunta al tuo progetto. Puoi facilmente prenderla da[Sito web di Aspose](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells per .NET: devi avere la libreria Aspose.Cells scaricata e aggiunta al tuo progetto. Puoi facilmente prenderla da[Sito web di Aspose](https://releases.aspose.com/cells/net/).
 3. Conoscenza di base di C#: la familiarità con la programmazione C# sarà di grande aiuto. Se riesci a gestire variabili, cicli e I/O di base di file, sarai a casa.
 4. .NET Framework: assicurati che il tuo progetto sia configurato con la versione appropriata di .NET Framework, poiché la libreria è progettata per essere compatibile con questo ecosistema.
 
@@ -69,7 +69,7 @@ Ora, impostiamo i parametri per adattare il tuo foglio di lavoro a pagine specif
 ```csharp
 // Impostazione del numero di pagine su cui verrà estesa la lunghezza del foglio di lavoro
 worksheet.PageSetup.FitToPagesTall = 1;
-// Impostazione del numero di pagine su cui verrà estesa la larghezza del foglio di lavoro
+//Impostazione del numero di pagine su cui verrà estesa la larghezza del foglio di lavoro
 worksheet.PageSetup.FitToPagesWide = 1;
 ```
 

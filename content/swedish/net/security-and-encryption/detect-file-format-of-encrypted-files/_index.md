@@ -33,7 +33,7 @@ Innan du dyker in i koden måste du se till att din katalogstruktur är på plat
 // Källkatalog
 string sourceDir = "Your Document Directory";
 ```
- Ersätta`"Your Document Directory"` med den faktiska sökvägen till katalogen på din dator där din krypterade fil finns.
+ Ersätta`"Your Document Directory"`med den faktiska sökvägen till katalogen på din dator där din krypterade fil finns.
 ## Steg 2: Förbered din krypterade fil
 
  I det här steget, se till att du har en krypterad Excel-fil tillgänglig i din angivna katalog. Här kommer vi att anta att filen heter`encryptedBook1.out.tmp`.
@@ -73,6 +73,6 @@ Absolut! Använd try-catch-block för att hantera potentiella undantag under fil
 ### Vad händer om jag glömmer mitt lösenord?
 Tyvärr kommer du inte att kunna komma åt filformatet utan lösenordet.
 ### Kan jag ladda ner en gratis testversion av Aspose.Cells?
-Ja, du kan ladda ner en gratis testversion[här](https://releases.aspose.com/).
+ Ja, du kan ladda ner en gratis testversion[här](https://releases.aspose.com/).
 ### Var kan jag hitta mer detaljerad dokumentation?
  Du kan utforska omfattande dokumentation på Aspose.Cells[här](https://reference.aspose.com/cells/net/).

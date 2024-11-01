@@ -12,7 +12,7 @@ In der heutigen digitalen Welt hat Datensicherheit höchste Priorität. Egal, ob
 ## Voraussetzungen
 Bevor wir uns in den Code vertiefen, stellen wir sicher, dass Sie alles haben, was Sie zum Starten benötigen. Hier ist eine Checkliste:
 1. .NET Framework: Stellen Sie sicher, dass Sie eine kompatible Version des .NET Frameworks installiert haben. Aspose.Cells funktioniert gut mit .NET-Versionen. Wählen Sie also eine aus, die zu Ihrem Projekt passt.
-2.  Aspose.Cells Bibliothek: Laden Sie die Aspose.Cells Bibliothek herunter von der[Download-Seite](https://releases.aspose.com/cells/net/). Mit dieser leistungsstarken Bibliothek können Sie Excel-Dateien mühelos bearbeiten und verschlüsseln.
+2.  Aspose.Cells Bibliothek: Laden Sie die Aspose.Cells Bibliothek herunter von der[Download-Seite](https://releases.aspose.com/cells/net/)Mit dieser leistungsstarken Bibliothek können Sie Excel-Dateien mühelos bearbeiten und verschlüsseln.
 3. Visual Studio: Eine gute IDE erleichtert die Arbeit. Stellen Sie daher sicher, dass Sie Visual Studio (oder eine andere .NET-kompatible IDE) für Ihre Entwicklungsarbeit eingerichtet haben.
 4. Grundlegende Kenntnisse in C#: Ein Kuchen lässt sich leichter backen, wenn man weiß, wie man die Zutaten abmisst, oder? Ebenso helfen Ihnen ein paar Kenntnisse in C# dabei, diese Aufgabe effizient zu programmieren.
 Sobald Sie diese Punkte abgehakt haben, können Sie weitermachen!
@@ -53,7 +53,7 @@ Sie haben die Wahl, wenn es um die Verschlüsselung in Aspose.Cells geht. Für d
 ```csharp
 // Geben Sie den XOR-Verschlüsselungstyp an.
 workbook.SetEncryptionOptions(EncryptionType.XOR, 40);
-// Geben Sie den starken Verschlüsselungstyp an (RC4, Microsoft Strong Cryptographic Provider).
+//Geben Sie den starken Verschlüsselungstyp an (RC4, Microsoft Strong Cryptographic Provider).
 workbook.SetEncryptionOptions(EncryptionType.StrongCryptographicProvider, 128);
 ```
 Stellen Sie sich diese Optionen wie die Art von Sperren vor, die Sie verwenden würden – einige sind kürzer und leichter zu knacken (XOR), während andere viel anspruchsvoller sind (Strong Cryptographic Provider).
@@ -68,7 +68,7 @@ Speichern wir abschließend die Änderungen, um Ihre verschlüsselte Datei zu er
 ```csharp
 workbook.Save(dataDir + "encryptedBook1.out.xls");
 ```
- Diese Codezeile speichert die Arbeitsmappe als`encryptedBook1.out.xls`in Ihrem angegebenen Verzeichnis. Es ist, als ob Sie das Buch sicher verschlossen wieder ins Regal stellen würden!
+ Diese Codezeile speichert die Arbeitsmappe als`encryptedBook1.out.xls` in Ihrem angegebenen Verzeichnis. Es ist, als ob Sie das Buch sicher verschlossen wieder ins Regal stellen würden!
 ## Abschluss
 Und los geht‘s! Sie haben gerade gelernt, wie Sie eine Excel-Datei mit Aspose.Cells in .NET verschlüsseln. Indem Sie diese Schritte befolgen, stellen Sie sicher, dass Ihre vertraulichen Daten gut geschützt sind. Denken Sie daran: Der Schutz beginnt bei Ihnen. Treffen Sie daher immer die erforderlichen Maßnahmen, um Ihre Informationen zu schützen. 
 ## Häufig gestellte Fragen

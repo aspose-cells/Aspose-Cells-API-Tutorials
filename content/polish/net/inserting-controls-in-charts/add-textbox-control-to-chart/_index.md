@@ -16,7 +16,7 @@ Tworzenie dynamicznych i wizualnie atrakcyjnych wykresów w programie Excel to f
 Zanim przejdziemy do kodowania, jest kilka rzeczy, które powinieneś mieć na miejscu:
 
 - Podstawowa znajomość języka C#: podstawowa znajomość programowania w języku C# będzie pomocna. Nie martw się; nie musisz być ekspertem, wystarczy, że będziesz swobodnie poruszać się po składni.
--  Zainstalowana biblioteka Aspose.Cells: Upewnij się, że masz zainstalowaną bibliotekę Aspose.Cells dla .NET. Możesz ją pobrać z[Tutaj](https://releases.aspose.com/cells/net/)jeśli jeszcze tego nie zrobiłeś.
+-  Zainstalowana biblioteka Aspose.Cells: Upewnij się, że masz zainstalowaną bibliotekę Aspose.Cells dla .NET. Możesz ją pobrać z[Tutaj](https://releases.aspose.com/cells/net/) jeśli jeszcze tego nie zrobiłeś.
 - Visual Studio: Znajomość programu Visual Studio lub dowolnego środowiska IDE preferowanego do obsługi platformy .NET jest niezbędna.
 - Istniejący plik Excela: W tym przykładzie będziemy pracować z istniejącym plikiem Excela o nazwie „sampleAddingTextBoxControlInChart.xls”. Możesz utworzyć plik lub pobrać próbkę.
 
@@ -76,7 +76,7 @@ Teraz jesteśmy gotowi, aby dodać nasz TextBox. Określimy jego pozycję i rozm
 // Dodaj nowe pole tekstowe do wykresu.
 Aspose.Cells.Drawing.TextBox textbox0 = chart.Shapes.AddTextBoxInChart(400, 1100, 350, 2550);
 ```
-W tym poleceniu parametry definiują lokalizację (x, y) i rozmiar (szerokość, wysokość) pola tekstowego na wykresie. Dostosuj te wartości w oparciu o swoje konkretne potrzeby układu.
+tym poleceniu parametry definiują lokalizację (x, y) i rozmiar (szerokość, wysokość) pola tekstowego na wykresie. Dostosuj te wartości w oparciu o swoje konkretne potrzeby układu.
 
 ## Krok 5: Ustaw tekst dla pola tekstowego
 
@@ -151,7 +151,7 @@ Aspose.Cells for .NET to zaawansowana biblioteka umożliwiająca tworzenie, edyt
 Tak! Możesz dodać tyle TextBoxów, ile potrzebujesz, powtarzając kroki tworzenia TextBoxów z różnymi pozycjami.
 
 ### Czy korzystanie z Aspose.Cells jest bezpłatne?
- Aspose.Cells to płatna biblioteka, ale możesz pobrać bezpłatną wersję próbną ze strony[Tutaj](https://releases.aspose.com/).
+Aspose.Cells to płatna biblioteka, ale możesz pobrać bezpłatną wersję próbną ze strony[Tutaj](https://releases.aspose.com/).
 
 ### Gdzie mogę znaleźć więcej dokumentacji na temat Aspose.Cells?
  Możesz uzyskać dostęp do kompleksowej dokumentacji[Tutaj](https://reference.aspose.com/cells/net/).

@@ -9,7 +9,7 @@ url: /zh/net/creating-and-configuring-pivot-tables/specifying-compatibility/
 ---
 ## 介绍
 
-在当今数据驱动的世界中，以编程方式管理和操作 Excel 文件已成为许多开发人员的必需品。如果您在 .NET 中使用 Excel，Aspose.Cells 是一个功能强大的库，可让您轻松创建、读取、修改和保存 Excel 文件。此库的一个重要功能允许您以编程方式指定 Excel 文件的兼容性。在本教程中，我们将探讨如何操作 Excel 文件，特别是使用 Aspose.Cells for .NET 管理兼容性。最后，您将了解如何在刷新和管理数据时设置 Excel 文件（尤其是数据透视表）的兼容性。
+在当今数据驱动的世界中，以编程方式管理和操作 Excel 文件已成为许多开发人员的必需品。如果您在 .NET 中使用 Excel，Aspose.Cells 是一个功能强大的库，可让您轻松创建、读取、修改和保存 Excel 文件。此库的一个重要功能允许您以编程方式指定 Excel 文件的兼容性。在本教程中，我们将探讨如何操作 Excel 文件，特别是重点介绍如何使用 Aspose.Cells for .NET 管理兼容性。最后，您将了解如何在刷新和管理数据时设置 Excel 文件（尤其是数据透视表）的兼容性。
 
 ## 先决条件
 

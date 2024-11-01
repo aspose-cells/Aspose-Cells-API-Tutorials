@@ -12,7 +12,7 @@ No mundo digital de hoje, a segurança de dados é uma prioridade máxima. Seja 
 ## Pré-requisitos
 Antes de mergulhar no código, vamos garantir que você tenha tudo o que precisa para começar. Aqui está uma lista de verificação:
 1. .NET Framework: Certifique-se de ter uma versão compatível do .NET Framework instalada. O Aspose.Cells funciona bem com versões .NET, então escolha uma que se adapte ao seu projeto.
-2.  Biblioteca Aspose.Cells: Baixe a biblioteca Aspose.Cells do[página de download](https://releases.aspose.com/cells/net/). Esta poderosa biblioteca permitirá que você manipule e criptografe arquivos do Excel sem esforço.
+2.  Biblioteca Aspose.Cells: Baixe a biblioteca Aspose.Cells do[página de download](https://releases.aspose.com/cells/net/)Esta poderosa biblioteca permitirá que você manipule e criptografe arquivos do Excel sem esforço.
 3. Visual Studio: Um bom IDE facilitará as coisas, então certifique-se de ter o Visual Studio (ou qualquer IDE compatível com .NET) configurado para seu trabalho de desenvolvimento.
 4. Noções básicas de C#: Um bolo é mais fácil de assar se você sabe como medir os ingredientes, certo? Da mesma forma, um pouco de conhecimento de C# ajudará você a entender como codificar essa tarefa de forma eficiente.
 Depois de marcar esses itens, você estará pronto para seguir em frente!
@@ -53,7 +53,7 @@ Você tem escolhas quando se trata de criptografia no Aspose.Cells. Para este ex
 ```csharp
 // Especifique o tipo de criptografia XOR.
 workbook.SetEncryptionOptions(EncryptionType.XOR, 40);
-// Especifique o tipo de criptografia forte (RC4, Microsoft Strong Cryptographic Provider).
+//Especifique o tipo de criptografia forte (RC4, Microsoft Strong Cryptographic Provider).
 workbook.SetEncryptionOptions(EncryptionType.StrongCryptographicProvider, 128);
 ```
 Pense nessas opções como o tipo de fechadura que você pode usar: algumas são mais curtas e fáceis de arrombar (XOR), enquanto outras são muito mais desafiadoras (Forte Provedor de Criptografia).
@@ -68,9 +68,9 @@ Por fim, vamos salvar as alterações para criar seu arquivo criptografado.
 ```csharp
 workbook.Save(dataDir + "encryptedBook1.out.xls");
 ```
- Esta linha de código salva a pasta de trabalho como`encryptedBook1.out.xls`no seu diretório especificado. É como colocar o livro de volta na prateleira, trancado com segurança!
+ Esta linha de código salva a pasta de trabalho como`encryptedBook1.out.xls` no seu diretório especificado. É como colocar o livro de volta na prateleira, trancado com segurança!
 ## Conclusão
-E aí está! Você acabou de aprender como criptografar um arquivo Excel usando Aspose.Cells no .NET. Seguindo essas etapas, você garante que seus dados confidenciais estejam bem protegidos. Apenas lembre-se: a proteção começa com você, então sempre tome as medidas necessárias para salvaguardar suas informações. 
+aí está! Você acabou de aprender como criptografar um arquivo Excel usando Aspose.Cells no .NET. Seguindo essas etapas, você garante que seus dados confidenciais estejam bem protegidos. Apenas lembre-se: a proteção começa com você, então sempre tome as medidas necessárias para salvaguardar suas informações. 
 ## Perguntas frequentes
 ### O que é Aspose.Cells?
 Aspose.Cells é uma poderosa biblioteca .NET usada para gerenciar e processar arquivos do Excel.

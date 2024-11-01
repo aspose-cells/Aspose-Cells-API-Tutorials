@@ -118,8 +118,8 @@ Les objets OLE sont des fichiers intégrés qui vous permettent d'intégrer des 
 ### Aspose.Cells peut-il fonctionner avec d’autres formats de fichiers ?  
 Oui ! Aspose.Cells prend en charge une variété de formats, notamment XLS, XLSX, CSV, etc.
 ### Existe-t-il un essai gratuit disponible pour Aspose.Cells ?  
-Oui ! Vous pouvez l'essayer[ici](https://releases.aspose.com/).
+ Oui ! Vous pouvez l'essayer[ici](https://releases.aspose.com/).
 ### Puis-je accéder à plusieurs objets OLE dans une feuille de calcul ?  
- Absolument ! Vous pouvez parcourir`ws.OleObjects` pour accéder à tous les objets OLE incorporés dans une feuille de calcul.
+Absolument ! Vous pouvez parcourir`ws.OleObjects` pour accéder à tous les objets OLE incorporés dans une feuille de calcul.
 ### Comment acheter une licence pour Aspose.Cells ?  
  Vous pouvez acheter une licence directement auprès de[ici](https://purchase.aspose.com/buy).

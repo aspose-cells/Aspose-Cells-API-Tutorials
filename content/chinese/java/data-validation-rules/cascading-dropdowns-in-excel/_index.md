@@ -2,7 +2,7 @@
 title: Excel 中的级联下拉菜单
 linktitle: Excel 中的级联下拉菜单
 second_title: Aspose.Cells Java Excel 处理 API
-description: 了解如何使用 Aspose.Cells for Java 在 Excel 中创建级联下拉菜单。本分步指南提供了源代码和专家提示，帮助您高效地操作 Excel 电子表格。
+description: 了解如何使用 Aspose.Cells for Java 在 Excel 中创建级联下拉菜单。本分步指南提供了源代码和专家提示，可帮助您高效地操作 Excel 电子表格。
 type: docs
 weight: 13
 url: /zh/java/data-validation-rules/cascading-dropdowns-in-excel/

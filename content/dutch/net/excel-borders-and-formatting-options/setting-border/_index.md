@@ -77,7 +77,7 @@ FormatConditionCollection fcs = sheet.ConditionalFormattings[index];
 Laten we het bereik van cellen definiëren waarop we de voorwaardelijke opmaak willen toepassen. In dit geval werken we met een bereik dat rijen 0 tot en met 5 en kolommen 0 tot en met 3 omvat:
 
 ```csharp
-// Hiermee stelt u het voorwaardelijke opmaakbereik in.
+// Stelt het voorwaardelijke opmaakbereik in.
 CellArea ca = new CellArea();
 ca.StartRow = 0;
 ca.EndRow = 5;

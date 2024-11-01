@@ -11,7 +11,7 @@ url: /vi/net/saving-and-exporting-excel-files-with-options/specifying-document-v
 Aspose.Cells for .NET là một thư viện mạnh mẽ cho phép các nhà phát triển dễ dàng thao tác theo chương trình các tệp Excel. Cho dù bạn muốn tạo tệp Excel từ đầu hay sửa đổi các tệp hiện có, Aspose.Cells đều cung cấp API toàn diện để đạt được mục tiêu của bạn. Một trong những tính năng đó là chỉ định các thuộc tính tài liệu như phiên bản, tác giả hoặc tiêu đề. Hướng dẫn này sẽ hướng dẫn bạn cách chỉ định phiên bản tài liệu của tệp Excel theo chương trình bằng Aspose.Cells for .NET.
 ## Điều kiện tiên quyết
 Trước khi đi sâu vào chi tiết, hãy đảm bảo rằng bạn có mọi thứ cần thiết để làm theo hướng dẫn này:
-1.  Aspose.Cells cho .NET: Bạn có thể tải xuống phiên bản mới nhất[đây](https://releases.aspose.com/cells/net/) . Nếu bạn chưa mua giấy phép, bạn có thể lựa chọn[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để khám phá các tính năng.
+1. Aspose.Cells cho .NET: Bạn có thể tải xuống phiên bản mới nhất[đây](https://releases.aspose.com/cells/net/) . Nếu bạn chưa mua giấy phép, bạn có thể lựa chọn[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để khám phá các tính năng.
 2. Môi trường phát triển .NET: Bạn có thể sử dụng Visual Studio hoặc bất kỳ IDE nào tương thích với .NET.
 3. Kiến thức cơ bản về C#: Hiểu biết về lập trình C# sẽ giúp bạn dễ dàng theo dõi hơn.
 ## Nhập gói
@@ -29,9 +29,9 @@ Bây giờ, chúng ta hãy phân tích quy trình chỉ định thuộc tính t�
 ```csharp
 Workbook wb = new Workbook();
 ```
- Các`Workbook` lớp cung cấp một biểu diễn của một tệp Excel. Bằng cách khởi tạo nó, chúng ta tạo một sổ làm việc Excel trống mà chúng ta có thể thao tác.
+ Các`Workbook`lớp cung cấp một biểu diễn của một tệp Excel. Bằng cách khởi tạo nó, chúng ta tạo một sổ làm việc Excel trống mà chúng ta có thể thao tác.
 ## Bước 2: Truy cập Thuộc tính Tài liệu Tích hợp
-Aspose.Cells cung cấp các thuộc tính tài liệu tích hợp, bao gồm các trường như tiêu đề, tác giả và phiên bản tài liệu. Bạn có thể truy cập các thuộc tính này thông qua`BuiltInDocumentProperties`bộ sưu tập.
+ Aspose.Cells cung cấp các thuộc tính tài liệu tích hợp, bao gồm các trường như tiêu đề, tác giả và phiên bản tài liệu. Bạn có thể truy cập các thuộc tính này thông qua`BuiltInDocumentProperties`bộ sưu tập.
 ```csharp
 Aspose.Cells.Properties.BuiltInDocumentPropertyCollection bdpc = wb.BuiltInDocumentProperties;
 ```
@@ -59,7 +59,7 @@ Thiết lập phiên bản tài liệu cung cấp sự rõ ràng về phiên b�
 ```csharp
 wb.Save("outputSpecifyDocumentVersionOfExcelFile.xlsx", SaveFormat.Xlsx);
 ```
- Các`Save` phương pháp được sử dụng để lưu tệp vào thư mục bạn chỉ định. Ở đây, chúng tôi lưu nó dưới dạng tệp Excel trong`.xlsx` định dạng. Nếu cần, Aspose.Cells cũng hỗ trợ các định dạng như`.xls`, `.csv` , Và`.pdf`, mang lại sự linh hoạt dựa trên nhu cầu của dự án bạn.
+ Các`Save` phương pháp được sử dụng để lưu tệp vào thư mục bạn chỉ định. Ở đây, chúng tôi lưu nó dưới dạng tệp Excel trong`.xlsx`định dạng. Nếu cần, Aspose.Cells cũng hỗ trợ các định dạng như`.xls`, `.csv` , Và`.pdf`, mang lại sự linh hoạt dựa trên nhu cầu của dự án bạn.
 ## Phần kết luận
 Trong hướng dẫn này, chúng tôi sẽ hướng dẫn cách chỉ định thuộc tính tài liệu, đặc biệt là phiên bản tài liệu, trong tệp Excel bằng Aspose.Cells cho .NET. Aspose.Cells là một công cụ cực kỳ linh hoạt và mạnh mẽ cho phép bạn thao tác các tệp Excel theo chương trình, khiến nó trở thành một công cụ tuyệt vời cho bất kỳ nhà phát triển .NET nào làm việc với bảng tính.
 ## Câu hỏi thường gặp

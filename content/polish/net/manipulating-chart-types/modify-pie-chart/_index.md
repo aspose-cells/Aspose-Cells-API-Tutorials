@@ -100,7 +100,7 @@ Teraz zajmijmy się konkretnym arkuszem, który zawiera wykres kołowy. Załóż
 Worksheet sheet = workbook.Worksheets[1];
 ```
 
- Uzyskując dostęp do`Worksheets`kolekcji możemy przejść do konkretnego arkusza, którego potrzebujemy.
+ Uzyskując dostęp do`Worksheets` kolekcji możemy przejść do konkretnego arkusza, którego potrzebujemy.
 
 ## Krok 4: Pobierz wykres
 

@@ -1,6 +1,6 @@
 ---
-title: Získejte hlavní mřížky grafu
-linktitle: Získejte hlavní mřížky grafu
+title: Získejte hlavní mřížku grafu
+linktitle: Získejte hlavní mřížku grafu
 second_title: Aspose.Cells .NET Excel Processing API
 description: Naučte se, jak získat hlavní mřížky na grafech pomocí Aspose.Cells for .NET s tímto podrobným návodem krok za krokem. Vylepšete své dovednosti při vytváření sestav v Excelu.
 type: docs

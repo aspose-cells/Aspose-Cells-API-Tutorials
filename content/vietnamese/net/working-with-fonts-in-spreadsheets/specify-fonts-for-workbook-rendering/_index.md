@@ -12,7 +12,7 @@ Khi nói đến việc quản lý và kết xuất các tệp Excel theo chươn
 ## Điều kiện tiên quyết
 Trước khi khám phá thế giới thú vị của Aspose.Cells và tùy chỉnh phông chữ, hãy đảm bảo rằng bạn có mọi thứ cần thiết để bắt đầu:
 1. Kiến thức cơ bản về .NET: Sự quen thuộc với lập trình .NET là rất quan trọng vì chúng ta sẽ làm việc trong môi trường .NET.
-2.  Aspose.Cells cho .NET: Đảm bảo bạn đã cài đặt thư viện Aspose.Cells. Bạn có thể tải xuống[đây](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells cho .NET: Đảm bảo bạn đã cài đặt thư viện Aspose.Cells. Bạn có thể tải xuống[đây](https://releases.aspose.com/cells/net/).
 3. Visual Studio: Hướng dẫn này giả định rằng bạn đang sử dụng Visual Studio làm IDE của mình. Hãy đảm bảo rằng bạn đã cài đặt và thiết lập.
 4. Tệp Excel mẫu: Chuẩn bị tệp Excel mẫu cho hướng dẫn này. Điều này sẽ giúp bạn hiểu rõ hơn về cách phông chữ tùy chỉnh ảnh hưởng đến kết quả hiển thị.
 5. Phông chữ tùy chỉnh: Chuẩn bị một thư mục phông chữ tùy chỉnh mà bạn muốn sử dụng. Điều này rất quan trọng để kiểm tra quy trình kết xuất của chúng tôi.
@@ -41,7 +41,7 @@ string outputDir = "Your Document Directory";
 string customFontsDir = sourceDir + "CustomFonts";
 ```
 
-Hãy tưởng tượng bạn có một tủ hồ sơ chứa đầy các tài liệu quan trọng (trong trường hợp này là các tệp Excel). Thiết lập thư mục của bạn giống như việc sắp xếp tủ hồ sơ đó; nó đảm bảo bạn biết chính xác nơi lưu trữ các tệp của mình. Bằng cách xác định`sourceDir`, `outputDir` , Và`customFontsDir`, bạn đang chuẩn bị một không gian làm việc giúp mã của bạn sạch hơn và dễ quản lý hơn.
+ Hãy tưởng tượng bạn có một tủ hồ sơ chứa đầy các tài liệu quan trọng (trong trường hợp này là các tệp Excel). Thiết lập thư mục của bạn giống như việc sắp xếp tủ hồ sơ đó; nó đảm bảo bạn biết chính xác nơi lưu trữ các tệp của mình. Bằng cách xác định`sourceDir`, `outputDir` , Và`customFontsDir`, bạn đang chuẩn bị một không gian làm việc giúp mã của bạn sạch hơn và dễ quản lý hơn.
 ## Bước 2: Chỉ định cấu hình phông chữ riêng lẻ
 Tiếp theo, chúng ta cần tạo cấu hình phông chữ riêng. Bước này rất quan trọng để cho Aspose.Cells biết nơi tìm phông chữ tùy chỉnh của bạn.
 ```csharp
@@ -49,7 +49,7 @@ Tiếp theo, chúng ta cần tạo cấu hình phông chữ riêng. Bước này
 IndividualFontConfigs fontConfigs = new IndividualFontConfigs();
 fontConfigs.SetFontFolder(customFontsDir, false);
 ```
- Hãy nghĩ về bước này như việc chỉ đường cho một người bạn đang cố gắng tìm một quán cà phê cụ thể. Bằng cách chỉ định`customFontsDir`, bạn đang trỏ Aspose.Cells đến đúng vị trí phông chữ của bạn. Nếu hướng dẫn sai (hoặc phông chữ không có ở đó), bạn có thể nhận được đầu ra PDF không như mong muốn. Vì vậy, hãy đảm bảo rằng thư mục phông chữ của bạn là chính xác!
+ Hãy nghĩ về bước này như việc chỉ đường cho một người bạn đang cố gắng tìm một quán cà phê cụ thể. Bằng cách chỉ định`customFontsDir`bạn đang trỏ Aspose.Cells đến đúng vị trí phông chữ của bạn. Nếu hướng dẫn sai (hoặc phông chữ không có ở đó), bạn có thể nhận được đầu ra PDF không như mong muốn. Vì vậy, hãy đảm bảo rằng thư mục phông chữ của bạn là chính xác!
 ## Bước 3: Thiết lập Tùy chọn Tải
 Bây giờ là lúc xác định các tùy chọn tải tích hợp cài đặt phông chữ vào bảng tính.
 ```csharp
@@ -64,11 +64,11 @@ Sau khi đã thiết lập xong các tùy chọn tải, hãy tải tệp Excel m
 // Tải tệp Excel mẫu với từng cấu hình phông chữ riêng biệt.
 Workbook wb = new Workbook(sourceDir + "sampleSpecifyIndividualOrPrivateSetOfFontsForWorkbookRendering.xlsx", opts);
 ```
- Bước này tương tự như việc mở cuốn sách yêu thích của bạn. Ở đây, bạn đang cho Aspose.Cells biết tệp Excel nào để làm việc. Bằng cách sử dụng`Workbook` lớp và các tùy chọn tải được chỉ định, về cơ bản bạn đang mở nắp và tìm hiểu nội dung, sẵn sàng thực hiện các thay đổi.
+ Bước này tương tự như việc mở cuốn sách yêu thích của bạn. Ở đây, bạn đang cho Aspose.Cells biết tệp Excel nào để làm việc. Bằng cách sử dụng`Workbook`lớp và các tùy chọn tải được chỉ định, về cơ bản bạn đang mở nắp và tìm hiểu nội dung, sẵn sàng thực hiện các thay đổi.
 ## Bước 5: Lưu Workbook theo Định dạng mong muốn
 Cuối cùng, đã đến lúc lưu bảng tính đã sửa đổi theo định dạng mong muốn (trong trường hợp này là PDF).
 ```csharp
-//Lưu dưới dạng PDF.
+// Lưu dưới dạng PDF.
 wb.Save(outputDir + "outputSpecifyIndividualOrPrivateSetOfFontsForWorkbookRendering.pdf", SaveFormat.Pdf);
 ```
 Điều này giống như việc bạn đặt lại cuốn sách của mình lên kệ sau khi đã đọc xong, nhưng giờ nó ở một định dạng khác. Bằng cách lưu sổ làm việc ở định dạng PDF, bạn đảm bảo rằng việc kết xuất được thực hiện với phông chữ bạn chỉ định còn nguyên vẹn, giúp nó trở nên đẹp mắt và chuyên nghiệp.

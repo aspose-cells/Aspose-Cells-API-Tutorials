@@ -64,7 +64,7 @@ Teraz dodajmy wiersz do naszego arkusza kalkulacyjnego:
 // Dodaj linię do arkusza kalkulacyjnego
 Aspose.Cells.Drawing.LineShape line2 = worksheet.Shapes.AddLine(7, 0, 1, 0, 85, 250);
 ```
-W tym przykładzie tworzymy kształt linii zaczynający się od współrzędnych (7, 0) i kończący się na (85, 250). Możesz dostosować te liczby, aby dostosować rozmiar i położenie linii według potrzeb.
+tym przykładzie tworzymy kształt linii zaczynający się od współrzędnych (7, 0) i kończący się na (85, 250). Możesz dostosować te liczby, aby dostosować rozmiar i położenie linii według potrzeb.
 ## Krok 5: Dostosuj linię
 Możesz sprawić, że linia będzie bardziej atrakcyjna wizualnie, zmieniając jej kolor i wagę. Oto jak to zrobić:
 ```csharp

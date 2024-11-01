@@ -12,7 +12,7 @@ url: /zh/net/saving-files-in-different-formats/save-excel-file-in-2007-xlsx-form
 ## 先决条件
 在我们深入了解细节之前，您需要满足几个先决条件：
 1. Visual Studio - 确保您的系统上安装了 Visual Studio。它将帮助您轻松编写和执行 C# 代码。
-2.  Aspose.Cells 库 - 您需要 Aspose.Cells for .NET 库。您可以从[Aspose Cells 发布页面](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells 库 - 您需要 Aspose.Cells for .NET 库。您可以从[Aspose Cells 发布页面](https://releases.aspose.com/cells/net/).
 3. 基本编程知识 - 熟悉 C# 和 .NET 将增强您对我们将要介绍的代码片段的理解。
 4. 测试文档目录 - 创建或决定一个文件夹，用于保存和测试您的 Excel 文件。在本教程中，我们将其称为“您的文档目录”。
 一切准备就绪后，您就可以展示自己的技能了！

@@ -108,7 +108,7 @@ Most jön a varázslat! A munkalap nagyítási szintjét a következő sor segí
 worksheet.Zoom = 75;
 ```
 
-A nagyítási tényező 10 és 400 között bárhol állítható, lehetővé téve a nagyítást vagy kicsinyítést igényei szerint. A 75-ös nagyítási tényező azt jelenti, hogy a felhasználók az eredeti méret 75%-át látják, így könnyebben tekinthetik meg az adatokat, túlzott görgetés nélkül.
+A nagyítási tényező 10 és 400 között bárhol állítható, lehetővé téve a nagyítást vagy kicsinyítést igényei szerint. A 75-ös nagyítási tényező azt jelenti, hogy a felhasználók az eredeti méret 75%-át látják, így könnyebben tekinthetik meg az adatokat túlzott görgetés nélkül.
 
 ## 6. lépés: Mentse el a módosított Excel-fájlt
 

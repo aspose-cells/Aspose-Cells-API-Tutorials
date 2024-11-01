@@ -165,7 +165,7 @@ Selamat! Anda telah berhasil mempelajari cara menyiapkan area bagan menggunakan 
 Aspose.Cells adalah pustaka .NET untuk mengelola berkas Excel secara terprogram. Pustaka ini memungkinkan pembuatan, modifikasi, dan konversi dokumen Excel dengan mudah.
 
 ### Bisakah saya menggunakan Aspose.Cells pada platform lain?
-Ya! Aspose.Cells memiliki pustaka untuk berbagai platform, termasuk Java, Python, dan Cloud, yang membuatnya serbaguna di berbagai lingkungan.
+Ya! Aspose.Cells memiliki pustaka untuk berbagai platform, termasuk Java, Python, dan Cloud, sehingga serbaguna di berbagai lingkungan.
 
 ### Apakah ada uji coba gratis yang tersedia?
  Tentu saja! Anda dapat menjelajahi Aspose.Cells dengan uji coba gratis yang tersedia[Di Sini](https://releases.aspose.com/).

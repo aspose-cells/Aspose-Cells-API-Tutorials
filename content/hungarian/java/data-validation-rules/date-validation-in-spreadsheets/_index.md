@@ -2,7 +2,7 @@
 title: Dátum érvényesítés a táblázatokban
 linktitle: Dátum érvényesítés a táblázatokban
 second_title: Aspose.Cells Java Excel Processing API
-description: Ismerje meg, hogyan hajthat végre dátumellenőrzést Excel-táblázatokban az Aspose.Cells for Java használatával. Győződjön meg az adatok pontosságáról és sértetlenségéről lépésenkénti útmutatónkkal. Fedezze fel a hatékony Excel-manipulációs technikákat.
+description: Ismerje meg, hogyan hajthat végre dátumellenőrzést Excel-táblázatokban az Aspose.Cells for Java használatával. Győződjön meg az adatok pontosságáról és integritásáról lépésenkénti útmutatónkkal. Fedezze fel a hatékony Excel-manipulációs technikákat.
 type: docs
 weight: 14
 url: /hu/java/data-validation-rules/date-validation-in-spreadsheets/

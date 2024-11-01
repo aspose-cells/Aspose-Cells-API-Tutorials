@@ -27,7 +27,7 @@ Aspose.Cells C# 教程提供了一步一步的说明，帮助您轻松高效地�
 ### [Excel 复制工作表](./excel-copy-worksheet/)
 了解如何使用 Aspose.Cells for .NET 复制和自定义 Excel 电子表格。掌握数据操作和格式化的详细教程。
 ### [Excel 分页符](./excel-page-breaks/)
-查看使用 Aspose.Cells for .NET 的 Excel 分页符的详细教程。轻松改善 Excel 工作簿的布局。
+查看使用 Aspose.Cells for .NET 的 Excel 分页符详细教程。轻松改善 Excel 工作簿的布局。
 ### [取消保护 Excel 工作表](./unprotect-excel-sheet/)
 了解如何使用 Aspose.Cells for .NET 取消保护 Excel 电子表格。面向 C# 开发人员的详细教程。
 ### [Excel 安全](./excel-security/)
@@ -152,3 +152,21 @@ xplore Aspose.Cells for .NET 教程，了解如何设置图表外观。通过简
 探索有关保存和导出 Excel 文件的详细 Aspose.Cells for .NET 教程。了解如何处理注释、文档属性、警告和数据修剪。
 ### [创建和配置数据透视表](./creating-and-configuring-pivot-tables/)
 了解 Aspose.Cells for .NET 的全面教程。通过每个功能的详细分步指南，以编程方式掌握 Excel 中的数据透视表。
+### [Excel 公式和计算选项](./excel-formulas-and-calculation-options/)
+深入了解 Aspose.Cells for .NET 教程，以易于遵循的步骤介绍基本 Excel 公式和计算。
+### [使用高级选项将 Excel 导出为 HTML](./exporting-excel-to-html-with-advanced-options/)
+通过有关各种高级选项的详细教程，解锁使用 Aspose.Cells for .NET 将 Excel 导出为 HTML 的宝贵见解，增强您的文档导出功能。
+### [渲染和导出](./rendering-and-export/)
+使用 Aspose.Cells for .NET 增强您的技能。深入了解渲染、导出和创建交互式 Excel PDF 文档的教程。
+### [Aspose.Cells 中的错误处理和自定义](./error-handling-and-customization-in-aspose-cells/)
+Aspose.Cells for .NET 教程介绍如何在 Excel 中将 Office 插件渲染为 PDF，以及在 Excel 到 PDF 转换过程中忽略错误。简化您的文档任务。
+### [行列管理](./row-and-column-management/)
+通过我们关于行和列管理的全面教程释放 Aspose.Cells for .NET 的强大功能，轻松提高您的 Excel 技能。
+### [尺寸和间距定制](./size-and-spacing-customization/)
+使用 Aspose.Cells for .NET 增强您的 Excel 文件。发现易于遵循的教程，轻松自定义大小和间距，设置列宽和行高。
+### [行和列自动调整](./row-column-autofit-conversion/)
+掌握使用 Aspose.Cells for .NET 自动调整 Excel 中的行和列。通过分步教程增强数据显示，制作清晰、专业的电子表格。
+### [Excel 切片器管理](./excel-slicers-management/)
+探索使用 Aspose.Cells for .NET 管理 Excel 切片器的全面教程。了解如何轻松创建、更新、格式化和导出切片器。
+### [Aspose.Cells 中用于动态数据的智能标记](./smart-markers-dynamic-data/)
+探索 Aspose.Cells for .NET Smart Markers 教程以创建动态 Excel 报告。学习添加标签、自动填充数据、使用公式等。

@@ -64,7 +64,7 @@ Berikutnya, kita perlu memuat buku kerja kita. Dalam istilah yang lebih sederhan
 Workbook workbook = new Workbook(dataDir + "PageBreaks.xls");
 ```
 
-Penjelasan: Baris ini membuat instance baru dari`Workbook` , yang memuat file Excel yang Anda tentukan (dalam contoh ini, namanya`PageBreaks.xls`). 
+ Penjelasan: Baris ini membuat instance baru dari`Workbook` , yang memuat file Excel yang Anda tentukan (dalam contoh ini, namanya`PageBreaks.xls`). 
 
 ## Langkah 3: Hapus Pemisah Halaman Horizontal
 
@@ -117,4 +117,4 @@ Anda dapat mengulangi jeda halaman menggunakan loop untuk mencetak indeksnya ata
  Tentu saja! Ubah saja nomor indeks di`workbook.Worksheets[index]` untuk menargetkan lembar kerja yang diinginkan.
 
 ### Apakah Aspose.Cells alat gratis?  
- Aspose.Cells menawarkan uji coba gratis, tetapi untuk fungsionalitas penuh, Anda perlu membeli lisensi. Anda dapat memeriksanya[Di Sini](https://purchase.aspose.com/buy).
+Aspose.Cells menawarkan uji coba gratis, tetapi untuk fungsionalitas penuh, Anda perlu membeli lisensi. Anda dapat memeriksanya[Di Sini](https://purchase.aspose.com/buy).

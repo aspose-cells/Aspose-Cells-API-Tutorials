@@ -8,7 +8,7 @@ weight: 15
 url: /fr/net/creating-and-configuring-pivot-tables/disabling-pivot-table-ribbon/
 ---
 ## Introduction
-Avez-vous déjà voulu contrôler la visibilité des tableaux croisés dynamiques dans vos fichiers Excel tout en travaillant avec .NET ? Eh bien, vous êtes au bon endroit ! Dans ce tutoriel, nous allons apprendre à désactiver par programmation le ruban du tableau croisé dynamique à l'aide de la bibliothèque Aspose.Cells pour .NET. Cette fonctionnalité peut être particulièrement utile pour les développeurs qui cherchent à personnaliser les interactions des utilisateurs avec leurs documents Excel. Alors, attachez vos ceintures et allons-y !
+Avez-vous déjà voulu contrôler la visibilité des tableaux croisés dynamiques dans vos fichiers Excel tout en travaillant avec .NET ? Eh bien, vous êtes au bon endroit ! Dans ce tutoriel, nous allons apprendre à désactiver par programmation le ruban du tableau croisé dynamique à l'aide de la bibliothèque Aspose.Cells pour .NET. Cette fonctionnalité peut être particulièrement utile pour les développeurs qui cherchent à personnaliser les interactions des utilisateurs avec leurs documents Excel. Alors, attachez vos ceintures et plongeons-nous directement dans le vif du sujet !
 ## Prérequis
 Avant de commencer, vous devez avoir quelques éléments à portée de main :
 1. Bibliothèque Aspose.Cells : assurez-vous que la bibliothèque Aspose.Cells est installée. Si vous ne l'avez pas encore fait, vous pouvez la télécharger à partir de[ici](https://releases.aspose.com/cells/net/).

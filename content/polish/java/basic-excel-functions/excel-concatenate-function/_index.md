@@ -85,7 +85,7 @@ workbook.save("concatenated_text.xlsx");
 
 ## Wniosek
 
- W tym samouczku nauczyliśmy się, jak łączyć tekst w programie Excel za pomocą Aspose.Cells dla języka Java. Omówiliśmy podstawowe kroki, od inicjalizacji skoroszytu po zapisanie pliku programu Excel. Ponadto zbadaliśmy alternatywną metodę łączenia tekstu za pomocą`Cell.putValue` metoda. Teraz możesz używać Aspose.Cells for Java do łatwego wykonywania konkatenacji tekstu w swoich aplikacjach Java.
+ W tym samouczku nauczyliśmy się, jak łączyć tekst w programie Excel za pomocą Aspose.Cells dla języka Java. Omówiliśmy podstawowe kroki, od inicjalizacji skoroszytu po zapisanie pliku programu Excel. Ponadto zbadaliśmy alternatywną metodę łączenia tekstu za pomocą`Cell.putValue` metoda. Teraz możesz używać Aspose.Cells dla Java do łatwego wykonywania konkatenacji tekstu w swoich aplikacjach Java.
 
 ## Najczęściej zadawane pytania
 
@@ -114,7 +114,7 @@ Tak, możesz połączyć więcej niż trzy ciągi tekstowe za pomocą CONCATENAT
  Tak, Aspose.Cells dla języka Java zapewnia alternatywny sposób łączenia tekstu za pomocą`Cell.putValue` metoda. Możesz połączyć tekst z wielu komórek i ustawić wynik w innej komórce bez używania formuł.
 
 ```java
-// Łączenie tekstu z komórek A1, B1 i C1 w komórce D1 bez użycia formuł
+// Połącz tekst z komórek A1, B1 i C1 do komórki D1 bez użycia formuł
 String concatenatedText = text1 + text2 + text3;
 worksheet.getCells().get("D1").putValue(concatenatedText);
 ```

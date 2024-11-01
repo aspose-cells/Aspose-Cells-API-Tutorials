@@ -56,7 +56,7 @@ Aspose.Cells.Rendering.ImageOrPrintOptions options = new Aspose.Cells.Rendering.
 options.SaveFormat = SaveFormat.Xps; // Nastavení výstupního formátu na XPS
 ```
 Tento krok říká Aspose, že chceme převést obsah aplikace Excel do formátu XPS.
-## Krok 5: Vykreslete list
+## Krok 5: Vykreslení listu
 nastavenými možnostmi je čas vykreslit konkrétní list:
 ```csharp
 Aspose.Cells.Rendering.SheetRender sr = new Aspose.Cells.Rendering.SheetRender(sheet, options);

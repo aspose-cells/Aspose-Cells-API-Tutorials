@@ -18,7 +18,7 @@ Prima di iniziare, ecco alcune cose di cui avrai bisogno per assicurarti di aver
 4. File SXC di esempio: per questo tutorial, useremo un file SXC di esempio. Scaricane uno o creane uno tuo per seguire.
 Una volta che hai sistemato tutto, sei pronto per andare avanti!
 ## Importa pacchetti
-Per iniziare, dobbiamo importare i pacchetti necessari nel nostro file C#. Questo è essenziale perché ci consente di utilizzare le funzionalità fornite da Aspose.Cells. In genere, avrai bisogno di quanto segue:
+Per iniziare, dobbiamo importare i pacchetti necessari nel nostro file C#. Questo è essenziale perché ci consente di usare le funzionalità fornite da Aspose.Cells. In genere, avrai bisogno di quanto segue:
 ```csharp
 using System.IO;
 using Aspose.Cells;
@@ -29,7 +29,7 @@ Ora, hai impostato il pacchetto che ti consente di lavorare con i file Excel sen
 ## Fase 1: Impostazione del progetto
 Per prima cosa, dobbiamo creare un nuovo progetto in Visual Studio per la nostra applicazione. Segui questi passaggi:
 1. Aprire Visual Studio e selezionare "Crea un nuovo progetto".
-2. Scegli Applicazione Web ASP.NET Core o Applicazione console in base alle tue preferenze.
+2. Scegli l'applicazione Web ASP.NET Core o l'applicazione console in base alle tue preferenze.
 3.  Dai un nome al tuo progetto (qualcosa come`SXCFileOpener`) e fare clic su Crea.
 4. Durante questa configurazione, assicurarsi di aver selezionato .NET Framework.
 5. Una volta caricato il progetto, vedrai un'impostazione predefinita`.cs` file in cui possiamo aggiungere il nostro codice.

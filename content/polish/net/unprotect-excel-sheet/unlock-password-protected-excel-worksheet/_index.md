@@ -70,7 +70,7 @@ Najpierw musimy ustawić ścieżkę naszego dokumentu Excel. Tutaj określisz, g
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Wskazówka: Zastąp`"YOUR DOCUMENT DIRECTORY"` rzeczywistą ścieżką, w której znajduje się Twój plik Excel (nazwijmy go`book1.xls`) znajduje się. 
+ Wskazówka: Zastąp`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką, w której znajduje się Twój plik Excel (nazwijmy go`book1.xls`) znajduje się. 
 
 ## Krok 2: Utwórz obiekt skoroszytu
 
@@ -128,7 +128,7 @@ Ten blok catch wyświetli wszystkie błędy, na które możesz natrafić, dzięk
 
 ## Wniosek
 
-I masz! Udało Ci się odblokować chroniony hasłem arkusz kalkulacyjny programu Excel przy użyciu Aspose.Cells dla .NET. Za pomocą zaledwie kilku linijek kodu możesz odzyskać dostęp do swoich ważnych danych. Dzięki tej wspaniałej bibliotece masz moc i elastyczność na wyciągnięcie ręki. Aspose.Cells to nie tylko wydajne narzędzie dla programistów, którzy chcą usprawnić interakcję z programem Microsoft Excel — to narzędzie niezbędne.
+masz! Udało Ci się odblokować chroniony hasłem arkusz kalkulacyjny programu Excel przy użyciu Aspose.Cells dla .NET. Za pomocą zaledwie kilku linijek kodu możesz odzyskać dostęp do swoich ważnych danych. Dzięki tej wspaniałej bibliotece masz moc i elastyczność na wyciągnięcie ręki. Aspose.Cells to nie tylko wydajne narzędzie dla programistów, którzy chcą usprawnić interakcję z programem Microsoft Excel — to narzędzie niezbędne.
 
 ## Najczęściej zadawane pytania
 

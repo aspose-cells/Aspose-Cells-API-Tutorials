@@ -104,7 +104,7 @@ saveOptions.ImageOptions.ImageType = Drawing.ImageType.Png;
 saveOptions.ImageOptions.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.AntiAlias;
 ```
 
- Με την επιλογή`SmoothingMode.AntiAlias`, κάνετε τις εικόνες σας να φαίνονται πιο ομαλές και πιο επαγγελματικές.
+ Επιλέγοντας`SmoothingMode.AntiAlias`, κάνετε τις εικόνες σας να φαίνονται πιο ομαλές και πιο επαγγελματικές.
 
 ## Βήμα 7: Βελτιστοποιήστε την απόδοση κειμένου
 

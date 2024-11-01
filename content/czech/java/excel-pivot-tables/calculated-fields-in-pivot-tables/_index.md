@@ -76,4 +76,4 @@ Gratuluji! Naučili jste se vytvářet vypočítaná pole v kontingenčních tab
    Vypočítaná pole mají určitá omezení, například nepodporují určité typy výpočtů. Podrobnosti najdete v dokumentaci.
 
 ### Kde najdu další zdroje na Aspose.Cells for Java?
-    Dokumentaci API můžete prozkoumat na adrese[Aspose.Cells pro dokumentaci Java](https://reference.aspose.com/cells/java/).
+    Dokumentaci API můžete prozkoumat na[Aspose.Cells pro dokumentaci Java](https://reference.aspose.com/cells/java/).

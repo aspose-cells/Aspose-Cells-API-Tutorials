@@ -43,7 +43,7 @@ Antes de mais nada, você precisa informar ao seu programa onde encontrar aquele
 string dataDir = "Your Document Directory"; // Certifique-se de alterar isso para seu caminho real!
 ```
 ## Etapa 2: Carregue a pasta de trabalho
-Carregar sua pasta de trabalho é como abrir um livro antes de lê-lo. Veja como fazer:
+Carregar sua pasta de trabalho é como abrir um livro antes de lê-lo. Veja como fazer isso:
 ```csharp
 // Carregar um arquivo de modelo
 Workbook workbook = new Workbook(dataDir + "Book1.xls");

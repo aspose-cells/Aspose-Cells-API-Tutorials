@@ -2,7 +2,7 @@
 title: Dynamické rozevírací seznamy v Excelu
 linktitle: Dynamické rozevírací seznamy v Excelu
 second_title: Aspose.Cells Java Excel Processing API
-description: Objevte sílu dynamických rozevíracích seznamů v Excelu. Průvodce krok za krokem pomocí Aspose.Cells pro Javu. Vylepšete své tabulky interaktivním výběrem dat.
+description: Objevte sílu dynamických rozevíracích seznamů v Excelu. Podrobný průvodce pomocí Aspose.Cells pro Javu. Vylepšete své tabulky interaktivním výběrem dat.
 type: docs
 weight: 11
 url: /cs/java/data-validation-rules/dynamic-dropdown-lists-in-excel/
@@ -100,7 +100,7 @@ Ano, pomocí Aspose.Cells for Java můžete v aplikaci Excel vytvářet kaskádo
 
 ### Mohu chránit list pomocí dynamických rozevíracích seznamů?
 
-Ano, můžete chránit list a zároveň uživatelům umožnit interakci s dynamickými rozevíracími seznamy. Pomocí funkcí ochrany listů aplikace Excel můžete řídit, které buňky lze upravovat a které jsou chráněny.
+Ano, můžete chránit list a zároveň uživatelům umožnit interakci s dynamickými rozevíracími seznamy. Pomocí funkcí ochrany listů aplikace Excel můžete ovládat, které buňky lze upravovat a které jsou chráněny.
 
 ### Existují nějaká omezení počtu položek v rozevíracím seznamu?
 

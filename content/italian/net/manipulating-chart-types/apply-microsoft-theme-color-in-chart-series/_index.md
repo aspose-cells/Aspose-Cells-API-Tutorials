@@ -101,7 +101,7 @@ chart.NSeries[0].Area.FillFormat.FillType = Aspose.Cells.Drawing.FillType.Solid;
 Successivamente, dovremo definire il colore per l'area di riempimento del grafico. Ecco come daremo vita al colore scelto.
 
 ```csharp
-// Ottieni il CellsColor di SolidFill
+//Ottieni il CellsColor di SolidFill
 CellsColor cc = chart.NSeries[0].Area.FillFormat.SolidFill.CellsColor;
 ```
 

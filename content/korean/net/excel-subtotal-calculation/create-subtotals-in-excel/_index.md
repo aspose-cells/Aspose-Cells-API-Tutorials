@@ -29,7 +29,7 @@ using Aspose.Cells;
 ```csharp
 string dataDir = "Your Document Directory";
 ```
- 바꾸다`"Your Document Directory"` 실제 경로와 함께`book1.xls`저장됩니다. 이것은 우리가 조작할 Excel 파일을 어디에서 찾아야 하는지 프로그램에 알려줍니다.
+ 바꾸다`"Your Document Directory"` 실제 경로와 함께`book1.xls` 저장됩니다. 이것은 우리가 조작할 Excel 파일을 어디에서 찾아야 하는지 프로그램에 알려줍니다.
 ## 2단계: 새 통합 문서 인스턴스화
 다음으로 Workbook 개체의 새 인스턴스를 만듭니다. 그러면 Excel 파일을 열고 편집할 수 있습니다.
 ```csharp
@@ -51,7 +51,7 @@ ca.StartColumn = 1;
 ca.EndRow = 18; // C19
 ca.EndColumn = 2;
 ```
- 여기서 우리는 다음을 정의합니다.`CellArea`관심 있는 범위를 지정합니다. 이 경우 B3(행 2, 열 1)에서 C19(행 18, 열 2)까지의 영역을 선택했습니다. 여기서 소계를 계산합니다.
+ 여기서 우리는 다음을 정의합니다.`CellArea` 관심 있는 범위를 지정합니다. 이 경우 B3(행 2, 열 1)에서 C19(행 18, 열 2)까지의 영역을 선택했습니다. 여기서 소계를 계산합니다.
 ## 5단계: 소계 적용
 정의된 셀 영역에 소계를 적용하는 것이 우리 작업의 핵심입니다.
 ```csharp
@@ -60,7 +60,7 @@ cells.Subtotal(ca, 0, ConsolidationFunction.Sum, new int[] { 1 });
  이 줄에서 우리는 다음을 호출합니다.`Subtotal` 방법. 정의된 매개변수는 다음과 같습니다.
 - `ca`: 이전에 정의한 셀 범위입니다.
 - `0`: 이 인덱스는 소계를 구할 값이 포함된 열을 참조합니다. 
-- `ConsolidationFunction.Sum`: 이는 값을 합산하고 싶다는 것을 나타냅니다.
+- `ConsolidationFunction.Sum`이는 값을 합산하고 싶다는 것을 나타냅니다.
 - `new int[] { 1 }`: 이는 두 번째 열(열 C)의 값을 합산한다는 것을 나타냅니다.
 ## 6단계: 수정된 Excel 파일 저장
 마지막으로, 새로운 Excel 파일에 변경 사항을 저장해야 합니다. 

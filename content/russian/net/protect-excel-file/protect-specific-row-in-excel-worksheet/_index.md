@@ -88,7 +88,7 @@ StyleFlag flag;
 for (int i = 0; i <= 255; i++)
 {
     style = sheet.Cells.Columns[(byte)i].Style;
-    style.IsLocked = false; //Разблокировать столбец
+    style.IsLocked = false; // Разблокировать столбец
     flag = new StyleFlag();
     flag.Locked = true; // Установите флаг в значение true для блокировки
     sheet.Cells.Columns[(byte)i].ApplyStyle(style, flag); // Применить стиль

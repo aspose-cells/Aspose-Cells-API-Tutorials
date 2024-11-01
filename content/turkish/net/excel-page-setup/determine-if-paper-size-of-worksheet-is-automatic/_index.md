@@ -19,13 +19,13 @@ Koda geçmeden önce ihtiyacınız olan her şeye sahip olduğunuzdan emin olal�
 Aspose.Cells birçok görevi basitleştirirken, C#'ın temellerini anlamak çok önemlidir. Temel C# kodunu okuma ve yazma konusunda rahat olmalısınız.
 
 ### .NET için Aspose.Cells
- Projenizde Aspose.Cells'in yüklü olduğundan emin olun. Bunu şuradan indirebilirsiniz:[web sitesi](https://releases.aspose.com/cells/net/) Eğer henüz yapmadıysanız.
+Projenizde Aspose.Cells'in yüklü olduğundan emin olun. Bunu şuradan indirebilirsiniz:[web sitesi](https://releases.aspose.com/cells/net/) Eğer henüz yapmadıysanız.
 
 ### Geliştirme Ortamı
 Visual Studio gibi bir IDE kurulumunuz olmalı. Bu, kodunuzu etkili bir şekilde ele almanız ve test etmeniz konusunda size rehberlik eder.
 
 ### Örnek Excel Dosyaları
-Örnek dosyalara ihtiyacınız olacak (`samplePageSetupIsAutomaticPaperSize-False.xlsx` Ve`samplePageSetupIsAutomaticPaperSize-True.xlsx`test amaçlıdır. Bu dosyaların kaynak dizininizde olduğundan emin olun.
+Örnek dosyalara ihtiyacınız olacak (`samplePageSetupIsAutomaticPaperSize-False.xlsx` Ve`samplePageSetupIsAutomaticPaperSize-True.xlsx`) test amaçlıdır. Bu dosyaların kaynak dizininizde olduğundan emin olun.
 
 ## Paketleri İçe Aktar
 
@@ -50,7 +50,7 @@ string sourceDir = "YOUR_SOURCE_DIRECTORY";
 string outputDir = "YOUR_OUTPUT_DIRECTORY";
 ```
 
- Yer değiştirmek`YOUR_SOURCE_DIRECTORY` Ve`YOUR_OUTPUT_DIRECTORY` Dosyaların sisteminizde saklanacağı gerçek yollar ile.
+ Yer değiştirmek`YOUR_SOURCE_DIRECTORY` Ve`YOUR_OUTPUT_DIRECTORY`Dosyaların sisteminizde saklanacağı gerçek yollar ile.
 
 ## Adım 2: Excel Çalışma Kitaplarını Yükleyin
 
@@ -104,10 +104,10 @@ Aspose.Cells, Excel'in kurulumuna gerek kalmadan Excel elektronik tablo dosyalar
 Evet! Aspose.Cells, platformlar arası geliştirmeyi destekler, böylece .NET'in mevcut olduğu çeşitli ortamlarda çalışabilirsiniz.
 
 ### Aspose.Cells için lisansa ihtiyacım var mı?
- Ücretsiz denemeyle başlayabilmenize rağmen, devam eden kullanım için satın alınmış bir lisans gerekir. Daha fazla ayrıntı şurada bulunabilir:[Burada](https://purchase.aspose.com/buy).
+Ücretsiz denemeyle başlayabilmenize rağmen, devam eden kullanım için satın alınmış bir lisans gerekir. Daha fazla ayrıntı şurada bulunabilir:[Burada](https://purchase.aspose.com/buy).
 
 ### C#'ta bir çalışma sayfasının kağıt boyutunun otomatik olup olmadığını nasıl kontrol edebilirim?
-Rehberde gösterildiği gibi, şunları kontrol edebilirsiniz:`IsAutomaticPaperSize` mülkiyeti`PageSetup` sınıf.
+ Rehberde gösterildiği gibi, şunları kontrol edebilirsiniz:`IsAutomaticPaperSize` mülkiyeti`PageSetup` sınıf.
 
 ### Aspose.Cells hakkında daha fazla bilgiyi nerede bulabilirim?
  Kapsamlı dokümantasyon ve eğitimler bulabilirsiniz[Burada](https://reference.aspose.com/cells/net/).

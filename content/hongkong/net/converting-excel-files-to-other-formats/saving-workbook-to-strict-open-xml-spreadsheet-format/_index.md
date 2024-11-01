@@ -66,14 +66,14 @@ b4.PutValue("This Excel file has Strict Open XML Spreadsheet format.");
 wb.Save(outputDir + "outputSaveWorkbookToStrictOpenXMLSpreadsheetFormat.xlsx", SaveFormat.Xlsx);
 ```
 這行程式碼將您的工作簿儲存為`.xlsx`指定目錄下的檔案。您可以隨意命名您的文件；只要確保保留`.xlsx`擴大。
-## 第六步：確認成功
+## 第6步：確認成功
 為了總結一切，讓我們添加一點確認訊息，讓我們知道一切都已成功執行：
 ```csharp
 Console.WriteLine("SaveWorkbookToStrictOpenXMLSpreadsheetFormat executed successfully.");
 ```
 這是驗證程式碼是否順利運行的簡單方法。當您執行程式時，如果您在控制台中看到此訊息，則表示您已經完成了！
 ## 結論
-現在你就得到它了！您剛剛學習如何使用 Aspose.Cells for .NET 以 Strict Open XML Spreadsheet 格式儲存工作簿。這就像在廚房掌握新食譜一樣 — 您現在擁有創建兼容並符合行業標準的精美 Excel 文件的工具和知識。
+現在你就擁有了！您剛剛學習如何使用 Aspose.Cells for .NET 以 Strict Open XML Spreadsheet 格式儲存工作簿。這就像在廚房掌握新食譜一樣 — 您現在擁有創建兼容且符合行業標準的精美 Excel 文件的工具和知識。
 無論您是管理企業數據還是為學校撰寫報告，這項技能都會對您大有裨益。因此，請繼續嘗試 Aspose.Cells 中的不同功能，看看您可以創建什麼！
 ## 常見問題解答
 ### 什麼是 Strict Open XML 電子表格格式？

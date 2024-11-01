@@ -99,7 +99,7 @@ workbook.Save(dataDir + "SetFirstPageNumber_out.xls");
 
 ## 結論
 
-現在你就得到它了！您已使用 Aspose.Cells for .NET 成功設定了 Excel 工作表的首頁頁碼。這個微小的功能可以產生巨大的影響，尤其是在文件演示很重要的專業或學術環境中。
+現在你就擁有了！您已使用 Aspose.Cells for .NET 成功設定了 Excel 工作表的首頁頁碼。這個微小的功能可以產生巨大的影響，尤其是在文件演示很重要的專業或學術環境中。
 
 ## 常見問題解答
 

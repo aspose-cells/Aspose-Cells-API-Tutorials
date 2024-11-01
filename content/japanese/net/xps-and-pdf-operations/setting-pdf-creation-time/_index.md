@@ -13,9 +13,9 @@ url: /ja/net/xps-and-pdf-operations/setting-pdf-creation-time/
 コードの細部に入る前に、始めるのに必要なものがすべて揃っていることを確認しましょう。
 ### 必要なもの
 1. Visual Studio: マシンに Visual Studio がインストールされていることを確認してください。これが開発環境になります。
-2.  Aspose.Cells for .NET: Aspose.Cellsライブラリを以下からダウンロードしてください。[Webサイト](https://releases.aspose.com/cells/net/)無料トライアルで機能を試すこともできます。
+2. Aspose.Cells for .NET: Aspose.Cellsライブラリを以下からダウンロードしてください。[Webサイト](https://releases.aspose.com/cells/net/)無料トライアルで機能を試すこともできます。
 3. C# の基礎知識: C# プログラミングに精通していると、コード スニペットをよりよく理解できるようになります。
-4. Excelファイル: 変換するExcelファイルを用意します。この例では、`Book1.xlsx`.
+4.  Excelファイル: 変換するExcelファイルを準備します。この例では、`Book1.xlsx`.
 前提条件が整ったので、楽しい部分、つまり必要なパッケージをインポートしてコードを記述する作業に取り掛かりましょう。
 ## パッケージのインポート
 まず、C# ファイルに必要な名前空間をインポートする必要があります。これは、Aspose.Cells ライブラリによって提供されるクラスとメソッドにアクセスできるようにするため、非常に重要です。

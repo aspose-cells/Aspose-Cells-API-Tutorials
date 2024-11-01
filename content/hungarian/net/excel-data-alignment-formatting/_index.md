@@ -16,7 +16,7 @@ Először is beszéljünk arról, hogy miért érdemes először megváltoztatni
 Most pedig lépjünk be a lépésről lépésre. Az Aspose.Cells for .NET lehetővé teszi az Excel-munkalap egyes celláival vagy tartományaival való interakciót, így egyszerűen testreszabhatja azok megjelenését, beleértve az igazítási beállításokat is, anélkül, hogy megzavarná a formázás többi részét.
 
 1. Válassza ki a cellákat vagy a tartományt:
-   Kezdje a módosítani kívánt cellák vagy tartományok megadásával. Ez lehet egy cella vagy egy egész táblázat az Ön igényeitől függően.
+   Kezdje a módosítani kívánt cellák vagy tartományok megadásával. Ez lehet egy cella vagy egy egész táblázat, az Ön igényeitől függően.
 
 2. Alkalmazza a kívánt igazítást:
     Használja a`.Style` tulajdonság vízszintes vagy függőleges igazítási beállítások alkalmazásához. Az Aspose.Cells olyan lehetőségeket kínál, mint`TextAlignmentType.Center`, `TextAlignmentType.Left` , vagy`TextAlignmentType.Right` vízszintes igazításhoz és hasonló lehetőségek a függőleges igazításhoz.
@@ -28,4 +28,4 @@ Most pedig lépjünk be a lépésről lépésre. Az Aspose.Cells for .NET lehet�
 
 ## Excel adatigazítási és formázási oktatóanyagok
 ### [Módosítsa az Excel cellaigazítását a formázás elvesztése nélkül](./change-cells-alignment-in-excel-without-losing-existing-formatting/)
-Ismerje meg, hogyan módosíthatja az Excel-cellaigazítást a formázás elvesztése nélkül az Aspose.Cells for .NET segítségével. Kövesse átfogó, lépésről lépésre útmutatónkat a zökkenőmentes vezérlés érdekében.
+Ismerje meg, hogyan módosíthatja az Excel-cellaigazítást a formázás elvesztése nélkül az Aspose.Cells for .NET segítségével. Kövesse átfogó, lépésenkénti útmutatónkat a zökkenőmentes vezérlés érdekében.

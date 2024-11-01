@@ -140,7 +140,7 @@ Ja, du kan anpassa kriterierna för COUNTIF-funktionen för att räkna celler so
 
 ### Vilka är de bästa metoderna för att använda COUNTIF i Excel?
 
-Bästa metoder för att använda COUNTIF inkluderar att hålla kriterierna tydliga, använda cellreferenser för kriterier och testa formler med exempeldata.
+Bästa metoder för att använda COUNTIF inkluderar att hålla kriterier tydliga, använda cellreferenser för kriterier och testa formler med exempeldata.
 
 ### Var kan jag hitta avancerade handledningar för Aspose.Cells för Java?
 

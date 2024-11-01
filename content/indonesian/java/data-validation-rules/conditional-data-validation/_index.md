@@ -52,7 +52,7 @@ Validasi data bersyarat melibatkan pengaturan kriteria untuk data dalam sel tert
 DataValidation dataValidation = worksheet.getValidations().addDataValidation("A1:A10", DataValidationType.WHOLE, DataValidationOperator.BETWEEN, "1", "100");
 ```
 
-Dalam contoh ini, kami menerapkan validasi data pada sel A1 hingga A10, dengan menentukan bahwa data harus berupa bilangan bulat antara 1 dan 100.
+Dalam contoh ini, kami menerapkan validasi data pada sel A1 hingga A10, dengan menentukan bahwa data harus berupa angka bulat antara 1 dan 100.
 
 ## Langkah 5: Atur Pesan Validasi dan Peringatan Kesalahan
 

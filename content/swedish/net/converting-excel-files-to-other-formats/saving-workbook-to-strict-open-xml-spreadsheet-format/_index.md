@@ -60,7 +60,7 @@ b4.PutValue("This Excel file has Strict Open XML Spreadsheet format.");
 ```
 I det här steget kommer vi åt det första kalkylbladet (kalkylbladen är nollindexerade) och infogar vårt meddelande i cell B4. Det är som att lägga en klisterlapp i din Excel-fil!
 ## Steg 5: Spara arbetsboken
-Vi är nästan framme! Det sista steget är att spara din arbetsbok i utdatakatalogen som vi angav tidigare. Här är koden för att göra det:
+Vi är nästan där! Det sista steget är att spara din arbetsbok i utdatakatalogen som vi angav tidigare. Här är koden för att göra det:
 ```csharp
 // Spara till utdata Excel-fil.
 wb.Save(outputDir + "outputSaveWorkbookToStrictOpenXMLSpreadsheetFormat.xlsx", SaveFormat.Xlsx);

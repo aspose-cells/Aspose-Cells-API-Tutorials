@@ -18,7 +18,7 @@ Voordat we met de code beginnen, zijn er een paar essentiële zaken die u moet r
 1. .NET-ontwikkelomgeving: zorg ervoor dat u een .NET-compatibele omgeving hebt ingesteld, zoals Visual Studio of een andere IDE naar keuze.
 2.  Aspose.Cells-bibliotheek: U hebt de Aspose.Cells-bibliotheek nodig. U kunt[download het hier](https://releases.aspose.com/cells/net/).
 3. Basiskennis van C#: Als u de basisprincipes van C# kent, begrijpt u de concepten beter.
-4.  Aspose.Cells-documentatie: Maak uzelf vertrouwd met de[documentatie](https://reference.aspose.com/cells/net/)voor geavanceerde configuraties of extra functies die u later wellicht nuttig vindt.
+4.  Aspose.Cells-documentatie: Maak uzelf vertrouwd met de[documentatie](https://reference.aspose.com/cells/net/) voor geavanceerde configuraties of extra functies die u later wellicht nuttig vindt.
 
 Nu we alle vereisten op orde hebben, kunnen we de benodigde pakketten importeren!
 
@@ -117,7 +117,7 @@ Console.WriteLine();
 Console.WriteLine("CopyPageSetupSettingsFromSourceWorksheetToDestinationWorksheet executed successfully.\r\n");
 ```
 
-U zou moeten zien dat de paginagroottes voor beide werkbladen overeenkomen na de kopieerbewerking. Dat is alles! De instellingen zijn naadloos overgebracht.
+zou moeten zien dat de paginagroottes voor beide werkbladen overeenkomen na de kopieerbewerking. Dat is alles! De instellingen zijn naadloos overgebracht.
 
 ## Stap 8: Sla uw werkmap op
 
@@ -149,4 +149,4 @@ Aspose.Cells ondersteunt voornamelijk .NET-talen, maar er zijn andere Aspose-bib
  U kunt ondersteuning krijgen via de[Aspose-forum](https://forum.aspose.com/c/cells/9).
 
 ### Kan ik een tijdelijke licentie voor Aspose.Cells krijgen?  
- Absoluut! U kunt een[tijdelijke licentie](https://purchase.aspose.com/temporary-license/) om het product te evalueren.
+Absoluut! U kunt een[tijdelijke licentie](https://purchase.aspose.com/temporary-license/) om het product te evalueren.

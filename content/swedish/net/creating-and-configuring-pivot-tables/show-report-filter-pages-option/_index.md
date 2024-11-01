@@ -2,7 +2,7 @@
 title: Visa alternativ för rapportfiltersidor i .NET
 linktitle: Visa alternativ för rapportfiltersidor i .NET
 second_title: Aspose.Cells .NET Excel Processing API
-description: Lär dig hur du effektivt använder Aspose.Cells för .NET för att visa rapportfiltersidor i pivottabeller. Steg-för-steg guide med kompletta kodexempel.
+description: Lär dig hur du effektivt använder Aspose.Cells för .NET för att visa rapportfiltersidor i pivottabeller. Steg-för-steg-guide med kompletta kodexempel.
 type: docs
 weight: 22
 url: /sv/net/creating-and-configuring-pivot-tables/show-report-filter-pages-option/

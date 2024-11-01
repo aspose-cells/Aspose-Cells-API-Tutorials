@@ -105,12 +105,12 @@ workbook.Save(dataDir + "output.out.xlsx");
 
 `workbook.Save()`將輸出套用了所有主題顏色的 Excel 文件，並且`dataDir`是儲存檔案的目標目錄。
 ## 結論
-就是這樣！透過執行這些步驟，您已使用 Aspose.Cells for .NET 成功將主題顏色套用到 Excel 中的儲存格。這不僅使您的資料在視覺上具有吸引力，而且還有助於保持文件之間的一致性。 Aspose.Cells 讓您可以完全控制 Excel 文件，從建立文件到套用進階樣式和格式，所有這些都無需安裝 Excel。
+就是這樣！透過執行這些步驟，您已使用 Aspose.Cells for .NET 成功將主題顏色套用到 Excel 中的儲存格。這不僅使您的資料在視覺上有吸引力，而且還有助於保持文件之間的一致性。 Aspose.Cells 讓您可以完全控制 Excel 文件，從建立文件到套用進階樣式和格式，所有這些都無需安裝 Excel。
 ## 常見問題解答
 ### Excel 中的主題顏色是什麼？
 主題顏色是 Excel 中預先定義的一組互補色。它們有助於在整個文件中保持一致的樣式。
 ### 我可以動態變更主題顏色嗎？
-是的，使用 Aspose.Cells，您可以透過修改以下內容以程式設計方式變更主題顏色`ThemeColor`財產。
+是的，使用 Aspose.Cells，您可以透過修改以程式方式更改主題顏色`ThemeColor`財產。
 ### Aspose.Cells 是否需要在電腦上安裝 Excel？
 不需要，Aspose.Cells 獨立於 Excel 運行，允許您使用電子表格而無需安裝 Microsoft Excel。
 ### 我可以使用自訂顏色來代替主題顏色嗎？

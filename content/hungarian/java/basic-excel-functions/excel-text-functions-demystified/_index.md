@@ -161,7 +161,7 @@ Cell cell = worksheet.getCells().get("A4");
 cell.setFormula("=UPPER(A4)");
 ```
 
-### Hogyan találhatok meg és cserélhetek ki szöveget egy karakterláncon belül?
+### Hogyan találhatok meg és cserélhetek szöveget egy karakterláncon belül?
 
  karakterláncon belüli szöveg kereséséhez és cseréjéhez használja a`FIND` és`REPLACE` funkciókat. Például:
 ```java

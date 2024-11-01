@@ -58,7 +58,7 @@ if (!IsExists)
 Workbook book = new Workbook();
 ```
 
-在這裡，我們建立一個新的實例`Workbook`Aspose.Cells提供的類，它允許我們操作Excel檔案。
+在這裡，我們建立一個新的實例`Workbook` Aspose.Cells提供的類，它允許我們操作Excel檔案。
 
 ## 第 3 步：存取預設工作表
 
@@ -90,7 +90,7 @@ ProtectedRangeCollection allowRanges = sheet.AllowEditRanges;
 //定義保護範圍
 ProtectedRange proteced_range;
 
-//創建範圍
+//建立範圍
 int idx = allowRanges.Add("r2", 1, 1, 3, 3);
 proteced_range = allowRanges[idx];
 
@@ -98,7 +98,7 @@ proteced_range = allowRanges[idx];
 proteced_range.Password = "123";
 ```
 
-在此步驟中，我們將新增一個名為「r2」的新可編輯範圍，允許在從第1 行第1 列到第3 行第3 列的儲存格中進行編輯。保護此範圍，確保只有授權使用者才能編輯修改它。
+在此步驟中，我們新增一個名為「r2」的新可編輯範圍，允許在從第1 行第1 列到第3 行第3 列的儲存格中進行編輯。範圍，確保只有授權使用者才能編輯修改它。
 
 ## 步驟 6：保護工作表
 
@@ -129,7 +129,7 @@ book.Save(dataDir + "protectedrange.out.xls");
 ## 常見問題解答
 
 ### 什麼是 Aspose.Cells？
-Aspose.Cells 是一個功能強大的 .NET 函式庫，用於處理 Excel 文件，提供以程式設計方式建立、編輯和轉換電子表格等功能。
+Aspose.Cells 是一個功能強大的 .NET 程式庫，用於處理 Excel 文件，提供以程式設計方式建立、編輯和轉換電子表格等功能。
 
 ### 我可以套用多個可編輯範圍嗎？
 絕對地！您可以致電`Add`方法上的`allowRanges`多次集合以指定多個可編輯範圍。

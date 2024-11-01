@@ -68,7 +68,7 @@ ExportTableOptions opts = new ExportTableOptions();
 opts.ExportColumnName = true;
 opts.RenameStrategy = RenameStrategy.Letter;
 ```
- Beállítással`ExportColumnName` ha igaz, akkor azt jelezzük, hogy az oszlopneveket bele akarjuk foglalni az exportált adatokba. Vel`RenameStrategy.Letter`, elmondjuk az Aspose-nak, hogyan kezelje a duplikátumokat betűk hozzáfűzésével (pl. People, People_1, People_2 stb.).
+ Beállítás által`ExportColumnName` ha igaz, akkor azt jelezzük, hogy az oszlopneveket bele akarjuk foglalni az exportált adatokba. Vel`RenameStrategy.Letter`, elmondjuk az Aspose-nak, hogyan kezelje a duplikátumokat betűk hozzáfűzésével (pl. People, People_1, People_2 stb.).
 ## 6. lépés: Exportálja az adatokat a DataTable-be
  Most végezzük el az adatok tényleges exportálását a`ExportDataTable` módszer:
 ```csharp

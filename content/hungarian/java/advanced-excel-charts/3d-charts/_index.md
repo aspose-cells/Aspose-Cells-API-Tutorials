@@ -156,7 +156,7 @@ Az Aspose.Cells for Java elsősorban az Excel-fájlok statikus 3D diagramjainak 
 
 ### Automatizálhatom a 3D diagramom adatainak frissítésének folyamatát?
 
-Igen, automatizálhatja a 3D diagramok adatainak frissítését adatforrások integrálásával vagy olyan szkriptnyelvek használatával, mint a VBA (Visual Basic for Applications) az Excelben. Az Aspose.Cells for Java segíthet a diagramok dinamikus frissítésében is, ha új adatok állnak rendelkezésre.
+Igen, automatizálhatja a 3D diagramok adatainak frissítését adatforrások integrálásával vagy olyan szkriptnyelvek használatával, mint a VBA (Visual Basic for Applications) az Excelben. Az Aspose.Cells for Java segítséget nyújthat a diagramok dinamikus frissítésében is, amikor új adatok állnak rendelkezésre.
 
 ### Hol találok további forrásokat és dokumentációt az Aspose.Cells for Java-hoz?
 

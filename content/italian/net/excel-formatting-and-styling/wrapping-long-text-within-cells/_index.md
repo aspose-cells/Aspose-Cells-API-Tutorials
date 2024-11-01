@@ -100,4 +100,4 @@ Assolutamente! Puoi scorrere l'intervallo di celle desiderato e applicare lo sti
 ### In quali formati posso salvare il file Excel?  
 Aspose.Cells supporta vari formati, tra cui XLSX, CSV e PDF, tra gli altri.
 ### Dove posso trovare la documentazione dettagliata su Aspose.Cells?  
- Dai un'occhiata al[documentazione](https://reference.aspose.com/cells/net/) per maggiori informazioni.
+ Dai un'occhiata al[documentazione](https://reference.aspose.com/cells/net/) per ulteriori informazioni.

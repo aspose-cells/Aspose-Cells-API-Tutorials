@@ -16,7 +16,7 @@ Welkom bij de ultieme gids over het gebruik van de krachtige Aspose.Cells voor .
 Voordat we beginnen met coderen, moeten we ervoor zorgen dat je alles hebt wat je nodig hebt om te beginnen. Dit is wat je op orde moet hebben:
 
 1. Visual Studio: Zorg ervoor dat Visual Studio op uw machine is geïnstalleerd. Dit is uw belangrijkste hub voor al het ontwikkelingswerk.
-2. Aspose.Cells voor .NET: U moet de Aspose.Cells-bibliotheek hebben gedownload en toegevoegd aan uw project. U kunt deze eenvoudig ophalen uit de[Aspose-website](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells voor .NET: U moet de Aspose.Cells-bibliotheek hebben gedownload en toegevoegd aan uw project. U kunt deze eenvoudig ophalen uit de[Aspose-website](https://releases.aspose.com/cells/net/).
 3. Basiskennis van C#: Kennis van C#-programmering zal enorm helpen. Als u variabelen, loops en basisbestand-I/O kunt hanteren, bent u helemaal thuis.
 4. .NET Framework: Zorg ervoor dat uw project is ingesteld met de juiste versie van .NET Framework, aangezien de bibliotheek is ontworpen voor compatibiliteit binnen dit ecosysteem.
 
@@ -69,7 +69,7 @@ Laten we nu de parameters instellen om uw werkblad in specifieke pagina's te lat
 ```csharp
 // Het aantal pagina's instellen waarover de lengte van het werkblad wordt bestreken
 worksheet.PageSetup.FitToPagesTall = 1;
-// Het aantal pagina's instellen waarover de breedte van het werkblad wordt bestreken
+//Het aantal pagina's instellen waarover de breedte van het werkblad wordt bestreken
 worksheet.PageSetup.FitToPagesWide = 1;
 ```
 

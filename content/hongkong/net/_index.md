@@ -67,7 +67,7 @@ xplore Aspose.Cells for .NET 有關設定圖表外觀的教學。透過簡單的
 ### [Excel小計和計算](./excel-subtotal-calculation/)
 了解如何使用 Aspose.Cells for .NET 建立 Excel 小計和追蹤先例。按照這些教學輕鬆提升您的電子表格技能。
 ### [Excel資料依賴與計算](./excel-data-dependency-calculation/)
-探索 Aspose.Cells for .NET 教程，涵蓋 Excel 資料依賴關係和計算，包括追蹤依賴單元格，以增強您的 Excel 自動化技能。
+探索 Aspose.Cells for .NET 教學課程，涵蓋 Excel 資料依賴關係和計算，包括追蹤依賴儲存格，以增強您的 Excel 自動化技能。
 ### [Excel 資料驗證與篩選](./excel-data-validation-filter/)
 了解有關 Excel 資料驗證和篩選器的 Aspose.Cells for .NET 教學 — 提高工作效率的簡單指南。
 ### [Excel 資料對齊和格式設定](./excel-data-alignment-formatting/)
@@ -85,7 +85,7 @@ xplore Aspose.Cells for .NET 有關設定圖表外觀的教學。透過簡單的
 ### [Excel 隱藏行與資料重複管理](./excel-hidden-rows-data-duplication-management/)
 透過 Aspose.Cells for .NET 教學釋放 Excel 的潛力，提供管理隱藏行和輕鬆複製資料的見解。
 ### [Excel 註解與註釋](./excel-comment-annotation/)
-透過註解和註解的 Aspose.Cells for .NET 教學增強您的 Excel 技能，其中包含可豐富您的電子表格的逐步指南。
+透過 Aspose.Cells for .NET 關於註解和註解的教學增強您的 Excel 技能，其中包含可豐富您的電子表格的逐步指南。
 ### [Excel 形狀和控件](./excel-shapes-controls/)
 探索有關新增 Excel 形狀和控制項的綜合 Aspose.Cells for .NET 教學。了解以程式設計方式增強 Excel 工作表的逐步方法。
 ### [Excel OLE 與圖片對象](./excel-ole-picture-objects/)
@@ -152,3 +152,21 @@ xplore Aspose.Cells for .NET 有關設定圖表外觀的教學。透過簡單的
 探索儲存和匯出 Excel 檔案的詳細 Aspose.Cells for .NET 教學。了解如何處理註釋、文件屬性、警告和資料修剪。
 ### [建立和配置資料透視表](./creating-and-configuring-pivot-tables/)
 探索 Aspose.Cells for .NET 的綜合教學。透過針對每個功能的詳細逐步指南，以程式設計方式掌握 Excel 中的資料透視表。
+### [Excel 公式和計算選項](./excel-formulas-and-calculation-options/)
+深入研究 Aspose.Cells for .NET 教程，透過易於遵循的步驟涵蓋基本的 Excel 公式和計算。
+### [使用進階選項將 Excel 匯出為 HTML](./exporting-excel-to-html-with-advanced-options/)
+透過各種進階選項的詳細教程，解鎖使用 Aspose.Cells for .NET 將 Excel 匯出為 HTML 的寶貴見解，從而增強文件匯出。
+### [渲染和匯出](./rendering-and-export/)
+使用 Aspose.Cells for .NET 來增強您的技能。深入研究渲染、匯出和建立互動式 Excel PDF 文件的教學。
+### [Aspose.Cells 中的錯誤處理與自訂](./error-handling-and-customization-in-aspose-cells/)
+Aspose.Cells for .NET 教學課程，介紹將 Excel 中的 Office 加載項渲染為 PDF 以及忽略 Excel 到 PDF 轉換過程中的錯誤。簡化您的文件任務。
+### [列和列管理](./row-and-column-management/)
+透過我們關於行和列管理的綜合教學釋放 Aspose.Cells for .NET 的強大功能，輕鬆增強您的 Excel 技能。
+### [尺寸和間距定制](./size-and-spacing-customization/)
+使用 Aspose.Cells for .NET 增強您的 Excel 檔案。探索易於遵循的教學來自訂大小和間距，輕鬆設定列寬和行高。
+### [列和列自動調整](./row-column-autofit-conversion/)
+使用 Aspose.Cells for .NET 掌握 Excel 中的自動調整行和列。透過逐步教程增強數據顯示，以獲得清晰、專業的電子表格。
+### [Excel 切片器管理](./excel-slicers-management/)
+探索使用 Aspose.Cells for .NET 管理 Excel 切片器的綜合教學課程。了解如何輕鬆建立、更新、格式化和匯出切片器。
+### [Aspose.Cells 中用於動態資料的智慧標記](./smart-markers-dynamic-data/)
+探索 Aspose.Cells for .NET 智慧標記教學課程以建立動態 Excel 報表。學習新增標籤、自動填充資料、使用公式等。

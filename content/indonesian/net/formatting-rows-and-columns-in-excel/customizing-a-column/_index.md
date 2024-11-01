@@ -36,7 +36,7 @@ bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
-## Langkah 2: Membuat Instansiasi Objek Buku Kerja
+## Langkah 2: Membuat Instansi Objek Buku Kerja
 Aspose.Cells berfungsi dengan buku kerja Excel, jadi langkah berikutnya adalah membuat contoh buku kerja baru.
 Buku kerja adalah objek utama yang memuat semua lembar dan sel. Tanpa membuat ini, Anda tidak akan memiliki kanvas untuk dikerjakan.
 ```csharp

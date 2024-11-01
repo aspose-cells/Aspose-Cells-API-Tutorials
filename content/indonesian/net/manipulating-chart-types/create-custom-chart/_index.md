@@ -42,14 +42,14 @@ Pertama-tama, Anda perlu membuat direktori tempat file Excel akan disimpan. Lang
 
 ```csharp
 // Direktori keluaran
-string outputDir = "Your Output Directory"; //Ubah ini ke jalur yang Anda inginkan
+string outputDir = "Your Output Directory"; // Ubah ini ke jalur yang Anda inginkan
 ```
 
 Sebagai ganti "Direktori Output Anda," Anda dapat menentukan jalur sebenarnya tempat Anda ingin menyimpan berkas Excel. Pastikan direktori ini ada di sistem Anda; jika tidak, Anda akan mengalami kesalahan nanti.
 
 ## Langkah 2: Membuat Instansiasi Objek Buku Kerja
 
- Sekarang, Anda ingin memulainya dengan membuat contoh baru dari`Workbook` kelas. Ini adalah blok dasar untuk semua operasi Excel yang menggunakan Aspose.Cells.
+ Sekarang, Anda ingin memulainya dengan membuat contoh baru dari`Workbook`kelas. Ini adalah blok dasar untuk semua operasi Excel yang menggunakan Aspose.Cells.
 
 ```csharp
 // Membuat instance objek Buku Kerja

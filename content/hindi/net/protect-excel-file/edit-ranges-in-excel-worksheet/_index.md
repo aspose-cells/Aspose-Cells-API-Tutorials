@@ -128,7 +128,7 @@ sheet.Protect(ProtectionType.All);
 book.Save(dataDir + "protectedrange.out.xls");
 ```
 
- यह आपकी संरक्षित कार्यपुस्तिका को इस रूप में सहेज लेगा`protectedrange.out.xls` आपके निर्दिष्ट निर्देशिका में.
+यह आपकी संरक्षित कार्यपुस्तिका को इस रूप में सहेज लेगा`protectedrange.out.xls` आपके निर्दिष्ट निर्देशिका में.
 
 ## निष्कर्ष
 

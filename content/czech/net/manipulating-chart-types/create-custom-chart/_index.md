@@ -42,14 +42,14 @@ Nejprve musíte vytvořit adresář, kam se uloží váš soubor Excel. Tento kr
 
 ```csharp
 // Výstupní adresář
-string outputDir = "Your Output Directory"; //Změňte to na požadovanou cestu
+string outputDir = "Your Output Directory"; // Změňte to na požadovanou cestu
 ```
 
 Namísto "Váš výstupní adresář" můžete zadat skutečnou cestu, kam chcete soubor Excel uložit. Ujistěte se, že tento adresář ve vašem systému existuje; jinak se později setkáte s chybami.
 
 ## Krok 2: Vytvoření instance objektu sešitu
 
- Nyní budete chtít věci začít vytvořením nové instance souboru`Workbook` třída. Toto je základní stavební kámen pro jakékoli operace aplikace Excel pomocí Aspose.Cells.
+ Nyní budete chtít věci začít vytvořením nové instance souboru`Workbook`třída. Toto je základní stavební kámen pro jakékoli operace aplikace Excel pomocí Aspose.Cells.
 
 ```csharp
 // Vytvoření instance objektu sešitu
@@ -72,7 +72,7 @@ Tento řádek přistupuje k prvnímu listu (index 0). Aspose.Cells vám umožňu
 ## Krok 4: Přidání ukázkových dat do listu
 
 
-připraveným listem je nyní čas přidat do buněk nějaká ukázková data. Jednoduchá datová sada nám pomůže efektivněji vizualizovat prostřednictvím grafů.
+S připraveným listem je nyní čas přidat do buněk nějaká ukázková data. Jednoduchá datová sada nám pomůže efektivněji vizualizovat prostřednictvím grafů.
 
 ```csharp
 // Přidání vzorových hodnot do buněk
@@ -145,7 +145,7 @@ workbook.Save(outputDir + "outputHowToCreateCustomChart.xlsx");
 
 ## Závěr
 
-tady to máte! Právě jste vytvořili vlastní graf pomocí Aspose.Cells pro .NET. Pomocí několika řádků kódu nyní můžete efektivně vizualizovat svá data, díky čemuž jsou sestavy a prezentace mnohem poutavější. 
+A tady to máte! Právě jste vytvořili vlastní graf pomocí Aspose.Cells pro .NET. Pomocí několika řádků kódu nyní můžete efektivně vizualizovat svá data, díky čemuž jsou sestavy a prezentace mnohem poutavější. 
 
 Pamatujte, že síla grafů spočívá v jejich schopnosti vyprávět příběh, učinit složitá data srozumitelnými na první pohled. Takže pokračujte, experimentujte s různými datovými sadami a typy grafů a nechte mluvit svá data!
 
@@ -163,5 +163,5 @@ Absolutně! Aspose.Cells podporuje různé typy grafů, včetně sloupcových, s
 ### Existuje způsob, jak získat dočasnou licenci pro Aspose.Cells?
  Ano, můžete získat dočasnou licenci od[tento odkaz](https://purchase.aspose.com/temporary-license/).
 
-### Kde najdu další dokumentaci k Aspose.Cells?
+### Kde najdu další dokumentaci na Aspose.Cells?
  Můžete prozkoumat celou dokumentaci[zde](https://reference.aspose.com/cells/net/).

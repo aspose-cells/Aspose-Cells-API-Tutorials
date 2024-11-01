@@ -9,14 +9,14 @@ url: /pl/net/excel-page-setup/implement-custom-paper-size-of-worksheet-for-rende
 ---
 ## Wstęp
 
-Tworzenie i dostosowywanie dokumentów Excela programowo może zwiększyć wydajność pracy, zwłaszcza jeśli masz do czynienia z wieloma raportami lub wpisami danych. Dzięki Aspose.Cells dla .NET możesz łatwo ustawić niestandardowe rozmiary papieru do renderowania arkuszy kalkulacyjnych. W tym samouczku podzielimy proces na łatwe do wykonania kroki, zapewniając, że możesz bezproblemowo wdrożyć tę funkcjonalność. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zanurzasz palce w świecie .NET,
+Tworzenie i dostosowywanie dokumentów Excel programowo może zwiększyć wydajność pracy, zwłaszcza jeśli masz do czynienia z wieloma raportami lub wpisami danych. Dzięki Aspose.Cells dla .NET możesz łatwo ustawić niestandardowe rozmiary papieru do renderowania arkuszy kalkulacyjnych. W tym samouczku podzielimy proces na łatwe do wykonania kroki, zapewniając, że możesz bezproblemowo wdrożyć tę funkcjonalność. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zanurzasz palce u stóp w świecie .NET,
 
 ## Wymagania wstępne
 
 Zanim zagłębimy się w kod, upewnijmy się, że wszystko jest poprawnie skonfigurowane. Oto, czego potrzebujesz, aby zacząć:
 
 1. Visual Studio lub dowolne IDE .NET: Upewnij się, że masz działające IDE, takie jak Visual Studio. To będzie Twój plac zabaw, gdzie dzieje się cała magia kodowania.
-2.  Pakiet Aspose.Cells dla .NET: Jeśli jeszcze tego nie zrobiłeś, musisz pobrać i zainstalować bibliotekę Aspose.Cells. Najnowszą wersję znajdziesz na stronie[Strona pobierania Aspose.Cells](https://releases.aspose.com/cells/net/).
+2. Pakiet Aspose.Cells dla .NET: Jeśli jeszcze tego nie zrobiłeś, musisz pobrać i zainstalować bibliotekę Aspose.Cells. Najnowszą wersję znajdziesz na stronie[Strona pobierania Aspose.Cells](https://releases.aspose.com/cells/net/).
 3. Podstawowa znajomość języka C#: Choć przeprowadzimy Cię przez kod, znajomość języka C# pomoże Ci lepiej zrozumieć niuanse.
 4. Dostęp do .NET Framework: Upewnij się, że Twój projekt jest skonfigurowany tak, aby był docelowy dla zgodnej wersji .NET Framework.
 
@@ -124,10 +124,10 @@ Wdrożenie niestandardowego rozmiaru papieru dla arkuszy kalkulacyjnych programu
 ## Najczęściej zadawane pytania
 
 ### Czy mogę używać Aspose.Cells bez zakupu licencji?
-Tak, możesz wypróbować bezpłatną wersję próbną Aspose.Cells dla .NET, dostępną[Tutaj](https://releases.aspose.com/).
+ Tak, możesz wypróbować bezpłatną wersję próbną Aspose.Cells dla .NET, dostępną[Tutaj](https://releases.aspose.com/).
 
 ### Co się stanie, jeśli przekroczę limity licencji tymczasowej?
- Przekroczenie limitów spowoduje wydruki z znakiem wodnym. Najlepiej wybrać stałą licencję, aby zapewnić nieprzerwaną usługę. Możesz znaleźć opcje[Tutaj](https://purchase.aspose.com/buy).
+ Przekroczenie limitów spowoduje wydruki z znakiem wodnym. Najlepiej wybrać stałą licencję, aby uzyskać nieprzerwaną usługę. Możesz znaleźć opcje[Tutaj](https://purchase.aspose.com/buy).
 
 ### Czy Aspose.Cells jest kompatybilny z .NET Core?
 Tak, Aspose.Cells dla .NET obsługuje .NET Core. Możesz bezproblemowo zintegrować go ze swoimi nowoczesnymi aplikacjami.

@@ -47,7 +47,7 @@ Range[] range = workbook.Worksheets.GetNamedRanges();
 ```
  Questa riga recupera tutti gli intervalli denominati nella cartella di lavoro e li memorizza in un array di`Range` oggetti. 
 ## Passaggio 4: contare gli intervalli denominati
-È sempre una buona pratica sapere con cosa si sta lavorando. Controlliamo quanti intervalli denominati abbiamo estratto.
+È sempre una buona norma sapere con cosa si sta lavorando. Controlliamo quanti intervalli denominati abbiamo estratto.
 Stamperemo il numero totale di intervalli denominati sulla console:
 ```csharp
 Console.WriteLine("Total Number of Named Ranges: " + range.Length);

@@ -13,7 +13,7 @@ När det gäller att arbeta med Excel-filer i dina .NET-applikationer utmärker 
 Innan vi hoppar in i det roliga, finns det några saker du måste ha på plats. Betrakta detta som din checklista för att säkerställa en smidig upplevelse när vi går igenom handledningen.
 1. Visual Studio: Se till att du har Visual Studio installerat på din dator. Oroa dig inte, du kan till och med använda Community-utgåvan; det är gratis och fungerar utmärkt.
 2. .NET Framework: Den version av .NET du använder måste vara kompatibel med Aspose.Cells. I allmänhet bör alla .NET Framework version 4.0 eller senare vara bra.
-3.  Aspose.Cells Library: Ladda ner och installera Aspose.Cells for .NET-biblioteket. Du kan hitta den[här](https://releases.aspose.com/cells/net/). 
+3. Aspose.Cells Library: Ladda ner och installera Aspose.Cells for .NET-biblioteket. Du kan hitta den[här](https://releases.aspose.com/cells/net/). 
 4. Grundläggande C#-kunskap: Lite förtrogenhet med C#-programmering kommer väl till pass, men du behöver inte vara en kodningsguide. Lita på mig, om du kan följa ett recept kan du följa den här guiden!
 5.  Excel-fil: Du behöver en start Excel-fil, i vårt fall, med namnet`Book1.xlsx`. Skapa gärna en enkel om du inte har den ännu.
 Nu när vi är klara, låt oss importera de nödvändiga paketen!
@@ -50,7 +50,7 @@ Låt oss nu ladda arbetsboken så att vi är redo att leka med innehållet. Dett
 ```csharp
 Workbook workbook = new Workbook(filePath);
 ```
-Vad händer här? Vi skapar en ny instans av`Workbook` klass och skickar sökvägen till din befintliga Excel-fil. Det här är som att öppna en receptbok för att hitta din favoriträtt!
+ Vad händer här? Vi skapar en ny instans av`Workbook`klass och skickar sökvägen till din befintliga Excel-fil. Det här är som att öppna en receptbok för att hitta din favoriträtt!
 ## Steg 4: Skapa en FileStream för att spara arbetsboken
  Därefter måste vi skapa en`FileStream` objekt som ställer in där vi sparar vår nyligen modifierade arbetsbok. Koda det så här:
 ```csharp

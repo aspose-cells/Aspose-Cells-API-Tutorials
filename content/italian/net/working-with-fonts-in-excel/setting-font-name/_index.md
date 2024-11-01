@@ -69,7 +69,7 @@ Aspose.Cells.Cell cell = worksheet.Cells["A1"];
 ```
 Selezionando la cella "A1", è possibile modificarne il contenuto e lo stile.
 ## Passaggio 7: aggiungere valore alla cella
-Ora è il momento di mettere del testo nella cella selezionata. Lo imposteremo come un saluto amichevole!
+Ora è il momento di inserire del testo nella cella selezionata. Lo imposteremo come un saluto amichevole!
 ```csharp
 // Aggiungere un valore alla cella "A1"
 cell.PutValue("Hello Aspose!");

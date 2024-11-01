@@ -118,8 +118,8 @@ OLE Nesneleri, diğer Microsoft Office uygulamalarındaki belgeleri bir Excel el
 ### Aspose.Cells diğer dosya formatlarıyla çalışabilir mi?  
 Evet! Aspose.Cells, XLS, XLSX, CSV ve daha fazlası dahil olmak üzere çeşitli formatları destekler.
 ### Aspose.Cells için ücretsiz deneme sürümü mevcut mu?  
-Evet! Deneyebilirsin[Burada](https://releases.aspose.com/).
+ Evet! Deneyebilirsin[Burada](https://releases.aspose.com/).
 ### Bir çalışma sayfasında birden fazla OLE nesnesine erişebilir miyim?  
- Kesinlikle! Döngüye girebilirsin`ws.OleObjects` Bir çalışma sayfasındaki tüm gömülü OLE nesnelerine erişmek için.
+Kesinlikle! Döngüye girebilirsin`ws.OleObjects` Bir çalışma sayfasındaki tüm gömülü OLE nesnelerine erişmek için.
 ### Aspose.Cells için lisans nasıl satın alabilirim?  
  Lisansı doğrudan şu adresten satın alabilirsiniz:[Burada](https://purchase.aspose.com/buy).

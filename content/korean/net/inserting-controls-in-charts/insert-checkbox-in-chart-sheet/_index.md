@@ -66,7 +66,7 @@ using Aspose.Cells.Drawing;
 ```csharp
 string outputDir = "C:\\YourOutputDirectory\\"; // 지정한 디렉토리로 변경
 ```
- 교체를 꼭 해주세요`"C:\\YourOutputDirectory\\"` 파일을 저장할 경로와 함께. 이것을 작업 공간을 설정하는 것으로 생각하세요. 도구(또는 이 경우 Excel 파일)를 어디에 둘지 알아야 합니다.
+ 교체를 꼭 해주세요`"C:\\YourOutputDirectory\\"`파일을 저장할 경로와 함께. 이것을 작업 공간을 설정하는 것으로 생각하세요. 도구(또는 이 경우 Excel 파일)를 어디에 둘지 알아야 합니다.
 
 ## 2단계: 통합 문서 개체 인스턴스화
 

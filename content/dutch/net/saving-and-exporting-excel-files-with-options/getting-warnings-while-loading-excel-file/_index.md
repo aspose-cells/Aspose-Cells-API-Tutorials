@@ -18,7 +18,7 @@ U dient een basiskennis te hebben van C# en het .NET Framework, aangezien we cod
 ### Ontwikkelomgeving
 Voor het ontwikkelen van uw .NET-toepassingen wordt een compatibele IDE zoals Visual Studio aanbevolen. 
 ### Basis Excel-bestand
- U hebt een voorbeeld-Excel-bestand nodig (we noemen dit`sampleDuplicateDefinedName.xlsx`die dubbele gedefinieerde namen kunnen bevatten om deze functionaliteit te testen.
+ U hebt een voorbeeld-Excel-bestand nodig (we noemen dit`sampleDuplicateDefinedName.xlsx`) die dubbele gedefinieerde namen kunnen bevatten om deze functionaliteit te testen.
 ## Pakketten importeren
 Nu alles is ingesteld, gaan we het hebben over de pakketten die je nodig hebt. Zorg ervoor dat je deze namespaces bovenaan je C#-bestand opneemt:
 ```csharp
@@ -38,12 +38,12 @@ string dataDir = "Your Document Directory";
 ```
  Vervangen`"Your Document Directory"` met het daadwerkelijke pad op uw computer waar het Excel-bestand is opgeslagen. Deze eenvoudige regel code wijst het programma de juiste richting op!
 ## Stap 2: Laadopties maken
- Laten we vervolgens een instantie van maken`LoadOptions`. Dit is waar de magie begint. Door laadopties te configureren, kunt u een callback instellen die wordt geactiveerd wanneer er een waarschuwing wordt aangetroffen tijdens het laden van de werkmap:
+ Laten we vervolgens een instantie van maken`LoadOptions`Dit is waar de magie begint. Door laadopties te configureren, kunt u een callback instellen die wordt geactiveerd wanneer er een waarschuwing wordt aangetroffen tijdens het laden van de werkmap:
 ```csharp
 LoadOptions options = new LoadOptions();
 options.WarningCallback = new WarningCallback();
 ```
- Hier creëren we een nieuwe`LoadOptions` object en het associëren ervan met onze`WarningCallback`klasse (die we hierna zullen definiëren). Deze opstelling is essentieel voor ons programma om waarschuwingen netjes te verwerken.
+ Hier creëren we een nieuwe`LoadOptions` object en het associëren ervan met onze`WarningCallback` klasse (die we hierna zullen definiëren). Deze opstelling is essentieel voor ons programma om waarschuwingen netjes te verwerken.
 ## Stap 3: Laad het bron-Excelbestand
  Tijd om dat Excel-bestand daadwerkelijk te laden! Dit is waar u de`Workbook` klasse om uw bestand te laden, samen met de opties die we eerder hebben gedefinieerd:
 ```csharp
@@ -81,6 +81,6 @@ Aspose.Cells is een krachtige .NET-bibliotheek voor het maken, bewerken en conve
 ### Hoe kan ik Aspose.Cells kopen?
  U kunt Aspose.Cells rechtstreeks bij hen kopen[aankooppagina](https://purchase.aspose.com/buy).
 ### Met welke soorten waarschuwingen kan ik omgaan?
- U kunt verschillende waarschuwingen verwerken, zoals dubbele gedefinieerde namen, formulewaarschuwingen en stijlwaarschuwingen met behulp van de`WarningCallback`.
+ kunt verschillende waarschuwingen verwerken, zoals dubbele gedefinieerde namen, formulewaarschuwingen en stijlwaarschuwingen met behulp van de`WarningCallback`.
 ### Waar kan ik documentatie over Aspose.Cells vinden?
  U kunt de uitgebreide[documentatie hier](https://reference.aspose.com/cells/net/).

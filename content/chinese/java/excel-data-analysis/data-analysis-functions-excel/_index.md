@@ -15,7 +15,7 @@ url: /zh/java/excel-data-analysis/data-analysis-functions-excel/
 ## 先决条件
 在开始之前，请确保您已满足以下先决条件：
 
-- [下载 Aspose.Cells for Java](https://releases.aspose.com/cells/java/)：您需要 Java 的 Aspose.Cells 库。按照链接下载并在您的项目中进行设置。
+- [下载 Aspose.Cells for Java](https://releases.aspose.com/cells/java/)：您需要 Java 版 Aspose.Cells 库。按照链接下载并在您的项目中进行设置。
 
 ## 加载 Excel 文件
 首先，您需要一个 Excel 文件来处理。您可以使用 Aspose.Cells 创建一个新文件或加载现有文件。以下是加载 Excel 文件的方法：

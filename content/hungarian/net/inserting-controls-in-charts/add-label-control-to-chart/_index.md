@@ -16,7 +16,7 @@ A diagramok hatékony módszert jelentenek az adatok megjelenítésére, és né
 Mielőtt belemerülnénk az apróságokba, nézzük meg, mire van szüksége az induláshoz:
 
 - Alapvető C# ismerete: Kulcsfontosságú a C# programozás alapjainak megértése. Ha Ön kezdő, ne aggódjon – a lépések világosak és tömörek lesznek.
--  Aspose.Cells Library: Győződjön meg arról, hogy telepítve van az Aspose.Cells könyvtár. Ezt a Visual Studio NuGet Package Manager segítségével teheti meg. Ha még nem tette meg, nézze meg a[letöltési link](https://releases.aspose.com/cells/net/) a könyvtár számára.
+- Aspose.Cells Library: Győződjön meg arról, hogy telepítve van az Aspose.Cells könyvtár. Ezt a Visual Studio NuGet Package Manager segítségével teheti meg. Ha még nem tette meg, nézze meg a[letöltési link](https://releases.aspose.com/cells/net/) a könyvtár számára.
 - Visual Studio: A kód írásához és végrehajtásához integrált fejlesztői környezetre (IDE) lesz szüksége, mint például a Visual Studio.
 
 ## Csomagok importálása
@@ -152,7 +152,7 @@ Igen! Igényeinek megfelelően módosíthatja a címke betűtípusát, színét,
  Az Aspose.Cells fizetős termék; kezdheti azonban a[ingyenes próbaverzió](https://releases.aspose.com/) jellemzőinek feltárására.
 
 ### Mi a teendő, ha több címkét szeretnék hozzáadni?
-A címke hozzáadása lépéseit annyiszor ismételheti meg, ahányszor szükséges, mindegyik más-más pozícióval és szöveggel.
+címke hozzáadása lépéseit annyiszor ismételheti meg, ahányszor szükséges, mindegyik más-más pozícióval és szöveggel.
 
 ### Elmozdul a címke, ha a diagram adatai megváltoznak?
 Ha az elhelyezés típusát rögzítettre állítja, az a diagram adataival együtt mozog. Ha szabadon lebegő, akkor a megadott helyzetben marad.

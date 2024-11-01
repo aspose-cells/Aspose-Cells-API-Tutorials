@@ -64,7 +64,7 @@ Ora dobbiamo caricare la nostra cartella di lavoro. In parole più semplici, pen
 Workbook workbook = new Workbook(dataDir + "PageBreaks.xls");
 ```
 
-Spiegazione: Questa riga crea una nuova istanza di un`Workbook` , che carica il file Excel specificato (in questo esempio, si chiama`PageBreaks.xls`). 
+ Spiegazione: Questa riga crea una nuova istanza di un`Workbook` , che carica il file Excel specificato (in questo esempio, si chiama`PageBreaks.xls`). 
 
 ## Passaggio 3: rimuovere l'interruzione di pagina orizzontale
 
@@ -117,4 +117,4 @@ Ed ecco fatto! Rimuovere interruzioni di pagina specifiche da un file Excel usan
  Assolutamente! Basta cambiare il numero di indice in`workbook.Worksheets[index]` per indirizzare il foglio di lavoro desiderato.
 
 ### Aspose.Cells è uno strumento gratuito?  
- Aspose.Cells offre una prova gratuita, ma per la piena funzionalità, dovrai acquistare una licenza. Puoi verificarlo[Qui](https://purchase.aspose.com/buy).
+Aspose.Cells offre una prova gratuita, ma per la piena funzionalità, dovrai acquistare una licenza. Puoi verificarlo[Qui](https://purchase.aspose.com/buy).

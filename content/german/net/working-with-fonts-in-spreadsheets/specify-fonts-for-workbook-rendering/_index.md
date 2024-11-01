@@ -12,7 +12,7 @@ Wenn es um die programmgesteuerte Verwaltung und Darstellung von Excel-Dateien g
 ## Voraussetzungen
 Bevor wir in die aufregende Welt von Aspose.Cells und der Anpassung von Schriftarten eintauchen, stellen wir sicher, dass Sie alles haben, was Sie für den Einstieg benötigen:
 1. Grundlegende Kenntnisse von .NET: Vertrautheit mit der .NET-Programmierung ist entscheidend, da wir in einer .NET-Umgebung arbeiten werden.
-2.  Aspose.Cells für .NET: Stellen Sie sicher, dass Sie die Aspose.Cells-Bibliothek installiert haben. Sie können sie herunterladen[Hier](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells für .NET: Stellen Sie sicher, dass Sie die Aspose.Cells-Bibliothek installiert haben. Sie können sie herunterladen[Hier](https://releases.aspose.com/cells/net/).
 3. Visual Studio: In dieser Anleitung wird davon ausgegangen, dass Sie Visual Studio als IDE verwenden. Stellen Sie sicher, dass Sie es installiert und eingerichtet haben.
 4. Beispiel-Excel-Datei: Halten Sie für dieses Tutorial eine Beispiel-Excel-Datei bereit. So können Sie leichter nachvollziehen, wie sich benutzerdefinierte Schriftarten auf die Rendering-Ausgabe auswirken.
 5. Benutzerdefinierte Schriftarten: Bereiten Sie ein Verzeichnis der benutzerdefinierten Schriftarten vor, die Sie verwenden möchten. Dies ist wichtig, um unseren Rendering-Prozess zu testen.
@@ -41,7 +41,7 @@ string outputDir = "Your Document Directory";
 string customFontsDir = sourceDir + "CustomFonts";
 ```
 
-Stellen Sie sich vor, Sie haben einen Aktenschrank voller wichtiger Dokumente (in diesem Fall Excel-Dateien). Das Einrichten Ihrer Verzeichnisse ist wie das Ordnen dieses Schranks; es stellt sicher, dass Sie genau wissen, wo Ihre Dateien gespeichert sind. Durch die Definition der`sourceDir`, `outputDir` , Und`customFontsDir`bereiten Sie einen Arbeitsbereich vor, der Ihren Code übersichtlicher und handlicher macht.
+ Stellen Sie sich vor, Sie haben einen Aktenschrank voller wichtiger Dokumente (in diesem Fall Excel-Dateien). Das Einrichten Ihrer Verzeichnisse ist wie das Ordnen dieses Schranks; es stellt sicher, dass Sie genau wissen, wo Ihre Dateien gespeichert sind. Durch die Definition der`sourceDir`, `outputDir` , Und`customFontsDir`bereiten Sie einen Arbeitsbereich vor, der Ihren Code übersichtlicher und handlicher macht.
 ## Schritt 2: Individuelle Schriftkonfigurationen festlegen
 Als nächstes müssen wir individuelle Schriftkonfigurationen erstellen. Dieser Schritt ist entscheidend, um Aspose.Cells mitzuteilen, wo Ihre benutzerdefinierten Schriftarten zu finden sind.
 ```csharp
@@ -49,7 +49,7 @@ Als nächstes müssen wir individuelle Schriftkonfigurationen erstellen. Dieser 
 IndividualFontConfigs fontConfigs = new IndividualFontConfigs();
 fontConfigs.SetFontFolder(customFontsDir, false);
 ```
- Stellen Sie sich diesen Schritt so vor, als würden Sie einem Freund eine Wegbeschreibung geben, der versucht, ein bestimmtes Café zu finden. Indem Sie die`customFontsDir`, Sie richten Aspose.Cells auf den genauen Speicherort Ihrer Schriftarten. Wenn die Richtung falsch ist (oder wenn die Schriftarten nicht vorhanden sind), erhalten Sie möglicherweise eine unbefriedigende PDF-Ausgabe. Stellen Sie also sicher, dass Ihr Schriftartenverzeichnis korrekt ist!
+ Stellen Sie sich diesen Schritt so vor, als würden Sie einem Freund eine Wegbeschreibung geben, der versucht, ein bestimmtes Café zu finden. Indem Sie die`customFontsDir`Sie richten Aspose.Cells auf den genauen Speicherort Ihrer Schriftarten. Wenn die Richtung falsch ist (oder wenn die Schriftarten nicht vorhanden sind), erhalten Sie möglicherweise eine unbefriedigende PDF-Ausgabe. Stellen Sie also sicher, dass Ihr Schriftartenverzeichnis korrekt ist!
 ## Schritt 3: Ladeoptionen festlegen
 Jetzt ist es an der Zeit, Ladeoptionen zu definieren, die unsere Schriftarteinstellungen in die Arbeitsmappe integrieren.
 ```csharp
@@ -64,11 +64,11 @@ Nachdem wir die Ladeoptionen eingerichtet haben, laden wir nun die Excel-Datei, 
 // Laden Sie die Beispiel-Excel-Datei mit individuellen Schriftartkonfigurationen.
 Workbook wb = new Workbook(sourceDir + "sampleSpecifyIndividualOrPrivateSetOfFontsForWorkbookRendering.xlsx", opts);
 ```
- Dieser Schritt ist vergleichbar mit dem Öffnen Ihres Lieblingsbuchs. Hier teilen Sie Aspose.Cells mit, mit welcher Excel-Datei gearbeitet werden soll. Mithilfe der`Workbook` Klasse und den angegebenen Ladeoptionen öffnen Sie im Wesentlichen die Abdeckung und tauchen in den Inhalt ein, bereit, Änderungen vorzunehmen.
+ Dieser Schritt ist vergleichbar mit dem Öffnen Ihres Lieblingsbuchs. Hier teilen Sie Aspose.Cells mit, mit welcher Excel-Datei gearbeitet werden soll. Mithilfe der`Workbook`Klasse und den angegebenen Ladeoptionen öffnen Sie im Wesentlichen die Abdeckung und tauchen in den Inhalt ein, bereit, Änderungen vorzunehmen.
 ## Schritt 5: Speichern Sie die Arbeitsmappe im gewünschten Format
 Abschließend ist es an der Zeit, die geänderte Arbeitsmappe im gewünschten Format (in diesem Fall PDF) zu speichern.
 ```csharp
-//Im PDF-Format speichern.
+// Im PDF-Format speichern.
 wb.Save(outputDir + "outputSpecifyIndividualOrPrivateSetOfFontsForWorkbookRendering.pdf", SaveFormat.Pdf);
 ```
 Das ist, als würden Sie Ihr Buch nach dem Lesen wieder ins Regal stellen, allerdings in einem anderen Format. Indem Sie die Arbeitsmappe im PDF-Format speichern, stellen Sie sicher, dass die Darstellung mit den von Ihnen angegebenen Schriftarten erfolgt, sodass sie präsentabel und professionell aussieht.
@@ -77,7 +77,7 @@ Lassen Sie uns abschließend durch Drucken einer Erfolgsmeldung bestätigen, das
 ```csharp
 Console.WriteLine("SpecifyIndividualOrPrivateSetOfFontsForWorkbookRendering executed successfully.");
 ```
-Das ist das Sahnehäubchen! Genau wie beim Feiern nach dem Erreichen eines Ziels zeigt Ihnen diese Erfolgsmeldung an, dass Ihr Prozess reibungslos abgeschlossen wurde. Beim Programmieren ist es immer gut, Feedback zu erhalten, um zu bestätigen, dass Ihr Code wie erwartet ausgeführt wird.
+Das ist das Sahnehäubchen! Genau wie beim Feiern nach dem Erreichen eines Ziels zeigt Ihnen diese Erfolgsmeldung, dass Ihr Prozess reibungslos abgeschlossen wurde. Beim Programmieren ist es immer gut, Feedback zu erhalten, um zu bestätigen, dass Ihr Code wie erwartet ausgeführt wird.
 ## Abschluss
 Und da haben Sie es! Das Festlegen von Schriftarten für die Arbeitsmappendarstellung mit Aspose.Cells für .NET ist nicht nur unkompliziert, sondern auch entscheidend für die Erstellung visuell ansprechender Dokumente. Indem Sie diese Schritte befolgen, können Sie sicherstellen, dass Ihre Excel-Dateien auch nach der Konvertierung in PDF ihr beabsichtigtes Erscheinungsbild beibehalten. Unabhängig davon, ob Sie einen Bericht, ein Finanzdokument oder eine andere Art von Excel-Arbeitsmappe erstellen, können benutzerdefinierte Schriftarten die Lesbarkeit und Präsentation verbessern. Zögern Sie also nicht, mit verschiedenen Schriftartkonfigurationen zu experimentieren und zu sehen, wie sie Ihre Dokumente aufwerten können!
 ## Häufig gestellte Fragen

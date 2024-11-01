@@ -16,7 +16,7 @@ Välkommen till den ultimata guiden om hur du använder det kraftfulla Aspose.Ce
 Innan vi börjar med kodning, låt oss se till att du har allt du behöver för att komma igång. Här är vad du bör ha på plats:
 
 1. Visual Studio: Se till att du har Visual Studio installerat på din dator. Detta är ditt huvudsakliga nav för allt utvecklingsarbete.
-2. Aspose.Cells för .NET: Du måste ha Aspose.Cells-biblioteket nedladdat och lagt till ditt projekt. Du kan enkelt ta den från[Aspose hemsida](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells för .NET: Du måste ha Aspose.Cells-biblioteket nedladdat och lagt till ditt projekt. Du kan enkelt ta den från[Aspose hemsida](https://releases.aspose.com/cells/net/).
 3. Grundläggande C#-kunskaper: Bekantskap med C#-programmering kommer att vara till stor hjälp. Om du kan hantera variabler, loopar och grundläggande fil-I/O kommer du att vara hemma.
 4. .NET Framework: Se till att ditt projekt är konfigurerat med lämplig .NET Framework-version, eftersom biblioteket är designat för kompatibilitet inom detta ekosystem.
 
@@ -69,7 +69,7 @@ Låt oss nu ställa in parametrarna så att de passar ditt kalkylblad på specif
 ```csharp
 // Ställa in antalet sidor som längden på kalkylbladet ska sträckas över
 worksheet.PageSetup.FitToPagesTall = 1;
-// Ställa in antalet sidor som kalkylbladets bredd ska sträckas över
+//Ställa in antalet sidor som kalkylbladets bredd ska sträckas över
 worksheet.PageSetup.FitToPagesWide = 1;
 ```
 

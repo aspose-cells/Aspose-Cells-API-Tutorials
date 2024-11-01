@@ -17,7 +17,7 @@ url: /es/net/excel-workbook/
 
 ## Agregar firmas digitales
 
-¿Alguna vez ha necesitado agregar una firma digital a un archivo de Excel firmado? Descubra cómo hacerlo con nuestra guía sobre[Agregar firma digital a un archivo Excel ya firmado](./add-digital-signature-to-an-already-signed-excel-file/)Las firmas digitales garantizan la autenticidad e integridad, haciendo que sus archivos de Excel no solo sean funcionales sino también seguros.
+ ¿Alguna vez ha necesitado agregar una firma digital a un archivo de Excel firmado? Descubra cómo hacerlo con nuestra guía sobre[Agregar firma digital a un archivo Excel ya firmado](./add-digital-signature-to-an-already-signed-excel-file/)Las firmas digitales garantizan la autenticidad e integridad, haciendo que sus archivos de Excel no solo sean funcionales sino también seguros.
 
 ## Creación de libros de trabajo compartidos
 
@@ -37,7 +37,7 @@ url: /es/net/excel-workbook/
 
 ## Aumentar la productividad con expresiones regulares
 
-¿Eres fanático de las expresiones regulares? Si no, ¡quizás quieras convertirte en uno! Las expresiones regulares pueden agilizar significativamente tus tareas, especialmente cuando trabajas con grandes conjuntos de datos en Excel. Nuestro tutorial sobre[Reemplazar expresiones regulares](./regex-replace/) Le enseña a implementar funciones de reemplazo de expresiones regulares en sus hojas de cálculo, lo que le permite aumentar tanto la productividad como la precisión.
+ ¿Eres fanático de las expresiones regulares? Si no, ¡quizás quieras convertirte en uno! Las expresiones regulares pueden agilizar significativamente tus tareas, especialmente cuando trabajas con grandes conjuntos de datos en Excel. Nuestro tutorial sobre[Reemplazar expresiones regulares](./regex-replace/) Le enseña a implementar funciones de reemplazo de expresiones regulares en sus hojas de cálculo, lo que le permite aumentar tanto la productividad como la precisión.
 
 ## Actualización de elementos de Power Query
 
@@ -45,11 +45,11 @@ url: /es/net/excel-workbook/
 
 ## Administrar vistas previas de impresión
 
-De vez en cuando, es necesario presentar los datos de la forma más profesional posible. Aprender a crear vistas previas de impresión puede ser una habilidad fundamental. En nuestro tutorial sobre[Vista previa de impresión del libro de trabajo](./workbook-print-preview/)Descubrirás cómo formatear tus datos correctamente antes de imprimirlos. Este proceso puede evitarte errores embarazosos y garantizar que tus informes se vean tan bien en papel como en la pantalla.
+ De vez en cuando, es necesario presentar los datos de la forma más profesional posible. Aprender a crear vistas previas de impresión puede ser una habilidad fundamental. En nuestro tutorial sobre[Vista previa de impresión del libro de trabajo](./workbook-print-preview/)Descubrirás cómo formatear tus datos correctamente antes de imprimirlos. Este proceso puede evitarte errores embarazosos y garantizar que tus informes se vean tan bien en papel como en la pantalla.
 
 ## Trabajar con nombres definidos
 
- Los nombres definidos dentro de las hojas de Excel pueden ser una forma práctica de administrar los datos. Hacen que las fórmulas sean más breves y comprensibles. Si desea filtrar nombres definidos al cargar un libro de trabajo, consulte nuestro tutorial sobre[Filtrar nombres definidos al cargar un libro de trabajo](./filter-defined-names-while-loading-workbook/) Proporciona todos los pasos necesarios para hacer exactamente eso. Esta función le permite personalizar la forma en que se carga su libro de trabajo, mejorando la eficiencia y la organización.
+Los nombres definidos dentro de las hojas de Excel pueden ser una forma práctica de administrar los datos. Hacen que las fórmulas sean más breves y comprensibles. Si desea filtrar nombres definidos al cargar un libro de trabajo, consulte nuestro tutorial sobre[Filtrar nombres definidos al cargar un libro de trabajo](./filter-defined-names-while-loading-workbook/) Proporciona todos los pasos necesarios para hacer exactamente eso. Esta función le permite personalizar la forma en que se carga su libro de trabajo, mejorando la eficiencia y la organización.
 
 ## Conclusión
 

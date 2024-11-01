@@ -17,7 +17,7 @@ Aspose.Cells untuk .NET menyediakan alat yang hebat bagi pengembang untuk mengel
 
 ## Mendapatkan Peringatan saat Memuat File Excel di .NET
 
- Saat Anda memuat file Excel, format data atau konten tertentu mungkin memicu peringatan. Pelajari cara mengelola dan menginterpretasikan peringatan ini dengan[Mendapatkan Peringatan saat Memuat File Excel di .NET](./getting-warnings-while-loading-excel-file/)tutorial. Panduan ini wajib dimiliki oleh pengembang yang ingin menangani dan mengatasi masalah kompatibilitas atau peringatan pemformatan secara efektif. Dengan menangani peringatan ini lebih awal, Anda memastikan pengalaman yang lebih lancar dan bebas kesalahan saat memuat file ke dalam aplikasi Anda.
+ Saat Anda memuat file Excel, format data atau konten tertentu mungkin memicu peringatan. Pelajari cara mengelola dan menginterpretasikan peringatan ini dengan[Mendapatkan Peringatan saat Memuat File Excel di .NET](./getting-warnings-while-loading-excel-file/) tutorial. Panduan ini wajib dimiliki oleh pengembang yang ingin menangani dan mengatasi masalah kompatibilitas atau peringatan pemformatan secara efektif. Dengan menangani peringatan ini lebih awal, Anda memastikan pengalaman yang lebih lancar dan bebas kesalahan saat memuat file ke dalam aplikasi Anda.
 
 ## Menentukan Versi Dokumen File Excel Secara Terprogram di .NET
 
@@ -25,7 +25,7 @@ Aspose.Cells untuk .NET menyediakan alat yang hebat bagi pengembang untuk mengel
 
 ### Memangkas Baris dan Kolom Kosong Terkemuka saat Mengekspor
 
- Baris dan kolom kosong dapat mengacaukan ekspor Anda, terutama saat menangani file CSV.[Memangkas Baris dan Kolom Kosong Terkemuka saat Mengekspor](./trimming-leading-blank-rows-and-columns/)Tutorial ini memungkinkan Anda untuk membersihkan data dengan memangkas spasi kosong yang tidak perlu di awal baris dan kolom. Tutorial ini sangat cocok untuk pengembang yang ingin membuat file yang ringkas dan rapi yang siap untuk dianalisis atau dipresentasikan. Hasil yang bersih dan rapi tidak hanya terlihat profesional tetapi juga membuat pemrosesan data menjadi jauh lebih mudah.
+Baris dan kolom kosong dapat mengacaukan ekspor Anda, terutama saat menangani file CSV.[Memangkas Baris dan Kolom Kosong Terkemuka saat Mengekspor](./trimming-leading-blank-rows-and-columns/) Tutorial ini memungkinkan Anda untuk membersihkan data dengan memangkas spasi kosong yang tidak perlu di awal baris dan kolom. Tutorial ini sangat cocok untuk pengembang yang ingin membuat file yang ringkas dan rapi yang siap untuk dianalisis atau dipresentasikan. Hasil yang bersih dan rapi tidak hanya terlihat profesional tetapi juga membuat pemrosesan data menjadi jauh lebih mudah.
 
 ## Tutorial Menyimpan dan Mengekspor File Excel dengan Opsi
 ### [Mengekspor Komentar sambil Menyimpan File Excel ke HTML](./exporting-comments/)

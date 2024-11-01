@@ -134,4 +134,4 @@ XLSB dosyası, elektronik tablo verilerini ikili biçimde saklayan, böylece dah
 Kesinlikle! Aspose.Cells, XLSX, CSV ve daha fazlası dahil olmak üzere çeşitli dosya biçimlerini destekler.
 
 ### Sorun yaşarsam nereden yardım alabilirim?  
- Aspose forumlarından destek alabilirsiniz[Burada](https://forum.aspose.com/c/cells/9).
+Aspose forumlarından destek alabilirsiniz[Burada](https://forum.aspose.com/c/cells/9).

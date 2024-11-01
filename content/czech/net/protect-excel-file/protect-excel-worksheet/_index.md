@@ -93,7 +93,7 @@ Po použití nezbytných ochran je důležité uložit si práci. Provedené zm�
 excel.Save(dataDir + "output.out.xls", SaveFormat.Excel97To2003);
 ```
 
-Tento příkaz uloží sešit jako "output.out.xls" v zadaném formátu. Nezapomeňte upravit název souboru, abyste v něm měli pořádek!
+Tento příkaz uloží sešit jako "output.out.xls" v určeném formátu. Nezapomeňte upravit název souboru, abyste v něm měli pořádek!
 
 ## Krok 7: Zavřete Stream souborů
 

@@ -99,7 +99,7 @@ A tady to máte! Úspěšně jste přidali seznam do listu aplikace Excel pomoc�
 ## FAQ
 ### Mohu povolit více výběrů v seznamu?  
  Ano, můžete změnit`SelectionType` na`SelectionType.Multi` umožňující vícenásobný výběr.
-### Mohu změnit vzhled pole se seznamem?  
+### Mohu změnit vzhled seznamu?  
 Absolutně! Aspose.Cells umožňuje přizpůsobit vzhled seznamu, včetně jeho velikosti, písma a dokonce i barvy.
 ### Co když budu později potřebovat odstranit pole se seznamem?  
  Můžete přistupovat k seznamu a odstranit jej z`Shapes` sběr pomocí`sheet.Shapes.RemoveAt(index)`.

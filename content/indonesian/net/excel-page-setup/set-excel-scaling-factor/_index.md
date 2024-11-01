@@ -69,7 +69,7 @@ Sekarang, saatnya membuat buku kerja baru. Di sinilah semua data dan pengaturan 
 Workbook workbook = new Workbook();
 ```
 
- Di sini, kami mendeklarasikan yang baru`Workbook`objek yang mewakili berkas Excel dan memungkinkan kita memanipulasi isinya.
+ Di sini, kami mendeklarasikan yang baru`Workbook` objek yang mewakili berkas Excel dan memungkinkan kita memanipulasi isinya.
 
 ## Langkah 3: Akses Lembar Kerja Pertama
 

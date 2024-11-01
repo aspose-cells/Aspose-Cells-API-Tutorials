@@ -33,7 +33,7 @@ using System.Text;
 通过这样做，您就可以开始使用 Aspose.Cells 进行编码并以编程方式处理 Excel 文件。
 ## 步骤 2：加载带有注释的 Excel 文件
 现在您的项目已设置完毕，让我们继续加载您的 Excel 文件。确保您的文件中含有要导出为 HTML 的注释。我们首先将文件加载到 Workbook 对象中。
-具体操作如下：
+操作方法如下：
 ```csharp
 //定义源目录
 string sourceDir = "Your Document Directory";

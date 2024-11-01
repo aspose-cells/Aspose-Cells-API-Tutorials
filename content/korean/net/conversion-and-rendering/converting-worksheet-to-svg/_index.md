@@ -68,7 +68,7 @@ imgOptions.OnePagePerSheet = true;
 
  그만큼`SaveFormat.Svg` 이 옵션을 사용하면 출력 형식이 SVG가 됩니다.`OnePagePerSheet` 각 워크시트가 한 페이지에 렌더링되도록 보장합니다.
 
-## 4단계: 통합 문서의 각 워크시트 반복
+## 4단계: 워크북의 각 워크시트 반복
 
 이제 Excel 파일의 모든 워크시트를 반복해야 합니다. 각 워크시트는 개별적으로 변환됩니다.
 

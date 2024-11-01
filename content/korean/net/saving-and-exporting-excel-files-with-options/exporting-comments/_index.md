@@ -49,7 +49,7 @@ Workbook wb = new Workbook(sourceDir + "sampleExportCommentsHTML.xlsx");
 HtmlSaveOptions opts = new HtmlSaveOptions();
 opts.IsExportComments = true;
 ```
- 설정하여`IsExportComments` 에게`true`Aspose.Cells에 Excel 파일의 모든 주석을 HTML 출력에 포함하도록 지시합니다. 변환 중에 중요한 내용이 손실되지 않도록 보장하는 간단하지만 강력한 옵션입니다.
+ 설정하여`IsExportComments` 에게`true`, Aspose.Cells에 Excel 파일의 모든 주석을 HTML 출력에 포함하도록 지시합니다. 변환 중에 중요한 내용이 손실되지 않도록 보장하는 간단하지만 강력한 옵션입니다.
 ## 4단계: Excel 파일을 HTML로 저장
  이제 Excel 파일을 로드하고 내보내기 옵션을 구성했으므로 마지막 단계는 파일을 HTML 문서로 저장하는 것입니다. Aspose.Cells는 이를 매우 쉽게 만듭니다. 우리가 해야 할 일은 다음을 호출하는 것뿐입니다.`Save` 우리의 방법`Workbook` 원하는 출력 형식과 옵션을 전달하는 객체입니다.
 코드는 다음과 같습니다.
@@ -59,7 +59,7 @@ string outputDir = "Your Document Directory";
 // 주석을 내보내어 HTML로 통합 문서를 저장합니다.
 wb.Save(outputDir + "outputExportCommentsHTML.html", opts);
 ```
- 이 단계에서는 Excel 파일을 HTML 문서로 저장하고 주석도 함께 내보냅니다. 그냥 바꾸기만 하면 됩니다.`"Your Document Directory"` HTML 파일을 저장하려는 실제 디렉토리를 입력합니다.
+ 이 단계에서는 Excel 파일을 HTML 문서로 저장하고 주석도 함께 내보냅니다. 그냥 바꾸기만 하면 됩니다.`"Your Document Directory"`HTML 파일을 저장하려는 실제 디렉토리를 입력합니다.
 ## 5단계: 애플리케이션 실행
 이제 모든 것이 설정되었으니, 애플리케이션을 실행할 시간입니다. 터미널(또는 Visual Studio의 출력 창)을 열면 다음과 같은 내용이 표시됩니다.
 ```plaintext
@@ -70,7 +70,7 @@ ExportCommentsWhileSavingExcelFileToHtml executed successfully.
 이제 다 봤습니다! Aspose.Cells for .NET을 사용하여 Excel 파일에서 HTML로 주석을 내보내는 방법을 방금 배웠습니다. 이 프로세스는 간단할 뿐만 아니라 HTML로 변환할 때 중요한 메모나 주석이 하나도 남지 않도록 보장합니다. 동적 보고서를 생성하든 단순히 웹에서 사용할 수 있도록 Excel 파일을 변환하든 이 기능은 정말 생명의 은인이 될 수 있습니다.
 ## 자주 묻는 질문
 ### Excel 파일에서 특정 댓글만 HTML로 내보낼 수 있나요?  
- 아니요, Aspose.Cells는 모든 주석을 내보냅니다.`IsExportComments` true로 설정됩니다. 그러나 내보내기 전에 Excel 파일을 수동으로 수정하여 포함할 주석을 사용자 지정할 수 있습니다.
+아니요, Aspose.Cells는 모든 주석을 내보냅니다.`IsExportComments` true로 설정됩니다. 그러나 내보내기 전에 Excel 파일을 수동으로 수정하여 포함할 주석을 사용자 지정할 수 있습니다.
 ### 주석을 내보내면 HTML 파일의 레이아웃에 영향을 미칩니까?  
 전혀 그렇지 않습니다! Aspose.Cells는 주석이 HTML 파일에 추가 요소로 추가되는 동안 레이아웃이 그대로 유지되도록 보장합니다.
 ### PDF나 Word 등 다른 형식으로 주석을 내보낼 수 있나요?  

@@ -12,7 +12,7 @@ url: /es/net/loading-and-saving-excel-files-with-options/disabling-downlevel-rev
 Al final de este artículo, comprenderá claramente cómo utilizar esta función y se asegurará de que su salida HTML esté limpia y sin comentarios.
 ## Prerrequisitos
 Antes de sumergirnos en la guía paso a paso, cubramos algunas cosas que necesitará tener en cuenta para seguirla sin problemas:
-1.  Aspose.Cells para .NET: Necesitará tener instalada la biblioteca Aspose.Cells. Si aún no la ha instalado, puede descargarla[aquí](https://releases.aspose.com/cells/net/).
+1. Aspose.Cells para .NET: Necesitará tener instalada la biblioteca Aspose.Cells. Si aún no la ha instalado, puede descargarla[aquí](https://releases.aspose.com/cells/net/).
 2. IDE: Un entorno de desarrollo como Visual Studio para escribir y ejecutar su código C#.
 3. Conocimientos básicos de C#: la familiaridad con la sintaxis de C# y la programación orientada a objetos le ayudará a seguir el código.
 4.  Versión temporal o con licencia: puede utilizar la versión de prueba gratuita o solicitar una licencia temporal desde[aquí](https://purchase.aspose.com/temporary-license/)Esto garantiza que la biblioteca funcione sin limitaciones.

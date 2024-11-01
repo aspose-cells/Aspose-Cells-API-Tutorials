@@ -84,7 +84,7 @@ PageSetup pagesetup = ws0.PageSetup;
 //Az első öt sor minden oldalon megismétlődik
 pagesetup.PrintTitleRows = "$1:$5";
 ```
- Ez a rész határozza meg, hogyan kerüljön nyomtatásra a dokumentum. Beállítással`PrintTitleRows`, biztosítjuk, hogy az első öt sor minden nyomtatott oldalon megjelenjen, ami rendkívül hasznos az olvashatóság szempontjából.
+ Ez a rész határozza meg, hogyan kerüljön nyomtatásra a dokumentum. Beállítás által`PrintTitleRows`, biztosítjuk, hogy az első öt sor minden nyomtatott oldalon megjelenjen, ami rendkívül hasznos az olvashatóság szempontjából.
 
 ## 4. lépés: Hozd létre a második munkafüzetet
 

@@ -92,7 +92,7 @@ cell.SetStyle(style);
 ```
 Vaše stylové okraje jsou nyní součástí buňky "A1".
 ## Krok 9: Uložte sešit
-Konečně je čas uložit si práci. Pojďme to zapsat do souboru!
+Konečně je čas uložit si práci. Zapišme to do souboru!
 ```csharp
 workbook.Save(dataDir + "book1.out.xls");
 ```

@@ -97,7 +97,7 @@ La frequenza di aggiornamento dei dati dipende dal tuo caso d'uso specifico. Puo
 
 ### 4. Esistono limitazioni alle dimensioni dei report dinamici?
 
-La dimensione dei tuoi report dinamici potrebbe essere limitata dalla memoria disponibile e dalle risorse di sistema. Tieni presente le considerazioni sulle prestazioni quando hai a che fare con grandi set di dati.
+La dimensione dei tuoi report dinamici potrebbe essere limitata dalla memoria disponibile e dalle risorse di sistema. Sii consapevole delle considerazioni sulle prestazioni quando hai a che fare con grandi set di dati.
 
 ### 5. Posso esportare report dinamici in altri formati?
 

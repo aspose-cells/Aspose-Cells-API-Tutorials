@@ -101,7 +101,7 @@ chart.NSeries[0].Area.FillFormat.FillType = Aspose.Cells.Drawing.FillType.Solid;
 ต่อไป เราจะต้องกำหนดสีสำหรับพื้นที่เติมของแผนภูมิ นี่คือวิธีที่เราทำให้สีที่เราเลือกมีชีวิตชีวา
 
 ```csharp
-// รับ CellsColor ของ SolidFill
+//รับ CellsColor ของ SolidFill
 CellsColor cc = chart.NSeries[0].Area.FillFormat.SolidFill.CellsColor;
 ```
 

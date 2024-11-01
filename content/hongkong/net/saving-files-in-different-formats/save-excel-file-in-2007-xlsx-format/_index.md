@@ -8,11 +8,11 @@ weight: 12
 url: /zh-hant/net/saving-files-in-different-formats/save-excel-file-in-2007-xlsx-format/
 ---
 ## 介紹
-您是否曾經發現自己在處理複雜的 Excel 文件格式時感到困惑並在翻譯中迷失方向？嗯，你並不孤單！瀏覽各種 Excel 格式有時感覺就像破解一門外語。但不要害怕！在本指南中，我們將踏上一段旅程，簡化使用 Aspose.Cells for .NET 以廣泛使用的 2007 XLSX 格式儲存 Excel 檔案的過程。透過我們的逐步方法，您很快就會掌握 Excel 文件操作的藝術。讓我們深入了解 Aspose.Cells 的奇妙世界並解鎖其奇妙的功能！
+您是否曾經發現自己在處理複雜的 Excel 文件格式時感到困惑並在翻譯中迷失方向？嗯，你並不孤單！瀏覽各種 Excel 格式有時感覺就像破解一門外語。但不要害怕！在本指南中，我們將踏上一段旅程，簡化使用 Aspose.Cells for .NET 以廣泛使用的 2007 XLSX 格式儲存 Excel 檔案的過程。透過我們的逐步方法，您很快就會掌握 Excel 檔案操作的技巧。讓我們深入了解 Aspose.Cells 的奇妙世界並解鎖其奇妙的功能！
 ## 先決條件
 在我們深入討論細節之前，您需要滿足幾個先決條件：
 1. Visual Studio - 確保您的系統上安裝了 Visual Studio。它將幫助您輕鬆編寫和執行 C# 程式碼。
-2.  Aspose.Cells 函式庫 - 您將需要 Aspose.Cells for .NET 函式庫。您可以輕鬆地從[Aspose Cells 發佈頁面](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells 函式庫 - 您將需要 Aspose.Cells for .NET 函式庫。您可以輕鬆地從[Aspose Cells 發佈頁面](https://releases.aspose.com/cells/net/).
 3. 基本程式設計知識 - 熟悉 C# 和 .NET 將增強您對我們將要介紹的程式碼片段的理解。
 4. 測試文件目錄 - 建立或決定用於儲存和測試 Excel 文件的資料夾。在本教程中，我們將其稱為「您的文件目錄」。
 一切就緒後，您就可以展示您的技能了！

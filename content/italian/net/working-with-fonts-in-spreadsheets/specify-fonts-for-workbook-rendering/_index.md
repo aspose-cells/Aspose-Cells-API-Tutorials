@@ -12,7 +12,7 @@ Quando si tratta di gestire e rendere programmaticamente file Excel, Aspose.Cell
 ## Prerequisiti
 Prima di immergerci nell'entusiasmante mondo di Aspose.Cells e della personalizzazione dei font, assicuriamoci di avere tutto il necessario per iniziare:
 1. Conoscenza di base di .NET: la familiarità con la programmazione .NET è fondamentale poiché lavoreremo in un ambiente .NET.
-2.  Aspose.Cells per .NET: assicurati di avere installata la libreria Aspose.Cells. Puoi scaricarla[Qui](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells per .NET: assicurati di avere installata la libreria Aspose.Cells. Puoi scaricarla[Qui](https://releases.aspose.com/cells/net/).
 3. Visual Studio: questa guida presuppone che tu stia utilizzando Visual Studio come IDE. Assicurati di averlo installato e configurato.
 4. File Excel di esempio: tieni pronto un file Excel di esempio per questo tutorial. Ciò renderà più facile capire come i font personalizzati influenzano l'output di rendering.
 5. Font personalizzati: prepara una directory dei font personalizzati che vuoi usare. Questo è fondamentale per testare il nostro processo di rendering.
@@ -41,7 +41,7 @@ string outputDir = "Your Document Directory";
 string customFontsDir = sourceDir + "CustomFonts";
 ```
 
-Immagina di avere un archivio pieno di documenti importanti (in questo caso, file Excel). Impostare le directory è come organizzare quell'archivio; ti assicura di sapere esattamente dove sono archiviati i tuoi file. Definendo il`sourceDir`, `outputDir` , E`customFontsDir`, stai preparando uno spazio di lavoro che renderà il tuo codice più pulito e gestibile.
+ Immagina di avere un archivio pieno di documenti importanti (in questo caso, file Excel). Impostare le directory è come organizzare quell'archivio; ti assicura di sapere esattamente dove sono archiviati i tuoi file. Definendo il`sourceDir`, `outputDir` , E`customFontsDir`, stai preparando uno spazio di lavoro che renderà il tuo codice più pulito e gestibile.
 ## Passaggio 2: specificare le configurazioni dei singoli font
 Successivamente, dobbiamo creare configurazioni di font individuali. Questo passaggio è fondamentale per dire ad Aspose.Cells dove trovare i tuoi font personalizzati.
 ```csharp
@@ -49,7 +49,7 @@ Successivamente, dobbiamo creare configurazioni di font individuali. Questo pass
 IndividualFontConfigs fontConfigs = new IndividualFontConfigs();
 fontConfigs.SetFontFolder(customFontsDir, false);
 ```
- Pensa a questo passaggio come a dare indicazioni a un amico che sta cercando di trovare una caffetteria specifica. Specificando il`customFontsDir`, stai indicando ad Aspose.Cells la posizione esatta dei tuoi font. Se la direzione è sbagliata (o se i font non ci sono), potresti ritrovarti con un output PDF insoddisfacente. Quindi, assicurati che la directory dei font sia accurata!
+ Pensa a questo passaggio come a dare indicazioni a un amico che sta cercando di trovare una caffetteria specifica. Specificando il`customFontsDir`stai indicando ad Aspose.Cells la posizione esatta dei tuoi font. Se la direzione è sbagliata (o se i font non ci sono), potresti ritrovarti con un output PDF insoddisfacente. Quindi, assicurati che la directory dei font sia accurata!
 ## Passaggio 3: imposta le opzioni di caricamento
 Adesso è il momento di definire le opzioni di caricamento che integrano le impostazioni del font nella cartella di lavoro.
 ```csharp
@@ -64,11 +64,11 @@ Una volta impostate le opzioni di caricamento, carichiamo il file Excel che inte
 // Caricare il file Excel di esempio con le singole configurazioni dei font.
 Workbook wb = new Workbook(sourceDir + "sampleSpecifyIndividualOrPrivateSetOfFontsForWorkbookRendering.xlsx", opts);
 ```
- Questo passaggio è simile all'apertura del tuo libro preferito. Qui, stai dicendo ad Aspose.Cells con quale file Excel lavorare. Utilizzando`Workbook` classe e le opzioni di caricamento specificate, in pratica stai aprendo la copertina e ti immergi nel contenuto, pronto ad apportare modifiche.
+ Questo passaggio è simile all'apertura del tuo libro preferito. Qui, stai dicendo ad Aspose.Cells con quale file Excel lavorare. Utilizzando`Workbook`classe e le opzioni di caricamento specificate, in pratica stai aprendo la copertina e ti immergi nel contenuto, pronto ad apportare modifiche.
 ## Passaggio 5: salvare la cartella di lavoro nel formato desiderato
 Infine, è il momento di salvare la cartella di lavoro modificata nel formato desiderato (in questo caso PDF).
 ```csharp
-//Salva in formato PDF.
+// Salva in formato PDF.
 wb.Save(outputDir + "outputSpecifyIndividualOrPrivateSetOfFontsForWorkbookRendering.pdf", SaveFormat.Pdf);
 ```
 È come rimettere il tuo libro sullo scaffale dopo averlo letto, ma ora è in un formato diverso. Salvando la cartella di lavoro in formato PDF, ti assicuri che il rendering venga eseguito con i font specificati intatti, rendendolo presentabile e professionale.

@@ -12,7 +12,7 @@ Khi làm việc với các tệp Excel trong .NET, thư viện Aspose.Cells nổ
 ## Điều kiện tiên quyết
 Trước khi đi sâu vào mã, chúng ta hãy cùng trang bị cho bạn mọi thứ cần thiết để theo dõi một cách liền mạch. Sau đây là những gì bạn cần có:
 1. Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio trên máy của mình. Đây là nơi chúng ta sẽ viết và thử nghiệm ứng dụng .NET của mình.
-2. Thư viện Aspose.Cells: Bạn sẽ cần tải xuống thư viện Aspose.Cells. Bạn có thể tải xuống phiên bản mới nhất[đây](https://releases.aspose.com/cells/net/).
+2.  Thư viện Aspose.Cells: Bạn sẽ cần tải xuống thư viện Aspose.Cells. Bạn có thể tải xuống phiên bản mới nhất[đây](https://releases.aspose.com/cells/net/).
 3. .NET Framework: Đảm bảo bạn có phiên bản .NET Framework tương thích với Aspose.Cells, thường hoạt động với .NET Framework 4.0 trở lên.
 4. Hiểu biết cơ bản về C#: Nắm vững cơ bản về lập trình C# sẽ có lợi. Đừng lo lắng; chúng tôi sẽ giải thích mọi thứ từng bước một!
 5.  Đường dẫn tệp: Quyết định nơi bạn muốn lưu các tệp đầu ra. Tạo một thư mục có tên`Your Document Directory` để đơn giản.
@@ -47,9 +47,9 @@ Khi tải sổ làm việc, bạn đang nói rằng, "Này, tôi muốn làm vi�
 // Lưu ở định dạng Excel 97–2003
 workbook.Save(dataDir + "output.xls");
 ```
- Dòng này lưu sổ làm việc của bạn bằng cách sử dụng`.xls`phần mở rộng, là định dạng Excel dành cho các phiên bản trước năm 2007. Giống như việc gửi thư qua dịch vụ bưu chính để đảm bảo thư đến được người nhận lớn tuổi hơn!
+ Dòng này lưu sổ làm việc của bạn bằng cách sử dụng`.xls` phần mở rộng, là định dạng Excel dành cho các phiên bản trước năm 2007. Giống như việc gửi thư qua dịch vụ bưu chính để đảm bảo thư đến được người nhận lớn tuổi hơn!
 ## Bước 4: Lưu ở định dạng Excel 2007
- Nếu bạn muốn sử dụng các tính năng từ Excel 2007 trở lên, hãy lưu trong`.xlsx` định dạng là cách để thực hiện. Đây là cách thực hiện:
+Nếu bạn muốn sử dụng các tính năng từ Excel 2007 trở lên, hãy lưu trong`.xlsx` định dạng là cách để thực hiện. Đây là cách thực hiện:
 ```csharp
 // Lưu ở định dạng Excel 2007 xlsx
 workbook.Save(dataDir + "output.xlsx");

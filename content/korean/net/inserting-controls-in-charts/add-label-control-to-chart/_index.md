@@ -16,7 +16,7 @@ url: /ko/net/inserting-controls-in-charts/add-label-control-to-chart/
 자세한 내용을 살펴보기 전에 시작하는 데 필요한 사항을 살펴보겠습니다.
 
 - C#의 기본 지식: C# 프로그래밍의 기본을 이해하는 것이 중요합니다. 초보자라면 걱정하지 마세요. 단계가 명확하고 간결할 것입니다.
--  Aspose.Cells 라이브러리: Aspose.Cells 라이브러리가 설치되어 있는지 확인하세요. Visual Studio의 NuGet 패키지 관리자를 통해 이 작업을 수행할 수 있습니다. 아직 설치하지 않았다면 다음을 확인하세요.[다운로드 링크](https://releases.aspose.com/cells/net/) 도서관을 위해서.
+- Aspose.Cells 라이브러리: Aspose.Cells 라이브러리가 설치되어 있는지 확인하세요. Visual Studio의 NuGet 패키지 관리자를 통해 이 작업을 수행할 수 있습니다. 아직 설치하지 않았다면 다음을 확인하세요.[다운로드 링크](https://releases.aspose.com/cells/net/) 도서관을 위해서.
 - Visual Studio: 코드를 작성하고 실행하려면 Visual Studio와 같은 통합 개발 환경(IDE)이 필요합니다.
 
 ## 패키지 가져오기

@@ -16,7 +16,7 @@ Grafieken zijn een krachtige manier om gegevens te visualiseren en soms kan het 
 Voordat we in de details duiken, leggen we eerst uit wat je nodig hebt om te beginnen:
 
 - Basiskennis van C#: Het is cruciaal om de basis van C#-programmering te begrijpen. Als u een beginner bent, maak u dan geen zorgen – de stappen zullen duidelijk en beknopt zijn.
--  Aspose.Cells-bibliotheek: zorg ervoor dat u de Aspose.Cells-bibliotheek hebt geïnstalleerd. U kunt dit doen via NuGet Package Manager in Visual Studio. Als u dat nog niet hebt gedaan, bekijk dan de[downloadlink](https://releases.aspose.com/cells/net/) voor de bibliotheek.
+- Aspose.Cells-bibliotheek: zorg ervoor dat u de Aspose.Cells-bibliotheek hebt geïnstalleerd. U kunt dit doen via NuGet Package Manager in Visual Studio. Als u dat nog niet hebt gedaan, bekijk dan de[downloadlink](https://releases.aspose.com/cells/net/) voor de bibliotheek.
 - Visual Studio: U hebt een geïntegreerde ontwikkelomgeving (IDE) zoals Visual Studio nodig om uw code te schrijven en uit te voeren.
 
 ## Pakketten importeren
@@ -152,7 +152,7 @@ Ja! U kunt het lettertype, de kleur, de grootte en andere eigenschappen van het 
  Aspose.Cells is een betaald product, maar u kunt beginnen met een[gratis proefperiode](https://releases.aspose.com/) om de kenmerken ervan te verkennen.
 
 ### Wat als ik meerdere labels wil toevoegen?
-U kunt de stappen voor het toevoegen van labels zo vaak herhalen als nodig is, telkens met een andere positie en tekst.
+kunt de stappen voor het toevoegen van labels zo vaak herhalen als nodig is, telkens met een andere positie en tekst.
 
 ### Wordt het label verplaatst als de grafiekgegevens veranderen?
 Als u het plaatsingstype instelt op vast, beweegt het met de grafiekgegevens mee. Als het vrij zwevend is, blijft het op de opgegeven positie.

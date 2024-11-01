@@ -37,7 +37,7 @@ Workbook workbook = new Workbook(dataDir + "sample-document-properties.xlsx");
 ```
  Itt betöltjük az adott Excel fájlunkat,`"sample-document-properties.xlsx"`. Nagyon fontos, hogy ez a fájl a megadott könyvtárban legyen, különben hibákba ütközhet.
 ## 3. lépés: Az egyéni dokumentum tulajdonságainak lekérése
-A munkafüzet betöltése után hozzáférhetünk a tulajdonságok kincséhez. Nézzük meg, hogyan érheti el ezeket a tulajdonságokat:
+A munkafüzet betöltése után hozzáférhetünk a tulajdonságok tárházához. Nézzük meg, hogyan érheti el ezeket a tulajdonságokat:
 ```csharp
 Aspose.Cells.Properties.DocumentPropertyCollection customProperties = workbook.Worksheets.CustomDocumentProperties;
 ```

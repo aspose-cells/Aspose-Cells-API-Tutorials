@@ -40,7 +40,7 @@ Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
-## 步驟 4：定義自訂驗證標準
+## 第 4 步：定義自訂驗證標準
 
 在此步驟中，我們將定義資料必須遵守的自訂驗證標準。假設我們要將儲存格中輸入的年齡限制在 18 歲到 60 歲之間。
 

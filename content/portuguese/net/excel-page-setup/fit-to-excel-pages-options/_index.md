@@ -16,11 +16,11 @@ Bem-vindo ao guia definitivo sobre como utilizar a poderosa biblioteca Aspose.Ce
 Antes de pular para a codificação, vamos garantir que você tenha tudo o que precisa para começar. Aqui está o que você deve ter em mãos:
 
 1. Visual Studio: Certifique-se de ter o Visual Studio instalado na sua máquina. Este é seu hub principal para todo o trabalho de desenvolvimento.
-2. Aspose.Cells para .NET: Você precisa ter a biblioteca Aspose.Cells baixada e adicionada ao seu projeto. Você pode obtê-la facilmente do[Site Aspose](https://releases.aspose.com/cells/net/).
-3. Conhecimento básico de C#: Familiaridade com programação em C# ajudará imensamente. Se você consegue lidar com variáveis, loops e E/S de arquivo básico, você estará em casa.
+2.  Aspose.Cells para .NET: Você precisa ter a biblioteca Aspose.Cells baixada e adicionada ao seu projeto. Você pode obtê-la facilmente do[Site Aspose](https://releases.aspose.com/cells/net/).
+3. Conhecimento básico de C#: Familiaridade com programação em C# ajudará imensamente. Se você consegue lidar com variáveis, loops e E/S de arquivo básico, você se sentirá em casa.
 4. .NET Framework: certifique-se de que seu projeto esteja configurado com a versão apropriada do .NET Framework, pois a biblioteca foi projetada para compatibilidade com esse ecossistema.
 
-Tem tudo pronto? Incrível, vamos para a parte divertida!
+Tem tudo pronto? Ótimo, vamos para a parte divertida!
 
 ## Importando Pacotes
 
@@ -69,7 +69,7 @@ Agora, vamos definir os parâmetros para ajustar sua planilha em páginas espec�
 ```csharp
 // Definir o número de páginas em que o comprimento da planilha será abrangido
 worksheet.PageSetup.FitToPagesTall = 1;
-// Definir o número de páginas em que a largura da planilha será estendida
+//Definir o número de páginas em que a largura da planilha será estendida
 worksheet.PageSetup.FitToPagesWide = 1;
 ```
 
@@ -89,7 +89,7 @@ workbook.Save(dataDir + "FitToPagesOptions_out.xls");
 
 ## Conclusão
 
-E aí está! Você aprendeu como utilizar as Opções de Ajustar às Páginas do Excel no Aspose.Cells para .NET para garantir que suas planilhas fiquem impecáveis quando impressas ou compartilhadas. Dominar essas técnicas pode agilizar suas apresentações de dados e melhorar sua eficiência geral ao trabalhar com documentos do Excel. Lembre-se, o poder do Aspose.Cells permite que você expanda os limites do que é possível na automação do Excel. 
+aí está! Você aprendeu como utilizar as Opções de Ajustar às Páginas do Excel no Aspose.Cells para .NET para garantir que suas planilhas fiquem impecáveis quando impressas ou compartilhadas. Dominar essas técnicas pode agilizar suas apresentações de dados e melhorar sua eficiência geral ao trabalhar com documentos do Excel. Lembre-se, o poder do Aspose.Cells permite que você expanda os limites do que é possível na automação do Excel. 
 
 ## Perguntas frequentes
 

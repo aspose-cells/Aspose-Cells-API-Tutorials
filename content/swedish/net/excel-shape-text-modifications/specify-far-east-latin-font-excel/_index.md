@@ -74,7 +74,7 @@ Nu kommer den spännande delen! Vi kommer att ställa in både latinska och Fjä
 tb.TextOptions.LatinName = "Comic Sans MS"; // Detta är vårt valda latinska teckensnitt.
 tb.TextOptions.FarEastName = "KaiTi"; // Detta är vårt önskade typsnitt i Fjärran Östern.
 ```
-## Steg 7: Spara utdata Excel-filen
+## Steg 7: Spara Excel-filen
 Till sist, låt oss spara vår arbetsbok! Detta steg avslutar vår uppgift och säkerställer att allt hårt arbete vi har gjort sparas ordentligt. 
 ```csharp
 // Spara den utgående Excel-filen.

@@ -90,4 +90,4 @@ In diesem Tutorial haben wir gelernt, wie man Diagrammanimationen mit der Aspose
 
 ### Was ist der Zweck der Animationsverzögerung?
 
- Die Animationsverzögerung bestimmt die Zeitspanne, bevor die Diagrammanimation startet. Verwenden Sie die`setAnimationDelay`Methode, um die Verzögerung in Millisekunden einzustellen.
+ Die Animationsverzögerung bestimmt die Zeitspanne, bevor die Diagrammanimation startet. Verwenden Sie die`setAnimationDelay` Methode, um die Verzögerung in Millisekunden einzustellen.

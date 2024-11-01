@@ -15,7 +15,7 @@ Než se pustíme do hrubšího kódu, ujistěte se, že máte vše, co potřebuj
 1. Visual Studio: Ujistěte se, že máte na svém počítači nainstalované Visual Studio. Toto bude vaše vývojové prostředí.
 2.  Aspose.Cells for .NET: Stáhněte si knihovnu Aspose.Cells z[webové stránky](https://releases.aspose.com/cells/net/). Můžete také začít s bezplatnou zkušební verzí a otestovat její funkce.
 3. Základní znalost C#: Znalost programování v C# vám pomůže lépe porozumět úryvkům kódu.
-4. Soubor Excel: Připravte soubor Excel pro převod. V tomto příkladu použijeme soubor s názvem`Book1.xlsx`.
+4.  Soubor Excel: Připravte soubor Excel pro převod. V tomto příkladu použijeme soubor s názvem`Book1.xlsx`.
 Nyní, když máte seřazené předpoklady, pojďme se pustit do té zábavné části – importu potřebných balíčků a psaní kódu!
 ## Importujte balíčky
 Chcete-li začít, musíte importovat požadované jmenné prostory do souboru C#. To je zásadní, protože vám to umožňuje přístup ke třídám a metodám poskytovaným knihovnou Aspose.Cells.
@@ -32,7 +32,7 @@ using Aspose.Cells.Charts;
 ```
 Tyto jmenné prostory vám umožní přístup ke třídě Workbook a dalším základním funkcím.
 
-Nyní, když máme naše balíčky naimportované, pojďme si rozebrat proces převodu souboru Excel do PDF při nastavování času vytvoření.
+Nyní, když máme naše balíčky naimportovány, pojďme si rozebrat proces převodu souboru Excel do PDF při nastavování času vytvoření.
 ## Krok 1: Definujte adresář dokumentů
 Nejprve musíte určit adresář, kde jsou vaše dokumenty uloženy. Zde se nachází váš soubor Excel a kam se uloží výstupní PDF.
 ```csharp

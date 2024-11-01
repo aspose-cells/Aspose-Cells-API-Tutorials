@@ -118,4 +118,4 @@ Bạn có thể lưu tệp ở các định dạng như .xls, .xlsx, .csv và nh
 
 ### Có cộng đồng nào hỗ trợ Aspose không?
 
-Chắc chắn rồi! Bạn có thể truy cập diễn đàn cộng đồng Aspose để được hỗ trợ và thảo luận[đây](https://forum.aspose.com/c/cells/9).
+ Chắc chắn rồi! Bạn có thể truy cập diễn đàn cộng đồng Aspose để được hỗ trợ và thảo luận[đây](https://forum.aspose.com/c/cells/9).

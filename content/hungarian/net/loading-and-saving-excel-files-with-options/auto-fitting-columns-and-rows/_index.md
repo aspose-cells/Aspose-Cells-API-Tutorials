@@ -12,7 +12,7 @@ Gondolkozott már azon, hogyan állíthatja be automatikusan az oszlop- és sorm
 ### Előfeltételek
 Mielőtt belevágna a kódba, néhány dolgot be kell állítania a rendszeren. Ne aggódjon, ez egyszerű és egyértelmű!
 1. Visual Studio telepítve: Szüksége lesz a Visual Studiora vagy bármely más .NET fejlesztői környezetre.
-2.  Aspose.Cells for .NET: Megteheti[töltse le a legújabb verziót](https://releases.aspose.com/cells/net/)vagy használja a NuGet csomagkezelőt a telepítéshez.
+2.  Aspose.Cells for .NET: Megteheti[töltse le a legújabb verziót](https://releases.aspose.com/cells/net/) vagy használja a NuGet csomagkezelőt a telepítéshez.
 3. .NET-keretrendszer: Győződjön meg arról, hogy telepítve van a .NET-keretrendszer 4.0-s vagy újabb verziója.
 4. A C# alapvető ismerete: A C# ismeretekkel simábbá teheti ezt az oktatóanyagot.
 5. HTML-táblaadatok: Készítsen néhány HTML-tartalmat (akár egy alaptáblázatot is), amelyet be szeretne tölteni az Excelbe.
@@ -44,9 +44,9 @@ Itt egy nagyon egyszerű HTML karakterláncot határozunk meg. Tartalmaz egy tá
 ```csharp
 MemoryStream ms = new MemoryStream(Encoding.UTF8.GetBytes(sampleHtml));
 ```
- A HTML karakterlánc bájttömbbé alakításával és a`MemoryStream`dolgozhatunk a memóriában lévő HTML adatokkal. Képzelje el ezt a lépést úgy, hogy az ételt egy edényben készíti el, mielőtt a sütőbe tenné!
+ A HTML karakterlánc bájttömbbé alakításával és a`MemoryStream`, dolgozhatunk a memóriában lévő HTML adatokkal. Képzelje el ezt a lépést úgy, hogy az ételt egy edényben készíti el, mielőtt a sütőbe tenné!
 ## 4. lépés: A MemoryStream betöltése egy munkafüzetbe (automatikus illesztés nélkül)
- Miután megvan a HTML-tartalom a memóriában, betöltjük egy Aspose-ba`Workbook`. Jelenleg még nem illesztjük automatikusan az oszlopokat és a sorokat. Ez a mi „előtte” forgatókönyvünk, hogy később összehasonlíthassuk az automatikusan beépített változattal.
+ Miután megvan a HTML-tartalom a memóriában, betöltjük egy Aspose-ba`Workbook`Jelenleg még nem illesztjük automatikusan az oszlopokat és a sorokat. Ez a mi „előtte” forgatókönyvünk, hogy később összehasonlíthassuk az automatikusan beépített változattal.
 ```csharp
 Workbook wb = new Workbook(ms);
 wb.Save(dataDir + "outputWithout_AutoFitColsAndRows.xlsx");
@@ -60,7 +60,7 @@ opts.AutoFitColsAndRows = true;
 ```
 Az opció beállításával azt utasítjuk az Aspose.Cells-re, hogy automatikusan átméretezze a sorokat és oszlopokat. Képzelje el ezt úgy, hogy a sütőt a tökéletes hőmérsékletre állítja be, hogy a sütemény megfelelően megkeljen!
 ## 6. lépés: Töltsön be HTML-t a munkafüzetbe automatikus illesztéssel
- Most újra betöltjük a HTML tartalmat, de ezúttal a`AutoFitColsAndRows` opció engedélyezve. Ezzel beállítja az oszlopok szélességét és a sorok magasságát a bennük lévő tartalom alapján.
+ Most újra betöltjük a HTML tartalmat, de ezúttal a`AutoFitColsAndRows`opció engedélyezve. Ezzel beállítja az oszlopok szélességét és a sorok magasságát a bennük lévő tartalom alapján.
 ```csharp
 wb = new Workbook(ms, opts);
 wb.Save(dataDir + "outputWith_AutoFitColsAndRows.xlsx");

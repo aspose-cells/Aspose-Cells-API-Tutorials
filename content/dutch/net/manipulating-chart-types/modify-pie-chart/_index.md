@@ -100,7 +100,7 @@ Laten we nu eens duiken in het specifieke blad dat het cirkeldiagram bevat. We g
 Worksheet sheet = workbook.Worksheets[1];
 ```
 
- Door toegang te krijgen tot de`Worksheets`verzameling, kunnen we naar het specifieke blad gaan dat we nodig hebben.
+ Door toegang te krijgen tot de`Worksheets` verzameling, kunnen we naar het specifieke blad gaan dat we nodig hebben.
 
 ## Stap 4: Haal de grafiek op
 

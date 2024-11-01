@@ -127,7 +127,7 @@ Ogni riga qui rappresenta un'opzione che migliora l'aspetto del documento una vo
 
 ## Passaggio 5: salvare la cartella di lavoro
 
-Dopo aver impostato tutto come desiderato, è finalmente giunto il momento di salvare la cartella di lavoro.
+Una volta impostato tutto come desiderato, è finalmente giunto il momento di salvare la cartella di lavoro.
 
 ```csharp
 // Salvare la cartella di lavoro.

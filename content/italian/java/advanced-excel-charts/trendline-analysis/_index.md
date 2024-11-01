@@ -28,7 +28,7 @@ Prima di iniziare, assicurati di disporre dei seguenti prerequisiti:
 ## Passaggio 2: caricare i dati
 
 ```java
-// Importare le librerie necessarie
+// Importa le librerie necessarie
 import com.aspose.cells.*;
 
 // Carica il file Excel

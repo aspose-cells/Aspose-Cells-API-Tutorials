@@ -134,4 +134,4 @@ XLSB ファイルは、スプレッドシート データをバイナリ形式�
 もちろんです! Aspose.Cells は、XLSX、CSV など、さまざまなファイル形式をサポートしています。
 
 ### 問題が発生した場合、どこでサポートを受けることができますか?  
- Asposeフォーラムからサポートを受けることができます[ここ](https://forum.aspose.com/c/cells/9).
+Asposeフォーラムからサポートを受けることができます[ここ](https://forum.aspose.com/c/cells/9).

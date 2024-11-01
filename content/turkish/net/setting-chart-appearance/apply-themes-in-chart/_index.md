@@ -99,7 +99,7 @@ Bu kod satırı, grafikteki ilk serinin düz dolgu kullanacak şekilde ayarlanma
  Artık dizimiz hazır olduğuna göre, rengini değiştirmemiz gerekiyor. Bu, bir dizi oluşturmayı içerir.`CellsColor` nesne ve bir tema rengi belirterek. Bu örnek için bir vurgu stili seçeceğiz.
 
 ```csharp
-// SolidFill'in CellsColor'ını alın
+//SolidFill'in CellsColor'ını alın
 CellsColor cc = chart.NSeries[0].Area.FillFormat.SolidFill.CellsColor;
 
 // Accent stilinde bir tema oluşturun
@@ -158,7 +158,7 @@ Aspose.Cells, geliştiricilerin Excel dosyalarını program aracılığıyla dü
 Aspose.Cells, Vurgu stilleri ve diğerleri de dahil olmak üzere çeşitli tema renklerini destekler.
 
 ### Birden fazla grafiğe tema uygulamak mümkün müdür?
- Kesinlikle! Döngüye girebilirsin`worksheet.Charts` ve ihtiyaç halinde temaları uygulayın.
+Kesinlikle! Döngüye girebilirsin`worksheet.Charts` ve ihtiyaç halinde temaları uygulayın.
 
 ### Aspose.Cells için desteği nereden alabilirim?
  Destek alabilir ve kullanıcı topluluğuyla etkileşim kurabilirsiniz[Burada](https://forum.aspose.com/c/cells/9).

@@ -105,7 +105,7 @@ sorter.SortAsNumber = true;
 
 Ez a lépés döntő! Gondoskodik arról, hogy a számokat numerikus értékként kezelje karakterláncok helyett, ami megakadályozza, hogy a rendezési problémák, például a „10” a „2” elé kerüljenek.
 
-## 8. lépés: Végezze el a rendezést
+## 8. lépés: Hajtsa végre a rendezést
 
 Most jöjjön a szórakoztató rész! Ideje rendezni a megadott cellaterületet az imént beállított rendezővel.
 

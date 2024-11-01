@@ -60,7 +60,7 @@ Ezután el kell érnünk az alakzatokat vagy megjegyzéseket tartalmazó konkré
 Worksheet ws = wb.Worksheets[0];
 ```
 Ez a kód az első munkalapot célozza meg, amelynek indexe 0.
-## 4. lépés: Iteráció alakzatokon keresztül
+## 4. lépés: Iterálás alakzatokon keresztül
 Most végig kell ismételnünk a munkalapon található összes alakzatot. Ez lehetővé teszi, hogy minden egyes talált alakzatra margóbeállításokat alkalmazzunk.
 ```csharp
 foreach (Shape sh in ws.Shapes)
@@ -72,7 +72,7 @@ Előfordulhat, hogy minden alakzatnak már van egy igazítási beállítása, am
 Aspose.Cells.Drawing.Texts.ShapeTextAlignment txtAlign = sh.TextBody.TextAlignment;
 txtAlign.IsAutoMargin = false;
 ```
- Beállítással`IsAutoMargin`hamisra, most már mi irányítjuk a margókat.
+ Beállítás által`IsAutoMargin`hamisra, most már mi irányítjuk a margókat.
 ## 6. lépés: Állítsa be a margókat
 Ez az a döntő lépés, ahol meghatározzuk a margókat. Ezeket az értékeket igényei szerint testreszabhatja.
 ```csharp

@@ -19,13 +19,13 @@ Bevor wir uns in den Code stürzen, stellen wir sicher, dass Sie alles haben, wa
 Obwohl Aspose.Cells viele Aufgaben vereinfacht, sind grundlegende Kenntnisse in C# unerlässlich. Sie sollten mit dem Lesen und Schreiben von grundlegendem C#-Code vertraut sein.
 
 ### Aspose.Cells für .NET
- Stellen Sie sicher, dass Aspose.Cells in Ihrem Projekt installiert ist. Sie können es von der[Webseite](https://releases.aspose.com/cells/net/) falls Sie das nicht bereits getan haben.
+Stellen Sie sicher, dass Aspose.Cells in Ihrem Projekt installiert ist. Sie können es von der[Webseite](https://releases.aspose.com/cells/net/) falls Sie das nicht bereits getan haben.
 
 ### Entwicklungsumgebung
 Sie sollten eine IDE wie Visual Studio eingerichtet haben. Diese führt Sie effektiv durch die Handhabung und das Testen Ihres Codes.
 
 ### Beispiel-Excel-Dateien
-Sie benötigen Beispieldateien (`samplePageSetupIsAutomaticPaperSize-False.xlsx` Und`samplePageSetupIsAutomaticPaperSize-True.xlsx`zu Testzwecken. Stellen Sie sicher, dass sich diese Dateien in Ihrem Quellverzeichnis befinden.
+Sie benötigen Beispieldateien (`samplePageSetupIsAutomaticPaperSize-False.xlsx` Und`samplePageSetupIsAutomaticPaperSize-True.xlsx`) zu Testzwecken. Stellen Sie sicher, dass sich diese Dateien in Ihrem Quellverzeichnis befinden.
 
 ## Pakete importieren
 
@@ -50,7 +50,7 @@ string sourceDir = "YOUR_SOURCE_DIRECTORY";
 string outputDir = "YOUR_OUTPUT_DIRECTORY";
 ```
 
- Ersetzen`YOUR_SOURCE_DIRECTORY` Und`YOUR_OUTPUT_DIRECTORY` durch die tatsächlichen Pfade auf Ihrem System, wo die Dateien gespeichert werden.
+ Ersetzen`YOUR_SOURCE_DIRECTORY` Und`YOUR_OUTPUT_DIRECTORY`durch die tatsächlichen Pfade auf Ihrem System, wo die Dateien gespeichert werden.
 
 ## Schritt 2: Laden Sie die Excel-Arbeitsmappen
 
@@ -104,10 +104,10 @@ Aspose.Cells ist eine .NET-Bibliothek für die programmgesteuerte Verwaltung von
 Ja! Aspose.Cells unterstützt plattformübergreifende Entwicklung, sodass Sie in verschiedenen Umgebungen arbeiten können, in denen .NET verfügbar ist.
 
 ### Benötige ich eine Lizenz für Aspose.Cells?
- Sie können mit einer kostenlosen Testversion beginnen, für die weitere Nutzung ist jedoch eine kostenpflichtige Lizenz erforderlich. Weitere Einzelheiten finden Sie hier[Hier](https://purchase.aspose.com/buy).
+Sie können mit einer kostenlosen Testversion beginnen, für die weitere Nutzung ist jedoch eine kostenpflichtige Lizenz erforderlich. Weitere Einzelheiten finden Sie hier[Hier](https://purchase.aspose.com/buy).
 
 ### Wie kann ich in C# überprüfen, ob die Papiergröße eines Arbeitsblatts automatisch ist?
-Wie im Handbuch gezeigt, können Sie die`IsAutomaticPaperSize` Eigentum der`PageSetup` Klasse.
+ Wie im Handbuch gezeigt, können Sie die`IsAutomaticPaperSize` Eigentum der`PageSetup` Klasse.
 
 ### Wo finde ich weitere Informationen zu Aspose.Cells?
  Ausführliche Dokumentationen und Tutorials finden Sie[Hier](https://reference.aspose.com/cells/net/).

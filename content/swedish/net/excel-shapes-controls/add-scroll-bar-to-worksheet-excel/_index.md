@@ -54,7 +54,7 @@ Tänk på kalkylbladet som ett rum i ditt hus, där alla dina dekorationer (elle
 ## Steg 4: Gör rutnätet osynliga
 För att ge ditt kalkylblad ett rent utseende, låt oss dölja standardrutnätslinjerna. Detta kommer att hjälpa till att betona de element du lägger till senare.
 ```csharp
-// Osynliga rutnätet i kalkylbladet.
+// Osynliga rutnätslinjerna i kalkylbladet.
 worksheet.IsGridlinesVisible = false;
 ```
 Detta steg handlar om estetik. Ett rent kalkylblad kan få din rullningslist att sticka ut.

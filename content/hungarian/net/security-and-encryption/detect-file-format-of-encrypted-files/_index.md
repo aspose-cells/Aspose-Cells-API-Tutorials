@@ -33,7 +33,7 @@ Mielőtt belemerülne a kódba, meg kell győződnie arról, hogy a könyvtársz
 // Forrás könyvtár
 string sourceDir = "Your Document Directory";
 ```
- Cserélje ki`"Your Document Directory"` a számítógépén lévő könyvtár tényleges elérési útjával, ahol a titkosított fájl található.
+ Cserélje ki`"Your Document Directory"` számítógépén lévő könyvtár tényleges elérési útjával, ahol a titkosított fájl található.
 ## 2. lépés: Készítse elő a titkosított fájlt
 
  Ebben a lépésben győződjön meg arról, hogy a megadott könyvtárban elérhető egy titkosított Excel-fájl. Itt feltételezzük, hogy a fájl neve`encryptedBook1.out.tmp`.
@@ -64,7 +64,7 @@ Console.WriteLine("File Format: " + fileFormatInfo.FileFormatType);
 ```
 
 ## Következtetés
-A titkosított Excel-fájlok fájlformátumának észlelése gyerekjáték az Aspose.Cells segítségével. Ezen egyszerű lépések követésével gyorsan megállapíthatja a formátumot, így időt és esetleges fejfájást takaríthat meg a jövőben. Akár alkalmazást fejleszt, akár csak egy gyors módszerre van szüksége a fájlformátumok ellenőrzéséhez, ennek az útmutatónak a helyes útra kell terelnie.
+titkosított Excel-fájlok fájlformátumának észlelése gyerekjáték az Aspose.Cells segítségével. Ezen egyszerű lépések követésével gyorsan megállapíthatja a formátumot, így időt és esetleges fejfájást takaríthat meg a jövőben. Akár alkalmazást fejleszt, akár csak egy gyors módszerre van szüksége a fájlformátumok ellenőrzéséhez, ennek az útmutatónak a helyes útra kell terelnie.
 ## GYIK
 ### Használhatom az Aspose.Cells-t az Exceltől eltérő formátumokhoz?
 Igen! Az Aspose.Cells az Excelre specializálódott, de különféle formátumokat is képes kezelni.
@@ -73,6 +73,6 @@ Teljesen! Használjon try-catch blokkokat a lehetséges kivételek kezelésére 
 ### Mi van, ha elfelejtem a jelszavamat?
 Sajnos jelszó nélkül nem érheti el a fájlformátumot.
 ### Letölthetem az Aspose.Cells ingyenes próbaverzióját?
-Igen, letölthet egy ingyenes próbaverziót[itt](https://releases.aspose.com/).
+ Igen, letölthet egy ingyenes próbaverziót[itt](https://releases.aspose.com/).
 ### Hol találok részletesebb dokumentációt?
  Megtekintheti az Aspose.Cells átfogó dokumentációját[itt](https://reference.aspose.com/cells/net/).

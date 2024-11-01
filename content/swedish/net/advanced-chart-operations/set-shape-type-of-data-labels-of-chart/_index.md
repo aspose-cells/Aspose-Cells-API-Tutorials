@@ -113,7 +113,7 @@ srs.DataLabels.ShapeType = DataLabelShapeType.WedgeEllipseCallout;
 
  Experimentera gärna med olika formtyper genom att byta`DataLabelShapeType.WedgeEllipseCallout` till andra tillgängliga alternativ!
 
-## Steg 7: Spara utdata Excel-filen
+## Steg 7: Spara Excel-filen
 
 Du har gjort det tunga arbetet, och nu är det dags att spara ditt arbete. Låt oss sätta tillbaka den modifierade dataetikettformen till en Excel-fil.
 

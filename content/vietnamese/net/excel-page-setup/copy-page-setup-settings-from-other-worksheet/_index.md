@@ -18,7 +18,7 @@ Trước khi tìm hiểu về mã, bạn cần phải có một số mục thi�
 1. Môi trường phát triển .NET: Đảm bảo bạn đã thiết lập môi trường tương thích với .NET, như Visual Studio hoặc bất kỳ IDE nào khác mà bạn chọn.
 2.  Thư viện Aspose.Cells: Bạn sẽ cần thư viện Aspose.Cells. Bạn có thể[tải xuống ở đây](https://releases.aspose.com/cells/net/).
 3. Hiểu biết cơ bản về C#: Biết những kiến thức cơ bản về C# chắc chắn sẽ giúp bạn nắm bắt các khái niệm tốt hơn.
-4.  Tài liệu Aspose.Cells: Làm quen với[tài liệu](https://reference.aspose.com/cells/net/)để biết bất kỳ cấu hình nâng cao hoặc tính năng bổ sung nào mà bạn có thể thấy hữu ích sau này.
+4.  Tài liệu Aspose.Cells: Làm quen với[tài liệu](https://reference.aspose.com/cells/net/) để biết bất kỳ cấu hình nâng cao hoặc tính năng bổ sung nào mà bạn có thể thấy hữu ích sau này.
 
 Bây giờ chúng ta đã sắp xếp xong các điều kiện tiên quyết, hãy nhập các gói cần thiết!
 
@@ -149,4 +149,4 @@ Aspose.Cells chủ yếu hỗ trợ các ngôn ngữ .NET, nhưng cũng có các
  Bạn có thể truy cập hỗ trợ thông qua[Diễn đàn Aspose](https://forum.aspose.com/c/cells/9).
 
 ### Tôi có thể nhận được giấy phép tạm thời cho Aspose.Cells không?  
- Chắc chắn rồi! Bạn có thể yêu cầu một[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để đánh giá sản phẩm.
+Chắc chắn rồi! Bạn có thể yêu cầu một[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để đánh giá sản phẩm.

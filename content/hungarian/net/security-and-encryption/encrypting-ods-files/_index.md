@@ -2,7 +2,7 @@
 title: ODS-fájlok titkosítása .NET-ben
 linktitle: ODS-fájlok titkosítása .NET-ben
 second_title: Aspose.Cells .NET Excel Processing API
-description: Ismerje meg az ODS-fájlok titkosítását és visszafejtését az Aspose.Cells for .NET használatával. Lépésről lépésre szóló útmutató az adatok biztonságához.
+description: Ismerje meg az ODS-fájlok titkosítását és visszafejtését az Aspose.Cells for .NET használatával. Lépésről lépésre szóló útmutató az adatok védelméhez.
 type: docs
 weight: 12
 url: /hu/net/security-and-encryption/encrypting-ods-files/

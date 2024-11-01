@@ -57,7 +57,7 @@ Door voorwaardelijke opmaak toe te voegen, kunnen we stijlen toepassen op basis 
 ## Stap 5: Stel het voorwaardelijke opmaakbereik in
 Vervolgens definiëren we het bereik van cellen waarop we de voorwaardelijke opmaak willen toepassen. Dit is alsof je zegt: "Hé, ik wil mijn regels op dit gebied toepassen." Zo kun je het bereik opgeven:
 ```csharp
-// Hiermee stelt u het voorwaardelijke opmaakbereik in.
+// Stelt het voorwaardelijke opmaakbereik in.
 CellArea ca = new CellArea();
 ca.StartRow = 0;
 ca.EndRow = 5;
@@ -93,7 +93,7 @@ workbook.Save(dataDir + "output.xlsx");
 ```
  Deze regel slaat uw Excel-bestand op als`output.xlsx` in de opgegeven directory. Zorg ervoor dat u schrijfrechten hebt op die locatie!
 ## Conclusie
-En daar heb je het! Je hebt zojuist geleerd hoe je lettertypestijlen programmatisch instelt in Excel met Aspose.Cells voor .NET. Van het definiëren van je documentdirectory tot het toepassen van voorwaardelijke opmaak en uiteindelijk het opslaan van je werk, je hebt nu de tools om je Excel-bestanden visueel aantrekkelijk en functioneel te maken.
+En daar heb je het! Je hebt zojuist geleerd hoe je lettertypestijlen programmatisch instelt in Excel met Aspose.Cells voor .NET. Van het definiëren van je documentdirectory tot het toepassen van voorwaardelijke opmaak en tot slot het opslaan van je werk, je hebt nu de tools om je Excel-bestanden visueel aantrekkelijk en functioneel te maken.
 Of u nu rapporten genereert, taken automatiseert of dashboards maakt: als u de kunst van het manipuleren van lettertypen onder de knie krijgt, kunt u van eenvoudige spreadsheets prachtige spreadsheets maken.
 ## Veelgestelde vragen
 ### Kan ik verschillende lettertypes gebruiken voor verschillende situaties?  

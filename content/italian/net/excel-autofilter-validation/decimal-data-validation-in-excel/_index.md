@@ -39,7 +39,7 @@ Ora che abbiamo impostato la scena, vediamo i passaggi necessari per creare la c
 
 ## Passaggio 1: imposta la directory dei documenti
 
-Prima di poter salvare qualsiasi file, è necessario assicurarsi che la directory dei documenti sia impostata correttamente:
+Prima di poter salvare qualsiasi file, devi assicurarti che la directory dei documenti sia impostata correttamente:
 
 ```csharp
 string dataDir = "Your Document Directory";

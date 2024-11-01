@@ -58,7 +58,7 @@ Workbook book = new Workbook(dataDir + "MyTestBook1.xls");
 // 첫 번째 워크시트를 받으세요.
 Worksheet sheet = book.Worksheets[0];
 ```
- 여기서 우리는 첫 번째 워크시트(인덱스)를 검색합니다.`0` ) 통합 문서에서. Aspose.Cells 배열은 0부터 인덱싱되므로 첫 번째 시트는`0`.
+ 여기서 우리는 첫 번째 워크시트(인덱스)를 검색합니다.`0` 통합 문서에서. Aspose.Cells 배열은 0부터 인덱싱되므로 첫 번째 시트는`0`.
 ## 6단계: 이미지 또는 인쇄 옵션 정의
  이미지를 렌더링하기 전에 다음을 사용하여 원하는 모양을 지정해야 합니다.`ImageOrPrintOptions`:
 ```csharp
@@ -82,7 +82,7 @@ Bitmap bitmap = sr.ToImage(0);
 ## 8단계: 이미지 저장
 렌더링 후에는 지정된 디렉토리에 이미지를 저장해야 합니다.
 ```csharp
-// 이미지 형식을 지정하여 이미지 파일을 저장합니다.
+//이미지 형식을 지정하여 이미지 파일을 저장합니다.
 bitmap.Save(dataDir + "SheetImage.out.jpg");
 ```
  여기서 우리는 생성한 비트맵 이미지를 저장합니다. 이 줄은 이미지를 다음에 씁니다.`dataDir` 파일 이름이 있는 위치`SheetImage.out.jpg`.
@@ -99,7 +99,7 @@ System.Console.WriteLine("Conversion to Image(s) completed.");
 ### Aspose.Cells란 무엇인가요?
 Aspose.Cells는 개발자가 Excel 파일을 프로그래밍 방식으로 만들고, 조작하고, 변환하고, 처리할 수 있는 .NET 라이브러리입니다.
 ### Aspose.Cells를 무료로 사용할 수 있나요?
-예, Aspose.Cells에서 무료 평가판을 다운로드하여 사용을 시작할 수 있습니다.[웹사이트](https://releases.aspose.com/).
+ 예, Aspose.Cells에서 무료 평가판을 다운로드하여 사용을 시작할 수 있습니다.[웹사이트](https://releases.aspose.com/).
 ### Aspose.Cells는 어떤 이미지 형식을 내보내는 것을 지원합니까?
 Aspose.Cells는 JPEG, PNG, BMP, GIF 등 다양한 이미지 형식을 지원합니다.
 ### Aspose.Cells에 대한 추가 지원은 어디에서 찾을 수 있나요?

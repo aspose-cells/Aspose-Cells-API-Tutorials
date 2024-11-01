@@ -8,7 +8,7 @@ weight: 15
 url: /zh-hant/java/excel-import-export/export-excel-to-xml-java/
 ---
 
-在本綜合指南中，我們將引導您完成使用 Aspose.Cells for Java 將 Excel 資料匯出為 XML 的過程。透過詳細的解釋和原始碼範例，您將立即掌握這項基本任務。
+在本綜合指南中，我們將引導您完成使用 Aspose.Cells for Java 將 Excel 資料匯出為 XML 的過程。透過詳細的解釋和原始程式碼範例，您將立即掌握這項基本任務。
 
 ## 先決條件
 

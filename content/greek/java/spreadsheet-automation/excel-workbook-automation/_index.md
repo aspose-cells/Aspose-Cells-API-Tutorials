@@ -1,6 +1,6 @@
 ---
-title: Αυτοματοποίηση βιβλίου εργασίας Excel
-linktitle: Αυτοματοποίηση βιβλίου εργασίας Excel
+title: Αυτοματοποίηση βιβλίου εργασίας του Excel
+linktitle: Αυτοματοποίηση βιβλίου εργασίας του Excel
 second_title: Aspose.Cells Java Excel Processing API
 description: Μάθετε την αυτοματοποίηση βιβλίου εργασίας του Excel σε Java με το Aspose.Cells. Δημιουργήστε, διαβάστε, ενημερώστε αρχεία Excel μέσω προγραμματισμού. Ξεκινήστε τώρα!
 type: docs

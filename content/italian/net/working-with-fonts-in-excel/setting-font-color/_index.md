@@ -95,7 +95,7 @@ cell.SetStyle(style);
 ```
 Questa riga aggiorna la cella con il nuovo stile appena definito, che include il nuovo colore del carattere.
 ## Passaggio 10: salva la tua cartella di lavoro
-Infine, dobbiamo salvare le nostre modifiche. È come premere il pulsante "Salva" sul tuo documento Word: vuoi conservare tutto quel duro lavoro!
+Infine, dobbiamo salvare le modifiche. È come premere il pulsante "Salva" sul tuo documento Word: vuoi conservare tutto quel duro lavoro!
 ```csharp
 // Salvataggio del file Excel
 workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);

@@ -16,7 +16,7 @@ Se till att du har Visual Studio på din dator. Det är där du kommer att koda 
 ### 2. .NET Framework eller .NET Core
 Se till att du har rätt .NET-version installerad. Aspose.Cells för .NET fungerar sömlöst med både .NET Framework och .NET Core.
 ### 3. Aspose.Cells Library
- Du behöver Aspose.Cells-biblioteket. Du kan ladda ner den[här](https://releases.aspose.com/cells/net/). Det är nödvändigt att ha detta i ditt projekt för att manipulera Excel-filer.
+Du behöver Aspose.Cells-biblioteket. Du kan ladda ner den[här](https://releases.aspose.com/cells/net/). Det är nödvändigt att ha detta i ditt projekt för att manipulera Excel-filer.
 ### 4. Grundläggande förståelse för C#
 Det är fördelaktigt, men inte obligatoriskt, att ha ett grepp om C#. Vi kommer att skriva kod som använder biblioteket för att manipulera en Excel-fil, och kunskap om C# hjälper dig att förstå den bättre.
 ### 5. En IDE att arbeta med

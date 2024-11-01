@@ -57,7 +57,7 @@ int i = workbook.Worksheets.Add();
 ## 第 5 步：取得新工作表的引用
 要使用我們剛剛新增的工作表，我們需要使用其索引來取得對它的參考。
 ```csharp
-//透過傳遞工作表索引來取得新新增的工作表的引用
+//透過傳遞工作表索引來取得新新增工作表的引用
 Worksheet worksheet = workbook.Worksheets[i];
 ```
 透過這一行，我們已經成功引用了新建立的工作表，現在可以開始操作它了。
@@ -104,7 +104,7 @@ workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
 ```
 在此行中，我們將名為「book1.out.xls」的工作簿儲存在我們先前指定的目錄中。請記住，`SaveFormat`可以根據您的要求進行調整！
 ## 結論
-現在你就得到它了！您已使用 Aspose.Cells for .NET 在 Excel 工作表中成功設定字體名稱。該庫使操作 Excel 文件變得簡單，允許高度自訂。透過執行這些步驟，您可以輕鬆修改電子表格的其他方面，根據您的需求建立具有專業外觀的文件。 
+現在你就擁有了！您已使用 Aspose.Cells for .NET 在 Excel 工作表中成功設定字體名稱。該庫使操作 Excel 文件變得簡單，允許高度自訂。透過執行這些步驟，您可以輕鬆修改電子表格的其他方面，根據您的需求建立具有專業外觀的文件。 
 ## 常見問題解答
 ### 我也可以更改字體大小嗎？  
 是的，您可以透過設定來修改字體大小`style.Font.Size = newSize;`在哪裡`newSize`是所需的字體大小。

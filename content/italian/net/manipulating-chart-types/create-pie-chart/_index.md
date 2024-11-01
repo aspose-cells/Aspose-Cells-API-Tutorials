@@ -19,7 +19,7 @@ Prima di immergerti nel codice, assicurati di aver impostato quanto segue:
 2. Ambiente di sviluppo .NET: assicurati che il tuo progetto sia configurato per utilizzare .NET Framework o .NET Core.
 3. Conoscenza di base di C#: dovresti avere dimestichezza con la programmazione C#, in particolare con la programmazione orientata agli oggetti (OOP).
 
-Per gli utenti avanzati, è possibile applicare una licenza temporanea per sbloccare tutte le funzionalità di Aspose.Cells. È possibile richiederne una da[Qui](https://purchase.aspose.com/temporary-license/).
+ Per gli utenti avanzati, è possibile applicare una licenza temporanea per sbloccare tutte le funzionalità di Aspose.Cells. È possibile richiederne una da[Qui](https://purchase.aspose.com/temporary-license/).
 
 ## Importa pacchetti
 
@@ -100,7 +100,7 @@ int chartIndex = chartSheet.Charts.Add(Aspose.Cells.Charts.ChartType.Pie, 5, 0, 
 Aspose.Cells.Charts.Chart chart = chartSheet.Charts[chartIndex];
 ```
 
- Il metodo`Add()` accetta parametri per il tipo di grafico (in questo caso,`ChartType.Pie`), e la sua posizione sul foglio di lavoro. I numeri rappresentano le posizioni di riga e colonna.
+ Il metodo`Add()`accetta parametri per il tipo di grafico (in questo caso,`ChartType.Pie`), e la sua posizione sul foglio di lavoro. I numeri rappresentano le posizioni di riga e colonna.
 
 ## Passaggio 5: personalizzare l'aspetto del grafico
 
@@ -179,7 +179,7 @@ workbook.Save(outputDir + "outputHowToCreatePieChart.xlsx");
 
 ## Conclusione
 
-Creare un grafico a torta con Aspose.Cells per .NET è un processo semplice e personalizzabile. Seguendo questa guida, puoi generare un grafico dall'aspetto professionale che trasmette informazioni preziose in pochi passaggi. Che si tratti di reporting aziendale o scopi didattici, padroneggiare la creazione di grafici migliorerà le tue competenze di automazione Excel. Ricorda, Aspose.Cells fornisce la flessibilità di cui hai bisogno per creare file Excel sbalorditivi e basati sui dati senza sforzo.
+Creare un grafico a torta con Aspose.Cells per .NET è un processo semplice e personalizzabile. Seguendo questa guida, puoi generare un grafico dall'aspetto professionale che trasmette informazioni preziose in pochi passaggi. Che si tratti di reporting aziendale o scopi educativi, padroneggiare la creazione di grafici migliorerà le tue competenze di automazione Excel. Ricorda, Aspose.Cells fornisce la flessibilità di cui hai bisogno per creare file Excel sbalorditivi e basati sui dati senza sforzo.
 
 ## Domande frequenti
 
@@ -187,7 +187,7 @@ Creare un grafico a torta con Aspose.Cells per .NET è un processo semplice e pe
 Sì! Aspose.Cells supporta vari tipi di grafici, tra cui grafici a barre, grafici a linee e grafici a dispersione.
 
 ### Ho bisogno di una licenza a pagamento per utilizzare Aspose.Cells per .NET?
- Puoi usare la versione gratuita con alcune limitazioni. Per le funzionalità complete, avrai bisogno di una licenza, che puoi acquistare[Qui](https://purchase.aspose.com/buy).
+Puoi usare la versione gratuita con alcune limitazioni. Per le funzionalità complete, avrai bisogno di una licenza, che puoi acquistare[Qui](https://purchase.aspose.com/buy).
 
 ### Posso esportare il grafico in formati come PDF o immagini?
 Assolutamente! Aspose.Cells consente di esportare grafici in vari formati, tra cui PDF e PNG.

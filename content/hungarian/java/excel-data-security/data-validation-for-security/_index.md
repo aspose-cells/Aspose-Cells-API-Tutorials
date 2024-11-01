@@ -135,7 +135,7 @@ Az adatellenőrzés egy olyan folyamat, amely biztosítja, hogy a rendszerbe bev
 
 Az adatellenőrzés azért fontos, mert védi adatainak integritását és biztonságát, megelőzve az olyan problémákat, mint az adatszivárgás és a korrupció.
 
-### Hogyan állíthatom be az Aspose.Cells-t Java-hoz?
+### Hogyan állíthatom be az Aspose.Cells-t Java számára?
 
 Az Aspose.Cells for Java beállításához töltse le a könyvtárat, és adja hozzá a Java-projekthez. Érvényes licenc használatával inicializálja a kódjában.
 

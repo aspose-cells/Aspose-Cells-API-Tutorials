@@ -9,7 +9,7 @@ url: /de/net/excel-page-setup/get-page-dimensions/
 ---
 ## Einführung
 
-Wenn es um die Handhabung von Tabellenkalkulationen in .NET-Anwendungen geht, ist die Bibliothek Aspose.Cells ein robustes Tool, mit dem Entwickler Excel-Dateien problemlos bearbeiten können. Aber wie erhalten Sie mit dieser leistungsstarken Bibliothek Seitenabmessungen für verschiedene Papiergrößen? In diesem Tutorial gehen wir den Prozess Schritt für Schritt durch und stellen sicher, dass Sie nicht nur Einblick in die Funktionsweise von Aspose.Cells erhalten, sondern auch die Fähigkeit erlernen, es in Ihren Projekten einzusetzen. 
+Wenn es um die Handhabung von Tabellenkalkulationen in .NET-Anwendungen geht, ist die Bibliothek Aspose.Cells ein robustes Tool, mit dem Entwickler Excel-Dateien problemlos bearbeiten können. Aber wie erhalten Sie mit dieser leistungsstarken Bibliothek Seitenabmessungen für verschiedene Papiergrößen? In diesem Tutorial gehen wir den Prozess Schritt für Schritt durch und stellen sicher, dass Sie nicht nur Einblick in die Funktionsweise von Aspose.Cells erhalten, sondern auch die Möglichkeit haben, es in Ihren Projekten gekonnt einzusetzen. 
 
 ## Voraussetzungen 
 
@@ -44,7 +44,7 @@ Um Aspose.Cells zu verwenden, müssen Sie Verweise auf die Bibliothek hinzufüge
 
 ### Using-Direktiven hinzufügen
 
- Ganz oben auf Ihrer`Program.cs`Fügen Sie in dieser Datei diese Using-Direktive ein, um auf die Aspose.Cells-Funktionalität zuzugreifen:
+ Ganz oben auf Ihrer`Program.cs` Fügen Sie in dieser Datei diese Using-Direktive ein, um auf die Aspose.Cells-Funktionalität zuzugreifen:
 
 ```csharp
 using System;

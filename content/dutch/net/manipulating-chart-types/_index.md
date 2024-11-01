@@ -9,7 +9,7 @@ url: /nl/net/manipulating-chart-types/
 ---
 ## Invoering
 
-Bent u klaar om uw data om te zetten in verbluffende visuals? Aspose.Cells voor .NET maakt het maken en manipuleren van grafieken in Excel moeiteloos. Laten we een aantal tutorials bekijken die u stap voor stap door het proces van het maken en wijzigen van grafieken leiden. Of u nu een aangepaste grafiek wilt maken of een lijndiagram wilt verbeteren, deze tutorials zijn perfect om datavisualisatie onder de knie te krijgen!
+Bent u klaar om uw data om te zetten in verbluffende visuals? Aspose.Cells voor .NET maakt het maken en manipuleren van grafieken in Excel moeiteloos. Laten we een aantal tutorials bekijken die u stap voor stap door het proces van het maken en aanpassen van grafieken leiden. Of u nu een aangepaste grafiek wilt maken of een lijndiagram wilt verbeteren, deze tutorials zijn perfect om datavisualisatie onder de knie te krijgen!
 
 ## Aangepaste grafiek maken
  Heeft u een grafiek nodig die aansluit bij uw unieke databehoeften?[Aangepaste grafiek maken](./create-custom-chart/) met Aspose.Cells voor .NET en laat uw creativiteit de vrije loop. Deze gids leidt u door het proces en helpt u bij het maken van grafieken die zijn afgestemd op uw specificaties. Het is als schilderen, maar in plaats van een canvas gebruikt u Excel-gegevens!

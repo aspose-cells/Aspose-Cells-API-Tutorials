@@ -2,7 +2,7 @@
 title: Munkalap műveletek
 linktitle: Munkalap műveletek
 second_title: Aspose.Cells .NET Excel Processing API
-description: Fokozza ki az Aspose.Cells for .NET-ben rejlő teljes potenciálját ezekkel a gyakorlati oktatóanyagokkal, amelyek a munkalapok műveleteit és az Excel-fájlok javítását ismertetik.
+description: Fokozza ki az Aspose.Cells for .NET-ben rejlő teljes potenciálját ezekkel a gyakorlati oktatóanyagokkal, amelyek lefedik a munkalapok műveleteit és javítják az Excel-fájlokat.
 type: docs
 weight: 33
 url: /hu/net/worksheet-operations/

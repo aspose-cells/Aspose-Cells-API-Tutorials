@@ -17,7 +17,7 @@ url: /sv/net/excel-workbook/
 
 ## Lägga till digitala signaturer
 
-Har du någonsin behövt lägga till en digital signatur i en signerad Excel-fil? Upptäck hur du gör detta med vår guide på[Lägg till digital signatur till en redan signerad Excel-fil](./add-digital-signature-to-an-already-signed-excel-file/). Digitala signaturer säkerställer autenticitet och integritet, vilket gör dina Excel-filer inte bara funktionella utan också säkra.
+ Har du någonsin behövt lägga till en digital signatur i en signerad Excel-fil? Upptäck hur du gör detta med vår guide på[Lägg till digital signatur till en redan signerad Excel-fil](./add-digital-signature-to-an-already-signed-excel-file/)Digitala signaturer säkerställer autenticitet och integritet, vilket gör dina Excel-filer inte bara funktionella utan också säkra.
 
 ## Skapa delade arbetsböcker
 
@@ -37,7 +37,7 @@ Har du någonsin behövt lägga till en digital signatur i en signerad Excel-fil
 
 ## Öka produktiviteten med Regex
 
-Är du ett fan av regex? Om inte, kanske du vill bli det! Reguljära uttryck kan avsevärt effektivisera dina uppgifter, särskilt när du arbetar med stora datamängder i Excel. Vår handledning om[Regex Ersätt](./regex-replace/) lär dig att implementera regex-ersättningsfunktioner i dina kalkylblad, vilket ger dig möjlighet att öka både produktivitet och noggrannhet.
+ Är du ett fan av regex? Om inte, kanske du vill bli det! Reguljära uttryck kan avsevärt effektivisera dina uppgifter, särskilt när du arbetar med stora datamängder i Excel. Vår handledning om[Regex Ersätt](./regex-replace/) lär dig att implementera regex-ersättningsfunktioner i dina kalkylblad, vilket ger dig möjlighet att öka både produktivitet och noggrannhet.
 
 ## Uppdatering av Power Query-objekt
 
@@ -45,11 +45,11 @@ Har du någonsin behövt lägga till en digital signatur i en signerad Excel-fil
 
 ## Hantera förhandsgranskningar
 
-Då och då behöver du presentera din data på ett så professionellt sätt som möjligt. Att lära sig att skapa förhandsvisningar kan vara en viktig färdighet. I vår handledning om[Förhandsgranskning av arbetsbok](./workbook-print-preview/), kommer du att upptäcka hur du formaterar dina data korrekt innan du trycker på Skriv ut. Denna process kan rädda dig från pinsamma misstag och se till att dina rapporter ser lika bra ut på papper som de gör på skärmen.
+ Då och då behöver du presentera din data på ett så professionellt sätt som möjligt. Att lära sig att skapa förhandsvisningar kan vara en viktig färdighet. I vår handledning om[Förhandsgranskning av arbetsbok](./workbook-print-preview/), kommer du att upptäcka hur du formaterar dina data korrekt innan du trycker på Skriv ut. Denna process kan rädda dig från pinsamma misstag och se till att dina rapporter ser lika bra ut på papper som de gör på skärmen.
 
 ## Arbeta med definierade namn
 
- Definierade namn i dina Excel-ark kan vara ett praktiskt sätt att hantera dina data. De gör formler kortare och mer begripliga. Om du vill filtrera definierade namn när du laddar en arbetsbok, vår handledning på[Filtrera definierade namn medan arbetsboken laddas](./filter-defined-names-while-loading-workbook/) ger alla nödvändiga steg för att göra just det. Den här funktionen låter dig skräddarsy hur din arbetsbok laddas, vilket förbättrar effektiviteten och organisationen.
+Definierade namn i dina Excel-ark kan vara ett praktiskt sätt att hantera dina data. De gör formler kortare och mer begripliga. Om du vill filtrera definierade namn när du laddar en arbetsbok, vår handledning på[Filtrera definierade namn medan arbetsboken laddas](./filter-defined-names-while-loading-workbook/) ger alla nödvändiga steg för att göra just det. Den här funktionen låter dig skräddarsy hur din arbetsbok laddas, vilket förbättrar effektiviteten och organisationen.
 
 ## Slutsats
 

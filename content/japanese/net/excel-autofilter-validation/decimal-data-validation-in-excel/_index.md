@@ -187,7 +187,7 @@ validation.AddArea(area);
 workbook.Save(dataDir + "output.out.xls");
 ```
 
-これで完了です。Aspose.Cells for .NET を使用して、小数点データの検証機能を備えたワークブックを正常に作成できました。
+これで完了です。Aspose.Cells for .NET を使用して、小数点データの検証を含むワークブックを正常に作成できました。
 
 ## 結論
 

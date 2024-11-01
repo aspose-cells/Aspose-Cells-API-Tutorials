@@ -90,4 +90,4 @@ Dans ce didacticiel, nous avons appris à créer des animations de graphiques à
 
 ### Quel est le but du délai d'animation ?
 
- Le délai d'animation détermine l'intervalle de temps avant le début de l'animation du graphique. Utilisez le`setAnimationDelay`méthode pour définir le délai en millisecondes.
+ Le délai d'animation détermine l'intervalle de temps avant le début de l'animation du graphique. Utilisez le`setAnimationDelay` méthode pour définir le délai en millisecondes.

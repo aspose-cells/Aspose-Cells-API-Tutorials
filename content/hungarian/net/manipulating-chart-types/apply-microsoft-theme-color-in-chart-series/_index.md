@@ -9,7 +9,7 @@ url: /hu/net/manipulating-chart-types/apply-microsoft-theme-color-in-chart-serie
 ---
 ## Bevezetés
 
-mai vizuálisan vezérelt világban az adatok bemutatásának módja nagyon sokat számít. A diagramok gyakran az adatmegjelenítés meg nem énekelt hősei, amelyek az összetett információkat emészthető vizuális rögökké egyszerűsítik. Ha Microsoft Excelt használ, tudja, milyen fontos a diagramok testreszabása, hogy azok megfeleljenek a szervezet márkajelzésének, vagy egyszerűen vonzóbbá tegye őket. De tudta, hogy az Aspose.Cells for .NET segítségével még jobban személyre szabhatja diagramjait? Ebben a cikkben végigvezetjük a Microsoft-témaszínek diagramsorozataiban való alkalmazásának lépésein, így biztosítva, hogy adatai ne csak kiemelkedjenek, hanem más márkaanyagaihoz is illeszkedjenek.
+A mai vizuálisan vezérelt világban az adatok bemutatásának módja nagyon sokat számít. A diagramok gyakran az adatmegjelenítés meg nem énekelt hősei, amelyek az összetett információkat emészthető vizuális rögökké egyszerűsítik. Ha Microsoft Excelt használ, tudja, milyen fontos a diagramok testreszabása, hogy azok megfeleljenek a szervezet márkajelzésének, vagy egyszerűen vonzóbbá tegye őket. De tudta, hogy az Aspose.Cells for .NET segítségével még jobban személyre szabhatja diagramjait? Ebben a cikkben végigvezetjük a Microsoft-témaszínek diagramsorozataiban való alkalmazásának lépésein, így biztosítva, hogy adatai ne csak kiemelkedjenek, hanem más márkaanyagaihoz is illeszkedjenek.
 
 ## Előfeltételek
 
@@ -101,7 +101,7 @@ Ez hasonló ahhoz, hogy eldöntsük a szoba megjelenését és hangulatát a dí
 Ezután meg kell határoznunk a diagram kitöltési területének színét. Így keltjük életre választott színünket.
 
 ```csharp
-// Szerezze be a SolidFill CellsColor-ját
+//Szerezze be a SolidFill CellsColor-ját
 CellsColor cc = chart.NSeries[0].Area.FillFormat.SolidFill.CellsColor;
 ```
 
@@ -150,7 +150,7 @@ Console.WriteLine("MicrosoftThemeColorInChartSeries executed successfully.");
 
 ## Következtetés
 
-diagramok testreszabása az Aspose.Cells for .NET használatával egyszerű és hatékony. A fenti lépések követésével könnyedén alkalmazhatja a Microsoft-téma színeit diagramsorozataira, javítva az adatprezentációk vizuális vonzerejét. Ez nemcsak a diagramokat igazítja a márkaidentitáshoz, hanem az információkat is vonzóbbá teszi a közönség számára. Akár jelentést készít az érdekelt felek számára, akár prezentációt készít, ezek az apró változtatások óriási változást hozhatnak.
+A diagramok testreszabása az Aspose.Cells for .NET használatával egyszerű és hatékony. A fenti lépések követésével könnyedén alkalmazhatja a Microsoft-téma színeit diagramsorozataira, javítva az adatprezentációk vizuális vonzerejét. Ez nemcsak a diagramokat igazítja a márkaidentitáshoz, hanem az információkat is vonzóbbá teszi a közönség számára. Akár jelentést készít az érdekelt felek számára, akár prezentációt készít, ezek az apró változtatások óriási változást hozhatnak.
 
 ## GYIK
 

@@ -29,7 +29,7 @@ tomto úvodním kroku musíte definovat adresář, kde jsou umístěny vaše dok
 ```csharp
 string dataDir = "Your Document Directory";
 ```
- Jednoduše vyměnit`"Your Document Directory"` se skutečnou cestou, kde se nachází váš soubor obrázku. Tohle může být něco jako`"C:\\Users\\YourUsername\\Documents\\"`.
+ Jednoduše vyměnit`"Your Document Directory"` se skutečnou cestou, kde se nachází váš soubor obrázku. Může to být něco podobného`"C:\\Users\\YourUsername\\Documents\\"`.
 ## Krok 2: Vytvoření instance objektu sešitu
  Dále musíte vytvořit novou instanci souboru`Workbook` třída. Tento objekt představuje váš soubor Excel:
 ```csharp

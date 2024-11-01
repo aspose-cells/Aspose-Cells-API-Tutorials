@@ -57,7 +57,7 @@ ConditionalFormattingResult cfr1 = a1.GetConditionalFormattingResult();
 ```
 這`GetConditionalFormattingResult()`這一步的方法很關鍵。它會傳回一個對象，其中包含應用於單元格的任何條件格式的結果。這就是我們開始利用 Excel 使用的色彩資訊的地方。
 ## 步驟 5： 造訪 ColorScaleResult
-一旦我們獲得了條件格式結果，我們就可以更深入地挖掘並存取 Excel 用於該特定單元格的色階。
+一旦我們獲得了條件格式結果，我們就可以更深入地挖掘並存取 Excel 用於該特定儲存格的色標。
 ```csharp
 //取得 ColorScale 結果顏色對象
 Color c = cfr1.ColorScaleResult;
@@ -70,10 +70,10 @@ Excel 中的條件格式通常會依賴色階。該行允許我們提取根據�
 Console.WriteLine(c.ToArgb().ToString());
 Console.WriteLine(c.Name);
 ```
-這`ToArgb()`方法為我們提供了 ARGB 格式的顏色（Alpha、Red、Green、Blue），而`Name`屬性以更易於理解的格式提供顏色名稱。您可以使用這些顏色詳細資訊來搭配其他應用程式中的顏色，或以程式設計方式修改 Excel 檔案。
+這`ToArgb()`方法為我們提供了 ARGB 格式的顏色（Alpha、Red、Green、Blue），而`Name`屬性以更易於理解的格式提供顏色名稱。您可以使用這些顏色詳細資訊來搭配其他應用程式中的顏色，或以程式設計方式修改您的 Excel 檔案。
 
 ## 結論
-現在你就得到它了！透過執行這些步驟，您剛剛了解如何使用 Aspose.Cells for .NET 以程式設計方式計算 MS Excel 選擇的顏色。這種方法對於自動化基於 Excel 的任務非常有用，尤其是在處理複雜的條件格式時。現在，下次當您在 Excel 中遇到神秘顏色時，您將確切地知道如何揭示它的秘密。
+現在你就擁有了！透過執行這些步驟，您剛剛了解如何使用 Aspose.Cells for .NET 以程式設計方式計算 MS Excel 選擇的顏色。這種方法對於自動化基於 Excel 的任務非常有用，尤其是在處理複雜的條件格式時。現在，下次當您在 Excel 中遇到神秘顏色時，您將確切地知道如何揭示它的秘密。
 ## 常見問題解答
 ### 我可以使用 Aspose.Cells 以程式設計方式套用條件格式嗎？
 是的，Aspose.Cells 允許您以程式設計方式套用、修改甚至刪除 Excel 檔案中的條件格式。

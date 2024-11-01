@@ -36,7 +36,7 @@ if (!IsExists)
     Directory.CreateDirectory(dataDir);
 ```
 Mengapa ini penting? Nah, menyimpan berkas Anda dalam direktori yang terorganisasi dengan baik tidak hanya menjaga semuanya tetap rapi, tetapi juga memudahkan pengelolaan dan pencarian dokumen Anda nanti.
-## Langkah 2: Membuat Instansiasi Objek Buku Kerja
+## Langkah 2: Membuat Instansi Objek Buku Kerja
  Sekarang setelah direktori kita sudah diatur, saatnya untuk membuat sebuah instance dari`Workbook` kelas. Kelas ini penting karena mewakili dokumen Excel kita.
 Cukup buat buku kerja seperti ini:
 ```csharp

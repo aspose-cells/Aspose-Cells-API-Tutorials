@@ -46,7 +46,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 ```
 Most elérjük a munkafüzet első munkalapját. Ha további lapokat kell kezelnie, hivatkozhat rájuk indexük vagy nevük használatával.
 ## 3. lépés: Adjon hozzá adatokat a cellákhoz
-Kezdjük el néhány adat hozzáadását adott cellákhoz. Először beszúrjuk az aktuális rendszerdátumot az "A1" cellába:
+Kezdjük el néhány adat hozzáadását bizonyos cellákhoz. Először beszúrjuk az aktuális rendszerdátumot az "A1" cellába:
 ```csharp
 worksheet.Cells["A1"].PutValue(DateTime.Now);
 ```

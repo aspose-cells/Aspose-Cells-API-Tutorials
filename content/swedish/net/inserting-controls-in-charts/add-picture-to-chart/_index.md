@@ -55,7 +55,7 @@ string sourceDir = "Your Document Directory/";
 string outputDir = "Your Output Directory/";
 ```
 
- Ersätta`Your Document Directory` och`Your Output Directory`med faktiska sökvägar på din dator. 
+ Ersätta`Your Document Directory` och`Your Output Directory` med faktiska sökvägar på din dator. 
 
 ## Steg 2: Ladda den befintliga arbetsboken
 
@@ -100,7 +100,7 @@ Med diagrammet valt är det dags att lägga till bilden!
 Aspose.Cells.Drawing.Picture pic0 = chart.Shapes.AddPictureInChart(50, 50, stream, 200, 200);
 ```
 
- Här,`50` och`50` är X- och Y-koordinaterna där bilden kommer att placeras, och`200`är bildens bredd och höjd.
+ Här,`50` och`50` är X- och Y-koordinaterna där bilden kommer att placeras, och`200` är bildens bredd och höjd.
 
 ## Steg 6: Anpassa bildens linjeformat
 
@@ -140,7 +140,7 @@ Console.WriteLine("AddingPictureInChart executed successfully.");
 
 ## Slutsats
 
-den här handledningen har vi utforskat hur du kan injicera lite personlighet i dina Excel-diagram genom att lägga till bilder med Aspose.Cells för .NET. Med bara några enkla steg kan du lyfta dina presentationer från vardagliga till minnesvärda. Så vad väntar du på? Ge det en chans och låt dina diagram lysa!
+I den här handledningen har vi utforskat hur du kan injicera lite personlighet i dina Excel-diagram genom att lägga till bilder med Aspose.Cells för .NET. Med bara några enkla steg kan du lyfta dina presentationer från vardagliga till minnesvärda. Så vad väntar du på? Ge det en chans och låt dina diagram lysa!
 
 ## FAQ's
 
@@ -154,7 +154,7 @@ Aspose.Cells stöder en mängd olika bildformat, inklusive PNG, JPEG, BMP och GI
  Säkert! X- och Y-koordinaterna i`AddPictureInChart` metod möjliggör exakt positionering.
 
 ### Är Aspose.Cells gratis att använda?
- Aspose.Cells erbjuder en gratis provperiod, men för alla funktioner krävs en licens. Du kan hitta priset[här](https://purchase.aspose.com/buy).
+Aspose.Cells erbjuder en gratis provperiod, men för alla funktioner krävs en licens. Du kan hitta priset[här](https://purchase.aspose.com/buy).
 
 ### Var kan jag hitta fler exempel?
  Kolla in[Aspose.Cells dokumentation](https://reference.aspose.com/cells/net/) för mer detaljerade exempel och funktioner.

@@ -95,7 +95,7 @@ System.Security.Cryptography.X509Certificates.X509Certificate2 certificate = new
 Aspose.Cells.DigitalSignatures.DigitalSignature signature = new Aspose.Cells.DigitalSignatures.DigitalSignature(certificate, "Aspose.Cells added new digital signature in existing digitally signed workbook.", DateTime.Now);
 ```
 
-이 단계에서는 컬렉션에 새 서명이 추가되고, 나중에 통합 문서에 적용할 수 있습니다.
+이 단계에서는 컬렉션에 새 서명을 추가하고, 나중에 통합 문서에 적용할 수 있습니다.
 
 ## 6단계: 통합 문서에 디지털 서명 컬렉션 추가
 

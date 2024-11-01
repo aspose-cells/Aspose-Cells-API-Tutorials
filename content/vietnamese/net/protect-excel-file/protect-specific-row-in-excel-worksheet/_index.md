@@ -88,7 +88,7 @@ StyleFlag flag;
 for (int i = 0; i <= 255; i++)
 {
     style = sheet.Cells.Columns[(byte)i].Style;
-    style.IsLocked = false; //Mở khóa cột
+    style.IsLocked = false; // Mở khóa cột
     flag = new StyleFlag();
     flag.Locked = true; // Đặt cờ thành true để khóa
     sheet.Cells.Columns[(byte)i].ApplyStyle(style, flag); // Áp dụng phong cách

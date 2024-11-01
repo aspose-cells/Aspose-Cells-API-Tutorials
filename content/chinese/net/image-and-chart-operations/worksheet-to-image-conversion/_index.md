@@ -44,7 +44,7 @@ using Aspose.Cells.Rendering;
 //文档目录的路径。
 string dataDir = "Your Document Directory";
 ```
-在这里我们定义一个名为`dataDir`保存文件存储目录的路径。替换`"Your Document Directory"`替换为您系统上的实际路径（例如，“C:\\我的文件\\”）。
+在这里我们定义一个名为的变量`dataDir`保存文件存储目录的路径。替换`"Your Document Directory"`替换为您系统上的实际路径（例如，“C:\\我的文件\\”）。
 ## 步骤 4：打开 Excel 工作簿
 接下来，我们将使用`Workbook`来自 Aspose.Cells 的类：
 ```csharp

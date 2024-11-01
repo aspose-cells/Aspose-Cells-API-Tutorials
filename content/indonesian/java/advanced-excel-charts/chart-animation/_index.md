@@ -90,4 +90,4 @@ Dalam tutorial ini, kita mempelajari cara membuat animasi bagan menggunakan Aspo
 
 ### Apa tujuan penundaan animasi?
 
- Penundaan animasi menentukan jeda waktu sebelum animasi grafik dimulai. Gunakan`setAnimationDelay`metode untuk mengatur penundaan dalam milidetik.
+ Penundaan animasi menentukan jeda waktu sebelum animasi grafik dimulai. Gunakan`setAnimationDelay` metode untuk mengatur penundaan dalam milidetik.

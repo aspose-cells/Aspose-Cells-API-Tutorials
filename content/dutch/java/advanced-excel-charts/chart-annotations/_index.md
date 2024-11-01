@@ -22,7 +22,7 @@ Voordat we met de implementatie beginnen, moet u ervoor zorgen dat de volgende v
 
 ## Aspose.Cells instellen voor Java
 
- Om te beginnen moet u Aspose.Cells voor Java in uw project instellen. U kunt de bibliotheek downloaden van de Aspose-website[hier](https://releases.aspose.com/cells/java/)Voeg de bibliotheek na het downloaden toe aan uw Java-project.
+Om te beginnen moet u Aspose.Cells voor Java in uw project instellen. U kunt de bibliotheek downloaden van de Aspose-website[hier](https://releases.aspose.com/cells/java/)Voeg de bibliotheek na het downloaden toe aan uw Java-project.
 
 ## Een Excel-werkmap maken
 
@@ -82,7 +82,7 @@ textFrame.setTop(50);
 
 ## Aantekeningen aanpassen
 
-U kunt de aantekeningen verder aanpassen door het lettertype, de kleur en andere eigenschappen te wijzigen.
+kunt de aantekeningen verder aanpassen door het lettertype, de kleur en andere eigenschappen te wijzigen.
 
 ```java
 // Aanpassen van annotatie-eigenschappen

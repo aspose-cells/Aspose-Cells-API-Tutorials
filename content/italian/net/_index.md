@@ -152,3 +152,21 @@ Esplora un elenco completo di tutorial su Aspose.Cells per .NET per convertire i
 Esplora i tutorial dettagliati di Aspose.Cells per .NET sul salvataggio e l'esportazione di file Excel. Scopri come gestire commenti, proprietà di documenti, avvisi e data trimming.
 ### [Creazione e configurazione di tabelle pivot](./creating-and-configuring-pivot-tables/)
 Scopri tutorial completi per Aspose.Cells per .NET. Padroneggia le tabelle pivot in Excel in modo programmatico con guide dettagliate passo dopo passo per ogni funzionalità.
+### [Formule di Excel e opzioni di calcolo](./excel-formulas-and-calculation-options/)
+Approfondisci i tutorial di Aspose.Cells per .NET, che illustrano le formule e i calcoli essenziali di Excel in passaggi facili da seguire.
+### [Esportazione di Excel in HTML con opzioni avanzate](./exporting-excel-to-html-with-advanced-options/)
+Ottieni preziose informazioni sull'esportazione di Excel in HTML con Aspose.Cells per .NET attraverso tutorial dettagliati su varie opzioni avanzate, migliorando le esportazioni dei tuoi documenti.
+### [Rendering ed esportazione](./rendering-and-export/)
+Migliora le tue competenze con Aspose.Cells per .NET. Immergiti nei tutorial per il rendering, l'esportazione e la creazione di documenti PDF Excel interattivi.
+### [Gestione degli errori e personalizzazione in Aspose.Cells](./error-handling-and-customization-in-aspose-cells/)
+Esercitazioni Aspose.Cells per .NET sul rendering di componenti aggiuntivi di Office in Excel in PDF e sull'ignorare gli errori durante la conversione da Excel a PDF. Semplifica le attività dei tuoi documenti.
+### [Gestione di righe e colonne](./row-and-column-management/)
+Sfrutta la potenza di Aspose.Cells per .NET con i nostri tutorial completi sulla gestione di righe e colonne per migliorare le tue competenze in Excel senza sforzo.
+### [Personalizzazione delle dimensioni e della spaziatura](./size-and-spacing-customization/)
+Migliora i tuoi file Excel con Aspose.Cells per .NET. Scopri tutorial facili da seguire per personalizzare dimensioni e spaziatura, impostando senza sforzo larghezze di colonna e altezze di riga.
+### [Adattamento automatico di righe e colonne](./row-column-autofit-conversion/)
+Padroneggia l'adattamento automatico di righe e colonne in Excel con Aspose.Cells per .NET. Migliora la visualizzazione dei dati con tutorial passo dopo passo per fogli di calcolo chiari e professionali.
+### [Gestione delle slicer di Excel](./excel-slicers-management/)
+Esplora tutorial completi sulla gestione degli slicer di Excel con Aspose.Cells per .NET. Scopri come creare, aggiornare, formattare ed esportare slicer senza sforzo.
+### [Marcatori intelligenti in Aspose.Cells per dati dinamici](./smart-markers-dynamic-data/)
+Esplora i tutorial di Aspose.Cells for .NET Smart Markers per creare report Excel dinamici. Impara ad aggiungere etichette, a popolare automaticamente i dati, a usare le formule e altro ancora.

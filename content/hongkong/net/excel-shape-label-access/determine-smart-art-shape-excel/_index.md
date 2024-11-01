@@ -76,7 +76,7 @@ Console.WriteLine("Is Smart Art Shape: " + sh.IsSmartArt);
 ```
 這`IsSmartArt`的財產`Shape`類別傳回布林值，指示該形狀是否被分類為智慧藝術。我們使用`Console.WriteLine`來輸出這個訊息。 
 ## 結論
-在本教學中，您學習如何使用 Aspose.Cells for .NET 來確定 Excel 工作表中的形狀是否為 Smart Art 圖形。有了這些知識，您就可以增強資料呈現並簡化工作流程。無論您是經驗豐富的 Excel 使用者還是新手，整合這樣的智慧功能都可以帶來巨大的改變。 
+在本教學中，您學習如何使用 Aspose.Cells for .NET 來確定 Excel 工作表中的形狀是否為 Smart Art 圖形。有了這些知識，您可以增強資料呈現並簡化工作流程。無論您是經驗豐富的 Excel 使用者還是新手，整合這樣的智慧功能都可以帶來巨大的改變。 
 ## 常見問題解答
 ### Excel 中的智慧藝術是什麼？
 智慧藝術是 Excel 中的一項功能，可讓使用者建立具有視覺吸引力的圖形來說明資訊。

@@ -104,7 +104,7 @@ workbook.Save(outputDir + "ValidationsSample_out.xlsx");
 Console.WriteLine("AddValidationArea executed successfully.");
 ```
 
-現在你就得到它了！透過這一行，您可以向自己（以及閱讀控制台的任何人）確認驗證區域已成功新增。
+現在你就擁有了！透過這一行，您可以向自己（以及閱讀控制台的任何人）確認驗證區域已成功新增。
 
 ## 結論
 

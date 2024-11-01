@@ -76,7 +76,7 @@ String data = fileWorkbook.getWorksheets().get(0).getCells().get("A1").getString
 如果需要将 Excel 文件转换为其他格式，可以自动执行转换过程：
 
 ```java
-//将 Excel 文件另存为 PDF
+//将 Excel 文件保存为 PDF
 fileWorkbook.save("output.pdf", SaveFormat.PDF);
 ```
 

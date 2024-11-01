@@ -58,7 +58,7 @@ Maintenant que nous avons ouvert le classeur, accédons à la première feuille 
 // Obtenez la première feuille de travail.
 Worksheet sheet = book.Worksheets[0];
 ```
- Ici, nous récupérons la première feuille de calcul (index`0` ) du classeur. Les tableaux Aspose.Cells sont indexés à zéro, ce qui signifie que la première feuille est`0`.
+ Ici, nous récupérons la première feuille de calcul (index`0` du classeur. Les tableaux Aspose.Cells sont indexés à zéro, ce qui signifie que la première feuille est`0`.
 ## Étape 6 : Définir les options d’image ou d’impression
  Avant de rendre l'image, nous devons spécifier à quoi nous voulons qu'elle ressemble en utilisant`ImageOrPrintOptions`:
 ```csharp
@@ -82,7 +82,7 @@ Bitmap bitmap = sr.ToImage(0);
 ## Étape 8 : enregistrement de l'image
 Après le rendu, nous devons enregistrer l'image dans le répertoire spécifié :
 ```csharp
-// Enregistrez le fichier image en spécifiant son format d'image.
+//Enregistrez le fichier image en spécifiant son format d'image.
 bitmap.Save(dataDir + "SheetImage.out.jpg");
 ```
  Ici, nous enregistrons l'image bitmap que nous avons générée. Cette ligne écrit l'image dans le`dataDir` emplacement avec le nom du fichier`SheetImage.out.jpg`.
@@ -99,7 +99,7 @@ Et voilà ! En quelques étapes simples, vous avez appris à convertir une feuil
 ### Qu'est-ce qu'Aspose.Cells ?
 Aspose.Cells est une bibliothèque .NET qui permet aux développeurs de créer, manipuler, convertir et traiter des fichiers Excel par programmation.
 ### Puis-je utiliser Aspose.Cells gratuitement ?
-Oui, vous pouvez commencer à utiliser Aspose.Cells en téléchargeant une version d'essai gratuite à partir de leur[site web](https://releases.aspose.com/).
+ Oui, vous pouvez commencer à utiliser Aspose.Cells en téléchargeant une version d'essai gratuite à partir de leur[site web](https://releases.aspose.com/).
 ### Quels formats d’image Aspose.Cells prend-il en charge pour l’exportation ?
 Aspose.Cells prend en charge divers formats d'image, notamment JPEG, PNG, BMP et GIF.
 ### Où puis-je trouver une assistance supplémentaire pour Aspose.Cells ?

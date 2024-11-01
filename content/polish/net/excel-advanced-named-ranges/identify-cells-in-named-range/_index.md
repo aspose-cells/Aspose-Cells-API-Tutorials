@@ -39,7 +39,7 @@ Zanim zaczniemy kodować, upewnijmy się, że mamy wszystkie niezbędne pakiety 
 
 ## Importuj przestrzeń nazw Aspose.Cells
 
-Na samym początku pliku C# umieść następującą dyrektywę using:
+Na samym początku pliku C# należy umieścić następującą dyrektywę using:
 
 ```csharp
 using Aspose.Cells;

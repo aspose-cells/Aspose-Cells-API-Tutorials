@@ -115,7 +115,7 @@ In deze stap slaan we de grafiek op als een EMF (Enhanced Metafile) afbeelding i
 
 ## Stap 8: Converteer grafiek naar bitmap
 
-Als u liever met bitmaps werkt, kunt u uw grafiek als volgt omzetten naar een bitmapformaat.
+Als u liever met bitmaps werkt, kunt u uw grafiek als volgt naar een bitmapformaat converteren.
 
 ```csharp
 System.Drawing.Bitmap bitmap = chart.ToImage();

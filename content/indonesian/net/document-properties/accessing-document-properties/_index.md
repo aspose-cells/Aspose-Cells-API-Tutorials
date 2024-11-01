@@ -30,7 +30,7 @@ Pertama-tama, kita perlu menentukan jalur tempat file Excel kita berada. Di sini
 string dataDir = "Your Document Directory";
 ```
  Mengganti`"Your Document Directory"` dengan jalur sebenarnya ke berkas Excel Anda. Jalur ini berfungsi sebagai landasan peluncuran untuk semua operasi kami.
-## Langkah 2: Membuat Instansiasi Objek Buku Kerja
+## Langkah 2: Membuat Instansi Objek Buku Kerja
  Berikutnya, Anda ingin membuat contoh dari`Workbook` kelas. Objek ini mewakili berkas Excel Anda dan memungkinkan kami melakukan tindakan pada berkas tersebut:
 ```csharp
 Workbook workbook = new Workbook(dataDir + "sample-document-properties.xlsx");

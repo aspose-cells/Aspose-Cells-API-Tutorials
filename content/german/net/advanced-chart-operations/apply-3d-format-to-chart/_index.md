@@ -61,7 +61,7 @@ Workbook book = new Workbook();
 
 ## Schritt 2: Benennen Sie das erste Arbeitsblatt um
 
-Als nächstes benennen wir das erste Arbeitsblatt um. Dadurch wird klarer, mit welchen Daten wir arbeiten.
+Als nächstes benennen wir das erste Arbeitsblatt um. Dies schafft Klarheit darüber, mit welchen Daten wir arbeiten.
 
 ```csharp
 book.Worksheets[0].Name = "DataSheet";

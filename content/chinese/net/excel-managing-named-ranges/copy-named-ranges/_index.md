@@ -27,7 +27,7 @@ using System.IO;
 using Aspose.Cells;
 using System.Drawing;
 ```
-此代码将使您可以访问基本课程，例如`Workbook`, `Worksheet`， 和`Range`，您需要用它来操作 Excel 文件。
+此代码将使您可以访问基本课程，例如`Workbook`, `Worksheet` ， 和`Range`，您需要用它来操作 Excel 文件。
 
 现在我们已经满足了先决条件，让我们将流程分解为易于遵循的步骤。
 ## 步骤 1：设置输出目录

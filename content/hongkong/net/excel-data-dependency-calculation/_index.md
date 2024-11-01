@@ -2,7 +2,7 @@
 title: Excel資料依賴與計算
 linktitle: Excel資料依賴與計算
 second_title: Aspose.Cells .NET Excel 處理 API
-description: 探索 Aspose.Cells for .NET 教程，涵蓋 Excel 資料依賴關係和計算，包括追蹤依賴單元格，以增強您的 Excel 自動化技能。
+description: 探索 Aspose.Cells for .NET 教學課程，涵蓋 Excel 資料依賴關係和計算，包括追蹤依賴儲存格，以增強您的 Excel 自動化技能。
 type: docs
 weight: 34
 url: /zh-hant/net/excel-data-dependency-calculation/

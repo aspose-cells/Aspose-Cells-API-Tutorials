@@ -81,7 +81,7 @@ Worksheet worksheet = workbook.getWorksheets().get(0);
 // Az aktuális dátum lekéréséhez használja a TODAY funkciót
 worksheet.getCells().get("A1").setFormula("=TODAY()");
 
-// Szerezze meg az aktuális dátum értékét
+// Az aktuális dátumérték lekérése
 String currentDate = worksheet.getCells().get("A1").getStringValue();
 
 // Nyomtassa ki az eredményt

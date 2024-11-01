@@ -1,6 +1,6 @@
 ---
-title: Munka a tartalomtípus tulajdonságaival
-linktitle: Munka a tartalomtípus tulajdonságaival
+title: A tartalomtípus tulajdonságainak kezelése
+linktitle: A tartalomtípus tulajdonságainak kezelése
 second_title: Aspose.Cells for .NET API Reference
 description: Ismerje meg, hogyan használhatja az Aspose.Cells for .NET-et a tartalomtípus-tulajdonságok kezeléséhez a továbbfejlesztett Excel metaadatkezelés érdekében. Kövesse ezt az egyszerű lépésről lépésre útmutatót.
 type: docs
@@ -48,7 +48,7 @@ string outputDir = "Your Document Directory";
 Workbook workbook = new Workbook(FileFormatType.Xlsx);
 ```
 
-Ez a sor inicializál egy új munkafüzetet XLSX formátumban. Választhat más formátumokat is, de ebben a példában maradunk az XLSX-nél.
+Ez a sor egy új munkafüzetet inicializál XLSX formátumban. Választhat más formátumokat is, de ebben a példában maradunk az XLSX-nél.
 
 ## 3. lépés: Adja hozzá az egyéni tartalomtípus tulajdonságait
 
@@ -68,7 +68,7 @@ int index = workbook.ContentTypeProperties.Add("MK31", "Simple Data");
 workbook.ContentTypeProperties[index].IsNillable = false;
 ```
 
- Itt beállítjuk a`IsNillable` tulajdonítani`false`, jelezve, hogy ennek a mezőnek értékkel kell rendelkeznie.
+ Itt beállítjuk a`IsNillable` tulajdonítanak`false`, jelezve, hogy ennek a mezőnek értékkel kell rendelkeznie.
 
 ### Adjon hozzá egy második tartalomtípus-tulajdonságot
 
@@ -79,7 +79,7 @@ index = workbook.ContentTypeProperties.Add("MK32", DateTime.Now.ToString("yyyy-M
 workbook.ContentTypeProperties[index].IsNillable = true;
 ```
 
- Ebben a kódrészletben létrehozunk egy "MK32" nevű tulajdonságot az aktuális dátummal és időponttal az ISO 8601 szerint formázva. Ezt a tulajdonságot érvénytelenné tettük a beállítással.`IsNillable` hogy`true`.
+ Ebben a kódrészletben létrehozunk egy "MK32" nevű tulajdonságot az aktuális dátummal és időponttal az ISO 8601 szerint formázva. Ezt a tulajdonságot érvénytelenítettük a beállítással.`IsNillable` hogy`true`.
 
 ## 4. lépés: Mentse el a munkafüzetet
 

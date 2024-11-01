@@ -82,5 +82,5 @@ Ano, můžete procházet více soubory v adresáři a převádět každý z nich
  Ano, můžete použít bezplatnou zkušební verzi, která je k dispozici[zde](https://releases.aspose.com/).
 ### V jakých formátech mohu ukládat soubory Excel kromě PDF?
 Kromě PDF můžete ukládat ve formátech jako XLSX, CSV a dalších!
-### Kde najdu další dokumentaci k Aspose.Cells?
+### Kde najdu další dokumentaci na Aspose.Cells?
  Můžete odkazovat na[dokumentace zde](https://reference.aspose.com/cells/net/) pro podrobnější informace.

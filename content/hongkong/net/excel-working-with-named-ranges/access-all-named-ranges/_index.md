@@ -54,7 +54,7 @@ Console.WriteLine("Total Number of Named Ranges: " + range.Length);
 ```
 此行顯示計數，讓您快速概覽已定位的命名範圍數量。
 ## 第五步：確認執行
-最後，讓我們添加一條訊息來確認一切順利執行！
+最後，讓我們加入一則訊息來確認一切順利執行！
 向控制台發送如下簡潔訊息：
 ```csharp
 Console.WriteLine("AccessAllNamedRanges executed successfully.");

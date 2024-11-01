@@ -2,7 +2,7 @@
 title: 在 .NET 中以编程方式创建新的数据透视表
 linktitle: 在 .NET 中以编程方式创建新的数据透视表
 second_title: Aspose.Cells .NET Excel 处理 API
-description: 通过我们的分步指南，学习如何使用 Aspose.Cells 在 .NET 中以编程方式创建数据透视表。高效分析您的数据。
+description: 通过我们的分步指南，学习如何使用 Aspose.Cells 在 .NET 中以编程方式创建数据透视表。高效地分析您的数据。
 type: docs
 weight: 13
 url: /zh/net/creating-and-configuring-pivot-tables/creating-new-pivot-table/

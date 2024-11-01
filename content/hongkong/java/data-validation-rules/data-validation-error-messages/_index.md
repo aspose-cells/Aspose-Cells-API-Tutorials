@@ -40,7 +40,7 @@ public class DataValidationDemo {
         //訪問工作表
         Worksheet worksheet = workbook.getWorksheets().get(0);
         //此處新增資料驗證規則
-        //…
+        //……
         //設定驗證規則的錯誤訊息
         DataValidation validation = worksheet.getValidations().get(0);
         validation.setErrorTitle("Invalid Data");
@@ -66,7 +66,7 @@ validation.setErrorMessage("Please enter a number between 1 and 100.");
 
 ### 如何進一步自訂錯誤訊息？
 
-您可以使用 HTML 標記格式化錯誤訊息、添加特定於上下文的信息，甚至將訊息本地化為不同的語言。
+您可以使用 HTML 標籤格式化錯誤訊息、添加特定於上下文的信息，甚至將訊息本地化為不同的語言。
 
 ### 我可以在錯誤訊息中使用圖示或圖像嗎？
 
@@ -84,7 +84,7 @@ validation.setErrorMessage("Please enter a number between 1 and 100.");
 
 ### 如何進一步自訂錯誤訊息？
 
-您可以使用 HTML 標記格式化錯誤訊息、添加特定於上下文的信息，甚至將訊息本地化為不同的語言。
+您可以使用 HTML 標籤格式化錯誤訊息、添加特定於上下文的信息，甚至將訊息本地化為不同的語言。
 
 ### 我可以在錯誤訊息中使用圖示或圖像嗎？
 

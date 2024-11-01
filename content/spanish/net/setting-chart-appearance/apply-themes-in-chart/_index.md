@@ -99,7 +99,7 @@ Esta línea de código garantiza que la primera serie del gráfico esté configu
  Ahora que nuestra serie está lista, necesitamos modificar su color. Esto implica crear un`CellsColor` objeto y especificar un color de tema. Elegiremos un estilo de acento para este ejemplo.
 
 ```csharp
-// Obtener el color de celda de SolidFill
+//Obtener el color de celda de SolidFill
 CellsColor cc = chart.NSeries[0].Area.FillFormat.SolidFill.CellsColor;
 
 // Crear un tema en estilo Accent
@@ -158,7 +158,7 @@ Aspose.Cells es una potente biblioteca para .NET que permite a los desarrollador
 Aspose.Cells admite varios colores de tema, incluidos estilos de acento y otros.
 
 ### ¿Es posible aplicar temas a varios gráficos?
- ¡Por supuesto! Puedes recorrerlo en bucle.`worksheet.Charts` y aplicar temas según sea necesario.
+¡Por supuesto! Puedes recorrerlo en bucle.`worksheet.Charts` y aplicar temas según sea necesario.
 
 ### ¿Dónde puedo obtener soporte para Aspose.Cells?
  Puede obtener soporte e interactuar con una comunidad de usuarios.[aquí](https://forum.aspose.com/c/cells/9).

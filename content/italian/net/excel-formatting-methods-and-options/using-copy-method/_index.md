@@ -11,7 +11,7 @@ url: /it/net/excel-formatting-methods-and-options/using-copy-method/
 Quando si tratta di gestire e manipolare fogli di calcolo a livello di programmazione, Aspose.Cells per .NET è una potenza che può farti risparmiare tempo e semplificare il tuo flusso di lavoro. Una delle attività comuni che gli sviluppatori devono affrontare è la necessità di copiare intervalli da un foglio di lavoro a un altro all'interno di una cartella di lavoro di Excel. In questo tutorial, ti guideremo attraverso l'utilizzo del metodo Copy in Aspose.Cells, guidandoti attraverso ogni passaggio con spiegazioni chiare ed esempi di codice.
 ## Prerequisiti
 Prima di addentrarci nei passaggi per utilizzare il metodo Copia, è necessario assicurarsi di disporre dei seguenti prerequisiti:
-1. .NET Framework: assicurati di avere .NET Framework installato sul tuo computer. Aspose.Cells è compatibile con varie versioni, quindi controlla la loro[documentazione](https://reference.aspose.com/cells/net/) per i dettagli.
+1. .NET Framework: assicurati di avere .NET Framework installato sul tuo computer. Aspose.Cells è compatibile con varie versioni, quindi controlla le loro[documentazione](https://reference.aspose.com/cells/net/) per i dettagli.
 2. Visual Studio: avere Visual Studio o qualsiasi IDE compatibile configurato per lo sviluppo .NET è essenziale. Questo ti aiuterà a creare e gestire i tuoi progetti comodamente.
 3.  Libreria Aspose.Cells: Scarica la libreria Aspose.Cells dal[pagina delle release](https://releases.aspose.com/cells/net/) e aggiungi un riferimento ad esso nel tuo progetto.
 4.  Esempio di file Excel: crea o tieni pronto un file Excel (ad esempio,`Book1.xlsx`) con cui lavorerai in questo tutorial.

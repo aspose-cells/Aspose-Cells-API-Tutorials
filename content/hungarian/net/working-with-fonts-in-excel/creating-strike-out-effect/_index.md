@@ -22,7 +22,7 @@ using System.IO;
 using Aspose.Cells;
 ```
 Ezekkel az importálásokkal hozzáférhet a munkafüzet, a munkalap és a stílus osztályokhoz, amelyeket az oktatóanyag során használni fog.
-Most, hogy elkészítettük a terepet, bontsuk le a folyamatot kezelhető lépésekre. Minden lépést egyértelmű utasítások kísérnek, amelyek végigvezetik Önt a szövegen az Excelben lévő áthúzási hatás létrehozásán.
+Most, hogy elkészítettük a terepet, bontsuk le a folyamatot kezelhető lépésekre. Minden lépést egyértelmű utasítások kísérnek, amelyek végigvezetik Önt az áthúzási hatás létrehozásán a szövegen az Excelben.
 ## 1. lépés: Határozza meg a dokumentumkönyvtárat
 Kezdje az Excel-dokumentumok tárolási útvonalának meghatározásával. Ez lesz a kimeneti fájlok mentési helye.
 ```csharp
@@ -89,7 +89,7 @@ Alkalmazzuk az áthúzási effektust a cellában lévő szövegre. Módosítjuk 
 style.Font.IsStrikeout = true;
 // ExEnd:SetStrikeout
 ```
- Beállítással`IsStrikeout` igaz, akkor arra utasítja az Excelt, hogy vizuálisan húzza ki a szöveget a kijelölt cella áthúzásában – hasonlóan ahhoz, mintha vizuálisan jelölne ki valamit a listáról.
+ Beállítás által`IsStrikeout` igaz, akkor arra utasítja az Excelt, hogy vizuálisan húzza ki a szöveget a kijelölt cella áthúzásában – hasonlóan ahhoz, mintha vizuálisan jelölne ki valamit a listáról.
 ## 10. lépés: Alkalmazza a stílust a cellára
 A stílus módosítása után vissza kell alkalmazni a cellára, hogy tükrözze a változásokat.
 ```csharp

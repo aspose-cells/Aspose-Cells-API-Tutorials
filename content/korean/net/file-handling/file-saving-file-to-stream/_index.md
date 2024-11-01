@@ -13,7 +13,7 @@ url: /ko/net/file-handling/file-saving-file-to-stream/
 세부적인 내용으로 넘어가기 전에 몇 가지 준비해야 할 사항이 있습니다. 튜토리얼을 진행하면서 원활한 경험을 보장하기 위한 체크리스트로 간주하세요.
 1. Visual Studio: 컴퓨터에 Visual Studio가 설치되어 있는지 확인하세요. 걱정하지 마세요. Community Edition도 사용할 수 있습니다. 무료이며 잘 작동합니다.
 2. .NET Framework: 사용하는 .NET 버전은 Aspose.Cells와 호환되어야 합니다. 일반적으로 .NET Framework 버전 4.0 이상이면 좋습니다.
-3.  Aspose.Cells 라이브러리: Aspose.Cells for .NET 라이브러리를 다운로드하고 설치하세요. 찾을 수 있습니다.[여기](https://releases.aspose.com/cells/net/). 
+3. Aspose.Cells 라이브러리: Aspose.Cells for .NET 라이브러리를 다운로드하고 설치하세요. 찾을 수 있습니다.[여기](https://releases.aspose.com/cells/net/). 
 4. 기본 C# 지식: C# 프로그래밍에 대한 약간의 지식이 있으면 유용할 것이지만, 코딩 마법사가 될 필요는 없습니다. 저를 믿으세요. 레시피를 따를 수 있다면 이 가이드를 따를 수 있습니다!
 5.  Excel 파일: 우리의 경우에는 시작 Excel 파일이 필요합니다.`Book1.xlsx`아직 없다면 간단한 것을 만들어 보세요.
 이제 모든 준비가 끝났으니, 필요한 패키지를 가져와 보겠습니다!
@@ -50,7 +50,7 @@ string filePath = dataDir + "Book1.xlsx";
 ```csharp
 Workbook workbook = new Workbook(filePath);
 ```
-여기서 무슨 일이 일어나고 있나요? 우리는 새로운 인스턴스를 만들고 있습니다.`Workbook` 클래스를 만들고 기존 Excel 파일의 경로를 전달합니다. 이것은 좋아하는 요리를 찾기 위해 요리책을 여는 것과 같습니다!
+ 여기서 무슨 일이 일어나고 있나요? 우리는 새로운 인스턴스를 만들고 있습니다.`Workbook`클래스를 만들고 기존 Excel 파일의 경로를 전달합니다. 이것은 좋아하는 요리를 찾기 위해 요리책을 여는 것과 같습니다!
 ## 4단계: 통합 문서를 저장하기 위한 FileStream 만들기
  다음으로, 우리는 다음을 생성해야 합니다.`FileStream` 새로 수정한 통합 문서를 저장할 위치를 설정하는 객체입니다. 다음과 같이 코딩합니다.
 ```csharp

@@ -97,7 +97,7 @@ Console.WriteLine("Entire Row: " + rng.EntireRow.Address);
 ```
 这些调用将输出整个 A 列和整个第 1 行，这有助于我们识别与我们的范围相关的所有单元格。
 ## 步骤 9：另一个清晰的分隔符
-就像以前一样，我们将确保输出格式正确：
+就像以前一样，我们将确保输出格式良好：
 ```csharp
 //格式化控制台输出。
 Console.WriteLine("----------------------");
@@ -108,7 +108,7 @@ Console.WriteLine("");
 ```csharp
 Console.WriteLine("GetAddressCellCountOffsetEntireColumnAndEntireRowOfTheRange executed successfully.");
 ```
-就这样！您刚刚创建了一个简单但功能强大的工具，用于使用 Aspose.Cells for .NET 从 Excel 范围中检索基本信息。
+就这样！您刚刚创建了一个简单但功能强大的工具，用于使用 Aspose.Cells for .NET 从 Excel 范围检索基本信息。
 ## 结论
 恭喜您完成本教程！您已经学会了如何使用 Aspose.Cells for .NET 创建工作簿、访问范围和检索有价值的信息。有了这些新技能，您现在可以像专业人士一样处理 Excel 文件。无论您是构建报告、分析数据还是只是涉足数据处理，这个库都是您工具库中一个有价值的工具。
 ## 常见问题解答

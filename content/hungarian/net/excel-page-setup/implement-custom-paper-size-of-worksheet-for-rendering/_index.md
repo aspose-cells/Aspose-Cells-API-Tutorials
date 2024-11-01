@@ -9,14 +9,14 @@ url: /hu/net/excel-page-setup/implement-custom-paper-size-of-worksheet-for-rende
 ---
 ## Bevezetés
 
-Az Excel-dokumentumok programozott létrehozása és testreszabása hatékonyabbá teheti munkáját, különösen akkor, ha számos jelentéssel vagy adatbevitellel foglalkozik. Az Aspose.Cells for .NET segítségével egyszerűen beállíthat egyéni papírméreteket a munkalapok megjelenítéséhez. Ebben az oktatóanyagban a folyamatot könnyen követhető lépésekre bontjuk, így biztosítva, hogy ezt a funkciót zökkenőmentesen megvalósíthassa. Akár tapasztalt fejlesztő, akár csak belemerül a .NET világába,
+Az Excel-dokumentumok programozott létrehozása és testreszabása hatékonyabbá teheti munkáját, különösen akkor, ha számos jelentéssel vagy adatbevitellel foglalkozik. Az Aspose.Cells for .NET segítségével egyszerűen beállíthat egyéni papírméreteket a munkalapok megjelenítéséhez. Ebben az oktatóanyagban a folyamatot könnyen követhető lépésekre bontjuk, így biztosítva, hogy ezt a funkciót zökkenőmentesen megvalósíthassa. Akár tapasztalt fejlesztő vagy, akár csak belemerülsz a .NET világába,
 
 ## Előfeltételek
 
 Mielőtt belemerülnénk a kódba, győződjön meg arról, hogy megfelelően van beállítva. Íme, mire van szüksége az induláshoz:
 
-1. Visual Studio vagy bármely .NET IDE: Győződjön meg arról, hogy van egy működő IDE, mint a Visual Studio. Ez lesz a játszótered, ahol minden kódolási varázslat megtörténik.
-2.  Aspose.Cells for .NET Package: Ha még nem tette meg, le kell töltenie és telepítenie kell az Aspose.Cells könyvtárat. A legújabb verziót megtalálja a[Aspose.Cells letöltési oldal](https://releases.aspose.com/cells/net/).
+1. Visual Studio vagy bármely .NET IDE: Győződjön meg arról, hogy rendelkezik működő IDE-vel, például a Visual Studio-val. Ez lesz a játszótered, ahol minden kódolási varázslat megtörténik.
+2. Aspose.Cells for .NET Package: Ha még nem tette meg, le kell töltenie és telepítenie kell az Aspose.Cells könyvtárat. A legújabb verziót megtalálja a[Aspose.Cells letöltési oldal](https://releases.aspose.com/cells/net/).
 3. Alapvető C# ismerete: Miközben végigvezetjük a kódon, a C# ismerete segít jobban megérteni az árnyalatokat.
 4. Hozzáférés a .NET-keretrendszerhez: Győződjön meg arról, hogy a projekt úgy van beállítva, hogy a .NET-keretrendszer kompatibilis verzióját célozza meg.
 
@@ -51,7 +51,7 @@ Most, hogy minden a helyén van, ássuk be a lépéseket, amelyek szükségesek 
 
 ## 1. lépés: Állítsa be a kimeneti könyvtárat
 
-kódolás megkezdése előtt döntse el, hová szeretné menteni a kimeneti PDF-fájlt, és állítsa be a kódban.
+A kódolás megkezdése előtt döntse el, hová szeretné menteni a kimeneti PDF-fájlt, és állítsa be a kódban.
 
 ```csharp
 string outputDir = "YOUR_OUTPUT_DIRECTORY";
@@ -97,7 +97,7 @@ Cell b4 = ws.Cells["B4"];
 
 Itt a B4 cellát választjuk. Ez olyan, mintha egy adott helyet választana ki a vásznon, hogy szöveget adjon hozzá.
 
-## 6. lépés: Adjon értéket a cellához
+## 6. lépés: Adjon hozzá egy értéket a cellához
 
 Most adjunk hozzá egy üzenetet a kiválasztott cellánkhoz:
 
@@ -124,7 +124,7 @@ Egyedi papírméret megvalósítása Excel-munkalapjaihoz az Aspose.Cells segít
 ## GYIK
 
 ### Használhatom az Aspose.Cells-t licenc megvásárlása nélkül?
-Igen, kipróbálhatja az Aspose.Cells .NET-hez készült ingyenes próbaverzióját[itt](https://releases.aspose.com/).
+ Igen, kipróbálhatja az Aspose.Cells .NET-hez készült ingyenes próbaverzióját[itt](https://releases.aspose.com/).
 
 ### Mi történik, ha túllépem az ideiglenes engedély korlátait?
  A határértékek túllépése vízjeles kimenetekhez vezet. A legjobb, ha állandó licencet választ a folyamatos szolgáltatáshoz. Lehet találni lehetőségeket[itt](https://purchase.aspose.com/buy).

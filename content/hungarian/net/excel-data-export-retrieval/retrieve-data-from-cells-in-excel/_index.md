@@ -124,7 +124,7 @@ foreach (Cell cell1 in worksheet.Cells)
 }
 ```
 
- Ebben a lépésben végigpörgetjük a munkalap egyes celláit. Minden cellánál ellenőrizzük annak adattípusát a segítségével`switch` nyilatkozat. Típustól függően lekérjük az értéket és kinyomtatjuk a konzolra. Íme az esetek bontása:
+ Ebben a lépésben a munkalap egyes cellái között körbejárunk. Minden cellánál ellenőrizzük annak adattípusát a segítségével`switch` nyilatkozat. Típustól függően lekérjük az értéket és kinyomtatjuk a konzolra. Íme az esetek bontása:
 
 -  IsString: Ha a cella tartalmaz egy karakterláncot, akkor azt a használatával kérjük le`StringValue`.
 -  IsNumeric: Numerikus értékekhez használjuk`DoubleValue`.

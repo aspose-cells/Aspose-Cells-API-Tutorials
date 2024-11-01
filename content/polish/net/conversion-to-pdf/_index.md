@@ -2,7 +2,7 @@
 title: Konwersja do PDF
 linktitle: Konwersja do PDF
 second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Przekształć swoje pliki i wykresy programu Excel w płynne pliki PDF dzięki naszym łatwym w użyciu samouczkom Aspose.Cells dla platformy .NET.
+description: Przekształć swoje pliki i wykresy programu Excel w płynne pliki PDF dzięki naszym łatwym w użyciu samouczkom Aspose.Cells dla .NET.
 type: docs
 weight: 34
 url: /pl/net/conversion-to-pdf/
@@ -19,7 +19,7 @@ Przejdźmy od razu do sedna sprawy. Musisz przekonwertować plik Excela na PDF? 
 
 ## Łatwa konwersja wykresów do formatu PDF
 
-Ale czekaj, to nie wszystko! Co jeśli chcesz przekonwertować wykresy z arkuszy Excela do PDF? Tak, Aspose.Cells ma to również dla Ciebie. Niezależnie od tego, czy masz do czynienia z wykresami słupkowymi, kołowymi czy histogramami, nasze samouczki zawierają proste kroki, aby zapewnić, że te wizualizacje zachowają swoją integralność podczas procesu konwersji. Chcesz się dowiedzieć, jak to zrobić? Zapoznaj się z naszym przewodnikiem na temat[Konwertuj wykres do pliku PDF w .NET](./convert-chart-to-pdf/) i odkryj nowe sposoby profesjonalnej prezentacji danych.
+Ale czekaj, to nie wszystko! Co jeśli chcesz przekonwertować wykresy z arkuszy Excela do PDF? Tak, Aspose.Cells ma dla Ciebie rozwiązanie. Niezależnie od tego, czy masz do czynienia z wykresami słupkowymi, kołowymi czy histogramami, nasze samouczki zawierają proste kroki, aby zapewnić, że te wizualizacje zachowają integralność podczas procesu konwersji. Chcesz się dowiedzieć, jak to zrobić? Zapoznaj się z naszym przewodnikiem na temat[Konwertuj wykres do pliku PDF w .NET](./convert-chart-to-pdf/) i odkryj nowe sposoby profesjonalnej prezentacji danych.
 
 ## Samouczki dotyczące konwersji do formatu PDF
 ### [Konwersja Excela do PDF w .NET](./excel-to-pdf-conversion/)

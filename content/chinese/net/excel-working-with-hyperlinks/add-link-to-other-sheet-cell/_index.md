@@ -60,7 +60,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 ```
 现在，`worksheet`是对我们将要添加超链接的第一个工作表的引用。
 ## 步骤6：添加内部超链接
-接下来是激动人心的部分！我们将在“B3”单元格中创建一个指向不同工作表中“B9”单元格的超链接。
+接下来是激动人心的部分！我们将在“B3”单元格中创建一个超链接，指向另一个工作表中的“B9”单元格。
 ```csharp
 //添加指向另一张工作表“Sheet2”的单元格“B9”的内部超链接
 worksheet.Hyperlinks.Add("B3", 1, 1, "Sheet2!B9");

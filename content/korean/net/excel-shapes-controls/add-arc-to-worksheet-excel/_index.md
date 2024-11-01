@@ -108,7 +108,7 @@ Aspose.Cells는 개발자가 Microsoft Excel을 사용하지 않고도 프로그
 ### Aspose.Cells를 사용하려면 Microsoft Excel을 설치해야 합니까?
 아니요, Aspose.Cells는 완전히 독립적이며 Microsoft Excel을 설치할 필요가 없습니다.
 ### Aspose.Cells를 무료로 사용할 수 있나요?
-네, Aspose.Cells를 사용하여 시도할 수 있습니다.[무료 체험](https://releases.aspose.com/).
+ 네, Aspose.Cells를 사용하여 시도할 수 있습니다.[무료 체험](https://releases.aspose.com/).
 ### Aspose.Cells는 어떤 프로그래밍 언어를 지원하나요?
 Aspose.Cells는 C#, VB.NET 등 여러 언어를 지원합니다.
 ### Aspose.Cells에 대한 지원은 어디서 받을 수 있나요?

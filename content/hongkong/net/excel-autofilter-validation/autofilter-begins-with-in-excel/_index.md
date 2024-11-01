@@ -115,7 +115,7 @@ worksheet.AutoFilter.Refresh();
 workbook.Save(outputDir + "outSourseSampleCountryNames.xlsx");
 ```
 
-解釋：`Save`方法將修改後的工作簿寫回指定的輸出路徑。這屬於將定義的篩選器寫入新檔案的範圍，以便原始資料保持完整。
+解釋：`Save`方法將修改後的工作簿寫入指定的輸出路徑。這屬於將定義的篩選器寫入新檔案的範圍，以便原始資料保持完整。
 
 ## 步驟8：輸出確認
 

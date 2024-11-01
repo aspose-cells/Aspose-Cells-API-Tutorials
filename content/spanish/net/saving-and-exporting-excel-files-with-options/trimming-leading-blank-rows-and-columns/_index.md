@@ -54,7 +54,7 @@ wb.Save(dataDir + "outputWithoutTrimBlankColumns.csv");
 ```
 Esta línea guarda el libro de trabajo en un archivo CSV sin realizar ninguna modificación. Es fundamental comparar el resultado antes y después del recorte para ver la diferencia.
 ## Paso 3: Configurar las opciones de recorte
-A continuación, configuraremos una opción para recortar las filas y columnas en blanco iniciales.
+continuación, configuraremos una opción para recortar las filas y columnas en blanco iniciales.
 ```csharp
 // Ahora guarde nuevamente con TrimLeadingBlankRowAndColumn como verdadero
 TxtSaveOptions opts = new TxtSaveOptions();

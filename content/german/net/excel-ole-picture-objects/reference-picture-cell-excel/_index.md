@@ -92,7 +92,7 @@ catch (Exception ex)
 
 - Dadurch werden alle Fehlermeldungen auf der Konsole ausgegeben, sodass Sie leichter Fehler beheben können, wenn etwas nicht wie erwartet funktioniert. Denken Sie daran, dass selbst die besten Programmierer manchmal auf Probleme stoßen!
 ## Abschluss
-Und da haben Sie es! Sie haben mithilfe von Aspose.Cells für .NET erfolgreich auf ein Bild in einer Excel-Zelle verwiesen. Diese einfache, aber leistungsstarke Technik kann die Art und Weise verbessern, wie Sie Daten präsentieren, und Ihre Tabellen nicht nur informativer, sondern auch optisch ansprechender machen. Egal, ob Sie Berichte, Dashboards oder Datenpräsentationen erstellen, die Möglichkeit, mit Zellendaten verknüpfte Bilder einzubinden, ist von unschätzbarem Wert.
+Und da haben Sie es! Sie haben mithilfe von Aspose.Cells für .NET erfolgreich auf ein Bild in einer Excel-Zelle verwiesen. Diese einfache, aber leistungsstarke Technik kann die Art und Weise verbessern, wie Sie Daten präsentieren, und Ihre Tabellen nicht nur informativer, sondern auch optisch ansprechender machen. Egal, ob Sie Berichte, Dashboards oder Datenpräsentationen erstellen, die Möglichkeit, mit Zellendaten verknüpfte Bilder einzufügen, ist von unschätzbarem Wert.
 ## Häufig gestellte Fragen
 ### Was ist Aspose.Cells?
 Aspose.Cells ist eine .NET-Bibliothek zum Verwalten von Excel-Dateien, die es Entwicklern ermöglicht, Excel-Dokumente zu erstellen, zu bearbeiten und zu konvertieren, ohne Microsoft Excel installieren zu müssen.

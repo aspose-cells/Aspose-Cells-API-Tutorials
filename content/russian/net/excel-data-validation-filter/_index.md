@@ -2,7 +2,7 @@
 title: Проверка и фильтрация данных Excel
 linktitle: Проверка и фильтрация данных Excel
 second_title: API обработки Excel Aspose.Cells .NET
-description: Откройте для себя учебные пособия Aspose.Cells для .NET по проверке данных Excel и фильтрам — простые руководства для повышения вашей производительности.
+description: Откройте для себя учебные пособия Aspose.Cells для .NET по проверке данных Excel и фильтрам — простые руководства по повышению вашей производительности.
 type: docs
 weight: 35
 url: /ru/net/excel-data-validation-filter/

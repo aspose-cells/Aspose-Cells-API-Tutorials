@@ -66,7 +66,7 @@ Prima di arrivare alla parte emozionante, dobbiamo definire dove vogliamo che ve
 ```csharp
 string outputDir = "C:\\YourOutputDirectory\\"; // Passa alla directory specificata
 ```
- Assicurati di sostituire`"C:\\YourOutputDirectory\\"` con il percorso in cui vuoi che il tuo file venga salvato. Considera questo come l'impostazione del tuo spazio di lavoro; devi sapere dove stai mettendo i tuoi strumenti (o in questo caso, il tuo file Excel).
+ Assicurati di sostituire`"C:\\YourOutputDirectory\\"`con il percorso in cui vuoi che il tuo file venga salvato. Considera questo come l'impostazione del tuo spazio di lavoro; devi sapere dove stai mettendo i tuoi strumenti (o in questo caso, il tuo file Excel).
 
 ## Passaggio 2: creazione di un'istanza di un oggetto cartella di lavoro
 

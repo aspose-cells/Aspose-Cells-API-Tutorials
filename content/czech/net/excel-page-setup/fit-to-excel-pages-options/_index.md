@@ -16,7 +16,7 @@ Vítejte v dokonalém průvodci o využití výkonné knihovny Aspose.Cells pro 
 Než se pustíte do kódování, ujistěte se, že máte vše, co potřebujete, abyste mohli začít. Zde je to, co byste měli mít na svém místě:
 
 1. Visual Studio: Ujistěte se, že máte na svém počítači nainstalované Visual Studio. Toto je vaše hlavní centrum pro veškerou vývojovou práci.
-2. Aspose.Cells for .NET: Musíte mít staženou knihovnu Aspose.Cells a přidat ji do svého projektu. Můžete jej snadno uchopit z[Aspose webové stránky](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells for .NET: Musíte mít staženou knihovnu Aspose.Cells a přidat ji do svého projektu. Můžete jej snadno uchopit z[Aspose webové stránky](https://releases.aspose.com/cells/net/).
 3. Základní znalost C#: Znalost programování v C# nesmírně pomůže. Pokud zvládnete proměnné, smyčky a základní souborové I/O, budete jako doma.
 4. .NET Framework: Ujistěte se, že je váš projekt nastaven s příslušnou verzí rozhraní .NET Framework, protože knihovna je navržena pro kompatibilitu v rámci tohoto ekosystému.
 
@@ -69,7 +69,7 @@ Nyní nastavíme parametry, aby se váš list vešel na konkrétní stránky. Zd
 ```csharp
 // Nastavení počtu stránek, na které bude délka listu roztažena
 worksheet.PageSetup.FitToPagesTall = 1;
-// Nastavení počtu stránek, na které bude šířka listu roztažena
+//Nastavení počtu stránek, na které bude šířka listu roztažena
 worksheet.PageSetup.FitToPagesWide = 1;
 ```
 
@@ -89,7 +89,7 @@ workbook.Save(dataDir + "FitToPagesOptions_out.xls");
 
 ## Závěr
 
-A tady to máte! Naučili jste se, jak využít možnosti Fit to Excel Pages v Aspose.Cells for .NET, abyste zajistili, že vaše tabulky budou při tisku nebo sdílení vypadat bezchybně. Zvládnutí těchto technik může zefektivnit vaše prezentace dat a zlepšit celkovou efektivitu při práci s dokumenty aplikace Excel. Pamatujte, že síla Aspose.Cells vám umožňuje posouvat hranice toho, co je možné v automatizaci Excelu. 
+tady to máte! Naučili jste se, jak využít možnosti Fit to Excel Pages v Aspose.Cells for .NET, abyste zajistili, že vaše tabulky budou při tisku nebo sdílení vypadat bezchybně. Zvládnutí těchto technik může zefektivnit vaše prezentace dat a zlepšit celkovou efektivitu při práci s dokumenty aplikace Excel. Pamatujte, že síla Aspose.Cells vám umožňuje posouvat hranice toho, co je možné v automatizaci Excelu. 
 
 ## FAQ
 

@@ -69,7 +69,7 @@ Il est maintenant temps de créer un nouveau classeur. C'est essentiellement là
 Workbook workbook = new Workbook();
 ```
 
- Ici, nous déclarons une nouvelle`Workbook`objet qui représente un fichier Excel et va nous permettre de manipuler son contenu.
+ Ici, nous déclarons une nouvelle`Workbook` objet qui représente un fichier Excel et va nous permettre de manipuler son contenu.
 
 ## Étape 3 : Accéder à la première feuille de travail
 

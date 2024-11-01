@@ -72,7 +72,7 @@ Console.WriteLine("TilePictureAsTextureInsideShape executed successfully.\r\n");
 ```
 此訊息將顯示在您的控制台中，確認操作已成功執行。
 ## 結論
-現在你就得到它了！您已經成功學習如何使用 Aspose.Cells for .NET 將圖片作為紋理平鋪在 Excel 中的形狀內。這項技術不僅增強了電子表格的美觀性，而且還展示了 Aspose.Cells 在無縫操作 Excel 文件方面的強大功能和靈活性。因此，下次您想讓 Excel 工作表變得生動活潑時，請不要忘記使用這個方便的技巧！ 
+現在你就擁有了！您已經成功學習如何使用 Aspose.Cells for .NET 將圖片作為紋理平鋪在 Excel 中的形狀內。這項技術不僅增強了電子表格的美觀性，而且還展示了 Aspose.Cells 在無縫操作 Excel 文件方面的強大功能和靈活性。因此，下次您想讓 Excel 工作表變得生動活潑時，請不要忘記使用這個方便的技巧！ 
 ## 常見問題解答
 ### 什麼是 Aspose.Cells？
 Aspose.Cells 是一個 .NET 函式庫，用於建立、操作和轉換 Excel 文件，而無需 Microsoft Excel。
@@ -83,4 +83,4 @@ Aspose.Cells 是一個 .NET 函式庫，用於建立、操作和轉換 Excel 文
 ### 如果我在使用 Aspose.Cells 時遇到問題怎麼辦？
 您可以從 Aspose 的支援論壇尋求協助來解決您可能遇到的任何問題或疑問。
 ### 在哪裡可以購買 Aspose.Cells 的許可證？
-您可以直接從[Aspose購買頁面](https://purchase.aspose.com/buy).
+您可以直接從以下網站購買許可證[Aspose購買頁面](https://purchase.aspose.com/buy).

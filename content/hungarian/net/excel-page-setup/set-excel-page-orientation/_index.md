@@ -9,7 +9,7 @@ url: /hu/net/excel-page-setup/set-excel-page-orientation/
 ---
 ## Bevezetés
 
-Ha az Excel-fájlok programozott kezeléséről van szó, az Aspose.Cells for .NET egy hatékony könyvtár, amely jelentősen leegyszerűsíti a folyamatot. De azon kapta magát valaha, hogy azon töprengett, hogyan állíthatja be az oldal tájolását egy Excel-lapon? szerencséd van! Ez az útmutató végigvezeti az Excel oldaltájolás beállításán az Aspose.Cells használatával. Mire ezt befejezzük, néhány sornyi kóddal zökkenőmentes műveletekké alakíthatja hétköznapi feladatait!
+Ha az Excel-fájlok programozott kezeléséről van szó, az Aspose.Cells for .NET egy hatékony könyvtár, amely jelentősen leegyszerűsíti a folyamatot. De előfordult már, hogy azon töprengett, hogyan állíthatja be az oldal tájolását egy Excel-lapon? szerencséd van! Ez az útmutató végigvezeti az Excel oldaltájolás beállításán az Aspose.Cells használatával. Mire ezt befejezzük, néhány sornyi kóddal zökkenőmentes műveletekké alakíthatja hétköznapi feladatait!
 
 ## Előfeltételek
 

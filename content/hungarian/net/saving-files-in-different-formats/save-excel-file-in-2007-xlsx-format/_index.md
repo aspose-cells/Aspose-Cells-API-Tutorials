@@ -12,7 +12,7 @@ Előfordult már, hogy bonyolult Excel fájlformátumokkal küszködik, és elve
 ## Előfeltételek
 Mielőtt belevágnánk a lédús részletekbe, meg kell felelnie néhány előfeltételnek:
 1. Visual Studio – Győződjön meg arról, hogy a Visual Studio telepítve van a rendszeren. Segítségével könnyedén megírhatja és végrehajthatja C# kódját.
-2.  Aspose.Cells Library – Szüksége lesz az Aspose.Cells for .NET könyvtárra. Könnyen letöltheti a[Az Aspose Cells kiadási oldala](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells Library – Szüksége lesz az Aspose.Cells for .NET könyvtárra. Könnyen letöltheti a[Az Aspose Cells kiadási oldala](https://releases.aspose.com/cells/net/).
 3. Alapvető programozási ismeretek – A C# és a .NET ismeretében jobban megértheti az általunk tárgyalt kódrészleteket.
 4. Tesztdokumentumkönyvtár – Hozzon létre vagy döntsön egy mappáról, ahová menteni és tesztelni szeretné Excel fájljait. Ebben az oktatóanyagban a „Saját dokumentumkönyvtár” néven fogjuk hivatkozni rá.
 Ha minden a helyén van, készen áll, hogy megmutassa képességeit!
@@ -29,7 +29,7 @@ using Aspose.Cells;
 Ez a névtér hozzáférést biztosít az Excel-fájlokkal való munkavégzéshez szükséges összes osztályhoz és metódushoz.
 Tekerésre készen állsz? Bontsuk fel a folyamatot kezelhető lépésekre.
 ## 1. lépés: Állítsa be a dokumentumkönyvtárat
-kódban elengedhetetlen, hogy meghatározza a dokumentumkönyvtár elérési útját, ahová az Excel fájl mentésre kerül. Ezt megteheti egy karakterlánc-változó deklarálásával:
+A kódban elengedhetetlen, hogy meghatározza a dokumentumkönyvtár elérési útját, ahová az Excel fájl mentésre kerül. Ezt megteheti egy karakterlánc-változó deklarálásával:
 ```csharp
 string dataDir = "Your Document Directory"; // Cserélje ki a tényleges útvonalat
 ```

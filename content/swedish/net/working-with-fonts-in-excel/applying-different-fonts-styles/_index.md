@@ -68,7 +68,7 @@ Aspose.Cells.Cell cell = worksheet.Cells["A1"];
 
 - Här väljer vi cellen "A1", som är den första cellen i kalkylbladet. Du kan ändra cellens position efter behov.
 ## Steg 7: Lägg till värde till cellen
-Nu, låt oss lägga in lite data i cellen.
+Låt oss nu lägga in lite data i cellen.
 ```csharp
 cell.PutValue("Hello Aspose!");
 ```

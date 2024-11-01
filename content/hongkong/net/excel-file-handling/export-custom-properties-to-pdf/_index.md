@@ -11,7 +11,7 @@ url: /zh-hant/net/excel-file-handling/export-custom-properties-to-pdf/
 在使用 Excel 檔案時，人們經常會遇到需要以一種普遍接受的格式（例如 PDF）共享資料的情況。如果沒有合適的工具，將自訂屬性從 Excel 檔案匯出到 PDF 可能是一項艱鉅的任務。這就是 Aspose.Cells for .NET 的用武之地，它提供了一個強大的解決方案，使這個過程無縫且有效率。在本文中，我們將引導您完成使用 Aspose.Cells for .NET 將自訂屬性從 Excel 檔案匯出為 PDF 格式所需的步驟。在本指南結束時，您將具備正面解決此任務所需的所有知識！
 ## 先決條件
 在我們深入討論細節之前，讓我們先回顧一下您需要的一些先決條件：
-1. .NET 環境：確保您已設定 .NET 開發環境，例如 Visual Studio。
+1. .NET 環境：確保設定了 .NET 開發環境，例如 Visual Studio。
 2.  Aspose.Cells for .NET：下載並安裝最新版本的 Aspose.Cells for .NET。你可以找到它[這裡](https://releases.aspose.com/cells/net/).
 3. C# 基礎知識：熟悉 C# 程式設計將幫助您更輕鬆地理解程式碼範例。
 ## 導入包
@@ -80,7 +80,7 @@ Console.WriteLine("ExportCustomPropertiesToPDF executed successfully.");
 ```
 此訊息將出現在您的控制台中，讓您知道一切順利。
 ## 結論
-現在你就得到它了！您已經了解如何使用 Aspose.Cells for .NET 將自訂屬性從 Excel 檔案匯出到 PDF 文件。這種方法不僅使資料共享變得更加容易，而且還確保您輸入到 Excel 文件中的自訂元資料保持完整併可以 PDF 格式存取。無論您正在處理專案文件、報告或資料摘要，此方法都是對您的工具包的寶貴補充。不要猶豫，探索 Aspose.Cells 文檔[這裡](https://reference.aspose.com/cells/net/)以獲得更強大的功能。
+現在你就擁有了！您已經了解如何使用 Aspose.Cells for .NET 將自訂屬性從 Excel 檔案匯出到 PDF 文件。這種方法不僅使資料共享變得更加容易，而且還確保您輸入到 Excel 文件中的自訂元資料保持完整併可以 PDF 格式存取。無論您正在處理專案文件、報告或資料摘要，此方法都是對您的工具包的寶貴補充。不要猶豫，探索 Aspose.Cells 文檔[這裡](https://reference.aspose.com/cells/net/)以獲得更強大的功能。
 ## 常見問題解答
 ### Excel 中的自訂屬性是什麼？
 自訂屬性是可以與 Excel 工作簿關聯的元資料字段，例如作者姓名、標題或特定於您的需求的自訂資料。

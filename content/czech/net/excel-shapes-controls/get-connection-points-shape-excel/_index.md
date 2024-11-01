@@ -35,7 +35,7 @@ této části vás provedeme tím, jak extrahovat spojovací body tvaru v listu 
 Workbook workbook = new Workbook();
 ```
  V tomto kroku jsme vytvořili prázdný sešit aplikace Excel, ale můžete také načíst existující sešit tak, že předáte cestu k souboru`Workbook` konstruktér.
-## Krok 2: Otevřete první pracovní list
+## Krok 2: Otevřete první list
 Dále musíme přistoupit k listu, kde chceme pracovat s tvary. V tomto případě použijeme první list sešitu.
 ```csharp
 // Získejte první pracovní list v sešitu

@@ -22,7 +22,7 @@ url: /el/java/advanced-excel-charts/chart-annotations/
 
 ## Ρύθμιση Aspose.Cells για Java
 
- Για να ξεκινήσετε, πρέπει να ρυθμίσετε το Aspose.Cells για Java στο έργο σας. Μπορείτε να κατεβάσετε τη βιβλιοθήκη από τον ιστότοπο Aspose[εδώ](https://releases.aspose.com/cells/java/). Μετά τη λήψη, προσθέστε τη βιβλιοθήκη στο έργο σας Java.
+Για να ξεκινήσετε, πρέπει να ρυθμίσετε το Aspose.Cells για Java στο έργο σας. Μπορείτε να κατεβάσετε τη βιβλιοθήκη από τον ιστότοπο Aspose[εδώ](https://releases.aspose.com/cells/java/). Μετά τη λήψη, προσθέστε τη βιβλιοθήκη στο έργο σας Java.
 
 ## Δημιουργία βιβλίου εργασίας του Excel
 

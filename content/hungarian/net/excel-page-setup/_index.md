@@ -26,7 +26,7 @@ Az Aspose.Cells for .NET egy hatékony eszköz az Excel fájlokkal dolgozó fejl
 
 ## Javítsa ki elrendezését margókkal és sorrenddel 
 
- Az árrés többet számít, mint gondolnád! Befolyásolhatják az információk megjelenítését, és még a nyomtatott dokumentumok olvashatóságát is befolyásolhatják. Útmutatóink követésével[Állítsa be az Excel margóit](./set-excel-margins/) és[Állítsa be az Excel oldalsorrendjét](./set-excel-page-order/)akkor elsajátítja ezeket a kulcsfontosságú elemeket. Megtanulja, hogyan biztosíthatja, hogy tartalma jól szervezett és esztétikus legyen, ami végső soron javítja az olvasó élményét.
+ Az árrés többet számít, mint gondolnád! Befolyásolhatják az információk megjelenítését, és még a nyomtatott dokumentumok olvashatóságát is befolyásolhatják. Ha követi a következő útmutatónkat[Állítsa be az Excel margóit](./set-excel-margins/) és[Állítsa be az Excel oldalsorrendjét](./set-excel-page-order/)akkor elsajátítja ezeket a kulcsfontosságú elemeket. Megtanulja, hogyan biztosíthatja, hogy tartalma jól szervezett és esztétikus legyen, ami végső soron javítja az olvasó élményét.
 
 ## Végső virágzás fejlécekkel és láblécekkel 
 

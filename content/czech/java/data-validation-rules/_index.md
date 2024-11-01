@@ -18,10 +18,10 @@ Aspose.Cells vám umožňuje vytvářet vlastní pravidla ověřování dat při
 Sledováním našich komplexních výukových programů o pravidlech ověřování dat pomocí Aspose.Cells for Java získáte odborné znalosti potřebné k vytváření bezchybných listů aplikace Excel. Zvyšte přesnost svých dat, zefektivněte procesy a staňte se zkušeným uživatelem Excelu. Začněte svou cestu ještě dnes a excelujte v Excelu!"
 
 ## Výukové programy pravidel ověřování dat
-### [Vytváření ověřování vlastních dat](./creating-custom-data-validation/)
+### [Vytváření vlastních ověřování dat](./creating-custom-data-validation/)
 Naučte se vytvářet vlastní ověřování dat pomocí Aspose.Cells for Java. Průvodce krok za krokem se zdrojovým kódem.
 ### [Dynamické rozevírací seznamy v Excelu](./dynamic-dropdown-lists-in-excel/)
-Objevte sílu dynamických rozevíracích seznamů v Excelu. Průvodce krok za krokem pomocí Aspose.Cells pro Javu. Vylepšete své tabulky interaktivním výběrem dat.
+Objevte sílu dynamických rozevíracích seznamů v Excelu. Podrobný průvodce pomocí Aspose.Cells pro Javu. Vylepšete své tabulky interaktivním výběrem dat.
 ### [Chybové zprávy ověření dat](./data-validation-error-messages/)
 Optimalizujte své chybové zprávy ověřování dat pomocí Aspose.Cells for Java. Naučte se vytvářet, přizpůsobovat a zlepšovat uživatelské prostředí.
 ### [Kaskádové rozevírací seznamy v Excelu](./cascading-dropdowns-in-excel/)

@@ -55,7 +55,7 @@ string sourceDir = "Your Document Directory/";
 string outputDir = "Your Output Directory/";
 ```
 
- Cserélje ki`Your Document Directory` és`Your Output Directory`tényleges elérési utakkal a számítógépén. 
+ Cserélje ki`Your Document Directory` és`Your Output Directory` tényleges elérési utakkal a számítógépén. 
 
 ## 2. lépés: Töltse be a meglévő munkafüzetet
 
@@ -100,7 +100,7 @@ Miután kiválasztotta a diagramot, ideje hozzáadni a képet!
 Aspose.Cells.Drawing.Picture pic0 = chart.Shapes.AddPictureInChart(50, 50, stream, 200, 200);
 ```
 
- Itt,`50` és`50` azok az X és Y koordináták, ahová a kép kerül, és`200` kép szélessége és magassága.
+ Itt,`50` és`50` azok az X és Y koordináták, ahová a kép kerül, és`200` a kép szélessége és magassága.
 
 ## 6. lépés: A kép vonalformátumának testreszabása
 
@@ -154,7 +154,7 @@ Az Aspose.Cells számos képformátumot támogat, beleértve a PNG, JPEG, BMP é
  Biztosan! Az X és Y koordináták a`AddPictureInChart` módszer lehetővé teszi a pontos pozicionálást.
 
 ### Az Aspose.Cells ingyenesen használható?
- Az Aspose.Cells ingyenes próbaverziót kínál, de a teljes szolgáltatáshoz licenc szükséges. Az árat megtalálod[itt](https://purchase.aspose.com/buy).
+Az Aspose.Cells ingyenes próbaverziót kínál, de a teljes szolgáltatáshoz licenc szükséges. Az árat megtalálod[itt](https://purchase.aspose.com/buy).
 
 ### Hol találok több példát?
  Nézze meg a[Aspose.Cells dokumentáció](https://reference.aspose.com/cells/net/) részletesebb példákért és funkciókért.

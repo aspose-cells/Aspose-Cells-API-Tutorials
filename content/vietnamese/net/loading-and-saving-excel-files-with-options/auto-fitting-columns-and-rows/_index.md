@@ -12,7 +12,7 @@ Bạn đã bao giờ tự hỏi làm thế nào để tự động điều chỉ
 ### Điều kiện tiên quyết
 Trước khi bắt đầu viết mã, có một vài thứ bạn cần thiết lập trên hệ thống của mình. Đừng lo lắng, nó rất đơn giản và dễ hiểu!
 1. Đã cài đặt Visual Studio: Bạn sẽ cần Visual Studio hoặc bất kỳ môi trường phát triển .NET nào khác.
-2.  Aspose.Cells cho .NET: Bạn có thể[tải xuống phiên bản mới nhất](https://releases.aspose.com/cells/net/)hoặc sử dụng trình quản lý gói NuGet để cài đặt nó.
+2.  Aspose.Cells cho .NET: Bạn có thể[tải xuống phiên bản mới nhất](https://releases.aspose.com/cells/net/) hoặc sử dụng trình quản lý gói NuGet để cài đặt nó.
 3. .NET Framework: Đảm bảo bạn đã cài đặt .NET Framework 4.0 trở lên.
 4. Hiểu biết cơ bản về C#: Có một số hiểu biết về C# sẽ giúp bạn hiểu hướng dẫn này dễ dàng hơn.
 5. Dữ liệu bảng HTML: Chuẩn bị một số nội dung HTML (thậm chí là bảng cơ bản) mà bạn muốn tải vào Excel.
@@ -44,9 +44,9 @@ Chúng tôi đang định nghĩa một chuỗi HTML rất cơ bản ở đây. N
 ```csharp
 MemoryStream ms = new MemoryStream(Encoding.UTF8.GetBytes(sampleHtml));
 ```
- Bằng cách chuyển đổi chuỗi HTML thành một mảng byte và đưa nó vào một`MemoryStream`chúng ta có thể làm việc với dữ liệu HTML trong bộ nhớ. Hãy tưởng tượng bước này giống như việc chuẩn bị món ăn trong nồi trước khi cho vào lò nướng!
+ Bằng cách chuyển đổi chuỗi HTML thành một mảng byte và đưa nó vào một`MemoryStream`, chúng ta có thể làm việc với dữ liệu HTML trong bộ nhớ. Hãy tưởng tượng bước này giống như việc chuẩn bị món ăn trong nồi trước khi cho vào lò nướng!
 ## Bước 4: Tải MemoryStream vào một Workbook (Không có Auto-Fitting)
- Khi chúng ta có nội dung HTML trong bộ nhớ, chúng ta tải nó vào Aspose`Workbook`. Tại thời điểm này, chúng tôi vẫn chưa tự động điều chỉnh các cột và hàng. Đây là kịch bản "trước" của chúng tôi, để so sánh với phiên bản tự động điều chỉnh sau.
+ Khi chúng ta có nội dung HTML trong bộ nhớ, chúng ta tải nó vào Aspose`Workbook`Tại thời điểm này, chúng tôi vẫn chưa tự động điều chỉnh các cột và hàng. Đây là kịch bản "trước" của chúng tôi, để so sánh với phiên bản tự động điều chỉnh sau.
 ```csharp
 Workbook wb = new Workbook(ms);
 wb.Save(dataDir + "outputWithout_AutoFitColsAndRows.xlsx");
@@ -60,7 +60,7 @@ opts.AutoFitColsAndRows = true;
 ```
 Bằng cách thiết lập tùy chọn này, chúng ta đang yêu cầu Aspose.Cells tự động thay đổi kích thước các hàng và cột. Hãy tưởng tượng điều này giống như việc thiết lập lò nướng ở nhiệt độ hoàn hảo để bánh nở vừa phải!
 ## Bước 6: Tải HTML vào Workbook với tính năng Tự động điều chỉnh được bật
- Bây giờ chúng ta tải lại nội dung HTML, nhưng lần này với`AutoFitColsAndRows` tùy chọn được bật. Điều này sẽ điều chỉnh độ rộng cột và chiều cao hàng dựa trên nội dung bên trong chúng.
+ Bây giờ chúng ta tải lại nội dung HTML, nhưng lần này với`AutoFitColsAndRows`tùy chọn được bật. Điều này sẽ điều chỉnh độ rộng cột và chiều cao hàng dựa trên nội dung bên trong chúng.
 ```csharp
 wb = new Workbook(ms, opts);
 wb.Save(dataDir + "outputWith_AutoFitColsAndRows.xlsx");

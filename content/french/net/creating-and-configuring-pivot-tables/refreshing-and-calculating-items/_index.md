@@ -16,7 +16,7 @@ Avant de nous plonger dans le code, assurons-nous que vous disposez de la config
 - Assurez-vous d'avoir installé le framework .NET, compatible avec Aspose.Cells.
 ### 2. Aspose.Cells pour .NET
 - Vous aurez besoin de la bibliothèque Aspose.Cells pour .NET, que vous pouvez télécharger à partir du[Page de sortie d'Aspose](https://releases.aspose.com/cells/net/).
--  En option, vous pouvez envisager la[Essai gratuit](https://releases.aspose.com/) pour évaluer la bibliothèque.
+-  En option, vous pouvez envisager la[Essai gratuit](https://releases.aspose.com/) évaluer la bibliothèque.
 ### 3. Fichiers d'échantillons
 -  Préparez un fichier Excel (par exemple,`sample.xlsx`) avec un tableau croisé dynamique et des éléments calculés. Vous utiliserez ce fichier tout au long du didacticiel.
 Maintenant que nous avons couvert les prérequis, passons à la mise en œuvre proprement dite !

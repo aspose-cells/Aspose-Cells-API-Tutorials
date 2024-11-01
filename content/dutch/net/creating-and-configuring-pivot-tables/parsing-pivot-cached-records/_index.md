@@ -105,7 +105,7 @@ wb.Save(outputDir + "outputParsingPivotCachedRecordsWhileLoadingExcelFile.xlsx")
 ```
 Deze regel slaat onze werkmap op in de opgegeven uitvoermap. Het is alsof we onze schat veilig opbergen na een succesvolle expeditie!
 ## Stap 11: Bericht dat de afdruk is voltooid
-En als laatste, maar zeker niet onbelangrijk, laten we onszelf even laten weten dat de taak voltooid is.
+En als laatste, maar zeker niet onbelangrijk, laten we onszelf ervan op de hoogte stellen dat de taak voltooid is.
 ```csharp
 Console.WriteLine("ParsingPivotCachedRecordsWhileLoadingExcelFile executed successfully.");
 ```

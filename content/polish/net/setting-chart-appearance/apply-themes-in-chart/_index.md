@@ -99,7 +99,7 @@ Ta linijka kodu sprawia, że pierwsza seria na wykresie ma ustawione wypełnieni
  Teraz, gdy nasza seria jest gotowa, musimy zmodyfikować jej kolor. Wiąże się to z utworzeniem`CellsColor` obiekt i określenie koloru motywu. Wybierzemy styl akcentu dla tego przykładu.
 
 ```csharp
-// Pobierz kolor komórek SolidFill
+//Pobierz kolor komórek SolidFill
 CellsColor cc = chart.NSeries[0].Area.FillFormat.SolidFill.CellsColor;
 
 // Utwórz motyw w stylu Accent
@@ -112,7 +112,7 @@ Oto co się dzieje:
 
 ## Krok 7: Zastosuj motyw do serii
 
-Po skonfigurowaniu koloru czas zastosować nowy motyw w naszej serii. 
+Po skonfigurowaniu koloru czas zastosować nowy motyw do naszej serii. 
 
 ```csharp
 // Zastosuj motyw do serii
@@ -158,7 +158,7 @@ Aspose.Cells to zaawansowana biblioteka dla platformy .NET umożliwiająca progr
 Aspose.Cells obsługuje różne kolory motywu, w tym style akcentujące i inne.
 
 ### Czy można stosować motywy do wielu wykresów?
- Oczywiście! Możesz przejść przez`worksheet.Charts` i stosuj motywy według potrzeb.
+Oczywiście! Możesz przejść przez`worksheet.Charts` i stosuj motywy według potrzeb.
 
 ### Gdzie mogę uzyskać pomoc dotyczącą Aspose.Cells?
  Możesz uzyskać wsparcie i nawiązać kontakt ze społecznością użytkowników[Tutaj](https://forum.aspose.com/c/cells/9).

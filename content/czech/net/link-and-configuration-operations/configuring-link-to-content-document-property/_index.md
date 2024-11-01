@@ -9,17 +9,17 @@ url: /cs/net/link-and-configuration-operations/configuring-link-to-content-docum
 ---
 ## Zavedení
 
-V tomto tutoriálu si projdeme, jak nakonfigurovat odkaz na obsah pro vlastní vlastnosti dokumentu v souborech aplikace Excel pomocí Aspose.Cells for .NET. Rozdělím jednotlivé části procesu, aby bylo pro vás co nejjednodušší sledovat, takže se připoutejte a pojďme se ponořit do světa propojení vlastních vlastností dokumentu s obsahem ve vašich excelových sešitech.
+tomto tutoriálu si projdeme, jak nakonfigurovat odkaz na obsah pro vlastní vlastnosti dokumentu v souborech aplikace Excel pomocí Aspose.Cells for .NET. Rozdělím jednotlivé části procesu, aby bylo pro vás co nejjednodušší sledovat, takže se připoutejte a pojďme se ponořit do světa propojení vlastních vlastností dokumentu s obsahem ve vašich excelových sešitech.
 
 ## Předpoklady
 
 Než začneme, ujistěte se, že máte vše, co potřebujete. Bez následujících předpokladů nebude proces probíhat hladce:
 
-1. Knihovna Aspose.Cells for .NET: Musíte mít na svém počítači nainstalované Aspose.Cells for .NET. Pokud jste si ji ještě nestáhli, stáhněte si ji z[Stránka ke stažení Aspose.Cells for .NET](https://releases.aspose.com/cells/net/).
+1.  Knihovna Aspose.Cells for .NET: Musíte mít na svém počítači nainstalované Aspose.Cells for .NET. Pokud jste si ji ještě nestáhli, stáhněte si ji z[Stránka ke stažení Aspose.Cells for .NET](https://releases.aspose.com/cells/net/).
 2. Vývojové prostředí: Použijte jakékoli vývojové prostředí s podporou .NET, jako je Visual Studio.
 3. Základní znalost C#: Tato příručka předpokládá, že máte určitou znalost C# a .NET.
 4. Soubor Excel: Mějte existující soubor Excel, se kterým můžete pracovat. V našem příkladu použijeme soubor s názvem "sample-document-properties.xlsx".
-5.  Dočasná licence: Pokud nemáte plnou licenci, můžete získat a[dočasná licence zde](https://purchase.aspose.com/temporary-license/) abyste se vyhnuli omezením při manipulaci se soubory.
+5. Dočasná licence: Pokud nemáte plnou licenci, můžete získat a[dočasná licence zde](https://purchase.aspose.com/temporary-license/) abyste se vyhnuli omezením při manipulaci se soubory.
 
 ## Importujte balíčky
 
@@ -49,7 +49,7 @@ string dataDir = "Your Document Directory";
 Workbook workbook = new Workbook(dataDir + "sample-document-properties.xlsx");
 ```
 
--  Workbook workbook = new Workbook(): Tento řádek vytvoří nový`Workbook` object, což je hlavní třída používaná pro práci se soubory Excel v Aspose.Cells.
+-  Workbook workbook = new Workbook(): Tento řádek vytvoří nový`Workbook`object, což je hlavní třída používaná pro práci se soubory Excel v Aspose.Cells.
 - dataDir: Zde zadáte cestu k souboru Excel. Nahraďte "Your Document Directory" skutečnou cestou na vašem počítači.
 
 Berte tento krok jako otevření dveří – přistupujete k souboru, abyste mohli provést potřebné změny!
@@ -59,7 +59,7 @@ Berte tento krok jako otevření dveří – přistupujete k souboru, abyste moh
 Jakmile je soubor načten, potřebujeme získat přístup k jeho uživatelským vlastnostem dokumentu. Tyto vlastnosti jsou uloženy v kolekci, kterou můžete načíst a manipulovat s nimi.
 
 ```csharp
-//Získejte seznam všech vlastních vlastností dokumentu souboru Excel
+// Získejte seznam všech vlastních vlastností dokumentu souboru Excel
 Aspose.Cells.Properties.CustomDocumentPropertyCollection customProperties = workbook.Worksheets.CustomDocumentProperties;
 ```
 
@@ -93,7 +93,7 @@ bool islinkedtocontent = customProperty1.IsLinkedToContent;
 ```
 
 - customProperties["Owner"]: Načítáme vlastnost "Owner" podle názvu, abychom mohli zkontrolovat její podrobnosti.
--  IsLinkedToContent: Tato booleovská hodnota se vrací`true` pokud je vlastnost úspěšně propojena s obsahem.
+- IsLinkedToContent: Tato booleovská hodnota se vrací`true` pokud je vlastnost úspěšně propojena s obsahem.
 
 V této fázi je to jako kontrola, zda je štítek (vlastnost) správně připojen k obsahu. Zajišťujete, že váš kód udělal to, co jste očekávali.
 
@@ -126,7 +126,7 @@ Přemýšlejte o tomto kroku jako o stisknutí tlačítka „Uložit“, abyste 
 ## Závěr
 
 A tady to máte! Propojení vlastní vlastnosti dokumentu s obsahem v souboru Excel pomocí Aspose.Cells for .NET je přímočará, ale neuvěřitelně užitečná funkce. Ať už automatizujete generování sestav nebo spravujete velké sady souborů aplikace Excel, tato funkce vám pomůže dynamicky propojit metadata se skutečným obsahem vašich dokumentů.
-tomto tutoriálu jsme prošli celým procesem krok za krokem, od načtení sešitu až po uložení aktualizovaného souboru. Provedením těchto kroků nyní máte nástroje k automatizaci tohoto procesu v rámci svých vlastních projektů.
+V tomto tutoriálu jsme prošli celým procesem krok za krokem, od načtení sešitu až po uložení aktualizovaného souboru. Provedením těchto kroků nyní máte nástroje k automatizaci tohoto procesu v rámci svých vlastních projektů.
 
 ## FAQ
 
@@ -143,4 +143,4 @@ Propojená vlastnost se automaticky aktualizuje, aby odrážela nový obsah v ur
  Ano, ale bezplatná verze má omezení. Můžete získat a[dočasná licence](https://purchase.aspose.com/temporary-license/) k prozkoumání všech funkcí.
 
 ### Mohu tuto funkci použít s jinými formáty dokumentů, jako je CSV?
-Ne, tato funkce je určena speciálně pro soubory Excel, protože soubory CSV nepodporují vlastní vlastnosti dokumentu.
+Ne, tato funkce je specificky určena pro soubory Excel, protože soubory CSV nepodporují vlastní vlastnosti dokumentu.

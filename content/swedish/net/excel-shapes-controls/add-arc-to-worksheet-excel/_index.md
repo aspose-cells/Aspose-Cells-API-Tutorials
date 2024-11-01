@@ -43,7 +43,7 @@ bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
-det här kodavsnittet anger vi sökvägen till dokumentkatalogen. Vi kontrollerar även om katalogen finns; om inte, skapar vi det. Detta lägger grunden för vår produktion.
+I det här kodavsnittet anger vi sökvägen till dokumentkatalogen. Vi kontrollerar även om katalogen finns; om inte, skapar vi det. Detta lägger grunden för vår produktion.
 ## Steg 2: Instantiera en arbetsbok
 Låt oss sedan skapa en ny arbetsboksinstans.
 ```csharp
@@ -71,7 +71,7 @@ arc1.Line.Weight = 1;
 // Ställ in streckstilen för bågen.
 arc1.Line.DashStyle = MsoLineDashStyle.Solid;
 ```
-det här avsnittet anpassar vi bågen. Vi ställer in dess fyllningstyp till enfärgad (blå i det här fallet), definierar hur den ska placeras, fastställer linjevikten och väljer en streckstil. I grund och botten klär vi upp vår båge för att göra den visuellt tilltalande!
+I det här avsnittet anpassar vi bågen. Vi ställer in dess fyllningstyp till enfärgad (blå i det här fallet), definierar hur den ska placeras, fastställer linjevikten och väljer en streckstil. I grund och botten klär vi upp vår båge för att göra den visuellt tilltalande!
 ## Steg 5: Lägg till en andra bågeform
 Låt oss lägga till en annan bågform för att ge mer sammanhang.
 ```csharp
@@ -101,14 +101,14 @@ excelbook.Save(dataDir + "book1.out.xls");
 ```
 Den här raden fungerar som att trycka på spara-knappen. Vi sparar vårt arbete på den angivna platsen med ett angivet filnamn. Se till att kontrollera din katalog för att se ditt mästerverk i Excel-format!
 ## Slutsats
-I den här handledningen har vi utforskat processen att lägga till bågformer till ett Excel-kalkylblad med Aspose.Cells för .NET. Genom en enkel steg-för-steg-guide har du lärt dig hur du skapar en ny arbetsbok, lägger till bågar, anpassar deras utseende och sparar ditt dokument. Denna funktion förbättrar inte bara det visuella tilltalande av dina kalkylblad utan gör också dina datapresentationer mer informativa. Oavsett om du skapar diagram, rapporter eller bara experimenterar, kan använda former som bågar ge dina projekt en kreativ twist.
+den här handledningen har vi utforskat processen att lägga till bågformer till ett Excel-kalkylblad med Aspose.Cells för .NET. Genom en enkel steg-för-steg-guide har du lärt dig hur du skapar en ny arbetsbok, lägger till bågar, anpassar deras utseende och sparar ditt dokument. Denna funktion förbättrar inte bara det visuella tilltalande av dina kalkylblad utan gör också dina datapresentationer mer informativa. Oavsett om du skapar diagram, rapporter eller bara experimenterar, kan använda former som bågar ge dina projekt en kreativ twist.
 ## FAQ's
 ### Vad är Aspose.Cells?
 Aspose.Cells är ett kraftfullt bibliotek som låter utvecklare skapa, manipulera och konvertera Excel-filer programmatiskt utan behov av Microsoft Excel.
 ### Behöver jag installera Microsoft Excel för att använda Aspose.Cells?
 Nej, Aspose.Cells är helt oberoende och kräver inte att Microsoft Excel installeras.
 ### Kan jag prova Aspose.Cells gratis?
-Ja, du kan prova Aspose.Cells med deras[Gratis provperiod](https://releases.aspose.com/).
+ Ja, du kan prova Aspose.Cells med deras[Gratis provperiod](https://releases.aspose.com/).
 ### Vilka programmeringsspråk stöder Aspose.Cells?
 Aspose.Cells stöder flera språk, inklusive C#, VB.NET och mer.
 ### Var kan jag få support för Aspose.Cells?

@@ -69,7 +69,7 @@ Nu is het tijd om een nieuwe werkmap te maken. Dit is in principe waar al uw geg
 Workbook workbook = new Workbook();
 ```
 
- Hier verklaren wij een nieuw`Workbook`object dat een Excel-bestand vertegenwoordigt en waarmee we de inhoud ervan kunnen bewerken.
+ Hier verklaren wij een nieuw`Workbook` object dat een Excel-bestand vertegenwoordigt en waarmee we de inhoud ervan kunnen bewerken.
 
 ## Stap 3: Toegang tot het eerste werkblad
 

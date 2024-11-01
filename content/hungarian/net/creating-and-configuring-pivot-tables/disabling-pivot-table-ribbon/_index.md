@@ -82,6 +82,6 @@ Az Aspose.Cells egy .NET-könyvtár, amelyet az Excel-fájlok kezelésére terve
 ### Van mód arra, hogy támogatást kapjon az Aspose.Cells problémáihoz?
  Teljesen! Kérdéseket tehet fel és tanácsot kaphat az Aspose-ról[fórum](https://forum.aspose.com/c/cells/9).
 ### Milyen típusú fájlformátumokat támogat az Aspose.Cells?
-Az Aspose.Cells rengeteg formátumot támogat, beleértve az XLS-t, XLSX-et, ODS-t és még sok mást.
+Az Aspose.Cells számos formátumot támogat, beleértve az XLS-t, XLSX-et, ODS-t és még sok mást.
 ### Hogyan szerezhetek ideiglenes licencet az Aspose.Cells számára?
  Ideiglenes engedélyt a következő címen szerezhet be[ideiglenes licenc oldal](https://purchase.aspose.com/temporary-license/).

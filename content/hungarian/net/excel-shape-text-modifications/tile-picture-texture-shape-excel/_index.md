@@ -58,7 +58,7 @@ Most jöjjön az izgalmas rész! A képet textúraként csempézzük az alakzato
 ```csharp
 sh.Fill.TextureFill.IsTiling = true;
 ```
- Beállítással`IsTiling` igaz, akkor engedélyezi a csempézés funkciót, amely lehetővé teszi, hogy az alakzat ismétlődő mintában jelenítse meg a textúrát a kép nyújtása helyett. Ez kreativitást ad a táblázatokhoz, különösen a háttérben lévő látványelemek esetében.
+ Beállítás által`IsTiling` igaz, akkor engedélyezi a csempézés funkciót, amely lehetővé teszi, hogy az alakzat ismétlődő mintában jelenítse meg a textúrát a kép nyújtása helyett. Ez kreativitást ad a táblázatokhoz, különösen a háttérben lévő látványelemek esetében.
 ## 6. lépés: Mentse el a kimeneti Excel fájlt
 Miután elvégeztük az összes módosítást, a következő logikus lépés az, hogy elmentjük a munkafüzetünket az elvégzett változtatásokkal. Íme, hogyan:
 ```csharp

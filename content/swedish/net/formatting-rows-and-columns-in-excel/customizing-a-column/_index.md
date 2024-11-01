@@ -64,7 +64,7 @@ style.HorizontalAlignment = TextAlignmentType.Center;
 style.Font.Color = Color.Green;
 ```
 Här justerar vi texten i både vertikala och horisontella riktningar och ställer in teckensnittsfärgen till grön.
-## Steg 5: Förminska text och använd kanter
+## Steg 5: Förminska text och applicera kanter
 I det här steget kommer vi att aktivera textkrympning för att passa in i cellen och använda en ram längst ner i cellerna.
 
 - Krympande text säkerställer att långa strängar inte svämmar över och förblir läsbara inom cellens gränser.

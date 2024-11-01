@@ -10,7 +10,7 @@ url: /de/java/excel-data-security/cell-locking-strategies/
 
 ## Einführung
 
-Im digitalen Zeitalter dienen Excel-Tabellen als Rückgrat für unzählige Geschäftsvorgänge. Aber was passiert, wenn vertrauliche Informationen oder wichtige Formeln versehentlich geändert oder gelöscht werden? Hier kommt die Zellensperre ins Spiel. Aspose.Cells für Java bietet eine Reihe von Tools und Techniken zum Sperren von Zellen in Ihren Excel-Dateien und gewährleistet so die Datenintegrität und -sicherheit.
+Im digitalen Zeitalter dienen Excel-Tabellen als Rückgrat für unzählige Geschäftsabläufe. Aber was passiert, wenn vertrauliche Informationen oder wichtige Formeln versehentlich geändert oder gelöscht werden? Hier kommt die Zellensperre ins Spiel. Aspose.Cells für Java bietet eine Reihe von Tools und Techniken zum Sperren von Zellen in Ihren Excel-Dateien und gewährleistet so die Datenintegrität und -sicherheit.
 
 ## Warum die Zellsperre wichtig ist
 

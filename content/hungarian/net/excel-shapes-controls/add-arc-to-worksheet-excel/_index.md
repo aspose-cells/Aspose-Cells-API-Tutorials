@@ -108,7 +108,7 @@ Az Aspose.Cells egy hatékony könyvtár, amely lehetővé teszi a fejlesztők s
 ### Telepítenem kell a Microsoft Excelt az Aspose.Cells használatához?
 Nem, az Aspose.Cells teljesen független, és nem szükséges a Microsoft Excel telepítése.
 ### Kipróbálhatom az Aspose.Cells-t ingyen?
-Igen, kipróbálhatja az Aspose.Cells-t a saját használatával[Ingyenes próbaverzió](https://releases.aspose.com/).
+ Igen, kipróbálhatja az Aspose.Cells-t a saját használatával[Ingyenes próbaverzió](https://releases.aspose.com/).
 ### Milyen programozási nyelveket támogat az Aspose.Cells?
 Az Aspose.Cells több nyelvet támogat, beleértve a C#-ot, a VB.NET-et és még sok mást.
 ### Hol kaphatok támogatást az Aspose.Cells-hez?

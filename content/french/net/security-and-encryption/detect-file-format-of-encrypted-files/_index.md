@@ -33,7 +33,7 @@ Avant de vous plonger dans le code, vous devez vous assurer que la structure de 
 // Répertoire des sources
 string sourceDir = "Your Document Directory";
 ```
- Remplacer`"Your Document Directory"` avec le chemin réel vers le répertoire de votre ordinateur où se trouve votre fichier crypté.
+ Remplacer`"Your Document Directory"`avec le chemin réel vers le répertoire de votre ordinateur où se trouve votre fichier crypté.
 ## Étape 2 : Préparez votre fichier crypté
 
  Dans cette étape, assurez-vous que vous disposez d'un fichier Excel chiffré disponible dans le répertoire spécifié. Ici, nous supposerons que le fichier est nommé`encryptedBook1.out.tmp`.
@@ -73,6 +73,6 @@ Absolument ! Utilisez des blocs try-catch pour gérer les exceptions potentiell
 ### Que faire si j'oublie mon mot de passe ?
 Malheureusement, vous ne pourrez pas accéder au format de fichier sans le mot de passe.
 ### Puis-je télécharger un essai gratuit d'Aspose.Cells ?
-Oui, vous pouvez télécharger une version d'essai gratuite[ici](https://releases.aspose.com/).
+ Oui, vous pouvez télécharger une version d'essai gratuite[ici](https://releases.aspose.com/).
 ### Où puis-je trouver une documentation plus détaillée ?
  Vous pouvez explorer la documentation complète sur Aspose.Cells[ici](https://reference.aspose.com/cells/net/).

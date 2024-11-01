@@ -16,7 +16,7 @@ Di dunia digital saat ini, mengelola data dengan aman di lembar kerja menjadi le
 Sebelum menyelami seluk-beluk perlindungan sel, ada beberapa prasyarat yang harus Anda miliki:
 
 1. Visual Studio: Pastikan Anda telah menginstal Visual Studio di komputer Anda. Ini adalah IDE utama untuk pengembangan .NET.
-2. Pustaka Aspose.Cells: Anda perlu memiliki pustaka Aspose.Cells yang tersedia di proyek Anda. Anda dapat menginstalnya dengan mudah melalui Pengelola Paket NuGet atau mengunduhnya langsung dari[Situs Aspose.Cells](https://releases.aspose.com/cells/net/).
+2.  Pustaka Aspose.Cells: Anda perlu memiliki pustaka Aspose.Cells yang tersedia di proyek Anda. Anda dapat menginstalnya dengan mudah melalui Pengelola Paket NuGet atau mengunduhnya langsung dari[Situs Aspose.Cells](https://releases.aspose.com/cells/net/).
 3. Pengetahuan Dasar C#: Sedikit pengetahuan dengan pemrograman C# akan membantu Anda mengikutinya dengan lancar.
 
 ## Mengimpor Paket
@@ -88,7 +88,7 @@ Untuk memastikan bahwa hanya sel tertentu yang terkunci, Anda perlu memulai deng
 for (int i = 0; i <= 255; i++)
 {
     Style style = sheet.Cells.Columns[(byte)i].Style;
-    style.IsLocked = false; //Buka kunci kolom
+    style.IsLocked = false; // Buka kunci kolom
     StyleFlag styleflag = new StyleFlag();
     styleflag.Locked = true; // Tunjukkan bahwa kita ingin mengunci gaya ini
     sheet.Cells.Columns[(byte)i].ApplyStyle(style, styleflag);

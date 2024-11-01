@@ -13,7 +13,7 @@ url: /zh/net/file-handling/file-saving-file-to-stream/
 在我们开始讨论细节之前，您需要准备好几件事。请将此视为您的检查清单，以确保在我们进行本教程时获得顺畅的体验。
 1. Visual Studio：确保您的机器上安装了 Visual Studio。不用担心，您甚至可以使用社区版；它是免费的，而且运行良好。
 2. .NET Framework：您使用的 .NET 版本必须与 Aspose.Cells 兼容。通常，任何 .NET Framework 版本 4.0 或更高版本都可以。
-3.  Aspose.Cells 库：下载并安装 Aspose.Cells for .NET 库。您可以找到它[这里](https://releases.aspose.com/cells/net/). 
+3. Aspose.Cells 库：下载并安装 Aspose.Cells for .NET 库。您可以找到它[这里](https://releases.aspose.com/cells/net/). 
 4. 基本 C# 知识：稍微熟悉一点 C# 编程会很有用，但您不需要成为编码专家。相信我，如果您能遵循食谱，您就能遵循本指南！
 5.  Excel 文件：您需要一个起始 Excel 文件，在我们的例子中，名为`Book1.xlsx`。如果您还没有，请随意创建一个简单的。
 现在一切就绪，让我们导入必要的包！

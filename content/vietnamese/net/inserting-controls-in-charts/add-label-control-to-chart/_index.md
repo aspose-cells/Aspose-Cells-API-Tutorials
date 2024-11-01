@@ -16,7 +16,7 @@ Biểu đồ là một cách mạnh mẽ để trực quan hóa dữ liệu và 
 Trước khi đi sâu vào chi tiết, chúng ta hãy cùng tìm hiểu những gì bạn cần để bắt đầu:
 
 - Kiến thức cơ bản về C#: Điều quan trọng là phải hiểu những điều cơ bản về lập trình C#. Nếu bạn là người mới bắt đầu, đừng lo lắng – các bước sẽ rõ ràng và súc tích.
--  Thư viện Aspose.Cells: Đảm bảo bạn đã cài đặt thư viện Aspose.Cells. Bạn có thể thực hiện việc này thông qua NuGet Package Manager trong Visual Studio. Nếu bạn chưa cài đặt, hãy xem[liên kết tải xuống](https://releases.aspose.com/cells/net/) cho thư viện.
+- Thư viện Aspose.Cells: Đảm bảo bạn đã cài đặt thư viện Aspose.Cells. Bạn có thể thực hiện việc này thông qua NuGet Package Manager trong Visual Studio. Nếu bạn chưa cài đặt, hãy xem[liên kết tải xuống](https://releases.aspose.com/cells/net/) cho thư viện.
 - Visual Studio: Bạn sẽ cần một môi trường phát triển tích hợp (IDE) như Visual Studio để viết và thực thi mã của mình.
 
 ## Nhập gói

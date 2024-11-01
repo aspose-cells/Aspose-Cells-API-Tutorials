@@ -24,7 +24,7 @@ Otevřete projekt .NET v sadě Visual Studio.
 Pokud jste ještě nenainstalovali balíček Aspose.Cells, můžete to udělat pomocí NuGet. 
 1. Přejděte na Nástroje -> Správce balíčků NuGet -> Spravovat balíčky NuGet pro řešení.
 2. Vyhledejte Aspose.Cells.
-3. Klikněte na Instalovat.
+3. Klepněte na Instalovat.
 ### Importujte jmenný prostor
 V horní části souboru C# vložte následující řádek:
 ```csharp

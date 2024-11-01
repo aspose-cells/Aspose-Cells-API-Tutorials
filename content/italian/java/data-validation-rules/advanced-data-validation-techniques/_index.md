@@ -2,7 +2,7 @@
 title: Tecniche avanzate di convalida dei dati
 linktitle: Tecniche avanzate di convalida dei dati
 second_title: API di elaborazione Excel Java Aspose.Cells
-description: Sblocca tecniche avanzate di convalida dei dati in Excel con Aspose.Cells per Java. Impara a creare regole personalizzate, elenchi a discesa e altro ancora per un controllo preciso dei dati.
+description: Sblocca tecniche avanzate di convalida dei dati in Excel con Aspose.Cells per Java. Impara a creare regole personalizzate, elenchi a discesa e altro per un controllo preciso dei dati.
 type: docs
 weight: 19
 url: /it/java/data-validation-rules/advanced-data-validation-techniques/
