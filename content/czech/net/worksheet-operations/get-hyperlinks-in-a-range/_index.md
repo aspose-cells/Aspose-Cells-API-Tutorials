@@ -45,7 +45,7 @@ string outputDir = "Your Document Directory"; // Ujistěte se, že tato metoda p
 // Otevřete soubor aplikace Excel
 Workbook workbook = new Workbook(sourceDir + "HyperlinksSample.xlsx");
 ```
- Tady vytváříme nový`Workbook` instance. The`Workbook` class je v podstatě vaší bránou ke všem operacím souvisejícím se souborem Excel. Můžete si to představit jako otevření knihy, která obsahuje veškerý váš obsah.
+ Zde vytváříme nový`Workbook` instance. The`Workbook` class je v podstatě vaší bránou ke všem operacím souvisejícím se souborem Excel. Můžete si to představit jako otevření knihy, která obsahuje veškerý váš obsah.
 ## Krok 3: Otevřete sešit
 Nyní, když máme sešit hotový, dáme si z něj první list. V Excelu jsou listy jako stránky ve vaší knize a my musíme určit, na které stránce pracujeme.
 ```csharp

@@ -12,7 +12,7 @@ Wanneer u met Excel-bestanden in .NET werkt, springt de Aspose.Cells-bibliotheek
 ## Vereisten
 Voordat we in de code duiken, zorgen we ervoor dat je alles hebt wat je nodig hebt om het naadloos te volgen. Dit is wat je moet hebben:
 1. Visual Studio: Zorg ervoor dat Visual Studio op uw machine is geïnstalleerd. Dit is waar we onze .NET-applicatie gaan schrijven en testen.
-2. Aspose.Cells Library: U moet de Aspose.Cells-bibliotheek downloaden. U kunt de nieuwste versie krijgen[hier](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells Library: U moet de Aspose.Cells-bibliotheek downloaden. U kunt de nieuwste versie krijgen[hier](https://releases.aspose.com/cells/net/).
 3. .NET Framework: Zorg ervoor dat u een compatibele .NET Framework-versie hebt voor Aspose.Cells, die doorgaans werkt met .NET Framework 4.0 en hoger.
 4. Basiskennis van C#: Een basiskennis van C# programmeren is nuttig. Maak je geen zorgen; we leggen alles stap voor stap uit!
 5.  Bestandspad: bepaal waar u de uitvoerbestanden wilt opslaan. Maak een directory met de naam`Your Document Directory` voor de eenvoud.
@@ -47,9 +47,9 @@ Soms moet u uw bestanden opslaan in een ouder formaat voor compatibiliteit. Dit 
 // Opslaan in Excel 97–2003-indeling
 workbook.Save(dataDir + "output.xls");
 ```
- Deze regel slaat uw werkmap op met behulp van de`.xls`extensie, wat het Excel-formaat is voor versies vóór 2007. Het is alsof je een brief via de post verstuurt om er zeker van te zijn dat deze een oudere ontvanger bereikt!
+ Deze regel slaat uw werkmap op met behulp van de`.xls` extensie, wat het Excel-formaat is voor versies vóór 2007. Het is alsof je een brief via de post verstuurt om er zeker van te zijn dat deze een oudere ontvanger bereikt!
 ## Stap 4: Opslaan in Excel 2007-indeling
- Als u functies uit Excel 2007 en later wilt gebruiken, kunt u het beste opslaan in`.xlsx` format is de manier om te gaan. Dit is hoe:
+Als u functies uit Excel 2007 en later wilt gebruiken, kunt u het beste opslaan in`.xlsx` format is de manier om te gaan. Dit is hoe:
 ```csharp
 // Opslaan in Excel 2007 xlsx-formaat
 workbook.Save(dataDir + "output.xlsx");

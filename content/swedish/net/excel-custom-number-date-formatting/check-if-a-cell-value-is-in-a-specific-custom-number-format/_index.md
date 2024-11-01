@@ -45,7 +45,7 @@ Workbook wb = new Workbook();
 
  Genom att initiera`Workbook`, ställer vi in en ny Excel-fil i minnet, redo för manipulation.
 
-## Steg 2: Ställ in arbetsbokinställningar
+## Steg 2: Konfigurera arbetsbokinställningar
 
 Därefter måste vi konfigurera inställningarna för vår arbetsbok. Detta är avgörande eftersom det hjälper till att fånga upp fel angående anpassade nummerformat.
 

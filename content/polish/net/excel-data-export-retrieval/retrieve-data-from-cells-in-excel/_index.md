@@ -143,7 +143,7 @@ Pobieranie danych z komórek Excela za pomocą Aspose.Cells dla .NET to prosty p
 Aspose.Cells to biblioteka .NET umożliwiająca programistom tworzenie, edytowanie i konwertowanie plików Excel bez konieczności instalowania programu Microsoft Excel.
 
 ### Czy mogę używać Aspose.Cells za darmo?  
- Tak, Aspose.Cells oferuje bezpłatną wersję próbną, której możesz użyć do przetestowania jej funkcji. Możesz ją pobrać[Tutaj](https://releases.aspose.com/).
+ Tak, Aspose.Cells oferuje bezpłatną wersję próbną, której możesz użyć do przetestowania jego funkcji. Możesz ją pobrać[Tutaj](https://releases.aspose.com/).
 
 ### Jakie typy danych mogę pobrać z komórek programu Excel?  
 Można pobierać różne typy danych, w tym ciągi znaków, liczby, wartości logiczne oraz wartości daty/godziny.

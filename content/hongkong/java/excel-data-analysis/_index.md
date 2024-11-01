@@ -28,6 +28,6 @@ url: /zh-hant/java/excel-data-analysis/
 ### [資料分析 Excel 資料透視表](./data-analysis-excel-pivot/)
 使用 Aspose.Cells for Java 學習 Excel 中的資料分析：有效使用資料透視表的逐步指南。
 ### [數據分析 Excel 圖表](./data-analysis-excel-charts/)
-使用 Aspose.Cells for Java 解鎖卓越的資料分析能力。建立令人驚嘆的 Excel 圖表和報告。
+使用 Aspose.Cells for Java 解鎖卓越的數據分析能力。建立令人驚嘆的 Excel 圖表和報告。
 ### [資料分析Excel公式](./data-analysis-excel-formulas/)
 使用 Aspose.Cells for Java 釋放 Excel 中資料分析的強大功能。學習基本公式和技術。

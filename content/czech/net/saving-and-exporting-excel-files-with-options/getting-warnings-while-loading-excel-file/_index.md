@@ -37,13 +37,13 @@ Nejdříve – musíte nastavit cestu, kde se nachází váš soubor Excel. Toto
 string dataDir = "Your Document Directory";
 ```
  Nahradit`"Your Document Directory"` se skutečnou cestou ve vašem počítači, kde je soubor Excel uložen. Tento jednoduchý řádek kódu ukazuje program správným směrem!
-## Krok 2: Vytvořte možnosti načtení
- Dále vytvoříme instanci`LoadOptions`. Tady začíná kouzlo. Nakonfigurováním možností načítání můžete nastavit zpětné volání, které se spustí vždy, když se při načítání sešitu objeví varování:
+## Krok 2: Vytvořte možnosti načítání
+ Dále vytvoříme instanci`LoadOptions`Tady začíná kouzlo. Nakonfigurováním možností načítání můžete nastavit zpětné volání, které se spustí vždy, když se při načítání sešitu objeví varování:
 ```csharp
 LoadOptions options = new LoadOptions();
 options.WarningCallback = new WarningCallback();
 ```
- Tady vytváříme nový`LoadOptions` objekt a spojovat jej s naším`WarningCallback`třídy (kterou definujeme dále). Toto nastavení je nezbytné pro to, aby náš program správně zpracovával varování.
+ Zde vytváříme nový`LoadOptions` objekt a spojovat jej s naším`WarningCallback` třídy (kterou definujeme dále). Toto nastavení je nezbytné pro to, aby náš program správně zpracovával varování.
 ## Krok 3: Načtěte zdrojový soubor Excel
  Čas skutečně načíst tento soubor Excel! To je místo, kde voláte`Workbook` class k načtení souboru spolu s možnostmi, které jsme definovali dříve:
 ```csharp
@@ -70,7 +70,7 @@ private class WarningCallback : IWarningCallback
     }
 }
 ```
-tomto úryvku, kdykoli se objeví upozornění na duplicitní definovaný název, zachytíme tuto událost a vytiskneme přátelskou zprávu do konzole. Tuto metodu můžete rozšířit o další typy varování na základě potřeb vaší aplikace!
+V tomto úryvku, kdykoli se objeví upozornění na duplicitní definovaný název, zachytíme tuto událost a vytiskneme přátelskou zprávu do konzole. Tuto metodu můžete rozšířit o další typy varování na základě potřeb vaší aplikace!
 ## Závěr
 A tady to máte! Pomocí těchto kroků jste úspěšně nakonfigurovali aplikaci .NET tak, aby zpracovávala varování při načítání souborů aplikace Excel pomocí Aspose.Cells. To umožňuje nejen plynulejší provoz, ale také vám dává možnost proaktivně reagovat na potenciální problémy. 
 ### FAQ
@@ -81,6 +81,6 @@ Aspose.Cells je výkonná knihovna .NET pro vytváření, manipulaci a konverzi 
 ### Jak mohu zakoupit Aspose.Cells?
  Aspose.Cells si můžete koupit přímo od nich[nákupní stránku](https://purchase.aspose.com/buy).
 ### Jaké typy varování mohu zpracovat?
- Můžete zpracovat různá upozornění, jako jsou duplicitní definované názvy, upozornění na vzorce a upozornění na styl pomocí`WarningCallback`.
+Můžete zpracovat různá upozornění, jako jsou duplicitní definované názvy, upozornění na vzorce a upozornění na styl pomocí`WarningCallback`.
 ### Kde najdu dokumentaci k Aspose.Cells?
  Můžete se podívat na komplexní[dokumentace zde](https://reference.aspose.com/cells/net/).

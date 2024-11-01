@@ -52,7 +52,7 @@ Använd följande kod för att spara din fil direkt på den angivna sökvägen.
 ```csharp
 workbook.Save(dataDir + "output.xls");
 ```
-### Spara med format specificerat
+### Spara med specificerat format
 Du kan också ange sparformatet uttryckligen:
 ```csharp
 workbook.Save(dataDir + "output.xls", SaveFormat.Excel97To2003);

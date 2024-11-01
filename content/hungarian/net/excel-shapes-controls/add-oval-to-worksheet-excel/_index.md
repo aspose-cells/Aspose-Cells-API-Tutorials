@@ -1,6 +1,6 @@
 ---
-title: Adja hozzá az oválist az Excel munkalaphoz
-linktitle: Adja hozzá az oválist az Excel munkalaphoz
+title: Adjon hozzá oválist az Excel munkalaphoz
+linktitle: Adjon hozzá oválist az Excel munkalaphoz
 second_title: Aspose.Cells .NET Excel Processing API
 description: Ismerje meg, hogyan adhat hozzá oválist egy Excel-munkalaphoz az Aspose.Cells for .NET használatával. Lépésről lépésre, részletes kódmagyarázatokkal.
 type: docs

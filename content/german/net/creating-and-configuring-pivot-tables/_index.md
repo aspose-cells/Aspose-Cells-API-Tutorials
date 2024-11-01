@@ -9,7 +9,7 @@ url: /de/net/creating-and-configuring-pivot-tables/
 ---
 ## Einführung
 
-Beim Arbeiten mit Excel-Pivot-Tabellen in .NET bietet Aspose.Cells leistungsstarke Tools zur Optimierung des Prozesses. Egal, ob Sie Ihre erste Pivot-Tabelle einrichten oder Daten für erweiterte Berichte anpassen, diese Tutorials bieten detaillierte Anweisungen, vom Erstellen und Formatieren von Tabellen bis zum Anwenden benutzerdefinierter Sortier- und Aktualisierungsoptionen. Im Folgenden finden Sie Schritt-für-Schritt-Anleitungen, die Ihnen dabei helfen, die Verwaltung von Pivot-Tabellen in .NET zu meistern.
+Beim Arbeiten mit Excel-Pivot-Tabellen in .NET bietet Aspose.Cells leistungsstarke Tools zur Optimierung des Prozesses. Egal, ob Sie Ihre erste Pivot-Tabelle einrichten oder Daten für erweiterte Berichte anpassen, diese Tutorials bieten detaillierte Anweisungen, vom Erstellen und Formatieren von Tabellen bis zum Anwenden benutzerdefinierter Sortier- und Aktualisierungsoptionen. Im Folgenden finden Sie Schritt-für-Schritt-Anleitungen, die Ihnen dabei helfen, die Pivot-Tabellenverwaltung in .NET zu meistern.
 
 ## Wichtige Tutorials zur Anpassung von Pivot-Tabellen
 

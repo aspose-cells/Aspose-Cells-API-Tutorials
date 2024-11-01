@@ -68,7 +68,7 @@ Workbook excelWorkbook0 = new Workbook(InputPath);
 Workbook excelWorkbook1 = new Workbook();
 ```
 
-この行は、次の名前の空のワークブックを作成します。`excelWorkbook1`最初のブックから移動した後、コピーされたワークシートはここに保存されます。
+この行は、次の名前の空のワークブックを作成します。`excelWorkbook1`最初のブックから移動した後、コピーしたワークシートはここに保存されます。
 
 ## ステップ4: ワークシートをコピーする
 

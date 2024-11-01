@@ -72,7 +72,7 @@ comment.Font.Name = "Times New Roman";
 - comments.Add(0, 0): Denna metod lägger till en kommentar till cell A1 (rad 0, kolumn 0).
 - kommentar.Obs: Här ställer vi in texten för kommentaren.
 - comment.Font.Name: Detta ställer in typsnittet för kommentarstexten.
-## Steg 5: Ladda en bild till en ström
+## Steg 5: Ladda en bild i en ström
  Nu är det dags att ladda bilden som vi vill bädda in i vår kommentar. Vi använder en`MemoryStream` för att lagra bilddata.
 ```csharp
 // Ladda en bild i stream

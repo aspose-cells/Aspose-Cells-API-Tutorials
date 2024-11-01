@@ -58,7 +58,7 @@ string outputDir = "Your Output Directory";
 
  Pastikan untuk mengganti`"Your Output Directory"` dengan jalur yang valid di komputer Anda. Jalur ini adalah tempat penyimpanan berkas Excel yang Anda buat.
 
-## Langkah 2: Membuat Instansiasi Objek Buku Kerja
+## Langkah 2: Membuat Instansi Objek Buku Kerja
 
 Selanjutnya, mari kita buat contoh baru dari sebuah workbook. Bayangkan workbook sebagai kanvas kosong tempat Anda dapat melukis data Anda.
 

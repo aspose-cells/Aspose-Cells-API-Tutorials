@@ -16,7 +16,7 @@ Os gráficos são uma maneira poderosa de visualizar dados e, às vezes, adicion
 Antes de nos aprofundarmos nos detalhes, vamos abordar o que você precisa para começar:
 
 - Conhecimento básico de C#: É crucial entender os conceitos básicos de programação em C#. Se você é iniciante, não se preocupe – os passos serão claros e concisos.
--  Biblioteca Aspose.Cells: Certifique-se de ter a biblioteca Aspose.Cells instalada. Você pode fazer isso por meio do Gerenciador de Pacotes NuGet no Visual Studio. Se ainda não o fez, confira o[link para download](https://releases.aspose.com/cells/net/) para a biblioteca.
+- Biblioteca Aspose.Cells: Certifique-se de ter a biblioteca Aspose.Cells instalada. Você pode fazer isso por meio do Gerenciador de Pacotes NuGet no Visual Studio. Se ainda não o fez, confira o[link para download](https://releases.aspose.com/cells/net/) para a biblioteca.
 - Visual Studio: você precisará de um ambiente de desenvolvimento integrado (IDE) como o Visual Studio para escrever e executar seu código.
 
 ## Pacotes de importação
@@ -141,7 +141,7 @@ Console.WriteLine("AddingLabelControlInChart executed successfully.");
 
 ## Conclusão
 
-aí está! Você adicionou com sucesso um controle de rótulo a um gráfico usando Aspose.Cells para .NET. Com apenas algumas linhas de código, você aprimorou a clareza da sua representação visual de dados, tornando-a muito mais informativa. Lembre-se, não importa se você está montando uma apresentação ou mergulhando na análise de dados, esses rótulos podem ser ferramentas inestimáveis.
+E aí está! Você adicionou com sucesso um controle de rótulo a um gráfico usando Aspose.Cells para .NET. Com apenas algumas linhas de código, você aprimorou a clareza da sua representação visual de dados, tornando-a muito mais informativa. Lembre-se, não importa se você está montando uma apresentação ou mergulhando na análise de dados, esses rótulos podem ser ferramentas inestimáveis.
 
 ## Perguntas frequentes
 

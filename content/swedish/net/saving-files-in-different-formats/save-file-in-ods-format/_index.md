@@ -20,7 +20,7 @@ För att arbeta med Aspose.Cells måste du importera det relevanta namnområdet.
 ### Öppna din utvecklingsmiljö
 Öppna Visual Studio eller din föredragna IDE där du vill skriva din .NET-kod.
 ### Skapa ett nytt projekt
-Skapa ett nytt projekt genom att välja "Nytt projekt" från Arkiv-menyn och välja en konfiguration för konsolapplikation. Döp det till något i stil med "SaveODSTutorial".
+Skapa ett nytt projekt genom att välja "Nytt projekt" från Arkiv-menyn och välja en konfiguration för konsolapplikation. Döp det till något som "SaveODSTutorial".
 ### Importera Aspose.Cells namnområde
 Överst i din kodfil måste du importera Aspose.Cells-namnrymden. Detta är avgörande för att komma åt de klasser och metoder som låter dig manipulera Excel-filer.
 ```csharp

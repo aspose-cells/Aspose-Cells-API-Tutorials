@@ -13,15 +13,15 @@ Vill du ta dina Excel-kunskaper till nästa nivå? Med Aspose.Cells för .NET ka
 
 ## Anpassa Excel-teman programmatiskt
 
-Har du någonsin önskat att du kunde anpassa Excel-teman på kodnivå? Med Aspose.Cells för .NET blir detta en bris. Du kan programmässigt ändra teman för att ge dina kalkylblad en personlig touch. Föreställ dig att kunna tillämpa ditt varumärkes färgschema över flera Excel-filer automatiskt! Möjligheterna är oändliga. Om du vill dyka djupare in i hur du kan uppnå detta, kolla in hela guiden här:[Anpassa Excel-teman programmatiskt](./customizing-excel-themes/).
+ Har du någonsin önskat att du kunde anpassa Excel-teman på kodnivå? Med Aspose.Cells för .NET blir detta en bris. Du kan programmässigt ändra teman för att ge dina kalkylblad en personlig touch. Föreställ dig att kunna tillämpa ditt varumärkes färgschema över flera Excel-filer automatiskt! Möjligheterna är oändliga. Om du vill dyka djupare in i hur du kan uppnå detta, kolla in hela guiden här:[Anpassa Excel-teman programmatiskt](./customizing-excel-themes/).
 
 ## Få och ställ in temafärger i Excel
 
- Nästa upp, en av de vanligaste uppgifterna när man hanterar Excel-teman är att få och ställa in temafärger. Med Aspose.Cells för .NET kan du hämta temafärger och till och med ändra dem för att passa dina önskemål. Den här funktionen är särskilt användbar när du arbetar med fördefinierade mallar eller för att säkerställa konsekvens i dina rapporter. Vill du veta hur man implementerar detta? Gå över till hela handledningen:[Få och ställ in temafärger i Excel](./getting-and-setting-theme-colors/).
+Nästa upp, en av de vanligaste uppgifterna när man hanterar Excel-teman är att få och ställa in temafärger. Med Aspose.Cells för .NET kan du hämta temafärger och till och med ändra dem för att passa dina önskemål. Den här funktionen är särskilt användbar när du arbetar med fördefinierade mallar eller för att säkerställa konsekvens i dina rapporter. Vill du veta hur man implementerar detta? Gå över till hela handledningen:[Få och ställ in temafärger i Excel](./getting-and-setting-theme-colors/).
 
 ## Använda temafärger i Excel programmatiskt
 
-Slutligen, att tillämpa temafärger programmatiskt är ett utmärkt sätt att säkerställa enhetlighet i dina kalkylbladsdesigner. Aspose.Cells för .NET gör denna process smidig och effektiv. Oavsett om du automatiserar rapporter eller genererar kalkylblad i farten, kommer den här handledningen att guida dig steg-för-steg om hur du använder temafärger effektivt i Excel. Utforska mer om detta ämne här:[Använda temafärger i Excel programmatiskt](./utilizing-theme-colors/).
+ Slutligen, att tillämpa temafärger programmatiskt är ett utmärkt sätt att säkerställa enhetlighet i dina kalkylbladsdesigner. Aspose.Cells för .NET gör denna process smidig och effektiv. Oavsett om du automatiserar rapporter eller genererar kalkylblad i farten, kommer den här handledningen att guida dig steg-för-steg om hur du använder temafärger effektivt i Excel. Utforska mer om detta ämne här:[Använda temafärger i Excel programmatiskt](./utilizing-theme-colors/).
 
 ## Självstudier för Excel-teman och formatering
 ### [Anpassa Excel-teman programmatiskt](./customizing-excel-themes/)

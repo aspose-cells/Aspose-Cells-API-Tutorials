@@ -134,4 +134,4 @@ Een XLSB-bestand is een binair Excel-bestandsformaat dat spreadsheetgegevens in 
 Absoluut! Aspose.Cells ondersteunt verschillende bestandsformaten, waaronder XLSX, CSV en meer.
 
 ### Waar kan ik hulp krijgen als ik problemen heb?  
- U kunt ondersteuning krijgen via de Aspose-forums[hier](https://forum.aspose.com/c/cells/9).
+ kunt ondersteuning krijgen via de Aspose-forums[hier](https://forum.aspose.com/c/cells/9).

@@ -18,7 +18,7 @@ Než se pustíme do kódu, je potřeba mít několik základních položek:
 1. Vývojové prostředí .NET: Ujistěte se, že máte nastavené prostředí kompatibilní s .NET, jako je Visual Studio nebo jakékoli jiné IDE podle vašeho výběru.
 2.  Knihovna Aspose.Cells: Budete potřebovat knihovnu Aspose.Cells. Můžete[stáhněte si jej zde](https://releases.aspose.com/cells/net/).
 3. Základní porozumění C#: Znalost základů C# vám určitě pomůže lépe porozumět konceptům.
-4.  Dokumentace Aspose.Cells: Seznamte se s[dokumentace](https://reference.aspose.com/cells/net/)pro pokročilé konfigurace nebo další funkce, které se vám mohou hodit později.
+4.  Dokumentace Aspose.Cells: Seznamte se s[dokumentace](https://reference.aspose.com/cells/net/) pro pokročilé konfigurace nebo další funkce, které se vám mohou hodit později.
 
 Nyní, když máme naše předpoklady seřazeny, pojďme importovat požadované balíčky!
 
@@ -149,4 +149,4 @@ Aspose.Cells primárně podporuje jazyky .NET, ale existují i další knihovny 
  K podpoře se můžete dostat přes[Aspose fórum](https://forum.aspose.com/c/cells/9).
 
 ### Mohu získat dočasnou licenci pro Aspose.Cells?  
- Absolutně! Můžete požádat a[dočasná licence](https://purchase.aspose.com/temporary-license/) hodnotit produkt.
+Absolutně! Můžete požádat a[dočasná licence](https://purchase.aspose.com/temporary-license/) hodnotit produkt.

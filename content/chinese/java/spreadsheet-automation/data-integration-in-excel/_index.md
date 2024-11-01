@@ -72,7 +72,7 @@ Excel 的优势在于它能够执行复杂的计算。使用 Aspose.Cells for Ja
 一旦集成并分析了数据，您可能希望将其导出。 Aspose.Cells for Java 允许您以不同的格式保存工作簿：
 
 ```java
-//导出综合数据的Java代码
+//导出集成数据的Java代码
 //...
 ```
 

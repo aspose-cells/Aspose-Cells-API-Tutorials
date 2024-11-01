@@ -37,7 +37,7 @@ Lås upp kraftfull Excel-dataanalys med Aspose.Cells för Java. Utforska steg-f�
 ### [Excel-pivottabeller](./excel-pivot-tables/)
 Master Excel pivottabeller med Aspose.Cells för Java. Lär dig hur du skapar, anpassar och analyserar data utan ansträngning.
 ### [Avancerade Excel-diagram](./advanced-excel-charts/)
-Utforska avancerade Excel-diagramhandledningar med Aspose.Cells för Java. Öka dina färdigheter i datavisualisering steg för steg. Mästarkartläggning idag!
+Utforska avancerade Excel-diagramhandledningar med Aspose.Cells för Java. Lyft dina färdigheter i datavisualisering steg för steg. Mästarkartläggning idag!
 ### [Excel Import Export](./excel-import-export/)
 Importera och exportera Excel-filer enkelt med Aspose.Cells för Java. Utforska steg-för-steg handledningar för sömlöst datautbyte. Bemästra Excel-hantering idag!
 ### [Excel datasäkerhet](./excel-data-security/)

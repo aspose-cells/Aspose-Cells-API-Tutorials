@@ -19,13 +19,13 @@ Trước khi tìm hiểu về mã, hãy đảm bảo rằng bạn có mọi th�
 Trong khi Aspose.Cells đơn giản hóa nhiều tác vụ, thì hiểu biết cơ bản về C# là rất quan trọng. Bạn nên thoải mái đọc và viết mã C# cơ bản.
 
 ### Aspose.Cells cho .NET
- Đảm bảo bạn đã cài đặt Aspose.Cells trong dự án của mình. Bạn có thể tải xuống từ[trang web](https://releases.aspose.com/cells/net/) nếu bạn chưa làm như vậy.
+Đảm bảo bạn đã cài đặt Aspose.Cells trong dự án của mình. Bạn có thể tải xuống từ[trang web](https://releases.aspose.com/cells/net/) nếu bạn chưa làm như vậy.
 
 ### Môi trường phát triển
 Bạn nên thiết lập một IDE như Visual Studio. Điều này hướng dẫn bạn xử lý và kiểm tra mã của mình một cách hiệu quả.
 
 ### Các tệp Excel mẫu
-Bạn sẽ cần các tập tin mẫu (`samplePageSetupIsAutomaticPaperSize-False.xlsx` Và`samplePageSetupIsAutomaticPaperSize-True.xlsx`cho mục đích thử nghiệm. Đảm bảo các tệp này nằm trong thư mục nguồn của bạn.
+Bạn sẽ cần các tập tin mẫu (`samplePageSetupIsAutomaticPaperSize-False.xlsx` Và`samplePageSetupIsAutomaticPaperSize-True.xlsx`) cho mục đích thử nghiệm. Đảm bảo các tệp này nằm trong thư mục nguồn của bạn.
 
 ## Nhập gói
 
@@ -50,7 +50,7 @@ string sourceDir = "YOUR_SOURCE_DIRECTORY";
 string outputDir = "YOUR_OUTPUT_DIRECTORY";
 ```
 
- Thay thế`YOUR_SOURCE_DIRECTORY` Và`YOUR_OUTPUT_DIRECTORY` với đường dẫn thực tế trên hệ thống của bạn nơi các tập tin sẽ được lưu trữ.
+ Thay thế`YOUR_SOURCE_DIRECTORY` Và`YOUR_OUTPUT_DIRECTORY`với đường dẫn thực tế trên hệ thống của bạn nơi các tập tin sẽ được lưu trữ.
 
 ## Bước 2: Tải sổ làm việc Excel
 
@@ -104,10 +104,10 @@ Aspose.Cells là thư viện .NET được thiết kế để quản lý các t�
 Có! Aspose.Cells hỗ trợ phát triển đa nền tảng, do đó bạn có thể làm việc trong nhiều môi trường khác nhau có hỗ trợ .NET.
 
 ### Tôi có cần giấy phép sử dụng Aspose.Cells không?
- Mặc dù bạn có thể bắt đầu bằng bản dùng thử miễn phí, nhưng việc sử dụng liên tục đòi hỏi phải mua giấy phép. Có thể tìm thấy thêm thông tin chi tiết[đây](https://purchase.aspose.com/buy).
+Mặc dù bạn có thể bắt đầu bằng bản dùng thử miễn phí, nhưng việc sử dụng liên tục đòi hỏi phải mua giấy phép. Có thể tìm thấy thêm thông tin chi tiết[đây](https://purchase.aspose.com/buy).
 
 ### Làm thế nào để kiểm tra xem kích thước trang của bảng tính có tự động trong C# không?
-Như đã trình bày trong hướng dẫn, bạn có thể kiểm tra`IsAutomaticPaperSize` tài sản của`PageSetup` lớp học.
+ Như đã trình bày trong hướng dẫn, bạn có thể kiểm tra`IsAutomaticPaperSize` tài sản của`PageSetup` lớp học.
 
 ### Tôi có thể tìm thêm thông tin về Aspose.Cells ở đâu?
  Bạn có thể tìm thấy tài liệu và hướng dẫn toàn diện[đây](https://reference.aspose.com/cells/net/).

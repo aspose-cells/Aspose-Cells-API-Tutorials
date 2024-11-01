@@ -84,7 +84,7 @@ workbook.save("updated_excel_file.xlsx");
 
 ## 結論
 
-在本指南中，我們學習如何使用 Aspose.Cells for Java 在電子表格中執行日期驗證。確保日期資料的準確性在各種應用程式中至關重要，而有了 Aspose.Cells，您就擁有了實現這一目標的強大工具。
+在本指南中，我們學習如何使用 Aspose.Cells for Java 在電子表格中執行日期驗證。確保日期資料的準確性在各種應用中至關重要，而有了 Aspose.Cells，您就擁有了實現這一目標的強大工具。
 
 ## 常見問題解答
 

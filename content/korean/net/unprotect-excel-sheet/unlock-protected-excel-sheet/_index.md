@@ -16,7 +16,7 @@ url: /ko/net/unprotect-excel-sheet/unlock-protected-excel-sheet/
 코드로 넘어가기 전에 Aspose.Cells for .NET을 사용하여 원활한 경험을 위해 모든 것이 설정되어 있는지 확인하는 것이 중요합니다.
 
 1.  Visual Studio: 컴퓨터에 Visual Studio가 설치되어 있어야 합니다. 설치되어 있지 않으면 다음에서 최신 버전을 다운로드하세요.[Visual Studio 웹사이트](https://visualstudio.microsoft.com/downloads/).
-2.  Aspose.Cells 라이브러리: Aspose.Cells 라이브러리가 필요합니다. 다음에서 다운로드하여 얻을 수 있습니다.[Aspose 웹사이트](https://releases.aspose.com/cells/net/). 혹은 Visual Studio에서 NuGet을 통해 직접 설치할 수도 있습니다.
+2. Aspose.Cells 라이브러리: Aspose.Cells 라이브러리가 필요합니다. 다음에서 다운로드하여 얻을 수 있습니다.[Aspose 웹사이트](https://releases.aspose.com/cells/net/). 혹은 Visual Studio에서 NuGet을 통해 직접 설치할 수도 있습니다.
 3. C#에 대한 기본 이해: C# 코드를 작성하므로 언어에 대한 기본 이해가 필요합니다. C#을 처음 접한다면 속도를 높이는 데 도움이 되는 리소스가 많이 있습니다.
 4. Excel 파일: 잠금 해제하려는 Excel 통합 문서를 준비하세요. 이 예에서는 "book1.xls"라고 부르겠습니다.
 
@@ -69,7 +69,7 @@ Workbook workbook = new Workbook(dataDir + "book1.xls");
 ```csharp
 Worksheet worksheet = workbook.Worksheets[0];
 ```
- 지정하여`[0]`, 당신은 시스템에 첫 번째 시트를 원한다고 말하고 있습니다. 당신의 시트가 첫 번째가 아니라면, 이 인덱스를 적절한 숫자로 바꾸기만 하면 됩니다.
+ 지정하여`[0]`당신은 시스템에 첫 번째 시트를 원한다고 말하고 있습니다. 당신의 시트가 첫 번째가 아니라면, 이 인덱스를 적절한 숫자로 바꾸기만 하면 됩니다.
 
 ## 4단계: 워크시트 보호 해제
 
@@ -116,7 +116,7 @@ catch(Exception ex)
 네! 통합 문서의 각 시트를 반복하고 마찬가지로 보호를 해제할 수 있습니다.
 
 ### Aspose.Cells는 무료로 사용할 수 있나요?
- Aspose.Cells는 무료 체험판을 제공하지만 프로덕션 사용에는 라이선스가 필요합니다.[구입](https://purchase.aspose.com/buy) 자세한 내용은 페이지를 참조하세요.
+ Aspose.Cells는 무료 체험판을 제공하지만 프로덕션 사용에는 라이선스가 필요합니다.[구입](https://purchase.aspose.com/buy)자세한 내용은 페이지를 참조하세요.
 
 ### 비밀번호를 모르면 어떻게 하나요?
 시트에 암호가 설정되어 있고 암호가 없으면 도서관에서는 윤리 정책에 어긋나므로 제한을 우회하는 데 도움을 줄 수 없습니다.

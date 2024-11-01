@@ -12,7 +12,7 @@ url: /zh-hant/net/working-with-fonts-in-spreadsheets/specify-fonts-for-workbook-
 ## 先決條件
 在我們深入探討令人興奮的 Aspose.Cells 世界和自訂字體之前，讓我們確保您擁有開始使用所需的一切：
 1. .NET 的基本知識：熟悉 .NET 程式設計至關重要，因為我們將在 .NET 環境中工作。
-2.  Aspose.Cells for .NET：請確保您已安裝 Aspose.Cells 函式庫。你可以下載它[這裡](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells for .NET：請確保您已安裝 Aspose.Cells 函式庫。你可以下載它[這裡](https://releases.aspose.com/cells/net/).
 3. Visual Studio：本指南假設您使用 Visual Studio 作為 IDE。確保您已安裝並設定它。
 4. 範例 Excel 檔案：為本教學課程準備一個範例 Excel 檔案。這將使您更容易理解自訂字體如何影響渲染輸出。
 5. 自訂字體：準備您要使用的自訂字體的目錄。這對於測試我們的渲染過程至關重要。
@@ -41,7 +41,7 @@ string outputDir = "Your Document Directory";
 string customFontsDir = sourceDir + "CustomFonts";
 ```
 
-想像一下，您有一個文件櫃，裡面裝滿了重要文件（在本例中為 Excel 文件）。設定目錄就像整理櫥櫃一樣；它確保您確切地知道文件的儲存位置。透過定義`sourceDir`, `outputDir`， 和`customFontsDir`，您正在準備一個工作區，使您的程式碼更乾淨、更易於管理。
+想像一下，您有一個文件櫃，裡面裝滿了重要文件（在本例中為 Excel 文件）。設定目錄就像整理櫥櫃一樣；它確保您確切地知道文件的儲存位置。透過定義`sourceDir`, `outputDir` ， 和`customFontsDir`，您正在準備一個工作區，使您的程式碼更乾淨、更易於管理。
 ## 第 2 步：指定單獨的字體配置
 接下來，我們需要建立單獨的字體配置。此步驟對於告訴 Aspose.Cells 在哪裡找到自訂字體至關重要。
 ```csharp
@@ -79,7 +79,7 @@ Console.WriteLine("SpecifyIndividualOrPrivateSetOfFontsForWorkbookRendering exec
 ```
 這是上面的櫻桃！就像實現目標後慶祝一樣，此成功訊息讓您知道您的流程已順利完成。在程式設計中獲得回饋以確認您的程式碼是否按預期運行總是好的。
 ## 結論
-現在你就得到它了！使用 Aspose.Cells for .NET 指定用於工作簿渲染的字體不僅簡單，而且對於建立具有視覺吸引力的文件也至關重要。透過執行以下步驟，您可以確保 Excel 檔案即使在轉換為 PDF 後也能保持其預期外觀。無論您是在開發報告、財務文件或任何其他類型的 Excel 工作簿，自訂字體都可以增強可讀性和簡報效果。因此，請毫不猶豫地嘗試不同的字體配置，看看它們如何提升您的文件！
+現在你就擁有了！使用 Aspose.Cells for .NET 指定用於工作簿渲染的字體不僅簡單，而且對於建立具有視覺吸引力的文件也至關重要。透過執行以下步驟，您可以確保 Excel 檔案即使在轉換為 PDF 後也能保持其預期外觀。無論您是在開發報告、財務文件或任何其他類型的 Excel 工作簿，自訂字體都可以增強可讀性和簡報效果。因此，請毫不猶豫地嘗試不同的字體配置，看看它們如何提升您的文件！
 ## 常見問題解答
 ### 什麼是 Aspose.Cells for .NET？  
 Aspose.Cells for .NET 是一個功能強大的函式庫，可讓開發人員使用 Excel 檔案格式，包括以程式設計方式建立、修改和轉換 Excel 文件。

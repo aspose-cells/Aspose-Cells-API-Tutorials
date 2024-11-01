@@ -11,7 +11,7 @@ url: /id/net/saving-and-exporting-excel-files-with-options/specifying-document-v
 Aspose.Cells untuk .NET adalah pustaka canggih yang memungkinkan pengembang memanipulasi file Excel secara terprogram dengan mudah. Baik Anda ingin membuat file Excel dari awal atau memodifikasi file yang sudah ada, Aspose.Cells menawarkan API yang komprehensif untuk mencapai tujuan Anda. Salah satu fitur tersebut adalah menentukan properti dokumen seperti versi, penulis, atau judul. Tutorial ini akan memandu Anda tentang cara menentukan versi dokumen file Excel secara terprogram menggunakan Aspose.Cells untuk .NET.
 ## Prasyarat
 Sebelum kita membahas lebih dalam, mari pastikan Anda memiliki semua yang dibutuhkan untuk mengikuti tutorial ini:
-1.  Aspose.Cells untuk .NET: Anda dapat mengunduh versi terbaru[Di Sini](https://releases.aspose.com/cells/net/) Jika Anda belum membeli lisensi, Anda dapat memilih[lisensi sementara](https://purchase.aspose.com/temporary-license/) untuk menjelajahi fitur-fiturnya.
+1. Aspose.Cells untuk .NET: Anda dapat mengunduh versi terbaru[Di Sini](https://releases.aspose.com/cells/net/) Jika Anda belum membeli lisensi, Anda dapat memilih[lisensi sementara](https://purchase.aspose.com/temporary-license/) untuk menjelajahi fitur-fiturnya.
 2. Lingkungan Pengembangan .NET: Anda dapat menggunakan Visual Studio atau IDE apa pun yang kompatibel dengan .NET.
 3. Pengetahuan Dasar C#: Memahami pemrograman C# akan membuatnya lebih mudah untuk diikuti.
 ## Paket Impor
@@ -29,9 +29,9 @@ Sekarang, mari kita uraikan proses penentuan properti dokumen dalam file Excel, 
 ```csharp
 Workbook wb = new Workbook();
 ```
- Itu`Workbook` class menyediakan representasi dari file Excel. Dengan membuat instance-nya, kita membuat buku kerja Excel kosong yang dapat kita manipulasi.
+ Itu`Workbook`class menyediakan representasi dari file Excel. Dengan membuat instance-nya, kita membuat buku kerja Excel kosong yang dapat kita manipulasi.
 ## Langkah 2: Akses Properti Dokumen Bawaan
-Aspose.Cells menawarkan properti dokumen bawaan, yang mencakup bidang seperti judul, penulis, dan versi dokumen. Anda dapat mengakses properti ini melalui`BuiltInDocumentProperties`koleksi.
+ Aspose.Cells menawarkan properti dokumen bawaan, yang mencakup bidang seperti judul, penulis, dan versi dokumen. Anda dapat mengakses properti ini melalui`BuiltInDocumentProperties`koleksi.
 ```csharp
 Aspose.Cells.Properties.BuiltInDocumentPropertyCollection bdpc = wb.BuiltInDocumentProperties;
 ```
@@ -59,7 +59,7 @@ Menetapkan versi dokumen memberikan kejelasan mengenai versi dokumen atau pustak
 ```csharp
 wb.Save("outputSpecifyDocumentVersionOfExcelFile.xlsx", SaveFormat.Xlsx);
 ```
- Itu`Save` metode ini digunakan untuk menyimpan file ke direktori yang Anda tentukan. Di sini, kami menyimpannya sebagai file Excel di`.xlsx` format. Jika diperlukan, Aspose.Cells juga mendukung format seperti`.xls`, `.csv` , Dan`.pdf`, memberikan fleksibilitas berdasarkan kebutuhan proyek Anda.
+ Itu`Save` metode ini digunakan untuk menyimpan file ke direktori yang Anda tentukan. Di sini, kami menyimpannya sebagai file Excel di`.xlsx`format. Jika diperlukan, Aspose.Cells juga mendukung format seperti`.xls`, `.csv` , Dan`.pdf`, memberikan fleksibilitas berdasarkan kebutuhan proyek Anda.
 ## Kesimpulan
 Dalam tutorial ini, kami membahas cara menentukan properti dokumen, khususnya versi dokumen, dalam file Excel menggunakan Aspose.Cells untuk .NET. Aspose.Cells adalah alat yang sangat fleksibel dan canggih yang memungkinkan Anda memanipulasi file Excel secara terprogram, menjadikannya aset yang hebat bagi pengembang .NET mana pun yang bekerja dengan spreadsheet.
 ## Pertanyaan yang Sering Diajukan

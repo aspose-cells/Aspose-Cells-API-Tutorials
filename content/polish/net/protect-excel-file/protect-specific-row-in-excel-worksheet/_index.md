@@ -88,7 +88,7 @@ StyleFlag flag;
 for (int i = 0; i <= 255; i++)
 {
     style = sheet.Cells.Columns[(byte)i].Style;
-    style.IsLocked = false; //Odblokuj kolumnę
+    style.IsLocked = false; // Odblokuj kolumnę
     flag = new StyleFlag();
     flag.Locked = true; // Ustaw flagę na true w celu zablokowania
     sheet.Cells.Columns[(byte)i].ApplyStyle(style, flag); // Zastosuj styl

@@ -61,7 +61,7 @@ Una volta caricato correttamente il file Numbers, il passo successivo è salvarl
 // Salva la cartella di lavoro in formato PDF
 wb.Save(outputDir + "outputNumbersByAppleInc.pdf", SaveFormat.Pdf);
 ```
- Qui, chiamiamo il`Save` metodo sul`Workbook` object, specificando il percorso del file di output e il formato in cui vogliamo salvarlo. In questo caso, lo stiamo salvando come PDF. Assicurati che il nome del file di output (`outputNumbersByAppleInc.pdf`) è univoco e non sovrascrive alcun file esistente.
+ Qui chiamiamo il`Save` metodo sul`Workbook` object, specificando il percorso del file di output e il formato in cui vogliamo salvarlo. In questo caso, lo stiamo salvando come PDF. Assicurati che il nome del file di output (`outputNumbersByAppleInc.pdf`) è univoco e non sovrascrive alcun file esistente.
 ## Passaggio 5: conferma il successo
 Infine, aggiungiamo un messaggio per confermare che l'operazione è andata a buon fine.
 ```csharp

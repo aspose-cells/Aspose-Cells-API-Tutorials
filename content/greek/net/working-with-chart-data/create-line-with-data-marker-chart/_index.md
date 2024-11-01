@@ -142,7 +142,7 @@ int s3_idx = chart.NSeries.Add("A22: A41", true);
 chart.NSeries[s2_idx].Marker.Area.ForegroundColor = Color.Yellow;
 chart.NSeries[s2_idx].Marker.Border.IsVisible = false;
 
-// Προσαρμογή της δεύτερης σειράς
+// Προσαρμόστε τη δεύτερη σειρά
 chart.NSeries[s3_idx].Marker.Area.ForegroundColor = Color.Green;
 chart.NSeries[s3_idx].Marker.Border.IsVisible = false;
 ```

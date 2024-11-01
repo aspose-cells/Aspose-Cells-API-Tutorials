@@ -19,13 +19,13 @@ Prima di passare al codice, assicuriamoci di avere tutto ciò di cui hai bisogno
 Sebbene Aspose.Cells semplifichi molti compiti, una conoscenza di base di C# è fondamentale. Dovresti essere a tuo agio nel leggere e scrivere codice C# di base.
 
 ### Aspose.Cells per .NET
- Assicurati di avere Aspose.Cells installato nel tuo progetto. Puoi scaricarlo da[sito web](https://releases.aspose.com/cells/net/) se non l'hai già fatto.
+Assicurati di avere Aspose.Cells installato nel tuo progetto. Puoi scaricarlo da[sito web](https://releases.aspose.com/cells/net/) se non l'hai già fatto.
 
 ### Ambiente di sviluppo
 Dovresti avere un IDE come Visual Studio configurato. Questo ti guida attraverso la gestione e il test del tuo codice in modo efficace.
 
 ### File Excel di esempio
-Avrai bisogno di file di esempio (`samplePageSetupIsAutomaticPaperSize-False.xlsx` E`samplePageSetupIsAutomaticPaperSize-True.xlsx`per scopi di test. Assicurati che questi file siano nella directory sorgente.
+Avrai bisogno di file di esempio (`samplePageSetupIsAutomaticPaperSize-False.xlsx` E`samplePageSetupIsAutomaticPaperSize-True.xlsx`) per scopi di test. Assicurati che questi file siano nella directory sorgente.
 
 ## Importa pacchetti
 
@@ -50,7 +50,7 @@ string sourceDir = "YOUR_SOURCE_DIRECTORY";
 string outputDir = "YOUR_OUTPUT_DIRECTORY";
 ```
 
- Sostituire`YOUR_SOURCE_DIRECTORY` E`YOUR_OUTPUT_DIRECTORY` con i percorsi effettivi sul sistema in cui verranno archiviati i file.
+ Sostituire`YOUR_SOURCE_DIRECTORY` E`YOUR_OUTPUT_DIRECTORY`con i percorsi effettivi sul sistema in cui verranno archiviati i file.
 
 ## Passaggio 2: caricare le cartelle di lavoro di Excel
 
@@ -93,7 +93,7 @@ Console.WriteLine("DetermineIfPaperSizeOfWorksheetIsAutomatic executed successfu
 
 ## Conclusione 
 
-proprio così, hai gettato le basi per determinare se il formato carta di un foglio di lavoro è automatico usando Aspose.Cells per .NET! Ti sei dato da fare per importare pacchetti, caricare cartelle di lavoro, accedere a fogli di lavoro e controllare la proprietà del formato carta, tutte competenze essenziali quando si manipolano file Excel a livello di programmazione. Ricorda, più sperimenti con diverse funzionalità di Aspose.Cells, più potenti diventeranno le tue applicazioni.
+E proprio così, hai gettato le basi per determinare se il formato carta di un foglio di lavoro è automatico usando Aspose.Cells per .NET! Ti sei dato da fare per importare pacchetti, caricare cartelle di lavoro, accedere a fogli di lavoro e controllare la proprietà del formato carta, tutte competenze essenziali quando si manipolano file Excel a livello di programmazione. Ricorda, più sperimenti con diverse funzionalità di Aspose.Cells, più potenti diventeranno le tue applicazioni.
 
 ## Domande frequenti
 
@@ -104,10 +104,10 @@ Aspose.Cells è una libreria .NET progettata per gestire i file di fogli di calc
 Sì! Aspose.Cells supporta lo sviluppo multipiattaforma, così puoi lavorare in vari ambienti in cui è disponibile .NET.
 
 ### Ho bisogno di una licenza per Aspose.Cells?
- Sebbene tu possa iniziare con una prova gratuita, l'uso continuato richiede una licenza acquistata. Puoi trovare maggiori dettagli[Qui](https://purchase.aspose.com/buy).
+Sebbene tu possa iniziare con una prova gratuita, l'uso continuato richiede una licenza acquistata. Puoi trovare maggiori dettagli[Qui](https://purchase.aspose.com/buy).
 
 ### Come posso verificare se il formato della carta di un foglio di lavoro è automatico in C#?
-Come mostrato nella guida, puoi controllare il`IsAutomaticPaperSize` proprietà del`PageSetup` classe.
+ Come mostrato nella guida, puoi controllare il`IsAutomaticPaperSize` proprietà del`PageSetup` classe.
 
 ### Dove posso trovare maggiori informazioni su Aspose.Cells?
  Puoi trovare documentazione e tutorial completi[Qui](https://reference.aspose.com/cells/net/).

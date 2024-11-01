@@ -18,7 +18,7 @@ Mielőtt belevágnánk a kódba, néhány alapvető elemet meg kell adnia:
 1. .NET fejlesztői környezet: Győződjön meg arról, hogy be van állítva egy .NET-kompatibilis környezet, például a Visual Studio vagy bármely más választott IDE.
 2.  Aspose.Cells Library: Szüksége lesz az Aspose.Cells könyvtárra. Tudod[töltse le itt](https://releases.aspose.com/cells/net/).
 3. A C# alapjai: A C# alapjainak ismerete minden bizonnyal segít jobban megérteni a fogalmakat.
-4.  Aspose.Cells Dokumentáció: Ismerkedjen meg a[dokumentáció](https://reference.aspose.com/cells/net/)bármilyen speciális konfigurációhoz vagy kiegészítő szolgáltatáshoz, amelyet később hasznosnak találhat.
+4.  Aspose.Cells Dokumentáció: Ismerkedjen meg a[dokumentáció](https://reference.aspose.com/cells/net/) bármilyen speciális konfigurációhoz vagy kiegészítő szolgáltatáshoz, amelyet később hasznosnak találhat.
 
 Most, hogy az előfeltételeinket rendeztük, importáljuk a szükséges csomagokat!
 
@@ -117,7 +117,7 @@ Console.WriteLine();
 Console.WriteLine("CopyPageSetupSettingsFromSourceWorksheetToDestinationWorksheet executed successfully.\r\n");
 ```
 
-A másolási művelet után látnia kell, hogy mindkét munkalap oldalmérete megegyezik. Ennyi! A beállítások zökkenőmentesen átvitele megtörtént.
+másolási művelet után látnia kell, hogy mindkét munkalap oldalmérete megegyezik. Ennyi! A beállítások zökkenőmentesen átvitele megtörtént.
 
 ## 8. lépés: Mentse el a munkafüzetet
 
@@ -149,4 +149,4 @@ Az Aspose.Cells elsősorban a .NET nyelveket támogatja, de vannak más Aspose-k
  A támogatást a következőn keresztül érheti el[Aspose fórum](https://forum.aspose.com/c/cells/9).
 
 ### Kaphatok ideiglenes licencet az Aspose.Cellshez?  
- Teljesen! Kérheti a[ideiglenes engedély](https://purchase.aspose.com/temporary-license/) a termék értékeléséhez.
+Teljesen! Kérheti a[ideiglenes engedély](https://purchase.aspose.com/temporary-license/) a termék értékeléséhez.

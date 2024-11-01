@@ -157,7 +157,7 @@ Thao tác này sẽ lưu tệp Excel của bạn với toàn bộ biểu đồ v
 
 ## Phần kết luận
 
-Xin chúc mừng! Bạn đã học thành công cách thiết lập vùng biểu đồ bằng Aspose.Cells for .NET. Với thư viện mạnh mẽ này, bạn có thể thao tác các tệp Excel, thêm biểu đồ và tùy chỉnh chúng để phù hợp với nhu cầu của mình. Điều này mở ra một thế giới khả năng để nâng cao khả năng trực quan hóa dữ liệu trong các ứng dụng của bạn. Nếu bạn có bất kỳ câu hỏi nào hoặc muốn nâng cao kỹ năng lập biểu đồ của mình lên một tầm cao mới, hãy thoải mái khám phá thêm!
+Xin chúc mừng! Bạn đã học thành công cách thiết lập vùng biểu đồ bằng Aspose.Cells cho .NET. Với thư viện mạnh mẽ này, bạn có thể thao tác các tệp Excel, thêm biểu đồ và tùy chỉnh chúng để phù hợp với nhu cầu của mình. Điều này mở ra một thế giới khả năng để nâng cao khả năng trực quan hóa dữ liệu trong các ứng dụng của bạn. Nếu bạn có bất kỳ câu hỏi nào hoặc muốn nâng cao kỹ năng lập biểu đồ của mình lên một tầm cao mới, hãy thoải mái khám phá thêm!
 
 ## Câu hỏi thường gặp
 

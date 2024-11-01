@@ -45,7 +45,7 @@ if (!IsExists)
 ```
 En este fragmento de código, especificamos la ruta al directorio del documento. También comprobamos si el directorio existe; si no, lo creamos. Esto establece las bases para nuestro resultado.
 ## Paso 2: Crear una instancia de un libro de trabajo
-A continuación, crearemos una nueva instancia de libro de trabajo.
+continuación, crearemos una nueva instancia de libro de trabajo.
 ```csharp
 // Crear una instancia de un nuevo libro de trabajo.
 Workbook excelbook = new Workbook();
@@ -108,7 +108,7 @@ Aspose.Cells es una potente biblioteca que permite a los desarrolladores crear, 
 ### ¿Necesito instalar Microsoft Excel para utilizar Aspose.Cells?
 No, Aspose.Cells es completamente independiente y no requiere la instalación de Microsoft Excel.
 ### ¿Puedo probar Aspose.Cells gratis?
-Sí, puedes probar Aspose.Cells usando su[Prueba gratuita](https://releases.aspose.com/).
+ Sí, puedes probar Aspose.Cells usando su[Prueba gratuita](https://releases.aspose.com/).
 ### ¿Qué lenguajes de programación admite Aspose.Cells?
 Aspose.Cells admite varios lenguajes, incluidos C#, VB.NET y más.
 ### ¿Dónde puedo obtener soporte para Aspose.Cells?

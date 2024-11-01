@@ -16,7 +16,7 @@ Excel ドキュメントをプログラムで作成する場合、テキスト�
 ### 2. .NET Framework または .NET Core
 適切な .NET バージョンがインストールされていることを確認してください。Aspose.Cells for .NET は、.NET Framework と .NET Core の両方でシームレスに動作します。
 ### 3. Aspose.Cells ライブラリ
-Aspose.Cellsライブラリが必要になります。ダウンロードできます。[ここ](https://releases.aspose.com/cells/net/)Excel ファイルを操作するには、プロジェクトにこれを含める必要があります。
+Aspose.Cellsライブラリが必要になります。ダウンロードできます。[ここ](https://releases.aspose.com/cells/net/)Excel ファイルを操作するには、プロジェクトにこれが必要です。
 ### 4. C# の基本的な理解
 C# の知識があると有利ですが、必須ではありません。ライブラリを使用して Excel ファイルを操作するコードを作成するので、C# の知識があると理解が深まります。
 ### 5. 作業に使えるIDE

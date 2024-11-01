@@ -124,7 +124,7 @@ Pour améliorer l'attrait visuel et la clarté de vos cartes 3D, vous pouvez eff
 
 - Modifiez les couleurs, les polices et les styles pour qu'ils correspondent à votre présentation.
 
-### Travailler avec les axes du graphique
+### Travailler avec les axes d'un graphique
 
 - Personnalisez les échelles des axes, les intervalles et les graduations.
 

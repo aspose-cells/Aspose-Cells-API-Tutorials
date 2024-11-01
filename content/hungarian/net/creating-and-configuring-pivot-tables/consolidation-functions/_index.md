@@ -2,7 +2,7 @@
 title: Konszolidációs függvények programozottan .NET-ben
 linktitle: Konszolidációs függvények programozottan .NET-ben
 second_title: Aspose.Cells .NET Excel Processing API
-description: Ismerje meg, hogyan használhatja az Aspose.Cells for .NET fájlt a konszolidációs függvények programozott alkalmazásához. Hatékonyan automatizálja adatelemzési feladatait.
+description: Ismerje meg az Aspose.Cells for .NET használatával konszolidációs függvények programozott alkalmazását. Hatékonyan automatizálja adatelemzési feladatait.
 type: docs
 weight: 12
 url: /hu/net/creating-and-configuring-pivot-tables/consolidation-functions/

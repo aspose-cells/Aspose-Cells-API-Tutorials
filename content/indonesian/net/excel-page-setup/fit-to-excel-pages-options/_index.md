@@ -16,7 +16,7 @@ Selamat datang di panduan utama tentang cara memanfaatkan pustaka Aspose.Cells f
 Sebelum memulai coding, pastikan Anda memiliki semua yang dibutuhkan untuk memulai. Berikut ini adalah hal-hal yang harus Anda siapkan:
 
 1. Visual Studio: Pastikan Anda telah menginstal Visual Studio di komputer Anda. Ini adalah hub utama untuk semua pekerjaan pengembangan.
-2. Aspose.Cells untuk .NET: Anda perlu mengunduh dan menambahkan pustaka Aspose.Cells ke proyek Anda. Anda dapat dengan mudah mengambilnya dari[Situs web Aspose](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells untuk .NET: Anda perlu mengunduh dan menambahkan pustaka Aspose.Cells ke proyek Anda. Anda dapat dengan mudah mengambilnya dari[Situs web Aspose](https://releases.aspose.com/cells/net/).
 3. Pengetahuan Dasar C#: Keakraban dengan pemrograman C# akan sangat membantu. Jika Anda dapat menangani variabel, loop, dan I/O file dasar, Anda akan merasa seperti di rumah sendiri.
 4. .NET Framework: Pastikan proyek Anda disiapkan dengan versi .NET Framework yang sesuai, karena pustaka ini dirancang untuk kompatibilitas dalam ekosistem ini.
 
@@ -69,7 +69,7 @@ Sekarang, mari kita atur parameter untuk menyesuaikan lembar kerja Anda ke dalam
 ```csharp
 // Mengatur jumlah halaman yang akan direntangkan sepanjang lembar kerja
 worksheet.PageSetup.FitToPagesTall = 1;
-// Mengatur jumlah halaman yang akan dibentangkan pada lebar lembar kerja
+//Mengatur jumlah halaman yang akan dibentangkan pada lebar lembar kerja
 worksheet.PageSetup.FitToPagesWide = 1;
 ```
 

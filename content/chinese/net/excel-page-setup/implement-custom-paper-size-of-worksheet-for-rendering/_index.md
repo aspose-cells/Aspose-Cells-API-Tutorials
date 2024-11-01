@@ -16,7 +16,7 @@ url: /zh/net/excel-page-setup/implement-custom-paper-size-of-worksheet-for-rende
 在深入研究代码之前，让我们先确保您已正确设置。以下是您开始使用所需的条件：
 
 1. Visual Studio 或任何 .NET IDE：确保您拥有像 Visual Studio 这样的可运行的 IDE。这将是您实现所有编码魔法的游乐场。
-2.  Aspose.Cells for .NET 包：如果您还没有，您需要下载并安装 Aspose.Cells 库。您可以在[Aspose.Cells 下载页面](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells for .NET 包：如果您还没有，您需要下载并安装 Aspose.Cells 库。您可以在[Aspose.Cells 下载页面](https://releases.aspose.com/cells/net/).
 3. C# 基础知识：虽然我们将指导您完成代码，但熟悉 C# 将帮助您更好地理解细微差别。
 4. 访问 .NET Framework：确保您的项目设置为针对 .NET Framework 的兼容版本。
 

@@ -43,7 +43,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 ```
  Itt lekérjük a munkafüzet első munkalapját a`Worksheets[0]` index. Az Aspose.Cells lehetővé teszi az Excel-fájl bármely munkalapjának elérését indexe vagy neve alapján.
 ## 3. lépés: Válassza ki az érdeklődési cellát
-Ezután kiválasztunk egy adott cellát a munkalapon. Ebben az oktatóanyagban az "A1" cellára összpontosítunk, de bármelyik cellát kiválaszthatja, amelyre feltételes formázást alkalmaztak.
+Ezután kiválasztunk egy adott cellát a munkalapon. Ebben az oktatóanyagban az "A1" cellára összpontosítunk, de bármelyik cellát kiválaszthatja, amelynél feltételes formázást alkalmaztak.
 ```csharp
 // Szerezd meg az A1 cellát
 Cell a1 = worksheet.Cells["A1"];

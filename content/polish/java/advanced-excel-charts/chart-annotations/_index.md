@@ -22,7 +22,7 @@ Zanim przejdziemy do wdrożenia, upewnij się, że spełnione są następujące 
 
 ## Konfigurowanie Aspose.Cells dla Java
 
- Aby rozpocząć, musisz skonfigurować Aspose.Cells dla Java w swoim projekcie. Możesz pobrać bibliotekę ze strony internetowej Aspose[Tutaj](https://releases.aspose.com/cells/java/). Po pobraniu dodaj bibliotekę do swojego projektu Java.
+Aby rozpocząć, musisz skonfigurować Aspose.Cells dla Java w swoim projekcie. Możesz pobrać bibliotekę ze strony internetowej Aspose[Tutaj](https://releases.aspose.com/cells/java/). Po pobraniu dodaj bibliotekę do swojego projektu Java.
 
 ## Tworzenie skoroszytu programu Excel
 

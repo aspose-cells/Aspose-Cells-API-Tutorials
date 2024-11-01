@@ -8,7 +8,7 @@ weight: 11
 url: /de/net/excel-shapes-controls/get-connection-points-shape-excel/
 ---
 ## Einführung
-Wenn wir programmgesteuert mit Excel-Dateien arbeiten, müssen wir häufig mit in die Blätter eingebetteten Formen interagieren. Eine der fortgeschritteneren Aufgaben, die Sie ausführen können, ist das Extrahieren von Verbindungspunkten aus einer Form. Verbindungspunkte werden verwendet, um Formen mit Verbindungsstücken zu verbinden und ihr Layout präziser zu verwalten. Wenn Sie die Verbindungspunkte einer Form in Excel abrufen möchten, ist Aspose.Cells für .NET das richtige Tool für Sie. In diesem Tutorial führen wir Sie Schritt für Schritt durch den Prozess, um dies zu erreichen.
+Wenn wir programmgesteuert mit Excel-Dateien arbeiten, müssen wir häufig mit in die Blätter eingebetteten Formen interagieren. Eine der fortgeschritteneren Aufgaben, die Sie ausführen können, ist das Extrahieren von Verbindungspunkten aus einer Form. Verbindungspunkte werden verwendet, um Formen mit Verbindern zu verbinden und ihr Layout präziser zu verwalten. Wenn Sie die Verbindungspunkte einer Form in Excel abrufen möchten, ist Aspose.Cells für .NET das richtige Tool für Sie. In diesem Tutorial führen wir Sie Schritt für Schritt durch den Prozess, um dies zu erreichen.
 ## Voraussetzungen
 Bevor Sie in den Code eintauchen, stellen Sie sicher, dass Sie die folgenden Voraussetzungen erfüllen:
 - Aspose.Cells für .NET: Sie müssen Aspose.Cells in Ihrer Entwicklungsumgebung installiert haben. Wenn Sie es noch nicht haben, können Sie[Laden Sie hier die neueste Version herunter](https://releases.aspose.com/cells/net/).

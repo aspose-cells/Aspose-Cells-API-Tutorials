@@ -12,7 +12,7 @@ Als het gaat om het werken met Excel-bestanden in .NET, is er veel flexibiliteit
 ## Vereisten
 Voordat we beginnen, zorgen we ervoor dat je alles hebt wat je nodig hebt om het naadloos te volgen. Dit is wat je zou moeten hebben:
 1. Visual Studio: Zorg ervoor dat u een versie van Visual Studio op uw machine hebt geïnstalleerd. Dit is waar u uw .NET-code gaat schrijven. 
-2. Aspose.Cells-bibliotheek: U hebt de Aspose.Cells for .NET-bibliotheek nodig. Als u deze nog niet hebt gedownload, ga dan naar de[Aspose Downloads-pagina](https://releases.aspose.com/cells/net/) om het te pakken. 
+2.  Aspose.Cells-bibliotheek: U hebt de Aspose.Cells for .NET-bibliotheek nodig. Als u deze nog niet hebt gedownload, ga dan naar de[Aspose Downloads-pagina](https://releases.aspose.com/cells/net/) om het te pakken. 
 3. Basiskennis van C#: Een basiskennis van C# en .NET helpt u om comfortabeler door de codevoorbeelden te navigeren.
 4. .NET Framework: Zorg ervoor dat uw project is ingesteld met het juiste .NET Framework dat wordt ondersteund door de Aspose.Cells-bibliotheek.
 5. Een Excel-document: Hoewel het maken van een nieuwe werkmap een optie is, kan een startdocument handig zijn als u een bestaand bestand wilt bewerken.

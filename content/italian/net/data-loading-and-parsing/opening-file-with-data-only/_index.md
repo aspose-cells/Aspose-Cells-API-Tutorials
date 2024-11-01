@@ -41,7 +41,7 @@ string dataDir = "Your Document Directory";
 LoadOptions loadOptions = new LoadOptions(LoadFormat.Xlsx);
 ```
 Qui, stiamo dicendo che vogliamo caricare un formato di file XLSX. Ma aspetta, abbiamo bisogno di più dettagli!
-## Passaggio 3: impostare LoadFilter
+## Passaggio 3: imposta LoadFilter
  Ora stiamo entrando nella parte succosa!`LoadFilter` property indica ad Aspose.Cells cosa includere dal file. Poiché vogliamo solo i dati e la formattazione delle celle, dobbiamo specificare anche questo:
 ```csharp
 // Imposta la proprietà LoadFilter per caricare solo i dati e la formattazione delle celle

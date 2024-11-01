@@ -55,7 +55,7 @@ using Aspose.Cells.Charts;
 
 指定 ODS 檔案的來源目錄
 
-確保更換`"Your Document Directory"`與你的實際路徑`SampleChart.ods`文件駐留。正確設定檔案路徑非常重要，這樣程式就可以毫無問題地載入它。
+確保更換`"Your Document Directory"`與您的實際路徑`SampleChart.ods`文件駐留。正確設定檔案路徑非常重要，這樣程式就可以毫無問題地載入它。
 
 ```csharp
 string sourceDir = "C:\\Path\\To\\Your\\Document\\Directory\\";
@@ -97,7 +97,7 @@ Chart chart = worksheet.Charts[0];
 
 從圖表中提取副標題
 
-最後，這一步是奇蹟發生的地方——您將從圖表物件中獲取副標題並顯示它。透過將字幕文字轉換為字串，您可以根據需要輕鬆閱讀或進一步操作它。
+最後，這一步是神奇發生的地方——您將從圖表物件中獲取副標題並顯示它。透過將字幕文字轉換為字串，您可以根據需要輕鬆閱讀或進一步操作它。
 
 ```csharp
 Console.WriteLine("Chart Subtitle: " + chart.SubTitle.Text);
@@ -117,7 +117,7 @@ Console.WriteLine("GetChartSubTitleForODSFile executed successfully.");
 
 ## 結論
 
-現在你就得到它了！只需幾個簡單的步驟，您就學會如何使用 Aspose.Cells for .NET 從 ODS 檔案中提取圖表副標題。請記住，雖然本指南重點介紹字幕，但該庫提供了廣泛的功能，包括使用不同類型的圖表、操作資料和自動化任務。因此，無論您是在策劃報告還是開發數據驅動的應用程序，Aspose.Cells 都可以成為您的工具庫中的一個方便的工具。
+現在你就擁有了！只需幾個簡單的步驟，您就學會如何使用 Aspose.Cells for .NET 從 ODS 檔案中提取圖表副標題。請記住，雖然本指南重點介紹字幕，但該庫提供了廣泛的功能，包括使用不同類型的圖表、操作資料和自動化任務。因此，無論您是在策劃報告還是開發數據驅動的應用程序，Aspose.Cells 都可以成為您的工具庫中的一個方便的工具。
 
 ## 常見問題解答
 

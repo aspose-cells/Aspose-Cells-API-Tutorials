@@ -26,7 +26,7 @@ Az induláshoz importálnunk kell a szükséges csomagokat a projektünkbe. Íme
 Most adjuk hozzá az Aspose.Cells elemet a projekthez. Ezt a NuGet Package Manager segítségével teheti meg:
 1. Nyissa meg az "Eszközök" elemet a felső menüben.
 2. Válassza a „NuGet Package Manager”, majd a „Manage NuGet Packages for Solution” lehetőséget.
-3. Keresse meg az „Aspose.Cells” kifejezést.
+3. Keresse meg az "Aspose.Cells" kifejezést.
 4. Kattintson a "Telepítés" gombra, hogy hozzáadja a projekthez.
 ### Használati irányelv hozzáadása
 fő C# fájl tetején hozzá kell adnia a következő direktívát:
@@ -82,7 +82,7 @@ Aspose.Cells.Drawing.Texts.ShapeTextAlignment shapeTextAlignment = sh.TextBody.T
 //Ne forgassa el a szöveget alakzattal a RotateTextWithShape beállításával hamis.
 shapeTextAlignment.RotateTextWithShape = false;
 ```
- Beállítással`RotateTextWithShape` hamisra, biztosítjuk, hogy a szöveg függőleges maradjon, és ne forogjon az alakzattal együtt, így minden rendben és rendezett marad.
+ Beállítás által`RotateTextWithShape` hamisra, biztosítjuk, hogy a szöveg függőleges maradjon, és ne forogjon az alakzattal együtt, így minden rendben és rendezett marad.
 ## 7. lépés: Mentse el a kimeneti Excel fájlt
 Végül mentsük el a változtatásainkat egy új Excel fájlba. Ez biztosítja, hogy ne vesszenek el a szerkesztéseink, és a kimenet rendezett legyen.
 ```csharp

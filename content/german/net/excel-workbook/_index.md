@@ -17,7 +17,7 @@ Sind Sie es leid, sich mit der Excel-Dateiverwaltung herumzuschlagen? Wenn Sie s
 
 ## Digitale Signaturen hinzufügen
 
-Mussten Sie schon einmal einer signierten Excel-Datei eine digitale Signatur hinzufügen? Erfahren Sie in unserem Leitfaden, wie das geht:[Einer bereits signierten Excel-Datei eine digitale Signatur hinzufügen](./add-digital-signature-to-an-already-signed-excel-file/). Digitale Signaturen gewährleisten Authentizität und Integrität und machen Ihre Excel-Dateien nicht nur funktionsfähig, sondern auch sicher.
+ Mussten Sie schon einmal einer signierten Excel-Datei eine digitale Signatur hinzufügen? Erfahren Sie in unserem Leitfaden, wie das geht:[Einer bereits signierten Excel-Datei eine digitale Signatur hinzufügen](./add-digital-signature-to-an-already-signed-excel-file/)Digitale Signaturen gewährleisten Authentizität und Integrität und machen Ihre Excel-Dateien nicht nur funktionsfähig, sondern auch sicher.
 
 ## Erstellen freigegebener Arbeitsmappen
 
@@ -37,7 +37,7 @@ Mussten Sie schon einmal einer signierten Excel-Datei eine digitale Signatur hin
 
 ## Produktivitätssteigerung mit Regex
 
-Sind Sie ein Fan von Regex? Wenn nicht, möchten Sie vielleicht einer werden! Reguläre Ausdrücke können Ihre Aufgaben erheblich vereinfachen, insbesondere bei der Arbeit mit großen Datensätzen in Excel. Unser Tutorial zu[Regex-Ersetzung](./regex-replace/) bringt Ihnen bei, Regex-Ersetzungsfunktionen in Ihre Tabellen zu implementieren und ermöglicht Ihnen so, sowohl Ihre Produktivität als auch Ihre Genauigkeit zu steigern.
+ Sind Sie ein Fan von Regex? Wenn nicht, möchten Sie vielleicht einer werden! Reguläre Ausdrücke können Ihre Aufgaben erheblich vereinfachen, insbesondere bei der Arbeit mit großen Datensätzen in Excel. Unser Tutorial zu[Regex-Ersetzung](./regex-replace/) bringt Ihnen bei, Regex-Ersetzungsfunktionen in Ihre Tabellen zu implementieren und ermöglicht Ihnen so, sowohl Ihre Produktivität als auch Ihre Genauigkeit zu steigern.
 
 ## Aktualisieren von Power Query-Elementen
 
@@ -45,11 +45,11 @@ Sind Sie ein Fan von Regex? Wenn nicht, möchten Sie vielleicht einer werden! Re
 
 ## Druckvorschau verwalten
 
-Von Zeit zu Zeit müssen Sie Ihre Daten so professionell wie möglich präsentieren. Das Erstellen von Druckvorschauen kann eine wichtige Fähigkeit sein. In unserem Tutorial zu[Druckvorschau der Arbeitsmappe](./workbook-print-preview/)erfahren Sie, wie Sie Ihre Daten vor dem Drucken richtig formatieren. Dieser Vorgang kann Sie vor peinlichen Fehlern bewahren und sicherstellen, dass Ihre Berichte auf dem Papier genauso gut aussehen wie auf dem Bildschirm.
+ Von Zeit zu Zeit müssen Sie Ihre Daten so professionell wie möglich präsentieren. Das Erstellen von Druckvorschauen kann eine wichtige Fähigkeit sein. In unserem Tutorial zu[Druckvorschau der Arbeitsmappe](./workbook-print-preview/)erfahren Sie, wie Sie Ihre Daten vor dem Drucken richtig formatieren. Dieser Vorgang kann Sie vor peinlichen Fehlern bewahren und sicherstellen, dass Ihre Berichte auf dem Papier genauso gut aussehen wie auf dem Bildschirm.
 
 ## Arbeiten mit definierten Namen
 
- Definierte Namen in Ihren Excel-Tabellen können eine praktische Möglichkeit sein, Ihre Daten zu verwalten. Sie machen Formeln kürzer und verständlicher. Wenn Sie beim Laden einer Arbeitsmappe nach definierten Namen filtern möchten, finden Sie in unserem Tutorial[Filtern Sie definierte Namen beim Laden der Arbeitsmappe](./filter-defined-names-while-loading-workbook/) bietet alle notwendigen Schritte, um genau das zu tun. Mit dieser Funktion können Sie das Laden Ihrer Arbeitsmappe anpassen und so die Effizienz und Organisation verbessern.
+Definierte Namen in Ihren Excel-Tabellen können eine praktische Möglichkeit sein, Ihre Daten zu verwalten. Sie machen Formeln kürzer und verständlicher. Wenn Sie beim Laden einer Arbeitsmappe nach definierten Namen filtern möchten, finden Sie in unserem Tutorial[Filtern Sie definierte Namen beim Laden der Arbeitsmappe](./filter-defined-names-while-loading-workbook/) bietet alle notwendigen Schritte, um genau das zu tun. Mit dieser Funktion können Sie das Laden Ihrer Arbeitsmappe anpassen und so die Effizienz und Organisation verbessern.
 
 ## Abschluss
 

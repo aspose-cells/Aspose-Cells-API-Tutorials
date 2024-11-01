@@ -32,7 +32,7 @@ För att börja arbeta med Aspose.Cells måste du importera lämpliga namnområd
 
 ### Lägg till referens till Aspose.Cells
 
-När du har skapat eller öppnat ditt projekt måste du lägga till en referens till Aspose.Cells-biblioteket. Högerklicka på ditt projekt i Solution Explorer, välj "Manage NuGet Packages" och sök efter 'Aspose.Cells'. Installera det i ditt projekt.
+När du har skapat eller öppnat ditt projekt måste du lägga till en referens till Aspose.Cells-biblioteket. Högerklicka på ditt projekt i Solution Explorer, välj "Manage NuGet Packages" och sök efter 'Aspose.Cells'. Installera det till ditt projekt.
 
 ### Importera namnområdet
 

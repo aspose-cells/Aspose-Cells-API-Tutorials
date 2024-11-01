@@ -100,7 +100,7 @@ workbook.Save(dataDir + "RemoveSpecificPageBreak_out.xls");
 
 ## 結論
 
-現在你就得到它了！使用 Aspose.Cells for .NET 從 Excel 檔案中刪除特定分頁符號就像執行上述步驟一樣簡單。透過本指南，您可以確保 Excel 文件的格式完美適合列印，而不會出現任何雜散分頁符號。
+現在你就擁有了！使用 Aspose.Cells for .NET 從 Excel 檔案中刪除特定分頁符號就像執行上述步驟一樣簡單。透過本指南，您可以確保 Excel 文件的格式完美適合列印，而不會出現任何雜散分頁符號。
 
 ## 常見問題解答
 
@@ -117,4 +117,4 @@ workbook.Save(dataDir + "RemoveSpecificPageBreak_out.xls");
 絕對地！只需更改索引號即可`workbook.Worksheets[index]`以定位所需的工作表。
 
 ### Aspose.Cells 是免費工具嗎？  
- Aspose.Cells 提供免費試用版，但要獲得完整功能，您需要購買授權。你可以檢查一下[這裡](https://purchase.aspose.com/buy).
+Aspose.Cells 提供免費試用版，但要獲得完整功能，您需要購買授權。你可以檢查一下[這裡](https://purchase.aspose.com/buy).

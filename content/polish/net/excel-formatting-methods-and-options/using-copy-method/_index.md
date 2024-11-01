@@ -8,7 +8,7 @@ weight: 10
 url: /pl/net/excel-formatting-methods-and-options/using-copy-method/
 ---
 ## Wstęp
-Jeśli chodzi o programowe zarządzanie arkuszami kalkulacyjnymi i manipulowanie nimi, Aspose.Cells dla .NET to potęga, która może zaoszczędzić Ci czasu i usprawnić przepływ pracy. Jednym z typowych zadań, z jakimi mierzą się deweloperzy, jest konieczność kopiowania zakresów z jednego arkusza kalkulacyjnego do drugiego w skoroszycie programu Excel. W tym samouczku przeprowadzimy Cię przez metodę Copy w Aspose.Cells, prowadząc Cię przez każdy krok za pomocą jasnych wyjaśnień i przykładów kodu.
+Jeśli chodzi o programowe zarządzanie arkuszami kalkulacyjnymi i manipulowanie nimi, Aspose.Cells dla .NET to potęga, która może zaoszczędzić Ci czasu i usprawnić przepływ pracy. Jednym z typowych zadań, z jakimi mierzą się programiści, jest konieczność kopiowania zakresów z jednego arkusza kalkulacyjnego do drugiego w skoroszycie programu Excel. W tym samouczku przeprowadzimy Cię przez metodę Copy w Aspose.Cells, prowadząc Cię przez każdy krok za pomocą jasnych wyjaśnień i przykładów kodu.
 ## Wymagania wstępne
 Zanim przejdziemy do szczegółów korzystania z metody Kopiuj, musisz upewnić się, że spełnione są następujące wymagania wstępne:
 1. .NET Framework: Upewnij się, że na Twoim komputerze jest zainstalowany .NET Framework. Aspose.Cells jest kompatybilny z różnymi wersjami, więc sprawdź ich[dokumentacja](https://reference.aspose.com/cells/net/) po szczegóły.

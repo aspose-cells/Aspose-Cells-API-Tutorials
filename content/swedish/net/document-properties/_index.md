@@ -9,7 +9,7 @@ url: /sv/net/document-properties/
 ---
 ## Introduktion
 
-Dokumentegenskaper i Excel fungerar som metadata om din fil. Föreställ dig detta: varje Excel-fil har sitt eget identitetskort som innehåller viktig information som titel, författare och nyckelord. När du använder Aspose.Cells för .NET blir det enkelt att komma åt och hantera dessa egenskaper. Kom ihåg att dessa egenskaper inte bara hjälper dig att hålla dina filer organiserade utan kan också förbättra sökbarheten för dina dokument. Nyfiken hur? Låt oss hoppa in i handledningarna!
+Dokumentegenskaper i Excel fungerar som metadata om din fil. Föreställ dig detta: varje Excel-fil har sitt eget identitetskort som innehåller viktig information som titel, författare och nyckelord. När du använder Aspose.Cells för .NET blir det enkelt att komma åt och hantera dessa egenskaper. Kom ihåg att dessa egenskaper inte bara hjälper dig att hålla dina filer organiserade utan kan också förbättra sökbarheten för dina dokument. Nyfiken på hur? Låt oss hoppa in i handledningarna!
 
 ## Åtkomst till dokumentegenskaper
  Först och främst, låt oss prata om åtkomst till dokumentegenskaper i .NET. Det här är din utgångspunkt. Föreställ dig att du vill veta vem som har skrivit ett specifikt kalkylblad – med Aspose.Cells kan du snabbt hämta denna information. De[Åtkomst till dokumentegenskaper i .NET](./accessing-document-properties/)tutorial är din go-to-guide, och erbjuder en användarvänlig genomgång för att hitta dessa dolda pärlor i dina filer. Du kommer att lära dig att hämta egenskaper som skapelsedatumet och det senaste ändringsdatumet, och tro mig, det är enklare än en söndagsmorgon!

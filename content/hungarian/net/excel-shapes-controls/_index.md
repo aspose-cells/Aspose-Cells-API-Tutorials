@@ -67,7 +67,7 @@ Ebben a lépésenkénti oktatóanyagban megtudhatja, hogyan adhat hozzá testres
 Ezzel a könnyen követhető, lépésről lépésre bemutató oktatóanyaggal megtudhatja, hogyan kezelheti az Excel szövegdobozait az Aspose.Cells for .NET segítségével.
 ### [Adja hozzá az ívet az Excel munkalapjához](./add-arc-to-worksheet-excel/)
 Ismerje meg, hogyan adhat hozzá íveket az Excel munkalapokhoz az Aspose.Cells for .NET segítségével. Kövesse lépésenkénti útmutatónkat a táblázatok kialakításának javításához.
-### [Adja hozzá az oválist az Excel munkalaphoz](./add-oval-to-worksheet-excel/)
+### [Adjon hozzá oválist az Excel munkalaphoz](./add-oval-to-worksheet-excel/)
 Ismerje meg, hogyan adhat hozzá oválist egy Excel-munkalaphoz az Aspose.Cells for .NET használatával. Lépésről lépésre, részletes kódmagyarázatokkal.
 ### [Adja hozzá a jelölőnégyzetet a munkalaphoz az Excelben](./add-checkbox-to-worksheet-excel/)
 Fedezze fel, hogyan adhat hozzá egyszerűen jelölőnégyzeteket Excel-munkalapokhoz az Aspose.Cells for .NET segítségével lépésről lépésre bemutatott, kódmintákkal és magyarázatokkal kiegészített oktatóanyagunkkal.
@@ -79,7 +79,7 @@ Ismerje meg, hogyan adhat hozzá listamezőt egy Excel-munkalaphoz az Aspose.Cel
 Ismerje meg, hogyan adhat programozottan kombinált mezőt egy Excel-munkalaphoz az Aspose.Cells for .NET használatával. Ez a lépésről lépésre végigvezeti Önt minden részleten.
 ### [Adja hozzá a görgetősávot az Excel munkalapjához](./add-scroll-bar-to-worksheet-excel/)
 Ebből az átfogó, lépésenkénti útmutatóból megtudhatja, hogyan adhat hozzá egyszerűen görgetősávot Excel-munkalapokhoz az Aspose.Cells for .NET segítségével.
-### [Adja hozzá a Spinner Controlt az Excel munkalapjához](./add-spinner-control-to-worksheet-excel/)
+### [Adja hozzá a Spinner Control-t az Excel munkalapjához](./add-spinner-control-to-worksheet-excel/)
 Ebből a lépésenkénti oktatóanyagból megtudhatja, hogyan adhat hozzá Spinner-vezérlőt egy Excel-munkalaphoz az Aspose.Cells for .NET használatával.
 ### [Csoportdoboz hozzáadása az Excel munkalapjához](./add-group-box-to-worksheet-excel/)
 Ismerje meg, hogyan adhat hozzá csoportdobozt és választógombokat az Excelben az Aspose.Cells for .NET használatával. Lépésről lépésre szóló útmutató minden szintű fejlesztő számára.

@@ -33,7 +33,7 @@ string dataDir = "Your Document Directory";
 ## Passaggio 2: carica la cartella di lavoro di origine
 Ora dobbiamo caricare la cartella di lavoro di Excel che verrà convertita in formato CSV.
 ```csharp
-// Carica la cartella di lavoro di origine
+// Carica la tua cartella di lavoro di origine
 Workbook workbook = new Workbook(dataDir + "book1.xls");
 ```
  IL`Workbook` classe della libreria Aspose.Cells consente la manipolazione e l'accesso alle cartelle di lavoro di Excel. Passando il percorso del file, stiamo caricando la cartella di lavoro specificata per l'elaborazione.
@@ -53,7 +53,7 @@ opts.Separator = '\t'; // Impostazione della tabulazione come separatore
 ```
  In questo esempio, stiamo usando un carattere di tabulazione come separatore. Puoi sostituire`'\t'` con qualsiasi carattere tu voglia, come una virgola (`,`), a seconda di come desideri formattare il tuo CSV.
 ## Passaggio 5: scorrere ogni foglio di lavoro
- Successivamente, esamineremo tutti i fogli di lavoro all'interno della cartella di lavoro, salvando ciascuno di essi nel nostro`workbookData` array, ma prima devi selezionare su quale foglio di lavoro lavorare.
+ Successivamente, esamineremo tutti i fogli di lavoro all'interno della cartella di lavoro, salvando ciascuno di essi sul nostro`workbookData` array, ma prima devi selezionare su quale foglio di lavoro lavorare.
 ```csharp
 // Copiare ogni dato del foglio di lavoro in formato testo all'interno della matrice di dati della cartella di lavoro
 for (int idx = 0; idx < workbook.Worksheets.Count; idx++)

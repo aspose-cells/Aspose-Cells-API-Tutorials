@@ -42,7 +42,7 @@ Workbook wb = new Workbook(sourceDir + "sampleHtmlCrossStringType.xlsx");
 ## Krok 3: Zadejte možnosti uložení HTML
  Nyní vytvoříme instanci`HtmlSaveOptions`, který vám umožňuje nakonfigurovat, jak bude soubor Excel převeden do HTML.
 ```csharp
-// Zadejte HTML Cross Type
+// Zadejte křížový typ HTML
 HtmlSaveOptions opts = new HtmlSaveOptions();
 opts.HtmlCrossStringType = HtmlCrossType.Default;
 ```
@@ -64,7 +64,7 @@ opts.HtmlCrossStringType = HtmlCrossType.FitToCell;
 ## Krok 5: Uložte výstupní soubor HTML
  Jakmile nakonfigurujete své možnosti, je čas uložit převedený soubor HTML. Použijte`Save` metoda na vašem`Workbook` objekt:
 ```csharp
-// Výstup Html
+// Výstupní Html
 wb.Save(outputDir + "out" + opts.HtmlCrossStringType + ".htm", opts);
 ```
  Zde pojmenováváme výstupní soubor na základě`HtmlCrossStringType` nastavili jsme. Snadno tak poznáte, který typ kříže byl při převodu použit.

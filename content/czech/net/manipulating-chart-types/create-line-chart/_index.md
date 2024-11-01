@@ -50,7 +50,7 @@ Prvním krokem je definovat, kam chcete výstupní soubor uložit. Je to jako na
 // Výstupní adresář
 string outputDir = "Your Output Directory";
 ```
- Nahradit`"Your Output Directory"` se skutečnou cestou, kam chcete uložit vygenerovaný soubor Excel.
+ Nahradit`"Your Output Directory"`se skutečnou cestou, kam chcete uložit vygenerovaný soubor Excel.
 
 ## Krok 2: Vytvořte instanci objektu sešitu
 

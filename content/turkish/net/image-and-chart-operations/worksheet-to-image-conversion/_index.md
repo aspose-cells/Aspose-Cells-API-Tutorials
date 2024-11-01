@@ -58,7 +58,7 @@ Workbook book = new Workbook(dataDir + "MyTestBook1.xls");
 // İlk çalışma kağıdını al.
 Worksheet sheet = book.Worksheets[0];
 ```
- Burada ilk çalışma sayfasını (indeks) alıyoruz`0` ) çalışma kitabından. Aspose.Cells dizileri sıfır dizinlidir, bu da ilk sayfanın`0`.
+ Burada ilk çalışma sayfasını (indeks) alıyoruz`0` çalışma kitabından. Aspose.Cells dizileri sıfır dizinlidir, bu da ilk sayfanın`0`.
 ## Adım 6: Görüntü veya Yazdırma Seçeneklerini Tanımlayın
  Görüntüyü oluşturmadan önce, nasıl görünmesini istediğimizi belirtmemiz gerekiyor`ImageOrPrintOptions`:
 ```csharp
@@ -82,7 +82,7 @@ Bitmap bitmap = sr.ToImage(0);
 ## Adım 8: Görüntüyü Kaydetme
 Görüntüyü oluşturduktan sonra belirtilen dizine kaydetmemiz gerekiyor:
 ```csharp
-// Resim dosyasını resim formatını belirterek kaydedin.
+//Resim dosyasını resim formatını belirterek kaydedin.
 bitmap.Save(dataDir + "SheetImage.out.jpg");
 ```
  Burada, oluşturduğumuz bitmap görüntüsünü kaydediyoruz. Bu satır görüntüyü`dataDir` dosya adıyla konum`SheetImage.out.jpg`.
@@ -99,7 +99,7 @@ Bu satır, konsola bir onay mesajı çıktısı göndererek kullanıcıya dönü
 ### Aspose.Cells Nedir?
 Aspose.Cells, geliştiricilerin Excel dosyalarını programlı bir şekilde oluşturmasını, düzenlemesini, dönüştürmesini ve işlemesini sağlayan bir .NET kütüphanesidir.
 ### Aspose.Cells'i ücretsiz kullanabilir miyim?
-Evet, Aspose.Cells'i ücretsiz deneme sürümünü indirerek kullanmaya başlayabilirsiniz.[web sitesi](https://releases.aspose.com/).
+ Evet, Aspose.Cells'i ücretsiz deneme sürümünü indirerek kullanmaya başlayabilirsiniz.[web sitesi](https://releases.aspose.com/).
 ### Aspose.Cells hangi görüntü formatlarını dışa aktarmayı destekler?
 Aspose.Cells, JPEG, PNG, BMP ve GIF dahil olmak üzere çeşitli resim formatlarını destekler.
 ### Aspose.Cells için ek desteği nerede bulabilirim?

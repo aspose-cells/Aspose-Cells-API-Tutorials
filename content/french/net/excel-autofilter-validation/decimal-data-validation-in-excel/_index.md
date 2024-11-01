@@ -9,7 +9,7 @@ url: /fr/net/excel-autofilter-validation/decimal-data-validation-in-excel/
 ---
 ## Introduction
 
-La création de feuilles de calcul contenant des données précises est essentielle pour une communication claire dans toute entreprise. Une façon de garantir l'exactitude des données consiste à utiliser la validation des données dans Excel. Dans ce didacticiel, nous allons exploiter la puissance d'Aspose.Cells pour .NET pour créer un mécanisme de validation des données décimales qui maintient vos données fiables et propres. Si vous cherchez à améliorer votre maîtrise d'Excel, vous êtes au bon endroit !
+La création de feuilles de calcul contenant des données précises est essentielle pour une communication claire dans toute entreprise. Une façon de garantir l'exactitude des données consiste à utiliser la validation des données dans Excel. Dans ce didacticiel, nous allons exploiter la puissance d'Aspose.Cells pour .NET pour créer un mécanisme de validation des données décimales qui maintient vos données fiables et propres. Si vous cherchez à améliorer votre jeu Excel, vous êtes au bon endroit !
 
 ## Prérequis
 

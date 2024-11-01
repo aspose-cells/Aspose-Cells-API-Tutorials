@@ -2,7 +2,7 @@
 title: Zvládejte automatické jednotky osy grafu jako Microsoft Excel
 linktitle: Zvládejte automatické jednotky osy grafu jako Microsoft Excel
 second_title: Aspose.Cells .NET Excel Processing API
-description: Naučte se zacházet s automatickými jednotkami osy grafu v Excelu jako profesionál pomocí Aspose.Cells for .NET! Včetně návodu krok za krokem.
+description: Naučte se, jak zacházet s automatickými jednotkami os grafu v Excelu jako profesionál pomocí Aspose.Cells for .NET! Včetně návodu krok za krokem.
 type: docs
 weight: 10
 url: /cs/net/customizing-chart-axes-and-units/handle-automatic-units-of-chart-axis-like-microsoft-excel/

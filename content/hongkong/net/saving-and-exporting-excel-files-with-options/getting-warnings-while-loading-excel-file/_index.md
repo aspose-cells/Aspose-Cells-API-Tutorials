@@ -72,7 +72,7 @@ private class WarningCallback : IWarningCallback
 ```
 在此程式碼片段中，每當出現重複定義名稱警告時，我們都會捕獲該事件並向控制台列印一條友善訊息。您可以根據應用程式的需要擴展此方法以處理其他警告類型！
 ## 結論
-現在你就得到它了！透過執行這些步驟，您已成功設定 .NET 應用程式以在使用 Aspose.Cells 載入 Excel 檔案時處理警告。這不僅可以使操作更加順暢，還使您能夠主動回應潛在問題。 
+現在你就擁有了！透過執行這些步驟，您已成功設定 .NET 應用程式以在使用 Aspose.Cells 載入 Excel 檔案時處理警告。這不僅可以使操作更加順暢，還使您能夠主動回應潛在問題。 
 ### 常見問題解答
 ### 什麼是 Aspose.Cells？
 Aspose.Cells 是一個功能強大的 .NET 程式庫，用於建立、操作和轉換 Excel 文件，而無需 Microsoft Excel。

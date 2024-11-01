@@ -118,4 +118,4 @@ Anda dapat menyimpan file dalam format seperti .xls, .xlsx, .csv, dan beberapa l
 
 ### Apakah ada komunitas untuk dukungan Aspose?
 
-Tentu saja! Anda dapat mengakses forum komunitas Aspose untuk mendapatkan dukungan dan diskusi[Di Sini](https://forum.aspose.com/c/cells/9).
+ Tentu saja! Anda dapat mengakses forum komunitas Aspose untuk mendapatkan dukungan dan diskusi[Di Sini](https://forum.aspose.com/c/cells/9).

@@ -118,8 +118,8 @@ OLE-objecten zijn ingesloten bestanden waarmee u documenten uit andere Microsoft
 ### Kan Aspose.Cells met andere bestandsformaten werken?  
 Ja! Aspose.Cells ondersteunt verschillende formaten, waaronder XLS, XLSX, CSV en meer.
 ### Is er een gratis proefversie beschikbaar voor Aspose.Cells?  
-Ja! Je kunt het uitproberen[hier](https://releases.aspose.com/).
+ Ja! Je kunt het uitproberen[hier](https://releases.aspose.com/).
 ### Kan ik toegang krijgen tot meerdere OLE-objecten in een werkblad?  
- Absoluut! Je kunt doorlussen`ws.OleObjects` om toegang te krijgen tot alle ingesloten OLE-objecten in een werkblad.
+Absoluut! Je kunt doorlussen`ws.OleObjects` om toegang te krijgen tot alle ingesloten OLE-objecten in een werkblad.
 ### Hoe koop ik een licentie voor Aspose.Cells?  
  U kunt een licentie rechtstreeks bij ons kopen[hier](https://purchase.aspose.com/buy).

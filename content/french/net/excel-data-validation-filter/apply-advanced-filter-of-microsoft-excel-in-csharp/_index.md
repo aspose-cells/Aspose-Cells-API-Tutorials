@@ -39,7 +39,7 @@ using Aspose.Cells;
 Une fois que vous avez fait cela, vous êtes prêt à commencer à coder.
 
 
-## Étape 1 : chargez votre classeur source
+## Étape 1 : chargez votre classeur source
 
 Pour commencer, nous devons charger le classeur Excel existant dans lequel vous souhaitez appliquer le filtre.
 

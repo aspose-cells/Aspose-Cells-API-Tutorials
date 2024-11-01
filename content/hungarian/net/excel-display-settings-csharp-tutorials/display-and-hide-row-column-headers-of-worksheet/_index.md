@@ -93,7 +93,7 @@ Miután elvégezte a módosításokat, el kell mentenie a fájlt. Íme, hogyan k
 workbook.Save(dataDir + "output.xls");
 ```
 
- Ez a sor egy új fájlba menti a változtatásokat`output.xls` ugyanabban a könyvtárban. Ez biztosítja az eredeti megőrzését`book1.xls` sértetlen, miközben dolgozik az új verzióval.
+ Ez a sor egy új fájlba menti a változtatásokat`output.xls` ugyanabban a könyvtárban. Ez biztosítja, hogy megőrizze az eredetit`book1.xls` sértetlen, miközben dolgozik az új verzióval.
 
 ## 7. lépés: Zárja be a Fájlfolyamot
 

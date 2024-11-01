@@ -12,7 +12,7 @@ url: /pt/java/data-validation-rules/
 Regras de Validação de Dados são um aspecto crucial da criação e gerenciamento de planilhas do Excel. Com o Aspose.Cells para Java, você pode elevar suas habilidades em Excel e garantir a precisão dos dados sem esforço. Nesta série de tutoriais, nos aprofundamos no mundo das Regras de Validação de Dados, guiando você por cada etapa do processo.
 
 ## Criando regras de validação personalizadas
-O Aspose.Cells permite que você crie Regras de Validação de Dados personalizadas, adaptadas às suas necessidades específicas. Não importa se você está restringindo valores de entrada, definindo intervalos de datas ou implementando condições complexas, nossos tutoriais o guiarão por todo o processo. Desbloqueie a capacidade de evitar erros e manter a consistência dos dados em suas planilhas do Excel.
+Aspose.Cells permite que você crie Regras de Validação de Dados personalizadas, adaptadas às suas necessidades específicas. Não importa se você está restringindo valores de entrada, definindo intervalos de datas ou implementando condições complexas, nossos tutoriais o guiarão por todo o processo. Desbloqueie a capacidade de evitar erros e manter a consistência dos dados em suas planilhas do Excel.
 
 ## Planilhas Excel sem erros simplificadas
 Ao seguir nossos tutoriais abrangentes sobre Regras de Validação de Dados usando Aspose.Cells para Java, você ganhará a expertise necessária para criar planilhas Excel sem erros. Melhore a precisão dos seus dados, simplifique processos e torne-se um usuário proficiente do Excel. Comece sua jornada hoje mesmo e se destaque no Excel!"

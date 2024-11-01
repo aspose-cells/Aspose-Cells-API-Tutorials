@@ -12,7 +12,7 @@ Quando si tratta di lavorare con file Excel in .NET, c'è molta flessibilità e 
 ## Prerequisiti
 Prima di iniziare, assicuriamoci che tu abbia tutto ciò che ti serve per seguire senza problemi. Ecco cosa dovresti avere:
 1. Visual Studio: assicurati di avere una versione di Visual Studio installata sul tuo computer. È qui che scriverai il tuo codice .NET. 
-2. Libreria Aspose.Cells: hai bisogno della libreria Aspose.Cells per .NET. Se non l'hai ancora scaricata, vai su[Pagina dei download di Aspose](https://releases.aspose.com/cells/net/) per afferrarlo. 
+2.  Libreria Aspose.Cells: hai bisogno della libreria Aspose.Cells per .NET. Se non l'hai ancora scaricata, vai su[Pagina dei download di Aspose](https://releases.aspose.com/cells/net/) per afferrarlo. 
 3. Conoscenza di base di C#: una conoscenza di base di C# e .NET ti aiuterà a navigare più agevolmente tra gli esempi di codice.
 4. .NET Framework: assicurati che il tuo progetto sia configurato con il framework .NET appropriato supportato dalla libreria Aspose.Cells.
 5. Un documento Excel: sebbene sia possibile creare una nuova cartella di lavoro, avere un documento di partenza può essere utile se si desidera modificare un file esistente.
@@ -54,7 +54,7 @@ workbook.Save(dataDir + "output.xlsb", SaveFormat.Xlsb);
 ```
  Questa riga di codice salva la tua cartella di lavoro come`output.xlsb` nella directory specificata utilizzando il`SaveFormat.Xlsb` formato. Il`SaveFormat` l'enumerazione è potente in quanto consente di specificare vari formati come`Xlsx`, `Xls`, ecc.
 ## Conclusione
-E proprio così, hai imparato con successo come salvare un file Excel nel formato xlsb 2007 usando Aspose.Cells per .NET. Questa funzionalità semplice ma efficace può cambiare le carte in tavola per gli sviluppatori che hanno bisogno di automatizzare la gestione dei file Excel nelle loro applicazioni .NET.
+proprio così, hai imparato con successo come salvare un file Excel nel formato xlsb 2007 usando Aspose.Cells per .NET. Questa funzionalità semplice ma efficace può cambiare le carte in tavola per gli sviluppatori che hanno bisogno di automatizzare la gestione dei file Excel nelle loro applicazioni .NET.
 
 ## Domande frequenti
 ### Che cos'è la libreria Aspose.Cells?

@@ -71,7 +71,7 @@ wb.Save(outputDir + "outputSamplePivotTableTest.xlsx");
 ```csharp
 Console.WriteLine("DisablePivotTableRibbon executed successfully.\r\n");
 ```
-運行此程式碼將為您提供任務成功的正面回饋。畢竟，誰不喜歡在完成專案後得到熱烈的鼓勵呢？
+運行此程式碼將為您提供任務成功的正面回饋。畢竟，誰不喜歡在完成專案後得到熱烈的讚美呢？
 ## 結論
 恭喜！您已經成功學習如何使用 Aspose.Cells 函式庫在 .NET 中以程式設計方式停用資料透視表功能區。這個強大的工具不僅允許您調整 Excel 檔案的功能，還可以透過控制使用者可以和不能互動的內容來增強使用者體驗。因此，請繼續嘗試設置，並像專業人士一樣自訂您的 Excel 文件！[文件](https://reference.aspose.com/cells/net/)以獲得更深入的見解、支持或購買許可證。
 ## 常見問題解答

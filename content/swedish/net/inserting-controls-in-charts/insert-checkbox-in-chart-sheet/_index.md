@@ -66,7 +66,7 @@ Innan vi kommer till den spännande biten måste vi definiera var vi vill att v�
 ```csharp
 string outputDir = "C:\\YourOutputDirectory\\"; // Byt till din angivna katalog
 ```
- Se till att byta ut`"C:\\YourOutputDirectory\\"` med sökvägen där du vill att din fil ska sparas. Se detta som att ställa in din arbetsyta; du behöver veta var du placerar dina verktyg (eller i det här fallet din Excel-fil).
+ Se till att byta ut`"C:\\YourOutputDirectory\\"`med sökvägen där du vill att din fil ska sparas. Se detta som att ställa in din arbetsyta; du behöver veta var du placerar dina verktyg (eller i det här fallet din Excel-fil).
 
 ## Steg 2: Instantiera ett arbetsboksobjekt
 

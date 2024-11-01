@@ -80,7 +80,7 @@ style.Borders[BorderType.BottomBorder].Color = Color.Black;
 //左の境界線を設定
 style.Borders[BorderType.LeftBorder].LineStyle = CellBorderType.Thick;
 style.Borders[BorderType.LeftBorder].Color = Color.Black;
-//右の境界線を設定
+//右の境界線を設定する
 style.Borders[BorderType.RightBorder].LineStyle = CellBorderType.Thick;
 style.Borders[BorderType.RightBorder].Color = Color.Black;
 ```

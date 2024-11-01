@@ -16,7 +16,7 @@ Bilgisayarınızda Visual Studio'nun olduğundan emin olun. Projenizi kodlayaca�
 ### 2. .NET Framework veya .NET Core
 Doğru .NET sürümünün yüklü olduğundan emin olun. Aspose.Cells for .NET, hem .NET Framework hem de .NET Core ile sorunsuz bir şekilde çalışır.
 ### 3. Aspose.Cells Kütüphanesi
- Aspose.Cells kütüphanesine ihtiyacınız olacak. İndirebilirsiniz[Burada](https://releases.aspose.com/cells/net/)Excel dosyalarını düzenleyebilmeniz için projenizde bunun bulunması gerekir.
+Aspose.Cells kütüphanesine ihtiyacınız olacak. İndirebilirsiniz[Burada](https://releases.aspose.com/cells/net/)Excel dosyalarını düzenleyebilmeniz için projenizde bunun bulunması gerekir.
 ### 4. C#'ın Temel Anlayışı
 C#'a hakim olmak faydalıdır, ancak zorunlu değildir. Excel dosyasını düzenlemek için kütüphaneyi kullanan bir kod yazacağız ve C# bilgisi bunu daha iyi anlamanıza yardımcı olacaktır.
 ### 5. Çalışılacak Bir IDE

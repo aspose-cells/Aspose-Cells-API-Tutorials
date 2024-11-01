@@ -128,7 +128,7 @@ Al invocar este método, básicamente se bloquea toda la hoja de cálculo. Solo 
 book.Save(dataDir + "protectedrange.out.xls");
 ```
 
- Esto guardará su libro de trabajo protegido como`protectedrange.out.xls` en el directorio especificado.
+Esto guardará su libro de trabajo protegido como`protectedrange.out.xls` en el directorio especificado.
 
 ## Conclusión
 

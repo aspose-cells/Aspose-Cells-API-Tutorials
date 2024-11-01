@@ -8,7 +8,7 @@ weight: 10
 url: /pl/net/worksheet-operations/get-hyperlinks-in-a-range/
 ---
 ## Wstęp
-Czy kiedykolwiek zdarzyło Ci się tonąć w arkuszach kalkulacyjnych, zastanawiając się, jak skutecznie wyodrębnić hiperłącza? Jeśli tak, to jesteś we właściwym miejscu! W tym przewodniku przeprowadzimy Cię przez proces uzyskiwania hiperłączy w określonym zakresie przy użyciu Aspose.Cells dla .NET. Ta potężna biblioteka eliminuje żmudne zadanie pracy z plikami Excel, ułatwiając Ci pobieranie, a nawet usuwanie hiperłączy. Więc weź filiżankę kawy i zanurzmy się w świecie Aspose.Cells!
+Czy kiedykolwiek zdarzyło Ci się tonąć w arkuszach kalkulacyjnych, zastanawiając się, jak skutecznie wyodrębnić hiperłącza? Jeśli tak, to jesteś we właściwym miejscu! W tym przewodniku przeprowadzimy Cię przez proces uzyskiwania hiperłączy w określonym zakresie przy użyciu Aspose.Cells dla .NET. Ta potężna biblioteka usuwa żmudne zadanie pracy z plikami Excel, ułatwiając Ci pobieranie, a nawet usuwanie hiperłączy. Więc weź filiżankę kawy i zanurzmy się w świecie Aspose.Cells!
 ## Wymagania wstępne
 Zanim przejdziemy do szczegółów kodowania, musisz spełnić kilka warunków wstępnych. Nie martw się, to nie jest długa lista!
 ### Przygotuj swoje środowisko programistyczne

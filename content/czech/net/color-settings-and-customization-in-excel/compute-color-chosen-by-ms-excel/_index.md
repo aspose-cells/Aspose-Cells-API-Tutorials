@@ -35,7 +35,7 @@ string dataDir = "Your Document Directory";
 Workbook workbook = new Workbook(dataDir + "Book1.xlsx");
 ```
  V tomto kroku vytváříme novou instanci`Workbook` třídy od Aspose.Cells. The`Workbook`class představuje soubor Excel a poskytnutím cesty k našemu souboru jej můžeme snadno načíst pro další manipulaci.
-## Krok 2: Otevřete první pracovní list
+## Krok 2: Otevřete první list
 Jakmile je sešit načten, musíme získat přístup ke konkrétnímu listu, kde chceme extrahovat barvu. V tomto příkladu budeme pracovat s prvním listem.
 ```csharp
 // Získejte první pracovní list

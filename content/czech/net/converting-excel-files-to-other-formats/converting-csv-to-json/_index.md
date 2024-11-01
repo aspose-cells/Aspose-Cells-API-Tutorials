@@ -76,7 +76,7 @@ Console.WriteLine(data);
 Převod souboru CSV na JSON v .NET pomocí Aspose.Cells je jednoduchý proces. Využitím výkonných možností manipulace s daty Aspose.Cells můžete snadno exportovat složité datové formáty, jako je CSV, do webově přívětivějších formátů, jako je JSON. To je ideální pro webové služby, integraci API nebo jakýkoli scénář, kde jsou preferována data JSON.
 ## FAQ
 ### Dokáže Aspose.Cells zpracovat velké soubory CSV pro převod do JSON?  
-Ano, Aspose.Cells je optimalizován pro výkon a dokáže efektivně zpracovat velké datové sady. Můžete pracovat se soubory CSV obsahujícími tisíce řádků, aniž byste narazili na problémy s výkonem.
+Ano, Aspose.Cells je optimalizován pro výkon a dokáže efektivně zpracovávat velké datové sady. Můžete pracovat se soubory CSV obsahujícími tisíce řádků, aniž byste narazili na problémy s výkonem.
 ### Je možné formátovat výstup JSON specifickým způsobem?  
  Ano,`ExportRangeToJsonOptions` class vám umožňuje přizpůsobit strukturu dat JSON, což vám dává kontrolu nad věcmi, jako je zahrnutí záhlaví, formátování a další.
 ### Potřebuji licenci k používání Aspose.Cells pro tuto konverzi?  

@@ -24,7 +24,7 @@ Ora che abbiamo la nostra checklist, passiamo alla parte divertente: la codifica
 
 ## Importa pacchetti
 
-Per dare il via alle cose, dobbiamo importare i pacchetti necessari nel nostro progetto C#. Ecco il pacchetto che dovresti tenere d'occhio:
+Per dare il via alle cose, dobbiamo importare i pacchetti necessari nel nostro progetto C#. Ecco il pacchetto che dovresti cercare:
 
 ```csharp
 using System;
@@ -183,7 +183,7 @@ Ed ecco fatto! Seguendo questi passaggi, hai imparato come preservare il prefiss
 
 ## Domande frequenti
 
-### A cosa serve il prefisso apice singolo in Excel?  
+### Qual è lo scopo del prefisso apice singolo in Excel?  
 Il prefisso con virgolette singole indica a Excel di trattare il valore come testo, il che garantisce che non venga interpretato come un numero o una formula.
 
 ### Posso usare Aspose.Cells nelle applicazioni web?  

@@ -55,7 +55,7 @@ using Aspose.Cells;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
-只需更換`"YOUR DOCUMENT DIRECTORY"`與你的實際路徑`book1.xls`文件駐留。將此視為在開始公路旅行之前向您的 GPS 提供正確的地址！
+只需更換`"YOUR DOCUMENT DIRECTORY"`與您的實際路徑`book1.xls`文件駐留。將此視為在開始公路旅行之前向您的 GPS 提供正確的地址！
 
 ## 步驟 4：使用 FileStream 開啟 Excel 文件
 
@@ -109,7 +109,7 @@ fstream.Close();
 
 ## 結論
 
-現在你就得到它了！您已成功學習如何使用 C# 和 Aspose.Cells 以索引刪除 Excel 工作表。一旦掌握了基礎知識，這個過程就很簡單。現在，您可以輕鬆清理工作簿中不必要的工作表，使您的資料更易於管理和組織。
+現在你就擁有了！您已成功學習如何使用 C# 和 Aspose.Cells 以索引刪除 Excel 工作表。一旦掌握了基礎知識，這個過程就很簡單。現在，您可以輕鬆清理工作簿中不必要的工作表，使您的資料更易於管理和組織。
 
 ## 常見問題解答
 

@@ -85,7 +85,7 @@ cell.SetStyle(style);
 ```
 Ez a funkció lehetővé teszi az Excel számára, hogy automatikusan csökkentse a betűméretet, ha a szöveg túl nagy a cellához. Ez olyan, mintha egy láthatatlan testre szabnád a szövegedet a cella méretéhez!
 ## 8. lépés: Mentse el a munkafüzetet
-Végre itt az ideje, hogy megmentsük a kezeink munkáját. Megtette az erőfeszítést, és most szeretné megőrizni remekművét.
+Végre itt az ideje, hogy megmentsük a kézimunkánkat. Megtette az erőfeszítést, és most szeretné megőrizni remekművét.
 munkafüzet mentéséhez használja a következő kódot:
 ```csharp
 workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);

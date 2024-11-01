@@ -19,7 +19,7 @@ Než se ponoříte do kódu, ujistěte se, že máte následující nastavení:
 2. Vývojové prostředí .NET: Ujistěte se, že je váš projekt nastaven tak, aby používal rozhraní .NET Framework nebo .NET Core.
 3. Základní znalost C#: Měli byste být spokojeni s programováním v C#, zejména objektově orientované programování (OOP).
 
-Pro pokročilé uživatele lze použít dočasnou licenci k odemknutí všech funkcí Aspose.Cells. Můžete o něj požádat[zde](https://purchase.aspose.com/temporary-license/).
+ Pro pokročilé uživatele lze použít dočasnou licenci k odemknutí všech funkcí Aspose.Cells. Můžete o něj požádat[zde](https://purchase.aspose.com/temporary-license/).
 
 ## Importujte balíčky
 
@@ -100,7 +100,7 @@ int chartIndex = chartSheet.Charts.Add(Aspose.Cells.Charts.ChartType.Pie, 5, 0, 
 Aspose.Cells.Charts.Chart chart = chartSheet.Charts[chartIndex];
 ```
 
- Metoda`Add()` přijímá parametry pro typ grafu (v tomto případě`ChartType.Pie`) a jeho umístění na listu. Čísla představují pozice řádků a sloupců.
+ Metoda`Add()`přijímá parametry pro typ grafu (v tomto případě`ChartType.Pie`) a jeho umístění na listu. Čísla představují pozice řádků a sloupců.
 
 ## Krok 5: Přizpůsobte vzhled grafu
 
@@ -187,7 +187,7 @@ Vytvoření koláčového grafu pomocí Aspose.Cells for .NET je jednoduchý a p
 Ano! Aspose.Cells podporuje různé typy grafů, včetně sloupcových grafů, spojnicových grafů a bodových grafů.
 
 ### Potřebuji k používání Aspose.Cells pro .NET placenou licenci?
- Bezplatnou verzi můžete používat s určitými omezeními. Pro plné funkce budete potřebovat licenci, kterou si můžete zakoupit[zde](https://purchase.aspose.com/buy).
+Bezplatnou verzi můžete používat s určitými omezeními. Pro plné funkce budete potřebovat licenci, kterou si můžete zakoupit[zde](https://purchase.aspose.com/buy).
 
 ### Mohu exportovat graf do formátů, jako je PDF nebo obrázky?
 Absolutně! Aspose.Cells umožňuje exportovat grafy do různých formátů, včetně PDF a PNG.

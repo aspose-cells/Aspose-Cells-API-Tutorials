@@ -29,7 +29,7 @@ Till att börja med måste vi definiera var vår Excel-fil finns. Det är här v
 ```csharp
 string dataDir = "Your Document Directory";
 ```
- Ersätta`"Your Document Directory"` med den faktiska vägen där din`book1.xls`lagras. Detta talar om för programmet var Excel-filen vi kommer att manipulera kan hitta.
+ Ersätta`"Your Document Directory"` med den faktiska vägen där din`book1.xls` lagras. Detta talar om för programmet var Excel-filen vi kommer att manipulera kan hitta.
 ## Steg 2: Instantiera en ny arbetsbok
 Nästa upp kommer vi att skapa en ny instans av Workbook-objektet. Detta gör att vi kan öppna och redigera vår Excel-fil.
 ```csharp
@@ -51,7 +51,7 @@ ca.StartColumn = 1;
 ca.EndRow = 18; // C19
 ca.EndColumn = 2;
 ```
- Här definierar vi a`CellArea`som anger intervallet vi är intresserade av. I det här fallet har vi valt området från B3 (rad 2, kolumn 1) till C19 (rad 18, kolumn 2). Det är här vi kommer att beräkna våra delsummor.
+ Här definierar vi a`CellArea` som anger intervallet vi är intresserade av. I det här fallet har vi valt området från B3 (rad 2, kolumn 1) till C19 (rad 18, kolumn 2). Det är här vi kommer att beräkna våra delsummor.
 ## Steg 5: Tillämpa delsummor
 Detta är hjärtat i vår verksamhet – att tillämpa delsumman på det definierade cellområdet.
 ```csharp
@@ -60,7 +60,7 @@ cells.Subtotal(ca, 0, ConsolidationFunction.Sum, new int[] { 1 });
  På den här raden kallar vi`Subtotal` metod. De definierade parametrarna är:
 - `ca`: Cellintervallet vi definierade tidigare.
 - `0`: Detta index hänvisar till kolumnen som innehåller värdena som ska subtotalas. 
-- `ConsolidationFunction.Sum`: Detta anger att vi vill summera värdena.
+- `ConsolidationFunction.Sum`Detta anger att vi vill summera värdena.
 - `new int[] { 1 }`: Detta indikerar att vi summerar värdena från den andra kolumnen (kolumn C).
 ## Steg 6: Spara den modifierade Excel-filen
 Äntligen måste vi spara våra ändringar i en ny Excel-fil. 

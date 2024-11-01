@@ -17,14 +17,14 @@ Chtěli jste někdy změnit styl nebo vzhled pouze části textu v buňce Excelu
 
 Pomocí jednoduchých úryvků kódu můžete rychle zlepšit čitelnost svých excelových listů. Je to jako dát svým datům extra pop! Zajímá vás kód? Podívejte se na podrobné kroky v tomto[tutoriál o formátování vybraných znaků v Excelu](./formatting-selected-characters/).
 
-## Aktivace buňky programově v Excelu
+## Programově aktivovat buňku v Excelu
 
-Navigace ve velkých tabulkách může být těžkopádná, že? Někdy je důležité nasměrovat pozornost uživatelů na konkrétní buňku. Aspose.Cells for .NET umožňuje programově nastavit konkrétní buňku jako aktivní. To znamená, že můžete ovládat, která buňka se při otevření souboru zvýrazní nebo vybere.
+Navigace ve velkých tabulkách může být těžkopádná, že? Někdy je důležité nasměrovat pozornost uživatelů na konkrétní buňku. Aspose.Cells for .NET vám umožňuje programově nastavit konkrétní buňku jako aktivní. To znamená, že můžete ovládat, která buňka se při otevření souboru zvýrazní nebo vybere.
 
  Představte si, že pracujete na sestavě prodeje a chcete, aby se fokus zaměřil na buňku „Total Sales“, kdykoli někdo otevře dokument. Pomocí této funkce můžete navést oči uživatelů přesně tam, kam chcete. Začněte s tím[krok za krokem, jak aktivovat buňku programově v Excelu](./making-a-cell-active/).
 
 ## Výukové programy pro formátování znaků a buněk v Excelu
 ### [Formátování vybraných znaků v Excelu](./formatting-selected-characters/)
 Naučte se formátovat vybrané znaky v Excelu pomocí Aspose.Cells for .NET pomocí našeho podrobného návodu.
-### [Aktivace buňky programově v Excelu](./making-a-cell-active/)
+### [Programově aktivovat buňku v Excelu](./making-a-cell-active/)
 Naučte se, jak programově nastavit aktivní buňku v Excelu pomocí Aspose.Cells for .NET, pomocí tohoto komplexního průvodce.

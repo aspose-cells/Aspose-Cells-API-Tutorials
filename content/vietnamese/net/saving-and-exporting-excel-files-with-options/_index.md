@@ -17,7 +17,7 @@ Aspose.Cells for .NET cung cấp cho các nhà phát triển các công cụ m�
 
 ## Nhận cảnh báo khi tải tệp Excel trong .NET
 
- Khi bạn tải tệp Excel, một số định dạng dữ liệu hoặc nội dung nhất định có thể kích hoạt cảnh báo. Tìm hiểu cách quản lý và diễn giải các cảnh báo này bằng[Nhận cảnh báo khi tải tệp Excel trong .NET](./getting-warnings-while-loading-excel-file/)hướng dẫn. Hướng dẫn này là bắt buộc đối với các nhà phát triển muốn xử lý và giải quyết các vấn đề về khả năng tương thích hoặc cảnh báo định dạng một cách hiệu quả. Bằng cách giải quyết các cảnh báo này sớm, bạn đảm bảo trải nghiệm mượt mà hơn, không có lỗi khi tải tệp vào ứng dụng của mình.
+ Khi bạn tải tệp Excel, một số định dạng dữ liệu hoặc nội dung nhất định có thể kích hoạt cảnh báo. Tìm hiểu cách quản lý và diễn giải các cảnh báo này bằng[Nhận cảnh báo khi tải tệp Excel trong .NET](./getting-warnings-while-loading-excel-file/) hướng dẫn. Hướng dẫn này là bắt buộc đối với các nhà phát triển muốn xử lý và giải quyết các vấn đề về khả năng tương thích hoặc cảnh báo định dạng một cách hiệu quả. Bằng cách giải quyết các cảnh báo này sớm, bạn đảm bảo trải nghiệm mượt mà hơn, không có lỗi khi tải tệp vào ứng dụng của mình.
 
 ## Chỉ định phiên bản tài liệu của tệp Excel theo chương trình trong .NET
 
@@ -25,7 +25,7 @@ Aspose.Cells for .NET cung cấp cho các nhà phát triển các công cụ m�
 
 ### Cắt bớt các hàng và cột trống đầu tiên khi xuất
 
- Các hàng và cột trống có thể làm lộn xộn các bản xuất của bạn, đặc biệt là khi xử lý các tệp CSV.[Cắt bớt các hàng và cột trống đầu tiên khi xuất](./trimming-leading-blank-rows-and-columns/)hướng dẫn cho phép bạn dọn dẹp dữ liệu của mình bằng cách cắt bớt các khoảng trống không cần thiết ở đầu hàng và cột. Hướng dẫn này hoàn hảo cho các nhà phát triển muốn tạo các tệp ngắn gọn và gọn gàng, sẵn sàng để phân tích hoặc trình bày. Một đầu ra sạch sẽ, bóng bẩy không chỉ trông chuyên nghiệp mà còn giúp xử lý dữ liệu dễ dàng hơn nhiều.
+Các hàng và cột trống có thể làm lộn xộn các bản xuất của bạn, đặc biệt là khi xử lý các tệp CSV.[Cắt bớt các hàng và cột trống đầu tiên khi xuất](./trimming-leading-blank-rows-and-columns/) hướng dẫn cho phép bạn dọn dẹp dữ liệu của mình bằng cách cắt bớt các khoảng trống không cần thiết ở đầu hàng và cột. Hướng dẫn này hoàn hảo cho các nhà phát triển muốn tạo các tệp ngắn gọn và gọn gàng, sẵn sàng để phân tích hoặc trình bày. Một đầu ra sạch sẽ, bóng bẩy không chỉ trông chuyên nghiệp mà còn giúp xử lý dữ liệu dễ dàng hơn nhiều.
 
 ## Lưu và Xuất Tệp Excel với Hướng dẫn Tùy chọn
 ### [Xuất bình luận trong khi lưu tệp Excel sang HTML](./exporting-comments/)

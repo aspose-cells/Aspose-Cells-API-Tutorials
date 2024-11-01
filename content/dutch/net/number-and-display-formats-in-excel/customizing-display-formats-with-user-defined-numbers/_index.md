@@ -2,7 +2,7 @@
 title: Weergaveformaten aanpassen met door de gebruiker gedefinieerde getallen
 linktitle: Weergaveformaten aanpassen met door de gebruiker gedefinieerde getallen
 second_title: Aspose.Cells .NET Excel-verwerkings-API
-description: Leer hoe u weergaveformaten aanpast met Aspose.Cells voor .NET. Formatteer datums, percentages en valuta met behulp van deze stapsgewijze handleiding.
+description: Leer hoe u weergaveformaten kunt aanpassen met Aspose.Cells voor .NET. Formatteer datums, percentages en valuta met behulp van deze stapsgewijze handleiding.
 type: docs
 weight: 11
 url: /nl/net/number-and-display-formats-in-excel/customizing-display-formats-with-user-defined-numbers/

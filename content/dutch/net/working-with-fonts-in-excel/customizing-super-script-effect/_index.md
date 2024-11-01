@@ -16,7 +16,7 @@ Zorg ervoor dat je Visual Studio op je computer hebt. Daar ga je je project code
 ### 2. .NET Framework of .NET Core
 Zorg ervoor dat u de juiste .NET-versie hebt geïnstalleerd. Aspose.Cells voor .NET werkt naadloos met zowel .NET Framework als .NET Core.
 ### 3. Aspose.Cells-bibliotheek
- Je hebt de Aspose.Cells-bibliotheek nodig. Je kunt deze downloaden[hier](https://releases.aspose.com/cells/net/). U hebt dit nodig in uw project om Excel-bestanden te kunnen bewerken.
+Je hebt de Aspose.Cells-bibliotheek nodig. Je kunt deze downloaden[hier](https://releases.aspose.com/cells/net/). U hebt dit nodig in uw project om Excel-bestanden te kunnen bewerken.
 ### 4. Basiskennis van C#
 Het is nuttig, maar niet verplicht, om C# onder de knie te hebben. We gaan code schrijven die de bibliotheek gebruikt om een Excel-bestand te manipuleren, en kennis van C# helpt je om het beter te begrijpen.
 ### 5. Een IDE om mee te werken

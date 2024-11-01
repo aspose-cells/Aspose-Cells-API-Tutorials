@@ -9,7 +9,7 @@ url: /cs/net/excel-page-setup/set-excel-page-order/
 ---
 ## Zavedení
 
-Přistihli jste se někdy, že procházíte neuspořádanou změtí stránek v souboru aplikace Excel? Víte, co tím myslím – tištěný výstup nevypadá tak, jak jste si představovali. Co kdybych vám řekl, že můžete ovládat pořadí, ve kterém se vaše stránky tisknou? Přesně tak! S Aspose.Cells for .NET můžete snadno nastavit pořadí stránek sešitů aplikace Excel, aby nejen vypadaly profesionálně, ale aby byly také snadno čitelné. Tento výukový program vás provede kroky potřebnými k nastavení pořadí stránek aplikace Excel a zajistí, že vaše tištěné dokumenty budou zobrazovat informace jasným a organizovaným způsobem.
+Přistihli jste se někdy, že procházíte neuspořádanou změtí stránek v souboru aplikace Excel? Víte, co tím myslím – tištěný výstup nevypadá tak, jak jste si představovali. Co kdybych vám řekl, že můžete ovládat pořadí, ve kterém se vaše stránky tisknou? To je pravda! S Aspose.Cells for .NET můžete snadno nastavit pořadí stránek sešitů aplikace Excel, aby nejen vypadaly profesionálně, ale aby byly také snadno čitelné. Tento výukový program vás provede kroky potřebnými k nastavení pořadí stránek aplikace Excel a zajistí, že vaše tištěné dokumenty budou zobrazovat informace jasným a organizovaným způsobem.
 
 ## Předpoklady
 

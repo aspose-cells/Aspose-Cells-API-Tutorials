@@ -88,7 +88,7 @@ StyleFlag flag;
 for (int i = 0; i <= 255; i++)
 {
     style = sheet.Cells.Columns[(byte)i].Style;
-    style.IsLocked = false; //Kolom ontgrendelen
+    style.IsLocked = false; // Kolom ontgrendelen
     flag = new StyleFlag();
     flag.Locked = true; // Zet de vlag op waar voor vergrendeling
     sheet.Cells.Columns[(byte)i].ApplyStyle(style, flag); // Pas de stijl toe

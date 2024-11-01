@@ -106,4 +106,4 @@ Aspose.Cells for .NET は、マシンに Excel をインストールしなくて
 ### Aspose.Cells を使用するには Microsoft Excel をインストールする必要がありますか?
 いいえ、Aspose.Cells は Microsoft Excel とは独立して動作するため、任意のサーバーまたは環境で Excel ファイルを作成および操作できます。
 ### Aspose.Cells のサポートを受けるにはどうすればよいですか?
- Aspose.Cellsのサポートには、[Aspose フォーラム](https://forum.aspose.com/c/cells/9)では、他のユーザーと質問したり、経験を共有したりすることができます。
+ Aspose.Cellsのサポートには、[Aspose フォーラム](https://forum.aspose.com/c/cells/9)では、他のユーザーと質問したり、経験を共有したりできます。

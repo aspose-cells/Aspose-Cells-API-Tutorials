@@ -39,7 +39,7 @@ Ha még nem telepítette az Aspose.Cells programot, a NuGet segítségével megt
 
 ### Importálja a névteret
 
-A C# fájl tetején adja hozzá:
+C# fájl tetején adja hozzá:
 
 ```csharp
 using System.IO;
@@ -78,7 +78,7 @@ Most pedig nyissa meg a munkalapot, amelynek védelmét fel szeretné oldani. Á
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
-Ebben a sorban az első munkalapot célozzuk meg. Ha egy másik lap védelmét kell feloldania, akkor ennek megfelelően módosítsa az indexszámot.
+Ebben a sorban az első munkalapot célozzuk meg. Ha egy másik lap védelmét szeretné feloldani, akkor ennek megfelelően módosítsa az indexszámot.
 
 ## 4. lépés: Szüntesse meg a munkalap védelmét
 

@@ -66,7 +66,7 @@ Trước khi đến phần thú vị, chúng ta cần xác định nơi chúng t
 ```csharp
 string outputDir = "C:\\YourOutputDirectory\\"; // Thay đổi đến thư mục bạn chỉ định
 ```
- Hãy chắc chắn thay thế`"C:\\YourOutputDirectory\\"` với đường dẫn mà bạn muốn lưu tệp của mình. Hãy nghĩ về điều này như thiết lập không gian làm việc của bạn; bạn cần biết mình sẽ đặt các công cụ của mình ở đâu (hoặc trong trường hợp này là tệp Excel của bạn).
+ Hãy chắc chắn thay thế`"C:\\YourOutputDirectory\\"`với đường dẫn mà bạn muốn lưu tệp của mình. Hãy nghĩ về điều này như thiết lập không gian làm việc của bạn; bạn cần biết mình sẽ đặt các công cụ của mình ở đâu (hoặc trong trường hợp này là tệp Excel của bạn).
 
 ## Bước 2: Khởi tạo một đối tượng Workbook
 

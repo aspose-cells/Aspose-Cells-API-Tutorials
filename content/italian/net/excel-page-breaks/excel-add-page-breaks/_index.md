@@ -118,4 +118,4 @@ Sebbene Aspose.Cells offra una prova gratuita, per continuare a utilizzarlo è n
 
 ### Esiste una community per il supporto di Aspose?
 
-Certamente! Puoi accedere al forum della community Aspose per supporto e discussioni[Qui](https://forum.aspose.com/c/cells/9).
+ Certamente! Puoi accedere al forum della community Aspose per supporto e discussioni[Qui](https://forum.aspose.com/c/cells/9).

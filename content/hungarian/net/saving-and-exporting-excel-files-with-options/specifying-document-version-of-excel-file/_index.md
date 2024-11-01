@@ -11,7 +11,7 @@ url: /hu/net/saving-and-exporting-excel-files-with-options/specifying-document-v
 Az Aspose.Cells for .NET egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára az Excel-fájlok egyszerű programozását. Akár a semmiből szeretne Excel-fájlokat létrehozni, akár a meglévőket módosítani, az Aspose.Cells átfogó API-t kínál céljainak eléréséhez. Az egyik ilyen funkció a dokumentum tulajdonságainak megadása, például a verzió, a szerző vagy a cím. Ez az oktatóanyag végigvezeti Önt, hogyan adhatja meg programozottan egy Excel-fájl dokumentumverzióját az Aspose.Cells for .NET használatával.
 ## Előfeltételek
 Mielőtt belemerülnénk a részletekbe, győződjünk meg arról, hogy mindennel rendelkezünk, ami ehhez az oktatóanyaghoz szükséges:
-1.  Aspose.Cells for .NET: Letöltheti a legújabb verziót[itt](https://releases.aspose.com/cells/net/) . Ha még nem vásárolt licencet, választhat a[ideiglenes engedély](https://purchase.aspose.com/temporary-license/) a funkciók felfedezéséhez.
+1. Aspose.Cells for .NET: Letöltheti a legújabb verziót[itt](https://releases.aspose.com/cells/net/) . Ha még nem vásárolt licencet, választhat a[ideiglenes engedély](https://purchase.aspose.com/temporary-license/) a funkciók felfedezéséhez.
 2. .NET fejlesztői környezet: Használhatja a Visual Studio-t vagy bármely .NET-kompatibilis IDE-t.
 3. Alapvető C# ismerete: A C# programozás megértése megkönnyíti a követést.
 ## Csomagok importálása
@@ -29,9 +29,9 @@ Most bontsuk le a dokumentum tulajdonságainak Excel-fájlban történő megadá
 ```csharp
 Workbook wb = new Workbook();
 ```
- A`Workbook` osztály egy Excel-fájl reprezentációját biztosítja. Példányosításával egy üres Excel munkafüzetet hozunk létre, amelyet kezelhetünk.
+ A`Workbook`osztály egy Excel-fájl reprezentációját biztosítja. Példányosításával egy üres Excel munkafüzetet hozunk létre, amelyet kezelhetünk.
 ## 2. lépés: Nyissa meg a beépített dokumentum tulajdonságait
-Az Aspose.Cells beépített dokumentumtulajdonságokat kínál, amelyek olyan mezőket tartalmaznak, mint a cím, a szerző és a dokumentum verziója. Ezeket a tulajdonságokat a következőn keresztül érheti el`BuiltInDocumentProperties`gyűjtemény.
+ Az Aspose.Cells beépített dokumentumtulajdonságokat kínál, amelyek olyan mezőket tartalmaznak, mint a cím, a szerző és a dokumentum verziója. Ezeket a tulajdonságokat a következőn keresztül érheti el`BuiltInDocumentProperties`gyűjtemény.
 ```csharp
 Aspose.Cells.Properties.BuiltInDocumentPropertyCollection bdpc = wb.BuiltInDocumentProperties;
 ```
@@ -59,7 +59,7 @@ A dokumentum verziójának beállítása egyértelművé teszi, hogy a dokumentu
 ```csharp
 wb.Save("outputSpecifyDocumentVersionOfExcelFile.xlsx", SaveFormat.Xlsx);
 ```
- A`Save` módszerrel menti a fájlt a megadott könyvtárba. Itt Excel fájlként mentjük el a`.xlsx` formátum. Ha szükséges, az Aspose.Cells olyan formátumokat is támogat, mint pl`.xls`, `.csv` , és`.pdf`, amely rugalmasságot biztosít a projekt igényei alapján.
+ A`Save` módszerrel menti a fájlt a megadott könyvtárba. Itt Excel fájlként mentjük el a`.xlsx`formátum. Ha szükséges, az Aspose.Cells olyan formátumokat is támogat, mint pl`.xls`, `.csv` , és`.pdf`, amely rugalmasságot biztosít a projekt igényei alapján.
 ## Következtetés
 Ebben az oktatóanyagban végigvezettük, hogyan adhatjuk meg a dokumentum tulajdonságait, különösen a dokumentum verzióját egy Excel-fájlban az Aspose.Cells for .NET használatával. Az Aspose.Cells egy rendkívül rugalmas és hatékony eszköz, amely lehetővé teszi az Excel-fájlok programozott kezelését, így nagyszerű eszköz a táblázatokkal dolgozó .NET-fejlesztők számára.
 ## GYIK

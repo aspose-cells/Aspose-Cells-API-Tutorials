@@ -30,7 +30,7 @@ url: /zh-hant/net/conversion-and-rendering/advanced-conversion-to-pdf/
 
 開啟 Visual Studio 並建立一個新的 C# 控制台應用程式。給它一個朗朗上口的名字，例如「ExcelToPdfConverter」。
 
-## 加入Aspose.Cells
+## 加入 Aspose.Cells
 
 建立專案後：
 - 在解決方案資源管理器中以滑鼠右鍵按一下您的專案。
@@ -112,7 +112,7 @@ workbook.Save(dataDir + "output.pdf", pdfSaveOptions);
 
 ## 結論
 
-現在你就得到它了！如果您一直按照操作進行操作，那麼您剛剛使用 .NET 中的 Aspose.Cells 成功將 Excel 工作簿轉換為 PDF。該工具不僅簡化了轉換過程，而且還保留了原始文件的完整性和格式。
+現在你就擁有了！如果您一直按照操作進行操作，那麼您剛剛使用 .NET 中的 Aspose.Cells 成功將 Excel 工作簿轉換為 PDF。該工具不僅簡化了轉換過程，而且還保留了原始文件的完整性和格式。
 
 ## 常見問題解答
 
@@ -120,7 +120,7 @@ workbook.Save(dataDir + "output.pdf", pdfSaveOptions);
 Aspose.Cells 是一個功能強大的程式庫，可在 .NET 應用程式中處理 Excel 格式，讓使用者可以建立、操作、轉換和呈現 Excel 文件。
 
 ### 如何安裝 Aspose.Cells？
-您可以透過 Visual Studio 中的 NuGet 套件管理器安裝 Aspose.Cells，方法是搜尋「Aspose.Cells」並按一下安裝。
+您可以透過 Visual Studio 中的 NuGet 套件管理器來安裝 Aspose.Cells，方法是搜尋「Aspose.Cells」並按一下安裝。
 
 ### 我可以在不安裝任何東西的情況下轉換 Excel 文件嗎？
 不可以，您需要安裝 Aspose.Cells 庫才能存取其處理 Excel 檔案的功能。

@@ -88,7 +88,7 @@ HtmlSaveOptions saveOptions = new HtmlSaveOptions(SaveFormat.Html);
 
 ## Krok 5: Ustaw format obrazu na PNG
 
-Podczas konwersji obrazów w arkuszu kalkulacyjnym do formatu HTML możesz określić format tych obrazów. W tym przykładzie ustawimy go na PNG, który jest szeroko stosowanym formatem obrazów do wyświetlania wysokiej jakości.
+Podczas konwersji obrazów w arkuszu kalkulacyjnym do formatu HTML możesz określić format tych obrazów. W tym przykładzie ustawimy go na PNG, który jest powszechnie używanym formatem obrazu do wyświetlania wysokiej jakości.
 
 ```csharp
 saveOptions.ImageOptions.ImageType = Drawing.ImageType.Png;
@@ -134,7 +134,7 @@ Dzięki temu przewodnikowi krok po kroku nauczyłeś się, jak ustawić preferen
 
 ### Czym jest Aspose.Cells dla .NET?
 
-Aspose.Cells for .NET to zaawansowana biblioteka przeznaczona do tworzenia, odczytywania i manipulowania plikami Excel w aplikacjach .NET.
+Aspose.Cells for .NET to zaawansowana biblioteka przeznaczona do tworzenia, odczytywania i modyfikowania plików Excel w aplikacjach .NET.
 
 ### Czy mogę używać Aspose.Cells bez programu Visual Studio?
 

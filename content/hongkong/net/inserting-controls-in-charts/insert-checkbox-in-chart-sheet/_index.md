@@ -123,7 +123,7 @@ workbook.Save(outputDir + "InsertCheckboxInChartSheet_out.xlsx");
 
 ## 結論
 
-現在你就得到它了！您已使用 Aspose.Cells for .NET 成功將複選框新增至 Excel 檔案中的圖表工作表中。透過執行這些步驟，您可以建立具有強大功能的互動式動態 Excel 工作表，使您的資料視覺化更具吸引力。
+現在你就擁有了！您已使用 Aspose.Cells for .NET 成功將複選框新增至 Excel 檔案中的圖表工作表中。透過執行這些步驟，您可以建立具有強大功能的互動式動態 Excel 工作表，使您的資料視覺化更具吸引力。
 
 ## 常見問題解答
 

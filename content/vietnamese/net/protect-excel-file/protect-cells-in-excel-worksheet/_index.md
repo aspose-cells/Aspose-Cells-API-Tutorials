@@ -16,7 +16,7 @@ Trong thế giới kỹ thuật số ngày nay, việc quản lý dữ liệu an
 Trước khi đi sâu vào việc bảo vệ tế bào, bạn cần thực hiện một số điều kiện tiên quyết sau:
 
 1. Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio trên máy tính của mình. Đây là IDE chính để phát triển .NET.
-2. Thư viện Aspose.Cells: Bạn cần có thư viện Aspose.Cells trong dự án của mình. Bạn có thể dễ dàng cài đặt nó thông qua NuGet Package Manager hoặc tải xuống trực tiếp từ[Trang web Aspose.Cells](https://releases.aspose.com/cells/net/).
+2.  Thư viện Aspose.Cells: Bạn cần có thư viện Aspose.Cells trong dự án của mình. Bạn có thể dễ dàng cài đặt nó thông qua NuGet Package Manager hoặc tải xuống trực tiếp từ[Trang web Aspose.Cells](https://releases.aspose.com/cells/net/).
 3. Kiến thức cơ bản về C#: Một chút quen thuộc với lập trình C# sẽ giúp bạn theo dõi dễ dàng hơn.
 
 ## Nhập gói
@@ -88,7 +88,7 @@ Khá đơn giản! Bây giờ bạn đã có tham chiếu đến trang tính đ�
 for (int i = 0; i <= 255; i++)
 {
     Style style = sheet.Cells.Columns[(byte)i].Style;
-    style.IsLocked = false; //Mở khóa cột
+    style.IsLocked = false; // Mở khóa cột
     StyleFlag styleflag = new StyleFlag();
     styleflag.Locked = true; // Chỉ ra rằng chúng ta muốn khóa kiểu này
     sheet.Cells.Columns[(byte)i].ApplyStyle(style, styleflag);

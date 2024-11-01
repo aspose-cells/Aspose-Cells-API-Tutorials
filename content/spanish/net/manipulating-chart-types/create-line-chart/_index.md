@@ -50,7 +50,7 @@ El primer paso es definir dónde quieres guardar el archivo de salida. Es como c
 // Directorio de salida
 string outputDir = "Your Output Directory";
 ```
- Reemplazar`"Your Output Directory"` con la ruta real donde desea guardar el archivo Excel generado.
+ Reemplazar`"Your Output Directory"`con la ruta real donde desea guardar el archivo Excel generado.
 
 ## Paso 2: Crear una instancia del objeto de libro de trabajo
 

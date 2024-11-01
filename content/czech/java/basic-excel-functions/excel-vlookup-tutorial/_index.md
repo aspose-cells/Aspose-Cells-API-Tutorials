@@ -77,9 +77,9 @@ if (cell != null) {
 
 ## Závěr
 
-Gratuluji! Úspěšně jste se naučili, jak provádět operace SVYHLEDAT pomocí Aspose.Cells for Java. Toto výkonné rozhraní API zjednodušuje složité úlohy aplikace Excel, takže vaše vývojová cesta je plynulejší.
+Gratuluji! Úspěšně jste se naučili, jak provádět operace VLOOKUP pomocí Aspose.Cells for Java. Toto výkonné rozhraní API zjednodušuje složité úlohy aplikace Excel, takže vaše vývojová cesta je plynulejší.
 
-Nyní pokračujte a prozkoumejte nekonečné možnosti Aspose.Cells pro Java ve vašich projektech Excel!
+Nyní pokračujte a prozkoumejte nekonečné možnosti Aspose.Cells pro Java ve svých projektech Excel!
 
 ## FAQ
 
@@ -91,7 +91,7 @@ Nyní pokračujte a prozkoumejte nekonečné možnosti Aspose.Cells pro Java ve 
 
 Aspose.Cells for Java je navržen speciálně pro vývojáře Java. Aspose však nabízí knihovny i pro jiné programovací jazyky. Pro více informací se určitě podívejte na jejich web.
 
-### Je Aspose.Cells for Java zdarma k použití?
+### Je Aspose.Cells for Java k použití zdarma?
 
 Aspose.Cells for Java není bezplatná knihovna a vyžaduje platnou licenci pro komerční použití. Podrobnosti o cenách a informace o licencích najdete na webu Aspose.
 

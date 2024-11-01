@@ -2,7 +2,7 @@
 title: Excel Odebrat konkrétní konec stránky
 linktitle: Excel Odebrat konkrétní konec stránky
 second_title: Aspose.Cells for .NET API Reference
-description: tomto komplexním podrobném průvodci se snadno naučíte, jak odstranit konkrétní konce stránek ze souborů aplikace Excel pomocí Aspose.Cells for .NET.
+description: V tomto komplexním podrobném průvodci se snadno naučíte, jak odstranit konkrétní konce stránek ze souborů aplikace Excel pomocí Aspose.Cells for .NET.
 type: docs
 weight: 30
 url: /cs/net/excel-page-breaks/excel-remove-specific-page-break/
@@ -64,7 +64,7 @@ Dále musíme načíst náš sešit. Jednoduše řečeno, představte si sešit 
 Workbook workbook = new Workbook(dataDir + "PageBreaks.xls");
 ```
 
-Vysvětlení: Tento řádek vytváří novou instanci a`Workbook` , který načte zadaný soubor Excel (v tomto příkladu se jmenuje`PageBreaks.xls`). 
+ Vysvětlení: Tento řádek vytváří novou instanci a`Workbook` , který načte zadaný soubor Excel (v tomto příkladu se jmenuje`PageBreaks.xls`). 
 
 ## Krok 3: Odstraňte vodorovný konec stránky
 
@@ -100,7 +100,7 @@ Vysvětlení: Zde uložíme sešit pod novým názvem (`RemoveSpecificPageBreak_
 
 ## Závěr
 
-A tady to máte! Odstranění konkrétních konců stránek ze souboru aplikace Excel pomocí Aspose.Cells for .NET je stejně jednoduché jako provedení výše uvedených kroků. Pomocí této příručky můžete zajistit, že vaše dokumenty Excel budou perfektně naformátovány pro tisk, aniž by vám překážely nějaké zbloudilé konce stránek.
+tady to máte! Odstranění konkrétních konců stránek ze souboru aplikace Excel pomocí Aspose.Cells for .NET je stejně jednoduché jako provedení výše uvedených kroků. Pomocí této příručky můžete zajistit, že vaše dokumenty Excel budou perfektně naformátovány pro tisk, aniž by vám překážely nějaké zbloudilé konce stránek.
 
 ## FAQ
 
@@ -117,4 +117,4 @@ Konce stránek můžete iterovat pomocí smyčky a vytisknout jejich indexy nebo
  Absolutně! Stačí změnit indexové číslo`workbook.Worksheets[index]` zacílit na požadovaný list.
 
 ### Je Aspose.Cells bezplatný nástroj?  
- Aspose.Cells nabízí bezplatnou zkušební verzi, ale pro plnou funkčnost si budete muset zakoupit licenci. Můžete to zkontrolovat[zde](https://purchase.aspose.com/buy).
+Aspose.Cells nabízí bezplatnou zkušební verzi, ale pro plnou funkčnost si budete muset zakoupit licenci. Můžete to zkontrolovat[zde](https://purchase.aspose.com/buy).

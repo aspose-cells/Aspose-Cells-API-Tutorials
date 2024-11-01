@@ -44,7 +44,7 @@ För att använda Aspose.Cells måste du lägga till referenser till biblioteket
 
 ### Lägg till med hjälp av direktiv
 
- Överst på din`Program.cs`fil, infoga detta med hjälp av direktiv för att komma åt Aspose.Cells funktionalitet:
+ Överst på din`Program.cs` fil, infoga detta med hjälp av direktiv för att komma åt Aspose.Cells funktionalitet:
 
 ```csharp
 using System;

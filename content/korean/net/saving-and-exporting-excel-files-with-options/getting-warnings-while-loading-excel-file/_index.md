@@ -38,12 +38,12 @@ string dataDir = "Your Document Directory";
 ```
  바꾸다`"Your Document Directory"` Excel 파일이 저장된 컴퓨터의 실제 경로와 함께. 이 간단한 코드 줄은 프로그램을 올바른 방향으로 가리킵니다!
 ## 2단계: 부하 옵션 생성
- 다음으로 인스턴스를 생성해 보겠습니다.`LoadOptions`. 마법이 시작되는 곳입니다. 로드 옵션을 구성하면 통합 문서를 로드하는 동안 경고가 발생할 때마다 트리거되는 콜백을 설정할 수 있습니다.
+ 다음으로 인스턴스를 생성해 보겠습니다.`LoadOptions`마법이 시작되는 곳입니다. 로드 옵션을 구성하면 통합 문서를 로드하는 동안 경고가 발생할 때마다 트리거되는 콜백을 설정할 수 있습니다.
 ```csharp
 LoadOptions options = new LoadOptions();
 options.WarningCallback = new WarningCallback();
 ```
- 여기서 우리는 새로운 것을 만들고 있습니다`LoadOptions` 객체와 그것을 우리와 연관시키는 것`WarningCallback`클래스(다음에 정의할 것입니다). 이 설정은 우리 프로그램이 경고를 우아하게 처리하는 데 필수적입니다.
+ 여기서 우리는 새로운 것을 만들고 있습니다`LoadOptions` 객체와 그것을 우리와 연관시키는 것`WarningCallback` 클래스(다음에 정의할 것입니다). 이 설정은 우리 프로그램이 경고를 우아하게 처리하는 데 필수적입니다.
 ## 3단계: 소스 Excel 파일 로드
  이제 실제로 Excel 파일을 로드할 시간입니다! 여기서 호출합니다.`Workbook` 이전에 정의한 옵션과 함께 파일을 로드할 클래스:
 ```csharp
@@ -81,6 +81,6 @@ Aspose.Cells는 Microsoft Excel이 없어도 Excel 파일을 만들고, 조작�
 ### Aspose.Cells를 어떻게 구매할 수 있나요?
  Aspose.Cells를 직접 구매할 수 있습니다.[구매 페이지](https://purchase.aspose.com/buy).
 ### 어떤 유형의 경고를 처리할 수 있나요?
- 중복 정의된 이름, 수식 경고, 스타일 경고와 같은 다양한 경고를 다음을 사용하여 처리할 수 있습니다.`WarningCallback`.
+중복 정의된 이름, 수식 경고, 스타일 경고와 같은 다양한 경고를 다음을 사용하여 처리할 수 있습니다.`WarningCallback`.
 ### Aspose.Cells에 대한 문서는 어디에서 찾을 수 있나요?
  포괄적인 내용을 확인할 수 있습니다.[여기 문서](https://reference.aspose.com/cells/net/).

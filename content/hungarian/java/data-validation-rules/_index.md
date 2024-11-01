@@ -27,7 +27,7 @@ Optimalizálja adatérvényesítési hibaüzeneteit az Aspose.Cells for Java seg
 ### [Lépcsőzetes legördülő listák az Excelben](./cascading-dropdowns-in-excel/)
 Ismerje meg, hogyan hozhat létre lépcsőzetes legördülő listákat az Excelben az Aspose.Cells for Java használatával. Ez a lépésenkénti útmutató forráskódot és szakértői tippeket tartalmaz a hatékony Excel-táblázatkezeléshez.
 ### [Dátum érvényesítés a táblázatokban](./date-validation-in-spreadsheets/)
-Ismerje meg, hogyan hajthat végre dátumellenőrzést Excel-táblázatokban az Aspose.Cells for Java használatával. Győződjön meg az adatok pontosságáról és sértetlenségéről lépésenkénti útmutatónkkal. Fedezze fel a hatékony Excel-manipulációs technikákat.
+Ismerje meg, hogyan hajthat végre dátumellenőrzést Excel-táblázatokban az Aspose.Cells for Java használatával. Győződjön meg az adatok pontosságáról és integritásáról lépésenkénti útmutatónkkal. Fedezze fel a hatékony Excel-manipulációs technikákat.
 ### [Numerikus adatérvényesítési tippek](./numeric-data-validation-tips/)
 Mester numerikus adatok ellenőrzése Aspose.Cells for Java segítségével. Tanulja meg, hogyan biztosíthatja az adatok pontosságát és előzheti meg a hibákat Java-alkalmazásaiban.
 ### [Listázza az adatok érvényesítését Excelben](./list-data-validation-in-excel/)

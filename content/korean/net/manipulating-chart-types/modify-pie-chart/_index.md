@@ -100,7 +100,7 @@ Workbook workbook = new Workbook(sourceDir + "sampleModifyPieChart.xlsx");
 Worksheet sheet = workbook.Worksheets[1];
 ```
 
- 접근하여`Worksheets`컬렉션을 통해 필요한 특정 시트를 얻을 수 있습니다.
+ 접근하여`Worksheets` 컬렉션을 통해 필요한 특정 시트를 얻을 수 있습니다.
 
 ## 4단계: 차트 가져오기
 

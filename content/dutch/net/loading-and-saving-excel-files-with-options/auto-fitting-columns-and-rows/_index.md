@@ -12,7 +12,7 @@ Heb je je ooit afgevraagd hoe je automatisch de kolom- en rijgroottes kunt aanpa
 ### Vereisten
 Voordat u in de code duikt, moet u een paar dingen op uw systeem hebben ingesteld. Maak u geen zorgen, het is eenvoudig en duidelijk!
 1. Visual Studio geïnstalleerd: U hebt Visual Studio of een andere .NET-ontwikkelomgeving nodig.
-2.  Aspose.Cells voor .NET: U kunt[download de nieuwste versie](https://releases.aspose.com/cells/net/)of gebruik de NuGet-pakketbeheerder om het te installeren.
+2.  Aspose.Cells voor .NET: U kunt[download de nieuwste versie](https://releases.aspose.com/cells/net/) of gebruik de NuGet-pakketbeheerder om het te installeren.
 3. .NET Framework: Zorg ervoor dat u .NET Framework 4.0 of hoger hebt geïnstalleerd.
 4. Basiskennis van C#: Als u enige kennis van C# hebt, verloopt deze tutorial soepeler.
 5. HTML-tabelgegevens: bereid HTML-inhoud voor (zelfs een eenvoudige tabel) die u in Excel wilt laden.
@@ -44,9 +44,9 @@ We definiëren hier een heel basale HTML-string. Het bevat een tabel met een paa
 ```csharp
 MemoryStream ms = new MemoryStream(Encoding.UTF8.GetBytes(sampleHtml));
 ```
- Door de HTML-string om te zetten in een byte-array en deze in een`MemoryStream`kunnen we met de HTML-gegevens in het geheugen werken. Stel je deze stap voor als het bereiden van het gerecht in een pan voordat je het in de oven zet!
+ Door de HTML-string om te zetten in een byte-array en deze in een`MemoryStream`, kunnen we met de HTML-gegevens in het geheugen werken. Stel je deze stap voor als het bereiden van het gerecht in een pan voordat je het in de oven zet!
 ## Stap 4: Laad de MemoryStream in een werkmap (zonder automatisch aanpassen)
- Zodra we de HTML-inhoud in het geheugen hebben, laden we deze in een Aspose`Workbook`. Op dit punt passen we de kolommen en rijen nog niet automatisch aan. Dit is ons "voor"-scenario, om later te vergelijken met de automatisch aangepaste versie.
+ Zodra we de HTML-inhoud in het geheugen hebben, laden we deze in een Aspose`Workbook`Op dit punt passen we de kolommen en rijen nog niet automatisch aan. Dit is ons "voor"-scenario, om later te vergelijken met de automatisch aangepaste versie.
 ```csharp
 Workbook wb = new Workbook(ms);
 wb.Save(dataDir + "outputWithout_AutoFitColsAndRows.xlsx");
@@ -60,7 +60,7 @@ opts.AutoFitColsAndRows = true;
 ```
 Door deze optie in te stellen, vertellen we Aspose.Cells om automatisch de grootte van de rijen en kolommen aan te passen. Stel je dit voor alsof je de oven op de perfecte temperatuur zet, zodat de cake precies goed rijst!
 ## Stap 6: HTML in werkmap laden met automatische aanpassing ingeschakeld
- Nu laden we de HTML-inhoud opnieuw, maar deze keer met de`AutoFitColsAndRows` optie ingeschakeld. Hiermee worden de kolombreedtes en rijhoogtes aangepast op basis van de inhoud erin.
+ Nu laden we de HTML-inhoud opnieuw, maar deze keer met de`AutoFitColsAndRows`optie ingeschakeld. Hiermee worden de kolombreedtes en rijhoogtes aangepast op basis van de inhoud erin.
 ```csharp
 wb = new Workbook(ms, opts);
 wb.Save(dataDir + "outputWith_AutoFitColsAndRows.xlsx");

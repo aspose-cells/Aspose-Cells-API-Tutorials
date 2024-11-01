@@ -9,7 +9,7 @@ url: /pl/net/excel-data-preservation-warning/specify-sort-warning-while-sorting-
 ---
 ## Wstęp
 
-Czy kiedykolwiek próbowałeś sortować dane w programie Excel, tylko po to, by być zdezorientowanym nieoczekiwanymi wynikami? Sortowanie liczb przechowywanych jako tekst może prowadzić do zamieszania, szczególnie gdy nie zachowują się tak, jak się spodziewasz. W tym samouczku zagłębiamy się w sposób określania ostrzeżeń sortowania podczas sortowania danych w programie Excel przy użyciu Aspose.Cells dla .NET. Aspose.Cells to potężny interfejs API, który pozwala programistom manipulować plikami programu Excel bez konieczności instalowania programu Microsoft Excel. Więc niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zaczynasz, zostań z nami! Mamy przewodnik krok po kroku, który pomoże Ci opanować sortowanie w programie Excel jak profesjonalista.
+Czy kiedykolwiek próbowałeś sortować dane w programie Excel, tylko po to, by być zdezorientowanym nieoczekiwanymi wynikami? Sortowanie liczb przechowywanych jako tekst może prowadzić do zamieszania, szczególnie gdy nie zachowują się tak, jak się spodziewasz. W tym samouczku zagłębiamy się w to, jak określać ostrzeżenia sortowania podczas sortowania danych w programie Excel przy użyciu Aspose.Cells dla .NET. Aspose.Cells to potężne API, które pozwala programistom manipulować plikami programu Excel bez konieczności instalowania programu Microsoft Excel. Więc niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zaczynasz, zostań z nami! Mamy przewodnik krok po kroku, który pomoże Ci opanować sortowanie w programie Excel jak profesjonalista.
 
 ## Wymagania wstępne
 
@@ -127,7 +127,7 @@ I to wszystko! Twoje posortowane dane są teraz zapisane w nowym pliku!
 
 ## Wniosek
 
-W tym samouczku rozwikłaliśmy kroki sortowania danych w programie Excel przy użyciu Aspose.Cells dla .NET. Sortowanie danych może wydawać się trywialnym zadaniem, ale posiadanie odpowiednich narzędzi i wiedzy może zaoszczędzić Ci mnóstwo kłopotów, zwłaszcza w przypadku liczb przechowywanych jako tekst. Postępując zgodnie z tymi krokami, nauczyłeś się nie tylko sortować, ale także radzić sobie z typowymi pułapkami sortowania, takimi jak rozbieżności między tekstem a liczbą. Więc śmiało, wypróbuj te kroki w swoich projektach i nigdy więcej nie zgub się w dżungli danych!
+W tym samouczku rozwikłaliśmy kroki sortowania danych w programie Excel przy użyciu Aspose.Cells dla .NET. Sortowanie danych może wydawać się trywialnym zadaniem, ale posiadanie odpowiednich narzędzi i wiedzy może zaoszczędzić Ci mnóstwo kłopotów, szczególnie w przypadku liczb przechowywanych jako tekst. Postępując zgodnie z tymi krokami, nauczyłeś się nie tylko sortować, ale także radzić sobie z typowymi pułapkami sortowania, takimi jak rozbieżności między tekstem a liczbą. Więc śmiało, wypróbuj te kroki w swoich projektach i nigdy więcej nie zgub się w dżungli danych!
 
 ## Najczęściej zadawane pytania
 

@@ -16,7 +16,7 @@ Ujistěte se, že máte v počítači Visual Studio. Je to místo, kde budete k�
 ### 2. .NET Framework nebo .NET Core
 Ujistěte se, že máte nainstalovanou správnou verzi .NET. Aspose.Cells for .NET bezproblémově funguje jak s .NET Framework, tak s .NET Core.
 ### 3. Aspose.Cells Library
- Budete potřebovat knihovnu Aspose.Cells. Můžete si jej stáhnout[zde](https://releases.aspose.com/cells/net/). Pro manipulaci s excelovými soubory je nutné toto mít v projektu.
+Budete potřebovat knihovnu Aspose.Cells. Můžete si jej stáhnout[zde](https://releases.aspose.com/cells/net/). Pro manipulaci s excelovými soubory je nutné toto mít v projektu.
 ### 4. Základní porozumění C#
 Je výhodné, i když ne povinné, ovládat C#. Budeme psát kód, který používá knihovnu k manipulaci se souborem Excel, a znalost C# vám pomůže lépe tomu porozumět.
 ### 5. IDE pro práci
@@ -57,7 +57,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 ```
 Tento řádek kódu je přímočarý; jednoduše říkáte svému programu, aby pracoval s prvním listem sešitu. Snadno peasy!
 ## Krok 4: Přístup k buňce
-připraveným listem máte nyní přístup ke konkrétní buňce, do které chcete přidat text. Zde využíváme buňku "A1".
+S připraveným listem máte nyní přístup ke konkrétní buňce, do které chcete přidat text. Zde využíváme buňku "A1".
 ```csharp
 // Přístup k buňce "A1" z listu
 Cell cell = worksheet.Cells["A1"];
@@ -69,7 +69,7 @@ Dále do této buňky vložíme nějaký text. Je to jako psát poznámku do se�
 cell.PutValue("Hello");
 ```
 Tento kód je místem, kde váš obsah ožívá. 
-## Krok 6: Formátování buňky na horní index
+## Krok 6: Naformátujte buňku na horní index
 Nyní se dostáváme k zábavnější části! Nastavením písma na horní index, aby váš text vypadal efektně. Takto to uděláte:
 ```csharp
 // Nastavení horního indexu písma

@@ -93,7 +93,7 @@ wb.Save(filePath + ".out.mht", sv);
 
 ## Conclusione
 
-Ecco fatto! Hai appena convertito un file Excel in formato MHTML usando Aspose.Cells per .NET in pochi semplici passaggi. Questo processo snello non solo fa risparmiare tempo, ma preserva anche il layout e la formattazione del documento originale, assicurando che nessuno dei tuoi duri lavori passi inosservato quando lo condividi online.
+Ecco fatto! Hai appena convertito un file Excel in formato MHTML usando Aspose.Cells per .NET in pochi semplici passaggi. Questo processo elegante non solo fa risparmiare tempo, ma preserva anche il layout e la formattazione del documento originale, assicurando che nessuno dei tuoi duri lavori passi inosservato quando lo condividi online.
 
 ## Domande frequenti
 

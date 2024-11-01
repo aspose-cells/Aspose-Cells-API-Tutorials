@@ -52,7 +52,7 @@ Workbook workbook = new Workbook();
 Workbook workbook = new Workbook("path_to_existing_file.xlsx");
 ```
 ## Étape 4 : Enregistrer le classeur
-Maintenant que votre classeur est prêt, il est temps de l'enregistrer. C'est là que la magie opère.
+Maintenant que votre classeur est prêt, il est temps de l'enregistrer. C'est ici que la magie opère.
 ```csharp
 if (Respose != null)
 {

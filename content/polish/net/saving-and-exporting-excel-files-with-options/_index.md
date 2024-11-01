@@ -17,7 +17,7 @@ Aspose.Cells for .NET zapewnia programistom potężne narzędzia do zarządzania
 
 ## Otrzymywanie ostrzeżeń podczas ładowania pliku Excel w .NET
 
- Podczas ładowania pliku Excel niektóre formaty danych lub treści mogą powodować ostrzeżenia. Dowiedz się, jak zarządzać tymi alertami i jak je interpretować za pomocą[Otrzymywanie ostrzeżeń podczas ładowania pliku Excel w .NET](./getting-warnings-while-loading-excel-file/)samouczek. Ten przewodnik jest niezbędny dla deweloperów, którzy chcą skutecznie radzić sobie z problemami ze zgodnością lub ostrzeżeniami dotyczącymi formatowania. Zajmując się tymi ostrzeżeniami na wczesnym etapie, zapewniasz płynniejsze i bezbłędne działanie podczas ładowania plików do aplikacji.
+ Podczas ładowania pliku Excel niektóre formaty danych lub treści mogą powodować ostrzeżenia. Dowiedz się, jak zarządzać tymi alertami i jak je interpretować za pomocą[Otrzymywanie ostrzeżeń podczas ładowania pliku Excel w .NET](./getting-warnings-while-loading-excel-file/) samouczek. Ten przewodnik jest niezbędny dla deweloperów, którzy chcą skutecznie radzić sobie z problemami ze zgodnością lub ostrzeżeniami dotyczącymi formatowania. Zajmując się tymi ostrzeżeniami na wczesnym etapie, zapewniasz płynniejsze i bezbłędne działanie podczas ładowania plików do aplikacji.
 
 ## Programowe określanie wersji dokumentu pliku Excel w środowisku .NET
 
@@ -25,7 +25,7 @@ Aspose.Cells for .NET zapewnia programistom potężne narzędzia do zarządzania
 
 ### Przycinanie wiodących pustych wierszy i kolumn podczas eksportowania
 
- Puste wiersze i kolumny mogą zaśmiecać Twoje eksporty, zwłaszcza w przypadku plików CSV.[Przycinanie wiodących pustych wierszy i kolumn podczas eksportowania](./trimming-leading-blank-rows-and-columns/)samouczek umożliwia uporządkowanie danych poprzez przycięcie niepotrzebnych pustych miejsc na początku wierszy i kolumn. Ten samouczek jest idealny dla programistów, którzy chcą tworzyć zwięzłe i uporządkowane pliki gotowe do analizy lub prezentacji. Czysty, dopracowany wynik nie tylko wygląda profesjonalnie, ale także znacznie ułatwia przetwarzanie danych.
+Puste wiersze i kolumny mogą zaśmiecać Twoje eksporty, zwłaszcza w przypadku plików CSV.[Przycinanie wiodących pustych wierszy i kolumn podczas eksportowania](./trimming-leading-blank-rows-and-columns/) samouczek umożliwia uporządkowanie danych poprzez przycięcie niepotrzebnych pustych miejsc na początku wierszy i kolumn. Ten samouczek jest idealny dla programistów, którzy chcą tworzyć zwięzłe i uporządkowane pliki gotowe do analizy lub prezentacji. Czysty, dopracowany wynik nie tylko wygląda profesjonalnie, ale także znacznie ułatwia przetwarzanie danych.
 
 ## Zapisywanie i eksportowanie plików Excela z opcjami - samouczki
 ### [Eksportowanie komentarzy podczas zapisywania pliku Excel w formacie HTML](./exporting-comments/)

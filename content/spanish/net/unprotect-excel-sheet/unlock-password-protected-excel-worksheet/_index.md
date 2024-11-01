@@ -70,7 +70,7 @@ En primer lugar, debemos establecer la ruta de nuestro documento de Excel. Aquí
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Consejo: Reemplazar`"YOUR DOCUMENT DIRECTORY"`con la ruta real donde se encuentra su archivo de Excel (llamémoslo`book1.xls`) se encuentra. 
+ Consejo: Reemplazar`"YOUR DOCUMENT DIRECTORY"` con la ruta real donde se encuentra su archivo de Excel (llamémoslo`book1.xls`) se encuentra. 
 
 ## Paso 2: Crear una instancia de un objeto de libro de trabajo
 

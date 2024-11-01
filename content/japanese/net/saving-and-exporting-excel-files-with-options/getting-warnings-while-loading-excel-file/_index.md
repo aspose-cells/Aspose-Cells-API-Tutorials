@@ -18,7 +18,7 @@ url: /ja/net/saving-and-exporting-excel-files-with-options/getting-warnings-whil
 ### 開発環境
 .NET アプリケーションの開発には、Visual Studio などの互換性のある IDE の使用が推奨されます。 
 ### 基本的なExcelファイル
-サンプルのExcelファイル（以下、`sampleDuplicateDefinedName.xlsx`を使用して、この機能をテストします。
+サンプルのExcelファイル（以下、`sampleDuplicateDefinedName.xlsx`) を使用して、この機能をテストします。
 ## パッケージのインポート
 これですべての設定が完了したので、必要なパッケージについて説明します。C# ファイルの先頭に次の名前空間を含めるようにしてください。
 ```csharp
@@ -55,7 +55,7 @@ Workbook book = new Workbook(dataDir + "sampleDuplicateDefinedName.xlsx", option
 ```csharp
 book.Save(dataDir + "outputDuplicateDefinedName.xlsx");
 ```
-この行では、ワークブックを新しい場所に保存します。必要に応じて、有効なファイル名を指定できます。
+この行では、ワークブックを新しい場所に保存します。 必要に応じて、有効なファイル名を指定できます。
 ## ステップ5: 警告コールバックを実装する
 さて、私たちは`WarningCallback`クラスを動作させます。このクラスは`IWarningCallback`インターフェースを定義し、警告が発生したときに何が起こるかを定義します。
 ```csharp

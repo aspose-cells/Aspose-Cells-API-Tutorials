@@ -79,7 +79,7 @@ foreach (ReferredArea area in ret)
 ### Mi az Aspose.Cells?  
 Az Aspose.Cells egy .NET-könyvtár, amely Excel-táblázatok létrehozására, kezelésére és konvertálására szolgál Microsoft Excel nélkül.
 ### Hogyan juthatok hozzá az Aspose.Cells ingyenes próbaverziójához?  
- Az ingyenes próbaverziót letöltheti a[Az Aspose kiadási oldala](https://releases.aspose.com/).
+ Az ingyenes próbaverziót letöltheti a[Aspose kiadási oldala](https://releases.aspose.com/).
 ### Nyomon követhetem a precedenseket több lapon?  
  Igen, megteheti; csak hurkolja át a`ReferredAreaCollection` hogy hozzáférjen a lapokhoz.
 ### Az Aspose.Cells kompatibilis a .NET Core-al?  

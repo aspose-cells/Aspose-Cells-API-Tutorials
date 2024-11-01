@@ -21,7 +21,7 @@ Ora che abbiamo trattato i prerequisiti, passiamo all'importazione dei pacchetti
 ### Imposta il tuo progetto
 Prima le cose importanti! Apri Visual Studio e crea un nuovo progetto. Scegli un'applicazione console, perché è semplice e perfetta per questo tipo di attività.
 ### Aggiungi Aspose.Cells al tuo progetto
-Per iniziare con Aspose.Cells, devi aggiungere la libreria. Per fare questo:
+Per iniziare con Aspose.Cells, devi aggiungere la libreria. Per farlo:
 1. Fare clic con il pulsante destro del mouse sul progetto in Esplora soluzioni.
 2. Fare clic su "Gestisci pacchetti NuGet".
 3. Cerca “Aspose.Cells” e clicca su “Installa”.

@@ -64,7 +64,7 @@ Em seguida, precisamos carregar nossa pasta de trabalho. Em termos mais simples,
 Workbook workbook = new Workbook(dataDir + "PageBreaks.xls");
 ```
 
-Explicação: Esta linha cria uma nova instância de um`Workbook` , que carrega o arquivo Excel especificado (neste exemplo, ele é chamado`PageBreaks.xls`). 
+ Explicação: Esta linha cria uma nova instância de um`Workbook` , que carrega o arquivo Excel especificado (neste exemplo, ele é chamado`PageBreaks.xls`). 
 
 ## Etapa 3: Remova a quebra de página horizontal
 
@@ -100,7 +100,7 @@ Explicação: Aqui, salvamos a pasta de trabalho com um novo nome (`RemoveSpecif
 
 ## Conclusão
 
-E aí está! Remover quebras de página específicas de um arquivo Excel usando o Aspose.Cells para .NET é tão simples quanto seguir os passos acima. Com este guia, você pode garantir que seus documentos Excel estejam formatados perfeitamente para impressão sem nenhuma quebra de página perdida no caminho.
+aí está! Remover quebras de página específicas de um arquivo Excel usando o Aspose.Cells para .NET é tão simples quanto seguir os passos acima. Com este guia, você pode garantir que seus documentos Excel estejam formatados perfeitamente para impressão sem nenhuma quebra de página perdida no caminho.
 
 ## Perguntas frequentes
 
@@ -117,4 +117,4 @@ Você pode iterar pelas quebras de página usando um loop para imprimir seus ín
  Absolutamente! Basta alterar o número do índice em`workbook.Worksheets[index]` para direcionar a planilha desejada.
 
 ### O Aspose.Cells é uma ferramenta gratuita?  
- O Aspose.Cells oferece um teste gratuito, mas para funcionalidade completa, você precisará comprar uma licença. Você pode conferir[aqui](https://purchase.aspose.com/buy).
+ Aspose.Cells oferece um teste gratuito, mas para funcionalidade completa, você precisará comprar uma licença. Você pode conferir[aqui](https://purchase.aspose.com/buy).

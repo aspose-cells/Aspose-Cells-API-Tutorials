@@ -48,7 +48,7 @@ string outputDir = "Your Output Directory";
 string sourceDir = "Your Document Directory";
 ```
 
- Tessék, cserélje ki`Your Output Directory` és`Your Document Directory` sajátos utaiddal. Ha ezeket a könyvtárakat egyértelműen definiálják, az leegyszerűsíti a munkafolyamatot, és elkerüli a zavartságot.
+ Tessék, cserélje ki`Your Output Directory` és`Your Document Directory` konkrét utaiddal. Ha ezeket a könyvtárakat egyértelműen definiálják, az leegyszerűsíti a munkafolyamatot, és elkerüli a zavartságot.
 
 ## 2. lépés: Példányosítsa a munkafüzetet
 
@@ -99,7 +99,7 @@ Ez a kódsor biztosítja, hogy a diagram első sorozata tömör kitöltést hasz
  Most, hogy a sorozatunk elkészült, módosítanunk kell a színét. Ez magában foglalja a létrehozását a`CellsColor` objektumot, és megadja a téma színét. Ehhez a példához egy hangsúlyos stílust választunk.
 
 ```csharp
-// Szerezze be a SolidFill CellsColor-ját
+//Szerezze be a SolidFill CellsColor-ját
 CellsColor cc = chart.NSeries[0].Area.FillFormat.SolidFill.CellsColor;
 
 // Hozzon létre egy témát hangsúlyos stílusban
@@ -158,7 +158,7 @@ Az Aspose.Cells egy hatékony .NET-könyvtár, amely lehetővé teszi a fejleszt
 Az Aspose.Cells különféle témaszíneket támogat, beleértve az Accent stílusokat és másokat.
 
 ### Lehetséges témákat több diagramra alkalmazni?
- Teljesen! Át lehet hurkolni`worksheet.Charts` és szükség szerint alkalmazza a témákat.
+Teljesen! Át lehet hurkolni`worksheet.Charts` és szükség szerint alkalmazza a témákat.
 
 ### Hol kaphatok támogatást az Aspose.Cells-hez?
  Támogatást kaphat, és kapcsolatba léphet a felhasználók közösségével[itt](https://forum.aspose.com/c/cells/9).

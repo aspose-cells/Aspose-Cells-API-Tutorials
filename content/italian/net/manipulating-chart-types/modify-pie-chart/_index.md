@@ -100,7 +100,7 @@ Ora, immergiamoci nel foglio specifico che contiene il grafico a torta. Supponia
 Worksheet sheet = workbook.Worksheets[1];
 ```
 
- Accedendo al`Worksheets`raccolta, possiamo arrivare al foglio specifico di cui abbiamo bisogno.
+ Accedendo al`Worksheets` raccolta, possiamo arrivare al foglio specifico di cui abbiamo bisogno.
 
 ## Passaggio 4: Ottieni il grafico
 

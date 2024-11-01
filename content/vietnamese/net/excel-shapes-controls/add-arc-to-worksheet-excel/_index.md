@@ -108,7 +108,7 @@ Aspose.Cells là một thư viện mạnh mẽ cho phép các nhà phát triển
 ### Tôi có cần cài đặt Microsoft Excel để sử dụng Aspose.Cells không?
 Không, Aspose.Cells hoàn toàn độc lập và không yêu cầu phải cài đặt Microsoft Excel.
 ### Tôi có thể dùng thử Aspose.Cells miễn phí không?
-Có, bạn có thể dùng thử Aspose.Cells bằng cách sử dụng[Dùng thử miễn phí](https://releases.aspose.com/).
+ Có, bạn có thể dùng thử Aspose.Cells bằng cách sử dụng[Dùng thử miễn phí](https://releases.aspose.com/).
 ### Aspose.Cells hỗ trợ những ngôn ngữ lập trình nào?
 Aspose.Cells hỗ trợ nhiều ngôn ngữ, bao gồm C#, VB.NET, v.v.
 ### Tôi có thể nhận hỗ trợ cho Aspose.Cells ở đâu?

@@ -66,7 +66,7 @@ Avant de passer à la partie intéressante, nous devons définir l'emplacement o
 ```csharp
 string outputDir = "C:\\YourOutputDirectory\\"; // Accédez au répertoire spécifié
 ```
- Assurez-vous de remplacer`"C:\\YourOutputDirectory\\"` avec le chemin où vous souhaitez enregistrer votre fichier. Considérez cela comme la configuration de votre espace de travail ; vous devez savoir où vous placez vos outils (ou dans ce cas, votre fichier Excel).
+ Assurez-vous de remplacer`"C:\\YourOutputDirectory\\"`avec le chemin où vous souhaitez enregistrer votre fichier. Considérez cela comme la configuration de votre espace de travail ; vous devez savoir où vous placez vos outils (ou dans ce cas, votre fichier Excel).
 
 ## Étape 2 : Instanciation d'un objet de classeur
 

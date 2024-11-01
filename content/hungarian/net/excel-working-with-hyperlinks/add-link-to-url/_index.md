@@ -12,7 +12,7 @@ Szeretné javítani Excel-táblázatát hiperhivatkozások hozzáadásával? Tal
 ## Előfeltételek
 Mielőtt belemerülnénk a hiperhivatkozások Aspose.Cells segítségével történő Excelbe való hozzáadásának alapjaiba, néhány előfeltételnek meg kell felelnie a listán:
 1. .NET-keretrendszer: Győződjön meg arról, hogy be van állítva a szükséges .NET-környezet. Az Aspose.Cells kompatibilis a .NET különféle verzióival, ezért válassza ki a projektjének leginkább megfelelőt.
-2. Aspose.Cells Library: telepítenie kell az Aspose.Cells könyvtárat. Letöltheti a[Az Aspose kiadási oldala](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells Library: telepítenie kell az Aspose.Cells könyvtárat. Letöltheti a[Aspose kiadási oldala](https://releases.aspose.com/cells/net/).
 3. Fejlesztési környezet: Használjon olyan IDE-t, mint a Visual Studio, amely segít a projektek egyszerű kezelésében.
 4. Alapvető programozási ismeretek: A C# ismerete és az objektum-orientált programozási koncepciók ismerete gördülékenyebbé teszi a folyamatot.
 Ha minden készen áll, ugorjunk bele a kódolásba!

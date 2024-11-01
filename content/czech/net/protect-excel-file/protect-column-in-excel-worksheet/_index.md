@@ -171,5 +171,5 @@ Absolutně! Kód můžete upravit tak, aby zamykal více sloupců opakováním p
 ### Co se stane, když zapomenu své ochranné heslo?
 Pokud zapomenete své ochranné heslo, možná nebudete mít přístup k uzamčenému obsahu. Je důležité udržovat taková hesla v bezpečí.
 
-### Kde najdu další dokumentaci k Aspose.Cells?
+### Kde najdu další dokumentaci na Aspose.Cells?
  Kompletní dokumentaci naleznete na Aspose.Cells pro .NET[zde](https://reference.aspose.com/cells/net/).

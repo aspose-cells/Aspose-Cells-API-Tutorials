@@ -17,7 +17,7 @@ Belefáradt az Excel fájlkezeléssel való küszködésbe? Ha valaha is szembes
 
 ## Digitális aláírások hozzáadása
 
-Szüksége volt már arra, hogy digitális aláírást adjon egy aláírt Excel-fájlhoz? Fedezze fel, hogyan kell ezt megtenni az útmutatónk segítségével[Digitális aláírás hozzáadása egy már aláírt Excel-fájlhoz](./add-digital-signature-to-an-already-signed-excel-file/). A digitális aláírások hitelességet és integritást biztosítanak, így Excel-fájljai nem csak működőképesek, hanem biztonságosak is.
+ Szüksége volt már arra, hogy digitális aláírást adjon egy aláírt Excel-fájlhoz? Fedezze fel, hogyan kell ezt megtenni az útmutatónkkal[Digitális aláírás hozzáadása egy már aláírt Excel-fájlhoz](./add-digital-signature-to-an-already-signed-excel-file/)A digitális aláírások hitelességet és integritást biztosítanak, így Excel-fájljai nem csak működőképesek, hanem biztonságosak is.
 
 ## Megosztott munkafüzetek létrehozása
 
@@ -37,19 +37,19 @@ Szüksége volt már arra, hogy digitális aláírást adjon egy aláírt Excel-
 
 ## A termelékenység növelése a Regex segítségével
 
-Ön a regex rajongója? Ha nem, akkor érdemes lehet azzá válni! A reguláris kifejezések jelentősen leegyszerűsíthetik a feladatokat, különösen akkor, ha nagy adatkészletekkel dolgozik az Excelben. Oktatóanyagunk a[Regex Csere](./regex-replace/) megtanítja Önnek a reguláris kifejezés helyettesítő függvények alkalmazását a táblázatokban, ami lehetővé teszi a termelékenység és a pontosság növelését.
+ Ön a regex rajongója? Ha nem, akkor érdemes lehet azzá válni! A reguláris kifejezések jelentősen leegyszerűsíthetik a feladatokat, különösen akkor, ha nagy adatkészletekkel dolgozik az Excelben. Oktatóanyagunk a[Regex Csere](./regex-replace/) megtanítja Önnek a reguláris kifejezés helyettesítő függvények alkalmazását a táblázatokban, ami lehetővé teszi a termelékenység és a pontosság növelését.
 
-## A Power Query elemek frissítése
+## Power Query elemek frissítése
 
  A Power Queries igazi változást hozhat az adatkezelésben, lehetővé téve az információk Excel-fájlokba történő importálásának egyszerűsítését. Ha kíváncsi arra, hogyan frissítheti a Power Query képletelemeit az Excelben az Aspose.Cells for .NET használatával, tekintse meg oktatóanyagunkat[Frissítse a Power Query képletelemet](./update-power-query-formula-item/) csak a jegy. Egyszerű, lépésenkénti megközelítést biztosít ezen képletelemek módosításához, lehetővé téve, hogy az adatok frissek legyenek, és pontosan megjelenjenek a munkafüzetekben.
 
 ## Nyomtatási előnézetek kezelése
 
-Időnként a lehető legprofibb módon kell bemutatnia adatait. A nyomtatási előnézetek létrehozásának megtanulása létfontosságú készség lehet. Az oktatóanyagunkban a[Munkafüzet nyomtatási előnézete](./workbook-print-preview/), megtudhatja, hogyan formázhatja helyesen adatait a nyomtatás megkezdése előtt. Ezzel a folyamattal megkímélheti Önt a kínos hibáktól, és biztosíthatja, hogy jelentései ugyanolyan jól nézzenek ki papíron, mint a képernyőn.
+ Időnként a lehető legprofibb módon kell bemutatnia adatait. A nyomtatási előnézetek létrehozásának megtanulása létfontosságú készség lehet. Az oktatóanyagunkban a[Munkafüzet nyomtatási előnézete](./workbook-print-preview/), megtudhatja, hogyan formázhatja helyesen adatait a nyomtatás megkezdése előtt. Ezzel a folyamattal megkímélheti Önt a kínos hibáktól, és biztosíthatja, hogy jelentései ugyanolyan jól nézzenek ki papíron, mint a képernyőn.
 
 ## Munka meghatározott nevekkel
 
- Az Excel-lapokon megadott nevek praktikus módjai lehetnek az adatok kezelésének. Rövidebbé és érthetőbbé teszik a képleteket. Ha szűrni szeretné a meghatározott neveket munkafüzet betöltése közben, tekintse meg oktatóanyagunkat[Meghatározott nevek szűrése munkafüzet betöltése közben](./filter-defined-names-while-loading-workbook/) minden szükséges lépést megad ehhez. Ez a funkció lehetővé teszi a munkafüzet betöltési módjának testreszabását, javítva a hatékonyságot és a szervezettséget.
+Az Excel-lapokon megadott nevek praktikus módjai lehetnek az adatok kezelésének. Rövidebbé és érthetőbbé teszik a képleteket. Ha szűrni szeretné a meghatározott neveket munkafüzet betöltése közben, tekintse meg oktatóanyagunkat[Meghatározott nevek szűrése munkafüzet betöltése közben](./filter-defined-names-while-loading-workbook/) minden szükséges lépést megad ehhez. Ez a funkció lehetővé teszi a munkafüzet betöltési módjának testreszabását, javítva a hatékonyságot és a szervezettséget.
 
 ## Következtetés
 
@@ -61,7 +61,7 @@ Akkor miért ne ragadná meg ezt a lehetőséget Excel-készségei fejlesztésé
 ## Oktatóanyagok 
 | Cím | Leírás |
 | --- | --- |
-| [Hozzáférés a webbővítmény információihoz](./access-web-extension-information/) | A lépésenkénti útmutatónkból megtudhatja, hogyan érheti el a webbővítmény információit Excel-fájlokban az Aspose.Cells for .NET használatával. |  
+| [Hozzáférés a webbővítmény információihoz](./access-web-extension-information/) | lépésenkénti útmutatónkból megtudhatja, hogyan érheti el a webbővítmény információit Excel-fájlokban az Aspose.Cells for .NET használatával. |  
 | [Digitális aláírás hozzáadása egy már aláírt Excel-fájlhoz](./add-digital-signature-to-an-already-signed-excel-file/) | Ebből a részletes, lépésenkénti útmutatóból megtudhatja, hogyan adhat hozzá digitális aláírást egy már aláírt Excel-fájlhoz az Aspose.Cells for .NET használatával. |  
 | [Webbővítmény hozzáadása](./add-web-extension/) | Tanulja meg, hogyan adhat hozzá webbővítményeket Excel-fájlokhoz az Aspose.Cells for .NET használatával ebben a teljes, lépésről lépésre mutató oktatóanyagban, amely továbbfejleszti a táblázatkezelési funkciókat. |  
 | [Állítsa be a tömörítési szintet](./adjust-compression-level/) | Ismerje meg, hogyan állíthatja be az Excel-fájlok tömörítési szintjét az Aspose.Cells for .NET segítségével. Ezzel a lépésenkénti útmutatóval hatékonyan optimalizálhatja fájlméreteit. |  
@@ -76,5 +76,5 @@ Akkor miért ne ragadná meg ezt a lehetőséget Excel-készségei fejlesztésé
 | [Regex Csere](./regex-replace/) | Ismerje meg, hogyan használhatja hatékonyan a regex cserét az Excelben az Aspose.Cells for .NET segítségével. Növelje a táblázatkezelési feladatok termelékenységét és pontosságát. |  
 | [Frissítse a Power Query képletelemet](./update-power-query-formula-item/) | Könnyen frissítheti a Power Query képletelemeit az Excelben az Aspose.Cells for .NET segítségével. Lépésről lépésre szóló útmutató az adatkezelési folyamatok egyszerűsítéséhez. |  
 | [Munkafüzet nyomtatási előnézete](./workbook-print-preview/) | Ismerje meg, hogyan hozhat létre nyomtatási előnézeteket Excel-fájlokhoz az Aspose.Cells for .NET használatával. Tanulja meg a kódolási lépéseket egy részletes, könnyen követhető oktatóanyagban. |  
-| [Munka a tartalomtípus tulajdonságaival](./working-with-content-type-properties/) | Ismerje meg, hogyan használhatja az Aspose.Cells for .NET-et a tartalomtípus-tulajdonságok kezeléséhez a továbbfejlesztett Excel metaadatkezelés érdekében. Kövesse ezt az egyszerű lépésről lépésre útmutatót. |  
+| [A tartalomtípus tulajdonságainak kezelése](./working-with-content-type-properties/) | Ismerje meg, hogyan használhatja az Aspose.Cells for .NET-et a tartalomtípus-tulajdonságok kezeléséhez a továbbfejlesztett Excel metaadatkezelés érdekében. Kövesse ezt az egyszerű lépésről lépésre útmutatót. |  
 | [Xades aláírás támogatás](./xades-signature-support/) | Ebből a lépésenkénti útmutatóból megtudhatja, hogyan adhat hozzá Xades-aláírásokat Excel-fájlokhoz az Aspose.Cells for .NET használatával. Biztosítsa dokumentumait. |  

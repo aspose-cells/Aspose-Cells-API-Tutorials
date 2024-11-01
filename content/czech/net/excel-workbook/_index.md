@@ -17,7 +17,7 @@ Už vás nebaví bojovat se správou souborů Excel? Pokud jste někdy čelili v
 
 ## Přidávání digitálních podpisů
 
-Potřebovali jste někdy přidat digitální podpis k podepsanému souboru aplikace Excel? Zjistěte, jak na to s naším průvodcem[Přidejte digitální podpis do již podepsaného souboru aplikace Excel](./add-digital-signature-to-an-already-signed-excel-file/). Digitální podpisy zajišťují autenticitu a integritu, díky čemuž jsou vaše soubory Excel nejen funkční, ale také bezpečné.
+ Potřebovali jste někdy přidat digitální podpis k podepsanému souboru aplikace Excel? Zjistěte, jak na to s naším průvodcem[Přidejte digitální podpis do již podepsaného souboru aplikace Excel](./add-digital-signature-to-an-already-signed-excel-file/)Digitální podpisy zajišťují autenticitu a integritu, díky čemuž jsou vaše soubory Excel nejen funkční, ale také bezpečné.
 
 ## Vytváření sdílených sešitů
 
@@ -37,7 +37,7 @@ Potřebovali jste někdy přidat digitální podpis k podepsanému souboru aplik
 
 ## Zvýšení produktivity s Regex
 
-Jste fanouškem regulárního výrazu? Pokud ne, možná se jím budete chtít stát! Regulární výrazy mohou výrazně zefektivnit vaše úkoly, zejména při práci s velkými datovými sadami v Excelu. Náš tutoriál na[Nahradit regulární výraz](./regex-replace/) naučí vás implementovat funkce nahrazování regulárních výrazů ve vašich tabulkách, což vám umožní zvýšit produktivitu i přesnost.
+ Jste fanouškem regulárního výrazu? Pokud ne, možná se jím budete chtít stát! Regulární výrazy mohou výrazně zefektivnit vaše úkoly, zejména při práci s velkými datovými sadami v Excelu. Náš tutoriál na[Nahradit regulární výraz](./regex-replace/) naučí vás implementovat funkce nahrazování regulárních výrazů ve vašich tabulkách, což vám umožní zvýšit produktivitu i přesnost.
 
 ## Aktualizace položek Power Query
 
@@ -45,11 +45,11 @@ Jste fanouškem regulárního výrazu? Pokud ne, možná se jím budete chtít s
 
 ## Správa náhledů tisku
 
-Čas od času potřebujete svá data prezentovat co nejprofesionálnějším způsobem. Naučit se vytvářet náhledy tisku může být zásadní dovedností. V našem tutoriálu na[Náhled tisku sešitu](./workbook-print-preview/), zjistíte, jak správně formátovat data, než stisknete tisk. Tento proces vás může ušetřit trapných chyb a zajistit, aby vaše zprávy vypadaly stejně dobře na papíře jako na obrazovce.
+ Čas od času potřebujete svá data prezentovat co nejprofesionálnějším způsobem. Naučit se vytvářet náhledy tisku může být zásadní dovedností. V našem tutoriálu na[Náhled tisku sešitu](./workbook-print-preview/), zjistíte, jak správně formátovat data, než stisknete tisk. Tento proces vás může ušetřit trapných chyb a zajistit, aby vaše zprávy vypadaly stejně dobře na papíře jako na obrazovce.
 
 ## Práce s definovanými názvy
 
- Definované názvy v listech aplikace Excel mohou být praktickým způsobem správy dat. Dělají vzorce kratší a srozumitelnější. Pokud chcete filtrovat definovaná jména při načítání sešitu, náš návod na[Filtrovat definovaná jména při načítání sešitu](./filter-defined-names-while-loading-workbook/) poskytuje všechny potřebné kroky k tomu. Tato funkce vám umožňuje přizpůsobit způsob načítání sešitu a zlepšit tak efektivitu a organizaci.
+Definované názvy v listech aplikace Excel mohou být praktickým způsobem správy dat. Dělají vzorce kratší a srozumitelnější. Pokud chcete filtrovat definovaná jména při načítání sešitu, náš návod na[Filtrovat definovaná jména při načítání sešitu](./filter-defined-names-while-loading-workbook/) poskytuje všechny potřebné kroky k tomu. Tato funkce vám umožňuje přizpůsobit způsob načítání sešitu a zlepšit tak efektivitu a organizaci.
 
 ## Závěr
 
@@ -69,7 +69,7 @@ Proč tedy nevyužít této příležitosti a zlepšit své dovednosti v Excelu?
 | [Vytvořit sdílený sešit](./create-shared-workbook/) | Naučte se, jak vytvořit sdílený sešit pomocí Aspose.Cells for .NET pomocí tohoto jednoduchého průvodce krok za krokem. Ideální pro posílení týmové spolupráce. |  
 | [Detekce typů odkazů](./detect-link-types/) | Naučte se detekovat typy hypertextových odkazů v Excelu pomocí Aspose.Cells for .NET. Zahrnuty jednoduché kroky a příklady kódu. |  
 | [Extrahujte vložený soubor Mol](./extract-embedded-mol-file/) | Naučte se snadno extrahovat vložené soubory MOL z excelového sešitu pomocí Aspose.Cells for .NET. |  
-| [Filtrovat definovaná jména při načítání sešitu](./filter-defined-names-while-loading-workbook/) | této komplexní příručce se dozvíte, jak filtrovat definované názvy při načítání sešitu pomocí Aspose.Cells for .NET. |  
+| [Filtrovat definovaná jména při načítání sešitu](./filter-defined-names-while-loading-workbook/) | V této komplexní příručce se dozvíte, jak filtrovat definované názvy při načítání sešitu pomocí Aspose.Cells for .NET. |  
 | [Získejte podrobnosti o Odata](./get-odata-details/) | Zjistěte, jak extrahovat podrobnosti OData z Excelu pomocí Aspose.Cells for .NET v tomto podrobném návodu krok za krokem. |  
 | [Sdílený sešit chránit nebo zrušit ochranu heslem](./password-protect-or-unprotect-shared-workbook/) | Zabezpečte své sdílené soubory Excel pomocí Aspose.Cells for .NET s naším snadným průvodcem o ochraně heslem a technikách odblokování. |  
 | [Čtení a zápis externího připojení souboru XLSB](./read-and-write-external-connection-of-xlsb-file/) | V tomto komplexním kurzu se dozvíte, jak spravovat externí připojení v souborech XLSB pomocí Aspose.Cells for .NET. |  

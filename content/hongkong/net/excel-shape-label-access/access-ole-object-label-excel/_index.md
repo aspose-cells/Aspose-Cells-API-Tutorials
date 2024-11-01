@@ -8,7 +8,7 @@ weight: 10
 url: /zh-hant/net/excel-shape-label-access/access-ole-object-label-excel/
 ---
 ## 介紹
-如果你曾經接觸過 Excel，你就會知道它有多強大和複雜。有時，您可能會偶然發現OLE（物件連結和嵌入）物件中嵌入的資料- 將其視為另一個軟體工具的“迷你視窗”，例如Word 文件或PowerPoint 幻燈片，所有這些都舒適地嵌入您的電子表格中。但是我們如何使用 Aspose.Cells for .NET 存取和操作 OLE 物件中的這些標籤呢？係好安全帶，因為在本教程中，我們將逐步分解它！
+如果你曾經接觸過 Excel，你就會知道它有多強大和複雜。有時，您可能會偶然發現OLE（物件連結和嵌入）物件中嵌入的資料- 將其視為另一個軟體工具的“迷你視窗”，例如Word 文件或PowerPoint 投影片，所有這些都舒適地坐落在您的電子表格中。但是我們如何使用 Aspose.Cells for .NET 存取和操作 OLE 物件中的這些標籤呢？係好安全帶，因為在本教程中，我們將逐步分解它！
 ## 先決條件
  
 在我們進入 Aspose.Cells for .NET 的精彩世界之前，您的工具包中需要以下內容：
@@ -110,7 +110,7 @@ Console.WriteLine("Ole Object Label - After: " + oleObject.Label);
 Console.WriteLine("AccessAndModifyLabelOfOleObject executed successfully.");
 ```
 ## 結論 
-現在你就得到它了！您已使用 Aspose.Cells for .NET 成功存取並修改了 Excel 中 OLE 物件的標籤。這是為嵌入文件添加個人風格的好方法，可以提高電子表格的清晰度和溝通能力。 
+現在你就擁有了！您已使用 Aspose.Cells for .NET 成功存取並修改了 Excel 中 OLE 物件的標籤。這是為嵌入文件添加個人風格的好方法，可以提高電子表格的清晰度和溝通能力。 
 無論您是在開發一個很酷的應用程式還是只是在完善您的報告，操作 OLE 物件都可以改變遊戲規則。繼續探索 Aspose.Cells 提供的功能，您將發現一個充滿可能性的世界。
 ## 常見問題解答
 ### Excel 中的 OLE 物件是什麼？  

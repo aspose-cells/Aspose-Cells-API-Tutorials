@@ -58,7 +58,7 @@ Nyní, když máme sešit otevřený, přistupme k prvnímu listu:
 // Získejte první pracovní list.
 Worksheet sheet = book.Worksheets[0];
 ```
- Zde načteme první pracovní list (index`0` ) ze sešitu. Pole Aspose.Cells mají nulový index, což znamená, že první list je`0`.
+ Zde načteme první pracovní list (index`0` ze sešitu. Pole Aspose.Cells mají nulový index, což znamená, že první list je`0`.
 ## Krok 6: Definujte možnosti obrázku nebo tisku
  Než obrázek vykreslíme, musíme určit, jak chceme, aby vypadal pomocí`ImageOrPrintOptions`:
 ```csharp
@@ -82,7 +82,7 @@ Bitmap bitmap = sr.ToImage(0);
 ## Krok 8: Uložení obrázku
 Po vykreslení musíme obrázek uložit do určeného adresáře:
 ```csharp
-// Uložte soubor obrázku s určením formátu obrázku.
+//Uložte soubor obrázku s určením formátu obrázku.
 bitmap.Save(dataDir + "SheetImage.out.jpg");
 ```
  Zde uložíme bitmapový obrázek, který jsme vygenerovali. Tento řádek zapíše obrázek do`dataDir` umístění s názvem souboru`SheetImage.out.jpg`.
@@ -99,7 +99,7 @@ A tady to máte! V několika jednoduchých krocích jste se naučili, jak přev�
 ### Co je Aspose.Cells?
 Aspose.Cells je knihovna .NET, která umožňuje vývojářům vytvářet, manipulovat, převádět a zpracovávat soubory Excelu programově.
 ### Mohu používat Aspose.Cells zdarma?
-Ano, můžete začít používat Aspose.Cells stažením bezplatné zkušební verze z jejich[webové stránky](https://releases.aspose.com/).
+ Ano, můžete začít používat Aspose.Cells stažením bezplatné zkušební verze z jejich[webové stránky](https://releases.aspose.com/).
 ### Jaké formáty obrázků podporuje Aspose.Cells pro export?
 Aspose.Cells podporuje různé formáty obrázků, včetně JPEG, PNG, BMP a GIF.
 ### Kde najdu další podporu pro Aspose.Cells?

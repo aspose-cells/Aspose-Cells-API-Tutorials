@@ -17,7 +17,7 @@ Você está cansado de lutar com o gerenciamento de arquivos do Excel? Se você 
 
 ## Adicionando assinaturas digitais
 
-Você já precisou adicionar uma assinatura digital a um arquivo Excel assinado? Descubra como fazer isso com nosso guia sobre[Adicionar assinatura digital a um arquivo Excel já assinado](./add-digital-signature-to-an-already-signed-excel-file/). Assinaturas digitais garantem autenticidade e integridade, tornando seus arquivos do Excel não apenas funcionais, mas também seguros.
+ Você já precisou adicionar uma assinatura digital a um arquivo Excel assinado? Descubra como fazer isso com nosso guia sobre[Adicionar assinatura digital a um arquivo Excel já assinado](./add-digital-signature-to-an-already-signed-excel-file/)Assinaturas digitais garantem autenticidade e integridade, tornando seus arquivos do Excel não apenas funcionais, mas também seguros.
 
 ## Criando pastas de trabalho compartilhadas
 
@@ -37,7 +37,7 @@ Você já precisou adicionar uma assinatura digital a um arquivo Excel assinado?
 
 ## Aumentando a produtividade com Regex
 
-Você é fã de regex? Se não, você pode querer se tornar um! Expressões regulares podem simplificar significativamente suas tarefas, especialmente ao trabalhar com grandes conjuntos de dados no Excel. Nosso tutorial sobre[Substituição de Regex](./regex-replace/) ensina você a implementar funções de substituição de expressões regulares em suas planilhas, permitindo que você aumente tanto a produtividade quanto a precisão.
+ Você é fã de regex? Se não, você pode querer se tornar um! Expressões regulares podem simplificar significativamente suas tarefas, especialmente ao trabalhar com grandes conjuntos de dados no Excel. Nosso tutorial sobre[Substituição de Regex](./regex-replace/) ensina você a implementar funções de substituição de expressões regulares em suas planilhas, permitindo que você aumente tanto a produtividade quanto a precisão.
 
 ## Atualizando itens do Power Query
 
@@ -45,11 +45,11 @@ Você é fã de regex? Se não, você pode querer se tornar um! Expressões regu
 
 ## Gerenciando visualizações de impressão
 
-De vez em quando, você precisa apresentar seus dados da forma mais profissional possível. Aprender a criar visualizações de impressão pode ser uma habilidade vital. Em nosso tutorial sobre[Visualização de impressão da pasta de trabalho](./workbook-print-preview/), você descobrirá como formatar seus dados corretamente antes de clicar em imprimir. Esse processo pode evitar erros embaraçosos e garantir que seus relatórios tenham a mesma aparência no papel quanto na tela.
+ De vez em quando, você precisa apresentar seus dados da forma mais profissional possível. Aprender a criar visualizações de impressão pode ser uma habilidade vital. Em nosso tutorial sobre[Visualização de impressão da pasta de trabalho](./workbook-print-preview/), você descobrirá como formatar seus dados corretamente antes de clicar em imprimir. Esse processo pode evitar erros embaraçosos e garantir que seus relatórios tenham a mesma aparência no papel quanto na tela.
 
 ## Trabalhando com nomes definidos
 
- Nomes definidos dentro de suas planilhas do Excel podem ser uma maneira útil de gerenciar seus dados. Eles tornam as fórmulas mais curtas e compreensíveis. Se você estiver procurando filtrar nomes definidos ao carregar uma pasta de trabalho, nosso tutorial sobre[Filtrar nomes definidos ao carregar a pasta de trabalho](./filter-defined-names-while-loading-workbook/) fornece todos os passos necessários para fazer exatamente isso. Este recurso permite que você personalize como sua pasta de trabalho carrega, melhorando a eficiência e a organização.
+Nomes definidos dentro de suas planilhas do Excel podem ser uma maneira útil de gerenciar seus dados. Eles tornam as fórmulas mais curtas e compreensíveis. Se você estiver procurando filtrar nomes definidos ao carregar uma pasta de trabalho, nosso tutorial sobre[Filtrar nomes definidos ao carregar a pasta de trabalho](./filter-defined-names-while-loading-workbook/) fornece todos os passos necessários para fazer exatamente isso. Este recurso permite que você personalize como sua pasta de trabalho carrega, melhorando a eficiência e a organização.
 
 ## Conclusão
 

@@ -71,7 +71,7 @@ wr.ToImage(dataDir + "out_whole_printingxps.out.xps");
 ```
 Ez a kódrészlet lehetővé teszi a teljes munkafüzet egy menetben történő exportálását, így hatékonyabbá válik, ha több konvertálandó munkalapja van.
 ## Következtetés
-Gratulálok! Sikeresen konvertált egy Excel-fájlt XPS formátumba a .NET Aspose.Cells könyvtárával. Sok lépésnek tűnhet, de mindegyik létfontosságú szerepet játszik a folyamatban. Ezen ismeretek birtokában jól felkészült arra, hogy az Excel-fájlokat kezelje alkalmazásaiban, és optimalizálja azokat különböző formátumokra. Tehát ha legközelebb valaki megkérdezi, hogyan konvertálja át ezeket a bosszantó táblázatokat, pontosan tudni fogja, mit kell tennie!
+Gratulálok! Sikeresen konvertált egy Excel-fájlt XPS formátumba a .NET Aspose.Cells könyvtárával. Sok lépésnek tűnhet, de mindegyik létfontosságú szerepet játszik a folyamatban. Ezen ismeretek birtokában jól felkészült arra, hogy az Excel-fájlokat kezelje alkalmazásaiban és optimalizálja azokat különböző formátumokra. Tehát ha legközelebb valaki megkérdezi, hogyan konvertálja át ezeket a bosszantó táblázatokat, pontosan tudni fogja, mit kell tennie!
 ## GYIK
 ### Mi az XPS formátum?
 Az XPS (XML Paper Specification) egy rögzített dokumentumformátum, amely megőrzi a dokumentumok elrendezését és megjelenését.

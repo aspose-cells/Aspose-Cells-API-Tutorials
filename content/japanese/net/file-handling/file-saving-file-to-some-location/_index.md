@@ -12,7 +12,7 @@ url: /ja/net/file-handling/file-saving-file-to-some-location/
 ## 前提条件
 コードに進む前に、スムーズに理解するために必要なものをすべて用意しましょう。必要なものは次のとおりです。
 1. Visual Studio: マシンに Visual Studio がインストールされていることを確認してください。ここで .NET アプリケーションを記述してテストします。
-2. Aspose.Cellsライブラリ: Aspose.Cellsライブラリをダウンロードする必要があります。最新バージョンは以下から入手できます。[ここ](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cellsライブラリ: Aspose.Cellsライブラリをダウンロードする必要があります。最新バージョンは以下から入手できます。[ここ](https://releases.aspose.com/cells/net/).
 3. .NET Framework: Aspose.Cells と互換性のある .NET Framework バージョンがあることを確認します。通常、.NET Framework 4.0 以上で動作します。
 4. C# の基本的な理解: C# プログラミングの基礎を理解しておくと役立ちます。心配しないでください。すべてをステップごとに説明します。
 5. ファイルパス: 出力ファイルを保存する場所を決めます。`Your Document Directory`簡単にするため。

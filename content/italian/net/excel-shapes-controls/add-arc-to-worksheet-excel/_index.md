@@ -71,7 +71,7 @@ arc1.Line.Weight = 1;
 // Imposta lo stile del trattino dell'arco.
 arc1.Line.DashStyle = MsoLineDashStyle.Solid;
 ```
-In questa sezione, personalizziamo l'arco. Impostiamo il tipo di riempimento su colore pieno (blu in questo caso), definiamo come è posizionato, stabiliamo lo spessore della linea e scegliamo uno stile di tratteggio. In pratica, stiamo abbellendo il nostro arco per renderlo visivamente accattivante!
+In questa sezione, personalizziamo l'arco. Impostiamo il suo tipo di riempimento su colore pieno (blu in questo caso), definiamo come è posizionato, stabiliamo lo spessore della linea e scegliamo uno stile di tratteggio. In pratica, stiamo abbellendo il nostro arco per renderlo visivamente accattivante!
 ## Passaggio 5: aggiungere una seconda forma ad arco
 Aggiungiamo un'altra forma ad arco per fornire più contesto.
 ```csharp
@@ -108,7 +108,7 @@ Aspose.Cells è una potente libreria che consente agli sviluppatori di creare, m
 ### Devo installare Microsoft Excel per utilizzare Aspose.Cells?
 No, Aspose.Cells è completamente indipendente e non richiede l'installazione di Microsoft Excel.
 ### Posso provare Aspose.Cells gratuitamente?
-Sì, puoi provare Aspose.Cells usando il loro[Prova gratuita](https://releases.aspose.com/).
+ Sì, puoi provare Aspose.Cells usando il loro[Prova gratuita](https://releases.aspose.com/).
 ### Quali linguaggi di programmazione supporta Aspose.Cells?
 Aspose.Cells supporta diversi linguaggi, tra cui C#, VB.NET e altri.
 ### Dove posso ottenere supporto per Aspose.Cells?

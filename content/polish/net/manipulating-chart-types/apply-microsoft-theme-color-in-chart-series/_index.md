@@ -9,7 +9,7 @@ url: /pl/net/manipulating-chart-types/apply-microsoft-theme-color-in-chart-serie
 ---
 ## Wstęp
 
-dzisiejszym świecie, w którym wszystko jest wizualne, sposób, w jaki prezentujemy dane, ma ogromne znaczenie. Wykresy są często niedocenianymi bohaterami prezentacji danych, upraszczając złożone informacje do łatwych do przyswojenia wizualnych perełek. Jeśli używasz programu Microsoft Excel, wiesz, jak ważne jest dostosowywanie wykresów do marki Twojej organizacji lub po prostu uczynienie ich bardziej atrakcyjnymi. Ale czy wiesz, że możesz jeszcze bardziej spersonalizować swoje wykresy za pomocą Aspose.Cells dla .NET? W tym artykule przeprowadzimy Cię przez kroki, aby zastosować kolory motywu Microsoft w serii wykresów, zapewniając, że Twoje dane nie tylko się wyróżniają, ale także pasują do estetyki innych materiałów marki.
+W dzisiejszym świecie, w którym wszystko jest wizualne, sposób, w jaki prezentujemy dane, ma ogromne znaczenie. Wykresy są często niedocenianymi bohaterami prezentacji danych, upraszczając złożone informacje do łatwych do przyswojenia wizualnych perełek. Jeśli używasz programu Microsoft Excel, wiesz, jak ważne jest dostosowywanie wykresów do marki Twojej organizacji lub po prostu uczynienie ich bardziej atrakcyjnymi. Ale czy wiesz, że możesz jeszcze bardziej spersonalizować swoje wykresy za pomocą Aspose.Cells dla .NET? W tym artykule przeprowadzimy Cię przez kroki, aby zastosować kolory motywu Microsoft w serii wykresów, zapewniając, że Twoje dane nie tylko się wyróżniają, ale także pasują do estetyki innych materiałów marki.
 
 ## Wymagania wstępne
 
@@ -83,7 +83,7 @@ Teraz czas znaleźć wykres, który chcemy zmodyfikować. To tutaj zaczyna się 
 Chart chart = worksheet.Charts[0];
 ```
 
-tym kroku wyciągamy pierwszy wykres z naszego arkusza kalkulacyjnego. Jeśli pracujesz z wieloma wykresami, możesz chcieć odpowiednio dostosować indeks.
+W tym kroku wyciągamy pierwszy wykres z naszego arkusza kalkulacyjnego. Jeśli pracujesz z wieloma wykresami, możesz chcieć odpowiednio dostosować indeks.
 
 ## Krok 5: Ustaw format wypełnienia dla serii wykresów
 
@@ -101,7 +101,7 @@ Można to porównać do decydowania o wyglądzie i charakterze pomieszczenia prz
 Następnie musimy zdefiniować kolor dla obszaru wypełnienia wykresu. W ten sposób ożywimy wybrany kolor.
 
 ```csharp
-// Pobierz kolor komórek SolidFill
+//Pobierz kolor komórek SolidFill
 CellsColor cc = chart.NSeries[0].Area.FillFormat.SolidFill.CellsColor;
 ```
 

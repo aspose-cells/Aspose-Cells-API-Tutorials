@@ -16,7 +16,7 @@ Stellen Sie sicher, dass Visual Studio auf Ihrem Computer installiert ist. Dort 
 ### 2. .NET Framework oder .NET Core
 Stellen Sie sicher, dass Sie die richtige .NET-Version installiert haben. Aspose.Cells für .NET funktioniert nahtlos sowohl mit .NET Framework als auch mit .NET Core.
 ### 3. Aspose.Cells-Bibliothek
- Sie benötigen die Aspose.Cells-Bibliothek. Sie können sie herunterladen[Hier](https://releases.aspose.com/cells/net/). Dies muss in Ihrem Projekt vorhanden sein, um Excel-Dateien bearbeiten zu können.
+Sie benötigen die Aspose.Cells-Bibliothek. Sie können sie herunterladen[Hier](https://releases.aspose.com/cells/net/). Dies muss in Ihrem Projekt vorhanden sein, um Excel-Dateien bearbeiten zu können.
 ### 4. Grundlegende Kenntnisse in C#
 Es ist von Vorteil, wenn auch nicht zwingend erforderlich, C# zu beherrschen. Wir werden Code schreiben, der die Bibliothek verwendet, um eine Excel-Datei zu bearbeiten, und Kenntnisse in C# werden Ihnen helfen, es besser zu verstehen.
 ### 5. Eine IDE zum Arbeiten

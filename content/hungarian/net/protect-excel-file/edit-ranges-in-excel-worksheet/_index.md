@@ -71,7 +71,7 @@ Worksheet sheet = book.Worksheets[0];
 
 Itt elérjük az első munkalapot, amely hasonló ahhoz, mintha egy friss papírlapot nyitna meg a jegyzetfüzetében.
 
-## 4. lépés: Kapcsolja be az Allow Edit Ranges
+## 4. lépés: Kapcsolja be az Engedélyezett tartományok szerkesztését
 
 Mielőtt beállíthatnánk a szerkeszthető tartományokat, le kell kérnünk a védett tartományok gyűjteményét a munkalapunkról.
 
@@ -95,7 +95,7 @@ int idx = allowRanges.Add("r2", 1, 1, 3, 3);
 proteced_range = allowRanges[idx];
 ```
 
-A fenti kódban létrehozunk egy „r2” nevű védett tartományt, amely lehetővé teszi a cellák szerkesztését az 1. sor 1. oszlopától a 3. sor 3. oszlopáig (ami az Excel nyelvében A1-től C3-ig terjedő blokkot jelent). Ezeket az indexeket szükség szerint módosíthatja.
+fenti kódban létrehozunk egy "r2" nevű védett tartományt, amely lehetővé teszi a szerkesztést az 1. sor 1. oszlopától a 3. sor 3. oszlopáig (ami az Excel nyelvében A1-től C3-ig terjedő blokkot jelent). Ezeket az indexeket szükség szerint módosíthatja.
 
 ## 6. lépés: Állítson be egy jelszót 
 
@@ -128,7 +128,7 @@ Végre elértük oktatóanyagunk utolsó lépését – a munkafüzet elmentés�
 book.Save(dataDir + "protectedrange.out.xls");
 ```
 
- Ezzel a védett munkafüzetet más néven menti el`protectedrange.out.xls` a megadott könyvtárban.
+Ezzel a védett munkafüzetet más néven menti el`protectedrange.out.xls` a megadott könyvtárban.
 
 ## Következtetés
 

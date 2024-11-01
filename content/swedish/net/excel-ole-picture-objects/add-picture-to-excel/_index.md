@@ -72,7 +72,7 @@ Nu när du har lagt till bilden är det sista steget att spara din arbetsbok:
 ```csharp
 workbook.Save(dataDir + "output.xls"); // Spara i angiven katalog.
 ```
- Den här åtgärden skriver alla dina ändringar till en faktisk fil och skapar ett Excel-ark som innehåller din vackra bild. Det är{cherry on top of your cake} ögonblick!
+ Den här åtgärden skriver alla dina ändringar till en faktisk fil och skapar ett Excel-ark som innehåller din vackra bild. Det är den{cherry on top of your cake} ögonblick!
 ## Slutsats
 Att lägga till bilder i Excel-kalkylblad med Aspose.Cells för .NET är en otroligt enkel process som kan höja dina kalkylblad. Genom att följa dessa steg-för-steg-instruktioner kan du sömlöst integrera bilder i dina Excel-filer, vilket gör dem visuellt tilltalande och informativa. Gå nu vidare och upplev kraften i Aspose.Cells för att förbättra dina datapresentationer.
 ## FAQ's

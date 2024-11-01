@@ -123,7 +123,7 @@ Ed ecco fatto! Hai ordinato con successo i dati in una colonna di Excel usando u
 ## Domande frequenti
 
 ### Che cos'è Aspose.Cells per .NET?
-Aspose.Cells per .NET è una libreria completa che consente di manipolare i file Excel all'interno delle applicazioni .NET, inclusa la loro creazione, modifica e conversione.
+Aspose.Cells per .NET è una libreria completa che consente di manipolare i file Excel all'interno delle applicazioni .NET, ad esempio creandoli, modificandoli e convertendoli.
 
 ### Posso ordinare più di una colonna utilizzando un elenco di ordinamento personalizzato?
 Sì! Se necessario, puoi aggiungere altre chiavi per ordinare in base a più colonne. Basta seguire la stessa procedura per ogni chiave.

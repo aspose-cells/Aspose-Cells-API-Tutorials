@@ -34,7 +34,7 @@ if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
  Dalam cuplikan ini, ganti`"Your Document Directory"` dengan jalur tempat Anda ingin menyimpan berkas Excel. Jika direktori tidak ada, kode akan membuatnya untuk Anda.
-## Langkah 2: Membuat Instansiasi Objek Buku Kerja
+## Langkah 2: Membuat Instansi Objek Buku Kerja
 Selanjutnya, Anda perlu membuat objek buku kerja. Objek ini berfungsi sebagai antarmuka utama tempat Anda berinteraksi dengan lembar kerja Anda.
 ```csharp
 Workbook workbook = new Workbook();

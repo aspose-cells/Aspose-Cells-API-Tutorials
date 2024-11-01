@@ -88,7 +88,7 @@ StyleFlag flag;
 for (int i = 0; i <= 255; i++)
 {
     style = sheet.Cells.Columns[(byte)i].Style;
-    style.IsLocked = false; //فتح العمود
+    style.IsLocked = false; // فتح العمود
     flag = new StyleFlag();
     flag.Locked = true; // تعيين العلم على "صحيح" للقفل
     sheet.Cells.Columns[(byte)i].ApplyStyle(style, flag); // تطبيق النمط

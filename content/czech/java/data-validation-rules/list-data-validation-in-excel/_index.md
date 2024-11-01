@@ -14,7 +14,7 @@ dnešním digitálním věku hraje ověřování dat zásadní roli při zajiš�
 
 ## Porozumění ověřování dat
 
-Než se ponoříme do technických podrobností implementace ověřování dat pomocí Aspose.Cells for Java, věnujte chvíli tomu, abychom pochopili, co je ověřování dat a proč na tom záleží.
+Než se ponoříme do technických detailů implementace ověřování dat pomocí Aspose.Cells for Java, věnujte chvíli tomu, abychom pochopili, co je ověřování dat a proč na tom záleží.
 
 ### Co je ověřování dat?
 

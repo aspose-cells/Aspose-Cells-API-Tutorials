@@ -10,7 +10,7 @@ url: /pl/java/excel-data-analysis/
 
 ## Wprowadzenie do analizy danych w programie Excel z Aspose.Cells dla języka Java
 
-W dziedzinie analizy danych Excel pozostaje podstawowym narzędziem dla profesjonalistów z różnych branż. Dzięki solidnym możliwościom Aspose.Cells for Java programiści Java mogą wznieść swoją grę w analizę danych na nowe wyżyny. Ten zestaw bogatych w funkcje interfejsów API umożliwia łatwe przetwarzanie, manipulowanie i wyciąganie wniosków z arkuszy kalkulacyjnych Excel.
+dziedzinie analizy danych Excel pozostaje podstawowym narzędziem dla profesjonalistów z różnych branż. Dzięki solidnym możliwościom Aspose.Cells for Java programiści Java mogą wznieść swoją grę w analizę danych na nowe wyżyny. Ten zestaw bogatych w funkcje interfejsów API umożliwia łatwe przetwarzanie, manipulowanie i wyciąganie wniosków z arkuszy kalkulacyjnych Excel.
 
 ## Samouczki krok po kroku dla programistów Java
 

@@ -75,7 +75,7 @@ tb.TextOptions.LatinName = "Comic Sans MS"; // Toto je naše zvolené latinské 
 tb.TextOptions.FarEastName = "KaiTi"; // Toto je naše požadované písmo Dálného východu.
 ```
 ## Krok 7: Uložte výstupní soubor aplikace Excel
-Nakonec si uložme náš sešit! Tento krok uzavírá náš úkol a zajišťuje, že veškerá tvrdá práce, kterou jsme udělali, bude správně uložena. 
+Nakonec si uložme sešit! Tento krok uzavírá náš úkol a zajišťuje, že veškerá tvrdá práce, kterou jsme udělali, bude správně uložena. 
 ```csharp
 // Uložte výstupní soubor aplikace Excel.
 wb.Save(outputDir + "outputSpecifyFarEastAndLatinNameOfFontInTextOptionsOfShape.xlsx", SaveFormat.Xlsx);

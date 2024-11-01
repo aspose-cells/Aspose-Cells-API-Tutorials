@@ -179,7 +179,7 @@ V tomto okamžiku by měl výstup ukazovat false, protože jsme výslovně uvedl
 
 ## Závěr
 
-A tady to máte! Pomocí těchto kroků jste se naučili, jak zachovat předponu jednoduchých uvozovek v hodnotách buněk při používání Aspose.Cells pro .NET. I když se to může zdát jako malý detail, zachování integrity dat v Excelu může být v mnoha aplikacích zásadní, zvláště pokud pracujete s identifikátory nebo formátovanými řetězci. 
+A tady to máte! Pomocí těchto kroků jste se naučili, jak zachovat předponu jednoduchých uvozovek v hodnotách buněk při používání Aspose.Cells pro .NET. I když se to může zdát jako malý detail, zachování integrity dat v Excelu může být v mnoha aplikacích zásadní, zejména pokud pracujete s identifikátory nebo formátovanými řetězci. 
 
 ## FAQ
 

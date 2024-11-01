@@ -69,7 +69,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Workbook workbook = new Workbook();
 ```
 
- 여기서 우리는 새로운 것을 선언합니다`Workbook`Excel 파일을 나타내는 개체로, 해당 파일의 내용을 조작할 수 있습니다.
+ 여기서 우리는 새로운 것을 선언합니다`Workbook` Excel 파일을 나타내는 개체로, 해당 파일의 내용을 조작할 수 있습니다.
 
 ## 3단계: 첫 번째 워크시트에 액세스
 

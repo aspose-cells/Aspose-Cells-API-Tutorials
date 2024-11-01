@@ -9,7 +9,7 @@ url: /hu/java/basic-excel-functions/
 ---
 ## Bevezetés az Excel alapvető függvényeibe
 
-A táblázatkezelés világában az Excel alapvető funkcióinak ismerete a hatékony adatfeldolgozás alapja. Az Aspose.Cells for Java segítségével elmerülhet ebben az alapvető tudásban. Ebben az oktatóanyag-sorozatban végigvezetjük az Excel alapvető funkcióin, és felvértezzük a táblázatokkal való hatékony munkavégzéshez szükséges készségekkel.
+táblázatkezelés világában az Excel alapvető funkcióinak ismerete a hatékony adatfeldolgozás alapja. Az Aspose.Cells for Java segítségével elmerülhet ebben az alapvető tudásban. Ebben az oktatóanyag-sorozatban végigvezetjük az Excel alapvető funkcióin, és felvértezzük a táblázatokkal való hatékony munkavégzéshez szükséges készségekkel.
 
 ## Az Aspose.Cells for Java használatának első lépései:
 

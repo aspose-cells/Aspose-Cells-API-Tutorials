@@ -119,7 +119,7 @@ chart.ChartArea.Area.ForegroundColor = Color.White;
 chart.ShowLegend = false;
 ```
 
-Czyste, białe tło często sprawia, że kolory danych wyróżniają się, zwiększając ich widoczność.
+Czyste, białe tło często uwydatnia kolory danych, zwiększając ich widoczność.
 
 ## Krok 7: Dodaj serię danych do wykresu
 

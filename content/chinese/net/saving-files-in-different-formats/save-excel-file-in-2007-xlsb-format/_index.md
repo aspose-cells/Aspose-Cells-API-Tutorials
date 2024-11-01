@@ -12,7 +12,7 @@ url: /zh/net/saving-files-in-different-formats/save-excel-file-in-2007-xlsb-form
 ## 先决条件
 在我们开始之前，让我们确保您拥有无缝跟进所需的一切。您应该拥有以下内容：
 1. Visual Studio：确保您的计算机上安装了 Visual Studio 版本。您将在这里编写 .NET 代码。 
-2. Aspose.Cells 库：您需要 Aspose.Cells for .NET 库。如果您尚未下载，请前往[Aspose 下载页面](https://releases.aspose.com/cells/net/)去抓住它。 
+2.  Aspose.Cells 库：您需要 Aspose.Cells for .NET 库。如果您尚未下载，请前往[Aspose 下载页面](https://releases.aspose.com/cells/net/)去抓住它。 
 3. C# 基础知识：对 C# 和 .NET 的基础了解将帮助您更轻松地浏览代码示例。
 4. .NET Framework：确保您的项目设置了 Aspose.Cells 库支持的适当 .NET 框架。
 5. Excel 文档：虽然创建新工作簿是一种选择，但是如果您想操作现有文件，拥有一个起始文档可能会很有用。

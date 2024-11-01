@@ -134,4 +134,4 @@ En XLSB-fil är ett binärt Excel-filformat som lagrar kalkylbladsdata i ett bin
 Absolut! Aspose.Cells stöder en mängd olika filformat, inklusive XLSX, CSV och mer.
 
 ### Var kan jag söka hjälp om jag stöter på problem?  
- Du kan få stöd från Aspose-forumen[här](https://forum.aspose.com/c/cells/9).
+Du kan få stöd från Aspose-forumen[här](https://forum.aspose.com/c/cells/9).

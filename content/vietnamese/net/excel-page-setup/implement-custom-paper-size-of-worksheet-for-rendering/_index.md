@@ -16,7 +16,7 @@ Việc tạo và tùy chỉnh các tài liệu Excel theo chương trình có th
 Trước khi đi sâu vào mã, hãy đảm bảo bạn đã thiết lập đúng cách. Sau đây là những gì bạn cần để bắt đầu:
 
 1. Visual Studio hoặc bất kỳ .NET IDE nào: Đảm bảo bạn có một IDE đang hoạt động như Visual Studio. Đây sẽ là sân chơi nơi mọi phép thuật mã hóa diễn ra.
-2.  Gói Aspose.Cells cho .NET: Nếu bạn chưa tải xuống, bạn sẽ cần tải xuống và cài đặt thư viện Aspose.Cells. Bạn có thể tìm thấy phiên bản mới nhất trên[Trang tải xuống Aspose.Cells](https://releases.aspose.com/cells/net/).
+2. Gói Aspose.Cells cho .NET: Nếu bạn chưa tải xuống, bạn sẽ cần tải xuống và cài đặt thư viện Aspose.Cells. Bạn có thể tìm thấy phiên bản mới nhất trên[Trang tải xuống Aspose.Cells](https://releases.aspose.com/cells/net/).
 3. Kiến thức cơ bản về C#: Trong khi chúng tôi sẽ hướng dẫn bạn về mã, việc quen thuộc với C# sẽ giúp bạn hiểu rõ hơn về các sắc thái.
 4. Truy cập vào .NET Framework: Đảm bảo dự án của bạn được thiết lập để hướng tới phiên bản tương thích của .NET Framework.
 
@@ -124,7 +124,7 @@ Việc triển khai kích thước giấy tùy chỉnh cho các bảng tính Exc
 ## Câu hỏi thường gặp
 
 ### Tôi có thể sử dụng Aspose.Cells mà không cần mua giấy phép không?
-Có, bạn có thể dùng thử phiên bản dùng thử miễn phí của Aspose.Cells cho .NET, có sẵn[đây](https://releases.aspose.com/).
+ Có, bạn có thể dùng thử phiên bản dùng thử miễn phí của Aspose.Cells cho .NET, có sẵn[đây](https://releases.aspose.com/).
 
 ### Điều gì xảy ra nếu tôi vượt quá giới hạn của giấy phép tạm thời?
  Vượt quá giới hạn sẽ dẫn đến đầu ra có hình mờ. Tốt nhất là chọn giấy phép vĩnh viễn để có dịch vụ không bị gián đoạn. Bạn có thể tìm thấy các tùy chọn[đây](https://purchase.aspose.com/buy).

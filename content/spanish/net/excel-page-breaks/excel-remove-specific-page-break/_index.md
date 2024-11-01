@@ -64,7 +64,7 @@ A continuación, debemos cargar nuestro libro de trabajo. En términos más simp
 Workbook workbook = new Workbook(dataDir + "PageBreaks.xls");
 ```
 
-Explicación: Esta línea crea una nueva instancia de un`Workbook` , que carga el archivo Excel especificado (en este ejemplo, se llama`PageBreaks.xls`). 
+ Explicación: Esta línea crea una nueva instancia de un`Workbook` , que carga el archivo Excel especificado (en este ejemplo, se llama`PageBreaks.xls`). 
 
 ## Paso 3: Eliminar el salto de página horizontal
 
@@ -117,4 +117,4 @@ Puede iterar a través de los saltos de página utilizando un bucle para imprimi
  ¡Por supuesto! Solo cambia el número de índice en`workbook.Worksheets[index]` para apuntar a la hoja de trabajo deseada.
 
 ### ¿Aspose.Cells es una herramienta gratuita?  
- Aspose.Cells ofrece una versión de prueba gratuita, pero para disfrutar de todas sus funciones, deberá adquirir una licencia. Puede probarla aquí[aquí](https://purchase.aspose.com/buy).
+Aspose.Cells ofrece una versión de prueba gratuita, pero para disfrutar de todas sus funciones, deberá adquirir una licencia. Puede probarla aquí[aquí](https://purchase.aspose.com/buy).

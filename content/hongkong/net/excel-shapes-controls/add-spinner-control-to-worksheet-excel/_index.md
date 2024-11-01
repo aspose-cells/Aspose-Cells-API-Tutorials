@@ -108,7 +108,7 @@ excelbook.Save(dataDir + "book1.out.xls");
 ```
 此指令將工作簿儲存到指定目錄。您可以根據需要更改檔案名稱。
 ## 結論
-現在你就得到它了！您已使用 Aspose.Cells for .NET 成功將 Spinner 控制項新增至 Excel 工作表。此交互元素透過允許快速調整值來增強使用者體驗。無論您是建立動態報告工具還是資料輸入表單，Spinner 控制項都是有價值的補充。 
+現在你就擁有了！您已使用 Aspose.Cells for .NET 成功將 Spinner 控制項新增至 Excel 工作表。此交互元素透過允許快速調整值來增強使用者體驗。無論您是建立動態報告工具還是資料輸入表單，Spinner 控制項都是有價值的補充。 
 ## 常見問題解答
 ### Excel 中的 Spinner 控制項是什麼？
 Spinner 控制項可讓使用者輕鬆增加或減少數值，從而提供直覺的選擇方式。

@@ -54,7 +54,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 ```
  A hozzáféréssel`Worksheets[0]`, az első munkalapot választjuk. A munkalapok nullától kezdve indexelve vannak, ezért ügyeljen arra, hogy a megfelelőt válassza.
 ## 4. lépés: Hozzon létre egy tartományt
-Itt az ideje, hogy meghatározzuk azt a tartományt, amelyben hiperhivatkozásokat szeretnénk keresni. Esetünkben tegyük fel, hogy az A2-B3 cellákban szeretnénk keresni.
+Most itt az ideje, hogy meghatározzuk azt a tartományt, amelyben hiperhivatkozásokat szeretnénk keresni. Esetünkben tegyük fel, hogy az A2–B3 cellákban szeretnénk keresni.
 ```csharp
 // Hozzon létre egy A2:B3 tartományt
 Range range = worksheet.Cells.CreateRange("A2", "B3");
@@ -66,7 +66,7 @@ Ez az a lépés, ahol ténylegesen elérjük a megadott tartományunkban találh
 // hiperhivatkozások hatótávolsága
 Hyperlink[] hyperlinks = range.Hyperlinks;
 ```
- A`Hyperlinks` tulajdona a`Range` Az objektum egy tömböt ad vissza`Hyperlink` az adott tartományban talált objektumok. Ez olyan, mintha egy mozdulattal lefoglalná az összes fontos jegyzetet az oldaláról!
+ A`Hyperlinks` tulajdona a`Range` Az objektum egy tömböt ad vissza`Hyperlink` az adott tartományban található objektumok. Ez olyan, mintha egy mozdulattal lefoglalná az összes fontos jegyzetet az oldaláról!
 ## 6. lépés: Loop Through és jelenítse meg a hivatkozásokat
 Most ismételjük át a letöltött hiperhivatkozásokat. Címeiket és területeiket egyelőre kinyomtatjuk a konzolon.
 ```csharp

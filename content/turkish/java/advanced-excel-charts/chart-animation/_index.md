@@ -90,4 +90,4 @@ Bu eğitimde, Java API için Aspose.Cells'i kullanarak grafik animasyonları olu
 
 ### Animasyon gecikmesinin amacı nedir?
 
- Animasyon gecikmesi, grafik animasyonu başlamadan önceki zaman aralığını belirler.`setAnimationDelay`Gecikmeyi milisaniye cinsinden ayarlama yöntemi.
+ Animasyon gecikmesi, grafik animasyonu başlamadan önceki zaman aralığını belirler.`setAnimationDelay` Gecikmeyi milisaniye cinsinden ayarlama yöntemi.

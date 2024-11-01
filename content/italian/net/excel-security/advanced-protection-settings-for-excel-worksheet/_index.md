@@ -48,7 +48,7 @@ Suddividiamo l'implementazione in passaggi gestibili. Creeremo un semplice file 
 
 ## Passaggio 1: crea un flusso di file per il tuo file Excel
 
- Per prima cosa, dobbiamo caricare un file Excel esistente. Useremo un`FileStream` per accedervi.
+ Innanzitutto, dobbiamo caricare un file Excel esistente. Useremo un`FileStream` per accedervi.
 
 ```csharp
 // Percorso verso la directory dei documenti.

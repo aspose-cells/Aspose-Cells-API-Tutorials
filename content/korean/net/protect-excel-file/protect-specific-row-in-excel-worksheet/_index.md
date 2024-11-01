@@ -88,7 +88,7 @@ StyleFlag flag;
 for (int i = 0; i <= 255; i++)
 {
     style = sheet.Cells.Columns[(byte)i].Style;
-    style.IsLocked = false; //열 잠금 해제
+    style.IsLocked = false; // 열 잠금 해제
     flag = new StyleFlag();
     flag.Locked = true; // 잠금을 위해 플래그를 true로 설정
     sheet.Cells.Columns[(byte)i].ApplyStyle(style, flag); // 스타일을 적용하세요

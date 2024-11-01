@@ -16,7 +16,7 @@ Günümüzün hızlı tempolu iş dünyasında, verileri etkili ve güvenli bir 
 Koda geçmeden önce, Aspose.Cells for .NET ile sorunsuz bir deneyim için her şeyin ayarlandığından emin olmanız hayati önem taşır:
 
 1.  Visual Studio: Makinenizde Visual Studio'nun yüklü olması gerekir. Eğer yoksa, en son sürümü şu adresten indirin:[Visual Studio web sitesi](https://visualstudio.microsoft.com/downloads/).
-2.  Aspose.Cells Kütüphanesi: Aspose.Cells kütüphanesine ihtiyacınız olacak. Bunu şu adresten indirerek edinebilirsiniz:[Aspose web sitesi](https://releases.aspose.com/cells/net/)Alternatif olarak, doğrudan Visual Studio'daki NuGet üzerinden de yükleyebilirsiniz.
+2. Aspose.Cells Kütüphanesi: Aspose.Cells kütüphanesine ihtiyacınız olacak. Bunu şu adresten indirerek edinebilirsiniz:[Aspose web sitesi](https://releases.aspose.com/cells/net/)Alternatif olarak, doğrudan Visual Studio'daki NuGet üzerinden de yükleyebilirsiniz.
 3. C#'ın Temel Anlayışı: C# kodu yazacağımız için, dilin temel bir anlayışı işinize yarayacaktır. C#'a yeniyseniz, sizi hızla ilerletmek için birçok kaynak mevcuttur.
 4. Bir Excel Dosyası: Kilidini açmak istediğiniz hazır bir Excel çalışma kitabınız olsun. Bu örnek için, buna "book1.xls" diyeceğiz.
 
@@ -69,7 +69,7 @@ Workbook workbook = new Workbook(dataDir + "book1.xls");
 ```csharp
 Worksheet worksheet = workbook.Worksheets[0];
 ```
- Belirterek`[0]`, sisteme ilk sayfayı istediğinizi söylüyorsunuz. Sayfanız ilk sayfa değilse, bu dizini uygun sayıya değiştirmeniz yeterlidir.
+ Belirterek`[0]`sisteme ilk sayfayı istediğinizi söylüyorsunuz. Sayfanız ilk sayfa değilse, bu dizini uygun sayıya değiştirmeniz yeterlidir.
 
 ## Adım 4: Çalışma Sayfasının Korumasını Kaldırın
 
@@ -116,7 +116,7 @@ Ve işte karşınızda! Aspose.Cells for .NET kullanarak korunan bir Excel sayfa
 Evet! Çalışma kitabındaki her bir sayfayı dolaşabilir ve benzer şekilde korumalarını kaldırabilirsiniz.
 
 ### Aspose.Cells'i kullanmak ücretsiz mi?
- Aspose.Cells ücretsiz deneme sunuyor ancak üretim kullanımı için lisans gerekiyor. Kontrol edin[satın almak](https://purchase.aspose.com/buy) Daha fazla bilgi için sayfamızı ziyaret edin.
+ Aspose.Cells ücretsiz deneme sunuyor ancak üretim kullanımı için lisans gerekiyor. Kontrol edin[satın almak](https://purchase.aspose.com/buy)Daha fazla bilgi için sayfamızı ziyaret edin.
 
 ### Şifreyi bilmiyorsam ne olur?
 Eğer bir sayfa şifreliyse ve siz şifrenizi bilmiyorsanız, etik politikalara aykırı olduğu için kütüphane kısıtlamaları aşmanıza yardımcı olmayacaktır.

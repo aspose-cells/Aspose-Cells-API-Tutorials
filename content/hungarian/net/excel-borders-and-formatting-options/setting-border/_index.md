@@ -127,7 +127,7 @@ Végül mentsük el a munkafüzetünket. A módosítások mentéséhez használj
 workbook.Save(dataDir + "output.xlsx");
 ```
 
- Ezzel az Excel fájlt más néven menti el`output.xlsx` a megadott könyvtárban. 
+ Ezzel az Excel-fájlt más néven menti el`output.xlsx` a megadott könyvtárban. 
 
 ## Következtetés
 

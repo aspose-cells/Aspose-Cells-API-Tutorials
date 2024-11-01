@@ -19,13 +19,13 @@ url: /ar/net/excel-page-setup/determine-if-paper-size-of-worksheet-is-automatic/
 على الرغم من أن Aspose.Cells يبسط العديد من المهام، إلا أن الفهم الأساسي للغة C# أمر بالغ الأهمية. يجب أن تكون مرتاحًا في قراءة وكتابة التعليمات البرمجية الأساسية بلغة C#.
 
 ### Aspose.Cells لـ .NET
- تأكد من تثبيت Aspose.Cells في مشروعك. يمكنك تنزيله من[موقع إلكتروني](https://releases.aspose.com/cells/net/) إذا لم تكن قد فعلت ذلك بالفعل.
+تأكد من تثبيت Aspose.Cells في مشروعك. يمكنك تنزيله من[موقع إلكتروني](https://releases.aspose.com/cells/net/) إذا لم تكن قد فعلت ذلك بالفعل.
 
 ### بيئة التطوير
 يجب أن يكون لديك بيئة تطوير متكاملة مثل Visual Studio. فهذا يرشدك خلال التعامل مع الكود الخاص بك واختباره بفعالية.
 
 ### ملفات Excel النموذجية
-ستحتاج إلى ملفات العينة (`samplePageSetupIsAutomaticPaperSize-False.xlsx` و`samplePageSetupIsAutomaticPaperSize-True.xlsx`لأغراض الاختبار. تأكد من وجود هذه الملفات في دليل المصدر الخاص بك.
+ستحتاج إلى ملفات العينة (`samplePageSetupIsAutomaticPaperSize-False.xlsx` و`samplePageSetupIsAutomaticPaperSize-True.xlsx`) لأغراض الاختبار. تأكد من وجود هذه الملفات في دليل المصدر الخاص بك.
 
 ## استيراد الحزم
 
@@ -50,7 +50,7 @@ string sourceDir = "YOUR_SOURCE_DIRECTORY";
 string outputDir = "YOUR_OUTPUT_DIRECTORY";
 ```
 
- يستبدل`YOUR_SOURCE_DIRECTORY` و`YOUR_OUTPUT_DIRECTORY` مع المسارات الفعلية على نظامك حيث سيتم تخزين الملفات.
+ يستبدل`YOUR_SOURCE_DIRECTORY` و`YOUR_OUTPUT_DIRECTORY`مع المسارات الفعلية على نظامك حيث سيتم تخزين الملفات.
 
 ## الخطوة 2: تحميل مصنفات Excel
 
@@ -104,10 +104,10 @@ Aspose.Cells عبارة عن مكتبة .NET مصممة لإدارة ملفات 
 نعم! يدعم Aspose.Cells التطوير عبر الأنظمة الأساسية، لذا يمكنك العمل في بيئات مختلفة حيث يتوفر .NET.
 
 ### هل أحتاج إلى ترخيص لـ Aspose.Cells؟
- على الرغم من أنه يمكنك البدء بإصدار تجريبي مجاني، إلا أن الاستمرار في الاستخدام يتطلب شراء ترخيص. يمكن العثور على مزيد من التفاصيل[هنا](https://purchase.aspose.com/buy).
+على الرغم من أنه يمكنك البدء بإصدار تجريبي مجاني، إلا أن الاستمرار في الاستخدام يتطلب شراء ترخيص. يمكن العثور على مزيد من التفاصيل[هنا](https://purchase.aspose.com/buy).
 
 ### كيف يمكنني التحقق من أن حجم ورقة العمل يتم تلقائيًا في C#؟
-كما هو موضح في الدليل، يمكنك التحقق من`IsAutomaticPaperSize` ممتلكات`PageSetup` فصل.
+ كما هو موضح في الدليل، يمكنك التحقق من`IsAutomaticPaperSize` ممتلكات`PageSetup` فصل.
 
 ### أين يمكنني العثور على مزيد من المعلومات حول Aspose.Cells؟
  يمكنك العثور على وثائق ودروس تعليمية شاملة[هنا](https://reference.aspose.com/cells/net/).

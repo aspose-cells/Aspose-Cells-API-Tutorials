@@ -88,7 +88,7 @@ Nu kommer den kritiska delen – ställ in pappersstorleken till A4. Med Aspose.
 worksheet.PageSetup.PaperSize = PaperSizeType.PaperA4;
 ```
 
- Den här raden ställer in pappersstorleken för det angivna kalkylbladet till A4. Du kan enkelt byta ut`PaperA4` med andra pappersstorlekar tillgängliga i`PaperSizeType` uppräkning, som t.ex`PaperLetter` eller`PaperA3`.
+ Den här raden ställer in pappersstorleken för det angivna arbetsbladet till A4. Du kan enkelt byta ut`PaperA4` med andra pappersstorlekar tillgängliga i`PaperSizeType` uppräkning, som t.ex`PaperLetter` eller`PaperA3`.
 
 ## Steg 5: Spara arbetsboken
 
@@ -113,7 +113,7 @@ Att hantera pappersstorlekar i Excel-ark blir en bris med Aspose.Cells för .NET
 Ja, du kan komma åt flera kalkylblad i en slinga och tillämpa samma pappersstorleksinställningar på vart och ett.
 
 ### Är Aspose.Cells gratis att använda?
- Aspose.Cells är ett kommersiellt bibliotek; dock erbjuder den en gratis provperiod. Du kan begära en[tillfällig licens](https://purchase.aspose.com/temporary-license/) för att utvärdera dess fulla funktioner.
+ Aspose.Cells är ett kommersiellt bibliotek; men det erbjuder en gratis provperiod. Du kan begära en[tillfällig licens](https://purchase.aspose.com/temporary-license/) för att utvärdera dess fullständiga funktioner.
 
 ### Hur hanterar jag undantag när jag arbetar med Aspose.Cells?
 Du kan slå in din kod i ett försök-fångst-block för att hantera eventuella undantag som kan inträffa under manipulering av arbetsbok.

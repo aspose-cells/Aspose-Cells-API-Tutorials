@@ -19,7 +19,7 @@ Voordat we in de details van de code duiken, controleren we eerst of je alles he
 2.  Aspose.Cells-bibliotheek: Deze gids gaat ervan uit dat u de Aspose.Cells-bibliotheek hebt. U kunt deze eenvoudig downloaden van[Aspose's releasepagina](https://releases.aspose.com/cells/net/)Als u niet zeker weet waar u moet beginnen,[Aspose.Cells-documentatie](https://reference.aspose.com/cells/net/) kan je beste vriend zijn!
 3. Basiskennis van C#: Als u bekend bent met de programmeertaal C#, begrijpt u de voorbeelden beter en kunt u ze probleemloos volgen.
 4.  Excel-bestand: Zorg ervoor dat u een Excel-bestand hebt met grafieken voor deze tutorial. U kunt een voorbeeld-Excel-bestand maken met de naam`sampleReadAxisLabelsAfterCalculatingTheChart.xlsx` voor testdoeleinden.
-5. .NET-omgeving: Controleer of uw .NET-omgeving correct is ingesteld. Deze tutorial richt zich op het .NET-framework, dus zorg dat u goed zit!
+5. .NET-omgeving: Controleer of uw .NET-omgeving correct is ingesteld. Deze tutorial richt zich op het .NET-framework, dus zorg dat u klaar bent om te gaan!
 
 Nu we alles hebben wat we nodig hebben, kunnen we beginnen met de installatie en de code!
 

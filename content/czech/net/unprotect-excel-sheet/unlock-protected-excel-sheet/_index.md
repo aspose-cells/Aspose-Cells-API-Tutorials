@@ -16,7 +16,7 @@ V dnešním uspěchaném obchodním světě je efektivní a bezpečná správa d
 Než se pustíte do kódu, je důležité se ujistit, že máte vše nastaveno pro bezproblémový provoz s Aspose.Cells pro .NET:
 
 1.  Visual Studio: Na vašem počítači musíte mít nainstalované Visual Studio. Pokud jej nemáte, stáhněte si nejnovější verzi z[Web Visual Studio](https://visualstudio.microsoft.com/downloads/).
-2.  Knihovna Aspose.Cells: Budete potřebovat knihovnu Aspose.Cells. Můžete jej získat stažením z[Aspose webové stránky](https://releases.aspose.com/cells/net/). Případně jej můžete nainstalovat přímo přes NuGet ve Visual Studiu.
+2. Knihovna Aspose.Cells: Budete potřebovat knihovnu Aspose.Cells. Můžete jej získat stažením z[Aspose webové stránky](https://releases.aspose.com/cells/net/). Případně jej můžete nainstalovat přímo přes NuGet ve Visual Studiu.
 3. Základní porozumění C#: Vzhledem k tomu, že budeme psát kód C#, bude se nám hodit základní znalost jazyka. Pokud jste v C# nováčkem, máte k dispozici spoustu zdrojů, které vám pomohou zrychlit.
 4. Soubor Excel: Připravte si sešit Excel, který chcete odemknout. V tomto příkladu jej budeme označovat jako "book1.xls."
 
@@ -34,7 +34,7 @@ Nyní, když máme vše nastaveno, pojďme se ponořit do skutečného kódu!
 
 ### Importujte jmenný prostor
 
-V horní části souboru C# přidejte:
+horní části souboru C# přidejte:
 
 ```csharp
 using System.IO;
@@ -69,7 +69,7 @@ Nyní, když je sešit načten, budete chtít získat přístup k listu, který 
 ```csharp
 Worksheet worksheet = workbook.Worksheets[0];
 ```
- Upřesněním`[0]`, říkáte systému, že chcete první list. Pokud váš list není první, jednoduše změňte tento index na příslušné číslo.
+ Upřesněním`[0]`říkáte systému, že chcete první list. Pokud váš list není první, jednoduše změňte tento index na příslušné číslo.
 
 ## Krok 4: Zrušte ochranu listu
 
@@ -116,7 +116,7 @@ A tady to máte! Odemknutí chráněného listu Excelu pomocí Aspose.Cells pro 
 Ano! Můžete procházet každý list v sešitu a podobně je zrušit.
 
 ### Je Aspose.Cells zdarma k použití?
- Aspose.Cells nabízí bezplatnou zkušební verzi, ale pro produkční použití je vyžadována licence. Zkontrolujte jejich[nákup](https://purchase.aspose.com/buy) stránce pro více informací.
+ Aspose.Cells nabízí bezplatnou zkušební verzi, ale pro produkční použití je vyžadována licence. Zkontrolujte jejich[nákup](https://purchase.aspose.com/buy)stránce pro více informací.
 
 ### Co když neznám heslo?
 Pokud je list chráněn heslem a vy heslo nemáte, knihovna nepomůže obejít omezení, protože je v rozporu s etickými zásadami.

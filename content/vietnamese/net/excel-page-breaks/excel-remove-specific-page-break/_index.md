@@ -64,7 +64,7 @@ Tiếp theo, chúng ta cần tải sổ làm việc của mình. Nói một các
 Workbook workbook = new Workbook(dataDir + "PageBreaks.xls");
 ```
 
-Giải thích: Dòng này tạo ra một phiên bản mới của`Workbook` , tải tệp Excel bạn chỉ định (trong ví dụ này, nó được đặt tên là`PageBreaks.xls`). 
+ Giải thích: Dòng này tạo ra một phiên bản mới của`Workbook` , tải tệp Excel bạn chỉ định (trong ví dụ này, nó được đặt tên là`PageBreaks.xls`). 
 
 ## Bước 3: Xóa ngắt trang ngang
 
@@ -117,4 +117,4 @@ Bạn có thể lặp lại các ngắt trang bằng cách sử dụng vòng l�
  Chắc chắn rồi! Chỉ cần thay đổi số chỉ mục trong`workbook.Worksheets[index]` để nhắm tới bảng tính mong muốn.
 
 ### Aspose.Cells có phải là công cụ miễn phí không?  
- Aspose.Cells cung cấp bản dùng thử miễn phí, nhưng để có đầy đủ chức năng, bạn sẽ cần phải mua giấy phép. Bạn có thể kiểm tra[đây](https://purchase.aspose.com/buy).
+Aspose.Cells cung cấp bản dùng thử miễn phí, nhưng để có đầy đủ chức năng, bạn sẽ cần phải mua giấy phép. Bạn có thể kiểm tra[đây](https://purchase.aspose.com/buy).

@@ -16,7 +16,7 @@ Diagram är ett kraftfullt sätt att visualisera data, och ibland kan det öka k
 Innan vi dyker in i det nitty-gritty, låt oss täcka vad du behöver för att komma igång:
 
 - Grundläggande kunskaper om C#: Det är avgörande att förstå grunderna i C#-programmering. Om du är nybörjare, oroa dig inte – stegen kommer att vara tydliga och koncisa.
--  Aspose.Cells Library: Se till att du har Aspose.Cells-biblioteket installerat. Du kan göra detta via NuGet Package Manager i Visual Studio. Om du inte redan har gjort det, kolla in[nedladdningslänk](https://releases.aspose.com/cells/net/) för biblioteket.
+- Aspose.Cells Library: Se till att du har Aspose.Cells-biblioteket installerat. Du kan göra detta via NuGet Package Manager i Visual Studio. Om du inte redan har gjort det, kolla in[nedladdningslänk](https://releases.aspose.com/cells/net/) för biblioteket.
 - Visual Studio: Du behöver en integrerad utvecklingsmiljö (IDE) som Visual Studio för att skriva och köra din kod.
 
 ## Importera paket

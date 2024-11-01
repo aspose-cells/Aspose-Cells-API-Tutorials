@@ -18,7 +18,7 @@ I grafici 3D sono un tipo di visualizzazione dei dati che aggiunge profondità a
 
 ## Perché utilizzare Aspose.Cells per Java per creare grafici 3D?
 
-Aspose.Cells per Java offre un set completo di funzionalità e strumenti per lavorare con file e grafici Excel. Fornisce un'interfaccia intuitiva per creare, personalizzare e manipolare grafici, inclusi grafici 3D. Inoltre, Aspose.Cells per Java assicura che i grafici generati siano compatibili con un'ampia gamma di versioni di Excel, rendendolo una scelta affidabile per la creazione di grafici.
+Aspose.Cells per Java offre un set completo di funzionalità e strumenti per lavorare con file e grafici Excel. Fornisce un'interfaccia intuitiva per creare, personalizzare e manipolare grafici, inclusi grafici 3D. Inoltre, Aspose.Cells per Java garantisce che i grafici generati siano compatibili con un'ampia gamma di versioni di Excel, rendendolo una scelta affidabile per la creazione di grafici.
 
 ## Impostazione di Aspose.Cells per Java
 

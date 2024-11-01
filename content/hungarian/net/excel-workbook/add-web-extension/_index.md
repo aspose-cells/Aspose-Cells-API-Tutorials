@@ -92,7 +92,7 @@ extension.Reference.StoreType = WebExtensionStoreType.OMEX;
 
 ## 6. lépés: Adja hozzá és konfigurálja a Feladatablakot
 
-Most adjunk hozzá egy munkaablakot, hogy webbővítményünket interaktívvá és láthatóvá tegyük az Excel felhasználói felületén.
+Most adjunk hozzá egy munkaablakot, hogy interaktívvá és láthatóvá tegyük webbővítményünket az Excel felhasználói felületén.
 
 ```csharp
 int taskPaneIndex = taskPanes.Add();

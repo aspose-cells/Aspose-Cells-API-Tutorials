@@ -41,7 +41,7 @@ Bu içe aktarımlar, Excel dosyalarını düzenlemek ve sistemdeki dosyaları y�
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // Buna göre güncelleyin
 ```
 
- Bu satır şunu belirler:`dataDir` Başlığa eklemek istediğiniz görseli bulmak için temel yol olan değişken.
+ Bu satır şunu belirler:`dataDir`Başlığa eklemek istediğiniz görseli bulmak için temel yol olan değişken.
 
 ## Adım 2: Bir Çalışma Kitabı Nesnesi Oluşturma
 
@@ -55,7 +55,7 @@ Workbook workbook = new Workbook();
 
 ## Adım 3: Görüntü Yolunu Tanımlama
 
-Kullanmak istediğiniz görüntüye giden yolu tutacak bir dize değişkeni oluşturmanın zamanı geldi. Bizim durumumuzda, şunu kullanıyoruz:`aspose-logo.jpg`.
+ Kullanmak istediğiniz görüntüye giden yolu tutacak bir dize değişkeni oluşturmanın zamanı geldi. Bizim durumumuzda, şunu kullanıyoruz:`aspose-logo.jpg`.
 
 ```csharp
 string logo_url = dataDir + "aspose-logo.jpg";

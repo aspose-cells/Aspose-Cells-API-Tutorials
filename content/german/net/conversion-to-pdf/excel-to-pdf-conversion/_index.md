@@ -37,7 +37,7 @@ using System.IO;
 using Aspose.Cells;
 ```
 Dadurch erhalten Sie Zugriff auf die Klassen und Methoden, die Sie für Ihre Konvertierungsaufgabe benötigen.
-Jetzt machen wir uns an die Arbeit mit Code! Wir unterteilen dies in überschaubare Schritte, damit Sie es leicht nachvollziehen können.
+Jetzt machen wir uns an die Arbeit mit dem Code! Wir unterteilen dies in überschaubare Schritte, damit Sie es leicht nachvollziehen können.
 ## Schritt 1: Definieren Sie Ihr Dokumentverzeichnis
 Bevor Sie mit der Konvertierung beginnen, müssen Sie angeben, wo sich Ihre Excel-Dateien befinden und wo Sie Ihre PDF-Dateien speichern möchten.
 ```csharp
@@ -45,7 +45,7 @@ Bevor Sie mit der Konvertierung beginnen, müssen Sie angeben, wo sich Ihre Exce
 string dataDir = "Your Document Directory";
 ```
 
- Denken Sie an`dataDir` als Ihren Arbeitsbereich. Es ist wie der Schreibtisch, auf dem Sie Ihre Dokumente auslegen, bevor Sie ein Projekt in Angriff nehmen. Stellen Sie sicher, dass Sie`"Your Document Directory"` durch den tatsächlichen Pfad auf Ihrem System, wo Ihre Excel-Dateien gespeichert sind.
+ Denken Sie an`dataDir` als Ihren Arbeitsbereich. Es ist wie der Schreibtisch, auf dem Sie Ihre Dokumente auslegen, bevor Sie ein Projekt in Angriff nehmen. Stellen Sie sicher, dass Sie`"Your Document Directory"` durch den tatsächlichen Pfad auf Ihrem System, in dem Ihre Excel-Dateien gespeichert sind.
 ## Schritt 2: Instanziieren des Arbeitsmappenobjekts
 Als Nächstes müssen Sie ein neues Arbeitsmappenobjekt erstellen. Das ist, als würden Sie die Excel-Datei in Ihrer Hand öffnen. Sobald Sie dies getan haben, können Sie mit der Bearbeitung der darin enthaltenen Daten beginnen.
 ```csharp

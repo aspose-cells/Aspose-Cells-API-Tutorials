@@ -16,7 +16,7 @@ In de snelle zakenwereld van vandaag is het effectief en veilig beheren van gege
 Voordat u aan de slag gaat met de code, is het belangrijk dat u alles goed hebt ingesteld voor een soepele ervaring met Aspose.Cells voor .NET:
 
 1.  Visual Studio: U moet Visual Studio op uw machine geïnstalleerd hebben. Als u het niet hebt, download dan de nieuwste versie van de[Visual Studio-website](https://visualstudio.microsoft.com/downloads/).
-2.  Aspose.Cells Library: U hebt de Aspose.Cells-bibliotheek nodig. U kunt deze downloaden van de[Aspose-website](https://releases.aspose.com/cells/net/)U kunt het ook rechtstreeks via NuGet in Visual Studio installeren.
+2. Aspose.Cells Library: U hebt de Aspose.Cells-bibliotheek nodig. U kunt deze downloaden van de[Aspose-website](https://releases.aspose.com/cells/net/)U kunt het ook rechtstreeks via NuGet in Visual Studio installeren.
 3. Basiskennis van C#: Omdat we C#-code gaan schrijven, is een basiskennis van de taal handig. Als u nieuw bent in C#, zijn er genoeg bronnen beschikbaar om u op weg te helpen.
 4. Een Excel-bestand: Zorg dat u een Excel-werkmap gereed hebt die u wilt ontgrendelen. In dit voorbeeld noemen we dit "book1.xls."
 
@@ -28,7 +28,7 @@ Open Visual Studio en maak een nieuw project. U kunt kiezen uit een Console Appl
 
 ### Verwijzing naar Aspose.Cells toevoegen
 
-moet het Aspose.Cells-pakket toevoegen aan uw project. Klik met de rechtermuisknop op uw project in de Solution Explorer, selecteer 'Manage NuGet Packages' en zoek naar 'Aspose.Cells'. Installeer de nieuwste versie.
+U moet het Aspose.Cells-pakket toevoegen aan uw project. Klik met de rechtermuisknop op uw project in de Solution Explorer, selecteer 'Manage NuGet Packages' en zoek naar 'Aspose.Cells'. Installeer de nieuwste versie.
 
 Nu we alles hebben ingesteld, gaan we aan de slag met de daadwerkelijke code!
 
@@ -69,7 +69,7 @@ Nu de werkmap is geladen, wilt u toegang tot het werkblad dat u wilt ontgrendele
 ```csharp
 Worksheet worksheet = workbook.Worksheets[0];
 ```
- Door te specificeren`[0]`, vertelt u het systeem dat u het eerste blad wilt. Als uw blad niet het eerste is, wijzigt u deze index eenvoudigweg naar het juiste nummer.
+ Door te specificeren`[0]`vertelt u het systeem dat u het eerste blad wilt. Als uw blad niet het eerste is, wijzigt u deze index eenvoudigweg naar het juiste nummer.
 
 ## Stap 4: De beveiliging van het werkblad opheffen
 
@@ -116,7 +116,7 @@ En daar heb je het! Het ontgrendelen van een beschermd Excel-blad met Aspose.Cel
 Jazeker! U kunt elk blad in de werkmap doorlopen en de beveiliging ervan op dezelfde manier opheffen.
 
 ### Is Aspose.Cells gratis te gebruiken?
- Aspose.Cells biedt een gratis proefperiode, maar voor productiegebruik is een licentie vereist. Bekijk hun[aankoop](https://purchase.aspose.com/buy) pagina voor meer informatie.
+ Aspose.Cells biedt een gratis proefperiode, maar voor productiegebruik is een licentie vereist. Bekijk hun[aankoop](https://purchase.aspose.com/buy)pagina voor meer informatie.
 
 ### Wat als ik het wachtwoord niet weet?
 Als een werkblad met een wachtwoord is beveiligd en u beschikt niet over het wachtwoord, kan de bibliotheek u niet helpen de beperkingen te omzeilen, omdat dit in strijd is met het ethische beleid.

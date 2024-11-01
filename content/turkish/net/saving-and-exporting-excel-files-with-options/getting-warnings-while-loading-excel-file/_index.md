@@ -18,7 +18,7 @@ C# ile kod parçacıkları yazacağımız için C# ve .NET framework hakkında t
 ### Geliştirme Ortamı
 .NET uygulamalarınızı geliştirmek için Visual Studio gibi uyumlu bir IDE kullanmanız önerilir. 
 ### Temel Excel Dosyası
- Örnek bir Excel dosyasına ihtiyacınız olacak (buna örnek olarak şu şekilde değineceğiz:`sampleDuplicateDefinedName.xlsx`bu işlevi test etmek için yinelenen tanımlanmış adlar içerebilir.
+ Örnek bir Excel dosyasına ihtiyacınız olacak (buna örnek olarak şu şekilde değineceğiz:`sampleDuplicateDefinedName.xlsx`) bu işlevi test etmek için yinelenen tanımlanmış adlar içerebilir.
 ## Paketleri İçe Aktarma
 Artık her şey ayarlandığına göre, ihtiyacınız olacak paketlerden bahsedelim. Bu ad alanlarını C# dosyanızın en üstüne eklediğinizden emin olun:
 ```csharp
@@ -38,12 +38,12 @@ string dataDir = "Your Document Directory";
 ```
  Yer değiştirmek`"Your Document Directory"` Excel dosyasının saklandığı bilgisayarınızdaki gerçek yol ile. Bu basit kod satırı programı doğru yöne yönlendirir!
 ## Adım 2: Yükleme Seçenekleri Oluşturun
- Şimdi, bir örnek oluşturalım`LoadOptions`. Sihir burada başlıyor. Yükleme seçeneklerini yapılandırarak, çalışma kitabını yüklerken bir uyarıyla karşılaşıldığında tetiklenecek bir geri arama ayarlayabilirsiniz:
+ Şimdi, bir örnek oluşturalım`LoadOptions`Sihir burada başlıyor. Yükleme seçeneklerini yapılandırarak, çalışma kitabını yüklerken bir uyarıyla karşılaşıldığında tetiklenecek bir geri arama ayarlayabilirsiniz:
 ```csharp
 LoadOptions options = new LoadOptions();
 options.WarningCallback = new WarningCallback();
 ```
- Burada yeni bir şey yaratıyoruz`LoadOptions` nesne ve onu bizimle ilişkilendirmek`WarningCallback`(Daha sonra tanımlayacağımız) sınıf. Bu kurulum, programımızın uyarıları zarif bir şekilde ele alması için önemlidir.
+ Burada yeni bir şey yaratıyoruz`LoadOptions` nesne ve onu bizimle ilişkilendirmek`WarningCallback` (Daha sonra tanımlayacağımız) sınıf. Bu kurulum, programımızın uyarıları zarif bir şekilde ele alması için önemlidir.
 ## Adım 3: Kaynak Excel Dosyasını Yükleyin
  Excel dosyasını gerçekten yüklemenin zamanı geldi! İşte tam burada`Workbook` Daha önce tanımladığımız seçeneklerle birlikte dosyanızı yüklemek için sınıf:
 ```csharp
@@ -81,6 +81,6 @@ Aspose.Cells, Microsoft Excel'e ihtiyaç duymadan Excel dosyaları oluşturmak, 
 ### Aspose.Cells'i nasıl satın alabilirim?
  Aspose.Cells'i doğrudan şu adresten satın alabilirsiniz:[satın alma sayfası](https://purchase.aspose.com/buy).
 ### Hangi tür uyarılarla başa çıkabilirim?
- Yinelenen tanımlanmış adlar, formül uyarıları ve stil uyarıları gibi çeşitli uyarıları kullanarak işleyebilirsiniz.`WarningCallback`.
+Yinelenen tanımlanmış adlar, formül uyarıları ve stil uyarıları gibi çeşitli uyarıları kullanarak işleyebilirsiniz.`WarningCallback`.
 ### Aspose.Cells ile ilgili dokümanları nerede bulabilirim?
  Kapsamlı bir şekilde kontrol edebilirsiniz[belgeler burada](https://reference.aspose.com/cells/net/).

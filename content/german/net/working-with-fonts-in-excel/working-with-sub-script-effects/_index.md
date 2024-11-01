@@ -66,7 +66,7 @@ Bevor wir die Zelle formatieren, fügen wir einen Text ein. In diesem Fall schre
 cell.PutValue("Hello");
 ```
 ## Schritt 6: Stellen Sie die Schriftart auf tiefgestellt ein
-Jetzt kommt der spaßige Teil! Wir werden den Schriftstil der Zelle ändern, um ihn zu einem Index zu machen. Hier geschieht die Magie.
+Jetzt kommt der spaßige Teil! Wir werden den Schriftstil der Zelle ändern, um sie zu einem Index zu machen. Hier geschieht die Magie.
 ```csharp
 // Festlegen der Schriftart Subscript
 Style style = cell.GetStyle();

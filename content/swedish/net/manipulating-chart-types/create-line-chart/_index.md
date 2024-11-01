@@ -50,7 +50,7 @@ Det första steget är att definiera var du vill spara din utdatafil. Det är so
 // Utdatakatalog
 string outputDir = "Your Output Directory";
 ```
- Ersätta`"Your Output Directory"` med den faktiska sökvägen där du vill spara den genererade Excel-filen.
+ Ersätta`"Your Output Directory"`med den faktiska sökvägen där du vill spara den genererade Excel-filen.
 
 ## Steg 2: Instantiera arbetsboksobjektet
 

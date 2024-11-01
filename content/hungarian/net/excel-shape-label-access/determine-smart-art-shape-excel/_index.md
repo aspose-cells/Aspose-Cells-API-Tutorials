@@ -31,7 +31,7 @@ Az Aspose.Cells használatához hozzá kell adni a projekthez. Íme, hogyan:
    -  Válassza ki`Manage NuGet Packages`.
    - Keresse meg az "Aspose.Cells" kifejezést, és telepítse a csomagot.
 2. Telepítés ellenőrzése:
-   Nyissa meg a Projektreferenciákat, és győződjön meg arról, hogy az Aspose.Cells megjelenik a listában. 
+   Lépjen a Projektreferenciák oldalra, hogy megbizonyosodjon arról, hogy az Aspose.Cells megjelenik a listában. 
 ```csharp
 using System;
 using System.Collections.Generic;

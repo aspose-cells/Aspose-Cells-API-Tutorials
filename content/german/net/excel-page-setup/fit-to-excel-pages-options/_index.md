@@ -16,7 +16,7 @@ Willkommen zum ultimativen Leitfaden zur Nutzung der leistungsstarken Aspose.Cel
 Bevor wir mit dem Programmieren beginnen, sollten Sie sicherstellen, dass Sie alles haben, was Sie für den Anfang brauchen. Folgendes sollten Sie zur Hand haben:
 
 1. Visual Studio: Stellen Sie sicher, dass Visual Studio auf Ihrem Computer installiert ist. Dies ist Ihr zentraler Knotenpunkt für alle Entwicklungsarbeiten.
-2. Aspose.Cells für .NET: Sie müssen die Aspose.Cells-Bibliothek herunterladen und zu Ihrem Projekt hinzufügen. Sie können sie ganz einfach von der[Aspose-Website](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells für .NET: Sie müssen die Aspose.Cells-Bibliothek herunterladen und zu Ihrem Projekt hinzufügen. Sie können sie ganz einfach von der[Aspose-Website](https://releases.aspose.com/cells/net/).
 3. Grundlegende C#-Kenntnisse: Kenntnisse in der C#-Programmierung sind eine große Hilfe. Wenn Sie mit Variablen, Schleifen und grundlegender Datei-E/A umgehen können, sind Sie sofort zu Hause.
 4. .NET Framework: Stellen Sie sicher, dass Ihr Projekt mit der entsprechenden .NET Framework-Version eingerichtet ist, da die Bibliothek auf Kompatibilität innerhalb dieses Ökosystems ausgelegt ist.
 
@@ -69,7 +69,7 @@ Legen wir nun die Parameter fest, um Ihr Arbeitsblatt auf bestimmte Seiten aufzu
 ```csharp
 // Festlegen der Seitenanzahl, auf die sich die Länge des Arbeitsblatts erstreckt
 worksheet.PageSetup.FitToPagesTall = 1;
-// Festlegen der Seitenanzahl, auf die sich die Breite des Arbeitsblatts erstreckt
+//Festlegen der Seitenanzahl, auf die sich die Breite des Arbeitsblatts erstreckt
 worksheet.PageSetup.FitToPagesWide = 1;
 ```
 

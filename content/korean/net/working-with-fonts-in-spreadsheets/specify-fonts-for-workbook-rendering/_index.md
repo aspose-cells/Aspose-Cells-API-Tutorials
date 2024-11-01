@@ -12,7 +12,7 @@ Excel 파일을 프로그래밍 방식으로 관리하고 렌더링하는 데 �
 ## 필수 조건
 Aspose.Cells의 흥미진진한 세계와 글꼴 사용자 정의에 뛰어들기 전에 시작하는 데 필요한 모든 것이 있는지 확인해 보겠습니다.
 1. .NET에 대한 기본 지식: .NET 환경에서 작업하게 되므로 .NET 프로그래밍에 대한 지식이 매우 중요합니다.
-2.  .NET용 Aspose.Cells: Aspose.Cells 라이브러리가 설치되어 있는지 확인하세요. 다운로드할 수 있습니다.[여기](https://releases.aspose.com/cells/net/).
+2. .NET용 Aspose.Cells: Aspose.Cells 라이브러리가 설치되어 있는지 확인하세요. 다운로드할 수 있습니다.[여기](https://releases.aspose.com/cells/net/).
 3. Visual Studio: 이 가이드에서는 Visual Studio를 IDE로 사용한다고 가정합니다. 설치하고 설정했는지 확인하세요.
 4. 샘플 Excel 파일: 이 튜토리얼을 위해 샘플 Excel 파일을 준비하세요. 이렇게 하면 사용자 지정 글꼴이 렌더링 출력에 어떤 영향을 미치는지 더 쉽게 이해할 수 있습니다.
 5. 사용자 정의 글꼴: 사용하고 싶은 사용자 정의 글꼴의 디렉토리를 준비합니다. 이것은 렌더링 프로세스를 테스트하는 데 필수적입니다.
@@ -41,7 +41,7 @@ string outputDir = "Your Document Directory";
 string customFontsDir = sourceDir + "CustomFonts";
 ```
 
-중요한 문서(이 경우 Excel 파일)로 가득 찬 서류 보관 캐비닛이 있다고 상상해 보세요. 디렉토리를 설정하는 것은 캐비닛을 구성하는 것과 같습니다. 파일이 정확히 어디에 저장되어 있는지 알 수 있습니다. 정의하여`sourceDir`, `outputDir` , 그리고`customFontsDir`코드를 더 깔끔하고 관리하기 쉽게 만들어 주는 작업 공간을 준비하게 됩니다.
+ 중요한 문서(이 경우 Excel 파일)로 가득 찬 서류 보관 캐비닛이 있다고 상상해 보세요. 디렉토리를 설정하는 것은 캐비닛을 구성하는 것과 같습니다. 파일이 정확히 어디에 저장되어 있는지 알 수 있습니다. 정의하여`sourceDir`, `outputDir` , 그리고`customFontsDir`코드를 더 깔끔하고 관리하기 쉽게 만들어 주는 작업 공간을 준비하게 됩니다.
 ## 2단계: 개별 글꼴 구성 지정
 다음으로 개별 글꼴 구성을 만들어야 합니다. 이 단계는 Aspose.Cells에 사용자 정의 글꼴을 찾을 위치를 알려주는 데 중요합니다.
 ```csharp
@@ -49,7 +49,7 @@ string customFontsDir = sourceDir + "CustomFonts";
 IndividualFontConfigs fontConfigs = new IndividualFontConfigs();
 fontConfigs.SetFontFolder(customFontsDir, false);
 ```
- 이 단계는 특정 커피숍을 찾고 있는 친구에게 길을 안내하는 것으로 생각하세요.`customFontsDir`, Aspose.Cells를 글꼴의 정확한 위치로 가리키고 있습니다. 방향이 잘못되었거나 글꼴이 없는 경우 만족스럽지 않은 PDF 출력이 나올 수 있습니다. 따라서 글꼴 디렉토리가 정확한지 확인하세요!
+ 이 단계는 특정 커피숍을 찾고 있는 친구에게 길을 안내하는 것으로 생각하세요.`customFontsDir`Aspose.Cells를 글꼴의 정확한 위치로 가리키고 있습니다. 방향이 잘못되었거나 글꼴이 없는 경우 만족스럽지 않은 PDF 출력이 나올 수 있습니다. 따라서 글꼴 디렉토리가 정확한지 확인하세요!
 ## 3단계: 로드 옵션 설정
 이제 통합 문서에 글꼴 설정을 통합하는 로드 옵션을 정의할 차례입니다.
 ```csharp
@@ -64,11 +64,11 @@ opts.FontConfigs = fontConfigs;
 // 개별 글꼴 구성이 포함된 샘플 Excel 파일을 로드합니다.
 Workbook wb = new Workbook(sourceDir + "sampleSpecifyIndividualOrPrivateSetOfFontsForWorkbookRendering.xlsx", opts);
 ```
- 이 단계는 좋아하는 책을 여는 것과 비슷합니다. 여기서 Aspose.Cells에 어떤 Excel 파일을 사용할지 알려줍니다.`Workbook` 클래스와 지정된 로드 옵션을 사용하면 기본적으로 표지를 열고 내용을 살펴보고 변경할 준비를 하는 것입니다.
+ 이 단계는 좋아하는 책을 여는 것과 비슷합니다. 여기서 Aspose.Cells에 어떤 Excel 파일을 사용할지 알려줍니다.`Workbook`클래스와 지정된 로드 옵션을 사용하면 기본적으로 표지를 열고 내용을 살펴보고 변경할 준비를 하는 것입니다.
 ## 5단계: 원하는 형식으로 통합 문서 저장
 마지막으로, 수정된 통합 문서를 원하는 형식(이 경우 PDF)으로 저장할 때입니다.
 ```csharp
-//PDF 형식으로 저장합니다.
+// PDF 형식으로 저장합니다.
 wb.Save(outputDir + "outputSpecifyIndividualOrPrivateSetOfFontsForWorkbookRendering.pdf", SaveFormat.Pdf);
 ```
 이것은 책을 읽은 후 다시 선반에 올려놓는 것과 같지만, 이제는 다른 형식입니다. 통합 문서를 PDF 형식으로 저장하면 지정된 글꼴을 그대로 유지한 채 렌더링이 수행되어 보기 좋고 전문적으로 보이게 됩니다.

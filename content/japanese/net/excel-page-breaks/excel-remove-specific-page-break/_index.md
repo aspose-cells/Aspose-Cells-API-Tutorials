@@ -117,4 +117,4 @@ workbook.Save(dataDir + "RemoveSpecificPageBreak_out.xls");
 もちろんです！インデックス番号を変更するだけです`workbook.Worksheets[index]`目的のワークシートをターゲットにします。
 
 ### Aspose.Cells は無料のツールですか?  
- Aspose.Cellsは無料トライアルを提供していますが、フル機能を使用するにはライセンスを購入する必要があります。[ここ](https://purchase.aspose.com/buy).
+Aspose.Cellsは無料トライアルを提供していますが、フル機能を使用するにはライセンスを購入する必要があります。[ここ](https://purchase.aspose.com/buy).

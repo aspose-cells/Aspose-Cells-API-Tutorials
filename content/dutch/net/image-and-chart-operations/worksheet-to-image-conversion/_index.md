@@ -58,7 +58,7 @@ Nu we de werkmap geopend hebben, gaan we naar het eerste werkblad:
 // Pak het eerste werkblad.
 Worksheet sheet = book.Worksheets[0];
 ```
- Hier halen we het eerste werkblad op (index`0` ) uit de werkmap. Aspose.Cells-arrays zijn nul-geïndexeerd, wat betekent dat het eerste werkblad`0`.
+ Hier halen we het eerste werkblad op (index`0` uit de werkmap. Aspose.Cells-arrays zijn nul-geïndexeerd, wat betekent dat het eerste werkblad`0`.
 ## Stap 6: Definieer afbeeldings- of afdrukopties
  Voordat we de afbeelding renderen, moeten we aangeven hoe we willen dat deze eruitziet met behulp van`ImageOrPrintOptions`:
 ```csharp
@@ -73,7 +73,7 @@ imgOptions.OnePagePerSheet = true;
 ## Stap 7: Het werkblad renderen
 Nu de opties zijn ingevuld, kunnen we het werkblad weergeven:
 ```csharp
-// Render het werkblad met betrekking tot de opgegeven afbeeldings-/afdrukopties
+// Render het blad met betrekking tot de opgegeven afbeeldings-/afdrukopties
 SheetRender sr = new SheetRender(sheet, imgOptions);
 // Render de afbeelding voor het blad
 Bitmap bitmap = sr.ToImage(0);
@@ -82,7 +82,7 @@ Bitmap bitmap = sr.ToImage(0);
 ## Stap 8: De afbeelding opslaan
 Na het renderen moeten we de afbeelding opslaan in de opgegeven directory:
 ```csharp
-// Sla het afbeeldingsbestand op en geef daarbij het afbeeldingsformaat op.
+//Sla het afbeeldingsbestand op en geef daarbij het afbeeldingsformaat op.
 bitmap.Save(dataDir + "SheetImage.out.jpg");
 ```
  Hier slaan we de bitmapafbeelding op die we hebben gegenereerd. Deze regel schrijft de afbeelding naar de`dataDir` locatie met de bestandsnaam`SheetImage.out.jpg`.
@@ -99,7 +99,7 @@ En daar heb je het! In slechts een paar eenvoudige stappen heb je geleerd hoe je
 ### Wat is Aspose.Cells?
 Aspose.Cells is een .NET-bibliotheek waarmee ontwikkelaars programmatisch Excel-bestanden kunnen maken, bewerken, converteren en verwerken.
 ### Kan ik Aspose.Cells gratis gebruiken?
-Ja, u kunt Aspose.Cells gaan gebruiken door een gratis proefversie te downloaden van hun website.[website](https://releases.aspose.com/).
+ Ja, u kunt Aspose.Cells gaan gebruiken door een gratis proefversie te downloaden van hun website.[website](https://releases.aspose.com/).
 ### Welke afbeeldingsformaten ondersteunt Aspose.Cells voor export?
 Aspose.Cells ondersteunt verschillende afbeeldingsformaten, waaronder JPEG, PNG, BMP en GIF.
 ### Waar kan ik aanvullende ondersteuning voor Aspose.Cells vinden?

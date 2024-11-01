@@ -2,7 +2,7 @@
 title: Speciális műveletek elnevezett tartományokkal az Excelben
 linktitle: Speciális műveletek elnevezett tartományokkal az Excelben
 second_title: Aspose.Cells .NET Excel Processing API
-description: .NET-hez készült Aspose.Cellsben rejlő lehetőségek kiaknázása a speciális műveletekről, például az elnevezett tartományokról, a cellaazonosításról és a dinamikus jelentésekhez szükséges cellák egyesítéséről szóló oktatóanyagokkal.
+description: A .NET-hez készült Aspose.Cellsben rejlő lehetőségek kiaknázása a speciális műveletekről, például az elnevezett tartományokról, a cellaazonosításról és a dinamikus jelentésekhez szükséges cellák egyesítéséről szóló oktatóanyagokkal.
 type: docs
 weight: 24
 url: /hu/net/excel-advanced-named-ranges/

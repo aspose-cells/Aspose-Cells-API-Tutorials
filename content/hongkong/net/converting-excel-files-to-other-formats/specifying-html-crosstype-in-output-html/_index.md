@@ -75,7 +75,7 @@ Console.WriteLine("SpecifyHtmlCrossTypeInOutputHTML executed successfully.\r\n")
 ```
 這會讓您知道該過程已完成，沒有任何錯誤。
 ## 結論
-現在你就得到它了！您已使用 Aspose.Cells 成功為 .NET 中的 Excel 匯出指定了 HTML 交叉類型。當您需要在 HTML 輸出中維護特定格式或引用時，此功能特別有用，以確保轉換後的文件符合您的要求。
+現在你就擁有了！您已使用 Aspose.Cells 成功為 .NET 中的 Excel 匯出指定了 HTML 交叉類型。當您需要在 HTML 輸出中維護特定格式或引用時，此功能特別有用，以確保轉換後的文件符合您的要求。
 ## 常見問題解答
 ### Aspose.Cells 中的 HtmlCrossType 是什麼？  
 HtmlCrossType 定義在 HTML 轉換期間如何處理 Excel 檔案中的交叉引用。您可以選擇「預設」、「MSExport」、「交叉」和「FitToCell」等選項。

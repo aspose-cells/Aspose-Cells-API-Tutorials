@@ -2,7 +2,7 @@
 title: Funkcje tekstowe programu Excel wyjaśnione
 linktitle: Funkcje tekstowe programu Excel wyjaśnione
 second_title: Aspose.Cells Java Excel Processing API
-description: Odkryj sekrety funkcji tekstowych programu Excel dzięki Aspose.Cells dla Javy. Naucz się manipulować, wyodrębniać i przekształcać tekst w programie Excel bez wysiłku.
+description: Odkryj sekrety funkcji tekstowych Excela dzięki Aspose.Cells dla Java. Naucz się manipulować, wyodrębniać i przekształcać tekst w Excelu bez wysiłku.
 type: docs
 weight: 18
 url: /pl/java/basic-excel-functions/excel-text-functions-demystified/
@@ -66,7 +66,7 @@ Komórka B2 będzie zawierała słowo „Excel”, a komórka C2 będzie zawiera
  Ten`LEN` funkcja zlicza liczbę znaków w ciągu tekstowym. Zobaczmy, jak używać jej z Aspose.Cells dla Java:
 
 ```java
-// Kod Java do liczenia znaków przy użyciu Aspose.Cells
+// Kod Java do zliczania znaków za pomocą Aspose.Cells
 Cell cell = worksheet.getCells().get("A3");
 cell.putValue("Excel");
 

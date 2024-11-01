@@ -100,7 +100,7 @@ Workbook workbook = new Workbook(sourceDir + "sampleModifyPieChart.xlsx");
 Worksheet sheet = workbook.Worksheets[1];
 ```
 
- Με την πρόσβαση στο`Worksheets`συλλογή, μπορούμε να φτάσουμε στο συγκεκριμένο φύλλο που χρειαζόμαστε.
+ Με την πρόσβαση στο`Worksheets` συλλογή, μπορούμε να φτάσουμε στο συγκεκριμένο φύλλο που χρειαζόμαστε.
 
 ## Βήμα 4: Λάβετε το γράφημα
 

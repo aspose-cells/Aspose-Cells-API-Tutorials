@@ -17,7 +17,7 @@ Sei stanco di lottare con la gestione dei file Excel? Se hai mai affrontato la s
 
 ## Aggiunta di firme digitali
 
-Hai mai avuto bisogno di aggiungere una firma digitale a un file Excel firmato? Scopri come farlo con la nostra guida su[Aggiungere la firma digitale a un file Excel già firmato](./add-digital-signature-to-an-already-signed-excel-file/)Le firme digitali garantiscono autenticità e integrità, rendendo i file Excel non solo funzionali ma anche sicuri.
+ Hai mai avuto bisogno di aggiungere una firma digitale a un file Excel firmato? Scopri come farlo con la nostra guida su[Aggiungere la firma digitale a un file Excel già firmato](./add-digital-signature-to-an-already-signed-excel-file/)Le firme digitali garantiscono autenticità e integrità, rendendo i file Excel non solo funzionali ma anche sicuri.
 
 ## Creazione di cartelle di lavoro condivise
 
@@ -37,7 +37,7 @@ Hai mai avuto bisogno di aggiungere una firma digitale a un file Excel firmato? 
 
 ## Aumentare la produttività con Regex
 
-Sei un fan delle espressioni regolari? Se non lo sei, potresti volerlo diventare! Le espressioni regolari possono semplificare notevolmente i tuoi compiti, specialmente quando lavori con grandi set di dati in Excel. Il nostro tutorial su[Sostituisci espressione regolare](./regex-replace/) ti insegna a implementare funzioni di sostituzione delle espressioni regolari nei tuoi fogli di calcolo, consentendoti di aumentare sia la produttività che la precisione.
+ Sei un fan delle espressioni regolari? Se non lo sei, potresti volerlo diventare! Le espressioni regolari possono semplificare notevolmente i tuoi compiti, specialmente quando lavori con grandi set di dati in Excel. Il nostro tutorial su[Sostituisci espressione regolare](./regex-replace/) ti insegna a implementare funzioni di sostituzione delle espressioni regolari nei tuoi fogli di calcolo, consentendoti di aumentare sia la produttività che la precisione.
 
 ## Aggiornamento degli elementi di Power Query
 
@@ -45,11 +45,11 @@ Sei un fan delle espressioni regolari? Se non lo sei, potresti volerlo diventare
 
 ## Gestione delle anteprime di stampa
 
-Ogni tanto, hai bisogno di presentare i tuoi dati nel modo più professionale possibile. Imparare a creare anteprime di stampa può essere un'abilità fondamentale. Nel nostro tutorial su[Anteprima di stampa del quaderno di lavoro](./workbook-print-preview/), scoprirai come formattare correttamente i tuoi dati prima di premere stampa. Questo processo può salvarti da errori imbarazzanti e garantire che i tuoi report siano belli sulla carta come sullo schermo.
+ Ogni tanto, hai bisogno di presentare i tuoi dati nel modo più professionale possibile. Imparare a creare anteprime di stampa può essere un'abilità fondamentale. Nel nostro tutorial su[Anteprima di stampa del quaderno di lavoro](./workbook-print-preview/), scoprirai come formattare correttamente i tuoi dati prima di premere stampa. Questo processo può salvarti da errori imbarazzanti e garantire che i tuoi report siano belli sulla carta come sullo schermo.
 
 ## Lavorare con nomi definiti
 
- I nomi definiti nei tuoi fogli Excel possono essere un modo pratico per gestire i tuoi dati. Rendono le formule più corte e comprensibili. Se stai cercando di filtrare i nomi definiti durante il caricamento di una cartella di lavoro, il nostro tutorial su[Filtra i nomi definiti durante il caricamento della cartella di lavoro](./filter-defined-names-while-loading-workbook/) fornisce tutti i passaggi necessari per fare proprio questo. Questa funzionalità ti consente di personalizzare il caricamento della tua cartella di lavoro, migliorando l'efficienza e l'organizzazione.
+ nomi definiti nei tuoi fogli Excel possono essere un modo pratico per gestire i tuoi dati. Rendono le formule più corte e comprensibili. Se stai cercando di filtrare i nomi definiti durante il caricamento di una cartella di lavoro, il nostro tutorial su[Filtra i nomi definiti durante il caricamento della cartella di lavoro](./filter-defined-names-while-loading-workbook/) fornisce tutti i passaggi necessari per fare proprio questo. Questa funzionalità ti consente di personalizzare il caricamento della tua cartella di lavoro, migliorando l'efficienza e l'organizzazione.
 
 ## Conclusione
 

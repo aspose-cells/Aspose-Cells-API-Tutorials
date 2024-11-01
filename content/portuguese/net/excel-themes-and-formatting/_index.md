@@ -13,15 +13,15 @@ Você está procurando levar suas habilidades de personalização do Excel para 
 
 ## Personalizando temas do Excel programaticamente
 
-Já desejou poder personalizar temas do Excel no nível do código? Com o Aspose.Cells para .NET, isso se torna moleza. Você pode modificar temas programaticamente para dar às suas planilhas um toque personalizado. Imagine poder aplicar o esquema de cores da sua marca em vários arquivos do Excel automaticamente! As possibilidades são infinitas. Se quiser se aprofundar em como fazer isso, confira o guia completo aqui:[Personalizando temas do Excel programaticamente](./customizing-excel-themes/).
+ Já desejou poder personalizar temas do Excel no nível do código? Com o Aspose.Cells para .NET, isso se torna moleza. Você pode modificar temas programaticamente para dar às suas planilhas um toque personalizado. Imagine poder aplicar o esquema de cores da sua marca em vários arquivos do Excel automaticamente! As possibilidades são infinitas. Se quiser se aprofundar em como fazer isso, confira o guia completo aqui:[Personalizando temas do Excel programaticamente](./customizing-excel-themes/).
 
 ## Obtendo e definindo cores de tema no Excel
 
- A seguir, uma das tarefas mais comuns ao lidar com temas do Excel é obter e definir cores de tema. Usando o Aspose.Cells para .NET, você pode recuperar cores de tema e até mesmo modificá-las para atender às suas preferências. Essa funcionalidade é particularmente útil ao trabalhar com modelos predefinidos ou garantir consistência em seus relatórios. Quer saber como implementar isso? Vá para o tutorial completo:[Obtendo e definindo cores de tema no Excel](./getting-and-setting-theme-colors/).
+ seguir, uma das tarefas mais comuns ao lidar com temas do Excel é obter e definir cores de tema. Usando o Aspose.Cells para .NET, você pode recuperar cores de tema e até mesmo modificá-las para atender às suas preferências. Essa funcionalidade é particularmente útil ao trabalhar com modelos predefinidos ou garantir consistência em seus relatórios. Quer saber como implementar isso? Vá para o tutorial completo:[Obtendo e definindo cores de tema no Excel](./getting-and-setting-theme-colors/).
 
 ## Utilizando cores de tema no Excel programaticamente
 
-Por fim, aplicar cores de tema programaticamente é uma ótima maneira de garantir uniformidade nos designs de suas planilhas. O Aspose.Cells para .NET torna esse processo suave e eficiente. Não importa se você está automatizando relatórios ou gerando planilhas rapidamente, este tutorial o guiará passo a passo sobre como utilizar cores de tema efetivamente no Excel. Explore mais sobre este tópico aqui:[Utilizando cores de tema no Excel programaticamente](./utilizing-theme-colors/).
+ Por fim, aplicar cores de tema programaticamente é uma ótima maneira de garantir uniformidade nos designs de suas planilhas. O Aspose.Cells para .NET torna esse processo suave e eficiente. Não importa se você está automatizando relatórios ou gerando planilhas rapidamente, este tutorial o guiará passo a passo sobre como utilizar cores de tema efetivamente no Excel. Explore mais sobre este tópico aqui:[Utilizando cores de tema no Excel programaticamente](./utilizing-theme-colors/).
 
 ## Tutoriais de temas e formatação do Excel
 ### [Personalizando temas do Excel programaticamente](./customizing-excel-themes/)

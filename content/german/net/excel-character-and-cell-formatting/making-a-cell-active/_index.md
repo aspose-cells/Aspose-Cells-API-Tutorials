@@ -17,7 +17,7 @@ Bevor wir uns in den Code stürzen, stellen wir sicher, dass Sie alles haben, wa
 4. Zugriff auf einen Arbeitsbereich: Stellen Sie sicher, dass Sie einen Ordner haben, in dem Sie Ihre Excel-Dateien speichern können. Sie müssen im Code den richtigen Pfad für Ihr Dokumentverzeichnis festlegen.
 Nachdem wir nun unsere Voraussetzungen abgedeckt haben, importieren wir die erforderlichen Pakete.
 ## Pakete importieren
-Um Aspose.Cells in Ihrem Projekt zu verwenden, müssen Sie die Bibliothek am Anfang Ihrer C#-Datei einbinden. So geht's:
+Um Aspose.Cells in Ihrem Projekt verwenden zu können, müssen Sie die Bibliothek am Anfang Ihrer C#-Datei einbinden. So geht's:
 ```csharp
 using System.IO;
 using Aspose.Cells;

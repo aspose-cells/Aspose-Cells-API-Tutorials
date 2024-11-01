@@ -99,7 +99,7 @@ Denna kodrad säkerställer att den första serien i diagrammet är inställd p�
  Nu när vår serie är klar måste vi ändra dess färg. Detta innebär att skapa en`CellsColor` objekt och ange en temafärg. Vi väljer en accentstil för det här exemplet.
 
 ```csharp
-// Skaffa CellsColor av SolidFill
+//Skaffa CellsColor av SolidFill
 CellsColor cc = chart.NSeries[0].Area.FillFormat.SolidFill.CellsColor;
 
 // Skapa ett tema i accentstil
@@ -158,7 +158,7 @@ Aspose.Cells är ett kraftfullt bibliotek för .NET som tillåter utvecklare att
 Aspose.Cells stöder olika temafärger inklusive accentstilar och andra.
 
 ### Är det möjligt att tillämpa teman på flera diagram?
- Absolut! Du kan gå igenom`worksheet.Charts` och tillämpa teman efter behov.
+Absolut! Du kan gå igenom`worksheet.Charts` och tillämpa teman efter behov.
 
 ### Var kan jag få support för Aspose.Cells?
  Du kan få stöd och engagera dig i en gemenskap av användare[här](https://forum.aspose.com/c/cells/9).

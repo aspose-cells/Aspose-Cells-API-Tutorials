@@ -8,7 +8,7 @@ weight: 11
 url: /nl/net/formatting-rows-and-columns-in-excel/applying-formatting-to-an-excel-row/
 ---
 ## Invoering
-In deze tutorial laten we zien hoe je opmaak op een Excel-rij programmatisch toepast met Aspose.Cells voor .NET. We behandelen alles van het instellen van de omgeving tot het toepassen van verschillende opmaakopties zoals lettertypekleur, uitlijning en randen, terwijl we het simpel en boeiend houden. Laten we erin duiken!
+In deze tutorial laten we zien hoe je opmaak op een Excel-rij programmatisch toepast met Aspose.Cells voor .NET. We behandelen alles van het instellen van de omgeving tot het toepassen van verschillende opmaakopties zoals lettertypekleur, uitlijning en randen, terwijl we het simpel en boeiend houden. Laten we beginnen!
 ## Vereisten
 Voordat we beginnen, zorgen we ervoor dat je alles hebt wat je nodig hebt om deze tutorial te volgen. Dit heb je nodig:
 1.  Aspose.Cells voor .NET-bibliotheek – U kunt het downloaden van de[Aspose.Cells voor .NET downloadpagina](https://releases.aspose.com/cells/net/).

@@ -125,7 +125,7 @@ Console.WriteLine("Level 9 Elapsed Time: " + elapsedMs);
 Console.WriteLine("AdjustCompressionLevel executed successfully.");
 ```
 
-يؤكد هذا السطر أن العملية برمتها قد اكتملت دون مشاكل.
+يؤكد هذا السطر أن العملية بأكملها قد اكتملت دون مشاكل.
 
 ## خاتمة
 

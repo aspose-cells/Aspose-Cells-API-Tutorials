@@ -183,7 +183,7 @@ diagramok programozott létrehozása az Excelben ijesztőnek tűnhet, de az Aspo
 ## GYIK
 
 ### Testreszabhatom a diagramot tovább?  
-Teljesen! Az Aspose.Cells rengeteg testreszabási lehetőséget kínál, a betűtípusoktól a rácsvonalakig és így tovább.
+Teljesen! Az Aspose.Cells rengeteg testreszabási lehetőséget kínál, a betűtípusoktól a rácsvonalakig és egyebekig.
 
 ### Szükségem van engedélyre az Aspose.Cells használatához?  
  Igen, a teljes funkcionalitáshoz licenc szükséges. Kaphatsz a[ideiglenes engedély](https://purchase.aspose.com/temporary-license/) vagy kezdje a-val[ingyenes próbaverzió](https://releases.aspose.com/).

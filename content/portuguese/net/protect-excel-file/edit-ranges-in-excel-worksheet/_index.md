@@ -128,7 +128,7 @@ Finalmente chegamos ao último passo do nosso tutorial: salvar a pasta de trabal
 book.Save(dataDir + "protectedrange.out.xls");
 ```
 
- Isso salvará sua pasta de trabalho protegida como`protectedrange.out.xls` no diretório especificado.
+Isso salvará sua pasta de trabalho protegida como`protectedrange.out.xls` no diretório especificado.
 
 ## Conclusão
 

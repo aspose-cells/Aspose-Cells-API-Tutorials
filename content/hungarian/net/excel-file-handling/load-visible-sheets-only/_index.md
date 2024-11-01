@@ -1,6 +1,6 @@
 ---
-title: Csak a látható lapok betöltése Excel fájlból
-linktitle: Csak a látható lapok betöltése Excel fájlból
+title: Csak látható lapok betöltése Excel fájlból
+linktitle: Csak látható lapok betöltése Excel fájlból
 second_title: Aspose.Cells .NET Excel Processing API
 description: Ebből a lépésenkénti útmutatóból megtudhatja, hogyan tölthet be csak látható lapokat Excel-fájlokból az Aspose.Cells for .NET segítségével.
 type: docs
@@ -98,7 +98,7 @@ Igen, egyszerűen módosíthatja a feltételeket az egyéni betöltési szűrőb
 ### Mire használható az Aspose.Cells?
 Az Aspose.Cells az Excel-fájlok kezeléséhez használható anélkül, hogy telepíteni kellene a Microsoft Excelt, és olyan funkciókat kínál, mint az olvasás, az írás és az Excel-munkalapok kezelése.
 ### Létezik az Aspose.Cells próbaverziója?
- Igen, megteheti[ingyenes próbaverzió letöltése](https://releases.aspose.com/) hogy tesztelje a tulajdonságait.
+ Igen, megteheti[tölts le egy ingyenes próbaverziót](https://releases.aspose.com/) hogy tesztelje a tulajdonságait.
 ### Hol találom az Aspose.Cells dokumentációját?
  A[dokumentáció](https://reference.aspose.com/cells/net/) átfogó tájékoztatást nyújt az összes funkcióról.
 ### Hogyan vásárolhatom meg az Aspose.Cells-t?

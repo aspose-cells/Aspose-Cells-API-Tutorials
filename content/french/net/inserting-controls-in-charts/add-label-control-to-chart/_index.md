@@ -16,7 +16,7 @@ Les graphiques sont un moyen efficace de visualiser les données, et parfois, l'
 Avant de plonger dans le vif du sujet, voyons ce dont vous avez besoin pour commencer :
 
 - Connaissances de base de C# : il est essentiel de comprendre les bases de la programmation C#. Si vous êtes débutant, ne vous inquiétez pas, les étapes seront claires et concises.
--  Bibliothèque Aspose.Cells : assurez-vous que la bibliothèque Aspose.Cells est installée. Vous pouvez le faire via le gestionnaire de packages NuGet dans Visual Studio. Si vous ne l'avez pas déjà fait, consultez le[lien de téléchargement](https://releases.aspose.com/cells/net/) pour la bibliothèque.
+- Bibliothèque Aspose.Cells : assurez-vous que la bibliothèque Aspose.Cells est installée. Vous pouvez le faire via le gestionnaire de packages NuGet dans Visual Studio. Si vous ne l'avez pas déjà fait, consultez le[lien de téléchargement](https://releases.aspose.com/cells/net/) pour la bibliothèque.
 - Visual Studio : vous aurez besoin d’un environnement de développement intégré (IDE) comme Visual Studio pour écrire et exécuter votre code.
 
 ## Paquets d'importation
@@ -35,7 +35,7 @@ using Aspose.Cells;
 using System.Drawing;
 ```
 
-C’est comme ouvrir la boîte à outils avant de commencer à réparer ce robinet : vos outils doivent être accessibles !
+C’est comme ouvrir la boîte à outils avant de commencer à réparer ce robinet : vous devez avoir vos outils à portée de main !
 
 Maintenant que vous êtes prêt, retroussons nos manches et passons aux choses sérieuses. Nous allons passer en revue chaque étape nécessaire pour ajouter une étiquette à votre graphique.
 

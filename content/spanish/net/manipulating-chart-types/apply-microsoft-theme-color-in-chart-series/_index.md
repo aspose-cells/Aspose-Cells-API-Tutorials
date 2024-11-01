@@ -101,7 +101,7 @@ Esto es análogo a decidir el aspecto y la sensación de una habitación antes d
 A continuación, tendremos que definir el color del área de relleno del gráfico. De esta manera, le damos vida al color elegido.
 
 ```csharp
-// Obtener el color de celda de SolidFill
+//Obtener el color de celda de SolidFill
 CellsColor cc = chart.NSeries[0].Area.FillFormat.SolidFill.CellsColor;
 ```
 

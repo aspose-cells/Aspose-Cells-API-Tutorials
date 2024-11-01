@@ -88,7 +88,7 @@ Most itt az ideje az igazi varázslatnak! Létrehozzuk a munkafüzet nyomtatási
 WorkbookPrintingPreview preview = new WorkbookPrintingPreview(workbook, imgOptions);
 ```
 
-Jelenleg a teljes munkafüzetünk előnézetét készítjük. Tekintsd ezt úgy, mint amikor belekukkantod a könyved lapjait, mielőtt elkezdesz olvasni; áttekintést kapsz arról, hogy mi vár rád.
+Jelenleg a teljes munkafüzetünk előnézetét készítjük. Tekintsd ezt úgy, mint amikor belekukkantod a könyved lapjait, mielőtt elkezdesz olvasni; áttekintést kap arról, hogy mi vár ránk.
 
 ## 5. lépés: Értékelje az oldalszámot
 
@@ -123,7 +123,7 @@ Ez a vonal olyan, mint egy befejező simítás egy projekt befejezése után –
 
 ## Következtetés
 
-És megvan! Sikeresen beállította az Excel-munkafüzet nyomtatási előnézetét az Aspose.Cells for .NET segítségével. A csomagok importálásától kezdve a teljes munkafüzet és az egyes munkalapok oldalszámának kiértékeléséig mindenre kiterjedtünk. Elképesztő, milyen könnyű elképzelni, hogyan fog kinézni a munkafüzeted kinyomtatott állapotban, igaz? Az Aspose.Cells használatával hatékony eszközöket kaphat az Ön rendelkezésére. Akár tapasztalt fejlesztő, akár csak most kezdő, ez a könyvtár azt a rugalmasságot és funkcionalitást kínálja, amelyre szüksége van ahhoz, hogy Excel fájlkezelését a következő szintre emelje.
+És megvan! Sikeresen beállította az Excel-munkafüzet nyomtatási előnézetét az Aspose.Cells for .NET segítségével. A csomagok importálásától kezdve a teljes munkafüzet és az egyes munkalapok oldalszámának kiértékeléséig mindenre kiterjedtünk. Elképesztő, milyen könnyű elképzelni, hogyan fog kinézni a munkafüzeted kinyomtatott állapotban, igaz? Az Aspose.Cells használatával hatékony eszközöket kaphat az Ön rendelkezésére. Akár tapasztalt fejlesztő, akár csak most kezdő, ez a könyvtár biztosítja azt a rugalmasságot és funkcionalitást, amelyre szüksége van ahhoz, hogy Excel fájlkezelését a következő szintre emelje.
 
 ## GYIK
 

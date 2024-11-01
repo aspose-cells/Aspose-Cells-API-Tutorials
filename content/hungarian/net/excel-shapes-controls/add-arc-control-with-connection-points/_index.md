@@ -105,5 +105,5 @@ Az Aspose.Cells egy hatékony .NET-könyvtár, amely lehetővé teszi a fejleszt
 Az Aspose.Cells.Drawing névtérben elérhető különböző osztályokat használhatja különféle alakzatok, például téglalapok, körök és egyebek hozzáadásához.
 ### Milyen típusú fájlokat hozhatok létre az Aspose.Cells segítségével?
 Különféle Excel-formátumokat hozhat létre és kezelhet, beleértve az XLS-t, az XLSX-et, a CSV-t stb.
-### Rendelkezésre áll technikai támogatás az Aspose.Cells számára?
+### Elérhető technikai támogatás az Aspose.Cells számára?
  Teljesen! Hozzáférhet a[Aspose támogatási fórum](https://forum.aspose.com/c/cells/9) segítségért.

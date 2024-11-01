@@ -31,7 +31,7 @@ Bạn không cần phải là chuyên gia, nhưng việc hiểu biết cơ bản
 
  Đối với ví dụ của chúng tôi, hãy tạo một tệp Excel có tên`sampleIdentifyCellsInNamedRange.xlsx` và xác định một phạm vi được đặt tên, chẳng hạn`MyRangeThree`, bên trong nó. Điều này rất quan trọng vì mã ví dụ dựa vào phạm vi được đặt tên cụ thể này.
 
-Điều gì xảy ra nếu bạn không có phạm vi được đặt tên được xác định trước? Vâng, mã sẽ không thực thi như mong muốn, vì vậy hãy đảm bảo thiết lập điều đó trước.
+Điều gì xảy ra nếu bạn không có phạm vi tên được xác định trước? Vâng, mã sẽ không thực thi như mong muốn, vì vậy hãy đảm bảo thiết lập điều đó trước.
 
 ## Nhập gói
 

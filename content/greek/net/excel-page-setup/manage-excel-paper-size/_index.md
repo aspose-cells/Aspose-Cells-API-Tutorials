@@ -17,7 +17,7 @@ url: /el/net/excel-page-setup/manage-excel-paper-size/
 
 1. Βασική κατανόηση της C#: Η εξοικείωση με τον προγραμματισμό C# θα διευκολύνει σημαντικά τη διαδικασία ενσωμάτωσης των Aspose.Cells στα έργα σας.
 2. Εγκατεστημένο Visual Studio: Βεβαιωθείτε ότι έχετε εγκαταστήσει το Visual Studio στον υπολογιστή σας για να γράψετε και να εκτελέσετε κώδικα C#.
-3. Aspose.Cells για .NET Library: Θα χρειαστεί να αποκτήσετε το Aspose.Cells. Μπορείτε[κατεβάστε το εδώ](https://releases.aspose.com/cells/net/).
+3. Aspose.Cells για .NET Library: Θα χρειαστεί να αποκτήσετε το Aspose.Cells. Μπορείς[κατεβάστε το εδώ](https://releases.aspose.com/cells/net/).
 4. NuGet Package Manager: Βεβαιωθείτε ότι έχετε πρόσβαση στο NuGet Package Manager, καθώς μπορείτε εύκολα να εγκαταστήσετε το Aspose.Cells χρησιμοποιώντας το.
 
 Έχοντας αυτές τις προϋποθέσεις στο μυαλό, ας ξεκινήσουμε!

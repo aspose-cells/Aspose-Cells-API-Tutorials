@@ -95,7 +95,7 @@ W tym wierszu:
 
 ## Krok 5: Zapisywanie skoroszytu
 
-Udało się! Teraz czas zapisać zmodyfikowany skoroszyt, aby zmiany zostały zastosowane.
+Udało się! Teraz czas zapisać zmodyfikowany skoroszyt, aby zmiany zostały wprowadzone.
 
 ```csharp
 workbook.Save(outputDir + "RegexReplace_out.xlsx");

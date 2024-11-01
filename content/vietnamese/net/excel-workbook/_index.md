@@ -17,7 +17,7 @@ Bạn có mệt mỏi vì phải vật lộn với việc quản lý tệp Excel
 
 ## Thêm chữ ký số
 
-Bạn đã bao giờ cần thêm chữ ký số vào tệp Excel đã ký chưa? Khám phá cách thực hiện việc này với hướng dẫn của chúng tôi trên[Thêm chữ ký số vào tệp Excel đã ký](./add-digital-signature-to-an-already-signed-excel-file/)Chữ ký số đảm bảo tính xác thực và toàn vẹn, giúp tệp Excel của bạn không chỉ hoạt động được mà còn an toàn.
+ Bạn đã bao giờ cần thêm chữ ký số vào tệp Excel đã ký chưa? Khám phá cách thực hiện việc này với hướng dẫn của chúng tôi trên[Thêm chữ ký số vào tệp Excel đã ký](./add-digital-signature-to-an-already-signed-excel-file/)Chữ ký số đảm bảo tính xác thực và toàn vẹn, giúp tệp Excel của bạn không chỉ hoạt động được mà còn an toàn.
 
 ## Tạo sổ làm việc được chia sẻ
 
@@ -37,7 +37,7 @@ Bạn đã bao giờ cần thêm chữ ký số vào tệp Excel đã ký chưa?
 
 ## Tăng năng suất với Regex
 
-Bạn có phải là người hâm mộ regex không? Nếu không, bạn có thể muốn trở thành một người hâm mộ! Biểu thức chính quy có thể hợp lý hóa đáng kể các tác vụ của bạn, đặc biệt là khi làm việc với các tập dữ liệu lớn trong Excel. Hướng dẫn của chúng tôi về[Thay thế Regex](./regex-replace/) hướng dẫn bạn cách triển khai các hàm thay thế biểu thức chính quy trong bảng tính, giúp bạn tăng cường cả năng suất và độ chính xác.
+ Bạn có phải là người hâm mộ regex không? Nếu không, bạn có thể muốn trở thành một người hâm mộ! Biểu thức chính quy có thể hợp lý hóa đáng kể các tác vụ của bạn, đặc biệt là khi làm việc với các tập dữ liệu lớn trong Excel. Hướng dẫn của chúng tôi về[Thay thế Regex](./regex-replace/) hướng dẫn bạn cách triển khai các hàm thay thế biểu thức chính quy trong bảng tính, giúp bạn tăng cường cả năng suất và độ chính xác.
 
 ## Cập nhật các mục Power Query
 
@@ -45,11 +45,11 @@ Bạn có phải là người hâm mộ regex không? Nếu không, bạn có th
 
 ## Quản lý bản xem trước khi in
 
-Thỉnh thoảng, bạn cần trình bày dữ liệu của mình theo cách chuyên nghiệp nhất có thể. Học cách tạo bản xem trước khi in có thể là một kỹ năng quan trọng. Trong hướng dẫn của chúng tôi về[Bản xem trước khi in của sổ làm việc](./workbook-print-preview/), bạn sẽ khám phá cách định dạng dữ liệu của mình đúng cách trước khi nhấn in. Quá trình này có thể giúp bạn tránh khỏi những lỗi đáng xấu hổ và đảm bảo rằng báo cáo của bạn trông đẹp trên giấy cũng như trên màn hình.
+ Thỉnh thoảng, bạn cần trình bày dữ liệu của mình theo cách chuyên nghiệp nhất có thể. Học cách tạo bản xem trước khi in có thể là một kỹ năng quan trọng. Trong hướng dẫn của chúng tôi về[Bản xem trước khi in của sổ làm việc](./workbook-print-preview/), bạn sẽ khám phá cách định dạng dữ liệu của mình đúng cách trước khi nhấn in. Quá trình này có thể giúp bạn tránh khỏi những lỗi đáng xấu hổ và đảm bảo rằng báo cáo của bạn trông đẹp trên giấy cũng như trên màn hình.
 
 ## Làm việc với tên đã xác định
 
- Tên được xác định trong bảng tính Excel của bạn có thể là một cách tiện dụng để quản lý dữ liệu của bạn. Chúng làm cho các công thức ngắn hơn và dễ hiểu hơn. Nếu bạn đang muốn lọc các tên được xác định trong khi tải một bảng tính, hướng dẫn của chúng tôi về[Lọc tên được xác định trong khi tải sổ làm việc](./filter-defined-names-while-loading-workbook/) cung cấp tất cả các bước cần thiết để thực hiện điều đó. Tính năng này cho phép bạn tùy chỉnh cách tải sổ làm việc, cải thiện hiệu quả và tổ chức.
+Tên được xác định trong bảng tính Excel của bạn có thể là một cách tiện dụng để quản lý dữ liệu của bạn. Chúng làm cho các công thức ngắn hơn và dễ hiểu hơn. Nếu bạn đang muốn lọc các tên được xác định trong khi tải một bảng tính, hướng dẫn của chúng tôi về[Lọc tên được xác định trong khi tải sổ làm việc](./filter-defined-names-while-loading-workbook/) cung cấp tất cả các bước cần thiết để thực hiện điều đó. Tính năng này cho phép bạn tùy chỉnh cách tải sổ làm việc, cải thiện hiệu quả và tổ chức.
 
 ## Phần kết luận
 

@@ -83,7 +83,7 @@ Hier benaderen we het eerste werkblad in uw werkmap met behulp van de index (nul
 ## Stap 5: Schakel pagina-eindevoorbeeld in
 
 ```csharp
-// Het werkblad weergeven in pagina-eindevoorbeeld
+// Het werkblad weergeven in een pagina-eindevoorbeeld
 worksheet.IsPageBreakPreview = true;
 ```
 

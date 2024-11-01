@@ -75,7 +75,7 @@ workbook.Save(dataDir + "output.xls");
 
 ## 結論
 
-現在你就得到它了！您已成功使用 Aspose.Cells for .NET 在 Excel 電子表格中顯示選項卡。這是一項簡單的任務，但在自動化 Excel 操作時也非常有用。 Aspose.Cells 讓您可以完全控制 Excel 文件，而無需安裝 Microsoft Office。從控制標籤可見性到處理格式和公式等複雜任務，Aspose.Cells 只需幾行程式碼即可實現這一切。
+現在你就擁有了！您已成功使用 Aspose.Cells for .NET 在 Excel 電子表格中顯示選項卡。這是一項簡單的任務，但在自動化 Excel 操作時也非常有用。 Aspose.Cells 讓您可以完全控制 Excel 文件，而無需安裝 Microsoft Office。從控制標籤可見性到處理格式和公式等複雜任務，Aspose.Cells 只需幾行程式碼即可實現這一切。
 
 ## 常見問題解答
 

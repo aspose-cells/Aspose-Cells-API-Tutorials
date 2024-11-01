@@ -58,7 +58,7 @@ Tento fragment načte kontingenční tabulku z prvního listu. Je to jako najít
 // Zakázat pás karet pro tuto kontingenční tabulku
 pt.EnableWizard = false;
 ```
-Tento jediný řádek kódu zabraňuje uživatelům v interakci s rozhraním průvodce pro kontingenční tabulku, což poskytuje čistší prostředí při používání vašeho listu Excel.
+Tento jediný řádek kódu zabraňuje uživatelům v interakci s rozhraním průvodce pro kontingenční tabulku, což poskytuje čistší prostředí při používání vašeho listu aplikace Excel.
 ## Krok 6: Uložte upravený sešit
 Jakmile provedeme změny, je čas uložit aktualizovaný sešit. K tomu použijeme následující řádek kódu.
 ```csharp

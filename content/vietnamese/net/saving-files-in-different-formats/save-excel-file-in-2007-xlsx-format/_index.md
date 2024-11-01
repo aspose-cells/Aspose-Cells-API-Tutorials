@@ -12,7 +12,7 @@ Bạn đã bao giờ thấy mình vật lộn với các định dạng tệp Ex
 ## Điều kiện tiên quyết
 Trước khi đi sâu vào chi tiết, bạn cần phải có một số điều kiện tiên quyết sau:
 1. Visual Studio - Đảm bảo bạn đã cài đặt Visual Studio trên hệ thống của mình. Nó sẽ giúp bạn viết và thực thi mã C# một cách dễ dàng.
-2.  Thư viện Aspose.Cells - Bạn sẽ cần thư viện Aspose.Cells cho .NET. Bạn có thể dễ dàng tải xuống từ[Aspose Cells phát hành trang](https://releases.aspose.com/cells/net/).
+2. Thư viện Aspose.Cells - Bạn sẽ cần thư viện Aspose.Cells cho .NET. Bạn có thể dễ dàng tải xuống từ[Aspose Cells phát hành trang](https://releases.aspose.com/cells/net/).
 3. Kiến thức lập trình cơ bản - Một chút quen thuộc với C# và .NET sẽ giúp bạn hiểu rõ hơn về các đoạn mã chúng tôi sẽ đề cập.
 4. Thư mục tài liệu thử nghiệm - Tạo hoặc quyết định thư mục nơi bạn sẽ lưu và thử nghiệm các tệp Excel của mình. Đối với hướng dẫn này, chúng tôi sẽ gọi đó là "Thư mục tài liệu của bạn".
 Khi mọi thứ đã sẵn sàng, bạn đã sẵn sàng thể hiện kỹ năng của mình!

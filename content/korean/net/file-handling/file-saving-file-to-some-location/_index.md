@@ -12,7 +12,7 @@ url: /ko/net/file-handling/file-saving-file-to-some-location/
 ## 필수 조건
 코드로 넘어가기 전에, 원활하게 따라갈 수 있도록 필요한 모든 것을 준비하도록 하겠습니다. 필요한 것은 다음과 같습니다.
 1. Visual Studio: 컴퓨터에 Visual Studio가 설치되어 있는지 확인하세요. 여기서 .NET 애플리케이션을 작성하고 테스트할 것입니다.
-2. Aspose.Cells 라이브러리: Aspose.Cells 라이브러리를 다운로드해야 합니다. 최신 버전을 얻을 수 있습니다.[여기](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells 라이브러리: Aspose.Cells 라이브러리를 다운로드해야 합니다. 최신 버전을 얻을 수 있습니다.[여기](https://releases.aspose.com/cells/net/).
 3. .NET Framework: 일반적으로 .NET Framework 4.0 이상에서 작동하는 Aspose.Cells에 호환되는 .NET Framework 버전이 있는지 확인하세요.
 4. C#에 대한 기본 이해: C# 프로그래밍에 대한 기본적인 이해가 유익할 것입니다. 걱정하지 마세요. 모든 것을 단계별로 설명해 드리겠습니다!
 5.  파일 경로: 출력 파일을 저장할 위치를 결정합니다. 이름이 지정된 디렉토리를 만듭니다.`Your Document Directory` 단순성을 위해서.
@@ -47,9 +47,9 @@ Workbook workbook = new Workbook(filePath);
 // Excel 97–2003 형식으로 저장
 workbook.Save(dataDir + "output.xls");
 ```
- 이 줄은 다음을 사용하여 통합 문서를 저장합니다.`.xls`확장자는 2007년 이전 버전의 Excel 형식입니다. 우편 서비스를 통해 편지를 보내서 나이 많은 수신자에게 도달하도록 하는 것과 같습니다!
+ 이 줄은 다음을 사용하여 통합 문서를 저장합니다.`.xls` 확장자는 2007년 이전 버전의 Excel 형식입니다. 우편 서비스를 통해 편지를 보내서 나이 많은 수신자에게 도달하도록 하는 것과 같습니다!
 ## 4단계: Excel 2007 형식으로 저장
- Excel 2007 이상의 기능을 사용하려는 경우 저장`.xlsx` 형식이 최선의 방법입니다. 방법은 다음과 같습니다.
+Excel 2007 이상의 기능을 사용하려는 경우 저장`.xlsx` 형식이 최선의 방법입니다. 방법은 다음과 같습니다.
 ```csharp
 // Excel 2007 xlsx 형식으로 저장
 workbook.Save(dataDir + "output.xlsx");

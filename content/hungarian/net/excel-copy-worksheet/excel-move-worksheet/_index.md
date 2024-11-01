@@ -121,7 +121,7 @@ Az Aspose.Cells for .NET egy olyan könyvtár, amely az Excel-táblázatok progr
 Igen! Míg ez az útmutató a .NET-re összpontosít, az Aspose.Cells Java, Python és más nyelveken is elérhető.
 
 ### Létezik ingyenes próbaverzió az Aspose.Cells számára?
- Teljesen! Tudod[ingyenes próbaverzió letöltése](https://releases.aspose.com/) és fedezze fel jellemzőit.
+ Teljesen! Tudod[tölts le egy ingyenes próbaverziót](https://releases.aspose.com/) és fedezze fel jellemzőit.
 
 ### Hogyan kaphatok támogatást az Aspose.Cells-hez?
  Meglátogathatja a[Aspose támogatási fórum](https://forum.aspose.com/c/cells/9) kérdéseket feltenni és megoldásokat találni.

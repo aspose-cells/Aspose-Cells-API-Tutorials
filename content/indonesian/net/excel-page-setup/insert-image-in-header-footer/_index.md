@@ -41,7 +41,7 @@ Pertama, Anda perlu menentukan direktori tempat file dan gambar Excel berada. Pe
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // Perbarui sesuai kebutuhan
 ```
 
- Baris ini mengatur`dataDir` variabel, yang merupakan jalur dasar untuk menemukan gambar yang ingin Anda sisipkan ke dalam header.
+ Baris ini mengatur`dataDir`variabel, yang merupakan jalur dasar untuk menemukan gambar yang ingin Anda sisipkan ke dalam header.
 
 ## Langkah 2: Membuat Objek Buku Kerja
 
@@ -55,7 +55,7 @@ Workbook workbook = new Workbook();
 
 ## Langkah 3: Menentukan Jalur Gambar
 
-Saatnya membuat variabel string untuk menyimpan jalur ke gambar yang ingin Anda gunakan. Dalam kasus kami, kami menggunakan`aspose-logo.jpg`.
+ Saatnya membuat variabel string untuk menyimpan jalur ke gambar yang ingin Anda gunakan. Dalam kasus kami, kami menggunakan`aspose-logo.jpg`.
 
 ```csharp
 string logo_url = dataDir + "aspose-logo.jpg";

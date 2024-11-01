@@ -102,7 +102,7 @@ workbook.save("CountifExample.xlsx");
 
 ## Testowanie i weryfikacja wyników
 
-Otwórz wygenerowany plik Excel, aby sprawdzić wyniki funkcji COUNTIF. Powinieneś zobaczyć liczby na podstawie swoich kryteriów w określonych komórkach.
+Otwórz wygenerowany plik Excel, aby sprawdzić wyniki funkcji COUNTIF. Powinieneś zobaczyć liczbę na podstawie swoich kryteriów w określonych komórkach.
 
 ## Rozwiązywanie typowych problemów
 
@@ -114,7 +114,7 @@ Podczas korzystania z funkcji LICZ.JEŻELI należy wziąć pod uwagę najlepsze 
 
 1. Utrzymuj kryteria jasne i zwięzłe.
 2. Zawsze, gdy jest to możliwe, używaj odwołań do komórek jako kryteriów.
-3. Przed zastosowaniem formuł COUNTIF do dużych zbiorów danych przetestuj je na przykładowych danych.
+3. Przetestuj formuły COUNTIF na przykładowych danych przed zastosowaniem ich do dużych zbiorów danych.
 
 ## Zaawansowane funkcje i opcje
 

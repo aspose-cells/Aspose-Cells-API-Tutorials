@@ -53,7 +53,7 @@ Workbook workbook = new Workbook(dataDir + "Book1.xls");
 ```csharp
 // حدد نوع تشفير XOR.
 workbook.SetEncryptionOptions(EncryptionType.XOR, 40);
-// حدد نوع التشفير القوي (RC4، موفر التشفير القوي لـ Microsoft).
+//حدد نوع التشفير القوي (RC4، موفر التشفير القوي لـ Microsoft).
 workbook.SetEncryptionOptions(EncryptionType.StrongCryptographicProvider, 128);
 ```
 فكر في هذه الخيارات مثل نوع الأقفال التي قد تستخدمها - بعضها أقصر وأسهل في الاختيار (XOR)، في حين أن البعض الآخر أكثر تحديًا (مزود التشفير القوي).
@@ -68,7 +68,7 @@ workbook.Settings.Password = "1234";
 ```csharp
 workbook.Save(dataDir + "encryptedBook1.out.xls");
 ```
- يحفظ هذا السطر من التعليمات البرمجية المصنف باسم`encryptedBook1.out.xls`في الدليل المحدد. الأمر أشبه بإعادة الكتاب إلى الرف، مغلقًا بشكل آمن!
+ يحفظ هذا السطر من التعليمات البرمجية المصنف باسم`encryptedBook1.out.xls` في الدليل المحدد. الأمر أشبه بإعادة الكتاب إلى الرف، مغلقًا بشكل آمن!
 ## خاتمة
 والآن، لقد تعلمت للتو كيفية تشفير ملف Excel باستخدام Aspose.Cells في .NET. باتباع هذه الخطوات، يمكنك ضمان حماية بياناتك الحساسة بشكل جيد. تذكر فقط أن الحماية تبدأ منك، لذا اتخذ دائمًا الخطوات اللازمة لحماية معلوماتك. 
 ## الأسئلة الشائعة

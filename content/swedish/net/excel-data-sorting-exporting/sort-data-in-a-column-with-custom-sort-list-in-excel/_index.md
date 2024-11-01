@@ -100,7 +100,7 @@ wb.DataSorter.AddKey(0, SortOrder.Ascending, customSortList);
 wb.DataSorter.Sort(ws.Cells, ca);
 ```
 
-## Steg 7: Spara utdata Excel-filen
+## Steg 7: Spara Excel-filen
 
 När sorteringen är klar är det sista steget att spara ändringarna i en ny Excel-fil. Ange utdatafilens namn och spara arbetsboken.
 

@@ -29,7 +29,7 @@ Başlamak için Excel dosyamızın nerede bulunduğunu tanımlamamız gerekir. B
 ```csharp
 string dataDir = "Your Document Directory";
 ```
- Yer değiştirmek`"Your Document Directory"` gerçek yolunuzla`book1.xls`saklanır. Bu, programa üzerinde işlem yapacağımız Excel dosyasının nerede bulunacağını söyler.
+ Yer değiştirmek`"Your Document Directory"` gerçek yolunuzla`book1.xls` saklanır. Bu, programa üzerinde işlem yapacağımız Excel dosyasının nerede bulunacağını söyler.
 ## Adım 2: Yeni Bir Çalışma Kitabı Oluşturun
 Sırada, Workbook nesnesinin yeni bir örneğini oluşturacağız. Bu, Excel dosyamızı açmamıza ve düzenlememize olanak tanıyacak.
 ```csharp
@@ -51,7 +51,7 @@ ca.StartColumn = 1;
 ca.EndRow = 18; // 19. yüzyıl
 ca.EndColumn = 2;
 ```
- Burada bir tanım yapıyoruz`CellArea`ilgilendiğimiz aralığı belirten. Bu durumda, B3'ten (Satır 2, Sütun 1) C19'a (Satır 18, Sütun 2) kadar olan alanı seçtik. Alt toplamlarımızı burada hesaplayacağız.
+ Burada bir tanım yapıyoruz`CellArea` ilgilendiğimiz aralığı belirten. Bu durumda, B3'ten (Satır 2, Sütun 1) C19'a (Satır 18, Sütun 2) kadar olan alanı seçtik. Alt toplamlarımızı burada hesaplayacağız.
 ## Adım 5: Alt Toplamları Uygula
 Operasyonumuzun kalbi budur: Ara toplamın tanımlanan hücre alanına uygulanması.
 ```csharp
@@ -60,7 +60,7 @@ cells.Subtotal(ca, 0, ConsolidationFunction.Sum, new int[] { 1 });
  Bu satırda şunu çağırıyoruz:`Subtotal` yöntem. Tanımlanan parametreler şunlardır:
 - `ca`: Daha önce tanımladığımız hücre aralığı.
 - `0`: Bu indeks, ara toplamı alınacak değerleri içeren sütunu ifade eder. 
-- `ConsolidationFunction.Sum`: Bu, değerleri toplamak istediğimizi belirtir.
+- `ConsolidationFunction.Sum`Bu, değerleri toplamak istediğimizi belirtir.
 - `new int[] { 1 }`: Bu, ikinci sütundaki (Sütun C) değerleri topladığımızı gösterir.
 ## Adım 6: Değiştirilen Excel Dosyasını Kaydedin
 Son olarak değişikliklerimizi yeni bir Excel dosyasına kaydetmemiz gerekiyor. 

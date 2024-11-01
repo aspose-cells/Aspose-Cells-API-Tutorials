@@ -43,7 +43,7 @@ bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
-tomto fragmentu kódu zadáváme cestu k adresáři dokumentů. Také zkontrolujeme, zda adresář existuje; pokud ne, vytvoříme ho. To vytváří základy pro náš výstup.
+V tomto fragmentu kódu zadáváme cestu k adresáři dokumentů. Také zkontrolujeme, zda adresář existuje; pokud ne, vytvoříme ho. To vytváří základy pro náš výstup.
 ## Krok 2: Vytvořte sešit
 Dále vytvoříme novou instanci sešitu.
 ```csharp
@@ -57,7 +57,7 @@ Nyní do listu přidáme náš první tvar oblouku.
 // Přidejte tvar oblouku.
 Aspose.Cells.Drawing.ArcShape arc1 = excelbook.Worksheets[0].Shapes.AddArc(2, 0, 2, 0, 130, 130);
 ```
- Zde přidáváme oblouk do prvního listu. Parametry definují polohu a velikost oblouku:`(left, top, width, height, startAngle, endAngle)`. Je to jako nakreslit výseč kruhu!
+ Zde přidáváme oblouk do prvního listu. Parametry definují polohu a velikost oblouku:`(left, top, width, height, startAngle, endAngle)`. Je to jako nakreslit segment kruhu!
 ## Krok 4: Přizpůsobte první oblouk
 Po přidání oblouku možná budete chtít upravit jeho vzhled.
 ```csharp
@@ -71,7 +71,7 @@ arc1.Line.Weight = 1;
 // Nastavte styl čárky oblouku.
 arc1.Line.DashStyle = MsoLineDashStyle.Solid;
 ```
-této sekci přizpůsobujeme oblouk. Nastavíme jeho typ výplně na plnou barvu (v tomto případě modrou), definujeme způsob jeho umístění, určíme tloušťku čáry a zvolíme styl čárky. V podstatě oblékáme náš oblouk tak, aby byl vizuálně přitažlivý!
+V této sekci přizpůsobujeme oblouk. Nastavíme jeho typ výplně na plnou barvu (v tomto případě modrou), definujeme způsob jeho umístění, určíme tloušťku čáry a zvolíme styl čárky. V podstatě oblékáme náš oblouk tak, aby byl vizuálně přitažlivý!
 ## Krok 5: Přidejte druhý tvar oblouku
 Přidejme další tvar oblouku, abychom poskytli více kontextu.
 ```csharp
@@ -101,14 +101,14 @@ excelbook.Save(dataDir + "book1.out.xls");
 ```
 Tento řádek funguje jako stisknutí tlačítka Uložit. Ukládáme naši práci do určeného umístění s určeným názvem souboru. Nezapomeňte zkontrolovat svůj adresář, abyste viděli své mistrovské dílo ve formátu Excel!
 ## Závěr
-V tomto tutoriálu jsme prozkoumali proces přidávání obloukových tvarů do listu aplikace Excel pomocí Aspose.Cells pro .NET. Prostřednictvím jednoduchého průvodce krok za krokem jste se naučili, jak vytvořit nový sešit, přidat oblouky, upravit jejich vzhled a uložit dokument. Tato funkce nejen zvyšuje vizuální přitažlivost vašich tabulek, ale také činí vaše datové prezentace informativnější. Ať už vytváříte grafy, sestavy nebo jen experimentujete, použití tvarů, jako jsou oblouky, může dodat vašim projektům kreativní nádech.
+tomto tutoriálu jsme prozkoumali proces přidávání obloukových tvarů do listu aplikace Excel pomocí Aspose.Cells pro .NET. Prostřednictvím jednoduchého průvodce krok za krokem jste se naučili, jak vytvořit nový sešit, přidat oblouky, upravit jejich vzhled a uložit dokument. Tato funkce nejen zvyšuje vizuální přitažlivost vašich tabulek, ale také činí vaše datové prezentace informativnější. Ať už vytváříte grafy, sestavy nebo jen experimentujete, použití tvarů, jako jsou oblouky, může dodat vašim projektům kreativní nádech.
 ## FAQ
 ### Co je Aspose.Cells?
 Aspose.Cells je výkonná knihovna, která umožňuje vývojářům vytvářet, manipulovat a převádět soubory aplikace Excel programově bez potřeby aplikace Microsoft Excel.
 ### Musím nainstalovat Microsoft Excel, abych mohl používat Aspose.Cells?
 Ne, Aspose.Cells je zcela nezávislý a nevyžaduje instalaci aplikace Microsoft Excel.
 ### Mohu vyzkoušet Aspose.Cells zdarma?
-Ano, můžete vyzkoušet Aspose.Cells pomocí jejich[Bezplatná zkušební verze](https://releases.aspose.com/).
+ Ano, můžete vyzkoušet Aspose.Cells pomocí jejich[Bezplatná zkušební verze](https://releases.aspose.com/).
 ### Jaké programovací jazyky Aspose.Cells podporuje?
 Aspose.Cells podporuje více jazyků, včetně C#, VB.NET a dalších.
 ### Kde mohu získat podporu pro Aspose.Cells?

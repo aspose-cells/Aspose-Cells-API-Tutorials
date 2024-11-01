@@ -15,7 +15,7 @@ url: /el/net/conversion-to-pdf/excel-to-pdf-conversion/
 1. Visual Studio: Βεβαιωθείτε ότι έχετε εγκαταστήσει το Visual Studio στον υπολογιστή σας (κάθε πρόσφατη έκδοση θα το κάνει).
 2. .NET Framework: Βεβαιωθείτε ότι χρησιμοποιείτε .NET Framework 4.0 ή νεότερη έκδοση.
 ### Aspose.Κύτταρα
-1.  Aspose.Cells για .NET: Θα χρειαστείτε τη βιβλιοθήκη Aspose.Cells. Μπορείτε[Κατεβάστε το εδώ](https://releases.aspose.com/cells/net/) ή επιλέξτε το[Δωρεάν δοκιμαστική έκδοση](https://releases.aspose.com/).
+1.  Aspose.Cells για .NET: Θα χρειαστείτε τη βιβλιοθήκη Aspose.Cells. Μπορείς[Κατεβάστε το εδώ](https://releases.aspose.com/cells/net/) ή επιλέξτε το[Δωρεάν δοκιμαστική έκδοση](https://releases.aspose.com/).
 2.  Άδεια χρήσης: Μπορείτε να ξεκινήσετε με μια προσωρινή άδεια εάν δοκιμάζετε—ελέγξτε την[εδώ](https://purchase.aspose.com/temporary-license/).
 ### Επεξεργαστής κώδικα
 Ένα πρόγραμμα επεξεργασίας κώδικα (όπως το Visual Studio) για τη σύνταξη και εκτέλεση των αποσπασμάτων κώδικα C#.

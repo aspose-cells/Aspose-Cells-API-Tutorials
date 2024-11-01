@@ -22,7 +22,7 @@ url: /zh/net/data-loading-and-parsing/opening-files-through-path/
 首先启动 Visual Studio 并创建一个新的 C# 项目：
 1. 打开 Visual Studio。
 2. 选择“创建新项目”。
-3. 选择“控制台应用程序（.NET Framework）”然后单击下一步。
+3. 选择“控制台应用程序（.NET Framework）”并单击下一步。
 4. 设置项目名称，选择位置，然后单击“创建”。
 ### 通过 NuGet 安装 Aspose.Cells
 现在，让我们将 Aspose.Cells 库纳入您的项目：

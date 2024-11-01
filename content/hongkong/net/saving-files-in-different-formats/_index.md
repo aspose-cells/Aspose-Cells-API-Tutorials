@@ -12,7 +12,7 @@ url: /zh-hant/net/saving-files-in-different-formats/
 那麼，如何有效地保存 Excel 資料呢？這就是 Aspose.Cells 的閃光點。透過涵蓋 .xls、.xlsx、.xlsb 甚至 PDF 等格式的教學課程，您將快速掌握以您想要的方式儲存檔案。每個教程都強調清晰性和實用性，為您提供可以立即應用到專案中的見解。您是否知道有時需要儲存為 97-2003 格式才能與舊系統相容？我們將回顧所有這些以及更多內容！
 
 ## 教程的快速鏈接
-我們精心策劃的一系列教學可以讓您輕鬆找到您所需的內容。例如，如果您想以較舊的 97-2003 格式儲存 Excel 文件，請查看我們的簡單指南[以 97-2003 格式儲存 Excel 文件](./save-excel-file-in-97-2003-format/)。它充滿了實用的技巧！此外，如果您對將文件匯出為 PDF 感到好奇，請參閱我們的教學課程。
+我們精心策劃的教程集可以讓您輕鬆找到您所需的內容。例如，如果您想以較舊的 97-2003 格式儲存 Excel 文件，請查看我們的簡單指南[以 97-2003 格式儲存 Excel 文件](./save-excel-file-in-97-2003-format/)。它充滿了實用的技巧！此外，如果您對將文件匯出為 PDF 感到好奇，請參閱我們的教學課程。
 
 每個教程的目的不僅是為了向您提供信息，而且是為了吸引您。我們知道，深入研究技術主題有時會讓人感到乏味。因此，我們採用了一種讓您投入的對話風格，就像與精通技術的好友進行友好聊天一樣。
 
@@ -35,7 +35,7 @@ url: /zh-hant/net/saving-files-in-different-formats/
 
 ## 以不同格式儲存檔案教學
 ### [以 97-2003 格式儲存 Excel 文件](./save-excel-file-in-97-2003-format/)
-了解如何使用 Aspose.Cells for .NET 以 97-2003 格式儲存 Excel 檔案。獲得實用的見解和逐步指導。
+了解如何使用 Aspose.Cells for .NET 將 Excel 檔案儲存為 97-2003 格式。獲得實用的見解和逐步指導。
 ### [將 Excel 檔案儲存為 2007 xlsb 格式](./save-excel-file-in-2007-xlsb-format/)
 了解如何使用 Aspose.Cells for .NET 將 Excel 檔案儲存為 xlsb 格式！帶有實際範例的分步指南等著您。
 ### [將 Excel 檔案儲存為 2007 xlsx 格式](./save-excel-file-in-2007-xlsx-format/)

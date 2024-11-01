@@ -2,7 +2,7 @@
 title: XPS- und PDF-Operationen
 linktitle: XPS- und PDF-Operationen
 second_title: Aspose.Cells .NET Excel-Verarbeitungs-API
-description: Entdecken Sie umfassende Aspose.Cells für .NET-Tutorials zu XPS- und PDF-Vorgängen, um Ihre Dateikonvertierungen zu optimieren.
+description: Entdecken Sie umfassende Aspose.Cells für .NET-Tutorials zu XPS- und PDF-Operationen, um Ihre Dateikonvertierungen zu optimieren.
 type: docs
 weight: 36
 url: /de/net/xps-and-pdf-operations/

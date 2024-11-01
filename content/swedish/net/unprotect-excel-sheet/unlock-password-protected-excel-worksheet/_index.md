@@ -25,7 +25,7 @@ Du behöver en fungerande .NET-miljö. Om du inte är redo ännu, överväg att 
 
 ### Grundläggande kodningskunskap
 
-Lite grundläggande programmeringskunskaper i C# eller VB.NET kommer att räcka långt. Om du har fått det nere, är du redo!
+Lite grundläggande programmeringskunskaper i C# eller VB.NET kommer att räcka långt. Om du har det, är du redo!
 
 ## Importera paket
 
@@ -70,7 +70,7 @@ Först och främst måste vi ställa in sökvägen till vårt Excel-dokument. De
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Tips: Byt ut`"YOUR DOCUMENT DIRECTORY"`med den faktiska sökvägen där din Excel-fil (låt oss kalla den`book1.xls`) finns. 
+ Tips: Byt ut`"YOUR DOCUMENT DIRECTORY"` med den faktiska sökvägen där din Excel-fil (låt oss kalla den`book1.xls`) finns. 
 
 ## Steg 2: Instantiera ett arbetsboksobjekt
 

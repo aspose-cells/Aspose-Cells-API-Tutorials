@@ -106,7 +106,7 @@ Avec une seule ligne de code, nous enregistrons notre classeur dans le répertoi
 
 ## Conclusion
 
-Et voilà ! En quelques étapes simples, nous avons expliqué comment ajouter une nouvelle feuille à un fichier Excel à l'aide de C# et d'Aspose.Cells. Que vous souhaitiez simplement modifier du code ou travailler sur un projet plus vaste, cette fonctionnalité peut grandement améliorer votre flux de travail de gestion des données. 
+Et voilà ! En quelques étapes simples, nous avons expliqué comment ajouter une nouvelle feuille à un fichier Excel à l'aide de C# et d'Aspose.Cells. Que vous souhaitiez simplement modifier du code ou travailler sur un projet plus vaste, cette fonctionnalité peut grandement améliorer votre flux de travail de gestion des données. 
 
 Avec Aspose.Cells, les possibilités sont infinies. Vous pouvez manipuler les données de multiples façons : édition, formatage ou même création de formules ! Alors, allez-y et explorez davantage ; vos fichiers Excel vous en seront reconnaissants.
 

@@ -134,4 +134,4 @@ Un fichier XLSB est un format de fichier Excel binaire qui stocke les données d
 Absolument ! Aspose.Cells prend en charge une variété de formats de fichiers, notamment XLSX, CSV, etc.
 
 ### Où puis-je demander de l’aide si je rencontre des problèmes ?  
- Vous pouvez obtenir de l'aide sur les forums Aspose[ici](https://forum.aspose.com/c/cells/9).
+Vous pouvez obtenir de l'aide sur les forums Aspose[ici](https://forum.aspose.com/c/cells/9).

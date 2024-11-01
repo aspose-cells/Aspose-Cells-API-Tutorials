@@ -9,7 +9,7 @@ url: /sv/net/number-and-display-formats-in-excel/
 ---
 ## Introduktion
 
-När vi tänker på Excel föreställer vi oss ofta kalkylblad fyllda med data. Men har du någonsin försökt göra denna data visuellt tilltalande eller lättare att smälta? Det är där sifferformat spelar in. Med Aspose.Cells för .NET kan du automatisera formateringsprocessen, vilket kan spara massor av tid, särskilt när du hanterar stora datamängder. Låt oss dyka in i hur du kan använda dessa format programmatiskt, med fokus på två nyckelområden: inbyggda talformat och anpassade visningsformat.
+När vi tänker på Excel föreställer vi oss ofta kalkylblad fyllda med data. Men har du någonsin försökt göra denna data visuellt tilltalande eller lättare att smälta? Det är där sifferformat kommer in i bilden. Med Aspose.Cells för .NET kan du automatisera formateringsprocessen, vilket kan spara massor av tid, särskilt när du hanterar stora datamängder. Låt oss dyka in i hur du kan använda dessa format programmatiskt, med fokus på två nyckelområden: inbyggda talformat och anpassade visningsformat.
 
 ## Använda inbyggda nummerformat
 

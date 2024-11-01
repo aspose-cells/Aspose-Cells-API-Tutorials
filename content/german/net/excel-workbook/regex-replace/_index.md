@@ -22,7 +22,7 @@ Bevor wir uns in die Details der Codierung stürzen, stellen wir sicher, dass Si
 
 ## Einrichten der Umgebung
 
-Stellen Sie zunächst sicher, dass Sie Ihr Projekt eingerichtet haben, indem Sie die Aspose.Cells-Bibliothek hinzufügen. Dies können Sie über den NuGet-Paket-Manager in Visual Studio tun.
+Stellen Sie zunächst sicher, dass Sie Ihr Projekt eingerichtet haben, indem Sie die Aspose.Cells-Bibliothek hinzufügen. Dies können Sie über den NuGet Package Manager in Visual Studio tun.
 
 1. Öffnen Sie Ihr Projekt und navigieren Sie zu Tools > NuGet-Paket-Manager > NuGet-Pakete für Lösung verwalten.
 2.  Suchen nach`Aspose.Cells` und installieren Sie es.

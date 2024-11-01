@@ -12,7 +12,7 @@ url: /zh-hant/net/saving-files-in-different-formats/save-excel-file-in-2007-xlsb
 ## 先決條件
 在開始之前，讓我們確保您擁有無縫跟進所需的一切。這是您應該擁有的：
 1. Visual Studio：確保您的電腦上安裝了 Visual Studio 版本。您將在此處編寫 .NET 程式碼。 
-2. Aspose.Cells 函式庫：您需要 Aspose.Cells for .NET 函式庫。如果您還沒有下載，請前往[Aspose 下載頁面](https://releases.aspose.com/cells/net/)抓住它。 
+2.  Aspose.Cells 函式庫：您需要 Aspose.Cells for .NET 函式庫。如果您還沒有下載，請前往[Aspose 下載頁面](https://releases.aspose.com/cells/net/)抓住它。 
 3. C# 基礎知識：對 C# 和 .NET 的基本了解將幫助您更輕鬆地瀏覽程式碼範例。
 4. .NET Framework：確保您的專案使用 Aspose.Cells 程式庫支援的適當 .NET 框架進行設定。
 5. Excel 文件：雖然可以選擇建立新工作簿，但如果您想要操作現有文件，擁有起始文件可能會很有用。
@@ -64,6 +64,6 @@ Aspose.Cells 是一個功能強大的 .NET 程式庫，可讓開發人員以程�
 ### xls 和 xlsb 格式有什麼不同？
 xls 格式較舊，基於二進位檔案結構，而 xlsb 是一種較新的格式，也使用二進位存儲，但允許更大的檔案大小和更快的處理速度。
 ### 在哪裡可以購買 Aspose.Cells 的許可證？
-您可以直接從[Aspose購買頁面](https://purchase.aspose.com/buy).
+您可以直接從以下網站購買許可證[Aspose購買頁面](https://purchase.aspose.com/buy).
 ### 我該如何尋求 Aspose.Cells 問題的支援？
 如果您遇到任何問題或有疑問，請隨時訪問[支援論壇](https://forum.aspose.com/c/cells/9)

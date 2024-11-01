@@ -17,7 +17,7 @@ Bevor wir beginnen, benötigen Sie einige Dinge:
 4. Microsoft Excel: Wenn Sie Excel auf Ihrem Computer haben, können Sie die Ergebnisse Ihrer Erstellung besser visualisieren.
 5. .NET Framework: Stellen Sie sicher, dass Sie mit einer kompatiblen Version des .NET Frameworks arbeiten, die die Aspose.Cells-Bibliothek unterstützt.
 ## Pakete importieren
-Um mit Ihrem Projekt loslegen zu können, müssen Sie die erforderlichen Namespaces importieren. So gehen Sie dabei in Ihrer C#-Datei vor:
+Um mit Ihrem Projekt loslegen zu können, müssen Sie die erforderlichen Namespaces importieren. So gehen Sie dazu in Ihrer C#-Datei vor:
 ```csharp
 using System;
 using System.IO;

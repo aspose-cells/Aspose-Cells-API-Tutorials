@@ -108,7 +108,7 @@ ArrayList lstLabels = ch.CategoryAxis.AxisLabels;
 Console.WriteLine("Category Axis Labels: ");
 Console.WriteLine("---------------------");
 
-// Повторяйте метки осей и печатайте их одну за другой
+// Повторите метки осей и распечатайте их одну за другой.
 for (int i = 0; i < lstLabels.Count; i++)
 {
     Console.WriteLine(lstLabels[i]);

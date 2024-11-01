@@ -42,14 +42,14 @@ Först och främst måste du skapa en katalog där din Excel-fil kommer att spar
 
 ```csharp
 // Utdatakatalog
-string outputDir = "Your Output Directory"; //Ändra detta till din önskade väg
+string outputDir = "Your Output Directory"; // Ändra detta till din önskade väg
 ```
 
 I stället för "Din utdatakatalog" kan du ange en faktisk sökväg där du vill att Excel-filen ska sparas. Se till att den här katalogen finns på ditt system; annars kommer du att stöta på fel senare.
 
 ## Steg 2: Instantiera ett arbetsboksobjekt
 
- Nu vill du börja med att skapa en ny instans av`Workbook` klass. Detta är den grundläggande byggstenen för alla Excel-operationer som använder Aspose.Cells.
+ Nu vill du börja med att skapa en ny instans av`Workbook`klass. Detta är den grundläggande byggstenen för alla Excel-operationer som använder Aspose.Cells.
 
 ```csharp
 // Instantiera ett arbetsboksobjekt

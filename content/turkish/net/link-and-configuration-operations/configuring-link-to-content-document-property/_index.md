@@ -15,11 +15,11 @@ Bu eğitimde, .NET için Aspose.Cells kullanarak Excel dosyalarındaki özel bel
 
 Başlamadan önce, ihtiyacınız olan her şeyin yerinde olduğundan emin olun. Aşağıdaki ön koşullar olmadan, süreç sorunsuz bir şekilde ilerlemeyecektir:
 
-1. Aspose.Cells for .NET Kütüphanesi: Makinenizde Aspose.Cells for .NET'in yüklü olması gerekir. Henüz indirmediyseniz, şuradan edinin:[Aspose.Cells for .NET indirme sayfası](https://releases.aspose.com/cells/net/).
+1.  Aspose.Cells for .NET Kütüphanesi: Makinenizde Aspose.Cells for .NET'in yüklü olması gerekir. Henüz indirmediyseniz, şuradan edinin:[Aspose.Cells for .NET indirme sayfası](https://releases.aspose.com/cells/net/).
 2. Geliştirme Ortamı: Visual Studio gibi .NET destekli herhangi bir geliştirme ortamını kullanın.
 3. Temel C# Bilgisi: Bu kılavuz, C# ve .NET konusunda bir miktar bilginiz olduğunu varsayar.
 4. Excel Dosyası: Çalışmak için mevcut bir Excel dosyanız olsun. Örneğimizde "sample-document-properties.xlsx" adlı bir dosya kullanacağız.
-5.  Geçici Lisans: Tam lisansınız yoksa, bir tane alabilirsiniz.[burada geçici lisans](https://purchase.aspose.com/temporary-license/) dosya manipülasyonlarındaki sınırlamalardan kaçınmak için.
+5. Geçici Lisans: Tam lisansınız yoksa, bir tane alabilirsiniz.[burada geçici lisans](https://purchase.aspose.com/temporary-license/) dosya manipülasyonlarındaki sınırlamalardan kaçınmak için.
 
 ## Paketleri İçe Aktar
 
@@ -49,7 +49,7 @@ string dataDir = "Your Document Directory";
 Workbook workbook = new Workbook(dataDir + "sample-document-properties.xlsx");
 ```
 
--  Çalışma kitabı workbook = new Workbook(): Bu satır yeni bir çalışma kitabı oluşturur.`Workbook` Aspose.Cells'de Excel dosyalarıyla çalışmak için kullanılan ana sınıf olan nesne.
+-  Çalışma kitabı workbook = new Workbook(): Bu satır yeni bir çalışma kitabı oluşturur.`Workbook`Aspose.Cells'de Excel dosyalarıyla çalışmak için kullanılan ana sınıf olan nesne.
 - dataDir: Excel dosyanızın yolunu burada belirtirsiniz. "Your Document Directory" ifadesini makinenizdeki gerçek yolla değiştirin.
 
 Bu adımı bir kapıyı açmak gibi düşünün; ihtiyacınız olan değişiklikleri yapabilmek için dosyaya erişiyorsunuz!
@@ -59,7 +59,7 @@ Bu adımı bir kapıyı açmak gibi düşünün; ihtiyacınız olan değişiklik
 Dosya yüklendikten sonra, özel belge özelliklerine erişmemiz gerekir. Bu özellikler, alabileceğiniz ve işleyebileceğiniz bir koleksiyonda saklanır.
 
 ```csharp
-//Excel dosyasının tüm özel belge özelliklerinin bir listesini alın
+// Excel dosyasının tüm özel belge özelliklerinin bir listesini alın
 Aspose.Cells.Properties.CustomDocumentPropertyCollection customProperties = workbook.Worksheets.CustomDocumentProperties;
 ```
 
@@ -93,7 +93,7 @@ bool islinkedtocontent = customProperty1.IsLinkedToContent;
 ```
 
 - özelÖzellikler["Sahip"]: Ayrıntılarını incelemek için "Sahip" özelliğini adıyla getiriyoruz.
--  IsLinkedToContent: Bu Boole değeri şunu döndürür:`true` eğer özellik içeriğe başarıyla bağlanırsa.
+- IsLinkedToContent: Bu Boole değeri şunu döndürür:`true` eğer özellik içeriğe başarıyla bağlanırsa.
 
 Bu aşamada, etiketin (özelliğin) içeriğe düzgün bir şekilde eklenip eklenmediğini kontrol etmek gibidir. Kodunuzun beklediğiniz şeyi yaptığından emin olursunuz.
 

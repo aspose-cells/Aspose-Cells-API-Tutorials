@@ -41,7 +41,7 @@ En primer lugar, deberá especificar el directorio en el que se encuentran sus a
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // Actualizar en consecuencia
 ```
 
- Esta línea establece el`dataDir` variable, que es la ruta base para localizar la imagen que desea insertar en el encabezado.
+ Esta línea establece el`dataDir`variable, que es la ruta base para localizar la imagen que desea insertar en el encabezado.
 
 ## Paso 2: Creación de un objeto de libro de trabajo
 
@@ -55,7 +55,7 @@ Workbook workbook = new Workbook();
 
 ## Paso 3: Definición de la ruta de la imagen
 
-Es hora de crear una variable de cadena para guardar la ruta a la imagen que quieres usar. En nuestro caso, estamos usando`aspose-logo.jpg`.
+ Es hora de crear una variable de cadena para guardar la ruta a la imagen que quieres usar. En nuestro caso, estamos usando`aspose-logo.jpg`.
 
 ```csharp
 string logo_url = dataDir + "aspose-logo.jpg";

@@ -42,14 +42,14 @@ Artık temel yapı ortaya çıktığına göre, özel bir grafik oluşturmaya il
 
 ```csharp
 // Çıktı dizini
-string outputDir = "Your Output Directory"; //Bunu istediğiniz yola değiştirin
+string outputDir = "Your Output Directory"; // Bunu istediğiniz yola değiştirin
 ```
 
 "Çıktı Dizininiz" yerine, Excel dosyasının kaydedilmesini istediğiniz gerçek bir yol belirtebilirsiniz. Bu dizinin sisteminizde mevcut olduğundan emin olun; aksi takdirde, daha sonra hatalarla karşılaşırsınız.
 
 ## Adım 2: Bir Çalışma Kitabı Nesnesi Oluşturma
 
- Şimdi, yeni bir örnek oluşturarak işe başlamak isteyeceksiniz`Workbook` sınıf. Bu, Aspose.Cells kullanan herhangi bir Excel işleminin temel yapı taşıdır.
+ Şimdi, yeni bir örnek oluşturarak işe başlamak isteyeceksiniz`Workbook`sınıf. Bu, Aspose.Cells kullanan herhangi bir Excel işleminin temel yapı taşıdır.
 
 ```csharp
 // Bir Çalışma Kitabı nesnesini örnekleme

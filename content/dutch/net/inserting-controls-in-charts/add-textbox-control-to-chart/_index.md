@@ -16,7 +16,7 @@ Het maken van dynamische en visueel aantrekkelijke grafieken in Excel is een fan
 Voordat we beginnen met coderen, zijn er een paar dingen die je moet regelen:
 
 - Basiskennis van C#: Een fundamenteel begrip van C#-programmering is handig. Maak je geen zorgen; je hoeft geen expert te zijn, als je maar comfortabel bent met de syntaxis.
--  Geïnstalleerde Aspose.Cells-bibliotheek: Zorg ervoor dat u de Aspose.Cells voor .NET-bibliotheek hebt geïnstalleerd. U kunt deze downloaden van[hier](https://releases.aspose.com/cells/net/)als je dat nog niet gedaan hebt.
+-  Geïnstalleerde Aspose.Cells-bibliotheek: Zorg ervoor dat u de Aspose.Cells voor .NET-bibliotheek hebt geïnstalleerd. U kunt deze downloaden van[hier](https://releases.aspose.com/cells/net/) als je dat nog niet gedaan hebt.
 - Visual Studio: Kennis van Visual Studio of een andere IDE die u voor het .NET Framework gebruikt, is essentieel.
 - Een bestaand Excel-bestand: Voor dit voorbeeld werken we met een bestaand Excel-bestand met de naam "sampleAddingTextBoxControlInChart.xls". U kunt er zelf een maken of een voorbeeld downloaden.
 
@@ -86,7 +86,7 @@ Zodra de TextBox op zijn plaats staat, is het tijd om deze te vullen met content
 // Vul de tekst in.
 textbox0.Text = "Sales By Region";
 ```
-kunt "Verkoop per regio" vervangen door tekst die relevant is voor uw gegevens.
+U kunt "Verkoop per regio" vervangen door tekst die relevant is voor uw gegevens.
 
 ## Stap 6: Pas de eigenschappen van het tekstvak aan
 
@@ -151,7 +151,7 @@ Aspose.Cells voor .NET is een krachtige bibliotheek voor het maken, bewerken en 
 Ja! U kunt zoveel TextBoxes toevoegen als u nodig hebt door de stappen voor het maken van TextBox te herhalen met verschillende posities.
 
 ### Is Aspose.Cells gratis te gebruiken?
- Aspose.Cells is een betaalde bibliotheek, maar u kunt een gratis proefversie downloaden van[hier](https://releases.aspose.com/).
+Aspose.Cells is een betaalde bibliotheek, maar u kunt een gratis proefversie downloaden van[hier](https://releases.aspose.com/).
 
 ### Waar kan ik meer documentatie over Aspose.Cells vinden?
  U heeft toegang tot uitgebreide documentatie[hier](https://reference.aspose.com/cells/net/).

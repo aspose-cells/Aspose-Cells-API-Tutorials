@@ -7,7 +7,7 @@ type: docs
 weight: 19
 url: /hu/java/excel-import-export/export-excel-to-html-java/
 ---
-A mai oktatóanyagban az Aspose.Cells for Java API használatával az Excel-fájlok HTML formátumba exportálásának folyamatába fogunk elmélyülni. Ez a részletes útmutató végigvezeti a teljes folyamaton, a fejlesztői környezet beállításától a kód írásáig és a HTML-fájlok Excel-táblázatokból történő létrehozásáig. Szóval, ugorjunk bele!
+A mai oktatóanyagban az Aspose.Cells for Java API használatával az Excel-fájlok HTML formátumba exportálásának folyamatába fogunk elmélyülni. Ez a részletes útmutató végigvezeti a teljes folyamaton, a fejlesztői környezet beállításától a kód megírásáig és a HTML-fájlok Excel-táblázatokból történő létrehozásáig. Szóval, ugorjunk bele!
 
 ## Előfeltételek
 

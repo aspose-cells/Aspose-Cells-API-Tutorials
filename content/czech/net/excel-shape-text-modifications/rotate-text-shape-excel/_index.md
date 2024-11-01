@@ -107,4 +107,4 @@ Ano, funkci lze aplikovat na starší formáty podporované Aspose.Cells.
 ### Kde najdu další dokumentaci o Aspose.Cells?
  Můžete prozkoumat komplexní[dokumentace](https://reference.aspose.com/cells/net/) pro více poznatků.
 ### Jak získám podporu pro Aspose.Cells?
- Můžete požádat o podporu návštěvou stránky[Aspose fórum](https://forum.aspose.com/c/cells/9).
+ Můžete požádat o podporu návštěvou[Aspose fórum](https://forum.aspose.com/c/cells/9).

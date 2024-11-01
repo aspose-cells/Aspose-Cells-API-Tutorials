@@ -152,3 +152,21 @@ Excel dosyalarını JSON, DOCX, HTML, PDF, Markdown ve daha fazlası gibi format
 Excel dosyalarını kaydetme ve dışa aktarma konusunda ayrıntılı Aspose.Cells for .NET eğitimlerini keşfedin. Yorumları, belge özelliklerini, uyarıları ve veri kırpmayı nasıl ele alacağınızı öğrenin.
 ### [Pivot Tabloları Oluşturma ve Yapılandırma](./creating-and-configuring-pivot-tables/)
 Aspose.Cells for .NET için kapsamlı eğitimleri keşfedin. Her işlevsellik için ayrıntılı adım adım kılavuzlarla Excel'de pivot tabloları programatik olarak yönetin.
+### [Excel Formülleri ve Hesaplama Seçenekleri](./excel-formulas-and-calculation-options/)
+Kolay takip edilebilir adımlarla temel Excel formüllerini ve hesaplamalarını kapsayan Aspose.Cells for .NET eğitimlerine derinlemesine dalın.
+### [Gelişmiş Seçeneklerle Excel'i HTML'ye Aktarma](./exporting-excel-to-html-with-advanced-options/)
+Çeşitli gelişmiş seçeneklere ilişkin ayrıntılı eğitimler aracılığıyla Aspose.Cells for .NET ile Excel'i HTML'ye aktarma konusunda değerli içgörülerin kilidini açın ve belge dışa aktarımlarınızı geliştirin.
+### [İşleme ve Dışa Aktarma](./rendering-and-export/)
+Aspose.Cells for .NET ile becerilerinizi geliştirin. Etkileşimli Excel PDF belgelerini işleme, dışa aktarma ve oluşturma konusunda eğitimlere dalın.
+### [Aspose.Cells'de Hata İşleme ve Özelleştirme](./error-handling-and-customization-in-aspose-cells/)
+.NET için Aspose.Cells öğreticileri, Excel'de PDF'e Office eklentilerini işleme ve Excel'den PDF'e dönüştürme sırasında hataları görmezden gelme. Belge görevlerinizi basitleştirin.
+### [Satır ve Sütun Yönetimi](./row-and-column-management/)
+Excel becerilerinizi zahmetsizce geliştirmek için satır ve sütun yönetimine ilişkin kapsamlı eğitimlerimizle Aspose.Cells for .NET'in gücünü ortaya çıkarın.
+### [Boyut ve Aralık Özelleştirmesi](./size-and-spacing-customization/)
+Excel dosyalarınızı Aspose.Cells for .NET ile geliştirin. Boyut ve aralıkları özelleştirmek, sütun genişliklerini ve satır yüksekliklerini zahmetsizce ayarlamak için kolay takip edilebilir eğitimleri keşfedin.
+### [Satır ve Sütun Otomatik Uyumu](./row-column-autofit-conversion/)
+Aspose.Cells for .NET ile Excel'de satır ve sütunları otomatik olarak sığdırma konusunda uzmanlaşın. Net, profesyonel elektronik tablolar için adım adım eğitimlerle veri görüntülemeyi geliştirin.
+### [Excel Dilimleyiciler Yönetimi](./excel-slicers-management/)
+Aspose.Cells for .NET ile Excel dilimleyicilerini yönetmeye ilişkin kapsamlı eğitimleri keşfedin. Dilimleyicileri zahmetsizce nasıl oluşturacağınızı, güncelleyeceğinizi, biçimlendireceğinizi ve dışa aktaracağınızı öğrenin.
+### [Dinamik Veriler için Aspose.Cells'deki Akıllı İşaretleyiciler](./smart-markers-dynamic-data/)
+Dinamik Excel raporları oluşturmak için Aspose.Cells for .NET Smart Markers Eğitimlerini keşfedin. Etiket eklemeyi, verileri otomatik olarak doldurmayı, formülleri kullanmayı ve daha fazlasını öğrenin.

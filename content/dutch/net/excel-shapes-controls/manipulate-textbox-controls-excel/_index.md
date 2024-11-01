@@ -10,7 +10,7 @@ url: /nl/net/excel-shapes-controls/manipulate-textbox-controls-excel/
 ## Invoering
 Als u ooit met Excel hebt gewerkt, bent u waarschijnlijk die kleine tekstvakken tegengekomen waarmee u zwevende tekst aan een spreadsheet kunt toevoegen. Maar wat als u die tekstvakken programmatisch wilt manipuleren? Dan komt Aspose.Cells voor .NET goed van pas. Hiermee kunt u eenvoudig tekstvakken openen en wijzigen, waardoor het perfect is voor het automatiseren van taken of het aanpassen van rapporten. In deze tutorial leiden we u door het proces van het manipuleren van tekstvakken in Excel met Aspose.Cells voor .NET.
 ## Vereisten
-Voordat we met de daadwerkelijke code beginnen, moeten we ervoor zorgen dat alles goed is ingesteld:
+Voordat we in de daadwerkelijke code duiken, moeten we ervoor zorgen dat alles goed is ingesteld:
 1.  Aspose.Cells voor .NET: U moet de Aspose.Cells voor .NET-bibliotheek downloaden. U kunt de downloadlink vinden[hier](https://releases.aspose.com/cells/net/).
 2. .NET-ontwikkelomgeving: elke IDE die .NET ondersteunt, zoals Visual Studio, is geschikt.
 3. Basiskennis van C#: in deze zelfstudie wordt ervan uitgegaan dat u bekend bent met de basissyntaxis van C# en de structuur van Excel-werkmappen.

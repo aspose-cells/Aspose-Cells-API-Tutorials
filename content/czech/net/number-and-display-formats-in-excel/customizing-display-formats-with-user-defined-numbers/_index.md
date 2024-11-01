@@ -68,7 +68,7 @@ worksheet.Cells["A1"].SetStyle(style);
 -  Nastavením upravíme styl buňky`style.Custom = "d-mmm-yy"`, který formátuje datum tak, aby zobrazoval den, zkrácený měsíc a rok.
 -  Nakonec aplikujeme nový styl na buňku s`SetStyle()`.
 ## Krok 4: Formátování buňky jako procento
- Dále pracujme s čísly. Řekněme, že do jiné buňky přidáme číselnou hodnotu`A2`a naformátujte jej jako procento.
+ Dále pracujme s čísly. Do jiné buňky přidáme číselnou hodnotu, řekněme`A2`a naformátujte jej jako procento.
 ```csharp
 //Přidání číselné hodnoty do buňky "A2".
 worksheet.Cells["A2"].PutValue(20);

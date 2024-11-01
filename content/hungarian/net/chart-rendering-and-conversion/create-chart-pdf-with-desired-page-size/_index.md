@@ -97,7 +97,7 @@ Ez ismét eléri a munkalap első diagramját; győződjön meg arról, hogy a m
 
 ## 5. lépés: Hozzon létre PDF-et a kívánt oldalmérettel
 
-Végül itt az ideje létrehozni a PDF-et a diagramból egy megadott oldalmérettel. Íme a varázslatos kódsor, amely mindent megtesz:
+Végül itt az ideje elkészíteni a PDF-et a diagramból egy megadott oldalmérettel. Íme a varázslatos kódsor, amely mindent megtesz:
 
 ```csharp
 //Készítsen pdf grafikont a kívánt oldalmérettel.
@@ -111,13 +111,13 @@ Ebben a kódban:
 
 ## 6. lépés: Megerősítő üzenet
 
-Ha szeretné tudatni magát (és másokkal), hogy minden zökkenőmentesen ment, írjon egy megerősítő üzenetet a kód végére:
+Ha szeretné tudatni magát (és másokkal), hogy minden gördülékenyen ment, írjon egy megerősítő üzenetet a kód végére:
 
 ```csharp
 Console.WriteLine("CreateChartPDFWithDesiredPageSize executed successfully.");
 ```
 
-Ez az üzenet jelenik meg a konzolablakban, amint a folyamat befejeződött, jelezve, hogy a PDF-fájl gond nélkül elkészült.
+Ez az üzenet jelenik meg a konzol ablakában, amint a folyamat befejeződött, jelezve, hogy a PDF-fájl gond nélkül elkészült.
 
 ## Következtetés
 

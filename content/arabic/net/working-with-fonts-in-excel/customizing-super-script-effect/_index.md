@@ -16,7 +16,7 @@ url: /ar/net/working-with-fonts-in-excel/customizing-super-script-effect/
 ### 2. .NET Framework أو .NET Core
 تأكد من تثبيت الإصدار الصحيح من .NET. يعمل Aspose.Cells for .NET بسلاسة مع كل من .NET Framework و.NET Core.
 ### 3. مكتبة Aspose.Cells
- ستحتاج إلى مكتبة Aspose.Cells. يمكنك تنزيلها[هنا](https://releases.aspose.com/cells/net/)من الضروري أن يكون هذا موجودًا في مشروعك لتتمكن من التعامل مع ملفات Excel.
+ستحتاج إلى مكتبة Aspose.Cells. يمكنك تنزيلها[هنا](https://releases.aspose.com/cells/net/)من الضروري أن يكون هذا موجودًا في مشروعك لتتمكن من التعامل مع ملفات Excel.
 ### 4. فهم أساسي للغة C#
 من المفيد، رغم أنه ليس إلزاميًا، أن تكون على دراية بلغة C#. سنكتب كودًا يستخدم المكتبة للتعامل مع ملف Excel، وستساعدك معرفة لغة C# على فهمها بشكل أفضل.
 ### 5. بيئة تطوير متكاملة للعمل بها

@@ -84,4 +84,4 @@ Aspose.Cells è una libreria .NET progettata per gestire i file Excel e offre un
 ### Quali tipi di formati di file supporta Aspose.Cells?
 Aspose.Cells supporta una vasta gamma di formati, tra cui XLS, XLSX, ODS e molti altri.
 ### Come posso ottenere una licenza temporanea per Aspose.Cells?
- È possibile ottenere una licenza temporanea visitando il[pagina licenza temporanea](https://purchase.aspose.com/temporary-license/).
+ È possibile ottenere una licenza temporanea visitando il[pagina della licenza temporanea](https://purchase.aspose.com/temporary-license/).

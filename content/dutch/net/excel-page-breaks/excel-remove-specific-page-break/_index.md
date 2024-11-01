@@ -64,7 +64,7 @@ Vervolgens moeten we onze werkmap laden. Simpel gezegd, zie een werkmap als uw E
 Workbook workbook = new Workbook(dataDir + "PageBreaks.xls");
 ```
 
-Uitleg: Deze regel maakt een nieuw exemplaar van een`Workbook` , waarmee u het door u opgegeven Excel-bestand laadt (in dit voorbeeld heet het`PageBreaks.xls`). 
+ Uitleg: Deze regel maakt een nieuw exemplaar van een`Workbook` , waarmee u het door u opgegeven Excel-bestand laadt (in dit voorbeeld heet het`PageBreaks.xls`). 
 
 ## Stap 3: Verwijder de horizontale pagina-einde
 
@@ -117,4 +117,4 @@ U kunt door de pagina-einden lopen met behulp van een lus om de indexen af te dr
  Absoluut! Verander gewoon het indexnummer in`workbook.Worksheets[index]` om het gewenste werkblad te selecteren.
 
 ### Is Aspose.Cells een gratis tool?  
- Aspose.Cells biedt een gratis proefperiode, maar voor volledige functionaliteit moet u een licentie aanschaffen. U kunt het bekijken[hier](https://purchase.aspose.com/buy).
+Aspose.Cells biedt een gratis proefperiode, maar voor volledige functionaliteit moet u een licentie aanschaffen. U kunt het bekijken[hier](https://purchase.aspose.com/buy).

@@ -110,7 +110,7 @@ worksheet.Cells.Merge(2, 1, 1, 2);
 ```
 A cellák egyesítése lehetővé teszi, hogy a cím vagy a kulcscímke jobban kitűnjön a táblázaton.
 ## 12. lépés: Mentse el a munkafüzetet
-Húúú! Már majdnem kész. Az utolsó lépés az új stílusú Excel-munkafüzet mentése. 
+Woohoo! Már majdnem kész. Az utolsó lépés az új stílusú Excel-munkafüzet mentése. 
 ```csharp
 // Mentse el az Excel fájlt
 workbook.Save(dataDir + "output.xlsx");

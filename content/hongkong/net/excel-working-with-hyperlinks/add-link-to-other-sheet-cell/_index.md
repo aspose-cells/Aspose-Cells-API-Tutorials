@@ -30,7 +30,7 @@ using Aspose.Cells;
 1. 打開視覺工作室。
 2. 建立一個新的 C# 控制台應用程式專案。 
 3. 將您的專案命名為具有描述性的名稱，例如“ExcelLinkDemo”。
-4. 新增對 Aspose.Cells.dll 的引用。您可以透過右鍵單擊解決方案資源管理器中的“引用”，選擇“新增參考”，然後導覽至安裝 Aspose.Cells 的位置來完成此操作。
+4. 新增對 Aspose.Cells.dll 的引用。您可以透過右鍵單擊“解決方案資源管理器”中的“引用”，選擇“新增參考”，然後導覽至安裝 Aspose.Cells 的位置來完成此操作。
 ## 第 2 步：定義輸出目錄
 接下來，您需要指定儲存輸出 Excel 檔案的位置。以下是您在程式碼中定義它的方法：
 ```csharp
@@ -87,7 +87,7 @@ workbook.Save(outputDir + "outputAddingLinkToOtherSheetCell.xlsx");
 ```csharp
 Console.WriteLine("AddingLinkToOtherSheetCell executed successfully.");
 ```
-現在你就得到它了！您已經建立了一個基本的 C# 程序，該程序使用 Aspose.Cells for .NET 新增指向 Excel 工作簿的內部超連結。
+現在你就擁有了！您已經建立了一個基本的 C# 程序，該程序使用 Aspose.Cells for .NET 新增指向 Excel 工作簿的內部超連結。
 ## 結論
 在本教學中，我們詳細介紹了使用 Aspose.Cells for .NET 將超連結新增至 Excel 工作簿中另一個工作表所需的步驟。電子表格中的連結可以充當資料海洋中的地標，使導航變得輕而易舉。想像一下，透過正確連結的電子表格，您的工作流程會變得多麼有效率！現在您已經掌握了這個強大的工具，請隨意進一步嘗試 Aspose.Cells 功能以提高您的工作效率。
 ## 常見問題解答

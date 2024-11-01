@@ -9,7 +9,7 @@ url: /pl/net/unprotect-excel-sheet/
 ---
 ## Wstęp
 
-Jeśli pracujesz z plikami Excela w .NET, być może spotkałeś się z sytuacjami, w których musisz uzyskać dostęp do zablokowanych arkuszy. Dobra wiadomość jest taka, że Aspose.Cells dla .NET oferuje solidny sposób radzenia sobie z tymi wyzwaniami. Wyobraź sobie, że siedzisz przy biurku, wpatrujesz się w skoroszyt Excela, tylko po to, aby zdać sobie sprawę, że nie możesz uzyskać dostępu do danych, ponieważ są zablokowane. Frustrujące, prawda? Przyjrzyjmy się, jak ta potężna biblioteka może sprawić, że te dni będą za Tobą.
+Jeśli pracujesz z plikami Excela w .NET, być może spotkałeś się z sytuacjami, w których musisz uzyskać dostęp do zablokowanych arkuszy. Dobra wiadomość jest taka, że Aspose.Cells dla .NET oferuje solidny sposób radzenia sobie z tymi wyzwaniami. Wyobraź sobie, że siedzisz przy biurku, wpatrujesz się w skoroszyt programu Excel, tylko po to, aby zdać sobie sprawę, że nie możesz uzyskać dostępu do danych, ponieważ są zablokowane. Frustrujące, prawda? Przyjrzyjmy się, jak ta potężna biblioteka może sprawić, że te dni będą za Tobą.
 
 ## Odblokowywanie arkuszy kalkulacyjnych programu Excel chronionych hasłem 
 

@@ -16,7 +16,7 @@ Bienvenue dans le guide ultime sur l'utilisation de la puissante bibliothèque A
 Avant de vous lancer dans le codage, assurez-vous que vous disposez de tout ce dont vous avez besoin pour commencer. Voici ce que vous devez avoir en place :
 
 1. Visual Studio : assurez-vous que Visual Studio est installé sur votre ordinateur. Il s'agit de votre plateforme principale pour tous les travaux de développement.
-2. Aspose.Cells pour .NET : vous devez avoir téléchargé et ajouté la bibliothèque Aspose.Cells à votre projet. Vous pouvez facilement la récupérer à partir du[Site Web d'Aspose](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells pour .NET : vous devez avoir téléchargé et ajouté la bibliothèque Aspose.Cells à votre projet. Vous pouvez facilement la récupérer à partir du[Site Web d'Aspose](https://releases.aspose.com/cells/net/).
 3. Connaissances de base en C# : une bonne connaissance de la programmation C# vous sera d'une grande aide. Si vous savez gérer les variables, les boucles et les E/S de fichiers de base, vous serez à l'aise.
 4. .NET Framework : assurez-vous que votre projet est configuré avec la version appropriée de .NET Framework, car la bibliothèque est conçue pour être compatible avec cet écosystème.
 
@@ -69,7 +69,7 @@ Maintenant, définissons les paramètres pour adapter votre feuille de calcul à
 ```csharp
 // Définition du nombre de pages sur lesquelles la longueur de la feuille de calcul sera étendue
 worksheet.PageSetup.FitToPagesTall = 1;
-// Définition du nombre de pages sur lesquelles la largeur de la feuille de calcul sera étendue
+//Définition du nombre de pages sur lesquelles la largeur de la feuille de calcul sera étendue
 worksheet.PageSetup.FitToPagesWide = 1;
 ```
 

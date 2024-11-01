@@ -11,7 +11,7 @@ url: /pl/net/saving-and-exporting-excel-files-with-options/specifying-document-v
 Aspose.Cells dla .NET to potężna biblioteka, która pozwala programistom na łatwe programowe manipulowanie plikami Excela. Niezależnie od tego, czy chcesz tworzyć pliki Excela od podstaw, czy modyfikować istniejące, Aspose.Cells oferuje kompleksowe API, aby osiągnąć swoje cele. Jedną z takich funkcji jest określanie właściwości dokumentu, takich jak wersja, autor lub tytuł. Ten samouczek przeprowadzi Cię przez proces programowego określania wersji dokumentu pliku Excela przy użyciu Aspose.Cells dla .NET.
 ## Wymagania wstępne
 Zanim przejdziemy do szczegółów, upewnijmy się, że masz wszystko, czego potrzebujesz, aby móc skorzystać z tego samouczka:
-1.  Aspose.Cells dla .NET: Możesz pobrać najnowszą wersję[Tutaj](https://releases.aspose.com/cells/net/) . Jeśli jeszcze nie kupiłeś licencji, możesz zdecydować się na[licencja tymczasowa](https://purchase.aspose.com/temporary-license/) aby zapoznać się z funkcjami.
+1. Aspose.Cells dla .NET: Możesz pobrać najnowszą wersję[Tutaj](https://releases.aspose.com/cells/net/) . Jeśli jeszcze nie kupiłeś licencji, możesz zdecydować się na[licencja tymczasowa](https://purchase.aspose.com/temporary-license/) aby zapoznać się z funkcjami.
 2. Środowisko programistyczne .NET: Możesz użyć programu Visual Studio lub dowolnego środowiska IDE zgodnego z platformą .NET.
 3. Podstawowa wiedza o języku C#: Znajomość programowania w języku C# ułatwi naukę.
 ## Importuj pakiety
@@ -29,9 +29,9 @@ Teraz przeanalizujmy szczegółowo proces określania właściwości dokumentu w
 ```csharp
 Workbook wb = new Workbook();
 ```
- Ten`Workbook` Klasa zapewnia reprezentację pliku Excel. Tworząc ją, tworzymy pusty skoroszyt Excel, którym możemy manipulować.
+ Ten`Workbook`Klasa zapewnia reprezentację pliku Excel. Tworząc ją, tworzymy pusty skoroszyt Excel, którym możemy manipulować.
 ## Krok 2: Dostęp do wbudowanych właściwości dokumentu
-Aspose.Cells oferuje wbudowane właściwości dokumentu, które obejmują pola takie jak tytuł, autor i wersja dokumentu. Dostęp do tych właściwości można uzyskać za pomocą`BuiltInDocumentProperties`kolekcja.
+ Aspose.Cells oferuje wbudowane właściwości dokumentu, które obejmują pola takie jak tytuł, autor i wersja dokumentu. Dostęp do tych właściwości można uzyskać za pomocą`BuiltInDocumentProperties`kolekcja.
 ```csharp
 Aspose.Cells.Properties.BuiltInDocumentPropertyCollection bdpc = wb.BuiltInDocumentProperties;
 ```
@@ -59,9 +59,9 @@ Ustawienie wersji dokumentu zapewnia przejrzystość odnośnie tego, która wers
 ```csharp
 wb.Save("outputSpecifyDocumentVersionOfExcelFile.xlsx", SaveFormat.Xlsx);
 ```
- Ten`Save` Metoda ta służy do zapisania pliku do określonego katalogu. Tutaj zapisujemy go jako plik Excel w`.xlsx` format. W razie potrzeby Aspose.Cells obsługuje również formaty takie jak`.xls`, `.csv` , I`.pdf`zapewniając elastyczność dostosowaną do potrzeb Twojego projektu.
+ Ten`Save` Metoda ta służy do zapisania pliku do określonego katalogu. Tutaj zapisujemy go jako plik Excel w`.xlsx`format. W razie potrzeby Aspose.Cells obsługuje również formaty takie jak`.xls`, `.csv` , I`.pdf`zapewniając elastyczność dostosowaną do potrzeb Twojego projektu.
 ## Wniosek
-tym samouczku omówiliśmy, jak określić właściwości dokumentu, w szczególności wersję dokumentu, w pliku Excel przy użyciu Aspose.Cells dla .NET. Aspose.Cells to niezwykle elastyczne i potężne narzędzie, które umożliwia programowe manipulowanie plikami Excel, co czyni je świetnym atutem dla każdego programisty .NET pracującego z arkuszami kalkulacyjnymi.
+W tym samouczku omówiliśmy, jak określić właściwości dokumentu, w szczególności wersję dokumentu, w pliku Excel przy użyciu Aspose.Cells dla .NET. Aspose.Cells to niezwykle elastyczne i potężne narzędzie, które umożliwia programowe manipulowanie plikami Excel, co czyni je świetnym atutem dla każdego programisty .NET pracującego z arkuszami kalkulacyjnymi.
 ## Najczęściej zadawane pytania
 ### Czy mogę modyfikować inne wbudowane właściwości za pomocą Aspose.Cells?  
 Tak, możesz modyfikować także inne wbudowane właściwości, takie jak temat, słowa kluczowe i komentarze.

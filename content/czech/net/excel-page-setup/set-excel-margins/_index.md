@@ -58,7 +58,7 @@ Workbook workbook = new Workbook();
 
 S tímto řádkem kódu jste právě vytvořili prázdný sešit připravený k akci!
 
-## Krok 3: Vstupte do kolekce Worksheet Collection
+## Krok 3: Přístup ke kolekci Worksheet Collection
 
 Jakmile máte sešit nastaven, dalším krokem je přístup k listům obsaženým v tomto sešitu.
 

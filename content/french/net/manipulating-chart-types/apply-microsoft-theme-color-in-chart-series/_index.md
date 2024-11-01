@@ -101,7 +101,7 @@ C’est comme décider de l’apparence et de l’atmosphère d’une pièce ava
 Ensuite, nous devons définir la couleur de la zone de remplissage du graphique. C'est ainsi que nous donnons vie à la couleur que nous avons choisie.
 
 ```csharp
-// Obtenir la couleur des cellules de SolidFill
+//Obtenir la couleur des cellules de SolidFill
 CellsColor cc = chart.NSeries[0].Area.FillFormat.SolidFill.CellsColor;
 ```
 

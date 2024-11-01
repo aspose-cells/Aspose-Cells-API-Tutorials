@@ -49,7 +49,7 @@ Sau đây là cách thực hiện:
 HtmlSaveOptions opts = new HtmlSaveOptions();
 opts.IsExportComments = true;
 ```
- Bằng cách thiết lập`IsExportComments` ĐẾN`true`chúng tôi đang hướng dẫn Aspose.Cells đưa tất cả các bình luận từ tệp Excel vào đầu ra HTML. Đây là một tùy chọn đơn giản nhưng mạnh mẽ đảm bảo không có thông tin quan trọng nào bị mất trong quá trình chuyển đổi.
+ Bằng cách thiết lập`IsExportComments` ĐẾN`true`, chúng tôi đang hướng dẫn Aspose.Cells đưa tất cả các bình luận từ tệp Excel vào đầu ra HTML. Đây là một tùy chọn đơn giản nhưng mạnh mẽ đảm bảo không có thông tin quan trọng nào bị mất trong quá trình chuyển đổi.
 ## Bước 4: Lưu tệp Excel dưới dạng HTML
  Bây giờ chúng ta đã tải tệp Excel và cấu hình các tùy chọn xuất, bước cuối cùng là lưu tệp dưới dạng tài liệu HTML. Aspose.Cells giúp việc này trở nên cực kỳ dễ dàng. Tất cả những gì chúng ta cần làm là gọi`Save` phương pháp của chúng tôi`Workbook` đối tượng, truyền vào định dạng đầu ra và các tùy chọn mong muốn.
 Đây là mã:
@@ -59,7 +59,7 @@ string outputDir = "Your Document Directory";
 // Lưu sổ làm việc thành HTML với các bình luận được xuất
 wb.Save(outputDir + "outputExportCommentsHTML.html", opts);
 ```
- Trong bước này, chúng tôi sẽ lưu tệp Excel dưới dạng tài liệu HTML và xuất các bình luận cùng với nó. Chỉ cần thay thế`"Your Document Directory"` với thư mục thực tế mà bạn muốn lưu tệp HTML.
+ Trong bước này, chúng tôi sẽ lưu tệp Excel dưới dạng tài liệu HTML và xuất các bình luận cùng với nó. Chỉ cần thay thế`"Your Document Directory"`với thư mục thực tế mà bạn muốn lưu tệp HTML.
 ## Bước 5: Chạy ứng dụng của bạn
 Bây giờ mọi thứ đã được thiết lập, đã đến lúc chạy ứng dụng của bạn. Mở terminal (hoặc cửa sổ đầu ra của Visual Studio) và bạn sẽ thấy nội dung như thế này:
 ```plaintext
@@ -70,7 +70,7 @@ Thông báo này xác nhận rằng tệp đã được chuyển đổi thành H
 Và bạn đã có nó! Bạn vừa học cách xuất bình luận từ tệp Excel sang HTML bằng Aspose.Cells cho .NET. Quá trình này không chỉ đơn giản mà còn đảm bảo rằng không có ghi chú hoặc chú thích quan trọng nào của bạn bị bỏ lại khi chuyển đổi sang HTML. Cho dù bạn đang làm việc để tạo báo cáo động hay chỉ chuyển đổi tệp Excel để sử dụng trên web, tính năng này có thể thực sự hữu ích.
 ## Câu hỏi thường gặp
 ### Tôi có thể chỉ xuất những bình luận cụ thể từ tệp Excel sang HTML không?  
- Không, Aspose.Cells xuất tất cả các bình luận khi`IsExportComments` được đặt thành đúng. Tuy nhiên, bạn có thể tùy chỉnh các bình luận cần đưa vào bằng cách sửa đổi thủ công tệp Excel của mình trước khi xuất.
+Không, Aspose.Cells xuất tất cả các bình luận khi`IsExportComments` được đặt thành đúng. Tuy nhiên, bạn có thể tùy chỉnh các bình luận cần đưa vào bằng cách sửa đổi thủ công tệp Excel của mình trước khi xuất.
 ### Việc xuất bình luận có ảnh hưởng đến bố cục của tệp HTML không?  
 Hoàn toàn không! Aspose.Cells đảm bảo rằng bố cục vẫn nguyên vẹn trong khi các bình luận được thêm vào dưới dạng các thành phần bổ sung trong tệp HTML.
 ### Tôi có thể xuất bình luận sang các định dạng khác như PDF hoặc Word không?  

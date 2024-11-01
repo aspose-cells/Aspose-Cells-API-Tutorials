@@ -12,7 +12,7 @@ Har du någonsin undrat hur man automatiskt justerar kolumn- och radstorlekarna 
 ### Förutsättningar
 Innan du hoppar in i koden finns det några saker du måste ha konfigurerat på ditt system. Oroa dig inte, det är enkelt och okomplicerat!
 1. Visual Studio installerad: Du behöver Visual Studio eller någon annan .NET-utvecklingsmiljö.
-2.  Aspose.Cells för .NET: Du kan[ladda ner den senaste versionen](https://releases.aspose.com/cells/net/)eller använd NuGet-pakethanteraren för att installera den.
+2.  Aspose.Cells för .NET: Du kan[ladda ner den senaste versionen](https://releases.aspose.com/cells/net/) eller använd NuGet-pakethanteraren för att installera den.
 3. .NET Framework: Se till att du har .NET Framework 4.0 eller senare installerat.
 4. Grundläggande förståelse för C#: Att ha lite kunskap om C# kommer att göra denna handledning smidigare för dig.
 5. HTML-tabelldata: Förbered lite HTML-innehåll (även en grundläggande tabell) som du vill ladda in i Excel.
@@ -44,9 +44,9 @@ Vi definierar en mycket grundläggande HTML-sträng här. Den innehåller en tab
 ```csharp
 MemoryStream ms = new MemoryStream(Encoding.UTF8.GetBytes(sampleHtml));
 ```
- Genom att konvertera HTML-strängen till en byte-array och mata in den till en`MemoryStream`kan vi arbeta med HTML-data i minnet. Föreställ dig det här steget som att förbereda rätten i en kastrull innan du sätter in den i ugnen!
+ Genom att konvertera HTML-strängen till en byte-array och mata in den till en`MemoryStream`, kan vi arbeta med HTML-data i minnet. Föreställ dig det här steget som att förbereda rätten i en kastrull innan du sätter in den i ugnen!
 ## Steg 4: Ladda MemoryStream i en arbetsbok (utan automatisk anpassning)
- När vi väl har HTML-innehållet i minnet laddar vi in det i en Aspose`Workbook`. Vid det här laget anpassar vi inte kolumnerna och raderna automatiskt ännu. Detta är vårt "före"-scenario, för att jämföra med den automatiskt anpassade versionen senare.
+ När vi väl har HTML-innehållet i minnet laddar vi in det i en Aspose`Workbook`Vid det här laget anpassar vi inte kolumnerna och raderna automatiskt ännu. Detta är vårt "före"-scenario, för att jämföra med den automatiskt anpassade versionen senare.
 ```csharp
 Workbook wb = new Workbook(ms);
 wb.Save(dataDir + "outputWithout_AutoFitColsAndRows.xlsx");
@@ -60,7 +60,7 @@ opts.AutoFitColsAndRows = true;
 ```
 Genom att ställa in det här alternativet säger vi till Aspose.Cells att automatiskt ändra storlek på rader och kolumner. Föreställ dig att det här är att ställa in ugnen på perfekt temperatur så att kakan höjer sig lagom!
 ## Steg 6: Ladda HTML i arbetsboken med automatisk anpassning aktiverad
- Nu laddar vi HTML-innehållet igen, men den här gången med`AutoFitColsAndRows` alternativet aktiverat. Detta kommer att justera kolumnbredderna och radhöjderna baserat på innehållet i dem.
+ Nu laddar vi HTML-innehållet igen, men den här gången med`AutoFitColsAndRows`alternativet aktiverat. Detta kommer att justera kolumnbredderna och radhöjderna baserat på innehållet i dem.
 ```csharp
 wb = new Workbook(ms, opts);
 wb.Save(dataDir + "outputWith_AutoFitColsAndRows.xlsx");

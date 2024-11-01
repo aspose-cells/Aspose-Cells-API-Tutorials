@@ -64,7 +64,7 @@ Låt oss nu lägga till en rad i vårt arbetsblad:
 // Lägg till en rad i kalkylbladet
 Aspose.Cells.Drawing.LineShape line2 = worksheet.Shapes.AddLine(7, 0, 1, 0, 85, 250);
 ```
-I det här exemplet skapar vi en linjeform som börjar vid koordinater (7, 0) och slutar på (85, 250). Du kan justera dessa siffror för att anpassa storleken och positionen på din linje efter behov.
+det här exemplet skapar vi en linjeform som börjar vid koordinater (7, 0) och slutar på (85, 250). Du kan justera dessa siffror för att anpassa storleken och positionen på din linje efter behov.
 ## Steg 5: Anpassa linjen
 Du kan göra linjen mer visuellt tilltalande genom att ändra dess färg och vikt. Så här gör du:
 ```csharp

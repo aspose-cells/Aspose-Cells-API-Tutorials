@@ -16,7 +16,7 @@ url: /zh-hant/net/inserting-controls-in-charts/add-label-control-to-chart/
 在我們深入討論細節之前，讓我們先介紹一下在開始之前需要做的事情：
 
 - C# 基礎知識：了解 C# 程式設計基礎至關重要。如果您是初學者，請不要擔心 - 步驟將清晰簡潔。
--  Aspose.Cells 庫：確保您已安裝 Aspose.Cells 庫。您可以透過 Visual Studio 中的 NuGet 套件管理器來執行此操作。如果您還沒有，請查看[下載連結](https://releases.aspose.com/cells/net/)對於圖書館。
+- Aspose.Cells 庫：確保您已安裝 Aspose.Cells 庫。您可以透過 Visual Studio 中的 NuGet 套件管理器來執行此操作。如果您還沒有，請查看[下載連結](https://releases.aspose.com/cells/net/)對於圖書館。
 - Visual Studio：您需要像 Visual Studio 這樣的整合開發環境 (IDE) 來編寫和執行程式碼。
 
 ## 導入包
@@ -107,7 +107,7 @@ label.Text = "A Label In Chart";
 
 您可以在此處為您的作品命名。它可以幫助觀眾了解他們正在看的內容。
 
-## 步驟 7：設定放置類型
+## 第7步：設定放置類型
 
 現在，讓我們決定標籤相對於圖表的位置。在這裡，我們將其設定為自由浮動，這意味著它可以獨立於圖表元素移動。
 
@@ -141,7 +141,7 @@ Console.WriteLine("AddingLabelControlInChart executed successfully.");
 
 ## 結論
 
-現在你就得到它了！您已使用 Aspose.Cells for .NET 成功將標籤控制項新增至圖表。只需幾行程式碼，您就可以增強視覺化資料表示的清晰度，使其資訊更加豐富。請記住，無論您是在整理簡報還是深入進行資料分析，這些標籤都是非常寶貴的工具。
+現在你就擁有了！您已使用 Aspose.Cells for .NET 成功將標籤控制項新增至圖表。只需幾行程式碼，您就可以增強視覺化資料表示的清晰度，使其資訊更加豐富。請記住，無論您是在整理簡報還是深入進行資料分析，這些標籤都是非常寶貴的工具。
 
 ## 常見問題解答
 

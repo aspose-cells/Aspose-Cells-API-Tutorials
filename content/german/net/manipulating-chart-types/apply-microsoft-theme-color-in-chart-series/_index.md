@@ -101,7 +101,7 @@ Dies ist vergleichbar mit der Entscheidung über das Aussehen und die Atmosphär
 Als Nächstes müssen wir die Farbe für den Füllbereich des Diagramms definieren. So erwecken wir die von uns gewählte Farbe zum Leben.
 
 ```csharp
-// Holen Sie sich die CellsColor von SolidFill
+//Holen Sie sich die CellsColor von SolidFill
 CellsColor cc = chart.NSeries[0].Area.FillFormat.SolidFill.CellsColor;
 ```
 

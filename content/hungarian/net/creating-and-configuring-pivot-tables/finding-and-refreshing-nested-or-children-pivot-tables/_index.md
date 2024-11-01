@@ -66,7 +66,7 @@ for (int idx =0; idx < count; idx++)
 {
  // Hozzáférés a gyermek kimutatástáblához
  PivotTable ptChild = ptChildren[idx];
- // Frissítse a gyermek pivot táblát
+ // Frissítse a gyermek kimutatási táblázatot
  ptChild.RefreshData();
  ptChild.CalculateData();
 }

@@ -14,7 +14,7 @@ Innan du dyker in i kodens snålhet finns det några saker du måste ha till han
 1. Visual Studio: Helst bör du arbeta i en miljö som stöder .NET, som Visual Studio. Denna IDE gör det enkelt att skriva, testa och felsöka dina applikationer.
 2. Aspose.Cells Library: Du måste ha Aspose.Cells-biblioteket installerat. Du kan skaffa den via NuGet-pakethanteraren eller ladda ner den direkt från[Aspose hemsida](https://releases.aspose.com/cells/net/).
 3.  Exempelfiler: För demonstrationsändamål, se till att du har en bild (som`logo.jpg`) och en Excel-fil (`book1.xls`) att arbeta med. Dessa kommer att hänvisas till i koden.
-4. Grundläggande förståelse för C#: Bekantskap med C# hjälper dig att förstå stegen och göra ändringar vid behov.
+4. Grundläggande förståelse för C#: Bekantskap med C# hjälper dig att förstå stegen och göra ändringar om det behövs.
 När du har allt på plats är det dags att kavla upp ärmarna och sätta igång med att infoga OLE-objekt i Excel!
 ## Importera paket
 För att manipulera Excel-filer med Aspose.Cells måste du först importera de nödvändiga paketen. Lägg till följande namnområden överst i din C#-fil:

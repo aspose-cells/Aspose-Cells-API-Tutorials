@@ -8,7 +8,7 @@ weight: 14
 url: /it/java/excel-import-export/exporting-excel-to-pdf/
 ---
 
-In questa guida completa, ti guideremo attraverso il processo di esportazione di un file Excel in un documento PDF utilizzando la libreria Aspose.Cells for Java. Questa libreria consente agli sviluppatori Java di lavorare con file Excel a livello di programmazione e fornisce un solido supporto per vari formati di file, incluso il PDF. Seguendo questi passaggi dettagliati, acquisirai una profonda comprensione di come convertire senza problemi i file Excel in formato PDF.
+In questa guida completa, ti guideremo attraverso il processo di esportazione di un file Excel in un documento PDF utilizzando la libreria Aspose.Cells for Java. Questa libreria consente agli sviluppatori Java di lavorare con file Excel a livello di programmazione e fornisce un solido supporto per vari formati di file, incluso PDF. Seguendo questi passaggi dettagliati, acquisirai una profonda comprensione di come convertire senza problemi i file Excel in formato PDF.
 
 ## Prerequisiti
 

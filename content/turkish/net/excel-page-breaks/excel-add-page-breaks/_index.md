@@ -118,4 +118,4 @@ Aspose.Cells ücretsiz deneme sürümü sunarken, uzun vadeli projelerde kullan�
 
 ### Aspose desteği için bir topluluk var mı?
 
-Kesinlikle! Destek ve tartışmalar için Aspose topluluk forumuna erişebilirsiniz[Burada](https://forum.aspose.com/c/cells/9).
+ Kesinlikle! Destek ve tartışmalar için Aspose topluluk forumuna erişebilirsiniz[Burada](https://forum.aspose.com/c/cells/9).

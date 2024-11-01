@@ -26,7 +26,7 @@ using System;
 Ces importations donnent accès aux principales classes Aspose.Cells et à la bibliothèque de dessin système native de .NET pour la gestion des couleurs.
 
 Maintenant que tout est en place, décomposons cette tâche en étapes digestes :
-## Étape 1 : Configurer l’objet Classeur
+## Étape 1 : Configurer l’objet classeur
  La première chose que nous devons faire est d'instancier un`Workbook` objet et chargez le fichier Excel avec lequel nous voulons travailler. C'est ici que le voyage commence !
 ```csharp
 // Le chemin vers le répertoire des documents.

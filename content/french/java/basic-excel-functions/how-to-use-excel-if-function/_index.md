@@ -101,4 +101,4 @@ Absolument ! Vous pouvez appliquer la fonction SI d'Excel à une plage de cellul
 
 ### Aspose.Cells pour Java est-il adapté aux applications de niveau entreprise ?
 
-Oui, Aspose.Cells for Java est une bibliothèque robuste adaptée aux applications à petite et à grande échelle. Elle offre des fonctionnalités étendues pour travailler avec des fichiers Excel, ce qui en fait un outil précieux pour divers scénarios d'entreprise.
+Oui, Aspose.Cells pour Java est une bibliothèque robuste adaptée aux applications à petite et à grande échelle. Elle offre des fonctionnalités étendues pour travailler avec des fichiers Excel, ce qui en fait un outil précieux pour divers scénarios d'entreprise.

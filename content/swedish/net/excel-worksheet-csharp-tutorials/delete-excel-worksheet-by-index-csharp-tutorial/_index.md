@@ -16,7 +16,7 @@ Excel har väl blivit en integrerad del av vårt arbetsliv? Vi befinner oss ofta
 Innan vi dyker in i koden, låt oss se till att du har allt klart. Här är vad du behöver:
 
 1. Grundläggande kunskaper i C#: Du bör vara bekväm med att skriva grundläggande C#-program. Om du kan skapa och köra en enkel C#-applikation är du redo!
-2.  Aspose.Cells Library: Detta är vårt huvudverktyg. Du måste ladda ner och installera Aspose.Cells-biblioteket för .NET. Du kan hitta de nödvändiga filerna[här](https://releases.aspose.com/cells/net/). 
+2.  Aspose.Cells Library: Detta är vårt huvudsakliga verktyg. Du måste ladda ner och installera Aspose.Cells-biblioteket för .NET. Du kan hitta de filer som krävs[här](https://releases.aspose.com/cells/net/). 
 3. Visual Studio eller vilken C# IDE som helst: Du behöver en integrerad utvecklingsmiljö (IDE) som Visual Studio för att skriva och köra din kod. Om det har gått en minut sedan du senast öppnade den, är det dags att damma av det nu!
 4.  En befintlig Excel-fil: Se till att du har en Excel-fil till hands som du vill arbeta med. För den här handledningen kommer vi att använda`book1.xls`, men du kan använda vad du vill – se bara till att det är i rätt format.
 

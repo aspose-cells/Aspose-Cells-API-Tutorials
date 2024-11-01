@@ -50,7 +50,7 @@ using Aspose.Cells.Charts;
 // 출력 디렉토리
 string outputDir = "Your Output Directory";
 ```
- 바꾸다`"Your Output Directory"` 생성된 Excel 파일을 저장할 실제 경로를 입력합니다.
+ 바꾸다`"Your Output Directory"`생성된 Excel 파일을 저장할 실제 경로를 입력합니다.
 
 ## 2단계: 통합 문서 개체 인스턴스화
 

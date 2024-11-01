@@ -29,7 +29,7 @@ Lệnh này nhập mọi thứ chúng ta cần từ thư viện Aspose để tha
 ```csharp
 string dataDir = "Your Document Directory";
 ```
- Thay thế`"Your Document Directory"` với con đường thực tế nơi bạn`book1.xls`được lưu trữ. Điều này cho chương trình biết nơi tìm tệp Excel mà chúng ta sẽ thao tác.
+ Thay thế`"Your Document Directory"` với con đường thực tế nơi bạn`book1.xls` được lưu trữ. Điều này cho chương trình biết nơi tìm tệp Excel mà chúng ta sẽ thao tác.
 ## Bước 2: Tạo một Workbook mới
 Tiếp theo, chúng ta sẽ tạo một phiên bản mới của đối tượng Workbook. Điều này sẽ cho phép chúng ta mở và chỉnh sửa tệp Excel của mình.
 ```csharp
@@ -51,7 +51,7 @@ ca.StartColumn = 1;
 ca.EndRow = 18; // C19
 ca.EndColumn = 2;
 ```
- Ở đây, chúng tôi định nghĩa một`CellArea`chỉ định phạm vi mà chúng ta quan tâm. Trong trường hợp này, chúng ta đã chọn vùng từ B3 (Hàng 2, Cột 1) đến C19 (Hàng 18, Cột 2). Đây là nơi chúng ta sẽ tính tổng phụ của mình.
+ Ở đây, chúng tôi định nghĩa một`CellArea` chỉ định phạm vi mà chúng ta quan tâm. Trong trường hợp này, chúng ta đã chọn vùng từ B3 (Hàng 2, Cột 1) đến C19 (Hàng 18, Cột 2). Đây là nơi chúng ta sẽ tính tổng phụ của mình.
 ## Bước 5: Áp dụng Tổng phụ
 Đây là cốt lõi trong hoạt động của chúng tôi – áp dụng tổng phụ vào diện tích ô đã xác định.
 ```csharp
@@ -60,7 +60,7 @@ cells.Subtotal(ca, 0, ConsolidationFunction.Sum, new int[] { 1 });
  Trong dòng này, chúng ta gọi là`Subtotal` phương pháp. Các tham số được xác định là:
 - `ca`: Phạm vi ô mà chúng ta đã xác định trước đó.
 - `0`: Chỉ mục này đề cập đến cột chứa các giá trị cần tính tổng phụ. 
-- `ConsolidationFunction.Sum`: Điều này chỉ rõ rằng chúng ta muốn tính tổng các giá trị.
+- `ConsolidationFunction.Sum`Điều này chỉ rõ rằng chúng ta muốn tính tổng các giá trị.
 - `new int[] { 1 }`:Điều này cho biết chúng ta đang tính tổng các giá trị từ cột thứ hai (Cột C).
 ## Bước 6: Lưu tệp Excel đã sửa đổi
 Cuối cùng, chúng ta cần lưu những thay đổi vào một tệp Excel mới. 

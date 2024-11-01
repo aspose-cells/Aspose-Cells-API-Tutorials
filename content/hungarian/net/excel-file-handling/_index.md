@@ -19,7 +19,7 @@ Az Aspose.Cells for .NET egyik leghasznosabb funkciója az egyéni tulajdonságo
 
 Előfordult már, hogy csalódott volt az Excel-táblázatok üres sorai miatt? Eldobhatják a formázást, és zavarossá tehetik az adatokat. Szerencsére az Aspose.Cells hátat kapott! Ez az oktatóanyag bemutatja, hogyan lehet érintetlenül tartani az üres sorokhoz tartozó bosszantó elválasztókat. Képzelje el a táblázatát egy jól feltérképezett útnak; minden szegmensnek egyértelműnek kell lennie a navigációhoz. Ebből az útmutatóból megtudhatja, hogyan kezelheti hatékonyan ezeket az üres utakat. Érdekelne, hogyan készül? Nézze meg a[részletes útmutató itt](./keep-separators-for-blank-rows/).
 
-## Csak a látható lapok betöltése Excel fájlból
+## Csak látható lapok betöltése Excel fájlból
 
 Néha csak azokra a lapokra szeretne koncentrálni, amelyekkel éppen dolgozik, igaz? Itt ragyog a harmadik tutorial! Ha csak látható lapokat tölt be egy Excel-fájlból, akkor arra koncentrálhat, ami a legfontosabb. Ez olyan, mint a munkaterület tisztítása, a zavaró tényezők megszüntetése a termelékenység növelése érdekében. Ez a lépésenkénti útmutató pontosan bemutatja a folyamatok egyszerűsítését. Ha ez olyasminek tűnik, amiből hasznot húzhat, ne habozzon megnézni a teljes utasítást[itt](./load-visible-sheets-only/).
 
@@ -28,5 +28,5 @@ Néha csak azokra a lapokra szeretne koncentrálni, amelyekkel éppen dolgozik, 
 Ebben a lépésenkénti útmutatóban megtudhatja, hogyan exportálhat egyéni tulajdonságokat Excelből PDF-be az Aspose.Cells for .NET használatával. Egyszerűsítse adatmegosztását.
 ### [Tartsa az üres sorok elválasztóit az Excelben](./keep-separators-for-blank-rows/)
 Ismerje meg, hogyan tarthat elválasztókat üres sorokhoz az Excelben az Aspose.Cells for .NET használatával. Lépésről lépésre útmutató kódpéldákkal.
-### [Csak a látható lapok betöltése Excel fájlból](./load-visible-sheets-only/)
+### [Csak látható lapok betöltése Excel fájlból](./load-visible-sheets-only/)
 Ebből a lépésenkénti útmutatóból megtudhatja, hogyan tölthet be csak látható lapokat Excel-fájlokból az Aspose.Cells for .NET segítségével.

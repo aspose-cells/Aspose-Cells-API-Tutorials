@@ -70,7 +70,7 @@ using Aspose.Cells;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- 팁: 교체`"YOUR DOCUMENT DIRECTORY"`Excel 파일이 있는 실제 경로(이름을 지정하겠습니다)`book1.xls`)이 위치해 있습니다. 
+ 팁: 교체`"YOUR DOCUMENT DIRECTORY"` Excel 파일이 있는 실제 경로(이름을 지정하겠습니다)`book1.xls`)이 위치해 있습니다. 
 
 ## 2단계: 통합 문서 개체 인스턴스화
 

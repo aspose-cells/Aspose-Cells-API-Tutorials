@@ -100,7 +100,7 @@ Workbook workbook = new Workbook(sourceDir + "sampleModifyPieChart.xlsx");
 Worksheet sheet = workbook.Worksheets[1];
 ```
 
- โดยการเข้าถึง`Worksheets`การรวบรวม เราสามารถรับแผ่นงานเฉพาะที่เราต้องการได้
+ โดยการเข้าถึง`Worksheets` การรวบรวม เราสามารถรับแผ่นงานเฉพาะที่เราต้องการได้
 
 ## ขั้นตอนที่ 4: รับแผนภูมิ
 

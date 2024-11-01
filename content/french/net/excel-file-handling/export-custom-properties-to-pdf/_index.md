@@ -69,7 +69,7 @@ En définissant cette propriété, les propriétés personnalisées de votre doc
 ## Étape 5 : Enregistrer le classeur au format PDF
 Maintenant que tout est configuré, il est temps d'enregistrer votre classeur sous forme de fichier PDF en utilisant les options définies.
 ```csharp
-// Enregistrez le classeur au format PDF tout en passant l'objet de PdfSaveOptions
+// Enregistrez le classeur au format PDF en passant l'objet de PdfSaveOptions
 workbook.Save(outputDir + "outSampleWithCustProps.pdf", pdfSaveOpt);
 ```
  Dans cette ligne,`outSampleWithCustProps.pdf` sera le nom de votre nouveau fichier PDF, assurez-vous donc qu'il est unique pour éviter tout écrasement.

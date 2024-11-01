@@ -74,7 +74,7 @@ Slutligen sparar vi den modifierade arbetsboken med det nya temat tillämpat:
 ```csharp
 workbook.Save(dataDir + "output.out.xlsx");
 ```
- Denna rad sparar vår uppdaterade fil som`output.out.xlsx` i samma katalog. Öppna den här filen senare för att se ditt anpassade tema i aktion!
+ Den här raden sparar vår uppdaterade fil som`output.out.xlsx` i samma katalog. Öppna den här filen senare för att se ditt anpassade tema i aktion!
 ## Slutsats
 Och där har du det! Att anpassa Excel-teman programmatiskt med Aspose.Cells för .NET är inte bara enkelt utan också ett bra sätt att få dina kalkylblad att sticka ut. Oavsett om du förbättrar presentationen eller ser till att ditt varumärke är konsekvent i alla dokument, öppnar kraften att ändra teman på programmatisk nivå en värld av möjligheter.
 ## FAQ's

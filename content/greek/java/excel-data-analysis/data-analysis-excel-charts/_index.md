@@ -40,7 +40,7 @@ url: /el/java/excel-data-analysis/data-analysis-excel-charts/
 // Φόρτωση δεδομένων από ένα αρχείο CSV
 Workbook workbook = new Workbook("data.csv");
 
-// Φόρτωση δεδομένων από μια βάση δεδομένων
+// Φόρτωση δεδομένων από βάση δεδομένων
 String connectionString = "jdbc:your_database_connection_string";
 String query = "SELECT * FROM your_table";
 QueryTable queryTable = workbook.getWorksheets().get(0).getQueryTables().addQueryTable(query, connectionString);

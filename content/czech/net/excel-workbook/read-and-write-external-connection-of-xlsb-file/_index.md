@@ -134,4 +134,4 @@ Soubor XLSB je binární formát souboru aplikace Excel, který ukládá data ta
 Absolutně! Aspose.Cells podporuje různé formáty souborů, včetně XLSX, CSV a dalších.
 
 ### Kde mohu vyhledat pomoc, pokud narazím na problémy?  
- Podporu můžete získat na fórech Aspose[zde](https://forum.aspose.com/c/cells/9).
+Podporu můžete získat na fórech Aspose[zde](https://forum.aspose.com/c/cells/9).

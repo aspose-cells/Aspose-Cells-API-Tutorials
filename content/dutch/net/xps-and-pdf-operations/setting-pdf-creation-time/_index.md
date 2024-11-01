@@ -15,7 +15,7 @@ Voordat we in de details van de code duiken, controleren we eerst of u alles heb
 1. Visual Studio: Zorg ervoor dat Visual Studio op uw machine is geïnstalleerd. Dit wordt uw ontwikkelomgeving.
 2.  Aspose.Cells voor .NET: Download de Aspose.Cells-bibliotheek van de[website](https://releases.aspose.com/cells/net/)U kunt ook beginnen met een gratis proefperiode om de functionaliteiten te testen.
 3. Basiskennis van C#: Kennis van C#-programmering helpt u de codefragmenten beter te begrijpen.
-4. Excel-bestand: Zorg dat u een Excel-bestand gereed hebt voor conversie. Voor dit voorbeeld gebruiken we een bestand met de naam`Book1.xlsx`.
+4.  Excel-bestand: Zorg dat u een Excel-bestand gereed hebt voor conversie. Voor dit voorbeeld gebruiken we een bestand met de naam`Book1.xlsx`.
 Nu je alle vereisten hebt geregeld, kunnen we beginnen met het leukste gedeelte: de benodigde pakketten importeren en de code schrijven!
 ## Pakketten importeren
 Om te beginnen moet u de vereiste namespaces importeren in uw C#-bestand. Dit is cruciaal omdat u hiermee toegang krijgt tot de klassen en methoden die worden aangeboden door de Aspose.Cells-bibliotheek.

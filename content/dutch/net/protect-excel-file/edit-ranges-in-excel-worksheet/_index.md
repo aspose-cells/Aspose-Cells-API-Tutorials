@@ -128,7 +128,7 @@ We hebben eindelijk de laatste stap in onze tutorial bereikt: het opslaan van de
 book.Save(dataDir + "protectedrange.out.xls");
 ```
 
- Hiermee wordt uw beveiligde werkmap opgeslagen als`protectedrange.out.xls` in de door u opgegeven directory.
+Hiermee wordt uw beveiligde werkmap opgeslagen als`protectedrange.out.xls` in de door u opgegeven directory.
 
 ## Conclusie
 

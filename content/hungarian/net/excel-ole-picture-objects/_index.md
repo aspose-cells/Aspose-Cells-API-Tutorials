@@ -23,7 +23,7 @@ Merüljön el az Aspose.Cells for .NET világában az Excel OLE-re és képobjek
 
  A látványelemek hozzáadása az Excel-lapokhoz nem csak az esztétikáról szól; ez segít abban, hogy adatait még jobban összehasonlíthatóvá tegye. A miénkben[Kép hozzáadása az Excel munkalaphoz](./add-picture-to-excel/)bemutató, megmutatjuk, hogyan építhet be zökkenőmentesen képeket a táblázataiba. De várj, ezeknek a képeknek a pozicionálása ugyanolyan fontos! Abszolút vagy arányosan szeretné elhelyezni őket? Mindkét forgatókönyvhöz külön oktatóanyagaink vannak. Nézze meg[Képek pozicionálása (abszolút) Excelben](./position-picture-absolute-excel/) és[Képek pozicionálása (arányos) Excelben](./position-picture-proportional-excel/) minden részletért.
 
- És ne feledkezzünk meg a képek hivatkozásáról sem! Oktatóanyagunk a[Hivatkozás a képcellára az Excelben](./reference-picture-cell-excel/) megtanítja Önnek, hogyan kapcsoljon össze bizonyos képeket a cellákhoz, és ezzel egy extra szervezési stílust ad a táblázatokhoz. 
+ És ne feledkezzünk meg a képek hivatkozásáról sem! Oktatóanyagunk a[Hivatkozás a képcellára Excelben](./reference-picture-cell-excel/) megtanítja Önnek, hogyan kapcsoljon össze bizonyos képeket a cellákhoz, és ezzel egy extra szervezési stílust ad a táblázatokhoz. 
 
 ## Excel OLE és Picture Objects oktatóanyagok
 ### [Az OLE objektum kibontása az Excelből](./extract-ole-object-from-excel/)

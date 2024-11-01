@@ -82,7 +82,7 @@ workbook.save("output.xlsx");
 
 ### 如何更改動畫類型？
 
-若要變更動畫類型，請使用`setAnimationType`圖表物件上的方法。您可以選擇多種類型，例如`SLIDE`, `FADE`， 和`GROW_SHRINK`.
+若要變更動畫類型，請使用`setAnimationType`圖表物件上的方法。您可以選擇多種類型，例如`SLIDE`, `FADE` ， 和`GROW_SHRINK`.
 
 ### 我可以自訂動畫持續時間嗎？
 

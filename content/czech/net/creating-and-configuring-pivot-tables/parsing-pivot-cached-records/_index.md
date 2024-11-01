@@ -41,7 +41,7 @@ string sourceDir = "Your Document Directory";
 string outputDir = "Your Document Directory";
 ```
  Nahradit`"Your Document Directory"` se skutečnou cestou, kde jsou uloženy vaše soubory Excel. Tento krok je zásadní, protože pokud nejsou adresáře správně nastaveny, nemůžeme najít naše soubory, stejně jako se ztratíme na moři!
-## Krok 2: Vytvořte možnosti načtení
+## Krok 2: Vytvořte možnosti načítání
 Dále musíme vytvořit instanci`LoadOptions`. Zde můžeme nastavit některé parametry pro to, jak chceme načíst náš soubor Excel.
 ```csharp
 //Vytvořte možnosti zatížení

@@ -22,7 +22,7 @@ Sebelum kita mulai menerapkannya, pastikan Anda memiliki prasyarat berikut:
 
 ## Menyiapkan Aspose.Cells untuk Java
 
- Untuk memulai, Anda perlu menyiapkan Aspose.Cells untuk Java di proyek Anda. Anda dapat mengunduh pustaka dari situs web Aspose[Di Sini](https://releases.aspose.com/cells/java/)Setelah diunduh, tambahkan pustaka tersebut ke proyek Java Anda.
+Untuk memulai, Anda perlu menyiapkan Aspose.Cells untuk Java di proyek Anda. Anda dapat mengunduh pustaka dari situs web Aspose[Di Sini](https://releases.aspose.com/cells/java/)Setelah diunduh, tambahkan pustaka tersebut ke proyek Java Anda.
 
 ## Membuat Buku Kerja Excel
 

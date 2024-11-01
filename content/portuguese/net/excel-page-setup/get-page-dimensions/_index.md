@@ -44,7 +44,7 @@ Para usar Aspose.Cells, você precisa adicionar referências à biblioteca:
 
 ### Adicionar diretivas de uso
 
- No topo do seu`Program.cs`arquivo, insira esta diretiva using para acessar a funcionalidade Aspose.Cells:
+ No topo do seu`Program.cs` arquivo, insira esta diretiva using para acessar a funcionalidade Aspose.Cells:
 
 ```csharp
 using System;
@@ -59,7 +59,7 @@ Agora vamos explorar como recuperar as dimensões de vários tamanhos de papel s
 
 ## Etapa 1: Crie uma instância da classe Workbook
 
-A primeira coisa que você precisa fazer é criar uma instância da classe Workbook a partir de Aspose.Cells. Esta classe representa um arquivo Excel.
+primeira coisa que você precisa fazer é criar uma instância da classe Workbook a partir de Aspose.Cells. Esta classe representa um arquivo Excel.
 
 ```csharp
 Workbook book = new Workbook();

@@ -12,7 +12,7 @@ När du arbetar med Excel-filer i .NET framstår Aspose.Cells-biblioteket som et
 ## Förutsättningar
 Innan vi hoppar in i koden, låt oss förse dig med allt som behövs för att följa med sömlöst. Här är vad du bör ha:
 1. Visual Studio: Se till att du har Visual Studio installerat på din dator. Det är där vi ska skriva och testa vår .NET-applikation.
-2. Aspose.Cells Library: Du måste ladda ner Aspose.Cells-biblioteket. Du kan få den senaste versionen[här](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells Library: Du måste ladda ner Aspose.Cells-biblioteket. Du kan få den senaste versionen[här](https://releases.aspose.com/cells/net/).
 3. .NET Framework: Se till att du har en kompatibel .NET Framework-version för Aspose.Cells, som vanligtvis fungerar med .NET Framework 4.0 och senare.
 4. Grundläggande förståelse för C#: Ett grundläggande grepp om C#-programmering kommer att vara fördelaktigt. Oroa dig inte; vi förklarar allt steg för steg!
 5.  Filsökväg: Bestäm var du vill spara utdatafilerna. Skapa en katalog med namnet`Your Document Directory` för enkelhetens skull.
@@ -33,7 +33,7 @@ string dataDir = "Your Document Directory/";
 // Sökväg för arbetsboksfilen
 string filePath = dataDir + "Book1.xls";
 ```
-I det här steget anger du var din ursprungliga Excel-fil finns och var utdatafilerna ska sparas. Easy peasy, eller hur?
+det här steget anger du var din ursprungliga Excel-fil finns och var utdatafilerna ska sparas. Easy peasy, eller hur?
 ## Steg 2: Ladda arbetsboken
 Nu när din katalogsökväg är på plats är det dags att ladda din Excel-arbetsbok. Detta steg är avgörande eftersom det förbereder din fil för manipulation.
 ```csharp
@@ -47,9 +47,9 @@ Ibland kan du behöva spara dina filer i ett äldre format för kompatibilitet. 
 // Spara i Excel 97–2003-format
 workbook.Save(dataDir + "output.xls");
 ```
- Den här raden sparar din arbetsbok med hjälp av`.xls`extension, vilket är Excel-formatet för versioner före 2007. Det är som att skicka ett brev via posten för att säkerställa att det når en äldre mottagare!
+ Den här raden sparar din arbetsbok med hjälp av`.xls` extension, vilket är Excel-formatet för versioner före 2007. Det är som att skicka ett brev via posten för att säkerställa att det når en äldre mottagare!
 ## Steg 4: Spara i Excel 2007-format
- Om du siktar på att använda funktioner från Excel 2007 och senare, spara in`.xlsx` format är vägen att gå. Så här gör du:
+Om du siktar på att använda funktioner från Excel 2007 och senare, spara in`.xlsx` format är vägen att gå. Så här gör du:
 ```csharp
 // Spara i Excel 2007 xlsx-format
 workbook.Save(dataDir + "output.xlsx");

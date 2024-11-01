@@ -16,7 +16,7 @@ url: /ru/net/working-with-fonts-in-excel/customizing-super-script-effect/
 ### 2. .NET Framework или .NET Core
 Убедитесь, что у вас установлена правильная версия .NET. Aspose.Cells для .NET без проблем работает как с .NET Framework, так и с .NET Core.
 ### 3. Библиотека Aspose.Cells
- Вам понадобится библиотека Aspose.Cells. Вы можете скачать ее[здесь](https://releases.aspose.com/cells/net/). Это необходимо для работы с файлами Excel в вашем проекте.
+Вам понадобится библиотека Aspose.Cells. Вы можете скачать ее[здесь](https://releases.aspose.com/cells/net/). Это необходимо для работы с файлами Excel в вашем проекте.
 ### 4. Базовое понимание C#
 Полезно, хотя и не обязательно, иметь представление о C#. Мы будем писать код, который использует библиотеку для работы с файлом Excel, и знание C# поможет вам лучше его понять.
 ### 5. IDE для работы

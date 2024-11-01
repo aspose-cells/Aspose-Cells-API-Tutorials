@@ -69,7 +69,7 @@ Most itt az ideje egy új munkafüzet létrehozásának. Lényegében itt fog é
 Workbook workbook = new Workbook();
 ```
 
- Itt egy újat hirdetünk`Workbook`objektum, amely egy Excel fájlt képvisel, és lehetővé teszi számunkra, hogy módosítsuk a tartalmát.
+ Itt egy újat hirdetünk`Workbook` objektum, amely egy Excel fájlt képvisel, és lehetővé teszi számunkra, hogy módosítsuk a tartalmát.
 
 ## 3. lépés: Nyissa meg az első munkalapot
 

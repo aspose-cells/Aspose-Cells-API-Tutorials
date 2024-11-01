@@ -46,4 +46,4 @@ Naučte se používat barvy motivu Microsoft v řadách grafů pomocí Aspose.Ce
 ### [Upravit spojnicový graf](./modify-line-chart/)
 Naučte se upravovat spojnicové grafy v Excelu pomocí Aspose.Cells for .NET pomocí tohoto podrobného průvodce krok za krokem.
 ### [Upravit výsečový graf](./modify-pie-chart/)
-Odemkněte sílu Aspose.Cells pro .NET a bez námahy upravujte své výsečové grafy Excel. Postupujte podle tohoto návodu, kde najdete podrobné pokyny.
+Odemkněte sílu Aspose.Cells pro .NET a bez námahy upravujte své výsečové grafy Excel. Postupujte podle tohoto návodu, kde najdete pokyny krok za krokem.

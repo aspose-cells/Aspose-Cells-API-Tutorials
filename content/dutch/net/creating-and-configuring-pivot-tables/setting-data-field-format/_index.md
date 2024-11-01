@@ -1,8 +1,8 @@
 ---
-title: Het instellen van het formaat van gegevensvelden via een programma in .NET
-linktitle: Het instellen van het formaat van gegevensvelden via een programma in .NET
+title: Gegevensveldformaat programmatisch instellen in .NET
+linktitle: Gegevensveldformaat programmatisch instellen in .NET
 second_title: Aspose.Cells .NET Excel-verwerkings-API
-description: Masterinstelling van gegevensveldformaten in draaitabellen met Aspose.Cells voor .NET met deze stapsgewijze tutorial. Verbeter uw Excel-gegevensformattering.
+description: Beheers het instellen van gegevensveldformaten in draaitabellen met Aspose.Cells voor .NET met deze stapsgewijze tutorial. Verbeter uw Excel-gegevensformattering.
 type: docs
 weight: 19
 url: /nl/net/creating-and-configuring-pivot-tables/setting-data-field-format/

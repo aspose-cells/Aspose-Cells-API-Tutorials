@@ -18,7 +18,7 @@ Anda harus memiliki pemahaman dasar tentang C# dan kerangka kerja .NET, karena k
 ### Lingkungan Pengembangan
 IDE yang kompatibel seperti Visual Studio direkomendasikan untuk mengembangkan aplikasi .NET Anda. 
 ### File Excel Dasar
- Anda akan memerlukan contoh file Excel (kami menyebutnya sebagai`sampleDuplicateDefinedName.xlsx`yang mungkin berisi nama duplikat yang ditentukan untuk menguji fungsi ini.
+ Anda akan memerlukan contoh file Excel (kami menyebutnya sebagai`sampleDuplicateDefinedName.xlsx`) yang mungkin berisi nama duplikat yang ditentukan untuk menguji fungsi ini.
 ## Mengimpor Paket
 Setelah semuanya siap, mari kita bahas paket-paket yang akan Anda perlukan. Pastikan untuk menyertakan namespace berikut di bagian atas berkas C# Anda:
 ```csharp
@@ -43,7 +43,7 @@ string dataDir = "Your Document Directory";
 LoadOptions options = new LoadOptions();
 options.WarningCallback = new WarningCallback();
 ```
- Di sini, kita membuat yang baru`LoadOptions` objek dan mengaitkannya dengan kita`WarningCallback`class (yang akan kita definisikan selanjutnya). Pengaturan ini penting agar program kita dapat menangani peringatan dengan baik.
+ Di sini, kita membuat yang baru`LoadOptions` objek dan mengaitkannya dengan kita`WarningCallback` class (yang akan kita definisikan selanjutnya). Pengaturan ini penting agar program kita dapat menangani peringatan dengan baik.
 ## Langkah 3: Muat File Excel Sumber
  Saatnya untuk benar-benar memuat file Excel tersebut! Di sinilah Anda memanggil`Workbook` kelas untuk memuat berkas Anda beserta opsi yang telah kami definisikan sebelumnya:
 ```csharp
@@ -81,6 +81,6 @@ Aspose.Cells adalah pustaka .NET yang canggih untuk membuat, memanipulasi, dan m
 ### Bagaimana saya dapat membeli Aspose.Cells?
  Anda dapat membeli Aspose.Cells langsung dari mereka[halaman pembelian](https://purchase.aspose.com/buy).
 ### Jenis peringatan apa yang dapat saya tangani?
- Anda dapat menangani berbagai peringatan seperti nama yang ditentukan duplikat, peringatan rumus, dan peringatan gaya menggunakan`WarningCallback`.
+Anda dapat menangani berbagai peringatan seperti nama yang ditentukan duplikat, peringatan rumus, dan peringatan gaya menggunakan`WarningCallback`.
 ### Di mana saya dapat menemukan dokumentasi tentang Aspose.Cells?
  Anda dapat memeriksa yang komprehensif[dokumentasi disini](https://reference.aspose.com/cells/net/).

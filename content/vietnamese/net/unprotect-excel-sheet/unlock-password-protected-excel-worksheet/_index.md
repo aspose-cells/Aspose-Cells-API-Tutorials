@@ -13,7 +13,7 @@ Bạn đã bao giờ thấy mình bị khóa ngoài một bảng tính Excel, nh
 
 ## Điều kiện tiên quyết
 
-Trước khi đi sâu vào chi tiết để mở khóa bảng tính đó, bạn cần chuẩn bị một số thứ sau:
+Trước khi đi sâu vào chi tiết để mở khóa bảng tính này, bạn cần chuẩn bị một số thứ sau:
 
 ### Môi trường .NET
 
@@ -70,7 +70,7 @@ Trước tiên, chúng ta cần thiết lập đường dẫn đến tài liệu
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Mẹo: Thay thế`"YOUR DOCUMENT DIRECTORY"`với đường dẫn thực tế nơi tệp Excel của bạn (hãy gọi nó là`book1.xls`) nằm ở đâu. 
+ Mẹo: Thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế nơi tệp Excel của bạn (hãy gọi nó là`book1.xls`) nằm ở đâu. 
 
 ## Bước 2: Khởi tạo một đối tượng Workbook
 

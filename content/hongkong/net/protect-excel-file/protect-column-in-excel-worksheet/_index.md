@@ -15,7 +15,7 @@ url: /zh-hant/net/protect-excel-file/protect-column-in-excel-worksheet/
 
 在我們開始資料保護之旅之前，您需要先完成以下幾件事：
 
-1. Visual Studio：確保您的電腦上安裝了 Visual Studio。這是一個適合 .NET 開發的友善環境。
+1. Visual Studio：確保您的電腦上安裝了 Visual Studio。這是一個適合.NET 開發的友善環境。
 2.  Aspose.Cells 函式庫：您需要 Aspose.Cells for .NET 函式庫。如果您還沒有安裝，可以從[Aspose.Cells 下載頁面](https://releases.aspose.com/cells/net/).
 3. C# 基礎知識：熟悉 C# 程式設計將有助於您更好地理解程式碼。
 4. .NET Framework：確保您已設定 .NET Framework。此程式庫可與 .NET Framework 和 .NET Core 無縫協作。
@@ -27,7 +27,7 @@ url: /zh-hant/net/protect-excel-file/protect-column-in-excel-worksheet/
 與任何編碼冒險一樣，第一步是收集物資。在我們的例子中，這意味著將 Aspose.Cells 庫匯入到您的專案中。您可以這樣做：
 
 1. 在 Visual Studio 中開啟 C# 專案。
-2. 在解決方案資源管理器中，請以滑鼠右鍵按一下該專案並選擇「管理 NuGet 套件」。
+2. 在解決方案資源管理器中，請以滑鼠右鍵按一下專案並選擇管理 NuGet 套件。
 3. 搜尋`Aspose.Cells`並點擊“安裝”。
 4. 安裝後，您可以開始在程式碼中使用該庫。
 
@@ -155,7 +155,7 @@ wb.Save(dataDir + "output.out.xls", SaveFormat.Excel97To2003);
 
 ## 結論
 
-現在你就得到它了！只需幾個步驟，您就學會如何使用 Aspose.Cells for .NET 保護 Excel 工作表中的特定欄位。透過遵循這些簡單的說明，您不僅可以保護您的數據，還可以確保您的 Excel 文件保持可靠和安全。
+現在你就擁有了！只需幾個步驟，您就學會如何使用 Aspose.Cells for .NET 保護 Excel 工作表中的特定欄位。透過遵循這些簡單的說明，您不僅可以保護您的數據，還可以確保您的 Excel 文件保持可靠和安全。
 
 ## 常見問題解答
 

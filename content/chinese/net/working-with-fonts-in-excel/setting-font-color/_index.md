@@ -86,7 +86,7 @@ Style style = cell.GetStyle();
 style.Font.Color = Color.Blue;
 //扩展结束:设置字体颜色
 ```
-第一条评论`ExStart:SetFontColor`和`ExEnd:SetFontColor`表示与设置字体颜色相关的代码的开始和结束。 里面的行将单元格的字体颜色更改为蓝色。
+第一条评论`ExStart:SetFontColor`和`ExEnd:SetFontColor`表示与设置字体颜色相关的代码的开始和结束。里面的行将单元格的字体颜色更改为蓝色。
 ## 步骤 9：将样式应用于单元格
 现在我们有了蓝色字体颜色，让我们将样式应用回我们的单元格。
 ```csharp

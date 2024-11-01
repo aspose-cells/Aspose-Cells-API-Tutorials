@@ -22,7 +22,7 @@ Trước khi bắt đầu triển khai, hãy đảm bảo bạn đã đáp ứng
 
 ## Thiết lập Aspose.Cells cho Java
 
- Để bắt đầu, bạn cần thiết lập Aspose.Cells for Java trong dự án của mình. Bạn có thể tải xuống thư viện từ trang web Aspose[đây](https://releases.aspose.com/cells/java/). Sau khi tải xuống, hãy thêm thư viện vào dự án Java của bạn.
+Để bắt đầu, bạn cần thiết lập Aspose.Cells for Java trong dự án của mình. Bạn có thể tải xuống thư viện từ trang web Aspose[đây](https://releases.aspose.com/cells/java/). Sau khi tải xuống, hãy thêm thư viện vào dự án Java của bạn.
 
 ## Tạo một bảng tính Excel
 

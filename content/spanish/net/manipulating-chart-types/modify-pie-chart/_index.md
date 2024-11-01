@@ -100,7 +100,7 @@ Ahora, analicemos la hoja en particular que contiene el gráfico circular. Supon
 Worksheet sheet = workbook.Worksheets[1];
 ```
 
- Accediendo a la`Worksheets`colección, podemos llegar a la hoja específica que necesitamos.
+ Accediendo a la`Worksheets` colección, podemos llegar a la hoja específica que necesitamos.
 
 ## Paso 4: Obtenga el gráfico
 

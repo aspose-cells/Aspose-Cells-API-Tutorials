@@ -90,4 +90,4 @@ In deze tutorial hebben we geleerd hoe je diagramanimaties maakt met behulp van 
 
 ### Wat is het doel van animatievertraging?
 
- De animatievertraging bepaalt de tijdsinterval voordat de grafiekanimatie start. Gebruik de`setAnimationDelay`Methode om de vertraging in milliseconden in te stellen.
+ De animatievertraging bepaalt de tijdsinterval voordat de grafiekanimatie start. Gebruik de`setAnimationDelay` Methode om de vertraging in milliseconden in te stellen.

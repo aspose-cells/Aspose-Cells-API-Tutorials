@@ -68,7 +68,7 @@ Vysvětlení:
 
  Tady,`Workbook` objekt (`wb` ) se vytvoří načtením souboru Excel určeného pomocí`InputPath` . Myslete na to`Workbook` jako digitální verzi knihy, kterou chcete upravit. V podstatě otevíráte svou knihu, abyste na ní mohli pracovat.
 
-## Krok 3: Vstupte do kolekce Worksheet Collection
+## Krok 3: Přístup ke kolekci Worksheet Collection
 
 ```csharp
 WorksheetCollection sheets = wb.Worksheets;

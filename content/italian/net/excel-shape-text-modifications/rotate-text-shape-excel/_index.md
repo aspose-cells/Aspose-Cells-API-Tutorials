@@ -96,7 +96,7 @@ Ed ecco fatto! Il tuo file di output è ora salvato, incluso il testo nella cell
 Console.WriteLine("RotateTextWithShapeInsideWorksheet executed successfully.");
 ```
 ## Conclusione
-Ruotare il testo con le forme in Excel usando Aspose.Cells per .NET potrebbe sembrare un processo elaborato all'inizio, ma è piuttosto semplice una volta che lo si analizza. Seguendo questi semplici passaggi, è possibile personalizzare i fogli di calcolo per renderli più professionali e visivamente accattivanti. Ora, che lo si faccia per un cliente o per i propri progetti personali, tutti saranno entusiasti della qualità del proprio lavoro!
+Ruotare il testo con forme in Excel usando Aspose.Cells per .NET potrebbe sembrare un processo elaborato all'inizio, ma è piuttosto semplice una volta che lo si analizza. Seguendo questi semplici passaggi, è possibile personalizzare i fogli di calcolo per renderli più professionali e visivamente accattivanti. Ora, che lo si faccia per un cliente o per i propri progetti personali, tutti saranno entusiasti della qualità del proprio lavoro!
 ## Domande frequenti
 ### Posso usare Aspose.Cells gratuitamente?
  Sì! Puoi usare il[prova gratuita](https://releases.aspose.com/) per provare la biblioteca.

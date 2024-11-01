@@ -18,7 +18,7 @@ url: /zh-hant/java/advanced-excel-charts/
 
 ## 釋放資料視覺化的潛力：
 
-透過使用 Aspose.Cells for Java 深入研究進階 Excel 圖表，您可以釋放有效傳達見解的潛力。這些教程使您能夠創建視覺上令人驚嘆的圖表，吸引觀眾並增強決策能力。立即使用 Aspose.Cells for Java 開始掌握資料視覺化之旅。
+透過使用 Aspose.Cells for Java 深入研究進階 Excel 圖表，您可以釋放有效傳達見解的潛力。這些教程使您能夠創建視覺上令人驚嘆的圖表，吸引觀眾並增強決策能力。立即使用 Aspose.Cells for Java 開始掌握資料視覺化的旅程。
 
 ## 進階 Excel 圖表教學
 ### [互動式儀表板](./interactive-dashboards/)

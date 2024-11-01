@@ -12,7 +12,7 @@ Přistihli jste se někdy, že zápasíte s komplikovanými formáty souborů Ex
 ## Předpoklady
 Než se pustíme do šťavnatých detailů, je potřeba splnit několik předpokladů:
 1. Visual Studio – Ujistěte se, že máte v systému nainstalované Visual Studio. Pomůže vám psát a spouštět váš kód C# bez námahy.
-2.  Aspose.Cells Library – budete potřebovat knihovnu Aspose.Cells for .NET. Můžete si jej snadno stáhnout z[Stránka vydání Aspose buněk](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells Library – budete potřebovat knihovnu Aspose.Cells for .NET. Můžete si jej snadno stáhnout z[Stránka vydání Aspose buněk](https://releases.aspose.com/cells/net/).
 3. Základní znalosti programování – Určitá znalost C# a .NET zlepší vaše porozumění úryvkům kódu, kterými se budeme zabývat.
 4. Adresář testovacích dokumentů – vytvořte nebo rozhodněte se o složce, do které budete ukládat a testovat své soubory Excel. V tomto tutoriálu jej budeme označovat jako „Váš adresář dokumentů“.
 Se vším na svém místě jste připraveni předvést své dovednosti!

@@ -66,7 +66,7 @@ Aspose.Cells for .NET je knihovna určená k vytváření, manipulaci a převodu
 Absolutně! Pomocí knihovny můžete číst, zapisovat a upravovat soubory aplikace Excel, což z ní činí výkonný nástroj pro každého vývojáře .NET.
 ### Potřebuji licenci k používání Aspose.Cells?
  I když můžete získat bezplatnou zkušební verzi, pro plnou verzi je vyžadována platná licence. Můžete si jeden zakoupit[zde](https://purchase.aspose.com/buy).
-### Je k dispozici podpora pro uživatele Aspose.Cells?
+### Je dostupná podpora pro uživatele Aspose.Cells?
  Ano, máte přístup k rozsáhlým dostupným zdrojům podpory, včetně fór a dokumentace[zde](https://forum.aspose.com/c/cells/9).
 ### Jak mohu získat dočasnou licenci pro Aspose.Cells?
 Navštívením stránky můžete požádat o dočasnou licenci k vyhodnocení produktu[tento odkaz](https://purchase.aspose.com/temporary-license/).

@@ -56,7 +56,7 @@ int i = workbook.Worksheets.Add();
 ## 步驟5：取得新工作表的引用
 建立工作表後，您需要在以後的操作中引用它。
 ```csharp
-//透過傳遞工作表索引來取得新新增的工作表的引用
+//透過傳遞工作表索引來取得新新增工作表的引用
 Worksheet worksheet = workbook.Worksheets[i];
 ```
 在這裡，您將使用其索引來獲取新建立的工作表（`i`）。這使您可以操作工作表。

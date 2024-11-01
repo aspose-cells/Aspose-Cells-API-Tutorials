@@ -19,7 +19,7 @@ url: /ko/net/manipulating-chart-types/create-pie-chart/
 2. .NET 개발 환경: 프로젝트가 .NET Framework 또는 .NET Core를 사용하도록 설정되어 있는지 확인하세요.
 3. C#에 대한 기본 지식: C# 프로그래밍, 특히 객체 지향 프로그래밍(OOP)에 능숙해야 합니다.
 
-고급 사용자의 경우 임시 라이선스를 적용하여 Aspose.Cells의 모든 기능을 잠금 해제할 수 있습니다. 다음에서 요청할 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
+ 고급 사용자의 경우 임시 라이선스를 적용하여 Aspose.Cells의 모든 기능을 잠금 해제할 수 있습니다. 다음에서 요청할 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
 
 ## 패키지 가져오기
 
@@ -100,7 +100,7 @@ int chartIndex = chartSheet.Charts.Add(Aspose.Cells.Charts.ChartType.Pie, 5, 0, 
 Aspose.Cells.Charts.Chart chart = chartSheet.Charts[chartIndex];
 ```
 
- 방법`Add()` 차트 유형에 대한 매개변수를 허용합니다(이 경우,`ChartType.Pie`), 그리고 워크시트에서의 위치. 숫자는 행과 열 위치를 나타냅니다.
+ 방법`Add()`차트 유형에 대한 매개변수를 허용합니다(이 경우,`ChartType.Pie`), 그리고 워크시트에서의 위치. 숫자는 행과 열 위치를 나타냅니다.
 
 ## 5단계: 차트 모양 사용자 지정
 
@@ -187,7 +187,7 @@ Aspose.Cells for .NET으로 파이 차트를 만드는 것은 간단하고 사�
 네! Aspose.Cells는 막대형 차트, 선형 차트, 산점도 등 다양한 차트 유형을 지원합니다.
 
 ### Aspose.Cells for .NET을 사용하려면 유료 라이선스가 필요합니까?
- 일부 제한 사항이 있는 무료 버전을 사용할 수 있습니다. 모든 기능을 사용하려면 라이선스가 필요하며 라이선스는 구매할 수 있습니다.[여기](https://purchase.aspose.com/buy).
+일부 제한 사항이 있는 무료 버전을 사용할 수 있습니다. 모든 기능을 사용하려면 라이선스가 필요하며 라이선스는 구매할 수 있습니다.[여기](https://purchase.aspose.com/buy).
 
 ### 차트를 PDF나 이미지 등의 형식으로 내보낼 수 있나요?
 물론입니다! Aspose.Cells를 사용하면 PDF 및 PNG를 포함한 다양한 형식으로 차트를 내보낼 수 있습니다.

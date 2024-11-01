@@ -41,7 +41,7 @@ using System;
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // 이에 따라 업데이트하세요
 ```
 
- 이 라인은 다음을 설정합니다.`dataDir` 변수는 헤더에 삽입하려는 이미지를 찾기 위한 기본 경로입니다.
+ 이 라인은 다음을 설정합니다.`dataDir`변수는 헤더에 삽입하려는 이미지를 찾기 위한 기본 경로입니다.
 
 ## 2단계: 통합 문서 개체 만들기
 
@@ -55,7 +55,7 @@ Workbook workbook = new Workbook();
 
 ## 3단계: 이미지 경로 정의
 
-이제 사용하고 싶은 이미지 경로를 보관할 문자열 변수를 만들 차례입니다. 우리의 경우 다음을 사용합니다.`aspose-logo.jpg`.
+ 이제 사용하고 싶은 이미지 경로를 보관할 문자열 변수를 만들 차례입니다. 우리의 경우 다음을 사용합니다.`aspose-logo.jpg`.
 
 ```csharp
 string logo_url = dataDir + "aspose-logo.jpg";

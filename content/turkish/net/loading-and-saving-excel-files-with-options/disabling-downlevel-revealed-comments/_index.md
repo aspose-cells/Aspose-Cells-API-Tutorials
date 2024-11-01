@@ -12,7 +12,7 @@ Hiç bir Excel çalışma kitabını HTML'ye dönüştürmeniz gerekti mi ve iş
 Bu makalenin sonunda, bu özelliğin nasıl kullanılacağı ve HTML çıktınızın temiz ve yorumsuz olduğundan nasıl emin olunacağı konusunda net bir anlayışa sahip olacaksınız.
 ## Ön koşullar
 Adım adım kılavuza dalmadan önce, sorunsuz bir şekilde ilerleyebilmeniz için sahip olmanız gereken birkaç şeye değinelim:
-1.  .NET için Aspose.Cells: Aspose.Cells kütüphanesinin yüklü olması gerekir. Henüz yüklemediyseniz, indirebilirsiniz[Burada](https://releases.aspose.com/cells/net/).
+1. .NET için Aspose.Cells: Aspose.Cells kütüphanesinin yüklü olması gerekir. Henüz yüklemediyseniz, indirebilirsiniz[Burada](https://releases.aspose.com/cells/net/).
 2. IDE: C# kodunuzu yazmak ve çalıştırmak için Visual Studio benzeri bir geliştirme ortamı.
 3. Temel C# Bilgisi: C# sözdizimi ve nesne yönelimli programlamaya aşinalık, kodu takip etmenize yardımcı olacaktır.
 4.  Geçici veya Lisanslı Sürüm: Ücretsiz denemeyi kullanabilir veya geçici bir lisans için başvurabilirsiniz.[Burada](https://purchase.aspose.com/temporary-license/)Bu sayede kütüphanenin herhangi bir kısıtlama olmaksızın çalışması sağlanmış olur.

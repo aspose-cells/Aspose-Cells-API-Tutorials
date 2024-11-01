@@ -13,7 +13,7 @@ Quando si tratta di lavorare con file Excel nelle applicazioni .NET, Aspose.Cell
 Prima di entrare nel vivo dell'argomento, ci sono alcune cose che dovrai avere a disposizione. Considera questa la tua checklist per assicurarti un'esperienza fluida mentre procediamo con il tutorial.
 1. Visual Studio: assicurati di avere Visual Studio installato sul tuo computer. Non preoccuparti, puoi anche usare la Community Edition; è gratuita e funziona benissimo.
 2. .NET Framework: la versione di .NET che stai utilizzando deve essere compatibile con Aspose.Cells. In genere, qualsiasi versione di .NET Framework 4.0 o successiva dovrebbe essere valida.
-3.  Libreria Aspose.Cells: Scarica e installa la libreria Aspose.Cells per .NET. Puoi trovarla[Qui](https://releases.aspose.com/cells/net/). 
+3. Libreria Aspose.Cells: Scarica e installa la libreria Aspose.Cells per .NET. Puoi trovarla[Qui](https://releases.aspose.com/cells/net/). 
 4. Conoscenza di base di C#: un po' di familiarità con la programmazione C# tornerà utile, ma non è necessario essere un mago della codifica. Fidati di me, se riesci a seguire una ricetta, puoi seguire questa guida!
 5.  File Excel: avrai bisogno di un file Excel di partenza, nel nostro caso denominato`Book1.xlsx`Sentiti libero di crearne uno semplice se non lo hai ancora.
 Ora che siamo pronti, importiamo i pacchetti necessari!
@@ -50,7 +50,7 @@ Ora, carichiamo la cartella di lavoro così siamo pronti a giocare con il suo co
 ```csharp
 Workbook workbook = new Workbook(filePath);
 ```
-Cosa sta succedendo qui? Stiamo creando una nuova istanza di`Workbook` classe e passando il percorso del tuo file Excel esistente. È come aprire un libro di ricette per trovare il tuo piatto preferito!
+ Cosa sta succedendo qui? Stiamo creando una nuova istanza di`Workbook`classe e passando il percorso del tuo file Excel esistente. È come aprire un libro di ricette per trovare il tuo piatto preferito!
 ## Passaggio 4: creare un FileStream per salvare la cartella di lavoro
  Successivamente, dobbiamo creare un`FileStream` oggetto che imposta dove salveremo la nostra cartella di lavoro appena modificata. Codificalo in questo modo:
 ```csharp

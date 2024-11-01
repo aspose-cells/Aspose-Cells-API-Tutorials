@@ -66,7 +66,7 @@ Bevor wir zum spannenden Teil kommen, müssen wir definieren, wo unsere Datei ge
 ```csharp
 string outputDir = "C:\\YourOutputDirectory\\"; // Wechseln Sie in das angegebene Verzeichnis
 ```
- Ersetzen Sie unbedingt`"C:\\YourOutputDirectory\\"` mit dem Pfad, in dem Sie Ihre Datei speichern möchten. Betrachten Sie dies als das Einrichten Ihres Arbeitsbereichs; Sie müssen wissen, wo Sie Ihre Werkzeuge (oder in diesem Fall Ihre Excel-Datei) ablegen.
+ Ersetzen Sie unbedingt`"C:\\YourOutputDirectory\\"`mit dem Pfad, in dem Sie Ihre Datei speichern möchten. Betrachten Sie dies als das Einrichten Ihres Arbeitsbereichs; Sie müssen wissen, wo Sie Ihre Werkzeuge (oder in diesem Fall Ihre Excel-Datei) ablegen.
 
 ## Schritt 2: Instanziieren eines Arbeitsmappenobjekts
 

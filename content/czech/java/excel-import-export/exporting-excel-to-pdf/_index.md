@@ -2,7 +2,7 @@
 title: Export Excelu do PDF
 linktitle: Export Excelu do PDF
 second_title: Aspose.Cells Java Excel Processing API
-description: Naučte se, jak bez námahy exportovat soubory Excel do PDF pomocí Aspose.Cells for Java. Náš průvodce krok za krokem celý proces zjednodušuje. Začněte převádět ještě dnes!
+description: Naučte se, jak bez námahy exportovat soubory Excel do PDF pomocí Aspose.Cells for Java. Náš průvodce krok za krokem tento proces zjednodušuje. Začněte převádět ještě dnes!
 type: docs
 weight: 14
 url: /cs/java/excel-import-export/exporting-excel-to-pdf/

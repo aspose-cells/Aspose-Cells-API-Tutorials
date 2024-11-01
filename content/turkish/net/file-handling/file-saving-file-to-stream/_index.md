@@ -13,7 +13,7 @@ url: /tr/net/file-handling/file-saving-file-to-stream/
 Ayrıntılara girmeden önce, yerinde olması gereken birkaç şey var. Bunu, öğretici boyunca sorunsuz bir deneyim sağlamak için kontrol listeniz olarak düşünün.
 1. Visual Studio: Makinenizde Visual Studio'nun yüklü olduğundan emin olun. Endişelenmeyin, Community sürümünü bile kullanabilirsiniz; ücretsizdir ve gayet iyi çalışır.
 2. .NET Framework: Kullandığınız .NET sürümü Aspose.Cells ile uyumlu olmalıdır. Genellikle, herhangi bir .NET Framework sürümü 4.0 veya üzeri iyi olmalıdır.
-3.  Aspose.Cells Kütüphanesi: Aspose.Cells for .NET kütüphanesini indirin ve kurun. Bunu şurada bulabilirsiniz:[Burada](https://releases.aspose.com/cells/net/). 
+3. Aspose.Cells Kütüphanesi: Aspose.Cells for .NET kütüphanesini indirin ve kurun. Bunu şurada bulabilirsiniz:[Burada](https://releases.aspose.com/cells/net/). 
 4. Temel C# Bilgisi: C# programlama konusunda biraz bilgi sahibi olmak işinize yarayacaktır, ancak bir kodlama sihirbazı olmanıza gerek yok. İnanın bana, bir tarifi takip edebiliyorsanız, bu kılavuzu da takip edebilirsiniz!
 5.  Excel Dosyası: Bizim durumumuzda, adında bir başlangıç Excel dosyasına ihtiyacınız olacak`Book1.xlsx`Eğer henüz yoksa, basit bir tane oluşturmaktan çekinmeyin.
 Artık her şey tamam olduğuna göre gerekli paketleri içe aktaralım!
@@ -50,7 +50,7 @@ Bu satır dizininizi dosya adıyla birleştirir. Herhangi bir yazım hatası iç
 ```csharp
 Workbook workbook = new Workbook(filePath);
 ```
-Burada neler oluyor? Yeni bir örnek oluşturuyoruz`Workbook` sınıf ve mevcut Excel dosyanızın yolunu geçmek. Bu, en sevdiğiniz yemeği bulmak için bir tarif kitabı açmak gibidir!
+ Burada neler oluyor? Yeni bir örnek oluşturuyoruz`Workbook`sınıf ve mevcut Excel dosyanızın yolunu geçmek. Bu, en sevdiğiniz yemeği bulmak için bir tarif kitabı açmak gibidir!
 ## Adım 4: Çalışma Kitabını Kaydetmek İçin Bir Dosya Akışı Oluşturun
  Daha sonra, bir tane oluşturmamız gerekiyor`FileStream` yeni değiştirdiğimiz çalışma kitabımızı nereye kaydedeceğimizi ayarlayan nesne. Bunu şu şekilde kodlayın:
 ```csharp

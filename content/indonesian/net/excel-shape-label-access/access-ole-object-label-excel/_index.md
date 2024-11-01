@@ -118,8 +118,8 @@ Objek OLE adalah berkas tertanam yang memungkinkan Anda mengintegrasikan dokumen
 ### Bisakah Aspose.Cells bekerja dengan format file lain?  
 Ya! Aspose.Cells mendukung berbagai format, termasuk XLS, XLSX, CSV, dan banyak lagi.
 ### Apakah ada uji coba gratis yang tersedia untuk Aspose.Cells?  
-Ya! Anda dapat mencobanya[Di Sini](https://releases.aspose.com/).
+ Ya! Anda dapat mencobanya[Di Sini](https://releases.aspose.com/).
 ### Bisakah saya mengakses beberapa objek OLE dalam satu lembar kerja?  
- Tentu saja! Anda dapat mengulanginya`ws.OleObjects` untuk mengakses semua objek OLE yang tertanam dalam lembar kerja.
+Tentu saja! Anda dapat mengulanginya`ws.OleObjects` untuk mengakses semua objek OLE yang tertanam dalam lembar kerja.
 ### Bagaimana cara membeli lisensi untuk Aspose.Cells?  
  Anda dapat membeli lisensi langsung dari[Di Sini](https://purchase.aspose.com/buy).

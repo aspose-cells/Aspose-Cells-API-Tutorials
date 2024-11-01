@@ -15,7 +15,7 @@ Avant de passer au vif du sujet, assurons-nous que vous disposez de tout ce dont
 1. Visual Studio : assurez-vous que Visual Studio est installé sur votre ordinateur. Il s'agira de votre environnement de développement.
 2.  Aspose.Cells pour .NET : téléchargez la bibliothèque Aspose.Cells à partir du[site web](https://releases.aspose.com/cells/net/). Vous pouvez également commencer par un essai gratuit pour tester ses fonctionnalités.
 3. Connaissances de base de C# : la familiarité avec la programmation C# vous aidera à mieux comprendre les extraits de code.
-4. Fichier Excel : préparez un fichier Excel pour la conversion. Pour cet exemple, nous utiliserons un fichier nommé`Book1.xlsx`.
+4.  Fichier Excel : préparez un fichier Excel pour la conversion. Pour cet exemple, nous utiliserons un fichier nommé`Book1.xlsx`.
 Maintenant que vous avez trié les prérequis, passons à la partie amusante : importer les packages nécessaires et écrire le code !
 ## Paquets d'importation
 Pour commencer, vous devez importer les espaces de noms requis dans votre fichier C#. Cela est essentiel car cela vous permet d'accéder aux classes et méthodes fournies par la bibliothèque Aspose.Cells.

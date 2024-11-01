@@ -68,7 +68,7 @@ Du hämtar de uppdaterade temafärgerna med GetThemeColor-metoden igen för att 
 c = workbook.GetThemeColor(ThemeColorType.Background1);
 // Skriv ut den uppdaterade färgen för bekräftelse.
 Console.WriteLine("Theme color Background1 changed to: " + c);
-// Skaffa den uppdaterade Accent2-temafärgen.
+// Skaffa den uppdaterade temafärgen Accent2.
 c = workbook.GetThemeColor(ThemeColorType.Accent2);
 // Skriv ut den uppdaterade färgen för bekräftelse.
 Console.WriteLine("Theme color Accent2 changed to: " + c);

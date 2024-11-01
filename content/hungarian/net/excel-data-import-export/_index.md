@@ -13,7 +13,7 @@ url: /hu/net/excel-data-import-export/
 
 ## Adatok importálása Excelbe egyéni formázással
 
- Az első oktatóanyag, amelyet megnézünk, az adatok Excelbe történő importálásáról szól, miközben megőrzi az egyéni dátumformázást. Találkozott már bosszantó formázási problémákkal, amikor megpróbált adatokat importálni adatbázisból? Ugyanolyan frusztráló lehet, mintha egy négyzet alakú csapot próbálnánk beilleszteni egy kerek lyukba. De ne félj! Az Aspose.Cells for .NET segítségével könnyedén importálhatja adatait, és egyéni DB Num mintát alkalmazhat. Ez az oktatóanyag lépésről lépésre elmagyarázza a folyamatot, így gond nélkül pontosan tudni fogja, mit kell tennie. Ne hagyja, hogy a formázási problémák visszatartsák, amikor könnyen lehet[Ismerje meg, hogyan importálhat adatokat Excelbe egyéni DB Num formázással](./import-data-to-worksheet-in-excel-with-specified-db-num-custom-pattern-formatting/).
+ Az első oktatóanyag, amelyet megnézünk, az adatok Excelbe történő importálásáról szól, miközben megőrzi az egyéni dátumformázást. Találkozott már bosszantó formázási problémákkal, amikor megpróbált adatokat importálni adatbázisból? Ugyanolyan frusztráló lehet, mintha egy négyzet alakú csapot próbálnánk beilleszteni egy kerek lyukba. De ne félj! Az Aspose.Cells for .NET segítségével könnyedén importálhatja adatait, és egyéni DB Num mintát alkalmazhat. Ez az oktatóanyag lépésről lépésre elmagyarázza a folyamatot, így gond nélkül pontosan tudni fogja, mit kell tennie. Ne hagyja, hogy a formázási problémák visszatartsák, amikor könnyen lehet[Ismerje meg, hogyan importálhat adatokat az Excelbe egyéni DB Num formázással](./import-data-to-worksheet-in-excel-with-specified-db-num-custom-pattern-formatting/).
 
 ## Sorok lefelé tolása DataTable beillesztésekkel
 

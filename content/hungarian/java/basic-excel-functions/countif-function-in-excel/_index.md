@@ -108,7 +108,7 @@ Nyissa meg a generált Excel fájlt a COUNTIF függvény eredményének ellenőr
 
 Ha bármilyen problémába ütközik az Aspose.Cells for Java használata vagy a COUNTIF funkció megvalósítása során, a megoldásokért tekintse meg a dokumentációt és a fórumokat.
 
-## A COUNTIF használatának legjobb gyakorlatai
+## A COUNTIF használatának bevált gyakorlatai
 
 A COUNTIF funkció használatakor vegye figyelembe a bevált módszereket az Excel automatizálási feladatai pontosságának és hatékonyságának biztosítása érdekében.
 
@@ -132,7 +132,7 @@ Ebben a cikkben megtanultuk, hogyan kell használni a COUNTIF függvényt az Exc
 
 ### Testreszabhatom a COUNTIF függvény feltételeit?
 
-Igen, testreszabhatja a COUNTIF függvény feltételeit, hogy megszámolja azokat a cellákat, amelyek megfelelnek bizonyos feltételeknek, például egy bizonyos számnál nagyobb értékeket vagy meghatározott szöveget tartalmaznak.
+Igen, testreszabhatja a COUNTIF függvény feltételeit, hogy olyan cellákat számoljon, amelyek megfelelnek bizonyos feltételeknek, például egy bizonyos számnál nagyobb értékeket vagy meghatározott szöveget tartalmaznak.
 
 ### Hogyan értékelhetek ki egy képletet az Aspose.Cells for Java programban?
 

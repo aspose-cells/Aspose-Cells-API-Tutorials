@@ -39,14 +39,14 @@ string outputDir = "Your Document Directory";
 ```
  Remplacer`"Your Document Directory"` avec le chemin réel vers vos répertoires.
 ## Étape 2 : Ouvrir le fichier Excel
-Maintenant que nos répertoires sont configurés, ouvrons le fichier Excel avec lequel vous souhaitez travailler.`Workbook` La classe dans Aspose.Cells est utilisée pour charger le document Excel.
+ Maintenant que nos répertoires sont configurés, ouvrons le fichier Excel avec lequel vous souhaitez travailler.`Workbook` la classe dans Aspose.Cells est utilisée pour charger le document Excel.
 ```csharp
 // Ouvrir un fichier Excel
 Workbook workbook = new Workbook(sourceDir + "sampleSetDefaultFontPropertyOfPdfSaveOptionsAndImageOrPrintOptions.xlsx");
 ```
 Assurez-vous de remplacer le nom de fichier par votre nom de fichier réel.
 ## Étape 3 : Configurer les options de rendu d’image
- Ensuite, nous devons configurer les options de rendu pour convertir notre feuille Excel en format image. Nous allons créer une instance de`ImageOrPrintOptions`, spécifiant le type d'image et la police par défaut.
+Ensuite, nous devons configurer les options de rendu pour convertir notre feuille Excel en format image. Nous allons créer une instance de`ImageOrPrintOptions`, spécifiant le type d'image et la police par défaut.
 ```csharp
 // Rendu au format de fichier PNG
 ImageOrPrintOptions imgOpt = new ImageOrPrintOptions();
@@ -63,7 +63,7 @@ SheetRender sr = new SheetRender(workbook.Worksheets[0], imgOpt);
 sr.ToImage(0, outputDir + "out1_imagePNG.png");
 ```
 ## Étape 5 : modifier le type d'image et effectuer le rendu au format TIFF
-Si vous souhaitez restituer la même feuille dans un format d'image différent, comme TIFF, vous pouvez simplement modifier le`ImageType` propriété et répétez le processus de rendu.
+ Si vous souhaitez restituer la même feuille dans un format d'image différent, comme TIFF, vous pouvez simplement modifier le`ImageType` propriété et répétez le processus de rendu.
 ```csharp
 // Définir sur le format TIFF
 imgOpt.ImageType = Drawing.ImageType.Tiff;
@@ -71,7 +71,7 @@ WorkbookRender wr = new WorkbookRender(workbook, imgOpt);
 wr.ToImage(outputDir + "out1_imageTIFF.tiff");
 ```
 ## Étape 6 : Configurer les options d’enregistrement PDF
- Ensuite, configurons les options d'enregistrement PDF. Nous allons créer une instance de`PdfSaveOptions`, définissez la police par défaut et spécifiez que nous voulons vérifier les polices manquantes.
+ Ensuite, configurons les options d'enregistrement PDF. Nous allons créer une instance de`PdfSaveOptions`définissez la police par défaut et spécifiez que nous voulons vérifier les polices manquantes.
 ```csharp
 // Configurer les options d'enregistrement PDF
 PdfSaveOptions saveOptions = new PdfSaveOptions();

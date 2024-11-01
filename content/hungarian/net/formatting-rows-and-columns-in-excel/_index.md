@@ -9,7 +9,7 @@ url: /hu/net/formatting-rows-and-columns-in-excel/
 ---
 ## Bevezetés
 
-Ha az Excel-táblázatok programozott kezeléséről van szó, az Aspose.Cells for .NET egy játékot megváltoztat! Akár személyre szeretné szabni az adatok megjelenését, akár egyszerűen konzisztenciát szeretne biztosítani a munkalapokon, a sorok és oszlopok formázásának megértése alapvető fontosságú. Vizsgáljuk meg, hogyan teheti ezt meg hatékonyan.
+Ha az Excel-táblázatok programozott kezeléséről van szó, az Aspose.Cells for .NET egy játékot megváltoztat! Akár személyre szeretné szabni az adatok megjelenését, akár egyszerűen konzisztenciát szeretne biztosítani a munkalapokon, a sorok és oszlopok formázásának megértése alapvető fontosságú. Vizsgáljuk meg, hogyan teheti ezt hatékonyan.
 
 ## Egy oszlop formátumbeállításainak testreszabása
 

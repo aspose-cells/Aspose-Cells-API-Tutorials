@@ -59,8 +59,8 @@ Verbeter uw Excel-draaitabellen met Aspose.Cells voor .NET. Leer hoe u moeiteloo
 Ontdek hoe u items in een draaitabel kunt vernieuwen en berekenen met Aspose.Cells voor .NET met deze uitgebreide, stapsgewijze zelfstudie.
 ### [Automatische opmaak van draaitabel programmatisch instellen in .NET](./setting-auto-format/)
 Leer hoe u automatische opmaak voor draaitabellen in Excel programmatisch instelt met Aspose.Cells voor .NET in deze gedetailleerde stapsgewijze zelfstudie.
-### [Het instellen van het formaat van gegevensvelden via een programma in .NET](./setting-data-field-format/)
-Masterinstelling van gegevensveldformaten in draaitabellen met Aspose.Cells voor .NET met deze stapsgewijze tutorial. Verbeter uw Excel-gegevensformattering.
+### [Gegevensveldformaat programmatisch instellen in .NET](./setting-data-field-format/)
+Beheers het instellen van gegevensveldformaten in draaitabellen met Aspose.Cells voor .NET met deze stapsgewijze tutorial. Verbeter uw Excel-gegevensformattering.
 ### [Instellen van opmaakopties van draaitabellen in .NET](./setting-format-options/)
 Leer hoe u Aspose.Cells voor .NET kunt gebruiken om moeiteloos draaitabellen te formatteren. Ontdek stapsgewijze technieken om uw gegevenspresentatie te verbeteren.
 ### [Paginaveldformaat programmatisch instellen in .NET](./setting-page-field-format/)

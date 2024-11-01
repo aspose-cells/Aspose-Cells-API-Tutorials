@@ -27,7 +27,7 @@ using System.IO;
 using Aspose.Cells;
 using System.Drawing;
 ```
-このコードにより、次のような重要なクラスにアクセスできるようになります。`Workbook`, `Worksheet` 、 そして`Range`Excel ファイルを操作するのに必要になります。
+このコードにより、次のような重要なクラスにアクセスできるようになります。`Workbook`, `Worksheet`、 そして`Range`Excel ファイルを操作するのに必要になります。
 
 前提条件が整理されたので、プロセスをわかりやすい手順に分解してみましょう。
 ## ステップ1: 出力ディレクトリを設定する

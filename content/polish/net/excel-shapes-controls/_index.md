@@ -21,7 +21,7 @@ Kształty i kontrolki mogą mieć ogromne znaczenie podczas pracy ze złożonymi
 
 ## Przenieś swoją personalizację programu Excel na wyższy poziom
 
-Podczas pracy z plikami Excela zawierającymi dużo danych dodanie odpowiednich kształtów i kontrolek może radykalnie poprawić doświadczenie użytkownika i pomóc lepiej zorganizować informacje. Te funkcje są szczególnie przydatne podczas projektowania interaktywnych pulpitów nawigacyjnych, formularzy wprowadzania danych lub po prostu dodawania przejrzystości wizualnej do złożonych arkuszy kalkulacyjnych.
+Podczas pracy z plikami Excela zawierającymi dużo danych dodanie odpowiednich kształtów i kontrolek może radykalnie poprawić doświadczenie użytkownika i pomóc lepiej uporządkować informacje. Funkcje te są szczególnie przydatne podczas projektowania interaktywnych pulpitów nawigacyjnych, formularzy wprowadzania danych lub po prostu dodawania przejrzystości wizualnej do złożonych arkuszy kalkulacyjnych.
 
  Na przykład używając kształtów takich jak[Łuki](./add-arc-to-worksheet-excel/) Lub[Owale](./add-oval-to-worksheet-excel/) może pomóc wyróżnić ważne punkty danych lub pogrupować powiązane treści wizualnie. Ponadto, kontrolki takie jak[Pola listy](./add-list-box-to-worksheet-excel/) Lub[Pola kombi](./add-combo-box-to-worksheet-excel/) zapewnij użytkownikom łatwą nawigację i opcje wyboru, upraszczając interakcje z arkuszem Excel. 
 
@@ -39,7 +39,7 @@ Te samouczki Aspose.Cells dla .NET pomogą Ci zoptymalizować przepływ pracy, a
 
 Wyobraź sobie typowy arkusz kalkulacyjny programu Excel. Jest funkcjonalny, ale prawdopodobnie trochę mdły, prawda? Teraz wyobraź sobie ten sam arkusz z dynamicznymi elementami, takimi jak przyciski wyzwalające akcje, paski przewijania do płynnego przeglądania danych i pola kombi do wybierania opcji. To jest siła Aspose.Cells dla .NET! Pozwala on tchnąć życie w pliki programu Excel, zamieniając je w w pełni interaktywne narzędzia. Niezależnie od tego, czy jest to raport finansowy, arkusz zarządzania projektami czy pulpit śledzenia sprzedaży, możesz użyć tych zaawansowanych funkcji, aby usprawnić przepływy pracy i ulepszyć wrażenia użytkownika.
 
- Dzięki Aspose.Cells możesz zrobić znacznie więcej niż tylko podstawowe wprowadzanie danych. Chcesz dodać[Pole grupy](./add-group-box-to-worksheet-excel/)aby zachować powiązane elementy sterujące razem lub[Pole wyboru](./add-checkbox-to-worksheet-excel/) aby oznaczyć zadania jako wykonane? Wszystko to jest tylko kilka linijek kodu dalej. A jeśli musisz utworzyć interaktywne formularze,[Przycisk radiowy](./add-radio-button-to-worksheet-excel/) Ten samouczek pokaże Ci, jak bezproblemowo dodawać opcje pojedynczego wyboru.
+ Dzięki Aspose.Cells możesz zrobić znacznie więcej niż podstawowe wprowadzanie danych. Chcesz dodać[Pole grupy](./add-group-box-to-worksheet-excel/)aby zachować powiązane elementy sterujące razem lub[Pole wyboru](./add-checkbox-to-worksheet-excel/) aby oznaczyć zadania jako wykonane? Wszystko to jest tylko kilka linijek kodu dalej. A jeśli musisz utworzyć interaktywne formularze,[Przycisk radiowy](./add-radio-button-to-worksheet-excel/) Ten samouczek pokaże Ci, jak bezproblemowo dodawać opcje pojedynczego wyboru.
 
 ## Uproszczenie złożonej interakcji danych
 

@@ -18,7 +18,7 @@ Mielőtt belemerülnénk az Aspose.Cells for Java segítségével történő ada
 
 - Java Development Kit (JDK) telepítve
 - Aspose.Cells for Java API könyvtár
-- Java programozás alapvető ismerete
+- A Java programozás alapvető ismerete
 
 ## Az adatmaszkolás megértése
 

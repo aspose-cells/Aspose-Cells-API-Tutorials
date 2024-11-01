@@ -16,7 +16,7 @@ Asegúrate de tener Visual Studio instalado en tu computadora. Es donde codifica
 ### 2. .NET Framework o .NET Core
 Asegúrese de tener instalada la versión correcta de .NET. Aspose.Cells para .NET funciona a la perfección con .NET Framework y .NET Core.
 ### 3. Biblioteca Aspose.Cells
- Necesitarás la biblioteca Aspose.Cells. Puedes descargarla[aquí](https://releases.aspose.com/cells/net/)Es necesario tener esto en su proyecto para manipular archivos de Excel.
+Necesitarás la biblioteca Aspose.Cells. Puedes descargarla[aquí](https://releases.aspose.com/cells/net/)Es necesario tener esto en su proyecto para manipular archivos de Excel.
 ### 4. Conocimientos básicos de C#
 Es conveniente, aunque no obligatorio, tener conocimientos de C#. Escribiremos código que utiliza la biblioteca para manipular un archivo de Excel, y el conocimiento de C# te ayudará a entenderlo mejor.
 ### 5. Un IDE con el que trabajar
@@ -63,7 +63,7 @@ Con la hoja de cálculo lista, ahora puedes acceder a una celda específica en l
 Cell cell = worksheet.Cells["A1"];
 ```
 ## Paso 5: Agregar texto a la celda
-A continuación, introduzcamos un texto en esa celda. Es como escribir una nota en un cuaderno.
+continuación, introduzcamos un texto en esa celda. Es como escribir una nota en un cuaderno.
 ```csharp
 // Añadiendo algún valor a la celda "A1"
 cell.PutValue("Hello");

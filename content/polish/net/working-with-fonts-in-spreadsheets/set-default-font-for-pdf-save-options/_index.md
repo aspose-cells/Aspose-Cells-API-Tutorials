@@ -39,14 +39,14 @@ string outputDir = "Your Document Directory";
 ```
  Zastępować`"Your Document Directory"` z rzeczywistą ścieżką do Twoich katalogów.
 ## Krok 2: Otwórz plik Excel
-Teraz, gdy mamy już skonfigurowane katalogi, otwórzmy plik Excela, z którym chcesz pracować.`Workbook` Klasa w Aspose.Cells służy do załadowania dokumentu Excel.
+ Teraz, gdy mamy już skonfigurowane katalogi, otwórzmy plik Excela, z którym chcesz pracować.`Workbook` Klasa w Aspose.Cells służy do załadowania dokumentu Excel.
 ```csharp
 // Otwórz plik Excel
 Workbook workbook = new Workbook(sourceDir + "sampleSetDefaultFontPropertyOfPdfSaveOptionsAndImageOrPrintOptions.xlsx");
 ```
 Pamiętaj o zastąpieniu nazwy pliku rzeczywistą nazwą pliku.
 ## Krok 3: Skonfiguruj opcje renderowania obrazu
- Następnie musimy skonfigurować opcje renderowania, aby przekonwertować nasz arkusz Excela na format obrazu. Utworzymy wystąpienie`ImageOrPrintOptions`, określając typ obrazu i domyślną czcionkę.
+Następnie musimy skonfigurować opcje renderowania, aby przekonwertować nasz arkusz Excela na format obrazu. Utworzymy wystąpienie`ImageOrPrintOptions`, określając typ obrazu i domyślną czcionkę.
 ```csharp
 // Renderowanie do formatu pliku PNG
 ImageOrPrintOptions imgOpt = new ImageOrPrintOptions();
@@ -63,7 +63,7 @@ SheetRender sr = new SheetRender(workbook.Worksheets[0], imgOpt);
 sr.ToImage(0, outputDir + "out1_imagePNG.png");
 ```
 ## Krok 5: Zmień typ obrazu i renderuj do TIFF
-Jeśli chcesz wyrenderować ten sam arkusz w innym formacie obrazu, np. TIFF, możesz po prostu zmienić`ImageType` właściwość i powtórz proces renderowania.
+ Jeśli chcesz wyrenderować ten sam arkusz w innym formacie obrazu, np. TIFF, możesz po prostu zmienić`ImageType` właściwość i powtórz proces renderowania.
 ```csharp
 // Ustaw na format TIFF
 imgOpt.ImageType = Drawing.ImageType.Tiff;
@@ -71,7 +71,7 @@ WorkbookRender wr = new WorkbookRender(workbook, imgOpt);
 wr.ToImage(outputDir + "out1_imageTIFF.tiff");
 ```
 ## Krok 6: Skonfiguruj opcje zapisywania pliku PDF
- Następnie skonfigurujmy opcje zapisu PDF. Utworzymy wystąpienie`PdfSaveOptions`, ustaw domyślną czcionkę i określ, że chcesz sprawdzić, czy brakuje niektórych czcionek.
+ Następnie skonfigurujmy opcje zapisu PDF. Utworzymy wystąpienie`PdfSaveOptions`ustaw domyślną czcionkę i określ, że chcesz sprawdzić, czy brakuje niektórych czcionek.
 ```csharp
 // Konfiguruj opcje zapisywania PDF
 PdfSaveOptions saveOptions = new PdfSaveOptions();

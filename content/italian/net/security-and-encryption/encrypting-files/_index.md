@@ -53,7 +53,7 @@ Hai delle scelte quando si tratta di crittografia in Aspose.Cells. Per questo es
 ```csharp
 // Specificare il tipo di crittografia XOR.
 workbook.SetEncryptionOptions(EncryptionType.XOR, 40);
-// Specificare il tipo di crittografia avanzata (RC4, Microsoft Strong Cryptographic Provider).
+//Specificare il tipo di crittografia avanzata (RC4, Microsoft Strong Cryptographic Provider).
 workbook.SetEncryptionOptions(EncryptionType.StrongCryptographicProvider, 128);
 ```
 Considera queste opzioni come il tipo di serrature che potresti utilizzare: alcune sono più corte e facili da forzare (XOR), mentre altre sono molto più complesse (Fornitore crittografico affidabile).
@@ -68,7 +68,7 @@ Infine, salviamo le modifiche per creare il file crittografato.
 ```csharp
 workbook.Save(dataDir + "encryptedBook1.out.xls");
 ```
- Questa riga di codice salva la cartella di lavoro come`encryptedBook1.out.xls`nella directory specificata. È come rimettere il libro sullo scaffale, chiuso a chiave in modo sicuro!
+ Questa riga di codice salva la cartella di lavoro come`encryptedBook1.out.xls` nella directory specificata. È come rimettere il libro sullo scaffale, chiuso a chiave in modo sicuro!
 ## Conclusione
 Ed ecco fatto! Hai appena imparato come crittografare un file Excel usando Aspose.Cells in .NET. Seguendo questi passaggi, ti assicuri che i tuoi dati sensibili siano ben protetti. Ricorda solo che la protezione inizia da te, quindi adotta sempre le misure necessarie per salvaguardare le tue informazioni. 
 ## Domande frequenti

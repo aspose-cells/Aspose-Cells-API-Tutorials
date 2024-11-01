@@ -76,7 +76,7 @@ range.merge();
 
 ## Formule e funzioni avanzate
 
-Per eseguire analisi avanzate dei dati, è necessario accedere a un'ampia gamma di funzioni e formule di Excel. Aspose.Cells per Java supporta calcoli complessi e valutazione delle formule.
+Per eseguire analisi dati avanzate, è necessario accedere a un'ampia gamma di funzioni e formule di Excel. Aspose.Cells per Java supporta calcoli complessi e valutazione delle formule.
 
 ```java
 // Eseguire calcoli

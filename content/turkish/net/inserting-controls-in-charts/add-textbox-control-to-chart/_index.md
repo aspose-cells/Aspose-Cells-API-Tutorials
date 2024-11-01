@@ -16,7 +16,7 @@ Excel'de dinamik ve görsel olarak çekici grafikler oluşturmak, verileri etkil
 Kodlamaya başlamadan önce, elinizde olması gereken birkaç şey var:
 
 - C#'ın Temel Anlayışı: C# programlamanın temellerine hakim olmak faydalı olacaktır. Endişelenmeyin; uzman olmanıza gerek yok, sadece sözdiziminde gezinme konusunda rahat olmanız yeterli.
--  Yüklü Aspose.Cells Kütüphanesi: Aspose.Cells for .NET kütüphanesinin yüklü olduğundan emin olun. Buradan indirebilirsiniz[Burada](https://releases.aspose.com/cells/net/)Eğer henüz yapmadıysanız.
+-  Yüklü Aspose.Cells Kütüphanesi: Aspose.Cells for .NET kütüphanesinin yüklü olduğundan emin olun. Buradan indirebilirsiniz[Burada](https://releases.aspose.com/cells/net/) Eğer henüz yapmadıysanız.
 - Visual Studio: .NET framework için kullanmayı tercih ettiğiniz Visual Studio veya herhangi bir IDE'ye aşinalık şarttır.
 - Mevcut Bir Excel Dosyası: Bu örnek için, "sampleAddingTextBoxControlInChart.xls" adlı mevcut bir Excel dosyasıyla çalışacağız. Bir tane oluşturabilir veya bir örnek indirebilirsiniz.
 
@@ -151,7 +151,7 @@ Aspose.Cells for .NET, Microsoft Excel'e güvenmeye gerek kalmadan Excel dosyala
 Evet! TextBox oluşturma adımlarını farklı pozisyonlarda tekrarlayarak ihtiyacınız kadar TextBox ekleyebilirsiniz.
 
 ### Aspose.Cells'i kullanmak ücretsiz mi?
- Aspose.Cells ücretli bir kütüphanedir, ancak ücretsiz deneme sürümünü şu adresten indirebilirsiniz:[Burada](https://releases.aspose.com/).
+Aspose.Cells ücretli bir kütüphanedir, ancak ücretsiz deneme sürümünü şu adresten indirebilirsiniz:[Burada](https://releases.aspose.com/).
 
 ### Aspose.Cells hakkında daha fazla dokümanı nerede bulabilirim?
  Kapsamlı belgelere erişebilirsiniz[Burada](https://reference.aspose.com/cells/net/).

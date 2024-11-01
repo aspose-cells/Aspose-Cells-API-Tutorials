@@ -143,7 +143,7 @@ Nästa steg är att ändra teckensnittsfärgen. Låt oss ge vår text ett distin
 style.Font.Color = Color.Green;
 ```
 
-Grönt ger en levande, fräsch känsla. Se det som att ge ditt kalkylblad en stänk av personlighet!
+Grönt ger en livlig, fräsch känsla. Se det som att ge ditt kalkylblad en stänk av personlighet!
 
 ## Steg 9: Krympa text för att passa
 

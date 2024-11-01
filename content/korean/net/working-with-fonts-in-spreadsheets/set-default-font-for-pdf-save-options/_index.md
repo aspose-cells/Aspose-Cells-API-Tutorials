@@ -39,14 +39,14 @@ string outputDir = "Your Document Directory";
 ```
  바꾸다`"Your Document Directory"` 디렉토리의 실제 경로를 포함합니다.
 ## 2단계: Excel 파일 열기
-이제 디렉토리가 설정되었으므로 작업하려는 Excel 파일을 열어 보겠습니다.`Workbook` Aspose.Cells의 클래스는 Excel 문서를 로드하는 데 사용됩니다.
+ 이제 디렉토리가 설정되었으므로 작업하려는 Excel 파일을 열어 보겠습니다.`Workbook` Aspose.Cells의 클래스는 Excel 문서를 로드하는 데 사용됩니다.
 ```csharp
 // Excel 파일을 엽니다
 Workbook workbook = new Workbook(sourceDir + "sampleSetDefaultFontPropertyOfPdfSaveOptionsAndImageOrPrintOptions.xlsx");
 ```
 파일 이름을 실제 파일 이름으로 바꿔야 합니다.
 ## 3단계: 이미지 렌더링 옵션 설정
- 다음으로 Excel 시트를 이미지 형식으로 변환하기 위한 렌더링 옵션을 구성해야 합니다. 인스턴스를 만듭니다.`ImageOrPrintOptions`이미지 유형과 기본 글꼴을 지정합니다.
+다음으로 Excel 시트를 이미지 형식으로 변환하기 위한 렌더링 옵션을 구성해야 합니다. 인스턴스를 만듭니다.`ImageOrPrintOptions`이미지 유형과 기본 글꼴을 지정합니다.
 ```csharp
 // PNG 파일 형식으로 렌더링
 ImageOrPrintOptions imgOpt = new ImageOrPrintOptions();
@@ -63,7 +63,7 @@ SheetRender sr = new SheetRender(workbook.Worksheets[0], imgOpt);
 sr.ToImage(0, outputDir + "out1_imagePNG.png");
 ```
 ## 5단계: 이미지 유형 변경 및 TIFF로 렌더링
-TIFF와 같이 동일한 시트를 다른 이미지 형식으로 렌더링하려면 간단히 다음을 변경하면 됩니다.`ImageType` 속성을 확인하고 렌더링 과정을 반복합니다.
+ TIFF와 같이 동일한 시트를 다른 이미지 형식으로 렌더링하려면 간단히 다음을 변경하면 됩니다.`ImageType` 속성을 확인하고 렌더링 과정을 반복합니다.
 ```csharp
 // TIFF 형식으로 설정
 imgOpt.ImageType = Drawing.ImageType.Tiff;

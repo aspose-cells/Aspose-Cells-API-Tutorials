@@ -17,7 +17,7 @@ Aspose.Cells voor .NET biedt ontwikkelaars krachtige tools om Excel-bestanden te
 
 ## Waarschuwingen krijgen tijdens het laden van Excel-bestand in .NET
 
- Wanneer u een Excel-bestand laadt, kunnen bepaalde gegevensformaten of inhoud waarschuwingen activeren. Leer hoe u deze waarschuwingen kunt beheren en interpreteren met de[Waarschuwingen krijgen tijdens het laden van Excel-bestand in .NET](./getting-warnings-while-loading-excel-file/)tutorial. Deze gids is een must voor ontwikkelaars die compatibiliteitsproblemen of opmaakwaarschuwingen effectief willen aanpakken en oplossen. Door deze waarschuwingen vroegtijdig aan te pakken, zorgt u voor een soepelere, foutloze ervaring bij het laden van bestanden in uw applicatie.
+ Wanneer u een Excel-bestand laadt, kunnen bepaalde gegevensformaten of inhoud waarschuwingen activeren. Leer hoe u deze waarschuwingen kunt beheren en interpreteren met de[Waarschuwingen krijgen tijdens het laden van Excel-bestand in .NET](./getting-warnings-while-loading-excel-file/) tutorial. Deze gids is een must voor ontwikkelaars die compatibiliteitsproblemen of opmaakwaarschuwingen effectief willen aanpakken en oplossen. Door deze waarschuwingen vroegtijdig aan te pakken, zorgt u voor een soepelere, foutloze ervaring bij het laden van bestanden in uw applicatie.
 
 ## Documentversie van Excel-bestand programmatisch specificeren in .NET
 
@@ -25,7 +25,7 @@ Aspose.Cells voor .NET biedt ontwikkelaars krachtige tools om Excel-bestanden te
 
 ### Het bijsnijden van voorlopende lege rijen en kolommen tijdens het exporteren
 
- Lege rijen en kolommen kunnen uw exporten vertroebelen, vooral bij het werken met CSV-bestanden.[Het bijsnijden van voorlopende lege rijen en kolommen tijdens het exporteren](./trimming-leading-blank-rows-and-columns/)tutorial stelt u in staat om uw data op te schonen door onnodige lege ruimtes aan het begin van rijen en kolommen te verwijderen. Deze tutorial is perfect voor ontwikkelaars die beknopte en opgeruimde bestanden willen maken die klaar zijn voor analyse of presentatie. Een schone, gepolijste output ziet er niet alleen professioneel uit, maar maakt ook de dataverwerking veel eenvoudiger.
+Lege rijen en kolommen kunnen uw exporten vertroebelen, vooral bij het werken met CSV-bestanden.[Het bijsnijden van voorlopende lege rijen en kolommen tijdens het exporteren](./trimming-leading-blank-rows-and-columns/) tutorial stelt u in staat om uw data op te schonen door onnodige lege ruimtes aan het begin van rijen en kolommen te verwijderen. Deze tutorial is perfect voor ontwikkelaars die beknopte en opgeruimde bestanden willen maken die klaar zijn voor analyse of presentatie. Een schone, gepolijste output ziet er niet alleen professioneel uit, maar maakt ook de dataverwerking veel eenvoudiger.
 
 ## Zelfstudies over het opslaan en exporteren van Excel-bestanden met opties
 ### [Opmerkingen exporteren terwijl u een Excel-bestand opslaat naar HTML](./exporting-comments/)

@@ -17,7 +17,7 @@ Excel 彻底改变了我们处理数据的方式，让我们能够轻松地组�
 4. 访问 Excel 文件：确保您拥有一个示例 Excel 文件（例如，`Book1.xlsx`) 以便我们能够合作。
 5. 目录权限：确保您对保存输出文件的目录具有读写权限。
 ## 导入包
-现在我们已经满足了先决条件，让我们开始导入所需的包。打开 Visual Studio 环境，创建一个新项目，并确保已引用所需的 Aspose.Cells 命名空间。操作方法如下：
+现在我们已经满足了先决条件，让我们从导入所需的包开始。打开 Visual Studio 环境，创建一个新项目，并确保已引用所需的 Aspose.Cells 命名空间。操作方法如下：
 ```csharp
 using System.IO;
 using Aspose.Cells;

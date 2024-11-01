@@ -140,7 +140,7 @@ Console.WriteLine("AddingPictureInChart executed successfully.");
 
 ## 結論
 
-在本教學中，我們探索如何透過使用 Aspose.Cells for .NET 新增圖片來為 Excel 圖表注入一點個性。只需幾個簡單的步驟，您就可以將平凡的演示提升為令人難忘的。那麼，你還在等什麼？試試一下，讓您的圖表大放異彩！
+在本教學中，我們探索如何透過使用 Aspose.Cells for .NET 新增圖片來為 Excel 圖表注入一點個性。只需幾個簡單的步驟，您就可以將平凡的演示提升為令人難忘的。那麼，您還在等什麼呢？試試一下，讓您的圖表大放異彩！
 
 ## 常見問題解答
 
@@ -154,7 +154,7 @@ Aspose.Cells 支援多種圖片格式，包括 PNG、JPEG、BMP 和 GIF。
 當然！中的 X 和 Y 座標`AddPictureInChart`方法允許精確定位。
 
 ### Aspose.Cells 可以免費使用嗎？
- Aspose.Cells 提供免費試用版，但要獲得完整功能，需要許可證。你可以找到價格[這裡](https://purchase.aspose.com/buy).
+Aspose.Cells 提供免費試用版，但要獲得完整功能，需要許可證。你可以找到價格[這裡](https://purchase.aspose.com/buy).
 
 ### 我在哪裡可以找到更多範例？
 查看[Aspose.Cells 文檔](https://reference.aspose.com/cells/net/)有關更詳細的範例和功能。

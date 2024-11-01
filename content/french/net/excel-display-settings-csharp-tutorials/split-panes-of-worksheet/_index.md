@@ -15,7 +15,7 @@ url: /fr/net/excel-display-settings-csharp-tutorials/split-panes-of-worksheet/
 
 Avant de commencer à fractionner les volets comme un assistant de feuille de calcul, commençons par configurer correctement notre système. Voici ce dont vous aurez besoin :
 
--  Aspose.Cells pour .NET : assurez-vous de l'avoir téléchargé et installé. Si vous ne l'avez pas encore fait, téléchargez-le[ici](https://releases.aspose.com/cells/net/).
+-  Aspose.Cells pour .NET : assurez-vous de l'avoir téléchargé et installé. Si ce n'est pas encore fait, téléchargez-le[ici](https://releases.aspose.com/cells/net/).
 - .NET Framework : ce guide suppose que vous travaillez dans un environnement .NET.
 - Un classeur Excel : nous utiliserons un exemple de fichier Excel pour montrer comment cette fonctionnalité fonctionne.
 -  Une licence temporaire ou complète : Aspose.Cells nécessite une licence. Si vous ne faites qu'essayer, procurez-vous-en une[permis temporaire gratuit](https://purchase.aspose.com/temporary-license/) pour éviter les limitations d’évaluation.

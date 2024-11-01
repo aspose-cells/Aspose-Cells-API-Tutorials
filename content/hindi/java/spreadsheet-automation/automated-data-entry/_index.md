@@ -51,7 +51,7 @@ workbook.open("sample.xlsx");
 // वर्कशीट तक पहुँचें
 Worksheet worksheet = workbook.getWorksheets().get(0);
 
-// डेटा में हेरफेर
+// डेटा में हेरफेर करें
 worksheet.getCells().get("A1").putValue("New Data");
 ```
 

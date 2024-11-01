@@ -53,7 +53,7 @@ Aspose.Cells'de şifreleme söz konusu olduğunda seçenekleriniz var. Bu örnek
 ```csharp
 // XOR şifreleme türünü belirtin.
 workbook.SetEncryptionOptions(EncryptionType.XOR, 40);
-// Güçlü Şifreleme türünü belirtin (RC4, Microsoft Güçlü Şifreleme Sağlayıcısı).
+//Güçlü Şifreleme türünü belirtin (RC4, Microsoft Güçlü Şifreleme Sağlayıcısı).
 workbook.SetEncryptionOptions(EncryptionType.StrongCryptographicProvider, 128);
 ```
 Bu seçenekleri kullanabileceğiniz kilit türleri gibi düşünün; bazıları daha kısadır ve açılması daha kolaydır (XOR), bazıları ise çok daha zordur (Güçlü Kriptografi Sağlayıcısı).
@@ -68,7 +68,7 @@ Son olarak şifrelenmiş dosyanızı oluşturmak için değişiklikleri kaydedel
 ```csharp
 workbook.Save(dataDir + "encryptedBook1.out.xls");
 ```
- Bu kod satırı çalışma kitabını şu şekilde kaydeder:`encryptedBook1.out.xls`belirttiğiniz dizinde. Kitabı güvenli bir şekilde kilitleyip rafa geri koymak gibi!
+ Bu kod satırı çalışma kitabını şu şekilde kaydeder:`encryptedBook1.out.xls` belirttiğiniz dizinde. Kitabı güvenli bir şekilde kilitleyip rafa geri koymak gibi!
 ## Çözüm
 Ve işte oldu! .NET'te Aspose.Cells kullanarak bir Excel dosyasını nasıl şifreleyeceğinizi öğrendiniz. Bu adımları izleyerek hassas verilerinizin iyi korunduğundan emin olursunuz. Sadece şunu unutmayın: koruma sizinle başlar, bu yüzden bilgilerinizi korumak için her zaman gerekli adımları atın. 
 ## SSS

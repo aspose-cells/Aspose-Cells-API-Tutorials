@@ -19,7 +19,7 @@ Excel スプレッドシートから埋め込みファイル、特に MOL ファ
 - Visual Studio: システムに Visual Studio をインストールします。これは、C# コードの記述と実行に必要です。
 - Aspose.Cells for .NET: まだダウンロードしていない場合は、[Aspose.Cells ダウンロード ページ](https://releases.aspose.com/cells/net/)最新バージョンを入手してください。
 - .NET Framework: 互換性のあるバージョンの .NET Framework がインストールされていることを確認します。
--  MOLオブジェクトが埋め込まれたExcelファイル: この例では、`EmbeddedMolSample.xlsx`抽出のためにこのファイルを準備しておく必要があります。
+-  MOLオブジェクトが埋め込まれたExcelファイル: この例では、`EmbeddedMolSample.xlsx`抽出用にこのファイルを準備しておく必要があります。
 
 ## パッケージのインポート
 

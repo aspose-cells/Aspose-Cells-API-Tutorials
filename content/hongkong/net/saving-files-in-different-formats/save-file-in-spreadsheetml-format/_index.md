@@ -18,7 +18,7 @@ url: /zh-hant/net/saving-files-in-different-formats/save-file-in-spreadsheetml-f
 5. 一個可以使用的項目：您需要在 Visual Studio 中設定一個新的 .NET 項目，我們將在其中實作我們的程式碼。
 確保滿足這些先決條件，您就可以開始以 SpreadsheetML 格式儲存檔案的旅程了。
 ## 導入包
-完成所有設定後，第一步是匯入適合您的程式設計環境的必要套件。這類似於在開始烹飪之前將所有原料放在一起 - 您希望所有東西都觸手可及。 
+完成所有設定後，第一步是導入程式設計環境所需的套件。這類似於在開始烹飪之前將所有原料放在一起 - 您希望所有東西都觸手可及。 
 ### 設定您的項目
 1. 開啟 Visual Studio：啟動 IDE 並建立新的 C# 專案。
 2. 管理 NuGet 套件：在解決方案資源管理器中以滑鼠右鍵按一下您的項目，然後選擇「管理 NuGet 套件」。
@@ -58,7 +58,7 @@ workbook.Save(dataDir + "output.xml", SaveFormat.SpreadsheetML);
 無論您是在開發業務應用程式、報告儀表板還是介於兩者之間的任何東西，掌握 Aspose.Cells 無疑都會為您的編碼工具包添加一個有價值的工具。
 ## 常見問題解答
 ### 什麼是 SpreadsheetML？
-SpreadsheetML 是一種基於 XML 的文件格式，用於表示 Excel 電子表格數據，可輕鬆與 Web 服務整合並共用文件。
+SpreadsheetML 是一種基於 XML 的文件格式，用於表示 Excel 電子表格數據，可輕鬆地與 Web 服務整合並共用文件。
 ### 如何安裝 Aspose.Cells for .NET？
 您可以使用 Visual Studio 中的 NuGet Package Manager 安裝 Aspose.Cells 或直接從[網站](https://releases.aspose.com/cells/net/).
 ### 我可以免費使用 Aspose.Cells 嗎？

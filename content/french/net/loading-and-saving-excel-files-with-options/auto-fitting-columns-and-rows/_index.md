@@ -12,7 +12,7 @@ Vous êtes-vous déjà demandé comment ajuster automatiquement la taille des co
 ### Prérequis
 Avant de vous lancer dans le code, vous devez configurer quelques éléments sur votre système. Ne vous inquiétez pas, c'est simple et direct !
 1. Visual Studio installé : vous aurez besoin de Visual Studio ou de tout autre environnement de développement .NET.
-2.  Aspose.Cells pour .NET : vous pouvez[télécharger la dernière version](https://releases.aspose.com/cells/net/)ou utilisez le gestionnaire de packages NuGet pour l'installer.
+2.  Aspose.Cells pour .NET : vous pouvez[télécharger la dernière version](https://releases.aspose.com/cells/net/) ou utilisez le gestionnaire de packages NuGet pour l'installer.
 3. .NET Framework : assurez-vous que .NET Framework 4.0 ou supérieur est installé.
 4. Compréhension de base de C# : avoir quelques connaissances en C# rendra ce tutoriel plus fluide pour vous.
 5. Données du tableau HTML : préparez du contenu HTML (même un tableau de base) que vous souhaitez charger dans Excel.
@@ -44,9 +44,9 @@ Nous définissons ici une chaîne HTML très basique. Elle contient un tableau a
 ```csharp
 MemoryStream ms = new MemoryStream(Encoding.UTF8.GetBytes(sampleHtml));
 ```
- En convertissant la chaîne HTML en un tableau d'octets et en l'introduisant dans un`MemoryStream`nous pouvons travailler avec les données HTML en mémoire. Imaginez cette étape comme la préparation du plat dans une casserole avant de le mettre au four !
+ En convertissant la chaîne HTML en un tableau d'octets et en l'introduisant dans un`MemoryStream`, nous pouvons travailler avec les données HTML en mémoire. Imaginez cette étape comme la préparation du plat dans une casserole avant de le mettre au four !
 ## Étape 4 : charger le MemoryStream dans un classeur (sans ajustement automatique)
- Une fois que nous avons le contenu HTML en mémoire, nous le chargeons dans un Aspose`Workbook`. À ce stade, nous n'avons pas encore ajusté automatiquement les colonnes et les lignes. Il s'agit de notre scénario « avant », à comparer avec la version ajustée automatiquement ultérieurement.
+ Une fois que nous avons le contenu HTML en mémoire, nous le chargeons dans un Aspose`Workbook`À ce stade, nous n'avons pas encore ajusté automatiquement les colonnes et les lignes. Il s'agit de notre scénario « avant », à comparer avec la version ajustée automatiquement ultérieurement.
 ```csharp
 Workbook wb = new Workbook(ms);
 wb.Save(dataDir + "outputWithout_AutoFitColsAndRows.xlsx");
@@ -60,7 +60,7 @@ opts.AutoFitColsAndRows = true;
 ```
 En définissant cette option, nous demandons à Aspose.Cells de redimensionner automatiquement les lignes et les colonnes. Imaginez que vous régliez le four à la température idéale pour que le gâteau lève parfaitement !
 ## Étape 6 : charger le code HTML dans le classeur avec l'ajustement automatique activé
- Maintenant, nous chargeons à nouveau le contenu HTML, mais cette fois avec le`AutoFitColsAndRows` option activée. Cela ajustera la largeur des colonnes et la hauteur des lignes en fonction du contenu qu'elles contiennent.
+ Maintenant, nous chargeons à nouveau le contenu HTML, mais cette fois avec le`AutoFitColsAndRows`option activée. Cela ajustera la largeur des colonnes et la hauteur des lignes en fonction du contenu qu'elles contiennent.
 ```csharp
 wb = new Workbook(ms, opts);
 wb.Save(dataDir + "outputWith_AutoFitColsAndRows.xlsx");

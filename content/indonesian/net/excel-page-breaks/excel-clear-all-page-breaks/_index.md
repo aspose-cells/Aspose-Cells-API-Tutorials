@@ -49,7 +49,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
  Mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat file Excel Anda berada. Ini seperti memberi tahu program Anda di mana menemukan tulang anjing sebelum Anda mengajarinya untuk mengambilnya!
 
-## Langkah 2: Membuat Instansiasi Objek Buku Kerja
+## Langkah 2: Membuat Instansi Objek Buku Kerja
 
  Sekarang saatnya untuk membawa file Excel Anda ke dunia C# kita. Kita melakukan ini dengan membuat`Workbook` obyek.
 

@@ -15,11 +15,11 @@ url: /ko/net/link-and-configuration-operations/configuring-link-to-content-docum
 
 시작하기 전에 필요한 모든 것이 준비되었는지 확인하세요. 다음 전제 조건이 없으면 프로세스가 원활하게 진행되지 않습니다.
 
-1. Aspose.Cells for .NET 라이브러리: 컴퓨터에 Aspose.Cells for .NET이 설치되어 있어야 합니다. 아직 다운로드하지 않았다면 다음에서 가져오세요.[.NET용 Aspose.Cells 다운로드 페이지](https://releases.aspose.com/cells/net/).
+1.  Aspose.Cells for .NET 라이브러리: 컴퓨터에 Aspose.Cells for .NET이 설치되어 있어야 합니다. 아직 다운로드하지 않았다면 다음에서 가져오세요.[.NET용 Aspose.Cells 다운로드 페이지](https://releases.aspose.com/cells/net/).
 2. 개발 환경: Visual Studio 등 .NET을 지원하는 개발 환경을 사용하세요.
 3. C#에 대한 기본 지식: 이 가이드에서는 사용자가 C# 및 .NET에 대해 어느 정도 알고 있다고 가정합니다.
 4. Excel 파일: 작업할 기존 Excel 파일이 있어야 합니다. 이 예에서는 "sample-document-properties.xlsx"라는 파일을 사용합니다.
-5.  임시 면허: 정식 면허가 없는 경우 임시 면허를 취득할 수 있습니다.[여기 임시 면허증](https://purchase.aspose.com/temporary-license/) 파일 조작에 대한 제한을 피하기 위해.
+5. 임시 면허: 정식 면허가 없는 경우 임시 면허를 취득할 수 있습니다.[여기 임시 면허증](https://purchase.aspose.com/temporary-license/) 파일 조작에 대한 제한을 피하기 위해.
 
 ## 패키지 가져오기
 
@@ -49,7 +49,7 @@ string dataDir = "Your Document Directory";
 Workbook workbook = new Workbook(dataDir + "sample-document-properties.xlsx");
 ```
 
--  Workbook workbook = new Workbook(): 이 줄은 새 Workbook을 만듭니다.`Workbook` Aspose.Cells에서 Excel 파일을 다루는 데 사용되는 기본 클래스인 객체입니다.
+-  Workbook workbook = new Workbook(): 이 줄은 새 Workbook을 만듭니다.`Workbook`Aspose.Cells에서 Excel 파일을 다루는 데 사용되는 기본 클래스인 객체입니다.
 - dataDir: 여기서 Excel 파일의 경로를 지정합니다. "Your Document Directory"를 컴퓨터의 실제 경로로 바꾸세요.
 
 이 단계는 문을 여는 것으로 생각하세요. 즉, 파일에 접근하여 필요한 변경을 할 수 있게 되는 것입니다!
@@ -59,7 +59,7 @@ Workbook workbook = new Workbook(dataDir + "sample-document-properties.xlsx");
 파일이 로드되면 사용자 지정 문서 속성에 액세스해야 합니다. 이러한 속성은 검색하고 조작할 수 있는 컬렉션에 저장됩니다.
 
 ```csharp
-//Excel 파일의 모든 사용자 정의 문서 속성 목록을 검색합니다.
+// Excel 파일의 모든 사용자 정의 문서 속성 목록을 검색합니다.
 Aspose.Cells.Properties.CustomDocumentPropertyCollection customProperties = workbook.Worksheets.CustomDocumentProperties;
 ```
 
@@ -93,7 +93,7 @@ bool islinkedtocontent = customProperty1.IsLinkedToContent;
 ```
 
 - 사용자 정의 속성["소유자"]: 이름으로 "소유자" 속성을 가져와서 세부 정보를 검사합니다.
--  IsLinkedToContent: 이 부울 값은 다음을 반환합니다.`true` 해당 속성이 콘텐츠에 성공적으로 연결되었는지 여부.
+- IsLinkedToContent: 이 부울 값은 다음을 반환합니다.`true` 해당 속성이 콘텐츠에 성공적으로 연결되었는지 여부.
 
 이 단계에서는 레이블(속성)이 콘텐츠에 제대로 첨부되었는지 확인하는 것과 같습니다. 코드가 예상한 대로 작동하는지 확인하는 것입니다.
 

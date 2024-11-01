@@ -45,7 +45,7 @@ string dataDir = "Your Document Directory";
 //ワークブックオブジェクトの作成
 Workbook workbook = new Workbook();
 ```
-インスタンス化することで`Workbook`本質的には、「新しいスプレッドシートを作成したい」と言っていることになります。
+インスタンス化することで`Workbook`、本質的には「新しいスプレッドシートを作成したい」と言っていることになります。
 ## ステップ3: ワークブックをSpreadsheetML形式で保存する
 ワークブックを作成し、必要に応じてデータを追加したら、次の大きなステップは保存することです。ここで魔法が起こります。
 ```csharp
@@ -54,7 +54,7 @@ workbook.Save(dataDir + "output.xml", SaveFormat.SpreadsheetML);
 ```
 この行では、Aspose.Cellsにワークブック（あなたの作品）をXMLファイルとして保存するように指示しています。`output.xml` SpreadsheetML形式を使用します。`SaveFormat.SpreadsheetML` Aspose がファイルの保存に使用する形式を認識する方法です。
 ## 結論
-おめでとうございます。Aspose.Cells for .NET を使用して SpreadsheetML 形式でファイルを保存する方法を学習しました。これは、データを構造化したままスプレッドシートを効果的に操作できる強力な機能です。練習を重ねれば、完璧になります。Aspose.Cells を操作すればするほど、使いこなせるようになります。
+おめでとうございます。Aspose.Cells for .NET を使用して SpreadsheetML 形式でファイルを保存する方法を学習しました。これは、データを構造化したままスプレッドシートを効果的に操作できる強力な機能です。練習を重ねれば完璧になります。Aspose.Cells を操作すればするほど、使いこなせるようになります。
 ビジネス アプリケーション、レポート ダッシュボードなどを開発する場合でも、Aspose.Cells を習得すると、コーディング ツールキットに貴重なツールが追加されることは間違いありません。
 ## よくある質問
 ### SpreadsheetML とは何ですか?

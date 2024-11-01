@@ -39,7 +39,7 @@ bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
- Det här utdraget kontrollerar om den angivna katalogen finns. Om det inte gör det, skapar det det åt dig. Ersätta`"Your Document Directory"` med din önskade väg.
+ Det här utdraget kontrollerar om den angivna katalogen finns. Om det inte gör det skapar det det åt dig. Ersätta`"Your Document Directory"` med din önskade väg.
 ## Steg 2: Instantiera ett arbetsboksobjekt
 Därefter vill du skapa en ny instans av en arbetsbok, som i huvudsak är din Excel-fil. Så här gör du:
 ```csharp
@@ -82,7 +82,7 @@ För att understryka texten behöver du tillgång till dess stilegenskaper. Så 
 Style style = cell.GetStyle();
 ```
 Den här raden hämtar den befintliga stilen som tillämpas på cellen, så att du kan ändra den.
-## Steg 8: Ställ in teckensnittet för att understrykas
+## Steg 8: Ställ in teckensnittet för att vara understruket
 Nu kommer den spännande delen! Låt oss uppdatera teckensnittsstilen:
 ```csharp
 // Ställa in typsnittet som ska understrykas

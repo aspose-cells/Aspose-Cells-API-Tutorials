@@ -48,7 +48,7 @@ Ismerje meg, hogyan módosíthatja programozottan a kimutatási táblázat forr�
 ### [Pivot mezők programozott törlése .NET-ben](./clearing-pivot-fields/)
 Oldja fel az Aspose.Cells erejét .NET-hez. Könnyedén törölje ki a Pivot mezőket az Excelben a teljes, lépésenkénti oktatóanyagunk segítségével.
 ### [Konszolidációs függvények programozottan .NET-ben](./consolidation-functions/)
-Ismerje meg, hogyan használhatja az Aspose.Cells for .NET fájlt a konszolidációs függvények programozott alkalmazásához. Hatékonyan automatizálja adatelemzési feladatait.
+Ismerje meg az Aspose.Cells for .NET használatával konszolidációs függvények programozott alkalmazását. Hatékonyan automatizálja adatelemzési feladatait.
 ### [Új kimutatástábla létrehozása programozottan a .NET-ben](./creating-new-pivot-table/)
 Ismerje meg, hogyan lehet programozottan pivot táblát létrehozni .NET-ben az Aspose.Cells használatával a lépésenkénti útmutatónk segítségével. Hatékonyan elemezze adatait.
 ### [A Kimutatástábla szalag programozott letiltása .NET-ben](./disabling-pivot-table-ribbon/)
@@ -56,7 +56,7 @@ Ismerje meg, hogyan tilthatja le a pivot táblázat szalagját a .NET-ben az Asp
 ### [A kimutatások programozott formázása és megjelenése .NET-ben](./formatting-and-look/)
 Javítsa ki Excel pivot tábláit az Aspose.Cells for .NET segítségével. Tanulja meg könnyedén formázni, testreszabni és automatizálni az adatok megjelenítését.
 ### [Frissítse és számítsa ki az elemeket a kimutatástáblázatban a .NET-ben](./refreshing-and-calculating-items/)
-Fedezze fel, hogyan frissítheti és számíthatja ki a kimutatástáblázat elemeit az Aspose.Cells for .NET használatával ezzel az átfogó, lépésről lépésre mutató oktatóanyaggal.
+Fedezze fel, hogyan frissítheti és számíthatja ki a kimutatástáblázat elemeit az Aspose.Cells for .NET segítségével ezzel az átfogó, lépésről lépésre mutató oktatóanyaggal.
 ### [A kimutatástábla automatikus formátumának programozott beállítása .NET-ben](./setting-auto-format/)
 Ebből a részletes, lépésenkénti oktatóanyagból megtudhatja, hogyan állíthatja be programozottan az Excel kimutatástábláinak automatikus formátumát az Aspose.Cells for .NET használatával.
 ### [Az adatmező formátumának programozott beállítása .NET-ben](./setting-data-field-format/)

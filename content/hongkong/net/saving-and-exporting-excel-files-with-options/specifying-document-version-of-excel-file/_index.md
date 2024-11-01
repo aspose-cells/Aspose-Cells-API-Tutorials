@@ -11,7 +11,7 @@ url: /zh-hant/net/saving-and-exporting-excel-files-with-options/specifying-docum
 Aspose.Cells for .NET 是一個功能強大的程式庫，可讓開發人員以程式設計方式輕鬆操作 Excel 檔案。無論您是想從頭開始建立 Excel 文件還是修改現有文件，Aspose.Cells 都可以提供全面的 API 來實現您的目標。其中一項功能是指定文件屬性，例如版本、作者或標題。本教學將引導您了解如何使用 Aspose.Cells for .NET 以程式設計方式指定 Excel 檔案的文件版本。
 ## 先決條件
 在我們深入了解細節之前，讓我們確保您已掌握本教學所需的一切：
-1.  Aspose.Cells for .NET：您可以下載最新版本[這裡](https://releases.aspose.com/cells/net/)。如果您尚未購買許可證，您可以選擇[臨時執照](https://purchase.aspose.com/temporary-license/)探索功能。
+1. Aspose.Cells for .NET：您可以下載最新版本[這裡](https://releases.aspose.com/cells/net/)。如果您尚未購買許可證，您可以選擇[臨時執照](https://purchase.aspose.com/temporary-license/)探索功能。
 2. .NET 開發環境：您可以使用 Visual Studio 或任何與 .NET 相容的 IDE。
 3. C# 基礎知識：了解 C# 程式設計將使您更容易遵循。
 ## 導入包
@@ -59,7 +59,7 @@ bdpc.DocumentVersion = "Aspose.Cells Version - 18.3";
 ```csharp
 wb.Save("outputSpecifyDocumentVersionOfExcelFile.xlsx", SaveFormat.Xlsx);
 ```
-這`Save`方法用於將檔案儲存到您指定的目錄。在這裡，我們將其儲存為 Excel 文件`.xlsx`格式。如果需要，Aspose.Cells 也支援以下格式`.xls`, `.csv`， 和`.pdf`，根據您的專案需求提供靈活性。
+這`Save`方法用於將檔案儲存到您指定的目錄。在這裡，我們將其儲存為 Excel 文件`.xlsx`格式。如果需要，Aspose.Cells 也支援以下格式`.xls`, `.csv` ， 和`.pdf`，根據您的專案需求提供靈活性。
 ## 結論
 在本教學中，我們演練如何使用 Aspose.Cells for .NET 在 Excel 文件中指定文件屬性，特別是文件版本。 Aspose.Cells 是一個極其靈活且功能強大的工具，可讓您以程式設計方式操作 Excel 文件，這使其成為任何使用電子表格的 .NET 開發人員的寶貴資產。
 ## 常見問題解答

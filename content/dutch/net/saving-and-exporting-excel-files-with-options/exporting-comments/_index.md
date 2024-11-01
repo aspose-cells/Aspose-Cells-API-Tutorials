@@ -49,7 +49,7 @@ Zo doe je dat:
 HtmlSaveOptions opts = new HtmlSaveOptions();
 opts.IsExportComments = true;
 ```
- Door het instellen`IsExportComments` naar`true`geven we Aspose.Cells de opdracht om alle opmerkingen uit het Excel-bestand in de HTML-uitvoer op te nemen. Het is een eenvoudige maar krachtige optie die ervoor zorgt dat er niets belangrijks verloren gaat tijdens de conversie.
+ Door het instellen`IsExportComments` naar`true`, geven we Aspose.Cells de opdracht om alle opmerkingen uit het Excel-bestand in de HTML-uitvoer op te nemen. Het is een eenvoudige maar krachtige optie die ervoor zorgt dat er niets belangrijks verloren gaat tijdens de conversie.
 ## Stap 4: Sla het Excel-bestand op als HTML
  Nu we het Excel-bestand hebben geladen en de exportopties hebben geconfigureerd, is de laatste stap om het bestand op te slaan als een HTML-document. Aspose.Cells maakt dit ongelooflijk eenvoudig. Het enige wat we hoeven te doen is de`Save` methode op onze`Workbook` object, waarbij de gewenste uitvoeropmaak en opties worden doorgegeven.
 Hier is de code:
@@ -59,7 +59,7 @@ string outputDir = "Your Document Directory";
 // Sla de werkmap op in HTML met geëxporteerde opmerkingen
 wb.Save(outputDir + "outputExportCommentsHTML.html", opts);
 ```
- In deze stap slaan we het Excel-bestand op als een HTML-document en exporteren we de opmerkingen er ook bij. Vervang gewoon`"Your Document Directory"` met de daadwerkelijke map waar u het HTML-bestand wilt opslaan.
+ In deze stap slaan we het Excel-bestand op als een HTML-document en exporteren we de opmerkingen er ook bij. Vervang gewoon`"Your Document Directory"`met de daadwerkelijke map waar u het HTML-bestand wilt opslaan.
 ## Stap 5: Voer uw applicatie uit
 Nu alles is ingesteld, is het tijd om uw applicatie uit te voeren. Open uw terminal (of het uitvoervenster van Visual Studio) en u ziet iets als dit:
 ```plaintext
@@ -70,7 +70,7 @@ Dit bericht bevestigt dat het bestand succesvol is geconverteerd naar HTML en da
 En daar heb je het! Je hebt net geleerd hoe je opmerkingen van een Excel-bestand naar HTML exporteert met Aspose.Cells voor .NET. Dit proces is niet alleen eenvoudig, maar het zorgt er ook voor dat er geen van je kritische notities of aantekeningen achterblijven bij het converteren naar HTML. Of je nu werkt aan het genereren van dynamische rapporten of gewoon Excel-bestanden converteert voor webgebruik, deze functie kan een echte levensredder zijn.
 ## Veelgestelde vragen
 ### Kan ik alleen specifieke opmerkingen uit een Excel-bestand naar HTML exporteren?  
- Nee, Aspose.Cells exporteert alle opmerkingen wanneer`IsExportComments` is ingesteld op true. U kunt echter aanpassen welke opmerkingen u wilt opnemen door uw Excel-bestand handmatig aan te passen voordat u het exporteert.
+Nee, Aspose.Cells exporteert alle opmerkingen wanneer`IsExportComments` is ingesteld op true. U kunt echter aanpassen welke opmerkingen u wilt opnemen door uw Excel-bestand handmatig aan te passen voordat u het exporteert.
 ### Heeft het exporteren van opmerkingen invloed op de lay-out van het HTML-bestand?  
 Helemaal niet! Aspose.Cells zorgt ervoor dat de lay-out intact blijft terwijl opmerkingen als extra elementen in het HTML-bestand worden toegevoegd.
 ### Kan ik opmerkingen exporteren naar andere formaten, zoals PDF of Word?  

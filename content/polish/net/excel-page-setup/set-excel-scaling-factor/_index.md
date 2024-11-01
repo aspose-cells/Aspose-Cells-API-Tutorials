@@ -69,7 +69,7 @@ Teraz czas utworzyć nowy skoroszyt. To jest miejsce, w którym będą przechowy
 Workbook workbook = new Workbook();
 ```
 
- Tutaj deklarujemy nowy`Workbook`obiekt reprezentujący plik Excela, który umożliwi nam manipulowanie jego zawartością.
+ Tutaj deklarujemy nowy`Workbook` obiekt reprezentujący plik Excela, który umożliwi nam manipulowanie jego zawartością.
 
 ## Krok 3: Uzyskaj dostęp do pierwszego arkusza kalkulacyjnego
 

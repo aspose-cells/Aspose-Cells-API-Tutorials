@@ -113,7 +113,7 @@ workbook.Save(dataDir + "output.out.xls", SaveFormat.Excel97To2003);
 是的，您可以使用該程式庫的方法在 Excel 工作表上保護並設定新密碼。
 
 ### Aspose.Cells 支援較新的 Excel 格式嗎？
-絕對地！本程式庫支援舊版和新版 Excel 格式（.xls 和 .xlsx）。
+絕對地！該程式庫支援較舊和較新的 Excel 格式（.xls 和 .xlsx）。
 
 ### 我可以免費使用 Aspose.Cells 嗎？
 是的，您可以下載 Aspose.Cells 的免費試用版[這裡](https://releases.aspose.com/).

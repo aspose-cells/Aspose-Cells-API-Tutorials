@@ -13,7 +13,7 @@ url: /zh-hant/net/setting-chart-appearance/change-major-gridlines-in-chart/
 
 ## 先決條件
 
-在我們開始之前，您需要做好一些準備工作，以確保在使用 Aspose.Cells 時獲得流暢的體驗：
+在開始之前，您需要做好一些準備工作，以確保在使用 Aspose.Cells 時獲得流暢的體驗：
 
 - Visual Studio：確保您的電腦上安裝了 Visual Studio。您將在此處編寫和執行程式碼。
 -  Aspose.Cells for .NET：您可以從以下位置下載最新版本的 Aspose.Cells：[網站](https://releases.aspose.com/cells/net/) 。如果您想在購買前進行試驗，您可以考慮註冊[免費試用](https://releases.aspose.com/).
@@ -62,7 +62,7 @@ Workbook workbook = new Workbook();
 建立工作簿後，您可以存取其預設工作表。 Aspose.Cells 中的工作表是有索引的，因此如果您想要第一個工作表，可以透過索引引用它`0`.
 
 ```csharp
-//透過傳遞工作表索引來取得新新增的工作表的引用
+//透過傳遞工作表索引來取得新新增工作表的引用
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
@@ -173,7 +173,7 @@ Console.WriteLine("Changing Major Gridlines in Chart executed successfully.");
 
 ## 結論
 
-現在你就得到它了！您已經成功學習如何使用 Aspose.Cells for .NET 來變更圖表中的主要網格線。透過遵循本逐步指南，您不僅可以透過程式操作 Excel 文件，還可以透過顏色自訂增強其視覺吸引力。請隨意進一步嘗試 Aspose.Cells，以加深您的數據演示技能並使您的圖表更加動態！
+現在你就擁有了！您已經成功學習如何使用 Aspose.Cells for .NET 來變更圖表中的主要網格線。透過遵循本逐步指南，您不僅可以透過程式操作 Excel 文件，還可以透過顏色自訂增強其視覺吸引力。請隨意進一步嘗試 Aspose.Cells，以加深您的數據演示技能並使您的圖表更加動態！
 
 ## 常見問題解答
 

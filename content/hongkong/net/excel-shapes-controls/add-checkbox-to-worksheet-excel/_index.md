@@ -89,7 +89,7 @@ excelBook.Save(dataDir + "book1.out.xls");
 ```
 就像這樣，您已經建立了一個帶有功能複選框的 Excel 檔案！
 ## 結論
-恭喜！您剛剛使用 Aspose.Cells for .NET 在 Excel 工作表中新增了一個複選框。這個功能強大的庫允許進行多種電子表格操作，而添加複選框只是冰山一角。現在，您可以使用互動式元素自訂 Excel 文檔，以增強使用者體驗。那麼，你還在等什麼？深入 Excel 自動化的世界，探索 Aspose.Cells 提供的所有可能性！
+恭喜！您剛剛使用 Aspose.Cells for .NET 在 Excel 工作表中新增了一個複選框。這個功能強大的庫允許進行多種電子表格操作，而添加複選框只是冰山一角。現在，您可以使用互動式元素自訂 Excel 文檔，以增強使用者體驗。那麼，您還在等什麼呢？深入 Excel 自動化的世界，探索 Aspose.Cells 提供的所有可能性！
 ## 常見問題解答
 ### 什麼是 Aspose.Cells？
 Aspose.Cells 是一個功能強大的.NET 程式庫，可讓開發人員以程式設計方式建立、操作和管理 Excel 檔案。

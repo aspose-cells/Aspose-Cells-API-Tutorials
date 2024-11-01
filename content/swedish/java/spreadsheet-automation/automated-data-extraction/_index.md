@@ -28,7 +28,7 @@ Att automatisera datautvinning ger flera fördelar:
 
  Se först till att du har Aspose.Cells för Java installerat. Du kan ladda ner den från[här](https://releases.aspose.com/cells/java/).
 
-### 2. Initialisering av Aspose.Cells
+### 2. Initiering av Aspose.Cells
 
 Låt oss skapa en Java-applikation och initiera Aspose.Cells:
 

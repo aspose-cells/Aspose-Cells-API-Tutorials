@@ -107,7 +107,7 @@ fstream.Close();
 
 ## Conclusione
 
-Ed ecco fatto! Hai imparato come nascondere le intestazioni di riga e colonna di un foglio di lavoro Excel usando Aspose.Cells per .NET attraverso una serie di semplici passaggi. Questo può migliorare la leggibilità e la presentazione complessiva dei tuoi fogli di calcolo, consentendo al tuo pubblico di concentrarsi esclusivamente sui dati che desideri evidenziare.
+Ed ecco fatto! Hai imparato come nascondere le intestazioni di riga e colonna di un foglio di lavoro Excel usando Aspose.Cells per .NET attraverso una serie di semplici passaggi. Ciò può migliorare la leggibilità e la presentazione complessiva dei tuoi fogli di calcolo, consentendo al tuo pubblico di concentrarsi esclusivamente sui dati che desideri evidenziare.
 
 ## Domande frequenti
 
@@ -124,4 +124,4 @@ Aspose.Cells è una potente libreria .NET per la gestione dei fogli di calcolo E
  Sì, Aspose fornisce supporto tramite i suoi forum, ai quali puoi accedere[Qui](https://forum.aspose.com/c/cells/9).
 
 ### Come posso ottenere una licenza temporanea per Aspose.Cells?  
- È possibile richiedere una licenza temporanea a fini di valutazione presso[questo collegamento](https://purchase.aspose.com/temporary-license/).
+ È possibile richiedere una licenza temporanea per scopi di valutazione presso[questo collegamento](https://purchase.aspose.com/temporary-license/).

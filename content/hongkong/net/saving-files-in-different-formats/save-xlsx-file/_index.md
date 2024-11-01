@@ -69,7 +69,7 @@ if (Respose != null)
 - OoxmlSaveOptions：確保檔案以 XLSX 格式儲存。
 
 ## 結論
-現在你就得到它了！您剛剛學習如何使用 Aspose.Cells for .NET 儲存 XLSX 檔。透過執行這些簡單的步驟，您現在可以在應用程式中有效地操作 Excel 檔案。這不僅簡化了您的工作流程，還增強了您的資料處理能力。
+現在你就擁有了！您剛剛學習如何使用 Aspose.Cells for .NET 儲存 XLSX 檔。透過執行這些簡單的步驟，您現在可以在應用程式中有效地操作 Excel 檔案。這不僅簡化了您的工作流程，還增強了您的資料處理能力。
 ## 常見問題解答
 ### 什麼是 Aspose.Cells？
 Aspose.Cells 是一個功能強大的程式庫，用於在 .NET 應用程式中處理 Excel 檔案。

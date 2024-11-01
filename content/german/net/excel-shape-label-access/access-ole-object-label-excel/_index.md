@@ -118,8 +118,8 @@ OLE-Objekte sind eingebettete Dateien, mit denen Sie Dokumente aus anderen Micro
 ### Kann Aspose.Cells mit anderen Dateiformaten arbeiten?  
 Ja! Aspose.Cells unterstützt eine Vielzahl von Formaten, darunter XLS, XLSX, CSV und mehr.
 ### Gibt es eine kostenlose Testversion für Aspose.Cells?  
-Ja! Sie können es ausprobieren[Hier](https://releases.aspose.com/).
+ Ja! Sie können es ausprobieren[Hier](https://releases.aspose.com/).
 ### Kann ich in einem Arbeitsblatt auf mehrere OLE-Objekte zugreifen?  
- Absolut! Sie können eine Schleife durchlaufen`ws.OleObjects` um auf alle eingebetteten OLE-Objekte in einem Arbeitsblatt zuzugreifen.
+Absolut! Sie können eine Schleife durchlaufen`ws.OleObjects` um auf alle eingebetteten OLE-Objekte in einem Arbeitsblatt zuzugreifen.
 ### Wie erwerbe ich eine Lizenz für Aspose.Cells?  
  Sie können eine Lizenz direkt erwerben bei[Hier](https://purchase.aspose.com/buy).

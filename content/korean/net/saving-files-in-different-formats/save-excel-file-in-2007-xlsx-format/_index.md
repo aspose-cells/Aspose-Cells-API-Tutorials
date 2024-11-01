@@ -12,7 +12,7 @@ url: /ko/net/saving-files-in-different-formats/save-excel-file-in-2007-xlsx-form
 ## 필수 조건
 자세한 내용을 살펴보기 전에 꼭 갖춰야 할 몇 가지 전제 조건이 있습니다.
 1. Visual Studio - 시스템에 Visual Studio가 설치되어 있는지 확인하세요. C# 코드를 손쉽게 작성하고 실행하는 데 도움이 됩니다.
-2.  Aspose.Cells 라이브러리 - .NET용 Aspose.Cells 라이브러리가 필요합니다. 쉽게 다운로드할 수 있습니다.[Aspose Cells 릴리스 페이지](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells 라이브러리 - .NET용 Aspose.Cells 라이브러리가 필요합니다. 쉽게 다운로드할 수 있습니다.[Aspose Cells 릴리스 페이지](https://releases.aspose.com/cells/net/).
 3. 기본 프로그래밍 지식 - C#과 .NET에 대한 지식이 있으면 다룰 코드 조각에 대한 이해가 더 쉬워질 것입니다.
 4. 테스트 문서 디렉토리 - Excel 파일을 저장하고 테스트할 폴더를 만들거나 결정합니다. 이 튜토리얼에서는 이를 "문서 디렉토리"라고 합니다.
 모든 것이 준비되면, 이제 여러분의 기술을 뽐낼 준비가 끝났습니다!

@@ -44,7 +44,7 @@ Aspose.Cells를 사용하려면 라이브러리에 참조를 추가해야 합니
 
 ### 사용 지침 추가
 
- 당신의 맨 위에`Program.cs`파일에서 Aspose.Cells 기능에 액세스하려면 이 지시문을 삽입하세요.
+ 당신의 맨 위에`Program.cs` 파일에서 Aspose.Cells 기능에 액세스하려면 이 지시문을 삽입하세요.
 
 ```csharp
 using System;

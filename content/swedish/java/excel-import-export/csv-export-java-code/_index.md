@@ -60,7 +60,7 @@ public class CsvExportExample {
 
 I den här koden laddar vi en Excel-arbetsbok, anger CSV-alternativen (som separatorn) och sparar sedan kalkylbladet som en CSV-fil.
 
-## Köra koden
+## Kör koden
 
 Kompilera och kör Java-koden i din IDE. Se till att du har en Excel-fil med namnet "input.xlsx" i din projektkatalog. När du har kört koden hittar du den exporterade CSV-filen som "output.csv" i samma katalog.
 

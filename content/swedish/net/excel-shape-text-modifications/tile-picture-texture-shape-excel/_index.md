@@ -12,7 +12,7 @@ När det gäller att förbättra den visuella dragningskraften hos Excel-kalkylb
 ## Förutsättningar
 Innan vi börjar finns det några saker du måste se till att du har på plats:
 1. Visual Studio: Du bör ha Visual Studio installerat på ditt system. Detta kommer att vara vår primära IDE för att skriva och köra koden.
-2.  Aspose.Cells för .NET: Detta bibliotek är viktigt för att manipulera Excel-filer. Du kan ladda ner den från[Aspose.Cells Nedladdningssida](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells för .NET: Detta bibliotek är viktigt för att manipulera Excel-filer. Du kan ladda ner den från[Sidan Aspose.Cells Nedladdningar](https://releases.aspose.com/cells/net/).
 3. Grundläggande kunskaper om C#: Eftersom vi kommer att skriva vårt program i C#, kommer en grundläggande förståelse för syntax och struktur att vara till hjälp.
 4. Exempel på Excel-fil: För vår handledning kommer vi att använda en Excel-exempelfil. Du kan antingen skapa en enkel Excel-fil med former eller ladda ner ett prov från Aspose-webbplatsen.
 ## Importera paket

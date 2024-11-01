@@ -118,4 +118,4 @@ Igényeitől függően .xls, .xlsx, .csv és számos más formátumban mentheti 
 
 ### Van-e közösség az Aspose támogatására?
 
-Határozottan! Támogatásért és megbeszélésekért elérheti az Aspose közösségi fórumot[itt](https://forum.aspose.com/c/cells/9).
+ Határozottan! Támogatásért és megbeszélésekért elérheti az Aspose közösségi fórumot[itt](https://forum.aspose.com/c/cells/9).

@@ -64,7 +64,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Workbook workbook = new Workbook(dataDir + "PageBreaks.xls");
 ```
 
-คำอธิบาย: บรรทัดนี้จะสร้างอินสแตนซ์ใหม่ของ`Workbook` ซึ่งโหลดไฟล์ Excel ที่คุณระบุ (ในตัวอย่างนี้ มีชื่อว่า`PageBreaks.xls`- 
+ คำอธิบาย: บรรทัดนี้จะสร้างอินสแตนซ์ใหม่ของ`Workbook` ซึ่งโหลดไฟล์ Excel ที่คุณระบุ (ในตัวอย่างนี้ มีชื่อว่า`PageBreaks.xls`- 
 
 ## ขั้นตอนที่ 3: ลบตัวแบ่งหน้าแนวนอน
 
@@ -117,4 +117,4 @@ workbook.Save(dataDir + "RemoveSpecificPageBreak_out.xls");
  แน่นอนครับ เพียงเปลี่ยนเลขดัชนีเป็น`workbook.Worksheets[index]` เพื่อกำหนดเป้าหมายแผ่นงานที่ต้องการ
 
 ### Aspose.Cells เป็นเครื่องมือฟรีหรือไม่?  
- Aspose.Cells เสนอให้ทดลองใช้งานฟรี แต่หากต้องการฟังก์ชันการทำงานเต็มรูปแบบ คุณจะต้องซื้อใบอนุญาต คุณสามารถตรวจสอบได้[ที่นี่](https://purchase.aspose.com/buy).
+Aspose.Cells เสนอให้ทดลองใช้งานฟรี แต่หากต้องการฟังก์ชันการทำงานเต็มรูปแบบ คุณจะต้องซื้อใบอนุญาต คุณสามารถตรวจสอบได้[ที่นี่](https://purchase.aspose.com/buy).

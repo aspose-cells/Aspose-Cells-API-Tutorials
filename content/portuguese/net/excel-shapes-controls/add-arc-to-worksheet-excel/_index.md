@@ -108,7 +108,7 @@ Aspose.Cells é uma biblioteca poderosa que permite aos desenvolvedores criar, m
 ### Preciso instalar o Microsoft Excel para usar o Aspose.Cells?
 Não, o Aspose.Cells é completamente independente e não requer a instalação do Microsoft Excel.
 ### Posso testar o Aspose.Cells gratuitamente?
-Sim, você pode experimentar o Aspose.Cells usando seu[Teste grátis](https://releases.aspose.com/).
+ Sim, você pode experimentar o Aspose.Cells usando seu[Teste grátis](https://releases.aspose.com/).
 ### Quais linguagens de programação o Aspose.Cells suporta?
 O Aspose.Cells oferece suporte a diversas linguagens, incluindo C#, VB.NET e muito mais.
 ### Onde posso obter suporte para o Aspose.Cells?

@@ -39,14 +39,14 @@ string outputDir = "Your Document Directory";
 ```
  แทนที่`"Your Document Directory"` พร้อมเส้นทางจริงไปยังไดเร็กทอรีของคุณ
 ## ขั้นตอนที่ 2: เปิดไฟล์ Excel
-ตอนนี้เราได้ตั้งค่าไดเร็กทอรีเรียบร้อยแล้ว มาเปิดไฟล์ Excel ที่คุณต้องการใช้งานกัน`Workbook` คลาสใน Aspose.Cells ใช้เพื่อโหลดเอกสาร Excel
+ ตอนนี้เราได้ตั้งค่าไดเร็กทอรีเรียบร้อยแล้ว มาเปิดไฟล์ Excel ที่คุณต้องการใช้งานกัน`Workbook` คลาสใน Aspose.Cells ใช้เพื่อโหลดเอกสาร Excel
 ```csharp
 // เปิดไฟล์ Excel
 Workbook workbook = new Workbook(sourceDir + "sampleSetDefaultFontPropertyOfPdfSaveOptionsAndImageOrPrintOptions.xlsx");
 ```
 อย่าลืมเปลี่ยนชื่อไฟล์ด้วยชื่อไฟล์จริงของคุณ
 ## ขั้นตอนที่ 3: ตั้งค่าตัวเลือกการแสดงผลภาพ
- ต่อไปเราต้องกำหนดค่าตัวเลือกการแสดงผลสำหรับการแปลงแผ่นงาน Excel ของเราเป็นรูปแบบรูปภาพ เราจะสร้างอินสแตนซ์ของ`ImageOrPrintOptions`โดยระบุชนิดภาพและแบบอักษรเริ่มต้น
+ต่อไปเราต้องกำหนดค่าตัวเลือกการแสดงผลสำหรับการแปลงแผ่นงาน Excel ของเราเป็นรูปแบบรูปภาพ เราจะสร้างอินสแตนซ์ของ`ImageOrPrintOptions`โดยระบุชนิดภาพและแบบอักษรเริ่มต้น
 ```csharp
 // การเรนเดอร์เป็นรูปแบบไฟล์ PNG
 ImageOrPrintOptions imgOpt = new ImageOrPrintOptions();
@@ -63,7 +63,7 @@ SheetRender sr = new SheetRender(workbook.Worksheets[0], imgOpt);
 sr.ToImage(0, outputDir + "out1_imagePNG.png");
 ```
 ## ขั้นตอนที่ 5: เปลี่ยนประเภทภาพและเรนเดอร์เป็น TIFF
-หากคุณต้องการเรนเดอร์แผ่นงานเดียวกันเป็นรูปแบบภาพอื่น เช่น TIFF คุณสามารถเปลี่ยนได้`ImageType` คุณสมบัติและทำซ้ำกระบวนการเรนเดอร์
+ หากคุณต้องการเรนเดอร์แผ่นงานเดียวกันเป็นรูปแบบภาพอื่น เช่น TIFF คุณสามารถเปลี่ยนได้`ImageType` คุณสมบัติและทำซ้ำกระบวนการเรนเดอร์
 ```csharp
 // ตั้งค่าเป็นรูปแบบ TIFF
 imgOpt.ImageType = Drawing.ImageType.Tiff;

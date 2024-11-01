@@ -55,7 +55,7 @@ string sourceDir = "Your Document Directory/";
 string outputDir = "Your Output Directory/";
 ```
 
- Remplacer`Your Document Directory` et`Your Output Directory`avec les chemins réels sur votre ordinateur. 
+ Remplacer`Your Document Directory` et`Your Output Directory` avec les chemins réels sur votre ordinateur. 
 
 ## Étape 2 : charger le classeur existant
 
@@ -100,7 +100,7 @@ Une fois le graphique sélectionné, il est temps d’ajouter l’image !
 Aspose.Cells.Drawing.Picture pic0 = chart.Shapes.AddPictureInChart(50, 50, stream, 200, 200);
 ```
 
- Ici,`50` et`50` sont les coordonnées X et Y où l'image sera placée, et`200`est la largeur et la hauteur de l'image.
+ Ici,`50` et`50` sont les coordonnées X et Y où l'image sera placée, et`200` est la largeur et la hauteur de l'image.
 
 ## Étape 6 : Personnaliser le format de ligne de l'image
 
@@ -147,14 +147,14 @@ Dans ce tutoriel, nous avons exploré comment ajouter un peu de personnalité à
 ### Puis-je ajouter plusieurs images à un seul graphique ?
  Oui ! Vous pouvez appeler le`AddPictureInChart` Répétez la méthode plusieurs fois pour ajouter autant d'images que vous le souhaitez.
 
-### Quels formats d’image sont pris en charge par Aspose.Cells ?
+### Quels formats d’image Aspose.Cells prend-il en charge ?
 Aspose.Cells prend en charge une variété de formats d'image, notamment PNG, JPEG, BMP et GIF.
 
 ### Puis-je personnaliser la position de l'image ?
  Bien sûr ! Les coordonnées X et Y dans le`AddPictureInChart` méthode permet un positionnement précis.
 
 ### L'utilisation d'Aspose.Cells est-elle gratuite ?
- Aspose.Cells propose un essai gratuit, mais pour bénéficier de toutes les fonctionnalités, une licence est requise. Vous pouvez trouver les tarifs[ici](https://purchase.aspose.com/buy).
+Aspose.Cells propose un essai gratuit, mais pour bénéficier de toutes les fonctionnalités, une licence est requise. Vous pouvez trouver les tarifs[ici](https://purchase.aspose.com/buy).
 
 ### Où puis-je trouver plus d’exemples ?
  Découvrez le[Documentation d'Aspose.Cells](https://reference.aspose.com/cells/net/) pour des exemples et des fonctionnalités plus détaillés.

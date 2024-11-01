@@ -84,7 +84,7 @@ Ta linia pobiera kolekcję, w której będziesz zarządzać swoimi chronionymi z
 
 ## Krok 5: Zdefiniuj i utwórz zakres chroniony
 
-tym momencie jesteśmy gotowi zdefiniować zakres, w którym chcesz zezwolić na edycję. Utwórzmy ten zakres.
+W tym momencie jesteśmy gotowi zdefiniować zakres, w którym chcesz zezwolić na edycję. Utwórzmy ten zakres.
 
 ```csharp
 // Zdefiniuj ProtectedRange
@@ -95,7 +95,7 @@ int idx = allowRanges.Add("r2", 1, 1, 3, 3);
 proteced_range = allowRanges[idx];
 ```
 
-W powyższym kodzie tworzymy chroniony zakres o nazwie „r2”, który umożliwia edycję komórek od wiersza 1, kolumny 1 do wiersza 3, kolumny 3 (co w żargonie Excela oznacza blok A1 do C3). Możesz dostosować te indeksy według potrzeb.
+powyższym kodzie tworzymy chroniony zakres o nazwie „r2”, który umożliwia edycję komórek od wiersza 1, kolumny 1 do wiersza 3, kolumny 3 (co w żargonie Excela oznacza blok A1 do C3). Możesz dostosować te indeksy według potrzeb.
 
 ## Krok 6: Ustaw hasło 
 
@@ -121,14 +121,14 @@ Wywołując tę metodę, zasadniczo nakładasz blokadę na cały arkusz kalkulac
 
 ## Krok 8: Zapisz plik Excel
 
-końcu dotarliśmy do ostatniego kroku naszego samouczka — zapisania skoroszytu w zdefiniowanym katalogu!
+W końcu dotarliśmy do ostatniego kroku naszego samouczka — zapisania skoroszytu w zdefiniowanym katalogu!
 
 ```csharp
 // Zapisz plik Excela
 book.Save(dataDir + "protectedrange.out.xls");
 ```
 
- Spowoduje to zapisanie chronionego skoroszytu jako`protectedrange.out.xls` w podanym przez Ciebie katalogu.
+Spowoduje to zapisanie chronionego skoroszytu jako`protectedrange.out.xls` w podanym przez Ciebie katalogu.
 
 ## Wniosek
 

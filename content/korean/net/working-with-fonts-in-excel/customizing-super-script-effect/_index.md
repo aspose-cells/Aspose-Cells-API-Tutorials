@@ -16,7 +16,7 @@ Excel 문서를 프로그래밍 방식으로 만드는 경우 텍스트 형식�
 ### 2. .NET Framework 또는 .NET Core
 올바른 .NET 버전이 설치되어 있는지 확인하세요. Aspose.Cells for .NET은 .NET Framework와 .NET Core 모두와 원활하게 작동합니다.
 ### 3. Aspose.Cells 라이브러리
- Aspose.Cells 라이브러리가 필요합니다. 다운로드할 수 있습니다.[여기](https://releases.aspose.com/cells/net/)Excel 파일을 조작하려면 프로젝트에 이것이 필요합니다.
+Aspose.Cells 라이브러리가 필요합니다. 다운로드할 수 있습니다.[여기](https://releases.aspose.com/cells/net/)Excel 파일을 조작하려면 프로젝트에 이것이 필요합니다.
 ### 4. C#의 기본 이해
 C#을 이해하는 것은 유익하지만 필수는 아닙니다. 우리는 라이브러리를 사용하여 Excel 파일을 조작하는 코드를 작성할 것이고, C#에 대한 지식은 그것을 더 잘 이해하는 데 도움이 될 것입니다.
 ### 5. 작업할 IDE

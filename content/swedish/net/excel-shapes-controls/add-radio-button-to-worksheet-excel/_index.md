@@ -34,7 +34,7 @@ Workbook excelbook = new Workbook();
 ```
 I det här steget skapar du en tom arbetsbok. Föreställ dig det som din tomma duk där du lägger till radioknappar i efterföljande steg.
 ## Steg 2: Lägga till och formatera ett cellvärde
-Låt oss sedan lägga till en rubrik till kalkylbladet. Vi lägger till lite text i cellen`C2` och formatera den så att den blir fet. Detta steg lägger till sammanhang till dina alternativknappar.
+Låt oss sedan lägga till en titel till kalkylbladet. Vi lägger till lite text i cellen`C2` och formatera den så att den blir fet. Detta steg lägger till sammanhang till dina alternativknappar.
 ### Infoga text i cell
 ```csharp
 // Infoga ett värde i cell C2.

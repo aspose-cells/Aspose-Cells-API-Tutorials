@@ -55,7 +55,7 @@ Aspose.Cells for .NET 是一個功能強大的程式庫，可讓開發人員以�
 您可以從網站下載 Aspose.Cells 的免費試用版[這裡](https://releases.aspose.com/).
 ### 我可以存取多個命名範圍嗎？  
 是的，您可以透過呼叫存取多個命名範圍`GetRangeByName`多次，每次都有不同的範圍名稱。
-### Aspose.Cells 是否與所有版本的 Excel 相容？  
+### Aspose.Cells 與所有版本的 Excel 相容嗎？  
 是的，Aspose.Cells 支援不同的格式，包括 .xls、.xlsx 等。
 ### 我可以在哪裡獲得 Aspose.Cells 的支援？  
 您可以在中找到對 Aspose.Cells 的支持[Aspose論壇](https://forum.aspose.com/c/cells/9).

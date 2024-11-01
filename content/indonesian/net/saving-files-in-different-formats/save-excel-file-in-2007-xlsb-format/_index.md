@@ -12,7 +12,7 @@ Jika berbicara tentang bekerja dengan file Excel dalam .NET, ada banyak fleksibi
 ## Prasyarat
 Sebelum kita mulai, mari pastikan Anda memiliki semua yang Anda butuhkan untuk mengikuti tutorial ini dengan lancar. Berikut ini adalah hal-hal yang harus Anda miliki:
 1. Visual Studio: Pastikan Anda memiliki versi Visual Studio yang terinstal di komputer Anda. Di sinilah Anda akan menulis kode .NET. 
-2. Pustaka Aspose.Cells: Anda memerlukan pustaka Aspose.Cells for .NET. Jika Anda belum mengunduhnya, kunjungi[Halaman Unduhan Aspose](https://releases.aspose.com/cells/net/) untuk meraihnya. 
+2.  Pustaka Aspose.Cells: Anda memerlukan pustaka Aspose.Cells for .NET. Jika Anda belum mengunduhnya, kunjungi[Halaman Unduhan Aspose](https://releases.aspose.com/cells/net/) untuk meraihnya. 
 3. Pengetahuan Dasar C#: Pemahaman mendasar tentang C# dan .NET akan membantu Anda menavigasi contoh kode dengan lebih nyaman.
 4. .NET Framework: Pastikan proyek Anda disiapkan dengan kerangka kerja .NET yang sesuai yang didukung oleh pustaka Aspose.Cells.
 5. Dokumen Excel: Meskipun membuat buku kerja baru merupakan suatu pilihan, memiliki dokumen awal dapat berguna jika Anda ingin memanipulasi file yang sudah ada.

@@ -19,13 +19,13 @@ Innan vi går in i koden, låt oss se till att du har allt du behöver:
 Medan Aspose.Cells förenklar många uppgifter, är en grundläggande förståelse för C# avgörande. Du bör vara bekväm med att läsa och skriva grundläggande C#-kod.
 
 ### Aspose.Cells för .NET
- Se till att du har Aspose.Cells installerat i ditt projekt. Du kan ladda ner den från[webbplats](https://releases.aspose.com/cells/net/) om du inte redan har gjort det.
+Se till att du har Aspose.Cells installerat i ditt projekt. Du kan ladda ner den från[webbplats](https://releases.aspose.com/cells/net/) om du inte redan har gjort det.
 
 ### Utvecklingsmiljö
 Du bör ha en IDE som Visual Studio inställd. Detta guidar dig genom att hantera och testa din kod effektivt.
 
 ### Exempel på Excel-filer
-Du behöver exempelfiler (`samplePageSetupIsAutomaticPaperSize-False.xlsx` och`samplePageSetupIsAutomaticPaperSize-True.xlsx`för teständamål. Se till att dessa filer finns i din källkatalog.
+Du behöver exempelfiler (`samplePageSetupIsAutomaticPaperSize-False.xlsx` och`samplePageSetupIsAutomaticPaperSize-True.xlsx`) för teständamål. Se till att dessa filer finns i din källkatalog.
 
 ## Importera paket
 
@@ -50,7 +50,7 @@ string sourceDir = "YOUR_SOURCE_DIRECTORY";
 string outputDir = "YOUR_OUTPUT_DIRECTORY";
 ```
 
- Ersätta`YOUR_SOURCE_DIRECTORY` och`YOUR_OUTPUT_DIRECTORY` med de faktiska sökvägarna på ditt system där filerna kommer att lagras.
+ Ersätta`YOUR_SOURCE_DIRECTORY` och`YOUR_OUTPUT_DIRECTORY`med de faktiska sökvägarna på ditt system där filerna kommer att lagras.
 
 ## Steg 2: Ladda Excel-arbetsböckerna
 
@@ -101,13 +101,13 @@ Och precis så har du lagt grunden för att avgöra om pappersstorleken på ett 
 Aspose.Cells är ett .NET-bibliotek designat för att hantera Excel-kalkylbladsfiler programmatiskt utan att Excel behöver installeras.
 
 ### Kan jag använda Aspose.Cells för icke-Windows-miljöer?
-Ja! Aspose.Cells stöder plattformsoberoende utveckling, så du kan arbeta i olika miljöer där .NET är tillgängligt.
+Ja! Aspose.Cells stödjer plattformsoberoende utveckling, så du kan arbeta i olika miljöer där .NET är tillgängligt.
 
 ### Behöver jag en licens för Aspose.Cells?
- Även om du kan börja med en gratis provperiod, kräver fortsatt användning en köpt licens. Mer information kan hittas[här](https://purchase.aspose.com/buy).
+Även om du kan börja med en gratis provperiod, kräver fortsatt användning en köpt licens. Mer information kan hittas[här](https://purchase.aspose.com/buy).
 
 ### Hur kan jag kontrollera om ett kalkylblads pappersstorlek är automatisk i C#?
-Som visas i guiden kan du kontrollera`IsAutomaticPaperSize` egendom av`PageSetup` klass.
+ Som visas i guiden kan du kontrollera`IsAutomaticPaperSize` egendom av`PageSetup` klass.
 
 ### Var kan jag hitta mer information om Aspose.Cells?
  Du kan hitta omfattande dokumentation och handledning[här](https://reference.aspose.com/cells/net/).

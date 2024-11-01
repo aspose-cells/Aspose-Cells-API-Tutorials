@@ -13,9 +13,9 @@ url: /zh-hant/net/xps-and-pdf-operations/setting-pdf-creation-time/
 在我們深入了解程式碼的細節之前，讓我們確保您擁有開始使用所需的一切。
 ### 你需要什麼
 1. Visual Studio：確保您的電腦上安裝了 Visual Studio。這將是您的開發環境。
-2.  Aspose.Cells for .NET：從下列位置下載 Aspose.Cells 函式庫：[網站](https://releases.aspose.com/cells/net/)。您也可以從免費試用開始測試其功能。
+2. Aspose.Cells for .NET：從下列位置下載 Aspose.Cells 函式庫：[網站](https://releases.aspose.com/cells/net/)。您也可以從免費試用開始測試其功能。
 3. C# 基礎知識：熟悉 C# 程式設計將有助於您更好地理解程式碼片段。
-4. Excel 檔案：準備好轉換的 Excel 檔案。對於本例，我們將使用一個名為`Book1.xlsx`.
+4.  Excel 檔案：準備好轉換的 Excel 檔案。對於本例，我們將使用一個名為`Book1.xlsx`.
 現在您已經滿足了先決條件，讓我們進入有趣的部分 - 匯入必要的套件並編寫程式碼！
 ## 導入包
 首先，您需要在 C# 檔案中匯入所需的命名空間。這很重要，因為它允許您存取 Aspose.Cells 庫提供的類別和方法。
@@ -38,7 +38,7 @@ using Aspose.Cells.Charts;
 ```csharp
 string dataDir = "Your Document Directory"; //指定您的文件目錄
 ```
-代替`"Your Document Directory"`與你的實際路徑`Book1.xlsx`文件位於。該路徑將幫助應用程式找到要處理的文件。
+代替`"Your Document Directory"`與您的實際路徑`Book1.xlsx`文件位於。該路徑將幫助應用程式找到要處理的文件。
 ## 第 2 步：載入 Excel 文件
 接下來，您將把 Excel 文件載入到`Workbook`目的。這就是 Aspose.Cells 的閃光點，因為它可以讓您輕鬆處理 Excel 檔案。
 ```csharp
@@ -61,7 +61,7 @@ workbook.Save(dataDir + "output.pdf", options); //另存為 PDF
 此行程式碼會取得工作簿並將其以 PDF 格式儲存在指定位置。這`options`傳遞參數以將建立時間包含在 PDF 元資料中。
 
 ## 結論
-現在你就得到它了！您已使用 Aspose.Cells for .NET 成功將 Excel 檔案轉換為 PDF，並附有建立時間戳記。當您需要追蹤文件版本或想要向收件人提供有關文件建立時間的資訊時，此功能非常有用。
+現在你就擁有了！您已使用 Aspose.Cells for .NET 成功將 Excel 檔案轉換為 PDF，並附有建立時間戳記。當您需要追蹤文件版本或想要向收件人提供有關文件建立時間的資訊時，此功能非常有用。
 如果您想探索 Aspose.Cells 的更多功能，請隨時查看[文件](https://reference.aspose.com/cells/net/).
 ## 常見問題解答
 ### 什麼是 Aspose.Cells？

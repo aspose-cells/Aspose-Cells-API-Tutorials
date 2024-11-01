@@ -78,7 +78,7 @@ Most jön a szórakoztató rész! A függőleges görgetősáv elrejtésével ti
 workbook.Settings.IsVScrollBarVisible = false;
 ```
   
- Beállítással`IsVScrollBarVisible` hogy`false`, a függőleges görgetősáv nem látható. Ez különösen akkor lehet hasznos, ha felhasználóbarát módon szeretné korlátozni a görgetést.
+ Beállítás által`IsVScrollBarVisible` hogy`false`, a függőleges görgetősáv nem látható. Ez különösen akkor lehet hasznos, ha felhasználóbarát módon szeretné korlátozni a görgetést.
 
 ## 5. lépés: A vízszintes görgetősáv elrejtése
 

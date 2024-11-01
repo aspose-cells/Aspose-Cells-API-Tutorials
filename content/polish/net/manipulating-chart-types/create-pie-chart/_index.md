@@ -19,7 +19,7 @@ Zanim zagłębisz się w kod, upewnij się, że masz następujące ustawienia:
 2. Środowisko programistyczne .NET: upewnij się, że Twój projekt jest skonfigurowany do korzystania z .NET Framework lub .NET Core.
 3. Podstawowa znajomość języka C#: Powinieneś znać podstawy programowania w języku C#, szczególnie programowania obiektowego (OOP).
 
-Dla zaawansowanych użytkowników, tymczasowa licencja może zostać zastosowana, aby odblokować wszystkie funkcje Aspose.Cells. Możesz poprosić o nią od[Tutaj](https://purchase.aspose.com/temporary-license/).
+ Dla zaawansowanych użytkowników, tymczasowa licencja może zostać zastosowana, aby odblokować wszystkie funkcje Aspose.Cells. Możesz poprosić o nią od[Tutaj](https://purchase.aspose.com/temporary-license/).
 
 ## Importuj pakiety
 
@@ -100,7 +100,7 @@ int chartIndex = chartSheet.Charts.Add(Aspose.Cells.Charts.ChartType.Pie, 5, 0, 
 Aspose.Cells.Charts.Chart chart = chartSheet.Charts[chartIndex];
 ```
 
- Metoda`Add()` akceptuje parametry dla typu wykresu (w tym przypadku`ChartType.Pie`) i jego położenie na arkuszu. Liczby oznaczają pozycje wierszy i kolumn.
+ Metoda`Add()`akceptuje parametry dla typu wykresu (w tym przypadku`ChartType.Pie`) i jego położenie na arkuszu. Liczby oznaczają pozycje wierszy i kolumn.
 
 ## Krok 5: Dostosuj wygląd wykresu
 
@@ -187,7 +187,7 @@ Tworzenie wykresu kołowego za pomocą Aspose.Cells dla .NET to prosty i konfigu
 Tak! Aspose.Cells obsługuje różne typy wykresów, w tym wykresy słupkowe, wykresy liniowe i wykresy punktowe.
 
 ### Czy potrzebuję płatnej licencji, aby używać Aspose.Cells dla .NET?
- Możesz używać bezpłatnej wersji z pewnymi ograniczeniami. Aby korzystać z pełnych funkcji, będziesz potrzebować licencji, którą możesz kupić[Tutaj](https://purchase.aspose.com/buy).
+Możesz używać bezpłatnej wersji z pewnymi ograniczeniami. Aby korzystać z pełnych funkcji, będziesz potrzebować licencji, którą możesz kupić[Tutaj](https://purchase.aspose.com/buy).
 
 ### Czy mogę wyeksportować wykres do formatów PDF lub obrazów?
 Oczywiście! Aspose.Cells pozwala eksportować wykresy do różnych formatów, w tym PDF i PNG.

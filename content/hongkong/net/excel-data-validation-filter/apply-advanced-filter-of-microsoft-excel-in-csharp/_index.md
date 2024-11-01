@@ -86,7 +86,7 @@ wb.Save(outputDir + "outputAdvancedFilter.xlsx", SaveFormat.Xlsx);
 
 ## 結論
 
-現在你就得到它了！您已使用 Aspose.Cells for .NET 成功將進階篩選器套用到 Excel 工作表。本逐步指南為您提供了在您自己的應用程式中利用資料操作功能所需的框架。就像那位魔術師一樣，您現在知道如何讓不相關的資料消失。
+現在你就擁有了！您已使用 Aspose.Cells for .NET 成功將進階篩選器套用到 Excel 工作表。本逐步指南為您提供了在您自己的應用程式中利用資料操作功能所需的框架。就像那位魔術師一樣，您現在知道如何讓不相關的資料消失。
 
 ## 常見問題解答
 

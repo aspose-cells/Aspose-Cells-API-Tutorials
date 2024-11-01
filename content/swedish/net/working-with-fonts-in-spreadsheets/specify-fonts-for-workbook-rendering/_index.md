@@ -12,7 +12,7 @@ När det gäller att hantera och rendera Excel-filer programmatiskt utmärker si
 ## Förutsättningar
 Innan vi dyker in i den spännande världen av Aspose.Cells och anpassar typsnitt, låt oss se till att du har allt du behöver för att komma igång:
 1. Grundläggande kunskaper om .NET: Bekantskap med .NET-programmering är avgörande eftersom vi kommer att arbeta i en .NET-miljö.
-2.  Aspose.Cells för .NET: Se till att du har Aspose.Cells-biblioteket installerat. Du kan ladda ner den[här](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells för .NET: Se till att du har Aspose.Cells-biblioteket installerat. Du kan ladda ner den[här](https://releases.aspose.com/cells/net/).
 3. Visual Studio: Den här guiden förutsätter att du använder Visual Studio som din IDE. Se till att du har det installerat och konfigurerat.
 4. Exempel på Excel-fil: Ha ett exempel på Excel-fil redo för denna handledning. Detta gör det lättare att förstå hur anpassade teckensnitt påverkar renderingsutdata.
 5. Anpassade teckensnitt: Förbered en katalog med de anpassade teckensnitt du vill använda. Detta är viktigt för att testa vår renderingsprocess.
@@ -41,7 +41,7 @@ string outputDir = "Your Document Directory";
 string customFontsDir = sourceDir + "CustomFonts";
 ```
 
-Föreställ dig att du har ett arkivskåp fullt av viktiga dokument (i det här fallet Excel-filer). Att ställa in dina kataloger är som att organisera det skåpet; det säkerställer att du vet exakt var dina filer är lagrade. Genom att definiera`sourceDir`, `outputDir` , och`customFontsDir`, förbereder du en arbetsyta som kommer att göra din kod renare och mer hanterbar.
+ Föreställ dig att du har ett arkivskåp fullt av viktiga dokument (i det här fallet Excel-filer). Att ställa in dina kataloger är som att organisera det skåpet; det säkerställer att du vet exakt var dina filer är lagrade. Genom att definiera`sourceDir`, `outputDir` , och`customFontsDir`, förbereder du en arbetsyta som kommer att göra din kod renare och mer hanterbar.
 ## Steg 2: Ange individuella teckensnittskonfigurationer
 Därefter måste vi skapa individuella teckensnittskonfigurationer. Det här steget är avgörande för att berätta för Aspose.Cells var du kan hitta dina anpassade typsnitt.
 ```csharp
@@ -49,7 +49,7 @@ Därefter måste vi skapa individuella teckensnittskonfigurationer. Det här ste
 IndividualFontConfigs fontConfigs = new IndividualFontConfigs();
 fontConfigs.SetFontFolder(customFontsDir, false);
 ```
- Se det här steget som att ge vägbeskrivningar till en vän som försöker hitta ett specifikt kafé. Genom att specificera`customFontsDir`, pekar du Aspose.Cells till den exakta platsen för dina teckensnitt. Om riktningen är fel (eller om typsnitten inte finns där) kan du få en otillfredsställande PDF-utdata. Så se till att din teckensnittskatalog är korrekt!
+ Se det här steget som att ge vägbeskrivningar till en vän som försöker hitta ett specifikt kafé. Genom att specificera`customFontsDir`pekar du Aspose.Cells till den exakta platsen för dina teckensnitt. Om riktningen är fel (eller om typsnitten inte finns där) kan du få en otillfredsställande PDF-utdata. Så se till att din teckensnittskatalog är korrekt!
 ## Steg 3: Ställ in laddningsalternativ
 Nu är det dags att definiera laddningsalternativ som integrerar våra teckensnittsinställningar i arbetsboken.
 ```csharp
@@ -64,11 +64,11 @@ Med våra laddningsalternativ på plats, låt oss ladda Excel-filen som vi tänk
 // Ladda Excel-exempelfilen med individuella teckensnittskonfigurationer.
 Workbook wb = new Workbook(sourceDir + "sampleSpecifyIndividualOrPrivateSetOfFontsForWorkbookRendering.xlsx", opts);
 ```
- Det här steget liknar att öppna din favoritbok. Här talar du om för Aspose.Cells vilken Excel-fil som ska arbeta med. Genom att använda`Workbook` klass och de angivna laddningsalternativen, öppnar du i princip locket och dyker in i innehållet, redo att göra ändringar.
+ Det här steget liknar att öppna din favoritbok. Här talar du om för Aspose.Cells vilken Excel-fil som ska arbeta med. Genom att använda`Workbook`klass och de angivna laddningsalternativen, öppnar du i princip locket och dyker in i innehållet, redo att göra ändringar.
 ## Steg 5: Spara arbetsboken i önskat format
 Slutligen är det dags att spara den modifierade arbetsboken i önskat format (PDF i det här fallet).
 ```csharp
-//Spara till PDF-format.
+// Spara till PDF-format.
 wb.Save(outputDir + "outputSpecifyIndividualOrPrivateSetOfFontsForWorkbookRendering.pdf", SaveFormat.Pdf);
 ```
 Det är som att lägga din bok på hyllan igen efter att du har läst den, men nu är den i ett annat format. Genom att spara arbetsboken i PDF-format säkerställer du att renderingen utförs med dina angivna typsnitt intakta, vilket gör den presentabel och professionell.

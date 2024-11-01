@@ -99,7 +99,7 @@ chart.NSeries[0].Area.FillFormat.FillType = Aspose.Cells.Drawing.FillType.Solid;
  이제 시리즈가 준비되었으므로 색상을 수정해야 합니다. 여기에는 다음을 만드는 것이 포함됩니다.`CellsColor` 객체와 테마 색상을 지정합니다. 이 예제에서는 악센트 스타일을 선택합니다.
 
 ```csharp
-// SolidFill의 CellsColor를 가져옵니다
+//SolidFill의 CellsColor를 가져옵니다
 CellsColor cc = chart.NSeries[0].Area.FillFormat.SolidFill.CellsColor;
 
 // Accent 스타일로 테마 만들기
@@ -158,7 +158,7 @@ Aspose.Cells는 개발자가 Excel 파일을 프로그래밍 방식으로 조작
 Aspose.Cells는 Accent 스타일 등을 포함한 다양한 테마 색상을 지원합니다.
 
 ### 여러 개의 차트에 테마를 적용할 수 있나요?
- 물론입니다! 루프를 통해 이동할 수 있습니다.`worksheet.Charts` 필요에 따라 테마를 적용합니다.
+물론입니다! 루프를 통해 이동할 수 있습니다.`worksheet.Charts` 필요에 따라 테마를 적용합니다.
 
 ### Aspose.Cells에 대한 지원은 어디서 받을 수 있나요?
  사용자 커뮤니티에서 지원을 받고 참여하세요[여기](https://forum.aspose.com/c/cells/9).

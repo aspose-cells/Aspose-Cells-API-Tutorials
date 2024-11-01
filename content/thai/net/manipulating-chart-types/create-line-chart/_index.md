@@ -50,7 +50,7 @@ using Aspose.Cells.Charts;
 // ไดเรกทอรีผลลัพธ์
 string outputDir = "Your Output Directory";
 ```
- แทนที่`"Your Output Directory"` ด้วยเส้นทางจริงที่คุณต้องการบันทึกไฟล์ Excel ที่สร้างขึ้น
+ แทนที่`"Your Output Directory"`ด้วยเส้นทางจริงที่คุณต้องการบันทึกไฟล์ Excel ที่สร้างขึ้น
 
 ## ขั้นตอนที่ 2: สร้างอินสแตนซ์ของวัตถุเวิร์กบุ๊ก
 

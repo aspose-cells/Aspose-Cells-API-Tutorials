@@ -18,7 +18,7 @@ Sebelum kita masuk ke kode, ada beberapa hal penting yang perlu Anda siapkan:
 1. Lingkungan Pengembangan .NET: Pastikan Anda telah menyiapkan lingkungan yang kompatibel dengan .NET, seperti Visual Studio atau IDE lain pilihan Anda.
 2.  Pustaka Aspose.Cells: Anda akan memerlukan pustaka Aspose.Cells. Anda dapat[unduh disini](https://releases.aspose.com/cells/net/).
 3. Pemahaman Dasar C#: Mengetahui dasar-dasar C# pasti akan membantu Anda memahami konsepnya dengan lebih baik.
-4.  Dokumentasi Aspose.Cells: Biasakan diri Anda dengan[dokumentasi](https://reference.aspose.com/cells/net/)untuk konfigurasi lanjutan atau fitur tambahan apa pun yang mungkin berguna bagi Anda nanti.
+4.  Dokumentasi Aspose.Cells: Biasakan diri Anda dengan[dokumentasi](https://reference.aspose.com/cells/net/) untuk konfigurasi lanjutan atau fitur tambahan apa pun yang mungkin berguna bagi Anda nanti.
 
 Sekarang setelah prasyaratnya terpenuhi, mari impor paket yang diperlukan!
 
@@ -149,4 +149,4 @@ Aspose.Cells terutama mendukung bahasa .NET, tetapi ada pustaka Aspose lain untu
  Anda dapat mengakses dukungan melalui[Forum Aspose](https://forum.aspose.com/c/cells/9).
 
 ### Bisakah saya mendapatkan lisensi sementara untuk Aspose.Cells?  
- Tentu saja! Anda dapat meminta[lisensi sementara](https://purchase.aspose.com/temporary-license/) untuk mengevaluasi produk.
+Tentu saja! Anda dapat meminta[lisensi sementara](https://purchase.aspose.com/temporary-license/) untuk mengevaluasi produk.

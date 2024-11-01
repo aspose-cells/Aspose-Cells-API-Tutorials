@@ -52,7 +52,7 @@ wb.Settings.Compliance = OoxmlCompliance.Iso29500_2008_Strict;
 ```
  Nastavením souladu na`OoxmlCompliance.Iso29500_2008_Strict`, říkáte Aspose.Cells, že chcete, aby váš sešit přísně dodržoval standardy Open XML.
 ## Krok 4: Přidejte data do svého listu
-Nyní přichází ta zábavná část! Doplníme pár údajů do našeho pracovního listu. Do buňky B4 napíšeme zprávu, která bude indikovat, že náš soubor je ve formátu Strict Open XML. Zde je postup:
+Nyní přichází ta zábavná část! Doplníme pár dat do našeho pracovního listu. Do buňky B4 napíšeme zprávu, která bude indikovat, že náš soubor je ve formátu Strict Open XML. Zde je postup:
 ```csharp
 // Přidejte zprávu do buňky B4 prvního listu.
 Cell b4 = wb.Worksheets[0].Cells["B4"];

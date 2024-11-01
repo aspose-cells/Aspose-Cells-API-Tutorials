@@ -118,8 +118,8 @@ Console.WriteLine("AccessAndModifyLabelOfOleObject executed successfully.");
 ### هل يمكن لـ Aspose.Cells العمل مع تنسيقات ملفات أخرى؟  
 نعم! يدعم Aspose.Cells مجموعة متنوعة من التنسيقات، بما في ذلك XLS وXLSX وCSV والمزيد.
 ### هل هناك نسخة تجريبية مجانية متاحة لـ Aspose.Cells؟  
-نعم يمكنك تجربته[هنا](https://releases.aspose.com/).
+ نعم يمكنك تجربته[هنا](https://releases.aspose.com/).
 ### هل يمكنني الوصول إلى كائنات OLE متعددة في ورقة عمل؟  
- بالتأكيد! يمكنك تكرار ذلك`ws.OleObjects` للوصول إلى كافة كائنات OLE المضمنة في ورقة العمل.
+بالتأكيد! يمكنك تكرار ذلك`ws.OleObjects` للوصول إلى كافة كائنات OLE المضمنة في ورقة العمل.
 ### كيف يمكنني شراء ترخيص لـ Aspose.Cells؟  
  يمكنك شراء الترخيص مباشرة من[هنا](https://purchase.aspose.com/buy).

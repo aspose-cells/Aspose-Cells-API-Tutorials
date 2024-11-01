@@ -19,7 +19,7 @@ Koda dalmadan önce aşağıdaki ayarların yapıldığından emin olun:
 2. .NET Geliştirme Ortamı: Projenizin .NET Framework veya .NET Core kullanacak şekilde ayarlandığından emin olun.
 3. Temel C# Bilgisi: C# programlamada, özellikle nesne yönelimli programlamada (OOP) rahat olmalısınız.
 
-Gelişmiş kullanıcılar için, Aspose.Cells'in tüm özelliklerinin kilidini açmak için geçici bir lisans uygulanabilir. Bir tane talep edebilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+ Gelişmiş kullanıcılar için, Aspose.Cells'in tüm özelliklerinin kilidini açmak için geçici bir lisans uygulanabilir. Bir tane talep edebilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
 
 ## Paketleri İçe Aktar
 
@@ -100,7 +100,7 @@ int chartIndex = chartSheet.Charts.Add(Aspose.Cells.Charts.ChartType.Pie, 5, 0, 
 Aspose.Cells.Charts.Chart chart = chartSheet.Charts[chartIndex];
 ```
 
- Yöntem`Add()` grafik türü için parametreleri kabul eder (bu durumda,`ChartType.Pie`), ve çalışma sayfasındaki konumu. Sayılar satır ve sütun konumlarını temsil eder.
+ Yöntem`Add()`grafik türü için parametreleri kabul eder (bu durumda,`ChartType.Pie`), ve çalışma sayfasındaki konumu. Sayılar satır ve sütun konumlarını temsil eder.
 
 ## Adım 5: Grafik Görünümünü Özelleştirin
 
@@ -187,7 +187,7 @@ Aspose.Cells for .NET ile pasta grafiği oluşturmak basit ve özelleştirilebil
 Evet! Aspose.Cells çubuk grafikler, çizgi grafikler ve dağılım grafikleri dahil olmak üzere çeşitli grafik türlerini destekler.
 
 ### Aspose.Cells for .NET'i kullanmak için ücretli bir lisansa ihtiyacım var mı?
- Ücretsiz sürümü bazı sınırlamalarla kullanabilirsiniz. Tam özellikler için satın alabileceğiniz bir lisansa ihtiyacınız olacak[Burada](https://purchase.aspose.com/buy).
+Ücretsiz sürümü bazı sınırlamalarla kullanabilirsiniz. Tam özellikler için satın alabileceğiniz bir lisansa ihtiyacınız olacak[Burada](https://purchase.aspose.com/buy).
 
 ### Tabloyu PDF veya resim gibi formatlara aktarabilir miyim?
 Kesinlikle! Aspose.Cells, grafikleri PDF ve PNG dahil olmak üzere çeşitli formatlara aktarmanıza olanak tanır.

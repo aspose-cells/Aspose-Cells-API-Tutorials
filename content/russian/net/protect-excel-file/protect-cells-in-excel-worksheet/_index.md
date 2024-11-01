@@ -16,7 +16,7 @@ url: /ru/net/protect-excel-file/protect-cells-in-excel-worksheet/
 Прежде чем углубляться в детали защиты клеток, необходимо выполнить несколько предварительных условий:
 
 1. Visual Studio: Убедитесь, что на вашем компьютере установлена Visual Studio. Это основная IDE для разработки .NET.
-2. Библиотека Aspose.Cells: Вам необходимо иметь библиотеку Aspose.Cells, доступную в вашем проекте. Вы можете легко установить ее через NuGet Package Manager или загрузить ее напрямую с[Сайт Aspose.Cells](https://releases.aspose.com/cells/net/).
+2.  Библиотека Aspose.Cells: Вам необходимо иметь библиотеку Aspose.Cells, доступную в вашем проекте. Вы можете легко установить ее через NuGet Package Manager или загрузить ее напрямую с[Сайт Aspose.Cells](https://releases.aspose.com/cells/net/).
 3. Базовые знания C#: небольшое знакомство с программированием на C# поможет вам без труда освоить материал.
 
 ## Импорт пакетов
@@ -88,7 +88,7 @@ Worksheet sheet = wb.Worksheets[0]; // Доступ к первому рабоч
 for (int i = 0; i <= 255; i++)
 {
     Style style = sheet.Cells.Columns[(byte)i].Style;
-    style.IsLocked = false; //Разблокировать столбец
+    style.IsLocked = false; // Разблокировать столбец
     StyleFlag styleflag = new StyleFlag();
     styleflag.Locked = true; // Указываем, что хотим заблокировать этот стиль
     sheet.Cells.Columns[(byte)i].ApplyStyle(style, styleflag);

@@ -99,7 +99,7 @@ Tento řádek kódu zajišťuje, že první řada v grafu je nastavena tak, aby 
  Nyní, když je naše série připravena, musíme upravit její barvu. To zahrnuje vytvoření a`CellsColor` objekt a určení barvy motivu. Pro tento příklad zvolíme styl přízvuku.
 
 ```csharp
-// Získejte CellsColor SolidFill
+//Získejte CellsColor SolidFill
 CellsColor cc = chart.NSeries[0].Area.FillFormat.SolidFill.CellsColor;
 
 // Vytvořte motiv ve stylu Accent
@@ -158,7 +158,7 @@ Aspose.Cells je výkonná knihovna pro .NET, která umožňuje vývojářům pro
 Aspose.Cells podporuje různé barvy motivů včetně stylů Accent a dalších.
 
 ### Je možné použít motivy na více grafů?
- Absolutně! Můžete procházet`worksheet.Charts` a aplikujte motivy podle potřeby.
+Absolutně! Můžete procházet`worksheet.Charts` a aplikujte motivy podle potřeby.
 
 ### Kde mohu získat podporu pro Aspose.Cells?
  Můžete získat podporu a zapojit se do komunity uživatelů[zde](https://forum.aspose.com/c/cells/9).

@@ -29,7 +29,7 @@ Na początek musimy zdefiniować, gdzie znajduje się nasz plik Excel. Tutaj inf
 ```csharp
 string dataDir = "Your Document Directory";
 ```
- Zastępować`"Your Document Directory"` z rzeczywistą ścieżką, gdzie jesteś`book1.xls`jest przechowywany. Informuje program, gdzie znaleźć plik Excel, którym będziemy manipulować.
+ Zastępować`"Your Document Directory"` z rzeczywistą ścieżką, gdzie jesteś`book1.xls` jest przechowywany. Informuje program, gdzie znaleźć plik Excel, którym będziemy manipulować.
 ## Krok 2: Utwórz nowy skoroszyt
 Następnie utworzymy nową instancję obiektu Workbook. Pozwoli nam to otworzyć i edytować nasz plik Excel.
 ```csharp
@@ -51,7 +51,7 @@ ca.StartColumn = 1;
 ca.EndRow = 18; // C19
 ca.EndColumn = 2;
 ```
- Tutaj definiujemy`CellArea`który określa zakres, który nas interesuje. W tym przypadku wybraliśmy obszar od B3 (wiersz 2, kolumna 1) do C19 (wiersz 18, kolumna 2). Tutaj obliczymy nasze sumy częściowe.
+ Tutaj definiujemy`CellArea` który określa zakres, który nas interesuje. W tym przypadku wybraliśmy obszar od B3 (wiersz 2, kolumna 1) do C19 (wiersz 18, kolumna 2). Tutaj obliczymy nasze sumy częściowe.
 ## Krok 5: Zastosuj sumy częściowe
 To jest sedno naszej operacji – zastosowanie sumy częściowej do zdefiniowanego obszaru komórki.
 ```csharp

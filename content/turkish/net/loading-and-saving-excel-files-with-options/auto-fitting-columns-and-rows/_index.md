@@ -12,7 +12,7 @@ Aspose.Cells for .NET kullanarak bir Excel çalışma kitabına HTML içeriği y
 ### Ön koşullar
 Koda geçmeden önce sisteminizde birkaç şeyi ayarlamanız gerekiyor. Endişelenmeyin, basit ve anlaşılır!
 1. Visual Studio Kurulu: Visual Studio veya herhangi bir .NET geliştirme ortamına ihtiyacınız olacak.
-2.  Aspose.Cells for .NET: Şunları yapabilirsiniz[en son sürümü indirin](https://releases.aspose.com/cells/net/)veya NuGet paket yöneticisini kullanarak kurulumunu yapabilirsiniz.
+2.  Aspose.Cells for .NET: Şunları yapabilirsiniz[en son sürümü indirin](https://releases.aspose.com/cells/net/) veya NuGet paket yöneticisini kullanarak kurulumunu yapabilirsiniz.
 3. .NET Framework: .NET Framework 4.0 veya üzeri sürümün yüklü olduğundan emin olun.
 4. C# Temel Anlayışı: C# hakkında biraz bilgi sahibi olmak bu eğitimi sizin için daha akıcı hale getirecektir.
 5. HTML Tablo Verileri: Excel'e yüklemek istediğiniz bazı HTML içeriklerini (hatta basit bir tabloyu) hazırlayın.
@@ -44,9 +44,9 @@ Burada çok temel bir HTML dizesi tanımlıyoruz. Birkaç satır ve sütundan ol
 ```csharp
 MemoryStream ms = new MemoryStream(Encoding.UTF8.GetBytes(sampleHtml));
 ```
- HTML dizesini bir bayt dizisine dönüştürerek ve bunu bir`MemoryStream`bellekteki HTML verileriyle çalışabiliriz. Bu adımı, yemeği fırına koymadan önce tencerede hazırlamak olarak düşünün!
+ HTML dizesini bir bayt dizisine dönüştürerek ve bunu bir`MemoryStream`, bellekteki HTML verileriyle çalışabiliriz. Bu adımı, yemeği fırına koymadan önce tencerede hazırlamak olarak düşünün!
 ## Adım 4: MemoryStream'i bir Çalışma Kitabına Yükleyin (Otomatik Sığdırma Olmadan)
- HTML içeriğini hafızaya aldığımızda, bunu bir Aspose'a yükleriz`Workbook`. Bu noktada, henüz sütunları ve satırları otomatik olarak yerleştirmiyoruz. Bu, daha sonra otomatik olarak yerleştirilmiş sürümle karşılaştıracağımız "önceki" senaryomuzdur.
+ HTML içeriğini hafızaya aldığımızda, bunu bir Aspose'a yükleriz`Workbook`Bu noktada, henüz sütunları ve satırları otomatik olarak yerleştirmiyoruz. Bu, daha sonra otomatik olarak yerleştirilmiş sürümle karşılaştıracağımız "önceki" senaryomuzdur.
 ```csharp
 Workbook wb = new Workbook(ms);
 wb.Save(dataDir + "outputWithout_AutoFitColsAndRows.xlsx");
@@ -60,7 +60,7 @@ opts.AutoFitColsAndRows = true;
 ```
 Bu seçeneği ayarlayarak, Aspose.Cells'e satırları ve sütunları otomatik olarak yeniden boyutlandırmasını söylüyoruz. Bunu, fırını kekin tam kıvamında kabarması için mükemmel sıcaklığa ayarlamak gibi düşünün!
 ## Adım 6: Otomatik Sığdırma Etkinleştirilmiş Olarak Çalışma Kitabına HTML Yükleyin
- Şimdi HTML içeriğini tekrar yüklüyoruz, ancak bu sefer`AutoFitColsAndRows` seçeneği etkinleştirildi. Bu, sütun genişliklerini ve satır yüksekliklerini içlerindeki içeriğe göre ayarlayacaktır.
+ Şimdi HTML içeriğini tekrar yüklüyoruz, ancak bu sefer`AutoFitColsAndRows`seçeneği etkinleştirildi. Bu, sütun genişliklerini ve satır yüksekliklerini içlerindeki içeriğe göre ayarlayacaktır.
 ```csharp
 wb = new Workbook(ms, opts);
 wb.Save(dataDir + "outputWith_AutoFitColsAndRows.xlsx");

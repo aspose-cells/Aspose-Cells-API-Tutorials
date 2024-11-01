@@ -37,7 +37,7 @@ Leer hoe u de beveiliging van een Excel-spreadsheet opheft met Aspose.Cells voor
 ### [Besturingselementen in grafieken invoegen](./inserting-controls-in-charts/)
 Ontdek Aspose.Cells voor .NET-zelfstudies over het invoegen van besturingselementen in grafieken, inclusief het toevoegen van labels, afbeeldingen, tekstvakken en selectievakjes om de visualisatie van gegevens te verbeteren.
 ### [Manipuleren van grafiektypen](./manipulating-chart-types/)
-Ontdek essentiële Aspose.Cells voor .NET diagrammanipulatie tutorials, inclusief het maken van aangepaste, lijn- en cirkeldiagrammen. Leer diagrammen te wijzigen en Microsoft-themakleuren toe te passen.
+Ontdek essentiële Aspose.Cells voor .NET grafiekmanipulatie tutorials, inclusief het maken van aangepaste, lijn- en cirkeldiagrammen. Leer grafieken te wijzigen en Microsoft-themakleuren toe te passen.
 ### [Instellen van het uiterlijk van de grafiek](./setting-chart-appearance/)
 xplore Aspose.Cells voor .NET tutorials over het instellen van het uiterlijk van een grafiek. Leer thema's toe te passen, rasterlijnen te wijzigen, grafiekgebieden, titels, assen en meer in te stellen met eenvoudige handleidingen.
 ### [Geavanceerde grafiekbewerkingen](./advanced-chart-operations/)
@@ -73,7 +73,7 @@ Ontdek Aspose.Cells voor .NET-zelfstudies over Excel-gegevensvalidatie en -filte
 ### [Uitlijning en opmaak van Excel-gegevens](./excel-data-alignment-formatting/)
 Ontdek hoe u de uitlijning van Excel-cellen kunt wijzigen zonder opmaak te verliezen in Aspose.Cells voor .NET. Leer de stapsgewijze zelfstudie voor naadloze Excel-gegevensopmaak.
 ### [Aangepaste getal- en datumnotatie in Excel](./excel-custom-number-date-formatting/)
-Leer hoe u Aspose.Cells voor .NET gebruikt met onze uitgebreide tutorials over aangepaste getal- en datumopmaak. Optimaliseer uw Excel-vaardigheden.
+Leer hoe u Aspose.Cells voor .NET gebruikt met onze uitgebreide tutorials over aangepaste nummer- en datumopmaak. Optimaliseer uw Excel-vaardigheden.
 ### [Excel-gegevens sorteren en exporteren](./excel-data-sorting-exporting/)
 Ontdek hoe u gegevens sorteert en HTML-waarden exporteert in Excel met Aspose.Cells voor .NET via deze eenvoudig te volgen tutorials.
 ### [Excel-gegevens importeren en exporteren](./excel-data-import-export/)
@@ -82,7 +82,7 @@ Ontdek de kracht van Aspose.Cells voor .NET. Bekijk onze tutorials om Excel-gege
 Leer hoe u Aspose.Cells voor .NET kunt gebruiken voor geavanceerde Excel-technieken voor gegevensbehoud, zoals het behouden van enkele aanhalingstekens in cellen en het opgeven van sorteerwaarschuwingen tijdens het sorteren.
 ### [Excel-bereik- en adresberekening](./excel-range-address-calculation/)
 Ontdek essentiële tutorials over Aspose.Cells voor .NET, waarin het maken van Excel-bereiken, adresberekening en geavanceerde manipulaties eenvoudig aan bod komen.
-### [Beheer van verborgen rijen en gegevensduplicaties in Excel](./excel-hidden-rows-data-duplication-management/)
+### [Excel Verborgen rijen en gegevensduplicatiebeheer](./excel-hidden-rows-data-duplication-management/)
 Benut het potentieel van Excel met Aspose.Cells voor .NET-zelfstudies, die inzicht bieden in het beheren van verborgen rijen en het moeiteloos dupliceren van gegevens.
 ### [Excel-opmerkingen en annotaties](./excel-comment-annotation/)
 Verbeter uw Excel-vaardigheden met Aspose.Cells voor .NET-zelfstudies over opmerkingen en aantekeningen, met stapsgewijze instructies om uw spreadsheets te verrijken.
@@ -152,3 +152,21 @@ Ontdek een uitgebreide lijst met Aspose.Cells voor .NET-zelfstudies om Excel-bes
 Ontdek gedetailleerde Aspose.Cells voor .NET tutorials over het opslaan en exporteren van Excel-bestanden. Leer hoe u opmerkingen, documenteigenschappen, waarschuwingen en datatrimming verwerkt.
 ### [Draaitabellen maken en configureren](./creating-and-configuring-pivot-tables/)
 Ontdek uitgebreide tutorials voor Aspose.Cells voor .NET. Beheers draaitabellen in Excel programmatisch met gedetailleerde stapsgewijze handleidingen voor elke functionaliteit.
+### [Excel-formules en berekeningsopties](./excel-formulas-and-calculation-options/)
+Duik diep in de Aspose.Cells voor .NET-zelfstudies, waarin essentiële Excel-formules en -berekeningen in eenvoudig te volgen stappen worden behandeld.
+### [Excel exporteren naar HTML met geavanceerde opties](./exporting-excel-to-html-with-advanced-options/)
+Krijg waardevolle inzichten in het exporteren van Excel naar HTML met Aspose.Cells voor .NET via gedetailleerde tutorials over diverse geavanceerde opties, waarmee u uw documentexport kunt verbeteren.
+### [Renderen en exporteren](./rendering-and-export/)
+Verbeter uw vaardigheden met Aspose.Cells voor .NET. Duik in tutorials voor het renderen, exporteren en maken van interactieve Excel PDF-documenten.
+### [Foutverwerking en aanpassing in Aspose.Cells](./error-handling-and-customization-in-aspose-cells/)
+Aspose.Cells voor .NET tutorials over het renderen van Office-invoegtoepassingen in Excel naar PDF en het negeren van fouten tijdens Excel-naar-PDF-conversie. Vereenvoudig uw documenttaken.
+### [Rij- en kolombeheer](./row-and-column-management/)
+Ontdek de kracht van Aspose.Cells voor .NET met onze uitgebreide tutorials over rij- en kolombeheer en verbeter moeiteloos uw Excel-vaardigheden.
+### [Aanpassing van grootte en afstand](./size-and-spacing-customization/)
+Verbeter uw Excel-bestanden met Aspose.Cells voor .NET. Ontdek eenvoudig te volgen tutorials om de grootte en afstand aan te passen en moeiteloos kolombreedtes en rijhoogtes in te stellen.
+### [Rij- en kolomautomatisch aanpassen](./row-column-autofit-conversion/)
+Beheers automatisch passende rijen en kolommen in Excel met Aspose.Cells voor .NET. Verbeter de weergave van gegevens met stapsgewijze tutorials voor duidelijke, professionele spreadsheets.
+### [Beheer van Excel-slicers](./excel-slicers-management/)
+Ontdek uitgebreide tutorials over het beheren van Excel-slicers met Aspose.Cells voor .NET. Leer hoe u moeiteloos slicers kunt maken, bijwerken, formatteren en exporteren.
+### [Slimme markers in Aspose.Cells voor dynamische gegevens](./smart-markers-dynamic-data/)
+Ontdek Aspose.Cells voor .NET Smart Markers Tutorials om dynamische Excel-rapporten te maken. Leer hoe u labels toevoegt, gegevens automatisch invult, formules gebruikt en meer.

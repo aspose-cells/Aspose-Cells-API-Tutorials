@@ -104,7 +104,7 @@ Cell cell = cells["B2"];
 Cell[] ret = cell.GetDependents(true);
 ```
 
- Wyjaśnienie: Zwraca tablicę`Cell` obiekty zależne od określonej komórki.`true` Argument wskazuje, że chcemy wziąć pod uwagę komórki ze wszystkich arkuszy w skoroszycie.
+ Wyjaśnienie: Zwraca tablicę`Cell` obiekty, które są zależne od określonej komórki.`true` Argument wskazuje, że chcemy wziąć pod uwagę komórki ze wszystkich arkuszy w skoroszycie.
 
 ## Krok 6: Wyświetl komórki zależne
 

@@ -66,7 +66,7 @@ Antes de llegar a la parte más interesante, debemos definir dónde queremos gua
 ```csharp
 string outputDir = "C:\\YourOutputDirectory\\"; // Cambie al directorio especificado
 ```
- Asegúrese de reemplazar`"C:\\YourOutputDirectory\\"` con la ruta donde desea guardar el archivo. Piense en esto como si estuviera configurando su espacio de trabajo; necesita saber dónde colocará sus herramientas (o en este caso, su archivo de Excel).
+ Asegúrese de reemplazar`"C:\\YourOutputDirectory\\"`con la ruta donde desea guardar el archivo. Piense en esto como si estuviera configurando su espacio de trabajo; necesita saber dónde colocará sus herramientas (o en este caso, su archivo de Excel).
 
 ## Paso 2: Crear una instancia de un objeto de libro de trabajo
 

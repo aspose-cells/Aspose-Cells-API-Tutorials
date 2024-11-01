@@ -41,7 +41,7 @@ Workbook workbook = new Workbook();
 ```csharp
 int sheetIndex = workbook.Worksheets.Add();
 ```
-此行在您的工作簿中建立一個新工作表並返回其索引，我們將其儲存在變數中`sheetIndex`.
+此行在工作簿中建立一個新工作表並返回其索引，我們將其儲存在變數中`sheetIndex`.
 ## 第 4 步：取得新工作表
 讓我們參考新建立的工作表。使用我們剛剛獲得的索引，我們可以存取工作表並對其進行操作：
 ```csharp
@@ -75,7 +75,7 @@ workbook.Save(dataDir + "book1.out.xls");
 這將會建立一個名為的 Excel 文件`book1.out.xls`在您先前定義的文件目錄中，其中包含絕對放置圖片的工作表。
 
 ## 結論
-現在你就得到它了！您已使用 Aspose.Cells for .NET 在 Excel 工作表中成功定位圖片並進行絕對定位。這個簡單的過程不僅增強了 Excel 文件的視覺呈現效果，而且還確保圖像準確地保持在您想要的位置 - 無論單元格大小和行高如何更改。現在，無論您是準備報告還是建立儀表板，您都可以確保您的圖片每次都完美放置。
+現在你就擁有了！您已使用 Aspose.Cells for .NET 在 Excel 工作表中成功定位圖片並進行絕對定位。這個簡單的過程不僅增強了 Excel 文件的視覺呈現效果，而且還確保圖像準確地保持在您想要的位置 - 無論單元格大小和行高如何更改。現在，無論您是準備報告還是建立儀表板，您都可以確保您的圖片每次都完美放置。
 ## 常見問題解答
 ### 什麼是 Aspose.Cells for .NET？
 Aspose.Cells for .NET 是一個 .NET 函式庫，使開發人員能夠以程式設計方式建立、操作和轉換 Excel 電子表格，而無需 Microsoft Excel。

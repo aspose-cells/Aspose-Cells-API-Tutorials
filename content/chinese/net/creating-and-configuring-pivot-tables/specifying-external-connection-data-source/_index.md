@@ -2,7 +2,7 @@
 title: 在 .NET 中指定外部连接数据源
 linktitle: 在 .NET 中指定外部连接数据源
 second_title: Aspose.Cells .NET Excel 处理 API
-description: 通过本分步指南学习如何使用 Aspose.Cells for .NET 在 Excel 数据透视表中指定外部连接数据源。非常适合 .NET 开发人员。
+description: 通过本分步指南了解如何使用 Aspose.Cells for .NET 在 Excel 数据透视表中指定外部连接数据源。非常适合 .NET 开发人员。
 type: docs
 weight: 24
 url: /zh/net/creating-and-configuring-pivot-tables/specifying-external-connection-data-source/
@@ -70,7 +70,7 @@ Console.WriteLine("PivotTableGetExternalConnectionDataSource executed successful
 ```
 就是这样！您现在知道如何使用 Aspose.Cells 在 .NET 中指定和检索外部连接数据源。
 ## 结论
-在当今数据驱动的世界中，有效管理 Excel 文件可以显著简化您的工作流程。我们只是使用 Aspose.Cells for .NET 在数据透视表中指定外部连接数据源的皮毛。通过遵循概述的简单步骤，您现在可以自信地以编程方式浏览 Excel 文件。
+在当今数据驱动的世界中，有效管理 Excel 文件可以显著简化您的工作流程。我们只是触及了使用 Aspose.Cells for .NET 在数据透视表中指定外部连接数据源的表面。通过遵循概述的简单步骤，您现在可以自信地以编程方式浏览 Excel 文件。
 ## 常见问题解答
 ### 什么是 Aspose.Cells for .NET？  
 Aspose.Cells for .NET 是一个功能强大的库，允许开发人员以编程方式创建、操作和处理 Excel 文件，而无需安装 Microsoft Excel。

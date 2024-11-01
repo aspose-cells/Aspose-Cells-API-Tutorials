@@ -19,7 +19,7 @@ Než se ponoříme do toho nejnutnějšího kódu, ujistěte se, že máte vše,
 2.  Knihovna Aspose.Cells: Tato příručka předpokládá, že máte knihovnu Aspose.Cells. Můžete si jej snadno stáhnout z[Stránka vydání Aspose](https://releases.aspose.com/cells/net/) Pokud si nejste jisti, kde začít,[Dokumentace Aspose.Cells](https://reference.aspose.com/cells/net/) může být tvůj nejlepší přítel!
 3. Základní znalost C#: Znalost programovacího jazyka C# vám pomůže porozumět příkladům a bez problémů je následovat.
 4.  Soubor Excel: Ujistěte se, že máte soubor Excel obsahující grafy pro tento výukový program. Můžete vytvořit ukázkový soubor aplikace Excel s názvem`sampleReadAxisLabelsAfterCalculatingTheChart.xlsx` pro testovací účely.
-5. Prostředí .NET: Zkontrolujte, zda je vaše prostředí .NET správně nastaveno. Tento tutoriál se zaměřuje na .NET framework, takže se ujistěte, že jste připraveni!
+5. Prostředí .NET: Zkontrolujte, zda je vaše prostředí .NET správně nastaveno. Tento výukový program se zaměřuje na .NET framework, takže se ujistěte, že jste připraveni!
 
 Nyní, když máme vše, co potřebujeme, pojďme se pustit do nastavení a kódu!
 
@@ -114,7 +114,7 @@ for (int i = 0; i < lstLabels.Count; i++)
     Console.WriteLine(lstLabels[i]);
 }
 ```
- Tento úryvek nejprve vydá titulek a oddělovací řádek. Poté procházíme každý štítek v`lstLabels`ArrayList a vytiskněte jej do konzole. Pokud existuje deset štítků, uvidíte každý z nich přímo tam!
+ Tento úryvek nejprve vydá titulek a oddělovací řádek. Poté projdeme každý štítek v`lstLabels`ArrayList a vytiskněte jej do konzole. Pokud existuje deset štítků, uvidíte každý z nich přímo tam!
 
 ## Krok 8: Závěrečná zpráva
 

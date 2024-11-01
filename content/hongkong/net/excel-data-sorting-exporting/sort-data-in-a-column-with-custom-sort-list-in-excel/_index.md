@@ -118,7 +118,7 @@ Console.WriteLine("SortDataInColumnWithCustomSortList executed successfully.\r\n
 
 ## 結論
 
-現在你就得到它了！您已使用 Aspose.Cells for .NET 使用自訂排序清單成功對 Excel 列中的資料進行排序。排序有助於使資料變得結構化和清晰，使其更易於分析和解釋。我希望本指南能夠將您的技能提升到一個新的水平，並幫助您認識到 Aspose.Cells 對於您的 Excel 相關任務有多強大。
+現在你就擁有了！您已使用 Aspose.Cells for .NET 使用自訂排序清單成功對 Excel 列中的資料進行排序。排序有助於使資料變得結構化和清晰，使其更易於分析和解釋。我希望本指南能夠將您的技能提升到一個新的水平，並幫助您認識到 Aspose.Cells 對於您的 Excel 相關任務有多強大。
 
 ## 常見問題解答
 

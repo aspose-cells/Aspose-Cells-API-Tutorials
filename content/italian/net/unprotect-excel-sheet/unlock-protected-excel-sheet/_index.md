@@ -16,7 +16,7 @@ Nel mondo degli affari frenetico di oggi, gestire i dati in modo efficace e sicu
 Prima di iniziare a scrivere il codice, è fondamentale assicurarsi di aver impostato tutto per un'esperienza fluida con Aspose.Cells per .NET:
 
 1.  Visual Studio: hai bisogno che Visual Studio sia installato sul tuo computer. Se non ce l'hai, scarica l'ultima versione da[Sito web di Visual Studio](https://visualstudio.microsoft.com/downloads/).
-2.  Libreria Aspose.Cells: avrai bisogno della libreria Aspose.Cells. Puoi ottenerla scaricandola da[Sito web di Aspose](https://releases.aspose.com/cells/net/)In alternativa, puoi installarlo direttamente tramite NuGet in Visual Studio.
+2. Libreria Aspose.Cells: avrai bisogno della libreria Aspose.Cells. Puoi ottenerla scaricandola da[Sito web di Aspose](https://releases.aspose.com/cells/net/)In alternativa, puoi installarlo direttamente tramite NuGet in Visual Studio.
 3. Nozioni di base di C#: poiché scriveremo codice C#, una conoscenza di base del linguaggio tornerà utile. Se sei alle prime armi con C#, ci sono molte risorse disponibili per metterti al passo.
 4. Un file Excel: tieni pronta una cartella di lavoro Excel che desideri sbloccare. Per questo esempio, la chiameremo "book1.xls".
 
@@ -69,7 +69,7 @@ Ora che la cartella di lavoro è caricata, vorrai accedere al foglio di lavoro c
 ```csharp
 Worksheet worksheet = workbook.Worksheets[0];
 ```
- Specificando`[0]`, stai dicendo al sistema che vuoi il primo foglio. Se il tuo foglio non è il primo, cambia semplicemente questo indice con il numero appropriato.
+ Specificando`[0]`stai dicendo al sistema che vuoi il primo foglio. Se il tuo foglio non è il primo, cambia semplicemente questo indice con il numero appropriato.
 
 ## Passaggio 4: rimuovere la protezione dal foglio di lavoro
 
@@ -116,7 +116,7 @@ Ed ecco fatto! Sbloccare un foglio Excel protetto usando Aspose.Cells per .NET �
 Sì! Puoi scorrere ogni foglio della cartella di lavoro e rimuovere la protezione in modo simile.
 
 ### Aspose.Cells è gratuito?
- Aspose.Cells offre una prova gratuita, ma è richiesta una licenza per l'uso in produzione. Controlla il loro[acquistare](https://purchase.aspose.com/buy) pagina per maggiori informazioni.
+ Aspose.Cells offre una prova gratuita, ma è richiesta una licenza per l'uso in produzione. Controlla il loro[acquistare](https://purchase.aspose.com/buy)pagina per maggiori informazioni.
 
 ### Cosa succede se non conosco la password?
 Se un foglio è protetto da password e non si è in possesso di tale password, la biblioteca non aiuterà ad aggirare le restrizioni, poiché ciò viola le norme etiche.

@@ -12,7 +12,7 @@ url: /zh-hant/net/file-handling/file-saving-file-to-some-location/
 ## 先決條件
 在我們開始編寫程式碼之前，讓我們為您配備無縫遵循所需的一切。這是您應該擁有的：
 1. Visual Studio：確保您的電腦上安裝了 Visual Studio。我們將在這裡編寫和測試 .NET 應用程式。
-2. Aspose.Cells 庫：您需要下載 Aspose.Cells 庫。您可以獲得最新版本[這裡](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells 庫：您需要下載 Aspose.Cells 庫。您可以獲得最新版本[這裡](https://releases.aspose.com/cells/net/).
 3. .NET Framework：確保您擁有與 Aspose.Cells 相容的 .NET Framework 版本，通常適用於 .NET Framework 4.0 及更高版本。
 4. 對 C# 的基本了解：對 C# 程式設計的基本掌握將是有益的。不用擔心;我們將一步步解釋一切！
 5. 文件路徑：決定要儲存輸出檔的位置。建立一個名為`Your Document Directory`為了簡單起見。
@@ -91,7 +91,7 @@ workbook.Save(dataDir + "output.xml");
 ```
 這種格式對於資料處理很有用，並且可以很容易地被支援 XML 的其他應用程式讀取。
 ## 結論
-現在你就得到它了！您已成功學習如何使用 Aspose.Cells for .NET 以各種格式儲存工作簿。這個函式庫的用途非常廣泛，可以簡化原本會很麻煩的操作。因此，無論您是向使用舊版 Excel 的同事發送文件、透過 PDF 共享數據，還是為 Web 建立 HTML 文檔，Aspose.Cells 都能為您提供支援！
+現在你就擁有了！您已成功學習如何使用 Aspose.Cells for .NET 以各種格式儲存工作簿。這個函式庫的用途非常廣泛，可以簡化原本會很麻煩的操作。因此，無論您是向使用舊版 Excel 的同事發送文件、透過 PDF 共享數據，還是為 Web 建立 HTML 文檔，Aspose.Cells 都能為您提供支援！
 ## 常見問題解答
 ### 什麼是 Aspose.Cells？
 Aspose.Cells 是一個功能強大的程式庫，允許在 .NET 應用程式中建立、操作和轉換 Excel 檔案。

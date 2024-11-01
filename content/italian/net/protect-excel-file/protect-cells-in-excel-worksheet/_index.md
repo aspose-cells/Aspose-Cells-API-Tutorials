@@ -16,7 +16,7 @@ Nel mondo digitale odierno, gestire i dati in modo sicuro nei fogli di calcolo �
 Prima di addentrarci nei dettagli della protezione delle cellule, ecco alcuni prerequisiti che dovresti avere:
 
 1. Visual Studio: assicurati di avere Visual Studio installato sul tuo computer. È l'IDE primario per lo sviluppo .NET.
-2. Libreria Aspose.Cells: devi avere la libreria Aspose.Cells disponibile nel tuo progetto. Puoi installarla facilmente tramite NuGet Package Manager o scaricarla direttamente da[Sito Aspose.Cells](https://releases.aspose.com/cells/net/).
+2.  Libreria Aspose.Cells: devi avere la libreria Aspose.Cells disponibile nel tuo progetto. Puoi installarla facilmente tramite NuGet Package Manager o scaricarla direttamente da[Sito Aspose.Cells](https://releases.aspose.com/cells/net/).
 3. Conoscenza di base del linguaggio C#: una minima familiarità con la programmazione in C# ti aiuterà a seguire il programma senza problemi.
 
 ## Importazione di pacchetti
@@ -88,7 +88,7 @@ Per garantire che solo celle specifiche siano bloccate, è necessario iniziare s
 for (int i = 0; i <= 255; i++)
 {
     Style style = sheet.Cells.Columns[(byte)i].Style;
-    style.IsLocked = false; //Sblocca colonna
+    style.IsLocked = false; // Sblocca colonna
     StyleFlag styleflag = new StyleFlag();
     styleflag.Locked = true; // Indica che vogliamo bloccare questo stile
     sheet.Cells.Columns[(byte)i].ApplyStyle(style, styleflag);

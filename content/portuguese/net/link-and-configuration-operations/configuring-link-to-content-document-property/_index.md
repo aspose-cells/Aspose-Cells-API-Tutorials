@@ -15,11 +15,11 @@ Neste tutorial, mostraremos como configurar um link para conteúdo para propried
 
 Antes de começarmos, certifique-se de que você tem tudo o que precisa no lugar. Sem os seguintes pré-requisitos, o processo não será executado suavemente:
 
-1. Biblioteca Aspose.Cells para .NET: Você precisa ter o Aspose.Cells para .NET instalado em sua máquina. Se você ainda não o baixou, pegue-o em[Página de download do Aspose.Cells para .NET](https://releases.aspose.com/cells/net/).
+1.  Biblioteca Aspose.Cells para .NET: Você precisa ter o Aspose.Cells para .NET instalado em sua máquina. Se você ainda não o baixou, pegue-o em[Página de download do Aspose.Cells para .NET](https://releases.aspose.com/cells/net/).
 2. Ambiente de desenvolvimento: use qualquer ambiente de desenvolvimento compatível com .NET, como o Visual Studio.
 3. Conhecimento básico de C#: Este guia pressupõe que você tenha alguma familiaridade com C# e .NET.
 4. Arquivo Excel: Tenha um arquivo Excel existente para trabalhar. Em nosso exemplo, usaremos um arquivo chamado "sample-document-properties.xlsx".
-5.  Licença temporária: se você não tiver uma licença completa, poderá obter uma[licença temporária aqui](https://purchase.aspose.com/temporary-license/) para evitar limitações nas manipulações de arquivos.
+5. Licença temporária: se você não tiver uma licença completa, poderá obter uma[licença temporária aqui](https://purchase.aspose.com/temporary-license/) para evitar limitações nas manipulações de arquivos.
 
 ## Pacotes de importação
 
@@ -49,7 +49,7 @@ string dataDir = "Your Document Directory";
 Workbook workbook = new Workbook(dataDir + "sample-document-properties.xlsx");
 ```
 
--  Pasta de trabalho workbook = new Workbook(): Esta linha cria uma nova`Workbook` objeto, que é a classe principal usada para trabalhar com arquivos Excel no Aspose.Cells.
+-  Pasta de trabalho workbook = new Workbook(): Esta linha cria uma nova`Workbook`objeto, que é a classe principal usada para trabalhar com arquivos Excel no Aspose.Cells.
 - dataDir: É aqui que você especifica o caminho para seu arquivo Excel. Substitua "Your Document Directory" pelo caminho real em sua máquina.
 
 Pense nessa etapa como se estivesse abrindo uma porta: você está acessando o arquivo para poder fazer as alterações necessárias!
@@ -59,7 +59,7 @@ Pense nessa etapa como se estivesse abrindo uma porta: você está acessando o a
 Depois que o arquivo é carregado, precisamos acessar suas propriedades de documento personalizadas. Essas propriedades são armazenadas em uma coleção que você pode recuperar e manipular.
 
 ```csharp
-//Recuperar uma lista de todas as propriedades personalizadas do documento do arquivo Excel
+// Recuperar uma lista de todas as propriedades personalizadas do documento do arquivo Excel
 Aspose.Cells.Properties.CustomDocumentPropertyCollection customProperties = workbook.Worksheets.CustomDocumentProperties;
 ```
 
@@ -93,7 +93,7 @@ bool islinkedtocontent = customProperty1.IsLinkedToContent;
 ```
 
 - Propriedades personalizadas[["Proprietário"]: Estamos buscando a propriedade "Proprietário" pelo nome para inspecionar seus detalhes.
--  IsLinkedToContent: Este valor booleano retorna`true` se a propriedade for vinculada com sucesso ao conteúdo.
+- IsLinkedToContent: Este valor booleano retorna`true` se a propriedade for vinculada com sucesso ao conteúdo.
 
 Nesta fase, é como verificar se o rótulo (propriedade) está anexado corretamente ao conteúdo. Você está garantindo que seu código fez o que você esperava.
 
@@ -133,7 +133,7 @@ Neste tutorial, percorremos todo o processo passo a passo, desde o carregamento 
 ### Posso vincular várias propriedades personalizadas ao mesmo conteúdo?
 Sim, você pode vincular várias propriedades ao mesmo intervalo ou área nomeada na sua pasta de trabalho.
 
-### O que acontece se o conteúdo no intervalo vinculado mudar?
+### que acontece se o conteúdo no intervalo vinculado mudar?
 A propriedade vinculada será atualizada automaticamente para refletir o novo conteúdo no intervalo especificado.
 
 ### Posso remover um link entre uma propriedade e um conteúdo?

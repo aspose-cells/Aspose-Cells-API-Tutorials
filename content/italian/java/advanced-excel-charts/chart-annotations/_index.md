@@ -22,7 +22,7 @@ Prima di addentrarci nell'implementazione, assicurati di avere i seguenti prereq
 
 ## Impostazione di Aspose.Cells per Java
 
- Per iniziare, devi impostare Aspose.Cells per Java nel tuo progetto. Puoi scaricare la libreria dal sito web di Aspose[Qui](https://releases.aspose.com/cells/java/)Una volta scaricata, aggiungi la libreria al tuo progetto Java.
+Per iniziare, devi impostare Aspose.Cells per Java nel tuo progetto. Puoi scaricare la libreria dal sito web di Aspose[Qui](https://releases.aspose.com/cells/java/)Una volta scaricata, aggiungi la libreria al tuo progetto Java.
 
 ## Creazione di una cartella di lavoro Excel
 

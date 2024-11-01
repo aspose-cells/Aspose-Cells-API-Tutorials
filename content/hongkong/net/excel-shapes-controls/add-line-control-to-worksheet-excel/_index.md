@@ -115,7 +115,7 @@ workbook.Save(dataDir + "book1.out.xls");
 ```
 您可以將輸出檔案命名為任何您喜歡的名稱 - 只需確保它以`.xls`或其他支援的 Excel 檔案副檔名。
 ## 結論
-恭喜！您已成功學習如何使用 Aspose.Cells for .NET 將線條控制項新增至 Excel 工作表。只需幾行程式碼，您就可以大幅增強您的 Excel 文件，提供資料的視覺化表示，幫助更有效地傳達見解。無論您想要建立報告、簡報還是分析工具，掌握 Aspose.Cells 等函式庫都可以讓您的工作流程更加順暢和有效率。
+恭喜！您已成功學習如何使用 Aspose.Cells for .NET 將線條控制項新增至 Excel 工作表。只需幾行程式碼，您就可以大大增強您的 Excel 文件，提供資料的視覺化表示，從而幫助更有效地傳達見解。無論您想要建立報告、簡報還是分析工具，掌握 Aspose.Cells 等函式庫都可以讓您的工作流程更加順暢和有效率。
 ## 常見問題解答
 ### 什麼是 Aspose.Cells for .NET？
 Aspose.Cells for .NET 是一個函式庫，可讓開發人員建立、操作和轉換 Excel 文件，而無需使用 Microsoft Excel。

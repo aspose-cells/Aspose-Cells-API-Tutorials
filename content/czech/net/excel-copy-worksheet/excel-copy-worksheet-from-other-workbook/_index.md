@@ -46,7 +46,7 @@ Nyní, když máme vše připraveno, pojďme se pustit do vzrušující části 
 Nejprve musíme určit, kde budou naše soubory Excel uloženy. Definujte cestu k adresáři dokumentů:
 
 ```csharp
-string dataDir = "YOUR DOCUMENT DIRECTORY";  // Aktualizujte to do svého skutečného adresáře
+string dataDir = "YOUR DOCUMENT DIRECTORY";  // Aktualizujte toto na váš skutečný adresář
 ```
  The`dataDir` proměnná uloží cestu, kam uložíte konečný soubor Excel. Ujistěte se, že jste nahradili "VÁŠ ADRESÁŘ DOKUMENTŮ" skutečnou cestou ve vašem systému.
 
@@ -72,9 +72,9 @@ for (int i = 5; i < 1000; i++)
     ws0.Cells[i, 0].PutValue(string.Format("Detail Row {0}", i));
 }
 ```
-Zde vytvoříme první sešit a vyplníme první list (`ws0`) se záhlavími a řádky podrobností. Tato simulovaná data vám později pomohou vizualizovat proces kopírování.
+Zde vytvoříme první sešit a vyplníme první list (`ws0`) se záhlavími a podrobnými řádky. Tato simulovaná data vám později pomohou vizualizovat proces kopírování.
 
-## Krok 3: Nastavte nastavení stránky pro tisk
+## Krok 3: Nastavení stránky pro tisk
 
 Pojďme nakonfigurovat nastavení stránky tak, aby se při tisku opakovaly řádky záhlaví, abychom tuto funkci viděli v akci:
 
@@ -136,7 +136,7 @@ Aspose.Cells je knihovna .NET, která umožňuje vývojářům vytvářet, manip
 ### Jak získám dočasnou licenci pro Aspose.Cells?  
  O dočasnou licenci můžete požádat návštěvou[tento odkaz](https://purchase.aspose.com/temporary-license/).
 
-### Kde najdu další dokumentaci k Aspose.Cells?  
+### Kde najdu další dokumentaci na Aspose.Cells?  
  Můžete najít podrobnou dokumentaci[zde](https://reference.aspose.com/cells/net/).
 
 ### Je k dispozici nějaká podpora pro uživatele Aspose.Cells?  

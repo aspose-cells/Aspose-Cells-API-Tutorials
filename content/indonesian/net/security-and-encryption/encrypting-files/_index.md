@@ -40,7 +40,7 @@ Pertama-tama, mari kita siapkan jalur untuk dokumen Excel Anda. Di sinilah Anda 
 string dataDir = "Your Document Directory";
 ```
  Di sini, ganti`"Your Document Directory"` dengan jalur sebenarnya tempat file Excel Anda berada dan tempat Anda ingin menyimpan file terenkripsi.
-## Langkah 2: Membuat Instansiasi Objek Buku Kerja
+## Langkah 2: Membuat Instansi Objek Buku Kerja
 Sekarang, mari membuat objek Buku Kerja untuk bekerja dengan berkas Excel Anda.
 ```csharp
 Workbook workbook = new Workbook(dataDir + "Book1.xls");
@@ -53,7 +53,7 @@ Anda memiliki pilihan terkait enkripsi di Aspose.Cells. Untuk contoh ini, Anda a
 ```csharp
 // Tentukan jenis enkripsi XOR.
 workbook.SetEncryptionOptions(EncryptionType.XOR, 40);
-// Tentukan jenis Enkripsi Kuat (RC4, Penyedia Kriptografi Kuat Microsoft).
+//Tentukan jenis Enkripsi Kuat (RC4, Penyedia Kriptografi Kuat Microsoft).
 workbook.SetEncryptionOptions(EncryptionType.StrongCryptographicProvider, 128);
 ```
 Anggaplah opsi ini seperti jenis kunci yang mungkin Anda gunakan—ada yang lebih pendek dan lebih mudah dibobol (XOR), sementara yang lain jauh lebih menantang (Penyedia Kriptografi Kuat).
@@ -68,7 +68,7 @@ Terakhir, mari simpan perubahan untuk membuat berkas terenkripsi Anda.
 ```csharp
 workbook.Save(dataDir + "encryptedBook1.out.xls");
 ```
- Baris kode ini menyimpan buku kerja sebagai`encryptedBook1.out.xls`di direktori yang Anda tentukan. Ini seperti menaruh buku kembali ke rak, terkunci dengan aman!
+ Baris kode ini menyimpan buku kerja sebagai`encryptedBook1.out.xls` di direktori yang Anda tentukan. Ini seperti menaruh buku kembali ke rak, terkunci dengan aman!
 ## Kesimpulan
 Nah, itu dia! Anda baru saja mempelajari cara mengenkripsi file Excel menggunakan Aspose.Cells di .NET. Dengan mengikuti langkah-langkah ini, Anda memastikan bahwa data sensitif Anda terlindungi dengan baik. Ingat saja—perlindungan dimulai dari Anda, jadi selalu ambil langkah-langkah yang diperlukan untuk menjaga informasi Anda. 
 ## Pertanyaan yang Sering Diajukan

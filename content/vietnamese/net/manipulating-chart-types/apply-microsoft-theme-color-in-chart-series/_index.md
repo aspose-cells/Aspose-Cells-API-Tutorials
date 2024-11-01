@@ -101,7 +101,7 @@ chart.NSeries[0].Area.FillFormat.FillType = Aspose.Cells.Drawing.FillType.Solid;
 Tiếp theo, chúng ta cần xác định màu cho vùng tô của biểu đồ. Đây là cách chúng ta làm cho màu đã chọn trở nên sống động.
 
 ```csharp
-// Lấy CellsColor của SolidFill
+//Lấy CellsColor của SolidFill
 CellsColor cc = chart.NSeries[0].Area.FillFormat.SolidFill.CellsColor;
 ```
 

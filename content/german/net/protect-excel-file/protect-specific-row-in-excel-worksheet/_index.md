@@ -88,7 +88,7 @@ StyleFlag flag;
 for (int i = 0; i <= 255; i++)
 {
     style = sheet.Cells.Columns[(byte)i].Style;
-    style.IsLocked = false; //Spalte „Entsperren“
+    style.IsLocked = false; // Spalte „Entsperren“
     flag = new StyleFlag();
     flag.Locked = true; // Setzen Sie das Flag zum Sperren auf „True“.
     sheet.Cells.Columns[(byte)i].ApplyStyle(style, flag); // Anwenden des Stils

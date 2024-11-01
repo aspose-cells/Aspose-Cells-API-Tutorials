@@ -2,7 +2,7 @@
 title: Ustawianie marginesów dla komentarza lub kształtu w programie Excel
 linktitle: Ustawianie marginesów dla komentarza lub kształtu w programie Excel
 second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Dowiedz się, jak ustawić marginesy dla komentarzy i kształtów w programie Excel przy użyciu Aspose.Cells dla .NET. Dołączony przewodnik krok po kroku ułatwiający implementację.
+description: Dowiedz się, jak ustawić marginesy dla komentarzy i kształtów w programie Excel przy użyciu Aspose.Cells dla .NET. Dołączony przewodnik krok po kroku dla łatwej implementacji.
 type: docs
 weight: 18
 url: /pl/net/excel-shape-text-modifications/set-margins-comment-shape-excel/

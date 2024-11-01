@@ -16,7 +16,7 @@ I grafici sono un modo potente per visualizzare i dati e, a volte, aggiungere un
 Prima di addentrarci nei dettagli, vediamo cosa ti occorre per iniziare:
 
 - Conoscenza di base di C#: è fondamentale comprendere le basi della programmazione in C#. Se sei un principiante, non preoccuparti: i passaggi saranno chiari e concisi.
--  Libreria Aspose.Cells: assicurati di aver installato la libreria Aspose.Cells. Puoi farlo tramite NuGet Package Manager in Visual Studio. Se non l'hai già fatto, dai un'occhiata a[collegamento per il download](https://releases.aspose.com/cells/net/) per la biblioteca.
+- Libreria Aspose.Cells: assicurati di aver installato la libreria Aspose.Cells. Puoi farlo tramite NuGet Package Manager in Visual Studio. Se non l'hai già fatto, dai un'occhiata a[collegamento per il download](https://releases.aspose.com/cells/net/) per la biblioteca.
 - Visual Studio: per scrivere ed eseguire il codice, avrai bisogno di un ambiente di sviluppo integrato (IDE) come Visual Studio.
 
 ## Importa pacchetti
@@ -141,7 +141,7 @@ Console.WriteLine("AddingLabelControlInChart executed successfully.");
 
 ## Conclusione
 
-Ed ecco fatto! Hai aggiunto con successo un controllo etichetta a un grafico usando Aspose.Cells per .NET. Con solo poche righe di codice, hai migliorato la chiarezza della tua rappresentazione visiva dei dati, rendendola molto più informativa. Ricorda, che tu stia mettendo insieme una presentazione o immergendoti nell'analisi dei dati, queste etichette possono essere strumenti inestimabili.
+Ed ecco fatto! Hai aggiunto con successo un controllo etichetta a un grafico usando Aspose.Cells per .NET. Con solo poche righe di codice, hai migliorato la chiarezza della tua rappresentazione visiva dei dati, rendendola molto più informativa. Ricorda, che tu stia mettendo insieme una presentazione o che ti stia immergendo nell'analisi dei dati, queste etichette possono essere strumenti inestimabili.
 
 ## Domande frequenti
 

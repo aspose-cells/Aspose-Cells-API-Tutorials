@@ -66,7 +66,7 @@ Voordat we naar het spannende gedeelte gaan, moeten we definiëren waar we ons b
 ```csharp
 string outputDir = "C:\\YourOutputDirectory\\"; // Ga naar de door u opgegeven directory
 ```
- Zorg ervoor dat u vervangt`"C:\\YourOutputDirectory\\"` met het pad waar u uw bestand wilt opslaan. Zie dit als het instellen van uw werkruimte; u moet weten waar u uw gereedschappen (of in dit geval uw Excel-bestand) plaatst.
+ Zorg ervoor dat u vervangt`"C:\\YourOutputDirectory\\"`met het pad waar u uw bestand wilt opslaan. Zie dit als het instellen van uw werkruimte; u moet weten waar u uw gereedschappen (of in dit geval uw Excel-bestand) plaatst.
 
 ## Stap 2: Een werkmapobject instantiëren
 

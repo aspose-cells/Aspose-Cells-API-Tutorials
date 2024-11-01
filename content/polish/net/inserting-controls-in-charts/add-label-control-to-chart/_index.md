@@ -16,7 +16,7 @@ Wykresy to potężny sposób wizualizacji danych, a czasami dodanie etykiety mo�
 Zanim przejdziemy do szczegółów, omówmy, co jest potrzebne na początek:
 
 - Podstawowa wiedza o C#: Zrozumienie podstaw programowania w C# jest kluczowe. Jeśli jesteś początkującym, nie martw się – kroki będą jasne i zwięzłe.
--  Biblioteka Aspose.Cells: Upewnij się, że masz zainstalowaną bibliotekę Aspose.Cells. Możesz to zrobić za pomocą Menedżera pakietów NuGet w programie Visual Studio. Jeśli jeszcze tego nie zrobiłeś, sprawdź[link do pobrania](https://releases.aspose.com/cells/net/) dla biblioteki.
+- Biblioteka Aspose.Cells: Upewnij się, że masz zainstalowaną bibliotekę Aspose.Cells. Możesz to zrobić za pomocą Menedżera pakietów NuGet w programie Visual Studio. Jeśli jeszcze tego nie zrobiłeś, sprawdź[link do pobrania](https://releases.aspose.com/cells/net/) dla biblioteki.
 - Visual Studio: Będziesz potrzebować zintegrowanego środowiska programistycznego (IDE), takiego jak Visual Studio, aby pisać i wykonywać kod.
 
 ## Importuj pakiety
@@ -141,7 +141,7 @@ To tak, jakbyś pokazał światu swój gotowy produkt i czekał na oklaski!
 
 ## Wniosek
 
-masz to! Udało Ci się dodać kontrolkę etykiety do wykresu za pomocą Aspose.Cells dla .NET. Za pomocą zaledwie kilku linijek kodu poprawiłeś przejrzystość wizualnej reprezentacji danych, czyniąc ją o wiele bardziej informacyjną. Pamiętaj, że niezależnie od tego, czy tworzysz prezentację, czy zagłębiasz się w analizę danych, te etykiety mogą być nieocenionymi narzędziami.
+I masz to! Udało Ci się dodać kontrolkę etykiety do wykresu za pomocą Aspose.Cells dla .NET. Za pomocą zaledwie kilku linijek kodu poprawiłeś przejrzystość wizualnej reprezentacji danych, czyniąc ją o wiele bardziej informacyjną. Pamiętaj, że niezależnie od tego, czy tworzysz prezentację, czy zagłębiasz się w analizę danych, te etykiety mogą być nieocenionymi narzędziami.
 
 ## Najczęściej zadawane pytania
 

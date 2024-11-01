@@ -100,7 +100,7 @@ Maintenant, examinons la feuille particulière qui contient le graphique à sect
 Worksheet sheet = workbook.Worksheets[1];
 ```
 
- En accédant au`Worksheets`collection, nous pouvons accéder à la feuille spécifique dont nous avons besoin.
+ En accédant au`Worksheets` collection, nous pouvons accéder à la feuille spécifique dont nous avons besoin.
 
 ## Étape 4 : Obtenir le graphique
 

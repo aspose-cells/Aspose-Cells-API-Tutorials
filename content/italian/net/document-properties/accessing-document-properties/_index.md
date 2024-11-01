@@ -36,7 +36,7 @@ string dataDir = "Your Document Directory";
 Workbook workbook = new Workbook(dataDir + "sample-document-properties.xlsx");
 ```
  Qui stiamo caricando il nostro file Excel specifico,`"sample-document-properties.xlsx"`È fondamentale che questo file esista nella directory specificata, altrimenti si verificheranno degli errori.
-## Passaggio 3: Recupera le proprietà personalizzate del documento
+## Passaggio 3: Recupera le proprietà del documento personalizzato
 Una volta caricata la cartella di lavoro, possiamo attingere al suo tesoro di proprietà. Immergiamoci in come puoi accedere a queste proprietà:
 ```csharp
 Aspose.Cells.Properties.DocumentPropertyCollection customProperties = workbook.Worksheets.CustomDocumentProperties;

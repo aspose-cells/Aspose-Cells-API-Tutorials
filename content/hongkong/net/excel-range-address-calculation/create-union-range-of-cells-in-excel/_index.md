@@ -65,7 +65,7 @@ workbook.Save(outputDir + "CreateUnionRange_out.xlsx");
 ```csharp
 Console.WriteLine("CreateUnionRange executed successfully.");
 ```
-現在你就得到它了！您已使用 Aspose.Cells for .NET 在 Excel 檔案中成功建立了儲存格的並集範圍。
+現在你就擁有了！您已使用 Aspose.Cells for .NET 在 Excel 檔案中成功建立了儲存格的並集範圍。
 ## 結論
 在 Excel 中建立單元格的並集範圍不必像在迷宮中導航一樣！使用 Aspose.Cells for .NET，您只需幾行程式碼即可實現此目的。這項技能不僅會增強您的程式設計工具包，而且還為許多更強大的 Excel 操作打開了大門。 
 

@@ -15,7 +15,7 @@ url: /ko/net/xps-and-pdf-operations/setting-pdf-creation-time/
 1. Visual Studio: 컴퓨터에 Visual Studio가 설치되어 있는지 확인하세요. 이것이 개발 환경이 됩니다.
 2.  .NET용 Aspose.Cells: Aspose.Cells 라이브러리를 다음에서 다운로드하세요.[웹사이트](https://releases.aspose.com/cells/net/). 무료 체험판을 통해 기능을 테스트해 볼 수도 있습니다.
 3. C#에 대한 기본 지식: C# 프로그래밍에 익숙하면 코드 조각을 더 잘 이해하는 데 도움이 됩니다.
-4. Excel 파일: 변환할 Excel 파일을 준비하세요. 이 예에서는 다음 이름의 파일을 사용하겠습니다.`Book1.xlsx`.
+4.  Excel 파일: 변환할 Excel 파일을 준비하세요. 이 예에서는 다음 이름의 파일을 사용하겠습니다.`Book1.xlsx`.
 이제 필수 구성 요소를 정리했으니, 재밌는 부분, 즉 필요한 패키지를 가져오고 코드를 작성해 보겠습니다!
 ## 패키지 가져오기
 시작하려면 C# 파일에 필요한 네임스페이스를 가져와야 합니다. 이는 Aspose.Cells 라이브러리에서 제공하는 클래스와 메서드에 액세스할 수 있게 해주므로 매우 중요합니다.

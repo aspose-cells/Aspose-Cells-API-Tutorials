@@ -46,7 +46,7 @@ using Aspose.Cells;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
-在此步驟中，您將把 Excel 檔案的位置指派給`dataDir`細繩。代替`"YOUR DOCUMENT DIRECTORY"`與你的實際路徑`.xls`文件位於。
+在此步驟中，您將把 Excel 檔案的位置指派給`dataDir`細繩。代替`"YOUR DOCUMENT DIRECTORY"`與您的實際路徑`.xls`文件位於。
 
 ## 步驟2：建立檔案流
 

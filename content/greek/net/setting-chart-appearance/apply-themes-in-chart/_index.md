@@ -99,7 +99,7 @@ chart.NSeries[0].Area.FillFormat.FillType = Aspose.Cells.Drawing.FillType.Solid;
  Τώρα που η σειρά μας είναι έτοιμη, πρέπει να τροποποιήσουμε το χρώμα της. Αυτό περιλαμβάνει τη δημιουργία ενός`CellsColor` αντικείμενο και προσδιορίζοντας ένα χρώμα θέματος. Θα επιλέξουμε ένα στυλ προφοράς για αυτό το παράδειγμα.
 
 ```csharp
-// Αποκτήστε το CellsColor του SolidFill
+//Αποκτήστε το CellsColor του SolidFill
 CellsColor cc = chart.NSeries[0].Area.FillFormat.SolidFill.CellsColor;
 
 // Δημιουργήστε ένα θέμα σε στυλ Accent
@@ -158,7 +158,7 @@ Console.WriteLine("ApplyingThemesInChart executed successfully.");
 Το Aspose.Cells υποστηρίζει διάφορα χρώματα θεμάτων, συμπεριλαμβανομένων των στυλ Accent και άλλων.
 
 ### Είναι δυνατή η εφαρμογή θεμάτων σε πολλά γραφήματα;
- Απολύτως! Μπορείτε να κάνετε επαναφορά`worksheet.Charts` και εφαρμόστε θέματα όπως απαιτείται.
+Απολύτως! Μπορείτε να κάνετε επαναφορά`worksheet.Charts` και εφαρμόστε θέματα όπως απαιτείται.
 
 ### Πού μπορώ να λάβω υποστήριξη για το Aspose.Cells;
  Μπορείτε να λάβετε υποστήριξη και να αλληλεπιδράσετε με μια κοινότητα χρηστών[εδώ](https://forum.aspose.com/c/cells/9).

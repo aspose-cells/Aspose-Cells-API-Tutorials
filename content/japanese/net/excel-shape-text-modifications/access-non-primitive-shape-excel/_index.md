@@ -65,7 +65,7 @@ Shape shape = worksheet.Shapes[0];
 if (shape.AutoShapeType == AutoShapeType.NotPrimitive)
 {
 ```
-このブロックにより、より複雑な詳細を持つ図形のみを扱うことができるようになります。
+このブロックにより、より複雑な詳細を持つ図形のみを処理できるようになります。
 ## ステップ6: Shapeのデータにアクセスする
 非プリミティブ シェイプであることが確認できたので、そのデータにアクセスできます。
 ```csharp

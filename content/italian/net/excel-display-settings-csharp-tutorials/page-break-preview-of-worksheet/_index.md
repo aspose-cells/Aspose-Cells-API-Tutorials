@@ -109,7 +109,7 @@ Infine, è una buona abitudine ripulire le risorse. La chiusura del flusso di fi
 
 ## Conclusione
 
-Ed ecco fatto! Hai abilitato con successo l'anteprima delle interruzioni di pagina per un foglio di lavoro utilizzando Aspose.Cells per .NET. Questa funzionalità può migliorare notevolmente la tua capacità di gestire i layout di stampa, semplificando la presentazione dei tuoi dati in modo strutturato. Che tu stia generando report o preparando dati per la stampa, Aspose.Cells ti offre gli strumenti necessari per liberare la tua creatività e produttività. Quindi, cosa aspetti? Immergiti nel tuo prossimo progetto Excel con Aspose.Cells e scopri come trasforma il tuo flusso di lavoro!
+Ed ecco fatto! Hai abilitato con successo l'anteprima delle interruzioni di pagina per un foglio di lavoro utilizzando Aspose.Cells per .NET. Questa funzionalità può migliorare notevolmente la tua capacità di gestire i layout di stampa, semplificando la presentazione dei dati in modo strutturato. Che tu stia generando report o preparando dati per la stampa, Aspose.Cells ti offre gli strumenti necessari per liberare la tua creatività e produttività. Quindi, cosa aspetti? Immergiti nel tuo prossimo progetto Excel con Aspose.Cells e scopri come trasforma il tuo flusso di lavoro!
 
 ## Domande frequenti
 

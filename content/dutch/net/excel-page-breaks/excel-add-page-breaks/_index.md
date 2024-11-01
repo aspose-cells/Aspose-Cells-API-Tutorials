@@ -118,4 +118,4 @@ U kunt bestanden opslaan in formaten zoals .xls, .xlsx, .csv en diverse andere, 
 
 ### Bestaat er een community voor Aspose-ondersteuning?
 
-Zeker! Je kunt het Aspose community forum bezoeken voor support en discussies[hier](https://forum.aspose.com/c/cells/9).
+ Zeker! Je kunt het Aspose community forum bezoeken voor support en discussies[hier](https://forum.aspose.com/c/cells/9).

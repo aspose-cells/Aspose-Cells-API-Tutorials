@@ -12,7 +12,7 @@ Haben Sie sich schon einmal gefragt, wie Sie die Spalten- und Zeilengrößen bei
 ### Voraussetzungen
 Bevor Sie mit dem Code beginnen, müssen Sie einige Dinge auf Ihrem System einrichten. Keine Sorge, es ist ganz einfach!
 1. Visual Studio installiert: Sie benötigen Visual Studio oder eine andere .NET-Entwicklungsumgebung.
-2.  Aspose.Cells für .NET: Sie können[Laden Sie die neueste Version herunter](https://releases.aspose.com/cells/net/)oder verwenden Sie den NuGet-Paket-Manager, um es zu installieren.
+2.  Aspose.Cells für .NET: Sie können[Laden Sie die neueste Version herunter](https://releases.aspose.com/cells/net/) oder verwenden Sie den NuGet-Paket-Manager, um es zu installieren.
 3. .NET Framework: Stellen Sie sicher, dass Sie .NET Framework 4.0 oder höher installiert haben.
 4. Grundlegende Kenntnisse in C#: Wenn Sie über einige Kenntnisse in C# verfügen, wird Ihnen dieses Tutorial leichter fallen.
 5. HTML-Tabellendaten: Bereiten Sie HTML-Inhalte (auch eine einfache Tabelle) vor, die Sie in Excel laden möchten.
@@ -46,7 +46,7 @@ MemoryStream ms = new MemoryStream(Encoding.UTF8.GetBytes(sampleHtml));
 ```
  Indem wir den HTML-String in ein Byte-Array umwandeln und ihn in ein`MemoryStream`können wir mit den HTML-Daten im Speicher arbeiten. Stellen Sie sich diesen Schritt so vor, als ob Sie das Gericht in einem Topf zubereiten, bevor Sie es in den Ofen schieben!
 ## Schritt 4: MemoryStream in eine Arbeitsmappe laden (ohne automatische Anpassung)
- Sobald wir den HTML-Inhalt im Speicher haben, laden wir ihn in ein Aspose`Workbook`. An diesem Punkt passen wir die Spalten und Zeilen noch nicht automatisch an. Dies ist unser „Vorher“-Szenario, das wir später mit der automatisch angepassten Version vergleichen.
+ Sobald wir den HTML-Inhalt im Speicher haben, laden wir ihn in ein Aspose`Workbook`An diesem Punkt passen wir die Spalten und Zeilen noch nicht automatisch an. Dies ist unser „Vorher“-Szenario, das wir später mit der automatisch angepassten Version vergleichen.
 ```csharp
 Workbook wb = new Workbook(ms);
 wb.Save(dataDir + "outputWithout_AutoFitColsAndRows.xlsx");
@@ -60,14 +60,14 @@ opts.AutoFitColsAndRows = true;
 ```
 Indem wir diese Option festlegen, weisen wir Aspose.Cells an, die Größe der Zeilen und Spalten automatisch anzupassen. Stellen Sie sich das so vor, als würden Sie den Ofen auf die perfekte Temperatur einstellen, damit der Kuchen genau richtig aufgeht!
 ## Schritt 6: HTML in Arbeitsmappe laden und dabei die automatische Anpassung aktivieren
- Nun laden wir den HTML-Inhalt erneut, diesmal jedoch mit dem`AutoFitColsAndRows` Option aktiviert. Dadurch werden die Spaltenbreiten und Zeilenhöhen basierend auf dem Inhalt angepasst.
+ Nun laden wir den HTML-Inhalt erneut, diesmal jedoch mit dem`AutoFitColsAndRows`Option aktiviert. Dadurch werden die Spaltenbreiten und Zeilenhöhen basierend auf dem Inhalt angepasst.
 ```csharp
 wb = new Workbook(ms, opts);
 wb.Save(dataDir + "outputWith_AutoFitColsAndRows.xlsx");
 ```
 Dieser Schritt lädt den HTML-Inhalt in eine neue Arbeitsmappe und speichert sie als Excel-Datei, aber jetzt werden die Spalten und Zeilen automatisch angepasst! Stellen Sie sich das wie den perfekt gebackenen Kuchen vor, bei dem alles genau die richtige Größe hat.
 ## Abschluss
-Indem Sie diese einfachen Schritte befolgen, haben Sie gelernt, wie Sie mit Aspose.Cells für .NET HTML-Inhalte in eine Arbeitsmappe laden und die Spalten und Zeilen automatisch anpassen. Dadurch wird sichergestellt, dass Ihre Excel-Tabellen immer ordentlich aussehen, egal wie dynamisch der Inhalt ist. Es handelt sich um eine einfache, aber leistungsstarke Funktion, mit der Sie beim Formatieren und Organisieren Ihrer Excel-Daten jede Menge Zeit sparen können.
+Indem Sie diese einfachen Schritte befolgen, haben Sie gelernt, wie Sie mit Aspose.Cells für .NET HTML-Inhalte in eine Arbeitsmappe laden und die Spalten und Zeilen automatisch anpassen. Dadurch wird sichergestellt, dass Ihre Excel-Tabellen immer ordentlich aussehen, egal wie dynamisch der Inhalt ist. Es ist eine einfache, aber leistungsstarke Funktion, mit der Sie beim Formatieren und Organisieren Ihrer Excel-Daten jede Menge Zeit sparen können.
 Da Sie nun über dieses Wissen verfügen, können Sie mit komplexeren HTML-Inhalten experimentieren, Stile hinzufügen und sogar ganze Excel-Arbeitsmappen aus Webseiten erstellen!
 ## Häufig gestellte Fragen
 ### Kann ich mit dieser Methode große HTML-Tabellen laden?

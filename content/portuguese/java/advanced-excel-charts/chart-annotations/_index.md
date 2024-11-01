@@ -22,7 +22,7 @@ Antes de mergulharmos na implementação, certifique-se de ter os seguintes pré
 
 ## Configurando Aspose.Cells para Java
 
- Para começar, você precisa configurar o Aspose.Cells para Java no seu projeto. Você pode baixar a biblioteca do site do Aspose[aqui](https://releases.aspose.com/cells/java/). Após o download, adicione a biblioteca ao seu projeto Java.
+Para começar, você precisa configurar o Aspose.Cells para Java no seu projeto. Você pode baixar a biblioteca do site do Aspose[aqui](https://releases.aspose.com/cells/java/). Após o download, adicione a biblioteca ao seu projeto Java.
 
 ## Criando uma pasta de trabalho do Excel
 

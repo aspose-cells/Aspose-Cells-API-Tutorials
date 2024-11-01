@@ -16,7 +16,7 @@ Pastikan Anda memiliki Visual Studio di komputer Anda. Di sanalah Anda akan memb
 ### 2. .NET Framework atau .NET Core
 Pastikan Anda telah menginstal versi .NET yang tepat. Aspose.Cells for .NET berfungsi dengan lancar baik dengan .NET Framework maupun .NET Core.
 ### 3. Pustaka Aspose.Cells
- Anda akan memerlukan pustaka Aspose.Cells. Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/cells/net/). Anda perlu memiliki ini di proyek Anda untuk memanipulasi file Excel.
+Anda akan memerlukan pustaka Aspose.Cells. Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/cells/net/). Anda perlu memiliki ini di proyek Anda untuk memanipulasi file Excel.
 ### 4. Pemahaman Dasar C#
 Menguasai C# bermanfaat, meskipun tidak wajib. Kita akan menulis kode yang menggunakan pustaka tersebut untuk memanipulasi file Excel, dan pengetahuan tentang C# akan membantu Anda memahaminya dengan lebih baik.
 ### 5. IDE untuk Bekerja

@@ -12,7 +12,7 @@ Khi nói đến việc làm việc với các tệp Excel trong .NET, có rất 
 ## Điều kiện tiên quyết
 Trước khi bắt đầu, hãy đảm bảo bạn có mọi thứ cần thiết để theo dõi liền mạch. Sau đây là những gì bạn cần có:
 1. Visual Studio: Đảm bảo bạn đã cài đặt phiên bản Visual Studio trên máy của mình. Đây là nơi bạn sẽ viết mã .NET. 
-2. Thư viện Aspose.Cells: Bạn cần thư viện Aspose.Cells cho .NET. Nếu bạn chưa tải xuống, hãy truy cập[Trang Tải xuống Aspose](https://releases.aspose.com/cells/net/) để nắm lấy nó. 
+2.  Thư viện Aspose.Cells: Bạn cần thư viện Aspose.Cells cho .NET. Nếu bạn chưa tải xuống, hãy truy cập[Trang Tải xuống Aspose](https://releases.aspose.com/cells/net/) để nắm lấy nó. 
 3. Kiến thức cơ bản về C#: Hiểu biết cơ bản về C# và .NET sẽ giúp bạn dễ dàng xem qua các ví dụ mã hơn.
 4. .NET Framework: Đảm bảo dự án của bạn được thiết lập với .NET framework phù hợp được thư viện Aspose.Cells hỗ trợ.
 5. Tài liệu Excel: Mặc dù tạo một bảng tính mới là một lựa chọn, nhưng việc có một tài liệu bắt đầu có thể hữu ích nếu bạn muốn thao tác với một tệp hiện có.

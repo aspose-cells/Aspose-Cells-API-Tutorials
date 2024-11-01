@@ -152,3 +152,21 @@ Excel 파일을 JSON, DOCX, HTML, PDF, Markdown 등의 형식으로 변환하는
 Excel 파일을 저장하고 내보내는 방법에 대한 자세한 Aspose.Cells for .NET 튜토리얼을 살펴보세요. 주석, 문서 속성, 경고 및 데이터 트리밍을 처리하는 방법을 알아보세요.
 ### [피벗 테이블 만들기 및 구성](./creating-and-configuring-pivot-tables/)
 Aspose.Cells for .NET에 대한 포괄적인 튜토리얼을 알아보세요. 모든 기능에 대한 자세한 단계별 가이드로 Excel에서 피벗 테이블을 프로그래밍 방식으로 마스터하세요.
+### [Excel 수식 및 계산 옵션](./excel-formulas-and-calculation-options/)
+.NET용 Aspose.Cells 튜토리얼을 자세히 살펴보세요. 쉽게 따라할 수 있는 단계로 필수적인 Excel 수식과 계산을 다룹니다.
+### [고급 옵션을 사용하여 Excel을 HTML로 내보내기](./exporting-excel-to-html-with-advanced-options/)
+다양한 고급 옵션에 대한 자세한 튜토리얼을 통해 Aspose.Cells for .NET을 사용하여 Excel을 HTML로 내보내는 방법에 대한 귀중한 통찰력을 얻고 문서 내보내기 기능을 향상하세요.
+### [렌더링 및 내보내기](./rendering-and-export/)
+Aspose.Cells for .NET으로 기술을 향상시키세요. 대화형 Excel PDF 문서를 렌더링, 내보내기, 만드는 방법에 대한 튜토리얼을 살펴보세요.
+### [Aspose.Cells에서의 오류 처리 및 사용자 정의](./error-handling-and-customization-in-aspose-cells/)
+.NET용 Aspose.Cells 튜토리얼에서는 Excel에서 PDF로 Office 추가 기능을 렌더링하고 Excel에서 PDF로 변환하는 동안 오류를 무시합니다. 문서 작업을 간소화하세요.
+### [행 및 열 관리](./row-and-column-management/)
+포괄적인 행 및 열 관리 튜토리얼을 통해 Aspose.Cells for .NET의 강력한 기능을 활용하고 Excel 기술을 손쉽게 향상시켜 보세요.
+### [크기 및 간격 사용자 정의](./size-and-spacing-customization/)
+Aspose.Cells for .NET으로 Excel 파일을 강화하세요. 크기와 간격을 사용자 지정하고, 열 너비와 행 높이를 손쉽게 설정하는 방법을 알려주는 따라하기 쉬운 튜토리얼을 알아보세요.
+### [행 및 열 자동 맞춤](./row-column-autofit-conversion/)
+Aspose.Cells for .NET을 사용하여 Excel에서 행과 열 자동 맞춤을 마스터하세요. 명확하고 전문적인 스프레드시트를 위한 단계별 튜토리얼로 데이터 표시를 강화하세요.
+### [Excel 슬라이서 관리](./excel-slicers-management/)
+Aspose.Cells for .NET으로 Excel 슬라이서를 관리하는 방법에 대한 포괄적인 튜토리얼을 살펴보세요. 슬라이서를 손쉽게 만들고, 업데이트하고, 포맷하고, 내보내는 방법을 알아보세요.
+### [Aspose.Cells의 동적 데이터를 위한 스마트 마커](./smart-markers-dynamic-data/)
+Aspose.Cells for .NET Smart Markers 튜토리얼을 탐색하여 동적 Excel 보고서를 만드세요. 레이블 추가, 데이터 자동 채우기, 수식 사용 등을 알아보세요.

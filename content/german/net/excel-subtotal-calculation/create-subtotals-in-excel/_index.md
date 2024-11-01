@@ -29,7 +29,7 @@ Zu Beginn müssen wir definieren, wo sich unsere Excel-Datei befindet. Hier teil
 ```csharp
 string dataDir = "Your Document Directory";
 ```
- Ersetzen`"Your Document Directory"` mit dem tatsächlichen Pfad, auf dem Ihr`book1.xls`gespeichert ist. Dadurch wird dem Programm mitgeteilt, wo die zu bearbeitende Excel-Datei zu finden ist.
+ Ersetzen`"Your Document Directory"` mit dem tatsächlichen Pfad, auf dem Ihr`book1.xls` gespeichert ist. Dadurch wird dem Programm mitgeteilt, wo die zu bearbeitende Excel-Datei zu finden ist.
 ## Schritt 2: Instanziieren einer neuen Arbeitsmappe
 Als Nächstes erstellen wir eine neue Instanz des Workbook-Objekts. Dadurch können wir unsere Excel-Datei öffnen und bearbeiten.
 ```csharp
@@ -51,7 +51,7 @@ ca.StartColumn = 1;
 ca.EndRow = 18; // 19. Jahrhundert
 ca.EndColumn = 2;
 ```
- Hier definieren wir eine`CellArea`das gibt den Bereich an, der uns interessiert. In diesem Fall haben wir den Bereich von B3 (Zeile 2, Spalte 1) bis C19 (Zeile 18, Spalte 2) gewählt. Hier berechnen wir unsere Zwischensummen.
+ Hier definieren wir eine`CellArea` das gibt den Bereich an, der uns interessiert. In diesem Fall haben wir den Bereich von B3 (Zeile 2, Spalte 1) bis C19 (Zeile 18, Spalte 2) gewählt. Hier berechnen wir unsere Zwischensummen.
 ## Schritt 5: Zwischensummen anwenden
 Dies ist der Kern unserer Operation – das Anwenden des Zwischenergebnisses auf den definierten Zellbereich.
 ```csharp
@@ -60,7 +60,7 @@ cells.Subtotal(ca, 0, ConsolidationFunction.Sum, new int[] { 1 });
  In dieser Zeile nennen wir die`Subtotal` Methode. Die definierten Parameter sind:
 - `ca`: Der Zellbereich, den wir zuvor definiert haben.
 - `0`: Dieser Index verweist auf die Spalte, die die zu subtrahierenden Werte enthält. 
-- `ConsolidationFunction.Sum`: Dies gibt an, dass wir die Werte summieren möchten.
+- `ConsolidationFunction.Sum`Dies gibt an, dass wir die Werte summieren möchten.
 - `new int[] { 1 }`: Dies zeigt an, dass wir die Werte aus der zweiten Spalte (Spalte C) summieren.
 ## Schritt 6: Speichern Sie die geänderte Excel-Datei
 Schließlich müssen wir unsere Änderungen in einer neuen Excel-Datei speichern. 

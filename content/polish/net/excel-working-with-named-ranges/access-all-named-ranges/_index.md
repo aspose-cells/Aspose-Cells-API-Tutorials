@@ -61,7 +61,7 @@ Console.WriteLine("AccessAllNamedRanges executed successfully.");
 ```
 To ostateczne potwierdzenie działa jak poklepanie po plecach i daje ci znać, że zrobiłeś wszystko dobrze!
 ## Wniosek
-Gratulacje! Udało Ci się nauczyć, jak uzyskać dostęp do wszystkich nazwanych zakresów w arkuszu kalkulacyjnym Excel przy użyciu Aspose.Cells dla .NET. Ten przewodnik przeprowadził Cię od podstaw konfiguracji środowiska do bezproblemowego pobierania nazwanych zakresów z pliku Excel. Teraz możesz wykorzystać tę wiedzę, aby udoskonalić swoje umiejętności zarządzania danymi w Excelu. Niezależnie od tego, czy chodzi o projekty osobiste, czy zadania zawodowe, ta możliwość może być przełomowa.
+Gratulacje! Udało Ci się nauczyć, jak uzyskać dostęp do wszystkich nazwanych zakresów w arkuszu kalkulacyjnym Excel przy użyciu Aspose.Cells dla .NET. Ten przewodnik przeprowadził Cię od podstaw konfiguracji środowiska do bezproblemowego pobierania nazwanych zakresów z pliku Excel. Teraz możesz wykorzystać tę wiedzę, aby udoskonalić swoje umiejętności zarządzania danymi w programie Excel. Niezależnie od tego, czy chodzi o projekty osobiste, czy zadania zawodowe, ta możliwość może być przełomowa.
 ## Najczęściej zadawane pytania
 ### Czym są nazwane zakresy w programie Excel?
 Zakresy nazwane umożliwiają przypisanie nazwy określonej komórce lub zakresowi komórek w celu łatwiejszego odwoływania się do nich.

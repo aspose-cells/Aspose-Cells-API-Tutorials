@@ -128,7 +128,7 @@ sheet.Protect(ProtectionType.All);
 book.Save(dataDir + "protectedrange.out.xls");
 ```
 
- Это сохранит вашу защищенную книгу как`protectedrange.out.xls` в указанном вами каталоге.
+Это сохранит вашу защищенную книгу как`protectedrange.out.xls` в указанном вами каталоге.
 
 ## Заключение
 

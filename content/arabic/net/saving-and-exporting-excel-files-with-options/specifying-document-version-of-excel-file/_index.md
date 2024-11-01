@@ -11,7 +11,7 @@ url: /ar/net/saving-and-exporting-excel-files-with-options/specifying-document-v
 Aspose.Cells for .NET هي مكتبة قوية تتيح للمطورين التعامل مع ملفات Excel برمجيًا بسهولة. سواء كنت تبحث عن إنشاء ملفات Excel من البداية أو تعديل ملفات موجودة، توفر Aspose.Cells واجهة برمجة تطبيقات شاملة لتحقيق أهدافك. إحدى هذه الميزات هي تحديد خصائص المستند مثل الإصدار أو المؤلف أو العنوان. سيرشدك هذا البرنامج التعليمي خلال كيفية تحديد إصدار المستند لملف Excel برمجيًا باستخدام Aspose.Cells for .NET.
 ## المتطلبات الأساسية
 قبل أن نتعمق في التفاصيل، دعنا نتأكد من أن لديك كل ما تحتاجه لمتابعة هذا البرنامج التعليمي:
-1.  Aspose.Cells for .NET: يمكنك تنزيل الإصدار الأحدث[هنا](https://releases.aspose.com/cells/net/) إذا لم تقم بشراء ترخيص بعد، فيمكنك اختيار[رخصة مؤقتة](https://purchase.aspose.com/temporary-license/) لاستكشاف الميزات.
+1. Aspose.Cells for .NET: يمكنك تنزيل الإصدار الأحدث[هنا](https://releases.aspose.com/cells/net/) إذا لم تقم بشراء ترخيص بعد، فيمكنك اختيار[رخصة مؤقتة](https://purchase.aspose.com/temporary-license/) لاستكشاف الميزات.
 2. بيئة تطوير .NET: يمكنك استخدام Visual Studio أو أي بيئة تطوير متكاملة متوافقة مع .NET.
 3. المعرفة الأساسية بلغة C#: إن فهم برمجة C# سوف يجعل من السهل متابعتها.
 ## استيراد الحزم
@@ -29,9 +29,9 @@ using System.Text;
 ```csharp
 Workbook wb = new Workbook();
 ```
- ال`Workbook` توفر الفئة تمثيلًا لملف Excel. من خلال إنشائها، نقوم بإنشاء مصنف Excel فارغ يمكننا التعامل معه.
+ ال`Workbook`توفر الفئة تمثيلًا لملف Excel. من خلال إنشائها، نقوم بإنشاء مصنف Excel فارغ يمكننا التعامل معه.
 ## الخطوة 2: الوصول إلى خصائص المستند المضمنة
-يوفر Aspose.Cells خصائص مستند مدمجة، والتي تتضمن حقولاً مثل العنوان والمؤلف وإصدار المستند. يمكنك الوصول إلى هذه الخصائص من خلال`BuiltInDocumentProperties`مجموعة.
+ يوفر Aspose.Cells خصائص مستند مدمجة، والتي تتضمن حقولاً مثل العنوان والمؤلف وإصدار المستند. يمكنك الوصول إلى هذه الخصائص من خلال`BuiltInDocumentProperties`مجموعة.
 ```csharp
 Aspose.Cells.Properties.BuiltInDocumentPropertyCollection bdpc = wb.BuiltInDocumentProperties;
 ```
@@ -59,7 +59,7 @@ bdpc.DocumentVersion = "Aspose.Cells Version - 18.3";
 ```csharp
 wb.Save("outputSpecifyDocumentVersionOfExcelFile.xlsx", SaveFormat.Xlsx);
 ```
- ال`Save` يتم استخدام الطريقة لحفظ الملف في الدليل المحدد. هنا، نقوم بحفظه كملف Excel في`.xlsx` التنسيق. إذا لزم الأمر، يدعم Aspose.Cells أيضًا تنسيقات مثل`.xls`, `.csv` ، و`.pdf`، مما يوفر المرونة بناءً على احتياجات مشروعك.
+ ال`Save` يتم استخدام الطريقة لحفظ الملف في الدليل المحدد. هنا، نقوم بحفظه كملف Excel في`.xlsx`التنسيق. إذا لزم الأمر، يدعم Aspose.Cells أيضًا تنسيقات مثل`.xls`, `.csv` ، و`.pdf`، مما يوفر المرونة بناءً على احتياجات مشروعك.
 ## خاتمة
 في هذا البرنامج التعليمي، شرحنا كيفية تحديد خصائص المستند، وخاصة إصدار المستند، في ملف Excel باستخدام Aspose.Cells for .NET. Aspose.Cells هي أداة مرنة وقوية للغاية تتيح لك التعامل مع ملفات Excel برمجيًا، مما يجعلها أداة رائعة لأي مطور .NET يعمل مع جداول البيانات.
 ## الأسئلة الشائعة

@@ -100,7 +100,7 @@ Agora, vamos mergulhar na planilha específica que contém o gráfico de pizza. 
 Worksheet sheet = workbook.Worksheets[1];
 ```
 
- Ao acessar o`Worksheets`coleção, podemos chegar à planilha específica que precisamos.
+ Ao acessar o`Worksheets` coleção, podemos chegar à planilha específica que precisamos.
 
 ## Etapa 4: Obtenha o gráfico
 

@@ -41,7 +41,7 @@ Nejprve budete muset určit adresář, kde jsou umístěny soubory a obrázky ap
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // Podle toho aktualizujte
 ```
 
- Tento řádek nastavuje`dataDir` proměnná, což je základní cesta pro umístění obrázku, který chcete vložit do záhlaví.
+ Tento řádek nastavuje`dataDir`proměnná, což je základní cesta pro umístění obrázku, který chcete vložit do záhlaví.
 
 ## Krok 2: Vytvoření objektu sešitu
 
@@ -55,7 +55,7 @@ Workbook workbook = new Workbook();
 
 ## Krok 3: Definování cesty obrazu
 
-Je čas vytvořit řetězcovou proměnnou, která bude obsahovat cestu k obrázku, který chcete použít. V našem případě používáme`aspose-logo.jpg`.
+ Je čas vytvořit řetězcovou proměnnou, která bude obsahovat cestu k obrázku, který chcete použít. V našem případě používáme`aspose-logo.jpg`.
 
 ```csharp
 string logo_url = dataDir + "aspose-logo.jpg";

@@ -12,7 +12,7 @@ Aspose.Cells for .NET est une bibliothèque puissante qui permet aux développeu
 ## Prérequis
 Avant de plonger dans le monde passionnant d'Aspose.Cells et de la personnalisation des polices, assurons-nous que vous disposez de tout ce dont vous avez besoin pour commencer :
 1. Connaissances de base de .NET : La familiarité avec la programmation .NET est cruciale car nous travaillerons dans un environnement .NET.
-2.  Aspose.Cells pour .NET : assurez-vous que la bibliothèque Aspose.Cells est installée. Vous pouvez la télécharger[ici](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells pour .NET : assurez-vous que la bibliothèque Aspose.Cells est installée. Vous pouvez la télécharger[ici](https://releases.aspose.com/cells/net/).
 3. Visual Studio : ce guide suppose que vous utilisez Visual Studio comme IDE. Assurez-vous de l'avoir installé et configuré.
 4. Exemple de fichier Excel : préparez un exemple de fichier Excel pour ce didacticiel. Cela vous permettra de mieux comprendre comment les polices personnalisées affectent le rendu de sortie.
 5. Polices personnalisées : préparez un répertoire des polices personnalisées que vous souhaitez utiliser. Cela est essentiel pour tester notre processus de rendu.
@@ -41,7 +41,7 @@ string outputDir = "Your Document Directory";
 string customFontsDir = sourceDir + "CustomFonts";
 ```
 
-Imaginez que vous disposez d'un classeur rempli de documents importants (dans ce cas, des fichiers Excel). La configuration de vos répertoires est comme l'organisation de ce classeur ; elle vous permet de savoir exactement où sont stockés vos fichiers. En définissant les`sourceDir`, `outputDir` , et`customFontsDir`, vous préparez un espace de travail qui rendra votre code plus propre et plus gérable.
+ Imaginez que vous disposez d'un classeur rempli de documents importants (dans ce cas, des fichiers Excel). Configurer vos répertoires revient à organiser ce classeur ; cela vous permet de savoir exactement où sont stockés vos fichiers. En définissant les`sourceDir`, `outputDir` , et`customFontsDir`, vous préparez un espace de travail qui rendra votre code plus propre et plus gérable.
 ## Étape 2 : Spécifier les configurations de polices individuelles
 Ensuite, nous devons créer des configurations de polices individuelles. Cette étape est cruciale pour indiquer à Aspose.Cells où trouver vos polices personnalisées.
 ```csharp
@@ -49,7 +49,7 @@ Ensuite, nous devons créer des configurations de polices individuelles. Cette �
 IndividualFontConfigs fontConfigs = new IndividualFontConfigs();
 fontConfigs.SetFontFolder(customFontsDir, false);
 ```
- Considérez cette étape comme une indication d'itinéraire à donner à un ami qui essaie de trouver un café spécifique. En spécifiant le`customFontsDir`, vous pointez Aspose.Cells vers l'emplacement exact de vos polices. Si la direction est incorrecte (ou si les polices ne sont pas là), vous risquez d'obtenir une sortie PDF insatisfaisante. Assurez-vous donc que votre répertoire de polices est précis !
+ Considérez cette étape comme une indication d'itinéraire à donner à un ami qui essaie de trouver un café spécifique. En spécifiant le`customFontsDir`vous pointez Aspose.Cells vers l'emplacement exact de vos polices. Si la direction est incorrecte (ou si les polices ne sont pas là), vous risquez d'obtenir une sortie PDF insatisfaisante. Assurez-vous donc que votre répertoire de polices est précis !
 ## Étape 3 : définir les options de chargement
 Il est maintenant temps de définir les options de chargement qui intègrent nos paramètres de police dans le classeur.
 ```csharp
@@ -64,11 +64,11 @@ Avec nos options de chargement fermement en place, chargeons le fichier Excel qu
 // Chargez le fichier Excel d’exemple avec les configurations de polices individuelles.
 Workbook wb = new Workbook(sourceDir + "sampleSpecifyIndividualOrPrivateSetOfFontsForWorkbookRendering.xlsx", opts);
 ```
- Cette étape s'apparente à l'ouverture de votre livre préféré. Ici, vous indiquez à Aspose.Cells avec quel fichier Excel travailler. En utilisant le`Workbook` classe et les options de chargement spécifiées, vous ouvrez essentiellement le couvercle et plongez dans le contenu, prêt à apporter des modifications.
+ Cette étape s'apparente à l'ouverture de votre livre préféré. Ici, vous indiquez à Aspose.Cells avec quel fichier Excel travailler. En utilisant le`Workbook`classe et les options de chargement spécifiées, vous ouvrez essentiellement le couvercle et plongez dans le contenu, prêt à apporter des modifications.
 ## Étape 5 : Enregistrer le classeur au format souhaité
 Enfin, il est temps d'enregistrer le classeur modifié au format souhaité (PDF dans ce cas).
 ```csharp
-//Enregistrer au format PDF.
+// Enregistrer au format PDF.
 wb.Save(outputDir + "outputSpecifyIndividualOrPrivateSetOfFontsForWorkbookRendering.pdf", SaveFormat.Pdf);
 ```
 C'est comme si vous remettez votre livre sur l'étagère après l'avoir lu, mais dans un format différent. En enregistrant le classeur au format PDF, vous vous assurez que le rendu est effectué avec les polices spécifiées intactes, ce qui le rend présentable et professionnel.
@@ -85,7 +85,7 @@ Et voilà ! Spécifier les polices pour le rendu du classeur avec Aspose.Cells p
 Aspose.Cells pour .NET est une bibliothèque puissante permettant aux développeurs de travailler avec des formats de fichiers Excel, notamment en créant, modifiant et convertissant des documents Excel par programmation.
 ### Ai-je besoin d'une licence pour utiliser Aspose.Cells ?  
  Oui, vous aurez besoin d'une licence pour une utilisation commerciale. Cependant, vous pouvez commencer avec un essai gratuit disponible[ici](https://releases.aspose.com/).
-### Puis-je utiliser n’importe quelle police avec Aspose.Cells ?  
+### Puis-je utiliser n'importe quelle police avec Aspose.Cells ?  
 En général, oui ! Vous pouvez utiliser n'importe quelle police installée sur votre système ou incluse dans votre dossier de polices personnalisées.
 ### Que se passe-t-il si je ne spécifie pas le dossier de polices ?  
 Si vous ne spécifiez pas le dossier de polices ou si le dossier est incorrect, le PDF de sortie risque de ne pas restituer correctement les polices souhaitées.

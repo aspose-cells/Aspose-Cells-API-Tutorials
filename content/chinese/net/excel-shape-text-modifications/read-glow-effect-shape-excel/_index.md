@@ -19,7 +19,7 @@ url: /zh/net/excel-shape-text-modifications/read-glow-effect-shape-excel/
 一旦一切设置完毕，我们就可以进入实际的编码部分！
 ## 导入包
 使用 Aspose.Cells 的第一步是在 C# 文件顶部导入必要的命名空间。这很重要，因为它会告诉您的应用程序在哪里可以找到 Aspose.Cells 库定义的类和方法。
-具体操作如下：
+操作方法如下：
 ```csharp
 using System.IO;
 using Aspose.Cells;

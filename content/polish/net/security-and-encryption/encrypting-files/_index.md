@@ -12,7 +12,7 @@ W dzisiejszym cyfrowym świecie bezpieczeństwo danych jest priorytetem. Niezale
 ## Wymagania wstępne
 Zanim zagłębisz się w kod, upewnijmy się, że masz wszystko, czego potrzebujesz, aby zacząć. Oto lista kontrolna:
 1. .NET Framework: Upewnij się, że masz zainstalowaną zgodną wersję .NET Framework. Aspose.Cells dobrze współpracuje z wersjami .NET, więc wybierz taką, która pasuje do Twojego projektu.
-2.  Biblioteka Aspose.Cells: Pobierz bibliotekę Aspose.Cells z[strona do pobrania](https://releases.aspose.com/cells/net/). Ta potężna biblioteka pozwoli Ci bez wysiłku manipulować plikami Excela i je szyfrować.
+2.  Biblioteka Aspose.Cells: Pobierz bibliotekę Aspose.Cells z[strona do pobrania](https://releases.aspose.com/cells/net/)Ta potężna biblioteka pozwoli Ci bez wysiłku manipulować plikami Excela i je szyfrować.
 3. Visual Studio: Dobre środowisko IDE ułatwia pracę, dlatego upewnij się, że masz zainstalowany program Visual Studio (lub inne środowisko IDE zgodne z platformą .NET) na potrzeby prac programistycznych.
 4. Podstawowa znajomość języka C#: Ciasto jest łatwiejsze do upieczenia, jeśli wiesz, jak odmierzać składniki, prawda? Podobnie, odrobina wiedzy o języku C# pomoże ci zrozumieć, jak skutecznie zakodować to zadanie.
 Gdy już odhaczysz te punkty, będziesz gotowy pójść dalej!
@@ -53,7 +53,7 @@ Masz wybór, jeśli chodzi o szyfrowanie w Aspose.Cells. W tym przykładzie usta
 ```csharp
 // Określ typ szyfrowania XOR.
 workbook.SetEncryptionOptions(EncryptionType.XOR, 40);
-// Określ typ silnego szyfrowania (RC4, Microsoft Strong Cryptographic Provider).
+//Określ typ silnego szyfrowania (RC4, Microsoft Strong Cryptographic Provider).
 workbook.SetEncryptionOptions(EncryptionType.StrongCryptographicProvider, 128);
 ```
 Pomyśl o tych opcjach jak o rodzajach zamków, których możesz użyć — niektóre są krótsze i łatwiejsze do otwarcia (XOR), podczas gdy inne są znacznie bardziej wymagające (silny dostawca szyfrów).
@@ -68,9 +68,9 @@ Na koniec zapiszemy zmiany i utworzymy zaszyfrowany plik.
 ```csharp
 workbook.Save(dataDir + "encryptedBook1.out.xls");
 ```
- Ta linia kodu zapisuje skoroszyt jako`encryptedBook1.out.xls` podanym przez Ciebie katalogu. To tak, jakby odłożyć książkę na półkę, bezpiecznie zamkniętą!
+ Ta linia kodu zapisuje skoroszyt jako`encryptedBook1.out.xls` w podanym przez Ciebie katalogu. To tak, jakby odłożyć książkę na półkę, bezpiecznie zamkniętą!
 ## Wniosek
-I gotowe! Właśnie nauczyłeś się szyfrować plik Excela za pomocą Aspose.Cells w .NET. Postępując zgodnie z tymi krokami, zapewniasz, że Twoje poufne dane są dobrze chronione. Pamiętaj tylko — ochrona zaczyna się od Ciebie, więc zawsze podejmuj niezbędne kroki, aby zabezpieczyć swoje informacje. 
+gotowe! Właśnie nauczyłeś się szyfrować plik Excela za pomocą Aspose.Cells w .NET. Postępując zgodnie z tymi krokami, zapewniasz, że Twoje poufne dane są dobrze chronione. Pamiętaj tylko — ochrona zaczyna się od Ciebie, więc zawsze podejmuj niezbędne kroki, aby zabezpieczyć swoje informacje. 
 ## Najczęściej zadawane pytania
 ### Czym jest Aspose.Cells?
 Aspose.Cells to potężna biblioteka .NET służąca do zarządzania plikami Excela i przetwarzania ich.

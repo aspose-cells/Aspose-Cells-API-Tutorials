@@ -16,7 +16,7 @@ A .NET-alkalmazások fejlesztéséhez a Visual Studio működőképes telepíté
 ### Aspose.Cells for .NET
  Le kell töltenie az Aspose.Cells könyvtárat. Megfoghatod[itt](https://releases.aspose.com/cells/net/). Az új funkciók és javítások kihasználásához elengedhetetlen a legújabb verzió használata.
 ### C# alapismeretek
-A C# és a .NET keretrendszer alapvető ismerete hasznos lesz. Ne aggódjon, ha nem szakértő; végigvezetjük az egyes kódsorokon.
+C# és a .NET keretrendszer alapvető ismerete hasznos lesz. Ne aggódjon, ha nem szakértő; végigvezetjük az egyes kódsorokon.
 ### Az Ön dokumentumkönyvtára
 Szükség lehet egy adott könyvtárra az Excel-fájlok tárolásához. Állítsa be, hogy elkerülje az útvonallal kapcsolatos problémákat.
 Most, hogy az előfeltételeinket rendeztük, térjünk át a dolgok gyakorlati oldalára!

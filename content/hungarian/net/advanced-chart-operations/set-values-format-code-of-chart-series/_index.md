@@ -1,6 +1,6 @@
 ---
-title: Értékek beállítása Diagramsorozat kódja
-linktitle: Értékek beállítása Diagramsorozat kódja
+title: Értékek beállítása Diagramsorozat formátumkódja
+linktitle: Értékek beállítása Diagramsorozat formátumkódja
 second_title: Aspose.Cells .NET Excel Processing API
 description: Ezzel a részletes, lépésenkénti oktatóanyaggal megtudhatja, hogyan állíthat be értékeket a diagramsorozatok formátumkódjának beállításához az Aspose.Cells for .NET-ben. Tökéletes kezdőknek.
 type: docs

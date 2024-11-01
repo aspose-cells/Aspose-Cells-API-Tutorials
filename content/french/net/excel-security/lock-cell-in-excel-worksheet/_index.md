@@ -71,7 +71,7 @@ Il est maintenant temps de verrouiller une cellule spécifique de votre feuille 
 worksheet.Cells["A1"].GetStyle().IsLocked = true;
 ```
 
-Cette commande simple empêche quiconque d'apporter des modifications à la cellule « A1 ». C'est un peu comme si vous mettiez un panneau « Ne pas toucher » sur votre dessert préféré !
+Cette commande simple empêche quiconque d'apporter des modifications à la cellule « A1 ». Pensez-y comme si vous mettiez un panneau « Ne pas toucher » sur votre dessert préféré !
 
 ## Étape 5 : Protégez la feuille de calcul
 

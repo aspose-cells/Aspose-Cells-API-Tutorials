@@ -16,7 +16,7 @@ Das Erstellen dynamischer und optisch ansprechender Diagramme in Excel ist eine 
 Bevor wir mit dem Programmieren beginnen, sollten Sie einige Dinge vorbereitet haben:
 
 - Grundlegende Kenntnisse in C#: Grundlegende Kenntnisse der C#-Programmierung sind hilfreich. Keine Sorge, Sie müssen kein Experte sein, sondern nur mit der Syntax vertraut sein.
--  Installierte Aspose.Cells-Bibliothek: Stellen Sie sicher, dass Sie die Aspose.Cells für .NET-Bibliothek installiert haben. Sie können sie herunterladen von[Hier](https://releases.aspose.com/cells/net/)falls Sie das nicht bereits getan haben.
+-  Installierte Aspose.Cells-Bibliothek: Stellen Sie sicher, dass Sie die Aspose.Cells für .NET-Bibliothek installiert haben. Sie können sie herunterladen von[Hier](https://releases.aspose.com/cells/net/) falls Sie das nicht bereits getan haben.
 - Visual Studio: Vertrautheit mit Visual Studio oder einer anderen IDE, die Sie für das .NET-Framework verwenden möchten, ist unbedingt erforderlich.
 - Eine vorhandene Excel-Datei: Für dieses Beispiel arbeiten wir mit einer vorhandenen Excel-Datei namens „sampleAddingTextBoxControlInChart.xls“. Sie können eine erstellen oder ein Beispiel herunterladen.
 
@@ -151,7 +151,7 @@ Aspose.Cells für .NET ist eine leistungsstarke Bibliothek zum Erstellen, Bearbe
 Ja! Sie können so viele Textfelder hinzufügen, wie Sie benötigen, indem Sie die Schritte zum Erstellen des Textfelds an unterschiedlichen Positionen wiederholen.
 
 ### Ist die Nutzung von Aspose.Cells kostenlos?
- Aspose.Cells ist eine kostenpflichtige Bibliothek, aber Sie können eine kostenlose Testversion herunterladen von[Hier](https://releases.aspose.com/).
+Aspose.Cells ist eine kostenpflichtige Bibliothek, aber Sie können eine kostenlose Testversion herunterladen von[Hier](https://releases.aspose.com/).
 
 ### Wo finde ich weitere Dokumentation zu Aspose.Cells?
  Sie haben Zugriff auf eine umfassende Dokumentation[Hier](https://reference.aspose.com/cells/net/).

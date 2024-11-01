@@ -154,7 +154,7 @@ Aspose.Cells は、PNG、JPEG、BMP、GIF など、さまざまな画像形式�
 確かに！XとY座標は`AddPictureInChart`正確な位置決めを可能にする方法。
 
 ### Aspose.Cells は無料で使用できますか?
- Aspose.Cellsは無料トライアルを提供していますが、フル機能を使用するにはライセンスが必要です。価格については[ここ](https://purchase.aspose.com/buy).
+Aspose.Cellsは無料トライアルを提供していますが、フル機能を使用するにはライセンスが必要です。価格については[ここ](https://purchase.aspose.com/buy).
 
 ### もっと多くの例はどこで見つかりますか?
 チェックしてください[Aspose.Cells ドキュメント](https://reference.aspose.com/cells/net/)より詳細な例と機能については、こちらをご覧ください。

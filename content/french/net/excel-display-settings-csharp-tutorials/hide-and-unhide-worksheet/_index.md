@@ -25,7 +25,7 @@ Une fois ces exigences vérifiées, vous êtes prêt à partir !
 
 ## Paquets d'importation
 
-Avant de vous lancer dans le code, vous devrez importer le package Aspose.Cells nécessaire. Cela vous permet d'utiliser toutes les fonctionnalités géniales offertes par la bibliothèque. Démarrez simplement votre fichier C# avec les directives suivantes :
+Avant de vous lancer dans le code, vous devrez importer le package Aspose.Cells nécessaire. Cela vous permet d'utiliser toutes les fonctionnalités impressionnantes offertes par la bibliothèque. Démarrez simplement votre fichier C# avec les directives suivantes :
 
 ```csharp
 using System.IO;

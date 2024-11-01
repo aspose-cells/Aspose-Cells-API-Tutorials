@@ -43,7 +43,7 @@ using System.Drawing;r
 string dataDir = "Your Document Directory"; //在此指定您的目錄
 ```
 
-說明：該行初始化一個`dataDir`多變的。你應該更換`"Your Document Directory"`替換為您電腦上要儲存 Excel 檔案的實際路徑。將此視為為展示您的傑作奠定了基礎！
+說明：該行初始化一個`dataDir`多變的。你應該更換`"Your Document Directory"`與您電腦上要儲存 Excel 檔案的實際路徑。將此視為為展示您的傑作奠定了基礎！
 
 ## 第 2 步：實例化新工作簿
 

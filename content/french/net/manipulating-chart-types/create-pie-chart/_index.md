@@ -19,7 +19,7 @@ Avant de plonger dans le code, assurez-vous d'avoir configuré les éléments su
 2. Environnement de développement .NET : assurez-vous que votre projet est configuré pour utiliser .NET Framework ou .NET Core.
 3. Connaissances de base de C# : vous devez être à l'aise avec la programmation C#, en particulier la programmation orientée objet (POO).
 
-Pour les utilisateurs avancés, une licence temporaire peut être appliquée pour déverrouiller toutes les fonctionnalités d'Aspose.Cells. Vous pouvez en demander une à[ici](https://purchase.aspose.com/temporary-license/).
+ Pour les utilisateurs avancés, une licence temporaire peut être appliquée pour déverrouiller toutes les fonctionnalités d'Aspose.Cells. Vous pouvez en demander une à[ici](https://purchase.aspose.com/temporary-license/).
 
 ## Paquets d'importation
 
@@ -100,7 +100,7 @@ int chartIndex = chartSheet.Charts.Add(Aspose.Cells.Charts.ChartType.Pie, 5, 0, 
 Aspose.Cells.Charts.Chart chart = chartSheet.Charts[chartIndex];
 ```
 
- La méthode`Add()` accepte des paramètres pour le type de graphique (dans ce cas,`ChartType.Pie`) et son emplacement sur la feuille de calcul. Les nombres représentent les positions des lignes et des colonnes.
+ La méthode`Add()`accepte des paramètres pour le type de graphique (dans ce cas,`ChartType.Pie`) et son emplacement sur la feuille de calcul. Les nombres représentent les positions des lignes et des colonnes.
 
 ## Étape 5 : Personnaliser l’apparence du graphique
 
@@ -187,7 +187,7 @@ Créer un graphique à secteurs avec Aspose.Cells pour .NET est un processus sim
 Oui ! Aspose.Cells prend en charge différents types de graphiques, notamment les graphiques à barres, les graphiques linéaires et les nuages de points.
 
 ### Ai-je besoin d'une licence payante pour utiliser Aspose.Cells pour .NET ?
- Vous pouvez utiliser la version gratuite avec certaines limitations. Pour bénéficier de toutes les fonctionnalités, vous aurez besoin d'une licence, que vous pouvez acheter[ici](https://purchase.aspose.com/buy).
+Vous pouvez utiliser la version gratuite avec certaines limitations. Pour bénéficier de toutes les fonctionnalités, vous aurez besoin d'une licence, que vous pouvez acheter[ici](https://purchase.aspose.com/buy).
 
 ### Puis-je exporter le graphique vers des formats tels que PDF ou des images ?
 Absolument ! Aspose.Cells vous permet d'exporter des graphiques vers différents formats, notamment PDF et PNG.

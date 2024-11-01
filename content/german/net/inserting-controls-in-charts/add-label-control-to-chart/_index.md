@@ -16,7 +16,7 @@ Diagramme sind eine leistungsstarke Möglichkeit, Daten zu visualisieren, und ma
 Bevor wir ins Detail gehen, klären wir, was Sie für den Anfang brauchen:
 
 - Grundkenntnisse in C#: Es ist wichtig, die Grundlagen der C#-Programmierung zu verstehen. Wenn Sie Anfänger sind, machen Sie sich keine Sorgen – die Schritte sind klar und prägnant.
--  Aspose.Cells-Bibliothek: Stellen Sie sicher, dass Sie die Aspose.Cells-Bibliothek installiert haben. Sie können dies über den NuGet-Paket-Manager in Visual Studio tun. Wenn Sie dies noch nicht getan haben, sehen Sie sich die[Downloadlink](https://releases.aspose.com/cells/net/) für die Bibliothek.
+- Aspose.Cells-Bibliothek: Stellen Sie sicher, dass Sie die Aspose.Cells-Bibliothek installiert haben. Sie können dies über den NuGet-Paket-Manager in Visual Studio tun. Wenn Sie dies noch nicht getan haben, sehen Sie sich die[Downloadlink](https://releases.aspose.com/cells/net/) für die Bibliothek.
 - Visual Studio: Sie benötigen eine integrierte Entwicklungsumgebung (IDE) wie Visual Studio, um Ihren Code zu schreiben und auszuführen.
 
 ## Pakete importieren

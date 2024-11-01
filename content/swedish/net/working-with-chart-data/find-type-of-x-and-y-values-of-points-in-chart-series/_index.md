@@ -9,7 +9,7 @@ url: /sv/net/working-with-chart-data/find-type-of-x-and-y-values-of-points-in-ch
 ---
 ## Introduktion
 
-Att skapa meningsfulla diagram och visuella datarepresentationer är viktigt i dataanalys. Med funktioner som är tillgängliga i bibliotek som Aspose.Cells för .NET kan du fördjupa dig i egenskaperna för diagramserier, särskilt X- och Y-värdena för datapunkter. I den här självstudien kommer vi att utforska hur du bestämmer typerna av dessa värden, vilket gör att du bättre kan förstå och manipulera dina datavisualiseringar.
+Att skapa meningsfulla diagram och visuella datarepresentationer är viktigt i dataanalys. Med funktioner som är tillgängliga i bibliotek som Aspose.Cells för .NET kan du fördjupa dig i egenskaperna för diagramserier, särskilt X- och Y-värdena för datapunkter. I den här handledningen kommer vi att undersöka hur du bestämmer typerna av dessa värden, vilket gör att du bättre kan förstå och manipulera dina datavisualiseringar.
 
 ## Förutsättningar
 

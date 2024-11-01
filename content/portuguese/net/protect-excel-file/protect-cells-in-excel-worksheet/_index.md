@@ -16,7 +16,7 @@ No mundo digital de hoje, gerenciar dados com segurança em planilhas é mais cr
 Antes de mergulhar nos detalhes da proteção de células, há alguns pré-requisitos que você deve ter em mente:
 
 1. Visual Studio: Certifique-se de ter o Visual Studio instalado no seu computador. É o IDE primário para desenvolvimento .NET.
-2. Biblioteca Aspose.Cells: Você precisa ter a biblioteca Aspose.Cells disponível em seu projeto. Você pode instalá-la facilmente por meio do NuGet Package Manager ou baixá-la diretamente do[Site Aspose.Cells](https://releases.aspose.com/cells/net/).
+2.  Biblioteca Aspose.Cells: Você precisa ter a biblioteca Aspose.Cells disponível em seu projeto. Você pode instalá-la facilmente por meio do NuGet Package Manager ou baixá-la diretamente do[Site Aspose.Cells](https://releases.aspose.com/cells/net/).
 3. Conhecimento básico de C#: Um pouco de familiaridade com a programação em C# ajudará você a acompanhar sem problemas.
 
 ## Importando Pacotes
@@ -88,7 +88,7 @@ Para garantir que apenas células específicas sejam bloqueadas, você precisa c
 for (int i = 0; i <= 255; i++)
 {
     Style style = sheet.Cells.Columns[(byte)i].Style;
-    style.IsLocked = false; //Desbloquear coluna
+    style.IsLocked = false; // Desbloquear coluna
     StyleFlag styleflag = new StyleFlag();
     styleflag.Locked = true; // Indica que queremos bloquear este estilo
     sheet.Cells.Columns[(byte)i].ApplyStyle(style, styleflag);
@@ -139,7 +139,7 @@ Esta linha salva sua pasta de trabalho como um arquivo Excel. Certifique-se de e
 
 ## Conclusão
 
-E aí está! Você aprendeu com sucesso a proteger células específicas em uma planilha do Excel usando o Aspose.Cells para .NET. Com apenas algumas linhas de código, você pode proteger seus dados, garantindo que apenas as pessoas certas tenham acesso para editar informações críticas. Lembre-se, a proteção de células é apenas um dos muitos recursos oferecidos pelo Aspose.Cells para ajudar a gerenciar e manipular arquivos do Excel de forma eficiente.
+aí está! Você aprendeu com sucesso a proteger células específicas em uma planilha do Excel usando o Aspose.Cells para .NET. Com apenas algumas linhas de código, você pode proteger seus dados, garantindo que apenas as pessoas certas tenham acesso para editar informações críticas. Lembre-se, a proteção de células é apenas um dos muitos recursos oferecidos pelo Aspose.Cells para ajudar a gerenciar e manipular arquivos do Excel de forma eficiente.
 
 ## Perguntas frequentes
 

@@ -29,7 +29,7 @@ Per iniziare, dobbiamo definire dove si trova il nostro file Excel. È qui che c
 ```csharp
 string dataDir = "Your Document Directory";
 ```
- Sostituire`"Your Document Directory"` con il percorso effettivo in cui ti trovi`book1.xls`viene memorizzato. Questo indica al programma dove trovare il file Excel che manipoleremo.
+ Sostituire`"Your Document Directory"` con il percorso effettivo in cui ti trovi`book1.xls` viene memorizzato. Questo indica al programma dove trovare il file Excel che manipoleremo.
 ## Passaggio 2: creare una nuova cartella di lavoro
 Successivamente, creeremo una nuova istanza dell'oggetto Workbook. Questo ci consentirà di aprire e modificare il nostro file Excel.
 ```csharp
@@ -51,7 +51,7 @@ ca.StartColumn = 1;
 ca.EndRow = 18; // C19
 ca.EndColumn = 2;
 ```
- Qui definiamo un`CellArea`che specifica l'intervallo che ci interessa. In questo caso, abbiamo scelto l'area da B3 (Riga 2, Colonna 1) a C19 (Riga 18, Colonna 2). È qui che calcoleremo i nostri subtotali.
+ Qui definiamo un`CellArea` che specifica l'intervallo che ci interessa. In questo caso, abbiamo scelto l'area da B3 (Riga 2, Colonna 1) a C19 (Riga 18, Colonna 2). È qui che calcoleremo i nostri subtotali.
 ## Passaggio 5: applicare i subtotali
 Questo è il cuore della nostra operazione: applicare il subtotale all'area della cella definita.
 ```csharp
@@ -60,7 +60,7 @@ cells.Subtotal(ca, 0, ConsolidationFunction.Sum, new int[] { 1 });
  In questa linea, chiamiamo il`Subtotal` metodo. I parametri definiti sono:
 - `ca`: L'intervallo di celle che abbiamo definito in precedenza.
 - `0`: Questo indice si riferisce alla colonna che contiene i valori da subtotare. 
-- `ConsolidationFunction.Sum`: Questo specifica che vogliamo sommare i valori.
+- `ConsolidationFunction.Sum`Questo specifica che vogliamo sommare i valori.
 - `new int[] { 1 }`: Ciò indica che stiamo sommando i valori della seconda colonna (colonna C).
 ## Passaggio 6: salvare il file Excel modificato
 Infine, dobbiamo salvare le modifiche in un nuovo file Excel. 

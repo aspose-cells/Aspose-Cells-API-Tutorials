@@ -16,7 +16,7 @@ Grafy představují účinný způsob vizualizace dat a někdy může přidání
 Než se ponoříme do toho nejnutnějšího, pojďme si probrat, co potřebujete, abyste mohli začít:
 
 - Základní znalost C#: Je důležité porozumět základům programování v C#. Pokud jste začátečník, nebojte se – kroky budou jasné a stručné.
--  Knihovna Aspose.Cells: Ujistěte se, že máte nainstalovanou knihovnu Aspose.Cells. Můžete to udělat prostřednictvím NuGet Package Manager v sadě Visual Studio. Pokud jste tak ještě neučinili, podívejte se na[odkaz ke stažení](https://releases.aspose.com/cells/net/) pro knihovnu.
+- Knihovna Aspose.Cells: Ujistěte se, že máte nainstalovanou knihovnu Aspose.Cells. Můžete to udělat prostřednictvím NuGet Package Manager v sadě Visual Studio. Pokud jste tak ještě neučinili, podívejte se na[odkaz ke stažení](https://releases.aspose.com/cells/net/) pro knihovnu.
 - Visual Studio: K psaní a spouštění kódu budete potřebovat integrované vývojové prostředí (IDE), jako je Visual Studio.
 
 ## Importujte balíčky
@@ -73,7 +73,7 @@ Nyní, když máme náš sešit, přistupme k listu obsahujícímu graf. Budeme 
 Worksheet sheet = workbook.Worksheets[0];
 ```
 
-Tento krok je o navigaci v budově. Máte klíč (sešit), ale nyní musíte najít svůj pokoj (pracovní list).
+Tento krok je celý o navigaci v budově. Máte klíč (sešit), ale nyní musíte najít svůj pokoj (pracovní list).
 
 ## Krok 4: Získejte graf
 
@@ -141,7 +141,7 @@ Je to jako odhalit svůj hotový produkt světu, připravený k potlesku!
 
 ## Závěr
 
-tady to máte! Úspěšně jste přidali ovládací prvek štítku do grafu pomocí Aspose.Cells pro .NET. Pomocí pouhých několika řádků kódu jste zlepšili jasnost reprezentace vizuálních dat, takže je mnohem informativnější. Pamatujte, že ať už připravujete prezentaci nebo se ponoříte do analýzy dat, tyto štítky mohou být neocenitelnými nástroji.
+A tady to máte! Úspěšně jste přidali ovládací prvek štítku do grafu pomocí Aspose.Cells pro .NET. Pomocí pouhých několika řádků kódu jste zlepšili jasnost reprezentace vizuálních dat, takže je mnohem informativnější. Pamatujte, že ať už připravujete prezentaci nebo se ponoříte do analýzy dat, tyto štítky mohou být neocenitelnými nástroji.
 
 ## FAQ
 

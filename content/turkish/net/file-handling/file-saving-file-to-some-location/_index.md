@@ -12,7 +12,7 @@ url: /tr/net/file-handling/file-saving-file-to-some-location/
 ## Ön koşullar
 Koda geçmeden önce, sorunsuz bir şekilde takip edebilmeniz için gereken her şeyle sizi donatalım. Sahip olmanız gerekenler şunlardır:
 1. Visual Studio: Makinenizde Visual Studio'nun yüklü olduğundan emin olun. .NET uygulamamızı yazacağımız ve test edeceğimiz yer burası.
-2. Aspose.Cells Kütüphanesi: Aspose.Cells kütüphanesini indirmeniz gerekecek. En son sürümü edinebilirsiniz[Burada](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells Kütüphanesi: Aspose.Cells kütüphanesini indirmeniz gerekecek. En son sürümü edinebilirsiniz[Burada](https://releases.aspose.com/cells/net/).
 3. .NET Framework: Aspose.Cells için uyumlu bir .NET Framework sürümünüz olduğundan emin olun; bu sürüm genellikle .NET Framework 4.0 ve üzeri sürümlerle çalışır.
 4. C#'ın Temel Anlayışı: C# programlamanın temellerini kavramak faydalı olacaktır. Endişelenmeyin; her şeyi adım adım açıklayacağız!
 5.  Dosya Yolu: Çıktı dosyalarını nereye kaydetmek istediğinize karar verin. Adlı bir dizin oluşturun`Your Document Directory` basitlik adına.
@@ -47,9 +47,9 @@ Bazen, uyumluluk için dosyalarınızı daha eski bir biçimde kaydetmeniz gerek
 // Excel 97–2003 biçiminde kaydet
 workbook.Save(dataDir + "output.xls");
 ```
- Bu satır, çalışma kitabınızı kullanarak kaydeder`.xls`2007 öncesi sürümler için Excel formatı olan uzantı. Bu, daha yaşlı bir alıcıya ulaştığından emin olmak için posta servisi aracılığıyla bir mektup göndermek gibidir!
+ Bu satır, çalışma kitabınızı kullanarak kaydeder`.xls` 2007 öncesi sürümler için Excel formatı olan uzantı. Bu, daha yaşlı bir alıcıya ulaştığından emin olmak için posta servisi aracılığıyla bir mektup göndermek gibidir!
 ## Adım 4: Excel 2007 Biçiminde Kaydetme
- Excel 2007 ve sonraki sürümlerdeki özellikleri kullanmayı hedefliyorsanız,`.xlsx` biçimi gidilecek yoldur. İşte nasıl:
+Excel 2007 ve sonraki sürümlerdeki özellikleri kullanmayı hedefliyorsanız,`.xlsx` biçimi gidilecek yoldur. İşte nasıl:
 ```csharp
 // Excel 2007 xlsx biçiminde kaydet
 workbook.Save(dataDir + "output.xlsx");

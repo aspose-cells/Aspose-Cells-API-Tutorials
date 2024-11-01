@@ -105,4 +105,4 @@ Assolutamente! Puoi personalizzare il messaggio di errore, il titolo e l'aspetto
 
 ### Esistono limitazioni alla convalida condizionale dei dati in Aspose.Cells per Java?
 
-Sebbene Aspose.Cells per Java offra solide funzionalità di convalida dei dati, è essenziale rivedere la documentazione per eventuali limitazioni o considerazioni specifiche quando si implementano regole di convalida complesse.
+Sebbene Aspose.Cells per Java fornisca solide funzionalità di convalida dei dati, è essenziale rivedere la documentazione per eventuali limitazioni o considerazioni specifiche quando si implementano regole di convalida complesse.

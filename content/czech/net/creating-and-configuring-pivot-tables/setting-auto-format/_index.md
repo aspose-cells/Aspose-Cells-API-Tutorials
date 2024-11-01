@@ -2,7 +2,7 @@
 title: Nastavení automatického formátu kontingenční tabulky programově v .NET
 linktitle: Nastavení automatického formátu kontingenční tabulky programově v .NET
 second_title: Aspose.Cells .NET Excel Processing API
-description: V tomto podrobném podrobném návodu se dozvíte, jak programově nastavit automatický formát pro kontingenční tabulky Excel pomocí Aspose.Cells for .NET.
+description: V tomto podrobném podrobném kurzu se dozvíte, jak programově nastavit automatický formát pro kontingenční tabulky Excel pomocí Aspose.Cells for .NET.
 type: docs
 weight: 18
 url: /cs/net/creating-and-configuring-pivot-tables/setting-auto-format/

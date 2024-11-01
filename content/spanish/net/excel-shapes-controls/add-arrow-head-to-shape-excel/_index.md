@@ -30,7 +30,7 @@ Ahora, dividamos el proceso en pasos simples y manejables.
 ## Paso 1: Configurar el entorno del proyecto
 Primero, abre tu IDE (como Visual Studio) y crea un nuevo proyecto C#. Puedes elegir una aplicación de consola, ya que esto nos permitirá ejecutar el código directamente desde la terminal.
 
-A continuación, asegúrese de que se haga referencia a Aspose.Cells en su proyecto. Si utiliza NuGet, puede agregarlo fácilmente a través de la consola del administrador de paquetes con el siguiente comando:
+continuación, asegúrese de que se haga referencia a Aspose.Cells en su proyecto. Si utiliza NuGet, puede agregarlo fácilmente a través de la consola del administrador de paquetes con el siguiente comando:
 ```bash
 Install-Package Aspose.Cells
 ```

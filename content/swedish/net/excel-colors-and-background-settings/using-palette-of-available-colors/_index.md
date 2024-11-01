@@ -18,7 +18,7 @@ Har du någonsin stirrat på ett intetsägande, monokromt kalkylblad och önskat
 
 ## Importera paket
 
- Dessutom måste du importera vissa systemnamnrymder som`System.IO` för filmanipulering. 
+ Dessutom måste du importera några systemnamnrymder som`System.IO` för filmanipulering. 
 
 ```csharp
 using System.IO;
@@ -96,7 +96,7 @@ cell.PutValue("Hello Aspose!");
 
 Nu när du har din målarpensel (cellreferens) är det dags att lägga till lite innehåll på duken. Denna rad infogar texten "
 
-## Steg 7: Applicera den anpassade färgen
+## Steg 7: Använd den anpassade färgen
 
 ```csharp
 // Skapa ett nytt Style-objekt

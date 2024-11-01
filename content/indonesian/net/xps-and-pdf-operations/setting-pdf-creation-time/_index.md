@@ -15,7 +15,7 @@ Sebelum kita masuk ke inti kode, mari pastikan Anda memiliki semua yang dibutuhk
 1. Visual Studio: Pastikan Anda telah menginstal Visual Studio di komputer Anda. Ini akan menjadi lingkungan pengembangan Anda.
 2.  Aspose.Cells untuk .NET: Unduh pustaka Aspose.Cells dari[situs web](https://releases.aspose.com/cells/net/)Anda juga dapat memulai dengan uji coba gratis untuk menguji fungsinya.
 3. Pengetahuan Dasar C#: Keakraban dengan pemrograman C# akan membantu Anda memahami potongan kode dengan lebih baik.
-4. File Excel: Siapkan file Excel untuk konversi. Untuk contoh ini, kami akan menggunakan file bernama`Book1.xlsx`.
+4.  File Excel: Siapkan file Excel untuk konversi. Untuk contoh ini, kami akan menggunakan file bernama`Book1.xlsx`.
 Sekarang setelah Anda menyiapkan prasyaratnya, mari masuk ke bagian yang menyenangkan—mengimpor paket yang diperlukan dan menulis kode!
 ## Paket Impor
 Untuk memulai, Anda perlu mengimpor namespace yang diperlukan dalam berkas C# Anda. Hal ini penting karena memungkinkan Anda mengakses kelas dan metode yang disediakan oleh pustaka Aspose.Cells.

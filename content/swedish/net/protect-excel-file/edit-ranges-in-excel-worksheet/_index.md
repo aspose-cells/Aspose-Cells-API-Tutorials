@@ -95,7 +95,7 @@ int idx = allowRanges.Add("r2", 1, 1, 3, 3);
 proteced_range = allowRanges[idx];
 ```
 
-I ovanstående kod skapar vi ett skyddat intervall som heter "r2" som tillåter redigering i cellerna från rad 1, kolumn 1 till rad 3, kolumn 3 (vilket i Excel-språk översätts till ett block av A1 till C3). Du kan justera dessa index efter behov.
+ovanstående kod skapar vi ett skyddat intervall som heter "r2" som tillåter redigering i cellerna från rad 1, kolumn 1 till rad 3, kolumn 3 (vilket i Excel-språk översätts till ett block av A1 till C3). Du kan justera dessa index efter behov.
 
 ## Steg 6: Ange ett lösenord 
 
@@ -128,7 +128,7 @@ Vi har äntligen nått det sista steget i vår handledning – att spara arbetsb
 book.Save(dataDir + "protectedrange.out.xls");
 ```
 
- Detta kommer att spara din skyddade arbetsbok som`protectedrange.out.xls` i din angivna katalog.
+Detta kommer att spara din skyddade arbetsbok som`protectedrange.out.xls` i din angivna katalog.
 
 ## Slutsats
 

@@ -118,4 +118,4 @@ Sie können Dateien je nach Bedarf in Formaten wie .xls, .xlsx, .csv und vielen 
 
 ### Gibt es eine Community für Aspose-Support?
 
-Auf jeden Fall! Sie können auf das Aspose-Community-Forum zugreifen, um Unterstützung und Diskussionen zu erhalten[Hier](https://forum.aspose.com/c/cells/9).
+ Auf jeden Fall! Sie können auf das Aspose-Community-Forum zugreifen, um Unterstützung und Diskussionen zu erhalten[Hier](https://forum.aspose.com/c/cells/9).

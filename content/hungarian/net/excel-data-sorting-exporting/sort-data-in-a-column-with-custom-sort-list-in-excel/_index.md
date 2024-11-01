@@ -132,7 +132,7 @@ Igen! Ha szükséges, további kulcsokat is hozzáadhat a több oszlop szerinti 
 Bár hasznos, követheti ezt az oktatóanyagot, és menet közben tanulhat! A C# alapszintű ismerete javítja a tanulási élményt.
 
 ### Használható-e ideiglenes licenc az Aspose.Cells számára?
-Teljesen! Ideiglenes licencet szerezhet, ha korlátozás nélkül szeretné tesztelni a könyvtár teljes szolgáltatását.
+Teljesen! Ideiglenes licencet szerezhet be, ha korlátozás nélkül szeretné tesztelni a könyvtár teljes szolgáltatását.
 
 ### Letölthetek példákat vagy dokumentációt az Aspose.Cells-hez?
  Igen! Az Aspose kiterjedt dokumentációt és mintaprojekteket kínál, amelyek nagy segítségére lehetnek. Nézze meg a[Aspose.Cells Documentation](https://reference.aspose.com/cells/net/).

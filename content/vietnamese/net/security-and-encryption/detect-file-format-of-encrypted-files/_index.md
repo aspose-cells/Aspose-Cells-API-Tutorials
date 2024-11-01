@@ -33,7 +33,7 @@ Trước khi đi sâu vào mã, bạn cần đảm bảo rằng cấu trúc thư
 // Thư mục nguồn
 string sourceDir = "Your Document Directory";
 ```
- Thay thế`"Your Document Directory"` với đường dẫn thực tế đến thư mục trên máy tính của bạn nơi lưu trữ tệp được mã hóa.
+ Thay thế`"Your Document Directory"`với đường dẫn thực tế đến thư mục trên máy tính của bạn nơi lưu trữ tệp được mã hóa.
 ## Bước 2: Chuẩn bị tệp được mã hóa của bạn
 
  Trong bước này, hãy đảm bảo rằng bạn có tệp Excel được mã hóa trong thư mục đã chỉ định. Ở đây, chúng tôi sẽ giả sử tệp có tên là`encryptedBook1.out.tmp`.
@@ -73,6 +73,6 @@ Hoàn toàn đúng! Sử dụng các khối try-catch để quản lý các ngo�
 ### Tôi phải làm sao nếu quên mật khẩu?
 Thật không may, bạn sẽ không thể truy cập định dạng tệp nếu không có mật khẩu.
 ### Tôi có thể tải xuống bản dùng thử miễn phí Aspose.Cells không?
-Có, bạn có thể tải xuống phiên bản dùng thử miễn phí[đây](https://releases.aspose.com/).
+ Có, bạn có thể tải xuống phiên bản dùng thử miễn phí[đây](https://releases.aspose.com/).
 ### Tôi có thể tìm tài liệu chi tiết hơn ở đâu?
  Bạn có thể khám phá tài liệu toàn diện về Aspose.Cells[đây](https://reference.aspose.com/cells/net/).

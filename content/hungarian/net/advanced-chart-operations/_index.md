@@ -17,7 +17,7 @@ Szeretné kiemelni Excel diagramjait? A 3D formátum alkalmazása megváltoztatj
 
 ## Változtassa meg a diagram méretét és pozícióját
 
- Volt már gondja a diagram beállításával, hogy tökéletesen illeszkedjen az Excel-munkalaphoz? Az Aspose.Cells for .NET segítségével könnyedén módosíthatja a diagramok méretét és pozícióját az igényeinek megfelelően. Néhány sor kód és kész.[Olvassa el az oktatóanyagot](./change-chart-size-and-position/) hogy megtanulják az egyszerű lépéseket.
+ Volt már gondja a diagram beállításával, hogy tökéletesen illeszkedjen az Excel munkalaphoz? Az Aspose.Cells for .NET segítségével könnyedén módosíthatja a diagramok méretét és pozícióját az igényeinek megfelelően. Néhány sor kód és kész.[Olvassa el az oktatóanyagot](./change-chart-size-and-position/) hogy megtanulják az egyszerű lépéseket.
 
 ## A Sparklines használata a gyors betekintéshez
 
@@ -40,13 +40,13 @@ Az adatcímkék alakjának testreszabása interaktívabbá és vizuálisan vonz�
 
  A diagram kategóriaadatainak hatékony rendszerezése és megjelenítése bonyolult lehet. Az Aspose.Cells for .NET zökkenőmentes megoldásokat kínál a kategória- és diagramadatok beállítására, biztosítva, hogy a vizualizációk pontosak és lenyűgözőek legyenek. Ez különösen akkor hasznos, ha nagy adatkészleteket kezel, vagy dinamikus diagramokat hoz létre, amelyek a felhasználói bemenetek alapján frissülnek. Tekintse meg ezeket az oktatóanyagokat a beállítások elsajátításához[kategória adatai](./setting-category-data/) és[diagram adatait](./setting-chart-data/) az Excel fájljaiban.
 
-## Értékek beállítása Diagramsorozat kódja
+## Értékek beállítása Diagramsorozat formátumkódja
 
 Néha testre kell szabnia a számok formázását a diagramsorozatokban a jobb áttekinthetőség érdekében. Az Aspose.Cells for .NET lehetővé teszi, hogy a kívánt megjelenítési formátumnak megfelelő formátumkódokat állítson be. Legyen szó pénznemről, százalékról vagy egyéni számformázásról, ez a funkció teljes körű szabályozást biztosít az adatok megjelenítése felett.[Tudja meg, hogyan](./set-values-format-code-of-chart-series/) a formátumkódok egyszerű beállításához.
 
 ## Következtetés
 
-Az Aspose.Cells for .NET leegyszerűsíti a haladó Excel-diagramműveleteket, a diagram látványelemeinek javításától a diagrampozíciók beállításáig. Ha követi ezeket az oktatóanyagokat, fejlesztheti adatvizualizációs készségeit, és Excel diagramjait valóban kiemelheti. Akár 3D-ben formáz, akár sparkline-okkal dolgozik, az Aspose.Cells for .NET zökkenőmentes, könnyed megvalósítást biztosít.
+A diagram látványelemeinek javításától a diagrampozíciók beállításáig az Aspose.Cells for .NET leegyszerűsíti a fejlett Excel diagramműveleteket. Ha követi ezeket az oktatóanyagokat, fejlesztheti adatvizualizációs készségeit, és Excel diagramjait valóban kiemelheti. Akár 3D-ben formáz, akár sparkline-okkal dolgozik, az Aspose.Cells for .NET zökkenőmentes, könnyed megvalósítást biztosít.
 
 ## Speciális diagramműveletek oktatóanyagok
 ### [3D formátum alkalmazása a diagramra](./apply-3d-format-to-chart/)
@@ -63,7 +63,7 @@ Az Aspose.Cells for .NET segítségével testreszabott adatcímke-alakzatokkal j
 Ismerje meg, hogyan állíthat be kategóriaadatokat Excel-diagramokon az Aspose.Cells for .NET használatával. Kövesse lépésről lépésre bemutató oktatóanyagunkat az egyszerű megvalósítás érdekében.
 ### [Diagramadatok beállítása](./setting-chart-data/)
 Tanulja meg, hogyan állíthat be diagramadatokat az Aspose.Cells for .NET használatával egy részletes, lépésről lépésre szóló útmutatóból, amely tökéletes az adatok megjelenítésének javításához.
-### [Értékek beállítása Diagramsorozat kódja](./set-values-format-code-of-chart-series/)
+### [Értékek beállítása Diagramsorozat formátumkódja](./set-values-format-code-of-chart-series/)
 Ezzel a részletes, lépésenkénti oktatóanyaggal megtudhatja, hogyan állíthat be értékeket a diagramsorozatok formátumkódjának beállításához az Aspose.Cells for .NET-ben. Tökéletes kezdőknek.
 ### [Sparklines használata](./using-sparklines/)
 Ismerje meg, hogyan használhatja hatékonyan a sparkline-okat az Excelben az Aspose.Cells for .NET segítségével. Lépésről lépésre útmutató a zökkenőmentes élmény érdekében.

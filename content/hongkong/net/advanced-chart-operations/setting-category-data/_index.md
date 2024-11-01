@@ -132,7 +132,7 @@ chart.NSeries.Add("A1:B4", true);
 
 此行指定圖表應取得 A1 到 B4 範圍內的數據，使其能夠直觀地顯示這些值。
 
-## 步驟10：設定類別數據
+## 第10步：設定類別數據
 
 這是關鍵部分——定義我們的類別資料。這就是在 x 軸上標記我們的數據點的內容。
 
@@ -164,7 +164,7 @@ Console.WriteLine("SettingCategoryData executed successfully.");
 
 ## 結論
 
-現在你就得到它了！您已使用 Aspose.Cells for .NET 成功為 Excel 工作簿中的圖表設定類別資料。這種方法的優點在於它允許您自動操作 Excel 文件，而無需在電腦上安裝 Excel。 
+現在你就擁有了！您已使用 Aspose.Cells for .NET 成功為 Excel 工作簿中的圖表設定類別資料。這種方法的優點在於它允許您自動操作 Excel 文件，而無需在電腦上安裝 Excel。 
 
 ## 常見問題解答
 

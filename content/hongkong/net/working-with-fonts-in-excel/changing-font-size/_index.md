@@ -39,7 +39,7 @@ bool isExists = System.IO.Directory.Exists(dataDir);
 if (!isExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
-此程式碼片段檢查目錄是否存在。如果沒有，它就會創建一個。可以將其視為在開始專案之前準備一個乾淨的工作空間 - 必不可少但經常被忽視！
+此程式碼片段檢查目錄是否存在。如果沒有，它就會創建一個。將其視為在開始專案之前準備一個乾淨的工作空間 - 必不可少但經常被忽視！
 ## 第 2 步：實例化工作簿對象
 現在是時候建立一個新的 Excel 檔案了。 
 您可以建立一個新的工作簿（本質上是一個 Excel 檔案），如下所示：

@@ -58,7 +58,7 @@ if (!IsExists)
 Workbook book = new Workbook();
 ```
 
-在这里，我们创建一个新的实例`Workbook`Aspose.Cells提供的类，它允许我们操作Excel文件。
+在这里，我们创建一个新的实例`Workbook` Aspose.Cells提供的类，它允许我们操作Excel文件。
 
 ## 步骤 3：访问默认工作表
 

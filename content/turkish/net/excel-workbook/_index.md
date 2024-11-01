@@ -17,7 +17,7 @@ Excel dosya yönetimiyle uğraşmaktan yoruldunuz mu? İmza ekleme veya karmaş�
 
 ## Dijital İmzaların Eklenmesi
 
-İmzalanmış bir Excel dosyasına dijital imza eklemeniz hiç gerekti mi? Bunu nasıl yapacağınızı rehberimizle öğrenin[Zaten İmzalanmış Bir Excel Dosyasına Dijital İmza Ekleme](./add-digital-signature-to-an-already-signed-excel-file/)Dijital imzalar, Excel dosyalarınızın yalnızca işlevsel değil aynı zamanda güvenli olmasını sağlayarak, özgünlüğü ve bütünlüğü garanti eder.
+ İmzalanmış bir Excel dosyasına dijital imza eklemeniz hiç gerekti mi? Bunu nasıl yapacağınızı rehberimizle öğrenin[Zaten İmzalanmış Bir Excel Dosyasına Dijital İmza Ekleme](./add-digital-signature-to-an-already-signed-excel-file/)Dijital imzalar, Excel dosyalarınızın yalnızca işlevsel değil aynı zamanda güvenli olmasını sağlayarak, özgünlüğü ve bütünlüğü garanti eder.
 
 ## Paylaşılan Çalışma Kitapları Oluşturma
 
@@ -37,7 +37,7 @@ Excel dosya yönetimiyle uğraşmaktan yoruldunuz mu? İmza ekleme veya karmaş�
 
 ## Regex ile Üretkenliği Artırma
 
-Regex hayranı mısınız? Değilseniz, bir tanesi olmak isteyebilirsiniz! Düzenli ifadeler, özellikle Excel'de büyük veri kümeleriyle çalışırken görevlerinizi önemli ölçüde kolaylaştırabilir.[Regex Değiştir](./regex-replace/) elektronik tablolarınızda regex değiştirme işlevlerini nasıl uygulayacağınızı öğreterek, hem üretkenliğinizi hem de doğruluğunuzu artırmanızı sağlar.
+ Regex hayranı mısınız? Değilseniz, bir tanesi olmak isteyebilirsiniz! Düzenli ifadeler, özellikle Excel'de büyük veri kümeleriyle çalışırken görevlerinizi önemli ölçüde kolaylaştırabilir.[Regex Değiştir](./regex-replace/) elektronik tablolarınızda regex değiştirme işlevlerini nasıl uygulayacağınızı öğreterek, hem üretkenliğinizi hem de doğruluğunuzu artırmanızı sağlar.
 
 ## Power Sorgu Öğelerini Güncelleme
 
@@ -45,11 +45,11 @@ Regex hayranı mısınız? Değilseniz, bir tanesi olmak isteyebilirsiniz! Düze
 
 ## Baskı Önizlemelerini Yönetme
 
-Ara sıra verilerinizi mümkün olan en profesyonel şekilde sunmanız gerekir. Baskı önizlemelerinin nasıl oluşturulacağını öğrenmek hayati bir beceri olabilir. Eğitimimizde[Çalışma Kitabı Baskı Önizleme](./workbook-print-preview/), yazdırmaya basmadan önce verilerinizi doğru şekilde nasıl biçimlendireceğinizi keşfedeceksiniz. Bu işlem sizi utanç verici hatalardan kurtarabilir ve raporlarınızın ekranda olduğu kadar kağıt üzerinde de iyi görünmesini sağlayabilir.
+ Ara sıra verilerinizi mümkün olan en profesyonel şekilde sunmanız gerekir. Baskı önizlemelerinin nasıl oluşturulacağını öğrenmek hayati bir beceri olabilir. Eğitimimizde[Çalışma Kitabı Baskı Önizleme](./workbook-print-preview/), yazdırmaya basmadan önce verilerinizi doğru şekilde nasıl biçimlendireceğinizi keşfedeceksiniz. Bu işlem sizi utanç verici hatalardan kurtarabilir ve raporlarınızın ekranda olduğu kadar kağıt üzerinde de iyi görünmesini sağlayabilir.
 
 ## Tanımlı İsimlerle Çalışma
 
- Excel sayfalarınızdaki tanımlı adlar, verilerinizi yönetmenin kullanışlı bir yolu olabilir. Formülleri daha kısa ve daha anlaşılır hale getirirler. Bir çalışma kitabını yüklerken tanımlı adları filtrelemek istiyorsanız,[Çalışma Kitabını Yüklerken Tanımlı İsimleri Filtrele](./filter-defined-names-while-loading-workbook/) tam da bunu yapmak için gereken tüm adımları sağlar. Bu özellik, çalışma kitabınızın nasıl yükleneceğini özelleştirmenize olanak tanır, verimliliği ve organizasyonu iyileştirir.
+Excel sayfalarınızdaki tanımlı adlar, verilerinizi yönetmenin kullanışlı bir yolu olabilir. Formülleri daha kısa ve daha anlaşılır hale getirirler. Bir çalışma kitabını yüklerken tanımlı adları filtrelemek istiyorsanız,[Çalışma Kitabını Yüklerken Tanımlı İsimleri Filtrele](./filter-defined-names-while-loading-workbook/) tam da bunu yapmak için gereken tüm adımları sağlar. Bu özellik, çalışma kitabınızın nasıl yükleneceğini özelleştirmenize olanak tanır, verimliliği ve organizasyonu iyileştirir.
 
 ## Çözüm
 

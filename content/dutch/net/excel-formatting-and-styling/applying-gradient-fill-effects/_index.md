@@ -18,9 +18,9 @@ Allereerst moet je een basiskennis van C# hebben. Als je eenvoudige programma's 
 ### Visual Studio of compatibele IDE
 Zorg ervoor dat u Visual Studio of een andere compatibele Integrated Development Environment (IDE) hebt ingesteld om uw C#-code te schrijven.
 ## Pakketten importeren
-Zodra u alles gereed hebt, is de volgende stap het importeren van de benodigde pakketten. Hieronder ziet u hoe u aan de slag kunt gaan met Aspose.Cells in uw C#-project.
+Zodra u alles gereed hebt, is de volgende stap het importeren van de benodigde pakketten. Hieronder ziet u hoe u aan de slag kunt met Aspose.Cells in uw C#-project.
 ### De juiste naamruimte gebruiken
-Open uw .NET-project in Visual Studio en begin door de volgende using -richtlijn boven aan uw C#-codebestand toe te voegen:
+Open uw .NET-project in Visual Studio en begin door de volgende using -instructie boven aan uw C#-codebestand toe te voegen:
 ```csharp
 using System.IO;
 using Aspose.Cells;

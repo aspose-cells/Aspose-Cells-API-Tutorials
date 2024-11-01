@@ -134,4 +134,4 @@ XLSB 파일은 스프레드시트 데이터를 바이너리 형식으로 저장�
 물론입니다! Aspose.Cells는 XLSX, CSV 등 다양한 파일 형식을 지원합니다.
 
 ### 문제가 생기면 어디에서 도움을 받을 수 있나요?  
- Aspose 포럼에서 지원을 받을 수 있습니다.[여기](https://forum.aspose.com/c/cells/9).
+Aspose 포럼에서 지원을 받을 수 있습니다.[여기](https://forum.aspose.com/c/cells/9).

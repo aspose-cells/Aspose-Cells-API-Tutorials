@@ -90,4 +90,4 @@ Ebben az oktatóanyagban megtanultuk, hogyan lehet diagramanimációkat létreho
 
 ### Mi a célja az animáció késleltetésének?
 
- Az animáció késleltetése határozza meg a diagram animációjának megkezdése előtti időközt. Használja a`setAnimationDelay`módszer a késleltetés ezredmásodpercben történő beállítására.
+ Az animáció késleltetése határozza meg a diagram animációjának megkezdése előtti időközt. Használja a`setAnimationDelay` módszer a késleltetés ezredmásodpercben történő beállítására.

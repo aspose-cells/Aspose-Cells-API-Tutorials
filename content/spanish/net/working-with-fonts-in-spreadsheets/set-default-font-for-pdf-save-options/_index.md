@@ -39,14 +39,14 @@ string outputDir = "Your Document Directory";
 ```
  Reemplazar`"Your Document Directory"` con la ruta real a sus directorios.
 ## Paso 2: Abra el archivo Excel
-Ahora que tenemos nuestros directorios configurados, abramos el archivo de Excel con el que desea trabajar.`Workbook` La clase en Aspose.Cells se utiliza para cargar el documento de Excel.
+ Ahora que tenemos nuestros directorios configurados, abramos el archivo de Excel con el que desea trabajar.`Workbook` La clase en Aspose.Cells se utiliza para cargar el documento de Excel.
 ```csharp
 // Abrir un archivo de Excel
 Workbook workbook = new Workbook(sourceDir + "sampleSetDefaultFontPropertyOfPdfSaveOptionsAndImageOrPrintOptions.xlsx");
 ```
 Asegúrese de reemplazar el nombre del archivo con su nombre de archivo real.
 ## Paso 3: Configurar las opciones de representación de imágenes
- A continuación, debemos configurar las opciones de renderizado para convertir nuestra hoja de Excel a un formato de imagen. Crearemos una instancia de`ImageOrPrintOptions`, especificando el tipo de imagen y la fuente predeterminada.
+ continuación, debemos configurar las opciones de renderizado para convertir nuestra hoja de Excel a un formato de imagen. Crearemos una instancia de`ImageOrPrintOptions`, especificando el tipo de imagen y la fuente predeterminada.
 ```csharp
 // Representación en formato de archivo PNG
 ImageOrPrintOptions imgOpt = new ImageOrPrintOptions();
@@ -63,7 +63,7 @@ SheetRender sr = new SheetRender(workbook.Worksheets[0], imgOpt);
 sr.ToImage(0, outputDir + "out1_imagePNG.png");
 ```
 ## Paso 5: Cambiar el tipo de imagen y renderizar a TIFF
-Si desea convertir la misma hoja a un formato de imagen diferente, como TIFF, simplemente puede cambiar el`ImageType` propiedad y repetir el proceso de renderizado.
+ Si desea convertir la misma hoja a un formato de imagen diferente, como TIFF, simplemente puede cambiar el`ImageType` propiedad y repetir el proceso de renderizado.
 ```csharp
 // Establecer en formato TIFF
 imgOpt.ImageType = Drawing.ImageType.Tiff;
@@ -71,7 +71,7 @@ WorkbookRender wr = new WorkbookRender(workbook, imgOpt);
 wr.ToImage(outputDir + "out1_imageTIFF.tiff");
 ```
 ## Paso 6: Configurar las opciones para guardar PDF
- A continuación, configuremos las opciones de guardado de PDF. Crearemos una instancia de`PdfSaveOptions`, establezca la fuente predeterminada y especifique que queremos verificar si hay fuentes faltantes.
+ A continuación, configuremos las opciones de guardado de PDF. Crearemos una instancia de`PdfSaveOptions`establezca la fuente predeterminada y especifique que queremos verificar si hay fuentes faltantes.
 ```csharp
 // Configurar las opciones de guardado de PDF
 PdfSaveOptions saveOptions = new PdfSaveOptions();

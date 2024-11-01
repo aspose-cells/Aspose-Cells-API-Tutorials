@@ -63,7 +63,7 @@ Console.WriteLine("KeepSeparatorsForBlankRow executed successfully.\r\n");
 ```
 Tento řádek vytiskne zprávu o úspěchu do konzole, která vám dá vědět, že vše proběhlo podle plánu!
 ## Závěr
-A tady to máte! Pomocí několika kroků pomocí Aspose.Cells for .NET můžete snadno ponechat oddělovače prázdných řádků v souborech aplikace Excel při jejich převodu do CSV. Je to přímočarý proces, který vám může ušetřit spoustu času a zabránit potenciálním datovým nehodám. Síla Aspose.Cells v kombinaci s trochou magie C# skutečně usnadňuje a zefektivňuje práci s Excelem.
+A tady to máte! Pomocí několika kroků pomocí Aspose.Cells for .NET můžete snadno ponechat oddělovače pro prázdné řádky v souborech aplikace Excel při jejich převodu do CSV. Je to přímočarý proces, který vám může ušetřit spoustu času a zabránit potenciálním datovým nehodám. Síla Aspose.Cells v kombinaci s trochou magie C# skutečně usnadňuje a zefektivňuje práci s Excelem.
 ## FAQ
 ### Co je Aspose.Cells?
 Aspose.Cells je robustní knihovna pro práci se soubory aplikace Excel v aplikacích .NET, která umožňuje řadu funkcí včetně čtení, psaní a převodu dokumentů aplikace Excel.

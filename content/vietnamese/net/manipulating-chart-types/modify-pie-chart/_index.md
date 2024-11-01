@@ -100,7 +100,7 @@ Bây giờ, chúng ta hãy đi sâu vào trang tính cụ thể có chứa biể
 Worksheet sheet = workbook.Worksheets[1];
 ```
 
- Bằng cách truy cập vào`Worksheets`bộ sưu tập, chúng ta có thể tìm được trang tính cụ thể mà chúng ta cần.
+ Bằng cách truy cập vào`Worksheets` bộ sưu tập, chúng ta có thể tìm được trang tính cụ thể mà chúng ta cần.
 
 ## Bước 4: Lấy biểu đồ
 

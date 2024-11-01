@@ -55,7 +55,7 @@ workbook.save("output.xlsx");
  V Aspose.Cells for Java můžete seskupit data v rámci kontingenční tabulky pomocí`PivotField` třída. Zde je příklad, jak seskupit pole v kontingenční tabulce:
 
 ```java
-// Otevřete pole „Produkt“ v kontingenční tabulce
+// Přejděte do pole „Produkt“ v kontingenční tabulce
 PivotField productField = pivotTable.getPivotFields().get("Product");
 
 //Seskupte pole "Produkt" podle konkrétního kritéria, např. podle počátečního písmene

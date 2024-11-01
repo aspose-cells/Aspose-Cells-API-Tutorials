@@ -22,7 +22,7 @@ Než začnete psát svůj kód, budete muset importovat potřebné jmenné prost
 using System.IO;
 using Aspose.Cells;
 ```
-Ujistěte se, že jsou tyto obory názvů přidány na začátek vašeho souboru C#, abyste předešli chybám při kompilaci.
+Ujistěte se, že jsou tyto jmenné prostory přidány na začátek vašeho souboru C#, abyste se vyhnuli chybám při kompilaci.
 Nyní, když je vše hotovo, pojďme si krok za krokem projít proces horizontálního zarovnání textu v buňkách Excelu. Vytvoříme jednoduchý excelový soubor, přidáme text do buňky a upravíme zarovnání.
 ## Krok 1: Nastavte svůj pracovní prostor
 Nejprve musíte nastavit adresář, kam chcete soubor Excel uložit. Tento krok zajistí, že budete mít čistý pracovní prostor pro vaše dokumenty.

@@ -8,7 +8,7 @@ weight: 12
 url: /zh-hant/net/excel-shape-text-modifications/rotate-text-shape-excel/
 ---
 ## 介紹
-在 Excel 的世界中，視覺表示與資料本身同樣重要。無論您是製作報告還是設計動態儀表板，資訊的佈局方式都會極大地影響其可讀性和整體外觀。那麼，您是否曾經想過旋轉文字以使其與形狀時尚地對齊？你很幸運！在本教程中，我們將深入研究如何使用 Aspose.Cells for .NET 旋轉帶有形狀的文本，確保您的電子表格不僅提供信息，而且給人留下深刻的印象。
+在 Excel 的世界中，視覺表示與資料本身同樣重要。無論您是製作報告還是設計動態儀表板，資訊的佈局方式都會極大地影響其可讀性和整體外觀。那麼，您是否曾經想過旋轉文字以使其與形狀時尚地對齊？你很幸運！在本教程中，我們將深入研究如何使用 Aspose.Cells for .NET 旋轉具有形狀的文本，確保您的電子表格不僅提供信息，而且給人留下深刻的印象。
 ## 先決條件
 在開始之前，讓我們確保您已擁有所需的一切：
 1. Visual Studio：確保您的電腦上安裝了 Visual Studio，因為我們將在其中編寫程式碼。
@@ -47,7 +47,7 @@ string sourceDir = "Your Document Directory"; //設定您的文檔目錄
 //輸出目錄
 string outputDir = "Your Document Directory"; //設定你的輸出目錄
 ```
-代替`"Your Document Directory"`與你的實際路徑`sampleRotateTextWithShapeInsideWorksheet.xlsx`文件位於。
+代替`"Your Document Directory"`與您的實際路徑`sampleRotateTextWithShapeInsideWorksheet.xlsx`文件位於。
 ## 第 2 步：載入範例 Excel 文件
 現在，讓我們載入範例 Excel 檔案。這至關重要，因為我們想要操縱現有數據。
 ```csharp
@@ -102,7 +102,7 @@ Console.WriteLine("RotateTextWithShapeInsideWorksheet executed successfully.");
 是的！您可以使用[免費試用](https://releases.aspose.com/)嘗試圖書館。
 ### Aspose.Cells 支援哪些版本的 Excel？
 Aspose.Cells 支援多種 Excel 格式，包括 XLS、XLSX、CSV 等。
-### 是否可以在舊版 Excel 中旋轉具有形狀的文字？
+### 是否可以在舊版 Excel 中旋轉帶有形狀的文字？
 是的，該功能可以應用於 Aspose.Cells 支援的舊格式。
 ### 在哪裡可以找到有關 Aspose.Cells 的更多文件？
 您可以探索全面的[文件](https://reference.aspose.com/cells/net/)以獲得更多見解。

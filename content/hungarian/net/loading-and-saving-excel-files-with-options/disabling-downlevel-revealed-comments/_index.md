@@ -12,7 +12,7 @@ Szüksége volt már arra, hogy egy Excel-munkafüzetet HTML formátumba konvert
 A cikk végére világosan megérti, hogyan kell használni ezt a funkciót, és gondoskodnia kell arról, hogy a HTML-kimenet tiszta és megjegyzésektől mentes legyen.
 ## Előfeltételek
 Mielőtt belemerülnénk a lépésről lépésre szóló útmutatóba, térjünk ki néhány dologra, amelyeknek a zökkenőmentes követéséhez a helyükön kell lenniük:
-1.  Aspose.Cells for .NET: telepítenie kell az Aspose.Cells könyvtárat. Ha még nem telepítette, letöltheti[itt](https://releases.aspose.com/cells/net/).
+1. Aspose.Cells for .NET: telepítenie kell az Aspose.Cells könyvtárat. Ha még nem telepítette, letöltheti[itt](https://releases.aspose.com/cells/net/).
 2. IDE: Egy fejlesztői környezet, például a Visual Studio a C# kód írásához és végrehajtásához.
 3. Alapvető C# ismerete: A C# szintaxis és az objektumorientált programozás ismerete segít a kód követésében.
 4.  Ideiglenes vagy licencelt verzió: Használhatja az ingyenes próbaverziót, vagy kérhet ideiglenes licencet a következőtől[itt](https://purchase.aspose.com/temporary-license/). Ez biztosítja a könyvtár korlátok nélküli működését.
@@ -50,7 +50,7 @@ HtmlSaveOptions opts = new HtmlSaveOptions();
 // Az alacsonyabb szintű felfedett megjegyzések letiltása
 opts.DisableDownlevelRevealedComments = true;
 ```
- Beállítással`DisableDownlevelRevealedComments` hogy`true`, biztosítja, hogy amikor a munkafüzetet HTML-fájlként menti, az alsó szintű megjegyzések letiltásra kerülnek.
+ Beállítás által`DisableDownlevelRevealedComments` hogy`true`, biztosítja, hogy amikor a munkafüzetet HTML-fájlként menti, az alsó szintű megjegyzések letiltásra kerülnek.
 ## 4. lépés: Mentse el a munkafüzetet HTML-ként
 A HtmlSaveOptions objektum konfigurálása után a következő lépés a munkafüzet mentése HTML formátumba a megadott beállításokkal. Itt történik a tényleges fájlkonverzió.
 ```csharp

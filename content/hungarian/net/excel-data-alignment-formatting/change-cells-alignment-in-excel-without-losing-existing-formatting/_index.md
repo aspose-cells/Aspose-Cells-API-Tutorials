@@ -2,7 +2,7 @@
 title: Módosítsa az Excel cellaigazítását a formázás elvesztése nélkül
 linktitle: Módosítsa az Excel cellaigazítását a formázás elvesztése nélkül
 second_title: Aspose.Cells .NET Excel Processing API
-description: Ismerje meg, hogyan módosíthatja az Excel-cellaigazítást a formázás elvesztése nélkül az Aspose.Cells for .NET segítségével. Kövesse átfogó, lépésről lépésre útmutatónkat a zökkenőmentes vezérlés érdekében.
+description: Ismerje meg, hogyan módosíthatja az Excel-cellaigazítást a formázás elvesztése nélkül az Aspose.Cells for .NET segítségével. Kövesse átfogó, lépésenkénti útmutatónkat a zökkenőmentes vezérlés érdekében.
 type: docs
 weight: 10
 url: /hu/net/excel-data-alignment-formatting/change-cells-alignment-in-excel-without-losing-existing-formatting/

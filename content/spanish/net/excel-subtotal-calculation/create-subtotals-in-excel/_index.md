@@ -29,7 +29,7 @@ Para comenzar, debemos definir dónde se encuentra nuestro archivo de Excel. Aqu
 ```csharp
 string dataDir = "Your Document Directory";
 ```
- Reemplazar`"Your Document Directory"` con la ruta real donde se encuentra`book1.xls`se almacena. Esto le indica al programa dónde encontrar el archivo Excel que vamos a manipular.
+ Reemplazar`"Your Document Directory"` con la ruta real donde se encuentra`book1.xls` se almacena. Esto le indica al programa dónde encontrar el archivo Excel que vamos a manipular.
 ## Paso 2: Crear una instancia de un nuevo libro de trabajo
 A continuación, crearemos una nueva instancia del objeto Workbook. Esto nos permitirá abrir y editar nuestro archivo de Excel.
 ```csharp
@@ -51,7 +51,7 @@ ca.StartColumn = 1;
 ca.EndRow = 18; // C19
 ca.EndColumn = 2;
 ```
- Aquí definimos una`CellArea`que especifica el rango que nos interesa. En este caso, hemos elegido el área desde B3 (fila 2, columna 1) hasta C19 (fila 18, columna 2). Aquí es donde calcularemos nuestros subtotales.
+ Aquí definimos una`CellArea` que especifica el rango que nos interesa. En este caso, hemos elegido el área desde B3 (fila 2, columna 1) hasta C19 (fila 18, columna 2). Aquí es donde calcularemos nuestros subtotales.
 ## Paso 5: Aplicar subtotales
 Este es el corazón de nuestra operación: aplicar el subtotal al área de celda definida.
 ```csharp

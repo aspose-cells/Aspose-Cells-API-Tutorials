@@ -12,7 +12,7 @@ url: /ko/net/saving-files-in-different-formats/save-excel-file-in-2007-xlsb-form
 ## 필수 조건
 시작하기 전에, 원활하게 따라갈 수 있는 모든 것이 있는지 확인해 보겠습니다. 필요한 것은 다음과 같습니다.
 1. Visual Studio: 컴퓨터에 Visual Studio 버전이 설치되어 있는지 확인하세요. 여기서 .NET 코드를 작성하게 됩니다. 
-2. Aspose.Cells 라이브러리: .NET용 Aspose.Cells 라이브러리가 필요합니다. 아직 다운로드하지 않았다면 다음으로 이동하세요.[Aspose 다운로드 페이지](https://releases.aspose.com/cells/net/) 그것을 잡아라. 
+2.  Aspose.Cells 라이브러리: .NET용 Aspose.Cells 라이브러리가 필요합니다. 아직 다운로드하지 않았다면 다음으로 이동하세요.[Aspose 다운로드 페이지](https://releases.aspose.com/cells/net/) 그것을 잡아라. 
 3. C#에 대한 기본 지식: C#과 .NET에 대한 기본적인 이해는 코드 예제를 보다 편안하게 탐색하는 데 도움이 됩니다.
 4. .NET Framework: Aspose.Cells 라이브러리에서 지원하는 적절한 .NET Framework로 프로젝트가 설정되었는지 확인하세요.
 5. Excel 문서: 새 통합 문서를 만드는 것도 하나의 방법이지만, 기존 파일을 조작하려는 경우 시작 문서가 있으면 유용할 수 있습니다.
@@ -58,7 +58,7 @@ workbook.Save(dataDir + "output.xlsb", SaveFormat.Xlsb);
 
 ## 자주 묻는 질문
 ### Aspose.Cells 라이브러리란 무엇인가요?
-Aspose.Cells는 개발자가 Microsoft Excel을 설치하지 않고도 프로그래밍 방식으로 Excel 파일을 만들고, 수정하고, 조작할 수 있도록 해주는 강력한 .NET용 라이브러리입니다.
+Aspose.Cells는 개발자가 Microsoft Excel을 설치하지 않고도 프로그래밍 방식으로 Excel 파일을 만들고, 수정하고, 조작할 수 있게 해주는 강력한 .NET용 라이브러리입니다.
 ### Aspose.Cells를 무료로 사용할 수 있나요?
  물론입니다! 다음을 사용할 수 있습니다.[무료 체험](https://releases.aspose.com/) 도서관의 기능을 살펴보세요.
 ### xls와 xlsb 형식의 차이점은 무엇입니까?

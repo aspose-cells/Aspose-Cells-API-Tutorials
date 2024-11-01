@@ -12,7 +12,7 @@ Har du någonsin råkat ut för att brottas med komplicerade Excel-filformat och
 ## Förutsättningar
 Innan vi går in i de saftiga detaljerna finns det ett par förutsättningar du måste ha på plats:
 1. Visual Studio - Se till att du har Visual Studio installerat på ditt system. Det hjälper dig att skriva och exekvera din C#-kod utan ansträngning.
-2.  Aspose.Cells Library - Du behöver Aspose.Cells for .NET-biblioteket. Du kan enkelt ladda ner den från[Aspose Cells Releases Page](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells Library - Du behöver Aspose.Cells for .NET-biblioteket. Du kan enkelt ladda ner den från[Aspose Cells Releases Page](https://releases.aspose.com/cells/net/).
 3. Grundläggande programmeringskunskaper - Viss förtrogenhet med C# och .NET kommer att förbättra din förståelse för kodsnuttarna vi kommer att täcka.
 4. En testdokumentkatalog - Skapa eller bestäm en mapp där du ska spara och testa dina Excel-filer. För den här handledningen kommer vi att hänvisa till den som "Din dokumentkatalog."
 Med allt på plats är du redo att visa upp dina färdigheter!
@@ -29,7 +29,7 @@ using Aspose.Cells;
 Detta namnutrymme ger dig tillgång till alla klasser och metoder som krävs för att arbeta med Excel-filer.
 Redo att rulla? Låt oss dela upp processen i hanterbara steg.
 ## Steg 1: Konfigurera din dokumentkatalog
-din kod är det viktigt att definiera sökvägen till din dokumentkatalog där Excel-filen ska sparas. Du kan göra detta genom att deklarera en strängvariabel:
+I din kod är det viktigt att definiera sökvägen till din dokumentkatalog där Excel-filen ska sparas. Du kan göra detta genom att deklarera en strängvariabel:
 ```csharp
 string dataDir = "Your Document Directory"; // Ersätt med din faktiska väg
 ```

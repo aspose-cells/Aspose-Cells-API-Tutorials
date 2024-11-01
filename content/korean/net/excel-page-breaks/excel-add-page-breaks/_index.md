@@ -118,4 +118,4 @@ Aspose.Cells는 무료 체험판을 제공하지만, 장기 프로젝트의 경�
 
 ### Aspose를 지원하는 커뮤니티가 있나요?
 
-물론입니다! Aspose 커뮤니티 포럼에 접속하여 지원과 토론을 할 수 있습니다.[여기](https://forum.aspose.com/c/cells/9).
+ 물론입니다! Aspose 커뮤니티 포럼에 접속하여 지원과 토론을 할 수 있습니다.[여기](https://forum.aspose.com/c/cells/9).

@@ -18,7 +18,7 @@ Debes tener un conocimiento básico de C# y el marco .NET, ya que escribiremos f
 ### Entorno de desarrollo
 Se recomienda un IDE compatible como Visual Studio para desarrollar sus aplicaciones .NET. 
 ### Archivo básico de Excel
- Necesitará un archivo Excel de muestra (lo llamaremos`sampleDuplicateDefinedName.xlsx`que pueden contener nombres definidos duplicados para probar esta funcionalidad.
+ Necesitará un archivo Excel de muestra (lo llamaremos`sampleDuplicateDefinedName.xlsx`) que pueden contener nombres definidos duplicados para probar esta funcionalidad.
 ## Importación de paquetes
 Ahora que todo está configurado, hablemos de los paquetes que necesitarás. Asegúrate de incluir estos espacios de nombres en la parte superior de tu archivo C#:
 ```csharp
@@ -43,7 +43,7 @@ string dataDir = "Your Document Directory";
 LoadOptions options = new LoadOptions();
 options.WarningCallback = new WarningCallback();
 ```
- Aquí estamos creando uno nuevo`LoadOptions` objeto y asociarlo con nuestro`WarningCallback`Clase (que definiremos a continuación). Esta configuración es esencial para que nuestro programa gestione las advertencias correctamente.
+ Aquí estamos creando uno nuevo`LoadOptions` objeto y asociarlo con nuestro`WarningCallback` Clase (que definiremos a continuación). Esta configuración es esencial para que nuestro programa gestione las advertencias correctamente.
 ## Paso 3: Cargue el archivo Excel de origen
  ¡Es hora de cargar ese archivo de Excel! Aquí es donde se llama a la`Workbook` clase para cargar su archivo junto con las opciones que definimos anteriormente:
 ```csharp
@@ -81,6 +81,6 @@ Aspose.Cells es una potente biblioteca .NET para crear, manipular y convertir ar
 ### ¿Cómo puedo comprar Aspose.Cells?
  Puedes comprar Aspose.Cells directamente desde su[Página de compra](https://purchase.aspose.com/buy).
 ### ¿Qué tipos de advertencias puedo gestionar?
- Puede gestionar varias advertencias, como nombres definidos duplicados, advertencias de fórmulas y advertencias de estilo, utilizando el`WarningCallback`.
+Puede gestionar varias advertencias, como nombres definidos duplicados, advertencias de fórmulas y advertencias de estilo, utilizando el`WarningCallback`.
 ### ¿Dónde puedo encontrar documentación sobre Aspose.Cells?
  Puede consultar el completo[documentación aquí](https://reference.aspose.com/cells/net/).

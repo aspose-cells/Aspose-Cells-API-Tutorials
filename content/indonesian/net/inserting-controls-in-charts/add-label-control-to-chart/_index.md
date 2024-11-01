@@ -16,7 +16,7 @@ Bagan merupakan cara yang ampuh untuk memvisualisasikan data, dan terkadang, men
 Sebelum kita menyelami hal-hal yang lebih mendalam, mari kita bahas apa saja yang Anda perlukan untuk memulai:
 
 - Pengetahuan Dasar tentang C#: Sangat penting untuk memahami dasar-dasar pemrograman C#. Jika Anda seorang pemula, jangan khawatir – langkah-langkahnya akan jelas dan ringkas.
--  Pustaka Aspose.Cells: Pastikan Anda telah memasang pustaka Aspose.Cells. Anda dapat melakukannya melalui Pengelola Paket NuGet di Visual Studio. Jika Anda belum melakukannya, lihat[tautan unduhan](https://releases.aspose.com/cells/net/) untuk perpustakaan.
+- Pustaka Aspose.Cells: Pastikan Anda telah memasang pustaka Aspose.Cells. Anda dapat melakukannya melalui Pengelola Paket NuGet di Visual Studio. Jika Anda belum melakukannya, lihat[tautan unduhan](https://releases.aspose.com/cells/net/) untuk perpustakaan.
 - Visual Studio: Anda memerlukan lingkungan pengembangan terintegrasi (IDE) seperti Visual Studio untuk menulis dan mengeksekusi kode Anda.
 
 ## Paket Impor

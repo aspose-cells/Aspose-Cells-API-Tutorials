@@ -121,7 +121,7 @@ Questa semplice riga invia un messaggio alla console quando l'intera operazione 
 
 ## Conclusione
 
-Ed ecco fatto! Hai estratto con successo file MOL incorporati da un file Excel usando Aspose.Cells per .NET. Ora puoi usare le tue nuove competenze e applicarle ad altri scenari in cui devi estrarre file oggetto da fogli Excel. Questo metodo non è solo efficace, ma apre anche le porte alla gestione di varie operazioni correlate a Excel senza sforzo.
+Ed ecco fatto! Hai estratto con successo file MOL incorporati da un file Excel usando Aspose.Cells per .NET. Ora puoi usare le tue nuove competenze e applicarle ad altri scenari in cui devi estrarre file oggetto da fogli Excel. Questo metodo non è solo efficace, ma apre anche le porte alla gestione senza sforzo di varie operazioni correlate a Excel.
 
 ## Domande frequenti
 

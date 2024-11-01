@@ -13,7 +13,7 @@ Lorsqu'il s'agit de travailler avec des fichiers Excel dans vos applications .NE
 Avant de passer aux choses sérieuses, vous devez mettre en place quelques éléments. Considérez ceci comme votre liste de contrôle pour garantir une expérience fluide tout au long du didacticiel.
 1. Visual Studio : assurez-vous que Visual Studio est installé sur votre ordinateur. Ne vous inquiétez pas, vous pouvez même utiliser l'édition Community ; elle est gratuite et fonctionne parfaitement.
 2. .NET Framework : la version de .NET que vous utilisez doit être compatible avec Aspose.Cells. En règle générale, toute version 4.0 ou ultérieure de .NET Framework devrait convenir.
-3.  Bibliothèque Aspose.Cells : Téléchargez et installez la bibliothèque Aspose.Cells pour .NET. Vous pouvez la trouver[ici](https://releases.aspose.com/cells/net/). 
+3. Bibliothèque Aspose.Cells : Téléchargez et installez la bibliothèque Aspose.Cells pour .NET. Vous pouvez la trouver[ici](https://releases.aspose.com/cells/net/). 
 4. Connaissances de base en C# : une petite connaissance de la programmation C# vous sera utile, mais vous n'avez pas besoin d'être un expert en codage. Croyez-moi, si vous savez suivre une recette, vous pouvez suivre ce guide !
 5.  Fichier Excel : vous aurez besoin d'un fichier Excel de départ, dans notre cas, nommé`Book1.xlsx`N'hésitez pas à en créer un simple si vous ne l'avez pas encore.
 Maintenant que nous sommes tous prêts, importons les packages nécessaires !
@@ -45,12 +45,12 @@ Après avoir spécifié le répertoire du document, définissez les chemins d'ac
 string filePath = dataDir + "Book1.xlsx";
 ```
 Cette ligne concatène votre répertoire avec le nom du fichier. Vérifiez toujours les chemins d'accès à vos fichiers pour détecter d'éventuelles fautes d'orthographe ; c'est comme s'assurer que vous avez le bon assaisonnement dans votre plat !
-## Étape 3 : Chargez votre classeur source
+## Étape 3 : chargez votre classeur source
 Maintenant, chargeons le classeur pour être prêt à jouer avec son contenu. Pour cela, utilisez :
 ```csharp
 Workbook workbook = new Workbook(filePath);
 ```
-Que se passe-t-il ici ? Nous créons une nouvelle instance de`Workbook` classe et en passant le chemin de votre fichier Excel existant. C'est comme ouvrir un livre de recettes pour trouver votre plat préféré !
+ Que se passe-t-il ici ? Nous créons une nouvelle instance de`Workbook`classe et en passant le chemin de votre fichier Excel existant. C'est comme ouvrir un livre de recettes pour trouver votre plat préféré !
 ## Étape 4 : créer un flux de fichiers pour enregistrer le classeur
  Ensuite, nous devons créer un`FileStream` objet qui définit l'emplacement où nous allons enregistrer notre classeur nouvellement modifié. Codez-le comme ceci :
 ```csharp

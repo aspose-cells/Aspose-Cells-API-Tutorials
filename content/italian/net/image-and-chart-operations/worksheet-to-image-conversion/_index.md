@@ -58,7 +58,7 @@ Ora che abbiamo aperto la cartella di lavoro, accediamo al primo foglio di lavor
 // Ottieni il primo foglio di lavoro.
 Worksheet sheet = book.Worksheets[0];
 ```
- Qui recuperiamo il primo foglio di lavoro (indice`0` ) dalla cartella di lavoro. Gli array Aspose.Cells sono indicizzati a zero, il che significa che il primo foglio è`0`.
+ Qui recuperiamo il primo foglio di lavoro (indice`0` dalla cartella di lavoro. Gli array Aspose.Cells sono indicizzati a zero, il che significa che il primo foglio è`0`.
 ## Passaggio 6: definire le opzioni di immagine o di stampa
  Prima di rendere l'immagine, dobbiamo specificare come vogliamo che appaia utilizzando`ImageOrPrintOptions`:
 ```csharp
@@ -73,7 +73,7 @@ imgOptions.OnePagePerSheet = true;
 ## Fase 7: rendering del foglio di lavoro
 Con le opzioni a disposizione, possiamo ora visualizzare il foglio di lavoro:
 ```csharp
-// Esegue il rendering del foglio in base alle opzioni di immagine/stampa specificate
+// Esegui il rendering del foglio in base alle opzioni di immagine/stampa specificate
 SheetRender sr = new SheetRender(sheet, imgOptions);
 // Rendi l'immagine per il foglio
 Bitmap bitmap = sr.ToImage(0);
@@ -82,7 +82,7 @@ Bitmap bitmap = sr.ToImage(0);
 ## Passaggio 8: salvataggio dell'immagine
 Dopo il rendering, dobbiamo salvare l'immagine nella directory specificata:
 ```csharp
-// Salvare il file immagine specificandone il formato.
+//Salvare il file immagine specificandone il formato.
 bitmap.Save(dataDir + "SheetImage.out.jpg");
 ```
  Qui salviamo l'immagine bitmap che abbiamo generato. Questa riga scrive l'immagine nel`dataDir` posizione con il nome del file`SheetImage.out.jpg`.
@@ -99,10 +99,10 @@ Ed ecco fatto! In pochi semplici passaggi, hai imparato a convertire un foglio d
 ### Che cos'è Aspose.Cells?
 Aspose.Cells è una libreria .NET che consente agli sviluppatori di creare, manipolare, convertire ed elaborare file Excel a livello di programmazione.
 ### Posso usare Aspose.Cells gratuitamente?
-Sì, puoi iniziare a utilizzare Aspose.Cells scaricando una versione di prova gratuita dal loro[sito web](https://releases.aspose.com/).
+ Sì, puoi iniziare a utilizzare Aspose.Cells scaricando una versione di prova gratuita dal loro[sito web](https://releases.aspose.com/).
 ### Quali formati di immagine supporta Aspose.Cells per l'esportazione?
 Aspose.Cells supporta vari formati di immagine, tra cui JPEG, PNG, BMP e GIF.
 ### Dove posso trovare ulteriore supporto per Aspose.Cells?
  Puoi accedere al forum di supporto per Aspose.Cells[Qui](https://forum.aspose.com/c/cells/9).
 ### Come posso ottenere una licenza temporanea per Aspose.Cells?
- È possibile ottenere una licenza temporanea recandosi presso il loro[pagina licenza temporanea](https://purchase.aspose.com/temporary-license/).
+ È possibile ottenere una licenza temporanea recandosi presso il loro[pagina della licenza temporanea](https://purchase.aspose.com/temporary-license/).

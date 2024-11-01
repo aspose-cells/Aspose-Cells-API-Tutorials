@@ -40,7 +40,7 @@ using System;
 ```csharp
 string dataDir = "Your Document Directory";
 ```
-代替`"Your Document Directory"`與你的實際路徑`NonPrimitiveShape.xlsx`文件已儲存。 
+代替`"Your Document Directory"`與您的實際路徑`NonPrimitiveShape.xlsx`文件已儲存。 
 ## 第 2 步：載入工作簿
 現在我們已經設定了文件路徑，是時候載入工作簿了。您可以這樣做：
 ```csharp
@@ -108,7 +108,7 @@ foreach (ShapePathPoint pathPoint in segmentPoints)
 ```
 這樣，我們就可以有效地輸出定義非原始形狀的每個點的座標——這是一種可視化幕後情況的絕佳方式！
 ## 結論
-現在你就得到它了！您已使用 Aspose.Cells for .NET 成功存取並探索了 Excel 中非基本形狀的詳細資訊。無論您是產生報表、建立動態電子表格還是處理複雜的形狀，這個功能強大的函式庫都為操作 Excel 檔案開闢了無限可能。如果您有任何疑問或需要進一步協助，請隨時與我們聯繫！
+現在你就擁有了！您已使用 Aspose.Cells for .NET 成功存取並探索了 Excel 中非基本形狀的詳細資訊。無論您是產生報表、建立動態電子表格還是處理複雜的形狀，這個功能強大的函式庫都為操作 Excel 檔案開闢了無限可能。如果您有任何疑問或需要進一步協助，請隨時與我們聯繫！
 ## 常見問題解答
 ### Excel 中的非基本形狀是什麼？
 非原始形狀是由多個線段和曲線組成的複雜形狀，而不是簡單的幾何形式。

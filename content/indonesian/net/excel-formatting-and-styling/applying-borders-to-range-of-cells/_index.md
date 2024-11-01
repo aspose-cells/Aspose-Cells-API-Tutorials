@@ -35,7 +35,7 @@ if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
 Di sini, kita tentukan direktori untuk menyimpan file Excel Anda. Bagian selanjutnya memeriksa apakah direktori tersebut ada; jika tidak, maka direktori tersebut akan dibuat. Mudah sekali, bukan?
-## Langkah 2: Membuat Instansiasi Objek Buku Kerja
+## Langkah 2: Membuat Instansi Objek Buku Kerja
 Selanjutnya, Anda perlu membuat buku kerja Excel baru. Ini adalah kanvas tempat Anda akan menerapkan semua keajaiban Anda!
 ```csharp
 Workbook workbook = new Workbook();

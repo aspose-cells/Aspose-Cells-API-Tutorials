@@ -74,7 +74,7 @@ Och där har du det! Du har precis lärt dig hur man sparar en XLSX-fil med Aspo
 ### Vad är Aspose.Cells?
 Aspose.Cells är ett kraftfullt bibliotek för hantering av Excel-filer i .NET-applikationer.
 ### Behöver jag en licens för Aspose.Cells?
- Ja, du behöver en giltig licens för kommersiellt bruk, men en gratis provperiod finns på[Aspose gratis provperiod](https://releases.aspose.com/).
+ Ja, du behöver en giltig licens för kommersiellt bruk, men en gratis provperiod finns tillgänglig på[Aspose gratis provperiod](https://releases.aspose.com/).
 ### Kan jag ladda befintliga Excel-filer?
  Absolut! Du kan ladda befintliga XLSX-filer genom att skicka filsökvägen till`Workbook` konstruktör.
 ### Vad händer om HTTP-svaret är null?

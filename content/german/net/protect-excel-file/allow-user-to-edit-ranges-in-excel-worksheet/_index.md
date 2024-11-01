@@ -141,4 +141,4 @@ Wenn Sie das Kennwort für einen bearbeitbaren Bereich vergessen, müssen Sie le
 Ja, Aspose bietet eine kostenlose Testversion an, mit der Sie die Funktionen vor dem Kauf erkunden können.
 
 ### Wo finde ich weitere Informationen zu Aspose.Cells?
- Sie können die[Dokumentation](https://reference.aspose.com/cells/net/) für detaillierte Anleitungen und Referenzen.
+ Sie können die[Dokumentation](https://reference.aspose.com/cells/net/)für detaillierte Anleitungen und Referenzen.

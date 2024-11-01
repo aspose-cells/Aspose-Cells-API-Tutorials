@@ -99,7 +99,7 @@ Deze coderegel zorgt ervoor dat de eerste reeks in het diagram wordt ingesteld o
  Nu onze serie klaar is, moeten we de kleur aanpassen. Dit houdt in dat we een`CellsColor` object en specificeren van een themakleur. We kiezen een accentstijl voor dit voorbeeld.
 
 ```csharp
-// Haal de CellsColor van SolidFill op
+//Haal de CellsColor van SolidFill op
 CellsColor cc = chart.NSeries[0].Area.FillFormat.SolidFill.CellsColor;
 
 // Maak een thema in Accent-stijl
@@ -119,7 +119,7 @@ Nadat u de kleur hebt geconfigureerd, is het tijd om het nieuwe thema op onze se
 chart.NSeries[0].Area.FillFormat.SolidFill.CellsColor = cc;
 ```
 
-Met deze regel worden de kleuren in het diagram bijgewerkt. 
+Met deze regel worden de kleuren in de grafiek bijgewerkt. 
 
 ## Stap 8: Sla de werkmap op
 
@@ -158,7 +158,7 @@ Aspose.Cells is een krachtige bibliotheek voor .NET waarmee ontwikkelaars Excel-
 Aspose.Cells ondersteunt verschillende themakleuren, waaronder accentstijlen en meer.
 
 ### Is het mogelijk om thema's op meerdere grafieken toe te passen?
- Absoluut! Je kunt doorlussen`worksheet.Charts` en pas thema's toe indien nodig.
+Absoluut! Je kunt doorlussen`worksheet.Charts` en pas thema's toe indien nodig.
 
 ### Waar kan ik ondersteuning krijgen voor Aspose.Cells?
  U kunt ondersteuning krijgen en contact leggen met een community van gebruikers[hier](https://forum.aspose.com/c/cells/9).

@@ -58,7 +58,7 @@ Bây giờ chúng ta đã mở bảng tính, hãy truy cập vào bảng tính �
 // Nhận bài tập đầu tiên.
 Worksheet sheet = book.Worksheets[0];
 ```
- Ở đây, chúng tôi lấy lại bảng tính đầu tiên (chỉ mục`0` ) từ sổ làm việc. Các mảng Aspose.Cells được lập chỉ mục bằng 0, nghĩa là trang tính đầu tiên là`0`.
+ Ở đây, chúng tôi lấy lại bảng tính đầu tiên (chỉ mục`0` từ sổ làm việc. Các mảng Aspose.Cells được lập chỉ mục bằng 0, nghĩa là trang tính đầu tiên là`0`.
 ## Bước 6: Xác định tùy chọn hình ảnh hoặc in
  Trước khi chúng ta kết xuất hình ảnh, chúng ta cần chỉ định cách chúng ta muốn nó trông như thế nào bằng cách sử dụng`ImageOrPrintOptions`:
 ```csharp
@@ -82,7 +82,7 @@ Bitmap bitmap = sr.ToImage(0);
 ## Bước 8: Lưu hình ảnh
 Sau khi render, chúng ta cần lưu hình ảnh vào thư mục đã chỉ định:
 ```csharp
-// Lưu tệp hình ảnh bằng cách chỉ định định dạng hình ảnh.
+//Lưu tệp hình ảnh bằng cách chỉ định định dạng hình ảnh.
 bitmap.Save(dataDir + "SheetImage.out.jpg");
 ```
  Ở đây, chúng tôi lưu hình ảnh bitmap mà chúng tôi đã tạo. Dòng này ghi hình ảnh vào`dataDir` vị trí với tên tập tin`SheetImage.out.jpg`.
@@ -99,7 +99,7 @@ Và bạn đã có nó! Chỉ với vài bước đơn giản, bạn đã học 
 ### Aspose.Cells là gì?
 Aspose.Cells là thư viện .NET cho phép các nhà phát triển tạo, thao tác, chuyển đổi và xử lý các tệp Excel theo cách lập trình.
 ### Tôi có thể sử dụng Aspose.Cells miễn phí không?
-Có, bạn có thể bắt đầu sử dụng Aspose.Cells bằng cách tải xuống bản dùng thử miễn phí từ[trang web](https://releases.aspose.com/).
+ Có, bạn có thể bắt đầu sử dụng Aspose.Cells bằng cách tải xuống bản dùng thử miễn phí từ[trang web](https://releases.aspose.com/).
 ### Aspose.Cells hỗ trợ xuất những định dạng hình ảnh nào?
 Aspose.Cells hỗ trợ nhiều định dạng hình ảnh, bao gồm JPEG, PNG, BMP và GIF.
 ### Tôi có thể tìm thêm hỗ trợ cho Aspose.Cells ở đâu?

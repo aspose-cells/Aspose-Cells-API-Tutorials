@@ -34,7 +34,7 @@ using Aspose.Cells;
 ```
 Most, hogy mindent beállítottunk, merüljünk el a kódban!
 ## 1. lépés: Állítsa be a kimeneti könyvtárat
-Először is meg kell határoznunk, hogy a kimeneti Excel fájl hova kerüljön mentésre. Ez a lépés egyértelmű, de kulcsfontosságú.
+Először is meg kell határoznunk, hogy a kimeneti Excel fájl hova kerüljön mentésre. Ez a lépés egyértelmű, de döntő.
 ```csharp
 // Kimeneti könyvtár
 string outputDir = "Your Document Directory\\";

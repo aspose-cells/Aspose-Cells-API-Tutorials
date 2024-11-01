@@ -38,7 +38,7 @@ if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
 Dengan memeriksa apakah direktori tersebut ada dan membuatnya jika tidak ada, Anda memastikan bahwa file Anda tersimpan rapi di satu tempat.
-## Langkah 2: Membuat Instansiasi Objek Buku Kerja
+## Langkah 2: Membuat Instansi Objek Buku Kerja
 Buku kerja merupakan representasi dari berkas Excel Anda. Buku kerja merupakan titik awal untuk setiap operasi yang ingin Anda lakukan pada lembar Excel.
 ```csharp
 Workbook workbook = new Workbook();

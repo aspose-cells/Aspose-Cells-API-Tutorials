@@ -82,7 +82,7 @@ Style style = cell.GetStyle();
 
 - Ten wiersz pobiera istniejący styl komórki, dzięki czemu można go zmodyfikować bez utraty domyślnego formatowania.
 ## Krok 9: Ustaw styl czcionki
-A teraz czas na najlepszą część — zmieńmy atrybuty stylu czcionki!
+A teraz czas na najlepszą część – zmieńmy atrybuty stylu czcionki!
 ```csharp
 style.Font.IsBold = true;
 ```

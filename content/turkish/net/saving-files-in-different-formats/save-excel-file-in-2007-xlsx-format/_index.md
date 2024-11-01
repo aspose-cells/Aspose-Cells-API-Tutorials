@@ -12,7 +12,7 @@ Kendinizi hiç karmaşık Excel dosya formatlarıyla boğuşurken ve çeviride k
 ## Ön koşullar
 Ayrıntılara girmeden önce, yerine getirmeniz gereken birkaç ön koşul var:
 1. Visual Studio - Sisteminizde Visual Studio'nun yüklü olduğundan emin olun. C# kodunuzu zahmetsizce yazmanıza ve yürütmenize yardımcı olacaktır.
-2.  Aspose.Cells Kütüphanesi - Aspose.Cells for .NET kütüphanesine ihtiyacınız olacak. Bunu şuradan kolayca indirebilirsiniz:[Aspose Hücreleri Sürüm Sayfası](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells Kütüphanesi - Aspose.Cells for .NET kütüphanesine ihtiyacınız olacak. Bunu şuradan kolayca indirebilirsiniz:[Aspose Hücreleri Sürüm Sayfası](https://releases.aspose.com/cells/net/).
 3. Temel Programlama Bilgisi - C# ve .NET'e aşina olmanız, ele alacağımız kod parçacıklarını daha iyi anlamanızı sağlayacaktır.
 4. Bir Test Belge Dizini - Excel dosyalarınızı kaydedeceğiniz ve test edeceğiniz bir klasör oluşturun veya karar verin. Bu eğitimde, buna "Belge Dizininiz" diyeceğiz.
 Her şey yerli yerinde olduğuna göre artık yeteneklerinizi sergilemeye hazırsınız!

@@ -17,7 +17,7 @@ Aspose.Cells för .NET ger utvecklare kraftfulla verktyg för att hantera Excel-
 
 ## Få varningar när du laddar Excel-fil i .NET
 
- När du laddar en Excel-fil kan vissa dataformat eller innehåll utlösa varningar. Lär dig hur du hanterar och tolkar dessa varningar med[Få varningar när du laddar Excel-fil i .NET](./getting-warnings-while-loading-excel-file/)handledning. Den här guiden är ett måste för utvecklare som vill hantera och lösa kompatibilitetsproblem eller formateringsvarningar effektivt. Genom att åtgärda dessa varningar tidigt säkerställer du en smidigare, felfri upplevelse när du laddar filer till din applikation.
+ När du laddar en Excel-fil kan vissa dataformat eller innehåll utlösa varningar. Lär dig hur du hanterar och tolkar dessa varningar med[Få varningar när du laddar Excel-fil i .NET](./getting-warnings-while-loading-excel-file/) handledning. Den här guiden är ett måste för utvecklare som vill hantera och lösa kompatibilitetsproblem eller formateringsvarningar effektivt. Genom att åtgärda dessa varningar tidigt säkerställer du en smidigare, felfri upplevelse när du laddar filer till din applikation.
 
 ## Specificera dokumentversionen av Excel-filen programmatiskt i .NET
 
@@ -25,7 +25,7 @@ Aspose.Cells för .NET ger utvecklare kraftfulla verktyg för att hantera Excel-
 
 ### Trimma ledande tomma rader och kolumner under export
 
- Tomma rader och kolumner kan störa dina exporter, särskilt när du hanterar CSV-filer. De[Trimma ledande tomma rader och kolumner under export](./trimming-leading-blank-rows-and-columns/)tutorial gör att du kan rensa upp dina data genom att trimma onödiga tomma utrymmen i början av rader och kolumner. Denna handledning är perfekt för utvecklare som vill skapa kortfattade och snygga filer som är redo för analys eller presentation. En ren, polerad utskrift ser inte bara professionell ut utan gör också databehandlingen mycket enklare.
+Tomma rader och kolumner kan störa dina exporter, särskilt när du hanterar CSV-filer. De[Trimma ledande tomma rader och kolumner under export](./trimming-leading-blank-rows-and-columns/) tutorial gör att du kan rensa upp dina data genom att trimma onödiga tomma utrymmen i början av rader och kolumner. Denna handledning är perfekt för utvecklare som vill skapa kortfattade och snygga filer som är redo för analys eller presentation. En ren, polerad utskrift ser inte bara professionell ut utan gör också databehandlingen mycket enklare.
 
 ## Spara och exportera Excel-filer med Options Tutorials
 ### [Exportera kommentarer samtidigt som du sparar Excel-fil till HTML](./exporting-comments/)

@@ -42,14 +42,14 @@ Tout d'abord, vous devez créer un répertoire dans lequel votre fichier Excel s
 
 ```csharp
 // Répertoire de sortie
-string outputDir = "Your Output Directory"; //Modifiez ceci selon le chemin souhaité
+string outputDir = "Your Output Directory"; // Modifiez ceci selon le chemin souhaité
 ```
 
 Au lieu de « Votre répertoire de sortie », vous pouvez spécifier un chemin réel dans lequel vous souhaitez que le fichier Excel soit enregistré. Assurez-vous que ce répertoire existe sur votre système ; sinon, vous rencontrerez des erreurs plus tard.
 
 ## Étape 2 : Instanciation d'un objet de classeur
 
- Maintenant, vous voudrez commencer par créer une nouvelle instance de`Workbook` classe. Il s'agit de l'élément de base fondamental pour toutes les opérations Excel utilisant Aspose.Cells.
+ Maintenant, vous voudrez commencer par créer une nouvelle instance de`Workbook`classe. Il s'agit de l'élément de base fondamental pour toutes les opérations Excel utilisant Aspose.Cells.
 
 ```csharp
 // Instanciation d'un objet Workbook

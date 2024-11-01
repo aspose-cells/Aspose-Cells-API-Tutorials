@@ -134,4 +134,4 @@ Console.WriteLine("ReadAndWriteExternalConnectionOfXLSBFile executed successfull
 بالتأكيد! يدعم Aspose.Cells مجموعة متنوعة من تنسيقات الملفات، بما في ذلك XLSX وCSV والمزيد.
 
 ### أين يمكنني طلب المساعدة إذا واجهت مشاكل؟  
- يمكنك الحصول على الدعم من منتديات Aspose[هنا](https://forum.aspose.com/c/cells/9).
+يمكنك الحصول على الدعم من منتديات Aspose[هنا](https://forum.aspose.com/c/cells/9).

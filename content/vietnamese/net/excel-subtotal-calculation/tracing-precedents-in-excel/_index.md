@@ -42,7 +42,7 @@ Bây giờ, chúng ta hãy phân tích quy trình thực tế để theo dõi c�
 string dataDir = "Your Document Directory"; // Thay thế bằng thư mục thực tế của bạn
 Workbook workbook = new Workbook(dataDir + "Book1.xlsx");
 ```
- Trong đoạn mã này, hãy nhớ thay thế`"Your Document Directory"` với đường dẫn nơi lưu trữ tệp Excel của bạn. Dòng này về cơ bản sẽ mở sổ làm việc mà bạn sẽ làm việc.
+ Trong đoạn mã này, hãy nhớ thay thế`"Your Document Directory"` với đường dẫn nơi tệp Excel của bạn nằm. Dòng này về cơ bản sẽ mở sổ làm việc mà bạn sẽ làm việc.
 ## Bước 2: Truy cập Bộ sưu tập tế bào
 Sau khi tải bảng tính, bước tiếp theo là truy cập vào bảng tính đầu tiên và tập hợp các ô của bảng tính đó.
 ```csharp

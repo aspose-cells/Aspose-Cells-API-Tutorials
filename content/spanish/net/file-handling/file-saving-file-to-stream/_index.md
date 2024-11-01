@@ -13,7 +13,7 @@ Cuando se trata de trabajar con archivos de Excel en sus aplicaciones .NET, Aspo
 Antes de pasar al meollo del asunto, hay algunas cosas que deberá tener en cuenta. Considere esta lista de verificación para garantizar una experiencia fluida a medida que avanzamos en el tutorial.
 1. Visual Studio: Asegúrate de tener Visual Studio instalado en tu equipo. No te preocupes, incluso puedes usar la edición Community, que es gratuita y funciona perfectamente.
 2. .NET Framework: la versión de .NET que estés usando debe ser compatible con Aspose.Cells. En general, cualquier versión de .NET Framework 4.0 o posterior debería ser compatible.
-3.  Biblioteca Aspose.Cells: Descargue e instale la biblioteca Aspose.Cells para .NET. Puede encontrarla[aquí](https://releases.aspose.com/cells/net/). 
+3. Biblioteca Aspose.Cells: Descargue e instale la biblioteca Aspose.Cells para .NET. Puede encontrarla[aquí](https://releases.aspose.com/cells/net/). 
 4. Conocimientos básicos de C#: te resultará útil tener un poco de familiaridad con la programación en C#, pero no es necesario que seas un experto en codificación. Créeme, si puedes seguir una receta, ¡puedes seguir esta guía!
 5.  Archivo de Excel: Necesitará un archivo de Excel inicial, en nuestro caso, llamado`Book1.xlsx`Siéntete libre de crear uno sencillo si aún no lo tienes.
 ¡Ahora que estamos todo listos, importemos los paquetes necesarios!
@@ -50,7 +50,7 @@ Ahora, carguemos el libro de trabajo para poder jugar con su contenido. Para ell
 ```csharp
 Workbook workbook = new Workbook(filePath);
 ```
-¿Qué está pasando aquí? Estamos creando una nueva instancia de la`Workbook` clase y pasar la ruta de tu archivo de Excel existente. ¡Es como abrir un libro de recetas para encontrar tu plato favorito!
+ ¿Qué está pasando aquí? Estamos creando una nueva instancia de la`Workbook`clase y pasar la ruta de tu archivo de Excel existente. ¡Es como abrir un libro de recetas para encontrar tu plato favorito!
 ## Paso 4: Crear un FileStream para guardar el libro de trabajo
  A continuación, necesitamos crear un`FileStream` Objeto que establece dónde guardaremos el libro de trabajo modificado recientemente. Codifique de la siguiente manera:
 ```csharp

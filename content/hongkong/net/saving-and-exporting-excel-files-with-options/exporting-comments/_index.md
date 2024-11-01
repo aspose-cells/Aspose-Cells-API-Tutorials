@@ -67,7 +67,7 @@ ExportCommentsWhileSavingExcelFileToHtml executed successfully.
 ```
 此訊息確認文件已成功轉換為 HTML，並且所有註釋均已匯出。現在，您可以在任何 Web 瀏覽器中開啟 HTML 檔案並查看內容和註釋，就像它們出現在原始 Excel 檔案中一樣！
 ## 結論
-現在你就得到它了！您剛剛學習如何使用 Aspose.Cells for .NET 將註解從 Excel 檔案匯出到 HTML。這個過程不僅簡單，而且還確保在轉換為 HTML 時不會留下任何重要註釋或註釋。無論您是要產生動態報告還是只是轉換 Excel 檔案以供 Web 使用，此功能都可以成為真正的救星。
+現在你就擁有了！您剛剛學習如何使用 Aspose.Cells for .NET 將註解從 Excel 檔案匯出到 HTML。這個過程不僅簡單，而且還確保在轉換為 HTML 時不會留下任何重要註釋或註釋。無論您是要產生動態報告還是只是轉換 Excel 檔案以供 Web 使用，此功能都可以成為真正的救星。
 ## 常見問題解答
 ### 我可以僅將特定註釋從 Excel 文件匯出為 HTML 嗎？  
 不，Aspose.Cells 會匯出所有註釋`IsExportComments`設定為 true。但是，您可以透過在匯出之前手動修改 Excel 檔案來自訂要包含的註解。
@@ -77,5 +77,5 @@ ExportCommentsWhileSavingExcelFileToHtml executed successfully.
 是的！ Aspose.Cells 支援多種匯出格式，包括 PDF 和 Word。您也可以使用類似的選項來包含這些格式的註解。
 ### 如何確保註解出現在 HTML 輸出中的正確位置？  
 Aspose.Cells 自動處理註解的放置，確保它們像在 Excel 檔案中一樣出現在適當的位置。
-### Aspose.Cells 是否與所有版本的 Excel 相容？  
+### Aspose.Cells 與所有版本的 Excel 相容嗎？  
 是的，Aspose.Cells 旨在與 Excel 的所有主要版本一起使用，確保與您的檔案相容，無論它們是 XLS、XLSX 還是其他 Excel 格式。

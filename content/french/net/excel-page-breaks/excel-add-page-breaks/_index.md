@@ -118,4 +118,4 @@ Vous pouvez enregistrer des fichiers dans des formats tels que .xls, .xlsx, .csv
 
 ### Existe-t-il une communauté pour le support d'Aspose ?
 
-Absolument ! Vous pouvez accéder au forum de la communauté Aspose pour obtenir de l'aide et discuter[ici](https://forum.aspose.com/c/cells/9).
+ Absolument ! Vous pouvez accéder au forum de la communauté Aspose pour obtenir de l'aide et discuter[ici](https://forum.aspose.com/c/cells/9).

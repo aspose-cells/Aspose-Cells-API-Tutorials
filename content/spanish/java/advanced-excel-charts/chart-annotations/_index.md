@@ -22,7 +22,7 @@ Antes de profundizar en la implementación, asegúrese de tener los siguientes r
 
 ## Configuración de Aspose.Cells para Java
 
- Para comenzar, debe configurar Aspose.Cells para Java en su proyecto. Puede descargar la biblioteca desde el sitio web de Aspose[aquí](https://releases.aspose.com/cells/java/)Una vez descargada, agregue la biblioteca a su proyecto Java.
+Para comenzar, debe configurar Aspose.Cells para Java en su proyecto. Puede descargar la biblioteca desde el sitio web de Aspose[aquí](https://releases.aspose.com/cells/java/)Una vez descargada, agregue la biblioteca a su proyecto Java.
 
 ## Creación de un libro de trabajo de Excel
 

@@ -2,7 +2,7 @@
 title: Ange värden Format Kod för diagramserie
 linktitle: Ange värden Format Kod för diagramserie
 second_title: Aspose.Cells .NET Excel Processing API
-description: Lär dig hur du ställer in värden format kod för diagramserier i Aspose.Cells för .NET med denna detaljerade steg-för-steg handledning. Perfekt för nybörjare.
+description: Lär dig hur du ställer in värdeformatkod för diagramserier i Aspose.Cells för .NET med denna detaljerade steg-för-steg-handledning. Perfekt för nybörjare.
 type: docs
 weight: 17
 url: /sv/net/advanced-chart-operations/set-values-format-code-of-chart-series/
@@ -108,7 +108,7 @@ Series srs = ch.NSeries[0];
 srs.ValuesFormatCode = "$#,##0"; //Detta ställer in den till valutaformat
 ```
 
-## Steg 7: Spara utdata Excel-filen
+## Steg 7: Spara Excel-filen
 
 Slutligen måste vi spara ändringarna vi har gjort i en ny Excel-fil.
 

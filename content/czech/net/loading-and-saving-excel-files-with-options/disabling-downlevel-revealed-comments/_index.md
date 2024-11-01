@@ -12,7 +12,7 @@ Potřebovali jste někdy převést excelový sešit do HTML a chtěli jste zajis
 Na konci tohoto článku budete mít jasno v tom, jak tuto funkci používat, a zajistit, aby byl váš výstup HTML čistý a bez komentářů.
 ## Předpoklady
 Než se ponoříme do podrobného průvodce, pojďme si pokrýt pár věcí, které budete muset mít na místě, abyste mohli plynule pokračovat:
-1.  Aspose.Cells for .NET: Budete muset mít nainstalovanou knihovnu Aspose.Cells. Pokud jste jej ještě nenainstalovali, můžete si jej stáhnout[zde](https://releases.aspose.com/cells/net/).
+1. Aspose.Cells for .NET: Budete muset mít nainstalovanou knihovnu Aspose.Cells. Pokud jste jej ještě nenainstalovali, můžete si jej stáhnout[zde](https://releases.aspose.com/cells/net/).
 2. IDE: Vývojové prostředí jako Visual Studio pro psaní a spouštění vašeho kódu C#.
 3. Základní znalost C#: Znalost syntaxe C# a objektově orientovaného programování vám pomůže sledovat kód.
 4.  Dočasná nebo licencovaná verze: Můžete buď použít bezplatnou zkušební verzi, nebo požádat o dočasnou licenci od[zde](https://purchase.aspose.com/temporary-license/). To zajišťuje, že knihovna funguje bez jakýchkoliv omezení.
@@ -57,7 +57,7 @@ Po nakonfigurování objektu HtmlSaveOptions je dalším krokem uložení sešit
 // Uložte sešit jako soubor HTML se zadanými možnostmi uložení
 wb.Save(outputDir + "outputDisableDownlevelRevealedComments_true.html", opts);
 ```
-tomto řádku kódu ukládáme sešit do výstupního adresáře, který jste zadali dříve, a aplikujeme nastavení DisableDownlevelRevealedComments. Výsledkem bude čistý HTML soubor bez nežádoucích komentářů.
+V tomto řádku kódu ukládáme sešit do výstupního adresáře, který jste zadali dříve, a aplikujeme nastavení DisableDownlevelRevealedComments. Výsledkem bude čistý HTML soubor bez nežádoucích komentářů.
 ## Krok 5: Ověřte a spusťte
 Nakonec, abyste zajistili, že vše fungovalo podle očekávání, můžete odeslat zprávu o úspěchu do konzoly.
 ```csharp

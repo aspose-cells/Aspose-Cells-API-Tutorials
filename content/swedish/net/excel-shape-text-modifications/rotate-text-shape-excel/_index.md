@@ -83,7 +83,7 @@ Aspose.Cells.Drawing.Texts.ShapeTextAlignment shapeTextAlignment = sh.TextBody.T
 shapeTextAlignment.RotateTextWithShape = false;
 ```
  Genom att ställa in`RotateTextWithShape` till false ser vi till att texten förblir upprätt och inte roterar med formen, vilket håller allt snyggt och organiserat.
-## Steg 7: Spara utdata Excel-filen
+## Steg 7: Spara Excel-filen
 Slutligen, låt oss spara våra ändringar i en ny Excel-fil. Detta säkerställer att vi inte förlorar våra redigeringar och att vi har en snygg utdata.
 ```csharp
 //Spara den utgående Excel-filen.

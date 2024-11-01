@@ -69,11 +69,11 @@ Ora è il momento di creare una nuova cartella di lavoro. È qui che essenzialme
 Workbook workbook = new Workbook();
 ```
 
- Qui dichiariamo una nuova`Workbook`oggetto che rappresenta un file Excel e ci permetterà di manipolarne il contenuto.
+ Qui dichiariamo una nuova`Workbook` oggetto che rappresenta un file Excel e ci permetterà di manipolarne il contenuto.
 
 ## Passaggio 3: accedi al primo foglio di lavoro
 
-I file Excel possono contenere più fogli di lavoro. Accederemo al primo foglio di lavoro per applicare il nostro fattore di scala.
+file Excel possono contenere più fogli di lavoro. Accederemo al primo foglio di lavoro per applicare il nostro fattore di scala.
 
 ```csharp
 // Accesso al primo foglio di lavoro nel file Excel

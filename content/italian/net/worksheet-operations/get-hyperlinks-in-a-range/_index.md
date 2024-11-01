@@ -8,7 +8,7 @@ weight: 10
 url: /it/net/worksheet-operations/get-hyperlinks-in-a-range/
 ---
 ## Introduzione
-Ti sei mai trovato immerso nei fogli di calcolo, chiedendoti come estrarre in modo efficiente gli hyperlink? Se è così, sei nel posto giusto! In questa guida, ti guideremo attraverso il processo di ottenimento di hyperlink in un intervallo specificato utilizzando Aspose.Cells per .NET. Questa potente libreria semplifica il lavoro con i file Excel, rendendo facile il recupero e persino l'eliminazione degli hyperlink. Quindi, prendi una tazza di caffè e tuffiamoci nel mondo di Aspose.Cells!
+Ti sei mai trovato immerso nei fogli di calcolo, chiedendoti come estrarre in modo efficiente gli hyperlink? Se è così, sei nel posto giusto! In questa guida, ti guideremo attraverso il processo di ottenimento di hyperlink in un intervallo specificato utilizzando Aspose.Cells per .NET. Questa potente libreria elimina il noioso compito di lavorare con i file Excel, rendendo facile per te recuperare e persino eliminare gli hyperlink. Quindi, prendi una tazza di caffè e tuffiamoci nel mondo di Aspose.Cells!
 ## Prerequisiti
 Prima di addentrarci nel nocciolo della codifica, ci sono alcuni prerequisiti che dovrai avere. Non preoccuparti, non è una lunga lista!
 ### Prepara il tuo ambiente di sviluppo

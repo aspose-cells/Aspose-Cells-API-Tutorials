@@ -1,6 +1,6 @@
 ---
-title: Přidat Oval do listu v Excelu
-linktitle: Přidat Oval do listu v Excelu
+title: Přidejte Oval do listu v aplikaci Excel
+linktitle: Přidejte Oval do listu v aplikaci Excel
 second_title: Aspose.Cells .NET Excel Processing API
 description: Naučte se, jak přidat ovál do listu aplikace Excel pomocí Aspose.Cells for .NET. Průvodce krok za krokem s podrobným vysvětlením kódů.
 type: docs

@@ -14,7 +14,7 @@ Les graphiques en cascade sont un outil essentiel dans la visualisation des donn
 
 ## Prérequis
 
-Avant de plonger dans les détails, assurez-vous que vous disposez des conditions préalables suivantes :
+Avant de plonger dans les détails, assurez-vous que les conditions préalables suivantes sont remplies :
 
 -  Aspose.Cells pour Java : vous devez avoir installé Aspose.Cells pour Java. Vous pouvez le télécharger à partir de[ici](https://releases.aspose.com/cells/java/).
 

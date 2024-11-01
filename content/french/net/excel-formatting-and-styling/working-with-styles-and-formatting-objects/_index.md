@@ -179,7 +179,7 @@ Une fois votre style terminé, il est temps de l'appliquer sur la cellule :
 cell.SetStyle(style);
 ```
 
-Ainsi, votre cellule A1 est nette et prête à impressionner.
+Ainsi, votre téléphone portable A1 est impeccable et prêt à impressionner.
 
 ## Étape 12 : Application du style à d’autres cellules
 

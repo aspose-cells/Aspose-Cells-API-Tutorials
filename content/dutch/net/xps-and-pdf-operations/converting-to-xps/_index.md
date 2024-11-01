@@ -35,14 +35,14 @@ Laten we het proces voor het converteren van een Excel-bestand naar XPS-formaat 
 ## Stap 1: Definieer uw documentendirectory
 Hier specificeert u het pad waar uw Excel-bestanden zich bevinden. Dit is cruciaal, omdat de code moet weten waar de bestanden te vinden zijn.
 ```csharp
-string dataDir = "Your Document Directory"; // Zorg ervoor dat u het vervangt met uw eigen pad
+string dataDir = "Your Document Directory"; // Zorg ervoor dat u het vervangt door uw eigen pad
 ```
 ## Stap 2: Open een Excel-bestand
 Laten we nu uw Excel-bestand in een Aspose Workbook-object laden. Deze actie geeft uw programma toegang tot de gegevens in dat Excel-bestand.
 ```csharp
 Workbook workbook = new Workbook(dataDir + "Book1.xls");
 ```
- Hier maken we een nieuw exemplaar van de`Workbook` klasse en het bestand "Book1.xls" erin laden.
+ Hier maken we een nieuw exemplaar van de`Workbook` klasse en laadt de "Book1.xls" erin.
 ## Stap 3: Toegang tot het eerste werkblad
 Vervolgens moeten we het werkblad pakken waar we aan willen werken. Omdat we het eerste werkblad gebruiken, ziet onze code er zo uit:
 ```csharp

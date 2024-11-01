@@ -100,7 +100,7 @@ Sekarang, mari kita bahas lembar kerja tertentu yang berisi diagram pai. Kita ak
 Worksheet sheet = workbook.Worksheets[1];
 ```
 
- Dengan mengakses`Worksheets`koleksi, kita bisa mendapatkan lembar spesifik yang kita butuhkan.
+ Dengan mengakses`Worksheets` koleksi, kita bisa mendapatkan lembar spesifik yang kita butuhkan.
 
 ## Langkah 4: Dapatkan Bagannya
 

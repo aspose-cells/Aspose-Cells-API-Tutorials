@@ -39,14 +39,14 @@ string outputDir = "Your Document Directory";
 ```
  Yer değiştirmek`"Your Document Directory"` dizinlerinize giden gerçek yol ile.
 ## Adım 2: Excel Dosyasını Açın
-Artık dizinlerimizi ayarladığımıza göre, çalışmak istediğiniz Excel dosyasını açalım.`Workbook` Aspose.Cells'deki sınıf Excel belgesini yüklemek için kullanılır.
+ Artık dizinlerimizi ayarladığımıza göre, çalışmak istediğiniz Excel dosyasını açalım.`Workbook` Aspose.Cells'deki sınıf Excel belgesini yüklemek için kullanılır.
 ```csharp
 // Bir Excel dosyası açın
 Workbook workbook = new Workbook(sourceDir + "sampleSetDefaultFontPropertyOfPdfSaveOptionsAndImageOrPrintOptions.xlsx");
 ```
 Dosya adını gerçek dosya adınızla değiştirdiğinizden emin olun.
 ## Adım 3: Görüntü İşleme Seçeneklerini Ayarlayın
- Sonra, Excel sayfamızı bir resim biçimine dönüştürmek için işleme seçeneklerini yapılandırmamız gerekiyor. Bir örnek oluşturacağız`ImageOrPrintOptions`, resim türünü ve varsayılan yazı tipini belirterek.
+Sonra, Excel sayfamızı bir resim biçimine dönüştürmek için işleme seçeneklerini yapılandırmamız gerekiyor. Bir örnek oluşturacağız`ImageOrPrintOptions`, resim türünü ve varsayılan yazı tipini belirterek.
 ```csharp
 // PNG dosya biçimine dönüştürme
 ImageOrPrintOptions imgOpt = new ImageOrPrintOptions();
@@ -63,7 +63,7 @@ SheetRender sr = new SheetRender(workbook.Worksheets[0], imgOpt);
 sr.ToImage(0, outputDir + "out1_imagePNG.png");
 ```
 ## Adım 5: Görüntü Türünü Değiştirin ve TIFF'e Dönüştürün
-Aynı sayfayı TIFF gibi farklı bir görüntü biçimine dönüştürmek istiyorsanız, basitçe`ImageType` özelliği ve işleme sürecini tekrarlayın.
+ Aynı sayfayı TIFF gibi farklı bir görüntü biçimine dönüştürmek istiyorsanız, basitçe`ImageType` özelliği ve işleme sürecini tekrarlayın.
 ```csharp
 // TIFF formatına ayarlayın
 imgOpt.ImageType = Drawing.ImageType.Tiff;
@@ -71,7 +71,7 @@ WorkbookRender wr = new WorkbookRender(workbook, imgOpt);
 wr.ToImage(outputDir + "out1_imageTIFF.tiff");
 ```
 ## Adım 6: PDF Kaydetme Seçeneklerini Yapılandırın
- Şimdi, PDF kaydetme seçeneklerini ayarlayalım. Bir örnek oluşturacağız`PdfSaveOptions`, varsayılan yazı tipini ayarlayalım ve eksik yazı tiplerini kontrol etmek istediğimizi belirtelim.
+ Şimdi, PDF kaydetme seçeneklerini ayarlayalım. Bir örnek oluşturacağız`PdfSaveOptions`varsayılan yazı tipini ayarlayalım ve eksik yazı tiplerini kontrol etmek istediğimizi belirtelim.
 ```csharp
 // PDF kaydetme seçeneklerini yapılandırın
 PdfSaveOptions saveOptions = new PdfSaveOptions();

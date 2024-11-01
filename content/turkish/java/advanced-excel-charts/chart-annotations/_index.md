@@ -22,7 +22,7 @@ Uygulamaya geçmeden önce aşağıdaki ön koşulların mevcut olduğundan emin
 
 ## Java için Aspose.Cells Kurulumu
 
- Başlamak için projenizde Aspose.Cells for Java'yı kurmanız gerekir. Kütüphaneyi Aspose web sitesinden indirebilirsiniz[Burada](https://releases.aspose.com/cells/java/). İndirdikten sonra kütüphaneyi Java projenize ekleyin.
+Başlamak için projenizde Aspose.Cells for Java'yı kurmanız gerekir. Kütüphaneyi Aspose web sitesinden indirebilirsiniz[Burada](https://releases.aspose.com/cells/java/). İndirdikten sonra kütüphaneyi Java projenize ekleyin.
 
 ## Excel Çalışma Kitabı Oluşturma
 

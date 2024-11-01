@@ -72,7 +72,7 @@ if (shape.AutoShapeType == AutoShapeType.NotPrimitive)
 ShapePathCollection shapePathCollection = shape.Paths;
 ```
 Αυτή η γραμμή ανακτά τη συλλογή των μονοπατιών που ορίζουν το σχήμα. Σκεφτείτε το σαν να έχετε το σχέδιο για το σχέδιο του σχήματος!
-## Βήμα 7: Κάνε βρόχο μέσα από κάθε διαδρομή
+## Βήμα 7: Κάντε βρόχο μέσω κάθε διαδρομής
 Για μια βαθύτερη κατανόηση της δομής του σχήματος, θα περιηγηθούμε σε κάθε διαδρομή που σχετίζεται με το σχήμα:
 ```csharp
 foreach (ShapePath shapePath in shapePathCollection)

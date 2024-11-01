@@ -12,7 +12,7 @@ Hai mai dovuto convertire una cartella di lavoro Excel in HTML e hai voluto assi
 Alla fine di questo articolo avrai capito chiaramente come utilizzare questa funzionalità e come garantire che il tuo output HTML sia pulito e privo di commenti.
 ## Prerequisiti
 Prima di addentrarci nella guida dettagliata, vediamo alcune cose che ti serviranno per seguire il procedimento senza problemi:
-1.  Aspose.Cells per .NET: dovrai avere installata la libreria Aspose.Cells. Se non l'hai ancora installata, puoi scaricarla[Qui](https://releases.aspose.com/cells/net/).
+1. Aspose.Cells per .NET: dovrai avere installata la libreria Aspose.Cells. Se non l'hai ancora installata, puoi scaricarla[Qui](https://releases.aspose.com/cells/net/).
 2. IDE: un ambiente di sviluppo come Visual Studio per scrivere ed eseguire il codice C#.
 3. Conoscenza di base di C#: la familiarità con la sintassi di C# e la programmazione orientata agli oggetti ti aiuterà a seguire il codice.
 4.  Versione temporanea o con licenza: puoi utilizzare la versione di prova gratuita o richiedere una licenza temporanea da[Qui](https://purchase.aspose.com/temporary-license/)Ciò garantisce che la libreria funzioni senza alcuna limitazione.
@@ -70,7 +70,7 @@ Ed ecco fatto! Hai imparato con successo come disabilitare i commenti rivelati d
 Se hai trovato utile questo tutorial, ti consigliamo di provare altre funzionalità di Aspose.Cells per migliorare ulteriormente le tue capacità di elaborazione in Excel.
 ## Domande frequenti
 ### Cosa sono i commenti rivelati di livello inferiore?
-I commenti rivelati di livello inferiore sono solitamente utilizzati nello sviluppo web per fornire informazioni extra per i browser più vecchi che non supportano determinate funzionalità HTML. Nelle conversioni da Excel a HTML, a volte possono rivelare contenuti o commenti nascosti, motivo per cui disabilitarli può essere utile.
+commenti rivelati di livello inferiore sono solitamente utilizzati nello sviluppo web per fornire informazioni extra per i browser più vecchi che non supportano determinate funzionalità HTML. Nelle conversioni da Excel a HTML, a volte possono rivelare contenuti o commenti nascosti, motivo per cui disabilitarli può essere utile.
 ### Posso abilitare i commenti di livello inferiore se ne ho bisogno?
  Sì, basta impostare il`DisableDownlevelRevealedComments` proprietà a`false` se vuoi abilitare i commenti di livello inferiore quando salvi la tua cartella di lavoro in formato HTML.
 ### Come posso ottenere una licenza temporanea per Aspose.Cells?

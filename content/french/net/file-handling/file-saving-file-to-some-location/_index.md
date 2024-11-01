@@ -12,7 +12,7 @@ Lorsque vous travaillez avec des fichiers Excel dans .NET, la bibliothèque Aspo
 ## Prérequis
 Avant de nous plonger dans le code, nous allons vous fournir tout ce dont vous avez besoin pour suivre le cours sans problème. Voici ce que vous devriez avoir :
 1. Visual Studio : assurez-vous que Visual Studio est installé sur votre ordinateur. C'est là que nous allons écrire et tester notre application .NET.
-2. Bibliothèque Aspose.Cells : vous devrez télécharger la bibliothèque Aspose.Cells. Vous pouvez obtenir la dernière version[ici](https://releases.aspose.com/cells/net/).
+2.  Bibliothèque Aspose.Cells : vous devrez télécharger la bibliothèque Aspose.Cells. Vous pouvez obtenir la dernière version[ici](https://releases.aspose.com/cells/net/).
 3. .NET Framework : assurez-vous que vous disposez d’une version .NET Framework compatible pour Aspose.Cells, qui fonctionne généralement avec .NET Framework 4.0 et versions ultérieures.
 4. Compréhension de base de C# : une compréhension fondamentale de la programmation C# sera bénéfique. Ne vous inquiétez pas, nous vous expliquerons tout étape par étape !
 5.  Chemin du fichier : décidez où vous souhaitez enregistrer les fichiers de sortie. Créez un répertoire nommé`Your Document Directory` pour plus de simplicité.
@@ -47,9 +47,9 @@ Il peut parfois être nécessaire d'enregistrer vos fichiers dans un format plus
 // Enregistrer au format Excel 97–2003
 workbook.Save(dataDir + "output.xls");
 ```
- Cette ligne enregistre votre classeur en utilisant le`.xls`extension, qui est le format Excel pour les versions antérieures à 2007. C'est comme envoyer une lettre par la poste pour s'assurer qu'elle parvienne à un destinataire plus ancien !
+ Cette ligne enregistre votre classeur en utilisant le`.xls` extension, qui est le format Excel pour les versions antérieures à 2007. C'est comme envoyer une lettre par la poste pour s'assurer qu'elle parvienne à un destinataire plus ancien !
 ## Étape 4 : enregistrement au format Excel 2007
- Si vous souhaitez utiliser les fonctionnalités d'Excel 2007 et versions ultérieures, enregistrez-les dans`.xlsx` Le format est la voie à suivre. Voici comment procéder :
+Si vous souhaitez utiliser les fonctionnalités d'Excel 2007 et versions ultérieures, enregistrez-les dans`.xlsx` Le format est la voie à suivre. Voici comment procéder :
 ```csharp
 // Enregistrer au format xlsx d'Excel 2007
 workbook.Save(dataDir + "output.xlsx");

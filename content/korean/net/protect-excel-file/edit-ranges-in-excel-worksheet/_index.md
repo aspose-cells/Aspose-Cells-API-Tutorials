@@ -128,7 +128,7 @@ sheet.Protect(ProtectionType.All);
 book.Save(dataDir + "protectedrange.out.xls");
 ```
 
- 이렇게 하면 보호된 통합 문서가 다음과 같이 저장됩니다.`protectedrange.out.xls` 귀하가 지정한 디렉토리에 있습니다.
+이렇게 하면 보호된 통합 문서가 다음과 같이 저장됩니다.`protectedrange.out.xls` 귀하가 지정한 디렉토리에 있습니다.
 
 ## 결론
 

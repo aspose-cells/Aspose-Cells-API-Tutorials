@@ -16,7 +16,7 @@ url: /ko/net/excel-page-setup/fit-to-excel-pages-options/
 코딩에 뛰어들기 전에, 시작하는 데 필요한 모든 것이 있는지 확인해 보겠습니다. 준비해야 할 사항은 다음과 같습니다.
 
 1. Visual Studio: 컴퓨터에 Visual Studio가 설치되어 있는지 확인하세요. 이것은 모든 개발 작업의 주요 허브입니다.
-2. .NET용 Aspose.Cells: Aspose.Cells 라이브러리를 다운로드하여 프로젝트에 추가해야 합니다. 쉽게 가져올 수 있습니다.[Aspose 웹사이트](https://releases.aspose.com/cells/net/).
+2.  .NET용 Aspose.Cells: Aspose.Cells 라이브러리를 다운로드하여 프로젝트에 추가해야 합니다. 쉽게 가져올 수 있습니다.[Aspose 웹사이트](https://releases.aspose.com/cells/net/).
 3. 기본 C# 지식: C# 프로그래밍에 대한 지식이 엄청나게 도움이 될 것입니다. 변수, 루프, 기본 파일 I/O를 처리할 수 있다면, 바로 집에 있는 것과 같을 것입니다.
 4. .NET Framework: 라이브러리는 이 생태계 내에서의 호환성을 위해 설계되었으므로 프로젝트가 적절한 .NET Framework 버전으로 설정되었는지 확인하세요.
 
@@ -69,7 +69,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 ```csharp
 // 워크시트의 길이가 차지하는 페이지 수 설정
 worksheet.PageSetup.FitToPagesTall = 1;
-// 워크시트의 너비가 차지하는 페이지 수 설정
+//워크시트의 너비가 차지하는 페이지 수 설정
 worksheet.PageSetup.FitToPagesWide = 1;
 ```
 

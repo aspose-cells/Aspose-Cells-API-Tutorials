@@ -44,7 +44,7 @@ using Aspose.Cells.Drawing;
 using Aspose.Cells.Tables;
 ```
 
-Hierdoor kunt u de klassen en methoden van de Aspose.Cells-bibliotheek naadloos gebruiken.
+Hiermee kunt u de klassen en methoden van de Aspose.Cells-bibliotheek naadloos gebruiken.
 
 Nu we de vereisten op orde hebben en de pakketten hebben geïmporteerd, gaan we het proces voor het wijzigen van de uitlijning van cellen stap voor stap uitleggen.
 

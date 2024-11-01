@@ -54,7 +54,7 @@ Nu när vi har vår arbetsbok är det dags att komma åt det specifika arbetsbla
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
-I det här fallet tar vi tag i det första kalkylbladet i vår arbetsbok. Arbetsblad är som sidorna i en bok, var och en innehåller olika data. Detta steg säkerställer att du arbetar på rätt ark.
+I det här fallet tar vi tag i det första kalkylbladet i vår arbetsbok. Arbetsblad är som sidorna i en bok, var och en innehåller olika data. Detta steg säkerställer att du arbetar på rätt arbetsblad.
 
 ## Steg 3: Öppna valideringssamlingen
 

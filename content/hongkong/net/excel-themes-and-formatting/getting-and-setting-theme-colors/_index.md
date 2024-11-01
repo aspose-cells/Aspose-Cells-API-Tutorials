@@ -49,7 +49,7 @@ c = workbook.GetThemeColor(ThemeColorType.Accent2);
 //列印顏色。
 Console.WriteLine("Theme color Accent2: " + c);
 ```
-當您運行它時，它將列印主題中目前使用的顏色。如果您想在更改之前了解預設設置，這非常有用。
+當您執行此命令時，它將列印主題中目前使用的顏色。如果您想在更改之前了解預設設置，這非常有用。
 ## 步驟3：設定新的主題顏色
 現在來了有趣的部分！我們將更改背景 1 和強調 2 的顏色。讓我們將Background1 更改為紅色，將Accent2 更改為藍色。這將為工作簿帶來大膽的新外觀！
 您正在使用 SetThemeColor 方法來修改Background1 和Accent2 的主題顏色。
@@ -83,7 +83,7 @@ workbook.Save(dataDir + "output.out.xlsx");
 ```
 就是這樣！您剛剛使用 Aspose.Cells for .NET 成功修改了 Excel 檔案的主題顏色。高五！
 ## 結論
-一旦掌握了竅門，使用 Aspose.Cells for .NET 更改 Excel 檔案中的主題顏色就非常簡單。只需幾行程式碼，您就可以完全改變工作簿的外觀和風格，為其提供客製化且專業的外觀。無論您是想匹配公司的品牌還是只是想讓電子表格流行起來，Aspose.Cells 都能提供完成此任務的工具。
+一旦掌握了竅門，使用 Aspose.Cells for .NET 更改 Excel 檔案中的主題顏色就非常簡單。只需幾行程式碼，您就可以完全改變工作簿的外觀和風格，為其提供客製化且專業的外觀。無論您是希望與公司的品牌相符還是只是想讓您的電子表格流行起來，Aspose.Cells 都能提供完成此任務的工具。
 ## 常見問題解答
 ### 除了預先定義的主題顏色之外，我還可以設定自訂顏色嗎？
 是的，使用 Aspose.Cells，您可以為 Excel 工作簿的任何部分設定自訂顏色，而不僅僅是預先定義的主題顏色。

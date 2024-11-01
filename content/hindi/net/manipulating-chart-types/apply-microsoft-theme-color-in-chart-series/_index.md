@@ -101,7 +101,7 @@ chart.NSeries[0].Area.FillFormat.FillType = Aspose.Cells.Drawing.FillType.Solid;
 इसके बाद, हमें चार्ट के भरण क्षेत्र के लिए रंग निर्धारित करना होगा। इस तरह हम अपने चुने हुए रंग को जीवंत बना सकते हैं।
 
 ```csharp
-// SolidFill का CellsColor प्राप्त करें
+//SolidFill का CellsColor प्राप्त करें
 CellsColor cc = chart.NSeries[0].Area.FillFormat.SolidFill.CellsColor;
 ```
 

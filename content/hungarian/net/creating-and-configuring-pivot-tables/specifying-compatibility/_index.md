@@ -155,7 +155,7 @@ pivotTable.RefreshData();
 pivotTable.CalculateData();
 ```
 
- Itt kezdődik az igazi átalakulás. Beállítással`IsExcel2003Compatible` hogy`true`, frissítéskor a karakterhosszt 255-re korlátozza.
+ Itt kezdődik az igazi átalakulás. Beállítás által`IsExcel2003Compatible` hogy`true`, frissítéskor a karakterhosszt 255-re korlátozza.
 
 ## 9. lépés: Ellenőrizze a hosszt a kompatibilitási beállítás után
 

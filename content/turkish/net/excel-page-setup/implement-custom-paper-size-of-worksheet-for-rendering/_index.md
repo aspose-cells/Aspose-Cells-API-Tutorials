@@ -16,7 +16,7 @@ Excel belgelerini programatik olarak oluşturmak ve özelleştirmek, özellikle 
 Koda dalmadan önce, düzgün bir şekilde ayarladığınızdan emin olalım. Başlamak için ihtiyacınız olanlar şunlardır:
 
 1. Visual Studio veya Herhangi Bir .NET IDE: Visual Studio gibi çalışan bir IDE'niz olduğundan emin olun. Burası tüm kodlama sihrinin gerçekleştiği oyun alanınız olacak.
-2.  Aspose.Cells for .NET Paketi: Henüz yapmadıysanız, Aspose.Cells kitaplığını indirip yüklemeniz gerekir. En son sürümü şu adreste bulabilirsiniz:[Aspose.Cells indirme sayfası](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells for .NET Paketi: Henüz yapmadıysanız, Aspose.Cells kitaplığını indirip yüklemeniz gerekir. En son sürümü şu adreste bulabilirsiniz:[Aspose.Cells indirme sayfası](https://releases.aspose.com/cells/net/).
 3. Temel C# Bilgisi: Kod boyunca size rehberlik edeceğiz ancak C#'a aşina olmanız nüansları daha iyi anlamanıza yardımcı olacaktır.
 4. .NET Framework'e Erişim: Projenizin .NET Framework'ün uyumlu bir sürümünü hedefleyecek şekilde ayarlandığından emin olun.
 
@@ -124,7 +124,7 @@ Aspose.Cells kullanarak Excel çalışma sayfalarınız için özel bir kağıt 
 ## SSS
 
 ### Lisans satın almadan Aspose.Cells'i kullanabilir miyim?
-Evet, .NET için Aspose.Cells'in ücretsiz deneme sürümünü deneyebilirsiniz.[Burada](https://releases.aspose.com/).
+ Evet, .NET için Aspose.Cells'in ücretsiz deneme sürümünü deneyebilirsiniz.[Burada](https://releases.aspose.com/).
 
 ### Geçici ruhsatın limitlerini aşarsam ne olur?
  Sınırları aşmak filigranlı çıktılara yol açacaktır. Kesintisiz hizmet için kalıcı bir lisans seçmek en iyisidir. Seçenekleri bulabilirsiniz[Burada](https://purchase.aspose.com/buy).

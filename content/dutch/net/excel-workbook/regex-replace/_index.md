@@ -38,7 +38,7 @@ using System;
 using Aspose.Cells;
 ```
 
-Met deze pakketten hebben we toegang tot de klassen en methoden van Aspose.Cells, waardoor we onze Excel-bestanden efficiënt kunnen bewerken.
+Met deze pakketten krijgen we toegang tot de klassen en methoden van Aspose.Cells, waardoor we onze Excel-bestanden efficiënt kunnen bewerken.
 
 Laten we het opsplitsen in beheersbare stappen. We begeleiden u door het proces van het vervangen van tekst in Excel met behulp van reguliere expressies, met specifieke aandacht voor het vervangen van het woord "KIM" door "TIM".
 

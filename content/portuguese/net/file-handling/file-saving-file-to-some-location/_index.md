@@ -12,7 +12,7 @@ Ao trabalhar com arquivos do Excel no .NET, a biblioteca Aspose.Cells se destaca
 ## Pré-requisitos
 Antes de pularmos para o código, vamos equipá-lo com tudo o que é necessário para seguir adiante sem problemas. Aqui está o que você deve ter:
 1. Visual Studio: Certifique-se de ter o Visual Studio instalado em sua máquina. É onde vamos escrever e testar nosso aplicativo .NET.
-2. Biblioteca Aspose.Cells: Você precisará baixar a biblioteca Aspose.Cells. Você pode obter a versão mais recente[aqui](https://releases.aspose.com/cells/net/).
+2.  Biblioteca Aspose.Cells: Você precisará baixar a biblioteca Aspose.Cells. Você pode obter a versão mais recente[aqui](https://releases.aspose.com/cells/net/).
 3. .NET Framework: certifique-se de ter uma versão compatível do .NET Framework para o Aspose.Cells, que normalmente funciona com o .NET Framework 4.0 e superior.
 4. Noções básicas de C#: Uma compreensão fundamental da programação em C# será benéfica. Não se preocupe; explicaremos tudo passo a passo!
 5.  Caminho do arquivo: Decida onde você quer salvar os arquivos de saída. Crie um diretório chamado`Your Document Directory` para simplificar.
@@ -47,9 +47,9 @@ Ao carregar a pasta de trabalho, você está dizendo: "Ei, quero trabalhar com e
 // Salvar no formato Excel 97–2003
 workbook.Save(dataDir + "output.xls");
 ```
- Esta linha salva sua pasta de trabalho usando o`.xls`extensão, que é o formato do Excel para versões anteriores a 2007. É como enviar uma carta pelos correios para garantir que ela chegue a um destinatário mais velho!
+ Esta linha salva sua pasta de trabalho usando o`.xls` extensão, que é o formato do Excel para versões anteriores a 2007. É como enviar uma carta pelos correios para garantir que ela chegue a um destinatário mais velho!
 ## Etapa 4: Salvando no formato Excel 2007
- Se você pretende usar recursos do Excel 2007 e versões posteriores, salvar em`.xlsx` format é o caminho a seguir. Veja como:
+Se você pretende usar recursos do Excel 2007 e versões posteriores, salvar em`.xlsx` format é o caminho a seguir. Veja como:
 ```csharp
 // Salvar no formato Excel 2007 xlsx
 workbook.Save(dataDir + "output.xlsx");
@@ -70,7 +70,7 @@ workbook.Save(dataDir + "output.ods");
 ```
 Com esta etapa, você não estará limitado apenas ao Excel, mas estará abrindo todo um mundo de possibilidades!
 ## Etapa 7: salvando como PDF
-E se você quiser compartilhar seus dados do Excel com alguém que não usa o Excel? Salvar como PDF é a solução perfeita. Veja como:
+se você quiser compartilhar seus dados do Excel com alguém que não usa o Excel? Salvar como PDF é a solução perfeita. Veja como:
 ```csharp
 // Salvar em formato PDF
 workbook.Save(dataDir + "output.pdf");
@@ -91,7 +91,7 @@ workbook.Save(dataDir + "output.xml");
 ```
 Este formato é útil para processamento de dados e pode ser facilmente lido por outros aplicativos que suportam XML.
 ## Conclusão
-E aí está! Você aprendeu com sucesso como salvar uma pasta de trabalho em vários formatos usando o Aspose.Cells para .NET. Esta biblioteca é incrivelmente versátil, simplificando operações que de outra forma seriam incômodas. Então, se você estiver enviando arquivos para colegas que usam versões mais antigas do Excel, compartilhando dados via PDF ou até mesmo criando documentos HTML para a web, o Aspose.Cells está aqui para ajudar!
+aí está! Você aprendeu com sucesso como salvar uma pasta de trabalho em vários formatos usando o Aspose.Cells para .NET. Esta biblioteca é incrivelmente versátil, simplificando operações que de outra forma seriam incômodas. Então, se você estiver enviando arquivos para colegas que usam versões mais antigas do Excel, compartilhando dados via PDF ou até mesmo criando documentos HTML para a web, o Aspose.Cells está aqui para ajudar!
 ## Perguntas frequentes
 ### O que é Aspose.Cells?
 Aspose.Cells é uma biblioteca poderosa que permite a criação, manipulação e conversão de arquivos Excel dentro de aplicativos .NET.

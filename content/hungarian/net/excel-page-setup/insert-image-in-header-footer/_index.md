@@ -41,7 +41,7 @@ Először is meg kell adnia azt a könyvtárat, amelyben az Excel-fájlok és -k
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // Frissítse ennek megfelelően
 ```
 
- Ez a sor beállítja a`dataDir` változó, amely a fejlécbe beszúrni kívánt kép megtalálásának alapútvonala.
+ Ez a sor beállítja a`dataDir`változó, amely a fejlécbe beszúrni kívánt kép megtalálásának alapútvonala.
 
 ## 2. lépés: Munkafüzet objektum létrehozása
 
@@ -55,7 +55,7 @@ Workbook workbook = new Workbook();
 
 ## 3. lépés: A kép elérési útjának meghatározása
 
-Ideje létrehozni egy karakterlánc-változót, amely tartalmazza a használni kívánt kép elérési útját. A mi esetünkben használjuk`aspose-logo.jpg`.
+ Ideje létrehozni egy karakterlánc-változót, amely tartalmazza a használni kívánt kép elérési útját. A mi esetünkben használjuk`aspose-logo.jpg`.
 
 ```csharp
 string logo_url = dataDir + "aspose-logo.jpg";

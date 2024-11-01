@@ -18,7 +18,7 @@ url: /ko/net/excel-page-setup/copy-page-setup-settings-from-other-worksheet/
 1. .NET 개발 환경: Visual Studio나 원하는 다른 IDE와 같이 .NET과 호환되는 환경이 설정되어 있는지 확인하세요.
 2.  Aspose.Cells 라이브러리: Aspose.Cells 라이브러리가 필요합니다.[여기서 다운로드하세요](https://releases.aspose.com/cells/net/).
 3. C#에 대한 기본 이해: C#의 기본을 아는 것은 개념을 더 잘 이해하는 데 확실히 도움이 됩니다.
-4.  Aspose.Cells 설명서: 다음을 숙지하세요.[선적 서류 비치](https://reference.aspose.com/cells/net/)나중에 유용할 수 있는 고급 구성이나 추가 기능이 있다면 알려주세요.
+4.  Aspose.Cells 설명서: 다음을 숙지하세요.[선적 서류 비치](https://reference.aspose.com/cells/net/) 나중에 유용할 수 있는 고급 구성이나 추가 기능이 있다면 알려주세요.
 
 이제 필수 구성 요소를 정리했으니, 필요한 패키지를 가져와 보겠습니다!
 
@@ -149,4 +149,4 @@ Aspose.Cells는 주로 .NET 언어를 지원하지만, 다른 언어를 위한 �
  다음을 통해 지원에 액세스할 수 있습니다.[Aspose 포럼](https://forum.aspose.com/c/cells/9).
 
 ### Aspose.Cells에 대한 임시 라이센스를 받을 수 있나요?  
- 물론입니다! 요청할 수 있습니다[임시 면허](https://purchase.aspose.com/temporary-license/) 제품을 평가합니다.
+물론입니다! 요청할 수 있습니다[임시 면허](https://purchase.aspose.com/temporary-license/) 제품을 평가합니다.

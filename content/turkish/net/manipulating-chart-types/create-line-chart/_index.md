@@ -50,7 +50,7 @@ using Aspose.Cells.Charts;
 // Çıktı dizini
 string outputDir = "Your Output Directory";
 ```
- Yer değiştirmek`"Your Output Directory"` Oluşturulan Excel dosyasını kaydetmek istediğiniz gerçek yol ile.
+ Yer değiştirmek`"Your Output Directory"`Oluşturulan Excel dosyasını kaydetmek istediğiniz gerçek yol ile.
 
 ## Adım 2: Çalışma Kitabı Nesnesini Örneklendirin
 

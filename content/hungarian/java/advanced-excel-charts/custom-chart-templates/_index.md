@@ -58,7 +58,7 @@ Diagram létrehozása előtt adatokra van szükség. Importálhat adatokat egy m
 int sheetIndex = workbook.getWorksheets().add();
 Worksheet worksheet = workbook.getWorksheets().get(sheetIndex);
 
-// Az adatok populáció kódja itt
+// Az adatpopuláció kódja itt
 ```
 
 ### 4. lépés: Diagram létrehozása

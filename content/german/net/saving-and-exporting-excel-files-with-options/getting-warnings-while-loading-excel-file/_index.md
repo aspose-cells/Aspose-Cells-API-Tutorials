@@ -38,12 +38,12 @@ string dataDir = "Your Document Directory";
 ```
  Ersetzen`"Your Document Directory"` durch den tatsächlichen Pfad auf Ihrem Computer, in dem die Excel-Datei gespeichert ist. Diese einfache Codezeile weist das Programm in die richtige Richtung!
 ## Schritt 2: Ladeoptionen erstellen
- Als nächstes erstellen wir eine Instanz von`LoadOptions`. Hier beginnt die Magie. Indem Sie Ladeoptionen konfigurieren, können Sie einen Rückruf einrichten, der ausgelöst wird, wenn beim Laden der Arbeitsmappe eine Warnung auftritt:
+ Als nächstes erstellen wir eine Instanz von`LoadOptions`Hier beginnt die Magie. Indem Sie Ladeoptionen konfigurieren, können Sie einen Rückruf einrichten, der ausgelöst wird, wenn beim Laden der Arbeitsmappe eine Warnung auftritt:
 ```csharp
 LoadOptions options = new LoadOptions();
 options.WarningCallback = new WarningCallback();
 ```
- Hier schaffen wir ein neues`LoadOptions` Objekt und verknüpfen es mit unserem`WarningCallback`Klasse (die wir als nächstes definieren werden). Diese Konfiguration ist wichtig, damit unser Programm Warnungen ordnungsgemäß verarbeiten kann.
+ Hier schaffen wir ein neues`LoadOptions` Objekt und verknüpfen es mit unserem`WarningCallback` Klasse (die wir als nächstes definieren werden). Diese Konfiguration ist wichtig, damit unser Programm Warnungen ordnungsgemäß verarbeiten kann.
 ## Schritt 3: Laden Sie die Excel-Quelldatei
  Es ist Zeit, die Excel-Datei tatsächlich zu laden! Hier rufen Sie die`Workbook` Klasse zum Laden Ihrer Datei zusammen mit den Optionen, die wir zuvor definiert haben:
 ```csharp
@@ -81,6 +81,6 @@ Aspose.Cells ist eine leistungsstarke .NET-Bibliothek zum Erstellen, Bearbeiten 
 ### Wie kann ich Aspose.Cells kaufen?
  Sie können Aspose.Cells direkt von deren[Kaufseite](https://purchase.aspose.com/buy).
 ### Mit welchen Arten von Warnungen kann ich umgehen?
- Sie können verschiedene Warnungen wie doppelt definierte Namen, Formelwarnungen und Stilwarnungen mithilfe der`WarningCallback`.
+Sie können verschiedene Warnungen wie doppelt definierte Namen, Formelwarnungen und Stilwarnungen mithilfe der`WarningCallback`.
 ### Wo finde ich Dokumentation zu Aspose.Cells?
  Sie können sich die umfassende[Dokumentation hier](https://reference.aspose.com/cells/net/).

@@ -17,7 +17,7 @@ url: /zh-hant/net/excel-page-setup/set-excel-scaling-factor/
 
 1. 已安裝 Visual Studio：確保您的電腦上安裝了 Visual Studio，因為我們將在此環境中編寫程式碼。
 2.  Aspose.Cells for .NET Library：取得 Aspose.Cells 函式庫的副本。您可以從[Aspose 發佈頁面](https://releases.aspose.com/cells/net/)。如果您不確定，您可以從[免費試用](https://releases.aspose.com/).
-3. C# 基礎知識：對 C# 程式設計有基本的了解將會很有幫助，特別是如果您不熟悉程式庫的使用。
+3. C# 基礎知識：對 C# 程式設計有基本的了解將很有幫助，特別是如果您不熟悉程式庫的使用。
 4. .NET Framework：確保您的專案針對該程式庫的 .NET Framework 的相容版本。
 
 現在我們已經確定了您需要的內容，讓我們開始匯入必要的套件。
@@ -113,7 +113,7 @@ workbook.Save(dataDir + "ScalingFactor_out.xls");
 ## 常見問題解答
 
 ### 什麼是 Aspose.Cells for .NET？  
-Aspose.Cells for .NET是一個功能強大的函式庫，用於在.NET應用程式中建立和操作Excel文件，無需安裝Excel即可提供豐富的功能。
+Aspose.Cells for .NET 是一個功能強大的程式庫，用於在.NET 應用程式中建立和操作 Excel 文件，無需安裝 Excel 即可提供豐富的功能。
 
 ### 我可以在 Web 應用程式中使用 Aspose.Cells for .NET 嗎？  
 是的！ Aspose.Cells 可以在桌面和 Web 應用程式中使用，只要它們是針對 .NET 框架。

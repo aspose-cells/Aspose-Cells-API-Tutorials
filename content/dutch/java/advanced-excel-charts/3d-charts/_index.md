@@ -156,7 +156,7 @@ Aspose.Cells voor Java richt zich primair op het maken van statische 3D-grafieke
 
 ### Kan ik het proces van het bijwerken van gegevens in mijn 3D-grafieken automatiseren?
 
-Ja, u kunt het proces van het bijwerken van gegevens in uw 3D-diagrammen automatiseren door gegevensbronnen te integreren of scripttalen zoals VBA (Visual Basic for Applications) in Excel te gebruiken. Aspose.Cells voor Java kan ook helpen bij het dynamisch bijwerken van diagrammen wanneer nieuwe gegevens beschikbaar zijn.
+Ja, u kunt het proces van het bijwerken van gegevens in uw 3D-diagrammen automatiseren door gegevensbronnen te integreren of scripttalen zoals VBA (Visual Basic for Applications) binnen Excel te gebruiken. Aspose.Cells voor Java kan ook helpen bij het dynamisch bijwerken van diagrammen wanneer nieuwe gegevens beschikbaar zijn.
 
 ### Waar kan ik meer bronnen en documentatie vinden voor Aspose.Cells voor Java?
 

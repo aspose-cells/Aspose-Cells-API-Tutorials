@@ -15,9 +15,9 @@ Prima di iniziare il nostro viaggio alla scoperta della modifica delle dimension
 1. Visual Studio: innanzitutto, dovresti avere Visual Studio o un qualsiasi IDE compatibile installato sul tuo computer.
 2. .NET Framework: assicurati di aver installato .NET Framework; la maggior parte delle versioni dovrebbe funzionare, ma è sempre meglio attenersi alla versione più recente.
 ### Aspose.Cells per .NET
-3.  Aspose.Cells: è necessario scaricare e configurare il pacchetto Aspose.Cells, che può essere eseguito visitando il[Pagina di download di Aspose.Cells per .NET](https://releases.aspose.com/cells/net/).
+3.  Aspose.Cells: è necessario scaricare e configurare il pacchetto Aspose.Cells, che può essere eseguito visitando il sito[Pagina di download di Aspose.Cells per .NET](https://releases.aspose.com/cells/net/).
 ### Conoscenza di base della programmazione C#
-4. Nozioni di base di C#: la familiarità con la programmazione C# è essenziale. Se non ti senti già a tuo agio, prendi in considerazione di ripassare le basi. 
+4. Nozioni di base di C#: la familiarità con la programmazione C# è essenziale. Se non ti senti già a tuo agio con essa, prendi in considerazione di ripassare le basi. 
 Una volta soddisfatti questi prerequisiti, sei pronto per iniziare a programmare!
 ## Importa pacchetti
 Come per qualsiasi attività di codifica, il primo passo è importare i pacchetti necessari. Ecco come fare:

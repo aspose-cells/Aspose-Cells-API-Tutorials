@@ -98,7 +98,7 @@ Ebben az oktatóanyagban az Excel-munkafüzet-automatizálás alapjait ismertetj
    Igen, az Aspose.Cells különféle Excel-fájlformátumokat támogat, beleértve az XLS-t, az XLSX-et, az XLSM-et stb.
 
 ### Végezhetek speciális műveleteket, például diagramkészítést vagy pivot tábla manipulációt az Aspose.Cells segítségével?
-   Teljesen! Az Aspose.Cells kiterjedt támogatást nyújt a fejlett Excel funkciókhoz, beleértve a diagramkészítést, a pivot tábla kezelését és még sok mást.
+   Teljesen! Az Aspose.Cells kiterjedt támogatást nyújt a fejlett Excel-funkciókhoz, beleértve a diagramkészítést, a pivot tábla kezelését és még sok mást.
 
 ### Hol találok további dokumentációt és forrásokat az Aspose.Cells for Java-hoz?
     Az API dokumentációját a következő címen tekintheti meg[https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) mélyreható információkért és kódmintákért.

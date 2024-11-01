@@ -88,7 +88,7 @@ Il est maintenant temps de passer à la vraie magie ! Nous allons générer l'ap
 WorkbookPrintingPreview preview = new WorkbookPrintingPreview(workbook, imgOptions);
 ```
 
-À ce moment-là, nous créons un aperçu de l'ensemble de notre classeur. Considérez cela comme un aperçu des pages de votre livre avant de commencer à le lire ; vous obtenez un aperçu de ce qui vous attend.
+À ce moment-là, nous créons un aperçu de l'ensemble de notre classeur. Considérez cela comme un aperçu des pages de votre livre avant de commencer à lire ; vous obtenez un aperçu de ce qui vous attend.
 
 ## Étape 5 : Évaluer le nombre de pages
 

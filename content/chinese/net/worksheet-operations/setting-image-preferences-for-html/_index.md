@@ -8,7 +8,7 @@ weight: 11
 url: /zh/net/worksheet-operations/setting-image-preferences-for-html/
 ---
 ## 介绍
-从 Excel 电子表格创建视觉上吸引人的网页可以增强您在线的数据展示。使用 Aspose.Cells for .NET，您不仅可以将电子表格转换为 HTML，还可以指定各种设置来优化 Web 图像。在本指南中，我们将探讨如何在将 Excel 文件转换为 HTML 时设置图像首选项。准备好了吗？让我们开始吧！
+从 Excel 电子表格创建具有视觉吸引力的网页可以增强您在线的数据展示。使用 Aspose.Cells for .NET，您不仅可以将电子表格转换为 HTML，还可以指定各种设置来优化 Web 图像。在本指南中，我们将探讨如何在将 Excel 文件转换为 HTML 时设置图像首选项。准备好了吗？让我们开始吧！
 
 ## 先决条件
 

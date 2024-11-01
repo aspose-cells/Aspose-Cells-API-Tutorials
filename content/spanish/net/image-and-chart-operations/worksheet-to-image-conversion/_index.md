@@ -58,7 +58,7 @@ Ahora que tenemos el libro de trabajo abierto, accedamos a la primera hoja de tr
 // Obtenga la primera hoja de trabajo.
 Worksheet sheet = book.Worksheets[0];
 ```
- Aquí recuperamos la primera hoja de trabajo (índice`0` ) del libro de trabajo. Las matrices Aspose.Cells tienen un índice cero, lo que significa que la primera hoja es`0`.
+ Aquí recuperamos la primera hoja de trabajo (índice`0` del libro de trabajo. Las matrices Aspose.Cells tienen un índice cero, lo que significa que la primera hoja es`0`.
 ## Paso 6: Definir las opciones de imagen o impresión
  Antes de renderizar la imagen, debemos especificar cómo queremos que se vea usando`ImageOrPrintOptions`:
 ```csharp
@@ -82,7 +82,7 @@ Bitmap bitmap = sr.ToImage(0);
 ## Paso 8: Guardar la imagen
 Después de renderizar, necesitamos guardar la imagen en el directorio especificado:
 ```csharp
-// Guarde el archivo de imagen especificando su formato de imagen.
+//Guarde el archivo de imagen especificando su formato de imagen.
 bitmap.Save(dataDir + "SheetImage.out.jpg");
 ```
  Aquí guardamos la imagen de mapa de bits que generamos. Esta línea escribe la imagen en el`dataDir` Ubicación con el nombre del archivo`SheetImage.out.jpg`.
@@ -99,7 +99,7 @@ Esta línea envía un mensaje de confirmación a la consola para informar al usu
 ### ¿Qué es Aspose.Cells?
 Aspose.Cells es una biblioteca .NET que permite a los desarrolladores crear, manipular, convertir y procesar archivos de Excel mediante programación.
 ### ¿Puedo utilizar Aspose.Cells gratis?
-Sí, puedes comenzar a usar Aspose.Cells descargando una versión de prueba gratuita desde su[sitio web](https://releases.aspose.com/).
+ Sí, puedes comenzar a usar Aspose.Cells descargando una versión de prueba gratuita desde su[sitio web](https://releases.aspose.com/).
 ### ¿Qué formatos de imagen admite Aspose.Cells para exportar?
 Aspose.Cells admite varios formatos de imagen, incluidos JPEG, PNG, BMP y GIF.
 ### ¿Dónde puedo encontrar soporte adicional para Aspose.Cells?

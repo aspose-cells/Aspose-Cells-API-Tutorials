@@ -128,7 +128,7 @@ sheet.Protect(ProtectionType.All);
 book.Save(dataDir + "protectedrange.out.xls");
 ```
 
- การดำเนินการนี้จะบันทึกสมุดงานที่ได้รับการป้องกันของคุณเป็น`protectedrange.out.xls` ในไดเร็กทอรีที่คุณระบุ
+การดำเนินการนี้จะบันทึกสมุดงานที่ได้รับการป้องกันของคุณเป็น`protectedrange.out.xls` ในไดเร็กทอรีที่คุณระบุ
 
 ## บทสรุป
 

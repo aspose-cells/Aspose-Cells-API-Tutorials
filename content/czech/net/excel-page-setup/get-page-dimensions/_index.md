@@ -2,7 +2,7 @@
 title: Získejte rozměry stránky
 linktitle: Získejte rozměry stránky
 second_title: Aspose.Cells for .NET API Reference
-description: V tomto podrobném průvodci se dozvíte, jak získat rozměry stránky pomocí Aspose.Cells for .NET. Ideální pro vývojáře pracující se soubory Excel.
+description: tomto podrobném průvodci se dozvíte, jak získat rozměry stránky pomocí Aspose.Cells for .NET. Ideální pro vývojáře pracující se soubory Excel.
 type: docs
 weight: 40
 url: /cs/net/excel-page-setup/get-page-dimensions/
@@ -44,7 +44,7 @@ Chcete-li používat Aspose.Cells, musíte do knihovny přidat odkazy:
 
 ### Přidat pomocí direktiv
 
- V horní části vašeho`Program.cs`soubor, vložte toto pomocí direktivy pro přístup k funkci Aspose.Cells:
+ V horní části vašeho`Program.cs` soubor, vložte toto pomocí direktivy pro přístup k funkci Aspose.Cells:
 
 ```csharp
 using System;
@@ -67,7 +67,7 @@ Workbook book = new Workbook();
 
 Zde jednoduše vytvoříme nový sešit, který bude obsahovat naše tabulková data a konfigurace.
 
-## Krok 2: Otevřete první pracovní list
+## Krok 2: Otevřete první list
 
 Po vytvoření instance sešitu budete chtít získat přístup k prvnímu listu. Každý sešit může obsahovat více listů, ale pro tuto ukázku se budeme držet prvního.
 

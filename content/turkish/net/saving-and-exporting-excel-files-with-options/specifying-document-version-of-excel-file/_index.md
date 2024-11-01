@@ -11,7 +11,7 @@ url: /tr/net/saving-and-exporting-excel-files-with-options/specifying-document-v
 Aspose.Cells for .NET, geliştiricilerin Excel dosyalarını kolaylıkla programatik olarak düzenlemelerine olanak tanıyan güçlü bir kütüphanedir. İster sıfırdan Excel dosyaları oluşturmak, ister mevcut olanları değiştirmek isteyin, Aspose.Cells hedeflerinize ulaşmanız için kapsamlı bir API sunar. Bu özelliklerden biri de sürüm, yazar veya başlık gibi belge özelliklerini belirtmektir. Bu eğitim, Aspose.Cells for .NET kullanarak bir Excel dosyasının belge sürümünü programatik olarak nasıl belirteceğinizi gösterecektir.
 ## Ön koşullar
 Ayrıntılara dalmadan önce, bu eğitimi takip etmek için ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
-1.  Aspose.Cells for .NET: En son sürümü indirebilirsiniz[Burada](https://releases.aspose.com/cells/net/) . Henüz bir lisans satın almadıysanız, bir lisans satın alabilirsiniz.[geçici lisans](https://purchase.aspose.com/temporary-license/) Özellikleri keşfetmek için.
+1. Aspose.Cells for .NET: En son sürümü indirebilirsiniz[Burada](https://releases.aspose.com/cells/net/) . Henüz bir lisans satın almadıysanız, bir lisans satın alabilirsiniz.[geçici lisans](https://purchase.aspose.com/temporary-license/) Özellikleri keşfetmek için.
 2. .NET Geliştirme Ortamı: Visual Studio veya herhangi bir .NET uyumlu IDE'yi kullanabilirsiniz.
 3. Temel C# Bilgisi: C# programlamayı anlamak, takip etmeyi kolaylaştıracaktır.
 ## Paketleri İçe Aktar
@@ -29,9 +29,9 @@ Bu iki ad alanı, çalışma kitabı ve yerleşik belge özellikleriyle etkileş
 ```csharp
 Workbook wb = new Workbook();
 ```
- The`Workbook` sınıfı bir Excel dosyasının bir gösterimini sağlar. Bunu örnekleyerek, üzerinde değişiklik yapabileceğimiz boş bir Excel çalışma kitabı oluştururuz.
+ The`Workbook`sınıfı bir Excel dosyasının bir gösterimini sağlar. Bunu örnekleyerek, üzerinde değişiklik yapabileceğimiz boş bir Excel çalışma kitabı oluştururuz.
 ## Adım 2: Yerleşik Belge Özelliklerine Erişim
-Aspose.Cells, başlık, yazar ve belge sürümü gibi alanları içeren yerleşik belge özellikleri sunar. Bu özelliklere şuradan erişebilirsiniz:`BuiltInDocumentProperties`koleksiyon.
+ Aspose.Cells, başlık, yazar ve belge sürümü gibi alanları içeren yerleşik belge özellikleri sunar. Bu özelliklere şuradan erişebilirsiniz:`BuiltInDocumentProperties`koleksiyon.
 ```csharp
 Aspose.Cells.Properties.BuiltInDocumentPropertyCollection bdpc = wb.BuiltInDocumentProperties;
 ```
@@ -59,7 +59,7 @@ Belge sürümünün ayarlanması, dosyayı oluşturmak için belgenin veya kitap
 ```csharp
 wb.Save("outputSpecifyDocumentVersionOfExcelFile.xlsx", SaveFormat.Xlsx);
 ```
- The`Save` yöntemi dosyayı belirtilen dizine kaydetmek için kullanılır. Burada, dosyayı bir Excel dosyası olarak kaydediyoruz`.xlsx` biçimi. Gerekirse, Aspose.Cells ayrıca şu biçimleri de destekler:`.xls`, `.csv` , Ve`.pdf`Projenizin ihtiyaçlarına göre esneklik sağlar.
+ The`Save` yöntemi dosyayı belirtilen dizine kaydetmek için kullanılır. Burada, dosyayı bir Excel dosyası olarak kaydediyoruz`.xlsx`biçimi. Gerekirse, Aspose.Cells ayrıca şu biçimleri de destekler:`.xls`, `.csv` , Ve`.pdf`Projenizin ihtiyaçlarına göre esneklik sağlar.
 ## Çözüm
 Bu eğitimde, .NET için Aspose.Cells kullanarak bir Excel dosyasında belge özelliklerinin, özellikle de belge sürümünün nasıl belirtileceğini ele aldık. Aspose.Cells, Excel dosyalarını programatik olarak düzenlemenize olanak tanıyan son derece esnek ve güçlü bir araçtır ve bu da onu elektronik tablolarla çalışan herhangi bir .NET geliştiricisi için harika bir varlık haline getirir.
 ## SSS

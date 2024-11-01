@@ -2,7 +2,7 @@
 title: Konwersja pliku Excel do PDF (A-1a) programowo w .NET
 linktitle: Konwersja pliku Excel do PDF (A-1a) programowo w .NET
 second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Dowiedz się, jak konwertować pliki Excel do formatu PDF/A-1a w celach archiwalnych, używając Aspose.Cells dla .NET. Przewodnik krok po kroku z dołączonymi przykładami kodu.
+description: Dowiedz się, jak konwertować pliki Excel do PDF/A-1a w celach archiwalnych, używając Aspose.Cells dla .NET. Przewodnik krok po kroku z dołączonymi przykładami kodu.
 type: docs
 weight: 14
 url: /pl/net/converting-excel-files-to-other-formats/converting-excel-file-to-pdf-a-1a/

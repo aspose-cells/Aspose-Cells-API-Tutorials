@@ -12,7 +12,7 @@ Czy kiedykolwiek zmagałeś się ze skomplikowanymi formatami plików Excela i c
 ## Wymagania wstępne
 Zanim przejdziemy do szczegółów, musisz spełnić kilka warunków wstępnych:
 1. Visual Studio - Upewnij się, że masz zainstalowane Visual Studio w swoim systemie. Pomoże ci ono pisać i wykonywać kod C# bez wysiłku.
-2.  Biblioteka Aspose.Cells — Będziesz potrzebować biblioteki Aspose.Cells dla .NET. Możesz ją łatwo pobrać ze strony[Aspose Cells publikuje stronę](https://releases.aspose.com/cells/net/).
+2. Biblioteka Aspose.Cells — Będziesz potrzebować biblioteki Aspose.Cells dla .NET. Możesz ją łatwo pobrać ze strony[Aspose Cells publikuje stronę](https://releases.aspose.com/cells/net/).
 3. Podstawowa wiedza programistyczna — pewna znajomość języka C# i .NET pomoże Ci lepiej zrozumieć fragmenty kodu, które omówimy.
 4. Katalog dokumentów testowych — Utwórz lub wybierz folder, w którym będziesz zapisywać i testować pliki Excela. W tym samouczku będziemy go nazywać „Katalogiem dokumentów”.
 Gdy wszystko jest już gotowe, możesz zaprezentować swoje umiejętności!
@@ -29,7 +29,7 @@ using Aspose.Cells;
 Ta przestrzeń nazw zapewni Ci dostęp do wszystkich klas i metod wymaganych do pracy z plikami Excela.
 Gotowy do startu? Podzielmy proces na łatwe do opanowania kroki.
 ## Krok 1: Skonfiguruj katalog dokumentów
-kodzie ważne jest zdefiniowanie ścieżki do katalogu dokumentu, w którym zostanie zapisany plik Excel. Możesz to zrobić, deklarując zmienną typu string:
+W kodzie ważne jest zdefiniowanie ścieżki do katalogu dokumentu, w którym zostanie zapisany plik Excel. Możesz to zrobić, deklarując zmienną typu string:
 ```csharp
 string dataDir = "Your Document Directory"; // Zastąp swoją rzeczywistą ścieżką
 ```

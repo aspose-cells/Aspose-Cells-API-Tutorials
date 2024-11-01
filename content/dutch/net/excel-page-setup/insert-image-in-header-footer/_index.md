@@ -41,7 +41,7 @@ Eerst moet u de directory opgeven waar uw Excel-bestanden en afbeeldingen zich b
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // Dienovereenkomstig bijwerken
 ```
 
- Deze lijn stelt de`dataDir` variabele, die het basispad is voor het vinden van de afbeelding die u in de header wilt invoegen.
+ Deze lijn stelt de`dataDir`variabele, die het basispad is voor het vinden van de afbeelding die u in de header wilt invoegen.
 
 ## Stap 2: Een werkmapobject maken
 
@@ -55,7 +55,7 @@ Workbook workbook = new Workbook();
 
 ## Stap 3: Het pad van de afbeelding definiëren
 
-Het is tijd om een stringvariabele te maken om het pad naar de afbeelding die u wilt gebruiken vast te leggen. In ons geval gebruiken we`aspose-logo.jpg`.
+ Het is tijd om een stringvariabele te maken om het pad naar de afbeelding die u wilt gebruiken vast te leggen. In ons geval gebruiken we`aspose-logo.jpg`.
 
 ```csharp
 string logo_url = dataDir + "aspose-logo.jpg";

@@ -2,7 +2,7 @@
 title: 在 .NET 中以编程方式将 CSV 转换为 JSON
 linktitle: 在 .NET 中以编程方式将 CSV 转换为 JSON
 second_title: Aspose.Cells .NET Excel 处理 API
-description: 了解如何使用 Aspose.Cells 在 .NET 中将 CSV 转换为 JSON。通过易于理解的代码示例，逐步指导数据转换。
+description: 了解如何使用 Aspose.Cells 在 .NET 中将 CSV 转换为 JSON。通过易于理解的代码示例提供数据转换的分步指南。
 type: docs
 weight: 10
 url: /zh/net/converting-excel-files-to-other-formats/converting-csv-to-json/

@@ -121,7 +121,7 @@ Tento jednoduchý řádek odešle zprávu do konzole, jakmile bude celá vaše o
 
 ## Závěr
 
-A tady to máte! Úspěšně jste extrahovali vložené soubory MOL ze souboru aplikace Excel pomocí Aspose.Cells for .NET. Nyní můžete využít své nově nabyté dovednosti a uplatnit je v jiných scénářích, kde potřebujete extrahovat soubory objektů z listů aplikace Excel. Tato metoda je nejen efektivní, ale také otevírá dveře k snadnému ovládání různých operací souvisejících s Excelem.
+A tady to máte! Úspěšně jste extrahovali vložené soubory MOL ze souboru aplikace Excel pomocí Aspose.Cells for .NET. Nyní můžete využít své nově nabyté dovednosti a uplatnit je v jiných scénářích, kde potřebujete extrahovat soubory objektů z listů aplikace Excel. Tato metoda je nejen efektivní, ale také otevírá dveře k bezproblémové manipulaci s různými operacemi souvisejícími s Excelem.
 
 ## FAQ
 

@@ -23,7 +23,7 @@ using System;
 ```
 Maintenant que nous avons préparé le terrain, voyons comment ouvrir un fichier CSV avec un analyseur préféré, gérant différents formats de données tels que le texte et les dates.
 ## Étape 1 : définir des analyseurs personnalisés
- Pour gérer différents types de données, tels que du texte ou des formats de date spécifiques, vous devez définir des analyseurs personnalisés. Dans Aspose.Cells, les analyseurs personnalisés implémentent la`ICustomParser` interface.
+ Pour gérer différents types de données, tels que du texte ou des formats de date spécifiques, vous devez définir des analyseurs personnalisés. Dans Aspose.Cells, les analyseurs personnalisés implémentent le`ICustomParser` interface.
 ### 1.1 Créer un analyseur de texte
 Cet analyseur gère les valeurs de texte standard. Il ne modifie pas le format, la valeur est donc renvoyée telle quelle.
 ```csharp
@@ -41,7 +41,7 @@ class TextParser : ICustomParser
 ```
  Le`ParseObject` La méthode renvoie simplement la valeur d'entrée. C'est comme dire : « Ne changez rien, donnez-moi juste le texte ! »
 ### 1.2 Créer un analyseur de date
- Pour les dates, vous devez vous assurer que les données CSV sont correctement analysées.`DateTime` objets. Voici comment vous pouvez créer un analyseur de date :
+ Pour les dates, vous devez vous assurer que les données CSV sont correctement analysées`DateTime` objets. Voici comment vous pouvez créer un analyseur de date :
 ```csharp
 class DateParser : ICustomParser
 {

@@ -19,13 +19,13 @@ Sebelum kita masuk ke kode, mari pastikan Anda memiliki semua yang Anda butuhkan
 Meskipun Aspose.Cells menyederhanakan banyak tugas, pemahaman dasar tentang C# sangatlah penting. Anda harus merasa nyaman membaca dan menulis kode C# dasar.
 
 ### Aspose.Cells untuk .NET
- Pastikan Anda telah memasang Aspose.Cells di proyek Anda. Anda dapat mengunduhnya dari[situs web](https://releases.aspose.com/cells/net/) jika Anda belum melakukannya.
+Pastikan Anda telah memasang Aspose.Cells di proyek Anda. Anda dapat mengunduhnya dari[situs web](https://releases.aspose.com/cells/net/) jika Anda belum melakukannya.
 
 ### Lingkungan Pengembangan
 Anda harus menyiapkan IDE seperti Visual Studio. Ini akan memandu Anda dalam menangani dan menguji kode secara efektif.
 
 ### Contoh File Excel
-Anda akan memerlukan file contoh (`samplePageSetupIsAutomaticPaperSize-False.xlsx` Dan`samplePageSetupIsAutomaticPaperSize-True.xlsx`untuk tujuan pengujian. Pastikan file-file ini ada di direktori sumber Anda.
+Anda akan memerlukan file contoh (`samplePageSetupIsAutomaticPaperSize-False.xlsx` Dan`samplePageSetupIsAutomaticPaperSize-True.xlsx`) untuk tujuan pengujian. Pastikan file-file ini ada di direktori sumber Anda.
 
 ## Paket Impor
 
@@ -50,7 +50,7 @@ string sourceDir = "YOUR_SOURCE_DIRECTORY";
 string outputDir = "YOUR_OUTPUT_DIRECTORY";
 ```
 
- Mengganti`YOUR_SOURCE_DIRECTORY` Dan`YOUR_OUTPUT_DIRECTORY` dengan jalur sebenarnya pada sistem Anda di mana file akan disimpan.
+ Mengganti`YOUR_SOURCE_DIRECTORY` Dan`YOUR_OUTPUT_DIRECTORY`dengan jalur sebenarnya pada sistem Anda di mana file akan disimpan.
 
 ## Langkah 2: Muat Buku Kerja Excel
 
@@ -104,10 +104,10 @@ Aspose.Cells adalah pustaka .NET yang dirancang untuk mengelola berkas lembar ke
 Ya! Aspose.Cells mendukung pengembangan lintas platform, sehingga Anda dapat bekerja di berbagai lingkungan tempat .NET tersedia.
 
 ### Apakah saya memerlukan lisensi untuk Aspose.Cells?
- Meskipun Anda dapat memulai dengan uji coba gratis, penggunaan lanjutan memerlukan lisensi yang dibeli. Detail selengkapnya dapat ditemukan[Di Sini](https://purchase.aspose.com/buy).
+Meskipun Anda dapat memulai dengan uji coba gratis, penggunaan lanjutan memerlukan lisensi yang dibeli. Detail selengkapnya dapat ditemukan[Di Sini](https://purchase.aspose.com/buy).
 
 ### Bagaimana saya dapat memeriksa apakah ukuran kertas lembar kerja otomatis di C#?
-Seperti yang ditampilkan dalam panduan, Anda dapat memeriksa`IsAutomaticPaperSize` milik`PageSetup` kelas.
+ Seperti yang ditampilkan dalam panduan, Anda dapat memeriksa`IsAutomaticPaperSize` milik`PageSetup` kelas.
 
 ### Di mana saya dapat menemukan informasi lebih lanjut tentang Aspose.Cells?
  Anda dapat menemukan dokumentasi dan tutorial yang lengkap[Di Sini](https://reference.aspose.com/cells/net/).

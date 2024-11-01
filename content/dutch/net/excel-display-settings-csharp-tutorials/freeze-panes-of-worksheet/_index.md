@@ -18,7 +18,7 @@ Voordat we met het daadwerkelijke coderen beginnen, willen we ervoor zorgen dat 
 ### Basiskennis van C#
 - Kennis van C#-programmering is essentieel, omdat we deze programmeertaal gaan gebruiken om onze code te schrijven.
 
-### Aspose.Cellen Geïnstalleerd
+### Aspose.Cells Geïnstalleerd
 -  Zorg ervoor dat u Aspose.Cells voor .NET in uw ontwikkelomgeving hebt geïnstalleerd. Als u het nog niet hebt geïnstalleerd, ga dan naar de[Downloadlink](https://releases.aspose.com/cells/net/) om te beginnen.
 
 ### Visuele Studio

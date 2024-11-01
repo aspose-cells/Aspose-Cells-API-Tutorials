@@ -19,7 +19,7 @@ Innan du dyker in i koden, se till att du har följande inställning:
 2. .NET-utvecklingsmiljö: Se till att ditt projekt är konfigurerat för att använda .NET Framework eller .NET Core.
 3. Grundläggande kunskaper i C#: Du bör vara bekväm med C#-programmering, särskilt objektorienterad programmering (OOP).
 
-För avancerade användare kan en tillfällig licens tillämpas för att låsa upp alla funktioner i Aspose.Cells. Du kan begära en från[här](https://purchase.aspose.com/temporary-license/).
+ För avancerade användare kan en tillfällig licens tillämpas för att låsa upp alla funktioner i Aspose.Cells. Du kan begära en från[här](https://purchase.aspose.com/temporary-license/).
 
 ## Importera paket
 
@@ -45,7 +45,7 @@ Workbook workbook = new Workbook();
 
 Detta initierar en ny Excel-arbetsbok. Men vart tar uppgifterna vägen? Låt oss ta hand om det i nästa steg.
 
-## Steg 2: Lägg till data till arbetsbladet
+## Steg 2: Lägg till data i arbetsbladet
 
 När arbetsboken har skapats måste vi komma åt det första kalkylbladet och ge det ett namn. Det är här vi kommer att mata in de data som krävs för cirkeldiagrammet.
 
@@ -100,7 +100,7 @@ int chartIndex = chartSheet.Charts.Add(Aspose.Cells.Charts.ChartType.Pie, 5, 0, 
 Aspose.Cells.Charts.Chart chart = chartSheet.Charts[chartIndex];
 ```
 
- Metoden`Add()` accepterar parametrar för diagramtypen (i det här fallet,`ChartType.Pie`), och dess plats på arbetsbladet. Siffrorna representerar rad- och kolumnpositioner.
+ Metoden`Add()`accepterar parametrar för diagramtypen (i det här fallet,`ChartType.Pie`), och dess plats på arbetsbladet. Siffrorna representerar rad- och kolumnpositioner.
 
 ## Steg 5: Anpassa diagrammets utseende
 
@@ -149,7 +149,7 @@ for (int i = 0; i < chart.NSeries.Count; i++)
 }
 ```
 
-## Steg 8: Anpassa diagramområde och förklaring
+## Steg 8: Anpassa diagramområde och teckenförklaring
 
 Låt oss slutligen ge diagramområdet och legenden några sista detaljer. Detta förbättrar den övergripande presentationen av diagrammet.
 
@@ -187,7 +187,7 @@ Att skapa ett cirkeldiagram med Aspose.Cells för .NET är en enkel och anpassni
 Ja! Aspose.Cells stöder olika diagramtyper, inklusive stapeldiagram, linjediagram och punktdiagram.
 
 ### Behöver jag en betald licens för att använda Aspose.Cells för .NET?
- Du kan använda gratisversionen med vissa begränsningar. För alla funktioner behöver du en licens som du kan köpa[här](https://purchase.aspose.com/buy).
+Du kan använda gratisversionen med vissa begränsningar. För alla funktioner behöver du en licens som du kan köpa[här](https://purchase.aspose.com/buy).
 
 ### Kan jag exportera diagrammet till format som PDF eller bilder?
 Absolut! Aspose.Cells låter dig exportera diagram till olika format, inklusive PDF och PNG.

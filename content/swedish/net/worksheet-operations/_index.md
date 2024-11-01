@@ -2,7 +2,7 @@
 title: Arbetsblad Operations
 linktitle: Arbetsblad Operations
 second_title: Aspose.Cells .NET Excel Processing API
-description: Lås upp den fulla potentialen hos Aspose.Cells för .NET med dessa praktiska handledningar som täcker arbetsbladsoperationer och förbättrar dina Excel-filer.
+description: Lås upp den fulla potentialen hos Aspose.Cells för .NET med dessa praktiska handledningar som täcker kalkylbladsoperationer och förbättrar dina Excel-filer.
 type: docs
 weight: 33
 url: /sv/net/worksheet-operations/

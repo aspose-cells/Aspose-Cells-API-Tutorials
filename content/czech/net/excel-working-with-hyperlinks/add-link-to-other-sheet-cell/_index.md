@@ -8,7 +8,7 @@ weight: 11
 url: /cs/net/excel-working-with-hyperlinks/add-link-to-other-sheet-cell/
 ---
 ## Zavedení
-Představte si, že se pohybujete přes rušné letiště; nechtěli byste ztrácet čas hledáním své brány. Místo toho vás k cíli bez problémů dovedou jasné značky a užitečné odkazy. Podobně v tabulkovém softwaru, jako je Excel, přidání hypertextových odkazů může zjednodušit navigaci a učinit vaše data uživatelsky přívětivějšími. Ať už spravujete složitý rozpočet, sledujete prodeje nebo zpracováváte jakýkoli velký soubor dat, možnost propojení s jinými listy vám může ušetřit spoustu času a zmatků. Dnes se vrhneme na to, jak přidat odkaz na buňku v jiném listu pomocí Aspose.Cells for .NET. Tato příručka vás krok za krokem provede celým procesem a zajistí, že tuto výkonnou funkci můžete implementovat do svých tabulek Excel.
+Představte si, že se pohybujete přes rušné letiště; nechtěli byste ztrácet čas hledáním své brány. Místo toho vás k cíli bez problémů dovedou jasné značky a užitečné odkazy. Podobně v tabulkovém softwaru, jako je Excel, přidání hypertextových odkazů může zjednodušit navigaci a učinit vaše data uživatelsky přívětivějšími. Ať už spravujete složitý rozpočet, sledujete prodeje nebo zpracováváte jakýkoli velký soubor dat, možnost propojení s jinými listy vám může ušetřit spoustu času a zmatku. Dnes se vrhneme na to, jak přidat odkaz na buňku v jiném listu pomocí Aspose.Cells for .NET. Tato příručka vás krok za krokem provede celým procesem a zajistí, že tuto výkonnou funkci můžete implementovat do svých tabulek Excel.
 ## Předpoklady
 Než začneme, budete potřebovat několik věcí:
 1. Visual Studio: Ujistěte se, že máte v počítači nainstalované Visual Studio. Je to šikovný nástroj pro vývoj .NET.
@@ -30,7 +30,7 @@ Před napsáním jakéhokoli kódu musíme vytvořit nový projekt C#.
 1. Otevřete Visual Studio.
 2. Vytvořte nový projekt C# Console Application. 
 3. Pojmenujte svůj projekt nějak popisně, například „ExcelLinkDemo“.
-4. Přidejte odkaz na soubor Aspose.Cells.dll. Můžete to udělat kliknutím pravým tlačítkem myši na "Reference" v Průzkumníku řešení, výběrem "Přidat odkaz" a přechodem na místo, kam jste nainstalovali Aspose.Cells.
+4. Přidejte odkaz na soubor Aspose.Cells.dll. Můžete to udělat tak, že v Průzkumníku řešení kliknete pravým tlačítkem na "Reference", vyberete "Přidat odkaz" a přejdete na místo, kam jste nainstalovali Aspose.Cells.
 ## Krok 2: Definujte svůj výstupní adresář
 Dále musíte určit, kam chcete uložit výstupní soubor aplikace Excel. Zde je návod, jak jej můžete definovat ve svém kódu:
 ```csharp

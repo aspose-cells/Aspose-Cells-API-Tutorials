@@ -88,7 +88,7 @@ StyleFlag flag;
 for (int i = 0; i <= 255; i++)
 {
     style = sheet.Cells.Columns[(byte)i].Style;
-    style.IsLocked = false; //Odemknout sloupec
+    style.IsLocked = false; // Odemknout sloupec
     flag = new StyleFlag();
     flag.Locked = true; // Pro uzamčení nastavte příznak na hodnotu true
     sheet.Cells.Columns[(byte)i].ApplyStyle(style, flag); // Použijte styl

@@ -36,9 +36,9 @@ Nyní, když jsme importovali potřebné balíčky, přejděme k podrobnému pr�
 V tomto kroku nastavíme adresáře, kde se nachází váš zdrojový soubor Numbers a kam chcete uložit výstupní PDF.
 ```csharp
 // Zdrojový adresář
-string sourceDir = "Your Document Directory"; // Aktualizujte to do svého skutečného adresáře
+string sourceDir = "Your Document Directory"; // Aktualizujte toto na váš skutečný adresář
 // Výstupní adresář
-string outputDir = "Your Document Directory"; // Aktualizujte to do svého skutečného adresáře
+string outputDir = "Your Document Directory"; // Aktualizujte toto na váš skutečný adresář
 ```
  Zde definujeme dvě řetězcové proměnné,`sourceDir` a`outputDir` , k určení umístění vstupních a výstupních souborů. Nezapomeňte vyměnit`"Your Document Directory"` se skutečnými cestami ve vašem systému.
 ## Krok 2: Nastavte možnosti načítání pro formát čísel

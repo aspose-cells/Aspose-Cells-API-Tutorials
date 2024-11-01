@@ -43,7 +43,7 @@ Konwertuj Excela do HTML z podpowiedziami za pomocą Aspose.Cells dla .NET w kil
 ### [Konwersja pliku Excel do formatu Markdown programowo w środowisku .NET](./converting-excel-file-to-markdown/)
 Dowiedz się, jak konwertować pliki Excel do formatu Markdown za pomocą Aspose.Cells dla .NET w tym szczegółowym przewodniku krok po kroku. Zwiększ produktywność dzięki łatwej konwersji plików.
 ### [Konwersja pliku Excel do PDF (A-1a) programowo w .NET](./converting-excel-file-to-pdf-a-1a/)
-Dowiedz się, jak konwertować pliki Excel do formatu PDF/A-1a w celach archiwalnych, używając Aspose.Cells dla .NET. Przewodnik krok po kroku z dołączonymi przykładami kodu.
+Dowiedz się, jak konwertować pliki Excel do PDF/A-1a w celach archiwalnych, używając Aspose.Cells dla .NET. Przewodnik krok po kroku z dołączonymi przykładami kodu.
 ### [Konwersja JSON do CSV programowo w .NET](./converting-json-to-csv/)
 Dowiedz się, jak programowo przekonwertować JSON na CSV w .NET przy użyciu Aspose.Cells. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby zapewnić bezproblemową transformację danych.
 ### [Konwersja pliku Excel do formatu PPTX programowo w środowisku .NET](./converting-excel-file-to-pptx/)

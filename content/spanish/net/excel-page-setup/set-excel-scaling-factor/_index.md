@@ -69,7 +69,7 @@ Ahora es el momento de crear un nuevo libro de trabajo. Básicamente, aquí es d
 Workbook workbook = new Workbook();
 ```
 
- Aquí declaramos una nueva`Workbook`objeto que representa un archivo Excel y nos permitirá manipular su contenido.
+ Aquí declaramos una nueva`Workbook` objeto que representa un archivo Excel y nos permitirá manipular su contenido.
 
 ## Paso 3: Acceda a la primera hoja de trabajo
 

@@ -53,7 +53,7 @@ Därefter måste vi definiera vilken data vi vill filtrera bort när vi laddar a
 opts.LoadFilter = new LoadFilter(~LoadDataFilterOptions.DefinedNames);
 ```
 
-Tilde (~operatör anger att vi vill utesluta definierade namn från laddningsprocessen. Detta är avgörande om du vill hålla din arbetsbelastning lätt och undvika onödig data som kan komplicera din bearbetning.
+Tilden (~operatör anger att vi vill utesluta definierade namn från laddningsprocessen. Detta är avgörande om du vill hålla din arbetsbelastning lätt och undvika onödig data som kan komplicera din bearbetning.
 
 ## Steg 3: Ladda arbetsboken
 

@@ -14,7 +14,7 @@ In deze uitgebreide tutorial verkennen we Excel-datumfuncties en hoe u de kracht
 
 ## Begrijpen van datumfuncties in Excel
 
-Excel heeft een breed scala aan datumfuncties die complexe datumgerelateerde berekeningen vereenvoudigen. Deze functies zijn ongelooflijk handig voor taken zoals datumrekenkunde, het vinden van het verschil tussen datums en meer. Laten we eens kijken naar enkele veelvoorkomende datumfuncties:
+Excel heeft een breed scala aan datumfuncties die complexe datumgerelateerde berekeningen vereenvoudigen. Deze functies zijn ongelooflijk handig voor taken zoals datumberekeningen, het vinden van het verschil tussen datums en meer. Laten we eens kijken naar enkele veelvoorkomende datumfuncties:
 
 ### DATUM Functie
 

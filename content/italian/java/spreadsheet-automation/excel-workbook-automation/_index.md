@@ -9,7 +9,7 @@ url: /it/java/spreadsheet-automation/excel-workbook-automation/
 ---
 
 ## Introduzione
-In questo tutorial, esploreremo come automatizzare le operazioni della cartella di lavoro di Excel utilizzando la libreria Aspose.Cells per Java. Aspose.Cells è una potente API Java che consente di creare, manipolare e gestire file Excel in modo programmatico.
+In questo tutorial, esploreremo come automatizzare le operazioni della cartella di lavoro di Excel utilizzando la libreria Aspose.Cells per Java. Aspose.Cells è una potente API Java che consente di creare, manipolare e gestire file Excel a livello di programmazione.
 
 ## Prerequisiti
  Prima di iniziare, assicurati di aver aggiunto la libreria Aspose.Cells for Java al tuo progetto. Puoi scaricarla da[Qui](https://releases.aspose.com/cells/java/).

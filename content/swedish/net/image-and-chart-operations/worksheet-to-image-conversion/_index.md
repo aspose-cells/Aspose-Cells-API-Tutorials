@@ -58,7 +58,7 @@ Nu när vi har arbetsboken öppen, låt oss komma åt det första kalkylbladet:
 // Skaffa det första arbetsbladet.
 Worksheet sheet = book.Worksheets[0];
 ```
- Här hämtar vi det första kalkylbladet (index`0` ) från arbetsboken. Aspose.Cells-arrayer är nollindexerade, vilket betyder att det första arket är`0`.
+ Här hämtar vi det första kalkylbladet (index`0` från arbetsboken. Aspose.Cells-arrayer är nollindexerade, vilket betyder att det första arket är`0`.
 ## Steg 6: Definiera bild- eller utskriftsalternativ
  Innan vi renderar bilden måste vi specificera hur vi vill att den ska se ut med hjälp av`ImageOrPrintOptions`:
 ```csharp
@@ -82,7 +82,7 @@ Bitmap bitmap = sr.ToImage(0);
 ## Steg 8: Spara bilden
 Efter renderingen måste vi spara bilden i den angivna katalogen:
 ```csharp
-// Spara bildfilen med dess bildformat.
+//Spara bildfilen med dess bildformat.
 bitmap.Save(dataDir + "SheetImage.out.jpg");
 ```
  Här sparar vi bitmappsbilden som vi genererade. Denna rad skriver bilden till`dataDir` plats med filnamnet`SheetImage.out.jpg`.
@@ -99,7 +99,7 @@ Och där har du det! Med bara några enkla steg har du lärt dig hur du konverte
 ### Vad är Aspose.Cells?
 Aspose.Cells är ett .NET-bibliotek som gör det möjligt för utvecklare att skapa, manipulera, konvertera och bearbeta Excel-filer programmatiskt.
 ### Kan jag använda Aspose.Cells gratis?
-Ja, du kan börja använda Aspose.Cells genom att ladda ner en gratis testversion från deras[webbplats](https://releases.aspose.com/).
+ Ja, du kan börja använda Aspose.Cells genom att ladda ner en gratis testversion från deras[webbplats](https://releases.aspose.com/).
 ### Vilka bildformat stöder Aspose.Cells för export?
 Aspose.Cells stöder olika bildformat, inklusive JPEG, PNG, BMP och GIF.
 ### Var kan jag hitta ytterligare stöd för Aspose.Cells?

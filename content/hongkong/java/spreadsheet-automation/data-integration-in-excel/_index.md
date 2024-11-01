@@ -8,7 +8,7 @@ weight: 19
 url: /zh-hant/java/spreadsheet-automation/data-integration-in-excel/
 ---
 
-資料整合是使用 Excel 的一個重要方面，使您能夠匯集各種來源的信息，進行分析並做出明智的決策。在本指南中，我們將引導您完成使用 Aspose.Cells for Java 在 Excel 中進行資料整合的過程。您將找到逐步說明和原始程式碼範例來簡化您的工作流程。
+資料整合是使用 Excel 的一個重要方面，它使您能夠匯集各種來源的信息，進行分析並做出明智的決策。在本指南中，我們將引導您完成使用 Aspose.Cells for Java 在 Excel 中進行資料整合的過程。您將找到逐步說明和原始程式碼範例來簡化您的工作流程。
 
 ## 一、簡介
 
@@ -28,7 +28,7 @@ Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
 
 //將資料載入到工作表中
-//…
+//……
 ```
 
 ## 4. 合併多個工作表中的數據
@@ -37,7 +37,7 @@ Worksheet worksheet = workbook.getWorksheets().get(0);
 
 ```java
 //用於組合來自多個工作表的資料的 Java 程式碼
-//…
+//……
 ```
 
 ## 5. 資料轉換與清理
@@ -46,7 +46,7 @@ Worksheet worksheet = workbook.getWorksheets().get(0);
 
 ```java
 //用於資料轉換和清理的 Java 程式碼
-//…
+//……
 ```
 
 ## 6. 應用公式進行分析
@@ -55,7 +55,7 @@ Excel 的優勢在於其執行複雜計算的能力。使用 Aspose.Cells for Ja
 
 ```java
 //應用公式的 Java 程式碼
-//…
+//……
 ```
 
 ## 7. 可視化數據
@@ -64,7 +64,7 @@ Excel 的優勢在於其執行複雜計算的能力。使用 Aspose.Cells for Ja
 
 ```java
 //用於建立圖表的 Java 程式碼
-//…
+//……
 ```
 
 ## 8. 匯出綜合數據
@@ -73,7 +73,7 @@ Excel 的優勢在於其執行複雜計算的能力。使用 Aspose.Cells for Ja
 
 ```java
 //導出綜合資料的Java程式碼
-//…
+//……
 ```
 
 ## 9. 結論

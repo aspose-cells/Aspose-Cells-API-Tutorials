@@ -9,7 +9,7 @@ url: /pl/net/excel-copy-worksheet/excel-copy-worksheet-from-other-workbook/
 ---
 ## Wstęp
 
-Czy kiedykolwiek zmagałeś się z wieloma skoroszytami programu Excel, próbując utrzymać swoje dane w porządku i łatwo dostępne? Jeśli tak, nie jesteś sam! Wielu z nas żongluje różnymi plikami, czy to w pracy, czy w projektach osobistych. Dobra wiadomość jest taka, że możesz ułatwić sobie życie z niewielką pomocą Aspose.Cells dla .NET. Ta potężna biblioteka pozwala na bezproblemowe manipulowanie plikami programu Excel, w tym kopiowanie arkuszy kalkulacyjnych z jednego skoroszytu do drugiego. W tym przewodniku przeprowadzimy Cię przez kroki, aby to zrobić, zapewniając, że możesz usprawnić swój przepływ pracy i zwiększyć produktywność.
+Czy kiedykolwiek zmagałeś się z wieloma skoroszytami programu Excel, próbując utrzymać swoje dane uporządkowane i łatwo dostępne? Jeśli tak, nie jesteś sam! Wielu z nas żongluje różnymi plikami, czy to w pracy, czy w projektach osobistych. Dobra wiadomość jest taka, że możesz ułatwić sobie życie z niewielką pomocą Aspose.Cells dla .NET. Ta potężna biblioteka pozwala na bezproblemowe manipulowanie plikami programu Excel, w tym kopiowanie arkuszy kalkulacyjnych z jednego skoroszytu do drugiego. W tym przewodniku przeprowadzimy Cię przez kroki, aby to zrobić, zapewniając, że możesz usprawnić swój przepływ pracy i zwiększyć produktywność.
 
 ## Wymagania wstępne
 

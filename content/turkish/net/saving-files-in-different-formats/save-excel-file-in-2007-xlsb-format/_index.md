@@ -12,7 +12,7 @@ url: /tr/net/saving-files-in-different-formats/save-excel-file-in-2007-xlsb-form
 ## Ön koşullar
 Başlamadan önce, sorunsuz bir şekilde takip edebilmeniz için ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım. İşte sahip olmanız gerekenler:
 1. Visual Studio: Makinenizde Visual Studio'nun bir sürümünün yüklü olduğundan emin olun. .NET kodunuzu burada yazacaksınız. 
-2. Aspose.Cells Kütüphanesi: Aspose.Cells for .NET kütüphanesine ihtiyacınız var. Henüz indirmediyseniz, şuraya gidin:[Aspose İndirmeler sayfası](https://releases.aspose.com/cells/net/) onu yakalamak için. 
+2.  Aspose.Cells Kütüphanesi: Aspose.Cells for .NET kütüphanesine ihtiyacınız var. Henüz indirmediyseniz, şuraya gidin:[Aspose İndirmeler sayfası](https://releases.aspose.com/cells/net/) onu yakalamak için. 
 3. Temel C# Bilgisi: C# ve .NET hakkında temel bir anlayışa sahip olmak, kod örnekleri arasında daha rahat gezinmenize yardımcı olacaktır.
 4. .NET Framework: Projenizin Aspose.Cells kitaplığı tarafından desteklenen uygun .NET framework ile kurulduğundan emin olun.
 5. Excel Belgesi: Yeni bir çalışma kitabı oluşturmak bir seçenek olsa da, mevcut bir dosyayı düzenlemek istiyorsanız başlangıç belgesine sahip olmak yararlı olabilir.

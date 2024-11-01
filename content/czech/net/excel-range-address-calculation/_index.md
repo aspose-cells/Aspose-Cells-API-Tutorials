@@ -13,7 +13,7 @@ Pokud jde o programovou práci s Excelem, pochopení toho, jak manipulovat s roz
 
 ## Vytvořte sjednocený rozsah buněk v aplikaci Excel
 
-Chtěli jste někdy spojit několik nesousedících buněk do jednoho rozsahu? Funkce sjednocení rozsahu to dělá a je neuvěřitelně užitečná pro efektivní manipulaci s daty. V našem tutoriálu na[Vytvořte sjednocený rozsah buněk v aplikaci Excel](./create-union-range-of-cells-in-excel/), provedeme vás procesem vytváření sjednocovacího rozsahu krok za krokem pomocí Aspose.Cells for .NET. Představte si, že shromáždíte všechny své oblíbené knihy na jednu úhlednou hromádku, místo abyste je měli rozházené po pokoji; to je kouzlo svazového rozsahu. Díky praktickým příkladům a jasným vysvětlením, dokonce i když jste v kódování nováčkem, budete se v této funkci okamžitě cítit bezpečně!
+Chtěli jste někdy spojit několik nesousedících buněk do jednoho rozsahu? Funkce sjednocení rozsahu to dělá a je neuvěřitelně užitečná pro efektivní manipulaci s daty. V našem tutoriálu na[Vytvořte sjednocený rozsah buněk v aplikaci Excel](./create-union-range-of-cells-in-excel/), provedeme vás procesem vytváření sjednocovacího rozsahu krok za krokem pomocí Aspose.Cells for .NET. Představte si, že shromáždíte všechny své oblíbené knihy na jednu úhlednou hromádku, místo abyste je měli rozházené po pokoji; v tom je kouzlo svazového rozsahu. Díky praktickým příkladům a jasným vysvětlením, dokonce i když jste v kódování nováčkem, budete se v této funkci okamžitě cítit bezpečně!
 
 ## Získejte adresu, počet buněk a posun pro celý rozsah aplikace Excel
 

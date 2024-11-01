@@ -70,7 +70,7 @@ Allereerst moeten we het pad van ons Excel-document instellen. Hier specificeert
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Tip: Vervangen`"YOUR DOCUMENT DIRECTORY"`met het werkelijke pad waar uw Excel-bestand zich bevindt (laten we het zo noemen)`book1.xls`) bevindt. 
+ Tip: Vervangen`"YOUR DOCUMENT DIRECTORY"` met het werkelijke pad waar uw Excel-bestand zich bevindt (laten we het zo noemen)`book1.xls`) bevindt. 
 
 ## Stap 2: Een werkmapobject instantiëren
 

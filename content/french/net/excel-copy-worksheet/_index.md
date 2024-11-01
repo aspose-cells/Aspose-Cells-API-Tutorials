@@ -9,7 +9,7 @@ url: /fr/net/excel-copy-worksheet/
 ---
 ## Introduction
 
-Lorsqu'il s'agit de gérer des fichiers Excel à l'aide de .NET, Aspose.Cells se distingue par sa puissante bibliothèque capable de gérer tout, des tâches simples aux automatisations complexes. Mais par où commencer ? Pas de soucis, nous avons tout ce qu'il vous faut avec une gamme de tutoriels conçus spécifiquement pour les développeurs .NET comme vous !
+Lorsqu'il s'agit de gérer des fichiers Excel à l'aide de .NET, Aspose.Cells se distingue par sa puissante bibliothèque capable de gérer tout, des tâches simples aux automatisations complexes. Mais par où commencer ? Pas de soucis, nous vous proposons une gamme de tutoriels conçus spécifiquement pour les développeurs .NET comme vous !
 
 ## Copier des feuilles de travail en toute simplicité
 

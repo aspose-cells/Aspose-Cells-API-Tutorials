@@ -42,14 +42,14 @@ Először is létre kell hoznia egy könyvtárat, ahová az Excel-fájlt menti. 
 
 ```csharp
 // Kimeneti könyvtár
-string outputDir = "Your Output Directory"; //Módosítsa ezt a kívánt útvonalra
+string outputDir = "Your Output Directory"; // Módosítsa ezt a kívánt útvonalra
 ```
 
 A „Kimeneti könyvtár” helyett megadhat egy tényleges elérési utat, ahová az Excel-fájlt menteni szeretné. Győződjön meg arról, hogy ez a könyvtár létezik a rendszeren; különben később hibákba ütközhet.
 
 ## 2. lépés: Munkafüzet-objektum példányosítása
 
- Most érdemes elindítani a dolgokat egy új példány létrehozásával`Workbook` osztály. Ez az Aspose.Cells használatával végzett Excel-műveletek alapvető építőköve.
+ Most érdemes elindítani a dolgokat egy új példány létrehozásával`Workbook`osztály. Ez az Aspose.Cells használatával végzett Excel-műveletek alapvető építőköve.
 
 ```csharp
 // Munkafüzet objektum példányosítása
@@ -72,7 +72,7 @@ Ez a sor eléri az első munkalapot (0. index). Az Aspose.Cells lehetővé teszi
 ## 4. lépés: Mintaadatok hozzáadása a munkalaphoz
 
 
-munkalap elkészültével itt az ideje, hogy néhány mintaadatot adjon a cellákhoz. Egy egyszerű adatkészlet segít a diagramok hatékonyabb megjelenítésében.
+A munkalap elkészültével itt az ideje, hogy néhány mintaadatot adjon a cellákhoz. Egy egyszerű adatkészlet segít a diagramok hatékonyabb megjelenítésében.
 
 ```csharp
 // Mintaértékek hozzáadása a cellákhoz

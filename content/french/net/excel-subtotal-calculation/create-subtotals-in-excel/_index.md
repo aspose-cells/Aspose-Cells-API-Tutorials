@@ -29,7 +29,7 @@ Pour commencer, nous devons définir où se trouve notre fichier Excel. C'est ic
 ```csharp
 string dataDir = "Your Document Directory";
 ```
- Remplacer`"Your Document Directory"` avec le chemin réel où votre`book1.xls`est stocké. Cela indique au programme où trouver le fichier Excel que nous allons manipuler.
+ Remplacer`"Your Document Directory"` avec le chemin réel où votre`book1.xls` est stocké. Cela indique au programme où trouver le fichier Excel que nous allons manipuler.
 ## Étape 2 : créer un nouveau classeur
 Ensuite, nous allons créer une nouvelle instance de l'objet Workbook. Cela nous permettra d'ouvrir et de modifier notre fichier Excel.
 ```csharp
@@ -51,7 +51,7 @@ ca.StartColumn = 1;
 ca.EndRow = 18; // C19
 ca.EndColumn = 2;
 ```
- Ici, nous définissons un`CellArea`qui spécifie la plage qui nous intéresse. Dans ce cas, nous avons choisi la zone allant de B3 (ligne 2, colonne 1) à C19 (ligne 18, colonne 2). C'est ici que nous allons calculer nos sous-totaux.
+ Ici, nous définissons un`CellArea` qui spécifie la plage qui nous intéresse. Dans ce cas, nous avons choisi la zone allant de B3 (ligne 2, colonne 1) à C19 (ligne 18, colonne 2). C'est ici que nous allons calculer nos sous-totaux.
 ## Étape 5 : Appliquer les sous-totaux
 C’est le cœur de notre opération : appliquer le sous-total à la zone de cellule définie.
 ```csharp

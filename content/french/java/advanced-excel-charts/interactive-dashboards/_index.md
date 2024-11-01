@@ -14,7 +14,7 @@ Dans le monde en constante évolution de la prise de décision basée sur les do
 
 ## Prérequis
 
-Avant de plonger dans les détails, assurez-vous que vous disposez des conditions préalables suivantes :
+Avant de plonger dans les détails, assurez-vous que les conditions préalables suivantes sont remplies :
 
 -  Aspose.Cells pour Java : Téléchargez et installez la bibliothèque Aspose.Cells pour Java à partir de[ici](https://releases.aspose.com/cells/java/).
 
@@ -118,4 +118,4 @@ Oui, Aspose.Cells pour Java offre la possibilité d'exporter votre tableau de bo
 
 ### Aspose.Cells pour Java est-il adapté aux projets de visualisation de données à grande échelle ?
 
-Oui, Aspose.Cells pour Java est parfaitement adapté aux projets de visualisation de données à petite et à grande échelle. Sa flexibilité et son ensemble complet de fonctionnalités en font un choix solide pour diverses exigences.
+Oui, Aspose.Cells pour Java est parfaitement adapté aux projets de visualisation de données à petite et grande échelle. Sa flexibilité et son ensemble complet de fonctionnalités en font un choix solide pour diverses exigences.

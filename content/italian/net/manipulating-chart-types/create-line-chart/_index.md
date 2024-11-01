@@ -50,7 +50,7 @@ Il primo passo è definire dove vuoi salvare il tuo file di output. È come impo
 // Directory di uscita
 string outputDir = "Your Output Directory";
 ```
- Sostituire`"Your Output Directory"` con il percorso effettivo in cui si desidera salvare il file Excel generato.
+ Sostituire`"Your Output Directory"`con il percorso effettivo in cui si desidera salvare il file Excel generato.
 
 ## Passaggio 2: creare un'istanza dell'oggetto Workbook
 

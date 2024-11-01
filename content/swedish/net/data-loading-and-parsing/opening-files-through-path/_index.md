@@ -49,7 +49,7 @@ Här är "Din dokumentkatalog" en platshållare för den faktiska sökvägen dä
 ```csharp
 // Sökvägen till dokumentkatalogen.
 string dataDir = "Your Document Directory";
-// Öppning genom stigen
+// Öppning genom vägen
 // Skapa ett arbetsboksobjekt och öppna en Excel-fil med hjälp av dess sökväg
 Workbook workbook1 = new Workbook(dataDir + "Book1.xlsx");
 ```

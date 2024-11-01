@@ -17,7 +17,7 @@ Aspose.Cells pour .NET fournit aux développeurs des outils puissants pour gére
 
 ## Recevoir des avertissements lors du chargement d'un fichier Excel dans .NET
 
- Lorsque vous chargez un fichier Excel, certains formats de données ou contenus peuvent déclencher des avertissements. Découvrez comment gérer et interpréter ces alertes avec l'outil[Recevoir des avertissements lors du chargement d'un fichier Excel dans .NET](./getting-warnings-while-loading-excel-file/)Tutoriel. Ce guide est indispensable pour les développeurs souhaitant gérer et résoudre efficacement les problèmes de compatibilité ou les avertissements de formatage. En traitant ces avertissements au plus tôt, vous garantissez une expérience plus fluide et sans erreur lors du chargement des fichiers dans votre application.
+ Lorsque vous chargez un fichier Excel, certains formats de données ou contenus peuvent déclencher des avertissements. Découvrez comment gérer et interpréter ces alertes avec l'outil[Recevoir des avertissements lors du chargement d'un fichier Excel dans .NET](./getting-warnings-while-loading-excel-file/) Tutoriel. Ce guide est indispensable pour les développeurs souhaitant gérer et résoudre efficacement les problèmes de compatibilité ou les avertissements de formatage. En traitant ces avertissements au plus tôt, vous garantissez une expérience plus fluide et sans erreur lors du chargement des fichiers dans votre application.
 
 ## Spécification de la version du document d'un fichier Excel par programmation dans .NET
 
@@ -25,7 +25,7 @@ Aspose.Cells pour .NET fournit aux développeurs des outils puissants pour gére
 
 ### Suppression des lignes et des colonnes vides en début de ligne lors de l'exportation
 
- Les lignes et les colonnes vides peuvent encombrer vos exportations, en particulier lorsque vous traitez des fichiers CSV.[Suppression des lignes et des colonnes vides en début de ligne lors de l'exportation](./trimming-leading-blank-rows-and-columns/)Ce didacticiel vous permet de nettoyer vos données en supprimant les espaces vides inutiles au début des lignes et des colonnes. Ce didacticiel est parfait pour les développeurs souhaitant créer des fichiers concis et ordonnés, prêts à être analysés ou présentés. Un résultat propre et soigné est non seulement professionnel, mais facilite également grandement le traitement des données.
+Les lignes et les colonnes vides peuvent encombrer vos exportations, en particulier lorsque vous traitez des fichiers CSV.[Suppression des lignes et des colonnes vides en début de ligne lors de l'exportation](./trimming-leading-blank-rows-and-columns/) Ce didacticiel vous permet de nettoyer vos données en supprimant les espaces vides inutiles au début des lignes et des colonnes. Ce didacticiel est parfait pour les développeurs souhaitant créer des fichiers concis et ordonnés, prêts à être analysés ou présentés. Un résultat propre et soigné est non seulement professionnel, mais facilite également grandement le traitement des données.
 
 ## Tutoriels sur l'enregistrement et l'exportation de fichiers Excel avec les options
 ### [Exportation de commentaires lors de l'enregistrement d'un fichier Excel au format HTML](./exporting-comments/)

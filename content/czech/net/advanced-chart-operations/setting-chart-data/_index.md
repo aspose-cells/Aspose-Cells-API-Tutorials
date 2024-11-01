@@ -32,7 +32,7 @@ using System.IO;
 using Aspose.Cells;
 ```
 
-Tím se vyhnete nutnosti zadávat celou cestu tříd, které používáte, v celém kódu, takže je čistší a čitelnější.
+Tímto způsobem se vyhnete nutnosti zadávat celou cestu tříd, které používáte, v celém kódu, takže je čistší a čitelnější.
 
 Nyní, když máte vše připraveno, pojďme si krok za krokem rozebrat proces nastavení dat grafu. Na základě ukázkových dat vytvoříme sloupcový graf.
 

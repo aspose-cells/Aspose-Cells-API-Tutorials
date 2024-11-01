@@ -93,7 +93,7 @@ int idx = worksheet.Charts.Add(ChartType.LineWithDataMarkers, 1, 3, 20, 20);
 Chart chart = worksheet.Charts[idx];
 ```
 
-Met dit fragment wordt een lijndiagram met gegevensmarkeringen aan het werkblad toegevoegd, waardoor het in een specifiek bereik (1,3 tot 20,20) wordt geplaatst. Vrij eenvoudig, toch?
+Dit fragment voegt een lijndiagram met gegevensmarkeringen toe aan het werkblad en plaatst het in een specifiek bereik (1,3 tot 20,20). Vrij eenvoudig, toch?
 
 ## Stap 4: Pas het uiterlijk van de grafiek aan
 
@@ -112,7 +112,7 @@ chart.PlotArea.Area.ForegroundColor = Color.White;
 // Eigenschappen van grafiektitel instellen
 chart.Title.Text = "Sample Chart";
 
-// Grafiektype instellen
+// Stel grafiektype in
 chart.Type = ChartType.LineWithDataMarkers;
 ```
 

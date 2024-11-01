@@ -30,7 +30,7 @@ Walidacja danych jest istotna, ponieważ pomaga w:
 
 - Zapobieganie wprowadzaniu nieprawidłowych danych: Użytkownicy są informowani o konieczności wprowadzania wyłącznie prawidłowych danych, co zmniejsza ryzyko wystąpienia błędów.
 - Zapewnienie integralności danych: Pomaga zachować integralność i niezawodność danych w programie Excel.
-- Usprawnienie przetwarzania danych: Zweryfikowane dane można przetwarzać wydajniej, oszczędzając czas i wysiłek.
+- Usprawnienie przetwarzania danych: Zweryfikowane dane można przetwarzać wydajniej, co pozwala zaoszczędzić czas i wysiłek.
 
 Teraz, gdy omówiliśmy podstawy, możemy przejść do praktycznej implementacji walidacji danych za pomocą Aspose.Cells dla Java.
 
@@ -119,7 +119,7 @@ Tak, możesz zastosować walidację danych do wielu komórek w arkuszu kalkulacy
 
 ### Jakie typy kryteriów walidacji danych obsługuje Aspose.Cells for Java?
 
-Aspose.Cells for Java obsługuje różne kryteria walidacji danych, w tym liczby całkowite, liczby dziesiętne, długość tekstu, zakresy dat i niestandardowe formuły. Możesz wybrać kryteria, które najlepiej odpowiadają Twoim potrzebom.
+Aspose.Cells for Java obsługuje różne kryteria walidacji danych, w tym liczby całkowite, liczby dziesiętne, długość tekstu, zakresy dat i formuły niestandardowe. Możesz wybrać kryteria, które najlepiej odpowiadają Twoim potrzebom.
 
 ### Czy Aspose.Cells for Java nadaje się zarówno do prostych, jak i złożonych scenariuszy walidacji danych?
 

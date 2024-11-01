@@ -134,4 +134,4 @@ Tệp XLSB là định dạng tệp Excel nhị phân lưu trữ dữ liệu b�
 Chắc chắn rồi! Aspose.Cells hỗ trợ nhiều định dạng tệp khác nhau, bao gồm XLSX, CSV, v.v.
 
 ### Tôi có thể tìm kiếm sự trợ giúp ở đâu nếu gặp vấn đề?  
- Bạn có thể nhận được sự hỗ trợ từ diễn đàn Aspose[đây](https://forum.aspose.com/c/cells/9).
+Bạn có thể nhận được sự hỗ trợ từ diễn đàn Aspose[đây](https://forum.aspose.com/c/cells/9).

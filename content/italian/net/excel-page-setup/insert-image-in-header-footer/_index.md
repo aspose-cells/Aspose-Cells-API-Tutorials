@@ -41,7 +41,7 @@ Per prima cosa, dovrai specificare la directory in cui si trovano i tuoi file Ex
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // Aggiornare di conseguenza
 ```
 
- Questa linea imposta il`dataDir` variabile, che è il percorso di base per individuare l'immagine che si desidera inserire nell'intestazione.
+ Questa linea imposta il`dataDir`variabile, che è il percorso di base per individuare l'immagine che si desidera inserire nell'intestazione.
 
 ## Passaggio 2: creazione di un oggetto cartella di lavoro
 
@@ -55,7 +55,7 @@ Workbook workbook = new Workbook();
 
 ## Passaggio 3: Definizione del percorso dell'immagine
 
-È il momento di creare una variabile stringa per contenere il percorso all'immagine che vuoi usare. Nel nostro caso, stiamo usando`aspose-logo.jpg`.
+ È il momento di creare una variabile stringa per contenere il percorso all'immagine che vuoi usare. Nel nostro caso, stiamo usando`aspose-logo.jpg`.
 
 ```csharp
 string logo_url = dataDir + "aspose-logo.jpg";

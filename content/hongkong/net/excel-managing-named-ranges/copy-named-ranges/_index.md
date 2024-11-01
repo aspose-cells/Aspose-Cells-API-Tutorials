@@ -27,7 +27,7 @@ using System.IO;
 using Aspose.Cells;
 using System.Drawing;
 ```
-此程式碼將使您能夠存取基本類，例如`Workbook`, `Worksheet`， 和`Range`，您將需要它來操作 Excel 檔案。
+此程式碼將使您能夠存取基本類，例如`Workbook`, `Worksheet` ， 和`Range`，您將需要它來操作 Excel 檔案。
 
 現在我們已經解決了先決條件，讓我們將流程分解為易於遵循的步驟。
 ## 第 1 步：設定輸出目錄
@@ -101,7 +101,7 @@ Console.WriteLine("CopyNamedRanges executed successfully.");
 ```
 運行此行將表示您的程式碼執行順利。
 ## 結論
-現在你就得到它了！您已成功使用 Aspose.Cells for .NET 一步步在 Excel 中複製命名範圍。此流程可讓您自動執行 Excel 任務並更有效地管理資料。透過一些練習，您將能夠立即執行更複雜的 Excel 自動化任務。
+現在你就擁有了！您已成功使用 Aspose.Cells for .NET 一步步在 Excel 中複製命名範圍。此流程可讓您自動執行 Excel 任務並更有效地管理資料。透過一些練習，您將能夠立即執行更複雜的 Excel 自動化任務。
 ## 常見問題解答
 ### 什麼是 Aspose.Cells for .NET？
 Aspose.Cells 是一個 .NET 函式庫，可讓開發人員以程式設計方式建立、操作和轉換 Excel 檔案。

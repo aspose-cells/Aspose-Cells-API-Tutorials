@@ -90,4 +90,4 @@ In questo tutorial, abbiamo imparato come creare animazioni di grafici usando l'
 
 ### Qual è lo scopo del ritardo dell'animazione?
 
- Il ritardo dell'animazione determina l'intervallo di tempo prima che inizi l'animazione del grafico. Utilizzare`setAnimationDelay`Metodo per impostare il ritardo in millisecondi.
+ Il ritardo dell'animazione determina l'intervallo di tempo prima che inizi l'animazione del grafico. Utilizzare`setAnimationDelay` Metodo per impostare il ritardo in millisecondi.

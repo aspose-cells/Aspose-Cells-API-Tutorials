@@ -39,14 +39,14 @@ string outputDir = "Your Document Directory";
 ```
  Sostituire`"Your Document Directory"` con il percorso effettivo delle tue directory.
 ## Passaggio 2: aprire il file Excel
-Ora che abbiamo impostato le nostre directory, apriamo il file Excel con cui vuoi lavorare. Il`Workbook` La classe in Aspose.Cells viene utilizzata per caricare il documento Excel.
+ Ora che abbiamo impostato le nostre directory, apriamo il file Excel con cui vuoi lavorare. Il`Workbook` La classe in Aspose.Cells viene utilizzata per caricare il documento Excel.
 ```csharp
 // Aprire un file Excel
 Workbook workbook = new Workbook(sourceDir + "sampleSetDefaultFontPropertyOfPdfSaveOptionsAndImageOrPrintOptions.xlsx");
 ```
 Assicurati di sostituire il nome del file con il nome effettivo del file.
 ## Passaggio 3: impostare le opzioni di rendering delle immagini
- Successivamente, dobbiamo configurare le opzioni di rendering per convertire il nostro foglio Excel in un formato immagine. Creeremo un'istanza di`ImageOrPrintOptions`, specificando il tipo di immagine e il font predefinito.
+Successivamente, dobbiamo configurare le opzioni di rendering per convertire il nostro foglio Excel in un formato immagine. Creeremo un'istanza di`ImageOrPrintOptions`, specificando il tipo di immagine e il font predefinito.
 ```csharp
 // Rendering in formato file PNG
 ImageOrPrintOptions imgOpt = new ImageOrPrintOptions();
@@ -63,7 +63,7 @@ SheetRender sr = new SheetRender(workbook.Worksheets[0], imgOpt);
 sr.ToImage(0, outputDir + "out1_imagePNG.png");
 ```
 ## Passaggio 5: modifica il tipo di immagine e il rendering in TIFF
-Se vuoi rendere lo stesso foglio in un formato immagine diverso, come TIFF, puoi semplicemente cambiare il`ImageType` proprietà e ripetere il processo di rendering.
+ Se vuoi rendere lo stesso foglio in un formato immagine diverso, come TIFF, puoi semplicemente cambiare il`ImageType` proprietà e ripetere il processo di rendering.
 ```csharp
 // Impostato sul formato TIFF
 imgOpt.ImageType = Drawing.ImageType.Tiff;
@@ -71,7 +71,7 @@ WorkbookRender wr = new WorkbookRender(workbook, imgOpt);
 wr.ToImage(outputDir + "out1_imageTIFF.tiff");
 ```
 ## Passaggio 6: Configurare le opzioni di salvataggio PDF
- Ora, impostiamo le opzioni di salvataggio PDF. Creeremo un'istanza di`PdfSaveOptions`, imposta il font predefinito e specifica che vogliamo controllare i font mancanti.
+ Ora, impostiamo le opzioni di salvataggio PDF. Creeremo un'istanza di`PdfSaveOptions`imposta il font predefinito e specifica che vogliamo controllare i font mancanti.
 ```csharp
 // Configurare le opzioni di salvataggio PDF
 PdfSaveOptions saveOptions = new PdfSaveOptions();

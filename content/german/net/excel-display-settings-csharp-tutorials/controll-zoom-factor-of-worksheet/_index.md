@@ -139,7 +139,7 @@ Die Steuerung des Zoomfaktors in Excel-Arbeitsblättern mag wie ein kleines Deta
 ## Häufig gestellte Fragen
 
 ### Was ist Aspose.Cells für .NET?
-Es ist eine leistungsstarke Bibliothek zum programmgesteuerten Verwalten von Excel-Dateien in .NET-Anwendungen.
+Es ist eine leistungsstarke Bibliothek zur programmgesteuerten Verwaltung von Excel-Dateien in .NET-Anwendungen.
 
 ### Kann ich Aspose.Cells kostenlos nutzen?
  Ja, Aspose bietet eine kostenlose Testversion an[Hier](https://releases.aspose.com/).

@@ -41,7 +41,7 @@ Först måste du ange katalogen där dina Excel-filer och bilder finns. Uppdater
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // Uppdatera därefter
 ```
 
- Denna rad ställer in`dataDir` variabel, som är basvägen för att hitta bilden du vill infoga i rubriken.
+ Denna rad ställer in`dataDir`variabel, som är basvägen för att hitta bilden du vill infoga i rubriken.
 
 ## Steg 2: Skapa ett arbetsboksobjekt
 
@@ -55,7 +55,7 @@ Workbook workbook = new Workbook();
 
 ## Steg 3: Definiera bildsökvägen
 
-Det är dags att skapa en strängvariabel för att hålla sökvägen till bilden du vill använda. I vårt fall använder vi`aspose-logo.jpg`.
+ Det är dags att skapa en strängvariabel för att hålla sökvägen till bilden du vill använda. I vårt fall använder vi`aspose-logo.jpg`.
 
 ```csharp
 string logo_url = dataDir + "aspose-logo.jpg";

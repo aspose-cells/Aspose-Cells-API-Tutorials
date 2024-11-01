@@ -20,7 +20,7 @@ Mielőtt belemerülnénk a dinamikus legördülő listák létrehozásába, győ
 
 -  Aspose.Cells for Java Library: Töltse le az Aspose.Cells for Java könyvtárat innen[itt](https://releases.aspose.com/cells/java/) és vegye fel a Java projektbe.
 
-Most pedig kezdjük a lépésről lépésre bemutatott útmutatóval.
+Most pedig kezdjük a lépésről lépésre szóló útmutatóval.
 
 ## 1. lépés: A Java projekt beállítása
 

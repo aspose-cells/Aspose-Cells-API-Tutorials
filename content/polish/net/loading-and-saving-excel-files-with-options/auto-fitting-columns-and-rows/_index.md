@@ -12,7 +12,7 @@ Czy zastanawiałeś się kiedyś, jak automatycznie dostosować rozmiary kolumn 
 ### Wymagania wstępne
 Zanim przejdziesz do kodu, musisz skonfigurować kilka rzeczy w swoim systemie. Nie martw się, to proste i przejrzyste!
 1. Zainstalowany program Visual Studio: Będziesz potrzebować programu Visual Studio lub innego środowiska programistycznego .NET.
-2.  Aspose.Cells dla .NET: Możesz[pobierz najnowszą wersję](https://releases.aspose.com/cells/net/)lub zainstaluj go przy użyciu menedżera pakietów NuGet.
+2.  Aspose.Cells dla .NET: Możesz[pobierz najnowszą wersję](https://releases.aspose.com/cells/net/) lub zainstaluj go przy użyciu menedżera pakietów NuGet.
 3. .NET Framework: Upewnij się, że masz zainstalowany .NET Framework 4.0 lub nowszy.
 4. Podstawowa znajomość języka C#: Posiadanie pewnej wiedzy na temat języka C# sprawi, że ten samouczek będzie dla Ciebie łatwiejszy.
 5. Dane tabeli HTML: Przygotuj zawartość HTML (nawet prostą tabelę), którą chcesz załadować do programu Excel.
@@ -44,9 +44,9 @@ Definiujemy tutaj bardzo podstawowy ciąg HTML. Zawiera on tabelę z kilkoma wie
 ```csharp
 MemoryStream ms = new MemoryStream(Encoding.UTF8.GetBytes(sampleHtml));
 ```
- Konwertując ciąg HTML na tablicę bajtów i wprowadzając ją do`MemoryStream`możemy pracować z danymi HTML w pamięci. Wyobraź sobie ten krok jako przygotowanie dania w garnku przed włożeniem go do piekarnika!
+ Konwertując ciąg HTML na tablicę bajtów i wprowadzając ją do`MemoryStream`, możemy pracować z danymi HTML w pamięci. Wyobraź sobie ten krok jako przygotowanie dania w garnku przed włożeniem go do piekarnika!
 ## Krok 4: Załaduj MemoryStream do skoroszytu (bez automatycznego dopasowywania)
- Gdy już mamy zawartość HTML w pamięci, ładujemy ją do Aspose`Workbook`. W tym momencie nie dopasowujemy jeszcze automatycznie kolumn i wierszy. To nasz scenariusz „przed”, który później porównamy z wersją dopasowywaną automatycznie.
+ Gdy już mamy zawartość HTML w pamięci, ładujemy ją do Aspose`Workbook`W tym momencie nie dopasowujemy jeszcze automatycznie kolumn i wierszy. To nasz scenariusz „przed”, który później porównamy z wersją dopasowywaną automatycznie.
 ```csharp
 Workbook wb = new Workbook(ms);
 wb.Save(dataDir + "outputWithout_AutoFitColsAndRows.xlsx");
@@ -60,7 +60,7 @@ opts.AutoFitColsAndRows = true;
 ```
 Ustawiając tę opcję, mówimy Aspose.Cells, aby automatycznie zmieniał rozmiar wierszy i kolumn. Wyobraź sobie to jako ustawienie piekarnika na idealną temperaturę, aby ciasto wyrosło idealnie!
 ## Krok 6: Wczytaj kod HTML do skoroszytu z włączonym automatycznym dopasowaniem
- Teraz ponownie ładujemy zawartość HTML, ale tym razem z`AutoFitColsAndRows` opcja włączona. Spowoduje to dostosowanie szerokości kolumn i wysokości wierszy na podstawie zawartości wewnątrz nich.
+ Teraz ponownie ładujemy zawartość HTML, ale tym razem z`AutoFitColsAndRows`opcja włączona. Spowoduje to dostosowanie szerokości kolumn i wysokości wierszy na podstawie zawartości wewnątrz nich.
 ```csharp
 wb = new Workbook(ms, opts);
 wb.Save(dataDir + "outputWith_AutoFitColsAndRows.xlsx");

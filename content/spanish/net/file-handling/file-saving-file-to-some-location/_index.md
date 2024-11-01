@@ -12,7 +12,7 @@ Al trabajar con archivos de Excel en .NET, la biblioteca Aspose.Cells se destaca
 ## Prerrequisitos
 Antes de comenzar con el código, vamos a equiparte con todo lo que necesitas para seguir el proceso sin problemas. Esto es lo que deberías tener:
 1. Visual Studio: Asegúrate de tener Visual Studio instalado en tu equipo. Es donde escribiremos y probaremos nuestra aplicación .NET.
-2. Biblioteca Aspose.Cells: deberá descargar la biblioteca Aspose.Cells. Puede obtener la última versión[aquí](https://releases.aspose.com/cells/net/).
+2.  Biblioteca Aspose.Cells: deberá descargar la biblioteca Aspose.Cells. Puede obtener la última versión[aquí](https://releases.aspose.com/cells/net/).
 3. .NET Framework: asegúrese de tener una versión de .NET Framework compatible con Aspose.Cells, que normalmente funciona con .NET Framework 4.0 y superiores.
 4. Conocimientos básicos de C#: te resultará útil tener conocimientos básicos de programación en C#. No te preocupes, ¡te explicaremos todo paso a paso!
 5.  Ruta del archivo: decide dónde quieres guardar los archivos de salida. Crea un directorio llamado`Your Document Directory` Por simplicidad.
@@ -47,9 +47,9 @@ A veces, es posible que necesites guardar tus archivos en un formato más antigu
 // Guardar en formato Excel 97–2003
 workbook.Save(dataDir + "output.xls");
 ```
- Esta línea guarda su libro de trabajo usando el`.xls`extensión, que es el formato de Excel para versiones anteriores a 2007. ¡Es como enviar una carta a través del servicio postal para asegurarse de que llegue a un destinatario mayor!
+ Esta línea guarda su libro de trabajo usando el`.xls` extensión, que es el formato de Excel para versiones anteriores a 2007. ¡Es como enviar una carta a través del servicio postal para asegurarse de que llegue a un destinatario mayor!
 ## Paso 4: Guardar en formato Excel 2007
- Si desea utilizar funciones de Excel 2007 y versiones posteriores, guardar en`.xlsx` El formato es el camino a seguir. Aquí te explicamos cómo:
+Si desea utilizar funciones de Excel 2007 y versiones posteriores, guardar en`.xlsx` El formato es el camino a seguir. Aquí te explicamos cómo:
 ```csharp
 // Guardar en formato xlsx de Excel 2007
 workbook.Save(dataDir + "output.xlsx");

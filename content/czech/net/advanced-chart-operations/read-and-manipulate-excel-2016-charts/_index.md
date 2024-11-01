@@ -38,7 +38,7 @@ Rozdělme si úkol na zvládnutelné kroky. Nastíníme proces čtení excelový
 
 ## Krok 1: Nastavte zdrojové a výstupní adresáře
 
-Nejprve musíte definovat umístění zdrojového souboru Excel a adresář, kam chcete výstupní soubor uložit.
+Nejprve musíte definovat umístění zdrojového souboru Excel a adresář, kam chcete uložit výstupní soubor.
 
 ```csharp
 // Zdrojový adresář

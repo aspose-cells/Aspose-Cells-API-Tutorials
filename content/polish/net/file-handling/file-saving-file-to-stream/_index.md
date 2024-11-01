@@ -13,7 +13,7 @@ Jeśli chodzi o pracę z plikami Excela w aplikacjach .NET, Aspose.Cells wyróż
 Zanim przejdziemy do konkretów, jest kilka rzeczy, które musisz mieć na miejscu. Rozważ to jako swoją listę kontrolną, aby zapewnić płynne działanie podczas przechodzenia przez samouczek.
 1. Visual Studio: Upewnij się, że masz zainstalowany Visual Studio na swoim komputerze. Nie martw się, możesz nawet użyć edycji Community; jest darmowa i działa świetnie.
 2. .NET Framework: Wersja .NET, której używasz, musi być zgodna z Aspose.Cells. Generalnie, każda wersja .NET Framework 4.0 lub nowsza powinna być dobra.
-3.  Biblioteka Aspose.Cells: Pobierz i zainstaluj bibliotekę Aspose.Cells dla .NET. Możesz ją znaleźć[Tutaj](https://releases.aspose.com/cells/net/). 
+3. Biblioteka Aspose.Cells: Pobierz i zainstaluj bibliotekę Aspose.Cells dla .NET. Możesz ją znaleźć[Tutaj](https://releases.aspose.com/cells/net/). 
 4. Podstawowa wiedza C#: Nieco znajomości programowania C# będzie przydatne, ale nie musisz być czarodziejem kodowania. Zaufaj mi, jeśli potrafisz postępować zgodnie z przepisem, poradzisz sobie z tym przewodnikiem!
 5.  Plik Excel: Będziesz potrzebować pliku startowego Excel, w naszym przypadku o nazwie`Book1.xlsx`. Jeśli jeszcze nie masz, możesz stworzyć coś prostego.
 Teraz gdy wszystko jest już gotowe, możemy zaimportować niezbędne pakiety!
@@ -50,7 +50,7 @@ Teraz załadujmy skoroszyt, abyśmy byli gotowi do zabawy jego zawartością. Mo
 ```csharp
 Workbook workbook = new Workbook(filePath);
 ```
-Co się tu dzieje? Tworzymy nową instancję`Workbook` class i przekazując ścieżkę istniejącego pliku Excel. To jak otwieranie książki kucharskiej, aby znaleźć swoje ulubione danie!
+ Co się tu dzieje? Tworzymy nową instancję`Workbook`class i przekazując ścieżkę istniejącego pliku Excel. To jak otwieranie książki kucharskiej, aby znaleźć swoje ulubione danie!
 ## Krok 4: Utwórz strumień plików, aby zapisać skoroszyt
  Następnie musimy utworzyć`FileStream` obiekt, który ustawia miejsce, w którym zapiszemy nasz nowo zmodyfikowany skoroszyt. Zakoduj go w ten sposób:
 ```csharp

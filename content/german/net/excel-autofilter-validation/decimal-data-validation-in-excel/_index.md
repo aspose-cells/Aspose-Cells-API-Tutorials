@@ -49,7 +49,7 @@ string dataDir = "Your Document Directory";
 
 ## Schritt 2: Überprüfen Sie, ob ein Verzeichnis vorhanden ist
 
-Dieses Snippet prüft, ob das Verzeichnis existiert und erstellt es, wenn nicht:
+Dieses Snippet überprüft, ob das Verzeichnis existiert und erstellt es, wenn nicht:
 
 ```csharp
 bool IsExists = System.IO.Directory.Exists(dataDir);

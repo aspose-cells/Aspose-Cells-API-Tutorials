@@ -27,7 +27,7 @@ Teraz, gdy wszystko jest już gotowe, szybko skonfigurujmy nasze środowisko. Ab
 
 ### Konfigurowanie projektu
 
- Otwórz Visual Studio i utwórz nowy projekt C#. W`Solution Explorer` , kliknij prawym przyciskiem myszy na swoim projekcie i wybierz Dodaj nowy element.... Wybierz klasę C# i nadaj jej odpowiednią nazwę (na przykład,`ExcelUnprotector.cs`).
+ Otwórz Visual Studio i utwórz nowy projekt C#. W`Solution Explorer` , kliknij prawym przyciskiem myszy na swój projekt i wybierz Dodaj nowy element.... Wybierz klasę C# i nadaj jej odpowiednią nazwę (na przykład,`ExcelUnprotector.cs`).
 
 ### Instalowanie Aspose.Cells
 

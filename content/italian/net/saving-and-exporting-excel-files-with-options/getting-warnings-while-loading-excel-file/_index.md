@@ -18,7 +18,7 @@ Prima di iniziare a scrivere codice, assicuriamoci che tutto sia pronto per un l
 ### Ambiente di sviluppo
 Per lo sviluppo di applicazioni .NET si consiglia un IDE compatibile come Visual Studio. 
 ### File Excel di base
- Avrai bisogno di un file Excel di esempio (lo chiameremo`sampleDuplicateDefinedName.xlsx`che potrebbe contenere nomi definiti duplicati per testare questa funzionalità.
+ Avrai bisogno di un file Excel di esempio (lo chiameremo`sampleDuplicateDefinedName.xlsx`) che potrebbe contenere nomi definiti duplicati per testare questa funzionalità.
 ## Importazione di pacchetti
 Ora che tutto è impostato, parliamo dei pacchetti di cui avrai bisogno. Assicurati di includere questi namespace in cima al tuo file C#:
 ```csharp
@@ -38,12 +38,12 @@ string dataDir = "Your Document Directory";
 ```
  Sostituire`"Your Document Directory"` con il percorso effettivo sul tuo computer in cui è archiviato il file Excel. Questa semplice riga di codice indirizza il programma nella giusta direzione!
 ## Passaggio 2: creare opzioni di carico
- Ora creiamo un'istanza di`LoadOptions`. È qui che inizia la magia. Configurando le opzioni di caricamento, puoi impostare un callback che verrà attivato ogni volta che si verifica un avviso durante il caricamento della cartella di lavoro:
+ Ora creiamo un'istanza di`LoadOptions`È qui che inizia la magia. Configurando le opzioni di caricamento, puoi impostare un callback che verrà attivato ogni volta che si verifica un avviso durante il caricamento della cartella di lavoro:
 ```csharp
 LoadOptions options = new LoadOptions();
 options.WarningCallback = new WarningCallback();
 ```
- Qui stiamo creando un nuovo`LoadOptions` oggetto e associandolo al nostro`WarningCallback`classe (che definiremo in seguito). Questa impostazione è essenziale affinché il nostro programma gestisca gli avvisi in modo corretto.
+ Qui stiamo creando un nuovo`LoadOptions` oggetto e associandolo al nostro`WarningCallback` classe (che definiremo in seguito). Questa impostazione è essenziale affinché il nostro programma gestisca gli avvisi in modo corretto.
 ## Passaggio 3: caricare il file Excel di origine
  È il momento di caricare effettivamente quel file Excel! È qui che si chiama il`Workbook` classe per caricare il tuo file insieme alle opzioni definite in precedenza:
 ```csharp
@@ -81,6 +81,6 @@ Aspose.Cells è una potente libreria .NET per creare, manipolare e convertire fi
 ### Come posso acquistare Aspose.Cells?
  Puoi acquistare Aspose.Cells direttamente dal loro[pagina di acquisto](https://purchase.aspose.com/buy).
 ### Quali tipi di avvisi posso gestire?
- È possibile gestire vari avvisi come nomi definiti duplicati, avvisi di formule e avvisi di stile utilizzando`WarningCallback`.
+È possibile gestire vari avvisi come nomi definiti duplicati, avvisi di formule e avvisi di stile utilizzando`WarningCallback`.
 ### Dove posso trovare la documentazione su Aspose.Cells?
  Puoi controllare la versione completa[documentazione qui](https://reference.aspose.com/cells/net/).

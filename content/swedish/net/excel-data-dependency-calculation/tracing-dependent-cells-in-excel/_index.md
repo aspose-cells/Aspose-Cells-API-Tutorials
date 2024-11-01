@@ -20,7 +20,7 @@ Innan vi börjar, här är några saker du bör ha för att säkerställa en smi
 3. Visual Studio: Det är en fantastisk miljö för att skriva och testa din .NET-kod. Se till att du har den korrekt installerad på din maskin. 
 4.  En Excel-fil: Du behöver en Excel-fil som innehåller några formler att arbeta med. Vi kommer att använda en fil med namnet`Book1.xlsx`men använd gärna din egen!
 
-Redo att spänna fast och börja spåra dessa celler? Låt oss komma in på det nitty-gritty!
+Redo att spänna fast och börja spåra dessa celler? Låt oss komma in i det nitty-gritty!
 
 ## Importera paket
 

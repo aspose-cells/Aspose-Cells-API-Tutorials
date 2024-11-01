@@ -8,7 +8,7 @@ weight: 17
 url: /nl/net/creating-and-configuring-pivot-tables/refreshing-and-calculating-items/
 ---
 ## Invoering
-Als het gaat om het beheren van Excel-bestanden, met name die met geavanceerde functies zoals draaitabellen, zoeken we vaak naar betrouwbare oplossingen om gegevens efficiënt te manipuleren, vernieuwen en berekenen. Als aspirant-ontwikkelaar of zelfs als doorgewinterde programmeur kan het werken met Excel in uw .NET-toepassingen ontmoedigend aanvoelen. Maar maak u geen zorgen; in deze handleiding doorlopen we de stappen om items in een draaitabel te vernieuwen en berekenen met Aspose.Cells voor .NET. Aan het einde van deze tutorial voelt u zich in staat om uw toepassingen te verbeteren met dynamische data-analysemogelijkheden met behulp van een zeer bekwame bibliotheek.
+Als het gaat om het beheren van Excel-bestanden, met name die met geavanceerde functies zoals draaitabellen, zoeken we vaak naar betrouwbare oplossingen om gegevens efficiënt te manipuleren, vernieuwen en berekenen. Als aspirant-ontwikkelaar of zelfs als doorgewinterde programmeur kan het werken met Excel in uw .NET-toepassingen ontmoedigend aanvoelen. Maar maak u geen zorgen; in deze handleiding nemen we u mee door de stappen om items in een draaitabel te vernieuwen en berekenen met behulp van Aspose.Cells voor .NET. Aan het einde van deze tutorial voelt u zich in staat om uw toepassingen te verbeteren met dynamische data-analysemogelijkheden met behulp van een zeer bekwame bibliotheek.
 ## Vereisten
 Voordat we in de code duiken, zorgen we ervoor dat je de benodigde instellingen hebt voor een soepele reis met Aspose.Cells. Dit is wat je nodig hebt:
 ### 1. .NET-ontwikkelomgeving

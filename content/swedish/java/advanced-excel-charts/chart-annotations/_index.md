@@ -22,7 +22,7 @@ Innan vi går in i implementeringen, se till att du har följande förutsättnin
 
 ## Ställa in Aspose.Cells för Java
 
- För att komma igång måste du ställa in Aspose.Cells för Java i ditt projekt. Du kan ladda ner biblioteket från Asposes webbplats[här](https://releases.aspose.com/cells/java/). När du har laddat ner lägger du till biblioteket i ditt Java-projekt.
+För att komma igång måste du ställa in Aspose.Cells för Java i ditt projekt. Du kan ladda ner biblioteket från Asposes webbplats[här](https://releases.aspose.com/cells/java/). När du har laddat ner lägger du till biblioteket i ditt Java-projekt.
 
 ## Skapa en Excel-arbetsbok
 
@@ -39,7 +39,7 @@ Worksheet worksheet = workbook.getWorksheets().get(0);
 Därefter behöver vi lite data för att plotta på diagrammet. För det här exemplet skapar vi en enkel datauppsättning.
 
 ```java
-// Lägger till data till arbetsbladet
+// Lägger till data i arbetsbladet
 worksheet.getCells().get("A1").putValue("Month");
 worksheet.getCells().get("B1").putValue("Sales");
 

@@ -51,7 +51,7 @@ string sourceDir = "Your Document Directory";
 string outputDir = "Your Document Directory";
 ```
 代替`"Your Document Directory"`包含 Excel 檔案的實際路徑以及您想要儲存 Markdown 檔案的位置。
-設定檔案路徑可確保您的程式準確地知道在哪裡可以找到 Excel 檔案以及在哪裡儲存 Markdown 檔案。
+設定檔案路徑可確保您的程式確切知道在哪裡可以找到 Excel 檔案以及在哪裡儲存 Markdown 檔案。
 ## 步驟 4： 開啟 Excel 文件
 接下來，使用 Aspose.Cells 開啟您要轉換的 Excel 工作簿。此步驟將 Excel 檔案載入到記憶體中，準備好進行操作。
 ```csharp
@@ -76,7 +76,7 @@ Console.WriteLine("ConvertExcelFileToMarkdown executed successfully.");
 執行程式後，您的 Excel 檔案現在應該以 Markdown 格式提供，可以在您的文件或任何其他支援 Markdown 的平台中使用。
 新增確認訊息可確保您獲得操作已順利完成的回饋。
 ## 結論
-現在你就得到它了！透過 Aspose.Cells for .NET，將 Excel 檔案轉換為 Markdown 既簡單又有效率。無論您是準備技術文件還是只是將表格資料轉換為可讀格式，這個功能強大的函式庫只需幾行程式碼即可簡化流程。 
+現在你就擁有了！透過 Aspose.Cells for .NET，將 Excel 檔案轉換為 Markdown 既簡單又有效率。無論您是準備技術文件還是只是將表格資料轉換為可讀格式，這個功能強大的函式庫只需幾行程式碼即可簡化流程。 
 ## 常見問題解答
 ### 什麼是 Aspose.Cells for .NET？  
 Aspose.Cells for .NET 是一個函式庫，可讓開發人員在 .NET 應用程式中建立、操作和轉換 Excel 檔案。

@@ -40,7 +40,7 @@ if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
  Potongan kode ini memeriksa apakah direktori yang ditentukan ada. Jika tidak ada, ia akan membuatnya untuk Anda. Ganti`"Your Document Directory"` dengan jalur yang Anda inginkan.
-## Langkah 2: Membuat Instansiasi Objek Buku Kerja
+## Langkah 2: Membuat Instansi Objek Buku Kerja
 Berikutnya, Anda ingin membuat contoh baru dari buku kerja, yang pada dasarnya adalah berkas Excel Anda. Berikut caranya:
 ```csharp
 // Membuat instance objek Buku Kerja

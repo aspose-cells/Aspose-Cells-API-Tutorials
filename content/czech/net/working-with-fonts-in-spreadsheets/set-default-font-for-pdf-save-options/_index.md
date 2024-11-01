@@ -39,14 +39,14 @@ string outputDir = "Your Document Directory";
 ```
  Nahradit`"Your Document Directory"` se skutečnou cestou k vašim adresářům.
 ## Krok 2: Otevřete soubor aplikace Excel
-Nyní, když máme nastavené adresáře, otevřeme soubor Excel, se kterým chcete pracovat. The`Workbook` třída v Aspose.Cells se používá k načtení dokumentu aplikace Excel.
+ Nyní, když máme nastavené adresáře, otevřeme soubor Excel, se kterým chcete pracovat. The`Workbook` třída v Aspose.Cells se používá k načtení dokumentu aplikace Excel.
 ```csharp
 // Otevřete soubor aplikace Excel
 Workbook workbook = new Workbook(sourceDir + "sampleSetDefaultFontPropertyOfPdfSaveOptionsAndImageOrPrintOptions.xlsx");
 ```
 Nezapomeňte nahradit název souboru skutečným názvem souboru.
 ## Krok 3: Nastavte možnosti vykreslování obrázků
- Dále musíme nakonfigurovat možnosti vykreslování pro převod našeho listu Excel do formátu obrázku. Vytvoříme instanci`ImageOrPrintOptions`, určující typ obrázku a výchozí písmo.
+Dále musíme nakonfigurovat možnosti vykreslování pro převod našeho listu Excel do formátu obrázku. Vytvoříme instanci`ImageOrPrintOptions`, určující typ obrázku a výchozí písmo.
 ```csharp
 // Vykreslování do formátu souboru PNG
 ImageOrPrintOptions imgOpt = new ImageOrPrintOptions();
@@ -63,7 +63,7 @@ SheetRender sr = new SheetRender(workbook.Worksheets[0], imgOpt);
 sr.ToImage(0, outputDir + "out1_imagePNG.png");
 ```
 ## Krok 5: Změňte typ obrázku a vykreslení na TIFF
-Pokud chcete vykreslit stejný list do jiného formátu obrázku, jako je TIFF, můžete jednoduše změnit`ImageType` vlastnost a opakujte proces vykreslování.
+ Pokud chcete vykreslit stejný list do jiného formátu obrázku, jako je TIFF, můžete jednoduše změnit`ImageType` vlastnost a opakujte proces vykreslování.
 ```csharp
 // Nastavte na formát TIFF
 imgOpt.ImageType = Drawing.ImageType.Tiff;
@@ -71,7 +71,7 @@ WorkbookRender wr = new WorkbookRender(workbook, imgOpt);
 wr.ToImage(outputDir + "out1_imageTIFF.tiff");
 ```
 ## Krok 6: Nakonfigurujte možnosti uložení PDF
- Dále nastavíme možnosti uložení PDF. Vytvoříme instanci`PdfSaveOptions`, nastavte výchozí písmo a zadejte, že chceme zkontrolovat chybějící písma.
+ Dále nastavíme možnosti uložení PDF. Vytvoříme instanci`PdfSaveOptions`nastavte výchozí písmo a zadejte, že chceme zkontrolovat chybějící písma.
 ```csharp
 // Konfigurace možností uložení PDF
 PdfSaveOptions saveOptions = new PdfSaveOptions();
@@ -90,7 +90,7 @@ Nakonec je dobré dát uživateli vědět, že proces byl úspěšně dokončen.
 Console.WriteLine("SetDefaultFontPropertyOfPdfSaveOptionsAndImageOrPrintOptions executed successfully.\r\n");
 ```
 ## Závěr
-Aspose.Cells poskytuje flexibilní a robustní způsob manipulace se soubory Excel, což vývojářům usnadňuje vytváření vizuálně přitažlivých dokumentů, které si zachovávají své formátování. Ať už pracujete na sestavách, finančních dokumentech nebo jakékoli jiné formě prezentace dat, kontrola nad vykreslováním písem může výrazně zlepšit kvalitu vašeho výstupu.
+Aspose.Cells poskytuje flexibilní a robustní způsob manipulace se soubory Excel, což vývojářům usnadňuje vytváření vizuálně přitažlivých dokumentů, které si zachovávají své formátování. Ať už pracujete na sestavách, finančních dokumentech nebo jakékoli jiné formě prezentace dat, kontrola nad vykreslováním písem může výrazně zvýšit kvalitu vašeho výstupu.
 ## FAQ
 ### Co je Aspose.Cells?
 Aspose.Cells je výkonná knihovna .NET, která umožňuje vývojářům manipulovat se soubory aplikace Excel bez nutnosti instalace aplikace Microsoft Excel. Podporuje různé formáty souborů a nabízí bohaté funkce pro práci s tabulkami.

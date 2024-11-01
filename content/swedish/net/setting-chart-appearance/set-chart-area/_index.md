@@ -91,7 +91,7 @@ Låt oss lägga till ett kolumndiagram på en specifik position i vårt kalkylbl
 int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 25, 10);
 ```
 
-Här har vi lagt till ett kolumndiagram som börjar från rad 5, kolumn 0 och sträcker sig till rad 25 respektive 10. Allt klart för att fånga några ögon!
+Här har vi lagt till ett kolumndiagram som börjar från rad 5, kolumn 0 och sträcker sig till rad 25 respektive 10. Allt redo att fånga några ögon!
 
 ## Steg 5: Öppna diagraminstansen
 

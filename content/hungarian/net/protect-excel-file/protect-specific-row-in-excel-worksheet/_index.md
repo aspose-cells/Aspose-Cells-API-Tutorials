@@ -88,7 +88,7 @@ StyleFlag flag;
 for (int i = 0; i <= 255; i++)
 {
     style = sheet.Cells.Columns[(byte)i].Style;
-    style.IsLocked = false; //Oszlop feloldása
+    style.IsLocked = false; // Oszlop feloldása
     flag = new StyleFlag();
     flag.Locked = true; // A zároláshoz állítsa igazra a jelzőt
     sheet.Cells.Columns[(byte)i].ApplyStyle(style, flag); // Alkalmazza a stílust

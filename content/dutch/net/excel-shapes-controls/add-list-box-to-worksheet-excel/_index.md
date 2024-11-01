@@ -42,7 +42,7 @@ Workbook workbook = new Workbook();
 // Pak het eerste werkblad.
 Worksheet sheet = workbook.Worksheets[0];
 ```
-Een werkmap is in feite uw Excel-bestand. Hier maken we een nieuwe werkmap en openen we het eerste werkblad, waar we onze keuzelijst plaatsen. Zie dit als het maken van een leeg canvas waarop u de besturingselementen schildert.
+Een werkmap is in feite uw Excel-bestand. Hier maken we een nieuwe werkmap en openen we het eerste werkblad, waar we onze keuzelijst plaatsen. Zie dit als het maken van een leeg canvas waarop u de bedieningselementen schildert.
 ## Stap 3: Gegevens invoeren voor de keuzelijst
 Voordat we de keuzelijst toevoegen, moeten we een aantal gegevens invullen waarnaar de keuzelijst zal verwijzen.
 ```csharp

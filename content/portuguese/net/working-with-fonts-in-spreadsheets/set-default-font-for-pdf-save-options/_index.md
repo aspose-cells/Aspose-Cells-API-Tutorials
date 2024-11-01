@@ -39,14 +39,14 @@ string outputDir = "Your Document Directory";
 ```
  Substituir`"Your Document Directory"` com o caminho real para seus diretórios.
 ## Etapa 2: Abra o arquivo Excel
-Agora que configuramos nossos diretórios, vamos abrir o arquivo Excel com o qual você deseja trabalhar. O`Workbook` A classe em Aspose.Cells é usada para carregar o documento Excel.
+ Agora que configuramos nossos diretórios, vamos abrir o arquivo Excel com o qual você deseja trabalhar. O`Workbook` A classe em Aspose.Cells é usada para carregar o documento Excel.
 ```csharp
 // Abra um arquivo Excel
 Workbook workbook = new Workbook(sourceDir + "sampleSetDefaultFontPropertyOfPdfSaveOptionsAndImageOrPrintOptions.xlsx");
 ```
 Certifique-se de substituir o nome do arquivo pelo nome real do arquivo.
 ## Etapa 3: Configurar opções de renderização de imagem
- Em seguida, precisamos configurar as opções de renderização para converter nossa planilha do Excel em um formato de imagem. Criaremos uma instância de`ImageOrPrintOptions`, especificando o tipo de imagem e a fonte padrão.
+Em seguida, precisamos configurar as opções de renderização para converter nossa planilha do Excel em um formato de imagem. Criaremos uma instância de`ImageOrPrintOptions`, especificando o tipo de imagem e a fonte padrão.
 ```csharp
 // Renderizando para formato de arquivo PNG
 ImageOrPrintOptions imgOpt = new ImageOrPrintOptions();
@@ -63,7 +63,7 @@ SheetRender sr = new SheetRender(workbook.Worksheets[0], imgOpt);
 sr.ToImage(0, outputDir + "out1_imagePNG.png");
 ```
 ## Etapa 5: Altere o tipo de imagem e renderize para TIFF
-Se você quiser renderizar a mesma folha em um formato de imagem diferente, como TIFF, você pode simplesmente alterar o`ImageType` propriedade e repita o processo de renderização.
+ Se você quiser renderizar a mesma folha em um formato de imagem diferente, como TIFF, você pode simplesmente alterar o`ImageType` propriedade e repita o processo de renderização.
 ```csharp
 // Definir para formato TIFF
 imgOpt.ImageType = Drawing.ImageType.Tiff;
@@ -71,7 +71,7 @@ WorkbookRender wr = new WorkbookRender(workbook, imgOpt);
 wr.ToImage(outputDir + "out1_imageTIFF.tiff");
 ```
 ## Etapa 6: Configurar opções de salvamento de PDF
- A seguir, vamos configurar as opções de salvamento do PDF. Criaremos uma instância de`PdfSaveOptions`, defina a fonte padrão e especifique que queremos verificar se há fontes ausentes.
+ A seguir, vamos configurar as opções de salvamento do PDF. Criaremos uma instância de`PdfSaveOptions`defina a fonte padrão e especifique que queremos verificar se há fontes ausentes.
 ```csharp
 // Configurar opções de salvamento de PDF
 PdfSaveOptions saveOptions = new PdfSaveOptions();
@@ -90,7 +90,7 @@ Por fim, é uma boa prática informar ao usuário que o processo foi concluído 
 Console.WriteLine("SetDefaultFontPropertyOfPdfSaveOptionsAndImageOrPrintOptions executed successfully.\r\n");
 ```
 ## Conclusão
-Aspose.Cells fornece uma maneira flexível e robusta de lidar com manipulações de arquivos do Excel, facilitando para os desenvolvedores criar documentos visualmente atraentes que mantêm sua formatação. Esteja você trabalhando em relatórios, documentos financeiros ou qualquer outra forma de apresentação de dados, ter controle sobre a renderização de fontes pode melhorar significativamente a qualidade da sua saída.
+O Aspose.Cells fornece uma maneira flexível e robusta de lidar com manipulações de arquivos do Excel, facilitando para os desenvolvedores criar documentos visualmente atraentes que mantêm sua formatação. Esteja você trabalhando em relatórios, documentos financeiros ou qualquer outra forma de apresentação de dados, ter controle sobre a renderização de fontes pode melhorar significativamente a qualidade da sua saída.
 ## Perguntas frequentes
 ### O que é Aspose.Cells?
 Aspose.Cells é uma biblioteca .NET poderosa que permite aos desenvolvedores manipular arquivos Excel sem precisar instalar o Microsoft Excel. Ela suporta vários formatos de arquivo e oferece recursos avançados para trabalhar com planilhas.

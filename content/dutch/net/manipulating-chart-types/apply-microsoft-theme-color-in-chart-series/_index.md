@@ -101,7 +101,7 @@ Dit is te vergelijken met het bepalen van de uitstraling van een kamer voordat u
 Vervolgens moeten we de kleur voor het opvulgebied van de grafiek definiëren. Zo brengen we onze gekozen kleur tot leven.
 
 ```csharp
-// Haal de CellsColor van SolidFill op
+//Haal de CellsColor van SolidFill op
 CellsColor cc = chart.NSeries[0].Area.FillFormat.SolidFill.CellsColor;
 ```
 

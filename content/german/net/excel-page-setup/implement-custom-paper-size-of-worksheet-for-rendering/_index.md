@@ -16,7 +16,7 @@ Das programmgesteuerte Erstellen und Anpassen von Excel-Dokumenten kann Ihre Arb
 Bevor wir uns in den Code vertiefen, stellen wir sicher, dass Sie richtig eingerichtet sind. Folgendes benötigen Sie für den Anfang:
 
 1. Visual Studio oder eine beliebige .NET-IDE: Stellen Sie sicher, dass Sie über eine funktionierende IDE wie Visual Studio verfügen. Dies wird Ihr Spielplatz sein, auf dem die ganze Codierungsmagie stattfindet.
-2.  Aspose.Cells für .NET-Paket: Falls noch nicht geschehen, müssen Sie die Aspose.Cells-Bibliothek herunterladen und installieren. Die neueste Version finden Sie auf der[Aspose.Cells-Downloadseite](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells für .NET-Paket: Falls noch nicht geschehen, müssen Sie die Aspose.Cells-Bibliothek herunterladen und installieren. Die neueste Version finden Sie auf der[Aspose.Cells-Downloadseite](https://releases.aspose.com/cells/net/).
 3. Grundkenntnisse in C#: Wir führen Sie zwar durch den Code, aber die Vertrautheit mit C# hilft Ihnen, die Nuancen besser zu verstehen.
 4. Zugriff auf .NET Framework: Stellen Sie sicher, dass Ihr Projekt so eingerichtet ist, dass es auf eine kompatible Version des .NET Frameworks abzielt.
 
@@ -124,7 +124,7 @@ Die Implementierung einer benutzerdefinierten Papiergröße für Ihre Excel-Arbe
 ## Häufig gestellte Fragen
 
 ### Kann ich Aspose.Cells verwenden, ohne eine Lizenz zu erwerben?
-Ja, Sie können eine kostenlose Testversion von Aspose.Cells für .NET ausprobieren, verfügbar[Hier](https://releases.aspose.com/).
+ Ja, Sie können eine kostenlose Testversion von Aspose.Cells für .NET ausprobieren, verfügbar[Hier](https://releases.aspose.com/).
 
 ### Was passiert, wenn ich die Grenzen der temporären Lizenz überschreite?
  Das Überschreiten der Grenzen führt zu Wasserzeichen in den Ausgaben. Am besten entscheiden Sie sich für eine unbefristete Lizenz für einen unterbrechungsfreien Service. Sie finden Optionen[Hier](https://purchase.aspose.com/buy).

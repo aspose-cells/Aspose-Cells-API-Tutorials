@@ -33,7 +33,7 @@ Prima di immergerti nel codice, devi assicurarti che la struttura della tua dire
 // Elenco di origine
 string sourceDir = "Your Document Directory";
 ```
- Sostituire`"Your Document Directory"` con il percorso effettivo della directory sul computer in cui si trova il file crittografato.
+ Sostituire`"Your Document Directory"`con il percorso effettivo della directory sul computer in cui si trova il file crittografato.
 ## Passaggio 2: prepara il tuo file crittografato
 
  In questo passaggio, assicurati di avere un file Excel crittografato disponibile nella directory specificata. Qui, assumeremo che il file si chiami`encryptedBook1.out.tmp`.
@@ -73,6 +73,6 @@ Assolutamente! Utilizza i blocchi try-catch per gestire potenziali eccezioni dur
 ### Cosa succede se dimentico la mia password?
 Purtroppo senza la password non sarà possibile accedere al formato del file.
 ### Posso scaricare una versione di prova gratuita di Aspose.Cells?
-Sì, puoi scaricare una versione di prova gratuita[Qui](https://releases.aspose.com/).
+ Sì, puoi scaricare una versione di prova gratuita[Qui](https://releases.aspose.com/).
 ### Dove posso trovare una documentazione più dettagliata?
  Puoi esplorare la documentazione completa su Aspose.Cells[Qui](https://reference.aspose.com/cells/net/).

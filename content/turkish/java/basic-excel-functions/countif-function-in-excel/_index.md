@@ -122,7 +122,7 @@ Java için Aspose.Cells, Excel otomasyonu için gelişmiş özellikler ve seçen
 
 ## Çözüm
 
-Bu makalede, Aspose.Cells for Java'yı kullanarak Excel'de COUNTIF işlevini nasıl kullanacağımızı öğrendik. Aspose.Cells, Java uygulamalarında Excel görevlerini otomatikleştirmek için sorunsuz bir yol sunarak, verilerle çalışmayı ve verileri verimli bir şekilde analiz etmeyi kolaylaştırır.
+Bu makalede, Aspose.Cells for Java'yı kullanarak Excel'de COUNTIF işlevinin nasıl kullanılacağını öğrendik. Aspose.Cells, Java uygulamalarında Excel görevlerini otomatikleştirmek için sorunsuz bir yol sunarak, verilerle çalışmayı ve verileri verimli bir şekilde analiz etmeyi kolaylaştırır.
 
 ## SSS
 

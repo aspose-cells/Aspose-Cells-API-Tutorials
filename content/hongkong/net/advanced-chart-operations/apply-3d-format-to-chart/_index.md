@@ -9,13 +9,13 @@ url: /zh-hant/net/advanced-chart-operations/apply-3d-format-to-chart/
 ---
 ## 介紹
 
-在資料視覺化至關重要的時代，我們呈現資料的方式超越了基本的圖形和圖表。透過 Aspose.Cells for .NET 等工具，您可以使用令人驚嘆的 3D 圖表來提升數據演示效果，這些圖表不僅能吸引註意力，還能有效傳達訊息。本指南將引導您使用 Aspose.Cells 將 3D 格式應用於圖表的步驟，將原始資料轉換為引人入勝的顯示。
+在資料視覺化至關重要的時代，我們呈現資料的方式超越了基本的圖形和圖表。透過 Aspose.Cells for .NET 等工具，您可以使用令人驚嘆的 3D 圖表來提升數據演示，這些圖表不僅能吸引註意力，還能有效地傳達訊息。本指南將引導您使用 Aspose.Cells 將 3D 格式應用於圖表的步驟，將原始資料轉換為引人入勝的顯示。
 
 ## 先決條件
 
 在我們深入研究將 3D 格式應用於圖表的細節之前，讓我們確保您擁有所需的一切。
 
-### 軟體需求
+### 軟體要求
 
 - Visual Studio：確保安裝了 Visual Studio 以使用 .NET 應用程式。
 -  Aspose.Cells for .NET：如果您還沒有安裝 Aspose.Cells，請從[這裡](https://releases.aspose.com/cells/net/).

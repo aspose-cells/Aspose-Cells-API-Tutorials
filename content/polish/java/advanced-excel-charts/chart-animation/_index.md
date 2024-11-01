@@ -90,4 +90,4 @@ W tym samouczku nauczyliśmy się, jak tworzyć animacje wykresów przy użyciu 
 
 ### Jaki jest cel opóźnienia animacji?
 
- Opóźnienie animacji określa odstęp czasu przed rozpoczęciem animacji wykresu. Użyj`setAnimationDelay`metoda ustawiająca opóźnienie w milisekundach.
+ Opóźnienie animacji określa odstęp czasu przed rozpoczęciem animacji wykresu. Użyj`setAnimationDelay` metoda ustawiająca opóźnienie w milisekundach.

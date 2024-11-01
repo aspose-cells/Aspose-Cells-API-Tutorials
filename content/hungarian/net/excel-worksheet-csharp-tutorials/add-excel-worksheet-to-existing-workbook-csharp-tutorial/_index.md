@@ -18,9 +18,9 @@ Mielőtt belevágnánk a kódba, győződjünk meg arról, hogy rendelkezik mind
 1.  Visual Studio: Győződjön meg arról, hogy a Visual Studio telepítve van a gépen. Ha még nincs meg, letöltheti innen[itt](https://visualstudio.microsoft.com/vs/).
 2.  Aspose.Cells for .NET: Az Aspose.Cells for .NET-et integrálni kell a projektbe. Beszerezheti a[letöltési link](https://releases.aspose.com/cells/net/)Ez a könyvtár elengedhetetlen az Excel-fájlokkal való munkavégzéshez, és számos funkciót támogat.
 3. A C# alapvető ismerete: A C# programozási nyelv ismerete segít a könnyebb követésben. Ne aggódj; lépésről lépésre végigvezetjük a folyamatokon!
-4. Dokumentumok könyvtára: Győződjön meg arról, hogy van egy mappa a számítógépén, ahol tárolhatja az oktatóanyag Excel fájljait. 
+4. Dokumentumok könyvtára: Győződjön meg arról, hogy van egy mappa a számítógépén, ahol tárolhatja az oktatóanyag Excel-fájljait. 
 
-Megvan minden a listán? Nagy! Most importáljuk a szükséges csomagokat.
+Minden megvan a listán? Nagy! Most importáljuk a szükséges csomagokat.
 
 ## Csomagok importálása
 

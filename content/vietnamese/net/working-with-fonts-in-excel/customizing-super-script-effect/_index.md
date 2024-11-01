@@ -16,7 +16,7 @@ Hãy đảm bảo rằng bạn có Visual Studio trên máy tính của mình. �
 ### 2. .NET Framework hoặc .NET Core
 Đảm bảo rằng bạn đã cài đặt đúng phiên bản .NET. Aspose.Cells for .NET hoạt động liền mạch với cả .NET Framework và .NET Core.
 ### 3. Thư viện Aspose.Cells
- Bạn sẽ cần thư viện Aspose.Cells. Bạn có thể tải xuống[đây](https://releases.aspose.com/cells/net/). Cần phải có phần này trong dự án của bạn để thao tác với các tệp Excel.
+Bạn sẽ cần thư viện Aspose.Cells. Bạn có thể tải xuống[đây](https://releases.aspose.com/cells/net/). Cần phải có phần này trong dự án của bạn để thao tác với các tệp Excel.
 ### 4. Hiểu biết cơ bản về C#
 Việc nắm vững C# là có lợi, mặc dù không bắt buộc. Chúng ta sẽ viết mã sử dụng thư viện để thao tác với tệp Excel và kiến thức về C# sẽ giúp bạn hiểu rõ hơn.
 ### 5. Một IDE để làm việc

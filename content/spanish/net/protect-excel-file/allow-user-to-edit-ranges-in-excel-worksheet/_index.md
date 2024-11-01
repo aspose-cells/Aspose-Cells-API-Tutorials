@@ -141,4 +141,4 @@ Lamentablemente, si olvida la contraseña de un rango editable, deberá eliminar
 Sí, Aspose ofrece una prueba gratuita que puedes utilizar para explorar las funciones antes de comprar.
 
 ### ¿Dónde puedo encontrar más información sobre Aspose.Cells?
- Puedes comprobarlo[documentación](https://reference.aspose.com/cells/net/) para guías detalladas y referencias.
+ Puedes comprobarlo[documentación](https://reference.aspose.com/cells/net/)para guías detalladas y referencias.

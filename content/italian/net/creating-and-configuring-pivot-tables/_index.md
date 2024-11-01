@@ -81,5 +81,5 @@ Scopri come trovare e aggiornare le tabelle pivot nidificate nei tuoi file Excel
 Scopri come analizzare record pivot memorizzati nella cache in .NET usando Aspose.Cells. Una semplice guida per gestire in modo efficiente file Excel e tabelle pivot.
 ### [Ordinamento personalizzato della tabella pivot a livello di programmazione in .NET](./pivot-table-custom-sort/)
 Scopri come ordinare a livello di programmazione le tabelle pivot in .NET usando Aspose.Cells. Una guida passo passo che copre l'impostazione, la configurazione, l'ordinamento e il salvataggio dei risultati come file Excel e PDF.
-### [Classifica del formato di visualizzazione dei dati della tabella pivot in .NET](./pivot-table-data-display-format-ranking/)
+### [Formato di visualizzazione dei dati della tabella pivot in .NET](./pivot-table-data-display-format-ranking/)
 Scopri come creare e gestire le classifiche dei formati di visualizzazione dei dati delle tabelle pivot in .NET utilizzando Aspose.Cells con questa guida dettagliata.

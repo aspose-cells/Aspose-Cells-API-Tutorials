@@ -41,7 +41,7 @@ Dies ist, als würden Sie die Aspose.Cells-Bibliothek zu Ihrer Codierungsparty e
 Kommen wir nun zur Hauptaufgabe: dem Löschen von Pivot-Feldern aus einem Excel-Arbeitsblatt. Wir unterteilen dies in leicht verständliche Schritte.
 
 ## Schritt 1: Dokumentverzeichnis festlegen
-Als Erstes müssen wir definieren, wo unsere Excel-Datei gespeichert ist. Das ist wichtig, denn wenn Ihr Code nicht weiß, wo er suchen soll, ist es, als ob Sie an der falschen Stelle nach Ihren Schlüsseln suchen würden! So geht's:
+Als Erstes müssen wir definieren, wo unsere Excel-Datei gespeichert ist. Das ist wichtig, denn wenn Ihr Code nicht weiß, wo er suchen soll, ist es, als ob Sie am falschen Ort nach Ihren Schlüsseln suchen würden! So geht's:
 
 ```csharp
 // Der Pfad zum Dokumentverzeichnis.

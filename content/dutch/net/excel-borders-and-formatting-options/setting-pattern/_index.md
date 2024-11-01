@@ -50,7 +50,7 @@ Hier voegen we een lege voorwaardelijke opmaakcollectie toe aan ons werkblad. Hi
 ## Stap 4: Definieer het bereik voor voorwaardelijke opmaak
 Vervolgens moeten we het celbereik definiëren waarop onze voorwaardelijke opmaakregels van toepassing zijn.
 ```csharp
-// Hiermee stelt u het voorwaardelijke opmaakbereik in.
+// Stelt het voorwaardelijke opmaakbereik in.
 CellArea ca = new CellArea();
 ca.StartRow = 0;
 ca.EndRow = 5;

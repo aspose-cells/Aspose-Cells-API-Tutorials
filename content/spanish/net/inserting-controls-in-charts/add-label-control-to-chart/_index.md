@@ -16,7 +16,7 @@ Los gráficos son una forma eficaz de visualizar datos y, a veces, agregar una e
 Antes de profundizar en los detalles, cubramos lo que necesitas para comenzar:
 
 - Conocimientos básicos de C#: es fundamental comprender los conceptos básicos de programación en C#. Si eres principiante, no te preocupes: los pasos serán claros y concisos.
--  Biblioteca Aspose.Cells: asegúrese de tener instalada la biblioteca Aspose.Cells. Puede hacerlo a través del Administrador de paquetes NuGet en Visual Studio. Si aún no lo ha hecho, consulte la[enlace de descarga](https://releases.aspose.com/cells/net/) Para la biblioteca.
+- Biblioteca Aspose.Cells: asegúrese de tener instalada la biblioteca Aspose.Cells. Puede hacerlo a través del Administrador de paquetes NuGet en Visual Studio. Si aún no lo ha hecho, consulte la[enlace de descarga](https://releases.aspose.com/cells/net/) Para la biblioteca.
 - Visual Studio: necesitará un entorno de desarrollo integrado (IDE) como Visual Studio para escribir y ejecutar su código.
 
 ## Importar paquetes

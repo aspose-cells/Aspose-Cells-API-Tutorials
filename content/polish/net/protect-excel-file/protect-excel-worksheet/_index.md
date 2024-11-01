@@ -73,7 +73,7 @@ Gdy już mamy skoroszyt, następnym krokiem jest dostęp do arkusza, który chce
 Worksheet worksheet = excel.Worksheets[0];
 ```
 
-Ten wiersz umożliwia dostęp do pierwszego arkusza kalkulacyjnego w pliku Excel. Jeśli chcesz chronić inny arkusz, dostosuj odpowiednio indeks.
+Ten wiersz umożliwia dostęp do pierwszego arkusza w pliku Excel. Jeśli chcesz chronić inny arkusz, dostosuj odpowiednio indeks.
 
 ## Krok 5: Chroń arkusz kalkulacyjny
 

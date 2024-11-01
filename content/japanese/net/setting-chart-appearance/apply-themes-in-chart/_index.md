@@ -99,7 +99,7 @@ chart.NSeries[0].Area.FillFormat.FillType = Aspose.Cells.Drawing.FillType.Solid;
 シリーズの準備ができたので、色を変更する必要があります。これには、`CellsColor`オブジェクトを作成し、テーマの色を指定します。この例では、アクセント スタイルを選択します。
 
 ```csharp
-// SolidFillのCellsColorを取得する
+//SolidFillのCellsColorを取得する
 CellsColor cc = chart.NSeries[0].Area.FillFormat.SolidFill.CellsColor;
 
 //アクセントスタイルでテーマを作成する

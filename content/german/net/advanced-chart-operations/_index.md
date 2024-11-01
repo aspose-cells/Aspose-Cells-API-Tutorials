@@ -13,7 +13,7 @@ Aspose.Cells für .NET ist Ihr bevorzugtes Tool zum Verwalten, Bearbeiten und An
 
 ## 3D-Format auf Diagramm anwenden
 
-Möchten Sie, dass Ihre Excel-Diagramme hervorstechen? Die Anwendung eines 3D-Formats ist ein echter Game-Changer! Mit Aspose.Cells für .NET können Sie Standarddiagramme ganz einfach in beeindruckende 3D-Grafiken umwandeln. Dies verbessert nicht nur die Ästhetik, sondern verleiht der Datendarstellung auch Tiefe.[Mehr erfahren](./apply-3d-format-to-chart/).
+Möchten Sie, dass Ihre Excel-Diagramme hervorstechen? Die Anwendung eines 3D-Formats ist ein echter Wendepunkt! Mit Aspose.Cells für .NET können Sie Standarddiagramme ganz einfach in beeindruckende 3D-Grafiken umwandeln. Dies verbessert nicht nur die Ästhetik, sondern verleiht der Datendarstellung auch Tiefe.[Mehr erfahren](./apply-3d-format-to-chart/).
 
 ## Diagrammgröße und -position ändern
 

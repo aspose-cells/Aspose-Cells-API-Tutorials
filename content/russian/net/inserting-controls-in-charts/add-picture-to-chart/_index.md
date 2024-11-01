@@ -55,7 +55,7 @@ string sourceDir = "Your Document Directory/";
 string outputDir = "Your Output Directory/";
 ```
 
- Заменять`Your Document Directory` и`Your Output Directory`с реальными путями на вашем компьютере. 
+ Заменять`Your Document Directory` и`Your Output Directory` с реальными путями на вашем компьютере. 
 
 ## Шаг 2: Загрузите существующую рабочую книгу
 
@@ -100,7 +100,7 @@ Aspose.Cells.Charts.Chart chart = sheet.Charts[0];
 Aspose.Cells.Drawing.Picture pic0 = chart.Shapes.AddPictureInChart(50, 50, stream, 200, 200);
 ```
 
- Здесь,`50` и`50` — это координаты X и Y, где будет размещено изображение, и`200`ширина и высота изображения.
+ Здесь,`50` и`50` — это координаты X и Y, где будет размещено изображение, и`200` ширина и высота изображения.
 
 ## Шаг 6: Настройте формат линий изображения
 
@@ -154,7 +154,7 @@ Aspose.Cells поддерживает различные форматы изоб
  Конечно! Координаты X и Y в`AddPictureInChart` метод позволяет точное позиционирование.
 
 ### Можно ли использовать Aspose.Cells бесплатно?
- Aspose.Cells предлагает бесплатную пробную версию, но для полного функционала требуется лицензия. Вы можете найти цены[здесь](https://purchase.aspose.com/buy).
+Aspose.Cells предлагает бесплатную пробную версию, но для полного функционала требуется лицензия. Вы можете найти цены[здесь](https://purchase.aspose.com/buy).
 
 ### Где я могу найти больше примеров?
  Проверьте[Документация Aspose.Cells](https://reference.aspose.com/cells/net/) для более подробных примеров и функциональных возможностей.

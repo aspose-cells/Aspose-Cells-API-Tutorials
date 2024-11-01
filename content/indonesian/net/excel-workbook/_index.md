@@ -17,7 +17,7 @@ Apakah Anda lelah berjuang dengan manajemen berkas Excel? Jika Anda pernah mengh
 
 ## Menambahkan Tanda Tangan Digital
 
-Pernahkah Anda perlu menambahkan tanda tangan digital ke file Excel yang sudah ditandatangani? Temukan cara melakukannya dengan panduan kami di[Tambahkan Tanda Tangan Digital ke File Excel yang Sudah Ditandatangani](./add-digital-signature-to-an-already-signed-excel-file/)Tanda tangan digital memastikan keaslian dan integritas, membuat file Excel Anda tidak hanya berfungsi tetapi juga aman.
+ Pernahkah Anda perlu menambahkan tanda tangan digital ke file Excel yang sudah ditandatangani? Temukan cara melakukannya dengan panduan kami di[Tambahkan Tanda Tangan Digital ke File Excel yang Sudah Ditandatangani](./add-digital-signature-to-an-already-signed-excel-file/)Tanda tangan digital memastikan keaslian dan integritas, membuat file Excel Anda tidak hanya berfungsi tetapi juga aman.
 
 ## Membuat Buku Kerja Bersama
 
@@ -37,7 +37,7 @@ Pernahkah Anda perlu menambahkan tanda tangan digital ke file Excel yang sudah d
 
 ## Meningkatkan Produktivitas dengan Regex
 
-Apakah Anda penggemar regex? Jika tidak, Anda mungkin ingin menjadi salah satunya! Ekspresi reguler dapat secara signifikan menyederhanakan tugas Anda, terutama saat bekerja dengan kumpulan data besar di Excel. Tutorial kami tentang[Ganti Regex](./regex-replace/) mengajarkan Anda cara mengimplementasikan fungsi penggantian regex di lembar kerja Anda, sehingga Anda dapat meningkatkan produktivitas dan akurasi.
+ Apakah Anda penggemar regex? Jika tidak, Anda mungkin ingin menjadi salah satunya! Ekspresi reguler dapat secara signifikan menyederhanakan tugas Anda, terutama saat bekerja dengan kumpulan data besar di Excel. Tutorial kami tentang[Ganti Regex](./regex-replace/) mengajarkan Anda cara mengimplementasikan fungsi penggantian regex di lembar kerja Anda, sehingga Anda dapat meningkatkan produktivitas dan akurasi.
 
 ## Memperbarui Item Power Query
 
@@ -45,11 +45,11 @@ Apakah Anda penggemar regex? Jika tidak, Anda mungkin ingin menjadi salah satuny
 
 ## Mengelola Pratinjau Cetak
 
-Sesekali, Anda perlu menyajikan data Anda dengan cara yang paling profesional. Mempelajari cara membuat pratinjau cetak dapat menjadi keterampilan yang penting. Dalam tutorial kami tentang[Pratinjau Cetak Buku Kerja](./workbook-print-preview/), Anda akan menemukan cara memformat data dengan benar sebelum menekan tombol cetak. Proses ini dapat menyelamatkan Anda dari kesalahan yang memalukan dan memastikan bahwa laporan Anda terlihat bagus di atas kertas seperti di layar.
+ Sesekali, Anda perlu menyajikan data Anda dengan cara yang paling profesional. Mempelajari cara membuat pratinjau cetak dapat menjadi keterampilan yang penting. Dalam tutorial kami tentang[Pratinjau Cetak Buku Kerja](./workbook-print-preview/), Anda akan menemukan cara memformat data dengan benar sebelum menekan tombol cetak. Proses ini dapat menyelamatkan Anda dari kesalahan yang memalukan dan memastikan bahwa laporan Anda terlihat bagus di atas kertas seperti di layar.
 
 ## Bekerja dengan Nama yang Ditentukan
 
- Nama yang ditetapkan dalam lembar Excel Anda dapat menjadi cara praktis untuk mengelola data Anda. Nama tersebut membuat rumus lebih pendek dan lebih mudah dipahami. Jika Anda ingin memfilter nama yang ditetapkan saat memuat buku kerja, tutorial kami tentang[Filter Nama yang Ditentukan Saat Memuat Buku Kerja](./filter-defined-names-while-loading-workbook/) menyediakan semua langkah yang diperlukan untuk melakukan hal tersebut. Fitur ini memungkinkan Anda untuk menyesuaikan cara memuat buku kerja, sehingga meningkatkan efisiensi dan pengaturan.
+Nama yang ditetapkan dalam lembar Excel Anda dapat menjadi cara praktis untuk mengelola data Anda. Nama tersebut membuat rumus lebih pendek dan lebih mudah dipahami. Jika Anda ingin memfilter nama yang ditetapkan saat memuat buku kerja, tutorial kami tentang[Filter Nama yang Ditentukan Saat Memuat Buku Kerja](./filter-defined-names-while-loading-workbook/) menyediakan semua langkah yang diperlukan untuk melakukan hal tersebut. Fitur ini memungkinkan Anda untuk menyesuaikan cara memuat buku kerja, sehingga meningkatkan efisiensi dan pengaturan.
 
 ## Kesimpulan
 

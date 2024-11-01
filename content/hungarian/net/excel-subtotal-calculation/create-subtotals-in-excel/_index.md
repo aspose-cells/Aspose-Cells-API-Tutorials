@@ -29,7 +29,7 @@ A kezdéshez meg kell határoznunk, hol található az Excel fájlunk. Itt mondj
 ```csharp
 string dataDir = "Your Document Directory";
 ```
- Cserélje ki`"Your Document Directory"` a tényleges útvonallal, ahol az Ön`book1.xls`tárolva van. Ez megmondja a programnak, hogy hol találja meg a kezelni kívánt Excel fájlt.
+ Cserélje ki`"Your Document Directory"` a tényleges útvonallal, ahol az Ön`book1.xls` tárolva van. Ez megmondja a programnak, hogy hol találja meg a kezelni kívánt Excel fájlt.
 ## 2. lépés: Példányosítson egy új munkafüzetet
 Ezután létrehozzuk a munkafüzet objektum új példányát. Ez lehetővé teszi az Excel fájl megnyitását és szerkesztését.
 ```csharp
@@ -51,7 +51,7 @@ ca.StartColumn = 1;
 ca.EndRow = 18; // C19
 ca.EndColumn = 2;
 ```
- Itt definiáljuk a`CellArea`Ebben az esetben a B3 (2. sor, 1. oszlop) és a C19 (18. sor, 2. oszlop) közötti területet választottuk. Itt fogjuk kiszámolni a részösszegeket.
+ Itt definiáljuk a`CellArea` Ebben az esetben a B3 (2. sor, 1. oszlop) és a C19 (18. sor, 2. oszlop) közötti területet választottuk. Itt fogjuk kiszámolni a részösszegeket.
 ## 5. lépés: Alkalmazza a Részösszegeket
 Ez a működésünk lényege – a részösszeg alkalmazása a meghatározott cellaterületre.
 ```csharp
@@ -60,7 +60,7 @@ cells.Subtotal(ca, 0, ConsolidationFunction.Sum, new int[] { 1 });
  Ebben a sorban hívjuk a`Subtotal` módszer. A meghatározott paraméterek a következők:
 - `ca`: A korábban meghatározott cellák tartománya.
 - `0`: Ez az index arra az oszlopra vonatkozik, amely a részösszegezendő értékeket tartalmazza. 
-- `ConsolidationFunction.Sum`: Ez megadja, hogy az értékeket össze akarjuk adni.
+- `ConsolidationFunction.Sum`Ez megadja, hogy az értékeket össze akarjuk adni.
 - `new int[] { 1 }`: Ez azt jelzi, hogy a második oszlop (C oszlop) értékeit összesítjük.
 ## 6. lépés: Mentse el a módosított Excel-fájlt
 Végül el kell mentenünk a változtatásokat egy új Excel fájlba. 

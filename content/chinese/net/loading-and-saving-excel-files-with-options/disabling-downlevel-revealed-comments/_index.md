@@ -12,7 +12,7 @@ url: /zh/net/loading-and-saving-excel-files-with-options/disabling-downlevel-rev
 在本文结束时，您将清楚地了解如何使用此功能并确保您的 HTML 输出干净且无注释。
 ## 先决条件
 在深入了解分步指南之前，让我们先介绍一下顺利进行操作所需准备的一些事项：
-1.  Aspose.Cells for .NET：您需要安装 Aspose.Cells 库。如果您尚未安装，可以下载[这里](https://releases.aspose.com/cells/net/).
+1. Aspose.Cells for .NET：您需要安装 Aspose.Cells 库。如果您尚未安装，可以下载[这里](https://releases.aspose.com/cells/net/).
 2. IDE：像 Visual Studio 这样的开发环境，用于编写和执行 C# 代码。
 3. C# 基础知识：熟悉 C# 语法和面向对象编程将帮助您理解代码。
 4. 临时或许可版本：您可以使用免费试用版，也可以从申请临时许可证[这里](https://purchase.aspose.com/temporary-license/).这确保了图书馆可以不受任何限制地工作。

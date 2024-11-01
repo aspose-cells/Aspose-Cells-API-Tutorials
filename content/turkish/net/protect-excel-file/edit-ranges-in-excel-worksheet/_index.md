@@ -128,7 +128,7 @@ Eğitimimizin son adımına nihayet ulaştık: Çalışma kitabını tanımladı
 book.Save(dataDir + "protectedrange.out.xls");
 ```
 
- Bu, korunan çalışma kitabınızı şu şekilde kaydedecektir:`protectedrange.out.xls` belirttiğiniz dizinde.
+Bu, korunan çalışma kitabınızı şu şekilde kaydedecektir:`protectedrange.out.xls` belirttiğiniz dizinde.
 
 ## Çözüm
 

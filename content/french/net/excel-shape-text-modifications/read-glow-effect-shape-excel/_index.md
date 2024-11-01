@@ -70,7 +70,7 @@ Console.WriteLine("Type: " + clr.Type);
 ```
  Ici, nous utilisons`Console.WriteLine`pour imprimer divers détails sur les propriétés de lueur, tels que la valeur de couleur, l'index, le niveau de transparence, etc. Cette étape consolide votre compréhension des propriétés disponibles.
 ## Conclusion
-Et voilà ! Vous venez d'apprendre à lire l'effet de lueur des formes dans Excel à l'aide d'Aspose.Cells pour .NET. Vous pouvez désormais appliquer ces techniques pour améliorer encore vos tâches de manipulation Excel. Que vous souhaitiez maintenir la qualité esthétique de vos rapports ou développer de superbes présentations de données, savoir comment extraire ces propriétés peut s'avérer extrêmement bénéfique. 
+Et voilà ! Vous venez d'apprendre à lire l'effet de lueur des formes dans Excel à l'aide d'Aspose.Cells pour .NET. Vous pouvez désormais appliquer ces techniques pour améliorer encore davantage vos tâches de manipulation Excel. Que vous souhaitiez maintenir la qualité esthétique de vos rapports ou développer de superbes présentations de données, savoir comment extraire ces propriétés peut s'avérer extrêmement bénéfique. 
 N'oubliez pas d'essayer différentes formes et propriétés dans vos fichiers Excel, car l'expérimentation est essentielle pour maîtriser toute nouvelle compétence.
 ## FAQ
 ### Qu'est-ce qu'Aspose.Cells pour .NET ?  

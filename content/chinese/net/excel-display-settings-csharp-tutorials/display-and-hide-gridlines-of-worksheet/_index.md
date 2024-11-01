@@ -19,7 +19,7 @@ url: /zh/net/excel-display-settings-csharp-tutorials/display-and-hide-gridlines-
 
 1.  Aspose.Cells for .NET 库 – 您可以从 Aspose 发布页面下载[这里](https://releases.aspose.com/cells/net/).
 2. .NET 环境 – 您需要有一个基本的 .NET 开发环境，例如 Visual Studio。
-3. Excel 文件 — 确保您有一个可供操作的示例 Excel 文件。
+3. Excel 文件 – 确保您有一个可供操作的示例 Excel 文件。
 4. 有效执照 – 您可以获得[免费试用](https://releases.aspose.com/)或[临时执照](https://purchase.aspose.com/temporary-license/)开始吧。
 
 现在您已准备好设置，让我们进入有趣的部分 - 编码！

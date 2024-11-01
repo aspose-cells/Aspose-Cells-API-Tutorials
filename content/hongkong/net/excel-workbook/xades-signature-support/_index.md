@@ -104,7 +104,7 @@ Console.WriteLine("XAdESSignatureSupport executed successfully.");
 
 ## 結論
 
-現在你就得到它了！您已使用 Aspose.Cells for .NET 成功將 Xades 簽章新增至您的 Excel 檔案。此過程不僅增強了文件的安全性，還透過確保文件的真實性與使用者建立了信任。 
+現在你就擁有了！您已使用 Aspose.Cells for .NET 成功將 Xades 簽章新增至您的 Excel 檔案。此過程不僅增強了文件的安全性，還透過確保文件的真實性與使用者建立了信任。 
 數位簽章是現代文件管理的重要組成部分，借助 Aspose.Cells 的強大功能，您可以在應用程式中輕鬆實現它們。
 
 ## 常見問題解答
@@ -119,7 +119,7 @@ Xades（XML 高級電子簽章）是一種數位簽章標準，它提供了額�
 絕對地！您可以從以下網站獲得免費試用[阿斯普斯網站](https://releases.aspose.com/).
 
 ### Aspose.Cells 與所有版本的 .NET 相容嗎？
- Aspose.Cells 支援各種版本的.NET 框架。檢查[文件](https://reference.aspose.com/cells/net/)有關相容性詳細資訊。
+Aspose.Cells 支援各種版本的.NET 框架。檢查[文件](https://reference.aspose.com/cells/net/)有關相容性詳細資訊。
 
 ### 如果遇到問題，我可以在哪裡獲得支援？
 您可以訪問[Aspose論壇](https://forum.aspose.com/c/cells/9)以獲得社區的支持和幫助。

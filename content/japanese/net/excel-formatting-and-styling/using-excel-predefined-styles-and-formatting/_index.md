@@ -66,7 +66,7 @@ Style style = workbook.CreateStyle();
 ## ステップ5: セルに値を入力する
 データを追加しましょう！テキストを入力します`"Test"`最初のワークシートのセル A1 に入力します。
 ```csharp
-// A1 セルに値を入力します。
+// A1セルに値を入力します。
 workbook.Worksheets[0].Cells["A1"].PutValue("Test");
 ```
 たったこれだけで、価値が追加されました。簡単ですね。

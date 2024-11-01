@@ -29,7 +29,7 @@ Benvenuti alla nostra guida definitiva per padroneggiare i font in Excel usando 
 
 ## Utilizzo del tipo di carattere sottolineato in Excel
 
- Hai mai sentito il bisogno di sottolineare un'informazione specifica nei tuoi fogli Excel? La sottolineatura può essere la tua migliore amica! Nella nostra guida dettagliata su[Utilizzo del tipo di carattere sottolineato in Excel](./using-font-underline-type/)ti mostriamo come applicare efficacemente le sottolineature al testo all'interno delle tue celle usando Aspose.Cells per .NET. Questo semplice tutorial passo dopo passo semplifica l'aggiunta di enfasi dove è più importante, che si tratti di titoli, note importanti o punti dati specifici.
+ Hai mai sentito il bisogno di sottolineare un'informazione specifica nei tuoi fogli Excel? La sottolineatura può essere la tua migliore amica! Nella nostra guida dettagliata su[Utilizzo del tipo di carattere sottolineato in Excel](./using-font-underline-type/)ti mostriamo come applicare efficacemente le sottolineature al testo all'interno delle tue celle usando Aspose.Cells per .NET. Questo semplice tutorial passo dopo passo semplifica l'aggiunta di enfasi dove più conta, che si tratti di titoli, note importanti o punti dati specifici.
 
 ## Creazione dell'effetto barrato sul testo in Excel
 

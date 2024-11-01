@@ -16,7 +16,7 @@ Dalam dunia bisnis yang serba cepat saat ini, mengelola data secara efektif dan 
 Sebelum masuk ke kode, sangat penting untuk memastikan Anda telah menyiapkan semuanya agar pengalaman menggunakan Aspose.Cells for .NET berjalan lancar:
 
 1.  Visual Studio: Anda perlu menginstal Visual Studio di komputer Anda. Jika Anda belum memilikinya, unduh versi terbaru dari[Situs web Visual Studio](https://visualstudio.microsoft.com/downloads/).
-2.  Pustaka Aspose.Cells: Anda akan memerlukan pustaka Aspose.Cells. Anda bisa mendapatkannya dengan mengunduhnya dari[Situs web Aspose](https://releases.aspose.com/cells/net/)Atau, Anda dapat menginstalnya langsung melalui NuGet di Visual Studio.
+2. Pustaka Aspose.Cells: Anda akan memerlukan pustaka Aspose.Cells. Anda bisa mendapatkannya dengan mengunduhnya dari[Situs web Aspose](https://releases.aspose.com/cells/net/)Atau, Anda dapat menginstalnya langsung melalui NuGet di Visual Studio.
 3. Pemahaman Dasar tentang C#: Karena kita akan menulis kode C#, pemahaman dasar tentang bahasa ini akan sangat berguna. Jika Anda baru mengenal C#, ada banyak sumber daya yang tersedia untuk membantu Anda memahaminya.
 4. File Excel: Siapkan buku kerja Excel yang ingin Anda buka kuncinya. Untuk contoh ini, kita akan menyebutnya sebagai "book1.xls."
 
@@ -69,7 +69,7 @@ Setelah buku kerja dimuat, Anda perlu mengakses lembar kerja yang ingin dibuka k
 ```csharp
 Worksheet worksheet = workbook.Worksheets[0];
 ```
- Dengan menentukan`[0]`, Anda memberi tahu sistem bahwa Anda menginginkan lembar pertama. Jika lembar Anda bukan yang pertama, cukup ubah indeks ini ke nomor yang sesuai.
+ Dengan menentukan`[0]`Anda memberi tahu sistem bahwa Anda menginginkan lembar pertama. Jika lembar Anda bukan yang pertama, cukup ubah indeks ini ke nomor yang sesuai.
 
 ## Langkah 4: Buka Proteksi Lembar Kerja
 
@@ -116,7 +116,7 @@ Nah, itu dia! Membuka kunci lembar Excel yang dilindungi menggunakan Aspose.Cell
 Ya! Anda dapat mengulang setiap lembar di buku kerja dan membuka proteksinya dengan cara yang sama.
 
 ### Apakah Aspose.Cells gratis untuk digunakan?
- Aspose.Cells menawarkan uji coba gratis, tetapi lisensi diperlukan untuk penggunaan produksi. Periksa[pembelian](https://purchase.aspose.com/buy) halaman untuk informasi lebih lanjut.
+ Aspose.Cells menawarkan uji coba gratis, tetapi lisensi diperlukan untuk penggunaan produksi. Periksa[pembelian](https://purchase.aspose.com/buy)halaman untuk informasi lebih lanjut.
 
 ### Bagaimana jika saya tidak tahu kata sandinya?
 Jika suatu lembar dilindungi kata sandi, dan Anda tidak mempunyai kata sandinya, perpustakaan tidak akan membantu melewati batasan karena bertentangan dengan kebijakan etika.

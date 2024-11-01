@@ -100,7 +100,7 @@ Most merüljünk bele az adott lapba, amely a kördiagramot tartalmazza. Feltét
 Worksheet sheet = workbook.Worksheets[1];
 ```
 
- A hozzáféréssel a`Worksheets`gyűjtemény, eljuthatunk a szükséges laphoz.
+ A hozzáféréssel a`Worksheets` gyűjtemény, eljuthatunk a szükséges laphoz.
 
 ## 4. lépés: Szerezze meg a diagramot
 
