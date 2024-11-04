@@ -1,0 +1,53 @@
+---
+title: Unprotect Protect Sheet using Aspose.Cells
+linktitle: Unprotect Protect Sheet using Aspose.Cells
+second_title: Aspose.Cells .NET Excel Processing API
+description: 
+type: docs
+weight: 21
+url: /net/worksheet-security/unprotect-protect-sheet/
+---
+
+## Complete Source Code
+```csharp
+using System.IO;
+using System;
+using Aspose.Cells;
+
+namespace Aspose.Cells.Examples.CSharp.Worksheets.Security.Unprotect
+{
+    public class UnprotectingProtectedWorksheet
+    {
+        public static void Run()
+        {
+            try
+            {
+                // ExStart:1
+                // The path to the documents directory.
+                string dataDir = "Your Document Directory";
+
+                // Instantiating a Workbook object
+                Workbook workbook = new Workbook(dataDir + "book1.xls");
+
+                // Accessing the first worksheet in the Excel file
+                Worksheet worksheet = workbook.Worksheets[0];
+
+                // Unprotecting the worksheet with a password
+                worksheet.Unprotect("");
+
+                // Save Workbook
+                workbook.Save(dataDir + "output.out.xls");
+                // ExEnd:1
+            }
+            catch(Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                Console.ReadLine();
+            }
+
+
+        }
+    }
+}
+
+```

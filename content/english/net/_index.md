@@ -170,3 +170,24 @@ Master auto-fit rows and columns in Excel with Aspose.Cells for .NET. Enhance da
 Explore comprehensive tutorials on managing Excel slicers with Aspose.Cells for .NET. Learn how to create, update, format, and export slicers effortlessly.
 ### [Smart Markers in Aspose.Cells for Dynamic Data](./smart-markers-dynamic-data/)
 Explore Aspose.Cells for .NET Smart Markers Tutorials to create dynamic Excel reports. Learn to add labels, auto-populate data, use formulas, and more.
+### [Tables and Lists](./tables-and-lists/)
+
+### [Aspose.Cells Workbook Operations](./workbook-operations/)
+
+### [Workbook Settings](./workbook-settings/)
+
+### [Workbook VBA Project](./workbook-vba-project/)
+
+### [Worksheet Display](./worksheet-display/)
+
+### [Worksheet Management](./worksheet-management/)
+
+### [Worksheet Page Setup Features](./worksheet-page-setup-features/)
+
+### [Worksheet Security](./worksheet-security/)
+
+### [Worksheet Value Operations](./worksheet-value-operations/)
+
+### [Worksheet Operations](./worksheet-operations/)
+
+### [Xml Map Operations](./xml-map-operations/)
