@@ -29,20 +29,37 @@ Easily extract and manage hyperlinks from Excel files with Aspose.Cells for .NET
 ### [Setting Image Preferences for HTML in .NET](./setting-image-preferences-for-html/)
 Unlock the power of Aspose.Cells for .NET. Learn how to set image preferences for HTML conversion to present your Excel data beautifully on the web.
 ### [Add Threaded Comments in Worksheet](./add-threaded-comments/)
+Learn how to add threaded comments in Excel worksheets using Aspose.Cells for .NET with this step-by-step tutorial. Enhance collaboration effortlessly.
 ### [Count Number of Cells in Worksheet](./count-cells/)
 ### [Cut and Paste Cells within Worksheet](./cut-and-paste-cells/)
+Learn how to cut and paste cells in Excel using Aspose.Cells for .NET with this simple step-by-step tutorial.
 ### [Detect International Macro Sheet in Workbook](./detect-international-macro-sheet/)
+Discover how to detect international macro sheets in Excel using Aspose.Cells for .NET with this detailed step-by-step guide. Perfect for developers.
 ### [Edit Threaded Comments in Worksheet](./edit-threaded-comments/)
+Unlock the magic of editing threaded comments in Excel using Aspose.Cells for .NET! Follow our step-by-step guide and master your documents with ease.
 ### [Check if Worksheet is Dialog Sheet](./check-dialog-sheet/)
+Learn how to check if a worksheet is a dialog sheet using Aspose.Cells for .NET with this step-by-step tutorial.
 ### [Get Cell Validation in ODS File](./get-cell-validation-ods/)
+Learn how to retrieve cell validation in ODS files using Aspose.Cells for .NET. A step-by-step guide for developers.
 ### [Get Range with External Links in Worksheet](./get-range-with-external-links/)
+Learn how to efficiently get ranges with external links in Excel worksheets using Aspose.Cells for .NET in this comprehensive step-by-step tutorial.
 ### [Get Unique ID of Worksheet](./get-worksheet-id/)
+Learn how to get the unique ID of a worksheet using Aspose.Cells for .NET with this step-by-step guide. Manage your spreadsheets more efficiently.
 ### [Print Sheet with Additional Settings](./print-sheet-with-settings/)
+Learn how to print Excel sheets effortlessly with Aspose.Cells for .NET in this detailed step-by-step guide.
 ### [Read ODS Background Image](./read-ods-background/)
+Learn how to read ODS background images using Aspose.Cells for .NET with this comprehensive, step-by-step tutorial. Perfect for developers and enthusiasts.
 ### [Read Created Time of Threaded Comments in Worksheet](./read-threaded-comment-created-time/)
+Learn to read created time of threaded comments in Excel using Aspose.Cells for .NET. Step-by-step guide with code examples included.
 ### [Read Threaded Comments in Worksheet](./read-threaded-comments/)
+Unlock the power of reading threaded comments in Excel with Aspose.Cells for .NET. Dive into this step-by-step guide for easy document handling.
 ### [Remove Threaded Comments from Worksheet](./remove-threaded-comments/)
+Easily remove threaded comments from Excel worksheets using Aspose.Cells for .NET with this step-by-step guide. Simplify your Excel management.
 ### [Set Colored Background in ODS File](./set-ods-colored-background/)
+Learn how to set a colored background in ODS files using Aspose.Cells for .NET, with step-by-step tutorials and tips.
 ### [Set Graphic Background in ODS File](./set-ods-graphic-background/)
+Learn to set a graphic background in ODS files using Aspose.Cells for .NET with this comprehensive, step-by-step guide.
 ### [Update Revision Log History in Shared Workbook](./update-revision-log-history/)
+Learn to update revision log history in shared workbooks using Aspose.Cells for .NET. Simplify collaboration and maintain clear document records.
 ### [Utilize Sheet_SheetId Property of OpenXml in Worksheet](./utilize-sheet-sheetid-property/)
+Unlock the power of Excel with Aspose.Cells for .NET. Learn to manipulate Sheet IDs effectively with our step-by-step guide.
