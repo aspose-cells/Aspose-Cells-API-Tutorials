@@ -31,6 +31,7 @@ Unlock the power of Aspose.Cells for .NET. Learn how to set image preferences fo
 ### [Add Threaded Comments in Worksheet](./add-threaded-comments/)
 Learn how to add threaded comments in Excel worksheets using Aspose.Cells for .NET with this step-by-step tutorial. Enhance collaboration effortlessly.
 ### [Count Number of Cells in Worksheet](./count-cells/)
+Unlock the power of Aspose.Cells for .NET. Learn how to count cells in an Excel worksheet with this step-by-step guide.
 ### [Cut and Paste Cells within Worksheet](./cut-and-paste-cells/)
 Learn how to cut and paste cells in Excel using Aspose.Cells for .NET with this simple step-by-step tutorial.
 ### [Detect International Macro Sheet in Workbook](./detect-international-macro-sheet/)
