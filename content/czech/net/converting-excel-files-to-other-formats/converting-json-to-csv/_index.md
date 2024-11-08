@@ -75,7 +75,7 @@ Tato metoda vyžaduje několik parametrů:
 - `str`Řetězec JSON, který jsme přečetli v kroku 1.
 - `cells`: Kolekce buněk, do které budou data umístěna.
 - `0, 0`: Toto jsou řádkové a sloupcové indexy označující, kde by měla data začínat (tj. levý horní roh).
-- `importOptions`: Možnosti rozložení, které jsme nastavili v kroku 4.
+- `importOptions`: Možnosti rozvržení, které jsme nastavili v kroku 4.
 ## Krok 6: Uložte sešit jako CSV
 Nyní, když jsou data JSON v sešitu, můžeme sešit snadno uložit jako soubor CSV. CSV je jednoduchý, odlehčený formát pro ukládání tabulkových dat, díky čemuž je ideální pro analýzu dat.
 ```csharp

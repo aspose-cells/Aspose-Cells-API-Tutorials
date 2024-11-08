@@ -84,7 +84,7 @@ Scopri come aggiungere un controllo Spinner a un foglio di lavoro Excel utilizza
 ### [Aggiungi casella di gruppo al foglio di lavoro in Excel](./add-group-box-to-worksheet-excel/)
 Scopri come aggiungere una casella di gruppo e pulsanti di scelta in Excel usando Aspose.Cells per .NET. Una guida passo passo per sviluppatori di tutti i livelli.
 ### [Aggiungere il controllo rettangolo al foglio di lavoro in Excel](./add-rectangle-control-to-worksheet-excel/)
-Scopri come aggiungere un controllo rettangolo a un foglio di lavoro Excel utilizzando Aspose.Cells per .NET con una guida dettagliata e passo dopo passo.
+Scopri come aggiungere un controllo rettangolo a un foglio di lavoro Excel utilizzando Aspose.Cells per .NET con una guida dettagliata e dettagliata.
 ### [Aggiungere il controllo di linea al foglio di lavoro in Excel](./add-line-control-to-worksheet-excel/)
 In questo tutorial completo imparerai ad aggiungere e personalizzare i controlli di linea nei fogli di lavoro di Excel utilizzando Aspose.Cells per .NET.
 ### [Aggiungere il controllo dell'arco con i punti di connessione](./add-arc-control-with-connection-points/)

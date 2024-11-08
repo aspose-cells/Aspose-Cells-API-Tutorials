@@ -95,7 +95,7 @@ workbook.Save(dataDir + "book1.out.ods");
 ```
 
 ### Als PDF speichern
-Wenn Sie Ihre Arbeitsmappe zum einfachen Teilen oder Drucken als PDF speichern möchten, können Sie dies tun:
+Wenn Sie Ihre Arbeitsmappe zum einfachen Teilen oder Drucken als PDF speichern möchten, haben Sie folgende Möglichkeiten:
 ```csharp
 workbook.Save(dataDir + "book1.out.pdf"); 
 ```

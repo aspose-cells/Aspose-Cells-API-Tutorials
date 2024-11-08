@@ -99,7 +99,7 @@ Na tym etapie jest to jak sprawdzanie, czy etykieta (właściwość) jest prawid
 
 ## Krok 5: Pobierz źródło właściwości
 
-Jeśli chcesz dowiedzieć się, do jakiej dokładnej treści lub zakresu odnosi się Twoja nieruchomość, możesz pobrać źródło, korzystając z poniższego kodu.
+Jeśli chcesz dowiedzieć się, do jakiej dokładnej treści lub zakresu odnosi się Twoja nieruchomość, możesz pobrać źródło przy użyciu poniższego kodu.
 
 ```csharp
 // Uzyskaj źródło nieruchomości

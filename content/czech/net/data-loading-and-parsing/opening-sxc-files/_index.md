@@ -8,7 +8,7 @@ weight: 15
 url: /cs/net/data-loading-and-parsing/opening-sxc-files/
 ---
 ## Zavedení
-Hledáte interakci se soubory SXC pomocí .NET? Pokud ano, jste na správném místě! V tomto tutoriálu prozkoumáme, jak otevřít a číst soubory SXC (StarOffice Calc) pomocí Aspose.Cells pro .NET. Ať už jste vývojář pracující na aplikaci .NET nebo se jen zajímáte o práci s tabulkovými soubory, tato příručka vás provede nezbytnými kroky, díky čemuž bude proces hladký a přímočarý. 
+Hledáte interakci se soubory SXC pomocí .NET? Pokud ano, jste na správném místě! V tomto tutoriálu prozkoumáme, jak otevřít a číst soubory SXC (StarOffice Calc) pomocí Aspose.Cells pro .NET. Ať už jste vývojář pracující na aplikaci .NET nebo se jen zajímáte o práci s tabulkovými soubory, tato příručka vás provede nezbytnými kroky, díky čemuž bude proces plynulý a přímočarý. 
 Popadněte tedy svůj kódovací klobouk a pojďme se ponořit do světa zpracování souborů SXC pomocí Aspose.Cells!
 ## Předpoklady
 Než začneme, je několik věcí, které budete potřebovat, abyste měli jistotu, že máte ty správné nástroje a znalosti:

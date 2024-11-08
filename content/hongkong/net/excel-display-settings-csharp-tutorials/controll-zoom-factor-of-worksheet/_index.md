@@ -9,7 +9,7 @@ url: /zh-hant/net/excel-display-settings-csharp-tutorials/controll-zoom-factor-o
 ---
 ## 介紹
 
-在以程式設計方式建立和管理 Excel 電子表格時，Aspose.Cells for .NET 是一個功能強大的程式庫，它使我們的工作變得更加輕鬆。無論您需要產生報表、操作資料或設定圖表格式，Aspose.Cells 都能為您提供支援。在本教程中，我們將深入研究一項特定功能：控制工作表的縮放係數。您是否曾經發現自己瞇著眼睛看著一個很小的單元格，或者對不適合您的數據的縮放感到沮喪？嗯，我們都去過那裡！因此，讓我們協助您管理 Excel 工作表中的縮放等級並增強您的使用者體驗。
+在以程式設計方式建立和管理 Excel 電子表格時，Aspose.Cells for .NET 是一個功能強大的程式庫，它使我們的工作變得更加輕鬆。無論您需要產生報表、操作資料或設定圖表格式，Aspose.Cells 都能為您提供支援。在本教程中，我們將深入研究一項特定功能：控制工作表的縮放係數。您是否曾經發現自己瞇著眼睛看著一個很小的單元格，或者對不適合您的數據的縮放感到沮喪？好吧，我們都去過那裡！因此，讓我們協助您管理 Excel 工作表中的縮放等級並增強您的使用者體驗。
 
 ## 先決條件
 
@@ -74,7 +74,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
 
-這行程式碼將準備您的 Excel 檔案以進行編輯。
+這行程式碼將準備您的 Excel 檔案以供編輯。
 
 ## 第 3 步：實例化工作簿對象
 

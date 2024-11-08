@@ -37,7 +37,7 @@ Workbook workbook = new Workbook(dataDir + "Book1.xls");
 ```
 Tutaj ładujemy nasz plik Excel (`Book1.xls`) do obiektu skoroszytu, co pozwala nam na interakcję z nim programowo. Pomyśl o skoroszycie jako o płótnie programu Excel, do którego możesz dodawać kolory, kształty i — tym razem — formuły!
 ## Krok 3: Uzyskaj dostęp do arkusza kalkulacyjnego
-Mając w ręku nasz skoroszyt, następnym krokiem jest chwycenie arkusza kalkulacyjnego. Jeśli myślisz o skoroszycie jak o książce, to arkusz kalkulacyjny to strona wypełniona danymi. Uzyskajmy dostęp do pierwszego arkusza kalkulacyjnego:
+Mając w ręku nasz skoroszyt, następnym krokiem jest chwycenie arkusza kalkulacyjnego. Jeśli myślisz o skoroszycie jak o książce, to arkusz kalkulacyjny jest stroną wypełnioną danymi. Uzyskajmy dostęp do pierwszego arkusza kalkulacyjnego:
 ```csharp
 Worksheet worksheet = workbook.Worksheets[0];
 ```
@@ -66,7 +66,7 @@ Notacja R1C1 to sposób odwoływania się do komórek w odniesieniu do bieżące
 ### Czy mogę używać Aspose.Cells z innymi językami programowania?
 Aspose.Cells obsługuje przede wszystkim platformę .NET, ale dostępne są wersje na platformę Java, Android i inne.
 ### Czy korzystanie z Aspose.Cells jest bezpłatne?
-Aspose.Cells oferuje bezpłatną wersję próbną, jednak w celu dłuższego korzystania należy zakupić licencję.
+Aspose.Cells oferuje bezpłatny okres próbny, jednak w celu dłuższego korzystania należy zakupić licencję.
 ### Gdzie mogę znaleźć więcej przykładów Aspose.Cells?
  Odwiedź[Dokumentacja Aspose](https://reference.aspose.com/cells/net/) aby zapoznać się ze szczegółowymi przykładami i samouczkami.
 ### Gdzie mogę uzyskać pomoc techniczną dotyczącą Aspose.Cells?

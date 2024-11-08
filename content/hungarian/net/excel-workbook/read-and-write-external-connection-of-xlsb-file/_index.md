@@ -1,6 +1,6 @@
 ---
-title: XLSB-fájl külső kapcsolatának olvasása és írása
-linktitle: XLSB-fájl külső kapcsolatának olvasása és írása
+title: Az XLSB fájl külső kapcsolatának olvasása és írása
+linktitle: Az XLSB fájl külső kapcsolatának olvasása és írása
 second_title: Aspose.Cells for .NET API Reference
 description: Ebből az átfogó oktatóanyagból megtudhatja, hogyan kezelheti a külső kapcsolatokat XLSB-fájlokban az Aspose.Cells for .NET használatával.
 type: docs

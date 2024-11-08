@@ -1,6 +1,6 @@
 ---
-title: GEMIDDELDE functie in Excel
-linktitle: GEMIDDELDE functie in Excel
+title: GEMIDDELDE-functie in Excel
+linktitle: GEMIDDELDE-functie in Excel
 second_title: Aspose.Cells Java Excel-verwerkings-API
 description: Leer hoe u de GEMIDDELDE functie in Excel gebruikt met Aspose.Cells voor Java. Stapsgewijze handleiding, codevoorbeelden en tips voor efficiënte Excel-automatisering.
 type: docs

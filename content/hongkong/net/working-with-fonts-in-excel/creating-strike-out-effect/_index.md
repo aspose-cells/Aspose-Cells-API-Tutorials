@@ -56,7 +56,7 @@ int i = workbook.Worksheets.Add();
 ## 步驟5：取得新工作表的引用
 建立工作表後，您需要在以後的操作中引用它。
 ```csharp
-//透過傳遞工作表索引來取得新新增工作表的引用
+//透過傳遞工作表索引來取得新新增的工作表的引用
 Worksheet worksheet = workbook.Worksheets[i];
 ```
 在這裡，您將使用其索引來獲取新建立的工作表（`i`）。這使您可以操作工作表。
@@ -89,7 +89,7 @@ Style style = cell.GetStyle();
 style.Font.IsStrikeout = true;
 //ExEnd:設定刪除線
 ```
-透過設定`IsStrikeout`為 true 時，您將指示 Excel 以直觀方式劃掉所選儲存格中的文字刪除線 - 非常類似於直觀地從清單中標記某些內容。
+透過設定`IsStrikeout`為 true 時，您將指示 Excel 以視覺方式劃掉所選儲存格中的文字刪除線 - 非常類似於直觀地從清單中標記某些內容。
 ## 第 10 步：將樣式套用到儲存格
 修改樣式後，您需要將其套用回儲存格以反映變更。
 ```csharp

@@ -10,7 +10,7 @@ url: /zh-hant/net/creating-and-configuring-pivot-tables/setting-data-field-forma
 ## 介紹
 如果您正在使用 .NET 深入研究 Excel 檔案操作，您可能會遇到需要一些奇特格式的資料集。一個常見的要求是設定資料欄位（尤其是在資料透視表中），使資料不僅易於理解，而且具有視覺吸引力和洞察力。透過 Aspose.Cells for .NET，這項任務變得輕而易舉。在本教程中，我們將逐步詳細介紹如何在 .NET 中以程式設計方式設定資料欄位格式，挑戰令人畏懼的複雜性並使其易於理解！
 ## 先決條件
-在我們踏上這段旅程之前，讓我們確保您已將一切安排妥當。以下是您需要的快速清單：
+在我們踏上這段旅程之前，讓我們確保您已經把一切都安排好了。以下是您需要的快速清單：
 1. Visual Studio：因為誰不喜歡好的整合開發環境 (IDE)？
 2.  Aspose.Cells for .NET Library：您可以輕鬆地從[Aspose 發佈頁面](https://releases.aspose.com/cells/net/).
 3. C# 基礎知識：如果您了解程式語言的基礎知識，那麼就可以開始了！

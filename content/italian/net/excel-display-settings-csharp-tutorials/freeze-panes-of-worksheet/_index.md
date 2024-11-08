@@ -116,7 +116,7 @@ Infine, chiudi FileStream per liberare risorse:
 fstream.Close();
 ```
 
-Chiudere il FileStream è essenziale per la gestione delle risorse. È come chiudere la porta alle tue spalle dopo aver finito di lavorare. Questo passaggio assicura che nessuna risorsa venga sprecata e che la tua applicazione funzioni senza problemi.
+Chiudere il FileStream è essenziale per la gestione delle risorse. È come chiudere la porta alle spalle dopo aver finito di lavorare. Questo passaggio assicura che nessuna risorsa venga sprecata e che la tua applicazione funzioni senza problemi.
 
 ## Conclusione
 

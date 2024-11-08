@@ -36,7 +36,7 @@ Oltre alle operazioni di base, Aspose.Cells consente di implementare funzionalit
 
 - [Funzioni di consolidamento a livello di programmazione](./consolidation-functions/): Se gestisci dati da più fonti, impara come applicare funzioni di consolidamento per portare tutto in un formato coeso. Questo tutorial ti guiderà attraverso la combinazione fluida dei dati.
 
-- [Mostra opzione pagine filtro report](./show-report-filter-pages-option/): Questa funzionalità migliora l'interazione dell'utente con le tue tabelle pivot consentendo agli utenti di filtrare i dati in modo efficace. Segui la guida passo passo per implementare questa funzionalità senza problemi.
+- [Mostra l'opzione delle pagine del filtro report](./show-report-filter-pages-option/): Questa funzionalità migliora l'interazione dell'utente con le tue tabelle pivot consentendo agli utenti di filtrare i dati in modo efficace. Segui la guida passo passo per implementare questa funzionalità senza problemi.
 
 - [Salvataggio delle tabelle pivot con ordinamento personalizzato e nascondimento](./saving-with-custom-sort-and-hide/): Personalizza il modo in cui i tuoi dati vengono visualizzati ordinando e nascondendo righe specifiche. Questa funzionalità aiuta a focalizzare l'attenzione sui punti dati più rilevanti.
 
@@ -74,7 +74,7 @@ Scopri come specificare origini dati di connessione esterne nelle tabelle pivot 
 ### [Salvataggio della tabella pivot in formato ODS a livello di programmazione in .NET](./saving-in-ods-format/)
 Scopri come salvare le tabelle pivot in formato ODS utilizzando Aspose.Cells per .NET con questa guida dettagliata.
 ### [Salvataggio delle tabelle pivot con ordinamento personalizzato e nascondi in .NET](./saving-with-custom-sort-and-hide/)
-Scopri come salvare le tabelle pivot con ordinamento personalizzato e nascondere le righe utilizzando Aspose.Cells per .NET. Guida passo passo con esempi pratici inclusi.
+Scopri come salvare le tabelle pivot con ordinamento personalizzato e nascondere le righe utilizzando Aspose.Cells per .NET. Guida dettagliata con esempi pratici inclusi.
 ### [Trovare e aggiornare le tabelle pivot nidificate o figlie in .NET](./finding-and-refreshing-nested-or-children-pivot-tables/)
 Scopri come trovare e aggiornare le tabelle pivot nidificate nei tuoi file Excel usando Aspose.Cells per .NET. Sono inclusi passaggi chiari e suggerimenti utili.
 ### [Analisi dei record pivot memorizzati nella cache durante il caricamento del file Excel in .NET](./parsing-pivot-cached-records/)

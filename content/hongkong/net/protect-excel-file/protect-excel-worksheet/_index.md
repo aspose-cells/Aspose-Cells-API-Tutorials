@@ -47,7 +47,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## 步驟 2：建立文件流程以開啟 Excel 文件
 
-為了與 Excel 檔案交互，創建了一個 FileStream。該流將允許應用程式讀取和寫入檔案。 
+為了與 Excel 檔案交互，創建了 FileStream。該流將允許應用程式讀取和寫入檔案。 
 
 ```csharp
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);

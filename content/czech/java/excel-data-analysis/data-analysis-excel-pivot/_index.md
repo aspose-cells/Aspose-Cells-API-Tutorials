@@ -93,7 +93,7 @@ této příručce jsme prozkoumali, jak provádět analýzu dat v aplikaci Excel
 
 ### Jak nainstaluji Aspose.Cells for Java?
 
- Aspose.Cells for Java si můžete stáhnout z webu[zde](https://releases.aspose.com/cells/java/). Postupujte podle pokynů k instalaci a nastavte jej ve svém projektu Java.
+ Aspose.Cells for Java si můžete stáhnout z webu[zde](https://releases.aspose.com/cells/java/). Postupujte podle pokynů k instalaci a nastavte ji ve svém projektu Java.
 
 ### Mohu provádět pokročilé výpočty v kontingenčních tabulkách?
 

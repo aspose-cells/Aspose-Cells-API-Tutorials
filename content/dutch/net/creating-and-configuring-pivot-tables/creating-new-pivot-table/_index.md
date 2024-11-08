@@ -112,7 +112,7 @@ workbook.Save(dataDir + "pivotTable_test_out.xls");
 Geef gewoon een juist pad op, dan wordt de uitvoer van uw draaitabel opgeslagen in een Excel-bestand dat u kunt openen en bekijken.
 
 ## Conclusie
-Draaitabellen programmatisch maken met Aspose.Cells voor .NET kan u aanzienlijk veel tijd besparen, vooral bij het werken met grote datasets. U hebt geleerd hoe u uw project instelt, benodigde pakketten importeert, gegevens vult en een aanpasbare draaitabel vanaf nul maakt. Dus de volgende keer dat u verdrinkt in cijfers, denk dan aan deze tutorial en laat Aspose.Cells het zware werk voor u doen.
+Het programmatisch maken van draaitabellen met Aspose.Cells voor .NET kan u aanzienlijk veel tijd besparen, vooral bij het werken met grote datasets. U hebt geleerd hoe u uw project instelt, benodigde pakketten importeert, gegevens vult en een aanpasbare draaitabel vanaf nul maakt. Dus de volgende keer dat u verdrinkt in cijfers, denk dan aan deze tutorial en laat Aspose.Cells het zware werk voor u doen.
 
 ## Veelgestelde vragen
 ### Wat is Aspose.Cells?

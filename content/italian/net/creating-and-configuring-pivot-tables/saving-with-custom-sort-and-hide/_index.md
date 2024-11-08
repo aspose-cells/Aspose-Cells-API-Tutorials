@@ -2,7 +2,7 @@
 title: Salvataggio delle tabelle pivot con ordinamento personalizzato e nascondi in .NET
 linktitle: Salvataggio delle tabelle pivot con ordinamento personalizzato e nascondi in .NET
 second_title: API di elaborazione Excel .NET Aspose.Cells
-description: Scopri come salvare le tabelle pivot con ordinamento personalizzato e nascondere le righe utilizzando Aspose.Cells per .NET. Guida passo passo con esempi pratici inclusi.
+description: Scopri come salvare le tabelle pivot con ordinamento personalizzato e nascondere le righe utilizzando Aspose.Cells per .NET. Guida dettagliata con esempi pratici inclusi.
 type: docs
 weight: 26
 url: /it/net/creating-and-configuring-pivot-tables/saving-with-custom-sort-and-hide/
@@ -63,7 +63,7 @@ Questo passaggio sincronizza la tabella pivot con i tuoi dati correnti, applican
 ## Passaggio 5: nascondere righe specifiche
 Ora, nascondiamo le righe che contengono punteggi inferiori a una certa soglia, diciamo, meno di 60. È qui che possiamo filtrare ulteriormente i dati.
 ```csharp
-// Specificare la riga di partenza per il controllo dei punteggi
+// Specificare la riga iniziale per il controllo dei punteggi
 int currentRow = 3;
 int rowsUsed = pivotTable.DataBodyRange.EndRow;
 // Nascondi le righe con un punteggio inferiore a 60

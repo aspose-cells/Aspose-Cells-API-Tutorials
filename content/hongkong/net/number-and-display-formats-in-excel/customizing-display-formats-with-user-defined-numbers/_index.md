@@ -8,7 +8,7 @@ weight: 11
 url: /zh-hant/net/number-and-display-formats-in-excel/customizing-display-formats-with-user-defined-numbers/
 ---
 ## 介紹
-使用 Excel 檔案通常需要自訂儲存格格式，以便以更有意義和使用者友好的方式呈現資料。假設您正在為報表建立 Excel 檔案。您不僅僅想要原始數字。您希望日期、百分比和貨幣看起來時尚而專業，對吧？這就是自訂顯示格式發揮作用的地方。在本教學中，我們將深入研究 Aspose.Cells for .NET，向您展示如何使用使用者定義的設定自訂數字的顯示格式。
+使用 Excel 檔案通常需要自訂儲存格格式，以便以更有意義和使用者友好的方式呈現資料。假設您正在為報表建立 Excel 檔案。您不僅僅想要原始數字。您希望日期、百分比和貨幣看起來時尚而專業，對嗎？這就是自訂顯示格式發揮作用的地方。在本教學中，我們將深入研究 Aspose.Cells for .NET，向您展示如何使用使用者定義的設定自訂數字的顯示格式。
 ## 先決條件
 在開始之前，請確保您已準備好學習本教學所需的一切。這是您需要的：
 - 安裝了 Aspose.Cells for .NET。[在這裡下載](https://releases.aspose.com/cells/net/).
@@ -45,7 +45,7 @@ if (!IsExists)
 Workbook workbook = new Workbook();
 //將新工作表新增至 Excel 對象
 int i = workbook.Worksheets.Add();
-//透過傳遞工作表索引來取得新新增工作表的引用
+//透過傳遞工作表索引來取得新新增的工作表的引用
 Worksheet worksheet = workbook.Worksheets[i];
 ```
 - 首先，我們創建一個新的`Workbook`目的。將此視為您的 Excel 文件。

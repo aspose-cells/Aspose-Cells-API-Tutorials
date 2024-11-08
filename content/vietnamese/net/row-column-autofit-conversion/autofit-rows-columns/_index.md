@@ -12,7 +12,7 @@ Trong hướng dẫn này, chúng ta sẽ đi sâu vào thế giới của Aspos
 ## Điều kiện tiên quyết
 Trước khi đi sâu vào mã, hãy đảm bảo rằng bạn có mọi thứ cần thiết:
 1. Hiểu biết cơ bản về C#: Sự quen thuộc với C# sẽ giúp chúng ta hiểu và sửa đổi mã ví dụ dễ dàng hơn nhiều.
-2.  Aspose.Cells cho Thư viện .NET: Bạn sẽ cần cài đặt thư viện Aspose.Cells. Bạn có thể tìm phiên bản mới nhất và cài đặt qua NuGet hoặc tải xuống trực tiếp từ[địa điểm](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells cho Thư viện .NET: Bạn sẽ cần phải cài đặt thư viện Aspose.Cells. Bạn có thể tìm phiên bản mới nhất và cài đặt qua NuGet hoặc tải xuống trực tiếp từ[địa điểm](https://releases.aspose.com/cells/net/).
 3. Môi trường phát triển: Bất kỳ IDE nào tương thích với C#, như Visual Studio, đều phù hợp với dự án này.
 4. Tệp Excel mẫu: Đối với hướng dẫn này, chúng tôi sẽ sử dụng tệp Excel có tên`Book1.xlsx`. Đảm bảo bạn đã có sẵn tập tin này trong thư mục làm việc của mình.
 Với các điều kiện tiên quyết này, bạn đã sẵn sàng để bắt đầu tự động điều chỉnh các hàng và cột bằng Aspose.Cells trong các ứng dụng .NET của mình!

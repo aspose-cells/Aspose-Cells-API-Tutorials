@@ -54,7 +54,7 @@ worksheet.Hyperlinks[0].TextToDisplay = "Link To External File";
 ```
  V tomto řádku určujete buňku,`A5`, pro hypertextový odkaz. Předané parametry definují, kam hypertextový odkaz povede. Nastavujete také text, který se bude v buňce zobrazovat. Je to jako napsat poznámku s nalepovacím štítkem ukazujícím na truhlu s pokladem!
 ## Krok 5: Uložte sešit
-Po vytvoření vašeho mistrovského díla je čas jej uložit. Tím se vytvoří váš soubor Excel s nově přidaným hypertextovým odkazem.
+Po vytvoření vašeho mistrovského díla je čas ho uložit. Tím se vytvoří váš soubor Excel s nově přidaným hypertextovým odkazem.
 ```csharp
 // Uložení souboru Excel
 workbook.Save(outputDir + "outputAddingLinkToExternalFile.xlsx");

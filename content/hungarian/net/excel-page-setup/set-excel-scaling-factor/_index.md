@@ -62,7 +62,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## 2. lépés: Hozzon létre egy új munkafüzet-objektumot
 
-Most itt az ideje egy új munkafüzet létrehozásának. Lényegében itt fog élni az összes adata és beállítása.
+Most itt az ideje új munkafüzet létrehozásának. Lényegében itt fog élni az összes adata és beállítása.
 
 ```csharp
 // Munkafüzet objektum példányosítása

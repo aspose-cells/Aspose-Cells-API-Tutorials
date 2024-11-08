@@ -2,7 +2,7 @@
 title: Excel 범위 및 주소 계산
 linktitle: Excel 범위 및 주소 계산
 second_title: Aspose.Cells .NET Excel 처리 API
-description: Excel 범위 생성, 주소 계산 및 고급 조작을 쉽게 다루는 Aspose.Cells for .NET에 대한 필수 튜토리얼을 알아보세요.
+description: Excel 범위 생성, 주소 계산 및 고급 조작을 쉽게 다루는 Aspose.Cells for .NET에 대한 필수 튜토리얼을 확인해 보세요.
 type: docs
 weight: 41
 url: /ko/net/excel-range-address-calculation/

@@ -2,7 +2,7 @@
 title: Imposta la larghezza di tutte le colonne nel foglio di lavoro con Aspose.Cells
 linktitle: Imposta la larghezza di tutte le colonne nel foglio di lavoro con Aspose.Cells
 second_title: API di elaborazione Excel .NET Aspose.Cells
-description: Sfrutta la potenza di Aspose.Cells per .NET e scopri come impostare la larghezza di tutte le colonne in un foglio di lavoro con questa guida dettagliata.
+description: Sfrutta la potenza di Aspose.Cells per .NET e scopri come impostare la larghezza di tutte le colonne in un foglio di lavoro con questo tutorial dettagliato.
 type: docs
 weight: 15
 url: /it/net/size-and-spacing-customization/setting-width-of-all-columns-in-worksheet/

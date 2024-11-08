@@ -70,7 +70,7 @@ Itt elérjük munkafüzetünk első munkalapját. Itt fog megtörténni minden v
 
 ## 4. lépés: Oldja fel az összes oszlopot
 
-Mielőtt bizonyos cellákat zárolhatnánk, fel kell oldanunk a munkalap összes oszlopának zárolását. Ez lehetővé teszi, hogy a későbbiekben csak a kijelölt cellákat zároljuk.
+Mielőtt bizonyos cellákat zárolhatnánk, fel kell oldanunk a munkalap összes oszlopának zárolását. Ez lehetővé teszi, hogy a későbbiekben csak a kiválasztott cellákat zároljuk.
 
 ```csharp
 // Határozza meg a stílusobjektumot.
@@ -112,7 +112,7 @@ sheet.Cells["C1"].SetStyle(style);
 
 ## 6. lépés: Védje meg a munkalapot
 
-Ellenőrző listánk majdnem kész! Az utolsó lépés, amelyet végre kell hajtania, magának a munkalapnak a védelme.
+Ellenőrző listánk már majdnem kész! Az utolsó lépés, amelyet végre kell hajtania, magának a munkalapnak a védelme.
 
 ```csharp
 // Végül most védje meg a lapot.

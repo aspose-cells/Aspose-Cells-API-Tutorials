@@ -14,10 +14,10 @@ Než se vrhneme přímo na část kódování, ujistěte se, že máte vše na s
 1. Instalace rozhraní .NET Framework: Ujistěte se, že používáte verzi rozhraní .NET Framework kompatibilní s knihovnou Aspose.Cells.
 2. Knihovna Aspose.Cells: Pokud ještě nemáte, stáhněte si knihovnu Aspose.Cells. Můžete to najít[zde](https://releases.aspose.com/cells/net/). 
 3. IDE: Dobré IDE, jako je Visual Studio, vám usnadní život při práci s aplikacemi .NET.
-4. Základní znalosti: Znalost programování v C# a konceptů souborů Excel bude prospěšná, ale nebojte se, pokud jste nový; Vše rozeberu krok za krokem!
+4. Základní znalosti: Znalost programování v C# a konceptů souborů Excel bude prospěšná, ale nebojte se, pokud jste nový; Všechno rozeberu krok za krokem!
 5.  Vzorový soubor Excel: Mějte vzorový soubor Excel (říkejme tomu`book1.xlsx`) připraveni otestovat váš kód.
 ## Importujte balíčky
-V první řadě musíme naimportovat potřebné balíčky do našeho projektu C#. Budete se chtít ujistit, že váš projekt má odkaz na Aspose.Cells. Můžete to udělat takto:
+V první řadě musíme naimportovat potřebné balíčky do našeho C# projektu. Budete se chtít ujistit, že váš projekt má odkaz na Aspose.Cells. Můžete to udělat takto:
 ### Vytvořit nový projekt
 Spusťte Visual Studio a vytvořte nový projekt C#:
 - Otevřete Visual Studio.

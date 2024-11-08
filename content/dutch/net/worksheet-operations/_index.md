@@ -28,3 +28,39 @@ In deze handleiding leert u hoe u de visuele aantrekkingskracht van uw Excel-geg
 Haal eenvoudig hyperlinks uit Excel-bestanden en beheer ze met Aspose.Cells voor .NET. Inclusief stapsgewijze handleiding en codevoorbeelden.
 ### [Afbeeldingvoorkeuren instellen voor HTML in .NET](./setting-image-preferences-for-html/)
 Ontgrendel de kracht van Aspose.Cells voor .NET. Leer hoe u afbeeldingsvoorkeuren instelt voor HTML-conversie om uw Excel-gegevens prachtig op het web te presenteren.
+### [Voeg geneste opmerkingen toe aan werkblad](./add-threaded-comments/)
+Leer hoe u threaded comments toevoegt in Excel-werkbladen met Aspose.Cells voor .NET met deze stapsgewijze tutorial. Verbeter moeiteloos de samenwerking.
+### [Aantal cellen in werkblad tellen](./count-cells/)
+Ontgrendel de kracht van Aspose.Cells voor .NET. Leer hoe u cellen in een Excel-werkblad telt met deze stapsgewijze handleiding.
+### [Cellen knippen en plakken in werkblad](./cut-and-paste-cells/)
+Leer hoe u cellen in Excel kunt knippen en plakken met Aspose.Cells voor .NET met deze eenvoudige stapsgewijze zelfstudie.
+### [Detecteer internationaal macroblad in werkmap](./detect-international-macro-sheet/)
+Ontdek hoe u internationale macrosheets in Excel kunt detecteren met Aspose.Cells voor .NET met deze gedetailleerde stapsgewijze handleiding. Perfect voor ontwikkelaars.
+### [Bewerk geneste opmerkingen in werkblad](./edit-threaded-comments/)
+Ontdek de magie van het bewerken van threaded comments in Excel met Aspose.Cells voor .NET! Volg onze stapsgewijze handleiding en beheers uw documenten met gemak.
+### [Controleer of het werkblad een dialoogblad is](./check-dialog-sheet/)
+Leer hoe u met Aspose.Cells voor .NET kunt controleren of een werkblad een dialoogvenster is met deze stapsgewijze zelfstudie.
+### [Celvalidatie ophalen in ODS-bestand](./get-cell-validation-ods/)
+Leer hoe u celvalidatie in ODS-bestanden kunt ophalen met Aspose.Cells voor .NET. Een stapsgewijze handleiding voor ontwikkelaars.
+### [Bereik verkrijgen met externe links in werkblad](./get-range-with-external-links/)
+Leer hoe u op efficiënte wijze bereiken met externe koppelingen in Excel-werkbladen kunt verkrijgen met Aspose.Cells voor .NET in deze uitgebreide stapsgewijze zelfstudie.
+### [Unieke ID van werkblad ophalen](./get-worksheet-id/)
+Leer hoe u de unieke ID van een werkblad kunt verkrijgen met Aspose.Cells voor .NET met deze stapsgewijze handleiding. Beheer uw spreadsheets efficiënter.
+### [Afdrukken met extra instellingen](./print-sheet-with-settings/)
+Leer hoe u moeiteloos Excel-sheets kunt afdrukken met Aspose.Cells voor .NET in deze gedetailleerde stapsgewijze handleiding.
+### [Lees ODS-achtergrondafbeelding](./read-ods-background/)
+Leer hoe u ODS-achtergrondafbeeldingen kunt lezen met Aspose.Cells voor .NET met deze uitgebreide, stapsgewijze tutorial. Perfect voor ontwikkelaars en liefhebbers.
+### [Lees de aanmaaktijd van geneste opmerkingen in het werkblad](./read-threaded-comment-created-time/)
+Leer hoe u de aangemaakte tijd van geneste opmerkingen in Excel kunt lezen met Aspose.Cells voor .NET. Stapsgewijze handleiding met codevoorbeelden inbegrepen.
+### [Lees geneste opmerkingen in werkblad](./read-threaded-comments/)
+Ontdek de kracht van het lezen van geneste opmerkingen in Excel met Aspose.Cells voor .NET. Duik in deze stapsgewijze handleiding voor eenvoudige documentverwerking.
+### [Geneste opmerkingen uit werkblad verwijderen](./remove-threaded-comments/)
+Verwijder eenvoudig threaded comments uit Excel-werkbladen met Aspose.Cells voor .NET met deze stapsgewijze handleiding. Vereenvoudig uw Excel-beheer.
+### [Gekleurde achtergrond instellen in ODS-bestand](./set-ods-colored-background/)
+Leer hoe u een gekleurde achtergrond in ODS-bestanden instelt met Aspose.Cells voor .NET, met stapsgewijze tutorials en tips.
+### [Grafische achtergrond instellen in ODS-bestand](./set-ods-graphic-background/)
+Leer hoe u een grafische achtergrond in ODS-bestanden instelt met Aspose.Cells voor .NET met deze uitgebreide, stapsgewijze handleiding.
+### [Geschiedenis van revisielogboek bijwerken in gedeelde werkmap](./update-revision-log-history/)
+Leer hoe u de revisieloggeschiedenis in gedeelde werkmappen bijwerkt met Aspose.Cells voor .NET. Vereenvoudig samenwerking en onderhoud duidelijke documentrecords.
+### [Gebruik Sheet_SheetId-eigenschap van OpenXml in werkblad](./utilize-sheet-sheetid-property/)
+Ontgrendel de kracht van Excel met Aspose.Cells voor .NET. Leer hoe u effectief met Sheet ID's omgaat met onze stapsgewijze handleiding.

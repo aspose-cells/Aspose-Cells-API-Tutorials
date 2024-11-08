@@ -67,7 +67,7 @@ importOptions.IgnoreObjectTitle = true;
 - ArrayAsTable: JSON'daki dizileri çalışma kitabındaki tablolar olarak ele al.
 - IgnoreArrayTitle ve IgnoreObjectTitle: Bu seçenekler diziler ve nesneler için başlıkları yok sayarak yalnızca ham verilerin içe aktarılmasını sağlar.
 ## Adım 5: JSON Verilerini İçe Aktarın
- Düzen seçenekleri ayarlandıktan sonra, JSON verilerini getirmenin zamanı geldi.`JsonUtility.ImportData()` Burada ağır işi yapan method, JSON verilerini çalışma kitabının hücrelerine ekler.
+ Düzen seçenekleri ayarlandıktan sonra, JSON verilerini getirmenin zamanı geldi.`JsonUtility.ImportData()` method burada ağır işi yapar ve JSON verilerini çalışma kitabının hücrelerine ekler.
 ```csharp
 JsonUtility.ImportData(str, cells, 0, 0, importOptions);
 ```

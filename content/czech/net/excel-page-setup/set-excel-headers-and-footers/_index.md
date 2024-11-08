@@ -137,7 +137,7 @@ Když je vše nyní nastaveno, stačí si sešit uložit, abyste viděli plody s
 excel.Save(dataDir + "SetHeadersAndFooters_out.xls");
 ```
 
- Vysvětlení: Vyměnit`"SetHeadersAndFooters_out.xls"` s požadovaným názvem souboru. Uložte si sešit a máte hotovo!
+ Vysvětlení: Vyměnit`"SetHeadersAndFooters_out.xls"` s požadovaným názvem souboru. Uložte sešit a máte hotovo!
 
 ## Závěr
 

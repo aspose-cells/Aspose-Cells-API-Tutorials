@@ -82,4 +82,4 @@ Ja, du kan komma åt både anpassade och inbäddade egenskaper med hjälp av dok
 ### Vilka typer av dokumentegenskaper kan jag hämta?
 Dokumentegenskaper kan vara av olika typer, inklusive sträng, nummer, datum och boolesk.
 ### Finns det en gratis provperiod för Aspose.Cells?
- Absolut! Du hittar det kostnadsfria testalternativet på[denna länk](https://releases.aspose.com/).
+ Absolut! Du kan hitta den kostnadsfria provversionen på[denna länk](https://releases.aspose.com/).

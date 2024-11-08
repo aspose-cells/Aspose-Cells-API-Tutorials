@@ -14,7 +14,7 @@ Mielőtt felgyűrjük az ingujjunkat és elkezdjük, néhány dolgot meg kell te
 1. Visual Studio: Ez az Ön játszótere, ahol .NET-kódot írhat és futtathat. Győződjön meg arról, hogy a legújabb verzió van telepítve.
 2.  Aspose.Cells for .NET: vásárolhat licencet, vagy letölthet egy ingyenes próbaverziót a[Aspose honlapja](https://releases.aspose.com/cells/net/). Ez a könyvtár lehetővé teszi az Excel-fájlok programozott kezelését.
 3. Alapvető C# ismeretek: Ha ismeri a C# programozást, könnyebben követheti. Ha nem, semmi gond! Minden lépést világosan elmagyarázunk.
-4.  Excel-fájl: Ehhez az oktatóanyaghoz egy meglévő Excel-fájlra lesz szüksége. Létrehozhat egyet Excelben, és elmentheti másként`Book1.xlsx`.
+4.  Excel-fájl: Ehhez az oktatóanyaghoz egy meglévő Excel-fájlra lesz szüksége. Létrehozhat egyet Excelben, és másként mentheti`Book1.xlsx`.
 Most, hogy minden készen van, importáljuk a szükséges csomagokat.
 ## Csomagok importálása
 Az Aspose.Cells-szel való munka megkezdéséhez hozzá kell adni egy hivatkozást az Aspose.Cells könyvtárra a projektben. Íme a lépések ehhez:

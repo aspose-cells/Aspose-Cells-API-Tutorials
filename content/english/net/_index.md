@@ -170,3 +170,25 @@ Master auto-fit rows and columns in Excel with Aspose.Cells for .NET. Enhance da
 Explore comprehensive tutorials on managing Excel slicers with Aspose.Cells for .NET. Learn how to create, update, format, and export slicers effortlessly.
 ### [Smart Markers in Aspose.Cells for Dynamic Data](./smart-markers-dynamic-data/)
 Explore Aspose.Cells for .NET Smart Markers Tutorials to create dynamic Excel reports. Learn to add labels, auto-populate data, use formulas, and more.
+### [Tables and Lists](./tables-and-lists/)
+Explore comprehensive Aspose.Cells for .NET tutorials to efficiently manage Excel data, create tables, and enhance your skills with easy-to-follow guides.
+### [Aspose.Cells Workbook Operations](./workbook-operations/)
+Explore Aspose.Cells for .NET workbook tutorials covering data access, XML customization, signatures, web extensions, and more. Enhance Excel automation skills easily.
+### [Workbook Settings](./workbook-settings/)
+Explore the comprehensive Aspose.Cells for .NET tutorials, covering workbook settings, external resources, and more.
+### [Workbook VBA Project](./workbook-vba-project/)
+Unlock the power of Excel with Aspose.Cells for .NET. Explore comprehensive tutorials on VBA project protection, copying user forms, and securing your workbook.
+### [Worksheet Display](./worksheet-display/)
+Discover a comprehensive list of Aspose.Cells for .NET tutorials. Enhance your Excel skills with step-by-step guides on key worksheet features.
+### [Worksheet Management](./worksheet-management/)
+Unlock the power of Aspose.Cells for .NET with our comprehensive tutorials, guiding you through worksheet management with step-by-step instructions.
+### [Worksheet Page Setup Features](./worksheet-page-setup-features/)
+Discover Aspose.Cells for .NET’s worksheet page setup tutorials, including copying page settings, managing paper size, and setting print quality for Excel worksheets.
+### [Worksheet Security](./worksheet-security/)
+Unlock the secrets of Excel security. Explore our comprehensive Aspose.Cells for .NET tutorials to protect, edit, and manage your worksheets effortlessly.
+### [Worksheet Value Operations](./worksheet-value-operations/)
+Discover essential tutorials on Aspose.Cells for .NET, covering worksheet value operations to enhance your Excel projects.
+### [Worksheet Operations](./worksheet-operations/)
+Explore Aspose.Cells for .NET workbook tutorials covering data access, XML customization, signatures, web extensions, and more. Enhance Excel automation skills easily.
+### [Xml Map Operations](./xml-map-operations/)
+Discover comprehensive Aspose.Cells for .NET tutorials covering XML map operations to enhance your Excel skills effortlessly.

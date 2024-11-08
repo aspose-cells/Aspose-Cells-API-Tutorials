@@ -53,7 +53,7 @@ Dále budete muset vytvořit souborový stream, abyste mohli otevřít soubor Ex
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
 
- Zde určíme, že chceme otevřít`book1.xls` umístěný v určeném adresáři. The`FileMode.Open` Parametr označuje, že otevíráme existující soubor. Vždy se ujistěte, že název souboru odpovídá tomu, co máte.
+ Zde určíme, že chceme otevřít`book1.xls` umístěn v určeném adresáři. The`FileMode.Open` Parametr označuje, že otevíráme existující soubor. Vždy se ujistěte, že název souboru odpovídá tomu, co máte.
 
 ## Krok 3: Vytvořte instanci objektu sešitu
 
@@ -118,7 +118,7 @@ Aspose.Cells je výkonná knihovna .NET pro správu tabulek aplikace Excel, kter
  Ano, můžete procházet každý list v sešitu a nastavit`IsRowColumnHeadersVisible` na`false` pro každého.
 
 ### Musím si zakoupit licenci pro Aspose.Cells?  
- I když můžete použít bezplatnou zkušební verzi, pro trvalé komerční použití je vyžadována licence. Můžete najít možnosti nákupu[zde](https://purchase.aspose.com/buy).
+ I když můžete použít bezplatnou zkušební verzi, pro trvalé komerční použití je vyžadována licence. Možnosti nákupu najdete[zde](https://purchase.aspose.com/buy).
 
 ### Je k dispozici podpora pro Aspose.Cells?  
  Ano, Aspose poskytuje podporu prostřednictvím svých fór, ke kterým máte přístup[zde](https://forum.aspose.com/c/cells/9).

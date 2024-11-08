@@ -8,7 +8,7 @@ weight: 17
 url: /fr/net/smart-markers-dynamic-data/use-anonymous-types-smart-markers/
 ---
 ## Introduction
-Lorsqu'il s'agit de générer des rapports Excel dynamiques dans des applications .NET, Aspose.Cells se distingue comme un outil puissant. L'une de ses meilleures fonctionnalités est la possibilité de travailler avec des marqueurs intelligents et des types anonymes. Si vous êtes nouveau dans ce concept, ne vous inquiétez pas ! Ce guide vous expliquera tout ce que vous devez savoir, des prérequis aux exemples pratiques, tout en restant engageant et facile à suivre.
+Aspose.Cells est un outil puissant pour générer des rapports Excel dynamiques dans des applications .NET. L'une de ses meilleures fonctionnalités est la possibilité de travailler avec des marqueurs intelligents et des types anonymes. Si vous êtes novice dans ce domaine, ne vous inquiétez pas ! Ce guide vous expliquera tout ce que vous devez savoir, des prérequis aux exemples pratiques, tout en restant engageant et facile à suivre.
 ## Prérequis
 Avant de plonger dans le code, assurons-nous que vous disposez de tout ce dont vous avez besoin pour exécuter correctement les exemples de ce didacticiel.
 ### 1. Environnement .NET

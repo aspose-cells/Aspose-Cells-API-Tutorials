@@ -73,7 +73,7 @@ Med vår data redo är det dags att skapa pivottabellen. Vi kommer att använda 
 ```csharp
 Aspose.Cells.Pivot.PivotTableCollection pivotTables = sheet.PivotTables;
 
-// Lägga till en pivottabell i kalkylbladet
+// Lägga till en pivottabell till kalkylbladet
 int index = pivotTables.Add("=A1:C8", "E3", "PivotTable2");
 ```
 

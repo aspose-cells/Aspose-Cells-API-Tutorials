@@ -10,7 +10,7 @@ url: /zh-hant/net/excel-file-handling/load-visible-sheets-only/
 ## 介紹
 當您在 .NET 應用程式中使用 Excel 檔案時，管理多個工作表的挑戰就變得顯而易見，特別是當某些工作表隱藏或與您的操作無關時。 Aspose.Cells for .NET 是一個功能強大的程式庫，可協助您有效率地操作 Excel 檔案。在本文中，我們將探討如何僅載入 Excel 檔案中的可見工作表，過濾掉任何隱藏資料。如果您曾經因瀏覽 Excel 資料而感到不知所措，那麼本指南適合您！
 ## 先決條件
-在深入學習本教程之前，讓我們確保您擁有遵循本教程所需的一切：
+在深入本教程之前，我們先確保您擁有遵循本教程所需的一切：
 1. C# 的基本了解：本教學專為熟悉 C# 程式語言的開發人員而設計。
 2.  Aspose.Cells for .NET：您必須下載並設定 Aspose.Cells for .NET 函式庫。你可以[在這裡下載庫](https://releases.aspose.com/cells/net/).
 3. Visual Studio 或任何 IDE：您應該有一個可以編寫和測試 C# 程式碼的 IDE。

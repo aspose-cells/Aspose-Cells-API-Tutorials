@@ -53,7 +53,7 @@ Nachdem wir nun das Verzeichnis eingerichtet haben, ist es an der Zeit, einen Da
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
 
- In diesem Schritt öffnen wir`book1.xls`, die bereits in Ihrem angegebenen Verzeichnis vorhanden sein sollte. Stellen Sie sicher, dass Sie diese Datei zur Hand haben, sonst wird ein Fehler ausgegeben.
+ In diesem Schritt öffnen wir`book1.xls`, die bereits in Ihrem angegebenen Verzeichnis vorhanden sein sollte. Stellen Sie sicher, dass Sie diese Datei zur Hand haben, sonst wird der Vorgang einen Fehler auslösen.
 
 ## Schritt 3: Instanziieren eines Arbeitsmappenobjekts
 

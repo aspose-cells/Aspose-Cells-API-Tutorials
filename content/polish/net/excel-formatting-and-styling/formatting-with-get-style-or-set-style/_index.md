@@ -41,7 +41,7 @@ Następnie musimy utworzyć nowy skoroszyt, w którym wykonamy wszystkie czynno�
 ```csharp
 Workbook workbook = new Workbook();
 ```
-Ten wiersz inicjuje nowy obiekt skoroszytu, co w zasadzie powoduje utworzenie nowego pliku programu Excel.
+Ten wiersz inicjuje nowy obiekt Workbook, co w zasadzie powoduje utworzenie nowego pliku Excela.
 ## Krok 3: Uzyskaj odniesienie do arkusza kalkulacyjnego
 Dostęp do pierwszego arkusza kalkulacyjnego
 Po utworzeniu skoroszytu musimy uzyskać dostęp do jego arkuszy. Każdy skoroszyt może zawierać wiele arkuszy.

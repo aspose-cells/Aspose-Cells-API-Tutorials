@@ -29,7 +29,7 @@ Sie können die Aspose.Cells-Bibliothek ganz einfach über den NuGet-Paket-Manag
 - Klicken Sie im Projektmappen-Explorer mit der rechten Maustaste auf Ihr Projekt.
 - Wählen Sie „NuGet-Pakete verwalten“ aus.
 - Suchen Sie nach „Aspose.Cells“ und klicken Sie auf die Schaltfläche „Installieren“.
-Dadurch wird sichergestellt, dass Sie alle benötigten Kurse und Methoden sofort zur Hand haben!
+Dadurch wird sichergestellt, dass Sie alle benötigten Klassen und Methoden sofort zur Hand haben!
 
 ```csharp
 using System;

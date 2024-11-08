@@ -26,7 +26,7 @@ using System.Data;
 ## Passaggio 1: creare una tabella dati
 Il primo passo è creare una tabella dati che servirà come fonte dati per i tuoi fogli di lavoro. In questo esempio, creeremo una semplice tabella dati denominata "Employees" con una singola colonna "EmployeeID":
 ```csharp
-//Directory di uscita
+//Directory di output
 string outputDir = "Your Document Directory";
 //Crea tabella dati dipendenti
 DataTable dt = new DataTable("Employees");

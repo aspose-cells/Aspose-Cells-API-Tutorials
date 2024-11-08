@@ -109,7 +109,7 @@ Här tar vi tag i färginställningen för diagramserien.
 
 ## Steg 7: Använd temafärgen
 
- Låt oss nu tillämpa en Microsoft-temafärg. Vi väljer en`Accent` stil för vem älskar inte en pop av färg?
+ Låt oss nu tillämpa en Microsoft-temafärg. Vi väljer en`Accent` stil för vem älskar inte en färgklick?
 
 ```csharp
 // Skapa ett tema i accentstil

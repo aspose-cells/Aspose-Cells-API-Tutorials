@@ -88,7 +88,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 worksheet.PageSetup.PaperSize = PaperSizeType.PaperA4;
 ```
 
-此行將指定工作表的紙張尺寸設定為 A4。您可以輕鬆更換`PaperA4`與可用的其他紙張尺寸`PaperSizeType`枚舉，例如`PaperLetter`或者`PaperA3`.
+此行將指定工作表的紙張尺寸設定為 A4。您可以輕鬆換出`PaperA4`與可用的其他紙張尺寸`PaperSizeType`枚舉，例如`PaperLetter`或者`PaperA3`.
 
 ## 第 5 步：儲存工作簿
 

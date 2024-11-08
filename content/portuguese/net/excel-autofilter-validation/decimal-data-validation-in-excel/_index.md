@@ -134,7 +134,7 @@ validation.Operator = OperatorType.Between;
 
 Pense nisso como desenhar uma linha de limite. Qualquer número fora desse intervalo será rejeitado, mantendo seus dados limpos!
 
-## Etapa 10: Estabelecer limites para validação
+## Etapa 10: Estabeleça limites para validação
 
 Em seguida, definiremos os limites inferior e superior para nossa validação:
 

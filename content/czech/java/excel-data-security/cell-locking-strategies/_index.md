@@ -58,7 +58,7 @@ worksheetProtection.setAllowEditingContent(true);  // Povolit úpravy obsahu
 worksheetProtection.setAllowEditingObject(true);   // Povolit úpravy objektů
 worksheetProtection.setAllowEditingScenario(true); // Povolit úpravy scénářů
 
-// Použít oprávnění na rozsah
+// Použijte oprávnění pro rozsah
 CellArea cellArea = new CellArea();
 cellArea.startRow = 1;
 cellArea.endRow = 5;

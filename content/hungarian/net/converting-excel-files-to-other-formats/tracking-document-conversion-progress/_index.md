@@ -44,7 +44,7 @@ string sourceDir = "Your Document Directory";
 // Kimeneti könyvtár
 string outputDir = "Your Document Directory";
 ```
- Ügyeljen arra, hogy cserélje ki`"Your Document Directory"` a rendszer tényleges elérési útjával. Ez segít a fájlok könnyű megtalálásában.
+ Mindenképpen cserélje ki`"Your Document Directory"` a rendszer tényleges elérési útjával. Ez segít a fájlok könnyű megtalálásában.
 ## 2. lépés: Töltse be a munkafüzetet
  Ezután be kell töltenie az Excel-munkafüzetet a`Workbook` osztály. Íme, hogyan:
 ```csharp

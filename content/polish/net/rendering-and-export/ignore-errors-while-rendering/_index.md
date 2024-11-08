@@ -36,7 +36,7 @@ string sourceDir = "C:\\Your\\Path\\Here\\";
 // Katalog wyjściowy
 string outputDir = "C:\\Your\\Path\\Here\\Output\\";
 ```
-Mając już wszystkie podstawowe elementy, możemy przedstawić je w formie przewodnika krok po kroku.
+Mając już wszystkie podstawowe elementy na swoim miejscu, możemy przedstawić je w formie przewodnika krok po kroku.
 ## Krok 2: Załaduj skoroszyt programu Excel
 Tutaj możesz powiedzieć Aspose.Cells, który plik Excel chcesz przekonwertować. Ten przykład zakłada, że używasz przykładowego pliku o nazwie`sampleErrorExcel2Pdf.xlsx` w których mogą występować błędy uniemożliwiające płynną konwersję.
 ```csharp
@@ -63,7 +63,7 @@ Console.WriteLine("IgnoreErrorsWhileRenderingExcelToPdf executed successfully.\r
 ```
 
 ## Wniosek
-masz to! Udało Ci się skonfigurować środowisko, które ignoruje błędy podczas konwersji plików Excel do PDF za pomocą Aspose.Cells. To podejście nie tylko oszczędza Ci czas, ale także pomaga utrzymać produktywność, szczególnie w przypadku dużych ilości plików, które mogą nie być w idealnym stanie. Teraz, gdy już się z tym oswoiłeś, wyobraź sobie możliwości — automatyzację generowania raportów, obsługę złożonych modeli finansowych i wiele więcej — wszystko to bez bólu głowy związanego z komunikatami o błędach przerywającymi Twój przepływ. 
+masz to! Udało Ci się skonfigurować środowisko, które ignoruje błędy podczas konwersji plików Excel do PDF za pomocą Aspose.Cells. To podejście nie tylko oszczędza Ci czas, ale także pomaga utrzymać produktywność, zwłaszcza w przypadku dużych ilości plików, które mogą nie być w idealnym stanie. Teraz, gdy już się z tym oswoiłeś, wyobraź sobie możliwości — automatyzację generowania raportów, obsługę złożonych modeli finansowych i wiele więcej — wszystko to bez bólu głowy związanego z komunikatami o błędach przerywającymi Twój przepływ. 
 ## Najczęściej zadawane pytania
 ### Co zrobić, jeśli mój plik Excel się nie załaduje?
 Sprawdź ścieżkę pliku i potwierdź, że plik istnieje w tej lokalizacji. Upewnij się również, że nie ma problemów z uprawnieniami do pliku.

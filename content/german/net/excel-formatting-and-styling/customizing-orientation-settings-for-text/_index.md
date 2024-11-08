@@ -98,7 +98,7 @@ Aspose.Cells.Cell cell = worksheet.Cells["A1"];
 Als Nächstes fügen wir etwas Text in die Zelle ein, um unsere Änderungen in Aktion zu sehen.
 
 ```csharp
-// Hinzufügen eines Wertes zur Zelle „A1“
+// Einen Wert zur Zelle „A1“ hinzufügen
 cell.PutValue("Visit Aspose!");
 ```
 

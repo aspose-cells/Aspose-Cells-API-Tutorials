@@ -130,7 +130,7 @@ Console.WriteLine(dt.Rows[2][1].ToString());
 是的，Aspose.Cells 可以處理公式，並且在導出時，它們將被評估為結果值。
 
 ### 是否可以更改匯出選項？  
-絕對地！您可以客製化`ExportTableOptions`以滿足您的特定需求。
+絕對地！您可以自訂`ExportTableOptions`以滿足您的特定需求。
 
 ### 在哪裡可以找到有關 Aspose.Cells 的更詳細文件？  
 您可以找到大量文檔[這裡](https://reference.aspose.com/cells/net/).

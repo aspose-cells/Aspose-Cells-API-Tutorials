@@ -100,10 +100,10 @@ designer.Workbook.Save(dataDir + "output.xls");
 ```
 Możesz wybrać preferowany format dla zapisanego pliku. W tym przypadku zapisujemy go jako „output.xls”. Zmień nazwę pliku zgodnie ze swoimi wymaganiami.
 ## Wniosek
-I oto masz! Uproszczony przewodnik wstawiania obrazów do arkusza kalkulacyjnego Excel przy użyciu Aspose.Cells z pomocą znaczników obrazów. Ta funkcja jest niezwykle przydatna do tworzenia dynamicznych raportów, które zawierają obrazy na podstawie źródła danych. Niezależnie od tego, czy pracujesz nad analizą biznesową, czy materiałami edukacyjnymi, te metody mogą znacznie ulepszyć prezentację dokumentu.
+I oto masz! Uproszczony przewodnik po wstawianiu obrazów do arkusza kalkulacyjnego Excel przy użyciu Aspose.Cells z pomocą znaczników obrazów. Ta funkcja jest niezwykle przydatna do tworzenia dynamicznych raportów, które zawierają obrazy na podstawie źródła danych. Niezależnie od tego, czy pracujesz nad analizą biznesową, czy materiałami edukacyjnymi, te metody mogą znacznie ulepszyć prezentację dokumentu.
 ## Najczęściej zadawane pytania
 ### Czym jest Aspose.Cells?
-Aspose.Cells to zaawansowana biblioteka dla platformy .NET umożliwiająca użytkownikom programowe tworzenie, edytowanie i konwertowanie plików programu Excel.
+Aspose.Cells to zaawansowana biblioteka dla platformy .NET umożliwiająca użytkownikom programowe tworzenie, edytowanie i konwertowanie plików Excel.
 ### Czy mogę używać Aspose.Cells za darmo?
 Tak! Możesz otrzymać bezpłatną wersję próbną Aspose.Cells[Tutaj](https://releases.aspose.com/).
 ### Gdzie mogę dowiedzieć się więcej na temat korzystania z Aspose.Cells?

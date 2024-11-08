@@ -10,7 +10,7 @@ url: /sv/java/excel-data-analysis/data-analysis-excel-formulas/
 
 ## Introduktion till Aspose.Cells för Java
 
-Innan vi dyker in i dataanalys, låt oss introducera Aspose.Cells för Java. Det är ett kraftfullt Java API som låter utvecklare skapa, manipulera och konvertera Excel-filer i Java-applikationer. Aspose.Cells tillhandahåller omfattande funktioner för att arbeta med Excel-arbetsböcker, kalkylblad, celler och formler.
+Innan vi dyker in i dataanalys, låt oss introducera Aspose.Cells för Java. Det är ett kraftfullt Java API som låter utvecklare skapa, manipulera och konvertera Excel-filer i Java-applikationer. Aspose.Cells tillhandahåller omfattande funktionalitet för att arbeta med Excel-arbetsböcker, kalkylblad, celler och formler.
 
 ## Konfigurera din Java-miljö
 

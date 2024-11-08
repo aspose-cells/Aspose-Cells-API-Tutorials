@@ -43,7 +43,7 @@ Egy jól definiált kimeneti könyvtár olyan, mint egy térkép egy új városb
 string outputDir = "Your Document Directory"; // Cserélje le a tényleges könyvtárával
 ```
 
- Ügyeljen arra, hogy cserélje ki`"Your Document Directory"` egy elérési úttal a rendszerén. Ez biztosítja, hogy amikor a program elmenti a munkafüzetet, pontosan tudja, hova kell elhelyezni a fájlt.
+ Mindenképpen cserélje ki`"Your Document Directory"` egy elérési úttal a rendszerén. Ez biztosítja, hogy amikor a program elmenti a munkafüzetet, pontosan tudja, hova kell elhelyezni a fájlt.
 
 ## 2. lépés: Hozzon létre egy üres munkafüzetet
 

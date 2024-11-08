@@ -105,7 +105,7 @@ Med ditt kalkylblad i handen, låt oss lägga in lite data i den första cellen,
 // Åtkomst till "A1"-cellen från kalkylbladet
 Cell cell = worksheet.Cells["A1"];
 
-// Lägger till något värde till "A1"-cellen
+// Lägga till något värde till "A1"-cellen
 cell.PutValue("Hello Aspose!");
 ```
 
@@ -215,7 +215,7 @@ Grattis! Du har framgångsrikt bemästrat grunderna för stilar och formatering 
 Aspose.Cells för .NET är ett kraftfullt bibliotek som låter utvecklare skapa och manipulera Excel-filer programmatiskt.
 
 ### Är Aspose.Cells gratis att använda?  
-Aspose.Cells är en betald produkt; Det erbjuder dock en gratis provperiod för användare som vill testa dess funktioner innan de köper.
+Aspose.Cells är en betalprodukt; Det erbjuder dock en gratis provperiod för användare som vill testa dess funktioner innan de köper.
 
 ### Kan jag använda Aspose.Cells i en webbapplikation?  
 Ja, Aspose.Cells kan integreras i webbapplikationer och tjänster byggda på .NET-ramverket.

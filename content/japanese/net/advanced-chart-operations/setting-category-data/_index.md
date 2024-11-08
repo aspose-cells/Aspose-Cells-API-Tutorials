@@ -160,7 +160,7 @@ workbook.Save(outputDir + "outputSettingCategoryData.xlsx");
 Console.WriteLine("SettingCategoryData executed successfully.");
 ```
 
-これにより、コンソールにプロセスが完了したことを知らせるメッセージが表示されます。簡単ですよね?
+これにより、コンソールにメッセージが出力され、プロセスが完了したことが通知されます。簡単ですよね?
 
 ## 結論
 

@@ -53,7 +53,7 @@ opts.Separator = '\t'; // Tabblad instellen als scheidingsteken
 ```
  In dit voorbeeld gebruiken we een tab-teken als scheidingsteken. U kunt`'\t'` met elk gewenst teken, zoals een komma (`,`), afhankelijk van hoe u uw CSV wilt opmaken.
 ## Stap 5: Herhaal elk werkblad
- Vervolgens gaan we door alle werkbladen in de werkmap heen en slaan we elk werkblad op in ons`workbookData` array, maar u moet eerst selecteren met welk werkblad u wilt werken.
+ Vervolgens gaan we door alle werkbladen in de werkmap heen en slaan we elk werkblad op in onze`workbookData` array, maar u moet eerst selecteren met welk werkblad u wilt werken.
 ```csharp
 // Kopieer alle werkbladgegevens in tekstformaat in de werkmapgegevensarray
 for (int idx = 0; idx < workbook.Worksheets.Count; idx++)

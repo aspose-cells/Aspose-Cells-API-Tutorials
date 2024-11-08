@@ -108,7 +108,7 @@ PdfSaveOptions opts = new PdfSaveOptions();
 
 ## Steg 5: Tilldela händelsehanteraren
 
- Det är avgörande att tilldela`DrawObjectEventHandler` instans till våra PDF-sparalternativ. Detta steg kommer att säkerställa att vår anpassade händelsehanterare bearbetar varje ritobjekt.
+ Det är viktigt att tilldela`DrawObjectEventHandler` instans till våra PDF-sparalternativ. Detta steg kommer att säkerställa att vår anpassade händelsehanterare bearbetar varje ritobjekt.
 
 ```csharp
 // Tilldela instansen av klassen DrawObjectEventHandler

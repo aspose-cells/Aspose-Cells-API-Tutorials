@@ -58,7 +58,7 @@ Infine, salverai la cartella di lavoro come file PDF utilizzando le opzioni appe
 ```csharp
 workbook.Save(dataDir + "output.pdf", options); //Salva come PDF
 ```
- Questa riga di codice prende la cartella di lavoro e la salva in formato PDF nella posizione specificata.`options` Il parametro viene passato per includere l'ora di creazione nei metadati PDF.
+ Questa riga di codice prende la cartella di lavoro e la salva in formato PDF nella posizione specificata.`options` Il parametro viene passato per includere l'ora di creazione nei metadati del PDF.
 
 ## Conclusione
 Ed ecco fatto! Hai convertito con successo un file Excel in un PDF usando Aspose.Cells per .NET, completo di timestamp di creazione. Questa funzionalità può essere incredibilmente utile quando devi tenere traccia delle versioni del documento o quando vuoi fornire ai destinatari informazioni su quando è stato creato il documento.

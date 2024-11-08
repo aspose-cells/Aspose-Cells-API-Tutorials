@@ -2,7 +2,7 @@
 title: Excel automatizálás Java-val
 linktitle: Excel automatizálás Java-val
 second_title: Aspose.Cells Java Excel Processing API
-description: Forráskódpéldák segítségével megtudhatja, hogyan automatizálhatja az Excel-feladatokat Java nyelven az Aspose.Cells segítségével, amely egy hatékony Excel-kezelési könyvtár.
+description: Ismerje meg, hogyan automatizálhatja az Excel-feladatokat Java nyelven a forráskód példáival az Aspose.Cells segítségével, amely egy hatékony Excel-kezelési könyvtár.
 type: docs
 weight: 18
 url: /hu/java/spreadsheet-automation/excel-automation-with-java/

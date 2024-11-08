@@ -73,7 +73,7 @@ cells["A1"].PutValue(1);
 ```
 Ez olyan, mintha egy központi elemet helyezne az asztalra – ez a görgetősáv interakciójának fókuszpontja.
 ## 7. lépés: A cella testreszabása
-Most tegyük azt a cellát vizuálisan vonzóvá. Módosíthatja a betűtípus színét és stílusát, hogy felbukkanjon.
+Most tegyük azt a cellát tetszetőssé. Módosíthatja a betűtípus színét és stílusát, hogy felbukkanjon.
 ```csharp
 // Állítsa be a cella betűszínét.
 cells["A1"].GetStyle().Font.Color = Color.Maroon;

@@ -32,7 +32,7 @@ using System.IO;
 using Aspose.Cells;
 ```
 
-Tímto způsobem se vyhnete nutnosti zadávat celou cestu tříd, které používáte, v celém kódu, takže je čistší a čitelnější.
+Tím se vyhnete nutnosti zadávat celou cestu tříd, které používáte, v celém kódu, takže je čistší a čitelnější.
 
 Nyní, když máte vše připraveno, pojďme si krok za krokem rozebrat proces nastavení dat grafu. Na základě ukázkových dat vytvoříme sloupcový graf.
 
@@ -88,7 +88,7 @@ worksheet.Cells["C3"].PutValue("Y1");
 worksheet.Cells["C4"].PutValue("Y2");
 ```
 
-Tento krok přidá data kategorie do sloupce 'C', což vašemu publiku pomůže pochopit, co váš graf představuje. Představte si to jako psaní názvu pro každou část zprávy – srozumitelnost je klíčová.
+Tento krok přidá data kategorie do sloupce „C“, což vašemu publiku pomůže pochopit, co váš graf představuje. Představte si to jako psaní názvu pro každou část zprávy – srozumitelnost je klíčová.
 
 ## Krok 6: Přidejte graf do listu
 

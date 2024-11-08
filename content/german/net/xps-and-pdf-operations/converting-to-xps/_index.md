@@ -8,7 +8,7 @@ weight: 10
 url: /de/net/xps-and-pdf-operations/converting-to-xps/
 ---
 ## Einführung
-Wenn es darum geht, Excel-Dateien in das XPS-Format zu konvertieren, fühlen Sie sich möglicherweise etwas überfordert, insbesondere wenn Sie neu in der Welt der Programmierung sind oder gerade erst in die .NET-Entwicklung einsteigen. Aber keine Angst! In diesem Handbuch werden wir den Prozess mithilfe von Aspose.Cells für .NET wie ein Profi aufschlüsseln. Wenn Sie mit dem Lesen fertig sind, haben Sie nicht nur ein klares Verständnis davon, wie dies funktioniert, sondern auch einige praktische Erkenntnisse gewonnen, die Ihre Programmierkenntnisse verbessern können. Also, legen wir los!
+Wenn es darum geht, Excel-Dateien in das XPS-Format zu konvertieren, fühlen Sie sich möglicherweise etwas überfordert, insbesondere wenn Sie neu in der Welt der Programmierung sind oder gerade erst in die .NET-Entwicklung einsteigen. Aber keine Angst! In diesem Handbuch werden wir den Prozess mithilfe von Aspose.Cells für .NET wie ein Profi aufschlüsseln. Wenn Sie mit dem Lesen fertig sind, haben Sie nicht nur ein klares Verständnis davon, wie dies geht, sondern auch einige praktische Erkenntnisse gewonnen, die Ihre Programmierkenntnisse verbessern können. Also, legen wir los!
 ## Voraussetzungen
 Bevor Sie sich in die Details der Konvertierung stürzen, stellen wir sicher, dass Sie alles haben, was Sie brauchen. Folgendes benötigen Sie:
 1. Visual Studio: Dies ist die IDE, in der Sie Ihren Code schreiben. Stellen Sie sicher, dass Sie sie installiert haben.
@@ -71,7 +71,7 @@ wr.ToImage(dataDir + "out_whole_printingxps.out.xps");
 ```
 Mit diesem Codeausschnitt können Sie die gesamte Arbeitsmappe auf einmal exportieren. Dies ist effizient, wenn Sie mehrere Arbeitsblätter konvertieren müssen.
 ## Abschluss
-Herzlichen Glückwunsch! Sie haben eine Excel-Datei mithilfe der Aspose.Cells-Bibliothek in .NET erfolgreich in das XPS-Format konvertiert. Das mag nach vielen Schritten aussehen, aber jeder einzelne spielt eine wichtige Rolle im Prozess. Mit diesem Wissen sind Sie gut gerüstet, um Excel-Dateien in Ihren Anwendungen zu verarbeiten und sie für verschiedene Formate zu optimieren. Wenn Sie also das nächste Mal jemand fragt, wie man diese lästigen Tabellenkalkulationen konvertiert, wissen Sie genau, was zu tun ist!
+Herzlichen Glückwunsch! Sie haben eine Excel-Datei mithilfe der Aspose.Cells-Bibliothek in .NET erfolgreich in das XPS-Format konvertiert. Das mag nach vielen Schritten aussehen, aber jeder einzelne spielt eine wichtige Rolle im Prozess. Mit diesem Wissen sind Sie gut gerüstet, um Excel-Dateien in Ihren Anwendungen zu verarbeiten und sie für verschiedene Formate zu optimieren. Wenn Sie also das nächste Mal jemand fragt, wie man diese lästigen Tabellen konvertiert, wissen Sie genau, was zu tun ist!
 ## Häufig gestellte Fragen
 ### Was ist das XPS-Format?
 XPS (XML Paper Specification) ist ein festes Dokumentformat, bei dem das Layout und Erscheinungsbild von Dokumenten beibehält.

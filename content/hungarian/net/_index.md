@@ -31,7 +31,7 @@ Tekintse meg az Excel oldaltöréseiről szóló részletes oktatóanyagokat az 
 ### [Szüntesse meg az Excel munkalap védelmét](./unprotect-excel-sheet/)
 Ismerje meg, hogyan szüntesse meg az Excel-táblázatok védelmét az Aspose.Cells for .NET használatával. Részletes oktatóanyagok fejlesztőknek C# nyelven.
 ### [Excel biztonság](./excel-security/)
-Fedezze fel az Excel átfogó biztonsági oktatóanyagait az Aspose.Cells for .NET segítségével. Védje Excel-fájljait, és szabályozza az érzékeny adatokhoz való hozzáférést.
+Fedezze fel az Excel átfogó biztonsági oktatóanyagait az Aspose.Cells for .NET segítségével. Védje Excel-fájljait, és szabályozza a bizalmas adatokhoz való hozzáférést.
 ### [Szüntesse meg az Excel munkalap védelmét](./unprotect-excel-sheet/)
 Ismerje meg, hogyan szüntesse meg az Excel-táblázatok védelmét az Aspose.Cells for .NET használatával. Részletes oktatóanyagok fejlesztőknek C# nyelven.
 ### [Vezérlők beillesztése a diagramokba](./inserting-controls-in-charts/)
@@ -71,10 +71,10 @@ Fedezze fel az Aspose.Cells for .NET oktatóanyagokat, amelyek lefedik az Excel 
 ### [Excel adatérvényesítés és szűrés](./excel-data-validation-filter/)
 Fedezze fel az Aspose.Cells for .NET oktatóanyagokat az Excel adatellenőrzéséről és szűrőiről – egyszerű útmutatók a termelékenység növeléséhez.
 ### [Excel adatigazítás és formázás](./excel-data-alignment-formatting/)
-Fedezze fel, hogyan módosíthatja az Excel cellák igazítását a formázás elvesztése nélkül az Aspose.Cells for .NET alkalmazásban. Ismerje meg a zökkenőmentes Excel-adatformázás lépésenkénti oktatóanyagát.
+Fedezze fel, hogyan módosíthatja az Excel-cellaigazítást a formázás elvesztése nélkül az Aspose.Cells for .NET-ben. Ismerje meg a zökkenőmentes Excel-adatformázás lépésenkénti oktatóanyagát.
 ### [Excel egyéni szám- és dátumformázás](./excel-custom-number-date-formatting/)
-Tanulja meg az Aspose.Cells for .NET használatát az egyéni szám- és dátumformázásról szóló átfogó oktatóanyagainkból. Optimalizálja Excel készségeit.
-### [Excel adatrendezés és exportálás](./excel-data-sorting-exporting/)
+Ismerje meg az Aspose.Cells for .NET használatát az egyéni szám- és dátumformázásról szóló átfogó oktatóanyagainkból. Optimalizálja Excel-készségeit.
+### [Excel adatok rendezése és exportálása](./excel-data-sorting-exporting/)
 Fedezze fel, hogyan rendezheti az adatokat és hogyan exportálhat HTML-értékeket Excelben az Aspose.Cells for .NET segítségével ezeken a könnyen követhető oktatóanyagokon keresztül.
 ### [Excel adatok importálása és exportálása](./excel-data-import-export/)
 Oldja fel az Aspose.Cells erejét .NET-hez. Fedezze fel oktatóanyagainkat az Excel adatok hatékony importálásához és exportálásához.
@@ -90,10 +90,10 @@ Növelje Excel-készségeit az Aspose.Cells for .NET megjegyzésekkel és megjeg
 Fedezze fel az átfogó Aspose.Cells for .NET oktatóanyagokat az Excel-alakzatok és vezérlők hozzáadásával kapcsolatban. Ismerje meg lépésről lépésre az Excel-munkalapok programozott fejlesztésének módszereit.
 ### [Excel OLE és képobjektumok](./excel-ole-picture-objects/)
 Fedezze fel az Excel erejét az Aspose.Cells for .NET segítségével. Sajátítsa el az OLE objektumokat és a képkezelést könnyen követhető oktatóanyagainkon keresztül.
-### [Excel-alakzat- és címkehozzáférés](./excel-shape-label-access/)
+### [Excel alakzat és címke hozzáférés](./excel-shape-label-access/)
 Fedezze fel az Aspose.Cells for .NET erejét átfogó oktatóanyagainkkal, amelyek az OLE objektumcímkéket és a Smart Art alakzatok azonosítását tartalmazzák Excelben.
 ### [Excel alakzat- és szövegmódosítások](./excel-shape-text-modifications/)
-Tanulja meg az Excel-alakzatok és -szöveg kezelését az Aspose.Cells for .NET segítségével könnyen követhető oktatóanyagok és gyakorlati kódpéldák segítségével.
+Tanulja meg az Excel-alakzatok és szövegek kezelését az Aspose.Cells for .NET segítségével könnyen követhető oktatóanyagok és gyakorlati kódpéldák segítségével.
 ### [Excel fájlkezelés](./excel-file-handling/)
 Az Aspose.Cells for .NET oktatóprogramjaival tárja fel az Excelben rejlő lehetőségeket. Exportálhatja a tulajdonságokat, kezelheti az üres sorokat, és egyszerűen betöltheti a látható lapokat.
 ### [CSV-fájlkezelés](./csv-file-handling/)
@@ -105,13 +105,13 @@ Fedezze fel az átfogó oktatóanyagokat az Excel-fájlok különféle formátum
 ### [Fájlkezelés](./file-handling/)
 Fedezze fel a részletes oktatóanyagokat az Aspose.Cells for .NET fájlok kezeléséhez, beleértve a különféle formátumokba, helyekre és egyéni elválasztókra való mentést.
 ### [Dokumentum tulajdonságai](./document-properties/)
-A dokumentumtulajdonságokkal foglalkozó átfogó oktatóanyagaink segítségével felszabadíthatja az Aspose.Cells for .NET képességeit, hogy javítsa Excel fájlkezelési készségeit.
+A dokumentumtulajdonságokról szóló átfogó oktatóanyagaink segítségével felszabadíthatja az Aspose.Cells for .NET képességeit, hogy javítsa Excel fájlkezelési készségeit.
 ### [Konverzió és renderelés](./conversion-and-rendering/)
 Fedezze fel az Aspose.Cells for .NET oktatóanyagokat, amelyek haladó útmutatókat tartalmaznak az Excel-fájlok különböző formátumokba való zökkenőmentes konvertálásához és megjelenítéséhez.
 ### [Biztonság és titkosítás](./security-and-encryption/)
-Fedezze fel az Aspose.Cells for .NET erejét a biztonságról és a titkosításról szóló oktatóanyagaink segítségével. Tanulja meg könnyedén észlelni és titkosítani a fájlokat.
+Fedezze fel az Aspose.Cells for .NET erejét a biztonságról és a titkosításról szóló oktatóanyagainkkal. Tanulja meg könnyedén észlelni és titkosítani a fájlokat.
 ### [Munkalap műveletek](./worksheet-operations/)
-Fokozza ki az Aspose.Cells for .NET-ben rejlő teljes potenciálját ezekkel a gyakorlati oktatóanyagokkal, amelyek lefedik a munkalapok műveleteit és javítják az Excel-fájlokat.
+Fokozza ki az Aspose.Cells for .NET-ben rejlő teljes potenciálját ezekkel a gyakorlati oktatóanyagokkal, amelyek a munkalapok műveleteit és az Excel-fájlok javítását ismertetik.
 ### [Konvertálás PDF-be](./conversion-to-pdf/)
 Alakítsa át Excel-fájljait és diagramjait zökkenőmentes PDF-fájlokká a könnyen követhető Aspose.Cells for .NET oktatóanyagaink segítségével.
 ### [Kép- és diagramműveletek](./image-and-chart-operations/)
@@ -151,7 +151,7 @@ Fedezze fel az átfogó Aspose.Cells for .NET oktatólistát, amellyel az Excel 
 ### [Excel-fájlok mentése és exportálása opciókkal](./saving-and-exporting-excel-files-with-options/)
 Fedezze fel az Aspose.Cells for .NET részletes oktatóanyagait az Excel-fájlok mentésével és exportálásával kapcsolatban. Ismerje meg, hogyan kezelheti a megjegyzéseket, a dokumentumtulajdonságokat, a figyelmeztetéseket és az adatvágást.
 ### [Pivot táblák létrehozása és konfigurálása](./creating-and-configuring-pivot-tables/)
-Fedezze fel az Aspose.Cells for .NET átfogó oktatóanyagait. A pivot táblák mestere az Excelben programozottan, részletes, lépésenkénti útmutatókkal minden funkcióhoz.
+Fedezze fel az Aspose.Cells for .NET átfogó oktatóanyagát. A pivot táblák mestere az Excelben programozottan, részletes, lépésenkénti útmutatókkal minden funkcióhoz.
 ### [Excel képletek és számítási lehetőségek](./excel-formulas-and-calculation-options/)
 Merüljön el mélyen az Aspose.Cells for .NET oktatóanyagában, amely az alapvető Excel-képleteket és számításokat tartalmazza, könnyen követhető lépésekkel.
 ### [Excel exportálása HTML-be speciális beállításokkal](./exporting-excel-to-html-with-advanced-options/)
@@ -170,3 +170,25 @@ Sajátítsa el a sorok és oszlopok automatikus illesztését az Excelben az Asp
 Fedezze fel az Excel-szeletelők kezelésével kapcsolatos átfogó oktatóanyagokat az Aspose.Cells for .NET segítségével. Tanulja meg, hogyan hozhat létre, frissíthet, formázhat és exportálhat szeletelőket könnyedén.
 ### [Intelligens jelölők az Aspose.Cellsben a dinamikus adatokhoz](./smart-markers-dynamic-data/)
 Fedezze fel az Aspose.Cells for .NET Smart Markers oktatóanyagait dinamikus Excel-jelentések létrehozásához. Ismerje meg a címkék hozzáadását, az adatok automatikus kitöltését, a képletek használatát stb.
+### [Táblázatok és listák](./tables-and-lists/)
+Fedezze fel az átfogó Aspose.Cells for .NET oktatóanyagokat, amelyek segítségével hatékonyan kezelheti az Excel-adatokat, hozhat létre táblázatokat, és fejlesztheti készségeit könnyen követhető útmutatókkal.
+### [Aspose.Cells munkafüzet műveletei](./workbook-operations/)
+Fedezze fel az Aspose.Cells for .NET-munkafüzet oktatóanyagait, amelyek az adathozzáférést, az XML testreszabását, az aláírásokat, a webbővítményeket és egyebeket tartalmazzák. Egyszerűen fejlesztheti az Excel automatizálási készségeit.
+### [Munkafüzet beállításai](./workbook-settings/)
+Fedezze fel az átfogó Aspose.Cells for .NET oktatóanyagokat, amelyek a munkafüzet beállításait, a külső erőforrásokat és egyebeket tartalmazzák.
+### [Munkafüzet VBA projekt](./workbook-vba-project/)
+Fedezze fel az Excel erejét az Aspose.Cells for .NET segítségével. Fedezze fel a VBA-projektvédelemről, a felhasználói űrlapok másolásáról és a munkafüzet biztonságáról szóló átfogó oktatóanyagokat.
+### [Munkalap megjelenítése](./worksheet-display/)
+Fedezze fel az Aspose.Cells .NET-oktatóanyagok átfogó listáját. Növelje Excel-készségeit a legfontosabb munkalapfunkciókról szóló, lépésenkénti útmutatókkal.
+### [Munkalapkezelés](./worksheet-management/)
+Fedezze fel az Aspose.Cells for .NET erejét átfogó oktatóanyagainkkal, amelyek lépésről lépésre végigvezetik a munkalapok kezelésén.
+### [A munkalap oldalbeállítási funkciói](./worksheet-page-setup-features/)
+Fedezze fel az Aspose.Cells-t a .NET munkalap-beállítási útmutatóihoz, beleértve az oldalbeállítások másolását, a papírméret kezelését és az Excel-munkalapok nyomtatási minőségének beállítását.
+### [Munkalap biztonság](./worksheet-security/)
+Fedezze fel az Excel biztonság titkait. Fedezze fel átfogó Aspose.Cells for .NET oktatóanyagunkat, amellyel könnyedén megvédheti, szerkesztheti és kezelheti munkalapjait.
+### [Munkalapérték-műveletek](./worksheet-value-operations/)
+Fedezze fel az Aspose.Cells for .NET alapvető oktatóanyagait, amelyek a munkalapérték-műveleteket fedik le az Excel-projektek fejlesztéséhez.
+### [Munkalap műveletek](./worksheet-operations/)
+Fedezze fel az Aspose.Cells for .NET-munkafüzet oktatóanyagait, amelyek az adathozzáférést, az XML testreszabását, az aláírásokat, a webbővítményeket és egyebeket tartalmazzák. Egyszerűen fejlesztheti az Excel automatizálási készségeit.
+### [Xml térképműveletek](./xml-map-operations/)
+Fedezze fel az átfogó Aspose.Cells for .NET oktatóanyagokat, amelyek lefedik az XML leképezési műveleteket, hogy könnyedén fejleszthesse Excel-készségeit.

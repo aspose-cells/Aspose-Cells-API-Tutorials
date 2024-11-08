@@ -74,7 +74,7 @@ Workbook workbook = new Workbook(SourceDir + "EmbeddedMolSample.xlsx");
 
  V tomto kroku vytvoříme novou instanci`Workbook` třídy, která funguje jako most k obsahu vašeho souboru Excel. Soubor se načte zde, takže můžeme později iterovat listy a najít vložené objekty MOL.
 
-## Krok 3: Projděte si pracovní listy
+## Krok 3: Iterujte pracovními listy
 
 Nyní, když je náš sešit načten, je čas jít hlouběji. Chcete-li najít jakékoli vložené objekty, musíte projít každý list v sešitu:
 

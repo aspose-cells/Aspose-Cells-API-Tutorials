@@ -53,7 +53,7 @@ Poi, dobbiamo definire quali dati vogliamo filtrare durante il caricamento della
 opts.LoadFilter = new LoadFilter(~LoadDataFilterOptions.DefinedNames);
 ```
 
-La tilde (~indica che vogliamo escludere nomi definiti dal processo di caricamento. Questo è fondamentale se vuoi mantenere il tuo carico di lavoro leggero ed evitare dati non necessari che possono complicare la tua elaborazione.
+La tilde (~indica che vogliamo escludere i nomi definiti dal processo di caricamento. Questo è fondamentale se vuoi mantenere il tuo carico di lavoro leggero ed evitare dati non necessari che possono complicare la tua elaborazione.
 
 ## Passaggio 3: caricare la cartella di lavoro
 

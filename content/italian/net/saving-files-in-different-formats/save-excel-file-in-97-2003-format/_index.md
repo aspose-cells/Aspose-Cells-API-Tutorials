@@ -8,7 +8,7 @@ weight: 10
 url: /it/net/saving-files-in-different-formats/save-excel-file-in-97-2003-format/
 ---
 ## Introduzione
-Creare e gestire file Excel a livello di programmazione può essere una svolta, soprattutto per le aziende che si affidano molto alla manipolazione dei dati. Uno dei grandi strumenti disponibili per gli sviluppatori .NET è Aspose.Cells. È versatile e potente, aiutandoti a semplificare i flussi di lavoro e ad automatizzare le attività con i fogli di calcolo. Se stai cercando di salvare file Excel nel classico formato 97-2003, sei nel posto giusto! Immergiamoci.
+Creare e gestire file Excel a livello di programmazione può essere una svolta, soprattutto per le aziende che si affidano molto alla manipolazione dei dati. Uno dei grandi strumenti disponibili per gli sviluppatori .NET è Aspose.Cells. È versatile e potente, aiutandoti a semplificare i flussi di lavoro e ad automatizzare le attività con i fogli di calcolo. Se stai cercando di salvare i file Excel nel classico formato 97-2003, sei nel posto giusto! Immergiamoci.
 ## Prerequisiti
 Prima di addentrarci nei dettagli, ecco alcuni prerequisiti che dovrai spuntare dalla tua lista:
 1. Conoscenza di base di .NET: la familiarità con C# o VB.NET sarà estremamente utile.

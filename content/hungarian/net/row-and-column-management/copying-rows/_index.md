@@ -54,7 +54,7 @@ Ebben a parancsban:
 - Cél sor (15): Ide szeretnénk beilleszteni a másolt sort, amely megfelel az Excel 16. sorának.
  A`CopyRow` A módszer hatékony – nem csak az adatokat másolja, hanem a sorban lévő formázásokat, képeket vagy objektumokat is.
 ## 5. lépés: Mentse el a frissített Excel-fájlt
-Ha a sor másolása befejeződött, ideje elmenteni a módosított Excel-fájlt. Ez biztosítja, hogy minden változtatást a`excelWorkbook1` megmaradnak.
+Ha a sor másolása befejeződött, ideje elmenteni a módosított Excel-fájlt. Ez biztosítja, hogy minden változtatás a`excelWorkbook1` megmaradnak.
 ```csharp
 // Mentse el az Excel fájlt.
 excelWorkbook1.Save(dataDir + "output.xls");

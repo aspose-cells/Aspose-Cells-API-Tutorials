@@ -102,7 +102,7 @@ Om de MIN-functie toe te passen op een dynamisch bereik van cellen, kunt u de in
 
 ### Kan ik de MIN-functie gebruiken met niet-numerieke gegevens?
 
-De MIN-functie in Excel is ontworpen om te werken met numerieke gegevens. Als u deze probeert te gebruiken met niet-numerieke gegevens, wordt er een fout geretourneerd. Zorg ervoor dat uw gegevens in een numerieke indeling staan of gebruik andere functies zoals MINA voor niet-numerieke gegevens.
+De MIN-functie in Excel is ontworpen om te werken met numerieke gegevens. Als u probeert deze te gebruiken met niet-numerieke gegevens, zal het een fout retourneren. Zorg ervoor dat uw gegevens in een numerieke indeling staan of gebruik andere functies zoals MINA voor niet-numerieke gegevens.
 
 ### Wat is het verschil tussen de functies MIN en MINA?
 

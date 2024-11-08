@@ -142,4 +142,4 @@ Sim, você pode definir mensagens de erro diferentes para regras de validação 
 
 ### Onde posso encontrar mais informações sobre o Aspose.Cells para Java?
 
- Para obter mais informações sobre Aspose.Cells para Java e seus recursos, você pode visitar a documentação em[aqui](https://reference.aspose.com/cells/java/).
+ Para obter mais informações sobre o Aspose.Cells para Java e seus recursos, você pode visitar a documentação em[aqui](https://reference.aspose.com/cells/java/).

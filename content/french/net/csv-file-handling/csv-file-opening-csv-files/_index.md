@@ -47,7 +47,7 @@ LoadOptions loadOptions4 = new LoadOptions(LoadFormat.Csv);
 //Créer un objet Workbook et ouvrir le fichier à partir de son chemin
 Workbook wbCSV = new Workbook(dataDir + "Book_CSV.csv", loadOptions4);
 ```
- Cette ligne est comme déverrouiller la porte de vos données. Avec votre`Workbook` Une fois l'objet prêt, vous disposez d'un accès complet pour manipuler les données à l'intérieur de votre fichier CSV. C'est comme si on vous remettait les clés d'un coffre aux trésors d'informations !
+ Cette ligne est comme déverrouiller la porte de vos données. Avec votre`Workbook` objet prêt, vous avez un accès complet pour manipuler les données à l'intérieur de votre fichier CSV. C'est comme si on vous remettait les clés d'un coffre aux trésors d'informations !
 ## Étape 4 : Confirmer le succès
 Et ensuite ? Vous voudrez probablement vous assurer que tout s'est bien passé et que le fichier s'est ouvert correctement. Une petite confirmation peut faire beaucoup !
 ```csharp

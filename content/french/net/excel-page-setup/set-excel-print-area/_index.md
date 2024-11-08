@@ -97,7 +97,7 @@ workbook.Save(dataDir + "SetPrintArea_out.xls");
 
 ## Conclusion
 
-La définition de la zone d'impression dans un fichier Excel à l'aide d'Aspose.Cells pour .NET peut simplifier vos tâches d'impression, en garantissant que seules les informations nécessaires sont incluses lorsque vous appuyez sur ce bouton d'impression. En suivant ces étapes (définition de votre répertoire, initialisation de votre classeur, accès à la configuration de page, spécification de la zone d'impression et enregistrement du classeur), vous vous êtes doté d'une compétence puissante. Ainsi, que vous prépariez des rapports, créiez des factures ou organisiez simplement vos données, vous disposez désormais d'un outil pratique. Bon codage !
+La définition de la zone d'impression dans un fichier Excel à l'aide d'Aspose.Cells pour .NET peut simplifier vos tâches d'impression, en garantissant que seules les informations nécessaires sont incluses lorsque vous appuyez sur le bouton d'impression. En suivant ces étapes (définition de votre répertoire, initialisation de votre classeur, accès à la configuration de page, spécification de la zone d'impression et enregistrement du classeur), vous vous êtes doté d'une compétence puissante. Ainsi, que vous prépariez des rapports, créiez des factures ou organisiez simplement vos données, vous disposez désormais d'un outil pratique. Bon codage !
 
 ## FAQ
 

@@ -46,7 +46,7 @@ V tomto snadném průvodci se dozvíte, jak formátovat buňky aplikace Excel po
 Naučte se formátovat listy aplikace Excel pomocí Aspose.Cells for .NET pomocí podrobného průvodce a osvojte si styly jako profesionál.
 ### [Přidání ohraničení do buněk v Excelu](./adding-borders-to-cells/)
 Naučte se, jak přidat stylové ohraničení do buněk v Excelu pomocí Aspose.Cells for .NET. Postupujte podle tohoto podrobného průvodce pro jasné a poutavé tabulky.
-### [Použití ohraničení na rozsah buněk v Excelu](./applying-borders-to-range-of-cells/)
+### [Použití ohraničení na rozsah buněk v aplikaci Excel](./applying-borders-to-range-of-cells/)
 Naučte se, jak aplikovat ohraničení na buňky v Excelu pomocí Aspose.Cells for .NET. Postupujte podle našeho podrobného návodu krok za krokem.
 ### [Konfigurace nastavení odsazení v Excelu](./configuring-indentation-settings/)
 Naučte se konfigurovat nastavení odsazení v Excelu pomocí Aspose.Cells pro .NET. Podrobný průvodce, jak bez námahy vylepšit vaše dokumenty Excel.

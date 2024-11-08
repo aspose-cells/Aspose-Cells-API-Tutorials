@@ -9,7 +9,7 @@ url: /pl/net/excel-advanced-named-ranges/identify-cells-in-named-range/
 ---
 ## Wstęp
 
-świecie manipulacji danymi Excel błyszczy dzięki swojej zdolności do bezproblemowego zarządzania złożonymi zestawami danych. Jednak mimo że Excel jest potężny, czasami może wydawać się przytłaczający, szczególnie w przypadku dużych wolumenów danych. Właśnie tutaj pojawia się Aspose.Cells dla .NET, zapewniając programistom wydajny sposób na programową interakcję z plikami Excela. W tym przewodniku przeprowadzimy Cię przez proces identyfikacji komórek w nazwanym zakresie w arkuszu kalkulacyjnym Excela przy użyciu Aspose.Cells. Więc niezależnie od tego, czy jesteś doświadczonym programistą, czy ciekawym nowicjuszem, zanurzmy się w sztuce automatyzacji Excela!
+świecie manipulacji danymi Excel błyszczy dzięki swojej zdolności do bezproblemowego zarządzania złożonymi zestawami danych. Jednak mimo swojej mocy Excel czasami może wydawać się przytłaczający, szczególnie w przypadku dużych wolumenów danych. Właśnie tutaj pojawia się Aspose.Cells dla .NET, zapewniając programistom wydajny sposób na programową interakcję z plikami Excela. W tym przewodniku przeprowadzimy Cię przez proces identyfikacji komórek w nazwanym zakresie w arkuszu kalkulacyjnym Excela przy użyciu Aspose.Cells. Więc niezależnie od tego, czy jesteś doświadczonym programistą, czy ciekawym nowicjuszem, zanurzmy się w sztuce automatyzacji Excela!
 
 ## Wymagania wstępne
 

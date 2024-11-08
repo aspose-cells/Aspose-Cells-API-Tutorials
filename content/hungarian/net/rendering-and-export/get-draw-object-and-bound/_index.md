@@ -102,7 +102,7 @@ Workbook wb = new Workbook(sourceDir + "sampleGetDrawObjectAndBoundUsingDrawObje
 Most, hogy betöltöttük a munkafüzetünket, meg kell határoznunk, hogyan szeretnénk a kimenetünket PDF-fájlként menteni.
 
 ```csharp
-// Pdf mentési beállítások megadása
+// Adja meg a Pdf mentési beállításokat
 PdfSaveOptions opts = new PdfSaveOptions();
 ```
 

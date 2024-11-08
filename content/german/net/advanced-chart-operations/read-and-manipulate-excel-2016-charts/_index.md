@@ -101,7 +101,7 @@ Und jetzt beginnt der Spaß! Sie können den Titel jedes Diagramms dynamisch je 
 }
 ```
 
-Durch diesen Schritt wird jedes Diagramm personalisiert und die Datenvisualisierung intuitiver.
+Dieser Schritt personalisiert jedes Diagramm und macht Ihre Datenvisualisierung intuitiver.
 
 ## Schritt 7: Speichern Sie die Arbeitsmappe
 

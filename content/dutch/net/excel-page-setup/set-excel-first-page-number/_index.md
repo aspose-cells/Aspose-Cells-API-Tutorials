@@ -2,7 +2,7 @@
 title: Eerste paginanummer van Excel instellen
 linktitle: Eerste paginanummer van Excel instellen
 second_title: Aspose.Cells voor .NET API-referentie
-description: Ontgrendel het potentieel van Excel met Aspose.Cells voor .NET. Leer hoe u moeiteloos het eerste paginanummer in uw werkbladen instelt in deze uitgebreide handleiding.
+description: Ontgrendel het potentieel van Excel met Aspose.Cells voor .NET. Leer moeiteloos het eerste paginanummer in uw werkbladen in te stellen in deze uitgebreide handleiding.
 type: docs
 weight: 90
 url: /nl/net/excel-page-setup/set-excel-first-page-number/

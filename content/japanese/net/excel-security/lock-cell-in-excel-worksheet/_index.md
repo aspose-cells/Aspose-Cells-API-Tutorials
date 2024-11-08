@@ -41,7 +41,7 @@ using Aspose.Cells;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
-必ず交換してください`"YOUR DOCUMENT DIRECTORY"`実際のパスはコンピュータ上で次のように書き換えられます。`@"C:\MyExcelFiles\"`.
+必ず交換してください`"YOUR DOCUMENT DIRECTORY"`実際のコンピュータ上のパスを入力します。たとえば、`@"C:\MyExcelFiles\"`.
 
 ## ステップ2: ワークブックを読み込む
 

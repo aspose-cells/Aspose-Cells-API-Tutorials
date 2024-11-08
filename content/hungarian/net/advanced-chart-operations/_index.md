@@ -46,7 +46,7 @@ Néha testre kell szabnia a számok formázását a diagramsorozatokban a jobb �
 
 ## Következtetés
 
-A diagram látványelemeinek javításától a diagrampozíciók beállításáig az Aspose.Cells for .NET leegyszerűsíti a fejlett Excel diagramműveleteket. Ha követi ezeket az oktatóanyagokat, fejlesztheti adatvizualizációs készségeit, és Excel diagramjait valóban kiemelheti. Akár 3D-ben formáz, akár sparkline-okkal dolgozik, az Aspose.Cells for .NET zökkenőmentes, könnyed megvalósítást biztosít.
+Az Aspose.Cells for .NET leegyszerűsíti a haladó Excel-diagramműveleteket, a diagram látványelemeinek javításától a diagrampozíciók beállításáig. Ha követi ezeket az oktatóanyagokat, fejlesztheti adatvizualizációs készségeit, és Excel diagramjait valóban kiemelheti. Akár 3D-ben formáz, akár sparkline-okkal dolgozik, az Aspose.Cells for .NET zökkenőmentes, könnyed megvalósítást biztosít.
 
 ## Speciális diagramműveletek oktatóanyagok
 ### [3D formátum alkalmazása a diagramra](./apply-3d-format-to-chart/)

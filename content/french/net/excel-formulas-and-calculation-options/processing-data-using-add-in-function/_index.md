@@ -66,7 +66,7 @@ worksheet.Cells["A2"].PutValue(2);
 worksheet.Cells["A3"].PutValue(3);
 ```
  Dans cette étape, nous saisissons les nombres`1`, `2` , et`3` dans les cellules A1, A2 et A3, respectivement. Considérez ces cellules comme des boîtes qui attendent d'être remplies avec vos trésors de données !
-## Étape 6 : Application d’une formule
+## Étape 6 : Application d'une formule
 Il est maintenant temps de faire travailler nos muscles Excel ! Ajoutons une formule qui calcule la somme des nombres que nous venons de saisir.
 ```csharp
 // Ajout d'une formule SOMME à la cellule « A4 »

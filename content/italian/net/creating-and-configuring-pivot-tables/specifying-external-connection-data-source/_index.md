@@ -81,4 +81,4 @@ Aspose.Cells per .NET è una potente libreria che consente agli sviluppatori di 
 ### Posso usare Aspose.Cells per leggere le tabelle pivot da Excel?  
 Sì! Aspose.Cells offre funzionalità per leggere, modificare e creare tabelle pivot, nonché per interagire con fonti di dati esterne.
 ### Come posso ottenere una licenza temporanea per Aspose.Cells?  
- Puoi richiedere un[licenza temporanea qui](https://purchase.aspose.com/temporary-license/) a fini di valutazione.
+ Puoi fare domanda per un[licenza temporanea qui](https://purchase.aspose.com/temporary-license/) a fini di valutazione.

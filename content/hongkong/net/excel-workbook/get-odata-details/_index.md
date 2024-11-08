@@ -18,7 +18,7 @@ url: /zh-hant/net/excel-workbook/get-odata-details/
 1. Visual Studio：確保已安裝 Visual Studio。它是 .NET 開發的理想環境。
 2. Aspose.Cells 函式庫：從下列位置下載並安裝 .NET 適用的 Aspose.Cells 函式庫：[Aspose下載頁面](https://releases.aspose.com/cells/net/)。您也可以嘗試免費試用版[這裡](https://releases.aspose.com/).
 3. C# 基礎知識：熟悉 C# 程式設計將幫助您更好地理解程式碼的細微差別。
-4. 範例 Excel 檔案：在本教程中，我們將使用名為「ODataSample.xlsx」的 Excel 文件，該文件應儲存在您的工作目錄中。
+4. 範例 Excel 檔案：在本教學中，我們將使用名為「ODataSample.xlsx」的 Excel 文件，該文件應儲存在您的工作目錄中。
 
 準備好這些組件後，您就可以開始輕鬆提取 OData 詳細資訊了！
 
@@ -120,7 +120,7 @@ Aspose.Cells 是一個 .NET 函式庫，可讓開發人員建立、操作和轉�
 是的，您可以從他們的網站下載免費試用版；然而，它也有一些限制。
 
 ### 什麼是 Power Query 公式？
-Power Query 公式允許使用者連接、組合和轉換 Excel 中各種來源的資料。
+Power Query 公式允許使用者連接、合併和轉換 Excel 中各種來源的資料。
 
 ### 我如何獲得 Aspose.Cells 的支援？
 您可以訪問[Aspose論壇](https://forum.aspose.com/c/cells/9)尋求支持和社區幫助。

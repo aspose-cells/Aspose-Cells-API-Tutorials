@@ -103,7 +103,7 @@ Det är här magin händer. Vi ställer in formatkoden för den nyligen tillagda
 Genom att ställa in formatkoden förvandlas de råa siffrorna till något mer läsbart, precis som att använda ett filter för att förbättra ditt foto innan du visar det för världen!
 
 ```csharp
-// Gå till serien och ställ in dess värdeformatkod
+// Öppna serien och ställ in dess värdeformatkod
 Series srs = ch.NSeries[0];
 srs.ValuesFormatCode = "$#,##0"; //Detta ställer in den till valutaformat
 ```

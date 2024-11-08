@@ -32,7 +32,7 @@ using System.IO;
 using Aspose.Cells;
 ```
 
- Ten`Aspose.Cells` biblioteka zapewni wszystkie niezbędne funkcjonalności do manipulowania plikami Excel, podczas gdy`System.IO` umożliwi Ci obsługę strumieni plików.
+ Ten`Aspose.Cells` biblioteka zapewni wszystkie niezbędne funkcjonalności do obsługi plików Excel,`System.IO` umożliwi Ci obsługę strumieni plików.
 
 Przejdźmy teraz do sedna tego samouczka. Podzielimy proces uzyskiwania dostępu do arkusza kalkulacyjnego według jego nazwy na jasne, łatwe do opanowania kroki.
 

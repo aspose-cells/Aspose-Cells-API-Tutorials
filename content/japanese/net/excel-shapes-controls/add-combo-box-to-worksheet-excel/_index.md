@@ -2,7 +2,7 @@
 title: Excel のワークシートにコンボ ボックスを追加する
 linktitle: Excel のワークシートにコンボ ボックスを追加する
 second_title: Aspose.Cells .NET Excel 処理 API
-description: Aspose.Cells for .NET を使用して、プログラムによって Excel ワークシートにコンボ ボックスを追加する方法を学びます。このステップ バイ ステップ ガイドでは、詳細を順を追って説明します。
+description: Aspose.Cells for .NET を使用して、プログラムによって Excel ワークシートにコンボ ボックスを追加する方法を学習します。このステップ バイ ステップ ガイドでは、詳細を順を追って説明します。
 type: docs
 weight: 21
 url: /ja/net/excel-shapes-controls/add-combo-box-to-worksheet-excel/

@@ -9,7 +9,7 @@ url: /pl/net/excel-working-with-named-ranges/
 ---
 ## Wstęp
 
-Nazwane zakresy w programie Excel są jak małe kieszenie mocy. Umożliwiają zarządzanie danymi bardziej efektywnie, nadając komórkom lub grupom komórek określoną nazwę. Dzięki temu formuły są łatwiejsze do zrozumienia i pracy z nimi. W tym artykule zagłębimy się w to, jak Aspose.Cells dla .NET może pomóc Ci wykorzystać pełen potencjał nazwanych zakresów. Niezależnie od tego, czy uzyskujesz dostęp do wszystkich nazwanych zakresów, czy tylko do jednego określonego zakresu, mamy dla Ciebie rozwiązanie.
+Nazwane zakresy w programie Excel są jak małe kieszenie mocy. Umożliwiają zarządzanie danymi bardziej efektywnie, nadając komórkom lub grupom komórek określoną nazwę. Dzięki temu formuły są łatwiejsze do zrozumienia i pracy z nimi. W tym artykule zagłębimy się w to, jak Aspose.Cells dla .NET może pomóc Ci wykorzystać pełny potencjał nazwanych zakresów. Niezależnie od tego, czy uzyskujesz dostęp do wszystkich nazwanych zakresów, czy tylko do jednego określonego zakresu, mamy dla Ciebie rozwiązanie.
 
 ## Dostęp do wszystkich nazwanych zakresów w programie Excel
 

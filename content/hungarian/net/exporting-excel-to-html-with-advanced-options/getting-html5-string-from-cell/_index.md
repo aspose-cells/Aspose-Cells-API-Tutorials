@@ -19,7 +19,7 @@ A kezdéshez importálnia kell a szükséges csomagokat a C# projektbe. Ha még 
 ### Hozzon létre egy új projektet
 1. Nyissa meg a Visual Studio-t.
 2. Kattintson az „Új projekt létrehozása” gombra.
-3. Válassza a „Konzolalkalmazás (.NET Core)” vagy a „Konzolalkalmazás (.NET-keretrendszer)” lehetőséget a preferenciáitól függően.
+3. Válassza a „Konzolalkalmazás (.NET Core)” vagy a „Konzolalkalmazás (.NET-keretrendszer)” lehetőséget, a preferenciáktól függően.
 4. Nevezze el a projektet, és kattintson a "Létrehozás" gombra.
 ### Adja hozzá az Aspose.Cells elemet projektjéhez
 1. Kattintson a jobb gombbal a projektre a Solution Explorerben.

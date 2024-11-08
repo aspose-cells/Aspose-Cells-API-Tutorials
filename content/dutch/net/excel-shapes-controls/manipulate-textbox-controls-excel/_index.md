@@ -44,7 +44,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 ```
  De`Worksheets` eigenschap geeft u toegang tot alle werkbladen in de werkmap. Hier zijn we alleen geïnteresseerd in het eerste werkblad, maar u kunt met elk werkblad werken door de juiste index op te geven.
 ## Stap 4: Het eerste tekstvakobject ophalen
-Tekstvakken in een Excel-blad worden beschouwd als tekenobjecten. De klasse Aspose.Cells.Drawing.TextBox biedt eigenschappen en methoden om ze te manipuleren. Om toegang te krijgen tot het eerste tekstvak op het werkblad, verwijst u eenvoudig naar de`TextBoxes` verzameling per index.
+Tekstvakken in een Excel-sheet worden beschouwd als tekenobjecten. De klasse Aspose.Cells.Drawing.TextBox biedt eigenschappen en methoden om ze te manipuleren. Om toegang te krijgen tot het eerste tekstvak op het werkblad, verwijst u eenvoudig naar de`TextBoxes` verzameling per index.
 ```csharp
 Aspose.Cells.Drawing.TextBox textbox0 = worksheet.TextBoxes[0];
 ```

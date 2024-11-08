@@ -32,7 +32,7 @@ Először is meg kell adnia a dokumentumok könyvtárait. Ez a rész olyan, mint
 // Kimeneti könyvtár
 string outputDir = "Your Document Directory";
 ```
- Ügyeljen arra, hogy cserélje ki`"Your Document Directory"` a könyvtárak tényleges elérési útjával.
+ Mindenképpen cserélje ki`"Your Document Directory"` a könyvtárak tényleges elérési útjával.
 ## 2. lépés: Hozza létre a DataTable-t
  Ezután létrehozunk egy`DataTable` amely tartalmazza a képletadatainkat. Ez a dinamikus táblázatunk szíve – gondoljon rá úgy, mint az autót hajtó motorra! Azt akarod, hogy hatékony legyen. A következőképpen hozhatja létre és töltheti fel:
 ```csharp

@@ -60,7 +60,7 @@ Picture pic = workbook.Worksheets[0].Shapes.AddPicture(0, 3, 10, 6, null);
 ## 4. lépés: Adja meg a képreferencia képletét
 Kapcsoljuk össze a képünket a korábban kitöltött cellákkal.
 ```csharp
-// Adja meg a képletet, amely a cellák forrástartományára hivatkozik
+// Adja meg azt a képletet, amely a cellák forrástartományára hivatkozik
 pic.Formula = "A1:C10";
 ```
 
@@ -74,7 +74,7 @@ workbook.Worksheets[0].Shapes.UpdateSelectedValue();
 
 - Ez a lépés biztosítja, hogy az Excel felismerje a kép alakzatára vonatkozó frissítéseinket és a cellákra való hivatkozásokat.
 ## 6. lépés: Mentse el az Excel fájlt
-Végül mentsük a munkafüzetünket a kijelölt könyvtárba:
+Végül mentsük el a munkafüzetünket a kijelölt könyvtárba:
 ```csharp
 // Mentse el az Excel fájlt.
 workbook.Save(dataDir + "output.out.xls");

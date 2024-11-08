@@ -71,7 +71,7 @@ fstream.Close();
 Zavřením datového proudu souborů zajistíte uvolnění paměti a čisté dokončení procesu.
 ## Závěr
 A tady to máte! S Aspose.Cells for .NET je odstranění sloupce v souboru aplikace Excel jednoduché a efektivní. Tento přístup je užitečný zejména při programové manipulaci se soubory, což vám umožní zefektivnit zpracování dat a udržet vaše soubory Excel organizované. 
-Tak proč to nezkusit? Pomocí zde popsaných kroků jste dobře vybaveni k odstraňování sloupců a provádění dalších úprav souborů aplikace Excel, to vše pomocí několika řádků kódu!
+Tak proč to nezkusit? Pomocí zde popsaných kroků jste dobře vybaveni k odstraňování sloupců a provádění dalších úprav souborů aplikace Excel, a to vše pomocí několika řádků kódu!
 ## FAQ
 ### Mohu pomocí Aspose.Cells odstranit více sloupců najednou?  
  Ano, můžete procházet sloupce, které chcete odstranit, a volat`DeleteColumn()` metoda na každém z nich.

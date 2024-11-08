@@ -27,7 +27,7 @@ using System.IO;
 using Aspose.Cells;
 using System;
 ```
-這些語句應該位於 C# 檔案的最頂端。匯入這些函式庫可讓您存取 Aspose.Cells 提供的類別和方法。
+這些語句應該位於 C# 檔案的最頂端。匯入這些程式庫可讓您存取 Aspose.Cells 提供的類別和方法。
 
 讓我們將這個過程分解為可管理的步驟：
 ## 第 1 步：設定文檔目錄

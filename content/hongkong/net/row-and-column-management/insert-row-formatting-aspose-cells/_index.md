@@ -88,7 +88,7 @@ fstream.Close();
 現在你就擁有了！您剛剛學習如何使用 Aspose.Cells for .NET 在 Excel 檔案中插入帶有格式的行。此方法不僅可以讓您保持電子表格的美觀，還可以透過自動執行重複任務來提高您的工作效率。下次當您需要修改 Excel 工作表時，請記住這些步驟，您將有能力像專業人士一樣處理它！
 ## 常見問題解答
 ### 什麼是 Aspose.Cells for .NET？
-Aspose.Cells for .NET 是一個功能強大的程式庫，可讓開發人員在 .NET 應用程式中建立、操作和轉換 Excel 文件，而無需安裝 Microsoft Excel。
+Aspose.Cells for .NET 是一個功能強大的程式庫，可讓開發人員在.NET 應用程式中建立、操作和轉換 Excel 文件，而無需安裝 Microsoft Excel。
 ### 我可以一次插入多行嗎？
 是的！您可以修改`InsertRows`方法透過將第二個參數變更為要插入的所需行數來插入多行。
 ### 是否需要關閉文件流？

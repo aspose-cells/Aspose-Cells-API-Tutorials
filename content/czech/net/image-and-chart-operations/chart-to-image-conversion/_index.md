@@ -60,7 +60,7 @@ int sheetIndex = workbook.Worksheets.Add();
 // Načtěte nově přidaný list
 Worksheet worksheet = workbook.Worksheets[sheetIndex];
 ```
-## Krok 4: Naplňte list daty
+## Krok 4: Vyplňte list daty
 Abychom vytvořili smysluplný graf, potřebujeme nějaká data, že? Vyplňte několik buněk vzorovými hodnotami.
 
 Doplníme data do konkrétních buněk na listu. Tato data budou později použita k vytvoření našeho grafu.

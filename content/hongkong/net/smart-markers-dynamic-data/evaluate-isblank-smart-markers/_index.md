@@ -34,7 +34,7 @@ using System.Data;
 string sourceDir = "Your Document Directory"; //將其更改為您的實際路徑
 string outputDir = "Your Document Directory"; //也改變這個
 ```
-在此步驟中，替換`"Your Document Directory"`與範例檔案所在的實際目錄路徑。這很重要，因為程式將引用這些位置來讀取和寫入檔案。
+在此步驟中，替換`"Your Document Directory"`與範例檔案所在的實際目錄路徑。這是至關重要的，因為程式將引用這些位置來讀取和寫入檔案。
 ## 第 2 步：初始化 DataSet 對象
 我們需要讀取 XML 資料作為智慧標記的輸入。
 ```csharp
@@ -90,13 +90,13 @@ designer.SetDataSource(ds1.Tables["comparison"]);
 designer.Process();
 ```
 透過這個簡單的調用`Process()`，我們工作簿中的智慧標記將填充來自我們的相應數據`DataSet`，包括按要求進行的空評估。
-## 第 8 步：儲存結果工作簿
+## 步驟 8：儲存結果工作簿
 最後，是時候儲存我們新填入的工作簿了。 
 ```csharp
 //儲存產生的工作簿
 workbook.Save(outputDir + @"outputSampleIsBlank.xlsx");
 ```
-處理完成後，我們將工作簿儲存到指定的輸出目錄。確保更新`"outputSampleIsBlank.xlsx"`到您選擇的名稱。
+處理後，我們將工作簿儲存到指定的輸出目錄。確保更新`"outputSampleIsBlank.xlsx"`到您選擇的名稱。
 ## 結論
 現在你就擁有了！您已成功解決了使用 Aspose.Cells for .NET 的智慧標記評估某個值是否為空的問題。此技術不僅使您的 Excel 文件變得智能，還使您處理資料的方式自動化。請隨意使用這些範例並根據您的需求進行客製化。如果您有任何疑問或想提升自己的技能，請隨時與我們聯繫！
 ## 常見問題解答

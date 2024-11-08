@@ -26,7 +26,7 @@ using System.IO;
 using Aspose.Cells;
 using System;
 ```
-Ez az egyetlen importálás hozza az összes szükséges osztályt és metódust, amelyre az Aspose.Cells-szel dolgozni kell.
+Ez az egyetlen importálás minden szükséges osztályt és metódust tartalmaz, amelyekre az Aspose.Cells-szel dolgozni kell.
 ## 1. lépés: Állítsa be a dokumentumkönyvtár elérési útját
 Az első lépés a dokumentumkönyvtár elérési útjának beállítása. Itt lesz a CSV-fájlod. Ez olyan, mintha útbaigazítást adna egy barátjának, aki meglátogatja!
 ```csharp

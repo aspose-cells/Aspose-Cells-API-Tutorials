@@ -25,7 +25,7 @@ Heb je ooit een PDF geëxporteerd en staarde je naar een lege pagina? Frustreren
 
 ## Navigeren door bladwijzers van grafiekbladen
 
- Als u met uitgebreide datasets en grafiekbladen werkt, vindt u de tutorial op[Maak een PDF-bladwijzer voor een grafiekblad in Aspose.Cellen](./create-pdf-bookmark-entry-for-chart-sheet/) bijzonder nuttig. Deze gids leert u hoe u bladwijzers kunt maken, niet alleen voor standaardwerkbladen, maar ook voor grafiekbladen. Het is alsof u uw kijkers een interactieve rondleiding geeft door uw datavisualisatie: ze kunnen direct naar de inzichten springen die ze belangrijk vinden. Beschouw bladwijzers als wegwijzers: ze leiden uw publiek precies waar ze moeten zijn, besparen hen tijd en vergroten de betrokkenheid bij uw documenten.
+ Als u met uitgebreide datasets en grafiekbladen werkt, vindt u de tutorial op[Maak een PDF-bladwijzer voor een grafiekblad in Aspose.Cellen](./create-pdf-bookmark-entry-for-chart-sheet/) bijzonder nuttig. Deze gids leert u hoe u bladwijzers kunt maken, niet alleen voor standaardwerkbladen, maar ook voor grafiekbladen. Het is alsof u uw kijkers een interactieve rondleiding geeft door uw datavisualisatie: ze kunnen direct naar de inzichten springen die ze belangrijk vinden. Beschouw bladwijzers als wegwijzers: ze leiden uw publiek precies naar waar ze moeten zijn, besparen hen tijd en vergroten de betrokkenheid bij uw documenten.
 
 ## Omgaan met lege toestanden
 
@@ -35,7 +35,7 @@ Heb je ooit een PDF geëxporteerd en staarde je naar een lege pagina? Frustreren
 
 Als het op rendering aankomt, is specificiteit de sleutel.[Sequentiële pagina's renderen in Aspose.Cells](./render-limited-number-of-sequential-pages/) gids leert u hoe u alleen geselecteerde pagina's naar afbeeldingen kunt converteren. Dit is perfect voor scenario's waarin u delen van een werkmap moet extraheren zonder alles te converteren. Stel u voor dat u alleen pagina 2 en 5 van een rapport van 10 pagina's nodig hebt; deze tutorial laat u zien hoe eenvoudig dat kan zijn! Dit voorkomt documentopzwellen en richt zich op het tonen van wat echt nodig is, waardoor uw presentaties effectiever worden.
 
-## Tutorials voor rendering en export
+## Rendering- en exporttutorials
 ### [PDF-bladwijzers met benoemde bestemmingen toevoegen in Aspose.Cells](./add-pdf-bookmarks/)
 Leer hoe u interactieve PDF's met bladwijzers maakt met Aspose.Cells voor .NET. Deze stapsgewijze handleiding maakt het gemakkelijk.
 ### [Vermijd lege pagina's in de uitvoer-PDF in Aspose.Cells](./avoid-blank-page-in-output-pdf/)

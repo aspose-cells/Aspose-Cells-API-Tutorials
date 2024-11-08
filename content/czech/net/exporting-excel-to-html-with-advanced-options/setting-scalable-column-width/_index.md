@@ -12,7 +12,7 @@ Excel je úžasný nástroj, který pomáhá zjednodušit správu dat, analýzu 
 ## Předpoklady
 Než se pustíme do kódování, je potřeba nastavit pár věcí. Berte to jako shromáždění nástrojů před zahájením projektu DIY. Zde je to, co budete potřebovat:
 1. Visual Studio: Ujistěte se, že máte na svém počítači nainstalované Visual Studio. Je to primární prostředí, které budeme používat pro naše aplikace .NET.
-2.  Knihovna Aspose.Cells: Musíte mít nainstalovanou Aspose.Cells for .NET. To lze stáhnout z[Aspose Releases](https://releases.aspose.com/cells/net/) strana. 
+2.  Knihovna Aspose.Cells: Musíte mít nainstalovanou Aspose.Cells for .NET. Toto lze stáhnout z[Aspose Releases](https://releases.aspose.com/cells/net/) strana. 
 3. Základní znalost C#: Znalost programování v C# bude prospěšná, protože budeme psát náš kód v tomto jazyce. Pokud jste začátečník, nezoufejte. Věci si vysvětlíme za pochodu.
 4.  Soubor Excel: Pro testování se ujistěte, že máte soubor Excel (řekněme`sampleForScalableColumns.xlsx`) připraven. Toto bude soubor, který upravíme.
 Nyní, když jste připraveni, pojďme si proces rozebrat krok za krokem.

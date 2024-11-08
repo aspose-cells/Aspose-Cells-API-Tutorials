@@ -24,7 +24,7 @@ using System.IO;
 using Aspose.Cells;
 ```
 Una volta definiti questi namespace, siamo pronti per andare avanti.
-In questa sezione, suddivideremo ogni parte dell'esempio in passaggi chiari e facili da seguire. Seguitemi e alla fine avrete una solida padronanza di come applicare i colori del tema alle celle di Excel.
+In questa sezione, suddivideremo ogni parte dell'esempio in passaggi chiari e facili da seguire. Seguitemi e alla fine avrete una solida comprensione di come applicare i colori del tema alle celle di Excel.
 ## Passaggio 1: impostare la cartella di lavoro e il foglio di lavoro
 Per iniziare, devi prima impostare la tua cartella di lavoro e il tuo foglio di lavoro. Pensa alla cartella di lavoro come al tuo intero file Excel, mentre il foglio di lavoro è una pagina o una scheda all'interno di quel file.
 -  Inizia creando una nuova istanza di`Workbook` classe, che rappresenta un file Excel in Aspose.Cells.

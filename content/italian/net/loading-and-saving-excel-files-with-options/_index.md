@@ -13,7 +13,7 @@ Quando si tratta di gestire file Excel nelle applicazioni .NET, avere le giuste 
 
 ## Adattamento automatico di colonne e righe
 
-Cominciamo con un mal di testa comune: l'adattamento automatico di colonne e righe. Se hai mai caricato HTML in un file Excel e ti sei trovato a lottare con celle di dimensioni scomode, apprezzerai questa guida pratica. Il tutorial su[Adattamento automatico di colonne e righe durante il caricamento di HTML nella cartella di lavoro](./auto-fitting-columns-and-rows/) ti guida attraverso il processo senza soluzione di continuità. Immagina di adattare senza sforzo le tue colonne e righe per adattarle perfettamente al tuo contenuto, proprio come un sarto che taglia e cuce per creare un abito impeccabile. Questo tutorial assicurerà che i tuoi file Excel non solo funzionino bene, ma abbiano anche un aspetto professionale e ordinato.
+Cominciamo con un mal di testa comune: l'adattamento automatico di colonne e righe. Se hai mai caricato HTML in un file Excel e ti sei trovato a lottare con celle di dimensioni scomode, apprezzerai questa guida pratica. Il tutorial su[Adattamento automatico di colonne e righe durante il caricamento di HTML nella cartella di lavoro](./auto-fitting-columns-and-rows/) ti guida attraverso il processo senza soluzione di continuità. Immagina di adattare senza sforzo le tue colonne e righe per adattarle perfettamente al tuo contenuto, proprio come un sarto che taglia e cuce per creare un vestito impeccabile. Questo tutorial assicurerà che i tuoi file Excel non solo funzionino bene, ma abbiano anche un aspetto professionale e ordinato.
 
 ## Disabilitazione dei commenti su Salva in HTML
 

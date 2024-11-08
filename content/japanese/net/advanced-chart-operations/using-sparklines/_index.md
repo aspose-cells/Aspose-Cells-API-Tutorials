@@ -2,7 +2,7 @@
 title: スパークラインの使用
 linktitle: スパークラインの使用
 second_title: Aspose.Cells .NET Excel 処理 API
-description: Aspose.Cells for .NET を使用して、Excel でスパークラインを効果的に使用する方法を学習します。スムーズなエクスペリエンスのために、ステップ バイ ステップ ガイドが含まれています。
+description: Aspose.Cells for .NET を使用して Excel でスパークラインを効果的に使用する方法を学習します。スムーズなエクスペリエンスのためにステップ バイ ステップ ガイドが含まれています。
 type: docs
 weight: 18
 url: /ja/net/advanced-chart-operations/using-sparklines/

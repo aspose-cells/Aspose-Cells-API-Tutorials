@@ -8,7 +8,7 @@ weight: 11
 url: /de/net/loading-and-saving-excel-files-with-options/disabling-downlevel-revealed-comments/
 ---
 ## Einführung
-Mussten Sie schon einmal eine Excel-Arbeitsmappe in HTML konvertieren und wollten sicherstellen, dass während des Vorgangs keine unnötigen Kommentare oder versteckten Inhalte angezeigt werden? Hier ist das Deaktivieren von Downlevel-Kommentaren hilfreich. Wenn Sie Aspose.Cells für .NET verwenden, haben Sie die volle Kontrolle darüber, wie Ihre Excel-Arbeitsmappen als HTML-Dateien gerendert werden. In diesem Tutorial führen wir Sie durch eine einfache Schritt-für-Schritt-Anleitung, die Ihnen hilft, Downlevel-Kommentare zu deaktivieren, während Sie eine Arbeitsmappe in HTML speichern. 
+Mussten Sie schon einmal eine Excel-Arbeitsmappe in HTML konvertieren und wollten sicherstellen, dass während des Vorgangs keine unnötigen Kommentare oder versteckten Inhalte angezeigt werden? Hier ist es praktisch, die Anzeige von Kommentaren auf niedrigerer Ebene zu deaktivieren. Wenn Sie Aspose.Cells für .NET verwenden, haben Sie die volle Kontrolle darüber, wie Ihre Excel-Arbeitsmappen als HTML-Dateien gerendert werden. In diesem Tutorial führen wir Sie durch eine einfache Schritt-für-Schritt-Anleitung, die Ihnen hilft, die Anzeige von Kommentaren auf niedrigerer Ebene zu deaktivieren, während Sie eine Arbeitsmappe in HTML speichern. 
 Am Ende dieses Artikels haben Sie ein klares Verständnis für die Verwendung dieser Funktion und können sicherstellen, dass Ihre HTML-Ausgabe sauber und kommentarfrei ist.
 ## Voraussetzungen
 Bevor wir uns in die Schritt-für-Schritt-Anleitung vertiefen, wollen wir ein paar Dinge besprechen, die Sie vorbereitet haben müssen, um reibungslos vorgehen zu können:

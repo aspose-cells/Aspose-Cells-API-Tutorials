@@ -19,7 +19,7 @@ Innan du dyker in i stegen, se till att du har några saker redo:
    
 2.  Aspose.Cells för .NET: Du måste ha Aspose.Cells för .NET installerat. Du kan ladda ner den från[här](https://releases.aspose.com/cells/net/).
 
-3.  Exempel på Excel-fil: Skaffa ett exempel på en Excel-fil som innehåller diagram. För den här handledningen kommer vi att använda en fil med namnet`sampleFindTypeOfXandYValuesOfPointsInChartSeries.xlsx`Se till att det finns i din projektkatalog.
+3.  Exempel på Excel-fil: Skaffa ett exempel på en Excel-fil som innehåller diagram. För den här handledningen kommer vi att använda en fil med namnet`sampleFindTypeOfXandYValuesOfPointsInChartSeries.xlsx`. Se till att det finns i din projektkatalog.
 
 4. Grundläggande programmeringskunskaper: Kännedom om C#-programmering hjälper dig att enkelt följa med.
 
@@ -60,7 +60,7 @@ string sourceDir = "Your Document Directory";
 
 ## Steg 2: Ladda arbetsboken
 
- Ladda sedan in Excel-filen i en`Workbook`objekt. Detta ger dig tillgång till allt innehåll i filen.
+ Ladda sedan in Excel-filen i en`Workbook` objekt. Detta ger dig tillgång till allt innehåll i filen.
 
 ```csharp
 Workbook wb = new Workbook(sourceDir + "sampleFindTypeOfXandYValuesOfPointsInChartSeries.xlsx");

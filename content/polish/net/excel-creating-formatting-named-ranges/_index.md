@@ -13,7 +13,7 @@ Niniejszy artykuł służy jako przewodnik po samouczkach Aspose.Cells dla .NET,
 
 ## Tworzenie zakresów nazwanych w programie Excel
 
-Zacznijmy od nazwanych zakresów. Jeśli kiedykolwiek czułeś się przytłoczony niekończącymi się wierszami i kolumnami w programie Excel, nie jesteś sam! Nazwane zakresy są tutaj, aby uratować dzień. Pomyśl o nich jako o swoich osobistych drogowskazach w dżungli danych programu Excel, które poprowadzą Cię do potrzebnych informacji bez grzebania w adresach komórek. Dzięki Aspose.Cells dla .NET tworzenie nazwanego zakresu jest proste i niezwykle korzystne dla zarządzania danymi.
+Zacznijmy od nazwanych zakresów. Jeśli kiedykolwiek czułeś się przytłoczony niekończącymi się wierszami i kolumnami w programie Excel, nie jesteś sam! Nazwane zakresy są tutaj, aby uratować dzień. Pomyśl o nich jako o osobistych drogowskazach w dżungli danych programu Excel, które poprowadzą Cię do potrzebnych informacji bez grzebania w adresach komórek. Dzięki Aspose.Cells dla .NET tworzenie nazwanego zakresu jest proste i niezwykle korzystne dla zarządzania danymi.
 
 Gotowy, aby zacząć? Najpierw musisz zintegrować Aspose.Cells ze swoim projektem .NET. Po dodaniu możesz nazwać konkretny zestaw komórek — być może dane sprzedaży lub ważne wskaźniki — dzięki czemu łatwiej będzie się do nich odwoływać. Zamiast pisać coś takiego jak „B2:B20” w swoich formułach, możesz po prostu użyć „SalesData”. To jak przejście z telefonu z klapką na smartfon: znacznie ułatwiasz sobie życie! 
 

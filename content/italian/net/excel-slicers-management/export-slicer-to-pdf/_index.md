@@ -29,7 +29,7 @@ Prima le cose importanti! Devi impostare le directory in cui si trova il tuo fil
 ```csharp
 //Elenco di origine
 string sourceDir = "Your Document Directory";
-//Directory di uscita
+//Directory di output
 string outputDir = "Your Document Directory";
 ```
  Sostituire`"Your Document Directory"` con il percorso effettivo in cui è archiviato il tuo file Excel. Questo rende facile per il programma trovare il tuo file.

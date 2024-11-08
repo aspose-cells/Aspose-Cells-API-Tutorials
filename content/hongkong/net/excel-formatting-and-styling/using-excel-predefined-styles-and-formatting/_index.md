@@ -8,7 +8,7 @@ weight: 11
 url: /zh-hant/net/excel-formatting-and-styling/using-excel-predefined-styles-and-formatting/
 ---
 ## 介紹
-在本文中，我們將探討如何透過 Aspose.Cells for .NET 函式庫使用 Excel 的預設樣式和格式。我們將逐步完成每個步驟，並將其分解為易於理解的部分，確保您可以按照步驟進行操作，而不會感到不知所措。準備好提升您的 Excel 工作表樣式了嗎？讓我們深入了解吧！
+在本文中，我們將探討如何透過 Aspose.Cells for .NET 函式庫使用 Excel 的預設樣式和格式。我們將逐步完成每個步驟，並將其分解為易於理解的部分，確保您可以按照步驟進行操作，而不會感到不知所措。準備好提升您的 Excel 工作表樣式了嗎？讓我們深入了解一下吧！
 ## 先決條件
 在我們開始編碼魔法之前，讓我們確保您已完成一切設置，以使您的旅程順利進行。
 ### 對 C# 的基本了解

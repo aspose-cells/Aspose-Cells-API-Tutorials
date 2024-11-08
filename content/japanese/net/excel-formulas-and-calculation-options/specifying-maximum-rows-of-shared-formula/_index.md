@@ -46,7 +46,7 @@ string outputDir = "Your Document Directory"; //これを希望のパスに変�
 ```csharp
 Workbook wb = new Workbook();
 ```
-ワークブック インスタンスは、データの描画を開始できる空のキャンバスと考えてください。
+Workbook インスタンスは、データの描画を開始できる空のキャンバスと考えてください。
 ## ステップ3: 共有数式の最大行数を設定する
 ここで興味深い部分が登場します。プロパティを設定することで、共有される数式の最大行数を指定できます。
 ```csharp
@@ -92,7 +92,7 @@ Console.WriteLine("SpecifyMaximumRowsOfSharedFormula executed successfully.");
 ### セルごとに異なる数式を指定できますか?
 はい、セルごとに異なる数式を設定できますが、共有数式を使用するとファイル サイズと処理時間を最適化できます。
 ### Aspose.Cells は無料で使用できますか?
- Aspose.Cellsは無料トライアルを提供していますが、継続して使用するにはライセンスを購入する必要があります。詳細については、[ここで購入する](https://purchase.aspose.com/buy).
+ Aspose.Cellsは無料トライアルを提供していますが、継続して使用するにはライセンスを購入する必要があります。[ここで購入する](https://purchase.aspose.com/buy).
 ### Aspose.Cells を使用する利点は何ですか?
 Aspose.Cells を使用すると、Microsoft Excel をインストールしなくても、ファイルの作成、変更、変換など、Excel ファイルをシームレスに操作できます。
 ### Aspose.Cells の詳細なドキュメントはどこで入手できますか?

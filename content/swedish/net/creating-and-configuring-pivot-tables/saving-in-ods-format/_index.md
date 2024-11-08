@@ -81,7 +81,7 @@ På dessa rader definierar vi rubrikerna och fyller i försäljningsdata. Tänk 
 Nu kommer det roliga – att skapa pivottabellen! Så här lägger du till det i ditt arbetsblad:
 ```csharp
 PivotTableCollection pivotTables = sheet.PivotTables;
-// Lägga till en pivottabell i kalkylbladet
+// Lägga till en pivottabell till kalkylbladet
 int index = pivotTables.Add("=A1:C8", "E3", "PivotTable2");
 ```
  I det här utdraget anger vi dataintervallet för pivottabellen och var den ska placeras i kalkylbladet. Dataintervallet`=A1:C8` täcker det område där vår data finns.

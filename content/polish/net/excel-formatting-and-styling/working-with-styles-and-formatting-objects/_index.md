@@ -113,7 +113,7 @@ cell.PutValue("Hello Aspose!");
 
 ## Krok 6: Tworzenie stylu
 
- To jest ta zabawna część — sprawienie, aby Twoja treść była wizualnie atrakcyjna! Aby rozpocząć stylizowanie komórki, musisz utworzyć`Style` obiekt.
+ To jest ta fajna część — sprawienie, aby Twoja treść była wizualnie atrakcyjna! Aby rozpocząć stylizowanie komórki, musisz utworzyć`Style` obiekt.
 
 ```csharp
 // Dodawanie nowego stylu

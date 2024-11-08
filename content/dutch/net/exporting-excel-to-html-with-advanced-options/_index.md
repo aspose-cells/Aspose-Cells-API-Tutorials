@@ -33,7 +33,7 @@ Last but not least, laten we het hebben over het instellen van schaalbare kolomb
 
 ## CSS-beheer voor verbeterd ontwerp
 
- En laten we de kracht van CSS niet vergeten. Begrijpen hoe je werkblad-CSS apart in de uitvoer-HTML kunt exporteren, kan letterlijk de manier veranderen waarop je gegevens worden waargenomen. Deze functie geeft je volledige controle over je ontwerp zonder dat dit in conflict komt met de Excel-opmaak. Zo kun je visueel aantrekkelijke webpagina's maken die nog steeds lasergericht zijn op je gegevens. Wil je hier dieper op ingaan?[Ontdek hier meer](./exporting-worksheet-css-separately/).
+ En laten we de kracht van CSS niet vergeten. Begrijpen hoe je werkblad-CSS apart kunt exporteren in de uitvoer-HTML kan letterlijk de manier veranderen waarop je gegevens worden waargenomen. Deze functie geeft je volledige controle over je ontwerp zonder dat dit in conflict komt met de Excel-opmaak. Zo kun je visueel aantrekkelijke webpagina's maken die nog steeds lasergericht zijn op je gegevens. Wil je hier dieper op ingaan?[Ontdek hier meer](./exporting-worksheet-css-separately/).
 
 ## Programmatisch afdrukken van koppen
 
@@ -62,7 +62,7 @@ Leer hoe u een specifiek afdrukgebied vanuit Excel naar HTML exporteert met Aspo
 ### [Vergelijkbare randstijlen programmatisch exporteren in Excel](./exporting-similar-border-style/)
 Leer hoe u vergelijkbare randstijlen programmatisch in Excel kunt exporteren met Aspose.Cells voor .NET met deze eenvoudige stapsgewijze handleiding.
 ### [Werkblad-CSS afzonderlijk exporteren in uitvoer-HTML](./exporting-worksheet-css-separately/)
-Leer in deze uitgebreide stapsgewijze zelfstudie hoe u Excel-werkbladen effectief naar HTML kunt exporteren met afzonderlijke CSS met behulp van Aspose.Cells voor .NET.
+Leer hoe u Excel-werkbladen effectief naar HTML kunt exporteren met afzonderlijke CSS met behulp van Aspose.Cells voor .NET in deze uitgebreide stapsgewijze zelfstudie.
 ### [HTML5-tekenreeks programmatisch uit cel in Excel halen](./getting-html5-string-from-cell/)
 Leer hoe u HTML5-tekenreeksen programmatisch uit Excel-cellen kunt ophalen met Aspose.Cells voor .NET in deze gedetailleerde, stapsgewijze handleiding.
 ### [Overlappende inhoud verbergen met Cross Hide Right tijdens het opslaan naar HTML](./hiding-overlaid-content-with-cross-hide-right/)

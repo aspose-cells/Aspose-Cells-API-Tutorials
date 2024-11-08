@@ -9,7 +9,7 @@ url: /zh-hant/net/excel-shapes-controls/add-button-to-worksheet-excel/
 ---
 ## 介紹
 Excel 電子表格用途廣泛，通常用於管理數據，但有時它們需要額外的互動性。增強使用者體驗的最佳方法之一是為工作表新增按鈕。這些按鈕可以觸發巨集或將使用者導航到有用的連結。如果您是使用 Excel 檔案的 .NET 開發人員，Aspose.Cells for .NET 提供了一種以程式設計方式操作 Excel 工作簿的簡單方法，包括新增按鈕。
-在本教學中，我們將引導您完成使用 Aspose.Cells for .NET 在 Excel 中的工作表中新增按鈕的過程。我們將介紹從設定先決條件到逐步說明的所有細節。讓我們深入了解吧！
+在本教學中，我們將引導您完成使用 Aspose.Cells for .NET 在 Excel 中的工作表中新增按鈕的過程。我們將介紹從設定先決條件到逐步說明的所有細節。讓我們深入了解一下吧！
 ## 先決條件
 在學習本教學之前，請確保已安裝以下工具和軟體包：
 -  Aspose.Cells for .NET Library：您可以從以下位置下載它[這裡](https://releases.aspose.com/cells/net/).

@@ -33,7 +33,7 @@ Az Aspose.Cells funkcióinak teljes feloldásához a legjobb, ha licencet szerez
 
 - [Vásároljon licencet](https://purchase.aspose.com/buy) vagy[Kérjen ideiglenes engedélyt](https://purchase.aspose.com/temporary-license/)
 
-A könyvtár licenc nélküli használata vízjeleket alkalmaz a kimeneti fájlokon, ezért győződjön meg róla, hogy a licenc készen áll!
+A könyvtár licenc nélküli használata vízjeleket alkalmaz a kimeneti fájlokon, ezért ügyeljen arra, hogy a licenc készen álljon!
 
 ### Állítsa be fejlesztői környezetét
 Győződjön meg arról, hogy a következők vannak telepítve:

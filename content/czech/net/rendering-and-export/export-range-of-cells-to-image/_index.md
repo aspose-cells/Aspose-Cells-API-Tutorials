@@ -50,7 +50,7 @@ Jakmile máme náš sešit, potřebujeme získat přístup k listu obsahujícím
 // Otevřete první pracovní list
 Worksheet worksheet = workbook.Worksheets[0];
 ```
- The`Worksheets` kolekce je indexovaná 0, což znamená, že`Worksheets[0]` nám dává první list. Pokud chcete jiný list, můžete index upravit.
+ The`Worksheets` kolekce je indexovaná 0, což znamená`Worksheets[0]` nám dává první list. Pokud chcete jiný list, můžete index upravit.
 ## Krok 4: Nastavte oblast tisku
 Dále musíme definovat oblast, kterou chceme exportovat jako obrázek. To se provádí nastavením oblasti tisku na listu.
 ```csharp

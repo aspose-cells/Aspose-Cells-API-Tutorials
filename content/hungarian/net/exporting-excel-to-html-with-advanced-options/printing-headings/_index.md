@@ -30,7 +30,7 @@ string sourceDir = "Your Document Directory";
 // Kimeneti könyvtár
 string outputDir = "Your Document Directory";
 ```
- Ügyeljen arra, hogy cserélje ki`"Your Document Directory"` azzal a tényleges elérési úttal a számítógépen, ahol az Excel-dokumentum és a kimeneti HTML található.
+ Mindenképpen cserélje ki`"Your Document Directory"` azzal a tényleges elérési úttal a számítógépen, ahol az Excel-dokumentum és a kimeneti HTML található.
 ## 2. lépés: Töltse be a mintaforrásfájlt
 Ezután töltsük be az Excel munkafüzetet. Ez a kódrészlet megragadja a munkafüzetet a kijelölt beviteli könyvtárból. Tekintsd úgy, mintha kinyitnál egy könyvet, hogy megtaláld kedvenc fejezetedet:
 ```csharp

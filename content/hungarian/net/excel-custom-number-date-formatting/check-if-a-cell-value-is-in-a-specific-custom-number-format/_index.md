@@ -126,7 +126,7 @@ Az Aspose.Cells for .NET képességeinek felfedezése sokoldalú eszközkészlet
 ## GYIK
 
 ### Mi az Aspose.Cells?
-Az Aspose.Cells egy .NET-könyvtár, amelyet Excel-fájlok létrehozására, manipulálására és konvertálására terveztek Microsoft Excel telepítése nélkül.
+Az Aspose.Cells egy .NET-könyvtár, amelyet Excel-fájlok létrehozására, manipulálására és konvertálására terveztek anélkül, hogy a Microsoft Excel telepítése szükségessé válna.
 
 ### Kipróbálhatom az Aspose.Cells-t ingyen?
  Igen, letöltheti az Aspose.Cells ingyenes próbaverzióját[itt](https://releases.aspose.com/).

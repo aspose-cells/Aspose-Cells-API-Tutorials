@@ -55,7 +55,7 @@ Workbook wb = new Workbook(sourceDir + "sampleSmartArtShape.xlsx");
 ```
  De`Workbook` class is in wezen een representatie van uw Excel-bestand in code. Hier maken we een instantie van`Workbook` en het pad naar ons Excel-bestand doorgeven, zodat het verwerkt kan worden.
 ## Stap 3: Toegang tot het werkblad
-Nadat u de werkmap hebt geladen, moet u het specifieke werkblad openen dat de vorm bevat.
+Nadat u de werkmap hebt geladen, moeten we toegang krijgen tot het specifieke werkblad met de vorm.
 ```csharp
 // Toegang tot eerste werkblad
 Worksheet ws = wb.Worksheets[0];

@@ -152,7 +152,7 @@ Akár adatjelentéseket, akár pénzügyi kimutatásokat készít, az Aspose.Cel
 Az Aspose.Cells egy hatékony .NET-könyvtár, amely lehetővé teszi a fejlesztők számára Excel-fájlok programozott létrehozását, kezelését és konvertálását.
 
 ### Formázhatok más típusú cellákat?  
-Igen! Különféle stílusokat, formátumokat, sőt képleteket is alkalmazhat a munkalapok bármelyik cellájára.
+Igen! Különféle stílusokat, formátumokat, sőt képleteket is alkalmazhat a munkalapok bármely cellájára.
 
 ### Van ingyenes próbaverzió?  
  Teljesen! Megnézheti az ingyenes próbaverziót[itt](https://releases.aspose.com/).

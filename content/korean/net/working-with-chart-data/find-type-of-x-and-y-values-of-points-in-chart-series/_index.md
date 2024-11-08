@@ -60,7 +60,7 @@ string sourceDir = "Your Document Directory";
 
 ## 2단계: 통합 문서 로드
 
- 다음으로 Excel 파일을 로드합니다.`Workbook`객체. 이를 통해 파일의 모든 내용에 액세스할 수 있습니다.
+ 다음으로 Excel 파일을 로드합니다.`Workbook` 객체. 이를 통해 파일의 모든 내용에 액세스할 수 있습니다.
 
 ```csharp
 Workbook wb = new Workbook(sourceDir + "sampleFindTypeOfXandYValuesOfPointsInChartSeries.xlsx");

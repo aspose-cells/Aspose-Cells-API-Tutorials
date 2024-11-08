@@ -2,7 +2,7 @@
 title: Új kimutatástábla létrehozása programozottan a .NET-ben
 linktitle: Új kimutatástábla létrehozása programozottan a .NET-ben
 second_title: Aspose.Cells .NET Excel Processing API
-description: Ismerje meg, hogyan lehet programozottan pivot táblát létrehozni .NET-ben az Aspose.Cells használatával a lépésenkénti útmutatónk segítségével. Hatékonyan elemezze adatait.
+description: Ismerje meg, hogyan lehet programozottan pivot táblát létrehozni .NET-ben az Aspose.Cells használatával lépésről lépésre. Hatékonyan elemezze adatait.
 type: docs
 weight: 13
 url: /hu/net/creating-and-configuring-pivot-tables/creating-new-pivot-table/

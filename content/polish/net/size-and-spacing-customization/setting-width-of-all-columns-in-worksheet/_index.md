@@ -2,7 +2,7 @@
 title: Ustaw szerokość wszystkich kolumn w arkuszu kalkulacyjnym za pomocą Aspose.Cells
 linktitle: Ustaw szerokość wszystkich kolumn w arkuszu kalkulacyjnym za pomocą Aspose.Cells
 second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Odkryj potencjał pakietu Aspose.Cells dla platformy .NET i dowiedz się, jak ustawić szerokość wszystkich kolumn w arkuszu kalkulacyjnym, korzystając z tego samouczka krok po kroku.
+description: Odkryj możliwości pakietu Aspose.Cells dla platformy .NET i dowiedz się, jak ustawić szerokość wszystkich kolumn w arkuszu kalkulacyjnym, korzystając z tego samouczka krok po kroku.
 type: docs
 weight: 15
 url: /pl/net/size-and-spacing-customization/setting-width-of-all-columns-in-worksheet/

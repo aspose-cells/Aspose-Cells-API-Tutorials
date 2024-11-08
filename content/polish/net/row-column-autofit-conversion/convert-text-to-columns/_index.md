@@ -2,7 +2,7 @@
 title: Konwertuj tekst na kolumny w Aspose.Cells .NET
 linktitle: Konwertuj tekst na kolumny w Aspose.Cells .NET
 second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Dowiedz się, jak bezproblemowo konwertować tekst na kolumny za pomocą Aspose.Cells dla .NET, korzystając z tego szczegółowego samouczka krok po kroku.
+description: Dowiedz się, jak bezproblemowo konwertować tekst na kolumny za pomocą Aspose.Cells for .NET, korzystając z tego szczegółowego samouczka krok po kroku.
 type: docs
 weight: 15
 url: /pl/net/row-column-autofit-conversion/convert-text-to-columns/

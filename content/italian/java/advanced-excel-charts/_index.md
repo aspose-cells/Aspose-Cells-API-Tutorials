@@ -14,7 +14,7 @@ Nel mondo del processo decisionale basato sui dati, la visualizzazione efficace 
 
 ## Guida passo passo per la visualizzazione dei dati:
 
-I nostri tutorial offrono un viaggio completo nel regno dei grafici Excel avanzati. Che tu sia uno sviluppatore Java esperto o alle prime armi, queste guide passo-passo forniscono istruzioni chiare per aiutarti a padroneggiare l'arte della visualizzazione dei dati. Impara a personalizzare gli stili dei grafici, applicare etichette dati e incorporare elementi interattivi, rendendo i tuoi grafici non solo informativi ma coinvolgenti.
+nostri tutorial offrono un viaggio completo nel regno dei grafici Excel avanzati. Che tu sia uno sviluppatore Java esperto o alle prime armi, queste guide passo-passo forniscono istruzioni chiare per aiutarti a padroneggiare l'arte della visualizzazione dei dati. Impara a personalizzare gli stili dei grafici, applicare etichette dati e incorporare elementi interattivi, rendendo i tuoi grafici non solo informativi ma coinvolgenti.
 
 ## Sblocca il potenziale della visualizzazione dei dati:
 

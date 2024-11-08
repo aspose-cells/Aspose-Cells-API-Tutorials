@@ -17,7 +17,7 @@ Voordat we ons verdiepen in de programmeerkunst, bespreken we eerst wat je allem
 3. Basiskennis van C#: Een beetje kennis van C# is heel handig; het zal u helpen de cursus naadloos te volgen.
 4.  Excel-invoegtoepassingen: u moet een invoegtoepassingsbestand hebben (zoals`.xlam`) dat de functies bevat die u wilt registreren en gebruiken.
 5.  Een voorbeeld van een Excel-invoegtoepassing: voor deze zelfstudie gebruiken we een Excel-invoegtoepassing met de naam`TESTUDF.xlam`Zorg er dus voor dat u dit bij de hand hebt!
-Nu alles is ingesteld, kunnen we de mouwen opstropen en aan de slag met coderen!
+Nu je alles hebt ingesteld, kunnen we de mouwen opstropen en aan de slag gaan met coderen!
 ## Pakketten importeren
 Om te beginnen moet u een aantal essentiële namespaces bovenaan uw C#-bestand importeren. Dit is wat u moet opnemen:
 ```csharp

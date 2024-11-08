@@ -52,7 +52,7 @@ if (!IsExists)
 Workbook workbook = new Workbook();
 ```
 - Munkafüzet: Ez az Aspose.Cells fő osztálya, amely lehetővé teszi Excel-fájlok létrehozását és kezelését. A példányosítással lényegében egy új Excel-munkafüzetet hoz létre.
-## 3. lépés: Szerezze be a Megjegyzésgyűjteményt
+## 3. lépés: Szerezze be a megjegyzésgyűjteményt
 Most, hogy megvan a munkafüzetünk, nyissa meg az első munkalap megjegyzésgyűjteményét.
 ```csharp
 // Az első lapon hivatkozást kaphat a megjegyzésgyűjteményre

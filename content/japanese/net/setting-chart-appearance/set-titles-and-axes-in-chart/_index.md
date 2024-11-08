@@ -152,7 +152,7 @@ chart.Title.Text = "Sales Performance";
 タイトルが目立つように、フォントの色を調整しましょう。
 
 ```csharp
-//チャートタイトルのフォント色を青に設定する
+//グラフタイトルのフォント色を青に設定する
 chart.Title.Font.Color = Color.Blue;
 ```
 

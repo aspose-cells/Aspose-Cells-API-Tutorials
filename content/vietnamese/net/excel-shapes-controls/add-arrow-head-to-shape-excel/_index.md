@@ -28,7 +28,7 @@ Các không gian tên này cung cấp quyền truy cập vào các lớp và ph�
 
 Bây giờ, chúng ta hãy chia nhỏ quy trình thành các bước đơn giản và dễ quản lý. 
 ## Bước 1: Thiết lập môi trường dự án của bạn
-Đầu tiên, hãy mở IDE (như Visual Studio) và tạo một dự án C# mới. Bạn có thể chọn một Ứng dụng Console vì điều này sẽ cho phép chúng ta chạy mã trực tiếp từ terminal.
+Đầu tiên, hãy mở IDE (như Visual Studio) và tạo một dự án C# mới. Bạn có thể chọn một Console Application vì điều này sẽ cho phép chúng ta chạy mã trực tiếp từ terminal.
 
 Tiếp theo, hãy đảm bảo Aspose.Cells được tham chiếu trong dự án của bạn. Nếu bạn đang sử dụng NuGet, bạn có thể dễ dàng thêm nó thông qua Package Manager Console bằng lệnh sau:
 ```bash

@@ -32,7 +32,7 @@ Ceci fait, nous sommes tous prêts à nous lancer dans la tâche principale de c
 ```bash
 Install-Package Aspose.Cells
 ```
-3. Configurez votre répertoire : créez un répertoire dans votre projet dans lequel vous stockerez vos fichiers ODS. Cela est essentiel pour organiser votre travail et garantit que vos chemins de chargement et d'enregistrement des fichiers sont corrects.
+3. Configurez votre répertoire : créez un répertoire dans votre projet où vous stockerez vos fichiers ODS. Cela est essentiel pour organiser votre travail et garantit que vos chemins de chargement et d'enregistrement des fichiers sont corrects.
 
 ## Étape 2 : chiffrement d'un fichier ODS
 ### Instancier un objet de classeur

@@ -48,11 +48,11 @@ string outputDir = "Your Document Directory";
 //實例化 Workbook 物件
 Workbook workbook = new Workbook();
 ```
-想想`Workbook`就像一塊空白的畫布，等待你用你的數據來繪畫！
+想想`Workbook`就像一塊空白的畫布，等待您用您的數據來繪畫！
 ## 第 3 步：訪問工作表
 預設情況下，新工作簿包含一個工作表。我們將訪問第一個工作表來添加我們的內容。
 ```csharp
-//透過傳遞工作表索引來取得新新增工作表的引用
+//透過傳遞工作表索引來取得新新增的工作表的引用
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 這行程式碼很簡單；您只是告訴您的程式使用工作簿的第一個工作表。簡單易行！
@@ -70,7 +70,7 @@ cell.PutValue("Hello");
 ```
 這段程式碼是您的內容變得生動的地方。 
 ## 步驟 6：將儲存格格式設定為上標
-現在我們進入有趣的部分了！透過將字體設定為上標，使文字看起來很漂亮。您可以這樣做：
+現在我們進入有趣的部分了！透過將字體設定為上標，使您的文字看起來很漂亮。您可以這樣做：
 ```csharp
 //設定字體上標
 Style style = cell.GetStyle();

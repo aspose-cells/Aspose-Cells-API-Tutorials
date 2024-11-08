@@ -9,13 +9,13 @@ url: /hu/net/excel-worksheet-csharp-tutorials/add-new-sheet-in-excel-csharp-tuto
 ---
 ## Bevezetés
 
-Előfordult már, hogy új lapot kell programozottan hozzáadnia egy Excel-fájlhoz? Ha igen, akkor jó helyen jársz! Ebben az útmutatóban az Aspose.Cells for .NET használatának alapjait mutatjuk be. Ez egy hatékony, az Excel-fájlok kezelésére szolgáló könyvtár. Felvázoljuk az előfeltételeket, a kódot könnyen követhető lépésekre bontjuk, és rövid időn belül elindítjuk.
+Előfordult már, hogy új lapot kell programozottan hozzáadnia egy Excel-fájlhoz? Ha igen, akkor jó helyen jársz! Ebben az útmutatóban az Aspose.Cells for .NET használatának alapjait mutatjuk be. Ez egy hatékony, az Excel-fájlok kezelésére szabott könyvtár. Felvázoljuk az előfeltételeket, a kódot könnyen követhető lépésekre bontjuk, és rövid időn belül elindítjuk.
 
 ## Előfeltételek
 
 Mielőtt bármiféle kódolást végzünk, győződjön meg arról, hogy rendelkezik mindennel, amire a projekthez szüksége van:
 
-1.  Visual Studio: Győződjön meg arról, hogy telepítve van a Visual Studio. Ha még nem rendelkezik vele, letöltheti a webhelyről[Microsoft webhely](https://visualstudio.microsoft.com/).
+1.  Visual Studio: Győződjön meg arról, hogy telepítve van a Visual Studio. Ha még nem rendelkezik vele, letöltheti a[Microsoft webhely](https://visualstudio.microsoft.com/).
 2.  Aspose.Cells Library: Szüksége lesz az Aspose.Cells for .NET könyvtárra. Tudod[töltse le itt](https://releases.aspose.com/cells/net/).
 3. .NET-keretrendszer: Győződjön meg arról, hogy projektje a .NET-keretrendszer kompatibilis verziójához van beállítva (általában a .NET-keretrendszer 4.0 vagy újabb jól működik).
 4. Alapvető C# ismeretek: A C# és az objektumorientált programozás ismerete segít a kód jobb megértésében.

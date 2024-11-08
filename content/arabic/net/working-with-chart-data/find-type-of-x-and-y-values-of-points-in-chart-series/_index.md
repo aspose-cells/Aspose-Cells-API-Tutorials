@@ -60,7 +60,7 @@ string sourceDir = "Your Document Directory";
 
 ## الخطوة 2: تحميل المصنف
 
- بعد ذلك، قم بتحميل ملف Excel إلى`Workbook`الكائن. يسمح لك هذا بالوصول إلى كافة محتويات الملف.
+ بعد ذلك، قم بتحميل ملف Excel إلى`Workbook` الكائن. يسمح لك هذا بالوصول إلى كافة محتويات الملف.
 
 ```csharp
 Workbook wb = new Workbook(sourceDir + "sampleFindTypeOfXandYValuesOfPointsInChartSeries.xlsx");

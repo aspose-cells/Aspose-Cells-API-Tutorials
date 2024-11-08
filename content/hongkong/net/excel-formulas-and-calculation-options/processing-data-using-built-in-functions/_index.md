@@ -86,7 +86,7 @@ workbook.CalculateFormula();
 //取得A4單元格的計算值
 string value = worksheet.Cells["A4"].Value.ToString();
 ```
-現在，SUM 運算的結果儲存在`value`多變的。這就像在紙上檢查計算結果一樣！
+現在，我們的 SUM 運算的結果儲存在`value`多變的。這就像在紙上檢查計算結果一樣！
 ## 第 8 步：儲存工作簿 
 最後，我們需要保存我們的傑作！
 ```csharp

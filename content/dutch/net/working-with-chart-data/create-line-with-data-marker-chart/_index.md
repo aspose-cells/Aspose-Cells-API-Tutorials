@@ -15,7 +15,7 @@ Heb je je ooit afgevraagd hoe je verbluffende grafieken in Excel programmatisch 
 
 Voordat we beginnen, moet u ervoor zorgen dat u alles paraat heeft om de procedure soepel te kunnen volgen.
 
-1.  Aspose.Cells voor .NET Library – U moet dit installeren. U kunt het downloaden[hier](https://releases.aspose.com/cells/net/).
+1. Aspose.Cells voor .NET Library – U moet dit installeren. U kunt het downloaden[hier](https://releases.aspose.com/cells/net/).
 2. .NET Framework – Zorg ervoor dat uw ontwikkelomgeving is ingesteld met de nieuwste versie van .NET.
 3. IDE (Integrated Development Environment) – Visual Studio wordt aanbevolen.
 4.  Een geldige Aspose.Cells-licentie – Als u die niet hebt, kunt u een aanvraag indienen[tijdelijke licentie](https://purchase.aspose.com/temporary-license/) of bekijk hun[gratis proefperiode](https://releases.aspose.com/).
@@ -109,7 +109,7 @@ chart.AutoScaling = true;
 // Voorgrondkleur instellen op wit
 chart.PlotArea.Area.ForegroundColor = Color.White;
 
-// Eigenschappen van grafiektitel instellen
+//Eigenschappen van grafiektitel instellen
 chart.Title.Text = "Sample Chart";
 
 // Stel grafiektype in

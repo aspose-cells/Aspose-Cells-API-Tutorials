@@ -67,7 +67,7 @@ Console.WriteLine("HidingOverlaidContentWithCrossHideRightWhileSavingToHtml exec
 Deze regel stuurt gewoon een succesbericht naar de console. Het is onze manier om te zeggen: "Hé, we hebben het gedaan!" Deze feedback is geweldig voor het oplossen van problemen; als u dit bericht ziet, weet u dat alles goed zit!
 
 ## Conclusie
-En voilà! U hebt alle overlappende inhoud in uw Excel-bestanden succesvol weggestopt, waardoor uw HTML-exporten netjes en opgeruimd zijn met Aspose.Cells voor .NET. Als u alles hebt gevolgd, bent u nu uitgerust met een aantal krachtige mogelijkheden voor het verwerken van Excel-bestanden in uw .NET-toepassingen. 
+En voilà! U hebt met succes alle overlappende inhoud in uw Excel-bestanden weggestopt, waardoor uw HTML-exporten netjes en opgeruimd zijn met Aspose.Cells voor .NET. Als u alles hebt gevolgd, bent u nu uitgerust met een aantal krachtige mogelijkheden voor het verwerken van Excel-bestanden in uw .NET-toepassingen. 
 Dit proces vereenvoudigt het opslaan van Excel-bestanden naar HTML en houdt daarbij rekening met de presentatie-esthetiek: een win-winsituatie! Blijf experimenteren met de bibliotheek en u zult nog meer functionaliteiten ontdekken om uw projecten te verbeteren.
 ## Veelgestelde vragen
 ### Wat is Aspose.Cells?

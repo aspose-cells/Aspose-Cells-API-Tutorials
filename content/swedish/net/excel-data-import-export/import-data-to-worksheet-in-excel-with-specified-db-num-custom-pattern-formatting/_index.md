@@ -102,7 +102,7 @@ Genom att ta tag i cellens stil förbereder du dig för att lägga till din unik
 
 ## Steg 6: Ange DBNum Custom Pattern Formatting
 
-Här händer magin. Du kan ange ett anpassat formatmönster med formateringsstilen DBNum.
+Det är här magin händer. Du kan ange ett anpassat formatmönster med formateringsstilen DBNum.
 
 ```csharp
 st.Custom = "[DBNum2][$-804]General";

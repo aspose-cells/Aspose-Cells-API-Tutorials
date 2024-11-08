@@ -67,7 +67,7 @@ opts.Separator = ' ';
 ## Passaggio 6: dividere la colonna in più colonne
  Ecco la magia! Ora divideremo il contenuto della colonna A in due colonne separate (i nomi nella colonna A e i cognomi nella colonna B) utilizzando il`TextToColumns` metodo.
 ```csharp
-// Dividi la colonna A in due colonne utilizzando il metodo TextToColumns().
+// Dividere la colonna A in due colonne utilizzando il metodo TextToColumns().
 // Ora la colonna A conterrà il nome e la colonna B il cognome.
 ws.Cells.TextToColumns(0, 0, 5, opts);
 ```

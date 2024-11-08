@@ -101,7 +101,7 @@ sheet.Charts[0].NSeries.Add("{1,2,3}", false);
 
 ## 步骤 5：向图表添加复选框
 
-现在，我们开始进入最有趣的部分 — 向图表添加复选框。操作方法如下：
+现在，我们进入最有趣的部分 — 向图表添加复选框。操作方法如下：
 ```csharp
 sheet.Charts[0].Shapes.AddShapeInChart(MsoDrawingType.CheckBox, PlacementType.Move, 400, 400, 1000, 600);
 sheet.Charts[0].Shapes[0].Text = "CheckBox 1";

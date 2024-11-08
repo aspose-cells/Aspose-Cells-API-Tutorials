@@ -50,7 +50,7 @@ Přečteme si šablonu Excelu, která obsahuje chytré značky, které udělají
 // Inicializujte sešit šablony obsahující inteligentní značku pomocí ISBLANK
 Workbook workbook = new Workbook(sourceDir + @"sampleIsBlank.xlsx");
 ```
- Zde načteme sešit aplikace Excel. Tento soubor,`sampleIsBlank.xlsx`, by měly obsahovat chytré značky, které zpracujeme později pro kontrolu hodnot.
+ Zde načteme sešit Excel. Tento soubor,`sampleIsBlank.xlsx`, by měly obsahovat chytré značky, které zpracujeme později pro kontrolu hodnot.
 ## Krok 4: Načtěte a zkontrolujte cílovou hodnotu
 Dále načteme konkrétní hodnotu z naší DataSet, kterou chceme vyhodnotit. V našem případě se zaměříme na třetí řadu.
 ```csharp

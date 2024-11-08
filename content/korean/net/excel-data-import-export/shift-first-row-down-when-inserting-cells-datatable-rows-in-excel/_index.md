@@ -19,7 +19,7 @@ Excel 스프레드시트에 새 데이터를 삽입할 때 수동으로 행을 �
 2.  .NET용 Aspose.Cells: Aspose.Cells 라이브러리가 필요합니다. 아직 하지 않았다면 다운로드할 수 있습니다.[여기](https://releases.aspose.com/cells/net/).
 3. C# 및 Excel에 대한 기본 이해: C# 프로그래밍과 Excel의 작동 방식에 대한 기본적인 이해는 더욱 효과적으로 따라가는 데 도움이 될 것입니다.
 
- 또한 샘플 Excel 파일을 준비해 두는 것이 좋습니다. 이 가이드에서는 샘플이라는 것을 사용합니다.`sampleImportTableOptionsShiftFirstRowDown.xlsx`. 이 파일을 직접 만들거나 귀하의 필요에 맞는 템플릿을 찾을 수 있습니다.
+ 또한 샘플 Excel 파일을 준비해 두는 것이 좋습니다. 이 가이드에서는 샘플이라는 것을 사용합니다.`sampleImportTableOptionsShiftFirstRowDown.xlsx`. 이 파일을 만들거나 귀하의 필요에 맞는 템플릿을 찾을 수 있습니다.
 
 ## 패키지 가져오기
 

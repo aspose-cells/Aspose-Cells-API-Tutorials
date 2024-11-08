@@ -23,7 +23,7 @@ Beginnen Sie mit der Erstellung eines neuen C#-Projekts in Ihrer IDE. Wählen Si
 ### Fügen Sie die Aspose.Cells-Referenz hinzu
 1. Klicken Sie im Projektmappen-Explorer mit der rechten Maustaste auf Ihr Projekt.
 2. Wählen Sie „Hinzufügen“ und klicken Sie dann auf „Referenz“.
-3. Navigieren Sie zu dem Speicherort, an dem Sie Aspose.Cells heruntergeladen haben, und wählen Sie es aus.
+3. Navigieren Sie zu dem Speicherort, an den Sie Aspose.Cells heruntergeladen haben, und wählen Sie es aus.
 4. Klicken Sie auf „OK“, um die Referenz hinzuzufügen.
 ### Using-Direktive hinzufügen
 Oben in Ihrer Codedatei müssen Sie die folgende Anweisung einfügen, damit Sie problemlos auf den Aspose.Cells-Namespace zugreifen können.

@@ -44,7 +44,7 @@ Install-Package Aspose.Cells
 
 Tím se do vašeho projektu přidá knihovna Aspose.Cells, která vám dává možnost programově manipulovat se soubory aplikace Excel.
 
-## Krok 2: Načtení souboru Excel
+## Krok 2: Načtení souboru aplikace Excel
 
 Nyní, když je váš projekt nastaven, je čas načíst soubor Excel, který chcete převést. Soubor může obsahovat libovolná data – například informace o produktu nebo zprávy o prodeji – ale pro tento příklad načteme vzorový soubor s názvem`AddTooltipToHtmlSample.xlsx`.
 

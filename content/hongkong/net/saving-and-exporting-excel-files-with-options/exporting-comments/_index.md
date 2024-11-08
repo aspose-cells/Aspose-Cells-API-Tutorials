@@ -77,5 +77,5 @@ ExportCommentsWhileSavingExcelFileToHtml executed successfully.
 是的！ Aspose.Cells 支援多種匯出格式，包括 PDF 和 Word。您也可以使用類似的選項來包含這些格式的註解。
 ### 如何確保註解出現在 HTML 輸出中的正確位置？  
 Aspose.Cells 自動處理註解的放置，確保它們像在 Excel 檔案中一樣出現在適當的位置。
-### Aspose.Cells 與所有版本的 Excel 相容嗎？  
+### Aspose.Cells 是否與所有版本的 Excel 相容？  
 是的，Aspose.Cells 旨在與 Excel 的所有主要版本一起使用，確保與您的檔案相容，無論它們是 XLS、XLSX 還是其他 Excel 格式。

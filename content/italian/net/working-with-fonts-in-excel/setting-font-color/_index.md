@@ -58,7 +58,7 @@ Worksheet worksheet = workbook.Worksheets[i];
 ```
 Qui, otteniamo un riferimento al foglio di lavoro che abbiamo appena creato usando il suo indice. Questo ci consente di lavorare direttamente sul foglio.
 ## Passaggio 5: accedi a una cella specifica
-È il momento di scrivere qualcosa sul nostro foglio Excel! Sceglieremo la cella "A1" per semplificare le cose.
+È ora di scrivere qualcosa sul nostro foglio Excel! Sceglieremo la cella "A1" per semplificare le cose.
 ```csharp
 // Accesso alla cella "A1" dal foglio di lavoro
 Aspose.Cells.Cell cell = worksheet.Cells["A1"];
@@ -95,7 +95,7 @@ cell.SetStyle(style);
 ```
 Questa riga aggiorna la cella con il nuovo stile appena definito, che include il nuovo colore del carattere.
 ## Passaggio 10: salva la tua cartella di lavoro
-Infine, dobbiamo salvare le modifiche. È come premere il pulsante "Salva" sul tuo documento Word: vuoi conservare tutto quel duro lavoro!
+Infine, dobbiamo salvare le nostre modifiche. È come premere il pulsante "Salva" sul tuo documento Word: vuoi conservare tutto quel duro lavoro!
 ```csharp
 // Salvataggio del file Excel
 workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);

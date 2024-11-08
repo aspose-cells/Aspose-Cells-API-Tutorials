@@ -9,7 +9,7 @@ url: /cs/net/advanced-chart-operations/read-and-manipulate-excel-2016-charts/
 ---
 ## Zavedení
 
-Excel je mocný nástroj pro vizualizaci a prezentaci dat, ale programová manipulace s grafy může být poměrně složitá. To je místo, kde Aspose.Cells for .NET přichází na pomoc! Tato robustní knihovna umožňuje vývojářům bezproblémově vytvářet, číst a manipulovat se soubory Excel. V tomto tutoriálu se ponoříme do toho, jak číst a manipulovat s grafy Excelu 2016 pomocí Aspose.Cells, díky čemuž je proces přímočarý a efektivní.
+Excel je mocný nástroj pro vizualizaci a prezentaci dat, ale programová manipulace s grafy může být poměrně složitá. To je místo, kde Aspose.Cells for .NET přichází na pomoc! Tato robustní knihovna umožňuje vývojářům bezproblémově vytvářet, číst a manipulovat se soubory Excel. V tomto tutoriálu se ponoříme do toho, jak číst a manipulovat s grafy Excelu 2016 pomocí Aspose.Cells, aby byl proces přímočarý a efektivní.
 
 ## Předpoklady
 

@@ -27,7 +27,7 @@ using System.Text;
 Ezek a névterek alapvető osztályokat és függvényeket biztosítanak, amelyek megkönnyítik a feladatunkat, a munkafüzetek létrehozásától a cellastílusok módosításáig.
 
 Most bontsuk ezt emészthető lépésekre. Létrehozunk egy munkafüzetet, manipulálunk néhány stílust, és HTML formátumba mentjük az Aspose.Cells segítségével.
-## 1. lépés: Határozza meg a kimeneti könyvtárát
+## 1. lépés: Határozza meg kimeneti könyvtárát
 Először állítson be egy kimeneti könyvtárat a HTML-fájl mentéséhez. Ez azért fontos, mert rendszerezi a dolgokat.
 ```csharp
 //Kimeneti könyvtár
@@ -67,7 +67,7 @@ Egy kis stilisztikai választás sokra megy, mi? Adatai most vonzóbbak a szem s
 Itt történik a varázslat. Megadhat lehetőségeket a munkafüzet HTML formátumba mentésére, például CSS-azonosító hozzáadásával a táblázathoz.
 ```csharp
 //Adja meg a html mentési beállításokat - adja meg a tábla css azonosítóját
-HtmlSaveOptions opts = new HtmlSaveOptions(); // Hozzon létre beállításokat a HTML-mentésünkhöz
+HtmlSaveOptions opts = new HtmlSaveOptions(); // Hozzon létre beállításokat HTML-mentésünkhöz
 opts.TableCssId = "MyTest_TableCssId"; // CSS azonosító hozzárendelése
 ```
 Ez az azonosító praktikus eszköz lehet, ha a táblázat stílusát CSS segítségével szeretné tovább formálni.

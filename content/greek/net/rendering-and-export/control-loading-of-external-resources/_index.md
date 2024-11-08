@@ -104,6 +104,6 @@ Console.WriteLine("ControlLoadingOfExternalResourcesInExcelToPDF executed succes
 ### Μπορώ να δοκιμάσω το Aspose.Cells δωρεάν;  
  Ναί! Μπορείτε να λάβετε μια δωρεάν δοκιμή επισκεπτόμενοι το[Δωρεάν δοκιμαστική σελίδα](https://releases.aspose.com/).
 ### Πού μπορώ να βρω υποστήριξη για το Aspose.Cells;  
- Για οποιαδήποτε απορία σχετικά με την υποστήριξη, μπορείτε να επισκεφθείτε τη διεύθυνση[Aspose Forum υποστήριξης](https://forum.aspose.com/c/cells/9).
+ Για οποιαδήποτε απορία σχετικά με την υποστήριξη, μπορείτε να επισκεφθείτε τη διεύθυνση[Φόρουμ υποστήριξης Aspose](https://forum.aspose.com/c/cells/9).
 ### Πώς μπορώ να αποκτήσω μια προσωρινή άδεια για το Aspose.Cells;  
  Μπορείτε να κάνετε αίτηση για προσωρινή άδεια[εδώ](https://purchase.aspose.com/temporary-license/).

@@ -54,7 +54,7 @@ Per iniziare, è necessario identificare dove si trova il file Excel di origine 
 ```csharp
 //Elenco di origine
 string sourceDir = "Your Document Directory";
-//Directory di uscita
+//Directory di output
 string outputDir = "Your Document Directory";
 ```
 

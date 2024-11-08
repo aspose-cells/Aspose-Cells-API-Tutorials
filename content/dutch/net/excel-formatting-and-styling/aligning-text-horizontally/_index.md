@@ -22,7 +22,7 @@ Voordat u begint met het schrijven van uw code, moet u de benodigde namespaces i
 using System.IO;
 using Aspose.Cells;
 ```
-Zorg ervoor dat deze naamruimten bovenaan uw C#-bestand worden toegevoegd om fouten tijdens het compileren te voorkomen.
+Zorg ervoor dat deze naamruimten bovenaan uw C#-bestand worden toegevoegd om fouten tijdens de compilatie te voorkomen.
 Nu u helemaal klaar bent, gaan we stap voor stap door het proces van het horizontaal uitlijnen van tekst in Excel-cellen. We maken een eenvoudig Excel-bestand, voegen tekst toe aan een cel en passen de uitlijning aan.
 ## Stap 1: Stel uw werkruimte in
 Allereerst moet u de directory instellen waar u uw Excel-bestand wilt opslaan. Deze stap zorgt ervoor dat u een schone werkruimte voor uw documenten hebt.

@@ -39,13 +39,13 @@ string sourceDir = "Your Document Directory";
 string outputDir = "Your Document Directory";
 ```
  Jednoduše vyměnit`"Your Document Directory"`se skutečnou cestou ve vašem počítači, kde je umístěn váš soubor Excel.
-## Krok 2: Načtení souboru Excel
+## Krok 2: Načtení souboru aplikace Excel
 Naším dalším krokem je načtení souboru aplikace Excel, který obsahuje průřez, který chceme odstranit.
 ```csharp
-// Načtěte ukázkový soubor aplikace Excel obsahující průřez.
+// Načtěte ukázkový soubor Excel obsahující průřez.
 Workbook wb = new Workbook(sourceDir + "sampleRemovingSlicer.xlsx");
 ```
- V tomto řádku vytváříme nový`Workbook` instance k držení našeho souboru. Možná budete chtít vytvořit metodu pro dynamičtější zpracování cest k souborům v budoucích projektech.
+ V tomto řádku vytváříme nový`Workbook` instance k uložení našeho souboru. Možná budete chtít vytvořit metodu pro dynamičtější zpracování cest k souborům v budoucích projektech.
 ## Krok 3: Přístup k listu
 Po načtení sešitu je dalším logickým krokem přístup k listu, kde se nachází váš průřez. V tomto případě přistoupíme k prvnímu listu.
 ```csharp

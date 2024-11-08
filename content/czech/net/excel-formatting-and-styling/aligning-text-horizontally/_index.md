@@ -81,7 +81,7 @@ Gratuluji! Právě jste se naučili, jak zarovnat text vodorovně v buňkách ap
 ### Co je Aspose.Cells?
 Aspose.Cells je výkonná knihovna .NET, která umožňuje vývojářům vytvářet, manipulovat a převádět soubory Excelu programově.
 ### Mohu používat Aspose.Cells zdarma?
- Ano, Aspose nabízí a[zkušební verze zdarma](https://releases.aspose.com/) otestovat funkce knihovny.
+ Ano, Aspose nabízí a[zkušební verze zdarma](https://releases.aspose.com/) k testování funkcí knihovny.
 ### Je možné přizpůsobit formátování buněk mimo zarovnání textu?
 Absolutně! Aspose.Cells poskytuje rozsáhlé možnosti pro formátování buněk, včetně písem, barev, ohraničení a dalších.
 ### Jaké verze aplikace Excel podporuje Aspose.Cells?

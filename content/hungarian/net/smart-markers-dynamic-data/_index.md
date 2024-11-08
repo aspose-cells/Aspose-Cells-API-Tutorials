@@ -14,11 +14,11 @@ url: /hu/net/smart-markers-dynamic-data/
 ## Adjon hozzá egyéni címkéket intelligens jelölőkkel
  Képzelje el, hogy a jelentés minden cellájához egyedi címkét szeretne. Az Aspose.Cells intelligens jelölőivel az egyéni címkék hozzáadása gyerekjáték lesz. Megtanulja, hogyan használhatja az intelligens jelölőket adatcímkéinek személyre szabásához, vizuálisan lenyűgöző és szervezett jelentések létrehozásához.[Olvass tovább](./add-custom-labels-smart-markers/)
 
-## Adatok automatikus kitöltése a lapok között
+## Adatok automatikus kitöltése a munkalapokon
  Ha nagy mennyiségű adatot kezel több lapon, ez a funkció megváltoztatja a helyzetet. Az Aspose.Cells lehetővé teszi az adatok automatikus feltöltését több munkalapon, simábbá és gyorsabbá téve az adatkezelést. Egyszerűsítheti a munkafolyamatokat az adatok automatikus átvitelével a megfelelő cellákba.[Olvass tovább](./auto-populate-data-smart-markers/)
 
 ## Képek beszúrása képjelölőkkel
- A látvány életet ad a riportoknak! Az Aspose.Cells segítségével képeket illeszthet be Excel-fájlokba az Image Markerek segítségével. Tanulja meg, hogyan integrálhatja a látványelemeket közvetlenül az Excel-cellákba, így informatívabb, tetszetősebb jelentést készíthet, amely lenyűgözi a közönségét.[Olvass tovább](./insert-images-smart-markers/)
+ A látvány életet ad a riportoknak! Az Aspose.Cells segítségével képeket illeszthet be Excel-fájljaiba az Image Markers segítségével. Tanulja meg, hogyan integrálhatja a látványelemeket közvetlenül az Excel-cellákba, így informatívabb, tetszetősebb jelentést készíthet, amely lenyűgözi a közönségét.[Olvass tovább](./insert-images-smart-markers/)
 
 ## Használjon dinamikus képleteket az intelligens jelölőkben
  képletek automatizálhatják a számításokat, így az adatkezelés könnyed. Az Aspose.Cells segítségével dinamikus képleteket használhat az intelligens jelölőkben, lehetővé téve a számítások automatikus frissítését az új adatok hozzáadásával. Ez a funkció segít olyan jelentéseket készíteni, amelyek zökkenőmentesen alkalmazkodnak a változó adatokhoz, időt takarít meg és javítja a pontosságot.[Olvass tovább](./dynamic-formulas-smart-markers/)
@@ -33,7 +33,7 @@ url: /hu/net/smart-markers-dynamic-data/
  A professzionális megjelenésű jelentések készítése gyakran speciális stílust igényel. Az Aspose.Cells Smart Markers Stílusmásolás attribútuma megkönnyíti a konzisztens stílusok másolását a sablonokból közvetlenül a generált Excel-lapokra. Ez az oktatóanyag lépésről lépésre bemutatja ennek a funkciónak a használatát, biztosítva, hogy a jelentések csiszolt és egységesek legyenek.[Olvass tovább](./copy-style-attribute-smart-markers/)
 
 ## Használjon névtelen típusokat intelligens jelölőkkel
- Az Aspose.Cells Smart Markers névtelen típusokat is támogat, így rugalmas adatbevitelt tesz lehetővé előre meghatározott struktúrák nélkül. Ez a funkció tökéletes olyan helyzetekben, amikor az adatszerkezetek megváltozhatnak, vagy ha strukturálatlan adatokat kezelnek, így a fejlesztők könnyebben alkalmazkodhatnak a változó követelményekhez.[Olvass tovább](./use-anonymous-types-smart-markers/)
+ Az Aspose.Cells Smart Markers névtelen típusokat is támogat, így rugalmas adatbevitelt tesz lehetővé előre meghatározott struktúrák nélkül. Ez a funkció tökéletes olyan helyzetekben, amikor az adatszerkezetek megváltozhatnak, vagy amikor strukturálatlan adatokat kezelnek, így a fejlesztők könnyebben alkalmazkodhatnak a változó követelményekhez.[Olvass tovább](./use-anonymous-types-smart-markers/)
 
 ## Használja a HTML-tulajdonságot az intelligens jelölőkben
 Tudta, hogy HTML-tartalmat közvetlenül beépíthet Excel-lapjaiba? Az Aspose.Cells segítségével a HTML tulajdonság lehetővé teszi formázott szövegek, hivatkozások és képek beágyazását közvetlenül az intelligens jelölőkbe. Ez a funkció tökéletes olyan jelentések készítéséhez, amelyek nemcsak adatokat tartalmaznak, hanem vizuálisan is vonzóak. Akár hiperhivatkozásokat szeretne hozzáadni az erőforrásokhoz, akár a szöveget színekkel és betűtípusokkal szeretné stílusozni, ez az oktatóanyag végigvezeti a folyamaton.[Olvass tovább](./html-property-smart-markers/)

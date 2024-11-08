@@ -14,7 +14,7 @@ Innan vi börjar, låt oss se till att du har allt du behöver för att hoppa in
 ### 1. Grundläggande kunskaper i C#
 Bekantskap med programmeringsspråket C# är viktigt, eftersom du kommer att skriva kodavsnitt för att utföra våra uppgifter.
 ### 2. Aspose.Cells för .NET
-Du behöver Aspose.Cells-biblioteket. Om du inte har laddat ner det ännu, gå till[releasesidan för aspose.com](https://releases.aspose.com/cells/net/) för att hämta den senaste versionen. Ett köp kan göras[här](https://purchase.aspose.com/buy) eller så kan du välja[gratis provperiod](https://releases.aspose.com/) för att få en känsla för det.
+Du behöver Aspose.Cells-biblioteket. Om du inte har laddat ner det ännu, gå till[släppsidan för aspose.com](https://releases.aspose.com/cells/net/) för att hämta den senaste versionen. Ett köp kan göras[här](https://purchase.aspose.com/buy) eller så kan du välja[gratis provperiod](https://releases.aspose.com/) för att få en känsla för det.
 ### 3. Utvecklingsmiljö
 Se till att du har en .NET-utvecklingsmiljö inställd. Visual Studio är ett utmärkt val för att utveckla C#-applikationer.
 ### 4. Exempel på Excel-fil

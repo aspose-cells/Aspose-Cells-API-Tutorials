@@ -26,6 +26,6 @@ Ora, entriamo nel dettaglio del processo. Aspose.Cells per .NET consente di inte
 
  Leggi di più su come[Cambia l'allineamento delle celle di Excel senza perdere la formattazione](./change-cells-alignment-in-excel-without-losing-existing-formatting/).
 
-## Tutorial di allineamento e formattazione dei dati di Excel
+## Tutorial sull'allineamento e la formattazione dei dati di Excel
 ### [Cambia l'allineamento delle celle di Excel senza perdere la formattazione](./change-cells-alignment-in-excel-without-losing-existing-formatting/)
 Scopri come modificare l'allineamento delle celle di Excel senza perdere la formattazione usando Aspose.Cells per .NET. Segui la nostra guida completa passo dopo passo per un controllo senza interruzioni.

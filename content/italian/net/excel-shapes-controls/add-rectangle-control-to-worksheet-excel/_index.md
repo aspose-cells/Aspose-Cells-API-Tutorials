@@ -2,7 +2,7 @@
 title: Aggiungere il controllo rettangolo al foglio di lavoro in Excel
 linktitle: Aggiungere il controllo rettangolo al foglio di lavoro in Excel
 second_title: API di elaborazione Excel .NET Aspose.Cells
-description: Scopri come aggiungere un controllo rettangolo a un foglio di lavoro Excel utilizzando Aspose.Cells per .NET con una guida dettagliata e passo dopo passo.
+description: Scopri come aggiungere un controllo rettangolo a un foglio di lavoro Excel utilizzando Aspose.Cells per .NET con una guida dettagliata e dettagliata.
 type: docs
 weight: 25
 url: /it/net/excel-shapes-controls/add-rectangle-control-to-worksheet-excel/

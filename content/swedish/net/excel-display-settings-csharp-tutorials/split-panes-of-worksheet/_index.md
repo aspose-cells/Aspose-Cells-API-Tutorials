@@ -98,7 +98,7 @@ Och där har du det! Du har precis lärt dig hur du delar upp rutor i ett Excel-
 ### Vad är skillnaden mellan att dela rutor och frysa rutor?  
 Med delade rutor kan du rulla i båda rutor oberoende av varandra. Frysande rutor låser rubrikerna eller specifika rader/kolumner så att de förblir synliga när du rullar.
 
-### Kan jag ta bort splittringen efter att ha applicerat den?  
+### Kan jag ta bort splitten efter att ha applicerat den?  
 Ja, du kan ta bort uppdelningen genom att antingen stänga och öppna arbetsboken igen eller genom att programmera återställa den.
 
 ### Fungerar delningsrutor på samma sätt för olika Excel-filformat (XLS, XLSX)?  

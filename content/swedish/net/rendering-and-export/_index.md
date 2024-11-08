@@ -41,7 +41,7 @@ Lär dig hur du skapar interaktiva PDF-filer med bokmärken med Aspose.Cells fö
 ### [Undvik tom sida i utdata-PDF i Aspose.Cells](./avoid-blank-page-in-output-pdf/)
 Lär dig hur du undviker tomma sidor i PDF-utdata med Aspose.Cells för .NET med denna steg-för-steg-guide för att effektivisera din dokumentgenerering.
 ### [Styr externa resurser i Excel till PDF i Aspose.Cells](./control-loading-of-external-resources/)
-Upptäck hur du kontrollerar externa resurser i Excel till PDF-konvertering med Aspose.Cells för .NET med vår lättanvända guide.
+Upptäck hur du styr externa resurser i Excel till PDF-konvertering med Aspose.Cells för .NET med vår lättanvända guide.
 ### [Skapa PDF-bokmärke för diagramblad i Aspose.Cells](./create-pdf-bookmark-entry-for-chart-sheet/)
 Lär dig hur du skapar PDF-bokmärken för diagramblad i Aspose.Cells för .NET med den här omfattande steg-för-steg-guiden.
 ### [Exportera cellomfång till bild med Aspose.Cells](./export-range-of-cells-to-image/)

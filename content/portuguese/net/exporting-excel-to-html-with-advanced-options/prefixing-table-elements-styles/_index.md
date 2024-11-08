@@ -70,7 +70,7 @@ Uma pequena escolha estilística faz toda a diferença, não é? Seus dados agor
 HtmlSaveOptions opts = new HtmlSaveOptions(); // Crie opções para salvar nosso HTML
 opts.TableCssId = "MyTest_TableCssId"; // Atribuir um ID CSS
 ```
-Esse ID pode ser uma ferramenta útil quando você quiser estilizar ainda mais a tabela com CSS.
+Este ID pode ser uma ferramenta útil quando você quiser estilizar ainda mais a tabela com CSS.
 ## Etapa 7: Salve a pasta de trabalho
 Agora, para o grande final: salvar a pasta de trabalho como um arquivo HTML. 
 ```csharp

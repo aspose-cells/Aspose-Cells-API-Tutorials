@@ -31,7 +31,7 @@ Welkom in de wereld van Aspose.Cells voor .NET, waar uw Excel-sheets echt tot le
 
 Tekstuitlijning is cruciaal voor leesbaarheid en u zult verbaasd zijn hoe het de vorm van uw document kan veranderen. Moeten uw titels gecentreerd zijn? Wat dacht u van het uitlijnen van getallen naar rechts? Deze beslissingen kunnen van invloed zijn op hoe uw publiek uw gegevens waarneemt. Onze tutorials over[tekst horizontaal uitlijnen](./aligning-text-horizontally/) En[tekst verticaal uitlijnen](./aligning-text-vertically/) alles wat je moet weten om je tekst precies goed te krijgen. Met duidelijke instructies en praktische voorbeelden lijn je tekst in no time uit als een pro!
 
-## Lange tekst in cellen omwikkelen
+## Lange tekst in cellen omsluiten
 
  Heb je ooit dat frustrerende moment meegemaakt dat een cel te klein was om al je tekst weer te geven? In plaats van de grootte van de cel te wijzigen of waardevolle informatie te verliezen, wat als je de tekst gewoon kon omvouwen? Dit houdt niet alleen je gegevens leesbaar, maar zorgt er ook voor dat je spreadsheet er netjes uitziet. Bekijk onze stapsgewijze handleiding op[lange tekst in cellen wikkelen](./wrapping-long-text-within-cells/)U leert hoe u uw gegevens gemakkelijk leesbaar kunt houden zonder dat uw lay-out rommelig wordt.
 

@@ -16,8 +16,8 @@ url: /zh-hant/net/excel-data-alignment-formatting/change-cells-alignment-in-exce
 在我們深入實際編碼之前，必須確保所有內容都設定正確。這是您需要的：
 
 1. Visual Studio：確保您的電腦上安裝了 Visual Studio（任何支援 .NET 的版本）。
-2. Aspose.Cells for .NET：下載並安裝 Aspose.Cells 函式庫[Aspose 的網站](https://releases.aspose.com/cells/net/).
-3. C# 基礎知識：稍微熟悉一下 C# 程式設計將會派上用場，因為我們將在 C# 上下文中運作。
+2. Aspose.Cells for .NET：從下列位置下載並安裝 Aspose.Cells 函式庫：[Aspose 的網站](https://releases.aspose.com/cells/net/).
+3. C# 基本知識：稍微熟悉一下 C# 程式設計將會派上用場，因為我們將在 C# 上下文中運作。
 4. 範例 Excel 檔案：為了演示，請準備一個範例 Excel 檔案（例如，`sampleChangeCellsAlignmentAndKeepExistingFormatting.xlsx`）包含一些初始儲存格格式。
 
 ## 導入包
@@ -75,7 +75,7 @@ Workbook wb = new Workbook(sourceDir + "sampleChangeCellsAlignmentAndKeepExistin
 
 ## 第 3 步：存取所需的工作表
 
-載入工作簿後，存取要操作的工作表。 Excel 檔案可以有多個工作表，因此請確保您定位的是正確的工作表。
+載入工作簿後，存取要操作的工作表。 Excel 檔案可以包含多個工作表，因此請確保您定位的是正確的工作表。
 
 ```csharp
 //訪問第一個工作表。

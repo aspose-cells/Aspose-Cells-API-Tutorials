@@ -93,7 +93,7 @@ comment.Font.Size = 14;
 ```
 En djärv förlängning kommer definitivt att dra uppmärksamhet!
 ## Steg 9: Fetstil teckensnittet
-Vill du gå ett steg längre? Gör dina kommentarer fetstilt:
+Vill du gå ett steg längre? Gör dina kommentarer fetstil:
 ```csharp
 // Ställer in teckensnittet för en kommentar till fetstil
 comment.Font.IsBold = true;

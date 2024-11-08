@@ -17,7 +17,7 @@ url: /zh-hant/net/exporting-excel-to-html-with-advanced-options/printing-heading
 4. 對 C# 的基本了解：了解 C# 的基礎知識將幫助您瀏覽程式碼，而不會感到不知所措。
 一旦所有這些都準備就緒，我們就可以開始導入必要的套件並編寫實際的程式碼！
 ## 導入包
-在深入研究程式碼之前，我們需要包含基本的 Aspose.Cells 命名空間。這一步就像打房子的地基一樣，是一切能否堅固的關鍵。
+在深入研究程式碼之前，我們需要包含必要的 Aspose.Cells 命名空間。這一步就像打房子的地基一樣，是一切能否堅固的關鍵。
 ```csharp
 using System;
 ```

@@ -72,7 +72,7 @@ for (int idx = 0; idx < workbook.Worksheets.Count; idx++)
     byte[] sheetData = ms.ToArray(); // Obtenir le tableau d'octets
 ```
 `ms.Position = 0;` réinitialise la position pour la lecture après l'écriture. Ensuite, nous utilisons`ToArray()` pour convertir le flux mémoire en un tableau d'octets contenant les données de la feuille de calcul.
-## Étape 7 : Combiner les données de la feuille de calcul
+## Étape 7 : combiner les données de la feuille de calcul
  Maintenant, nous allons combiner les données de chaque feuille de calcul en une seule`workbookData` tableau initialisé plus tôt.
 ```csharp
     // Combinez les données de cette feuille de calcul dans un tableau de données de classeur

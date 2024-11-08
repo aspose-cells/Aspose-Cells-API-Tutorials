@@ -83,7 +83,7 @@ Mari kita fokus pada tabel pivot pertama untuk contoh ini. Ini seperti memutuska
 // Dapatkan PivotTable pertama
 PivotTable pivotTable = pivotTables[0];
 ```
-Sama seperti sebelumnya, kita mengakses tabel pivot pertama. Pastikan lembar Anda memiliki setidaknya satu tabel pivot; jika tidak, Anda mungkin akan menemui referensi nol!
+Sama seperti sebelumnya, kita mengakses tabel pivot pertama. Pastikan lembar Anda memiliki setidaknya satu tabel pivot; jika tidak, Anda mungkin akan menemukan referensi null!
 
 ## Langkah 6: Hapus Bidang Data
 Sekarang kita sampai pada bagian yang penting: membersihkan kolom data pada tabel pivot kita. Ini membantu mengatur ulang semua kalkulasi atau ringkasan.

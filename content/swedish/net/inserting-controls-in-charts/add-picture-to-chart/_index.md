@@ -9,7 +9,7 @@ url: /sv/net/inserting-controls-in-charts/add-picture-to-chart/
 ---
 ## Introduktion
 
-Är du trött på tråkiga listor som saknar en personlig touch? Vill du lära dig hur du piffar upp dina Excel-bilder genom att lägga till bilder? Nåväl, du har tur! I den här handledningen kommer vi att dyka in i Aspose.Cells-världen för .NET och lära oss hur du lägger till bilder i diagram i Excel. Så ta din favoritkopp kaffe och låt oss börja!
+Är du trött på tråkiga listor som saknar en personlig touch? Vill du lära dig hur du piffar upp dina Excel-bilder genom att lägga till bilder? Tja, du har tur! I den här handledningen kommer vi att dyka in i Aspose.Cells-världen för .NET och lära oss hur du lägger till bilder i diagram i Excel. Så ta din favoritkopp kaffe och låt oss börja!
 
 ## Förutsättningar
 

@@ -58,7 +58,7 @@ string dataDir = "Your Document Directory";
 
 ## Paso 2: Definir la ruta del archivo
 
-A continuación, especifique la ruta del archivo del documento de Excel que desea convertir.
+continuación, especifique la ruta del archivo del documento de Excel que desea convertir.
 
 ```csharp
 string filePath = dataDir + "Book1.xlsx";

@@ -35,7 +35,7 @@ Ez a könyvtár nagy teljesítményű, és számtalan művelet végrehajtását 
 
 Bontsuk ezt több világos és tömör lépésre. Bizonyos oszlopokat véd, így a munkalap többi része szerkeszthető marad.
 
-## 1. lépés: Állítsa be az adatkönyvtárat
+## 1. lépés: Állítsa be az adattárat
 
 Először is be kell állítania annak a könyvtárnak az elérési útját, ahová az Excel-fájlt menti. Ez magában foglalja egy könyvtár létrehozását, ha még nem létezik. Íme, hogyan kell csinálni:
 
@@ -133,7 +133,7 @@ Ha minden be van állítva és készen áll, itt az ideje, hogy mentse a munkaf�
 wb.Save(dataDir + "output.out.xls", SaveFormat.Excel97To2003);
 ```
 
- Ez a kód Excel 97-2003 formátumban menti a munkafüzetet a megadott elérési úton. Ügyeljen arra, hogy cserélje ki`dataDir` a tényleges könyvtár elérési útjával.
+ Ez a kód Excel 97-2003 formátumban menti a munkafüzetet a megadott elérési úton. Mindenképpen cserélje ki`dataDir` a tényleges könyvtár elérési útjával.
 
 ## Következtetés
 

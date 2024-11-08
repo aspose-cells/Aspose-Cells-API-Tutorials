@@ -27,7 +27,7 @@ Pokud jste tak ještě neučinili, můžete přidat Aspose.Cells prostřednictv�
 1. Otevřete Visual Studio.
 2.  Přejít na`Tools` ->`NuGet Package Manager` ->`Manage NuGet Packages for Solution`.
 3. Vyhledejte „Aspose.Cells“ a nainstalujte jej pro svůj projekt.
-Nyní, když jsme položili základy, pojďme se vrhnout na zábavnější část!
+Nyní, když jsme položili základy, pojďme se vrhnout na zábavnou část!
 ## Krok 1: Nastavení adresáře dokumentů
 Nejprve nastavíme adresář, kde budou uloženy všechny vaše excelové dokumenty. Než začneme vytvářet náš sešit, je nezbytné se ujistit, že tento adresář existuje.
 ```csharp

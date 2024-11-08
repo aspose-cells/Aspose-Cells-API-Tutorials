@@ -75,7 +75,7 @@ Nu måste vi gå igenom alla kalkylblad i Excel-filen. Varje arbetsblad kommer a
 ```csharp
 foreach (Worksheet sheet in book.Worksheets)
 {
-    // Vi kommer att bearbeta varje arbetsblad en efter en
+    // Vi kommer att bearbeta varje arbetsblad ett efter ett
 }
 ```
 
@@ -83,7 +83,7 @@ Denna loop säkerställer att oavsett hur många kalkylblad som finns i din arbe
 
 ##  Steg 5: Skapa en`SheetRender` Object for Rendering
 
- För varje arbetsblad skapar vi en`SheetRender` objekt. Detta objekt är ansvarigt för att konvertera kalkylbladet till det önskade bildformatet, vilket i det här fallet är SVG.
+ För varje kalkylblad skapar vi en`SheetRender` objekt. Detta objekt är ansvarigt för att konvertera kalkylbladet till det önskade bildformatet, vilket i det här fallet är SVG.
 
 ```csharp
 SheetRender sr = new SheetRender(sheet, imgOptions);

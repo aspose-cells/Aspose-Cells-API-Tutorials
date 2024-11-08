@@ -80,7 +80,7 @@ Ce code spécifie la plage de cellules contenant les données que nous souhaiton
 DataSorter sorter = workbook.DataSorter;
 ```
 
- Avec le`sorter` objet prêt, nous pouvons définir les paramètres de tri ensuite.
+ Avec le`sorter` objet prêt, nous pouvons ensuite définir les paramètres de tri.
 
 ## Étape 6 : Configurer le trieur
 

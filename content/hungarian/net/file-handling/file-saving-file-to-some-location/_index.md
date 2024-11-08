@@ -15,7 +15,7 @@ Mielőtt belevágnánk a kódba, szereljük fel mindennel, ami a zökkenőmentes
 2.  Aspose.Cells Library: Le kell töltenie az Aspose.Cells könyvtárat. Megkaphatja a legújabb verziót[itt](https://releases.aspose.com/cells/net/).
 3. .NET-keretrendszer: Győződjön meg arról, hogy kompatibilis .NET-keretrendszer-verzióval rendelkezik az Aspose.Cells-hez, amely általában a .NET-keretrendszer 4.0-s és újabb verzióival működik.
 4. A C# alapvető ismerete: Hasznos lesz a C# programozás alapvető ismerete. Ne aggódj; mindent elmagyarázunk lépésről lépésre!
-5.  Fájl elérési útja: Döntse el, hová szeretné menteni a kimeneti fájlokat. Hozzon létre egy nevű könyvtárat`Your Document Directory` az egyszerűség kedvéért.
+5.  Fájl elérési útja: Döntse el, hová szeretné menteni a kimeneti fájlokat. Hozzon létre egy könyvtárat`Your Document Directory` az egyszerűség kedvéért.
 Ezekkel az eszközökkel és tudással felvértezve készen állsz a kódolási kalandra!
 ## Csomagok importálása
 Az Aspose.Cells könyvtár használatának megkezdéséhez először bele kell foglalnia a projektbe. Nyissa meg a Visual Studio projektet, és adja hozzá a könyvtári hivatkozást az alábbiak szerint:

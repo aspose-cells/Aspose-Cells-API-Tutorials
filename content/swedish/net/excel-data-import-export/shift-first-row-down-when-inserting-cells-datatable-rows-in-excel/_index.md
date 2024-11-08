@@ -9,7 +9,7 @@ url: /sv/net/excel-data-import-export/shift-first-row-down-when-inserting-cells-
 ---
 ## Introduktion
 
-Är du trött på att manuellt flytta rader när du infogar ny data i dina Excel-kalkylblad? Nåväl, du har tur! I den här artikeln kommer vi att dyka in i hur man automatiserar denna process med Aspose.Cells för .NET. I slutet av den här handledningen kommer du inte bara att lära dig hur du arbetar med datatabeller i Excel utan också hur du anpassar importalternativen så att de bättre passar dina behov. Lita på mig; detta kan spara mycket tid och krångel! Så ta en kopp kaffe, så sätter vi igång!
+Är du trött på att manuellt flytta rader när du infogar ny data i dina Excel-kalkylblad? Tja, du har tur! I den här artikeln kommer vi att dyka in i hur man automatiserar denna process med Aspose.Cells för .NET. I slutet av den här handledningen kommer du inte bara att lära dig hur du arbetar med datatabeller i Excel utan också hur du anpassar importalternativen så att de bättre passar dina behov. Lita på mig; detta kan spara mycket tid och krångel! Så ta en kopp kaffe, så sätter vi igång!
 
 ## Förutsättningar
 
@@ -112,7 +112,7 @@ Den här delen av klassen hanterar datahämtning, definierar hur många rader oc
 
 ## Steg 4: Skriv huvudfunktionen
 
- Nu, låt oss skapa`Run`metod för att orkestrera hela tabellimportprocessen:
+ Låt oss nu skapa`Run`metod för att orkestrera hela tabellimportprocessen:
 
 ```csharp
 public static void Run()

@@ -9,7 +9,7 @@ url: /cs/net/excel-data-alignment-formatting/change-cells-alignment-in-excel-wit
 ---
 ## Zavedení
 
-Správa souborů aplikace Excel se někdy může zdát jako navigace v labyrintu, zejména pokud jde o zachování formátování a provádění nezbytných úprav, jako je změna zarovnání buněk. Pokud jste se někdy pokusili vyladit zarovnání buněk v Excelu, abyste zjistili, že formátování je narušeno, nejste sami! V tomto tutoriálu se ponoříme do toho, jak změnit zarovnání buněk Excelu bez ztráty formátování pomocí Aspose.Cells for .NET. Vyhrňme si rukávy a začněme!
+Správa souborů aplikace Excel se někdy může zdát jako navigace v labyrintu, zejména pokud jde o zachování formátování a provádění nezbytných úprav, jako je změna zarovnání buněk. Pokud jste se někdy pokusili vyladit zarovnání buněk v Excelu, abyste zjistili, že formátování je narušeno, nejste sami! V tomto tutoriálu se ponoříme do toho, jak změnit zarovnání buněk aplikace Excel bez ztráty formátování pomocí Aspose.Cells pro .NET. Vyhrňme si rukávy a začněme!
 
 ## Předpoklady
 
@@ -18,7 +18,7 @@ Než se vrhneme na samotné kódování, je nezbytné se ujistit, že máte vše
 1. Visual Studio: Ujistěte se, že máte v počítači nainstalované Visual Studio (jakákoli verze, která podporuje .NET).
 2. Aspose.Cells for .NET: Stáhněte si a nainstalujte knihovnu Aspose.Cells z[Asposeho web](https://releases.aspose.com/cells/net/).
 3. Základní znalost C#: Trocha znalosti programování v C# se bude hodit, protože budeme pracovat v kontextu C#.
-4.  Vzorový soubor Excel: Pro demonstraci si připravte vzorový soubor Excel (např.`sampleChangeCellsAlignmentAndKeepExistingFormatting.xlsx`), který obsahuje nějaké počáteční formátování buňky.
+4.  Vzorový soubor Excel: Pro demonstraci si připravte vzorový soubor Excel (např.`sampleChangeCellsAlignmentAndKeepExistingFormatting.xlsx`), který obsahuje nějaké počáteční formátování buněk.
 
 ## Importujte balíčky
 

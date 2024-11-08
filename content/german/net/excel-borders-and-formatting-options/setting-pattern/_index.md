@@ -40,7 +40,7 @@ Worksheet sheet = workbook.Worksheets[0];
 ```
  Ersetzen Sie in diesem Snippet`"Your Document Directory"` mit dem Pfad, in dem Sie Ihre Excel-Datei speichern möchten.`Workbook` -Objekt wird erstellt und wir verweisen auf das erste Arbeitsblatt, das unser Spielplatz sein wird.
 ## Schritt 3: Bedingte Formatierung hinzufügen
-Jetzt verleihen wir unserem Arbeitsblatt etwas mehr Flair, indem wir eine bedingte Formatierung anwenden. Dadurch können wir das Erscheinungsbild von Zellen basierend auf ihren Werten ändern.
+Lassen Sie uns nun unserem Arbeitsblatt etwas mehr Flair verleihen, indem wir eine bedingte Formatierung anwenden. Dadurch können wir das Erscheinungsbild von Zellen basierend auf ihren Werten ändern.
 ```csharp
 // Fügt eine leere bedingte Formatierung hinzu
 int index = sheet.ConditionalFormattings.Add();
@@ -93,4 +93,4 @@ Mit Aspose.Cells können Sie verschiedene Excel-Formate erstellen und bearbeiten
 ### Gibt es eine Möglichkeit, Support für Aspose.Cells zu erhalten?
  Auf jeden Fall! Wenn Sie auf Probleme stoßen, können Sie sich an die Aspose-Community wenden[Hier](https://forum.aspose.com/c/cells/9).
 ### Wie kann ich auf unterschiedliche Zellbereiche unterschiedliche Muster anwenden?
- Sie können mehrere`CellArea` Objekte und wenden Sie nach Bedarf auf jeden Bereich unterschiedliche Regeln und Stile für die bedingte Formatierung an.
+ Sie können mehrere`CellArea` Objekte und wenden Sie nach Bedarf unterschiedliche Regeln und Stile für die bedingte Formatierung auf die einzelnen Bereiche an.

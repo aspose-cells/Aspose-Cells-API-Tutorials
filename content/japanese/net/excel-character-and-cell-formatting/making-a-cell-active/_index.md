@@ -25,7 +25,7 @@ using System.Drawing;
 ```
 このシンプルな行により、プログラムが Aspose.Cells ライブラリの機能にアクセスできるようになります。これで、ステップバイステップ ガイドに進む準備が整いました。
 ## ステップ1: ドキュメントディレクトリを設定する
-まず最初に、ドキュメントディレクトリへのパスを設定する必要があります。これは、変更を加えた後にExcelファイルが保存される場所です。`"Your Document Directory"`マシン上の実際のパスを使用します。
+まず最初に、ドキュメントディレクトリへのパスを設定します。これは、変更を加えた後のExcelファイルが保存される場所です。`"Your Document Directory"`マシン上の実際のパスを使用します。
 ```csharp
 //ドキュメント ディレクトリへのパス。
 string dataDir = "Your Document Directory";
@@ -106,4 +106,4 @@ Aspose.Cells for .NET は、マシンに Excel をインストールしなくて
 ### Aspose.Cells を使用するには Microsoft Excel をインストールする必要がありますか?
 いいえ、Aspose.Cells は Microsoft Excel とは独立して動作するため、任意のサーバーまたは環境で Excel ファイルを作成および操作できます。
 ### Aspose.Cells のサポートを受けるにはどうすればよいですか?
- Aspose.Cellsのサポートには、[Aspose フォーラム](https://forum.aspose.com/c/cells/9)では、他のユーザーと質問したり、経験を共有したりできます。
+ Aspose.Cellsのサポートには、[Aspose フォーラム](https://forum.aspose.com/c/cells/9)では、他のユーザーと質問したり、経験を共有したりすることができます。

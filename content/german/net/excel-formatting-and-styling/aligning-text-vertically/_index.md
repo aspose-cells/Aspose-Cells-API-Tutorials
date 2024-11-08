@@ -8,7 +8,7 @@ weight: 21
 url: /de/net/excel-formatting-and-styling/aligning-text-vertically/
 ---
 ## Einführung
-Willkommen zu einer spannenden Reise, auf der wir in die Welt von Excel eintauchen und lernen, wie Sie Text mithilfe der leistungsstarken Aspose.Cells-Bibliothek für .NET vertikal in Excel-Zellen ausrichten. Excel ist ein fantastisches Tool zur Datenverwaltung, aber manchmal kann die Präsentation dieser Daten genauso wichtig sein wie die Daten selbst. Waren Sie schon einmal frustriert darüber, wie Ihr Text in diesen Zellen aussieht? Keine Sorge; in diesem Tutorial zeigen wir Ihnen, wie Sie den visuellen Aspekt Ihrer Excel-Tabellen mit ein paar einfachen Schritten verbessern können!
+Willkommen zu einer spannenden Reise, auf der wir in die Welt von Excel eintauchen und lernen, wie Sie Text mithilfe der leistungsstarken Aspose.Cells-Bibliothek für .NET vertikal in Excel-Zellen ausrichten. Excel ist ein fantastisches Tool für die Datenverwaltung, aber manchmal kann die Präsentation dieser Daten genauso wichtig sein wie die Daten selbst. Waren Sie schon einmal frustriert darüber, wie Ihr Text in diesen Zellen aussieht? Keine Sorge; in diesem Tutorial zeigen wir Ihnen, wie Sie den visuellen Aspekt Ihrer Excel-Tabellen mit ein paar einfachen Schritten verbessern können!
 ## Voraussetzungen
 Bevor wir uns in die Einzelheiten der Textausrichtung in Excel-Zellen stürzen, sollten Sie ein paar Dinge bereit haben:
 1.  Visual Studio: Stellen Sie sicher, dass Sie eine funktionierende Version von Visual Studio oder einer anderen kompatiblen IDE haben. Wenn Sie es noch nicht installiert haben, worauf warten Sie noch? Sie können es sich holen[Hier](https://visualstudio.microsoft.com/).
@@ -70,7 +70,7 @@ Aspose.Cells.Cell cell = worksheet.Cells["A1"];
 ## Schritt 8: Einen Wert zur Zelle hinzufügen
 Es ist Zeit, etwas Inhalt in unsere Zelle einzufügen. Wir werden eine freundliche Nachricht hinzufügen:
 ```csharp
-// Hinzufügen eines Wertes zur Zelle „A1“
+// Einen Wert zur Zelle „A1“ hinzufügen
 cell.PutValue("Visit Aspose!");
 ```
 Sieht das nicht hübsch aus? 

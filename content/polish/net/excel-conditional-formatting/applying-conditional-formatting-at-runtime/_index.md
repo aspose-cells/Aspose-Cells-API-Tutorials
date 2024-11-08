@@ -48,7 +48,7 @@ Po skonfigurowaniu projektu należy dodać odwołanie do biblioteki Aspose.Cells
 2. Wybierz opcję Zarządzaj pakietami NuGet.
 3. Wyszukaj Aspose.Cells i zainstaluj.
 
-Umożliwi to wykorzystanie wszystkich funkcjonalności udostępnianych przez bibliotekę Aspose.Cells.
+Umożliwi to wykorzystanie wszystkich funkcji udostępnianych przez bibliotekę Aspose.Cells.
 
 ## Krok 3: Utwórz obiekt skoroszytu
 Następnie utwórzmy nowy skoroszyt i arkusz kalkulacyjny. To tutaj dzieje się cała magia:

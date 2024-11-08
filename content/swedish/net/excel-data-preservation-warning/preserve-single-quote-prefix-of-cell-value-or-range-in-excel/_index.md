@@ -39,7 +39,7 @@ Låt oss nu beskriva stegen för att bevara prefixet för enstaka citattecken i 
 
 ## Steg 1: Konfigurera arbetsboken
 
-Först måste vi skapa en ny arbetsbok och specificera våra kataloger för in- och utdatafiler.
+Först måste vi skapa en ny arbetsbok och ange våra kataloger för in- och utdatafiler.
 
 ```csharp
 // Källkatalog
@@ -70,7 +70,7 @@ Detta väljer helt enkelt det första kalkylbladet, vilket vanligtvis är bra f�
 Låt oss nu arbeta med en specifik cell – låt oss välja cell A1. 
 
 ```csharp
-// Gå till cell A1
+// Öppna cell A1
 Cell cell = ws.Cells["A1"];
 
 // Lägg lite text i cellen, den har inte enstaka citat i början

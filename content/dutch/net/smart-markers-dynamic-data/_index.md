@@ -70,7 +70,7 @@ Ontdek de kracht van Aspose.Cells voor .NET en leer hoe u moeiteloos kopieerstij
 Leer formuleparameters gebruiken in slimme markers met Aspose.Cells voor .NET. Maak eenvoudig dynamische spreadsheets.
 ### [Gebruik generieke lijst in slimme markers Aspose.Cells](./generic-list-smart-markers/)
 Master Aspose.Cells voor .NET met generieke lijsten en slimme markers om moeiteloos dynamische Excel-rapporten te maken. Eenvoudige handleiding voor ontwikkelaars.
-### [Gebruik HTML-eigenschap in slimme markeringen Aspose.Cells .NET](./html-property-smart-markers/)
+### [HTML-eigenschap gebruiken in slimme markeringen Aspose.Cells .NET](./html-property-smart-markers/)
 Ontdek de kracht van Aspose.Cells met deze stapsgewijze zelfstudie over het gebruik van de HTML-eigenschap in slimme markeringen voor .NET-toepassingen.
 ### [Geneste objecten verwerken met slimme markeringen Aspose.Cells](./nested-objects-smart-markers/)
 Benut het potentieel van Excel-rapportage met Aspose.Cells door geneste objecten moeiteloos te verwerken met behulp van slimme markeringen in een stapsgewijze handleiding.

@@ -81,7 +81,7 @@ Style style = cell.GetStyle();
 ## Βήμα 8: Ορίστε το χρώμα γραμματοσειράς
 Εδώ έρχεται το διασκεδαστικό μέρος! Θα αλλάξουμε το χρώμα της γραμματοσειράς του κειμένου που προσθέσαμε σε μπλε.
 ```csharp
-// ExStart: SetFontColor
+// ExStart:SetFontColor
 // Ρύθμιση του χρώματος της γραμματοσειράς σε μπλε
 style.Font.Color = Color.Blue;
 // ExEnd:SetFontColor

@@ -86,7 +86,7 @@ Console.WriteLine("ConvertExcelFileToPptx executed successfully.");
 ## 常見問題解答
 
 ### 我可以在不使用 Aspose.Cells 的情況下將 Excel 轉換為 PPTX 嗎？
-是的，但它需要手動編碼轉換器或使用其他第三方庫。 Aspose.Cells 顯著簡化了這個過程。
+是的，但需要手動編碼轉換器或使用其他第三方函式庫。 Aspose.Cells 顯著簡化了這個過程。
 
 ### 轉換是否會保留 Excel 檔案中的所有圖表和圖形？
 Aspose.Cells 將在轉換過程中保留大部分圖表、表格和其他視覺效果，使過程順利且準確。

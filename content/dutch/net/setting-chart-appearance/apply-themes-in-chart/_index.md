@@ -18,7 +18,7 @@ Voordat we beginnen met coderen, zijn er een paar vereisten waaraan u moet voldo
 ### Vereiste software
 
 1. Visual Studio: Zorg ervoor dat u Visual Studio op uw machine hebt geïnstalleerd. Het biedt een vriendelijke omgeving voor het ontwikkelen van .NET-applicaties.
-2. .NET Framework of .NET Core: Afhankelijk van uw voorkeur moet u .NET Framework of .NET Core hebben ingesteld om onze code te kunnen gebruiken.
+2. .NET Framework of .NET Core: Afhankelijk van uw voorkeur moet u .NET Framework of .NET Core hebben ingesteld om onze code te kunnen volgen.
 3.  Aspose.Cells voor .NET: Dit mag u niet missen! Download Aspose.Cells voor .NET om te beginnen. U vindt de DLL's[hier](https://releases.aspose.com/cells/net/).
 4. Basiskennis van C#: Hoewel we u stap voor stap door de code leiden, is enige basiskennis van C# zeker nuttig.
 

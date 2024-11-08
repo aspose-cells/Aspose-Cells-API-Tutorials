@@ -23,7 +23,7 @@ using System.IO;
 using Aspose.Cells;
 ```
  Genom att inkludera dessa namnrymder är du redo att utnyttja den fulla potentialen hos Aspose.Cells i ditt C#-projekt. De`Aspose.Cells` namnområdet innehåller alla klasser och metoder du behöver för att arbeta med Excel-filer, medan`System.IO` hjälper dig att hantera filoperationer sömlöst.
-Låt oss nu bryta ner processen att arbeta med Excel-data med hjälp av Aspose.Cells i ett tydligt steg-för-steg tillvägagångssätt. Vi kommer att skapa en Excel-fil, lägga till data, utföra beräkningar och spara resultatet. Här går vi!
+Låt oss nu bryta ner processen för att arbeta med Excel-data med Aspose.Cells i ett tydligt steg-för-steg tillvägagångssätt. Vi kommer att skapa en Excel-fil, lägga till data, utföra beräkningar och spara resultatet. Här går vi!
 ## Steg 1: Konfigurera katalogen
 Det första steget är att definiera var du vill lagra din Excel-fil. Du måste skapa en katalog om den inte redan finns.
 ```csharp
@@ -58,7 +58,7 @@ Precis som när du öppnar din anteckningsbok till höger sida, ger den här rad
 ## Steg 5: Lägga till data i celler
 Låt oss fylla i vårt kalkylblad med några exempeldata. Vi lägger till siffror i tre celler och förbereder oss för att summera dem.
 ```csharp
-// Lägga till ett värde till "A1"-cellen
+// Lägga till ett värde i cellen "A1".
 worksheet.Cells["A1"].PutValue(1);
 // Lägga till ett värde till "A2"-cellen
 worksheet.Cells["A2"].PutValue(2);

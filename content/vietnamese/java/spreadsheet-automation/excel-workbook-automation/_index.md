@@ -92,7 +92,7 @@ Sau đây là một số câu hỏi thường gặp liên quan đến Tự độ
    Có, bạn có thể. Aspose.Cells for Java cho phép bạn làm việc với các tệp Excel mà không cần cài đặt Microsoft Excel.
 
 ### Làm thế nào để định dạng ô hoặc áp dụng kiểu cho dữ liệu Excel bằng Aspose.Cells?
-   Bạn có thể áp dụng nhiều định dạng và kiểu khác nhau cho các ô bằng Aspose.Cells. Tham khảo tài liệu API để biết ví dụ chi tiết.
+   Bạn có thể áp dụng nhiều định dạng và kiểu khác nhau cho ô bằng Aspose.Cells. Tham khảo tài liệu API để biết ví dụ chi tiết.
 
 ### Aspose.Cells for Java có tương thích với các định dạng tệp Excel khác nhau không?
    Có, Aspose.Cells hỗ trợ nhiều định dạng tệp Excel, bao gồm XLS, XLSX, XLSM, v.v.

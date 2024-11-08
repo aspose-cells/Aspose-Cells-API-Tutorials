@@ -80,4 +80,4 @@ Přizpůsobení stylů kontingenčních tabulek v Aspose.Cells for Java API je p
 ### Kde najdu další dokumentaci k přizpůsobení kontingenční tabulky?
     Dokumentaci API naleznete na adrese[Aspose.Cells for Java API Reference](https://reference.aspose.com/cells/java/) pro podrobné informace.
 
-Nyní máte znalosti pro vytváření a přizpůsobení stylů kontingenčních tabulek v Aspose.Cells for Java. Prozkoumejte dále a udělejte své datové prezentace skutečně výjimečné!
+Nyní máte znalosti pro vytváření a přizpůsobení stylů kontingenční tabulky v Aspose.Cells pro Java. Prozkoumejte dále a udělejte své datové prezentace skutečně výjimečné!

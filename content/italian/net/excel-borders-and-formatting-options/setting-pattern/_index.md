@@ -80,7 +80,7 @@ Dopo aver applicato la formattazione, è il momento di salvare il nostro capolav
 ```csharp
 workbook.Save(dataDir + "output.xlsx");
 ```
-Assicurati di modificare il nome del file e il percorso della directory come necessario. Esegui la tua applicazione e voilà! Il tuo file Excel formattato è pronto per l'azione.
+Assicurati di modificare il nome del file e il percorso della directory come necessario. Esegui l'applicazione e voilà! Il tuo file Excel formattato è pronto per l'azione.
 ## Conclusione
 Congratulazioni! Hai impostato con successo un pattern a livello di programmazione in Excel usando Aspose.Cells per .NET. Con la possibilità di automatizzare la formattazione, puoi risparmiare un sacco di tempo e garantire la coerenza nei tuoi fogli di calcolo. Che tu stia generando report, analizzando dati o semplicemente cercando di impressionare il tuo capo, questa competenza è una preziosa aggiunta al tuo kit di strumenti. 
 ## Domande frequenti

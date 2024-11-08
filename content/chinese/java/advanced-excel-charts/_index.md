@@ -18,7 +18,7 @@ url: /zh/java/advanced-excel-charts/
 
 ## 释放数据可视化的潜力：
 
-通过使用 Aspose.Cells for Java 深入研究高级 Excel 图表，您可以释放有效传达见解的潜力。这些教程可帮助您创建视觉效果极佳的图表，吸引观众并增强决策能力。立即使用 Aspose.Cells for Java 开始掌握数据可视化之旅。
+通过使用 Aspose.Cells for Java 深入研究高级 Excel 图表，您可以释放有效传达见解的潜力。这些教程可帮助您创建视觉效果极佳的图表，吸引观众并增强决策能力。立即使用 Aspose.Cells for Java 开始掌握数据可视化的旅程。
 
 ## 高级 Excel 图表教程
 ### [交互式仪表板](./interactive-dashboards/)

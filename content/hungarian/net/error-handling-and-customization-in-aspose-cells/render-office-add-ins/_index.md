@@ -2,7 +2,7 @@
 title: Rendeljen Office-bővítményeket Excelben PDF-be az Aspose.Cells segítségével
 linktitle: Rendeljen Office-bővítményeket Excelben PDF-be az Aspose.Cells segítségével
 second_title: Aspose.Cells .NET Excel Processing API
-description: Ismerje meg, hogyan renderelheti le az Office-bővítményeket az Excelben PDF-formátumba az Aspose.Cells for .NET használatával. Kövesse lépésenkénti oktatóanyagunkat a hatékony dokumentumátalakítás érdekében.
+description: Ismerje meg, hogyan renderelheti le az Office-bővítményeket az Excelben PDF formátumba az Aspose.Cells for .NET használatával. Kövesse lépésenkénti oktatóanyagunkat a hatékony dokumentumátalakítás érdekében.
 type: docs
 weight: 10
 url: /hu/net/error-handling-and-customization-in-aspose-cells/render-office-add-ins/

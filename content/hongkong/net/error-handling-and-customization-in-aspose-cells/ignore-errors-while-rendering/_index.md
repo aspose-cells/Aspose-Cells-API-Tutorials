@@ -8,7 +8,7 @@ weight: 11
 url: /zh-hant/net/error-handling-and-customization-in-aspose-cells/ignore-errors-while-rendering/
 ---
 ## 介紹
-在將 Excel 檔案轉換為 PDF 時，遇到錯誤可能是一場噩夢，尤其是當您正在處理需要共享或存檔的關鍵資料時。但別擔心； Aspose.Cells for .NET 來拯救世界！在本指南中，我們將引導您了解如何在轉換過程中忽略錯誤。想像一下，將混亂的 Excel 工作表轉換為精美的 PDF，而不會出現中斷的麻煩。讓我們深入了解吧！
+在將 Excel 檔案轉換為 PDF 時，遇到錯誤可能是一場噩夢，尤其是在處理需要共享或存檔的關鍵資料時。但別擔心； Aspose.Cells for .NET 來拯救世界！在本指南中，我們將引導您了解如何在轉換過程中忽略錯誤。想像一下，將混亂的 Excel 工作表轉換為精美的 PDF，而不會出現中斷的麻煩。讓我們深入了解一下吧！
 ## 先決條件
 在我們開始討論將 Excel 轉換為 PDF 並忽略討厭的錯誤的細節之前，您需要確保以下幾點已就位：
 1. .NET 環境：請確定您的電腦上安裝了 .NET。無論您使用 .NET Framework 還是 .NET Core，Aspose.Cells 都能無縫運作。

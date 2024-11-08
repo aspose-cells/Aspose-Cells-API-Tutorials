@@ -89,7 +89,7 @@ In diesem Snippet setzen wir den Komprimierungstyp auf Stufe 1, speichern die Ar
 
 ### Komprimierung der Stufe 6
 
-Als nächstes versuchen wir es mit einer Komprimierungsstufe im mittleren Bereich:
+Als Nächstes versuchen wir es mit einer Komprimierungsstufe im mittleren Bereich:
 
 ```csharp
 options.CompressionType = OoxmlCompressionType.Level6;

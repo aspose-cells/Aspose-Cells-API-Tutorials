@@ -29,7 +29,7 @@ In questo primo passaggio, dobbiamo stabilire le directory di origine e di outpu
 ```csharp
 //Elenco di origine
 string sourceDir = "Your Document Directory";
-//Directory di uscita
+//Directory di output
 string outputDir = "Your Document Directory";
 ```
  Sostituire`"Your Document Directory"` con il percorso effettivo in cui sono archiviati i file Excel.

@@ -60,7 +60,7 @@ Så här skapar du en arbetsbok:
 Workbook workbook = new Workbook();
 ```
 
- Denna rad initierar en ny instans av`Workbook` klass, vilket är kärnelementet för att hantera Excel-filer i Aspose.Cells.
+ Den här raden initierar en ny instans av`Workbook` klass, vilket är kärnelementet för att hantera Excel-filer i Aspose.Cells.
 
 ## Steg 3: Öppna sidinställningarna
 

@@ -27,4 +27,4 @@ Aspose.Cells を使用して .NET でのファイル保存のパワーを解き�
 ### [ファイルをストリームに保存](./file-saving-file-to-stream/)
 例が満載のこのステップバイステップ ガイドで、Aspose.Cells for .NET を使用して Excel ファイルをストリームに保存する方法を学習します。
 ### [カスタムセパレータを使用してテキストファイルを保存する](./file-saving-text-file-with-custom-separator/)
-Aspose.Cells for .NET を使用して、カスタム区切り文字を含むテキスト ファイルを保存する方法を学習します。ステップ バイ ステップ ガイドとヒントが含まれています。
+Aspose.Cells for .NET を使用して、カスタム区切り文字付きのテキスト ファイルを保存する方法を学習します。ステップ バイ ステップ ガイドとヒントが含まれています。

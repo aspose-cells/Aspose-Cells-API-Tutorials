@@ -154,4 +154,4 @@ Ano! Chcete-li chránit více sloupců, jednoduše zopakujte kód zámku sloupc�
 Aspose.Cells podporuje různé formáty včetně XLSX, XLS, CSV a dalších.
 
 ### Jak získám podporu pro Aspose.Cells?
- Pomoc a podporu komunity najdete na adrese[Aspose fórum](https://forum.aspose.com/c/cells/9).
+ Pomoc a podporu komunity najdete na[Aspose fórum](https://forum.aspose.com/c/cells/9).

@@ -129,7 +129,7 @@ Range rng = ws.Cells.CreateRange("A1");
 rng.ApplyStyle(st, flag);
 ```
 
- Hier is de clou! Door te specificeren`flag.QuotePrefix = false`, zeggen we tegen het programma: "Hé, raak het bestaande voorvoegsel niet aan." Wat gebeurt er dan?
+ Hier is de clou! Door te specificeren`flag.QuotePrefix = false`, we vertellen het programma: "Hé, raak het bestaande voorvoegsel niet aan." Dus wat gebeurt er?
 
 ## Stap 7: Controleer het citaatvoorvoegsel opnieuw
 

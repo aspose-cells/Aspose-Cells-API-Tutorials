@@ -170,3 +170,25 @@ Aspose.Cells for .NET ile Excel'de satır ve sütunları otomatik olarak sığd�
 Aspose.Cells for .NET ile Excel dilimleyicilerini yönetmeye ilişkin kapsamlı eğitimleri keşfedin. Dilimleyicileri zahmetsizce nasıl oluşturacağınızı, güncelleyeceğinizi, biçimlendireceğinizi ve dışa aktaracağınızı öğrenin.
 ### [Dinamik Veriler için Aspose.Cells'deki Akıllı İşaretleyiciler](./smart-markers-dynamic-data/)
 Dinamik Excel raporları oluşturmak için Aspose.Cells for .NET Smart Markers Eğitimlerini keşfedin. Etiket eklemeyi, verileri otomatik olarak doldurmayı, formülleri kullanmayı ve daha fazlasını öğrenin.
+### [Tablolar ve Listeler](./tables-and-lists/)
+Excel verilerinizi etkili bir şekilde yönetmek, tablolar oluşturmak ve kolay takip edilebilir kılavuzlarla becerilerinizi geliştirmek için kapsamlı Aspose.Cells for .NET eğitimlerini keşfedin.
+### [Aspose.Cells Çalışma Kitabı İşlemleri](./workbook-operations/)
+Veri erişimi, XML özelleştirmesi, imzalar, web uzantıları ve daha fazlasını kapsayan Aspose.Cells for .NET çalışma kitabı eğitimlerini keşfedin. Excel otomasyon becerilerinizi kolayca geliştirin.
+### [Çalışma Kitabı Ayarları](./workbook-settings/)
+Çalışma kitabı ayarlarını, harici kaynakları ve daha fazlasını kapsayan kapsamlı Aspose.Cells for .NET eğitimlerini keşfedin.
+### [Çalışma Kitabı VBA Projesi](./workbook-vba-project/)
+Aspose.Cells for .NET ile Excel'in gücünü açığa çıkarın. VBA proje koruması, kullanıcı formlarını kopyalama ve çalışma kitabınızı güvence altına alma hakkında kapsamlı eğitimleri keşfedin.
+### [Çalışma Sayfası Görünümü](./worksheet-display/)
+Aspose.Cells for .NET öğreticilerinin kapsamlı listesini keşfedin. Temel çalışma sayfası özellikleriyle ilgili adım adım kılavuzlarla Excel becerilerinizi geliştirin.
+### [Çalışma Sayfası Yönetimi](./worksheet-management/)
+Kapsamlı eğitimlerimizle Aspose.Cells for .NET'in gücünü açığa çıkarın ve adım adım talimatlarla çalışma sayfası yönetiminde size rehberlik edin.
+### [Çalışma Sayfası Sayfa Düzeni Özellikleri](./worksheet-page-setup-features/)
+Aspose.Cells for .NET'in çalışma sayfası sayfa kurulumu eğitimlerini keşfedin; sayfa ayarlarını kopyalama, kağıt boyutunu yönetme ve Excel çalışma sayfaları için baskı kalitesini ayarlama gibi konuları inceleyin.
+### [Çalışma Sayfası Güvenliği](./worksheet-security/)
+Excel güvenliğinin sırlarını açığa çıkarın. Çalışma sayfalarınızı zahmetsizce korumak, düzenlemek ve yönetmek için kapsamlı Aspose.Cells for .NET eğitimlerimizi keşfedin.
+### [Çalışma Sayfası Değer İşlemleri](./worksheet-value-operations/)
+Excel projelerinizi geliştirmek için çalışma sayfası değer işlemlerini kapsayan Aspose.Cells for .NET ile ilgili temel eğitimleri keşfedin.
+### [Çalışma Sayfası İşlemleri](./worksheet-operations/)
+Veri erişimi, XML özelleştirmesi, imzalar, web uzantıları ve daha fazlasını kapsayan Aspose.Cells for .NET çalışma kitabı eğitimlerini keşfedin. Excel otomasyon becerilerinizi kolayca geliştirin.
+### [Xml Harita İşlemleri](./xml-map-operations/)
+Excel becerilerinizi zahmetsizce geliştirmek için XML haritalama işlemlerini kapsayan kapsamlı Aspose.Cells for .NET eğitimlerini keşfedin.

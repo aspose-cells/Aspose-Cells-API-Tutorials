@@ -41,7 +41,7 @@ Workbook workbook = new Workbook();
 ```csharp
 int sheetIndex = workbook.Worksheets.Add();
 ```
-此行在工作簿中建立一個新工作表並返回其索引，我們將其儲存在變數中`sheetIndex`.
+此行在您的工作簿中建立一個新工作表並返回其索引，我們將其儲存在變數中`sheetIndex`.
 ## 第 4 步：取得新工作表
 讓我們參考新建立的工作表。使用我們剛剛獲得的索引，我們可以存取工作表並對其進行操作：
 ```csharp

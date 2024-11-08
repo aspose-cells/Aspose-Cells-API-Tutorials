@@ -63,7 +63,7 @@ if (response != null)
 ```
 Denna del är avgörande för att spara arbetsboksdata direkt tillbaka till användarens webbläsare.
 ## Steg 4: Spara arbetsboken
- Här händer magin. Du sparar din arbetsbok med hjälp av`Save` metod.
+ Det är här magin händer. Du sparar din arbetsbok med hjälp av`Save` metod.
 1. Använd den här koden för att spara din arbetsbok:
    ```csharp
    workbook.Save(response, dataDir + "output.xls", ContentDisposition.Inline, new XlsSaveOptions());

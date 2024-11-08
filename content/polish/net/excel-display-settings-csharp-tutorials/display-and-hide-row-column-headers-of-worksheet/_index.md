@@ -107,7 +107,7 @@ fstream.Close();
 
 ## Wniosek
 
-masz to! Nauczyłeś się, jak ukryć nagłówki wierszy i kolumn arkusza kalkulacyjnego Excela za pomocą Aspose.Cells dla .NET, wykonując szereg prostych kroków. Może to poprawić czytelność i ogólną prezentację arkuszy kalkulacyjnych, pozwalając odbiorcom skupić się wyłącznie na danych, które chcesz wyróżnić.
+masz to! Nauczyłeś się, jak ukryć nagłówki wierszy i kolumn arkusza kalkulacyjnego programu Excel za pomocą Aspose.Cells dla .NET, wykonując szereg prostych kroków. Może to poprawić czytelność i ogólną prezentację arkuszy kalkulacyjnych, pozwalając odbiorcom skupić się wyłącznie na danych, które chcesz wyróżnić.
 
 ## Najczęściej zadawane pytania
 

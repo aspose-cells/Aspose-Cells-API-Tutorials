@@ -135,7 +135,7 @@ Aspose.Cells for .NET は、.NET アプリケーション内で Excel ファイ�
 無料トライアルもありますが、フル機能を使用するにはライセンスが必要です。[こちらから購入](https://purchase.aspose.com/buy).
 
 ### このプロセスには Visual Studio が必要ですか?  
-ここでは Visual Studio を使用して説明しましたが、プロジェクトを実行するには C# と互換性のある任意の IDE を使用できます。
+ここでは Visual Studio を使用してデモを行いましたが、プロジェクトを実行するには C# と互換性のある任意の IDE を使用できます。
 
 ### Aspose.Cells のサポートはどこで見つかりますか?  
 アクセスできます[Aspose サポート フォーラム](https://forum.aspose.com/c/cells/9)ガイダンスとトラブルシューティングのため。

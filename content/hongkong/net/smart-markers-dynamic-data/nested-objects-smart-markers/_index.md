@@ -92,6 +92,6 @@ Aspose.Cells 中的智慧標記可讓您使用佔位符標記輕鬆將資料綁�
 ### Aspose.Cells 有免費版本嗎？  
 你可以嘗試一個[在這裡免費試用](https://releases.aspose.com/)在購買之前。
 ### 我如何獲得技術支援？  
-請隨意訪問[Aspose 支援論壇](https://forum.aspose.com/c/cells/9)如有任何疑問。
+請隨時訪問[Aspose 支援論壇](https://forum.aspose.com/c/cells/9)如有任何疑問。
 ### 我可以處理複雜的巢狀資料結構嗎？  
 絕對地！ Aspose.Cells 旨在有效地處理複雜的巢狀物件。

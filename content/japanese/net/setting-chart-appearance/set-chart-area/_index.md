@@ -168,10 +168,10 @@ Aspose.Cells は、Excel ファイルをプログラムで管理するための 
 はい！Aspose.Cells には、Java、Python、クラウドなど、さまざまなプラットフォーム用のライブラリが用意されており、さまざまな環境で汎用的に使用できます。
 
 ### 無料トライアルはありますか？
-もちろんです！Aspose.Cellsを無料トライアルで試すことができます[ここ](https://releases.aspose.com/).
+もちろんです！Aspose.Cellsは無料トライアルで試すことができます。[ここ](https://releases.aspose.com/).
 
 ### Aspose.Cells の使用中に問題が発生した場合はどうすればよいですか?
-Aspose.Cellsコミュニティやフォーラムからヘルプやサポートを受けることができます。[ここ](https://forum.aspose.com/c/cells/9).
+ Aspose.Cellsコミュニティやフォーラムからヘルプやサポートを受けることができます。[ここ](https://forum.aspose.com/c/cells/9).
 
 ### ライセンスを購入するにはどうすればよいですか?
 ライセンスはAsposeのWebサイトから直接購入できます。[ここ](https://purchase.aspose.com/buy).

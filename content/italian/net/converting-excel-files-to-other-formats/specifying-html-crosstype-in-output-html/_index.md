@@ -61,14 +61,14 @@ opts.HtmlCrossStringType = HtmlCrossType.Cross;
 // O
 opts.HtmlCrossStringType = HtmlCrossType.FitToCell;
 ```
-## Passaggio 5: salvare il file HTML di output
+## Passaggio 5: Salvare il file HTML di output
  Una volta configurate le opzioni, è il momento di salvare il file HTML convertito. Utilizzare`Save` metodo sul tuo`Workbook` oggetto:
 ```csharp
 // Uscita HTML
 wb.Save(outputDir + "out" + opts.HtmlCrossStringType + ".htm", opts);
 ```
  Qui, stiamo nominando il file di output in base a`HtmlCrossStringType` abbiamo impostato. In questo modo, puoi facilmente identificare quale tipo di croce è stato utilizzato nella conversione.
-## Passaggio 6: confermare l'esecuzione corretta
+## Passaggio 6: Confermare l'esecuzione corretta
 Infine, è sempre una buona norma confermare che l'operazione è andata a buon fine. Puoi stampare un messaggio sulla console:
 ```csharp
 Console.WriteLine("SpecifyHtmlCrossTypeInOutputHTML executed successfully.\r\n");

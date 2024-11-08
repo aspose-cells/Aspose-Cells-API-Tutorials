@@ -147,7 +147,7 @@ ImageOrPrintOptions options = new ImageOrPrintOptions()
 chart.ToImage(outputDir + "outputChartRendering.png", options);
 ```
 
-Это сохранит вашу диаграмму в виде PNG-файла с улучшенными настройками качества.
+Это позволит сохранить вашу диаграмму в формате PNG-файла с улучшенными настройками качества.
 
 ## Шаг 11: Экспорт диаграммы в PDF
 

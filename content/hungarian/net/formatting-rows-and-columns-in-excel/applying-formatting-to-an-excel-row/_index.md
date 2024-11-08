@@ -67,7 +67,7 @@ style.Borders[BorderType.BottomBorder].Color = Color.Red;
 // A cella alsó szegélyének típusának beállítása közepesre
 style.Borders[BorderType.BottomBorder].LineStyle = CellBorderType.Medium;
 ```
-A szegélyek segíthetnek vizuálisan elválasztani a tartalmat, így az adatok könnyebben olvashatóak és esztétikusabbak.
+A szegélyek segíthetnek a tartalom vizuális elkülönítésében, így az adatok könnyebben olvashatóak és esztétikusabbak.
 ## 5. lépés: Hozzon létre egy StyleFlag objektumot
  A`StyleFlag`Az objektum megmondja az Aspose.Cells-nek, hogy a stílus mely aspektusait kell alkalmazni. Ez lehetővé teszi, hogy pontosan szabályozza, hogy mi kerüljön alkalmazásra, és biztosítja, hogy csak a kívánt formázás legyen beállítva.
 ```csharp
@@ -110,7 +110,7 @@ Igen, különböző stílusokat alkalmazhat az egyes cellákra, ha közvetlenül
 ### Alkalmazható-e feltételes formázás az Aspose.Cells segítségével?  
 Teljesen! Az Aspose.Cells támogatja a feltételes formázást, lehetővé téve a cellaértékeken alapuló szabályok meghatározását.
 ### Hogyan alkalmazhatok formázást több sorra?  
- Több sorban is lépkedhet az a segítségével`for` hurkot, és ugyanazt a stílust alkalmazza minden sorra külön-külön.
+ Több sorban is lépkedhet az a segítségével`for` hurok, és ugyanazt a stílust alkalmazza minden sorra külön-külön.
 ### Az Aspose.Cells támogatja a stílusok alkalmazását teljes oszlopokra?  
  Igen, hasonlóan a sorokhoz, az oszlopokhoz a`Columns` összegyűjteni és stílusokat alkalmazni rájuk.
 ### Használhatom az Aspose.Cells-t .NET Core alkalmazásokkal?  

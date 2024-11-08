@@ -16,7 +16,7 @@ Excel 檔案在當今資料驅動的世界中無所不在，是呈現、操作�
 在深入學習本教學之前，您需要確保已設定有效使用 Aspose.Cells for .NET 所需的一切。這是一個需要遵循的清單：
 
 1. .NET Framework：請確定您的電腦上安裝了 .NET Framework。 
-2. Aspose.Cells 庫：下載並安裝 Aspose.Cells 庫。你可以從[這裡](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells 庫：下載並安裝 Aspose.Cells 庫。你可以從[這裡](https://releases.aspose.com/cells/net/).
 3. IDE：雖然任何程式碼編輯器都可以，但使用 Visual Studio 等 IDE 可以為 .NET 開發提供強大的平台。
 4. 範例 ODS 檔案：您將需要一個包含圖表的 ODS 檔案。對於本教程，我們將使用`SampleChart.ods`.
 5. C# 基礎知識：熟悉 C# 將幫助您快速掌握概念並根據需要進行修改。

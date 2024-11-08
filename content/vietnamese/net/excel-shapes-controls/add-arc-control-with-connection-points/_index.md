@@ -104,6 +104,6 @@ Aspose.Cells là một thư viện .NET mạnh mẽ cho phép các nhà phát tr
 ### Làm thế nào để thêm các hình dạng khác ngoài hình cung?
 Bạn có thể sử dụng các lớp khác nhau có sẵn trong không gian tên Aspose.Cells.Drawing để thêm nhiều hình dạng khác nhau như hình chữ nhật, hình tròn, v.v.
 ### Tôi có thể tạo loại tệp nào bằng Aspose.Cells?
-Bạn có thể tạo và thao tác với nhiều định dạng Excel khác nhau bao gồm XLS, XLSX, CSV, v.v.
+Bạn có thể tạo và thao tác nhiều định dạng Excel khác nhau bao gồm XLS, XLSX, CSV, v.v.
 ### Có hỗ trợ kỹ thuật cho Aspose.Cells không?
  Chắc chắn rồi! Bạn có thể truy cập[Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/cells/9) để được hỗ trợ.

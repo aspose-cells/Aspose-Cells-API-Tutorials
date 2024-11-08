@@ -63,7 +63,7 @@ Enfin, sauvegardons notre classeur au format PDF. Nous utiliserons la méthode s
 ```csharp
 wb.Save(outputDir + "outputCompliancePdfA1a.pdf", opts);
 ```
-Dans cette ligne, nous enregistrons le fichier Excel au format PDF dans le répertoire spécifié, tout en appliquant les options de conformité PDF/A-1a que nous avons configurées précédemment. Et voilà ! Vous avez réussi à convertir un fichier Excel en PDF au format A-1a.
+Dans cette ligne, nous enregistrons le fichier Excel au format PDF dans le répertoire spécifié, tout en appliquant les options de conformité PDF/A-1a que nous avons configurées précédemment. Et voilà ! Vous avez converti avec succès un fichier Excel en PDF au format A-1a.
 ## Conclusion
 Et voilà, vous disposez d'un moyen simple mais puissant pour convertir un fichier Excel en un format compatible PDF/A-1a à l'aide d'Aspose.Cells pour .NET. Que vous génériez des rapports, conserviez des documents pour un stockage à long terme ou que vous ayez simplement besoin d'un moyen fiable pour convertir vos fichiers Excel en PDF, cette solution est faite pour vous.
 ## FAQ

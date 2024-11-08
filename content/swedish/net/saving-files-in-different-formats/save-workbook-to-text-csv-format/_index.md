@@ -67,7 +67,7 @@ for (int idx = 0; idx < workbook.Worksheets.Count; idx++)
 ## Steg 6: Hämta kalkylbladsdata
  Efter att ha sparat ett kalkylblad i minnesströmmen är nästa steg att hämta denna data och lägga till den i vår`workbookData` array.
 ```csharp
-    // Spara kalkylbladsdata i arkdataarray
+    // Spara kalkylbladets data i arkdatamatrisen
     ms.Position = 0; // Återställ positionen för minnesströmmen
     byte[] sheetData = ms.ToArray(); // Hämta byte-arrayen
 ```

@@ -8,7 +8,7 @@ weight: 15
 url: /nl/net/excel-formatting-and-styling/applying-borders-to-range-of-cells/
 ---
 ## Invoering
-Excel-spreadsheets vereisen vaak visuele aanwijzingen zoals randen om gegevens effectief te ordenen. Of u nu een rapport, een financieel overzicht of een gegevensblad ontwerpt, mooie randen kunnen de leesbaarheid aanzienlijk verbeteren. Als u .NET gebruikt en een efficiënte manier wilt om uw Excel-bestanden op te maken, bent u hier aan het juiste adres! In dit artikel laten we zien hoe u randen kunt toepassen op een reeks cellen in Excel met Aspose.Cells voor .NET. Pak dus uw favoriete drankje en laten we beginnen!
+Excel-spreadsheets vereisen vaak visuele aanwijzingen zoals randen om gegevens effectief te ordenen. Of u nu een rapport, een financieel overzicht of een gegevensblad ontwerpt, mooie randen kunnen de leesbaarheid aanzienlijk verbeteren. Als u .NET gebruikt en een efficiënte manier wilt om uw Excel-bestanden op te maken, bent u hier aan het juiste adres! In dit artikel laten we zien hoe u randen kunt toepassen op een reeks cellen in Excel met Aspose.Cells voor .NET. Pak dus uw favoriete drankje en laten we erin duiken!
 ## Vereisten
 Zorg ervoor dat u het volgende bij de hand hebt voordat u met deze tutorial begint:
 1. Basiskennis van .NET: Kennis van C# maakt deze reis soepeler.

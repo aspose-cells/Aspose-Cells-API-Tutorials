@@ -140,7 +140,7 @@ Console.WriteLine("AddingPictureInChart executed successfully.");
 
 ## Závěr
 
-V tomto tutoriálu jsme prozkoumali, jak vnést trochu osobitosti do grafů aplikace Excel přidáním obrázků pomocí Aspose.Cells pro .NET. Pomocí několika jednoduchých kroků můžete své prezentace povýšit ze světských na nezapomenutelné. Tak na co čekáš? Vyzkoušejte to a nechte své grafy zářit!
+V tomto tutoriálu jsme prozkoumali, jak vnést trochu osobitosti do grafů aplikace Excel přidáním obrázků pomocí Aspose.Cells pro .NET. Pomocí několika jednoduchých kroků můžete své prezentace povýšit ze světských na nezapomenutelné. Tak na co čekáš? Vyzkoušejte to a nechte své žebříčky zářit!
 
 ## FAQ
 

@@ -49,7 +49,7 @@ Imposta facilmente le altezze delle righe nei fogli di lavoro Excel usando Aspos
 ### [Imposta l'altezza della riga in Excel con Aspose.Cells](./setting-height-of-row/)
 Con questa guida dettagliata imparerai a impostare senza sforzo l'altezza delle righe in Excel utilizzando Aspose.Cells per .NET.
 ### [Imposta la larghezza di tutte le colonne nel foglio di lavoro con Aspose.Cells](./setting-width-of-all-columns-in-worksheet/)
-Sfrutta la potenza di Aspose.Cells per .NET e scopri come impostare la larghezza di tutte le colonne in un foglio di lavoro con questa guida dettagliata.
+Sfrutta la potenza di Aspose.Cells per .NET e scopri come impostare la larghezza di tutte le colonne in un foglio di lavoro con questo tutorial dettagliato.
 ### [Imposta la larghezza di una colonna in Excel con Aspose.Cells](./setting-width-of-column/)
 Scopri come impostare la larghezza di una colonna in un file Excel usando la libreria Aspose.Cells per .NET. Segui la nostra guida passo passo per incorporare facilmente questa funzionalità nelle tue applicazioni.
 ### [Imposta la larghezza di tutte le colonne con Aspose.Cells per .NET](./setting-width-of-all-columns/)

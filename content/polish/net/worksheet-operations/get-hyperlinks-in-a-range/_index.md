@@ -37,7 +37,7 @@ string sourceDir = "Your Document Directory"; // Zmień to na ścieżkę do plik
 // Katalog wyjściowy
 string outputDir = "Your Document Directory"; // Upewnij się, że ta metoda zapewnia prawidłową ścieżkę wyjściową
 ```
- W tym fragmencie kodu zamień`"Your Document Directory"` rzeczywistą ścieżką do katalogu zawierającego plik Excel. To jak ustawianie sceny przed występem — kluczowe jest, aby wiedzieć, gdzie znajdują się materiały.
+ W tym fragmencie kodu zamień`"Your Document Directory"` z rzeczywistą ścieżką do katalogu zawierającego plik Excel. To jak ustawianie sceny przed występem — kluczowe jest, aby wiedzieć, gdzie znajdują się materiały.
 ## Krok 2: Utwórz obiekt skoroszytu
  Następnie utworzymy`Workbook` obiekt, aby otworzyć plik Excela, z którym pracujemy.
 ```csharp
@@ -45,7 +45,7 @@ string outputDir = "Your Document Directory"; // Upewnij się, że ta metoda zap
 // Otwórz plik Excel
 Workbook workbook = new Workbook(sourceDir + "HyperlinksSample.xlsx");
 ```
- Tutaj tworzymy nowy`Workbook` instancja.`Workbook` Klasa jest zasadniczo Twoją bramą do wszystkich operacji związanych z plikiem Excel. Możesz myśleć o niej jak o otwarciu książki, która zawiera całą Twoją zawartość.
+ Tutaj tworzymy nowy`Workbook` instancja.`Workbook`Klasa jest zasadniczo Twoją bramą do wszystkich operacji związanych z plikiem Excel. Możesz myśleć o niej jak o otwarciu książki, która zawiera całą Twoją zawartość.
 ## Krok 3: Uzyskaj dostęp do arkusza kalkulacyjnego
 Teraz, gdy mamy już gotowy skoroszyt, przygotujmy z niego pierwszy arkusz. W programie Excel arkusze są jak strony w książce i musimy określić, nad którą stroną pracujemy.
 ```csharp
@@ -59,14 +59,14 @@ Teraz czas zdefiniować zakres, w którym chcemy szukać hiperłączy. W naszym 
 // Utwórz zakres A2:B3
 Range range = worksheet.Cells.CreateRange("A2", "B3");
 ```
- Dzwoniąc`CreateRange`określamy komórki początkowe i końcowe. To tutaj dzieje się magia — później sprawdzimy hiperłącza znajdujące się w tym określonym zakresie.
+ Dzwoniąc`CreateRange`, określamy komórki początkowe i końcowe. To tutaj dzieje się magia — później sprawdzimy hiperłącza znajdujące się w tym określonym zakresie.
 ## Krok 5: Pobierz hiperłącza z zakresu
 Na tym etapie uzyskujemy faktyczny dostęp do hiperłączy w zdefiniowanym przez nas zakresie.
 ```csharp
 //Uzyskaj hiperłącza w zasięgu
 Hyperlink[] hyperlinks = range.Hyperlinks;
 ```
- Ten`Hyperlinks` własność`Range` obiekt zwraca tablicę`Hyperlink` obiektów znalezionych w tym zakresie. To tak, jakby pobrać wszystkie ważne notatki ze swojej strony na raz!
+ Ten`Hyperlinks` własność`Range` obiekt zwraca tablicę`Hyperlink`obiektów znalezionych w tym zakresie. To tak, jakby pobrać wszystkie ważne notatki ze swojej strony na raz!
 ## Krok 6: Przejrzyj i wyświetl łącza
 Teraz przejrzyjmy pobrane hiperłącza. Na razie wydrukujemy ich adresy i obszary w konsoli.
 ```csharp
@@ -85,7 +85,7 @@ foreach (Hyperlink link in hyperlinks)
     link.Delete();
 }
 ```
- Korzystanie z`Delete()`Metoda na każdym hiperłączu pozwala usunąć hiperłącza, których możesz już nie potrzebować. To jak wymazywanie niepotrzebnego już bazgrołu ze strony.
+ Korzystanie z`Delete()` Metoda na każdym hiperłączu pozwala usunąć hiperłącza, których możesz już nie potrzebować. To jak wymazywanie niepotrzebnego już bazgrołu ze strony.
 ## Krok 8: Zapisz zmiany
 Na koniec zapiszemy skoroszyt ze wszystkimi wprowadzonymi zmianami.
 ```csharp

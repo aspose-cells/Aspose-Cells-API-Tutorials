@@ -33,7 +33,7 @@ Exportált már PDF-fájlt, és azon kapta magát, hogy egy üres oldalt bámul?
 
 ## Oldalak precíz megjelenítése
 
-Amikor a renderelésről van szó, a specifikusság kulcsfontosságú. A[Soros oldalak megjelenítése az Aspose.Cells-ben](./render-limited-number-of-sequential-pages/) útmutató megtanítja, hogyan lehet csak a kiválasztott oldalakat képpé konvertálni. Ez tökéletes olyan helyzetekben, amikor egy munkafüzet egyes részeit kell kibontani anélkül, hogy mindent konvertálna. Képzeld el, hogy csak a 2. és 5. oldalra van szükséged a 10 oldalas jelentésből; ez az oktatóanyag megmutatja, milyen egyszerű is lehet! Ez megakadályozza a dokumentumok felfújását, és arra összpontosít, hogy bemutassa, mi az, ami valóban szükséges, így a prezentációk hatékonyabbak.
+Amikor a renderelésről van szó, a specifikusság kulcsfontosságú. A[Soros oldalak megjelenítése az Aspose.Cells-ben](./render-limited-number-of-sequential-pages/) útmutató megtanítja, hogyan lehet csak a kiválasztott oldalakat képpé konvertálni. Ez tökéletes olyan helyzetekben, amikor egy munkafüzet egyes részeit kell kibontani anélkül, hogy mindent konvertálna. Képzeld el, hogy csak a 2. és 5. oldalra van szükséged a 10 oldalas jelentésből; ez az oktatóanyag megmutatja, milyen egyszerű is lehet! Ez megakadályozza a dokumentumok felfújását, és arra összpontosít, hogy bemutassa, mi az igazán szükséges, így hatékonyabbá válik a prezentáció.
 
 ## Renderelési és exportálási oktatóanyagok
 ### [Adjon hozzá PDF-könyvjelzőket megnevezett úticélokkal az Aspose.Cells-ben](./add-pdf-bookmarks/)

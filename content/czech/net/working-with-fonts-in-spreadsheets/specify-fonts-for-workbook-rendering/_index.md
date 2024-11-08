@@ -71,7 +71,7 @@ Nakonec je čas upravený sešit uložit v požadovaném formátu (v tomto pří
 // Uložit do formátu PDF.
 wb.Save(outputDir + "outputSpecifyIndividualOrPrivateSetOfFontsForWorkbookRendering.pdf", SaveFormat.Pdf);
 ```
-Je to, jako když knihu po přečtení vrátíte na poličku, ale nyní je v jiném formátu. Uložením sešitu ve formátu PDF zajistíte, že vykreslení bude provedeno s neporušenými zadanými písmy, takže bude reprezentativní a profesionální.
+Je to, jako když knihu po přečtení vrátíte na poličku, ale nyní je v jiném formátu. Uložením sešitu ve formátu PDF zajistíte, že vykreslení bude provedeno s neporušenými zadanými fonty, takže bude reprezentativní a profesionální.
 ## Krok 6: Potvrďte úspěch
 Nakonec si potvrďte, že vše proběhlo hladce vytištěním zprávy o úspěchu.
 ```csharp

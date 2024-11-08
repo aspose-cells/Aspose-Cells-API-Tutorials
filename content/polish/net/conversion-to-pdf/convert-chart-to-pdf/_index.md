@@ -83,7 +83,7 @@ chart.ToPdf(ms);
 ```
  W ten sposób zapiszesz wykres do`MemoryStream` zamiast bezpośrednio do pliku. Może to być szczególnie przydatne w przypadku aplikacji internetowych, które wymagają dynamicznego generowania plików.
 ## Wniosek
-I masz to! Właśnie nauczyłeś się, jak przekonwertować wykres Excela na plik PDF za pomocą Aspose.Cells w .NET. Ten proces obejmuje nie tylko proste polecenia, ale także daje Ci elastyczność w tym, jak i gdzie chcesz zapisywać swoje wykresy. Niezależnie od tego, czy używasz systemu plików, czy strumienia pamięci, wybór należy do Ciebie!
+I masz to! Właśnie nauczyłeś się, jak przekonwertować wykres Excela na plik PDF za pomocą Aspose.Cells w .NET. Ten proces nie tylko obejmuje proste polecenia, ale także daje Ci elastyczność w tym, jak i gdzie chcesz zapisywać swoje wykresy. Niezależnie od tego, czy używasz systemu plików, czy strumienia pamięci, wybór należy do Ciebie!
 Teraz powinieneś czuć się pewnie, konwertując wykresy do formatu PDF w swoich przyszłych aplikacjach .NET. Nie wahaj się eksperymentować z dodatkowymi funkcjami Aspose.Cells, ponieważ jest o wiele więcej do odkrycia!
 ## Najczęściej zadawane pytania
 ### Czym jest Aspose.Cells?

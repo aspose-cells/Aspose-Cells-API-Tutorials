@@ -14,7 +14,7 @@ MAX-funktionen i Excel är ett värdefullt verktyg för dataanalys. Det låter d
 
 ## Förutsättningar
 
-Innan vi dyker in i att använda MAX-funktionen med Aspose.Cells för Java, bör du ha följande förutsättningar på plats:
+Innan vi dyker in i att använda MAX-funktionen med Aspose.Cells för Java bör du ha följande förutsättningar på plats:
 
 - Java Development Environment (JDK)
 - Aspose.Cells för Java-bibliotek

@@ -65,7 +65,7 @@ Cell cell = worksheet.Cells["A1"];
 ## Steg 5: Lägg till text i cellen
 Låt oss sedan lägga in lite text i den cellen. Det är som att skriva en anteckning i en anteckningsbok.
 ```csharp
-// Lägger till något värde till "A1"-cellen
+// Lägga till något värde till "A1"-cellen
 cell.PutValue("Hello");
 ```
 Den här koden är där ditt innehåll kommer till liv. 
@@ -103,4 +103,4 @@ Ja! Aspose.Cells är kompatibel med både .NET Framework och .NET Core.
 ### Hur får jag support för Aspose.Cells?
  Du kan delta i community-forumet för att få hjälp[här](https://forum.aspose.com/c/cells/9).
 ### Var kan jag ladda ner Aspose.Cells?
- Du kan enkelt ladda ner den från webbplatsen[här](https://releases.aspose.com/cells/net/).
+ Du kan enkelt ladda ner den från hemsidan[här](https://releases.aspose.com/cells/net/).

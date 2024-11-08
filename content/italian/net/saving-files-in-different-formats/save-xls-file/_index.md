@@ -14,11 +14,11 @@ Prima di immergerti nel nostro tutorial, assicurati di disporre dei seguenti pre
 - Visual Studio: la familiarità con Visual Studio renderà il processo di codifica più fluido.
 - Aspose.Cells per .NET: Scarica e installa Aspose.Cells per .NET da[Qui](https://releases.aspose.com/cells/net/)La libreria offre un ricco set di funzionalità a portata di mano.
 - Conoscenza di base del linguaggio C#: comprendere la sintassi e la struttura del linguaggio C# è essenziale poiché scriveremo frammenti di codice C#.
-- Impostazione dei file: avere un file XLS vuoto o impostare un nuovo progetto con cui sperimentare. Questo ti aiuterà a vedere i cambiamenti in tempo reale.
+- Impostazione dei file: avere un file XLS vuoto o impostare un nuovo progetto per sperimentare. Questo ti aiuterà a vedere i cambiamenti in tempo reale.
 ## Importa pacchetti
 Il primo passo per utilizzare Aspose.Cells è importare i namespace necessari. Analizziamoli in semplici passaggi.
 ### Inizia il tuo progetto
-Per iniziare, crea un nuovo progetto in Visual Studio.
+Per iniziare, creiamo un nuovo progetto in Visual Studio.
 1. Aprire Visual Studio.
 2.  Fare clic su`Create a new project`.
 3.  Scegli il`Console App (.NET Framework)` modello.

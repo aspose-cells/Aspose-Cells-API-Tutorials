@@ -22,7 +22,7 @@ Voordat we in de code duiken, controleren we of je alles hebt wat je nodig hebt:
 
 ## Noodzakelijke pakketten importeren
 
-Voordat u met het coderen begint, moet u ervoor zorgen dat u de vereiste naamruimten bovenaan uw C#-bestand opneemt.
+Voordat u met coderen begint, moet u ervoor zorgen dat u de vereiste naamruimten bovenaan uw C#-bestand opneemt.
 
 ```csharp
 using System.IO;
@@ -68,7 +68,7 @@ imgOptions.OnePagePerSheet = true;
 
  De`SaveFormat.Svg` optie zorgt ervoor dat het uitvoerformaat SVG zal zijn, terwijl`OnePagePerSheet` zorgt ervoor dat elk werkblad op één pagina wordt weergegeven.
 
-## Stap 4: Loop door elk werkblad in de werkmap
+## Stap 4: Door elk werkblad in de werkmap itereren
 
 Nu moeten we alle werkbladen in het Excel-bestand doorlopen. Elk werkblad wordt afzonderlijk geconverteerd.
 

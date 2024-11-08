@@ -1,6 +1,6 @@
 ---
-title: Λίστα επικύρωσης δεδομένων στο Excel
-linktitle: Λίστα επικύρωσης δεδομένων στο Excel
+title: Λίστα Επικύρωση δεδομένων στο Excel
+linktitle: Λίστα Επικύρωση δεδομένων στο Excel
 second_title: Aspose.Cells Java Excel Processing API
 description: Μάθετε την επικύρωση δεδομένων στο Excel χρησιμοποιώντας το Aspose.Cells για Java. Εφαρμόστε κανόνες, μηνύματα σφάλματος και πολλά άλλα.
 type: docs

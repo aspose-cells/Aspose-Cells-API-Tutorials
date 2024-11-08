@@ -60,7 +60,7 @@ Kezdje azzal, hogy meghatározza azt a könyvtárat, ahol a minta Excel-fájlt t
 string sourceDir = "Your Document Directory";
 ```
 
- Ügyeljen arra, hogy cserélje ki`"Your Document Directory"` az Excel-fájl tényleges elérési útjával.
+ Mindenképpen cserélje ki`"Your Document Directory"` az Excel-fájl tényleges elérési útjával.
 
 ## 2. lépés: Töltse be az Excel mintafájlt
 

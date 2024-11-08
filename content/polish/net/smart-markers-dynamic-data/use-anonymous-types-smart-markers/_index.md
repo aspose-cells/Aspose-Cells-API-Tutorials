@@ -73,7 +73,7 @@ sheet.Cells["B2"].PutValue("&=MyProduct.Age");
 ```
  Oznaczamy pierwszy arkusz roboczy i ustawiamy wartości dla komórek nagłówka. Inteligentne znaczniki są poprzedzone prefiksem`&=` co informuje Aspose, że są to symbole zastępcze danych, które zostaną wstawione później.
 ## Krok 4: Utwórz listę osób
- Teraz utwórzmy listę osób za pomocą naszego`Person` klasa, której użyjemy do wypełnienia znaczników inteligentnych.
+ Teraz utwórzmy listę osób za pomocą naszego`Person` klasa, której użyjemy do wypełnienia inteligentnych znaczników.
 ```csharp
 // Utwórz instancję kolekcji list na podstawie klasy niestandardowej.
 IList<Person> list = new List<Person>();

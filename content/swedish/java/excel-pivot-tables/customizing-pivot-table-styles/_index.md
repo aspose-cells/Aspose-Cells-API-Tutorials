@@ -43,7 +43,7 @@ pivotTableHeaderStyle.getFont().setColor(Color.getBlue());
 pivotTableHeaderStyle.setForegroundColor(Color.getLightGray());
 ```
 
-## Steg 3: Använd anpassad stil på pivottabellen
+## Steg 3: Applicera anpassad stil på pivottabellen
 
 När du har anpassat stilen, applicera den på pivottabellen:
 

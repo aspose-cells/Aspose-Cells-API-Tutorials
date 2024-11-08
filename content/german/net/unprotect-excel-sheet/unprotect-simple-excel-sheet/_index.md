@@ -102,7 +102,7 @@ workbook.Save(dataDir + "output.out.xls", SaveFormat.Excel97To2003);
 
 ## Abschluss
 
-In einer von Daten dominierten Welt ist es entscheidend, zu wissen, wie man Excel-Tabellen bearbeitet und verwaltet. Die Verwendung von Aspose.Cells für .NET bietet eine robuste Möglichkeit, Excel-Dateivorgänge zu verarbeiten, einschließlich der Aufhebung des Schutzes Ihrer Tabellen. Mit nur wenigen Codezeilen haben Sie wieder Zugriff auf Ihre geschützten Inhalte und können problemlos mit Ihrer Arbeit fortfahren. Wenn Sie also das nächste Mal auf eine gesperrte Excel-Tabelle stoßen, wissen Sie genau, was zu tun ist!
+In einer von Daten dominierten Welt ist es entscheidend, zu wissen, wie Sie Ihre Excel-Tabellen bearbeiten und verwalten. Die Verwendung von Aspose.Cells für .NET bietet eine robuste Möglichkeit, Excel-Dateivorgänge zu verarbeiten, einschließlich der Aufhebung des Schutzes Ihrer Tabellen. Mit nur wenigen Codezeilen haben Sie wieder Zugriff auf Ihre geschützten Inhalte und können problemlos mit Ihrer Arbeit fortfahren. Wenn Sie also das nächste Mal auf eine gesperrte Excel-Tabelle stoßen, wissen Sie genau, was zu tun ist!
 
 ## Häufig gestellte Fragen
 

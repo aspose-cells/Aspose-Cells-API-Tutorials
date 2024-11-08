@@ -87,7 +87,7 @@ Nu till det roliga - låt oss ändra teckensnittsstilens attribut!
 style.Font.IsBold = true;
 ```
 
--  Här ställer vi in teckensnittet till fetstil. Du kan också anpassa teckenstorlek, färg och andra attribut genom att manipulera`style.Font` fastigheter.
+-  Här ställer vi in typsnittet till fetstil. Du kan också anpassa teckenstorlek, färg och andra attribut genom att manipulera`style.Font` fastigheter.
 ## Steg 10: Applicera stilen på cellen
 När du har ändrat cellens stil måste du återställa dessa ändringar i cellen.
 ```csharp

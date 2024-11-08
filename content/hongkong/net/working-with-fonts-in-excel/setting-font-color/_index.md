@@ -53,7 +53,7 @@ int i = workbook.Worksheets.Add();
 ## 第 4 步：訪問工作表
 現在我們已經有了工作表，讓我們可以存取它，以便開始操作它。
 ```csharp
-//透過傳遞工作表索引來取得新新增工作表的引用
+//透過傳遞工作表索引來取得新新增的工作表的引用
 Worksheet worksheet = workbook.Worksheets[i];
 ```
 在這裡，我們使用其索引來取得剛剛建立的工作表的參考。這使我們能夠直接在工作表上工作。
@@ -102,7 +102,7 @@ workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
 ```
 這會將工作簿儲存在指定目錄中，名稱為「book1.out.xls」。在這裡，我們使用的是`SaveFormat.Excel97To2003`以確保它與舊版本的 Excel 相容。
 ## 結論
-現在你就擁有了！您已使用 Aspose.Cells for .NET 在 Excel 文件中成功設定字體顏色。透過遵循這十個簡單的步驟，您現在已經掌握了使電子表格不僅實用而且具有視覺吸引力的技能。那麼，您還在等什麼呢？繼續，嘗試更多顏色，並在 Aspose.Cells 中嘗試其他樣式。您的電子表格即將獲得重大升級！
+現在你就擁有了！您已使用 Aspose.Cells for .NET 在 Excel 文件中成功設定字體顏色。透過遵循這十個簡單的步驟，您現在已經掌握了使電子表格不僅實用而且具有視覺吸引力的技能。那麼，你還在等什麼？繼續，嘗試更多顏色，並在 Aspose.Cells 中嘗試其他樣式。您的電子表格即將獲得重大升級！
 ## 常見問題解答
 ### 什麼是 Aspose.Cells？  
 Aspose.Cells 是一個 .NET 函式庫，可讓您以程式設計方式建立、操作和轉換 Excel 電子表格。
@@ -111,6 +111,6 @@ Aspose.Cells 是一個 .NET 函式庫，可讓您以程式設計方式建立、�
 ### Aspose.Cells 可以與 .NET Core 一起使用嗎？  
 絕對地！ Aspose.Cells 與各種框架相容，包括.NET Core。
 ### 我在哪裡可以找到更多範例？  
-該文件提供了大量範例和指南。你可以檢查一下[這裡](https://reference.aspose.com/cells/net/).
+該文件提供了大量的範例和指南。你可以檢查一下[這裡](https://reference.aspose.com/cells/net/).
 ### 如果我需要支援怎麼辦？  
 如果您遇到問題，可以訪問[Aspose 支援論壇](https://forum.aspose.com/c/cells/9)尋求幫助。

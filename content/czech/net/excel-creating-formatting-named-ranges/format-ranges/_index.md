@@ -105,7 +105,7 @@ stl.Font.Name = "Arial"; // Nastavte písmo na Arial
 stl.Font.IsBold = true; // Zvýrazněte písmo
 ```
 
-Vysvětlení: Zde definujeme, že chceme jako písmo použít „Arial“ a udělat ho tučným. Berte to tak, že dodá vašemu textu nějakou sílu!
+Vysvětlení: Zde definujeme, že chceme jako písmo použít „Arial“ a udělat ho tučným. Berte to tak, že dodá vašemu textu sílu!
 
 ## Krok 8: Nastavte barvu textu
 

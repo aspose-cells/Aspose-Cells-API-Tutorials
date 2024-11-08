@@ -30,7 +30,7 @@ using System;
 ```csharp
 string dataDir = "Your Document Directory"; 
 ```
-代替`"Your Document Directory"`與儲存 Excel 檔案的實際路徑。這可確保應用程式知道在哪裡找到您的文件。
+代替`"Your Document Directory"`與儲存 Excel 檔案的實際路徑。這可確保應用程式知道在哪裡找到您的檔案。
 ## 第 2 步：建立工作簿對象
 接下來，讓我們建立一個工作簿物件。這就是操縱的魔力開始的地方。就像打開一本書的封面一樣。
 ```csharp

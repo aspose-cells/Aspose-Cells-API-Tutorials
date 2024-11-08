@@ -108,7 +108,7 @@ W programie Excel jedną z kluczowych funkcji wykresów jest obsługa automatycz
 
 ```csharp
 // Ustaw główną jednostkę dla osi Y
-ch.AxisY.MajorUnit = 10; // Możesz ustawić według swoich potrzeb
+ch.AxisY.MajorUnit = 10; // Możesz ustawić zgodnie ze swoimi wymaganiami
 ```
 
 Zaktualizujmy jednostki automatyczne już teraz!

@@ -8,7 +8,7 @@ weight: 11
 url: /zh-hant/net/excel-character-and-cell-formatting/making-a-cell-active/
 ---
 ## 介紹
-您是否曾經發現自己正在篩選 Excel 工作表，試圖突出顯示特定的儲存格或區域？無論您是要自動化報告、處理資料還是只是整理電子表格，以程式方式管理儲存格都可以為您節省大量時間。今天，我們將深入探討如何使用 Aspose.Cells for .NET 在 Excel 中啟動儲存格。這個功能強大的庫提供了一種流暢、高效的方法來操作 Excel 文件，您將看到在工作表中設置活動單元格和控制可見性是多麼簡單。
+您是否曾經發現自己正在篩選 Excel 工作表，試圖突出顯示特定的儲存格或區域？無論您是要自動化報告、處理資料還是只是整理電子表格，以程式方式管理儲存格都可以為您節省大量時間。今天，我們將深入探討如何使用 Aspose.Cells for .NET 在 Excel 中啟動儲存格。這個功能強大的庫提供了一種流暢、高效的方式來操作 Excel 文件，您將看到在工作表中設置活動單元格和控制可見性是多麼簡單。
 ## 先決條件
 在我們開始編寫程式碼之前，讓我們確保您擁有開始使用所需的一切：
 1.  Aspose.Cells for .NET：請確保您已安裝 Aspose.Cells 函式庫。如果您還沒有這樣做，您可以從[Aspose.Cells 下載頁面](https://releases.aspose.com/cells/net/).

@@ -47,7 +47,7 @@ Dále musíme získat přístup ke konkrétnímu listu, kde jsou umístěny naš
 Worksheet ws = wb.Worksheets[0];
 ```
  Odkazováním`Worksheets[0]`, zaměřujeme se na první list našeho sešitu. Pokud jsou vaše tvary na jiném listu, upravte podle toho index.
-## Krok 4: Přístup k tvarům
+## Krok 4: Přístup k Shapes
 Když máme připravený přístup k listu, uchopme tvary, které nás zajímají. V tomto příkladu přistoupíme k prvnímu a čtvrtému tvaru.
 ```csharp
 //Přístup k prvnímu a čtvrtému tvaru

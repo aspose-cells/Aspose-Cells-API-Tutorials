@@ -13,7 +13,7 @@ Pokud jde o manipulaci s tabulkami aplikace Excel pomocí .NET, Aspose.Cells je 
 
 ## Zvládnutí základních funkcí
 
- Na začátku naší cesty je návod na ovládání šířky panelu karet v tabulce. Jen si představte, že na svůj přeplněný list Excelu potřebujete umístit více karet – tato příručka vám ukáže, jak tuto šířku upravit pro maximální viditelnost a efektivitu. Víme, jak frustrující může být, když je váš pracovní prostor přeplněný, že? Tato jednoduchá úprava může znamenat velký rozdíl v organizaci vašich projektů.[Přečtěte si více](./control-tab-bar-width-of-spreadsheet/).
+ Na začátku naší cesty je návod na ovládání šířky panelu karet v tabulce. Jen si představte, že na svůj přeplněný list Excelu potřebujete umístit více karet – tato příručka vám ukáže, jak upravit tuto šířku pro maximální viditelnost a efektivitu. Víme, jak frustrující může být, když je váš pracovní prostor přeplněný, že? Tato jednoduchá úprava může znamenat velký rozdíl v organizaci vašich projektů.[Přečtěte si více](./control-tab-bar-width-of-spreadsheet/).
 
 Dále se zabýváme faktorem přiblížení pracovních listů. Už jste někdy mžourali do tabulky a přáli si, aby byl text jasnější? Aspose usnadňuje úpravu úrovně přiblížení a umožňuje vám a vašim uživatelům ovládat čitelnost vašich dokumentů. Je to jen jedna z těch malých úprav, které vylepšují celkový uživatelský zážitek.[Přečtěte si více](./controll-zoom-factor-of-worksheet/). 
 

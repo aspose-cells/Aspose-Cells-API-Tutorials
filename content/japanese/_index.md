@@ -22,7 +22,7 @@ is_root: true
 
 ## Aspose.Cells for Java チュートリアル
 {{% alert color="primary" %}}
-Aspose.Cells for Java チュートリアルをご覧ください。コード例を使用して Excel ファイルの操作をマスターします。今すぐ Java スキルを強化しましょう。
+Aspose.Cells for Java のチュートリアルをご覧ください。コード例を使用して Excel ファイルの操作をマスターします。今すぐ Java スキルを強化しましょう。
 {{% /alert %}}
 
 以下は役に立つリソースへのリンクです:

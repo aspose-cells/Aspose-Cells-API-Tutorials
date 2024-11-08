@@ -65,7 +65,7 @@ Cell cell = worksheet.Cells["A1"];
 ## Schritt 5: Text zur Zelle hinzufügen
 Als nächstes geben wir einen Text in diese Zelle ein. Das ist, als würden Sie eine Notiz in ein Notizbuch schreiben.
 ```csharp
-// Hinzufügen eines Wertes zur Zelle „A1“
+// Einen Wert zur Zelle „A1“ hinzufügen
 cell.PutValue("Hello");
 ```
 Dieser Code erweckt Ihren Inhalt zum Leben. 

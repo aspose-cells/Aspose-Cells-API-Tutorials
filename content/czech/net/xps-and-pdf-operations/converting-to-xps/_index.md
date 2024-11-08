@@ -19,7 +19,7 @@ Než se ponoříte do hlubin konverze, ujistěte se, že máte vše, co potřebu
 ## Importujte balíčky
 Nyní, když jsme probrali předpoklady, přejděme k importu potřebných balíčků. Import správných jmenných prostorů je zásadní, protože říká kompilátoru, kde najde třídy a metody, které budeme používat.
 ### Nastavte svůj projekt
-První věci jako první! Otevřete Visual Studio a vytvořte nový projekt. Vyberte si konzolovou aplikaci, protože je jednoduchá a perfektní pro tento druh úkolu.
+První věci jako první! Otevřete Visual Studio a vytvořte nový projekt. Vyberte si konzolovou aplikaci, protože je přímočará a perfektní pro tento druh úkolu.
 ### Přidejte Aspose.Cells do svého projektu
 Chcete-li začít s Aspose.Cells, musíte přidat knihovnu. Postup:
 1. Klepněte pravým tlačítkem myši na svůj projekt v Průzkumníku řešení.
@@ -56,7 +56,7 @@ Aspose.Cells.Rendering.ImageOrPrintOptions options = new Aspose.Cells.Rendering.
 options.SaveFormat = SaveFormat.Xps; // Nastavení výstupního formátu na XPS
 ```
 Tento krok říká Aspose, že chceme převést obsah aplikace Excel do formátu XPS.
-## Krok 5: Vykreslení listu
+## Krok 5: Vykreslete list
 nastavenými možnostmi je čas vykreslit konkrétní list:
 ```csharp
 Aspose.Cells.Rendering.SheetRender sr = new Aspose.Cells.Rendering.SheetRender(sheet, options);

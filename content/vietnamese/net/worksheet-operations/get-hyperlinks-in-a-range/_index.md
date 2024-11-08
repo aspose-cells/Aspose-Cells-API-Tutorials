@@ -37,7 +37,7 @@ string sourceDir = "Your Document Directory"; // Thay đổi đường dẫn nà
 // Thư mục đầu ra
 string outputDir = "Your Document Directory"; // Đảm bảo phương pháp này cung cấp đường dẫn đầu ra hợp lệ
 ```
- Trong đoạn trích này, hãy thay thế`"Your Document Directory"`với đường dẫn thực tế đến thư mục chứa tệp Excel của bạn. Điều này giống như việc thiết lập sân khấu trước buổi biểu diễn của bạn—điều quan trọng là phải biết tài liệu của bạn ở đâu.
+ Trong đoạn trích này, hãy thay thế`"Your Document Directory"` với đường dẫn thực tế đến thư mục chứa tệp Excel của bạn. Điều này giống như việc thiết lập sân khấu trước buổi biểu diễn của bạn—điều quan trọng là phải biết tài liệu của bạn ở đâu.
 ## Bước 2: Khởi tạo đối tượng Workbook
  Tiếp theo, chúng ta sẽ tạo một`Workbook` để mở tệp Excel mà chúng ta đang làm việc.
 ```csharp
@@ -45,7 +45,7 @@ string outputDir = "Your Document Directory"; // Đảm bảo phương pháp nà
 // Mở một tập tin Excel
 Workbook workbook = new Workbook(sourceDir + "HyperlinksSample.xlsx");
 ```
- Ở đây, chúng tôi đang tạo ra một cái mới`Workbook` Ví dụ. Các`Workbook` class về cơ bản là cổng vào tất cả các hoạt động liên quan đến tệp Excel. Bạn có thể coi nó như việc mở cuốn sách chứa tất cả nội dung của bạn.
+ Ở đây, chúng tôi đang tạo ra một cái mới`Workbook` Ví dụ. Các`Workbook`class về cơ bản là cổng vào tất cả các hoạt động liên quan đến tệp Excel. Bạn có thể coi nó như việc mở cuốn sách chứa tất cả nội dung của bạn.
 ## Bước 3: Truy cập vào Bảng tính
 Bây giờ chúng ta đã có sổ làm việc, hãy lấy trang tính đầu tiên từ đó. Trong Excel, trang tính giống như các trang trong cuốn sách của bạn và chúng ta cần chỉ định trang nào chúng ta đang làm việc.
 ```csharp
@@ -59,14 +59,14 @@ Bây giờ là lúc xác định phạm vi mà chúng ta muốn tìm kiếm siê
 // Tạo một phạm vi A2:B3
 Range range = worksheet.Cells.CreateRange("A2", "B3");
 ```
- Bằng cách gọi`CreateRange`chúng ta chỉ định ô bắt đầu và kết thúc. Đây là nơi phép thuật xảy ra—sau đó chúng ta sẽ kiểm tra các siêu liên kết nằm trong phạm vi được chỉ định này.
+ Bằng cách gọi`CreateRange`, chúng ta chỉ định ô bắt đầu và kết thúc. Đây là nơi phép thuật xảy ra—sau đó chúng ta sẽ kiểm tra các siêu liên kết nằm trong phạm vi được chỉ định này.
 ## Bước 5: Lấy siêu liên kết từ phạm vi
 Bước này là nơi chúng ta thực sự truy cập vào các siêu liên kết trong phạm vi đã xác định.
 ```csharp
 //Nhận siêu liên kết trong phạm vi
 Hyperlink[] hyperlinks = range.Hyperlinks;
 ```
- Các`Hyperlinks` tài sản của một`Range` đối tượng trả về một mảng`Hyperlink` các đối tượng tìm thấy trong phạm vi đó. Giống như việc lấy tất cả các ghi chú quan trọng từ trang của bạn cùng một lúc!
+ Các`Hyperlinks` tài sản của một`Range` đối tượng trả về một mảng`Hyperlink`các đối tượng tìm thấy trong phạm vi đó. Giống như việc lấy tất cả các ghi chú quan trọng từ trang của bạn cùng một lúc!
 ## Bước 6: Lặp lại và Hiển thị Liên kết
 Bây giờ, hãy lặp lại các siêu liên kết đã lấy được. Chúng ta sẽ in địa chỉ và khu vực của chúng trong bảng điều khiển ngay bây giờ.
 ```csharp
@@ -85,7 +85,7 @@ foreach (Hyperlink link in hyperlinks)
     link.Delete();
 }
 ```
- Sử dụng`Delete()`phương pháp trên mỗi siêu liên kết cho phép bạn xóa các siêu liên kết mà bạn có thể không cần nữa. Giống như xóa một nét vẽ nguệch ngoạc không còn cần thiết trên trang của bạn.
+ Sử dụng`Delete()` phương pháp trên mỗi siêu liên kết cho phép bạn xóa các siêu liên kết mà bạn có thể không cần nữa. Giống như xóa một nét vẽ nguệch ngoạc không còn cần thiết trên trang của bạn.
 ## Bước 8: Lưu thay đổi của bạn
 Cuối cùng, hãy lưu bảng tính với tất cả những điều chỉnh đã thực hiện.
 ```csharp

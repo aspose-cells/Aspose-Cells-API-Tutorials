@@ -74,7 +74,7 @@ report.Workbook.Save(dataDir + "output.xlsx");
 ```
 Zorg ervoor dat u de bestandsnaam met de extensie .xlsx opneemt. Dit is de laatste stap waarin al uw harde werk wordt beloond en het prachtig opgemaakte Excel-bestand tot leven komt!
 ## Conclusie
-En voila! U hebt succesvol een variabele array met Smart Markers geïmplementeerd met Aspose.Cells voor .NET. U hebt niet alleen geleerd hoe u uw Excel-sheets dynamisch kunt vullen, maar u hebt ook een grote stap gezet in het onder de knie krijgen van een van de krachtigste bibliotheken voor het werken met spreadsheets. 
+En voila! U hebt succesvol een variabele array met Smart Markers geïmplementeerd met behulp van Aspose.Cells voor .NET. U hebt niet alleen geleerd hoe u uw Excel-sheets dynamisch kunt vullen, maar u hebt ook een grote stap gezet in het onder de knie krijgen van een van de krachtigste bibliotheken voor het werken met spreadsheets. 
 ## Veelgestelde vragen
 ### Wat is Aspose.Cells?  
 Aspose.Cells is een .NET-bibliotheek waarmee ontwikkelaars Excel-bestanden in hun .NET-toepassingen kunnen maken, bewerken en converteren.

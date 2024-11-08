@@ -82,7 +82,7 @@ Most készen állunk, hogy hozzáadjuk a Spinner vezérlőt a munkalapunkhoz.
 // Adjon hozzá egy forgóvezérlőt.
 Aspose.Cells.Drawing.Spinner spinner = excelbook.Worksheets[0].Shapes.AddSpinner(1, 0, 1, 0, 20, 18);
 ```
-Ez a sor egy Spinner vezérlőt ad a munkalaphoz. A paraméterek megadják a Spinner helyzetét és méretét (sor, oszlop, szélesség, magasság).
+Ez a sor egy Spinner vezérlőt ad a munkalaphoz. A paraméterek meghatározzák a Spinner helyzetét és méretét (sor, oszlop, szélesség, magasság).
 ## 7. lépés: Konfigurálja a Spinner tulajdonságait
 Testreszabjuk a Spinner viselkedését igényeinknek megfelelően.
 ```csharp

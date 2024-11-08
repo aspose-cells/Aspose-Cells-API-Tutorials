@@ -8,7 +8,7 @@ weight: 13
 url: /it/net/size-and-spacing-customization/setting-height-of-all-rows-in-worksheet/
 ---
 ## Introduzione
-Ti sei mai trovato di fronte al dilemma di dover regolare le altezze delle righe nei file Excel a livello di programmazione? Forse hai trascorso ore a ridimensionare manualmente le righe per far sì che tutto si adattasse esattamente come si deve. Bene, e se ti dicessi che esiste un modo migliore? Utilizzando Aspose.Cells per .NET, puoi facilmente impostare le altezze delle righe in base alle tue esigenze, tutto tramite codice. In questo tutorial, ti guideremo attraverso il processo di manipolazione delle altezze delle righe in un foglio di lavoro Excel utilizzando Aspose.Cells per .NET, illustrando i passaggi per renderlo semplice ed efficiente.
+Ti sei mai trovato di fronte al dilemma di dover regolare le altezze delle righe nei file Excel a livello di programmazione? Forse hai trascorso ore a ridimensionare manualmente le righe per far sì che tutto si adattasse esattamente come si deve. Bene, e se ti dicessi che esiste un modo migliore? Utilizzando Aspose.Cells per .NET, puoi facilmente impostare le altezze delle righe in base alle tue esigenze, tutto tramite codice. In questo tutorial, ti guideremo attraverso il processo di manipolazione delle altezze delle righe in un foglio di lavoro Excel utilizzando Aspose.Cells per .NET, mostrandoti i passaggi per renderlo semplice ed efficiente.
 ## Prerequisiti
 Prima di addentrarci nei dettagli del codice, ecco alcuni prerequisiti che devi soddisfare:
 1. .NET Framework: assicurati di avere un ambiente di lavoro con .NET installato. Ciò ti consentirà di eseguire la libreria Aspose.Cells senza problemi.
@@ -57,7 +57,7 @@ Una volta apportate le modifiche, è fondamentale salvare la cartella di lavoro 
 ```csharp
 workbook.Save(dataDir + "output.out.xls");
 ```
- Assicurati di scegliere un nome file che indichi che questa è la versione modificata del tuo file originale. Sarebbe una buona idea mantenere l'originale intatto per sicurezza.`output.out.xls` sarà ora il tuo nuovo file Excel con altezze di riga modificate!
+ Assicurati di scegliere un nome file che indichi che questa è la versione modificata del tuo file originale. Sarebbe una buona idea mantenere intatto l'originale per sicurezza.`output.out.xls` sarà ora il tuo nuovo file Excel con altezze di riga modificate!
 ## Passaggio 7: chiudere il flusso di file
 Infine, non dimenticare di chiudere il flusso di file per rilasciare risorse. Questo è essenziale per prevenire perdite di memoria nella tua applicazione. Ecco come fare:
 ```csharp

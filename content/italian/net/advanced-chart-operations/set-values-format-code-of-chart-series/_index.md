@@ -16,7 +16,7 @@ Nel mondo odierno basato sui dati, la rappresentazione visiva di set di dati com
 Prima di addentrarci nei dettagli, assicuriamoci che tu sia pronto per il successo. Ecco cosa ti serve:
 
 1. Conoscenza di base di C#: la familiarità con C# ti aiuterà ad afferrare facilmente i concetti di programmazione.
-2.  Aspose.Cells per .NET: avrai bisogno della libreria Aspose.Cells. Puoi scaricarla[Qui](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells per .NET: ti servirà la libreria Aspose.Cells. Puoi scaricarla[Qui](https://releases.aspose.com/cells/net/).
 3. Visual Studio: un IDE adatto per scrivere ed eseguire il tuo codice C#. Qualsiasi versione che supporti .NET andrà bene.
 4.  File Excel: Per la nostra dimostrazione, utilizzeremo un file Excel denominato`sampleSeries_ValuesFormatCode.xlsx`Assicurati di averlo pronto nella tua directory di lavoro.
 

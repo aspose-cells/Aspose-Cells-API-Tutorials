@@ -48,7 +48,7 @@ Décomposons le processus de définition des préférences d’image lors de l�
 
 ## Étape 1 : Spécifier le répertoire du document
 
-Vous devez d'abord définir le chemin d'accès où vos documents sont stockés. Ceci est essentiel pour l'accès et la gestion des fichiers.
+Vous devez d'abord définir le chemin d'accès où vos documents sont stockés. Ceci est essentiel pour l'accès aux fichiers et leur gestion.
 
 ```csharp
 string dataDir = "Your Document Directory";

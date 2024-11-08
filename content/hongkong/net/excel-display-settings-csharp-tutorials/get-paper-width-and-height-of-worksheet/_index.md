@@ -84,7 +84,7 @@ ws.PageSetup.PaperSize = PaperSizeType.PaperLetter;
 Console.WriteLine("PaperLetter: " + ws.PageSetup.PaperWidth + "x" + ws.PageSetup.PaperHeight);
 ```
 
-這些區塊中的每一個都模仿上一步，但調整了`PaperSize`相應的財產。只需更改尺寸指示器，您就可以輕鬆獲得不同的紙張尺寸。這就像根據您需要存儲的內容更改盒子的大小！
+這些區塊中的每一個都模仿前面的步驟，但調整了`PaperSize`相應的財產。只需更改尺寸指示器，您就可以輕鬆獲得不同的紙張尺寸。這就像根據您需要存儲的內容更改盒子的大小！
 
 ## 結論
 

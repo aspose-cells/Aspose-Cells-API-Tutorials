@@ -37,7 +37,7 @@ string sourceDir = "Your Document Directory"; // Ubah ini ke jalur file Excel An
 // Direktori keluaran
 string outputDir = "Your Document Directory"; // Pastikan metode ini menyediakan jalur keluaran yang valid
 ```
- Dalam cuplikan ini, ganti`"Your Document Directory"`dengan jalur sebenarnya ke direktori Anda yang berisi berkas Excel. Ini seperti menyiapkan panggung sebelum pertunjukan—sangat penting untuk mengetahui di mana materi Anda berada.
+ Dalam cuplikan ini, ganti`"Your Document Directory"` dengan jalur sebenarnya ke direktori Anda yang berisi berkas Excel. Ini seperti menyiapkan panggung sebelum pertunjukan—sangat penting untuk mengetahui di mana materi Anda berada.
 ## Langkah 2: Membuat Instansiasi Objek Buku Kerja
  Selanjutnya, kita akan membuat`Workbook` objek untuk membuka berkas Excel yang sedang kita kerjakan.
 ```csharp
@@ -45,7 +45,7 @@ string outputDir = "Your Document Directory"; // Pastikan metode ini menyediakan
 // Buka file Excel
 Workbook workbook = new Workbook(sourceDir + "HyperlinksSample.xlsx");
 ```
- Di sini, kita membuat yang baru`Workbook` contoh.`Workbook` Kelas pada dasarnya adalah gerbang Anda ke semua operasi yang terkait dengan berkas Excel. Anda dapat menganggapnya sebagai pembuka buku yang berisi semua konten Anda.
+ Di sini, kita membuat yang baru`Workbook` contoh.`Workbook`Kelas pada dasarnya adalah gerbang Anda ke semua operasi yang terkait dengan berkas Excel. Anda dapat menganggapnya sebagai pembuka buku yang berisi semua konten Anda.
 ## Langkah 3: Akses Lembar Kerja
 Sekarang setelah buku kerja kita siap, mari kita buat lembar kerja pertama dari buku tersebut. Di Excel, lembar kerja seperti halaman dalam buku, dan kita perlu menentukan halaman mana yang sedang kita kerjakan.
 ```csharp
@@ -59,14 +59,14 @@ Sekarang saatnya menentukan rentang tempat kita ingin mencari hyperlink. Dalam k
 // Buat rentang A2:B3
 Range range = worksheet.Cells.CreateRange("A2", "B3");
 ```
- Dengan menyebut`CreateRange`kami tentukan sel awal dan akhir. Di sinilah keajaiban terjadi—nanti kami akan memeriksa hyperlink yang terletak dalam rentang yang ditentukan ini.
+ Dengan menyebut`CreateRange`, kami tentukan sel awal dan akhir. Di sinilah keajaiban terjadi—nanti kami akan memeriksa hyperlink yang terletak dalam rentang yang ditentukan ini.
 ## Langkah 5: Ambil Hyperlink dari Rentang
 Pada langkah ini, kita benar-benar mengakses hyperlink dalam rentang yang sudah kita tentukan.
 ```csharp
 //Dapatkan Hyperlink dalam jangkauan
 Hyperlink[] hyperlinks = range.Hyperlinks;
 ```
- Itu`Hyperlinks` milik suatu`Range` objek mengembalikan array`Hyperlink` objek yang ditemukan dalam rentang tersebut. Seperti mengambil semua catatan penting dari halaman Anda sekaligus!
+ Itu`Hyperlinks` milik suatu`Range` objek mengembalikan array`Hyperlink`objek yang ditemukan dalam rentang tersebut. Seperti mengambil semua catatan penting dari halaman Anda sekaligus!
 ## Langkah 6: Ulangi dan Tampilkan Tautan
 Sekarang, mari kita telusuri hyperlink yang diambil. Untuk saat ini, kita akan mencetak alamat dan area hyperlink tersebut di konsol.
 ```csharp
@@ -85,7 +85,7 @@ foreach (Hyperlink link in hyperlinks)
     link.Delete();
 }
 ```
- Menggunakan`Delete()`Metode pada setiap hyperlink memungkinkan Anda menghapus hyperlink yang mungkin tidak lagi Anda perlukan. Ini seperti menghapus coretan yang tidak lagi diperlukan dari halaman Anda.
+ Menggunakan`Delete()` Metode pada setiap hyperlink memungkinkan Anda menghapus hyperlink yang mungkin tidak lagi Anda perlukan. Ini seperti menghapus coretan yang tidak lagi diperlukan dari halaman Anda.
 ## Langkah 8: Simpan Perubahan Anda
 Terakhir, mari simpan buku kerja dengan semua penyesuaian yang telah kita buat.
 ```csharp

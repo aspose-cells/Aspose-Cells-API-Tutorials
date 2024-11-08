@@ -17,7 +17,7 @@ Bevor wir beginnen, benötigen Sie einige Dinge:
 4. Microsoft Excel: Wenn Sie Excel auf Ihrem Computer haben, können Sie die Ergebnisse Ihrer Erstellung besser visualisieren.
 5. .NET Framework: Stellen Sie sicher, dass Sie mit einer kompatiblen Version des .NET Frameworks arbeiten, die die Aspose.Cells-Bibliothek unterstützt.
 ## Pakete importieren
-Um mit Ihrem Projekt loslegen zu können, müssen Sie die erforderlichen Namespaces importieren. So gehen Sie dazu in Ihrer C#-Datei vor:
+Um mit Ihrem Projekt loslegen zu können, müssen Sie die erforderlichen Namespaces importieren. So gehen Sie dabei in Ihrer C#-Datei vor:
 ```csharp
 using System;
 using System.IO;
@@ -89,7 +89,7 @@ Console.WriteLine("AddingLinkToOtherSheetCell executed successfully.");
 ```
 Und da haben Sie es! Sie haben ein einfaches C#-Programm erstellt, das mit Aspose.Cells für .NET einen internen Hyperlink zu einer Excel-Arbeitsmappe hinzufügt.
 ## Abschluss
-In diesem Tutorial haben wir die Schritte durchlaufen, die zum Hinzufügen eines Hyperlinks zu einem anderen Blatt in einer Excel-Arbeitsmappe mit Aspose.Cells für .NET erforderlich sind. Links in Ihren Tabellen können als Orientierungspunkte in einem Meer von Daten dienen und die Navigation zum Kinderspiel machen. Stellen Sie sich vor, wie viel effizienter Ihr Arbeitsablauf mit richtig verknüpften Tabellen sein könnte! Jetzt, da Sie dieses leistungsstarke Tool zur Hand haben, können Sie weiter mit den Funktionen von Aspose.Cells experimentieren, um Ihre Produktivität zu steigern.
+In diesem Tutorial haben wir die Schritte durchgegangen, die zum Hinzufügen eines Hyperlinks zu einem anderen Blatt in einer Excel-Arbeitsmappe mit Aspose.Cells für .NET erforderlich sind. Links in Ihren Tabellen können als Orientierungspunkte in einem Meer von Daten dienen und die Navigation zum Kinderspiel machen. Stellen Sie sich vor, wie viel effizienter Ihr Arbeitsablauf mit richtig verknüpften Tabellen sein könnte! Jetzt, da Sie dieses leistungsstarke Tool zur Hand haben, können Sie weiter mit den Funktionen von Aspose.Cells experimentieren, um Ihre Produktivität zu steigern.
 ## Häufig gestellte Fragen
 ### Was ist Aspose.Cells?  
 Aspose.Cells ist eine leistungsstarke .NET-Bibliothek zum Erstellen und Bearbeiten von Excel-Dateien ohne Verwendung von Microsoft Excel.

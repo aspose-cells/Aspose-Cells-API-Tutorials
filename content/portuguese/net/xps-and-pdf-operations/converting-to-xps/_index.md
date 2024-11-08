@@ -73,7 +73,7 @@ Este trecho de código permite que você exporte a pasta de trabalho inteira de 
 ## Conclusão
 Parabéns! Você converteu com sucesso um arquivo Excel para o formato XPS usando a biblioteca Aspose.Cells no .NET. Pode parecer muitas etapas, mas cada uma desempenha um papel vital no processo. Com esse conhecimento, você está bem equipado para lidar com arquivos Excel em seus aplicativos e otimizá-los para vários formatos. Então, da próxima vez que alguém perguntar como converter aquelas planilhas chatas, você saberá exatamente o que fazer!
 ## Perguntas frequentes
-### que é o formato XPS?
+### O que é o formato XPS?
 XPS (XML Paper Specification) é um formato de documento fixo que mantém o layout e a aparência dos documentos.
 ### Preciso comprar o Aspose.Cells para usá-lo?
  Você pode experimentar uma versão de avaliação gratuita do Aspose.Cells disponível[aqui](https://releases.aspose.com/). Depois, talvez seja necessário comprar uma licença para obter a funcionalidade completa.

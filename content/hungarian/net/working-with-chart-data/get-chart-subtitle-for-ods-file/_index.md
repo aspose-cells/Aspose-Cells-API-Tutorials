@@ -16,9 +16,9 @@ Az Excel-fájlok mindenütt jelen vannak a mai adatközpontú világban, és az 
 Mielőtt belevágna az oktatóanyagba, győződjön meg arról, hogy mindent beállított, ami az Aspose.Cells for .NET hatékony használatához szükséges. Íme egy követendő ellenőrző lista:
 
 1. .NET-keretrendszer: Győződjön meg arról, hogy a .NET-keretrendszer telepítve van a számítógépére. 
-2. Aspose.Cells Library: Töltse le és telepítse az Aspose.Cells könyvtárat. től lehet kapni[itt](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells Library: Töltse le és telepítse az Aspose.Cells könyvtárat. től lehet kapni[itt](https://releases.aspose.com/cells/net/).
 3. IDE: Bár bármely kódszerkesztő megteszi, az olyan IDE használata, mint a Visual Studio, robusztus platformot biztosít a .NET fejlesztéshez.
-4.  Minta ODS-fájl: Szüksége lesz egy diagramokat tartalmazó ODS-fájlra. Ehhez az oktatóanyaghoz használjuk`SampleChart.ods`.
+4. Minta ODS-fájl: Szüksége lesz egy diagramokat tartalmazó ODS-fájlra. Ehhez az oktatóanyaghoz használjuk`SampleChart.ods`.
 5. Alapvető C# ismerete: A C# ismerete segít a fogalmak gyors megértésében és a szükséges módosítások végrehajtásában.
 
 ## Csomagok importálása
@@ -39,7 +39,7 @@ Most pedig térjünk rá a lényegre. Kövesse ezeket a lépésenkénti utasít�
 Hozzon létre egy új konzolalkalmazásprojektet
 
 - Nyissa meg a Visual Studio-t (vagy a kívánt IDE-t).
-- Hozzon létre egy új konzolalkalmazás-projektet, és adjon neki megfelelő nevet, például`ChartSubtitleExtractor`.
+-  Hozzon létre egy új konzolalkalmazás-projektet, és adjon neki megfelelő nevet, például`ChartSubtitleExtractor`.
 
 ## 2. lépés: Adja hozzá az Aspose.Cells NuGet csomagot
 
@@ -55,7 +55,7 @@ Ez beépíti az Aspose.Cells könyvtárat a projektbe, lehetővé téve az Excel
 
 Adja meg az ODS-fájl forráskönyvtárát
 
- Ügyeljen arra, hogy cserélje ki`"Your Document Directory"` a tényleges útvonallal, ahol az Ön`SampleChart.ods` fájl található. Fontos, hogy a fájl elérési útja megfelelően legyen beállítva, hogy a program gond nélkül betölthesse.
+ Mindenképpen cserélje ki`"Your Document Directory"` a tényleges útvonallal, ahol az Ön`SampleChart.ods` fájl található. Fontos, hogy a fájl elérési útja megfelelően legyen beállítva, hogy a program gond nélkül betölthesse.
 
 ```csharp
 string sourceDir = "C:\\Path\\To\\Your\\Document\\Directory\\";

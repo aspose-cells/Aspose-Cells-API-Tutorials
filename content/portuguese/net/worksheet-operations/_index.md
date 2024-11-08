@@ -28,3 +28,39 @@ Neste guia, você aprenderá como melhorar o apelo visual dos seus dados do Exce
 Extraia e gerencie facilmente hiperlinks de arquivos do Excel com o Aspose.Cells para .NET. Guia passo a passo e exemplos de código incluídos.
 ### [Definindo preferências de imagem para HTML em .NET](./setting-image-preferences-for-html/)
 Desbloqueie o poder do Aspose.Cells para .NET. Aprenda a definir preferências de imagem para conversão em HTML para apresentar seus dados do Excel lindamente na web.
+### [Adicionar comentários encadeados na planilha](./add-threaded-comments/)
+Aprenda como adicionar comentários encadeados em planilhas do Excel usando Aspose.Cells para .NET com este tutorial passo a passo. Melhore a colaboração sem esforço.
+### [Contar o número de células na planilha](./count-cells/)
+Desbloqueie o poder do Aspose.Cells para .NET. Aprenda a contar células em uma planilha do Excel com este guia passo a passo.
+### [Recortar e colar células dentro da planilha](./cut-and-paste-cells/)
+Aprenda a recortar e colar células no Excel usando o Aspose.Cells para .NET com este tutorial simples passo a passo.
+### [Detectar planilha de macro internacional na pasta de trabalho](./detect-international-macro-sheet/)
+Descubra como detectar planilhas de macro internacionais no Excel usando Aspose.Cells para .NET com este guia detalhado passo a passo. Perfeito para desenvolvedores.
+### [Editar comentários encadeados na planilha](./edit-threaded-comments/)
+Desbloqueie a mágica de editar comentários encadeados no Excel usando Aspose.Cells para .NET! Siga nosso guia passo a passo e domine seus documentos com facilidade.
+### [Verifique se a planilha é uma planilha de diálogo](./check-dialog-sheet/)
+Aprenda como verificar se uma planilha é uma planilha de diálogo usando o Aspose.Cells para .NET com este tutorial passo a passo.
+### [Obter validação de célula no arquivo ODS](./get-cell-validation-ods/)
+Aprenda como recuperar validação de célula em arquivos ODS usando Aspose.Cells para .NET. Um guia passo a passo para desenvolvedores.
+### [Obtenha alcance com links externos na planilha](./get-range-with-external-links/)
+Aprenda como obter intervalos de forma eficiente com links externos em planilhas do Excel usando o Aspose.Cells para .NET neste tutorial abrangente passo a passo.
+### [Obter ID exclusivo da planilha](./get-worksheet-id/)
+Aprenda como obter o ID exclusivo de uma planilha usando o Aspose.Cells for .NET com este guia passo a passo. Gerencie suas planilhas com mais eficiência.
+### [Folha de impressão com configurações adicionais](./print-sheet-with-settings/)
+Aprenda a imprimir planilhas do Excel sem esforço com o Aspose.Cells para .NET neste guia passo a passo detalhado.
+### [Ler imagem de fundo do ODS](./read-ods-background/)
+Aprenda a ler imagens de fundo ODS usando Aspose.Cells para .NET com este tutorial abrangente passo a passo. Perfeito para desenvolvedores e entusiastas.
+### [Ler o tempo de criação dos comentários encadeados na planilha](./read-threaded-comment-created-time/)
+Aprenda a ler o tempo de criação de comentários encadeados no Excel usando Aspose.Cells para .NET. Guia passo a passo com exemplos de código incluídos.
+### [Ler comentários encadeados na planilha](./read-threaded-comments/)
+Desbloqueie o poder de ler comentários encadeados no Excel com Aspose.Cells para .NET. Mergulhe neste guia passo a passo para fácil manuseio de documentos.
+### [Remover comentários encadeados da planilha](./remove-threaded-comments/)
+Remova facilmente comentários encadeados de planilhas do Excel usando Aspose.Cells para .NET com este guia passo a passo. Simplifique seu gerenciamento do Excel.
+### [Definir fundo colorido no arquivo ODS](./set-ods-colored-background/)
+Aprenda como definir um fundo colorido em arquivos ODS usando o Aspose.Cells para .NET, com tutoriais e dicas passo a passo.
+### [Definir plano de fundo gráfico no arquivo ODS](./set-ods-graphic-background/)
+Aprenda a definir um plano de fundo gráfico em arquivos ODS usando o Aspose.Cells para .NET com este guia abrangente passo a passo.
+### [Atualizar histórico de log de revisão na pasta de trabalho compartilhada](./update-revision-log-history/)
+Aprenda a atualizar o histórico de log de revisão em pastas de trabalho compartilhadas usando Aspose.Cells para .NET. Simplifique a colaboração e mantenha registros de documentos claros.
+### [Utilizar a propriedade Sheet_SheetId do OpenXml na planilha](./utilize-sheet-sheetid-property/)
+Desbloqueie o poder do Excel com Aspose.Cells para .NET. Aprenda a manipular IDs de planilhas de forma eficaz com nosso guia passo a passo.

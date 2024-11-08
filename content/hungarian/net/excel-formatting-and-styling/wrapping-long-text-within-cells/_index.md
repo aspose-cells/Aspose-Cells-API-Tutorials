@@ -87,7 +87,7 @@ Végül ne felejtse el menteni a munkafüzetet, hogy az összes módosítás meg
 ```csharp
 workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
 ```
- Ügyeljen arra, hogy cserélje ki`"book1.out.xls"` a kívánt kimeneti fájlnévvel. A fájl most a megadott könyvtárba kerül, és minden módosítása – beleértve a szöveg tördelését is – érintetlen.
+ Mindenképpen cserélje ki`"book1.out.xls"` a kívánt kimeneti fájlnévvel. A fájl most a megadott könyvtárba kerül, és minden módosítása – beleértve a szöveg tördelését is – érintetlen.
 ## Következtetés
 Néhány egyszerű lépéssel sikerült az Aspose.Cells for .NET segítségével szöveget becsomagolni az Excel cellákba. Akár jelentéseket készít, akár adatelemzésen dolgozik, akár csak egy táblázatot próbál feldobni az áttekinthetőség érdekében, a szöveg tördelésének ismerete világot hozhat. A kód kényelmével ezeket a feladatokat gyorsan és hatékonyan automatizálhatja.
 ## GYIK

@@ -61,7 +61,7 @@ sr.ToImage(0, outputDir + "OutputBlankPageWhenNothingToPrint.png");
 ```
 ここでは、最初のシート (インデックス 0) をレンダリングし、指定した出力ディレクトリに PNG 画像として保存します。
 ## ステップ6: 実行が成功したことを確認する
-最後に、操作が正常に実行されたことを知らせるフィードバックを提供する必要があります。プレゼンテーション後に親指を立てられたときのように、確認があるといつもうれしいものです。
+最後に、操作が正常に実行されたことを知らせるフィードバックを提供する必要があります。プレゼンテーション後に親指を立てられたときのように、確認があるといつでもうれしいものです。
 ```csharp
 Console.WriteLine("OutputBlankPageWhenThereIsNothingToPrint executed successfully.\r\n");
 ```

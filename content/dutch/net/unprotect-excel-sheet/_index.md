@@ -13,7 +13,7 @@ Als u met Excel-bestanden in .NET werkt, bent u wellicht situaties tegengekomen 
 
 ## Wachtwoordbeveiligde Excel-werkbladen ontgrendelen 
 
- Een van de meest voorkomende taken is het ontgrendelen van wachtwoordbeveiligde Excel-werkbladen. Met Aspose.Cells voor .NET kunt u dit naadloos bereiken. Het proces omvat een eenvoudige methode waarmee u het wachtwoord kunt opgeven (als u dat hebt) en het werkblad kunt ontgrendelen voor bewerking. Onze tutorial over[een met een wachtwoord beveiligd Excel-werkblad ontgrendelen](./unlock-password-protected-excel-worksheet/) verdeelt deze stappen, zodat zelfs beginners ze kunnen volgen. Aan het eind kunt u weer toegang krijgen tot uw essentiële gegevens zonder dat u zich hoeft in te spannen.
+Een van de meest voorkomende taken is het ontgrendelen van wachtwoordbeveiligde Excel-werkbladen. Met Aspose.Cells voor .NET kunt u dit naadloos bereiken. Het proces omvat een eenvoudige methode waarmee u het wachtwoord kunt opgeven (als u dat hebt) en het werkblad kunt ontgrendelen voor bewerking. Onze tutorial over[een met een wachtwoord beveiligd Excel-werkblad ontgrendelen](./unlock-password-protected-excel-worksheet/) verdeelt deze stappen, zodat zelfs beginners ze kunnen volgen. Aan het eind kunt u weer toegang krijgen tot uw essentiële gegevens zonder dat u zich hoeft in te spannen.
 
 ## Maak Excel-bladen eenvoudig vrij 
 
@@ -21,7 +21,7 @@ Als u met Excel-bestanden in .NET werkt, bent u wellicht situaties tegengekomen 
 
 ## Krijg weer toegang tot uw gegevens 
 
- Soms kan een simpele unprotect leiden tot aanzienlijke productiviteitswinsten - tenslotte is tijd geld! Onze tutorial over hoe u[eenvoudige Excel-sheets beveiligen](./unprotect-simple-excel-sheet/) behandelt de essentie, zodat u snel weer toegang krijgt tot uw kritieke gegevens. U zult waarderen hoe intuïtief de Aspose.Cells-bibliotheek is, waardoor potentieel ontmoedigende taken als een fluitje van een cent aanvoelen. 
+Soms kan een simpele unprotect leiden tot aanzienlijke productiviteitswinsten - tenslotte is tijd geld! Onze tutorial over hoe u[eenvoudige Excel-sheets beveiligen](./unprotect-simple-excel-sheet/) behandelt de essentie, zodat u snel weer toegang krijgt tot uw kritieke gegevens. U zult waarderen hoe intuïtief de Aspose.Cells-bibliotheek is, waardoor potentieel ontmoedigende taken als een fluitje van een cent aanvoelen. 
 
 Met deze tutorials leert u niet alleen hoe u Excel-sheets kunt ontgrendelen en de beveiliging ervan kunt opheffen, maar krijgt u ook inzicht in de veelzijdige mogelijkheden van Aspose.Cells voor .NET. Of het nu voor persoonlijk gebruik is of in een professionele omgeving, deze vaardigheden zullen uw Excel-ervaring verbeteren. Klaar om dieper te duiken? Bekijk elke tutorial hierboven en transformeer vandaag nog de manier waarop u met Excel-bestanden omgaat!
 

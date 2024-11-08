@@ -81,7 +81,7 @@ Sau đây là chức năng của từng tham số:
 - ExcludeUnusedStyles: Cắt bỏ các kiểu không được sử dụng, giúp tệp gọn gàng.
 - ExportHiddenWorksheet: Nếu bạn có các trang tính ẩn, tùy chọn này cũng sẽ xuất chúng.
 ## Bước 5: Lưu sổ làm việc
-Bây giờ là lúc dành cho khoảnh khắc quan trọng để lưu lại những thay đổi của chúng ta.
+Bây giờ là lúc lưu lại những thay đổi của chúng ta.
 ```csharp
 // Lưu sổ làm việc ở định dạng HTML với các tùy chọn lưu HTML được chỉ định
 wb.Save(outputDir + "outputSampleSingleSheet.htm", options);

@@ -2,7 +2,7 @@
 title: 以编程方式将 Excel 中的打印区域导出为 HTML
 linktitle: 以编程方式将 Excel 中的打印区域导出为 HTML
 second_title: Aspose.Cells .NET Excel 处理 API
-description: 在本详细指南中学习如何使用 Aspose.Cells for .NET 将特定打印区域从 Excel 导出为 HTML。优化您的数据呈现。
+description: 在此详细指南中学习如何使用 Aspose.Cells for .NET 将特定打印区域从 Excel 导出为 HTML。优化您的数据呈现。
 type: docs
 weight: 12
 url: /zh/net/exporting-excel-to-html-with-advanced-options/exporting-print-area/

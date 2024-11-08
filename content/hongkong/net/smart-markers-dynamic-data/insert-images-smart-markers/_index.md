@@ -33,14 +33,14 @@ string dataDir = "Your Document Directory"; //將其變更為您的實際目錄
 ```
 代替`"Your Document Directory"`以及儲存影像和模板檔案的路徑。這可以是相對路徑或絕對路徑。
 ## 第 2 步：將圖像載入到位元組數組中
-接下來，我們將讀取要插入到 Excel 檔案中的映像。您需要建立一個保存影像資料的資料表。
+接下來，我們將讀取您要插入到 Excel 檔案中的映像。您需要建立一個保存影像資料的資料表。
 ```csharp
 //取得影像資料。
 byte[] imageData = File.ReadAllBytes(dataDir + "aspose-logo.jpg");
 ```
 這`File.ReadAllBytes()`方法用於將圖像檔案讀入位元組數組。您可以透過對每個文件重複此程序來對多個圖像執行此操作。
 ## 第 3 步：建立一個資料表來保存圖像
-現在我們將建立一個資料表。該表將使我們能夠以結構化的方式儲存圖像資料。
+現在我們將建立一個資料表。該表允許我們以結構化的方式儲存圖像資料。
 ```csharp
 //建立資料表。
 DataTable t = new DataTable("Table1");

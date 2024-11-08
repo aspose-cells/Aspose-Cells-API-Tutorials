@@ -82,7 +82,7 @@ pivotTable.RefreshData();
 pivotTable.CalculateData();
 ```
 這些方法會刷新資料並重新計算，確保所有內容都是最新的並在我們的資料透視表中正確顯示。
-## 第 7 步：根據行字段值自訂排序
+## 步驟 7：根據行字段值自訂排序
 讓我們根據特定值（例如“SeaFood”）對資料透視表進行排序來添加一些技巧。
 ```csharp
 index = pivotTables.Add("=Sheet1!A1:C10", "E10", "PivotTable2");

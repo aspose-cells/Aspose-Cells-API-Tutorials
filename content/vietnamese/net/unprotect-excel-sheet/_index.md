@@ -13,7 +13,7 @@ Nếu bạn đang làm việc với các tệp Excel trong .NET, bạn có thể
 
 ## Mở khóa các trang tính Excel được bảo vệ bằng mật khẩu 
 
- Một trong những tác vụ phổ biến nhất là mở khóa các bảng tính Excel được bảo vệ bằng mật khẩu. Với Aspose.Cells cho .NET, bạn có thể thực hiện việc này một cách liền mạch. Quy trình này bao gồm một phương pháp đơn giản cho phép bạn chỉ định mật khẩu (nếu bạn có) và mở khóa bảng tính để chỉnh sửa. Hướng dẫn của chúng tôi về[mở khóa một bảng tính Excel được bảo vệ bằng mật khẩu](./unlock-password-protected-excel-worksheet/) chia nhỏ các bước này, đảm bảo ngay cả người mới bắt đầu cũng có thể làm theo. Đến cuối, bạn sẽ có thể khôi phục quyền truy cập vào dữ liệu cần thiết của mình mà không gặp khó khăn gì.
+Một trong những tác vụ phổ biến nhất là mở khóa các bảng tính Excel được bảo vệ bằng mật khẩu. Với Aspose.Cells cho .NET, bạn có thể thực hiện việc này một cách liền mạch. Quy trình này bao gồm một phương pháp đơn giản cho phép bạn chỉ định mật khẩu (nếu bạn có) và mở khóa bảng tính để chỉnh sửa. Hướng dẫn của chúng tôi về[mở khóa một bảng tính Excel được bảo vệ bằng mật khẩu](./unlock-password-protected-excel-worksheet/) chia nhỏ các bước này, đảm bảo ngay cả người mới bắt đầu cũng có thể làm theo. Đến cuối, bạn sẽ có thể khôi phục quyền truy cập vào dữ liệu cần thiết của mình mà không gặp khó khăn gì.
 
 ## Bỏ bảo vệ các trang tính Excel dễ dàng 
 
@@ -21,7 +21,7 @@ Nếu bạn đang làm việc với các tệp Excel trong .NET, bạn có thể
 
 ## Lấy lại quyền truy cập vào dữ liệu của bạn 
 
- Đôi khi, một lệnh unprotect đơn giản có thể dẫn đến tăng năng suất đáng kể—sau cùng, thời gian là tiền bạc! Hướng dẫn của chúng tôi về cách[bỏ bảo vệ các trang tính Excel đơn giản](./unprotect-simple-excel-sheet/) bao gồm những điều cần thiết, cho phép bạn lấy lại quyền truy cập vào dữ liệu quan trọng của mình một cách nhanh chóng. Bạn sẽ đánh giá cao sự trực quan của thư viện Aspose.Cells, giúp các nhiệm vụ có khả năng gây khó khăn trở nên dễ dàng. 
+Đôi khi, một lệnh unprotect đơn giản có thể dẫn đến tăng năng suất đáng kể—sau cùng, thời gian là tiền bạc! Hướng dẫn của chúng tôi về cách[bỏ bảo vệ các trang tính Excel đơn giản](./unprotect-simple-excel-sheet/) bao gồm những điều cần thiết, cho phép bạn lấy lại quyền truy cập vào dữ liệu quan trọng của mình một cách nhanh chóng. Bạn sẽ đánh giá cao sự trực quan của thư viện Aspose.Cells, giúp các nhiệm vụ có khả năng gây khó khăn trở nên dễ dàng. 
 
 Với các hướng dẫn này, bạn không chỉ học cách mở khóa và bỏ bảo vệ các trang tính Excel mà còn hiểu sâu hơn về các khả năng đa dạng của Aspose.Cells cho .NET. Cho dù là để sử dụng cá nhân hay trong môi trường chuyên nghiệp, những kỹ năng này sẽ nâng cao trải nghiệm Excel của bạn. Sẵn sàng để tìm hiểu sâu hơn? Hãy xem từng hướng dẫn được liên kết ở trên và thay đổi cách bạn xử lý các tệp Excel ngay hôm nay!
 

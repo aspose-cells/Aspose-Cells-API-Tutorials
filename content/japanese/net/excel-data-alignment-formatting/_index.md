@@ -19,7 +19,7 @@ url: /ja/net/excel-data-alignment-formatting/
    まず、調整するセルまたは範囲を指定します。これは、ニーズに応じて 1 つのセルまたはテーブル全体になります。
 
 2. 希望する配置を適用します。
-   使用`.Style`プロパティを使用して、水平または垂直の配置設定を適用します。Aspose.Cellsには次のようなオプションがあります。`TextAlignmentType.Center`, `TextAlignmentType.Left` 、 または`TextAlignmentType.Right`水平方向の配置には 、垂直方向の配置には同様のオプションがあります。
+   使用してください`.Style`プロパティを使用して、水平または垂直の配置設定を適用します。Aspose.Cellsには次のようなオプションがあります。`TextAlignmentType.Center`, `TextAlignmentType.Left` 、 または`TextAlignmentType.Right`水平方向の配置には 、垂直方向の配置には同様のオプションがあります。
 
 3. 書式を保持:
     Aspose.Cellsの素晴らしい点は、`.Style`オブジェクトでは、境界線、フォント、色などの他の書式設定要素はそのまま残ります。カスタム スタイルが失われる心配はありません。

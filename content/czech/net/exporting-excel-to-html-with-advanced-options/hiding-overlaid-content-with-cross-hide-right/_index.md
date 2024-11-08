@@ -51,7 +51,7 @@ Dále musíme nakonfigurovat možnosti uložení HTML, abychom skryli překrýva
 HtmlSaveOptions opts = new HtmlSaveOptions();
 opts.HtmlCrossStringType = HtmlCrossType.CrossHideRight;
 ```
- V tomto kroku vytváříme instanci`HtmlSaveOptions` . The`HtmlCrossStringType` vlastnost je nastavena na`CrossHideRight` který říká knihovně Aspose.Cells, jak zacházet s překryvným obsahem při exportu do HTML. Berte to jako nalezení dokonalého filtru pro vaši fotografii; chcete zvýraznit jen ty správné části.
+ V tomto kroku vytváříme instanci`HtmlSaveOptions` . The`HtmlCrossStringType` vlastnost je nastavena na`CrossHideRight` který říká knihovně Aspose.Cells, jak zacházet s překryvným obsahem při exportu do HTML. Berte to jako nalezení dokonalého filtru pro vaši fotografii; chcete zvýraznit právě ty správné části.
 ## Krok 3: Uložte sešit jako HTML
 Jakmile máme vše nastaveno, je čas uložit náš sešit do souboru HTML.
 ```csharp
@@ -73,7 +73,7 @@ Tento proces skutečně zjednodušuje ukládání souborů Excel do HTML a záro
 ### Co je Aspose.Cells?
 Aspose.Cells je výkonná .NET knihovna určená pro práci se soubory aplikace Excel. Umožňuje vám bezproblémově vytvářet, upravovat, převádět a manipulovat s dokumenty Excelu ve vašich aplikacích.
 ### Mohu používat Aspose.Cells zdarma?
- Ano, Aspose.Cells nabízí a[zkušební verze zdarma](https://releases.aspose.com/) takže si před nákupem můžete vyzkoušet jeho vlastnosti.
+ Ano, Aspose.Cells nabízí a[zkušební verze zdarma](https://releases.aspose.com/) takže si můžete jeho vlastnosti před nákupem vyzkoušet.
 ### Podporuje Aspose.Cells všechny formáty Excelu?
 Absolutně! Aspose.Cells podporuje řadu formátů aplikace Excel včetně XLS, XLSX a CSV.
 ### Kde mohu získat podporu pro Aspose.Cells?

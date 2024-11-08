@@ -8,7 +8,7 @@ weight: 23
 url: /zh-hant/net/row-and-column-management/insert-row-aspose-cells/
 ---
 ## 介紹
-使用 Excel 檔案時，操作資料的能力至關重要。無論您是自動化報告還是管理大型資料集，插入行都是常見要求。透過 Aspose.Cells for .NET，此過程變得簡單且有效率。在本指南中，我們將引導您完成使用 Aspose.Cells for .NET 在 Excel 工作表中插入行的步驟。讓我們深入了解吧！
+使用 Excel 檔案時，操作資料的能力至關重要。無論您是自動化報告還是管理大型資料集，插入行都是常見要求。透過 Aspose.Cells for .NET，此過程變得簡單且有效率。在本指南中，我們將引導您完成使用 Aspose.Cells for .NET 在 Excel 工作表中插入行的步驟。讓我們深入了解一下吧！
 ## 先決條件
 在我們開始之前，您需要準備好一些東西：
 1.  Aspose.Cells for .NET：請確保您安裝了最新版本的 Aspose.Cells。你可以下載它[這裡](https://releases.aspose.com/cells/net/).

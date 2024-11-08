@@ -34,7 +34,7 @@ string sourceDir = "Your Document Directory"; // Indiquez le chemin de votre ré
 // Répertoire de sortie
 string outputDir = "Your Document Directory"; // Indiquez le chemin de votre répertoire de sortie
 ```
- Explication : Dans cette étape, vous déclarez simplement des variables pour les répertoires source et de sortie. Remplacer`"Your Document Directory"`avec le répertoire réel où se trouvent vos fichiers.
+ Explication : Dans cette étape, vous déclarez simplement des variables pour les répertoires source et de sortie. Remplacer`"Your Document Directory"`avec le répertoire réel où se trouvent vos fichiers.
 ## Étape 2 : charger le classeur
 Ensuite, nous allons charger le classeur Excel qui contient le tableau croisé dynamique. 
 ```csharp

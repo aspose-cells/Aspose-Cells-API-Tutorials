@@ -102,7 +102,7 @@ pivotTable.AddFieldToArea(PivotFieldType.Data, "Betrag Netto FW");
 ```
 Zde přidáváme nové datové pole s názvem "Betrag Netto FW". Toto je datový bod, který chceme, aby naše kontingenční tabulka analyzovala.
 
-## Krok 8: Nastavte příznak Aktualizovat data
+## Krok 8: Nastavte příznak aktualizace dat
 Dále se ujistěte, že jsou naše data správně aktualizována.
 ```csharp
 // Nastavte příznak aktualizace dat na
@@ -114,7 +114,7 @@ pivotTable.RefreshDataFlag = false;
 Stiskneme tlačítko aktualizace a provedeme nějaké výpočty, abychom zajistili, že se naše kontingenční tabulka aktualizuje o nová data.
 
 ```csharp
-// Aktualizujte a vypočítejte data kontingenční tabulky
+// Obnovte a vypočítejte data kontingenční tabulky
 pivotTable.RefreshData();
 pivotTable.CalculateData();
 ```

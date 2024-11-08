@@ -43,7 +43,7 @@ string dataDir = "Your Document Directory";
 LoadOptions options = new LoadOptions();
 options.WarningCallback = new WarningCallback();
 ```
- Zde vytváříme nový`LoadOptions` objekt a spojovat jej s naším`WarningCallback` třídy (kterou definujeme dále). Toto nastavení je nezbytné pro to, aby náš program správně zpracovával varování.
+ Tady vytváříme nový`LoadOptions` objekt a spojovat jej s naším`WarningCallback` třídy (kterou definujeme dále). Toto nastavení je nezbytné pro to, aby náš program správně zpracovával varování.
 ## Krok 3: Načtěte zdrojový soubor Excel
  Čas skutečně načíst tento soubor Excel! To je místo, kde voláte`Workbook` class k načtení souboru spolu s možnostmi, které jsme definovali dříve:
 ```csharp

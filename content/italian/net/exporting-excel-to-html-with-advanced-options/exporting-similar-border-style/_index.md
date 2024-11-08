@@ -41,7 +41,7 @@ Per prima cosa, impostiamo le posizioni per i nostri file sorgente e di output. 
 ```csharp
 //Elenco di origine
 string sourceDir = "Your Document Directory";
-//Directory di uscita
+//Directory di output
 string outputDir = "Your Document Directory";
 ```
 ## Passaggio 2: caricare il file Excel di esempio

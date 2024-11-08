@@ -28,7 +28,7 @@ Prima di tutto, assicuriamoci di aver importato i namespace appropriati per il t
 
 1. Aprire Visual Studio.
 2. Fare clic su "Crea un nuovo progetto".
-3. Seleziona “App console (.NET Framework)” e fai clic su “Avanti”.
+3. Selezionare “App console (.NET Framework)” e fare clic su “Avanti”.
 4. Assegna un nome al tuo progetto e clicca su “Crea”.
 
 ### Aggiungere il riferimento Aspose.Cells

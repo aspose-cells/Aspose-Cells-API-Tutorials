@@ -19,7 +19,7 @@ Aspose.Cells C#-handledningar erbjuder steg-för-steg-instruktioner för att man
 ### [Excel-skärminställningar](./excel-display-settings-csharp-tutorials)
 Kolla in Aspose.Cells C#-tutorials för att anpassa Excel-skärmen. Ändra typsnitt, färger, format och skapa attraktiva rapporter.
 ### [Excel sidinställningar](./excel-page-setup)
-Kolla in Aspose.Cells för .NET handledningar om hur du ställer in Excels sidlayout. Anpassa dina Excel-filer med lätthet.
+Kolla in Aspose.Cells för .NET-handledningarna om hur du ställer in Excels sidlayout. Anpassa dina Excel-filer med lätthet.
 ### [Skydda Excel-fil](./protect-excel-file/)
 Kolla in Aspose.Cells för .NET handledningar om att skydda Excel-filer. Lär dig hur du säkrar dina konfidentiella data med C#.
 ### [Excel arbetsbok](./excel-workbook/)
@@ -90,7 +90,7 @@ Förbättra dina Excel-kunskaper med Aspose.Cells för .NET-tutorials om komment
 Utforska omfattande Aspose.Cells för .NET tutorials om att lägga till Excel-former och kontroller. Lär dig steg-för-steg-metoder för att förbättra dina Excel-kalkylblad programmatiskt.
 ### [Excel OLE och bildobjekt](./excel-ole-picture-objects/)
 Lås upp kraften i Excel med Aspose.Cells för .NET. Bemästra OLE-objekt och bildhantering genom våra enkla handledningar.
-### [Excel-tillgång till form och etikett](./excel-shape-label-access/)
+### [Excel Shape and Label Access](./excel-shape-label-access/)
 Lås upp kraften i Aspose.Cells för .NET med våra omfattande handledningar som täcker OLE-objektetiketter och Smart Art-formidentifiering i Excel.
 ### [Excel-form- och textändringar](./excel-shape-text-modifications/)
 Lär dig att manipulera Excel-former och text med Aspose.Cells för .NET med lätta att följa handledningar och praktiska kodexempel.
@@ -170,3 +170,25 @@ Bemästra automatiskt anpassa rader och kolumner i Excel med Aspose.Cells för .
 Utforska omfattande handledningar om hur du hanterar Excel-skivor med Aspose.Cells för .NET. Lär dig hur du skapar, uppdaterar, formaterar och exporterar slicers utan ansträngning.
 ### [Smarta markörer i Aspose.Cells för dynamisk data](./smart-markers-dynamic-data/)
 Utforska Aspose.Cells för .NET Smart Markers Tutorials för att skapa dynamiska Excel-rapporter. Lär dig att lägga till etiketter, fylla i data automatiskt, använda formler och mer.
+### [Tabeller och listor](./tables-and-lists/)
+Utforska omfattande Aspose.Cells för .NET-handledningar för att effektivt hantera Excel-data, skapa tabeller och förbättra dina färdigheter med lätta att följa guider.
+### [Aspose.Cells Workbook Operations](./workbook-operations/)
+Utforska Aspose.Cells för .NET-arbetsbokshandledningar som täcker dataåtkomst, XML-anpassning, signaturer, webbtillägg och mer. Förbättra Excel automationsfärdigheter enkelt.
+### [Arbetsboksinställningar](./workbook-settings/)
+Utforska de omfattande Aspose.Cells för .NET-handledningarna, som täcker arbetsboksinställningar, externa resurser och mer.
+### [Arbetsbok VBA-projekt](./workbook-vba-project/)
+Lås upp kraften i Excel med Aspose.Cells för .NET. Utforska omfattande handledningar om VBA-projektskydd, kopiering av användarformulär och säkra din arbetsbok.
+### [Arbetsbladsvisning](./worksheet-display/)
+Upptäck en omfattande lista över Aspose.Cells för .NET tutorials. Förbättra dina Excel-kunskaper med steg-för-steg-guider om viktiga kalkylbladsfunktioner.
+### [Arbetsbladshantering](./worksheet-management/)
+Lås upp kraften i Aspose.Cells för .NET med våra omfattande handledningar, som guidar dig genom kalkylbladshantering med steg-för-steg-instruktioner.
+### [Arbetsblad Sidinställningsfunktioner](./worksheet-page-setup-features/)
+Upptäck Aspose.Cells för .NET:s handledning för sidinställningar för kalkylblad, inklusive kopiering av sidinställningar, hantering av pappersstorlek och inställning av utskriftskvalitet för Excel-kalkylblad.
+### [Arbetsblad Säkerhet](./worksheet-security/)
+Lås upp hemligheterna med Excel-säkerhet. Utforska våra omfattande Aspose.Cells för .NET tutorials för att skydda, redigera och hantera dina kalkylblad utan ansträngning.
+### [Arbetsblad Värde Operationer](./worksheet-value-operations/)
+Upptäck viktiga handledningar om Aspose.Cells för .NET, som täcker kalkylbladsvärdeoperationer för att förbättra dina Excel-projekt.
+### [Arbetsblad Operations](./worksheet-operations/)
+Utforska Aspose.Cells för .NET-arbetsbokshandledningar som täcker dataåtkomst, XML-anpassning, signaturer, webbtillägg och mer. Förbättra Excel automationsfärdigheter enkelt.
+### [XML Map Operations](./xml-map-operations/)
+Upptäck omfattande Aspose.Cells för .NET-handledningar som täcker XML-kartoperationer för att förbättra dina Excel-kunskaper utan ansträngning.

@@ -194,4 +194,4 @@ Aspose.Cells per .NET è una potente libreria per la manipolazione di fogli di c
 Sì, Aspose supporta vari tipi di grafici, tra cui grafici a linee, a torta e ad area.
 
 ### Come posso ottenere una licenza temporanea per Aspose.Cells?  
- Puoi richiedere un[licenza temporanea](https://purchase.aspose.com/temporary-license/) tramite il sito web Aspose.
+ Puoi fare domanda per un[licenza temporanea](https://purchase.aspose.com/temporary-license/) tramite il sito web Aspose.

@@ -13,7 +13,7 @@ Pokud pracujete se soubory Excelu v .NET, možná jste se setkali se situacemi, 
 
 ## Odemknutí heslem chráněných excelových listů 
 
- Jedním z nejčastějších úkolů je odemykání heslem chráněných excelových listů. S Aspose.Cells pro .NET toho můžete dosáhnout bez problémů. Proces zahrnuje jednoduchou metodu, která vám umožní zadat heslo (pokud jej máte) a odemknout list pro úpravy. Náš tutoriál na[odemknutí heslem chráněného excelového listu](./unlock-password-protected-excel-worksheet/) rozebírá tyto kroky a zajišťuje, že je mohou následovat i začátečníci. Na konci budete moci obnovit přístup ke svým základním datům, aniž byste se museli zapotit.
+Jedním z nejčastějších úkolů je odemykání heslem chráněných excelových listů. S Aspose.Cells pro .NET toho můžete dosáhnout bez problémů. Proces zahrnuje jednoduchou metodu, která vám umožní zadat heslo (pokud jej máte) a odemknout list pro úpravy. Náš tutoriál na[odemknutí heslem chráněného excelového listu](./unlock-password-protected-excel-worksheet/) rozebírá tyto kroky a zajišťuje, že je mohou následovat i začátečníci. Na konci budete moci obnovit přístup ke svým základním datům, aniž byste se museli zapotit.
 
 ## Zrušte ochranu listů Excel snadno 
 
@@ -21,7 +21,7 @@ Pokud pracujete se soubory Excelu v .NET, možná jste se setkali se situacemi, 
 
 ## Získejte znovu přístup ke svým datům 
 
- Někdy může jednoduché odblokování vést k výraznému zvýšení produktivity – čas jsou přece peníze! Náš návod, jak na to[zrušte ochranu jednoduchých listů aplikace Excel](./unprotect-simple-excel-sheet/) pokrývá to nejnutnější a umožňuje vám rychle znovu získat přístup k vašim důležitým datům. Jistě oceníte, jak intuitivní je knihovna Aspose.Cells, díky níž se potenciálně náročné úkoly budou cítit jako vánek. 
+Někdy může jednoduché odblokování vést k výraznému zvýšení produktivity – čas jsou přece peníze! Náš návod, jak na to[zrušte ochranu jednoduchých listů aplikace Excel](./unprotect-simple-excel-sheet/) pokrývá to nejnutnější a umožňuje vám rychle znovu získat přístup k vašim důležitým datům. Jistě oceníte, jak intuitivní je knihovna Aspose.Cells, díky níž se potenciálně náročné úkoly budou cítit jako vánek. 
 
 Pomocí těchto výukových programů se nejen naučíte odemykat a odemknout listy aplikace Excel, ale také získáte přehled o všestranných možnostech Aspose.Cells pro .NET. Ať už je to pro osobní použití nebo v profesionálním prostředí, tyto dovednosti vylepší vaši práci s Excelem. Jste připraveni ponořit se hlouběji? Podívejte se na každý výše uvedený výukový program a změňte, jak dnes zacházíte se soubory Excel!
 
@@ -29,6 +29,6 @@ Pomocí těchto výukových programů se nejen naučíte odemykat a odemknout li
 ## Tutoriály 
 | Titul | Popis |
 | --- | --- |
-| [Odemkněte heslem chráněný excelový list](./unlock-password-protected-excel-worksheet/) | Naučte se, jak odemknout heslem chráněnou excelovou tabulku pomocí Aspose.Cells for .NET. Krok za krokem tutoriál v C#. |  
+| [Odemkněte heslem chráněný excelový list](./unlock-password-protected-excel-worksheet/) | Naučte se, jak odemknout heslem chráněnou excelovou tabulku pomocí Aspose.Cells for .NET. Výukový program krok za krokem v C#. |  
 | [Odemkněte chráněný list aplikace Excel](./unlock-protected-excel-sheet/) | Naučte se, jak odemknout chráněné listy Excelu pomocí Aspose.Cells for .NET, v tomto podrobném návodu pro začátečníky.  |  
 | [Odemkněte jednoduchý list Excelu](./unprotect-simple-excel-sheet/) | Naučte se, jak snadno zrušit ochranu listů aplikace Excel pomocí Aspose.Cells for .NET, pomocí tohoto podrobného průvodce. Získejte přístup ke svým datům během okamžiku. |  

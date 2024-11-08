@@ -30,7 +30,7 @@ Chcete-li začít využívat sílu Aspose.Cells, nezapomeňte do svého projektu
 
 Chcete-li ve svém programu použít Aspose.Cells, budete muset přidat odkaz na Aspose.Cells.dll. Můžete to udělat takto:
 
-- Klepněte pravým tlačítkem myši na svůj projekt v Průzkumníku řešení.
+- Klepněte pravým tlačítkem myši na váš projekt v Průzkumníku řešení.
 - Vyberte „Přidat“ > „Odkaz“.
 - Přejděte do umístění souboru Aspose.Cells.dll, který jste stáhli.
 - Přidání do vašeho projektu.

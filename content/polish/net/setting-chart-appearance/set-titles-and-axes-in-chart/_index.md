@@ -36,7 +36,7 @@ using Aspose.Cells;
 using System.Drawing;
 ```
 
-Importując te przestrzenie nazw, możemy teraz wykorzystać klasy i metody udostępniane przez Aspose.Cells do pracy z plikami Excela i grafikami.
+Dzięki importowaniu tych przestrzeni nazw możemy teraz wykorzystać klasy i metody udostępniane przez Aspose.Cells do pracy z plikami i grafikami programu Excel.
 
 Teraz, gdy wszystko już skonfigurowaliśmy, możemy podzielić proces na łatwiejsze do wykonania kroki.
 

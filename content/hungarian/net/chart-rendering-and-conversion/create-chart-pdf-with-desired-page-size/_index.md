@@ -121,7 +121,7 @@ Ez az üzenet jelenik meg a konzol ablakában, amint a folyamat befejeződött, 
 
 ## Következtetés
 
-Gratulálok! Most tanulta meg, hogyan használhatja az Aspose.Cells for .NET-et PDF-fájl létrehozásához egy Excel-fájlban található diagramból. Ez a nagy teljesítményű könyvtár leegyszerűsíti az Excel-dokumentumok kezelésének és az adatok vizuális megjelenítésének folyamatát, így órákat takarít meg a kézi formázástól. Feltétlenül fedezze fel az Aspose.Cells által kínált rengeteg egyéb funkciót a PDF-generáláson túl – soha nem tudhatja, mi javíthatja tovább projektjeit!
+Gratulálok! Most tanulta meg, hogyan használhatja az Aspose.Cells for .NET-et PDF-fájl létrehozásához egy Excel-fájlban található diagramból. Ez a nagy teljesítményű könyvtár leegyszerűsíti az Excel-dokumentumok kezelésének és az adatok vizuális megjelenítésének folyamatát, így órákat takarít meg a kézi formázástól. Feltétlenül fedezze fel az Aspose.Cells által a PDF-generáláson túlmenően kínált egyéb funkciók sokaságát – soha nem tudhatja, mi javíthatja tovább projektjeit!
 
 ## GYIK
 

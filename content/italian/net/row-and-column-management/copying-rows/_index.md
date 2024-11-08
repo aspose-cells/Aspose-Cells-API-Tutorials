@@ -8,7 +8,7 @@ weight: 11
 url: /it/net/row-and-column-management/copying-rows/
 ---
 ## Introduzione
-Se lavori con file Excel in un ambiente .NET, Aspose.Cells per .NET è uno strumento potente che vorrai conoscere. Con esso, puoi automatizzare attività come la creazione di nuovi fogli di lavoro, la formattazione di celle e persino la copia di righe senza problemi. Immagina di gestire grandi set di dati o di ripetere righe di modelli senza sforzo: Aspose.Cells per .NET rende queste attività un gioco da ragazzi! In questo tutorial, ci concentreremo su un'attività specifica: la copia di righe all'interno di un file Excel. Tratteremo i prerequisiti, l'importazione dei pacchetti necessari e una guida passo passo per semplificare questo processo. Quindi, tuffiamoci!
+Se lavori con file Excel in un ambiente .NET, Aspose.Cells per .NET è uno strumento potente che vorrai conoscere. Con esso, puoi automatizzare attività come la creazione di nuovi fogli di lavoro, la formattazione di celle e persino la copia di righe senza problemi. Immagina di gestire grandi set di dati o di ripetere righe di modelli senza sforzo: Aspose.Cells per .NET rende queste attività un gioco da ragazzi! In questo tutorial, ci concentreremo su un'attività specifica: la copia di righe all'interno di un file Excel. Tratteremo i prerequisiti, l'importazione dei pacchetti necessari e una guida passo passo per semplificare questo processo. Quindi, tuffiamoci dentro!
 ## Prerequisiti
 Prima di passare al codice, ecco cosa ti servirà:
 1.  Aspose.Cells per .NET: assicurati di avere la versione più recente. Puoi[scaricalo qui](https://releases.aspose.com/cells/net/) O[Ottieni una prova gratuita](https://releases.aspose.com/).

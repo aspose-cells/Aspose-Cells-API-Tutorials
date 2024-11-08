@@ -2,7 +2,7 @@
 title: ODS-fájlok titkosítása .NET-ben
 linktitle: ODS-fájlok titkosítása .NET-ben
 second_title: Aspose.Cells .NET Excel Processing API
-description: Ismerje meg az ODS-fájlok titkosítását és visszafejtését az Aspose.Cells for .NET használatával. Lépésről lépésre szóló útmutató az adatok védelméhez.
+description: Ismerje meg az ODS-fájlok titkosítását és visszafejtését az Aspose.Cells for .NET használatával. Lépésről lépésre szóló útmutató az adatok biztonságához.
 type: docs
 weight: 12
 url: /hu/net/security-and-encryption/encrypting-ods-files/
@@ -51,7 +51,7 @@ Ezután beállítjuk a munkafüzet jelszavát. Így védheti jelszóval ODS-fáj
 // Védje jelszóval a fájlt.
 workbook.Settings.Password = "1234";
 ```
-Ezzel a jelszót „1234”-re állítja. Nyugodtan használjon összetettebb jelszót a nagyobb biztonság érdekében!
+Ezzel a jelszót "1234"-re állítja. Nyugodtan használjon összetettebb jelszót a nagyobb biztonság érdekében!
 ### Mentse el a titkosított fájlt
  Végül mentse a titkosított fájlt. A`Save` A módszer zökkenőmentesen gondoskodik erről:
 ```csharp

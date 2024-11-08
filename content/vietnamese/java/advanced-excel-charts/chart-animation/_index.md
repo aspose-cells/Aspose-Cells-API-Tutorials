@@ -2,7 +2,7 @@
 title: Biểu đồ hoạt hình
 linktitle: Biểu đồ hoạt hình
 second_title: API xử lý Excel Java của Aspose.Cells
-description: Tìm hiểu cách tạo hoạt ảnh biểu đồ hấp dẫn bằng Aspose.Cells cho Java. Hướng dẫn từng bước và mã nguồn kèm theo để trực quan hóa dữ liệu động.
+description: Tìm hiểu cách tạo hoạt ảnh biểu đồ hấp dẫn bằng Aspose.Cells for Java. Hướng dẫn từng bước và mã nguồn kèm theo để trực quan hóa dữ liệu động.
 type: docs
 weight: 17
 url: /vi/java/advanced-excel-charts/chart-animation/

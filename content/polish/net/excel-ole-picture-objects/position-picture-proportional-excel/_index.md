@@ -8,7 +8,7 @@ weight: 14
 url: /pl/net/excel-ole-picture-objects/position-picture-proportional-excel/
 ---
 ## Wstęp
-Czy masz dość tych pikselowych obrazów, które nigdy nie pasują idealnie do Twoich arkuszy kalkulacyjnych Excel? Wyobraź sobie: masz piękne logo, które musi być wyraźnie wyświetlane w arkuszu Excel, ale kończy się na tym, że jest ściśnięte, rozciągnięte lub źle umieszczone. Nikt tego nie chce! Cóż, trzymaj się swoich miejsc, ponieważ dzisiaj nauczysz się, jak proporcjonalnie ustawiać obrazy w programie Excel, korzystając z biblioteki Aspose.Cells dla .NET. Ta potężna biblioteka ułatwia manipulowanie plikami Excel, czy to do raportowania, analizy danych, czy po prostu do ozdabiania prezentacji. Zanurzmy się w szczegółach idealnego wyrównywania obrazów!
+Czy masz dość tych pikselowanych obrazów, które nigdy nie pasują idealnie do arkuszy kalkulacyjnych programu Excel? Wyobraź sobie: masz piękne logo, które musi być wyraźnie wyświetlane w arkuszu Excel, ale kończy się na tym, że jest ściśnięte, rozciągnięte lub źle umieszczone. Nikt tego nie chce! Cóż, trzymajcie się swoich miejsc, ponieważ dzisiaj nauczycie się, jak proporcjonalnie ustawiać obrazy w programie Excel, korzystając z biblioteki Aspose.Cells dla .NET. Ta potężna biblioteka ułatwia manipulowanie plikami programu Excel, czy to do raportowania, analizy danych, czy po prostu do ozdabiania prezentacji. Zanurzmy się w szczegółach idealnego wyrównywania obrazów!
 ## Wymagania wstępne
 Zanim przejdziemy do właściwego kodowania, jest kilka rzeczy, które musisz skonfigurować na swoim komputerze:
 1. Visual Studio: Upewnij się, że masz zainstalowany program Visual Studio. Zapewni on wygodne środowisko dla Twojego projektu .NET.

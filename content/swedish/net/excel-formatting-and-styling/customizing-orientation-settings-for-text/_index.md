@@ -82,7 +82,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 
  Varje arbetsbok kan innehålla flera kalkylblad. Här kommer vi åt den första som använder`Worksheets[0]`. Det är som att välja vilken sida i din anteckningsbok du vill arbeta med!
 
-## Steg 4: Hämta cellreferens
+## Steg 4: Hämta cellreferensen
 
 Låt oss gå vidare till att hämta cellen där vi vill anpassa texten.
 
@@ -98,7 +98,7 @@ Aspose.Cells.Cell cell = worksheet.Cells["A1"];
 Därefter lägger vi in lite text i cellen för att se våra förändringar i handling.
 
 ```csharp
-// Lägger till något värde till "A1"-cellen
+// Lägga till något värde till "A1"-cellen
 cell.PutValue("Visit Aspose!");
 ```
 

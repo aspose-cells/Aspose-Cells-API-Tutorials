@@ -93,7 +93,7 @@ chart.ChartObject.X = 250;
 chart.ChartObject.Y = 150;
 ```
 
- Most, hogy megvan a megfelelő méret, mozgassuk a diagramot! Azáltal, hogy megváltoztatja a`X` és`Y` tulajdonságokkal, lényegében áthelyezzük a diagramot a munkalapon. Tekintsd úgy, mintha a bekeretezett képet egy új helyre húznád a falon, hogy jobban megmutassa szépségét!
+ Most, hogy megvan a megfelelő méret, mozgassuk a diagramot! Azáltal, hogy megváltoztatja a`X` és`Y` tulajdonságokkal, lényegében áthelyezzük a diagramot a munkalapon. Tekintsd úgy, mintha a bekeretezett képedet egy új helyre húznád a falon, hogy jobban megmutassa szépségét!
 
 ## 7. lépés: Mentse el a munkafüzetet
 

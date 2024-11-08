@@ -47,7 +47,7 @@ Aspose.Cells for .NET을 사용하여 Excel 스프레드시트의 보호를 해�
 ### [차트 데이터 작업](./working-with-chart-data/)
 차트 데이터 작업에 초점을 맞춘 포괄적인 Aspose.Cells for .NET 튜토리얼을 알아보세요. 차트를 배우고, 만들고, 사용자 지정하세요.
 ### [차트 축 및 단위 사용자 정의](./customizing-chart-axes-and-units/)
-쉬운 튜토리얼을 통해 Aspose.Cells for .NET에서 마스터 차트 축 사용자 지정. Excel 프로처럼 자동 단위를 처리하고 축 라벨을 읽는 법을 배우세요.
+Aspose.Cells for .NET에서 간단한 튜토리얼로 마스터 차트 축 사용자 지정. Excel 프로처럼 자동 단위를 처리하고 축 라벨을 읽는 법을 배우세요.
 ### [Excel에서 하이퍼링크 작업](./excel-working-with-hyperlinks/)
 Aspose.Cells for .NET으로 Excel에서 하이퍼링크의 마법을 풀어보세요. 스프레드시트를 효과적으로 향상시키는 것이 얼마나 간단한지 알아보세요.
 ### [Excel에서 명명된 범위 작업](./excel-working-with-named-ranges/)
@@ -81,7 +81,7 @@ Aspose.Cells for .NET에서 서식을 잃지 않고 Excel 셀 정렬을 변경�
 ### [Excel 데이터 보존 및 경고](./excel-data-preservation-warning/)
 고급 Excel 데이터 보존 기술(셀에서 작은따옴표 접두사를 보존하고 정렬 중에 정렬 경고를 지정하는 등)을 구현하기 위해 Aspose.Cells for .NET을 사용하는 방법을 알아보세요.
 ### [Excel 범위 및 주소 계산](./excel-range-address-calculation/)
-Excel 범위 생성, 주소 계산 및 고급 조작을 쉽게 다루는 Aspose.Cells for .NET에 대한 필수 튜토리얼을 알아보세요.
+Excel 범위 생성, 주소 계산 및 고급 조작을 쉽게 다루는 Aspose.Cells for .NET에 대한 필수 튜토리얼을 확인해 보세요.
 ### [Excel 숨겨진 행 및 데이터 중복 관리](./excel-hidden-rows-data-duplication-management/)
 Aspose.Cells for .NET 튜토리얼을 통해 Excel의 잠재력을 활용하고, 숨겨진 행을 관리하고 데이터를 쉽게 복제하는 방법에 대한 통찰력을 제공합니다.
 ### [Excel 주석 및 주석](./excel-comment-annotation/)
@@ -170,3 +170,25 @@ Aspose.Cells for .NET을 사용하여 Excel에서 행과 열 자동 맞춤을 �
 Aspose.Cells for .NET으로 Excel 슬라이서를 관리하는 방법에 대한 포괄적인 튜토리얼을 살펴보세요. 슬라이서를 손쉽게 만들고, 업데이트하고, 포맷하고, 내보내는 방법을 알아보세요.
 ### [Aspose.Cells의 동적 데이터를 위한 스마트 마커](./smart-markers-dynamic-data/)
 Aspose.Cells for .NET Smart Markers 튜토리얼을 탐색하여 동적 Excel 보고서를 만드세요. 레이블 추가, 데이터 자동 채우기, 수식 사용 등을 알아보세요.
+### [표와 목록](./tables-and-lists/)
+쉽게 따라할 수 있는 가이드로 Excel 데이터를 효율적으로 관리하고, 테이블을 만들고, 기술을 향상하는 데 도움이 되는 포괄적인 Aspose.Cells for .NET 튜토리얼을 살펴보세요.
+### [Aspose.Cells 워크북 작업](./workbook-operations/)
+데이터 액세스, XML 사용자 지정, 서명, 웹 확장 등을 다루는 Aspose.Cells for .NET 워크북 자습서를 탐색하세요. Excel 자동화 기술을 쉽게 향상시키세요.
+### [통합 문서 설정](./workbook-settings/)
+통합 문서 설정, 외부 리소스 등을 다루는 포괄적인 Aspose.Cells for .NET 자습서를 살펴보세요.
+### [워크북 VBA 프로젝트](./workbook-vba-project/)
+Aspose.Cells for .NET으로 Excel의 힘을 활용하세요. VBA 프로젝트 보호, 사용자 양식 복사, 통합 문서 보안에 대한 포괄적인 튜토리얼을 살펴보세요.
+### [워크시트 표시](./worksheet-display/)
+.NET용 Aspose.Cells 튜토리얼의 포괄적인 목록을 알아보세요. 주요 워크시트 기능에 대한 단계별 가이드로 Excel 기술을 향상하세요.
+### [워크시트 관리](./worksheet-management/)
+포괄적인 튜토리얼을 통해 .NET용 Aspose.Cells의 강력한 기능을 활용하고 단계별 지침으로 워크시트를 관리하는 방법을 안내합니다.
+### [워크시트 페이지 설정 기능](./worksheet-page-setup-features/)
+.NET용 Aspose.Cells의 워크시트 페이지 설정 자습서를 살펴보세요. 여기에는 페이지 설정 복사, 용지 크기 관리, Excel 워크시트의 인쇄 품질 설정 등이 포함됩니다.
+### [워크시트 보안](./worksheet-security/)
+Excel 보안의 비밀을 밝혀내세요. 포괄적인 Aspose.Cells for .NET 튜토리얼을 탐색하여 워크시트를 손쉽게 보호, 편집 및 관리하세요.
+### [워크시트 값 연산](./worksheet-value-operations/)
+Excel 프로젝트를 개선하는 데 도움이 되는 워크시트 값 연산을 다루는 Aspose.Cells for .NET에 대한 필수 튜토리얼을 알아보세요.
+### [워크시트 작업](./worksheet-operations/)
+데이터 액세스, XML 사용자 지정, 서명, 웹 확장 등을 다루는 Aspose.Cells for .NET 워크북 자습서를 탐색하세요. Excel 자동화 기술을 쉽게 향상시키세요.
+### [Xml 맵 작업](./xml-map-operations/)
+Excel 기술을 쉽게 향상시킬 수 있는 XML 맵 작업을 다루는 포괄적인 Aspose.Cells for .NET 튜토리얼을 알아보세요.

@@ -101,7 +101,7 @@ Och precis så har du lagt grunden för att avgöra om pappersstorleken på ett 
 Aspose.Cells är ett .NET-bibliotek designat för att hantera Excel-kalkylbladsfiler programmatiskt utan att Excel behöver installeras.
 
 ### Kan jag använda Aspose.Cells för icke-Windows-miljöer?
-Ja! Aspose.Cells stödjer plattformsoberoende utveckling, så du kan arbeta i olika miljöer där .NET är tillgängligt.
+Ja! Aspose.Cells stöder plattformsoberoende utveckling, så du kan arbeta i olika miljöer där .NET är tillgängligt.
 
 ### Behöver jag en licens för Aspose.Cells?
 Även om du kan börja med en gratis provperiod, kräver fortsatt användning en köpt licens. Mer information kan hittas[här](https://purchase.aspose.com/buy).

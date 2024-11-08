@@ -34,14 +34,14 @@ using Aspose.Cells;
 ```
 Nagy! Most már készen áll, és készen áll egy varázslat létrehozására az Excel segítségével.
 
-Most a mókás részről – tulajdonképpen a hiperhivatkozás hozzáadása az Excel-fájlhoz! Bontsuk ezt le lépésről lépésre:
+Most a mókás részről – tulajdonképpen a hiperhivatkozás hozzáadása az Excel-fájlhoz! Bontsuk le ezt lépésről lépésre:
 ## 1. lépés: Határozza meg a kimeneti könyvtárat
 Először is meg kell adnunk, hogy a hivatkozás hozzáadása után hova mentsük az Excel fájlunkat. 
 ```csharp
 // Kimeneti könyvtár
 string outputDir = "Your Document Directory/"; // Válts az utadra
 ```
- Ügyeljen arra, hogy cserélje ki`"Your Document Directory/"` a tényleges elérési úttal, ahová a kimeneti fájlt menteni szeretné. 
+ Mindenképpen cserélje ki`"Your Document Directory/"` a tényleges elérési úttal, ahová a kimeneti fájlt menteni szeretné. 
 ## 2. lépés: Hozzon létre egy munkafüzet-objektumot
  Itt létrehozunk egy példányt a`Workbook` osztály. Gondoljon a munkafüzetre úgy, mint egy üres vászonra a táblázata számára.
 ```csharp

@@ -2,7 +2,7 @@
 title: 使用電子表格中的字體
 linktitle: 使用電子表格中的字體
 second_title: Aspose.Cells .NET Excel 處理 API
-description: 了解有關使用 Aspose.Cells for .NET 的基本教程，重點關注電子表格中的字體管理並確保最佳文件呈現。
+description: 了解有關使用 Aspose.Cells for .NET 的基本教程，重點是電子表格中的字體管理並確保最佳的文件呈現。
 type: docs
 weight: 20
 url: /zh-hant/net/working-with-fonts-in-spreadsheets/
@@ -17,11 +17,11 @@ url: /zh-hant/net/working-with-fonts-in-spreadsheets/
 
 ## 設定 PDF 儲存選項的預設字體
 
-將 Excel 電子表格轉換為 PDF 時，確保文件看起來完美至關重要。但是，如果字體不匹配，或者它們沒有正確處理您的資料怎麼辦？本教學向您展示如何設定 PDF 儲存選項的預設字體。您將學習如何準確指定儲存為 PDF 時使用的字體，從而使您能夠完全控制結果。這可以確保您的受眾完全按照您的預期查看文件。想要每次都擁有完美的造型嗎？前往我們的教程[設定 PDF 儲存選項的預設字體](./set-default-font-for-pdf-save-options/)開始吧。
+將 Excel 電子表格轉換為 PDF 時，確保文件看起來完美至關重要。但是，如果字體不匹配，或者它們沒有正確處理您的資料怎麼辦？本教學向您展示如何設定 PDF 儲存選項的預設字體。您將學習如何準確指定儲存為 PDF 時使用的字體，從而使您能夠完全控制結果。這可確保您的受眾完全按照您的預期查看文件。想要每次都擁有完美的造型嗎？前往我們的教程[設定 PDF 儲存選項的預設字體](./set-default-font-for-pdf-save-options/)開始吧。
 
 ## 指定工作簿渲染的字體
 
-渲染策略可以極大地影響文件的輸出品質。這意味著在將工作簿轉換為其他格式之前選擇正確的字體非常重要。在這個易於理解的指南中，我們介紹如何為工作簿渲染指定自訂字體。您將獲得逐步說明，以幫助您確保您的 PDF 每次看起來都是一流的。個性化您的文檔，給人留下深刻的印象！透過閱讀以下教學了解如何操作[指定工作簿渲染的字體](./specify-fonts-for-workbook-rendering/).
+渲染策略可以極大地影響文件的輸出品質。這意味著在將工作簿轉換為其他格式之前選擇正確的字體非常重要。在這個易於理解的指南中，我們介紹如何為工作簿渲染指定自訂字體。您將獲得逐步說明，幫助您確保您的 PDF 每次看起來都是一流的。個性化您的文檔，給人留下深刻的印象！透過閱讀以下教學了解如何操作[指定工作簿渲染的字體](./specify-fonts-for-workbook-rendering/).
 
 ## 在電子表格中使用字體教程
 ### [取得電子表格中使用的字體列表](./get-list-of-fonts-used-in-spreadsheet/)

@@ -56,7 +56,7 @@ string outDir = "Your Document Directory";
 Workbook workbook = new Workbook(sourceDir + "LargeSampleFile.xlsx");
 ```
 
-这行初始化一个新的`Workbook`对象与指定的文件。请确保文件路径正确；否则，您将遇到错误。
+这行初始化一个新的`Workbook`对象与指定文件。请确保文件路径正确；否则，您将遇到错误。
 
 ## 步骤 3：为 XLSB 创建保存选项
 

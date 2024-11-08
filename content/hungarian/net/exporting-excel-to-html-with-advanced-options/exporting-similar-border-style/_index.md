@@ -51,7 +51,7 @@ string outputDir = "Your Document Directory";
 Workbook wb = new Workbook(sourceDir + "sampleExportSimilarBorderStyle.xlsx");
 ```
 ## 3. lépés: Adja meg a HTML mentési beállításokat
-A munkafüzet betöltése után itt az ideje meghatározni, hogyan szeretnénk exportálni. Céljainkra a hasonló szegélystílusok exportálására fogunk összpontosítani. Ez olyan, mintha azt mondaná el utazási irodájának, hogy milyen szállásokat preferál!
+A munkafüzet betöltése után itt az ideje meghatározni, hogyan szeretnénk exportálni. Céljainkra a hasonló szegélystílusok exportálására fogunk összpontosítani. Ez olyan, mintha megmondaná az utazási irodájának, hogy milyen szállásokat preferál!
 ```csharp
 //Adja meg a HTML mentési beállításokat – Hasonló szegélystílus exportálása
 HtmlSaveOptions opts = new HtmlSaveOptions();

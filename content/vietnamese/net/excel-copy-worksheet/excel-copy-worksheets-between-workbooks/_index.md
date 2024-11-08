@@ -68,7 +68,7 @@ Bây giờ bạn đã mở sổ làm việc đầu tiên, đã đến lúc tạo
 Workbook excelWorkbook1 = new Workbook();
 ```
 
- Dòng này tạo ra một bảng tính trống có tên`excelWorkbook1`. Đây là nơi bảng tính được sao chép sẽ nằm sau khi bạn di chuyển nó từ sổ làm việc đầu tiên.
+ Dòng này tạo ra một sổ làm việc trống có tên`excelWorkbook1`. Đây là nơi bảng tính được sao chép sẽ nằm sau khi bạn di chuyển nó từ sổ làm việc đầu tiên.
 
 ## Bước 4: Sao chép bảng tính
 

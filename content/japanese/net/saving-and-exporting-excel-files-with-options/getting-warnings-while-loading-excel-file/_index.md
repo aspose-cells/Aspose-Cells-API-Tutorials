@@ -57,7 +57,7 @@ book.Save(dataDir + "outputDuplicateDefinedName.xlsx");
 ```
 この行では、ワークブックを新しい場所に保存します。 必要に応じて、有効なファイル名を指定できます。
 ## ステップ5: 警告コールバックを実装する
-さて、私たちは`WarningCallback`クラスを動作させます。このクラスは`IWarningCallback`インターフェースを定義し、警告が発生したときに何が起こるかを定義します。
+さて、私たちは`WarningCallback`クラスをアクションに実装します。このクラスは`IWarningCallback`インターフェースを定義し、警告が発生したときに何が起こるかを定義します。
 ```csharp
 private class WarningCallback : IWarningCallback
 {

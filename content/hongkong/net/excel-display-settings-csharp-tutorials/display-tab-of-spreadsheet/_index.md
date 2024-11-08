@@ -92,4 +92,4 @@ workbook.Save(dataDir + "output.xls");
 是的，Aspose.Cells 支援將 Excel 檔案轉換為各種格式，如 PDF、HTML、CSV 等。
 
 ### Aspose.Cells 是否有免費試用版？
-是的，您可以下載一個[在這裡免費試用](https://releases.aspose.com/)在購買前探索 Aspose.Cells 的全部功能。
+是的，您可以下載一個[在這裡免費試用](https://releases.aspose.com/)在購買前探索 Aspose.Cells 的完整功能。

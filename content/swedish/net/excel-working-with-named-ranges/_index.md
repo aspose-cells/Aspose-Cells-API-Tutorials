@@ -15,7 +15,7 @@ Namngivna intervall i Excel är som små fickor med kraft. De låter dig hantera
 
 Föreställ dig att du har flera namngivna intervall utspridda över ditt Excel-ark och du måste hämta dem alla för bearbetning. Istället för att jaga varje sortiment individuellt, ger Aspose.Cells för .NET dig ett strömlinjeformat sätt att komma åt dem på en gång! Denna metod förenklar ditt arbetsflöde och sparar tid.
 
- Genom att använda`Workbook.Worksheets.Names`samling kan du enkelt komma åt alla namngivna intervall. Oavsett om du hanterar stora datamängder eller automatiserar uppgifter är den här funktionen en spelomvandlare. Vill du lära dig hur du gör detta steg för steg? Läs mer i vår detaljerade[Få tillgång till alla namngivna intervall i Excel](./access-all-named-ranges/) handledning.
+ Genom att använda`Workbook.Worksheets.Names`samling kan du enkelt komma åt alla namngivna intervall. Oavsett om du hanterar stora datamängder eller automatiserar uppgifter är den här funktionen en spelomvandlare. Vill du lära dig hur man gör detta steg för steg? Läs mer i vår detaljerade[Få tillgång till alla namngivna intervall i Excel](./access-all-named-ranges/) handledning.
 
 ## Få åtkomst till specifikt namngivet intervall i Excel
 

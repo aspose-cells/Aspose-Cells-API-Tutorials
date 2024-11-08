@@ -110,7 +110,7 @@ Folgendes ist passiert:
 1. Wir erhalten die Farbe der Vollfüllung.
 2.  Verwenden von`ThemeColor` legen wir eine Farbe für unsere Vollfüllung fest. Sie können ändern`Accent6` zu jeder anderen Themenfarbe, je nachdem, was Ihnen gefällt.
 
-## Schritt 7: Wenden Sie das Thema auf die Serie an
+## Schritt 7: Das Thema auf die Serie anwenden
 
 Nachdem wir die Farbe konfiguriert haben, ist es an der Zeit, das neue Design auf unsere Serie anzuwenden. 
 

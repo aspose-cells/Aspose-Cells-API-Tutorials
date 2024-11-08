@@ -2,7 +2,7 @@
 title: Styr externa resurser i Excel till PDF i Aspose.Cells
 linktitle: Styr externa resurser i Excel till PDF i Aspose.Cells
 second_title: Aspose.Cells .NET Excel Processing API
-description: Upptäck hur du kontrollerar externa resurser i Excel till PDF-konvertering med Aspose.Cells för .NET med vår lättanvända guide.
+description: Upptäck hur du styr externa resurser i Excel till PDF-konvertering med Aspose.Cells för .NET med vår lättanvända guide.
 type: docs
 weight: 12
 url: /sv/net/rendering-and-export/control-loading-of-external-resources/

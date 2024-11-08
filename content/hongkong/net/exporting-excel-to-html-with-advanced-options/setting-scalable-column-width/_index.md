@@ -12,8 +12,8 @@ Excel 是一個令人驚嘆的工具，有助於簡化資料管理、分析和�
 ## 先決條件
 在我們開始編碼之前，您需要設定一些東西。將此視為在開始 DIY 專案之前收集工具。這是您需要的：
 1. Visual Studio：確保您的電腦上安裝了 Visual Studio。這是我們用於 .NET 應用程式的主要環境。
-2.  Aspose.Cells 函式庫：您需要安裝 Aspose.Cells for .NET。這可以從[Aspose 發布](https://releases.aspose.com/cells/net/)頁。 
-3. C# 基礎知識：掌握 C# 程式設計將會很有幫助，因為我們將用這種語言編寫程式碼。如果您是初學者，請不要擔心。我們會邊走邊解釋事情。
+2.  Aspose.Cells 函式庫：您需要安裝 Aspose.Cells for .NET。這可以從以下位置下載[Aspose 發布](https://releases.aspose.com/cells/net/)頁。 
+3. C# 基礎知識：掌握 C# 程式設計將很有幫助，因為我們將用這種語言編寫程式碼。如果您是初學者，請不要擔心。我們會邊走邊解釋事情。
 4.  Excel 檔案：為了進行測試，請確保您有一個 Excel 檔案（假設`sampleForScalableColumns.xlsx`） 準備好。這將是我們修改的文件。
 現在您已經準備好了，讓我們逐步分解這個過程。
 ## 導入包

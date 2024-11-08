@@ -44,7 +44,7 @@ kódban adjon meg egy karakterlánc-változót, amely azt a fájl elérési utat
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Ügyeljen arra, hogy cserélje ki`"YOUR DOCUMENT DIRECTORY"` a rendszer tényleges elérési útjával.
+ Mindenképpen cserélje ki`"YOUR DOCUMENT DIRECTORY"` a rendszer tényleges elérési útjával.
 
 ## 2. lépés: Hozzon létre egy munkafüzet-objektumot
 

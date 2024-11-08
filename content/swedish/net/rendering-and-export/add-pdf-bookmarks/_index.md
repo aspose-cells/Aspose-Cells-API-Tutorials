@@ -73,7 +73,7 @@ subbookmarkEntry2.Destination = cell;
 subbookmarkEntry2.DestinationName = "AsposeCells--" + cell.Name;
 ```
 Dessa underbokmärken fungerar som kapitlen i en bok – och vägleder användarna till mer specifikt innehåll i dokumentet.
-### Lägg till underbokmärken till listan
+### Lägg till underbokmärken i listan
 Därefter kommer vi att gruppera våra underbokmärken under huvudbokmärket som vi skapade tidigare.
 ```csharp
 ArrayList list = new ArrayList();

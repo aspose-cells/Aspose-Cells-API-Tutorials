@@ -64,7 +64,7 @@ In deze regel:
 - `InsertColumn(1)` vertelt Aspose.Cells om een nieuwe kolom op index 1 te plaatsen. De oorspronkelijke gegevens in kolom B (index 1) verschuiven één plaats naar rechts.
 >  Pro Tip: U kunt de positie wijzigen door de index aan te passen.`InsertColumn(0)` Voegt een kolom aan het begin in, terwijl hogere waarden deze verder naar rechts plaatsen.
 ## Stap 6: Sla het gewijzigde bestand op
-Met de nieuwe kolom ingevoegd, slaan we de bijgewerkte werkmap op. Deze stap is hetzelfde als klikken op "Opslaan" in Excel om alle wijzigingen die u hebt aangebracht te behouden.
+Met de nieuwe kolom ingevoegd, slaan we de bijgewerkte werkmap op. Deze stap is hetzelfde als klikken op 'Opslaan' in Excel om alle wijzigingen die u hebt aangebracht te behouden.
 ```csharp
 // Sla het gewijzigde Excel-bestand op
 workbook.Save(dataDir + "output.out.xls");

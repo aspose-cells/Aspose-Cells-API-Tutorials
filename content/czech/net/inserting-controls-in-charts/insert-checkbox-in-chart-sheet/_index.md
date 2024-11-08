@@ -56,13 +56,13 @@ using System;
 using Aspose.Cells.Drawing;
 ```
 
-Nyní jste dokončili nastavení! Je to jako položení pevného základu před stavbou domu – zásadní pro stabilní konstrukci.
+Nyní jste dokončili nastavení! Je to jako položení pevných základů před stavbou domu – zásadní pro stabilní konstrukci.
 
-Nyní, když jsme vše nastavili, pojďme se ponořit do části kódování! Zde je podrobný rozpis toho, jak vložit zaškrtávací políčko do listu s grafem pomocí Aspose.Cells.
+Nyní, když jsme vše nastavili, pojďme se ponořit do části kódování! Zde je podrobný rozpis toho, jak vložit zaškrtávací políčko do listu grafu pomocí Aspose.Cells.
 
 ## Krok 1: Definujte svůj výstupní adresář
 
-Než se dostaneme k tomu zajímavému, musíme definovat, kam chceme, aby byl náš soubor uložen. Budete chtít poskytnout cestu k výstupnímu adresáři.
+Než se dostaneme k tomu zajímavému, musíme definovat, kam chceme náš soubor uložit. Budete chtít poskytnout cestu k výstupnímu adresáři.
 ```csharp
 string outputDir = "C:\\YourOutputDirectory\\"; // Přejděte do určeného adresáře
 ```

@@ -12,7 +12,7 @@ Pokud jde o práci se soubory Excel v aplikacích .NET, Aspose.Cells nabízí v�
 ## Předpoklady
 Než se ponoříte do dobrodružství s kódováním, ujistěte se, že jste vybaveni vším, co potřebujete k úspěšnému provedení tohoto tutoriálu.
 ### Základní znalosti
-Měli byste mít základní znalosti C# a .NET. Tento tutoriál je určen pro ty, kteří mají alespoň základní přehled o programování.
+Měli byste mít základní znalosti C# a .NET. Tento tutoriál je určen pro ty, kteří mají alespoň základní přehled o programovacích konceptech.
 ### Nastavení prostředí
 1. Visual Studio: Ujistěte se, že máte nainstalované Visual Studio. Je to vývojové prostředí, které zjednodušuje kódování.
 2.  Aspose.Cells Library: Potřebujete knihovnu Aspose.Cells. Pokud jste to ještě neudělali, můžete si ji stáhnout[zde](https://releases.aspose.com/cells/net/).
@@ -65,7 +65,7 @@ Nyní musíme iterovat všechny tvary v listu. To nám umožní použít nastave
 ```csharp
 foreach (Shape sh in ws.Shapes)
 ```
-Zde používáme smyčku foreach. Je to jednoduchý způsob, jak zpracovat každý tvar jeden po druhém.
+Zde používáme foreach smyčku. Je to jednoduchý způsob, jak zpracovat každý tvar jeden po druhém.
 ## Krok 5: Upravte zarovnání textu
 Každý tvar již může mít nastavení zarovnání, které musíme upravit. Zde přistoupíme k zarovnání textu tvaru a určíme, že okraje nastavíme ručně.
 ```csharp

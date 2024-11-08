@@ -73,7 +73,7 @@ comment.Font.Name = "Times New Roman";
 - comment.Note：在這裡，我們設定評論的文字。
 - comment.Font.Name：設定評論文字的字體。
 ## 第 5 步：將圖像載入到流中
-現在是時候加載我們想要嵌入評論中的圖像了。我們將使用一個`MemoryStream`儲存影像資料。
+現在是時候加載我們想要嵌入評論中的圖像了。我們將使用一個`MemoryStream`來保存圖像資料。
 ```csharp
 //將圖像載入到流中
 Bitmap bmp = new Bitmap(dataDir + "logo.jpg");

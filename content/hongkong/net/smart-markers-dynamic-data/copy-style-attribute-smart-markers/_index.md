@@ -76,10 +76,10 @@ workbook.Save(dataDir+ "output.xlsx", SaveFormat.Xlsx);
 ```
 就是這樣！您已成功在 Aspose.Cells 智慧標記中套用複製樣式屬性。產生的 Excel 檔案將包含資料表中的數據，並根據智慧標記範本套用樣式和格式。
 ## 結論
-在本教學中，您學習如何利用 Aspose.Cells for .NET 的強大功能，使用智慧標記動態地用資料填入 Excel 電子表格。透過將您的資料來源與智慧標記範本整合，您可以輕鬆建立高度客製化且具有視覺吸引力的報告和簡報。
+在本教學中，您學習如何利用 Aspose.Cells for .NET 的強大功能，使用智慧標記動態地用資料填入 Excel 電子表格。透過將資料來源與智慧標記範本集成，您可以輕鬆建立高度客製化且具有視覺吸引力的報告和簡報。
 ## 常見問題解答
 ### Aspose.Cells 和 Microsoft Excel 有什麼區別？
-Aspose.Cells 是一個 .NET API，它提供對 Excel 功能的程式訪問，允許開發人員建立、操作和管理 Excel 文件，而無需在系統上安裝 Microsoft Excel。相比之下，Microsoft Excel 是一個獨立的電子表格應用程序，用於數據分析、報告和各種其他任務。
+Aspose.Cells 是一個 .NET API，提供對 Excel 功能的程式設計訪問，讓開發人員可以建立、操作和管理 Excel 文件，而無需在系統上安裝 Microsoft Excel。相比之下，Microsoft Excel 是一個獨立的電子表格應用程序，用於數據分析、報告和各種其他任務。
 ### 除了 DataTables 之外，Aspose.Cells 還可以與其他資料來源一起使用嗎？
 是的，Aspose.Cells 具有高度通用性，可以處理各種資料來源，包括資料庫、XML、JSON 等。這`SetDataSource()`的方法`WorkbookDesigner`類別可以接受各種資料來源，從而可以靈活地將資料整合到 Excel 電子表格中。
 ### 如何自訂生成的 Excel 文件的外觀？

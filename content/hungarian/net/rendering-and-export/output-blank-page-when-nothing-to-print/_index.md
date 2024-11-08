@@ -32,7 +32,7 @@ Mielőtt bármi mást tennénk, állítsuk be a kimeneti könyvtárunkat, ahová
 ```csharp
 string outputDir = "Your Document Directory"; // Itt adja meg saját útját
 ```
- Ügyeljen arra, hogy cserélje ki`"Your Document Directory"` azzal a tényleges elérési úttal, ahová a képfájlt menteni szeretné.
+ Mindenképpen cserélje ki`"Your Document Directory"` azzal a tényleges elérési úttal, ahová a képfájlt menteni szeretné.
 ## 2. lépés: Munkafüzet példány létrehozása
 Most, hogy van egy könyvtárunk, itt az ideje új munkafüzet létrehozásának. Tekints a munkafüzetre, mint egy friss vászonra, amely a remekműre vár!
 ```csharp

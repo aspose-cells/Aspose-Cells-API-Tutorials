@@ -8,7 +8,7 @@ weight: 18
 url: /fr/net/creating-and-configuring-pivot-tables/setting-auto-format/
 ---
 ## Introduction
-En matière d'analyse de données, les tableaux croisés dynamiques dans Excel peuvent changer la donne. Ils vous permettent de résumer et d'analyser les données de manière dynamique, vous aidant ainsi à glaner des informations qu'il serait presque impossible d'extraire manuellement. Mais que faire si vous souhaitez automatiser le processus de mise en forme de vos tableaux croisés dynamiques dans .NET ? Ici, je vais vous montrer comment définir par programmation le formatage automatique d'un tableau croisé dynamique à l'aide de la puissante bibliothèque Aspose.Cells pour .NET.
+En matière d'analyse de données, les tableaux croisés dynamiques dans Excel peuvent changer la donne. Ils vous permettent de résumer et d'analyser les données de manière dynamique, vous aidant ainsi à obtenir des informations qu'il serait presque impossible d'extraire manuellement. Mais que faire si vous souhaitez automatiser le processus de mise en forme de vos tableaux croisés dynamiques dans .NET ? Ici, je vais vous montrer comment définir par programmation le formatage automatique d'un tableau croisé dynamique à l'aide de la puissante bibliothèque Aspose.Cells pour .NET.
 Dans ce guide, nous allons explorer les éléments essentiels, parcourir les prérequis, importer les packages nécessaires, puis plonger dans un didacticiel étape par étape pour vous permettre de formater des tableaux croisés dynamiques comme un pro. Cela vous convient ? Allons-y !
 ## Prérequis
 Avant de commencer, assurons-nous que vous disposez de tout ce dont vous avez besoin pour commencer :

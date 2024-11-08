@@ -95,7 +95,7 @@ Con il certificato in mano, ora puoi creare una firma digitale. Dovrai anche for
 Aspose.Cells.DigitalSignatures.DigitalSignature signature = new Aspose.Cells.DigitalSignatures.DigitalSignature(certificate, "Aspose.Cells added new digital signature in existing digitally signed workbook.", DateTime.Now);
 ```
 
-Questo passaggio aggiunge la nuova firma alla raccolta, che verrà poi applicata alla cartella di lavoro.
+Questo passaggio aggiunge la nuova firma alla raccolta, che in seguito verrà applicata alla cartella di lavoro.
 
 ## Passaggio 6: aggiungere la raccolta di firme digitali alla cartella di lavoro
 

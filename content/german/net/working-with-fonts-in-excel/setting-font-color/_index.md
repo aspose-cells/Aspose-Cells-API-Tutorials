@@ -56,7 +56,7 @@ Da wir nun unser Arbeitsblatt haben, können wir darauf zugreifen und mit der Be
 // Abrufen der Referenz des neu hinzugefügten Arbeitsblatts durch Übergeben seines Blattindex
 Worksheet worksheet = workbook.Worksheets[i];
 ```
-Hier erhalten wir über den Index einen Verweis auf das soeben erstellte Arbeitsblatt. So können wir direkt auf dem Blatt arbeiten.
+Hier erhalten wir über den Index eine Referenz auf das soeben erstellte Arbeitsblatt. So können wir direkt auf dem Blatt arbeiten.
 ## Schritt 5: Auf eine bestimmte Zelle zugreifen
 Es ist Zeit, etwas in unser Excel-Blatt zu schreiben! Wir wählen der Einfachheit halber die Zelle „A1“.
 ```csharp
@@ -67,7 +67,7 @@ Dadurch wird die Zelle „A1“ aus unserem Arbeitsblatt geholt, die wir in Kür
 ## Schritt 6: Wert in die Zelle schreiben
 Fügen wir dieser Zelle etwas Text hinzu. Wie wäre es, wenn wir „Hallo Aspose!“ sagen?
 ```csharp
-// Hinzufügen eines Wertes zur Zelle „A1“
+// Einen Wert zur Zelle „A1“ hinzufügen
 cell.PutValue("Hello Aspose!");
 ```
 Dieser Befehl füllt die Zelle „A1“ mit dem Text. Das ist, als würde man sagen: „Hey Excel, hier ist eine nette Nachricht für dich!“

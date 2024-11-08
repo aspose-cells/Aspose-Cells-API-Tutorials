@@ -2,7 +2,7 @@
 title: 차트 애니메이션
 linktitle: 차트 애니메이션
 second_title: Aspose.Cells Java Excel 처리 API
-description: Aspose.Cells for Java로 매혹적인 차트 애니메이션을 만드는 방법을 알아보세요. 동적 데이터 시각화를 위한 단계별 가이드와 소스 코드가 포함되어 있습니다.
+description: Aspose.Cells for Java로 매력적인 차트 애니메이션을 만드는 방법을 알아보세요. 동적 데이터 시각화를 위한 단계별 가이드와 소스 코드가 포함되어 있습니다.
 type: docs
 weight: 17
 url: /ko/java/advanced-excel-charts/chart-animation/

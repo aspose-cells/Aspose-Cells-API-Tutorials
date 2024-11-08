@@ -19,7 +19,7 @@ Bevor Sie mit den Schritten beginnen, stellen Sie sicher, dass Sie einige Dinge 
    
 2.  Aspose.Cells für .NET: Sie müssen Aspose.Cells für .NET installiert haben. Sie können es herunterladen von[Hier](https://releases.aspose.com/cells/net/).
 
-3.  Beispiel-Excel-Datei: Holen Sie sich eine Beispiel-Excel-Datei, die Diagramme enthält. Für dieses Tutorial verwenden wir eine Datei namens`sampleFindTypeOfXandYValuesOfPointsInChartSeries.xlsx`Stellen Sie sicher, dass es sich in Ihrem Projektverzeichnis befindet.
+3.  Beispiel-Excel-Datei: Holen Sie sich eine Beispiel-Excel-Datei, die Diagramme enthält. Für dieses Tutorial verwenden wir eine Datei namens`sampleFindTypeOfXandYValuesOfPointsInChartSeries.xlsx`. Stellen Sie sicher, dass es sich in Ihrem Projektverzeichnis befindet.
 
 4. Grundlegende Programmierkenntnisse: Wenn Sie mit der C#-Programmierung vertraut sind, können Sie den Anweisungen problemlos folgen.
 
@@ -60,7 +60,7 @@ string sourceDir = "Your Document Directory";
 
 ## Schritt 2: Laden Sie die Arbeitsmappe
 
- Laden Sie anschließend die Excel-Datei in ein`Workbook`Objekt. Dadurch können Sie auf den gesamten Inhalt der Datei zugreifen.
+ Laden Sie anschließend die Excel-Datei in ein`Workbook` Objekt. Dadurch können Sie auf den gesamten Inhalt der Datei zugreifen.
 
 ```csharp
 Workbook wb = new Workbook(sourceDir + "sampleFindTypeOfXandYValuesOfPointsInChartSeries.xlsx");

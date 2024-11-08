@@ -9,7 +9,7 @@ url: /fr/net/converting-excel-files-to-other-formats/converting-excel-file-to-pp
 ---
 ## Introduction
 
-Dans le monde en évolution rapide d'aujourd'hui, le partage de données visuellement est plus important que jamais. Les présentations sont un moyen populaire de communiquer des informations, mais que se passe-t-il si toutes vos données sont stockées dans des feuilles Excel ? Ne serait-il pas formidable de pouvoir convertir vos données Excel directement en une présentation PowerPoint (PPTX) ? Ce guide vous explique comment y parvenir par programmation à l'aide d'Aspose.Cells pour .NET. Préparez-vous à transformer facilement vos fichiers Excel en présentations PowerPoint dynamiques !
+Dans le monde en évolution rapide d'aujourd'hui, le partage visuel des données est plus important que jamais. Les présentations sont un moyen populaire de communiquer des informations, mais que se passe-t-il si toutes vos données sont stockées dans des feuilles Excel ? Ne serait-il pas formidable de pouvoir convertir vos données Excel directement en une présentation PowerPoint (PPTX) ? Ce guide vous explique comment y parvenir par programmation à l'aide d'Aspose.Cells pour .NET. Préparez-vous à transformer facilement vos fichiers Excel en présentations PowerPoint dynamiques !
 
 ## Prérequis
 

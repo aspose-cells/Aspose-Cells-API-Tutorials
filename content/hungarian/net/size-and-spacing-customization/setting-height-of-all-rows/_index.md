@@ -73,7 +73,7 @@ Ez a sor az új Excel-fájlt "output.out.xls" néven menti a megadott könyvtár
 ```csharp
 fstream.Close();
 ```
- Ez a sor biztosítja, hogy a`FileStream` felszabadulnak, ami kulcsfontosságú a teljesítmény fenntartásához.
+ Ez a sor biztosítja, hogy a`FileStream` felszabadulnak, ami elengedhetetlen a teljesítmény fenntartásához.
 ## Következtetés
 És megvan! Sikeresen megtanulta, hogyan állíthatja be az összes sor magasságát egy Excel-munkalapon az Aspose.Cells for .NET segítségével. Ez a készség nemcsak az adatok olvashatóságát javítja, hanem professzionális hatást is ad a jelentéseihez és táblázataihoz. Az Aspose.Cells segítségével a lehetőségek hatalmasak, és az Excel-fájlok módosítása még soha nem volt ilyen egyszerű.
 ## GYIK

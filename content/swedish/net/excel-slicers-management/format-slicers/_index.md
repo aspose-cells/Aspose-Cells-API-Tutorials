@@ -20,7 +20,7 @@ Ladda ner ett exempel på en Excel-fil som du kan använda i denna handledning. 
 ### 4. Grundläggande C#-kunskaper
 En grundläggande förståelse för C#-programmering hjälper dig att följa med smidigt. Du behöver inte vara en guru; precis tillräckligt för att skriva och förstå enkel kod.
 ## Importera paket
-Till att börja med måste vi importera de nödvändiga paketen i vårt .NET-projekt. Så här gör du:
+Till att börja med måste vi importera nödvändiga paket i vårt .NET-projekt. Så här gör du:
 ### Öppna ditt projekt
 Öppna din favorit-IDE (som Visual Studio) och ladda projektet där du vill implementera slicer-formateringen.
 ### Lägg till referens till Aspose.Cells
@@ -47,7 +47,7 @@ string outputDir = "Your Document Directory";
 ## Steg 2: Ladda Excel-arbetsboken
 Det är dags att ladda din exempelarbetsbok som innehåller skivare. Så här kan du göra det:
 ```csharp
-// Ladda exempel på Excel-fil som innehåller skivor.
+// Ladda exempel på Excel-fil som innehåller skivare.
 Workbook wb = new Workbook(sourceDir + "sampleFormattingSlicer.xlsx");
 ```
 Förklaring: Här öppnar vi Excel-filen med hjälp av klassen Aspose.Cells Workbook. Se arbetsboken som ditt seminarierum där all magi kommer att hända. 

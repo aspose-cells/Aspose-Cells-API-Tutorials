@@ -26,7 +26,7 @@ using System.Text;
 using System.Data;
 ```
 Ces importations nous permettent de travailler avec les fonctionnalités d'Aspose.Cells et de gérer les données via des DataSets.
-Maintenant que nous avons tout configuré, décomposons le processus en étapes digestes pour évaluer si une valeur particulière est vide à l'aide des marqueurs intelligents Aspose.Cells.
+Maintenant que tout est configuré, décomposons le processus en étapes digestes pour évaluer si une valeur particulière est vide à l'aide des marqueurs intelligents Aspose.Cells.
 ## Étape 1 : Configurez vos répertoires
 Tout d'abord, nous devons définir où sont stockés nos fichiers d'entrée et de sortie. Il est essentiel de fournir les chemins corrects pour éviter toute erreur de fichier introuvable.
 ```csharp
@@ -45,7 +45,7 @@ ds1.ReadXml(sourceDir + @"sampleIsBlank.xml");
 ```
  Dans ce bloc de code, nous créons une instance de`DataSet` qui agit comme un conteneur pour nos données structurées.`ReadXml` la méthode remplit ce DataSet avec les données présentes dans`sampleIsBlank.xml`.
 ## Étape 3 : charger le classeur avec des marqueurs intelligents
-Nous allons lire le modèle Excel qui contient des marqueurs intelligents, qui feront le gros du travail d'évaluation de nos données.
+Nous lirons le modèle Excel qui contient des marqueurs intelligents, qui feront le gros du travail d'évaluation de nos données.
 ```csharp
 // Initialiser le classeur modèle contenant le marqueur intelligent avec ISBLANK
 Workbook workbook = new Workbook(sourceDir + @"sampleIsBlank.xlsx");

@@ -29,7 +29,7 @@ Sist men inte minst, låt oss prata om att ställa in skalbara kolumnbredder och
 
 ## Hantera kantstilar med lätthet
 
- Ett annat användbart tips är att exportera liknande kantstilar i Excel programmatiskt. När du har flera tabeller i ditt Excel-dokument är enhetlighet i stilen avgörande för professionella framträdanden. Med den här handledningen lär du dig hur du upprätthåller konsekventa gränser, vilket gör att din HTML-utdata sticker ut och förstärker din varumärkesidentitet. Intresserad av att få den polerade looken?[Lär dig knepen här](./exporting-similar-border-style/).
+ Ett annat användbart tips är att exportera liknande kantstilar i Excel programmatiskt. När du har flera tabeller i ditt Excel-dokument är enhetlighet i stilen avgörande för professionella framträdanden. Med den här handledningen lär du dig hur du upprätthåller konsekventa gränser, vilket gör att din HTML-utdata sticker ut och förstärker din varumärkesidentitet. Intresserad av att få det polerade utseendet?[Lär dig knepen här](./exporting-similar-border-style/).
 
 ## CSS-hantering för förbättrad design
 

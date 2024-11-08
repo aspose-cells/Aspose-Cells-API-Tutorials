@@ -57,7 +57,7 @@ string InputPath = dataDir + "book1.xls";
 Workbook excelWorkbook0 = new Workbook(InputPath);
 ```
 
- Här, du laddar`book1.xls` (se till att filen finns i din katalog) till en ny`Workbook` objekt anropat`excelWorkbook0`. Det här är källarbetsboken som innehåller kalkylbladet du ska kopiera.
+ Här, du laddar`book1.xls` (se till att filen finns i din katalog) till en ny`Workbook` objekt som kallas`excelWorkbook0`. Det här är källarbetsboken som innehåller kalkylbladet du ska kopiera.
 
 ## Steg 3: Skapa en andra arbetsbok
 

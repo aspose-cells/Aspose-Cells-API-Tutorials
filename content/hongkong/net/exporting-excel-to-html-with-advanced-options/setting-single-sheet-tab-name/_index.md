@@ -15,7 +15,7 @@ url: /zh-hant/net/exporting-excel-to-html-with-advanced-options/setting-single-s
 - Microsoft Visual Studio：確保安裝了 Visual Studio，因為它提供了我們編寫和執行程式碼的環境。
 - Aspose.Cells for .NET：您的專案中應該引用該程式庫。您可以從[Aspose下載](https://releases.aspose.com/cells/net/).
 ### 基本了解
-- 熟悉基本的 C# 程式設計至關重要。如果您以前涉足過編碼，那麼您應該感到賓至如歸。 
+- 熟悉基本的 C# 程式設計至關重要。如果您以前涉足過編碼，您應該會感到賓至如歸。 
 ### 項目設定
 - 在 Visual Studio 中建立一個新專案並設定目錄結構來儲存 Excel 文件，因為我們需要一個用於輸入的來源目錄和用於結果的輸出目錄。
 ## 導入包
@@ -25,7 +25,7 @@ url: /zh-hant/net/exporting-excel-to-html-with-advanced-options/setting-single-s
 ### 新增對 Aspose.Cells 的引用
 1. 在解決方案資源管理器中以滑鼠右鍵按一下您的專案。
 2. 選擇“管理 NuGet 套件”。
-3. 搜尋`Aspose.Cells`並安裝該套件。
+3. 搜尋`Aspose.Cells`並安裝該軟體包。
 4. 此步驟可確保您擁有處理 Excel 檔案所需的所有程式庫。
 ### 增加所需的命名空間
 在程式碼檔案的頂部新增以下命名空間：

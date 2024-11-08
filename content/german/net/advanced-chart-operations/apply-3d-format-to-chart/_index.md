@@ -61,7 +61,7 @@ Workbook book = new Workbook();
 
 ## Schritt 2: Benennen Sie das erste Arbeitsblatt um
 
-Als nächstes benennen wir das erste Arbeitsblatt um. Dies schafft Klarheit darüber, mit welchen Daten wir arbeiten.
+Als nächstes benennen wir das erste Arbeitsblatt um. Dadurch wird klarer, mit welchen Daten wir arbeiten.
 
 ```csharp
 book.Worksheets[0].Name = "DataSheet";
@@ -83,7 +83,7 @@ dataSheet.Cells["A2"].PutValue("B");
 dataSheet.Cells["A3"].PutValue("C");
 ```
 
-So wie ein Rezept von seinen Zutaten abhängt, ist die Wirksamkeit Ihres Diagramms von der Qualität und Organisation Ihrer Eingabedaten abhängig.
+So wie ein Rezept von seinen Zutaten abhängt, beruht die Wirksamkeit Ihres Diagramms auf der Qualität und Organisation Ihrer Eingabedaten.
 
 ## Schritt 4: Einrichten eines neuen Diagramm-Arbeitsblatts
 

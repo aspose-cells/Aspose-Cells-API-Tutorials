@@ -9,16 +9,16 @@ url: /it/net/working-with-chart-data/get-chart-subtitle-for-ods-file/
 ---
 ## Introduzione
 
-I file Excel sono onnipresenti nel mondo odierno basato sui dati, e sono uno dei mezzi principali per presentare, manipolare e analizzare i dati. Quando si ha a che fare con i fogli di calcolo, ci si potrebbe trovare nella necessità di estrarre informazioni dai grafici, come titoli o sottotitoli. Se si lavora specificamente con file ODS, ci si potrebbe chiedere come attingere facilmente a quegli elementi del grafico. Niente paura, mentre esploriamo l'utilizzo di Aspose.Cells per .NET per ottenere il sottotitolo del grafico da un file ODS in modo semplice ed efficiente.
+file Excel sono onnipresenti nel mondo odierno basato sui dati, e sono uno dei mezzi principali per presentare, manipolare e analizzare i dati. Quando si ha a che fare con i fogli di calcolo, ci si potrebbe trovare nella necessità di estrarre informazioni dai grafici, come titoli o sottotitoli. Se si lavora specificamente con file ODS, ci si potrebbe chiedere come attingere facilmente a quegli elementi del grafico. Niente paura, mentre esploriamo l'utilizzo di Aspose.Cells per .NET per ottenere il sottotitolo del grafico da un file ODS in modo semplice ed efficiente.
 
 ## Prerequisiti
 
 Prima di immergerti nel tutorial, assicurati di aver impostato tutto il necessario per usare Aspose.Cells per .NET in modo efficace. Ecco una checklist da seguire:
 
 1. .NET Framework: assicurati che .NET Framework sia installato sul tuo computer. 
-2. Libreria Aspose.Cells: Scarica e installa la libreria Aspose.Cells. Puoi ottenerla da[Qui](https://releases.aspose.com/cells/net/).
+2.  Libreria Aspose.Cells: Scarica e installa la libreria Aspose.Cells. Puoi ottenerla da[Qui](https://releases.aspose.com/cells/net/).
 3. IDE: Sebbene qualsiasi editor di codice vada bene, l'utilizzo di un IDE come Visual Studio fornisce una piattaforma solida per lo sviluppo .NET.
-4.  Un file ODS di esempio: avrai bisogno di un file ODS che contenga grafici. Per questo tutorial, useremo`SampleChart.ods`.
+4. Un file ODS di esempio: avrai bisogno di un file ODS che contenga grafici. Per questo tutorial, useremo`SampleChart.ods`.
 5. Conoscenza di base di C#: la familiarità con C# ti aiuterà ad afferrare rapidamente i concetti e ad apportare le modifiche necessarie.
 
 ## Importa pacchetti
@@ -39,7 +39,7 @@ Ora, entriamo nel vivo dell'argomento. Segui queste istruzioni passo dopo passo 
 Crea un nuovo progetto di applicazione console
 
 - Apri Visual Studio (o il tuo IDE preferito).
-- Crea un nuovo progetto di applicazione console e assegnagli un nome pertinente, ad esempio`ChartSubtitleExtractor`.
+-  Crea un nuovo progetto di applicazione console e assegnagli un nome pertinente, ad esempio`ChartSubtitleExtractor`.
 
 ## Passaggio 2: aggiungere il pacchetto NuGet Aspose.Cells
 

@@ -57,7 +57,7 @@ opts.IgnoreError = true;  //これは黄金のチケットです！
 wb.Save(outputDir + "outputErrorExcel2Pdf.pdf", opts);
 ```
 ## ステップ5: 成功を確認する
-すべてが正常に完了したことをユーザーに知らせるために、コンソールに簡単な確認メッセージを出力しましょう。
+すべてが正常に実行されたことをユーザーに知らせるために、コンソールに簡単な確認メッセージを出力しましょう。
 ```csharp
 Console.WriteLine("IgnoreErrorsWhileRenderingExcelToPdf executed successfully.\r\n");
 ```

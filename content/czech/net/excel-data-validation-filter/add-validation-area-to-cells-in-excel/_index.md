@@ -98,7 +98,7 @@ V tomto okamžiku ukládáme upravený sešit do nového souboru. Vždy je dobr�
 
 ## Krok 7: Potvrzující zpráva
 
-Voila! Dokázali jste to! Chcete-li přidat pěkný závěr, vytiskněte si potvrzovací zprávu, abyste zajistili, že vše proběhlo úspěšně:
+Voila! Zvládli jste to! Chcete-li přidat pěkný závěr, vytiskněte si potvrzovací zprávu, abyste zajistili, že vše proběhlo úspěšně:
 
 ```csharp
 Console.WriteLine("AddValidationArea executed successfully.");
@@ -125,4 +125,4 @@ Ověření dat je funkce, která omezuje typ dat zadávaných do buněk. Zajiš�
 Aspose nabízí knihovny pro různé programovací jazyky, včetně C#, Java, Python a dalších.
 
 ### Kde mohu získat podporu pro Aspose.Cells?
- Prostřednictvím nich můžete hledat pomoc[fórum podpory](https://forum.aspose.com/c/cells/9).
+ Prostřednictvím nich můžete vyhledat pomoc[fórum podpory](https://forum.aspose.com/c/cells/9).

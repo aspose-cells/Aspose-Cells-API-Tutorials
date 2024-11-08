@@ -25,7 +25,7 @@ using System.Drawing;
 ## Εγκαταστήστε το Aspose.Cells
 Εάν δεν το έχετε κάνει ήδη, μπορείτε να προσθέσετε Aspose.Cells μέσω του NuGet Package Manager στο Visual Studio:
 1. Ανοίξτε το Visual Studio.
-2.  Μεταβείτε στο`Tools` ->`NuGet Package Manager` ->`Manage NuGet Packages for Solution`.
+2.  Πηγαίνετε στο`Tools` ->`NuGet Package Manager` ->`Manage NuGet Packages for Solution`.
 3. Αναζητήστε το "Aspose.Cells" και εγκαταστήστε το για το έργο σας.
 Τώρα που βάλαμε τις βάσεις, ας περάσουμε στο διασκεδαστικό κομμάτι!
 ## Βήμα 1: Ρύθμιση του καταλόγου εγγράφων σας

@@ -15,7 +15,7 @@ Aspose.Cells dla .NET oferuje solidny zestaw narzędzi dla deweloperów, którzy
 
  Czy masz dość ciasnych lub rozciągniętych kolumn? Dzięki Aspose.Cells dla .NET możesz dostosować szerokość widoku i ustawić dokładne wymiary kolumn w pikselach, co ułatwia kontrolowanie układu. Zanurz się w[Ustaw szerokość widoku kolumny w pikselach za pomocą Aspose.Cells dla .NET](./setting-column-view-width/)samouczek, w którym znajdziesz wszystko, czego potrzebujesz, aby opanować tę funkcję. To świetny sposób, aby dopasować każdą kolumnę idealnie, nadając arkuszowi kalkulacyjnemu uporządkowany wygląd.
 
- Jeśli bardziej interesuje Cię ustawienie szerokości na całej planszy,[Ustaw szerokość wszystkich kolumn w arkuszu kalkulacyjnym za pomocą Aspose.Cells](./setting-width-of-all-columns-in-worksheet/) przewodnik pokaże Ci, jak bez wysiłku ustawić jednolite wymiary. Pożegnaj się z niespójnymi rozmiarami kolumn i przywitaj czysty, spójny układ!
+ Jeśli bardziej interesuje Cię ustawienie szerokości na całej planszy,[Ustaw szerokość wszystkich kolumn w arkuszu kalkulacyjnym za pomocą Aspose.Cells](./setting-width-of-all-columns-in-worksheet/) przewodnik pokaże Ci, jak bez wysiłku ustawić jednolite wymiary. Pożegnaj się z kolumnami o niespójnych rozmiarach i przywitaj czysty, spójny układ!
 
 ## Udoskonalenie wysokości rzędu dla przejrzystości wizualnej
 
@@ -49,7 +49,7 @@ Dowiedz się, jak ustawić wysokość wszystkich wierszy w arkuszu kalkulacyjnym
 ### [Ustaw wysokość wiersza w programie Excel za pomocą Aspose.Cells](./setting-height-of-row/)
 Dzięki temu przewodnikowi krok po kroku nauczysz się, jak bez wysiłku ustawić wysokość wiersza w programie Excel za pomocą Aspose.Cells dla platformy .NET.
 ### [Ustaw szerokość wszystkich kolumn w arkuszu kalkulacyjnym za pomocą Aspose.Cells](./setting-width-of-all-columns-in-worksheet/)
-Odkryj potencjał pakietu Aspose.Cells dla platformy .NET i dowiedz się, jak ustawić szerokość wszystkich kolumn w arkuszu kalkulacyjnym, korzystając z tego samouczka krok po kroku.
+Odkryj możliwości pakietu Aspose.Cells dla platformy .NET i dowiedz się, jak ustawić szerokość wszystkich kolumn w arkuszu kalkulacyjnym, korzystając z tego samouczka krok po kroku.
 ### [Ustaw szerokość kolumny w programie Excel za pomocą Aspose.Cells](./setting-width-of-column/)
 Dowiedz się, jak ustawić szerokość kolumny w pliku Excela za pomocą biblioteki Aspose.Cells for .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby łatwo włączyć tę funkcjonalność do swoich aplikacji.
 ### [Ustaw szerokość wszystkich kolumn za pomocą Aspose.Cells dla .NET](./setting-width-of-all-columns/)

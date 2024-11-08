@@ -59,7 +59,7 @@ Durch das Festlegen der Dokumentversion wird klar, welche Version des Dokuments 
 ```csharp
 wb.Save("outputSpecifyDocumentVersionOfExcelFile.xlsx", SaveFormat.Xlsx);
 ```
- Der`Save` Methode wird verwendet, um die Datei in dem von Ihnen angegebenen Verzeichnis zu speichern. Hier speichern wir sie als Excel-Datei im`.xlsx`Format. Bei Bedarf unterstützt Aspose.Cells auch Formate wie`.xls`, `.csv` , Und`.pdf`, und bietet Flexibilität basierend auf den Anforderungen Ihres Projekts.
+ Der`Save` Methode wird verwendet, um die Datei in dem angegebenen Verzeichnis zu speichern. Hier speichern wir sie als Excel-Datei im`.xlsx`Format. Bei Bedarf unterstützt Aspose.Cells auch Formate wie`.xls`, `.csv` , Und`.pdf`, und bietet Flexibilität basierend auf den Anforderungen Ihres Projekts.
 ## Abschluss
 In diesem Tutorial haben wir gezeigt, wie man Dokumenteigenschaften, insbesondere die Dokumentversion, in einer Excel-Datei mit Aspose.Cells für .NET angibt. Aspose.Cells ist ein äußerst flexibles und leistungsstarkes Tool, mit dem Sie Excel-Dateien programmgesteuert bearbeiten können. Es ist daher eine große Hilfe für jeden .NET-Entwickler, der mit Tabellenkalkulationen arbeitet.
 ## Häufig gestellte Fragen

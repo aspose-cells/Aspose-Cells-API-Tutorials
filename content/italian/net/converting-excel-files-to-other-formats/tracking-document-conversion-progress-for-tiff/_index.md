@@ -40,7 +40,7 @@ string outputDir = "Your Document Directory";
 ```
  Assicurati di sostituire`"Your Document Directory"` con il percorso effettivo in cui è archiviato il file Excel e dove si desidera salvare i file TIFF.
 ## Passaggio 2: caricare la cartella di lavoro
-Ora, carichiamo la cartella di lavoro Excel che vogliamo convertire. Aspose.Cells rende tutto questo super facile! Ecco come puoi farlo:
+Ora, carichiamo la cartella di lavoro Excel che vogliamo convertire. Aspose.Cells rende tutto molto semplice! Ecco come puoi farlo:
 ```csharp
 Workbook workbook = new Workbook(sourceDir + "sampleUseWorkbookRenderForImageConversion.xlsx");
 ```

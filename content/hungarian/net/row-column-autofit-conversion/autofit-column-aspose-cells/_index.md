@@ -11,7 +11,7 @@ url: /hu/net/row-column-autofit-conversion/autofit-column-aspose-cells/
 Ebben az oktatóanyagban az Aspose.Cells for .NET használatával történő oszlopok automatikus illesztésének folyamatába fogunk belemerülni egy Excel-táblázatba. Lebontjuk a lépéseket, így könnyebbé válik a követés. Ennek az útmutatónak a végére alapos ismerete lesz arról, hogyan kezelheti az Excel fájlokat programozottan, és hogyan alakíthatja ki a táblázatait úgy, ahogyan szeretné!
 ## Előfeltételek
 Mielőtt nekivágnánk az Aspose.Cells for .NET-hez készült oszlopok automatikus illesztésének utazásának, győződjön meg arról, hogy mindent megfelelően beállított. Íme, amire szüksége van:
-1. Visual Studio: A Visual Studio-t telepítenie kell a gépére. Ez az az IDE, amelyet a kódunk írásához és végrehajtásához használunk.
+1. Visual Studio: A Visual Studio telepítve kell legyen a gépére. Ez az az IDE, amelyet a kódunk írásához és végrehajtásához használunk.
 2.  Aspose.Cells for .NET Library: Győződjön meg arról, hogy rendelkezik az Aspose.Cells könyvtárral. Letöltheti innen[itt](https://releases.aspose.com/cells/net/). Ha még csak most kezdi, fontolja meg az ingyenes próbaverzió használatát.
 3. Alapvető C# ismerete: A C# programozás alapvető ismerete segít a fogalmak jobb megértésében.
 4. Excel-fájl: Készítsen egy Excel-mintafájlt tesztelésre. Létrehozhat egy egyszerű nevű táblázatot`Book1.xlsx` benne néhány adattal.
@@ -37,7 +37,7 @@ Most, hogy minden a helyén van, kezdjük el a kódolást!
 ## 1. lépés: Állítsa be környezetét
 Ebben az első lépésben beállítjuk a környezetünket, és előkészítjük az Excel fájlunkat az automatikus illesztéshez.
 ### 1.1 Határozza meg az útvonalat
- Meghatározzuk a dokumentumkönyvtárunk elérési útját. Ügyeljen arra, hogy cserélje ki`"Your Document Directory"` az Excel-fájl tényleges elérési útjával.
+ Meghatározzuk a dokumentumkönyvtárunk elérési útját. Mindenképpen cserélje ki`"Your Document Directory"` az Excel-fájl tényleges elérési útjával.
 ```csharp
 // A dokumentumok könyvtárának elérési útja.
 string dataDir = "Your Document Directory";

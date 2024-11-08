@@ -13,7 +13,7 @@ Vous cherchez à gérer et à présenter efficacement vos données dans Microsof
 Avant de passer aux choses sérieuses du codage, assurons-nous que tout est prêt. Vous aurez besoin des éléments suivants :
 1. Visual Studio : assurez-vous que Visual Studio est installé sur votre ordinateur. C'est le meilleur outil pour développer des applications .NET.
 2.  Aspose.Cells pour .NET : téléchargez et installez Aspose.Cells depuis[ici](https://releases.aspose.com/cells/net/).
-3. Exemple de base de données (Northwind.mdb) : vous aurez besoin d'une base de données d'exemple pour travailler. Vous pouvez facilement trouver la base de données Northwind en ligne.
+3. Exemple de base de données (Northwind.mdb) : vous aurez besoin d'une base de données d'exemple pour travailler. Vous pouvez facilement trouver la base de données Northwind en ligne.
 4. Compréhension de base de C# : ce guide suppose que vous avez une compréhension de base de la programmation C#, vous pouvez donc suivre sans trop de difficultés.
 ## Paquets d'importation
 Commençons par importer les espaces de noms nécessaires. Vous devrez inclure les éléments suivants dans votre fichier de code :

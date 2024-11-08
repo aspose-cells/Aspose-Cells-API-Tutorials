@@ -101,7 +101,7 @@ sheet.Charts[0].NSeries.Add("{1,2,3}", false);
 
 ## Шаг 5: Добавление флажка на диаграмму
 
-Теперь мы переходим к самому интересному — добавлению флажка в нашу диаграмму. Вот как это сделать:
+Теперь мы переходим к самой интересной части — добавлению флажка в нашу диаграмму. Вот как это сделать:
 ```csharp
 sheet.Charts[0].Shapes.AddShapeInChart(MsoDrawingType.CheckBox, PlacementType.Move, 400, 400, 1000, 600);
 sheet.Charts[0].Shapes[0].Text = "CheckBox 1";

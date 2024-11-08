@@ -34,7 +34,7 @@ using System.IO;
 using Aspose.Cells;
 ```
 Proprio così! Ora sei pronto per iniziare a programmare.
-Ora, esaminiamo il processo di aggiunta dell'apice al testo in Excel. Lo suddivideremo in passaggi gestibili.
+Ora, esaminiamo il processo di aggiunta di apici al testo in Excel. Lo suddivideremo in passaggi gestibili.
 ## Passaggio 1: impostare la directory di output
 Per iniziare, dovrai definire dove vuoi che venga salvato il file Excel. Questo è fondamentale perché se non specifichi una directory, potresti finire per cercare in lungo e in largo il tuo file di output!
 ```csharp

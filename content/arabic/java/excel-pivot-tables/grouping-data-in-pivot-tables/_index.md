@@ -28,7 +28,7 @@ Worksheet worksheet = workbook.getWorksheets().get(0);
 // تحديد نطاق البيانات
 CellArea sourceData = new CellArea();
 sourceData.startRow = 0;
-sourceData.endRow = 19; // بافتراض وجود 20 صفًا من البيانات
+sourceData.endRow = 19; // بافتراض 20 صفًا من البيانات
 sourceData.startColumn = 0;
 sourceData.endColumn = 3; // بافتراض وجود 4 أعمدة من البيانات
 

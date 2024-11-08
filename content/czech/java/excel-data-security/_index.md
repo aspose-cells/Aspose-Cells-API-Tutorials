@@ -16,7 +16,7 @@ V době, kdy jsou data králem, je zabezpečení vašich excelových tabulek prv
 Ochrana heslem je vaší první linií obrany. Pomocí Aspose.Cells for Java můžete nastavit heslo pro otevření a heslo pro úpravu souborů aplikace Excel. Tato dvojitá vrstva ochrany zajišťuje, že k vašim tabulkám mohou přistupovat a provádět změny pouze oprávněné osoby. Poskytneme vám příklady kódu pro bezproblémovou implementaci tohoto bezpečnostního opatření.
 
 ## Šifrování souborů
-V dnešním propojeném světě je šifrování souborů nutností. Aspose.Cells for Java vám umožňuje šifrovat soubory aplikace Excel pomocí standardních šifrovacích algoritmů. Provedeme vás procesem šifrování souborů a jejich dešifrování v případě potřeby.
+V dnešním propojeném světě je šifrování souborů nutností. Aspose.Cells for Java vám umožňuje šifrovat soubory aplikace Excel pomocí standardních šifrovacích algoritmů. V případě potřeby vás provedeme procesem šifrování souborů a jejich dešifrování.
 
 ## Validace dat
 Zajištění integrity dat je zásadní. Prozkoumáme, jak používat pravidla ověřování dat, abychom zabránili chybnému zadávání dat. S Aspose.Cells for Java můžete nastavit pravidla ověřování dat, která omezí zadávání dat na konkrétní kritéria a zajistí, že vaše excelové listy zůstanou přesné a bez chyb.

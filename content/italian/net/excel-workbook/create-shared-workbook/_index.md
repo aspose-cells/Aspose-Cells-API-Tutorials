@@ -54,7 +54,7 @@ Ora entriamo nella parte succosa! Ecco come creare una cartella di lavoro condiv
 In questo passaggio, definirai dove verrà salvato il file di output. È come decidere dove mettere i tuoi biscotti appena sfornati: vuoi assicurarti che siano facili da trovare in seguito!
 
 ```csharp
-//Directory di uscita
+//Directory di output
 string outputDir = "Your Document Directory";
 ```
 

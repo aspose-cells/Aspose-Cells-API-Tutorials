@@ -56,7 +56,7 @@ Con tutte le impostazioni a posto, è il momento di salvare il file. Salveremo l
 wb.Save(dataDir + "output.csv", options);
 ```
  Questa riga esegue l'azione di salvataggio vera e propria, creando un`output.csv` file nella directory specificata.
-## Passaggio 6: confermare l'esecuzione corretta
+## Passaggio 6: Confermare l'esecuzione corretta
 Per concludere, aggiungiamo un messaggio di conferma. Questo aiuterà a garantire che tutto sia andato liscio durante il processo. 
 ```csharp
 Console.WriteLine("KeepSeparatorsForBlankRow executed successfully.\r\n");

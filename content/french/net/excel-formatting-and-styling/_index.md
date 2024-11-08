@@ -17,7 +17,7 @@ Bienvenue dans le monde d'Aspose.Cells pour .NET, où vos feuilles Excel peuvent
 
 ## Utilisation des styles et du formatage prédéfinis d'Excel
 
- Si vous manquez de temps mais que vous souhaitez tout de même que vos feuilles de calcul soient superbes, l'utilisation de styles et de formats prédéfinis pourrait bien être votre nouveau meilleur ami. Ce tutoriel vous guidera à travers la myriade d'options disponibles, vous permettant d'appliquer des conceptions professionnelles et épurées en quelques clics. Avec notre guide sur[en utilisant les styles et le formatage prédéfinis d'Excel](./using-excel-predefined-styles-and-formatting/), vous serez étonné de voir à quel point il peut être facile de créer de superbes feuilles de calcul sans investir trop de temps.
+ Si vous manquez de temps mais que vous souhaitez néanmoins que vos feuilles de calcul soient superbes, l'utilisation de styles et de formats prédéfinis pourrait bien être votre nouveau meilleur ami. Ce tutoriel vous guidera à travers la myriade d'options disponibles, vous permettant d'appliquer des conceptions professionnelles et épurées en quelques clics. Avec notre guide sur[en utilisant les styles et le formatage prédéfinis d'Excel](./using-excel-predefined-styles-and-formatting/), vous serez étonné de voir à quel point il peut être facile de créer de superbes feuilles de calcul sans investir trop de temps.
 
 ## Fusion de cellules et mise en forme dans Excel
 

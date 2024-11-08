@@ -24,7 +24,7 @@ Zanim zagłębimy się w temat maskowania danych za pomocą Aspose.Cells dla Jav
 
 ### Czym jest maskowanie danych?
 
-Maskowanie danych, zwane również zaciemnianiem danych lub anonimizacją, to proces maskowania oryginalnych danych w celu ochrony poufnych informacji przy jednoczesnym zachowaniu ich formatu i struktury. Jest to kluczowe w scenariuszach, w których dane muszą być udostępniane lub wykorzystywane do testowania i rozwoju bez ujawniania poufnych szczegółów.
+Maskowanie danych, nazywane również zaciemnianiem danych lub anonimizacją, to proces maskowania oryginalnych danych w celu ochrony poufnych informacji przy jednoczesnym zachowaniu ich formatu i struktury. Jest to kluczowe w scenariuszach, w których dane muszą być udostępniane lub wykorzystywane do testowania i rozwoju bez ujawniania poufnych szczegółów.
 
 ### Dlaczego maskowanie danych jest ważne
 

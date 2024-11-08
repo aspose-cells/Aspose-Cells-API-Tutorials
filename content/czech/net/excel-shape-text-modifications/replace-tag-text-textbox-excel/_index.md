@@ -54,7 +54,7 @@ string tag = "TAG_2$TAG_1";
 string replace = "1$ys";
 ```
  V tomto příkladu jsou značky rozděleny pomocí`$`. Můžete jej nahradit libovolným oddělovačem, který preferujete.
-## Krok 4: Opakujte značky a vyměňte je
+## Krok 4: Otočte značky a vyměňte je
 Vytvoříme smyčku, která projde každou značku, kterou chceme nahradit. Tady se děje kouzlo!
 ```csharp
 for (int i = 0; i < tag.Split('$').Length; i++)

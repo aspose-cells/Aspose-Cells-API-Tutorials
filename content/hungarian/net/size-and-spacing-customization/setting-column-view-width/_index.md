@@ -37,7 +37,7 @@ string outDir = "Your Document Directory";
 // Forrás Excel fájl betöltése
 Workbook workbook = new Workbook(sourceDir + "Book1.xlsx");
 ```
- Ez a sor inicializálja a`Workbook` objektumot a megadott Excel fájllal. Ha a fájl megtalálható, akkor jó úton halad!
+ Ez a sor inicializálja a`Workbook` objektumot a megadott Excel fájllal. Ha megtalálta a fájlt, akkor jó úton jár!
 ## 3. lépés: Nyissa meg a munkalapot
 Most, hogy megvan a munkafüzetünk, nyissa meg a kezelni kívánt konkrét munkalapot. Általában az első munkalappal érdemes dolgozni.
 ```csharp
@@ -65,7 +65,7 @@ Console.WriteLine("SetColumnViewWidthInPixels executed successfully.");
 ```
 Futtassa a programot, és ezt az üzenetet kell látnia a konzolon, ha minden a terv szerint ment. Ez egy kis győzelem, de érdemes megünnepelni!
 ## Következtetés
-Gratulálok! Sikeresen beállította az oszlopnézet szélességét képpontokban az Aspose.Cells for .NET használatával. Az Excel-elrendezés vezérlésével olvashatóbb és professzionálisabb megjelenésű táblázatokat hozhat létre. Ne feledje, a programozás szépsége az egyszerűségben rejlik – néha az apró dolgok, mint például az oszlopszélesség beállítása, óriási különbséget jelentenek.
+Gratulálok! Sikeresen beállította az oszlopnézet szélességét képpontokban az Aspose.Cells for .NET használatával. Az Excel-elrendezés vezérlésével olvashatóbb és professzionálisabb megjelenésű táblázatokat hozhat létre. Ne feledje, a programozás szépsége az egyszerűségében rejlik – néha az apró dolgok, mint például az oszlopszélességek beállítása, óriási különbséget jelentenek.
 ## GYIK
 ### Mi az Aspose.Cells?
 Az Aspose.Cells egy .NET-könyvtár, amely lehetővé teszi a fejlesztők számára, hogy a Microsoft Excel telepítése nélkül hozzanak létre és kezeljenek Excel-táblázatokat.

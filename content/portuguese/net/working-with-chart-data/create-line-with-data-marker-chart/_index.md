@@ -15,7 +15,7 @@ Você já se perguntou como criar gráficos impressionantes no Excel programatic
 
 Antes de começar, certifique-se de que você tem tudo pronto para seguir adiante sem problemas.
 
-1.  Aspose.Cells para .NET Library – Você precisará instalar isso. Você pode obtê-lo[aqui](https://releases.aspose.com/cells/net/).
+1. Aspose.Cells para .NET Library – Você precisará instalar isso. Você pode obtê-lo[aqui](https://releases.aspose.com/cells/net/).
 2. .NET Framework – Certifique-se de que seu ambiente de desenvolvimento esteja configurado com a versão mais recente do .NET.
 3. IDE (Ambiente de Desenvolvimento Integrado) – Visual Studio é recomendado.
 4.  Uma licença Aspose.Cells válida – Se você não tiver uma, pode solicitar uma[licença temporária](https://purchase.aspose.com/temporary-license/) ou confira o deles[teste gratuito](https://releases.aspose.com/).
@@ -109,7 +109,7 @@ chart.AutoScaling = true;
 // Definir cor de primeiro plano para branco
 chart.PlotArea.Area.ForegroundColor = Color.White;
 
-// Definir propriedades do título do gráfico
+//Definir propriedades do título do gráfico
 chart.Title.Text = "Sample Chart";
 
 // Definir tipo de gráfico

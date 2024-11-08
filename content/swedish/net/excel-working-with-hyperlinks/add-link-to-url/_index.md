@@ -8,7 +8,7 @@ weight: 12
 url: /sv/net/excel-working-with-hyperlinks/add-link-to-url/
 ---
 ## Introduktion
-Vill du förbättra ditt Excel-kalkylblad genom att lägga till hyperlänkar? Kanske vill du länka till en webbplats eller ett annat dokument – hur som helst, du har kommit rätt! I den här guiden kommer vi att ta itu med hur man lägger till en länk till en URL i en Excel-fil med Aspose.Cells för .NET. Oavsett om du är ett erfaret proffs eller nybörjare, kommer jag att dela upp det i enkla, engagerande steg som får dig att skapa kalkylblad som en guide. Så ta din favoritdryck, slå dig ner och låt oss börja!
+Vill du förbättra ditt Excel-kalkylblad genom att lägga till hyperlänkar? Kanske vill du länka till en webbplats eller ett annat dokument – hur som helst, du har kommit rätt! I den här guiden kommer vi att ta itu med hur man lägger till en länk till en URL i en Excel-fil med Aspose.Cells för .NET. Oavsett om du är ett erfaret proffs eller nybörjare, kommer jag att dela upp det i enkla, engagerande steg som får dig att skapa kalkylblad som en guide. Så, ta din favoritdryck, slå dig ner och låt oss börja!
 ## Förutsättningar
 Innan vi dyker in i muttrarna och skruvarna för att lägga till en hyperlänk i Excel med Aspose.Cells, finns det några förutsättningar som du behöver för att bocka av din lista:
 1. .NET Framework: Se till att du har den nödvändiga .NET-miljön inställd. Aspose.Cells är kompatibel med olika versioner av .NET, så välj den som passar ditt projekt bäst.

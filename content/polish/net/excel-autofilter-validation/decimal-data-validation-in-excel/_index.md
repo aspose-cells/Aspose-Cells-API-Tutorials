@@ -136,7 +136,7 @@ Pomyśl o tym jak o narysowaniu linii granicznej. Każda liczba poza tym zakrese
 
 ## Krok 10: Ustal limity dla walidacji
 
-Następnie ustalimy dolny i górny limit dla naszej walidacji:
+Następnie ustalimy dolny i górny limit naszej walidacji:
 
 ```csharp
 validation.Formula1 = Decimal.MinValue.ToString();

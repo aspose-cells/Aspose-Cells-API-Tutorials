@@ -45,7 +45,7 @@ Ezután létre kell hoznunk egy új munkafüzetet, amelyhez hozzáadjuk a szöve
 // Példányosítson egy új munkafüzetet.
 Workbook workbook = new Workbook();
 ```
-Ez a kódsor új Excel-munkafüzetet hoz létre. Egyszerű és egyértelmű!
+Ez a kódsor egy új Excel-munkafüzetet hoz létre. Egyszerű és egyértelmű!
 ## 3. lépés: Az első munkalap elérése
 Most, hogy elkészült a munkafüzetünk, szerezzük be az első munkalapot, amelyhez hozzáadjuk a szövegdobozunkat:
 ```csharp
@@ -110,7 +110,7 @@ A következőképpen módosíthatja a szövegmező szegélyének és kitöltés�
 ```csharp
 // Szerezze meg a szövegdoboz kitöltési formátumát.
 Aspose.Cells.Drawing.FillFormat fillformat = textbox0.Fill;            
-// Szerezze meg a szövegdoboz sorformátumának típusát.
+// Szerezze be a szövegdoboz sorformátumának típusát.
 Aspose.Cells.Drawing.LineFormat lineformat = textbox0.Line;           
 // Állítsa be a vonalvastagságot.
 lineformat.Weight = 6;

@@ -58,7 +58,7 @@ workbook.SetEncryptionOptions(EncryptionType.StrongCryptographicProvider, 128);
 ```
 Gondoljon ezekre a lehetőségekre, mint például a használt zárak típusára – egyesek rövidebbek és könnyebben kiválaszthatók (XOR), míg mások sokkal nagyobb kihívást jelentenek (Strong Cryptographic Provider).
 ## 4. lépés: Védje jelszóval a fájlt
-Most adjunk hozzá egy jelszót a fájlhoz. Ez a titkos kulcs, ami bezárja az ajtót:
+Most adjunk hozzá egy jelszót a fájlhoz. Ez a titkos kulcs, amely bezárja az ajtót:
 ```csharp
 workbook.Settings.Password = "1234";
 ```

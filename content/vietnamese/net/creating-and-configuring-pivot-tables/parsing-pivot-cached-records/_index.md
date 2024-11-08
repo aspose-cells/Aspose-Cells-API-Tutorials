@@ -89,7 +89,7 @@ Bây giờ đến phần thú vị: làm mới và tính toán bảng trục c�
 pt.RefreshData();
 pt.CalculateData();
 ```
-Hai lệnh gọi này làm mới dữ liệu bảng trục của chúng ta và sau đó tính toán nó. Hãy nghĩ về việc thu thập tất cả các nguyên liệu thô cho một món ăn trước khi nấu!
+Hai lệnh gọi này làm mới dữ liệu bảng trục của chúng ta và sau đó tính toán nó. Hãy nghĩ về nó như việc thu thập tất cả các nguyên liệu thô cho một món ăn trước khi nấu!
 ## Bước 9: Đặt lại cờ làm mới dữ liệu
 Sau khi làm mới và tính toán xong, chúng ta nên thiết lập lại cờ.
 ```csharp

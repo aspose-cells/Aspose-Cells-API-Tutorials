@@ -1,6 +1,6 @@
 ---
-title: Použijte atribut stylu kopírování v inteligentních značkách Aspose.Cells
-linktitle: Použijte atribut stylu kopírování v inteligentních značkách Aspose.Cells
+title: Použijte atribut Copy Style v inteligentních značkách Aspose.Cells
+linktitle: Použijte atribut Copy Style v inteligentních značkách Aspose.Cells
 second_title: Aspose.Cells .NET Excel Processing API
 description: Objevte sílu Aspose.Cells pro .NET a naučte se, jak bez námahy aplikovat atributy stylu kopírování v Excel Smart Markers. Tento obsáhlý tutoriál obsahuje pokyny krok za krokem.
 type: docs
@@ -25,7 +25,7 @@ Prvním krokem je vytvoření tabulky DataTable, která bude sloužit jako zdroj
 ```csharp
 // Cesta k adresáři dokumentů.
 string dataDir = "Your Document Directory";
-// Vytvořte studentskou datovou tabulku
+// Vytvořte Students DataTable
 DataTable dtStudent = new DataTable("Student");
 // Definujte v něm pole
 DataColumn dcName = new DataColumn("Name", typeof(string));

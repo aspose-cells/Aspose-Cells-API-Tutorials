@@ -60,7 +60,7 @@ string sourceDir = "Your Document Directory";
 
 ## Langkah 2: Muat Buku Kerja
 
- Selanjutnya, muat file Excel ke dalam`Workbook`objek. Ini memungkinkan Anda untuk mengakses semua konten berkas.
+ Selanjutnya, muat file Excel ke dalam`Workbook` objek. Ini memungkinkan Anda untuk mengakses semua konten berkas.
 
 ```csharp
 Workbook wb = new Workbook(sourceDir + "sampleFindTypeOfXandYValuesOfPointsInChartSeries.xlsx");

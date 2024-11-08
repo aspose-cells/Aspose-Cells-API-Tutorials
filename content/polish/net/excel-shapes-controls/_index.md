@@ -21,7 +21,7 @@ Kształty i kontrolki mogą mieć ogromne znaczenie podczas pracy ze złożonymi
 
 ## Przenieś swoją personalizację programu Excel na wyższy poziom
 
-Podczas pracy z plikami Excela zawierającymi dużo danych dodanie odpowiednich kształtów i kontrolek może radykalnie poprawić doświadczenie użytkownika i pomóc lepiej uporządkować informacje. Funkcje te są szczególnie przydatne podczas projektowania interaktywnych pulpitów nawigacyjnych, formularzy wprowadzania danych lub po prostu dodawania przejrzystości wizualnej do złożonych arkuszy kalkulacyjnych.
+Podczas pracy z plikami Excela zawierającymi dużo danych dodanie odpowiednich kształtów i kontrolek może radykalnie poprawić doświadczenie użytkownika i pomóc lepiej zorganizować informacje. Te funkcje są szczególnie przydatne podczas projektowania interaktywnych pulpitów nawigacyjnych, formularzy wprowadzania danych lub po prostu dodawania przejrzystości wizualnej do złożonych arkuszy kalkulacyjnych.
 
  Na przykład używając kształtów takich jak[Łuki](./add-arc-to-worksheet-excel/) Lub[Owale](./add-oval-to-worksheet-excel/) może pomóc wyróżnić ważne punkty danych lub pogrupować powiązane treści wizualnie. Ponadto, kontrolki takie jak[Pola listy](./add-list-box-to-worksheet-excel/) Lub[Pola kombi](./add-combo-box-to-worksheet-excel/) zapewnij użytkownikom łatwą nawigację i opcje wyboru, upraszczając interakcje z arkuszem Excel. 
 

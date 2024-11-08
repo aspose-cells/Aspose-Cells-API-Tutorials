@@ -121,7 +121,7 @@ Aspose.Cells è una potente libreria .NET per la gestione dei fogli di calcolo E
  Sebbene tu possa usare una versione di prova gratuita, è richiesta una licenza per un uso commerciale continuativo. Puoi trovare le opzioni di acquisto[Qui](https://purchase.aspose.com/buy).
 
 ### È disponibile il supporto per Aspose.Cells?  
- Sì, Aspose fornisce supporto tramite i suoi forum, ai quali puoi accedere[Qui](https://forum.aspose.com/c/cells/9).
+ Sì, Aspose fornisce supporto tramite i propri forum, ai quali puoi accedere[Qui](https://forum.aspose.com/c/cells/9).
 
 ### Come posso ottenere una licenza temporanea per Aspose.Cells?  
- È possibile richiedere una licenza temporanea per scopi di valutazione presso[questo collegamento](https://purchase.aspose.com/temporary-license/).
+ È possibile richiedere una licenza temporanea a fini di valutazione presso[questo collegamento](https://purchase.aspose.com/temporary-license/).

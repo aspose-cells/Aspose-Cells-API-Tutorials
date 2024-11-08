@@ -8,7 +8,7 @@ weight: 12
 url: /zh-hant/net/size-and-spacing-customization/setting-height-of-all-rows/
 ---
 ## 介紹
-在快節奏的資料管理世界中，控制電子表格的外觀至關重要。您可能會發現自己需要調整 Excel 中的行高，以獲得更好的可見度、組織性，或者只是為了增強工作的整體美感。如果您正在使用 .NET 應用程序，Aspose.Cells 是一個令人難以置信的程式庫，它允許您輕鬆操作 Excel 檔案。在本教學中，我們將引導您完成使用 Aspose.Cells 設定 Excel 工作表中所有行高度的簡單流程。讓我們深入了解吧！
+在快節奏的資料管理世界中，控制電子表格的外觀至關重要。您可能會發現自己需要調整 Excel 中的行高，以獲得更好的可見度、組織性，或者只是為了增強工作的整體美感。如果您正在使用 .NET 應用程序，Aspose.Cells 是一個令人難以置信的程式庫，它允許您輕鬆操作 Excel 檔案。在本教學中，我們將引導您完成使用 Aspose.Cells 設定 Excel 工作表中所有行高度的簡單流程。讓我們深入了解一下吧！
 ## 先決條件
 在我們進入編碼部分之前，讓我們確保您擁有開始所需的一切：
 -  Aspose.Cells for .NET：如果您還沒有，請從[Aspose 下載頁面](https://releases.aspose.com/cells/net/).

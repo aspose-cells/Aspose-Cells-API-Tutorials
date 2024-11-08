@@ -73,7 +73,7 @@ Console.WriteLine("SaveWorkbookToStrictOpenXMLSpreadsheetFormat executed success
 ```
 這是驗證程式碼是否順利運行的簡單方法。當您執行程式時，如果您在控制台中看到此訊息，則表示您已經完成了！
 ## 結論
-現在你就擁有了！您剛剛學習如何使用 Aspose.Cells for .NET 以 Strict Open XML Spreadsheet 格式儲存工作簿。這就像在廚房掌握新食譜一樣 — 您現在擁有創建兼容且符合行業標準的精美 Excel 文件的工具和知識。
+現在你就擁有了！您剛剛學習如何使用 Aspose.Cells for .NET 以 Strict Open XML Spreadsheet 格式儲存工作簿。這就像在廚房掌握新食譜一樣 — 您現在擁有創建兼容並符合行業標準的精美 Excel 文件的工具和知識。
 無論您是管理企業數據還是為學校撰寫報告，這項技能都會對您大有裨益。因此，請繼續嘗試 Aspose.Cells 中的不同功能，看看您可以創建什麼！
 ## 常見問題解答
 ### 什麼是 Strict Open XML 電子表格格式？

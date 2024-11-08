@@ -79,7 +79,7 @@ class CustomLoad : LoadFilter
     }
 }
 ```
--  The`StartSheet` metoda zkontroluje, zda je každý list viditelný.
+-  The`StartSheet` metoda kontroluje, zda je každý list viditelný.
 - Pokud je viditelný, načte všechna data z tohoto listu.
 - Pokud není vidět, přeskočí načítání dat z tohoto listu.
 ## Krok 5: Načtěte sešit pomocí možností načíst

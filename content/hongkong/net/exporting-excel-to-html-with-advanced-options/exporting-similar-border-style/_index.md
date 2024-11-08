@@ -70,7 +70,7 @@ Console.WriteLine("ExportSimilarBorderStyle executed successfully.");
 ```
 ## 結論
 現在你就擁有了！您剛剛學習如何使用 Aspose.Cells for .NET 在 Excel 中以程式設計方式匯出類似的邊框樣式。只需幾行簡單的程式碼，您就可以確保 Excel 工作表保持一致的外觀，使您的資料不僅更具可讀性，而且在視覺上更具吸引力。
-無論您是要建立報告、儀表板還是共用文檔，控制 Excel 文件的外觀無疑會改變遊戲規則。
+無論您是建立報告、儀表板還是共享文檔，控制 Excel 文件的外觀無疑會改變遊戲規則。
 ## 常見問題解答
 ### 什麼是 Aspose.Cells？
 Aspose.Cells 是一個功能強大的 .NET 函式庫，用於管理 Excel 文件，讓開發人員以程式設計方式建立、操作和轉換電子表格。

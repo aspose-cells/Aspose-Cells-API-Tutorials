@@ -24,7 +24,7 @@ Miután az előfeltételeket összeállította, ideje importálni a szükséges 
 ## Nyissa meg projektjét
 Nyissa meg C#-projektjét a Visual Studióban.
 ## Adja hozzá az Aspose.Cells hivatkozást
-1. Kattintson a jobb gombbal a „Referenciák” elemre a projektben.
+1. Kattintson a jobb gombbal a "Referenciák" elemre a projektben.
 2. Válassza a "Referencia hozzáadása..." lehetőséget
 3. Keresse meg az Aspose.Cells DLL letöltési helyét, jelölje ki, majd kattintson az „OK” gombra.
 ```csharp
@@ -39,7 +39,7 @@ Először is meg kell adnia, hogy a munkafüzet hova kerüljön mentésre. Ezt �
 // A dokumentumok könyvtárának elérési útja.
 string dataDir = "Your Document Directory";
 ```
- Ügyeljen arra, hogy cserélje ki`"Your Document Directory"` azzal a tényleges elérési úttal, ahová menteni szeretné az Excel-fájlt. Ez valami ilyesmi lehet`C:\Documents\ExcelFiles\`.
+ Mindenképpen cserélje ki`"Your Document Directory"` azzal a tényleges elérési úttal, ahová menteni szeretné az Excel-fájlt. Ez valami ilyesmi lehet`C:\Documents\ExcelFiles\`.
 ## 2. lépés: Hozza létre a könyvtárat, ha nem létezik
 Célszerű ellenőrizni, hogy a megadott könyvtár létezik-e, mielőtt megpróbálna oda menteni egy fájlt. Ha nem létezik, hozzuk létre!
 ```csharp
@@ -64,7 +64,7 @@ Style style = workbook.CreateStyle();
 ```
 Ezzel a stílusobjektummal különféle tulajdonságokat határozhat meg, például betűtípust, színt, szegélyeket és egyebeket!
 ## 5. lépés: Írjon be egy értéket egy cellába
- Ideje hozzáadni néhány adatot! Feltesszük a szöveget`"Test"` első munkalapunk A1 cellájába.
+ Ideje hozzáadni néhány adatot! Feltesszük a szöveget`"Test"` az első munkalapunk A1 cellájába.
 ```csharp
 // Írjon be egy értéket az A1 cellába.
 workbook.Worksheets[0].Cells["A1"].PutValue("Test");

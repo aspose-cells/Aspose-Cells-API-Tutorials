@@ -63,7 +63,7 @@ Igen, le kell töltenie és hivatkoznia kell a könyvtárra a projektben.
 Teljesen! Az Aspose.Cells többféle Excel formátummal működik, mint például az XLSX, XLS és CSV.
 ### Van ingyenes próbaverzió?
  Igen, megragadhat egy ingyenes próbaverziót a webhelyen[letöltési link](https://releases.aspose.com/).
-### Hogyan kaphatok technikai támogatást?
+### Hogyan kaphatok műszaki támogatást?
  Ha segítségre van szüksége, a[Aspose támogatási fórum](https://forum.aspose.com/c/cells/9) nagyszerű erőforrás.
 ### Az Aspose.Cells kompatibilis a .NET Core-al?
 Igen, az Aspose.Cells a .NET Core projektekkel is kompatibilis.

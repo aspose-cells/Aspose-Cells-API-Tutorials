@@ -109,4 +109,4 @@ Aspose.Cells biedt een gratis proefversie aan, maar voor volledige functionalite
 ### Kan ik het uiterlijk van de opmerking aanpassen?
 Ja, u kunt het lettertype, de grootte en de kleur van de opmerkingtekst aanpassen. U kunt ook de vorm en grootte van de opmerking zelf wijzigen.
 ### Waar kan ik meer documentatie over Aspose.Cells vinden?
- U kunt uitgebreide documentatie vinden op Aspose.Cells[hier](https://reference.aspose.com/cells/net/).
+ Uitgebreide documentatie vindt u op Aspose.Cells[hier](https://reference.aspose.com/cells/net/).

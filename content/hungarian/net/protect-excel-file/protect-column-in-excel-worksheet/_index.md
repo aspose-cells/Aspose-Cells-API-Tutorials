@@ -33,7 +33,7 @@ Mint minden kódolási kalandnál, az első lépés a kellékek összegyűjtése
 
 ### Használati irányelv hozzáadása
 
-Győződjön meg arról, hogy a C#-fájl tetején tartalmazza a következőket az utasítás használatával:
+Győződjön meg róla, hogy a C# fájl tetején tartalmazza a következő direktívát:
 
 ```csharp
 using System.IO;

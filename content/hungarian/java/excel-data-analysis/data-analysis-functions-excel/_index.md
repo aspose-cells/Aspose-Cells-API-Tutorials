@@ -36,7 +36,7 @@ Worksheet worksheet = workbook.getWorksheets().get(0);
 CellArea cellArea = new CellArea();
 cellArea.startRow = 1; //Kezdje a második sorból (feltételezve, hogy az első sor fejléc)
 cellArea.startColumn = 0; // Kezdje az első oszloptól
-cellArea.endRow = worksheet.getCells().getMaxDataRow(); // Az utolsó sor lekérése az adatokkal
+cellArea.endRow = worksheet.getCells().getMaxDataRow(); // Az utolsó adatsor lekérése
 cellArea.endColumn = worksheet.getCells().getMaxDataColumn(); // Szerezze meg az utolsó oszlopot az adatokkal
 
 // Hozzon létre egy rendezési beállítások objektumot

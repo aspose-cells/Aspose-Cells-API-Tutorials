@@ -170,3 +170,25 @@ Làm chủ chức năng tự động điều chỉnh hàng và cột trong Excel
 Khám phá hướng dẫn toàn diện về cách quản lý các slicer Excel bằng Aspose.Cells cho .NET. Tìm hiểu cách tạo, cập nhật, định dạng và xuất các slicer dễ dàng.
 ### [Smart Markers trong Aspose.Cells cho dữ liệu động](./smart-markers-dynamic-data/)
 Khám phá Aspose.Cells for .NET Smart Markers Tutorials để tạo báo cáo Excel động. Tìm hiểu cách thêm nhãn, tự động điền dữ liệu, sử dụng công thức và nhiều hơn nữa.
+### [Bảng và danh sách](./tables-and-lists/)
+Khám phá hướng dẫn toàn diện về Aspose.Cells dành cho .NET để quản lý dữ liệu Excel, tạo bảng và nâng cao kỹ năng của bạn một cách hiệu quả với các hướng dẫn dễ làm theo.
+### [Hoạt động của sổ làm việc Aspose.Cells](./workbook-operations/)
+Khám phá hướng dẫn sử dụng sổ làm việc Aspose.Cells for .NET bao gồm truy cập dữ liệu, tùy chỉnh XML, chữ ký, tiện ích mở rộng web, v.v. Nâng cao kỹ năng tự động hóa Excel một cách dễ dàng.
+### [Thiết lập sổ làm việc](./workbook-settings/)
+Khám phá hướng dẫn toàn diện về Aspose.Cells dành cho .NET, bao gồm cài đặt sổ làm việc, tài nguyên bên ngoài, v.v.
+### [Dự án VBA sổ làm việc](./workbook-vba-project/)
+Mở khóa sức mạnh của Excel với Aspose.Cells cho .NET. Khám phá hướng dẫn toàn diện về bảo vệ dự án VBA, sao chép biểu mẫu người dùng và bảo mật sổ làm việc của bạn.
+### [Hiển thị bảng tính](./worksheet-display/)
+Khám phá danh sách toàn diện các hướng dẫn về Aspose.Cells cho .NET. Nâng cao kỹ năng Excel của bạn với hướng dẫn từng bước về các tính năng chính của bảng tính.
+### [Quản lý bảng tính](./worksheet-management/)
+Mở khóa sức mạnh của Aspose.Cells cho .NET với hướng dẫn toàn diện của chúng tôi, hướng dẫn bạn quản lý bảng tính theo từng bước.
+### [Tính năng thiết lập trang tính](./worksheet-page-setup-features/)
+Khám phá hướng dẫn thiết lập trang tính của Aspose.Cells cho .NET, bao gồm sao chép cài đặt trang, quản lý kích thước giấy và thiết lập chất lượng in cho trang tính Excel.
+### [Bảo mật bảng tính](./worksheet-security/)
+Mở khóa bí mật bảo mật của Excel. Khám phá hướng dẫn toàn diện về Aspose.Cells cho .NET của chúng tôi để bảo vệ, chỉnh sửa và quản lý bảng tính của bạn một cách dễ dàng.
+### [Bảng tính giá trị hoạt động](./worksheet-value-operations/)
+Khám phá các hướng dẫn cần thiết về Aspose.Cells cho .NET, bao gồm các thao tác giá trị bảng tính để cải thiện các dự án Excel của bạn.
+### [Hoạt động của bảng tính](./worksheet-operations/)
+Khám phá hướng dẫn sử dụng sổ làm việc Aspose.Cells for .NET bao gồm truy cập dữ liệu, tùy chỉnh XML, chữ ký, tiện ích mở rộng web, v.v. Nâng cao kỹ năng tự động hóa Excel một cách dễ dàng.
+### [Hoạt động bản đồ Xml](./xml-map-operations/)
+Khám phá hướng dẫn toàn diện về Aspose.Cells dành cho .NET bao gồm các thao tác ánh xạ XML để nâng cao kỹ năng Excel của bạn một cách dễ dàng.

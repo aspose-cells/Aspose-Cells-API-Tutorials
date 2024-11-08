@@ -20,7 +20,7 @@ Nu när vi har våra ankor på rad, låt oss hoppa rakt in i kodningen!
 Innan vi börjar koda måste du importera de nödvändiga paketen för Aspose.Cells-biblioteket. Så här kan du göra det:
 ### Skapa ett nytt projekt
 1. Öppna Visual Studio och skapa ett nytt konsolapplikationsprojekt.
-2.  Döp ditt projekt till något meningsfullt, som`TrimBlankRowsAndColumns`.
+2.  Namnge ditt projekt något meningsfullt, som`TrimBlankRowsAndColumns`.
 3. Se till att ditt projekt är inställt på att använda .NET Framework som är kompatibelt med Aspose.Cells.
 ### Installera Aspose.Cells
 För att använda Aspose.Cells bör du installera det via NuGet Package Manager. Så här gör du:

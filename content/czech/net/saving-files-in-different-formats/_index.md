@@ -35,7 +35,7 @@ Další informace o konkrétních formátech naleznete v našich podrobných př
 
 ## Výukové programy ukládání souborů v různých formátech
 ### [Uložte soubor Excel ve formátu 97-2003](./save-excel-file-in-97-2003-format/)
-Naučte se ukládat soubory Excelu ve formátu 97-2003 pomocí Aspose.Cells for .NET. Získejte praktické poznatky a pokyny krok za krokem.
+Naučte se ukládat soubory aplikace Excel ve formátu 97-2003 pomocí Aspose.Cells for .NET. Získejte praktické poznatky a pokyny krok za krokem.
 ### [Uložte soubor Excel ve formátu 2007 xlsb](./save-excel-file-in-2007-xlsb-format/)
 Naučte se ukládat soubory Excel ve formátu xlsb pomocí Aspose.Cells pro .NET! Čeká na vás návod krok za krokem s praktickými příklady.
 ### [Uložte soubor Excel ve formátu 2007 xlsx](./save-excel-file-in-2007-xlsx-format/)

@@ -126,7 +126,7 @@ workbook.Save(dataDir + "book1.out.xls");
 
 ## 結論
 使用 Aspose.Cells for .NET 將組合方塊新增至 Excel 工作表是一個簡單的過程，可大幅提高資料輸入的靈活性。透過以程式設計方式建立表單控制項，您可以輕鬆建立互動式電子表格。本教學向您展示如何新增組合方塊、將其連結到儲存格以及配置其輸入範圍，所有這些都使用 Aspose.Cells。
- Aspose.Cells 提供了廣泛的 Excel 檔案操作功能，使其成為尋求自動化電子表格任務的開發人員的理想選擇。嘗試一下[免費試用](https://releases.aspose.com/).
+ Aspose.Cells 提供了廣泛的 Excel 檔案操作功能，使其成為希望自動化電子表格任務的開發人員的理想選擇。嘗試一下[免費試用](https://releases.aspose.com/).
 ## 常見問題解答
 ### 我可以在沒有安裝 Excel 的情況下使用 Aspose.Cells 嗎？
 是的，Aspose.Cells 獨立於 Excel 工作，不需要安裝 Excel。

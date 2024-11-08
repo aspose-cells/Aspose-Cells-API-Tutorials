@@ -52,7 +52,7 @@ opts.DisableDownlevelRevealedComments = true;
 ```
 設定により`DisableDownlevelRevealedComments`に`true`ブックを HTML ファイルとして保存すると、下位レベルのコメントが無効になります。
 ## ステップ4: ワークブックをHTMLとして保存する
-HtmlSaveOptions オブジェクトが構成されたら、次の手順は、指定されたオプションを使用してワークブックを HTML に保存することです。ここで実際のファイル変換が行われます。
+HtmlSaveOptions オブジェクトを構成したら、次の手順では、指定されたオプションを使用してワークブックを HTML に保存します。ここで実際のファイル変換が行われます。
 ```csharp
 //指定した保存オプションを使用して、ワークブックを HTML ファイルとして保存します。
 wb.Save(outputDir + "outputDisableDownlevelRevealedComments_true.html", opts);

@@ -30,7 +30,7 @@ Per prima cosa, devi definire dove si trova il tuo file Excel di origine e dove 
 ```csharp
 //Elenco di origine
 string sourceDir = "Your Document Directory";
-//Directory di uscita
+//Directory di output
 string outputDir = "Your Document Directory";
 ```
 Prendi le tue directory e inseriscile nel codice. Assicurati che i percorsi siano corretti, altrimenti non troverà i tuoi file!

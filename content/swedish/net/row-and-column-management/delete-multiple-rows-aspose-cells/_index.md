@@ -58,7 +58,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 //Ta bort 10 rader från kalkylbladet från och med 3:e raden
 worksheet.Cells.DeleteRows(2, 10);
 ```
-I denna rad:
+På denna rad:
 - `2` är indexet för raden där raderingen börjar (0-baserat, alltså`2` är faktiskt den tredje raden).
 - `10` är antalet rader som ska tas bort från det indexet.
 Den här kodraden tar bort raderna 3 till 12, vilket frigör utrymme i data och kan hjälpa till att effektivisera din datauppsättning.

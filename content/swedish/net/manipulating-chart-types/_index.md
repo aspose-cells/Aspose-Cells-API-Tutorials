@@ -30,7 +30,7 @@ url: /sv/net/manipulating-chart-types/
  Cirkeldiagram kan vara bra, men ibland måste du göra några ändringar för att bättre representera din data. Med[Ändra cirkeldiagram](./modify-pie-chart/) tutorial, kommer du att lära dig hur du justerar dina cirkeldiagram så att de matchar dina data exakt. Kanske behöver du justera skivorna, ändra färger eller till och med explodera en skiva för att betona - den här guiden visar dig hur!
 
 ### Använd Microsofts temafärg i diagramserien
- Vill du hålla dina diagram i linje med ditt företags varumärke? Lär dig hur du gör[Använd Microsofts temafärg i diagramserien](./apply-microsoft-theme-color-in-chart-series/)använder Aspose.Cells för .NET. Den här handledningen visar hur du matchar ditt diagrams färgschema med Microsofts temafärger, vilket säkerställer ett professionellt och sammanhängande utseende över dina presentationer. Det är som att klä din data i en perfekt matchande kostym!
+ Vill du hålla dina diagram i linje med ditt företags varumärke? Lär dig hur[Använd Microsofts temafärg i diagramserien](./apply-microsoft-theme-color-in-chart-series/)använder Aspose.Cells för .NET. Den här handledningen visar hur du matchar ditt diagrams färgschema med Microsofts temafärger, vilket säkerställer ett professionellt och sammanhängande utseende över dina presentationer. Det är som att klä din data i en perfekt matchande kostym!
 
 ## Handledning för manipulering av diagramtyper
 ### [Skapa anpassat diagram](./create-custom-chart/)

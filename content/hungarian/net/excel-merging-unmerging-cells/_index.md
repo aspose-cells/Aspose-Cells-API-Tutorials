@@ -15,7 +15,7 @@ Kezdjük a cellák egyesítésének és feloldásának alapjaival az Excelben. I
 
 Most azon töprenghet, hogy az Aspose.Cells hogyan egyszerűsíti le ezt a folyamatot. Az Aspose.Cells for .NET egy hatékony API, amely lehetővé teszi a fejlesztők számára, hogy zökkenőmentesen kezeljék az Excel fájlokat. Képzelje el, hogy van egy svájci kése az Excel műveletekhez; lényegében ez az eszköz. Lehetővé teszi a cellák egyesítését vagy egyesítésének megszüntetését néhány sornyi kóddal! Ráadásul programozottan is kezelhet egy munkafüzetet – például egy mestert, aki egy adatzenekart vezényel. 
 
- Az oktatóanyagunkban a[az egyesített cellák egyesítésének megszüntetése az Excelben](./unmerge-merged-cells/), emészthető lépésekre bontjuk a folyamatot. Bemutatjuk, hogyan lehet azonosítani az egyesített cellákat az Aspose.Cells segítségével, és végigvezetjük az összevonásukhoz szükséges kódon. Ez hihetetlenül hasznos, ha nagy léptékű adatmódosításokat kell végrehajtania, vagy ha egyszerűen csak megtisztítja a táblázatot. 
+ Az oktatóanyagunkban a[az egyesített cellák egyesítésének megszüntetése az Excelben](./unmerge-merged-cells/), emészthető lépésekre bontjuk a folyamatot. Bemutatjuk, hogyan lehet azonosítani az egyesített cellákat az Aspose.Cells segítségével, és végigvezetjük az összevonásukhoz szükséges kódon. Ez hihetetlenül hasznos, ha nagyszabású adatkorrekciót kell végrehajtania, vagy ha egyszerűen csak megtisztítja a táblázatot. 
 
 ## Cellák egyesítése és egyesítése az Excel oktatóanyagában
 ### [Az egyesített cellák egyesítésének megszüntetése az Excelben](./unmerge-merged-cells/)

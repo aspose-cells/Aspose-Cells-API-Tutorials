@@ -69,7 +69,7 @@ workbook.Save(dataDir + "output.xlsx"); // Speichern der aktualisierten Arbeitsm
 ```
 Es ist, als hätten Sie einen Deal besiegelt – sobald Sie Ihre Arbeit gespeichert haben, kann sie geteilt oder verwendet werden!
 ## Schritt 8: Schließen Sie den Dateistream
-Um Ressourcen freizugeben, sollten Sie abschließend den Dateistream schließen. Dies ist eine gute Vorgehensweise bei der Arbeit mit Dateivorgängen.
+Um Ressourcen freizugeben, sollten Sie abschließend den Dateistream schließen. Dies ist eine gute Vorgehensweise bei der Arbeit mit Dateioperationen.
 ```csharp
 fstream.Close(); // Schließen Sie den Dateistream
 ```

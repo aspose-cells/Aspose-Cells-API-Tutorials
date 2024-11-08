@@ -8,7 +8,7 @@ weight: 10
 url: /zh-hant/net/image-and-chart-operations/chart-to-image-conversion/
 ---
 ## 介紹
-在建立報告系統或共享視覺化資料表示時，將圖表從 Excel 轉換為圖像可能是關鍵要求。幸運的是，有了 Aspose.Cells for .NET，這個過程就變得非常簡單！無論您是產生報告還是只是將 Excel 圖表轉換為圖像以更好地顯示，本指南都將引導您逐步完成該過程。
+在建立報告系統或共享視覺化資料表示時，將 Excel 圖表轉換為圖像可能是關鍵要求。幸運的是，有了 Aspose.Cells for .NET，這個過程就變得非常簡單！無論您是產生報告還是只是將 Excel 圖表轉換為圖像以更好地顯示，本指南都將引導您逐步完成該過程。
 ## 先決條件
 在開始之前，讓我們確保您已準備好遵循本教學的所有內容。
 ### Aspose.Cells for .NET 函式庫

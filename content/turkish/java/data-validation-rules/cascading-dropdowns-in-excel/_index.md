@@ -111,7 +111,7 @@ Kesinlikle! Koşullu biçimlendirme, formüller ve grafikler gibi çeşitli Exce
 
 ### Aspose.Cells for Java hem küçük hem de büyük ölçekli projeler için uygun mudur?
 
-Evet, Aspose.Cells for Java çok yönlüdür ve her boyuttaki projede kullanılabilir. İster küçük bir yardımcı program ister karmaşık bir kurumsal uygulama üzerinde çalışıyor olun, Aspose.Cells for Java Excel ile ilgili görevlerinizi kolaylaştırabilir.
+Evet, Aspose.Cells for Java çok yönlüdür ve her boyuttaki projede kullanılabilir. İster küçük bir yardımcı program, ister karmaşık bir kurumsal uygulama üzerinde çalışıyor olun, Aspose.Cells for Java Excel ile ilgili görevlerinizi kolaylaştırabilir.
 
 ### Aspose.Cells for Java ile basamaklı açılır menüleri uygulamak için gelişmiş programlama becerilerine ihtiyacım var mı?
 

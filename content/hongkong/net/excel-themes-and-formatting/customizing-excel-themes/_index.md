@@ -32,7 +32,7 @@ using System.IO;
 using Aspose.Cells;
 using System.Drawing;
 ``` 
-現在我們已經完成了所有設置，讓我們深入了解自訂 Excel 主題的實質內容。過程可分為六個基本步驟。 
+現在我們已完成所有設置，讓我們深入了解自訂 Excel 主題的實質內容。過程可分為六個基本步驟。 
 ## 第 1 步：設定您的環境
 首先，您需要定義儲存 Excel 檔案的文件目錄的位置：
 ```csharp

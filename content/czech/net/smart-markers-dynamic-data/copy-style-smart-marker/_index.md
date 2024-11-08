@@ -26,7 +26,7 @@ using System.Data;
 ```csharp
 // Cesta k adresáři dokumentů.
 string dataDir = "Your Document Directory";
-// Vytvořte studentskou datovou tabulku
+// Vytvořte Students DataTable
 DataTable dtStudent = new DataTable("Student");
 // Definujte v něm pole
 DataColumn dcName = new DataColumn("Name", typeof(string));

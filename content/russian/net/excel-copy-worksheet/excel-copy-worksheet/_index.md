@@ -2,7 +2,7 @@
 title: Excel Копировать рабочий лист
 linktitle: Excel Копировать рабочий лист
 second_title: Справочник API Aspose.Cells для .NET
-description: Узнайте, как копировать лист Excel с помощью Aspose.Cells для .NET с помощью этого простого пошагового руководства. Идеально подходит для разработчиков .NET, желающих автоматизировать задачи Excel.
+description: Узнайте, как скопировать лист Excel с помощью Aspose.Cells для .NET с помощью этого простого пошагового руководства. Идеально подходит для разработчиков .NET, желающих автоматизировать задачи Excel.
 type: docs
 weight: 20
 url: /ru/net/excel-copy-worksheet/excel-copy-worksheet/

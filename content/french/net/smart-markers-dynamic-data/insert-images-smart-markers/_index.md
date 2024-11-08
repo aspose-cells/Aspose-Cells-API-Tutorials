@@ -49,7 +49,7 @@ DataColumn dc = t.Columns.Add("Picture");
 // Définissez son type de données.
 dc.DataType = typeof(object);
 ```
- Ici, nous créons une nouvelle table de données appelée « Table1 » et ajoutons une colonne nommée « Image ». Le type de données de cette colonne est défini sur`object`, qui est nécessaire pour stocker des tableaux d'octets.
+ Ici, nous créons une nouvelle table de données appelée « Table1 » et ajoutons une colonne nommée « Image ». Le type de données de cette colonne est défini sur`object`, ce qui est nécessaire pour stocker des tableaux d'octets.
 ## Étape 4 : ajouter des enregistrements d'image à la table de données
 Une fois le DataTable configuré, nous pouvons commencer à y ajouter les images.
 ```csharp

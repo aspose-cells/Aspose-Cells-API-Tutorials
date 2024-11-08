@@ -17,7 +17,7 @@ url: /zh/net/excel-advanced-named-ranges/identify-cells-in-named-range/
 
 ### C# 基础知识
 
-您不需要成为专家，但对 C# 有基本的了解是必不可少的。熟悉编程概念将有助于您更好地掌握示例。
+您不需要成为专家，但对 C# 有基本的了解是必不可少的。熟悉编程概念将帮助您更好地掌握示例。
 
 ### 安装 .NET Framework 
 

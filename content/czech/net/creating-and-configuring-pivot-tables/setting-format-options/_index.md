@@ -70,7 +70,7 @@ Stejně jako nastavujeme celkové součty pro řádky, můžeme to udělat i pro
 ```csharp
 pivotTable.ColumnGrand = true;
 ```
-Povolením této možnosti získáte součty na pravé straně každého sloupce. Nyní je vaše kontingenční tabulka mistrem v sumarizaci dat oběma způsoby!
+Povolením této možnosti získáte součty na pravé straně každého sloupce. Vaše kontingenční tabulka je nyní mistrem v sumarizaci dat oběma způsoby!
 ## Krok 7: Zobrazení vlastního řetězce pro hodnoty Null
 Často přehlíženým detailem je zpracování nulových hodnot. Možná budete chtít, aby se v buňkách, kde jsou hodnoty null, objevil konkrétní řetězec. 
 ```csharp

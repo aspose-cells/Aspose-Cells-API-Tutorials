@@ -31,7 +31,7 @@ Bước đầu tiên trong hành trình của chúng ta là nhập các gói c�
 ### Thêm tham chiếu Aspose.Cells
 
 - Trong Solution Explorer, nhấp chuột phải vào dự án của bạn và chọn "Quản lý gói NuGet".
-- Tìm kiếm “Aspose.Cells” và nhấp vào cài đặt. Thư viện này sẽ cung cấp cho bạn quyền truy cập vào tất cả các phương pháp bạn cần để bảo vệ các cell của mình.
+- Tìm kiếm “Aspose.Cells” và nhấp vào cài đặt. Thư viện này sẽ cung cấp cho bạn quyền truy cập vào tất cả các phương pháp bạn cần để bảo vệ cell của mình.
 
 ### Sử dụng không gian tên
 

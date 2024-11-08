@@ -10,7 +10,7 @@ url: /cs/java/basic-excel-functions/average-function-in-excel/
 
 ## Úvod do funkce AVERAGE v Excelu
 
-Excelové tabulky jsou široce používány pro analýzu dat a výpočty. Jednou z nejčastěji používaných funkcí pro numerickou analýzu je funkce PRŮMĚR, která umožňuje najít průměr z řady čísel. V tomto článku prozkoumáme, jak používat funkci AVERAGE v Excelu pomocí Aspose.Cells for Java, výkonného API pro programovou práci se soubory Excelu.
+Excelové tabulky jsou široce používány pro analýzu dat a výpočty. Jednou z nejčastěji používaných funkcí pro numerickou analýzu je funkce AVERAGE, která vám umožňuje najít průměr řady čísel. V tomto článku prozkoumáme, jak používat funkci AVERAGE v Excelu pomocí Aspose.Cells for Java, výkonného API pro programovou práci se soubory Excelu.
 
 ## Nastavení Aspose.Cells pro Java
 

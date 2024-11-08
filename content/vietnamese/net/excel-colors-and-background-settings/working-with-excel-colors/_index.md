@@ -31,7 +31,7 @@ Các không gian tên này sẽ cung cấp cho bạn quyền truy cập vào cá
 
 ## Bước 1: Thiết lập thư mục tài liệu của bạnTạo thư mục làm việc của bạn
 
-Trước tiên, bạn cần một nơi để lưu trữ các tài liệu Excel của mình. Sau đây là cách bạn có thể tạo một thư mục theo chương trình nếu nó chưa tồn tại:
+Trước tiên, bạn cần một nơi để lưu trữ các tài liệu Excel của mình. Sau đây là cách bạn có thể tạo thư mục theo chương trình nếu nó chưa tồn tại:
 
 ```csharp
 // Đường dẫn đến thư mục tài liệu.

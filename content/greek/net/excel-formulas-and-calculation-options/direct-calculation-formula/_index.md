@@ -2,7 +2,7 @@
 title: Τύπος άμεσου υπολογισμού στο Excel μέσω προγραμματισμού
 linktitle: Τύπος άμεσου υπολογισμού στο Excel μέσω προγραμματισμού
 second_title: Aspose.Cells .NET Excel Processing API
-description: Ανακαλύψτε πώς να χρησιμοποιήσετε το Aspose.Cells για .NET για την εκτέλεση υπολογισμών του Excel μέσω προγραμματισμού. Οδηγός βήμα προς βήμα για εύκολες λειτουργίες του Excel.
+description: Ανακαλύψτε πώς να χρησιμοποιήσετε το Aspose.Cells για .NET για την εκτέλεση υπολογισμών του Excel μέσω προγραμματισμού. Οδηγός βήμα προς βήμα για αβίαστα λειτουργίες του Excel.
 type: docs
 weight: 14
 url: /el/net/excel-formulas-and-calculation-options/direct-calculation-formula/

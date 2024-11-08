@@ -85,7 +85,7 @@ range.Name = "MyRange"; // Attribuer un nom à la plage
 
 Explication : Nommer votre gamme, c'est comme mettre une étiquette sur un pot : cela permet de se souvenir plus facilement de ce qu'il y a à l'intérieur !
 
-## Étape 6 : Déclarer et créer un objet de style
+## Étape 6 : déclarer et créer un objet de style
 
 Nous entrons maintenant dans la partie passionnante : le style ! Créons un objet de style que nous appliquerons à notre gamme.
 

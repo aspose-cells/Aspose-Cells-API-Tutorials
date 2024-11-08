@@ -59,7 +59,7 @@ Nyní si vezmeme první pracovní list, kam přidáme naše tvary.
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 ## Krok 4: Přidejte tvar čáry
-Nyní přidáme řádek do našeho listu:
+Nyní do našeho listu přidáme řádek:
 ```csharp
 // Přidejte řádek do listu
 Aspose.Cells.Drawing.LineShape line2 = worksheet.Shapes.AddLine(7, 0, 1, 0, 85, 250);

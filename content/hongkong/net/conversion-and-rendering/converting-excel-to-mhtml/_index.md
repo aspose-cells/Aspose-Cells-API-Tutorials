@@ -26,7 +26,7 @@ url: /zh-hant/net/conversion-and-rendering/converting-excel-to-mhtml/
 
 1. 開啟您的專案：啟動 Visual Studio 並開啟現有專案或建立新專案。
 2. 管理 NuGet 套件：在解決方案資源管理器中以滑鼠右鍵按一下您的項目，然後選擇「管理 NuGet 套件」。
-3. 搜尋並安裝 Aspose.Cells：在搜尋框中，鍵入`Aspose.Cells`並安裝該套件。這可確保您將最新版本整合到您的專案中。
+3. 搜尋並安裝 Aspose.Cells：在搜尋框中，鍵入`Aspose.Cells`並安裝該軟體包。這可確保您將最新版本整合到您的專案中。
 4. 新增使用指令：在程式碼檔案中，新增下列指令以利用 Aspose.Cells 命名空間：
 
 ```csharp

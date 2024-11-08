@@ -9,7 +9,7 @@ url: /sv/net/excel-page-breaks/excel-add-page-breaks/
 ---
 ## Introduktion
 
-Är du trött på att manuellt lägga till sidbrytningar i dina Excel-ark? Kanske har du ett långt kalkylblad som inte skrivs ut så bra eftersom allt bara går ihop. Nåväl, du har tur! I den här guiden kommer vi att dyka ner i hur man använder Aspose.Cells för .NET för att automatisera processen att lägga till sidbrytningar. Föreställ dig att du kan städa upp dina kalkylblad på ett effektivt sätt – vilket gör dem snygga och presentabla utan att svettas med småsaker. Låt oss dela upp det steg för steg och göra ditt Excel-spel starkare!
+Är du trött på att manuellt lägga till sidbrytningar i dina Excel-ark? Kanske har du ett långt kalkylblad som inte skrivs ut så bra eftersom allt bara går ihop. Tja, du har tur! I den här guiden kommer vi att dyka ner i hur man använder Aspose.Cells för .NET för att automatisera processen att lägga till sidbrytningar. Föreställ dig att du kan städa upp dina kalkylblad på ett effektivt sätt – vilket gör dem snygga och presentabla utan att svettas med småsaker. Låt oss dela upp det steg för steg och göra ditt Excel-spel starkare!
 
 ## Förutsättningar
 

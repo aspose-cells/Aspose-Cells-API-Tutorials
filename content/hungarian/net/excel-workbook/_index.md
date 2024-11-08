@@ -17,7 +17,7 @@ Belefáradt az Excel fájlkezeléssel való küszködésbe? Ha valaha is szembes
 
 ## Digitális aláírások hozzáadása
 
- Szüksége volt már arra, hogy digitális aláírást adjon egy aláírt Excel-fájlhoz? Fedezze fel, hogyan kell ezt megtenni az útmutatónkkal[Digitális aláírás hozzáadása egy már aláírt Excel-fájlhoz](./add-digital-signature-to-an-already-signed-excel-file/)A digitális aláírások hitelességet és integritást biztosítanak, így Excel-fájljai nem csak működőképesek, hanem biztonságosak is.
+ Szüksége volt már arra, hogy digitális aláírást adjon egy aláírt Excel-fájlhoz? Fedezze fel, hogyan kell ezt megtenni az útmutatónk segítségével[Digitális aláírás hozzáadása egy már aláírt Excel-fájlhoz](./add-digital-signature-to-an-already-signed-excel-file/)A digitális aláírások hitelességet és integritást biztosítanak, így Excel-fájljai nem csak működőképesek, hanem biztonságosak is.
 
 ## Megosztott munkafüzetek létrehozása
 
@@ -29,7 +29,7 @@ Belefáradt az Excel fájlkezeléssel való küszködésbe? Ha valaha is szembes
 
 ## Külső kapcsolatok kezelése XLSB-fájlokban
 
- A külső kapcsolatok kezelése – különösen az XLSB-fájlokban – bonyolult lehet. De ne félj! Részletes útmutatónk a[XLSB-fájl külső kapcsolatának olvasása és írása](./read-and-write-external-connection-of-xlsb-file/) leegyszerűsíti ezt a feladatot. Ez az oktatóanyag világos kódolási példákat és betekintést nyújt, lehetővé téve az Excel külső adatforrásokkal való interakciójának hatékony kezelését. 
+ A külső kapcsolatok kezelése – különösen az XLSB-fájlokban – bonyolult lehet. De ne félj! Részletes útmutatónk a[Az XLSB fájl külső kapcsolatának olvasása és írása](./read-and-write-external-connection-of-xlsb-file/) leegyszerűsíti ezt a feladatot. Ez az oktatóanyag világos kódolási példákat és betekintést nyújt, lehetővé téve az Excel külső adatforrásokkal való interakciójának hatékony kezelését. 
 
 ## A biztonság fokozása jelszavas védelemmel
 
@@ -72,7 +72,7 @@ Akkor miért ne ragadná meg ezt a lehetőséget Excel-készségei fejlesztésé
 | [Meghatározott nevek szűrése munkafüzet betöltése közben](./filter-defined-names-while-loading-workbook/) | Ebből az átfogó útmutatóból megtudhatja, hogyan szűrheti ki a meghatározott neveket az Aspose.Cells for .NET segítségével munkafüzet betöltésekor. |  
 | [Szerezze be az Odata részleteit](./get-odata-details/) | Fedezze fel, hogyan bonthatja ki az OData részleteit az Excelből az Aspose.Cells for .NET használatával ebben a részletes, lépésről lépésre mutató oktatóanyagban. |  
 | [Megosztott munkafüzet jelszavas védelme vagy védelem feloldása](./password-protect-or-unprotect-shared-workbook/) | Biztosítsa megosztott Excel-fájljait az Aspose.Cells for .NET segítségével a jelszavas védelemről és a védelem megszüntetéséről szóló egyszerű útmutatónkkal. |  
-| [XLSB-fájl külső kapcsolatának olvasása és írása](./read-and-write-external-connection-of-xlsb-file/) | Ebből az átfogó oktatóanyagból megtudhatja, hogyan kezelheti a külső kapcsolatokat XLSB-fájlokban az Aspose.Cells for .NET használatával. |  
+| [Az XLSB fájl külső kapcsolatának olvasása és írása](./read-and-write-external-connection-of-xlsb-file/) | Ebből az átfogó oktatóanyagból megtudhatja, hogyan kezelheti a külső kapcsolatokat XLSB-fájlokban az Aspose.Cells for .NET használatával. |  
 | [Regex Csere](./regex-replace/) | Ismerje meg, hogyan használhatja hatékonyan a regex cserét az Excelben az Aspose.Cells for .NET segítségével. Növelje a táblázatkezelési feladatok termelékenységét és pontosságát. |  
 | [Frissítse a Power Query képletelemet](./update-power-query-formula-item/) | Könnyen frissítheti a Power Query képletelemeit az Excelben az Aspose.Cells for .NET segítségével. Lépésről lépésre szóló útmutató az adatkezelési folyamatok egyszerűsítéséhez. |  
 | [Munkafüzet nyomtatási előnézete](./workbook-print-preview/) | Ismerje meg, hogyan hozhat létre nyomtatási előnézeteket Excel-fájlokhoz az Aspose.Cells for .NET használatával. Tanulja meg a kódolási lépéseket egy részletes, könnyen követhető oktatóanyagban. |  

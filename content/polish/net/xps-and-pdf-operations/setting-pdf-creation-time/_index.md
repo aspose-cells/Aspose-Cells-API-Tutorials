@@ -8,7 +8,7 @@ weight: 11
 url: /pl/net/xps-and-pdf-operations/setting-pdf-creation-time/
 ---
 ## Wstęp
-dzisiejszej erze cyfrowej możliwość konwersji dokumentów do różnych formatów jest kluczowa dla wielu aplikacji. Jedną z powszechnych potrzeb jest konwersja arkuszy kalkulacyjnych programu Excel do plików PDF. Nie tylko zachowuje to formatowanie, ale także znacznie ułatwia udostępnianie i drukowanie. Jeśli jesteś programistą pracującym z .NET, Aspose.Cells to fantastyczna biblioteka, która upraszcza ten proces. W tym samouczku zagłębimy się w to, jak ustawić czas utworzenia pliku PDF podczas konwersji pliku Excel do PDF za pomocą Aspose.Cells dla .NET.
+dzisiejszej erze cyfrowej możliwość konwersji dokumentów do różnych formatów jest kluczowa dla wielu aplikacji. Jedną z powszechnych potrzeb jest konwersja arkuszy kalkulacyjnych Excela do plików PDF. Nie tylko zachowuje to formatowanie, ale także znacznie ułatwia udostępnianie i drukowanie. Jeśli jesteś programistą pracującym z .NET, Aspose.Cells to fantastyczna biblioteka, która upraszcza ten proces. W tym samouczku zagłębimy się w to, jak ustawić czas utworzenia PDF podczas konwersji pliku Excela do PDF za pomocą Aspose.Cells dla .NET.
 ## Wymagania wstępne
 Zanim przejdziemy do szczegółów kodu, upewnijmy się, że masz wszystko, czego potrzebujesz, aby zacząć.
 ### Czego potrzebujesz

@@ -83,7 +83,7 @@ worksheet.Cells["B3"].PutValue(50);
 worksheet.Cells["B4"].PutValue(40);
 ```
 
-Dans cet extrait, nous remplissons les lignes A1 à A4 avec différentes valeurs numériques et remplissons également les colonnes B1 à B4. Ces données serviront de base à notre graphique.
+Dans cet extrait, nous remplissons les lignes A1 à A4 avec différentes valeurs numériques et les colonnes B1 à B4 également. Ces données serviront de base à notre graphique.
 
 ## Étape 6 : Ajout de données de catégorie
 

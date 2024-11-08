@@ -29,7 +29,7 @@ Az első dolgok először! Meg kell adnia az Excel-fájl elérési útját. Ezt 
 // A dokumentumok könyvtárának elérési útja.
 string dataDir = "Your Document Directory";
 ```
- Ügyeljen arra, hogy cserélje ki`"Your Document Directory"` mappát tartalmazó mappa tényleges elérési útjával`book1.xls` fájlt. Ez a működésünk alapja.
+ Mindenképpen cserélje ki`"Your Document Directory"` mappát tartalmazó mappa tényleges elérési útjával`book1.xls` fájlt. Ez a működésünk alapja.
 ## 2. lépés: Fájlfolyam létrehozása
 Ezután létre kell hoznunk egy fájlfolyamot az Excel fájl eléréséhez. Ez a lépés kulcsfontosságú, mivel lehetővé teszi számunkra, hogy elolvassuk a fájl tartalmát.
 ```csharp

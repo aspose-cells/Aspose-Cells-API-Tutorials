@@ -37,7 +37,7 @@ string sourceDir = "Your Document Directory"; // Remplacez ceci par le chemin de
 // Répertoire de sortie
 string outputDir = "Your Document Directory"; // Assurez-vous que cette méthode fournit un chemin de sortie valide
 ```
- Dans cet extrait, remplacez`"Your Document Directory"`avec le chemin d'accès réel vers votre répertoire contenant le fichier Excel. C'est comme préparer la scène avant votre représentation : il est essentiel de savoir où se trouvent vos documents.
+ Dans cet extrait, remplacez`"Your Document Directory"` avec le chemin d'accès réel vers votre répertoire contenant le fichier Excel. C'est comme préparer la scène avant votre représentation : il est essentiel de savoir où se trouvent vos documents.
 ## Étape 2 : instancier l'objet classeur
  Ensuite, nous allons créer un`Workbook` objet pour ouvrir le fichier Excel avec lequel nous travaillons.
 ```csharp
@@ -45,7 +45,7 @@ string outputDir = "Your Document Directory"; // Assurez-vous que cette méthode
 // Ouvrir un fichier Excel
 Workbook workbook = new Workbook(sourceDir + "HyperlinksSample.xlsx");
 ```
- Ici, nous créons un nouveau`Workbook` exemple. Le`Workbook` La classe est essentiellement votre passerelle vers toutes les opérations liées à un fichier Excel. Vous pouvez la considérer comme l'ouverture du livre qui contient tout votre contenu.
+ Ici, nous créons un nouveau`Workbook` exemple. Le`Workbook`La classe est essentiellement votre passerelle vers toutes les opérations liées à un fichier Excel. Vous pouvez la considérer comme l'ouverture du livre qui contient tout votre contenu.
 ## Étape 3 : Accéder à la feuille de travail
 Maintenant que le classeur est prêt, prenons la première feuille de calcul. Dans Excel, les feuilles de calcul sont comme les pages d'un livre et nous devons spécifier sur quelle page nous travaillons.
 ```csharp
@@ -59,14 +59,14 @@ Il est maintenant temps de définir une plage dans laquelle nous souhaitons rech
 // Créer une plage A2:B3
 Range range = worksheet.Cells.CreateRange("A2", "B3");
 ```
- En appelant`CreateRange`nous spécifions les cellules de début et de fin. C'est là que la magie opère : nous vérifierons plus tard les hyperliens situés dans cette plage spécifiée.
+ En appelant`CreateRange`, nous spécifions les cellules de début et de fin. C'est là que la magie opère : nous vérifierons plus tard les hyperliens situés dans cette plage spécifiée.
 ## Étape 5 : Récupérer les hyperliens de la plage
 C’est à cette étape que nous accédons réellement aux hyperliens de notre plage définie.
 ```csharp
 //Obtenez des hyperliens à portée
 Hyperlink[] hyperlinks = range.Hyperlinks;
 ```
- Le`Hyperlinks` propriété d'un`Range` l'objet renvoie un tableau de`Hyperlink` objets trouvés dans cette gamme. C'est comme récupérer toutes les notes importantes de votre page en une seule fois !
+ Le`Hyperlinks` propriété d'un`Range` l'objet renvoie un tableau de`Hyperlink`objets trouvés dans cette gamme. C'est comme récupérer toutes les notes importantes de votre page en une seule fois !
 ## Étape 6 : Parcourir et afficher les liens
 Passons maintenant en revue les hyperliens récupérés. Pour l'instant, nous allons imprimer leurs adresses et leurs zones dans la console.
 ```csharp
@@ -85,7 +85,7 @@ foreach (Hyperlink link in hyperlinks)
     link.Delete();
 }
 ```
- En utilisant le`Delete()`La méthode sur chaque lien hypertexte vous permet de supprimer les liens hypertexte dont vous n'avez plus besoin. C'est comme effacer un gribouillage dont vous n'avez plus besoin de votre page.
+ En utilisant le`Delete()` La méthode sur chaque lien hypertexte vous permet de supprimer les liens hypertexte dont vous n'avez plus besoin. C'est comme effacer un gribouillage dont vous n'avez plus besoin de votre page.
 ## Étape 8 : Enregistrez vos modifications
 Enfin, enregistrons le classeur avec tous les ajustements que nous avons effectués.
 ```csharp

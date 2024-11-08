@@ -38,7 +38,7 @@ Następnie utwórzmy ciąg określający pełną ścieżkę do pliku wejścioweg
 ```csharp
 string InputPath = dataDir + "Book1.xlsx";
 ```
-Pomaga to usprawnić dostęp do plików, ponieważ nie musisz wpisywać tej samej ścieżki wiele razy w całym kodzie.
+Pomaga to usprawnić dostęp do plików, ponieważ nie musisz wielokrotnie wpisywać tej samej ścieżki w całym kodzie.
 ## Krok 3: Utwórz strumień plików
  Teraz czas otworzyć plik Excel. Utworzymy`FileStream` który umożliwia odczytanie zawartości pliku Excel:
 ```csharp

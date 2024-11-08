@@ -1,6 +1,6 @@
 ---
-title: Zapisz plik Excela w formacie xlsb 2007
-linktitle: Zapisz plik Excela w formacie xlsb 2007
+title: Zapisz plik Excel w formacie xlsb 2007
+linktitle: Zapisz plik Excel w formacie xlsb 2007
 second_title: Aspose.Cells .NET API przetwarzania programu Excel
 description: Dowiedz się, jak zapisywać pliki Excel w formacie xlsb za pomocą Aspose.Cells dla .NET! Czeka na Ciebie przewodnik krok po kroku z praktycznymi przykładami.
 type: docs

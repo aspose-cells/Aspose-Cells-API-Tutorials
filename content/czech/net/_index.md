@@ -17,7 +17,7 @@ Ať už jste začátečník nebo zkušený vývojář, výukové programy Aspose
 ### [Pracovní list aplikace Excel](./excel-worksheet-csharp-tutorials/)
 Výukové programy Aspose.Cells C# nabízejí podrobné pokyny pro snadnou a efektivní manipulaci s tabulkami aplikace Excel.
 ### [Nastavení zobrazení Excel](./excel-display-settings-csharp-tutorials)
-Podívejte se na výukové programy Aspose.Cells C# pro přizpůsobení zobrazení Excelu. Měňte písma, barvy, formáty a vytvářejte atraktivní sestavy.
+Podívejte se na výukové programy Aspose.Cells C# pro přizpůsobení zobrazení Excelu. Měňte písma, barvy, formáty a vytvářejte atraktivní zprávy.
 ### [Nastavení stránky Excel](./excel-page-setup)
 Podívejte se na výukové programy Aspose.Cells for .NET o nastavení rozložení stránky aplikace Excel. Snadno přizpůsobte své soubory Excel.
 ### [Chraňte soubor Excel](./protect-excel-file/)
@@ -64,7 +64,7 @@ Prozkoumejte komplexní výukové programy pro správu pojmenovaných rozsahů v
 Prozkoumejte podrobné návody pro export a načítání dat aplikace Excel pomocí Aspose.Cells for .NET, ideální pro vývojáře na jakékoli úrovni dovedností.
 ### [Automatický filtr a ověření aplikace Excel](./excel-autofilter-validation/)
 Odemkněte správu dat aplikace Excel pomocí výukových programů Aspose.Cells pro .NET. Naučte se automatické filtrování a ověřování desetinných míst, abyste vylepšili své tabulky.
-### [Mezisoučet a výpočet Excelu](./excel-subtotal-calculation/)
+### [Mezisoučet a výpočet v Excelu](./excel-subtotal-calculation/)
 Zjistěte, jak pomocí Aspose.Cells for .NET vytvářet mezisoučty a precedenty Excelu. Postupujte podle těchto výukových programů a bez námahy vylepšete své dovednosti s tabulkovým procesorem.
 ### [Závislost a výpočet dat aplikace Excel](./excel-data-dependency-calculation/)
 Objevte výukové programy Aspose.Cells for .NET pokrývající závislosti a výpočty Excelu na datech, včetně trasování závislých buněk, abyste zlepšili své dovednosti v automatizaci Excelu.
@@ -86,7 +86,7 @@ Objevte základní výukové programy na Aspose.Cells pro .NET, které pokrývaj
 Odemkněte potenciál Excelu pomocí výukových programů Aspose.Cells for .NET, které poskytují přehled o správě skrytých řádků a duplikování dat bez námahy.
 ### [Komentář a anotace v Excelu](./excel-comment-annotation/)
 Vylepšete své dovednosti v Excelu pomocí výukových programů Aspose.Cells for .NET o komentářích a anotacích, které obsahují podrobné průvodce pro obohacení vašich tabulek.
-### [Excelové tvary a ovládací prvky](./excel-shapes-controls/)
+### [Tvary a ovládací prvky Excelu](./excel-shapes-controls/)
 Prozkoumejte komplexní výukové programy Aspose.Cells for .NET o přidávání tvarů a ovládacích prvků aplikace Excel. Naučte se krok za krokem metody, jak vylepšit své excelové listy programově.
 ### [Excel OLE a obrázkové objekty](./excel-ole-picture-objects/)
 Odemkněte sílu Excelu s Aspose.Cells pro .NET. Osvojte si OLE objekty a manipulaci s obrázky prostřednictvím našich snadno srozumitelných výukových programů.
@@ -139,8 +139,8 @@ Ovládněte nastavení barev a přizpůsobení v Excelu pomocí Aspose.Cells pro
 ### [Excel podmíněné formátování](./excel-conditional-formatting/)
 Naučte se používat podmíněné formátování za běhu v Excelu pomocí Aspose.Cells for .NET. Tento podrobný průvodce pomáhá vývojářům automatizovat formátování Excelu.
 ### [Excelové formátování znaků a buněk](./excel-character-and-cell-formatting/)
-Naučte se formátování znaků a programové nastavení aktivních buněk v Excelu pomocí Aspose.Cells pro .NET. Prozkoumejte komplexní průvodce, který vám zjednoduší vývojové úkoly.
-### [Ohraničení Excelu a možnosti formátování](./excel-borders-and-formatting-options/)
+Naučte se formátování znaků a programové nastavení aktivních buněk v Excelu pomocí Aspose.Cells for .NET. Prozkoumejte komplexní průvodce, který vám zjednoduší vývojové úkoly.
+### [Excel Ohraničení a možnosti formátování](./excel-borders-and-formatting-options/)
 Objevte výukové programy Aspose.Cells for .NET, které vás naučí, jak programově nastavit okraje Excelu, písma a vzory, čímž ušetříte čas a vylepšíte své tabulky.
 ### [Metody a možnosti formátování aplikace Excel](./excel-formatting-methods-and-options/)
 Objevte metody a možnosti formátování Excelu ve výukových programech Aspose.Cells for .NET, které pokrývají účinné techniky, jako je metoda kopírování pro lepší produktivitu.
@@ -159,7 +159,7 @@ Získejte cenné informace o exportu Excelu do HTML pomocí Aspose.Cells pro .NE
 ### [Vykreslování a export](./rendering-and-export/)
 Vylepšete své dovednosti s Aspose.Cells pro .NET. Ponořte se do výukových programů pro vykreslování, export a vytváření interaktivních dokumentů Excel PDF.
 ### [Zpracování chyb a přizpůsobení v Aspose.Cells](./error-handling-and-customization-in-aspose-cells/)
-Výukové programy Aspose.Cells for .NET o vykreslování doplňků Office v Excelu do PDF a ignorování chyb během převodu Excel do PDF. Zjednodušte si úkoly s dokumenty.
+Výukové programy Aspose.Cells for .NET o vykreslování doplňků Office v Excelu do PDF a ignorování chyb během převodu Excel do PDF. Zjednodušte si úlohy s dokumenty.
 ### [Správa řádků a sloupců](./row-and-column-management/)
 Odemkněte sílu Aspose.Cells pro .NET pomocí našich komplexních výukových programů pro správu řádků a sloupců, abyste si bez námahy vylepšili své dovednosti v Excelu.
 ### [Přizpůsobení velikosti a rozteče](./size-and-spacing-customization/)
@@ -170,3 +170,25 @@ Ovládněte automatické přizpůsobení řádků a sloupců v Excelu pomocí As
 Prozkoumejte komplexní výukové programy pro správu průřezů Excelu pomocí Aspose.Cells pro .NET. Naučte se vytvářet, aktualizovat, formátovat a exportovat průřezy bez námahy.
 ### [Inteligentní značky v Aspose.Cells pro dynamická data](./smart-markers-dynamic-data/)
 Prozkoumejte výukové programy Aspose.Cells for .NET Smart Markers a vytvořte dynamické sestavy aplikace Excel. Naučte se přidávat štítky, automaticky vyplňovat data, používat vzorce a další.
+### [Tabulky a seznamy](./tables-and-lists/)
+Prozkoumejte komplexní výukové programy Aspose.Cells for .NET, abyste mohli efektivně spravovat data aplikace Excel, vytvářet tabulky a zlepšovat své dovednosti pomocí snadno srozumitelných průvodců.
+### [Operace sešitu Aspose.Cells](./workbook-operations/)
+Prozkoumejte výukové programy sešitů Aspose.Cells for .NET týkající se přístupu k datům, přizpůsobení XML, podpisů, webových rozšíření a dalších. Snadno si vylepšete automatizační dovednosti Excelu.
+### [Nastavení sešitu](./workbook-settings/)
+Prozkoumejte komplexní výukové programy Aspose.Cells for .NET, které pokrývají nastavení sešitu, externí zdroje a další.
+### [Pracovní sešit Projekt VBA](./workbook-vba-project/)
+Odemkněte sílu Excelu s Aspose.Cells pro .NET. Prozkoumejte komplexní výukové programy o ochraně projektů VBA, kopírování uživatelských formulářů a zabezpečení vašeho sešitu.
+### [Zobrazení pracovního listu](./worksheet-display/)
+Objevte úplný seznam výukových programů Aspose.Cells pro .NET. Vylepšete své dovednosti v Excelu pomocí podrobných průvodců o klíčových funkcích listu.
+### [Správa pracovních listů](./worksheet-management/)
+Odemkněte sílu Aspose.Cells pro .NET pomocí našich komplexních výukových programů, které vás provedou správou pracovních listů pomocí podrobných pokynů.
+### [Funkce nastavení stránky listu](./worksheet-page-setup-features/)
+Objevte výukové programy pro nastavení stránky listů Aspose.Cells for .NET, včetně nastavení kopírování stránky, správy velikosti papíru a nastavení kvality tisku pro listy aplikace Excel.
+### [Zabezpečení pracovního listu](./worksheet-security/)
+Odhalte tajemství zabezpečení Excelu. Prozkoumejte naše komplexní výukové programy Aspose.Cells for .NET k ochraně, úpravě a správě vašich listů bez námahy.
+### [Operace hodnot listu](./worksheet-value-operations/)
+Objevte základní výukové programy na Aspose.Cells pro .NET, které pokrývají operace s hodnotami listu pro vylepšení vašich projektů Excel.
+### [Operace s pracovními listy](./worksheet-operations/)
+Prozkoumejte výukové programy sešitů Aspose.Cells for .NET týkající se přístupu k datům, přizpůsobení XML, podpisů, webových rozšíření a dalších. Snadno si vylepšete automatizační dovednosti Excelu.
+### [Operace mapy XML](./xml-map-operations/)
+Objevte komplexní výukové programy Aspose.Cells for .NET pokrývající operace s mapou XML, abyste bez námahy vylepšili své dovednosti v Excelu.

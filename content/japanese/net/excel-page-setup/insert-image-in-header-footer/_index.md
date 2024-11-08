@@ -117,9 +117,9 @@ pageSetup.SetHeader(2, "&A"); //シート名を挿入します
 workbook.Save(dataDir + "InsertImageInHeaderFooter_out.xls");
 ```
 
-この行は、指定したファイル名でワークブックを、前に定義したディレクトリに保存します。
+この行は、前に定義したディレクトリに、指定されたファイル名でワークブックを保存します。
 
-## ステップ9: FileStreamを閉じる
+## ステップ 9: FileStream を閉じる
 
 最後に、`FileStream`リソースを解放するためです。
 

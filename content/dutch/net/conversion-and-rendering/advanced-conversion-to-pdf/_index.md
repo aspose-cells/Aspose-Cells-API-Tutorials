@@ -16,7 +16,7 @@ Heb je jezelf ooit midden in een project bevonden waarin je Excel-bestanden naar
 Voordat we in de details duiken, zorgen we ervoor dat je alles klaar hebt staan. Dit heb je nodig:
 
 1. .NET Development Environment: Zorg ervoor dat u een .NET-omgeving hebt ingesteld. U kunt Visual Studio gebruiken, een populaire IDE voor .NET-ontwikkeling.
-2.  Aspose.Cells Library: U hebt de Aspose.Cells-bibliotheek nodig. Als u deze nog niet hebt geïnstalleerd, kunt u deze downloaden van[hier](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells Library: U hebt de Aspose.Cells-bibliotheek nodig. Als u deze nog niet hebt geïnstalleerd, kunt u deze ophalen van[hier](https://releases.aspose.com/cells/net/).
 3. Basiskennis van C#: Een fundamenteel begrip van C#-programmering helpt u om moeiteloos door deze gids te navigeren.
 4.  Toegang tot internet: Dit is cruciaal als u de documentatie wilt controleren, die u hier kunt vinden[hier](https://reference.aspose.com/cells/net/). 
 

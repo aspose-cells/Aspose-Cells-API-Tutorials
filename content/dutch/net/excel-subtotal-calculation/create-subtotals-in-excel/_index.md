@@ -67,7 +67,7 @@ Ten slotte moeten we onze wijzigingen opslaan in een nieuw Excel-bestand.
 ```csharp
 workbook.Save(dataDir + "output.out.xls");
 ```
- De`Save` methode schrijft de wijzigingen naar een nieuw bestand met de naam`output.out.xls`U kunt elke gewenste naam voor het uitvoerbestand opgeven.
+ De`Save` methode schrijft de wijzigingen naar een nieuw bestand met de naam`output.out.xls`U kunt elke gewenste naam voor het uitvoerbestand opgeven, afhankelijk van uw wensen.
 ## Conclusie
 Met deze eenvoudige stappen hebt u met succes subtotalen in uw Excel-werkblad gemaakt met Aspose.Cells voor .NET! Van het instantiëren van een werkmap tot het toepassen van subtotalen en het opslaan van de resultaten, we hebben alle basissen behandeld. Deze bibliotheek vereenvoudigt niet alleen uw Excel-manipulaties, maar stelt u ook in staat om effectiever met gegevens om te gaan.
 Ga nu aan de slag en probeer het eens! U zult versteld staan hoe veel makkelijker het beheren van data in spreadsheets wordt als u weet hoe u de juiste tools moet gebruiken. 

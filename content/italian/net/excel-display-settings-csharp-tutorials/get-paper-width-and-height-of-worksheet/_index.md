@@ -79,7 +79,7 @@ Console.WriteLine("PaperA3: " + ws.PageSetup.PaperWidth + "x" + ws.PageSetup.Pap
 //Imposta il formato carta su A4 e stampa la larghezza e l'altezza della carta in pollici
 ws.PageSetup.PaperSize = PaperSizeType.PaperA4;
 Console.WriteLine("PaperA4: " + ws.PageSetup.PaperWidth + "x" + ws.PageSetup.PaperHeight);
-//Imposta il formato della carta su Lettera e stampa la larghezza e l'altezza della carta in pollici
+//Imposta il formato carta su Lettera e stampa la larghezza e l'altezza della carta in pollici
 ws.PageSetup.PaperSize = PaperSizeType.PaperLetter;
 Console.WriteLine("PaperLetter: " + ws.PageSetup.PaperWidth + "x" + ws.PageSetup.PaperHeight);
 ```

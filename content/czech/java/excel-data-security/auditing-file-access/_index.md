@@ -17,7 +17,7 @@ tomto tutoriálu prozkoumáme, jak auditovat přístup k souborům pomocí Aspos
 Než začnete, ujistěte se, že máte následující předpoklady:
 
 - [Java Development Kit (JDK)](https://www.oracle.com/java/technologies/javase-downloads.html) nainstalovaný ve vašem systému.
--  Aspose.Cells pro knihovnu Java. Můžete si jej stáhnout z[Aspose.Cells for Java webové stránky](https://releases.aspose.com/cells/java/).
+-  Aspose.Cells pro knihovnu Java. Můžete si jej stáhnout z[Web Aspose.Cells pro Java](https://releases.aspose.com/cells/java/).
 
 ## Krok 1: Nastavení vašeho projektu Java
 

@@ -10,7 +10,7 @@ url: /zh/net/saving-files-in-different-formats/save-file-in-ods-format/
 ## 介绍
 您是否曾想过如何使用 .NET 应用程序轻松地将电子表格文件保存为不同的格式？好吧，您点击了正确的教程！在本指南中，我们将深入介绍如何使用 Aspose.Cells for .NET 将文件保存为 ODS（开放文档电子表格）格式。无论您是构建强大的应用程序还是只是摆弄，将文件保存为各种格式都是一项关键技能。让我们一起探索这些步骤吧！
 ## 先决条件
-在我们讨论细节之前，让我们确保您已正确设置所有设置：
+在我们讨论细节之前，让我们先确保所有设置都正确：
 - .NET Framework：确保您的机器上安装了 .NET Framework。您可以使用任何与 Aspose.Cells for .NET 兼容的版本。
 -  Aspose.Cells 库：您需要下载 Aspose.Cells 库。这是一个功能强大的工具，可让您管理 Excel 文件等。您可以从[下载链接](https://releases.aspose.com/cells/net/).
 - 开发环境：合适的开发环境至关重要，例如 Visual Studio，您可以在其中编写和执行 .NET 代码。

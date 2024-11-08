@@ -8,7 +8,7 @@ weight: 10
 url: /pl/net/xps-and-pdf-operations/converting-to-xps/
 ---
 ## Wstęp
-Jeśli chodzi o konwersję plików Excel do formatu XPS, możesz czuć się trochę zagubiony, szczególnie jeśli jesteś nowy w świecie programowania lub dopiero zaczynasz przygodę z tworzeniem .NET. Ale nie obawiaj się! W tym przewodniku rozłożymy proces na czynniki pierwsze, używając Aspose.Cells dla .NET jak profesjonalista. Kiedy skończysz czytać, nie tylko będziesz mieć jasne zrozumienie, jak to zrobić, ale także zdobędziesz praktyczne informacje, które mogą podnieść Twoje umiejętności kodowania. Więc zaczynajmy!
+Jeśli chodzi o konwersję plików Excel do formatu XPS, możesz czuć się trochę zagubiony, zwłaszcza jeśli jesteś nowy w świecie programowania lub dopiero zaczynasz przygodę z tworzeniem .NET. Ale nie obawiaj się! W tym przewodniku rozłożymy proces na czynniki pierwsze, używając Aspose.Cells dla .NET jak profesjonalista. Kiedy skończysz czytać, nie tylko będziesz mieć jasne zrozumienie, jak to zrobić, ale także zdobędziesz praktyczne informacje, które mogą podnieść Twoje umiejętności kodowania. Więc zaczynajmy!
 ## Wymagania wstępne
 Zanim zagłębisz się w szczegóły konwersji, upewnijmy się, że masz wszystko, czego potrzebujesz. Oto, czego będziesz potrzebować:
 1. Visual Studio: To jest IDE, w którym będziesz pisać swój kod. Upewnij się, że masz je zainstalowane.

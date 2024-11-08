@@ -2,7 +2,7 @@
 title: Uložte soubor Excel ve formátu 97-2003
 linktitle: Uložte soubor Excel ve formátu 97-2003
 second_title: Aspose.Cells .NET Excel Processing API
-description: Naučte se ukládat soubory Excelu ve formátu 97-2003 pomocí Aspose.Cells for .NET. Získejte praktické poznatky a pokyny krok za krokem.
+description: Naučte se ukládat soubory aplikace Excel ve formátu 97-2003 pomocí Aspose.Cells for .NET. Získejte praktické poznatky a pokyny krok za krokem.
 type: docs
 weight: 10
 url: /cs/net/saving-files-in-different-formats/save-excel-file-in-97-2003-format/
@@ -24,7 +24,7 @@ Otevřete projekt .NET v sadě Visual Studio.
 Pokud jste ještě nenainstalovali balíček Aspose.Cells, můžete to udělat pomocí NuGet. 
 1. Přejděte na Nástroje -> Správce balíčků NuGet -> Spravovat balíčky NuGet pro řešení.
 2. Vyhledejte Aspose.Cells.
-3. Klepněte na Instalovat.
+3. Klikněte na Instalovat.
 ### Importujte jmenný prostor
 V horní části souboru C# vložte následující řádek:
 ```csharp

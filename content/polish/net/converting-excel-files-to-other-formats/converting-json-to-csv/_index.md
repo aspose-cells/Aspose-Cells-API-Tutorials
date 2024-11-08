@@ -97,7 +97,7 @@ Konwersja JSON do CSV przy użyciu Aspose.Cells dla .NET to prosty, ale potężn
 ### Czy Aspose.Cells obsługuje duże pliki JSON?
 Tak, Aspose.Cells jest zaprojektowany do wydajnej obsługi dużych zbiorów danych, dzięki czemu nadaje się do przetwarzania dużych plików JSON bez problemów z wydajnością.
 ### Jak mogę dostosować dane wyjściowe w formacie CSV?
- Możesz dostosować dane wyjściowe CSV, dostosowując`JsonLayoutOptions` lub modyfikowanie formatowania skoroszytu przed zapisaniem go w formacie CSV.
+ Możesz dostosować dane wyjściowe CSV, dostosowując`JsonLayoutOptions` lub zmieniając formatowanie skoroszytu przed zapisaniem go w formacie CSV.
 ### Czy istnieje sposób na wykluczenie pewnych danych z JSON podczas konwersji?
 Tak, modyfikując kod JSON lub stosując niestandardową logikę kodu przed importowaniem, można wykluczyć lub odfiltrować określone pola danych.
 ### Czy Aspose.Cells obsługuje inne formaty plików poza CSV?

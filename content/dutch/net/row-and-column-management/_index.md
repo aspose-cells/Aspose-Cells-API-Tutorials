@@ -25,7 +25,7 @@ Als u worstelt met de complexiteit van Excel, bent u niet de enige! Veel gebruik
 
 ## Rijen en kolommen groeperen en degroeperen
 
- Heb je je ooit overweldigd gevoeld door de hoeveelheid data in je spreadsheets? Het groeperen van rijen en kolommen kan je weergave aanzienlijk vereenvoudigen, waardoor je delen van je data kunt samenvouwen wanneer ze niet in gebruik zijn. Op deze manier kun je je concentreren op wat essentieel is! Onze tutorial over[Rijen en kolommen groeperen](./grouping-rows-and-columns/) leidt u door het proces en laat u zien hoe u een schonere en meer georganiseerde structuur kunt creëren. Zodra u zich op uw gemak voelt bij het groeperen, vergeet dan niet om onze gids te raadplegen over[Groepering van rijen en kolommen opheffen](./ungrouping-rows-and-columns/) wanneer u de gegevens weer nodig hebt voor een meer gedetailleerde analyse.
+ Heb je je ooit overweldigd gevoeld door de hoeveelheid data in je spreadsheets? Het groeperen van rijen en kolommen kan je weergave aanzienlijk vereenvoudigen, waardoor je delen van je data kunt samenvouwen wanneer ze niet in gebruik zijn. Op deze manier kun je je concentreren op wat essentieel is! Onze tutorial over[Rijen en kolommen groeperen](./grouping-rows-and-columns/) leidt u door het proces en laat u zien hoe u een schonere en meer georganiseerde structuur kunt creëren. Zodra u zich op uw gemak voelt bij het groeperen, vergeet dan niet om onze gids te raadplegen over[Rijen en kolommen degroeperen](./ungrouping-rows-and-columns/) wanneer u de gegevens weer nodig hebt voor een meer gedetailleerde analyse.
 
 ## Samenvattingsrijen maken
 

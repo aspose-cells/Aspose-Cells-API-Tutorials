@@ -71,7 +71,7 @@ Här tar vi tag i cellen vid position A1 så att vi kan infoga lite text.
 ## Steg 6: Lägg till värde till cellen
 Låt oss lägga in lite innehåll i den cellen:
 ```csharp
-// Lägger till något värde till "A1"-cellen
+// Lägga till något värde till "A1"-cellen
 cell.PutValue("Hello Aspose!");
 ```
 Vid det här laget, "Hej Aspose!" är nu innehållet i din A1-cell. Enkelt, eller hur?
@@ -82,7 +82,7 @@ För att understryka texten behöver du tillgång till dess stilegenskaper. Så 
 Style style = cell.GetStyle();
 ```
 Den här raden hämtar den befintliga stilen som tillämpas på cellen, så att du kan ändra den.
-## Steg 8: Ställ in teckensnittet för att vara understruket
+## Steg 8: Ställ in teckensnittet för att understrykas
 Nu kommer den spännande delen! Låt oss uppdatera teckensnittsstilen:
 ```csharp
 // Ställa in typsnittet som ska understrykas

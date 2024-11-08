@@ -75,7 +75,7 @@ Vysvětlení: Možná chcete, aby váš průřez zobrazoval možnosti úhledně 
 ## Krok 6: Definujte styl Slicer
 Nechte tento kráječ zazářit nastavením jeho stylu!
 ```csharp
-// Nastavte typ stylu průřezu.
+// Nastavte typ stylu řezu.
 slicer.StyleType = Aspose.Cells.Slicers.SlicerStyleType.SlicerStyleLight6;
 ```
 Vysvětlení: Tato čára aplikuje specifický styl na průřez a mění jeho vzhled. Představte si, že si ho obléknete na večírek – chcete, aby vynikl a vypadal atraktivně. Různé styly mohou změnit způsob, jakým uživatelé interagují s vaším průřezem, takže je lákavý.

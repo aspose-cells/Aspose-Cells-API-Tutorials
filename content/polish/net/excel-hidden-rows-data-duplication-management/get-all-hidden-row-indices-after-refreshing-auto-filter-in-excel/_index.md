@@ -9,7 +9,7 @@ url: /pl/net/excel-hidden-rows-data-duplication-management/get-all-hidden-row-in
 ---
 ## Wstęp
 
-Podczas pracy z plikami Excela, zwłaszcza dużymi zestawami danych, filtrowanie może być zbawienne. Pomaga nam skupić się na określonych punktach danych, ale co się stanie, gdy po zastosowaniu filtra zechcesz zidentyfikować ukryte wiersze? Jeśli kiedykolwiek byłeś ciekawy, jak wyciągnąć te ukryte szczegóły, jesteś we właściwym miejscu! W tym przewodniku zbadamy, jak uzyskać ukryte indeksy wierszy po odświeżeniu automatycznego filtra w programie Excel przy użyciu Aspose.Cells dla .NET. Niezależnie od tego, czy jesteś doświadczonym programistą, czy początkującym, proces ten okaże się prosty i angażujący. Zanurzmy się!
+Podczas pracy z plikami Excela, zwłaszcza dużymi zestawami danych, filtrowanie może być zbawienne. Pomaga nam skupić się na określonych punktach danych, ale co się stanie, gdy po zastosowaniu filtra zechcesz zidentyfikować ukryte wiersze? Jeśli kiedykolwiek byłeś ciekawy, jak wyciągnąć te ukryte szczegóły, jesteś we właściwym miejscu! W tym przewodniku zbadamy, jak uzyskać ukryte indeksy wierszy po odświeżeniu automatycznego filtra w Excelu przy użyciu Aspose.Cells dla .NET. Niezależnie od tego, czy jesteś doświadczonym programistą, czy początkującym, proces ten okaże się prosty i angażujący. Zanurzmy się!
 
 ## Wymagania wstępne
 
@@ -30,7 +30,7 @@ Aby śledzić ten samouczek, musisz mieć solidne zrozumienie tego, czym jest As
 Install-Package Aspose.Cells
 ```
 
-4.  Przykładowy plik programu Excel: Przygotuj przykładowy plik programu Excel o nazwie`sampleGetAllHiddenRowsIndicesAfterRefreshingAutoFilter.xlsx` do testowania. Upewnij się, że uwzględniłeś pewne dane, które można filtrować.
+4.  Przykładowy plik Excela: Przygotuj przykładowy plik Excela o nazwie`sampleGetAllHiddenRowsIndicesAfterRefreshingAutoFilter.xlsx` do testowania. Upewnij się, że uwzględniłeś pewne dane, które można filtrować.
 
 ## Importuj pakiety
 

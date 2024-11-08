@@ -63,7 +63,7 @@ Először is: meg kell határoznunk, hol lesznek a dokumentumaink. Ide mentjük 
 string dataDir = "Your Document Directory";  // Frissítse ezt az elérési utat az adott könyvtárra
 ```
 
- Ügyeljen arra, hogy cserélje ki`"Your Document Directory"` a tényleges úttal. Ez olyan, mintha új otthont találna a kemény munkához!
+ Mindenképpen cserélje ki`"Your Document Directory"` a tényleges úttal. Ez olyan, mintha új otthont találna a kemény munkához!
 
 ## 2. lépés: Hozzon létre egy új munkafüzetet
 

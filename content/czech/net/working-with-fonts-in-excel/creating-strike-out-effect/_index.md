@@ -8,7 +8,7 @@ weight: 15
 url: /cs/net/working-with-fonts-in-excel/creating-strike-out-effect/
 ---
 ## Zavedení
-Pokud jde o Excel, vizuální prvky jsou stejně důležité jako samotná data. Ať už zvýrazňujete důležité změny nebo označujete položky, které již nejsou relevantní, efekt přeškrtnutí textu je klasickým způsobem správy vizuální reprezentace v tabulkách. V této příručce vás provedeme procesem implementace efektu přeškrtnutí textu v aplikaci Excel pomocí Aspose.Cells for .NET. Tento výukový program pokryje nejen nezbytné předpoklady, ale také poskytne podrobný přístup, abyste zajistili, že tento efekt můžete snadno replikovat.
+Pokud jde o Excel, vizuální prvky jsou stejně důležité jako samotná data. Ať už zvýrazňujete důležité změny nebo označujete položky, které již nejsou relevantní, efekt přeškrtnutí textu je klasickým způsobem správy vizuální reprezentace v tabulkách. V této příručce vás provedeme procesem implementace efektu přeškrtnutí textu v aplikaci Excel pomocí Aspose.Cells for .NET. Tento výukový program nejen pokryje nezbytné předpoklady, ale také poskytne postup krok za krokem, abyste zajistili, že tento efekt můžete snadno replikovat.
 ## Předpoklady
 Než se pustíte do výukového programu, ujistěte se, že máte splněny následující předpoklady:
 1. Vývojové prostředí: Měli byste mít nastavené vývojové prostředí .NET. Může to být Visual Studio nebo jakékoli jiné preferované IDE, které podporuje vývoj .NET.

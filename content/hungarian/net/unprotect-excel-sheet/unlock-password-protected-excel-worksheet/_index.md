@@ -128,7 +128,7 @@ Ez a fogási blokk megjeleníti az esetlegesen felmerülő hibákat, így könny
 
 ## Következtetés
 
-És megvan! Sikeresen feloldott egy jelszóval védett Excel-munkalapot az Aspose.Cells for .NET segítségével. Csak néhány sornyi kóddal újra hozzáférhet létfontosságú adataihoz. Az erő és a rugalmasság kéznél van ezzel a nagyszerű könyvtárral. Az Aspose.Cells nemcsak egy hatékony eszköz, hanem elengedhetetlen eszköz, amely tökéletes azoknak a fejlesztőknek, akik szeretnék egyszerűsíteni a Microsoft Excel-interakciót.
+És megvan! Sikeresen feloldott egy jelszóval védett Excel-munkalapot az Aspose.Cells for .NET segítségével. Csak néhány sornyi kóddal újra hozzáférhet létfontosságú adataihoz. Az erő és a rugalmasság kéznél van ezzel a nagyszerű könyvtárral. Az Aspose.Cells nem csupán egy hatékony eszköz, hanem elengedhetetlen eszköz a Microsoft Excel interakcióját egyszerűsíteni kívánó fejlesztők számára.
 
 ## GYIK
 

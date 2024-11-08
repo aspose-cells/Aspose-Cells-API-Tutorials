@@ -14,7 +14,7 @@ url: /zh-hant/net/excel-shapes-controls/add-scroll-bar-to-worksheet-excel/
 - Visual Studio：確保您的系統上安裝了可以正常運作的 Visual Studio。
 - .NET Framework：熟悉 C# 和 .NET 架構將會很有幫助。
 -  Aspose.Cells 庫：您可以從以下位置下載最新版本的 Aspose.Cells 庫：[這個連結](https://releases.aspose.com/cells/net/).
-- 基本 Excel 知識：了解 Excel 的工作原理以及在何處應用變更將幫助您直觀地了解正在實施的內容。
+- Excel 基礎：了解 Excel 的工作原理以及在何處應用變更將幫助您直觀地了解正在實施的內容。
 - 臨時許可證（可選）：您可以使用可用的臨時許可證來嘗試 Aspose.Cells[這裡](https://purchase.aspose.com/temporary-license/).
 現在我們已經滿足了先決條件，讓我們繼續匯入必要的套件並編寫程式碼來新增捲軸。
 ## 導入包

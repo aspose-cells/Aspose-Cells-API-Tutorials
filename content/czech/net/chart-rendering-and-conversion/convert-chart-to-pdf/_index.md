@@ -81,7 +81,7 @@ string sourceDir = "Your Document Directory";
 
 ## Krok 2: Načtěte sešit aplikace Excel
 
-Nyní načteme soubor Excel, který obsahuje grafy, které chcete převést. Tohle je docela jednoduché:
+Nyní načteme soubor Excel, který obsahuje grafy, které chcete převést. Toto je docela jednoduché:
 
 ```csharp
 // Načtěte excelový soubor obsahující grafy

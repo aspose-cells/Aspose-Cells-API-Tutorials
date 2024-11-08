@@ -13,7 +13,7 @@ V dnešní digitální době je převod tabulek Excelu na dokumenty PDF běžný
 Než se vrhneme na to, co se dá, ujistíme se, že máte vše, co potřebujete, abyste se mohli rozjet. Zde je rychlý kontrolní seznam:
 1. Visual Studio nebo jakékoli IDE kompatibilní s .NET: Budete chtít prostředí pro psaní a testování kódu.
 2.  Aspose.Cells for .NET: Pokud jste jej ještě nenainstalovali, přejděte na[Aspose ke stažení](https://releases.aspose.com/cells/net/) stránku a stáhněte si nejnovější verzi.
-3. Základní znalost C#: Užitečná bude znalost programovacího jazyka C#. Pokud si nejste jisti některými pojmy, neváhejte si je vyhledat.
+3. Základní znalost C#: Užitečná bude znalost programovacího jazyka C#. Pokud si nejste jisti nějakými pojmy, neváhejte si je vyhledat.
 4. Ukázkový soubor Excel: Připravte soubor Excel s jakýmikoli externími zdroji, které chcete převést. Můžete použít poskytnutý ukázkový soubor "samplePdfSaveOptions_StreamProvider.xlsx".
 5. Soubor obrázku pro testování: Tento soubor bude použit jako externí zdroj během převodu. Soubor obrázku „newPdfSaveOptions_StreamProvider.png“ je dobrým zástupným symbolem.
 ## Importujte balíčky

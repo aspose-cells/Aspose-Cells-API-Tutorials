@@ -28,3 +28,39 @@ Dalam panduan ini, Anda akan mempelajari cara meningkatkan daya tarik visual dat
 Ekstrak dan kelola hyperlink dari file Excel dengan mudah menggunakan Aspose.Cells untuk .NET. Panduan langkah demi langkah dan contoh kode disertakan.
 ### [Mengatur Preferensi Gambar untuk HTML di .NET](./setting-image-preferences-for-html/)
 Manfaatkan kekuatan Aspose.Cells untuk .NET. Pelajari cara mengatur preferensi gambar untuk konversi HTML guna menyajikan data Excel Anda dengan indah di web.
+### [Tambahkan Komentar Berulir di Lembar Kerja](./add-threaded-comments/)
+Pelajari cara menambahkan komentar berulir di lembar kerja Excel menggunakan Aspose.Cells for .NET dengan tutorial langkah demi langkah ini. Tingkatkan kolaborasi dengan mudah.
+### [Hitung Jumlah Sel di Lembar Kerja](./count-cells/)
+Manfaatkan kekuatan Aspose.Cells untuk .NET. Pelajari cara menghitung sel dalam lembar kerja Excel dengan panduan langkah demi langkah ini.
+### [Potong dan Tempel Sel dalam Lembar Kerja](./cut-and-paste-cells/)
+Pelajari cara memotong dan menempel sel di Excel menggunakan Aspose.Cells untuk .NET dengan tutorial langkah demi langkah yang sederhana ini.
+### [Deteksi Lembar Makro Internasional di Buku Kerja](./detect-international-macro-sheet/)
+Temukan cara mendeteksi lembar makro internasional di Excel menggunakan Aspose.Cells untuk .NET dengan panduan langkah demi langkah yang terperinci ini. Sempurna untuk pengembang.
+### [Edit Komentar Berulir di Lembar Kerja](./edit-threaded-comments/)
+Buka keajaiban mengedit komentar berulir di Excel menggunakan Aspose.Cells untuk .NET! Ikuti panduan langkah demi langkah kami dan kuasai dokumen Anda dengan mudah.
+### [Periksa apakah Lembar Kerja adalah Lembar Dialog](./check-dialog-sheet/)
+Pelajari cara memeriksa apakah lembar kerja adalah lembar dialog menggunakan Aspose.Cells untuk .NET dengan tutorial langkah demi langkah ini.
+### [Dapatkan Validasi Sel dalam File ODS](./get-cell-validation-ods/)
+Pelajari cara mengambil validasi sel dalam file ODS menggunakan Aspose.Cells untuk .NET. Panduan langkah demi langkah untuk pengembang.
+### [Dapatkan Jangkauan dengan Tautan Eksternal di Lembar Kerja](./get-range-with-external-links/)
+Pelajari cara mendapatkan rentang dengan tautan eksternal secara efisien di lembar kerja Excel menggunakan Aspose.Cells untuk .NET dalam tutorial langkah demi langkah yang komprehensif ini.
+### [Dapatkan ID Unik Lembar Kerja](./get-worksheet-id/)
+Pelajari cara mendapatkan ID unik lembar kerja menggunakan Aspose.Cells untuk .NET dengan panduan langkah demi langkah ini. Kelola lembar kerja Anda dengan lebih efisien.
+### [Cetak Lembar dengan Pengaturan Tambahan](./print-sheet-with-settings/)
+Pelajari cara mencetak lembar Excel dengan mudah dengan Aspose.Cells untuk .NET dalam panduan langkah demi langkah terperinci ini.
+### [Baca Gambar Latar Belakang ODS](./read-ods-background/)
+Pelajari cara membaca gambar latar ODS menggunakan Aspose.Cells untuk .NET dengan tutorial langkah demi langkah yang komprehensif ini. Sempurna untuk pengembang dan penggemar.
+### [Baca Waktu Pembuatan Komentar Berulir di Lembar Kerja](./read-threaded-comment-created-time/)
+Pelajari cara membaca waktu pembuatan komentar berulir di Excel menggunakan Aspose.Cells for .NET. Panduan langkah demi langkah dengan contoh kode disertakan.
+### [Baca Komentar Berulir di Lembar Kerja](./read-threaded-comments/)
+Manfaatkan kekuatan membaca komentar berulir di Excel dengan Aspose.Cells untuk .NET. Pelajari panduan langkah demi langkah ini untuk penanganan dokumen yang mudah.
+### [Hapus Komentar Berulir dari Lembar Kerja](./remove-threaded-comments/)
+Hapus komentar berulir dari lembar kerja Excel dengan mudah menggunakan Aspose.Cells for .NET dengan panduan langkah demi langkah ini. Sederhanakan pengelolaan Excel Anda.
+### [Mengatur Latar Belakang Berwarna di File ODS](./set-ods-colored-background/)
+Pelajari cara mengatur latar belakang berwarna dalam file ODS menggunakan Aspose.Cells untuk .NET, dengan tutorial dan kiat langkah demi langkah.
+### [Mengatur Latar Belakang Grafis di File ODS](./set-ods-graphic-background/)
+Pelajari cara mengatur latar belakang grafis dalam file ODS menggunakan Aspose.Cells untuk .NET dengan panduan langkah demi langkah yang komprehensif ini.
+### [Perbarui Riwayat Log Revisi di Buku Kerja Bersama](./update-revision-log-history/)
+Pelajari cara memperbarui riwayat log revisi dalam buku kerja bersama menggunakan Aspose.Cells untuk .NET. Sederhanakan kolaborasi dan pertahankan catatan dokumen yang jelas.
+### [Memanfaatkan Properti Sheet_SheetId dari OpenXml di Lembar Kerja](./utilize-sheet-sheetid-property/)
+Manfaatkan kekuatan Excel dengan Aspose.Cells untuk .NET. Pelajari cara memanipulasi ID Sheet secara efektif dengan panduan langkah demi langkah kami.

@@ -127,7 +127,7 @@ range1[0, 4].PutValue(123);
 
 Dans cette étape, nous avons placé le mot « Test » dans la cellule E12 et le nombre 123 dans la cellule I12.
 
-## Étape 8 : Création d'une autre plage nommée
+## Étape 8 : Création d’une autre plage nommée
 
 Pour illustrer davantage notre propos, nous allons créer une autre plage nommée similaire à la première.
 

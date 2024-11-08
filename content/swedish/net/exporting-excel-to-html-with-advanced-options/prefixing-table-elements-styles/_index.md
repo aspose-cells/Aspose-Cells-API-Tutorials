@@ -64,7 +64,7 @@ cell.SetStyle(st); // Använd den nya stilen på cellen
 ```
 Ett litet stilistiskt val räcker långt, va? Dina data är nu mer tilltalande för ögat.
 ## Steg 6: Ange HTML-sparalternativ
-Här händer magin. Du kan definiera alternativ för att spara arbetsboken i HTML, till exempel att lägga till ett CSS-ID i tabellen.
+Det är här magin händer. Du kan definiera alternativ för att spara arbetsboken i HTML, till exempel att lägga till ett CSS-ID i tabellen.
 ```csharp
 //Ange html-sparalternativ - ange tabell css-id
 HtmlSaveOptions opts = new HtmlSaveOptions(); // Skapa alternativ för vår HTML-spara

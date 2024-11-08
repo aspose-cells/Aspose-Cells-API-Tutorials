@@ -46,7 +46,7 @@ string dataDir = "Your Document Directory"; // Aktualisieren Sie diesen Pfad
 Workbook wb = new Workbook(dataDir + "sampleTrimBlankColumns.xlsx");
 ```
  Hier setzen wir die`dataDir` Variable, die auf das Verzeichnis verweist, das Ihre Excel-Beispieldatei enthält. Wir erstellen eine Instanz der`Workbook` Klasse, wobei Sie den Dateipfad Ihrer`.xlsx` Datei. Dadurch können wir die Arbeitsmappe nach Bedarf bearbeiten.
-## Schritt 2: Speichern ohne Zuschneiden
+## Schritt 2: Speichern ohne Trimmen
 Bevor wir irgendwelche Trimmoptionen anwenden, speichern wir die Arbeitsmappe im CSV-Format, um zunächst zu sehen, wie sie aussieht.
 ```csharp
 // Im CSV-Format speichern

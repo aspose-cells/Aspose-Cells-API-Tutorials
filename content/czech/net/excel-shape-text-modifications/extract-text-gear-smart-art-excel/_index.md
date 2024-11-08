@@ -37,7 +37,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 ```
-Nyní si rozeberme kód, který použijete k extrahování textu. Uděláme to krok za krokem.
+Nyní si rozeberme kód, který použijete k extrahování textu. Budeme to dělat krok za krokem.
 ## Krok 1: Nastavte zdrojový adresář
 Začněte definováním adresáře, kde se nachází váš soubor Excel:
 ```csharp

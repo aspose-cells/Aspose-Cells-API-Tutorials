@@ -102,7 +102,7 @@ sheets.AddCopy("Sheet1");
 wb.Save(dataDir + "CopyWithinWorkbook_out.xls");
 ```
 
-- の`Save`メソッドは更新されたワークブックを新しいファイルに書き込みます（`CopyWithinWorkbook_out.xls`出力ファイルには任意の名前を選択できますが、適切な形式で保存することを忘れないでください（例：`.xls`, `.xlsx`）。
+- の`Save`メソッドは更新されたワークブックを新しいファイルに書き込みます（`CopyWithinWorkbook_out.xls`出力ファイルには任意の名前をつけることができますが、適切な形式で保存することを忘れないでください（例：`.xls`, `.xlsx`）。
 
 これで完了です。Excel ファイル内でワークシートが正常に複製されました。
 

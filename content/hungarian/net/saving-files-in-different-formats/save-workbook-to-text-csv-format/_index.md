@@ -29,7 +29,7 @@ Folyamatunk első lépéseként meghatározzuk, hogy hol tároljuk a dokumentuma
 // A dokumentumok könyvtárának elérési útja.
 string dataDir = "Your Document Directory";
 ```
- Ügyeljen arra, hogy cserélje ki`"Your Document Directory"` a tényleges elérési úttal, ahol a "book1.xls" fájl található. Ez lehet egy könyvtár a számítógépen, vagy egy kiszolgáló elérési útja.
+ Mindenképpen cserélje ki`"Your Document Directory"` a tényleges elérési úttal, ahol a "book1.xls" fájl található. Ez lehet egy könyvtár a számítógépen, vagy egy kiszolgáló elérési útja.
 ## 2. lépés: Töltse be a forrásmunkafüzetet
 Ezután be kell töltenünk az Excel-munkafüzetet, amelyet CSV formátumba konvertálunk.
 ```csharp
@@ -67,7 +67,7 @@ for (int idx = 0; idx < workbook.Worksheets.Count; idx++)
 ## 6. lépés: A munkalap adatainak lekérése
  Miután elmentett egy munkalapot a memóriafolyamba, a következő lépés az adatok lekérése és hozzáfűzése a`workbookData` sor.
 ```csharp
-    // Mentse a munkalap adatait egy adattömbbe
+    // Mentse el a munkalap adatait egy adattömbbe
     ms.Position = 0; // A memóriafolyam pozíciójának visszaállítása
     byte[] sheetData = ms.ToArray(); // Szerezd meg a bájttömböt
 ```

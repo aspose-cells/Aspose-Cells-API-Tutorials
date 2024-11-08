@@ -13,7 +13,7 @@ url: /zh-hant/net/saving-files-in-different-formats/save-file-in-html-format/
 在開始之前，必須做好一些準備工作才能確保順利進行：
 1. Visual Studio：要有效地使用 Aspose.Cells for .NET，您需要在電腦上安裝 Visual Studio。如果您還沒有，可以從 Microsoft 網站下載。
 2.  Aspose.Cells for .NET 函式庫：您需要擁有此函式庫。好消息是它可以輕鬆下載[Aspose 細胞下載](https://releases.aspose.com/cells/net/).
-3. 對 C# 的基本了解：由於您將使用 C# 進行編碼，因此對該語言的基本了解將幫助您順利進行操作，而不會感到迷失。
+3. 對 C# 的基本了解：由於您將使用 C# 進行編碼，因此對該語言的基本了解將幫助您繼續學習，而不會感到迷失。
 4. .NET Framework/CORE：熟悉 .NET Framework 或 .NET Core 者優先，因為該程式庫旨在與這些框架配合使用。
 你已經擁有一切了嗎？極好的！讓我們直接開始行動。
 ## 導入所需的套件

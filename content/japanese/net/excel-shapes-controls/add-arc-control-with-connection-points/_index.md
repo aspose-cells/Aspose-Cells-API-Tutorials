@@ -81,7 +81,7 @@ arc2.Line.SolidFill.Color = Color.Blue;
 ```
 私たちは青色で一貫していますが、いつでも組み合わせて、デザインに最適なものを探すことができます。
 ### 最初の円弧と同様のプロパティを設定する
-次のような美的選択を必ず再現してください。
+以下の美的選択を必ず再現してください。
 ```csharp
 arc2.Placement = PlacementType.FreeFloating;
 arc2.Line.Weight = 1;           

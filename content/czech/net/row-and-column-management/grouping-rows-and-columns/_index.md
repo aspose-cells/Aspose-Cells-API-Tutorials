@@ -86,7 +86,7 @@ fstream.Close();
 ```
 A je to! Nyní jste seskupili řádky a sloupce v souboru aplikace Excel pomocí Aspose.Cells for .NET.
 ## Závěr
-Seskupování řádků a sloupců v Excelu pomocí Aspose.Cells for .NET je přímočarý proces, díky kterému budou vaše tabulky mnohem uživatelsky přívětivější a přehlednější. Pomocí několika řádků kódu jste zvládli výkonnou funkci, která by při ručním provádění v Excelu vyžadovala více kroků. Navíc můžete tento proces automatizovat pro mnoho souborů, čímž ušetříte čas a snížíte počet chyb. Tato příručka vám ukázala všechny kroky, které potřebujete, abyste mohli programově ovládat své soubory Excel.
+Seskupování řádků a sloupců v Excelu pomocí Aspose.Cells for .NET je přímočarý proces, díky kterému budou vaše tabulky uživatelsky přívětivější a přehlednější. Pomocí několika řádků kódu jste zvládli výkonnou funkci, která by při ručním provádění v Excelu vyžadovala více kroků. Navíc můžete tento proces automatizovat pro mnoho souborů, čímž ušetříte čas a snížíte počet chyb. Tato příručka vám ukázala všechny kroky, které potřebujete, abyste mohli programově ovládat své soubory Excel.
 ## FAQ
 ### Mohu seskupit řádky a sloupce, aniž bych je skryl?  
  Ano! Jednoduše projít`false` jako třetí parametr v`GroupRows` nebo`GroupColumns` metoda.

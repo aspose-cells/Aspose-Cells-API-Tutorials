@@ -58,7 +58,7 @@ Nakonec po provedení všech těchto změn je čas upravený sešit uložit. Ten
 // Uložení upraveného souboru Excel
 workbook.Save(dataDir + "output.xls");
 ```
-- `Save` : Tato metoda uloží sešit do zadané cesty. Ukládáme jako`output.xls`, ale můžete si to pojmenovat, jak chcete.
+- `Save` : Tato metoda uloží sešit do zadané cesty. Ukládáme jako`output.xls`, ale můžete si to pojmenovat jak chcete.
 ## Závěr
 A tady to máte! Právě jste vytvořili souhrnný řádek pod seskupenými řádky v listu aplikace Excel pomocí Aspose.Cells for .NET. Tato výkonná knihovna velmi usnadňuje programovou manipulaci se soubory aplikace Excel, což vám ušetří spoustu času a úsilí. Tato technika se vám může hodit, ať už spravujete data pro podnikání nebo se jen snažíte mít pořádek ve svých osobních tabulkách.
 ## FAQ

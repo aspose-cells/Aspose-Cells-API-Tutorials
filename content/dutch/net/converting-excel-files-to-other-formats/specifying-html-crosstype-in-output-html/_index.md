@@ -84,6 +84,6 @@ HtmlCrossType definieert hoe kruisverwijzingen in het Excel-bestand worden verwe
 ### Hoe installeer ik Aspose.Cells in mijn .NET-project?  
  U kunt Aspose.Cells installeren via NuGet Package Manager in Visual Studio door de volgende opdracht uit te voeren:`Install-Package Aspose.Cells`.
 ### Waar kan ik de documentatie voor Aspose.Cells vinden?  
- U kunt uitgebreide documentatie vinden op Aspose.Cells[hier](https://reference.aspose.com/cells/net/).
+ Uitgebreide documentatie vindt u op Aspose.Cells[hier](https://reference.aspose.com/cells/net/).
 ### Wat moet ik doen als er een fout optreedt bij het opslaan van het HTML-bestand?  
 Zorg ervoor dat de directorypaden correct zijn en dat u schrijfrechten hebt voor de uitvoerdirectory. Als het probleem zich blijft voordoen, controleer dan het Aspose-ondersteuningsforum voor hulp.

@@ -41,7 +41,7 @@ Először is meg kell adnia a dokumentumkönyvtár elérési útját, ahol az Ex
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Ügyeljen arra, hogy cserélje ki`"YOUR DOCUMENT DIRECTORY"` a számítógépen lévő tényleges elérési úttal. Valami ilyesmi lehet`@"C:\MyExcelFiles\"`.
+ Mindenképpen cserélje ki`"YOUR DOCUMENT DIRECTORY"` a számítógépen lévő tényleges elérési úttal. Valami ilyesmi lehet`@"C:\MyExcelFiles\"`.
 
 ## 2. lépés: Töltse be a munkafüzetet
 

@@ -1,6 +1,6 @@
 ---
-title: Použití ohraničení na rozsah buněk v Excelu
-linktitle: Použití ohraničení na rozsah buněk v Excelu
+title: Použití ohraničení na rozsah buněk v aplikaci Excel
+linktitle: Použití ohraničení na rozsah buněk v aplikaci Excel
 second_title: Aspose.Cells .NET Excel Processing API
 description: Naučte se, jak aplikovat ohraničení na buňky v Excelu pomocí Aspose.Cells for .NET. Postupujte podle našeho podrobného návodu krok za krokem.
 type: docs

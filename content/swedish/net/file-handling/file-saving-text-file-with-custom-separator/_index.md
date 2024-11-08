@@ -76,6 +76,6 @@ Du kan använda vilket tecken som helst som avgränsare inklusive kommatecken, s
 ### Kan jag öppna och redigera befintliga Excel-filer med Aspose.Cells?
 Ja! Du kan skapa, ändra och spara befintliga Excel-filer med Aspose.Cells-biblioteket.
 ### Vad händer om jag stöter på ett fel när jag sparar?
-Kontrollera dina filsökvägar och se till att dina Excel-filer inte är öppna i ett annat program. Om problemen kvarstår kan du söka hjälp med[Aspose supportforum](https://forum.aspose.com/c/cells/9).
+Kontrollera dina filsökvägar och se till att dina Excel-filer inte är öppna i ett annat program. Om problemen kvarstår kan du söka hjälp på[Aspose supportforum](https://forum.aspose.com/c/cells/9).
 ### Kan jag spara i andra format än CSV?
 Absolut! Aspose.Cells stöder olika format inklusive XLSX, XLS och till och med PDF. Du behöver bara ändra filtillägget i enlighet med detta när du sparar.

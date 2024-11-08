@@ -106,7 +106,7 @@ workbook.save("InteractiveDashboard.xlsx");
 
 ### 我可以將外部來源的資料整合到我的儀表板中嗎？
 
-是的，Aspose.Cells for Java 可讓您從各種來源匯入數據，包括資料庫和外部文件，並將其合併到您的儀表板中。
+是的，Aspose.Cells for Java 可讓您從各種來源（包括資料庫和外部檔案）匯入數據，並將其合併到儀表板中。
 
 ### 我可以添加的交互元素的數量有限制嗎？
 

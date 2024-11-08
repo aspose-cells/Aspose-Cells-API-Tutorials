@@ -9,7 +9,7 @@ url: /pl/net/excel-workbook/allow-leading-apostrophe/
 ---
 ## Wstęp
 
-Witamy w tym przewodniku krok po kroku, jak używać Aspose.Cells dla .NET do bezproblemowego zarządzania arkuszami kalkulacyjnymi, ze szczególnym uwzględnieniem obsługi apostrofów wiodących w wartościach komórek. Umiejętność efektywnego zarządzania danymi jest kluczowa w dzisiejszym świecie skoncentrowanym na danych. Czy zauważyłeś kiedyś, że Excel czasami może traktować wartości tekstowe zaczynające się od apostrofu inaczej? Może to prowadzić do nieoczekiwanych rezultatów, jeśli automatyzujesz zadania programu Excel za pomocą kodu .NET. Nie obawiaj się! Ten samouczek pomoże Ci się przez to poruszać. 
+Witamy w tym przewodniku krok po kroku, jak używać Aspose.Cells dla .NET do bezproblemowego zarządzania arkuszami kalkulacyjnymi, ze szczególnym uwzględnieniem obsługi wiodących apostrofów w wartościach komórek. Umiejętność efektywnego zarządzania danymi jest kluczowa w dzisiejszym świecie skoncentrowanym na danych. Czy zauważyłeś kiedyś, że Excel czasami może traktować wartości tekstowe zaczynające się od apostrofu inaczej? Może to prowadzić do nieoczekiwanych rezultatów, jeśli automatyzujesz zadania programu Excel za pomocą kodu .NET. Nie obawiaj się! Ten samouczek pomoże Ci się przez to poruszać. 
 
 ## Wymagania wstępne
 

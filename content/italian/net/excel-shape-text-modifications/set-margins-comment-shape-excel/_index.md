@@ -44,7 +44,7 @@ Prima di fare qualsiasi cosa con il file Excel, dobbiamo stabilire dove si trova
 ```csharp
 //Elenco di origine
 string sourceDir = "Your Document Directory";
-//Directory di uscita
+//Directory di output
 string outputDir = "Your Document Directory";
 ```
 Assicurati di sostituire`"Your Document Directory"` con il percorso effettivo in cui sono archiviati i tuoi file.

@@ -62,7 +62,7 @@ Console.WriteLine("File data imported successfully!");
 ```
 如果一切按计划进行，您应该在控制台中看到此消息，确认您的文件已加载并且您已准备好执行下一步！
 ## 结论
-就这样！您刚刚学会了如何使用 Aspose.Cells for .NET 打开 Excel 文件并仅提取必要数据。现在，您可以操作这些数据丰富的 Excel 文件，而无需担心无关元素会妨碍您。这可以节省您的时间并显著简化您的项目。
+就这样！您刚刚学会了如何使用 Aspose.Cells for .NET 打开 Excel 文件并仅提取必要数据。现在，您可以操作这些数据丰富的 Excel 文件，而不必担心无关元素会妨碍您。这可以节省您的时间并显著简化您的项目。
 如果您还有其他问题或需要帮助，请随时浏览广泛的[文档](https://reference.aspose.com/cells/net/)或者查看 Aspose 的论坛以获得社区支持。请记住，编程之旅是持续的，您迈出的每一步都是宝贵的经验。
 ## 常见问题解答
 ### 什么是 Aspose.Cells？

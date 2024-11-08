@@ -1,5 +1,5 @@
 ---
-title: Excel Worksheet C# Tutoriály
+title: Výukové programy Excel Worksheet C#
 linktitle: Pracovní list aplikace Excel
 type: docs
 weight: 12
@@ -16,7 +16,7 @@ Jste připraveni pozvednout svou excelovou hru pomocí Aspose.Cells pro .NET? A�
 
 ## Mazání pracovních listů bez problémů
 
- Stalo se vám někdy, že jste omylem vytvořili tucet pracovních listů, abyste si uvědomili, že potřebujete svůj sešit zefektivnit? Žádný strach! Náš[Výukový program Odstranit pracovní list aplikace Excel podle indexu C#](./delete-excel-worksheet-by-index-csharp-tutorial/) a[Výukový program C# Odstranit pracovní list aplikace Excel podle názvu](./delete-excel-worksheet-by-name-csharp-tutorial/) jsou tady, aby zachránili situaci. Vysvětlíme vám, jak bez námahy odstranit jakýkoli list podle rejstříku nebo názvu, takže správa sešitu bude hračkou. Kdo věděl, že smazání může být tak uspokojivé?
+ Stalo se vám někdy, že jste omylem vytvořili tucet pracovních listů, abyste si uvědomili, že potřebujete svůj sešit zefektivnit? Žádný strach! Náš[Výukový program Odstranit pracovní list aplikace Excel podle indexu C#](./delete-excel-worksheet-by-index-csharp-tutorial/) a[Smazat pracovní list aplikace Excel podle názvu C# Tutorial](./delete-excel-worksheet-by-name-csharp-tutorial/) jsou tady, aby zachránili situaci. Vysvětlíme vám, jak bez námahy odstranit jakýkoli list podle rejstříku nebo názvu, takže správa sešitu bude hračkou. Kdo věděl, že smazání může být tak uspokojivé?
 
 ## Přístup k pracovním listům jako profesionál
 
@@ -28,5 +28,5 @@ Jste připraveni pozvednout svou excelovou hru pomocí Aspose.Cells pro .NET? A�
 | [Přidat pracovní list aplikace Excel do existujícího sešitu C# Tutoriál](./add-excel-worksheet-to-existing-workbook-csharp-tutorial/) | Naučte se, jak přidat excelový list do existujícího sešitu pomocí Aspose.Cells for .NET v tomto podrobném, podrobném tutoriálu. |  
 | [Přidat nový list ve výukovém programu Excel C#](./add-new-sheet-in-excel-csharp-tutorial/) | Naučte se, jak přidat nový list v Excelu pomocí C# s Aspose.Cells. Tento tutoriál rozděluje proces do jednoduchých kroků. |  
 | [Výukový program Odstranit pracovní list aplikace Excel podle indexu C#](./delete-excel-worksheet-by-index-csharp-tutorial/) | Přečtěte si, jak odstranit list Excelu podle indexu v C# pomocí Aspose.Cells. Chcete-li si zjednodušit správu sešitu, postupujte podle tohoto jednoduchého návodu krok za krokem. |  
-| [Výukový program C# Odstranit pracovní list aplikace Excel podle názvu](./delete-excel-worksheet-by-name-csharp-tutorial/) | Přečtěte si, jak odstranit listy Excelu podle názvu pomocí C#. Tento návod pro začátečníky vás provede krok za krokem s Aspose.Cells pro .NET. |  
+| [Smazat pracovní list aplikace Excel podle názvu C# Tutorial](./delete-excel-worksheet-by-name-csharp-tutorial/) | Přečtěte si, jak odstranit listy Excelu podle názvu pomocí C#. Tento návod pro začátečníky vás provede krok za krokem s Aspose.Cells pro .NET. |  
 | [Získejte výukový program Excel Worksheet By Name C#](./get-excel-worksheet-by-name-csharp-tutorial/) | Získejte přístup k pracovním listům Excelu podle názvu v C# s podrobnými pokyny pomocí Aspose.Cells pro .NET pro lepší efektivitu kódu. |  

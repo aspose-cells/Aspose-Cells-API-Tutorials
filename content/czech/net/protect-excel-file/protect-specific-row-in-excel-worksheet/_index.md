@@ -2,7 +2,7 @@
 title: Chránit konkrétní řádek v listu aplikace Excel
 linktitle: Chránit konkrétní řádek v listu aplikace Excel
 second_title: Aspose.Cells for .NET API Reference
-description: Naučte se chránit konkrétní řádky v listech aplikace Excel pomocí Aspose.Cells for .NET. Průvodce krok za krokem přizpůsobený vývojářům.
+description: Naučte se chránit konkrétní řádky v listech aplikace Excel pomocí Aspose.Cells for .NET. Průvodce krok za krokem šitý na míru vývojářům.
 type: docs
 weight: 90
 url: /cs/net/protect-excel-file/protect-specific-row-in-excel-worksheet/

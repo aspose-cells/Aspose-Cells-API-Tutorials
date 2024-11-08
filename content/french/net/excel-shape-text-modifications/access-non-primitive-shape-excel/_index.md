@@ -8,7 +8,7 @@ weight: 19
 url: /fr/net/excel-shape-text-modifications/access-non-primitive-shape-excel/
 ---
 ## Introduction
-Avez-vous déjà rencontré une forme non primitive dans un fichier Excel et vous êtes-vous demandé comment accéder aux détails complexes qui l'accompagnent ? Si vous êtes un développeur travaillant avec .NET et que vous cherchez à manipuler des feuilles Excel, vous êtes au bon endroit ! Dans cet article, nous allons découvrir comment accéder et manipuler efficacement des formes non primitives dans Excel à l'aide de la bibliothèque Aspose.Cells. Nous vous guiderons à travers un guide complet étape par étape qui décompose le processus, le rendant facile même si vous êtes nouveau sur la plateforme. Alors, installez-vous confortablement et plongeons dans le monde fascinant d'Aspose.Cells !
+Avez-vous déjà rencontré une forme non primitive dans un fichier Excel et vous êtes-vous demandé comment accéder aux détails complexes qui l'accompagnent ? Si vous êtes un développeur travaillant avec .NET et que vous cherchez à manipuler des feuilles Excel, vous êtes au bon endroit ! Dans cet article, nous allons découvrir comment accéder et manipuler efficacement des formes non primitives dans Excel à l'aide de la bibliothèque Aspose.Cells. Nous vous présenterons un guide complet étape par étape qui décompose le processus, le rendant facile même si vous êtes nouveau sur la plateforme. Alors, installez-vous confortablement et plongeons dans le monde fascinant d'Aspose.Cells !
 ## Prérequis
 Avant de passer au code, vous devez remplir quelques conditions préalables :
 1. Connaissances de base de C# : La familiarité avec le langage de programmation C# est essentielle pour suivre en douceur.

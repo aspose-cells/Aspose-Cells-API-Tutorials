@@ -28,7 +28,7 @@ Aby efektywnie pracować z Aspose.Cells, musisz zaimportować wymagane przestrze
 
 ### Utwórz swój plik C#
 
- Otwórz swoje IDE (zalecane jest Visual Studio) i utwórz nowy projekt C#. Nazwij go w odpowiedni sposób, np.`ExcelDataImport`.
+ Otwórz IDE (zalecane jest Visual Studio) i utwórz nowy projekt C#. Nazwij go w odpowiedni sposób, np.`ExcelDataImport`.
 
 ### Odwołanie Aspose.Cells
 

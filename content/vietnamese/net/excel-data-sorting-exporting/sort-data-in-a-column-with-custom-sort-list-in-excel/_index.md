@@ -132,7 +132,7 @@ Có! Bạn có thể thêm các khóa bổ sung để sắp xếp theo nhiều c
 Mặc dù hữu ích, bạn có thể làm theo hướng dẫn này và học trong quá trình học! Có một số hiểu biết cơ bản về C# sẽ nâng cao trải nghiệm học tập của bạn.
 
 ### Có thể sử dụng giấy phép tạm thời cho Aspose.Cells không?
-Chắc chắn rồi! Bạn có thể mua giấy phép tạm thời nếu muốn kiểm tra đầy đủ các tính năng của thư viện mà không bị hạn chế.
+Chắc chắn rồi! Bạn có thể mua giấy phép tạm thời nếu muốn dùng thử toàn bộ tính năng của thư viện mà không bị hạn chế.
 
 ### Tôi có thể tải xuống ví dụ hoặc tài liệu về Aspose.Cells không?
  Có! Aspose cung cấp tài liệu mở rộng và các dự án mẫu có thể hỗ trợ bạn rất nhiều. Hãy xem[Tài liệu Aspose.Cells](https://reference.aspose.com/cells/net/).

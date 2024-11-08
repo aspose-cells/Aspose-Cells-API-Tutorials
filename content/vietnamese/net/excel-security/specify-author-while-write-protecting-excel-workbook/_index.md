@@ -56,7 +56,7 @@ Bây giờ chúng ta đã thiết lập xong các thư mục, bước tiếp the
 Workbook wb = new Workbook();
 ```
 
-Giống như một nghệ sĩ bắt đầu với một tờ giấy trắng, bạn cũng bắt đầu với một bảng tính trống, nơi bạn có thể thêm dữ liệu hoặc định dạng sau đó.
+Giống như một nghệ sĩ bắt đầu với một tấm vải trắng, bạn cũng bắt đầu với một bảng tính trống, nơi bạn có thể thêm dữ liệu hoặc định dạng sau đó.
 
 ## Bước 3: Viết Bảo vệ Sổ làm việc
 

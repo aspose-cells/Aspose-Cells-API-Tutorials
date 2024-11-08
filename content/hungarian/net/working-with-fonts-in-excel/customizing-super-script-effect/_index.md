@@ -25,7 +25,7 @@ Megvan az egész? Nagy! Térjünk le a lényegre.
 ## Csomagok importálása
 Az Aspose.Cells használata előtt importálnia kell a projektbe. A következőképpen teheti meg:
 1. Nyissa meg a Visual Studio projektet.
-2. Kattintson a jobb gombbal a References elemre a Solution Explorerben.
+2. Kattintson jobb gombbal a References elemre a Solution Explorerben.
 3. Válassza a NuGet-csomagok kezelése lehetőséget.
 4.  Keressen rá`Aspose.Cells` és kattintson a Telepítés gombra. 
 ```csharp
@@ -84,7 +84,7 @@ Végül itt az ideje, hogy mentse a munkáját, és létrehozza azt az Excel-fá
 // Az Excel fájl mentése
 workbook.Save(outputDir + "outputSettingSuperscripteffect.xlsx");
 ```
- Ügyeljen arra, hogy cserélje ki`outputDir` a korábban megadott útvonallal. 
+ Mindenképpen cserélje ki`outputDir` a korábban megadott útvonallal. 
 ## 8. lépés: Megerősítő üzenet
 Az extra érintés érdekében figyelmeztetheti magát, hogy a művelet sikeres volt.
 ```csharp

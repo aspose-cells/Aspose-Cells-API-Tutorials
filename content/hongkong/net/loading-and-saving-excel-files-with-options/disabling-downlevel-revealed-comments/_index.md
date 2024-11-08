@@ -15,7 +15,7 @@ url: /zh-hant/net/loading-and-saving-excel-files-with-options/disabling-downleve
 1. Aspose.Cells for .NET：您需要安裝 Aspose.Cells 函式庫。如果您還沒有安裝，可以下載[這裡](https://releases.aspose.com/cells/net/).
 2. IDE：類似 Visual Studio 的開發環境，用於編寫和執行 C# 程式碼。
 3. C# 基礎知識：熟悉 C# 語法和物件導向程式設計將有助於您理解程式碼。
-4. 臨時或許可版本：您可以使用免費試用版或從以下位置申請臨時許可證[這裡](https://purchase.aspose.com/temporary-license/)。這確保了庫的運行不受任何限制。
+4. 臨時或許可版本：您可以使用免費試用版或從以下位置申請臨時許可證[這裡](https://purchase.aspose.com/temporary-license/)。這確保了庫的運行沒有任何限制。
 現在您已經準備好了，讓我們立即開始吧！
 ## 導入命名空間
 在我們進入程式碼範例之前，必須包含 Aspose.Cells 所需的命名空間。如果沒有這些，您的程式碼將無法存取操作 Excel 檔案所需的方法和屬性。

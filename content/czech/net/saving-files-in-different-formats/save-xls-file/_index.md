@@ -53,7 +53,7 @@ Dále načtete nebo vytvoříte svůj sešit.
 ```csharp
 Workbook workbook = new Workbook();
 ```
-Tím se v paměti vytvoří nový soubor aplikace Excel. Berte to jako získání prázdného plátna, na kterém můžete pracovat.
+Tím se v paměti vytvoří nový soubor Excel. Berte to jako získání prázdného plátna, na kterém můžete pracovat.
 ## Krok 3: Zpracování odpovědi HTTP (volitelné)
 Pokud vaše aplikace zahrnuje zpracování požadavků HTTP (například ve webové aplikaci), možná budete muset zahrnout kód pro uložení sešitu do streamu odpovědí HTTP.
 1.  Zkontrolujte, zda vaše`HttpResponse` objekt není null:

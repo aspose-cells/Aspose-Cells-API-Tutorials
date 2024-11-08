@@ -1,8 +1,8 @@
 ---
-title: Реализуйте переменный массив с помощью интеллектуальных маркеров Aspose.Cells
-linktitle: Реализуйте переменный массив с помощью интеллектуальных маркеров Aspose.Cells
+title: Реализация массива переменных с помощью интеллектуальных маркеров Aspose.Cells
+linktitle: Реализация массива переменных с помощью интеллектуальных маркеров Aspose.Cells
 second_title: API обработки Excel Aspose.Cells .NET
-description: Откройте для себя мощь Aspose.Cells. Узнайте, как шаг за шагом реализовать переменные массивы с помощью Smart Markers для бесперебойной генерации отчетов Excel.
+description: Откройте для себя мощь Aspose.Cells. Узнайте, как шаг за шагом реализовать переменные массивы с помощью Smart Markers для бесперебойного создания отчетов Excel.
 type: docs
 weight: 23
 url: /ru/net/smart-markers-dynamic-data/variable-array-smart-markers/

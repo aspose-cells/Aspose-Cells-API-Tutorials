@@ -62,7 +62,7 @@ string outputDir = "Your Document Directory";
 
 ## Bước 2: Tải tệp Excel
 
-Tiếp theo, chúng ta cần tải sổ làm việc (tệp Excel) để xử lý. Điều này được thực hiện chỉ bằng một dòng mã.
+Tiếp theo, chúng ta cần tải sổ làm việc (tệp Excel) để xử lý. Việc này được thực hiện chỉ bằng một dòng mã.
 
 ```csharp
 //Tải tệp Excel nguồn

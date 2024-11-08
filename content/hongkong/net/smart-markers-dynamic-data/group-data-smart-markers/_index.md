@@ -2,7 +2,7 @@
 title: 在 Aspose.Cells .NET 中使用智慧標記對資料進行分組
 linktitle: 在 Aspose.Cells .NET 中使用智慧標記對資料進行分組
 second_title: Aspose.Cells .NET Excel 處理 API
-description: 在 Aspose.Cells for .NET 中使用智慧標記輕鬆將資料分組。請按照我們的綜合指南取得逐步說明。
+description: 使用 Aspose.Cells for .NET 中的智慧標記輕鬆將資料分組。請按照我們的綜合指南取得逐步說明。
 type: docs
 weight: 15
 url: /zh-hant/net/smart-markers-dynamic-data/group-data-smart-markers/

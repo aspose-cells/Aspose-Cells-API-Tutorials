@@ -25,7 +25,7 @@ Sei stanco di lottare con la gestione dei file Excel? Se hai mai affrontato la s
 
 ## Estrazione dei file incorporati
 
- Sapevi che Excel può contenere file incorporati? Se hai mai avuto bisogno di scavare più a fondo nei tuoi fogli di calcolo per estrarre un file MOL incorporato, ti consigliamo di dare un'occhiata al nostro tutorial su[Estrarre il file MOL incorporato](./extract-embedded-mol-file/)Questa guida ti guiderà attraverso il semplice processo di recupero di questi file, assicurandoti di non perdere mai dati importanti nascosti nelle tue cartelle di lavoro Excel.
+ Sapevi che Excel può contenere file incorporati? Se hai mai avuto bisogno di scavare più a fondo nei tuoi fogli di calcolo per estrarre un file MOL incorporato, ti consigliamo di dare un'occhiata al nostro tutorial su[Estrarre il file MOL incorporato](./extract-embedded-mol-file/)Questa guida ti guiderà attraverso il semplice processo di recupero di questi file, assicurandoti di non perdere mai dati importanti nascosti nelle tue cartelle di lavoro di Excel.
 
 ## Gestione delle connessioni esterne nei file XLSB
 

@@ -66,7 +66,7 @@ wb.Save(dataDir + "RefreshAndCalculateItems_out.pdf", SaveFormat.Pdf);
 ```
 最後，我們將修改後的工作簿儲存為PDF檔案。此步驟將 Excel 工作表的目前視圖轉換為格式精美的 PDF 文檔，以供共享或示範。這不是很方便嗎？這就像將您的美食包裝在一個精美的盒子裡！
 ## 結論
-使用 Aspose.Cells for .NET 在 Excel 中處理資料透視表和計算項，開啟了一個充滿可能性的世界。您不僅可以自動執行資料刷新和計算，還可以立即產生具有專業外觀的輸出。無論您是建立數據驅動的應用程式還是僅需要產生報告，Aspose.Cells 都為您提供了強大的工具來高效、優雅地完成工作。
+使用 Aspose.Cells for .NET 在 Excel 中處理資料透視表和計算項開啟了一個充滿可能性的世界。您不僅可以自動執行資料刷新和計算，還可以立即產生具有專業外觀的輸出。無論您是建立數據驅動的應用程式還是僅需要產生報告，Aspose.Cells 都為您提供了強大的工具來高效、優雅地完成工作。
 ## 常見問題解答
 ### 什麼是 Aspose.Cells for .NET？
 Aspose.Cells for .NET 是一個強大的函式庫，可讓開發人員以程式設計方式建立、操作和轉換 Excel 檔案。

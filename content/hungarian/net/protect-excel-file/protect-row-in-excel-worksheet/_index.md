@@ -71,7 +71,7 @@ Egy adott sor zárolása előtt célszerű az összes oszlop zárolását felold
 Style style;
 StyleFlag flag;
 
-// Lapozzon végig az összes oszlopon, és oldja fel őket
+// Keresse át az összes oszlopot, és oldja fel őket
 for (int i = 0; i <= 255; i++)
 {
     style = sheet.Cells.Columns[(byte)i].Style;

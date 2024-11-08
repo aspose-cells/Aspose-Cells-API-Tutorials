@@ -45,7 +45,7 @@ Workbook workbook = new Workbook();
 ```
 Ez a kódsor egy új munkafüzetet hoz létre, amely játszóterünkként fog szolgálni. Tekintse úgy, mint egy friss vászonra, amely készen áll a kreatív vonásaira.
 ## 3. lépés: Regisztrálja a bővítmény funkciót
-Most pedig térjünk a dolog lényegére! Ideje regisztrálni a bővítmény funkcióját. Íme, hogyan kell csinálni:
+Most pedig térjünk a dolog lényegéhez! Ideje regisztrálni a bővítmény funkcióját. Íme, hogyan kell csinálni:
 ```csharp
 // Regisztrálja a makróképes bővítményt a függvény nevével együtt
 int id = workbook.Worksheets.RegisterAddInFunction(sourceDir + @"TESTUDF.xlam", "TEST_UDF", false);

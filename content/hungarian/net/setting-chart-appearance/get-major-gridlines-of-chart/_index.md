@@ -147,7 +147,7 @@ Ez a sor Excel fájlként menti a munkát a megadott könyvtárba. Tekintsd úgy
 
 És voilà! Az Aspose.Cells for .NET segítségével sikeresen létrehozott egy Excel-táblázatot, amely egy diagramot tartalmaz főbb rácsvonalakkal. Nemcsak a diagramokról tanult, hanem a vizuálisan könnyen magával ragadó elemek kezelésében is készségekre tett szert. Ez a módszer nagyon hasznos lehet üzleti jelentésekben, tudományos prezentációkban vagy bármely olyan forgatókönyvben, ahol az adatok megjelenítése kulcsfontosságú az üzenet közvetítésében.
 
-Ha elsajátítja ezeket a technikákat, akkor jó úton halad a dinamikus jelentések elkészítése felé, amelyek segítségével az adatok felbukkannak!
+Ha elsajátítja ezeket a technikákat, jó úton halad a dinamikus jelentések elkészítése felé, amelyek segítségével az adatok felbukkannak!
 
 ## GYIK
 

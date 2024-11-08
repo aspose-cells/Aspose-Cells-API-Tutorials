@@ -83,7 +83,7 @@ Vergeet ten slotte niet de bestandsstroom te sluiten. Dit is hetzelfde als het s
 // De bestandsstroom sluiten om alle bronnen vrij te maken
 fstream.Close();
 ```
-En dat is alles! U hebt nu met succes een kolom automatisch aangepast in een specifiek bereik met behulp van Aspose.Cells voor .NET.
+En dat is alles! U hebt nu met succes een kolom automatisch aangepast in een specifiek bereik met Aspose.Cells voor .NET.
 ## Conclusie
 Gefeliciteerd! U hebt geleerd hoe u automatisch de breedte van een kolom in een bepaald bereik in een Excel-bestand kunt aanpassen met Aspose.Cells voor .NET. Deze vaardigheid bespaart u niet alleen tijd, maar verbetert ook de leesbaarheid van uw gegevens, waardoor deze beter te presenteren en gebruiksvriendelijker worden. Met de eenvoud van C# en de kracht van Aspose kunt u Excel-bestanden als een professional bewerken. Aarzel niet om meer functionaliteiten te verkennen die Aspose.Cells biedt!
 ## Veelgestelde vragen

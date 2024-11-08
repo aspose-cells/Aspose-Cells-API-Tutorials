@@ -69,7 +69,7 @@ Fügen wir in diesem Beispiel eine einfache Begrüßung zu Zelle A1 hinzu.
 ```csharp
 // Zugriff auf die Zelle „A1“ aus dem Arbeitsblatt
 Aspose.Cells.Cell cell = worksheet.Cells["A1"];
-// Hinzufügen eines Wertes zur Zelle „A1“
+// Einen Wert zur Zelle „A1“ hinzufügen
 cell.PutValue("Hello Aspose!");
 ```
 Stellen Sie sich vor, Sie schreiben eine Notiz für Ihr Publikum – die erste Interaktion mit Ihrer Tabelle!

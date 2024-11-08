@@ -2,7 +2,7 @@
 title: Datei im Stream speichern
 linktitle: Datei im Stream speichern
 second_title: Aspose.Cells .NET Excel-Verarbeitungs-API
-description: Erfahren Sie in dieser Schritt-für-Schritt-Anleitung voller Beispiele, wie Sie mit Aspose.Cells für .NET eine Excel-Datei in einem Stream speichern.
+description: Erfahren Sie in dieser Schritt-für-Schritt-Anleitung mit vielen Beispielen, wie Sie mit Aspose.Cells für .NET eine Excel-Datei in einem Stream speichern.
 type: docs
 weight: 12
 url: /de/net/file-handling/file-saving-file-to-stream/
@@ -15,10 +15,10 @@ Bevor wir uns ins Detail stürzen, müssen Sie ein paar Dinge vorbereitet haben.
 2. .NET Framework: Die von Ihnen verwendete .NET-Version muss mit Aspose.Cells kompatibel sein. Im Allgemeinen sollte jede .NET Framework-Version 4.0 oder höher gut geeignet sein.
 3. Aspose.Cells-Bibliothek: Laden Sie die Aspose.Cells-Bibliothek für .NET herunter und installieren Sie sie. Sie finden sie[Hier](https://releases.aspose.com/cells/net/). 
 4. Grundlegende C#-Kenntnisse: Ein wenig Vertrautheit mit der C#-Programmierung ist hilfreich, aber Sie müssen kein Programmiergenie sein. Vertrauen Sie mir, wenn Sie einem Rezept folgen können, können Sie dieser Anleitung folgen!
-5.  Excel-Datei: Sie benötigen eine Excel-Startdatei, in unserem Fall mit dem Namen`Book1.xlsx`. Erstellen Sie gerne ein einfaches, falls Sie noch keines haben.
+5.  Excel-Datei: Sie benötigen eine Excel-Startdatei, in unserem Fall mit dem Namen`Book1.xlsx`. Wenn Sie noch keines haben, können Sie gerne ein einfaches erstellen.
 Nun, da wir alles vorbereitet haben, importieren wir die erforderlichen Pakete!
 ## Pakete importieren
-Bevor Sie mit dem Programmieren beginnen können, müssen Sie die richtigen Namespaces importieren. Das ist, als würden Sie vor dem Kochen Ihre Zutaten zusammensuchen. Und so geht's:
+Bevor Sie mit dem Programmieren beginnen können, müssen Sie die richtigen Namespaces importieren. Das ist, als ob Sie vor dem Kochen Ihre Zutaten zusammensuchen. Und so geht's:
 ### Öffnen Sie Ihr Projekt
 Öffnen Sie zunächst Ihr Visual Studio-Projekt, in dem Sie Aspose.Cells implementieren möchten.
 ### Referenz hinzufügen

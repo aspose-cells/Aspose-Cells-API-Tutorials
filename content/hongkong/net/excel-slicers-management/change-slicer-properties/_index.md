@@ -56,7 +56,7 @@ string sourceDir = "Your Document Directory";
 //輸出目錄
 string outputDir = "Your Document Directory";
 ```
-只需更換`"Your Document Directory"`與文件所在的實際路徑。這樣，程式碼就可以準確地知道在哪裡找到和保存文件，確保順利執行！
+只需更換`"Your Document Directory"`與文件所在的實際路徑。這樣，程式碼就可以準確地知道在哪裡找到和保存文件，從而確保順利執行！
 
 ## 第 2 步：載入範例 Excel 文件
 
@@ -66,7 +66,7 @@ string outputDir = "Your Document Directory";
 //載入包含表格的範例 Excel 檔案。
 Workbook workbook = new Workbook(sourceDir + "sampleCreateSlicerToExcelTable.xlsx");
 ```
-在這裡，我們利用`Workbook`類別來載入我們的 Excel 檔案。確保該文件存在，否則您將遇到困難！
+在這裡，我們利用`Workbook`類別來載入我們的 Excel 檔案。確保該文件存在，否則您會遇到困難！
 
 ## 第 3 步：存取第一個工作表
 

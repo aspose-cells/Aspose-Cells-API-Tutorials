@@ -54,7 +54,7 @@ Mari aktifkan opsi untuk mengurai rekaman pivot yang di-cache dengan menyetel pr
 //Tetapkan ParsingPivotCachedRecords benar, nilai default adalah salah
 options.ParsingPivotCachedRecords = true;
 ```
-Secara default, penguraian catatan pivot yang di-cache diatur ke false. Mengaturnya ke true adalah kunci untuk mengekstrak data yang kita butuhkan dari tabel pivot, mirip dengan memecah permukaan air untuk menemukan harta karun di bawah!
+Secara default, penguraian catatan pivot yang di-cache diatur ke false. Mengaturnya ke true adalah kunci untuk mengekstrak data yang kita butuhkan dari tabel pivot, mirip dengan memecah permukaan air untuk menemukan harta karun di bawahnya!
 ## Langkah 4: Muat File Excel
 Sekarang kita siap memuat berkas Excel kita!
 ```csharp

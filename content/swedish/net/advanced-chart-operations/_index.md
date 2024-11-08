@@ -42,7 +42,7 @@ Att anpassa formen på dina dataetiketter kan göra dina diagram mer interaktiva
 
 ## Ange värden Format Kod för diagramserie
 
-Ibland måste du anpassa hur siffror formateras i din diagramserie för bättre tydlighet. Aspose.Cells för .NET låter dig ställa in värdeformatkoder för att matcha ditt föredragna visningsformat. Oavsett om det är valuta-, procent- eller anpassad talformatering ger den här funktionen dig full kontroll över hur din data presenteras.[Ta reda på hur](./set-values-format-code-of-chart-series/) för att enkelt ställa in formatkoder.
+Ibland måste du anpassa hur siffror formateras i din diagramserie för bättre tydlighet. Aspose.Cells för .NET låter dig ställa in värdeformatkoder för att matcha ditt föredragna visningsformat. Oavsett om det är valuta, procent eller anpassad talformatering ger den här funktionen dig full kontroll över hur din data presenteras.[Ta reda på hur](./set-values-format-code-of-chart-series/) för att enkelt ställa in formatkoder.
 
 ## Slutsats
 

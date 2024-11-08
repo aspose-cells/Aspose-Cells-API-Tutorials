@@ -72,7 +72,7 @@ Aspose.Cells.Drawing.Shape sh = ws.Shapes[0];
 //以組形狀的形式得到齒輪型智能藝術形狀的結果。
 Aspose.Cells.Drawing.GroupShape gs = sh.GetResultOfSmartArt();
 ```
-這將檢索我們的齒輪類型 SmartArt 作為分組形狀。
+這將檢索我們的齒輪型 SmartArt 作為分組形狀。
 ## 第 6 步：提取單一形狀
 現在，讓我們來擷取組成 SmartArt 的各個造型：
 ```csharp
@@ -112,4 +112,4 @@ Aspose.Cells 是一個 .NET 函式庫，可讓開發人員輕鬆建立和操作 
 ### 是否為 Aspose.Cells 用戶提供支援？
 絕對地！您可以在以下位置找到社區支持：[Aspose.Cells 論壇](https://forum.aspose.com/c/cells/9).
 ### 我可以使用此方法提取其他 SmartArt 類型嗎？
-是的，只需稍作修改，您就可以透過更改程式碼中的條件從各種 SmartArt 形狀中提取文字。
+是的，只需稍加修改，您就可以透過更改程式碼中的條件從各種 SmartArt 形狀中提取文字。

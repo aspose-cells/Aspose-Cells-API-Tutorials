@@ -63,7 +63,7 @@ Console.WriteLine("RecognizeSelfClosingTags executed successfully.\r\n");
 ```
 此行向控制台输出一条消息，确认操作已成功完成。简单而有效！
 ## 结论
-现在，您已经掌握了使用 Aspose.Cells for .NET 在 Excel 中以编程方式识别自闭合标签所需的知识。这可以为涉及 HTML 内容和 Excel 格式的项目开辟无限可能。无论您是管理数据导出还是转换 Web 内容进行分析，您都已拥有一套强大的工具集。
+现在，您已经掌握了使用 Aspose.Cells for .NET 在 Excel 中以编程方式识别自闭合标签所需的知识。这可以为涉及 HTML 内容和 Excel 格式的项目打开无限可能。无论您是管理数据导出还是转换 Web 内容进行分析，您都已拥有一套强大的工具集。
 ## 常见问题解答
 ### 什么是自闭合标签？  
 自闭合标签是不需要单独闭合标签的 HTML 标签，例如`<img />`或者`<br />`.

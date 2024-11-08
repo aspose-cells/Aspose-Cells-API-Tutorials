@@ -8,7 +8,7 @@ weight: 13
 url: /fr/net/exporting-excel-to-html-with-advanced-options/exporting-similar-border-style/
 ---
 ## Introduction
-Vous en avez assez des styles de bordures incohérents dans vos feuilles de calcul Excel ? Si vous avez déjà passé des heures à modifier les bordures pour qu'elles correspondent à un style spécifique, vous n'êtes pas seul ! Dans ce guide, nous allons vous dévoiler comment exporter par programmation un style de bordure similaire dans Excel à l'aide d'Aspose.Cells pour .NET. À la fin, vous verrez à quel point il est simple de créer des documents Excel visuellement attrayants sans effort. Alors, retroussez vos manches et plongeons dans le monde du style Excel programmatique !
+Vous en avez assez des styles de bordure incohérents dans vos feuilles de calcul Excel ? Si vous avez déjà passé des heures à modifier les bordures pour qu'elles correspondent à un style spécifique, vous n'êtes pas seul ! Dans ce guide, nous allons vous dévoiler comment exporter par programmation un style de bordure similaire dans Excel à l'aide d'Aspose.Cells pour .NET. À la fin, vous verrez à quel point il est simple de créer des documents Excel visuellement attrayants sans effort. Alors, retroussez vos manches et plongeons dans le monde du style Excel programmatique !
 ## Prérequis
 Avant de passer aux éléments de codage, assurons-nous que vous avez tout mis en place pour commencer :
 1. Visual Studio : vous devez avoir installé Visual Studio sur votre ordinateur. C'est ici que nous allons écrire notre code.

@@ -19,7 +19,7 @@ We hebben dit proces voor u vereenvoudigd met verschillende stapsgewijze tutoria
 
 ## Zelfstudies op maat voor jou
 
- Maar dat is nog niet alles! Het beschermen van uw gegevens is net zo essentieel. U zou uw voordeur toch ook niet wagenwijd open laten staan? Op dezelfde manier bieden onze gidsen u de tools om elk deel van uw Excel-sheet te vergrendelen. Bekijk de tutorial op[Bescherming van specifieke cellen](./protect-specific-cells-in-a-excel-worksheet/) om te leren hoe u uw gegevens effectief kunt beschermen. We leiden u door elke stap van het proces, waardoor het zelfs voor degenen die nog niet zo bekend zijn met programmeren, eenvoudig is.
+ Maar dat is nog niet alles! Het beschermen van uw gegevens is net zo essentieel. U zou uw voordeur toch ook niet wagenwijd open laten staan? Op dezelfde manier bieden onze gidsen u de tools om elk deel van uw Excel-sheet te vergrendelen. Bekijk de tutorial op[Bescherming van specifieke cellen](./protect-specific-cells-in-a-excel-worksheet/) om te leren hoe u uw gegevens effectief kunt beschermen. We begeleiden u bij elke stap, zodat het ook voor mensen die nog niet zo bekend zijn met programmeren, eenvoudig is.
 
 Zeker! Laten we eens dieper ingaan op het belang van deze tutorials in uw zoektocht naar Excel-beheersing en hoe ze passen in uw ontwikkelworkflow.
 

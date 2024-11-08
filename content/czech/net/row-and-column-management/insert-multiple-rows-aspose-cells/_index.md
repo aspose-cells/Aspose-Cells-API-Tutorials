@@ -40,7 +40,7 @@ Nyní, když máme datový proud souborů, je čas načíst sešit.
 ```csharp
 Workbook workbook = new Workbook(fstream);
 ```
- The`Workbook`class je srdcem knihovny Aspose.Cells. Představuje soubor Excel a poskytuje vám přístup k jeho obsahu. Předáním datového proudu souboru do`Workbook` konstruktoru načteme soubor Excel do paměti.
+ The`Workbook`class je srdcem knihovny Aspose.Cells. Představuje soubor Excel a poskytuje vám přístup k jeho obsahu. Předáním datového proudu souboru do`Workbook` konstruktor, načteme soubor Excel do paměti.
 ## Krok 4: Otevřete požadovaný pracovní list
 Jakmile budete mít sešit, musíte získat přístup ke konkrétnímu listu, kam chcete vložit řádky.
 ```csharp

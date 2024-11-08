@@ -25,7 +25,7 @@ Với mỗi bài hướng dẫn, bạn sẽ tìm thấy một chủ đề cụ t
 
 Aspose.Cells cũng hỗ trợ tự động hóa các chức năng bảng trục phức tạp như làm mới các bảng lồng nhau, thiết lập các trường trang và lưu vào các định dạng tùy chỉnh như ODS. Ví dụ:
 
-- [Làm mới và tính toán các mục trong bảng Pivot](./refreshing-and-calculating-items/): Giữ dữ liệu của bạn luôn cập nhật bằng cách làm mới bảng trục theo chương trình, lý tưởng cho việc báo cáo theo thời gian thực.
+- [Làm mới và tính toán các mục trong Bảng Pivot](./refreshing-and-calculating-items/): Giữ dữ liệu của bạn luôn cập nhật bằng cách làm mới bảng trục theo chương trình, lý tưởng cho việc báo cáo theo thời gian thực.
 - [Lưu Pivot Table ở định dạng ODS](./saving-in-ods-format/): Chuyển đổi bảng trục Excel sang định dạng ODS, đảm bảo khả năng tương thích trên nhiều nền tảng.
 
 Mỗi hướng dẫn đều bao gồm các mẫu mã và thông tin thực tế để giúp quá trình phát triển trở nên mượt mà và hiệu quả hơn. Sẵn sàng đưa kỹ năng thao tác dữ liệu của bạn lên một tầm cao mới? Hãy xem các hướng dẫn này và làm chủ các bảng trục với Aspose.Cells cho .NET. 

@@ -105,16 +105,16 @@ Végül érdemes bezárni a fájlfolyamot, miután végzett. Ez a lépés felsza
 fstream.Close();
 ```
 
-Olyan ez, mintha kifelé menet bezárná az ajtót, hogy ne hagyjon nyomot maga után!
+Ez olyan, mintha kifelé menet bezárná az ajtót, hogy ne hagyjon nyomot maga után!
 
 ## Következtetés
 
-És megvan! Sikeresen megtanulta, hogyan lehet Excel-munkalapot törölni indexe alapján a C# és az Aspose.Cells használatával. A folyamat egyszerű, ha már tisztában vagy az alapokkal. Mostantól könnyedén eltávolíthatja a felesleges lapokat a munkafüzeteiből, így kezelhetőbbé és rendszerezhetőbbé teheti adatait.
+És megvan! Sikeresen megtanulta, hogyan lehet Excel-munkalapot törölni indexe alapján a C# és az Aspose.Cells használatával. A folyamat egyszerű, ha már megszokta az alapokat. Mostantól könnyedén eltávolíthatja a felesleges lapokat a munkafüzetekből, így adatai kezelhetőbbé és rendszerezettebbé válnak.
 
 ## GYIK
 
 ### Mi az Aspose.Cells?
-Az Aspose.Cells egy .NET-könyvtár, amely kiterjedt lehetőségeket biztosít a fejlesztőknek az Excel-fájlok kezeléséhez. A létrehozástól és szerkesztéstől az Excel-fájlok konvertálásáig ez egy hatékony eszköz!
+Az Aspose.Cells egy .NET-könyvtár, amely kiterjedt lehetőségeket biztosít a fejlesztőknek az Excel-fájlok kezeléséhez. Az Excel fájlok létrehozásától és szerkesztésétől kezdve az átalakításig ez egy hatékony eszköz!
 
 ### Szükségem van engedélyre az Aspose.Cells használatához?
  Igen, az Aspose.Cells egy fizetős könyvtár, de elkezdheti egy ingyenes próbaverzióval[itt](https://releases.aspose.com/)Vásárlás előtt felfedezheti a funkciókat.

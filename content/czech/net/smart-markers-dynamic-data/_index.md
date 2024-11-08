@@ -9,7 +9,7 @@ url: /cs/net/smart-markers-dynamic-data/
 ---
 ## Zavedení
 
-Chcete posunout své excelové reportingy na další úroveň? Aspose.Cells for .NET poskytuje fantastickou funkci – Inteligentní značky – která vám umožňuje bez námahy generovat dynamické sestavy Excel založené na datech. Tato série výukových programů obsahuje vše, co potřebujete vědět o inteligentních značkách, od přidávání vlastních štítků a automatického vyplňování dat do listů až po použití pokročilých vzorců a vkládání obrázků. Zde je rychlý pohled na některé klíčové tutoriály v této sérii:
+Chcete posunout své excelové reportingy na další úroveň? Aspose.Cells for .NET poskytuje fantastickou funkci – Inteligentní značky – která vám umožňuje bez námahy generovat dynamické sestavy Excel založené na datech. Tato série výukových programů pokrývá vše, co potřebujete vědět o inteligentních značkách, od přidávání vlastních štítků a automatického vyplňování dat do listů až po použití pokročilých vzorců a vkládání obrázků. Zde je rychlý pohled na některé klíčové tutoriály v této sérii:
 
 ## Přidejte vlastní štítky pomocí inteligentních značek
  Představte si, že chcete mít jedinečný štítek pro každou buňku v sestavě. S inteligentními značkami v Aspose.Cells se přidávání vlastních štítků stává hračkou. Naučíte se používat chytré značky k personalizaci štítků dat a vytváření vizuálně působivých a organizovaných sestav.[Přečtěte si více](./add-custom-labels-smart-markers/)
@@ -30,7 +30,7 @@ Vzorce mohou automatizovat výpočty, takže manipulace s daty je snadná. S Asp
  Manipulace s hierarchickými daty v Excelu může být složitá. S Aspose.Cells však mohou Smart Markers spravovat vnořené objekty, aby zvládly složité datové struktury bez ztráty přehlednosti. Tato příručka ukazuje, jak implementovat inteligentní značky pro vnořené objekty, což vám pomůže přesně prezentovat podrobná data ve vašich sestavách.[Přečtěte si více](./nested-objects-smart-markers/)
 
 ## Použijte atribut stylu kopírování v inteligentních značkách
- Vytváření profesionálně vypadajících zpráv často vyžaduje specifický styl. Atribut Copy Style v Aspose.Cells Smart Markers usnadňuje replikaci konzistentních stylů ze šablon přímo do vašich vygenerovaných excelových listů. Tento výukový program poskytuje podrobný přístup k používání této funkce a zajišťuje, že vaše sestavy budou vypadat uhlazeně a jednotně.[Přečtěte si více](./copy-style-attribute-smart-markers/)
+ Vytváření profesionálně vypadajících zpráv často vyžaduje specifický styl. Atribut Copy Style v Aspose.Cells Smart Markers usnadňuje replikaci konzistentních stylů ze šablon přímo do vašich vygenerovaných excelových listů. Tento výukový program poskytuje podrobný přístup k používání této funkce a zajišťuje, že vaše sestavy vypadají uhlazeně a jednotně.[Přečtěte si více](./copy-style-attribute-smart-markers/)
 
 ## Používejte anonymní typy s inteligentními značkami
  Aspose.Cells Smart Markers také podporují anonymní typy, což umožňuje flexibilní zadávání dat bez předdefinovaných struktur. Tato funkce je ideální pro scénáře, kde se mohou měnit datové struktury nebo při manipulaci s nestrukturovanými daty, což vývojářům usnadňuje přizpůsobení se měnícím se požadavkům.[Přečtěte si více](./use-anonymous-types-smart-markers/)
@@ -64,10 +64,10 @@ Bez námahy seskupujte data pomocí inteligentních značek v Aspose.Cells pro .
 Objevte, jak vkládat obrázky pomocí značek obrázků v Aspose.Cells pro .NET s naším podrobným průvodcem! Efektivně vylepšete své sestavy Excel pomocí vizuálů.
 ### [Používejte anonymní typy s inteligentními značkami Aspose.Cells](./use-anonymous-types-smart-markers/)
 Naučte se používat anonymní typy s inteligentními značkami v Aspose.Cells pro dynamické generování sestav Excel v .NET. Postupujte podle našeho snadného průvodce.
-### [Použijte atribut stylu kopírování v inteligentních značkách Aspose.Cells](./copy-style-attribute-smart-markers/)
+### [Použijte atribut Copy Style v inteligentních značkách Aspose.Cells](./copy-style-attribute-smart-markers/)
 Objevte sílu Aspose.Cells pro .NET a naučte se, jak bez námahy aplikovat atributy stylu kopírování v Excel Smart Markers. Tento obsáhlý tutoriál obsahuje pokyny krok za krokem.
 ### [Použijte parametr vzorce v poli Smart Marker Aspose.Cells](./formula-parameter-smart-marker/)
-Naučte se používat parametry vzorců v chytrých značkách s Aspose.Cells pro .NET. Snadno vytvářejte dynamické tabulky.
+Naučte se používat parametry vzorce v chytrých značkách s Aspose.Cells pro .NET. Snadno vytvářejte dynamické tabulky.
 ### [Použijte Obecný seznam v Smart Markers Aspose.Cells](./generic-list-smart-markers/)
 Ovládněte Aspose.Cells for .NET s obecnými seznamy a inteligentními značkami pro snadné vytváření dynamických sestav aplikace Excel. Jednoduchý průvodce pro vývojáře.
 ### [Použijte vlastnost HTML v Smart Markers Aspose.Cells .NET](./html-property-smart-markers/)

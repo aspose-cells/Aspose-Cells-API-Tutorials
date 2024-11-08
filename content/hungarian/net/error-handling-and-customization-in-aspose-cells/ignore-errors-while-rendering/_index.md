@@ -8,7 +8,7 @@ weight: 11
 url: /hu/net/error-handling-and-customization-in-aspose-cells/ignore-errors-while-rendering/
 ---
 ## Bevezetés
-Az Excel-fájlok PDF-formátumba konvertálásakor a hibák felbukkanása rémálom lehet, különösen akkor, ha olyan kritikus adatokkal kell foglalkoznia, amelyeket meg kell osztani vagy archiválni kell. De ne izzad meg; Az Aspose.Cells for .NET itt van, hogy megmentse a napot! Ebben az útmutatóban végigvezetjük, hogyan hagyhatja figyelmen kívül a hibákat az átalakítási folyamat során. Képzelje el, hogy egy kaotikus Excel-lapot megszakítások nélkül csiszolt PDF-vé alakít. Merüljünk el!
+Az Excel-fájlok PDF-formátumba konvertálásakor a hibák rémálom lehet, különösen akkor, ha olyan kritikus adatokkal kell foglalkoznia, amelyeket meg kell osztani vagy archiválni kell. De ne izzad meg; Az Aspose.Cells for .NET itt van, hogy megmentse a napot! Ebben az útmutatóban végigvezetjük, hogyan hagyhatja figyelmen kívül a hibákat az átalakítási folyamat során. Képzelje el, hogy egy kaotikus Excel-lapot megszakítások nélkül csiszolt PDF-vé alakít. Merüljünk el!
 ## Előfeltételek
 Mielőtt belevágnánk az Excel PDF-formátumba való konvertálásának a bosszantó hibák figyelmen kívül hagyásával járó ügyébe, meg kell bizonyosodnia arról, hogy néhány dolog a helyén van:
 1. .NET-környezet: Győződjön meg arról, hogy a .NET telepítve van a gépen. Akár .NET-keretrendszert, akár .NET Core-t használ, az Aspose.Cells zökkenőmentesen működik.
@@ -26,7 +26,7 @@ using System.Text;
 ```
 Mielőtt belemerülne az átalakítási folyamat fő logikájába, feltétlenül adja hozzá ezeket a sorokat a C# fájl tetejéhez.
 ## 1. lépés: Állítsa be a címtárakat
-Először is meg kell határoznia, hol található a forrás Excel-fájl, és hová szeretné menteni a kimeneti PDF-fájlt. Hozzon létre változókat, amelyek tárolják ezeket a könyvtár elérési útvonalakat.
+Először is meg kell határoznia, hogy hol található a forrás Excel-fájl, és hová szeretné menteni a kimeneti PDF-fájlt. Hozzon létre változókat, amelyek tárolják ezeket a könyvtárútvonalakat.
 ```csharp
 //Forrás könyvtár
 string sourceDir = "Your Document Directory";

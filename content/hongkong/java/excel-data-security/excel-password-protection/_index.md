@@ -112,7 +112,7 @@ public class ExcelPasswordProtection {
 
 是的，您可以使用 Aspose.Cells for Java 為相同 Excel 檔案中的各個工作表設定不同的密碼。
 
-### 是否可以保護 Excel 工作表中的特定儲存格或範圍？
+### 是否可以保護 Excel 工作表中的特定儲存格或區域？
 
 當然。您可以透過使用 Aspose.Cells for Java 設定工作表保護選項來保護特定儲存格或範圍。
 

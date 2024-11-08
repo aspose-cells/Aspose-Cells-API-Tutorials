@@ -2,7 +2,7 @@
 title: Рендеринг последовательных страниц в Aspose.Cells
 linktitle: Рендеринг последовательных страниц в Aspose.Cells
 second_title: API обработки Excel Aspose.Cells .NET
-description: Научитесь отображать последовательные страницы в Excel с помощью Aspose.Cells для .NET. Это пошаговое руководство содержит подробное руководство по преобразованию выбранных страниц в изображения.
+description: Научитесь отображать последовательные страницы в Excel с помощью Aspose.Cells для .NET. Это пошаговое руководство предоставляет подробное руководство по преобразованию выбранных страниц в изображения.
 type: docs
 weight: 18
 url: /ru/net/rendering-and-export/render-limited-number-of-sequential-pages/

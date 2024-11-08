@@ -48,7 +48,7 @@ string sourceDir = "Your Document Directory";
 string outputDir = "Your Output Directory";
 ```
 
- प्रतिस्थापित करें`"Your Document Directory"` और`"Your Output Directory"` वास्तविक पथ के साथ जहां आपकी फ़ाइलें संग्रहीत हैं.
+ प्रतिस्थापित करें`"Your Document Directory"` और`"Your Output Directory"` वास्तविक पथ के साथ जहां आपकी फ़ाइलें संग्रहीत हैं।
 
 ## चरण 2: कार्यपुस्तिका लोड करें
 

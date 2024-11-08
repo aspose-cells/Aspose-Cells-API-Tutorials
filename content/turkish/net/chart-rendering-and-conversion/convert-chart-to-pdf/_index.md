@@ -33,7 +33,7 @@ Projenizde Aspose.Cells'i başarıyla kullanmak için gerekli paketleri içe akt
 
 ### Yeni Bir Proje Oluştur
 
-Öncelikle Visual Studio'da yeni bir C# projesi oluşturun:
+Visual Studio'da yeni bir C# projesi oluşturarak başlayın:
 
 1. Visual Studio’yu açın.
 2. “Yeni proje oluştur”a tıklayın.

@@ -49,7 +49,7 @@ Chart chart = worksheet.getCharts().get(chartIndex);
 chart.getNSeries().add("A1:A10", true);
 ```
 
-## 第四步：新增趨勢線
+## 步驟 4：新增趨勢線
 
 ```java
 //在圖表中新增趨勢線

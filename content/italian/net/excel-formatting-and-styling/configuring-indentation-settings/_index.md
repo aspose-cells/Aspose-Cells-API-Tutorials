@@ -41,7 +41,7 @@ if (!IsExists)
 ```
 Questo frammento garantisce che non si verificheranno errori quando in seguito si cercherà di salvare il file.
 ## Passaggio 4: creare un'istanza di un oggetto cartella di lavoro
-Ora creiamo la vera e propria cartella di lavoro di Excel. È qui che risiederanno i tuoi dati.
+Ora creiamo la vera cartella di lavoro di Excel. È qui che risiederanno i tuoi dati.
 ```csharp
 Workbook workbook = new Workbook();
 ```

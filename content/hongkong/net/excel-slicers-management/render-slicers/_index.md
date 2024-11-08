@@ -84,7 +84,7 @@ Console.WriteLine("RenderingSlicer executed successfully.");
 ```
 此命令將工作表的第一頁渲染為映像，並將其保存在指定輸出目錄的「outputRenderingSlicer.png」下。控制台訊息將確認執行已成功完成。
 ## 結論
-您剛剛學習如何使用 Aspose.Cells for .NET 從 Excel 檔案渲染切片器。透過遵循這些簡單的步驟，您可以將枯燥的資料轉換為視覺上迷人的影像，從而使見解變得流行！請記住，資料視覺化的美妙之處不僅在於美觀，還在於它為您的分析帶來的清晰度。
+您剛剛學習如何使用 Aspose.Cells for .NET 從 Excel 檔案渲染切片器。透過遵循這些簡單的步驟，您可以將枯燥的資料轉換為視覺上迷人的影像，從而使見解流行起來！請記住，資料視覺化的美妙之處不僅在於美觀，還在於它為您的分析帶來的清晰度。
 ## 常見問題解答
 ### 什麼是 Aspose.Cells？  
 Aspose.Cells 是一個功能強大的函式庫，可讓您以程式設計方式建立、操作和渲染 Excel 檔案。

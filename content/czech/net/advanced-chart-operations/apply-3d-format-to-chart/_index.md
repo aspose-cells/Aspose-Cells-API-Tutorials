@@ -9,7 +9,7 @@ url: /cs/net/advanced-chart-operations/apply-3d-format-to-chart/
 ---
 ## Zavedení
 
-V době, kdy je vizualizace dat prvořadá, způsob, jakým prezentujeme naše data, přesahuje základní grafy a tabulky. Pomocí nástrojů, jako je Aspose.Cells for .NET, můžete pozvednout své prezentace dat pomocí ohromujících 3D grafů, které nejen upoutají pozornost, ale také efektivně předávají informace. Tato příručka vás provede kroky k použití 3D formátu na graf pomocí Aspose.Cells a transformuje vaše nezpracovaná data na poutavé zobrazení.
+V době, kdy je vizualizace dat prvořadá, způsob, jakým prezentujeme naše data, přesahuje základní grafy a tabulky. Pomocí nástrojů, jako je Aspose.Cells for .NET, můžete pozvednout své prezentace dat pomocí ohromujících 3D grafů, které nejen upoutají pozornost, ale také efektivně předávají informace. Tento průvodce vás provede kroky k použití 3D formátu na graf pomocí Aspose.Cells a transformuje vaše nezpracovaná data na poutavé zobrazení.
 
 ## Předpoklady
 
@@ -130,7 +130,7 @@ chart.NSeries.Add("DataSheet!B1:B3", true);
 chart.NSeries.CategoryData = "DataSheet!A1:A3";
 ```
 
-Je to obdoba, jako když kuchař připravuje pokrm ze specifických surovin. Každý datový bod je důležitý!
+To je obdoba kuchaře připravujícího pokrm ze specifických surovin. Každý datový bod je důležitý!
 
 ## Krok 8: Přístup k datové řadě a její formátování
 

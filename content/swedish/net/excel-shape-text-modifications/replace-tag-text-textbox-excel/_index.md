@@ -24,7 +24,7 @@ Först till kvarn – låt oss importera de nödvändiga paketen. Detta är avg�
 - Välj "Lägg till" > "Referens".
 - Bläddra till platsen där du laddade ner Aspose.Cells-biblioteket och inkludera det i ditt projekt.
 ## Importera de nödvändiga namnområdena
- När du har lagt till referensen lägger du till följande`using` direktiv överst i din huvudfil:
+ När du har lagt till referensen lägger du till följande`using` direktiv högst upp i din huvudfil:
 ```csharp
 using System;
 using System.Collections.Generic;

@@ -62,7 +62,7 @@ workbook.Save(dataDir + "outBook2.out.pdf", SaveFormat.Pdf);
 ```
 
  Ici, vous dites à Aspose.Cells de sauvegarder le`workbook` en format PDF. Le`outBook2.out.pdf` est le nom du fichier de sortie. N'hésitez pas à le personnaliser selon vos besoins.
-## Étape 4 : Afficher le résultat
+## Étape 4 : Afficher le résultat
 Enfin, il est toujours judicieux d'informer l'utilisateur que le processus de conversion est terminé. C'est comme dire : « Hé, votre nouveau document est prêt ! »
 ```csharp
 // Afficher le résultat afin que l'utilisateur sache que le traitement est terminé.

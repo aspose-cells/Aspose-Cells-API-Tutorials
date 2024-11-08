@@ -120,4 +120,4 @@ Ano! Aspose.Cells podporuje různé formáty, včetně XLS, XLSX, CSV a dalšíc
 Absolutně! Do vlastností typu obsahu můžete přidávat složité objekty, pokud je lze správně serializovat.
 
 ### Kde najdu další dokumentaci?
-Podrobnější pokyny naleznete v[Dokumentace Aspose.Cells](https://reference.aspose.com/cells/net/).
+Podrobnější návod naleznete v[Dokumentace Aspose.Cells](https://reference.aspose.com/cells/net/).

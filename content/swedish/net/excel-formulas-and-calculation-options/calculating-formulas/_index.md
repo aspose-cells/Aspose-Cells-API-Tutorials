@@ -57,7 +57,7 @@ Först lägger du till ett nytt kalkylblad, som automatiskt ger dig indexet för
 ## Fylla på data
 Nu när vi har skapat vårt kalkylblad måste vi lägga till några data till det:
 ```csharp
-// Lägga till ett värde till "A1"-cellen
+// Lägga till ett värde i cellen "A1".
 worksheet.Cells["A1"].PutValue(1);
 // Lägga till ett värde till "A2"-cellen
 worksheet.Cells["A2"].PutValue(2);

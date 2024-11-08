@@ -62,7 +62,7 @@ Workbook workbook = new Workbook();
 建立工作簿後，您可以存取其預設工作表。 Aspose.Cells 中的工作表是有索引的，因此如果您想要第一個工作表，可以透過索引引用它`0`.
 
 ```csharp
-//透過傳遞工作表索引來取得新新增工作表的引用
+//透過傳遞工作表索引來取得新新增的工作表的引用
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 

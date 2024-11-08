@@ -113,7 +113,7 @@ Aby wszystko ładnie podsumować, udzielamy informacji zwrotnej, czy operacja za
 
 ## Wniosek
 
-Gratulacje! Właśnie nauczyłeś się, jak zmieniać rozmiar i położenie wykresów w programie Excel za pomocą Aspose.Cells dla .NET. Dzięki tym krokom możesz sprawić, że wykresy nie tylko będą wyglądać lepiej, ale także idealnie pasować do arkuszy kalkulacyjnych, co przełoży się na bardziej profesjonalną prezentację danych. Dlaczego nie spróbować i nie zacząć manipulować wykresami już dziś? 
+Gratulacje! Właśnie nauczyłeś się, jak zmieniać rozmiar i położenie wykresów w programie Excel za pomocą Aspose.Cells dla .NET. Dzięki tym krokom możesz sprawić, że wykresy nie tylko będą wyglądać lepiej, ale także idealnie wpasują się w arkusze kalkulacyjne, co przełoży się na bardziej profesjonalną prezentację danych. Dlaczego nie spróbować i nie zacząć manipulować wykresami już dziś? 
 
 ## Najczęściej zadawane pytania
 

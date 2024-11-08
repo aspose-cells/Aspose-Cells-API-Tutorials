@@ -56,7 +56,7 @@ Dieser Schritt ist entscheidend, da Sie hier tatsächlich die Daten definieren, 
 ```csharp
 designer.SetDataSource("VariableArray", new String[] { "Hello <b>World</b>", "Arabic", "Hindi", "Urdu", "French" });
 ```
- Beachten Sie, wie "Hallo<b>Welt</b>" enthält HTML-Fett-Tags? Hier geschieht die Magie!
+ Beachten Sie, wie "Hallo<b>Welt</b>" enthält HTML-Fetttags? Hier geschieht die Magie!
 ## Schritt 5: Verarbeiten der Vorlage
 Nachdem Sie alles eingerichtet haben, müssen Sie Ihre Vorlage verarbeiten, um die Änderungen anzuwenden.
 1. Verarbeiten Sie den Designer: Hier übernimmt Aspose.Cells alle Daten und formatiert sie entsprechend Ihren Vorgaben.

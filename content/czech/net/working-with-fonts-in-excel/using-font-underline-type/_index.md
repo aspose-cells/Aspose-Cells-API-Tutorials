@@ -1,6 +1,6 @@
 ---
-title: Použití typu podtržení písma v Excelu
-linktitle: Použití typu podtržení písma v Excelu
+title: Použití písma Typ podtržení v Excelu
+linktitle: Použití písma Typ podtržení v Excelu
 second_title: Aspose.Cells .NET Excel Processing API
 description: Naučte se, jak používat Aspose.Cells pro .NET ke snadnému podtržení textu v buňkách Excelu pomocí našeho podrobného průvodce.
 type: docs

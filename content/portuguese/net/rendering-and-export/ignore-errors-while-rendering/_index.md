@@ -63,7 +63,7 @@ Console.WriteLine("IgnoreErrorsWhileRenderingExcelToPdf executed successfully.\r
 ```
 
 ## Conclusão
-aí está! Você configurou com sucesso um ambiente para ignorar erros ao converter arquivos do Excel para PDF usando o Aspose.Cells. Essa abordagem não só economiza seu tempo, mas também ajuda a manter a produtividade, especialmente ao lidar com grandes volumes de arquivos que podem não estar em perfeito estado. Agora que você pegou o jeito, imagine as possibilidades — automatizar sua geração de relatórios, lidar com modelos financeiros complexos e muito mais — tudo sem a dor de cabeça de mensagens de erro interrompendo seu fluxo. 
+aí está! Você configurou com sucesso um ambiente para ignorar erros ao converter arquivos do Excel para PDF usando o Aspose.Cells. Essa abordagem não só economiza seu tempo, mas também ajuda a manter a produtividade, especialmente ao lidar com grandes volumes de arquivos que podem não estar em perfeitas condições. Agora que você pegou o jeito, imagine as possibilidades — automatizar sua geração de relatórios, lidar com modelos financeiros complexos e muito mais — tudo sem a dor de cabeça de mensagens de erro interrompendo seu fluxo. 
 ## Perguntas frequentes
 ### E se meu arquivo do Excel não carregar?
 Verifique o caminho do arquivo e confirme se o arquivo existe naquele local. Além disso, certifique-se de que não há problemas com permissões de arquivo.

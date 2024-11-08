@@ -49,7 +49,7 @@ c = workbook.GetThemeColor(ThemeColorType.Accent2);
 // Cetak warnanya.
 Console.WriteLine("Theme color Accent2: " + c);
 ```
-Saat Anda menjalankan ini, ia akan mencetak warna yang sedang digunakan dalam tema. Ini berguna jika Anda ingin mengetahui pengaturan default sebelum membuat perubahan.
+Saat Anda menjalankannya, ia akan mencetak warna yang sedang digunakan dalam tema. Ini berguna jika Anda ingin mengetahui pengaturan default sebelum membuat perubahan.
 ## Langkah 3: Tetapkan Warna Tema Baru
 Sekarang tibalah bagian yang menyenangkan! Kita akan mengubah warna untuk Background1 dan Accent2. Mari kita ubah Background1 menjadi merah dan Accent2 menjadi biru. Ini akan memberikan tampilan baru yang berani pada buku kerja!
 Anda menggunakan metode SetThemeColor untuk mengubah warna tema untuk Background1 dan Accent2.

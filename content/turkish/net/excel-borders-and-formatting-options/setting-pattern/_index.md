@@ -66,7 +66,7 @@ Artık aralığımızı ayarladığımıza göre, biçimlendirmemiz için koşul
 int conditionIndex = fcs.AddCondition(FormatConditionType.CellValue, OperatorType.Between, "50", "100");
 FormatCondition fc = fcs[conditionIndex];
 ```
-Bu kod parçası, hücre değerinin 50 ile 100 arasında olup olmadığını kontrol eden yeni bir koşul oluşturur. Eğer öyleyse, daha sonra tanımlayacağımız biçimlendirme uygulanacaktır.
+Bu kod parçacığı, hücre değerinin 50 ile 100 arasında olup olmadığını kontrol eden yeni bir koşul oluşturur. Eğer öyleyse, daha sonra tanımlayacağımız biçimlendirme uygulanacaktır.
 ## Adım 6: Koşullu Biçimlendirme için Stili Tanımlayın
 Koşul kümemiz ile artık koşulu sağlayan hücrelere uygulanacak stili tanımlayabiliriz.
 ```csharp

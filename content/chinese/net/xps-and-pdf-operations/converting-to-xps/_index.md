@@ -50,7 +50,7 @@ Worksheet sheet = workbook.Worksheets[0]; //访问第一个工作表
 ```
 这行代码允许您访问第一个工作表以获取进一步的命令。
 ## 步骤 4：配置图像和打印选项
-现在我们需要定义如何呈现输出。这涉及创建一个`ImageOrPrintOptions`并设置所需的输出格式。
+现在我们需要定义如何呈现输出。这涉及创建一个实例`ImageOrPrintOptions`并设置所需的输出格式。
 ```csharp
 Aspose.Cells.Rendering.ImageOrPrintOptions options = new Aspose.Cells.Rendering.ImageOrPrintOptions();
 options.SaveFormat = SaveFormat.Xps; //将输出格式设置为 XPS

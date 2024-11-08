@@ -69,7 +69,7 @@ pivotField.DataDisplayFormat = PivotFieldDataDisplayFormat.RankLargestToSmallest
 ```
 こうすることで、ピボット テーブルに最初のデータ フィールドを降順で表示するように指示することになります。昇順で表示したい場合は、それに応じて表示形式を変更できます。
 ## ステップ7: データを計算する
-ピボット テーブルに加えられた変更は、データを再計算するまで有効になりません。方法は次のとおりです。
+ピボット テーブルに加えられた変更は、データを再計算するまで有効になりません。手順は次のとおりです。
 ```csharp
 pivotTable.CalculateData();
 ```

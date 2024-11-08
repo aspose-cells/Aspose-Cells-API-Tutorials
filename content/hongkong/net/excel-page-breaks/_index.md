@@ -19,7 +19,7 @@ url: /zh-hant/net/excel-page-breaks/
 需要清除所有分頁符號嗎？沒問題！查看我們的指南[Excel 清除所有分頁符](./excel-clear-all-page-breaks/)，它提供了一個任何人都可以掌握的簡單有效的流程。這一切都是為了讓您的工作流程更順暢、更快。
 
 ## 觸手可及的客製化
-如果您只想刪除某些分頁符號怎麼辦？這就是我們教學的地方[Excel 刪除特定分頁符](./excel-remove-specific-page-break/)發揮作用。它專為您需要精確控製文件佈局的時刻量身定制。使用 Aspose.Cells for .NET，您將能夠按照您想要的方式自訂電子表格。 
+如果您只想刪除某些分頁符號怎麼辦？這就是我們的教程的地方[Excel 刪除特定分頁符](./excel-remove-specific-page-break/)發揮作用。它專為您需要精確控製文件佈局的時刻量身定制。使用 Aspose.Cells for .NET，您將能夠按照您想要的方式自訂電子表格。 
 
 ## 教學 
 | 標題 | 描述 |

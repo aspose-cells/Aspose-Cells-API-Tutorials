@@ -9,7 +9,7 @@ url: /pl/net/excel-worksheet-csharp-tutorials/add-excel-worksheet-to-existing-wo
 ---
 ## Wstęp
 
-Wraz z ciągłym rozwojem cyfrowego świata praca z arkuszami kalkulacyjnymi stała się kluczową częścią wielu procesów biznesowych. Od zarządzania finansami po organizowanie danych, możliwość dodawania i manipulowania arkuszami kalkulacyjnymi programu Excel programowo może zaoszczędzić mnóstwo czasu i usprawnić przepływ pracy. W tym przewodniku zagłębimy się w to, jak dodać arkusz kalkulacyjny programu Excel do istniejącego skoroszytu za pomocą Aspose.Cells dla .NET, potężnej biblioteki zaprojektowanej do bezproblemowej automatyzacji zadań arkusza kalkulacyjnego. Zakasajmy rękawy i zaczynajmy!
+Wraz z ciągłym rozwojem cyfrowego świata praca z arkuszami kalkulacyjnymi stała się kluczową częścią wielu procesów biznesowych. Od zarządzania finansami po organizowanie danych, możliwość dodawania i manipulowania arkuszami kalkulacyjnymi programu Excel programowo może zaoszczędzić mnóstwo czasu i usprawnić przepływ pracy. W tym przewodniku zagłębimy się w to, jak dodać arkusz kalkulacyjny programu Excel do istniejącego skoroszytu przy użyciu Aspose.Cells dla .NET, potężnej biblioteki zaprojektowanej do bezproblemowej automatyzacji zadań arkusza kalkulacyjnego. Zakasajmy rękawy i zaczynajmy!
 
 ## Wymagania wstępne
 

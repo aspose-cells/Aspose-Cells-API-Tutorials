@@ -60,7 +60,7 @@ string sourceDir = "Your Document Directory";
 
 ## Paso 2: Cargue el libro de trabajo
 
- A continuación, cargue el archivo Excel en un`Workbook`objeto. Esto le permite acceder a todo el contenido del archivo.
+ A continuación, cargue el archivo Excel en un`Workbook` objeto. Esto le permite acceder a todo el contenido del archivo.
 
 ```csharp
 Workbook wb = new Workbook(sourceDir + "sampleFindTypeOfXandYValuesOfPointsInChartSeries.xlsx");

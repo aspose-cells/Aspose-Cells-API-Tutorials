@@ -75,7 +75,7 @@ För att rotera text behöver vi en form att arbeta med. Här kommer vi åt den 
 Shape sh = ws.Shapes[0];
 ```
 ## Steg 6: Justera formtextjustering
-Här händer magin. Vi kommer att justera formens textjusteringsegenskaper.
+Det är här magin händer. Vi kommer att justera formens textjusteringsegenskaper.
 ```csharp
 //Få åtkomst till formtextjustering.
 Aspose.Cells.Drawing.Texts.ShapeTextAlignment shapeTextAlignment = sh.TextBody.TextAlignment;

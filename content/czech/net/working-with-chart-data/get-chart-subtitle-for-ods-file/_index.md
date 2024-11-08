@@ -16,9 +16,9 @@ Soubory Excel jsou v dnešním světě založeném na datech všudypřítomné a
 Než se pustíte do výukového programu, budete se chtít ujistit, že jste nastavili vše potřebné k efektivnímu používání Aspose.Cells pro .NET. Zde je kontrolní seznam, který je třeba dodržovat:
 
 1. .NET Framework: Ujistěte se, že máte na svém počítači nainstalované rozhraní .NET Framework. 
-2. Knihovna Aspose.Cells: Stáhněte a nainstalujte knihovnu Aspose.Cells. Můžete to získat od[zde](https://releases.aspose.com/cells/net/).
+2.  Knihovna Aspose.Cells: Stáhněte a nainstalujte knihovnu Aspose.Cells. Můžete to získat od[zde](https://releases.aspose.com/cells/net/).
 3. IDE: I když to zvládne jakýkoli editor kódu, použití IDE, jako je Visual Studio, poskytuje robustní platformu pro vývoj .NET.
-4.  Vzorový soubor ODS: Budete potřebovat soubor ODS, který obsahuje grafy. Pro tento tutoriál použijeme`SampleChart.ods`.
+4. Vzorový soubor ODS: Budete potřebovat soubor ODS, který obsahuje grafy. Pro tento tutoriál použijeme`SampleChart.ods`.
 5. Základní znalost C#: Znalost C# vám pomůže rychle pochopit koncepty a provádět úpravy podle potřeby.
 
 ## Importujte balíčky
@@ -39,7 +39,7 @@ A teď se pustíme do toho natvrdlého. Podle těchto podrobných pokynů extrah
 Vytvořte nový projekt aplikace konzoly
 
 - Otevřete Visual Studio (nebo preferované IDE).
-- Vytvořte nový projekt aplikace konzoly a dejte mu relevantní název, např`ChartSubtitleExtractor`.
+-  Vytvořte nový projekt aplikace konzoly a dejte mu relevantní název, např`ChartSubtitleExtractor`.
 
 ## Krok 2: Přidejte balíček NuGet Aspose.Cells
 

@@ -28,3 +28,39 @@ Nyní trochu přeřadíme rychlostní stupně. Převedli jste někdy soubor Exce
 Snadno extrahujte a spravujte hypertextové odkazy ze souborů aplikace Excel pomocí Aspose.Cells pro .NET. Součástí je podrobný průvodce a příklady kódu.
 ### [Nastavení předvoleb obrázků pro HTML v .NET](./setting-image-preferences-for-html/)
 Odemkněte sílu Aspose.Cells pro .NET. Naučte se, jak nastavit předvolby obrázků pro převod HTML, abyste svá data Excelu krásně prezentovali na webu.
+### [Přidejte do sešitu komentáře se závitem](./add-threaded-comments/)
+V tomto podrobném návodu se dozvíte, jak přidávat komentáře s vlákny do listů aplikace Excel pomocí Aspose.Cells for .NET. Vylepšete spolupráci bez námahy.
+### [Počítat počet buněk v listu](./count-cells/)
+Odemkněte sílu Aspose.Cells pro .NET. Naučte se počítat buňky v excelovém listu pomocí tohoto podrobného průvodce.
+### [Vyjmout a vložit buňky do listu](./cut-and-paste-cells/)
+Naučte se vyjmout a vložit buňky v Excelu pomocí Aspose.Cells for .NET pomocí tohoto jednoduchého podrobného návodu.
+### [Detekce mezinárodního listu maker v sešitu](./detect-international-macro-sheet/)
+Zjistěte, jak detekovat mezinárodní listy maker v Excelu pomocí Aspose.Cells for .NET s tímto podrobným průvodcem krok za krokem. Ideální pro vývojáře.
+### [Upravte podprocesové komentáře v listu](./edit-threaded-comments/)
+Odemkněte kouzlo úprav vláknových komentářů v Excelu pomocí Aspose.Cells pro .NET! Postupujte podle našeho podrobného průvodce a snadno si osvojte své dokumenty.
+### [Zkontrolujte, zda je List dialogovým listem](./check-dialog-sheet/)
+V tomto podrobném návodu se dozvíte, jak zkontrolovat, zda je list dialogovým listem pomocí Aspose.Cells for .NET.
+### [Získejte ověření buňky v souboru ODS](./get-cell-validation-ods/)
+Naučte se, jak získat ověření buňky v souborech ODS pomocí Aspose.Cells for .NET. Průvodce krok za krokem pro vývojáře.
+### [Získejte rozsah pomocí externích odkazů v listu](./get-range-with-external-links/)
+Naučte se, jak efektivně získat rozsahy pomocí externích odkazů v excelových listech pomocí Aspose.Cells for .NET v tomto komplexním podrobném tutoriálu.
+### [Získejte jedinečné ID listu](./get-worksheet-id/)
+Naučte se, jak získat jedinečné ID listu pomocí Aspose.Cells for .NET, pomocí tohoto podrobného průvodce. Spravujte své tabulky efektivněji.
+### [Tisk listu s dalšími nastaveními](./print-sheet-with-settings/)
+V tomto podrobném podrobném průvodci se dozvíte, jak bez námahy tisknout listy aplikace Excel pomocí Aspose.Cells for .NET.
+### [Přečtěte si obrázek na pozadí ODS](./read-ods-background/)
+Naučte se číst obrázky pozadí ODS pomocí Aspose.Cells for .NET s tímto komplexním, podrobným návodem. Ideální pro vývojáře a nadšence.
+### [Přečtěte si čas vytvoření komentářů pod vláknem v listu](./read-threaded-comment-created-time/)
+Naučte se číst vytvořený čas vláknových komentářů v Excelu pomocí Aspose.Cells for .NET. Podrobný průvodce včetně příkladů kódu.
+### [Přečtěte si vláknové komentáře v pracovním listu](./read-threaded-comments/)
+Odemkněte sílu čtení vláknových komentářů v Excelu s Aspose.Cells pro .NET. Ponořte se do tohoto podrobného průvodce pro snadnou manipulaci s dokumenty.
+### [Odebrat komentáře se vlákny z listu](./remove-threaded-comments/)
+Pomocí tohoto podrobného průvodce můžete snadno odstranit komentáře s vlákny z listů aplikace Excel pomocí Aspose.Cells for .NET. Zjednodušte si správu Excelu.
+### [Nastavte barevné pozadí v souboru ODS](./set-ods-colored-background/)
+Naučte se, jak nastavit barevné pozadí v souborech ODS pomocí Aspose.Cells for .NET, s podrobnými návody a tipy.
+### [Nastavte grafické pozadí v souboru ODS](./set-ods-graphic-background/)
+Naučte se nastavit grafické pozadí v souborech ODS pomocí Aspose.Cells for .NET pomocí tohoto komplexního průvodce krok za krokem.
+### [Aktualizujte historii protokolu revizí ve sdíleném sešitu](./update-revision-log-history/)
+Naučte se aktualizovat historii protokolu revizí ve sdílených sešitech pomocí Aspose.Cells for .NET. Zjednodušte spolupráci a udržujte přehledné záznamy dokumentů.
+### [Využijte vlastnost Sheet_SheetId OpenXml v pracovním listu](./utilize-sheet-sheetid-property/)
+Odemkněte sílu Excelu s Aspose.Cells pro .NET. Naučte se efektivně manipulovat s ID listů pomocí našeho podrobného průvodce.

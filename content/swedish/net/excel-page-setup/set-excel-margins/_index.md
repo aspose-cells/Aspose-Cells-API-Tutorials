@@ -84,7 +84,7 @@ Nu är du redo att ändra detta kalkylblad!
 
  För att ändra marginalerna måste vi arbeta med`PageSetup` objekt. Det här objektet tillhandahåller egenskaper som styr sidans layout, inklusive marginaler.
 
-Skaffa`PageSetup` egenskap från arbetsbladet:
+Skaffa`PageSetup` egenskap från kalkylbladet:
 
 ```csharp
 PageSetup pageSetup = worksheet.PageSetup;

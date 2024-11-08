@@ -11,7 +11,7 @@ url: /cs/net/exporting-excel-to-html-with-advanced-options/exporting-worksheet-c
 V této příručce se naučíte, jak exportovat excelový list do HTML, se zvláštním zaměřením na samostatný export CSS. To nejen zlepšuje udržovatelnost vašich stylů, ale také zvyšuje efektivitu vašeho pracovního postupu. Nyní se pojďme ponořit přímo do předpokladů a ušpinit si ruce!
 ## Předpoklady
 Než se pustíme do kódu, zde je to, co potřebujete, aby tento návod proběhl hladce:
-1. Licence Aspose.Cells for .NET: K plnému využití funkcí Aspose.Cells budete potřebovat licenci. Můžete[stáhnout nejnovější verzi](https://releases.aspose.com/cells/net/)nebo získat a[dočasná licence](https://purchase.aspose.com/temporary-license/) pokud jen testujete vody.
+1. Licence Aspose.Cells for .NET: K plnému využití funkcí Aspose.Cells budete potřebovat licenci. Můžete[stáhněte si nejnovější verzi](https://releases.aspose.com/cells/net/)nebo získat a[dočasná licence](https://purchase.aspose.com/temporary-license/) pokud jen testujete vody.
 2. Vývojové prostředí: V ideálním případě byste měli mít nainstalované Visual Studio, abyste mohli bezproblémově provozovat své projekty .NET.
 3. Základní znalost C#: Trochu znalosti programování v C# vám pomohou lépe porozumět úryvkům kódu.
 4.  Referenční dokumentace: Seznamte se s[Dokumentace Aspose.Cells](https://reference.aspose.com/cells/net/) pro další funkce a možnosti.

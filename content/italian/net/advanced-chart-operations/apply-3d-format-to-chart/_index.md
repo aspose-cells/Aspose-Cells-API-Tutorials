@@ -53,7 +53,7 @@ Questa sezione suddividerà il processo in passaggi gestibili, fornendoti una ch
  Per prima cosa, devi creare un'istanza di`Workbook` classe. Questo oggetto servirà come base per il tuo documento Excel.
 
 ```csharp
-//Directory di uscita
+//Directory di output
 string outputDir = "Your Document Directory";
 Workbook book = new Workbook();
 ```

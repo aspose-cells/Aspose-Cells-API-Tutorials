@@ -27,7 +27,7 @@ Ujistěte se, že máte na svém počítači nainstalované rozhraní .NET Frame
 
  Musíte mít knihovnu Aspose.Cells. Můžete si jej stáhnout z[Aspose webové stránky](https://releases.aspose.com/cells/net/). Nabízejí bezplatnou zkušební verzi, pokud chcete otestovat vody, než se zavážete.
 
-### Soubor aplikace Excel s pojmenovanými rozsahy
+### Excel soubor s pojmenovanými rozsahy
 
  Pro naše příklady vytvořte soubor aplikace Excel s názvem`sampleIdentifyCellsInNamedRange.xlsx` a definovat pojmenovaný rozsah, řekněme`MyRangeThree`, v něm. To je zásadní, protože ukázkový kód spoléhá na tento konkrétní pojmenovaný rozsah.
 

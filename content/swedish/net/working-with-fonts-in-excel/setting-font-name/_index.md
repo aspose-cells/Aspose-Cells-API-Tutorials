@@ -71,7 +71,7 @@ Genom att rikta in dig på cell "A1" kan du ändra dess innehåll och stil.
 ## Steg 7: Lägg till värde till cellen
 Nu är det dags att lägga in lite text i vår valda cell. Vi ställer in det till en vänlig hälsning!
 ```csharp
-// Lägger till något värde till "A1"-cellen
+// Lägga till något värde till "A1"-cellen
 cell.PutValue("Hello Aspose!");
 ```
 Detta kommando fyller cell "A1" med texten "Hello Aspose!" Precis så börjar vårt kalkylblad ta form!

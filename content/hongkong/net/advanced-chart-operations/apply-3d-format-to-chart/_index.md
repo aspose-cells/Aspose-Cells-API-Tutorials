@@ -15,7 +15,7 @@ url: /zh-hant/net/advanced-chart-operations/apply-3d-format-to-chart/
 
 在我們深入研究將 3D 格式應用於圖表的細節之前，讓我們確保您擁有所需的一切。
 
-### 軟體要求
+### 軟體需求
 
 - Visual Studio：確保安裝了 Visual Studio 以使用 .NET 應用程式。
 -  Aspose.Cells for .NET：如果您還沒有安裝 Aspose.Cells，請從[這裡](https://releases.aspose.com/cells/net/).

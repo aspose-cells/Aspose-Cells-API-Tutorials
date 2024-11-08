@@ -57,7 +57,7 @@ Workbook workbook = new Workbook(sourceDir + "sampleCreateSlicerToExcelTable.xls
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 ## 第 4 步：存取 Excel 表格
-拿到工作表後，就可以確定表格了。這就是奇蹟發生的地方——您要操作的資料位於該表中。
+拿到工作表後，就可以確定表格了。這就是神奇的地方—您要操作的資料就位於這個表中。
 ```csharp
 //訪問工作表內的第一個表。
 ListObject table = worksheet.ListObjects[0];

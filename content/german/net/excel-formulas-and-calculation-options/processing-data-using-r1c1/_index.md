@@ -62,7 +62,7 @@ Und da haben Sie es! Sie haben gerade mit Aspose.Cells für .NET durch die kompl
 Diese Flexibilität ist besonders nützlich, wenn Sie mit großen Datensätzen arbeiten oder wenn sich das Layout Ihrer Daten häufig ändert. Entdecken Sie also mehr und schöpfen Sie das Potenzial Ihrer Datenverwaltungsaufgaben mit Aspose.Cells aus!
 ## Häufig gestellte Fragen
 ### Was ist die R1C1-Notation in Excel?
-Mit der R1C1-Notation können Sie auf Zellen relativ zur Position der aktuellen Zelle verweisen. Dies ist insbesondere für dynamische Berechnungen nützlich.
+Mit der R1C1-Notation können Sie auf Zellen relativ zur Position der aktuellen Zelle verweisen. Dies ist besonders nützlich für dynamische Berechnungen.
 ### Kann ich Aspose.Cells mit anderen Programmiersprachen verwenden?
 Aspose.Cells unterstützt hauptsächlich .NET, es gibt aber Versionen für Java, Android und mehr.
 ### Ist die Nutzung von Aspose.Cells kostenlos?

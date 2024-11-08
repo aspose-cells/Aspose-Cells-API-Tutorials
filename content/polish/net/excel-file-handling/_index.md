@@ -21,7 +21,7 @@ Czy kiedykolwiek frustrowały Cię puste wiersze w arkuszach kalkulacyjnych prog
 
 ## Załaduj widoczne arkusze tylko z pliku Excel
 
-Czasami chcesz skupić się tylko na arkuszach, z którymi aktualnie pracujesz, prawda? W tym miejscu trzeci samouczek błyszczy! Ładowanie tylko widocznych arkuszy z pliku Excel pozwala Ci skoncentrować się na tym, co najważniejsze. To jak sprzątanie miejsca pracy, eliminowanie rozpraszaczy dla zwiększenia produktywności. Ten przewodnik krok po kroku pokazuje dokładnie, jak usprawnić swoje procesy. Jeśli brzmi to jak coś, z czego możesz skorzystać, nie wahaj się sprawdzić pełnych instrukcji[Tutaj](./load-visible-sheets-only/).
+Czasami chcesz skupić się tylko na arkuszach, z którymi aktualnie pracujesz, prawda? W tym miejscu trzeci samouczek błyszczy! Ładowanie tylko widocznych arkuszy z pliku Excel pozwala Ci skoncentrować się na tym, co najważniejsze. To jak sprzątanie miejsca pracy, eliminowanie rozpraszaczy w celu zwiększenia produktywności. Ten przewodnik krok po kroku pokazuje dokładnie, jak usprawnić swoje procesy. Jeśli brzmi to jak coś, z czego możesz skorzystać, nie wahaj się sprawdzić pełnych instrukcji[Tutaj](./load-visible-sheets-only/).
 
 ## Samouczki dotyczące obsługi plików Excel
 ### [Eksportuj właściwości niestandardowe do pliku PDF z programu Excel](./export-custom-properties-to-pdf/)

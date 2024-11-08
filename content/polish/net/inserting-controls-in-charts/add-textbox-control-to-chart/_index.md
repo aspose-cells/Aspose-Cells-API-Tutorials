@@ -2,7 +2,7 @@
 title: Dodaj kontrolkę TextBox do wykresu
 linktitle: Dodaj kontrolkę TextBox do wykresu
 second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Dowiedz się, jak dodać pole tekstowe do wykresów w programie Excel za pomocą Aspose.Cells dla platformy .NET. Bez wysiłku udoskonalaj wizualizację danych.
+description: Dowiedz się, jak dodać pole tekstowe do wykresów w programie Excel za pomocą Aspose.Cells dla platformy .NET. Ulepsz wizualizację danych bez wysiłku.
 type: docs
 weight: 12
 url: /pl/net/inserting-controls-in-charts/add-textbox-control-to-chart/

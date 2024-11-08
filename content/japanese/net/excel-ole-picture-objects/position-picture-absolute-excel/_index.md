@@ -47,7 +47,7 @@ int sheetIndex = workbook.Worksheets.Add();
 ```csharp
 Worksheet worksheet = workbook.Worksheets[sheetIndex];
 ```
-これで、`worksheet`画像などのコンテンツを追加するオブジェクト。
+これで、`worksheet`画像を含むコンテンツを追加するオブジェクト。
 ## ステップ5: 画像の追加
 次は、面白い部分です。ここで、ワークシートに画像を追加します。画像を固定する行と列のインデックスを指定します (この場合は、セル "F6"、つまり行 5、列 5)。
 ```csharp

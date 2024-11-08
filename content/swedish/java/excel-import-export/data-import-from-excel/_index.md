@@ -63,7 +63,7 @@ public class ExcelDataImport {
 
 I den här koden laddar vi en Excel-arbetsbok, kommer åt en specifik cell (A1) och itererar genom alla rader och kolumner för att läsa och visa data.
 
-## Kör koden
+## Köra koden
 
 Kompilera och kör Java-koden i din IDE. Se till att du har en Excel-fil med namnet "input.xlsx" i din projektkatalog. Koden kommer att visa data i cell A1 och alla data i kalkylbladet.
 

@@ -105,7 +105,7 @@ Lassen Sie uns mit Ihrem Arbeitsblatt einige Daten in die erste Zelle (A1) einge
 // Zugriff auf die Zelle „A1“ aus dem Arbeitsblatt
 Cell cell = worksheet.Cells["A1"];
 
-// Hinzufügen eines Wertes zur Zelle „A1“
+// Einen Wert zur Zelle „A1“ hinzufügen
 cell.PutValue("Hello Aspose!");
 ```
 

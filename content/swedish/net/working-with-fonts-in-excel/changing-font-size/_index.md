@@ -69,7 +69,7 @@ I det här exemplet, låt oss lägga till en enkel hälsning till cell A1.
 ```csharp
 // Åtkomst till "A1"-cellen från kalkylbladet
 Aspose.Cells.Cell cell = worksheet.Cells["A1"];
-// Lägger till något värde till "A1"-cellen
+// Lägga till något värde till "A1"-cellen
 cell.PutValue("Hello Aspose!");
 ```
 Föreställ dig att det här är att skriva en anteckning till din publik – den första interaktionen de har med ditt kalkylark!

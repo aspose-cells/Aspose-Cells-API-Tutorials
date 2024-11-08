@@ -30,7 +30,7 @@ Open Visual Studio en maak een nieuw Console Application-project. U kunt het een
 
 ### Voeg Aspose.Cells-referentie toe
 
-Nu is het tijd om de Aspose.Cells bibliotheekreferentie toe te voegen. U kunt:
+Nu is het tijd om de Aspose.Cells bibliotheekreferentie toe te voegen. U kunt het volgende doen:
 
 -  Download de DLL van[hier](https://releases.aspose.com/cells/net/)en voeg het handmatig toe aan uw project.
 - Of gebruik NuGet Package Manager en voer de volgende opdracht uit in de Package Manager Console:

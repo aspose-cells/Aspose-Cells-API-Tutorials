@@ -62,7 +62,7 @@ Cell cell = worksheet.Cells["A1"];
 ## Steg 5: Lägg till värde till cellen
 Innan vi formaterar cellen, låt oss infoga lite text i den. I det här fallet skriver vi helt enkelt "Hej".
 ```csharp
-// Lägger till något värde till "A1"-cellen
+// Lägga till något värde till "A1"-cellen
 cell.PutValue("Hello");
 ```
 ## Steg 6: Ställ in teckensnittet på Subscript

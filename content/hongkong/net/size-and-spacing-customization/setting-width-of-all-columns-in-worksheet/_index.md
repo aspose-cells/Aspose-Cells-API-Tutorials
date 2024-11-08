@@ -75,7 +75,7 @@ fstream.Close();
 ### 什麼是 Aspose.Cells for .NET？
 Aspose.Cells for .NET 是一個功能強大的程式庫，可讓您在 .NET 應用程式中以程式設計方式建立、操作和管理 Excel 電子表格。
 ### 我可以使用 Aspose.Cells 修改 Excel 檔案的佈局嗎？
-是的，Aspose.Cells 提供了廣泛的功能來修改 Excel 檔案的佈局，包括設定列的寬度，如本教學所示。
+是的，Aspose.Cells 提供了廣泛的功能來修改 Excel 檔案的佈局，包括設定列寬，如本教學所示。
 ### Aspose.Cells for .NET 是否有免費試用版？
 是的，Aspose 提供了[免費試用](https://releases.aspose.com/) Aspose.Cells for .NET，它允許您在購買之前評估該庫。
 ### 如何購買 Aspose.Cells for .NET？

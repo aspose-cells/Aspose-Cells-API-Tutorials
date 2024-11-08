@@ -83,4 +83,4 @@ Aspose.Cells 是一個 .NET 函式庫，用於建立、操作和轉換 Excel 文
 ### 如果我在使用 Aspose.Cells 時遇到問題怎麼辦？
 您可以從 Aspose 的支援論壇尋求協助來解決您可能遇到的任何問題或疑問。
 ### 在哪裡可以購買 Aspose.Cells 的許可證？
-您可以直接從以下網站購買許可證[Aspose購買頁面](https://purchase.aspose.com/buy).
+您可以直接從[Aspose購買頁面](https://purchase.aspose.com/buy).

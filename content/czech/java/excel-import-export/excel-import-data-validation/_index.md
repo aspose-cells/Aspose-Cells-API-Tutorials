@@ -25,7 +25,7 @@ Abychom mohli začít naši cestu, musíme nejprve nastavit vývojové prostřed
 
 4. Přidání Aspose.Cells do vašeho projektu: Zahrňte do projektu knihovnu Aspose.Cells jako závislost.
 
-## Krok 2: Načtení souboru Excel
+## Krok 2: Načtení souboru aplikace Excel
 Nyní, když je naše prostředí připraveno, pokračujeme v načítání souboru Excel, který obsahuje data k importu.
 
 ```java

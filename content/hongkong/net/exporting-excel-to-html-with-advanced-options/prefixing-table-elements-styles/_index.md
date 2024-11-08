@@ -39,7 +39,7 @@ string outputDir = "Your Document Directory"; //將其更改為您想要的輸�
 //建立工作簿對象
 Workbook wb = new Workbook(); //您剛剛在記憶體中建立了一個新工作簿
 ```
-在這裡，`Workbook`類別是您要使用 Excel 檔案執行的任何操作的基礎。 
+在這裡，`Workbook`類別是您要對 Excel 檔案執行的任何操作的基礎。 
 ## 第 3 步：存取第一個工作表
 每個工作簿至少包含一個工作表。我們將存取第一個來開始操作單元格資料。
 ```csharp

@@ -50,7 +50,7 @@ Workbook workbook = new Workbook();
 ## 第 3 步：訪問工作表
 現在我們有了工作簿，讓我們存取要進行更改的工作表。在這種情況下，我們將使用第一個工作表。
 ```csharp
-//透過傳遞工作表索引來取得新新增工作表的引用
+//透過傳遞工作表索引來取得新新增的工作表的引用
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 ## 第 4 步：訪問儲存格

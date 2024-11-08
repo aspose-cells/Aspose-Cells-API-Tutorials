@@ -123,7 +123,7 @@ Ez a vonal olyan, mint egy befejező simítás egy projekt befejezése után –
 
 ## Következtetés
 
-És megvan! Sikeresen beállította az Excel-munkafüzet nyomtatási előnézetét az Aspose.Cells for .NET segítségével. A csomagok importálásától kezdve a teljes munkafüzet és az egyes munkalapok oldalszámának kiértékeléséig mindenre kiterjedtünk. Elképesztő, milyen könnyű elképzelni, hogyan fog kinézni a munkafüzeted kinyomtatott állapotban, igaz? Az Aspose.Cells használatával hatékony eszközöket kaphat az Ön rendelkezésére. Akár tapasztalt fejlesztő, akár csak most kezdő, ez a könyvtár biztosítja azt a rugalmasságot és funkcionalitást, amelyre szüksége van ahhoz, hogy Excel fájlkezelését a következő szintre emelje.
+És megvan! Sikeresen beállította az Excel-munkafüzet nyomtatási előnézetét az Aspose.Cells for .NET segítségével. A csomagok importálásától kezdve a teljes munkafüzet és az egyes munkalapok oldalszámának kiértékeléséig mindenre kiterjedtünk. Elképesztő, milyen könnyű elképzelni, hogyan fog kinézni a munkafüzeted kinyomtatott állapotban, igaz? Az Aspose.Cells használatával hatékony eszközöket kaphat az Ön rendelkezésére. Akár tapasztalt fejlesztő, akár csak most kezdő, ez a könyvtár azt a rugalmasságot és funkcionalitást kínálja, amelyre szüksége van ahhoz, hogy Excel fájlkezelését a következő szintre emelje.
 
 ## GYIK
 

@@ -16,7 +16,7 @@ Scopri la potenza di Aspose.Cells per Java nei nostri tutorial di automazione de
 
 Ottieni un vantaggio scaricando Aspose.Cells per Java dalla fonte. Il nostro tutorial ti guida attraverso l'integrazione, rendendo semplice l'automazione delle attività del tuo foglio di calcolo Java.
 
-### Manipolazione dei dati semplificata
+### La manipolazione dei dati resa facile
 
 Sblocca il potenziale di Aspose.Cells mentre esploriamo la manipolazione dei dati. Ordina, filtra ed esegui calcoli complessi con semplicità e precisione.
 

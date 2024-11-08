@@ -88,7 +88,7 @@ String currentDate = worksheet.getCells().get("A1").getStringValue();
 System.out.println("Current Date: " + currentDate);
 ```
 
-### DATEDIF를 사용한 날짜 차이 계산
+### DATEDIF를 사용하여 날짜 차이 계산
 
 Excel의 DATEDIF 함수를 사용하여 날짜 차이를 쉽게 계산할 수 있습니다. Java용 Aspose.Cells를 사용하여 이를 수행하는 방법은 다음과 같습니다.
 

@@ -70,7 +70,7 @@ Denna kodrad får tillgång till cell "A1", som vi kommer att ändra snart.
 ## Steg 5: Lägg till värde till cellen
 Det är dags att lägga in lite data i vår cell.
 ```csharp
-// Lägger till något värde till "A1"-cellen
+// Lägga till något värde till "A1"-cellen
 cell.PutValue("Visit Aspose!");
 ```
 

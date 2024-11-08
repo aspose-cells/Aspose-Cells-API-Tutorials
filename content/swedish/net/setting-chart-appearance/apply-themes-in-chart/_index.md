@@ -108,7 +108,7 @@ cc.ThemeColor = new ThemeColor(ThemeColorType.Accent6, 0.6);
 
 Här är vad som händer:
 1. Vi får färgen på den fasta fyllningen.
-2.  Använder`ThemeColor` , ställer vi in en färg för vår fasta fyllning. Du kan ändra`Accent6` till någon annan temafärg beroende på vad du gillar.
+2.  Använder`ThemeColor` , anger vi en färg för vår fasta fyllning. Du kan ändra`Accent6` till någon annan temafärg beroende på vad du gillar.
 
 ## Steg 7: Tillämpa temat på serien
 

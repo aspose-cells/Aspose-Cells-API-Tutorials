@@ -2,13 +2,13 @@
 title: Ustawianie formatu pola strony programowo w .NET
 linktitle: Ustawianie formatu pola strony programowo w .NET
 second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Dowiedz się, jak programowo ustawiać formaty pól stron w tabelach przestawnych przy użyciu Aspose.Cells dla .NET. Postępuj zgodnie z naszym samouczkiem krok po kroku, aby płynnie zarządzać danymi.
+description: Dowiedz się, jak programowo ustawić formaty pól stron w tabelach przestawnych przy użyciu Aspose.Cells dla .NET. Postępuj zgodnie z naszym samouczkiem krok po kroku, aby płynnie zarządzać danymi.
 type: docs
 weight: 21
 url: /pl/net/creating-and-configuring-pivot-tables/setting-page-field-format/
 ---
 ## Wstęp
-Tworzenie i manipulowanie plikami Excela za pomocą kodu może być bardzo pomocne, zwłaszcza gdy trzeba analizować duże zbiory danych. Jednym z fantastycznych narzędzi w Twoim arsenale jest Aspose.Cells dla .NET, który umożliwia programową interakcję z plikami Excela i tworzenie złożonych struktur raportowania. W tym samouczku zagłębimy się w to, jak można skonfigurować formaty pól stron w tabeli przestawnej za pomocą tej potężnej biblioteki. Niezależnie od tego, czy jesteś doświadczonym programistą, czy początkującym, pod koniec tego przewodnika będziesz mieć solidne pojęcie o tym, jak obsługiwać tabele przestawne i ich różne ustawienia w .NET.
+Tworzenie i manipulowanie plikami Excela za pomocą kodu może być bardzo pomocne, zwłaszcza gdy trzeba analizować duże zbiory danych. Jednym z fantastycznych narzędzi w Twoim arsenale jest Aspose.Cells dla .NET, który umożliwia programową interakcję z plikami Excela i tworzenie złożonych struktur raportowania. W tym samouczku zagłębimy się w to, jak możesz skonfigurować formaty pól stron w tabeli przestawnej za pomocą tej potężnej biblioteki. Niezależnie od tego, czy jesteś doświadczonym programistą, czy początkującym, pod koniec tego przewodnika będziesz mieć solidne pojęcie o tym, jak obsługiwać tabele przestawne i ich różne ustawienia w .NET.
 ## Wymagania wstępne
 Zanim zaczniemy kodować, upewnijmy się, że wszystko jest poprawnie skonfigurowane. Będziesz potrzebować następujących rzeczy:
 - Visual Studio: środowisko robocze, w którym można pisać i wykonywać kod .NET.

@@ -70,7 +70,7 @@ Aspose.Cells.Cell cell = worksheet.Cells["A1"];
 ## Steg 7: Lägg till värde till cellen
  Låt oss sedan infoga lite text i cellen. Vi kommer att skriva "Hej Aspose!" i cellen`A1`.
 ```csharp
-// Lägger till något värde till "A1"-cellen
+// Lägga till något värde till "A1"-cellen
 cell.PutValue("Hello Aspose!");
 ```
  De`PutValue` metod används för att tilldela ett strängvärde till cellen. Du kan ändra denna sträng till allt du vill ska visas.

@@ -35,7 +35,7 @@ string outputDir = "Your Document Directory";
 ```
 只需更換`"Your Document Directory"`以及您想要儲存檔案的路徑。例如：`string outputDir = @"C:\MyExports\";`.
 ## 第 2 步：建立工作簿對象
-接下來，我們需要建立一個新的工作簿物件。將工作簿視為您的空白畫布，所有的魔法都會在這裡發生！
+接下來，我們需要建立一個新的工作簿物件。將工作簿視為您的空白畫布，所有魔法都發生在其中！
 ```csharp
 Workbook wb = new Workbook();
 ```

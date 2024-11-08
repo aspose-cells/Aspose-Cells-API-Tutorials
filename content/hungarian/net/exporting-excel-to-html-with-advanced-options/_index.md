@@ -13,7 +13,7 @@ A mai adatközpontú világban az Excel-dokumentumok hatékony HTML-exportálás
 
 ## Zárja ki a nem használt stílusokat a tisztább kimenet érdekében
 
-Kezdésnek az egyik legegyszerűbb módja, ha megtanulja, hogyan zárja ki a nem használt stílusokat HTML-be exportáláskor. Ez a módszer nemcsak leegyszerűsíti a HTML-kódot, hanem javítja a teljesítményt is azáltal, hogy elveti a felesleges duzzadást. Alapértelmezés szerint az Excel különféle stílusokat tartalmazhat, amelyeket nem használnak. Lépésről lépésre szóló útmutatónkkal gondoskodhat arról, hogy exportált dokumentuma tiszta és professzionális maradjon. Kíváncsi?[Bővebben itt](./excluding-unused-styles/).
+Kezdésnek az egyik legegyszerűbb módja, ha megtanulja, hogyan zárja ki a nem használt stílusokat HTML-be exportáláskor. Ez a módszer nemcsak leegyszerűsíti a HTML-kódot, hanem javítja a teljesítményt is azáltal, hogy elveti a felesleges duzzadást. Alapértelmezés szerint az Excel különféle stílusokat tartalmazhat, amelyeket nem használnak. Lépésről lépésre szóló útmutatónkkal gondoskodhat arról, hogy exportált dokumentuma tiszta és professzionális maradjon. Kíváncsi?[Olvass tovább itt](./excluding-unused-styles/).
 
 ## Tulajdonságok exportálása az átfogó dokumentáció érdekében
 
@@ -23,21 +23,21 @@ Kezdésnek az egyik legegyszerűbb módja, ha megtanulja, hogyan zárja ki a nem
 
 Végül, de nem utolsósorban beszéljünk a méretezhető oszlopszélességek beállításáról és az átfedő tartalom elrejtéséről. Ezek a funkciók lehetővé teszik az exportált dokumentum vizuális szempontjainak testreszabását, így felhasználóbarát és esztétikus. Képzeljen el egy jelentést, amelyben minden oszlop tökéletesen illeszkedik, vagy ahol a szükségtelen elemek nem zavarják az adatokat. Az oktatóanyagoknak köszönhetően, amelyek végigvezetnek minden lépésen, ezt elérheti! Érdekli az elrendezés tökéletesítése?[További információért kattintson ide](./setting-scalable-column-width/).
 
-## Nyomtatási terület exportálása programozottan
+## Nyomtatási terület programozott exportálása
 
  Előfordult már, hogy Excel-lapjának csak egy meghatározott részét szeretné exportálni? Írja be a nyomtatási terület HTML-be történő programozott exportálásáról szóló oktatóanyagot. Ez a remek funkció lehetővé teszi, hogy csak a legrelevánsabb adatokra összpontosítson, így a jelentések tisztábbak és célzottabbak. Képzeljen el egy projekt-összefoglalót, amelyben csak a lényeges számadatok jelennek meg – mennyire lenne hatékony?[Tekintse meg az útmutatót a funkció megvalósításához](./exporting-print-area/).
 
 ## Könnyedén kezelheti a szegélystílusokat
 
- Egy másik hasznos tipp a hasonló szegélystílusok programozott exportálása az Excelben. Ha több táblázatot tartalmaz az Excel-dokumentumban, az egységes stílus elengedhetetlen a professzionális megjelenéshez. Ezzel az oktatóanyaggal megtudhatja, hogyan tarthat fenn egységes szegélyeket, amelyek kiemelik a HTML-kimenetet, és megerősítik a márkaidentitást. Érdekel ez a csiszolt megjelenés?[Tanuld meg a trükköket itt](./exporting-similar-border-style/).
+ Egy másik hasznos tipp a hasonló szegélystílusok programozott exportálása az Excelben. Ha több táblázatot tartalmaz az Excel-dokumentumban, az egységes stílus elengedhetetlen a professzionális megjelenéshez. Ezzel az oktatóanyaggal megtudhatja, hogyan tarthat fenn egységes szegélyeket, amelyek kiemelik a HTML-kimenetet, és megerősítik a márkaidentitást. Érdekli a csiszolt megjelenés?[Tanuld meg a trükköket itt](./exporting-similar-border-style/).
 
 ## CSS-kezelés a továbbfejlesztett tervezéshez
 
- És ne feledkezzünk meg a CSS erejéről sem. Ha megérti, hogyan exportálhat külön munkalap CSS-t a kimeneti HTML-be, az szó szerint megváltoztathatja az adatok észlelését. Ez a funkció lehetővé teszi a tervezés teljes irányítását anélkül, hogy ütközne az Excel formázásával. Így vizuálisan tetszetős weboldalakat hozhat létre, amelyek továbbra is az Ön adataira fókuszálnak. Mélyre akarsz merülni ebben?[Bővebben itt](./exporting-worksheet-css-separately/).
+ És ne feledkezzünk meg a CSS erejéről sem. Ha megérti, hogyan exportálhat külön munkalap CSS-t a kimeneti HTML-be, az szó szerint megváltoztathatja az adatok észlelését. Ez a funkció lehetővé teszi a tervezés teljes irányítását anélkül, hogy ütközne az Excel formázásával. Így vizuálisan tetszetős weboldalakat hozhat létre, amelyek továbbra is az Ön adataira fókuszálnak. Szeretnél mélyre merülni ebben?[Bővebben itt](./exporting-worksheet-css-separately/).
 
-## Programozott nyomtatási fejlécek
+## Programozott nyomtatási címsorok
 
-Ó, és ha úgy gondolja, hogy a fejlécek kinyomtatása az Excelben unalmas lehet, gondolja át újra! Az Aspose.Cells segítségével programozottan nyomtathat fejléceket, és zökkenőmentesen exportálhatja adatait HTML-be. Ez a kis funkció nagy hatással lehet az adatok olvashatóságára, és segít a jelentések rendszerezésében és követhetőségében. Érdekel, hogyan lehet ezt megvalósítani?[Itt találja meg a lépésről lépésre szóló útmutatót](./printing-headings/).
+Ó, és ha úgy gondolja, hogy a fejlécek kinyomtatása az Excelben unalmas lehet, gondolja át újra! Az Aspose.Cells segítségével programozottan nyomtathat fejléceket, és zökkenőmentesen exportálhatja adatait HTML-be. Ez a kis funkció nagy hatással lehet az adatok olvashatóságára, és segít a jelentések rendszerezésében és követhetőségében. Érdekel, hogyan lehet ezt megvalósítani?[A lépésről lépésre szóló útmutatót itt találja](./printing-headings/).
 
 ## Az önzáró címkék felismerése
 

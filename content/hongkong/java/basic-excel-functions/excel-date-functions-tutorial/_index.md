@@ -26,7 +26,7 @@ TODAY 函數傳回目前日期。了解如何使用 Aspose.Cells 以程式設計
 
 ### DATEDIF 函數
 
-DATEDIF 計算兩個日期之間的差異，以各種單位（例如，天、月、年）顯示結果。了解如何使用 Aspose.Cells for Java 實作此功能。
+DATEDIF 計算兩個日期之間的差異，並以各種單位（例如天、月、年）顯示結果。了解如何使用 Aspose.Cells for Java 實作此功能。
 
 ### EOMONTH 函數
 
@@ -34,7 +34,7 @@ EOMONTH 返回給定日期該月的最後一天。了解如何使用 Aspose.Cell
 
 ## 使用 Aspose.Cells for Java
 
-現在我們已經介紹了 Excel 日期函數的基礎知識，接下來讓我們深入了解如何使用 Aspose.Cells for Java 以程式設計方式使用這些函數。
+現在我們已經介紹了 Excel 日期函數的基礎知識，接下來讓我們深入了解如何使用 Aspose.Cells for Java 以程式設計方式處理這些函數。
 
 ### 設定 Aspose.Cells
 

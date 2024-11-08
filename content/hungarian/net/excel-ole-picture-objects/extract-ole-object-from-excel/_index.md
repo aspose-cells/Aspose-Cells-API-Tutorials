@@ -2,7 +2,7 @@
 title: Az OLE objektum kibontása az Excelből
 linktitle: Az OLE objektum kibontása az Excelből
 second_title: Aspose.Cells .NET Excel Processing API
-description: Ismerje meg, hogyan bonthat ki OLE-objektumokat Excel-fájlokból az Aspose.Cells for .NET segítségével. Lépésről lépésre útmutató a könnyű kihúzáshoz.
+description: Ismerje meg, hogyan bonthat ki OLE-objektumokat Excel-fájlokból az Aspose.Cells for .NET segítségével. Útmutató lépésről lépésre az egyszerű kihúzáshoz.
 type: docs
 weight: 10
 url: /hu/net/excel-ole-picture-objects/extract-ole-object-from-excel/

@@ -9,7 +9,7 @@ url: /hu/net/row-and-column-management/
 ---
 ## Bevezetés
 
-Ha azon kapja magát, hogy az Excel bonyolultságával birkózik, nincs egyedül! Sok felhasználó küzd a sorok és oszlopok hatékony kezelésével. Szerencsére az Aspose.Cells for .NET itt van, hogy megkönnyítse az életét. Egy kis útmutatással számos műveletet könnyedén végrehajthat. Készen állsz a merülésre? Fedezzük fel a sor- és oszlopkezelés lényegét!
+Ha azon kapja magát, hogy az Excel bonyolultságával birkózik, nincs egyedül! Sok felhasználó küzd a sorok és oszlopok hatékony kezelésével. Szerencsére az Aspose.Cells for .NET itt van, hogy megkönnyítse az életét. Egy kis irányítással számos műveletet könnyedén végrehajthat. Készen állsz a merülésre? Fedezzük fel a sor- és oszlopkezelés lényegét!
 
 ## Sorok és oszlopok másolása és mozgatása
 
@@ -65,6 +65,6 @@ Ismerje meg, hogyan szúrhat be egy oszlopot az Excelbe az Aspose.Cells for .NET
 ### [Szúrjon be egy sort az Aspose.Cells .NET fájlba](./insert-row-aspose-cells/)
 Ebből a lépésenkénti útmutatóból megtudhatja, hogyan szúrhat be egy sort az Excelbe az Aspose.Cells for .NET használatával. Fokozatmentesen fejlesztheti adatkezelési készségeit.
 ### [Formázási sor beszúrása az Aspose.Cells .NET-be](./insert-row-formatting-aspose-cells/)
-Ismerje meg, hogyan szúrhat be egy sort formázással az Aspose.Cells for .NET segítségével. Kövesse lépésről lépésre útmutatónkat az egyszerű megvalósítás érdekében.
+Ismerje meg, hogyan szúrhat be egy sort formázással az Excelben az Aspose.Cells for .NET segítségével. Kövesse lépésről lépésre útmutatónkat az egyszerű megvalósítás érdekében.
 ### [Szúrjon be több sort az Aspose.Cells .NET-be](./insert-multiple-rows-aspose-cells/)
 Ismerje meg, hogyan szúrhat be több sort az Excelbe az Aspose.Cells for .NET segítségével. Kövesse részletes oktatóanyagunkat a zökkenőmentes adatkezeléshez.

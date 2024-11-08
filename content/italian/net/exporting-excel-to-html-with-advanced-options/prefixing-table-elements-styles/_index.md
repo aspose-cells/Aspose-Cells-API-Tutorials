@@ -30,7 +30,7 @@ Ora, scomponiamolo in passaggi digeribili. Creeremo una cartella di lavoro, mani
 ## Passaggio 1: definire la directory di output
 Per prima cosa, imposta una directory di output per salvare il tuo file HTML. Questo è importante perché mantiene le cose organizzate.
 ```csharp
-//Directory di uscita
+//Directory di output
 string outputDir = "Your Document Directory"; // Cambialo nella directory di output desiderata
 ```
 ## Passaggio 2: creare un'istanza della cartella di lavoro

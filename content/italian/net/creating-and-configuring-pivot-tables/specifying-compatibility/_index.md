@@ -167,7 +167,7 @@ Cell b5 = pivotSheet.Cells["B5"];
 Console.WriteLine("Length of cell B5 after setting IsExcel2003Compatible property to True: " + b5.StringValue.Length);
 ```
 
-Probabilmente vedrai un output che conferma l'effetto di troncamento se i dati iniziali superano i 255 caratteri.
+Probabilmente vedrai un output che conferma l'effetto del troncamento se i dati iniziali superano i 255 caratteri.
 
 ## Passaggio 10: modifica le impostazioni di compatibilità
 

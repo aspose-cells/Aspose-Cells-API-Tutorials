@@ -40,7 +40,7 @@ string InputPath = dataDir + "Book1.xlsx";
 ```
 这有助于简化您的文件访问；您不必在整个代码中多次输入相同的路径。
 ## 步骤 3：创建文件流
-现在是时候打开 Excel 文件了。我们将创建一个`FileStream`它可让您读取 Excel 文件的内容：
+现在是时候打开 Excel 文件了。我们将创建一个`FileStream`它可以让您读取 Excel 文件的内容：
 ```csharp
 //创建包含要打开的 Excel 文件的文件流
 FileStream fstream = new FileStream(InputPath, FileMode.Open);

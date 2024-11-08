@@ -107,7 +107,7 @@ column.ApplyStyle(style, styleFlag);
 workbook.Save(dataDir + "book1.out.xls");
 ```
 ## 結論
-使用 Aspose.Cells for .NET 自訂列的格式設定是一個簡單的過程，可讓您對資料的顯示方式進行強大的控制。從對齊文字到調整字體顏色和應用邊框，您可以以程式設計方式自動執行複雜的格式化任務，從而節省時間和精力。現在您已經知道如何自訂 Excel 檔案中的列，您可以開始探索 Aspose.Cells 提供的更多功能和功能！
+使用 Aspose.Cells for .NET 自訂列的格式設定是一個簡單的過程，可讓您對資料的顯示方式進行強大的控制。從對齊文字到調整字體顏色和應用邊框，您可以透過程式設計自動執行複雜的格式化任務，從而節省時間和精力。現在您已經知道如何自訂 Excel 檔案中的列，您可以開始探索 Aspose.Cells 提供的更多功能和功能！
 ## 常見問題解答
 ### 什麼是 Aspose.Cells for .NET？  
 Aspose.Cells for .NET 是一個函式庫，可讓開發人員以程式設計方式建立、操作和轉換 Excel 檔案。

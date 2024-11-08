@@ -89,7 +89,7 @@ In questo frammento di codice, impostiamo il tipo di compressione su Livello 1, 
 
 ### Compressione di livello 6
 
-Ora proveremo un livello di compressione di fascia media:
+Successivamente, proveremo un livello di compressione di fascia media:
 
 ```csharp
 options.CompressionType = OoxmlCompressionType.Level6;

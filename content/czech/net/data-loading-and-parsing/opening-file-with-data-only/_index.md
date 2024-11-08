@@ -8,7 +8,7 @@ weight: 11
 url: /cs/net/data-loading-and-parsing/opening-file-with-data-only/
 ---
 ## Zavedení
-Jste připraveni ponořit se do světa automatizace Excelu s Aspose.Cells pro .NET? Pokud hledáte robustní a efektivní způsob, jak programově manipulovat se soubory Excel, jste na správném místě! V tomto tutoriálu si projdeme, jak otevřít soubor Excel a přitom se soustředit pouze na jeho data – vynecháme nadbytečné prvky, jako jsou grafy a obrázky.
+Jste připraveni ponořit se do světa automatizace Excelu s Aspose.Cells pro .NET? Pokud hledáte robustní a efektivní způsob, jak programově manipulovat se soubory Excel, jste na správném místě! V tomto tutoriálu si projdeme, jak otevřít soubor Excel a přitom se soustředit pouze na jeho data – přeskakovat nadbytečné prvky, jako jsou grafy a obrázky.
 ## Předpoklady
 Než se pustíme do toho nejhrubšího kódu, ujistěte se, že máte vše, co potřebujete. Zde jsou předpoklady:
 1. .NET Framework nebo .NET Core: Nechte si nastavit projekt pomocí rozhraní .NET Framework nebo .NET Core.

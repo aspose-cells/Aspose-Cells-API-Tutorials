@@ -51,7 +51,7 @@ Per prima cosa, dobbiamo impostare i percorsi per i nostri file di input e outpu
 //Elenco di origine
 string sourceDir = "Your Document Directory/";
 
-//Directory di uscita
+//Directory di output
 string outputDir = "Your Output Directory/";
 ```
 

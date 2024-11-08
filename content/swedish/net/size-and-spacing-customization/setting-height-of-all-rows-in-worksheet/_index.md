@@ -29,7 +29,7 @@ string dataDir = "Your Document Directory";
 ```
  Ersätta`"Your Document Directory"` med den faktiska sökvägen där din Excel-fil är lagrad. Detta lilla steg lägger grunden för alla åtgärder vi ska utföra. Se det som att ställa in din arbetsyta innan du dyker in i ett hantverksprojekt.
 ## Steg 2: Skapa en filström
-Låt oss sedan skapa en filström som låter oss öppna Excel-filen. Detta är din ingång till data! Så här gör du:
+Låt oss sedan skapa en filström som låter oss öppna Excel-filen. Detta är din inkörsport till data! Så här gör du:
 ```csharp
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```

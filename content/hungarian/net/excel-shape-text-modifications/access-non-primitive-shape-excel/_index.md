@@ -12,7 +12,7 @@ Előfordult már, hogy belebotlott egy nem primitív alakzatba egy Excel-fájlba
 ## Előfeltételek
 Mielőtt belevágnánk a kódba, meg kell felelnie néhány előfeltételnek:
 1. Alapvető C# ismerete: A C# programozási nyelv ismerete elengedhetetlen a zökkenőmentes követéshez.
-2. Visual Studio: A Visual Studio-t telepítenie kell a gépére. Ide írjuk a kódunkat.
+2. Visual Studio: A Visual Studio telepítve kell legyen a gépére. Ide írjuk a kódunkat.
 3.  Aspose.Cells Library: telepítenie kell az Aspose.Cells könyvtárat. Letöltheti a legújabb verziót[itt](https://releases.aspose.com/cells/net/).
 4. Excel-fájl: Hozzon létre vagy szerezzen be olyan Excel-fájlt, amely nem primitív alakzatokat tartalmaz tesztelésre. Ehhez az oktatóanyaghoz használjuk`"NonPrimitiveShape.xlsx"`.
 Ha megvannak ezek az előfeltételek, folytathatjuk a szórakoztató részt!

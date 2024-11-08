@@ -73,7 +73,7 @@ Nyní, když máme náš sešit, přistupme k listu obsahujícímu graf. Budeme 
 Worksheet sheet = workbook.Worksheets[0];
 ```
 
-Tento krok je celý o navigaci v budově. Máte klíč (sešit), ale nyní musíte najít svůj pokoj (pracovní list).
+Tento krok je o navigaci v budově. Máte klíč (sešit), ale nyní musíte najít svůj pokoj (pracovní list).
 
 ## Krok 4: Získejte graf
 

@@ -25,6 +25,6 @@ Při práci se soubory ODS může být extrahování konkrétních detailů, jak
 ### [Vytvořte řádek s grafem značek dat](./create-line-with-data-marker-chart/)
 Naučte se, jak vytvořit graf Line with Data Markers v Excelu pomocí Aspose.Cells for .NET. Chcete-li snadno generovat a přizpůsobovat grafy, postupujte podle tohoto podrobného průvodce.
 ### [Najděte typ hodnot X a Y bodů v řadě grafů](./find-type-of-x-and-y-values-of-points-in-chart-series/)
-Naučte se najít typy hodnot X a Y v řadách grafů pomocí Aspose.Cells pro .NET pomocí tohoto podrobného a snadno srozumitelného průvodce.
+Naučte se najít typy hodnot X a Y v řadách grafů pomocí Aspose.Cells for .NET pomocí tohoto podrobného a snadno srozumitelného průvodce.
 ### [Získejte titulky grafu pro soubor ODS](./get-chart-subtitle-for-ods-file/)
 Prozkoumejte, jak extrahovat titulky grafu ze souborů ODS pomocí Aspose.Cells pro .NET pomocí tohoto podrobného průvodce krok za krokem. Ideální pro vývojáře.

@@ -17,7 +17,7 @@ Eine der einfachsten Möglichkeiten besteht darin, zu lernen, wie Sie beim Expor
 
 ## Exportieren von Eigenschaften für eine umfassende Dokumentation
 
- Darüber hinaus kann das Wissen, wie Dokument-, Arbeitsmappen- und Arbeitsblatteigenschaften in HTML exportiert werden, Ihren Exporten einen erheblichen Mehrwert verleihen. Wenn die Eigenschaften richtig eingebettet sind, kann Ihr Publikum den Kontext Ihrer Daten verstehen, was Ihre Präsentation effektiver macht. Außerdem ist die Implementierung mit Aspose.Cells für .NET unglaublich einfach. Möchten Sie die Einzelheiten kennen?[Mehr erfahren](./exporting-document-workbook-and-worksheet-properties/).
+ Darüber hinaus kann das Wissen, wie Dokument-, Arbeitsmappen- und Arbeitsblatteigenschaften in HTML exportiert werden, Ihren Exporten einen erheblichen Mehrwert verleihen. Wenn die Eigenschaften richtig eingebettet sind, kann Ihr Publikum den Kontext Ihrer Daten verstehen, was Ihre Präsentation effektiver macht. Außerdem ist die Implementierung mit Aspose.Cells für .NET unglaublich einfach. Möchten Sie die Einzelheiten kennen?[Mehr erfahren Sie hier](./exporting-document-workbook-and-worksheet-properties/).
 
 ## Steuern Sie Ihre Datenvisualisierung programmgesteuert
 
@@ -33,7 +33,7 @@ Zu guter Letzt sprechen wir über das Einstellen skalierbarer Spaltenbreiten und
 
 ## CSS-Management für verbessertes Design
 
- Und vergessen wir nicht die Leistungsfähigkeit von CSS. Wenn Sie wissen, wie Sie Arbeitsblatt-CSS separat in das Ausgabe-HTML exportieren, kann sich die Wahrnehmung Ihrer Daten buchstäblich ändern. Mit dieser Funktion haben Sie die vollständige Kontrolle über Ihr Design, ohne dass es zu Konflikten mit der Excel-Formatierung kommt. So können Sie optisch ansprechende Webseiten erstellen, die dennoch ganz auf Ihre Daten fokussiert sind. Möchten Sie tiefer in dieses Thema eintauchen?[Hier erfahren Sie mehr](./exporting-worksheet-css-separately/).
+ Und vergessen wir nicht die Leistungsfähigkeit von CSS. Wenn Sie wissen, wie Sie Arbeitsblatt-CSS separat in das Ausgabe-HTML exportieren, kann sich die Wahrnehmung Ihrer Daten buchstäblich ändern. Mit dieser Funktion haben Sie die vollständige Kontrolle über Ihr Design, ohne dass es zu Konflikten mit der Excel-Formatierung kommt. So können Sie optisch ansprechende Webseiten erstellen, die dennoch ganz auf Ihre Daten fokussiert sind. Möchten Sie tiefer in dieses Thema eintauchen?[Mehr erfahren](./exporting-worksheet-css-separately/).
 
 ## Programmatisches Drucken von Überschriften
 

@@ -17,7 +17,7 @@ url: /zh-hant/net/row-and-column-management/hide-rows-columns-aspose-cells/
 如果您是 Aspose.Cells 的新手，請務必查看其[文件](https://reference.aspose.com/cells/net/)以獲得更多見解。
 
 ## 導入包
-在我們開始編碼之前，請確保您已新增必要的命名空間。匯入正確的套件將使您能夠無縫地使用 Aspose.Cells 功能。
+在我們開始編碼之前，請確保您已添加必要的命名空間。匯入正確的套件將使您能夠無縫地使用 Aspose.Cells 功能。
 ```csharp
 using System.IO;
 using Aspose.Cells;

@@ -14,7 +14,7 @@ url: /zh-hant/java/excel-data-analysis/data-analysis-excel-charts/
 
 ## 先決條件
 
-在我們使用 Aspose.Cells for Java 進入資料分析領域之前，您需要滿足以下先決條件：
+在我們深入使用 Aspose.Cells for Java 進行資料分析之前，您需要滿足以下先決條件：
 
 - Java 開發環境：確保您的系統上安裝了 Java。
 
@@ -64,7 +64,7 @@ autoFilter.setRange("A1:D1");
 
 ## 建立 Excel 圖表
 
-現在，讓我們深入了解令人興奮的部分 - 使用處理後的資料建立 Excel 圖表。 Aspose.Cells for Java 提供了多種圖表類型，從簡單的長條圖到複雜的雷達圖。
+現在，讓我們深入研究令人興奮的部分 - 使用處理後的數據建立 Excel 圖表。 Aspose.Cells for Java 提供了多種圖表類型，從簡單的長條圖到複雜的雷達圖。
 
 ```java
 //建立長條圖

@@ -60,13 +60,13 @@ Most befejezte a beállítást! Ez olyan, mint egy szilárd alapot lefektetni a 
 
 Most, hogy készen vagyunk, merüljünk bele a kódolási részbe! Az alábbiakban részletesen leírjuk, hogyan lehet jelölőnégyzetet beszúrni egy diagramlapba az Aspose.Cells használatával.
 
-## 1. lépés: Határozza meg a kimeneti könyvtárát
+## 1. lépés: Határozza meg kimeneti könyvtárát
 
 Mielőtt rátérnénk az izgalmas részre, meg kell határoznunk, hova szeretnénk menteni a fájlunkat. Meg kell adnia a kimeneti könyvtár elérési útját.
 ```csharp
 string outputDir = "C:\\YourOutputDirectory\\"; // Váltson át a megadott könyvtárra
 ```
- Ügyeljen arra, hogy cserélje ki`"C:\\YourOutputDirectory\\"`azzal az elérési úttal, ahová a fájlt menteni szeretné. Tekintse ezt úgy, mint a munkaterület felállítását; tudnia kell, hová helyezi az eszközeit (vagy ebben az esetben az Excel-fájlt).
+ Mindenképpen cserélje ki`"C:\\YourOutputDirectory\\"`azzal az elérési úttal, ahová a fájlt menteni szeretné. Tekintse ezt úgy, mint a munkaterület felállítását; tudnia kell, hová helyezi az eszközeit (vagy ebben az esetben az Excel-fájlt).
 
 ## 2. lépés: Munkafüzet-objektum példányosítása
 

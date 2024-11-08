@@ -57,7 +57,7 @@ A kódolás megkezdése előtt döntse el, hová szeretné menteni a kimeneti PD
 string outputDir = "YOUR_OUTPUT_DIRECTORY";
 ```
 
- Ügyeljen arra, hogy cserélje ki`"YOUR_OUTPUT_DIRECTORY"` azzal a tényleges elérési úttal, ahová a PDF-dokumentumot menteni szeretné. Tekintsd ezt úgy, mint egy asztalterítést a főzés megkezdése előtt; tiszta térre van szüksége a munkához.
+ Mindenképpen cserélje ki`"YOUR_OUTPUT_DIRECTORY"` azzal a tényleges elérési úttal, ahová a PDF-dokumentumot menteni szeretné. Tekintsd ezt úgy, mint egy asztalterítést a főzés megkezdése előtt; tiszta térre van szüksége a munkához.
 
 ## 2. lépés: Hozzon létre egy munkafüzet-objektumot
 
@@ -97,7 +97,7 @@ Cell b4 = ws.Cells["B4"];
 
 Itt a B4 cellát választjuk. Ez olyan, mintha egy adott helyet választana ki a vásznon, hogy szöveget adjon hozzá.
 
-## 6. lépés: Adjon hozzá egy értéket a cellához
+## 6. lépés: Adjon értéket a cellához
 
 Most adjunk hozzá egy üzenetet a kiválasztott cellánkhoz:
 

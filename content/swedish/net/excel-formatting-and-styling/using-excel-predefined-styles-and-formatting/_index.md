@@ -64,7 +64,7 @@ Style style = workbook.CreateStyle();
 ```
 Med detta stilobjekt kan du definiera olika egenskaper som typsnitt, färg, ramar och mer!
 ## Steg 5: Mata in ett värde i en cell
- Dags att lägga till lite data! Vi lägger texten`"Test"` i cell A1 i vårt första kalkylblad.
+ Dags att lägga till lite data! Vi lägger texten`"Test"` i cell A1 i vårt första arbetsblad.
 ```csharp
 // Mata in ett värde i A1-cellen.
 workbook.Worksheets[0].Cells["A1"].PutValue("Test");

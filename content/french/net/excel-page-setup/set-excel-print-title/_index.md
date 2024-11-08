@@ -20,7 +20,7 @@ Avant de passer aux étapes suivantes, assurons-nous que tout est en place pour 
 3. Connaissances de base en programmation : la familiarité avec la programmation C# vous aidera à comprendre et à modifier les extraits de code fournis.
 4. .NET Framework : assurez-vous que la version correcte de .NET est installée pour assurer la compatibilité avec Aspose.Cells.
 
-Une fois ces conditions préalables réunies, nous pouvons retrousser nos manches et commencer !
+Une fois ces prérequis en place, nous pouvons retrousser nos manches et commencer !
 
 ## Paquets d'importation
 

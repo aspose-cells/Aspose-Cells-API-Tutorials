@@ -13,7 +13,7 @@ Si trabaja con archivos de Excel en .NET, es posible que se haya encontrado con 
 
 ## Cómo desbloquear hojas de cálculo de Excel protegidas con contraseña 
 
- Una de las tareas más habituales es desbloquear hojas de cálculo de Excel protegidas con contraseña. Con Aspose.Cells para .NET, puede lograrlo sin problemas. El proceso implica un método simple que le permite especificar la contraseña (si la tiene) y desbloquear la hoja para editarla. Nuestro tutorial sobre[Desbloquear una hoja de cálculo de Excel protegida con contraseña](./unlock-password-protected-excel-worksheet/) desglosa estos pasos para garantizar que incluso los principiantes puedan seguirlos. Al final, podrá restaurar el acceso a sus datos esenciales sin ningún problema.
+Una de las tareas más habituales es desbloquear hojas de cálculo de Excel protegidas con contraseña. Con Aspose.Cells para .NET, puede lograrlo sin problemas. El proceso implica un método simple que le permite especificar la contraseña (si la tiene) y desbloquear la hoja para editarla. Nuestro tutorial sobre[Desbloquear una hoja de cálculo de Excel protegida con contraseña](./unlock-password-protected-excel-worksheet/) desglosa estos pasos para garantizar que incluso los principiantes puedan seguirlos. Al final, podrá restaurar el acceso a sus datos esenciales sin ningún problema.
 
 ## Desproteger hojas de Excel fácilmente 
 
@@ -21,7 +21,7 @@ Si trabaja con archivos de Excel en .NET, es posible que se haya encontrado con 
 
 ## Recupere el acceso a sus datos 
 
- A veces, una simple desprotección puede generar importantes ganancias de productividad. Después de todo, ¡el tiempo es dinero! Nuestro tutorial sobre cómo[Desproteger hojas simples de Excel](./unprotect-simple-excel-sheet/) Cubre lo esencial, lo que le permite recuperar el acceso a sus datos críticos rápidamente. Apreciará lo intuitiva que es la biblioteca Aspose.Cells, que hace que las tareas potencialmente abrumadoras parezcan pan comido. 
+ veces, una simple desprotección puede generar importantes ganancias de productividad. Después de todo, ¡el tiempo es dinero! Nuestro tutorial sobre cómo[Desproteger hojas simples de Excel](./unprotect-simple-excel-sheet/) Cubre lo esencial, lo que le permite recuperar el acceso a sus datos críticos rápidamente. Apreciará lo intuitiva que es la biblioteca Aspose.Cells, que hace que las tareas potencialmente abrumadoras parezcan pan comido. 
 
 Con estos tutoriales, no solo aprenderá a desbloquear y desproteger hojas de Excel, sino que también obtendrá conocimientos sobre las versátiles capacidades de Aspose.Cells para .NET. Ya sea para uso personal o en un entorno profesional, estas habilidades mejorarán su experiencia con Excel. ¿Está listo para profundizar más? ¡Consulte cada tutorial vinculado anteriormente y transforme su forma de manejar archivos de Excel hoy mismo!
 

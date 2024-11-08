@@ -124,7 +124,7 @@ opts.DrawObjectEventHandler = new clsDrawObjectEventHandler();
 wb.Save(outputDir + "outputGetDrawObjectAndBoundUsingDrawObjectEventHandler.pdf", opts);
 ```
 
-- 此程式碼將工作簿作為 PDF 檔案保存在指定的輸出目錄中，並應用我們的儲存選項以確保我們的繪製物件已處理。
+- 此程式碼將工作簿作為 PDF 檔案保存在指定的輸出目錄中，應用我們的儲存選項以確保我們的繪製物件已處理。
 
 ## 步驟7：顯示成功訊息
 
@@ -136,7 +136,7 @@ Console.WriteLine("GetDrawObjectAndBoundUsingDrawObjectEventHandler executed suc
 
 ## 結論
 
-現在你就擁有了！只需幾個步驟，您就可以使用 Aspose.Cells for .NET 從 Excel 檔案中取得繪製物件邊界。因此，無論您是在建立報告工具、需要自動化文件處理，還是只是想探索 Aspose.Cells 的強大功能，本指南都能為您指明正確的道路。
+現在你就擁有了！只需幾個步驟，您就可以使用 Aspose.Cells for .NET 從 Excel 檔案中取得繪製物件邊界。因此，無論您是要建立報告工具、需要自動化文件處理，還是只是想探索 Aspose.Cells 的強大功能，本指南都能為您指明正確的道路。
 
 ## 常見問題解答
 

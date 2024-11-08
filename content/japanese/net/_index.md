@@ -27,13 +27,13 @@ Aspose.Cells for .NET チュートリアルを参照して、ステップバイ�
 ### [Excel ワークシートのコピー](./excel-copy-worksheet/)
 Aspose.Cells for .NET を使用して Excel スプレッドシートをコピーおよびカスタマイズする方法を学びます。データの操作と書式設定をマスターするための詳細なチュートリアル。
 ### [Excel の改ページ](./excel-page-breaks/)
-Aspose.Cells for .NET を使用した Excel のページ区切りに関する詳細なチュートリアルをご覧ください。Excel ワークブックのレイアウトを簡単に改善できます。
+Aspose.Cells for .NET を使用した Excel のページ区切りに関する詳細なチュートリアルをご覧ください。Excel ブックのレイアウトを簡単に改善できます。
 ### [Excelシートの保護を解除](./unprotect-excel-sheet/)
-Aspose.Cells for .NET を使用して Excel スプレッドシートの保護を解除する方法を学びます。C# 開発者向けの詳細なチュートリアル。
+Aspose.Cells for .NET を使用して Excel スプレッドシートの保護を解除する方法を学びます。C# 開発者向けの詳細なチュートリアルです。
 ### [Excel セキュリティ](./excel-security/)
 Aspose.Cells for .NET を使用した包括的な Excel セキュリティ チュートリアルをご覧ください。Excel ファイルを保護し、機密データへのアクセスを制御します。
 ### [Excelシートの保護を解除](./unprotect-excel-sheet/)
-Aspose.Cells for .NET を使用して Excel スプレッドシートの保護を解除する方法を学びます。C# 開発者向けの詳細なチュートリアル。
+Aspose.Cells for .NET を使用して Excel スプレッドシートの保護を解除する方法を学びます。C# 開発者向けの詳細なチュートリアルです。
 ### [チャートにコントロールを挿入する](./inserting-controls-in-charts/)
 ラベル、画像、テキスト ボックス、チェック ボックスを追加してデータの視覚化を強化するなど、グラフにコントロールを挿入する方法に関する Aspose.Cells for .NET チュートリアルをご覧ください。
 ### [チャートタイプの操作](./manipulating-chart-types/)
@@ -41,9 +41,9 @@ Aspose.Cells for .NET を使用して Excel スプレッドシートの保護を
 ### [チャートの外観を設定する](./setting-chart-appearance/)
 グラフの外観を設定するための Aspose.Cells for .NET チュートリアルをご覧ください。簡単なガイドを使用して、テーマの適用、グリッド線の変更、グラフ領域、タイトル、軸の設定などを学習します。
 ### [高度なチャート操作](./advanced-chart-operations/)
-3D グラフ、グラフのサイズ変更、目盛りラベルなどを含む、Aspose.Cells for .NET の高度なグラフ操作チュートリアルを、わかりやすいガイドとともにご覧ください。
+わかりやすいガイドを使用して、3D グラフ、グラフのサイズ変更、目盛りラベルなどを含む、Aspose.Cells for .NET の高度なグラフ操作チュートリアルをご覧ください。
 ### [チャートのレンダリングと変換](./chart-rendering-and-conversion/)
-グラフのレンダリング、変換、および希望のページ サイズの PDF の作成に関する Aspose.Cells for .NET チュートリアルをご覧ください。Excel グラフをシームレスに処理するためのステップ バイ ステップ ガイドです。
+グラフのレンダリング、変換、および希望のページ サイズの PDF の作成に関する Aspose.Cells for .NET チュートリアルをご覧ください。シームレスな Excel グラフ処理のためのステップ バイ ステップ ガイドです。
 ### [チャートデータの操作](./working-with-chart-data/)
 グラフ データの操作に重点を置いた、包括的な Aspose.Cells for .NET チュートリアルをご覧ください。グラフを学習、作成、カスタマイズします。
 ### [グラフの軸と単位のカスタマイズ](./customizing-chart-axes-and-units/)
@@ -83,9 +83,9 @@ Aspose.Cells for .NET のパワーを解き放ちましょう。Excel データ�
 ### [Excel の範囲とアドレスの計算](./excel-range-address-calculation/)
 Excel 範囲の作成、アドレス計算、高度な操作を簡単に説明する、Aspose.Cells for .NET に関する重要なチュートリアルをご覧ください。
 ### [Excel の非表示行とデータ重複管理](./excel-hidden-rows-data-duplication-management/)
-Aspose.Cells for .NET チュートリアルで Excel の可能性を最大限に引き出し、非表示の行の管理やデータの簡単な複製に関する洞察を提供します。
+Aspose.Cells for .NET チュートリアルで Excel の可能性を最大限に引き出し、非表示の行の管理やデータの簡単な複製に関する洞察を得ましょう。
 ### [Excel コメントと注釈](./excel-comment-annotation/)
-コメントと注釈に関する Aspose.Cells for .NET チュートリアルで Excel スキルを強化し、スプレッドシートを充実させるためのステップバイステップのガイドを利用できます。
+コメントと注釈に関する Aspose.Cells for .NET チュートリアルで、スプレッドシートを充実させるためのステップバイステップのガイドを使用して、Excel スキルを強化します。
 ### [Excel の図形とコントロール](./excel-shapes-controls/)
 Excel の図形とコントロールの追加に関する包括的な Aspose.Cells for .NET チュートリアルをご覧ください。Excel ワークシートをプログラムで強化するための手順を学習します。
 ### [Excel OLE と画像オブジェクト](./excel-ole-picture-objects/)
@@ -161,12 +161,34 @@ Aspose.Cells for .NET でスキルを高めましょう。インタラクティ�
 ### [Aspose.Cells でのエラー処理とカスタマイズ](./error-handling-and-customization-in-aspose-cells/)
 Excel の Office アドインを PDF にレンダリングし、Excel から PDF への変換中にエラーを無視する方法に関する Aspose.Cells for .NET チュートリアル。ドキュメント タスクを簡素化します。
 ### [行と列の管理](./row-and-column-management/)
-行と列の管理に関する包括的なチュートリアルを使用して Aspose.Cells for .NET のパワーを解き放ち、Excel スキルを簡単に向上させます。
+行と列の管理に関する包括的なチュートリアルを活用して Aspose.Cells for .NET のパワーを解き放ち、Excel スキルを簡単に向上させましょう。
 ### [サイズと間隔のカスタマイズ](./size-and-spacing-customization/)
 Aspose.Cells for .NET を使用して Excel ファイルを強化します。わかりやすいチュートリアルでサイズと間隔をカスタマイズし、列の幅と行の高さを簡単に設定できます。
 ### [行と列の自動調整](./row-column-autofit-conversion/)
 Aspose.Cells for .NET を使用して、Excel の行と列の自動調整をマスターします。ステップバイステップのチュートリアルでデータ表示を強化し、明確でプロフェッショナルなスプレッドシートを作成します。
-### [Excelスライサー管理](./excel-slicers-management/)
+### [Excel スライサー管理](./excel-slicers-management/)
 Aspose.Cells for .NET を使用して Excel スライサーを管理する包括的なチュートリアルをご覧ください。スライサーを簡単に作成、更新、書式設定、エクスポートする方法を学びます。
 ### [動的データ用の Aspose.Cells のスマート マーカー](./smart-markers-dynamic-data/)
 Aspose.Cells for .NET スマート マーカー チュートリアルを参照して、動的な Excel レポートを作成します。ラベルの追加、データの自動入力、数式の使用などを学習します。
+### [表とリスト](./tables-and-lists/)
+包括的な Aspose.Cells for .NET チュートリアルを参照して、Excel データを効率的に管理し、テーブルを作成し、わかりやすいガイドでスキルを強化します。
+### [Aspose.Cells ワークブックの操作](./workbook-operations/)
+データ アクセス、XML カスタマイズ、署名、Web 拡張機能などを網羅した Aspose.Cells for .NET ワークブックのチュートリアルをご覧ください。Excel 自動化スキルを簡単に強化できます。
+### [ワークブックの設定](./workbook-settings/)
+ワークブックの設定、外部リソースなどを網羅した、包括的な Aspose.Cells for .NET チュートリアルをご覧ください。
+### [ワークブック VBA プロジェクト](./workbook-vba-project/)
+Aspose.Cells for .NET で Excel のパワーを解き放ちましょう。VBA プロジェクトの保護、ユーザー フォームのコピー、ワークブックのセキュリティ保護に関する包括的なチュートリアルをご覧ください。
+### [ワークシートの表示](./worksheet-display/)
+Aspose.Cells for .NET チュートリアルの包括的なリストをご覧ください。主要なワークシート機能に関するステップバイステップのガイドで Excel スキルを強化します。
+### [ワークシート管理](./worksheet-management/)
+包括的なチュートリアルで Aspose.Cells for .NET のパワーを解き放ち、ステップバイステップの手順でワークシート管理をガイドします。
+### [ワークシートのページ設定機能](./worksheet-page-setup-features/)
+ページ設定のコピー、用紙サイズの管理、Excel ワークシートの印刷品質の設定など、Aspose.Cells for .NET のワークシート ページ設定チュートリアルをご覧ください。
+### [ワークシートのセキュリティ](./worksheet-security/)
+Excel セキュリティの秘密を解き明かしましょう。包括的な Aspose.Cells for .NET チュートリアルを参照して、ワークシートを簡単に保護、編集、管理しましょう。
+### [ワークシート値の操作](./worksheet-value-operations/)
+Excel プロジェクトを強化するためのワークシート値の操作を網羅した、Aspose.Cells for .NET に関する重要なチュートリアルをご覧ください。
+### [ワークシート操作](./worksheet-operations/)
+データ アクセス、XML カスタマイズ、署名、Web 拡張機能などを網羅した Aspose.Cells for .NET ワークブックのチュートリアルをご覧ください。Excel 自動化スキルを簡単に強化できます。
+### [XML マップ操作](./xml-map-operations/)
+XML マップ操作を網羅した包括的な Aspose.Cells for .NET チュートリアルを読んで、Excel スキルを簡単に向上させましょう。

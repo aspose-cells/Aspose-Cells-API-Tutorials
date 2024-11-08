@@ -2,7 +2,7 @@
 title: Najděte typ hodnot X a Y bodů v řadě grafů
 linktitle: Najděte typ hodnot X a Y bodů v řadě grafů
 second_title: Aspose.Cells .NET Excel Processing API
-description: Naučte se najít typy hodnot X a Y v řadách grafů pomocí Aspose.Cells pro .NET pomocí tohoto podrobného a snadno srozumitelného průvodce.
+description: Naučte se najít typy hodnot X a Y v řadách grafů pomocí Aspose.Cells for .NET pomocí tohoto podrobného a snadno srozumitelného průvodce.
 type: docs
 weight: 11
 url: /cs/net/working-with-chart-data/find-type-of-x-and-y-values-of-points-in-chart-series/
@@ -19,7 +19,7 @@ Než se pustíte do kroků, ujistěte se, že máte připraveno několik věcí:
    
 2.  Aspose.Cells for .NET: Budete muset mít nainstalovaný Aspose.Cells for .NET. Můžete si jej stáhnout z[zde](https://releases.aspose.com/cells/net/).
 
-3.  Ukázkový soubor aplikace Excel: Získejte ukázkový soubor aplikace Excel, který obsahuje grafy. V tomto tutoriálu budeme používat soubor s názvem`sampleFindTypeOfXandYValuesOfPointsInChartSeries.xlsx`Ujistěte se, že je v adresáři vašeho projektu.
+3.  Ukázkový soubor aplikace Excel: Získejte ukázkový soubor aplikace Excel, který obsahuje grafy. V tomto tutoriálu budeme používat soubor s názvem`sampleFindTypeOfXandYValuesOfPointsInChartSeries.xlsx`. Ujistěte se, že je v adresáři vašeho projektu.
 
 4. Základní znalosti programování: Znalost programování v C# vám pomůže snadno pokračovat.
 
@@ -60,7 +60,7 @@ string sourceDir = "Your Document Directory";
 
 ## Krok 2: Načtěte sešit
 
- Dále načtěte soubor Excel do a`Workbook`objekt. To vám umožní přístup k veškerému obsahu souboru.
+ Dále načtěte soubor Excel do a`Workbook` objekt. To vám umožní přístup k veškerému obsahu souboru.
 
 ```csharp
 Workbook wb = new Workbook(sourceDir + "sampleFindTypeOfXandYValuesOfPointsInChartSeries.xlsx");

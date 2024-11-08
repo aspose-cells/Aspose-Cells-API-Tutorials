@@ -31,7 +31,7 @@ Zanim zaczniemy pisać kod, utwórzmy nasze środowisko robocze:
 1. Otwórz program Visual Studio: Zacznij od otwarcia programu Visual Studio i utwórz nową aplikację konsolową w języku C#.
 2. Dodaj odwołania: Przejdź do eksploratora rozwiązań, kliknij prawym przyciskiem myszy swój projekt, wybierz „Dodaj”, następnie „Odwołanie…” i dodaj bibliotekę Aspose.Cells, którą pobrałeś wcześniej.
 3.  Utwórz katalog dokumentów: Utwórz folder w katalogu projektu o nazwie`Documents`. Tutaj zapiszesz plik wyjściowy.
-## Krok 2: Zainicjuj skoroszyt i WorkbookDesigner
+## Krok 2: Zainicjuj skoroszyt i projektanta skoroszytu
 Teraz czas na podstawową funkcjonalność. Wykonaj następujące proste kroki:
 1. Utwórz nowy skoroszyt: Zacznij od zainicjowania nowego skoroszytu.
 ```csharp

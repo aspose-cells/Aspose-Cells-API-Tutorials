@@ -105,4 +105,4 @@ Ja! Återuppringningsmekanismen kan också anpassas för andra format som PDF el
 ### Var kan jag få hjälp om jag stöter på problem?  
  Du kan besöka[Aspose supportforum](https://forum.aspose.com/c/cells/9)för hjälp från samhället och Aspose-teamet.
 ### Hur kommer jag igång med Aspose.Cells?  
- Du kan ladda ner biblioteket och kolla in[dokumentation](https://reference.aspose.com/cells/net/) för handledningar och exempel.
+ Du kan ladda ner biblioteket och kolla in[dokumentation](https://reference.aspose.com/cells/net/) för handledning och exempel.

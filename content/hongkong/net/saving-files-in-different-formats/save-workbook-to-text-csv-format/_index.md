@@ -93,11 +93,11 @@ File.WriteAllBytes(dataDir + "out.txt", workbookData);
 ## 結論
 現在你就擁有了！您已使用 Aspose.Cells for .NET 成功將 Excel 工作簿轉換為 CSV 格式。此流程不僅高效，而且可以輕鬆操作 Excel 資料以進行進一步分析或報告。現在，您可以自動化資料處理任務，甚至可以將此功能整合到更大的應用程式中。
 ## 常見問題解答
-### 我可以為 CSV 檔案使用不同的分隔符號嗎？
+### 我可以對 CSV 檔案使用不同的分隔符號嗎？
 是的，您可以更改`opts.Separator`任何您想要的字符，例如逗號或管道。
 ### Aspose.Cells 可以免費使用嗎？
  Aspose.Cells 不是免費的，但您可以免費試用[這裡](https://releases.aspose.com/).
-### 除了 CSV 之外，我還可以保存哪些類型的格式？
+### 除了 CSV 之外，我還可以儲存哪些類型的格式？
 Aspose.Cells 允許儲存為多種格式，包括 XLSX、PDF 等。
 ### 我可以使用 Aspose.Cells 處理大型 Excel 檔案嗎？
 是的，Aspose.Cells 旨在有效地處理大文件，但效能可能取決於系統資源。

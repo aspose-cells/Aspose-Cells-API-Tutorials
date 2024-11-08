@@ -144,7 +144,7 @@ Console.WriteLine("ApplyingThemesInChart executed successfully.");
 
 ## 结论
 
-使用 Aspose.Cells for .NET 将主题应用于 Excel 中的图表可以彻底改变数据的显示方式。它不仅使您的图表更加美观，而且还有助于更有效地传达您的信息。通过遵循本指南中概述的步骤，您可以轻松自定义图表并以吸引观众注意力的方式呈现数据。
+使用 Aspose.Cells for .NET 将主题应用于 Excel 中的图表可以彻底改变数据的显示方式。它不仅使您的图表美观，而且还有助于更有效地传达您的信息。通过遵循本指南中概述的步骤，您可以轻松自定义图表并以吸引观众注意力的方式呈现数据。
 
 ## 常见问题解答
 

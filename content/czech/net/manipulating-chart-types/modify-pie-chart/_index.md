@@ -2,7 +2,7 @@
 title: Upravit výsečový graf
 linktitle: Upravit výsečový graf
 second_title: Aspose.Cells .NET Excel Processing API
-description: Odemkněte sílu Aspose.Cells pro .NET a bez námahy upravujte své výsečové grafy Excel. Postupujte podle tohoto návodu, kde najdete pokyny krok za krokem.
+description: Odemkněte sílu Aspose.Cells pro .NET a bez námahy upravujte své výsečové grafy Excel. Postupujte podle tohoto návodu, kde najdete podrobné pokyny.
 type: docs
 weight: 16
 url: /cs/net/manipulating-chart-types/modify-pie-chart/
@@ -174,4 +174,4 @@ Ano! Aspose nabízí bezplatnou zkušební verzi, která vám umožní otestovat
 Podporu můžete najít na fórech Aspose, kde vám mohou pomoci členové komunity a zaměstnanci Aspose.
 
 ### Musím mít nainstalovaný Microsoft Excel, abych mohl používat Aspose.Cells?  
-Ne, Aspose.Cells funguje nezávisle na aplikaci Microsoft Excel. Nepotřebujete jej nainstalovaný ve vašem systému.
+Ne, Aspose.Cells funguje nezávisle na aplikaci Microsoft Excel. Nemusíte jej mít nainstalovaný v systému.

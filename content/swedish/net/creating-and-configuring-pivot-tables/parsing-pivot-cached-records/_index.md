@@ -97,7 +97,7 @@ När vi har uppdaterat och beräknat är det en bra idé att återställa vår f
 pt.RefreshDataFlag = false;
 ```
 Vi vill inte hålla vår flagga uppe – det är som att ta ner skylten "under konstruktion" när ett projekt är klart!
-## Steg 10: Spara utdatafilen i Excel
+## Steg 10: Spara Excel-filen
 Slutligen, låt oss spara vår nyligen uppdaterade Excel-fil.
 ```csharp
 //Spara den utgående Excel-filen

@@ -124,7 +124,7 @@ Così facendo, si sollevano di nuovo le tende, permettendo di vedere di nuovo tu
 
 ## Conclusione
 
-Manipolare fogli di lavoro Excel usando Aspose.Cells per .NET non deve essere un compito scoraggiante. Con solo poche righe di codice, puoi nascondere o rivelare dati importanti con facilità. Questa capacità può essere particolarmente utile in scenari in cui chiarezza e sicurezza sono fondamentali. Che tu stia segnalando dati o semplicemente cercando di mantenere il tuo lavoro pulito e ordinato, sapere come gestire la visibilità del foglio di lavoro può fare una grande differenza nel tuo flusso di lavoro!
+Manipolare fogli di lavoro Excel usando Aspose.Cells per .NET non deve essere un compito arduo. Con solo poche righe di codice, puoi nascondere o rivelare dati importanti con facilità. Questa capacità può essere particolarmente utile in scenari in cui chiarezza e sicurezza sono fondamentali. Che tu stia segnalando dati o semplicemente cercando di mantenere il tuo lavoro pulito e ordinato, sapere come gestire la visibilità del foglio di lavoro può fare una grande differenza nel tuo flusso di lavoro!
 
 ## Domande frequenti
 

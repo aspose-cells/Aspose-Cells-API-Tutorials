@@ -64,7 +64,7 @@ book.Worksheets[0].ActiveCell = "A20";
 
 Nachdem die aktive Zelle nun festgelegt ist, kommen wir zum spaßigen Teil – dem Aufteilen des Arbeitsblatts! In diesem Schritt geschieht die Magie. Sie können das Arbeitsblatt zur einfacheren Anzeige und Navigation in mehrere Bereiche aufteilen.
 
-Dies ist der Kern des gesamten Tutorials. Indem Sie das Arbeitsblatt teilen, erstellen Sie separate Bereiche, die es Ihnen ermöglichen, durch verschiedene Abschnitte Ihres Excel-Blatts zu blättern, ohne Überschriften oder andere wichtige Bereiche aus den Augen zu verlieren.
+Dies ist der Kern des gesamten Tutorials. Indem Sie das Arbeitsblatt aufteilen, erstellen Sie separate Bereiche, die es Ihnen ermöglichen, durch verschiedene Abschnitte Ihres Excel-Blatts zu blättern, ohne Überschriften oder andere wichtige Bereiche aus den Augen zu verlieren.
 
 ```csharp
 // Teilen des Arbeitsblattfensters

@@ -68,7 +68,7 @@ workbook.Save(dataDir + "output.xlsb");
 //以 ODS 格式保存
 workbook.Save(dataDir + "output.ods");
 ```
-通过这一步，您不仅限于 Excel，还将打开一个充满可能性的世界！
+通过这一步，您不仅限于 Excel，还将开启一个充满可能性的世界！
 ## 步骤 7：另存为 PDF
 如果您想与不使用 Excel 的人共享 Excel 数据，该怎么办？保存为 PDF 是完美的解决方案。方法如下：
 ```csharp

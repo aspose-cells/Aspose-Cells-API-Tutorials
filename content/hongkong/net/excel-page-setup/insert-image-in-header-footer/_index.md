@@ -13,7 +13,7 @@ url: /zh-hant/net/excel-page-setup/insert-image-in-header-footer/
 
 ## 先決條件
 
-在深入實際程式碼之前，您需要準備好一些東西：
+在深入實際程式碼之前，您需要準備一些東西：
 
 1.  Aspose.Cells for .NET 函式庫：確保您的 .NET 環境中安裝了 Aspose.Cells 函式庫。如果您還沒有，您可以[在這裡下載](https://releases.aspose.com/cells/net/).
 2. Visual Studio 或任何其他 IDE：您需要一個整合開發環境來編寫和執行 C# 程式碼。
@@ -74,7 +74,7 @@ long bytesRead = inFile.Read(binaryData, 0, (int)inFile.Length);
 ```
 
 - 這`FileStream`用於以讀取模式開啟影像。
-- 然後，我們聲明一個位元組數組`binaryData`儲存影像資料。
+- 然後，我們聲明一個位元組數組`binaryData`來保存圖像資料。
 - 最後，我們讀取圖像數據`FileStream`.
 
 ## 第 5 步：訪問頁面設定對象

@@ -52,7 +52,7 @@ string dataDir = "Your Document Directory";
 
 ## Krok 2: Vytvořte objekt sešitu
 
- Dále vytvoříme instanci souboru`Workbook` třída. To bude představovat náš excelový sešit.
+ Dále vytvoříme instanci`Workbook` třída. To bude představovat náš excelový sešit.
 
 ```csharp
 // Vytvoření instance objektu sešitu

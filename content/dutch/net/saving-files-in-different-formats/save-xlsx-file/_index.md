@@ -69,7 +69,7 @@ if (Respose != null)
 - OoxmlSaveOptions: Zorgt ervoor dat het bestand wordt opgeslagen in de XLSX-indeling.
 
 ## Conclusie
-En daar heb je het! Je hebt zojuist geleerd hoe je een XLSX-bestand opslaat met Aspose.Cells voor .NET. Door deze eenvoudige stappen te volgen, kun je nu efficiënt Excel-bestanden bewerken in je applicaties. Dit stroomlijnt niet alleen je workflow, maar verbetert ook je dataverwerkingsmogelijkheden.
+En daar heb je het! Je hebt zojuist geleerd hoe je een XLSX-bestand opslaat met Aspose.Cells voor .NET. Door deze eenvoudige stappen te volgen, kun je nu efficiënt Excel-bestanden in je applicaties bewerken. Dit stroomlijnt niet alleen je workflow, maar verbetert ook je dataverwerkingsmogelijkheden.
 ## Veelgestelde vragen
 ### Wat is Aspose.Cells?
 Aspose.Cells is een krachtige bibliotheek voor het verwerken van Excel-bestanden in .NET-toepassingen.

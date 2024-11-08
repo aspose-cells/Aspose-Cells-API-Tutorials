@@ -68,7 +68,7 @@ Console.WriteLine("Range Address: " + rng.Address);
 ```
 Ezzel a sorban jelenítjük meg a tartomány címét, amelynek „A1:B3”-at kell kiadnia.
 ## 5. lépés: Nyomtasson elválasztót
-A konzol kimenetünk tisztán tartása elengedhetetlen. Tehát adunk hozzá egy kis elválasztót.
+A konzol kimenetének tisztán tartása elengedhetetlen. Tehát adunk hozzá egy kis elválasztót.
 ```csharp
 // Konzol kimenet formázása.
 Console.WriteLine("----------------------");

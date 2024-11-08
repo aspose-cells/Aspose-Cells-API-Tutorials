@@ -102,7 +102,7 @@ Aspose.Cells.DigitalSignatures.DigitalSignature signature = new Aspose.Cells.Dig
 現在是時候將數位簽章集合新增至工作簿了。這就是魔法發生的地方！
 
 ```csharp
-//在工作簿內新增數位簽章集合
+//在工作簿中新增數位簽章集合
 workbook.AddDigitalSignature(dsCollection);
 ```
 

@@ -54,7 +54,7 @@ Végül jöjjön a fő rész: oszlop törlése! Ebben a példában az 5. pozíci
 ```csharp
 worksheet.Cells.DeleteColumn(4);
 ```
-Bontsuk szét:
+Bontsuk fel:
 - `DeleteColumn(4)` : Ezzel eltávolítja az indexnél lévő oszlopot`4`, ami az ötödik oszlopnak felel meg (mivel az indexelés nulláról indul). Állítsa be az indexet a törölni kívánt oszlop célzásához.
 Ezzel az egyetlen sorral egy teljes oszlopot eltávolított a munkalapról!
 ## 6. lépés: Mentse el a módosított fájlt

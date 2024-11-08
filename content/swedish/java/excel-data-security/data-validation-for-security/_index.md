@@ -93,7 +93,7 @@ Datavalidering kan bli mer sofistikerad. Du kan till exempel skapa överlappande
 
 ```java
 DataValidationList validationList = worksheet.getDataValidations().addListValidation("A2", "A2:A10");
-validationList.setFormula1("List1"); // Definiera din listkälla
+validationList.setFormula1("List1"); // Definiera din listakälla
 validationList.setShowDropDown(true);
 ```
 
