@@ -1,6 +1,6 @@
 ---
-title: Excel-fájl konvertálása DOCX-re programozottan .NET-ben
-linktitle: Excel-fájl konvertálása DOCX-re programozottan .NET-ben
+title: Excel-fájl konvertálása DOCX-be programozottan .NET-ben
+linktitle: Excel-fájl konvertálása DOCX-be programozottan .NET-ben
 second_title: Aspose.Cells .NET Excel Processing API
 description: Ebből a lépésenkénti útmutatóból megtudhatja, hogyan konvertálhat programozottan Excel-fájlokat DOCX-re az Aspose.Cells for .NET használatával. Tökéletes jelentéskészítéshez és adatmegosztáshoz.
 type: docs

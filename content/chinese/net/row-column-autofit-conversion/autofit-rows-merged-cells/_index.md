@@ -133,7 +133,7 @@ Aspose.Cells 是一个功能强大的.NET 库，允许您以编程方式创建�
 ### 我可以免费使用 Aspose.Cells 吗？
 是的！Aspose.Cells 提供免费试用，您可以借此探索其功能。只需前往[这里](https://releases.aspose.com/)开始吧。
 ### 如何安装 Aspose.Cells？
-您可以使用 Visual Studio 中的 NuGet 轻松安装它，命令如下：`Install-Package Aspose.Cells`.
+您可以使用 Visual Studio 中的 NuGet 使用以下命令轻松安装它：`Install-Package Aspose.Cells`.
 ### 我可以使用哪些编程语言与 Aspose.Cells 一起使用？
 Aspose.Cells 主要为 .NET 设计，也可以与其他 .NET 兼容语言一起使用，如 C# 和 VB.NET。
 ### 在哪里可以找到对 Aspose.Cells 的支持？

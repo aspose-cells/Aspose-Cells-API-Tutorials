@@ -127,7 +127,7 @@ Na koniec zapiszmy zmiany, które wprowadziliśmy do pliku Excel. To jak zakleje
 // Zapisywanie pliku Excel
 workbook.Save(dataDir + "output.xls");
 ```
-Tutaj zapisujesz zmodyfikowany skoroszyt pod nazwą „output.xls”. Upewnij się, że masz uprawnienia do zapisu w katalogu dokumentów!
+Tutaj zapisujesz zmodyfikowany skoroszyt pod nazwą „output.xls”. Upewnij się, że masz uprawnienia do zapisu w katalogu dokumentu!
 
 ## Wniosek
 Właśnie nauczyłeś się, jak programowo czyścić pola przestawne w .NET przy użyciu Aspose.Cells. Niezależnie od tego, czy czyścisz stare dane, czy przygotowujesz się do nowych analiz, to podejście pozwala na bezproblemowe korzystanie z dokumentów Excela. Więc śmiało, spróbuj! Pamiętaj, praktyka czyni mistrza, a im więcej będziesz eksperymentować z Aspose.Cells, tym bardziej będziesz się w tym czuć komfortowo.
@@ -135,7 +135,7 @@ Właśnie nauczyłeś się, jak programowo czyścić pola przestawne w .NET przy
 ## Najczęściej zadawane pytania
 
 ### Czym jest Aspose.Cells dla .NET?
-Aspose.Cells for .NET to biblioteka do edycji plików Excela, umożliwiająca użytkownikom tworzenie, edycję, konwersję i drukowanie plików Excela.
+Aspose.Cells for .NET to biblioteka do edycji plików Excel, umożliwiająca użytkownikom tworzenie, edycję, konwersję i drukowanie plików Excel.
 
 ### Czy potrzebuję licencji na Aspose.Cells?
  Aspose.Cells to płatna biblioteka, ale możesz zacząć od bezpłatnego okresu próbnego[Tutaj](https://releases.aspose.com/).

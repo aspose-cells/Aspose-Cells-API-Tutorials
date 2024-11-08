@@ -15,7 +15,7 @@ Innan vi dyker in i det nitty-gritty, låt oss lägga ner lite grundarbete. Här
 2.  Aspose.Cells för .NET: Detta kraftfulla bibliotek är viktigt för att hantera Excel-filer. Se till att du har den installerad. Du kan ladda ner den[här](https://releases.aspose.com/cells/net/).
 3. Visual Studio: Att ha en C#-utvecklingsmiljö, som Visual Studio, hjälper dig att köra och testa din kod effektivt.
 4. En passion för lärande: Är du redo att anamma en ny färdighet? Det ska bli kul, så ta med din nyfikenhet!
-Har allt klart? Stor! Låt oss förbereda oss för att importera de nödvändiga paketen!
+Har du allt klart? Stor! Låt oss förbereda oss för att importera de nödvändiga paketen!
 ## Importera paket
 För att utnyttja Aspose.Cells i ditt projekt måste du importera de nödvändiga namnrymden. Detta är enkelt och viktigt för att få tillgång till alla fantastiska funktioner som biblioteket erbjuder. Så här gör du:
 ```csharp
@@ -54,7 +54,7 @@ for (int i = 1; i <= 5; i++)
 ```
 I denna loop genererar vi fem rader med formler dynamiskt. Varje formel sammanfogar strängar. Älskar du inte bara hur kortfattad och kraftfull C# kan vara?
 ## Steg 4: Namnge din datatabell
- Efter att ha fyllt i det är det avgörande att ge ditt`DataTable` ett namn. Det här är som att ge ditt husdjur ett namn; det hjälper till att skilja det från andra! Så här gör du:
+ Efter att ha fyllt i det är det avgörande att ge ditt`DataTable` ett namn. Det här är som att ge ditt husdjur ett namn; det hjälper till att skilja den från andra! Så här gör du:
 ```csharp
 dt.TableName = "MyDataSource";
 ```

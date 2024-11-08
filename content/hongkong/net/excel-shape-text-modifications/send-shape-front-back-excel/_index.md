@@ -68,7 +68,7 @@ Console.WriteLine("Z-Order Shape 1: " + sh1.ZOrderPosition);
 //將此形狀發送到前面
 sh1.ToFrontOrBack(2);
 ```
-透過透過`2`到`ToFrontOrBack`，我們指示 Aspose.Cells 將此形狀置於前面。 
+透過`2`到`ToFrontOrBack`，我們指示 Aspose.Cells 將此形狀置於前面。 
 ## 步驟 7：列印第二個形狀的 Z 順序位置
 在我們將第二個形狀發送到後面之前，讓我們檢查一下它的位置。
 ```csharp

@@ -8,7 +8,7 @@ weight: 12
 url: /zh-hant/net/excel-formulas-and-calculation-options/calculating-formulas-once/
 ---
 ## 介紹
-當談到以程式設計方式管理 Excel 檔案時，Aspose.Cells for .NET 作為一個功能強大的程式庫脫穎而出，可以簡化電子表格的操作過程。無論您是希望實現報告自動化的開發人員，還是需要處理大型資料集的業務分析師，了解如何以程式設計方式計算 Excel 中的公式都可以節省您的時間和精力。在本文中，我們將深入探討如何使用 Aspose.Cells for .NET 在 Excel 中計算一次公式，並將其分解為易於遵循的步驟。
+當談到以程式設計方式管理 Excel 檔案時，Aspose.Cells for .NET 作為一個功能強大的程式庫脫穎而出，它簡化了電子表格的操作過程。無論您是希望實現報告自動化的開發人員，還是需要處理大型資料集的業務分析師，了解如何以程式設計方式計算 Excel 中的公式都可以節省您的時間和精力。在本文中，我們將深入探討如何使用 Aspose.Cells for .NET 在 Excel 中計算一次公式，並將其分解為易於遵循的步驟。
 ## 先決條件
 在我們開始編寫程式碼之前，讓我們確保您擁有開始使用所需的一切。這是一個快速清單：
 1. Visual Studio：確保您的電腦上安裝了 Visual Studio。您將在此處編寫和運行 C# 程式碼。
@@ -28,7 +28,7 @@ using System;
 現在，我們一步一步分解Excel中計算公式的過程。
 ## 第 1 步：設定您的項目
 首先，讓我們在 Visual Studio 中設定我們的專案。
-1. 建立新專案：開啟 Visual Studio 並建立新的 C# 控制台應用程式。
+1. 建立新專案：開啟 Visual Studio 並建立一個新的 C# 控制台應用程式。
 2. 新增 Aspose.Cells 引用：在解決方案資源管理器中右鍵單擊您的項目，選擇“新增”，然後選擇“引用...”。瀏覽至安裝 Aspose.Cells 的位置並新增引用。
 3. 為 Excel 檔案建立目錄：在專案目錄中建立一個資料夾來儲存 Excel 檔案。例如，您可以將其命名為`Documents`.
 ## 第 2 步：載入工作簿

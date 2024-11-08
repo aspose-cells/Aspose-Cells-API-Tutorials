@@ -9,14 +9,14 @@ url: /cs/net/excel-page-setup/set-excel-scaling-factor/
 ---
 ## Zavedení
 
-Pokud jde o programové zpracování souborů aplikace Excel, Aspose.Cells for .NET vyniká jako špičková knihovna, která umožňuje vývojářům bezproblémově manipulovat a vytvářet tabulky. Jedním z běžných požadavků při práci s Excelem je úprava měřítka listu, aby se zajistilo, že jeho obsah při tisku nebo prohlížení dokonale sedí. V tomto článku projdeme procesem nastavení faktoru měřítka aplikace Excel pomocí Aspose.Cells for .NET a poskytneme vám komplexního průvodce, který lze snadno sledovat.
+Pokud jde o programové zpracování souborů aplikace Excel, Aspose.Cells for .NET vyniká jako špičková knihovna, která umožňuje vývojářům bezproblémově manipulovat a vytvářet tabulky. Jedním z běžných požadavků při práci s Excelem je úprava měřítka listu, aby se zajistilo, že jeho obsah při tisku nebo prohlížení dokonale sedí. V tomto článku projdeme procesem nastavení měřítka aplikace Excel pomocí Aspose.Cells for .NET a poskytneme vám komplexního průvodce, který lze snadno sledovat.
 
 ## Předpoklady
 
 Než se ponoříme do praktických kroků, je třeba splnit několik předpokladů:
 
 1. Nainstalované Visual Studio: Ujistěte se, že máte na svém počítači nastavené Visual Studio, protože v tomto prostředí budeme psát náš kód.
-2.  Aspose.Cells for .NET Library: Získejte kopii knihovny Aspose.Cells. Můžete si jej stáhnout z[Stránka Aspose Releases](https://releases.aspose.com/cells/net/) . Pokud si nejste jisti, můžete začít s[zkušební verze zdarma](https://releases.aspose.com/).
+2.  Aspose.Cells for .NET Library: Získejte kopii knihovny Aspose.Cells. Můžete si jej stáhnout z[Stránka Aspose Releases](https://releases.aspose.com/cells/net/) . Pokud si nejste jisti, můžete začít s a[zkušební verze zdarma](https://releases.aspose.com/).
 3. Základní znalost C#: Základní znalost programování v C# bude prospěšná, zvláště pokud jste v práci s knihovnami nováčky.
 4. .NET Framework: Ujistěte se, že váš projekt cílí na kompatibilní verzi rozhraní .NET Framework pro knihovnu.
 

@@ -2,7 +2,7 @@
 title: 在 .NET 中以程式設計方式指定 Excel 檔案的文件版本
 linktitle: 在 .NET 中以程式設計方式指定 Excel 檔案的文件版本
 second_title: Aspose.Cells .NET Excel 處理 API
-description: 透過逐步說明，了解如何使用 Aspose.Cells for .NET 以程式設計方式在 Excel 檔案中指定版本、作者和標題等文件屬性。
+description: 了解如何使用 Aspose.Cells for .NET 透過逐步說明以程式設計方式在 Excel 檔案中指定版本、作者和標題等文件屬性。
 type: docs
 weight: 12
 url: /zh-hant/net/saving-and-exporting-excel-files-with-options/specifying-document-version-of-excel-file/

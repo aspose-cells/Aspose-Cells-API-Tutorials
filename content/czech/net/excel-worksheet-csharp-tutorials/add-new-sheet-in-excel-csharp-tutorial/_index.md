@@ -79,7 +79,7 @@ int i = workbook.Worksheets.Add();
 
  Zde používáme`Add()` metoda`Worksheets` sbírka přítomná v`Workbook` třída. Metoda vrací index (`i`) nově přidaného listu. Je to jako přidat stránku do poznámkového bloku – jednoduché a efektivní!
 
-## Krok 4: Pojmenování nového listu
+## Krok 4: Pojmenujte svůj nový list
 
 Co je to list bez jména? Pojmenujme náš nově vytvořený pracovní list pro snadnou identifikaci.
 
@@ -91,11 +91,11 @@ Worksheet worksheet = workbook.Worksheets[i];
 worksheet.Name = "My Worksheet";
 ```
 
- Odkaz na nově vytvořený list získáte pomocí jeho indexu`i`Poté jednoduše nastavíme jeho název na "My Worksheet". Pojmenování listů tímto způsobem je dobrým zvykem, zejména při práci s většími soubory aplikace Excel, kde je kontext klíčový.
+ Odkaz na nově vytvořený list získáte pomocí jeho indexu`i`Poté jednoduše nastavíme jeho název na „My Worksheet“. Pojmenování listů tímto způsobem je dobrým zvykem, zejména při práci s většími soubory aplikace Excel, kde je kontext klíčový.
 
 ## Krok 5: Uložení souboru Excel
 
-Teď jsme v domácím prostředí! Je čas zachránit své mistrovské dílo.
+Teď jsme v domácím pásmu! Je čas zachránit své mistrovské dílo.
 
 ```csharp
 // Uložení souboru Excel

@@ -43,7 +43,7 @@ Därefter skapar vi en ny arbetsbok. Se arbetsboken som en tom duk där vi kan m
 // Skapa arbetsbok
 Workbook wb = new Workbook();
 ```
- Denna rad initierar en ny instans av`Workbook` klass. Det är din utgångspunkt för allt som har med Excel att göra.
+ Den här raden initierar en ny instans av`Workbook` klass. Det är din utgångspunkt för allt som har med Excel att göra.
 ## Steg 3: Skapa en oanvänd namngiven stil
 Även om vi försöker utesluta oanvända stilar, låt oss skapa en för att illustrera processen bättre:
 ```csharp

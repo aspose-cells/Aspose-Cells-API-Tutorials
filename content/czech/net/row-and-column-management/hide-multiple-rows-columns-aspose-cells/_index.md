@@ -13,7 +13,7 @@ Chcete skrýt řádky a sloupce v souboru aplikace Excel pomocí .NET? Skvělá 
 Než začnete se skrýváním řádků a sloupců v Excelu pomocí Aspose.Cells for .NET, ujistěte se, že máte:
 -  Aspose.Cells for .NET: Stáhněte si nejnovější verzi z[Aspose.Cells for .NET Download page](https://releases.aspose.com/cells/net/).
 - .NET Framework: Ujistěte se, že máte nainstalované rozhraní .NET Framework.
-- Vývojové prostředí: Můžete použít jakékoli vývojové prostředí .NET, jako je Visual Studio.
+- Vývojové prostředí: Můžete použít libovolné vývojové prostředí .NET, jako je Visual Studio.
 - Soubor Excel: Připravte si soubor Excel, se kterým budete pracovat (v této příručce jej budeme označovat jako`book1.xls`).
 ## Importujte balíčky
 Nejprve musíte do svého projektu importovat potřebné balíčky, abyste získali přístup k funkcím Aspose.Cells. Do souboru kódu přidejte:

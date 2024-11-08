@@ -2,7 +2,7 @@
 title: A kimutatások programozott formázása és megjelenése .NET-ben
 linktitle: A kimutatások programozott formázása és megjelenése .NET-ben
 second_title: Aspose.Cells .NET Excel Processing API
-description: Javítsa ki Excel pivot tábláit az Aspose.Cells for .NET segítségével. Tanulja meg könnyedén formázni, testreszabni és automatizálni az adatok megjelenítését.
+description: Javítsa ki Excel pivot tábláit az Aspose.Cells for .NET segítségével. Tanulja meg könnyedén formázni, személyre szabni és automatizálni az adatok megjelenítését.
 type: docs
 weight: 16
 url: /hu/net/creating-and-configuring-pivot-tables/formatting-and-look/
@@ -39,14 +39,14 @@ Először is meghatározzuk az Excel-fájlunk elérési útját. Íme, hogyan ke
 // A dokumentumok könyvtárának elérési útja.
 string dataDir = "Your Document Directory";
 ```
- Ügyeljen arra, hogy cserélje ki`"Your Document Directory"` az Excel-fájl tényleges elérési útjával.
+ Mindenképpen cserélje ki`"Your Document Directory"` az Excel-fájl tényleges elérési útjával.
 ## 2. lépés: Töltse be a munkafüzetet
  Ezután be kell töltenünk a meglévő Excel-fájlt. Ebben a lépésben a`Workbook` osztály által biztosított Aspose.Cells.
 ```csharp
 // Töltsön be egy sablonfájlt
 Workbook workbook = new Workbook(dataDir + "Book1.xls");
 ```
- Amikor kicseréled`"Book1.xls"` a tényleges fájlnévvel, a`workbook` Az objektum most az Excel adatokat fogja tartalmazni.
+ Amikor cseréled`"Book1.xls"` a tényleges fájlnévvel, a`workbook` Az objektum most az Excel adatokat fogja tartalmazni.
 ## 3. lépés: Nyissa meg a munkalapot és a kimutatást
 Most meg akarjuk ragadni azt a lapot és pivot táblát, amellyel dolgozni fogunk:
 ```csharp

@@ -17,7 +17,7 @@ url: /zh-hant/net/working-with-fonts-in-spreadsheets/get-list-of-fonts-used-in-s
 4. 範例 Excel 檔案：您需要使用範例 Excel 文件，例如「sampleGetFonts.xlsx」。這是我們應用字體探索的地方。
 一旦一切準備就緒，您就可以開始編碼了！
 ## 導入包
-首先，讓我們導入必要的名稱空間。在 .NET 中，導入包類似於邀請合適的客人參加您的聚會 - 沒有他們，事情就不會順利進行。
+首先，讓我們導入必要的命名空間。在 .NET 中，導入包類似於邀請合適的客人參加您的聚會 - 沒有他們，事情就不會順利進行。
 以下是導入 Aspose.Cells 的方法：
 ```csharp
 using System;

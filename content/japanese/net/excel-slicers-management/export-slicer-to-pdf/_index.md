@@ -56,12 +56,12 @@ Console.WriteLine("ExportSlicerToPDF executed successfully.");
 データのプレゼンテーションが重要であることを忘れないでください。データを PDF にエクスポートすることで、分析情報が視聴者にとってアクセスしやすく、適切に構造化された状態を維持できます。ぜひ試してみませんか? Visual Studio を開いて、次の手順に従い、変換を自分で確認してください。
 ## よくある質問
 ### Aspose.Cells とは何ですか?
-Aspose.Cells は、開発者が Microsoft Excel をインストールしなくても Excel ファイルを作成、変更、変換できるようにする包括的な API です。
+Aspose.Cells は、Microsoft Excel をインストールしなくても開発者が Excel ファイルを作成、変更、変換できるようにする包括的な API です。
 ### Aspose.Cells を無料で試すことはできますか?
 はい！Aspose.Cellsの無料トライアルを入手できます[ここ](https://releases.aspose.com/).
 ### Aspose.Cells はどのようなファイル形式をサポートできますか?
 Aspose.Cells は、XLSX、XLS、CSV、PDF など、さまざまな形式をサポートしています。
-### Aspose.Cells は .NET のすべてのバージョンと互換性がありますか?
+### Aspose.Cells はすべてのバージョンの .NET と互換性がありますか?
 Aspose.Cells は .NET Standard と互換性があるため、さまざまな .NET 実装で動作します。
 ### Aspose.Cells のサポートを受けるにはどうすればよいですか?
  Asposeフォーラムを通じてサポートを受けることができます[ここ](https://forum.aspose.com/c/cells/9).

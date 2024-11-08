@@ -82,7 +82,7 @@ oTxtLoadOptions.PreferredParsers = new ICustomParser[]
 ```
 這告訴 Aspose.Cells 使用`TextParser`對於一般文字值和`DateParser`對於 CSV 檔案中遇到的任何日期欄位。
 ## 第 3 步：載入並讀取 CSV 文件
-現在載入選項已配置完畢，您可以將 CSV 檔案載入到`Aspose.Cells.Workbook`目的。
+現在已經配置了載入選項，您可以將 CSV 檔案載入到`Aspose.Cells.Workbook`目的。
 ### 3.1 載入CSV文件
 我們透過傳遞文件路徑和配置來載入 CSV 文件`TxtLoadOptions`到`Workbook`構造函數：
 ```csharp
@@ -114,7 +114,7 @@ oExcelWorkBook.Save(outputDir + "outputsamplePreferredParser.xlsx");
 ```
 這會將工作簿另存為 Excel 文件，並保留您套用的所有格式和資料解析。
 ## 結論
-在 Aspose.Cells for .NET 中使用首選解析器開啟 CSV 檔案是處理不同資料類型的靈活且強大的方法。透過建立自訂解析器並配置載入選項，您可以確保您的 CSV 檔案完全按照您需要的方式進行解析，無論您是處理文字、日期還是其他自訂格式。透過本教程，您現在可以處理專案中更複雜的資料解析場景。
+在 Aspose.Cells for .NET 中使用首選解析器開啟 CSV 檔案是處理不同資料類型的靈活且強大的方法。透過建立自訂解析器並配置載入選項，您可以確保您的 CSV 檔案完全按照您需要的方式進行解析，無論您處理的是文字、日期還是其他自訂格式。透過本教程，您現在可以處理專案中更複雜的資料解析場景。
 ## 常見問題解答
 ### Aspose.Cells for .NET 中自訂解析器的用途是什麼？
 自訂解析器可讓您定義載入 CSV 檔案時應如何解析特定資料類型（例如文字或日期）。

@@ -8,7 +8,7 @@ weight: 16
 url: /zh-hant/net/exporting-excel-to-html-with-advanced-options/hiding-overlaid-content-with-cross-hide-right/
 ---
 ## 介紹
-您是否曾經發現自己正在處理凌亂的 Excel 文件，而這些文件無法很好地轉換為 HTML？你並不孤單！許多人在嘗試匯出電子表格同時保留正確的內容可見性時經常面臨挑戰。值得慶幸的是，有一個名為 Aspose.Cells for .NET 的方便工具，可以透過讓您有策略地隱藏重疊內容來解決此問題。在本教學中，我們將逐步指導您如何使用 Aspose.Cells 透過「CrossHideRight」選項隱藏重疊內容，同時將 Excel 檔案儲存為 HTML。 
+您是否曾經發現自己正在處理混亂的 Excel 文件，而這些文件無法很好地轉換為 HTML？你並不孤單！許多人在嘗試匯出電子表格同時保留正確的內容可見性時經常面臨挑戰。值得慶幸的是，有一個名為 Aspose.Cells for .NET 的方便工具，可以透過讓您有策略地隱藏重疊內容來解決此問題。在本教學中，我們將逐步指導您如何使用 Aspose.Cells 透過「CrossHideRight」選項隱藏重疊內容，同時將 Excel 檔案儲存為 HTML。 
 ## 先決條件
 在我們深入討論細節之前，讓我們確保您已正確設定所有內容！以下是您需要遵循的先決條件：
 1. C# 基礎：如果您熟悉 C#，那就太好了！我們將使用這種語言進行工作，因此了解基礎知識將會有所幫助。
@@ -18,13 +18,13 @@ url: /zh-hant/net/exporting-excel-to-html-with-advanced-options/hiding-overlaid-
 5. .NET Framework 或 .NET Core：請確定您的系統上已安裝了 .NET Framework 或 .NET Core。
 讓我們動手開始編碼吧！ 
 ## 導入包
-首先，我們需要將幾個基本庫匯入到我們的 C# 專案中。不用擔心;這是一個簡單的過程！
+首先，我們需要將幾個重要的庫導入到我們的 C# 專案中。不用擔心;這是一個簡單的過程！
 ### 建立一個新的 C# 項目
 開啟 Visual Studio 並建立一個新的 C# 專案。您可以為本教學選擇控制台應用程式項目類型。
 ### 加入 Aspose.Cells 參考
 1. 在解決方案資源管理器中以滑鼠右鍵按一下您的專案。
 2. 按一下「管理 NuGet 套件」。
-3. 搜尋`Aspose.Cells`並安裝該套件。
+3. 搜尋`Aspose.Cells`並安裝該軟體包。
 ```csharp
 using System;
 using System.Collections.Generic;

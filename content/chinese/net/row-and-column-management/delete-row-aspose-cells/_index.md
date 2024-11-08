@@ -23,7 +23,7 @@ using System.IO;
 using Aspose.Cells;
 ```
 这涵盖文件操作（`System.IO`）和 Aspose.Cells 库本身（`Aspose.Cells`），为本教程中的所有 Excel 操作奠定基础。
-## 步骤 1：定义目录路径
+## 步骤 1：定义目录的路径
 首先，我们需要一个存储 Excel 文件的目录路径。这将确保我们的代码可以找到并访问我们要修改的文件。预先定义此路径有助于保持脚本整洁并适应不同的文件。
 ```csharp
 string dataDir = "Your Document Directory";

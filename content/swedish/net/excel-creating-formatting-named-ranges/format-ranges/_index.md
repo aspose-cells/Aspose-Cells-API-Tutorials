@@ -140,7 +140,7 @@ flg.CellShading = true; // Aktivera cellskuggning
 
  Förklaring: The`StyleFlag` objekt talar om för biblioteket vilka stilegenskaper vi vill använda – ungefär som att bocka av rutor på en att-göra-lista!
 
-## Steg 11: Tillämpa stilen på intervallet
+## Steg 11: Applicera stilen på intervallet
 
 Nu kommer det roliga – att tillämpa alla stilar vi just har definierat på vårt cellsortiment.
 

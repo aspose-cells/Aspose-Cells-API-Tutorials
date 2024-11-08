@@ -13,7 +13,7 @@ Jeśli pracujesz z plikami Excela w .NET, być może spotkałeś się z sytuacja
 
 ## Odblokowywanie arkuszy kalkulacyjnych programu Excel chronionych hasłem 
 
- Jednym z najczęstszych zadań jest odblokowywanie zabezpieczonych hasłem arkuszy kalkulacyjnych programu Excel. Dzięki Aspose.Cells dla .NET możesz to zrobić bezproblemowo. Proces ten obejmuje prostą metodę, która pozwala określić hasło (jeśli je masz) i odblokować arkusz do edycji. Nasz samouczek na temat[odblokowanie arkusza kalkulacyjnego programu Excel chronionego hasłem](./unlock-password-protected-excel-worksheet/) rozbija te kroki, zapewniając, że nawet początkujący mogą je śledzić. Na koniec będziesz w stanie przywrócić dostęp do swoich ważnych danych bez wysiłku.
+Jednym z najczęstszych zadań jest odblokowywanie zabezpieczonych hasłem arkuszy kalkulacyjnych programu Excel. Dzięki Aspose.Cells dla .NET możesz to zrobić bezproblemowo. Proces ten obejmuje prostą metodę, która pozwala określić hasło (jeśli je masz) i odblokować arkusz do edycji. Nasz samouczek na temat[odblokowanie arkusza kalkulacyjnego programu Excel chronionego hasłem](./unlock-password-protected-excel-worksheet/) rozbija te kroki, zapewniając, że nawet początkujący mogą je śledzić. Na koniec będziesz w stanie przywrócić dostęp do swoich ważnych danych bez wysiłku.
 
 ## Łatwe usuwanie zabezpieczeń arkuszy Excela 
 
@@ -21,7 +21,7 @@ Jeśli pracujesz z plikami Excela w .NET, być może spotkałeś się z sytuacja
 
 ## Odzyskaj dostęp do swoich danych 
 
- Czasami proste odbezpieczenie może prowadzić do znacznych zysków produktywności — w końcu czas to pieniądz! Nasz poradnik, jak to zrobić[usuń ochronę prostych arkuszy Excela](./unprotect-simple-excel-sheet/) obejmuje podstawowe elementy, umożliwiając szybkie odzyskanie dostępu do ważnych danych. Docenisz, jak intuicyjna jest biblioteka Aspose.Cells, dzięki której potencjalnie trudne zadania wydają się dziecinnie proste. 
+Czasami proste odbezpieczenie może prowadzić do znacznych zysków produktywności — w końcu czas to pieniądz! Nasz poradnik, jak to zrobić[usuń ochronę prostych arkuszy Excela](./unprotect-simple-excel-sheet/) obejmuje podstawowe elementy, umożliwiając szybkie odzyskanie dostępu do ważnych danych. Docenisz, jak intuicyjna jest biblioteka Aspose.Cells, dzięki której potencjalnie trudne zadania wydają się dziecinnie proste. 
 
 Dzięki tym samouczkom nie tylko nauczysz się odblokowywać i usuwać zabezpieczenia arkuszy Excela, ale także poznasz wszechstronne możliwości Aspose.Cells dla .NET. Niezależnie od tego, czy jest to użytek osobisty, czy w środowisku profesjonalnym, te umiejętności ulepszą Twoje doświadczenie z Excelem. Gotowy na głębsze zanurzenie się? Sprawdź każdy z powyższych samouczków i zmień sposób, w jaki obsługujesz pliki Excela już dziś!
 

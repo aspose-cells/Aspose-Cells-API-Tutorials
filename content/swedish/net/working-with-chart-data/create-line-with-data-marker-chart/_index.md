@@ -15,7 +15,7 @@ Har du någonsin undrat hur man skapar fantastiska diagram i Excel programmatisk
 
 Innan vi börjar, se till att du har allt på plats för att följa med sömlöst.
 
-1.  Aspose.Cells för .NET Library – Du måste installera detta. Du kan ta tag i den[här](https://releases.aspose.com/cells/net/).
+1. Aspose.Cells för .NET Library – Du måste installera detta. Du kan ta tag i den[här](https://releases.aspose.com/cells/net/).
 2. .NET Framework – Se till att din utvecklingsmiljö är konfigurerad med den senaste versionen av .NET.
 3. IDE (Integrated Development Environment) – Visual Studio rekommenderas.
 4.  En giltig Aspose.Cells-licens – Om du inte har en, kan du begära en[tillfällig licens](https://purchase.aspose.com/temporary-license/) eller kolla in deras[gratis provperiod](https://releases.aspose.com/).
@@ -109,7 +109,7 @@ chart.AutoScaling = true;
 // Ställ in förgrundsfärgen på vit
 chart.PlotArea.Area.ForegroundColor = Color.White;
 
-// Ange egenskaper för diagramrubrik
+//Ange egenskaper för diagramrubrik
 chart.Title.Text = "Sample Chart";
 
 // Ställ in diagramtyp

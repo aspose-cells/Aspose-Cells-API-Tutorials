@@ -30,7 +30,7 @@ using System.Drawing;
 ## 第 1 步：設定您的專案環境
 首先，開啟 IDE（如 Visual Studio）並建立一個新的 C# 專案。您可以選擇控制台應用程序，因為這將允許我們直接從終端運行代碼。
 
-接下來，請確保您的專案中引用了 Aspose.Cells。如果您使用 NuGet，則可以使用以下命令透過套件管理器控制台輕鬆新增它：
+接下來，請確保在您的專案中引用 Aspose.Cells。如果您使用 NuGet，則可以使用以下命令透過套件管理器控制台輕鬆新增它：
 ```bash
 Install-Package Aspose.Cells
 ```
@@ -65,7 +65,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 Aspose.Cells.Drawing.LineShape line2 = worksheet.Shapes.AddLine(7, 0, 1, 0, 85, 250);
 ```
 在此範例中，我們將建立一條從座標 (7, 0) 開始並在 (85, 250) 結束的線形狀。您可以調整這些數字以根據需要自訂線條的大小和位置。
-## 第 5 步：客製化線路
+## 第 5 步：自訂線路
 您可以透過更改線條的顏色和粗細來使線條更具視覺吸引力。方法如下：
 ```csharp
 //設定線條顏色
@@ -74,7 +74,7 @@ line2.Line.SolidFill.Color = Color.Blue;
 //設定線的粗細。
 line2.Line.Weight = 3;
 ```
-在本例中，我們將線條設定為藍色實心填充，粗細為 3。
+在本例中，我們將線條設定為純藍色填充，粗細為 3。
 ## 第 6 步：修改線路位置
 接下來，您需要設定該線在工作表中的放置方式。對於這個例子，我們將使其自由浮動：
 ```csharp

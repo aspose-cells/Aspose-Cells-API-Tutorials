@@ -44,7 +44,7 @@ Det första vi behöver göra är att ladda Excel-filen som vi vill arbeta med. 
 // Sökvägen till dokumentkatalogen.
 string dataDir = "Your Document Directory";
 
-// Instantiera ett objekt i arbetsboken
+// Instantiera ett objekt i Workbook
 // Öppna en Excel-fil
 Workbook workbook = new Workbook(dataDir + "sample-document-properties.xlsx");
 ```

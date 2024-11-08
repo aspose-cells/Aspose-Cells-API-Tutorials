@@ -36,7 +36,7 @@ Aspose.Cells를 사용하여 Java에서 추세선 분석을 마스터하세요. 
 ### [차트 주석](./chart-annotations/)
 Aspose.Cells for Java를 사용하여 차트 주석으로 차트를 강화하세요 - 단계별 가이드. 정보적 데이터 시각화를 위한 주석 추가 방법을 알아보세요.
 ### [차트 애니메이션](./chart-animation/)
-Aspose.Cells for Java로 매혹적인 차트 애니메이션을 만드는 방법을 알아보세요. 동적 데이터 시각화를 위한 단계별 가이드와 소스 코드가 포함되어 있습니다.
+Aspose.Cells for Java로 매력적인 차트 애니메이션을 만드는 방법을 알아보세요. 동적 데이터 시각화를 위한 단계별 가이드와 소스 코드가 포함되어 있습니다.
 ### [폭포 차트](./waterfall-charts/)
 Aspose.Cells for Java로 멋진 폭포형 차트를 만드는 방법을 알아보세요. 효과적인 데이터 시각화를 위한 소스 코드가 포함된 단계별 가이드.
 ### [차트 상호작용](./chart-interactivity/)

@@ -12,7 +12,7 @@ Přemýšleli jste někdy, jak automaticky upravit velikost sloupců a řádků 
 ### Předpoklady
 Než se pustíte do kódu, musíte mít v systému nastaveno několik věcí. Nebojte se, je to jednoduché a přímočaré!
 1. Nainstalované Visual Studio: Budete potřebovat Visual Studio nebo jiné vývojové prostředí .NET.
-2.  Aspose.Cells pro .NET: Můžete[stáhnout nejnovější verzi](https://releases.aspose.com/cells/net/) nebo k instalaci použijte správce balíčků NuGet.
+2.  Aspose.Cells pro .NET: Můžete[stáhněte si nejnovější verzi](https://releases.aspose.com/cells/net/) nebo k instalaci použijte správce balíčků NuGet.
 3. .NET Framework: Ujistěte se, že máte nainstalované rozhraní .NET Framework 4.0 nebo vyšší.
 4. Základní porozumění C#: Díky určitým znalostem C# pro vás bude tento tutoriál plynulejší.
 5. Data tabulky HTML: Připravte si obsah HTML (dokonce i základní tabulku), který chcete načíst do Excelu.

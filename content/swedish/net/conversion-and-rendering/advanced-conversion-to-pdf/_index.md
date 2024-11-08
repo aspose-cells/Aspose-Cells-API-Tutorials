@@ -87,7 +87,7 @@ Det här är som att skriva vår första mening i en bok – det markerar börja
 
 ## Steg 4: Definiera PDF-sparalternativ
 
-Nu när vi har vår datauppsättning måste vi specificera hur vi vill spara den här arbetsboken som en PDF. Detta inkluderar att ställa in överensstämmelse med PDF/A. 
+Nu när vi har vår datauppsättning måste vi specificera hur vi vill spara den här arbetsboken som en PDF. Detta inkluderar inställning av överensstämmelse med PDF/A. 
 
 ```csharp
 // Definiera PdfSaveOptions

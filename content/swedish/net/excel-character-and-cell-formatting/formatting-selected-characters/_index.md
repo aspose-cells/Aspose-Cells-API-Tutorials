@@ -54,7 +54,7 @@ Dags att lägga till lite innehåll! Vi lägger ett värde i cell "A1":
 ```csharp
 // Åtkomst till "A1"-cellen från kalkylbladet
 Cell cell = worksheet.Cells["A1"];
-// Lägger till något värde till "A1"-cellen
+// Lägga till något värde till "A1"-cellen
 cell.PutValue("Visit Aspose!");
 ```
 Med den här koden lägger du inte bara data i cellen; du börjar berätta en historia!

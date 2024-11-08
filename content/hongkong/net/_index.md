@@ -53,7 +53,7 @@ xplore Aspose.Cells for .NET 有關設定圖表外觀的教學。透過簡單的
 ### [在 Excel 中使用命名範圍](./excel-working-with-named-ranges/)
 探索 Aspose.Cells for .NET 教學課程，了解如何在 Excel 中處理命名範圍。透過逐步指南了解如何存取所有或特定的命名範圍。
 ### [在 Excel 中合併並取消合併儲存格](./excel-merging-unmerging-cells/)
-透過我們簡單的 Aspose.Cells for .NET 教學課程，掌握 Excel 中儲存格的合併和取消合併。提升您的電子表格技能。
+透過我們簡單的 Aspose.Cells for .NET 教學課程，掌握 Excel 中儲存格的合併和取消合併。提高您的電子表格技能。
 ### [在 Excel 中建立命名範圍並設定其格式](./excel-creating-formatting-named-ranges/)
 了解如何使用 Aspose.Cells for .NET 在 Excel 中建立命名範圍並設定其格式。輕鬆增強您的資料管理和視覺呈現。
 ### [Excel 中命名範圍的進階操作](./excel-advanced-named-ranges/)
@@ -67,7 +67,7 @@ xplore Aspose.Cells for .NET 有關設定圖表外觀的教學。透過簡單的
 ### [Excel小計和計算](./excel-subtotal-calculation/)
 了解如何使用 Aspose.Cells for .NET 建立 Excel 小計和追蹤先例。按照這些教學輕鬆提升您的電子表格技能。
 ### [Excel資料依賴與計算](./excel-data-dependency-calculation/)
-探索 Aspose.Cells for .NET 教學課程，涵蓋 Excel 資料依賴關係和計算，包括追蹤依賴儲存格，以增強您的 Excel 自動化技能。
+探索 Aspose.Cells for .NET 教程，涵蓋 Excel 資料依賴關係和計算，包括追蹤依賴單元格，以增強您的 Excel 自動化技能。
 ### [Excel 資料驗證與篩選](./excel-data-validation-filter/)
 了解有關 Excel 資料驗證和篩選器的 Aspose.Cells for .NET 教學 — 提高工作效率的簡單指南。
 ### [Excel 資料對齊和格式設定](./excel-data-alignment-formatting/)
@@ -79,13 +79,13 @@ xplore Aspose.Cells for .NET 有關設定圖表外觀的教學。透過簡單的
 ### [Excel資料匯入與匯出](./excel-data-import-export/)
 釋放 Aspose.Cells for .NET 的強大功能。探索我們的教程，輕鬆有效地匯入和匯出 Excel 資料。
 ### [Excel 資料儲存與警告](./excel-data-preservation-warning/)
-了解使用 Aspose.Cells for .NET 實作進階 Excel 資料保存技術，例如保留儲存格中的單引號前綴以及在排序過程中指定排序警告。
+了解如何使用 Aspose.Cells for .NET 實作進階 Excel 資料保存技術，例如保留儲存格中的單引號前綴以及在排序過程中指定排序警告。
 ### [Excel 範圍和位址計算](./excel-range-address-calculation/)
 了解 Aspose.Cells for .NET 的基本教程，涵蓋 Excel 範圍建立、位址計算和輕鬆進階操作。
 ### [Excel 隱藏行與資料重複管理](./excel-hidden-rows-data-duplication-management/)
 透過 Aspose.Cells for .NET 教學釋放 Excel 的潛力，提供管理隱藏行和輕鬆複製資料的見解。
 ### [Excel 註解與註釋](./excel-comment-annotation/)
-透過 Aspose.Cells for .NET 關於註解和註解的教學增強您的 Excel 技能，其中包含可豐富您的電子表格的逐步指南。
+透過註解和註解的 Aspose.Cells for .NET 教學增強您的 Excel 技能，其中包含可豐富您的電子表格的逐步指南。
 ### [Excel 形狀和控件](./excel-shapes-controls/)
 探索有關新增 Excel 形狀和控制項的綜合 Aspose.Cells for .NET 教學。了解以程式設計方式增強 Excel 工作表的逐步方法。
 ### [Excel OLE 與圖片對象](./excel-ole-picture-objects/)
@@ -105,7 +105,7 @@ xplore Aspose.Cells for .NET 有關設定圖表外觀的教學。透過簡單的
 ### [文件處理](./file-handling/)
 了解在 Aspose.Cells for .NET 中處理文件的詳細教學課程，包括儲存為各種格式、位置和自訂分隔符號。
 ### [文件屬性](./document-properties/)
-透過我們有關文件屬性的綜合教學解鎖 Aspose.Cells for .NET 的功能，以增強您的 Excel 文件管理技能。
+透過我們關於文件屬性的綜合教學解鎖 Aspose.Cells for .NET 的功能，以增強您的 Excel 文件管理技能。
 ### [轉換和渲染](./conversion-and-rendering/)
 探索 Aspose.Cells for .NET 教程，其中包含有關將 Excel 檔案無縫轉換和渲染為不同格式的高級指南。
 ### [安全與加密](./security-and-encryption/)
@@ -121,7 +121,7 @@ xplore Aspose.Cells for .NET 有關設定圖表外觀的教學。透過簡單的
 ### [連結和配置操作](./link-and-configuration-operations/)
 發現 Aspose.Cells for .NET 的綜合教程，包括連結配置等。非常適合希望增強 Excel 應用程式的開發人員。
 ### [使用電子表格中的字體](./working-with-fonts-in-spreadsheets/)
-了解有關使用 Aspose.Cells for .NET 的基本教程，重點關注電子表格中的字體管理並確保最佳文件呈現。
+了解有關使用 Aspose.Cells for .NET 的基本教程，重點是電子表格中的字體管理並確保最佳的文件呈現。
 ### [Excel 格式設定和樣式](./excel-formatting-and-styling/)
 了解有關 Excel 格式設定和樣式設定的基本 Aspose.Cells for .NET 教學。透過實用的逐步指南提升您的電子表格。
 ### [在 Excel 中使用字體](./working-with-fonts-in-excel/)
@@ -170,3 +170,25 @@ Aspose.Cells for .NET 教學課程，介紹將 Excel 中的 Office 加載項渲�
 探索使用 Aspose.Cells for .NET 管理 Excel 切片器的綜合教學課程。了解如何輕鬆建立、更新、格式化和匯出切片器。
 ### [Aspose.Cells 中用於動態資料的智慧標記](./smart-markers-dynamic-data/)
 探索 Aspose.Cells for .NET 智慧標記教學課程以建立動態 Excel 報表。學習新增標籤、自動填充資料、使用公式等。
+### [表格和列表](./tables-and-lists/)
+探索全面的 Aspose.Cells for .NET 教程，以有效管理 Excel 資料、建立表格並透過易於遵循的指南增強您的技能。
+### [Aspose.Cells 工作簿操作](./workbook-operations/)
+探索 Aspose.Cells for .NET 工作簿教程，涵蓋資料存取、XML 自訂、簽名、Web 擴充功能等。輕鬆增強 Excel 自動化技能。
+### [工作簿設定](./workbook-settings/)
+探索全面的 Aspose.Cells for .NET 教程，涵蓋工作簿設定、外部資源等。
+### [工作簿 VBA 項目](./workbook-vba-project/)
+使用 Aspose.Cells for .NET 釋放 Excel 的強大功能。探索有關 VBA 項目保護、複製使用者表單和保護工作簿的綜合教學。
+### [工作表顯示](./worksheet-display/)
+了解 Aspose.Cells for .NET 教學的完整清單。透過關鍵工作表功能的逐步指南增強您的 Excel 技能。
+### [工作表管理](./worksheet-management/)
+透過我們全面的教學釋放 Aspose.Cells for .NET 的強大功能，透過逐步說明引導您完成工作表管理。
+### [工作表頁面設定功能](./worksheet-page-setup-features/)
+了解 Aspose.Cells for .NET 的工作表頁面設定教學課程，包括複製頁面設定、管理紙張大小以及設定 Excel 工作表的列印品質。
+### [工作表安全](./worksheet-security/)
+揭開 Excel 安全的秘密。探索我們全面的 Aspose.Cells for .NET 教程，輕鬆保護、編輯和管理您的工作表。
+### [工作表值運算](./worksheet-value-operations/)
+了解 Aspose.Cells for .NET 的基本教學課程，涵蓋工作表值操作以增強您的 Excel 專案。
+### [工作表操作](./worksheet-operations/)
+探索 Aspose.Cells for .NET 工作簿教程，涵蓋資料存取、XML 自訂、簽名、Web 擴充功能等。輕鬆增強 Excel 自動化技能。
+### [Xml 映射操作](./xml-map-operations/)
+探索涵蓋 XML 映射操作的全面 Aspose.Cells for .NET 教學課程，輕鬆增強您的 Excel 技能。

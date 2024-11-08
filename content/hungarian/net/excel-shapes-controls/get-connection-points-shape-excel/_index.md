@@ -50,7 +50,7 @@ int textboxIndex = worksheet.TextBoxes.Add(2, 1, 160, 200);
 ```
 Íme, mit tettünk:
 -  Hozzáadott egy szövegmezőt a sorhoz`2` , oszlop`1`.
--  Állítsa be a szövegdoboz méretét a következőre`160` egységek szélességében és`200` egységek magasságban.
+-  Állítsa be a szövegdoboz méreteit`160` egységek szélességében és`200` egységek magasságban.
 ## 4. lépés: Nyissa meg az Alakzatot az Alakzatgyűjteményből
  Miután hozzáadtuk a szövegdobozt, az a munkalap alakzatgyűjteményének részévé válik. Most elérjük ezt az alakzatot a`Shapes`gyűjtemény.
 ```csharp

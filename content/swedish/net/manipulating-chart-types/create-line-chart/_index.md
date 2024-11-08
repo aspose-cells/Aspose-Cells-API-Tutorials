@@ -155,4 +155,4 @@ Ja, du kan ladda ner en gratis testversion för att utforska dess funktioner. F�
  Absolut! Du kan hitta svar och ställa frågor på[Aspose.Cells forum](https://forum.aspose.com/c/cells/9).
 
 ### Hur köper jag en licens?  
- Licenser kan lätt köpas via[köpsidan](https://purchase.aspose.com/buy).
+ Licenser kan enkelt köpas via[köpsidan](https://purchase.aspose.com/buy).

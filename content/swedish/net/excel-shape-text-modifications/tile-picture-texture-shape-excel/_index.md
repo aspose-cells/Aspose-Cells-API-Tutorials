@@ -59,7 +59,7 @@ Nu till den spännande delen! Vi kommer att kakla bilden som en textur inuti for
 sh.Fill.TextureFill.IsTiling = true;
 ```
  Genom att ställa in`IsTiling` sannerligen aktiverar du funktionen för sida vid sida, som gör att formen visar strukturen i ett upprepat mönster istället för att sträcka ut bilden. Detta lägger till kreativitet till dina kalkylblad, särskilt för bakgrundsbilder.
-## Steg 6: Spara utdatafilen i Excel
+## Steg 6: Spara Excel-filen
 När vi har gjort alla ändringar är nästa logiska steg att spara vår arbetsbok med de ändringar som gjorts. Så här gör du:
 ```csharp
 wb.Save(outputDir + "outputTextureFill_IsTiling.xlsx");

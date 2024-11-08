@@ -24,7 +24,7 @@ Sie haben alles, was Sie brauchen? Super! Kommen wir nun zum spaßigen Teil – 
 
 ## Pakete importieren
 
-Bevor wir mit dem Coden beginnen, binden wir die wesentlichen Bibliotheken ein. Öffnen Sie Ihr .NET-Projekt und importieren Sie den Aspose.Cells-Namespace am Anfang Ihrer C#-Datei. So geht's:
+Bevor wir mit dem Programmieren beginnen, binden wir die wesentlichen Bibliotheken ein. Öffnen Sie Ihr .NET-Projekt und importieren Sie den Aspose.Cells-Namespace am Anfang Ihrer C#-Datei. So geht's:
 
 ```csharp
 using System;

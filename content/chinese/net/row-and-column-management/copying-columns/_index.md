@@ -31,7 +31,7 @@ string dataDir = "Your Document Directory";
 ```
 代替`"Your Document Directory"`与您的目录的实际路径一致。
 ## 步骤 2：加载工作簿
-设置路径后，现在就可以使用 Aspose.Cells 加载 Excel 文件了。操作方法如下：
+设置路径后，现在是时候使用 Aspose.Cells 加载 Excel 文件了。操作方法如下：
 ```csharp
 //加载现有的工作簿。
 Workbook excelWorkbook1 = new Workbook(dataDir + "book1.xls");
@@ -57,7 +57,7 @@ ws1.Cells.CopyColumn(ws1.Cells, ws1.Cells.Columns[0].Index, ws1.Cells.Columns[2]
 //自动调整第三列以匹配内容宽度。
 ws1.AutoFitColumn(2);
 ```
-`ws1.AutoFitColumn(2);`告诉 Aspose.Cells 调整第三列（索引`2`以完美适应其内容。此步骤有助于提高可读性，特别是当您的数据条目很长时。
+`ws1.AutoFitColumn(2);`告诉 Aspose.Cells 调整第三列（索引`2`以完美匹配其内容。此步骤有助于提高可读性，尤其是当您的数据条目很长时。
 ## 步骤 6：保存工作簿
 最后，让我们保存修改后的工作簿以创建包含复制的列的新文件。 
 ```csharp
@@ -69,7 +69,7 @@ excelWorkbook1.Save(dataDir + "output.xls");
 Aspose.Cells for .NET 提供了一个强大的解决方案，用于以编程方式处理 Excel 文件，使复制列等任务变得快速而简单。通过遵循本指南，您已经学会了如何使用这个多功能 API 复制 Excel 中的列，涵盖从加载工作簿到保存修改后的文件的所有内容。尝试使用不同的列、文件和布局来体验 Aspose.Cells 的灵活性。祝您编码愉快！
 ## 常见问题解答
 ### 我可以使用 Aspose.Cells 一次复制多列吗？  
-是的，但是它需要单独循环遍历每一列，因为`CopyColumn`每次只对一列进行操作。 
+是的，但它需要单独循环遍历每一列，因为`CopyColumn`每次只对一列进行操作。 
 ### 列格式会被保留吗？  
 是的，Aspose.Cells 在复制列时会保留内容和格式。
 ### 我需要安装 Excel 才能使用 Aspose.Cells 吗？  

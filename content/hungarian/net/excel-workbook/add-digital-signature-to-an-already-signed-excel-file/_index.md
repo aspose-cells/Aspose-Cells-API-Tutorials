@@ -84,7 +84,7 @@ string password = "aspose";
 System.Security.Cryptography.X509Certificates.X509Certificate2 certificate = new System.Security.Cryptography.X509Certificates.X509Certificate2(certFileName, password);
 ```
 
- Ügyeljen arra, hogy cserélje ki`AsposeDemo.pfx`és a jelszót a tényleges tanúsítványfájl nevével és jelszavával.
+ Mindenképpen cserélje ki`AsposeDemo.pfx`és a jelszót a tényleges tanúsítványfájl nevével és jelszavával.
 
 ## 5. lépés: Hozza létre a digitális aláírást
 

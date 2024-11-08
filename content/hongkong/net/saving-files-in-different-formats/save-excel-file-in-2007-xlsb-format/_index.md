@@ -64,6 +64,6 @@ Aspose.Cells 是一個功能強大的 .NET 程式庫，可讓開發人員以程�
 ### xls 和 xlsb 格式有什麼不同？
 xls 格式較舊，基於二進位檔案結構，而 xlsb 是一種較新的格式，也使用二進位存儲，但允許更大的檔案大小和更快的處理速度。
 ### 在哪裡可以購買 Aspose.Cells 的許可證？
-您可以直接從以下網站購買許可證[Aspose購買頁面](https://purchase.aspose.com/buy).
+您可以直接從[Aspose購買頁面](https://purchase.aspose.com/buy).
 ### 我該如何尋求 Aspose.Cells 問題的支援？
 如果您遇到任何問題或有疑問，請隨時訪問[支援論壇](https://forum.aspose.com/c/cells/9)

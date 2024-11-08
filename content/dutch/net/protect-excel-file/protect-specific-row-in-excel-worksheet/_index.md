@@ -17,7 +17,7 @@ Voordat we beginnen, heb je een paar dingen nodig:
 
 1. Visual Studio: Zorg ervoor dat Visual Studio op uw machine is geïnstalleerd. U kunt elke versie gebruiken die .NET-ontwikkeling ondersteunt.
 2.  Aspose.Cells voor .NET: U moet de Aspose.Cells-bibliotheek geïnstalleerd hebben. Bezoek[deze link om te downloaden](https://releases.aspose.com/cells/net/) de nieuwste release.
-3. Basiskennis van .NET: Kennis van C# en basisprogrammeerconcepten is handig omdat we met codefragmenten gaan werken.
+3. Basiskennis van .NET: Kennis van C# en basisprogrammeerconcepten is nuttig omdat we met codefragmenten gaan werken.
 
 Zodra alles geregeld is, kunnen we aan de slag!
 

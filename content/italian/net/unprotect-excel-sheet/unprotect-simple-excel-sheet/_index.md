@@ -2,7 +2,7 @@
 title: Sproteggi un semplice foglio Excel
 linktitle: Sproteggi un semplice foglio Excel
 second_title: Riferimento API Aspose.Cells per .NET
-description: Scopri come rimuovere facilmente la protezione dai fogli Excel usando Aspose.Cells per .NET con questa guida passo-passo. Riprendi l'accesso ai tuoi dati in un attimo.
+description: Scopri come rimuovere facilmente la protezione dai fogli Excel usando Aspose.Cells per .NET con questa guida passo-passo. Riacquista l'accesso ai tuoi dati in pochissimo tempo.
 type: docs
 weight: 30
 url: /it/net/unprotect-excel-sheet/unprotect-simple-excel-sheet/
@@ -52,7 +52,7 @@ Analizziamo nel dettaglio i passaggi del processo di rimozione della protezione.
 
 ## Passaggio 1: definizione del percorso della directory
 
-La prima cosa che devi fare è specificare il percorso della directory in cui si trova il tuo file Excel. Questo è essenziale perché indica al tuo programma dove trovare il file che vuoi rimuovere la protezione.
+La prima cosa che devi fare è specificare il percorso della directory in cui si trova il tuo file Excel. Questo è essenziale perché indica al tuo programma dove trovare il file che vuoi sproteggere.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // Sostituiscilo con il tuo percorso effettivo

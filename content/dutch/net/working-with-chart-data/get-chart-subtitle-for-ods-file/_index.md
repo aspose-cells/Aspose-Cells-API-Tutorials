@@ -16,9 +16,9 @@ Excel-bestanden zijn alomtegenwoordig in de huidige datagedreven wereld en diene
 Voordat u in de tutorial duikt, moet u ervoor zorgen dat u alles hebt ingesteld wat nodig is om Aspose.Cells voor .NET effectief te gebruiken. Hier is een checklist om te volgen:
 
 1. .NET Framework: Zorg ervoor dat .NET Framework op uw computer is geïnstalleerd. 
-2. Aspose.Cells Library: Download en installeer de Aspose.Cells-bibliotheek. U kunt deze verkrijgen via[hier](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells Library: Download en installeer de Aspose.Cells-bibliotheek. U kunt deze verkrijgen via[hier](https://releases.aspose.com/cells/net/).
 3. IDE: Hoewel elke code-editor voldoet, biedt een IDE zoals Visual Studio een robuust platform voor .NET-ontwikkeling.
-4.  Een voorbeeld van een ODS-bestand: U hebt een ODS-bestand nodig dat grafieken bevat. Voor deze tutorial gebruiken we`SampleChart.ods`.
+4. Een voorbeeld van een ODS-bestand: U hebt een ODS-bestand nodig dat grafieken bevat. Voor deze tutorial gebruiken we`SampleChart.ods`.
 5. Basiskennis van C#: Als u bekend bent met C#, begrijpt u de concepten snel en kunt u indien nodig wijzigingen doorvoeren.
 
 ## Pakketten importeren
@@ -39,7 +39,7 @@ Laten we nu eens in de details duiken. Volg deze stapsgewijze instructies om de 
 Een nieuw consoletoepassingsproject maken
 
 - Open Visual Studio (of uw favoriete IDE).
-- Maak een nieuw Console Application-project en geef het een relevante naam, zoals`ChartSubtitleExtractor`.
+-  Maak een nieuw Console Application-project en geef het een relevante naam, zoals`ChartSubtitleExtractor`.
 
 ## Stap 2: Aspose.Cells NuGet-pakket toevoegen
 

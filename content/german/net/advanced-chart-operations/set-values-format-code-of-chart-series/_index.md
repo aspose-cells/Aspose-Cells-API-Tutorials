@@ -65,7 +65,7 @@ Workbook wb = new Workbook(sourceDir + "sampleSeries_ValuesFormatCode.xlsx");
 
 ## Schritt 3: Zugriff auf das Arbeitsblatt
 
-Nachdem wir unsere Arbeitsmappe geladen haben, stürzen wir uns auf das erste Arbeitsblatt.
+Nachdem wir unsere Arbeitsmappe geladen haben, tauchen wir in das erste Arbeitsblatt ein.
 
 Jedes Arbeitsblatt in einer Excel-Datei verhält sich wie eine Seite in einem Buch. Sie möchten auf die richtige Seite zugreifen, um die Daten zu finden, die Sie interessieren!
 

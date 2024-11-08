@@ -12,7 +12,7 @@ När det gäller att hantera Excel-filer programmatiskt framstår Aspose.Cells f
 ## Förutsättningar
 Innan vi hoppar in i koden, låt oss se till att du har allt du behöver för att komma igång. Här är en snabb checklista:
 1. Visual Studio: Se till att du har Visual Studio installerat på din dator. Det är här du ska skriva och köra din C#-kod.
-2.  Aspose.Cells för .NET: Du måste ladda ner och installera Aspose.Cells-biblioteket. Du kan ta den från[denna länk](https://releases.aspose.com/cells/net/). 
+2.  Aspose.Cells för .NET: Du måste ladda ner och installera Aspose.Cells-biblioteket. Du kan ta det från[denna länk](https://releases.aspose.com/cells/net/). 
 3. Grundläggande kunskaper om C#: Bekantskap med C#-programmering hjälper dig att förstå kodsnuttarna och begreppen vi diskuterar.
 4. .NET Framework: Se till att du har .NET Framework installerat på ditt system, eftersom Aspose.Cells körs på det.
 5. Excel-fil: Ha en Excel-fil redo som innehåller formler. Du kan använda vilken befintlig fil som helst eller skapa en enkel fil för testning.

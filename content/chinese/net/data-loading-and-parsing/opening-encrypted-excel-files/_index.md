@@ -51,7 +51,7 @@ LoadOptions loadOptions = new LoadOptions();
 //指定密码
 loadOptions.Password = "1234"; //将“1234”替换为你的实际密码
 ```
-在这条线中，`"1234"`是您实际密码的占位符。请确保将其替换为您用于加密 Excel 文件的密码。
+在这一行中，`"1234"`是您实际密码的占位符。请确保将其替换为您用于加密 Excel 文件的密码。
 ## 步骤 4：创建工作簿对象
 现在我们可以创建一个`Workbook`代表您的 Excel 文件的对象。
 ```csharp

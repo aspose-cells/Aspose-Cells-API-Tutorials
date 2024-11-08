@@ -17,7 +17,7 @@ Prima di intraprendere questo viaggio, assicuriamoci che tu abbia tutto sistemat
 ### Perché Aspose.Cells?
 Aspose.Cells per .NET è una potente libreria specificamente progettata per gestire le operazioni sui file Excel. Ti consente di leggere, scrivere, manipolare e convertire facilmente i file Excel. Immagina di poter creare report, tabelle pivot o persino grafici in modo programmatico senza dover scavare nell'interfaccia utente di Excel: sembra magia, vero?
 ## Importa pacchetti
-Ora che abbiamo impostato tutti i prerequisiti, tuffiamoci nei passaggi successivi. Inizia importando i pacchetti necessari. Ecco come puoi farli funzionare:
+Ora che abbiamo tutti i prerequisiti impostati, tuffiamoci nei passaggi successivi. Inizia importando i pacchetti necessari. Ecco come puoi farli funzionare:
 ### Crea un nuovo progetto
 Apri Visual Studio e crea un nuovo progetto C#. Scegli un modello Console App poiché faremo l'elaborazione backend.
 ### Aggiungi riferimento a Aspose.Cells

@@ -95,7 +95,7 @@ workbook.Save(dataDir + "book1.out.xls");
 ```
 Ez a kódsor a munkafüzetet a korábban beállított könyvtárba menti. A fájl neve "book1.out.xls", de bármilyen nevet választhat, amely megfelel a projektnek.
 ## Következtetés
-És megvan! Sikeresen hozzáadott egy listamezőt egy Excel-munkalaphoz az Aspose.Cells for .NET használatával. Csak néhány sornyi kóddal létrehoztunk egy teljesen működőképes listadobozt, amely interaktívabbá és dinamikusabbá tette a munkalapot. Ez az oktatóanyag szilárd alapot biztosít az Aspose.Cells for .NET egyéb vezérlőinek és funkcióinak felfedezéséhez. Folytasd a kísérletezést, és hamarosan elsajátítod a könyvtár hatalmas funkcióit!
+És megvan! Sikeresen hozzáadott egy listamezőt egy Excel-munkalaphoz az Aspose.Cells for .NET használatával. Néhány sornyi kóddal létrehoztunk egy teljesen működőképes listadobozt, amely interaktívabbá és dinamikusabbá tette a munkalapot. Ez az oktatóanyag szilárd alapot biztosít az Aspose.Cells for .NET egyéb vezérlőinek és funkcióinak felfedezéséhez. Folytasd a kísérletezést, és hamarosan elsajátítod a könyvtár hatalmas funkcióit!
 ## GYIK
 ### Engedélyezhetek több kijelölést a listamezőben?  
  Igen, megváltoztathatod a`SelectionType` hogy`SelectionType.Multi` több kijelölés engedélyezése.

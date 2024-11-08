@@ -66,7 +66,7 @@ Cells cells = worksheet.Cells;
 ```
 Nyní máte přístup k buňkám v pracovním listu, podobně jako máte přístup ke všemu nábytku ve svém pokoji.
 ## Krok 6: Zadejte hodnotu do buňky
-Pojďme naplnit buňku počáteční hodnotou. Posuvník bude tuto hodnotu ovládat později.
+Pojďme naplnit buňku počáteční hodnotou. Tuto hodnotu bude později ovládat posuvník.
 ```csharp
 // Zadejte hodnotu do buňky A1.
 cells["A1"].PutValue(1);

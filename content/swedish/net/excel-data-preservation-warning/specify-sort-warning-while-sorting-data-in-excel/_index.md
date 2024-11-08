@@ -123,7 +123,7 @@ Slutligen måste du spara din sorterade arbetsbok. Om du vill behålla originalf
 workbook.Save(dataDir + "outputSortAsNumber.xlsx");
 ```
 
-Och det är det! Din sorterade data sparas nu i en ny fil!
+Och det är det! Din sorterade data är nu sparad i en ny fil!
 
 ## Slutsats
 

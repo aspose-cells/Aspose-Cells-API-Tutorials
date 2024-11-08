@@ -8,7 +8,7 @@ weight: 14
 url: /de/net/converting-excel-files-to-other-formats/converting-excel-file-to-pdf-a-1a/
 ---
 ## Einführung
-In der modernen Welt der Dokumentenverarbeitung müssen Sie manchmal Excel-Dateien in PDFs konvertieren, insbesondere zu Archivierungszwecken. Aber wussten Sie, dass es ein spezielles Format namens PDF/A-1a gibt? Dieses Format gewährleistet die langfristige Aufbewahrung Ihrer Dokumente unter Einhaltung bestimmter Standards. In diesem Tutorial werden wir Schritt für Schritt durch den Prozess der Konvertierung einer Excel-Datei in das PDF/A-1a-Format mit Aspose.Cells für .NET gehen.
+In der modernen Welt der Dokumentenverarbeitung müssen Sie manchmal Excel-Dateien in PDFs konvertieren, insbesondere zu Archivierungszwecken. Aber wussten Sie, dass es ein spezielles Format namens PDF/A-1a gibt? Dieses Format gewährleistet die langfristige Aufbewahrung Ihrer Dokumente unter Einhaltung bestimmter Standards. In diesem Tutorial werden wir Schritt für Schritt durch den Prozess der Konvertierung einer Excel-Datei in das PDF/A-1a-Format mit Aspose.Cells für .NET tauchen.
 ## Voraussetzungen
 Bevor Sie mit dem Tutorial beginnen, müssen Sie einige Dinge vorbereitet haben. Hier ist eine kurze Checkliste:
 -  Aspose.Cells für .NET: Stellen Sie sicher, dass Sie die neueste Version installiert haben. Sie können sie herunterladen[Hier](https://releases.aspose.com/cells/net/).

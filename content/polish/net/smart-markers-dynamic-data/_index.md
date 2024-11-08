@@ -2,7 +2,7 @@
 title: Inteligentne znaczniki w Aspose.Cells dla dynamicznych danych
 linktitle: Inteligentne znaczniki w Aspose.Cells dla dynamicznych danych
 second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Poznaj samouczki Aspose.Cells for .NET Smart Markers, aby tworzyć dynamiczne raporty w programie Excel. Dowiedz się, jak dodawać etykiety, automatycznie wypełniać dane, używać formuł i nie tylko.
+description: Poznaj Aspose.Cells for .NET Smart Markers Tutorials, aby tworzyć dynamiczne raporty Excela. Naucz się dodawać etykiety, automatycznie wypełniać dane, używać formuł i nie tylko.
 type: docs
 weight: 26
 url: /pl/net/smart-markers-dynamic-data/

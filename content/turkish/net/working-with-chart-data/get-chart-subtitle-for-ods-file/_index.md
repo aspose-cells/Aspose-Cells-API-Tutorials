@@ -16,9 +16,9 @@ Excel dosyaları, günümüzün veri odaklı dünyasında her yerde bulunur ve v
 Eğitime dalmadan önce, Aspose.Cells for .NET'i etkili bir şekilde kullanmak için gereken her şeyi ayarladığınızdan emin olmak isteyeceksiniz. İşte takip edilecek bir kontrol listesi:
 
 1. .NET Framework: Bilgisayarınızda .NET Framework'ün yüklü olduğundan emin olun. 
-2. Aspose.Cells Kütüphanesi: Aspose.Cells kütüphanesini indirin ve kurun. Buradan edinebilirsiniz[Burada](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells Kütüphanesi: Aspose.Cells kütüphanesini indirin ve kurun. Buradan edinebilirsiniz[Burada](https://releases.aspose.com/cells/net/).
 3. IDE: Herhangi bir kod düzenleyici işinizi görecektir ancak Visual Studio gibi bir IDE kullanmak .NET geliştirme için sağlam bir platform sağlar.
-4.  Örnek Bir ODS Dosyası: Grafikler içeren bir ODS dosyasına ihtiyacınız olacak. Bu eğitim için şunu kullanacağız:`SampleChart.ods`.
+4. Örnek Bir ODS Dosyası: Grafikler içeren bir ODS dosyasına ihtiyacınız olacak. Bu eğitim için şunu kullanacağız:`SampleChart.ods`.
 5. Temel C# Bilgisi: C#'a aşina olmak, kavramları hızlı bir şekilde kavramanıza ve gerektiğinde değişiklikler yapmanıza yardımcı olacaktır.
 
 ## Paketleri İçe Aktar
@@ -39,7 +39,7 @@ Bu ad alanları, Excel dosyaları ve grafikler gibi bileşenleriyle çalışmak 
 Yeni bir Konsol Uygulama Projesi oluşturun
 
 - Visual Studio'yu (veya tercih ettiğiniz IDE'yi) açın.
-- Yeni bir Konsol Uygulaması projesi oluşturun ve ona şu şekilde uygun bir ad verin:`ChartSubtitleExtractor`.
+-  Yeni bir Konsol Uygulaması projesi oluşturun ve ona şu şekilde uygun bir ad verin:`ChartSubtitleExtractor`.
 
 ## Adım 2: Aspose.Cells NuGet Paketini Ekleyin
 

@@ -2,7 +2,7 @@
 title: Chránit řádek v listu aplikace Excel
 linktitle: Chránit řádek v listu aplikace Excel
 second_title: Aspose.Cells for .NET API Reference
-description: V tomto tutoriálu zjistíte, jak chránit řádky tabulky Excel pomocí Aspose.Cells for .NET. Krok za krokem tutoriál v C#.
+description: V tomto tutoriálu zjistíte, jak chránit řádky tabulky Excel pomocí Aspose.Cells for .NET. Výukový program krok za krokem v C#.
 type: docs
 weight: 60
 url: /cs/net/protect-excel-file/protect-row-in-excel-worksheet/

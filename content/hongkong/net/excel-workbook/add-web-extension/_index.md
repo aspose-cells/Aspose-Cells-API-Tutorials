@@ -13,7 +13,7 @@ url: /zh-hant/net/excel-workbook/add-web-extension/
 
 ## 先決條件
 
-在我們深入了解編碼的細節之前，讓我們確保您擁有所需的一切。以下是開始使用 Aspose.Cells for .NET 的先決條件：
+在我們開始討論編碼的細節之前，讓我們確保您擁有所需的一切。以下是開始使用 Aspose.Cells for .NET 的先決條件：
 
 1. Visual Studio：確保安裝了 Visual Studio，因為我們將在此 IDE 中編寫程式碼。
 2. .NET Framework：熟悉 .NET 框架（最好是 .NET Core 或 .NET 5/6）。

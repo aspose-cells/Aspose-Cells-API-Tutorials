@@ -49,7 +49,7 @@ UnionRange unionRange = workbook.Worksheets.CreateUnionRange("sheet1!A1:A10,shee
 ## Krok 3: Přiřazení hodnoty
 Nyní, když máme naši odbornou řadu připravenou, je čas ji oživit tím, že do ní vložíme hodnotu. Tento krok zahrnuje nastavení konkrétní hodnoty pro všechny buňky v tomto sjednocovacím rozsahu.
 ```csharp
-// Vložte hodnotu "ABCD" do rozsahu
+// Zadejte hodnotu "ABCD" v rozsahu
 unionRange.Value = "ABCD";
 ```
 V tomto příkladu přiřazujeme hodnotu "ABCD" všem buňkám v oblasti sjednocení. Když otevřete výsledný soubor Excel, najdete "ABCD" krásně zobrazené ve všech definovaných buňkách!
@@ -59,7 +59,7 @@ Po vší té těžké práci je klíčové sešit uložit, aby se vaše změny n
 // Uložte výstupní sešit
 workbook.Save(outputDir + "CreateUnionRange_out.xlsx");
 ```
- Tento řádek uloží sešit do zadaného adresáře. Ujistěte se, že vyměňujete`outputDir` s cestou k vašemu adresáři dokumentů. 
+ Tento řádek uloží sešit do zadaného adresáře. Ujistěte se, že vyměňujete`outputDir` s cestou k adresáři s dokumenty. 
 ## Krok 5: Potvrďte provedení
 Nakonec přidejte příkaz k tisku, abyste potvrdili, že váš kód byl úspěšně spuštěn. Je to jako poslední dotek na vašem mistrovském díle, který vám dá hřejivé fuzzie s vědomím, že se vše povedlo!
 ```csharp

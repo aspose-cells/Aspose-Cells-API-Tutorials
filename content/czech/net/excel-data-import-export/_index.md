@@ -23,4 +23,4 @@ Na řadě je další běžná výzva: vkládání řádků DataTable do Excelu, 
 ### [Importujte data do Excelu pomocí vlastního formátování číselného vzoru databáze](./import-data-to-worksheet-in-excel-with-specified-db-num-custom-pattern-formatting/)
 Zjistěte, jak importovat data do Excelu pomocí vlastního formátování DB Num pomocí Aspose.Cells for .NET v tomto snadno srozumitelném tutoriálu.
 ### [Shift první řádek dolů při vkládání řádků DataTable v Excelu](./shift-first-row-down-when-inserting-cells-datatable-rows-in-excel/)
-Naučte se vkládat řádky DataTable do Excelu bez posunutí prvního řádku dolů pomocí Aspose.Cells for .NET. Průvodce krok za krokem pro snadnou automatizaci.
+Naučte se vkládat řádky DataTable do Excelu bez posunutí prvního řádku dolů pomocí Aspose.Cells for .NET. Průvodce krok za krokem pro automatizaci bez námahy.

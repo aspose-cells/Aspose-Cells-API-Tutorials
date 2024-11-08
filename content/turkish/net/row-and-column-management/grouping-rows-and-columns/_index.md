@@ -72,7 +72,7 @@ Bu fonksiyonun parametreleri şunlardır:
 - true: Bu parametre gruplanmış sütunları gizler.
 Seçtiğiniz sütunlar (0 ila 2) artık Excel dosyasında gruplandırılmış ve gizli olarak görünecektir.
 ## Adım 7: Değiştirilen Excel Dosyasını Kaydedin
-Değişiklikleri yaptıktan sonra orijinalinin üzerine yazılmasını önlemek için dosyayı yeni bir isimle kaydedelim.
+Değişiklikleri yaptıktan sonra orijinalinin üzerine yazmamak için dosyayı yeni bir isimle kaydedelim.
 ```csharp
 // Değiştirilen Excel dosyasını kaydetme
 workbook.Save(dataDir + "output.xls");

@@ -140,7 +140,7 @@ workbook.Save(outputDir + "outputAddingTextBoxControlInChart.xls");
 
 ## 結論
 
-恭喜！您已使用 Aspose.Cells for .NET 成功將 TextBox 控制項新增至圖表。這種簡單而有效的更改可以使您的圖表資訊更豐富且更具視覺吸引力。數據表示是有效溝通的關鍵，借助 Aspose 這樣的工具，您可以以最少的努力增強演示效果。
+恭喜！您已使用 Aspose.Cells for .NET 成功將 TextBox 控制項新增至圖表。這種簡單而有效的更改可以使您的圖表資訊更豐富且更具視覺吸引力。資料表示是有效溝通的關鍵，使用 Aspose 這樣的工具，您可以以最少的努力增強簡報效果。
 
 ## 常見問題解答
 

@@ -122,7 +122,7 @@ Je to jako oblékat si celu do nového stylového oblečení!
 
 ## Krok 8: Upravte šířku sloupce
 
-Postarejme se, aby vše vypadalo hezky a úhledně. Šířku prvního sloupce můžete upravit tak, aby lépe odpovídala vašim datům.
+Pojďme se ujistit, že vše vypadá hezky a úhledně. Šířku prvního sloupce můžete upravit tak, aby lépe odpovídala vašim datům.
 
 ```csharp
 ws.Cells.SetColumnWidth(0, 30);

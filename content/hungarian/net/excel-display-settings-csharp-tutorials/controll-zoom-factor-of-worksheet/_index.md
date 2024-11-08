@@ -63,7 +63,7 @@ Ezt a következőképpen határozza meg a kódjában:
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Ügyeljen arra, hogy cserélje ki`"YOUR DOCUMENT DIRECTORY"` a tényleges elérési úttal a gépen. Valami ilyesmi lehet`"C:\\ExcelFiles\\"`.
+ Mindenképpen cserélje ki`"YOUR DOCUMENT DIRECTORY"` a tényleges elérési úttal a gépen. Valami ilyesmi lehet`"C:\\ExcelFiles\\"`.
 
 ## 2. lépés: Hozzon létre egy fájlfolyamot az Excel fájlhoz
 

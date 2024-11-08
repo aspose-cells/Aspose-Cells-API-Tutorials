@@ -35,7 +35,7 @@ Nu we de documentdirectory hebben ingesteld, is het tijd om een eyes-on-object t
 ```csharp
 Workbook workbook = new Workbook(dataDir + "Book1.xls");
 ```
-Hier laden we ons Excel-bestand (`Book1.xls`) in het werkmapobject, zodat we er programmatisch mee kunnen interacteren. Beschouw de werkmap als uw Excel-canvas waar u kleuren, vormen en—dit keer—formules kunt toevoegen!
+Hier laden we ons Excel-bestand (`Book1.xls`) in het werkmapobject, zodat we er programmatisch mee kunnen interacteren. Beschouw de werkmap als uw Excel-canvas waar u kleuren, vormen en—dit keer—formules aan kunt toevoegen!
 ## Stap 3: Toegang tot een werkblad
 Met onze werkmap in de hand is de volgende stap om een werkblad te pakken. Als je een werkmap als een boek ziet, dan is het werkblad een pagina vol met data. Laten we het eerste werkblad openen:
 ```csharp

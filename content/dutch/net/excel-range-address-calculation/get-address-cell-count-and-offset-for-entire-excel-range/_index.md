@@ -9,7 +9,7 @@ url: /nl/net/excel-range-address-calculation/get-address-cell-count-and-offset-f
 ---
 ## Invoering
 Heb je ooit met data in Excel zitten jongleren, snel toegang moeten krijgen tot bepaalde bereiken of moeten uitvogelen met hoeveel cellen je werkt? Nou, dan heb je geluk! Vandaag duiken we in de wereld van Aspose.Cells voor .NET, een fantastische bibliotheek waarmee je moeiteloos Excel-bestanden kunt manipuleren. Aan het einde van deze gids weet je hoe je het adres kunt krijgen, de cellen kunt tellen en offsets voor een heel bereik kunt bepalen. Zie dit als je routekaart om een Excel-expert te worden met C#!
-Dus leun achterover, pak je favoriete drankje en laten we beginnen!
+Dus, leun achterover, pak je favoriete drankje en laten we beginnen!
 ## Vereisten
 Voordat we onze handen vuil maken aan de code, zijn er een paar dingen die je op orde moet hebben. Maar geen zorgen! Het is vrij eenvoudig.
 ### Wat heb je nodig:
@@ -27,7 +27,7 @@ Voordat je begint met coderen, voegen we het Aspose.Cells-pakket toe. Dit is hoe
 1. Klik met de rechtermuisknop op uw project in Solution Explorer.
 2. Selecteer 'NuGet-pakketten beheren'.
 3. Zoek in de NuGet Package Manager naar “Aspose.Cells.”
-4. Klik op "Installeren" om het pakket aan uw project toe te voegen.
+4. Klik op 'Installeren' om het pakket aan uw project toe te voegen.
 ### Naamruimte importeren
  Bovenaan je`Program.cs`bestand, importeer de Aspose.Cells-naamruimte:
 ```csharp

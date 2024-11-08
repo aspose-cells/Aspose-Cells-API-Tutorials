@@ -15,7 +15,7 @@ Vous êtes-vous déjà demandé comment créer de superbes graphiques dans Excel
 
 Avant de commencer, assurez-vous que tout est en place pour suivre le processus de manière fluide.
 
-1.  Bibliothèque Aspose.Cells pour .NET – Vous devrez l'installer. Vous pouvez l'obtenir[ici](https://releases.aspose.com/cells/net/).
+1. Bibliothèque Aspose.Cells pour .NET – Vous devrez l'installer. Vous pouvez l'obtenir[ici](https://releases.aspose.com/cells/net/).
 2. .NET Framework – Assurez-vous que votre environnement de développement est configuré avec la dernière version de .NET.
 3. IDE (environnement de développement intégré) – Visual Studio est recommandé.
 4.  Une licence Aspose.Cells valide – Si vous n'en avez pas, vous pouvez en demander une[permis temporaire](https://purchase.aspose.com/temporary-license/) ou consultez leur[essai gratuit](https://releases.aspose.com/).
@@ -109,7 +109,7 @@ chart.AutoScaling = true;
 // Définir la couleur de premier plan sur blanc
 chart.PlotArea.Area.ForegroundColor = Color.White;
 
-// Définir les propriétés du titre du graphique
+//Définir les propriétés du titre du graphique
 chart.Title.Text = "Sample Chart";
 
 // Définir le type de graphique

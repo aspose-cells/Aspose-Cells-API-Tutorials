@@ -89,7 +89,7 @@ Excel IF işlevini Aspose.Cells for Java ile kullanmak, koşullu işlemler gerç
 
 ### Karmaşık koşullarla Excel IF fonksiyonunu kullanabilir miyim?
 
-Evet, Excel'de standart Excel formüllerinde olduğu gibi karmaşık koşullar oluşturmak için birden fazla IF işlevini iç içe geçirebilirsiniz. Java için Aspose.Cells de bu karmaşık koşulları destekler.
+Evet, Excel'de standart Excel formüllerinde olduğu gibi karmaşık koşullar oluşturmak için birden fazla IF işlevini iç içe yerleştirebilirsiniz. Java için Aspose.Cells de bu karmaşık koşulları destekler.
 
 ### Java için Aspose.Cells için herhangi bir lisanslama gereksinimi var mı?
 

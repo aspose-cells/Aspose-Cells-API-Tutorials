@@ -110,7 +110,7 @@ Cada una de estas líneas modifica la apariencia del texto dentro de su TextBox,
 
 ## Paso 7: Formatear la apariencia del cuadro de texto
 
-También es fundamental dar formato al fondo y al borde del cuadro de texto para que destaque en el gráfico.
+También es fundamental formatear el fondo y el borde del cuadro de texto para que destaque en el gráfico.
 
 ```csharp
 // Obtener el formato de relleno del cuadro de texto.

@@ -103,7 +103,7 @@ den här omfattande guiden undersökte vi hur man skapar överlappande rullgardi
 
 ### Hur kan jag lägga till fler länder och städer i rullgardinsmenyn?
 
-För att lägga till fler länder och städer måste du uppdatera respektive blad i din Excel-arbetsbok. Utöka helt enkelt listorna i bladen "Länder" och "Städer", så kommer rullgardinsmenyn automatiskt att inkludera de nya posterna.
+För att lägga till fler länder och städer måste du uppdatera respektive blad i din Excel-arbetsbok. Utöka bara listorna i bladen "Länder" och "Städer", så kommer rullgardinsmenyn automatiskt att inkludera de nya posterna.
 
 ### Kan jag använda den här tekniken i kombination med andra Excel-funktioner?
 
@@ -119,4 +119,4 @@ Ja, Aspose.Cells för Java är mångsidig och kan användas i projekt av alla st
 
 ### Var kan jag hitta mer resurser och dokumentation för Aspose.Cells för Java?
 
- Du kan få tillgång till omfattande dokumentation och resurser för Aspose.Cells för Java på[här](https://reference.aspose.com/cells/java/).
+ Du kan få tillgång till omfattande dokumentation och resurser för Aspose.Cells for Java på[här](https://reference.aspose.com/cells/java/).

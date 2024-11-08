@@ -90,7 +90,7 @@ pivotTable.calculateData();
 
 ## Συχνές ερωτήσεις
 
-### Είναι το Aspose.Cells για Java δωρεάν για χρήση;
+### Είναι το Aspose.Cells για Java δωρεάν;
 
  Όχι, το Aspose.Cells για Java είναι μια εμπορική βιβλιοθήκη με χρέωση άδειας χρήσης. Μπορείτε να επισκεφθείτε το[Aspose website](https://www.aspose.com/) για να μάθετε περισσότερα για τις τιμές τους.
 

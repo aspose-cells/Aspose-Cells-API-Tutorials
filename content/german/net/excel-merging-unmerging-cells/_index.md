@@ -13,7 +13,7 @@ Beginnen wir mit den Grundlagen des Zusammenführens und Aufhebens von Zellen in
 
 ## Die Leistungsfähigkeit von Aspose.Cells für .NET
 
-Jetzt fragen Sie sich vielleicht, wie Aspose.Cells diesen Prozess vereinfacht. Aspose.Cells für .NET ist eine leistungsstarke API, die es Entwicklern ermöglicht, nahtlos mit Excel-Dateien zu interagieren. Stellen Sie sich vor, Sie hätten ein Schweizer Taschenmesser für Excel-Operationen; genau das ist dieses Tool. Es ermöglicht Ihnen, Zellen mit nur wenigen Codezeilen zusammenzuführen oder zu trennen! Außerdem können Sie eine Arbeitsmappe programmgesteuert bearbeiten – wie ein Maestro, der ein Datenorchester dirigiert. 
+Jetzt fragen Sie sich vielleicht, wie Aspose.Cells diesen Prozess vereinfacht. Aspose.Cells für .NET ist eine leistungsstarke API, die es Entwicklern ermöglicht, nahtlos mit Excel-Dateien zu interagieren. Stellen Sie sich vor, Sie hätten ein Schweizer Taschenmesser für Excel-Operationen; im Wesentlichen ist dieses Tool genau das. Es ermöglicht Ihnen, Zellen mit nur wenigen Codezeilen zusammenzuführen oder zu trennen! Außerdem können Sie eine Arbeitsmappe programmgesteuert bearbeiten – wie ein Maestro, der ein Datenorchester dirigiert. 
 
  In unserem Tutorial zum[Aufheben der Zusammenführung verbundener Zellen in Excel](./unmerge-merged-cells/), wir unterteilen den Prozess in leicht verständliche Schritte. Wir zeigen Ihnen, wie Sie mit Aspose.Cells zusammengeführte Zellen identifizieren, und führen Sie durch den Code, der zum Aufheben der Zusammenführung erforderlich ist. Dies ist unglaublich nützlich, wenn Sie umfangreiche Datenanpassungen vornehmen müssen oder einfach nur Ihre Tabelle bereinigen. 
 

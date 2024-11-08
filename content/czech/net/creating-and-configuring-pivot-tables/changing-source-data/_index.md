@@ -8,7 +8,7 @@ weight: 10
 url: /cs/net/creating-and-configuring-pivot-tables/changing-source-data/
 ---
 ## Zavedení
-Ve světě analýzy dat jen málo nástrojů září tak jasně jako Microsoft Excel. Každý den se bezpočet uživatelů spoléhá na Excel při správě a analýze dat, ale v zákulisí je to mnohem složitější než pouhé klikání a přetahování. Pokud jste někdy chtěli programově manipulovat se soubory Excelu – konkrétně měnit zdrojová data kontingenční tabulky – jste na správném místě! V této příručce prozkoumáme, jak toho můžete dosáhnout pomocí Aspose.Cells pro .NET. Ať už jste ostřílený vývojář nebo jen ponoříte prsty do moře programování, najdete tento tutoriál plný cenných informací, které lze snadno sledovat.
+Ve světě analýzy dat jen málo nástrojů září tak jasně jako Microsoft Excel. Každý den je nespočet uživatelů závislý na Excelu při správě a analýze dat, ale v zákulisí je to mnohem složitější než pouhé klikání a přetahování. Pokud jste někdy chtěli programově manipulovat se soubory Excelu – konkrétně měnit zdrojová data kontingenční tabulky – jste na správném místě! V této příručce prozkoumáme, jak toho můžete dosáhnout pomocí Aspose.Cells pro .NET. Ať už jste ostřílený vývojář nebo jen ponoříte prsty do moře programování, najdete tento tutoriál plný cenných informací, které lze snadno sledovat.
 ## Předpoklady
 Než se pustíme do naší cesty ke změně zdrojových dat kontingenční tabulky, ujistěte se, že máte vše nastaveno a připraveno:
 1. Visual Studio: Ujistěte se, že máte nainstalovanou kopii Microsoft Visual Studio, protože zde budeme psát náš kód.

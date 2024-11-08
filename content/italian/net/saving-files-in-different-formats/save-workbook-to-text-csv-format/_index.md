@@ -33,7 +33,7 @@ string dataDir = "Your Document Directory";
 ## Passaggio 2: carica la cartella di lavoro di origine
 Ora dobbiamo caricare la cartella di lavoro di Excel che verrà convertita in formato CSV.
 ```csharp
-// Carica la tua cartella di lavoro di origine
+// Carica la cartella di lavoro di origine
 Workbook workbook = new Workbook(dataDir + "book1.xls");
 ```
  IL`Workbook` classe della libreria Aspose.Cells consente la manipolazione e l'accesso alle cartelle di lavoro di Excel. Passando il percorso del file, stiamo caricando la cartella di lavoro specificata per l'elaborazione.
@@ -63,7 +63,7 @@ for (int idx = 0; idx < workbook.Worksheets.Count; idx++)
     workbook.Worksheets.ActiveSheetIndex = idx;
     workbook.Save(ms, opts);
 ```
- Il ciclo si svolge in ogni foglio di lavoro della cartella di lavoro.`ActiveSheetIndex` è impostato in modo che ogni volta che si esegue il ciclo, si salvi il foglio di lavoro corrente. I risultati verranno salvati in memoria utilizzando un`MemoryStream`.
+ Il ciclo si svolge in ogni foglio di lavoro della cartella di lavoro.`ActiveSheetIndex` è impostato in modo che ogni volta che si passa attraverso il ciclo, si salva il foglio di lavoro corrente. I risultati verranno salvati in memoria utilizzando un`MemoryStream`.
 ## Passaggio 6: Recupera i dati del foglio di lavoro
  Dopo aver salvato un foglio di lavoro nel flusso di memoria, il passo successivo è recuperare questi dati e aggiungerli al nostro`workbookData` vettore.
 ```csharp

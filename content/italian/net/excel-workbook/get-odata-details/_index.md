@@ -65,7 +65,7 @@ string SourceDir = "Your Document Directory";
 Workbook workbook = new Workbook(SourceDir + "ODataSample.xlsx");
 ```
 
-## Passaggio 2: accedere alle formule di Power Query
+## Passaggio 2: accedi alle formule di Power Query
 
 Successivamente, accederai alle formule di Power Query nella tua cartella di lavoro, che contengono i dettagli OData:
 

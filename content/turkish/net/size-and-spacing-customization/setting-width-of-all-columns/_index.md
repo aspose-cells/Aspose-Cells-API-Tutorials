@@ -31,7 +31,7 @@ bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
-Burada, Excel dosyalarımızın kaydedileceği bir dizin yolu tanımlıyoruz. Kod belirtilen dizinin var olup olmadığını kontrol eder. Yoksa, yeni bir tane oluşturur. Bu önemlidir çünkü daha sonra çıktınızı kaydetmeye çalışırken herhangi bir sorun yaşanmasını önler.
+Burada, Excel dosyalarımızın kaydedileceği bir dizin yolu tanımlıyoruz. Kod belirtilen dizinin var olup olmadığını kontrol eder. Yoksa, yeni bir tane oluşturur. Bu önemlidir çünkü daha sonra çıktınızı kaydetmeye çalışırken herhangi bir sorun oluşmasını önler.
 ## Adım 2: Excel Dosyasını Açma
 Ardından, çalışmak istediğimiz Excel dosyasını açalım. İşte bir dosya akışı oluşturma yöntemi:
 ```csharp

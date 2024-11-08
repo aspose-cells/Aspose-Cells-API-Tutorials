@@ -13,7 +13,7 @@ Apakah Anda siap untuk meningkatkan keterampilan Excel Anda ke tingkat berikutny
 Sebelum kita masuk ke pengkodean, mari pastikan Anda memiliki semua yang dibutuhkan:
 1. Visual Studio: Anda memerlukan IDE untuk menggunakannya. Visual Studio merupakan pilihan populer untuk pengembangan .NET.
 2.  Aspose.Cells untuk .NET: Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/cells/net/)Pastikan Anda memiliki lisensi atau lisensi sementara, yang dapat Anda peroleh[Di Sini](https://purchase.aspose.com/temporary-license/).
-3. Pengetahuan Dasar tentang C#: Sedikit pengetahuan tentang C# akan membantu Anda memahami contoh-contohnya dengan lebih baik. Jangan khawatir jika Anda bukan seorang ahli; kami akan menjelaskan semuanya sambil jalan!
+3. Pengetahuan Dasar tentang C#: Sedikit pengetahuan tentang C# akan membantu Anda memahami contoh-contohnya dengan lebih baik. Jangan khawatir jika Anda bukan seorang ahli; kami akan menjelaskan semuanya seiring berjalannya waktu!
 ## Paket Impor
 Untuk memulai Aspose.Cells, Anda perlu mengimpor namespace yang diperlukan. Berikut cara melakukannya:
 ```csharp

@@ -67,7 +67,7 @@ Teraz czas zdecydować, gdzie chcesz umieścić tekst. W tym przypadku użyjemy 
 // Dostęp do komórki „A1” z arkusza kalkulacyjnego
 Aspose.Cells.Cell cell = worksheet.Cells["A1"];
 ```
-Tutaj pobieramy komórkę w pozycji A1, aby móc wstawić tekst.
+Tutaj pobieramy komórkę w pozycji A1, tak abyśmy mogli wstawić tekst.
 ## Krok 6: Dodaj wartość do komórki
 Umieśćmy trochę treści w tej komórce:
 ```csharp

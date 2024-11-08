@@ -36,7 +36,7 @@ Làm chủ Phân tích đường xu hướng trong Java với Aspose.Cells. Họ
 ### [Chú thích biểu đồ](./chart-annotations/)
 Cải thiện biểu đồ của bạn bằng chú thích biểu đồ bằng Aspose.Cells cho Java - Hướng dẫn từng bước. Tìm hiểu cách thêm chú thích để trực quan hóa dữ liệu mang tính thông tin.
 ### [Biểu đồ hoạt hình](./chart-animation/)
-Tìm hiểu cách tạo hoạt ảnh biểu đồ hấp dẫn bằng Aspose.Cells cho Java. Hướng dẫn từng bước và mã nguồn kèm theo để trực quan hóa dữ liệu động.
+Tìm hiểu cách tạo hoạt ảnh biểu đồ hấp dẫn bằng Aspose.Cells for Java. Hướng dẫn từng bước và mã nguồn kèm theo để trực quan hóa dữ liệu động.
 ### [Biểu đồ thác nước](./waterfall-charts/)
 Tìm hiểu cách tạo Biểu đồ thác nước tuyệt đẹp với Aspose.Cells cho Java. Hướng dẫn từng bước với mã nguồn để trực quan hóa dữ liệu hiệu quả.
 ### [Biểu đồ tương tác](./chart-interactivity/)

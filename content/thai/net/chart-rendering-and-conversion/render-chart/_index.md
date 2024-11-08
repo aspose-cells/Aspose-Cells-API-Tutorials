@@ -141,7 +141,7 @@ ImageOrPrintOptions options = new ImageOrPrintOptions()
 
 ## ขั้นตอนที่ 10: แปลงแผนภูมิเป็นรูปภาพด้วยตัวเลือกขั้นสูง
 
-ตอนนี้เรามาแปลงแผนภูมิจริงๆ โดยใช้ตัวเลือกขั้นสูงที่เราเพิ่งตั้งค่ากัน
+ตอนนี้เรามาแปลงแผนภูมิโดยใช้ตัวเลือกขั้นสูงที่เราเพิ่งตั้งค่ากัน
 
 ```csharp
 chart.ToImage(outputDir + "outputChartRendering.png", options);

@@ -1,6 +1,6 @@
 ---
-title: Správa pojmenovaných rozsahů v Excelu
-linktitle: Správa pojmenovaných rozsahů v Excelu
+title: Správa pojmenovaných oblastí v Excelu
+linktitle: Správa pojmenovaných oblastí v Excelu
 second_title: Aspose.Cells .NET Excel Processing API
 description: Prozkoumejte komplexní výukové programy pro správu pojmenovaných rozsahů v Excelu pomocí Aspose.Cells pro .NET. Ideální pro začátečníky i pokročilé uživatele.
 type: docs

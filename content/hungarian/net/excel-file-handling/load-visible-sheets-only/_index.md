@@ -1,6 +1,6 @@
 ---
-title: Csak látható lapok betöltése Excel fájlból
-linktitle: Csak látható lapok betöltése Excel fájlból
+title: Csak a látható lapok betöltése Excel fájlból
+linktitle: Csak a látható lapok betöltése Excel fájlból
 second_title: Aspose.Cells .NET Excel Processing API
 description: Ebből a lépésenkénti útmutatóból megtudhatja, hogyan tölthet be csak látható lapokat Excel-fájlokból az Aspose.Cells for .NET segítségével.
 type: docs
@@ -61,7 +61,7 @@ LoadOptions loadOptions = new LoadOptions();
 loadOptions.LoadFilter = new CustomLoad();
 ```
 Ez a kódrészlet beállítja a munkafüzet betöltési beállításait, amelyeket személyre szabunk a rejtett lapok kiszűrése érdekében.
-## 4. lépés: Határozza meg az egyéni terhelési szűrőt
+## 4. lépés: Határozza meg az egyéni betöltési szűrőt
 Ha csak a látható lapokat szeretnénk betölteni, létre kell hoznunk egy egyéni betöltési szűrőt. A következőképpen határozhatja meg:
 ```csharp
 class CustomLoad : LoadFilter

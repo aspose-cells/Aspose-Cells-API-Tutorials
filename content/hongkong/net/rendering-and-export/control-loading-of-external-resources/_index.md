@@ -8,7 +8,7 @@ weight: 12
 url: /zh-hant/net/rendering-and-export/control-loading-of-external-resources/
 ---
 ## 介紹
-在當今的數位時代，將 Excel 電子表格轉換為 PDF 文件是一項常見任務。無論是準備報告、財務數據還是簡報資料，您都希望確保您的 PDF 完全符合您的預期。 Aspose.Cells for .NET 是一個強大的函式庫，可讓您控制此轉換過程直到最後的細節，特別是在處理外部資源（例如 Excel 檔案附帶的映像）時。在本指南中，我們將深入探討如何在使用 Aspose.Cells 將 Excel 轉換為 PDF 的過程中控制外部資源。所以，拿起你最喜歡的飲料，讓我們開始吧！
+在當今的數位時代，將 Excel 電子表格轉換為 PDF 文件是一項常見任務。無論是準備報告、財務數據還是簡報材料，您都希望確保 PDF 的外觀完全符合您的預期。 Aspose.Cells for .NET 是一個強大的函式庫，可讓您控制此轉換過程直到最後的細節，特別是在處理外部資源（例如 Excel 檔案附帶的映像）時。在本指南中，我們將深入探討如何在使用 Aspose.Cells 將 Excel 轉換為 PDF 的過程中控制外部資源。所以，拿起你最喜歡的飲料，讓我們開始吧！
 ## 先決條件
 在我們深入討論細節之前，讓我們確保您擁有開始滾動所需的一切。這是一個快速清單：
 1. Visual Studio 或任何與 .NET 相容的 IDE：您需要一個環境來編寫和測試程式碼。
@@ -52,7 +52,7 @@ class MyStreamProvider : IStreamProvider
 - CloseStream：關閉流時將呼叫此方法。目前，我們只是編寫一條用於追蹤的調試訊息。
 -  InitStream：這就是魔法開始的地方。在這裡，您將讀取外部圖像作為位元組數組，將其轉換為記憶體流，並將其分配給`options.Stream`財產。
 ## 第 2 步：設定來源目錄和輸出目錄
-現在您的串流提供者已準備就緒，是時候確定您的 Excel 檔案所在的位置以及您想要儲存 PDF 的位置了。
+現在您的串流提供者已準備就緒，是時候確定您的 Excel 檔案所在位置以及您想要儲存 PDF 的位置了。
 ```csharp
 //原始碼目錄
 string sourceDir = "Your Document Directory";
@@ -76,7 +76,7 @@ opts.OnePagePerSheet = true; //將每張紙保存在新頁面上
 ```
 在這裡，我們建立一個新實例`PdfSaveOptions`，它允許您自訂 PDF 的格式。這`OnePagePerSheet`選項可以方便地確保每個 Excel 工作表在最終的 PDF 中都有自己的頁面。
 ## 第 5 步：分配您的串流媒體供應商
-設定 PDF 選項後，您需要告訴 Aspose 使用自訂流程提供者取得外部資源。
+設定 PDF 選項後，您需要告訴 Aspose 使用外部資源的自訂流程提供者。
 ```csharp
 wb.Settings.StreamProvider = new MyStreamProvider();
 ```

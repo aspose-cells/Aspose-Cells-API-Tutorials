@@ -2,7 +2,7 @@
 title: Formázási sor beszúrása az Aspose.Cells .NET-be
 linktitle: Formázási sor beszúrása az Aspose.Cells .NET-be
 second_title: Aspose.Cells .NET Excel Processing API
-description: Ismerje meg, hogyan szúrhat be egy sort formázással az Aspose.Cells for .NET segítségével. Kövesse lépésről lépésre útmutatónkat az egyszerű megvalósítás érdekében.
+description: Ismerje meg, hogyan szúrhat be egy sort formázással az Excelben az Aspose.Cells for .NET segítségével. Kövesse lépésről lépésre útmutatónkat az egyszerű megvalósítás érdekében.
 type: docs
 weight: 24
 url: /hu/net/row-and-column-management/insert-row-formatting-aspose-cells/

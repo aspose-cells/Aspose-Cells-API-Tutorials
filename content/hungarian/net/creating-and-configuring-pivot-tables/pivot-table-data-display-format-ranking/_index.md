@@ -30,7 +30,7 @@ Az Excel dokumentum betöltése előtt meg kell adnia, hogy a forrásadatok hol 
 string sourceDir = "Your Document Directory"; // Frissítse a tényleges könyvtárával
 string outputDir = "Your Document Directory"; // Frissítse a tényleges könyvtárával
 ```
- Ügyeljen arra, hogy cserélje ki`"Your Document Directory"` a fájlok tárolási útvonalával.
+ Mindenképpen cserélje ki`"Your Document Directory"` a fájlok tárolási útvonalával.
 ## 2. lépés: Töltse be a munkafüzetet
 Ezután be kell töltenie a kimutatástáblázatot tartalmazó Excel-fájlt. Íme, hogyan:
 ```csharp

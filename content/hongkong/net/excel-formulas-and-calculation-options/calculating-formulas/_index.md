@@ -8,7 +8,7 @@ weight: 11
 url: /zh-hant/net/excel-formulas-and-calculation-options/calculating-formulas/
 ---
 ## 介紹
-在當今數據驅動的世界中，自動化任務可以節省時間並提高效率，尤其是在處理電子表格時。如果您曾經在 Excel 中處理過複雜的公式，您就會知道正確處理它是多麼重要。透過使用 Aspose.Cells for .NET，您可以以程式設計方式計算公式並輕鬆管理您的 Excel 檔案。在本教程中，我們將逐步介紹建立 Excel 檔案、新增值和公式，然後使用一些 C# 計算這些公式所涉及的每個步驟。讓我們深入了解吧！
+在當今數據驅動的世界中，自動化任務可以節省時間並提高效率，尤其是在處理電子表格時。如果您曾經在 Excel 中處理過複雜的公式，您就會知道正確處理它是多麼重要。透過使用 Aspose.Cells for .NET，您可以以程式設計方式計算公式並輕鬆管理您的 Excel 檔案。在本教程中，我們將逐步介紹建立 Excel 檔案、新增值和公式，然後使用一些 C# 計算這些公式所涉及的每個步驟。讓我們深入了解一下吧！
 ## 先決條件
 在我們開始之前，您需要確保準備好以下幾件事：
 1. 開發環境：確保您擁有 Visual Studio 或任何其他可以執行 .NET 應用程式的 C# 環境。
@@ -49,7 +49,7 @@ Workbook workbook = new Workbook();
 ```csharp
 //將新工作表新增至 Excel 對象
 int sheetIndex = workbook.Worksheets.Add();
-//透過傳遞工作表索引來取得新新增工作表的引用
+//透過傳遞工作表索引來取得新新增的工作表的引用
 Worksheet worksheet = workbook.Worksheets[sheetIndex];
 ```
 首先，新增一個工作表，它將自動為您提供該工作表的索引。接下來，您透過索引檢索該工作表。這就像在 Excel 工作簿中開啟一個新分頁！

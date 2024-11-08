@@ -116,7 +116,7 @@ A TextBox hátterének és szegélyének formázása is elengedhetetlen. Ez kiem
 // Szerezze meg a szövegdoboz kitöltési formátumát.
 Aspose.Cells.Drawing.FillFormat fillformat = textbox0.Fill;
 
-// Szerezze meg a szövegdoboz sorformátumának típusát.
+// Szerezze be a szövegdoboz sorformátumának típusát.
 Aspose.Cells.Drawing.LineFormat lineformat = textbox0.Line;
 
 // Állítsa be a vonalvastagságot.

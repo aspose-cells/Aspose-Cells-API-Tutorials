@@ -47,7 +47,7 @@ Esta linha instancia um novo objeto workbook, pronto para ser manipulado por nó
 
 ## Etapa 2: Acesse a primeira planilha
 
-Agora que temos nossa pasta de trabalho, precisamos acessar uma planilha específica dentro dela. Uma planilha é como uma única página na sua pasta de trabalho, e é onde toda a ação acontece.
+Agora que temos nossa pasta de trabalho, precisamos acessar uma planilha específica dentro dela. Uma planilha é como uma única página em sua pasta de trabalho, e é onde toda a ação acontece.
 
 ```csharp
 //Acesse a primeira planilha

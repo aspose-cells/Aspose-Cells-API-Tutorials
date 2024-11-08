@@ -66,7 +66,7 @@ Jetzt müssen wir einige Werte in die Zellen eingeben. Diese Werte dienen als Op
 cells["B3"].PutValue("Employee:");
 // Markieren Sie es fett.
 cells["B3"].GetStyle().Font.IsBold = true;
-// Geben Sie einige Werte ein, die den Eingabebereich für das Kombinationsfeld angeben.
+// Geben Sie einige Werte ein, die den Eingabebereich für das Kombinationsfeld bezeichnen.
 cells["A2"].PutValue("Emp001");
 cells["A3"].PutValue("Emp002");
 cells["A4"].PutValue("Emp003");

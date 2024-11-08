@@ -17,7 +17,7 @@ Jeśli chodzi o pracę z plikami Excel, Aspose.Cells dla .NET to potęga. Ale cz
 
 ## Ustawianie czasu tworzenia plików PDF w celu lepszego zarządzania
 
- Następnie zajmijmy się zawiłościami zarządzania plikami PDF. Pliki PDF są szeroko stosowane, a kontrola nad właściwościami dokumentu jest najważniejsza, szczególnie w przypadku dokumentów. Czy musisz ustawić konkretny czas utworzenia podczas konwersji arkuszy programu Excel na format PDF? Znajomość dokładnego znacznika czasu może mieć kluczowe znaczenie w wielu kontekstach zawodowych. Nasz przewodnik na temat[Ustawianie czasu utworzenia pliku PDF w .NET](./setting-pdf-creation-time/) zapewnia proste kroki do wdrożenia tej funkcji. Za pomocą odrobiny kodu możesz zapewnić, że Twoje pliki PDF nie tylko dokładnie odzwierciedlają treść, ale także zawierają właściwe metadane. Dlaczego by nie spróbować? To łatwiejsze niż myślisz!
+ Następnie zajmijmy się zawiłościami zarządzania plikami PDF. Pliki PDF są szeroko stosowane, a kontrola nad właściwościami dokumentu jest najważniejsza, szczególnie w przypadku dokumentów. Czy musisz ustawić konkretny czas utworzenia podczas konwersji arkuszy programu Excel na format PDF? Znajomość dokładnego znacznika czasu może mieć kluczowe znaczenie w wielu kontekstach zawodowych. Nasz przewodnik na temat[Ustawianie czasu utworzenia pliku PDF w .NET](./setting-pdf-creation-time/) zapewnia proste kroki, aby wdrożyć tę funkcję. Za pomocą odrobiny kodu możesz upewnić się, że Twoje pliki PDF nie tylko dokładnie odzwierciedlają zawartość, ale także zawierają właściwe metadane. Dlaczego by nie spróbować? To łatwiejsze, niż myślisz!
 
 ## Samouczki dotyczące operacji XPS i PDF
 ### [Konwersja do XPS w .NET](./converting-to-xps/)

@@ -103,6 +103,6 @@ Aspose.Cells 是一個 .NET 函式庫，可讓開發人員以程式設計方式�
 ### 我如何獲得 Aspose.Cells 許可？  
 您可以購買許可證[這裡](https://purchase.aspose.com/buy)或獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
 ### 我創建的切片器是互動的嗎？  
-絕對地！切片器允許使用者以互動方式過濾和瀏覽 Excel 檔案中的資料。
+絕對地！切片器允許使用者以互動方式過濾和探索 Excel 檔案中的資料。
 ### 我可以將工作簿儲存為哪些格式？  
 Aspose.Cells 支援各種格式，例如 XLSX、XLS 和 CSV 等。

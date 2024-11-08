@@ -55,11 +55,11 @@ Aspose.Cells 智慧標記還支援匿名類型，無需預先定義結構即可�
 ### [在 Aspose.Cells .NET 中使用智慧標記複製樣式](./copy-style-smart-marker/)
 輕鬆地將樣式和格式從範本檔案複製到產生的 Excel 輸出。這個綜合教程將引導您完成逐步過程。
 ### [在智慧標記中使用動態公式 Aspose.Cells](./dynamic-formulas-smart-markers/)
-了解如何透過 Aspose.Cells for .NET 使用智慧標記中的動態公式，從而增強 Excel 報告產生流程。
+了解如何將智慧標記中的動態公式與 Aspose.Cells for .NET 結合使用，從而增強 Excel 報告產生流程。
 ### [在 Aspose.Cells 中使用智慧標記評估 IsBlank](./evaluate-isblank-smart-markers/)
 使用智慧標記增強您的 Excel 文件，以使用 Aspose.Cells for .NET 有效地評估空白值。透過本逐步指南了解具體操作方法。
 ### [在 Aspose.Cells .NET 中使用智慧標記對資料進行分組](./group-data-smart-markers/)
-在 Aspose.Cells for .NET 中使用智慧標記輕鬆將資料分組。請按照我們的綜合指南取得逐步說明。
+使用 Aspose.Cells for .NET 中的智慧標記輕鬆將資料分組。請按照我們的綜合指南取得逐步說明。
 ### [在 Aspose.Cells 中插入帶有圖像標記的圖像](./insert-images-smart-markers/)
 透過我們的逐步指南，了解如何在 Aspose.Cells for .NET 中使用圖像標記插入圖像！透過視覺效果有效增強您的 Excel 報表。
 ### [將匿名類型與智慧標記結合使用 Aspose.Cells](./use-anonymous-types-smart-markers/)

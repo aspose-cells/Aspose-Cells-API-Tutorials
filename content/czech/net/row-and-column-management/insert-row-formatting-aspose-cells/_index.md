@@ -39,7 +39,7 @@ Dále vytvoříme souborový proud pro otevření souboru Excel. To je zásadní
 // Vytvoření datového proudu souboru obsahujícího soubor Excel, který se má otevřít
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
- Zde otevíráme`book1.xls` soubor v režimu čtení. Ujistěte se, že soubor existuje v zadaném adresáři; jinak narazíte na chybu.
+ Tady otevíráme`book1.xls` soubor v režimu čtení. Ujistěte se, že soubor existuje v zadaném adresáři; jinak narazíte na chybu.
 ## Krok 3: Vytvořte instanci objektu sešitu
  Nyní vytvoříme instanci`Workbook`class, která představuje soubor Excel, se kterým budeme pracovat.
 ```csharp

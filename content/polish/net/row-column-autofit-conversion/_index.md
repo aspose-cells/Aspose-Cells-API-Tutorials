@@ -41,4 +41,4 @@ Dowiedz się, jak automatycznie dopasowywać wiersze i kolumny w programie Excel
 ### [Automatyczne dopasowywanie wierszy do połączonych komórek Aspose.Cells .NET](./autofit-rows-merged-cells/)
 Dowiedz się, jak skutecznie automatycznie dopasowywać wiersze do scalonych komórek za pomocą Aspose.Cells for .NET i doskonalić swoje umiejętności automatyzacji w programie Excel.
 ### [Konwertuj tekst na kolumny w Aspose.Cells .NET](./convert-text-to-columns/)
-Dowiedz się, jak bezproblemowo konwertować tekst na kolumny za pomocą Aspose.Cells dla .NET, korzystając z tego szczegółowego samouczka krok po kroku.
+Dowiedz się, jak bezproblemowo konwertować tekst na kolumny za pomocą Aspose.Cells for .NET, korzystając z tego szczegółowego samouczka krok po kroku.

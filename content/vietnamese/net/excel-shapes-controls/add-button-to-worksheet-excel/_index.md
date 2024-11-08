@@ -12,7 +12,7 @@ Bảng tính Excel rất linh hoạt và thường được sử dụng để qu
 Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình thêm nút vào bảng tính trong Excel bằng Aspose.Cells cho .NET. Chúng tôi sẽ đề cập đến mọi chi tiết, từ thiết lập các điều kiện tiên quyết đến hướng dẫn từng bước. Hãy cùng bắt đầu!
 ## Điều kiện tiên quyết
 Trước khi bạn có thể làm theo hướng dẫn này, hãy đảm bảo rằng bạn đã cài đặt các công cụ và gói sau:
--  Aspose.Cells cho Thư viện .NET: Bạn có thể tải xuống từ[đây](https://releases.aspose.com/cells/net/).
+-  Thư viện Aspose.Cells cho .NET: Bạn có thể tải xuống từ[đây](https://releases.aspose.com/cells/net/).
 - Môi trường phát triển .NET: Đảm bảo bạn đã cài đặt môi trường .NET đang hoạt động như Visual Studio.
 - Hiểu biết cơ bản về C#: Bạn nên nắm rõ những kiến thức cơ bản về lập trình C#.
 -  Giấy phép: Bạn sẽ cần một giấy phép hợp lệ. Nếu bạn không có, bạn có thể xin một[dùng thử miễn phí](https://releases.aspose.com/) hoặc nộp đơn xin[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).

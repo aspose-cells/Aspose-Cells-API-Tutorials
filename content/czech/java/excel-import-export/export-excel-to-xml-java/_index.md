@@ -22,7 +22,7 @@ Než začneme, ujistěte se, že máte následující předpoklady:
 1. Vytvořte nový Java projekt ve svém oblíbeném IDE.
 2. Přidejte knihovnu Aspose.Cells for Java do závislostí vašeho projektu.
 
-## Krok 2: Načtení souboru Excel
+## Krok 2: Načtení souboru aplikace Excel
 
 Chcete-li exportovat data Excelu do XML, musíme nejprve načíst soubor Excel.
 

@@ -13,9 +13,9 @@ Az Aspose.Cells for .NET egy gyöngyszem, ha Excel-fájlokkal dolgozik. Ez nem c
 
 ## Lépésről lépésre az Excel konvertálása PDF-be
 
-Vessünk egy csapásra a titkot. Átalakítania kell egy Excel fájlt PDF formátumba? szerencséd van! Az Aspose.Cells egyszerű oktatóanyagokat kínál, amelyek végigvezetik Önt az út minden lépéséhez. Az első dolog, amit meg szeretne tenni, az az Excel-fájl betöltése az alkalmazásba. Néhány sornyi kóddal a könyvtár lehetővé teszi a táblázatok közvetlen elérését.
+Vessünk egy csapásra a titkot. Átalakítania kell egy Excel fájlt PDF-be? szerencséd van! Az Aspose.Cells egyszerű oktatóanyagokat kínál, amelyek végigvezetik Önt az út minden lépéséhez. Az első dolog, amit meg szeretne tenni, az az Excel-fájl betöltése az alkalmazásba. Néhány sornyi kóddal a könyvtár lehetővé teszi a táblázatok közvetlen elérését.
 
- Ezután be kell állítania a PDF-beállításokat. Itt történik a varázslat! Testreszabhatja a különböző szempontokat, például a fájlméretet és a tájolást. Végül egy utolsó paranccsal konvertálja az Excel fájlt PDF formátumba. Olyan egyszerű, mint a pite! Tekintse meg részletes útmutatónkat a[Konvertálás Excelből PDF-be .NET-ben](./excel-to-pdf-conversion/) további információkért.
+ Ezután be kell állítania a PDF-beállításokat. Itt történik a varázslat! Testreszabhatja a különböző szempontokat, például a fájlméretet és a tájolást. Végül egy utolsó paranccsal konvertálja az Excel fájlt PDF formátumba. Ez olyan egyszerű, mint a pite! Tekintse meg részletes útmutatónkat a[Konvertálás Excelből PDF-be .NET-ben](./excel-to-pdf-conversion/) további információkért.
 
 ## A diagramok egyszerű konvertálása PDF-be
 

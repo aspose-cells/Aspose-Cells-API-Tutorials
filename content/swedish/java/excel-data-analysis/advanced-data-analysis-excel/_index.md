@@ -161,7 +161,7 @@ Låt oss omsätta allt vi har lärt oss i praktiken med en verklig fallstudie: a
 I den här fallstudien kommer vi att täcka:
 
 - Dataimport och rengöring.
-- Beräknar total försäljning och tillväxtprocent.
+- Beräkna total försäljning och tillväxtprocent.
 - Skapa insiktsfulla diagram.
 - Bygga en pivottabell för djupare insikter.
 

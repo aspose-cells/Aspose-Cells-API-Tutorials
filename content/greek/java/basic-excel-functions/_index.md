@@ -1,6 +1,6 @@
 ---
-title: Βασικές Λειτουργίες Excel
-linktitle: Βασικές Λειτουργίες Excel
+title: Βασικές λειτουργίες του Excel
+linktitle: Βασικές λειτουργίες του Excel
 second_title: Aspose.Cells Java Excel Processing API
 description: Εξερευνήστε βασικές λειτουργίες του Excel χρησιμοποιώντας το Aspose.Cells για Java. Τα σεμινάρια μας καλύπτουν τα βασικά βήμα προς βήμα. Ξεκινήστε με τη χειραγώγηση υπολογιστικών φύλλων
 type: docs

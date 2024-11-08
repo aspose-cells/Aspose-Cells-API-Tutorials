@@ -20,7 +20,7 @@ Innan vi dyker in i koden, låt oss se till att du har allt du behöver.
 3. Grundläggande C#-kunskaper: Bekantskap med C# och objektorienterade programmeringskoncept hjälper dig att förstå exemplen bättre.
 4. .NET Framework: Denna handledning förutsätter att du använder .NET Framework 4.5 eller högre.
 
-När du har klarat av förutsättningarna, låt oss fortsätta att importera vissa data till ett Excel-ark med specificerade formelfält.
+När du har löst förutsättningarna, låt oss fortsätta att importera vissa data till ett Excel-ark med specificerade formelfält.
 
 ## Importera paket
 

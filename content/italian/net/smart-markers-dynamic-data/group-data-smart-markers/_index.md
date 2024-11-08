@@ -39,7 +39,7 @@ OleDbConnection con = new OleDbConnection("provider=microsoft.jet.oledb.4.0;data
 ```
 Questa stringa di connessione specifica che stiamo utilizzando il provider Jet OLE DB per connetterci al database di Access.
 ## Passaggio 3: aprire la connessione
-Ora che hai definito la tua connessione, è il momento di aprirla. Ecco come fare:
+Ora che hai definito la tua connessione, è il momento di aprirla effettivamente. Ecco come fare:
 ```csharp
 // Aprire l'oggetto di connessione.
 con.Open();
@@ -51,7 +51,7 @@ Con la tua connessione attiva, dovrai creare un comando per eseguire una query S
 // Creare un oggetto comando e specificare la query SQL.
 OleDbCommand cmd = new OleDbCommand("Select * from [Order Details]", con);
 ```
- Qui selezioniamo tutti i record dal`Order Details` tabella. Puoi modificare questa query come necessario per filtrare o raggruppare i tuoi dati in modo diverso.
+ Qui selezioniamo tutti i record dal`Order Details` tabella. Puoi modificare questa query a seconda delle tue esigenze per filtrare o raggruppare i tuoi dati in modo diverso.
 ## Passaggio 5: creare un adattatore dati
 Successivamente, hai bisogno di un adattatore dati che agisca da ponte tra il tuo database e il dataset. È come un traduttore tra i due ambienti.
 ```csharp

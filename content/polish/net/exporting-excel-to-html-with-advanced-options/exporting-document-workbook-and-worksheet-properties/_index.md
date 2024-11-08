@@ -1,6 +1,6 @@
 ---
-title: Eksportowanie właściwości skoroszytu dokumentu i arkusza kalkulacyjnego w formacie HTML
-linktitle: Eksportowanie właściwości skoroszytu dokumentu i arkusza kalkulacyjnego w formacie HTML
+title: Eksportowanie właściwości skoroszytu i arkusza dokumentu w formacie HTML
+linktitle: Eksportowanie właściwości skoroszytu i arkusza dokumentu w formacie HTML
 second_title: Aspose.Cells .NET API przetwarzania programu Excel
 description: Dowiedz się, jak eksportować właściwości dokumentu, skoroszytu i arkusza kalkulacyjnego programu Excel do HTML przy użyciu Aspose.Cells dla .NET. Łatwy przewodnik krok po kroku w zestawie.
 type: docs

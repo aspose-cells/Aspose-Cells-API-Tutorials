@@ -15,7 +15,7 @@ url: /ar/net/working-with-chart-data/create-line-with-data-marker-chart/
 
 قبل أن نبدأ، تأكد من أن كل شيء في مكانه الصحيح حتى تتمكن من المتابعة بسلاسة.
 
-1.  Aspose.Cells for .NET Library – ستحتاج إلى تثبيت هذه المكتبة. يمكنك الحصول عليها[هنا](https://releases.aspose.com/cells/net/).
+1. Aspose.Cells for .NET Library – ستحتاج إلى تثبيت هذه المكتبة. يمكنك الحصول عليها[هنا](https://releases.aspose.com/cells/net/).
 2. .NET Framework – تأكد من إعداد بيئة التطوير الخاصة بك باستخدام أحدث إصدار من .NET.
 3. يُنصح باستخدام Visual Studio (بيئة التطوير المتكاملة) IDE.
 4.  ترخيص Aspose.Cells صالح - إذا لم يكن لديك ترخيص، يمكنك طلب ترخيص[رخصة مؤقتة](https://purchase.aspose.com/temporary-license/) أو تحقق من ذلك[نسخة تجريبية مجانية](https://releases.aspose.com/).
@@ -109,7 +109,7 @@ chart.AutoScaling = true;
 // تعيين لون المقدمة إلى الأبيض
 chart.PlotArea.Area.ForegroundColor = Color.White;
 
-// تعيين خصائص عنوان الرسم البياني
+//تعيين خصائص عنوان الرسم البياني
 chart.Title.Text = "Sample Chart";
 
 // تعيين نوع الرسم البياني

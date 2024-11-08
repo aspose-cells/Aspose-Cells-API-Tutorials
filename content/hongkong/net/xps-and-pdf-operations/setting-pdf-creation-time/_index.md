@@ -65,7 +65,7 @@ workbook.Save(dataDir + "output.pdf", options); //另存為 PDF
 如果您想探索 Aspose.Cells 的更多功能，請隨時查看[文件](https://reference.aspose.com/cells/net/).
 ## 常見問題解答
 ### 什麼是 Aspose.Cells？
-Aspose.Cells 是一個功能強大的 .NET 程式庫，可讓開發人員建立、操作和轉換 Excel 檔案。
+Aspose.Cells 是一個強大的 .NET 程式庫，可讓開發人員建立、操作和轉換 Excel 檔案。
 ### 我可以免費使用 Aspose.Cells 嗎？
 是的，您可以從以下網站上的免費試用開始[阿斯普斯網站](https://releases.aspose.com/).
 ### 如何設定其他 PDF 屬性？

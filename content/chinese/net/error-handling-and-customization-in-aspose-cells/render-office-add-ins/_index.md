@@ -60,7 +60,7 @@ Console.WriteLine("RenderOfficeAdd_InsWhileConvertingExcelToPdf executed success
 这是你表达“干得好！”的简单方式。相信我，运行代码后看到成功消息总是令人欣慰的！
 ## 结论
 使用 Aspose.Cells for .NET 将 Excel 中的 Office 插件渲染为 PDF 格式是一项简单的任务！通过遵循分步指南，您可以无缝转换文档并提高工作流程效率。此过程使共享和协作重要文件变得更加容易，同时保留原始内容的完整性。 
-请记住，借助 Aspose.Cells 的强大功能，您可以轻松处理各种文档处理任务。那么，是什么阻碍了您呢？立即开始将您的 Office 插件转换为 PDF！
+请记住，借助 Aspose.Cells 的强大功能，您可以轻松处理各种文档操作任务。那么，是什么阻碍了您呢？立即开始将您的 Office 插件转换为 PDF！
 ## 常见问题解答
 ### Excel 中的 Office 加载项是什么？
 Office 插件允许开发人员创建可与电子表格交互的自定义应用程序，从而增强 Excel 的功能。

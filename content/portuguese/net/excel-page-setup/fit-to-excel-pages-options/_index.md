@@ -17,10 +17,10 @@ Antes de pular para a codificação, vamos garantir que você tenha tudo o que p
 
 1. Visual Studio: Certifique-se de ter o Visual Studio instalado na sua máquina. Este é seu hub principal para todo o trabalho de desenvolvimento.
 2.  Aspose.Cells para .NET: Você precisa ter a biblioteca Aspose.Cells baixada e adicionada ao seu projeto. Você pode obtê-la facilmente do[Site Aspose](https://releases.aspose.com/cells/net/).
-3. Conhecimento básico de C#: Familiaridade com programação em C# ajudará imensamente. Se você consegue lidar com variáveis, loops e E/S de arquivo básico, você se sentirá em casa.
+3. Conhecimento básico de C#: Familiaridade com programação em C# ajudará imensamente. Se você consegue lidar com variáveis, loops e E/S de arquivo básico, você estará em casa.
 4. .NET Framework: certifique-se de que seu projeto esteja configurado com a versão apropriada do .NET Framework, pois a biblioteca foi projetada para compatibilidade com esse ecossistema.
 
-Tem tudo pronto? Ótimo, vamos para a parte divertida!
+Tem tudo pronto? Incrível, vamos para a parte divertida!
 
 ## Importando Pacotes
 

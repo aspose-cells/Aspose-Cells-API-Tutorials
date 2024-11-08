@@ -107,7 +107,7 @@ Tato třída zachycuje podrobnosti o každém nalezeném kruhovém odkazu, včet
 ## Závěr
 Detekce cyklických odkazů v aplikaci Excel pomocí Aspose.Cells for .NET je jednoduchý proces, jakmile jej rozdělíte do zvládnutelných kroků. Podle této příručky můžete snadno identifikovat a zpracovat kruhové odkazy ve svých tabulkách, čímž zajistíte, že vaše výpočty zůstanou přesné a spolehlivé. Ať už jste zkušený vývojář nebo teprve začínáte, Aspose.Cells poskytuje výkonné nástroje pro vylepšení vašich možností manipulace s Excelem. 
 ## FAQ
-### Co je cyklický odkaz v Excelu?
+### Co je to kruhový odkaz v Excelu?
 Kruhový odkaz nastává, když vzorec odkazuje zpět na svou vlastní buňku, což způsobuje nekonečnou smyčku ve výpočtech.
 ### Jak mohu programově detekovat cyklické odkazy?
 Knihovnu Aspose.Cells v .NET můžete použít k programové detekci cyklických odkazů implementací vlastního monitoru výpočtů.

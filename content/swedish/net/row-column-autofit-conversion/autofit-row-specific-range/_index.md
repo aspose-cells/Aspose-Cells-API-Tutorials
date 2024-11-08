@@ -8,7 +8,7 @@ weight: 12
 url: /sv/net/row-column-autofit-conversion/autofit-row-specific-range/
 ---
 ## Introduktion
-När det gäller att arbeta med Excel-filer i .NET-applikationer kan hantering av synlighet och estetik för dina data verkligen förbättra användarupplevelsen. Föreställ dig att du har en enorm datauppsättning och du kämpar för att göra den presentabel och lättläsbar. Skulle det inte vara bra om det fanns ett sätt att automatiskt justera radhöjden för att passa innehållet perfekt? Nåväl, du har tur! I den här handledningen kommer vi att fördjupa oss i hur man använder Aspose.Cells för .NET för att automatiskt anpassa en specifik rad inom ett definierat intervall. Låt oss komma igång!
+När det gäller att arbeta med Excel-filer i .NET-applikationer kan hantering av synlighet och estetik för dina data verkligen förbättra användarupplevelsen. Föreställ dig att du har en enorm datauppsättning och du kämpar för att göra den presentabel och lättläsbar. Skulle det inte vara bra om det fanns ett sätt att automatiskt justera radhöjden för att passa innehållet perfekt? Tja, du har tur! I den här handledningen kommer vi att fördjupa oss i hur man använder Aspose.Cells för .NET för att automatiskt anpassa en specifik rad inom ett definierat intervall. Låt oss komma igång!
 ## Förutsättningar
 Innan vi dyker in i kodningsdelen, låt oss snabbt gå igenom förutsättningarna för att säkerställa att du har allt på plats för att följa med sömlöst:
 - Grundläggande kunskaper i C#: Du bör ha en grundläggande förståelse för C#-programmering.
@@ -59,7 +59,7 @@ Det är som att välja rätt kapitel i din bok – du måste veta var du ska til
 ## Steg 6: Anpassa den specifika raden automatiskt
 Nu kommer det mest spännande! Vi kommer att automatiskt anpassa höjden på en specifik rad. I det här fallet kommer vi att automatiskt anpassa den tredje raden.
 ```csharp
-worksheet.AutoFitRow(1, 0, 5); // Anpassa den tredje raden automatiskt
+worksheet.AutoFitRow(1, 0, 5); // Autopassa den 3:e raden
 ```
 Det här steget är som att skräddarsy en passande kostym – det handlar om att göra justeringar tills den passar precis!
 ## Steg 7: Spara arbetsboken

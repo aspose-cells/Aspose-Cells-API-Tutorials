@@ -41,7 +41,7 @@ Esto es lo que está pasando:
 - `FileMode.Open`Se especifica para abrir un archivo existente.
 Asegúrese siempre de que el archivo exista en el directorio especificado o se encontrará con errores de archivo no encontrado.
 ## Paso 3: Inicializar el objeto del libro de trabajo
- Con el flujo de archivos creado, el siguiente paso es cargar el archivo de Excel en un`Workbook` objeto. Aquí es donde la magia de Aspose.Cells comienza a suceder.
+ Con el flujo de archivos creado, el siguiente paso es cargar el archivo Excel en un`Workbook` objeto. Aquí es donde la magia de Aspose.Cells comienza a suceder.
 ```csharp
 // Creación de una instancia de un objeto Workbook y apertura del archivo a través de una secuencia de archivos
 Workbook workbook = new Workbook(fstream);

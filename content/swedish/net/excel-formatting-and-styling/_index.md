@@ -13,7 +13,7 @@ Välkommen till Aspose.Cells-världen för .NET, där dina Excel-ark verkligen k
 
 ## Använda Gradient Fill-effekter i Excel
 
- Har du någonsin velat tillföra lite stil till dina Excel-dokument? Att använda toningsfyllningseffekter är ett utmärkt sätt att få dina kalkylblad att sticka ut. Föreställ dig dina data inbäddade i celler som skiftar vackert i färg från topp till botten! Det är enklare än det låter, och vår handledning om[tillämpa gradientfyllningseffekter](./applying-gradient-fill-effects/)kommer att leda dig genom processen steg för steg. Du kommer att lära dig hur du integrerar dessa effekter sömlöst och säkerställer att din data inte bara finns – den lyser!
+ Har du någonsin velat tillföra lite stil till dina Excel-dokument? Att använda övertoningsfyllningseffekter är ett utmärkt sätt att få dina kalkylblad att sticka ut. Föreställ dig dina data inbäddade i celler som skiftar vackert i färg från topp till botten! Det är enklare än det låter, och vår handledning om[tillämpa gradientfyllningseffekter](./applying-gradient-fill-effects/)kommer att leda dig genom processen steg för steg. Du kommer att lära dig hur du integrerar dessa effekter sömlöst och säkerställer att din data inte bara finns – den lyser!
 
 ## Använda Excel fördefinierade stilar och formatering
 

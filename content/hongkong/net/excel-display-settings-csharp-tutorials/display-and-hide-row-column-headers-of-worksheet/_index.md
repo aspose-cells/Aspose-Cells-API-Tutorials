@@ -75,7 +75,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 
 在此程式碼片段中，我們存取工作簿中的第一個工作表。如果您有多個工作表並想要存取另一個工作表，請相應地變更索引。
 
-## 步驟 5：隱藏行標題和列標題
+## 第 5 步：隱藏行標題和列標題
 
 現在我們一直在等待的那一刻！這是我們實際隱藏工作表的行標題和列標題的地方。
 
@@ -83,7 +83,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 worksheet.IsRowColumnHeadersVisible = false;
 ```
 
-環境`IsRowColumnHeadersVisible`到`false`將有效隱藏行和列中的標題，為您的資料演示創建更清晰的外觀。
+環境`IsRowColumnHeadersVisible`到`false`將有效隱藏行和列中的標題，為資料呈現創建更清晰的外觀。
 
 ## 步驟6：保存修改後的Excel文件
 
@@ -93,7 +93,7 @@ worksheet.IsRowColumnHeadersVisible = false;
 workbook.Save(dataDir + "output.xls");
 ```
 
-此行將您的變更儲存到名為的新檔案中`output.xls`在同一目錄中。這可確保您保留原始內容`book1.xls`使用新版本時完好無損。
+此行將您的變更儲存到一個名為的新檔案中`output.xls`在同一目錄中。這可確保您保留原始內容`book1.xls`使用新版本時完好無損。
 
 ## 步驟7：關閉文件流
 
@@ -118,7 +118,7 @@ Aspose.Cells 是一個功能強大的 .NET 程式庫，用於管理 Excel 電子
 是的，您可以循環遍歷工作簿中的每個工作表並設置`IsRowColumnHeadersVisible`到`false`對於每個。
 
 ### 我需要購買 Aspose.Cells 許可證嗎？  
-雖然您可以使用免費試用版，但持續的商業用途需要許可證。您可以找到購買選項[這裡](https://purchase.aspose.com/buy).
+雖然您可以使用免費試用版，但持續的商業用途需要授權。您可以找到購買選項[這裡](https://purchase.aspose.com/buy).
 
 ### 是否支援 Aspose.Cells？  
 是的，Aspose 透過他們的論壇提供支持，您可以訪問該論壇[這裡](https://forum.aspose.com/c/cells/9).

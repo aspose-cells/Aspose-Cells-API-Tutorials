@@ -119,7 +119,7 @@ Esto hace que el gráfico apunte a las celdas A1 a B3 como rango de datos. ¡Fá
 
 ## Paso 7: Personaliza el área del gráfico
 
-¡Aquí es donde las cosas realmente cobran vida! Personalizar el área del gráfico hace que su representación visual se destaque.
+¡Aquí es donde todo cobra vida! Personalizar el área del gráfico hace que tu representación visual se destaque.
 
 ### Establecer colores para el área del gráfico
 

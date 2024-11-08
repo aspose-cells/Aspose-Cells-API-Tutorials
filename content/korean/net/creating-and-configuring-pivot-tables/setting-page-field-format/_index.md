@@ -17,7 +17,7 @@ url: /ko/net/creating-and-configuring-pivot-tables/setting-page-field-format/
 -  Excel 파일: Excel 파일을 준비하세요(예:`Book1.xls`) 피벗 테이블 생성에 적합한 데이터가 포함되어 있습니다. 
  아직 사용하지 않으셨다면 Aspose.Cells의 무료 평가판을 받아보세요.[여기](https://releases.aspose.com/).
 ## 패키지 가져오기
-시작하려면 프로젝트에 올바른 패키지를 가져와야 합니다. C# 프로젝트에서 Aspose.Cells 라이브러리에 대한 참조를 추가하는 것으로 시작합니다. 방법은 다음과 같습니다.
+시작하려면 프로젝트에 올바른 패키지를 가져와야 합니다. C# 프로젝트에 Aspose.Cells 라이브러리에 대한 참조를 추가하는 것으로 시작합니다. 방법은 다음과 같습니다.
 ```csharp
 using System.IO;
 using Aspose.Cells;

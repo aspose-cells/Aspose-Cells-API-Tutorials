@@ -111,7 +111,7 @@ Dále musíme našemu grafu sdělit, který zdroj dat použít.
 chart.NSeries.Add("A1:B3", true);
 ```
 
-Tento řádek spojuje graf s našimi ukázkovými daty, aby věděl, odkud informace čerpat. Je to klíčové pro přesné vykreslení grafu.
+Tento řádek spojuje graf s našimi ukázkovými daty, aby věděl, odkud informace čerpat. Je to zásadní pro přesné vykreslení grafu.
 
 ## Krok 7: Přizpůsobte barvy grafu
 
@@ -130,7 +130,7 @@ chart.NSeries[0].Area.ForegroundColor = Color.Red;
 // Nastavení barvy popředí oblasti bodu kolekce 1. série
 chart.NSeries[0].Points[0].Area.ForegroundColor = Color.Cyan;
 
-// Vyplnění plochy kolekce 2. série přechodem
+// Vyplnění oblasti kolekce 2. série přechodem
 chart.NSeries[1].Area.FillFormat.SetOneColorGradient(Color.Lime, 1, Aspose.Cells.Drawing.GradientStyleType.Horizontal, 1);
 ```
 

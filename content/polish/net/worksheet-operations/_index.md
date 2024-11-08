@@ -28,3 +28,39 @@ Teraz zmieńmy nieco biegi. Czy kiedykolwiek konwertowałeś plik Excela do HTML
 Łatwe wyodrębnianie i zarządzanie hiperlinkami z plików Excel za pomocą Aspose.Cells dla .NET. Zawiera przewodnik krok po kroku i przykłady kodu.
 ### [Ustawianie preferencji obrazów dla HTML w .NET](./setting-image-preferences-for-html/)
 Odblokuj moc Aspose.Cells dla .NET. Dowiedz się, jak ustawić preferencje obrazu dla konwersji HTML, aby pięknie prezentować dane Excela w sieci.
+### [Dodaj komentarze wątkowe w arkuszu kalkulacyjnym](./add-threaded-comments/)
+Dowiedz się, jak dodawać wątkowe komentarze w arkuszach kalkulacyjnych programu Excel przy użyciu Aspose.Cells dla .NET, korzystając z tego samouczka krok po kroku. Ulepsz współpracę bez wysiłku.
+### [Policz liczbę komórek w arkuszu kalkulacyjnym](./count-cells/)
+Odblokuj moc Aspose.Cells dla .NET. Dowiedz się, jak liczyć komórki w arkuszu kalkulacyjnym programu Excel, korzystając z tego przewodnika krok po kroku.
+### [Wytnij i wklej komórki w arkuszu kalkulacyjnym](./cut-and-paste-cells/)
+Dowiedz się, jak wycinać i wklejać komórki w programie Excel za pomocą Aspose.Cells dla platformy .NET, korzystając z tego prostego samouczka krok po kroku.
+### [Wykryj międzynarodowy arkusz makro w skoroszycie](./detect-international-macro-sheet/)
+Dowiedz się, jak wykrywać międzynarodowe arkusze makr w programie Excel przy użyciu Aspose.Cells dla .NET dzięki temu szczegółowemu przewodnikowi krok po kroku. Idealne dla programistów.
+### [Edytuj komentarze wątkowe w arkuszu kalkulacyjnym](./edit-threaded-comments/)
+Odkryj magię edycji wątków komentarzy w programie Excel przy użyciu Aspose.Cells dla .NET! Postępuj zgodnie z naszym przewodnikiem krok po kroku i opanuj swoje dokumenty z łatwością.
+### [Sprawdź, czy Arkusz roboczy jest Arkuszem dialogowym](./check-dialog-sheet/)
+W tym samouczku krok po kroku dowiesz się, jak sprawdzić, czy arkusz kalkulacyjny jest arkuszem dialogowym, korzystając z Aspose.Cells dla platformy .NET.
+### [Pobierz walidację komórki w pliku ODS](./get-cell-validation-ods/)
+Dowiedz się, jak pobrać walidację komórek w plikach ODS przy użyciu Aspose.Cells dla .NET. Przewodnik krok po kroku dla programistów.
+### [Pobierz zakres z linkami zewnętrznymi w arkuszu kalkulacyjnym](./get-range-with-external-links/)
+Dowiedz się, jak efektywnie pobierać zakresy z linkami zewnętrznymi w arkuszach kalkulacyjnych programu Excel za pomocą Aspose.Cells dla platformy .NET, korzystając z tego kompleksowego samouczka krok po kroku.
+### [Uzyskaj unikalny identyfikator arkusza kalkulacyjnego](./get-worksheet-id/)
+Dowiedz się, jak uzyskać unikalny identyfikator arkusza kalkulacyjnego za pomocą Aspose.Cells dla .NET dzięki temu przewodnikowi krok po kroku. Zarządzaj arkuszami kalkulacyjnymi wydajniej.
+### [Arkusz wydruku z dodatkowymi ustawieniami](./print-sheet-with-settings/)
+Dowiedz się, jak bez wysiłku drukować arkusze programu Excel za pomocą Aspose.Cells dla platformy .NET, korzystając z tego szczegółowego przewodnika krok po kroku.
+### [Przeczytaj obraz tła ODS](./read-ods-background/)
+Dowiedz się, jak czytać obrazy tła ODS za pomocą Aspose.Cells dla .NET dzięki temu kompleksowemu samouczkowi krok po kroku. Idealne dla programistów i entuzjastów.
+### [Odczytaj czas utworzenia komentarzy wątkowych w arkuszu kalkulacyjnym](./read-threaded-comment-created-time/)
+Naucz się odczytywać czas utworzenia komentarzy wątkowych w programie Excel przy użyciu Aspose.Cells dla .NET. Przewodnik krok po kroku z dołączonymi przykładami kodu.
+### [Przeczytaj komentarze wątkowe w arkuszu kalkulacyjnym](./read-threaded-comments/)
+Odblokuj moc czytania wątków komentarzy w programie Excel za pomocą Aspose.Cells dla .NET. Zanurz się w tym przewodniku krok po kroku, aby ułatwić sobie obsługę dokumentów.
+### [Usuń komentarze wątkowe z arkusza kalkulacyjnego](./remove-threaded-comments/)
+Łatwo usuwaj wątkowe komentarze z arkuszy kalkulacyjnych programu Excel za pomocą Aspose.Cells dla .NET dzięki temu przewodnikowi krok po kroku. Uprość zarządzanie programem Excel.
+### [Ustaw kolorowe tło w pliku ODS](./set-ods-colored-background/)
+Dowiedz się, jak ustawić kolorowe tło w plikach ODS za pomocą Aspose.Cells dla .NET, korzystając z samouczków krok po kroku i wskazówek.
+### [Ustaw tło graficzne w pliku ODS](./set-ods-graphic-background/)
+Naucz się ustawiać tło graficzne w plikach ODS za pomocą Aspose.Cells dla .NET dzięki temu kompleksowemu przewodnikowi krok po kroku.
+### [Aktualizuj historię dziennika rewizji w skoroszycie współdzielonym](./update-revision-log-history/)
+Dowiedz się, jak aktualizować historię dziennika rewizji w udostępnionych skoroszytach przy użyciu Aspose.Cells dla .NET. Uprość współpracę i utrzymuj przejrzyste rekordy dokumentów.
+### [Wykorzystaj właściwość Sheet_SheetId OpenXml w arkuszu kalkulacyjnym](./utilize-sheet-sheetid-property/)
+Odblokuj moc programu Excel dzięki Aspose.Cells dla .NET. Naucz się skutecznie manipulować identyfikatorami arkuszy dzięki naszemu przewodnikowi krok po kroku.

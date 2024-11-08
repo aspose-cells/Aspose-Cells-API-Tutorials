@@ -1,6 +1,6 @@
 ---
-title: Μαζική εισαγωγή δεδομένων Excel
-linktitle: Μαζική εισαγωγή δεδομένων Excel
+title: Εισαγωγή μαζικών δεδομένων Excel
+linktitle: Εισαγωγή μαζικών δεδομένων Excel
 second_title: Aspose.Cells Java Excel Processing API
 description: Μάθετε πώς να πραγματοποιείτε μαζική εισαγωγή δεδομένων από το Excel χρησιμοποιώντας το Aspose.Cells for Java API. Βελτιώστε την επεξεργασία των δεδομένων σας με αυτόν τον οδηγό βήμα προς βήμα.
 type: docs

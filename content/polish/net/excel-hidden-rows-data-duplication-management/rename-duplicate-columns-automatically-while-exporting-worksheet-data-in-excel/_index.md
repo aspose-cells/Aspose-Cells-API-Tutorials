@@ -8,7 +8,7 @@ weight: 11
 url: /pl/net/excel-hidden-rows-data-duplication-management/rename-duplicate-columns-automatically-while-exporting-worksheet-data-in-excel/
 ---
 ## Wstęp
-Podczas pracy z danymi Excela jednym z najczęstszych problemów, z jakimi borykają się programiści, jest radzenie sobie z duplikatami nazw kolumn. Wyobraź sobie, że eksportujesz dane i odkrywasz, że kolumny oznaczone etykietą „Ludzie” są duplikowane. Możesz zadać sobie pytanie: „Jak mogę automatycznie obsłużyć te duplikaty bez ręcznej interwencji?” Cóż, nie martw się już więcej! W tym samouczku zagłębimy się w używanie Aspose.Cells dla .NET, aby automatycznie zmieniać nazwy tych irytujących duplikatów kolumn podczas eksportowania danych Excela, zapewniając płynniejszy przepływ pracy i bardziej zorganizowaną strukturę danych. Zaczynajmy!
+Podczas pracy z danymi Excela jednym z najczęstszych problemów, z jakimi borykają się programiści, jest radzenie sobie z duplikatami nazw kolumn. Wyobraź sobie, że eksportujesz dane i odkrywasz, że kolumny oznaczone etykietą „People” są duplikowane. Możesz zadać sobie pytanie: „Jak mogę automatycznie obsłużyć te duplikaty bez ręcznej interwencji?” Cóż, nie martw się już więcej! W tym samouczku zagłębimy się w używanie Aspose.Cells dla .NET, aby automatycznie zmieniać nazwy tych irytujących duplikatów kolumn podczas eksportowania danych Excela, zapewniając płynniejszy przepływ pracy i bardziej zorganizowaną strukturę danych. Zaczynajmy!
 ## Wymagania wstępne
 Zanim przejdziemy do szczegółów technicznych, upewnijmy się, że masz wszystko, czego potrzebujesz:
 1. Visual Studio: Upewnij się, że masz zainstalowane Visual Studio. To najlepsze IDE do tworzenia oprogramowania .NET.

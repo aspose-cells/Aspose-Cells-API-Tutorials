@@ -43,14 +43,14 @@ Teraz, gdy ustawiłeś katalog wyjściowy, czas utworzyć nowy skoroszyt. Skoros
 // Utwórz skoroszyt.
 Workbook wb = new Workbook();
 ```
- Ta linia kodu inicjuje nową instancję`Workbook` klasa. Możesz to sobie wyobrazić jako otwieranie nowego, pustego pliku Excel, gotowego do wypełnienia danymi!
+ Ta linia kodu inicjuje nową instancję`Workbook` klasa. Możesz to sobie wyobrazić jako otwarcie nowego, pustego pliku Excel, gotowego do wypełnienia danymi!
 ## Krok 3: Określ ustawienia zgodności
 Następnie musimy określić, że chcemy zapisać nasz skoroszyt w formacie Strict Open XML Spreadsheet. Jest to kluczowy krok w celu zapewnienia zgodności z innymi programami Excel. Oto, jak to zrobić:
 ```csharp
 // Określ - Format ścisłego, otwartego arkusza kalkulacyjnego XML.
 wb.Settings.Compliance = OoxmlCompliance.Iso29500_2008_Strict;
 ```
- Ustawiając zgodność na`OoxmlCompliance.Iso29500_2008_Strict`, informujesz Aspose.Cells, że chcesz, aby Twój skoroszyt ściśle przestrzegał standardów Open XML.
+ Ustawiając zgodność na`OoxmlCompliance.Iso29500_2008_Strict`, informujesz Aspose.Cells, że chcesz, aby skoroszyt ściśle przestrzegał standardów Open XML.
 ## Krok 4: Dodaj dane do arkusza kalkulacyjnego
 Teraz zaczyna się zabawa! Dodajmy trochę danych do naszego arkusza kalkulacyjnego. Napiszemy wiadomość w komórce B4, aby wskazać, że nasz plik jest w formacie Strict Open XML. Oto jak to zrobić:
 ```csharp

@@ -28,7 +28,7 @@ Excel 파일을 프로그래밍 방식으로 처리하는 경우 Aspose.Cells fo
 
 ### DLL을 다운로드하세요
 
-1.  로 이동[Aspose 다운로드 페이지](https://releases.aspose.com/cells/net/) .NET 버전에 맞는 패키지를 다운로드하세요.
+1.  로 이동[Aspose 다운로드 페이지](https://releases.aspose.com/cells/net/) .NET 버전에 적합한 패키지를 다운로드하세요.
 2.  다운로드한 파일을 추출하고 다음을 찾으세요.`Aspose.Cells.dll` 파일.
 
 ### Visual Studio에서 참조 추가

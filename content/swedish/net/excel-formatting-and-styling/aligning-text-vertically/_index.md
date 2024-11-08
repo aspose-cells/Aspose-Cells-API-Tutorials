@@ -70,7 +70,7 @@ Aspose.Cells.Cell cell = worksheet.Cells["A1"];
 ## Steg 8: Lägg till ett värde till cellen
 Dags att släppa lite innehåll i vår cell. Vi lägger till ett vänligt meddelande:
 ```csharp
-// Lägger till något värde till "A1"-cellen
+// Lägga till något värde till "A1"-cellen
 cell.PutValue("Visit Aspose!");
 ```
 Ser inte det härligt ut? 

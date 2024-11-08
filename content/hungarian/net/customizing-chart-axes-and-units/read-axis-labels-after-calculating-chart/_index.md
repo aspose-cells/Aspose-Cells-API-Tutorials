@@ -15,7 +15,7 @@ Amikor Excel-fájlokkal dolgozik .NET-ben, az egyik leghatékonyabb könyvtár a
 
 Mielőtt belemerülnénk a kód apró részleteibe, győződjünk meg arról, hogy mindennel rendelkezünk, ami az induláshoz szükséges:
 
-1.  Visual Studio: A Visual Studio-t telepítenie kell a gépére. Ha még nem rendelkezik vele, letöltheti a webhelyről[Microsoft webhely](https://visualstudio.microsoft.com/).
+1.  Visual Studio: A Visual Studio telepítve kell legyen a gépére. Ha még nem rendelkezik vele, letöltheti a[Microsoft webhely](https://visualstudio.microsoft.com/).
 2.  Aspose.Cells Library: Ez az útmutató feltételezi, hogy rendelkezik az Aspose.Cells könyvtárral. Könnyen letöltheti innen[Aspose kiadási oldala](https://releases.aspose.com/cells/net/) Ha nem biztos abban, hogy hol kezdje, a[Aspose.Cells dokumentáció](https://reference.aspose.com/cells/net/) lehet a legjobb barátod!
 3. Alapvető C# ismerete: A C# programozási nyelv ismerete segít megérteni a példákat, és gond nélkül követni.
 4.  Excel-fájl: Győződjön meg arról, hogy rendelkezik egy Excel-fájllal, amely diagramokat tartalmaz ehhez az oktatóanyaghoz. Létrehozhat egy minta Excel-fájlt, melynek neve`sampleReadAxisLabelsAfterCalculatingTheChart.xlsx` tesztelési célokra.
@@ -60,7 +60,7 @@ string sourceDir = "Your Document Directory";
 ```csharp
 Workbook wb = new Workbook(sourceDir + "sampleReadAxisLabelsAfterCalculatingTheChart.xlsx");
 ```
- A`Workbook` osztály az Ön átjárója az Excel-fájlhoz. A teljes elérési út megadásával új munkafüzet-példányt hozunk létre, amely az Excel-adatainkat tartalmazza.
+ A`Workbook` osztály az Ön átjárója az Excel fájlhoz. A teljes elérési út megadásával új munkafüzet-példányt hozunk létre, amely az Excel-adatainkat tartalmazza.
 
 ## 3. lépés: Nyissa meg az első munkalapot
 
@@ -78,7 +78,7 @@ Most jön a döntő lépés – a diagram elérése.
 ```csharp
 Chart ch = ws.Charts[0];
 ```
-Hasonlóképpen, a diagramok is indexelve vannak. Ezzel megkapjuk a munkalap első diagramját. Más, különböző indexekkel rendelkező diagramokat is elérhet.
+Hasonlóképpen, a diagramok is indexelve vannak. Ezzel megkapjuk az első diagramot a munkalapon. Más, különböző indexekkel rendelkező diagramokat is elérhet.
 
 ## 5. lépés: Számítsa ki a diagramot
 

@@ -39,7 +39,7 @@ Därefter kommer vi att läsa bilderna som du vill infoga i Excel-filen. Du vill
 byte[] imageData = File.ReadAllBytes(dataDir + "aspose-logo.jpg");
 ```
  De`File.ReadAllBytes()` metod används för att läsa bildfilen till en byte-array. Du kan göra detta för flera bilder genom att upprepa processen för varje fil.
-## Steg 3: Skapa en datatabell för att hålla bilder
+## Steg 3: Skapa en datatabell för bilder
 Nu ska vi skapa en datatabell. Denna tabell gör det möjligt för oss att lagra vår bilddata på ett strukturerat sätt.
 ```csharp
 // Skapa en datatabell.

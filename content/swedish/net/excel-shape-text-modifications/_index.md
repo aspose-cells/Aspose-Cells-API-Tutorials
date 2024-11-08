@@ -1,6 +1,6 @@
 ---
-title: Excel-form- och textändringar
-linktitle: Excel-form- och textändringar
+title: Modifieringar av form och text i Excel
+linktitle: Modifieringar av form och text i Excel
 second_title: Aspose.Cells .NET Excel Processing API
 description: Lär dig att manipulera Excel-former och text med Aspose.Cells för .NET med lätta att följa handledningar och praktiska kodexempel.
 type: docs
@@ -11,7 +11,7 @@ url: /sv/net/excel-shape-text-modifications/
 
 När det gäller Excel-automatisering gör det hela skillnaden att ha rätt verktyg. Det är där Aspose.Cells för .NET lyser med sina robusta möjligheter för hantering av Excel-filer. Oavsett om du är en erfaren utvecklare eller bara kliver in i automationsvärlden, erbjuder våra tutorials en mängd kunskap. Så varför inte dyka in i några engagerande sätt att ändra former och text i Excel? 
 
-## Extrahera text från SmartArt
+## Extraherar text från SmartArt
 
  Har du någonsin kämpat för att extrahera text från SmartArt-grafik i Excel? Med handledningen på[Extrahera text från Gear Type Smart Art i Excel](./extract-text-gear-smart-art-excel/)hittar du en enkel metod för att hämta denna information direkt till dina applikationer. Det är som att ha en magisk nyckel som låser upp värdefulla insikter gömda inom dessa konstnärliga element. Du lär dig hur du gör detta steg för steg, med kodsnuttar som gör inlärningsprocessen trevlig och effektiv. Varför spenderade timmar på att räkna ut det ensam när du snabbt kan ta tag i dessa tekniker? 
 
@@ -37,7 +37,7 @@ När det gäller Excel-automatisering gör det hela skillnaden att ha rätt verk
 
  Till sist, låt oss prata om presentation. Det handlar inte bara om data; det handlar om hur du presenterar det. De[Ställ in marginaler för kommentar eller form i Excel](./set-margins-comment-shape-excel/)tutorial lär dig hur du konfigurerar dina marginaler för kommentarer och former, vilket säkerställer att dina insikter har det utrymme de behöver för att lysa utan att belamra sidan. Har du någonsin haft en kommentarsruta så klämd att den såg förlorad ut? Säg adjö till det! Med dessa färdigheter kommer dina dokument att se polerade och professionella ut.
 
-## Självstudier för form- och textändringar i Excel
+## Självstudier för Excel-form och textändringar
 ### [Extrahera text från Gear Type Smart Art i Excel](./extract-text-gear-smart-art-excel/)
 Lär dig hur du extraherar text från SmartArt av kugghjulstyp i Excel med Aspose.Cells för .NET. Steg-för-steg-guide och kodexempel ingår.
 ### [Ersätt tagg med text i TextBox i Excel](./replace-tag-text-textbox-excel/)

@@ -2,7 +2,7 @@
 title: Biztonság és titkosítás
 linktitle: Biztonság és titkosítás
 second_title: Aspose.Cells .NET Excel Processing API
-description: Fedezze fel az Aspose.Cells for .NET erejét a biztonságról és a titkosításról szóló oktatóanyagaink segítségével. Tanulja meg könnyedén észlelni és titkosítani a fájlokat.
+description: Fedezze fel az Aspose.Cells for .NET erejét a biztonságról és a titkosításról szóló oktatóanyagainkkal. Tanulja meg könnyedén észlelni és titkosítani a fájlokat.
 type: docs
 weight: 32
 url: /hu/net/security-and-encryption/
@@ -29,4 +29,4 @@ Ismerje meg, hogyan lehet hatékonyan észlelni a titkosított fájlok fájlform
 ### [Fájlok titkosítása .NET-ben](./encrypting-files/)
 Biztosítsa Excel-fájljait jelszavas védelemmel az Aspose.Cells for .NET segítségével. Ez az útmutató lépésről lépésre végigvezeti a titkosításon.
 ### [ODS-fájlok titkosítása .NET-ben](./encrypting-ods-files/)
-Ismerje meg az ODS-fájlok titkosítását és visszafejtését az Aspose.Cells for .NET használatával. Lépésről lépésre szóló útmutató az adatok védelméhez.
+Ismerje meg az ODS-fájlok titkosítását és visszafejtését az Aspose.Cells for .NET használatával. Lépésről lépésre szóló útmutató az adatok biztonságához.

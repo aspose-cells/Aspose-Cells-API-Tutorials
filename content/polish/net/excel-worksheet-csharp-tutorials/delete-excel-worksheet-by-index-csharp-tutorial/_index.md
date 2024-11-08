@@ -2,7 +2,7 @@
 title: Usuń arkusz kalkulacyjny Excel według indeksu C# Tutorial
 linktitle: Usuń arkusz kalkulacyjny programu Excel według indeksu
 second_title: Aspose.Cells dla .NET API Reference
-description: Dowiedz się, jak usunąć arkusz kalkulacyjny Excela według indeksu w C# przy użyciu Aspose.Cells. Postępuj zgodnie z tym prostym samouczkiem krok po kroku, aby uprościć zarządzanie skoroszytem.
+description: Dowiedz się, jak usunąć arkusz kalkulacyjny programu Excel według indeksu w języku C# przy użyciu Aspose.Cells. Postępuj zgodnie z tym prostym samouczkiem krok po kroku, aby uprościć zarządzanie skoroszytem.
 type: docs
 weight: 30
 url: /pl/net/excel-worksheet-csharp-tutorials/delete-excel-worksheet-by-index-csharp-tutorial/

@@ -138,7 +138,7 @@ det här steget sparar vi arbetsboken i vår angivna katalog. Det är som att s�
 
 ## Slutsats
 
-Grattis! Du är nu utrustad med färdigheter att ställa in utskriftsalternativ med Aspose.Cells för .NET. Tänk bara på effekten av ett välpresenterat tryckt kalkylblad! Inga mer lacklustiga dokument; istället levererar du rena, professionella utskrifter varje gång. 
+Grattis! Du är nu utrustad med färdigheter att ställa in utskriftsalternativ med Aspose.Cells för .NET. Tänk bara på effekten av ett välpresenterat tryckt kalkylblad! Inga fler lacklustiga dokument; istället levererar du rena, professionella utskrifter varje gång. 
 
 ## FAQ's
 

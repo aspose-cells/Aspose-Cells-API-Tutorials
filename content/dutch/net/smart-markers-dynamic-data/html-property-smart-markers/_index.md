@@ -1,6 +1,6 @@
 ---
-title: Gebruik HTML-eigenschap in slimme markeringen Aspose.Cells .NET
-linktitle: Gebruik HTML-eigenschap in slimme markeringen Aspose.Cells .NET
+title: HTML-eigenschap gebruiken in slimme markeringen Aspose.Cells .NET
+linktitle: HTML-eigenschap gebruiken in slimme markeringen Aspose.Cells .NET
 second_title: Aspose.Cells .NET Excel-verwerkings-API
 description: Ontdek de kracht van Aspose.Cells met deze stapsgewijze zelfstudie over het gebruik van de HTML-eigenschap in slimme markeringen voor .NET-toepassingen.
 type: docs

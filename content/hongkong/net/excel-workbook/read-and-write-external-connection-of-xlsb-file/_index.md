@@ -46,7 +46,7 @@ string sourceDir = "Your Document Directory";
 string outputDir = "Your Output Directory";
 ```
 
-在此程式碼片段中，`"Your Document Directory"`和`"Your Document Directory"`假設取得輸入和輸出檔案所在位置的對應路徑。如果您願意，可以用硬編碼路徑替換這些方法。
+在此程式碼片段中，`"Your Document Directory"`和`"Your Document Directory"`假定取得輸入和輸出檔案所在位置的對應路徑。如果您願意，可以用硬編碼路徑替換這些方法。
 
 ## 第 2 步：載入 XLSB 文件
 

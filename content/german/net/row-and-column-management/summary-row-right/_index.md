@@ -37,7 +37,7 @@ Zuerst müssen wir den Pfad zu unserer Excel-Datei festlegen. So geht's:
 // Der Pfad zum Dokumentverzeichnis.
 string dataDir = "Your Document Directory";
 ```
- Ersetzen`"Your Document Directory"` mit dem tatsächlichen Pfad, in dem Ihre Excel-Datei gespeichert ist. Hier ist unser`sample.xlsx` die Datei befindet.
+ Ersetzen`"Your Document Directory"` mit dem tatsächlichen Pfad, in dem Ihre Excel-Datei gespeichert ist. Hier ist unser`sample.xlsx` die Datei wird gefunden.
 ## Schritt 2: Laden Sie die Arbeitsmappe
 Als Nächstes laden wir die Arbeitsmappe (Excel-Datei), mit der wir arbeiten möchten:
 ```csharp

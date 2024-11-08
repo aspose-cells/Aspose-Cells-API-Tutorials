@@ -54,7 +54,7 @@ Zeit, etwas Inhalt hinzuzufügen! Wir geben einen Wert in Zelle „A1“ ein:
 ```csharp
 // Zugriff auf die Zelle „A1“ aus dem Arbeitsblatt
 Cell cell = worksheet.Cells["A1"];
-// Hinzufügen eines Wertes zur Zelle „A1“
+// Einen Wert zur Zelle „A1“ hinzufügen
 cell.PutValue("Visit Aspose!");
 ```
 Mit diesem Code geben Sie nicht nur Daten in die Zelle ein; Sie beginnen, eine Geschichte zu erzählen!

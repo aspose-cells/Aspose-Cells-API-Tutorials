@@ -32,7 +32,7 @@ using Aspose.Cells.Charts;
 ```
 Über diese Namespaces erhalten Sie Zugriff auf die Workbook-Klasse und andere wichtige Funktionen.
 
-Nachdem wir nun unsere Pakete importiert haben, wollen wir den Prozess der Konvertierung einer Excel-Datei in eine PDF-Datei aufschlüsseln und dabei die Erstellungszeit festlegen.
+Nachdem wir nun unsere Pakete importiert haben, wollen wir den Prozess der Konvertierung einer Excel-Datei in eine PDF-Datei unter Festlegen der Erstellungszeit aufschlüsseln.
 ## Schritt 1: Definieren Sie das Dokumentverzeichnis
 Zunächst müssen Sie das Verzeichnis angeben, in dem Ihre Dokumente gespeichert sind. Hier befindet sich Ihre Excel-Datei und hier wird auch das Ausgabe-PDF gespeichert.
 ```csharp

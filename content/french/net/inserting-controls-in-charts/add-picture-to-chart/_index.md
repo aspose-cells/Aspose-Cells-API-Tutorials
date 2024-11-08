@@ -147,7 +147,7 @@ Dans ce tutoriel, nous avons exploré comment ajouter un peu de personnalité à
 ### Puis-je ajouter plusieurs images à un seul graphique ?
  Oui ! Vous pouvez appeler le`AddPictureInChart` Répétez la méthode plusieurs fois pour ajouter autant d'images que vous le souhaitez.
 
-### Quels formats d’image Aspose.Cells prend-il en charge ?
+### Quels formats d’image sont pris en charge par Aspose.Cells ?
 Aspose.Cells prend en charge une variété de formats d'image, notamment PNG, JPEG, BMP et GIF.
 
 ### Puis-je personnaliser la position de l'image ?

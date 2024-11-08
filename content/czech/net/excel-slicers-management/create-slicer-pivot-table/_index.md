@@ -24,7 +24,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 ```
-Ujistěte se, že jste to přidali na začátek souboru kódu. Tento příkaz importu vám umožňuje přístup ke všem funkcím, které nabízí knihovna Aspose.Cells.
+Ujistěte se, že jste to přidali na začátek souboru kódu. Tento příkaz importu umožňuje přístup ke všem funkcím, které nabízí knihovna Aspose.Cells.
 A teď se pustíme do toho natvrdlého. Rozdělíme to do zvládnutelných kroků, abyste je mohli snadno sledovat. 
 ## Krok 1: Definujte zdrojové a výstupní adresáře
 Nejprve musíme definovat, kde jsou umístěny vaše vstupní a výstupní soubory. To zajišťuje, že náš kód ví, kde najít náš soubor Excel a kam uložit výsledky.

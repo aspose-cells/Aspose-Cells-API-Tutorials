@@ -121,7 +121,7 @@ Den här raden sparar arbetsboken med det angivna filnamnet i den katalog som du
 
 ## Steg 9: Stänga FileStream
 
- Slutligen, glöm inte att stänga din`FileStream` att frigöra resurserna.
+ Slutligen, glöm inte att stänga din`FileStream` för att frigöra resurserna.
 
 ```csharp
 inFile.Close();

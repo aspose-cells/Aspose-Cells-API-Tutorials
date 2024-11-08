@@ -141,7 +141,7 @@ A tady to máte! Pomocí několika kroků můžete pomocí Aspose.Cells for .NET
 ## FAQ
 
 ### Co je Aspose.Cells?
-Aspose.Cells je výkonná knihovna navržená pro práci se soubory aplikace Excel v aplikacích .NET, která umožňuje vytvářet, upravovat a převádět tabulky.
+Aspose.Cells je výkonná knihovna navržená pro práci se soubory aplikace Excel v aplikacích .NET, umožňující vytváření, úpravy a konverzi tabulek.
 
 ### Mohu vyzkoušet Aspose.Cells zdarma?
  Ano! Můžete si stáhnout bezplatnou zkušební verzi Aspose.Cells[zde](https://releases.aspose.com/).

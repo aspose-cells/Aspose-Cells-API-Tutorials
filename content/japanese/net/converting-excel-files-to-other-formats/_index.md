@@ -2,7 +2,7 @@
 title: Excel ファイルを他の形式に変換する
 linktitle: Excel ファイルを他の形式に変換する
 second_title: Aspose.Cells .NET Excel 処理 API
-description: Excel ファイルを JSON、DOCX、HTML、PDF、Markdown などの形式に変換するには、包括的な Aspose.Cells for .NET チュートリアル リストを参照してください。
+description: Excel ファイルを JSON、DOCX、HTML、PDF、Markdown などの形式に変換するための包括的な Aspose.Cells for .NET チュートリアル リストをご覧ください。
 type: docs
 weight: 35
 url: /ja/net/converting-excel-files-to-other-formats/
@@ -47,7 +47,7 @@ Aspose.Cells for .NET を使用して、アーカイブ目的で Excel ファイ
 ### [.NET でプログラム的に JSON を CSV に変換する](./converting-json-to-csv/)
 Aspose.Cells を使用して .NET でプログラム的に JSON を CSV に変換する方法を学びます。シームレスなデータ変換を確実に行うには、ステップバイステップのガイドに従ってください。
 ### [.NET でプログラム的に Excel ファイルを PPTX に変換する](./converting-excel-file-to-pptx/)
-このステップバイステップ ガイドでは、Aspose.Cells for .NET を使用してプログラム的に Excel ファイルを PowerPoint プレゼンテーション (PPTX) に変換する方法を学習します。
+このステップバイステップ ガイドでは、Aspose.Cells for .NET を使用して Excel ファイルをプログラムで PowerPoint プレゼンテーション (PPTX) に変換する方法を学習します。
 ### [.NET でプログラム的に出力 HTML に HTML CrossType を指定する](./specifying-html-crosstype-in-output-html/)
 Aspose.Cells for .NET で HTML CrossType を指定する方法を学びます。ステップバイステップのチュートリアルに従って、Excel ファイルを正確に HTML に変換します。
 ### [.NET でプログラム的に数値スプレッドシートを読み取る](./reading-numbers-spreadsheet/)

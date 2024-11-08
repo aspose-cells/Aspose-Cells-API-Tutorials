@@ -102,7 +102,7 @@ Aby zastosować funkcję MIN do dynamicznego zakresu komórek, możesz użyć wb
 
 ### Czy mogę użyć funkcji MIN w przypadku danych nieliczbowych?
 
-Funkcja MIN w programie Excel jest przeznaczona do pracy z danymi liczbowymi. Jeśli spróbujesz użyć jej z danymi nieliczbowymi, zwróci błąd. Upewnij się, że Twoje dane są w formacie liczbowym lub użyj innych funkcji, takich jak MINA, dla danych nieliczbowych.
+Funkcja MIN w programie Excel jest przeznaczona do pracy z danymi liczbowymi. Jeśli spróbujesz jej użyć z danymi nieliczbowymi, zwróci błąd. Upewnij się, że Twoje dane są w formacie liczbowym lub użyj innych funkcji, takich jak MINA, dla danych nieliczbowych.
 
 ### Jaka jest różnica pomiędzy funkcjami MIN i MINA?
 

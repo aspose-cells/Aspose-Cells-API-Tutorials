@@ -17,10 +17,10 @@ Mielőtt elkezdenénk, néhány dolgot meg kell tennie:
 
 1.  Aspose.Cells for .NET: Győződjön meg arról, hogy telepítve van az Aspose.Cells könyvtár. Könnyen letöltheti a[Aspose honlapja](https://releases.aspose.com/cells/net/).
 2. Fejlesztői környezet: Működő .NET fejlesztői környezet (például a Visual Studio), ahol megírhatja és végrehajthatja a kódot.
-3. Digitális tanúsítvány: Érvényes digitális tanúsítványra (PFX-fájlra) van szükség a jelszavával. Ez a tanúsítvány elengedhetetlen a digitális aláírás létrehozásához.
+3. Digitális tanúsítvány: Érvényes digitális tanúsítványra (PFX-fájlra) van szüksége a jelszóval együtt. Ez a tanúsítvány elengedhetetlen a digitális aláírás létrehozásához.
 4. Alapvető C# ismerete: A C# programozás ismerete segít a példák jobb megértésében.
 
-Miután rendezte ezeket az előfeltételeket, készen áll a Xades aláírások implementálására az Excel-fájlokban!
+Ha ezeket az előfeltételeket rendezte, készen áll a Xades aláírások implementálására az Excel-fájlokban!
 
 ## Csomagok importálása
 

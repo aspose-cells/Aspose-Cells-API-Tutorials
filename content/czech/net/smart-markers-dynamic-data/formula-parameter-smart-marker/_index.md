@@ -2,7 +2,7 @@
 title: Použijte parametr vzorce v poli Smart Marker Aspose.Cells
 linktitle: Použijte parametr vzorce v poli Smart Marker Aspose.Cells
 second_title: Aspose.Cells .NET Excel Processing API
-description: Naučte se používat parametry vzorců v chytrých značkách s Aspose.Cells pro .NET. Snadno vytvářejte dynamické tabulky.
+description: Naučte se používat parametry vzorce v chytrých značkách s Aspose.Cells pro .NET. Snadno vytvářejte dynamické tabulky.
 type: docs
 weight: 19
 url: /cs/net/smart-markers-dynamic-data/formula-parameter-smart-marker/
@@ -42,7 +42,7 @@ dt.Columns.Add("TestFormula");
 ```
 Tento fragment inicializuje a`DataTable` s jedním pojmenovaným sloupcem`TestFormula`. 
 ## Krok 3: Přidejte řádky se vzorci
- Nyní přichází ta zábavná část – přidávání řádků`DataTable`. Každý řádek obsahuje vzorec, který bude použit v chytré značce. Krok za krokem to můžete udělat takto:
+ Nyní přichází ta zábavná část – přidávání řádků do vašeho`DataTable`. Každý řádek obsahuje vzorec, který bude použit v chytré značce. Krok za krokem to můžete udělat takto:
 ```csharp
 // Vytvářejte a přidávejte řádky se vzorci
 for (int i = 1; i <= 5; i++)
@@ -54,7 +54,7 @@ for (int i = 1; i <= 5; i++)
 ```
 V této smyčce dynamicky generujeme pět řádků vzorců. Každý vzorec zřetězí řetězce dohromady. Nelíbí se vám, jak stručné a výkonné může být C#?
 ## Krok 4: Pojmenujte svůj DataTable
- Po naplnění je důležité dát svůj`DataTable` jméno. Je to jako dát svému mazlíčkovi jméno; pomáhá to odlišit se od ostatních! Postup je následující:
+ Po jeho naplnění je důležité dát svůj`DataTable` jméno. Je to jako dát svému mazlíčkovi jméno; pomáhá to odlišit se od ostatních! Postup je následující:
 ```csharp
 dt.TableName = "MyDataSource";
 ```

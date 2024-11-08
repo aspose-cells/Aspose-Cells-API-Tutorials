@@ -50,7 +50,7 @@ Vous ne voulez pas rester dans le noir ! Il est toujours bon de savoir si vos o
 ```csharp
 Console.WriteLine("Workbook opened using stream successfully!");
 ```
-Cette ligne est envoyée à la console, vous permettant de savoir que tout va bien. Si vous voyez ce message, vous avez fait du bon travail !
+Cette ligne est envoyée vers la console, vous permettant de savoir que tout va bien. Si vous voyez ce message, vous avez fait du bon travail !
 ## Étape 5 : Fermer le flux
  La dernière étape (et peut-être l'une des plus importantes) consiste à fermer le flux de fichiers. Vous ne voulez pas laisser ce fichier ouvert inutilement, c'est comme laisser une porte entrouverte ; cela pourrait conduire à[problèmes inattendus](https://forum.aspose.com/c/cells/9)!
 ```csharp

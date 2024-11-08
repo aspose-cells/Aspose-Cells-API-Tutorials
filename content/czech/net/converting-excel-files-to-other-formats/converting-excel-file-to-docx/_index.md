@@ -74,7 +74,7 @@ Nyní je čas načíst soubor aplikace Excel do kódu. Berte to jako pokyn svém
 Workbook workbook = new Workbook(sourceDir + "Book1.xlsx");
 ```
 
- Zde vytváříme nový`Workbook` objekt, který představuje soubor Excel. Předáme cestu k souboru Excel (`Book1.xlsx`) jako parametr, který jej načte do paměti.
+ Tady vytváříme nový`Workbook` objekt, který představuje soubor Excel. Předáme cestu k souboru Excel (`Book1.xlsx`) jako parametr, který jej načte do paměti.
 
 ## Krok 3: Převeďte Excel na DOCX
 

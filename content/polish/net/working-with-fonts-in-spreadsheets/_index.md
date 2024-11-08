@@ -13,7 +13,7 @@ Jeśli kiedykolwiek pracowałeś z arkuszami kalkulacyjnymi, wiesz, jak ważna j
 
 ## Pobierz listę czcionek używanych w arkuszu kalkulacyjnym
 
- Czy kiedykolwiek zastanawiałeś się, jakie czcionki czają się w Twoim arkuszu kalkulacyjnym? Ten przydatny samouczek nauczy Cię, jak pobrać i wyświetlić wszystkie czcionki używane w dowolnym pliku Excela za pomocą zaledwie kilku linijek kodu. Korzystając z Aspose.Cells dla .NET, możesz łatwo wyodrębnić te informacje i wyświetlić je w razie potrzeby. Wyobraź sobie, że przygotowujesz się do prezentacji i musisz upewnić się, że wybrane czcionki są spójne w całym skoroszycie — to właśnie tutaj ten samouczek się sprawdza! Aby uzyskać szczegółowy opis tego procesu, sprawdź[Pobierz listę czcionek używanych w arkuszu kalkulacyjnym](./get-list-of-fonts-used-in-spreadsheet/) przewodnik.
+ Czy kiedykolwiek zastanawiałeś się, jakie czcionki czają się w Twoim arkuszu kalkulacyjnym? Ten przydatny samouczek nauczy Cię, jak pobrać i wyświetlić wszystkie czcionki używane w dowolnym pliku Excela za pomocą zaledwie kilku linijek kodu. Dzięki zastosowaniu Aspose.Cells dla .NET możesz łatwo wyodrębnić te informacje i wyświetlić je w razie potrzeby. Wyobraź sobie, że przygotowujesz się do prezentacji i musisz upewnić się, że wybrane czcionki są spójne w całym skoroszycie — to właśnie tutaj ten samouczek się sprawdza! Aby uzyskać szczegółowy opis tego procesu, sprawdź[Pobierz listę czcionek używanych w arkuszu kalkulacyjnym](./get-list-of-fonts-used-in-spreadsheet/) przewodnik.
 
 ## Ustaw domyślną czcionkę dla opcji zapisywania PDF
 

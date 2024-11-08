@@ -131,7 +131,7 @@ Ez a kódsor alkalmazza az összes módosítást, így biztosítva, hogy a szele
 
 ## 8. lépés: Mentse el a munkafüzetet
 
-Most, hogy minden a helyén van, már csak el kell mentenie a munkafüzetet a szeletelő módosított beállításaival. Ez olyan, mintha megmentené a játék előrehaladását – nem szeretné elveszíteni minden kemény munkáját!
+Most, hogy minden a helyén van, már csak el kell mentenie a munkafüzetet a szeletelő módosított beállításaival. Ez olyan, mint a játék előrehaladásának mentése – nem szeretné elveszíteni az összes kemény munkáját!
 
 ```csharp
 // Mentse a munkafüzetet kimeneti XLSX formátumban.

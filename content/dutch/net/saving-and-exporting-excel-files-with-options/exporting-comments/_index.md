@@ -14,7 +14,7 @@ Voordat we beginnen, zijn er een paar dingen die je op orde moet hebben. Geen zo
 -  Aspose.Cells voor .NET: U kunt het downloaden[hier](https://releases.aspose.com/cells/net/).
 - Basiskennis van C# en .NET.
 - Een omgeving die klaar is voor .NET-ontwikkeling (Visual Studio of een andere gewenste IDE).
-- Een voorbeeld van een Excel-bestand met opmerkingen die u wilt exporteren (of u kunt het bestand gebruiken dat in de tutorial wordt gegeven).
+- Een voorbeeld van een Excel-bestand met opmerkingen die u wilt exporteren (u kunt ook het bestand gebruiken dat in de tutorial wordt gegeven).
  Als u Aspose.Cells voor .NET niet hebt geïnstalleerd, kunt u het uitproberen met een[gratis proefperiode](https://releases.aspose.com/) . Hulp nodig bij het instellen? Bekijk de[documentatie](https://reference.aspose.com/cells/net/) voor begeleiding.
 ## Vereiste pakketten importeren
 Voordat we in de code duiken, moeten we de benodigde namespaces importeren uit Aspose.Cells. Deze zijn essentieel voor het werken met werkmappen, HTML-opslagopties en meer. Dit is wat u bovenaan uw C#-bestand moet toevoegen:

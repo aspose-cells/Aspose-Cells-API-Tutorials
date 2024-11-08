@@ -22,7 +22,7 @@ using System.IO;
 using Aspose.Cells;
 ```
 Ezekkel az importálásokkal hozzáférhet a munkafüzet, a munkalap és a stílus osztályokhoz, amelyeket az oktatóanyag során használni fog.
-Most, hogy elkészítettük a terepet, bontsuk le a folyamatot kezelhető lépésekre. Minden lépést egyértelmű utasítások kísérnek, amelyek végigvezetik Önt az áthúzási hatás létrehozásán a szövegen az Excelben.
+Most, hogy elkészítettük a terepet, bontsuk le a folyamatot kezelhető lépésekre. Minden lépést egyértelmű utasítások kísérnek, amelyek végigvezetik Önt a szövegen az Excelben lévő áthúzási hatás létrehozásán.
 ## 1. lépés: Határozza meg a dokumentumkönyvtárat
 Kezdje az Excel-dokumentumok tárolási útvonalának meghatározásával. Ez lesz a kimeneti fájlok mentési helye.
 ```csharp

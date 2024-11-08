@@ -93,7 +93,7 @@ workbook.Save(dataDir + "output.xlsx");
 ```
  Deze regel slaat uw Excel-bestand op als`output.xlsx` in de opgegeven directory. Zorg ervoor dat u schrijfrechten hebt op die locatie!
 ## Conclusie
-En daar heb je het! Je hebt zojuist geleerd hoe je lettertypestijlen programmatisch instelt in Excel met Aspose.Cells voor .NET. Van het definiëren van je documentdirectory tot het toepassen van voorwaardelijke opmaak en tot slot het opslaan van je werk, je hebt nu de tools om je Excel-bestanden visueel aantrekkelijk en functioneel te maken.
+En daar heb je het! Je hebt zojuist geleerd hoe je lettertypestijlen programmatisch instelt in Excel met Aspose.Cells voor .NET. Van het definiëren van je documentdirectory tot het toepassen van voorwaardelijke opmaak en uiteindelijk het opslaan van je werk, je hebt nu de tools om je Excel-bestanden visueel aantrekkelijk en functioneel te maken.
 Of u nu rapporten genereert, taken automatiseert of dashboards maakt: als u de kunst van het manipuleren van lettertypen onder de knie krijgt, kunt u van eenvoudige spreadsheets prachtige spreadsheets maken.
 ## Veelgestelde vragen
 ### Kan ik verschillende lettertypes gebruiken voor verschillende situaties?  

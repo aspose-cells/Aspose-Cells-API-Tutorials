@@ -63,7 +63,7 @@ Lär dig att ta bort flera rader i Excel med Aspose.Cells för .NET. Denna detal
 ### [Infoga en kolumn i Aspose.Cells .NET](./insert-column-aspose-cells/)
 Lär dig hur du infogar en kolumn i Excel med Aspose.Cells för .NET. Följ vår enkla, steg-för-steg-guide för att lägga till en ny kolumn sömlöst. Perfekt för .NET-utvecklare.
 ### [Infoga en rad i Aspose.Cells .NET](./insert-row-aspose-cells/)
-Lär dig hur du infogar en rad i Excel med Aspose.Cells för .NET med denna steg-för-steg-guide. Förbättra dina färdigheter i datamanipulering utan ansträngning.
+Lär dig hur du infogar en rad i Excel med Aspose.Cells för .NET med denna steg-för-steg-guide. Förbättra dina färdigheter i datamanipulation utan ansträngning.
 ### [Infoga rad med formatering i Aspose.Cells .NET](./insert-row-formatting-aspose-cells/)
 Lär dig att infoga en rad med formatering i Excel med Aspose.Cells för .NET. Följ vår steg-för-steg-guide för enkel implementering.
 ### [Infoga flera rader i Aspose.Cells .NET](./insert-multiple-rows-aspose-cells/)

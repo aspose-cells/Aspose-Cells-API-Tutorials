@@ -15,7 +15,7 @@ Ti sei mai chiesto come creare grafici sbalorditivi in Excel a livello di progra
 
 Prima di iniziare, assicurati di avere tutto a posto per procedere senza intoppi.
 
-1.  Aspose.Cells per la libreria .NET – Dovrai installarla. Puoi scaricarla[Qui](https://releases.aspose.com/cells/net/).
+1. Aspose.Cells per la libreria .NET – Dovrai installarla. Puoi scaricarla[Qui](https://releases.aspose.com/cells/net/).
 2. .NET Framework: assicurati che il tuo ambiente di sviluppo sia configurato con la versione più recente di .NET.
 3. IDE (Integrated Development Environment): si consiglia Visual Studio.
 4.  Una licenza Aspose.Cells valida: se non ne hai una, puoi richiederne una[licenza temporanea](https://purchase.aspose.com/temporary-license/) o dai un'occhiata al loro[prova gratuita](https://releases.aspose.com/).
@@ -41,7 +41,7 @@ Una volta capito questo, possiamo iniziare a programmare!
 Per prima cosa, devi creare una nuova cartella di lavoro e accedere al primo foglio di lavoro.
 
 ```csharp
-//Directory di uscita
+//Directory di output
 static string outputDir = "Your Document Directory";
 		
 // Creare un'istanza di una cartella di lavoro
@@ -109,7 +109,7 @@ chart.AutoScaling = true;
 // Imposta il colore di primo piano su bianco
 chart.PlotArea.Area.ForegroundColor = Color.White;
 
-// Imposta le proprietà del titolo del grafico
+//Imposta le proprietà del titolo del grafico
 chart.Title.Text = "Sample Chart";
 
 // Imposta il tipo di grafico
@@ -163,7 +163,7 @@ chart.NSeries[s3_idx].XValues = "A22: A41";
 chart.NSeries[s3_idx].Values = "B22: B41";
 ```
 
-I valori si basano sui dati che abbiamo inserito nel passaggio 2.
+valori si basano sui dati che abbiamo inserito nel passaggio 2.
 
 ## Passaggio 8: salvare la cartella di lavoro
 

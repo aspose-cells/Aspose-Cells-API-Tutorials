@@ -16,9 +16,9 @@ url: /ar/net/working-with-chart-data/get-chart-subtitle-for-ods-file/
 قبل الخوض في البرنامج التعليمي، ستحتاج إلى التأكد من إعداد كل ما يلزم لاستخدام Aspose.Cells لـ .NET بشكل فعال. فيما يلي قائمة مرجعية يجب اتباعها:
 
 1. .NET Framework: تأكد من تثبيت .NET Framework على جهازك. 
-2. مكتبة Aspose.Cells: قم بتنزيل مكتبة Aspose.Cells وتثبيتها. يمكنك الحصول عليها من[هنا](https://releases.aspose.com/cells/net/).
+2.  مكتبة Aspose.Cells: قم بتنزيل مكتبة Aspose.Cells وتثبيتها. يمكنك الحصول عليها من[هنا](https://releases.aspose.com/cells/net/).
 3. IDE: في حين أن أي محرر أكواد سوف يقوم بالمهمة، فإن استخدام IDE مثل Visual Studio يوفر منصة قوية لتطوير .NET.
-4.  ملف ODS نموذجي: ستحتاج إلى ملف ODS يحتوي على مخططات بيانية. في هذا البرنامج التعليمي، سنستخدم`SampleChart.ods`.
+4. ملف ODS نموذجي: ستحتاج إلى ملف ODS يحتوي على مخططات بيانية. في هذا البرنامج التعليمي، سنستخدم`SampleChart.ods`.
 5. المعرفة الأساسية بلغة C#: ستساعدك المعرفة بلغة C# على استيعاب المفاهيم بسرعة وإجراء التعديلات حسب الحاجة.
 
 ## استيراد الحزم
@@ -39,7 +39,7 @@ using Aspose.Cells.Charts;
 إنشاء مشروع تطبيق وحدة تحكم جديد
 
 - افتح Visual Studio (أو IDE المفضل لديك).
-- قم بإنشاء مشروع تطبيق وحدة تحكم جديد وأعطه اسمًا مناسبًا، مثل`ChartSubtitleExtractor`.
+-  قم بإنشاء مشروع تطبيق وحدة تحكم جديد وأعطه اسمًا مناسبًا، مثل`ChartSubtitleExtractor`.
 
 ## الخطوة 2: إضافة حزمة Aspose.Cells NuGet
 

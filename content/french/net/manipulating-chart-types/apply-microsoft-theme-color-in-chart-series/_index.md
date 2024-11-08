@@ -65,7 +65,7 @@ Avec cette ligne, nous chargeons notre fichier Excel existant dans l'application
 
 ## Étape 3 : Accéder à la feuille de travail
 
-Une fois votre classeur ouvert, vous souhaiterez accéder à une feuille de calcul spécifique. Dans de nombreux cas, votre graphique se trouvera dans la première feuille ou dans une feuille spécifique.
+Une fois votre classeur ouvert, vous souhaiterez accéder à une feuille de calcul spécifique. Dans de nombreux cas, votre graphique résidera dans la première feuille ou dans une feuille spécifique.
 
 ```csharp
 // Obtenez la première feuille de travail

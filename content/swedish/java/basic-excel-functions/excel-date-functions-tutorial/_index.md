@@ -10,7 +10,7 @@ url: /sv/java/basic-excel-functions/excel-date-functions-tutorial/
 
 ## Introduktion till Excel Date Functions Tutorial
 
-I den här omfattande handledningen kommer vi att utforska Excel-datumfunktioner och hur man kan utnyttja kraften i Aspose.Cells för Java för att arbeta med datumrelaterad data. Oavsett om du är en erfaren utvecklare eller precis har börjat med Aspose.Cells, hjälper den här guiden dig att utnyttja potentialen hos datumfunktioner i Excel. Så, låt oss dyka in!
+I den här omfattande handledningen kommer vi att utforska Excel-datumfunktioner och hur man kan utnyttja kraften i Aspose.Cells för Java för att arbeta med datumrelaterad data. Oavsett om du är en erfaren utvecklare eller precis har börjat med Aspose.Cells, hjälper den här guiden dig att utnyttja potentialen med datumfunktioner i Excel. Så, låt oss dyka in!
 
 ## Förstå datumfunktioner i Excel
 
@@ -166,7 +166,7 @@ Aspose.Cells för Java är väl lämpad för både småskalig och storskalig dat
 
 ### Var kan jag hitta mer resurser och dokumentation för Aspose.Cells för Java?
 
- Du kan få tillgång till omfattande dokumentation och resurser för Aspose.Cells för Java på[här](https://reference.aspose.com/cells/java/).
+ Du kan få tillgång till omfattande dokumentation och resurser för Aspose.Cells for Java på[här](https://reference.aspose.com/cells/java/).
 
 ### Hur kommer jag igång med Aspose.Cells för Java?
 

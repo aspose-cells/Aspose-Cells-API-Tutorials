@@ -78,5 +78,5 @@ Kesinlikle! Otomatik sığdırma özelliğini kullandıktan sonra bile, tek tek 
 HTML'yi yükledikten sonra Aspose.Cells'in kapsamlı stil seçeneklerini kullanarak stiller uygulayabilirsiniz.
 ### Aspose.Cells for .NET, .NET Framework'ün eski sürümleriyle uyumlu mudur?
 Evet, Aspose.Cells for .NET, .NET Framework 4.0 ve sonraki sürümlerini destekler.
-### Aspose.Cells kullanarak Excel'e HTML dışında başka içerik türleri yükleyebilir miyim?
+### Aspose.Cells kullanarak Excel'e HTML dışında başka içerik türleri de yükleyebilir miyim?
 Evet, Aspose.Cells CSV, JSON ve XML gibi çeşitli formatların Excel'e yüklenmesini destekler.

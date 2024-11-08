@@ -76,7 +76,7 @@ workbook.save("output.xlsx");
 
 ## Conclusione
 
-In questo tutorial, abbiamo imparato come creare animazioni di grafici usando l'API Aspose.Cells for Java. Abbiamo trattato i passaggi essenziali, tra cui l'importazione della libreria, il caricamento o la creazione di una cartella di lavoro Excel, l'accesso al grafico, la configurazione delle impostazioni di animazione e il salvataggio della cartella di lavoro. Incorporando le animazioni di grafici nei tuoi report e nelle tue presentazioni, puoi dare vita ai tuoi dati e trasmettere il tuo messaggio in modo efficace.
+In questo tutorial, abbiamo imparato come creare animazioni di grafici usando l'API Aspose.Cells per Java. Abbiamo trattato i passaggi essenziali, tra cui l'importazione della libreria, il caricamento o la creazione di una cartella di lavoro Excel, l'accesso al grafico, la configurazione delle impostazioni di animazione e il salvataggio della cartella di lavoro. Incorporando le animazioni di grafici nei tuoi report e nelle tue presentazioni, puoi dare vita ai tuoi dati e trasmettere il tuo messaggio in modo efficace.
 
 ## Domande frequenti
 

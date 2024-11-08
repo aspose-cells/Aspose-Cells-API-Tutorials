@@ -60,7 +60,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 //取消前六行的分組（從 0 到 5）
 worksheet.Cells.UngroupRows(0, 5);
 ```
-此方法刪除已套用於指定行的所有分組。就這麼簡單！
+此方法刪除已套用於指定行的任何分組。就這麼簡單！
 ## 第 6 步：取消列分組
 就像行一樣，您也可以取消列的分組。以下是取消前三列（從第 0 列到第 2 列）分組的方法：
 ```csharp

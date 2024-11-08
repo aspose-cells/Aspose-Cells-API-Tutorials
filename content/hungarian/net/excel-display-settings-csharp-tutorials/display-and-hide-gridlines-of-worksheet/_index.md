@@ -33,7 +33,7 @@ using System.IO;
 using Aspose.Cells;
 ```
 
-Ezek azok az alapvető importálások, amelyekre szükség lesz az Excel-fájlok kezeléséhez és a fájlfolyamok kezeléséhez.
+Ezek azok az alapvető importálások, amelyekre szüksége lesz az Excel-fájlok kezeléséhez és a fájlfolyamok kezeléséhez.
 
 Most bontsuk le ezt a példát lépésről lépésre az egyértelműség és az egyszerűség kedvéért. Minden lépés könnyen követhető lesz, így az elejétől a végéig megérti a folyamatot!
 

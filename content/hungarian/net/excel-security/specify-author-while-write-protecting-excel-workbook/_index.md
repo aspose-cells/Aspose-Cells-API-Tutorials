@@ -45,7 +45,7 @@ string sourceDir = "YOUR SOURCE DIRECTORY";
 string outputDir = "YOUR OUTPUT DIRECTORY";
 ```
 
- Ügyeljen arra, hogy cserélje ki`"YOUR SOURCE DIRECTORY"` és`"YOUR OUTPUT DIRECTORY"` tényleges elérési utakkal a gépén. Gondoljon erre úgy, mint egy rendezett munkaterület létrehozására, mielőtt hozzáfogna a remekmű elkészítéséhez!
+ Mindenképpen cserélje ki`"YOUR SOURCE DIRECTORY"` és`"YOUR OUTPUT DIRECTORY"` tényleges elérési utakkal a gépén. Gondoljon erre úgy, mint egy rendezett munkaterület létrehozására, mielőtt hozzáfogna a remekmű elkészítéséhez!
 
 ## 2. lépés: Hozzon létre egy üres munkafüzetet
 
@@ -78,7 +78,7 @@ Most megadjuk a munkafüzet szerzőjét. Ez különösen hasznos az elszámoltat
 wb.Settings.WriteProtection.Author = "YOUR_AUTHOR";
 ```
 
- Ügyeljen arra, hogy cserélje ki`"YOUR_AUTHOR"` a dokumentumhoz társítani kívánt névvel. Tekintsd ezt úgy, mint az alkotásod aláírását – ez tudatja az emberekkel, hogy kinek köszönhetik ezt a darabot!
+ Mindenképpen cserélje ki`"YOUR_AUTHOR"` a dokumentumhoz társítani kívánt névvel. Tekintsd ezt úgy, mint az alkotásod aláírását – ez tudatja az emberekkel, hogy kinek köszönhetik ezt a darabot!
 
 ## 5. lépés: Mentse el a munkafüzetet
 

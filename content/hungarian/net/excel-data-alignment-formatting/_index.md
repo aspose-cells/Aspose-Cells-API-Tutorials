@@ -28,4 +28,4 @@ Most pedig lépjünk be a lépésről lépésre. Az Aspose.Cells for .NET lehet�
 
 ## Excel adatigazítási és formázási oktatóanyagok
 ### [Módosítsa az Excel cellaigazítását a formázás elvesztése nélkül](./change-cells-alignment-in-excel-without-losing-existing-formatting/)
-Ismerje meg, hogyan módosíthatja az Excel-cellaigazítást a formázás elvesztése nélkül az Aspose.Cells for .NET segítségével. Kövesse átfogó, lépésenkénti útmutatónkat a zökkenőmentes vezérlés érdekében.
+Ismerje meg, hogyan módosíthatja az Excel-cellaigazítást a formázás elvesztése nélkül az Aspose.Cells for .NET segítségével. Kövesse átfogó, lépésről lépésre útmutatónkat a zökkenőmentes vezérlés érdekében.

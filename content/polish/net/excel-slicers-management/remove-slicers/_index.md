@@ -12,7 +12,7 @@ Jeśli kiedykolwiek pracowałeś z plikami Excela, wiesz, jak przydatne mogą by
 ## Wymagania wstępne
 Zanim przejdziemy do właściwego kodowania, jest kilka rzeczy, które musisz skonfigurować:
 1. Visual Studio: Upewnij się, że masz je zainstalowane na swoim komputerze. To właśnie tam uruchomimy nasz kod.
-2. .NET Framework: Upewnij się, że Twój projekt obsługuje platformę .NET Framework.
+2. .NET Framework: Upewnij się, że Twój projekt obsługuje .NET Framework.
 3.  Aspose.Cells dla .NET: Musisz mieć dostępną tę bibliotekę. Jeśli jeszcze jej nie masz, możesz[pobierz tutaj](https://releases.aspose.com/cells/net/).
 4. Przykładowy plik Excela: W naszym przykładzie powinieneś mieć przykładowy plik Excela zawierający slicer. Możesz go utworzyć lub pobrać z różnych zasobów online.
 ### Potrzebujesz więcej pomocy?

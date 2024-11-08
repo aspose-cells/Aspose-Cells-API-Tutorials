@@ -76,7 +76,7 @@ Aspose.Cells for .NET を使用して Excel ワークシートに楕円を追加
 ### [Excel のワークシートにリスト ボックスを追加する](./add-list-box-to-worksheet-excel/)
 Aspose.Cells for .NET を使用して、Excel ワークシートにリスト ボックスを追加する方法を学びます。簡単なステップ バイ ステップ ガイドに従って、Excel シートをインタラクティブにしましょう。
 ### [Excel のワークシートにコンボ ボックスを追加する](./add-combo-box-to-worksheet-excel/)
-Aspose.Cells for .NET を使用して、プログラムによって Excel ワークシートにコンボ ボックスを追加する方法を学びます。このステップ バイ ステップ ガイドでは、詳細を順を追って説明します。
+Aspose.Cells for .NET を使用して、プログラムによって Excel ワークシートにコンボ ボックスを追加する方法を学習します。このステップ バイ ステップ ガイドでは、詳細を順を追って説明します。
 ### [Excel のワークシートにスクロール バーを追加する](./add-scroll-bar-to-worksheet-excel/)
 この包括的なステップバイステップ ガイドでは、Aspose.Cells for .NET を使用して Excel ワークシートにスクロール バーを簡単に追加する方法を学習します。
 ### [Excel のワークシートにスピナー コントロールを追加する](./add-spinner-control-to-worksheet-excel/)

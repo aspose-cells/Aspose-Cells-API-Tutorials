@@ -77,7 +77,7 @@ validation.setFormula2("100");
 
 ### Steg 4: Ställ in anpassade felmeddelanden
 
-Du kan också ställa in anpassade felmeddelanden som ska visas när användare anger ogiltiga data. Detta hjälper till att ge tydlig vägledning till användarna:
+Du kan också ställa in anpassade felmeddelanden som ska visas när användare anger ogiltiga data. Detta hjälper användarna att få tydlig vägledning:
 
 ```java
 validation.setErrorMessage("Please enter a whole number between 1 and 100.");

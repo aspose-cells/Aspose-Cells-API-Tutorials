@@ -42,7 +42,7 @@ string sourceDir = "Your Document Directory";
 // Kimeneti könyvtár
 string outputDir = "Your Document Directory";
 ```
- Ügyeljen arra, hogy cserélje ki`"Your Document Directory"` azzal a könyvtárral, ahol az Excel fájl található.
+ Mindenképpen cserélje ki`"Your Document Directory"` azzal a könyvtárral, ahol az Excel fájl található.
 ## 2. lépés: Töltse be az Excel-munkafüzetet
 Ezután be akarjuk tölteni azt az Excel-munkafüzetet, amely azt a táblázatot tartalmazza, amellyel dolgozni fogunk. Ez döntő fontosságú, mert minden további művelet a fájlban lévő adatokra támaszkodik.
 ```csharp

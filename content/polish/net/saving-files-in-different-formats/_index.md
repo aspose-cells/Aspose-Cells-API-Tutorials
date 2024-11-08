@@ -36,7 +36,7 @@ Aby uzyskać więcej informacji na temat konkretnych formatów, możesz zapozna�
 ## Zapisywanie plików w różnych formatach - samouczki
 ### [Zapisz plik Excel w formacie 97-2003](./save-excel-file-in-97-2003-format/)
 Dowiedz się, jak zapisywać pliki Excel w formacie 97-2003 przy użyciu Aspose.Cells dla .NET. Uzyskaj praktyczne informacje i wskazówki krok po kroku.
-### [Zapisz plik Excela w formacie xlsb 2007](./save-excel-file-in-2007-xlsb-format/)
+### [Zapisz plik Excel w formacie xlsb 2007](./save-excel-file-in-2007-xlsb-format/)
 Dowiedz się, jak zapisywać pliki Excel w formacie xlsb za pomocą Aspose.Cells dla .NET! Czeka na Ciebie przewodnik krok po kroku z praktycznymi przykładami.
 ### [Zapisz plik Excela w formacie xlsx 2007](./save-excel-file-in-2007-xlsx-format/)
 Łatwo zapisuj pliki Excel w formacie XLSX dzięki temu przewodnikowi krok po kroku, korzystając z Aspose.Cells dla .NET. Opanuj manipulację programem Excel.

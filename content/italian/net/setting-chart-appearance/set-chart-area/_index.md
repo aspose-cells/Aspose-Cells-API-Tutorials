@@ -45,7 +45,7 @@ Impostare la tua cartella di lavoro è il primo passo per creare grafici. Pensa 
 Iniziamo istanziando un oggetto Workbook. Questa è la base che contiene tutti i tuoi fogli di lavoro.
 
 ```csharp
-//Directory di uscita
+//Directory di output
 string outputDir = "Your Document Directory";
 Workbook workbook = new Workbook();
 ```

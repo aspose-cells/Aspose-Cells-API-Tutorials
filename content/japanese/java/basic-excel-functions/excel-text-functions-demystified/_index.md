@@ -147,7 +147,7 @@ cell.setFormula("=LEFT(A2, 5)");
 
 ### テキスト文字列内の文字数をカウントするにはどうすればよいでしょうか?
 
-使用`LEN`テキスト文字列内の文字数をカウントする関数。例:
+使用してください`LEN`テキスト文字列内の文字数をカウントする関数。例:
 ```java
 Cell cell = worksheet.getCells().get("A3");
 cell.setFormula("=LEN(A3)");

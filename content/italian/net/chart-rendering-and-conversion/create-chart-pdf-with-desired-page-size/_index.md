@@ -53,7 +53,7 @@ Ora che abbiamo chiarito tutti i prerequisiti, scomponiamo il processo in passag
 Per iniziare, è necessario definire dove verrà salvato il PDF di output e dove si trova il documento Excel di origine.
 
 ```csharp
-//Directory di uscita
+//Directory di output
 string outputDir = "Your Output Directory";
 
 //Elenco di origine
@@ -132,7 +132,7 @@ Aspose.Cells per .NET viene utilizzato per creare, modificare e convertire docum
  Sì, Aspose.Cells offre un[prova gratuita](https://releases.aspose.com/) a fini di valutazione.
 
 ### C'è un modo per estendere il periodo di prova oltre il periodo iniziale?  
- Puoi richiedere un[licenza temporanea](https://purchase.aspose.com/temporary-license/) per test estesi.
+ Puoi fare domanda per un[licenza temporanea](https://purchase.aspose.com/temporary-license/) per test estesi.
 
 ### Cosa succede se riscontro problemi o ho domande?  
  Puoi cercare aiuto dalla comunità Aspose su[forum di supporto](https://forum.aspose.com/c/cells/9).

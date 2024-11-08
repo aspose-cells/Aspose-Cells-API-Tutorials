@@ -11,7 +11,7 @@ url: /zh/net/row-and-column-management/summary-row-below/
 您准备好将 Excel 技能提升到新的水平了吗？如果您曾经在 Excel 中处理过大量数据集，那么您就会知道这有多么困难。幸运的是，Aspose.Cells for .NET 可以帮您解决这一难题！在本教程中，我们将探索如何使用 Aspose.Cells for .NET 在 Excel 工作表中的一组行下方创建摘要行。无论您是经验丰富的开发人员还是刚刚入门，本指南都将引导您轻松完成每个步骤。让我们开始吧！
 ## 先决条件
 在我们开始编码之前，让我们确保您拥有所需的一切：
-1. Visual Studio：您需要一个 IDE 来工作。Visual Studio 是 .NET 开发的热门选择。
+1. Visual Studio：您需要一个 IDE 来使用。Visual Studio 是 .NET 开发的热门选择。
 2.  Aspose.Cells for .NET：您可以下载[这里](https://releases.aspose.com/cells/net/)。确保您拥有驾照或临时驾照，您可以获得[这里](https://purchase.aspose.com/temporary-license/).
 3. C# 基础知识：稍微熟悉一下 C# 将有助于您更好地理解这些示例。如果您不是专家，也不用担心；我们会在讲解过程中为您逐一解释！
 ## 导入包

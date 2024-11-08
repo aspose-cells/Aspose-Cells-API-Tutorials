@@ -92,7 +92,7 @@ style.TextDirection = TextDirectionType.RightToLeft;
 
 Questa riga imposta la direzione del testo da destra a sinistra, il che è essenziale per lingue come l'arabo o l'ebraico. 
 ## Passaggio 8: applicazione dello stile alla cella
-Dopo aver modificato lo stile della direzione del testo, applica nuovamente queste modifiche alla cella:
+Dopo aver modificato lo stile di direzione del testo, applica nuovamente queste modifiche alla cella:
 ```csharp
 cell.SetStyle(style);
 ```

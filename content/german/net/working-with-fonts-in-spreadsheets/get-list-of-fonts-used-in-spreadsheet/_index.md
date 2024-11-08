@@ -53,7 +53,7 @@ for (int i = 0; i < fnts.Length; i++)
 	Console.WriteLine(fnts[i]);
 }
 ```
- Diese Schleife durchläuft jede Schriftart in unserem`fnts` Array und gibt sie nacheinander an die Konsole aus. Es ist, als würden Sie alle coolen Typografieoptionen in Ihrer Excel-Datei zur Schau stellen!
+ Diese Schleife durchläuft jede Schriftart in unserem`fnts` Array und gibt sie nacheinander an die Konsole aus. Es ist, als würden Sie alle coolen Typografieoptionen in Ihrer Excel-Datei angeben!
 ## Abschluss
 Und da haben Sie es! Mit nur wenigen Codezeilen haben Sie die Liste der in Ihrer Excel-Tabelle verwendeten Schriftarten mithilfe von Aspose.Cells für .NET erfolgreich abgerufen und ausgedruckt. Dabei geht es nicht nur um Schriftarten; es geht darum, die Feinheiten Ihrer Dokumente zu verstehen, Ihre Präsentationen zu verbessern und die Kunst der Typografie in Ihren Tabellen zu beherrschen. Egal, ob Sie Entwickler sind oder einfach gerne mit Excel herumbasteln, dieser kleine Codeausschnitt könnte bahnbrechend sein. 
 ## Häufig gestellte Fragen

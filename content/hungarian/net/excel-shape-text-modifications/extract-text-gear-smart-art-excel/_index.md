@@ -44,7 +44,7 @@ Kezdje azzal, hogy meghatározza azt a könyvtárat, amelyben az Excel fájl tal
 // Forrás könyvtár
 string sourceDir = "Your Document Directory";
 ```
- Ügyeljen arra, hogy cserélje ki`"Your Document Directory"` az Excel-fájl tényleges elérési útjával.
+ Mindenképpen cserélje ki`"Your Document Directory"` az Excel-fájl tényleges elérési útjával.
 ## 2. lépés: Töltse be az Excel-munkafüzetet
 Ezután betöltjük az Excel munkafüzetet. Így érhetjük el a tartalmát:
 ```csharp

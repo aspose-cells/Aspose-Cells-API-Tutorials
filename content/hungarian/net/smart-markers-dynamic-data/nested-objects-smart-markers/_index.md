@@ -47,9 +47,9 @@ Egyszerűen irányítsa az utat a sablonhoz. Ennek a sablonnak tartalmaznia kell
 ```csharp
 System.Collections.Generic.ICollection<Individual> list = new System.Collections.Generic.List<Individual>();
 ```
- Ez a sor inicializál egy listát, amely tartalmazza a mieinket`Individual` tárgyakat.
-### Hozzon létre példányokat az egyéni osztályból
- Ezután hozzuk létre a sajátunkat`Individual` esetekben, ügyelve arra, hogy a`Wife` mindegyikkel.
+ Ez a sor inicializál egy listát, amely a mieinket tartalmazza`Individual` tárgyakat.
+### Példányok létrehozása az egyéni osztályból
+ Ezután hozzuk létre a sajátunkat`Individual` esetekben, ügyelve arra, hogy társítsa a`Wife` mindegyikkel.
 ```csharp
 Individual p1 = new Individual("Damian", 30);
 p1.Wife = new Wife("Dalya", 28);
@@ -81,7 +81,7 @@ Végre ideje elmenteni a feldolgozott munkafüzetünket! A következőképpen te
 ```csharp
 designer.Workbook.Save(dataDir + "output.xlsx");
 ```
- Ebben a lépésben egyszerűen elmentjük a frissített munkafüzetet egy megadott elérési útra. Ügyeljen arra, hogy cserélje ki`"output.xlsx"`számodra értelmes névvel!
+ Ebben a lépésben egyszerűen elmentjük a frissített munkafüzetet egy megadott elérési útra. Mindenképpen cserélje ki`"output.xlsx"`számodra értelmes névvel!
 ## Következtetés
 Gratulálunk! Éppen most foglalkozott a beágyazott objektumok kezelésével az Aspose.Cells intelligens jelölőivel. A fent vázolt lépések követésével megtanulta, hogyan állíthat be egy dokumentumot, hogyan készítsen adatokat beágyazott osztályokból, hogyan kapcsolja össze azokat az Excel-lel, és hogyan készítsen végső jelentéseket. Az Excel jelentéskészítés bonyolult feladat lehet, de a megfelelő eszközökkel és technikákkal sokkal könnyebben kezelhetővé válik.
 ## GYIK
@@ -91,7 +91,7 @@ Az Aspose.Cells intelligens jelölői lehetővé teszik az adatok Excel-sablonok
 Igen, az Aspose.Cells kompatibilis a .NET Core programmal, ami szélesebb körű alkalmazásokat tesz lehetővé.
 ### Létezik az Aspose.Cells ingyenes verziója?  
  Megpróbálhatod a[ingyenes próbaverzió itt](https://releases.aspose.com/) vásárlás előtt.
-### Hogyan kaphatok technikai támogatást?  
+### Hogyan kaphatok műszaki támogatást?  
  Nyugodtan hozzáférhet a[Aspose támogatási fórum](https://forum.aspose.com/c/cells/9) bármilyen kérdésre.
 ### Kezelhetem az összetett beágyazott adatstruktúrákat?  
 Teljesen! Az Aspose.Cells komplex beágyazott objektumok hatékony kezelésére készült.

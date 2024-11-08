@@ -82,7 +82,7 @@ Aspose.Cells.Drawing.Texts.ShapeTextAlignment shapeTextAlignment = sh.TextBody.T
 //Ne faites pas pivoter le texte avec la forme en définissant RotateTextWithShape sur false.
 shapeTextAlignment.RotateTextWithShape = false;
 ```
- En définissant`RotateTextWithShape` pour que ce soit faux, nous veillons à ce que le texte reste droit et ne tourne pas avec la forme, gardant ainsi tout propre et organisé.
+ En définissant`RotateTextWithShape` pour que le texte reste droit et ne tourne pas avec la forme, gardant ainsi tout propre et organisé.
 ## Étape 7 : Enregistrer le fichier Excel de sortie
 Enfin, enregistrons nos modifications dans un nouveau fichier Excel. Cela nous permet de ne pas perdre nos modifications et d'obtenir un résultat net.
 ```csharp

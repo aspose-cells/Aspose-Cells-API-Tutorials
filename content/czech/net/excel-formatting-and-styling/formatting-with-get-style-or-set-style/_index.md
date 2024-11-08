@@ -34,7 +34,7 @@ bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
-V tomto kroku zkontrolujeme, zda zadaný adresář existuje. Pokud ne, vytvoříme ho. Vaše soubory tak budou uspořádané a dostupné.
+V tomto kroku zkontrolujeme, zda zadaný adresář existuje. Pokud ne, vytvoříme ho. Vaše soubory tak zůstanou uspořádané a dostupné.
 ## Krok 2: Vytvořte instanci objektu sešitu
 Vytvořte sešit aplikace Excel
 Dále musíme vytvořit nový sešit, kde provedeme veškeré naše formátování.
@@ -51,7 +51,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 Zde přistupujeme k prvnímu listu (index 0) našeho nově vytvořeného sešitu.
 ## Krok 4: Přístup k buňce
 Vyberte konkrétní buňku
-Nyní určíme buňku, kterou chceme formátovat. V tomto případě budeme pracovat s buňkou A1.
+Nyní určeme buňku, kterou chceme formátovat. V tomto případě budeme pracovat s buňkou A1.
 ```csharp
 Cell cell = worksheet.Cells["A1"];
 ```
@@ -116,7 +116,7 @@ workbook.Save(dataDir + "book1.out.xls");
 ```
 Tento řádek efektivně ukládá vše do určeného adresáře, formátování a tak dále!
 ## Závěr
-A voila! Nyní jste úspěšně naformátovali buňku Excelu pomocí Aspose.Cells for .NET. Na první pohled se to může zdát hodně, ale jakmile se s jednotlivými kroky seznámíte, je to bezproblémový proces, který může zlepšit vaši manipulaci s tabulkami. Přizpůsobením stylů zvýšíte jasnost a estetiku prezentace dat. Co tedy budete formátovat dál?
+A voila! Nyní jste úspěšně naformátovali buňku Excelu pomocí Aspose.Cells for .NET. Na první pohled se to může zdát hodně, ale jakmile se s jednotlivými kroky seznámíte, je to bezproblémový proces, který může zlepšit vaši manipulaci s tabulkami. Přizpůsobením stylů zvýšíte jasnost a estetiku prezentace dat. Takže, co budete formátovat dál?
 ## FAQ
 ### Co je Aspose.Cells?
 Aspose.Cells je robustní knihovna, která umožňuje vytvářet, manipulovat a importovat soubory Excel pomocí aplikací .NET.

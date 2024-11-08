@@ -9,7 +9,7 @@ url: /pl/net/excel-display-settings-csharp-tutorials/remove-panes-of-worksheet/
 ---
 ## Wstęp
 
-Czy kiedykolwiek miałeś problemy z arkuszami kalkulacyjnymi, które mają te irytujące zamrożone okienka? Jeśli tak, nie jesteś sam! Wielu z nas to przeżyło, próbując dowiedzieć się, jak skutecznie poruszać się po plikach Excela. Niezależnie od tego, czy czyścisz arkusz kalkulacyjny do prezentacji, udostępniasz dane, czy po prostu chcesz uzyskać bardziej uproszczony widok, usunięcie okienek może mieć ogromne znaczenie. W tym artykule przyjrzymy się, jak rozwiązać ten problem, używając Aspose.Cells dla .NET. Ale zanim zagłębimy się w kod, przygotujmy się na kilka warunków wstępnych.
+Czy kiedykolwiek miałeś problemy z arkuszami kalkulacyjnymi, które mają te irytujące zamrożone okienka? Jeśli tak, nie jesteś sam! Wielu z nas to przeżyło, próbując dowiedzieć się, jak skutecznie poruszać się po plikach Excel. Niezależnie od tego, czy czyścisz arkusz kalkulacyjny do prezentacji, udostępniasz dane, czy po prostu chcesz uzyskać bardziej uproszczony widok, usunięcie okienek może mieć ogromne znaczenie. W tym artykule przyjrzymy się, jak rozwiązać ten problem, używając Aspose.Cells dla .NET. Ale zanim zagłębimy się w kod, przygotujmy się na kilka warunków wstępnych.
 
 ## Wymagania wstępne
 

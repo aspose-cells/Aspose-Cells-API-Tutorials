@@ -8,7 +8,7 @@ weight: 11
 url: /zh-hant/net/formatting-rows-and-columns-in-excel/applying-formatting-to-an-excel-row/
 ---
 ## 介紹
-在本教學中，我們將演練如何使用 Aspose.Cells for .NET 以程式設計方式將格式套用至 Excel 行。我們將涵蓋從設定環境到應用各種格式選項（例如字體顏色、對齊方式和邊框）的所有內容，同時保持簡單且引人入勝。讓我們深入了解吧！
+在本教學中，我們將演練如何使用 Aspose.Cells for .NET 以程式設計方式將格式套用至 Excel 行。我們將涵蓋從設定環境到應用各種格式選項（例如字體顏色、對齊方式和邊框）的所有內容，同時保持簡單且引人入勝。讓我們深入了解一下吧！
 ## 先決條件
 在開始之前，讓我們確保您已掌握本教學所需的一切。這是您需要的：
 1.  Aspose.Cells for .NET 函式庫 – 您可以從[Aspose.Cells for .NET 下載頁面](https://releases.aspose.com/cells/net/).

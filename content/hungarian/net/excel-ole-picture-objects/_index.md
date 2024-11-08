@@ -17,17 +17,17 @@ Merüljön el az Aspose.Cells for .NET világában az Excel OLE-re és képobjek
 
 ## OLE objektumok beszúrása Excelbe
 
- Ha már elsajátította a kicsomagolást, miért nem tanulja meg, hogyan illeszthet vissza OLE-objektumokat az Excel-fájlokba? Fényképekkel, videókkal és egyéb adattípusokkal javíthatja dokumentumait, amelyek látványossá teszik prezentációit. Útmutatónk tovább[OLE objektumok beszúrása Excelbe](./insert-ole-object-into-excel/) végigvezeti Önt az egész folyamaton. Világos lépésekkel és példákkal olyan, mintha egy személyes oktató vezetne az út minden lépéséhez.
+ Ha már elsajátította a kicsomagolást, miért nem tanulja meg, hogyan illeszthet vissza OLE-objektumokat az Excel-fájlokba? Fényképekkel, videókkal és egyéb adattípusokkal javíthatja dokumentumait, amelyek látványossá teszik prezentációit. Útmutatónk tovább[OLE objektumok beszúrása Excelbe](./insert-ole-object-into-excel/) végigvezeti az egész folyamaton. Világos lépésekkel és példákkal olyan, mintha egy személyes oktató vezetne az út minden lépéséhez.
 
 ## Képek hozzáadása és elhelyezése Excelben
 
  A látványelemek hozzáadása az Excel-lapokhoz nem csak az esztétikáról szól; ez segít abban, hogy adatait még jobban összehasonlíthatóvá tegye. A miénkben[Kép hozzáadása az Excel munkalaphoz](./add-picture-to-excel/)bemutató, megmutatjuk, hogyan építhet be zökkenőmentesen képeket a táblázataiba. De várj, ezeknek a képeknek a pozicionálása ugyanolyan fontos! Abszolút vagy arányosan szeretné elhelyezni őket? Mindkét forgatókönyvhöz külön oktatóanyagaink vannak. Nézze meg[Képek pozicionálása (abszolút) Excelben](./position-picture-absolute-excel/) és[Képek pozicionálása (arányos) Excelben](./position-picture-proportional-excel/) minden részletért.
 
- És ne feledkezzünk meg a képek hivatkozásáról sem! Oktatóanyagunk a[Hivatkozás a képcellára Excelben](./reference-picture-cell-excel/) megtanítja Önnek, hogyan kapcsoljon össze bizonyos képeket a cellákhoz, és ezzel egy extra szervezési stílust ad a táblázatokhoz. 
+ És ne feledkezzünk meg a képek hivatkozásáról sem! Oktatóanyagunk a[Hivatkozás a képcellára az Excelben](./reference-picture-cell-excel/) megtanítja Önnek, hogyan kapcsoljon össze bizonyos képeket a cellákhoz, és ezzel egy extra szervezési stílust ad a táblázatokhoz. 
 
 ## Excel OLE és Picture Objects oktatóanyagok
 ### [Az OLE objektum kibontása az Excelből](./extract-ole-object-from-excel/)
-Ismerje meg, hogyan bonthat ki OLE-objektumokat Excel-fájlokból az Aspose.Cells for .NET segítségével. Lépésről lépésre útmutató a könnyű kihúzáshoz.
+Ismerje meg, hogyan bonthat ki OLE-objektumokat Excel-fájlokból az Aspose.Cells for .NET segítségével. Útmutató lépésről lépésre az egyszerű kihúzáshoz.
 ### [Helyezze be az OLE objektumot az Excelbe](./insert-ole-object-into-excel/)
 Ebből a részletes útmutatóból megtudhatja, hogyan illeszthet be OLE-objektumokat Excel-fájlokba az Aspose.Cells for .NET használatával.
 ### [Kép hozzáadása az Excel munkalaphoz](./add-picture-to-excel/)

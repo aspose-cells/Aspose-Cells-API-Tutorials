@@ -88,7 +88,7 @@ Und das war’s! Sie haben erfolgreich Zeilen und Spalten in einem Excel-Blatt m
  Ja, das kannst du! Verwende Schleifen oder wiederhole die`HideRow()` Und`HideColumn()` Methoden für jede Zeile und Spalte, die Sie ausblenden möchten.
 ### Gibt es eine Möglichkeit, Zeilen und Spalten einzublenden?  
  Auf jeden Fall! Sie können die`UnhideRow()` Und`UnhideColumn()` Methoden, um alle ausgeblendeten Zeilen oder Spalten wieder sichtbar zu machen.
-### Werden die Daten gelöscht, wenn ich Zeilen oder Spalten ausblende?  
+### Werden die Daten gelöscht, wenn Zeilen oder Spalten ausgeblendet werden?  
 Nein, durch das Ausblenden von Zeilen oder Spalten werden diese nur unsichtbar. Die Daten bleiben erhalten und können jederzeit wieder eingeblendet werden.
 ### Kann ich diese Methode auf mehrere Arbeitsblätter in einer Arbeitsmappe anwenden?  
  Ja, durch die Schleife durch die`Worksheets`Sammlung in der Arbeitsmappe können Sie Aktionen zum Ausblenden und Einblenden auf mehrere Blätter anwenden.

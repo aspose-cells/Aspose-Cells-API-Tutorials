@@ -8,7 +8,7 @@ weight: 11
 url: /ja/net/working-with-fonts-in-spreadsheets/set-default-font-for-pdf-save-options/
 ---
 ## 導入
-レポート、請求書、その他のドキュメントを PDF 形式で生成する場合、コンテンツが適切に表示されることが最も重要です。フォントは、ドキュメントの見た目と読みやすさを維持する上で重要な役割を果たします。しかし、Excel ファイルで使用したフォントが PDF を生成するシステムで利用できない場合はどうなるでしょうか。ここで Aspose.Cells for .NET が役立ちます。この強力なライブラリを使用すると、PDF 保存オプションの既定のフォントを設定できるため、ドキュメントをどこで開いても、プロフェッショナルで一貫した外観を実現できます。
+レポート、請求書、その他のドキュメントを PDF 形式で生成する場合、コンテンツが適切に表示されることが最も重要です。フォントは、ドキュメントの見た目と読みやすさを維持する上で重要な役割を果たします。ただし、Excel ファイルで使用したフォントが PDF を生成するシステムで使用できない場合はどうなるでしょうか。ここで Aspose.Cells for .NET が役立ちます。この強力なライブラリを使用すると、PDF 保存オプションの既定のフォントを設定できるため、ドキュメントをどこで開いても、プロフェッショナルで一貫した外観を実現できます。
 ## 前提条件
 始める前に、以下のものを用意してください。
 1. Visual Studio: コードを記述して実行するには、Visual Studio などの開発環境が必要です。
@@ -71,7 +71,7 @@ WorkbookRender wr = new WorkbookRender(workbook, imgOpt);
 wr.ToImage(outputDir + "out1_imageTIFF.tiff");
 ```
 ## ステップ6: PDF保存オプションを設定する
-次にPDF保存オプションを設定しましょう。`PdfSaveOptions`デフォルトのフォントを設定し、不足しているフォントをチェックすることを指定します。
+次に、PDF保存オプションを設定しましょう。`PdfSaveOptions`デフォルトのフォントを設定し、不足しているフォントをチェックすることを指定します。
 ```csharp
 // PDF保存オプションを設定する
 PdfSaveOptions saveOptions = new PdfSaveOptions();

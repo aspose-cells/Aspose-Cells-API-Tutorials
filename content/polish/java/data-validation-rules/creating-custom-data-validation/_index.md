@@ -33,7 +33,7 @@ Workbook workbook = new Workbook();
 
 ## Krok 3: Dodawanie arkusza kalkulacyjnego
 
-Teraz dodajmy do skoroszytu arkusz kalkulacyjny, w którym zastosujemy naszą niestandardową walidację danych.
+Teraz dodajmy do skoroszytu arkusz kalkulacyjny, w którym zastosujemy niestandardową walidację danych.
 
 ```java
 // Kod Java do dodania arkusza kalkulacyjnego

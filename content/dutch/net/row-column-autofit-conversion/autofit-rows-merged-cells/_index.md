@@ -79,7 +79,7 @@ Deze regel legt de huidige stijlinstellingen voor onze cel vast, zodat we deze v
 ## Stap 7: Tekstterugloop instellen
 Vervolgens schakelen we tekstomloop in voor de samengevoegde cel:
 ```csharp
-// Zet tekstomloop aan
+// Zet de tekstomloop aan
 style.IsTextWrapped = true;
 ```
 Het inschakelen van tekstomloop is te vergelijken met het aanpassen van de marges in een Word-document. Het zorgt ervoor dat de tekst netjes past, zonder dat de tekst in de aangrenzende cellen terechtkomt.

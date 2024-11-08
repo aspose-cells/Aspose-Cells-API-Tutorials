@@ -46,7 +46,7 @@ Ten fragment kodu sprawdza, czy katalog istnieje. Jeśli nie, tworzy nowy katalo
 // Tworzenie instancji obiektu skoroszytu
 Workbook workbook = new Workbook();
 ```
- Pomyśl o`Workbook` obiekt jako puste płótno, na które będziesz dodawać dane i formatować.
+ Pomyśl o`Workbook` obiekt jako puste płótno, na którym będziesz dodawać dane i formatować je.
 ## Krok 4: Dodaj nowy arkusz kalkulacyjny
 Teraz dodajmy nowy arkusz do skoroszytu. Każdy skoroszyt może zawierać wiele arkuszy i możesz dodać ich tyle, ile potrzebujesz.
 ```csharp

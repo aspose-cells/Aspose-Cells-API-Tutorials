@@ -73,7 +73,7 @@ Ezt követően érdemes meghatározni, hogy a címke hogyan viselkedjen a cellá
 ```csharp
 label.Placement = PlacementType.FreeFloating;
 ```
- Az elhelyezés típusának beállításával`FreeFloating`, biztosítja, hogy a címke pozíciója független legyen a cella átméretezésétől vagy mozgásától. Ott marad, ahol elhelyezted.
+ Az elhelyezés típusának beállításával`FreeFloating`, biztosítja, hogy a címke pozíciója független legyen a cella átméretezésétől vagy mozgásától. Ott marad, ahol elhelyezi.
 ## 7. lépés: Mentse el a munkafüzetet
 
 Végül mentsük el a munkafüzetet a hozzáadott címkével.

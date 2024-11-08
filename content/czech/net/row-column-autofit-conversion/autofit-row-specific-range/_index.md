@@ -44,7 +44,7 @@ string InputPath = dataDir + "Book1.xlsx"; // Cesta pro vstupní soubor Excel
 FileStream fstream = new FileStream(InputPath, FileMode.Open); // Vytvořit datový proud souborů
 ```
 Tento krok je podobný otevření knihy – musíte mít přístup k obsahu, než jej budete moci změnit!
-## Krok 4: Otevřete soubor aplikace Excel
+## Krok 4: Otevřete soubor Excel
 Když je stream souborů připraven, dalším krokem je načtení sešitu do paměti. To nám umožňuje přistupovat k jeho obsahu a manipulovat s ním.
 ```csharp
 Workbook workbook = new Workbook(fstream); // Načtěte sešit

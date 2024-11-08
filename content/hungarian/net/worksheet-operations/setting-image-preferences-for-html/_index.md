@@ -16,7 +16,7 @@ Mielőtt belevágnánk a kódba, győződjön meg arról, hogy rendelkezik a kö
 
 1. A Visual Studio telepítve: A .NET-alkalmazások futtatásához és teszteléséhez olyan fejlesztői környezetre lesz szüksége, mint a Visual Studio.
 2.  Aspose.Cells for .NET: Töltse le és telepítse az Aspose.Cells programot. A legújabb verziót letöltheti a[Aspose honlapja](https://releases.aspose.com/cells/net/).
-3. A C# alapismeretei: A C# programozás ismerete segít a példák jobb megértésében.
+3. C# alapismeretei: A C# programozás ismerete segít a példák jobb megértésében.
 4. Egy példa Excel-fájl: Készítsen egy „Book1.xlsx” nevű Excel-fájlt a munkavégzéshez. Helyezze egy kijelölt mappába, amelyre hivatkozni fog a kódban.
 
 ## Csomagok importálása
@@ -54,7 +54,7 @@ Először is be kell állítania a dokumentumok tárolási útvonalát. Ez kulcs
 string dataDir = "Your Document Directory";
 ```
 
- Ügyeljen arra, hogy cserélje ki`"Your Document Directory"` a tényleges elérési úttal a gépen.
+ Mindenképpen cserélje ki`"Your Document Directory"` a tényleges elérési úttal a gépen.
 
 ## 2. lépés: Határozza meg a fájl elérési útját
 
@@ -108,7 +108,7 @@ saveOptions.ImageOptions.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.
 
 ## 7. lépés: A szövegmegjelenítés optimalizálása
 
-szövegmegjelenítés is optimalizálható a jobb vizuális élmény érdekében. A simább szövegmegjelenítés érdekében állítsa a szövegmegjelenítési tippet AntiAlias értékre.
+A szövegmegjelenítés is optimalizálható a jobb vizuális élmény érdekében. A simább szövegmegjelenítés érdekében állítsa a szövegmegjelenítési tippet AntiAlias értékre.
 
 ```csharp
 saveOptions.ImageOptions.TextRenderingHint = System.Drawing.Text.TextRenderingHint.AntiAlias;

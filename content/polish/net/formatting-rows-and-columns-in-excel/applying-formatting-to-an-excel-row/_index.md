@@ -114,4 +114,4 @@ Oczywiście! Aspose.Cells obsługuje formatowanie warunkowe, co pozwala na defin
 ### Czy Aspose.Cells obsługuje stosowanie stylów do całych kolumn?  
  Tak, podobnie jak w przypadku wierszy, do kolumn można uzyskać dostęp za pomocą`Columns` kolekcję i stosować do nich style.
 ### Czy mogę używać Aspose.Cells z aplikacjami .NET Core?  
-Tak, Aspose.Cells jest w pełni kompatybilny z platformą .NET Core, co pozwala na korzystanie z niego na różnych platformach.
+Tak, Aspose.Cells jest w pełni kompatybilny z .NET Core, co pozwala na korzystanie z niego na różnych platformach.

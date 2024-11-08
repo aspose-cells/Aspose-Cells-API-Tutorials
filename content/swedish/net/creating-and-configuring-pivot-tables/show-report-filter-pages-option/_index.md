@@ -2,7 +2,7 @@
 title: Visa alternativ för rapportfiltersidor i .NET
 linktitle: Visa alternativ för rapportfiltersidor i .NET
 second_title: Aspose.Cells .NET Excel Processing API
-description: Lär dig hur du effektivt använder Aspose.Cells för .NET för att visa rapportfiltersidor i pivottabeller. Steg-för-steg-guide med kompletta kodexempel.
+description: Lär dig hur du effektivt använder Aspose.Cells för .NET för att visa rapportfiltersidor i pivottabeller. Steg-för-steg guide med kompletta kodexempel.
 type: docs
 weight: 22
 url: /sv/net/creating-and-configuring-pivot-tables/show-report-filter-pages-option/
@@ -51,7 +51,7 @@ Denna kodrad är avgörande, eftersom den initierar arbetsboken med din angivna 
 ## Steg 3: Gå till pivottabellen
 Nu är det dags att gräva i kalkylbladet och komma åt pivottabellen. Anta att vi vill arbeta med den första pivottabellen i det andra kalkylbladet; så här kan du göra det:
 ```csharp
-// Hämta den första pivottabellen i kalkylbladet
+// Få den första pivottabellen i kalkylbladet
 PivotTable pt = wb.Worksheets[1].PivotTables[0];
 ```
 Den här raden är som att dra en gömd skatt från din Excel-fil – du tar med pivottabellen till ditt C#-sammanhang, där du kan manipulera den.

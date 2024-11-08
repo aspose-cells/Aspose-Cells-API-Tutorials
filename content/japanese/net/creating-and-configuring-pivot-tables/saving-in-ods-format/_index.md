@@ -15,7 +15,7 @@ url: /ja/net/creating-and-configuring-pivot-tables/saving-in-ods-format/
 ### 1. .NETの基礎知識
 .NET とそのプログラミング概念について基本的な知識があれば、簡単に理解できるようになります。
 ### 2. .NET 用 Aspose.Cells
- Aspose.Cells for .NETがインストールされている必要があります。[Aspose リリース ページ](https://releases.aspose.com/cells/net/)試用版もございます[ここ](https://releases.aspose.com/).
+ Aspose.Cells for .NETがインストールされている必要があります。ダウンロードは以下から行えます。[Aspose リリース ページ](https://releases.aspose.com/cells/net/)試用版もございます[ここ](https://releases.aspose.com/).
 ### 3. 開発環境
 .NET コードを記述してテストできる Visual Studio などの IDE があることを確認してください。
 ### 4. 少しの忍耐

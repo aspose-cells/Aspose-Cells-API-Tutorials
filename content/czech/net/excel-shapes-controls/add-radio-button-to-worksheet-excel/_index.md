@@ -81,7 +81,7 @@ radio1.Line.DashStyle = MsoLineDashStyle.Solid;
 ```
 Tyto řádky kódu upravují tloušťku a styl čárky okraje přepínače, aby byl vizuálně přitažlivější.
 ## Krok 4: Přidání dalších přepínacích tlačítek
-Přidejme další dva přepínače pro zbývající věkové skupiny: „30-39“ a „40-49“. Kroky jsou stejné, jen s malými odchylkami v souřadnicích a štítcích.
+Přidejme další dva přepínače pro zbývající věkové skupiny: „30-39“ a „40-49“. Kroky jsou stejné, jen s drobnými odchylkami v souřadnicích a štítcích.
 ### Přidejte druhý přepínač
 ```csharp
 // Přidejte další přepínač na první list.

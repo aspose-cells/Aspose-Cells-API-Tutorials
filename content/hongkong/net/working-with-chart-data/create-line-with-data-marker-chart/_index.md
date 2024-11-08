@@ -15,12 +15,12 @@ url: /zh-hant/net/working-with-chart-data/create-line-with-data-marker-chart/
 
 在我們開始之前，請確保您已準備好一切以便順利進行。
 
-1.  Aspose.Cells for .NET Library – 您需要安裝它。你可以抓住它[這裡](https://releases.aspose.com/cells/net/).
+1. Aspose.Cells for .NET Library – 您需要安裝它。你可以抓住它[這裡](https://releases.aspose.com/cells/net/).
 2. .NET Framework – 確保您的開發環境設定為最新版本的 .NET。
 3. IDE（整合開發環境）- 推薦使用 Visual Studio。
-4. 有效的 Aspose.Cells 許可證 – 如果您沒有許可證，您可以申請一個[臨時執照](https://purchase.aspose.com/temporary-license/)或查看他們的[免費試用](https://releases.aspose.com/).
+4. 有效的 Aspose.Cells 許可證 – 如果您沒有許可證，您可以申請一份[臨時執照](https://purchase.aspose.com/temporary-license/)或查看他們的[免費試用](https://releases.aspose.com/).
 
-準備出發了嗎？讓我們來分解一下吧！
+準備好了嗎？讓我們來分解一下吧！
 
 ## 導入必要的套件
 
@@ -178,7 +178,7 @@ workbook.Save(outputDir + @"LineWithDataMarkerChart.xlsx", Aspose.Cells.SaveForm
 
 ## 結論
 
-在 Excel 中以程式設計方式建立圖表可能看起來令人畏懼，但使用 Aspose.Cells for .NET，這就像遵循逐步配方一樣簡單。從設定工作簿到自訂圖表外觀，這個強大的庫可以處理這一切。無論您是建立報表、儀表板還是資料視覺化，Aspose.Cells 都可以讓您輕鬆完成。
+在 Excel 中以程式設計方式建立圖表可能看起來令人畏懼，但使用 Aspose.Cells for .NET，這就像遵循逐步食譜一樣簡單。從設定工作簿到自訂圖表外觀，這個強大的庫可以處理這一切。無論您是建立報表、儀表板還是資料視覺化，Aspose.Cells 都可以讓您輕鬆完成。
 
 ## 常見問題解答
 

@@ -109,7 +109,7 @@ Dit is waar je je kunstwerk een titel geeft. Het helpt kijkers te begrijpen waar
 
 ## Stap 7: Stel het plaatsingstype in
 
-Laten we nu bepalen hoe het label wordt gepositioneerd ten opzichte van de grafiek. Hier stellen we het in op vrij zwevend, wat betekent dat het onafhankelijk van de grafiekelementen kan worden verplaatst.
+Laten we nu bepalen hoe het label wordt gepositioneerd ten opzichte van de grafiek. Hier stellen we het in op free-floating, wat betekent dat het onafhankelijk van de grafiekelementen kan worden verplaatst.
 
 ```csharp
 // Stel het plaatsingstype in, de manier waarop het label aan de cellen wordt bevestigd.

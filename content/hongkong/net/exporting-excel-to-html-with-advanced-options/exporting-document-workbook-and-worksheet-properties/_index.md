@@ -118,7 +118,7 @@ Console.WriteLine("ExportDocumentWorkbookAndWorksheetPropertiesInHTML executed s
 
 ## 結論
 
-就像這樣，您已經使用 Aspose.Cells for .NET 成功將工作簿和工作表屬性匯出到 HTML！從設定環境到匯出 Excel 數據，您遵循了一個簡單的流程。使用 Aspose.Cells 等函式庫的優點在於它簡化了複雜的任務，讓開發人員的工作更輕鬆。現在，您可以使用 HTML 更廣泛地共享電子表格，就像讓全世界都可以查看您的工作簿，而無需向他們提供整本書。
+就像這樣，您已經使用 Aspose.Cells for .NET 成功將工作簿和工作表屬性匯出到 HTML！從設定環境到匯出 Excel 數據，您遵循了一個簡單的流程。使用 Aspose.Cells 等函式庫的優點在於它簡化了複雜的任務，讓開發人員的工作更輕鬆。現在，您可以使用 HTML 更廣泛地共享您的電子表格，就像讓全世界都可以查看您的工作簿，而無需向他們提供整本書。
 
 ## 常見問題解答
 

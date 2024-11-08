@@ -110,7 +110,7 @@ Díky tomu efektivně zobrazujeme souřadnice každého bodu, který definuje n�
 ## Závěr
 A tady to máte! Pomocí Aspose.Cells for .NET jste úspěšně získali a prozkoumali podrobnosti o neprimitivních tvarech v Excelu. Tato výkonná knihovna otevírá svět možností pro manipulaci se soubory aplikace Excel, ať už generujete sestavy, vytváříte dynamické tabulky nebo zpracováváte složité tvary. Pokud máte nějaké dotazy nebo potřebujete další pomoc, neváhejte se na nás obrátit!
 ## FAQ
-### Co jsou neprimitivní tvary v Excelu?
+### Co jsou to neprimitivní tvary v Excelu?
 Neprimitivní tvary jsou složité tvary vytvořené z více segmentů a křivek spíše než jednoduché geometrické tvary.
 ### Jak nainstaluji Aspose.Cells pro .NET?
  Můžete si jej nainstalovat přes NuGet Package Manager ve Visual Studiu nebo si jej stáhnout z jejich[místo](https://releases.aspose.com/cells/net/).

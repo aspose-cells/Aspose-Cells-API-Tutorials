@@ -1,5 +1,5 @@
 ---
-title: Nieuw blad toevoegen in Excel C# Tutorial
+title: Nieuw blad toevoegen in Excel C#-zelfstudie
 linktitle: Nieuw blad toevoegen in Excel
 second_title: Aspose.Cells voor .NET API-referentie
 description: Leer hoe u een nieuw werkblad toevoegt in Excel met C# met Aspose.Cells. Deze tutorial splitst het proces op in eenvoudige, uitvoerbare stappen.

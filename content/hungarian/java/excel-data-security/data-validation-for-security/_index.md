@@ -109,7 +109,7 @@ worksheet.protect(ProtectionType.ALL);
 workbook.protect(ProtectionType.ALL);
 ```
 
-## Automatizálás és adatérvényesítés
+## Automatizálás és adatellenőrzés
 
 Az adatellenőrzési folyamatok automatizálása időt takaríthat meg és csökkentheti a hibákat. Fontolja meg az Aspose.Cells for Java integrálását automatizált munkafolyamataiba.
 

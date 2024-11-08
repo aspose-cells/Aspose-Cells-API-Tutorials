@@ -8,7 +8,7 @@ weight: 15
 url: /nl/net/converting-excel-files-to-other-formats/converting-json-to-csv/
 ---
 ## Invoering
-In de digitale wereld van vandaag is het verwerken van gegevens in meerdere formaten gemeengoed geworden, en JSON (JavaScript Object Notation) is een van de meest gebruikte formaten voor gegevensuitwisseling. Maar wat gebeurt er als u die JSON moet transformeren naar een formaat dat toegankelijker is voor analyse, zoals CSV (Comma Separated Values)? Deze tutorial leidt u door het proces van het programmatisch converteren van JSON naar CSV met behulp van Aspose.Cells voor .NET, een eenvoudig te gebruiken maar krachtige API voor spreadsheetmanipulatie. 
+In de digitale wereld van vandaag is het verwerken van gegevens in meerdere formaten gemeengoed geworden, en JSON (JavaScript Object Notation) is een van de meest gebruikte formaten voor gegevensuitwisseling. Maar wat gebeurt er als u die JSON moet omzetten in een formaat dat toegankelijker is voor analyse, zoals CSV (Comma Separated Values)? Deze tutorial leidt u door het proces van het programmatisch omzetten van JSON naar CSV met behulp van Aspose.Cells voor .NET, een eenvoudig te gebruiken maar krachtige API voor spreadsheetmanipulatie. 
 ## Vereisten
 Voordat we in de code duiken, is het essentieel om ervoor te zorgen dat je alle benodigde componenten hebt en een basiskennis van de tools die we gaan gebruiken. Laten we schetsen wat je nodig hebt:
 -  Aspose.Cells voor .NET: Dit is de primaire bibliotheek die we zullen gebruiken voor het converteren van JSON naar CSV. U kunt[download het hier](https://releases.aspose.com/cells/net/).
@@ -65,7 +65,7 @@ importOptions.IgnoreObjectTitle = true;
 
 - ConvertNumericOrDate: Converteer automatisch numerieke of datumtekenreekswaarden.
 - ArrayAsTable: Behandel arrays in JSON als tabellen in de werkmap.
-- IgnoreArrayTitle en IgnoreObjectTitle: Met deze opties worden titels voor arrays en objecten genegeerd. Zo wordt ervoor gezorgd dat alleen de onbewerkte gegevens worden geïmporteerd.
+- IgnoreArrayTitle en IgnoreObjectTitle: Deze opties negeren titels voor arrays en objecten, zodat alleen de onbewerkte gegevens worden geïmporteerd.
 ## Stap 5: Importeer de JSON-gegevens
  Zodra de lay-outopties zijn ingesteld, is het tijd om de JSON-gegevens in te voeren.`JsonUtility.ImportData()` De methode voert hier het zware werk uit door de JSON-gegevens in de cellen van de werkmap in te voegen.
 ```csharp
@@ -92,7 +92,7 @@ Console.WriteLine("ConvertJsonToCsv executed successfully.");
 ```
 Een eenvoudig succesbericht bevestigt dat het proces soepel is verlopen.
 ## Conclusie
-JSON naar CSV converteren met Aspose.Cells voor .NET is een eenvoudig maar krachtig proces. Met slechts een paar regels code kunt u complexe JSON-gegevens omzetten in een toegankelijker CSV-formaat. Of u nu werkt met arrays, objecten of numerieke gegevens, Aspose.Cells maakt het eenvoudig om het conversieproces te configureren naar uw behoeften.
+JSON converteren naar CSV met Aspose.Cells voor .NET is een eenvoudig maar krachtig proces. Met slechts een paar regels code kunt u complexe JSON-gegevens omzetten in een toegankelijker CSV-formaat. Of u nu werkt met arrays, objecten of numerieke gegevens, Aspose.Cells maakt het eenvoudig om het conversieproces te configureren naar uw behoeften.
 ## Veelgestelde vragen
 ### Kan Aspose.Cells grote JSON-bestanden verwerken?
 Ja, Aspose.Cells is ontworpen om grote datasets efficiënt te verwerken, waardoor het geschikt is voor het verwerken van grote JSON-bestanden zonder prestatieproblemen.

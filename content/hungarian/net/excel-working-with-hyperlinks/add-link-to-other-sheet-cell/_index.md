@@ -37,7 +37,7 @@ Ezután meg kell adnia, hová szeretné menteni a kimeneti Excel-fájlt. A kódb
 // Az Excel-fájl kimeneti könyvtára
 string outputDir = "Your Document Directory"; // Cserélje ki a saját könyvtárával
 ```
- Ügyeljen arra, hogy cserélje ki`"Your Document Directory"` azzal az elérési úttal, ahol a kimeneti fájlt el szeretné helyezni.
+ Mindenképpen cserélje ki`"Your Document Directory"` azzal az elérési úttal, ahol a kimeneti fájlt el szeretné helyezni.
 ## 3. lépés: Példányosítsa a munkafüzet objektumot
 Most már készen áll az Excel-munkafüzet létrehozására! Itt lesz az összes lap és adat.
 ```csharp
@@ -81,7 +81,7 @@ Miután mindent beállított, ideje elmenteni az újonnan létrehozott munkafüz
 // Az Excel fájl mentése a hiperhivatkozással
 workbook.Save(outputDir + "outputAddingLinkToOtherSheetCell.xlsx");
 ```
- Ügyeljen arra, hogy a megfelelő elérési utat adja meg`outputDir` hogy az Excel-fájl megfelelően menjen.
+ Ügyeljen arra, hogy a megfelelő elérési utat adja meg`outputDir` hogy az Excel fájl megfelelően mentse.
 ## 9. lépés: Erősítse meg a műveletet
 Végül tudatjuk a felhasználóval, hogy a művelet sikeresen befejeződött.
 ```csharp

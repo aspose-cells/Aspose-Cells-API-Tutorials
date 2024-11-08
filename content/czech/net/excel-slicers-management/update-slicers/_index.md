@@ -16,7 +16,7 @@ Měli byste dobře rozumět C#. Díky tomu bude mnohem snazší sledovat ukázko
 ### Visual Studio nainstalováno
 Ujistěte se, že máte na svém počítači nainstalované Visual Studio. Budete jej potřebovat k vývoji a spouštění aplikací .NET. 
 ### Knihovna Aspose.Cells
- Musíte mít nainstalovanou knihovnu Aspose.Cells. Stáhnout si ho můžete z webu:[Stáhněte si Aspose.Cells pro .NET](https://releases.aspose.com/cells/net/) . Pokud si to chcete před nákupem vyzkoušet, můžete se také podívat na[Bezplatná zkušební verze](https://releases.aspose.com/).
+ Musíte mít nainstalovanou knihovnu Aspose.Cells. Můžete si jej stáhnout z webu:[Stáhněte si Aspose.Cells pro .NET](https://releases.aspose.com/cells/net/) . Pokud si to chcete před nákupem vyzkoušet, můžete se také podívat na[Bezplatná zkušební verze](https://releases.aspose.com/).
 ### Základní znalost Excelu
 Základní znalost Excelu a slicerů bude přínosem. Pokud máte zkušenosti s kráječi Excelu, jste na správné cestě!
 ## Importujte balíčky
@@ -42,7 +42,7 @@ string outputDir = "Your Document Directory";
 ## Krok 2: Načtěte sešit aplikace Excel
  Dále budete chtít načíst sešit aplikace Excel, který obsahuje průřez, který chcete aktualizovat. To se provádí prostřednictvím`Workbook` třída.
 ```csharp
-// Načtěte ukázkový soubor aplikace Excel obsahující průřez.
+// Načtěte ukázkový soubor Excel obsahující průřez.
 Workbook wb = new Workbook(sourceDir + "sampleUpdatingSlicer.xlsx");
 ```
 Tento fragment načte zadaný soubor aplikace Excel do objektu sešitu. Ujistěte se, že váš soubor existuje v určeném adresáři!

@@ -15,7 +15,7 @@ Czy kiedykolwiek zastanawiałeś się, jak programowo tworzyć oszałamiające w
 
 Zanim zaczniemy, upewnij się, że wszystko jest gotowe, by wszystko przebiegło bezproblemowo.
 
-1.  Aspose.Cells for .NET Library – Musisz to zainstalować. Możesz to pobrać[Tutaj](https://releases.aspose.com/cells/net/).
+1. Aspose.Cells for .NET Library – Musisz to zainstalować. Możesz to pobrać[Tutaj](https://releases.aspose.com/cells/net/).
 2. .NET Framework – Upewnij się, że Twoje środowisko programistyczne jest skonfigurowane przy użyciu najnowszej wersji .NET.
 3. IDE (zintegrowane środowisko programistyczne) – zalecany jest program Visual Studio.
 4.  Ważna licencja Aspose.Cells – jeśli jej nie posiadasz, możesz poprosić o[licencja tymczasowa](https://purchase.aspose.com/temporary-license/) lub sprawdź ich[bezpłatny okres próbny](https://releases.aspose.com/).
@@ -109,7 +109,7 @@ chart.AutoScaling = true;
 // Ustaw kolor pierwszego planu na biały
 chart.PlotArea.Area.ForegroundColor = Color.White;
 
-// Ustaw właściwości tytułu wykresu
+//Ustaw właściwości tytułu wykresu
 chart.Title.Text = "Sample Chart";
 
 // Ustaw typ wykresu

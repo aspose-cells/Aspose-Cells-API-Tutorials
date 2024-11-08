@@ -76,7 +76,7 @@ Most gondoskodnia kell arról, hogy a munkafüzet beállításai úgy legyenek b
 workbook.Settings.QuotePrefixToStyle = false;
 ```
 
- Beállítás által`QuotePrefixToStyle` A false értékre utasítjuk az Aspose.Cells-t, hogy a vezető aposztrófokat szabályos karakterként kezelje, lehetővé téve számunkra, hogy pontosan kezeljük őket a kimenetünkben.
+ Beállítás által`QuotePrefixToStyle` a false értékre utasítjuk az Aspose.Cells-t, hogy a vezető aposztrófokat szabályos karakterként kezelje, lehetővé téve számunkra, hogy pontosan kezeljük őket a kimenetünkben.
 
 ## 5. lépés: Töltse be az adatokat az intelligens jelölőkhöz
 

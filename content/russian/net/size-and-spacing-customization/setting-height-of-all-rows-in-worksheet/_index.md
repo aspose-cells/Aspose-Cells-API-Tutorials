@@ -1,6 +1,6 @@
 ---
-title: Установка высоты строки на листе с помощью Aspose.Cells для .NET
-linktitle: Установка высоты строки на листе с помощью Aspose.Cells для .NET
+title: Установка высоты строки на рабочем листе с помощью Aspose.Cells для .NET
+linktitle: Установка высоты строки на рабочем листе с помощью Aspose.Cells для .NET
 second_title: API обработки Excel Aspose.Cells .NET
 description: Легко устанавливайте высоту строк в листах Excel с помощью Aspose.Cells для .NET. Следуйте нашему подробному руководству для пошаговых инструкций.
 type: docs

@@ -137,7 +137,7 @@ chart.NSeries.IsColorVaried = true;
 
 ## Steg 7: Lägg till dataetiketter
 
-Att lägga till etiketter direkt i diagramsegmenten kan göra det lättare att förstå. Låt oss inkludera regionnamnen och försäljningsvärdena i cirkeldiagrammet.
+Att lägga till etiketter direkt i diagramsegmenten kan göra det lättare att förstå. Låt oss inkludera regionnamnen och försäljningsvärdena i cirkeldiagramsegmenten.
 
 ```csharp
 for (int i = 0; i < chart.NSeries.Count; i++)

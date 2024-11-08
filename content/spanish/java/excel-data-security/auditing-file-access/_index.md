@@ -120,7 +120,7 @@ Para recuperar el registro de auditoría, simplemente puede leer el contenido de
 
  Sí, puede personalizar el formato y el destino del registro modificando la`FileAccessLogger` clase. Puede cambiar la ruta del archivo de registro, el formato de entrada del registro o incluso utilizar una biblioteca de registro diferente como Log4j.
 
-### ¿Hay alguna manera de filtrar las entradas de registro por usuario o archivo?
+### ¿Hay alguna forma de filtrar las entradas de registro por usuario o archivo?
 
  Puede implementar la lógica de filtrado en el`FileAccessLogger` clase. Agregue condiciones a las entradas de registro según criterios de usuario o archivo antes de escribir en el archivo de registro.
 

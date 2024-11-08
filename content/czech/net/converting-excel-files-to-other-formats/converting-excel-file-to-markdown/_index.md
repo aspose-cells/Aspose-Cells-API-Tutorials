@@ -52,7 +52,7 @@ string outputDir = "Your Document Directory";
 ```
  Nahradit`"Your Document Directory"` se skutečnou cestou k souboru Excel a kam chcete soubor Markdown uložit.
 Nastavení cest k souborům zajistí, že váš program přesně ví, kde má najít soubor Excel a kam uložit soubor Markdown.
-## Krok 4: Otevřete soubor aplikace Excel
+## Krok 4: Otevřete soubor Excel
 Dále použijte Aspose.Cells k otevření sešitu aplikace Excel, který chcete převést. Tento krok načte soubor Excel do paměti a připraví jej pro manipulaci.
 ```csharp
 // Otevřete soubor šablony

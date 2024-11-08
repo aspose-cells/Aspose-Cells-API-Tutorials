@@ -9,7 +9,7 @@ url: /nl/net/excel-workbook/working-with-content-type-properties/
 ---
 ## Invoering
 
-Als u zich verdiept in de wereld van Excel-bestandsmanipulatie met Aspose.Cells voor .NET, wilt u misschien de eigenschappen van het inhoudstype verkennen. Met deze eigenschappen kunt u aangepaste metagegevens voor uw werkmappen definiëren, wat zeer nuttig kan zijn bij het werken met verschillende bestandstypen en -formaten. Of u nu applicaties bouwt die gedetailleerd gegevensbeheer vereisen of gewoon extra informatie aan uw Excel-bestanden wilt toevoegen, het begrijpen van eigenschappen van het inhoudstype is een essentiële vaardigheid.
+Als u zich verdiept in de wereld van Excel-bestandsmanipulatie met Aspose.Cells voor .NET, wilt u misschien de eigenschappen van inhoudstypen verkennen. Met deze eigenschappen kunt u aangepaste metagegevens voor uw werkmappen definiëren, wat zeer nuttig kan zijn bij het werken met verschillende bestandstypen en -indelingen. Of u nu applicaties bouwt die gedetailleerd gegevensbeheer vereisen of gewoon extra informatie aan uw Excel-bestanden wilt toevoegen, het begrijpen van eigenschappen van inhoudstypen is een essentiële vaardigheid.
 
 ## Vereisten
 

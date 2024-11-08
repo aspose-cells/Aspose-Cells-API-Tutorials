@@ -63,7 +63,7 @@ Nakonec nezapomeňte zavřít proud souborů, abyste uvolnili všechny zdroje. T
 ```csharp
 fstream.Close();
 ```
-právě tak máte hotovo! Nyní jste úspěšně upravili výšky řádků v listu aplikace Excel.
+máte hotovo! Nyní jste úspěšně upravili výšky řádků v listu aplikace Excel.
 ## Závěr
 V tomto tutoriálu jsme provedli cestu přes kroky potřebné k nastavení výšek řádků v excelovém listu pomocí Aspose.Cells for .NET. Je to jako mít v rukou kouzelnou sadu nástrojů – takovou, která vám dává možnost bez námahy upravovat soubory aplikace Excel. Od definování cesty k dokumentu po uložení změn je každý krok navržen tak, aby vám pomohl spravovat data aplikace Excel bez typických potíží. Využijte sílu automatizace a usnadněte si život o něco jednodušším, jeden soubor Excel po druhém!
 ## FAQ

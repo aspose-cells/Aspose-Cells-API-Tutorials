@@ -16,7 +16,7 @@ url: /zh/net/working-with-chart-data/get-chart-subtitle-for-ods-file/
 在深入学习本教程之前，您需要确保已设置好有效使用 Aspose.Cells for .NET 所需的一切。以下是需要遵循的清单：
 
 1. .NET Framework：确保您的机器上安装了 .NET Framework。 
-2. Aspose.Cells 库：下载并安装 Aspose.Cells 库。你可以从[这里](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells 库：下载并安装 Aspose.Cells 库。你可以从[这里](https://releases.aspose.com/cells/net/).
 3. IDE：虽然任何代码编辑器都可以，但使用像 Visual Studio 这样的 IDE 为 .NET 开发提供了一个强大的平台。
 4. 示例 ODS 文件：您需要一个包含图表的 ODS 文件。在本教程中，我们将使用`SampleChart.ods`.
 5. C# 基础知识：熟悉 C# 将帮助您快速掌握概念并根据需要进行修改。

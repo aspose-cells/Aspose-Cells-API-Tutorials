@@ -9,7 +9,7 @@ url: /sv/net/excel-workbook/regex-replace/
 ---
 ## Introduktion
 
-Är du trött på att lägga timmar på att göra noggranna ändringar i dina Excel-kalkylblad manuellt? Nåväl, du har tur! Idag ska vi dyka ner i ett otroligt effektivt sätt att hantera cellinnehållsersättningar i Excel med Aspose.Cells för .NET. Specifikt kommer vi att utforska de kraftfulla funktionerna hos regex (reguljära uttryck) för att ersätta text i dina kalkylblad. I slutet av den här handledningen har du ett grepp om hur du använder det här verktyget för att spara tid och minska antalet mänskliga misstag.
+Är du trött på att lägga timmar på att göra noggranna ändringar i dina Excel-kalkylblad manuellt? Tja, du har tur! Idag ska vi dyka ner i ett otroligt effektivt sätt att hantera cellinnehållsersättningar i Excel med Aspose.Cells för .NET. Specifikt kommer vi att utforska de kraftfulla funktionerna hos regex (reguljära uttryck) för att ersätta text i dina kalkylblad. I slutet av den här handledningen har du ett grepp om hur du använder det här verktyget för att spara tid och minska antalet mänskliga misstag.
 
 ## Förutsättningar
 
@@ -89,7 +89,7 @@ Nu händer magin. Det är dags att ersätta "KIM" med "^^^TIM^^^".
 workbook.Replace("\\bKIM\\b", "^^^TIM^^^", replace);
 ```
 
-I denna rad:
+På denna rad:
 - `\\b` indikerar en ordgräns i regex, och se till att vi bara ersätter "KIM" när det visas som ett helt ord och inte en del av ett annat ord.
 - Vi ersätter den med "^^^TIM^^^" (märk på de tre fälten). Detta visar hur enkla regex-baserade ersättningar kan vara!
 

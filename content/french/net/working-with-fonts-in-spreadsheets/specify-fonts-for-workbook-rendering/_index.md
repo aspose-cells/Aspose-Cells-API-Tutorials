@@ -41,7 +41,7 @@ string outputDir = "Your Document Directory";
 string customFontsDir = sourceDir + "CustomFonts";
 ```
 
- Imaginez que vous disposez d'un classeur rempli de documents importants (dans ce cas, des fichiers Excel). Configurer vos répertoires revient à organiser ce classeur ; cela vous permet de savoir exactement où sont stockés vos fichiers. En définissant les`sourceDir`, `outputDir` , et`customFontsDir`, vous préparez un espace de travail qui rendra votre code plus propre et plus gérable.
+ Imaginez que vous disposez d'un classeur rempli de documents importants (dans ce cas, des fichiers Excel). La configuration de vos répertoires est comme l'organisation de ce classeur ; elle vous permet de savoir exactement où sont stockés vos fichiers. En définissant les`sourceDir`, `outputDir` , et`customFontsDir`, vous préparez un espace de travail qui rendra votre code plus propre et plus gérable.
 ## Étape 2 : Spécifier les configurations de polices individuelles
 Ensuite, nous devons créer des configurations de polices individuelles. Cette étape est cruciale pour indiquer à Aspose.Cells où trouver vos polices personnalisées.
 ```csharp
@@ -85,7 +85,7 @@ Et voilà ! Spécifier les polices pour le rendu du classeur avec Aspose.Cells p
 Aspose.Cells pour .NET est une bibliothèque puissante permettant aux développeurs de travailler avec des formats de fichiers Excel, notamment en créant, modifiant et convertissant des documents Excel par programmation.
 ### Ai-je besoin d'une licence pour utiliser Aspose.Cells ?  
  Oui, vous aurez besoin d'une licence pour une utilisation commerciale. Cependant, vous pouvez commencer avec un essai gratuit disponible[ici](https://releases.aspose.com/).
-### Puis-je utiliser n'importe quelle police avec Aspose.Cells ?  
+### Puis-je utiliser n’importe quelle police avec Aspose.Cells ?  
 En général, oui ! Vous pouvez utiliser n'importe quelle police installée sur votre système ou incluse dans votre dossier de polices personnalisées.
 ### Que se passe-t-il si je ne spécifie pas le dossier de polices ?  
 Si vous ne spécifiez pas le dossier de polices ou si le dossier est incorrect, le PDF de sortie risque de ne pas restituer correctement les polices souhaitées.

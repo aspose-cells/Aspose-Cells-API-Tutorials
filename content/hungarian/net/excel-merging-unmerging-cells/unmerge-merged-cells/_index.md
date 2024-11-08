@@ -56,7 +56,7 @@ string sourceDir = "Your Document Directory";
 string outputDir = "Your Document Directory"; 
 ```
 
- Ügyeljen arra, hogy cserélje ki`"Your Document Directory"` a fájlok tényleges elérési útjával.
+ Mindenképpen cserélje ki`"Your Document Directory"` a fájlok tényleges elérési útjával.
 
 ## 2. lépés: Hozzon létre egy munkafüzetet
 

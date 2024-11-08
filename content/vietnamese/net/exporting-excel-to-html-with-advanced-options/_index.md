@@ -72,7 +72,7 @@ Khám phá cách sử dụng Aspose.Cells cho .NET để thêm tiền tố cho k
 ### [In Tiêu đề theo chương trình trong Excel](./printing-headings/)
 Dễ dàng in tiêu đề trong Excel với hướng dẫn từng bước sử dụng Aspose.Cells cho .NET. Xuất dữ liệu của bạn sang HTML một cách gọn gàng và gây ấn tượng với khán giả của bạn.
 ### [Nhận dạng thẻ tự đóng theo chương trình trong Excel](./recognizing-self-closing-tags/)
-Mở khóa tiềm năng của các thẻ tự đóng trong Excel với hướng dẫn từng bước của chúng tôi có Aspose.Cells cho .NET.
+Mở khóa tiềm năng của thẻ tự đóng trong Excel với hướng dẫn từng bước của chúng tôi có Aspose.Cells cho .NET.
 ### [Thiết lập chiều rộng cột có thể mở rộng theo chương trình trong Excel](./setting-scalable-column-width/)
 Tìm hiểu cách sử dụng Aspose.Cells cho .NET để thiết lập độ rộng cột có thể mở rộng trong các tệp Excel theo chương trình. Hoàn hảo cho việc trình bày dữ liệu hiệu quả.
 ### [Thiết lập tên tab trang tính đơn trong xuất HTML](./setting-single-sheet-tab-name/)

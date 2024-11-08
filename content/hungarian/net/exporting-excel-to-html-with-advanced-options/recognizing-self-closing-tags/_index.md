@@ -55,7 +55,7 @@ Miután adatainkat szépen kiraktuk a munkafüzetbe, ideje elmenteni azokat.
 // Mentse el a munkafüzetet
 wb.Save(outputDir + "outsampleSelfClosingTags.xlsx");
 ```
-Ez a parancs arra utasítja az Aspose-t, hogy mentse a munkafüzetünket an`.xlsx` fájlt a megadott kimeneti könyvtárba. Válassz egy nevet, amely tükrözi a tartalmat, például`outsampleSelfClosingTags.xlsx`.
+Ez a parancs arra utasítja az Aspose-t, hogy mentse a munkafüzetünket an`.xlsx` fájlt a megadott kimeneti könyvtárba. Válasszon egy nevet, amely tükrözi a tartalmat, például`outsampleSelfClosingTags.xlsx`.
 ## 5. lépés: Végrehajtás megerősítése
 Végül adjunk hozzá egy egyszerű konzolkimenetet megerősítésként. Mindig jó tudni, hogy minden a tervek szerint ment!
 ```csharp

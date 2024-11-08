@@ -31,7 +31,7 @@ Az esztétika témakörében egy másik létfontosságú funkció a sor- és osz
 
 Az Excel-lapok egyik leghasznosabb funkciója az ablaktáblák lefagyasztásának képessége. Gondoljon csak bele: előfordult már, hogy elvesztette a fejléc sor nyomát, miközben lefelé görgetett egy hatalmas táblázatot? Hihetetlenül frusztráló! Az ablaktáblák lefagyasztásáról szóló oktatóanyagunk végigvezeti Önt a folyamaton, így a nagy adatkészletekben való navigálás során a kritikus információkat szem előtt tarthatja. Képzelje el, hogy éppen befejezett egy hosszú elemzést, és minden alkalommal felfelé kell görgetnie, hogy emlékeztesse magát a fejlécekre. Nincs több![Olvass tovább](./freeze-panes-of-worksheet/).
 
- De mi van akkor, ha a táblázat meghatározott részei között navigál? Ez az a hely, ahol az üvegtáblák felhasítása valóban ragyoghat. Lehetővé teszi a munkalap különböző területeinek egyidejű megtekintését, megkönnyítve az adatok összehasonlítását vagy a munkalap különböző részein végzett változások nyomon követését. Ez az oktatóanyag leegyszerűsíti az ablaktáblák felosztását néhány egyszerű lépésre, amelyeket pillanatok alatt elsajátíthat.[Olvass tovább](./split-panes-of-worksheet/).
+ De mi van akkor, ha a táblázat meghatározott részei között navigál? Ez az a hely, ahol a hasadó ablaktáblák igazán ragyoghatnak. Lehetővé teszi a munkalap különböző területeinek egyidejű megtekintését, megkönnyítve az adatok összehasonlítását vagy a munkalap különböző részein végzett változások nyomon követését. Ez az oktatóanyag leegyszerűsíti az ablaktáblák felosztását néhány egyszerű lépésre, amelyeket pillanatok alatt elsajátíthat.[Olvass tovább](./split-panes-of-worksheet/).
 
 ## Lapnavigáció kezelése
 

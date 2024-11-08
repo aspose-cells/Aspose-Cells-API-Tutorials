@@ -68,7 +68,7 @@ for (String filePath : excelFiles) {
 String data = fileWorkbook.getWorksheets().get(0).getCells().get("A1").getStringValue();
 
 //執行計算或資料操作
-//……
+//…
 ```
 
 ### 5. 轉換和導出

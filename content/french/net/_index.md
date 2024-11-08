@@ -170,3 +170,25 @@ Maîtrisez l'ajustement automatique des lignes et des colonnes dans Excel avec A
 Découvrez des didacticiels complets sur la gestion des segments Excel avec Aspose.Cells pour .NET. Apprenez à créer, mettre à jour, formater et exporter des segments sans effort.
 ### [Marqueurs intelligents dans Aspose.Cells pour les données dynamiques](./smart-markers-dynamic-data/)
 Découvrez les didacticiels sur les marqueurs intelligents Aspose.Cells pour .NET pour créer des rapports Excel dynamiques. Apprenez à ajouter des étiquettes, à renseigner automatiquement des données, à utiliser des formules, etc.
+### [Tableaux et listes](./tables-and-lists/)
+Découvrez des didacticiels complets Aspose.Cells pour .NET pour gérer efficacement les données Excel, créer des tableaux et améliorer vos compétences avec des guides faciles à suivre.
+### [Opérations du classeur Aspose.Cells](./workbook-operations/)
+Découvrez les didacticiels du classeur Aspose.Cells pour .NET couvrant l'accès aux données, la personnalisation XML, les signatures, les extensions Web et bien plus encore. Améliorez facilement vos compétences en automatisation Excel.
+### [Paramètres du classeur](./workbook-settings/)
+Explorez les didacticiels complets Aspose.Cells pour .NET, couvrant les paramètres du classeur, les ressources externes et bien plus encore.
+### [Cahier d'exercices Projet VBA](./workbook-vba-project/)
+Exploitez toute la puissance d'Excel avec Aspose.Cells pour .NET. Découvrez des didacticiels complets sur la protection des projets VBA, la copie des formulaires utilisateur et la sécurisation de votre classeur.
+### [Affichage de la feuille de travail](./worksheet-display/)
+Découvrez une liste complète de tutoriels Aspose.Cells pour .NET. Améliorez vos compétences Excel avec des guides étape par étape sur les principales fonctionnalités des feuilles de calcul.
+### [Gestion des feuilles de travail](./worksheet-management/)
+Libérez la puissance d'Aspose.Cells pour .NET avec nos didacticiels complets, vous guidant dans la gestion des feuilles de calcul avec des instructions étape par étape.
+### [Fonctionnalités de mise en page de la feuille de calcul](./worksheet-page-setup-features/)
+Découvrez les didacticiels de configuration de page de feuille de calcul d'Aspose.Cells pour .NET, notamment la copie des paramètres de page, la gestion du format de papier et la définition de la qualité d'impression pour les feuilles de calcul Excel.
+### [Feuille de travail sur la sécurité](./worksheet-security/)
+Découvrez les secrets de la sécurité d'Excel. Explorez nos didacticiels complets Aspose.Cells pour .NET pour protéger, modifier et gérer vos feuilles de calcul sans effort.
+### [Feuille de travail sur les opérations de valeur](./worksheet-value-operations/)
+Découvrez des tutoriels essentiels sur Aspose.Cells pour .NET, couvrant les opérations de valeur de feuille de calcul pour améliorer vos projets Excel.
+### [Opérations sur la feuille de travail](./worksheet-operations/)
+Découvrez les didacticiels du classeur Aspose.Cells pour .NET couvrant l'accès aux données, la personnalisation XML, les signatures, les extensions Web et bien plus encore. Améliorez facilement vos compétences en automatisation Excel.
+### [Opérations de mappage XML](./xml-map-operations/)
+Découvrez des didacticiels complets Aspose.Cells pour .NET couvrant les opérations de mappage XML pour améliorer sans effort vos compétences Excel.

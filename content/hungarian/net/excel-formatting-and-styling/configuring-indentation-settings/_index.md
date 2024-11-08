@@ -41,7 +41,7 @@ if (!IsExists)
 ```
 Ez a kódrészlet biztosítja, hogy ne ütközzön hibába, amikor később megpróbálja menteni a fájlt.
 ## 4. lépés: Példányosítson egy munkafüzet-objektumot
-Következő lépésként hozzuk létre a tényleges Excel-munkafüzetet. Itt fognak élni az adatai.
+Következő lépésként hozzuk létre a tényleges Excel-munkafüzetet. Itt fognak élni az adatok.
 ```csharp
 Workbook workbook = new Workbook();
 ```

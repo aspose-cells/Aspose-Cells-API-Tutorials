@@ -84,7 +84,7 @@ Nach der Eingabe der Formel ist es an der Zeit, die Berechnungen auszuführen. D
 // Berechnen der Ergebnisse von Formeln
 workbook.CalculateFormula();
 ```
-Dieser Schritt ist wichtig, denn bisher haben Sie Excel lediglich gesagt, was es tun soll. Jetzt ist es an der Zeit, es umzusetzen!
+Dieser Schritt ist wichtig, denn bisher haben Sie Excel lediglich gesagt, was es tun soll. Jetzt ist es an der Zeit, es in die Tat umzusetzen!
 ## Schritt 8: Abrufen des berechneten Wertes
 Sobald die Berechnungen abgeschlossen sind, möchten Sie wahrscheinlich das Ergebnis sehen. Nehmen wir den in A6 berechneten Wert.
 ```csharp

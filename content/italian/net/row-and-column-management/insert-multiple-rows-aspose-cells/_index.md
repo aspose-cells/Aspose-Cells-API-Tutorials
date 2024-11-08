@@ -8,7 +8,7 @@ weight: 25
 url: /it/net/row-and-column-management/insert-multiple-rows-aspose-cells/
 ---
 ## Introduzione
-Quando si lavora con file Excel in .NET, Aspose.Cells è una libreria incredibile che offre la possibilità di manipolare fogli di calcolo senza problemi. Un'operazione comune che potresti dover eseguire è l'inserimento di più righe in un foglio di lavoro esistente. In questa guida, ti guideremo passo dopo passo per farlo, assicurandoti di comprendere ogni parte del processo.
+Quando si lavora con file Excel in .NET, Aspose.Cells è una libreria incredibile che offre la possibilità di manipolare fogli di calcolo senza problemi. Un'operazione comune che potresti dover eseguire è l'inserimento di più righe in un foglio di lavoro esistente. In questa guida, ti spiegheremo passo dopo passo come farlo, assicurandoti di comprendere ogni parte del processo.
 ## Prerequisiti
 Prima di immergerci nel codice, assicuriamoci di avere tutto il necessario per iniziare:
 1. Ambiente .NET: dovresti aver configurato un ambiente di sviluppo .NET, come Visual Studio.

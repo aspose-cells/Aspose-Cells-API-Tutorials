@@ -60,7 +60,7 @@ string sourceDir = "Your Document Directory";
 
 ## चरण 2: कार्यपुस्तिका लोड करें
 
- इसके बाद, एक्सेल फ़ाइल को एक में लोड करें`Workbook`ऑब्जेक्ट. यह आपको फ़ाइल की सभी सामग्री तक पहुंचने की अनुमति देता है.
+ इसके बाद, एक्सेल फ़ाइल को एक में लोड करें`Workbook` ऑब्जेक्ट. यह आपको फ़ाइल की सभी सामग्री तक पहुंचने की अनुमति देता है.
 
 ```csharp
 Workbook wb = new Workbook(sourceDir + "sampleFindTypeOfXandYValuesOfPointsInChartSeries.xlsx");

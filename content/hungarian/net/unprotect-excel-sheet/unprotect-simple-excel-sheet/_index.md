@@ -58,7 +58,7 @@ Az első dolog, amit meg kell tennie, adja meg annak a könyvtárnak az elérés
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // Módosítsa ezt a tényleges útvonalra
 ```
 
- Ügyeljen arra, hogy cserélje ki`"YOUR DOCUMENT DIRECTORY"` az Excel-fájlhoz vezető tényleges elérési úttal.
+ Mindenképpen cserélje ki`"YOUR DOCUMENT DIRECTORY"` az Excel-fájlhoz vezető tényleges elérési úttal.
 
 ## 2. lépés: A munkafüzet objektum példányosítása
 

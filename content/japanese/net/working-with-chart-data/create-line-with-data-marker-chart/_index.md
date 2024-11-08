@@ -15,7 +15,7 @@ Excel でプログラムを使用して魅力的なグラフを作成する方�
 
 始める前に、スムーズに進めるための準備がすべて整っていることを確認してください。
 
-1.  Aspose.Cells for .NET ライブラリ – これをインストールする必要があります。[ここ](https://releases.aspose.com/cells/net/).
+1. Aspose.Cells for .NET ライブラリ – これをインストールする必要があります。[ここ](https://releases.aspose.com/cells/net/).
 2. .NET Framework – 開発環境が最新バージョンの .NET で設定されていることを確認します。
 3. IDE (統合開発環境) - Visual Studio が推奨されます。
 4. 有効なAspose.Cellsライセンス – ライセンスをお持ちでない場合は、[一時ライセンス](https://purchase.aspose.com/temporary-license/)または、[無料トライアル](https://releases.aspose.com/).

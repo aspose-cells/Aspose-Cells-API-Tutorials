@@ -76,7 +76,7 @@ När du har gjort dina ändringar är det viktigt att spara arbetsboken för att
 // Sparar den ändrade Excel-filen
 workbook.Save(dataDir + "InsertingARowWithFormatting.out.xls");
 ```
- Här sparar vi den modifierade arbetsboken under ett nytt namn,`InsertingARowWithFormatting.out.xls`, för att undvika att skriva över originalfilen. På så sätt kan du alltid återvända om det behövs!
+ Här sparar vi den modifierade arbetsboken under ett nytt namn,`InsertingARowWithFormatting.out.xls`, för att undvika att skriva över originalfilen. På så sätt kan du alltid gå tillbaka om det behövs!
 ## Steg 8: Stäng filströmmen
 Slutligen, låt oss städa genom att stänga filströmmen. Detta är en bra praxis för att frigöra resurser.
 ```csharp

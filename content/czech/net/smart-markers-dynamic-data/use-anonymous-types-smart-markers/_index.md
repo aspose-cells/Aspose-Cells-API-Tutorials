@@ -52,7 +52,7 @@ public class Person
 ```
  Zde definujeme třídu s názvem`Person` se dvěma vlastnostmi,`Name` a`Age`. Konstruktor tyto vlastnosti inicializuje. 
 ## Krok 2: Nastavte Návrhář sešitu
- Dále vytvoříme instanci souboru`WorkbookDesigner`třídy, kterou použijeme k návrhu našeho souboru Excel s chytrými značkami.
+ Dále vytvoříme instanci`WorkbookDesigner`třídy, kterou použijeme k návrhu našeho souboru Excel s chytrými značkami.
 ```csharp
 // Cesta k adresáři dokumentů.
 string dataDir = "Your Document Directory";

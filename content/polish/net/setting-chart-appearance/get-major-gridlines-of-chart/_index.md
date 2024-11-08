@@ -76,7 +76,7 @@ worksheet.Cells["B2"].PutValue(32);
 worksheet.Cells["B3"].PutValue(50);
 ```
 
- Tutaj wprowadzamy losowe wartości do komórek`A1` Do`B3`. Te dane będą służyć jako źródło danych dla naszego wykresu. Istotne jest posiadanie znaczących danych do wizualizacji; w przeciwnym razie wykres byłby tylko ładnymi liniami bez kontekstu!
+ Tutaj wprowadzamy losowe wartości do komórek`A1` Do`B3`. Te dane będą stanowić źródło danych dla naszego wykresu. Istotne jest posiadanie znaczących danych do wizualizacji; w przeciwnym razie wykres byłby tylko ładnymi liniami bez kontekstu!
 
 ## Krok 5: Dodaj wykres do arkusza kalkulacyjnego
 

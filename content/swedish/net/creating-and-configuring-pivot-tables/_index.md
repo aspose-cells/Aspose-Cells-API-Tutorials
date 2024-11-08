@@ -66,7 +66,7 @@ Lär dig att använda Aspose.Cells för .NET för att formatera pivottabeller ut
 ### [Ställa in sidfältsformat Programmatiskt i .NET](./setting-page-field-format/)
 Lär dig hur du ställer in sidfältsformat i pivottabeller programmatiskt med Aspose.Cells för .NET. Följ vår steg-för-steg handledning för sömlös datahantering.
 ### [Visa alternativ för rapportfiltersidor i .NET](./show-report-filter-pages-option/)
-Lär dig hur du effektivt använder Aspose.Cells för .NET för att visa rapportfiltersidor i pivottabeller. Steg-för-steg-guide med kompletta kodexempel.
+Lär dig hur du effektivt använder Aspose.Cells för .NET för att visa rapportfiltersidor i pivottabeller. Steg-för-steg guide med kompletta kodexempel.
 ### [Ange programmets kompatibilitet för Excel-fil i .NET](./specifying-compatibility/)
 Lär dig att manipulera Excel-pivottabeller med Aspose.Cells för .NET, inklusive datauppdateringar, kompatibilitetsinställningar och cellformatering.
 ### [Ange extern anslutningsdatakälla i .NET](./specifying-external-connection-data-source/)

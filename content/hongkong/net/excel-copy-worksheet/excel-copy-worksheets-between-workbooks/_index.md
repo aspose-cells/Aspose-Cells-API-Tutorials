@@ -68,7 +68,7 @@ Workbook excelWorkbook0 = new Workbook(InputPath);
 Workbook excelWorkbook1 = new Workbook();
 ```
 
-此行會建立一個名為的空白工作簿`excelWorkbook1`。這是將複製的工作表從第一個工作簿移出後的位置。
+此行會建立一個名為的空白工作簿`excelWorkbook1`。這是從第一個工作簿中移動複製的工作表後所存放的位置。
 
 ## 第 4 步：複製工作表
 

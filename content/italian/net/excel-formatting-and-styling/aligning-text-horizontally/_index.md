@@ -84,7 +84,7 @@ Aspose.Cells è una potente libreria .NET che consente agli sviluppatori di crea
  Sì, Aspose offre un[prova gratuita](https://releases.aspose.com/) per testare le funzionalità della libreria.
 ### È possibile personalizzare la formattazione delle celle oltre all'allineamento del testo?
 Assolutamente! Aspose.Cells offre ampie opzioni per la formattazione delle celle, inclusi font, colori, bordi e altro ancora.
-### Quali versioni di Excel supporta Aspose.Cells?
+### Quali versioni di Excel sono supportate da Aspose.Cells?
 Aspose.Cells supporta un'ampia gamma di formati Excel, tra cui XLS, XLSX e altri.
 ### Dove posso ottenere supporto per Aspose.Cells?
  Puoi trovare aiuto su[Forum di supporto Aspose.Cells](https://forum.aspose.com/c/cells/9).

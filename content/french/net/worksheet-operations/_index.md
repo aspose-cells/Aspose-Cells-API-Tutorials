@@ -28,3 +28,39 @@ Dans ce guide, vous apprendrez à améliorer l'attrait visuel de vos données Ex
 Extrayez et gérez facilement les hyperliens des fichiers Excel avec Aspose.Cells pour .NET. Guide étape par étape et exemples de code inclus.
 ### [Définition des préférences d'image pour HTML dans .NET](./setting-image-preferences-for-html/)
 Exploitez la puissance d'Aspose.Cells pour .NET. Découvrez comment définir les préférences d'image pour la conversion HTML afin de présenter vos données Excel de manière optimale sur le Web.
+### [Ajouter des commentaires en fil de discussion dans la feuille de calcul](./add-threaded-comments/)
+Découvrez comment ajouter des commentaires en fil de discussion dans des feuilles de calcul Excel à l'aide d'Aspose.Cells pour .NET grâce à ce didacticiel étape par étape. Améliorez la collaboration sans effort.
+### [Compter le nombre de cellules dans la feuille de calcul](./count-cells/)
+Exploitez toute la puissance d'Aspose.Cells pour .NET. Apprenez à compter les cellules d'une feuille de calcul Excel avec ce guide étape par étape.
+### [Couper et coller des cellules dans une feuille de calcul](./cut-and-paste-cells/)
+Apprenez à couper et coller des cellules dans Excel à l'aide d'Aspose.Cells pour .NET avec ce didacticiel simple étape par étape.
+### [Détecter la feuille de macro internationale dans le classeur](./detect-international-macro-sheet/)
+Découvrez comment détecter les feuilles de macro internationales dans Excel à l'aide d'Aspose.Cells pour .NET avec ce guide détaillé étape par étape. Parfait pour les développeurs.
+### [Modifier les commentaires en fil de discussion dans la feuille de calcul](./edit-threaded-comments/)
+Découvrez la magie de l'édition de commentaires en fil de discussion dans Excel à l'aide d'Aspose.Cells pour .NET ! Suivez notre guide étape par étape et maîtrisez vos documents en toute simplicité.
+### [Vérifiez si la feuille de calcul est une feuille de dialogue](./check-dialog-sheet/)
+Découvrez comment vérifier si une feuille de calcul est une feuille de dialogue à l'aide d'Aspose.Cells pour .NET avec ce didacticiel étape par étape.
+### [Obtenir la validation des cellules dans le fichier ODS](./get-cell-validation-ods/)
+Découvrez comment récupérer la validation des cellules dans les fichiers ODS à l'aide d'Aspose.Cells pour .NET. Un guide étape par étape pour les développeurs.
+### [Obtenir la plage avec des liens externes dans la feuille de calcul](./get-range-with-external-links/)
+Découvrez comment obtenir efficacement des plages avec des liens externes dans des feuilles de calcul Excel à l'aide d'Aspose.Cells pour .NET dans ce didacticiel complet étape par étape.
+### [Obtenir l'identifiant unique de la feuille de calcul](./get-worksheet-id/)
+Découvrez comment obtenir l'ID unique d'une feuille de calcul à l'aide d'Aspose.Cells pour .NET grâce à ce guide étape par étape. Gérez vos feuilles de calcul plus efficacement.
+### [Imprimer la feuille avec des paramètres supplémentaires](./print-sheet-with-settings/)
+Découvrez comment imprimer des feuilles Excel sans effort avec Aspose.Cells pour .NET dans ce guide détaillé étape par étape.
+### [Lire l'image d'arrière-plan de l'ODS](./read-ods-background/)
+Apprenez à lire les images d'arrière-plan ODS à l'aide d'Aspose.Cells pour .NET avec ce didacticiel complet, étape par étape. Parfait pour les développeurs et les passionnés.
+### [Lire l'heure de création des commentaires en fil de discussion dans la feuille de calcul](./read-threaded-comment-created-time/)
+Apprenez à lire l'heure de création des commentaires threadés dans Excel à l'aide d'Aspose.Cells pour .NET. Guide étape par étape avec exemples de code inclus.
+### [Lire les commentaires en fil de discussion dans la feuille de calcul](./read-threaded-comments/)
+Exploitez la puissance de la lecture des commentaires en fil de discussion dans Excel avec Aspose.Cells pour .NET. Plongez dans ce guide étape par étape pour une gestion facile des documents.
+### [Supprimer les commentaires en fil de discussion de la feuille de calcul](./remove-threaded-comments/)
+Supprimez facilement les commentaires en fil de discussion des feuilles de calcul Excel à l'aide d'Aspose.Cells pour .NET grâce à ce guide étape par étape. Simplifiez votre gestion d'Excel.
+### [Définir un arrière-plan coloré dans le fichier ODS](./set-ods-colored-background/)
+Découvrez comment définir un arrière-plan coloré dans les fichiers ODS à l'aide d'Aspose.Cells pour .NET, avec des didacticiels et des conseils étape par étape.
+### [Définir l'arrière-plan graphique dans le fichier ODS](./set-ods-graphic-background/)
+Apprenez à définir un arrière-plan graphique dans les fichiers ODS à l'aide d'Aspose.Cells pour .NET avec ce guide complet étape par étape.
+### [Mettre à jour l'historique du journal de révision dans le classeur partagé](./update-revision-log-history/)
+Apprenez à mettre à jour l'historique des révisions dans les classeurs partagés à l'aide d'Aspose.Cells pour .NET. Simplifiez la collaboration et conservez des enregistrements de documents clairs.
+### [Utiliser la propriété Sheet_SheetId d'OpenXml dans la feuille de calcul](./utilize-sheet-sheetid-property/)
+Exploitez toute la puissance d'Excel avec Aspose.Cells pour .NET. Apprenez à manipuler efficacement les identifiants de feuille grâce à notre guide étape par étape.

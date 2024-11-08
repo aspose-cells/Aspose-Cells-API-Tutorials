@@ -19,7 +19,7 @@ Stellen Sie sich vor, Sie haben ein Excel-Dokument mit eingebetteten Office-Add-
 
 ## Ignorieren Sie Fehler beim Rendern von Excel in PDF mit Aspose.Cells
 
-Fehler bei der Konvertierung von Dokumenten können frustrierend und zeitaufwändig sein. Haben Sie bei einer Konvertierung von Excel in PDF schon einmal mit defekten Links, beschädigten Zellen oder ungültigen Referenzen zu kämpfen gehabt? Aspose.Cells für .NET schafft mit seiner Funktion „Fehler ignorieren“ Abhilfe. Dieses Tutorial zeigt, wie Sie diese Option aktivieren, mit der Sie problematische Elemente überspringen können, anstatt den Konvertierungsprozess anzuhalten. Sie können einen reibungsloseren Arbeitsablauf gewährleisten und sich auf das Wesentliche konzentrieren, ohne sich durch kleinere Fehler aufhalten zu lassen.
+Fehler bei der Dokumentkonvertierung können frustrierend und zeitaufwändig sein. Haben Sie bei einer Excel-zu-PDF-Konvertierung schon einmal mit defekten Links, beschädigten Zellen oder ungültigen Referenzen zu kämpfen gehabt? Aspose.Cells für .NET schafft mit seiner Funktion „Fehler ignorieren“ Abhilfe. Dieses Tutorial zeigt, wie Sie diese Option aktivieren, mit der Sie problematische Elemente überspringen können, anstatt den Konvertierungsprozess anzuhalten. Sie können einen reibungsloseren Arbeitsablauf gewährleisten und sich auf das Wesentliche konzentrieren, ohne sich durch kleinere Fehler aufhalten zu lassen.
 
  Um zu erfahren, wie Sie Fehler beim Rendering von Excel in PDF ignorieren können, lesen Sie unseren[Tutorial zum Ignorieren von Fehlern während der Konvertierung](./ignore-errors-while-rendering/). Dieser Leitfaden bietet praktische Einblicke für saubere, effiziente Dokumentkonvertierungen.
 

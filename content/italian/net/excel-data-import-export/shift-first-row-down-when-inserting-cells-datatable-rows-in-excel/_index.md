@@ -156,7 +156,7 @@ Infine, salveremo la cartella di lavoro modificata in un file:
 
 ## Conclusione
 
-Ed ecco fatto! Hai imparato come inserire righe DataTable in un foglio Excel senza spostare la prima riga usando Aspose.Cells per .NET. Questo processo non solo semplifica la manipolazione dei dati in Excel, ma migliora anche le prestazioni della tua applicazione automatizzando un'attività solitamente ingombrante. Con questa conoscenza nel tuo kit di strumenti, sei meglio equipaggiato per gestire le attività di automazione di Excel, risparmiando tempo e fatica.
+Ed ecco fatto! Hai imparato come inserire righe DataTable in un foglio Excel senza spostare la prima riga usando Aspose.Cells per .NET. Questo processo non solo semplifica la manipolazione dei dati in Excel, ma migliora anche le prestazioni della tua applicazione automatizzando un'attività solitamente ingombrante. Con questa conoscenza nel tuo toolkit, sei meglio equipaggiato per gestire le attività di automazione di Excel, risparmiando tempo e fatica.
 
 ## Domande frequenti
 

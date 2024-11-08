@@ -120,7 +120,7 @@ workbook.Save(dataDir + "output.pdf", pdfSaveOptions);
 Aspose.Cells 是一個功能強大的程式庫，可在 .NET 應用程式中處理 Excel 格式，讓使用者可以建立、操作、轉換和呈現 Excel 文件。
 
 ### 如何安裝 Aspose.Cells？
-您可以透過 Visual Studio 中的 NuGet 套件管理器來安裝 Aspose.Cells，方法是搜尋「Aspose.Cells」並按一下安裝。
+您可以透過 Visual Studio 中的 NuGet 套件管理器安裝 Aspose.Cells，方法是搜尋「Aspose.Cells」並按一下安裝。
 
 ### 我可以在不安裝任何東西的情況下轉換 Excel 文件嗎？
 不可以，您需要安裝 Aspose.Cells 庫才能存取其處理 Excel 檔案的功能。

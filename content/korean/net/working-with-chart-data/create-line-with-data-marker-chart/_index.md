@@ -15,7 +15,7 @@ Excel에서 프로그래밍 방식으로 멋진 차트를 만드는 방법에 �
 
 시작하기에 앞서, 원활하게 따라갈 수 있도록 모든 것이 준비되어 있는지 확인하세요.
 
-1.  Aspose.Cells for .NET Library – 설치해야 합니다. 가져올 수 있습니다.[여기](https://releases.aspose.com/cells/net/).
+1. Aspose.Cells for .NET Library – 설치해야 합니다. 가져올 수 있습니다.[여기](https://releases.aspose.com/cells/net/).
 2. .NET Framework – 개발 환경이 최신 버전의 .NET으로 설정되어 있는지 확인하세요.
 3. IDE(통합 개발 환경) – Visual Studio를 권장합니다.
 4.  유효한 Aspose.Cells 라이센스 - 라이센스가 없는 경우 다음을 요청할 수 있습니다.[임시 면허](https://purchase.aspose.com/temporary-license/) 또는 그들의 것을 확인하세요[무료 체험](https://releases.aspose.com/).
@@ -109,7 +109,7 @@ chart.AutoScaling = true;
 // 전경색을 흰색으로 설정
 chart.PlotArea.Area.ForegroundColor = Color.White;
 
-// 차트 제목 속성 설정
+//차트 제목 속성 설정
 chart.Title.Text = "Sample Chart";
 
 // 차트 유형 설정

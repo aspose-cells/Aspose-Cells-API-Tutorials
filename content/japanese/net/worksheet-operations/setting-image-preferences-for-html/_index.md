@@ -114,7 +114,7 @@ saveOptions.ImageOptions.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.
 saveOptions.ImageOptions.TextRenderingHint = System.Drawing.Text.TextRenderingHint.AntiAlias;
 ```
 
-この小さな調整により、画像内のテキストの読みやすさが大幅に向上します。
+このちょっとした調整により、画像内のテキストの読みやすさが大幅に向上します。
 
 ## ステップ8: ワークブックをHTMLとして保存する
 

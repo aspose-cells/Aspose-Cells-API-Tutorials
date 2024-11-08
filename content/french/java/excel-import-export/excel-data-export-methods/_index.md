@@ -115,7 +115,7 @@ public class ExcelToHTML {
 }
 ```
 
-## Méthode 5 : Exportation de données au format XML
+## Méthode 5 : Exportation de données vers XML
 
 ### Exemple de code source
 

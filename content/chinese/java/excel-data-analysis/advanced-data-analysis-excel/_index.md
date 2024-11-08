@@ -10,7 +10,7 @@ url: /zh/java/excel-data-analysis/advanced-data-analysis-excel/
 
 ## 介绍
 
-Excel 无疑是一种多功能的数据分析工具，但在处理大型数据集、执行复杂计算和自动执行重复任务时，您需要专门的解决方案。Aspose.Cells for Java 是一种基于 Java 的 API，可让开发人员和数据分析师以编程方式处理 Excel 文件，提供超越 Excel 原生功能的高级数据分析功能。
+Excel 无疑是一种多功能的数据分析工具，但在处理大型数据集、执行复杂计算和自动执行重复任务时，您需要专门的解决方案。Aspose.Cells for Java 是一种基于 Java 的 API，可帮助开发人员和数据分析师以编程方式处理 Excel 文件，提供超越 Excel 原生功能的高级数据分析功能。
 
 ## 先决条件
 
@@ -35,7 +35,7 @@ import com.aspose.cells.*;
 
 ## 加载和操作 Excel 文件
 
-Aspose.Cells for Java 的核心功能之一是无缝加载和操作 Excel 文件。您可以打开现有的 Excel 文件、创建新文件并通过编程修改其内容。
+Aspose.Cells for Java 的核心功能之一是能够无缝加载和操作 Excel 文件。您可以打开现有的 Excel 文件、创建新文件并通过编程修改其内容。
 
 ```java
 //加载现有的 Excel 文件

@@ -21,7 +21,7 @@ Witamy w świecie Aspose.Cells dla .NET, gdzie Twoje arkusze Excela mogą napraw
 
 ## Łączenie komórek i formatowanie w programie Excel
 
- Czasami dane potrzebują trochę przestrzeni — lub może chcesz połączyć komórki, aby uzyskać wspaniały tytuł. Scalanie komórek nie dotyczy tylko estetyki; może również poprawić organizację i przejrzystość danych. Nasz przewodnik po[łączenie komórek i formatowanie](./merging-cells-and-formatting/)pomoże Ci opanować sztukę łączenia komórek, zapewniając jednocześnie, że Twoje formatowanie pozostanie nienaruszone. Szybko zdasz sobie sprawę, jak proste zmiany mogą mieć ogromny wpływ na sposób prezentacji Twoich danych. 
+ Czasami dane potrzebują trochę przestrzeni — lub może chcesz połączyć komórki, aby uzyskać wspaniały tytuł. Scalanie komórek nie dotyczy tylko estetyki; może również poprawić organizację i przejrzystość danych. Nasz przewodnik[łączenie komórek i formatowanie](./merging-cells-and-formatting/)pomoże Ci opanować sztukę łączenia komórek, zapewniając jednocześnie, że Twoje formatowanie pozostanie nienaruszone. Szybko zdasz sobie sprawę, jak proste zmiany mogą mieć ogromny wpływ na sposób prezentacji Twoich danych. 
 
 ## Dodawanie obramowań do komórek w programie Excel
 

@@ -13,7 +13,7 @@ Har du någonsin velat kontrollera synligheten för pivottabeller i dina Excel-f
 Innan vi sätter igång finns det några saker du behöver ha till hands:
 1. Aspose.Cells Library: Se till att du har Aspose.Cells-biblioteket installerat. Om du inte har gjort det ännu kan du ladda ner det från[här](https://releases.aspose.com/cells/net/).
 2. .NET-utvecklingsmiljö: En fungerande .NET-utvecklingsmiljö (Visual Studio rekommenderas starkt).
-3. Grundläggande kunskaper om C#: Viss grundläggande förståelse för hur man skriver och kör C#-kod kommer definitivt att hjälpa.
+3. Grundläggande kunskaper om C#: Vissa grundläggande kunskaper om hur man skriver och kör C#-kod kommer definitivt att hjälpa.
 4. Exempel på Excel-fil: Du behöver en Excel-fil som innehåller en pivottabell för teständamål.
 När du väl har täckt dessa förutsättningar är du redo att börja med ditt kodningsäventyr!
 ## Importera paket

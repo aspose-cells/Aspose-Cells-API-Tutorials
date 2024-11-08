@@ -58,7 +58,7 @@ Dit creëert een nieuw Excel-bestand in het geheugen. Zie dit als het krijgen va
 Als uw toepassing HTTP-verzoeken verwerkt (bijvoorbeeld in een webtoepassing), moet u mogelijk code opnemen om de werkmap op te slaan in de HTTP-antwoordstroom.
 1.  Controleer of uw`HttpResponse` object is niet nul:
 ```csharp
-HttpResponse response = null;  // Dit wordt normaal gesproken doorgegeven aan uw methode
+HttpResponse response = null;  // Dit zou normaal gesproken in uw methode worden doorgegeven
 if (response != null)
 ```
 Dit onderdeel is cruciaal voor het rechtstreeks opslaan van werkmapgegevens in de browser van de gebruiker.

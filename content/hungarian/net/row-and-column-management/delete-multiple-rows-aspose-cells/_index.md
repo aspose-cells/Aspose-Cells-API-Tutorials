@@ -75,7 +75,7 @@ Ha minden művelet befejeződött, ne felejtse el bezárni a fájlfolyamot. Ez a
 // A fájlfolyam bezárása az összes erőforrás felszabadításához
 fstream.Close();
 ```
- Bezárva a`fstream`itt véglegesítjük a kódunkat. Ha a fájlfolyam nyitva marad, megakadályozhatja, hogy a program visszaadja az erőforrásokat a rendszernek, különösen akkor, ha nagy fájlokkal dolgozik.
+ Bezárva a`fstream`itt véglegesíti a kódunkat. Ha a fájlfolyam nyitva marad, megakadályozhatja, hogy a program visszaadja az erőforrásokat a rendszernek, különösen akkor, ha nagy fájlokkal dolgozik.
 ## Következtetés
 És ennyi! Most már megtanulta, hogyan törölhet több sort egy Excel-fájlból az Aspose.Cells for .NET használatával. Az alábbi lépések követésével gyorsan módosíthatja a sorokat és optimalizálhatja az adatok szervezését. Az Aspose.Cells robusztus eszközkészletet biztosít az Excel-fájlok programozott kezeléséhez, ami felbecsülhetetlen értékűvé teszi a dinamikus adatokkal dolgozó fejlesztők számára.
 Akár adattisztításon dolgozik, akár fájlokat készít fel további elemzésre, vagy egyszerűen csak ismétlődő adatkészleteket kezel, az Aspose.Cells leegyszerűsíti a folyamatot. Most próbálja ki saját fájljain, és fedezze fel, hogyan használhatja még az Aspose.Cells-t az Excel-feladatok egyszerűsítésére!

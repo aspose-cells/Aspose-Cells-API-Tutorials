@@ -15,7 +15,7 @@ Gondolkozott már azon, hogyan hozhat létre lenyűgöző diagramokat az Excelbe
 
 Mielőtt elkezdené, győződjön meg arról, hogy minden a helyén van, hogy zökkenőmentesen kövesse az utat.
 
-1.  Aspose.Cells for .NET Library – Ezt telepítenie kell. Megfoghatod[itt](https://releases.aspose.com/cells/net/).
+1. Aspose.Cells for .NET Library – Ezt telepítenie kell. Megfoghatod[itt](https://releases.aspose.com/cells/net/).
 2. .NET-keretrendszer – Győződjön meg arról, hogy a fejlesztői környezet a .NET legújabb verziójával van beállítva.
 3. IDE (Integrated Development Environment) – a Visual Studio ajánlott.
 4.  Érvényes Aspose.Cells licenc – Ha nem rendelkezik ilyennel, kérhet a[ideiglenes engedély](https://purchase.aspose.com/temporary-license/) vagy nézze meg őket[ingyenes próbaverzió](https://releases.aspose.com/).
@@ -109,7 +109,7 @@ chart.AutoScaling = true;
 // Állítsa az előtér színét fehérre
 chart.PlotArea.Area.ForegroundColor = Color.White;
 
-// Állítsa be a diagram címének tulajdonságait
+//Állítsa be a diagram címének tulajdonságait
 chart.Title.Text = "Sample Chart";
 
 // Állítsa be a diagram típusát
@@ -178,7 +178,7 @@ workbook.Save(outputDir + @"LineWithDataMarkerChart.xlsx", Aspose.Cells.SaveForm
 
 ## Következtetés
 
-diagramok programozott létrehozása az Excelben ijesztőnek tűnhet, de az Aspose.Cells for .NET segítségével ez olyan egyszerű, mint egy lépésről lépésre leírt receptek követése. A munkafüzet beállításától a diagram megjelenésének testreszabásáig ez a hatékony könyvtár mindent kezel. Függetlenül attól, hogy jelentéseket, irányítópultokat vagy adatvizualizációkat készít, az Aspose.Cells segítségével gyorsan megteheti.
+A diagramok programozott létrehozása az Excelben ijesztőnek tűnhet, de az Aspose.Cells for .NET segítségével ez olyan egyszerű, mint egy lépésről lépésre leírt receptek követése. A munkafüzet beállításától a diagram megjelenésének testreszabásáig ez a hatékony könyvtár mindent kezel. Függetlenül attól, hogy jelentéseket, irányítópultokat vagy adatvizualizációkat készít, az Aspose.Cells segítségével gyorsan megteheti.
 
 ## GYIK
 

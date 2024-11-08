@@ -95,7 +95,7 @@ W tym kodzie określamy typ wykresu (w tym przypadku wykres kolumnowy) i pozycj�
 
 ## Krok 6: Uzyskaj dostęp do instancji wykresu
 
- Po utworzeniu wykresu musimy uzyskać dostęp do jego wystąpienia, aby zmodyfikować jego właściwości. Można to zrobić, pobierając go za pomocą`Charts`kolekcja.
+ Po utworzeniu wykresu musimy uzyskać dostęp do jego instancji, aby zmodyfikować jego właściwości. Można to zrobić, pobierając go za pomocą`Charts`kolekcja.
 
 ```csharp
 // Uzyskiwanie dostępu do wystąpienia nowo dodanego wykresu

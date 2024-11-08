@@ -73,7 +73,7 @@ imgOptions.OnePagePerSheet = true;
 ## Fase 7: rendering del foglio di lavoro
 Con le opzioni a disposizione, possiamo ora visualizzare il foglio di lavoro:
 ```csharp
-// Esegui il rendering del foglio in base alle opzioni di immagine/stampa specificate
+// Esegue il rendering del foglio in base alle opzioni di immagine/stampa specificate
 SheetRender sr = new SheetRender(sheet, imgOptions);
 // Rendi l'immagine per il foglio
 Bitmap bitmap = sr.ToImage(0);

@@ -23,7 +23,7 @@ using Aspose.Cells;
 ```
 Tyto jmenné prostory vám umožní přístup ke třídám a metodám potřebným k manipulaci s vašimi soubory Excel.
 
-Nyní si rozdělme proces přístupu k vlastnostem dokumentu do zvládnutelných kroků. Podle těchto kroků budete moci nejen načítat, ale plně porozumět tomu, jak spravovat vlastnosti dokumentu v souborech aplikace Excel.
+Nyní si rozdělme proces přístupu k vlastnostem dokumentu do zvládnutelných kroků. Podle těchto kroků budete moci nejen načíst, ale plně porozumět tomu, jak spravovat vlastnosti dokumentu v souborech aplikace Excel.
 ## Krok 1: Nastavte cestu k dokumentu
 Nejprve musíme zadat cestu, kde jsou umístěny naše soubory Excel. Tady naše cesta začíná:
 ```csharp

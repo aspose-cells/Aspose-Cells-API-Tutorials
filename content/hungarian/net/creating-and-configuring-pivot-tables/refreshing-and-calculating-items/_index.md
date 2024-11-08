@@ -2,7 +2,7 @@
 title: Frissítse és számítsa ki az elemeket a kimutatástáblázatban a .NET-ben
 linktitle: Frissítse és számítsa ki az elemeket a kimutatástáblázatban a .NET-ben
 second_title: Aspose.Cells .NET Excel Processing API
-description: Fedezze fel, hogyan frissítheti és számíthatja ki a kimutatástáblázat elemeit az Aspose.Cells for .NET segítségével ezzel az átfogó, lépésről lépésre mutató oktatóanyaggal.
+description: Fedezze fel, hogyan frissítheti és számíthatja ki a kimutatástáblázat elemeit az Aspose.Cells for .NET használatával ezzel az átfogó, lépésről lépésre mutató oktatóanyaggal.
 type: docs
 weight: 17
 url: /hu/net/creating-and-configuring-pivot-tables/refreshing-and-calculating-items/

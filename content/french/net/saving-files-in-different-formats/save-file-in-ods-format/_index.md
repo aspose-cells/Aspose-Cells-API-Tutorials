@@ -68,4 +68,4 @@ Absolument ! Aspose.Cells vous permet non seulement de créer et d'enregistrer d
 ### Existe-t-il un essai gratuit disponible ?  
  Oui, vous pouvez obtenir un essai gratuit d'Aspose.Cells à partir du[site](https://releases.aspose.com/).
 ### Comment puis-je obtenir une licence temporaire pour Aspose.Cells ?  
- Vous pouvez acquérir une licence temporaire auprès de la[Page d'achat Aspose](https://purchase.aspose.com/temporary-license/).
+ Vous pouvez acquérir une licence temporaire auprès du[Page d'achat Aspose](https://purchase.aspose.com/temporary-license/).

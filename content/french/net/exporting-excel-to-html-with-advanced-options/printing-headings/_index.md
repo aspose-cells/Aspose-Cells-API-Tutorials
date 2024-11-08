@@ -8,7 +8,7 @@ weight: 18
 url: /fr/net/exporting-excel-to-html-with-advanced-options/printing-headings/
 ---
 ## Introduction
-Vous êtes-vous déjà retrouvé à vous débattre avec des fichiers Excel, essayant d'obtenir ces titres juste avant votre grande présentation ? Ou peut-être souhaitez-vous exporter vos données Excel dans un format HTML propre tout en conservant vos titres intacts ? Si tel est le cas, vous êtes au bon endroit ! Ce guide explique comment exploiter la puissance d'Aspose.Cells pour .NET pour imprimer des titres par programmation dans Excel et les enregistrer sous forme de fichier HTML. Vous découvrirez des instructions étape par étape qui transforment une tâche technique en un didacticiel facile à suivre. Alors, prenez votre boisson préférée, asseyez-vous et plongeons dans le monde des feuilles de calcul !
+Vous êtes-vous déjà retrouvé à lutter avec des fichiers Excel, essayant d'obtenir ces titres juste avant votre grande présentation ? Ou peut-être souhaitez-vous exporter vos données Excel dans un format HTML propre tout en conservant vos titres intacts ? Si tel est le cas, vous êtes au bon endroit ! Ce guide explique comment exploiter la puissance d'Aspose.Cells pour .NET pour imprimer des titres par programmation dans Excel et les enregistrer sous forme de fichier HTML. Vous découvrirez des instructions étape par étape qui transforment une tâche technique en un didacticiel facile à suivre. Alors, prenez votre boisson préférée, asseyez-vous et plongeons dans le monde des feuilles de calcul !
 ## Prérequis
 Avant de passer aux choses sérieuses du code, nous devons configurer quelques éléments. Voici ce que vous devez avoir prêt à démarrer :
 1. Visual Studio : assurez-vous que Visual Studio est installé sur votre ordinateur. C'est ici que nous allons coder.
@@ -30,7 +30,7 @@ string sourceDir = "Your Document Directory";
 // Répertoire de sortie
 string outputDir = "Your Document Directory";
 ```
- Assurez-vous de remplacer`"Your Document Directory"` avec le chemin réel sur votre ordinateur où votre document Excel et le code HTML de sortie seront situés.
+ Assurez-vous de remplacer`"Your Document Directory"` avec le chemin réel sur votre ordinateur où votre document Excel et votre sortie HTML seront situés.
 ## Étape 2 : charger le fichier source de l'échantillon
 Ensuite, chargeons le classeur Excel. Cet extrait de code récupérera votre classeur à partir du répertoire d'entrée désigné. Considérez cela comme l'ouverture d'un livre pour trouver votre chapitre préféré :
 ```csharp

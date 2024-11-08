@@ -17,7 +17,7 @@ Trước khi đi sâu vào mã, có một số thứ chúng ta cần thiết l�
 4. Hiểu biết cơ bản về C#: Biết những kiến thức cơ bản về C# sẽ giúp bạn điều hướng qua mã mà không cảm thấy choáng ngợp.
 Khi bạn đã chuẩn bị xong mọi thứ, chúng ta có thể bắt đầu nhập các gói cần thiết và viết mã thực tế!
 ## Nhập gói
-Trước khi đi sâu vào mã, chúng ta cần bao gồm không gian tên Aspose.Cells cần thiết. Bước này giống như việc đặt nền móng cho một ngôi nhà – điều quan trọng là mọi thứ phải đứng vững.
+Trước khi đi sâu vào mã, chúng ta cần bao gồm không gian tên Aspose.Cells cần thiết. Bước này giống như việc đặt nền móng cho một ngôi nhà – điều quan trọng là mọi thứ phải vững chắc.
 ```csharp
 using System;
 ```
@@ -66,7 +66,7 @@ Aspose.Cells for .NET là một thư viện mạnh mẽ cho phép các nhà phá
 ### Tôi có thể xuất tệp Excel sang các định dạng khác ngoài HTML không?  
 Có! Aspose.Cells cho phép bạn xuất sang nhiều định dạng, bao gồm PDF, CSV và XML.
 ### Tôi có cần giấy phép để sử dụng Aspose.Cells không?  
- Trong khi bạn có thể sử dụng Aspose.Cells với bản dùng thử miễn phí, thì cần phải có giấy phép tạm thời hoặc trả phí để sử dụng lâu dài. Bạn có thể mua hoặc nhận giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+ Trong khi bạn có thể sử dụng Aspose.Cells với bản dùng thử miễn phí, bạn cần có giấy phép tạm thời hoặc trả phí để sử dụng lâu dài. Bạn có thể mua hoặc nhận giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
 ### Tôi có thể tìm thêm hỗ trợ cho Aspose.Cells ở đâu?  
  Bạn có thể truy cập diễn đàn hỗ trợ[đây](https://forum.aspose.com/c/cells/9) để giải đáp mọi thắc mắc và nhu cầu khắc phục sự cố của bạn.
 ### Aspose.Cells có thể sử dụng với các ngôn ngữ lập trình khác không?  

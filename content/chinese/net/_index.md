@@ -170,3 +170,25 @@ Aspose.Cells for .NET 教程介绍如何在 Excel 中将 Office 插件渲染为 
 探索使用 Aspose.Cells for .NET 管理 Excel 切片器的全面教程。了解如何轻松创建、更新、格式化和导出切片器。
 ### [Aspose.Cells 中用于动态数据的智能标记](./smart-markers-dynamic-data/)
 探索 Aspose.Cells for .NET Smart Markers 教程以创建动态 Excel 报告。学习添加标签、自动填充数据、使用公式等。
+### [表格和列表](./tables-and-lists/)
+探索全面的 Aspose.Cells for .NET 教程，以高效地管理 Excel 数据、创建表格并通过易于遵循的指南提高您的技能。
+### [Aspose.Cells 工作簿操作](./workbook-operations/)
+探索 Aspose.Cells for .NET 工作簿教程，涵盖数据访问、XML 自定义、签名、Web 扩展等。轻松提高 Excel 自动化技能。
+### [工作簿设置](./workbook-settings/)
+探索全面的 Aspose.Cells for .NET 教程，涵盖工作簿设置、外部资源等。
+### [工作簿 VBA 项目](./workbook-vba-project/)
+使用 Aspose.Cells for .NET 释放 Excel 的强大功能。探索有关 VBA 项目保护、复制用户表单和保护工作簿的全面教程。
+### [工作表显示](./worksheet-display/)
+发现 Aspose.Cells for .NET 教程的完整列表。通过有关关键工作表功能的分步指南增强您的 Excel 技能。
+### [工作表管理](./worksheet-management/)
+通过我们全面的教程解锁 Aspose.Cells for .NET 的强大功能，并通过分步说明指导您完成工作表管理。
+### [工作表页面设置功能](./worksheet-page-setup-features/)
+了解 Aspose.Cells for .NET 的工作表页面设置教程，包括复制页面设置、管理纸张尺寸和设置 Excel 工作表的打印质量。
+### [工作表安全](./worksheet-security/)
+揭开 Excel 安全的秘密。探索我们全面的 Aspose.Cells for .NET 教程，轻松保护、编辑和管理您的工作表。
+### [工作表值运算](./worksheet-value-operations/)
+发现有关 Aspose.Cells for .NET 的重要教程，涵盖工作表值操作以增强您的 Excel 项目。
+### [工作表操作](./worksheet-operations/)
+探索 Aspose.Cells for .NET 工作簿教程，涵盖数据访问、XML 自定义、签名、Web 扩展等。轻松提高 Excel 自动化技能。
+### [XML 映射操作](./xml-map-operations/)
+探索涵盖 XML 映射操作的全面 Aspose.Cells for .NET 教程，轻松提高您的 Excel 技能。

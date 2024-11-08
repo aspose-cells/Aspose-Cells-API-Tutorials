@@ -27,7 +27,7 @@ Laten we eerst onze ontwikkelomgeving instellen. Zorg ervoor dat u een nieuw pro
 1. Een nieuw project maken: Open Visual Studio, klik op 'Een nieuw project maken' en selecteer een consoletoepassing.
 2. Aspose.Cells-referentie toevoegen: Klik met de rechtermuisknop op 'Referenties' in uw project en kies 'Referentie toevoegen'. Blader naar de locatie van de Aspose.Cells DLL die u hebt gedownload en voeg deze toe.
 ## Stap 2: Werkmap en werkblad initialiseren
-Vervolgens initialiseren we de werkmap en het werkblad waarmee we gaan werken. Dit is waar u uw Excel-bestand laadt en klaarmaakt om het te bewerken.
+Vervolgens initialiseren we de werkmap en het werkblad waarmee we gaan werken. Dit is waar u uw Excel-bestand laadt en klaarmaakt om het te manipuleren.
 ```csharp
 string dataDir = "Your Document Directory"; // Stel uw documentmap in
 Workbook workbook = new Workbook(dataDir + "sample.xlsx"); // Laad uw Excel-bestand

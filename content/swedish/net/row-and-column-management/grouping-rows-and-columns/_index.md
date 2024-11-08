@@ -69,7 +69,7 @@ worksheet.Cells.GroupColumns(0, 2, true);
 ```
 Parametrar för denna funktion är:
 - 0, 2: Omfånget av kolumner som ska grupperas, där indexeringen börjar vid 0.
-- true: Den här parametern döljer de grupperade kolumnerna.
+- true: Denna parameter döljer de grupperade kolumnerna.
 Dina valda kolumner (0 till 2) visas nu grupperade och dolda i Excel-filen.
 ## Steg 7: Spara den modifierade Excel-filen
 Efter att ha gjort ändringar, låt oss spara filen med ett nytt namn för att undvika att skriva över originalet.

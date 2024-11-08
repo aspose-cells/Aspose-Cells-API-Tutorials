@@ -81,7 +81,7 @@ Aspose.Cells.Font f = s.Font;
 f.ThemeColor = new ThemeColor(ThemeColorType.Accent4, 0.1);
 ```
 
- We passen het Accent4-thema toe op de tekst in de cel.`0.1` waarde geeft het een subtiele schaduw die extra flair aan uw spreadsheets kan toevoegen.
+ We passen het Accent4-thema toe op de tekst in de cel.`0.1` waarde geeft een subtiele schaduw die extra flair aan uw spreadsheets kan toevoegen.
 ## Stap 5: Pas de stijl toe en voeg een waarde toe
 Nu we zowel de achtergrond als de tekstkleur hebben aangepast, kunnen we de stijl afronden en wat daadwerkelijke gegevens in de cel plaatsen.
 - Stel de gewijzigde stijl terug in op de cel.

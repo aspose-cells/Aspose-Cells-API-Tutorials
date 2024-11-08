@@ -86,4 +86,4 @@ Aspose.Cells är ett kraftfullt bibliotek som gör det möjligt för utvecklare 
 ### Är Aspose.Cells plattformsoberoende?
 Ja, Aspose.Cells kan användas i alla .NET-ramverk, vilket gör det mångsidigt för olika applikationsscenarier.
 ### Hur kan jag få support för Aspose.Cells?
- Du kan söka hjälp eller ställa frågor i[Aspose Forum](https://forum.aspose.com/c/cells/9) tillägnad Cells-användare.
+ Du kan söka hjälp eller ställa frågor i[Aspose Forum](https://forum.aspose.com/c/cells/9) tillägnad Cells användare.

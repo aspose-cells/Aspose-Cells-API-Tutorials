@@ -38,7 +38,7 @@ Workbook workbook = new Workbook();
 ## Steg 2: Öppna det första arbetsbladet
 Därefter måste vi komma åt kalkylbladet där vi vill arbeta med former. I det här fallet kommer vi att använda det första kalkylbladet i arbetsboken.
 ```csharp
-// Skaffa det första arbetsbladet i arbetsboken
+// Få det första arbetsbladet i arbetsboken
 Worksheet worksheet = workbook.Worksheets[0];
 ```
  Den här raden kommer åt det första kalkylbladet från samlingen av kalkylblad i arbetsboken. Om du arbetar med ett specifikt blad kan du byta ut indexet`0` med önskat index.

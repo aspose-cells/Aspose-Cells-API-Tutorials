@@ -72,7 +72,7 @@ pdfSaveOpt.CustomPropertiesExport = Aspose.Cells.Rendering.PdfCustomPropertiesEx
 //传递 PdfSaveOptions 对象，将工作簿保存为 PDF 格式
 workbook.Save(outputDir + "outSampleWithCustProps.pdf", pdfSaveOpt);
 ```
-在这条线中，`outSampleWithCustProps.pdf`将是新 PDF 文件的名称，因此请确保它是唯一的，以避免任何覆盖。
+在这一行中，`outSampleWithCustProps.pdf`将是新 PDF 文件的名称，因此请确保它是唯一的，以避免任何覆盖。
 ## 步骤6：确认成功
 最后，让我们通过向控制台打印一条消息来确认操作是否成功：
 ```csharp

@@ -46,7 +46,7 @@ string inputPath = dataDir + "Book1.xlsx"; // Διαδρομή προς το α�
 Workbook workbook = new Workbook(inputPath); // Φορτώστε το αρχείο Excel
 ```
  Ο`Workbook` class χρησιμοποιείται για τη φόρτωση και το χειρισμό αρχείων Excel. Περνώντας τη διαδρομή εισαγωγής, λέτε στην εφαρμογή με ποιο αρχείο να εργαστεί.
-## Βήμα 3: Δημιουργήστε PdfSaveOptions
+## Βήμα 3: Δημιουργία PdfSaveOptions
  Τώρα, ήρθε η ώρα να δημιουργήσετε ένα παράδειγμα του`PdfSaveOptions`. Αυτή η κλάση σάς επιτρέπει να καθορίσετε διάφορες επιλογές για την αποθήκευση του βιβλίου εργασίας σας ως PDF, συμπεριλαμβανομένου του χρόνου δημιουργίας.
 ```csharp
 PdfSaveOptions options = new PdfSaveOptions(); // Δημιουργήστε παράδειγμα PdfSaveOptions

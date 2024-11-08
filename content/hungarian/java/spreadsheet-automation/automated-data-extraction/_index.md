@@ -45,7 +45,7 @@ public class DataExtraction {
 
 ### 3. Excel adatok betöltése
 
-Az adatok kinyeréséhez be kell töltenie egy Excel-fájlt. A következőképpen teheti meg:
+Az adatok kibontásához be kell töltenie egy Excel-fájlt. A következőképpen teheti meg:
 
 ```java
 // Töltsön be egy Excel fájlt

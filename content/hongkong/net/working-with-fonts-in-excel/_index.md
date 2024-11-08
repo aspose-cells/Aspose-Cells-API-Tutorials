@@ -37,7 +37,7 @@ url: /zh-hant/net/working-with-fonts-in-excel/
 
 ## 在 Excel 中使用下標效果
 
-如果您需要展示化學公式或數學方程，下標會派上用場！透過我們的綜合指南[在 Excel 中使用子腳本效果](./working-with-sub-script-effects/)，您將學習如何使用 Aspose.Cells for .NET 無縫套用這些效果。我們的逐步方法可確保即使是最複雜的方程式也能在電子表格中完美且易於理解地呈現。
+如果您需要展示化學公式或數學方程，下標會派上用場！透過我們的綜合指南[在 Excel 中使用子腳本效果](./working-with-sub-script-effects/)，您將學習如何使用 Aspose.Cells for .NET 無縫套用這些效果。我們的逐步方法可確保即使是最複雜的方程式也能在您的電子表格中完美且易於理解地呈現。
 
 ## 在 Excel 中自訂文字的超級腳本效果
 

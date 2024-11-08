@@ -65,7 +65,7 @@ dt.TableName = "MyDataSource";
 Workbook wb = new Workbook();
 ```
 ## 第 6 步：存取您的工作表
-每個工作簿可以有多個工作表，但對於本範例，我們將只使用第一個工作表。讓我們存取該工作表：
+每個工作簿可以有多個工作表，但對於本範例，我們只使用第一個工作表。讓我們存取該工作表：
 ```csharp
 //訪問第一個工作表
 Worksheet ws = wb.Worksheets[0];

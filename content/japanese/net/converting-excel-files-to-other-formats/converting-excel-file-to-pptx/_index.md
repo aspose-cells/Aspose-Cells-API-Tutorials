@@ -2,7 +2,7 @@
 title: .NET でプログラム的に Excel ファイルを PPTX に変換する
 linktitle: .NET でプログラム的に Excel ファイルを PPTX に変換する
 second_title: Aspose.Cells .NET Excel 処理 API
-description: このステップバイステップ ガイドでは、Aspose.Cells for .NET を使用してプログラム的に Excel ファイルを PowerPoint プレゼンテーション (PPTX) に変換する方法を学習します。
+description: このステップバイステップ ガイドでは、Aspose.Cells for .NET を使用して Excel ファイルをプログラムで PowerPoint プレゼンテーション (PPTX) に変換する方法を学習します。
 type: docs
 weight: 16
 url: /ja/net/converting-excel-files-to-other-formats/converting-excel-file-to-pptx/
@@ -92,7 +92,7 @@ Aspose.Cells for .NET を使用すると、Excel ファイルを PowerPoint プ�
 Aspose.Cells は、変換中にグラフ、表、その他のビジュアルのほとんどを保持するため、プロセスがスムーズかつ正確になります。
 
 ### 変換中に PowerPoint レイアウトをカスタマイズできますか?
-このチュートリアルでは直接変換に焦点を当てましたが、Aspose.Cells ではプレゼンテーションの外観やレイアウトの変更など、より高度なカスタマイズが可能です。
+このチュートリアルでは直接変換に焦点を当てていますが、Aspose.Cells ではプレゼンテーションの外観やレイアウトの変更など、より高度なカスタマイズが可能です。
 
 ### このコードを実行するにはライセンスが必要ですか?
 このコードはライセンスなしでも実行できますが、出力には透かしが入ります。フル機能を使用するには、[無料トライアル](https://releases.aspose.com/)または購入する[ライセンス](https://purchase.aspose.com/buy).

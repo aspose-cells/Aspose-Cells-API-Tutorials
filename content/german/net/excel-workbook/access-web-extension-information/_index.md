@@ -78,7 +78,7 @@ Innerhalb dieser Schleife können wir nun verschiedene Eigenschaften jedes Aufga
 1. Breite
 2. Sichtweite
 3. Sperrzustand
-4. Dockstatus
+4. Dockzustand
 5. Name und Typ des Geschäfts
 6. Web-Erweiterungs-ID
 

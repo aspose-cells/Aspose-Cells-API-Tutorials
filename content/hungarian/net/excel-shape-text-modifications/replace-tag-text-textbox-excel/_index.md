@@ -2,7 +2,7 @@
 title: Cserélje ki a címkét szövegre az Excel TextBox-ban
 linktitle: Cserélje ki a címkét szövegre az Excel TextBox-ban
 second_title: Aspose.Cells .NET Excel Processing API
-description: Az Aspose.Cells for .NET segítségével könnyedén cserélje ki az Excel-lapok szövegmezőiben lévő szöveget. Lépésről lépésre az Excel automatizálásához.
+description: Az Aspose.Cells for .NET segítségével könnyedén cserélje ki az Excel-lapok szövegmezőiben lévő szöveget. Útmutató lépésről lépésre az Excel automatizálásához.
 type: docs
 weight: 11
 url: /hu/net/excel-shape-text-modifications/replace-tag-text-textbox-excel/

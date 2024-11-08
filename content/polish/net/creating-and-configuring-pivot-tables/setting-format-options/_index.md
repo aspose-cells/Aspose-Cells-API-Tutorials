@@ -2,7 +2,7 @@
 title: Ustawianie opcji formatowania tabeli przestawnej w .NET
 linktitle: Ustawianie opcji formatowania tabeli przestawnej w .NET
 second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Naucz się używać Aspose.Cells dla .NET do bezproblemowego formatowania tabel przestawnych. Poznaj techniki krok po kroku, aby ulepszyć prezentację danych.
+description: Naucz się używać Aspose.Cells dla .NET do formatowania tabel przestawnych bez wysiłku. Poznaj techniki krok po kroku, aby ulepszyć prezentację danych.
 type: docs
 weight: 20
 url: /pl/net/creating-and-configuring-pivot-tables/setting-format-options/

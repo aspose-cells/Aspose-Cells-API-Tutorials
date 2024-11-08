@@ -10,7 +10,7 @@ url: /sv/net/saving-and-exporting-excel-files-with-options/exporting-comments/
 ## Introduktion
 I den här omfattande guiden kommer vi att bryta ner allt steg för steg, så även om du inte är någon programmeringsexpert kommer du att kunna följa med. Och i slutet kommer du att ha en kristallklar förståelse för hur du exporterar dessa ovärderliga kommentarer till HTML, vilket gör dina Excel-till-HTML-konverteringar smartare och mer effektiva.
 ## Förutsättningar
-Innan vi börjar är det några saker du behöver ha på plats. Du behöver inte oroa dig – allt är ganska enkelt. Här är vad du behöver för att komma igång:
+Innan vi börjar är det några saker du behöver ha på plats. Du behöver inte oroa dig – det hela är ganska enkelt. Här är vad du behöver för att komma igång:
 -  Aspose.Cells för .NET: Du kan ladda ner det[här](https://releases.aspose.com/cells/net/).
 - En grundläggande förståelse för C# och .NET.
 - En miljö redo för .NET-utveckling (Visual Studio eller någon föredragen IDE).

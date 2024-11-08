@@ -17,7 +17,7 @@ Bevor wir uns in die Einzelheiten der Codierung stürzen, müssen Sie einige Vor
 
 - Visual Studio: Hier schreiben und führen Sie Ihren .NET-Code aus. Stellen Sie sicher, dass Sie es installiert haben.
 -  Aspose.Cells für .NET: Sie benötigen diese Bibliothek für die Arbeit mit Excel-Dateien. Sie können[Laden Sie es hier herunter](https://releases.aspose.com/cells/net/).
-- Grundlegende Kenntnisse in C#: Ich führe Sie zwar durch den Code, aber wenn Sie sich mit den Grundlagen von C# auskennen, wird alles klarer.
+- Grundlegende Kenntnisse in C#: Ich führe Sie durch den Code. Kenntnisse über die Grundlagen von C# machen die Dinge jedoch klarer.
 
 ### Installationsschritte
 

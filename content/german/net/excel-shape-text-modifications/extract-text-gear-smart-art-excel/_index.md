@@ -48,7 +48,7 @@ string sourceDir = "Your Document Directory";
 ## Schritt 2: Laden Sie die Excel-Arbeitsmappe
 Als nächstes laden wir die Excel-Arbeitsmappe. So können wir auf deren Inhalt zugreifen:
 ```csharp
-// Laden Sie eine Excel-Beispieldatei mit der Smart Art-Form vom Typ „Zahnrad“.
+// Laden Sie eine Excel-Beispieldatei mit einer Smart-Art-Form vom Typ „Zahnrad“.
 Workbook wb = new Workbook(sourceDir + "sampleExtractTextFromGearTypeSmartArtShape.xlsx");
 ```
 Dieser Teil lädt Ihre Beispiel-Excel-Arbeitsmappe.

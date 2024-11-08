@@ -50,7 +50,7 @@ Workbook workbook = new Workbook(dataDir + "sample-document-properties.xlsx");
 ```csharp
 Aspose.Cells.Properties.DocumentPropertyCollection customProperties = workbook.Worksheets.CustomDocumentProperties;
 ```
- Подумайте о`customProperties` как ящик для хранения всех полезных сведений, связанных с вашим файлом Excel.
+ Подумайте о`customProperties` как ящик для хранения всей удобной информации, связанной с вашим файлом Excel.
 ## Шаг 4: Доступ к определенному свойству документа
 Теперь давайте заглянем в коллекцию свойств и выберем определенное свойство документа. Для этого примера мы получим доступ к первому пользовательскому свойству.
 ```csharp

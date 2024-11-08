@@ -27,7 +27,7 @@ Lassen Sie uns nun jeden Teil dieses Codeimports aufschlüsseln:
 - `Aspose.Cells` ist die Kernbibliothek, die wir zum Bearbeiten von Excel-Dateien verwenden.
 - `Aspose.Cells.Drawing` ist erforderlich, wenn wir mit Formen in Excel arbeiten.
 - `System` ist eine Standardbibliothek zum Erstellen grundlegender C#-Anwendungen.
-Nachdem wir nun alles eingerichtet haben, können wir beginnen, indem wir ein Bild als Textur innerhalb einer Form in unserem Excel-Dokument anordnen. Wir werden dies in detaillierte Schritte unterteilen.
+Nachdem wir nun alles eingerichtet haben, können wir beginnen, indem wir ein Bild als Textur innerhalb einer Form in unserem Excel-Dokument kacheln. Wir werden dies in detaillierte Schritte unterteilen.
 ## Schritt 1: Verzeichnispfade einrichten
 Als Erstes müssen Sie die Quell- und Ausgabeverzeichnisse einrichten. So können Sie angeben, wo sich Ihre Excel-Datei befindet und wo Sie die Ausgabe speichern möchten.
 ```csharp
@@ -40,7 +40,7 @@ Als Nächstes müssen wir die Excel-Datei laden, die die Form enthält, die Sie 
 ```csharp
 Workbook wb = new Workbook(sourceDir + "sampleTextureFill_IsTiling.xlsx");
 ```
- In diesem Schritt erstellen wir eine Instanz des`Workbook` Klasse und geben Sie den Pfad unserer Excel-Datei weiter. Die Datei`sampleTextureFill_IsTiling.xlsx` werden in den folgenden Schritten abgearbeitet.
+ In diesem Schritt erstellen wir eine Instanz des`Workbook` Klasse und übergeben Sie den Pfad unserer Excel-Datei. Die Datei`sampleTextureFill_IsTiling.xlsx` werden in den folgenden Schritten abgearbeitet.
 ## Schritt 3: Zugriff auf das Arbeitsblatt
 Nachdem die Arbeitsmappe geladen wurde, besteht unser nächstes Ziel darin, auf das spezifische Arbeitsblatt zuzugreifen, an dem wir arbeiten möchten. Verwenden Sie den folgenden Code:
 ```csharp

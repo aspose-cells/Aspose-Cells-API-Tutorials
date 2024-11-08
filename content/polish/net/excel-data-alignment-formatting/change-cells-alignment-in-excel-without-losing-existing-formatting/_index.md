@@ -2,7 +2,7 @@
 title: Zmień wyrównanie komórek w programie Excel bez utraty formatowania
 linktitle: Zmień wyrównanie komórek w programie Excel bez utraty formatowania
 second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Dowiedz się, jak zmienić wyrównanie komórek programu Excel bez utraty formatowania za pomocą Aspose.Cells dla .NET. Postępuj zgodnie z naszym kompleksowym przewodnikiem krok po kroku, aby uzyskać płynną kontrolę.
+description: Dowiedz się, jak zmienić wyrównanie komórek programu Excel bez utraty formatowania za pomocą Aspose.Cells dla .NET. Postępuj zgodnie z naszym kompleksowym przewodnikiem krok po kroku, aby uzyskać bezproblemową kontrolę.
 type: docs
 weight: 10
 url: /pl/net/excel-data-alignment-formatting/change-cells-alignment-in-excel-without-losing-existing-formatting/

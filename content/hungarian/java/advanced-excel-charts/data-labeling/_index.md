@@ -132,6 +132,6 @@ Igen, személyre szabhatja a címkéket a betűtípusok, színek és egyéb form
 
 Az Aspose.Cells for Java különféle formátumokat támogat a címkézett táblázatok mentéséhez, beleértve az Excel formátumot is.
 
-### Hogyan kezelhetem a hibákat az adatok címkézése közben?
+### Hogyan kezelhetem az adatok címkézése során fellépő hibákat?
 
 A hibákat kecsesen kezelheti, ha try-catch blokkokat használ a kivételek elkapására és értelmes hibaüzenetek küldésére.

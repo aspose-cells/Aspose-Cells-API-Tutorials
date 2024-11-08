@@ -14,7 +14,7 @@ Zanim przejdziemy do szczegółów dodawania obramowań do komórek programu Exc
 ### Wymagania programowe
 1. Visual Studio — upewnij się, że masz zainstalowany program Visual Studio, ponieważ będzie to Twoje podstawowe środowisko programistyczne.
 2.  Aspose.Cells dla .NET - Musisz mieć bibliotekę Aspose.Cells. Jeśli jeszcze jej nie zainstalowałeś, możesz ją pobrać ze strony[Strona Aspose](https://releases.aspose.com/cells/net/).
-### Podstawowa wiedza
+### Wiedza podstawowa
 Aby w pełni skorzystać z tego samouczka, powinieneś posiadać podstawową wiedzę na temat:
 - Język programowania C#.
 - Praca z programem Visual Studio i ogólna konfiguracja projektu .NET.

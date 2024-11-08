@@ -30,7 +30,7 @@ Ezeknek a névtereknek a felvétele hozzáférést biztosít az összes osztály
 
 Most, hogy mindent beállítottunk, bontsuk le az Excel cellában lévő szöveg aláhúzásához szükséges kód minden aspektusát.
 ## 1. lépés: Állítsa be a dokumentumkönyvtárat
-Mindenekelőtt szüksége lesz egy helyre a meghajtón, ahová mentheti Excel fájljait. Így hozhatja létre ezt a könyvtárat:
+Mindenekelőtt szüksége lesz egy helyre a meghajtón, ahová mentheti Excel fájljait. A következőképpen hozhatja létre ezt a könyvtárat:
 ```csharp
 // A dokumentumok könyvtárának elérési útja.
 string dataDir = "Your Document Directory";

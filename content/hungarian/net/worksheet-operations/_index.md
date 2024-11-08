@@ -2,7 +2,7 @@
 title: Munkalap műveletek
 linktitle: Munkalap műveletek
 second_title: Aspose.Cells .NET Excel Processing API
-description: Fokozza ki az Aspose.Cells for .NET-ben rejlő teljes potenciálját ezekkel a gyakorlati oktatóanyagokkal, amelyek lefedik a munkalapok műveleteit és javítják az Excel-fájlokat.
+description: Fokozza ki az Aspose.Cells for .NET-ben rejlő teljes potenciálját ezekkel a gyakorlati oktatóanyagokkal, amelyek a munkalapok műveleteit és az Excel-fájlok javítását ismertetik.
 type: docs
 weight: 33
 url: /hu/net/worksheet-operations/
@@ -28,3 +28,39 @@ Ebből az útmutatóból megtudhatja, hogyan javíthatja az Excel-adatok vizuál
 Az Aspose.Cells for .NET segítségével könnyedén kivonhatja és kezelheti a hiperhivatkozásokat Excel-fájlokból. Lépésről lépésre útmutató és kódpéldák mellékelve.
 ### [Képbeállítások beállítása HTML-hez a .NET-ben](./setting-image-preferences-for-html/)
 Oldja fel az Aspose.Cells erejét .NET-hez. Ismerje meg, hogyan állíthat be képbeállításokat a HTML-konverzióhoz, hogy Excel-adatait gyönyörűen jelenítse meg az interneten.
+### [Szálas megjegyzések hozzáadása a munkalaphoz](./add-threaded-comments/)
+Ebből a lépésről lépésre mutató oktatóanyagból megtudhatja, hogyan adhat hozzáfűzött megjegyzéseket Excel-munkalapokhoz az Aspose.Cells for .NET használatával. Fokozza az együttműködést erőfeszítés nélkül.
+### [Számolja meg a cellák számát a munkalapon](./count-cells/)
+Oldja fel az Aspose.Cells erejét .NET-hez. Ebből a lépésenkénti útmutatóból megtudhatja, hogyan számolhat cellákat egy Excel-munkalapon.
+### [Cellák kivágása és beillesztése a munkalapon](./cut-and-paste-cells/)
+Ezzel az egyszerű, lépésenkénti oktatóanyaggal megtudhatja, hogyan vághat ki és illeszthet be cellákat az Excelben az Aspose.Cells for .NET használatával.
+### [Nemzetközi makrólap észlelése a munkafüzetben](./detect-international-macro-sheet/)
+Fedezze fel, hogyan észlelheti a nemzetközi makrólapokat Excelben az Aspose.Cells for .NET használatával ebben a részletes, lépésről lépésre szóló útmutatóban. Tökéletes fejlesztőknek.
+### [Szálas megjegyzések szerkesztése a munkalapon](./edit-threaded-comments/)
+Oldja fel a szálas megjegyzések szerkesztésének varázsát az Excelben az Aspose.Cells for .NET használatával! Kövesse lépésenkénti útmutatónkat, és könnyedén sajátítsa el dokumentumait.
+### [Ellenőrizze, hogy a munkalap párbeszédlap-e](./check-dialog-sheet/)
+Ebből a lépésenkénti oktatóanyagból megtudhatja, hogyan ellenőrizheti, hogy egy munkalap párbeszédlap-e az Aspose.Cells for .NET használatával.
+### [Szerezze be a cellaellenőrzést az ODS-fájlban](./get-cell-validation-ods/)
+Ismerje meg, hogyan kérheti le az ODS-fájlok cellaellenőrzését az Aspose.Cells for .NET használatával. Lépésről lépésre szóló útmutató fejlesztőknek.
+### [Támogatás elérése a munkalap külső hivatkozásaival](./get-range-with-external-links/)
+Ebből az átfogó, lépésenkénti oktatóanyagból megtudhatja, hogyan szerezhet hatékonyan tartományokat külső hivatkozásokkal az Excel-munkalapokon az Aspose.Cells for .NET használatával.
+### [Szerezze be a munkalap egyedi azonosítóját](./get-worksheet-id/)
+Ebből a lépésenkénti útmutatóból megtudhatja, hogyan szerezheti be egy munkalap egyedi azonosítóját az Aspose.Cells for .NET használatával. Hatékonyabban kezelheti táblázatait.
+### [Nyomtatási lap további beállításokkal](./print-sheet-with-settings/)
+Ebből a részletes, lépésenkénti útmutatóból megtudhatja, hogyan nyomtathat könnyedén Excel-lapokat az Aspose.Cells for .NET segítségével.
+### [Olvassa el az ODS háttérképet](./read-ods-background/)
+Ebből az átfogó, lépésről lépésre mutató oktatóanyagból megtudhatja, hogyan olvashat ODS-háttérképeket az Aspose.Cells for .NET használatával. Tökéletes fejlesztők és rajongók számára.
+### [Olvassa el a menetes megjegyzések létrehozásának ideje a munkalapon](./read-threaded-comment-created-time/)
+Tanulja meg a szálas megjegyzések létrehozási idejét az Excelben az Aspose.Cells for .NET használatával olvasni. Lépésről lépésre útmutató kódpéldákkal.
+### [Olvassa el a menetes megjegyzéseket a munkalapon](./read-threaded-comments/)
+Az Aspose.Cells for .NET segítségével felszabadíthatja a szálas megjegyzések olvasásának lehetőségét az Excelben. Merüljön el ebben a lépésenkénti útmutatóban az egyszerű dokumentumkezelés érdekében.
+### [Távolítsa el a szálas megjegyzéseket a munkalapról](./remove-threaded-comments/)
+Könnyen távolítsa el a menetes megjegyzéseket az Excel-munkalapokról az Aspose.Cells for .NET segítségével ezzel a lépésenkénti útmutatóval. Egyszerűsítse Excel kezelését.
+### [Állítsa be a színes hátteret az ODS fájlban](./set-ods-colored-background/)
+Ismerje meg, hogyan állíthat be színes hátteret az ODS-fájlokban az Aspose.Cells for .NET segítségével, lépésről lépésre bemutatott oktatóanyagok és tippek segítségével.
+### [Állítsa be a grafikus hátteret az ODS fájlban](./set-ods-graphic-background/)
+Ebből az átfogó, lépésről lépésre szóló útmutatóból megtudhatja, hogyan állíthat be grafikus hátteret ODS-fájlokban az Aspose.Cells for .NET segítségével.
+### [Frissítse a verziónapló-előzményeket a megosztott munkafüzetben](./update-revision-log-history/)
+Ismerje meg, hogyan frissítheti a verziónapló-előzményeket megosztott munkafüzetekben az Aspose.Cells for .NET segítségével. Egyszerűsítse az együttműködést, és tartson fenn egyértelmű dokumentumnyilvántartást.
+### [Használja az OpenXml Sheet_SheetId tulajdonságát a munkalapon](./utilize-sheet-sheetid-property/)
+Fedezze fel az Excel erejét az Aspose.Cells for .NET segítségével. Ismerje meg a munkalapazonosítók hatékony kezelését lépésenkénti útmutatónkkal.

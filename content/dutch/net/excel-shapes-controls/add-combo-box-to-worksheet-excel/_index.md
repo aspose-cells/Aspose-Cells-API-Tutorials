@@ -88,7 +88,7 @@ Aspose.Cells.Drawing.ComboBox comboBox = sheet.Shapes.AddComboBox(2, 0, 2, 0, 22
 
 - AddComboBox: Voegt een nieuwe combobox toe aan het werkblad. De getallen (2, 0, 2, 0, 22, 100) geven de positie en afmetingen van de combobox weer.
 ## Stap 6: Koppel de keuzelijst aan een cel en stel het invoerbereik in
-Om de keuzelijst functioneel te maken, moeten we deze koppelen aan een specifieke cel en het celbereik definiëren waaruit de opties worden gehaald.
+Om de keuzelijst functioneel te maken, moeten we deze koppelen aan een specifieke cel en het bereik van cellen definiëren waaruit de opties worden gehaald.
 
 ```csharp
 // Stel de gekoppelde cel in.

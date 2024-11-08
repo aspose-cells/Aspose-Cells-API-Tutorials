@@ -27,9 +27,9 @@ Vítejte v našem dokonalém průvodci pro zvládnutí písem v Excelu pomocí A
 
  Rozmanitost je kořením života a to platí i pro písma. Podívejte se na náš tutoriál na[Použití různých stylů písem v aplikaci Excel](./applying-different-fonts-styles/) prozkoumat různé možnosti stylingu, od tučného písma po kurzívu, které mohou dramaticky změnit dojem z vaší tabulky! Pomocí Aspose.Cells for .NET můžete snadno kombinovat styly a vytvářet dynamické a poutavé pracovní listy. 
 
-## Použití typu podtržení písma v Excelu
+## Použití písma Typ podtržení v Excelu
 
- Cítili jste někdy potřebu zdůraznit určitou informaci v excelových listech? Podtržení může být váš nejlepší přítel! V našem podrobném průvodci na[Použití typu podtržení písma v Excelu](./using-font-underline-type/)ukážeme vám, jak efektivně aplikovat podtržení na text ve vašich buňkách pomocí Aspose.Cells for .NET. Tento jednoduchý návod krok za krokem usnadňuje přidání důrazu tam, kde je to nejdůležitější, ať už jde o nadpisy, důležité poznámky nebo konkrétní datové body.
+ Cítili jste někdy potřebu zdůraznit určitou informaci v excelových listech? Podtržení může být váš nejlepší přítel! V našem podrobném průvodci na[Použití písma Typ podtržení v Excelu](./using-font-underline-type/)ukážeme vám, jak efektivně aplikovat podtržení na text ve vašich buňkách pomocí Aspose.Cells for .NET. Tento jednoduchý návod krok za krokem usnadňuje přidání důrazu tam, kde je to nejdůležitější, ať už jde o nadpisy, důležité poznámky nebo konkrétní datové body.
 
 ## Vytvoření efektu přeškrtnutí textu v aplikaci Excel
 
@@ -52,7 +52,7 @@ V tomto podrobném návodu se dozvíte, jak nastavit název písma v listu aplik
 Naučte se, jak změnit velikost písma v Excelu pomocí Aspose.Cells pro .NET. Tento snadný průvodce vás krok za krokem provede kódováním, aby byly vaše tabulky atraktivnější.
 ### [Použití různých stylů písem v aplikaci Excel](./applying-different-fonts-styles/)
 Naučte se používat různé styly písem v aplikaci Excel pomocí Aspose.Cells for .NET. Výukový program krok za krokem pro vylepšení návrhu tabulky.
-### [Použití typu podtržení písma v Excelu](./using-font-underline-type/)
+### [Použití písma Typ podtržení v Excelu](./using-font-underline-type/)
 Naučte se, jak používat Aspose.Cells pro .NET ke snadnému podtržení textu v buňkách Excelu pomocí našeho podrobného průvodce.
 ### [Vytvoření efektu přeškrtnutí textu v aplikaci Excel](./creating-strike-out-effect/)
 Naučte se, jak aplikovat efekt přeškrtnutí na text v Excelu pomocí Aspose.Cells for .NET v tomto podrobném podrobném tutoriálu.

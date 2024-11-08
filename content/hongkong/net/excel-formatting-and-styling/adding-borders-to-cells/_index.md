@@ -11,7 +11,7 @@ url: /zh-hant/net/excel-formatting-and-styling/adding-borders-to-cells/
 使用 Excel 電子表格時，視覺清晰度至關重要。乾淨的格式不僅使數據更易於閱讀，而且還增強了其整體呈現效果。提高 Excel 工作表視覺吸引力的最簡單但最有效的方法之一是向儲存格新增邊框。在本文中，我們將深入探討如何使用 Aspose.Cells for .NET 為 Excel 中的儲存格新增邊框。
 ## 先決條件
 在我們深入了解使用 Aspose.Cells 向 Excel 單元格添加邊框的具體細節之前，讓我們先回顧一下開始時需要做什麼。
-### 軟體要求
+### 軟體需求
 1. Visual Studio - 確保安裝了 Visual Studio，因為它將成為您的主要開發環境。
 2.  Aspose.Cells for .NET - 您需要擁有 Aspose.Cells 函式庫。如果您還沒有安裝，可以從以下地址下載[阿斯普斯網站](https://releases.aspose.com/cells/net/).
 ### 基礎知識

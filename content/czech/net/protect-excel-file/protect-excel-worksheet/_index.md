@@ -43,7 +43,7 @@ V tomto prvním kroku definujete cestu k adresáři, kde jsou uloženy vaše exc
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
-Stačí nahradit „VÁŠ ADRESÁŘ DOKUMENTŮ“ skutečnou cestou, kterou budete používat.
+Stačí nahradit "VÁŠ ADRESÁŘ DOKUMENTŮ" skutečnou cestou, kterou budete používat.
 
 ## Krok 2: Vytvořte stream souborů pro otevření souboru Excel
 

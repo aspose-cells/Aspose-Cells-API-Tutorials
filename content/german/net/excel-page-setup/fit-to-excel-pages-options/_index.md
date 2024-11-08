@@ -9,7 +9,7 @@ url: /de/net/excel-page-setup/fit-to-excel-pages-options/
 ---
 ## Einführung
 
-Willkommen zum ultimativen Leitfaden zur Nutzung der leistungsstarken Aspose.Cells-Bibliothek für .NET! Wenn Sie schon einmal frustriert waren, weil Sie Ihre Excel-Arbeitsblätter nicht ordentlich auf Seiten anpassen konnten, sind Sie nicht allein. In der dynamischen Welt der Excel-Dateibearbeitung kann es eine Herausforderung sein, sicherzustellen, dass Ihre Daten gut präsentiert werden. Heute werden wir uns eingehend mit der Funktion „An Excel-Seiten anpassen“ befassen. Also schnappen Sie sich Ihren Laptop und legen Sie los!
+Willkommen zum ultimativen Leitfaden zur Nutzung der leistungsstarken Aspose.Cells-Bibliothek für .NET! Wenn Sie sich schon einmal darüber geärgert haben, wie Sie Ihre Excel-Arbeitsblätter ordentlich auf Seiten anpassen können, sind Sie nicht allein. In der dynamischen Welt der Excel-Dateibearbeitung kann es eine Herausforderung sein, sicherzustellen, dass Ihre Daten gut präsentiert werden. Heute werden wir uns eingehend mit der Funktion „An Excel-Seiten anpassen“ befassen. Also schnappen Sie sich Ihren Laptop und legen Sie los!
 
 ## Voraussetzungen
 

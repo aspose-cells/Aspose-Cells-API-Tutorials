@@ -8,7 +8,7 @@ weight: 12
 url: /zh-hant/net/exporting-excel-to-html-with-advanced-options/exporting-print-area/
 ---
 ## 介紹
-當涉及到以程式設計方式操作 Excel 檔案時，尤其是當您想要將特定部分（例如列印區域）匯出為 HTML 時，Aspose.Cells for .NET 是一個不錯的選擇。無論您是建立報告、儀表板還是只是共享數據，匯出正確的內容都可以節省時間並增強簡報效果。在本指南中，我們將逐步介紹使用 Aspose.Cells 將定義的列印區域從 Excel 檔案匯出為 HTML 格式的步驟。你準備好了嗎？讓我們深入了解吧！
+當涉及到以程式設計方式操作 Excel 檔案時，尤其是當您想要將特定部分（例如列印區域）匯出為 HTML 時，Aspose.Cells for .NET 是一個不錯的選擇。無論您是建立報告、儀表板還是只是共享數據，匯出正確的內容都可以節省時間並增強簡報效果。在本指南中，我們將逐步介紹使用 Aspose.Cells 將定義的列印區域從 Excel 檔案匯出為 HTML 格式的步驟。你準備好了嗎？讓我們深入了解一下吧！
 ## 先決條件
 在我們開始實際編碼部分之前，讓我們確保您已完成所有設定。以下是您開始使用時所需要的：
 1. .NET Framework：請確保您的電腦上安裝了 .NET Framework 版本，因為 Aspose.Cells 程式庫正在其上執行。

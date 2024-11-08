@@ -39,7 +39,7 @@ string outputDir = "Your Document Directory";
 ```
  Remplacer`"Your Document Directory"` avec le chemin réel de vos fichiers. Cela garantit que votre application sait où extraire l'entrée et où envoyer la sortie.
 ## Étape 2 : charger le classeur Excel
- Maintenant, chargeons l'exemple de fichier Excel qui contient les compléments Office. Pour cela, il faut créer une nouvelle instance du fichier`Workbook` classe de Aspose.Cells :
+ Maintenant, chargeons le fichier Excel d'exemple qui contient les compléments Office. Pour cela, il faut créer une nouvelle instance du`Workbook` classe de Aspose.Cells :
 ```csharp
 // Charger l'exemple de fichier Excel contenant les compléments Office
 Workbook wb = new Workbook(sourceDir + "sampleRenderOfficeAdd-Ins.xlsx");

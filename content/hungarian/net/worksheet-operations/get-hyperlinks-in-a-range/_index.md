@@ -18,7 +18,7 @@ Mielőtt belevágnánk a kódolás finomságába, meg kell felelnie néhány el�
 4. C# alapismeretek: A C# programozás ismerete hasznos, de ha hajlandó vagy tanulni, akkor jó!
 Ezen előfeltételek ismeretében készen állunk a görgetésre. Térjünk át néhány alapvető kódolásra – a szükséges csomagok importálására és a példánk lépésről lépésre történő lebontására.
 ## Csomagok importálása
-A kódolás egyik első lépése a szükséges csomagok importálása. Hozzá kell adnia egy hivatkozást az Aspose.Cells könyvtárra a projektben. Ezt általában a NuGet Package Manageren keresztül lehet megtenni. Íme, hogyan kell csinálni:
+kódolás egyik első lépése a szükséges csomagok importálása. Hozzá kell adnia egy hivatkozást az Aspose.Cells könyvtárra a projektben. Ezt általában a NuGet Package Manageren keresztül lehet megtenni. Íme, hogyan kell csinálni:
 1. Nyissa meg a Visual Studio-t.
 2. Kattintson a projektjére a Solution Explorerben.
 3. Kattintson a jobb gombbal, és válassza a NuGet-csomagok kezelése lehetőséget.
@@ -37,7 +37,7 @@ string sourceDir = "Your Document Directory"; // Módosítsa ezt az Excel-fájl 
 // Kimeneti könyvtár
 string outputDir = "Your Document Directory"; // Győződjön meg arról, hogy ez a módszer érvényes kimeneti útvonalat biztosít
 ```
- Ebben a részletben cserélje ki`"Your Document Directory"`az Excel fájlt tartalmazó könyvtár tényleges elérési útjával. Ez olyan, mintha felállítaná a színpadot az előadása előtt – kulcsfontosságú, hogy tudja, hol vannak az anyagok.
+ Ebben a részletben cserélje ki`"Your Document Directory"` az Excel fájlt tartalmazó könyvtár tényleges elérési útjával. Ez olyan, mintha felállítaná a színpadot az előadása előtt – kulcsfontosságú, hogy tudja, hol vannak az anyagok.
 ## 2. lépés: Példányosítsa a munkafüzet objektumot
  Ezután létrehozunk egy`Workbook` objektum megnyitásához az Excel-fájlt, amellyel dolgozunk.
 ```csharp
@@ -45,7 +45,7 @@ string outputDir = "Your Document Directory"; // Győződjön meg arról, hogy e
 // Nyisson meg egy Excel fájlt
 Workbook workbook = new Workbook(sourceDir + "HyperlinksSample.xlsx");
 ```
- Itt egy újat hozunk létre`Workbook` példa. A`Workbook` osztály lényegében az Ön átjárója az Excel fájlokkal kapcsolatos összes művelethez. Gondolhatod úgy, mintha kinyitnád azt a könyvet, amelyben minden tartalmad megtalálható.
+ Itt egy újat hozunk létre`Workbook` példa. A`Workbook`osztály lényegében az Ön átjárója az Excel fájlokkal kapcsolatos összes művelethez. Gondolhatod úgy, mintha kinyitnád azt a könyvet, amelyben minden tartalmad megtalálható.
 ## 3. lépés: Nyissa meg a munkalapot
 Most, hogy elkészült a munkafüzet, vegyük elő belőle az első munkalapot. Az Excelben a munkalapok olyanok, mint a könyv oldalai, és meg kell adnunk, hogy melyik oldalon dolgozunk.
 ```csharp
@@ -54,19 +54,19 @@ Worksheet worksheet = workbook.Worksheets[0];
 ```
  A hozzáféréssel`Worksheets[0]`, az első munkalapot választjuk. A munkalapok nullától kezdve indexelve vannak, ezért ügyeljen arra, hogy a megfelelőt válassza.
 ## 4. lépés: Hozzon létre egy tartományt
-Most itt az ideje, hogy meghatározzuk azt a tartományt, amelyben hiperhivatkozásokat szeretnénk keresni. Esetünkben tegyük fel, hogy az A2–B3 cellákban szeretnénk keresni.
+Itt az ideje, hogy meghatározzuk azt a tartományt, amelyben hiperhivatkozásokat szeretnénk keresni. Esetünkben tegyük fel, hogy az A2-B3 cellákban szeretnénk keresni.
 ```csharp
 // Hozzon létre egy A2:B3 tartományt
 Range range = worksheet.Cells.CreateRange("A2", "B3");
 ```
- Hívással`CreateRange`megadjuk a kezdő és a záró cellákat. Itt történik a varázslat – később ellenőrizni fogjuk az ebben a megadott tartományban található hiperhivatkozásokat.
+ Hívással`CreateRange`, megadjuk a kezdő és a záró cellákat. Itt történik a varázslat – később ellenőrizni fogjuk az ebben a megadott tartományban található hiperhivatkozásokat.
 ## 5. lépés: Töltse le a hiperhivatkozásokat a tartományból
 Ez az a lépés, ahol ténylegesen elérjük a megadott tartományunkban található hiperhivatkozásokat.
 ```csharp
 // hiperhivatkozások hatótávolsága
 Hyperlink[] hyperlinks = range.Hyperlinks;
 ```
- A`Hyperlinks` tulajdona a`Range` Az objektum egy tömböt ad vissza`Hyperlink` az adott tartományban található objektumok. Ez olyan, mintha egy mozdulattal lefoglalná az összes fontos jegyzetet az oldaláról!
+ A`Hyperlinks` tulajdona a`Range` Az objektum egy tömböt ad vissza`Hyperlink`az adott tartományban található objektumok. Ez olyan, mintha egy mozdulattal lefoglalná az összes fontos jegyzetet az oldaláról!
 ## 6. lépés: Loop Through és jelenítse meg a hivatkozásokat
 Most ismételjük át a letöltött hiperhivatkozásokat. Címeiket és területeiket egyelőre kinyomtatjuk a konzolon.
 ```csharp
@@ -85,7 +85,7 @@ foreach (Hyperlink link in hyperlinks)
     link.Delete();
 }
 ```
- A`Delete()`metódus az egyes hiperhivatkozásokon lehetővé teszi az olyan hiperhivatkozások eltávolítását, amelyekre esetleg már nincs szüksége. Ez olyan, mintha egy már nem szükséges firkát törölnél ki az oldaladról.
+ A`Delete()` metódus az egyes hiperhivatkozásokon lehetővé teszi az olyan hiperhivatkozások eltávolítását, amelyekre esetleg már nincs szüksége. Ez olyan, mintha egy már nem szükséges firkát törölnél ki az oldaladról.
 ## 8. lépés: Mentse el a változtatásokat
 Végül mentsük el a munkafüzetet az összes elvégzett módosítással.
 ```csharp

@@ -108,7 +108,7 @@ saveOptions.ImageOptions.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.
 
 ## Etapa 7: otimizar a renderização do texto
 
-renderização de texto também pode ser otimizada para uma melhor experiência visual. Defina a dica de renderização de texto para AntiAlias para obter uma renderização de texto mais suave.
+A renderização de texto também pode ser otimizada para uma melhor experiência visual. Defina a dica de renderização de texto para AntiAlias para obter uma renderização de texto mais suave.
 
 ```csharp
 saveOptions.ImageOptions.TextRenderingHint = System.Drawing.Text.TextRenderingHint.AntiAlias;

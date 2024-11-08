@@ -170,3 +170,25 @@ Kuasai penyesuaian baris dan kolom secara otomatis di Excel dengan Aspose.Cells 
 Jelajahi tutorial lengkap tentang mengelola pemotong Excel dengan Aspose.Cells untuk .NET. Pelajari cara membuat, memperbarui, memformat, dan mengekspor pemotong dengan mudah.
 ### [Penanda Cerdas di Aspose.Cells untuk Data Dinamis](./smart-markers-dynamic-data/)
 Jelajahi Tutorial Penanda Cerdas Aspose.Cells for .NET untuk membuat laporan Excel yang dinamis. Pelajari cara menambahkan label, mengisi data secara otomatis, menggunakan rumus, dan banyak lagi.
+### [Tabel dan Daftar](./tables-and-lists/)
+Jelajahi tutorial Aspose.Cells for .NET yang komprehensif untuk mengelola data Excel secara efisien, membuat tabel, dan meningkatkan keterampilan Anda dengan panduan yang mudah diikuti.
+### [Operasi Buku Kerja Aspose.Cells](./workbook-operations/)
+Jelajahi tutorial buku kerja Aspose.Cells untuk .NET yang mencakup akses data, kustomisasi XML, tanda tangan, ekstensi web, dan banyak lagi. Tingkatkan keterampilan otomatisasi Excel dengan mudah.
+### [Pengaturan Buku Kerja](./workbook-settings/)
+Jelajahi tutorial Aspose.Cells untuk .NET yang komprehensif, yang mencakup pengaturan buku kerja, sumber daya eksternal, dan banyak lagi.
+### [Buku Kerja Proyek VBA](./workbook-vba-project/)
+Manfaatkan kekuatan Excel dengan Aspose.Cells untuk .NET. Jelajahi tutorial lengkap tentang perlindungan proyek VBA, penyalinan formulir pengguna, dan pengamanan buku kerja Anda.
+### [Tampilan Lembar Kerja](./worksheet-display/)
+Temukan daftar lengkap tutorial Aspose.Cells untuk .NET. Tingkatkan keterampilan Excel Anda dengan panduan langkah demi langkah tentang fitur-fitur lembar kerja utama.
+### [Manajemen Lembar Kerja](./worksheet-management/)
+Buka kekuatan Aspose.Cells untuk .NET dengan tutorial komprehensif kami yang memandu Anda melalui manajemen lembar kerja dengan petunjuk langkah demi langkah.
+### [Fitur Pengaturan Halaman Lembar Kerja](./worksheet-page-setup-features/)
+Temukan tutorial pengaturan halaman lembar kerja Aspose.Cells untuk .NET, termasuk pengaturan halaman penyalinan, pengelolaan ukuran kertas, dan pengaturan kualitas cetak untuk lembar kerja Excel.
+### [Lembar Kerja Keamanan](./worksheet-security/)
+Ungkap rahasia keamanan Excel. Jelajahi tutorial Aspose.Cells for .NET kami yang komprehensif untuk melindungi, mengedit, dan mengelola lembar kerja Anda dengan mudah.
+### [Lembar Kerja Operasi Nilai](./worksheet-value-operations/)
+Temukan tutorial penting tentang Aspose.Cells untuk .NET, yang mencakup operasi nilai lembar kerja untuk menyempurnakan proyek Excel Anda.
+### [Operasi Lembar Kerja](./worksheet-operations/)
+Jelajahi tutorial buku kerja Aspose.Cells untuk .NET yang mencakup akses data, kustomisasi XML, tanda tangan, ekstensi web, dan banyak lagi. Tingkatkan keterampilan otomatisasi Excel dengan mudah.
+### [Operasi Peta XML](./xml-map-operations/)
+Temukan tutorial Aspose.Cells untuk .NET yang komprehensif yang mencakup operasi peta XML untuk meningkatkan keterampilan Excel Anda dengan mudah.

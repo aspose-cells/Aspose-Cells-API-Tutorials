@@ -77,9 +77,9 @@ if (cell != null) {
 
 ## Závěr
 
-Gratuluji! Úspěšně jste se naučili, jak provádět operace VLOOKUP pomocí Aspose.Cells for Java. Toto výkonné rozhraní API zjednodušuje složité úlohy aplikace Excel, takže vaše vývojová cesta je plynulejší.
+Gratuluji! Úspěšně jste se naučili, jak provádět operace SVYHLEDAT pomocí Aspose.Cells for Java. Toto výkonné rozhraní API zjednodušuje složité úlohy aplikace Excel, takže vaše vývojová cesta je plynulejší.
 
-Nyní pokračujte a prozkoumejte nekonečné možnosti Aspose.Cells pro Java ve svých projektech Excel!
+Nyní pokračujte a prozkoumejte nekonečné možnosti Aspose.Cells pro Java ve vašich projektech Excel!
 
 ## FAQ
 

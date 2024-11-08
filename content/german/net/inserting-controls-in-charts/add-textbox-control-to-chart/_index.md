@@ -140,7 +140,7 @@ workbook.Save(outputDir + "outputAddingTextBoxControlInChart.xls");
 
 ## Abschluss
 
-Herzlichen Glückwunsch! Sie haben erfolgreich ein TextBox-Steuerelement mit Aspose.Cells für .NET zu einem Diagramm hinzugefügt. Diese einfache, aber effektive Änderung kann Ihre Diagramme informativer und optisch ansprechender machen. Die Datendarstellung ist der Schlüssel zu effektiver Kommunikation und mit Tools wie Aspose können Sie diese Präsentation mit minimalem Aufwand verbessern.
+Herzlichen Glückwunsch! Sie haben erfolgreich ein TextBox-Steuerelement zu einem Diagramm hinzugefügt, indem Sie Aspose.Cells für .NET verwenden. Diese einfache, aber effektive Änderung kann Ihre Diagramme informativer und optisch ansprechender machen. Die Datendarstellung ist der Schlüssel zu effektiver Kommunikation, und mit Tools wie Aspose können Sie diese Präsentation mit minimalem Aufwand verbessern.
 
 ## Häufig gestellte Fragen
 

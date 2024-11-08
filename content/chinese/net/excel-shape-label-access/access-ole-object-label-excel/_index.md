@@ -66,7 +66,7 @@ Aspose.Cells.Drawing.OleObject oleObject = ws.OleObjects[0];
 Console.WriteLine("Ole Object Label - Before: " + oleObject.Label);
 ```
 这使我们在进行任何更改之前可以清楚地看到标签。
-## 步骤 6：修改标签 
+## 步骤6：修改标签 
 现在到了有趣的部分——让我们改变 OLE 对象的标签：
 ```csharp
 oleObject.Label = "Aspose APIs";

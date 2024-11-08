@@ -40,7 +40,7 @@ Avant de créer notre classeur, nous devons définir où nous allons l'enregistr
 // Le chemin vers le répertoire des documents.
 string dataDir = "Your Document Directory"; // Utilisez un chemin absolu ou relatif, selon le cas.
 ```
-Pourquoi est-ce important ? Une configuration correcte garantit que lorsque vous enregistrez votre fichier, vous savez exactement où le trouver. C'est votre carte pour stocker des données précieuses !
+Pourquoi est-ce important ? Une configuration correcte de ce paramètre garantit que lorsque vous enregistrez votre fichier, vous savez exactement où le trouver. C'est votre carte pour stocker des données précieuses !
 ## Étape 2 : Créer un objet classeur
 Créons maintenant un nouvel objet Workbook. Il s'agira de notre fichier Excel dans lequel nous pourrons manipuler les données.
 ```csharp

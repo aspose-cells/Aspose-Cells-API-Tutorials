@@ -103,7 +103,7 @@ workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
 
 - Ez a kód elmenti az Excel-fájlt a megadott könyvtárba "book1.out.xls" néven, Excel 97-2003 formátumban.
 ## Következtetés
-És megvan! Most tanulta meg, hogyan alkalmazhat különböző betűstílusokat az Excelben az Aspose.Cells for .NET segítségével. Ez a nagy teljesítményű könyvtár lehetővé teszi az Excel-fájlok programozott kezelését, növelve a termelékenységet és az adatok vizuális vonzerejét. Tehát menjen előre, és szabja testre Excel-táblázatait, mint egy profi – a táblázatai megérdemlik ezt az extra érzéket!
+És megvan! Most tanulta meg, hogyan alkalmazhat különböző betűstílusokat az Excelben az Aspose.Cells for .NET segítségével. Ez a nagy teljesítményű könyvtár lehetővé teszi az Excel-fájlok programozott kezelését, növelve a termelékenységet és az adatok vizuális vonzerejét. Tehát menjen előre, és szabja testre Excel-táblázatait, mint egy profi – a táblázatok megérdemlik ezt az extra érzéket!
 ## GYIK
 ### Mi az Aspose.Cells?  
 Az Aspose.Cells egy .NET-könyvtár az Excel fájlokkal való munkavégzéshez, amely lehetővé teszi a táblázatok széles körű testreszabását és kezelését.

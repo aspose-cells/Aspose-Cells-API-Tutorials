@@ -24,7 +24,7 @@ Una volta che avrai acquisito dimestichezza con le basi, ci immergeremo in argom
 
 La sezione finale si concentra su integrazione ed esportazione. Scopri come integrare senza problemi Aspose.Cells per Java nelle tue applicazioni ed esportare dati Excel in vari formati, tra cui PDF e HTML. Questi tutorial apriranno nuove possibilità per i tuoi progetti Java, dalla generazione di report alla condivisione efficace dei dati.
 
-Inizia oggi stesso il tuo viaggio con i tutorial di Aspose.Cells per Java e sfrutta appieno il potenziale della manipolazione dei file Excel nelle tue applicazioni Java.
+Inizia subito il tuo viaggio con i tutorial di Aspose.Cells per Java e sfrutta appieno il potenziale della manipolazione dei file Excel nelle tue applicazioni Java.
 
 ## Tutorial su Aspose.Cells per Java
 

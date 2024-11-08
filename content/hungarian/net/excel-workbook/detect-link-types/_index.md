@@ -82,7 +82,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 
 ## 4. lépés: Hozzon létre egy tartományt
 
- Most meghatározunk egy tartományt a munkalapon. Egy tartomány lehetővé teszi, hogy konkrét cellákat célozhassunk meg műveleteinkhez. Ebben az esetben egy tartományt hozunk létre ebből`A1` hogy`A7`, amely hiperhivatkozásainkat tartalmazza.
+ Most meghatározunk egy tartományt a munkalapon. Egy tartomány lehetővé teszi, hogy konkrét cellákat célozhassunk meg műveleteinkhez. Ebben az esetben létrehozunk egy tartományt a következőből`A1` hogy`A7`, amely a hiperhivatkozásainkat tartalmazza.
 
 ```csharp
 // Hozzon létre egy A1:B3 tartományt

@@ -34,7 +34,7 @@ using Aspose.Cells;
 
 Most térjünk át feladatunk lényegére. Minden lépést le fogok bontani, így akkor is könnyen követhető, ha nem vagy tapasztalt fejlesztő.
 
-## 1. lépés: Állítsa be projektjét és munkafüzetét
+## 1. lépés: A projekt és a munkafüzet beállítása
 
 Az első dolog, amire szükségünk van, egy munkafüzet objektum, amely az Excel fájlunkat fogja tárolni. Képzelje el ezt egy tényleges Excel-fájl digitális ábrázolásaként. Egy meglévő Excel-fájlt fogunk betölteni, vagy szükség esetén létrehozhat egy újat.
 

@@ -25,7 +25,7 @@ Nếu bạn thấy mình đang vật lộn với sự phức tạp của Excel, 
 
 ## Nhóm và Tách nhóm Hàng và Cột
 
- Bạn đã bao giờ cảm thấy choáng ngợp vì khối lượng dữ liệu trong bảng tính của mình chưa? Việc nhóm các hàng và cột có thể đơn giản hóa đáng kể chế độ xem của bạn, cho phép bạn thu gọn các phần dữ liệu khi không sử dụng. Bằng cách này, bạn có thể tập trung vào những gì cần thiết! Hướng dẫn của chúng tôi về[Nhóm các hàng và cột](./grouping-rows-and-columns/) hướng dẫn bạn thực hiện quy trình, chỉ cho bạn cách tạo cấu trúc sạch hơn và có tổ chức hơn. Khi bạn đã thoải mái khi nhóm, đừng quên kiểm tra hướng dẫn của chúng tôi về[Tách nhóm các hàng và cột](./ungrouping-rows-and-columns/) khi bạn cần lấy dữ liệu đó trở lại để phân tích chi tiết hơn.
+ Bạn đã bao giờ cảm thấy choáng ngợp vì khối lượng dữ liệu trong bảng tính của mình chưa? Việc nhóm các hàng và cột có thể đơn giản hóa đáng kể chế độ xem của bạn, cho phép bạn thu gọn các phần dữ liệu khi không sử dụng. Theo cách này, bạn có thể tập trung vào những gì cần thiết! Hướng dẫn của chúng tôi về[Nhóm các hàng và cột](./grouping-rows-and-columns/) hướng dẫn bạn thực hiện quy trình, chỉ cho bạn cách tạo cấu trúc sạch hơn và có tổ chức hơn. Khi bạn đã thoải mái khi nhóm, đừng quên kiểm tra hướng dẫn của chúng tôi về[Tách nhóm các hàng và cột](./ungrouping-rows-and-columns/) khi bạn cần lấy dữ liệu đó trở lại để phân tích chi tiết hơn.
 
 ## Tạo hàng tóm tắt
 

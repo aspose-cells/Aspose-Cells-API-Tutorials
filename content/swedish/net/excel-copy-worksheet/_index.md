@@ -11,7 +11,7 @@ url: /sv/net/excel-copy-worksheet/
 
 När det kommer till att hantera Excel-filer med hjälp av .NET utmärker sig Aspose.Cells som ett kraftfullt bibliotek som kan hantera allt från enkla uppgifter till komplexa automatiseringar. Men var börjar man? Inga bekymmer, vi har dig täckt med en rad handledningar utformade speciellt för .NET-utvecklare som du!
 
-## Kopiera arbetsblad på ett enkelt sätt
+## Kopiering av arbetsblad på ett enkelt sätt
 
  Har du någonsin önskat att du kunde kopiera ett kalkylblad från en Excel-arbetsbok till en annan med bara några rader kod? Det låter som magi! Med Aspose.Cells för .NET är det fullt möjligt. Vår handledning om[Excel Kopiera kalkylblad från annan arbetsbok](./excel-copy-worksheet-from-other-workbook/)leder dig genom denna process steg-för-steg, vilket gör det enkelt och okomplicerat. Du kommer att lära dig de exakta kodavsnitten som du ska använda, så att du enkelt kan implementera den här funktionen i dina egna projekt. Dessutom är det en realtidssparare när du arbetar med stora datamängder!
 
@@ -33,4 +33,4 @@ Aspose.Cells för .NET erbjuder kraftfull funktionalitet för att manipulera Exc
 | [Excel Kopiera kalkylblad från annan arbetsbok](./excel-copy-worksheet-from-other-workbook/) | Lär dig hur du kopierar ett kalkylblad från en Excel-arbetsbok till en annan med Aspose.Cells för .NET med denna steg-för-steg-guide. |  
 | [Excel kopia arbetsblad](./excel-copy-worksheet/) | Lär dig hur du kopierar ett Excel-kalkylblad med Aspose.Cells för .NET med denna lätta att följa steg-för-steg-guide. Perfekt för .NET-utvecklare som vill automatisera Excel-uppgifter. |  
 | [Excel Kopiera arbetsblad mellan arbetsböcker](./excel-copy-worksheets-between-workbooks/) | Lär dig hur du kopierar kalkylblad mellan Excel-arbetsböcker med Aspose.Cells för .NET. En steg-för-steg-guide med kodexempel för att effektivisera din kalkylarkshantering. |  
-| [Excel Flytta kalkylblad](./excel-move-worksheet/) | Lär dig att flytta kalkylblad i Excel med Aspose.Cells för .NET i vår steg-för-steg-guide. Bemästra konsten att programmera i Excel. |  
+| [Excel Flytta kalkylblad](./excel-move-worksheet/) | Lär dig att flytta kalkylblad i Excel med Aspose.Cells för .NET i vår steg-för-steg-guide. Bemästra konsten att programmera Excel. |  

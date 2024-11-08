@@ -94,7 +94,7 @@ radio1.Line.Weight = 4;
 // Legen Sie den Strichstil des Optionsfelds fest.
 radio1.Line.DashStyle = MsoLineDashStyle.Solid;
 ```
-Indem wir einen Schatten hinzufügen und den Linienstil anpassen, verbessern wir die Sichtbarkeit der Schaltfläche. Es ist, als würden wir Dekorationen hinzufügen, damit sie von der Seite hervorsticht!
+Indem wir einen Schatten hinzufügen und den Linienstil anpassen, verbessern wir die Sichtbarkeit der Schaltfläche. Das ist, als würden wir Dekorationen hinzufügen, damit sie von der Seite hervorsticht!
 ## Schritt 6.3: Wiederholen Sie den Vorgang für weitere Optionsfelder
 Wiederholen Sie diesen Vorgang für weitere Altersgruppen:
 ```csharp

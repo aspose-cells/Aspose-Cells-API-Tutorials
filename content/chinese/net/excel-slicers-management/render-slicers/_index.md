@@ -27,7 +27,7 @@ using System.Text;
 这些命名空间将提供我们操作和呈现 Excel 文件所需的功能。
 
 现在我们已经设置完毕，让我们将流程分解为可管理的步骤。您很快就会看到使用 Aspose.Cells 渲染切片器是多么直观！
-## 步骤 1：设置源和输出目录
+## 步骤 1：设置源目录和输出目录
 在执行任何其他操作之前，您需要指定文档的位置以及要将输出保存到的位置。您可以这样做：
 ```csharp
 //源目录
@@ -70,7 +70,7 @@ imgOpts.OnlyArea = true;
 ```
 在这里，您创建一个实例`ImageOrPrintOptions`并对其进行配置。重要参数包括图像类型（PNG）和分辨率（200 DPI）。这些设置可提高输出图像的质量。 
 ## 步骤 6：创建 Sheet 渲染对象
-设置好选项后，下一步是创建一个`SheetRender`对象，用于将工作表转换为图像。
+设置好选项后，下一步是创建`SheetRender`对象，用于将工作表转换为图像。
 ```csharp
 //创建工作表渲染对象并将工作表渲染为图像。
 Aspose.Cells.Rendering.SheetRender sr = new Aspose.Cells.Rendering.SheetRender(ws, imgOpts);

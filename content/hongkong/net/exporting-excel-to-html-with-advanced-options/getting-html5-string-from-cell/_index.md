@@ -71,8 +71,8 @@ Console.WriteLine("Html5:\r\n" + strHtml5);
 Console.WriteLine("GetHTML5StringFromCell executed successfully.");
 ```
 ## 結論
-現在你就擁有了！您已使用 Aspose.Cells for .NET 成功從 Excel 工作簿中的儲存格中提取 HTML5 字串。透過執行這些步驟，您不僅學會如何以程式設計方式使用 Excel，而且還更好地掌握了可用於 .NET 的最強大的程式庫之一的使用。 
-接下來你要建造什麼？可能性是無限的！無論是資料提取、報告，甚至是資料視覺化，您現在都配備了實現這一目標的工具。
+現在你就擁有了！您已使用 Aspose.Cells for .NET 成功從 Excel 工作簿中的儲存格中提取 HTML5 字串。透過執行這些步驟，您不僅學會如何以程式設計方式使用 Excel，而且還更好地掌握瞭如何使用可用於 .NET 的最強大的程式庫之一。 
+接下來你要建造什麼？可能性是無限的！無論是資料提取、報告，還是資料視覺化，您現在都配備了實現這一目標的工具。
 ## 常見問題解答
 ### Aspose.Cells 有何用途？  
 Aspose.Cells 是一個用於操作 Excel 檔案的強大函式庫。它允許您建立、讀取和修改不同格式（包括 HTML）的電子表格。

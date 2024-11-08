@@ -18,7 +18,7 @@ Győződjön meg arról, hogy a .NET keretrendszer telepítve van a gépen. Az A
 ### C# alapismeretek
 Mivel kódmintáink C# nyelvűek lesznek, kulcsfontosságú, hogy jól ismerje a nyelv alapjait. Az objektum-orientált programozási koncepciók ismerete is segít!
 ### Egy kis türelem!
-Rendben, eszközeivel felvértezve, folytassuk a csomagok importálását, és vágjunk bele kódolási kalandunkba!
+Rendben, eszközeivel felfegyverkezve, folytassuk a csomagok importálását, és ugorjunk bele kódolási kalandunkba!
 ## Csomagok importálása
 Az Aspose.Cells használatához importálnia kell néhány kritikus csomagot a C# fájl elejére. Általában a következőket tartalmazza:
 ```csharp

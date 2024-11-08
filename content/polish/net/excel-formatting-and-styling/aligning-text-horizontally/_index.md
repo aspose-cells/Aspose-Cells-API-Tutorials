@@ -76,7 +76,7 @@ workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003); // Zapisywan
 ```
 W tym wierszu upewnij się, że nazwa pliku (`"book1.out.xls"`) jest zgodne z zamierzeniem. Określony format pliku to Excel 97-2003; możesz go dostosować do swoich potrzeb.
 ## Wniosek
-Gratulacje! Właśnie nauczyłeś się, jak wyrównać tekst poziomo w komórkach programu Excel za pomocą Aspose.Cells dla .NET. Postępując zgodnie z prostymi krokami opisanymi powyżej, możesz znacznie poprawić wygląd i czytelność swoich arkuszy kalkulacyjnych. Niezależnie od tego, czy tworzysz zautomatyzowane raporty, czy zarządzasz wprowadzaniem danych, zastosowanie tej wiedzy może prowadzić do bardziej profesjonalnie wyglądających dokumentów i lepszego doświadczenia użytkownika.
+Gratulacje! Właśnie nauczyłeś się, jak wyrównać tekst w komórkach Excela w poziomie za pomocą Aspose.Cells dla .NET. Postępując zgodnie z prostymi krokami opisanymi powyżej, możesz znacznie poprawić wygląd i czytelność swoich arkuszy kalkulacyjnych. Niezależnie od tego, czy tworzysz zautomatyzowane raporty, czy zarządzasz wprowadzaniem danych, zastosowanie tej wiedzy może prowadzić do bardziej profesjonalnie wyglądających dokumentów i lepszego doświadczenia użytkownika.
 ## Najczęściej zadawane pytania
 ### Czym jest Aspose.Cells?
 Aspose.Cells to zaawansowana biblioteka .NET umożliwiająca programistom programowe tworzenie, edytowanie i konwertowanie plików Excel.

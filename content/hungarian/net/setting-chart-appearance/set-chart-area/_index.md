@@ -109,7 +109,7 @@ Mostantól közvetlen hozzáférése van diagramja módosításához és javít�
 
 A diagramnak tudnia kell, hogy mely adatokat kell megjelenítenie. Kössük a diagramhoz korábban bevitt adatainkat.
 
-Így adhatunk sorozatot diagramunkhoz az imént bevitt adatok felhasználásával:
+Így adhatunk hozzá sorozatot a diagramunkhoz az imént bevitt adatok felhasználásával:
 
 ```csharp
 chart.NSeries.Add("A1:B3", true);

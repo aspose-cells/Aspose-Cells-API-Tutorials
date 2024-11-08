@@ -70,7 +70,7 @@ Diese Codezeile erhält Zugriff auf die Zelle „A1“, die wir gleich ändern w
 ## Schritt 5: Wert zur Zelle hinzufügen
 Es ist Zeit, einige Daten in unsere Zelle einzugeben.
 ```csharp
-// Hinzufügen eines Wertes zur Zelle „A1“
+// Einen Wert zur Zelle „A1“ hinzufügen
 cell.PutValue("Visit Aspose!");
 ```
 

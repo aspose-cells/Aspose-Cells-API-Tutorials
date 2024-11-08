@@ -72,7 +72,7 @@ int i = workbook.Worksheets.Add();
 現在，讓我們取得剛剛建立的工作表的參考：
 
 ```csharp
-//透過傳遞工作表索引來取得新新增工作表的引用
+//透過傳遞工作表索引來取得新新增的工作表的引用
 Worksheet worksheet = workbook.Worksheets[i];
 ```
 

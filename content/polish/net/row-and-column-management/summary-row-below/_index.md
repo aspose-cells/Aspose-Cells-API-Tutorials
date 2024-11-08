@@ -8,7 +8,7 @@ weight: 13
 url: /pl/net/row-and-column-management/summary-row-below/
 ---
 ## Wstęp
-Czy jesteś gotowy, aby przenieść swoje umiejętności w programie Excel na wyższy poziom? Jeśli kiedykolwiek zmagałeś się z dużymi zestawami danych w programie Excel, wiesz, jak przytłaczające to może być. Na szczęście Aspose.Cells dla .NET jest tutaj, aby uratować dzień! W tym samouczku pokażemy, jak utworzyć wiersz podsumowania poniżej grupy wierszy w arkuszu programu Excel przy użyciu Aspose.Cells dla .NET. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zaczynasz, ten przewodnik z łatwością przeprowadzi Cię przez każdy krok. Zanurzmy się!
+Czy jesteś gotowy, aby przenieść swoje umiejętności w programie Excel na wyższy poziom? Jeśli kiedykolwiek zmagałeś się z dużymi zestawami danych w programie Excel, wiesz, jak przytłaczające to może być. Na szczęście Aspose.Cells dla .NET jest tutaj, aby uratować dzień! W tym samouczku odkryjemy, jak utworzyć wiersz podsumowania poniżej grupy wierszy w arkuszu programu Excel przy użyciu Aspose.Cells dla .NET. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zaczynasz, ten przewodnik z łatwością przeprowadzi Cię przez każdy krok. Zanurzmy się!
 ## Wymagania wstępne
 Zanim przejdziemy do kodowania, upewnijmy się, że masz wszystko, czego potrzebujesz:
 1. Visual Studio: Będziesz potrzebować IDE do pracy. Visual Studio jest popularnym wyborem do tworzenia oprogramowania .NET.

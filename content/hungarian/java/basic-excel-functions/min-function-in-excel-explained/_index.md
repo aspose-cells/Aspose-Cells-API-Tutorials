@@ -14,7 +14,7 @@ Az adatkezelés és -elemzés világában az Excel megbízható eszköz. Külön
 
 ## A MIN funkció megértése
 
-Az Excel MIN függvénye egy alapvető matematikai függvény, amely segít meghatározni a legkisebb értéket egy adott számkészleten vagy cellatartományon belül. Gyakran használják olyan forgatókönyvekben, ahol meg kell határozni a legalacsonyabb értéket az adatpontok gyűjteménye között.
+Az Excel MIN függvénye egy alapvető matematikai függvény, amely segít meghatározni a legkisebb értéket egy adott számkészleten vagy cellatartományon belül. Gyakran használják olyan esetekben, amikor meg kell határozni a legalacsonyabb értéket az adatpontok gyűjteménye között.
 
 ### A MIN függvény szintaxisa
 

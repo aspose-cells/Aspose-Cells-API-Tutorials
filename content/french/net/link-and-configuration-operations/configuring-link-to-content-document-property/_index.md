@@ -112,7 +112,7 @@ Considérez ceci comme un moyen de retracer l’endroit où pointe la propriét�
 
 ## Étape 6 : Enregistrer le fichier Excel mis à jour
 
-Après avoir effectué toutes ces modifications, n'oubliez pas de sauvegarder le fichier pour garantir que la nouvelle propriété et son lien sont stockés.
+Après avoir effectué toutes ces modifications, n'oubliez pas de sauvegarder le fichier pour vous assurer que la nouvelle propriété et son lien sont stockés.
 
 ```csharp
 // Enregistrer le fichier

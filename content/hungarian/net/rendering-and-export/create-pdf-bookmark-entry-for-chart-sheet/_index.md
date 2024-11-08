@@ -31,7 +31,7 @@ using System.Text;
 using Aspose.Cells;
 using Aspose.Cells.Rendering;
 ```
-Ezekkel a csomagokkal Excel-fájlokkal dolgozhat, és könyvjelzőkkel ellátott PDF-formátumba renderelheti azokat.
+Ezekkel a csomagokkal dolgozhat Excel-fájlokkal, és könyvjelzőkkel ellátott PDF-formátumba rendereli azokat.
 Bontsuk fel a PDF-könyvjelzők létrehozásához szükséges kódot. Lépésről lépésre végigmegyünk az egyes részeken.
 ## 1. lépés: Határozza meg a címtár elérési útját
 A kód rendszerezéséhez határozzuk meg, hol találhatók a fájljaink.

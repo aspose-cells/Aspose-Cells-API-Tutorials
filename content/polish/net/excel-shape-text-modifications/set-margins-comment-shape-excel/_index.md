@@ -11,7 +11,7 @@ url: /pl/net/excel-shape-text-modifications/set-margins-comment-shape-excel/
 Jeśli chodzi o obsługę plików Excel w aplikacjach .NET, Aspose.Cells oferuje potężne rozwiązanie. Niezależnie od tego, czy jesteś programistą, który chce manipulować dokumentami Excel, czy entuzjastą, który chce usprawnić swój przepływ pracy, wiedza o tym, jak ustawić marginesy dla komentarzy lub kształtów w Excelu, może podnieść poziom Twojego projektu. Ten samouczek poprowadzi Cię krok po kroku, zapewniając, że zrozumiesz zarówno „jak”, jak i „dlaczego” stoi za tą funkcjonalnością.
 ## Wymagania wstępne
 Zanim rozpoczniesz przygodę z kodowaniem, upewnijmy się, że masz wszystko, czego potrzebujesz, by pomyślnie ukończyć ten samouczek.
-### Podstawowa wiedza
+### Wiedza podstawowa
 Powinieneś mieć podstawową wiedzę na temat C# i .NET. Ten samouczek jest przeznaczony dla osób, które mają przynajmniej podstawową wiedzę na temat pojęć programowania.
 ### Konfiguracja środowiska
 1. Visual Studio: Upewnij się, że masz zainstalowany Visual Studio. To środowisko programistyczne, które upraszcza kodowanie.

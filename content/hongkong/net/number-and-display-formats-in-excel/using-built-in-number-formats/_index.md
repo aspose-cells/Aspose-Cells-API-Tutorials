@@ -88,7 +88,7 @@ Now, let’s add a numeric value in cell A3 and format it as currency. This is a
 ```csharp
 worksheet.Cells["A3"].PutValue(2546);
 ```
-在這裡，我們將 2546 新增到儲存格 A3 中。接下來，我們將格式化該數字以顯示為貨幣。
+在這裡，我們將 2546 新增到儲存格 A3。接下來，我們將格式化該數字以顯示為貨幣。
 2. 檢索樣式並設定貨幣格式：
 ```csharp
 style = worksheet.Cells["A3"].GetStyle();

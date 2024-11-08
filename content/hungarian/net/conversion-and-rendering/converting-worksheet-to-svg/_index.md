@@ -43,7 +43,7 @@ Először is meg kell határoznunk annak a mappának az elérési útját, ahol 
 string dataDir = "Your Document Directory";
 ```
 
- Ügyeljen arra, hogy cserélje ki`"Your Document Directory"`az Excel-fájl tényleges elérési útjával.
+ Mindenképpen cserélje ki`"Your Document Directory"`az Excel-fájl tényleges elérési útjával.
 
 ##  2. lépés: Töltse be az Excel fájlt a segítségével`Workbook`
 

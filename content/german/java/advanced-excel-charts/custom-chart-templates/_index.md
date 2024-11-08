@@ -51,7 +51,7 @@ public class ChartTemplateExample {
 
 ### Schritt 3: Daten hinzufügen
 
-Bevor Sie ein Diagramm erstellen können, benötigen Sie Daten. Sie können Daten entweder aus einer vorhandenen Quelle importieren oder programmgesteuert generieren. Für dieses Beispiel generieren wir Beispieldaten:
+Bevor Sie ein Diagramm erstellen, benötigen Sie Daten. Sie können Daten entweder aus einer vorhandenen Quelle importieren oder programmgesteuert generieren. Für dieses Beispiel generieren wir Beispieldaten:
 
 ```java
 // Hinzufügen von Daten zu einem Arbeitsblatt

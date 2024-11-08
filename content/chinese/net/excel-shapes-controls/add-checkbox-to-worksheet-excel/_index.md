@@ -8,7 +8,7 @@ weight: 18
 url: /zh/net/excel-shapes-controls/add-checkbox-to-worksheet-excel/
 ---
 ## 介绍
-在 Excel 中管理数据时，有无数函数和方法可以简化您的任务并增强您的电子表格。复选框就是这样一个功能 - 这是一个巧妙的小工具，允许用户直接在 Excel 工作表中进行二元选择。在本指南中，我们将引导您完成使用 Aspose.Cells 库向 Excel 工作表添加复选框的过程。所以，系好安全带，准备好踏上激动人心的 Excel 自动化之旅吧！
+在 Excel 中管理数据时，有无数函数和方法可以简化您的任务并增强您的电子表格。复选框就是这样一个功能 - 这是一个巧妙的小工具，允许用户直接在 Excel 工作表中进行二元选择。在本指南中，我们将引导您完成使用 Aspose.Cells 库向 .NET 的 Excel 工作表添加复选框的过程。所以，系好安全带，准备好踏上激动人心的 Excel 自动化之旅吧！
 ## 先决条件
 在深入研究编码细节之前，让我们确保您已准备好开始编码所需的一切。以下是先决条件：
 - Visual Studio：我们假设您已使用 Visual Studio 设置了工作环境。如果没有，您可以轻松从以下位置下载[Visual Studio](https://visualstudio.microsoft.com/vs/).

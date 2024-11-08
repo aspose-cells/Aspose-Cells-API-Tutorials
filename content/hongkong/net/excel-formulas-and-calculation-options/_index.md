@@ -12,7 +12,7 @@ url: /zh-hant/net/excel-formulas-and-calculation-options/
 歡迎來到 Aspose.Cells for .NET 教學的終極指南！無論您是經驗豐富的開發人員還是剛起步的開發人員，此集合都包含可簡化您的 Excel 自動化任務的寶貴見解。在這裡，我們深入探討旨在幫助您有效理解和實施 Excel 公式和計算選項的各種教學。從將單元格新增至公式觀察視窗到處理循環引用，我們都涵蓋了！讓我們將其分為幾個引人入勝的部分。
 
 ## 將儲存格新增至 Microsoft Excel 公式監視窗口  
-關注 Excel 公式的最簡單但有效的方法之一是使用公式監視視窗。借助 Aspose.Cells for .NET，在追蹤複雜電子表格中的變更時，向此視窗新增單元格可以產生巨大的變化。想像一下，您正在處理一個每個公式都很重要的大型項目，此功能使您可以輕鬆監控關鍵單元格，而不會忽略整體進度。在我們的詳細指南中[將儲存格新增至 Microsoft Excel 公式監視窗口](./adding-cells-to-microsoft-excel-formula-watch-window/)，我們將引導您完成開始所需的無縫步驟。
+關注 Excel 公式的最簡單但有效的方法之一是使用公式監視視窗。借助 Aspose.Cells for .NET，在追蹤複雜電子表格中的變更時，向此視窗新增單元格可以產生巨大的變化。想像一下，在處理一個每個公式都很重要的大型專案時，此功能可讓您輕鬆監控關鍵單元格，而不會忽略整體進度。在我們的詳細指南中[將儲存格新增至 Microsoft Excel 公式監視窗口](./adding-cells-to-microsoft-excel-formula-watch-window/)，我們將引導您完成開始所需的無縫步驟。
 
 ## 以程式設計方式計算公式  
 有沒有想過自動化 Excel 計算有多酷？好吧，有了 Aspose.Cells for .NET，這個夢想可以成為現實！想像一下，當您喝咖啡時發送數據進行計算；這就是自動化 Excel 任務的美妙之處。我們的教程[以程式設計方式計算 Excel 中的公式](./calculating-formulas/)向您介紹可以提升自動化等級的簡單技巧。這不僅僅是為了節省時間；這是關於更聰明地工作，而不是更努力工作！

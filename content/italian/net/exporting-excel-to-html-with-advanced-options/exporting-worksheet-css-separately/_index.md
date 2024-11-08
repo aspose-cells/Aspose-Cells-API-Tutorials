@@ -81,7 +81,7 @@ Console.WriteLine("ExportWorksheetCSSSeparatelyInOutputHTML executed successfull
 ```
 Ora puoi eseguire il codice e, se vedi quel messaggio di conferma, congratulazioni: hai esportato correttamente il tuo foglio di lavoro Excel con CSS separato!
 ## Conclusione
-Ed ecco qua: la tua guida personale per esportare un foglio di lavoro Excel in HTML mantenendo il CSS separato, grazie ad Aspose.Cells per .NET. Questo non solo mantiene il tuo stile organizzato, ma ti dà anche più flessibilità ogni volta che devi apportare modifiche in futuro. 
+Ed ecco fatto: la tua guida personale per esportare un foglio di lavoro Excel in HTML mantenendo il CSS separato, grazie ad Aspose.Cells per .NET. Questo non solo mantiene il tuo stile organizzato, ma ti dà anche più flessibilità ogni volta che devi apportare modifiche in futuro. 
 ## Domande frequenti
 ### Che cos'è Aspose.Cells?
 Aspose.Cells è una potente libreria .NET che consente di creare, modificare e convertire fogli di calcolo Excel senza dover utilizzare Microsoft Excel.

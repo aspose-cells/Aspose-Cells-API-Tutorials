@@ -9,7 +9,7 @@ url: /pl/net/excel-page-setup/implement-custom-paper-size-of-worksheet-for-rende
 ---
 ## Wstęp
 
-Tworzenie i dostosowywanie dokumentów Excel programowo może zwiększyć wydajność pracy, zwłaszcza jeśli masz do czynienia z wieloma raportami lub wpisami danych. Dzięki Aspose.Cells dla .NET możesz łatwo ustawić niestandardowe rozmiary papieru do renderowania arkuszy kalkulacyjnych. W tym samouczku podzielimy proces na łatwe do wykonania kroki, zapewniając, że możesz bezproblemowo wdrożyć tę funkcjonalność. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zanurzasz palce u stóp w świecie .NET,
+Tworzenie i dostosowywanie dokumentów Excela programowo może zwiększyć wydajność pracy, zwłaszcza jeśli masz do czynienia z wieloma raportami lub wpisami danych. Dzięki Aspose.Cells dla .NET możesz łatwo ustawić niestandardowe rozmiary papieru do renderowania arkuszy kalkulacyjnych. W tym samouczku podzielimy proces na łatwe do wykonania kroki, zapewniając, że możesz bezproblemowo wdrożyć tę funkcjonalność. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zanurzasz palce w świecie .NET,
 
 ## Wymagania wstępne
 
@@ -127,7 +127,7 @@ Wdrożenie niestandardowego rozmiaru papieru dla arkuszy kalkulacyjnych programu
  Tak, możesz wypróbować bezpłatną wersję próbną Aspose.Cells dla .NET, dostępną[Tutaj](https://releases.aspose.com/).
 
 ### Co się stanie, jeśli przekroczę limity licencji tymczasowej?
- Przekroczenie limitów spowoduje wydruki z znakiem wodnym. Najlepiej wybrać stałą licencję, aby uzyskać nieprzerwaną usługę. Możesz znaleźć opcje[Tutaj](https://purchase.aspose.com/buy).
+ Przekroczenie limitów spowoduje wydruki z znakiem wodnym. Najlepiej wybrać stałą licencję, aby zapewnić nieprzerwaną usługę. Możesz znaleźć opcje[Tutaj](https://purchase.aspose.com/buy).
 
 ### Czy Aspose.Cells jest kompatybilny z .NET Core?
 Tak, Aspose.Cells dla .NET obsługuje .NET Core. Możesz bezproblemowo zintegrować go ze swoimi nowoczesnymi aplikacjami.

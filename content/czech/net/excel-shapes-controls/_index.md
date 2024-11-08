@@ -52,7 +52,7 @@ Bez ohledu na úroveň vašich dovedností Aspose.Cells pro .NET zpřístupňuje
 
  Pro vývojáře, kteří chtějí posunout věci ještě dále, můžete prozkoumat pokročilé možnosti, jako je spojování tvarů s body v[Získejte spojovací body tvaru](./get-connection-points-shape-excel/) výukový program nebo vytváření interaktivních panelů s ovládacími prvky jako[Ovládání oblouku](./add-arc-control-with-connection-points/). Tyto příručky jsou navrženy tak, aby vám pomohly a poskytly vám nástroje pro automatizaci, přizpůsobení a vylepšení vašich souborů Excel tak, aby splňovaly jakékoli požadavky.
 
-## Výukové programy tvarů a ovládacích prvků Excelu
+## Výukové programy tvarů a ovládacích prvků aplikace Excel
 ### [Přidejte Arrow Head do Shape v Excelu](./add-arrow-head-to-shape-excel/)
 Naučte se přidávat šipky do obrazců v Excelu pomocí Aspose.Cells for .NET. Vylepšete své tabulky pomocí tohoto podrobného průvodce.
 ### [Získejte spojovací body tvaru v aplikaci Excel](./get-connection-points-shape-excel/)

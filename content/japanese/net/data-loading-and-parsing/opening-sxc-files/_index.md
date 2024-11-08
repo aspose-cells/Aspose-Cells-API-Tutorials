@@ -86,4 +86,4 @@ SXC ファイルは、StarOffice Calc または OpenOffice.org Calc によって
 ### Aspose.Cells を使用して SXC ファイルを編集することは可能ですか?
 はい。SXC ファイルを Workbook オブジェクトに読み込むと、セル内のデータを簡単に操作できます。
 ### Aspose.Cells の詳細情報はどこで入手できますか?
-詳しい情報や高度な機能については、[ドキュメント](https://reference.aspose.com/cells/net/).
+詳細と高度な機能については、[ドキュメント](https://reference.aspose.com/cells/net/).

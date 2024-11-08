@@ -122,7 +122,7 @@ Sie erhalten dadurch nicht nur eine Bestätigung, sondern sind auch stets über 
 
 ## Abschluss
 
-Und da haben Sie es! Mit nur wenigen Schritten können Sie die Richtung der Teilstrichbeschriftungen in Ihren Excel-Diagrammen mithilfe von Aspose.Cells für .NET ändern. Durch die Nutzung dieser leistungsstarken Bibliothek können Sie die Lesbarkeit Ihrer Diagramme verbessern und Ihrem Publikum die Interpretation der Daten erleichtern. Ob für Präsentationen, Berichte oder persönliche Projekte – Sie verfügen jetzt über das Wissen, um Ihre Excel-Diagramme optisch ansprechend zu gestalten.
+Und da haben Sie es! Mit nur wenigen Schritten können Sie die Richtung der Teilstrichbeschriftungen in Ihren Excel-Diagrammen mithilfe von Aspose.Cells für .NET ändern. Durch die Nutzung dieser leistungsstarken Bibliothek können Sie die Lesbarkeit Ihrer Diagramme verbessern und Ihrem Publikum die Interpretation der Daten erleichtern. Ob für Präsentationen, Berichte oder persönliche Projekte, Sie verfügen jetzt über das Wissen, um Ihre Excel-Diagramme optisch ansprechend zu gestalten.
 
 ## Häufig gestellte Fragen
 

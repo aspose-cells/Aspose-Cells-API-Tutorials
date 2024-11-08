@@ -18,7 +18,7 @@ url: /zh/net/smart-markers-dynamic-data/
 如果您要处理分布在多张工作表上的大量数据，此功能将带来翻天覆地的变化。Aspose.Cells 可让您高效地自动填充多张工作表中的数据，使数据管理更加顺畅和快捷。您可以通过自动将数据传输到正确的单元格来简化工作流程。[阅读更多](./auto-populate-data-smart-markers/)
 
 ## 插入带有图像标记的图像
-视觉效果为报告增添活力！借助 Aspose.Cells，您可以使用图像标记将图像插入 Excel 文件中。了解如何将视觉效果直接集成到 Excel 单元格中，创建更具信息量、视觉吸引力的报告，让您的受众印象深刻。[阅读更多](./insert-images-smart-markers/)
+视觉效果为报告增添活力！借助 Aspose.Cells，您可以使用图像标记将图像插入 Excel 文件中。了解如何将视觉效果直接集成到 Excel 单元格中，创建更具信息量、视觉吸引力更强的报告，让您的受众印象深刻。[阅读更多](./insert-images-smart-markers/)
 
 ## 在智能标记中使用动态公式
 公式可以自动计算，使数据处理变得轻松。使用 Aspose.Cells，您可以在智能标记中使用动态公式，允许计算在添加新数据时自动更新。此功能有助于创建无缝适应变化数据的报告，从而节省时间并提高准确性。[阅读更多](./dynamic-formulas-smart-markers/)

@@ -46,7 +46,7 @@ Workbook workbook = new Workbook();
 ```
 Tento řádek inicializuje nový sešit v paměti a poskytuje vám prázdné plátno, na kterém můžete pracovat.
 ## Krok 4: Přidání nového listu
-V Excelu může každý sešit obsahovat více listů. Pojďme přidat jeden do našeho sešitu.
+V Excelu může každý sešit obsahovat více listů. Přidejme jeden do našeho sešitu.
 ```csharp
 // Přidání nového listu do objektu Sešit
 workbook.Worksheets.Add(); // Ve výchozím nastavení přidá nový prázdný list

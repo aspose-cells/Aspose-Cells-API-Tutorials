@@ -32,7 +32,7 @@ using Aspose.Cells;
 using Aspose.Cells.Rendering;
 ```
 Tyto balíčky vám umožňují pracovat se soubory aplikace Excel a vykreslovat je do souborů PDF se záložkami.
-Pojďme si rozebrat kód pro vytváření záložek PDF. Postupně si projdeme každou část.
+Pojďme si rozebrat kód pro vytváření záložek PDF. Každou část si projdeme krok za krokem.
 ## Krok 1: Definujte své cesty k adresáři
 Abychom váš kód uspořádali, definujme, kde se naše soubory nacházejí.
 ```csharp
@@ -45,7 +45,7 @@ Dále musíme načíst sešit aplikace Excel, se kterým chcete manipulovat.
 ```csharp
 Workbook wb = new Workbook(sourceDir + "sampleCreatePdfBookmarkEntryForChartSheet.xlsx");
 ```
- Zde vytvoříme instanci`Workbook` třídy, načte se náš vzorový soubor Excel. Ujistěte se, že název souboru odpovídá skutečnému souboru.
+ Zde vytvoříme instanci`Workbook` třídy, načteme náš vzorový soubor Excel. Ujistěte se, že název souboru odpovídá skutečnému souboru.
 ## Krok 3: Přístup k listům
 Po načtení sešitu získáte přístup k jeho listům. 
 ```csharp

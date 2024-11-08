@@ -10,7 +10,7 @@ url: /zh/java/basic-excel-functions/excel-text-functions-demystified/
 
 # 使用 Aspose.Cells for Java 揭秘 Excel 文本函数
 
-在本教程中，我们将使用 Aspose.Cells for Java API 深入研究 Excel 中的文本操作。无论您是经验丰富的 Excel 用户还是刚刚入门，了解文本函数都可以显著提高您的电子表格技能。我们将探索各种文本函数并提供实际示例来说明它们的用法。
+在本教程中，我们将使用 Aspose.Cells for Java API 深入研究 Excel 中的文本操作。无论您是经验丰富的 Excel 用户还是刚刚入门，了解文本函数都可以大大提高您的电子表格技能。我们将探索各种文本函数并提供实际示例来说明它们的用法。
 
 ## 入门
 

@@ -63,7 +63,7 @@ Workbook workbook = new Workbook();
 
 Haal het PageSetup-object van het eerste werkblad op.
 
- Elk werkblad in uw werkmap heeft zijn eigen instellingen, zoals afdrukgebied, pagina-oriëntatie en marges. U krijgt toegang tot deze eigenschappen met behulp van de`PageSetup` klas. Hier is hoe je de eerste sheet pakt`PageSetup`:
+ Elk werkblad in uw werkmap heeft zijn eigen instellingen, zoals afdrukgebied, pagina-oriëntatie en marges. U krijgt toegang tot deze eigenschappen met behulp van de`PageSetup` klas. Hier is hoe je het eerste vel pakt`PageSetup`:
 
 ```csharp
 PageSetup pageSetup = workbook.Worksheets[0].PageSetup;

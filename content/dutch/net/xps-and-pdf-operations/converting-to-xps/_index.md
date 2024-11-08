@@ -76,7 +76,7 @@ Gefeliciteerd! U hebt met succes een Excel-bestand geconverteerd naar XPS-formaa
 ### Wat is XPS-formaat?
 XPS (XML Paper Specification) is een vast documentformaat dat de lay-out en het uiterlijk van documenten behoudt.
 ### Moet ik Aspose.Cells kopen om het te kunnen gebruiken?
- U kunt een gratis proefversie van Aspose.Cells uitproberen[hier](https://releases.aspose.com/). Mogelijk moet u daarna een licentie aanschaffen om de volledige functionaliteit te kunnen gebruiken.
+ U kunt een gratis proefversie van Aspose.Cells uitproberen[hier](https://releases.aspose.com/). Mogelijk moet u daarna een licentie aanschaffen om volledige functionaliteit te kunnen gebruiken.
 ### Kan ik meerdere Excel-bestanden tegelijk converteren?
 Ja, u kunt de code aanpassen zodat deze door meerdere bestanden in de directory loopt en dezelfde conversielogica op elk bestand toepast.
 ### Wat als ik alleen specifieke bladen wil converteren?

@@ -20,10 +20,10 @@ Most, hogy készen vagyunk, importáljuk a szükséges csomagokat!
 ## Csomagok importálása
 A kódolás megkezdése előtt importálnia kell a megfelelő névtereket. Ez olyan, mintha összegyűjtené a hozzávalókat főzés előtt. Íme, hogyan kell csinálni:
 ### Nyissa meg projektjét
-Először nyissa meg a Visual Studio projektet, ahol az Aspose.Cells-t szeretné megvalósítani.
+Először nyissa meg azt a Visual Studio projektet, ahol az Aspose.Cells programot szeretné megvalósítani.
 ### Referencia hozzáadása
 Hivatkozás hozzáadása az Aspose.Cells könyvtárhoz:
-1. Kattintson a jobb gombbal a „Referenciák” elemre a projektben, és válassza a „Hivatkozás hozzáadása…” lehetőséget.
+1. Kattintson jobb gombbal a „Referenciák” elemre a projektben, és válassza a „Hivatkozás hozzáadása…” lehetőséget.
 2. Lépjen az „Összeállítások” fülre, keresse meg az Aspose.Cells elemet, és adja hozzá.
 ### Névterek importálása
 ```csharp
@@ -38,7 +38,7 @@ Mielőtt kilép és menti a fájlokat, adjon meg egy könyvtárat a fájlok tár
 ```csharp
 string dataDir = "Your Document Directory";
 ```
- Ügyeljen arra, hogy cserélje ki`"Your Document Directory"` tényleges elérési úttal a gépen, pl`@"C:\Documents\"`. Ez olyan, mintha egy kényelmes helyet választanál a munkádhoz!
+ Mindenképpen cserélje ki`"Your Document Directory"` tényleges elérési úttal a gépen, pl`@"C:\Documents\"`. Ez olyan, mintha egy kényelmes helyet választanál a munkádhoz!
 ## 2. lépés: Határozza meg a fájl elérési útját
 A dokumentumkönyvtár megadása után adja meg a forrás- és célfájlok fájlútvonalait. A következőképpen állíthatja be:
 ```csharp

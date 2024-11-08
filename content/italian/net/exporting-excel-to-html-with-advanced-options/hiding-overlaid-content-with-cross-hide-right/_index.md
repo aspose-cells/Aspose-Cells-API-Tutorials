@@ -38,7 +38,7 @@ Cominciamo caricando il nostro file Excel di esempio.
 ```csharp
 //Elenco di origine
 string sourceDir = "Your Document Directory";
-//Directory di uscita
+//Directory di output
 string outputDir = "Your Document Directory";
 //Carica il file Excel di esempio
 Workbook wb = new Workbook(sourceDir + "sampleHidingOverlaidContentWithCrossHideRightWhileSavingToHtml.xlsx");

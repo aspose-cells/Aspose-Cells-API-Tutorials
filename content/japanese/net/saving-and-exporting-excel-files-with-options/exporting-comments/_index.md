@@ -56,7 +56,7 @@ Excelファイルを読み込み、エクスポートオプションを設定し
 ```csharp
 //出力ディレクトリを定義する
 string outputDir = "Your Document Directory";
-//コメントをエクスポートしてワークブックをHTML形式で保存する
+//コメントをエクスポートしたワークブックをHTML形式で保存する
 wb.Save(outputDir + "outputExportCommentsHTML.html", opts);
 ```
 このステップでは、ExcelファイルをHTMLドキュメントとして保存し、コメントも一緒にエクスポートします。`"Your Document Directory"`HTML ファイルを保存する実際のディレクトリに置き換えます。

@@ -18,7 +18,7 @@ Trước khi bắt đầu viết mã, hãy đảm bảo rằng bạn đã chuẩ
 1. Kiến thức cơ bản về C#: Bạn nên thoải mái khi viết các chương trình C# cơ bản. Nếu bạn có thể tạo và chạy một ứng dụng C# đơn giản, bạn đã sẵn sàng!
 2.  Thư viện Aspose.Cells: Đây là công cụ chính của chúng tôi. Bạn cần tải xuống và cài đặt thư viện Aspose.Cells cho .NET. Bạn có thể tìm thấy các tệp cần thiết[đây](https://releases.aspose.com/cells/net/). 
 3. Visual Studio hoặc bất kỳ IDE C# nào: Bạn sẽ cần một Môi trường phát triển tích hợp (IDE) như Visual Studio để viết và thực thi mã của mình. Nếu đã một phút trôi qua kể từ lần cuối bạn mở nó, thì bây giờ là lúc để phủi bụi nó!
-4.  Một tệp Excel hiện có: Đảm bảo bạn có một tệp Excel tiện dụng mà bạn muốn làm việc. Đối với hướng dẫn này, chúng tôi sẽ sử dụng`book1.xls`nhưng bạn có thể sử dụng bất cứ thứ gì bạn muốn—chỉ cần đảm bảo rằng nó ở đúng định dạng.
+4.  Tệp Excel hiện có: Đảm bảo bạn có tệp Excel tiện dụng mà bạn muốn làm việc. Đối với hướng dẫn này, chúng tôi sẽ sử dụng`book1.xls`nhưng bạn có thể sử dụng bất cứ thứ gì bạn muốn—chỉ cần đảm bảo rằng nó ở đúng định dạng.
 
 ## Nhập gói
 

@@ -37,7 +37,7 @@ Ora, scomponiamo il codice in passaggi digeribili. Ogni passaggio verrà spiegat
 ```csharp
 //Elenco di origine
 string sourceDir = "Your Document Directory";
-//Directory di uscita
+//Directory di output
 string outputDir = "Your Document Directory"
 // Caricare il file Excel.
 Workbook wb = new Workbook(sourceDir + "sampleInlineCharts.xlsx");

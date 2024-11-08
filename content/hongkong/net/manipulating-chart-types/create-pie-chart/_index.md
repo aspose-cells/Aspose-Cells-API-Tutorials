@@ -184,7 +184,7 @@ workbook.Save(outputDir + "outputHowToCreatePieChart.xlsx");
 ## 常見問題解答
 
 ### 我可以使用 Aspose.Cells for .NET 建立其他類型的圖表嗎？
-是的！ Aspose.Cells 支援各種圖表類型，包括長條圖、折線圖和散點圖。
+是的！ Aspose.Cells支援各種圖表類型，包括長條圖、折線圖和散點圖。
 
 ### 我需要付費許可證才能使用 Aspose.Cells for .NET 嗎？
 您可以使用免費版本，但有一些限制。要獲得完整功能，您需要一個許可證，您可以購買該許可證[這裡](https://purchase.aspose.com/buy).

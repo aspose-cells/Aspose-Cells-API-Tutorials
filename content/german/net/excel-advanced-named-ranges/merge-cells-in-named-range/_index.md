@@ -167,7 +167,7 @@ Und da haben Sie es! Sie haben erfolgreich Zellen in einem benannten Bereich zus
 Nein, Sie können in Aspose.Cells nur zusammenhängende Zellen zusammenführen.
 
 ### Kann ich einen Zusammenführungsvorgang programmgesteuert rückgängig machen?  
- Sobald Zellen verbunden sind, können Sie die Verbindung wieder aufheben, indem Sie auf`UnMerge()` Methode in Aspose.Cells.
+ Sobald Zellen verbunden sind, können Sie die Verbindung mit dem`UnMerge()` Methode in Aspose.Cells.
 
 ### Werden durch das Zusammenführen von Zellen die darin enthaltenen Daten entfernt?  
 Wenn sich vor dem Zusammenführen Daten in den Zellen befanden, bleiben die Daten aus der ersten Zelle des Bereichs erhalten.

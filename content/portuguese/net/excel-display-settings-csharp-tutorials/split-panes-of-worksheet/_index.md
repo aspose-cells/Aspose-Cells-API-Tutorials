@@ -9,7 +9,7 @@ url: /pt/net/excel-display-settings-csharp-tutorials/split-panes-of-worksheet/
 ---
 ## Introdução
 
-Você está pronto para dividir os painéis de uma planilha do Excel usando o Aspose.Cells para .NET? Imagine isso: você tem uma planilha gigante do Excel e está cansado de rolar constantemente de volta para os cabeçalhos apenas para lembrar com qual coluna está trabalhando. Digite "Split Panes". Esse recurso prático permite que você congele uma parte da sua planilha, tornando-a muito mais fácil de navegar. Não importa se você está trabalhando com dados financeiros, gerenciamento de estoque ou conjuntos de dados enormes, dividir painéis pode aumentar sua produtividade em dez vezes. 
+Você está pronto para dividir os painéis de uma planilha do Excel usando o Aspose.Cells para .NET? Imagine isso: você tem uma planilha gigante do Excel e está cansado de rolar constantemente de volta para os cabeçalhos apenas para lembrar com qual coluna está trabalhando. Digite "Split Panes". Esse recurso prático permite que você congele uma parte da sua planilha, tornando-a muito mais fácil de navegar. Não importa se você está trabalhando com dados financeiros, gerenciamento de estoque ou conjuntos de dados enormes, dividir painéis pode aumentar sua produtividade dez vezes mais. 
 
 ## Pré-requisitos
 

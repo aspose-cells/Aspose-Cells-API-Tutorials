@@ -98,7 +98,7 @@ Cell cell = cells["B2"];
 
 ## Krok 5: Pobierz komórki zależne
 
- Teraz nadchodzi zabawna część — śledzenie tych osób zależnych! Uchwycę je za pomocą`GetDependents` metoda.
+ Teraz nadchodzi zabawna część — śledzenie tych osób zależnych! Uchwycimy je za pomocą`GetDependents` metoda.
 
 ```csharp
 Cell[] ret = cell.GetDependents(true);
@@ -118,7 +118,7 @@ foreach (Cell c in cell.GetDependents(true))
 Console.ReadKey();
 ```
 
- Wyjaśnienie: Ta pętla przechodzi przez każdą zależną komórkę w naszej tablicy i drukuje jej nazwę — całkiem proste!`Console.ReadKey()` zapewnia, że okno konsoli pozostanie otwarte do momentu naciśnięcia klawisza, dając Ci czas na odczytanie wyników.
+ Wyjaśnienie: Ta pętla przechodzi przez każdą zależną komórkę w naszej tablicy i drukuje jej nazwę — całkiem proste!`Console.ReadKey()` zapewnia, że okno konsoli pozostanie otwarte aż do naciśnięcia klawisza, dając Ci czas na odczytanie wyników.
 
 ## Wniosek
 

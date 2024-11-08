@@ -71,7 +71,7 @@ Hier greifen wir die Zelle an Position A1, damit wir einen Text einfügen könne
 ## Schritt 6: Der Zelle einen Wert hinzufügen
 Lassen Sie uns etwas Inhalt in diese Zelle einfügen:
 ```csharp
-// Hinzufügen eines Wertes zur Zelle „A1“
+// Einen Wert zur Zelle „A1“ hinzufügen
 cell.PutValue("Hello Aspose!");
 ```
 An diesem Punkt ist „Hallo Aspose!“ nun der Inhalt Ihrer A1-Zelle. Einfach, oder?

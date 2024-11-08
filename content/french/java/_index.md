@@ -22,7 +22,7 @@ Une fois que vous serez à l'aise avec les bases, nous aborderons des sujets plu
 
 ## Intégration et exportation avec Aspose.Cells pour Java
 
-La dernière section se concentre sur l'intégration et l'exportation. Découvrez comment intégrer de manière transparente Aspose.Cells pour Java dans vos applications et exporter des données Excel vers différents formats, notamment PDF et HTML. Ces tutoriels ouvriront de nouvelles possibilités pour vos projets Java, de la génération de rapports au partage efficace des données.
+La dernière section se concentre sur l'intégration et l'exportation. Découvrez comment intégrer de manière transparente Aspose.Cells pour Java dans vos applications et exporter des données Excel vers différents formats, notamment PDF et HTML. Ces didacticiels ouvriront de nouvelles possibilités pour vos projets Java, de la génération de rapports au partage efficace des données.
 
 Commencez votre voyage avec les didacticiels Aspose.Cells pour Java dès aujourd'hui et exploitez tout le potentiel de la manipulation de fichiers Excel dans vos applications Java.
 

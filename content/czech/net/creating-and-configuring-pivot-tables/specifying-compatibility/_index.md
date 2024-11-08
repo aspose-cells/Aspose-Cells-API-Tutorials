@@ -116,7 +116,7 @@ Toto je pouze pro ověření, abyste ukázali, kolik znaků vaše buňka obsahuj
 
 ## Krok 6: Nastavte další hodnoty buňky
 
-Nyní přistoupíme k více buňkám a nastavíme některé hodnoty.
+Nyní přistoupíme k dalším buňkám a nastavíme některé hodnoty.
 
 ```csharp
 // Otevřete buňku C3 a nastavte její data

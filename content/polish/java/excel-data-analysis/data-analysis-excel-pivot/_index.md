@@ -87,7 +87,7 @@ Teraz, gdy utworzyliśmy i dostosowaliśmy naszą tabelę przestawną, czas prze
 
 ## Wniosek
 
-tym przewodniku przyjrzeliśmy się sposobowi przeprowadzania analizy danych w programie Excel przy użyciu Aspose.Cells for Java. Zaczęliśmy od utworzenia nowego skoroszytu, zaimportowania danych i utworzenia tabeli przestawnej. Następnie zdefiniowaliśmy pola tabeli przestawnej, zagregowaliśmy dane i dostosowaliśmy układ. Dzięki tym narzędziom możesz odblokować pełny potencjał analizy danych w programie Excel z Javą.
+tym przewodniku przyjrzeliśmy się sposobowi przeprowadzania analizy danych w programie Excel przy użyciu Aspose.Cells dla języka Java. Zaczęliśmy od utworzenia nowego skoroszytu, zaimportowania danych i utworzenia tabeli przestawnej. Następnie zdefiniowaliśmy pola tabeli przestawnej, zagregowaliśmy dane i dostosowaliśmy układ. Dzięki tym narzędziom możesz odblokować pełny potencjał analizy danych w programie Excel z językiem Java.
 
 ## Najczęściej zadawane pytania
 

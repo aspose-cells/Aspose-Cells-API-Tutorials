@@ -49,7 +49,7 @@ Klaar om uw Excel-pagina's te formatteren? Laten we het proces stap voor stap ui
 
 ## Stap 1: Stel uw werkruimte in
 
-Laten we eerst onze Workbook initialiseren en het gewenste werkblad openen. Dit is waar alle actie begint.
+Laten we eerst onze werkmap initialiseren en toegang krijgen tot het gewenste werkblad. Dit is waar alle actie begint.
 
 ```csharp
 // Het pad naar de documentenmap.

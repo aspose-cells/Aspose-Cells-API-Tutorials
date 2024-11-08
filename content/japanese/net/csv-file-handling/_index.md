@@ -19,7 +19,7 @@ url: /ja/net/csv-file-handling/
 
 パーティーを開くのと同じように考えてください。何人のゲストが来るのか、どんな軽食を用意するのか、座席をどのように配置するのかなどを把握する必要があります。Aspose.Cells を使用すると、すべてを効率的に整理して「データ パーティー」がスムーズに進むようにするホストになります。 
 
-さらに詳しい情報については、詳細なチュートリアルをご覧ください。[CSVファイルを開く](./csv-file-opening-csv-files/)そして[優先パーサーの使用](./csv-file-opening-csv-files-with-preferred-parser/)コーディングを楽しんで、CSV 処理が常に効率的になりますように!
+さらに詳しい情報については、詳細なチュートリアルをご覧ください。[CSVファイルを開く](./csv-file-opening-csv-files/)そして[優先パーサーの使用](./csv-file-opening-csv-files-with-preferred-parser/)コーディングを楽しんで、CSV 処理が効率化されることを願っています。
 
 
 ## CSV ファイル処理チュートリアル

@@ -111,7 +111,7 @@ Most alakítsuk át a diagramunkat képformátumra, így könnyen megosztható �
 chart.ToImage(outputDir + "outputChartRendering.emf", System.Drawing.Imaging.ImageFormat.Emf);
 ```
 
-Ebben a lépésben elmentjük a diagramot EMF (Enhanced Metafile) képként a megadott kimeneti könyvtárba. Különféle formátumokban is mentheti, például BMP vagy PNG.
+Ebben a lépésben a diagramot EMF (Enhanced Metafile) képként mentjük a megadott kimeneti könyvtárba. Különféle formátumokban is mentheti, például BMP vagy PNG.
 
 ## 8. lépés: A diagram konvertálása bittérképre
 
@@ -161,7 +161,7 @@ Ez a lépés létrehoz egy PDF-fájlt, amely tartalmazza a diagramot, így tök�
 
 ## Következtetés 
 
-Gratulálok! Sikeresen előállított egy diagramot az Aspose.Cells for .NET használatával. Ez a hatékony könyvtár leegyszerűsíti az Excel-fájlok és diagramok létrehozását és kezelését, így az adatok sokkal hozzáférhetőbbé és látványosabbá teszik. Függetlenül attól, hogy jelentéseket, elemzéseket vagy prezentációkat készít, a diagramok jelentős hatást fejtenek ki, és az Aspose segítségével könnyedén elkészítheti őket programozottan.
+Gratulálok! Sikeresen előállított egy diagramot az Aspose.Cells for .NET használatával. Ez a hatékony könyvtár leegyszerűsíti az Excel-fájlok és diagramok létrehozását és kezelését, így az adatok sokkal hozzáférhetőbbé és látványosabbá teszik. Függetlenül attól, hogy jelentéseket, elemzéseket vagy prezentációkat készít, a diagramok jelentős hatást gyakorolnak, és az Aspose segítségével könnyedén elkészítheti őket programozottan.
 
 ## GYIK
 

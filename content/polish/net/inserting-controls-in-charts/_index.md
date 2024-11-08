@@ -37,6 +37,6 @@ Dowiedz się, jak dodać kontrolkę etykiety do wykresów w Aspose.Cells dla .NE
 ### [Dodaj obraz do wykresu](./add-picture-to-chart/)
 Dowiedz się, jak łatwo dodawać obrazy do wykresów Excela za pomocą Aspose.Cells dla .NET. Ulepsz swoje wykresy i prezentacje w zaledwie kilku prostych krokach.
 ### [Dodaj kontrolkę TextBox do wykresu](./add-textbox-control-to-chart/)
-Dowiedz się, jak dodać pole tekstowe do wykresów w programie Excel za pomocą Aspose.Cells dla platformy .NET. Bez wysiłku udoskonalaj wizualizację danych.
+Dowiedz się, jak dodać pole tekstowe do wykresów w programie Excel za pomocą Aspose.Cells dla platformy .NET. Ulepsz wizualizację danych bez wysiłku.
 ### [Wstaw pole wyboru do arkusza wykresu](./insert-checkbox-in-chart-sheet/)
 Dowiedz się, jak w prosty sposób wstawić pole wyboru do arkusza wykresu programu Excel za pomocą Aspose.Cells dla platformy .NET, korzystając z tego samouczka krok po kroku.

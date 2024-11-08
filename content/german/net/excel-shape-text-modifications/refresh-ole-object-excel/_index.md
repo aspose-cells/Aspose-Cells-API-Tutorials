@@ -56,7 +56,7 @@ wb.Save(dataDir + "RefreshOLEObjects_out.xlsx", SaveFormat.Xlsx);
 ```
  Hier speichern wir die Arbeitsmappe unter einem neuen Namen`RefreshOLEObjects_out.xlsx` im selben Verzeichnis. Dadurch wird sichergestellt, dass unsere Originaldatei intakt bleibt und wir gleichzeitig eine neue Version haben, die sofort einsatzbereit ist!
 ## Abschluss
-Und da haben Sie es! Sie haben den Prozess der Aktualisierung von OLE-Objekten in Excel durch einen netten Spaziergang durch den Codepark entwirrt. Denken Sie daran, Automatisierung muss nicht entmutigend sein. Mit ein wenig Wissen darüber, wie Sie Excel mithilfe von Bibliotheken wie Aspose.Cells manipulieren, können Sie mühsame Aufgaben in reibungslose Vorgänge verwandeln. Krempeln Sie die Ärmel hoch, probieren Sie es aus und sehen Sie zu, wie Ihre Excel-Tabellen mühelos dynamisch und ansprechend werden!
+Und da haben Sie es! Sie haben den Prozess der Aktualisierung von OLE-Objekten in Excel durch einen netten Spaziergang durch den Codepark entwirrt. Denken Sie daran, Automatisierung muss nicht entmutigend sein. Mit ein wenig Wissen darüber, wie Sie Excel durch Bibliotheken wie Aspose.Cells manipulieren, können Sie mühsame Aufgaben in reibungslose Vorgänge verwandeln. Krempeln Sie die Ärmel hoch, probieren Sie es aus und sehen Sie zu, wie Ihre Excel-Tabellen mühelos dynamisch und ansprechend werden!
 ## Häufig gestellte Fragen
 ### Was sind OLE-Objekte?
 OLE-Objekte ermöglichen das Einbetten verschiedener Dateitypen (wie Bilder, Word-Dokumente) in ein Excel-Blatt für Multifunktionalität.

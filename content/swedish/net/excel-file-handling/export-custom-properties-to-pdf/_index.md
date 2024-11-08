@@ -44,7 +44,7 @@ string sourceDir = "Your Document Directory";
 // Utdatakatalog
 string outputDir = "Your Document Directory";
 ```
- Ersätt i det här kodavsnittet`"Your Document Directory"` med den faktiska sökvägen där dina filer finns eller var du vill spara dem.
+ I det här kodavsnittet, ersätt`"Your Document Directory"` med den faktiska sökvägen där dina filer finns eller var du vill spara dem.
 ## Steg 2: Ladda Excel-filen
  Därefter måste du ladda Excel-filen som innehåller de anpassade egenskaperna. Detta görs med hjälp av`Workbook` klass i Aspose.Cells.
 ```csharp

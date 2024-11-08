@@ -98,7 +98,7 @@ E proprio così, hai gettato le basi per determinare se il formato carta di un f
 ## Domande frequenti
 
 ### Che cos'è Aspose.Cells?
-Aspose.Cells è una libreria .NET progettata per gestire i file di fogli di calcolo Excel a livello di programmazione, senza la necessità di installare Excel.
+Aspose.Cells è una libreria .NET progettata per gestire i file dei fogli di calcolo Excel a livello di programmazione, senza la necessità di installare Excel.
 
 ### Posso usare Aspose.Cells per ambienti non Windows?
 Sì! Aspose.Cells supporta lo sviluppo multipiattaforma, così puoi lavorare in vari ambienti in cui è disponibile .NET.

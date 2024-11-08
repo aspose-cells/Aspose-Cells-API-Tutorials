@@ -13,7 +13,7 @@ url: /zh/java/basic-excel-functions/
 
 ## Aspose.Cells for Java入门：
 
-在深入研究 Excel 函数之前，让我们先使用 Aspose.Cells for Java 设置您的开发环境。确保您已将库集成到 Java 项目中。完成后，您就可以利用 Aspose.Cells 的强大功能执行各种 Excel 操作了。
+在深入研究 Excel 函数之前，让我们先使用 Aspose.Cells for Java 设置您的开发环境。确保您已将库集成到 Java 项目中。完成后，您就可以利用 Aspose.Cells 的强大功能执行各种 Excel 操作。
 
 ## 探索基本 Excel 函数：
 

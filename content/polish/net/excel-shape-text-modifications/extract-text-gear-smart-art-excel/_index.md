@@ -104,7 +104,7 @@ W ten sposób ekstrakcja jest ukończona, a na konsoli powinieneś zobaczyć wyn
  Gratulacje! Właśnie nauczyłeś się, jak wyodrębnić tekst z kształtów SmartArt typu koła zębatego w programie Excel przy użyciu Aspose.Cells dla .NET. Ta przydatna technika otwiera drzwi do automatyzacji raportów lub dokumentacji, która opiera się na wizualnej reprezentacji danych. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zaczynasz, kontrolowanie i wyodrębnianie informacji z SmartArt może usprawnić Twój przepływ pracy i zwiększyć Twoją wydajność. Nie zapomnij zapoznać się ze szczegółowymi[Dokumentacja Aspose.Cells](https://reference.aspose.com/cells/net/) dla dalszych możliwości.
 ## Najczęściej zadawane pytania
 ### Czym jest Aspose.Cells?
-Aspose.Cells to biblioteka .NET umożliwiająca programistom łatwe tworzenie i modyfikowanie plików Excela.
+Aspose.Cells to biblioteka .NET umożliwiająca programistom łatwe tworzenie i modyfikowanie plików Excel.
 ### Czy mogę używać Aspose.Cells z innymi językami?
 Tak! Aspose.Cells jest dostępny w wielu językach programowania, w tym Java i Python.
 ### Czy muszę kupić Aspose.Cells dla .NET?

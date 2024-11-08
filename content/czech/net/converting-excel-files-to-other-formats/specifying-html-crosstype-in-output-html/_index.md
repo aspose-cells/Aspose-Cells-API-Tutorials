@@ -64,7 +64,7 @@ opts.HtmlCrossStringType = HtmlCrossType.FitToCell;
 ## Krok 5: Uložte výstupní soubor HTML
  Jakmile nakonfigurujete své možnosti, je čas uložit převedený soubor HTML. Použijte`Save` metoda na vašem`Workbook` objekt:
 ```csharp
-// Výstupní Html
+// Výstup Html
 wb.Save(outputDir + "out" + opts.HtmlCrossStringType + ".htm", opts);
 ```
  Zde pojmenováváme výstupní soubor na základě`HtmlCrossStringType` nastavili jsme. Snadno tak poznáte, který typ kříže byl při převodu použit.
@@ -80,7 +80,7 @@ tady to máte! Úspěšně jste zadali křížový typ HTML pro export Excelu v 
 ### Co je HtmlCrossType v Aspose.Cells?  
 HtmlCrossType definuje, jak jsou křížové odkazy v souboru Excel zpracovány během převodu HTML. Můžete si vybrat možnosti jako Výchozí, MSExport, Cross a FitToCell.
 ### Mohu používat Aspose.Cells zdarma?  
- Aspose.Cells nabízí bezplatnou zkušební verzi. Můžete si ji stáhnout z jejich[webové stránky](https://releases.aspose.com/).
+ Aspose.Cells nabízí bezplatnou zkušební verzi. Můžete si jej stáhnout z jejich[webové stránky](https://releases.aspose.com/).
 ### Jak nainstaluji Aspose.Cells do svého .NET projektu?  
  Aspose.Cells můžete nainstalovat přes NuGet Package Manager ve Visual Studiu spuštěním příkazu:`Install-Package Aspose.Cells`.
 ### Kde najdu dokumentaci k Aspose.Cells?  

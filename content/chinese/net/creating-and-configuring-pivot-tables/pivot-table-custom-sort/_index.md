@@ -71,7 +71,7 @@ colField.NumberFormat = "dd/mm/yyyy";
 colField.IsAutoSort = true;
 colField.IsAscendSort = true;
 ```
-我们将第二个字段添加为列，并将其格式化为日期。同样，我们启用自动排序和升序排列以保持井然有序。最后，我们需要将第三个字段添加到数据区域：
+我们将第二个字段添加为列，并将其格式化为日期。同样，我们启用自动排序和升序排列以使内容井然有序。最后，我们需要将第三个字段添加到数据区域：
 ```csharp
 pivotTable.AddFieldToArea(PivotFieldType.Data,2);
 ```

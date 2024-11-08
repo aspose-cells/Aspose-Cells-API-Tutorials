@@ -21,11 +21,11 @@ Aspose.Cells for .NET 为希望以编程方式操作 Excel 文件的开发人员
 
 想要让行间距均匀吗？使用 Aspose.Cells 设置所有行的高度，让您可以灵活地管理整个工作表的间距。无论您是为了可读性还是美观性而进行调整，以下教程[使用 Aspose.Cells 设置 Excel 中所有行的高度](./setting-height-of-all-rows/)使流程变得容易遵循。
 
-如需更精细的控制，请查看[使用 Aspose.Cells for .NET 设置工作表中的行高](./setting-height-of-all-rows-in-worksheet/)指南。在这里，您将学习如何单独自定义每行的高度——这非常适合当您需要强调特定数据行时。
+如需更精细的控制，请查看[使用 Aspose.Cells for .NET 设置工作表中的行高](./setting-height-of-all-rows-in-worksheet/)指南。在这里，您将学习如何单独自定义每行的高度——非常适合当您需要强调特定数据行时。
 
 ## 简化列宽调整
 
-逐像素设置列宽可以为您的 Excel 文件带来专业感。如果您正在寻找深入的指南，请查看[使用 Aspose.Cells for .NET 设置列宽（以像素为单位）](./setting-column-width/)。这是您掌握这种精细调整并增强工作表视觉呈现效果的必备教程。
+逐像素设置列宽可以为您的 Excel 文件带来专业感。如果您正在寻找深入的指南，请查看[使用 Aspose.Cells for .NET 设置列宽（以像素为单位）](./setting-column-width/)。这是您掌握精细调整和增强工作表视觉呈现效果的必备教程。
 
 ## 实现精确的列和行调整
 

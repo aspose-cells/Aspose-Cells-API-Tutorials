@@ -2,7 +2,7 @@
 title: 在智慧標記中使用動態公式 Aspose.Cells
 linktitle: 在智慧標記中使用動態公式 Aspose.Cells
 second_title: Aspose.Cells .NET Excel 處理 API
-description: 了解如何透過 Aspose.Cells for .NET 使用智慧標記中的動態公式，從而增強 Excel 報告產生流程。
+description: 了解如何將智慧標記中的動態公式與 Aspose.Cells for .NET 結合使用，從而增強 Excel 報告產生流程。
 type: docs
 weight: 13
 url: /zh-hant/net/smart-markers-dynamic-data/dynamic-formulas-smart-markers/

@@ -57,7 +57,7 @@ Workbook excelbook = new Workbook();
 Aspose.Cells.Drawing.RectangleShape rectangle = excelbook.Worksheets[0].Shapes.AddRectangle(3, 0, 2, 0, 70, 130);
 ```
 これを詳しく見てみましょう:
-- `excelbook.Worksheets[0]`: ワークブックの最初のワークシートにアクセスします。
+- `excelbook.Worksheets[0]`: これにより、ワークブックの最初のワークシートにアクセスします。
 - `.Shapes.AddRectangle(3, 0, 2, 0, 70, 130)`: これにより、ワークシートに長方形が追加されます。ここでのパラメータは、長方形の位置 (行と列) と幅と高さを定義します。
 ## ステップ4: 長方形をカスタマイズする
 長方形を追加するだけでは不十分です。長方形をカスタマイズする必要があります。この手順では、長方形の配置、線の太さ、破線スタイルを設定します。

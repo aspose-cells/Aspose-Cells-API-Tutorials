@@ -51,7 +51,7 @@ Nachdem die Arbeitsmappe geladen wurde, ist es an der Zeit, sie als PDF-Datei zu
 // Speichern Sie es im PDF-Format
 wb.Save(outputDir + "output-" + CellsHelper.GetVersion() + ".pdf");
 ```
-In diesem Schritt speichern wir die Arbeitsmappe im PDF-Format in dem Ausgabeverzeichnis, das Sie zuvor angegeben haben. Der Dateiname wird dynamisch generiert, indem die Version von Aspose.Cells angehängt wird. Dadurch wird sichergestellt, dass jede Ausgabedatei einen eindeutigen Namen hat. Betrachten Sie es als Stempelung Ihres Dokuments mit der aktuellen Version als Versionskontrollmechanismus!
+In diesem Schritt speichern wir die Arbeitsmappe im PDF-Format in dem Ausgabeverzeichnis, das Sie zuvor angegeben haben. Der Dateiname wird dynamisch generiert, indem die Version von Aspose.Cells angehängt wird. Dadurch wird sichergestellt, dass jede Ausgabedatei einen eindeutigen Namen hat. Stellen Sie es sich so vor, als würden Sie Ihr Dokument als Versionskontrollmechanismus mit der aktuellen Version stempeln!
 ## Schritt 4: Bestätigungsnachricht
 Nach dem erfolgreichen Speichern Ihres Dokuments ist es sinnvoll, den Benutzer darüber zu informieren, dass alles gut geklappt hat. Sie können dies ganz einfach erreichen, indem Sie Folgendes hinzufügen:
 ```csharp

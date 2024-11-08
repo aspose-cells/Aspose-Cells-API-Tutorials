@@ -56,7 +56,7 @@ wb.Save(dataDir + "RefreshOLEObjects_out.xlsx", SaveFormat.Xlsx);
 ```
  Ở đây, chúng ta đang lưu sổ làm việc dưới một tên mới`RefreshOLEObjects_out.xlsx` trong cùng một thư mục. Điều này đảm bảo chúng ta giữ nguyên file gốc trong khi vẫn có phiên bản mới sẵn sàng hoạt động!
 ## Phần kết luận
-Và bạn đã có nó! Bạn đã gỡ rối quy trình làm mới các đối tượng OLE trong Excel thông qua một chuyến đi bộ thân thiện trong công viên mã hóa. Chỉ cần nhớ rằng, tự động hóa không phải là điều khó khăn. Với một chút kiến thức về cách thao tác Excel thông qua các thư viện như Aspose.Cells, bạn có thể biến các tác vụ tẻ nhạt thành các hoạt động trơn tru. Xắn tay áo lên, thử và xem các bảng tính Excel của bạn trở nên năng động và hấp dẫn một cách dễ dàng!
+Và bạn đã có nó! Bạn đã gỡ rối được quá trình làm mới các đối tượng OLE trong Excel thông qua một chuyến đi bộ thân thiện trong công viên mã hóa. Chỉ cần nhớ rằng, tự động hóa không phải là điều khó khăn. Với một chút kiến thức về cách thao tác Excel thông qua các thư viện như Aspose.Cells, bạn có thể biến các tác vụ tẻ nhạt thành các hoạt động trơn tru. Xắn tay áo lên, thử và xem các bảng tính Excel của bạn trở nên năng động và hấp dẫn một cách dễ dàng!
 ## Câu hỏi thường gặp
 ### Đối tượng OLE là gì?
 Các đối tượng OLE cho phép nhúng các loại tệp khác nhau (như hình ảnh, tài liệu Word) vào một bảng tính Excel để có nhiều chức năng.

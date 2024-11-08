@@ -72,7 +72,7 @@ rectangle.Placement = PlacementType.FreeFloating;
 //設定線寬。
 rectangle.Line.Weight = 4;
 ```
-這裡，我們將矩形的線條粗細設定為 4 磅。數字越高，線條越粗。
+這裡，我們將矩形的線條粗細設定為 4 點。數字越高，線條越粗。
 ### 設定破折號樣式
 ```csharp
 //設定矩形的虛線樣式。

@@ -75,7 +75,7 @@ Console.WriteLine("----------------------");
 Console.WriteLine("");
 ```
 ## Krok 6: Vytvořte nový rozsah A1
-Nyní je čas ponořit se do rozsahu A1. Děláme to takto:
+Nyní je čas ponořit se do rozsahu A1. Uděláme to takto:
 ```csharp
 // Vytvořte rozsah A1.
 Console.WriteLine("Creating Range A1\n");

@@ -19,7 +19,7 @@ Mielőtt belevágna a lépésekbe, győződjön meg róla, hogy néhány dolog k
    
 2.  Aspose.Cells for .NET: Az Aspose.Cells for .NET-re telepítve kell lennie. Letöltheti innen[itt](https://releases.aspose.com/cells/net/).
 
-3.  Minta Excel-fájl: Szerezzen be egy minta Excel-fájlt, amely diagramokat tartalmaz. Ehhez az oktatóanyaghoz egy nevű fájlt fogunk használni`sampleFindTypeOfXandYValuesOfPointsInChartSeries.xlsx`Győződjön meg róla, hogy a projektkönyvtárban van.
+3.  Minta Excel-fájl: Szerezzen be egy minta Excel-fájlt, amely diagramokat tartalmaz. Ehhez az oktatóanyaghoz egy nevű fájlt fogunk használni`sampleFindTypeOfXandYValuesOfPointsInChartSeries.xlsx`. Győződjön meg róla, hogy a projektkönyvtárban van.
 
 4. Alapvető programozási ismeretek: A C# programozás ismerete megkönnyíti a követést.
 
@@ -29,7 +29,7 @@ Az Excel adatokkal és diagramokkal való interakcióhoz importálnia kell a meg
 
 ### Állítsa be projektjét
 
-Nyissa meg az IDE-jét, és hozzon létre egy új .NET-projektet. Győződjön meg arról, hogy telepítette az Aspose.Cells csomagot a NuGet segítségével vagy a .DLL fájl hivatkozásával.
+Nyissa meg az IDE-jét, és hozzon létre egy új .NET-projektet. Győződjön meg arról, hogy telepítette az Aspose.Cells csomagot a NuGet segítségével, vagy a .DLL fájl hivatkozásával.
 
 ### Importálja a szükséges névtereket
 
@@ -60,7 +60,7 @@ string sourceDir = "Your Document Directory";
 
 ## 2. lépés: Töltse be a munkafüzetet
 
- Ezután töltse be az Excel fájlt a`Workbook`objektum. Ez lehetővé teszi a fájl teljes tartalmához való hozzáférést.
+ Ezután töltse be az Excel fájlt a`Workbook` objektum. Ez lehetővé teszi a fájl teljes tartalmához való hozzáférést.
 
 ```csharp
 Workbook wb = new Workbook(sourceDir + "sampleFindTypeOfXandYValuesOfPointsInChartSeries.xlsx");

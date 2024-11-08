@@ -31,7 +31,7 @@ url: /ar/net/excel-workbook/extract-embedded-mol-file/
 
 ### إضافة حزمة NuGet إلى Aspose.Cells
 
-في مشروعك الذي تم إنشاؤه حديثًا، ستحتاج إلى إضافة حزمة Aspose.Cells. يمكنك القيام بذلك عبر NuGet Package Manager:
+في مشروعك الذي تم إنشاؤه حديثًا، ستحتاج إلى إضافة حزمة Aspose.Cells. يمكنك القيام بذلك عبر مدير الحزم NuGet:
 
 1. انقر بزر الماوس الأيمن على مشروعك في مستكشف الحلول.
 2. حدد "إدارة حزم NuGet".

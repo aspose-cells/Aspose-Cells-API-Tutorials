@@ -42,7 +42,7 @@ if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
 
-Ez a kód beállít egy könyvtárat az Excel fájl mentéséhez. Ellenőrzi, hogy létezik-e a könyvtár, és ha nem, létrehozza. Ügyeljen arra, hogy cserélje ki`"Your Document Directory"` érvényes útvonallal.
+Ez a kód beállít egy könyvtárat az Excel fájl mentéséhez. Ellenőrzi, hogy létezik-e a könyvtár, és ha nem, létrehozza. Mindenképpen cserélje ki`"Your Document Directory"` érvényes útvonallal.
 ## 2. lépés: Munkafüzet-objektum példányosítása
 Ezután hozzunk létre egy új Excel-munkafüzetet. Itt fogjuk manipulálni a sejtjeinket.
 ```csharp

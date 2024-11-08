@@ -54,7 +54,7 @@ LoadOptions opts = new LoadOptions(LoadFormat.Numbers);
 //使用上述載入選項將 Numbers 電子表格載入到工作簿中
 Workbook wb = new Workbook(sourceDir + "sampleNumbersByAppleInc.numbers", opts);
 ```
-我們實例化一個`Workbook`物件並傳遞 Numbers 檔案的檔案路徑以及我們的載入選項。確保檔案名稱 (`sampleNumbersByAppleInc.numbers`) 與您的 Numbers 檔案的實際名稱相符。
+我們實例化一個`Workbook`物件並傳遞 Numbers 檔案的檔案路徑以及我們的載入選項。確保檔案名稱 (`sampleNumbersByAppleInc.numbers`) 與 Numbers 檔案的實際名稱相符。
 ## 步驟 4：將工作簿另存為 PDF
 成功載入 Numbers 檔案後，下一步是將其儲存為不同的格式，特別是 PDF。
 ```csharp

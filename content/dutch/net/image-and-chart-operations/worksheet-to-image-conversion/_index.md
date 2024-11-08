@@ -73,7 +73,7 @@ imgOptions.OnePagePerSheet = true;
 ## Stap 7: Het werkblad renderen
 Nu de opties zijn ingevuld, kunnen we het werkblad weergeven:
 ```csharp
-// Render het blad met betrekking tot de opgegeven afbeeldings-/afdrukopties
+// Render het werkblad met betrekking tot de opgegeven afbeeldings-/afdrukopties
 SheetRender sr = new SheetRender(sheet, imgOptions);
 // Render de afbeelding voor het blad
 Bitmap bitmap = sr.ToImage(0);

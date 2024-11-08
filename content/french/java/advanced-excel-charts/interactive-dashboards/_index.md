@@ -118,4 +118,4 @@ Oui, Aspose.Cells pour Java offre la possibilité d'exporter votre tableau de bo
 
 ### Aspose.Cells pour Java est-il adapté aux projets de visualisation de données à grande échelle ?
 
-Oui, Aspose.Cells pour Java est parfaitement adapté aux projets de visualisation de données à petite et grande échelle. Sa flexibilité et son ensemble complet de fonctionnalités en font un choix solide pour diverses exigences.
+Oui, Aspose.Cells pour Java est parfaitement adapté aux projets de visualisation de données à petite et à grande échelle. Sa flexibilité et son ensemble complet de fonctionnalités en font un choix solide pour diverses exigences.

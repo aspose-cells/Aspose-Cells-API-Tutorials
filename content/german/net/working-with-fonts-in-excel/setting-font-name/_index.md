@@ -71,7 +71,7 @@ Indem Sie auf die Zelle „A1“ zielen, können Sie deren Inhalt und Stil ände
 ## Schritt 7: Der Zelle einen Wert hinzufügen
 Jetzt ist es an der Zeit, etwas Text in unsere ausgewählte Zelle einzugeben. Wir legen eine freundliche Begrüßung fest!
 ```csharp
-// Hinzufügen eines Wertes zur Zelle „A1“
+// Einen Wert zur Zelle „A1“ hinzufügen
 cell.PutValue("Hello Aspose!");
 ```
 Dieser Befehl füllt die Zelle „A1“ mit dem Text „Hallo Aspose!“ Und schon nimmt unsere Tabelle Gestalt an!

@@ -58,7 +58,7 @@ loadOptions.Password = "1234"; // Ersätt "1234" med ditt faktiska lösenord
 // Skapa ett arbetsboksobjekt och öppna filen från dess sökväg
 Workbook wbEncrypted = new Workbook(dataDir + "encryptedBook.xls", loadOptions);
 ```
- Här bygger du en ny`Workbook` objekt och passerar i sökvägen till din krypterade fil och`loadOptions` som innehåller ditt lösenord. Om allt går bra bör den här raden öppna din krypterade fil.
+ Här bygger du en ny`Workbook` objekt och passerar i sökvägen till din krypterade fil och`loadOptions` som inkluderar ditt lösenord. Om allt går bra bör den här raden öppna din krypterade fil.
 ## Steg 5: Bekräfta framgångsrik åtkomst till filen
 Slutligen är det bra att bekräfta att du har öppnat filen. 
 ```csharp

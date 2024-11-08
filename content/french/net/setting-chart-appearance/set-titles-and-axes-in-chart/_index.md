@@ -156,7 +156,7 @@ Pour nous assurer que notre titre se démarque, ajustons sa couleur de police.
 chart.Title.Font.Color = Color.Blue;
 ```
 
-Le choix d'une couleur distincte met en valeur votre titre et attire immédiatement l'attention sur lui. Vous pouvez considérer cela comme une façon d'habiller votre titre pour une présentation.
+Le choix d'une couleur distincte met en valeur votre titre et attire immédiatement l'attention sur lui. Vous pouvez considérer cela comme un habillage de votre titre pour une présentation.
 
 ## Étape 10 : Définir les titres des axes de catégorie et de valeur
 

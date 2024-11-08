@@ -52,7 +52,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Nadpis: Vytvořte instanci sešitu
 
- Dále vytvoříme novou instanci`Workbook` třída. Tato třída představuje soubor aplikace Excel a umožňuje nám s ním hladce pracovat. Zde otevřeme existující tabulku (soubor naší šablony):
+ Dále vytvoříme novou instanci souboru`Workbook` třída. Tato třída představuje soubor aplikace Excel a umožňuje nám s ním hladce pracovat. Zde otevřeme existující tabulku (soubor naší šablony):
 
 ```csharp
 // Vytvořte instanci nového sešitu a otevřete soubor šablony

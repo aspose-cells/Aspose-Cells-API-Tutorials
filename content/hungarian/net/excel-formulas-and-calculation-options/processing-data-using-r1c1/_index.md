@@ -68,6 +68,6 @@ Az Aspose.Cells elsősorban a .NET-et támogatja, de vannak Java-, Android- és 
 ### Az Aspose.Cells ingyenesen használható?
 Az Aspose.Cells ingyenes próbaverziót kínál, de a hosszabb használathoz licencet kell vásárolni.
 ### Hol találok további Aspose.Cells példákat?
- Látogassa meg a[Aspose dokumentációja](https://reference.aspose.com/cells/net/) átfogó példákért és oktatóanyagokért.
+ Látogassa meg a[Aspose Dokumentáció](https://reference.aspose.com/cells/net/) átfogó példákért és oktatóanyagokért.
 ### Hogyan kaphatok támogatást az Aspose.Cells-hez?
 Kérdéseket tehet fel és támogatást kérhet a[Aspose fórum](https://forum.aspose.com/c/cells/9).

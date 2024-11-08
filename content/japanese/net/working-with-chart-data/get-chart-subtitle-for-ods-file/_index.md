@@ -16,7 +16,7 @@ Excel ファイルは、今日のデータ駆動型の世界ではどこにで�
 チュートリアルに進む前に、Aspose.Cells for .NET を効果的に使用するために必要なものがすべて設定されていることを確認してください。次のチェックリストに従ってください。
 
 1. .NET Framework: マシンに .NET Framework がインストールされていることを確認します。 
-2. Aspose.Cellsライブラリ: Aspose.Cellsライブラリをダウンロードしてインストールします。[ここ](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cellsライブラリ: Aspose.Cellsライブラリをダウンロードしてインストールします。[ここ](https://releases.aspose.com/cells/net/).
 3. IDE: どのコード エディターでも使用できますが、Visual Studio などの IDE を使用すると、.NET 開発用の堅牢なプラットフォームが提供されます。
 4. サンプルODSファイル: チャートを含むODSファイルが必要です。このチュートリアルでは、`SampleChart.ods`.
 5. C# の基礎知識: C# に精通していると、概念を素早く理解し、必要に応じて変更を加えることができます。

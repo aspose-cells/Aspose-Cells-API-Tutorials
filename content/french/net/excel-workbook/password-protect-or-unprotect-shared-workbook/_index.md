@@ -71,7 +71,7 @@ Dans ce cas, « 1234 » est notre mot de passe. Vous pouvez le modifier comme vo
 Si vous changez d'avis ou si vous devez modifier le classeur ultérieurement, vous pouvez facilement le déverrouiller en supprimant le commentaire de la ligne ci-dessous. C'est comme avoir la clé de votre coffre-fort :
 
 ```csharp
-// Décommentez cette ligne pour déprotéger le classeur partagé
+// Supprimez le commentaire de cette ligne pour déprotéger le classeur partagé
 // wb.UnprotectSharedWorkbook("1234");
 ```
 

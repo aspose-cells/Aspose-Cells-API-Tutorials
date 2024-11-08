@@ -67,7 +67,7 @@ Detta tar "A1"-cellen från vårt kalkylblad, som vi kommer att ändra inom kort
 ## Steg 6: Skriv värde till cellen
 Låt oss lägga till lite text i den cellen. Vad sägs om att vi säger "Hej Aspose!"?
 ```csharp
-// Lägger till något värde till "A1"-cellen
+// Lägga till något värde till "A1"-cellen
 cell.PutValue("Hello Aspose!");
 ```
 Detta kommando kommer att fylla cell "A1" med texten. Det är som att säga "Hej Excel, här är ett trevligt meddelande till dig!"

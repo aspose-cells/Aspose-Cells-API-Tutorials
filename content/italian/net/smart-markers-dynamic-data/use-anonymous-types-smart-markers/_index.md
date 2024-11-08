@@ -59,7 +59,7 @@ string dataDir = "Your Document Directory";
 // Crea un'istanza dell'oggetto progettista della cartella di lavoro.
 WorkbookDesigner report = new WorkbookDesigner();
 ```
- Sostituire`"Your Document Directory"` con il percorso effettivo del file in cui desideri salvare il file Excel.`WorkbookDesigner` La classe è il cuore di questa operazione, dove definisci il tuo modello.
+ Sostituire`"Your Document Directory"` con il percorso effettivo del file in cui desideri salvare il file Excel.`WorkbookDesigner` La classe è il cuore di questa operazione, dove si definisce il modello.
 ## Passaggio 3: aggiungere marcatori alle celle
 Ora, dobbiamo aggiungere dei marcatori intelligenti al foglio di lavoro. Questi marcatori saranno dei segnaposto per i dati che inseriremo più avanti.
 ```csharp
@@ -100,7 +100,7 @@ report.Workbook.Save(dataDir + "Smart Marker Customobjects.xls");
 Questa riga salva la cartella di lavoro nel percorso file specificato. Puoi aprire questo file usando Excel per vedere i dati inseriti.
 ## Conclusione
 Ed ecco fatto! Hai creato con successo un file Excel usando i marcatori intelligenti in Aspose.Cells con la tua classe personalizzata. Questo metodo non solo rende la gestione dei dati più dinamica, ma mantiene anche il tuo codice pulito e organizzato.
-Quindi, che tu stia generando report per analisi, monitoraggio di informazioni o qualsiasi altra attività correlata ai dati, i marcatori intelligenti sono i tuoi alleati per rendere i report di Excel più gestibili e flessibili!
+Quindi, che tu stia generando report per analisi, monitoraggio di informazioni o qualsiasi altra attività relativa ai dati, i marcatori intelligenti sono i tuoi alleati per rendere i report di Excel più gestibili e flessibili!
 ## Domande frequenti
 ### Cosa sono i marcatori intelligenti in Aspose.Cells?
 I marcatori intelligenti sono segnaposto speciali nel documento Excel che consentono di inserire dati in modo dinamico durante l'esecuzione.

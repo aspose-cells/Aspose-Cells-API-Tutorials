@@ -56,7 +56,7 @@ Worksheet sheet4 = wb.Worksheets[3];
 ```
 此代碼引用工作簿中的四個工作表。確保您的 Excel 文件至少有四張紙。
 ## 第 4 步：建立 PDF 書籤條目
-這就是奇蹟發生的地方！我們將為每張工作表建立書籤條目。
+這就是奇蹟發生的地方！我們將為每個工作表建立書籤條目。
 ```csharp
 PdfBookmarkEntry ent1 = new PdfBookmarkEntry {
     Destination = sheet1.Cells["A1"],

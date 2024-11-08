@@ -49,7 +49,7 @@ string dataDir = "Your Document Directory";
 
 ## Krok 2: Utwórz nowy skoroszyt
 
-Następnie utworzymy nowy skoroszyt. Skoroszyt to zasadniczo plik Excela. Aspose.Cells sprawia, że jest to niesamowicie proste.
+Następnie utworzymy nowy skoroszyt. Skoroszyt to zasadniczo plik Excela. Aspose.Cells sprawia, że jest to niesamowicie łatwe.
 
 ```csharp
 // Otwieranie pliku Excel za pomocą strumienia plików

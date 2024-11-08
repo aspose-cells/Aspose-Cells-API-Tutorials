@@ -10,7 +10,7 @@ url: /zh-hant/java/excel-data-analysis/data-analysis-functions-excel/
 
 ## 使用 Aspose.Cells for Java 介紹 Excel 中的資料分析功能
 
-在本綜合指南中，我們將探討如何利用 Aspose.Cells for Java 在 Excel 中執行資料分析功能。無論您是開發人員還是資料分析師，Aspose.Cells for Java 都提供了強大的功能來以程式設計方式操作和分析 Excel 資料。我們將介紹各種資料分析任務，例如排序、過濾、計算統計資料等。讓我們深入了解吧！
+在本綜合指南中，我們將探討如何利用 Aspose.Cells for Java 在 Excel 中執行資料分析功能。無論您是開發人員還是資料分析師，Aspose.Cells for Java 都提供了強大的功能來以程式設計方式操作和分析 Excel 資料。我們將介紹各種資料分析任務，例如排序、過濾、計算統計資料等。讓我們深入了解一下吧！
 
 ## 先決條件
 在我們開始之前，請確保您具備以下先決條件：

@@ -77,7 +77,7 @@ string outputDir = "Your Output Directory";
 string sourceDir = "Your Document Directory";
 ```
 
- Ügyeljen arra, hogy cserélje ki`"Your Output Directory"` és`"Your Document Directory"` a fájlok tényleges elérési útjával.
+ Mindenképpen cserélje ki`"Your Output Directory"` és`"Your Document Directory"` a fájlok tényleges elérési útjával.
 
 ## 2. lépés: Töltse be az Excel-munkafüzetet
 

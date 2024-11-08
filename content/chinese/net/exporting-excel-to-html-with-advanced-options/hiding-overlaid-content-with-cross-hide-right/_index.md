@@ -58,7 +58,7 @@ opts.HtmlCrossStringType = HtmlCrossType.CrossHideRight;
 //使用 HtmlSaveOptions 保存为 HTML
 wb.Save(outputDir + "outputHidingOverlaidContentWithCrossHideRightWhileSavingToHtml.html", opts);
 ```
-这行代码需要我们的工作簿 (`wb` ）并将其保存在指定的输出目录中，名称为`outputHidingOverlaidContentWithCrossHideRightWhileSavingToHtml.html`。它还应用我们之前定义的选项，以确保覆盖的内容按照我们的需求进行处理。
+此行采用我们的工作簿（`wb` ）并将其保存在指定的输出目录中，名称为`outputHidingOverlaidContentWithCrossHideRightWhileSavingToHtml.html`。它还应用我们之前定义的选项，以确保覆盖的内容按照我们的需求进行处理。
 ## 步骤4：输出成功消息
 最后，让我们添加一条成功消息，让我们知道一切都顺利执行。
 ```csharp

@@ -26,7 +26,7 @@ using System.Drawing;
 ```
 Tyto jmenné prostory vám umožní přístup ke všem funkcím kreslení a funkcím správy buněk, které budete používat v této příručce.
 ## Krok 1: Nastavte adresář dokumentů
-Za prvé – založme adresář, kam budete ukládat ty zbrusu nové excelové soubory. Děláme to takto:
+Za prvé – založme adresář, kam budete ukládat ty zbrusu nové excelové soubory. Uděláme to takto:
 ```csharp
 string dataDir = "Your Document Directory";
 // Vytvořte adresář, pokud ještě není přítomen.

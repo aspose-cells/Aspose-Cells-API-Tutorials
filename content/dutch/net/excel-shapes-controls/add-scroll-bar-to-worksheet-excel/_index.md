@@ -52,7 +52,7 @@ Worksheet worksheet = excelbook.Worksheets[0];
 ```
 Beschouw het werkblad als een kamer in uw huis, waar al uw decoraties (of in dit geval, kenmerken) worden geplaatst.
 ## Stap 4: Maak de rasterlijnen onzichtbaar
-Om uw werkblad een opgeruimde look te geven, verbergen we de standaard rasterlijnen. Dit zal helpen om de elementen die u later toevoegt te benadrukken.
+Om uw werkblad een schone look te geven, verbergen we de standaard rasterlijnen. Dit zal helpen om de elementen die u later toevoegt te benadrukken.
 ```csharp
 // De rasterlijnen van het werkblad onzichtbaar maken.
 worksheet.IsGridlinesVisible = false;
@@ -113,7 +113,7 @@ scrollbar.Max = 20;
 scrollbar.Min = 1;
 // Stel de toename in voor de besturing.
 scrollbar.IncrementalChange = 1;
-// Stel het paginawijzigingskenmerk in.
+// Stel het kenmerk voor paginawijziging in.
 scrollbar.PageChange = 5;
 // Stel het in op 3D-arcering.
 scrollbar.Shadow = true;

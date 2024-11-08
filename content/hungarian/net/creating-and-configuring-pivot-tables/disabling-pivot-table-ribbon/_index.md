@@ -37,7 +37,7 @@ string sourceDir = "Your Document Directory";
 // Kimeneti könyvtár
 string outputDir = "Your Document Directory";
 ```
- Ügyeljen arra, hogy cserélje ki`"Your Document Directory"` a számítógépen lévő könyvtárak tényleges elérési útjával.
+ Mindenképpen cserélje ki`"Your Document Directory"` a számítógépen lévő könyvtárak tényleges elérési útjával.
 ## 3. lépés: Töltse be a munkafüzetet
  Most, hogy a könyvtárainkat meghatároztuk, töltsük be a pivot táblát tartalmazó Excel fájlt. Használjuk a`Workbook` osztály Aspose.Cells erre.
 ```csharp

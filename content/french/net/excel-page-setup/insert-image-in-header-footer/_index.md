@@ -77,7 +77,7 @@ long bytesRead = inFile.Read(binaryData, 0, (int)inFile.Length);
 -  Ensuite, nous déclarons un tableau d'octets`binaryData` pour contenir les données de l'image.
 -  Enfin, nous lisons les données d’image à partir du`FileStream`.
 
-## Étape 5 : Accès à l'objet de configuration de page
+## Étape 5 : Accéder à l'objet de configuration de page
 
  Pour apporter des modifications à l'en-tête, nous devons accéder au`PageSetup` objet associé à la première feuille de calcul. 
 
@@ -107,7 +107,7 @@ pageSetup.SetHeader(2, "&A"); // Insère le nom de la feuille
 ```
 
 - La première ligne insère l'espace réservé à l'image (`&G`).
-- La deuxième ligne ajoute le nom de la feuille dans la section droite de l'en-tête, en utilisant l'espace réservé (`&A`).
+- La deuxième ligne ajoute le nom de la feuille dans la partie droite de l'en-tête, en utilisant l'espace réservé (`&A`).
 
 ## Étape 8 : Enregistrer le classeur
 

@@ -57,7 +57,7 @@ Nu we de benodigde pakketten hebben geïmporteerd, bent u op weg!
 
 Laten we nu eens kijken hoe u de afmetingen van verschillende papierformaten kunt ophalen door elke stap te doorlopen. 
 
-## Stap 1: Maak een instantie van de werkboekklasse
+## Stap 1: Maak een instantie van de werkmapklasse
 
 Het eerste wat u moet doen is een instantie van de Workbook-klasse maken vanuit Aspose.Cells. Deze klasse vertegenwoordigt een Excel-bestand.
 

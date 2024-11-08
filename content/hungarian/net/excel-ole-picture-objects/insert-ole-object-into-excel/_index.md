@@ -31,7 +31,7 @@ Az első lépés annak meghatározása, hogy hol tárolják a dokumentumokat. Ez
 // A dokumentumok könyvtárának elérési útja.
 string dataDir = "Your Document Directory";
 ```
- Ügyeljen arra, hogy cserélje ki`"Your Document Directory"` egy tényleges könyvtárútvonallal a rendszeren, ahová menteni kívánja a fájlokat.
+ Mindenképpen cserélje ki`"Your Document Directory"` egy tényleges könyvtárútvonallal a rendszeren, ahová menteni kívánja a fájlokat.
 ## 2. lépés: Hozza létre a könyvtárat, ha nem létezik
 Ezután biztosítani szeretnénk, hogy ez a könyvtár létezik. Ha nem, akkor létre kell hoznunk.
 ```csharp

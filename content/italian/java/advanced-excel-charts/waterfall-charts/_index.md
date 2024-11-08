@@ -107,4 +107,4 @@ Certamente, puoi aggiungere altre serie di dati al tuo grafico a cascata per rap
 
 ### Dove posso trovare altre risorse ed esempi per Aspose.Cells per Java?
 
- Puoi esplorare la documentazione per Aspose.Cells per Java su[reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) per informazioni approfondite ed esempi di codice.
+ Puoi esplorare la documentazione per Aspose.Cells per Java su[riferimento.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) per informazioni approfondite ed esempi di codice.

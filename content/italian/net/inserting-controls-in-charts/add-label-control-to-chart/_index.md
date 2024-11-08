@@ -141,7 +141,7 @@ Console.WriteLine("AddingLabelControlInChart executed successfully.");
 
 ## Conclusione
 
-Ed ecco fatto! Hai aggiunto con successo un controllo etichetta a un grafico usando Aspose.Cells per .NET. Con solo poche righe di codice, hai migliorato la chiarezza della tua rappresentazione visiva dei dati, rendendola molto più informativa. Ricorda, che tu stia mettendo insieme una presentazione o che ti stia immergendo nell'analisi dei dati, queste etichette possono essere strumenti inestimabili.
+Ed ecco fatto! Hai aggiunto con successo un controllo etichetta a un grafico usando Aspose.Cells per .NET. Con solo poche righe di codice, hai migliorato la chiarezza della tua rappresentazione visiva dei dati, rendendola molto più informativa. Ricorda, che tu stia mettendo insieme una presentazione o immergendoti nell'analisi dei dati, queste etichette possono essere strumenti inestimabili.
 
 ## Domande frequenti
 

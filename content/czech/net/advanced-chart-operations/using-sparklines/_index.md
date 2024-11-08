@@ -149,7 +149,7 @@ Tento segment kódu uloží upravený sešit do zadaného výstupního adresář
 
 ## Závěr
 
-A tady to máte – komplexního podrobného průvodce vytvářením a používáním křivek v excelových listech pomocí Aspose.Cells for .NET. Sparklines jsou fantastický způsob, jak poskytovat vizuálně přitažlivé a snadno stravitelné statistiky dat. Ať už jde o sestavy, prezentace nebo dokonce interní dokumenty, tato dynamická funkce může zvýšit dopad vašich dat.
+A tady to máte – obsáhlého podrobného průvodce vytvářením a používáním křivek ve vašich excelových listech pomocí Aspose.Cells for .NET. Sparklines jsou fantastický způsob, jak poskytovat vizuálně přitažlivé a snadno stravitelné statistiky dat. Ať už jde o sestavy, prezentace nebo dokonce interní dokumenty, tato dynamická funkce může zvýšit dopad vašich dat.
 
 ## FAQ
 

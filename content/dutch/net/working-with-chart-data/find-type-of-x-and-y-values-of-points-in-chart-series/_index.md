@@ -60,7 +60,7 @@ string sourceDir = "Your Document Directory";
 
 ## Stap 2: Laad de werkmap
 
- Laad vervolgens het Excel-bestand in een`Workbook`object. Hiermee krijgt u toegang tot alle inhoud van het bestand.
+ Laad vervolgens het Excel-bestand in een`Workbook` object. Hiermee krijgt u toegang tot alle inhoud van het bestand.
 
 ```csharp
 Workbook wb = new Workbook(sourceDir + "sampleFindTypeOfXandYValuesOfPointsInChartSeries.xlsx");
@@ -117,7 +117,7 @@ Console.WriteLine("FindTypeOfXandYValuesOfPointsInChartSeries executed successfu
 
 ## Conclusie
 
-Met deze gids zou u de typen X- en Y-waarden in de grafiekserie succesvol moeten kunnen ophalen en identificeren met Aspose.Cells voor .NET. Of u nu beslissingen neemt op basis van gegevens of deze alleen visueel wilt presenteren, het begrijpen van deze waarden is cruciaal. Ga dus verder, verken de materie en maak uw gegevenspresentaties betekenisvoller!
+Met deze gids zou u de typen X- en Y-waarden in de grafiekserie succesvol moeten kunnen ophalen en identificeren met Aspose.Cells voor .NET. Of u nu beslissingen neemt op basis van gegevens of deze alleen visueel wilt presenteren, het begrijpen van deze waarden is cruciaal. Ga dus verder, ontdek meer en maak uw gegevenspresentaties betekenisvoller!
 
 ## Veelgestelde vragen
 

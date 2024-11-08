@@ -25,7 +25,7 @@ using System.Drawing;
 Hiermee krijgt u toegang tot alle benodigde functionaliteit van Aspose.Cells voor het bewerken van uw gegevens.
 Nu we alles op zijn plek hebben, kunnen we beginnen met het opsplitsen van de conversie van tekst naar kolommen in een aantal eenvoudig te volgen stappen.
 ## Stap 1: De documentenmap instellen
-Eerst moet u de directory configureren waar u uw outputbestand opslaat. Het is altijd een goed idee om uw bestanden netjes te structureren; dit maakt het beheer ervan eenvoudig.
+Eerst moet u de directory configureren waar u uw outputbestand opslaat. Het is altijd een goed idee om uw bestanden netjes te structureren; dit maakt het beheren ervan eenvoudig.
 ```csharp
 // Het pad naar de documentenmap.
 string dataDir = "Your Document Directory";

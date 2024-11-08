@@ -21,7 +21,7 @@ Chcete-li začít pracovat s Aspose.Cells, budete muset do svého projektu přid
 ### Otevřete Visual Studio
 Spusťte Visual Studio a otevřete projekt, do kterého chcete přidat funkce pro nastavení šířky sloupců.
 ### Nainstalujte Aspose.Cells
-Knihovnu můžete nainstalovat přes NuGet Package Manager. Postup:
+Knihovnu můžete nainstalovat pomocí NuGet Package Manager. Postup:
 - Přejděte na Nástroje > Správce balíčků NuGet > Spravovat balíčky NuGet pro řešení…
 -  Hledat`Aspose.Cells` a klikněte na tlačítko Instalovat.
 ### Přidat Směrnici použití

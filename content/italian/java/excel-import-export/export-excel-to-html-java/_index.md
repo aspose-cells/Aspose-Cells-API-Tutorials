@@ -64,7 +64,7 @@ Per funzionalità più avanzate e opzioni di personalizzazione, fare riferimento
    - R: Sì, Aspose.Cells per Java supporta l'esportazione di file Excel con formattazione complessa in HTML, preservandone il più possibile la formattazione.
 
 ### D: Aspose.Cells è adatto all'elaborazione batch di file Excel?
-   - R: Assolutamente! Aspose.Cells è molto adatto all'elaborazione batch, semplificando l'automazione di attività che coinvolgono più file Excel.
+   - R: Assolutamente! Aspose.Cells è adatto all'elaborazione in batch, semplificando l'automazione di attività che coinvolgono più file Excel.
 
 ### D: Esistono requisiti di licenza per utilizzare Aspose.Cells per Java?
    - R: Sì, Aspose.Cells richiede una licenza valida per l'uso in produzione. Puoi ottenere una licenza dal sito web di Aspose.

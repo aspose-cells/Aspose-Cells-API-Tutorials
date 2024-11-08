@@ -99,7 +99,7 @@ En daar heb je het! Je hebt net geleerd hoe je panelen in een Excel-werkblad kun
 Door panelen te splitsen kunt u onafhankelijk van elkaar in beide panelen scrollen. Door panelen te bevriezen worden de headers of specifieke rijen/kolommen vergrendeld, zodat ze zichtbaar blijven tijdens het scrollen.
 
 ### Kan ik de scheur verwijderen nadat ik het heb aangebracht?  
-Ja, u kunt de splitsing ongedaan maken door de werkmap te sluiten en opnieuw te openen, of door deze programmatisch te resetten.
+Ja, u kunt de splitsing ongedaan maken door de werkmap te sluiten en opnieuw te openen, of door deze programmatisch opnieuw in te stellen.
 
 ### Werkt het splitsen van deelvensters hetzelfde voor verschillende Excel-bestandsformaten (XLS, XLSX)?  
  Ja, de`Split()` Deze methode werkt voor zowel XLS- als XLSX-formaten.

@@ -170,3 +170,25 @@ Domine o ajuste automático de linhas e colunas no Excel com o Aspose.Cells para
 Explore tutoriais abrangentes sobre como gerenciar segmentadores do Excel com o Aspose.Cells para .NET. Aprenda a criar, atualizar, formatar e exportar segmentadores sem esforço.
 ### [Marcadores inteligentes em Aspose.Cells para dados dinâmicos](./smart-markers-dynamic-data/)
 Explore os Tutoriais do Aspose.Cells for .NET Smart Markers para criar relatórios dinâmicos do Excel. Aprenda a adicionar rótulos, preencher dados automaticamente, usar fórmulas e muito mais.
+### [Tabelas e Listas](./tables-and-lists/)
+Explore tutoriais abrangentes do Aspose.Cells para .NET para gerenciar dados do Excel com eficiência, criar tabelas e aprimorar suas habilidades com guias fáceis de seguir.
+### [Operações da pasta de trabalho Aspose.Cells](./workbook-operations/)
+Explore os tutoriais de pasta de trabalho do Aspose.Cells for .NET que abrangem acesso a dados, personalização de XML, assinaturas, extensões da web e muito mais. Aprimore habilidades de automação do Excel facilmente.
+### [Configurações da pasta de trabalho](./workbook-settings/)
+Explore os tutoriais abrangentes do Aspose.Cells para .NET, abrangendo configurações de pasta de trabalho, recursos externos e muito mais.
+### [Projeto de pasta de trabalho VBA](./workbook-vba-project/)
+Desbloqueie o poder do Excel com Aspose.Cells para .NET. Explore tutoriais abrangentes sobre proteção de projetos VBA, cópia de formulários de usuário e proteção de sua pasta de trabalho.
+### [Exibição de planilha](./worksheet-display/)
+Descubra uma lista abrangente de tutoriais do Aspose.Cells para .NET. Aprimore suas habilidades no Excel com guias passo a passo sobre os principais recursos da planilha.
+### [Gerenciamento de planilhas](./worksheet-management/)
+Desbloqueie o poder do Aspose.Cells para .NET com nossos tutoriais abrangentes, que o guiam pelo gerenciamento de planilhas com instruções passo a passo.
+### [Recursos de configuração de página de planilha](./worksheet-page-setup-features/)
+Descubra os tutoriais de configuração de páginas de planilhas do Aspose.Cells for .NET, incluindo cópia de configurações de página, gerenciamento de tamanho de papel e configuração de qualidade de impressão para planilhas do Excel.
+### [Segurança da planilha](./worksheet-security/)
+Desvende os segredos da segurança do Excel. Explore nossos tutoriais abrangentes do Aspose.Cells for .NET para proteger, editar e gerenciar suas planilhas sem esforço.
+### [Planilha Operações de Valor](./worksheet-value-operations/)
+Descubra tutoriais essenciais sobre Aspose.Cells para .NET, abrangendo operações de valor de planilha para aprimorar seus projetos do Excel.
+### [Operações de planilha](./worksheet-operations/)
+Explore os tutoriais de pasta de trabalho do Aspose.Cells for .NET que abrangem acesso a dados, personalização de XML, assinaturas, extensões da web e muito mais. Aprimore habilidades de automação do Excel facilmente.
+### [Operações de Mapa XML](./xml-map-operations/)
+Descubra tutoriais abrangentes do Aspose.Cells para .NET que abordam operações de mapa XML para aprimorar suas habilidades no Excel sem esforço.

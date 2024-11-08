@@ -28,7 +28,7 @@ Mielőtt bármit tenne a fájllal, meg kell adnia, hol található az Excel-fáj
 ```csharp
 string dataDir = "Your Document Directory"; // Cserélje ki a tényleges útvonalat
 ```
- Ez a változó`dataDir` tartalmazza az Excel fájlokat tartalmazó mappa elérési útját. Ügyeljen arra, hogy cserélje ki`"Your Document Directory"` a rendszer tényleges elérési útjával.
+ Ez a változó`dataDir` tartalmazza az Excel fájlokat tartalmazó mappa elérési útját. Mindenképpen cserélje ki`"Your Document Directory"` a rendszer tényleges elérési útjával.
 ## 2. lépés: Hozzon létre egy fájlfolyamot az Excel fájl megnyitásához
 Ezután létrehoz egy fájlfolyamot, amely lehetővé teszi az Excel-fájl olvasását.
 ```csharp

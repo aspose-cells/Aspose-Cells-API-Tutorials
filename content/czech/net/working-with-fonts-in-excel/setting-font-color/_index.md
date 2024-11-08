@@ -44,7 +44,7 @@ Workbook workbook = new Workbook();
 ```
 Tento řádek inicializuje prázdný sešit. Je to výchozí bod naší interakce s Excelem.
 ## Krok 3: Přidejte nový list
-Nyní do našeho sešitu přidáme pracovní list. Tady budeme provádět všechny naše operace.
+Nyní do našeho sešitu přidáme pracovní list. Zde budeme provádět všechny naše operace.
 ```csharp
 // Přidání nového listu do objektu aplikace Excel
 int i = workbook.Worksheets.Add();

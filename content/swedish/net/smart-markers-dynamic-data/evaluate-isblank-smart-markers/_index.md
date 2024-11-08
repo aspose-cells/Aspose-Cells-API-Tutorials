@@ -96,7 +96,7 @@ designer.Process();
 // Spara den resulterande arbetsboken
 workbook.Save(outputDir + @"outputSampleIsBlank.xlsx");
 ```
- Efter bearbetning sparar vi arbetsboken i den angivna utdatakatalogen. Se till att uppdatera`"outputSampleIsBlank.xlsx"` till ett namn som du väljer.
+ Efter bearbetning sparar vi arbetsboken i den angivna utdatakatalogen. Se till att uppdatera`"outputSampleIsBlank.xlsx"` till ett namn du väljer.
 ## Slutsats
 Och där har du det! Du har lyckats utvärdera om ett värde är tomt med hjälp av smarta markörer med Aspose.Cells för .NET. Denna teknik gör inte bara dina Excel-filer intelligenta utan automatiserar också hur du hanterar data. Lek gärna med proverna och skräddarsy dem efter dina behov. Om du har några frågor eller vill höja dina kunskaper, tveka inte att höra av dig!
 ## FAQ's

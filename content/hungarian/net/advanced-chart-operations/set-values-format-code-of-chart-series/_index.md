@@ -131,7 +131,7 @@ Console.WriteLine("SetValuesFormatCodeOfChartSeries executed successfully.");
 
 ## Következtetés
 
-Ebben az oktatóanyagban egy diagramsorozat értékformátumkódjának beállítási folyamatát mutattuk be az Aspose.Cells for .NET használatával. Az Excel-fájl betöltésétől a végtermék mentéséig minden lépés közelebb visz az adatok hatékony megjelenítéséhez, amely egyszerre értelmes és hatásos. Most már használhatja ezeket a készségeket, és alkalmazhatja őket folyamatban lévő projektjeihez.
+Ebben az oktatóanyagban végigjártuk a diagramsorozatok értékformátumkódjának beállítását az Aspose.Cells for .NET használatával. Az Excel-fájl betöltésétől a végtermék mentéséig minden lépés közelebb visz az adatok hatékony megjelenítéséhez, amely egyszerre értelmes és hatásos. Most már használhatja ezeket a készségeket, és alkalmazhatja őket folyamatban lévő projektjeihez.
 
 ## GYIK
 

@@ -8,7 +8,7 @@ weight: 10
 url: /nl/net/rendering-and-export/add-pdf-bookmarks/
 ---
 ## Invoering
-Als u ooit met lange PDF-documenten hebt gewerkt, weet u hoe lastig het kan zijn om door pagina's vol informatie te navigeren. Bladwijzers spelen een essentiële rol bij het verbeteren van de gebruikerservaring door snelle navigatiepunten te bieden. In deze tutorial onderzoeken we hoe u bladwijzers met benoemde bestemmingen kunt toevoegen aan een PDF die is gegenereerd vanuit een Excel-bestand met behulp van Aspose.Cells voor .NET.
+Als u ooit met lange PDF-documenten hebt gewerkt, weet u hoe lastig het kan zijn om door pagina's vol informatie te navigeren. Bladwijzers spelen een essentiële rol bij het verbeteren van de gebruikerservaring door snelle navigatiepunten te bieden. In deze tutorial onderzoeken we hoe u bladwijzers met benoemde bestemmingen kunt toevoegen aan een PDF die is gegenereerd vanuit een Excel-bestand met Aspose.Cells voor .NET.
 ## Vereisten
 Voordat we in de details duiken, zorgen we ervoor dat je alles op orde hebt. Om deze tutorial te volgen, heb je het volgende nodig:
 1. Visual Studio: Dit is de go-to IDE voor .NET-ontwikkeling. Zorg ervoor dat u het op uw machine hebt geïnstalleerd.

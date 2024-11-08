@@ -23,7 +23,7 @@ Innan vi går in i koden, låt oss se till att du har allt du behöver för att 
 
 ## Importera paket
 
-För att börja arbeta med Aspose.Cells måste du importera de nödvändiga namnrymden till din C#-fil. Detta ger ditt program tillgång till klasserna och metoderna som tillhandahålls av biblioteket. Så här gör du det:
+För att börja arbeta med Aspose.Cells måste du importera de nödvändiga namnområdena till din C#-fil. Detta ger ditt program tillgång till klasserna och metoderna som tillhandahålls av biblioteket. Så här gör du det:
 
 ```csharp
 using Aspose.Cells.WebExtensions;

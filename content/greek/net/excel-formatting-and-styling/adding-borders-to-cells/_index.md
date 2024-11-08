@@ -74,7 +74,7 @@ Style style = cell.GetStyle();
 // Ορισμός άνω περιγράμματος
 style.Borders[BorderType.TopBorder].LineStyle = CellBorderType.Thick;
 style.Borders[BorderType.TopBorder].Color = Color.Black;
-// Ορίστε το κάτω περίγραμμα
+// Ορισμός κάτω περιγράμματος
 style.Borders[BorderType.BottomBorder].LineStyle = CellBorderType.Thick;
 style.Borders[BorderType.BottomBorder].Color = Color.Black;
 // Ορισμός αριστερού περιγράμματος

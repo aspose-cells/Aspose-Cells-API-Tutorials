@@ -8,7 +8,7 @@ weight: 15
 url: /pl/net/excel-shape-text-modifications/convert-smart-art-group-shape-excel/
 ---
 ## Wstęp
-Excel to wszechstronne narzędzie oferujące mnóstwo funkcji, dzięki czemu idealnie nadaje się do reprezentacji i analizy danych. Ale czy kiedykolwiek próbowałeś manipulować Smart Art w programie Excel? Konwersja Smart Art do Group Shape może być nieco trudna, szczególnie jeśli nie znasz niuansów kodowania w .NET. Na szczęście dla Ciebie, Aspose.Cells dla .NET sprawia, że ten proces jest spacerkiem po parku. W tym samouczku zagłębimy się w to, jak możesz przekonwertować Smart Art na Group Shape w programie Excel za pomocą Aspose.Cells. Więc chwyć swój kapelusz kodera i wskakujmy od razu do akcji!
+Excel to wszechstronne narzędzie oferujące mnóstwo funkcji, dzięki czemu idealnie nadaje się do reprezentacji i analizy danych. Ale czy kiedykolwiek próbowałeś manipulować Smart Art w programie Excel? Konwersja Smart Art do Group Shape może być nieco trudna, szczególnie jeśli nie znasz niuansów kodowania w .NET. Na szczęście dla Ciebie, Aspose.Cells dla .NET sprawia, że ten proces jest spacerkiem po parku. W tym samouczku zagłębimy się w to, jak możesz przekonwertować Smart Art na Group Shape w programie Excel za pomocą Aspose.Cells. Więc chwyć swój kapelusz kodera i wskakujmy do akcji!
 ## Wymagania wstępne
 Zanim zakasamy rękawy i zaczniemy kodować, upewnijmy się, że masz wszystko, czego potrzebujesz, aby zacząć. Oto, co powinieneś mieć:
 1. Visual Studio: Upewnij się, że masz zainstalowany Visual Studio na swoim komputerze. To zintegrowane środowisko programistyczne (IDE) do tworzenia oprogramowania .NET.

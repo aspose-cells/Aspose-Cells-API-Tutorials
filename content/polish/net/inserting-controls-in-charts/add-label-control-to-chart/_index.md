@@ -141,7 +141,7 @@ To tak, jakbyś pokazał światu swój gotowy produkt i czekał na oklaski!
 
 ## Wniosek
 
-I masz to! Udało Ci się dodać kontrolkę etykiety do wykresu za pomocą Aspose.Cells dla .NET. Za pomocą zaledwie kilku linijek kodu poprawiłeś przejrzystość wizualnej reprezentacji danych, czyniąc ją o wiele bardziej informacyjną. Pamiętaj, że niezależnie od tego, czy tworzysz prezentację, czy zagłębiasz się w analizę danych, te etykiety mogą być nieocenionymi narzędziami.
+I masz! Udało Ci się dodać kontrolkę etykiety do wykresu za pomocą Aspose.Cells dla .NET. Za pomocą zaledwie kilku linijek kodu poprawiłeś przejrzystość wizualnej reprezentacji danych, czyniąc ją o wiele bardziej informacyjną. Pamiętaj, że niezależnie od tego, czy tworzysz prezentację, czy zagłębiasz się w analizę danych, te etykiety mogą być nieocenionymi narzędziami.
 
 ## Najczęściej zadawane pytania
 

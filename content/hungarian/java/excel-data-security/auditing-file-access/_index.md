@@ -2,7 +2,7 @@
 title: Fájlhozzáférés ellenőrzése
 linktitle: Fájlhozzáférés ellenőrzése
 second_title: Aspose.Cells Java Excel Processing API
-description: Ismerje meg, hogyan auditálhatja a fájlhozzáférést az Aspose.Cells for Java API használatával. Lépésről lépésre útmutató forráskóddal és GYIK-kal.
+description: Ismerje meg, hogyan ellenőrizheti a fájlhozzáférést az Aspose.Cells for Java API használatával. Lépésről lépésre útmutató forráskóddal és GYIK-kal.
 type: docs
 weight: 16
 url: /hu/java/excel-data-security/auditing-file-access/

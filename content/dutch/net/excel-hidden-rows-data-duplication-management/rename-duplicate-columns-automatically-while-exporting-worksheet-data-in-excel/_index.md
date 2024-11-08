@@ -85,7 +85,7 @@ for (int i = 0; i < dataTable.Columns.Count; i++)
 ```
  Deze lus loopt door de kolommen van de`DataTable`en print elke kolomnaam naar de console. Het is de voldoening om te zien dat onze potten op een rijtje staan, gelabeld zijn en klaar voor gebruik.
 ## Conclusie
-En daar heb je het! Door deze stappen te volgen, ben je nu uitgerust om automatisch dubbele kolommen te hernoemen bij het exporteren van Excel-gegevens met Aspose.Cells voor .NET. Dit bespaart je niet alleen tijd, maar zorgt er ook voor dat je gegevens georganiseerd en begrijpelijk blijven. Is het niet geweldig als technologie ons leven gemakkelijker maakt? Als je onderweg vragen hebt, kun je ze gerust in de comments stellen.
+En daar heb je het! Door deze stappen te volgen, ben je nu uitgerust om automatisch dubbele kolommen te hernoemen bij het exporteren van Excel-gegevens met Aspose.Cells voor .NET. Dit bespaart je niet alleen tijd, maar zorgt er ook voor dat je gegevens georganiseerd en begrijpelijk blijven. Is het niet geweldig als technologie ons leven gemakkelijker maakt? Als je onderweg vragen hebt, kun je ze gerust in de reacties achterlaten.
 ## Veelgestelde vragen
 ### Wat is Aspose.Cells?
 Aspose.Cells is een krachtige bibliotheek voor .NET waarmee ontwikkelaars programmatisch Excel-bestanden kunnen maken, bewerken en converteren.

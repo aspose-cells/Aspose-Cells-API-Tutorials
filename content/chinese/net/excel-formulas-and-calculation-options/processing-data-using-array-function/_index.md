@@ -13,7 +13,7 @@ url: /zh/net/excel-formulas-and-calculation-options/processing-data-using-array-
 在我们深入研究使用数组函数处理 Excel 数据的细节之前，需要满足一些先决条件：
 - 对 C# 的基本了解：熟悉 C# 编程将会很有益，因为我们将编写一些代码。
 -  Aspose.Cells 库：您需要安装 Aspose.Cells 库。如果您尚未安装，可以查看更多详细信息[这里](https://releases.aspose.com/cells/net/).
-- 开发环境：建议使用 Visual Studio 或任何其他 IDE 设置 .NET 开发。
+- 开发环境：建议使用 Visual Studio 或任何其他 IDE 进行 .NET 开发。
 - 安装 Excel：虽然对于所有操作来说并不是必需的，但安装 Excel 将帮助您更好地可视化结果。
 一旦您满足了这些先决条件，我们就可以开始了！
 ## 导入包

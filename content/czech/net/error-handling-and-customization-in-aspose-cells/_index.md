@@ -2,7 +2,7 @@
 title: Zpracování chyb a přizpůsobení v Aspose.Cells
 linktitle: Zpracování chyb a přizpůsobení v Aspose.Cells
 second_title: Aspose.Cells .NET Excel Processing API
-description: Výukové programy Aspose.Cells for .NET o vykreslování doplňků Office v Excelu do PDF a ignorování chyb během převodu Excel do PDF. Zjednodušte si úlohy s dokumenty.
+description: Výukové programy Aspose.Cells for .NET o vykreslování doplňků Office v Excelu do PDF a ignorování chyb během převodu Excel do PDF. Zjednodušte si úkoly s dokumenty.
 type: docs
 weight: 21
 url: /cs/net/error-handling-and-customization-in-aspose-cells/

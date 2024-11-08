@@ -72,7 +72,7 @@ Door het pad naar uw Excel-bestand op te geven (`book1.xls`), laadt u het docume
 
 ## Stap 3: Toegang tot het werkblad
 
-Laten we nu het werkblad openen waarvan u de beveiliging wilt opheffen. Als u over het algemeen maar één werkblad hebt, is dit het eerste (index 0).
+Laten we nu het werkblad benaderen dat u wilt opheffen. Over het algemeen geldt dat als u maar één werkblad hebt, dit het eerste is (index 0).
 
 ```csharp
 Worksheet worksheet = workbook.Worksheets[0];
@@ -102,7 +102,7 @@ workbook.Save(dataDir + "output.out.xls", SaveFormat.Excel97To2003);
 
 ## Conclusie
 
-In een wereld die wordt gedomineerd door data, is het cruciaal om te weten hoe u uw Excel-spreadsheets kunt manipuleren en beheren. Met Aspose.Cells voor .NET kunt u op een robuuste manier Excel-bestandsbewerkingen uitvoeren, inclusief het opheffen van de beveiliging van uw sheets. Met slechts een paar regels code hebt u weer toegang tot uw beveiligde content en kunt u zonder problemen doorgaan met uw werk. Dus de volgende keer dat u een vergrendeld Excel-sheet tegenkomt, weet u precies wat u moet doen!
+In een wereld die wordt gedomineerd door data, is het cruciaal om te weten hoe u uw Excel-spreadsheets kunt manipuleren en beheren. Met Aspose.Cells voor .NET kunt u Excel-bestandsbewerkingen op een robuuste manier verwerken, inclusief het opheffen van de beveiliging van uw sheets. Met slechts een paar regels code hebt u weer toegang tot uw beveiligde content en kunt u zonder problemen doorgaan met uw werk. Dus de volgende keer dat u een vergrendeld Excel-sheet tegenkomt, weet u precies wat u moet doen!
 
 ## Veelgestelde vragen
 

@@ -78,7 +78,7 @@ Nu komt het leuke gedeelte! Je kunt de verticale scrollbalk verbergen om een net
 workbook.Settings.IsVScrollBarVisible = false;
 ```
   
- Door het instellen`IsVScrollBarVisible` naar`false`, de verticale schuifbalk is verborgen. Dit kan vooral handig zijn als u scrollen op een gebruiksvriendelijke manier wilt beperken.
+ Door het instellen`IsVScrollBarVisible` naar`false`, de verticale schuifbalk is verborgen. Dit kan vooral handig zijn als u het scrollen op een gebruiksvriendelijke manier wilt beperken.
 
 ## Stap 5: Verberg de horizontale schuifbalk
 

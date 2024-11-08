@@ -47,7 +47,7 @@ Ora che l'ambiente è impostato, definiamo dove si trova il file Excel e dove de
 ```csharp
 //Elenco di origine
 string sourceDir = "Your Document Directory";
-//Directory di uscita
+//Directory di output
 string outputDir = "Your Document Directory";
 ```
  Sostituire`"Your Document Directory"` con il percorso effettivo del file Excel e dove desideri salvare il file Markdown.

@@ -21,7 +21,7 @@ Başlamanın en basit yollarından biri, HTML'ye aktarırken kullanılmayan stil
 
 ## Veri Görselleştirmenizi Programatik Olarak Kontrol Edin
 
-Son olarak ölçeklenebilir sütun genişlikleri ayarlama ve üst üste binen içeriği gizleme hakkında konuşalım. Bu işlevler, dışa aktarılan belgenin görsel yönlerini kişiselleştirmenize, onu kullanıcı dostu ve estetik olarak hoş hale getirmenize olanak tanır. Her sütunun mükemmel bir şekilde uyduğu veya gereksiz öğelerin verileri gizlemediği bir rapor hazırlamayı hayal edin. Her adımda size rehberlik eden eğitimlerle tam da bunu başarabilirsiniz! Düzeninizi mükemmelleştirmekle ilgileniyor musunuz?[Daha fazla bilgi edinmek için buraya tıklayın](./setting-scalable-column-width/).
+Son olarak, ölçeklenebilir sütun genişlikleri ayarlama ve üst üste binen içeriği gizleme hakkında konuşalım. Bu işlevler, dışa aktarılan belgenin görsel yönlerini özelleştirmenize, onu kullanıcı dostu ve estetik olarak hoş hale getirmenize olanak tanır. Her sütunun mükemmel bir şekilde uyduğu veya gereksiz öğelerin verileri gizlemediği bir rapor hazırlamayı hayal edin. Her adımda size rehberlik eden eğitimlerle tam da bunu başarabilirsiniz! Düzeninizi mükemmelleştirmekle ilgileniyor musunuz?[Daha fazla bilgi edinmek için buraya tıklayın](./setting-scalable-column-width/).
 
 ## Yazdırma Alanını Programatik Olarak Dışa Aktarma
 

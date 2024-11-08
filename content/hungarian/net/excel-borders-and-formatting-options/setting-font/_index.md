@@ -93,7 +93,7 @@ workbook.Save(dataDir + "output.xlsx");
 ```
  Ez a sor az Excel-fájlt más néven menti`output.xlsx` a megadott könyvtárban. Győződjön meg arról, hogy az adott helyen van írási jogosultsága!
 ## Következtetés
-És megvan! Most tanulta meg, hogyan állíthat be programozott betűstílusokat az Excelben az Aspose.Cells for .NET használatával. A dokumentumkönyvtár meghatározásától kezdve a feltételes formázásig és végül a munka elmentéséig most már rendelkezik azokkal az eszközökkel, amelyekkel Excel-fájljait vizuálisan vonzóvá és működőképessé teheti.
+És megvan! Most tanulta meg, hogyan állíthat be programozott betűstílusokat az Excelben az Aspose.Cells for .NET használatával. A dokumentumkönyvtár meghatározásától kezdve a feltételes formázásig és végül a munka elmentéséig most már rendelkezik azokkal az eszközökkel, amelyekkel Excel-fájljait vizuálisan tetszetőssé és működőképessé teheti.
 Akár jelentéseket készít, akár feladatokat automatizál, akár irányítópultokat hoz létre, a betűtípus-kezelés művészetének elsajátítása az egyszerűtől a gyönyörűvé emelheti a táblázatokat.
 ## GYIK
 ### Alkalmazhatok különböző betűstílusokat különböző feltételekhez?  

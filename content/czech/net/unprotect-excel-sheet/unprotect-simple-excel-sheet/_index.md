@@ -35,7 +35,7 @@ Pokud jste ještě nenainstalovali Aspose.Cells, můžete tak učinit pomocí Nu
 
 - Otevřete Správce balíčků NuGet (klikněte pravým tlačítkem na svůj projekt v Průzkumníku řešení a vyberte Spravovat balíčky NuGet).
 - Vyhledejte Aspose.Cells.
-- Klepněte na Instalovat.
+- Klikněte na Instalovat.
 
 ### Importujte jmenný prostor
 
@@ -68,7 +68,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY"; // Změňte to na svou skutečnou ce
 Workbook workbook = new Workbook(dataDir + "book1.xls");
 ```
 
-Zadáním cesty k souboru Excel (`book1.xls`), načítáte dokument do paměti, abyste s ním mohli manipulovat.
+Poskytnutím cesty k souboru Excel (`book1.xls`), načítáte dokument do paměti, abyste s ním mohli manipulovat.
 
 ## Krok 3: Přístup k listu
 

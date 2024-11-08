@@ -23,7 +23,7 @@ Se till att du börjar med att skapa eller öppna ditt befintliga C#-projekt i V
 ### Lägg till referens till Aspose.Cells
 Högerklicka på noden "Referenser" i ditt projekt och välj "Lägg till referens." Sedan:
 - Sök efter Aspose.Cells-biblioteket i dina sammansättningar.
-- Välj den och klicka på "OK".
+- Välj det och klicka på "OK".
 Detta bibliotek gör det möjligt för oss att enkelt manipulera och exportera Excel-filer.
 ### Importera nödvändiga namnområden
 Därefter, överst i din C#-fil, måste du inkludera följande med hjälp av uttalande:

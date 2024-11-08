@@ -33,6 +33,6 @@ Aspose.Cells for .NET 為開發人員提供了強大的工具來管理 .NET 應�
 ### [在 .NET 中載入 Excel 檔案時收到警告](./getting-warnings-while-loading-excel-file/)
 透過我們簡單的逐步指南，了解如何使用 Aspose.Cells 在 .NET 中載入 Excel 檔案時處理警告。
 ### [在 .NET 中以程式設計方式指定 Excel 檔案的文件版本](./specifying-document-version-of-excel-file/)
-透過逐步說明，了解如何使用 Aspose.Cells for .NET 以程式設計方式在 Excel 檔案中指定版本、作者和標題等文件屬性。
+了解如何使用 Aspose.Cells for .NET 透過逐步說明以程式設計方式在 Excel 檔案中指定版本、作者和標題等文件屬性。
 ### [匯出時修剪前導空白行和列](./trimming-leading-blank-rows-and-columns/)
 使用 Aspose.Cells for .NET 修剪前導空白行和列，簡化 CSV 匯出。清潔資料僅幾步之遙。

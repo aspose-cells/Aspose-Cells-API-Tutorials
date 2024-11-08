@@ -78,7 +78,7 @@ Så här gör varje parameter:
 - ExportGridLines: Inkluderar rutnätslinjer i din HTML för bättre synlighet.
 - ExportSimilarBorderStyle: Säkerställer att gränser visas konsekvent.
 - ExportBogusRowData: Låter dig behålla tomma rader i den exporterade filen.
-- ExcludeUnusedStyles: Trimmar bort stilar som inte används, vilket håller filen snygg.
+- ExcludeUnusedStyles: Trimmar bort stilar som inte används och håller filen snygg.
 - ExportHiddenWorksheet: Om du har dolda ark kommer det här alternativet att exportera dem också.
 ## Steg 5: Spara arbetsboken
 Nu är det dags för det stora ögonblicket där vi sparar våra ändringar.

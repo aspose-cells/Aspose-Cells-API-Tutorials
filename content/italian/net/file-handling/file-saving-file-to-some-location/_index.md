@@ -37,7 +37,7 @@ In questo passaggio, specifichi dove si trova il tuo file Excel iniziale e dove 
 ## Passaggio 2: caricamento della cartella di lavoro
 Ora che il percorso della directory è a posto, è il momento di caricare la cartella di lavoro di Excel. Questo passaggio è fondamentale perché prepara il file per la manipolazione.
 ```csharp
-// Carica la tua cartella di lavoro di origine
+// Carica la cartella di lavoro di origine
 Workbook workbook = new Workbook(filePath);
 ```
 Caricando la cartella di lavoro, stai dicendo: "Ehi, voglio lavorare con questo file!" Aspose.Cells ti consente di eseguire varie operazioni su questa cartella di lavoro, incluso il salvataggio in diversi formati.

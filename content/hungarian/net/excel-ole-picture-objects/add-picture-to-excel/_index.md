@@ -24,7 +24,7 @@ Ez a lépés biztosítja, hogy az Aspose.Cells könyvtár összes osztálya elé
 Most bontsuk fel a kép hozzáadásának folyamatát egy Excel-munkalaphoz az Aspose.Cells segítségével. Minden lépést aprólékosan követünk, így gond nélkül megismételheti.
 ## 1. lépés: Állítsa be a dokumentumkönyvtárat
 Könyvtár létrehozása a dokumentumtároláshoz
-Mielőtt bármit tennénk a munkafüzettel, szükségünk van egy helyre, ahol tárolhatjuk. Ezt a dokumentumkönyvtárat adjuk meg:
+Mielőtt bármit tennénk a munkafüzettel, szükségünk van egy helyre, ahol tároljuk. Ezt a dokumentumkönyvtárat adjuk meg:
 ```csharp
 string dataDir = "Your Document Directory"; //Határozza meg a kívánt utat.
 ```
@@ -74,7 +74,7 @@ workbook.Save(dataDir + "output.xls"); // Mentse a megadott könyvtárba.
 ```
  Ez a művelet az összes módosítást egy tényleges fájlba írja, és létrehoz egy Excel-lapot, amely tartalmazza a gyönyörű képet. Ez az{cherry on top of your cake} pillanat!
 ## Következtetés
-Képek hozzáadása Excel-munkalapokhoz az Aspose.Cells for .NET segítségével egy hihetetlenül egyszerű folyamat, amely javíthatja a táblázatokat. A lépésenkénti utasítások követésével zökkenőmentesen integrálhatja a képeket Excel-fájljaiba, így azok vizuálisan vonzóak és informatívak. Most menjen előre, és tapasztalja meg az Aspose.Cells erejét az adatok megjelenítésének javításában.
+Képek hozzáadása Excel-munkalapokhoz az Aspose.Cells for .NET segítségével egy hihetetlenül egyszerű folyamat, amely feldobhatja a táblázatokat. A lépésenkénti utasítások követésével zökkenőmentesen integrálhatja a képeket Excel-fájljaiba, így azok vizuálisan vonzóak és informatívak. Most menjen előre, és tapasztalja meg az Aspose.Cells erejét az adatok megjelenítésének javításában.
 ## GYIK
 ### Hozzáadhatok különböző típusú képeket?
 Igen, különféle képformátumokat, például PNG, JPEG és BMP hozzáadhat a munkalapokhoz.

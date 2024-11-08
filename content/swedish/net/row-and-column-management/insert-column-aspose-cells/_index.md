@@ -35,7 +35,7 @@ string dataDir = "Your Document Directory";
 //Skapa en filström för Excel-filen
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
-I denna rad:
+På denna rad:
 - `"book1.xls"` är namnet på filen du ska öppna. Om din fil har ett annat namn, se till att uppdatera den här.
 - `FileMode.Open` öppnar filen i läs-skrivläge.
 > Varför använda FileStream? Det håller processen effektiv genom att tillåta direktåtkomst till filen, särskilt användbart när du arbetar med stora datamängder.
@@ -60,7 +60,7 @@ Med ditt kalkylblad redo, låt oss lägga till en kolumn. I vårt fall kommer vi
 // Infoga en kolumn vid position 2 (index 1)
 worksheet.Cells.InsertColumn(1);
 ```
-I denna rad:
+På denna rad:
 - `InsertColumn(1)` säger till Aspose.Cells att placera en ny kolumn vid index 1. Originaldata i kolumn B (index 1) kommer att flyttas en plats åt höger.
 >  Proffstips: Du kan ändra positionen genom att justera indexet.`InsertColumn(0)` infogar en kolumn i början, medan högre värden placerar den längre till höger.
 ## Steg 6: Spara den modifierade filen
@@ -69,7 +69,7 @@ Med den nya kolumnen infogat, låt oss spara den uppdaterade arbetsboken. Det h�
 // Spara den ändrade Excel-filen
 workbook.Save(dataDir + "output.out.xls");
 ```
-I denna rad:
+På denna rad:
 - `output.out.xls` är namnet på den sparade filen. Du kan byta namn på det som du vill, eller ersätta det med det ursprungliga filnamnet för att skriva över.
 ## Steg 7: Stäng FileStream för att frigöra resurser
 Stäng slutligen filströmmen. Detta steg säkerställer att det inte finns några resursläckor. Se det som att du lägger undan dina filer på rätt sätt när du är klar.

@@ -47,7 +47,7 @@ Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 在這裡，我們訪問工作簿中的第一個工作表。如果您有多個工作表，您只需更改索引即可存取不同的工作表。
-## 第 4 步：訪問單元並新增值
+## 第 4 步：存取儲存格並新增值
 接下來，讓我們訪問特定的單元格並為其添加一些值。對於本例，我們將使用儲存格「A1」。
 ```csharp
 Cell cell = worksheet.Cells["A1"];

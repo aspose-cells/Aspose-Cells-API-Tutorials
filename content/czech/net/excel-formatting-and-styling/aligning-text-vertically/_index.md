@@ -48,7 +48,7 @@ Někdy můžete mít stará data v sešitu. Vyjasněme si to:
 // Vymazání všech pracovních listů
 workbook.Worksheets.Clear();
 ```
-Díky tomu získáte nový pracovní stůl! 
+Díky tomu získáte novou pracovní příležitost! 
 ## Krok 5: Přidání nového listu
 Nyní přidáme do sešitu nový list. Toto bude hřiště pro naše data:
 ```csharp
@@ -68,7 +68,7 @@ Nyní, když máme svůj pracovní list, vstoupíme do buňky "A1", kam vložím
 Aspose.Cells.Cell cell = worksheet.Cells["A1"];
 ```
 ## Krok 8: Přidejte hodnotu do buňky
-Čas vhodit nějaký obsah do naší buňky. Přidáme přátelskou zprávu:
+Je čas vhodit nějaký obsah do naší buňky. Přidáme přátelskou zprávu:
 ```csharp
 // Přidání nějaké hodnoty do buňky "A1".
 cell.PutValue("Visit Aspose!");

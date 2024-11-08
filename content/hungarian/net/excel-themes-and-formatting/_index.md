@@ -21,7 +21,7 @@ Ezután az egyik leggyakoribb feladat az Excel-témák kezelésekor a téma szí
 
 ## A téma színeinek programozott felhasználása az Excelben
 
- Végül, a témaszínek programozott alkalmazása nagyszerű módja annak, hogy biztosítsa a táblázatok egységességét. Az Aspose.Cells for .NET ezt a folyamatot simává és hatékonysá teszi. Függetlenül attól, hogy automatizálja a jelentéseket vagy menet közben készít táblázatokat, ez az oktatóanyag lépésről lépésre végigvezeti Önt a témaszínek Excelben való hatékony felhasználásában. Bővebben a témáról itt talál:[A téma színeinek programozott felhasználása az Excelben](./utilizing-theme-colors/).
+ Végül, a témaszínek programozott alkalmazása nagyszerű módja annak, hogy biztosítsa a táblázatok egységességét. Az Aspose.Cells for .NET ezt a folyamatot simává és hatékonysá teszi. Függetlenül attól, hogy automatizálja a jelentéseket vagy menet közben készít táblázatokat, ez az oktatóanyag lépésről lépésre végigvezeti Önt a témaszínek Excelben való hatékony felhasználásában. Bővebben a témáról itt olvashat:[A téma színeinek programozott felhasználása az Excelben](./utilizing-theme-colors/).
 
 ## Excel-témák és formázási oktatóanyagok
 ### [Excel-témák programozott testreszabása](./customizing-excel-themes/)

@@ -16,7 +16,7 @@ Mielőtt belevágnánk a kód apró részleteibe, győződjünk meg arról, hogy
 2.  Aspose.Cells for .NET: Töltse le az Aspose.Cells könyvtárat a[weboldal](https://releases.aspose.com/cells/net/). Kezdje egy ingyenes próbaverzióval is, hogy tesztelje a funkcióit.
 3. Alapvető C# ismerete: A C# programozás ismerete segít jobban megérteni a kódrészleteket.
 4.  Excel-fájl: Készítsen Excel-fájlt a konvertálásra. Ebben a példában egy nevű fájlt fogunk használni`Book1.xlsx`.
-Most, hogy az előfeltételek rendezve vannak, térjünk át a szórakoztató részre – a szükséges csomagok importálására és a kód megírására!
+Most, hogy az előfeltételeket rendezte, térjünk rá a szórakoztató részre – a szükséges csomagok importálására és a kód megírására!
 ## Csomagok importálása
 A kezdéshez importálnia kell a szükséges névtereket a C# fájlba. Ez döntő fontosságú, mivel lehetővé teszi az Aspose.Cells könyvtár által biztosított osztályok és metódusok elérését.
 ### Nyissa meg C# projektjét
@@ -38,7 +38,7 @@ Először is meg kell adnia a könyvtárat, ahol a dokumentumokat tárolja. Itt 
 ```csharp
 string dataDir = "Your Document Directory"; // Adja meg a dokumentumkönyvtárat
 ```
- Cserélje ki`"Your Document Directory"` a tényleges útvonallal, ahol az Ön`Book1.xlsx` fájl található. Ez az útvonal segít az alkalmazásnak megtalálni a fájlt feldolgozásra.
+ Cserélje ki`"Your Document Directory"` a tényleges útvonallal, ahol az Ön`Book1.xlsx` fájl található. Ez az útvonal segít az alkalmazásnak megtalálni a feldolgozásra szánt fájlt.
 ## 2. lépés: Töltse be az Excel fájlt
  Ezután töltse be az Excel fájlt a`Workbook` objektum. Ez az a hely, ahol az Aspose.Cells ragyog, mivel lehetővé teszi az Excel-fájlok könnyű kezelését.
 ```csharp
@@ -52,7 +52,7 @@ Workbook workbook = new Workbook(inputPath); // Töltse be az Excel fájlt
 PdfSaveOptions options = new PdfSaveOptions(); // Hozzon létre PdfSaveOptions példányt
 options.CreatedTime = DateTime.Now; // Állítsa be a létrehozás idejét most
 ```
- Beállítás által`options.CreatedTime` hogy`DateTime.Now`, Ön biztosítja, hogy a PDF tükrözze a létrehozásának dátumát és időpontját.
+ Beállítás által`options.CreatedTime` hogy`DateTime.Now`, akkor biztosítja, hogy a PDF tükrözze a létrehozásának dátumát és időpontját.
 ## 4. lépés: Mentse el a munkafüzetet PDF formátumban
 Végül a munkafüzetet PDF-fájlként menti az imént meghatározott beállításokkal.
 ```csharp
@@ -68,7 +68,7 @@ workbook.Save(dataDir + "output.pdf", options); //Mentés PDF-ként
 Az Aspose.Cells egy hatékony .NET-könyvtár, amely lehetővé teszi a fejlesztők számára Excel-fájlok létrehozását, kezelését és konvertálását.
 ### Használhatom ingyenesen az Aspose.Cells-t?
  Igen, elkezdheti egy ingyenes próbaverzióval, amely elérhető a webhelyen[Aspose honlapja](https://releases.aspose.com/).
-### Hogyan állíthatok be egyéb PDF-tulajdonságokat?
+### Hogyan állíthatok be más PDF-tulajdonságokat?
  Különféle PDF-tulajdonságokat állíthat be a`PdfSaveOptions` osztály, például az oldalméret, a tömörítés stb.
 ### Lehetséges egyszerre több Excel fájl konvertálása?
 Igen, végignézheti a fájlok listáját, és mindegyikre ugyanazt az átalakítási folyamatot alkalmazhatja.

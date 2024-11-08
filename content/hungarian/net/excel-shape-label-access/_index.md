@@ -15,7 +15,7 @@ Amikor Excel fájlokkal dolgozik, az alakzatok és címkék hatékony kezelése 
 
 Utazásunk első állomása az OLE objektumcímkék elérésének és módosításának megértése az Excelben. Az OLE (Object Linking and Embedding) objektumok különféle tartalomformákat, például diagramokat vagy képeket tartalmazhatnak. Előfordult már, hogy belebotlott egy OLE objektumba, és azon töprengett, hogyan változtassa meg a címkéjét? Az Aspose.Cells segítségével ez a folyamat gyerekjáték lesz. 
 
- Ebből az oktatóanyagból megtudhatja, hogyan lehet egyszerű módszert létrehozni a címkék eléréséhez. A megadott egyértelmű kódpéldák követésével gyorsabban manipulálhatja az OLE objektumokat, mint ahogy kimondaná az „Excel varázsló” kifejezést. Képzelje el, hogy ahelyett, hogy bonyolult menükön bóklászna, automatizálhatja ezeket a változtatásokat, és értékes időt takaríthat meg! További információra kíváncsi?[További információ az OLE objektumcímkék eléréséről itt](./access-ole-object-label-excel/).
+ Ebből az oktatóanyagból megtudhatja, hogyan lehet egyszerű módszert létrehozni a címkék eléréséhez. A megadott egyértelmű kódpéldák követésével gyorsabban manipulálhatja az OLE objektumokat, mint ahogy kimondaná az „Excel varázsló” kifejezést. Képzelje el, hogy ahelyett, hogy bonyolult menükön bóklászna, automatizálhatja ezeket a változtatásokat, és értékes időt takaríthat meg! Kíváncsi vagy többet megtudni?[További információ az OLE objektumcímkék eléréséről itt](./access-ole-object-label-excel/).
 
 ## Határozza meg, hogy az Alakzat Smart Art az Excelben
 

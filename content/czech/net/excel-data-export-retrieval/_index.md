@@ -17,6 +17,6 @@ První zastávkou na naší cestě je naučit se získávat data z buněk Excelu
 
 Chcete vědět, jak na to? Podívejte se na tento praktický průvodce[Načítání dat z buněk v Excelu](./retrieve-data-from-cells-in-excel/) a začněte spravovat svá data Excel jako profík!
 
-## Výukové programy pro export a načítání dat v Excelu
+## Výukové programy pro export a načítání dat aplikace Excel
 ### [Načítání dat z buněk v Excelu](./retrieve-data-from-cells-in-excel/)
 Naučte se, jak načíst data z buněk aplikace Excel pomocí Aspose.Cells for .NET v tomto podrobném tutoriálu, který je ideální pro začátečníky i zkušené vývojáře.

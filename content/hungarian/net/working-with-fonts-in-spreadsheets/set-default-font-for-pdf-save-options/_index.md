@@ -56,7 +56,7 @@ imgOpt.DefaultFont = "Times New Roman";
 ```
  Ebben a kódrészletben beállítjuk a`CheckWorkbookDefaultFont` tulajdonát`false`, ami azt jelenti, hogy ha valamelyik betűtípus hiányzik, a rendszer a megadott alapértelmezett betűtípust („Times New Roman”) használja helyette.
 ## 4. lépés: Rendelje meg a lapot képként
- Most jelenítsük meg a munkafüzet első lapját PNG-képként. Használjuk a`SheetRender` osztályt ennek megvalósítására.
+ Most jelenítsük meg a munkafüzet első lapját PNG-képként. Használjuk a`SheetRender` osztályban ennek megvalósításához.
 ```csharp
 // Az első munkalapot rendereli képpé
 SheetRender sr = new SheetRender(workbook.Worksheets[0], imgOpt);

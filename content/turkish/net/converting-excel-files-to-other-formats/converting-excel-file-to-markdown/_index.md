@@ -73,7 +73,7 @@ Her şeyi ayarladıktan sonra programı çalıştırın ve Markdown dosyasının
 ```csharp
 Console.WriteLine("ConvertExcelFileToMarkdown executed successfully.");
 ```
-Programı çalıştırdıktan sonra Excel dosyanız artık Markdown formatında olmalı ve dokümanlarınızda veya Markdown'u destekleyen herhangi bir platformda kullanılmaya hazır olmalıdır.
+Programı çalıştırdıktan sonra Excel dosyanız artık Markdown formatında olmalı ve dokümantasyonunuzda veya Markdown'u destekleyen herhangi bir platformda kullanılmaya hazır olmalıdır.
 Onay mesajı eklemek, işlemin sorunsuz bir şekilde tamamlandığına dair geri bildirim almanızı sağlar.
 ## Çözüm
 Ve işte karşınızda! Aspose.Cells for .NET ile bir Excel dosyasını Markdown'a dönüştürmek basit ve verimlidir. İster teknik dokümantasyon hazırlıyor olun, ister tablo verilerini okunabilir bir biçime dönüştürüyor olun, bu güçlü kütüphane süreci sadece birkaç satır kodla kolaylaştırır. 

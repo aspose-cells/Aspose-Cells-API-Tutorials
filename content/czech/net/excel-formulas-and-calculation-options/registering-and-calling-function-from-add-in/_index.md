@@ -13,7 +13,7 @@ V této příručce vás provedu procesem registrace a volání funkce z doplňk
 ## Předpoklady
 Než se ponoříme do kouzelného kódování, proberme si, co potřebujete mít na svém místě:
 1. Visual Studio: Ujistěte se, že máte na počítači nastavené Visual Studio. Zde napíšeme a spustíme náš kód.
-2.  Knihovna Aspose.Cells: Budete potřebovat nainstalovanou knihovnu Aspose.Cells. Můžete to vzít z jejich[stránka ke stažení](https://releases.aspose.com/cells/net/).
+2.  Knihovna Aspose.Cells: Budete potřebovat nainstalovanou knihovnu Aspose.Cells. Můžete to vzít od nich[stránka ke stažení](https://releases.aspose.com/cells/net/).
 3. Základní znalost C#: Trocha porozumění C# bude dlouhá cesta; pomůže vám to plynule následovat.
 4.  Doplňky aplikace Excel: Měli byste mít soubor doplňku (např`.xlam`), který obsahuje funkce, které chcete zaregistrovat a používat.
 5.  Ukázkový doplněk aplikace Excel: V tomto kurzu použijeme doplněk aplikace Excel s názvem`TESTUDF.xlam`. Tak se ujistěte, že to máte k dispozici!

@@ -37,7 +37,7 @@ Most bontsuk le a tartományok formázásának folyamatát egy Excel-táblázatb
 
 ## 1. lépés: Adja meg a dokumentumkönyvtárat
 
-Először is létre kell hoznia egy változót, amely tartalmazza az Excel-dokumentumot menteni kívánt elérési utat. 
+Először is létre kell hoznia egy változót, amely tartalmazza az Excel-dokumentumot menteni kívánt útvonalat. 
 
 ```csharp
 string dataDir = "Your Document Directory"; // Itt adja meg a könyvtárát

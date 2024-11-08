@@ -56,7 +56,7 @@ imgOpt.DefaultFont = "Times New Roman";
 ```
  V tomto fragmentu kódu nastavíme`CheckWorkbookDefaultFont` majetek do`false`, což znamená, že pokud některá písma chybí, použije se místo toho zadané výchozí písmo („Times New Roman“).
 ## Krok 4: Vykreslete list jako obrázek
- Nyní vykreslíme první list sešitu jako obrázek PNG. Použijeme`SheetRender` třídy, aby se to splnilo.
+ Nyní vykreslíme první list sešitu jako obrázek PNG. Použijeme`SheetRender` třídy, aby se to podařilo.
 ```csharp
 // Vykreslete první list na obrázek
 SheetRender sr = new SheetRender(workbook.Worksheets[0], imgOpt);
@@ -90,7 +90,7 @@ Nakonec je dobré dát uživateli vědět, že proces byl úspěšně dokončen.
 Console.WriteLine("SetDefaultFontPropertyOfPdfSaveOptionsAndImageOrPrintOptions executed successfully.\r\n");
 ```
 ## Závěr
-Aspose.Cells poskytuje flexibilní a robustní způsob manipulace se soubory Excel, což vývojářům usnadňuje vytváření vizuálně přitažlivých dokumentů, které si zachovávají své formátování. Ať už pracujete na sestavách, finančních dokumentech nebo jakékoli jiné formě prezentace dat, kontrola nad vykreslováním písem může výrazně zvýšit kvalitu vašeho výstupu.
+Aspose.Cells poskytuje flexibilní a robustní způsob manipulace se soubory Excel, což vývojářům usnadňuje vytváření vizuálně přitažlivých dokumentů, které si zachovávají své formátování. Ať už pracujete na sestavách, finančních dokumentech nebo jakékoli jiné formě prezentace dat, kontrola nad vykreslováním písem může výrazně zlepšit kvalitu vašeho výstupu.
 ## FAQ
 ### Co je Aspose.Cells?
 Aspose.Cells je výkonná knihovna .NET, která umožňuje vývojářům manipulovat se soubory aplikace Excel bez nutnosti instalace aplikace Microsoft Excel. Podporuje různé formáty souborů a nabízí bohaté funkce pro práci s tabulkami.

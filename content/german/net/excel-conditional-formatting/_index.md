@@ -9,7 +9,7 @@ url: /de/net/excel-conditional-formatting/
 ---
 ## Einführung
 
-Bedingte Formatierung ist ein leistungsstarkes Tool, das wichtige Daten in Excel optisch hervorhebt. Damit wird das Erkennen von Trends und Ausreißern zum Kinderspiel. Aber was, wenn Sie Berichte spontan erstellen und diese Formatierung programmgesteuert anwenden müssen? Hier kommt Aspose.Cells für .NET ins Spiel, ein praktisches Tool, mit dem Entwickler Excel-Dateien bearbeiten und bedingte Formatierung hinzufügen können, ohne Excel selbst öffnen zu müssen.
+Bedingte Formatierung ist ein leistungsstarkes Tool, das wichtige Daten in Excel optisch hervorhebt. So lassen sich Trends und Ausreißer ganz einfach erkennen. Aber was, wenn Sie Berichte spontan erstellen und diese Formatierung programmgesteuert anwenden müssen? Hier kommt Aspose.Cells für .NET ins Spiel, ein praktisches Tool, mit dem Entwickler Excel-Dateien bearbeiten und bedingte Formatierung hinzufügen können, ohne Excel selbst öffnen zu müssen.
 
 ## Anwenden einer bedingten Formatierung zur Laufzeit in Excel
 

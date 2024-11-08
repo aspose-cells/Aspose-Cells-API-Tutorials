@@ -139,7 +139,7 @@ wb.Save(dataDir + "output.xls", SaveFormat.Excel97To2003);
 
 ## 结论
 
-就这样！您已成功学会使用 Aspose.Cells for .NET 保护 Excel 工作表中的特定单元格。只需几行代码，您就可以保护数据，确保只有合适的人才有权编辑关键信息。请记住，单元格保护只是 Aspose.Cells 提供的众多功能之一，可帮助高效管理和操作 Excel 文件。
+就这样！您已成功学会使用 Aspose.Cells for .NET 保护 Excel 工作表中的特定单元格。只需几行代码，您就可以保护您的数据，确保只有合适的人才有权编辑关键信息。请记住，单元格保护只是 Aspose.Cells 提供的众多功能之一，可帮助高效管理和操作 Excel 文件。
 
 ## 常见问题解答
 

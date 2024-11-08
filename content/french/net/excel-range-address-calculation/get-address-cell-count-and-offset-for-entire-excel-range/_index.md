@@ -24,7 +24,7 @@ Pour commencer, nous devons importer quelques packages essentiels. Il s'agit des
 Ouvrez Visual Studio et créez un nouveau projet C#. Choisissez une application console, car nous exécuterons notre code à partir de la console.
 ### Ajouter un package NuGet
 Avant de commencer à coder, ajoutons le package Aspose.Cells. Voici comment procéder :
-1. Cliquez avec le bouton droit sur votre projet dans l’Explorateur de solutions.
+1. Faites un clic droit sur votre projet dans l’Explorateur de solutions.
 2. Sélectionnez « Gérer les packages NuGet ».
 3. Dans le gestionnaire de packages NuGet, recherchez « Aspose.Cells ».
 4. Cliquez sur « Installer » pour ajouter le package à votre projet.

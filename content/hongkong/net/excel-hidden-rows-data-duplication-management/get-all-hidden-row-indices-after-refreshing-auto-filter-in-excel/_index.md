@@ -9,7 +9,7 @@ url: /zh-hant/net/excel-hidden-rows-data-duplication-management/get-all-hidden-r
 ---
 ## 介紹
 
-在處理 Excel 檔案（尤其是大型資料集）時，篩選可以成為救星。它可以幫助我們專注於特定的數據點，但是當您想在應用過濾器後識別隱藏的行時會發生什麼？如果您曾經對找出這些隱藏的細節感到好奇，那麼您來對地方了！在本指南中，我們將探討如何使用 Aspose.Cells for .NET 在 Excel 中重新整理自動篩選器後取得隱藏的行索引。無論您是經驗豐富的程式設計師還是初學者，您都會發現過程簡單且引人入勝。讓我們深入了解吧！
+在處理 Excel 檔案（尤其是大型資料集）時，篩選可以成為救星。它可以幫助我們專注於特定的數據點，但是當您想在應用過濾器後識別隱藏的行時會發生什麼？如果您曾經對找出這些隱藏的細節感到好奇，那麼您來對地方了！在本指南中，我們將探討如何使用 Aspose.Cells for .NET 在 Excel 中重新整理自動篩選器後取得隱藏的行索引。無論您是經驗豐富的程式設計師還是初學者，您都會發現過程簡單且引人入勝。讓我們深入了解一下吧！
 
 ## 先決條件
 
@@ -117,7 +117,7 @@ Console.WriteLine("GetAllHiddenRowsIndicesAfterRefreshingAutoFilter executed suc
 ## 常見問題解答
 
 ### 什麼是 Aspose.Cells？
-Aspose.Cells 是一個功能強大的 .NET 程式庫，可讓開發人員建立、操作和匯出 Excel 文件，而無需 Microsoft Excel。
+Aspose.Cells 是一個強大的 .NET 程式庫，可讓開發人員建立、操作和匯出 Excel 文件，而無需使用 Microsoft Excel。
 
 ### 我可以使用 Aspose.Cells 過濾 Excel 中的資料嗎？
 是的！ Aspose.Cells 具有應用過濾器和有效處理 Excel 資料的內建功能。

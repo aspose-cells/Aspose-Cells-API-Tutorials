@@ -80,7 +80,7 @@ wb.Save(dataDir + "outputTextToColumns.xlsx");
 ```
 - Pastikan Anda memberi nama yang bermakna pada file tersebut. Dalam kasus ini, kita menyimpannya sebagai`outputTextToColumns.xlsx`, tetapi Anda bebas mengganti namanya menjadi apa pun yang Anda inginkan.
 ## Kesimpulan
- Nah, itu dia! Anda baru saja mempelajari cara mengonversi teks ke kolom menggunakan Aspose.Cells untuk .NET. Ini adalah alat hebat yang menyederhanakan penanganan data, memungkinkan Anda melakukan operasi yang dulunya memerlukan waktu berjam-jam hanya dengan beberapa baris kode sederhana. Sekarang, lain kali Anda perlu memisahkan nama atau teks lainnya, Anda dapat melakukannya dengan mudah. Jangan lupa untuk menjelajahi[Dokumentasi Aspose](https://reference.aspose.com/cells/net/) untuk fitur dan penyesuaian lebih canggih yang dapat meningkatkan keterampilan pemrosesan data Anda!
+ Nah, itu dia! Anda baru saja mempelajari cara mengonversi teks ke kolom menggunakan Aspose.Cells untuk .NET. Ini adalah alat hebat yang menyederhanakan penanganan data, memungkinkan Anda melakukan operasi yang dulunya memerlukan waktu berjam-jam hanya dengan beberapa baris kode sederhana. Sekarang, lain kali Anda perlu memisahkan nama atau teks lain, Anda dapat melakukannya dengan mudah. Jangan lupa untuk menjelajahi[Dokumentasi Aspose](https://reference.aspose.com/cells/net/) untuk fitur dan penyesuaian lebih canggih yang dapat meningkatkan keterampilan pemrosesan data Anda!
 ## Pertanyaan yang Sering Diajukan
 ### Apa itu Aspose.Cells?
 Aspose.Cells adalah pustaka .NET tangguh yang memungkinkan pengembang untuk membuat, memanipulasi, dan mengonversi lembar kerja Excel secara efisien tanpa perlu menginstal Microsoft Excel.

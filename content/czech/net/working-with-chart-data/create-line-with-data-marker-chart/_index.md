@@ -15,7 +15,7 @@ Přemýšleli jste někdy o tom, jak vytvořit úžasné grafy v Excelu programo
 
 Než začneme, ujistěte se, že máte vše na svém místě, abyste mohli plynule pokračovat.
 
-1.  Aspose.Cells for .NET Library – budete muset nainstalovat tuto. Můžeš to chytit[zde](https://releases.aspose.com/cells/net/).
+1. Aspose.Cells for .NET Library – budete muset nainstalovat tuto. Můžeš to chytit[zde](https://releases.aspose.com/cells/net/).
 2. .NET Framework – Zajistěte, aby vaše vývojové prostředí bylo nastaveno na nejnovější verzi .NET.
 3. IDE (Integrated Development Environment) – doporučuje se Visual Studio.
 4.  Platná licence Aspose.Cells – Pokud ji nemáte, můžete požádat o a[dočasná licence](https://purchase.aspose.com/temporary-license/) nebo se podívejte na jejich[zkušební verze zdarma](https://releases.aspose.com/).
@@ -109,7 +109,7 @@ chart.AutoScaling = true;
 // Nastavte barvu popředí na bílou
 chart.PlotArea.Area.ForegroundColor = Color.White;
 
-// Nastavte vlastnosti nadpisu grafu
+//Nastavte vlastnosti nadpisu grafu
 chart.Title.Text = "Sample Chart";
 
 // Nastavte typ grafu

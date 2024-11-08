@@ -2,7 +2,7 @@
 title: Текстовые функции Excel раскрыты
 linktitle: Текстовые функции Excel раскрыты
 second_title: API обработки Java Excel Aspose.Cells
-description: Раскройте секреты текстовых функций Excel с помощью Aspose.Cells для Java. Научитесь без труда манипулировать, извлекать и преобразовывать текст в Excel.
+description: Раскройте секреты текстовых функций Excel с помощью Aspose.Cells для Java. Научитесь без усилий манипулировать, извлекать и преобразовывать текст в Excel.
 type: docs
 weight: 18
 url: /ru/java/basic-excel-functions/excel-text-functions-demystified/

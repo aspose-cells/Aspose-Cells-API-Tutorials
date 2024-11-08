@@ -13,7 +13,7 @@ url: /el/net/exporting-excel-to-html-with-advanced-options/recognizing-self-clos
 Πριν ξεκινήσουμε αυτό το ταξίδι, θα πρέπει να ελέγξετε μερικά στοιχεία από τη λίστα σας για να διασφαλίσετε ότι όλα κυλούν ομαλά:
 1. Visual Studio: Βεβαιωθείτε ότι έχετε εγκαταστήσει το Visual Studio στον υπολογιστή σας. Είναι ζωτικής σημασίας για τη σύνταξη και την εκτέλεση εφαρμογών .NET.
 2. .NET Framework: Βεβαιωθείτε ότι έχετε εγκαταστήσει το .NET Framework. Το Aspose.Cells λειτουργεί όμορφα με το .NET Framework, επομένως αυτό είναι το κλειδί.
-3.  Aspose.Cells για .NET: Θα χρειαστείτε τη βιβλιοθήκη Aspose.Cells. Μπορείς[κατεβάστε το εδώ](https://releases.aspose.com/cells/net/).
+3.  Aspose.Cells για .NET: Θα χρειαστείτε τη βιβλιοθήκη Aspose.Cells. Μπορείτε[κατεβάστε το εδώ](https://releases.aspose.com/cells/net/).
 4.  Ένα δείγμα αρχείου HTML: Ετοιμάστε ένα δείγμα αρχείου HTML για δοκιμή (θα δημιουργήσουμε και θα χρησιμοποιήσουμε`sampleSelfClosingTags.html` στο παράδειγμά μας).
 5. Βασικές γνώσεις προγραμματισμού: Λίγη γνώση C# θα σας βοηθήσει πολύ. Θα πρέπει να είστε άνετοι με τη σύνταξη και την εκτέλεση απλών σεναρίων.
 Με αυτές τις προϋποθέσεις, είστε έτοιμοι να βουτήξετε στον κώδικα!
@@ -74,4 +74,4 @@ Console.WriteLine("RecognizeSelfClosingTags executed successfully.\r\n");
 ### Είναι το Aspose.Cells συμβατό με .NET Core;  
 Ναι, το Aspose.Cells έχει συμβατότητα με πολλές εκδόσεις .NET, συμπεριλαμβανομένου του .NET Core.
 ### Πώς μπορώ να αγοράσω άδεια χρήσης για το Aspose.Cells;  
- Μπορείς[αγοράστε μια άδεια εδώ](https://purchase.aspose.com/buy).
+ Μπορείτε[αγοράστε μια άδεια εδώ](https://purchase.aspose.com/buy).

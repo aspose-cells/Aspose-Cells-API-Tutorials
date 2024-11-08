@@ -21,7 +21,7 @@ Innan vi börjar, se till att du har följande förutsättningar på plats:
 
 ## Steg 1: Skapa ett nytt Java-projekt
 
-Till att börja, låt oss skapa ett nytt Java-projekt där vi kommer att implementera villkorad datavalidering. Du kan använda din favorit Java Integrated Development Environment (IDE) för detta. Här är stegen:
+Till att börja med, låt oss skapa ett nytt Java-projekt där vi kommer att implementera villkorad datavalidering. Du kan använda din favorit Java Integrated Development Environment (IDE) för detta. Här är stegen:
 
 1. Öppna din IDE.
 2. Skapa ett nytt Java-projekt.

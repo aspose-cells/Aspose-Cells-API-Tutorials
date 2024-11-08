@@ -37,7 +37,7 @@ using System.Drawing;
 
 Ez olyan, mintha kinyitná a szerszámosládát, mielőtt hozzáfogna a csaptelep javításához – hozzáférhetõvé kell tennie a szerszámokat!
 
-Most, hogy felkészültél, feltűrjük az ingujjunkat, és térjünk rá a jó dolgokra. Minden egyes lépésen végig fogunk járni ahhoz, hogy címkét adjunk a diagramhoz.
+Most, hogy felkészült, feltűrjük az ingujjunkat, és térjünk rá a jó dolgokra. Minden olyan lépésen végigmegyünk, amely szükséges ahhoz, hogy címkét adjon a diagramhoz.
 
 ## 1. lépés: Adja meg a könyvtárakat
 

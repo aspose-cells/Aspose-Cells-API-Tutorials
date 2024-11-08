@@ -8,7 +8,7 @@ weight: 10
 url: /tr/net/excel-comment-annotation/add-comment-with-image-excel/
 ---
 ## giriiş
-Excel, veri yönetimi ve analizi için güçlü bir araçtır, ancak bazen elektronik tablolarınıza kişisel bir dokunuş eklemeniz gerekir, değil mi? Belki de verileri açıklama eklemek, geri bildirim sağlamak veya hatta resimlerle biraz gösteriş katmak istersiniz. İşte yorumlar tam da bu noktada işe yarar! Bu eğitimde, .NET için Aspose.Cells kitaplığını kullanarak Excel'de bir resimle yorum eklemeyi keşfedeceğiz. Bu yaklaşım, daha etkileşimli ve görsel olarak çekici elektronik tablolar oluşturmak için özellikle yararlı olabilir.
+Excel, veri yönetimi ve analizi için güçlü bir araçtır, ancak bazen elektronik tablolarınıza kişisel bir dokunuş eklemeniz gerekir, değil mi? Belki de verileri açıklama, geri bildirim sağlama veya hatta resimlerle biraz gösteriş katmak istersiniz. İşte yorumlar tam da bu noktada işe yarar! Bu eğitimde, .NET için Aspose.Cells kitaplığını kullanarak Excel'de bir resimle yorum eklemeyi keşfedeceğiz. Bu yaklaşım, daha etkileşimli ve görsel olarak çekici elektronik tablolar oluşturmak için özellikle yararlı olabilir.
 ## Ön koşullar
 Excel'de resimlere yorum eklemenin inceliklerine dalmadan önce, başlamak için ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
 1. Visual Studio: Bilgisayarınızda Visual Studio'nun yüklü olduğundan emin olun. Kodunuzu burada yazacak ve çalıştıracaksınız.

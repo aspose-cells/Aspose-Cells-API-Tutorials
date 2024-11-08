@@ -17,7 +17,7 @@ url: /zh/net/excel-page-setup/set-excel-scaling-factor/
 
 1. 已安装 Visual Studio：确保您的计算机上已安装 Visual Studio，因为我们将在此环境中编写代码。
 2.  Aspose.Cells for .NET Library：获取 Aspose.Cells 库的副本。您可以从[Aspose 发布页面](https://releases.aspose.com/cells/net/)。如果你不确定，你可以先[免费试用](https://releases.aspose.com/).
-3. C# 基础知识：对 C# 编程有基本的了解将会很有益，特别是如果您是刚开始使用库。
+3. C# 基础知识：对 C# 编程有基本的了解将会很有益，特别是如果您是刚开始使用库的话。
 4. .NET Framework：确保您的项目针对的是与该库兼容的 .NET Framework 版本。
 
 现在我们已经确定了您所需要的，让我们开始导入必要的包。

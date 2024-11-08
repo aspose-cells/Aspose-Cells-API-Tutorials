@@ -41,7 +41,7 @@ Chcete-li přidat balíček Aspose.Cells, postupujte takto:
 
 ### Import jmenných prostorů
 
-Ujistěte se, že v horní části hlavního souboru programu jsou uvedeny následující jmenné prostory:
+V horní části hlavního souboru programu se ujistěte, že obsahuje následující jmenné prostory:
 
 ```csharp
 using System;

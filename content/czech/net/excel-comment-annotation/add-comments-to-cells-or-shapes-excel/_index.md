@@ -85,7 +85,7 @@ Nyní je čas zapsat si naši poznámku. Přidejme do komentáře nějaký text.
 // Nastavení poznámky komentáře
 comment.Note = "Hello Aspose!";
 ```
-Představte si to jako psaní na lepicí papír. Překládáš své myšlenky do slov!
+Představte si to jako psaní na svůj lísteček. Překládáš své myšlenky do slov!
 ## Krok 8: Uložení souboru Excel
 V neposlední řadě si musíme ušetřit svou dřinu. Tím se sešit uloží s naším komentářem!
 ```csharp

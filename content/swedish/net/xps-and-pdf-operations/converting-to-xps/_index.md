@@ -50,7 +50,7 @@ Worksheet sheet = workbook.Worksheets[0]; // Åtkomst till det första kalkylbla
 ```
 Denna kodrad låter dig komma åt det första kalkylbladet för ytterligare kommandon.
 ## Steg 4: Konfigurera bild- och utskriftsalternativ
- Nu måste vi definiera hur vi vill rendera vår produktion. Detta innebär att skapa en instans av`ImageOrPrintOptions` och ställ in önskat utdataformat.
+ Nu måste vi definiera hur vi vill återge vår produktion. Detta innebär att skapa en instans av`ImageOrPrintOptions` och ställ in önskat utdataformat.
 ```csharp
 Aspose.Cells.Rendering.ImageOrPrintOptions options = new Aspose.Cells.Rendering.ImageOrPrintOptions();
 options.SaveFormat = SaveFormat.Xps; // Ställer in utdataformatet till XPS

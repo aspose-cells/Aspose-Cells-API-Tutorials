@@ -84,7 +84,7 @@ cell.SetStyle(style);
 //保存 Excel 文件
 workbook.Save(outputDir + "outputSettingSuperscripteffect.xlsx");
 ```
-确保更换`outputDir`与您之前指定的路径。 
+确保更换`outputDir`使用您之前指定的路径。 
 ## 步骤 8：确认信息
 更进一步的是，您还可以提醒自己操作已成功。
 ```csharp

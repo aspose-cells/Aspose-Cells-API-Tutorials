@@ -64,7 +64,7 @@ pivot.PivotTableStyleType = PivotTableStyleType.PivotTableStyleDark1;
 ```
 这行代码将数据透视表的样式更改为深色主题。您可以探索 Aspose.Cells 库中提供的各种样式，以找到适合您需求的样式。
 ## 步骤 5：自定义数据透视表样式
-为了进一步定制，我们可以创建自己的风格。这有多酷？以下是您可以执行的操作：
+为了进一步定制，我们可以创建自己的风格。这有多酷？以下是具体操作方法：
 ```csharp
 Style style = workbook.CreateStyle();
 style.Font.Name = "Arial Black";

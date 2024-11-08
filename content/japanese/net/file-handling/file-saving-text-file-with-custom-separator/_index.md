@@ -2,7 +2,7 @@
 title: カスタムセパレータを使用してテキストファイルを保存する
 linktitle: カスタムセパレータを使用してテキストファイルを保存する
 second_title: Aspose.Cells .NET Excel 処理 API
-description: Aspose.Cells for .NET を使用して、カスタム区切り文字を含むテキスト ファイルを保存する方法を学習します。ステップ バイ ステップ ガイドとヒントが含まれています。
+description: Aspose.Cells for .NET を使用して、カスタム区切り文字付きのテキスト ファイルを保存する方法を学習します。ステップ バイ ステップ ガイドとヒントが含まれています。
 type: docs
 weight: 13
 url: /ja/net/file-handling/file-saving-text-file-with-custom-separator/

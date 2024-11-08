@@ -9,7 +9,7 @@ url: /zh-hant/net/excel-worksheet-csharp-tutorials/delete-excel-worksheet-by-nam
 ---
 ## 介紹
 
-以程式設計方式處理 Excel 檔案時，無論是用於報表、資料分析或只是管理記錄，您可能會發現自己需要刪除特定的工作表。在本指南中，我將引導您透過簡單而有效的方法使用 Aspose.Cells for .NET 按名稱刪除 Excel 工作表。讓我們深入了解吧！
+以程式設計方式處理 Excel 檔案時，無論是用於報表、資料分析或只是管理記錄，您可能會發現自己需要刪除特定的工作表。在本指南中，我將引導您透過簡單而有效的方法使用 Aspose.Cells for .NET 按名稱刪除 Excel 工作表。讓我們深入了解一下吧！
 
 ## 先決條件
 

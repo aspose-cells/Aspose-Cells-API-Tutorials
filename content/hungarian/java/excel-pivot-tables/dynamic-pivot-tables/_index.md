@@ -46,7 +46,7 @@ String sourceData = "A1:D10"; // Cserélje ki az adattartományával
 int firstRow = 1;
 int firstColumn = 5;
 
-// Hozzon létre egy pivot táblát
+// Hozd létre a kimutatástáblát
 PivotTable pivotTable = worksheet.getPivotTables().add(sourceData, worksheet.getCells().get(firstRow, firstColumn), "PivotTable1");
 ```
 

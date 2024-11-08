@@ -44,7 +44,7 @@ Per prima cosa, devi impostare le directory di origine e di output in cui verran
 ```csharp
 //Elenco di origine
 string sourceDir = "Your Document Directory"; // Imposta la directory dei tuoi documenti
-//Directory di uscita
+//Directory di output
 string outputDir = "Your Document Directory"; // Imposta la directory di output
 ```
  Sostituire`"Your Document Directory"` con il percorso effettivo in cui ti trovi`sampleRotateTextWithShapeInsideWorksheet.xlsx` il file si trova.
@@ -96,11 +96,11 @@ Ed ecco fatto! Il tuo file di output è ora salvato, incluso il testo nella cell
 Console.WriteLine("RotateTextWithShapeInsideWorksheet executed successfully.");
 ```
 ## Conclusione
-Ruotare il testo con forme in Excel usando Aspose.Cells per .NET potrebbe sembrare un processo elaborato all'inizio, ma è piuttosto semplice una volta che lo si analizza. Seguendo questi semplici passaggi, è possibile personalizzare i fogli di calcolo per renderli più professionali e visivamente accattivanti. Ora, che lo si faccia per un cliente o per i propri progetti personali, tutti saranno entusiasti della qualità del proprio lavoro!
+Ruotare il testo con le forme in Excel usando Aspose.Cells per .NET potrebbe sembrare un processo elaborato all'inizio, ma è piuttosto semplice una volta che lo si analizza. Seguendo questi semplici passaggi, è possibile personalizzare i fogli di calcolo per renderli più professionali e visivamente accattivanti. Ora, che lo si faccia per un cliente o per i propri progetti personali, tutti saranno entusiasti della qualità del proprio lavoro!
 ## Domande frequenti
 ### Posso usare Aspose.Cells gratuitamente?
  Sì! Puoi usare il[prova gratuita](https://releases.aspose.com/) per provare la biblioteca.
-### Quali versioni di Excel supporta Aspose.Cells?
+### Quali versioni di Excel sono supportate da Aspose.Cells?
 Aspose.Cells supporta diversi formati Excel, tra cui XLS, XLSX, CSV e altri.
 ### È possibile ruotare il testo con forme nelle vecchie versioni di Excel?
 Sì, la funzionalità può essere applicata ai formati più vecchi supportati da Aspose.Cells.

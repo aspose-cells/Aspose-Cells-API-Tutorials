@@ -40,7 +40,7 @@ if (!IsExists)
 //實例化 Workbook 物件
 Workbook workbook = new Workbook();
 ```
-想像一下`Workbook`作為一個空白畫布，我們將開始繪製我們的資料圖片！
+想像一下`Workbook`作為一塊空白畫布，我們將開始在其中繪製數據圖片！
 ## 第 3 步：新增工作表
 準備好工作簿後，我們新增一個新的工作表，在其中填寫資料。
 ```csharp
@@ -51,7 +51,7 @@ int sheetIndex = workbook.Worksheets.Add();
 ## 第 4 步：引用新工作表
 現在我們有了工作表，我們需要取得對它的引用，以便我們可以操作它。
 ```csharp
-//透過傳遞工作表索引來取得新新增工作表的引用
+//透過傳遞工作表索引來取得新新增的工作表的引用
 Worksheet worksheet = workbook.Worksheets[sheetIndex];
 ```
 就像打開筆記本到正確的頁面一樣，此行使您可以存取剛剛建立的工作表。

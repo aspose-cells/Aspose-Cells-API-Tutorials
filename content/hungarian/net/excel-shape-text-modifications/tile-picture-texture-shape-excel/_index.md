@@ -64,7 +64,7 @@ Miután elvégeztük az összes módosítást, a következő logikus lépés az,
 ```csharp
 wb.Save(outputDir + "outputTextureFill_IsTiling.xlsx");
 ```
- Hívjuk a`Save` módszerrel írhatja be a változtatásokat egy új nevű fájlba`outputTextureFill_IsTiling.xlsx` a megadott kimeneti könyvtárban.
+ Hívjuk a`Save` módszerrel írja be a változtatásokat egy új nevű fájlba`outputTextureFill_IsTiling.xlsx` a megadott kimeneti könyvtárban.
 ## 7. lépés: Megerősítő üzenet
 Végezetül, mindig jó, ha visszajelzést kapunk, amely megerősíti, hogy kódunk zökkenőmentesen fut. Használhatja ezt a sort:
 ```csharp

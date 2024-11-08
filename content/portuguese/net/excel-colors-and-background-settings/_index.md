@@ -9,7 +9,7 @@ url: /pt/net/excel-colors-and-background-settings/
 ---
 ## Introdução
 
-Não é incrível como um toque de cor pode dar vida a uma planilha sem graça? Se você trabalha com Excel, sabe que a apresentação é tudo, especialmente quando você está tentando interpretar ou analisar dados. Felizmente para nós, desenvolvedores .NET, o Aspose.Cells oferece um tesouro de recursos para personalizar arquivos Excel. Vamos mergulhar em alguns tutoriais interessantes que farão seus dados se destacarem!
+Não é incrível como um toque de cor pode dar vida a uma planilha sem graça? Se você trabalha com Excel, sabe que a apresentação é tudo, especialmente quando você está tentando interpretar ou analisar dados. Felizmente para nós, desenvolvedores .NET, o Aspose.Cells oferece um tesouro de recursos para personalizar arquivos do Excel. Vamos mergulhar em alguns tutoriais interessantes que farão seus dados se destacarem!
 
 ## Trabalhando com cores do Excel programaticamente
 

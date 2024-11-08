@@ -96,7 +96,7 @@ cell.PutValue("Hello Aspose!");
 
 Nu när du har din målarpensel (cellreferens) är det dags att lägga till lite innehåll på duken. Denna rad infogar texten "
 
-## Steg 7: Använd den anpassade färgen
+## Steg 7: Applicera den anpassade färgen
 
 ```csharp
 // Skapa ett nytt Style-objekt

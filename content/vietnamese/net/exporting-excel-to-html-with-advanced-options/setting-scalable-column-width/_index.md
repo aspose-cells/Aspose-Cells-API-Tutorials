@@ -8,7 +8,7 @@ weight: 20
 url: /vi/net/exporting-excel-to-html-with-advanced-options/setting-scalable-column-width/
 ---
 ## Giới thiệu
-Excel là một công cụ tuyệt vời giúp hợp lý hóa việc quản lý dữ liệu, phân tích và báo cáo. Tuy nhiên, đôi khi việc căn chỉnh mọi thứ một cách hoàn hảo có thể khiến bạn cảm thấy như đang cố nhét một cái chốt vuông vào một lỗ tròn. Rất may, với Aspose.Cells cho .NET, bạn không chỉ có thể xử lý nhu cầu bảng tính của mình mà còn có thể tùy chỉnh các khía cạnh như độ rộng cột theo chương trình. Trong bài viết này, chúng tôi sẽ hướng dẫn bạn chi tiết về cách đặt độ rộng cột có thể mở rộng trong các tệp Excel bằng C#. Sẵn sàng để bắt đầu chưa? Bắt đầu thôi!
+Excel là một công cụ tuyệt vời giúp hợp lý hóa việc quản lý dữ liệu, phân tích và báo cáo. Tuy nhiên, đôi khi việc căn chỉnh mọi thứ một cách hoàn hảo có thể khiến bạn cảm thấy như đang cố nhét một cái chốt vuông vào một lỗ tròn. Rất may, với Aspose.Cells dành cho .NET, bạn không chỉ có thể xử lý nhu cầu bảng tính của mình mà còn có thể tùy chỉnh các khía cạnh như độ rộng cột theo chương trình. Trong bài viết này, chúng tôi sẽ hướng dẫn bạn chi tiết về cách đặt độ rộng cột có thể mở rộng trong các tệp Excel bằng C#. Sẵn sàng để bắt đầu chưa? Bắt đầu thôi!
 ## Điều kiện tiên quyết
 Trước khi bắt đầu viết mã, bạn cần thiết lập một số thứ. Hãy nghĩ về việc này như việc thu thập các công cụ của bạn trước khi bắt đầu một dự án DIY. Sau đây là những gì bạn cần:
 1. Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio trên máy của mình. Đây là môi trường chính mà chúng ta sẽ sử dụng cho các ứng dụng .NET của mình.

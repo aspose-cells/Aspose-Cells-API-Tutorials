@@ -8,7 +8,7 @@ weight: 12
 url: /cs/net/document-properties/adding-document-properties/
 ---
 ## Zavedení
-Pokud jde o správu tabulek Excelu, vlastnosti dokumentu mohou být často neopěvovanými hrdiny, kteří vám pomohou sledovat důležitá metadata. Ať už chcete spravovat informace o autorovi, verzování souborů nebo vlastní vlastnosti specifické pro vaše obchodní potřeby, mít pevné znalosti o tom, jak s těmito vlastnostmi manipulovat, může dramaticky zvýšit vaši produktivitu. Dnes se ponoříme do světa Aspose.Cells for .NET, kde vám krok za krokem ukážeme, jak přidávat a spravovat vlastnosti dokumentů ve vašich souborech Excel. Začněme!
+Pokud jde o správu tabulek Excelu, vlastnosti dokumentu mohou být často neopěvovanými hrdiny, kteří vám pomohou sledovat důležitá metadata. Ať už chcete spravovat informace o autorovi, verzování souborů nebo vlastní vlastnosti specifické pro vaše obchodní potřeby, mít pevné znalosti o tom, jak s těmito vlastnostmi manipulovat, může dramaticky zvýšit vaši produktivitu. Dnes se ponoříme do světa Aspose.Cells pro .NET, kde vám krok za krokem ukážeme, jak přidávat a spravovat vlastnosti dokumentů ve vašich souborech Excel. Začněme!
 ## Předpoklady
 Než se pustíte do této cesty přidávání vlastností dokumentu, musíte si zaškrtnout svůj seznam několika předpokladů:
 1. Základní znalost C#: Vzhledem k tomu, že budeme kódovat v .NET pomocí C#, znalost základů jazyka vám pomůže lépe porozumět konceptům.

@@ -28,7 +28,7 @@ Prima di iniziare, assicurati di disporre dei seguenti prerequisiti:
 ## Passaggio 2: caricare i dati
 
 ```java
-// Importa le librerie necessarie
+// Importare le librerie necessarie
 import com.aspose.cells.*;
 
 // Carica il file Excel
@@ -74,7 +74,7 @@ workbook.save("output.xlsx");
 
 ## Fase 6: Analizzare i risultati
 
-Ora hai un grafico con una linea di tendenza aggiunta. Puoi analizzare ulteriormente la linea di tendenza, i coefficienti e il valore R-quadrato utilizzando il file Excel generato.
+Ora hai un grafico con una linea di tendenza aggiunta. Puoi analizzare ulteriormente la linea di tendenza, i coefficienti e il valore R-quadrato usando il file Excel generato.
 
 ##Conclusione
 

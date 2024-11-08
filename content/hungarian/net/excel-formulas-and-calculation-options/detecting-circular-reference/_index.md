@@ -8,7 +8,7 @@ weight: 13
 url: /hu/net/excel-formulas-and-calculation-options/detecting-circular-reference/
 ---
 ## Bevezetés
-Az Excel-fájlokkal való munka során az egyik leginkább frusztráló probléma, amellyel találkozhat, a körkörös hivatkozás. Ez akkor fordul elő, ha egy képlet közvetlenül vagy közvetve a saját cellájára hivatkozik, és olyan ciklust hoz létre, amely megzavarhatja az Excel számítási motorját. De ne félj! Az Aspose.Cells for .NET segítségével programozottan észlelheti ezeket a kellemetlen körkörös hivatkozásokat, így biztosítva, hogy a táblázatok működőképesek és pontosak maradjanak. Ebben az útmutatóban lépésről lépésre végigvezetjük a folyamaton, és ez olyan egyszerű, mint a pite.
+Az Excel-fájlokkal való munka során az egyik leginkább frusztráló probléma, amellyel találkozhat, a körkörös hivatkozás. Ez akkor fordul elő, ha egy képlet közvetlenül vagy közvetve a saját cellájára hivatkozik, és olyan ciklust hoz létre, amely megzavarhatja az Excel számítási motorját. De ne félj! Az Aspose.Cells for .NET segítségével programozottan észlelheti ezeket a kellemetlen körkörös hivatkozásokat, így biztosítva, hogy táblázatai működőképesek és pontosak maradjanak. Ebben az útmutatóban lépésről lépésre végigvezetjük a folyamaton, és ez olyan egyszerű, mint a pite.
 ## Előfeltételek
 Mielőtt belemerülnénk a körkörös hivatkozások felderítésének aprólékos dolgaiba, győződjön meg arról, hogy rendelkezik mindennel, ami az induláshoz szükséges:
 1. Visual Studio: Győződjön meg arról, hogy a Visual Studio telepítve van a gépen. Ez lesz az Ön fejlesztési környezete.

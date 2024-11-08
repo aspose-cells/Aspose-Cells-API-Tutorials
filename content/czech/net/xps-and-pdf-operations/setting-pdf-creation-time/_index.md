@@ -32,7 +32,7 @@ using Aspose.Cells.Charts;
 ```
 Tyto jmenné prostory vám umožní přístup ke třídě Workbook a dalším základním funkcím.
 
-Nyní, když máme naše balíčky naimportovány, pojďme si rozebrat proces převodu souboru Excel do PDF při nastavování času vytvoření.
+Nyní, když máme naše balíčky naimportované, pojďme si rozebrat proces převodu souboru Excel do PDF při nastavování času vytvoření.
 ## Krok 1: Definujte adresář dokumentů
 Nejprve musíte určit adresář, kde jsou vaše dokumenty uloženy. Zde se nachází váš soubor Excel a kam se uloží výstupní PDF.
 ```csharp
@@ -42,7 +42,7 @@ string dataDir = "Your Document Directory"; // Zadejte adresář dokumentů
 ## Krok 2: Načtěte soubor Excel
  Dále načtete soubor Excel do a`Workbook` objekt. To je místo, kde Aspose.Cells září, protože vám umožňuje pracovat se soubory aplikace Excel bez námahy.
 ```csharp
-string inputPath = dataDir + "Book1.xlsx"; // Cesta k souboru Excel
+string inputPath = dataDir + "Book1.xlsx"; // Cesta k souboru aplikace Excel
 Workbook workbook = new Workbook(inputPath); // Načtěte soubor Excel
 ```
  The`Workbook` třída se používá k načítání a manipulaci se soubory Excel. Předáním vstupní cesty sdělujete aplikaci, se kterým souborem má pracovat.

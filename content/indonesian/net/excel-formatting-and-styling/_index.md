@@ -13,7 +13,7 @@ Selamat datang di dunia Aspose.Cells untuk .NET, tempat lembar Excel Anda benar-
 
 ## Menerapkan Efek Isian Gradien di Excel
 
- Pernahkah Anda ingin menambahkan sedikit gaya pada dokumen Excel Anda? Menerapkan efek isian gradien adalah cara yang sangat baik untuk membuat lembar kerja Anda menonjol. Bayangkan data Anda tersusun dalam sel yang warnanya berubah indah dari atas ke bawah! Ini lebih mudah daripada kedengarannya, dan tutorial kami tentang[menerapkan efek isian gradien](./applying-gradient-fill-effects/)akan memandu Anda melalui proses ini langkah demi langkah. Anda akan mempelajari cara menggabungkan efek-efek ini dengan lancar, memastikan data Anda tidak hanya ada—tetapi juga bersinar!
+ Pernahkah Anda ingin menambahkan sedikit gaya pada dokumen Excel Anda? Menerapkan efek isian gradien adalah cara yang sangat baik untuk membuat lembar kerja Anda menonjol. Bayangkan data Anda tersusun dalam sel yang berubah warna dengan indah dari atas ke bawah! Ini lebih mudah daripada kedengarannya, dan tutorial kami tentang[menerapkan efek isian gradien](./applying-gradient-fill-effects/)akan memandu Anda melalui proses ini langkah demi langkah. Anda akan mempelajari cara menggabungkan efek-efek ini dengan lancar, memastikan data Anda tidak hanya ada—tetapi juga bersinar!
 
 ## Menggunakan Gaya dan Pemformatan Excel yang Telah Ditentukan Sebelumnya
 

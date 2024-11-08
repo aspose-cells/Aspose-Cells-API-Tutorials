@@ -33,7 +33,7 @@ Deze imports zijn essentieel omdat ze u toegang geven tot de krachtige functiona
 
 Oké, laten we aan de slag gaan! We gaan de code opsplitsen in beheersbare segmenten die u helpen te begrijpen wat er in elke stap gebeurt.
 ## Stap 1: Stel uw mappen in
-Voordat we beginnen, moeten we aangeven waar we onze bestanden vandaan halen en waar we het uitvoerbestand willen opslaan.
+Voordat we beginnen, moeten we aangeven waar we de bestanden vandaan halen en waar we het uitvoerbestand willen opslaan.
 ```csharp
 //Bron directory
 string sourceDir = "Your Document Directory";
@@ -105,7 +105,7 @@ wb.Save(outputDir + "outputParsingPivotCachedRecordsWhileLoadingExcelFile.xlsx")
 ```
 Deze regel slaat onze werkmap op in de opgegeven uitvoermap. Het is alsof we onze schat veilig opbergen na een succesvolle expeditie!
 ## Stap 11: Bericht dat de afdruk is voltooid
-En als laatste, maar zeker niet onbelangrijk, laten we onszelf ervan op de hoogte stellen dat de taak voltooid is.
+En als laatste, maar zeker niet onbelangrijk, laten we onszelf even laten weten dat de taak voltooid is.
 ```csharp
 Console.WriteLine("ParsingPivotCachedRecordsWhileLoadingExcelFile executed successfully.");
 ```

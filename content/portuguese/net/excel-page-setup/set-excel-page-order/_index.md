@@ -31,7 +31,7 @@ using System;
 
 Esta linha de código permite que você aproveite as poderosas funcionalidades oferecidas pelo Aspose.Cells em seu projeto, fornecendo as ferramentas necessárias para manipular arquivos do Excel sem problemas.
 
-Agora que estabelecemos as bases, vamos dividir a definição da ordem das páginas do Excel em etapas gerenciáveis!
+Agora que estabelecemos as bases, vamos dividir a definição da ordem das páginas do Excel em etapas mais fáceis de gerenciar!
 
 ## Etapa 1: especifique seu diretório de documentos
 

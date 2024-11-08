@@ -63,7 +63,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 Workbook workbook = new Workbook(fstream);
 ```
 
- Tại thời điểm này, của bạn`workbook` bây giờ chứa toàn bộ dữ liệu từ tệp Excel và bạn có thể thực hiện nhiều thao tác khác nhau trên đó.
+ Tại thời điểm này, bạn`workbook` bây giờ chứa toàn bộ dữ liệu từ tệp Excel và bạn có thể thực hiện nhiều thao tác khác nhau trên đó.
 
 ## Bước 4: Xóa Worksheet theo Tên
 

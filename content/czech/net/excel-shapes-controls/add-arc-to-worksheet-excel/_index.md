@@ -57,7 +57,7 @@ Nyní do listu přidáme náš první tvar oblouku.
 // Přidejte tvar oblouku.
 Aspose.Cells.Drawing.ArcShape arc1 = excelbook.Worksheets[0].Shapes.AddArc(2, 0, 2, 0, 130, 130);
 ```
- Zde přidáváme oblouk do prvního listu. Parametry definují polohu a velikost oblouku:`(left, top, width, height, startAngle, endAngle)`. Je to jako nakreslit segment kruhu!
+ Zde přidáváme oblouk do prvního listu. Parametry definují polohu a velikost oblouku:`(left, top, width, height, startAngle, endAngle)`. Je to jako nakreslit výseč kruhu!
 ## Krok 4: Přizpůsobte první oblouk
 Po přidání oblouku možná budete chtít upravit jeho vzhled.
 ```csharp

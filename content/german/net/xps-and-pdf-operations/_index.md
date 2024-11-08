@@ -2,7 +2,7 @@
 title: XPS- und PDF-Operationen
 linktitle: XPS- und PDF-Operationen
 second_title: Aspose.Cells .NET Excel-Verarbeitungs-API
-description: Entdecken Sie umfassende Aspose.Cells für .NET-Tutorials zu XPS- und PDF-Operationen, um Ihre Dateikonvertierungen zu optimieren.
+description: Entdecken Sie umfassende Aspose.Cells für .NET-Tutorials zu XPS- und PDF-Vorgängen, um Ihre Dateikonvertierungen zu optimieren.
 type: docs
 weight: 36
 url: /de/net/xps-and-pdf-operations/
@@ -17,7 +17,7 @@ Wenn es um die Arbeit mit Excel-Dateien geht, ist Aspose.Cells für .NET ein Kra
 
 ## Festlegen der PDF-Erstellungszeit für eine bessere Verwaltung
 
- Als Nächstes wollen wir uns mit den Feinheiten der PDF-Verwaltung befassen. PDFs werden häufig verwendet, und die Kontrolle über die Dokumenteigenschaften ist von größter Bedeutung, insbesondere bei Dokumenten. Müssen Sie beim Konvertieren Ihrer Excel-Tabellen in PDF eine bestimmte Erstellungszeit festlegen? Die Kenntnis des genauen Zeitstempels kann in vielen beruflichen Kontexten von entscheidender Bedeutung sein. Unser Leitfaden zu[Festlegen der PDF-Erstellungszeit in .NET](./setting-pdf-creation-time/) bietet einfache Schritte zur Implementierung dieser Funktion. Mit nur ein wenig Code können Sie sicherstellen, dass Ihre PDFs nicht nur den Inhalt genau wiedergeben, sondern auch die richtigen Metadaten enthalten. Warum probieren Sie es nicht einfach aus? Es ist einfacher als Sie denken!
+ Als nächstes wollen wir uns mit den Feinheiten der PDF-Verwaltung befassen. PDFs werden häufig verwendet, und die Kontrolle über die Dokumenteigenschaften ist von größter Bedeutung, insbesondere bei Dokumenten. Müssen Sie beim Konvertieren Ihrer Excel-Tabellen in PDF eine bestimmte Erstellungszeit festlegen? Die Kenntnis des genauen Zeitstempels kann in vielen beruflichen Kontexten von entscheidender Bedeutung sein. Unser Leitfaden zu[Festlegen der PDF-Erstellungszeit in .NET](./setting-pdf-creation-time/) bietet einfache Schritte zur Implementierung dieser Funktion. Mit nur ein wenig Code können Sie sicherstellen, dass Ihre PDFs nicht nur den Inhalt genau wiedergeben, sondern auch die richtigen Metadaten enthalten. Warum probieren Sie es nicht einfach aus? Es ist einfacher als Sie denken!
 
 ## Tutorials zu XPS- und PDF-Operationen
 ### [Konvertieren in XPS in .NET](./converting-to-xps/)

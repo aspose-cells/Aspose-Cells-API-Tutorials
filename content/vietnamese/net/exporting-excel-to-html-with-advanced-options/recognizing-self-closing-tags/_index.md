@@ -2,7 +2,7 @@
 title: Nhận dạng thẻ tự đóng theo chương trình trong Excel
 linktitle: Nhận dạng thẻ tự đóng theo chương trình trong Excel
 second_title: API xử lý Excel Aspose.Cells .NET
-description: Mở khóa tiềm năng của các thẻ tự đóng trong Excel với hướng dẫn từng bước của chúng tôi có Aspose.Cells cho .NET.
+description: Mở khóa tiềm năng của thẻ tự đóng trong Excel với hướng dẫn từng bước của chúng tôi có Aspose.Cells cho .NET.
 type: docs
 weight: 19
 url: /vi/net/exporting-excel-to-html-with-advanced-options/recognizing-self-closing-tags/
@@ -25,7 +25,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 ```
-Các gói này cung cấp cho bạn quyền truy cập vào các tính năng của Aspose.Cells mà bạn sẽ sử dụng trong quá trình triển khai. Sẵn sàng chưa? Hãy chia nhỏ quy trình thành các bước dễ quản lý!
+Các gói này cung cấp cho bạn quyền truy cập vào các tính năng của Aspose.Cells mà bạn sẽ sử dụng trong quá trình triển khai của mình. Sẵn sàng chưa? Hãy chia nhỏ quy trình thành các bước dễ quản lý!
 ## Bước 1: Thiết lập thư mục của bạn
 Mọi dự án đều cần có sự tổ chức và dự án này cũng không ngoại lệ. Hãy thiết lập các thư mục nơi tệp HTML nguồn và tệp Excel đầu ra của bạn sẽ nằm.
 ```csharp

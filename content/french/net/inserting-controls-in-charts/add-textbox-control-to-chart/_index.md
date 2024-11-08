@@ -70,7 +70,7 @@ En modifiant la valeur de l'index, vous pouvez sélectionner différentes feuill
 
 ## Étape 4 : ajouter une nouvelle zone de texte au graphique
 
-Nous sommes maintenant prêts à ajouter notre zone de texte. Nous spécifierons sa position et sa taille lors de sa création.
+Nous sommes maintenant prêts à ajouter notre TextBox. Nous spécifierons sa position et sa taille lors de sa création.
 
 ```csharp
 // Ajoutez une nouvelle zone de texte au graphique.

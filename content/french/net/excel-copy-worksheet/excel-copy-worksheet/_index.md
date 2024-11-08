@@ -108,7 +108,7 @@ Et voilà ! Vous avez réussi à dupliquer une feuille de calcul dans un fichier
 
 ## Conclusion
 
-La copie d'une feuille de calcul dans Aspose.Cells pour .NET est non seulement simple mais également très efficace. Avec seulement quelques lignes de code, vous pouvez automatiser les tâches répétitives d'Excel, ce qui vous facilite grandement la vie lorsque vous traitez de grands ensembles de données ou des rapports basés sur des modèles. Que vous automatisiez des rapports financiers, des journaux d'inventaire ou tout autre élément nécessitant Excel, Aspose.Cells est votre solution de référence.
+La copie d'une feuille de calcul dans Aspose.Cells pour .NET est non seulement simple mais également très efficace. Avec seulement quelques lignes de code, vous pouvez automatiser les tâches répétitives d'Excel, ce qui vous simplifie grandement la vie lorsque vous traitez de grands ensembles de données ou des rapports basés sur des modèles. Que vous automatisiez des rapports financiers, des journaux d'inventaire ou tout autre élément nécessitant Excel, Aspose.Cells est votre solution de référence.
 
 ## FAQ
 

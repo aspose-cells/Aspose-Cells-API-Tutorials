@@ -41,7 +41,7 @@ url: /zh/net/exporting-excel-to-html-with-advanced-options/
 
 ## 识别自闭合标签
 
-HTML 导出中一个经常被忽视的方面是自闭合标签的管理。Excel 工作表可能很复杂，包含各种可能需要特定格式的元素，例如图像或空单元格。有关以编程方式识别自闭合标签的教程将指导您无缝提取这些元素，确保您的输出 HTML 干净且结构良好。想象一下简化您的代码并使您的 HTML 更符合 Web 标准 - 听起来很棒，对吧？[点击此处了解详情](./recognizing-self-closing-tags/).
+HTML 导出中一个经常被忽视的方面是自闭合标签的管理。Excel 工作表可能很复杂，包含可能需要特定格式的各种元素，例如图像或空单元格。有关以编程方式识别自闭合标签的教程将指导您无缝提取这些元素，确保您的输出 HTML 干净且结构良好。想象一下简化您的代码并使您的 HTML 更符合 Web 标准 - 听起来很棒，对吧？[点击此处了解详情](./recognizing-self-closing-tags/).
 
 ## 高效地为表格元素样式添加前缀
 
@@ -58,7 +58,7 @@ HTML 导出中一个经常被忽视的方面是自闭合标签的管理。Excel 
 ### [以 HTML 格式导出文档工作簿和工作表属性](./exporting-document-workbook-and-worksheet-properties/)
 了解如何使用 Aspose.Cells for .NET 将 Excel 文档、工作簿和工作表属性导出为 HTML。包含简单的分步指南。
 ### [以编程方式将 Excel 中的打印区域导出为 HTML](./exporting-print-area/)
-在本详细指南中学习如何使用 Aspose.Cells for .NET 将特定打印区域从 Excel 导出为 HTML。优化您的数据呈现。
+在此详细指南中学习如何使用 Aspose.Cells for .NET 将特定打印区域从 Excel 导出为 HTML。优化您的数据呈现。
 ### [在 Excel 中以编程方式导出类似的边框样式](./exporting-similar-border-style/)
 通过本简单的分步指南了解如何使用 Aspose.Cells for .NET 以编程方式在 Excel 中导出类似的边框样式。
 ### [在输出 HTML 中单独导出工作表 CSS](./exporting-worksheet-css-separately/)

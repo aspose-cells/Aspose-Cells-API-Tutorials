@@ -48,7 +48,7 @@ string outputDir = "Your Output Directory";
 string sourceDir = "Your Document Directory";
 ```
 
- Tessék, cserélje ki`Your Output Directory` és`Your Document Directory` konkrét utaiddal. Ha ezeket a könyvtárakat egyértelműen definiálják, az leegyszerűsíti a munkafolyamatot, és elkerüli a zavartságot.
+ Tessék, cserélje ki`Your Output Directory` és`Your Document Directory` sajátos utaiddal. Ha ezeket a könyvtárakat egyértelműen definiálják, az leegyszerűsíti a munkafolyamatot, és elkerüli a zavartságot.
 
 ## 2. lépés: Példányosítsa a munkafüzetet
 

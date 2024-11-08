@@ -25,6 +25,6 @@ dokumentumok konvertálása során fellépő hibák frusztrálóak és időigén
 
 ## Hibakezelés és testreszabás az Aspose.Cells oktatóanyagokban
 ### [Rendeljen Office-bővítményeket Excelben PDF-be az Aspose.Cells segítségével](./render-office-add-ins/)
-Ismerje meg, hogyan renderelheti le az Office-bővítményeket az Excelben PDF-formátumba az Aspose.Cells for .NET használatával. Kövesse lépésenkénti oktatóanyagunkat a hatékony dokumentumátalakítás érdekében.
+Ismerje meg, hogyan renderelheti le az Office-bővítményeket az Excelben PDF formátumba az Aspose.Cells for .NET használatával. Kövesse lépésenkénti oktatóanyagunkat a hatékony dokumentumátalakítás érdekében.
 ### [Hagyja figyelmen kívül az Excel hibáit a PDF renderelésben az Aspose.Cells segítségével](./ignore-errors-while-rendering/)
 Az Aspose.Cells segítségével könnyedén konvertálja az Excelt PDF-be C# nyelven, figyelmen kívül hagyva a konverziós hibákat, és egyszerűsítse a munkafolyamatot.

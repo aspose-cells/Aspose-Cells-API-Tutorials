@@ -15,7 +15,7 @@ Pernahkah Anda bertanya-tanya bagaimana cara membuat grafik yang memukau di Exce
 
 Sebelum kita mulai, pastikan Anda telah menyiapkan semua hal agar dapat mengikutinya dengan lancar.
 
-1.  Aspose.Cells untuk Pustaka .NET – Anda perlu menginstal ini. Anda dapat mengambilnya[Di Sini](https://releases.aspose.com/cells/net/).
+1. Aspose.Cells untuk Pustaka .NET – Anda perlu menginstal ini. Anda dapat mengambilnya[Di Sini](https://releases.aspose.com/cells/net/).
 2. .NET Framework – Pastikan lingkungan pengembangan Anda disiapkan dengan versi .NET terbaru.
 3. IDE (Integrated Development Environment) – Visual Studio direkomendasikan.
 4.  Lisensi Aspose.Cells yang valid – Jika Anda belum memilikinya, Anda dapat meminta[lisensi sementara](https://purchase.aspose.com/temporary-license/) atau lihat mereka[uji coba gratis](https://releases.aspose.com/).
@@ -109,7 +109,7 @@ chart.AutoScaling = true;
 // Atur warna latar depan menjadi putih
 chart.PlotArea.Area.ForegroundColor = Color.White;
 
-// Tetapkan properti judul bagan
+//Tetapkan properti judul bagan
 chart.Title.Text = "Sample Chart";
 
 // Tetapkan jenis grafik

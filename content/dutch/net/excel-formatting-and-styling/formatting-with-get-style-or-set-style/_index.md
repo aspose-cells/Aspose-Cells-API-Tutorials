@@ -41,7 +41,7 @@ Vervolgens moeten we een nieuwe werkmap maken waarin we alle opmaak gaan uitvoer
 ```csharp
 Workbook workbook = new Workbook();
 ```
-Met deze regel wordt een nieuw werkmapobject geïnitialiseerd, waardoor er feitelijk een nieuw Excel-bestand wordt gemaakt.
+Deze regel initialiseert een nieuw werkmapobject en maakt in feite een nieuw Excel-bestand.
 ## Stap 3: Verkrijg een referentie naar het werkblad
 Toegang tot het eerste werkblad
 Zodra de werkmap is gemaakt, moeten we toegang krijgen tot de werkbladen. Elke werkmap kan meerdere werkbladen bevatten.
@@ -95,14 +95,14 @@ style.ShrinkToFit = true;
 Met deze instelling wordt de lettergrootte automatisch aangepast aan de afmetingen van de cel.
 ## Stap 10: Randen instellen
 Een onderrand toevoegen
-Een solide rand kan uw celdefinities duidelijker maken. Laten we een rand aan de onderkant van de cel toevoegen.
+Een solide rand kan uw celdefinities duidelijker maken. Laten we een rand aan de onderkant van de cel toepassen.
 ```csharp
 style.Borders[BorderType.BottomBorder].Color = Color.Red;
 style.Borders[BorderType.BottomBorder].LineStyle = CellBorderType.Medium;
 ```
 Hier specificeren we de kleur en de lijnstijl voor de onderrand, waardoor onze cel een gedefinieerde afsluiting krijgt.
 ## Stap 11: Pas de stijl toe op de cel
-Uw stijlwijzigingen afronden
+Het afronden van uw stijlwijzigingen
 Nu is het tijd om alle mooie stijlen die we hebben gedefinieerd toe te passen op onze cel.
 ```csharp
 cell.SetStyle(style);

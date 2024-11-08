@@ -85,13 +85,13 @@ Odkryj podstawowe samouczki dotyczące Aspose.Cells dla .NET, które z łatwośc
 ### [Ukryte wiersze programu Excel i zarządzanie duplikacją danych](./excel-hidden-rows-data-duplication-management/)
 Odkryj potencjał programu Excel dzięki samouczkom Aspose.Cells dla platformy .NET, które dostarczają wskazówek na temat zarządzania ukrytymi wierszami i łatwego duplikowania danych.
 ### [Komentarze i adnotacje w programie Excel](./excel-comment-annotation/)
-Udoskonal swoje umiejętności korzystania z programu Excel, korzystając z samouczków Aspose.Cells for .NET dotyczących komentarzy i adnotacji. Znajdziesz w nich przewodniki krok po kroku, dzięki którym wzbogacisz swoje arkusze kalkulacyjne.
+Udoskonal swoje umiejętności w zakresie programu Excel, korzystając z samouczków Aspose.Cells for .NET dotyczących komentarzy i adnotacji. Znajdziesz w nich przewodniki krok po kroku, dzięki którym wzbogacisz swoje arkusze kalkulacyjne.
 ### [Kształty i kontrolki programu Excel](./excel-shapes-controls/)
 Poznaj kompleksowe samouczki Aspose.Cells for .NET dotyczące dodawania kształtów i kontrolek Excel. Poznaj metody krok po kroku, aby programowo ulepszyć arkusze kalkulacyjne Excel.
 ### [Obiekty OLE i obrazy w programie Excel](./excel-ole-picture-objects/)
 Odblokuj moc programu Excel dzięki Aspose.Cells dla .NET. Opanuj obiekty OLE i obsługę obrazów dzięki naszym łatwym do naśladowania samouczkom.
 ### [Dostęp do kształtów i etykiet w programie Excel](./excel-shape-label-access/)
-Odkryj potencjał pakietu Aspose.Cells dla platformy .NET dzięki naszym kompleksowym samouczkom, które obejmują zagadnienia związane z etykietami obiektów OLE i identyfikacją kształtów Smart Art w programie Excel.
+Odkryj potencjał pakietu Aspose.Cells dla platformy .NET dzięki naszym kompleksowym samouczkom, które obejmują etykiety obiektów OLE i identyfikację kształtów Smart Art w programie Excel.
 ### [Modyfikacje kształtu i tekstu w programie Excel](./excel-shape-text-modifications/)
 Naucz się manipulować kształtami i tekstem w programie Excel za pomocą pakietu Aspose.Cells dla platformy .NET, korzystając z łatwych w użyciu samouczków i praktycznych przykładów kodu.
 ### [Obsługa plików Excel](./excel-file-handling/)
@@ -105,15 +105,15 @@ Odkryj kompleksowe samouczki dotyczące zapisywania plików Excel w różnych fo
 ### [Obsługa plików](./file-handling/)
 Odkryj szczegółowe samouczki dotyczące obsługi plików w Aspose.Cells dla .NET, obejmujące zapisywanie w różnych formatach, lokalizacjach i przy użyciu niestandardowych separatorów.
 ### [Właściwości dokumentu](./document-properties/)
-Odkryj możliwości pakietu Aspose.Cells dla platformy .NET dzięki naszym kompleksowym samouczkom dotyczącym właściwości dokumentów, które pomogą Ci udoskonalić umiejętności zarządzania plikami w programie Excel.
+Odkryj możliwości pakietu Aspose.Cells dla platformy .NET dzięki naszym kompleksowym samouczkom dotyczącym właściwości dokumentów, które pozwolą Ci udoskonalić umiejętności zarządzania plikami w programie Excel.
 ### [Konwersja i renderowanie](./conversion-and-rendering/)
-Zapoznaj się z samouczkami Aspose.Cells for .NET, w których znajdziesz zaawansowane przewodniki na temat płynnej konwersji i renderowania plików Excela do różnych formatów.
+Zapoznaj się z samouczkami Aspose.Cells for .NET, zawierającymi zaawansowane przewodniki na temat płynnej konwersji i renderowania plików Excela do różnych formatów.
 ### [Bezpieczeństwo i szyfrowanie](./security-and-encryption/)
 Odblokuj moc Aspose.Cells dla .NET dzięki naszym samouczkom na temat bezpieczeństwa i szyfrowania. Naucz się bez wysiłku wykrywać i szyfrować pliki.
 ### [Operacje arkusza kalkulacyjnego](./worksheet-operations/)
 Odkryj pełen potencjał pakietu Aspose.Cells dla platformy .NET dzięki praktycznym samouczkom, które obejmują operacje na arkuszach kalkulacyjnych i ulepszanie plików programu Excel.
 ### [Konwersja do PDF](./conversion-to-pdf/)
-Przekształć swoje pliki i wykresy programu Excel w płynne pliki PDF dzięki naszym łatwym w użyciu samouczkom Aspose.Cells dla .NET.
+Przekształć swoje pliki i wykresy programu Excel w płynne pliki PDF dzięki naszym łatwym w użyciu samouczkom Aspose.Cells dla platformy .NET.
 ### [Operacje na obrazach i wykresach](./image-and-chart-operations/)
 Zapoznaj się z kompleksowym przewodnikiem po samouczkach Aspose.Cells dla .NET. Dowiedz się więcej o operacjach na obrazach i wykresach, aby zwiększyć swoją produktywność.
 ### [Operacje XPS i PDF](./xps-and-pdf-operations/)
@@ -147,7 +147,7 @@ Odkryj metody i opcje formatowania programu Excel w samouczkach Aspose.Cells dla
 ### [Ładowanie i zapisywanie plików Excel z opcjami](./loading-and-saving-excel-files-with-options/)
 Zapoznaj się z samouczkami Aspose.Cells dla platformy .NET, w których znajdziesz wskazówki dotyczące ładowania i zapisywania plików programu Excel z takimi opcjami, jak automatyczne dopasowywanie i wyłączanie komentarzy.
 ### [Konwersja plików Excel do innych formatów](./converting-excel-files-to-other-formats/)
-Zapoznaj się z kompleksową listą samouczków dotyczących narzędzia Aspose.Cells for .NET, aby dowiedzieć się, jak konwertować pliki Excela do formatów JSON, DOCX, HTML, PDF, Markdown i innych.
+Zapoznaj się z kompleksową listą samouczków dotyczących narzędzia Aspose.Cells for .NET, aby dowiedzieć się, jak konwertować pliki programu Excel do formatów takich jak JSON, DOCX, HTML, PDF, Markdown i innych.
 ### [Zapisywanie i eksportowanie plików Excel z opcjami](./saving-and-exporting-excel-files-with-options/)
 Poznaj szczegółowe samouczki Aspose.Cells for .NET dotyczące zapisywania i eksportowania plików Excel. Dowiedz się, jak obsługiwać komentarze, właściwości dokumentu, ostrzeżenia i przycinanie danych.
 ### [Tworzenie i konfigurowanie tabel przestawnych](./creating-and-configuring-pivot-tables/)
@@ -169,4 +169,26 @@ Opanuj automatyczne dopasowywanie wierszy i kolumn w programie Excel dzięki Asp
 ### [Zarządzanie fragmentatorami programu Excel](./excel-slicers-management/)
 Przeglądaj kompleksowe samouczki dotyczące zarządzania fragmentatorami programu Excel za pomocą Aspose.Cells dla .NET. Dowiedz się, jak bez wysiłku tworzyć, aktualizować, formatować i eksportować fragmentatory.
 ### [Inteligentne znaczniki w Aspose.Cells dla dynamicznych danych](./smart-markers-dynamic-data/)
-Poznaj samouczki Aspose.Cells for .NET Smart Markers, aby tworzyć dynamiczne raporty w programie Excel. Dowiedz się, jak dodawać etykiety, automatycznie wypełniać dane, używać formuł i nie tylko.
+Poznaj Aspose.Cells for .NET Smart Markers Tutorials, aby tworzyć dynamiczne raporty Excela. Naucz się dodawać etykiety, automatycznie wypełniać dane, używać formuł i nie tylko.
+### [Tabele i listy](./tables-and-lists/)
+Zapoznaj się z kompleksowymi samouczkami Aspose.Cells for .NET, aby skutecznie zarządzać danymi w programie Excel, tworzyć tabele i rozwijać swoje umiejętności dzięki łatwym w użyciu przewodnikom.
+### [Operacje w skoroszycie Aspose.Cells](./workbook-operations/)
+Poznaj samouczki Aspose.Cells for .NET workbook obejmujące dostęp do danych, dostosowywanie XML, podpisy, rozszerzenia internetowe i wiele więcej. Łatwo rozwijaj umiejętności automatyzacji programu Excel.
+### [Ustawienia skoroszytu](./workbook-settings/)
+Zapoznaj się z kompleksowymi samouczkami dotyczącymi Aspose.Cells dla .NET, obejmującymi ustawienia skoroszytu, zasoby zewnętrzne i nie tylko.
+### [Projekt VBA skoroszytu](./workbook-vba-project/)
+Odblokuj moc programu Excel dzięki Aspose.Cells dla .NET. Poznaj kompleksowe samouczki dotyczące ochrony projektu VBA, kopiowania formularzy użytkownika i zabezpieczania skoroszytu.
+### [Wyświetlanie arkusza kalkulacyjnego](./worksheet-display/)
+Odkryj kompleksową listę samouczków Aspose.Cells dla .NET. Udoskonal swoje umiejętności w programie Excel dzięki przewodnikom krok po kroku dotyczącym kluczowych funkcji arkusza kalkulacyjnego.
+### [Zarządzanie arkuszami kalkulacyjnymi](./worksheet-management/)
+Odkryj potencjał pakietu Aspose.Cells dla platformy .NET dzięki naszym kompleksowym samouczkom, które przeprowadzą Cię przez proces zarządzania arkuszami kalkulacyjnymi za pomocą instrukcji krok po kroku.
+### [Funkcje ustawień strony arkusza kalkulacyjnego](./worksheet-page-setup-features/)
+Odkryj samouczki dotyczące konfiguracji stron arkusza kalkulacyjnego Aspose.Cells for .NET, obejmujące kopiowanie ustawień strony, zarządzanie rozmiarem papieru i ustawianie jakości wydruku arkuszy kalkulacyjnych programu Excel.
+### [Arkusz bezpieczeństwa](./worksheet-security/)
+Odkryj sekrety bezpieczeństwa programu Excel. Poznaj nasze kompleksowe samouczki Aspose.Cells for .NET, aby bez wysiłku chronić, edytować i zarządzać arkuszami kalkulacyjnymi.
+### [Arkusz kalkulacyjny Operacje wartości](./worksheet-value-operations/)
+Zapoznaj się z podstawowymi samouczkami dotyczącymi Aspose.Cells dla platformy .NET, które obejmują operacje na wartościach arkusza kalkulacyjnego, dzięki czemu udoskonalą Twoje projekty w programie Excel.
+### [Operacje arkusza kalkulacyjnego](./worksheet-operations/)
+Poznaj samouczki Aspose.Cells for .NET workbook obejmujące dostęp do danych, dostosowywanie XML, podpisy, rozszerzenia internetowe i wiele więcej. Łatwo rozwijaj umiejętności automatyzacji programu Excel.
+### [Operacje na mapie XML](./xml-map-operations/)
+Odkryj kompleksowe samouczki dotyczące Aspose.Cells for .NET, obejmujące operacje na mapach XML, które pozwolą Ci bez wysiłku rozwinąć umiejętności korzystania z programu Excel.

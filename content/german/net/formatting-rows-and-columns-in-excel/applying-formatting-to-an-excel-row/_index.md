@@ -102,7 +102,7 @@ workbook.Save(dataDir + "book1.out.xls");
 ```
 Sie haben jetzt ein vollständig formatiertes Excel-Blatt, das in Ihrem angegebenen Verzeichnis gespeichert ist!
 ## Abschluss
-Das ist alles! In nur wenigen einfachen Schritten haben Sie gelernt, wie Sie mit Aspose.Cells für .NET programmgesteuert eine Formatierung auf eine Excel-Zeile anwenden. Von der Festlegung der Textausrichtung bis zur Anpassung von Rändern behandelte dieses Tutorial die Grundlagen, die Ihnen dabei helfen, programmgesteuert professionelle und optisch ansprechende Excel-Berichte zu erstellen. 
+Das ist es! In nur wenigen einfachen Schritten haben Sie gelernt, wie Sie mit Aspose.Cells für .NET programmgesteuert eine Formatierung auf eine Excel-Zeile anwenden. Von der Festlegung der Textausrichtung bis zur Anpassung von Rändern behandelte dieses Tutorial die Grundlagen, die Ihnen dabei helfen, programmgesteuert professionelle und optisch ansprechende Excel-Berichte zu erstellen. 
 Aspose.Cells bietet eine breite Palette an Funktionen und die hier gezeigten Methoden können problemlos erweitert werden, um komplexere Stile und Formatierungen auf Ihre Excel-Dateien anzuwenden. Warum also nicht einfach mal ausprobieren und Ihre Daten zum Leben erwecken?
 ## Häufig gestellte Fragen
 ### Kann ich einzelnen Zellen in einer Zeile unterschiedliche Stile zuweisen?  

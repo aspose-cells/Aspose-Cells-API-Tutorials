@@ -72,7 +72,7 @@ Worksheet ws = wb.Worksheets[0];
 
 ## Stap 4: Loop door de grafieken
 
- Nu moet u over alle grafieken in het werkblad itereren. Met Aspose.Cells kunt u eenvoudig grafieken openen met behulp van de`Charts` eigendom van de`Worksheet` klas.
+ Nu moet u over alle grafieken in het werkblad itereren. Met Aspose.Cells kunt u eenvoudig toegang krijgen tot grafieken met behulp van de`Charts` eigendom van de`Worksheet` klas.
 
 ```csharp
 // Krijg toegang tot alle grafieken één voor één en lees hun typen

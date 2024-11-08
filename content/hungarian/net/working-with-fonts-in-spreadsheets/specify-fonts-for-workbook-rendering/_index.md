@@ -15,7 +15,7 @@ Mielőtt belemerülnénk az Aspose.Cells és a betűtípusok testreszabásának 
 2. Aspose.Cells for .NET: Győződjön meg arról, hogy telepítve van az Aspose.Cells könyvtár. Letöltheti[itt](https://releases.aspose.com/cells/net/).
 3. Visual Studio: Ez az útmutató feltételezi, hogy a Visual Studiot használja IDE-ként. Győződjön meg arról, hogy telepítette és beállította.
 4. Minta Excel-fájl: Készítsen Excel-mintafájlt ehhez az oktatóanyaghoz. Ez megkönnyíti annak megértését, hogy az egyéni betűtípusok hogyan befolyásolják a megjelenítési kimenetet.
-5. Egyéni betűtípusok: Készítse elő a használni kívánt egyéni betűtípusok könyvtárát. Ez létfontosságú a megjelenítési folyamatunk teszteléséhez.
+5. Egyéni betűtípusok: Készítsen egy könyvtárat a használni kívánt egyéni betűtípusokról. Ez létfontosságú a megjelenítési folyamatunk teszteléséhez.
 Ha ezekkel az előfeltételekkel rendelkezik, készen állunk arra, hogy belevágjunk a betűtípusok megadásával a munkafüzet-megjelenítéshez!
 ## Csomagok importálása
 Mielőtt elkezdené a kódolást, elengedhetetlen, hogy tartalmazza a szükséges könyvtárakat. Íme, hogyan:
@@ -79,7 +79,7 @@ Console.WriteLine("SpecifyIndividualOrPrivateSetOfFontsForWorkbookRendering exec
 ```
 Ez a cseresznye a tetején! Csakúgy, mint a cél elérése utáni ünneplés, ez a sikerüzenet tudatja Önnel, hogy a folyamat gond nélkül befejeződött. Mindig jó, ha visszajelzést kap a programozás során, hogy megbizonyosodjon arról, hogy a kód a várt módon fut.
 ## Következtetés
-És megvan! A betűtípusok megadása a munkafüzet-megjelenítéshez az Aspose.Cells for .NET segítségével nem csak egyszerű, hanem elengedhetetlen a vizuálisan vonzó dokumentumok létrehozásához is. Az alábbi lépések követésével biztosíthatja, hogy Excel-fájljai a PDF-formátumba konvertálás után is megőrizzék tervezett megjelenésüket. Akár jelentést, pénzügyi dokumentumot vagy bármilyen más Excel-munkafüzetet fejleszt, az egyéni betűtípusok javíthatják az olvashatóságot és a megjelenítést. Tehát ne habozzon kísérletezni a különböző betűtípus-konfigurációkkal, és nézze meg, hogyan javíthatják dokumentumait!
+És megvan! A betűtípusok megadása a munkafüzet-megjelenítéshez az Aspose.Cells for .NET segítségével nem csak egyszerű, hanem elengedhetetlen a vizuálisan vonzó dokumentumok létrehozásához is. Az alábbi lépések követésével biztosíthatja, hogy Excel-fájljai a PDF-formátumba konvertálás után is megőrizzék tervezett megjelenésüket. Akár jelentést, pénzügyi dokumentumot vagy bármilyen más típusú Excel-munkafüzetet fejleszt, az egyéni betűtípusok javíthatják az olvashatóságot és a megjelenítést. Tehát ne habozzon kísérletezni a különböző betűtípus-konfigurációkkal, és nézze meg, hogyan javíthatják dokumentumait!
 ## GYIK
 ### Mi az Aspose.Cells a .NET számára?  
 Az Aspose.Cells for .NET egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára, hogy Excel-fájlformátumokkal dolgozzanak, beleértve az Excel-dokumentumok programozott létrehozását, módosítását és konvertálását.

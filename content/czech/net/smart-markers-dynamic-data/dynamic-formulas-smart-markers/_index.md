@@ -30,17 +30,17 @@ using System.IO;
 using Aspose.Cells;
 ```
 Tady to je! Úspěšně jste nastavili svůj projekt a importovali potřebné balíčky. Nyní se podívejme na kód pro implementaci dynamických vzorců pomocí inteligentních značek.
-Po položení základů jsme připraveni začít s realizací. Rozdělíme to do zvládnutelných kroků, abyste je mohli snadno sledovat.
+Po položení základů jsme připraveni začít s implementací. Rozdělíme to do zvládnutelných kroků, abyste je mohli snadno sledovat.
 ## Krok 1: Připravte adresář
-V tomto kroku nastavíme cestu k adresáři dokumentů, kam budeme soubory ukládat.
+V tomto kroku nastavíme cestu k adresáři dokumentů, kam budeme ukládat naše soubory.
 ```csharp
 string dataDir = "Your Document Directory";
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
- Zde definujeme řetězcovou proměnnou tzv`dataDir` pro uložení cesty k adresáři dokumentů. Nejprve zkontrolujeme, zda tento adresář existuje. Pokud ne, vytvoříme ji. To zajišťuje, že když generujeme naše sestavy nebo ukládáme naše soubory, mají vyhrazený prostor, ve kterém mohou sídlit.
-## Krok 2: Vytvoření instance WorkbookDesigner
+ Zde definujeme řetězcovou proměnnou tzv`dataDir` pro uložení cesty k adresáři dokumentů. Nejprve zkontrolujeme, zda tento adresář existuje. Pokud ne, vytvoříme ji. Tím je zajištěno, že když generujeme naše sestavy nebo ukládáme naše soubory, mají vyhrazený prostor, ve kterém mohou sídlit.
+## Krok 2: Vytvoření instancí WorkbookDesigneru
 Nyní je čas přinést kouzlo! Využijeme`WorkbookDesigner` třídy, kterou poskytuje Aspose.Cells pro správu našich tabulek.
 ```csharp
 if (designerFile != null)

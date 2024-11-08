@@ -45,7 +45,7 @@ Worksheet worksheet = workbook.getWorksheets().get(0);
 Ebben a lépésben meghatározzuk azokat az egyéni érvényesítési feltételeket, amelyeknek az adatainknak meg kell felelniük. Tegyük fel, hogy a cellába beírt életkort 18 és 60 év közöttire szeretnénk korlátozni.
 
 ```java
-// Java kód egyéni érvényesítési feltételek meghatározásához
+// Java kód az egyéni érvényesítési feltételek meghatározásához
 Validation validation = worksheet.getValidations().add();
 validation.setType(ValidationType.WHOLE);
 validation.setOperator(OperatorType.BETWEEN);

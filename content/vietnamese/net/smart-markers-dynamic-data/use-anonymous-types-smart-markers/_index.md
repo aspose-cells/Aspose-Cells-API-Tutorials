@@ -71,7 +71,7 @@ sheet.Cells["B1"].PutValue("Age");
 sheet.Cells["A2"].PutValue("&=MyProduct.Name");
 sheet.Cells["B2"].PutValue("&=MyProduct.Age");
 ```
- Chúng tôi chỉ định bảng tính đầu tiên và đặt giá trị cho các ô tiêu đề. Các điểm đánh dấu thông minh được thêm tiền tố`&=` cho Aspose biết đây là chỗ giữ chỗ để dữ liệu được chèn vào sau.
+ Chúng tôi chỉ định bảng tính đầu tiên và đặt giá trị cho các ô tiêu đề. Các điểm đánh dấu thông minh được thêm tiền tố`&=` cho Aspose biết rằng đây là chỗ giữ chỗ cho dữ liệu sẽ được chèn vào sau.
 ## Bước 4: Tạo danh sách mọi người
  Bây giờ chúng ta hãy tạo một danh sách những người sử dụng`Person` lớp mà chúng ta sẽ sử dụng để điền các điểm đánh dấu thông minh.
 ```csharp

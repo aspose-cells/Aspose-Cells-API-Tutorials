@@ -32,7 +32,7 @@ using Aspose.Cells;
 using System;
 ```
 
-Cette ligne unique vous permet d'accéder à tous les puissants composants de la bibliothèque Aspose.Cells.
+Cette ligne unique vous permet d'accéder à tous les composants puissants de la bibliothèque Aspose.Cells.
 
 Décomposons l'ensemble du processus en étapes faciles à gérer pour vous assurer de bien comprendre chaque partie. Nous allons créer un classeur, ajouter deux feuilles de calcul, modifier la mise en page de l'une, puis copier ces paramètres dans une autre.
 

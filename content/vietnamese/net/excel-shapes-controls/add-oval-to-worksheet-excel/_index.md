@@ -11,7 +11,7 @@ url: /vi/net/excel-shapes-controls/add-oval-to-worksheet-excel/
 Tạo các tệp Excel tuyệt đẹp và tương tác có thể liên quan đến nhiều thứ hơn là chỉ các con số và công thức. Các hình dạng như hình bầu dục có thể tăng thêm sức hấp dẫn về mặt thị giác hoặc cung cấp các thành phần chức năng trong bảng tính của bạn. Trong hướng dẫn này, chúng ta sẽ khám phá cách sử dụng Aspose.Cells cho .NET để thêm hình bầu dục vào bảng tính Excel theo chương trình. Cho dù bạn đang muốn thêm một chút phong cách hay chức năng, chúng tôi đều có hướng dẫn từng bước chi tiết cho bạn.
 ## Điều kiện tiên quyết
 Trước khi tìm hiểu về mã, bạn cần chuẩn bị một số điều sau:
-1.  Aspose.Cells cho Thư viện .NET: Bạn có thể tải xuống từ[đây](https://releases.aspose.com/cells/net/) hoặc cài đặt bằng NuGet trong Visual Studio.
+1.  Thư viện Aspose.Cells cho .NET: Bạn có thể tải xuống từ[đây](https://releases.aspose.com/cells/net/) hoặc cài đặt bằng NuGet trong Visual Studio.
 2. Môi trường phát triển: AC# IDE như Visual Studio.
 3. Hiểu biết cơ bản về C#: Bạn nên quen thuộc với các khái niệm lập trình cơ bản trong C#.
  Ngoài ra, hãy nhớ thiết lập dự án của bạn bằng cách cài đặt thư viện Aspose.Cells cho .NET. Nếu bạn chưa có giấy phép, bạn có thể đăng ký[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) hoặc sử dụng[dùng thử miễn phí](https://releases.aspose.com/) phiên bản.

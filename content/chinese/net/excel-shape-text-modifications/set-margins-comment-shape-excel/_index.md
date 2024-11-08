@@ -26,7 +26,7 @@ url: /zh/net/excel-shape-text-modifications/set-margins-comment-shape-excel/
 1. 在解决方案资源管理器中右键单击您的项目。
 2. 选择“管理 NuGet 包”。
 3. 搜索“Aspose.Cells”然后单击安装按钮。
-4. 确保安装顺利完成。
+4. 确保安装完成且没有错误。
 ### 包括使用指令
 在 C# 文件的顶部，包含以下命名空间：
 ```csharp

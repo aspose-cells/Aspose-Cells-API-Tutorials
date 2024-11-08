@@ -27,7 +27,7 @@ using System.Collections.Generic;
 Dessa namnrymder ger dig tillgång till alla nödvändiga klasser och metoder som kommer att diskuteras senare.
 Låt oss nu gå in på själva handledningen! Du kommer att se hur du skapar en Excel-fil med smarta markörer med hjälp av en anpassad klass. Oroa dig inte; vi delar upp allt i hanterbara steg!
 ## Steg 1: Skapa en anpassad klass
-Först och främst behöver vi en enkel klass för att representera de data vi vill lägga till i vår Excel-fil. Den här klassen kommer att innehålla information om en person.
+Först och främst behöver vi en enkel klass för att representera de data vi vill lägga till i vår Excel-fil. Denna klass kommer att innehålla information om en person.
 ```csharp
 public class Person
 {
@@ -51,7 +51,7 @@ public class Person
 }
 ```
  Här definierar vi en klass som heter`Person` med två fastigheter,`Name` och`Age`. Konstruktören initierar dessa egenskaper. 
-## Steg 2: Ställ in Workbook Designer
+## Steg 2: Konfigurera arbetsboksdesignern
  Låt oss sedan skapa en instans av`WorkbookDesigner`klass, som vi kommer att använda för att designa vår Excel-fil med smarta markörer.
 ```csharp
 // Sökvägen till dokumentkatalogen.
@@ -83,7 +83,7 @@ list.Add(new Person("Johnson", 33));
 ```
  Vi skapar en lista och lägger till instanser av`Person`till det. Den här listan fungerar som vår datakälla när du fyller i Excel-mallen.
 ## Steg 5: Ställ in datakälla och processmarkörer
- När vi har vår lista klar måste vi ställa in den som datakälla för vår`WorkbookDesigner` instans och sedan bearbeta markörerna.
+ När vi har vår lista klar måste vi ställa in den som datakälla för vår`WorkbookDesigner` instans och bearbeta sedan markörerna.
 ```csharp
 // Ställ in datakällan.
 report.SetDataSource("MyProduct", list);

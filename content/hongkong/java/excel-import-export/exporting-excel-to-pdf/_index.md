@@ -99,4 +99,4 @@ Q3：Aspose.Cells 支援其他匯出格式嗎？
 
 Q5：在哪裡可以找到更多 Aspose.Cells 文件和範例？
 
-探索 Aspose.Cells API 文件：[https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/)取得全面的文件和豐富的範例，以進一步擴展您的知識。
+瀏覽 Aspose.Cells API 文件：[https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/)取得全面的文件和豐富的範例，以進一步擴展您的知識。

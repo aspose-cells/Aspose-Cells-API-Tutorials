@@ -17,7 +17,7 @@ Om te beginnen, zorgen we ervoor dat alles op zijn plek staat. Dit is wat je nod
  Als u nieuw bent bij Aspose.Cells, bekijk dan zeker de[documentatie](https://reference.aspose.com/cells/net/) voor meer inzichten.
 
 ## Pakketten importeren
-Voordat we beginnen met coderen, moet u ervoor zorgen dat u de benodigde namespaces hebt toegevoegd. Door de juiste pakketten te importeren, kunt u naadloos werken met Aspose.Cells-functies.
+Voordat we beginnen met coderen, moet u ervoor zorgen dat u de benodigde namespaces hebt toegevoegd. Door de juiste packages te importeren, kunt u naadloos werken met Aspose.Cells-functies.
 ```csharp
 using System.IO;
 using Aspose.Cells;
@@ -38,7 +38,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
  In deze stap wordt de`FileStream` wordt gebruikt om toegang te krijgen tot het bestand in uw gedefinieerde directory. Zorg ervoor dat de bestandsnaam en het directorypad exact overeenkomen, anders krijgt u fouten.
 ## Stap 3: Een werkmapobject instantiëren
-De werkmap is waar al uw gegevens zich bevinden, dus deze stap is cruciaal. Hier maken we een werkmapinstantie waarmee we de inhoud in het Excel-bestand kunnen manipuleren.
+De werkmap is waar al uw gegevens zich bevinden, dus deze stap is cruciaal. Hier maken we een werkmapinstantie waarmee we de inhoud in het Excel-bestand kunnen bewerken.
 ```csharp
 // Een werkmapobject instantiëren
 // Het Excel-bestand openen via de bestandsstroom

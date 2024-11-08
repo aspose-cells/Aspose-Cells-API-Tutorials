@@ -32,9 +32,9 @@ using System;
 
 Ügyeljen arra, hogy ezeket a C#-fájl tetején található direktívák segítségével adja hozzá, hogy megkönnyítse az Aspose.Cells funkcióinak elérését.
 
-## 1. lépés: Állítsa be a kimeneti könyvtárat
+## 1. lépés: Állítsa be a kimeneti könyvtárát
 
-Először állítsuk be a kimeneti könyvtárat, ahová menteni fogjuk az új Excel fájlunkat. Ez segít megőrizni projektjét.
+Először állítsuk be a kimeneti könyvtárat, ahová menteni fogjuk az új Excel fájlunkat. Ez segít megőrizni a projektjét.
 
 ```csharp
 string outputDir = "Your Document Directory";
@@ -79,7 +79,7 @@ index = workbook.ContentTypeProperties.Add("MK32", DateTime.Now.ToString("yyyy-M
 workbook.ContentTypeProperties[index].IsNillable = true;
 ```
 
- Ebben a kódrészletben létrehozunk egy "MK32" nevű tulajdonságot az aktuális dátummal és időponttal az ISO 8601 szerint formázva. Ezt a tulajdonságot érvénytelenítettük a beállítással.`IsNillable` hogy`true`.
+ Ebben a kódrészletben létrehozunk egy "MK32" nevű tulajdonságot az aktuális dátummal és időponttal az ISO 8601 szerint formázva. Ezt a tulajdonságot érvénytelenné tettük a beállítással.`IsNillable` hogy`true`.
 
 ## 4. lépés: Mentse el a munkafüzetet
 

@@ -96,7 +96,7 @@ for (int i = 0; i <= 255; i++)
 
 ## Passaggio 5: bloccare la colonna desiderata
 
-Ora, vorrai bloccare specificamente la prima colonna, lasciando tutte le altre colonne modificabili. Ecco come puoi farlo:
+Ora, vorrai bloccare specificamente la prima colonna, lasciando modificabili tutte le altre colonne. Ecco come puoi farlo:
 
 ```csharp
 // Ottieni lo stile della prima colonna.

@@ -61,7 +61,7 @@ int sheetIndex = workbook.Worksheets.Add();
 ## 第 4 步：存取新工作表
 接下來，取得對新工作表的引用以開始進行更改。
 ```csharp
-//透過傳遞工作表索引來取得新新增工作表的引用
+//透過傳遞工作表索引來取得新新增的工作表的引用
 Worksheet worksheet = workbook.Worksheets[sheetIndex];
 ```
 此步驟至關重要，因為它允許您直接使用剛剛新增的新工作表，例如存取工作台。

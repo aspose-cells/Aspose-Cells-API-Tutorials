@@ -14,7 +14,7 @@ dnešní digitální době je bezpečnost dat prvořadá. Pokud jde o manipulaci
 
 ## Pochopení šifrování sešitu
 
-Než se ponoříme do podrobností implementace, pojďme nejprve pochopit, co je šifrování sešitu a proč je nezbytné. Šifrování sešitu je proces zabezpečení obsahu sešitu aplikace Excel použitím šifrovacích algoritmů na data v něm obsažená. Tím je zajištěno, že pouze oprávnění uživatelé s dešifrovacím klíčem budou mít přístup k obsahu sešitu a budou jej moci prohlížet a vaše citlivá data budou chráněna před zvědavými pohledy.
+Než se ponoříme do podrobností implementace, pojďme nejprve pochopit, co je šifrování sešitu a proč je nezbytné. Šifrování sešitu je proces zabezpečení obsahu sešitu aplikace Excel použitím šifrovacích algoritmů na data v něm obsažená. Tím je zajištěno, že pouze oprávnění uživatelé s dešifrovacím klíčem budou mít přístup k obsahu sešitu a budou jej moci prohlížet, čímž budou vaše citlivá data chráněna před zvědavýma očima.
 
 ## Předpoklady
 

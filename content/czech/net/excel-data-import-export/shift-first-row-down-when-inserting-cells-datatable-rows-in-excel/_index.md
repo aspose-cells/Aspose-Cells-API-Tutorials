@@ -2,7 +2,7 @@
 title: Shift první řádek dolů při vkládání řádků DataTable v Excelu
 linktitle: Shift první řádek dolů při vkládání řádků DataTable v Excelu
 second_title: Aspose.Cells .NET Excel Processing API
-description: Naučte se vkládat řádky DataTable do Excelu bez posunutí prvního řádku dolů pomocí Aspose.Cells for .NET. Průvodce krok za krokem pro snadnou automatizaci.
+description: Naučte se vkládat řádky DataTable do Excelu bez posunutí prvního řádku dolů pomocí Aspose.Cells for .NET. Průvodce krok za krokem pro automatizaci bez námahy.
 type: docs
 weight: 11
 url: /cs/net/excel-data-import-export/shift-first-row-down-when-inserting-cells-datatable-rows-in-excel/

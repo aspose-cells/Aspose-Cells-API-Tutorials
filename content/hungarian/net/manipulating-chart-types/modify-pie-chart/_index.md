@@ -78,7 +78,7 @@ string outputDir = "Your Output Directory Path";
 string sourceDir = "Your Document Directory Path";
 ```
 
- Ügyeljen arra, hogy cserélje ki`Your Output Directory Path` és`Your Document Directory Path` a rendszer tényleges elérési útjaival.
+ Mindenképpen cserélje ki`Your Output Directory Path` és`Your Document Directory Path` a rendszer tényleges elérési útjaival.
 
 ## 2. lépés: Nyissa meg a Meglévő munkafüzetet
 

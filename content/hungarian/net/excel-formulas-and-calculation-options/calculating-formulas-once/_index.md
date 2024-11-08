@@ -39,7 +39,7 @@ string dataDir = "Your Document Directory";
 // Töltse be a sablon munkafüzetet
 Workbook workbook = new Workbook(dataDir + "book1.xls");
 ```
-Ebben a kódban megadjuk az Excel fájlunk elérési útját (`book1.xls` ). Ügyeljen arra, hogy cserélje ki`"Your Document Directory"` tiédhez vezető tényleges úttal`Documents` mappát.
+Ebben a kódban megadjuk az Excel fájlunk elérési útját (`book1.xls` ). Mindenképpen cserélje ki`"Your Document Directory"` tiédhez vezető tényleges úttal`Documents` mappát.
 ## 3. lépés: Nyomtatási idő a számítás előtt
 Annak nyomon követéséhez, hogy mennyi ideig tart a számítás, nyomtassuk ki az aktuális időt, mielőtt bármilyen számítást végzünk.
 ```csharp

@@ -90,7 +90,7 @@ Console.WriteLine("Offset: " + rng.GetOffset(2, 2).Address);
 ```
  The`GetOffset`Метод позволяет нам указать, сколько строк и столбцов нужно переместить из начальной позиции. В этом случае мы перемещаемся на 2 строки вниз и на 2 столбца в ширину, что приводит нас к C3.
 ## Шаг 8: Распечатать весь столбец и строку
-Теперь давайте выясним, к какому столбцу и строке A1 относится:
+Теперь давайте выясним, к какому столбцу и строке относится A1:
 ```csharp
 Console.WriteLine("Entire Column: " + rng.EntireColumn.Address);
 Console.WriteLine("Entire Row: " + rng.EntireRow.Address);

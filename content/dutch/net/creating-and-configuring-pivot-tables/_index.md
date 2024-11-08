@@ -26,7 +26,7 @@ Bij elke tutorial vindt u een specifiek aandachtsgebied met duidelijke instructi
 Aspose.Cells ondersteunt ook het automatiseren van complexe draaitabelfuncties zoals het vernieuwen van geneste tabellen, het instellen van paginavelden en het opslaan in aangepaste formaten zoals ODS. Bijvoorbeeld:
 
 - [Items in draaitabel vernieuwen en berekenen](./refreshing-and-calculating-items/): Houd uw gegevens actueel door draaitabellen programmatisch te vernieuwen, ideaal voor realtime rapportage.
-- [Draaitabel opslaan in ODS-formaat](./saving-in-ods-format/): Converteer Excel-draaitabellen naar ODS-indeling, zodat ze compatibel zijn met alle platforms.
+- [Draaitabel opslaan in ODS-indeling](./saving-in-ods-format/): Converteer Excel-draaitabellen naar ODS-indeling, zodat ze compatibel zijn met alle platforms.
 
 Elke tutorial bevat codevoorbeelden en praktische inzichten om de ontwikkeling soepeler en efficiënter te maken. Klaar om je datamanipulatievaardigheden naar een hoger niveau te tillen? Bekijk deze handleidingen en word een meester in draaitabellen met Aspose.Cells voor .NET. 
 

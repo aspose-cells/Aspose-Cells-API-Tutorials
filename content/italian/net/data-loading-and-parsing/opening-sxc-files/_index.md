@@ -18,7 +18,7 @@ Prima di iniziare, ecco alcune cose di cui avrai bisogno per assicurarti di aver
 4. File SXC di esempio: per questo tutorial, useremo un file SXC di esempio. Scaricane uno o creane uno tuo per seguire.
 Una volta che hai sistemato tutto, sei pronto per andare avanti!
 ## Importa pacchetti
-Per iniziare, dobbiamo importare i pacchetti necessari nel nostro file C#. Questo è essenziale perché ci consente di usare le funzionalità fornite da Aspose.Cells. In genere, avrai bisogno di quanto segue:
+Per iniziare, dobbiamo importare i pacchetti necessari nel nostro file C#. Questo è essenziale perché ci consente di utilizzare le funzionalità fornite da Aspose.Cells. In genere, avrai bisogno di quanto segue:
 ```csharp
 using System.IO;
 using Aspose.Cells;

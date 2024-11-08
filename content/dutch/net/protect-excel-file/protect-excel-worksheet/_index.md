@@ -43,7 +43,7 @@ In deze eerste stap definieert u het pad naar de directory waar uw Excel-documen
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
-Vervang "UW DOCUMENTENMAP" door het pad dat u daadwerkelijk gaat gebruiken.
+Vervang "UW DOCUMENTENMAP" door het daadwerkelijke pad dat u gaat gebruiken.
 
 ## Stap 2: Maak een bestandsstroom om uw Excel-bestand te openen
 

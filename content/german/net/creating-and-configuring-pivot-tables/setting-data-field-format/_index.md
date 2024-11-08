@@ -12,14 +12,14 @@ Wenn Sie sich mit der Bearbeitung von Excel-Dateien mithilfe von .NET beschäfti
 ## Voraussetzungen
 Bevor wir uns auf diese Reise begeben, sollten wir sicherstellen, dass Sie alles geregelt haben. Hier ist eine kurze Checkliste mit den Dingen, die Sie brauchen:
 1. Visual Studio: Denn wer liebt nicht eine gute integrierte Entwicklungsumgebung (IDE)?
-2.  Aspose.Cells für .NET-Bibliothek: Sie können es ganz einfach herunterladen von der[Aspose-Releases-Seite](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells für .NET-Bibliothek: Sie können es einfach herunterladen von der[Aspose-Releases-Seite](https://releases.aspose.com/cells/net/).
 3. Grundkenntnisse in C#: Wenn Sie die Grundlagen einer Programmiersprache verstehen, können Sie gut loslegen!
 ### Warum Aspose.Cells?
 Aspose.Cells für .NET ist eine leistungsstarke Bibliothek, die speziell für die Verwaltung von Excel-Dateioperationen entwickelt wurde. Sie können damit problemlos Excel-Dateien lesen, schreiben, bearbeiten und konvertieren. Stellen Sie sich vor, Sie könnten programmgesteuert Berichte, Pivot-Tabellen oder sogar Diagramme erstellen, ohne sich in die Excel-Benutzeroberfläche einarbeiten zu müssen – klingt wie Zauberei, oder?
 ## Pakete importieren
 Nachdem wir nun alle Voraussetzungen erfüllt haben, können wir uns nun den nächsten Schritten widmen. Beginnen Sie mit dem Importieren der erforderlichen Pakete. So können Sie diese zum Laufen bringen:
 ### Neues Projekt erstellen
-Öffnen Sie Visual Studio und erstellen Sie ein neues C#-Projekt. Wählen Sie eine Vorlage für eine Konsolen-App, da wir die Backend-Verarbeitung durchführen werden.
+Öffnen Sie Visual Studio und erstellen Sie ein neues C#-Projekt. Wählen Sie eine Konsolen-App-Vorlage, da wir die Backend-Verarbeitung durchführen werden.
 ### Verweis auf Aspose.Cells hinzufügen
 1. Klicken Sie im Projektmappen-Explorer mit der rechten Maustaste auf Ihr Projekt.
 2. Wählen Sie „NuGet-Pakete verwalten“ aus.

@@ -31,7 +31,7 @@ string sourceDir = "Your Document Directory";
 ```
 Questa semplice assegnazione di stringa punta alla cartella in cui risiede il file CSV.
 ### Passaggio 1.2: impostare le opzioni di caricamento per il formato CSV
- Successivamente, definiamo come Aspose.Cells dovrebbe trattare il formato del file. I file CSV sono un tipo specifico di file di testo, quindi impostiamo`LoadFormat` A`Csv` utilizzando`LoadOptions`.
+ Successivamente, definiamo come Aspose.Cells dovrebbe trattare il formato del file. I file CSV sono un tipo specifico di file di testo, quindi impostiamo`LoadFormat` A`Csv` usando`LoadOptions`.
 ```csharp
 LoadOptions loadOptions = new LoadOptions(LoadFormat.Csv);
 ```

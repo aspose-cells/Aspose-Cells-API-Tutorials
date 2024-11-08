@@ -38,7 +38,7 @@ Podzielmy zadanie na łatwe do opanowania kroki. Przedstawimy proces odczytywani
 
 ## Krok 1: Skonfiguruj katalogi źródłowe i wyjściowe
 
-Najpierw musisz określić lokalizację pliku źródłowego Excela i katalog, w którym chcesz zapisać plik wyjściowy.
+Najpierw musisz określić lokalizację pliku źródłowego programu Excel i katalog, w którym chcesz zapisać plik wyjściowy.
 
 ```csharp
 // Katalog źródłowy
@@ -59,7 +59,7 @@ string outputDir = "Your Output Directory";
 Workbook wb = new Workbook(sourceDir + "sampleReadManipulateExcel2016Charts.xlsx");
 ```
 
-Upewnij się, że plik Excel, do którego się odwołujesz, istnieje w określonej ścieżce. W przeciwnym razie możesz napotkać błąd file not found.
+Upewnij się, że plik Excel, do którego się odwołujesz, istnieje w określonej ścieżce. W przeciwnym razie możesz napotkać błąd „file not found”.
 
 ## Krok 3: Uzyskaj dostęp do arkusza kalkulacyjnego
 

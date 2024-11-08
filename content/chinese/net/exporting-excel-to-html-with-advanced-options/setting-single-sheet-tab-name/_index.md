@@ -78,8 +78,8 @@ options.ExportHiddenWorksheet = true;
 - ExportGridLines：在 HTML 中包含网格线以获得更好的可见性。
 - ExportSimilarBorderStyle：确保边框一致显示。
 - ExportBogusRowData：允许您在导出的文件中保留空行。
-- ExcludeUnusedStyles：删除未使用的样式，保持文件整洁。
-- ExportHiddenWorksheet：如果您有隐藏的工作表，此选项也会将其导出。
+- ExcludeUnusedStyles：修剪未使用的样式，保持文件整洁。
+- ExportHiddenWorksheet：如果您有隐藏的工作表，此选项也会导出它们。
 ## 步骤 5：保存工作簿
 现在，是我们保存更改的重要时刻。
 ```csharp

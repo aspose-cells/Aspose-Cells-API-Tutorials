@@ -20,7 +20,7 @@ Innan vi hoppar in i det saftiga, låt oss se till att du är redo för framgån
 3. Grundläggande förståelse för C#: Att känna till grunderna i C#-programmering hjälper dig att följa med smidigt.
 4. En Excel-fil: Ha en Excel-fil redo som du vill arbeta med. För vårt exempel använder vi en enkel fil med namnet`book1.xlsx` med minst ett kalkylblad som heter "Sheet1".
 
-Nu när du är klar, låt oss gräva in!
+Nu när du är redo, låt oss gräva in!
 
 ## Importera paket
 

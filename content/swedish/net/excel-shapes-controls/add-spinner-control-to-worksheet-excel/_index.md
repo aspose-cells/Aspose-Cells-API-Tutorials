@@ -8,7 +8,7 @@ weight: 23
 url: /sv/net/excel-shapes-controls/add-spinner-control-to-worksheet-excel/
 ---
 ## Introduktion
-Om du dyker in i en värld av Excel-automatisering med .NET, har du förmodligen stött på behovet av mer interaktiva kontroller i dina kalkylblad. En sådan kontroll är Spinnern, som låter användare enkelt öka eller minska ett värde. I den här handledningen kommer vi att utforska hur man lägger till en Spinner-kontroll i ett Excel-kalkylblad med Aspose.Cells för .NET. Vi delar upp det i lättsmälta steg så att du kan följa med sömlöst. 
+Om du dyker in i en värld av Excel-automatisering med .NET, har du förmodligen stött på behovet av mer interaktiva kontroller i dina kalkylblad. En sådan kontroll är Spinnern, som tillåter användare att enkelt öka eller minska ett värde. I den här handledningen kommer vi att utforska hur man lägger till en Spinner-kontroll i ett Excel-kalkylblad med Aspose.Cells för .NET. Vi delar upp det i lättsmälta steg så att du kan följa med sömlöst. 
 ## Förutsättningar
 Innan vi hoppar in i koden, låt oss se till att du har allt inställt för en smidig upplevelse:
 1.  Aspose.Cells för .NET: Se till att du har Aspose.Cells-biblioteket. Om du inte har installerat det ännu kan du hämta den senaste versionen från[nedladdningslänk](https://releases.aspose.com/cells/net/).

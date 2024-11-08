@@ -13,7 +13,7 @@ Ať už vkládáte obrázky, grafy nebo jakékoli jiné soubory, použití Aspos
 Než se ponoříte do toho nejhrubšího kódu, musíte mít po ruce několik věcí:
 1. Visual Studio: V ideálním případě byste měli pracovat v prostředí, které podporuje .NET, jako je Visual Studio. Toto IDE usnadňuje psaní, testování a ladění vašich aplikací.
 2. Knihovna Aspose.Cells: Musíte mít nainstalovanou knihovnu Aspose.Cells. Můžete jej získat prostřednictvím správce balíčků NuGet nebo si jej stáhnout přímo z[Aspose webové stránky](https://releases.aspose.com/cells/net/).
-3.  Ukázkové soubory: Pro demonstrační účely se ujistěte, že máte obrázek (např`logo.jpg`) a soubor Excel (`book1.xls`) pracovat. Ty budou uvedeny v kódu.
+3.  Ukázkové soubory: Pro demonstrační účely se ujistěte, že máte obrázek (např`logo.jpg`) a soubor Excel (`book1.xls`) pracovat. Ty budou v kódu uvedeny.
 4. Základní porozumění C#: Znalost C# vám pomůže porozumět příslušným krokům a v případě potřeby provést úpravy.
 Jakmile budete mít vše na svém místě, je čas vyhrnout si rukávy a začít vkládat objekty OLE do Excelu!
 ## Importujte balíčky

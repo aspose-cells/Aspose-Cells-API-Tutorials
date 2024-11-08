@@ -8,7 +8,7 @@ weight: 12
 url: /pl/net/working-with-fonts-in-excel/changing-font-size/
 ---
 ## Wstęp
-W dzisiejszym świecie opartym na danych praca z arkuszami kalkulacyjnymi jest powszechnym zadaniem w różnych branżach. Niezależnie od tego, czy zarządzasz budżetami, harmonogramami projektów czy listami inwentaryzacyjnymi, zapewnienie, że arkusze kalkulacyjne są nie tylko funkcjonalne, ale także atrakcyjne wizualnie, ma kluczowe znaczenie. Jednym z prostych, ale skutecznych sposobów na ulepszenie arkuszy Excela jest zmiana rozmiaru czcionki. W tym artykule zagłębimy się w to, jak można bez wysiłku zmieniać rozmiary czcionek w plikach Excela za pomocą Aspose.Cells dla .NET. 
+W dzisiejszym świecie opartym na danych praca z arkuszami kalkulacyjnymi jest powszechnym zadaniem w różnych branżach. Niezależnie od tego, czy zarządzasz budżetami, harmonogramami projektów czy listami inwentaryzacyjnymi, zapewnienie, że arkusze kalkulacyjne są nie tylko funkcjonalne, ale także atrakcyjne wizualnie, ma kluczowe znaczenie. Jednym z łatwych, ale skutecznych sposobów na ulepszenie arkuszy Excela jest zmiana rozmiaru czcionki. W tym artykule zagłębimy się w to, jak można bez wysiłku zmieniać rozmiary czcionek w plikach Excela za pomocą Aspose.Cells dla .NET. 
 ## Wymagania wstępne
 Zanim rozpoczniemy przygodę ze zmianą rozmiarów czcionek w programie Excel, upewnijmy się, że masz wszystko, czego potrzebujesz.
 ### Zgodne środowisko programistyczne

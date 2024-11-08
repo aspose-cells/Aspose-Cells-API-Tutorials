@@ -45,7 +45,7 @@ Ora che abbiamo impostato tutto, suddividiamo il processo in passaggi gestibili.
 In questo passaggio creeremo una nuova cartella di lavoro. 
 
 ```csharp
-//Directory di uscita
+//Directory di output
 static string outputDir = "Your Document Directory";
 // Creazione di un'istanza di un oggetto Workbook
 Workbook workbook = new Workbook();

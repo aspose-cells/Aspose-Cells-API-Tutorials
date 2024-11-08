@@ -28,4 +28,4 @@ Przejdźmy teraz do procesu krok po kroku. Aspose.Cells dla .NET umożliwia inte
 
 ## Samouczki dotyczące wyrównywania i formatowania danych w programie Excel
 ### [Zmień wyrównanie komórek w programie Excel bez utraty formatowania](./change-cells-alignment-in-excel-without-losing-existing-formatting/)
-Dowiedz się, jak zmienić wyrównanie komórek programu Excel bez utraty formatowania za pomocą Aspose.Cells dla .NET. Postępuj zgodnie z naszym kompleksowym przewodnikiem krok po kroku, aby uzyskać płynną kontrolę.
+Dowiedz się, jak zmienić wyrównanie komórek programu Excel bez utraty formatowania za pomocą Aspose.Cells dla .NET. Postępuj zgodnie z naszym kompleksowym przewodnikiem krok po kroku, aby uzyskać bezproblemową kontrolę.

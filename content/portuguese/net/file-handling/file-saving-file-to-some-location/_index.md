@@ -102,4 +102,4 @@ Sim, o Aspose.Cells também está disponível para Java, Python e muito mais, pe
 ### Posso obter suporte para o Aspose.Cells?
  Absolutamente! Você pode encontrar assistência no[Fórum Aspose](https://forum.aspose.com/c/cells/9).
 ### Onde posso comprar o Aspose.Cells?
- Você pode comprar licenças Aspose.Cells[aqui](https://purchase.aspose.com/buy).
+ Você pode comprar licenças do Aspose.Cells[aqui](https://purchase.aspose.com/buy).

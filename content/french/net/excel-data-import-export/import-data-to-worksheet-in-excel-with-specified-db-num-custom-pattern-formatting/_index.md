@@ -9,7 +9,7 @@ url: /fr/net/excel-data-import-export/import-data-to-worksheet-in-excel-with-spe
 ---
 ## Introduction
 
-En matière de manipulation de feuilles de calcul, l'importation de données dans Excel et leur formatage correct peuvent sembler une tâche écrasante, en particulier lorsque vous souhaitez utiliser des formats spécifiques basés sur la culture tels que les modèles DB Num. Si vous vous êtes déjà senti embourbé dans les détails techniques du formatage Excel, vous êtes au bon endroit ! Dans ce guide, nous allons décomposer les choses en étapes simples à l'aide d'Aspose.Cells pour .NET, ce qui rend vos importations de données non seulement simples mais aussi esthétiques. Alors, accrochez-vous, car nous plongeons directement dans le monde de la programmation .NET, du formatage et de l'exportation de fichiers Excel en toute simplicité !
+En matière de manipulation de feuilles de calcul, l'importation de données dans Excel et leur formatage correct peuvent sembler une tâche écrasante, en particulier lorsque vous souhaitez utiliser des formats spécifiques basés sur la culture tels que les modèles DB Num. Si vous vous êtes déjà senti embourbé dans les détails techniques du formatage Excel, vous êtes au bon endroit ! Dans ce guide, nous allons décomposer les choses en étapes simples à l'aide d'Aspose.Cells pour .NET, ce qui rend vos importations de données non seulement simples mais aussi esthétiques. Alors, accrochez-vous bien, car nous plongeons directement dans le monde de la programmation .NET, du formatage et de l'exportation de fichiers Excel en toute simplicité !
 
 ## Prérequis
 
@@ -122,13 +122,13 @@ C'est comme habiller votre téléphone portable avec une nouvelle tenue élégan
 
 ## Étape 8 : Ajuster la largeur de la colonne
 
-Assurons-nous que tout soit bien net. Vous pouvez ajuster la largeur de la première colonne pour mieux adapter vos données.
+Assurons-nous que tout est bien net et bien organisé. Vous pouvez ajuster la largeur de la première colonne pour mieux l'adapter à vos données.
 
 ```csharp
 ws.Cells.SetColumnWidth(0, 30);
 ```
 
-Ici, nous élargissons la largeur des colonnes, afin que vos données ne soient pas à l'étroit. Considérez cela comme si vous donniez à vos données de l'espace pour respirer !
+Ici, nous élargissons la largeur des colonnes, afin que vos données ne soient pas à l'étroit. Considérez cela comme si vous donniez à vos données un espace pour respirer !
 
 ## Étape 9 : Enregistrer le classeur
 

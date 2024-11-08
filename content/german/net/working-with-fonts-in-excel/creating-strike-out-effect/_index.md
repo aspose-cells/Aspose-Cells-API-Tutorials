@@ -22,7 +22,7 @@ using System.IO;
 using Aspose.Cells;
 ```
 Mit diesen Importen haben Sie Zugriff auf die Arbeitsmappen-, Arbeitsblatt- und Stilklassen, die in diesem Tutorial verwendet werden.
-Nachdem wir nun die Bühne bereitet haben, unterteilen wir den Prozess in überschaubare Schritte. Jeder Schritt wird von klaren Anweisungen begleitet, die Sie durch die Erstellung eines Durchstreicheffekts für Text in Excel führen.
+Nachdem wir nun die Bühne bereitet haben, wollen wir den Prozess in überschaubare Schritte unterteilen. Jeder Schritt wird von klaren Anweisungen begleitet, die Sie durch die Erstellung eines Durchstreicheffekts für Text in Excel führen.
 ## Schritt 1: Definieren Sie das Dokumentverzeichnis
 Definieren Sie zunächst den Pfad, in dem Ihre Excel-Dokumente gespeichert werden. Dies ist der Speicherort für Ihre Ausgabedateien.
 ```csharp
@@ -70,7 +70,7 @@ Aspose.Cells.Cell cell = worksheet.Cells["A1"];
 ## Schritt 7: Der Zelle einen Wert hinzufügen
  Als nächstes fügen wir einen Text in die Zelle ein. Wir schreiben „Hallo Aspose!“ in die Zelle`A1`.
 ```csharp
-// Hinzufügen eines Wertes zur Zelle „A1“
+// Einen Wert zur Zelle „A1“ hinzufügen
 cell.PutValue("Hello Aspose!");
 ```
  Der`PutValue` Die Methode wird verwendet, um der Zelle einen Zeichenfolgenwert zuzuweisen. Sie können diese Zeichenfolge beliebig ändern, sodass sie angezeigt wird.

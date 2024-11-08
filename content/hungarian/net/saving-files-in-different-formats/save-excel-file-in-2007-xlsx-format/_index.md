@@ -33,7 +33,7 @@ A kódban elengedhetetlen, hogy meghatározza a dokumentumkönyvtár elérési �
 ```csharp
 string dataDir = "Your Document Directory"; // Cserélje ki a tényleges útvonalat
 ```
- Ügyeljen arra, hogy cserélje ki`"Your Document Directory"` a rendszer tényleges elérési útjával. Ez lesz az a hely, ahol az Excel-fájl kimenete lesz.
+ Mindenképpen cserélje ki`"Your Document Directory"` a rendszer tényleges elérési útjával. Ez lesz az a hely, ahol az Excel-fájl kimenete lesz.
 ## 2. lépés: Hozzon létre egy munkafüzet-objektumot
  Most itt az ideje létrehozni egy példányt a`Workbook` osztály, amely az Aspose.Cells során használt kulcsobjektum. Ez az Ön Excel-táblázata.
 ```csharp

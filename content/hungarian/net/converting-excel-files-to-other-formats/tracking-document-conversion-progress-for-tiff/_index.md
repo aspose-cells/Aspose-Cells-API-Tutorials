@@ -38,7 +38,7 @@ string sourceDir = "Your Document Directory";
 // Kimeneti könyvtár
 string outputDir = "Your Document Directory";
 ```
- Ügyeljen arra, hogy cserélje ki`"Your Document Directory"` azzal a tényleges elérési úttal, ahol az Excel-fájlt tárolja, és hova szeretné menteni a TIFF-fájlokat.
+ Mindenképpen cserélje ki`"Your Document Directory"` azzal a tényleges elérési úttal, ahol az Excel-fájlt tárolja, és hova szeretné menteni a TIFF-fájlokat.
 ## 2. lépés: Töltse be a munkafüzetet
 Most töltsük be a konvertálni kívánt Excel-munkafüzetet. Az Aspose.Cells ezt rendkívül egyszerűvé teszi! A következőképpen teheti meg:
 ```csharp

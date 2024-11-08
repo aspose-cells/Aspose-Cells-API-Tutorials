@@ -80,7 +80,7 @@ line1.Line.DashStyle = MsoLineDashStyle.Solid;
 line1.Placement = PlacementType.FreeFloating;
 ```
  Qui, stiamo dicendo alla linea di rimanere in un posto indipendentemente dalle modifiche nella struttura del foglio di lavoro utilizzando`PlacementType.FreeFloating`.
-## Passaggio 7: aggiungere altre righe
+## Passaggio 7: aggiungere linee aggiuntive
 Aggiungiamo una seconda riga con uno stile diverso, utilizzando uno stile tratteggiato.
 ```csharp
 // Aggiungere un'altra riga al foglio di lavoro.

@@ -67,7 +67,7 @@ ExportCommentsWhileSavingExcelFileToHtml executed successfully.
 ```
 Bu mesaj, dosyanın HTML'ye başarıyla dönüştürüldüğünü ve tüm yorumların dışa aktarıldığını doğrular. Artık HTML dosyasını herhangi bir web tarayıcısında açabilir ve hem içeriği hem de yorumları, orijinal Excel dosyanızda göründükleri gibi görebilirsiniz!
 ## Çözüm
-Ve işte oldu! Aspose.Cells for .NET kullanarak bir Excel dosyasından HTML'ye yorumların nasıl aktarılacağını öğrendiniz. Bu işlem yalnızca basit olmakla kalmaz, aynı zamanda HTML'ye dönüştürürken hiçbir kritik notunuzun veya açıklamanızın geride kalmamasını da sağlar. İster dinamik raporlar oluşturmakla ister Excel dosyalarını web kullanımı için dönüştürmekle meşgul olun, bu özellik gerçek bir cankurtaran olabilir.
+Ve işte karşınızda! Aspose.Cells for .NET kullanarak bir Excel dosyasından HTML'ye yorumların nasıl aktarılacağını öğrendiniz. Bu işlem yalnızca basit olmakla kalmaz, aynı zamanda HTML'ye dönüştürürken hiçbir kritik notunuzun veya açıklamanızın geride kalmamasını da sağlar. İster dinamik raporlar oluşturmakla ister Excel dosyalarını web kullanımı için dönüştürmekle meşgul olun, bu özellik gerçek bir cankurtaran olabilir.
 ## SSS
 ### Excel dosyasından yalnızca belirli yorumları HTML'e aktarabilir miyim?  
 Hayır, Aspose.Cells tüm yorumları dışa aktarır`IsExportComments` true olarak ayarlanmıştır. Ancak, Excel dosyanızı dışa aktarmadan önce manuel olarak düzenleyerek hangi yorumların ekleneceğini özelleştirebilirsiniz.

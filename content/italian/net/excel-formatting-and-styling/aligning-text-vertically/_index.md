@@ -43,7 +43,7 @@ Cos'è una cartella di lavoro? È come la tua tela su cui vengono dipinti tutti 
 Workbook workbook = new Workbook();
 ```
 ## Passaggio 4: cancellare tutti i fogli di lavoro esistenti
-A volte potresti avere vecchi dati che indugiano nella tua cartella di lavoro. Facciamo chiarezza:
+A volte potresti avere vecchi dati che rimangono nella tua cartella di lavoro. Facciamo chiarezza:
 ```csharp
 // Cancellazione di tutti i fogli di lavoro
 workbook.Worksheets.Clear();

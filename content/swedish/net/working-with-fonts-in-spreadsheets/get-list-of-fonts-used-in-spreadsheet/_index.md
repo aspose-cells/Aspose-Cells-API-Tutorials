@@ -8,7 +8,7 @@ weight: 10
 url: /sv/net/working-with-fonts-in-spreadsheets/get-list-of-fonts-used-in-spreadsheet/
 ---
 ## Introduktion
-Har du någonsin hittat dig själv att bläddra igenom ett Excel-kalkylblad och undrat över de typsnitt som används i dess olika celler? Kanske har du stött på ett gammalt dokument och skulle älska att veta vilka typografival som gjordes? Nåväl, du har tur! Med Aspose.Cells för .NET är det som att ha en verktygslåda som låter dig sålla igenom och avslöja de teckensnittshemligheter som är gömda i dina kalkylblad. I den här guiden tar vi dig igenom hur du enkelt hämtar en lista över alla typsnitt som används i en Excel-fil. Spänn fast dig och låt oss dyka in i kalkylarksvärlden!
+Har du någonsin hittat dig själv att bläddra igenom ett Excel-kalkylblad och undrat över de typsnitt som används i dess olika celler? Kanske har du stött på ett gammalt dokument och skulle älska att veta vilka typografival som gjordes? Tja, du har tur! Med Aspose.Cells för .NET är det som att ha en verktygslåda som låter dig sålla igenom och avslöja de teckensnittshemligheter som är gömda i dina kalkylblad. I den här guiden tar vi dig igenom hur du enkelt hämtar en lista över alla typsnitt som används i en Excel-fil. Spänn fast dig och låt oss dyka in i kalkylarksvärlden!
 ## Förutsättningar
 Innan vi går in i kod finns det några saker du behöver för att komma igång. Oroa dig inte, det är väldigt enkelt. Här är en checklista över vad du behöver:
 1. Visual Studio: Se till att du har en version av Visual Studio installerad på din dator. Det är här vi skriver vår kod.

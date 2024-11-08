@@ -116,7 +116,7 @@ Ve işte bu kadar! Aspose.Cells for .NET kullanarak Excel çalışma sayfanızı
 Aspose.Cells for .NET, .NET uygulamalarında Excel dosyaları oluşturmak ve düzenlemek için kullanılan, Excel kurulumu gerektirmeden zengin işlevler sağlayan güçlü bir kütüphanedir.
 
 ### Aspose.Cells for .NET'i bir web uygulamasında kullanabilir miyim?  
-Evet! Aspose.Cells, .NET framework'ünü hedeflediği sürece hem masaüstü hem de web uygulamalarında kullanılabilir.
+Evet! Aspose.Cells, .NET framework'ü hedeflediği sürece hem masaüstü hem de web uygulamalarında kullanılabilir.
 
 ### Aspose.Cells için ücretsiz deneme sürümü var mı?  
  Kesinlikle! Ücretsiz deneme sürümünü edinebilirsiniz[Burada](https://releases.aspose.com/).

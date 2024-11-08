@@ -9,7 +9,7 @@ url: /pt/net/conversion-and-rendering/advanced-conversion-to-pdf/
 ---
 ## Introdução
 
-Você já se viu no meio de um projeto em que precisa converter arquivos do Excel para o formato PDF, mas as ferramentas que você tem em mãos simplesmente não dão conta? Talvez você tenha lutado com problemas de formatação, ou talvez tenha passado muito tempo tentando descobrir como fazer tudo funcionar perfeitamente. Bem, se você está procurando uma solução poderosa, adaptada especificamente para usuários do .NET, então você encontrou o guia certo! Hoje, estamos mergulhando no mundo do Aspose.Cells, uma biblioteca robusta que torna a conversão de arquivos do Excel para PDF tão fácil quanto uma torta. 
+Você já se viu no meio de um projeto em que precisa converter arquivos do Excel para o formato PDF, mas as ferramentas que você tem em mãos simplesmente não dão conta? Talvez você tenha lutado com problemas de formatação, ou talvez tenha passado muito tempo tentando descobrir como fazer tudo funcionar perfeitamente. Bem, se você está procurando uma solução poderosa, adaptada especificamente para usuários do .NET, então você tropeçou no guia certo! Hoje, estamos mergulhando no mundo do Aspose.Cells, uma biblioteca robusta que torna a conversão de arquivos do Excel para PDF tão fácil quanto uma torta. 
 
 ## Pré-requisitos
 

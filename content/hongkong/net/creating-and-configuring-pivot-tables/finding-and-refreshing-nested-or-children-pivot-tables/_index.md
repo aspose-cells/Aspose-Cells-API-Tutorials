@@ -8,7 +8,7 @@ weight: 27
 url: /zh-hant/net/creating-and-configuring-pivot-tables/finding-and-refreshing-nested-or-children-pivot-tables/
 ---
 ## 介紹
-在數據分析和報告領域，數據透視表簡直就是遊戲規則的改變者。它們使我們能夠將原始數據轉化為美麗且易於理解的見解。但是，當您的 Excel 工作簿包含巢狀或子資料透視表時會發生什麼情況？在本文中，我們將介紹如何使用 Aspose.Cells for .NET 來尋找和刷新這些巢狀資料透視表。每個嵌套的資料透視表就像一個需要您揭開的隱藏寶箱。我們將採取的步驟將引導您瀏覽迷宮般的 Excel 工作表，確保您不僅找到嵌套的資料透視表，而且還使它們保持最新狀態。
+在數據分析和報告領域，數據透視表簡直就是遊戲規則的改變者。它們使我們能夠將原始數據轉化為美麗且易於理解的見解。但是，當您的 Excel 工作簿包含巢狀或子資料透視表時會發生什麼情況？在本文中，我們將介紹如何使用 Aspose.Cells for .NET 來尋找和刷新這些巢狀資料透視表。每個嵌套的資料透視表就像一個需要您揭開的隱藏寶箱。我們將採取的步驟將引導您瀏覽迷宮般的 Excel 工作表，確保您不僅找到巢狀資料透視表，而且還使它們保持最新狀態。
 ## 先決條件
 在我們開始享受編碼樂趣之前，您需要滿足一些先決條件：
 1. Visual Studio：確保您的電腦上安裝了 Visual Studio。您將在此處編寫和執行 C# 程式碼。
@@ -26,7 +26,7 @@ using System.Text;
 using Aspose.Cells;
 using Aspose.Cells.Pivot;
 ```
-透過新增這一行，您可以告訴 C# 包含 Aspose.Cells 提供的所有功能，從而更輕鬆地產生和操作 Excel 檔案。
+透過新增這一行，您將告訴 C# 包含 Aspose.Cells 提供的所有功能，從而更輕鬆地產生和操作 Excel 檔案。
 ## 第 1 步：定義您的來源目錄
 第一步是指定 Excel 檔案的儲存目錄。您可以這樣做：
 ```csharp

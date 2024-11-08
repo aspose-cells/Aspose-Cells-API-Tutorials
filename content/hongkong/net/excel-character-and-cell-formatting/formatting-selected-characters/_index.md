@@ -87,4 +87,4 @@ Aspose.Cells 是一個功能強大的 .NET 程式庫，可讓您建立、操作�
 ### 在哪裡可以找到更多使用 Aspose.Cells 的範例？
 您可以查看[文件](https://reference.aspose.com/cells/net/)取得更深入的範例和教學。
 ### 我如何獲得 Aspose.Cells 的臨時許可證？
-您可以透過此獲得臨時許可證[臨時許可連結](https://purchase.aspose.com/temporary-license/).
+您可以透過此獲得臨時許可證[臨時許可證連結](https://purchase.aspose.com/temporary-license/).

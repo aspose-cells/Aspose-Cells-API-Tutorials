@@ -8,7 +8,7 @@ description: Hướng dẫn C# của Aspose.Cells cung cấp hướng dẫn từ
 ---
 ## Giới thiệu
 
-Bạn đã sẵn sàng nâng cao trò chơi Excel của mình với Aspose.Cells cho .NET chưa? Cho dù bạn là người mới bắt đầu hay là một nhà phát triển dày dạn kinh nghiệm, các hướng dẫn của chúng tôi đều được thiết kế riêng cho bạn. Chúng hướng dẫn bạn thực hiện các thao tác Excel thiết yếu, biến các tác vụ phức tạp trở nên dễ như ăn bánh!
+Bạn đã sẵn sàng nâng cao trò chơi Excel của mình với Aspose.Cells cho .NET chưa? Cho dù bạn là người mới bắt đầu hay là một nhà phát triển dày dạn kinh nghiệm, các hướng dẫn của chúng tôi được thiết kế riêng cho bạn. Chúng hướng dẫn bạn qua các thao tác Excel thiết yếu, biến các tác vụ phức tạp trở nên dễ như ăn bánh!
 
 ## Thêm các trang tính được thực hiện đơn giản
 

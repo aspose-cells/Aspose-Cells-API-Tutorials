@@ -8,7 +8,7 @@ weight: 11
 url: /cs/net/document-properties/accessing-value-of-document-properties/
 ---
 ## Zavedení
-V dnešním rychle se měnícím digitálním světě je efektivní správa vlastností dokumentů pro podniky a vývojáře zásadní. Ať už sledujete verze, editory nebo konkrétní obsah ve svých tabulkách, pochopení toho, jak přistupovat k těmto vlastnostem a manipulovat s nimi ve vašich aplikacích .NET, vám může ušetřit čas a zefektivnit váš pracovní postup. V této příručce prozkoumáme, jak využít Aspose.Cells pro .NET pro přístup k hodnotám vlastností dokumentu v souborech aplikace Excel. Tak si vezměte svůj oblíbený hrnek kávy a pojďme se ponořit!
+V dnešním rychle se měnícím digitálním světě je efektivní správa vlastností dokumentů pro podniky a vývojáře zásadní. Ať už ve svých tabulkách sledujete verze, editory nebo konkrétní obsah, pochopení toho, jak přistupovat k těmto vlastnostem a manipulovat s nimi ve vašich aplikacích .NET, vám může ušetřit čas a zefektivnit váš pracovní postup. V této příručce prozkoumáme, jak využít Aspose.Cells pro .NET pro přístup k hodnotám vlastností dokumentu v souborech aplikace Excel. Tak si vezměte svůj oblíbený hrnek kávy a pojďme se ponořit!
 ## Předpoklady
 Než si vyhrneme rukávy a začneme, je několik věcí, které budete potřebovat, aby vaše cesta proběhla hladce:
 1. Znalost .NET: Měli byste mít základní znalosti o .NET frameworku a jeho programovacím modelu.
@@ -76,7 +76,7 @@ Nyní, když jste vybaveni základy, můžete experimentovat s pokročilejšími
 ### Co je Aspose.Cells?
 Aspose.Cells je výkonná knihovna .NET pro vytváření, manipulaci a konverzi souborů aplikace Excel bez nutnosti instalace aplikace Microsoft Excel.
 ### Jak získám dočasnou licenci pro Aspose.Cells?
- O dočasnou licenci můžete požádat z[zde](https://purchase.aspose.com/temporary-license/).
+ Můžete požádat o dočasnou licenci z[zde](https://purchase.aspose.com/temporary-license/).
 ### Mohu získat přístup k vlastnostem vloženého dokumentu?
 Ano, pomocí kolekce vlastností dokumentu můžete přistupovat k uživatelským i vloženým vlastnostem.
 ### Jaké typy vlastností dokumentu mohu načíst?

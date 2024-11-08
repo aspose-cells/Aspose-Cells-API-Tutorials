@@ -65,7 +65,7 @@ Workbook workbook = new Workbook(sourceDir + "sampleMicrosoftThemeColorInChartSe
 
 ## 第 3 步：訪問工作表
 
-打開工作簿後，您將需要導航到特定的工作表。在許多情況下，您的圖表將駐留在第一個或特定的工作表中。
+打開工作簿後，您將需要導航到特定的工作表。在許多情況下，您的圖表將駐留在第一張或特定的工作表中。
 
 ```csharp
 //取得第一個工作表

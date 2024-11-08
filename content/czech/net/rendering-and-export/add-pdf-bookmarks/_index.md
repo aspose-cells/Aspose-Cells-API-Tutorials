@@ -42,7 +42,7 @@ Workbook wb = new Workbook(sourceDir + "samplePdfBookmarkEntry_DestinationName.x
 ```
 Načtení sešitu je jako otevření dokumentu, který je plný potenciálu. Poskytuje přístup ke všem listům, buňkám a možnostem formátování vašeho původního souboru Excel.
 ## Krok 3: Přístup k listu
-Nyní, když máme náš sešit načtený, přistoupíme k prvnímu listu. Buňky, na které budeme odkazovat pro naše záložky, se nacházejí zde.
+Nyní, když máme načtený sešit, přistoupíme k prvnímu listu. Buňky, na které budeme odkazovat pro naše záložky, se nacházejí zde.
 ```csharp
 Worksheet ws = wb.Worksheets[0];
 ```
@@ -58,7 +58,7 @@ bookmarkEntry.Destination = cell;
 bookmarkEntry.DestinationName = "AsposeCells--" + cell.Name;
 ```
 Můžete si to představit jako umístění nalepovacího lístku na váš dokument. Název označuje, kam vaše záložka vede, zatímco cíl (buňka C5) je místo, kam vás v PDF zavede.
-### Přidávání dílčích záložek
+### Přidávání podzáložek
 Uživatelskou zkušenost můžeme vylepšit přidáním podzáložek. Nyní přistoupíme ke dvěma dalším buňkám (G56 a L4) a nastavíme je jako podzáložky.
 ```csharp
 cell = ws.Cells["G56"];

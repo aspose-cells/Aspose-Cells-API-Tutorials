@@ -8,7 +8,7 @@ weight: 16
 url: /de/net/rendering-and-export/ignore-errors-while-rendering/
 ---
 ## Einführung
-Mit den richtigen Tools kann das Konvertieren von Excel-Dateien in PDF ein Kinderspiel sein. Sind Ihnen jedoch während der Konvertierung schon einmal Fehler begegnet, die Ihren Workflow unterbrochen haben? Das ist frustrierend, nicht wahr? Glücklicherweise bietet Aspose.Cells für .NET eine robuste Lösung. In diesem Tutorial erfahren Sie ausführlich, wie Sie Fehler beim Rendern von Excel-Dateien in PDF mit Aspose.Cells ignorieren können. Egal, ob Sie ein erfahrener Entwickler sind oder gerade erst anfangen, dieser Leitfaden hilft Ihnen dabei, den Konvertierungsprozess reibungslos zu meistern und gleichzeitig diese lästigen Fehler zu beheben.
+Mit den richtigen Tools kann das Konvertieren von Excel-Dateien in PDF ein Kinderspiel sein. Sind Ihnen jedoch während der Konvertierung schon einmal Fehler unterlaufen, die Ihren Workflow unterbrochen haben? Das ist frustrierend, nicht wahr? Glücklicherweise bietet Aspose.Cells für .NET eine robuste Lösung. In diesem Tutorial erfahren Sie ausführlich, wie Sie Fehler beim Rendern von Excel-Dateien in PDF mit Aspose.Cells ignorieren können. Egal, ob Sie ein erfahrener Entwickler sind oder gerade erst anfangen, dieser Leitfaden hilft Ihnen dabei, den Konvertierungsprozess reibungslos zu meistern und gleichzeitig diese lästigen Fehler zu beheben.
 ## Voraussetzungen
 Bevor Sie sich auf diese Reise begeben, müssen Sie einige Voraussetzungen erfüllen, um die Voraussetzungen für einen reibungslosen Ablauf zu schaffen:
 1.  Aspose.Cells für .NET: Stellen Sie sicher, dass diese leistungsstarke Bibliothek in Ihrer Entwicklungsumgebung installiert ist. Sie können sie herunterladen[Hier](https://releases.aspose.com/cells/net/).

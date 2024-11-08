@@ -29,7 +29,7 @@ string dataDir = "Your Document Directory";
 ```
  Qui, sostituisci`"Your Document Directory"` con il percorso effettivo in cui si desidera salvare il file Excel. 
 ## Passaggio 2: creare la directory se non presente
-Ora, dobbiamo assicurarci che la directory esista. Se non esiste, la creeremo. Questo aiuta a evitare errori di runtime quando tentiamo di salvare il file in seguito.
+Ora, dobbiamo assicurarci che la directory esista. In caso contrario, la creeremo. Questo aiuta a evitare errori di runtime quando tentiamo di salvare il file in seguito.
 ```csharp
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
@@ -55,7 +55,7 @@ Aspose.Cells.Cell cell = worksheet.Cells["A1"];
 ```
 Qui, puoi pensare ad “A1” come al punto di partenza del nostro progetto, come alla prima pennellata su quella tela.
 ## Passaggio 6: aggiungere valore alla cella
-È il momento di aggiungere un po' di contenuto alla nostra cella selezionata! Aggiungeremo un messaggio amichevole.
+È il momento di aggiungere del contenuto alla nostra cella selezionata! Aggiungeremo un messaggio amichevole.
 ```csharp
 cell.PutValue("Visit Aspose!");
 ```

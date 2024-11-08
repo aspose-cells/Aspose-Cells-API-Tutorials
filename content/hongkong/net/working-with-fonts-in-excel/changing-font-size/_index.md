@@ -57,7 +57,7 @@ int i = workbook.Worksheets.Add();
 就是這樣！現在您有一個空工作表，您可以在其中開始新增資料和樣式選項。
 ## 步驟 4： 存取新新增的工作表
 接下來，您需要存取剛剛建立的工作表來操作儲存格。
-以下是取得已新增工作表的參考的方法：
+以下是取得新增的工作表的參考的方法：
 ```csharp
 //取得新增工作表的引用
 Worksheet worksheet = workbook.Worksheets[i];

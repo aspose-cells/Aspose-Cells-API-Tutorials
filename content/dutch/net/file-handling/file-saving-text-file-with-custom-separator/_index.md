@@ -16,7 +16,7 @@ U hebt een werkende installatie van Visual Studio nodig om uw .NET-applicaties t
 ### Aspose.Cells voor .NET
  Je moet de Aspose.Cells-bibliotheek downloaden. Je kunt het pakken[hier](https://releases.aspose.com/cells/net/)Het is essentieel om de nieuwste versie te gebruiken om alle nieuwe functies en oplossingen te benutten.
 ### Kennis van C#-basisprincipes
-Een basiskennis van C# en .NET framework is nuttig. Maak je geen zorgen als je geen expert bent; we leiden je door elke regel code.
+Een basiskennis van C# en .NET framework is nuttig. Maak je geen zorgen als je geen expert bent; we begeleiden je door elke regel code.
 ### Uw documentenmap
 Mogelijk hebt u een specifieke directory nodig om uw Excel-bestanden op te slaan. Stel dit in om padgerelateerde problemen in de toekomst te voorkomen.
 Nu we de vereisten op een rijtje hebben, kunnen we overgaan tot de praktische kant van de zaak!

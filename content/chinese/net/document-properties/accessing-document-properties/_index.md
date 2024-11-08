@@ -42,7 +42,7 @@ Workbook workbook = new Workbook(dataDir + "sample-document-properties.xlsx");
 Aspose.Cells.Properties.DocumentPropertyCollection customProperties = workbook.Worksheets.CustomDocumentProperties;
 ```
 这行代码会获取链接到您的工作簿的所有自定义文档属性。这就像打开保险库来揭开隐藏的见解！
-## 步骤 4：按名称访问自定义文档属性
+## 步骤 4：通过名称访问自定义文档属性
 有时您确切地知道您要查找的内容。如果您需要按名称访问特定属性，请按以下步骤操作：
 ```csharp
 Aspose.Cells.Properties.DocumentProperty customProperty1 = customProperties["ContentTypeId"];

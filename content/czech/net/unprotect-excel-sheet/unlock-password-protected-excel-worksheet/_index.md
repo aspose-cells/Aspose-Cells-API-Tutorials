@@ -2,7 +2,7 @@
 title: Odemkněte heslem chráněný excelový list
 linktitle: Odemkněte heslem chráněný excelový list
 second_title: Aspose.Cells for .NET API Reference
-description: Naučte se, jak odemknout heslem chráněnou excelovou tabulku pomocí Aspose.Cells for .NET. Krok za krokem tutoriál v C#.
+description: Naučte se, jak odemknout heslem chráněnou excelovou tabulku pomocí Aspose.Cells for .NET. Výukový program krok za krokem v C#.
 type: docs
 weight: 10
 url: /cs/net/unprotect-excel-sheet/unlock-password-protected-excel-worksheet/
@@ -128,7 +128,7 @@ Tento blok catch zobrazí všechny chyby, se kterými se můžete setkat, takže
 
 ## Závěr
 
-tady to máte! Úspěšně jste odemkli heslem chráněný excelový list pomocí Aspose.Cells for .NET. Pomocí několika řádků kódu můžete znovu získat přístup ke svým důležitým datům. S touto skvělou knihovnou máte výkon a flexibilitu na dosah ruky. Aspose.Cells, ideální pro vývojáře, kteří chtějí zefektivnit interakci s Microsoft Excel, není jen účinný nástroj – je nezbytný.
+tady to máte! Úspěšně jste odemkli heslem chráněný excelový list pomocí Aspose.Cells for .NET. Pomocí několika řádků kódu můžete znovu získat přístup ke svým důležitým datům. S touto skvělou knihovnou máte výkon a flexibilitu na dosah ruky. Aspose.Cells, ideální pro vývojáře, kteří chtějí zefektivnit interakci s Microsoft Excel, není jen účinný nástroj – je to nezbytný nástroj.
 
 ## FAQ
 

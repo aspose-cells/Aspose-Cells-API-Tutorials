@@ -43,7 +43,7 @@ if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
 - dataDir : cette variable contient le chemin d'accès à votre répertoire de documents. Remplacer`"Your Document Directory"` avec le chemin réel où vous souhaitez enregistrer votre fichier Excel.
-- Directory.Exists : Ceci vérifie si le répertoire existe déjà.
+- Directory.Exists : cela vérifie si le répertoire existe déjà.
 - Directory.CreateDirectory : Si le répertoire n'existe pas, cela le crée.
 ## Étape 2 : créer une instance d'un classeur
  Ensuite, nous devons créer une instance de`Workbook` classe. Cette classe représente un classeur Excel en mémoire.
@@ -91,7 +91,7 @@ comment.CommentShape.Fill.ImageData = ms.ToArray();
 ```
 - comment.CommentShape.Fill.ImageData : Cette propriété vous permet de définir l'image de la forme du commentaire. Nous convertissons le`MemoryStream` à un tableau d'octets en utilisant`ms.ToArray()`.
 ## Étape 7 : Enregistrer le classeur
-Enfin, enregistrons notre classeur avec le commentaire et l'image inclus.
+Enfin, sauvegardons notre classeur avec le commentaire et l'image inclus.
 ```csharp
 // Enregistrer le classeur
 workbook.Save(dataDir + "book1.out.xlsx", Aspose.Cells.SaveFormat.Xlsx);

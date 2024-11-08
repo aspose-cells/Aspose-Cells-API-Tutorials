@@ -61,7 +61,7 @@ worksheet.getCells().get("A4").putValue("Apples");
 worksheet.getCells().get("A5").putValue("Grapes");
 ```
 
-## Implementatie van de functie AANTAL.ALS
+## Implementatie van de AANTAL.ALS-functie
 
 Nu komt het spannende gedeelte: het implementeren van de COUNTIF-functie met behulp van Aspose.Cells voor Java.
 

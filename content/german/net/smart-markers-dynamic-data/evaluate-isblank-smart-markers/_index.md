@@ -86,7 +86,7 @@ designer.SetDataSource(ds1.Tables["comparison"]);
 ## Schritt 7: Smart Marker verarbeiten
 Lassen Sie uns dem Ganzen die Krone aufsetzen, indem wir die Smartmarker verarbeiten, sodass die Arbeitsmappe mit Werten aus unserem Datensatz gefüllt wird.
 ```csharp
-// Verarbeiten Sie die Smartmarker und füllen Sie die Datenquellenwerte aus
+// Verarbeiten der Smartmarker und Auffüllen der Datenquellenwerte
 designer.Process();
 ```
  Mit diesem einfachen Aufruf an`Process()` werden die Smartmarker in unserer Arbeitsmappe mit den entsprechenden Daten aus unserem`DataSet`, einschließlich leerer Auswertungen nach Bedarf.

@@ -63,8 +63,8 @@ style.Custom = "d-mmm-yy";
 // Applicazione dello stile alla cella A1
 worksheet.Cells["A1"].SetStyle(style);
 ```
--  Aggiungiamo la data corrente del sistema alla cella`A1` utilizzando`PutValue(DateTime.Now)`.
--  Recuperiamo lo stile corrente della cella`A1` utilizzando`GetStyle()`.
+-  Aggiungiamo la data corrente del sistema alla cella`A1` usando`PutValue(DateTime.Now)`.
+-  Recuperiamo lo stile corrente della cella`A1` usando`GetStyle()`.
 -  Modifichiamo lo stile della cella impostando`style.Custom = "d-mmm-yy"`, che formatta la data per mostrare il giorno, il mese abbreviato e l'anno.
 -  Infine, applichiamo il nuovo stile alla cella con`SetStyle()`.
 ## Passaggio 4: formattazione di una cella come percentuale

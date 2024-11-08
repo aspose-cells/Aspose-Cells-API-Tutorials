@@ -25,7 +25,7 @@ url: /zh-hant/net/excel-subtotal-calculation/tracing-precedents-in-excel/
 ### 打開您的項目
 首先，在 Visual Studio 中開啟 C# 專案。
 ### 新增參考文獻
-您需要新增對 Aspose.Cells DLL 的參考。在解決方案資源管理器中右鍵單擊您的項目，選擇“新增”>“引用”，然後瀏覽到下載 Aspose.Cells 的位置並選擇 DLL 檔案。
+您需要新增對 Aspose.Cells DLL 的參考。在解決方案資源管理器中右鍵單擊您的項目，選擇“新增”>“引用”，然後瀏覽至下載 Aspose.Cells 的位置並選擇 DLL 檔案。
 ### 命名空間包含
 在您的 C# 檔案中，透過在頂部新增以下行來包含以下命名空間：
 ```csharp
@@ -42,7 +42,7 @@ using System;
 string dataDir = "Your Document Directory"; //替換為你的實際目錄
 Workbook workbook = new Workbook(dataDir + "Book1.xlsx");
 ```
-在此程式碼片段中，請記住替換`"Your Document Directory"`與 Excel 檔案所在的路徑。此行本質上開啟您將使用的工作簿。
+在此程式碼片段中，請記住替換`"Your Document Directory"`與 Excel 檔案所在的路徑。此行實際上會開啟您將使用的工作簿。
 ## 第 2 步：訪問細胞集合
 載入工作簿後，下一步是存取第一個工作表及其儲存格集合。
 ```csharp

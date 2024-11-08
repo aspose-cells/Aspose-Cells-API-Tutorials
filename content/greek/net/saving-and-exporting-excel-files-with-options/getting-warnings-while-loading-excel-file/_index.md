@@ -77,7 +77,7 @@ private class WarningCallback : IWarningCallback
 ### Τι είναι το Aspose.Cells;
 Το Aspose.Cells είναι μια ισχυρή βιβλιοθήκη .NET για δημιουργία, χειρισμό και μετατροπή αρχείων Excel χωρίς την ανάγκη του Microsoft Excel.
 ### Μπορώ να χρησιμοποιήσω το Aspose.Cells δωρεάν;
- Ναί! Μπορείς[κατεβάστε μια δωρεάν δοκιμή](https://releases.aspose.com/) να δοκιμάσει τις δυνατότητές του.
+ Ναί! Μπορείτε[κατεβάστε μια δωρεάν δοκιμή](https://releases.aspose.com/) να δοκιμάσει τις δυνατότητές του.
 ### Πώς μπορώ να αγοράσω Aspose.Cells;
  Μπορείτε να αγοράσετε Aspose.Cells απευθείας από το δικό τους[σελίδα αγοράς](https://purchase.aspose.com/buy).
 ### Τι είδους προειδοποιήσεις μπορώ να χειριστώ;

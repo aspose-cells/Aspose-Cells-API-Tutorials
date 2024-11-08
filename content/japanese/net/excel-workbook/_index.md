@@ -73,7 +73,7 @@ Excel スキルを向上させるこのチャンスを活用してみません�
 | [Odataの詳細を取得する](./get-odata-details/) | この詳細なステップバイステップのチュートリアルでは、Aspose.Cells for .NET を使用して Excel から OData の詳細を抽出する方法を説明します。 |  
 | [共有ブックをパスワードで保護または保護解除する](./password-protect-or-unprotect-shared-workbook/) | パスワード保護と保護解除のテクニックに関する簡単なガイドに従って、Aspose.Cells for .NET を使用して共有 Excel ファイルを保護します。 |  
 | [XLSB ファイルの外部接続の読み取りと書き込み](./read-and-write-external-connection-of-xlsb-file/) | この包括的なチュートリアルでは、Aspose.Cells for .NET を使用して XLSB ファイル内の外部接続を管理する方法を学習します。 |  
-| [正規表現置換](./regex-replace/) | Aspose.Cells for .NET を使用して Excel で正規表現置換を効率的に使用する方法を学習します。スプレッドシート タスクの生産性と精度が向上します。 |  
+| [正規表現置換](./regex-replace/) | Aspose.Cells for .NET を使用して Excel で正規表現の置換を効率的に使用する方法を学習します。スプレッドシート タスクの生産性と精度が向上します。 |  
 | [Power Query 数式項目の更新](./update-power-query-formula-item/) | Aspose.Cells for .NET を使用して、Excel の Power Query 数式項目を簡単に更新できます。データ操作プロセスを効率化するためのステップ バイ ステップ ガイドです。 |  
 | [ワークブックの印刷プレビュー](./workbook-print-preview/) | Aspose.Cells for .NET を使用して Excel ファイルの印刷プレビューを作成する方法を学びます。詳細でわかりやすいチュートリアルでコーディング手順を学びます。 |  
 | [コンテンツタイプのプロパティの操作](./working-with-content-type-properties/) | Aspose.Cells for .NET を使用してコンテンツ タイプ プロパティを操作し、Excel メタデータ管理を強化する方法を学びます。この簡単なステップ バイ ステップ ガイドに従ってください。 |  

@@ -15,7 +15,7 @@ Das programmgesteuerte Erstellen und Verwalten von Excel-Dateien kann ziemlich m
 
 Bevor wir beginnen, sollten einige Voraussetzungen erfüllt sein:
 
-1. Grundkenntnisse in C#: Grundlegende Kenntnisse in C# und dem .NET-Framework werden Ihnen sicherlich dabei helfen, sich durch das Tutorial zu navigieren.
+1. Grundkenntnisse in C#: Grundlegende Kenntnisse in C# und dem .NET-Framework werden Ihnen sicherlich dabei helfen, sich im Lernprogramm zurechtzufinden.
 2.  Aspose.Cells für .NET installiert: Sie müssen die Aspose.Cells für .NET-Bibliothek installiert haben. Sie können[Laden Sie es hier herunter](https://releases.aspose.com/cells/net/).
 3. Visual Studio oder ähnliche IDE: Sie benötigen eine integrierte Entwicklungsumgebung (IDE) wie Visual Studio, um den Code zu schreiben und auszuführen.
 4. Excel-Datei: Sie sollten eine Excel-Datei haben (wie`book1.xls`) stehen in Ihrem Dokumentverzeichnis zur Bearbeitung zur Verfügung.

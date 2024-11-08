@@ -44,7 +44,7 @@ using Aspose.Cells;
 
 Teraz, gdy mamy już podstawy, możemy przejść do głównego wydarzenia.
 
-Przyjrzyjmy się bliżej przykładowi kodu, który pokazuje, jak chronić konkretne komórki w arkuszu kalkulacyjnym programu Excel.
+Przyjrzyjmy się przykładowi kodu, który pokazuje, jak chronić konkretne komórki w arkuszu kalkulacyjnym programu Excel.
 
 ## Krok 1: Konfigurowanie katalogu danych
 

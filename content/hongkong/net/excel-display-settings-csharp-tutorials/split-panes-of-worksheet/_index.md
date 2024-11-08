@@ -67,7 +67,7 @@ book.Worksheets[0].ActiveCell = "A20";
 這是整個教程的核心。透過分割工作表，您可以建立單獨的窗格，讓您可以捲動 Excel 工作表的不同部分，而不會忽略標題或其他重要區域。
 
 ```csharp
-//拆分工作表窗口
+//分割工作表視窗
 book.Worksheets[0].Split();
 ```
 

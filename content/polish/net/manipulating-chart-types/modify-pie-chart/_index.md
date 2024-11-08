@@ -42,7 +42,7 @@ Gdy projekt jest gotowy, czas dodać bibliotekę Aspose.Cells. Możesz ją zains
 
 1. W „Eksploratorze rozwiązań” kliknij prawym przyciskiem myszy swój projekt.
 2. Wybierz opcję Zarządzaj pakietami NuGet.
-3. Przejdź do zakładki Przeglądaj.
+3. Przejdź do karty Przeglądaj.
 4. Wyszukaj Aspose.Cells.
 5. Kliknij Zainstaluj i zaakceptuj wszystkie umowy licencyjne.
 

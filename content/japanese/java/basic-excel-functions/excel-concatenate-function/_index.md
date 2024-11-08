@@ -97,7 +97,7 @@ Aspose.Cells for Java を使用して Excel の異なるセルのテキストを
 
 2. 目的のセル内にテキストデータを入力します。
 
-3. 使用`setFormula`セルのテキストを連結する CONCATENATE 数式を作成する方法。
+3. 使用してください`setFormula`セルのテキストを連結する CONCATENATE 数式を作成する方法。
 
 4. ワークシート内の数式を再計算するには、`workbook.calculateFormula()`.
 

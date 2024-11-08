@@ -13,7 +13,7 @@ Aspose.Cells för .NET är ett kraftfullt bibliotek som låter utvecklare automa
 
 ## Formatera valda tecken i Excel
 
-Har du någonsin velat ändra stilen eller utseendet på endast en del av en text i en Excel-cell? Kanske feta det första ordet eller markera en specifik fras i rött? Med Aspose.Cells för .NET blir denna uppgift en bris. Biblioteket ger dig kontroll för att välja tecken i en cell och använda olika stilar som teckenstorlek, färg, djärvhet och mer.
+Har du någonsin velat ändra stilen eller utseendet på endast en del av en text i en Excel-cell? Kanske feta det första ordet eller markera en specifik fras i rött? Med Aspose.Cells för .NET blir denna uppgift en bris. Biblioteket ger dig kontroll för att välja tecken i en cell och tillämpa olika stilar som teckenstorlek, färg, djärvhet och mer.
 
 Genom att använda enkla kodsnuttar kan du snabbt förbättra läsbarheten för dina Excel-ark. Det är som att ge din data den där extra popen! Nyfiken på koden? Kolla in de detaljerade stegen i detta[handledning om formatering av valda tecken i Excel](./formatting-selected-characters/).
 

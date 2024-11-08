@@ -33,7 +33,7 @@ Na koniec porozmawiajmy o ustawianiu skalowalnych szerokości kolumn i ukrywaniu
 
 ## Zarządzanie CSS dla ulepszonego projektowania
 
- Nie zapominajmy też o mocy CSS. Zrozumienie, jak eksportować arkusz kalkulacyjny CSS oddzielnie w wyjściowym HTML, może dosłownie zmienić sposób, w jaki postrzegane są Twoje dane. Ta funkcja daje Ci pełną kontrolę nad projektem bez kolizji z formatowaniem Excela. Dzięki temu możesz tworzyć atrakcyjne wizualnie strony internetowe, które nadal są laserowo skoncentrowane na Twoich danych. Chcesz się w to zagłębić?[Dowiedz się więcej tutaj](./exporting-worksheet-css-separately/).
+ I nie zapominajmy o mocy CSS. Zrozumienie, jak eksportować arkusz kalkulacyjny CSS oddzielnie w wyjściowym HTML, może dosłownie zmienić sposób, w jaki postrzegane są Twoje dane. Ta funkcja daje Ci pełną kontrolę nad projektem bez kolizji z formatowaniem Excela. Dzięki temu możesz tworzyć wizualnie atrakcyjne strony internetowe, które nadal są laserowo skoncentrowane na Twoich danych. Chcesz się w to zagłębić?[Dowiedz się więcej tutaj](./exporting-worksheet-css-separately/).
 
 ## Nagłówki drukowania programowego
 
@@ -55,7 +55,7 @@ Stylizowanie danych tabelarycznych może poprawić czytelność i atrakcyjność
 ## Eksportowanie programu Excel do HTML z zaawansowanymi opcjami - samouczki
 ### [Wykluczanie nieużywanych stylów podczas eksportowania programu Excel do formatu HTML](./excluding-unused-styles/)
 Dowiedz się, jak wykluczyć nieużywane style podczas eksportowania plików Excel do HTML przy użyciu Aspose.Cells dla .NET, zapoznając się z tym szczegółowym przewodnikiem krok po kroku.
-### [Eksportowanie właściwości skoroszytu dokumentu i arkusza kalkulacyjnego w formacie HTML](./exporting-document-workbook-and-worksheet-properties/)
+### [Eksportowanie właściwości skoroszytu i arkusza dokumentu w formacie HTML](./exporting-document-workbook-and-worksheet-properties/)
 Dowiedz się, jak eksportować właściwości dokumentu, skoroszytu i arkusza kalkulacyjnego programu Excel do HTML przy użyciu Aspose.Cells dla .NET. Łatwy przewodnik krok po kroku w zestawie.
 ### [Eksportowanie obszaru wydruku do pliku HTML w programie Excel programowo](./exporting-print-area/)
 Naucz się eksportować określony obszar wydruku do HTML z Excela za pomocą Aspose.Cells dla .NET w tym szczegółowym przewodniku. Zoptymalizuj prezentację danych.

@@ -45,7 +45,7 @@ Nyní, když máte cestu k souboru, je čas vytvořit datový proud souboru. To 
 FileStream fstream = new FileStream(InputPath, FileMode.Open);
 ```
 Představte si tok souborů jako most spojující vaši aplikaci se souborem aplikace Excel. Bez něj by aplikace nemohla číst ani manipulovat s obsahem souboru.
-## Krok 4: Otevřete soubor aplikace Excel
+## Krok 4: Otevřete soubor Excel
  Když je proud souborů připraven, můžete soubor Excel otevřít pomocí`Workbook`třída. Tato třída představuje celý sešit aplikace Excel:
 ```csharp
 // Otevření souboru aplikace Excel prostřednictvím datového proudu souborů

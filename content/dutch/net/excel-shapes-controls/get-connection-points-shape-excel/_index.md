@@ -38,7 +38,7 @@ Workbook workbook = new Workbook();
 ## Stap 2: Toegang tot het eerste werkblad
 Vervolgens moeten we toegang krijgen tot het werkblad waar we met vormen willen werken. In dit geval gebruiken we het eerste werkblad van de werkmap.
 ```csharp
-// Ontvang het eerste werkblad in de werkmap
+// Haal het eerste werkblad in de werkmap
 Worksheet worksheet = workbook.Worksheets[0];
 ```
  Deze regel geeft toegang tot het eerste werkblad uit de verzameling werkbladen in de werkmap. Als u met een specifiek werkblad werkt, kunt u de index vervangen`0` met de gewenste index.

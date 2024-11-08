@@ -75,7 +75,7 @@ Za předpokladu, že tvar je inteligentní umění, budete jej chtít převést 
 // Převeďte tvar Smart Art na tvar skupiny
 Console.WriteLine("Is Group Shape: " + sh.GetResultOfSmartArt().IsGroup);
 ```
-Tento řádek kódu provede konverzi. Pokud bude úspěšná, vaše chytré umění má nyní tvar skupiny!
+Tento řádek kódu provede převod. Pokud bude úspěšná, vaše chytré umění má nyní tvar skupiny!
 ## Krok 8: Potvrďte provedení
 Nakonec je vždy dobré potvrdit, že vaše operace byla úspěšně dokončena.
 ```csharp

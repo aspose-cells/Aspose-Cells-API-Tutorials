@@ -2,7 +2,7 @@
 title: Infoga en rad i Aspose.Cells .NET
 linktitle: Infoga en rad i Aspose.Cells .NET
 second_title: Aspose.Cells .NET Excel Processing API
-description: Lär dig hur du infogar en rad i Excel med Aspose.Cells för .NET med denna steg-för-steg-guide. Förbättra dina färdigheter i datamanipulering utan ansträngning.
+description: Lär dig hur du infogar en rad i Excel med Aspose.Cells för .NET med denna steg-för-steg-guide. Förbättra dina färdigheter i datamanipulation utan ansträngning.
 type: docs
 weight: 23
 url: /sv/net/row-and-column-management/insert-row-aspose-cells/
@@ -85,4 +85,4 @@ Aspose.Cells stöder olika Excel-filformat, inklusive XLS, XLSX, CSV och mer.
 ### Behöver jag en licens för att använda Aspose.Cells?
  Aspose.Cells erbjuder en gratis provperiod, men för produktionsanvändning krävs en licens. Du kan få en[här](https://purchase.aspose.com/buy).
 ### Var kan jag hitta support för Aspose.Cells?
- Du kan få support och ställa frågor i[Aspose.Cells forum](https://forum.aspose.com/c/cells/9).
+ Du kan få stöd och ställa frågor i[Aspose.Cells forum](https://forum.aspose.com/c/cells/9).

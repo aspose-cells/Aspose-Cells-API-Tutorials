@@ -88,11 +88,11 @@ tomto článku jsme prozkoumali, jak používat funkci Excel MAX pomocí Aspose.
 
 ### Jaký je rozdíl mezi funkcemi MAX a MAXA v Excelu?
 
-Funkce MAX najde maximální číselnou hodnotu v rozsahu, zatímco funkce MAXA bere v úvahu číselné i textové hodnoty. Pokud vaše data mohou obsahovat nenumerické položky, je lepší volbou MAXA.
+Funkce MAX najde maximální číselnou hodnotu v rozsahu, zatímco funkce MAXA bere v úvahu číselné i textové hodnoty. Pokud vaše data mohou obsahovat nečíselné položky, je MAXA lepší volbou.
 
 ### Mohu použít funkci MAX s podmíněnými kritérii?
 
-Ano, můžete. Funkci MAX můžete kombinovat s logickými funkcemi, jako je IF, abyste našli maximální hodnotu na základě specifických podmínek.
+Ano, můžete. Funkci MAX můžete kombinovat s logickými funkcemi, jako je IF, abyste našli maximální hodnotu na základě konkrétních podmínek.
 
 ### Jak se vypořádám s chybami při použití funkce MAX v Aspose.Cells?
 

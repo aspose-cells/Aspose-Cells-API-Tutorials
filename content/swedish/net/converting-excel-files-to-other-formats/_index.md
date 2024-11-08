@@ -21,7 +21,7 @@ För utvecklare som arbetar med Excel-filer i .NET kan effektiv filomvandling va
 
 4. [Konvertera Excel-fil till PDF (A-1a) Programmatiskt i .NET](./converting-excel-file-to-pdf-a-1a/): Konvertering av filer till PDF/A-1a säkerställer långtidsbevarande av dina data. Den här handledningen guidar dig genom konverteringsprocessen och beskriver kodexempel för att skapa PDF/A-1a-filer för säker arkivering.
 
-5. [Spåra dokumentkonverteringsförlopp Programmatiskt i .NET](./tracking-document-conversion-progress/): Övervaka konverteringsförlopp i realtid! Aspose.Cells för .NET innehåller funktioner som låter dig spåra och hantera dokumentkonvertering, vilket håller processer transparenta och effektiva.
+5. [Spåra dokumentkonverteringsförlopp Programmatiskt i .NET](./tracking-document-conversion-progress/): Övervaka konverteringens framsteg i realtid! Aspose.Cells för .NET innehåller funktioner som låter dig spåra och hantera dokumentkonvertering, vilket håller processer transparenta och effektiva.
 
 ## Konvertera Excel-filer till TIFF, PPTX och mer
 

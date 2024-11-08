@@ -9,7 +9,7 @@ url: /pt/net/excel-merging-unmerging-cells/
 ---
 ## Introdução
 
-Vamos começar com o básico sobre mesclar e desmesclar células no Excel. Às vezes, você pode querer apresentar seus dados em um formato mais legível, que é onde a mesclagem de células entra. Pense nisso como criar um lindo banner para seus dados. Em vez de ter uma fileira de células desarticuladas, a mesclagem permite que você transforme várias células em uma célula grande. Isso não só fornece uma aparência mais limpa, mas também facilita o destaque de cabeçalhos ou categorias. Se você está pronto para levar seu jogo do Excel a um nível superior, você veio ao lugar certo!
+Vamos começar com o básico sobre mesclar e desmesclar células no Excel. Às vezes, você pode querer apresentar seus dados em um formato mais legível, que é onde a mesclagem de células entra. Pense nisso como criar um lindo banner para seus dados. Em vez de ter uma linha de células desarticuladas, a mesclagem permite que você transforme várias células em uma célula grande. Isso não só fornece uma aparência mais limpa, mas também facilita o destaque de cabeçalhos ou categorias. Se você está pronto para levar seu jogo do Excel a um nível superior, você veio ao lugar certo!
 
 ## O poder do Aspose.Cells para .NET
 
